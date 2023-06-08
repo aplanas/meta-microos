@@ -1,0 +1,21 @@
+SUMMARY = "Development files for geocode-glib, a library for the Yahoo Place Finder APIs"
+DESCRIPTION = "The geocode-glib library is a convenience library for the Yahoo! Place \
+Finder APIs, as described at http://developer.yahoo.com/geo/placefinder/ \
+ \
+The Place Finder web service allows to do geocoding (finding longitude \
+and latitude from an address), and reverse geocoding (finding an address \
+from coordinates). \
+ \
+This package contains development files needed to develop with the \
+geocode-glib library."
+LICENSE = "LGPL-2.0-or-later"
+
+PV = "3.26.4"
+
+RPM_NAME = "geocode-glib-devel-3.26.4-1.4.aarch64.rpm"
+RPM_HASH = "4f151d5799aa6ab282d2b9c007fa5d6dfb73f5cf69abfa07bbb992ac2125468324bb558868626e3610edaf042e2f1ea8f7f728e203906a34a68bb4c11177f4af"
+
+RPROVIDES:${PN} += "geocode-glib-devel geocode-glib-devel(aarch-64) pkgconfig(geocode-glib-2.0)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config libgeocode-glib-2-0 pkgconfig(gio-2.0) typelib-1_0-GeocodeGlib-2_0"
+
+inherit rpm

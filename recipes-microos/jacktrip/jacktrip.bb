@@ -1,0 +1,16 @@
+SUMMARY = "Multi-machine network music performance over the Internet"
+DESCRIPTION = "JackTrip is a system used for multi-machine network performance over the \
+Internet. It supports any number of channels (as many as the \
+computer/network can handle) of bidirectional, high quality, uncompressed \
+audio signal streaming."
+LICENSE = "MIT"
+
+PV = "1.8.1"
+
+RPM_NAME = "jacktrip-1.8.1-1.1.aarch64.rpm"
+RPM_HASH = "34b624d8b369e22e0c69afd0e50065d5d916d68c59c7306c6fa72b491bc2df38f322b9867fc8e4a479b6169c1802b5aab6ada911998bfa4eed4427d8cc651b1c"
+
+RPROVIDES:${PN} += "application() application(org.jacktrip.JackTrip.desktop) jacktrip jacktrip(aarch-64) metainfo() metainfo(org.jacktrip.JackTrip.metainfo.xml) mimehandler(application/jacktrip) mimehandler(x-scheme-handler/jacktrip)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5Gui.so.5()(64bit) libQt5Gui.so.5(Qt_5)(64bit) libQt5Network.so.5()(64bit) libQt5Network.so.5(Qt_5)(64bit) libQt5NetworkAuth.so.5()(64bit) libQt5NetworkAuth.so.5(Qt_5)(64bit) libQt5Qml.so.5()(64bit) libQt5Qml.so.5(Qt_5)(64bit) libQt5Quick.so.5()(64bit) libQt5Quick.so.5(Qt_5)(64bit) libQt5WebSockets.so.5()(64bit) libQt5WebSockets.so.5(Qt_5)(64bit) libQt5Widgets.so.5()(64bit) libQt5Widgets.so.5(Qt_5)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libjack.so.0()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit) librtaudio.so.6()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.14)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.18)(64bit) libstdc++.so.6(GLIBCXX_3.4.19)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+
+inherit rpm

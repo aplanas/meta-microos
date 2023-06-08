@@ -1,0 +1,19 @@
+SUMMARY = "Transport Layer Security protocol suite"
+DESCRIPTION = "mbedtls implements the SSL 3.0, TLS 1.0, 1.1 and 1.2 protocols. It \
+supports a number of extensions such as SSL Session Tickets (RFC \
+5077), Server Name Indication (SNI) (RFC 6066), Truncated HMAC (RFC \
+6066), Max Fragment Length (RFC 6066), Secure Renegotiation (RFC \
+5746) and Application Layer Protocol Negotiation (ALPN). It \
+understands the RSA, (EC)DH(E)-RSA, (EC)DH(E)-PSK and RSA-PSK key \
+exchanges."
+LICENSE = "Apache-2.0"
+
+PV = "3.4.0"
+
+RPM_NAME = "libmbedtls19-3.4.0-2.1.aarch64.rpm"
+RPM_HASH = "ce7af9285bf181b583c7a979f50ae425684a0764d0110583ac8cc655c353f0377dcba6f474227657d86e88b7aec25b73fcae4ad1a764580cc5b5db4169879386"
+
+RPROVIDES:${PN} += "libmbedtls.so.19()(64bit) libmbedtls19 libmbedtls19(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libmbedcrypto.so.14()(64bit) libmbedx509.so.5()(64bit)"
+
+inherit rpm

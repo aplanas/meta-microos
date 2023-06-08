@@ -1,0 +1,13 @@
+SUMMARY = "Akonadi Private Server library"
+DESCRIPTION = "This package includes the Private Akonadi library for Akonadi, the KDE PIM storage service."
+LICENSE = "LGPL-2.1-or-later"
+
+PV = "23.04.0"
+
+RPM_NAME = "libKPim5AkonadiPrivate5-23.04.0-2.1.aarch64.rpm"
+RPM_HASH = "e76bd518dcaec0d4ede098932a437b3dcd931d15dd8ee5b43d7989a495c795eed48a23b3f95d8d129ef25bd944718b59b2299be40b3cdc6304eb1dd8d4240cec"
+
+RPROVIDES:${PN} += "libKPim5AkonadiPrivate.so.5()(64bit) libKPim5AkonadiPrivate5 libKPim5AkonadiPrivate5(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) liblzma.so.5()(64bit) liblzma.so.5(XZ_5.0)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+
+inherit rpm

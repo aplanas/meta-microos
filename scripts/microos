@@ -1,0 +1,193 @@
+#!/usr/bin/env python3
+"""Read the MicroOS repository and translate the RPM packages into Yocto packages"""
+import argparse
+import gzip
+import pathlib
+import shutil
+import sys
+import urllib.error
+import urllib.parse
+import urllib.request
+import xml.etree.ElementTree as ET
+from dataclasses import dataclass
+
+
+REPO = {
+    "x86_64": "https://download.opensuse.org/tumbleweed/repo/oss/",
+    "aarch64": "https://download.opensuse.org/ports/aarch64/tumbleweed/repo/oss/",
+}
+
+
+@dataclass
+class Package:
+    name: str
+    pv: str
+    summary: str
+    description: str
+    src_uri: str
+    sha512sum: str
+    license: str
+    rprovides: list[str]
+    rdepends: list[str]
+
+
+def read_and_parse(url):
+    with urllib.request.urlopen(url) as resp:
+        if url.endswith(".gz"):
+            return ET.parse(gzip.open(resp)).getroot()
+        else:
+            return ET.parse(resp).getroot()
+
+
+def primary_xml(url):
+    repomd_url = urllib.parse.urljoin(url, "repodata/repomd.xml")
+    print("Reading repomd.xml ...")
+    repomd_xml = read_and_parse(repomd_url)
+    location = repomd_xml.find(
+        "./{http://linux.duke.edu/metadata/repo}data[@type='primary']/{http://linux.duke.edu/metadata/repo}location"
+    )
+    if location is None:
+        print("Error. Primary location tag not found", file=sys.stderr)
+        return []
+    primary_url = urllib.parse.urljoin(url, location.attrib["href"])
+    print("Reading primary.xml ...")
+    return read_and_parse(primary_url)
+
+
+def generate_package_info(url):
+    packages_xml = primary_xml(url).findall(
+        "./{http://linux.duke.edu/metadata/common}package[@type='rpm']"
+    )
+    print(f"Found {len(packages_xml)} packages")
+
+    packages = []
+
+    print("Generating package list ...")
+    for package_xml in packages_xml:
+        name = package_xml.find("{http://linux.duke.edu/metadata/common}name").text
+        version = package_xml.find(
+            "{http://linux.duke.edu/metadata/common}version"
+        ).attrib["ver"]
+        checksum = package_xml.find(
+            "{http://linux.duke.edu/metadata/common}checksum"
+        ).text
+        summary = package_xml.find(
+            "{http://linux.duke.edu/metadata/common}summary"
+        ).text
+        description = package_xml.find(
+            "{http://linux.duke.edu/metadata/common}description"
+        ).text
+        location = package_xml.find(
+            "{http://linux.duke.edu/metadata/common}location"
+        ).attrib["href"]
+        location = urllib.parse.urljoin(url, location)
+        license = package_xml.find(
+            "{http://linux.duke.edu/metadata/common}format/"
+            "{http://linux.duke.edu/metadata/rpm}license"
+        ).text
+        provides = package_xml.findall(
+            "{http://linux.duke.edu/metadata/common}format/"
+            "{http://linux.duke.edu/metadata/rpm}provides/"
+            "{http://linux.duke.edu/metadata/rpm}entry"
+        )
+        provides = [entry.attrib["name"] for entry in provides]
+        requires = package_xml.findall(
+            "{http://linux.duke.edu/metadata/common}format/"
+            "{http://linux.duke.edu/metadata/rpm}requires/"
+            "{http://linux.duke.edu/metadata/rpm}entry"
+        )
+        requires = [entry.attrib["name"] for entry in requires]
+
+        packages.append(
+            Package(
+                name=name,
+                pv=version,
+                summary=summary,
+                description=description,
+                src_uri=location,
+                sha512sum=checksum,
+                license=license,
+                rprovides=sorted(set(provides)),
+                rdepends=sorted(set(requires)),
+            )
+        )
+
+    return packages
+
+
+def normalize_pn(name):
+    return name.lower().replace("_", "-")
+
+
+def normalize_text(text):
+    text = text.replace('"', "'").replace("\\", "\\\\")
+    return " \\\n".join(line for line in text.split("\n"))
+
+
+def license(lic):
+    return (
+        lic.replace(" AND ", " & ")
+        .replace(" and ", " & ")
+        .replace(" OR ", " | ")
+        .replace(" or ", " | ")
+        .replace(" WITH ", "-WITH-")
+        .replace(" with ", "-WITH-")
+    )
+
+
+def update_recipes(recipes, packages):
+    for package in packages:
+        recipe = recipes / package.name
+        recipe.mkdir(exist_ok=True)
+        with (recipe / f"{normalize_pn(package.name)}.bb").open("w") as f:
+            if package.summary:
+                f.write(f'SUMMARY = "{normalize_text(package.summary)}"\n')
+            if package.description:
+                f.write(f'DESCRIPTION = "{normalize_text(package.description)}"\n')
+            f.write(f'LICENSE = "{license(package.license)}"\n')
+            f.write("\n")
+            f.write(f'PV = "{package.pv}"\n')
+            f.write("\n")
+            path = pathlib.Path(urllib.parse.urlparse(package.src_uri).path)
+            f.write(f'RPM_NAME = "{path.name}"\n')
+            f.write(f'RPM_HASH = "{package.sha512sum}"\n')
+            arch = path.parent.name
+            if arch != "aarch64":
+                f.write(f'REPO_ARCH = "{arch}"\n')
+            f.write("\n")
+            f.write(f'RPROVIDES:${{PN}} += "{" ".join(package.rprovides)}"\n')
+            f.write(f'RDEPENDS:${{PN}} += "{" ".join(package.rdepends)}"\n')
+            f.write("\n")
+            f.write("inherit rpm\n")
+
+
+def prune_recipes(recipes, packages):
+    packages = {p.name for p in packages}
+    for r in recipes.iterdir():
+        if r.is_dir() and r.name not in packages:
+            shutil.rmtree(r)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Syncronize MicroOS repository")
+    parser.add_argument(
+        "-a",
+        "--arch",
+        default="aarch64",
+        choices=REPO.keys(),
+        help="Select repository architecture (default: aarch64)",
+    )
+
+    parser.add_argument(
+        "-r",
+        "--recipes",
+        default="recipes-microos",
+        type=pathlib.Path,
+        help="Yocto recipe directory to synchronize",
+    )
+
+    args = parser.parse_args()
+
+    packages = generate_package_info(REPO[args.arch])
+    update_recipes(args.recipes, packages)
+    prune_recipes(args.recipes, packages)

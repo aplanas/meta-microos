@@ -1,0 +1,16 @@
+SUMMARY = "PyQt - devel part of python bindings for Qt 6"
+DESCRIPTION = "PyQt is a set of Python bindings for the Qt framework. \
+ \
+This package contains all the developer tools you need to create your \
+own PyQt applications"
+LICENSE = "GPL-3.0-only | SUSE-GPL-2.0-with-FLOSS-exception | NonFree"
+
+PV = "6.5.0"
+
+RPM_NAME = "python311-PyQt6-devel-6.5.0-1.1.aarch64.rpm"
+RPM_HASH = "4094b67412ca2569641ff8c0e8224a81c6c14a27196e02849ef174a385052fea2c34817cf80a62f22a8bdbc6ddf9243a2587950881b1fc61544c749e74b289e7"
+
+RPROVIDES:${PN} += "libpy3.11qt6.so()(64bit) python311-PyQt6-devel python311-PyQt6-devel(aarch-64) python311-qt6-devel"
+RDEPENDS:${PN} += "/bin/sh cmake(Qt6Bluetooth) cmake(Qt6Designer) cmake(Qt6Help) cmake(Qt6Multimedia) cmake(Qt6MultimediaWidgets) cmake(Qt6Nfc) cmake(Qt6Positioning) cmake(Qt6Qml) cmake(Qt6Quick) cmake(Qt6Quick3D) cmake(Qt6Quick3DRuntimeRender) cmake(Qt6QuickWidgets) cmake(Qt6RemoteObjects) cmake(Qt6Sensors) cmake(Qt6SerialPort) cmake(Qt6Svg) cmake(Qt6WebChannel) cmake(Qt6WebSockets) ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt6Core.so.6()(64bit) libQt6Core.so.6(Qt_6)(64bit) libQt6Core.so.6(Qt_6.5)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libpython3.11.so.1.0()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) python(abi) python311-PyQt6 python311-dbus-python-devel python311-devel qt6-base-devel qt6-macros update-alternatives"
+
+inherit rpm

@@ -1,0 +1,28 @@
+SUMMARY = "A simple SQL tokenizer"
+DESCRIPTION = "SQL::Tokenizer is a simple tokenizer for SQL queries. It does not claim to \
+be a parser or query verifier. It just creates sane tokens from a valid SQL \
+query. \
+ \
+It supports SQL with comments like: \
+ \
+ -- This query is used to insert a message into \
+ -- logs table \
+ INSERT INTO log (application, message) VALUES (?, ?) \
+ \
+Also supports '''', '''' and '\\'' escaping methods, so tokenizing queries \
+like the one below should not be a problem: \
+ \
+ INSERT INTO log (application, message) \
+ VALUES ('myapp', 'Hey, this is a ''single quoted string''!')"
+LICENSE = "Artistic-1.0 | GPL-1.0+"
+
+PV = "0.24"
+
+RPM_NAME = "perl-SQL-Tokenizer-0.24-1.26.noarch.rpm"
+RPM_HASH = "59b70c3f634bafb712f5ee6f63ee5dc4a1c93645318631fdb867f15125962226166f69ee301538fc1cb74eccf17f7fb4015b6704599c363c9c425a83bddd0745"
+REPO_ARCH = "noarch"
+
+RPROVIDES:${PN} += "perl(SQL::Tokenizer) perl-SQL-Tokenizer"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+
+inherit rpm

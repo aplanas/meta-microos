@@ -1,0 +1,35 @@
+REPO_URL ?= "https://download.opensuse.org/ports/aarch64/tumbleweed/repo/oss"
+# This part correspond to the last bit of the repository URL.  Possibe
+# values are "aarch64", "noarch"
+REPO_ARCH ?= "aarch64"
+
+SRC_URI = "${REPO_URL}/${REPO_ARCH}/${RPM_NAME};subdir=unrpm"
+SRC_URI[sha512sum] = "${RPM_HASH}"
+
+S = "${WORKDIR}/unrpm"
+
+FILES:${PN} += "*"
+
+# QA complains that binaries are already stripped
+INSANE_SKIP:${PN} += "already-stripped"
+
+# Do not build extra packages (document better)
+INHIBIT_DEFAULT_DEPS = "1"
+    
+do_install () {
+    cp -a ${S}/* ${D}
+    # The fetch task calls rpm2cpio.sh under the normal user.  Should
+    # be set to root (via fakeroot) to avoid QA complains
+    chown -R root:root ${D}/*
+}
+
+do_package_write_rpm () {
+    # Copy the original RPM into deploy-rpm instead of generating a
+    # new open based on the install task.  Do not avoid the package
+    # task, as this is the one that creates the sstage data
+    cp ${DL_DIR}/${RPM_NAME} ${PKGWRITEDIRRPM}/${PACKAGE_ARCH_EXTEND}
+}
+
+do_compile[noexec] = "1"
+do_package_qa[noexec] = "1"
+do_populate_lic[noexec] = "1"

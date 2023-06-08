@@ -1,0 +1,25 @@
+SUMMARY = "Get stock and mutual fund quotes from various exchanges"
+DESCRIPTION = "This module gets stock quotes from various internet sources all over the \
+world. Quotes are obtained by constructing a quoter object and using the \
+fetch method to gather data, which is returned as a two-dimensional hash \
+(or a reference to such a hash, if called in a scalar context). For \
+example: \
+ \
+    $q = Finance::Quote->new; \
+    %info = $q->fetch('australia', 'CML'); \
+    print 'The price of CML is '.$info{'CML', 'price'}; \
+ \
+The first part of the hash (eg, 'CML') is referred to as the stock. The \
+second part (in this case, 'price') is referred to as the label."
+LICENSE = "GPL-2.0-or-later"
+
+PV = "1.51"
+
+RPM_NAME = "perl-Finance-Quote-1.51-1.9.noarch.rpm"
+RPM_HASH = "49b668ed020b8a552e0e2b74f09f0574ee38e1b90c614101125b7dc83cbec93acc2c311e3792c34dec964d5531f5d45626b3b0f4b837f54ca909ab17c9cc8955"
+REPO_ARCH = "noarch"
+
+RPROVIDES:${PN} += "perl(Finance::Quote) perl(Finance::Quote::AEX) perl(Finance::Quote::ASEGR) perl(Finance::Quote::ASX) perl(Finance::Quote::AlphaVantage) perl(Finance::Quote::BSEIndia) perl(Finance::Quote::Bloomberg) perl(Finance::Quote::Bourso) perl(Finance::Quote::CSE) perl(Finance::Quote::Cdnfundlibrary) perl(Finance::Quote::Comdirect) perl(Finance::Quote::Currencies) perl(Finance::Quote::CurrencyRates::AlphaVantage) perl(Finance::Quote::CurrencyRates::ECB) perl(Finance::Quote::CurrencyRates::Fixer) perl(Finance::Quote::CurrencyRates::OpenExchange) perl(Finance::Quote::DWS) perl(Finance::Quote::Deka) perl(Finance::Quote::FTfunds) perl(Finance::Quote::Fidelity) perl(Finance::Quote::Finanzpartner) perl(Finance::Quote::Fondsweb) perl(Finance::Quote::Fool) perl(Finance::Quote::Fundata) perl(Finance::Quote::GoldMoney) perl(Finance::Quote::HU) perl(Finance::Quote::IEXCloud) perl(Finance::Quote::IndiaMutual) perl(Finance::Quote::MStaruk) perl(Finance::Quote::MorningstarAU) perl(Finance::Quote::MorningstarJP) perl(Finance::Quote::NSEIndia) perl(Finance::Quote::NZX) perl(Finance::Quote::OnVista) perl(Finance::Quote::Oslobors) perl(Finance::Quote::SEB) perl(Finance::Quote::SIX) perl(Finance::Quote::TMX) perl(Finance::Quote::TSP) perl(Finance::Quote::Tiaacref) perl(Finance::Quote::Tradeville) perl(Finance::Quote::Troweprice) perl(Finance::Quote::USFedBonds) perl(Finance::Quote::Union) perl(Finance::Quote::UserAgent) perl(Finance::Quote::XETRA) perl(Finance::Quote::YahooJSON) perl(Finance::Quote::ZA) perl-Finance-Quote"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(DateTime) perl(DateTime::Format::Strptime) perl(HTML::TableExtract) perl(HTML::TokeParser) perl(HTML::TokeParser::Simple) perl(HTML::TreeBuilder) perl(HTML::TreeBuilder::XPath) perl(HTTP::Cookies) perl(HTTP::Headers) perl(HTTP::Request) perl(HTTP::Request::Common) perl(HTTP::Status) perl(IO::Uncompress::Unzip) perl(JSON) perl(LWP::Simple) perl(LWP::UserAgent) perl(Module::Load) perl(Spreadsheet::XLSX) perl(String::Util) perl(Text::Template) perl(Time::Piece) perl(Time::Seconds) perl(Try::Tiny) perl(Web::Scraper) perl(XML::LibXML)"
+
+inherit rpm

@@ -1,0 +1,14 @@
+SUMMARY = "A C++11 HTTP/HTTPS library"
+DESCRIPTION = "This is a multi-threaded HTTP library with blocking I/O. There is no \
+support for non-blocking mode."
+LICENSE = "MIT"
+
+PV = "0.12.0"
+
+RPM_NAME = "libcpp-httplib0_12-0.12.0-1.3.aarch64.rpm"
+RPM_HASH = "7a25a3dd2dcc59c548e03d400f77f66b296431f94e2dca41c8dc551a66004821358efebca9a32759f76d7d3db0d88d56cebd465ba954d35ebb933da3f3795ffb"
+
+RPROVIDES:${PN} += "libcpp-httplib.so.0.12()(64bit) libcpp-httplib0_12 libcpp-httplib0_12(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbrotlidec.so.1()(64bit) libbrotlienc.so.1()(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.13)(64bit) libstdc++.so.6(CXXABI_1.3.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.14)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.17)(64bit) libstdc++.so.6(GLIBCXX_3.4.18)(64bit) libstdc++.so.6(GLIBCXX_3.4.19)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.22)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.30)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) libz.so.1()(64bit)"
+
+inherit rpm

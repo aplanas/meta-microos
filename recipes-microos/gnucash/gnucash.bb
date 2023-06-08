@@ -1,0 +1,25 @@
+SUMMARY = "Personal Finance Manager"
+DESCRIPTION = "GnuCash is a personal finance manager. A check book-like register GUI \
+allows you to enter and track bank accounts, stocks, income, and even \
+currency trades. \
+ \
+Feature Highlights: \
+ \
+ * Double-Entry Accounting; \
+ * Stock/Bond/Mutual Fund Accounts; \
+ * Small-Business Accounting; \
+ * Reports, Graphs; \
+ * QIF/OFX/HBCI Import, Transaction Matching; \
+ * Scheduled Transactions; \
+ * Financial Calculations."
+LICENSE = "SUSE-GPL-2.0-with-openssl-exception | SUSE-GPL-3.0-with-openssl-exception"
+
+PV = "4.14"
+
+RPM_NAME = "gnucash-4.14-1.2.aarch64.rpm"
+RPM_HASH = "728df89fdaaeac46cebec99a95fdbd25c249f269f2e18cc566ca09a790dc1348a1e3d44ebefa5d7b6f12aab6cf76db88c8411737a47aed3e2981a8929bac6521"
+
+RPROVIDES:${PN} += "application() application(gnucash.desktop) config(gnucash) gnucash gnucash(aarch-64) libgnc-app-utils.so()(64bit) libgnc-backend-sql.so()(64bit) libgnc-backend-xml-utils.so()(64bit) libgnc-bi-import.so()(64bit) libgnc-core-utils.so()(64bit) libgnc-csv-export.so()(64bit) libgnc-csv-import.so()(64bit) libgnc-customer-import.so()(64bit) libgnc-engine.so()(64bit) libgnc-generic-import.so()(64bit) libgnc-gnome-search.so()(64bit) libgnc-gnome-utils.so()(64bit) libgnc-gnome.so()(64bit) libgnc-html.so()(64bit) libgnc-ledger-core.so()(64bit) libgnc-locale-tax.so()(64bit) libgnc-log-replay.so()(64bit) libgnc-module.so()(64bit) libgnc-qif-import.so()(64bit) libgnc-register-core.so()(64bit) libgnc-register-gnome.so()(64bit) libgnc-report.so()(64bit) libgncmod-aqbanking.so()(64bit) libgncmod-backend-dbi.so()(64bit) libgncmod-backend-xml.so()(64bit) libgncmod-ofx.so()(64bit) libgncmod-python.so()(64bit) libgnucash-guile.so()(64bit) metainfo() metainfo(gnucash.appdata.xml) mimehandler(application/x-gnucash)"
+RDEPENDS:${PN} += "/sbin/ldconfig /usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libaqbanking.so.44()(64bit) libboost_filesystem.so.1.82.0()(64bit) libboost_locale.so.1.82.0()(64bit) libboost_program_options.so.1.82.0()(64bit) libc.so.6(GLIBC_2.34)(64bit) libcairo.so.2()(64bit) libdbi.so.3()(64bit) libdbi.so.3(ABI_3)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgdk-3.so.0()(64bit) libgdk_pixbuf-2.0.so.0()(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgmodule-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgtk-3.so.0()(64bit) libguile-3.0.so.1()(64bit) libguile-3.0.so.1(GUILE_2.0)(64bit) libgwengui-gtk3.so.79()(64bit) libgwenhywfar.so.79()(64bit) libicui18n.so.72()(64bit) libicuuc.so.72()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit) libofx.so.7()(64bit) libpango-1.0.so.0()(64bit) libpangocairo-1.0.so.0()(64bit) libpython3.10.so.1.0()(64bit) libsecret-1.so.0()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.2)(64bit) libstdc++.so.6(CXXABI_1.3.5)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.18)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.26)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) libwebkit2gtk-4.1.so.0()(64bit) libxml2.so.2()(64bit) libxml2.so.2(LIBXML2_2.4.30)(64bit) libxml2.so.2(LIBXML2_2.6.0)(64bit) libz.so.1()(64bit)"
+
+inherit rpm

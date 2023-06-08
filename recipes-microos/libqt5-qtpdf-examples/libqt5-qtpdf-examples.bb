@@ -1,0 +1,13 @@
+SUMMARY = "Qt5 PDF examples"
+DESCRIPTION = "Examples for the libqt5-qtpdf module."
+LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
+
+PV = "5.15.13"
+
+RPM_NAME = "libqt5-qtpdf-examples-5.15.13-3.2.aarch64.rpm"
+RPM_HASH = "ab517a46d9e0b9dd30e06f1a71e5fe86aca8a6148757ec82415776dd45d56482837ab8616d1decb90791be1e638b8ec56bbdb7f7c2d2aa6fb8094581dea8fe07"
+
+RPROVIDES:${PN} += "libqt5-qtpdf-examples libqt5-qtpdf-examples(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5Gui.so.5()(64bit) libQt5Gui.so.5(Qt_5)(64bit) libQt5Pdf.so.5()(64bit) libQt5Pdf.so.5(Qt_5)(64bit) libQt5PdfWidgets.so.5()(64bit) libQt5PdfWidgets.so.5(Qt_5)(64bit) libQt5Qml.so.5()(64bit) libQt5Qml.so.5(Qt_5)(64bit) libQt5Widgets.so.5()(64bit) libQt5Widgets.so.5(Qt_5)(64bit) libc.so.6(GLIBC_2.34)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) qt5qmlimport(Qt.labs.animation.1) qt5qmlimport(Qt.labs.platform.1) qt5qmlimport(QtQml.2) qt5qmlimport(QtQuick.2) qt5qmlimport(QtQuick.Controls.2) qt5qmlimport(QtQuick.Layouts.1) qt5qmlimport(QtQuick.Pdf.5) qt5qmlimport(QtQuick.Shapes.1) qt5qmlimport(QtQuick.Window.2)"
+
+inherit rpm

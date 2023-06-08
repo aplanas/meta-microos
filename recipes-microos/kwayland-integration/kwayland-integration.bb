@@ -1,0 +1,13 @@
+SUMMARY = "Integration plugins for various KDE frameworks for wayland windowing system"
+DESCRIPTION = "Provides integration plugins for various KDE frameworks for the wayland windowing system."
+LICENSE = "LGPL-2.1-or-later"
+
+PV = "5.27.4"
+
+RPM_NAME = "kwayland-integration-5.27.4-1.2.aarch64.rpm"
+RPM_HASH = "67ccf3dbfa1f8276963ff3783b6c84999dadc6a25bf262564110e76ae6cd85b6448b5e754458bc8a054461ae34cfb197c91f857890ef7db2394bcacea9660f43"
+
+RPROVIDES:${PN} += "kwayland-integration kwayland-integration(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libKF5WaylandClient.so.5()(64bit) libKF5WindowSystem.so.5()(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5Gui.so.5()(64bit) libQt5Gui.so.5(Qt_5)(64bit) libQt5Gui.so.5(Qt_5.15.9_PRIVATE_API)(64bit) libQt5WaylandClient.so.5()(64bit) libQt5WaylandClient.so.5(Qt_5.15.9_PRIVATE_API)(64bit) libc.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libwayland-client.so.0()(64bit)"
+
+inherit rpm

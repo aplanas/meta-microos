@@ -1,0 +1,14 @@
+SUMMARY = "Translations for package colord-kde"
+DESCRIPTION = "Provides translations for the 'colord-kde' package."
+LICENSE = "GPL-2.0-or-later"
+
+PV = "23.04.0"
+
+RPM_NAME = "colord-kde-lang-23.04.0-1.1.noarch.rpm"
+RPM_HASH = "316dd60c4fd28efecb417848749c4e66c0fc45f235cb79d6e24e3ed9ab96fbb6c1127171815ec0734fd3effea2cb5bbf0bc45b8f6c0b4922fd696e56953cb1ad"
+REPO_ARCH = "noarch"
+
+RPROVIDES:${PN} += "colord-kde-lang colord-kde-lang-all locale(colord-kde:ar) locale(colord-kde:az) locale(colord-kde:bg) locale(colord-kde:bs) locale(colord-kde:ca) locale(colord-kde:ca@valencia) locale(colord-kde:cs) locale(colord-kde:da) locale(colord-kde:de) locale(colord-kde:el) locale(colord-kde:en_GB) locale(colord-kde:es) locale(colord-kde:et) locale(colord-kde:eu) locale(colord-kde:fi) locale(colord-kde:fr) locale(colord-kde:ga) locale(colord-kde:gl) locale(colord-kde:hu) locale(colord-kde:id) locale(colord-kde:it) locale(colord-kde:ja) locale(colord-kde:ka) locale(colord-kde:km) locale(colord-kde:ko) locale(colord-kde:lt) locale(colord-kde:mr) locale(colord-kde:nl) locale(colord-kde:nn) locale(colord-kde:pa) locale(colord-kde:pl) locale(colord-kde:pt) locale(colord-kde:pt_BR) locale(colord-kde:ro) locale(colord-kde:ru) locale(colord-kde:sk) locale(colord-kde:sl) locale(colord-kde:sv) locale(colord-kde:ta) locale(colord-kde:tr) locale(colord-kde:ug) locale(colord-kde:uk) locale(colord-kde:zh_CN) locale(colord-kde:zh_TW)"
+RDEPENDS:${PN} += "colord-kde"
+
+inherit rpm
