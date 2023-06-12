@@ -135,8 +135,13 @@ def license(lic):
     )
 
 
-def package_list(pkgs):
-    return " \\\n".join(pkgs)
+def normalize_pkgs(pkgs):
+    prefixes = ["weakremover("]
+
+    def _ignore(pkg):
+        return any(pkg.startswith(prefix) for prefix in prefixes)
+
+    return " \\\n".join(pkg for pkg in pkgs if not _ignore(pkg))
 
 
 def update_recipes(recipes, packages):
@@ -159,8 +164,8 @@ def update_recipes(recipes, packages):
             if arch != "aarch64":
                 f.write(f'REPO_ARCH = "{arch}"\n')
             f.write("\n")
-            f.write(f'RPROVIDES:${{PN}} += "{package_list(package.rprovides)}"\n')
-            f.write(f'RDEPENDS:${{PN}} += "{package_list(package.rdepends)}"\n')
+            f.write(f'RPROVIDES:${{PN}} += "{normalize_pkgs(package.rprovides)}"\n')
+            f.write(f'RDEPENDS:${{PN}} += "{normalize_pkgs(package.rdepends)}"\n')
             f.write("\n")
             f.write("inherit rpm\n")
 
