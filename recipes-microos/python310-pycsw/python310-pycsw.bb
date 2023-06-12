@@ -13,7 +13,19 @@ RPM_NAME = "python310-pycsw-2.6.1-1.4.noarch.rpm"
 RPM_HASH = "6b7ad0a51ace1732e04e8884ec983f30350839c6f0bad94b1029a692e8b4b000258200be7f219c49c665d153f87255496de4fc5cbaf12392fe20735825e30a48"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pycsw python3.10dist(pycsw) python310-pycsw python3dist(pycsw)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-OWSLib python310-Shapely python310-geolinks python310-lxml python310-pyproj python310-xmltodict update-alternatives"
+RPROVIDES:${PN} += "python3-pycsw \
+python3.10dist(pycsw) \
+python310-pycsw \
+python3dist(pycsw)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-OWSLib \
+python310-Shapely \
+python310-geolinks \
+python310-lxml \
+python310-pyproj \
+python310-xmltodict \
+update-alternatives"
 
 inherit rpm

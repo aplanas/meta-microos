@@ -14,7 +14,23 @@ RPM_NAME = "frescobaldi-3.3.0-1.1.noarch.rpm"
 RPM_HASH = "e010f204d024a5464746a53ee2230654eb38a30d2d4213096373843cfff35ef7733c6334db2e02a297f70cd0dcfad47fabb265a81b4a4e9dbd6b6fe4a6db0cf5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(org.frescobaldi.Frescobaldi.desktop) frescobaldi metainfo() metainfo(org.frescobaldi.Frescobaldi.metainfo.xml) mimehandler(text/x-lilypond) python3.10dist(frescobaldi) python3.10dist(python-ly) python3dist(frescobaldi) python3dist(python-ly)"
-RDEPENDS:${PN} += "/usr/bin/python3 lilypond python(abi) python3-poppler-qt5 python3-qpageview python3-qt5 python3-qt5-sip python3-qtwebengine-qt5"
+RPROVIDES:${PN} += "application() \
+application(org.frescobaldi.Frescobaldi.desktop) \
+frescobaldi \
+metainfo() \
+metainfo(org.frescobaldi.Frescobaldi.metainfo.xml) \
+mimehandler(text/x-lilypond) \
+python3.10dist(frescobaldi) \
+python3.10dist(python-ly) \
+python3dist(frescobaldi) \
+python3dist(python-ly)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+lilypond \
+python(abi) \
+python3-poppler-qt5 \
+python3-qpageview \
+python3-qt5 \
+python3-qt5-sip \
+python3-qtwebengine-qt5"
 
 inherit rpm

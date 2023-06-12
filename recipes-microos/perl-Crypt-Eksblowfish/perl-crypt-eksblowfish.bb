@@ -24,7 +24,19 @@ PV = "0.009"
 RPM_NAME = "perl-Crypt-Eksblowfish-0.009-1.33.aarch64.rpm"
 RPM_HASH = "4a5055b69129f7384fa43c89ee4d8ec956f494033a33bc14b7b1b85c5bafdc8442fc6a9e356e79907279bce43d5db6ad9d40c0d94ccc3d960a3b9d1dfd8909af"
 
-RPROVIDES:${PN} += "perl(Crypt::Eksblowfish) perl(Crypt::Eksblowfish::Bcrypt) perl(Crypt::Eksblowfish::Blowfish) perl(Crypt::Eksblowfish::Family) perl(Crypt::Eksblowfish::Subkeyed) perl(Crypt::Eksblowfish::Uklblowfish) perl-Crypt-Eksblowfish perl-Crypt-Eksblowfish(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0) perl(Class::Mix) perl(parent)"
+RPROVIDES:${PN} += "perl(Crypt::Eksblowfish) \
+perl(Crypt::Eksblowfish::Bcrypt) \
+perl(Crypt::Eksblowfish::Blowfish) \
+perl(Crypt::Eksblowfish::Family) \
+perl(Crypt::Eksblowfish::Subkeyed) \
+perl(Crypt::Eksblowfish::Uklblowfish) \
+perl-Crypt-Eksblowfish \
+perl-Crypt-Eksblowfish(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Mix) \
+perl(parent)"
 
 inherit rpm

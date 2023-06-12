@@ -10,6 +10,9 @@ RPM_HASH = "d0b4372b16a04ded32baa8a3e5a7bbcd671204a9d00a3ac01767d6c09ffbfa84af87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sendxmpp"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(IO::Socket::SSL) perl(Net::XMPP)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(IO::Socket::SSL) \
+perl(Net::XMPP)"
 
 inherit rpm

@@ -9,6 +9,8 @@ RPM_HASH = "98165b45f0e3d25aa29f0d7980acca82cb49d0e8fe3b6cb9fa09a0b4a1c8a7b737a5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pullin-bcm43xx-firmware"
-RDEPENDS:${PN} += "/bin/sh b43-fwcutter pciutils"
+RDEPENDS:${PN} += "/bin/sh \
+b43-fwcutter \
+pciutils"
 
 inherit rpm

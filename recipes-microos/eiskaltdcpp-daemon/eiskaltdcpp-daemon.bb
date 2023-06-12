@@ -16,7 +16,27 @@ PV = "2.4.2"
 RPM_NAME = "eiskaltdcpp-daemon-2.4.2-1.13.aarch64.rpm"
 RPM_HASH = "2239e738eb12ba8b7208769907afafe1afc962f861113ef94415adc308517d2e50f3228cf766d4fdfc3347956c67903e4a22d435ecf2b92de79a042921281e53"
 
-RPROVIDES:${PN} += "eiskaltdcpp-daemon eiskaltdcpp-daemon(aarch-64)"
-RDEPENDS:${PN} += "eiskaltdcpp-common ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libeiskaltdcpp.so.2.4()(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.5)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.18)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+RPROVIDES:${PN} += "eiskaltdcpp-daemon \
+eiskaltdcpp-daemon(aarch-64)"
+RDEPENDS:${PN} += "eiskaltdcpp-common \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libeiskaltdcpp.so.2.4()(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.5)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
 
 inherit rpm

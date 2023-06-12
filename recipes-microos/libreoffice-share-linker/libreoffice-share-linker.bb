@@ -10,6 +10,7 @@ RPM_HASH = "c94e7ad556fa86be35415626a321011312fa1603b0b6f11410e6e005cd784a0ddb54
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-share-linker"
-RDEPENDS:${PN} += "/usr/bin/env python3"
+RDEPENDS:${PN} += "/usr/bin/env \
+python3"
 
 inherit rpm

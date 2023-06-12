@@ -13,7 +13,15 @@ RPM_NAME = "python39-bindep-2.11.0-3.1.noarch.rpm"
 RPM_HASH = "954f75c88c491bd29aa8c28385e5daa2057e89d89a2618984bd3d0b5a1872696dcca1332fa58762485d50f9a3e41e672b6356eff4c33b0d9fd9f29b587c71812"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(bindep) python39-bindep python3dist(bindep)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-Parsley python39-distro python39-packaging python39-pbr"
+RPROVIDES:${PN} += "python3.9dist(bindep) \
+python39-bindep \
+python3dist(bindep)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-Parsley \
+python39-distro \
+python39-packaging \
+python39-pbr"
 
 inherit rpm

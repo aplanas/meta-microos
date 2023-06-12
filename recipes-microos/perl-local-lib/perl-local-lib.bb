@@ -37,7 +37,13 @@ RPM_NAME = "perl-local-lib-2.000024-2.9.noarch.rpm"
 RPM_HASH = "a50603589b530370ba68832777b0664873bb501c2056dc57b34ba482200bcfa8f86e7ba07b168527fe55ff4c66e5c7b4724744b4b3b80ad40f0cefb321b24dc9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(lib::core::only) perl(local::lib) perl-local-lib"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(CPAN) perl(ExtUtils::Install) perl(ExtUtils::MakeMaker) perl(Module::Build)"
+RPROVIDES:${PN} += "perl(lib::core::only) \
+perl(local::lib) \
+perl-local-lib"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(CPAN) \
+perl(ExtUtils::Install) \
+perl(ExtUtils::MakeMaker) \
+perl(Module::Build)"
 
 inherit rpm

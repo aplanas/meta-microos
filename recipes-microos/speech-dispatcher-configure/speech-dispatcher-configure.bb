@@ -17,7 +17,11 @@ PV = "0.11.4"
 RPM_NAME = "speech-dispatcher-configure-0.11.4-1.3.aarch64.rpm"
 RPM_HASH = "b1a8f61cda275c5c27a43e11bfb03094194c03e39cef159ebf65c6d04b72b7dbba425acf54130256ffc3912846273a9f501b6d702cd993edc8659b31b4c805c9"
 
-RPROVIDES:${PN} += "speech-dispatcher-configure speech-dispatcher-configure(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-pyxdg speech-dispatcher"
+RPROVIDES:${PN} += "speech-dispatcher-configure \
+speech-dispatcher-configure(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3-pyxdg \
+speech-dispatcher"
 
 inherit rpm

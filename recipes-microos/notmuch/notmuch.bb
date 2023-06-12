@@ -33,7 +33,19 @@ PV = "0.37"
 RPM_NAME = "notmuch-0.37-2.4.aarch64.rpm"
 RPM_HASH = "f20bc657af7c01d9093498ed2f29a824e9ce875ae8321a118a3ada4da4b347dd59a47bb0d32f39746d87ac1f86ca817033a77cd156132ab36f80a090efe13844"
 
-RPROVIDES:${PN} += "notmuch notmuch(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/bash ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libglib-2.0.so.0()(64bit) libgmime-3.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libnotmuch.so.5()(64bit) libtalloc.so.2()(64bit) libtalloc.so.2(TALLOC_2.0.2)(64bit) libz.so.1()(64bit) libz.so.1(ZLIB_1.2.3.5)(64bit)"
+RPROVIDES:${PN} += "notmuch \
+notmuch(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/bash \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgmime-3.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libnotmuch.so.5()(64bit) \
+libtalloc.so.2()(64bit) \
+libtalloc.so.2(TALLOC_2.0.2)(64bit) \
+libz.so.1()(64bit) \
+libz.so.1(ZLIB_1.2.3.5)(64bit)"
 
 inherit rpm

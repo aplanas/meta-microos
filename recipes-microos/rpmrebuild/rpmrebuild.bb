@@ -12,6 +12,11 @@ RPM_HASH = "98c915fce18790d5ecca96402e217734a052a1936112449ee39c22314a1d753526c2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpmrebuild"
-RDEPENDS:${PN} += "/usr/bin/sh bash coreutils cpio rpm-build sed"
+RDEPENDS:${PN} += "/usr/bin/sh \
+bash \
+coreutils \
+cpio \
+rpm-build \
+sed"
 
 inherit rpm

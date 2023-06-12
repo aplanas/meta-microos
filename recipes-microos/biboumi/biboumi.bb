@@ -27,7 +27,44 @@ PV = "9.0"
 RPM_NAME = "biboumi-9.0-4.4.aarch64.rpm"
 RPM_HASH = "c2273468271cba1929a6bc0b0a01611422e3034e98cfece14f48567819dd19e21fd16470dcbdb2b02b037ac78dd9e37b3b609306bd120d142fd81978938766f1"
 
-RPROVIDES:${PN} += "biboumi biboumi(aarch-64) config(biboumi)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbotan-2.so.19()(64bit) libc.so.6(GLIBC_2.34)(64bit) libexpat.so.1()(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libidn.so.12()(64bit) libidn.so.12(LIBIDN_1.0)(64bit) libpq.so.5()(64bit) libsqlite3.so.0()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.13)(64bit) libstdc++.so.6(CXXABI_1.3.2)(64bit) libstdc++.so.6(CXXABI_1.3.3)(64bit) libstdc++.so.6(CXXABI_1.3.5)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.14)(64bit) libstdc++.so.6(GLIBCXX_3.4.18)(64bit) libstdc++.so.6(GLIBCXX_3.4.19)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.26)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.5)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) libsystemd.so.0()(64bit) libsystemd.so.0(LIBSYSTEMD_209)(64bit) libudns.so.0()(64bit) libuuid.so.1()(64bit) libuuid.so.1(UUID_1.0)(64bit)"
+RPROVIDES:${PN} += "biboumi \
+biboumi(aarch-64) \
+config(biboumi)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbotan-2.so.19()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libexpat.so.1()(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libidn.so.12()(64bit) \
+libidn.so.12(LIBIDN_1.0)(64bit) \
+libpq.so.5()(64bit) \
+libsqlite3.so.0()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.13)(64bit) \
+libstdc++.so.6(CXXABI_1.3.2)(64bit) \
+libstdc++.so.6(CXXABI_1.3.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.5)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.19)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.5)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
+libsystemd.so.0()(64bit) \
+libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
+libudns.so.0()(64bit) \
+libuuid.so.1()(64bit) \
+libuuid.so.1(UUID_1.0)(64bit)"
 
 inherit rpm

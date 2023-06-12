@@ -20,7 +20,34 @@ PV = "5.9.3"
 RPM_NAME = "net-snmp-5.9.3-4.6.aarch64.rpm"
 RPM_HASH = "effa79a9166a905795448c9910483fa7c978d26a6a0772d77d40f4899bd0e5df3512e747757e1505bdbfe0994298985cac00717e361cb78ea43f0711cecf5197"
 
-RPROVIDES:${PN} += "config(net-snmp) net-snmp net-snmp(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/perl /usr/bin/touch fillup ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libncurses.so.6()(64bit) libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) libnetsnmp.so.40()(64bit) libnetsnmpagent.so.40()(64bit) libnetsnmpmibs.so.40()(64bit) libnetsnmptrapd.so.40()(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) libwrap.so.0()(64bit) logrotate perl-SNMP perl-TermReadKey systemd"
+RPROVIDES:${PN} += "config(net-snmp) \
+net-snmp \
+net-snmp(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/perl \
+/usr/bin/touch \
+fillup \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libncurses.so.6()(64bit) \
+libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) \
+libnetsnmp.so.40()(64bit) \
+libnetsnmpagent.so.40()(64bit) \
+libnetsnmpmibs.so.40()(64bit) \
+libnetsnmptrapd.so.40()(64bit) \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
+libwrap.so.0()(64bit) \
+logrotate \
+perl-SNMP \
+perl-TermReadKey \
+systemd"
 
 inherit rpm

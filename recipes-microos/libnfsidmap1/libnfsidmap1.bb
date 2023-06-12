@@ -9,7 +9,12 @@ PV = "1.0"
 RPM_NAME = "libnfsidmap1-1.0-39.1.aarch64.rpm"
 RPM_HASH = "e9cbd42b24196aa9206433a04f9137737afd2bfea605616f2de0f7a3e82afbc9f07916b2a65ffb855b53c09be14159ca21500b10c3e539b65e2fe958cc7dac43"
 
-RPROVIDES:${PN} += "libnfsidmap.so.1()(64bit) libnfsidmap1 libnfsidmap1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "libnfsidmap.so.1()(64bit) \
+libnfsidmap1 \
+libnfsidmap1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

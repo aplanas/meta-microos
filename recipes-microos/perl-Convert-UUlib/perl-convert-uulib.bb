@@ -19,7 +19,14 @@ PV = "1.8"
 RPM_NAME = "perl-Convert-UUlib-1.8-1.14.aarch64.rpm"
 RPM_HASH = "8dbabf391559141a29b016ac52bf94a7ed258429de7e40afee1d593a826d69d9ef6ce91f0706d6d5fe04a769d6dd8705e351495b04ff90df2b4a7cb50d8f6414"
 
-RPROVIDES:${PN} += "p_conulb perl(Convert::UUlib) perl-Convert-UUlib perl-Convert-UUlib(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) perl(:MODULE_COMPAT_5.36.0) perl(common::sense)"
+RPROVIDES:${PN} += "p_conulb \
+perl(Convert::UUlib) \
+perl-Convert-UUlib \
+perl-Convert-UUlib(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(common::sense)"
 
 inherit rpm

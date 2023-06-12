@@ -14,7 +14,15 @@ RPM_NAME = "python311-pyroma-3.1-1.9.noarch.rpm"
 RPM_HASH = "cf47906808ba91206d1612728fe69614389ecf515d51de54ea94ee3bb6fb25e8aeeb6737e7e9f9d9693d81c9e0961a53ae485efaff7b5dc9f7168d8b29eee4be"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyroma) python311-pyroma python3dist(pyroma)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-Pygments python311-docutils python311-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(pyroma) \
+python311-pyroma \
+python3dist(pyroma)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-Pygments \
+python311-docutils \
+python311-setuptools \
+update-alternatives"
 
 inherit rpm

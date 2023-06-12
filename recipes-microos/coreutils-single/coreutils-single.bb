@@ -18,7 +18,52 @@ PV = "9.3"
 RPM_NAME = "coreutils-single-9.3-1.1.aarch64.rpm"
 RPM_HASH = "4d23b0980a959591d6d4541c672b3034e095f516c7464cd2f54ccab9cdb3b43428499458bfae4e51b9425aa1f3ea22238689a0f7303bb0aa1435fae07b43786b"
 
-RPROVIDES:${PN} += "/bin/cat /bin/chgrp /bin/chmod /bin/chown /bin/cp /bin/dd /bin/df /bin/echo /bin/false /bin/ln /bin/ls /bin/mkdir /bin/mknod /bin/mktemp /bin/mv /bin/pwd /bin/rm /bin/rmdir /bin/sleep /bin/sort /bin/stty /bin/sync /bin/touch /bin/true /bin/uname coreutils coreutils-single coreutils-single(aarch-64) fileutils libstdbuf.so()(64bit) mktemp sh-utils stat textutils"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libacl.so.1()(64bit) libacl.so.1(ACL_1.0)(64bit) libattr.so.1()(64bit) libattr.so.1(ATTR_1.1)(64bit) libattr.so.1(ATTR_1.3)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcap.so.2()(64bit) libgmp.so.10()(64bit) libselinux.so.1()(64bit) libselinux.so.1(LIBSELINUX_1.0)(64bit)"
+RPROVIDES:${PN} += "/bin/cat \
+/bin/chgrp \
+/bin/chmod \
+/bin/chown \
+/bin/cp \
+/bin/dd \
+/bin/df \
+/bin/echo \
+/bin/false \
+/bin/ln \
+/bin/ls \
+/bin/mkdir \
+/bin/mknod \
+/bin/mktemp \
+/bin/mv \
+/bin/pwd \
+/bin/rm \
+/bin/rmdir \
+/bin/sleep \
+/bin/sort \
+/bin/stty \
+/bin/sync \
+/bin/touch \
+/bin/true \
+/bin/uname \
+coreutils \
+coreutils-single \
+coreutils-single(aarch-64) \
+fileutils \
+libstdbuf.so()(64bit) \
+mktemp \
+sh-utils \
+stat \
+textutils"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libacl.so.1()(64bit) \
+libacl.so.1(ACL_1.0)(64bit) \
+libattr.so.1()(64bit) \
+libattr.so.1(ATTR_1.1)(64bit) \
+libattr.so.1(ATTR_1.3)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcap.so.2()(64bit) \
+libgmp.so.10()(64bit) \
+libselinux.so.1()(64bit) \
+libselinux.so.1(LIBSELINUX_1.0)(64bit)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "eb47b21d69b4c71b1c8451cbe8e007caa2d89cf48e170107cb315e057dc37a428fec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lite-xl-plugins"
-RDEPENDS:${PN} += "lite-xl lite-xl-widgets"
+RDEPENDS:${PN} += "lite-xl \
+lite-xl-widgets"
 
 inherit rpm

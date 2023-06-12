@@ -30,7 +30,10 @@ RPM_NAME = "python310-encore-0.8.0-1.5.noarch.rpm"
 RPM_HASH = "12a25c0d0f44007c97deaa901d786bcb3fe455510465a3c192326cc41b2606b1aa6d734528f19a68f9682c07d00257b6b40eba3f9d25becc527ccbcc099b812a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-encore python3.10dist(encore) python310-encore python3dist(encore)"
+RPROVIDES:${PN} += "python3-encore \
+python3.10dist(encore) \
+python310-encore \
+python3dist(encore)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

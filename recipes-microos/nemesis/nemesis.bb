@@ -14,7 +14,13 @@ PV = "1.8"
 RPM_NAME = "nemesis-1.8-1.7.aarch64.rpm"
 RPM_HASH = "56cd3d4741db96169925b0dffe2ef77dff86a9cbdc4f8616a15a6ed104df9f2488c80ca56a6d545f24170f926db9ee3044b8a45a32ab2c37aba9dcb9c4400afb"
 
-RPROVIDES:${PN} += "nemesis nemesis(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libnet.so.9()(64bit)"
+RPROVIDES:${PN} += "nemesis \
+nemesis(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libnet.so.9()(64bit)"
 
 inherit rpm

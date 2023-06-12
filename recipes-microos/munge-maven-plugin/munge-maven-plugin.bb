@@ -26,7 +26,12 @@ RPM_NAME = "munge-maven-plugin-1.0-2.10.noarch.rpm"
 RPM_HASH = "041fece5ca24647933a7dafa868abd36b23dfe557822754952c57696d27773b947926001f8aa733f70cdc54d63361f357884d8a4bdac45eeb3f01de5c0596321"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "munge-maven-plugin mvn(org.sonatype.plugins:munge-maven-plugin) mvn(org.sonatype.plugins:munge-maven-plugin:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(org.apache.maven:maven-core) mvn(org.apache.maven:maven-plugin-api)"
+RPROVIDES:${PN} += "munge-maven-plugin \
+mvn(org.sonatype.plugins:munge-maven-plugin) \
+mvn(org.sonatype.plugins:munge-maven-plugin:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(org.apache.maven:maven-core) \
+mvn(org.apache.maven:maven-plugin-api)"
 
 inherit rpm

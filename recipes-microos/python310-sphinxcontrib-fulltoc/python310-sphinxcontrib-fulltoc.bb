@@ -13,7 +13,10 @@ RPM_NAME = "python310-sphinxcontrib-fulltoc-1.2.0-2.6.noarch.rpm"
 RPM_HASH = "69de4b9dba32e5bdd9b64aec99369479dbdb80e78cebcdb02a29c70a1f84e2939d70b7387ef7af2df222d5348f72cc79a4f4c0899b8ddf02419c54395d51354a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinxcontrib-fulltoc python3.10dist(sphinxcontrib-fulltoc) python310-sphinxcontrib-fulltoc python3dist(sphinxcontrib-fulltoc)"
+RPROVIDES:${PN} += "python3-sphinxcontrib-fulltoc \
+python3.10dist(sphinxcontrib-fulltoc) \
+python310-sphinxcontrib-fulltoc \
+python3dist(sphinxcontrib-fulltoc)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

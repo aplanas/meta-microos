@@ -7,7 +7,8 @@ PV = "1.17.2"
 RPM_NAME = "istioctl-1.17.2-2.2.aarch64.rpm"
 RPM_HASH = "9384958fda88e5313c4b42cf0d3219a9e690867dd93a514bae18d8c870bea51b0f957d4d6f3c7557e02c910039a84c87c0383649e022af47e610a84438737a3d"
 
-RPROVIDES:${PN} += "istioctl istioctl(aarch-64)"
+RPROVIDES:${PN} += "istioctl \
+istioctl(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

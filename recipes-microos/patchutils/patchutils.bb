@@ -14,7 +14,16 @@ PV = "0.4.2"
 RPM_NAME = "patchutils-0.4.2-1.11.aarch64.rpm"
 RPM_HASH = "125461e90948578bbc0b358abb79da449b9030213fb75e58b6c22ccfb39e49f159372322d3f4ff6c1e450c2c55e42150052fcf6d30ee058f43530f4fac383b16"
 
-RPROVIDES:${PN} += "patchutils patchutils(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/perl /usr/bin/python3 diffutils ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) patch"
+RPROVIDES:${PN} += "patchutils \
+patchutils(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/perl \
+/usr/bin/python3 \
+diffutils \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+patch"
 
 inherit rpm

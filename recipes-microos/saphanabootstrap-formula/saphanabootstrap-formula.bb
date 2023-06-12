@@ -16,6 +16,8 @@ RPM_HASH = "2412ac6a28f5282cde86b96198836ce9f0e5d354014bfb475eb727427edb1ad8c2f0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saphanabootstrap-formula"
-RDEPENDS:${PN} += "habootstrap-formula salt-formulas-configuration salt-shaptools"
+RDEPENDS:${PN} += "habootstrap-formula \
+salt-formulas-configuration \
+salt-shaptools"
 
 inherit rpm

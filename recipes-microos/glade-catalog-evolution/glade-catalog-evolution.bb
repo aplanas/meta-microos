@@ -13,7 +13,10 @@ PV = "3.48.2"
 RPM_NAME = "glade-catalog-evolution-3.48.2-1.1.aarch64.rpm"
 RPM_HASH = "2ccd6c03e76dea443b37051a237d22bf7a8460e63582ffe6026bee56f14590122be69895e41551c9003c2d033d6c8b3752ae71b5f531b72e21a8ff039c4da0d5"
 
-RPROVIDES:${PN} += "glade-catalog-evolution glade-catalog-evolution(aarch-64) libgladeevolution.so()(64bit)"
-RDEPENDS:${PN} += "evolution glade"
+RPROVIDES:${PN} += "glade-catalog-evolution \
+glade-catalog-evolution(aarch-64) \
+libgladeevolution.so()(64bit)"
+RDEPENDS:${PN} += "evolution \
+glade"
 
 inherit rpm

@@ -13,7 +13,27 @@ RPM_NAME = "texlive-guitartabs-2023.201.svn48102-53.1.noarch.rpm"
 RPM_HASH = "93917a3956ec5f4dc3497ecec267022924a61a4720cc6c9af9c13511e84b0fda91c0d0528f03f2c81b30cdc3be9384875bff13eee2b5005055fe75c359f3e26f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(guitartabs.cls) texlive-guitartabs"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(article.cls) tex(geometry.sty) tex(harmony.sty) tex(inputenc.sty) tex(intcalc.sty) tex(musixtex.sty) tex(tikz.sty) tex(xifthen.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(guitartabs.cls) \
+texlive-guitartabs"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(article.cls) \
+tex(geometry.sty) \
+tex(harmony.sty) \
+tex(inputenc.sty) \
+tex(intcalc.sty) \
+tex(musixtex.sty) \
+tex(tikz.sty) \
+tex(xifthen.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

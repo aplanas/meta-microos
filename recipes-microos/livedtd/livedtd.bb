@@ -17,7 +17,8 @@ RPM_NAME = "livedtd-2007.1.15-21.16.noarch.rpm"
 RPM_HASH = "c66318cb323bf3bd1d8ee2a62723f865066d68ec1189e03295884ec40a91b46f5fbf9ffd21ccab29161e048c8eb619063356d3b32bc4f9bbab434c5c96e09a91"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "livedtd perl(OASIS::Catalog)"
+RPROVIDES:${PN} += "livedtd \
+perl(OASIS::Catalog)"
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

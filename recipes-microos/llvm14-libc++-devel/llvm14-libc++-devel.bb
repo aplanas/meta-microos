@@ -8,7 +8,11 @@ PV = "14.0.6"
 RPM_NAME = "llvm14-libc++-devel-14.0.6-9.1.aarch64.rpm"
 RPM_HASH = "385d270e15f4d0b8b63521c0b0c51c899d4365a60481049ef07b20e4b5e1fd28a67541173ac8378f52a082295d41a30446d0c274a74a6c2009ede2d3a365141b"
 
-RPROVIDES:${PN} += "libc++.so llvm14-libc++-devel llvm14-libc++-devel(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig libc++1 libc++abi.so"
+RPROVIDES:${PN} += "libc++.so \
+llvm14-libc++-devel \
+llvm14-libc++-devel(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libc++1 \
+libc++abi.so"
 
 inherit rpm

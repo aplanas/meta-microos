@@ -12,7 +12,12 @@ RPM_NAME = "python310-expiringdict-1.2.2-1.3.noarch.rpm"
 RPM_HASH = "c8b946d0afb40f49aa7d78f8f82235e99adb643c6f1fec685b7aef35892338d9eb64e5257a7ca0ec5897826d8ac5d12e4ee8c0fdaa5f88a401eeaa63554934df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-expiringdict python3.10dist(expiringdict) python310-expiringdict python3dist(expiringdict)"
-RDEPENDS:${PN} += "python(abi) python310-dill python310-typing"
+RPROVIDES:${PN} += "python3-expiringdict \
+python3.10dist(expiringdict) \
+python310-expiringdict \
+python3dist(expiringdict)"
+RDEPENDS:${PN} += "python(abi) \
+python310-dill \
+python310-typing"
 
 inherit rpm

@@ -18,6 +18,10 @@ RPM_HASH = "94964a5a95611a47f62cb13054189554a3c054f013fcb800db27aee7dcc7a7c71183
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vtcl"
-RDEPENDS:${PN} += "/bin/sh tcl tix tk xdg-utils"
+RDEPENDS:${PN} += "/bin/sh \
+tcl \
+tix \
+tk \
+xdg-utils"
 
 inherit rpm

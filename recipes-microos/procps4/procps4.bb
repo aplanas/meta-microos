@@ -22,7 +22,20 @@ PV = "4.0.3"
 RPM_NAME = "procps4-4.0.3-1.3.aarch64.rpm"
 RPM_HASH = "106fecee2f0e4523f55953ccb526f9f871c0c7204ffe3888cc5b955a102de96d508d4c84c482abf1450d9f9fb8754937f8f79ea1efdab1a740b62113bb136dd4"
 
-RPROVIDES:${PN} += "/bin/ps procps procps4 procps4(aarch-64) ps"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libncursesw.so.6()(64bit) libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) libproc2.so.0()(64bit) libproc2.so.0(LIBPROC_2)(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
+RPROVIDES:${PN} += "/bin/ps \
+procps \
+procps4 \
+procps4(aarch-64) \
+ps"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libncursesw.so.6()(64bit) \
+libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
+libproc2.so.0()(64bit) \
+libproc2.so.0(LIBPROC_2)(64bit) \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
 
 inherit rpm

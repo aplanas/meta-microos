@@ -38,7 +38,12 @@ RPM_NAME = "python311-port-for-0.6.2-1.7.noarch.rpm"
 RPM_HASH = "7270d8324efc6ecca0ef853a35cc8549fcf7b2d1d3c2f912074e7c6c3f856ed40decfca2b3c2a7ba297fefcf1de224046f0a5a2b5b20c5ad0fc90fba9d61e6d6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(port-for) python311-port-for python3dist(port-for)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(port-for) \
+python311-port-for \
+python3dist(port-for)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

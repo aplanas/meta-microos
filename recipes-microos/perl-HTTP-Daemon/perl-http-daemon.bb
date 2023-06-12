@@ -21,7 +21,14 @@ RPM_NAME = "perl-HTTP-Daemon-6.16-1.1.noarch.rpm"
 RPM_HASH = "bf596d914c59a44d3c42abc574f6f715fbb500777c25db0a9f46f331c4960ee5ee275e7dd7a8a2fcea8230e3a1672b8fc109aacafbb2632f4d5d6bbb97ea95e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Daemon) perl-HTTP-Daemon"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(HTTP::Date) perl(HTTP::Request) perl(HTTP::Response) perl(HTTP::Status) perl(IO::Socket::IP) perl(LWP::MediaTypes)"
+RPROVIDES:${PN} += "perl(HTTP::Daemon) \
+perl-HTTP-Daemon"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(HTTP::Date) \
+perl(HTTP::Request) \
+perl(HTTP::Response) \
+perl(HTTP::Status) \
+perl(IO::Socket::IP) \
+perl(LWP::MediaTypes)"
 
 inherit rpm

@@ -22,7 +22,22 @@ PV = "3.3.17"
 RPM_NAME = "procps-3.3.17-12.3.aarch64.rpm"
 RPM_HASH = "a040f560b59357253782fc10af8ef8e4b0f92bc2f0417abb4d079a3dd7680a40792577d3c44016e4ac8573da7153847d86bd5528edb2e703aa1bea2c9bdd3daf"
 
-RPROVIDES:${PN} += "/bin/ps procps procps(aarch-64) ps"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libncurses.so.6()(64bit) libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) libncursesw.so.6()(64bit) libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) libprocps.so.8()(64bit) libprocps.so.8(LIBPROCPS_0)(64bit) libprocps8 libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
+RPROVIDES:${PN} += "/bin/ps \
+procps \
+procps(aarch-64) \
+ps"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libncurses.so.6()(64bit) \
+libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) \
+libncursesw.so.6()(64bit) \
+libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
+libprocps.so.8()(64bit) \
+libprocps.so.8(LIBPROCPS_0)(64bit) \
+libprocps8 \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
 
 inherit rpm

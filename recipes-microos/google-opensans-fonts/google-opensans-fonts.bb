@@ -19,6 +19,9 @@ RPM_HASH = "1343b87fb18f48c3ff6ccfa4aa5038fa61d93598b3f21365acc45081e9652fa2171f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-opensans-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

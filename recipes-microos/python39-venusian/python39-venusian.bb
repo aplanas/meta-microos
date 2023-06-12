@@ -14,7 +14,9 @@ RPM_NAME = "python39-venusian-3.0.0-3.1.noarch.rpm"
 RPM_HASH = "22c4261bdca9cb9034547a57081edc6e8d053d3e186cb8bf34969a48c2019b9e40afc24b1ca860ab0b69ebe6d8265595596e06520372fe07a2dd98c0671e8977"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(venusian) python39-venusian python3dist(venusian)"
+RPROVIDES:${PN} += "python3.9dist(venusian) \
+python39-venusian \
+python3dist(venusian)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

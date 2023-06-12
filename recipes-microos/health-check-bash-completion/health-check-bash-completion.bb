@@ -9,6 +9,7 @@ RPM_HASH = "953e3446186f19319f276a639381ba0e31ff337e5d5c6bec75d677c1da790625749e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "health-check-bash-completion"
-RDEPENDS:${PN} += "bash-completion health-check"
+RDEPENDS:${PN} += "bash-completion \
+health-check"
 
 inherit rpm

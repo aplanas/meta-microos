@@ -9,6 +9,7 @@ RPM_HASH = "4025e2c8f5f7ed8fc6866ea4a10284f70ba769d6d86444fe9190836ad624e2dbbe5d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubeaudit-bash-completion"
-RDEPENDS:${PN} += "bash-completion kubeaudit"
+RDEPENDS:${PN} += "bash-completion \
+kubeaudit"
 
 inherit rpm

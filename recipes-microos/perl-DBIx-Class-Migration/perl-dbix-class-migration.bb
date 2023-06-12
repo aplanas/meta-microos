@@ -47,7 +47,50 @@ RPM_NAME = "perl-DBIx-Class-Migration-0.075-1.12.noarch.rpm"
 RPM_HASH = "0f34e4c3ad5b391fbabccc356fac506a566ec23eaf334cad4caa37ce9e07a0f9b4c58a443dc0038684b066fcc96bb93863e88ceeaadd648823ad67d991f4c273"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Catalyst::TraitFor::Model::DBIC::Schema::FromMigration) perl(Catalyst::TraitFor::Model::DBIC::Schema::FromMigration::_MigrationHelper) perl(DBIx::Class::Migration) perl(DBIx::Class::Migration::MySQLSandbox) perl(DBIx::Class::Migration::Population) perl(DBIx::Class::Migration::PostgresqlSandbox) perl(DBIx::Class::Migration::RunScript) perl(DBIx::Class::Migration::RunScript::Trait::Dump) perl(DBIx::Class::Migration::RunScript::Trait::Populate) perl(DBIx::Class::Migration::RunScript::Trait::SchemaLoader) perl(DBIx::Class::Migration::RunScript::Trait::TargetPath) perl(DBIx::Class::Migration::Sandbox) perl(DBIx::Class::Migration::SandboxDirSandboxBuilder) perl(DBIx::Class::Migration::SchemaLoader) perl(DBIx::Class::Migration::Script) perl(DBIx::Class::Migration::ShareDirBuilder) perl(DBIx::Class::Migration::SqliteSandbox) perl(DBIx::Class::Migration::TargetDirSandboxBuilder) perl(DBIx::Class::Migration::TempDirBuilder) perl(DBIx::Class::Migration::TempDirSandboxBuilder) perl(DBIx::Class::Migration::Types) perl(Test::DBIx::Class::FixtureCommand::Population) perl-DBIx-Class-Migration"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Class::Load) perl(Config::MySQL) perl(DBD::SQLite) perl(DBIx::Class::DeploymentHandler) perl(DBIx::Class::Fixtures) perl(DBIx::Class::Schema::Loader) perl(Devel::PartialDump) perl(File::ShareDir::ProjectDistDir) perl(JSON::MaybeXS) perl(Log::Any) perl(Module::Find) perl(Moo) perl(MooX::Attribute::ENV) perl(MooX::Options) perl(MooX::Traits) perl(Pod::Parser) perl(SQL::Translator) perl(Text::Brew) perl(Type::Tiny) perl(version)"
+RPROVIDES:${PN} += "perl(Catalyst::TraitFor::Model::DBIC::Schema::FromMigration) \
+perl(Catalyst::TraitFor::Model::DBIC::Schema::FromMigration::_MigrationHelper) \
+perl(DBIx::Class::Migration) \
+perl(DBIx::Class::Migration::MySQLSandbox) \
+perl(DBIx::Class::Migration::Population) \
+perl(DBIx::Class::Migration::PostgresqlSandbox) \
+perl(DBIx::Class::Migration::RunScript) \
+perl(DBIx::Class::Migration::RunScript::Trait::Dump) \
+perl(DBIx::Class::Migration::RunScript::Trait::Populate) \
+perl(DBIx::Class::Migration::RunScript::Trait::SchemaLoader) \
+perl(DBIx::Class::Migration::RunScript::Trait::TargetPath) \
+perl(DBIx::Class::Migration::Sandbox) \
+perl(DBIx::Class::Migration::SandboxDirSandboxBuilder) \
+perl(DBIx::Class::Migration::SchemaLoader) \
+perl(DBIx::Class::Migration::Script) \
+perl(DBIx::Class::Migration::ShareDirBuilder) \
+perl(DBIx::Class::Migration::SqliteSandbox) \
+perl(DBIx::Class::Migration::TargetDirSandboxBuilder) \
+perl(DBIx::Class::Migration::TempDirBuilder) \
+perl(DBIx::Class::Migration::TempDirSandboxBuilder) \
+perl(DBIx::Class::Migration::Types) \
+perl(Test::DBIx::Class::FixtureCommand::Population) \
+perl-DBIx-Class-Migration"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Load) \
+perl(Config::MySQL) \
+perl(DBD::SQLite) \
+perl(DBIx::Class::DeploymentHandler) \
+perl(DBIx::Class::Fixtures) \
+perl(DBIx::Class::Schema::Loader) \
+perl(Devel::PartialDump) \
+perl(File::ShareDir::ProjectDistDir) \
+perl(JSON::MaybeXS) \
+perl(Log::Any) \
+perl(Module::Find) \
+perl(Moo) \
+perl(MooX::Attribute::ENV) \
+perl(MooX::Options) \
+perl(MooX::Traits) \
+perl(Pod::Parser) \
+perl(SQL::Translator) \
+perl(Text::Brew) \
+perl(Type::Tiny) \
+perl(version)"
 
 inherit rpm

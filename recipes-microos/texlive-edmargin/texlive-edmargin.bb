@@ -16,7 +16,19 @@ RPM_NAME = "texlive-edmargin-2023.201.1.2svn27599-53.1.noarch.rpm"
 RPM_HASH = "40eea07238ae765405b9a411f06075247d0b91027a16883c8c53db4d0292118455308726f6de235e80bb5ec2d1f75d2a0629fee9fedf20b522e999aa11030427"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(edmargin.sty) texlive-edmargin"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(edmargin.sty) \
+texlive-edmargin"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

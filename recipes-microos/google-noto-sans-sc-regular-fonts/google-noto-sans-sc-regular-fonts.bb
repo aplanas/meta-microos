@@ -10,7 +10,11 @@ RPM_NAME = "google-noto-sans-sc-regular-fonts-2.004-3.3.noarch.rpm"
 RPM_HASH = "4c35e55a2a667eaabc40e9c622efbe2a364b04ad992f679ce869e2d3ae247599c24e7f8ae57e7e9dced6e041539f848892c559a791c73f8d2772cc1ad4fcc078"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "google-noto-sans-sc-regular-fonts noto-sans-sc-regular-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "google-noto-sans-sc-regular-fonts \
+noto-sans-sc-regular-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

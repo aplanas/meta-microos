@@ -9,7 +9,8 @@ PV = "3.4.4"
 RPM_NAME = "OpenSubdiv-devel-3.4.4-1.8.aarch64.rpm"
 RPM_HASH = "17cc8456ae2ccde53424f78dd5fa54f0f96dc51ee17bd86c2446f0f6f5ab2ab173133b458461b6a328af70de116e260a94af0fab2fb3c3a7817ec2704db8f079"
 
-RPROVIDES:${PN} += "OpenSubdiv-devel OpenSubdiv-devel(aarch-64)"
+RPROVIDES:${PN} += "OpenSubdiv-devel \
+OpenSubdiv-devel(aarch-64)"
 RDEPENDS:${PN} += "libosdCPU3_4_4"
 
 inherit rpm

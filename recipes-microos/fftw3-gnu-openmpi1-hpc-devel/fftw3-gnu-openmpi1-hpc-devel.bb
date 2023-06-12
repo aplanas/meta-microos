@@ -9,7 +9,8 @@ PV = "3.3.10"
 RPM_NAME = "fftw3-gnu-openmpi1-hpc-devel-3.3.10-3.5.aarch64.rpm"
 RPM_HASH = "3b26d35b84bd0260dbb9d1f6d79d8fd64411f8d2596de0c15ef2dbcdda0d4aa7897568944670169b9cd92f079e84621e270e828eec6763d2791b3534bb468f1a"
 
-RPROVIDES:${PN} += "fftw3-gnu-openmpi1-hpc-devel fftw3-gnu-openmpi1-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "fftw3-gnu-openmpi1-hpc-devel \
+fftw3-gnu-openmpi1-hpc-devel(aarch-64)"
 RDEPENDS:${PN} += "fftw3_3_3_10-gnu-openmpi1-hpc-devel"
 
 inherit rpm

@@ -17,7 +17,11 @@ RPM_NAME = "google-droid-fonts-20121204-8.5.noarch.rpm"
 RPM_HASH = "1901f037da71e70f2900c7c4d0f415dba4c01fd05b49d899235bad942768a5d441ce12266c9f633f1edb2c9c658ef4edc17e8b0abaa62b9beaeb5d566848c89d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "droid-fonts google-droid-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "droid-fonts \
+google-droid-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

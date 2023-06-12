@@ -9,6 +9,7 @@ RPM_HASH = "7917e52102ecd082c901a3911770e6726fcb6297e8c06cab55f6146a8a166ee525ce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pytoolconfig-global"
-RDEPENDS:${PN} += "python39-platformdirs python39-pytoolconfig"
+RDEPENDS:${PN} += "python39-platformdirs \
+python39-pytoolconfig"
 
 inherit rpm

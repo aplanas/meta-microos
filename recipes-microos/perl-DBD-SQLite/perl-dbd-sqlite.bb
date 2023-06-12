@@ -39,7 +39,23 @@ PV = "1.72"
 RPM_NAME = "perl-DBD-SQLite-1.72-1.3.aarch64.rpm"
 RPM_HASH = "bac09b5a033cbe0ce882970893641a38f9d748a9f126928e089999e56ed6245f741b7cd52828e47db7f629713093902ff14d5bb5ef3d8f66a1dfe11407641604"
 
-RPROVIDES:${PN} += "perl(DBD::SQLite) perl(DBD::SQLite::Constants) perl(DBD::SQLite::GetInfo) perl(DBD::SQLite::VirtualTable) perl(DBD::SQLite::VirtualTable::Cursor) perl(DBD::SQLite::VirtualTable::FileContent) perl(DBD::SQLite::VirtualTable::FileContent::Cursor) perl(DBD::SQLite::VirtualTable::PerlData) perl(DBD::SQLite::VirtualTable::PerlData::Cursor) perl-DBD-SQLite perl-DBD-SQLite(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libsqlite3.so.0()(64bit) perl(:MODULE_COMPAT_5.36.0) perl(DBI) perl(Test::More)"
+RPROVIDES:${PN} += "perl(DBD::SQLite) \
+perl(DBD::SQLite::Constants) \
+perl(DBD::SQLite::GetInfo) \
+perl(DBD::SQLite::VirtualTable) \
+perl(DBD::SQLite::VirtualTable::Cursor) \
+perl(DBD::SQLite::VirtualTable::FileContent) \
+perl(DBD::SQLite::VirtualTable::FileContent::Cursor) \
+perl(DBD::SQLite::VirtualTable::PerlData) \
+perl(DBD::SQLite::VirtualTable::PerlData::Cursor) \
+perl-DBD-SQLite \
+perl-DBD-SQLite(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libsqlite3.so.0()(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(DBI) \
+perl(Test::More)"
 
 inherit rpm

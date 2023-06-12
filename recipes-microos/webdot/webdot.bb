@@ -11,6 +11,10 @@ RPM_HASH = "fa736c68aab9fb6be0c8c8a41d989ca460856b1c65fde11422ffed109a0cea33b414
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "webdot"
-RDEPENDS:${PN} += "/usr/bin/tclsh filesystem fileutils ghostscript http_daemon"
+RDEPENDS:${PN} += "/usr/bin/tclsh \
+filesystem \
+fileutils \
+ghostscript \
+http_daemon"
 
 inherit rpm

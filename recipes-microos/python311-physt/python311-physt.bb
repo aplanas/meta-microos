@@ -14,7 +14,11 @@ RPM_NAME = "python311-physt-0.5.3-1.3.noarch.rpm"
 RPM_HASH = "f7d6abeeca2386baf8c4d576b7c286fb5980bc8abd66740f8b362ce68f4b52e796bc588bb4eda496e255c8687da38219bcd036af9633e9554b3901095bcbb73b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(physt) python311-physt python3dist(physt)"
-RDEPENDS:${PN} += "python(abi) python311-numpy python311-pandas"
+RPROVIDES:${PN} += "python3.11dist(physt) \
+python311-physt \
+python3dist(physt)"
+RDEPENDS:${PN} += "python(abi) \
+python311-numpy \
+python311-pandas"
 
 inherit rpm

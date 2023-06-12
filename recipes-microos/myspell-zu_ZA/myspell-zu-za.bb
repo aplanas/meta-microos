@@ -8,7 +8,11 @@ RPM_NAME = "myspell-zu_ZA-20221012-1.2.noarch.rpm"
 RPM_HASH = "a512c32354a9358975edf9637da37f81436e687a2c9f8a97abd506e1aacee44c48f306f341d648057061bbb72085a09bcda805bffd9c911c74c1a65e0f595f1a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:zu_ZA) locale(seamonkey-spellchecker:zu_ZA) myspell-dictionary myspell-zu_ZA myspell-zulu"
+RPROVIDES:${PN} += "locale(libreoffice:zu_ZA) \
+locale(seamonkey-spellchecker:zu_ZA) \
+myspell-dictionary \
+myspell-zu_ZA \
+myspell-zulu"
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

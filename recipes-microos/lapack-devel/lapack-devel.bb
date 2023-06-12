@@ -15,7 +15,10 @@ PV = "3.9.0"
 RPM_NAME = "lapack-devel-3.9.0-9.1.aarch64.rpm"
 RPM_HASH = "0f5049db4be4641ea084583ae5388d1b14b110659482d9c0b31dfdf8dbc3ee48a5f5a1547c4d6bfde046130b357b95c22606f52931a7a6d966aea6267bbc5125"
 
-RPROVIDES:${PN} += "lapack lapack-devel lapack-devel(aarch-64)"
-RDEPENDS:${PN} += "blas-devel liblapack3"
+RPROVIDES:${PN} += "lapack \
+lapack-devel \
+lapack-devel(aarch-64)"
+RDEPENDS:${PN} += "blas-devel \
+liblapack3"
 
 inherit rpm

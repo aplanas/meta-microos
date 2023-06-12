@@ -10,7 +10,15 @@ PV = "1.28.0"
 RPM_NAME = "janet-1.28.0-1.1.aarch64.rpm"
 RPM_HASH = "60746097e2e67783591ed00f0bb763990b2aff59cc213872ad8d13db38d2090af29af910e6b45fb2d8a9a656d968e95cd63b0796e89435e8e78e72797242929c"
 
-RPROVIDES:${PN} += "janet janet(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.23)(64bit) libm.so.6(GLIBC_2.29)(64bit) libm.so.6(GLIBC_2.35)(64bit)"
+RPROVIDES:${PN} += "janet \
+janet(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.23)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libm.so.6(GLIBC_2.35)(64bit)"
 
 inherit rpm

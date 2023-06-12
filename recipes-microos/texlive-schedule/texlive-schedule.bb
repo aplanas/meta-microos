@@ -15,7 +15,21 @@ RPM_NAME = "texlive-schedule-2023.201.1.20svn51805-53.1.noarch.rpm"
 RPM_HASH = "96a27e0db7016089f37183ec6384d28bb80861ca1a124da3ed54563acbc594038177c85500f58a7d729537c5c122259f090e0b0854f35f452cf44287d996c1ce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(schedule.sty) texlive-schedule"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(xcolor.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(schedule.sty) \
+texlive-schedule"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(xcolor.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

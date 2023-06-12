@@ -9,6 +9,7 @@ RPM_HASH = "da9a7777494e6c18a4d287b4886b4eee8ea13388a9113fdf0e9c02a696772e122b93
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-nvidia-prime"
-RDEPENDS:${PN} += "bumblebee-status suse-prime-bbswitch"
+RDEPENDS:${PN} += "bumblebee-status \
+suse-prime-bbswitch"
 
 inherit rpm

@@ -8,7 +8,17 @@ PV = "1.6"
 RPM_NAME = "mcds-1.6-1.13.aarch64.rpm"
 RPM_HASH = "3c264a5c9276243d7e1a158b61273bd5e77650664c6d5084a1087b970cec0488bf7d48ca846b8aea669de60da4e5c7d1d8f378293e0d22437604b2c021228bef"
 
-RPROVIDES:${PN} += "mcds mcds(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcurl.so.4()(64bit) libgpgme.so.11()(64bit) libgpgme.so.11(GPGME_1.0)(64bit) libgpgme.so.11(GPGME_1.1)(64bit) libxml2.so.2()(64bit) libxml2.so.2(LIBXML2_2.4.30)(64bit) libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+RPROVIDES:${PN} += "mcds \
+mcds(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcurl.so.4()(64bit) \
+libgpgme.so.11()(64bit) \
+libgpgme.so.11(GPGME_1.0)(64bit) \
+libgpgme.so.11(GPGME_1.1)(64bit) \
+libxml2.so.2()(64bit) \
+libxml2.so.2(LIBXML2_2.4.30)(64bit) \
+libxml2.so.2(LIBXML2_2.6.0)(64bit)"
 
 inherit rpm

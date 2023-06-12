@@ -20,7 +20,17 @@ RPM_NAME = "perl-Syntax-Keyword-Junction-0.003008-1.25.noarch.rpm"
 RPM_HASH = "1755ce4ae9d175207a6f8df5ceab207f2ce46655da6c65597b54e3e1d7ee3dcf79d72c0d7432da689c49cc054cbf994aa10c153d7d62cc33cae5346bcdb1fb2d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Syntax::Feature::Junction) perl(Syntax::Keyword::Junction) perl(Syntax::Keyword::Junction::All) perl(Syntax::Keyword::Junction::Any) perl(Syntax::Keyword::Junction::Base) perl(Syntax::Keyword::Junction::None) perl(Syntax::Keyword::Junction::One) perl-Syntax-Keyword-Junction"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Sub::Exporter::Progressive) perl(parent) perl(syntax)"
+RPROVIDES:${PN} += "perl(Syntax::Feature::Junction) \
+perl(Syntax::Keyword::Junction) \
+perl(Syntax::Keyword::Junction::All) \
+perl(Syntax::Keyword::Junction::Any) \
+perl(Syntax::Keyword::Junction::Base) \
+perl(Syntax::Keyword::Junction::None) \
+perl(Syntax::Keyword::Junction::One) \
+perl-Syntax-Keyword-Junction"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Sub::Exporter::Progressive) \
+perl(parent) \
+perl(syntax)"
 
 inherit rpm

@@ -17,7 +17,24 @@ PV = "0.8"
 RPM_NAME = "avahi-0.8-23.1.aarch64.rpm"
 RPM_HASH = "9198e9ee8d9a1761107bf399c02e58e76c493c624d47c5486804dd0b14c245ed8b1b89d5fee9a95abf4fe40a94e64154124d7eb397dede9f2381dbfb6becfd38"
 
-RPROVIDES:${PN} += "avahi avahi(aarch-64) config(avahi) group(avahi) mDNSResponder user(avahi)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libavahi-common.so.3()(64bit) libavahi-core.so.7()(64bit) libc.so.6(GLIBC_2.34)(64bit) libdaemon.so.0()(64bit) libdbus-1.so.3()(64bit) libdbus-1.so.3(LIBDBUS_1_3)(64bit) libexpat.so.1()(64bit) nss-mdns sudo sysuser-shadow"
+RPROVIDES:${PN} += "avahi \
+avahi(aarch-64) \
+config(avahi) \
+group(avahi) \
+mDNSResponder \
+user(avahi)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libavahi-common.so.3()(64bit) \
+libavahi-core.so.7()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libdaemon.so.0()(64bit) \
+libdbus-1.so.3()(64bit) \
+libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
+libexpat.so.1()(64bit) \
+nss-mdns \
+sudo \
+sysuser-shadow"
 
 inherit rpm

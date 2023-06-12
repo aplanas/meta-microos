@@ -9,7 +9,16 @@ PV = "0.10"
 RPM_NAME = "perl-Code-DRY-0.10-1.22.aarch64.rpm"
 RPM_HASH = "bec6fe8cb5c9fe76933defe6d51ced03b6885c645f979bf15fe898d12e04e5c038d0f7cf2eaeaabc88950c0798c9c7cb93305aa257502a420d32da1e2fe054ff"
 
-RPROVIDES:${PN} += "perl(Code::DRY) perl-Code-DRY perl-Code-DRY(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0) perl(ExtUtils::CBuilder) perl(Module::Build) perl(TAP::Harness)"
+RPROVIDES:${PN} += "perl(Code::DRY) \
+perl-Code-DRY \
+perl-Code-DRY(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(ExtUtils::CBuilder) \
+perl(Module::Build) \
+perl(TAP::Harness)"
 
 inherit rpm

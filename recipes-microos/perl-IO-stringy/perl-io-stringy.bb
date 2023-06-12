@@ -19,7 +19,16 @@ RPM_NAME = "perl-IO-stringy-2.113-1.13.noarch.rpm"
 RPM_HASH = "edd3c4b31f293ee1f93e966a1d5e3135301a332ffdae4d2797ce5bb0d7cb637798fb0c5527188f5c60f578f146fca2928693bb29f03a1b41268c8405280a6e4d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IO::AtomicFile) perl(IO::InnerFile) perl(IO::Lines) perl(IO::Scalar) perl(IO::ScalarArray) perl(IO::Stringy) perl(IO::Wrap) perl(IO::WrapTie) perl-IO-stringy"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(parent)"
+RPROVIDES:${PN} += "perl(IO::AtomicFile) \
+perl(IO::InnerFile) \
+perl(IO::Lines) \
+perl(IO::Scalar) \
+perl(IO::ScalarArray) \
+perl(IO::Stringy) \
+perl(IO::Wrap) \
+perl(IO::WrapTie) \
+perl-IO-stringy"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(parent)"
 
 inherit rpm

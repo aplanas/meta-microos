@@ -9,6 +9,7 @@ RPM_HASH = "6b73dd71a97440d02f8dbae080095c5491722ee7932934a42e7ab114bca1f1dd0aac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-alsa"
-RDEPENDS:${PN} += "alsa-utils bumblebee-status"
+RDEPENDS:${PN} += "alsa-utils \
+bumblebee-status"
 
 inherit rpm

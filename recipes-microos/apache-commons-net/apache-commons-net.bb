@@ -12,7 +12,13 @@ RPM_NAME = "apache-commons-net-3.9.0-1.2.noarch.rpm"
 RPM_HASH = "dd29fe02c095016764233565e8f289d81127eae5a8933a9c4449d09e22748964fa3d249987265decb1068ce3e58326e1110b6c6a8da9fe2eed964f83e4f4e68b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "apache-commons-net commons-net jakarta-commons-net mvn(commons-net:commons-net) mvn(commons-net:commons-net:pom:) osgi(org.apache.commons.commons-net)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "apache-commons-net \
+commons-net \
+jakarta-commons-net \
+mvn(commons-net:commons-net) \
+mvn(commons-net:commons-net:pom:) \
+osgi(org.apache.commons.commons-net)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

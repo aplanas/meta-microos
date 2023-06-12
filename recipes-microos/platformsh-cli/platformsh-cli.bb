@@ -11,6 +11,8 @@ RPM_HASH = "faaf0865910f4d8f1b6de33e66ade3a295c3475060997bcf3d5f259de0f6f2758133
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "platformsh-cli"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/env php"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/env \
+php"
 
 inherit rpm

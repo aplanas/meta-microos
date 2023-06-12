@@ -10,6 +10,7 @@ RPM_HASH = "201db73df333a53cde20859e18315f51643416596a2d38a08fc33976ddee5b3fb59d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-linear-algebra"
-RDEPENDS:${PN} += "/bin/sh octave-cli"
+RDEPENDS:${PN} += "/bin/sh \
+octave-cli"
 
 inherit rpm

@@ -35,7 +35,22 @@ PV = "4.9.2"
 RPM_NAME = "libnetcdf19-openmpi1-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "0a156753dfb2cb5de68483384332a3753c85e0b0c8a097eee8348830eb6e640f1691def7645b0b63c3f96dc007ca88a4c951af5c0df36edf73f1543beee028d6"
 
-RPROVIDES:${PN} += "libnetcdf.so.19()(64bit) libnetcdf19-openmpi1 libnetcdf19-openmpi1(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libcurl.so.4()(64bit) libhdf5.so.200()(64bit) libhdf5_hl.so.200()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libmpi.so.12()(64bit) libxml2.so.2()(64bit) libxml2.so.2(LIBXML2_2.4.30)(64bit) libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+RPROVIDES:${PN} += "libnetcdf.so.19()(64bit) \
+libnetcdf19-openmpi1 \
+libnetcdf19-openmpi1(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+libcurl.so.4()(64bit) \
+libhdf5.so.200()(64bit) \
+libhdf5_hl.so.200()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libmpi.so.12()(64bit) \
+libxml2.so.2()(64bit) \
+libxml2.so.2(LIBXML2_2.4.30)(64bit) \
+libxml2.so.2(LIBXML2_2.6.0)(64bit)"
 
 inherit rpm

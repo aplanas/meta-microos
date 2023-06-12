@@ -16,7 +16,13 @@ PV = "0.8.2"
 RPM_NAME = "typelib-1_0-TelepathyLogger-0_2-0.8.2-7.9.aarch64.rpm"
 RPM_HASH = "c23b6d00e159c0cd26df8595191f303f0681013e7e04279ab7a5e8364f074ab774d2512a73a1cf8c4c83083ba5dcfb349dd3a44605d10aba2186b0e125efe483"
 
-RPROVIDES:${PN} += "typelib(TelepathyLogger) typelib-1_0-TelepathyLogger-0_2 typelib-1_0-TelepathyLogger-0_2(aarch-64)"
-RDEPENDS:${PN} += "libtelepathy-logger.so.3()(64bit) typelib(GLib) typelib(GObject) typelib(Gio) typelib(TelepathyGLib)"
+RPROVIDES:${PN} += "typelib(TelepathyLogger) \
+typelib-1_0-TelepathyLogger-0_2 \
+typelib-1_0-TelepathyLogger-0_2(aarch-64)"
+RDEPENDS:${PN} += "libtelepathy-logger.so.3()(64bit) \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gio) \
+typelib(TelepathyGLib)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "58f612e4b4150292fa937036284c5bc1740910aa117dd0ff522e80703749aaf3e476
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "msv-demo"
-RDEPENDS:${PN} += "msv-msv msv-xsdlib"
+RDEPENDS:${PN} += "msv-msv \
+msv-xsdlib"
 
 inherit rpm

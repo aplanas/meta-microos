@@ -15,7 +15,21 @@ RPM_NAME = "texlive-titlecaps-2023.201.1.3svn63020-52.1.noarch.rpm"
 RPM_HASH = "f89e3208f9b77387478a946b829b3de72c27dcad51956cc505e5cf8bb6b88abd07fb72155900b64c3502a1264905906a882a2be9c6b4484a2d2b6cce9eac3869"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(titlecaps.sty) texlive-titlecaps"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifnextok.sty) tex(ifthen.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(titlecaps.sty) \
+texlive-titlecaps"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifnextok.sty) \
+tex(ifthen.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

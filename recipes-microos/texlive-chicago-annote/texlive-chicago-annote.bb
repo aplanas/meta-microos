@@ -10,6 +10,17 @@ RPM_HASH = "6ec766da4c1cb124f154ea1fa5277e3b6f03dc8adc8081b755965aaad721dfeba8cc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chicago-annote"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

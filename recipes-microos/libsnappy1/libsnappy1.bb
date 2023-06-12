@@ -16,7 +16,16 @@ PV = "1.1.9"
 RPM_NAME = "libsnappy1-1.1.9-2.8.aarch64.rpm"
 RPM_HASH = "33a6c0e328c321f2f62edf05c8137065ce19e4eccc0b39e786f1f13fa656f5a08f091186c4fafde5146f2e66f4305facd8938032a237acb233cd00115d30578f"
 
-RPROVIDES:${PN} += "libsnappy.so.1()(64bit) libsnappy1 libsnappy1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
+RPROVIDES:${PN} += "libsnappy.so.1()(64bit) \
+libsnappy1 \
+libsnappy1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
 
 inherit rpm

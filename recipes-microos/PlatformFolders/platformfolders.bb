@@ -9,7 +9,22 @@ PV = "4.2.0"
 RPM_NAME = "PlatformFolders-4.2.0-1.3.aarch64.rpm"
 RPM_HASH = "22d1ae00e4b96a4bd82d6b7c8d425f38a575d49be51f130baf03c93a1dc29e7958be38dd6f96a65deb4d5f5fb8828f2c01813705176a9bf0c1376c5a97d1d5da"
 
-RPROVIDES:${PN} += "PlatformFolders PlatformFolders(aarch-64) libplatform_folders.so()(64bit)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+RPROVIDES:${PN} += "PlatformFolders \
+PlatformFolders(aarch-64) \
+libplatform_folders.so()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
 
 inherit rpm

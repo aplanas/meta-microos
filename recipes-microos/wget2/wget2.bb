@@ -13,7 +13,12 @@ PV = "2.0.1"
 RPM_NAME = "wget2-2.0.1-1.5.aarch64.rpm"
 RPM_HASH = "72615d910f7a7e9d691d75ff64a85f0fe5af0cca4854366d5cc9894b1a701d4a96443ca588ade91d80c48f3c2af25decfec205f30bb9e1332085319ce8b595ab"
 
-RPROVIDES:${PN} += "wget2 wget2(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libpcre2-8.so.0()(64bit) libwget.so.1()(64bit)"
+RPROVIDES:${PN} += "wget2 \
+wget2(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libpcre2-8.so.0()(64bit) \
+libwget.so.1()(64bit)"
 
 inherit rpm

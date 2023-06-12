@@ -12,7 +12,21 @@ RPM_NAME = "texlive-beamerdarkthemes-2023.201.0.0.5.1svn55117-53.1.noarch.rpm"
 RPM_HASH = "bcf1f43141cf27d73df6cdc7aadfa3601e1e85b02048490c663f475752786fd9e00ad6e12665f7e31f2bbf7781d6427cdd10dad2ad5efa0ab11bb5ee3813b65c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(beamercolorthemecormorant.sty) tex(beamercolorthemefrigatebird.sty) tex(beamercolorthememagpie.sty) texlive-beamerdarkthemes"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(beamercolorthemecormorant.sty) \
+tex(beamercolorthemefrigatebird.sty) \
+tex(beamercolorthememagpie.sty) \
+texlive-beamerdarkthemes"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

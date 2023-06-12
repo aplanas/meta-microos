@@ -28,7 +28,8 @@ RPM_NAME = "handedict-20090318-20.17.noarch.rpm"
 RPM_HASH = "70b8936c0733843b0d9568cf3da2bb882da78a3a29c94335d0d1265319dc7570aee1af850c2ca8debc53bb2bcd940a7c4cf94dff4a6d3e0b90434f0782cd4e63"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "handedict locale(gjiten:zh)"
+RPROVIDES:${PN} += "handedict \
+locale(gjiten:zh)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

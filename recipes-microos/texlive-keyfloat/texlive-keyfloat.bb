@@ -23,7 +23,29 @@ RPM_NAME = "texlive-keyfloat-2023.201.2.08svn65446-55.1.noarch.rpm"
 RPM_HASH = "0cd5222be1feadf692c836415d47968b8e60a81514343f633d63dc36992c15c34e86785e0310f89231cd830c80fedc06da36df34fe8b7b54e815b630bea64b54"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(keyfloat.sty) texlive-keyfloat"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(caption.sty) tex(etoolbox.sty) tex(graphicx.sty) tex(placeins.sty) tex(rotating.sty) tex(subcaption.sty) tex(wrapfig.sty) tex(xkeyval.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(keyfloat.sty) \
+texlive-keyfloat"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(caption.sty) \
+tex(etoolbox.sty) \
+tex(graphicx.sty) \
+tex(placeins.sty) \
+tex(rotating.sty) \
+tex(subcaption.sty) \
+tex(wrapfig.sty) \
+tex(xkeyval.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

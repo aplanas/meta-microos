@@ -28,7 +28,13 @@ RPM_NAME = "python310-seaborn-0.12.2-1.3.noarch.rpm"
 RPM_HASH = "b33600b61b1ccfab0b3a6f3c890dcb581620575c0580e300a7a1ebe5664c3e39e86395e7f9e4aae29798f16c3fc041f781952bcbbd12a4d4e04827d1c4095fb9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-seaborn python3.10dist(seaborn) python310-seaborn python3dist(seaborn)"
-RDEPENDS:${PN} += "python(abi) python310-matplotlib python310-numpy python310-pandas"
+RPROVIDES:${PN} += "python3-seaborn \
+python3.10dist(seaborn) \
+python310-seaborn \
+python3dist(seaborn)"
+RDEPENDS:${PN} += "python(abi) \
+python310-matplotlib \
+python310-numpy \
+python310-pandas"
 
 inherit rpm

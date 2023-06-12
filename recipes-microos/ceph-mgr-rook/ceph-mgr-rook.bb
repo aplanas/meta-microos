@@ -10,6 +10,9 @@ RPM_HASH = "8d540911816c53a10a021fb9d29429363a7cdcf49ec1f303aad15adc47587c70d58e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-rook"
-RDEPENDS:${PN} += "/bin/sh ceph-mgr python3-jsonpatch python3-kubernetes"
+RDEPENDS:${PN} += "/bin/sh \
+ceph-mgr \
+python3-jsonpatch \
+python3-kubernetes"
 
 inherit rpm

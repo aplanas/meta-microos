@@ -31,7 +31,14 @@ RPM_NAME = "perl-Git-Repository-1.325-3.1.noarch.rpm"
 RPM_HASH = "3e77d2fb56a1bc60ac025194cfe3a89d2a07f337949b7ef31c9d8811af4471ded1e2c0662e640844d7e6a9eace23dc6d7787659d50ef3d5719d36e9f6a17acef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Git::Repository) perl(Git::Repository::Command) perl(Git::Repository::Plugin) perl(Test::Git) perl-Git-Repository"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Git::Version::Compare) perl(System::Command) perl(namespace::clean)"
+RPROVIDES:${PN} += "perl(Git::Repository) \
+perl(Git::Repository::Command) \
+perl(Git::Repository::Plugin) \
+perl(Test::Git) \
+perl-Git-Repository"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Git::Version::Compare) \
+perl(System::Command) \
+perl(namespace::clean)"
 
 inherit rpm

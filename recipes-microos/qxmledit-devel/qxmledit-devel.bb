@@ -10,7 +10,8 @@ PV = "0.9.17"
 RPM_NAME = "qxmledit-devel-0.9.17-1.5.aarch64.rpm"
 RPM_HASH = "300726f7ff1c1513b055672baefce1b260570bbfd6ab51340a8ebad38fd1a99a40071649e318369c8ce0aebf36aea872a96b783e723b6533521c0efa15d0bef7"
 
-RPROVIDES:${PN} += "qxmledit-devel qxmledit-devel(aarch-64)"
+RPROVIDES:${PN} += "qxmledit-devel \
+qxmledit-devel(aarch-64)"
 RDEPENDS:${PN} += "libqxmledit-0_9_17-0"
 
 inherit rpm

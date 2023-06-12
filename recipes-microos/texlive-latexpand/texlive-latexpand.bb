@@ -11,6 +11,25 @@ RPM_HASH = "3fcf38c0fb8c38aeac16202d165fdf27bf821f7fd84934e306fbcfef253c4fa5f1e0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexpand"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Cwd) perl(File::Spec) perl(Getopt::Long) perl(IO::Handle) perl(open) perl(strict) sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-latexpand-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Cwd) \
+perl(File::Spec) \
+perl(Getopt::Long) \
+perl(IO::Handle) \
+perl(open) \
+perl(strict) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-latexpand-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

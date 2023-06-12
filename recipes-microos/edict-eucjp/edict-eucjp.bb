@@ -13,7 +13,8 @@ RPM_NAME = "edict-eucjp-20230511-1.1.noarch.rpm"
 RPM_HASH = "f95ab5d9b940efd9670e5c137c8fd44c561ca0ffceed1d0309cf5d62f5fe98edb6928106d5ccb979893650aff4f4f57265287520fcdb8a2a358a8fc17dcc2bc0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "edict-eucjp locale(ja)"
+RPROVIDES:${PN} += "edict-eucjp \
+locale(ja)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

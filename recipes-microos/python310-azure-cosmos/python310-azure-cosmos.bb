@@ -10,7 +10,12 @@ RPM_NAME = "python310-azure-cosmos-4.3.1-1.2.noarch.rpm"
 RPM_HASH = "3ead0b66e4497f584cd07ee2dcb2662c1ab89074514ee43bebd1e87c6eee56661f85e494f471a062ab9bb4e2c2c3ff379a65940dc96b11defe66914a0b33a8e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-cosmos python3.10dist(azure-cosmos) python310-azure-cosmos python3dist(azure-cosmos)"
-RDEPENDS:${PN} += "python(abi) python310-azure-core python310-azure-nspkg"
+RPROVIDES:${PN} += "python3-azure-cosmos \
+python3.10dist(azure-cosmos) \
+python310-azure-cosmos \
+python3dist(azure-cosmos)"
+RDEPENDS:${PN} += "python(abi) \
+python310-azure-core \
+python310-azure-nspkg"
 
 inherit rpm

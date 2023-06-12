@@ -8,7 +8,10 @@ PV = "3.4.3"
 RPM_NAME = "liblaszip_api8-3.4.3-1.13.aarch64.rpm"
 RPM_HASH = "d479897dcec581f9d004fb33f933c71ba1e7bf8822dd6919fe88856e8084fe847b2b2d3fb71895469a3cd9f3ce5aa56dc874701699fcc673c5d2437c9059453e"
 
-RPROVIDES:${PN} += "liblaszip_api.so.8()(64bit) liblaszip_api8 liblaszip_api8(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "liblaszip_api.so.8()(64bit) \
+liblaszip_api8 \
+liblaszip_api8(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

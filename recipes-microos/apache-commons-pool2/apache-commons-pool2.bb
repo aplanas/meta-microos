@@ -12,7 +12,12 @@ RPM_NAME = "apache-commons-pool2-2.4.2-5.15.noarch.rpm"
 RPM_HASH = "cc56494e25ab068bcbcdaeb9177c583af450c2b47c6aa5800198b523f8709baf22fe917615ef91fe85b06d8a0d520c74db829bb631020d20c713675817a10573"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "apache-commons-pool2 commons-pool2 mvn(org.apache.commons:commons-pool2) mvn(org.apache.commons:commons-pool2:pom:)"
-RDEPENDS:${PN} += "cglib java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "apache-commons-pool2 \
+commons-pool2 \
+mvn(org.apache.commons:commons-pool2) \
+mvn(org.apache.commons:commons-pool2:pom:)"
+RDEPENDS:${PN} += "cglib \
+java-headless \
+javapackages-filesystem"
 
 inherit rpm

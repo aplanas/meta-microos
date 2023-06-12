@@ -13,7 +13,9 @@ RPM_NAME = "python39-structlog-22.1.0-2.3.noarch.rpm"
 RPM_HASH = "e93615377194e0a5eda846eb8755d519cff24dd8e2983bfb6baee93220af02d8ff073891097dae9681a428a475664edaf51c84692a0330008d00c7a24c68aa7f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(structlog) python39-structlog python3dist(structlog)"
+RPROVIDES:${PN} += "python3.9dist(structlog) \
+python39-structlog \
+python3dist(structlog)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -10,7 +10,17 @@ PV = "0.12.7_k6.3.4_1"
 RPM_NAME = "v4l2loopback-kmp-64kb-0.12.7_k6.3.4_1-1.39.aarch64.rpm"
 RPM_HASH = "0c52a183eb9950dc2627e60973ff41023c6b22cf6a6d79a24b9c09e165875d846ce559a367d2a588bc126185efe1bd677884b1d14f14d480d501ace4c82c5e23"
 
-RPROVIDES:${PN} += "kmod(v4l2loopback.ko) multiversion(kernel) v4l2loopback-kmp v4l2loopback-kmp-64kb v4l2loopback-kmp-64kb(aarch-64) v4l2loopback-kmp-64kb-k6.3.4_1"
-RDEPENDS:${PN} += "/bin/sh coreutils grep kernel-64kb kernel-uname-r suse-kernel-rpm-scriptlets"
+RPROVIDES:${PN} += "kmod(v4l2loopback.ko) \
+multiversion(kernel) \
+v4l2loopback-kmp \
+v4l2loopback-kmp-64kb \
+v4l2loopback-kmp-64kb(aarch-64) \
+v4l2loopback-kmp-64kb-k6.3.4_1"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+grep \
+kernel-64kb \
+kernel-uname-r \
+suse-kernel-rpm-scriptlets"
 
 inherit rpm

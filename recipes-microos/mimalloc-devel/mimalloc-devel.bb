@@ -12,7 +12,11 @@ PV = "2.0.9"
 RPM_NAME = "mimalloc-devel-2.0.9-1.3.aarch64.rpm"
 RPM_HASH = "2bc50d10a61f0e84a6c7a9c7651f544ea7a3a029e27b753de7eed8ca2b4987e2a10ad1edf9e1e53a512a95d48e1be12912ff0b629c9f812aa65f055dbc62f478"
 
-RPROVIDES:${PN} += "cmake(mimalloc) mimalloc-devel mimalloc-devel(aarch-64) pkgconfig(mimalloc)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libmimalloc2"
+RPROVIDES:${PN} += "cmake(mimalloc) \
+mimalloc-devel \
+mimalloc-devel(aarch-64) \
+pkgconfig(mimalloc)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libmimalloc2"
 
 inherit rpm

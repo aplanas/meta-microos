@@ -14,7 +14,14 @@ RPM_NAME = "python310-websockify-0.10.0-3.6.noarch.rpm"
 RPM_HASH = "4f3a3c614920ebe7565650581f8b067884bcd2cacec6f616bf7451a11483727c5ec4962fd27198b94600f4ff4d0972581e812c4d6228fdcf4f5f860254c48875"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-websockify python3.10dist(websockify) python310-websockify python3dist(websockify)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3-websockify \
+python3.10dist(websockify) \
+python310-websockify \
+python3dist(websockify)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-setuptools \
+update-alternatives"
 
 inherit rpm

@@ -13,7 +13,8 @@ RPM_NAME = "kernel-source-vanilla-6.3.4-1.1.noarch.rpm"
 RPM_HASH = "39e15992f98c2e3448ad500adbb68bb2611c7fe5d4613abda75331c1bba751f399aa950dcbf1f2b8cf14f51e4b55e1051a9dc9b60d096cf4c44b3aa80584fb21"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "kernel-source-vanilla multiversion(kernel)"
+RPROVIDES:${PN} += "kernel-source-vanilla \
+multiversion(kernel)"
 RDEPENDS:${PN} += "kernel-macros"
 
 inherit rpm

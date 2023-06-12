@@ -11,7 +11,12 @@ PV = "20190621"
 RPM_NAME = "libhdhomerun2-20190621-1.18.aarch64.rpm"
 RPM_HASH = "3a2f97763d7f88be3a50216e42391fe0db37aecb9c4db5a552a63bec8561d27e83482b783b23ac0a9127c4db677b7595c3900a8e222fc3369ceb23a09765e3d0"
 
-RPROVIDES:${PN} += "libhdhomerun.so.2()(64bit) libhdhomerun2 libhdhomerun2(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "libhdhomerun.so.2()(64bit) \
+libhdhomerun2 \
+libhdhomerun2(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

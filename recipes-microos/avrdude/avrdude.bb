@@ -9,7 +9,23 @@ PV = "6.3"
 RPM_NAME = "avrdude-6.3-5.7.aarch64.rpm"
 RPM_HASH = "7d3d52970beef39c33600fab7a71f40421bf1a17b00d60ad5d32b66451293c912368a584c85324ffa2eee41285bf544fb3e52daa0f310b5b0f92fea7cff3c111"
 
-RPROVIDES:${PN} += "avr-programmer avrdude avrdude(aarch-64) config(avrdude)"
-RDEPENDS:${PN} += "/bin/sh /sbin/modprobe ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libelf.so.1()(64bit) libelf.so.1(ELFUTILS_1.0)(64bit) libelf.so.1(ELFUTILS_1.5)(64bit) libftdi1.so.2()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.29)(64bit) libreadline.so.8()(64bit) libusb-0.1.so.4()(64bit) libusb-1.0.so.0()(64bit)"
+RPROVIDES:${PN} += "avr-programmer \
+avrdude \
+avrdude(aarch-64) \
+config(avrdude)"
+RDEPENDS:${PN} += "/bin/sh \
+/sbin/modprobe \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libelf.so.1()(64bit) \
+libelf.so.1(ELFUTILS_1.0)(64bit) \
+libelf.so.1(ELFUTILS_1.5)(64bit) \
+libftdi1.so.2()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libreadline.so.8()(64bit) \
+libusb-0.1.so.4()(64bit) \
+libusb-1.0.so.0()(64bit)"
 
 inherit rpm

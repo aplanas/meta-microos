@@ -25,6 +25,9 @@ RPM_HASH = "f9677e7123e80ec568b1d3301667759e4aebbd15008d419aee2530254960b23b0128
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "driverctl"
-RDEPENDS:${PN} += "/bin/bash /bin/sh coreutils udev"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+coreutils \
+udev"
 
 inherit rpm

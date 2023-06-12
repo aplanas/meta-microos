@@ -13,7 +13,11 @@ PV = "1.2.5"
 RPM_NAME = "tclap-1.2.5-3.1.aarch64.rpm"
 RPM_HASH = "75d0096fbe62a959fc9ed75d82ad060f66a8a44a1715474bce586179939fc8b7dd6473ceca62d996d15e23234f44768fdba0a5bf8710bb4b40ea6c208b87bb55"
 
-RPROVIDES:${PN} += "libtclap libtclap-devel pkgconfig(tclap) tclap tclap(aarch-64)"
+RPROVIDES:${PN} += "libtclap \
+libtclap-devel \
+pkgconfig(tclap) \
+tclap \
+tclap(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

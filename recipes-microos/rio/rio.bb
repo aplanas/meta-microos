@@ -7,7 +7,8 @@ PV = "0.8.0"
 RPM_NAME = "rio-0.8.0-1.9.aarch64.rpm"
 RPM_HASH = "1bfdf12568e65c7ae44d8ee292c44cb3e680766318e5c1ba70ae38c4ae97fd228d5d0d000dd501a7531bfcfbb5ebbe8145c2735d2852e2f32714a4449c4e066e"
 
-RPROVIDES:${PN} += "rio rio(aarch-64)"
+RPROVIDES:${PN} += "rio \
+rio(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

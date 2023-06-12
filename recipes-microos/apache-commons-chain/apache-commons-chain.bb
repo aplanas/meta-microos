@@ -23,7 +23,15 @@ RPM_NAME = "apache-commons-chain-1.2-2.6.noarch.rpm"
 RPM_HASH = "8581901b1a61540d48c5e22c9b9b97598406a9cc13e5857974b182c03e9a3b2a3c90f70783250c01b0806a296575071cbe483ee68dce606cb50f54b77fd568f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "apache-commons-chain mvn(commons-chain:commons-chain) mvn(commons-chain:commons-chain:pom:) mvn(org.apache.commons:commons-chain) mvn(org.apache.commons:commons-chain:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(commons-beanutils:commons-beanutils) mvn(commons-digester:commons-digester) mvn(commons-logging:commons-logging)"
+RPROVIDES:${PN} += "apache-commons-chain \
+mvn(commons-chain:commons-chain) \
+mvn(commons-chain:commons-chain:pom:) \
+mvn(org.apache.commons:commons-chain) \
+mvn(org.apache.commons:commons-chain:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(commons-beanutils:commons-beanutils) \
+mvn(commons-digester:commons-digester) \
+mvn(commons-logging:commons-logging)"
 
 inherit rpm

@@ -32,7 +32,9 @@ RPM_NAME = "python311-unsync-1.3-1.11.noarch.rpm"
 RPM_HASH = "89c6a627e57dd3df38ab69ec322ae5d26a7eb2d1f928233f393c6b99c81e036f8a397f8a48fbeb13cd3707423c6fa0e45a34dda12e650d150bf972541a407df9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(unsync) python311-unsync python3dist(unsync)"
+RPROVIDES:${PN} += "python3.11dist(unsync) \
+python311-unsync \
+python3dist(unsync)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

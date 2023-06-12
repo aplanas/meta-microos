@@ -10,6 +10,8 @@ RPM_HASH = "90af017d6239103d7a22a0ed1e77d0f086c5003621265e9022bde8e5f30d762ced34
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "build-mkdrpms"
-RDEPENDS:${PN} += "/usr/bin/perl build deltarpm"
+RDEPENDS:${PN} += "/usr/bin/perl \
+build \
+deltarpm"
 
 inherit rpm

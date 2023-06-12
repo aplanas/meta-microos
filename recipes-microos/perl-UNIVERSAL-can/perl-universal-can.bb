@@ -31,7 +31,8 @@ RPM_NAME = "perl-UNIVERSAL-can-1.20140328-3.26.noarch.rpm"
 RPM_HASH = "80131bdca1081fcdea6d707d7dd34784d38bce71c1dcbe38116119f488947dc4838e85d1a3323cf4f498d2f7977e8bc7fcc404797befd332a0d390d5dfd22d92"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(UNIVERSAL::can) perl-UNIVERSAL-can"
+RPROVIDES:${PN} += "perl(UNIVERSAL::can) \
+perl-UNIVERSAL-can"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

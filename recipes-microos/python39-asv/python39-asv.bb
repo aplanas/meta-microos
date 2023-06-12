@@ -13,7 +13,24 @@ PV = "0.5.1"
 RPM_NAME = "python39-asv-0.5.1-1.5.aarch64.rpm"
 RPM_HASH = "44438c5c5104229e959c1461661e66a4a2961520f23512aa6515a4d3a6113b7391c96af785bce5b1cad4cc974147c633403492193949049de625c26f9b5c86bb"
 
-RPROVIDES:${PN} += "python3.9dist(asv) python39-asv python39-asv(aarch-64) python3dist(asv)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) python(abi) python39-six update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(asv) \
+python39-asv \
+python39-asv(aarch-64) \
+python3dist(asv)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+python(abi) \
+python39-six \
+update-alternatives"
 
 inherit rpm

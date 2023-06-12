@@ -14,7 +14,8 @@ PV = "4.7.2"
 RPM_NAME = "guile-json-4.7.2-1.2.aarch64.rpm"
 RPM_HASH = "5af8d6682f52060d507655f58f750fdd59b478e3e3aa66b9cd0a61b159722e3dcd841ac50e8324a48f45283370f95ed31b9c7b317962030c655c84224b4e2765"
 
-RPROVIDES:${PN} += "guile-json guile-json(aarch-64)"
+RPROVIDES:${PN} += "guile-json \
+guile-json(aarch-64)"
 RDEPENDS:${PN} += "guile"
 
 inherit rpm

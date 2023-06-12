@@ -10,7 +10,11 @@ PV = "5.106.0"
 RPM_NAME = "kdnssd-framework-devel-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "a53d5c2d71a60b1c908f5db277b20e803adc859dd82059b28224739ffe82fc6a921fb032009800202b749995130ef35e982f86efaf9a08e7f143e7d319b0d9c7"
 
-RPROVIDES:${PN} += "cmake(KF5DNSSD) kdnssd-framework-devel kdnssd-framework-devel(aarch-64)"
-RDEPENDS:${PN} += "cmake(Qt5Network) extra-cmake-modules libKF5DNSSD5"
+RPROVIDES:${PN} += "cmake(KF5DNSSD) \
+kdnssd-framework-devel \
+kdnssd-framework-devel(aarch-64)"
+RDEPENDS:${PN} += "cmake(Qt5Network) \
+extra-cmake-modules \
+libKF5DNSSD5"
 
 inherit rpm

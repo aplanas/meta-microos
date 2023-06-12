@@ -13,7 +13,29 @@ RPM_NAME = "texlive-milsymb-2023.201.1.02svn54361-54.1.noarch.rpm"
 RPM_HASH = "8986947dc035b4781d016e4101735ffffe7a13d93e2c21fbe2f7219d63779eae21f0e556154ffae6794159c05e48f6f7470095ea97e1154a305ae9a257b7dc52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(milsymb.sty) texlive-milsymb"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(acronym.sty) tex(amssymb.sty) tex(arevmath.sty) tex(fix-cm.sty) tex(lmodern.sty) tex(marvosym.sty) tex(textcomp.sty) tex(tikz.sty) tex(xifthen.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(milsymb.sty) \
+texlive-milsymb"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(acronym.sty) \
+tex(amssymb.sty) \
+tex(arevmath.sty) \
+tex(fix-cm.sty) \
+tex(lmodern.sty) \
+tex(marvosym.sty) \
+tex(textcomp.sty) \
+tex(tikz.sty) \
+tex(xifthen.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

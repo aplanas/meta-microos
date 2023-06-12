@@ -10,7 +10,18 @@ RPM_NAME = "haas-proxy-1.9-1.13.noarch.rpm"
 RPM_HASH = "45635a9ab14ad7b510adf578cb563fbea9ca787419343c63c054f8c5130a0d927ddcdb86211abef6f4459f3e569e1c4b0555a4e518d6fb2500598bf7c5cd4f94"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(haas-proxy) haas-proxy python3.10dist(haas-proxy) python3dist(haas-proxy)"
-RDEPENDS:${PN} += "/bin/sh python(abi) python3-Twisted python3-base python3-cachetools python3-pycrypto python3-service_identity sshpass systemd"
+RPROVIDES:${PN} += "config(haas-proxy) \
+haas-proxy \
+python3.10dist(haas-proxy) \
+python3dist(haas-proxy)"
+RDEPENDS:${PN} += "/bin/sh \
+python(abi) \
+python3-Twisted \
+python3-base \
+python3-cachetools \
+python3-pycrypto \
+python3-service_identity \
+sshpass \
+systemd"
 
 inherit rpm

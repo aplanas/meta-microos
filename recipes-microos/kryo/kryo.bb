@@ -14,7 +14,16 @@ RPM_NAME = "kryo-4.0.2-2.19.noarch.rpm"
 RPM_HASH = "d8e253ee35e7f7d99c3a17c0f66760763e9f3fea0d48b0f6539c543c250cbf2a14537bc27bff2120d11bb741bdbc15603e85825093e4b00cc972369a8ab80d6f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "kryo mvn(com.esotericsoftware.kryo:kryo) mvn(com.esotericsoftware.kryo:kryo:pom:) mvn(com.esotericsoftware:kryo) mvn(com.esotericsoftware:kryo:pom:) osgi(com.esotericsoftware.kryo)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(com.esotericsoftware:minlog) mvn(com.esotericsoftware:reflectasm) mvn(org.objenesis:objenesis)"
+RPROVIDES:${PN} += "kryo \
+mvn(com.esotericsoftware.kryo:kryo) \
+mvn(com.esotericsoftware.kryo:kryo:pom:) \
+mvn(com.esotericsoftware:kryo) \
+mvn(com.esotericsoftware:kryo:pom:) \
+osgi(com.esotericsoftware.kryo)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(com.esotericsoftware:minlog) \
+mvn(com.esotericsoftware:reflectasm) \
+mvn(org.objenesis:objenesis)"
 
 inherit rpm

@@ -8,7 +8,15 @@ PV = "22.2"
 RPM_NAME = "libhd22-22.2-1.3.aarch64.rpm"
 RPM_HASH = "cab6c525b8446210916b18af938d7adf7d8b1ae50556b98bb6c319e911f1b0ad9a531c646761f79135ea4ae6cad7ef303adecf088b1e270e4e76e413fa184218"
 
-RPROVIDES:${PN} += "libhd libhd.so.22()(64bit) libhd22 libhd22(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libuuid.so.1()(64bit) libuuid.so.1(UUID_1.0)(64bit)"
+RPROVIDES:${PN} += "libhd \
+libhd.so.22()(64bit) \
+libhd22 \
+libhd22(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+libuuid.so.1()(64bit) \
+libuuid.so.1(UUID_1.0)(64bit)"
 
 inherit rpm

@@ -15,7 +15,18 @@ PV = "0.2.2"
 RPM_NAME = "libsamplerate0-0.2.2-1.7.aarch64.rpm"
 RPM_HASH = "edc0f67eb8136b342b7da54ad491d9543f0848cc586d653c408d597fde67d39e829005aa436fbfa8f401b248c8bf47a3c7bfd93a8d6bd2f4805a21895c8f4a06"
 
-RPROVIDES:${PN} += "libsamplerate libsamplerate.so.0()(64bit) libsamplerate.so.0(libsamplerate.so.0.0)(64bit) libsamplerate.so.0(libsamplerate.so.0.1)(64bit) libsamplerate.so.0(libsamplerate.so.0.2)(64bit) libsamplerate0 libsamplerate0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libsamplerate \
+libsamplerate.so.0()(64bit) \
+libsamplerate.so.0(libsamplerate.so.0.0)(64bit) \
+libsamplerate.so.0(libsamplerate.so.0.1)(64bit) \
+libsamplerate.so.0(libsamplerate.so.0.2)(64bit) \
+libsamplerate0 \
+libsamplerate0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

@@ -36,7 +36,13 @@ RPM_NAME = "python311-jmespath-1.0.1-2.4.noarch.rpm"
 RPM_HASH = "c2c6c97b250a146997dd71b9e8c3a23f8c3c89b15332412a4d2f45a0bcb41bd1a2efa6fb03988d8031de31f327d7b0ed937a93113af36bdca7763dddddbd5d4e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(jmespath) python311-jmespath python3dist(jmespath)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-ply update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(jmespath) \
+python311-jmespath \
+python3dist(jmespath)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-ply \
+update-alternatives"
 
 inherit rpm

@@ -18,7 +18,22 @@ PV = "1.1.3"
 RPM_NAME = "libpystring0_0-1.1.3-1.8.aarch64.rpm"
 RPM_HASH = "ec503f3dd93aed22230ee047cf7ee6276fe1bf2cc4c3a4e8424267548536c51ba9d3fe7492efbea87ef34de96a290ef049549e9329636aa306cdc8a98becc452"
 
-RPROVIDES:${PN} += "libpystring.so.0.0()(64bit) libpystring0_0 libpystring0_0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+RPROVIDES:${PN} += "libpystring.so.0.0()(64bit) \
+libpystring0_0 \
+libpystring0_0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
 
 inherit rpm

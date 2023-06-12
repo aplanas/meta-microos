@@ -17,7 +17,33 @@ RPM_NAME = "texlive-skak-2023.201.1.5.3svn61719-57.1.noarch.rpm"
 RPM_HASH = "b48bc5d42a357a00200b47995113bf8ee359eccbf1c24801aa62bd414967d6934f6374cd76bf163496560e4d30fe6597c0c2f8b2dea02132e855eb7f15583e69"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(skak.fd) tex(skak.sty) tex(skak10.tfm) tex(skak15.tfm) tex(skak20.tfm) tex(skak30.tfm) tex(skakf10.tfm) tex(skakf10b.tfm) texlive-skak"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(chessfss.sty) tex(ifthen.sty) tex(lambda.sty) tex(pst-node.sty) tex(pstricks.sty) tex(textcomp.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(skak.fd) \
+tex(skak.sty) \
+tex(skak10.tfm) \
+tex(skak15.tfm) \
+tex(skak20.tfm) \
+tex(skak30.tfm) \
+tex(skakf10.tfm) \
+tex(skakf10b.tfm) \
+texlive-skak"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(chessfss.sty) \
+tex(ifthen.sty) \
+tex(lambda.sty) \
+tex(pst-node.sty) \
+tex(pstricks.sty) \
+tex(textcomp.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

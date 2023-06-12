@@ -13,6 +13,7 @@ RPM_HASH = "9730a471800479bbe666a31cf6096fe2cfa686eb37f54f8fdf7692515c2da55f9500
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-versioneer-toml"
-RDEPENDS:${PN} += "(python39-tomli if python39-base < 3.11) python39-versioneer"
+RDEPENDS:${PN} += "(python39-tomli if python39-base < 3.11) \
+python39-versioneer"
 
 inherit rpm

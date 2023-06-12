@@ -30,7 +30,9 @@ RPM_NAME = "python39-encore-0.8.0-1.5.noarch.rpm"
 RPM_HASH = "e350ae62b6e162469d593bc61a293ca31f5262b3434103d79192221923f8d183ea4117cad329dd42a124598f464e9d48f69acb75dfcd62d4fbe9ec014b80d9da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(encore) python39-encore python3dist(encore)"
+RPROVIDES:${PN} += "python3.9dist(encore) \
+python39-encore \
+python3dist(encore)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

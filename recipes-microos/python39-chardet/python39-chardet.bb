@@ -34,7 +34,12 @@ RPM_NAME = "python39-chardet-5.1.0-3.1.noarch.rpm"
 RPM_HASH = "34565d51fe0f93caf78f00f52c2f5b0b4d0e03976220b5addf6799a8782bda04aaef7fed71cb03f38b296d40ebb3f2dcf6c77d1958afafe6ec6bf42e970545f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(chardet) python39-chardet python3dist(chardet)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 alts python(abi)"
+RPROVIDES:${PN} += "python3.9dist(chardet) \
+python39-chardet \
+python3dist(chardet)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+alts \
+python(abi)"
 
 inherit rpm

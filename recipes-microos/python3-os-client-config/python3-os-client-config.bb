@@ -15,7 +15,13 @@ RPM_NAME = "python3-os-client-config-2.1.0-3.3.noarch.rpm"
 RPM_HASH = "24e99b5a2f5577b39d3ee39e23d060647cff9b7e91c7a03f819fa2a1d8992d2053ebbb175a5ae41ca4eeddf59a2e0c156d5498a97c965aa6ed54da8cbac793ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-os-client-config python3.10dist(os-client-config) python3dist(os-client-config)"
-RDEPENDS:${PN} += "python(abi) python3-PyYAML python3-appdirs python3-keystoneauth1 python3-requestsexceptions"
+RPROVIDES:${PN} += "python3-os-client-config \
+python3.10dist(os-client-config) \
+python3dist(os-client-config)"
+RDEPENDS:${PN} += "python(abi) \
+python3-PyYAML \
+python3-appdirs \
+python3-keystoneauth1 \
+python3-requestsexceptions"
 
 inherit rpm

@@ -20,7 +20,14 @@ PV = "4.36"
 RPM_NAME = "perl-Cpanel-JSON-XS-4.36-1.3.aarch64.rpm"
 RPM_HASH = "3e7aaaca12d9c321454075ef6509d5fa5841541bc3a59269221a8bd8860eae378c5e65010af98a93d4954471bd9807b0e3f1fec709297dd7faea523dc8664a05"
 
-RPROVIDES:${PN} += "perl(Cpanel::JSON::XS) perl(Cpanel::JSON::XS::Type) perl-Cpanel-JSON-XS perl-Cpanel-JSON-XS(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Cpanel::JSON::XS) \
+perl(Cpanel::JSON::XS::Type) \
+perl-Cpanel-JSON-XS \
+perl-Cpanel-JSON-XS(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -12,7 +12,17 @@ RPM_NAME = "jupyter-jupyterlab-filesystem-20221227-12.1.noarch.rpm"
 RPM_HASH = "1559cb5df0ba32e00eeba76b06250932187053c55298a10f0151504f7c88bfd88000e49150f3295cfb37276b9df1720d964c2e181e1d224e2e952eab8b4b5955"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-jupyterlab-filesystem jupyter-jupyterlab-macros-devel python310-jupyterlab-filesystem python310-jupyterlab-macros-devel python311-jupyterlab-filesystem python311-jupyterlab-macros-devel python39-jupyterlab-filesystem python39-jupyterlab-macros-devel rpm_macro(_jupyter_lab_dir) rpm_macro(_jupyter_labextensions_dir) rpm_macro(_jupyter_labextensions_dir3)"
+RPROVIDES:${PN} += "jupyter-jupyterlab-filesystem \
+jupyter-jupyterlab-macros-devel \
+python310-jupyterlab-filesystem \
+python310-jupyterlab-macros-devel \
+python311-jupyterlab-filesystem \
+python311-jupyterlab-macros-devel \
+python39-jupyterlab-filesystem \
+python39-jupyterlab-macros-devel \
+rpm_macro(_jupyter_lab_dir) \
+rpm_macro(_jupyter_labextensions_dir) \
+rpm_macro(_jupyter_labextensions_dir3)"
 RDEPENDS:${PN} += "jupyter-jupyter_core-filesystem"
 
 inherit rpm

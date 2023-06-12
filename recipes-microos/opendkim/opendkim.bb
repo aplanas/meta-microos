@@ -13,7 +13,35 @@ PV = "2.11.0"
 RPM_NAME = "opendkim-2.11.0-7.15.aarch64.rpm"
 RPM_HASH = "cb160f1a4edaf926c559caa64f84f45a55b4922601723afd150f72c1b90af6c5777f5ea82d02fe86ba387962fe6bc43ad632eacbca6273a4ecb538794232862a"
 
-RPROVIDES:${PN} += "config(opendkim) opendkim opendkim(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/openssl /usr/bin/perl /usr/sbin/groupadd /usr/sbin/useradd ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbsd.so.0()(64bit) libbsd.so.0(LIBBSD_0.0)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libdb-4.8.so()(64bit) liblber.so.2()(64bit) liblber.so.2(OPENLDAP_2.200)(64bit) libldap.so.2()(64bit) libldap.so.2(OPENLDAP_2.200)(64bit) liblua5.1.so.5()(64bit) libmemcached.so.11()(64bit) libmilter.so.1.0()(64bit) libopendkim.so.11()(64bit) librbl.so.1()(64bit) librepute.so.1()(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) libunbound.so.8()(64bit) libvbr.so.2()(64bit)"
+RPROVIDES:${PN} += "config(opendkim) \
+opendkim \
+opendkim(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/openssl \
+/usr/bin/perl \
+/usr/sbin/groupadd \
+/usr/sbin/useradd \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbsd.so.0()(64bit) \
+libbsd.so.0(LIBBSD_0.0)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libdb-4.8.so()(64bit) \
+liblber.so.2()(64bit) \
+liblber.so.2(OPENLDAP_2.200)(64bit) \
+libldap.so.2()(64bit) \
+libldap.so.2(OPENLDAP_2.200)(64bit) \
+liblua5.1.so.5()(64bit) \
+libmemcached.so.11()(64bit) \
+libmilter.so.1.0()(64bit) \
+libopendkim.so.11()(64bit) \
+librbl.so.1()(64bit) \
+librepute.so.1()(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+libunbound.so.8()(64bit) \
+libvbr.so.2()(64bit)"
 
 inherit rpm

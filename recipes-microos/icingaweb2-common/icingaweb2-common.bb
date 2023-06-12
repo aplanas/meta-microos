@@ -9,6 +9,9 @@ RPM_HASH = "763463e927152316e7b94a9061748313a6e95b79b7b0aedc14dd4eada52e1b228c7a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-common"
-RDEPENDS:${PN} += "/bin/sh permissions pwdutils system-user-wwwrun"
+RDEPENDS:${PN} += "/bin/sh \
+permissions \
+pwdutils \
+system-user-wwwrun"
 
 inherit rpm

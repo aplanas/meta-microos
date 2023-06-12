@@ -15,7 +15,21 @@ RPM_NAME = "perl-Parse-CPAN-Packages-2.40-1.25.noarch.rpm"
 RPM_HASH = "edd67c205d191c95519dabc48b6f8e44302fe8770b1c095c0b9d8637e9c94d50eca1bcd14a6c619119deac7047cf934ba556af2d14975fc6d7e75b7d4b17f0e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Parse::CPAN::Packages) perl(Parse::CPAN::Packages::Distribution) perl(Parse::CPAN::Packages::Package) perl-Parse-CPAN-Packages"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Archive::Peek) perl(CPAN::DistnameInfo) perl(Compress::Zlib) perl(File::Slurp) perl(Moo) perl(PPI) perl(Path::Class) perl(Test::InDistDir) perl(Type::Utils) perl(Types::Standard) perl(version)"
+RPROVIDES:${PN} += "perl(Parse::CPAN::Packages) \
+perl(Parse::CPAN::Packages::Distribution) \
+perl(Parse::CPAN::Packages::Package) \
+perl-Parse-CPAN-Packages"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Archive::Peek) \
+perl(CPAN::DistnameInfo) \
+perl(Compress::Zlib) \
+perl(File::Slurp) \
+perl(Moo) \
+perl(PPI) \
+perl(Path::Class) \
+perl(Test::InDistDir) \
+perl(Type::Utils) \
+perl(Types::Standard) \
+perl(version)"
 
 inherit rpm

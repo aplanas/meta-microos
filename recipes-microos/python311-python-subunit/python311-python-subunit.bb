@@ -27,7 +27,12 @@ RPM_NAME = "python311-python-subunit-1.4.2-2.2.noarch.rpm"
 RPM_HASH = "fdaec2eb48cbaef808e5c5685450ca76855cfeccd7b829d7f9ca3e545ed879031da21108e3f9666a60c615f36feb2b3963f76347bc137e377001e45cb4219c30"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(python-subunit) python311-python-subunit python3dist(python-subunit)"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python311-extras python311-testtools"
+RPROVIDES:${PN} += "python3.11dist(python-subunit) \
+python311-python-subunit \
+python3dist(python-subunit)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python311-extras \
+python311-testtools"
 
 inherit rpm

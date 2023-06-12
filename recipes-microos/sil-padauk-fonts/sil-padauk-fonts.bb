@@ -27,7 +27,12 @@ RPM_NAME = "sil-padauk-fonts-2.2-84.17.noarch.rpm"
 RPM_HASH = "0f157f6a870aa8dd07497daf72ad4498eeb0247deda2a9ee1170d733461213e71c5278f138720cfa15c5410b04252e2bcf46be2ea8d5a82b1253360d751abb77"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(my) sil-padauk sil-padauk-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "locale(my) \
+sil-padauk \
+sil-padauk-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

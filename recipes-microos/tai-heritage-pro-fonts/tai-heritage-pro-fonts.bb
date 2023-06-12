@@ -12,6 +12,9 @@ RPM_HASH = "9023e105f891fd7fc81e1a14451367fc2456f0faea3887ae654b34af8452417f59f2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tai-heritage-pro-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

@@ -43,7 +43,12 @@ PV = "0.19"
 RPM_NAME = "perl-Module-Build-XSUtil-0.19-1.15.aarch64.rpm"
 RPM_HASH = "e5ac14b510bae09c49cc02fdb6e5922782f8eedd4b336784458c007adb4884d96cf3f00cd4461b740fcaa83a8ce51cb1747ef6851cbd71391a708a9fd03bee82"
 
-RPROVIDES:${PN} += "perl(Module::Build::XSUtil) perl-Module-Build-XSUtil perl-Module-Build-XSUtil(aarch-64)"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Devel::CheckCompiler) perl(ExtUtils::CBuilder) perl(parent)"
+RPROVIDES:${PN} += "perl(Module::Build::XSUtil) \
+perl-Module-Build-XSUtil \
+perl-Module-Build-XSUtil(aarch-64)"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Devel::CheckCompiler) \
+perl(ExtUtils::CBuilder) \
+perl(parent)"
 
 inherit rpm

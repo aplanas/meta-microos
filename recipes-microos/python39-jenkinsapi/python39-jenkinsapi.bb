@@ -29,7 +29,15 @@ RPM_NAME = "python39-jenkinsapi-0.3.11-3.6.noarch.rpm"
 RPM_HASH = "7f7816c8c61094202c47623bf71a053974afd7ca31cfc4755af6b011fd77e8f86073c93c930ca4d8c8cc03bff29f37177fa83796b8393469c55bbd7ea6a83155"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(jenkinsapi) python39-jenkinsapi python3dist(jenkinsapi)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/python3.9 python(abi) python39-pytz python39-requests python39-six"
+RPROVIDES:${PN} += "python3.9dist(jenkinsapi) \
+python39-jenkinsapi \
+python3dist(jenkinsapi)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-pytz \
+python39-requests \
+python39-six"
 
 inherit rpm

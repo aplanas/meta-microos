@@ -8,7 +8,9 @@ RPM_NAME = "adobe-sourcehansans-jp-fonts-2.004-1.6.noarch.rpm"
 RPM_HASH = "b6d6fb22833a544da6ac3d5f4c6eef7323a372b77769ef6c41a6634e8c8bee2ee9c72023cc37c37044d04cf52beb22bd3bcbfdf9c28fac44e29af87df5e64686"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "adobe-sourcehansans-jp-fonts locale(jp) scalable-font-jp"
+RPROVIDES:${PN} += "adobe-sourcehansans-jp-fonts \
+locale(jp) \
+scalable-font-jp"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -11,7 +11,21 @@ RPM_NAME = "texlive-longfigure-2023.201.1.0svn34302-54.1.noarch.rpm"
 RPM_HASH = "0492a8e18e920d8337815814910a391b368868c2eddaaad902d369b9af5aef1eb508d18310c6c8eb5d8ef82208b9462d640259b8ca7d114c25b24eb927f715fa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(longfigure.sty) texlive-longfigure"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(tocloft.sty) tex(xkeyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(longfigure.sty) \
+texlive-longfigure"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(tocloft.sty) \
+tex(xkeyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

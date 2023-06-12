@@ -15,7 +15,24 @@ PV = "0.60.8"
 RPM_NAME = "aspell-0.60.8-5.4.aarch64.rpm"
 RPM_HASH = "68882250bb225a8ae51480805ff45d25cf981bd0374f40c5dde49ebdb6abf9cd7abcd6d3e81358859c996118827cc5936ca007800b1d9390e9696ebfedb70fe4"
 
-RPROVIDES:${PN} += "aspell aspell(aarch-64) pspell"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl info ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libaspell.so.15()(64bit) libc.so.6(GLIBC_2.34)(64bit) libncursesw.so.6()(64bit) libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
+RPROVIDES:${PN} += "aspell \
+aspell(aarch-64) \
+pspell"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+info \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libaspell.so.15()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libncursesw.so.6()(64bit) \
+libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
 
 inherit rpm

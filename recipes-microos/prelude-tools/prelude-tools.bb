@@ -12,7 +12,16 @@ PV = "5.2.0"
 RPM_NAME = "prelude-tools-5.2.0-2.14.aarch64.rpm"
 RPM_HASH = "6a396e5e8e7e0c421ae9b563542cffd3150260d4b8078014734f5959971fc41f090fcd2930e40f059120c6c9c4a1daffe37147bb3f4976cbeadac6c5d9a2d135"
 
-RPROVIDES:${PN} += "config(prelude-tools) prelude-tools prelude-tools(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgnutls.so.30()(64bit) libgnutls.so.30(GNUTLS_3_4)(64bit) libprelude.so.28()(64bit) libprelude28"
+RPROVIDES:${PN} += "config(prelude-tools) \
+prelude-tools \
+prelude-tools(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgnutls.so.30()(64bit) \
+libgnutls.so.30(GNUTLS_3_4)(64bit) \
+libprelude.so.28()(64bit) \
+libprelude28"
 
 inherit rpm

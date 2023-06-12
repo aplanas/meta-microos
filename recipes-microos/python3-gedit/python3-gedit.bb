@@ -12,6 +12,7 @@ RPM_HASH = "653803982c231581636983019b295402363fc154b9fdaad696e1cb4c38f89996593c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gedit"
-RDEPENDS:${PN} += "python(abi) typelib(GObject)"
+RDEPENDS:${PN} += "python(abi) \
+typelib(GObject)"
 
 inherit rpm

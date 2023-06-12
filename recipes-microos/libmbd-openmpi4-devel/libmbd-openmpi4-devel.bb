@@ -11,7 +11,9 @@ PV = "0.12.6"
 RPM_NAME = "libmbd-openmpi4-devel-0.12.6-1.3.aarch64.rpm"
 RPM_HASH = "29db4f00739c2887ac16d0c0fac183a05bc5f2652454f090fc35f63780136943ffe4bd63efec67b4757baaae60dae8b38ba6a118d7113c28ca27eab1c5ad77c1"
 
-RPROVIDES:${PN} += "libmbd-openmpi4-devel libmbd-openmpi4-devel(aarch-64)"
-RDEPENDS:${PN} += "libmbd-openmpi4 scalapack-openmpi4-devel"
+RPROVIDES:${PN} += "libmbd-openmpi4-devel \
+libmbd-openmpi4-devel(aarch-64)"
+RDEPENDS:${PN} += "libmbd-openmpi4 \
+scalapack-openmpi4-devel"
 
 inherit rpm

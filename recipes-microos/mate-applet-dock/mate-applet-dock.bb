@@ -23,7 +23,28 @@ PV = "21.10.0"
 RPM_NAME = "mate-applet-dock-21.10.0-1.6.aarch64.rpm"
 RPM_HASH = "cd0379b6e2ce8fa665d66612fb238062fd1a3f6d6cca09d9956fb69324c0ce10d50626729d8dab1670268662e10902e1eb943c044310a193abe76dce7809f1b5"
 
-RPROVIDES:${PN} += "mate-applet-dock mate-applet-dock(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/python3 bamf-daemon python3-Pillow python3-cairo python3-distro python3-gobject python3-gobject-Gdk python3-gobject-cairo python3-python-xlib python3-pyxdg typelib(Bamf) typelib(GLib) typelib(GObject) typelib(Gdk) typelib(GdkPixbuf) typelib(Gio) typelib(Gtk) typelib(MatePanelApplet) typelib(Notify) typelib(Pango) typelib(Wnck)"
+RPROVIDES:${PN} += "mate-applet-dock \
+mate-applet-dock(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+bamf-daemon \
+python3-Pillow \
+python3-cairo \
+python3-distro \
+python3-gobject \
+python3-gobject-Gdk \
+python3-gobject-cairo \
+python3-python-xlib \
+python3-pyxdg \
+typelib(Bamf) \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gdk) \
+typelib(GdkPixbuf) \
+typelib(Gio) \
+typelib(Gtk) \
+typelib(MatePanelApplet) \
+typelib(Notify) \
+typelib(Pango) \
+typelib(Wnck)"
 
 inherit rpm

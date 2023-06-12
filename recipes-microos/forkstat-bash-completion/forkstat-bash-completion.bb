@@ -9,6 +9,7 @@ RPM_HASH = "f9d6ecdb2446bd47a1db306350aa54bc87098bd5fe8400c747dd09416f7d6a256ef6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "forkstat-bash-completion"
-RDEPENDS:${PN} += "bash-completion forkstat"
+RDEPENDS:${PN} += "bash-completion \
+forkstat"
 
 inherit rpm

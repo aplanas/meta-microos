@@ -21,7 +21,12 @@ RPM_NAME = "snmpsim-0.4.7-2.6.noarch.rpm"
 RPM_HASH = "4062c945550eda04572864e0b0161d7c6819d148802433e0568f9200f17a430fd962de8d5ed2d502c20185f73b219f5a63435f02d5f1c7f7dc6647622bcea190"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist(snmpsim) python3dist(snmpsim) snmpsim"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-dbm python3-pysnmp"
+RPROVIDES:${PN} += "python3.10dist(snmpsim) \
+python3dist(snmpsim) \
+snmpsim"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3-dbm \
+python3-pysnmp"
 
 inherit rpm

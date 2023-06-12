@@ -17,7 +17,12 @@ RPM_NAME = "x11-japanese-bitmap-fonts-20020904-654.14.noarch.rpm"
 RPM_HASH = "449b9b0b4d70c363ca722ed676d26590b6f3607a17bab620bd8fd82b43a260009aa0846b7e375137ed56137931bda0a46571c940f8bf67a0ebe3dc3b4650732d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(xorg-x11:ja) x11-japanese-bitmap-fonts xfntjp"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "locale(xorg-x11:ja) \
+x11-japanese-bitmap-fonts \
+xfntjp"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

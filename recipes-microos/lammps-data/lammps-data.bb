@@ -20,7 +20,8 @@ RPM_NAME = "lammps-data-20201029-5.1.noarch.rpm"
 RPM_HASH = "127f6ff89f882684381890a86009edaa2bf2649398c6f45513b6fc031bbcf52e4f9ad8f7cf35c0b1e4bb7dce5a1e9c3fb6950189936c9af2ced20e483fbf7beb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(lammps-data) lammps-data"
+RPROVIDES:${PN} += "config(lammps-data) \
+lammps-data"
 RDEPENDS:${PN} += ""
 
 inherit rpm

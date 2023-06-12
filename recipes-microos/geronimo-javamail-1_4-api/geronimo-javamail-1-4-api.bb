@@ -11,7 +11,15 @@ RPM_NAME = "geronimo-javamail-1_4-api-1.2-36.11.noarch.rpm"
 RPM_HASH = "656292616147f62c102c7a423438457ad9616bf2d5b52646d2ec0971f0afc61589c1c9f83aebcd5af304e6d506abac55fabcf7c7c81f036d19bb90e943ddf08b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "geronimo-javamail-1_4-api javamail_1_4_api javamail_api mvn(org.apache.geronimo.specs:geronimo-javamail_1.4_spec) mvn(org.apache.geronimo.specs:geronimo-javamail_1.4_spec:pom:)"
-RDEPENDS:${PN} += "/bin/sh jaf_1_1_api java-headless javapackages-filesystem update-alternatives"
+RPROVIDES:${PN} += "geronimo-javamail-1_4-api \
+javamail_1_4_api \
+javamail_api \
+mvn(org.apache.geronimo.specs:geronimo-javamail_1.4_spec) \
+mvn(org.apache.geronimo.specs:geronimo-javamail_1.4_spec:pom:)"
+RDEPENDS:${PN} += "/bin/sh \
+jaf_1_1_api \
+java-headless \
+javapackages-filesystem \
+update-alternatives"
 
 inherit rpm

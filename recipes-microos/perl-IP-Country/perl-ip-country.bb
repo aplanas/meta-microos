@@ -19,7 +19,15 @@ RPM_NAME = "perl-IP-Country-2.28-1.26.noarch.rpm"
 RPM_HASH = "c74072fda0d792aaff1aacd6c87c2d926a56afc05112abbf56bff83b24ce44bc698d54aa9688f75ebf8f54266f30b0fbbc30b52ba89fb51c362aaaedb80d3639"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IP::Authority) perl(IP::Country) perl(IP::Country::Fast) perl(IP::Country::MaxMind) perl(IP::Country::Medium) perl(IP::Country::Slow) perl-IP-Country"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Geography::Countries)"
+RPROVIDES:${PN} += "perl(IP::Authority) \
+perl(IP::Country) \
+perl(IP::Country::Fast) \
+perl(IP::Country::MaxMind) \
+perl(IP::Country::Medium) \
+perl(IP::Country::Slow) \
+perl-IP-Country"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Geography::Countries)"
 
 inherit rpm

@@ -9,6 +9,9 @@ RPM_HASH = "c31082b920a96d68fabc58bc3475a01d517b8d4f27e065acfd1a6fc602d3596260c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tkdiff"
-RDEPENDS:${PN} += "/bin/sh diffutils tcl tk"
+RDEPENDS:${PN} += "/bin/sh \
+diffutils \
+tcl \
+tk"
 
 inherit rpm

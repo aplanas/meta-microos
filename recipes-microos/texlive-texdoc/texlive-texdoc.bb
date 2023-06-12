@@ -13,7 +13,21 @@ RPM_NAME = "texlive-texdoc-2023.201.4.0.1svn66227-54.1.noarch.rpm"
 RPM_HASH = "0a86497d9143e889ace50127c2b861596f458fd9052754364fe688a1c19dac0a7938563cda3d728ccbc8c43f30d6cef6ca83ddb0bc773e6d178925ed97f1a2dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(texdoc.cnf) texlive-texdoc"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/texlua coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin texlive-texdoc-bin"
+RPROVIDES:${PN} += "tex(texdoc.cnf) \
+texlive-texdoc"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/texlua \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-texdoc-bin"
 
 inherit rpm

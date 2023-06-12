@@ -9,6 +9,34 @@ RPM_HASH = "7a8bf81da21668590452b64a896b45a6ce24ff850d448a7fa28c6ecedd88ce086e5b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langarabic"
-RDEPENDS:${PN} += "texlive-alkalami texlive-alpha-persian texlive-amiri texlive-arabi texlive-arabi-add texlive-arabic-book texlive-arabluatex texlive-arabtex texlive-bidi texlive-bidihl texlive-collection-basic texlive-dad texlive-ghab texlive-hvarabic texlive-hyphen-arabic texlive-hyphen-farsi texlive-imsproc texlive-kurdishlipsum texlive-lshort-persian texlive-luabidi texlive-na-box texlive-persian-bib texlive-quran texlive-sexam texlive-simurgh texlive-texnegar texlive-tram texlive-xepersian texlive-xepersian-hm"
+RDEPENDS:${PN} += "texlive-alkalami \
+texlive-alpha-persian \
+texlive-amiri \
+texlive-arabi \
+texlive-arabi-add \
+texlive-arabic-book \
+texlive-arabluatex \
+texlive-arabtex \
+texlive-bidi \
+texlive-bidihl \
+texlive-collection-basic \
+texlive-dad \
+texlive-ghab \
+texlive-hvarabic \
+texlive-hyphen-arabic \
+texlive-hyphen-farsi \
+texlive-imsproc \
+texlive-kurdishlipsum \
+texlive-lshort-persian \
+texlive-luabidi \
+texlive-na-box \
+texlive-persian-bib \
+texlive-quran \
+texlive-sexam \
+texlive-simurgh \
+texlive-texnegar \
+texlive-tram \
+texlive-xepersian \
+texlive-xepersian-hm"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "6f12acdb7ff638b55863c3fb160533190c86fec625929c14299732216fdcb197e20e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpiP-gnu-mvapich2-hpc"
-RDEPENDS:${PN} += "/bin/sh mpiP_3_5-gnu-mvapich2-hpc"
+RDEPENDS:${PN} += "/bin/sh \
+mpiP_3_5-gnu-mvapich2-hpc"
 
 inherit rpm

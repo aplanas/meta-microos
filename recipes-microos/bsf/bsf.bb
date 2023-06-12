@@ -27,7 +27,13 @@ RPM_NAME = "bsf-2.4.0-17.12.noarch.rpm"
 RPM_HASH = "0c06883ad963bbd792c78af4ec3e5d7289250667bf783d27e203440fb74a849c500d26750646e529c83b1268f90a48020f3545bd2655ce8464170c64f72ff9f2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "bsf mvn(bsf:bsf) mvn(bsf:bsf:pom:) mvn(org.apache.bsf:bsf) mvn(org.apache.bsf:bsf:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(commons-logging:commons-logging)"
+RPROVIDES:${PN} += "bsf \
+mvn(bsf:bsf) \
+mvn(bsf:bsf:pom:) \
+mvn(org.apache.bsf:bsf) \
+mvn(org.apache.bsf:bsf:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(commons-logging:commons-logging)"
 
 inherit rpm

@@ -18,7 +18,19 @@ PV = "1.1.1"
 RPM_NAME = "coccinelle-1.1.1-3.3.aarch64.rpm"
 RPM_HASH = "08c06415656a3dfe12ba53981d60906b0d764b2707575bbf4b2fbe96126a8e7861dea91715d418f7f8859ccc4f3e8e62455829d3c6724619301bf19d5151af61"
 
-RPROVIDES:${PN} += "coccinelle coccinelle(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash findutils grep libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libm.so.6(GLIBC_2.35)(64bit) libpcre.so.1()(64bit) python(abi) python3-base which"
+RPROVIDES:${PN} += "coccinelle \
+coccinelle(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+findutils \
+grep \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libm.so.6(GLIBC_2.35)(64bit) \
+libpcre.so.1()(64bit) \
+python(abi) \
+python3-base \
+which"
 
 inherit rpm

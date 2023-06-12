@@ -12,7 +12,42 @@ PV = "0.14.0"
 RPM_NAME = "quassel-core-0.14.0-1.5.aarch64.rpm"
 RPM_HASH = "041ac991a8bf15c9641408fc0e1d7a438699f6c6f3e82d3888ae004b92eb1184ea73d4121edc82f6cd78b19cdf9625fada764feab6c24febe24e15acf214a6d9"
 
-RPROVIDES:${PN} += "config(quassel-core) quassel-core quassel-core(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch fillup ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5Network.so.5()(64bit) libQt5Network.so.5(Qt_5)(64bit) libQt5Sql.so.5()(64bit) libQt5Sql.so.5(Qt_5)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libldap.so.2()(64bit) libldap.so.2(OPENLDAP_2.200)(64bit) libqca-qt5.so.2()(64bit) libqt5_sql_backend libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.1)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.14)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.18)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) libz.so.1()(64bit) logrotate shadow"
+RPROVIDES:${PN} += "config(quassel-core) \
+quassel-core \
+quassel-core(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+fillup \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libQt5Core.so.5()(64bit) \
+libQt5Core.so.5(Qt_5)(64bit) \
+libQt5Network.so.5()(64bit) \
+libQt5Network.so.5(Qt_5)(64bit) \
+libQt5Sql.so.5()(64bit) \
+libQt5Sql.so.5(Qt_5)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libldap.so.2()(64bit) \
+libldap.so.2(OPENLDAP_2.200)(64bit) \
+libqca-qt5.so.2()(64bit) \
+libqt5_sql_backend \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.1)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
+libz.so.1()(64bit) \
+logrotate \
+shadow"
 
 inherit rpm

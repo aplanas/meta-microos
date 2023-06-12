@@ -11,7 +11,9 @@ PV = "42.2"
 RPM_NAME = "yelp-devel-42.2-1.3.aarch64.rpm"
 RPM_HASH = "cfe5bf39b8811ecda5576f9601bb8e9e53fb24c6b084a4d1951b68aabf95c8c2021e4a8ee44965175d6953da47e381a44525546fef907a2808f084a107848879"
 
-RPROVIDES:${PN} += "yelp-devel yelp-devel(aarch-64)"
-RDEPENDS:${PN} += "libyelp0 yelp"
+RPROVIDES:${PN} += "yelp-devel \
+yelp-devel(aarch-64)"
+RDEPENDS:${PN} += "libyelp0 \
+yelp"
 
 inherit rpm

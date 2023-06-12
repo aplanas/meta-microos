@@ -12,7 +12,12 @@ PV = "3.2.4"
 RPM_NAME = "libxerces-c-devel-3.2.4-1.5.aarch64.rpm"
 RPM_HASH = "581690b5918cb02d2420f937f438a3003ad4ef7c4c7f11a8a890050455268cec81af126e2732990835db777a22ff069820b1f205b87b0c1f97bf59da6a18030f"
 
-RPROVIDES:${PN} += "Xerces-c-devel libXerces-c-devel libxerces-c-devel libxerces-c-devel(aarch-64) pkgconfig(xerces-c)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libxerces-c-3_2"
+RPROVIDES:${PN} += "Xerces-c-devel \
+libXerces-c-devel \
+libxerces-c-devel \
+libxerces-c-devel(aarch-64) \
+pkgconfig(xerces-c)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libxerces-c-3_2"
 
 inherit rpm

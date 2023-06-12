@@ -16,7 +16,17 @@ RPM_NAME = "python310-azure-keyvault-keys-4.8.0-1.2.noarch.rpm"
 RPM_HASH = "ff1e4b3ca0895f7f72c4d678d5d4192cf88974e5873361699e18bf1090ebd2b4e9991b008d8fbb8194fffa77d2ce09d974a1c9c8e39dcf24b290d0013329b73a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-keyvault-keys python3.10dist(azure-keyvault-keys) python310-azure-keyvault-keys python3dist(azure-keyvault-keys)"
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.0.1 if python310-base < 3.8) python(abi) python310-azure-common python310-azure-core python310-azure-keyvault-nspkg python310-azure-nspkg python310-cryptography python310-isodate"
+RPROVIDES:${PN} += "python3-azure-keyvault-keys \
+python3.10dist(azure-keyvault-keys) \
+python310-azure-keyvault-keys \
+python3dist(azure-keyvault-keys)"
+RDEPENDS:${PN} += "(python310-typing_extensions >= 4.0.1 if python310-base < 3.8) \
+python(abi) \
+python310-azure-common \
+python310-azure-core \
+python310-azure-keyvault-nspkg \
+python310-azure-nspkg \
+python310-cryptography \
+python310-isodate"
 
 inherit rpm

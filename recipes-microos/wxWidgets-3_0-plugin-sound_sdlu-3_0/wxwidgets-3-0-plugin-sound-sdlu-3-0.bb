@@ -7,7 +7,16 @@ PV = "3.0.5.1"
 RPM_NAME = "wxWidgets-3_0-plugin-sound_sdlu-3_0-3.0.5.1-4.1.aarch64.rpm"
 RPM_HASH = "40062c6dfbdd9e2b498af6b4cac415ea6152b9b99bb05218c8fd06c86fa128891e6d2a0636e9db43d945617af95a3e587c195bae24488221f7baced0afba5554"
 
-RPROVIDES:${PN} += "wxWidgets-3_0-plugin-sound_sdlu-3_0 wxWidgets-3_0-plugin-sound_sdlu-3_0(aarch-64)"
-RDEPENDS:${PN} += "libSDL2-2.0.so.0()(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+RPROVIDES:${PN} += "wxWidgets-3_0-plugin-sound_sdlu-3_0 \
+wxWidgets-3_0-plugin-sound_sdlu-3_0(aarch-64)"
+RDEPENDS:${PN} += "libSDL2-2.0.so.0()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit)"
 
 inherit rpm

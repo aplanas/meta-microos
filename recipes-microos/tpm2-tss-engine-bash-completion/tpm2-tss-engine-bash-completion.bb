@@ -9,6 +9,7 @@ RPM_HASH = "1b35cd31dc69c55d5aea1661b27328700f434ccc16e576c7d72470d6ab990f49d7a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tpm2-tss-engine-bash-completion"
-RDEPENDS:${PN} += "bash-completion tpm2-tss-engine"
+RDEPENDS:${PN} += "bash-completion \
+tpm2-tss-engine"
 
 inherit rpm

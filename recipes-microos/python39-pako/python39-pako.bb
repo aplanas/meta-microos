@@ -17,7 +17,13 @@ RPM_NAME = "python39-pako-0.3.1-1.4.noarch.rpm"
 RPM_HASH = "fd6385b8e76d7ba262e08716268d3b7d1faf49bb1f93a91ea6f1f78a8b20bad6cd47f1974ce012a98a3f0c4a5c01f89633ca993e4a797eb05593e531c39316dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pako) python39-pako python3dist(pako)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-appdirs update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(pako) \
+python39-pako \
+python3dist(pako)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-appdirs \
+update-alternatives"
 
 inherit rpm

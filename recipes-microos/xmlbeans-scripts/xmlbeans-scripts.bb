@@ -13,6 +13,7 @@ RPM_HASH = "e24c753e5259405cfc9ae4b3af3e58bd4222f4c55e9a1291b096e20680b0e3fad8a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmlbeans-scripts"
-RDEPENDS:${PN} += "/bin/sh xmlbeans"
+RDEPENDS:${PN} += "/bin/sh \
+xmlbeans"
 
 inherit rpm

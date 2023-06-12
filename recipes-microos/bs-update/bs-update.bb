@@ -10,6 +10,13 @@ RPM_HASH = "cf2c7148143d240baae22d8323ec335502e90d24eb0dad549afa812439a5ab238579
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bs-update"
-RDEPENDS:${PN} += "/usr/bin/env coreutils gzip osc sed tar wget zsh"
+RDEPENDS:${PN} += "/usr/bin/env \
+coreutils \
+gzip \
+osc \
+sed \
+tar \
+wget \
+zsh"
 
 inherit rpm

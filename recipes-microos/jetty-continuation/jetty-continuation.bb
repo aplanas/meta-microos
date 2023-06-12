@@ -19,7 +19,11 @@ RPM_NAME = "jetty-continuation-9.4.51-1.1.noarch.rpm"
 RPM_HASH = "61ea98569281e2e034aa49e26b79d5704882e3b53a4e2a19781641bffcae9dbd8818ef0ff755acd6bb0d70fbd4f75f5fad0806a6b5400c90bbb55b07e8f9abb1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jetty-continuation mvn(org.eclipse.jetty:jetty-continuation) mvn(org.eclipse.jetty:jetty-continuation:pom:) osgi(org.eclipse.jetty.continuation)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "jetty-continuation \
+mvn(org.eclipse.jetty:jetty-continuation) \
+mvn(org.eclipse.jetty:jetty-continuation:pom:) \
+osgi(org.eclipse.jetty.continuation)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

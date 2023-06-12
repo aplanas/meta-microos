@@ -9,6 +9,18 @@ RPM_HASH = "3e7d06941bcaed4fbfff080438ae2991ec14f732de77b3f5edbe4f9bf3a83f774965
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-base-devel"
-RDEPENDS:${PN} += "cmake(Qt6Concurrent) cmake(Qt6Core) cmake(Qt6DBus) cmake(Qt6Gui) cmake(Qt6Network) cmake(Qt6OpenGL) cmake(Qt6OpenGLWidgets) cmake(Qt6PrintSupport) cmake(Qt6Sql) cmake(Qt6Test) cmake(Qt6Widgets) cmake(Qt6Xml) qt6-base-common-devel"
+RDEPENDS:${PN} += "cmake(Qt6Concurrent) \
+cmake(Qt6Core) \
+cmake(Qt6DBus) \
+cmake(Qt6Gui) \
+cmake(Qt6Network) \
+cmake(Qt6OpenGL) \
+cmake(Qt6OpenGLWidgets) \
+cmake(Qt6PrintSupport) \
+cmake(Qt6Sql) \
+cmake(Qt6Test) \
+cmake(Qt6Widgets) \
+cmake(Qt6Xml) \
+qt6-base-common-devel"
 
 inherit rpm

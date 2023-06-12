@@ -32,7 +32,14 @@ PV = "1.102"
 RPM_NAME = "perl-Params-Util-1.102-1.14.aarch64.rpm"
 RPM_HASH = "ae403c79a8ddc8e95bbc1aa3891fe392951970b8bdc893cbf8e75f3e4cf815f3c6595a6dabd4e4b2691eb282ec30955e7feb34ae6e62c523cec724f2d707474f"
 
-RPROVIDES:${PN} += "perl(Params::Util) perl(Params::Util::PP) perl-Params-Util perl-Params-Util(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0) perl(XSLoader)"
+RPROVIDES:${PN} += "perl(Params::Util) \
+perl(Params::Util::PP) \
+perl-Params-Util \
+perl-Params-Util(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(XSLoader)"
 
 inherit rpm

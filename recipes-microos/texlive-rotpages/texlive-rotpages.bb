@@ -13,7 +13,22 @@ RPM_NAME = "texlive-rotpages-2023.201.3.0svn18740-53.1.noarch.rpm"
 RPM_HASH = "b9b359db58a04a99dfd19d4b9107f79ea039bd7ddf31e538ce13b66ef127e52e143f0bcd37f60fa442cc8ec4a1adb51252775bcc976fb99ff6afa769be1606f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(rotpages.sty) texlive-rotpages"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(graphics.sty) tex(ifthen.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(rotpages.sty) \
+texlive-rotpages"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(graphics.sty) \
+tex(ifthen.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

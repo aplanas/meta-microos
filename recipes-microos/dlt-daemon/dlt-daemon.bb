@@ -15,7 +15,13 @@ PV = "2.18.8"
 RPM_NAME = "dlt-daemon-2.18.8-4.4.aarch64.rpm"
 RPM_HASH = "3a68e8c35399ff628ddaa3bc95933f70b05870f89b0662be55da3b183c67e8de43b62fdf8e19b1765d4fcc1971e374fd75b584e0a44910a27deb59b3051905e5"
 
-RPROVIDES:${PN} += "config(dlt-daemon) dlt-daemon dlt-daemon(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) shadow"
+RPROVIDES:${PN} += "config(dlt-daemon) \
+dlt-daemon \
+dlt-daemon(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+shadow"
 
 inherit rpm

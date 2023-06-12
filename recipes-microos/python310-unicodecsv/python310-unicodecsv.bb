@@ -13,7 +13,10 @@ RPM_NAME = "python310-unicodecsv-0.14.1-2.19.noarch.rpm"
 RPM_HASH = "f0b068116e6fe624431f7a68dcddd55e8afa80728a185d0d68ccc897b972e731b26dc0aa43a15f0229e652d6143ed9a87aacf355632d4dcce22d29cf563555e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-unicodecsv python3.10dist(unicodecsv) python310-unicodecsv python3dist(unicodecsv)"
+RPROVIDES:${PN} += "python3-unicodecsv \
+python3.10dist(unicodecsv) \
+python310-unicodecsv \
+python3dist(unicodecsv)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

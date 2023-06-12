@@ -14,7 +14,19 @@ RPM_NAME = "texlive-kanaparser-2023.201.1.0svn48052-55.1.noarch.rpm"
 RPM_HASH = "d5d3a884ac95ed2c2a2cb0f5abd6236e9e558c26eb7efe9caca052259a8cc472de5d5f3511e57edb6629726af1223948cf5461771b0f603fb20523889003e60e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(kanaparser.tex) texlive-kanaparser"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(kanaparser.tex) \
+texlive-kanaparser"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -11,7 +11,11 @@ PV = "20210625"
 RPM_NAME = "libcreg-devel-20210625-5.7.aarch64.rpm"
 RPM_HASH = "95db7dd53ed5fbbd303a8fbc91c506ac51ed22ff5d255d272535f280ea88e56b923a3560c1554a3bac8d8721401a7cda4797fdbb6f8f8b63e8f63ae5eb8b0435"
 
-RPROVIDES:${PN} += "libcreg-devel libcreg-devel(aarch-64) pkgconfig(libcreg)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libbfio-devel libcreg1"
+RPROVIDES:${PN} += "libcreg-devel \
+libcreg-devel(aarch-64) \
+pkgconfig(libcreg)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libbfio-devel \
+libcreg1"
 
 inherit rpm

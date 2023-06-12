@@ -23,6 +23,12 @@ RPM_HASH = "a23f932eb4c5f93af7358a4f1ddabb7f754d4974417c7bacd501032116df88444c06
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scap-security-guide"
-RDEPENDS:${PN} += "coreutils findutils gawk grep sed sudo zypper"
+RDEPENDS:${PN} += "coreutils \
+findutils \
+gawk \
+grep \
+sed \
+sudo \
+zypper"
 
 inherit rpm

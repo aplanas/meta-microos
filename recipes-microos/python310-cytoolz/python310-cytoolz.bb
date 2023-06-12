@@ -9,7 +9,15 @@ PV = "0.12.1"
 RPM_NAME = "python310-cytoolz-0.12.1-1.4.aarch64.rpm"
 RPM_HASH = "aa898d62a370176adf0cdbc04ff35ad020937421fd6948ca1f6ed2d11e3079a0d7492a176716767374803b83f7d4fb69a0efcf5e4e1b6c5acfc97cac5c1a2eaf"
 
-RPROVIDES:${PN} += "python3-cytoolz python3.10dist(cytoolz) python310-cytoolz python310-cytoolz(aarch-64) python3dist(cytoolz)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python310-toolz"
+RPROVIDES:${PN} += "python3-cytoolz \
+python3.10dist(cytoolz) \
+python310-cytoolz \
+python310-cytoolz(aarch-64) \
+python3dist(cytoolz)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi) \
+python310-toolz"
 
 inherit rpm

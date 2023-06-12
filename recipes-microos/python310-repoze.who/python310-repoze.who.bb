@@ -17,7 +17,12 @@ RPM_NAME = "python310-repoze.who-2.4.1-1.3.noarch.rpm"
 RPM_HASH = "345e68a993831ab4a4b60bf8758f12646fc79af8a410c7c795391780c238b851b9367a4148901a2a8e364bd66f192c3ae0b00d51702a5b3f7c65f671fe914565"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-repoze.who python3.10dist(repoze.who) python310-repoze.who python3dist(repoze.who)"
-RDEPENDS:${PN} += "python(abi) python310-WebOb python310-zope.interface"
+RPROVIDES:${PN} += "python3-repoze.who \
+python3.10dist(repoze.who) \
+python310-repoze.who \
+python3dist(repoze.who)"
+RDEPENDS:${PN} += "python(abi) \
+python310-WebOb \
+python310-zope.interface"
 
 inherit rpm

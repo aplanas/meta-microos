@@ -12,6 +12,7 @@ RPM_HASH = "28940654d85b7a136953e3a1a687c15ce106d41e2ba93ed75b55f9b5590e39f6adff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "itstool"
-RDEPENDS:${PN} += "/usr/bin/python3 python3-libxml2"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3-libxml2"
 
 inherit rpm

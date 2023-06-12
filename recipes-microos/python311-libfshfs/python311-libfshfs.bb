@@ -27,7 +27,17 @@ PV = "20220831"
 RPM_NAME = "python311-libfshfs-20220831-3.9.aarch64.rpm"
 RPM_HASH = "111b5d54e59823e58f3e1cf3d5014057c8f55dee3849144fbae12015f055c4772f6553c7031e299cc076ad5758c3f3fdd1d1a68c2fe69106f96d636ffbd9b238"
 
-RPROVIDES:${PN} += "python311-libfshfs python311-libfshfs(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbfio.so.1()(64bit) libbfio.so.1(V_20221025)(64bit) libc.so.6(GLIBC_2.17)(64bit) libcerror.so.1()(64bit) libcerror.so.1(V_20220101)(64bit) libfshfs.so.1()(64bit) libfshfs.so.1(V_20220831)(64bit) python(abi)"
+RPROVIDES:${PN} += "python311-libfshfs \
+python311-libfshfs(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbfio.so.1()(64bit) \
+libbfio.so.1(V_20221025)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libcerror.so.1()(64bit) \
+libcerror.so.1(V_20220101)(64bit) \
+libfshfs.so.1()(64bit) \
+libfshfs.so.1(V_20220831)(64bit) \
+python(abi)"
 
 inherit rpm

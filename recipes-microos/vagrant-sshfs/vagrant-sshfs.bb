@@ -10,7 +10,11 @@ PV = "1.3.7"
 RPM_NAME = "vagrant-sshfs-1.3.7-3.4.aarch64.rpm"
 RPM_HASH = "e46ebf6c5ac0daf803a6f18e9fde117b3d319e1857bfb7748ff876520f525e9318259a2406b28294c0009d3466b5edd0b39332e15b34839bc95cdc23dffd85d4"
 
-RPROVIDES:${PN} += "vagrant-sshfs vagrant-sshfs(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash fuse sshfs vagrant"
+RPROVIDES:${PN} += "vagrant-sshfs \
+vagrant-sshfs(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+fuse \
+sshfs \
+vagrant"
 
 inherit rpm

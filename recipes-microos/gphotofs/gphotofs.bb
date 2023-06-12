@@ -50,7 +50,18 @@ PV = "0.5"
 RPM_NAME = "gphotofs-0.5-7.27.aarch64.rpm"
 RPM_HASH = "5a3ef0623df0ce35a8fbd3b3f71938cf6b7e805a9d777aecbe09bb102fdcb64708ee6420a724cd625e27d5ba03395494af327c97babf5e623c550bc3c52b78fb"
 
-RPROVIDES:${PN} += "gphotofs gphotofs(aarch-64)"
-RDEPENDS:${PN} += "fuse ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libfuse.so.2()(64bit) libfuse.so.2(FUSE_2.6)(64bit) libfuse.so.2(FUSE_2.8)(64bit) libglib-2.0.so.0()(64bit) libgphoto2.so.6()(64bit) libgphoto2_port.so.12()(64bit) libgphoto2_port.so.12(LIBGPHOTO2_5_0)(64bit)"
+RPROVIDES:${PN} += "gphotofs \
+gphotofs(aarch-64)"
+RDEPENDS:${PN} += "fuse \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libfuse.so.2()(64bit) \
+libfuse.so.2(FUSE_2.6)(64bit) \
+libfuse.so.2(FUSE_2.8)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgphoto2.so.6()(64bit) \
+libgphoto2_port.so.12()(64bit) \
+libgphoto2_port.so.12(LIBGPHOTO2_5_0)(64bit)"
 
 inherit rpm

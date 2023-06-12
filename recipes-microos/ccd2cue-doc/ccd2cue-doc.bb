@@ -14,6 +14,8 @@ RPM_HASH = "b3d8b0a534566d1d923602da1e0925b16c37cad83d685ff9110800fd57cf6dd1e305
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ccd2cue-doc"
-RDEPENDS:${PN} += "/bin/sh ccd2cue info"
+RDEPENDS:${PN} += "/bin/sh \
+ccd2cue \
+info"
 
 inherit rpm

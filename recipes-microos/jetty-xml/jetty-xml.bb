@@ -19,7 +19,12 @@ RPM_NAME = "jetty-xml-9.4.51-1.1.noarch.rpm"
 RPM_HASH = "007566d3c782149e6d8d832d405da48268a1c9d241d6a56c30fbeddb82895b0cb65c792829dc44a0a294f89652f553802d3769ddc9c797cfd833b8d7009fbad4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jetty-xml mvn(org.eclipse.jetty:jetty-xml) mvn(org.eclipse.jetty:jetty-xml:pom:) osgi(org.eclipse.jetty.xml)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(org.eclipse.jetty:jetty-util)"
+RPROVIDES:${PN} += "jetty-xml \
+mvn(org.eclipse.jetty:jetty-xml) \
+mvn(org.eclipse.jetty:jetty-xml:pom:) \
+osgi(org.eclipse.jetty.xml)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(org.eclipse.jetty:jetty-util)"
 
 inherit rpm

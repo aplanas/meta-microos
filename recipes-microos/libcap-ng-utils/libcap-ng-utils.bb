@@ -9,7 +9,11 @@ PV = "0.8.3"
 RPM_NAME = "libcap-ng-utils-0.8.3-2.1.aarch64.rpm"
 RPM_HASH = "d2123e64a81cb7ad78bb2d287eb3c29cddcdd16a9b3f9f99aa3ae49326caffd7bf45179a2270a075f279e395519e74544dd98373718648536b1eb3cd381bec2e"
 
-RPROVIDES:${PN} += "libcap-ng-utils libcap-ng-utils(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcap-ng.so.0()(64bit)"
+RPROVIDES:${PN} += "libcap-ng-utils \
+libcap-ng-utils(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcap-ng.so.0()(64bit)"
 
 inherit rpm

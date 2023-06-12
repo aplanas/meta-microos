@@ -12,7 +12,15 @@ RPM_NAME = "python310-IMDbPY-2021.4.18-1.12.noarch.rpm"
 RPM_HASH = "cb59b09c581cbae804bf9ef1997754c6f29d8f49d5105e30d8583a98983e07dd09d53f46aa35ab2a54cef8d82b0fa4720c8082e9491b4c86f16580b7ade82b74"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-IMDbPY python3.10dist(imdbpy) python310-IMDbPY python3dist(imdbpy)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-SQLAlchemy python310-lxml update-alternatives"
+RPROVIDES:${PN} += "python3-IMDbPY \
+python3.10dist(imdbpy) \
+python310-IMDbPY \
+python3dist(imdbpy)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-SQLAlchemy \
+python310-lxml \
+update-alternatives"
 
 inherit rpm

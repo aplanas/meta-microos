@@ -14,7 +14,14 @@ RPM_NAME = "python310-spark_parser-1.8.9-3.13.noarch.rpm"
 RPM_HASH = "7c579750ce25b3ca7745bcf7136fef565c3da19b2b788aab4ed3305d837b7733e29f459b57bb8fc07ceb4d374a93dbf6bf6574a6b09098a05fd1a57668b67fa8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-spark_parser python3.10dist(spark-parser) python310-spark_parser python3dist(spark-parser)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-click update-alternatives"
+RPROVIDES:${PN} += "python3-spark_parser \
+python3.10dist(spark-parser) \
+python310-spark_parser \
+python3dist(spark-parser)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-click \
+update-alternatives"
 
 inherit rpm

@@ -15,7 +15,16 @@ PV = "2.10.2"
 RPM_NAME = "postgresql12-timescaledb-2.10.2-1.2.aarch64.rpm"
 RPM_HASH = "787e1467bc28e68055a5c627a12f9d23c2f78efaa5705eee0c3edc8aae54ebce3e7c8d8de3bcc28811f2db1ca0c2369d73b9891bb58458ee86e2d1cbed522d5b"
 
-RPROVIDES:${PN} += "postgresql12-timescaledb postgresql12-timescaledb(aarch-64) postgresql12-timescaledb-llvmjit"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) postgresql12-server"
+RPROVIDES:${PN} += "postgresql12-timescaledb \
+postgresql12-timescaledb(aarch-64) \
+postgresql12-timescaledb-llvmjit"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+postgresql12-server"
 
 inherit rpm

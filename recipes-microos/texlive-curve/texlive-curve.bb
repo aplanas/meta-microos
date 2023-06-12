@@ -18,7 +18,24 @@ RPM_NAME = "texlive-curve-2023.204.1.16svn20745-54.1.noarch.rpm"
 RPM_HASH = "fce351ecb791b2feae86ce32e1a2d619f151f731c4a4e46a3929f5d7fef93f6324c23b637d3fa6e1f5e3937a7a9eed634142c6fec9089e3e56c6935c2e22a00a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(curve.cls) texlive-curve"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(filehook.sty) tex(graphicx.sty) tex(ifthen.sty) tex(ltxtable.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(curve.cls) \
+texlive-curve"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(filehook.sty) \
+tex(graphicx.sty) \
+tex(ifthen.sty) \
+tex(ltxtable.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

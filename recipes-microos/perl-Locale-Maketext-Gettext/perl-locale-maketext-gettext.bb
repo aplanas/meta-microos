@@ -20,7 +20,12 @@ RPM_NAME = "perl-Locale-Maketext-Gettext-1.32-1.10.noarch.rpm"
 RPM_HASH = "c6715f52345cbc54291a62aa6f2ef3a1655334028e810b0201f1823657d6b3c62e2d58690dbe61ca9abc79f5c9037e7cd2464047903f14ecbb84a0924939e8c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Locale::Maketext::Gettext) perl(Locale::Maketext::Gettext::Functions) perl(Locale::Maketext::Gettext::Functions::_EMPTY) perl(Locale::Maketext::Gettext::Functions::_EMPTY::i_default) perl-Locale-Maketext-Gettext"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Locale::Maketext::Gettext) \
+perl(Locale::Maketext::Gettext::Functions) \
+perl(Locale::Maketext::Gettext::Functions::_EMPTY) \
+perl(Locale::Maketext::Gettext::Functions::_EMPTY::i_default) \
+perl-Locale-Maketext-Gettext"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

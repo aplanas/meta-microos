@@ -16,7 +16,11 @@ RPM_NAME = "eb-garamond-fonts-0.016-1.16.noarch.rpm"
 RPM_HASH = "b9b71f23e6466e8bed4f6cb92218d2c17630ec131c3158f084fe1fd28585f59df4aae63abc27512f7b270c7ab2ab17feccb0dfbdde35bd3d60b62c60ba1e1008"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "eb-garamond eb-garamond-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "eb-garamond \
+eb-garamond-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

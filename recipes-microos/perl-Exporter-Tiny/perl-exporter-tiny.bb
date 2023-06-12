@@ -28,7 +28,9 @@ RPM_NAME = "perl-Exporter-Tiny-1.006002-1.1.noarch.rpm"
 RPM_HASH = "432360e914e4a5ab8e4f2e524a62b16fa642b5bc1b5ce58c9a4747145322f0231b723ab5171bfc14eff4323475adc39f6c55b64c05e940ad7cedb5b617bc9949"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Exporter::Shiny) perl(Exporter::Tiny) perl-Exporter-Tiny"
+RPROVIDES:${PN} += "perl(Exporter::Shiny) \
+perl(Exporter::Tiny) \
+perl-Exporter-Tiny"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

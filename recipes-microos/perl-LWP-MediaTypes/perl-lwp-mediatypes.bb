@@ -67,7 +67,8 @@ RPM_NAME = "perl-LWP-MediaTypes-6.04-1.15.noarch.rpm"
 RPM_HASH = "57d99aff20fcfae228360002b432c702d75adb9e0ab65b2fdf6d707013c4e0639b0e820f314dcc8bd568610c5f70c176526a100167091b4c0858a4d860a6666d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(LWP::MediaTypes) perl-LWP-MediaTypes"
+RPROVIDES:${PN} += "perl(LWP::MediaTypes) \
+perl-LWP-MediaTypes"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

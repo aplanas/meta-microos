@@ -11,7 +11,15 @@ PV = "1.09.20221229"
 RPM_NAME = "tack-1.09.20221229-13.1.aarch64.rpm"
 RPM_HASH = "11c68fdb1ba5eabb866693a245cb41e93f951ef94803fcc65a37ab14628f8a54a15ac9472ad0fb7b86dbbe5e3574f240bd85e81e6264057300f4ed23372f346b"
 
-RPROVIDES:${PN} += "ncurses-devel:/usr/bin/tack tack tack(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) ncurses"
+RPROVIDES:${PN} += "ncurses-devel:/usr/bin/tack \
+tack \
+tack(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
+ncurses"
 
 inherit rpm

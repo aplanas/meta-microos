@@ -13,7 +13,33 @@ RPM_NAME = "texlive-sr-vorl-2023.201.1.2svn59333-57.1.noarch.rpm"
 RPM_HASH = "70bda2b0d51dfbbda272c1fb705c8ac9bd996629acde06dd36bdb09e534fc640815b0414150fcf50948e21c802ac3dd1d4cb7b1e470ee130c55ef66cf62b9818"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(sr-vorl.cls) texlive-sr-vorl"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(babel.sty) tex(caption.sty) tex(chngcntr.sty) tex(enumitem.sty) tex(etoolbox.sty) tex(geometry.sty) tex(mathptmx.sty) tex(microtype.sty) tex(onlyamsmath.sty) tex(ragged2e.sty) tex(scrlayer-scrpage.sty) tex(varwidth.sty) tex(xkeyval.sty) tex(xstring.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(sr-vorl.cls) \
+texlive-sr-vorl"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(babel.sty) \
+tex(caption.sty) \
+tex(chngcntr.sty) \
+tex(enumitem.sty) \
+tex(etoolbox.sty) \
+tex(geometry.sty) \
+tex(mathptmx.sty) \
+tex(microtype.sty) \
+tex(onlyamsmath.sty) \
+tex(ragged2e.sty) \
+tex(scrlayer-scrpage.sty) \
+tex(varwidth.sty) \
+tex(xkeyval.sty) \
+tex(xstring.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

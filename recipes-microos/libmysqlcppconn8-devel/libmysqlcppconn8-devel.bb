@@ -13,7 +13,10 @@ PV = "8.0.32"
 RPM_NAME = "libmysqlcppconn8-devel-8.0.32-1.3.aarch64.rpm"
 RPM_HASH = "b00c6c570e52f52b9b535d8aa0525c759341928408e95751f57da6387c55f52f1db8e2289d66f575a4595cc5d2d2d09913bf51696623e5394cfdb460fdfcb79f"
 
-RPROVIDES:${PN} += "libmysqlcppconn8-devel libmysqlcppconn8-devel(aarch-64) mysql-connector-c++-devel"
-RDEPENDS:${PN} += "libboost_headers-devel libmysqlcppconn8-2"
+RPROVIDES:${PN} += "libmysqlcppconn8-devel \
+libmysqlcppconn8-devel(aarch-64) \
+mysql-connector-c++-devel"
+RDEPENDS:${PN} += "libboost_headers-devel \
+libmysqlcppconn8-2"
 
 inherit rpm

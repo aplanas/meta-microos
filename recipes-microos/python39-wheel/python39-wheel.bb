@@ -16,7 +16,12 @@ RPM_NAME = "python39-wheel-0.40.0-1.1.noarch.rpm"
 RPM_HASH = "f43d0e58c7dfb8675f5303fd27c5ec1259eb19dd981f1eaae788c3a0d6b935e23b72b881ec9009cdd25cd73620105ca71dea928e5898e4b5c2ce6a47291f662e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(wheel) python39-wheel python3dist(wheel)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 alts python(abi)"
+RPROVIDES:${PN} += "python3.9dist(wheel) \
+python39-wheel \
+python3dist(wheel)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+alts \
+python(abi)"
 
 inherit rpm

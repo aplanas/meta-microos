@@ -10,7 +10,8 @@ PV = "8.0.2"
 RPM_NAME = "qemu-accel-qtest-8.0.2-1.1.aarch64.rpm"
 RPM_HASH = "60629b0016fc6c8d28808e19d889a838c48077397ad9ad2529e859befcca24bee1310c022471bafd7794da9c6aecc984430a8524355ad1e833eb220428b8464d"
 
-RPROVIDES:${PN} += "qemu-accel-qtest qemu-accel-qtest(aarch-64)"
+RPROVIDES:${PN} += "qemu-accel-qtest \
+qemu-accel-qtest(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

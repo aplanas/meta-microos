@@ -9,7 +9,17 @@ RPM_NAME = "geronimo-jaf-1_0_2-api-1.2-36.11.noarch.rpm"
 RPM_HASH = "04e22c61e6b0c6bb04f1ac9b2f3f3d59928d6df113ee231f08446fec18a8bc90cb0b5a54163a447ae7647b14aa74007daee08c53be08e5d37050ae1a3445616b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "activation_1_0_2_api activation_api geronimo-jaf-1_0_2-api jaf jaf_1_0_2_api jaf_api mvn(org.apache.geronimo.specs:geronimo-activation_1.0.2_spec) mvn(org.apache.geronimo.specs:geronimo-activation_1.0.2_spec:pom:)"
-RDEPENDS:${PN} += "/bin/sh java-headless javapackages-filesystem update-alternatives"
+RPROVIDES:${PN} += "activation_1_0_2_api \
+activation_api \
+geronimo-jaf-1_0_2-api \
+jaf \
+jaf_1_0_2_api \
+jaf_api \
+mvn(org.apache.geronimo.specs:geronimo-activation_1.0.2_spec) \
+mvn(org.apache.geronimo.specs:geronimo-activation_1.0.2_spec:pom:)"
+RDEPENDS:${PN} += "/bin/sh \
+java-headless \
+javapackages-filesystem \
+update-alternatives"
 
 inherit rpm

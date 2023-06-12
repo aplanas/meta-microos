@@ -15,7 +15,10 @@ RPM_NAME = "python39-license-expression-30.1.0-1.2.noarch.rpm"
 RPM_HASH = "7311799f2f00c5a7795f50aa6f64094357a12101fc7beca28a80a770709db4d47c84e66a0a11e5f7814c7fd8241c7e2b606cc18cbf7accad3fc30b484943cc34"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(license-expression) python39-license-expression python3dist(license-expression)"
-RDEPENDS:${PN} += "python(abi) python39-boolean.py"
+RPROVIDES:${PN} += "python3.9dist(license-expression) \
+python39-license-expression \
+python3dist(license-expression)"
+RDEPENDS:${PN} += "python(abi) \
+python39-boolean.py"
 
 inherit rpm

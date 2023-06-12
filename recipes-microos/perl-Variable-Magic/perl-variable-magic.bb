@@ -18,7 +18,12 @@ PV = "0.63"
 RPM_NAME = "perl-Variable-Magic-0.63-1.2.aarch64.rpm"
 RPM_HASH = "6fdaa966f1358023fba711157264f9e585d1cfbdac239ad2e159173b120108ce58a6ccee255afe763523180140e2714fc1048df1811eaa633eba6bd854350223"
 
-RPROVIDES:${PN} += "perl(Variable::Magic) perl-Variable-Magic perl-Variable-Magic(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Variable::Magic) \
+perl-Variable-Magic \
+perl-Variable-Magic(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -10,7 +10,9 @@ RPM_NAME = "python-doc-pdf-2.7.18-34.1.noarch.rpm"
 RPM_HASH = "332f33b56a4b4c0d5f6bc1a44af05ad5a3502f51b908595ff7988fd8353d53f5165b7210fd06401a8d2146933c99447292f18d1e768d626cac3a1da71799abaf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pyth_pdf python-doc-pdf python2-doc-pdf"
+RPROVIDES:${PN} += "pyth_pdf \
+python-doc-pdf \
+python2-doc-pdf"
 RDEPENDS:${PN} += ""
 
 inherit rpm

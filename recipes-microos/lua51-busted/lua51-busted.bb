@@ -25,6 +25,22 @@ RPM_HASH = "aa4fbd57bfa47bd5471673b55b68361b5974fc2a0828def30d2f8db563fc3064a6f2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-busted"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/lua5.1 curl lua51 lua51-cliargs lua51-dkjson lua51-lua-ev lua51-luafilesystem lua51-luassert lua51-luasystem lua51-luaterm lua51-mediator_lua lua51-penlight lua51-say openssl unzip update-alternatives"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/lua5.1 \
+curl \
+lua51 \
+lua51-cliargs \
+lua51-dkjson \
+lua51-lua-ev \
+lua51-luafilesystem \
+lua51-luassert \
+lua51-luasystem \
+lua51-luaterm \
+lua51-mediator_lua \
+lua51-penlight \
+lua51-say \
+openssl \
+unzip \
+update-alternatives"
 
 inherit rpm

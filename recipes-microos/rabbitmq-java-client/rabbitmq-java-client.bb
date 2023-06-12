@@ -9,6 +9,7 @@ RPM_HASH = "29bcb807bbe4bcbc892d2c5f8e8468974e637e5afb658069f39b3fd35b09f9a1eebc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rabbitmq-java-client"
-RDEPENDS:${PN} += "apache-commons-io jakarta-commons-cli"
+RDEPENDS:${PN} += "apache-commons-io \
+jakarta-commons-cli"
 
 inherit rpm

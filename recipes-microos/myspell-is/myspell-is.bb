@@ -8,7 +8,11 @@ RPM_NAME = "myspell-is-20221012-1.2.noarch.rpm"
 RPM_HASH = "37faee183485c8a3e5dc393e9f1049f4d0834b630dc6e8aed6c50c5c400d822e0c3a68ea03b6561c6029d8a137f77dae20b5b713b32fcc3772d2d987c27cc497"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:is) locale(seamonkey-spellchecker:is) myspell-dictionary myspell-icelandic myspell-is"
+RPROVIDES:${PN} += "locale(libreoffice:is) \
+locale(seamonkey-spellchecker:is) \
+myspell-dictionary \
+myspell-icelandic \
+myspell-is"
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

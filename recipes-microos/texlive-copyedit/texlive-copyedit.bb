@@ -19,7 +19,24 @@ RPM_NAME = "texlive-copyedit-2023.204.1.6svn37928-54.1.noarch.rpm"
 RPM_HASH = "7eb0eca9c0b5bdb3bc0268364c6be476c704957c96df67f351778d30f01400efb2c081c136202f2d42014603081c028efe4bb98508c9ad82136be7338caf651d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(copyedit.sty) texlive-copyedit"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(acronym.sty) tex(enumitem.sty) tex(expl3.sty) tex(l3keys2e.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(copyedit.sty) \
+texlive-copyedit"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(acronym.sty) \
+tex(enumitem.sty) \
+tex(expl3.sty) \
+tex(l3keys2e.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

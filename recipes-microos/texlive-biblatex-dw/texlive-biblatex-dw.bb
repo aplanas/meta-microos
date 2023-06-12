@@ -18,7 +18,27 @@ RPM_NAME = "texlive-biblatex-dw-2023.201.1.7bsvn66579-53.1.noarch.rpm"
 RPM_HASH = "5df6796a9dea6c822e6765f6fd96fe5757ff774bea66dd958126bba9403682a1926184e22a828e10f4708e9dfddf58eecb16fd176944ee1fd0705b2dd544e0ca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(authortitle-dw.bbx) tex(authortitle-dw.cbx) tex(english-dw.lbx) tex(footnote-dw.bbx) tex(footnote-dw.cbx) tex(german-dw.lbx) tex(standard-dw.bbx) tex(standard-dw.cbx) texlive-biblatex-dw"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(standard.bbx) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(authortitle-dw.bbx) \
+tex(authortitle-dw.cbx) \
+tex(english-dw.lbx) \
+tex(footnote-dw.bbx) \
+tex(footnote-dw.cbx) \
+tex(german-dw.lbx) \
+tex(standard-dw.bbx) \
+tex(standard-dw.cbx) \
+texlive-biblatex-dw"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(standard.bbx) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

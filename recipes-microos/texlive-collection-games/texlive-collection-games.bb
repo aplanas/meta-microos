@@ -9,6 +9,53 @@ RPM_HASH = "b397cca8f34df7c3109f3c5c5a3caac36d55cb57065a3c6150050ccfbe6fa357945f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-games"
-RDEPENDS:${PN} += "texlive-bartel-chess-fonts texlive-chess texlive-chess-problem-diagrams texlive-chessboard texlive-chessfss texlive-chinesechess texlive-collection-latex texlive-crossword texlive-crosswrd texlive-customdice texlive-egameps texlive-gamebook texlive-gamebooklib texlive-go texlive-hanoi texlive-havannah texlive-hexboard texlive-hexgame texlive-hmtrump texlive-horoscop texlive-jeuxcartes texlive-jigsaw texlive-labyrinth texlive-logicpuzzle texlive-mahjong texlive-maze texlive-musikui texlive-nimsticks texlive-onedown texlive-othello texlive-othelloboard texlive-pas-crosswords texlive-psgo texlive-realtranspose texlive-reverxii texlive-rubik texlive-schwalbe-chess texlive-scrabble texlive-sgame texlive-skak texlive-skaknew texlive-soup texlive-sudoku texlive-sudokubundle texlive-tangramtikz texlive-wargame texlive-xq texlive-xskak"
+RDEPENDS:${PN} += "texlive-bartel-chess-fonts \
+texlive-chess \
+texlive-chess-problem-diagrams \
+texlive-chessboard \
+texlive-chessfss \
+texlive-chinesechess \
+texlive-collection-latex \
+texlive-crossword \
+texlive-crosswrd \
+texlive-customdice \
+texlive-egameps \
+texlive-gamebook \
+texlive-gamebooklib \
+texlive-go \
+texlive-hanoi \
+texlive-havannah \
+texlive-hexboard \
+texlive-hexgame \
+texlive-hmtrump \
+texlive-horoscop \
+texlive-jeuxcartes \
+texlive-jigsaw \
+texlive-labyrinth \
+texlive-logicpuzzle \
+texlive-mahjong \
+texlive-maze \
+texlive-musikui \
+texlive-nimsticks \
+texlive-onedown \
+texlive-othello \
+texlive-othelloboard \
+texlive-pas-crosswords \
+texlive-psgo \
+texlive-realtranspose \
+texlive-reverxii \
+texlive-rubik \
+texlive-schwalbe-chess \
+texlive-scrabble \
+texlive-sgame \
+texlive-skak \
+texlive-skaknew \
+texlive-soup \
+texlive-sudoku \
+texlive-sudokubundle \
+texlive-tangramtikz \
+texlive-wargame \
+texlive-xq \
+texlive-xskak"
 
 inherit rpm

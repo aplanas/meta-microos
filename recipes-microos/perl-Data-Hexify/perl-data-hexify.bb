@@ -84,7 +84,8 @@ RPM_NAME = "perl-Data-Hexify-1.00-15.26.noarch.rpm"
 RPM_HASH = "3d7515d90c42b9bf7b1a10fb7dd2d3a1264ed15f771328013e47aee5dc0e92952731786a32b2e824184ee645003c749ed48a59a4fdf56a22dd77f5dc386ef404"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Data::Hexify) perl-Data-Hexify"
+RPROVIDES:${PN} += "perl(Data::Hexify) \
+perl-Data-Hexify"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

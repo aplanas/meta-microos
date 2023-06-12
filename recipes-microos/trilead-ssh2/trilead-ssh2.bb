@@ -13,7 +13,14 @@ RPM_NAME = "trilead-ssh2-217.8-2.6.noarch.rpm"
 RPM_HASH = "a62d6a237487e9ce8b06f0f4ec2131d855150a52d4d33fb5b76a1cdcb5740d09ddc0fad1be09ba51fc37943f9c06f1930a9de4927e965703c79c8f309c3af6bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(com.trilead:trilead-ssh2) mvn(com.trilead:trilead-ssh2:pom:) mvn(org.jenkins-ci:trilead-ssh2) mvn(org.jenkins-ci:trilead-ssh2:pom:) mvn(org.tmatesoft.svnkit:trilead-ssh2) mvn(org.tmatesoft.svnkit:trilead-ssh2:pom:) trilead-ssh2"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "mvn(com.trilead:trilead-ssh2) \
+mvn(com.trilead:trilead-ssh2:pom:) \
+mvn(org.jenkins-ci:trilead-ssh2) \
+mvn(org.jenkins-ci:trilead-ssh2:pom:) \
+mvn(org.tmatesoft.svnkit:trilead-ssh2) \
+mvn(org.tmatesoft.svnkit:trilead-ssh2:pom:) \
+trilead-ssh2"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

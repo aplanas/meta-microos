@@ -9,6 +9,7 @@ RPM_HASH = "bc4268491a6a58d8f2f3a0f0dbb9ddac675c6f5ad7139b899df211e1c857d5d4e07a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-pytoolconfig-global"
-RDEPENDS:${PN} += "python311-platformdirs python311-pytoolconfig"
+RDEPENDS:${PN} += "python311-platformdirs \
+python311-pytoolconfig"
 
 inherit rpm

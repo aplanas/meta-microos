@@ -27,7 +27,12 @@ RPM_NAME = "perl-IO-Pipely-0.006-1.7.noarch.rpm"
 RPM_HASH = "85cfe941dc680e4d9f38124dfbc23f5a3c2a658b1d13e6826a1ece27ef5e1251e93f9391e988443319693537bd83d87c09dd4f1997ba0a45d411b49475dfb328"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IO::Pipely) perl-IO-Pipely"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Exporter) perl(Fcntl) perl(IO::Socket) perl(Symbol)"
+RPROVIDES:${PN} += "perl(IO::Pipely) \
+perl-IO-Pipely"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Exporter) \
+perl(Fcntl) \
+perl(IO::Socket) \
+perl(Symbol)"
 
 inherit rpm

@@ -13,7 +13,19 @@ RPM_NAME = "texlive-gtrcrd-2023.201.1.1svn32484-53.1.noarch.rpm"
 RPM_HASH = "6611311f860bb1fd3b533f2e4aa5c3eb7d7301b8582c8fb2d9ef8ca1e8dcb3ae8dca345855d7917ff042661480819e5e4f5ca70b8f18cdb8bfed424f13bb1878"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gtrcrd.sty) texlive-gtrcrd"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(gtrcrd.sty) \
+texlive-gtrcrd"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

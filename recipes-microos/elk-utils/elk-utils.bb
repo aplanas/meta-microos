@@ -9,6 +9,11 @@ RPM_HASH = "10b4ed1a7450b3b50b66d504f6ed4c7d42e450dae48f70973cd12774cb26869ac71d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elk-utils"
-RDEPENDS:${PN} += "/bin/bash /usr/bin/perl /usr/bin/python3 awk elk-data gnuplot"
+RDEPENDS:${PN} += "/bin/bash \
+/usr/bin/perl \
+/usr/bin/python3 \
+awk \
+elk-data \
+gnuplot"
 
 inherit rpm

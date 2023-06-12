@@ -35,7 +35,13 @@ RPM_NAME = "perl-SQL-SplitStatement-1.00023-1.9.noarch.rpm"
 RPM_HASH = "e456547b4c37b9a2663574723842340a5f86a3738e0251692521c1d3e3303cbed2fd943528de9c44a995dd99e3f27ee811a3e71a2524cafbf6e4408f18b8c413"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(SQL::SplitStatement) perl(SQL::SplitStatement::Tokenizer) perl-SQL-SplitStatement"
-RDEPENDS:${PN} += "/usr/bin/env perl(:MODULE_COMPAT_5.36.0) perl(Class::Accessor::Fast) perl(List::MoreUtils) perl(Regexp::Common)"
+RPROVIDES:${PN} += "perl(SQL::SplitStatement) \
+perl(SQL::SplitStatement::Tokenizer) \
+perl-SQL-SplitStatement"
+RDEPENDS:${PN} += "/usr/bin/env \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Accessor::Fast) \
+perl(List::MoreUtils) \
+perl(Regexp::Common)"
 
 inherit rpm

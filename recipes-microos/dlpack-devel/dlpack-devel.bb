@@ -11,7 +11,9 @@ PV = "0.8"
 RPM_NAME = "dlpack-devel-0.8-1.2.aarch64.rpm"
 RPM_HASH = "cad408cd8512fc3634cdf591fe955daa5319696a2786a396e9c5b0c03c467f82f2d0a9bfdf0ef5f2d5079d7a73a291a1e5e03cff0b876e64bac6500780ed23a4"
 
-RPROVIDES:${PN} += "cmake(dlpack) dlpack-devel dlpack-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake(dlpack) \
+dlpack-devel \
+dlpack-devel(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

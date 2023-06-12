@@ -9,6 +9,7 @@ RPM_HASH = "27c480a7b9980384e085e1e901c2802567c5d3a515fa84c6b096335f0babbe0e7cdc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-songbook-doc"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl"
 
 inherit rpm

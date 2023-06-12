@@ -14,7 +14,12 @@ RPM_NAME = "python39-pyface-7.4.4-1.5.noarch.rpm"
 RPM_HASH = "8cffde6fa23943f24c3747918eec138ae402b92463e147fa1c2cb87aeb077282e81921f59fb0ce95f5548904dce49fc28a2a8985bdbaee2e65a5d8fb81d89ff4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pyface) python39-pyface python3dist(pyface)"
-RDEPENDS:${PN} += "python(abi) python39-importlib-metadata python39-importlib-resources python39-traits"
+RPROVIDES:${PN} += "python3.9dist(pyface) \
+python39-pyface \
+python3dist(pyface)"
+RDEPENDS:${PN} += "python(abi) \
+python39-importlib-metadata \
+python39-importlib-resources \
+python39-traits"
 
 inherit rpm

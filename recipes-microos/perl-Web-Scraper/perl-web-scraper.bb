@@ -14,7 +14,20 @@ RPM_NAME = "perl-Web-Scraper-0.38-1.9.noarch.rpm"
 RPM_HASH = "1f262bd2f1f7d831041f40142f64478d3208afed95de4953282e1efa3f770b8ad2fd5b331f788c76636cc71192a8e4de644c20c46bdda82d2753f4fc68831f51"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Web::Scraper) perl(Web::Scraper::Filter) perl(Web::Scraper::LibXML) perl-Web-Scraper"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(HTML::Entities) perl(HTML::Selector::XPath) perl(HTML::Tagset) perl(HTML::TreeBuilder) perl(HTML::TreeBuilder::XPath) perl(LWP) perl(UNIVERSAL::require) perl(URI) perl(XML::XPathEngine) perl(YAML)"
+RPROVIDES:${PN} += "perl(Web::Scraper) \
+perl(Web::Scraper::Filter) \
+perl(Web::Scraper::LibXML) \
+perl-Web-Scraper"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(HTML::Entities) \
+perl(HTML::Selector::XPath) \
+perl(HTML::Tagset) \
+perl(HTML::TreeBuilder) \
+perl(HTML::TreeBuilder::XPath) \
+perl(LWP) \
+perl(UNIVERSAL::require) \
+perl(URI) \
+perl(XML::XPathEngine) \
+perl(YAML)"
 
 inherit rpm

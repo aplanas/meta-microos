@@ -12,7 +12,9 @@ PV = "0.8.0"
 RPM_NAME = "kirigami-addons-devel-0.8.0-1.2.aarch64.rpm"
 RPM_HASH = "a65b865659301d81552ebc80385220036a9015a2b8ddbef8e274bcc855187f88f599a91e8c1f0d52cd63980f875f09b87e09255c0b8e82021f542cadcd85230d"
 
-RPROVIDES:${PN} += "cmake(KF5KirigamiAddons) kirigami-addons-devel kirigami-addons-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake(KF5KirigamiAddons) \
+kirigami-addons-devel \
+kirigami-addons-devel(aarch-64)"
 RDEPENDS:${PN} += "kirigami-addons"
 
 inherit rpm

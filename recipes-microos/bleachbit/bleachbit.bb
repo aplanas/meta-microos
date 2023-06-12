@@ -13,7 +13,24 @@ RPM_NAME = "bleachbit-4.4.2-2.1.noarch.rpm"
 RPM_HASH = "3fa71b78fedfe7f14eccb64a31a355b32e3698540341586e89a481288e5bef400711cdcca0eb4bde70ff1d243a98799f39f3173c1aad252d4b14367423e88320"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(org.bleachbit.BleachBit-root.desktop) application(org.bleachbit.BleachBit.desktop) bleachbit metainfo() metainfo(org.bleachbit.BleachBit.metainfo.xml)"
-RDEPENDS:${PN} += "/usr/bin/python3 python3 python3-chardet python3-gobject python3-gobject-Gdk python3-xml typelib(GLib) typelib(GObject) typelib(Gdk) typelib(Gio) typelib(Gtk) typelib(Notify) xdg-utils"
+RPROVIDES:${PN} += "application() \
+application(org.bleachbit.BleachBit-root.desktop) \
+application(org.bleachbit.BleachBit.desktop) \
+bleachbit \
+metainfo() \
+metainfo(org.bleachbit.BleachBit.metainfo.xml)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3 \
+python3-chardet \
+python3-gobject \
+python3-gobject-Gdk \
+python3-xml \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gdk) \
+typelib(Gio) \
+typelib(Gtk) \
+typelib(Notify) \
+xdg-utils"
 
 inherit rpm

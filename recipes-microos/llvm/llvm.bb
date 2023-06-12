@@ -16,7 +16,8 @@ PV = "16.0.4"
 RPM_NAME = "llvm-16.0.4-1.1.aarch64.rpm"
 RPM_HASH = "74b6c44424e383c402f6c4b02eefed0bb28ef42b4745d87131c92a0cf59e77d3a41d5fb9d3ded9a89e3a5318b6469f8c2ecd17936b5cadf6a11dfeeadd0d51b8"
 
-RPROVIDES:${PN} += "llvm llvm(aarch-64)"
+RPROVIDES:${PN} += "llvm \
+llvm(aarch-64)"
 RDEPENDS:${PN} += "llvm16"
 
 inherit rpm

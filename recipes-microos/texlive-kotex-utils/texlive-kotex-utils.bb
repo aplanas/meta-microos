@@ -11,6 +11,23 @@ RPM_HASH = "470292faa10c73a9aa4be9d8098587f7001bc234e87e2babf8ebacb8e402ebdda2f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kotex-utils"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(File::Copy) perl(File::Path) perl(Getopt::Std) sed texlive texlive-filesystem texlive-kotex-utf texlive-kotex-utils-bin texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(File::Copy) \
+perl(File::Path) \
+perl(Getopt::Std) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kotex-utf \
+texlive-kotex-utils-bin \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

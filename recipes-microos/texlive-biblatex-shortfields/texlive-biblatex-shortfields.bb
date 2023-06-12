@@ -20,7 +20,19 @@ RPM_NAME = "texlive-biblatex-shortfields-2023.201.1.0.1svn45858-53.1.noarch.rpm"
 RPM_HASH = "fa1866905864397154b1be2c10c2ed66b0a15e602ba3826f7b049de824fd1e0fe78727a48f7f73df43e44ba47ee69bc9103d89c9c03a8e54c28999516bc11c34"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(biblatex-shortfields.sty) texlive-biblatex-shortfields"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(biblatex-shortfields.sty) \
+texlive-biblatex-shortfields"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

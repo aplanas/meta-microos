@@ -9,7 +9,14 @@ PV = "62.3.0"
 RPM_NAME = "libjpeg62-62.3.0-75.1.aarch64.rpm"
 RPM_HASH = "ab190c5d10d8718d78bf5b883489a58b6a5cb3f77ede7480c71ddbe84627be6806adf6bbc0abe020d849b01d84b42cf1d95e8ab2d3486dc69f78129568ba2011"
 
-RPROVIDES:${PN} += "libjpeg.so.62()(64bit) libjpeg.so.62(LIBJPEGTURBO_6.2)(64bit) libjpeg.so.62(LIBJPEG_6.2)(64bit) libjpeg62 libjpeg62(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libjpeg.so.62()(64bit) \
+libjpeg.so.62(LIBJPEGTURBO_6.2)(64bit) \
+libjpeg.so.62(LIBJPEG_6.2)(64bit) \
+libjpeg62 \
+libjpeg62(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

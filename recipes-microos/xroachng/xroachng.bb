@@ -21,7 +21,22 @@ PV = "1.0.3"
 RPM_NAME = "xroachng-1.0.3-1.1.aarch64.rpm"
 RPM_HASH = "3e56edebf26c74c942385f28b64a361de413f272a716223808434b921f8a4d9214b411b26f354391c64598c60cb3111ca690e8bb5b729e4d9f7383017dba75ed"
 
-RPROVIDES:${PN} += "application() application(xroachng.desktop) xroachng xroachng(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libc.so.6(GLIBC_2.34)(64bit) libcairo.so.2()(64bit) libgdk-3.so.0()(64bit) libgdk_pixbuf-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgtk-3.so.0()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit)"
+RPROVIDES:${PN} += "application() \
+application(xroachng.desktop) \
+xroachng \
+xroachng(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libX11.so.6()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcairo.so.2()(64bit) \
+libgdk-3.so.0()(64bit) \
+libgdk_pixbuf-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgtk-3.so.0()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit)"
 
 inherit rpm

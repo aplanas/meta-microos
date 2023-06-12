@@ -14,7 +14,18 @@ PV = "2.13"
 RPM_NAME = "bird-2.13-1.1.aarch64.rpm"
 RPM_HASH = "612245bf39c3c413c63d4a77571ca503bdcf2a4d58834b1179b8b094d659fc61548448516b1e425fd0e38024041df977d4b9a1257e4146ea5deb97fd3b6ff2ec"
 
-RPROVIDES:${PN} += "bird bird(aarch-64) bird-common bird6 bird6:/usr/sbin/bird6 config(bird)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libreadline.so.8()(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
+RPROVIDES:${PN} += "bird \
+bird(aarch-64) \
+bird-common \
+bird6 \
+bird6:/usr/sbin/bird6 \
+config(bird)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libreadline.so.8()(64bit) \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
 
 inherit rpm

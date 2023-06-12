@@ -10,7 +10,8 @@ PV = "6.3.4"
 RPM_NAME = "cpupower-rebuild-6.3.4-4.12.aarch64.rpm"
 RPM_HASH = "ae01a81141963b39763da4bb3f2232491b9907e187272fce8b3618aa7b2d775f8934f61513989971debcd6057d31d1fea1f36a376bfcdea7b8c6ccc09afc35e4"
 
-RPROVIDES:${PN} += "cpupower-rebuild cpupower-rebuild(aarch-64)"
+RPROVIDES:${PN} += "cpupower-rebuild \
+cpupower-rebuild(aarch-64)"
 RDEPENDS:${PN} += "kernel-source"
 
 inherit rpm

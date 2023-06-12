@@ -8,7 +8,12 @@ RPM_NAME = "myspell-sk_SK-20221012-1.2.noarch.rpm"
 RPM_HASH = "495b5a4ad4678403f9157bd53483c14231b083b8450a7c6f0f8bbdb428cdc9ae1f92c2967cb59d26481663cd726ec6082cda4bf49f9ffb2ba98c8145e74fd75f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libreoffice-thesaurus-sk locale(libreoffice:sk_SK) locale(seamonkey-spellchecker:sk_SK) myspell-dictionary myspell-sk_SK myspell-slovak"
+RPROVIDES:${PN} += "libreoffice-thesaurus-sk \
+locale(libreoffice:sk_SK) \
+locale(seamonkey-spellchecker:sk_SK) \
+myspell-dictionary \
+myspell-sk_SK \
+myspell-slovak"
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

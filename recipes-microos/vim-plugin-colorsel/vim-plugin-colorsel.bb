@@ -10,6 +10,8 @@ RPM_HASH = "67e11ad0fc9027992f4a1b465956df33f18ec4d4c013a698e83a397cc78edf081305
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-colorsel"
-RDEPENDS:${PN} += "/bin/sh gvim vim"
+RDEPENDS:${PN} += "/bin/sh \
+gvim \
+vim"
 
 inherit rpm

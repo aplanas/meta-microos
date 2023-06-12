@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-yi-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "e1e79e8bd3d7f19a73eb9d03bcb76c5198fd65d50a5c37e9573b719227abb3c25c4f9c79eb47da8f98f8f6083067c623e840642d50cfca26a989c1c85a1acc3e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-yi noto-sans-yi-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-yi \
+noto-sans-yi-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

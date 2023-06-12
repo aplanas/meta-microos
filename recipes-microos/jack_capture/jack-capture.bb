@@ -8,7 +8,14 @@ PV = "0.9.73"
 RPM_NAME = "jack_capture-0.9.73-1.12.aarch64.rpm"
 RPM_HASH = "eaa8ccbec1ecfe4ed26c4bb1b1ae1f47d4ec6284470b931c184a55ed058f69a28301bc8c857de09b6157dd11c3149f0dd3935d781c54a2a07424f9e98152ffb1"
 
-RPROVIDES:${PN} += "jack_capture jack_capture(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) libjack.so.0()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libsndfile.so.1()(64bit) libsndfile.so.1(libsndfile.so.1.0)(64bit)"
+RPROVIDES:${PN} += "jack_capture \
+jack_capture(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+libjack.so.0()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit) \
+libsndfile.so.1()(64bit) \
+libsndfile.so.1(libsndfile.so.1.0)(64bit)"
 
 inherit rpm

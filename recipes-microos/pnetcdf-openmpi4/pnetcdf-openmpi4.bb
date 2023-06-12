@@ -15,7 +15,16 @@ PV = "1.12.3"
 RPM_NAME = "pnetcdf-openmpi4-1.12.3-1.3.aarch64.rpm"
 RPM_HASH = "34f58084bb80d0aa327342c2089533e905af91d03782ee49778deb4897679164d24d4e58c5eea7995f181fed750f9990b42a9cf3a963d98d7d9b9afca821c421"
 
-RPROVIDES:${PN} += "parallel-netcdf-openmpi4 pnetcdf-openmpi4 pnetcdf-openmpi4(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libmpi.so.40()(64bit) libpnetcdf.so.4()(64bit) libpnetcdf4-openmpi4 openmpi4"
+RPROVIDES:${PN} += "parallel-netcdf-openmpi4 \
+pnetcdf-openmpi4 \
+pnetcdf-openmpi4(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libmpi.so.40()(64bit) \
+libpnetcdf.so.4()(64bit) \
+libpnetcdf4-openmpi4 \
+openmpi4"
 
 inherit rpm

@@ -20,7 +20,20 @@ RPM_NAME = "texlive-rviewport-2023.201.1.0svn23739-53.1.noarch.rpm"
 RPM_HASH = "1379d642fc89816d24a69be72bee7766cec7bbe92065574665d6ec581c7f54bee6867264a2c8c3bec8000cfed7fc6f5fa8e1d6a82e49854ecf7450e66549800d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(rviewport.sty) texlive-rviewport"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(keyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(rviewport.sty) \
+texlive-rviewport"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(keyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -13,7 +13,34 @@ RPM_NAME = "texlive-feyn-2023.201.0.0.4.3svn63945-52.1.noarch.rpm"
 RPM_HASH = "9471e324737909461b545553b31b0dd78d6212a1ea9fe970283318c048ec293b24349ad62ac2fa917c0bec82bf68932942eb126b801ffa030e73c0642313c8ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(feyn.sty) tex(feyn10.tfm) tex(feyn11.tfm) tex(feyn12.tfm) tex(feyn18.tfm) tex(feyn24.tfm) tex(feyntext10.tfm) tex(feyntext11.tfm) tex(feyntext12.tfm) tex(feyntext18.tfm) tex(feyntext24.tfm) tex(feynx10.tfm) tex(feynx11.tfm) tex(feynx12.tfm) tex(feynx18.tfm) tex(feynx24.tfm) texlive-feyn"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(feyn.sty) \
+tex(feyn10.tfm) \
+tex(feyn11.tfm) \
+tex(feyn12.tfm) \
+tex(feyn18.tfm) \
+tex(feyn24.tfm) \
+tex(feyntext10.tfm) \
+tex(feyntext11.tfm) \
+tex(feyntext12.tfm) \
+tex(feyntext18.tfm) \
+tex(feyntext24.tfm) \
+tex(feynx10.tfm) \
+tex(feynx11.tfm) \
+tex(feynx12.tfm) \
+tex(feynx18.tfm) \
+tex(feynx24.tfm) \
+texlive-feyn"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

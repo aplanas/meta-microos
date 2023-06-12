@@ -17,7 +17,10 @@ RPM_NAME = "python310-backoff-2.2.1-2.1.noarch.rpm"
 RPM_HASH = "b01ad56e61a83d24155dae54620cbe45182d5b6078390096567f60ef72e6f5962fb1ebdb4b5672f066514db73a362577bbd7dfa28b7c639dcd9cd8de29d09506"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-backoff python3.10dist(backoff) python310-backoff python3dist(backoff)"
+RPROVIDES:${PN} += "python3-backoff \
+python3.10dist(backoff) \
+python310-backoff \
+python3dist(backoff)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -22,7 +22,11 @@ RPM_NAME = "python310-dask-array-2023.3.2-3.1.noarch.rpm"
 RPM_HASH = "40a2a54a2b52b482fa242784bbdf93ad475e06ae1d086b7efd689a19db12e870500b51b74003087570800afa95e9bce489f2f5b41c1c54cf7fdeff7998562d0c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dask-array python310-dask-array"
-RDEPENDS:${PN} += "python(abi) python310-dask python310-dask-delayed python310-numpy"
+RPROVIDES:${PN} += "python3-dask-array \
+python310-dask-array"
+RDEPENDS:${PN} += "python(abi) \
+python310-dask \
+python310-dask-delayed \
+python310-numpy"
 
 inherit rpm

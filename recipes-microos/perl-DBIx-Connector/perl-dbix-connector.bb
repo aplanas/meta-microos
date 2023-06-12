@@ -18,7 +18,19 @@ RPM_NAME = "perl-DBIx-Connector-0.58-1.2.noarch.rpm"
 RPM_HASH = "d6ad22289a076f62dff2d80fee6853ec63a9986cf8f67f3e7ad1366281ad225de3ca0250851142b318348bed31b4c26adbc58447b29ab9ea5981c1e5d37aa866"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DBIx::Connector) perl(DBIx::Connector::Driver) perl(DBIx::Connector::Driver::Firebird) perl(DBIx::Connector::Driver::MSSQL) perl(DBIx::Connector::Driver::Oracle) perl(DBIx::Connector::Driver::Pg) perl(DBIx::Connector::Driver::SQLite) perl(DBIx::Connector::Driver::mysql) perl(DBIx::Connector::RollbackError) perl(DBIx::Connector::SvpRollbackError) perl(DBIx::Connector::TxnRollbackError) perl-DBIx-Connector"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(DBI)"
+RPROVIDES:${PN} += "perl(DBIx::Connector) \
+perl(DBIx::Connector::Driver) \
+perl(DBIx::Connector::Driver::Firebird) \
+perl(DBIx::Connector::Driver::MSSQL) \
+perl(DBIx::Connector::Driver::Oracle) \
+perl(DBIx::Connector::Driver::Pg) \
+perl(DBIx::Connector::Driver::SQLite) \
+perl(DBIx::Connector::Driver::mysql) \
+perl(DBIx::Connector::RollbackError) \
+perl(DBIx::Connector::SvpRollbackError) \
+perl(DBIx::Connector::TxnRollbackError) \
+perl-DBIx-Connector"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(DBI)"
 
 inherit rpm

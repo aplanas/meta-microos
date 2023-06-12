@@ -10,7 +10,35 @@ RPM_NAME = "akka-2.3.16-8.9.noarch.rpm"
 RPM_HASH = "517d006732c6f2d0c197dbc9026463dd71852c60c248584d9125ad2056bcdfd7c6c15f4cd20e9b3734bf61ffea9b393f547fcdb883ac8dddfb8a005f49b9a2ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "akka mvn(com.typesafe.akka:akka-actor_2.10) mvn(com.typesafe.akka:akka-actor_2.10:pom:) mvn(com.typesafe.akka:akka-agent_2.10) mvn(com.typesafe.akka:akka-agent_2.10:pom:) mvn(com.typesafe.akka:akka-cluster_2.10) mvn(com.typesafe.akka:akka-cluster_2.10:pom:) mvn(com.typesafe.akka:akka-dataflow_2.10) mvn(com.typesafe.akka:akka-dataflow_2.10:pom:) mvn(com.typesafe.akka:akka-kernel_2.10) mvn(com.typesafe.akka:akka-kernel_2.10:pom:) mvn(com.typesafe.akka:akka-osgi_2.10) mvn(com.typesafe.akka:akka-osgi_2.10:pom:) mvn(com.typesafe.akka:akka-remote_2.10) mvn(com.typesafe.akka:akka-remote_2.10:pom:) mvn(com.typesafe.akka:akka-slf4j_2.10) mvn(com.typesafe.akka:akka-slf4j_2.10:pom:) mvn(com.typesafe.akka:akka-transactor_2.10) mvn(com.typesafe.akka:akka-transactor_2.10:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(com.google.protobuf:protobuf-java) mvn(com.typesafe:config) mvn(io.netty:netty) mvn(org.osgi:osgi.cmpn) mvn(org.osgi:osgi.core) mvn(org.scala-lang:scala-library) mvn(org.scala-stm:scala-stm_2.10) mvn(org.slf4j:slf4j-api) mvn(org.uncommons.maths:uncommons-maths)"
+RPROVIDES:${PN} += "akka \
+mvn(com.typesafe.akka:akka-actor_2.10) \
+mvn(com.typesafe.akka:akka-actor_2.10:pom:) \
+mvn(com.typesafe.akka:akka-agent_2.10) \
+mvn(com.typesafe.akka:akka-agent_2.10:pom:) \
+mvn(com.typesafe.akka:akka-cluster_2.10) \
+mvn(com.typesafe.akka:akka-cluster_2.10:pom:) \
+mvn(com.typesafe.akka:akka-dataflow_2.10) \
+mvn(com.typesafe.akka:akka-dataflow_2.10:pom:) \
+mvn(com.typesafe.akka:akka-kernel_2.10) \
+mvn(com.typesafe.akka:akka-kernel_2.10:pom:) \
+mvn(com.typesafe.akka:akka-osgi_2.10) \
+mvn(com.typesafe.akka:akka-osgi_2.10:pom:) \
+mvn(com.typesafe.akka:akka-remote_2.10) \
+mvn(com.typesafe.akka:akka-remote_2.10:pom:) \
+mvn(com.typesafe.akka:akka-slf4j_2.10) \
+mvn(com.typesafe.akka:akka-slf4j_2.10:pom:) \
+mvn(com.typesafe.akka:akka-transactor_2.10) \
+mvn(com.typesafe.akka:akka-transactor_2.10:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(com.google.protobuf:protobuf-java) \
+mvn(com.typesafe:config) \
+mvn(io.netty:netty) \
+mvn(org.osgi:osgi.cmpn) \
+mvn(org.osgi:osgi.core) \
+mvn(org.scala-lang:scala-library) \
+mvn(org.scala-stm:scala-stm_2.10) \
+mvn(org.slf4j:slf4j-api) \
+mvn(org.uncommons.maths:uncommons-maths)"
 
 inherit rpm

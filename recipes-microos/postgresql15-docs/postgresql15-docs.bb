@@ -16,7 +16,8 @@ RPM_NAME = "postgresql15-docs-15.3-1.2.noarch.rpm"
 RPM_HASH = "3fe33cb5e216ad82f656e0ca081c03826dd7abfac89592bd7d0f6e3ccbc7dbbd4b9c7d17251eaf3d04b5eedc85ec886c898fa956bf565c3cec127f807b3b1d74"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "postgresql-docs-implementation postgresql15-docs"
+RPROVIDES:${PN} += "postgresql-docs-implementation \
+postgresql15-docs"
 RDEPENDS:${PN} += "postgresql-docs-noarch"
 
 inherit rpm

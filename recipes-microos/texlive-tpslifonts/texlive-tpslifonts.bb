@@ -21,7 +21,28 @@ RPM_NAME = "texlive-tpslifonts-2023.201.0.0.6svn42428-52.1.noarch.rpm"
 RPM_HASH = "3005c80af074e6ea181e9db20c54e60c02bfce17e5ec246a8423f5ff6a4e1cc0f0464188f21b32847e02018023a083d714e994d1e3d3cc7dc7c687846f9d28bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tpslifonts.sty) texlive-tpslifonts"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(cmbright.sty) tex(eulervm.sty) tex(ifthen.sty) tex(t1cmdh.fd) tex(t1cmfib.fd) tex(t1cmfr.fd) tex(t1cmr.fd) tex(t1cmss.fd) tex(t1cmtt.fd) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(tpslifonts.sty) \
+texlive-tpslifonts"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(cmbright.sty) \
+tex(eulervm.sty) \
+tex(ifthen.sty) \
+tex(t1cmdh.fd) \
+tex(t1cmfib.fd) \
+tex(t1cmfr.fd) \
+tex(t1cmr.fd) \
+tex(t1cmss.fd) \
+tex(t1cmtt.fd) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

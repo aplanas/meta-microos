@@ -31,7 +31,10 @@ RPM_NAME = "python311-typing_extensions-4.5.0-2.1.noarch.rpm"
 RPM_HASH = "0f889cbe3ca6a324f7157f946ad09dac378be1f9b8a91ca5fc96eeaa59330122edd77cf3127ea7d9c18beb7b14b4c1cf18c281c4de0f9b4fdd0dc13294b5f00e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(typing-extensions) python311-typing-extensions python311-typing_extensions python3dist(typing-extensions)"
+RPROVIDES:${PN} += "python3.11dist(typing-extensions) \
+python311-typing-extensions \
+python311-typing_extensions \
+python3dist(typing-extensions)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

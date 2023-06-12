@@ -28,7 +28,10 @@ RPM_NAME = "perl-Sereal-5.004-1.1.noarch.rpm"
 RPM_HASH = "b87872aab6ef550204962421f92050285b1edf0a867731653baf4532da37081c084779619544d236d76251d79bec3ac6fb579ca3b6afb75add16365eb12cfa1d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Sereal) perl-Sereal"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Sereal::Decoder) perl(Sereal::Encoder)"
+RPROVIDES:${PN} += "perl(Sereal) \
+perl-Sereal"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Sereal::Decoder) \
+perl(Sereal::Encoder)"
 
 inherit rpm

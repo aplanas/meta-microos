@@ -7,7 +7,31 @@ PV = "6.5.1"
 RPM_NAME = "qt6-platformtheme-xdgdesktopportal-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "711e5055716df36bca1de42a9c8c64eba805ab4905401f375a40e790b8834e090b51703bde4c650ca0167eae9eb0f4c4afe83d77ed070556c8cf44e09a5012ab"
 
-RPROVIDES:${PN} += "libqxdgdesktopportal.so()(64bit) libqxdgdesktopportal.so(Qt_6)(64bit) libqxdgdesktopportal.so(Qt_6.0)(64bit) libqxdgdesktopportal.so(Qt_6.1)(64bit) libqxdgdesktopportal.so(Qt_6.2)(64bit) libqxdgdesktopportal.so(Qt_6.3)(64bit) libqxdgdesktopportal.so(Qt_6.4)(64bit) libqxdgdesktopportal.so(Qt_6.5)(64bit) libqxdgdesktopportal.so(Qt_6.5.1_PRIVATE_API)(64bit) qt6-platformtheme-xdgdesktopportal qt6-platformtheme-xdgdesktopportal(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt6Core.so.6()(64bit) libQt6Core.so.6(Qt_6)(64bit) libQt6Core.so.6(Qt_6.5)(64bit) libQt6DBus.so.6()(64bit) libQt6DBus.so.6(Qt_6)(64bit) libQt6Gui.so.6()(64bit) libQt6Gui.so.6(Qt_6.5.1_PRIVATE_API)(64bit) libQt6Gui6 libc.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+RPROVIDES:${PN} += "libqxdgdesktopportal.so()(64bit) \
+libqxdgdesktopportal.so(Qt_6)(64bit) \
+libqxdgdesktopportal.so(Qt_6.0)(64bit) \
+libqxdgdesktopportal.so(Qt_6.1)(64bit) \
+libqxdgdesktopportal.so(Qt_6.2)(64bit) \
+libqxdgdesktopportal.so(Qt_6.3)(64bit) \
+libqxdgdesktopportal.so(Qt_6.4)(64bit) \
+libqxdgdesktopportal.so(Qt_6.5)(64bit) \
+libqxdgdesktopportal.so(Qt_6.5.1_PRIVATE_API)(64bit) \
+qt6-platformtheme-xdgdesktopportal \
+qt6-platformtheme-xdgdesktopportal(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libQt6Core.so.6()(64bit) \
+libQt6Core.so.6(Qt_6)(64bit) \
+libQt6Core.so.6(Qt_6.5)(64bit) \
+libQt6DBus.so.6()(64bit) \
+libQt6DBus.so.6(Qt_6)(64bit) \
+libQt6Gui.so.6()(64bit) \
+libQt6Gui.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
+libQt6Gui6 \
+libc.so.6(GLIBC_2.17)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit)"
 
 inherit rpm

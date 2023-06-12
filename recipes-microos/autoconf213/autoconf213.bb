@@ -19,6 +19,11 @@ RPM_HASH = "8735c68ce0c14da9eb07faa923e000137fccafbc96696817311d3b4251aca5283068
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoconf213"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl gawk m4 mktemp perl"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+gawk \
+m4 \
+mktemp \
+perl"
 
 inherit rpm

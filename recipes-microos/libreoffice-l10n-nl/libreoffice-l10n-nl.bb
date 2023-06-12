@@ -8,7 +8,12 @@ RPM_NAME = "libreoffice-l10n-nl-7.5.4.1-1.1.noarch.rpm"
 RPM_HASH = "28261a099b79899434100685a1e3a73fa7c91218b9dc66f50df187cc62b370fcc56c9479676b033a8e2d922fb376b47f011ada43f53a5882d035e9e0ba9e59eb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libreoffice-help-nl libreoffice-l10n-nl locale(libreoffice:nl)"
-RDEPENDS:${PN} += "/bin/sh libreoffice libreoffice-share-linker myspell-nl_NL"
+RPROVIDES:${PN} += "libreoffice-help-nl \
+libreoffice-l10n-nl \
+locale(libreoffice:nl)"
+RDEPENDS:${PN} += "/bin/sh \
+libreoffice \
+libreoffice-share-linker \
+myspell-nl_NL"
 
 inherit rpm

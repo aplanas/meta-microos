@@ -20,7 +20,11 @@ RPM_NAME = "icu4j-73.1-1.1.noarch.rpm"
 RPM_HASH = "54cff71e7bdd58b83cf5972e59a1da4f4b48dccf05eb4dbbcac493e40b0ff0c4b9827cbd533472d1e121af3fda809eda3cf3b123675c63af2c8ab410c5a2aa39"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "icu4j mvn(com.ibm.icu:icu4j) mvn(com.ibm.icu:icu4j:pom:) osgi(com.ibm.icu)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "icu4j \
+mvn(com.ibm.icu:icu4j) \
+mvn(com.ibm.icu:icu4j:pom:) \
+osgi(com.ibm.icu)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

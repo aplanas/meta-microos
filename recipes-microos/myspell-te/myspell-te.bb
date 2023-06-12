@@ -8,7 +8,11 @@ RPM_NAME = "myspell-te-20221012-1.2.noarch.rpm"
 RPM_HASH = "c81d37b06e1099fd9f6b55b8a78a796f22d79824dfca20a0903f193a9383b6166e880ecae5632eec19209c5775e4fcec1dd8e7a47136267409ed7b236da73153"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:te) locale(seamonkey-spellchecker:te) myspell-dictionary myspell-te"
-RDEPENDS:${PN} += "myspell-dictionaries myspell-te_IN"
+RPROVIDES:${PN} += "locale(libreoffice:te) \
+locale(seamonkey-spellchecker:te) \
+myspell-dictionary \
+myspell-te"
+RDEPENDS:${PN} += "myspell-dictionaries \
+myspell-te_IN"
 
 inherit rpm

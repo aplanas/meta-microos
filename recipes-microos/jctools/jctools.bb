@@ -17,7 +17,11 @@ RPM_NAME = "jctools-3.3.0-2.10.noarch.rpm"
 RPM_HASH = "ab313dfaf7e5cdcecff92f0f4870e8dace3464a022b31ac4bbaee884f74914e42497ba4bc3a57f10aec97f530eb434a7cfb7d5cfb551f298884956e9e389a65a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jctools mvn(org.jctools:jctools-core) mvn(org.jctools:jctools-core:pom:) osgi(org.jctools.core)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "jctools \
+mvn(org.jctools:jctools-core) \
+mvn(org.jctools:jctools-core:pom:) \
+osgi(org.jctools.core)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

@@ -9,6 +9,8 @@ RPM_HASH = "1566d1ce6a8f9329d6cd5e4cb3a8aa4dddff64bfa82731be420dc273da9d5896941f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flute"
-RDEPENDS:${PN} += "java jpackage-utils sac"
+RDEPENDS:${PN} += "java \
+jpackage-utils \
+sac"
 
 inherit rpm

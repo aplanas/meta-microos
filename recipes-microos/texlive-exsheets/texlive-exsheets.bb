@@ -21,7 +21,31 @@ RPM_NAME = "texlive-exsheets-2023.201.0.0.21ksvn52227-52.1.noarch.rpm"
 RPM_HASH = "4339258afc581f2762fa589d4e0ec175fb1bbb374e703393768aa160a380876e2169441e0a5b6f5e10131bc5e292d517e21d166be09b72669a87a79ddce6269d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(exsheets-listings.sty) tex(exsheets.sty) tex(exsheets_configurations.cfg) tex(exsheets_headings.cfg) tex(exsheets_headings.def) texlive-exsheets"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(cntformats.sty) tex(expl3.sty) tex(listings.sty) tex(tasks.sty) tex(translations.sty) tex(ulem.sty) tex(xcolor.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(exsheets-listings.sty) \
+tex(exsheets.sty) \
+tex(exsheets_configurations.cfg) \
+tex(exsheets_headings.cfg) \
+tex(exsheets_headings.def) \
+texlive-exsheets"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(cntformats.sty) \
+tex(expl3.sty) \
+tex(listings.sty) \
+tex(tasks.sty) \
+tex(translations.sty) \
+tex(ulem.sty) \
+tex(xcolor.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

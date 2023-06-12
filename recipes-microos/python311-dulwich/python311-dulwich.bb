@@ -8,7 +8,17 @@ PV = "0.21.5"
 RPM_NAME = "python311-dulwich-0.21.5-1.1.aarch64.rpm"
 RPM_HASH = "f4265377c95a3914b62fe65f7948d439635c9191d621fd85763d85eefd0f5650ce41ccd38d812bcd69411d50f9e6c018c7e2b9020022d5ae3563ea281e353423"
 
-RPROVIDES:${PN} += "python3.11dist(dulwich) python311-dulwich python311-dulwich(aarch-64) python3dist(dulwich)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python311-urllib3 update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(dulwich) \
+python311-dulwich \
+python311-dulwich(aarch-64) \
+python3dist(dulwich)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi) \
+python311-urllib3 \
+update-alternatives"
 
 inherit rpm

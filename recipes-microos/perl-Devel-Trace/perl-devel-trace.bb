@@ -36,7 +36,8 @@ RPM_NAME = "perl-Devel-Trace-0.12-1.23.noarch.rpm"
 RPM_HASH = "68c4b71a9bd9197564ef35a0f9d5f319f1d38d0b0da9b94b94b934a90e1cdd5b6a776aaa346cd0e83e2b7dfe84bc59c14cc48c4607da269f6b7cd25589e205bc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Devel::Trace) perl-Devel-Trace"
+RPROVIDES:${PN} += "perl(Devel::Trace) \
+perl-Devel-Trace"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -12,7 +12,10 @@ PV = "0.014"
 RPM_NAME = "perl-multidimensional-0.014-1.26.aarch64.rpm"
 RPM_HASH = "4b3e1171739084abb4330800a4007a3d694abba61281a423ff2b5d86dec32ab9db1a42fb324f832d5aa9511f8bfc9e8882113c04f46eceed5671ae1debf25b45"
 
-RPROVIDES:${PN} += "perl(multidimensional) perl-multidimensional perl-multidimensional(aarch-64)"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(B::Hooks::OP::Check)"
+RPROVIDES:${PN} += "perl(multidimensional) \
+perl-multidimensional \
+perl-multidimensional(aarch-64)"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(B::Hooks::OP::Check)"
 
 inherit rpm

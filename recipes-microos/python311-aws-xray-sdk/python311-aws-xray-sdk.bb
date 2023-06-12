@@ -19,7 +19,11 @@ RPM_NAME = "python311-aws-xray-sdk-2.12.0-1.1.noarch.rpm"
 RPM_HASH = "975bb8915cd47b7de5f342751390efc5a886933d086c125c8cf49e482560c345991b5316db7f96d2ceeaf28a72b7982de28863b6b2e1caaf9b0e44b5aa9ac23b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(aws-xray-sdk) python311-aws-xray-sdk python3dist(aws-xray-sdk)"
-RDEPENDS:${PN} += "python(abi) python311-botocore python311-wrapt"
+RPROVIDES:${PN} += "python3.11dist(aws-xray-sdk) \
+python311-aws-xray-sdk \
+python3dist(aws-xray-sdk)"
+RDEPENDS:${PN} += "python(abi) \
+python311-botocore \
+python311-wrapt"
 
 inherit rpm

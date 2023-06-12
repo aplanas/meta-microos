@@ -9,7 +9,9 @@ RPM_NAME = "python39-textdistance-4.5.0-1.3.noarch.rpm"
 RPM_HASH = "dc3a160939f9abe55f2e1df9abde3fa0a6fb019bb076996641a7e086bb73a173a1d6e89459451342f66f333f14834787c1b641a90e7b152220c92d9329500569"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(textdistance) python39-textdistance python3dist(textdistance)"
+RPROVIDES:${PN} += "python3.9dist(textdistance) \
+python39-textdistance \
+python3dist(textdistance)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

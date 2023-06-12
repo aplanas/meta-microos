@@ -11,7 +11,11 @@ PV = "1.3.1"
 RPM_NAME = "python310-deap-1.3.1-4.6.aarch64.rpm"
 RPM_HASH = "8e9f15bb16e0ec7ca99814d243d6804426e7792b28ba3c803d443c9e76eba182acc2a5eadc4cd488e61820618f3605dc411e8ee7ca682e63eddb91f35e24fe5f"
 
-RPROVIDES:${PN} += "python3-deap python3.10dist(deap) python310-deap python310-deap(aarch-64) python3dist(deap)"
+RPROVIDES:${PN} += "python3-deap \
+python3.10dist(deap) \
+python310-deap \
+python310-deap(aarch-64) \
+python3dist(deap)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

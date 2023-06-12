@@ -54,7 +54,8 @@ RPM_NAME = "perl-asa-1.04-1.15.noarch.rpm"
 RPM_HASH = "fd797c29add357225ccafe47b6e07ff679d54bab3531c1acf9feef7e5ab871e18b545000efe1b307b5d6bd7043df580153c802dd7cddda74ba93daada628e56d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(asa) perl-asa"
+RPROVIDES:${PN} += "perl(asa) \
+perl-asa"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -17,7 +17,12 @@ PV = "1.2.7.1"
 RPM_NAME = "vacation-1.2.7.1-13.2.aarch64.rpm"
 RPM_HASH = "f2e93877e8beb7bd3a6c2ec5f122e64bf799e6ac5a6c61fe50e4f6dff64683b7a10dc9f9e305d5b90d21f5794c6ec97ecdb54921e75b8e14430d4dd6ab61d92e"
 
-RPROVIDES:${PN} += "vacation vacation(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgdbm.so.6()(64bit)"
+RPROVIDES:${PN} += "vacation \
+vacation(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgdbm.so.6()(64bit)"
 
 inherit rpm

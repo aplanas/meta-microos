@@ -9,7 +9,9 @@ PV = "30.pre9"
 RPM_NAME = "libiw-devel-30.pre9-40.7.aarch64.rpm"
 RPM_HASH = "06acd5028f2164bb2aa316eef2884008adce6411a08e00b916e00fac5839a16920dc6a4c27807ee4b60ac16d74018fda39200b172b00a108d9f9932a2fb28fe6"
 
-RPROVIDES:${PN} += "libiw-devel libiw-devel(aarch-64)"
-RDEPENDS:${PN} += "glibc-devel libiw30"
+RPROVIDES:${PN} += "libiw-devel \
+libiw-devel(aarch-64)"
+RDEPENDS:${PN} += "glibc-devel \
+libiw30"
 
 inherit rpm

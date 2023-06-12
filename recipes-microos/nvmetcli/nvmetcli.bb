@@ -11,7 +11,14 @@ RPM_NAME = "nvmetcli-0.7-2.2.noarch.rpm"
 RPM_HASH = "53a44bcb28f03e0aa9916a7c0e20f59450de45dccab8fd56e1d213ac923f9988821034309cdff742361d70aaa5b7d2952713275fc72389bc7eba55c90ef3ff61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "nvmetcli python3.10dist(nvmetcli) python3dist(nvmetcli)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 python(abi) python3-configshell-fb python3-kmod systemd"
+RPROVIDES:${PN} += "nvmetcli \
+python3.10dist(nvmetcli) \
+python3dist(nvmetcli)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+python(abi) \
+python3-configshell-fb \
+python3-kmod \
+systemd"
 
 inherit rpm

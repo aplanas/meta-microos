@@ -8,7 +8,11 @@ RPM_NAME = "myspell-lv_LV-20221012-1.2.noarch.rpm"
 RPM_HASH = "4384cecc8c82f4bc48ad774bdcffdc30d5447aed39ddd068b775b2c804f07b4e44866e6728d49a0f2c581a55de365af36bb39ff336ecdcfd6d2c81c88d8a18b3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:lv_LV) locale(seamonkey-spellchecker:lv_LV) myspell-dictionary myspell-latvian myspell-lv_LV"
+RPROVIDES:${PN} += "locale(libreoffice:lv_LV) \
+locale(seamonkey-spellchecker:lv_LV) \
+myspell-dictionary \
+myspell-latvian \
+myspell-lv_LV"
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

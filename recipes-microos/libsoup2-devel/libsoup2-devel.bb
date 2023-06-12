@@ -17,7 +17,23 @@ PV = "2.74.3"
 RPM_NAME = "libsoup2-devel-2.74.3-1.3.aarch64.rpm"
 RPM_HASH = "45a0fe1604a28be88480f1b174eabbb51782f6963d5073e82f9bd1ab0bb7c264d367327e7c32052a71bbfe9067886ad8e900139755902f04419f84823200b8ec"
 
-RPROVIDES:${PN} += "libsoup-doc libsoup2-devel libsoup2-devel(aarch-64) pkgconfig(libsoup-2.4) pkgconfig(libsoup-gnome-2.4)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libsoup-2_4-1 pkgconfig(gio-2.0) pkgconfig(glib-2.0) pkgconfig(gmodule-2.0) pkgconfig(gobject-2.0) pkgconfig(libbrotlidec) pkgconfig(libpsl) pkgconfig(libsoup-2.4) pkgconfig(libxml-2.0) pkgconfig(sqlite3) pkgconfig(zlib) typelib-1_0-Soup-2_4"
+RPROVIDES:${PN} += "libsoup-doc \
+libsoup2-devel \
+libsoup2-devel(aarch-64) \
+pkgconfig(libsoup-2.4) \
+pkgconfig(libsoup-gnome-2.4)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libsoup-2_4-1 \
+pkgconfig(gio-2.0) \
+pkgconfig(glib-2.0) \
+pkgconfig(gmodule-2.0) \
+pkgconfig(gobject-2.0) \
+pkgconfig(libbrotlidec) \
+pkgconfig(libpsl) \
+pkgconfig(libsoup-2.4) \
+pkgconfig(libxml-2.0) \
+pkgconfig(sqlite3) \
+pkgconfig(zlib) \
+typelib-1_0-Soup-2_4"
 
 inherit rpm

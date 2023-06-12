@@ -17,7 +17,8 @@ RPM_NAME = "perl-File-ShareDir-Install-0.14-1.4.noarch.rpm"
 RPM_HASH = "ebc74e0a51db85af7905ae41f18cdeede0d0c80a28bb1010b228f5f85c68424ce85db2225b975be4661cc4bef99ff29df43c386c1a0e3ef6e00a521837ba9d20"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::ShareDir::Install) perl-File-ShareDir-Install"
+RPROVIDES:${PN} += "perl(File::ShareDir::Install) \
+perl-File-ShareDir-Install"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

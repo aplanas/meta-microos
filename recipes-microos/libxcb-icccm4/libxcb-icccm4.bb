@@ -13,7 +13,11 @@ PV = "0.4.2"
 RPM_NAME = "libxcb-icccm4-0.4.2-1.2.aarch64.rpm"
 RPM_HASH = "0e47344397f3505721fc9f2d70c0555a2874c501ebf4c51d870642821fb96052e4a7bae7767b7d6629a480d9ee3dc7ade6771b866adb0f2e5a041dd948aefc00"
 
-RPROVIDES:${PN} += "libxcb-icccm.so.4()(64bit) libxcb-icccm4 libxcb-icccm4(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig libc.so.6(GLIBC_2.17)(64bit) libxcb.so.1()(64bit)"
+RPROVIDES:${PN} += "libxcb-icccm.so.4()(64bit) \
+libxcb-icccm4 \
+libxcb-icccm4(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libc.so.6(GLIBC_2.17)(64bit) \
+libxcb.so.1()(64bit)"
 
 inherit rpm

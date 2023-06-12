@@ -17,7 +17,14 @@ PV = "6.0"
 RPM_NAME = "python39-PyYAML-6.0-5.1.aarch64.rpm"
 RPM_HASH = "2d61fd1cd82f1041963e9511e549907ca91907e5607cbb91609fe297790ddc0e936bc16c7b969320957e973d7b71088014a54e932fc1ed12ed1380e6f6894799"
 
-RPROVIDES:${PN} += "python3.9dist(pyyaml) python39-PyYAML python39-PyYAML(aarch-64) python3dist(pyyaml)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libyaml-0.so.2()(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.9dist(pyyaml) \
+python39-PyYAML \
+python39-PyYAML(aarch-64) \
+python3dist(pyyaml)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libyaml-0.so.2()(64bit) \
+python(abi)"
 
 inherit rpm

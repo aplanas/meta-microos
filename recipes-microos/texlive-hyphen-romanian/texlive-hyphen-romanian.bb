@@ -12,7 +12,26 @@ RPM_NAME = "texlive-hyphen-romanian-2023.201.svn58652-52.1.noarch.rpm"
 RPM_HASH = "63053257b19bda2ed96ffae8cca814132792811217283195a8cc535a3efdf1c2790dede94b5e2e62b8f7a288958553dcc42a5af8d114e28c50454825c5f3163c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hyph-ro.ec.tex) tex(hyph-ro.tex) tex(loadhyph-ro.tex) texlive-hyphen-romanian"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(language.dat) tex(language.dat.lua) tex(language.def) texlive texlive-filesystem texlive-hyph-utf8 texlive-hyphen-base texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(hyph-ro.ec.tex) \
+tex(hyph-ro.tex) \
+tex(loadhyph-ro.tex) \
+texlive-hyphen-romanian"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(language.dat) \
+tex(language.dat.lua) \
+tex(language.def) \
+texlive \
+texlive-filesystem \
+texlive-hyph-utf8 \
+texlive-hyphen-base \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

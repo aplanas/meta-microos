@@ -52,7 +52,14 @@ PV = "0.8.3"
 RPM_NAME = "ghc-clock-0.8.3-2.2.aarch64.rpm"
 RPM_HASH = "61dd8df8201f2c3ee6680b3357e82837a82f4f8afc90656769b33cff92285fade648a545829b6db506bcfc1d429f0575dfbf76c01483e1e34a10f981a0738c8d"
 
-RPROVIDES:${PN} += "ghc-clock ghc-clock(aarch-64) libHSclock-0.8.3-Bn4LVnP2KGzGGqLjq4BuLV-ghc9.4.5.so()(64bit)"
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) libc.so.6(GLIBC_2.17)(64bit) libgmp.so.10()(64bit) libm.so.6()(64bit)"
+RPROVIDES:${PN} += "ghc-clock \
+ghc-clock(aarch-64) \
+libHSclock-0.8.3-Bn4LVnP2KGzGGqLjq4BuLV-ghc9.4.5.so()(64bit)"
+RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
+libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
+libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgmp.so.10()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

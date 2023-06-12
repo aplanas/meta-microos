@@ -18,7 +18,21 @@ RPM_NAME = "texlive-typicons-2023.201.2.0.7svn37623-52.1.noarch.rpm"
 RPM_HASH = "021e46622ede1045bbf65a868c89f1635b66b906ac075c2e84522743057d7091504c38e746f544b4db55ce84ccc5d2150b6327f7399e32ef021630a00948edb4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(typicons.sty) texlive-typicons"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(fontspec.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin texlive-typicons-fonts"
+RPROVIDES:${PN} += "tex(typicons.sty) \
+texlive-typicons"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(fontspec.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-typicons-fonts"
 
 inherit rpm

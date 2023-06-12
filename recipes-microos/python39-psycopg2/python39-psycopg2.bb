@@ -14,7 +14,14 @@ PV = "2.9.6"
 RPM_NAME = "python39-psycopg2-2.9.6-2.1.aarch64.rpm"
 RPM_HASH = "8a80905b5f16c878aff6ae549278e4a589e3b408c35d4eb74722f2d24a068d3e4b92ad24f416d56bdc140c3efde11da198bb180aa2990c33243dd51f427b52f0"
 
-RPROVIDES:${PN} += "python3.9dist(psycopg2) python39-psycopg2 python39-psycopg2(aarch-64) python3dist(psycopg2)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libpq.so.5()(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.9dist(psycopg2) \
+python39-psycopg2 \
+python39-psycopg2(aarch-64) \
+python3dist(psycopg2)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libpq.so.5()(64bit) \
+python(abi)"
 
 inherit rpm

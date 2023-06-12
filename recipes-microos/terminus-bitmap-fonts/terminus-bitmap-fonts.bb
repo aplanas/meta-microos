@@ -24,7 +24,12 @@ RPM_NAME = "terminus-bitmap-fonts-4.49.1-2.6.noarch.rpm"
 RPM_HASH = "648ce520b06e810107bd1566938637dab222c2ee77527fcfeb573fb6d5659a63d4706e2c8b348d94569be6b57846bc2d22d4ece2d41fc4203f612bc27938fd70"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(ru;bg) terminus-bitmap-fonts terminus-font"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "locale(ru;bg) \
+terminus-bitmap-fonts \
+terminus-font"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

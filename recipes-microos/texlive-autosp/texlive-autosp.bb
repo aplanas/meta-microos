@@ -16,7 +16,21 @@ RPM_NAME = "texlive-autosp-2023.201.svn58211-53.1.noarch.rpm"
 RPM_HASH = "63513be5ef5c198339300298493f5f8a560c0420addda99c48095ec8e2b6bf45c0b5adf46043c0276a586007e59d96af9efd72c448ee9d1bebbc9f44b89c865c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(autosp.1) man(tex2aspc.1) texlive-autosp"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-autosp-bin texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "man(autosp.1) \
+man(tex2aspc.1) \
+texlive-autosp"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-autosp-bin \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

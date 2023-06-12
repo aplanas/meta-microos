@@ -11,6 +11,7 @@ RPM_HASH = "097ca9f5947c1eebf99cbec45e0ca1bc41b82ef842eee0b5d3ca7e777cabb626ff08
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hypre-gnu-mpich-hpc-devel"
-RDEPENDS:${PN} += "/bin/sh hypre_2_20_0-gnu-mpich-hpc-devel"
+RDEPENDS:${PN} += "/bin/sh \
+hypre_2_20_0-gnu-mpich-hpc-devel"
 
 inherit rpm

@@ -12,7 +12,8 @@ PV = "5.3.5"
 RPM_NAME = "mumps-ptscotch-openmpi2-devel-static-5.3.5-3.3.aarch64.rpm"
 RPM_HASH = "634cefb2d1c89a56fd59bee42dd2639c4f6ec18da2cd463151af356aa4f69e05b29020c9db7ea6a0d53804a3eddfde3d2716b5d6ccc4b6ce55371dc737ea1fa1"
 
-RPROVIDES:${PN} += "mumps-ptscotch-openmpi2-devel-static mumps-ptscotch-openmpi2-devel-static(aarch-64)"
+RPROVIDES:${PN} += "mumps-ptscotch-openmpi2-devel-static \
+mumps-ptscotch-openmpi2-devel-static(aarch-64)"
 RDEPENDS:${PN} += "mumps-ptscotch-openmpi2-devel"
 
 inherit rpm

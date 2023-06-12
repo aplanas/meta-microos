@@ -15,7 +15,13 @@ PV = "4.9.0"
 RPM_NAME = "findutils-4.9.0-2.3.aarch64.rpm"
 RPM_HASH = "065252fe6db40a22d882ae04686e96d1ef2e06ce5b8972b1422bfb3107a66c0b07ed1ccd3310e228f4fd75f56e61c89dbd9a03aaff201887acdd039fd3155498"
 
-RPROVIDES:${PN} += "find findutils findutils(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libselinux.so.1()(64bit) libselinux.so.1(LIBSELINUX_1.0)(64bit)"
+RPROVIDES:${PN} += "find \
+findutils \
+findutils(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libselinux.so.1()(64bit) \
+libselinux.so.1(LIBSELINUX_1.0)(64bit)"
 
 inherit rpm

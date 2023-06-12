@@ -8,7 +8,12 @@ PV = "8.0.2"
 RPM_NAME = "qemu-block-dmg-8.0.2-1.1.aarch64.rpm"
 RPM_HASH = "feb43fde66e94e2063ff9720511ed00a26dbd6df7cff0dd0083695a9e51c1a64dca26be5a134b017c3d8c8e4dac02029a0a459e8afdbcacbb38543fd9ee233dc"
 
-RPROVIDES:${PN} += "qemu-block-dmg qemu-block-dmg(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbz2.so.1()(64bit) libc.so.6(GLIBC_2.17)(64bit) liblzfse.so()(64bit)"
+RPROVIDES:${PN} += "qemu-block-dmg \
+qemu-block-dmg(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbz2.so.1()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+liblzfse.so()(64bit)"
 
 inherit rpm

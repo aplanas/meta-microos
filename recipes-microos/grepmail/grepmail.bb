@@ -11,6 +11,10 @@ RPM_HASH = "039e58ff28b8c41185fb504adc9ec78ddfcaa8955f9ca5cf8905f92185835abddc1c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grepmail"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Date::Parse) perl(Mail::Mbox::MessageParser) perl(Time::Local)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Date::Parse) \
+perl(Mail::Mbox::MessageParser) \
+perl(Time::Local)"
 
 inherit rpm

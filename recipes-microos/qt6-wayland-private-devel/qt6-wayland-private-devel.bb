@@ -10,6 +10,10 @@ RPM_HASH = "0faf319b043ad2a5e0ce36e137b8821aa850402bdfb88414200c6c650042af3925ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-wayland-private-devel"
-RDEPENDS:${PN} += "cmake(Qt6WaylandEglClientHwIntegrationPrivate) cmake(Qt6WaylandEglCompositorHwIntegrationPrivate) cmake(Qt6WlShellIntegrationPrivate) qt6-waylandclient-private-devel qt6-waylandcompositor-private-devel"
+RDEPENDS:${PN} += "cmake(Qt6WaylandEglClientHwIntegrationPrivate) \
+cmake(Qt6WaylandEglCompositorHwIntegrationPrivate) \
+cmake(Qt6WlShellIntegrationPrivate) \
+qt6-waylandclient-private-devel \
+qt6-waylandcompositor-private-devel"
 
 inherit rpm

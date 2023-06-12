@@ -15,7 +15,10 @@ RPM_NAME = "perl-File-Share-0.27-1.2.noarch.rpm"
 RPM_HASH = "0f5a336ec7cba1910b4e8e615c2315075bf7bafe6a9b32afd06c2394404c40b28eb0978a47b6d51991f7bf44472c4f388601eef40ad73c52e2c16e90625b5b43"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::Share) perl-File-Share"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(File::ShareDir) perl(Readonly)"
+RPROVIDES:${PN} += "perl(File::Share) \
+perl-File-Share"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(File::ShareDir) \
+perl(Readonly)"
 
 inherit rpm

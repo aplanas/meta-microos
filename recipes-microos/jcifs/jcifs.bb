@@ -18,7 +18,14 @@ RPM_NAME = "jcifs-1.3.19-3.6.noarch.rpm"
 RPM_HASH = "cdf477e84991194eed1c055ea4e2698d4ef0c99a0618a99023f74a91b27032324aa1a8a0ddc8b6cf0ee5aec6b53b79e16992115cd5a8ab98c8243d33da8ab5da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jcifs mvn(jcifs:jcifs) mvn(jcifs:jcifs:pom:) mvn(org.samba.jcifs:jcifs) mvn(org.samba.jcifs:jcifs:pom:) osgi(jcifs)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(javax.servlet:javax.servlet-api)"
+RPROVIDES:${PN} += "jcifs \
+mvn(jcifs:jcifs) \
+mvn(jcifs:jcifs:pom:) \
+mvn(org.samba.jcifs:jcifs) \
+mvn(org.samba.jcifs:jcifs:pom:) \
+osgi(jcifs)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(javax.servlet:javax.servlet-api)"
 
 inherit rpm

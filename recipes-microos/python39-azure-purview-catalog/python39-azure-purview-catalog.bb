@@ -14,7 +14,13 @@ RPM_NAME = "python39-azure-purview-catalog-1.0.0b4-1.3.noarch.rpm"
 RPM_HASH = "86240eb1406fd2ff354ed78704d8484fc34d3175f229eba5381f53b44b9e8d76ceb7c568ec6ddec0783a314d3ae812c1fb1740a65fe5182742f0124d1c3d078c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-purview-catalog) python39-azure-purview-catalog python3dist(azure-purview-catalog)"
-RDEPENDS:${PN} += "python(abi) python39-azure-core python39-azure-nspkg python39-azure-purview-nspkg python39-msrest"
+RPROVIDES:${PN} += "python3.9dist(azure-purview-catalog) \
+python39-azure-purview-catalog \
+python3dist(azure-purview-catalog)"
+RDEPENDS:${PN} += "python(abi) \
+python39-azure-core \
+python39-azure-nspkg \
+python39-azure-purview-nspkg \
+python39-msrest"
 
 inherit rpm

@@ -13,7 +13,11 @@ RPM_NAME = "python310-asyncclick-8.1.3.4-2.1.noarch.rpm"
 RPM_HASH = "a20823137cce5680b976bed1ee8e186511c7552bd5055540bffb0500b403f0e947a8b2fa6def026e4cf3a4d6296bf318150304d822481ebc73a2f6798d183cc5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-asyncclick python3.10dist(asyncclick) python310-asyncclick python3dist(asyncclick)"
-RDEPENDS:${PN} += "python(abi) python310-setuptools"
+RPROVIDES:${PN} += "python3-asyncclick \
+python3.10dist(asyncclick) \
+python310-asyncclick \
+python3dist(asyncclick)"
+RDEPENDS:${PN} += "python(abi) \
+python310-setuptools"
 
 inherit rpm

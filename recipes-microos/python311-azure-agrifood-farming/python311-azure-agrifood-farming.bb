@@ -20,7 +20,14 @@ RPM_NAME = "python311-azure-agrifood-farming-1.0.0b2-1.2.noarch.rpm"
 RPM_HASH = "b9d8146a38ffe97599950154aa52b0ea3d0246a803a8f5c2eb4d19519622d6d0c25851577cd6489b591aba102c2d4e9806ffea808622461ae7583ce509c22720"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-agrifood-farming) python311-azure-agrifood-farming python3dist(azure-agrifood-farming)"
-RDEPENDS:${PN} += "python(abi) python311-azure-agrifood-nspkg python311-azure-core python311-azure-nspkg python311-msrest python311-six"
+RPROVIDES:${PN} += "python3.11dist(azure-agrifood-farming) \
+python311-azure-agrifood-farming \
+python3dist(azure-agrifood-farming)"
+RDEPENDS:${PN} += "python(abi) \
+python311-azure-agrifood-nspkg \
+python311-azure-core \
+python311-azure-nspkg \
+python311-msrest \
+python311-six"
 
 inherit rpm

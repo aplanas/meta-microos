@@ -10,7 +10,20 @@ PV = "2.76"
 RPM_NAME = "perl-GD-2.76-2.1.aarch64.rpm"
 RPM_HASH = "8078ab6c54a3df27de75d4a5a5d8e7cfddfca894cc27a1fc2dc47103d1e95efaeee8ca1908b0938142740cc3058c05f40e9215dd3c0815f81d65c2788d64f093"
 
-RPROVIDES:${PN} += "perl(GD) perl(GD::Group) perl(GD::Image) perl(GD::Polygon) perl(GD::Polyline) perl(GD::Simple) perl-GD perl-GD(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl gd ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgd.so.3()(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(GD) \
+perl(GD::Group) \
+perl(GD::Image) \
+perl(GD::Polygon) \
+perl(GD::Polyline) \
+perl(GD::Simple) \
+perl-GD \
+perl-GD(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+gd \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgd.so.3()(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

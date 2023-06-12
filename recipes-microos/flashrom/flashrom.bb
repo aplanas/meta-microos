@@ -15,7 +15,12 @@ PV = "1.2"
 RPM_NAME = "flashrom-1.2-4.5.aarch64.rpm"
 RPM_HASH = "951ae96d5c770367fc577d3f74eac1959b9ac324e1e79df9c4c39163ee6fc9f13a87710799ae60635c03b79b0a849d138e04832c33e011f91e678a79e7320547"
 
-RPROVIDES:${PN} += "flashrom flashrom(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libftdi1.so.2()(64bit) libusb-1.0.so.0()(64bit)"
+RPROVIDES:${PN} += "flashrom \
+flashrom(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libftdi1.so.2()(64bit) \
+libusb-1.0.so.0()(64bit)"
 
 inherit rpm

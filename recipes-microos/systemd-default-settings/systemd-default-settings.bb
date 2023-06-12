@@ -13,6 +13,7 @@ RPM_HASH = "8b3b1dfe003b9f8cf946ec70f912bc7766811c1cbb14f31ad269125668de8d2dfcf3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-default-settings"
-RDEPENDS:${PN} += "/bin/sh systemd-default-settings-branding"
+RDEPENDS:${PN} += "/bin/sh \
+systemd-default-settings-branding"
 
 inherit rpm

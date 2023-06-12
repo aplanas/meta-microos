@@ -13,7 +13,13 @@ PV = "1.15"
 RPM_NAME = "libxcb-xinerama0-1.15-2.2.aarch64.rpm"
 RPM_HASH = "442288902795df1a47f1a5214bd41f2aaa2841e22b9b29887f8221a34562765b687d1e6993aae18801902867f2ec6c0f39b07ce8402a03c93a7dfeee825683ca"
 
-RPROVIDES:${PN} += "libxcb-xinerama.so.0()(64bit) libxcb-xinerama0 libxcb-xinerama0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libxcb.so.1()(64bit)"
+RPROVIDES:${PN} += "libxcb-xinerama.so.0()(64bit) \
+libxcb-xinerama0 \
+libxcb-xinerama0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libxcb.so.1()(64bit)"
 
 inherit rpm

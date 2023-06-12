@@ -33,7 +33,33 @@ RPM_NAME = "perl-Net-Server-2.014-1.1.noarch.rpm"
 RPM_HASH = "b6be7a9b8b3a6456910a494921413584540489106b94e2d49ebe1a9a908b7aa533a63a113f8b7ae603036780b6ae01fdf1913374944c69e3ddab8134bfddea49"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Net::Server) perl(Net::Server::Daemonize) perl(Net::Server::Fork) perl(Net::Server::HTTP) perl(Net::Server::INET) perl(Net::Server::INET::Handle) perl(Net::Server::Log::Log::Log4perl) perl(Net::Server::Log::Sys::Syslog) perl(Net::Server::MultiType) perl(Net::Server::Multiplex) perl(Net::Server::Multiplex::MUX) perl(Net::Server::PSGI) perl(Net::Server::PreFork) perl(Net::Server::PreForkSimple) perl(Net::Server::Proto) perl(Net::Server::Proto::SSL) perl(Net::Server::Proto::SSLEAY) perl(Net::Server::Proto::TCP) perl(Net::Server::Proto::UDP) perl(Net::Server::Proto::UNIX) perl(Net::Server::Proto::UNIXDGRAM) perl(Net::Server::SIG) perl(Net::Server::Single) perl(Net::Server::Thread) perl(Net::Server::TiedHandle) perl-Net-Server"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Net::Server) \
+perl(Net::Server::Daemonize) \
+perl(Net::Server::Fork) \
+perl(Net::Server::HTTP) \
+perl(Net::Server::INET) \
+perl(Net::Server::INET::Handle) \
+perl(Net::Server::Log::Log::Log4perl) \
+perl(Net::Server::Log::Sys::Syslog) \
+perl(Net::Server::MultiType) \
+perl(Net::Server::Multiplex) \
+perl(Net::Server::Multiplex::MUX) \
+perl(Net::Server::PSGI) \
+perl(Net::Server::PreFork) \
+perl(Net::Server::PreForkSimple) \
+perl(Net::Server::Proto) \
+perl(Net::Server::Proto::SSL) \
+perl(Net::Server::Proto::SSLEAY) \
+perl(Net::Server::Proto::TCP) \
+perl(Net::Server::Proto::UDP) \
+perl(Net::Server::Proto::UNIX) \
+perl(Net::Server::Proto::UNIXDGRAM) \
+perl(Net::Server::SIG) \
+perl(Net::Server::Single) \
+perl(Net::Server::Thread) \
+perl(Net::Server::TiedHandle) \
+perl-Net-Server"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

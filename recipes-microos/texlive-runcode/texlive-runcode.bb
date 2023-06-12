@@ -17,7 +17,31 @@ RPM_NAME = "texlive-runcode-2023.201.1.8svn65588-53.1.noarch.rpm"
 RPM_HASH = "df05e9e381f13168f8b5703093752eeaffff29acb80ab6ef6962110d6ba1e938fdd050a7a64b071386d7ecb640097a19541ccec9869655eea54cca97a815a1b1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(runcode.sty) texlive-runcode"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(filecontents.sty) tex(fvextra.sty) tex(inputenc.sty) tex(listings.sty) tex(minted.sty) tex(morewrites.sty) tex(tcolorbox.sty) tex(textgreek.sty) tex(xcolor.sty) tex(xifthen.sty) tex(xparse.sty) tex(xstring.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(runcode.sty) \
+texlive-runcode"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(filecontents.sty) \
+tex(fvextra.sty) \
+tex(inputenc.sty) \
+tex(listings.sty) \
+tex(minted.sty) \
+tex(morewrites.sty) \
+tex(tcolorbox.sty) \
+tex(textgreek.sty) \
+tex(xcolor.sty) \
+tex(xifthen.sty) \
+tex(xparse.sty) \
+tex(xstring.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -21,7 +21,12 @@ RPM_NAME = "python310-pytest-arraydiff-0.5.0-1.3.noarch.rpm"
 RPM_HASH = "7184fab5aa9d4f58f16e5d64aa5a5b17598a661b6677f01fb9f4e08553a60dfc4cf51fd0e85b805becc132ac93eab5fae5ddf09b887c8254886501f129042ed0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-arraydiff python3.10dist(pytest-arraydiff) python310-pytest-arraydiff python3dist(pytest-arraydiff)"
-RDEPENDS:${PN} += "python(abi) python310-numpy python310-pytest"
+RPROVIDES:${PN} += "python3-pytest-arraydiff \
+python3.10dist(pytest-arraydiff) \
+python310-pytest-arraydiff \
+python3dist(pytest-arraydiff)"
+RDEPENDS:${PN} += "python(abi) \
+python310-numpy \
+python310-pytest"
 
 inherit rpm

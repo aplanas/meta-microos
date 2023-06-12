@@ -18,7 +18,14 @@ PV = "1.6.6"
 RPM_NAME = "scsirastools-1.6.6-1.3.aarch64.rpm"
 RPM_HASH = "52d0066abf50c291219927c591735dd4f70a51ab1af4aeb5176403e3b7f590d40b7aa4214a451cef4dd57600fea2a1b33032549c1feeccb99506bf9f818e2125"
 
-RPROVIDES:${PN} += "config(scsirastools) scsirastools scsirastools(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) mdadm"
+RPROVIDES:${PN} += "config(scsirastools) \
+scsirastools \
+scsirastools(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+mdadm"
 
 inherit rpm

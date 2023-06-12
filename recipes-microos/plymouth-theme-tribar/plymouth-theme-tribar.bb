@@ -10,6 +10,7 @@ RPM_HASH = "da0791b914519056ec40e25bce82c1c798224d8a67c590706d3662cfcff70f60a40f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-tribar"
-RDEPENDS:${PN} += "plymouth-plugin-tribar plymouth-scripts"
+RDEPENDS:${PN} += "plymouth-plugin-tribar \
+plymouth-scripts"
 
 inherit rpm

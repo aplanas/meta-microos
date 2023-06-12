@@ -13,7 +13,12 @@ RPM_NAME = "perl-Net-TFTP-0.1901-1.23.noarch.rpm"
 RPM_HASH = "40888155807c3dfe6ccca6e39b8b1f27ed816016f76a49eb703450156a56153494e1e67a11376ca4442a1653c2fd64a7f5c0bfbd13444cc881e0d2c2482b388d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Net::TFTP) perl(Net::TFTP::IO) perl-Net-TFTP"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Test::MockModule) perl(Test::More) perl(Test::Warn)"
+RPROVIDES:${PN} += "perl(Net::TFTP) \
+perl(Net::TFTP::IO) \
+perl-Net-TFTP"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Test::MockModule) \
+perl(Test::More) \
+perl(Test::Warn)"
 
 inherit rpm

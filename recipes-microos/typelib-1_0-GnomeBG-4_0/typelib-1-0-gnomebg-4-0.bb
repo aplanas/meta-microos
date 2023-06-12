@@ -12,7 +12,22 @@ PV = "44.0"
 RPM_NAME = "typelib-1_0-GnomeBG-4_0-44.0-1.1.aarch64.rpm"
 RPM_HASH = "508facfdb53d427745e17a020c3828557d462ac37e21c5ee11a493c903311810c3b1388f145ad94b5ce6c56d369b6fe331798f0479be58e64cee11001efd0311"
 
-RPROVIDES:${PN} += "typelib(GnomeBG) typelib-1_0-GnomeBG-4_0 typelib-1_0-GnomeBG-4_0(aarch-64)"
-RDEPENDS:${PN} += "libgnome-bg-4.so.2()(64bit) typelib(GDesktopEnums) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gdk) typelib(GdkPixbuf) typelib(Gio) typelib(GnomeDesktop) typelib(HarfBuzz) typelib(Pango) typelib(PangoCairo) typelib(cairo) typelib(freetype2)"
+RPROVIDES:${PN} += "typelib(GnomeBG) \
+typelib-1_0-GnomeBG-4_0 \
+typelib-1_0-GnomeBG-4_0(aarch-64)"
+RDEPENDS:${PN} += "libgnome-bg-4.so.2()(64bit) \
+typelib(GDesktopEnums) \
+typelib(GLib) \
+typelib(GModule) \
+typelib(GObject) \
+typelib(Gdk) \
+typelib(GdkPixbuf) \
+typelib(Gio) \
+typelib(GnomeDesktop) \
+typelib(HarfBuzz) \
+typelib(Pango) \
+typelib(PangoCairo) \
+typelib(cairo) \
+typelib(freetype2)"
 
 inherit rpm

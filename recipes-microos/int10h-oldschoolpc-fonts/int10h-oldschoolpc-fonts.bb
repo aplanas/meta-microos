@@ -16,7 +16,11 @@ RPM_NAME = "int10h-oldschoolpc-fonts-2.2-1.8.noarch.rpm"
 RPM_HASH = "3c3997c2d59e079d66f6d6d23abc57f6e55b6a144b57f23265a66c43b0fd6fb5a82e555ffd676ec6e336acb8a746f0b7a83acdbc97693ab43be1b3f0de20c6e1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(int10h-oldschoolpc-fonts) int10h-oldschoolpc-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "config(int10h-oldschoolpc-fonts) \
+int10h-oldschoolpc-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

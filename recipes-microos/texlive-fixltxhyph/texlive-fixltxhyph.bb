@@ -13,7 +13,20 @@ RPM_NAME = "texlive-fixltxhyph-2023.201.0.0.4svn25832-52.1.noarch.rpm"
 RPM_HASH = "d07a267645e9cccb43342a970f8f44b3d417c7916f89b2842396c5f6cf2e72397e3b76efac2669191176d712cfbc37109aea6476d2655338948c203fd21a13f7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fixltxhyph.sty) texlive-fixltxhyph"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(etoolbox.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(fixltxhyph.sty) \
+texlive-fixltxhyph"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(etoolbox.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

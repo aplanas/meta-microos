@@ -13,7 +13,12 @@ RPM_NAME = "python311-PyChromecast-13.0.7-1.1.noarch.rpm"
 RPM_HASH = "c54ad40ccf6a0f416c591a4b74052edddd8c144b456f67e65755871fc7e48793bf3e83b8719cae8f598a33cbc0f778d40176427508a33790a3492d5829f5b50a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pychromecast) python311-PyChromecast python3dist(pychromecast)"
-RDEPENDS:${PN} += "python(abi) python311-casttube python311-protobuf python311-zeroconf"
+RPROVIDES:${PN} += "python3.11dist(pychromecast) \
+python311-PyChromecast \
+python3dist(pychromecast)"
+RDEPENDS:${PN} += "python(abi) \
+python311-casttube \
+python311-protobuf \
+python311-zeroconf"
 
 inherit rpm

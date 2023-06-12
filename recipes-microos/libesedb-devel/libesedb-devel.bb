@@ -11,7 +11,11 @@ PV = "20230318"
 RPM_NAME = "libesedb-devel-20230318-1.2.aarch64.rpm"
 RPM_HASH = "4526f0f256c99ed18455298c9313db672b90a20a981a9a3271fc6a123abcbaf55f0b7e7697242441d2a0fbfc1617148b48ece67eeab881d2c1de87c3e7a97cd9"
 
-RPROVIDES:${PN} += "libesedb-devel libesedb-devel(aarch-64) pkgconfig(libesedb)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libbfio-devel libesedb1"
+RPROVIDES:${PN} += "libesedb-devel \
+libesedb-devel(aarch-64) \
+pkgconfig(libesedb)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libbfio-devel \
+libesedb1"
 
 inherit rpm

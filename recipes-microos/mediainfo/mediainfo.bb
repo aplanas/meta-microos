@@ -22,7 +22,23 @@ PV = "23.04"
 RPM_NAME = "mediainfo-23.04-1.2.aarch64.rpm"
 RPM_HASH = "b256c78fdfbbb137193b7c24e0ec2b06b3293be73bc8583e34114df0703cdffc3ed90c8a32f1adc51ba6128ffce9fe968d3181f6a84ad656f25438018669e251"
 
-RPROVIDES:${PN} += "MediaInfo mediainfo mediainfo(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libmediainfo.so.0()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) libzen.so.0()(64bit)"
+RPROVIDES:${PN} += "MediaInfo \
+mediainfo \
+mediainfo(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libmediainfo.so.0()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
+libzen.so.0()(64bit)"
 
 inherit rpm

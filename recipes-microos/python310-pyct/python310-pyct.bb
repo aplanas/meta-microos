@@ -20,7 +20,16 @@ RPM_NAME = "python310-pyct-0.5.0-1.3.noarch.rpm"
 RPM_HASH = "a97e4bdc2c241261d7128322843f3d2f558b84bac7613453c65ee1e6a33f3291641e448b7fe634d5b9c9ea3f453248e58cf6901740c356ef09611d857c9d9a4c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyct python3.10dist(pyct) python310-pyct python3dist(pyct)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-PyYAML python310-param python310-requests update-alternatives"
+RPROVIDES:${PN} += "python3-pyct \
+python3.10dist(pyct) \
+python310-pyct \
+python3dist(pyct)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-PyYAML \
+python310-param \
+python310-requests \
+update-alternatives"
 
 inherit rpm

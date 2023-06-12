@@ -16,7 +16,15 @@ PV = "0.4.1"
 RPM_NAME = "libkate-tools-0.4.1-26.15.aarch64.rpm"
 RPM_HASH = "261b89ed52cd36fce3ff235f3cc5705a36cdb5b8055e41e6454f462007793d2b807105935a2ef93a930fb807bf3756004cfd80770195d0dc98c5716a9f2b69aa"
 
-RPROVIDES:${PN} += "libkate-tools libkate-tools(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libkate.so.1()(64bit) libogg.so.0()(64bit) liboggkate.so.1()(64bit) libpng16.so.16()(64bit) libpng16.so.16(PNG16_0)(64bit)"
+RPROVIDES:${PN} += "libkate-tools \
+libkate-tools(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libkate.so.1()(64bit) \
+libogg.so.0()(64bit) \
+liboggkate.so.1()(64bit) \
+libpng16.so.16()(64bit) \
+libpng16.so.16(PNG16_0)(64bit)"
 
 inherit rpm

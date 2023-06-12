@@ -9,6 +9,14 @@ RPM_HASH = "460dcbccd698048d22721f4f4e88c43f0b2596da74ea8baf972b59599285fbe38b8a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-moonscript"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/lua5.1 lua51 lua51-alt-getopt lua51-argparse lua51-loadkit lua51-lpeg lua51-luafilesystem update-alternatives"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/lua5.1 \
+lua51 \
+lua51-alt-getopt \
+lua51-argparse \
+lua51-loadkit \
+lua51-lpeg \
+lua51-luafilesystem \
+update-alternatives"
 
 inherit rpm

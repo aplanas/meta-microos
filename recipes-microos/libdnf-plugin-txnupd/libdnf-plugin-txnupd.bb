@@ -9,7 +9,26 @@ PV = "0.1.3"
 RPM_NAME = "libdnf-plugin-txnupd-0.1.3-1.12.aarch64.rpm"
 RPM_HASH = "b162244db489b04a919fab516d4a424859969cf44c7d99173d9c5b4c685f0765ef53f8938e7e7bb168fc3d64af6cf9d8f532f9af092152663912c77a3cfae95d"
 
-RPROVIDES:${PN} += "libdnf-plugin-txnupd libdnf-plugin-txnupd(aarch-64)"
-RDEPENDS:${PN} += "(PackageKit-backend-dnf if PackageKit) (microdnf or PackageKit) dnf-data dracut-transactional-update ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libdnf.so.2()(64bit) libdnf2 libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.26)(64bit) libtukit.so.4()(64bit) libtukit4"
+RPROVIDES:${PN} += "libdnf-plugin-txnupd \
+libdnf-plugin-txnupd(aarch-64)"
+RDEPENDS:${PN} += "(PackageKit-backend-dnf if PackageKit) \
+(microdnf or PackageKit) \
+dnf-data \
+dracut-transactional-update \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libdnf.so.2()(64bit) \
+libdnf2 \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
+libtukit.so.4()(64bit) \
+libtukit4"
 
 inherit rpm

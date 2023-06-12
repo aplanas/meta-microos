@@ -25,7 +25,10 @@ PV = "0.14"
 RPM_NAME = "perl-Sub-Identify-0.14-1.32.aarch64.rpm"
 RPM_HASH = "ef34edec74f66b47721b04fbeab25329120df049416760f5c180fcab791fa9370ba280d223101d50389d468b9540e73aaeed1f7668acb962ebcc8292ce76ac59"
 
-RPROVIDES:${PN} += "perl(Sub::Identify) perl-Sub-Identify perl-Sub-Identify(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Sub::Identify) \
+perl-Sub-Identify \
+perl-Sub-Identify(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

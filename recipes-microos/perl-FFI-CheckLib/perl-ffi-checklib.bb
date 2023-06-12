@@ -13,7 +13,10 @@ RPM_NAME = "perl-FFI-CheckLib-0.31-1.2.noarch.rpm"
 RPM_HASH = "e9e047d0c5eec2657fd12098466420848a6f63f87a799a8c63fbac2a3ede09b720b065a280633b7987347218a2f2d92794d53a4d11d17caa88986008ff0f2613"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(FFI::CheckLib) perl-FFI-CheckLib"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(File::Which) perl(List::Util)"
+RPROVIDES:${PN} += "perl(FFI::CheckLib) \
+perl-FFI-CheckLib"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(File::Which) \
+perl(List::Util)"
 
 inherit rpm

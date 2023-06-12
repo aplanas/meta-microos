@@ -12,7 +12,13 @@ RPM_NAME = "python311-pycodestyle-2.10.0-5.1.noarch.rpm"
 RPM_HASH = "3b72d0a7e9f5bbb19293cf480ccd61f0fda3e81feeb93c64c402bb982d37324c51291b4e55dad910f1d98be80c450791aa59dbf96357c16a3f11cfff3b49e469"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pycodestyle) python311-pep8 python311-pycodestyle python3dist(pycodestyle)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(pycodestyle) \
+python311-pep8 \
+python311-pycodestyle \
+python3dist(pycodestyle)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

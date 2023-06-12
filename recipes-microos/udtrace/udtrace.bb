@@ -17,7 +17,9 @@ PV = "0.0.0+git.20180402"
 RPM_NAME = "udtrace-0.0.0+git.20180402-1.15.aarch64.rpm"
 RPM_HASH = "d3ec81e99ae284b2e2d207988092494c157fbf86a63c261cfa46af46eac5a1aea4003595babe7cf4ba48b54b423f5824ca64c86143d171fd6990c6ec84540a97"
 
-RPROVIDES:${PN} += "libudtrace.so()(64bit) udtrace udtrace(aarch-64)"
+RPROVIDES:${PN} += "libudtrace.so()(64bit) \
+udtrace \
+udtrace(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

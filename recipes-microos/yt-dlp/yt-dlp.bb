@@ -10,6 +10,8 @@ RPM_HASH = "20ac3c5f40f6cb07b82828d6b746a72b6c9feaeaa72b6774c195e098d7a5fdd81a59
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yt-dlp"
-RDEPENDS:${PN} += "/usr/bin/python3 ffmpeg python3"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+ffmpeg \
+python3"
 
 inherit rpm

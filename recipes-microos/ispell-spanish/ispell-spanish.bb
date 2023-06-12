@@ -10,7 +10,11 @@ PV = "1.5"
 RPM_NAME = "ispell-spanish-1.5-422.6.aarch64.rpm"
 RPM_HASH = "e55d329ef6a50e7451ab7f477b1e7c4d23e5b86be5892aeb67929e20bf874e954bd5bc9590c8d9d80a2165148bfeae40ac7c586fc0b0f4b06021bdbc78549f2b"
 
-RPROVIDES:${PN} += "ispanish ispell-spanish ispell-spanish(aarch-64) ispell_dictionary locale(ispell:es;an_ES)"
+RPROVIDES:${PN} += "ispanish \
+ispell-spanish \
+ispell-spanish(aarch-64) \
+ispell_dictionary \
+locale(ispell:es;an_ES)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

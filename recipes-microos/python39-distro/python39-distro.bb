@@ -10,7 +10,12 @@ RPM_NAME = "python39-distro-1.8.0-2.1.noarch.rpm"
 RPM_HASH = "08b11cf620552279497041cd2fb5818f7ccb612c0678346b5d067b6b58bfa5939c3c6454d156b47010ef548fd9d6968becbfb07748f73127cc2792ddccd76705"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(distro) python39-distro python3dist(distro)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(distro) \
+python39-distro \
+python3dist(distro)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

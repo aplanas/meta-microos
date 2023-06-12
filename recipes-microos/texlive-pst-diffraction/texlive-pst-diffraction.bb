@@ -17,7 +17,23 @@ RPM_NAME = "texlive-pst-diffraction-2023.201.2.03svn62977-52.1.noarch.rpm"
 RPM_HASH = "6bf46321598d1ed23249fb7338fbe8b74b8ca292e1b5da16409033e244aa37d601857b3578f078dd5d04404c8060f68a2a721d2fadeaee17fec88910eee17997"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-diffraction.sty) tex(pst-diffraction.tex) texlive-pst-diffraction"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(pst-3dplot.sty) tex(pst-xkey.sty) tex(pstricks.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(pst-diffraction.sty) \
+tex(pst-diffraction.tex) \
+texlive-pst-diffraction"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(pst-3dplot.sty) \
+tex(pst-xkey.sty) \
+tex(pstricks.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

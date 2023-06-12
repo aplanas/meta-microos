@@ -18,7 +18,8 @@ RPM_NAME = "thessalonica-oldstandard-ttf-fonts-2.2-11.18.noarch.rpm"
 RPM_HASH = "de0ff3c447842dd38809878db55d5c5d3c60f516043ab34be83800bfc1f96cbf206e482f3a29dc5e8f31c1b08e473a78dd88247f2dff347b6983d3fd826b5730"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "oldstandard-fonts-ttf thessalonica-oldstandard-ttf-fonts"
+RPROVIDES:${PN} += "oldstandard-fonts-ttf \
+thessalonica-oldstandard-ttf-fonts"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

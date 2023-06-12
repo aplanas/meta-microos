@@ -8,7 +8,19 @@ PV = "6.5.1"
 RPM_NAME = "qt6-gui-private-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "3fb12258c2f9babc4ffd6afdfca213304693bc613c38d4adc6a628f8f2e47e718626d789b287503fa42ba2910374d0f610b489c991a460006a59d650c03041fc"
 
-RPROVIDES:${PN} += "cmake(Qt6EglFSDeviceIntegrationPrivate) cmake(Qt6EglFsKmsGbmSupportPrivate) cmake(Qt6EglFsKmsSupportPrivate) cmake(Qt6XcbQpaPrivate) qt6-gui-private-devel qt6-gui-private-devel(aarch-64)"
-RDEPENDS:${PN} += "cmake(Qt6DeviceDiscoverySupportPrivate) cmake(Qt6FbSupportPrivate) cmake(Qt6InputSupportPrivate) libQt6Gui6 pkgconfig(xkbcommon) qt6-core-private-devel qt6-kmssupport-private-devel qt6-opengl-private-devel"
+RPROVIDES:${PN} += "cmake(Qt6EglFSDeviceIntegrationPrivate) \
+cmake(Qt6EglFsKmsGbmSupportPrivate) \
+cmake(Qt6EglFsKmsSupportPrivate) \
+cmake(Qt6XcbQpaPrivate) \
+qt6-gui-private-devel \
+qt6-gui-private-devel(aarch-64)"
+RDEPENDS:${PN} += "cmake(Qt6DeviceDiscoverySupportPrivate) \
+cmake(Qt6FbSupportPrivate) \
+cmake(Qt6InputSupportPrivate) \
+libQt6Gui6 \
+pkgconfig(xkbcommon) \
+qt6-core-private-devel \
+qt6-kmssupport-private-devel \
+qt6-opengl-private-devel"
 
 inherit rpm

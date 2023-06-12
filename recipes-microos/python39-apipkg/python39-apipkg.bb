@@ -15,7 +15,9 @@ RPM_NAME = "python39-apipkg-3.0.1-3.1.noarch.rpm"
 RPM_HASH = "ffe4087b549b101f99c491b622eeea6c6e021bc5b0e21a7c11c5eebaa7181652b26bb310307acd52a7e04645e8a8a059ea5a482003730ec0d62210d4407f5681"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(apipkg) python39-apipkg python3dist(apipkg)"
+RPROVIDES:${PN} += "python3.9dist(apipkg) \
+python39-apipkg \
+python3dist(apipkg)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

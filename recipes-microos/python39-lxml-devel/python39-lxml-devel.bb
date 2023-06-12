@@ -12,7 +12,8 @@ PV = "4.9.2"
 RPM_NAME = "python39-lxml-devel-4.9.2-7.1.aarch64.rpm"
 RPM_HASH = "9aef635f0ceb289102cdcd41989acfb42e1dabeb55d4a163959603bfde01948a32587122c0ef15c3d49be25f60b0a20a41230b48736b481fea41e2b0620abd98"
 
-RPROVIDES:${PN} += "python39-lxml-devel python39-lxml-devel(aarch-64)"
+RPROVIDES:${PN} += "python39-lxml-devel \
+python39-lxml-devel(aarch-64)"
 RDEPENDS:${PN} += "python39-lxml"
 
 inherit rpm

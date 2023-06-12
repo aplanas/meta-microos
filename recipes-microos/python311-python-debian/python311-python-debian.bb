@@ -18,7 +18,13 @@ RPM_NAME = "python311-python-debian-0.1.49-1.3.noarch.rpm"
 RPM_HASH = "a17329c2a5b7955c809ecc6029ee54222462982b15bf1529ac4f6db378f6272a7204780b028476abd0cee5d037785603fcf78e9f5ec8c4be89368fa5c2b1c1a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(python-debian) python311-debian python311-python-debian python3dist(python-debian)"
-RDEPENDS:${PN} += "python(abi) python311-chardet python311-six zstd"
+RPROVIDES:${PN} += "python3.11dist(python-debian) \
+python311-debian \
+python311-python-debian \
+python3dist(python-debian)"
+RDEPENDS:${PN} += "python(abi) \
+python311-chardet \
+python311-six \
+zstd"
 
 inherit rpm

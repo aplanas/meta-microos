@@ -16,7 +16,20 @@ RPM_NAME = "texlive-graphicx-psmin-2023.201.1.2svn56931-53.1.noarch.rpm"
 RPM_HASH = "86bca3b99e28edea5233cc14ef6563135f2e72430cae8cd836d8ae562626dbdd118e51a1fcb8156bd5e2d601ed385fe44cef6b15785470b776549fcf2c471e8d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(graphicx-psmin.sty) texlive-graphicx-psmin"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(graphicx.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(graphicx-psmin.sty) \
+texlive-graphicx-psmin"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(graphicx.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

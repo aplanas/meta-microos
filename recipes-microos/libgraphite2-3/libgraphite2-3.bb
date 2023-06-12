@@ -12,7 +12,12 @@ PV = "1.3.14"
 RPM_NAME = "libgraphite2-3-1.3.14-3.7.aarch64.rpm"
 RPM_HASH = "1f0cd0e16c50766736683732ded5d5bcb55f1ef7966feb8e05d39ff7de0905ec5e6f2e38e5ea24e1143b2314a7dbf7b0eed225a1b3f05fcf1787fd67aa1594d7"
 
-RPROVIDES:${PN} += "libgraphite2-3 libgraphite2-3(aarch-64) libgraphite2.so.3()(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libgraphite2-3 \
+libgraphite2-3(aarch-64) \
+libgraphite2.so.3()(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

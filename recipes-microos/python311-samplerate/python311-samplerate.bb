@@ -18,7 +18,12 @@ RPM_NAME = "python311-samplerate-0.1.0-2.7.noarch.rpm"
 RPM_HASH = "42038cdb87936c70a1edff0bcc038b3c0f43b6ad419aa6016f6926a2e9ee3c829c0202b64f1e33fd22992d4527c8b7aa441e933d32733dd52f0280633d5be6db"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(samplerate) python311-samplerate python3dist(samplerate)"
-RDEPENDS:${PN} += "libsamplerate python(abi) python311-cffi python311-numpy"
+RPROVIDES:${PN} += "python3.11dist(samplerate) \
+python311-samplerate \
+python3dist(samplerate)"
+RDEPENDS:${PN} += "libsamplerate \
+python(abi) \
+python311-cffi \
+python311-numpy"
 
 inherit rpm

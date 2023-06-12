@@ -10,7 +10,9 @@ PV = "1.13.1"
 RPM_NAME = "vim-plugin-conky-1.13.1-3.1.aarch64.rpm"
 RPM_HASH = "f1cecd95e398aeff56eb3b8d4205d1963f396e935b008b32e9ef63a1e7723c73bbb1c81c86313f61ba87427c9432dae0d0a36bed7a52cf9820d43884510760ab"
 
-RPROVIDES:${PN} += "conky-vim vim-plugin-conky vim-plugin-conky(aarch-64)"
+RPROVIDES:${PN} += "conky-vim \
+vim-plugin-conky \
+vim-plugin-conky(aarch-64)"
 RDEPENDS:${PN} += "vim-base"
 
 inherit rpm

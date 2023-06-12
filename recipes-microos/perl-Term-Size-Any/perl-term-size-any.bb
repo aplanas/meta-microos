@@ -25,7 +25,11 @@ RPM_NAME = "perl-Term-Size-Any-0.002-1.10.noarch.rpm"
 RPM_HASH = "71e5e04823f907795717d6dc9c0acf0b189211587f03e6a029b4e9727eee7709bec15bd94c26baf008d099d084833f274e3bbbd0fc368193c83177b7b226f2f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Term::Size::Any) perl-Term-Size-Any"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Devel::Hide) perl(Module::Load::Conditional) perl(Term::Size::Perl)"
+RPROVIDES:${PN} += "perl(Term::Size::Any) \
+perl-Term-Size-Any"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Devel::Hide) \
+perl(Module::Load::Conditional) \
+perl(Term::Size::Perl)"
 
 inherit rpm

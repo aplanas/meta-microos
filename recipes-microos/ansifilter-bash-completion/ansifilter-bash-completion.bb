@@ -9,6 +9,7 @@ RPM_HASH = "60a0335459c57507e13639c0f37d49721c7928c8878a151491f90c964b10884cda2a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansifilter-bash-completion"
-RDEPENDS:${PN} += "ansifilter bash-completion"
+RDEPENDS:${PN} += "ansifilter \
+bash-completion"
 
 inherit rpm

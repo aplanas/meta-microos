@@ -10,7 +10,8 @@ PV = "6.3.4"
 RPM_NAME = "perf-rebuild-6.3.4-80.3.aarch64.rpm"
 RPM_HASH = "6822ecbf8ecb3f87ba823848907a1c020e733be2d592e1070735603044aca314b70e869bc3e1b4ddd9654f0f16fe67a57eb8087b02e065968d15cbcb9008c9b0"
 
-RPROVIDES:${PN} += "perf-rebuild perf-rebuild(aarch-64)"
+RPROVIDES:${PN} += "perf-rebuild \
+perf-rebuild(aarch-64)"
 RDEPENDS:${PN} += "kernel-source"
 
 inherit rpm

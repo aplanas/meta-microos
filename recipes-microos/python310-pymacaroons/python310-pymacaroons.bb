@@ -18,7 +18,13 @@ RPM_NAME = "python310-pymacaroons-0.13.0-4.6.noarch.rpm"
 RPM_HASH = "c68566ea3ffee1f4ce4895fd3294c37f375889d479921a9c50ddd0993272beeaf17b8a03a51f59ff7d4661e4a51c3fd644307a597c001e8f240f7c455d6d5e7e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pymacaroons python3.10dist(pymacaroons) python310-pymacaroons python3dist(pymacaroons)"
-RDEPENDS:${PN} += "python(abi) python310-PyNaCl python310-cffi python310-six"
+RPROVIDES:${PN} += "python3-pymacaroons \
+python3.10dist(pymacaroons) \
+python310-pymacaroons \
+python3dist(pymacaroons)"
+RDEPENDS:${PN} += "python(abi) \
+python310-PyNaCl \
+python310-cffi \
+python310-six"
 
 inherit rpm

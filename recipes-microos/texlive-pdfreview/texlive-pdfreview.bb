@@ -24,7 +24,24 @@ RPM_NAME = "texlive-pdfreview-2023.201.1.2svn50100-51.1.noarch.rpm"
 RPM_HASH = "67d217245975f50bfd20919ebb1f165ac3aeac4b8b5f41e43514b443b870821898904ded56ca1174bc939c1f10c86fd0e2cbbe7d5f025c0c8ea349c633e45860"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pdfreview.sty) texlive-pdfreview"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(bookmark.sty) tex(geometry.sty) tex(grffile.sty) tex(hyperref.sty) tex(ulem.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(pdfreview.sty) \
+texlive-pdfreview"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(bookmark.sty) \
+tex(geometry.sty) \
+tex(grffile.sty) \
+tex(hyperref.sty) \
+tex(ulem.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

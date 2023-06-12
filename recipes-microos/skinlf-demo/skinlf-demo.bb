@@ -17,6 +17,7 @@ RPM_HASH = "df914802e0278b1cfad771a762d194175fa092350fec2e739bb33c60ca987ae56d4e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skinlf-demo"
-RDEPENDS:${PN} += "/bin/bash skinlf"
+RDEPENDS:${PN} += "/bin/bash \
+skinlf"
 
 inherit rpm

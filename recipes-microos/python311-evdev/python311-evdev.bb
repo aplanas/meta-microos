@@ -15,7 +15,13 @@ PV = "1.6.1"
 RPM_NAME = "python311-evdev-1.6.1-1.4.aarch64.rpm"
 RPM_HASH = "6592ed6dabed15d84af679f9e2a34e97ed19c15383f8c136da23f474014fc09c852aaec39bcb84ab367a6278cfd9dd175334369549b9f424e306f3c5fb1b0359"
 
-RPROVIDES:${PN} += "python3.11dist(evdev) python311-evdev python311-evdev(aarch-64) python3dist(evdev)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.11dist(evdev) \
+python311-evdev \
+python311-evdev(aarch-64) \
+python3dist(evdev)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

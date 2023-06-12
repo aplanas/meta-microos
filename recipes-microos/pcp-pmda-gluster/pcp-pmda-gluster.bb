@@ -8,7 +8,10 @@ PV = "5.2.5"
 RPM_NAME = "pcp-pmda-gluster-5.2.5-3.4.aarch64.rpm"
 RPM_HASH = "48fbe33f666c60a0baf09153d14b2c7315432a4a3631dd6b75dc3f87ca5d814bcfc3850f9b329b31c434e8602c16e1294472dbafdbe6ee753f2cd35fb570db34"
 
-RPROVIDES:${PN} += "pcp-pmda-gluster pcp-pmda-gluster(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/env python3-pcp"
+RPROVIDES:${PN} += "pcp-pmda-gluster \
+pcp-pmda-gluster(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/env \
+python3-pcp"
 
 inherit rpm

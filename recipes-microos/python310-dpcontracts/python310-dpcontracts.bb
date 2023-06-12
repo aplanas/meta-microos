@@ -15,7 +15,10 @@ RPM_NAME = "python310-dpcontracts-0.6.0-3.1.noarch.rpm"
 RPM_HASH = "d9b7b6220ac6fe175739b78f268056f6ce2258bebea1e99ee8362c174de97c1dc4657f492cab08c3f0a4d048a03c44f48962cd8430b91dc58940b140589dac01"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dpcontracts python3.10dist(dpcontracts) python310-dpcontracts python3dist(dpcontracts)"
+RPROVIDES:${PN} += "python3-dpcontracts \
+python3.10dist(dpcontracts) \
+python310-dpcontracts \
+python3dist(dpcontracts)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

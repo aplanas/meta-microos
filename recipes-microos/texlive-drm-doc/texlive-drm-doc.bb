@@ -9,6 +9,8 @@ RPM_HASH = "3df2980961c7ada0a354846625265cc3d06b93df27edcbf5fc7a00cafd569d82c751
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-drm-doc"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/fontforge"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/fontforge"
 
 inherit rpm

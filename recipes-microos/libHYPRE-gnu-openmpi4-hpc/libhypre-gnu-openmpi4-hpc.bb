@@ -9,7 +9,9 @@ PV = "2.20.0"
 RPM_NAME = "libHYPRE-gnu-openmpi4-hpc-2.20.0-1.22.aarch64.rpm"
 RPM_HASH = "5131414456169266f78541769dec785241034ac4389195f5e6090cf84c57e516ed0d151358b7e4525f40dd732248c2525a8a6f74460b77b5fa59ed621a1e6ca3"
 
-RPROVIDES:${PN} += "libHYPRE-gnu-openmpi4-hpc libHYPRE-gnu-openmpi4-hpc(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh libHYPRE_2_20_0-gnu-openmpi4-hpc"
+RPROVIDES:${PN} += "libHYPRE-gnu-openmpi4-hpc \
+libHYPRE-gnu-openmpi4-hpc(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+libHYPRE_2_20_0-gnu-openmpi4-hpc"
 
 inherit rpm

@@ -11,7 +11,21 @@ PV = "0.9.2"
 RPM_NAME = "konkretcmpi-devel-0.9.2-14.3.aarch64.rpm"
 RPM_HASH = "8eec57429e44e3028533962a26a40e1fe97b855581e10efcb4bb2fa4429feed9023e040db01a141af7f27371b22bc104b890b10b7b65625eee1cb9ec79de0fe1"
 
-RPROVIDES:${PN} += "konkretcmpi-devel konkretcmpi-devel(aarch-64)"
-RDEPENDS:${PN} += "cim-schema cmake libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libkonkretmof.so.0()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) sblim-cmpi-devel"
+RPROVIDES:${PN} += "konkretcmpi-devel \
+konkretcmpi-devel(aarch-64)"
+RDEPENDS:${PN} += "cim-schema \
+cmake \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libkonkretmof.so.0()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+sblim-cmpi-devel"
 
 inherit rpm

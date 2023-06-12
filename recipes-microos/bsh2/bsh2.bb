@@ -14,7 +14,20 @@ RPM_NAME = "bsh2-2.1.1-1.1.noarch.rpm"
 RPM_HASH = "4f5ab6b964fe21d21070116219330305e1b1e77cb00a79d83678e2b860adb2627ffebf0a1a7cf9986e81b3c755a0f1de45643403e5ee9e95b93d1b18d9a2fc21"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "bsh2 mvn(bsh:bsh) mvn(bsh:bsh-bsf) mvn(bsh:bsh-bsf:pom:) mvn(bsh:bsh:pom:) mvn(org.apache-extras.beanshell:bsh) mvn(org.apache-extras.beanshell:bsh:pom:) mvn(org.beanshell:bsh) mvn(org.beanshell:bsh2) mvn(org.beanshell:bsh2:pom:) mvn(org.beanshell:bsh:pom:)"
-RDEPENDS:${PN} += "bsf java-headless javapackages-filesystem javapackages-tools"
+RPROVIDES:${PN} += "bsh2 \
+mvn(bsh:bsh) \
+mvn(bsh:bsh-bsf) \
+mvn(bsh:bsh-bsf:pom:) \
+mvn(bsh:bsh:pom:) \
+mvn(org.apache-extras.beanshell:bsh) \
+mvn(org.apache-extras.beanshell:bsh:pom:) \
+mvn(org.beanshell:bsh) \
+mvn(org.beanshell:bsh2) \
+mvn(org.beanshell:bsh2:pom:) \
+mvn(org.beanshell:bsh:pom:)"
+RDEPENDS:${PN} += "bsf \
+java-headless \
+javapackages-filesystem \
+javapackages-tools"
 
 inherit rpm

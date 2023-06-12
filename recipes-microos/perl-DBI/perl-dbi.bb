@@ -21,7 +21,94 @@ PV = "1.643"
 RPM_NAME = "perl-DBI-1.643-2.15.aarch64.rpm"
 RPM_HASH = "4769adb40a28645dfd902f963a565a60f7c4d09999635fb114c54974cb1f8685b005a75c072964164050359715b03d862f9e37c76fcae6c188ffee9f8e59c663"
 
-RPROVIDES:${PN} += "perl(Bundle::DBI) perl(DBD::DBM) perl(DBD::DBM::Statement) perl(DBD::DBM::Table) perl(DBD::DBM::db) perl(DBD::DBM::dr) perl(DBD::DBM::st) perl(DBD::ExampleP) perl(DBD::File) perl(DBD::File::DataSource::File) perl(DBD::File::DataSource::Stream) perl(DBD::File::Statement) perl(DBD::File::Table) perl(DBD::File::TableSource::FileSystem) perl(DBD::File::db) perl(DBD::File::dr) perl(DBD::File::st) perl(DBD::Gofer) perl(DBD::Gofer::Policy::Base) perl(DBD::Gofer::Policy::classic) perl(DBD::Gofer::Policy::pedantic) perl(DBD::Gofer::Policy::rush) perl(DBD::Gofer::Transport::Base) perl(DBD::Gofer::Transport::corostream) perl(DBD::Gofer::Transport::null) perl(DBD::Gofer::Transport::pipeone) perl(DBD::Gofer::Transport::stream) perl(DBD::Mem) perl(DBD::Mem::DataSource) perl(DBD::Mem::Statement) perl(DBD::Mem::Table) perl(DBD::Mem::db) perl(DBD::Mem::dr) perl(DBD::Mem::st) perl(DBD::NullP) perl(DBD::Proxy) perl(DBD::Proxy::db) perl(DBD::Proxy::dr) perl(DBD::Proxy::st) perl(DBD::Sponge) perl(DBDI) perl(DBI) perl(DBI::Const::GetInfo::ANSI) perl(DBI::Const::GetInfo::ODBC) perl(DBI::Const::GetInfoReturn) perl(DBI::Const::GetInfoType) perl(DBI::DBD) perl(DBI::DBD::Metadata) perl(DBI::DBD::SqlEngine) perl(DBI::DBD::SqlEngine::DataSource) perl(DBI::DBD::SqlEngine::Statement) perl(DBI::DBD::SqlEngine::Table) perl(DBI::DBD::SqlEngine::TableSource) perl(DBI::DBD::SqlEngine::TieMeta) perl(DBI::DBD::SqlEngine::TieTables) perl(DBI::DBD::SqlEngine::db) perl(DBI::DBD::SqlEngine::dr) perl(DBI::DBD::SqlEngine::st) perl(DBI::Gofer::Execute) perl(DBI::Gofer::Request) perl(DBI::Gofer::Response) perl(DBI::Gofer::Serializer::Base) perl(DBI::Gofer::Serializer::DataDumper) perl(DBI::Gofer::Serializer::Storable) perl(DBI::Gofer::Transport::Base) perl(DBI::Gofer::Transport::pipeone) perl(DBI::Gofer::Transport::stream) perl(DBI::Profile) perl(DBI::ProfileData) perl(DBI::ProfileDumper) perl(DBI::ProfileDumper::Apache) perl(DBI::ProfileSubs) perl(DBI::ProxyServer) perl(DBI::ProxyServer::db) perl(DBI::ProxyServer::dr) perl(DBI::ProxyServer::st) perl(DBI::SQL::Nano) perl(DBI::SQL::Nano::Statement_) perl(DBI::SQL::Nano::Table_) perl(DBI::Util::CacheMemory) perl(DBI::Util::_accessor) perl(DBI::common) perl-DBI perl-DBI(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Bundle::DBI) \
+perl(DBD::DBM) \
+perl(DBD::DBM::Statement) \
+perl(DBD::DBM::Table) \
+perl(DBD::DBM::db) \
+perl(DBD::DBM::dr) \
+perl(DBD::DBM::st) \
+perl(DBD::ExampleP) \
+perl(DBD::File) \
+perl(DBD::File::DataSource::File) \
+perl(DBD::File::DataSource::Stream) \
+perl(DBD::File::Statement) \
+perl(DBD::File::Table) \
+perl(DBD::File::TableSource::FileSystem) \
+perl(DBD::File::db) \
+perl(DBD::File::dr) \
+perl(DBD::File::st) \
+perl(DBD::Gofer) \
+perl(DBD::Gofer::Policy::Base) \
+perl(DBD::Gofer::Policy::classic) \
+perl(DBD::Gofer::Policy::pedantic) \
+perl(DBD::Gofer::Policy::rush) \
+perl(DBD::Gofer::Transport::Base) \
+perl(DBD::Gofer::Transport::corostream) \
+perl(DBD::Gofer::Transport::null) \
+perl(DBD::Gofer::Transport::pipeone) \
+perl(DBD::Gofer::Transport::stream) \
+perl(DBD::Mem) \
+perl(DBD::Mem::DataSource) \
+perl(DBD::Mem::Statement) \
+perl(DBD::Mem::Table) \
+perl(DBD::Mem::db) \
+perl(DBD::Mem::dr) \
+perl(DBD::Mem::st) \
+perl(DBD::NullP) \
+perl(DBD::Proxy) \
+perl(DBD::Proxy::db) \
+perl(DBD::Proxy::dr) \
+perl(DBD::Proxy::st) \
+perl(DBD::Sponge) \
+perl(DBDI) \
+perl(DBI) \
+perl(DBI::Const::GetInfo::ANSI) \
+perl(DBI::Const::GetInfo::ODBC) \
+perl(DBI::Const::GetInfoReturn) \
+perl(DBI::Const::GetInfoType) \
+perl(DBI::DBD) \
+perl(DBI::DBD::Metadata) \
+perl(DBI::DBD::SqlEngine) \
+perl(DBI::DBD::SqlEngine::DataSource) \
+perl(DBI::DBD::SqlEngine::Statement) \
+perl(DBI::DBD::SqlEngine::Table) \
+perl(DBI::DBD::SqlEngine::TableSource) \
+perl(DBI::DBD::SqlEngine::TieMeta) \
+perl(DBI::DBD::SqlEngine::TieTables) \
+perl(DBI::DBD::SqlEngine::db) \
+perl(DBI::DBD::SqlEngine::dr) \
+perl(DBI::DBD::SqlEngine::st) \
+perl(DBI::Gofer::Execute) \
+perl(DBI::Gofer::Request) \
+perl(DBI::Gofer::Response) \
+perl(DBI::Gofer::Serializer::Base) \
+perl(DBI::Gofer::Serializer::DataDumper) \
+perl(DBI::Gofer::Serializer::Storable) \
+perl(DBI::Gofer::Transport::Base) \
+perl(DBI::Gofer::Transport::pipeone) \
+perl(DBI::Gofer::Transport::stream) \
+perl(DBI::Profile) \
+perl(DBI::ProfileData) \
+perl(DBI::ProfileDumper) \
+perl(DBI::ProfileDumper::Apache) \
+perl(DBI::ProfileSubs) \
+perl(DBI::ProxyServer) \
+perl(DBI::ProxyServer::db) \
+perl(DBI::ProxyServer::dr) \
+perl(DBI::ProxyServer::st) \
+perl(DBI::SQL::Nano) \
+perl(DBI::SQL::Nano::Statement_) \
+perl(DBI::SQL::Nano::Table_) \
+perl(DBI::Util::CacheMemory) \
+perl(DBI::Util::_accessor) \
+perl(DBI::common) \
+perl-DBI \
+perl-DBI(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

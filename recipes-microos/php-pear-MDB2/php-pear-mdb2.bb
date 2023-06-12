@@ -37,7 +37,11 @@ RPM_NAME = "php-pear-MDB2-2.5.0b5-1.10.noarch.rpm"
 RPM_HASH = "f4a31f8a5d314fb8ba95e1d6fda0f3c2de473f9d58a3ffb92992f865b5b81e7ad97988a79a16b4d8d5970784da9b0ee6637e8fd200410f4f8508facf86401d53"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "php-pear(MDB2) php-pear-MDB2 php5-pear-MDB2 php7-pear-MDB2"
-RDEPENDS:${PN} += "/bin/sh php-pear"
+RPROVIDES:${PN} += "php-pear(MDB2) \
+php-pear-MDB2 \
+php5-pear-MDB2 \
+php7-pear-MDB2"
+RDEPENDS:${PN} += "/bin/sh \
+php-pear"
 
 inherit rpm

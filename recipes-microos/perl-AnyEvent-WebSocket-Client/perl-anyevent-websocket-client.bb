@@ -18,7 +18,17 @@ RPM_NAME = "perl-AnyEvent-WebSocket-Client-0.55-1.1.noarch.rpm"
 RPM_HASH = "21dab1faed8e0e98281eeba985280e15c3316518a13e32a637d2ea74507fdcf2f5f14e67e495cba417007353b1a4f8b3c8513935da2a72b3fc68a0fa9cd8cb6d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(AnyEvent::WebSocket::Client) perl(AnyEvent::WebSocket::Connection) perl(AnyEvent::WebSocket::Message) perl-AnyEvent-WebSocket-Client"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(AnyEvent) perl(AnyEvent::Connector) perl(Moo) perl(PerlX::Maybe) perl(Protocol::WebSocket) perl(URI) perl(URI::ws)"
+RPROVIDES:${PN} += "perl(AnyEvent::WebSocket::Client) \
+perl(AnyEvent::WebSocket::Connection) \
+perl(AnyEvent::WebSocket::Message) \
+perl-AnyEvent-WebSocket-Client"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(AnyEvent) \
+perl(AnyEvent::Connector) \
+perl(Moo) \
+perl(PerlX::Maybe) \
+perl(Protocol::WebSocket) \
+perl(URI) \
+perl(URI::ws)"
 
 inherit rpm

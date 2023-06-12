@@ -18,7 +18,10 @@ PV = "4.5.2"
 RPM_NAME = "fparser-devel-4.5.2-1.31.aarch64.rpm"
 RPM_HASH = "eaa145de02e30c475e737bac3592f2602cc8b3660b9f1f8fc699402b9499ebacee88ee8cdc09cfd3c12c0fab662089e8f9ffcb884607a0ce3c41812b8ab03865"
 
-RPROVIDES:${PN} += "fparser-devel fparser-devel(aarch-64) pkgconfig(fparser)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libfparser-4_5_2"
+RPROVIDES:${PN} += "fparser-devel \
+fparser-devel(aarch-64) \
+pkgconfig(fparser)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libfparser-4_5_2"
 
 inherit rpm

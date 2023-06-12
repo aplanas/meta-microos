@@ -17,7 +17,24 @@ RPM_NAME = "texlive-gitfile-info-2023.201.0.0.5svn51928-53.1.noarch.rpm"
 RPM_HASH = "c68be05dbd7c58ed4b4120acf9f5dd5ae2485de2b02eb264d88c9fb898c87b2830c279250173be04e046c567e282d76952dea325495724ea88b26143a8a1f768"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gitfile-info.sty) texlive-gitfile-info"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(currfile.sty) tex(hyperref.sty) tex(ifthen.sty) tex(tcolorbox.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(gitfile-info.sty) \
+texlive-gitfile-info"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(currfile.sty) \
+tex(hyperref.sty) \
+tex(ifthen.sty) \
+tex(tcolorbox.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

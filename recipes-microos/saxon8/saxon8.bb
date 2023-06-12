@@ -23,7 +23,12 @@ RPM_NAME = "saxon8-B.8.8-133.6.noarch.rpm"
 RPM_HASH = "aa16f17f20481bf5bef04472c08330e84432783d33ef4c68a27227faf796fd85bc470972c0c546ca53c800caa331d94428a0c229f5d811494a92927b0107e3c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jaxp_transform_impl saxon8"
-RDEPENDS:${PN} += "/bin/sh /usr/sbin/update-alternatives bea-stax bea-stax-api jaxp_parser_impl"
+RPROVIDES:${PN} += "jaxp_transform_impl \
+saxon8"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/sbin/update-alternatives \
+bea-stax \
+bea-stax-api \
+jaxp_parser_impl"
 
 inherit rpm

@@ -17,7 +17,12 @@ PV = "1.6.3"
 RPM_NAME = "python39-astunparse-1.6.3-5.1.aarch64.rpm"
 RPM_HASH = "4012fdb3010a25e98fc067fbe79fc77b87b19200063081c31775ec8a00edd0b6d1d84d0ffc502d010113e638fae88e5caa6382650dec1cb58f1d2d7dca43e528"
 
-RPROVIDES:${PN} += "python3.9dist(astunparse) python39-astunparse python39-astunparse(aarch-64) python3dist(astunparse)"
-RDEPENDS:${PN} += "python(abi) python39-six python39-wheel"
+RPROVIDES:${PN} += "python3.9dist(astunparse) \
+python39-astunparse \
+python39-astunparse(aarch-64) \
+python3dist(astunparse)"
+RDEPENDS:${PN} += "python(abi) \
+python39-six \
+python39-wheel"
 
 inherit rpm

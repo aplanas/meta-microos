@@ -9,6 +9,7 @@ RPM_HASH = "e18b33b0a146f67d8c6504c9bcba2804ec3ad6f84ef963e7a2d3f745b900408c149a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "highlight-bash-completion"
-RDEPENDS:${PN} += "bash-completion highlight"
+RDEPENDS:${PN} += "bash-completion \
+highlight"
 
 inherit rpm

@@ -11,7 +11,20 @@ RPM_NAME = "texlive-juraabbrev-2023.201.svn15878-55.1.noarch.rpm"
 RPM_HASH = "c6829a385402e9f7132df43cb4b8509f24db4ce0818b546989fa79583fcd6806f97c26f89f12d79ed50745f4ad856601a5490446fc0398a4e940c98c2fb6993f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(juraabbrev.sty) texlive-juraabbrev"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifthen.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(juraabbrev.sty) \
+texlive-juraabbrev"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifthen.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

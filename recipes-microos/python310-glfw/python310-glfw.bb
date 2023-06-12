@@ -21,7 +21,11 @@ RPM_NAME = "python310-glfw-2.5.5-1.4.noarch.rpm"
 RPM_HASH = "2b32f71c17b3eab6c53fde37cf4467cd025fd779a0b3c53bf57e5ef9456fcd6f58aa9c0f2a5a75de75b686cb5ecf84403ae41c4d696d8b81333568bcdc63b052"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-glfw python3.10dist(glfw) python310-glfw python3dist(glfw)"
-RDEPENDS:${PN} += "libglfw3 python(abi)"
+RPROVIDES:${PN} += "python3-glfw \
+python3.10dist(glfw) \
+python310-glfw \
+python3dist(glfw)"
+RDEPENDS:${PN} += "libglfw3 \
+python(abi)"
 
 inherit rpm

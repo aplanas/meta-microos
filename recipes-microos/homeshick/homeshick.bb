@@ -15,6 +15,9 @@ RPM_HASH = "fd686e595a6b5807fc0f6b8813ddba52f1e64ce7c4de251043d199d9b4e0f033114c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "homeshick"
-RDEPENDS:${PN} += "/usr/bin/bash /usr/bin/env bash git"
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/env \
+bash \
+git"
 
 inherit rpm

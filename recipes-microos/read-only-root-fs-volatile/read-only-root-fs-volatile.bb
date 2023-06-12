@@ -11,6 +11,7 @@ RPM_HASH = "c53febe1b640dcfb5a210b1ff0baf3143ba0662d15e7e58c18f422cf08f662f65755
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "read-only-root-fs-volatile"
-RDEPENDS:${PN} += "/bin/bash dracut"
+RDEPENDS:${PN} += "/bin/bash \
+dracut"
 
 inherit rpm

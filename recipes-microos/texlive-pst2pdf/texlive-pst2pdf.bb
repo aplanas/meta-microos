@@ -17,6 +17,37 @@ RPM_HASH = "f1b881609178194be524cc45fa8cfcf0d9e1eddeb855fcf71fb0d29f5851f041ec5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst2pdf"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Archive::Tar) perl(Config) perl(Cwd) perl(Data::Dumper) perl(Env) perl(File::Basename) perl(File::Copy) perl(File::Find) perl(File::Path) perl(File::Spec::Functions) perl(File::Temp) perl(FileHandle) perl(Getopt::Long) perl(IO::Compress::Zip) perl(POSIX) perl(Term::ANSIColor) perl(autodie) perl(if) sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-pst2pdf-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Archive::Tar) \
+perl(Config) \
+perl(Cwd) \
+perl(Data::Dumper) \
+perl(Env) \
+perl(File::Basename) \
+perl(File::Copy) \
+perl(File::Find) \
+perl(File::Path) \
+perl(File::Spec::Functions) \
+perl(File::Temp) \
+perl(FileHandle) \
+perl(Getopt::Long) \
+perl(IO::Compress::Zip) \
+perl(POSIX) \
+perl(Term::ANSIColor) \
+perl(autodie) \
+perl(if) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-pst2pdf-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

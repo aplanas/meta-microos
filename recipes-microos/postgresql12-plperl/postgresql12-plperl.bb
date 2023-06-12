@@ -11,7 +11,15 @@ PV = "12.15"
 RPM_NAME = "postgresql12-plperl-12.15-1.2.aarch64.rpm"
 RPM_HASH = "58871f0599b30ece88bbc6fff36f61f9cf033a2c9fdd639909f28b4d50d90350cb9166566a6af6d18013a117f9da0c2e544c2c57ec6b4073fef104087e5ad4d6"
 
-RPROVIDES:${PN} += "postgresql-plperl-implementation postgresql12-plperl postgresql12-plperl(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libperl.so()(64bit) perl postgresql-plperl-noarch postgresql12-server"
+RPROVIDES:${PN} += "postgresql-plperl-implementation \
+postgresql12-plperl \
+postgresql12-plperl(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libperl.so()(64bit) \
+perl \
+postgresql-plperl-noarch \
+postgresql12-server"
 
 inherit rpm

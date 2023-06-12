@@ -19,7 +19,16 @@ RPM_NAME = "python310-aiosmtpd-1.4.4.post2-1.4.noarch.rpm"
 RPM_HASH = "3a2ddade95fcd18bd9cd4dccd7e93791e2a89081629b4979a33ff00d3eec0770d8fe62b058113228cca4ef2a3974ec7a09cb4008834a59621f38c7ea84f2bf2f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aiosmtpd python3.10dist(aiosmtpd) python310-aiosmtpd python3dist(aiosmtpd)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-atpublic python310-attrs update-alternatives user(nobody)"
+RPROVIDES:${PN} += "python3-aiosmtpd \
+python3.10dist(aiosmtpd) \
+python310-aiosmtpd \
+python3dist(aiosmtpd)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-atpublic \
+python310-attrs \
+update-alternatives \
+user(nobody)"
 
 inherit rpm

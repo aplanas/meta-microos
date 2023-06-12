@@ -13,7 +13,15 @@ RPM_NAME = "texamator-3.0+git.20190226.91432e4-1.19.noarch.rpm"
 RPM_HASH = "21aef2c4f8ac3849a8998436e57daff5073fec39eaf623709d36b6802454b40e819fb76577c52822b0ad3db562ef47edabf1d4f12c6c76d6edc6306480ec426b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(texamator.desktop) texamator"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 python(abi) python3-base python3-poppler-qt5 python3-qt5 texlive-latex"
+RPROVIDES:${PN} += "application() \
+application(texamator.desktop) \
+texamator"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+python(abi) \
+python3-base \
+python3-poppler-qt5 \
+python3-qt5 \
+texlive-latex"
 
 inherit rpm

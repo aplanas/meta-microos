@@ -11,6 +11,7 @@ RPM_HASH = "354ab7e5408f1ea6dcbf4631fedf4c720adc59822b586e11cf18b59c6de5c29f7bc3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-ipyvuetify"
-RDEPENDS:${PN} += "jupyter-jupyterlab python3dist(ipyvuetify)"
+RDEPENDS:${PN} += "jupyter-jupyterlab \
+python3dist(ipyvuetify)"
 
 inherit rpm

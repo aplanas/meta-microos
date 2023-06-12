@@ -9,6 +9,7 @@ RPM_HASH = "843512989d92b3be5e37a9aab5b447c5b390de86ecc7b80831c03f7b18e5d4554741
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tig-zsh-completion"
-RDEPENDS:${PN} += "tig zsh"
+RDEPENDS:${PN} += "tig \
+zsh"
 
 inherit rpm

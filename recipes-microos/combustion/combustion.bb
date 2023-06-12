@@ -16,6 +16,8 @@ RPM_HASH = "c91b80556e326ed8d6b4373fabcd99c63ae9c35c4b6fa06e9ea93a1d179a59d40d04
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "combustion"
-RDEPENDS:${PN} += "/bin/bash /bin/sh ignition-dracut-grub2"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+ignition-dracut-grub2"
 
 inherit rpm

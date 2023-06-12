@@ -21,7 +21,10 @@ RPM_NAME = "python39-cachey-0.2.1-2.3.noarch.rpm"
 RPM_HASH = "475e6a60e906bba5e41e32d6d1cadfc0fb62e28980f0b74dbad917b82baf3a804515b5be8ea1aae1bd40b78cbda2eed230c4545663264d33f58662a607afb53e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(cachey) python39-cachey python3dist(cachey)"
-RDEPENDS:${PN} += "python(abi) python39-HeapDict"
+RPROVIDES:${PN} += "python3.9dist(cachey) \
+python39-cachey \
+python3dist(cachey)"
+RDEPENDS:${PN} += "python(abi) \
+python39-HeapDict"
 
 inherit rpm

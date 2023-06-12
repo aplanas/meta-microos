@@ -10,7 +10,13 @@ RPM_NAME = "python310-versioneer-0.28-1.1.noarch.rpm"
 RPM_HASH = "caaf8439a71ce0a1a4ab79f0715419c7453a3cce5c0b523983bedfefc2f93974ffffd4dba9e1770e30c91cbc280c812426acebf38edeea2b45867d8e1889a8ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-versioneer python3.10dist(versioneer) python310-versioneer python3dist(versioneer)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3-versioneer \
+python3.10dist(versioneer) \
+python310-versioneer \
+python3dist(versioneer)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

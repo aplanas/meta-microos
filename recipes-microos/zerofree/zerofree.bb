@@ -12,7 +12,11 @@ PV = "1.1.1"
 RPM_NAME = "zerofree-1.1.1-1.20.aarch64.rpm"
 RPM_HASH = "aad57a7e29cd9bc4e18b65faca4fdfdc4c2bc80572c575c01456eb790a11fc080161a02ba648912e3a757355b88df5050900d7e5e946f2cc6af3a7969ce7aa73"
 
-RPROVIDES:${PN} += "zerofree zerofree(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libext2fs.so.2()(64bit)"
+RPROVIDES:${PN} += "zerofree \
+zerofree(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libext2fs.so.2()(64bit)"
 
 inherit rpm

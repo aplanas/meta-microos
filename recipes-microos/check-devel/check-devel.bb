@@ -12,7 +12,13 @@ PV = "0.15.2"
 RPM_NAME = "check-devel-0.15.2-2.10.aarch64.rpm"
 RPM_HASH = "f690a40c5baf562bc99c20e01a967e6a03f839c21821a8356f2a00da85e63b00e4044b339c233df86c96b49b4441781b14331367561b5b5984e60dc9a8499f53"
 
-RPROVIDES:${PN} += "check-devel check-devel(aarch-64) pkgconfig(check)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/gawk /usr/bin/pkg-config glibc-devel libcheck0"
+RPROVIDES:${PN} += "check-devel \
+check-devel(aarch-64) \
+pkgconfig(check)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/gawk \
+/usr/bin/pkg-config \
+glibc-devel \
+libcheck0"
 
 inherit rpm

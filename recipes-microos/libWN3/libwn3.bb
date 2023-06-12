@@ -16,7 +16,12 @@ PV = "3.0"
 RPM_NAME = "libWN3-3.0-35.1.aarch64.rpm"
 RPM_HASH = "f7378710c20da5c512edb87070437b9577fc9ded86b7f3dceed59d13cd22d2d0ec0f954dc4cd5fa8a340176d6d2dda4d4343180e25a0bc5e0a8646b465b0c357"
 
-RPROVIDES:${PN} += "libWN.so.3()(64bit) libWN3 libWN3(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libWN.so.3()(64bit) \
+libWN3 \
+libWN3(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

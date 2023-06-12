@@ -8,7 +8,14 @@ RPM_NAME = "python310-user_agent-0.1.10-1.4.noarch.rpm"
 RPM_HASH = "b27c276fe5a4d3a17fced80a16d592c43917f028a883601ba746662cad7217eb02a267093db9a38dbc7039d3db206a5c0ad5a380c090d55a51660237fd900b91"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-user_agent python3.10dist(user-agent) python310-user_agent python3dist(user-agent)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-six update-alternatives"
+RPROVIDES:${PN} += "python3-user_agent \
+python3.10dist(user-agent) \
+python310-user_agent \
+python3dist(user-agent)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-six \
+update-alternatives"
 
 inherit rpm

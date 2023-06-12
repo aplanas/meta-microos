@@ -8,7 +8,8 @@ PV = "6.5.1"
 RPM_NAME = "qt6-pdfquick-private-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "86eda3d58b0af493e6034c9bf1a1076e9be59c74d0b6872a34006c819fa7f698489eac7d7d8ba4fa8740daf2a4ebb73610610c43083d7e1f24110f2217c2b2db"
 
-RPROVIDES:${PN} += "qt6-pdfquick-private-devel qt6-pdfquick-private-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-pdfquick-private-devel \
+qt6-pdfquick-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6PdfQuick)"
 
 inherit rpm

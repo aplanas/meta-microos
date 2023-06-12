@@ -12,6 +12,13 @@ RPM_HASH = "87064cad1e7a62d766680c6308b052a174fe096b909949320371f91c5b22c0f8b0db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tiro-indigo-fonts"
-RDEPENDS:${PN} += "tiro-bangla-fonts tiro-devahindi-fonts tiro-devamarathi-fonts tiro-devasanskrit-fonts tiro-gurmukhi-fonts tiro-kannada-fonts tiro-tamil-fonts tiro-telugu-fonts"
+RDEPENDS:${PN} += "tiro-bangla-fonts \
+tiro-devahindi-fonts \
+tiro-devamarathi-fonts \
+tiro-devasanskrit-fonts \
+tiro-gurmukhi-fonts \
+tiro-kannada-fonts \
+tiro-tamil-fonts \
+tiro-telugu-fonts"
 
 inherit rpm

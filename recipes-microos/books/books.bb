@@ -26,7 +26,9 @@ RPM_NAME = "books-2009.1.12-22.16.noarch.rpm"
 RPM_HASH = "a6f8caf1b3b69de1c9086c4ed7e5433ab8b12d8e9ffdde05c0a05de3d194337bed5feb5b6c66424d13fe4f8e8d9eec3e375be40a49d8ea9d051f5b3473c04628"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "books handbuch lx-buch1"
+RPROVIDES:${PN} += "books \
+handbuch \
+lx-buch1"
 RDEPENDS:${PN} += ""
 
 inherit rpm

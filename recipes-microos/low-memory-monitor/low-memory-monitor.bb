@@ -13,7 +13,15 @@ PV = "2.1"
 RPM_NAME = "low-memory-monitor-2.1-3.8.aarch64.rpm"
 RPM_HASH = "0dcf69e7535eb6cf5978128f4a16955c74b97ab0a16125bd63a4ea2a47ae15843cac02db79ca5febc9a8ef4c919f7e538f4b20515df8f8628962bde97242b688"
 
-RPROVIDES:${PN} += "low-memory-monitor low-memory-monitor(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) systemd"
+RPROVIDES:${PN} += "low-memory-monitor \
+low-memory-monitor(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgio-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+systemd"
 
 inherit rpm

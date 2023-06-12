@@ -27,7 +27,14 @@ RPM_NAME = "python310-epubmerge-2.15.0-1.4.noarch.rpm"
 RPM_HASH = "ff0a06e9a75ae48cab39db32b864664d600fdc09828670644de86313d58f92e73dcbc65e0fe83168234333d5c931aa16aa93d378914ed4bd8cbcc09d08f403c4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-epubmerge python3.10dist(epubmerge) python310-epubmerge python3dist(epubmerge)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3-epubmerge \
+python3.10dist(epubmerge) \
+python310-epubmerge \
+python3dist(epubmerge)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-setuptools \
+update-alternatives"
 
 inherit rpm

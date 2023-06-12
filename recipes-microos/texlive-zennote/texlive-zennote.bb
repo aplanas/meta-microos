@@ -16,7 +16,20 @@ RPM_NAME = "texlive-zennote-2023.201.1.0.0svn65549-52.1.noarch.rpm"
 RPM_HASH = "86cd88e4cdd13d8f055fd066701270d888a4914ea0025271612ab0d4af0d886459ffdf9f1bf7881cc3c828edee0738f36170261609b43012de6f4fa15cac6e09"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(zennote.sty) texlive-zennote"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(tcolorbox.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(zennote.sty) \
+texlive-zennote"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(tcolorbox.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

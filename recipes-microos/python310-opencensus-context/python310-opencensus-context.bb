@@ -10,7 +10,10 @@ RPM_NAME = "python310-opencensus-context-0.1.3-1.3.noarch.rpm"
 RPM_HASH = "c9fc78ffbc7f22a570174915b2d9d35fd92775a2aa3e1cb6eadd3d5e05ea07c7fa4be1d31799a7f1e31424aadf4bbfdf1dca54d20ecf6645f32f86ffd5124961"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-opencensus-context python3.10dist(opencensus-context) python310-opencensus-context python3dist(opencensus-context)"
+RPROVIDES:${PN} += "python3-opencensus-context \
+python3.10dist(opencensus-context) \
+python310-opencensus-context \
+python3dist(opencensus-context)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

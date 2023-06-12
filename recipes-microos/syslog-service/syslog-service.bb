@@ -10,6 +10,13 @@ RPM_HASH = "d541858b72a73b2201974ff38087720149a5127e0234b4bf606b12f155b355c32e84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "syslog-service"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/mkdir /usr/bin/touch fillup logrotate syslog sysvinit(network)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+fillup \
+logrotate \
+syslog \
+sysvinit(network)"
 
 inherit rpm

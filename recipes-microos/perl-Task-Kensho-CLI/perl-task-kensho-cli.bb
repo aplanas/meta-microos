@@ -37,7 +37,12 @@ RPM_NAME = "perl-Task-Kensho-CLI-0.41-1.9.noarch.rpm"
 RPM_HASH = "b71df4cb75b7212486a9e1c8ef660101582bb5df69c28489a80c92c51781cce7d07fd31beba4e1f85badec3c7c26989e6d34ef07c7fa0b02a52f44f24893e764"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Task::Kensho::CLI) perl-Task-Kensho-CLI"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(App::Ack) perl(App::Nopaste) perl(Module::CoreList) perl(Reply)"
+RPROVIDES:${PN} += "perl(Task::Kensho::CLI) \
+perl-Task-Kensho-CLI"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(App::Ack) \
+perl(App::Nopaste) \
+perl(Module::CoreList) \
+perl(Reply)"
 
 inherit rpm

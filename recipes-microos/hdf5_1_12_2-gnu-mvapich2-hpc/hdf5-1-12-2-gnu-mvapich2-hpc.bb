@@ -11,7 +11,20 @@ PV = "1.12.2"
 RPM_NAME = "hdf5_1_12_2-gnu-mvapich2-hpc-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "5c412adfa1a96d90a1bfaf59b21a597ad9a3a6101de8228a15daddc4545ce4c45719db2567d3ccfd9ee1d7479bc968ec33208af4b80fa09dca4f3a212f020555"
 
-RPROVIDES:${PN} += "hdf5_1_12_2-gnu-mvapich2-hpc hdf5_1_12_2-gnu-mvapich2-hpc(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh gnu-compilers-hpc ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libhdf5_1_12_2-gnu-mvapich2-hpc libhdf5_fortran_1_12_2-gnu-mvapich2-hpc libhdf5_hl_1_12_2-gnu-mvapich2-hpc libhdf5hl_fortran_1_12_2-gnu-mvapich2-hpc libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) lua-lmod mvapich2-gnu-hpc"
+RPROVIDES:${PN} += "hdf5_1_12_2-gnu-mvapich2-hpc \
+hdf5_1_12_2-gnu-mvapich2-hpc(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+gnu-compilers-hpc \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libhdf5_1_12_2-gnu-mvapich2-hpc \
+libhdf5_fortran_1_12_2-gnu-mvapich2-hpc \
+libhdf5_hl_1_12_2-gnu-mvapich2-hpc \
+libhdf5hl_fortran_1_12_2-gnu-mvapich2-hpc \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+lua-lmod \
+mvapich2-gnu-hpc"
 
 inherit rpm

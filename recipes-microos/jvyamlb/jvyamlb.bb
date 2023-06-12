@@ -9,6 +9,10 @@ RPM_HASH = "1316cf6cd9a040c81316e9e0cbe622d0bd7cb724fbe77a7d568ff9fc6ad3f883dbc2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jvyamlb"
-RDEPENDS:${PN} += "bytelist java javapackages-tools jcodings joda-time"
+RDEPENDS:${PN} += "bytelist \
+java \
+javapackages-tools \
+jcodings \
+joda-time"
 
 inherit rpm

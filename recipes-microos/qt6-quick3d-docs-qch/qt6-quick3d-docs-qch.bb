@@ -7,7 +7,8 @@ PV = "6.5.1"
 RPM_NAME = "qt6-quick3d-docs-qch-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "630847266aaf2c0f809ba17bae56e50488d975def7442edaa3da122b49dd8e706ab586ccd4f51740e3a350ece803f55097a0afbce1db355b6b445e21d850fe8b"
 
-RPROVIDES:${PN} += "qt6-quick3d-docs-qch qt6-quick3d-docs-qch(aarch-64)"
+RPROVIDES:${PN} += "qt6-quick3d-docs-qch \
+qt6-quick3d-docs-qch(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

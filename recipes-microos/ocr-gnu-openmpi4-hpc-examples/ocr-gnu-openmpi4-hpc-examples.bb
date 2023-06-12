@@ -11,6 +11,7 @@ RPM_HASH = "aa0faa0c900c57ea198f9c764bcad9026908ad05fae36b5d4c24684e97d862c6c780
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ocr-gnu-openmpi4-hpc-examples"
-RDEPENDS:${PN} += "/bin/sh ocr_1_0_1-gnu-openmpi4-hpc-examples"
+RDEPENDS:${PN} += "/bin/sh \
+ocr_1_0_1-gnu-openmpi4-hpc-examples"
 
 inherit rpm

@@ -11,7 +11,10 @@ RPM_NAME = "python39-pyasn1-modules-0.3.0-1.1.noarch.rpm"
 RPM_HASH = "7f2c967e7e2f05f699fecef6f8d68c9016edcc83dc71d159e6142660a14d57a317cf6318206e0732e9bdbd5e0c53a492f028db75fed630d7794e2f91e5a8fe8e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pyasn1-modules) python39-pyasn1-modules python3dist(pyasn1-modules)"
-RDEPENDS:${PN} += "python(abi) python39-pyasn1"
+RPROVIDES:${PN} += "python3.9dist(pyasn1-modules) \
+python39-pyasn1-modules \
+python3dist(pyasn1-modules)"
+RDEPENDS:${PN} += "python(abi) \
+python39-pyasn1"
 
 inherit rpm

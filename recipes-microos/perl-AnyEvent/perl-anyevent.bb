@@ -38,7 +38,52 @@ PV = "7.17"
 RPM_NAME = "perl-AnyEvent-7.17-1.15.aarch64.rpm"
 RPM_HASH = "70fea563045d0635b5352e068b2dc4f3f4b41dd68e88918c9c92265d556b1078d205c9e42a09e5699828b8eea42d8e53a9ebcee07a3634fbd2013d444a91b7e9"
 
-RPROVIDES:${PN} += "perl(AE) perl(AE::Log::COLLECT) perl(AE::Log::FILTER) perl(AE::Log::LOG) perl(AnyEvent) perl(AnyEvent::Base) perl(AnyEvent::CondVar) perl(AnyEvent::CondVar::Base) perl(AnyEvent::DNS) perl(AnyEvent::Debug) perl(AnyEvent::Debug::Backtrace) perl(AnyEvent::Debug::Wrap) perl(AnyEvent::Debug::Wrapped) perl(AnyEvent::Debug::shell) perl(AnyEvent::Handle) perl(AnyEvent::IO) perl(AnyEvent::IO::IOAIO) perl(AnyEvent::IO::Perl) perl(AnyEvent::Impl::Cocoa) perl(AnyEvent::Impl::EV) perl(AnyEvent::Impl::Event) perl(AnyEvent::Impl::EventLib) perl(AnyEvent::Impl::FLTK) perl(AnyEvent::Impl::Glib) perl(AnyEvent::Impl::IOAsync) perl(AnyEvent::Impl::Irssi) perl(AnyEvent::Impl::POE) perl(AnyEvent::Impl::Perl) perl(AnyEvent::Impl::Qt) perl(AnyEvent::Impl::Qt::Io) perl(AnyEvent::Impl::Qt::Timer) perl(AnyEvent::Impl::Tk) perl(AnyEvent::Impl::UV) perl(AnyEvent::Log) perl(AnyEvent::Log::COLLECT) perl(AnyEvent::Log::Ctx) perl(AnyEvent::Log::FILTER) perl(AnyEvent::Log::LOG) perl(AnyEvent::Loop) perl(AnyEvent::Socket) perl(AnyEvent::Strict) perl(AnyEvent::TLS) perl(AnyEvent::Util) perl(DB) perl-AnyEvent perl-AnyEvent(aarch-64)"
+RPROVIDES:${PN} += "perl(AE) \
+perl(AE::Log::COLLECT) \
+perl(AE::Log::FILTER) \
+perl(AE::Log::LOG) \
+perl(AnyEvent) \
+perl(AnyEvent::Base) \
+perl(AnyEvent::CondVar) \
+perl(AnyEvent::CondVar::Base) \
+perl(AnyEvent::DNS) \
+perl(AnyEvent::Debug) \
+perl(AnyEvent::Debug::Backtrace) \
+perl(AnyEvent::Debug::Wrap) \
+perl(AnyEvent::Debug::Wrapped) \
+perl(AnyEvent::Debug::shell) \
+perl(AnyEvent::Handle) \
+perl(AnyEvent::IO) \
+perl(AnyEvent::IO::IOAIO) \
+perl(AnyEvent::IO::Perl) \
+perl(AnyEvent::Impl::Cocoa) \
+perl(AnyEvent::Impl::EV) \
+perl(AnyEvent::Impl::Event) \
+perl(AnyEvent::Impl::EventLib) \
+perl(AnyEvent::Impl::FLTK) \
+perl(AnyEvent::Impl::Glib) \
+perl(AnyEvent::Impl::IOAsync) \
+perl(AnyEvent::Impl::Irssi) \
+perl(AnyEvent::Impl::POE) \
+perl(AnyEvent::Impl::Perl) \
+perl(AnyEvent::Impl::Qt) \
+perl(AnyEvent::Impl::Qt::Io) \
+perl(AnyEvent::Impl::Qt::Timer) \
+perl(AnyEvent::Impl::Tk) \
+perl(AnyEvent::Impl::UV) \
+perl(AnyEvent::Log) \
+perl(AnyEvent::Log::COLLECT) \
+perl(AnyEvent::Log::Ctx) \
+perl(AnyEvent::Log::FILTER) \
+perl(AnyEvent::Log::LOG) \
+perl(AnyEvent::Loop) \
+perl(AnyEvent::Socket) \
+perl(AnyEvent::Strict) \
+perl(AnyEvent::TLS) \
+perl(AnyEvent::Util) \
+perl(DB) \
+perl-AnyEvent \
+perl-AnyEvent(aarch-64)"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

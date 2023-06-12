@@ -34,7 +34,17 @@ RPM_NAME = "beets-1.6.0-2.5.noarch.rpm"
 RPM_HASH = "5db267afc214dc4513303dc4ea5d726c091ae90b284d455a643bdd75e110aa20cff793cf910ecca252f0a2cc3363e7f8d1d28c5db5cd242b0857d0524df0ad55"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "beets python3.10dist(beets) python3dist(beets)"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-PyYAML python3-Unidecode python3-confuse python3-jellyfish python3-mediafile python3-munkres python3-musicbrainzngs"
+RPROVIDES:${PN} += "beets \
+python3.10dist(beets) \
+python3dist(beets)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3-PyYAML \
+python3-Unidecode \
+python3-confuse \
+python3-jellyfish \
+python3-mediafile \
+python3-munkres \
+python3-musicbrainzngs"
 
 inherit rpm

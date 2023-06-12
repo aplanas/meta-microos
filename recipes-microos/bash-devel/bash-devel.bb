@@ -9,7 +9,9 @@ PV = "5.2.15"
 RPM_NAME = "bash-devel-5.2.15-8.3.aarch64.rpm"
 RPM_HASH = "98394a3d095e421e361948ac2892ffc883ea985152af821eaa6e09c3a6a86fc0936a365bc16bd27c8c852310669b677653207eba70854871a45f2ce4004781cf"
 
-RPROVIDES:${PN} += "bash-devel bash-devel(aarch-64) pkgconfig(bash)"
+RPROVIDES:${PN} += "bash-devel \
+bash-devel(aarch-64) \
+pkgconfig(bash)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

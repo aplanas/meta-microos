@@ -30,7 +30,65 @@ RPM_NAME = "texlive-letgut-2023.201.0.0.9.6svn65548-54.1.noarch.rpm"
 RPM_HASH = "b230942c89fb3567e20e459b71958426b899060fc47387336fc83ddf06549330dc3fe873d7ccaf4fd263ece31131573525c1c51dee83cf67dbdb21826bc256eb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(informations-gut.tex) tex(letgut-acronyms.tex) tex(letgut-banner.sty) tex(letgut-lstlang.sty) tex(letgut.cbx) tex(letgut.cls) tex(letgut.lbx) texlive-letgut"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(accsupp.sty) tex(acro.sty) tex(array.sty) tex(article.cls) tex(attachfile2.sty) tex(babel.sty) tex(biolinum.sty) tex(booktabs.sty) tex(bxtexlogo.sty) tex(cleveref.sty) tex(csquotes.sty) tex(enumitem.sty) tex(etoc.sty) tex(eurosym.sty) tex(fancyhdr.sty) tex(fancyvrb.sty) tex(floatrow.sty) tex(fontspec.sty) tex(fourier-orns.sty) tex(geometry.sty) tex(graphicx.sty) tex(hypcap.sty) tex(hyperref.sty) tex(l3keys2e.sty) tex(listings.sty) tex(mathtools.sty) tex(ninecolors.sty) tex(numeric.cbx) tex(parskip.sty) tex(pgfornament.sty) tex(placeins.sty) tex(refcount.sty) tex(siunitx.sty) tex(standalone.sty) tex(tabularray.sty) tex(tcolorbox.sty) tex(titlesec.sty) tex(varioref.sty) tex(xcolor.sty) tex(xurl.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(informations-gut.tex) \
+tex(letgut-acronyms.tex) \
+tex(letgut-banner.sty) \
+tex(letgut-lstlang.sty) \
+tex(letgut.cbx) \
+tex(letgut.cls) \
+tex(letgut.lbx) \
+texlive-letgut"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(accsupp.sty) \
+tex(acro.sty) \
+tex(array.sty) \
+tex(article.cls) \
+tex(attachfile2.sty) \
+tex(babel.sty) \
+tex(biolinum.sty) \
+tex(booktabs.sty) \
+tex(bxtexlogo.sty) \
+tex(cleveref.sty) \
+tex(csquotes.sty) \
+tex(enumitem.sty) \
+tex(etoc.sty) \
+tex(eurosym.sty) \
+tex(fancyhdr.sty) \
+tex(fancyvrb.sty) \
+tex(floatrow.sty) \
+tex(fontspec.sty) \
+tex(fourier-orns.sty) \
+tex(geometry.sty) \
+tex(graphicx.sty) \
+tex(hypcap.sty) \
+tex(hyperref.sty) \
+tex(l3keys2e.sty) \
+tex(listings.sty) \
+tex(mathtools.sty) \
+tex(ninecolors.sty) \
+tex(numeric.cbx) \
+tex(parskip.sty) \
+tex(pgfornament.sty) \
+tex(placeins.sty) \
+tex(refcount.sty) \
+tex(siunitx.sty) \
+tex(standalone.sty) \
+tex(tabularray.sty) \
+tex(tcolorbox.sty) \
+tex(titlesec.sty) \
+tex(varioref.sty) \
+tex(xcolor.sty) \
+tex(xurl.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -32,7 +32,26 @@ PV = "2.1.0"
 RPM_NAME = "libscalapack2_2_1_0-gnu-mpich-hpc-2.1.0-9.20.aarch64.rpm"
 RPM_HASH = "7919d8f13e734d9683ff52d074991b3b74201cc7732fd20cb01979721c80933bb044b9f1094c6239f8b1835cb7b3f69fed979f299f5c2c43cb4c861608d4770a"
 
-RPROVIDES:${PN} += "libblacs2_2_1_0-gnu-mpich-hpc libscalapack2_2_1_0-gnu-mpich-hpc libscalapack2_2_1_0-gnu-mpich-hpc(aarch-64) scalapack_2_1_0-gnu-mpich-hpc"
-RDEPENDS:${PN} += "/sbin/ldconfig gnu-compilers-hpc ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_4.0.0)(64bit) libgfortran.so.5()(64bit) libgfortran.so.5(GFORTRAN_8)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit) libopenblas-gnu-hpc lua-lmod mpich-gnu-hpc scalapack_2_1_0-gnu-mpich-hpc-module"
+RPROVIDES:${PN} += "libblacs2_2_1_0-gnu-mpich-hpc \
+libscalapack2_2_1_0-gnu-mpich-hpc \
+libscalapack2_2_1_0-gnu-mpich-hpc(aarch-64) \
+scalapack_2_1_0-gnu-mpich-hpc"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+gnu-compilers-hpc \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_4.0.0)(64bit) \
+libgfortran.so.5()(64bit) \
+libgfortran.so.5(GFORTRAN_8)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libopenblas-gnu-hpc \
+lua-lmod \
+mpich-gnu-hpc \
+scalapack_2_1_0-gnu-mpich-hpc-module"
 
 inherit rpm

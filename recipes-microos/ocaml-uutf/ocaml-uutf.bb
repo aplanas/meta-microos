@@ -14,7 +14,8 @@ PV = "1.0.3"
 RPM_NAME = "ocaml-uutf-1.0.3-1.9.aarch64.rpm"
 RPM_HASH = "0ab2025fd9a64a70ca51160a9d36a3f7d665065b66a2fccf3195e653005e56b2ab045fcc9a78644ccd8133d0c2f07ca84a6eed91b1862e4ab389411f9b3b6696"
 
-RPROVIDES:${PN} += "ocaml-uutf ocaml-uutf(aarch-64)"
+RPROVIDES:${PN} += "ocaml-uutf \
+ocaml-uutf(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

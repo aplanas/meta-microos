@@ -8,7 +8,9 @@ RPM_NAME = "python39-pylru-1.2.1-1.3.noarch.rpm"
 RPM_HASH = "2fed5e4afb6e2c16466e390b591826c90e716b7de377a5a126514748caa93eaacf626ec1a7f10de19ca06a84b2c9fb7ac16003f3bf93f93b20541b7d1ef14092"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pylru) python39-pylru python3dist(pylru)"
+RPROVIDES:${PN} += "python3.9dist(pylru) \
+python39-pylru \
+python3dist(pylru)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

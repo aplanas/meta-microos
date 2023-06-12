@@ -8,7 +8,12 @@ PV = "0.2.4+g109"
 RPM_NAME = "river-rivertile-0.2.4+g109-3.1.aarch64.rpm"
 RPM_HASH = "4d76eb141696d9504e8d0a9c7cc895db9a439cdb1eee6edf8d55c9ae7515705c9ede250828f5ec6ad0229470873ab7899204bbc7a0707ea764667ad302624f24"
 
-RPROVIDES:${PN} += "river-rivertile river-rivertile(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libwayland-client.so.0()(64bit) river"
+RPROVIDES:${PN} += "river-rivertile \
+river-rivertile(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libwayland-client.so.0()(64bit) \
+river"
 
 inherit rpm

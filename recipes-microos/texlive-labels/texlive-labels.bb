@@ -15,7 +15,20 @@ RPM_NAME = "texlive-labels-2023.201.0.0.13svn15878-55.1.noarch.rpm"
 RPM_HASH = "cd48761e9f44f0bb3ce49d99632cbd98405262ee4d897479e6b62df1e3b686e601bfab60444c87e72faf0fe49d92bdd83b708bb9f7089243f216c2b44f1d7d49"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(labels.sty) tex(olabels.sty) texlive-labels"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(labels.sty) \
+tex(olabels.sty) \
+texlive-labels"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

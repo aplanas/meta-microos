@@ -21,7 +21,24 @@ PV = "0.40.0"
 RPM_NAME = "python39-llvmlite-0.40.0-1.1.aarch64.rpm"
 RPM_HASH = "b188601ac58d3eb30dfb37784bb38869ba0b7683ac2438fb7926783df61f6068e5c1e23b6f8caa4faada4063bbcde052e10569a939f82290e46e066e41684db9"
 
-RPROVIDES:${PN} += "libllvmlite.so()(64bit) python3.9dist(llvmlite) python39-llvmlite python39-llvmlite(aarch-64) python3dist(llvmlite)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libLLVM.so.14()(64bit) libLLVM.so.14(LLVM_14)(64bit) libc.so.6(GLIBC_2.34)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.32)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) python(abi)"
+RPROVIDES:${PN} += "libllvmlite.so()(64bit) \
+python3.9dist(llvmlite) \
+python39-llvmlite \
+python39-llvmlite(aarch-64) \
+python3dist(llvmlite)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libLLVM.so.14()(64bit) \
+libLLVM.so.14(LLVM_14)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
+python(abi)"
 
 inherit rpm

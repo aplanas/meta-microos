@@ -32,7 +32,8 @@ RPM_NAME = "perl-Test-Directory-0.052-1.1.noarch.rpm"
 RPM_HASH = "7f2bc01ec02e6dc978bb0891282cc408fa9aed05a4c00363ddb4d3e664f7ef20d462847946600d13ec5027bcfe46a00df3f0ce4152e8e9b8461adcae32414f7b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Directory) perl-Test-Directory"
+RPROVIDES:${PN} += "perl(Test::Directory) \
+perl-Test-Directory"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

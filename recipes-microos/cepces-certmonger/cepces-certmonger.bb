@@ -10,6 +10,9 @@ RPM_HASH = "6858c234b148669b4ec5cf78fff9040d30973b5938d6b28146b9e051b4a6110c808c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cepces-certmonger"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 cepces certmonger"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+cepces \
+certmonger"
 
 inherit rpm

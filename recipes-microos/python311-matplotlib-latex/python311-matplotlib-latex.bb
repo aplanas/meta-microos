@@ -10,6 +10,31 @@ RPM_HASH = "d32e82973f28700dcab3c619f75d2ebff342863d98001d63754b4f7c898bb80c922b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-matplotlib-latex"
-RDEPENDS:${PN} += "python311-matplotlib tex(avant.sty) tex(chancery.sty) tex(charter.sty) tex(courier.sty) tex(geometry.sty) tex(helvet.sty) tex(mathpazo.sty) tex(mathptmx.sty) tex(pncr.tfm) tex(psfrag.sty) tex(type1cm.sty) tex(type1ec.sty) tex(ucs.sty) tex(underscore.sty) texlive-dvipng texlive-dvips texlive-geometry texlive-graphics texlive-helvetic texlive-latex texlive-pgf texlive-sfmath texlive-tex texlive-txfonts texlive-xcolor"
+RDEPENDS:${PN} += "python311-matplotlib \
+tex(avant.sty) \
+tex(chancery.sty) \
+tex(charter.sty) \
+tex(courier.sty) \
+tex(geometry.sty) \
+tex(helvet.sty) \
+tex(mathpazo.sty) \
+tex(mathptmx.sty) \
+tex(pncr.tfm) \
+tex(psfrag.sty) \
+tex(type1cm.sty) \
+tex(type1ec.sty) \
+tex(ucs.sty) \
+tex(underscore.sty) \
+texlive-dvipng \
+texlive-dvips \
+texlive-geometry \
+texlive-graphics \
+texlive-helvetic \
+texlive-latex \
+texlive-pgf \
+texlive-sfmath \
+texlive-tex \
+texlive-txfonts \
+texlive-xcolor"
 
 inherit rpm

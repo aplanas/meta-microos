@@ -15,7 +15,23 @@ RPM_NAME = "texlive-zhlineskip-2023.201.1.0esvn51142-52.1.noarch.rpm"
 RPM_HASH = "0d0e78c0a5347b343e769f1908b0647b1aa29254a4b68001e17456bbad4be250521e0745c4a9c10632499b4c24657eb055a03ef419cdeda718115887fd8ccb5d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(zhlineskip.sty) texlive-zhlineskip"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(etoolbox.sty) tex(kvoptions.sty) tex(mathtools.sty) tex(xintexpr.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(zhlineskip.sty) \
+texlive-zhlineskip"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(etoolbox.sty) \
+tex(kvoptions.sty) \
+tex(mathtools.sty) \
+tex(xintexpr.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

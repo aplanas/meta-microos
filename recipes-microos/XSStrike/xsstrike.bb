@@ -17,6 +17,8 @@ RPM_HASH = "674ce2028e0588fbd6564d53b61d67f4193423acc8caaac57857be773204ddcf7813
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "XSStrike"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 python3-fuzzywuzzy"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+python3-fuzzywuzzy"
 
 inherit rpm

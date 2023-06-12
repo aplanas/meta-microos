@@ -9,7 +9,14 @@ PV = "14.2.4"
 RPM_NAME = "reproc-devel-14.2.4-3.1.aarch64.rpm"
 RPM_HASH = "52fb1af46aa0fc206fa21f29f29ee01a961fc323961b39a0588411f0efab76524285ddfe6dbfe7188ed71329f96fae38ac99bff0e456b2013ddd291f61cf9fa9"
 
-RPROVIDES:${PN} += "cmake(reproc) cmake(reproc++) pkgconfig(reproc) pkgconfig(reproc++) reproc-devel reproc-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libreproc++14 libreproc14"
+RPROVIDES:${PN} += "cmake(reproc) \
+cmake(reproc++) \
+pkgconfig(reproc) \
+pkgconfig(reproc++) \
+reproc-devel \
+reproc-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libreproc++14 \
+libreproc14"
 
 inherit rpm

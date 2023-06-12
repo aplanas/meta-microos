@@ -19,7 +19,20 @@ RPM_NAME = "perl-CGI-4.57-1.1.noarch.rpm"
 RPM_HASH = "9bbbaac6d808ba6c4571b28d1d567859bb867da392efe71806787707ed1293c715f9888be971461103bc474c16eeb86d7367ff48d0086cbfea2a07bf58f60d77"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(CGI) perl(CGI::Carp) perl(CGI::Cookie) perl(CGI::File::Temp) perl(CGI::HTML::Functions) perl(CGI::MultipartBuffer) perl(CGI::Pretty) perl(CGI::Push) perl(CGI::Util) perl(Fh) perl-CGI"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(File::Temp) perl(HTML::Entities) perl(parent)"
+RPROVIDES:${PN} += "perl(CGI) \
+perl(CGI::Carp) \
+perl(CGI::Cookie) \
+perl(CGI::File::Temp) \
+perl(CGI::HTML::Functions) \
+perl(CGI::MultipartBuffer) \
+perl(CGI::Pretty) \
+perl(CGI::Push) \
+perl(CGI::Util) \
+perl(Fh) \
+perl-CGI"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(File::Temp) \
+perl(HTML::Entities) \
+perl(parent)"
 
 inherit rpm

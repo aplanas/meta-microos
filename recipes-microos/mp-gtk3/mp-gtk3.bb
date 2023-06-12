@@ -33,7 +33,29 @@ PV = "5.2.13"
 RPM_NAME = "mp-gtk3-5.2.13-1.26.aarch64.rpm"
 RPM_HASH = "3f96d12b60d7a1eabed112779a7dc8ccd2a37ea0a3b2d5bbd50161b445db69f92ae44f84506f769edb7e819506b6cdee2dcae9116f94d55cdab633e3e1a83294"
 
-RPROVIDES:${PN} += "application() application(mp-5-gtk3.desktop) mimehandler(text/plain) mp-gtk3 mp-gtk3(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcairo.so.2()(64bit) libgdk-3.so.0()(64bit) libgdk_pixbuf-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgtk-3.so.0()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.29)(64bit) libncursesw.so.6()(64bit) libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) libpango-1.0.so.0()(64bit) libpangocairo-1.0.so.0()(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) mp"
+RPROVIDES:${PN} += "application() \
+application(mp-5-gtk3.desktop) \
+mimehandler(text/plain) \
+mp-gtk3 \
+mp-gtk3(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcairo.so.2()(64bit) \
+libgdk-3.so.0()(64bit) \
+libgdk_pixbuf-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgtk-3.so.0()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libncursesw.so.6()(64bit) \
+libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
+libpango-1.0.so.0()(64bit) \
+libpangocairo-1.0.so.0()(64bit) \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
+mp"
 
 inherit rpm

@@ -31,7 +31,8 @@ RPM_NAME = "perl-Carp-Always-0.16-1.16.noarch.rpm"
 RPM_HASH = "77009fd0945e1502d3d60b9d30c76d9703c338b46650a1aa0f8ca71e2b586138ffc4ebae557b729b5d073adab22094bf87002fda832bbdd07c78f886664f5de1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Carp::Always) perl-Carp-Always"
+RPROVIDES:${PN} += "perl(Carp::Always) \
+perl-Carp-Always"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

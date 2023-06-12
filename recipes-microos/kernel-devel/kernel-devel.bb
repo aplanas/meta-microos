@@ -13,7 +13,10 @@ RPM_NAME = "kernel-devel-6.3.4-1.1.noarch.rpm"
 RPM_HASH = "90330003fc3ca1032e530f5857aec5993f8cfb1119f70b8fa9265f6219b82e6fa8f2251634da2466d2e98cfc355d74d07fe37662f60e300b36ecc11659349c57"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "kernel-devel multiversion(kernel)"
-RDEPENDS:${PN} += "/bin/sh coreutils kernel-macros"
+RPROVIDES:${PN} += "kernel-devel \
+multiversion(kernel)"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+kernel-macros"
 
 inherit rpm

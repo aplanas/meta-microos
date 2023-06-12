@@ -11,7 +11,10 @@ PV = "1.0"
 RPM_NAME = "fzy-1.0-1.16.aarch64.rpm"
 RPM_HASH = "504df92458b227c4cba60f5012a1b55d6c5c0039c0471e117c9ec0d1b60f07d17191aedef86742d689f182af432eab6af6bcfe7ab19b2d2e7a37f91ecde053a3"
 
-RPROVIDES:${PN} += "fzy fzy(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "fzy \
+fzy(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

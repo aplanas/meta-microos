@@ -22,7 +22,19 @@ RPM_NAME = "texlive-circuit-macros-2023.201.10.2svn66549-53.1.noarch.rpm"
 RPM_HASH = "fa7ee44bb71928f8bf60d79d8a78ed174ee4dfca080c0593dd7ee9547c7d29a0a76f9613af2ade6b6d4862c997c731dbe263233543a345c8a8e42cab8b86a4e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(boxdims.sty) texlive-circuit-macros"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(boxdims.sty) \
+texlive-circuit-macros"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

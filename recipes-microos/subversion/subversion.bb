@@ -11,7 +11,59 @@ PV = "1.14.2"
 RPM_NAME = "subversion-1.14.2-5.3.aarch64.rpm"
 RPM_HASH = "7e58a87e412137e8ad81b925d7015b357250d951322d404fd0a2664cc8d9d904a66f8b09066a8ae0580c3fb1ad9be31c4d9b2a481c60fb7cae54de7b5420c876"
 
-RPROVIDES:${PN} += "group(svn) libsvn_client-1.so.0()(64bit) libsvn_delta-1.so.0()(64bit) libsvn_diff-1.so.0()(64bit) libsvn_fs-1.so.0()(64bit) libsvn_fs_base-1.so.0()(64bit) libsvn_fs_fs-1.so.0()(64bit) libsvn_fs_util-1.so.0()(64bit) libsvn_fs_x-1.so.0()(64bit) libsvn_ra-1.so.0()(64bit) libsvn_ra_local-1.so.0()(64bit) libsvn_ra_serf-1.so.0()(64bit) libsvn_ra_svn-1.so.0()(64bit) libsvn_repos-1.so.0()(64bit) libsvn_subr-1.so.0()(64bit) libsvn_wc-1.so.0()(64bit) libsvnjavahl-1.so.0()(64bit) subversion subversion(aarch-64) subversion-javahl user(svn)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch fillup ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libapr-1.so.0()(64bit) libaprutil-1.so.0()(64bit) libc.so.6(GLIBC_2.34)(64bit) libdb-4.8.so()(64bit) libexpat.so.1()(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) liblz4.so.1()(64bit) libmagic.so.1()(64bit) libsasl2.so.3()(64bit) libserf-1.so.1()(64bit) libsqlite3-0 libsqlite3.so.0()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) libutf8proc.so.2()(64bit) libz.so.1()(64bit) libz.so.1(ZLIB_1.2.0)(64bit) systemd sysuser-shadow"
+RPROVIDES:${PN} += "group(svn) \
+libsvn_client-1.so.0()(64bit) \
+libsvn_delta-1.so.0()(64bit) \
+libsvn_diff-1.so.0()(64bit) \
+libsvn_fs-1.so.0()(64bit) \
+libsvn_fs_base-1.so.0()(64bit) \
+libsvn_fs_fs-1.so.0()(64bit) \
+libsvn_fs_util-1.so.0()(64bit) \
+libsvn_fs_x-1.so.0()(64bit) \
+libsvn_ra-1.so.0()(64bit) \
+libsvn_ra_local-1.so.0()(64bit) \
+libsvn_ra_serf-1.so.0()(64bit) \
+libsvn_ra_svn-1.so.0()(64bit) \
+libsvn_repos-1.so.0()(64bit) \
+libsvn_subr-1.so.0()(64bit) \
+libsvn_wc-1.so.0()(64bit) \
+libsvnjavahl-1.so.0()(64bit) \
+subversion \
+subversion(aarch-64) \
+subversion-javahl \
+user(svn)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+fillup \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libapr-1.so.0()(64bit) \
+libaprutil-1.so.0()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libdb-4.8.so()(64bit) \
+libexpat.so.1()(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+liblz4.so.1()(64bit) \
+libmagic.so.1()(64bit) \
+libsasl2.so.3()(64bit) \
+libserf-1.so.1()(64bit) \
+libsqlite3-0 \
+libsqlite3.so.0()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
+libutf8proc.so.2()(64bit) \
+libz.so.1()(64bit) \
+libz.so.1(ZLIB_1.2.0)(64bit) \
+systemd \
+sysuser-shadow"
 
 inherit rpm

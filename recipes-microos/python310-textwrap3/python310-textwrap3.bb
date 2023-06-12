@@ -22,7 +22,10 @@ RPM_NAME = "python310-textwrap3-0.9.2-1.14.noarch.rpm"
 RPM_HASH = "b1068e11e55c6241b59e1bd881d08131dff8e937a0535374199fb1943ad8d6e6ebd1c1ac15240dc22a270dd3741e18becb7877974205e3954071885352be6b57"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-textwrap3 python3.10dist(textwrap3) python310-textwrap3 python3dist(textwrap3)"
+RPROVIDES:${PN} += "python3-textwrap3 \
+python3.10dist(textwrap3) \
+python310-textwrap3 \
+python3dist(textwrap3)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

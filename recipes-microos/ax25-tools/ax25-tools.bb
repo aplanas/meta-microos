@@ -10,7 +10,14 @@ PV = "0.0.10rc5"
 RPM_NAME = "ax25-tools-0.0.10rc5-1.8.aarch64.rpm"
 RPM_HASH = "f179c53b1b1abe64f7cff15bdd5f3436946da4e4d1a4df9d4f234b6507a31ec2fc08028fd50a90d55d4174fb162b4dd67407303abdcc967d715159bc8aba95f5"
 
-RPROVIDES:${PN} += "ax25-tools ax25-tools(aarch-64) config(ax25-tools)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libax25.so.0()(64bit) libc.so.6(GLIBC_2.34)(64bit) libz.so.1()(64bit)"
+RPROVIDES:${PN} += "ax25-tools \
+ax25-tools(aarch-64) \
+config(ax25-tools)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libax25.so.0()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libz.so.1()(64bit)"
 
 inherit rpm

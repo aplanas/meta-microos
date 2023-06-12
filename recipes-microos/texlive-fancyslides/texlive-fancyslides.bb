@@ -13,7 +13,21 @@ RPM_NAME = "texlive-fancyslides-2023.201.1.0svn36263-52.1.noarch.rpm"
 RPM_HASH = "327599b7959b84ecf278a637bcf3fcf68169df236cf56a72cfa7a9eb3bb8a76f7072c5da31e8d9cb695ffd64fb37ea01071dac708f37711f668c078abd3f1235"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fancyslides.cls) texlive-fancyslides"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(framed.sty) tex(tikz.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(fancyslides.cls) \
+texlive-fancyslides"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(framed.sty) \
+tex(tikz.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

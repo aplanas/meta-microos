@@ -55,7 +55,10 @@ RPM_NAME = "python310-zope.testing-5.0.1-2.1.noarch.rpm"
 RPM_HASH = "4286b3c40b43b12d4caaf32a0e9e9c9595700f31dbf2c78612a4c17d55eaddb138a91c9ef28f8bea4cf95186e0d645206c20efec03d862756673badc04426d30"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-zope.testing python3.10dist(zope.testing) python310-zope.testing python3dist(zope.testing)"
+RPROVIDES:${PN} += "python3-zope.testing \
+python3.10dist(zope.testing) \
+python310-zope.testing \
+python3dist(zope.testing)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

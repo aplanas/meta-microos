@@ -13,7 +13,20 @@ RPM_NAME = "texlive-xpunctuate-2023.201.1.0svn26641-52.1.noarch.rpm"
 RPM_HASH = "c239f2cbe11ad396b86acb9b173c9730b262092a525747b1740aaf0754d0222b7055cf736089b2d5e9435c16520fab10abdbbd224b7466042295eb10c8e6bbc9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xpunctuate.sty) texlive-xpunctuate"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(xspace.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(xpunctuate.sty) \
+texlive-xpunctuate"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(xspace.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

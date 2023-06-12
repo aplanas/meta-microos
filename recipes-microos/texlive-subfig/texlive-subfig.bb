@@ -24,7 +24,23 @@ RPM_NAME = "texlive-subfig-2023.201.1.3svn15878-57.1.noarch.rpm"
 RPM_HASH = "d150367b4fdd53ed9bb834ca3b803a82ec3795081749f85d422f24e832eb750aa4d6a565265cb89a7cbd08287ce5638ae9f444638c234fc9d8543340e55af922"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(altsf.cfg) tex(subfig.sty) texlive-subfig"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(caption.sty) tex(caption3.sty) tex(keyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(altsf.cfg) \
+tex(subfig.sty) \
+texlive-subfig"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(caption.sty) \
+tex(caption3.sty) \
+tex(keyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

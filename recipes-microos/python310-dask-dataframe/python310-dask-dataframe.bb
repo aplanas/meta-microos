@@ -24,7 +24,13 @@ RPM_NAME = "python310-dask-dataframe-2023.3.2-3.1.noarch.rpm"
 RPM_HASH = "247aac017cd6b728d4c33e39a333a4f596c05d77f9348726d4b7d923b3a376c11885d672a08bec26ea628c24a3f43c0f415b0d70e2d94afdb9ac2a1734a373f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dask-dataframe python310-dask-dataframe"
-RDEPENDS:${PN} += "python(abi) python310-dask python310-dask-array python310-dask-bag python310-numpy python310-pandas"
+RPROVIDES:${PN} += "python3-dask-dataframe \
+python310-dask-dataframe"
+RDEPENDS:${PN} += "python(abi) \
+python310-dask \
+python310-dask-array \
+python310-dask-bag \
+python310-numpy \
+python310-pandas"
 
 inherit rpm

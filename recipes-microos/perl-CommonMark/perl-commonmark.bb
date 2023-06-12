@@ -14,7 +14,15 @@ PV = "0.290000"
 RPM_NAME = "perl-CommonMark-0.290000-4.23.aarch64.rpm"
 RPM_HASH = "bed737e9a335fd6872e58a5fed607a00e4809b2d938e90ecb1c419effcc48b47344718c244518456b71dcd85862150c5636b087d529550ff66ec0e07b2d96ce6"
 
-RPROVIDES:${PN} += "perl(CommonMark) perl(CommonMark::Node) perl-CommonMark perl-CommonMark(aarch-64)"
-RDEPENDS:${PN} += "cmark ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libcmark.so.0.30.3()(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(CommonMark) \
+perl(CommonMark::Node) \
+perl-CommonMark \
+perl-CommonMark(aarch-64)"
+RDEPENDS:${PN} += "cmark \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libcmark.so.0.30.3()(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

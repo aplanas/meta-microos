@@ -11,6 +11,7 @@ RPM_HASH = "d9a147253f0cf2874327b507d6a5565519020dc33ec10705fe3094f5bd5604b4dca5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyvue-nbextension"
-RDEPENDS:${PN} += "jupyter-notebook python3dist(ipyvue)"
+RDEPENDS:${PN} += "jupyter-notebook \
+python3dist(ipyvue)"
 
 inherit rpm

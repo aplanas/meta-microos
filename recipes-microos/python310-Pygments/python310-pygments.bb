@@ -17,7 +17,15 @@ RPM_NAME = "python310-Pygments-2.15.1-2.1.noarch.rpm"
 RPM_HASH = "f8c33956ca750ab65216520ab2d9622d6b1beab5b11654fa6895e260c118c6c9ecb278724ce73da992179c1e485cbb82a7b52ef85f61755510e3da1a94dc5482"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Pygments python3-pygments python3.10dist(pygments) python310-Pygments python310-pygments python3dist(pygments)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 alts python(abi)"
+RPROVIDES:${PN} += "python3-Pygments \
+python3-pygments \
+python3.10dist(pygments) \
+python310-Pygments \
+python310-pygments \
+python3dist(pygments)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+alts \
+python(abi)"
 
 inherit rpm

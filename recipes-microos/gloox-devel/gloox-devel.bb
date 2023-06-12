@@ -11,7 +11,12 @@ PV = "1.0.24"
 RPM_NAME = "gloox-devel-1.0.24-2.5.aarch64.rpm"
 RPM_HASH = "1060920e482b2dd9cda719f2e00870d33c2d6805ff66852a54c008a1740ae9364f1cf42a7a61e018ddab9d817adee5ea09693a7afa48e4b173dfffe0c25ac880"
 
-RPROVIDES:${PN} += "gloox-devel gloox-devel(aarch-64) pkgconfig(gloox)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config libgloox18 libstdc++-devel"
+RPROVIDES:${PN} += "gloox-devel \
+gloox-devel(aarch-64) \
+pkgconfig(gloox)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/pkg-config \
+libgloox18 \
+libstdc++-devel"
 
 inherit rpm

@@ -19,7 +19,29 @@ RPM_NAME = "texlive-diabetes-logbook-2023.201.svn54810-52.1.noarch.rpm"
 RPM_HASH = "c017b93275d7d661810ce0626bb4e46861301f029f7cbaf628ba80dd0eb2d81afb5e27f9118bce535544ed0d0412600e5c9e992770011e6d5ff765e3d8dc0616"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dmlb.sty) texlive-diabetes-logbook"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(babel.sty) tex(bookmark.sty) tex(ellipsis.sty) tex(fontspec.sty) tex(pgf.sty) tex(pgfcalendar.sty) tex(pgfplots.sty) tex(pgfplotstable.sty) tex(polyglossia.sty) tex(xcolor.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(dmlb.sty) \
+texlive-diabetes-logbook"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(babel.sty) \
+tex(bookmark.sty) \
+tex(ellipsis.sty) \
+tex(fontspec.sty) \
+tex(pgf.sty) \
+tex(pgfcalendar.sty) \
+tex(pgfplots.sty) \
+tex(pgfplotstable.sty) \
+tex(polyglossia.sty) \
+tex(xcolor.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

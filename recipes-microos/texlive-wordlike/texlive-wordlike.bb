@@ -16,7 +16,23 @@ RPM_NAME = "texlive-wordlike-2023.201.1.2bsvn15878-53.1.noarch.rpm"
 RPM_HASH = "a64e5c2087949cda0d40693927eb10217c17ca967a643b77104eebf0106ec61cc3b5c5f04a5029062a5749dc9890941ec8da6836ae7785cd7e8b2450add8f99f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(wordlike.sty) texlive-wordlike"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(courier.sty) tex(geometry.sty) tex(helvet.sty) tex(mathptmx.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(wordlike.sty) \
+texlive-wordlike"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(courier.sty) \
+tex(geometry.sty) \
+tex(helvet.sty) \
+tex(mathptmx.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

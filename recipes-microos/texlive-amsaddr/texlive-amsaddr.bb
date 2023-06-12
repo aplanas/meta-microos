@@ -12,7 +12,19 @@ RPM_NAME = "texlive-amsaddr-2023.201.1.2svn64357-54.1.noarch.rpm"
 RPM_HASH = "ce215f0ae2ddb9f035614ff03afbf4ab8d8e16f2bd0f9ee44250185d38331178b9c85c44b81fb63eae78f2817ec05257489e2a3e4503ec3f830ae5a8efdbf877"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(amsaddr.sty) texlive-amsaddr"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(amsaddr.sty) \
+texlive-amsaddr"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

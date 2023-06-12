@@ -23,7 +23,17 @@ PV = "2.2"
 RPM_NAME = "xteddy-2.2-27.20.aarch64.rpm"
 RPM_HASH = "e197fc8ce5707119a0ec55aa06b8e9bc1a57c05b0edbc18ea22190d2e04cdd78d68fabd16d8c28621846c4e1b4fdc7b0e88a219ecdc595cb462e628167c9ada8"
 
-RPROVIDES:${PN} += "xteddy xteddy(aarch-64) xteddy10"
-RDEPENDS:${PN} += "/bin/bash /bin/sh imlib2-loaders ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libImlib2.so.1()(64bit) libX11.so.6()(64bit) libXext.so.6()(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "xteddy \
+xteddy(aarch-64) \
+xteddy10"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+imlib2-loaders \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libImlib2.so.1()(64bit) \
+libX11.so.6()(64bit) \
+libXext.so.6()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

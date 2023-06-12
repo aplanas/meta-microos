@@ -19,7 +19,12 @@ RPM_NAME = "python39-argcomplete-3.0.8-2.1.noarch.rpm"
 RPM_HASH = "b671ce9b8275b0f64790ed3c28f1da4be4c0c87c62341621f109c6ef1ee5e30dbbf674fdc0c52423dc724903170b74f7dc3a1c08488cf0a284bffd9f739efc22"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(argcomplete) python39-argcomplete python3dist(argcomplete)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(argcomplete) \
+python39-argcomplete \
+python3dist(argcomplete)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "b37d9bfb9537382bc8f0620a8fa2bd2f89d1571f8f95dda99a072966a7d01085c80b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-kiwi_label_helper"
-RDEPENDS:${PN} += "/bin/bash libxslt-tools"
+RDEPENDS:${PN} += "/bin/bash \
+libxslt-tools"
 
 inherit rpm

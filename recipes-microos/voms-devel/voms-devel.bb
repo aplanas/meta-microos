@@ -14,7 +14,13 @@ PV = "2.1.0~rc3"
 RPM_NAME = "voms-devel-2.1.0~rc3-1.3.aarch64.rpm"
 RPM_HASH = "042d73b3c2c2b2e3566f9e4e12f088d5a2c4cc8e33a90d56c6a1061463796b2fb2b6b194cdf3e3751b366e30821ef320f04e2d0c7309c8a875012c19c05ff442"
 
-RPROVIDES:${PN} += "pkgconfig(voms-2.0) voms-devel voms-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config automake libopenssl-devel libvomsapi1(aarch-64) pkgconfig(openssl)"
+RPROVIDES:${PN} += "pkgconfig(voms-2.0) \
+voms-devel \
+voms-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+automake \
+libopenssl-devel \
+libvomsapi1(aarch-64) \
+pkgconfig(openssl)"
 
 inherit rpm

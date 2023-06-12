@@ -14,7 +14,15 @@ RPM_NAME = "python39-azure-keyvault-administration-4.3.0-1.2.noarch.rpm"
 RPM_HASH = "23cf3d6f9c0e1c807198ded018a6a830660d3f45574eccf56f9ae0fbff89d2504169aec7d03299bb9adf1ef4a0cb3113a3b2025047134e5a63e7f411f6b3bb9a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-keyvault-administration) python39-azure-keyvault-administration python3dist(azure-keyvault-administration)"
-RDEPENDS:${PN} += "(python39-typing_extensions >= 4.0.1 if python39-base < 3.8) python(abi) python39-azure-common python39-azure-core python39-azure-keyvault-nspkg python39-azure-nspkg python39-isodate"
+RPROVIDES:${PN} += "python3.9dist(azure-keyvault-administration) \
+python39-azure-keyvault-administration \
+python3dist(azure-keyvault-administration)"
+RDEPENDS:${PN} += "(python39-typing_extensions >= 4.0.1 if python39-base < 3.8) \
+python(abi) \
+python39-azure-common \
+python39-azure-core \
+python39-azure-keyvault-nspkg \
+python39-azure-nspkg \
+python39-isodate"
 
 inherit rpm

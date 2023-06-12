@@ -10,7 +10,10 @@ PV = "1.5"
 RPM_NAME = "ispell-finnish-1.5-422.6.aarch64.rpm"
 RPM_HASH = "be212e33eb3048746ad9412aefd2126f40ad07f0f1f34d114263e04b94c50b77d11e665473944c2777bf6a340786729d8769876a3443fe67a0c724312ff34b80"
 
-RPROVIDES:${PN} += "ispell-finnish ispell-finnish(aarch-64) ispell_dictionary locale(ispell:fi)"
+RPROVIDES:${PN} += "ispell-finnish \
+ispell-finnish(aarch-64) \
+ispell_dictionary \
+locale(ispell:fi)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

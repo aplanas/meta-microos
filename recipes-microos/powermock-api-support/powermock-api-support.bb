@@ -15,7 +15,14 @@ RPM_NAME = "powermock-api-support-1.6.5-4.10.noarch.rpm"
 RPM_HASH = "c75b532b0bde077df508806b2d5aac4f43336f9e590b99b3e07077a08c85f5baec50ead175739b59eff761e5356b60560149afac6f3b40816f004fd7bdee6503"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.powermock:powermock-api-support) mvn(org.powermock:powermock-api-support:pom:) osgi(org.powermock.powermock-api-support) powermock-api-support"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(org.powermock:powermock-core) mvn(org.powermock:powermock-reflect) powermock-common"
+RPROVIDES:${PN} += "mvn(org.powermock:powermock-api-support) \
+mvn(org.powermock:powermock-api-support:pom:) \
+osgi(org.powermock.powermock-api-support) \
+powermock-api-support"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(org.powermock:powermock-core) \
+mvn(org.powermock:powermock-reflect) \
+powermock-common"
 
 inherit rpm

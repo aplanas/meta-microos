@@ -10,7 +10,13 @@ RPM_NAME = "python39-azure-graphrbac-0.61.1-2.11.noarch.rpm"
 RPM_HASH = "11791bc01ccb0bbdeb3aa9da03d2ead41549ebbf43699ee1d88a9304a060b85115af7118d60dc21cef08f3916816c2fd7fa6811eabf305481f4a3c82076625e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-graphrbac) python39-azure-graphrbac python3dist(azure-graphrbac)"
-RDEPENDS:${PN} += "python(abi) python39-azure-common python39-azure-nspkg python39-msrest python39-msrestazure"
+RPROVIDES:${PN} += "python3.9dist(azure-graphrbac) \
+python39-azure-graphrbac \
+python3dist(azure-graphrbac)"
+RDEPENDS:${PN} += "python(abi) \
+python39-azure-common \
+python39-azure-nspkg \
+python39-msrest \
+python39-msrestazure"
 
 inherit rpm

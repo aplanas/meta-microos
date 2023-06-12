@@ -9,6 +9,9 @@ RPM_HASH = "f2e942575f655341ac9b68cf9f52341f54b5c573b0e5703a65ce4ce1258ade4a6dcf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-caffeine"
-RDEPENDS:${PN} += "bumblebee-status libnotify-tools xdotool xprop"
+RDEPENDS:${PN} += "bumblebee-status \
+libnotify-tools \
+xdotool \
+xprop"
 
 inherit rpm

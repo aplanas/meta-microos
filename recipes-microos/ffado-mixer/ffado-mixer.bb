@@ -18,7 +18,13 @@ RPM_NAME = "ffado-mixer-2.4.3-3.1.noarch.rpm"
 RPM_HASH = "e8cbfdd0ebc1f1e9eb1e1f59dd1d4d74298712142f973a867150c47aea8fbfaa85529a26695b2a0d47eac038054cdc3e0f3a6d338c8adc7dc2ded6a456dd6bdf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(ffadomixer.desktop) ffado-mixer metainfo() metainfo(ffado-mixer.appdata.xml)"
-RDEPENDS:${PN} += "/usr/bin/python3 ffado python(abi)"
+RPROVIDES:${PN} += "application() \
+application(ffadomixer.desktop) \
+ffado-mixer \
+metainfo() \
+metainfo(ffado-mixer.appdata.xml)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+ffado \
+python(abi)"
 
 inherit rpm

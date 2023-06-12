@@ -16,7 +16,19 @@ RPM_NAME = "texlive-subeqn-2023.201.2.0bsvn15878-57.1.noarch.rpm"
 RPM_HASH = "b2613c8cde6b705c47de66eced2521b60878bfc539a9ff280f352a0a1d609500ebf3377242263a02b040a4c1f2e42fa44132d7384075a9c17637586ad0373400"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(subeqn.sty) texlive-subeqn"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(subeqn.sty) \
+texlive-subeqn"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

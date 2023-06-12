@@ -32,7 +32,8 @@ RPM_NAME = "perl-Unicode-EastAsianWidth-12.0-1.12.noarch.rpm"
 RPM_HASH = "d45606ee3aa61961a41e8c58b91e5b6b1aa4c98d31b3d2eb213c99f382e7e7fb893a719ba620acef77a10edde5a212397c88b1b7fa5088b11fc5c8e7c82742b0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Unicode::EastAsianWidth) perl-Unicode-EastAsianWidth"
+RPROVIDES:${PN} += "perl(Unicode::EastAsianWidth) \
+perl-Unicode-EastAsianWidth"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

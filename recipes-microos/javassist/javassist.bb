@@ -18,7 +18,13 @@ RPM_NAME = "javassist-3.29.2-1.2.noarch.rpm"
 RPM_HASH = "4b2f6808b8319123494f095204fc147354e061c42bec01de952530ae5464652390b75cfb79b58cd58f9bb320e25602cb1a88ba02f8c35b0e1f75a88abd3ee6f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "javassist mvn(javassist:javassist) mvn(javassist:javassist:pom:) mvn(org.javassist:javassist) mvn(org.javassist:javassist:pom:) osgi(javassist)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "javassist \
+mvn(javassist:javassist) \
+mvn(javassist:javassist:pom:) \
+mvn(org.javassist:javassist) \
+mvn(org.javassist:javassist:pom:) \
+osgi(javassist)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

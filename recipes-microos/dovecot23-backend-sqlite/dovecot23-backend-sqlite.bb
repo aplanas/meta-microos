@@ -15,7 +15,15 @@ PV = "2.3.20"
 RPM_NAME = "dovecot23-backend-sqlite-2.3.20-3.2.aarch64.rpm"
 RPM_HASH = "4741ceecc2a93553b5f765a862cd0625bf1525ba62cf54fb5b351215bbb760bdbaa8f719e066e44a07bf27a90d9821d3d3b512ced9adb8a1289063d1a42c376b"
 
-RPROVIDES:${PN} += "dovecot-backend-sqlite dovecot23-backend-sqlite dovecot23-backend-sqlite(aarch-64) dovecot_sql_backend libdriver_sqlite.so()(64bit)"
-RDEPENDS:${PN} += "dovecot23 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libsqlite3.so.0()(64bit)"
+RPROVIDES:${PN} += "dovecot-backend-sqlite \
+dovecot23-backend-sqlite \
+dovecot23-backend-sqlite(aarch-64) \
+dovecot_sql_backend \
+libdriver_sqlite.so()(64bit)"
+RDEPENDS:${PN} += "dovecot23 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libsqlite3.so.0()(64bit)"
 
 inherit rpm

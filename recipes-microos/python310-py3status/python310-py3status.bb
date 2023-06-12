@@ -18,7 +18,15 @@ RPM_NAME = "python310-py3status-3.50-1.1.noarch.rpm"
 RPM_HASH = "e92103b3e277e22378721662b19861507dcec6f652025fa2dd08951ee53f2f745c6d43c637cb9afb433e37aeef9fcfb572bfd822db7ae8ea69a2f169011fccc2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "py3status python3-py3status python3.10dist(py3status) python310-py3status python3dist(py3status)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-setuptools update-alternatives"
+RPROVIDES:${PN} += "py3status \
+python3-py3status \
+python3.10dist(py3status) \
+python310-py3status \
+python3dist(py3status)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-setuptools \
+update-alternatives"
 
 inherit rpm

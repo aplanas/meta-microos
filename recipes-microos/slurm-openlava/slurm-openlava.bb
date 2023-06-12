@@ -9,6 +9,7 @@ RPM_HASH = "e47293057f5b9fcb06b95d6201ed8aae9e2c3dd2cf14556ee2b18df2a155d12673e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slurm-openlava"
-RDEPENDS:${PN} += "/usr/bin/perl perl-slurm"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl-slurm"
 
 inherit rpm

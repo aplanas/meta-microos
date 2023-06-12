@@ -13,7 +13,15 @@ RPM_NAME = "python311-azure-mgmt-frontdoor-1.1.0-1.1.noarch.rpm"
 RPM_HASH = "c202732f29bcae18f9451d07001f548cda378cf33715b86e3222b18e9134e620455ee365f819d43ce103bf75d13838d1079636a947b05292dee158de47d54307"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-frontdoor) python311-azure-mgmt-frontdoor python3dist(azure-mgmt-frontdoor)"
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) python(abi) python311-azure-common python311-azure-mgmt-core python311-azure-mgmt-nspkg python311-azure-nspkg python311-isodate"
+RPROVIDES:${PN} += "python3.11dist(azure-mgmt-frontdoor) \
+python311-azure-mgmt-frontdoor \
+python3dist(azure-mgmt-frontdoor)"
+RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
+python(abi) \
+python311-azure-common \
+python311-azure-mgmt-core \
+python311-azure-mgmt-nspkg \
+python311-azure-nspkg \
+python311-isodate"
 
 inherit rpm

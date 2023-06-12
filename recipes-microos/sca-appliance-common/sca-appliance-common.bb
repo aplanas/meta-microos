@@ -9,6 +9,15 @@ RPM_HASH = "74b70753d40bfb6c6c94ec25dc1d54daa24b4b7962db22a9770894a30fb21048948c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sca-appliance-common"
-RDEPENDS:${PN} += "/bin/logger /bin/ping /usr/bin/awk /usr/bin/dos2unix /usr/bin/sed /usr/bin/ssh /usr/bin/vmstat /usr/sbin/mysqld apache2 curl"
+RDEPENDS:${PN} += "/bin/logger \
+/bin/ping \
+/usr/bin/awk \
+/usr/bin/dos2unix \
+/usr/bin/sed \
+/usr/bin/ssh \
+/usr/bin/vmstat \
+/usr/sbin/mysqld \
+apache2 \
+curl"
 
 inherit rpm

@@ -12,6 +12,21 @@ RPM_HASH = "4833621e5a8ad96a6b831e81c13adef8df4f35d456291ee5c1c75687cfa2681e7673
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-findhyph"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Getopt::Std) perl(warnings) sed texlive texlive-filesystem texlive-findhyph-bin texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Getopt::Std) \
+perl(warnings) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-findhyph-bin \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

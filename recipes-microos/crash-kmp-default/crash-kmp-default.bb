@@ -16,7 +16,17 @@ PV = "8.0.3_k6.3.4_1"
 RPM_NAME = "crash-kmp-default-8.0.3_k6.3.4_1-1.4.aarch64.rpm"
 RPM_HASH = "b225c98be2919f5877da0744bc4036d1c8594a4db87f9c3e1aecf4c47e85acfef30bc1d8bc6ea9776fe23c19748429600722a7d1d147ef4fd4bad5626f125536"
 
-RPROVIDES:${PN} += "crash-kmp crash-kmp-default crash-kmp-default(aarch-64) crash-kmp-default-k6.3.4_1 kmod(crash.ko) multiversion(kernel)"
-RDEPENDS:${PN} += "/bin/sh coreutils grep kernel-default kernel-uname-r suse-kernel-rpm-scriptlets"
+RPROVIDES:${PN} += "crash-kmp \
+crash-kmp-default \
+crash-kmp-default(aarch-64) \
+crash-kmp-default-k6.3.4_1 \
+kmod(crash.ko) \
+multiversion(kernel)"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+grep \
+kernel-default \
+kernel-uname-r \
+suse-kernel-rpm-scriptlets"
 
 inherit rpm

@@ -8,7 +8,24 @@ PV = "0.3.4"
 RPM_NAME = "soapysdr0.8-module-hackrf-0.3.4-1.3.aarch64.rpm"
 RPM_HASH = "475c0ada14865a35f4db8f80009c32b1fb2875f4821c6839250b162dd8b541cf4591302cc182feaaab073bc3e54b39d4c4ca7a8d0cfb725a3f48424e21ee89b5"
 
-RPROVIDES:${PN} += "libHackRFSupport.so()(64bit) soapysdr0.8-module-hackrf soapysdr0.8-module-hackrf(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libSoapySDR.so.0.8()(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libhackrf.so.0()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.19)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit)"
+RPROVIDES:${PN} += "libHackRFSupport.so()(64bit) \
+soapysdr0.8-module-hackrf \
+soapysdr0.8-module-hackrf(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libSoapySDR.so.0.8()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libhackrf.so.0()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.19)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit)"
 
 inherit rpm

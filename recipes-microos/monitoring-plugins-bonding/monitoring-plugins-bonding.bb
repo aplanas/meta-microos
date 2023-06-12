@@ -12,7 +12,9 @@ RPM_NAME = "monitoring-plugins-bonding-0.002-108.8.noarch.rpm"
 RPM_HASH = "1d90601528bcd58db00c49b9aec075f46d447f820a846c124683aa0dd435cce74680240c49c67c33e522bfa278cf79b6f406f7f395b37160c244fbf6ea6a02a5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(monitoring-plugins-bonding) monitoring-plugins-bonding nagios-plugins-bonding"
+RPROVIDES:${PN} += "config(monitoring-plugins-bonding) \
+monitoring-plugins-bonding \
+nagios-plugins-bonding"
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

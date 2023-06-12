@@ -26,7 +26,12 @@ RPM_NAME = "xmlstreambuffer-1.5.4-3.4.noarch.rpm"
 RPM_HASH = "88a7ecbd0b27dfb3fe3b25f6ff95005d3e15c811afd013559f5064e4fcef55780eab938f401cee61fe925b2d8e157fe2bc6e2b717768cacac10dbdc6b894afdd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(com.sun.xml.stream.buffer:streambuffer) mvn(com.sun.xml.stream.buffer:streambuffer:pom:) osgi(com.sun.xml.stream.buffer.streambuffer) xmlstreambuffer"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(org.jvnet.staxex:stax-ex)"
+RPROVIDES:${PN} += "mvn(com.sun.xml.stream.buffer:streambuffer) \
+mvn(com.sun.xml.stream.buffer:streambuffer:pom:) \
+osgi(com.sun.xml.stream.buffer.streambuffer) \
+xmlstreambuffer"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(org.jvnet.staxex:stax-ex)"
 
 inherit rpm

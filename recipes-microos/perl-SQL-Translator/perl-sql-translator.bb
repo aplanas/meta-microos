@@ -22,7 +22,98 @@ RPM_NAME = "perl-SQL-Translator-1.63-1.1.noarch.rpm"
 RPM_HASH = "842a7673669e2165cfec3df750406b48dea6b0582d4f56512076124e22848911662a8bb23875bce9dcf31b6c21315fe23f10bb7b0606f63b20c9a9e3c1dcce4b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Parse::RecDescent::SQL::Translator::Parser::DB2::Grammar) perl(SQL::Translator) perl(SQL::Translator::Diff) perl(SQL::Translator::Filter::DefaultExtra) perl(SQL::Translator::Filter::Globals) perl(SQL::Translator::Filter::Names) perl(SQL::Translator::Generator::DDL::MySQL) perl(SQL::Translator::Generator::DDL::PostgreSQL) perl(SQL::Translator::Generator::DDL::SQLServer) perl(SQL::Translator::Generator::DDL::SQLite) perl(SQL::Translator::Generator::Role::DDL) perl(SQL::Translator::Generator::Role::Quote) perl(SQL::Translator::Parser) perl(SQL::Translator::Parser::Access) perl(SQL::Translator::Parser::DB2) perl(SQL::Translator::Parser::DB2::Grammar) perl(SQL::Translator::Parser::DBI) perl(SQL::Translator::Parser::DBI::DB2) perl(SQL::Translator::Parser::DBI::MySQL) perl(SQL::Translator::Parser::DBI::Oracle) perl(SQL::Translator::Parser::DBI::PostgreSQL) perl(SQL::Translator::Parser::DBI::SQLServer) perl(SQL::Translator::Parser::DBI::SQLite) perl(SQL::Translator::Parser::DBI::Sybase) perl(SQL::Translator::Parser::Excel) perl(SQL::Translator::Parser::JSON) perl(SQL::Translator::Parser::MySQL) perl(SQL::Translator::Parser::Oracle) perl(SQL::Translator::Parser::PostgreSQL) perl(SQL::Translator::Parser::SQLServer) perl(SQL::Translator::Parser::SQLite) perl(SQL::Translator::Parser::Storable) perl(SQL::Translator::Parser::Sybase) perl(SQL::Translator::Parser::XML) perl(SQL::Translator::Parser::XML::SQLFairy) perl(SQL::Translator::Parser::YAML) perl(SQL::Translator::Parser::xSV) perl(SQL::Translator::Producer) perl(SQL::Translator::Producer::ClassDBI) perl(SQL::Translator::Producer::DB2) perl(SQL::Translator::Producer::DiaUml) perl(SQL::Translator::Producer::Diagram) perl(SQL::Translator::Producer::Dumper) perl(SQL::Translator::Producer::GraphViz) perl(SQL::Translator::Producer::HTML) perl(SQL::Translator::Producer::JSON) perl(SQL::Translator::Producer::Latex) perl(SQL::Translator::Producer::MySQL) perl(SQL::Translator::Producer::Oracle) perl(SQL::Translator::Producer::POD) perl(SQL::Translator::Producer::PostgreSQL) perl(SQL::Translator::Producer::SQLServer) perl(SQL::Translator::Producer::SQLite) perl(SQL::Translator::Producer::Storable) perl(SQL::Translator::Producer::Sybase) perl(SQL::Translator::Producer::TT::Base) perl(SQL::Translator::Producer::TT::Table) perl(SQL::Translator::Producer::TTSchema) perl(SQL::Translator::Producer::XML) perl(SQL::Translator::Producer::XML::SQLFairy) perl(SQL::Translator::Producer::YAML) perl(SQL::Translator::Role::BuildArgs) perl(SQL::Translator::Role::Debug) perl(SQL::Translator::Role::Error) perl(SQL::Translator::Role::ListAttr) perl(SQL::Translator::Schema) perl(SQL::Translator::Schema::Constants) perl(SQL::Translator::Schema::Constraint) perl(SQL::Translator::Schema::Field) perl(SQL::Translator::Schema::Index) perl(SQL::Translator::Schema::Object) perl(SQL::Translator::Schema::Procedure) perl(SQL::Translator::Schema::Role::Compare) perl(SQL::Translator::Schema::Role::Extra) perl(SQL::Translator::Schema::Table) perl(SQL::Translator::Schema::Trigger) perl(SQL::Translator::Schema::View) perl(SQL::Translator::Types) perl(SQL::Translator::Utils) perl(SQL::Translator::Utils::Error) perl(Test::SQL::Translator) perl-SQL-Translator"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Carp::Clan) perl(DBI) perl(Digest::SHA) perl(File::ShareDir) perl(Moo) perl(Package::Variant) perl(Parse::RecDescent) perl(Sub::Quote) perl(Try::Tiny)"
+RPROVIDES:${PN} += "perl(Parse::RecDescent::SQL::Translator::Parser::DB2::Grammar) \
+perl(SQL::Translator) \
+perl(SQL::Translator::Diff) \
+perl(SQL::Translator::Filter::DefaultExtra) \
+perl(SQL::Translator::Filter::Globals) \
+perl(SQL::Translator::Filter::Names) \
+perl(SQL::Translator::Generator::DDL::MySQL) \
+perl(SQL::Translator::Generator::DDL::PostgreSQL) \
+perl(SQL::Translator::Generator::DDL::SQLServer) \
+perl(SQL::Translator::Generator::DDL::SQLite) \
+perl(SQL::Translator::Generator::Role::DDL) \
+perl(SQL::Translator::Generator::Role::Quote) \
+perl(SQL::Translator::Parser) \
+perl(SQL::Translator::Parser::Access) \
+perl(SQL::Translator::Parser::DB2) \
+perl(SQL::Translator::Parser::DB2::Grammar) \
+perl(SQL::Translator::Parser::DBI) \
+perl(SQL::Translator::Parser::DBI::DB2) \
+perl(SQL::Translator::Parser::DBI::MySQL) \
+perl(SQL::Translator::Parser::DBI::Oracle) \
+perl(SQL::Translator::Parser::DBI::PostgreSQL) \
+perl(SQL::Translator::Parser::DBI::SQLServer) \
+perl(SQL::Translator::Parser::DBI::SQLite) \
+perl(SQL::Translator::Parser::DBI::Sybase) \
+perl(SQL::Translator::Parser::Excel) \
+perl(SQL::Translator::Parser::JSON) \
+perl(SQL::Translator::Parser::MySQL) \
+perl(SQL::Translator::Parser::Oracle) \
+perl(SQL::Translator::Parser::PostgreSQL) \
+perl(SQL::Translator::Parser::SQLServer) \
+perl(SQL::Translator::Parser::SQLite) \
+perl(SQL::Translator::Parser::Storable) \
+perl(SQL::Translator::Parser::Sybase) \
+perl(SQL::Translator::Parser::XML) \
+perl(SQL::Translator::Parser::XML::SQLFairy) \
+perl(SQL::Translator::Parser::YAML) \
+perl(SQL::Translator::Parser::xSV) \
+perl(SQL::Translator::Producer) \
+perl(SQL::Translator::Producer::ClassDBI) \
+perl(SQL::Translator::Producer::DB2) \
+perl(SQL::Translator::Producer::DiaUml) \
+perl(SQL::Translator::Producer::Diagram) \
+perl(SQL::Translator::Producer::Dumper) \
+perl(SQL::Translator::Producer::GraphViz) \
+perl(SQL::Translator::Producer::HTML) \
+perl(SQL::Translator::Producer::JSON) \
+perl(SQL::Translator::Producer::Latex) \
+perl(SQL::Translator::Producer::MySQL) \
+perl(SQL::Translator::Producer::Oracle) \
+perl(SQL::Translator::Producer::POD) \
+perl(SQL::Translator::Producer::PostgreSQL) \
+perl(SQL::Translator::Producer::SQLServer) \
+perl(SQL::Translator::Producer::SQLite) \
+perl(SQL::Translator::Producer::Storable) \
+perl(SQL::Translator::Producer::Sybase) \
+perl(SQL::Translator::Producer::TT::Base) \
+perl(SQL::Translator::Producer::TT::Table) \
+perl(SQL::Translator::Producer::TTSchema) \
+perl(SQL::Translator::Producer::XML) \
+perl(SQL::Translator::Producer::XML::SQLFairy) \
+perl(SQL::Translator::Producer::YAML) \
+perl(SQL::Translator::Role::BuildArgs) \
+perl(SQL::Translator::Role::Debug) \
+perl(SQL::Translator::Role::Error) \
+perl(SQL::Translator::Role::ListAttr) \
+perl(SQL::Translator::Schema) \
+perl(SQL::Translator::Schema::Constants) \
+perl(SQL::Translator::Schema::Constraint) \
+perl(SQL::Translator::Schema::Field) \
+perl(SQL::Translator::Schema::Index) \
+perl(SQL::Translator::Schema::Object) \
+perl(SQL::Translator::Schema::Procedure) \
+perl(SQL::Translator::Schema::Role::Compare) \
+perl(SQL::Translator::Schema::Role::Extra) \
+perl(SQL::Translator::Schema::Table) \
+perl(SQL::Translator::Schema::Trigger) \
+perl(SQL::Translator::Schema::View) \
+perl(SQL::Translator::Types) \
+perl(SQL::Translator::Utils) \
+perl(SQL::Translator::Utils::Error) \
+perl(Test::SQL::Translator) \
+perl-SQL-Translator"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Carp::Clan) \
+perl(DBI) \
+perl(Digest::SHA) \
+perl(File::ShareDir) \
+perl(Moo) \
+perl(Package::Variant) \
+perl(Parse::RecDescent) \
+perl(Sub::Quote) \
+perl(Try::Tiny)"
 
 inherit rpm

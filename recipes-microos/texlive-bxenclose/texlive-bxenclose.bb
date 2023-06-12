@@ -12,7 +12,19 @@ RPM_NAME = "texlive-bxenclose-2023.201.0.0.2svn40213-52.1.noarch.rpm"
 RPM_HASH = "5958bfc9617e7d81b8d4689c714070060886fcc6267a637dc253cef41c44933b5142b1c5a9c85177ca12d7d7150bfac3e7932ed298e617ee73a6f597dec011d6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bxenclose.sty) texlive-bxenclose"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(bxenclose.sty) \
+texlive-bxenclose"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

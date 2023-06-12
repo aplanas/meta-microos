@@ -11,6 +11,12 @@ RPM_HASH = "5d0ec374f0d4ee824df220c2583026820e38c58348e19dc23b404120643d34a49620
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "polkit-default-privs"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/mkdir /usr/bin/perl /usr/bin/touch fillup polkit"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/perl \
+/usr/bin/touch \
+fillup \
+polkit"
 
 inherit rpm

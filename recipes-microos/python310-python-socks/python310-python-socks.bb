@@ -11,7 +11,10 @@ RPM_NAME = "python310-python-socks-2.1.1-1.2.noarch.rpm"
 RPM_HASH = "ad4711139decf206cbe6a4f48b5c3462fdccc46d656938ac16187fcdf3af8234e7da204f4cbd95a1f5de2e65c50b02587fd2175c1a6af3cef2e3715776f17e63"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-socks python3.10dist(python-socks) python310-python-socks python3dist(python-socks)"
+RPROVIDES:${PN} += "python3-python-socks \
+python3.10dist(python-socks) \
+python310-python-socks \
+python3dist(python-socks)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

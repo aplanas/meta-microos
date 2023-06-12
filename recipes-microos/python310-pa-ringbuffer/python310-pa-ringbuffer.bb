@@ -22,7 +22,11 @@ RPM_NAME = "python310-pa-ringbuffer-0.1.4-1.3.noarch.rpm"
 RPM_HASH = "d9b24789b17bad92fc8a282aa1cc4e3e10f119d81e515a88c06397b417a780acc05b448d31cc877a24fae8b40b35513f8bdaaa78cf6ba01f685965890bc3b509"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pa-ringbuffer python3.10dist(pa-ringbuffer) python310-pa-ringbuffer python3dist(pa-ringbuffer)"
-RDEPENDS:${PN} += "python(abi) python310-cffi"
+RPROVIDES:${PN} += "python3-pa-ringbuffer \
+python3.10dist(pa-ringbuffer) \
+python310-pa-ringbuffer \
+python3dist(pa-ringbuffer)"
+RDEPENDS:${PN} += "python(abi) \
+python310-cffi"
 
 inherit rpm

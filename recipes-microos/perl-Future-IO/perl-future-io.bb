@@ -15,7 +15,12 @@ RPM_NAME = "perl-Future-IO-0.14-1.1.noarch.rpm"
 RPM_HASH = "fdd471778b96ee66844da741a364ebff382e6fdb3102981a8c61fb9e15f065f63008aaee41511cd9e24398473fe8c5004141c9b2cd9e4ed42a7e7ef6dc28704e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Future::IO) perl(Future::IO::ImplBase) perl(Future::IO::System) perl-Future-IO"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Future) perl(Struct::Dumb)"
+RPROVIDES:${PN} += "perl(Future::IO) \
+perl(Future::IO::ImplBase) \
+perl(Future::IO::System) \
+perl-Future-IO"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Future) \
+perl(Struct::Dumb)"
 
 inherit rpm

@@ -11,7 +11,15 @@ PV = "2.2.1"
 RPM_NAME = "liblavjpeg-2_2-0-2.2.1-2.5.aarch64.rpm"
 RPM_HASH = "38cd9f2ac5fc86b7a1a9a704e496c36749d6d76072ad6e9f9758a58fb7ac3f798ff503e98e2714ee69de93c298880c5b421049b481ba76d6d1904eb60393eec0"
 
-RPROVIDES:${PN} += "liblavjpeg-2.2.so.0()(64bit) liblavjpeg-2_2-0 liblavjpeg-2_2-0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libjpeg.so.8()(64bit) libjpeg.so.8(LIBJPEG_8.0)(64bit) libmjpegutils-2.2.so.0()(64bit)"
+RPROVIDES:${PN} += "liblavjpeg-2.2.so.0()(64bit) \
+liblavjpeg-2_2-0 \
+liblavjpeg-2_2-0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libjpeg.so.8()(64bit) \
+libjpeg.so.8(LIBJPEG_8.0)(64bit) \
+libmjpegutils-2.2.so.0()(64bit)"
 
 inherit rpm

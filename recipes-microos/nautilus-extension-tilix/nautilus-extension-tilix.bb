@@ -10,6 +10,10 @@ RPM_HASH = "f35c0977bd7620acf0b5449b27a59203f58bd5ebc2d94d3e6ab6cbb36deba0a4eb60
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nautilus-extension-tilix"
-RDEPENDS:${PN} += "python3-nautilus typelib(GObject) typelib(Gio) typelib(Gtk) typelib(Nautilus)"
+RDEPENDS:${PN} += "python3-nautilus \
+typelib(GObject) \
+typelib(Gio) \
+typelib(Gtk) \
+typelib(Nautilus)"
 
 inherit rpm

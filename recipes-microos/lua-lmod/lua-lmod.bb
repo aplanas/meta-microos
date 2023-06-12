@@ -16,7 +16,22 @@ PV = "8.7.17"
 RPM_NAME = "lua-lmod-8.7.17-2.1.aarch64.rpm"
 RPM_HASH = "9149cd89e70bd39a9b570bb7114fe928815c70f20ef06ea09063bb989a1cbd42364c534accd94ccc6cafd8eb063903fa5b4591a81efafbbab40b258760df825c"
 
-RPROVIDES:${PN} += "config(lua-lmod) lua-lmod lua-lmod(aarch-64) lua-lmod-man ml modules rpm_macro(lua_lmod_admin_modulesdir) rpm_macro(lua_lmod_moduledeps) rpm_macro(lua_lmod_modulesdir)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/lua5.4 /usr/bin/tclsh lua54-luafilesystem lua54-luaposix lua54-luaterm tcl"
+RPROVIDES:${PN} += "config(lua-lmod) \
+lua-lmod \
+lua-lmod(aarch-64) \
+lua-lmod-man \
+ml \
+modules \
+rpm_macro(lua_lmod_admin_modulesdir) \
+rpm_macro(lua_lmod_moduledeps) \
+rpm_macro(lua_lmod_modulesdir)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/lua5.4 \
+/usr/bin/tclsh \
+lua54-luafilesystem \
+lua54-luaposix \
+lua54-luaterm \
+tcl"
 
 inherit rpm

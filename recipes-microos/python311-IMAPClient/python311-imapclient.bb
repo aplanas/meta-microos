@@ -20,7 +20,9 @@ RPM_NAME = "python311-IMAPClient-2.3.1-2.3.noarch.rpm"
 RPM_HASH = "9840ba42677f642878a63cfe3e82f267cdf6bae39349a52fc4fedb772f311aa4d933eb7d3ca1bee1be5290312803998ce684cce3bc20dbd805f1924bb58cdf53"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(imapclient) python311-IMAPClient python3dist(imapclient)"
+RPROVIDES:${PN} += "python3.11dist(imapclient) \
+python311-IMAPClient \
+python3dist(imapclient)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

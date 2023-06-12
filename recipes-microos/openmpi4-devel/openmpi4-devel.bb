@@ -20,7 +20,18 @@ PV = "4.1.4"
 RPM_NAME = "openmpi4-devel-4.1.4-2.3.aarch64.rpm"
 RPM_HASH = "77d2169fb9e0883f7dff872cb68e43059998e537087fee3645944cc0008cd0282ee3f96b774e5b82f177397d7e57fcf6f36d18420af92da1a30d845b607077ba"
 
-RPROVIDES:${PN} += "openmpi-devel openmpi4-devel openmpi4-devel(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libibumad-devel libibverbs-devel libm.so.6()(64bit) libmpi.so.40()(64bit) libopen-pal.so.40()(64bit) libstdc++-devel openmpi4"
+RPROVIDES:${PN} += "openmpi-devel \
+openmpi4-devel \
+openmpi4-devel(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libibumad-devel \
+libibverbs-devel \
+libm.so.6()(64bit) \
+libmpi.so.40()(64bit) \
+libopen-pal.so.40()(64bit) \
+libstdc++-devel \
+openmpi4"
 
 inherit rpm

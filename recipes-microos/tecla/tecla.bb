@@ -13,7 +13,13 @@ PV = "1.6.3"
 RPM_NAME = "tecla-1.6.3-3.15.aarch64.rpm"
 RPM_HASH = "6d377c9a5d79e708d055dd607febe2393f3d03bc2ca36a68a8f35eead7f53e14aa4000ea968b71fb3832d41d6e6e6c0b8306033f1a408e6163a52f44169969ab"
 
-RPROVIDES:${PN} += "tecla tecla(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libtecla_r.so.1()(64bit) libtecla_r.so.1(tecla_1.2)(64bit) libtecla_r.so.1(tecla_1.4)(64bit)"
+RPROVIDES:${PN} += "tecla \
+tecla(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libtecla_r.so.1()(64bit) \
+libtecla_r.so.1(tecla_1.2)(64bit) \
+libtecla_r.so.1(tecla_1.4)(64bit)"
 
 inherit rpm

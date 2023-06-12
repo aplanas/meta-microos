@@ -22,7 +22,12 @@ RPM_NAME = "python311-distob-0.3.3-3.7.noarch.rpm"
 RPM_HASH = "85a709e1ff7adfbdd9597bc903cfa39c0d7b2ee09c05c9a10e25d91d322ebfaae8ea53148cfb5946bbdac6870bebd0eaa719a7e186a93401dd005687cadffc13"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(distob) python311-distob python3dist(distob)"
-RDEPENDS:${PN} += "python(abi) python311-dill python311-ipyparallel python311-pyzmq"
+RPROVIDES:${PN} += "python3.11dist(distob) \
+python311-distob \
+python3dist(distob)"
+RDEPENDS:${PN} += "python(abi) \
+python311-dill \
+python311-ipyparallel \
+python311-pyzmq"
 
 inherit rpm

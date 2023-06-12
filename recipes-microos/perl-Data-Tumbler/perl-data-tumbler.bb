@@ -38,7 +38,8 @@ RPM_NAME = "perl-Data-Tumbler-0.010-1.17.noarch.rpm"
 RPM_HASH = "8963901a545cda87c945e9bb1a7999198fd07a1434a88aeae86fa4cdb20503766de156e3fb562d1a627c1fbc615ff51f90486d31554ec297b812807731b7398d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Data::Tumbler) perl-Data-Tumbler"
+RPROVIDES:${PN} += "perl(Data::Tumbler) \
+perl-Data-Tumbler"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

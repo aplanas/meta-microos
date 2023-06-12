@@ -18,7 +18,10 @@ RPM_NAME = "python310-itsdangerous-2.1.2-2.1.noarch.rpm"
 RPM_HASH = "0b91a89a653cdec38faab24bb359e1120fad46ed0702a285760e98485548589cedd41b0df56b13048b1c17ccc91b65b876e567c5ec6a0dc9d5464346ff868f82"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-itsdangerous python3.10dist(itsdangerous) python310-itsdangerous python3dist(itsdangerous)"
+RPROVIDES:${PN} += "python3-itsdangerous \
+python3.10dist(itsdangerous) \
+python310-itsdangerous \
+python3dist(itsdangerous)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

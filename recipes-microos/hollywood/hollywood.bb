@@ -12,6 +12,11 @@ RPM_HASH = "cadd6d83ebdb2ed648670f5617af3ebecf2b478b11957a6067eddd73aa0136f17bd7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hollywood"
-RDEPENDS:${PN} += "/bin/bash /bin/sh hollywood-data moreutils python3-Pygments tmux"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+hollywood-data \
+moreutils \
+python3-Pygments \
+tmux"
 
 inherit rpm

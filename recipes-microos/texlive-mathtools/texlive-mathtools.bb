@@ -23,7 +23,25 @@ RPM_NAME = "texlive-mathtools-2023.201.1.29svn63767-52.1.noarch.rpm"
 RPM_HASH = "71fe4cf2568de9786bc00d685c5b193b1081abd7169dfe774e94cfdd2dff2d514ab3c001b93492c19e9f8f3071dc633e1f3ac0ff42c704d5c67c26bc8c2ff057"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(empheq.sty) tex(mathtools.sty) tex(mhsetup.sty) texlive-mathtools"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsmath.sty) tex(calc.sty) tex(graphicx.sty) tex(keyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(empheq.sty) \
+tex(mathtools.sty) \
+tex(mhsetup.sty) \
+texlive-mathtools"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsmath.sty) \
+tex(calc.sty) \
+tex(graphicx.sty) \
+tex(keyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

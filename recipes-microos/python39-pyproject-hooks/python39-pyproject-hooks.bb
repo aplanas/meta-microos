@@ -14,7 +14,10 @@ RPM_NAME = "python39-pyproject-hooks-1.0.0-2.1.noarch.rpm"
 RPM_HASH = "7a69f36246f19f0a3ea3b1c96b8d2e8f4a8bca6d75e73d8effd0e77af5102012d6f2439e42477d17c663750bd5a602588ec5d987fa24ccf792e6354acd2d9701"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pyproject-hooks) python39-pyproject-hooks python3dist(pyproject-hooks)"
-RDEPENDS:${PN} += "python(abi) python39-tomli"
+RPROVIDES:${PN} += "python3.9dist(pyproject-hooks) \
+python39-pyproject-hooks \
+python3dist(pyproject-hooks)"
+RDEPENDS:${PN} += "python(abi) \
+python39-tomli"
 
 inherit rpm

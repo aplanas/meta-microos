@@ -9,6 +9,7 @@ RPM_HASH = "cbc284c0fd1e1afc0a34bf7531c2987ef8b91e95d9fa54d437685b6bce80bdb80f25
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wol-udev-rules"
-RDEPENDS:${PN} += "ethtool udev"
+RDEPENDS:${PN} += "ethtool \
+udev"
 
 inherit rpm

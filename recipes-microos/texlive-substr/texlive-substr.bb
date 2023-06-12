@@ -12,7 +12,19 @@ RPM_NAME = "texlive-substr-2023.201.1.2svn16117-57.1.noarch.rpm"
 RPM_HASH = "0f2a3b4c46a3ad181effcd40c94b1caa9794f562439396528ab444c44277a1ed7fcdd9f70511c9455ff50c0787e4685d41c5ecdac618dd320e89e8ec092df32d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(substr.sty) texlive-substr"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(substr.sty) \
+texlive-substr"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

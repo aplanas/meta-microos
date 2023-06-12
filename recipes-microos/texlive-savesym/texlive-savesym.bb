@@ -14,7 +14,19 @@ RPM_NAME = "texlive-savesym-2023.201.1.2svn31565-53.1.noarch.rpm"
 RPM_HASH = "75342ff53efcc879f75643e4bdd4aa6aae6a87257a4ce6ca860dcf5db0046d0f2f409551812cf8b12132be11cfcd41d053c5ab4586694acc129b504735cdeeff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(savesym.sty) texlive-savesym"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(savesym.sty) \
+texlive-savesym"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

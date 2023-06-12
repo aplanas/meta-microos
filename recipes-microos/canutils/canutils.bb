@@ -15,7 +15,12 @@ PV = "2023.03"
 RPM_NAME = "canutils-2023.03-1.3.aarch64.rpm"
 RPM_HASH = "2229328651666f7cb713dbb4ab542cbe2f2cfb5fe7906f4ae4734286a1c5b5f0ee3a6b10a4cb0b1ddb12b5616b5a3e30950999c75dcd52ca1818fde673170657"
 
-RPROVIDES:${PN} += "can-utils canutils canutils(aarch-64) canutils-linuxcan"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "can-utils \
+canutils \
+canutils(aarch-64) \
+canutils-linuxcan"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

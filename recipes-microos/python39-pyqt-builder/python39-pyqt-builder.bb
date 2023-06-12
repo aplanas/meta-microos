@@ -14,7 +14,15 @@ RPM_NAME = "python39-pyqt-builder-1.15.1-1.1.noarch.rpm"
 RPM_HASH = "30d56871274ab67c5990d50ba82d01da420f97d7bd5be1c2930832557d536eefdf60b59c57b16f12a5162875854141eaa316a46fca0558e120fedb40cbde3530"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pyqt-builder) python39-PyQt-builder python39-pyqt-builder python3dist(pyqt-builder)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-packaging python39-sip-devel update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(pyqt-builder) \
+python39-PyQt-builder \
+python39-pyqt-builder \
+python3dist(pyqt-builder)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-packaging \
+python39-sip-devel \
+update-alternatives"
 
 inherit rpm

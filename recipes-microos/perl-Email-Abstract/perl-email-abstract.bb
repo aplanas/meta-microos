@@ -21,7 +21,17 @@ RPM_NAME = "perl-Email-Abstract-3.009-1.9.noarch.rpm"
 RPM_HASH = "9c2cfca58f1416a89c091eef325ce29edb04e4a23de1bf927cd724611558f1eb91600b5f84e5180bb340d217bbcda59b1bd2c296e05ceecce7991bcb5510783a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Email::Abstract) perl(Email::Abstract::EmailMIME) perl(Email::Abstract::EmailSimple) perl(Email::Abstract::MIMEEntity) perl(Email::Abstract::MailInternet) perl(Email::Abstract::MailMessage) perl(Email::Abstract::Plugin) perl-Email-Abstract"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Email::Simple) perl(MRO::Compat) perl(Module::Pluggable)"
+RPROVIDES:${PN} += "perl(Email::Abstract) \
+perl(Email::Abstract::EmailMIME) \
+perl(Email::Abstract::EmailSimple) \
+perl(Email::Abstract::MIMEEntity) \
+perl(Email::Abstract::MailInternet) \
+perl(Email::Abstract::MailMessage) \
+perl(Email::Abstract::Plugin) \
+perl-Email-Abstract"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Email::Simple) \
+perl(MRO::Compat) \
+perl(Module::Pluggable)"
 
 inherit rpm

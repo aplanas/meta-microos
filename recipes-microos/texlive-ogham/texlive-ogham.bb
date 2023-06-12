@@ -13,7 +13,19 @@ RPM_NAME = "texlive-ogham-2023.201.svn24876-54.1.noarch.rpm"
 RPM_HASH = "d0044138da1e00c9d91ff11bff94d4ac906bba23145287a3c8e36d883812c04c6d685536e5f77f71c56e46c734f38fa4cfce935b45c14b78bc00a748530ccc52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ogham.tfm) texlive-ogham"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(ogham.tfm) \
+texlive-ogham"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

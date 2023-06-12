@@ -20,7 +20,73 @@ RPM_NAME = "texlive-musixtex-2023.201.1.36svn65519-54.1.noarch.rpm"
 RPM_HASH = "8a78b94e074ea5d662f4eef9c0401a26779ef7d572e4001e372df6210e9372ed254c3281a5abe2a9eb701bd6ecaa65971ab192ad71bd1666fb36ad99a1d870ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(musixadd.tex) tex(musixadf.tex) tex(musixbar.tex) tex(musixbbm.tex) tex(musixblx.tex) tex(musixbm.tex) tex(musixcho.tex) tex(musixcpt.sty) tex(musixcpt.tex) tex(musixcrd.sty) tex(musixcrd.tex) tex(musixdat.tex) tex(musixdbr.tex) tex(musixdia.tex) tex(musixec.tex) tex(musixeng.tex) tex(musixesf.tex) tex(musixevo.tex) tex(musixext.tex) tex(musixfll.sty) tex(musixfll.tex) tex(musixftab.tex) tex(musixgre.tex) tex(musixgui.tex) tex(musixhor.tex) tex(musixhou.tex) tex(musixhv.tex) tex(musixinv.tex) tex(musixjt.tex) tex(musixlit.tex) tex(musixltx.tex) tex(musixlyr.tex) tex(musixmad.tex) tex(musixmkm.tex) tex(musixper.tex) tex(musixplt.tex) tex(musixpoi.tex) tex(musixppff.tex) tex(musixps.tex) tex(musixref.tex) tex(musixslu.tex) tex(musixsqr.tex) tex(musixste.tex) tex(musixstf.tex) tex(musixstr.tex) tex(musixsty.tex) tex(musixtex.sty) tex(musixtex.tex) tex(musixthacc.tex) tex(musixtmr.tex) tex(musixtri.tex) tex(musixvbm.tex) tex(tuplet.tex) texlive-musixtex"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/texlua coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-musixtex-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(musixadd.tex) \
+tex(musixadf.tex) \
+tex(musixbar.tex) \
+tex(musixbbm.tex) \
+tex(musixblx.tex) \
+tex(musixbm.tex) \
+tex(musixcho.tex) \
+tex(musixcpt.sty) \
+tex(musixcpt.tex) \
+tex(musixcrd.sty) \
+tex(musixcrd.tex) \
+tex(musixdat.tex) \
+tex(musixdbr.tex) \
+tex(musixdia.tex) \
+tex(musixec.tex) \
+tex(musixeng.tex) \
+tex(musixesf.tex) \
+tex(musixevo.tex) \
+tex(musixext.tex) \
+tex(musixfll.sty) \
+tex(musixfll.tex) \
+tex(musixftab.tex) \
+tex(musixgre.tex) \
+tex(musixgui.tex) \
+tex(musixhor.tex) \
+tex(musixhou.tex) \
+tex(musixhv.tex) \
+tex(musixinv.tex) \
+tex(musixjt.tex) \
+tex(musixlit.tex) \
+tex(musixltx.tex) \
+tex(musixlyr.tex) \
+tex(musixmad.tex) \
+tex(musixmkm.tex) \
+tex(musixper.tex) \
+tex(musixplt.tex) \
+tex(musixpoi.tex) \
+tex(musixppff.tex) \
+tex(musixps.tex) \
+tex(musixref.tex) \
+tex(musixslu.tex) \
+tex(musixsqr.tex) \
+tex(musixste.tex) \
+tex(musixstf.tex) \
+tex(musixstr.tex) \
+tex(musixsty.tex) \
+tex(musixtex.sty) \
+tex(musixtex.tex) \
+tex(musixthacc.tex) \
+tex(musixtmr.tex) \
+tex(musixtri.tex) \
+tex(musixvbm.tex) \
+tex(tuplet.tex) \
+texlive-musixtex"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/texlua \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-musixtex-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

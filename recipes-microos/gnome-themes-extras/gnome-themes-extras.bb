@@ -9,6 +9,7 @@ RPM_HASH = "dac5528c54bd1fceb82fc4e7db84e5e488592768b1bbc335d5ae806b51c2a7bfccda
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-themes-extras"
-RDEPENDS:${PN} += "/bin/sh gnome-themes"
+RDEPENDS:${PN} += "/bin/sh \
+gnome-themes"
 
 inherit rpm

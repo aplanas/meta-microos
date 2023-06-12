@@ -11,7 +11,8 @@ RPM_NAME = "perl-File-Slurp-9999.32-1.13.noarch.rpm"
 RPM_HASH = "ac879091880c8ec1fb4474c6a9511daa2e7cb4be0fe1fadd08b386a4848558099a3770e8bc25cb88c800d534490ddc3b82108df92ea349dbd543319bf3922992"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::Slurp) perl-File-Slurp"
+RPROVIDES:${PN} += "perl(File::Slurp) \
+perl-File-Slurp"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "1afaf2575cda0b7e3fd6eb1145617e2e0df0fa15917e0bc6b69789297cad5c915814
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "humanity-icon-theme"
-RDEPENDS:${PN} += "adwaita-icon-theme hicolor-icon-theme"
+RDEPENDS:${PN} += "adwaita-icon-theme \
+hicolor-icon-theme"
 
 inherit rpm

@@ -9,7 +9,15 @@ RPM_NAME = "geronimo-j2ee-deployment-1_1-api-1.2-36.11.noarch.rpm"
 RPM_HASH = "50a72ff993d77f845a77ad51d697c1f6ebd1c05b45747146f3a7240ea3e117f15a27c77decd12c3bc529a96c48e089e6c0c5f92dee61743b99226d04fa96c79a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "geronimo-j2ee-deployment-1_1-api j2ee-deployment j2ee_deployment_1_1_api j2ee_deployment_api mvn(org.apache.geronimo.specs:geronimo-j2ee-deployment_1.1_spec) mvn(org.apache.geronimo.specs:geronimo-j2ee-deployment_1.1_spec:pom:)"
-RDEPENDS:${PN} += "/bin/sh java-headless javapackages-filesystem update-alternatives"
+RPROVIDES:${PN} += "geronimo-j2ee-deployment-1_1-api \
+j2ee-deployment \
+j2ee_deployment_1_1_api \
+j2ee_deployment_api \
+mvn(org.apache.geronimo.specs:geronimo-j2ee-deployment_1.1_spec) \
+mvn(org.apache.geronimo.specs:geronimo-j2ee-deployment_1.1_spec:pom:)"
+RDEPENDS:${PN} += "/bin/sh \
+java-headless \
+javapackages-filesystem \
+update-alternatives"
 
 inherit rpm

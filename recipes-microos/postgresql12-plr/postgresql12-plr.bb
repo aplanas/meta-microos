@@ -23,7 +23,15 @@ PV = "8.4.5"
 RPM_NAME = "postgresql12-plr-8.4.5-1.1.aarch64.rpm"
 RPM_HASH = "4341599550c674b2e95de3a3cdf0f69eebc0442b5512dc1d4a86b716d638560b332f6d5b9ffb52d8b3664fabff231d5e1b42549980452a566f397139ada6c7ec"
 
-RPROVIDES:${PN} += "config(postgresql12-plr) postgresql12-plr postgresql12-plr(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig R-base ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libR.so()(64bit) libc.so.6(GLIBC_2.33)(64bit) postgresql12-server"
+RPROVIDES:${PN} += "config(postgresql12-plr) \
+postgresql12-plr \
+postgresql12-plr(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+R-base \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libR.so()(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+postgresql12-server"
 
 inherit rpm

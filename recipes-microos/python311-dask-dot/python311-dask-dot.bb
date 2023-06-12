@@ -20,6 +20,11 @@ RPM_HASH = "e43baa2d2a2ca0dd02f203920640055ea5c1e289afa2793f9c5e68ffbae0f9ae8069
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-dask-dot"
-RDEPENDS:${PN} += "graphviz graphviz-gd graphviz-gnome python(abi) python311-dask python311-graphviz"
+RDEPENDS:${PN} += "graphviz \
+graphviz-gd \
+graphviz-gnome \
+python(abi) \
+python311-dask \
+python311-graphviz"
 
 inherit rpm

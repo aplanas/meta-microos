@@ -9,6 +9,7 @@ RPM_HASH = "a69adc13305ee699497a41f88c70c838e2f3fa9e8f97248c47e11a77b90e728ff24f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kyverno-bash-completion"
-RDEPENDS:${PN} += "bash-completion kyverno"
+RDEPENDS:${PN} += "bash-completion \
+kyverno"
 
 inherit rpm

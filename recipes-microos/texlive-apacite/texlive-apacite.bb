@@ -16,7 +16,23 @@ RPM_NAME = "texlive-apacite-2023.201.6.03svn54080-54.1.noarch.rpm"
 RPM_HASH = "50090916606d12425cb6a53dc58eb88e2427f06d36d87db4ae788a81cd9670868067aea61fa0fd8da7fb0e6e539996cb2f2d8fd545d210db14df9666ec7e36e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(apacdoc.sty) tex(apacite.sty) texlive-apacite"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(index.sty) tex(multicol.sty) tex(natbib.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(apacdoc.sty) \
+tex(apacite.sty) \
+texlive-apacite"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(index.sty) \
+tex(multicol.sty) \
+tex(natbib.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

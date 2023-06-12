@@ -21,7 +21,9 @@ RPM_NAME = "python39-pytz-deprecation-shim-0.1.0.post0-4.1.noarch.rpm"
 RPM_HASH = "1fd88cc8bb1f63282484869ba2a8dcee02d92cd29def3bc0933ce95f9ad0c8069ea27dc6530454e7a51f90503f74411dbf0aa1daf2d9319e580cd314f9af9080"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytz-deprecation-shim) python39-pytz-deprecation-shim python3dist(pytz-deprecation-shim)"
+RPROVIDES:${PN} += "python3.9dist(pytz-deprecation-shim) \
+python39-pytz-deprecation-shim \
+python3dist(pytz-deprecation-shim)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "a81158136cd9d131587d0e7611273277077e5ece73c53fa5244f80cf22a186e09245
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dex"
-RDEPENDS:${PN} += "/usr/bin/env python3"
+RDEPENDS:${PN} += "/usr/bin/env \
+python3"
 
 inherit rpm

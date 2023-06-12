@@ -17,7 +17,19 @@ RPM_NAME = "Radicale-3.1.8-2.1.noarch.rpm"
 RPM_HASH = "47162e32469af5de85810e5158704c305c1b6151b9b9c2976c093a7ecd8a7e73497e2581115ea8eb0f8ed95b618278bcc73295c5e0edabf3c341c7a99a251c75"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "Radicale config(Radicale) group(radicale) python3.10dist(radicale) python3dist(radicale) user(radicale)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 python(abi) python3 python3-defusedxml python3-python-dateutil python3-vobject sysuser-shadow"
+RPROVIDES:${PN} += "Radicale \
+config(Radicale) \
+group(radicale) \
+python3.10dist(radicale) \
+python3dist(radicale) \
+user(radicale)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+python(abi) \
+python3 \
+python3-defusedxml \
+python3-python-dateutil \
+python3-vobject \
+sysuser-shadow"
 
 inherit rpm

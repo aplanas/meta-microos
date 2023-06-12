@@ -13,7 +13,16 @@ RPM_NAME = "python310-azure-mgmt-containerservice-23.0.0-1.1.noarch.rpm"
 RPM_HASH = "9ff6978531d7c7b68076299de82320122885acd0ec9d48e0e22e426d4cbbe04023f26cc1ff7aebe4a8fb7881cb7003ab81d43743d23c8e1b8f45a9359639408f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-containerservice python3.10dist(azure-mgmt-containerservice) python310-azure-mgmt-containerservice python3dist(azure-mgmt-containerservice)"
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) python(abi) python310-azure-common python310-azure-mgmt-core python310-azure-mgmt-nspkg python310-azure-nspkg python310-isodate"
+RPROVIDES:${PN} += "python3-azure-mgmt-containerservice \
+python3.10dist(azure-mgmt-containerservice) \
+python310-azure-mgmt-containerservice \
+python3dist(azure-mgmt-containerservice)"
+RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
+python(abi) \
+python310-azure-common \
+python310-azure-mgmt-core \
+python310-azure-mgmt-nspkg \
+python310-azure-nspkg \
+python310-isodate"
 
 inherit rpm

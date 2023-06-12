@@ -22,6 +22,10 @@ RPM_HASH = "367d7b333a4e857c84d93f51eea8546a35017124de44cb2295dcece1f7c4fb2c7540
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeuclid-cli"
-RDEPENDS:${PN} += "/bin/bash apache-commons-cli apache-commons-io apache-commons-lang3 jeuclid"
+RDEPENDS:${PN} += "/bin/bash \
+apache-commons-cli \
+apache-commons-io \
+apache-commons-lang3 \
+jeuclid"
 
 inherit rpm

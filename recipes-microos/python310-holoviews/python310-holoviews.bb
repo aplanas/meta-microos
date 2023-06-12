@@ -17,7 +17,20 @@ RPM_NAME = "python310-holoviews-1.15.4-1.2.noarch.rpm"
 RPM_HASH = "92ef38a19ef938e94571087a839fd46fb4bbef0e766488db99c335677531b427058e0f11d9cb68fe6eb3c5eb53c05e95189ce6d5fd1d4dc65cc8c081a6d700f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-holoviews python3.10dist(holoviews) python310-holoviews python3dist(holoviews)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-colorcet python310-numpy python310-packaging python310-pandas python310-panel python310-param python310-pyviz-comms update-alternatives"
+RPROVIDES:${PN} += "python3-holoviews \
+python3.10dist(holoviews) \
+python310-holoviews \
+python3dist(holoviews)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-colorcet \
+python310-numpy \
+python310-packaging \
+python310-pandas \
+python310-panel \
+python310-param \
+python310-pyviz-comms \
+update-alternatives"
 
 inherit rpm

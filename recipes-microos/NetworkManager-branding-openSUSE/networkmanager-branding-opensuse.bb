@@ -17,7 +17,8 @@ RPM_NAME = "NetworkManager-branding-openSUSE-42.1-5.10.noarch.rpm"
 RPM_HASH = "a79a862de78fd5b4616ce6c3d0e627b6bca2208331833779533c34beef16186e19572d5896365ea830c2378b1125ebbf72aa2482a12c7e13387e3c0c6a80ba9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "NetworkManager-branding NetworkManager-branding-openSUSE"
+RPROVIDES:${PN} += "NetworkManager-branding \
+NetworkManager-branding-openSUSE"
 RDEPENDS:${PN} += "NetworkManager"
 
 inherit rpm

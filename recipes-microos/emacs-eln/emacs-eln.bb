@@ -13,7 +13,9 @@ PV = "28.2"
 RPM_NAME = "emacs-eln-28.2-4.2.aarch64.rpm"
 RPM_HASH = "a1ba1dcd7c0f31903b1aa7b1d56f4254e503d82daca1fd070b89234256760d2287a525cdf3493a7b24c4eafe3e28284a80962a33fd0006d7d4ae31e961be37db"
 
-RPROVIDES:${PN} += "emacs-eln emacs-eln(aarch-64)"
-RDEPENDS:${PN} += "emacs-el libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "emacs-eln \
+emacs-eln(aarch-64)"
+RDEPENDS:${PN} += "emacs-el \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

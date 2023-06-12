@@ -39,7 +39,14 @@ PV = "3.18.0"
 RPM_NAME = "python39-pycryptodome-3.18.0-1.1.aarch64.rpm"
 RPM_HASH = "ca046887efd8da9411d775a4c42e0a70b958f1bcd52057abfdc4292d0764101341282447305421d0fedf4bcdf5a9ff494775e48ddf94eb1e6179ac16381facf3"
 
-RPROVIDES:${PN} += "python3.9dist(pycryptodome) python39-pycrypto python39-pycryptodome python39-pycryptodome(aarch-64) python3dist(pycryptodome)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.9dist(pycryptodome) \
+python39-pycrypto \
+python39-pycryptodome \
+python39-pycryptodome(aarch-64) \
+python3dist(pycryptodome)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

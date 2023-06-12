@@ -15,7 +15,12 @@ RPM_NAME = "stax-ex-1.8-4.4.noarch.rpm"
 RPM_HASH = "26c8565c5ef826d1ba20b1aa8793652723cf26a8027fa39da94b033b0d22d05a7adc4d03550e9e7e25b3e232910e90a67e319465a0c9869f0764a419be9b47f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.jvnet.staxex:stax-ex) mvn(org.jvnet.staxex:stax-ex:pom:) osgi(org.jvnet.staxex.stax-ex) stax-ex"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(javax.activation:activation)"
+RPROVIDES:${PN} += "mvn(org.jvnet.staxex:stax-ex) \
+mvn(org.jvnet.staxex:stax-ex:pom:) \
+osgi(org.jvnet.staxex.stax-ex) \
+stax-ex"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(javax.activation:activation)"
 
 inherit rpm

@@ -26,7 +26,12 @@ RPM_NAME = "python39-APScheduler-3.10.1-1.3.noarch.rpm"
 RPM_HASH = "4b9f5f20c64d9cd6d3e4875a0ceff06db0abd7ed487b8bbe239132490c56918b6f2fbfe3100ace67a863628a6b4bfadcb08fbcecc736aafebffe74f807631e9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(apscheduler) python39-APScheduler python3dist(apscheduler)"
-RDEPENDS:${PN} += "python(abi) python39-pytz python39-six python39-tzlocal"
+RPROVIDES:${PN} += "python3.9dist(apscheduler) \
+python39-APScheduler \
+python3dist(apscheduler)"
+RDEPENDS:${PN} += "python(abi) \
+python39-pytz \
+python39-six \
+python39-tzlocal"
 
 inherit rpm

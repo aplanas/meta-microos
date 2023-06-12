@@ -15,7 +15,11 @@ RPM_NAME = "perl-List-MoreUtils-0.430-1.12.noarch.rpm"
 RPM_HASH = "e559e1f0b0d3a136f710ed108cabd89e1e7fb9db523daac8312ad3fdd01544d48a0bba0aa9b462028eb27e9299bb0ec5db3c06eff075cf8d1ca6fc117d03f4b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(List::MoreUtils) perl(List::MoreUtils::PP) perl-List-MoreUtils"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Exporter::Tiny) perl(List::MoreUtils::XS)"
+RPROVIDES:${PN} += "perl(List::MoreUtils) \
+perl(List::MoreUtils::PP) \
+perl-List-MoreUtils"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Exporter::Tiny) \
+perl(List::MoreUtils::XS)"
 
 inherit rpm

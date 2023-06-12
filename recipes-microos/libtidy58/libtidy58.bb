@@ -16,7 +16,12 @@ PV = "5.8.0"
 RPM_NAME = "libtidy58-5.8.0-1.8.aarch64.rpm"
 RPM_HASH = "0a5ec11bccc36b3cf6872f3870362eec6cf8796f3a44a7149ee0a4f5290f2eb465425ae62d9d1499286dc28e712d9b718bdc25d3dfdb197487cb0d648ab21e7c"
 
-RPROVIDES:${PN} += "libtidy.so.58()(64bit) libtidy58 libtidy58(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit)"
+RPROVIDES:${PN} += "libtidy.so.58()(64bit) \
+libtidy58 \
+libtidy58(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit)"
 
 inherit rpm

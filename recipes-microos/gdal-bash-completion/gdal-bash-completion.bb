@@ -9,6 +9,7 @@ RPM_HASH = "4dd1615b8d211daa4006a3a3d472b49fd76a727373a02e8f0d1962c2c4a98a14f721
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdal-bash-completion"
-RDEPENDS:${PN} += "bash-completion gdal"
+RDEPENDS:${PN} += "bash-completion \
+gdal"
 
 inherit rpm

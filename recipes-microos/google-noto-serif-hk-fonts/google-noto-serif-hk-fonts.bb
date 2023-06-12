@@ -10,7 +10,12 @@ RPM_NAME = "google-noto-serif-hk-fonts-2.001-2.3.noarch.rpm"
 RPM_HASH = "0e0ce4695cafe7f4a1fe2d4b093ade50dcdd45e5166aedf99f199b3ce2317bee9dbc450a574e93c9e7d2198b85ccec3cf1c3bb5f1a7a01649075d6fae277ff76"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "google-noto-serif-hk-fonts locale(zh_HK;zh_MO) noto-serif-hk-fonts scalable-font-zh-HK scalable-font-zh-MO"
-RDEPENDS:${PN} += "google-noto-serif-hk-bold-fonts google-noto-serif-hk-regular-fonts"
+RPROVIDES:${PN} += "google-noto-serif-hk-fonts \
+locale(zh_HK;zh_MO) \
+noto-serif-hk-fonts \
+scalable-font-zh-HK \
+scalable-font-zh-MO"
+RDEPENDS:${PN} += "google-noto-serif-hk-bold-fonts \
+google-noto-serif-hk-regular-fonts"
 
 inherit rpm

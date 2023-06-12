@@ -9,6 +9,9 @@ RPM_HASH = "a715142ff84839324097fedf837210dec641b8243da2e1d4c413a42f07ae252b9ab4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-module-incubator"
-RDEPENDS:${PN} += "icingaweb2-module-ipl icingaweb2-module-reactbundle php php-ctype"
+RDEPENDS:${PN} += "icingaweb2-module-ipl \
+icingaweb2-module-reactbundle \
+php \
+php-ctype"
 
 inherit rpm

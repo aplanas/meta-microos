@@ -12,6 +12,8 @@ RPM_HASH = "8f0545d8d9e2c238d98b8795285f400244bbe3767282ac6f83b04b9e58fa4d65cca9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-Django"
-RDEPENDS:${PN} += "python(abi) python39-Django python39-aws-xray-sdk"
+RDEPENDS:${PN} += "python(abi) \
+python39-Django \
+python39-aws-xray-sdk"
 
 inherit rpm

@@ -8,7 +8,16 @@ PV = "21.2.0"
 RPM_NAME = "python39-argon2-cffi-bindings-21.2.0-2.4.aarch64.rpm"
 RPM_HASH = "de06f998cc0eb4e5b69ee761218d8ce3c5058731b74d591f1503434a9e00bc338e77a31aca897cb74ca39ce0dcc5ed439e4e5d79a8a164efdeaf0999e099519b"
 
-RPROVIDES:${PN} += "python3.9dist(argon2-cffi-bindings) python39-argon2-cffi-bindings python39-argon2-cffi-bindings(aarch-64) python39-argon2_cffi_bindings python3dist(argon2-cffi-bindings)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libargon2.so.1()(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python39-cffi"
+RPROVIDES:${PN} += "python3.9dist(argon2-cffi-bindings) \
+python39-argon2-cffi-bindings \
+python39-argon2-cffi-bindings(aarch-64) \
+python39-argon2_cffi_bindings \
+python3dist(argon2-cffi-bindings)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libargon2.so.1()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi) \
+python39-cffi"
 
 inherit rpm

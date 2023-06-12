@@ -15,7 +15,14 @@ PV = "2.6.4+git20180201.b6d3094"
 RPM_NAME = "erlang-rebar-2.6.4+git20180201.b6d3094-3.6.aarch64.rpm"
 RPM_HASH = "063006cb5bb6a5e473b699a71fc54a6c96d07d04e070da75dc35e9d868878cefc2391d9cad4418504a0c482ef21fb4f2dd7d0f63385c555c54bc5f4c5de35a99"
 
-RPROVIDES:${PN} += "erlang-rebar erlang-rebar(aarch-64) rebar rpm_macro(rebar) rpm_macro(rebar_compile) rpm_macro(rebar_set_vsn_cache)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/env erlang"
+RPROVIDES:${PN} += "erlang-rebar \
+erlang-rebar(aarch-64) \
+rebar \
+rpm_macro(rebar) \
+rpm_macro(rebar_compile) \
+rpm_macro(rebar_set_vsn_cache)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/env \
+erlang"
 
 inherit rpm

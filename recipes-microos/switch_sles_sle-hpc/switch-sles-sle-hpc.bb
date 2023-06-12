@@ -10,6 +10,12 @@ RPM_HASH = "100709130e35861716c2bed45da3ce33ac9250e77e639ca79565a7614cdb405c385f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "switch_sles_sle-hpc"
-RDEPENDS:${PN} += "/bin/bash SUSEConnect bash coreutils rpm sed zypper"
+RDEPENDS:${PN} += "/bin/bash \
+SUSEConnect \
+bash \
+coreutils \
+rpm \
+sed \
+zypper"
 
 inherit rpm

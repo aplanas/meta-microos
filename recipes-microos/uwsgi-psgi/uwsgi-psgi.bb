@@ -10,7 +10,13 @@ PV = "2.0.21"
 RPM_NAME = "uwsgi-psgi-2.0.21-2.1.aarch64.rpm"
 RPM_HASH = "318606c104d90c51f7a47d612545431f0d3cf3a8b547b4d21f50f699b94ee0b6af2d0689c46b8ef7a7fbe5645d78b1a88d7a6fd8c5e61a3686ccc9909630547f"
 
-RPROVIDES:${PN} += "uwsgi-psgi uwsgi-psgi(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libperl.so()(64bit) perl uwsgi"
+RPROVIDES:${PN} += "uwsgi-psgi \
+uwsgi-psgi(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libperl.so()(64bit) \
+perl \
+uwsgi"
 
 inherit rpm

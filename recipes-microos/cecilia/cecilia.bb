@@ -20,7 +20,15 @@ RPM_NAME = "cecilia-5.4.1-1.7.noarch.rpm"
 RPM_HASH = "8b4f335ba128b905092589e9de6c60ae88b8176404d195e0d67935485aae1d09a81f79c60b2d075217e39844d775a14f1c2154c03a5911206b5f3ffde6b73c58"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(cecilia.desktop) cecilia python3.10dist(cecilia) python3dist(cecilia)"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-numpy python3-pyo python3-wxPython"
+RPROVIDES:${PN} += "application() \
+application(cecilia.desktop) \
+cecilia \
+python3.10dist(cecilia) \
+python3dist(cecilia)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3-numpy \
+python3-pyo \
+python3-wxPython"
 
 inherit rpm

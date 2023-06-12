@@ -10,7 +10,8 @@ RPM_NAME = "perl-Devel-Cycle-1.12-1.26.noarch.rpm"
 RPM_HASH = "e97e33f3891e7e6985c345ce69f6caf3523b218f37bf75209857e0f51300d925b0b2c49fa9040eaaed4576022e88066a99edb1d86fb32f1af6c1ff6b6852080b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Devel::Cycle) perl-Devel-Cycle"
+RPROVIDES:${PN} += "perl(Devel::Cycle) \
+perl-Devel-Cycle"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

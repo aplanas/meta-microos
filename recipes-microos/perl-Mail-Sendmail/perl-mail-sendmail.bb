@@ -15,7 +15,9 @@ RPM_NAME = "perl-Mail-Sendmail-0.80-1.21.noarch.rpm"
 RPM_HASH = "d9c001ccbda38ccf148a5bf4b2728e342f16bcd3aaf1a0573ce27a6b133e06cad3f4d9fca34316fc38a566df47a8f41e5de3636327be40ad92ba28cd3364644f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mail::Sendmail) perl-Mail-Sendmail"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(parent)"
+RPROVIDES:${PN} += "perl(Mail::Sendmail) \
+perl-Mail-Sendmail"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(parent)"
 
 inherit rpm

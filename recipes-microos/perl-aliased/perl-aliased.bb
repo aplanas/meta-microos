@@ -33,7 +33,8 @@ RPM_NAME = "perl-aliased-0.34-1.24.noarch.rpm"
 RPM_HASH = "ab425e9fbc3088f83062c87bcaf7dfa7fe0f78e5bf56932233239018aef82274e85f64654331125133e06326a0eed2623d559486c29c0e9f42cbbd038ddd1322"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(aliased) perl-aliased"
+RPROVIDES:${PN} += "perl(aliased) \
+perl-aliased"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

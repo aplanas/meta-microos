@@ -20,7 +20,9 @@ RPM_NAME = "python311-webencodings-0.5.1-5.1.noarch.rpm"
 RPM_HASH = "cab00aa274e2abc58fde649a09b52d948d75ac2b72cd1b8c32bd2c3402a060b1f2f993e04576985ce6bd7f034b0b1a8a487b5cf48e2f669439cb79cfd7cd74b8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(webencodings) python311-webencodings python3dist(webencodings)"
+RPROVIDES:${PN} += "python3.11dist(webencodings) \
+python311-webencodings \
+python3dist(webencodings)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

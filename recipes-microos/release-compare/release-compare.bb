@@ -13,6 +13,7 @@ RPM_HASH = "f2a5b89da18be4e68477f00e800c2bb53fdc4f85c7386f33331c542a13f8d46d68ff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "release-compare"
-RDEPENDS:${PN} += "/usr/bin/python3 python3-PyYAML"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3-PyYAML"
 
 inherit rpm

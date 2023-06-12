@@ -17,6 +17,8 @@ RPM_HASH = "414219a59f96755c0ed76141062900f74b126eaba6dfd95ff4c397f0d3b334878e89
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ssh-tools"
-RDEPENDS:${PN} += "/bin/bash bash openssh"
+RDEPENDS:${PN} += "/bin/bash \
+bash \
+openssh"
 
 inherit rpm

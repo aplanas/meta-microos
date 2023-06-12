@@ -18,7 +18,20 @@ PV = "2.6.1"
 RPM_NAME = "gensio-devel-2.6.1-1.4.aarch64.rpm"
 RPM_HASH = "ece3769f2606def1f0a7753822b551529908922d3d20d47cc2f16b0a6ee2d1e3a2052cfd1c456fd49ea81d6b92212f5a85e3003a74b1dd7061c6988f3ff4f8dd"
 
-RPROVIDES:${PN} += "gensio-devel gensio-devel(aarch-64) pkgconfig(libgensio) pkgconfig(libgensio_python_swig) pkgconfig(libgensiocpp) pkgconfig(libgensiomdns) pkgconfig(libgensiomdnscpp) pkgconfig(libgensioosh) pkgconfig(libgensiooshcpp)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libgensio4 libgensiocpp4 lksctp-tools-devel pkgconfig(OpenIPMI) pkgconfig(avahi-client)"
+RPROVIDES:${PN} += "gensio-devel \
+gensio-devel(aarch-64) \
+pkgconfig(libgensio) \
+pkgconfig(libgensio_python_swig) \
+pkgconfig(libgensiocpp) \
+pkgconfig(libgensiomdns) \
+pkgconfig(libgensiomdnscpp) \
+pkgconfig(libgensioosh) \
+pkgconfig(libgensiooshcpp)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libgensio4 \
+libgensiocpp4 \
+lksctp-tools-devel \
+pkgconfig(OpenIPMI) \
+pkgconfig(avahi-client)"
 
 inherit rpm

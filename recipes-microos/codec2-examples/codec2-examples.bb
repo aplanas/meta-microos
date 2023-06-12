@@ -9,6 +9,10 @@ RPM_HASH = "facb6e6ab90f608a597ef06a21731780028e1a38061f1376528d73c160b40e5f9197
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "codec2-examples"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/env /usr/bin/python3 codec2-devel"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/env \
+/usr/bin/python3 \
+codec2-devel"
 
 inherit rpm

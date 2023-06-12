@@ -14,7 +14,10 @@ RPM_NAME = "python39-ansiwrap-0.8.4-2.2.noarch.rpm"
 RPM_HASH = "3b9d54bdc288b1f6a711467a69499e8d2e1bc3f4070fc9f7c52dc2c0bf1b6b33301dee81937ccccfa35309c5d8807d8761a27fe1208c3608b613d2035aff3bfa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(ansiwrap) python39-ansiwrap python3dist(ansiwrap)"
-RDEPENDS:${PN} += "python(abi) python39-textwrap3"
+RPROVIDES:${PN} += "python3.9dist(ansiwrap) \
+python39-ansiwrap \
+python3dist(ansiwrap)"
+RDEPENDS:${PN} += "python(abi) \
+python39-textwrap3"
 
 inherit rpm

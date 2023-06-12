@@ -16,7 +16,10 @@ RPM_NAME = "python39-rfc3986-validator-0.1.1-2.1.noarch.rpm"
 RPM_HASH = "75d3a3282ea852c774134c64ae20c9812a680becb7c5cba487797f9f006ec64ba93d4176afb47a208cf082ebbdce22cd0c97a7bf3678b8be45580512361283cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(rfc3986-validator) python39-rfc3986-validator python39-rfc3986_validator python3dist(rfc3986-validator)"
+RPROVIDES:${PN} += "python3.9dist(rfc3986-validator) \
+python39-rfc3986-validator \
+python39-rfc3986_validator \
+python3dist(rfc3986-validator)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

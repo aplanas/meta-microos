@@ -12,7 +12,10 @@ RPM_NAME = "python39-rarfile-4.0-3.5.noarch.rpm"
 RPM_HASH = "94e668b81dc224943c1162edae28860d4397a785a10127c37af50dae800eff032ac2c655c4be9abf72ac86cda80c14eab88b05b652615b39edac8680b379ab77"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(rarfile) python39-rarfile python3dist(rarfile)"
-RDEPENDS:${PN} += "bsdtar python(abi)"
+RPROVIDES:${PN} += "python3.9dist(rarfile) \
+python39-rarfile \
+python3dist(rarfile)"
+RDEPENDS:${PN} += "bsdtar \
+python(abi)"
 
 inherit rpm

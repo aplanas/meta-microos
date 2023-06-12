@@ -15,7 +15,99 @@ RPM_NAME = "texlive-forum-2023.201.svn64566-52.1.noarch.rpm"
 RPM_HASH = "cb5932e4612a430f864f1dede51f16e73dd8777b025c68788dda8a8d1c097e931096d61501c9e589df7090b2e9d2f88f86a4f93fe4bdd19ff9baae64e708ca65"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(Frm-Bold-lf-ly1--base.tfm) tex(Frm-Bold-lf-ly1--lcdfj.tfm) tex(Frm-Bold-lf-ly1.tfm) tex(Frm-Bold-lf-ly1.vf) tex(Frm-Bold-lf-ot1--base.tfm) tex(Frm-Bold-lf-ot1--lcdfj.tfm) tex(Frm-Bold-lf-ot1.tfm) tex(Frm-Bold-lf-ot1.vf) tex(Frm-Bold-lf-t1--base.tfm) tex(Frm-Bold-lf-t1--lcdfj.tfm) tex(Frm-Bold-lf-t1.tfm) tex(Frm-Bold-lf-t1.vf) tex(Frm-Bold-lf-t2a--base.tfm) tex(Frm-Bold-lf-t2a--lcdfj.tfm) tex(Frm-Bold-lf-t2a.tfm) tex(Frm-Bold-lf-t2a.vf) tex(Frm-Bold-lf-t2b--base.tfm) tex(Frm-Bold-lf-t2b--lcdfj.tfm) tex(Frm-Bold-lf-t2b.tfm) tex(Frm-Bold-lf-t2b.vf) tex(Frm-Bold-lf-t2c--base.tfm) tex(Frm-Bold-lf-t2c--lcdfj.tfm) tex(Frm-Bold-lf-t2c.tfm) tex(Frm-Bold-lf-t2c.vf) tex(Frm-Bold-lf-ts1--base.tfm) tex(Frm-Bold-lf-ts1.tfm) tex(Frm-Bold-lf-ts1.vf) tex(Frm-lf-ly1--base.tfm) tex(Frm-lf-ly1--lcdfj.tfm) tex(Frm-lf-ly1.tfm) tex(Frm-lf-ly1.vf) tex(Frm-lf-ot1--base.tfm) tex(Frm-lf-ot1--lcdfj.tfm) tex(Frm-lf-ot1.tfm) tex(Frm-lf-ot1.vf) tex(Frm-lf-t1--base.tfm) tex(Frm-lf-t1--lcdfj.tfm) tex(Frm-lf-t1.tfm) tex(Frm-lf-t1.vf) tex(Frm-lf-t2a--base.tfm) tex(Frm-lf-t2a--lcdfj.tfm) tex(Frm-lf-t2a.tfm) tex(Frm-lf-t2a.vf) tex(Frm-lf-t2b--base.tfm) tex(Frm-lf-t2b--lcdfj.tfm) tex(Frm-lf-t2b.tfm) tex(Frm-lf-t2b.vf) tex(Frm-lf-t2c--base.tfm) tex(Frm-lf-t2c--lcdfj.tfm) tex(Frm-lf-t2c.tfm) tex(Frm-lf-t2c.vf) tex(Frm-lf-ts1--base.tfm) tex(Frm-lf-ts1.tfm) tex(Frm-lf-ts1.vf) tex(LY1Frm-LF.fd) tex(OT1Frm-LF.fd) tex(T1Frm-LF.fd) tex(T2AFrm-LF.fd) tex(T2BFrm-LF.fd) tex(T2CFrm-LF.fd) tex(TS1Frm-LF.fd) tex(forum.map) tex(forum.sty) tex(frm_acf3pt.enc) tex(frm_b5i5mx.enc) tex(frm_brq6mf.enc) tex(frm_e2otk2.enc) tex(frm_fx2ufv.enc) tex(frm_jsuphk.enc) tex(frm_smvvub.enc) tex(frm_ylkcu6.enc) texlive-forum"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(fontaxes.sty) tex(fontenc.sty) tex(fontspec.sty) tex(ifluatex.sty) tex(ifxetex.sty) tex(mweights.sty) tex(textcomp.sty) tex(updmap.cfg) tex(xkeyval.sty) texlive texlive-filesystem texlive-forum-fonts texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(Frm-Bold-lf-ly1--base.tfm) \
+tex(Frm-Bold-lf-ly1--lcdfj.tfm) \
+tex(Frm-Bold-lf-ly1.tfm) \
+tex(Frm-Bold-lf-ly1.vf) \
+tex(Frm-Bold-lf-ot1--base.tfm) \
+tex(Frm-Bold-lf-ot1--lcdfj.tfm) \
+tex(Frm-Bold-lf-ot1.tfm) \
+tex(Frm-Bold-lf-ot1.vf) \
+tex(Frm-Bold-lf-t1--base.tfm) \
+tex(Frm-Bold-lf-t1--lcdfj.tfm) \
+tex(Frm-Bold-lf-t1.tfm) \
+tex(Frm-Bold-lf-t1.vf) \
+tex(Frm-Bold-lf-t2a--base.tfm) \
+tex(Frm-Bold-lf-t2a--lcdfj.tfm) \
+tex(Frm-Bold-lf-t2a.tfm) \
+tex(Frm-Bold-lf-t2a.vf) \
+tex(Frm-Bold-lf-t2b--base.tfm) \
+tex(Frm-Bold-lf-t2b--lcdfj.tfm) \
+tex(Frm-Bold-lf-t2b.tfm) \
+tex(Frm-Bold-lf-t2b.vf) \
+tex(Frm-Bold-lf-t2c--base.tfm) \
+tex(Frm-Bold-lf-t2c--lcdfj.tfm) \
+tex(Frm-Bold-lf-t2c.tfm) \
+tex(Frm-Bold-lf-t2c.vf) \
+tex(Frm-Bold-lf-ts1--base.tfm) \
+tex(Frm-Bold-lf-ts1.tfm) \
+tex(Frm-Bold-lf-ts1.vf) \
+tex(Frm-lf-ly1--base.tfm) \
+tex(Frm-lf-ly1--lcdfj.tfm) \
+tex(Frm-lf-ly1.tfm) \
+tex(Frm-lf-ly1.vf) \
+tex(Frm-lf-ot1--base.tfm) \
+tex(Frm-lf-ot1--lcdfj.tfm) \
+tex(Frm-lf-ot1.tfm) \
+tex(Frm-lf-ot1.vf) \
+tex(Frm-lf-t1--base.tfm) \
+tex(Frm-lf-t1--lcdfj.tfm) \
+tex(Frm-lf-t1.tfm) \
+tex(Frm-lf-t1.vf) \
+tex(Frm-lf-t2a--base.tfm) \
+tex(Frm-lf-t2a--lcdfj.tfm) \
+tex(Frm-lf-t2a.tfm) \
+tex(Frm-lf-t2a.vf) \
+tex(Frm-lf-t2b--base.tfm) \
+tex(Frm-lf-t2b--lcdfj.tfm) \
+tex(Frm-lf-t2b.tfm) \
+tex(Frm-lf-t2b.vf) \
+tex(Frm-lf-t2c--base.tfm) \
+tex(Frm-lf-t2c--lcdfj.tfm) \
+tex(Frm-lf-t2c.tfm) \
+tex(Frm-lf-t2c.vf) \
+tex(Frm-lf-ts1--base.tfm) \
+tex(Frm-lf-ts1.tfm) \
+tex(Frm-lf-ts1.vf) \
+tex(LY1Frm-LF.fd) \
+tex(OT1Frm-LF.fd) \
+tex(T1Frm-LF.fd) \
+tex(T2AFrm-LF.fd) \
+tex(T2BFrm-LF.fd) \
+tex(T2CFrm-LF.fd) \
+tex(TS1Frm-LF.fd) \
+tex(forum.map) \
+tex(forum.sty) \
+tex(frm_acf3pt.enc) \
+tex(frm_b5i5mx.enc) \
+tex(frm_brq6mf.enc) \
+tex(frm_e2otk2.enc) \
+tex(frm_fx2ufv.enc) \
+tex(frm_jsuphk.enc) \
+tex(frm_smvvub.enc) \
+tex(frm_ylkcu6.enc) \
+texlive-forum"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(fontaxes.sty) \
+tex(fontenc.sty) \
+tex(fontspec.sty) \
+tex(ifluatex.sty) \
+tex(ifxetex.sty) \
+tex(mweights.sty) \
+tex(textcomp.sty) \
+tex(updmap.cfg) \
+tex(xkeyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-forum-fonts \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

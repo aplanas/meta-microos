@@ -15,7 +15,10 @@ RPM_NAME = "python311-transaction-3.0.1-2.5.noarch.rpm"
 RPM_HASH = "769f504561f9efe46268009236ff11e44bf08171e1f56354e5fb4d63b476599a85f5159bce119edaed32ab4b6a6f95f1400b1572560f6a3ea66b9592f038986c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(transaction) python311-transaction python3dist(transaction)"
-RDEPENDS:${PN} += "python(abi) python311-zope.interface"
+RPROVIDES:${PN} += "python3.11dist(transaction) \
+python311-transaction \
+python3dist(transaction)"
+RDEPENDS:${PN} += "python(abi) \
+python311-zope.interface"
 
 inherit rpm

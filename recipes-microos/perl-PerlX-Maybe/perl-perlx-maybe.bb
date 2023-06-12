@@ -40,7 +40,9 @@ RPM_NAME = "perl-PerlX-Maybe-1.202-1.7.noarch.rpm"
 RPM_HASH = "f398c5a32d02b78035cf1e302eb694edffbb6b69bb54b2b1560ccf69e4a4bd85867638c5441a0535b076aa0b2d238064960126d76dbb00cfd00e99e213957dd6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(PerlX::Maybe) perl(Syntax::Feature::Maybe) perl-PerlX-Maybe"
+RPROVIDES:${PN} += "perl(PerlX::Maybe) \
+perl(Syntax::Feature::Maybe) \
+perl-PerlX-Maybe"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

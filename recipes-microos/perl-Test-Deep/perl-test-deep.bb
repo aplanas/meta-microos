@@ -27,7 +27,60 @@ RPM_NAME = "perl-Test-Deep-1.204-1.1.noarch.rpm"
 RPM_HASH = "77440fc3638c3d4e2e9076a74a64e1e73069d638df2347ce9b6051bc95137a9dabe241f3ef7b8349e1ffc42b59f760bc9506c2637c24fbe6363eafcb6cec1831"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Deep) perl(Test::Deep::All) perl(Test::Deep::Any) perl(Test::Deep::Array) perl(Test::Deep::ArrayEach) perl(Test::Deep::ArrayElementsOnly) perl(Test::Deep::ArrayLength) perl(Test::Deep::ArrayLengthOnly) perl(Test::Deep::Blessed) perl(Test::Deep::Boolean) perl(Test::Deep::Cache) perl(Test::Deep::Cache::Simple) perl(Test::Deep::Class) perl(Test::Deep::Cmp) perl(Test::Deep::Code) perl(Test::Deep::Hash) perl(Test::Deep::HashEach) perl(Test::Deep::HashElements) perl(Test::Deep::HashKeys) perl(Test::Deep::HashKeysOnly) perl(Test::Deep::Ignore) perl(Test::Deep::Isa) perl(Test::Deep::ListMethods) perl(Test::Deep::MM) perl(Test::Deep::Methods) perl(Test::Deep::NoTest) perl(Test::Deep::None) perl(Test::Deep::Number) perl(Test::Deep::Obj) perl(Test::Deep::Ref) perl(Test::Deep::RefType) perl(Test::Deep::Regexp) perl(Test::Deep::RegexpMatches) perl(Test::Deep::RegexpOnly) perl(Test::Deep::RegexpRef) perl(Test::Deep::RegexpRefOnly) perl(Test::Deep::RegexpVersion) perl(Test::Deep::ScalarRef) perl(Test::Deep::ScalarRefOnly) perl(Test::Deep::Set) perl(Test::Deep::Shallow) perl(Test::Deep::Stack) perl(Test::Deep::String) perl(Test::Deep::SubHash) perl(Test::Deep::SubHashElements) perl(Test::Deep::SubHashKeys) perl(Test::Deep::SubHashKeysOnly) perl(Test::Deep::SuperHash) perl(Test::Deep::SuperHashElements) perl(Test::Deep::SuperHashKeys) perl(Test::Deep::SuperHashKeysOnly) perl-Test-Deep"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Test::More) perl-Test-Simple"
+RPROVIDES:${PN} += "perl(Test::Deep) \
+perl(Test::Deep::All) \
+perl(Test::Deep::Any) \
+perl(Test::Deep::Array) \
+perl(Test::Deep::ArrayEach) \
+perl(Test::Deep::ArrayElementsOnly) \
+perl(Test::Deep::ArrayLength) \
+perl(Test::Deep::ArrayLengthOnly) \
+perl(Test::Deep::Blessed) \
+perl(Test::Deep::Boolean) \
+perl(Test::Deep::Cache) \
+perl(Test::Deep::Cache::Simple) \
+perl(Test::Deep::Class) \
+perl(Test::Deep::Cmp) \
+perl(Test::Deep::Code) \
+perl(Test::Deep::Hash) \
+perl(Test::Deep::HashEach) \
+perl(Test::Deep::HashElements) \
+perl(Test::Deep::HashKeys) \
+perl(Test::Deep::HashKeysOnly) \
+perl(Test::Deep::Ignore) \
+perl(Test::Deep::Isa) \
+perl(Test::Deep::ListMethods) \
+perl(Test::Deep::MM) \
+perl(Test::Deep::Methods) \
+perl(Test::Deep::NoTest) \
+perl(Test::Deep::None) \
+perl(Test::Deep::Number) \
+perl(Test::Deep::Obj) \
+perl(Test::Deep::Ref) \
+perl(Test::Deep::RefType) \
+perl(Test::Deep::Regexp) \
+perl(Test::Deep::RegexpMatches) \
+perl(Test::Deep::RegexpOnly) \
+perl(Test::Deep::RegexpRef) \
+perl(Test::Deep::RegexpRefOnly) \
+perl(Test::Deep::RegexpVersion) \
+perl(Test::Deep::ScalarRef) \
+perl(Test::Deep::ScalarRefOnly) \
+perl(Test::Deep::Set) \
+perl(Test::Deep::Shallow) \
+perl(Test::Deep::Stack) \
+perl(Test::Deep::String) \
+perl(Test::Deep::SubHash) \
+perl(Test::Deep::SubHashElements) \
+perl(Test::Deep::SubHashKeys) \
+perl(Test::Deep::SubHashKeysOnly) \
+perl(Test::Deep::SuperHash) \
+perl(Test::Deep::SuperHashElements) \
+perl(Test::Deep::SuperHashKeys) \
+perl(Test::Deep::SuperHashKeysOnly) \
+perl-Test-Deep"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Test::More) \
+perl-Test-Simple"
 
 inherit rpm

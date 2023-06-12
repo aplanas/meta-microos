@@ -32,7 +32,14 @@ RPM_NAME = "python310-odfpy-1.4.2-1.4.noarch.rpm"
 RPM_HASH = "b9437cb9ba56bb8e0baeb789d383645cbcb9d5a6c0b72ee8640c79049c9848ce0191d9f7c4684c5a8217fa5d0ee5da6c2213127af5b7bcba67f30573e7fb0b13"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-odfpy python3.10dist(odfpy) python310-odfpy python3dist(odfpy)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-defusedxml update-alternatives"
+RPROVIDES:${PN} += "python3-odfpy \
+python3.10dist(odfpy) \
+python310-odfpy \
+python3dist(odfpy)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-defusedxml \
+update-alternatives"
 
 inherit rpm

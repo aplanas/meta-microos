@@ -18,7 +18,19 @@ RPM_NAME = "texlive-inlinedef-2023.201.1.0svn15878-52.1.noarch.rpm"
 RPM_HASH = "84771be1d4ed75a6d6d80be6149a2cf5a1fec6fe15d1d81dc5117c02f2921190cefc1fb9a322a0f5d4409a2cd63a4f75f896fe6dff6f5d6f9ec7bd1849bad64b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(inlinedef.sty) texlive-inlinedef"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(inlinedef.sty) \
+texlive-inlinedef"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

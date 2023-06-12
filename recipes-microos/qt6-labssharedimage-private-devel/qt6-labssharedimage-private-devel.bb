@@ -8,7 +8,8 @@ PV = "6.5.1"
 RPM_NAME = "qt6-labssharedimage-private-devel-6.5.1-1.2.aarch64.rpm"
 RPM_HASH = "c3dcd69f8a53e382171ed0482f700453b074ef655965171829d4edd201ce41103f96ecf9b3470b3d5155daf0537768c87d6462f9bb537e7be5a4d3884465bb48"
 
-RPROVIDES:${PN} += "qt6-labssharedimage-private-devel qt6-labssharedimage-private-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-labssharedimage-private-devel \
+qt6-labssharedimage-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6LabsSharedImage)"
 
 inherit rpm

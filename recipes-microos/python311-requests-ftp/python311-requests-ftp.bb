@@ -15,7 +15,10 @@ RPM_NAME = "python311-requests-ftp-0.3.1-3.15.noarch.rpm"
 RPM_HASH = "ef2f1b58e67de0c85f8840b695ca7941c6381897fb9b33da22163e963791687b6a556c6ba246e4ddfa3e38d7eb58e4448b5da75e38e6788a1df34a036ed1bc75"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(requests-ftp) python311-requests-ftp python3dist(requests-ftp)"
-RDEPENDS:${PN} += "python(abi) python311-requests"
+RPROVIDES:${PN} += "python3.11dist(requests-ftp) \
+python311-requests-ftp \
+python3dist(requests-ftp)"
+RDEPENDS:${PN} += "python(abi) \
+python311-requests"
 
 inherit rpm

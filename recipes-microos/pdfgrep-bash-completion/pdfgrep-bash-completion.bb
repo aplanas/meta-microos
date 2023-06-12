@@ -9,6 +9,7 @@ RPM_HASH = "74bc63459819d5ee7d6139b70ef96a7efd7a41fd84f9898d38afdb62e932cdc7c87f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pdfgrep-bash-completion"
-RDEPENDS:${PN} += "bash-completion pdfgrep"
+RDEPENDS:${PN} += "bash-completion \
+pdfgrep"
 
 inherit rpm

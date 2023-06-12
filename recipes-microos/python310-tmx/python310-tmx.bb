@@ -10,7 +10,11 @@ RPM_NAME = "python310-tmx-1.10-3.14.noarch.rpm"
 RPM_HASH = "6008a120cde882ac9df3e17bc2849ea1bd37c78fda87f11df4003c0d067b41914e636b47bf3d733dc24ef94869e2a97f21c465858c3ea811a9677f98484ce3af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tmx python3.10dist(tmx) python310-tmx python3dist(tmx)"
-RDEPENDS:${PN} += "python(abi) python310-six"
+RPROVIDES:${PN} += "python3-tmx \
+python3.10dist(tmx) \
+python310-tmx \
+python3dist(tmx)"
+RDEPENDS:${PN} += "python(abi) \
+python310-six"
 
 inherit rpm

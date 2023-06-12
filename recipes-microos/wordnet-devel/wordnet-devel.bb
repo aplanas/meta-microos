@@ -17,7 +17,10 @@ PV = "3.0"
 RPM_NAME = "wordnet-devel-3.0-35.1.aarch64.rpm"
 RPM_HASH = "ee5c8777cfeb337f8414921d426f0d5c56e5a5f15189bd8b3e1979e596123acc61dfbf52b03f69ca6884c32ecced9a449d55ae9778b920561dcd91ae88b0117e"
 
-RPROVIDES:${PN} += "wordnet-devel wordnet-devel(aarch-64)"
-RDEPENDS:${PN} += "libWN3 tcl-devel tk-devel"
+RPROVIDES:${PN} += "wordnet-devel \
+wordnet-devel(aarch-64)"
+RDEPENDS:${PN} += "libWN3 \
+tcl-devel \
+tk-devel"
 
 inherit rpm

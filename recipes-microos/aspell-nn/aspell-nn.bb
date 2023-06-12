@@ -7,7 +7,9 @@ PV = "0.50.11"
 RPM_NAME = "aspell-nn-0.50.11-2.14.aarch64.rpm"
 RPM_HASH = "6c65cb782b931f17251ea119071c0fbb07e901ff0773dfa77e49daf4a0c112f91cc0785125964c2bf569da6947c06a929215cebcafb9d8c5b701bcce0d0c74e5"
 
-RPROVIDES:${PN} += "aspell-nn aspell-nn(aarch-64) locale(aspell:nn)"
+RPROVIDES:${PN} += "aspell-nn \
+aspell-nn(aarch-64) \
+locale(aspell:nn)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

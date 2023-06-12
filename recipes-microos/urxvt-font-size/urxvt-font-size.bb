@@ -18,7 +18,8 @@ PV = "1.3"
 RPM_NAME = "urxvt-font-size-1.3-1.4.aarch64.rpm"
 RPM_HASH = "674e262be06f1ad498716e596cb64f635dfba430d6a05f06493b2a924cca45a911a13bd236030570f648b41b8c085fb272c72a1a82e58e0f7f2804eb4c266ca8"
 
-RPROVIDES:${PN} += "urxvt-font-size urxvt-font-size(aarch-64)"
+RPROVIDES:${PN} += "urxvt-font-size \
+urxvt-font-size(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,7 +12,9 @@ RPM_NAME = "mate-control-center-branding-upstream-1.26.1-1.1.noarch.rpm"
 RPM_HASH = "72fdc4ea657d19aa2fdc589ce64b9fc0acae3009eda4ff6cc3063398b160ce451367dde8b8e3d60ea819ded326ce96ff4b47c7af248947ed183a825ce7f03349"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(mate-control-center-branding-upstream) mate-control-center-branding mate-control-center-branding-upstream"
+RPROVIDES:${PN} += "config(mate-control-center-branding-upstream) \
+mate-control-center-branding \
+mate-control-center-branding-upstream"
 RDEPENDS:${PN} += "mate-control-center"
 
 inherit rpm

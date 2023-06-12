@@ -12,7 +12,19 @@ RPM_NAME = "texlive-hypernat-2023.201.1.0bsvn17358-52.1.noarch.rpm"
 RPM_HASH = "49c541a80795e621915561c700b08c52dad9e21502d2213ce6083b59cbbf2880cfa4ba129f037a505246e965e996159d0681166f3721539d46695ac42de1196e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hypernat.sty) texlive-hypernat"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(hypernat.sty) \
+texlive-hypernat"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

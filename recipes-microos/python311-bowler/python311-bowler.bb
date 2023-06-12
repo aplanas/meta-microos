@@ -17,7 +17,18 @@ RPM_NAME = "python311-bowler-0.9.0-1.17.noarch.rpm"
 RPM_HASH = "c938a4191389fc24603be268fe076355fa061f680008f937a6d3a5d2ad4fef69c6eed492020f33e3f6b804ff43ce95727a488fbde367bfda5455b698e34a53b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(bowler) python311-bowler python3dist(bowler)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-attrs python311-click python311-fissix python311-moreorless python311-setuptools python311-volatile update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(bowler) \
+python311-bowler \
+python3dist(bowler)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-attrs \
+python311-click \
+python311-fissix \
+python311-moreorless \
+python311-setuptools \
+python311-volatile \
+update-alternatives"
 
 inherit rpm

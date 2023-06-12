@@ -12,7 +12,14 @@ RPM_NAME = "python310-SpeechRecognition-3.8.1-5.4.noarch.rpm"
 RPM_HASH = "2ff68136e13ca10b3d3b41ac869098ef163c0a9c11ff14dbc7fee2a0eb07514c82ee4272bc01e27b88a995f3ea35c23321196cc858c08d763a27d92a6c9052bc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-SpeechRecognition python3.10dist(speechrecognition) python310-SpeechRecognition python3dist(speechrecognition)"
-RDEPENDS:${PN} += "flac python(abi) python-SpeechRecognition-common-en-US python310-PyAudio python310-google-cloud-speech"
+RPROVIDES:${PN} += "python3-SpeechRecognition \
+python3.10dist(speechrecognition) \
+python310-SpeechRecognition \
+python3dist(speechrecognition)"
+RDEPENDS:${PN} += "flac \
+python(abi) \
+python-SpeechRecognition-common-en-US \
+python310-PyAudio \
+python310-google-cloud-speech"
 
 inherit rpm

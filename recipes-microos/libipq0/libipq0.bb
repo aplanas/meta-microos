@@ -13,7 +13,12 @@ PV = "1.8.9"
 RPM_NAME = "libipq0-1.8.9-1.3.aarch64.rpm"
 RPM_HASH = "6a6912a25c8c919ce0f7f88df0544222ae2f0c4aeea99da092d3c69642f65dd10a8782322a4b40528e506df088b24b36651866b2acc52a270d20c85592884663"
 
-RPROVIDES:${PN} += "libipq.so.0()(64bit) libipq0 libipq0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libipq.so.0()(64bit) \
+libipq0 \
+libipq0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

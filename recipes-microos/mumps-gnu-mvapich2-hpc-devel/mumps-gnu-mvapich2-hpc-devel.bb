@@ -11,6 +11,7 @@ RPM_HASH = "1fa46854891d1a0fdcfe5dbd29c90238d659d2195b8bb53911d7cf62c3d00ec5d359
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mumps-gnu-mvapich2-hpc-devel"
-RDEPENDS:${PN} += "/bin/sh mumps_5_3_5-gnu-mvapich2-hpc-devel"
+RDEPENDS:${PN} += "/bin/sh \
+mumps_5_3_5-gnu-mvapich2-hpc-devel"
 
 inherit rpm

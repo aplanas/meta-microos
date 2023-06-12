@@ -18,6 +18,7 @@ RPM_HASH = "638c11cf46d36bb4fc661997226542add4d1dad1a9d3177c84de38425e01a993f1fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "0ad-data"
-RDEPENDS:${PN} += "dejavu-fonts gnu-free-fonts"
+RDEPENDS:${PN} += "dejavu-fonts \
+gnu-free-fonts"
 
 inherit rpm

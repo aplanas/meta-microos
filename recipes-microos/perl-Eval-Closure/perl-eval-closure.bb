@@ -18,7 +18,8 @@ RPM_NAME = "perl-Eval-Closure-0.14-1.23.noarch.rpm"
 RPM_HASH = "af7a396a22dc143e58c16990137ad57af956a677b065473399833a476cda59211aef6bae88f64d4e1d934a212afe04958ae4822311d56ad7a77feb236bca7e3e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Eval::Closure) perl-Eval-Closure"
+RPROVIDES:${PN} += "perl(Eval::Closure) \
+perl-Eval-Closure"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

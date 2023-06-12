@@ -15,7 +15,25 @@ PV = "2.3.20"
 RPM_NAME = "dovecot23-fts-lucene-2.3.20-3.2.aarch64.rpm"
 RPM_HASH = "eb7728cfd89d70991b7da2918ed7620c09c829c21236d62a9311ce6351d234270f3b7f397166fb201db45d7524417420e1dd86e5fe8fa1e4017a5daba98b6b46"
 
-RPROVIDES:${PN} += "dovecot-fts-clucene dovecot23-fts-lucene dovecot23-fts-lucene(aarch-64) dovecot_fts_backend lib20_doveadm_fts_lucene_plugin.so()(64bit) lib21_fts_lucene_plugin.so()(64bit)"
-RDEPENDS:${PN} += "dovecot23 dovecot23-fts ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libclucene-core.so.1()(64bit) libclucene-shared.so.1()(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+RPROVIDES:${PN} += "dovecot-fts-clucene \
+dovecot23-fts-lucene \
+dovecot23-fts-lucene(aarch-64) \
+dovecot_fts_backend \
+lib20_doveadm_fts_lucene_plugin.so()(64bit) \
+lib21_fts_lucene_plugin.so()(64bit)"
+RDEPENDS:${PN} += "dovecot23 \
+dovecot23-fts \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+libclucene-core.so.1()(64bit) \
+libclucene-shared.so.1()(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit)"
 
 inherit rpm

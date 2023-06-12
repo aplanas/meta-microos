@@ -14,7 +14,15 @@ RPM_NAME = "jboss-marshalling-1.4.11-1.20.noarch.rpm"
 RPM_HASH = "7e2e364dcd9b8b58a579bfba06f9dd87aa0335656b0465f0903ae20abd46ae8ba50cabc76df1229195abf763c79b1060b7e4acdd2e390cca66c3062b28979fc3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jboss-marshalling mvn(org.jboss.marshalling:jboss-marshalling) mvn(org.jboss.marshalling:jboss-marshalling-parent:pom:) mvn(org.jboss.marshalling:jboss-marshalling-river) mvn(org.jboss.marshalling:jboss-marshalling-river:pom:) mvn(org.jboss.marshalling:jboss-marshalling-serial) mvn(org.jboss.marshalling:jboss-marshalling-serial:pom:) mvn(org.jboss.marshalling:jboss-marshalling:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "jboss-marshalling \
+mvn(org.jboss.marshalling:jboss-marshalling) \
+mvn(org.jboss.marshalling:jboss-marshalling-parent:pom:) \
+mvn(org.jboss.marshalling:jboss-marshalling-river) \
+mvn(org.jboss.marshalling:jboss-marshalling-river:pom:) \
+mvn(org.jboss.marshalling:jboss-marshalling-serial) \
+mvn(org.jboss.marshalling:jboss-marshalling-serial:pom:) \
+mvn(org.jboss.marshalling:jboss-marshalling:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

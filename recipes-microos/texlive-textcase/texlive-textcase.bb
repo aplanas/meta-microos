@@ -20,7 +20,19 @@ RPM_NAME = "texlive-textcase-2023.201.1.03svn63868-54.1.noarch.rpm"
 RPM_HASH = "669ca8592be77408bd6867cfb29d8a82c52136d5f6a8a6995e202e2807a2e44ce66a0a6b9d7db5614a5a21cf2de83ce85affbfc75108d0eb892f7f66fe87e4c6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(textcase.sty) texlive-textcase"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(textcase.sty) \
+texlive-textcase"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

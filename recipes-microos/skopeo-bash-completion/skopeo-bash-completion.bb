@@ -9,6 +9,7 @@ RPM_HASH = "1a93c16649f6bf1f897a12e03e4907445613ff5ac60875f54df9f3f74c39614bdd60
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skopeo-bash-completion"
-RDEPENDS:${PN} += "bash-completion skopeo"
+RDEPENDS:${PN} += "bash-completion \
+skopeo"
 
 inherit rpm

@@ -20,7 +20,13 @@ RPM_NAME = "jaxodraw-2.1.0-6.6.noarch.rpm"
 RPM_HASH = "fb2fc36a86253edebbf1e03ffa61bbf2bcc4d05770a5a47e34bfb00601e242f5674f95af59c12d0a2d2ae56cfccc946350253cb8a01a56ea016412292637c65d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(jaxodraw.desktop) jaxodraw metainfo() metainfo(jaxodraw.appdata.xml)"
-RDEPENDS:${PN} += "/bin/sh java javapackages-tools"
+RPROVIDES:${PN} += "application() \
+application(jaxodraw.desktop) \
+jaxodraw \
+metainfo() \
+metainfo(jaxodraw.appdata.xml)"
+RDEPENDS:${PN} += "/bin/sh \
+java \
+javapackages-tools"
 
 inherit rpm

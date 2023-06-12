@@ -19,7 +19,15 @@ PV = "1.0.1"
 RPM_NAME = "priv_wrapper-1.0.1-3.2.aarch64.rpm"
 RPM_HASH = "e864240ae7632de632be25512ebd9d1fe2fcfb78d07cdeefdf6bea8ff170d83b04a875626426328dfe423f4de5ddd6cd516b1c4a99ce62d18dcbba2c2e34f3ce"
 
-RPROVIDES:${PN} += "cmake(priv_wrapper) libpriv_wrapper.so.0()(64bit) pkgconfig(priv_wrapper) priv_wrapper priv_wrapper(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig /usr/bin/pkg-config ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "cmake(priv_wrapper) \
+libpriv_wrapper.so.0()(64bit) \
+pkgconfig(priv_wrapper) \
+priv_wrapper \
+priv_wrapper(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/pkg-config \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

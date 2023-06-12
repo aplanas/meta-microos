@@ -40,7 +40,8 @@ RPM_NAME = "perl-Lingua-EN-Inflect-1.905-1.11.noarch.rpm"
 RPM_HASH = "811e625950204059f9212fc6538bf04cd353f90a5819e1f6d6c4f45e6115765dad70d303a9a31b0b587fcb8b805c94e810be60cfdf93b62b7fa7b68baade6858"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Lingua::EN::Inflect) perl-Lingua-EN-Inflect"
+RPROVIDES:${PN} += "perl(Lingua::EN::Inflect) \
+perl-Lingua-EN-Inflect"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

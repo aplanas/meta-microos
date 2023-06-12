@@ -12,7 +12,8 @@ PV = "6.2.9"
 RPM_NAME = "python39-bsddb3-devel-6.2.9-1.13.aarch64.rpm"
 RPM_HASH = "2105e14a14530bc5f75c4918e02c5cecb5124ec420468ee2d74f194f125ebf026a7fb07c0f4ed45c2ffe80423879f1d7cae702767edaa32c463f7c5dfc24acd5"
 
-RPROVIDES:${PN} += "python39-bsddb3-devel python39-bsddb3-devel(aarch-64)"
+RPROVIDES:${PN} += "python39-bsddb3-devel \
+python39-bsddb3-devel(aarch-64)"
 RDEPENDS:${PN} += "python39-bsddb3"
 
 inherit rpm

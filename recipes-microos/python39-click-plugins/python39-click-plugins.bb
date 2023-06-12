@@ -13,7 +13,10 @@ RPM_NAME = "python39-click-plugins-1.1.1-4.8.noarch.rpm"
 RPM_HASH = "f275465154e88ddf79bd5f8626abf07078254694fa17b8a95fb9e020636db566138806094a1f068ba91de218e40867c58148f14123038992eb83d05f8d456314"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(click-plugins) python39-click-plugins python3dist(click-plugins)"
-RDEPENDS:${PN} += "python(abi) python39-click"
+RPROVIDES:${PN} += "python3.9dist(click-plugins) \
+python39-click-plugins \
+python3dist(click-plugins)"
+RDEPENDS:${PN} += "python(abi) \
+python39-click"
 
 inherit rpm

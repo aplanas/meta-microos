@@ -13,7 +13,14 @@ RPM_NAME = "guava-31.1-2.4.noarch.rpm"
 RPM_HASH = "11a1eb0784239ef58a228a06c64245e093b57db56f249e0d4ee108572d6b8ada7c461dcfff92ba9bdf85ca0442ad78039516b5f36d8e40c5c111b2cbb0e2e293"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "guava mvn(com.google.guava:failureaccess) mvn(com.google.guava:failureaccess:pom:) mvn(com.google.guava:guava) mvn(com.google.guava:guava:pom:) osgi(com.google.guava)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(com.google.code.findbugs:jsr305)"
+RPROVIDES:${PN} += "guava \
+mvn(com.google.guava:failureaccess) \
+mvn(com.google.guava:failureaccess:pom:) \
+mvn(com.google.guava:guava) \
+mvn(com.google.guava:guava:pom:) \
+osgi(com.google.guava)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(com.google.code.findbugs:jsr305)"
 
 inherit rpm

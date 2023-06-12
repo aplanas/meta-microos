@@ -19,7 +19,9 @@ RPM_NAME = "python310-dask-delayed-2023.3.2-3.1.noarch.rpm"
 RPM_HASH = "7b0871604878f8476f2744ce591639a0df395b870a195ae9a1e1c188a4223c0a64df3b4750bfd27962b45a8b6bc94de9730e6332c6958a11ae729f2a39518016"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dask-delayed python310-dask-delayed"
-RDEPENDS:${PN} += "python(abi) python310-dask"
+RPROVIDES:${PN} += "python3-dask-delayed \
+python310-dask-delayed"
+RDEPENDS:${PN} += "python(abi) \
+python310-dask"
 
 inherit rpm

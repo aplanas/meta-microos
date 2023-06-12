@@ -8,7 +8,15 @@ PV = "8.9p1"
 RPM_NAME = "openssh-cavs-8.9p1-9.2.aarch64.rpm"
 RPM_HASH = "84d61e88a7f007f0f1eb75f8526f481dd59fca0c275a20a96d0865ed19551bfd383da48298bf7f263b97452d5daa5bd73f7a193ad23ef0f95a932b69e4fb6cb2"
 
-RPROVIDES:${PN} += "openssh-cavs openssh-cavs(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libfido2.so.1()(64bit) libz.so.1()(64bit) openssh-common"
+RPROVIDES:${PN} += "openssh-cavs \
+openssh-cavs(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libfido2.so.1()(64bit) \
+libz.so.1()(64bit) \
+openssh-common"
 
 inherit rpm

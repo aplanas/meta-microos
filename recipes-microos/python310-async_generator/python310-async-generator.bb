@@ -9,7 +9,10 @@ RPM_NAME = "python310-async_generator-1.10-3.1.noarch.rpm"
 RPM_HASH = "41debfe0df240be78f07a9f6f99dfcabcb2308c0acbf4769e65c65654a1353ee177cabf19035a12d7b1f96344bdab4dae49015cb7203a9bb404b91ca5625e0b1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-async_generator python3.10dist(async-generator) python310-async_generator python3dist(async-generator)"
+RPROVIDES:${PN} += "python3-async_generator \
+python3.10dist(async-generator) \
+python310-async_generator \
+python3dist(async-generator)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

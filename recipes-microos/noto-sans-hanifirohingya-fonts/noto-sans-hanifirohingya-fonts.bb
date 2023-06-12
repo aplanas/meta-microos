@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-hanifirohingya-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "568043a486f618bb2a8fcade9ae19738c18e20759a81e68783ca4ac2c036f372aab270340cbc507fe5ccf8fe4299ba9459b2203424a3294d03a4ecef6f5fd6d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-hanifirohingya noto-sans-hanifirohingya-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-hanifirohingya \
+noto-sans-hanifirohingya-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

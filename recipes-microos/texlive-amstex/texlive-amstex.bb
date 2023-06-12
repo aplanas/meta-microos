@@ -25,7 +25,32 @@ RPM_NAME = "texlive-amstex-2023.201.2.01svn66186-54.1.noarch.rpm"
 RPM_HASH = "2e3597eab91ed970603222eced4ab3ce2c8a3ca78dac9d2df8a7110c8db7f5a6451846281ed52922b0f1933bbfc94da6aa87041fab4c5ae6fd1d1c9fa6c5ffe8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(texlive-amstex) tex(amsppt.sty) tex(amsppt1.tex) tex(amstex.tex) texlive-amstex"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(language.dat) tex(language.dat.lua) tex(language.def) texlive texlive-amsfonts texlive-amstex-bin texlive-cm texlive-filesystem texlive-hyphen-base texlive-knuth-lib texlive-kpathsea texlive-kpathsea-bin texlive-plain texlive-scripts texlive-scripts-bin texlive-tex"
+RPROVIDES:${PN} += "config(texlive-amstex) \
+tex(amsppt.sty) \
+tex(amsppt1.tex) \
+tex(amstex.tex) \
+texlive-amstex"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(language.dat) \
+tex(language.dat.lua) \
+tex(language.def) \
+texlive \
+texlive-amsfonts \
+texlive-amstex-bin \
+texlive-cm \
+texlive-filesystem \
+texlive-hyphen-base \
+texlive-knuth-lib \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-plain \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-tex"
 
 inherit rpm

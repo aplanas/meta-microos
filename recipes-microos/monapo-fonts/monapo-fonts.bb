@@ -10,7 +10,14 @@ RPM_NAME = "monapo-fonts-20170722-1.10.noarch.rpm"
 RPM_HASH = "3ce209da7b39b95b7d19af92ca4872d58839278513e22b67a6786b669c809d580698fc7bc8bd1fe9234050750b50c1a70b9ef1adf28b22d3d5072b273bcf1942"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(ja) monapo monapo-font monapo-fonts scalable-font-ja"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "locale(ja) \
+monapo \
+monapo-font \
+monapo-fonts \
+scalable-font-ja"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

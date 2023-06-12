@@ -23,6 +23,10 @@ RPM_HASH = "8d0443bddeaabd6ce4d5c8f07cca0dbf5af3ee1118e2facbdbe398f9d78eb2a48e46
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xdg-utils"
-RDEPENDS:${PN} += "/bin/sh perl perl-Net-DBus perl-X11-Protocol which"
+RDEPENDS:${PN} += "/bin/sh \
+perl \
+perl-Net-DBus \
+perl-X11-Protocol \
+which"
 
 inherit rpm

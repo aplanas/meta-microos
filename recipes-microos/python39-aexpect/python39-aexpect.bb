@@ -10,7 +10,12 @@ RPM_NAME = "python39-aexpect-1.6.4-2.4.noarch.rpm"
 RPM_HASH = "da4398a958d923e3c2eb2913d4c9eb74cd14235ebf33cfa58eedc202a221c79d693cc3a6f68e06438227d71e9cc968aa3995fdcc66bd31273998e2275a960e96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(aexpect) python39-aexpect python3dist(aexpect)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(aexpect) \
+python39-aexpect \
+python3dist(aexpect)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

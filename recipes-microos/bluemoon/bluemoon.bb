@@ -22,7 +22,17 @@ PV = "2.12"
 RPM_NAME = "bluemoon-2.12-1.26.aarch64.rpm"
 RPM_HASH = "aec1ce4e297981f50497af5af6f512ce5650b1bb442ed9e6815a1a7877391e7cb013a2fd8d0db39435edcdb0feb32190f294f92fb13a65f494a3140138824754"
 
-RPROVIDES:${PN} += "application() application(bluemoon.desktop) bluemoon bluemoon(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libncurses.so.6()(64bit) libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
+RPROVIDES:${PN} += "application() \
+application(bluemoon.desktop) \
+bluemoon \
+bluemoon(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libncurses.so.6()(64bit) \
+libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
 
 inherit rpm

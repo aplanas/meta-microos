@@ -14,7 +14,11 @@ RPM_NAME = "perl-File-Mork-0.4-2.21.noarch.rpm"
 RPM_HASH = "8c98e47e793d2fe55b113492edac5415c56a00aa88cbf6b56609bf5c62a37784846347fd517d829c6af71f6f5531e44ef026c78a8484da043c2e5a4d1a276441"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::Mork) perl(File::Mork::Entry) perl-File-Mork"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(HTML::Entities)"
+RPROVIDES:${PN} += "perl(File::Mork) \
+perl(File::Mork::Entry) \
+perl-File-Mork"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(HTML::Entities)"
 
 inherit rpm

@@ -10,7 +10,20 @@ PV = "20210424"
 RPM_NAME = "python310-libexe-20210424-4.6.aarch64.rpm"
 RPM_HASH = "83c5818e6c66ba01d2d323ea79c62aa510c753e7332dc75e5b2d40a690e7d1d5a3629b39f78ff3df8ae5410cbd2e375f69b83c5c6fb28ce6582db84001cbb881"
 
-RPROVIDES:${PN} += "python3-libexe python310-libexe python310-libexe(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbfio.so.1()(64bit) libbfio.so.1(V_20221025)(64bit) libc.so.6(GLIBC_2.17)(64bit) libcerror.so.1()(64bit) libcerror.so.1(V_20220101)(64bit) libclocale.so.1()(64bit) libclocale.so.1(V_20221218)(64bit) libexe.so.1()(64bit) libexe.so.1(V_20210424)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3-libexe \
+python310-libexe \
+python310-libexe(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbfio.so.1()(64bit) \
+libbfio.so.1(V_20221025)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libcerror.so.1()(64bit) \
+libcerror.so.1(V_20220101)(64bit) \
+libclocale.so.1()(64bit) \
+libclocale.so.1(V_20221218)(64bit) \
+libexe.so.1()(64bit) \
+libexe.so.1(V_20210424)(64bit) \
+python(abi)"
 
 inherit rpm

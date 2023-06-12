@@ -11,7 +11,21 @@ PV = "11.1.3"
 RPM_NAME = "ruby3.2-rubygem-byebug-11.1.3-1.22.aarch64.rpm"
 RPM_HASH = "8edfc9eda681cd9ce3d4867d4d0ca2e8b70872e992d9f4e8a39358c3963658bd04a56850e7692b1fe755d3c805e36b86a3901b97ae42f63b006be28c95f9cafa"
 
-RPROVIDES:${PN} += "ruby3.2-rubygem-byebug ruby3.2-rubygem-byebug(aarch-64) rubygem(byebug) rubygem(ruby:3.2.0:byebug) rubygem(ruby:3.2.0:byebug:11) rubygem(ruby:3.2.0:byebug:11.1) rubygem(ruby:3.2.0:byebug:11.1.3)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/ruby.ruby3.2 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libruby3.2.so.3.2()(64bit) ruby(abi) update-alternatives"
+RPROVIDES:${PN} += "ruby3.2-rubygem-byebug \
+ruby3.2-rubygem-byebug(aarch-64) \
+rubygem(byebug) \
+rubygem(ruby:3.2.0:byebug) \
+rubygem(ruby:3.2.0:byebug:11) \
+rubygem(ruby:3.2.0:byebug:11.1) \
+rubygem(ruby:3.2.0:byebug:11.1.3)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/ruby.ruby3.2 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libm.so.6()(64bit) \
+libruby3.2.so.3.2()(64bit) \
+ruby(abi) \
+update-alternatives"
 
 inherit rpm

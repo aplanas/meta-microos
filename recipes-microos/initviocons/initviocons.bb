@@ -20,7 +20,11 @@ PV = "0.5"
 RPM_NAME = "initviocons-0.5-106.2.aarch64.rpm"
 RPM_HASH = "9027f92c05fa24bb55a15b792e0f28e4ae75de5857baff8c71de0f0be0a65a256265a719e17e6b1c7a8bc44b791c4707a2e7390bd2101d333068a3d4343200be"
 
-RPROVIDES:${PN} += "initviocons initviocons(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "initviocons \
+initviocons(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

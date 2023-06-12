@@ -10,7 +10,12 @@ PV = "0.25.0"
 RPM_NAME = "golang-github-prometheus-alertmanager-0.25.0-2.1.aarch64.rpm"
 RPM_HASH = "25b9ce9310671d2468508cb8bcfc1b5419f0941f24c8706d79c9e0d3fe5f2a0c55d4cc538e5d5d4d265cd144169d56dd709fd5510e64ce70a0b114ad37e64c9b"
 
-RPROVIDES:${PN} += "config(golang-github-prometheus-alertmanager) golang-github-prometheus-alertmanager golang-github-prometheus-alertmanager(aarch-64) prometheus-alertmanager"
-RDEPENDS:${PN} += "/bin/sh group(prometheus) user(prometheus)"
+RPROVIDES:${PN} += "config(golang-github-prometheus-alertmanager) \
+golang-github-prometheus-alertmanager \
+golang-github-prometheus-alertmanager(aarch-64) \
+prometheus-alertmanager"
+RDEPENDS:${PN} += "/bin/sh \
+group(prometheus) \
+user(prometheus)"
 
 inherit rpm

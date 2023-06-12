@@ -32,7 +32,11 @@ RPM_NAME = "python310-beautifulsoup4-4.12.2-1.1.noarch.rpm"
 RPM_HASH = "d882301f26f1d6ebc3fb10184de1b97d22328e9a0c253ea2efbce9efe2984232b9d26df2ed6541d1227cf09b415ada4ef135f214fdd0019be17ea2bb812edafe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-beautifulsoup4 python3.10dist(beautifulsoup4) python310-beautifulsoup4 python3dist(beautifulsoup4)"
-RDEPENDS:${PN} += "python(abi) python310-soupsieve"
+RPROVIDES:${PN} += "python3-beautifulsoup4 \
+python3.10dist(beautifulsoup4) \
+python310-beautifulsoup4 \
+python3dist(beautifulsoup4)"
+RDEPENDS:${PN} += "python(abi) \
+python310-soupsieve"
 
 inherit rpm

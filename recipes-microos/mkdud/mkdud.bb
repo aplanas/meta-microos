@@ -13,6 +13,7 @@ RPM_HASH = "e4269cbac5f7914bb70777ed952a32ecc4fa67576dde6f3d617518fc3c15c371c910
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mkdud"
-RDEPENDS:${PN} += "/usr/bin/perl gpg2"
+RDEPENDS:${PN} += "/usr/bin/perl \
+gpg2"
 
 inherit rpm

@@ -14,7 +14,11 @@ PV = "0.41.0"
 RPM_NAME = "trivy-0.41.0-2.1.aarch64.rpm"
 RPM_HASH = "4b8ee289c245978f7ac9bee370575ab2e688c2e6d0339a4a5abc27b42f28e4757d5094e2219ff6187000a55b741c8abd807ca38e277f407a0f13b8ff9a578eaa"
 
-RPROVIDES:${PN} += "trivy trivy(aarch-64)"
-RDEPENDS:${PN} += "ca-certificates git-core libc.so.6(GLIBC_2.34)(64bit) rpm"
+RPROVIDES:${PN} += "trivy \
+trivy(aarch-64)"
+RDEPENDS:${PN} += "ca-certificates \
+git-core \
+libc.so.6(GLIBC_2.34)(64bit) \
+rpm"
 
 inherit rpm

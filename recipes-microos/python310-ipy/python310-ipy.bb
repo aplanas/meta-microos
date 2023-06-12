@@ -12,7 +12,10 @@ RPM_NAME = "python310-ipy-1.01-1.10.noarch.rpm"
 RPM_HASH = "7bcc9425f5ce775923cf112e354b3d887e7c6f4702a7a8f7cfeba0bcee5f9b488f342b8befa8b26766852d145b420443e7fb123a4c0bf82ea4ef654906f291ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ipy python3.10dist(ipy) python310-ipy python3dist(ipy)"
+RPROVIDES:${PN} += "python3-ipy \
+python3.10dist(ipy) \
+python310-ipy \
+python3dist(ipy)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "0898fd217bd9179ae54dd533330803bdd1d8472c8dbd875dd8ca4e801d4e090eec6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dd_rhelp"
-RDEPENDS:${PN} += "/bin/bash dd_rescue"
+RDEPENDS:${PN} += "/bin/bash \
+dd_rescue"
 
 inherit rpm

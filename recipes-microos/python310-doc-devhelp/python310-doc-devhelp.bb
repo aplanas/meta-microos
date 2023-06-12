@@ -9,7 +9,9 @@ PV = "3.10.11"
 RPM_NAME = "python310-doc-devhelp-3.10.11-1.1.aarch64.rpm"
 RPM_HASH = "51f6ad55b1ca8179ef943003b8c45335e859778e6a8d7f4f60a6fdec7595757e4244f3adaa54e63272b3048d9dfbfa2b6a1a0b338a4bdc7a9be97f0878319e27"
 
-RPROVIDES:${PN} += "python3-doc-devhelp python310-doc-devhelp python310-doc-devhelp(aarch-64)"
+RPROVIDES:${PN} += "python3-doc-devhelp \
+python310-doc-devhelp \
+python310-doc-devhelp(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

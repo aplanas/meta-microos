@@ -13,7 +13,10 @@ PV = "3.5"
 RPM_NAME = "checkpolicy-3.5-1.3.aarch64.rpm"
 RPM_HASH = "924be521507f6ba1019d280f818c2146eeb0c6aea2b17ff4db115559f8943f86f8b576507504dd6105c0524db843e8adc7e9361f1a624e31ac9f456d80604d2c"
 
-RPROVIDES:${PN} += "checkpolicy checkpolicy(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "checkpolicy \
+checkpolicy(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

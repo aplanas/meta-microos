@@ -18,7 +18,13 @@ PV = "20221020"
 RPM_NAME = "acpica-20221020-1.3.aarch64.rpm"
 RPM_HASH = "b4a336590dc6b9d0b83f57130829936c34e0101bf298b2996e8c0844f9b0e3dec69c1f53e3959e4252b66feffb4fed7997a7df2faa65e396fe7ecacd6fb1fb60"
 
-RPROVIDES:${PN} += "acpica acpica(aarch-64) iasl"
-RDEPENDS:${PN} += "/bin/bash /usr/bin/python3 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "acpica \
+acpica(aarch-64) \
+iasl"
+RDEPENDS:${PN} += "/bin/bash \
+/usr/bin/python3 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

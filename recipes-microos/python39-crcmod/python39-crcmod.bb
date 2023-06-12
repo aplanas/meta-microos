@@ -18,7 +18,13 @@ PV = "1.7"
 RPM_NAME = "python39-crcmod-1.7-8.4.aarch64.rpm"
 RPM_HASH = "493561a40fd7134f6ff37346adacf554a92069bbd59046975b7553f9094d66a31d3368578f45d104f3f5c6fa5ba1b3988b6309f0b72e9beebe9edc7d4ee41e76"
 
-RPROVIDES:${PN} += "python3.9dist(crcmod) python39-crcmod python39-crcmod(aarch-64) python3dist(crcmod)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.9dist(crcmod) \
+python39-crcmod \
+python39-crcmod(aarch-64) \
+python3dist(crcmod)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

@@ -34,7 +34,90 @@ PV = "4.5"
 RPM_NAME = "sonic-visualiser-4.5-2.6.aarch64.rpm"
 RPM_HASH = "421ed9d01a6c3f86cdc0a1f64848be7a03a7ee1c08eaa8cce69ba2ccf447a372c699c57f2e6ce2c4df3fbff8a64d2cad6b9c1e8948dbf911ee48a7b508be64af"
 
-RPROVIDES:${PN} += "application() application(sonic-visualiser.desktop) mimehandler(application/ogg) mimehandler(application/x-ogg) mimehandler(application/x-sonicvisualiser) mimehandler(application/x-sonicvisualiser-layer) mimehandler(audio/mp3) mimehandler(audio/mpeg) mimehandler(audio/mpegurl) mimehandler(audio/ogg) mimehandler(audio/wav) mimehandler(audio/x-flac) mimehandler(audio/x-mp3) mimehandler(audio/x-mpeg) mimehandler(audio/x-mpegurl) mimehandler(audio/x-vorbis+ogg) mimehandler(audio/x-wav) sonic-visualiser sonic-visualiser(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh dssi ladspa ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5Gui.so.5()(64bit) libQt5Gui.so.5(Qt_5)(64bit) libQt5Network.so.5()(64bit) libQt5Network.so.5(Qt_5)(64bit) libQt5Svg.so.5()(64bit) libQt5Svg.so.5(Qt_5)(64bit) libQt5Widgets.so.5()(64bit) libQt5Widgets.so.5(Qt_5)(64bit) libQt5Xml.so.5()(64bit) libQt5Xml.so.5(Qt_5)(64bit) libasound.so.2()(64bit) libasound.so.2(ALSA_0.9)(64bit) libbz2.so.1()(64bit) libc.so.6(GLIBC_2.34)(64bit) libcapnp-0.10.4.so()(64bit) libfftw3.so.3()(64bit) libfishsound.so.1()(64bit) libfishsound.so.1(libfishsound.so)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libid3tag.so.0.16.2()(64bit) libkj-0.10.4.so()(64bit) liblo.so.7()(64bit) liblrdf.so.2()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit) libmad.so.0()(64bit) liboggz.so.2()(64bit) liboggz.so.2(liboggz.so.0.2)(64bit) libopusfile.so.0()(64bit) libportaudio.so.2()(64bit) libpulse.so.0()(64bit) libpulse.so.0(PULSE_0)(64bit) librubberband.so.2()(64bit) libsamplerate.so.0()(64bit) libsamplerate.so.0(libsamplerate.so.0.0)(64bit) libserd-0.so.0()(64bit) libsndfile.so.1()(64bit) libsndfile.so.1(libsndfile.so.1.0)(64bit) libsord-0.so.0()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.14)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.18)(64bit) libstdc++.so.6(GLIBCXX_3.4.19)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.22)(64bit) libstdc++.so.6(GLIBCXX_3.4.26)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+RPROVIDES:${PN} += "application() \
+application(sonic-visualiser.desktop) \
+mimehandler(application/ogg) \
+mimehandler(application/x-ogg) \
+mimehandler(application/x-sonicvisualiser) \
+mimehandler(application/x-sonicvisualiser-layer) \
+mimehandler(audio/mp3) \
+mimehandler(audio/mpeg) \
+mimehandler(audio/mpegurl) \
+mimehandler(audio/ogg) \
+mimehandler(audio/wav) \
+mimehandler(audio/x-flac) \
+mimehandler(audio/x-mp3) \
+mimehandler(audio/x-mpeg) \
+mimehandler(audio/x-mpegurl) \
+mimehandler(audio/x-vorbis+ogg) \
+mimehandler(audio/x-wav) \
+sonic-visualiser \
+sonic-visualiser(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+dssi \
+ladspa \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libQt5Core.so.5()(64bit) \
+libQt5Core.so.5(Qt_5)(64bit) \
+libQt5Gui.so.5()(64bit) \
+libQt5Gui.so.5(Qt_5)(64bit) \
+libQt5Network.so.5()(64bit) \
+libQt5Network.so.5(Qt_5)(64bit) \
+libQt5Svg.so.5()(64bit) \
+libQt5Svg.so.5(Qt_5)(64bit) \
+libQt5Widgets.so.5()(64bit) \
+libQt5Widgets.so.5(Qt_5)(64bit) \
+libQt5Xml.so.5()(64bit) \
+libQt5Xml.so.5(Qt_5)(64bit) \
+libasound.so.2()(64bit) \
+libasound.so.2(ALSA_0.9)(64bit) \
+libbz2.so.1()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcapnp-0.10.4.so()(64bit) \
+libfftw3.so.3()(64bit) \
+libfishsound.so.1()(64bit) \
+libfishsound.so.1(libfishsound.so)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libid3tag.so.0.16.2()(64bit) \
+libkj-0.10.4.so()(64bit) \
+liblo.so.7()(64bit) \
+liblrdf.so.2()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libmad.so.0()(64bit) \
+liboggz.so.2()(64bit) \
+liboggz.so.2(liboggz.so.0.2)(64bit) \
+libopusfile.so.0()(64bit) \
+libportaudio.so.2()(64bit) \
+libpulse.so.0()(64bit) \
+libpulse.so.0(PULSE_0)(64bit) \
+librubberband.so.2()(64bit) \
+libsamplerate.so.0()(64bit) \
+libsamplerate.so.0(libsamplerate.so.0.0)(64bit) \
+libserd-0.so.0()(64bit) \
+libsndfile.so.1()(64bit) \
+libsndfile.so.1(libsndfile.so.1.0)(64bit) \
+libsord-0.so.0()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.8)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.19)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.22)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
 
 inherit rpm

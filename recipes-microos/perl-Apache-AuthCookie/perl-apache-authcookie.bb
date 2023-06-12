@@ -160,7 +160,22 @@ RPM_NAME = "perl-Apache-AuthCookie-3.31-1.7.noarch.rpm"
 RPM_HASH = "0b402957bc6fd578267ad728180e26c0ce70713221846782c1d236aa78c3da4598d964754f1b5a328014723ddaa810724976644867c6859eb950d8baa231c15d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Apache2::AuthCookie) perl(Apache2::AuthCookie::Base) perl(Apache2::AuthCookie::Params) perl(Apache2_4::AuthCookie) perl(Apache::AuthCookie) perl(Apache::AuthCookie::Params) perl(Apache::AuthCookie::Params::Base) perl(Apache::AuthCookie::Params::CGI) perl(Apache::AuthCookie::Util) perl-Apache-AuthCookie"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Class::Load) perl(HTTP::Body) perl(Hash::MultiValue) perl(Test::More) perl(URI) perl(WWW::Form::UrlEncoded)"
+RPROVIDES:${PN} += "perl(Apache2::AuthCookie) \
+perl(Apache2::AuthCookie::Base) \
+perl(Apache2::AuthCookie::Params) \
+perl(Apache2_4::AuthCookie) \
+perl(Apache::AuthCookie) \
+perl(Apache::AuthCookie::Params) \
+perl(Apache::AuthCookie::Params::Base) \
+perl(Apache::AuthCookie::Params::CGI) \
+perl(Apache::AuthCookie::Util) \
+perl-Apache-AuthCookie"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Load) \
+perl(HTTP::Body) \
+perl(Hash::MultiValue) \
+perl(Test::More) \
+perl(URI) \
+perl(WWW::Form::UrlEncoded)"
 
 inherit rpm

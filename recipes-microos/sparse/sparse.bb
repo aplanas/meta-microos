@@ -21,7 +21,14 @@ PV = "0.6.4+20220627"
 RPM_NAME = "sparse-0.6.4+20220627-2.1.aarch64.rpm"
 RPM_HASH = "a4579e3c69b8d0ffbb4e962131d61ae0f3eee3b80c050a8b43841192e11f756a51ab0eca4db9bbc29621f48477d6c785b4225752074d9f61456eb0a560edd6be"
 
-RPROVIDES:${PN} += "sparse sparse(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libsqlite3.so.0()(64bit) libxml2.so.2()(64bit) libxml2.so.2(LIBXML2_2.4.30)(64bit)"
+RPROVIDES:${PN} += "sparse \
+sparse(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libsqlite3.so.0()(64bit) \
+libxml2.so.2()(64bit) \
+libxml2.so.2(LIBXML2_2.4.30)(64bit)"
 
 inherit rpm

@@ -15,6 +15,11 @@ RPM_HASH = "bc204b144fa4ac165ac21bbd92e66a7e5abf09f78e241458868999d57afcd3ae1f6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vcron"
-RDEPENDS:${PN} += "/bin/sh at cron freetype2 tcl tk"
+RDEPENDS:${PN} += "/bin/sh \
+at \
+cron \
+freetype2 \
+tcl \
+tk"
 
 inherit rpm

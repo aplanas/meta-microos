@@ -15,7 +15,12 @@ PV = "1.48~20221101+1.142dace"
 RPM_NAME = "libsgutils2-1_48-2-1.48~20221101+1.142dace-1.3.aarch64.rpm"
 RPM_HASH = "1c302b06163ff0b35b8a435c9897a7646612c2e15abef9c65d3312cc9776b69db839116feca1b111855acc5402bf46d22bfa7a376ffb957f375bc6f8cc8171f5"
 
-RPROVIDES:${PN} += "libsgutils2-1.48.so.2()(64bit) libsgutils2-1_48-2 libsgutils2-1_48-2(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit)"
+RPROVIDES:${PN} += "libsgutils2-1.48.so.2()(64bit) \
+libsgutils2-1_48-2 \
+libsgutils2-1_48-2(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit)"
 
 inherit rpm

@@ -10,7 +10,8 @@ PV = "0.0.10"
 RPM_NAME = "fq-0.0.10-1.4.aarch64.rpm"
 RPM_HASH = "6b7877206268f7fb0603249e38e45afa79ace570938334c1e2cc022bc06866e015aa6a3814b79858548ef1a34df565cd94a86955c726501ae09d870ded0a3cb4"
 
-RPROVIDES:${PN} += "fq fq(aarch-64)"
+RPROVIDES:${PN} += "fq \
+fq(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

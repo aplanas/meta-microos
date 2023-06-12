@@ -14,7 +14,10 @@ PV = "1.16.4"
 RPM_NAME = "libdnet-devel-1.16.4-1.1.aarch64.rpm"
 RPM_HASH = "b8a725cadfcec1c62da0e6df733ac6d9df6f7c9b0bf4495f3f54fc6cdbe011372dadb63763111dbee0f82c2e1ea9cf5f49048fdd0e6e2ab47faf67cf76c5c8d6"
 
-RPROVIDES:${PN} += "libdnet-devel libdnet-devel(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh glibc-devel libdnet1"
+RPROVIDES:${PN} += "libdnet-devel \
+libdnet-devel(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+glibc-devel \
+libdnet1"
 
 inherit rpm

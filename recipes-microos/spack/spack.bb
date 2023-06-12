@@ -16,7 +16,31 @@ RPM_NAME = "spack-0.20.0-1.1.noarch.rpm"
 RPM_HASH = "03db5ac3d30204509801e4e5ba1e3cf5397545e9e9c9d4a2d7b69dd0170a25a14db915ce9ce9d9223c58b906486aa024b56c6b49b438df6b3769e4ae302f9e54"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(spack) group(spack) spack"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/bash awk bzip2 coreutils curl gcc-c++ gcc-fortran git gpg2 gzip libbz2-devel lua-lmod make patch polkit python3-clingo spack-recipes sudo tar unzip xz"
+RPROVIDES:${PN} += "config(spack) \
+group(spack) \
+spack"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/bash \
+awk \
+bzip2 \
+coreutils \
+curl \
+gcc-c++ \
+gcc-fortran \
+git \
+gpg2 \
+gzip \
+libbz2-devel \
+lua-lmod \
+make \
+patch \
+polkit \
+python3-clingo \
+spack-recipes \
+sudo \
+tar \
+unzip \
+xz"
 
 inherit rpm

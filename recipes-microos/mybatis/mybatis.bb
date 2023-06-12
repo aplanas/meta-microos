@@ -25,7 +25,12 @@ RPM_NAME = "mybatis-3.5.6-6.3.noarch.rpm"
 RPM_HASH = "a59cb6b58d80619eacd7628eafa46891165fccad9b6d564dcb250cef1f96887697254113c20e032a9f80f40e9b7c28d039f7f6732524b76f1113b656dc4e7174"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "apache-mybatis mvn(org.mybatis:mybatis) mvn(org.mybatis:mybatis:pom:) mybatis osgi(org.mybatis.mybatis)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "apache-mybatis \
+mvn(org.mybatis:mybatis) \
+mvn(org.mybatis:mybatis:pom:) \
+mybatis \
+osgi(org.mybatis.mybatis)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

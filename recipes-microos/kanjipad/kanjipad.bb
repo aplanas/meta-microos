@@ -21,7 +21,19 @@ PV = "2.0.0"
 RPM_NAME = "kanjipad-2.0.0-441.30.aarch64.rpm"
 RPM_HASH = "793abd47b16ab15c87bca474b24485475350f98772f955c508bd4757323698b8d32541bcc1d5d133bb7fbc2a85d231776828c3f0749e6a68c6986713300a73a4"
 
-RPROVIDES:${PN} += "application() application(kanjipad.desktop) kanjipad kanjipad(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgdk-x11-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgtk-x11-2.0.so.0()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libpango-1.0.so.0()(64bit)"
+RPROVIDES:${PN} += "application() \
+application(kanjipad.desktop) \
+kanjipad \
+kanjipad(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgdk-x11-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgtk-x11-2.0.so.0()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libpango-1.0.so.0()(64bit)"
 
 inherit rpm

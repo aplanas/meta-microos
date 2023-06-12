@@ -10,7 +10,11 @@ RPM_NAME = "autotrash-0.4.4-1.5.noarch.rpm"
 RPM_HASH = "c0d495eaa0fa3448608cde14e2ff4b0312f46294e0aa675bcf1d09e6544fe5b794573719c85e4278c8e888d08465dabe75fcf1385afabe1fe41b185ba3a2221c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "autotrash python3.10dist(autotrash) python3dist(autotrash)"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3"
+RPROVIDES:${PN} += "autotrash \
+python3.10dist(autotrash) \
+python3dist(autotrash)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3"
 
 inherit rpm

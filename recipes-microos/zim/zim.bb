@@ -15,7 +15,20 @@ RPM_NAME = "zim-0.75.1-2.2.noarch.rpm"
 RPM_HASH = "8f7b67b9cdc396ca33cc091b14d45b940dc1ee68366ae089eccdbd4f924be1284043f12a4918abef0e7bc5f2a7761db73ff9c3ed241614238bbda33c29a3fafb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(zim.desktop) metainfo() metainfo(org.zim_wiki.Zim.appdata.xml) mimehandler(application/x-zim-notebook) mimehandler(text/x-zim-wiki) python3.10dist(zim) python3dist(zim) zim"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-gobject-Gdk python3-pyxdg typelib-1_0-Gtk-3_0 xdg-utils"
+RPROVIDES:${PN} += "application() \
+application(zim.desktop) \
+metainfo() \
+metainfo(org.zim_wiki.Zim.appdata.xml) \
+mimehandler(application/x-zim-notebook) \
+mimehandler(text/x-zim-wiki) \
+python3.10dist(zim) \
+python3dist(zim) \
+zim"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3-gobject-Gdk \
+python3-pyxdg \
+typelib-1_0-Gtk-3_0 \
+xdg-utils"
 
 inherit rpm

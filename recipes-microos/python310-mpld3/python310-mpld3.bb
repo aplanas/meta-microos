@@ -14,7 +14,12 @@ RPM_NAME = "python310-mpld3-0.5.9-1.3.noarch.rpm"
 RPM_HASH = "8c59be6b8cafff57e344c75e2c71b9e537f462e75127496d674af9ec45b4eaa065e7e5d5bbff51387b22350af7b9f2807dc3d03bdccf8d268d7ba46084ea14a6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mpld3 python3.10dist(mpld3) python310-mpld3 python3dist(mpld3)"
-RDEPENDS:${PN} += "python(abi) python310-Jinja2 python310-matplotlib"
+RPROVIDES:${PN} += "python3-mpld3 \
+python3.10dist(mpld3) \
+python310-mpld3 \
+python3dist(mpld3)"
+RDEPENDS:${PN} += "python(abi) \
+python310-Jinja2 \
+python310-matplotlib"
 
 inherit rpm

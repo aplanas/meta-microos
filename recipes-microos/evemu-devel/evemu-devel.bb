@@ -11,7 +11,12 @@ PV = "2.7.0"
 RPM_NAME = "evemu-devel-2.7.0-3.12.aarch64.rpm"
 RPM_HASH = "df465e7018e4ff7d90cfd97deaeee99847a946fbdba3f98cf15125ed91ce2089afe1ed5bf49fb6c7e74004e09baa1485b080e8557b6a7d94d4043f871ecdac95"
 
-RPROVIDES:${PN} += "evemu-devel evemu-devel(aarch-64) pkgconfig(evemu)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config evemu libevemu3 pkgconfig(libevdev)"
+RPROVIDES:${PN} += "evemu-devel \
+evemu-devel(aarch-64) \
+pkgconfig(evemu)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+evemu \
+libevemu3 \
+pkgconfig(libevdev)"
 
 inherit rpm

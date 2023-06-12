@@ -11,6 +11,8 @@ RPM_HASH = "6b74f6b95de5f8029289c8f097394c6ef4edf4364e7e5ada95c8bae57fa02e366a18
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-gcsfs-fuse"
-RDEPENDS:${PN} += "python(abi) python311-click python311-fusepy"
+RDEPENDS:${PN} += "python(abi) \
+python311-click \
+python311-fusepy"
 
 inherit rpm

@@ -14,7 +14,21 @@ RPM_NAME = "texlive-eepic-2023.201.1.1esvn15878-53.1.noarch.rpm"
 RPM_HASH = "c31a852dcffa6d48ecdaaedd8d91c45dbf3c26821734505223489eca905035000cd5463f180ba52a9cff6cc46e174eae2a04fb42a58c3d58f65e563d705ebfe8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(eepic.sty) tex(eepicemu.sty) tex(epic.sty) texlive-eepic"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(eepic.sty) \
+tex(eepicemu.sty) \
+tex(epic.sty) \
+texlive-eepic"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-bhaiksuki-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "1503c8bb1cb2c4ff0fe69627900602b09c7f0803df21e6c1568abaf75565ba033c450fd40fa633ae0a6cff425d590e5b636d80bc08dfafdefba098cb5b4be64d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-bhaiksuki noto-sans-bhaiksuki-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-bhaiksuki \
+noto-sans-bhaiksuki-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

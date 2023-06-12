@@ -10,6 +10,7 @@ RPM_HASH = "2e43dc97c1243cc3100c25029e361ed3cecc3ef0af6d71c6dd451ca2fff76532dc70
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-markdown"
-RDEPENDS:${PN} += "/bin/sh vim"
+RDEPENDS:${PN} += "/bin/sh \
+vim"
 
 inherit rpm

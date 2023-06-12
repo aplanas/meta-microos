@@ -14,7 +14,9 @@ PV = "8.12.23"
 RPM_NAME = "libphonenumber-devel-8.12.23-1.30.aarch64.rpm"
 RPM_HASH = "efa4d3eebbe1d91e6d5f67d98afd190d67da4431a5b513de4610cf67c7dee2e793b706b7320fd33f8d95a1b37ff2cf452d8149bdfbd27474086d88305ed8feea"
 
-RPROVIDES:${PN} += "libphonenumber-devel libphonenumber-devel(aarch-64)"
-RDEPENDS:${PN} += "libphonenumber8 pkgconfig(protobuf)"
+RPROVIDES:${PN} += "libphonenumber-devel \
+libphonenumber-devel(aarch-64)"
+RDEPENDS:${PN} += "libphonenumber8 \
+pkgconfig(protobuf)"
 
 inherit rpm

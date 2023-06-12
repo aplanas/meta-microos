@@ -10,6 +10,22 @@ RPM_HASH = "af304692ccb2db1b63fe96525b49a06904bec2a4562179b5fe8a20781b6fbe957fa7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-x11-essentials"
-RDEPENDS:${PN} += "iceauth mkfontdir mkfontscale rgb sessreg setxkbmap xauth xconsole xdm xinit xkbcomp xmessage xmodmap xprop xrdb xset xsetroot"
+RDEPENDS:${PN} += "iceauth \
+mkfontdir \
+mkfontscale \
+rgb \
+sessreg \
+setxkbmap \
+xauth \
+xconsole \
+xdm \
+xinit \
+xkbcomp \
+xmessage \
+xmodmap \
+xprop \
+xrdb \
+xset \
+xsetroot"
 
 inherit rpm

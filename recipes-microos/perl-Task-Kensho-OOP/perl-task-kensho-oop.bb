@@ -37,7 +37,19 @@ RPM_NAME = "perl-Task-Kensho-OOP-0.41-1.9.noarch.rpm"
 RPM_HASH = "cf7220c00190a83fcd53b9abe70017d89bd94d33a88d4fd70232e6bcebb503a7281a817de70afde246f70ff764d2bb3da30dbdeee2ee0de57c5c334380fd1672"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Task::Kensho::OOP) perl-Task-Kensho-OOP"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Moo) perl(Moose) perl(MooseX::Aliases) perl(MooseX::Getopt) perl(MooseX::NonMoose) perl(MooseX::Role::Parameterized) perl(MooseX::SimpleConfig) perl(MooseX::StrictConstructor) perl(Package::Variant) perl(Type::Tiny) perl(namespace::autoclean)"
+RPROVIDES:${PN} += "perl(Task::Kensho::OOP) \
+perl-Task-Kensho-OOP"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Moo) \
+perl(Moose) \
+perl(MooseX::Aliases) \
+perl(MooseX::Getopt) \
+perl(MooseX::NonMoose) \
+perl(MooseX::Role::Parameterized) \
+perl(MooseX::SimpleConfig) \
+perl(MooseX::StrictConstructor) \
+perl(Package::Variant) \
+perl(Type::Tiny) \
+perl(namespace::autoclean)"
 
 inherit rpm

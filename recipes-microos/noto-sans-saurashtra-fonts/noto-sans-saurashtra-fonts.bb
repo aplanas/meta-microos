@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-saurashtra-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "585b8d3b781aac8267f64ba962eb2d162d4340316de3419cc85b03ad9a8370eaede86a2c6f918f5264248824438e550dc9c40344d5f51970db4232173702c0ba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-saurashtra noto-sans-saurashtra-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-saurashtra \
+noto-sans-saurashtra-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

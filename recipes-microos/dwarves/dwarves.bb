@@ -23,7 +23,25 @@ PV = "1.25"
 RPM_NAME = "dwarves-1.25-1.1.aarch64.rpm"
 RPM_HASH = "2ffac1f6043f2b50422fc8e18b53df463fdcc39ef2eddc520f5eb57741066b4f201053c6a5f66c24097f1f6aa6a25000a42ef096503c29577437cae801bbae39"
 
-RPROVIDES:${PN} += "dwarves dwarves(aarch-64) pahole"
-RDEPENDS:${PN} += "/bin/bash /usr/bin/python3 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbpf.so.1()(64bit) libbpf.so.1(LIBBPF_0.0.1)(64bit) libbpf.so.1(LIBBPF_0.1.0)(64bit) libc.so.6(GLIBC_2.34)(64bit) libdwarves.so.1()(64bit) libdwarves.so.1(DWARVES_1.25)(64bit) libdwarves_emit.so.1()(64bit) libdwarves_emit.so.1(DWARVES_1.25)(64bit) libdwarves_reorganize.so.1()(64bit) libdwarves_reorganize.so.1(DWARVES_1.25)(64bit) libelf.so.1()(64bit) libelf.so.1(ELFUTILS_1.0)(64bit) libelf.so.1(ELFUTILS_1.5)(64bit)"
+RPROVIDES:${PN} += "dwarves \
+dwarves(aarch-64) \
+pahole"
+RDEPENDS:${PN} += "/bin/bash \
+/usr/bin/python3 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbpf.so.1()(64bit) \
+libbpf.so.1(LIBBPF_0.0.1)(64bit) \
+libbpf.so.1(LIBBPF_0.1.0)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libdwarves.so.1()(64bit) \
+libdwarves.so.1(DWARVES_1.25)(64bit) \
+libdwarves_emit.so.1()(64bit) \
+libdwarves_emit.so.1(DWARVES_1.25)(64bit) \
+libdwarves_reorganize.so.1()(64bit) \
+libdwarves_reorganize.so.1(DWARVES_1.25)(64bit) \
+libelf.so.1()(64bit) \
+libelf.so.1(ELFUTILS_1.0)(64bit) \
+libelf.so.1(ELFUTILS_1.5)(64bit)"
 
 inherit rpm

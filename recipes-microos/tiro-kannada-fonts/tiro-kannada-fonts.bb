@@ -12,6 +12,9 @@ RPM_HASH = "c5b01edc722aa165ee8bae1b35ca07d4e39b87810485cb6d4b4cce4497ef0d9e4da8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tiro-kannada-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

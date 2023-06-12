@@ -17,6 +17,12 @@ RPM_HASH = "66bb4fbe08ac9787e1e485801edebdff0a2383eaa8d9681ec655a1474d2cb25a6835
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warewulf-common"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/perl mysql perl-warewulf-common shadow warewulf-doc"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/perl \
+mysql \
+perl-warewulf-common \
+shadow \
+warewulf-doc"
 
 inherit rpm

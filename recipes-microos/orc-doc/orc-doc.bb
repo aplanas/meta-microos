@@ -11,7 +11,8 @@ PV = "0.4.33"
 RPM_NAME = "orc-doc-0.4.33-1.3.aarch64.rpm"
 RPM_HASH = "82ffb25ca5284f685ba585f53c39be195a56aecc57edc6bcd59906ac296430ef2f3ed2b2559ecd65c5ea7a22870c0dc691bf6513c022c05dbadd3d4286bb95e8"
 
-RPROVIDES:${PN} += "orc-doc orc-doc(aarch-64)"
+RPROVIDES:${PN} += "orc-doc \
+orc-doc(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

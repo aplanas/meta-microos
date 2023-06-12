@@ -14,7 +14,9 @@ RPM_NAME = "python311-fields-5.0.0-4.1.noarch.rpm"
 RPM_HASH = "bdb3b9f7750467882c6e50841ecb36e5db8bc7565ad9dafd12e4b836b303915dfa9d9ffacac3e72511e1cbed6ca3946b2bbee6e59358ddb23c9b549bc7400228"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(fields) python311-fields python3dist(fields)"
+RPROVIDES:${PN} += "python3.11dist(fields) \
+python311-fields \
+python3dist(fields)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

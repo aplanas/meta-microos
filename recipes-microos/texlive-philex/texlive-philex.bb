@@ -14,7 +14,25 @@ RPM_NAME = "texlive-philex-2023.201.1.3svn36396-51.1.noarch.rpm"
 RPM_HASH = "7a62cba7dc729b1592fae08ee1a3313b69c3fa15a6381af6bf57a62a69fba37b474b6b0515759fcac8ce6c317ec01ad668d7197a32acbb14ae0a740dea25fcf1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(philex.sty) texlive-philex"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(cgloss4e.sty) tex(ifthen.sty) tex(linguex.sty) tex(suffix.sty) tex(xspace.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(philex.sty) \
+texlive-philex"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(cgloss4e.sty) \
+tex(ifthen.sty) \
+tex(linguex.sty) \
+tex(suffix.sty) \
+tex(xspace.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

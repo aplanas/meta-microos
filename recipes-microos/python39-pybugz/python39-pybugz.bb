@@ -14,7 +14,12 @@ RPM_NAME = "python39-pybugz-0.13-3.9.noarch.rpm"
 RPM_HASH = "f2ca6f1001c8ec395bf713a38b63fda1f8852c4cf8db098fd4b73ca4b7f2bcf417e096ec36660b85a027a7b45f7670116493a19025162d5552ea39be08f4d7b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pybugz) python39-pybugz python3dist(pybugz)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(pybugz) \
+python39-pybugz \
+python3dist(pybugz)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

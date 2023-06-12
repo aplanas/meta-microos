@@ -9,6 +9,8 @@ RPM_HASH = "83f4025a82907a68e255bacef7c5935c88d0dcc42efa7879c448f1d502bff216ba07
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cups-backends"
-RDEPENDS:${PN} += "/bin/bash /usr/bin/perl cups"
+RDEPENDS:${PN} += "/bin/bash \
+/usr/bin/perl \
+cups"
 
 inherit rpm

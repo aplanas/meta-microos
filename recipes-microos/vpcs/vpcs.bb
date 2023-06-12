@@ -17,7 +17,8 @@ PV = "0.8.2"
 RPM_NAME = "vpcs-0.8.2-1.6.aarch64.rpm"
 RPM_HASH = "65165254a0c3c4150ae34d5b6bfa2e538542dc662b8d04647844fd7a88ce64fe437467b524ca97acd416987fd9ff9b96839b67a742b1efcc8be97f43c12be582"
 
-RPROVIDES:${PN} += "vpcs vpcs(aarch-64)"
+RPROVIDES:${PN} += "vpcs \
+vpcs(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

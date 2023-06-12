@@ -15,7 +15,15 @@ PV = "1.3.0"
 RPM_NAME = "libXt-devel-1.3.0-1.1.aarch64.rpm"
 RPM_HASH = "13745b0d8d6c84d544a98f15efaa59bdda16bfe72ce028b1611b8c92330c0b26c149d381cacaa43d0522e4487bbd3a9d63c7c3083394bb1f2ae30ef7cb163678"
 
-RPROVIDES:${PN} += "libXt-devel libXt-devel(aarch-64) pkgconfig(xt) xorg-x11-libXt-devel"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libXt6 pkgconfig(ice) pkgconfig(sm) pkgconfig(x11) pkgconfig(xproto)"
+RPROVIDES:${PN} += "libXt-devel \
+libXt-devel(aarch-64) \
+pkgconfig(xt) \
+xorg-x11-libXt-devel"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libXt6 \
+pkgconfig(ice) \
+pkgconfig(sm) \
+pkgconfig(x11) \
+pkgconfig(xproto)"
 
 inherit rpm

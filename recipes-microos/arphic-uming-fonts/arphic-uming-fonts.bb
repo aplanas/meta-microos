@@ -18,7 +18,17 @@ RPM_NAME = "arphic-uming-fonts-0.2.20080216.1-100.2.noarch.rpm"
 RPM_HASH = "2146871feb1df7cac278ddafb14d7b622026308be436d3d258765ae53ba0d11fe96df10dbc9276ac9f746a2ca931a4b48cb4cb826821afbf8f562efac008a9d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "arphic-uming-fonts locale(zh_TW;zh_HK;zh_CN;zh_SG;zh_MO) scalable-font-zh-CN scalable-font-zh-HK scalable-font-zh-MO scalable-font-zh-SG scalable-font-zh-TW ttf-arphic-uming"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "arphic-uming-fonts \
+locale(zh_TW;zh_HK;zh_CN;zh_SG;zh_MO) \
+scalable-font-zh-CN \
+scalable-font-zh-HK \
+scalable-font-zh-MO \
+scalable-font-zh-SG \
+scalable-font-zh-TW \
+ttf-arphic-uming"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

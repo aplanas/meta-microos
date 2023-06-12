@@ -10,7 +10,9 @@ RPM_NAME = "python311-elementpath-4.1.2-1.1.noarch.rpm"
 RPM_HASH = "538e1507835802a5a7b91f5ec58b2ec860ffda008ed55a453f885cefea142770f638f0f1d7b6aa6fa00ed6feb9f81c8959e30b31978e6d568daea7cda450ccc5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(elementpath) python311-elementpath python3dist(elementpath)"
+RPROVIDES:${PN} += "python3.11dist(elementpath) \
+python311-elementpath \
+python3dist(elementpath)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -12,7 +12,12 @@ PV = "1.3.1"
 RPM_NAME = "typelib-1_0-GVnc-1_0-1.3.1-1.5.aarch64.rpm"
 RPM_HASH = "7c0ff68aea24cad1a1eeb2682dc6f345e058ac37357bbdc8a495dd41afca6110af52bb439a2a21c4a81e3ca8a2a2ad0372901dc3418d467435de46cd65cd11a0"
 
-RPROVIDES:${PN} += "typelib(GVnc) typelib-1_0-GVnc-1_0 typelib-1_0-GVnc-1_0(aarch-64)"
-RDEPENDS:${PN} += "libgvnc-1.0.so.0()(64bit) typelib(GLib) typelib(GObject) typelib(Gio)"
+RPROVIDES:${PN} += "typelib(GVnc) \
+typelib-1_0-GVnc-1_0 \
+typelib-1_0-GVnc-1_0(aarch-64)"
+RDEPENDS:${PN} += "libgvnc-1.0.so.0()(64bit) \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gio)"
 
 inherit rpm

@@ -23,7 +23,13 @@ PV = "3.2.0"
 RPM_NAME = "libphysfs1-3.2.0-1.3.aarch64.rpm"
 RPM_HASH = "292eb878772477d419136b38264d12afd429813c68f56a0a6f4ea45d4135d0ad55a86716f502dcfa3a38b3c9634818b491b088fdf3b9440b360253f9a4e51c23"
 
-RPROVIDES:${PN} += "libphysfs.so.1()(64bit) libphysfs1 libphysfs1(aarch-64) physfs"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit)"
+RPROVIDES:${PN} += "libphysfs.so.1()(64bit) \
+libphysfs1 \
+libphysfs1(aarch-64) \
+physfs"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit)"
 
 inherit rpm

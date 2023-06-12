@@ -18,7 +18,8 @@ RPM_NAME = "postgresql-contrib-15-2.7.noarch.rpm"
 RPM_HASH = "2e14efa830ce1c804801ad07435efe39b94a5f17091cd271696082880886d9d927b8fac7dfbcd84fc92456e52fcb7f5537710f949ccecfd0523b144c3f342869"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "postgresql-contrib postgresql-contrib-noarch"
+RPROVIDES:${PN} += "postgresql-contrib \
+postgresql-contrib-noarch"
 RDEPENDS:${PN} += "postgresql-contrib-implementation"
 
 inherit rpm

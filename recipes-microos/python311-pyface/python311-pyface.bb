@@ -14,7 +14,12 @@ RPM_NAME = "python311-pyface-7.4.4-1.5.noarch.rpm"
 RPM_HASH = "7155059c42d31f3e999f2a23429f73c7cf11f362eb070a45aa2c88b914294bf465e8ac73deff9c1e64598fb4bcbafe5e33eee4fdb14d8bf181a5ca095869e1a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyface) python311-pyface python3dist(pyface)"
-RDEPENDS:${PN} += "python(abi) python311-importlib-metadata python311-importlib-resources python311-traits"
+RPROVIDES:${PN} += "python3.11dist(pyface) \
+python311-pyface \
+python3dist(pyface)"
+RDEPENDS:${PN} += "python(abi) \
+python311-importlib-metadata \
+python311-importlib-resources \
+python311-traits"
 
 inherit rpm

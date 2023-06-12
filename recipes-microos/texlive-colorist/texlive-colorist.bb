@@ -19,7 +19,63 @@ RPM_NAME = "texlive-colorist-2023.201.svn66434-53.1.noarch.rpm"
 RPM_HASH = "62f4c693aa19de2e0f08fab12f846315571fcbbaff316beb802a73beb9d02ca7953687b0b026ee026ff9700ab70f6e2f276990e7bbb19df3b5183b63070489ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(colorart.cls) tex(colorbook.cls) tex(colorist-fancy.sty) tex(colorist.sty) texlive-colorist"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amssymb.sty) tex(amsthm.sty) tex(anyfontsize.sty) tex(bookmark.sty) tex(caption.sty) tex(draftwatermark.sty) tex(embrac.sty) tex(enumitem.sty) tex(extramarks.sty) tex(fancyhdr.sty) tex(float.sty) tex(geometry.sty) tex(graphicx.sty) tex(hyperref.sty) tex(ifoddpage.sty) tex(iftex.sty) tex(imakeidx.sty) tex(indentfirst.sty) tex(lua-widow-control.sty) tex(marginnote.sty) tex(mathpazo.sty) tex(mathtools.sty) tex(newpxtext.sty) tex(nowidow.sty) tex(projlib-author.sty) tex(projlib-draft.sty) tex(projlib-font.sty) tex(projlib-language.sty) tex(projlib-paper.sty) tex(projlib-theorem.sty) tex(projlib-titlepage.sty) tex(regexpatch.sty) tex(relsize.sty) tex(silence.sty) tex(tcolorbox.sty) tex(tikz.sty) tex(titlesec.sty) tex(titletoc.sty) tex(ulem.sty) tex(wrapfig.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-projlib texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(colorart.cls) \
+tex(colorbook.cls) \
+tex(colorist-fancy.sty) \
+tex(colorist.sty) \
+texlive-colorist"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amssymb.sty) \
+tex(amsthm.sty) \
+tex(anyfontsize.sty) \
+tex(bookmark.sty) \
+tex(caption.sty) \
+tex(draftwatermark.sty) \
+tex(embrac.sty) \
+tex(enumitem.sty) \
+tex(extramarks.sty) \
+tex(fancyhdr.sty) \
+tex(float.sty) \
+tex(geometry.sty) \
+tex(graphicx.sty) \
+tex(hyperref.sty) \
+tex(ifoddpage.sty) \
+tex(iftex.sty) \
+tex(imakeidx.sty) \
+tex(indentfirst.sty) \
+tex(lua-widow-control.sty) \
+tex(marginnote.sty) \
+tex(mathpazo.sty) \
+tex(mathtools.sty) \
+tex(newpxtext.sty) \
+tex(nowidow.sty) \
+tex(projlib-author.sty) \
+tex(projlib-draft.sty) \
+tex(projlib-font.sty) \
+tex(projlib-language.sty) \
+tex(projlib-paper.sty) \
+tex(projlib-theorem.sty) \
+tex(projlib-titlepage.sty) \
+tex(regexpatch.sty) \
+tex(relsize.sty) \
+tex(silence.sty) \
+tex(tcolorbox.sty) \
+tex(tikz.sty) \
+tex(titlesec.sty) \
+tex(titletoc.sty) \
+tex(ulem.sty) \
+tex(wrapfig.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-projlib \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

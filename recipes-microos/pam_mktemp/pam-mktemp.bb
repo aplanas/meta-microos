@@ -13,7 +13,14 @@ PV = "1.1.1"
 RPM_NAME = "pam_mktemp-1.1.1-10.7.aarch64.rpm"
 RPM_HASH = "1727ad845d721ef2e6e64e7b10f9bfa3ef0ed6362bf5296e7ae45761419960eee2094546088d8fe6223c434d21bb864b9fdae62be8250da186078ff3c6826d4b"
 
-RPROVIDES:${PN} += "pam-modules:/usr/lib64/security/pam_mktemp.so pam_mktemp pam_mktemp(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libpam.so.0()(64bit) libpam.so.0(LIBPAM_1.0)(64bit) pam"
+RPROVIDES:${PN} += "pam-modules:/usr/lib64/security/pam_mktemp.so \
+pam_mktemp \
+pam_mktemp(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+libpam.so.0()(64bit) \
+libpam.so.0(LIBPAM_1.0)(64bit) \
+pam"
 
 inherit rpm

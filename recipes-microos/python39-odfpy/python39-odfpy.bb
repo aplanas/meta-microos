@@ -32,7 +32,13 @@ RPM_NAME = "python39-odfpy-1.4.2-1.4.noarch.rpm"
 RPM_HASH = "152e6dd6f53e552ad23156c6d545b21a85fd1677c6730709a1a7d0d09d644bc52f46053e049e2033366dad1b78742aabeb76a6232da26c8a3416d1ba7b50a5d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(odfpy) python39-odfpy python3dist(odfpy)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-defusedxml update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(odfpy) \
+python39-odfpy \
+python3dist(odfpy)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-defusedxml \
+update-alternatives"
 
 inherit rpm

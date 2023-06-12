@@ -40,7 +40,20 @@ RPM_NAME = "perl-IO-All-0.87-1.21.noarch.rpm"
 RPM_HASH = "33ab9dbb4c0016ac1e676d111587ed5030d5ac64946997cebb3e1a328cdea62bf6b0e9dd199b59c921ebee83eaf9c486e89cdf2aa766ead055554262b620e3d7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IO::All) perl(IO::All::Base) perl(IO::All::DBM) perl(IO::All::Dir) perl(IO::All::File) perl(IO::All::Filesys) perl(IO::All::Link) perl(IO::All::MLDBM) perl(IO::All::Pipe) perl(IO::All::STDIO) perl(IO::All::Socket) perl(IO::All::String) perl(IO::All::Temp) perl-IO-All"
+RPROVIDES:${PN} += "perl(IO::All) \
+perl(IO::All::Base) \
+perl(IO::All::DBM) \
+perl(IO::All::Dir) \
+perl(IO::All::File) \
+perl(IO::All::Filesys) \
+perl(IO::All::Link) \
+perl(IO::All::MLDBM) \
+perl(IO::All::Pipe) \
+perl(IO::All::STDIO) \
+perl(IO::All::Socket) \
+perl(IO::All::String) \
+perl(IO::All::Temp) \
+perl-IO-All"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

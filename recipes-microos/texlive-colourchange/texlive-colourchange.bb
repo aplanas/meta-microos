@@ -13,7 +13,21 @@ RPM_NAME = "texlive-colourchange-2023.201.1.22svn21741-53.1.noarch.rpm"
 RPM_HASH = "279b9f2bda2c2cc1a20c10d837865a4607721a864ab0807d97e32cdb1eb3827e5b346e5630b644becb38f4aadcbbfccf20b1ccb0ed96c62f839872d09c050257"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(colourchange.sty) texlive-colourchange"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(etoolbox.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(colourchange.sty) \
+texlive-colourchange"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(etoolbox.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -16,7 +16,10 @@ RPM_NAME = "opensp-doc-1.5.2-202.1.noarch.rpm"
 RPM_HASH = "0f65a812d6ef5328bc04e672621fa7c46e9d51af3d7ac36addea5c425691fc8fd0e3a5267c9e2a6f862066905b9878efe219642739762fad3cccc75e3a09cb22"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "OpenSP opensp-doc sp sp_libs"
+RPROVIDES:${PN} += "OpenSP \
+opensp-doc \
+sp \
+sp_libs"
 RDEPENDS:${PN} += "/usr/bin/sgml-register-catalog"
 
 inherit rpm

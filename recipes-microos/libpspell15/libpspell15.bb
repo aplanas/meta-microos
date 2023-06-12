@@ -10,7 +10,9 @@ PV = "0.60.8"
 RPM_NAME = "libpspell15-0.60.8-5.4.aarch64.rpm"
 RPM_HASH = "bfe78a34c273b9940946bfc581348a51665848b9e7f3f325640169f1364534d1f7aa6e519248b8da8d711241d95c7b2b76cec03c64be371a9dd316b012fb03ec"
 
-RPROVIDES:${PN} += "libpspell.so.15()(64bit) libpspell15 libpspell15(aarch-64)"
+RPROVIDES:${PN} += "libpspell.so.15()(64bit) \
+libpspell15 \
+libpspell15(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

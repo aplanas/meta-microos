@@ -12,7 +12,21 @@ RPM_NAME = "texlive-engrec-2023.201.1.1svn15878-53.1.noarch.rpm"
 RPM_HASH = "1a07a5c9d0ef1adc3f6d5256cfb3dc8f37d4c55c5f8d5ed90436fb488cc048c8376e44ceb9da6002a9330eb86839b5afcf1097da9205d9f9b1e01bce2a38112c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(engrec.sty) texlive-engrec"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amstext.sty) tex(upgreek.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(engrec.sty) \
+texlive-engrec"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amstext.sty) \
+tex(upgreek.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

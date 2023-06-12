@@ -11,6 +11,8 @@ RPM_HASH = "93d51e2fe5c04d2f94a16ac6cd7e2880fb3fd3a5ff3d7bc9e7922b8e8c453f330099
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libbase"
-RDEPENDS:${PN} += "apache-commons-logging java jpackage-utils"
+RDEPENDS:${PN} += "apache-commons-logging \
+java \
+jpackage-utils"
 
 inherit rpm

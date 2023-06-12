@@ -9,6 +9,8 @@ RPM_HASH = "1af784321fb047a0060aeb8114e0eb2df7255c8f27963067dc16cd122467c8efc15f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vagrant-bash-completion"
-RDEPENDS:${PN} += "bash bash-completion vagrant"
+RDEPENDS:${PN} += "bash \
+bash-completion \
+vagrant"
 
 inherit rpm

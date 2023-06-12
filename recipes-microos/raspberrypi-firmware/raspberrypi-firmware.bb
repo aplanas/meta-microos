@@ -9,6 +9,7 @@ RPM_HASH = "bba2ac501c641a23b9bbf03d706b5aad4576aa30cf2b0cfa4567107a4151eb6673f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "raspberrypi-firmware"
-RDEPENDS:${PN} += "/bin/sh util-linux"
+RDEPENDS:${PN} += "/bin/sh \
+util-linux"
 
 inherit rpm

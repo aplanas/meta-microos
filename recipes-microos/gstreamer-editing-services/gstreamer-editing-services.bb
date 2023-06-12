@@ -24,7 +24,22 @@ PV = "1.22.3"
 RPM_NAME = "gstreamer-editing-services-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "1d90bdcf450964a0966e69cbd1884bb102dbc0d5e020a6e070ec6ed82925ef2b95ac85301142b1951d4e5d272696ff87f7b05448c80a46577c31f597c77c6b66"
 
-RPROVIDES:${PN} += "gstreamer-editing-services gstreamer-editing-services(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libges-1.0.so.0()(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgstaudio-1.0.so.0()(64bit) libgstpbutils-1.0.so.0()(64bit) libgstreamer-1.0.so.0()(64bit) libgstvalidate-1.0.so.0()(64bit) libgstvideo-1.0.so.0()(64bit) python(abi) typelib(GObject) typelib(Gst)"
+RPROVIDES:${PN} += "gstreamer-editing-services \
+gstreamer-editing-services(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libges-1.0.so.0()(64bit) \
+libgio-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgstaudio-1.0.so.0()(64bit) \
+libgstpbutils-1.0.so.0()(64bit) \
+libgstreamer-1.0.so.0()(64bit) \
+libgstvalidate-1.0.so.0()(64bit) \
+libgstvideo-1.0.so.0()(64bit) \
+python(abi) \
+typelib(GObject) \
+typelib(Gst)"
 
 inherit rpm

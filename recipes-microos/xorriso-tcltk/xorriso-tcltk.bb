@@ -13,7 +13,12 @@ PV = "1.5.4"
 RPM_NAME = "xorriso-tcltk-1.5.4-1.10.aarch64.rpm"
 RPM_HASH = "868abde5f98b66f9e90ab5b6155f2b41c7809c2b31b2bb504f3ff43677e95ac205c770433826260592482cef0951ec472b491f46af4b474652aea2ced23812b3"
 
-RPROVIDES:${PN} += "xorriso-tcltk xorriso-tcltk(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/wish tcl tk xorriso"
+RPROVIDES:${PN} += "xorriso-tcltk \
+xorriso-tcltk(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/wish \
+tcl \
+tk \
+xorriso"
 
 inherit rpm

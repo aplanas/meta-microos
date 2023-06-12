@@ -18,7 +18,13 @@ RPM_NAME = "python310-pytools-2022.1.14-1.2.noarch.rpm"
 RPM_HASH = "0b9b527e1a38499c02822cd5b91341533edd19643995133db33a5f805e347761f3fa18f107bc5caedd026663c2a2f217e0d3b805dee69367a4fa258eecc6d1da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytools python3.10dist(pytools) python310-pytools python3dist(pytools)"
-RDEPENDS:${PN} += "python(abi) python310-numpy python310-platformdirs python310-typing_extensions"
+RPROVIDES:${PN} += "python3-pytools \
+python3.10dist(pytools) \
+python310-pytools \
+python3dist(pytools)"
+RDEPENDS:${PN} += "python(abi) \
+python310-numpy \
+python310-platformdirs \
+python310-typing_extensions"
 
 inherit rpm

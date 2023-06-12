@@ -13,7 +13,15 @@ PV = "1.2.4"
 RPM_NAME = "libXtst6-1.2.4-1.2.aarch64.rpm"
 RPM_HASH = "a14abfd9f7bea3881695c9f8cfd6af3d487914d11a89f270de3027c44ceeb36553bea539dd2790337036e47bb3ca2dac81fb1f49d5366d1293f8b15020f7773e"
 
-RPROVIDES:${PN} += "libXtst libXtst.so.6()(64bit) libXtst6 libXtst6(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libXext.so.6()(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libXtst \
+libXtst.so.6()(64bit) \
+libXtst6 \
+libXtst6(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libX11.so.6()(64bit) \
+libXext.so.6()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

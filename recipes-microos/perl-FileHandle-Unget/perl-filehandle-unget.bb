@@ -19,7 +19,9 @@ RPM_NAME = "perl-FileHandle-Unget-0.1634-1.16.noarch.rpm"
 RPM_HASH = "6eb747a8b2346a3f2c8f0727d12ecb5212ba68f08ecfe7d9264ec8868920d17e63c52cbb8255cd7db608a57fb2333d3be2eecced0c892a30ab148c0e40aeb34b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(FileHandle::Unget) perl(FileHandle::Unget::Tie) perl-FileHandle-Unget"
+RPROVIDES:${PN} += "perl(FileHandle::Unget) \
+perl(FileHandle::Unget::Tie) \
+perl-FileHandle-Unget"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

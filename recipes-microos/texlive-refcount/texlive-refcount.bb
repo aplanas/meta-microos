@@ -14,7 +14,21 @@ RPM_NAME = "texlive-refcount-2023.201.3.6svn53164-53.1.noarch.rpm"
 RPM_HASH = "f1d4b23e617a45e1137ff0aec158ae7a9c38967e9eb7ce2cab545cb897a28d1ceacfb84aa341c94332dd2de27c3731ebdfaffeda040de5bcd5d9c02b41a5abda"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(refcount.sty) texlive-refcount"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(infwarerr.sty) tex(ltxcmds.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(refcount.sty) \
+texlive-refcount"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(infwarerr.sty) \
+tex(ltxcmds.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

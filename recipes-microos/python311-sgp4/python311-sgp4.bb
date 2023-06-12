@@ -17,7 +17,19 @@ PV = "2.22"
 RPM_NAME = "python311-sgp4-2.22-1.1.aarch64.rpm"
 RPM_HASH = "a4c91f5aa8838d16321ccd302534180c055cdb8795e688dc0c8621d37e2cfc3b16fb2b494f76d0b55d9424f471ea93cff420e410ba154f8a24d2ca04d44734c6"
 
-RPROVIDES:${PN} += "python3.11dist(sgp4) python311-sgp4 python311-sgp4(aarch-64) python3dist(sgp4)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(GLIBCXX_3.4.32)(64bit) python(abi) python311-numpy"
+RPROVIDES:${PN} += "python3.11dist(sgp4) \
+python311-sgp4 \
+python311-sgp4(aarch-64) \
+python3dist(sgp4)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
+python(abi) \
+python311-numpy"
 
 inherit rpm

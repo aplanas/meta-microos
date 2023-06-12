@@ -10,7 +10,11 @@ RPM_NAME = "noto-serif-telugu-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "c871e2b33f0908741f15c93a84db698870cf9c865c2fbaaed3c31462b0676cede753135dfb85ce854699275a18f229f3996c94c7de44117729445862cf149497"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-serif-telugu noto-serif-telugu-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-serif-telugu \
+noto-serif-telugu-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

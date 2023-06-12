@@ -11,7 +11,12 @@ RPM_NAME = "python39-azure-iot-deviceupdate-1.0.0-1.3.noarch.rpm"
 RPM_HASH = "e9d8e4218047eefbd00034fed4eed82eff06ae971f6dfaf8fcb384f339e2b6a7a3ea649fbfa38c7242dc035f7fd506d1d9509b9da805fc2c103f198cd03eea16"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-iot-deviceupdate) python39-azure-iot-deviceupdate python3dist(azure-iot-deviceupdate)"
-RDEPENDS:${PN} += "python(abi) python39-azure-core python39-azure-iot-nspkg python39-isodate"
+RPROVIDES:${PN} += "python3.9dist(azure-iot-deviceupdate) \
+python39-azure-iot-deviceupdate \
+python3dist(azure-iot-deviceupdate)"
+RDEPENDS:${PN} += "python(abi) \
+python39-azure-core \
+python39-azure-iot-nspkg \
+python39-isodate"
 
 inherit rpm

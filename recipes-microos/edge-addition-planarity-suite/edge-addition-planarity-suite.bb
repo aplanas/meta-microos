@@ -12,7 +12,11 @@ PV = "3.0.2.0"
 RPM_NAME = "edge-addition-planarity-suite-3.0.2.0-1.2.aarch64.rpm"
 RPM_HASH = "097964ee9182718002a3ca6ba7c1a6f5addd6df971b867c8df946006b60dffb35e4cff8c66dbc2da6fbfa0342d2465e6ef0470f3735527e7368dcb6a1f834302"
 
-RPROVIDES:${PN} += "edge-addition-planarity-suite edge-addition-planarity-suite(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libplanarity.so.0()(64bit)"
+RPROVIDES:${PN} += "edge-addition-planarity-suite \
+edge-addition-planarity-suite(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libplanarity.so.0()(64bit)"
 
 inherit rpm

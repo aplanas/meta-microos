@@ -9,7 +9,8 @@ PV = "16.0.4"
 RPM_NAME = "lld-16.0.4-1.1.aarch64.rpm"
 RPM_HASH = "38cb0a1eee23557298f585e75c6301f793318435add6196691cbacfae473a3afa6045a0aadbd4110e9d5e92e711d898647542ba90b7c22ddc55bdfae3b56934c"
 
-RPROVIDES:${PN} += "lld lld(aarch-64)"
+RPROVIDES:${PN} += "lld \
+lld(aarch-64)"
 RDEPENDS:${PN} += "lld16"
 
 inherit rpm

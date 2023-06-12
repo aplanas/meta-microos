@@ -12,6 +12,7 @@ RPM_HASH = "4ee6ccc46b039ddd1a16122795cf12d8fef082c87b6cbbd6b37d8912b485ceb5abd1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sambacc"
-RDEPENDS:${PN} += "/usr/bin/python3 python3-sambacc"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3-sambacc"
 
 inherit rpm

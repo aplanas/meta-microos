@@ -17,7 +17,19 @@ RPM_NAME = "python310-bowler-0.9.0-1.17.noarch.rpm"
 RPM_HASH = "327dbe8ab4c5a07868f5c9e0ba686dabae2a5c75a4e266af2434c5e9bd29cd1bfd14a2252a0c0964d4556e576b6f59e61f6de354830ecbb56e93684956ac14f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-bowler python3.10dist(bowler) python310-bowler python3dist(bowler)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-attrs python310-click python310-fissix python310-moreorless python310-setuptools python310-volatile update-alternatives"
+RPROVIDES:${PN} += "python3-bowler \
+python3.10dist(bowler) \
+python310-bowler \
+python3dist(bowler)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-attrs \
+python310-click \
+python310-fissix \
+python310-moreorless \
+python310-setuptools \
+python310-volatile \
+update-alternatives"
 
 inherit rpm

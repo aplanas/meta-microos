@@ -15,7 +15,24 @@ RPM_NAME = "texlive-asypictureb-2023.201.0.0.3svn33490-53.1.noarch.rpm"
 RPM_HASH = "9af9fd447d68ac5f8678a4875fce28b708eb70b7106845938689ed14c036098054f18c50c72a1a28c107b8c7c8fa581ee6940a95079fc5cafaaf71c072df04fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(asypictureB.sty) texlive-asypictureb"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(fancyvrb.sty) tex(graphicx.sty) tex(ifplatform.sty) tex(pgfkeys.sty) tex(verbatimcopy.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(asypictureB.sty) \
+texlive-asypictureb"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(fancyvrb.sty) \
+tex(graphicx.sty) \
+tex(ifplatform.sty) \
+tex(pgfkeys.sty) \
+tex(verbatimcopy.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

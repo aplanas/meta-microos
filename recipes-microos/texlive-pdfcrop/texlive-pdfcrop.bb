@@ -10,6 +10,25 @@ RPM_HASH = "cdf0745114fc234e6b5d3ce3e7b2b34f75154c5da5898ac0ef28e4743589b88bdf97
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfcrop"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Config) perl(File::Copy) perl(File::Spec) perl(File::Spec::Functions) perl(Getopt::Long) perl(strict) sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-pdfcrop-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Config) \
+perl(File::Copy) \
+perl(File::Spec) \
+perl(File::Spec::Functions) \
+perl(Getopt::Long) \
+perl(strict) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-pdfcrop-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

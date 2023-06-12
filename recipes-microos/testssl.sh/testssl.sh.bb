@@ -11,6 +11,9 @@ RPM_HASH = "cc3bc4fda9389e03aa0eb0c333001bf730229f6d902a35467eb49ecf36f8608b2bde
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "testssl.sh"
-RDEPENDS:${PN} += "/usr/bin/bash bash bind-utils openssl"
+RDEPENDS:${PN} += "/usr/bin/bash \
+bash \
+bind-utils \
+openssl"
 
 inherit rpm

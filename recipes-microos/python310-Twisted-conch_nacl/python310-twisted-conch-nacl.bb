@@ -11,7 +11,9 @@ RPM_NAME = "python310-Twisted-conch_nacl-22.10.0-6.1.noarch.rpm"
 RPM_HASH = "544ba37ea9a696ea9992c3d15ea532af4ebc1d93bc7c0bb8dbe3ab552401af4d8b6bb576a30f6391e37b6b35699e562d1f29d9e2aaa8e365394eb0bda484a26f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Twisted-conch_nacl python310-Twisted-conch_nacl"
-RDEPENDS:${PN} += "python310-PyNaCl python310-Twisted-conch"
+RPROVIDES:${PN} += "python3-Twisted-conch_nacl \
+python310-Twisted-conch_nacl"
+RDEPENDS:${PN} += "python310-PyNaCl \
+python310-Twisted-conch"
 
 inherit rpm

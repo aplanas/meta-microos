@@ -17,7 +17,13 @@ PV = "0.0~git5.211516e"
 RPM_NAME = "hyperlink-app-client-0.0~git5.211516e-1.2.aarch64.rpm"
 RPM_HASH = "2a3951caafac0155dbc55f3a1655995d48085cc2f1eb4bb5f0c1a90d622accc340e04a44f6316418e8c44ec154a08dc11b9c94696564649ff2c7865ec33d4db3"
 
-RPROVIDES:${PN} += "application() application(app-client.desktop) hyperlink-app-client hyperlink-app-client(aarch-64) mimehandler(x-scheme-handler/app)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "application() \
+application(app-client.desktop) \
+hyperlink-app-client \
+hyperlink-app-client(aarch-64) \
+mimehandler(x-scheme-handler/app)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

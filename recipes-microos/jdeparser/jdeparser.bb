@@ -11,7 +11,10 @@ RPM_NAME = "jdeparser-2.0.3-1.18.noarch.rpm"
 RPM_HASH = "27538e8ad87bb427a41bdc28759846bb549a86b9834f5c1db53a1a4409a04617b7d3b9d76573770eb36e5d02a5f1303d7529de40a458aafcdb9fa798f619127c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jdeparser mvn(org.jboss.jdeparser:jdeparser) mvn(org.jboss.jdeparser:jdeparser:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "jdeparser \
+mvn(org.jboss.jdeparser:jdeparser) \
+mvn(org.jboss.jdeparser:jdeparser:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

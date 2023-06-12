@@ -16,7 +16,9 @@ RPM_NAME = "postgresql-llvmjit-devel-15-2.7.noarch.rpm"
 RPM_HASH = "49b429336551108fa75bffa22685f41da424ee0696752493493f13826051ca1af31f058756e664f1d7586cceaea9b1b1a28bc58ecc2216ecc8ff36044aa37f41"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "postgresql-llvmjit-devel postgresql-llvmjit-devel-noarch"
-RDEPENDS:${PN} += "postgresql-llvmjit-devel-implementation postgresql-server-devel-noarch"
+RPROVIDES:${PN} += "postgresql-llvmjit-devel \
+postgresql-llvmjit-devel-noarch"
+RDEPENDS:${PN} += "postgresql-llvmjit-devel-implementation \
+postgresql-server-devel-noarch"
 
 inherit rpm

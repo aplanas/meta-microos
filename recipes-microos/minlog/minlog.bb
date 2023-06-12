@@ -19,7 +19,18 @@ RPM_NAME = "minlog-1.3.1-1.3.noarch.rpm"
 RPM_HASH = "674ad3247a58ace8c4756d7c69ef265f56ba77556b6bfb007e6e1b0c87fdf359d21df8ff0dca732d77115c9f207f983c277cfa2a21d75258bec4a77e140d219d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "minlog mvn(com.esotericsoftware.minlog:minlog) mvn(com.esotericsoftware.minlog:minlog::tests:) mvn(com.esotericsoftware.minlog:minlog:pom:) mvn(com.esotericsoftware:minlog) mvn(com.esotericsoftware:minlog::tests:) mvn(com.esotericsoftware:minlog:pom:) mvn(com.googlecode:minlog) mvn(com.googlecode:minlog::tests:) mvn(com.googlecode:minlog:pom:) osgi(com.esotericsoftware.minlog)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "minlog \
+mvn(com.esotericsoftware.minlog:minlog) \
+mvn(com.esotericsoftware.minlog:minlog::tests:) \
+mvn(com.esotericsoftware.minlog:minlog:pom:) \
+mvn(com.esotericsoftware:minlog) \
+mvn(com.esotericsoftware:minlog::tests:) \
+mvn(com.esotericsoftware:minlog:pom:) \
+mvn(com.googlecode:minlog) \
+mvn(com.googlecode:minlog::tests:) \
+mvn(com.googlecode:minlog:pom:) \
+osgi(com.esotericsoftware.minlog)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

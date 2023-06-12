@@ -20,7 +20,18 @@ PV = "1.22"
 RPM_NAME = "perl-Net-Patricia-1.22-6.3.aarch64.rpm"
 RPM_HASH = "6ceb0e73e4461afa9f839ad905bb75903b334b7d178801dcb22788016ee2b583f0115fae8b005ed1095e11c3ac698499549b987c554cd4d0ae4e2c75d07f70ea"
 
-RPROVIDES:${PN} += "perl(Net::Patricia) perl(Net::Patricia::AF_INET) perl(Net::Patricia::AF_INET6) perl-Net-Patricia perl-Net-Patricia(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0) perl(Net::CIDR::Lite) perl(Socket6) perl(Test::More) perl(version)"
+RPROVIDES:${PN} += "perl(Net::Patricia) \
+perl(Net::Patricia::AF_INET) \
+perl(Net::Patricia::AF_INET6) \
+perl-Net-Patricia \
+perl-Net-Patricia(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Net::CIDR::Lite) \
+perl(Socket6) \
+perl(Test::More) \
+perl(version)"
 
 inherit rpm

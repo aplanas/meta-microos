@@ -14,7 +14,15 @@ PV = "1.26"
 RPM_NAME = "libflickcurl-devel-1.26-3.24.aarch64.rpm"
 RPM_HASH = "4f8d5f7e1aade94ba881baaa1cb886c74c7766dd1583280092af6966cf8f7576d9558119570b8d25a14478099739f26a1a37bbc99143700a61c560b43f0caa0c"
 
-RPROVIDES:${PN} += "libflickcurl-devel libflickcurl-devel(aarch-64) pkgconfig(flickcurl)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config libcurl-devel libflickcurl0 libraptor-devel pkgconfig(libxml-2.0) pkgconfig(raptor2)"
+RPROVIDES:${PN} += "libflickcurl-devel \
+libflickcurl-devel(aarch-64) \
+pkgconfig(flickcurl)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/pkg-config \
+libcurl-devel \
+libflickcurl0 \
+libraptor-devel \
+pkgconfig(libxml-2.0) \
+pkgconfig(raptor2)"
 
 inherit rpm

@@ -9,6 +9,17 @@ RPM_HASH = "8cb4c5c6df09729d509432a06599f5a5895f0420aca2ecd5a591e68d6c4020fe4c8f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-build-dependencies-mri"
-RDEPENDS:${PN} += "automake bison gcc gdbm-devel gperf graphviz libffi-devel libjpeg-devel libyaml-devel openssl-devel readline-devel tk-devel"
+RDEPENDS:${PN} += "automake \
+bison \
+gcc \
+gdbm-devel \
+gperf \
+graphviz \
+libffi-devel \
+libjpeg-devel \
+libyaml-devel \
+openssl-devel \
+readline-devel \
+tk-devel"
 
 inherit rpm

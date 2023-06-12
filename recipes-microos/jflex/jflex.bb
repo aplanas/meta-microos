@@ -20,7 +20,15 @@ RPM_NAME = "jflex-1.8.2-5.1.noarch.rpm"
 RPM_HASH = "2599cc6cc29d9d5c8b2eb8f22966f9024154afd8f7b1ddda6c893089abaad28dfd3ba4165f309b9e91316c6e9c5cc3a308a39a95ce5c0cb7ac73da223af11b9e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jflex mvn(de.jflex:jflex) mvn(de.jflex:jflex:pom:)"
-RDEPENDS:${PN} += "/bin/bash java-headless java_cup javapackages-filesystem javapackages-tools mvn(com.github.vbmacher:java-cup-runtime) mvn(org.apache.ant:ant)"
+RPROVIDES:${PN} += "jflex \
+mvn(de.jflex:jflex) \
+mvn(de.jflex:jflex:pom:)"
+RDEPENDS:${PN} += "/bin/bash \
+java-headless \
+java_cup \
+javapackages-filesystem \
+javapackages-tools \
+mvn(com.github.vbmacher:java-cup-runtime) \
+mvn(org.apache.ant:ant)"
 
 inherit rpm

@@ -17,7 +17,19 @@ PV = "0.57"
 RPM_NAME = "perl-Inline-Python-0.57-1.1.aarch64.rpm"
 RPM_HASH = "39fa81300534bd810a2e3a53971ddb4b7c05f1fa3606199be2f9950783d941abb8bc1c12a1ce3106ae7babbafbc156ead70806f09920a3f566cb182c272f970d"
 
-RPROVIDES:${PN} += "perl(Inline::Python) perl(Inline::Python::Boolean) perl(Inline::Python::Function) perl(Inline::Python::Object) perl(Inline::Python::Object::Data) perl-Inline-Python perl-Inline-Python(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libpython3.10.so.1.0()(64bit) perl(:MODULE_COMPAT_5.36.0) perl(Digest::MD5) perl(Inline)"
+RPROVIDES:${PN} += "perl(Inline::Python) \
+perl(Inline::Python::Boolean) \
+perl(Inline::Python::Function) \
+perl(Inline::Python::Object) \
+perl(Inline::Python::Object::Data) \
+perl-Inline-Python \
+perl-Inline-Python(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libpython3.10.so.1.0()(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Digest::MD5) \
+perl(Inline)"
 
 inherit rpm

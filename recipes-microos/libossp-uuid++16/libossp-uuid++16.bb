@@ -24,7 +24,19 @@ PV = "1.6.2"
 RPM_NAME = "libossp-uuid++16-1.6.2-19.45.aarch64.rpm"
 RPM_HASH = "0b2ff2d671377968d6632306c0c83995ddc83273acada9057e1ad5e55ed9b2d8b1a25abd1feb2f474e94b2ea259e1c3e7b9c8646fa2063129a38ae8aecf2655f"
 
-RPROVIDES:${PN} += "libossp-uuid++.so.16()(64bit) libossp-uuid++16 libossp-uuid++16(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+RPROVIDES:${PN} += "libossp-uuid++.so.16()(64bit) \
+libossp-uuid++16 \
+libossp-uuid++16(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit)"
 
 inherit rpm

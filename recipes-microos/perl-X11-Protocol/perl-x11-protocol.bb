@@ -17,7 +17,24 @@ RPM_NAME = "perl-X11-Protocol-0.56-15.15.noarch.rpm"
 RPM_HASH = "3f7465a39cfd45851829ac4e701f3b59903d5d680b6d3e9266d305601732bba8b71b5faf203eebc408e9bc938920bb11fccdcf9baebc87f73ec1027f3cede76b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(X11::Auth) perl(X11::Keysyms) perl(X11::Protocol) perl(X11::Protocol::Connection) perl(X11::Protocol::Connection::FileHandle) perl(X11::Protocol::Connection::INETFH) perl(X11::Protocol::Connection::INETSocket) perl(X11::Protocol::Connection::Socket) perl(X11::Protocol::Connection::UNIXFH) perl(X11::Protocol::Connection::UNIXSocket) perl(X11::Protocol::Constants) perl(X11::Protocol::Ext::BIG_REQUESTS) perl(X11::Protocol::Ext::DPMS) perl(X11::Protocol::Ext::RENDER) perl(X11::Protocol::Ext::SHAPE) perl(X11::Protocol::Ext::XC_MISC) perl(X11::Protocol::Ext::XFree86_Misc) perl-X11-Protocol"
+RPROVIDES:${PN} += "perl(X11::Auth) \
+perl(X11::Keysyms) \
+perl(X11::Protocol) \
+perl(X11::Protocol::Connection) \
+perl(X11::Protocol::Connection::FileHandle) \
+perl(X11::Protocol::Connection::INETFH) \
+perl(X11::Protocol::Connection::INETSocket) \
+perl(X11::Protocol::Connection::Socket) \
+perl(X11::Protocol::Connection::UNIXFH) \
+perl(X11::Protocol::Connection::UNIXSocket) \
+perl(X11::Protocol::Constants) \
+perl(X11::Protocol::Ext::BIG_REQUESTS) \
+perl(X11::Protocol::Ext::DPMS) \
+perl(X11::Protocol::Ext::RENDER) \
+perl(X11::Protocol::Ext::SHAPE) \
+perl(X11::Protocol::Ext::XC_MISC) \
+perl(X11::Protocol::Ext::XFree86_Misc) \
+perl-X11-Protocol"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

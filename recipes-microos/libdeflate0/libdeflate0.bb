@@ -15,7 +15,12 @@ PV = "1.18"
 RPM_NAME = "libdeflate0-1.18-1.1.aarch64.rpm"
 RPM_HASH = "53233b3cf47fbbdfeb37047ffab54ff31a92180ecdf444b8fcfb3fb720da31b6c7bef023f0605fe7a66e23edb5a14806f401b01c8bd750a9b6ea8d439f96242e"
 
-RPROVIDES:${PN} += "libdeflate.so.0()(64bit) libdeflate0 libdeflate0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libdeflate.so.0()(64bit) \
+libdeflate0 \
+libdeflate0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

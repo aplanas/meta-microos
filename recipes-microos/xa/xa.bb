@@ -18,7 +18,8 @@ PV = "2.3.14"
 RPM_NAME = "xa-2.3.14-1.2.aarch64.rpm"
 RPM_HASH = "e473fcf72d7e228b86b8431e8acd4e080ce1fff36762b4e76c1cdb62a27f92dabbca38ba8a59732a3b5ce4dcf14a3fbc9b14dd8a8747e6ffd0345cf345fe348f"
 
-RPROVIDES:${PN} += "xa xa(aarch-64)"
+RPROVIDES:${PN} += "xa \
+xa(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

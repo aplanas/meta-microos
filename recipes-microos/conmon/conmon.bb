@@ -9,7 +9,11 @@ PV = "2.1.7"
 RPM_NAME = "conmon-2.1.7-1.3.aarch64.rpm"
 RPM_HASH = "56a54f9b0658217160c1377150ee2621fcfa7b9508d0dfaebc777a0d6fac18da6fa8e37b798363a93998be6fb9ddefef26989e47f7f680916e79b43743289de0"
 
-RPROVIDES:${PN} += "conmon conmon(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) libglib-2.0.so.0()(64bit) libsystemd.so.0()(64bit) libsystemd.so.0(LIBSYSTEMD_209)(64bit)"
+RPROVIDES:${PN} += "conmon \
+conmon(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libsystemd.so.0()(64bit) \
+libsystemd.so.0(LIBSYSTEMD_209)(64bit)"
 
 inherit rpm

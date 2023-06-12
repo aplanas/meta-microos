@@ -12,6 +12,11 @@ RPM_HASH = "ccaee5f17ec78abd93246817ccf9a11a43068cf44deb42daac1c6bc82aabcdd9cee4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arch-install-scripts"
-RDEPENDS:${PN} += "/bin/bash awk bash coreutils util-linux util-linux-systemd"
+RDEPENDS:${PN} += "/bin/bash \
+awk \
+bash \
+coreutils \
+util-linux \
+util-linux-systemd"
 
 inherit rpm

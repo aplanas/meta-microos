@@ -20,7 +20,12 @@ RPM_NAME = "python39-pytest-xvfb-2.0.0-2.9.noarch.rpm"
 RPM_HASH = "19d752c39a31fc22ec153e9e5f1d1658b4561d8d9ff2675d9c3e939de2a337ab76e13c1178af28b36152c80af4ce858c412ed2318477cadf1fe78806c2ba8aea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-xvfb) python39-pytest-xvfb python3dist(pytest-xvfb)"
-RDEPENDS:${PN} += "python(abi) python39-PyVirtualDisplay python39-pytest xdpyinfo"
+RPROVIDES:${PN} += "python3.9dist(pytest-xvfb) \
+python39-pytest-xvfb \
+python3dist(pytest-xvfb)"
+RDEPENDS:${PN} += "python(abi) \
+python39-PyVirtualDisplay \
+python39-pytest \
+xdpyinfo"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "80180d3a86c79d6f8ca225a04847071021d2d9ac7dbe0f4214fee5bbf86931744647
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xfwm4-theme-matcha"
-RDEPENDS:${PN} += "metatheme-matcha-common xfwm4"
+RDEPENDS:${PN} += "metatheme-matcha-common \
+xfwm4"
 
 inherit rpm

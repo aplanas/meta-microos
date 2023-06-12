@@ -14,7 +14,10 @@ RPM_NAME = "python311-zc.lockfile-2.0-2.8.noarch.rpm"
 RPM_HASH = "f80105afd4926a4ac0bc85f716fd1703d4942633c56de80646f2fc7171f92ff30028197137363af9fdb392e760d50d7cdcd5576421aecd0c7ed6c6e1ac12fc3a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(zc.lockfile) python311-zc-lockfile python311-zc.lockfile python3dist(zc.lockfile)"
+RPROVIDES:${PN} += "python3.11dist(zc.lockfile) \
+python311-zc-lockfile \
+python311-zc.lockfile \
+python3dist(zc.lockfile)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

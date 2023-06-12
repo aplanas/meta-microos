@@ -20,7 +20,11 @@ RPM_NAME = "python39-Werkzeug-2.2.3-2.1.noarch.rpm"
 RPM_HASH = "2a06476e1dfef0c41772b68926473e5be2a00b2fbd5b8e9b30a68d648e4216661a00b9bf7b2f95ca2afac72b2ff718ff2c3fdd264447b38d39854bfdf996a514"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(werkzeug) python39-Werkzeug python39-Werkzeug-doc python3dist(werkzeug)"
-RDEPENDS:${PN} += "python(abi) python39-MarkupSafe"
+RPROVIDES:${PN} += "python3.9dist(werkzeug) \
+python39-Werkzeug \
+python39-Werkzeug-doc \
+python3dist(werkzeug)"
+RDEPENDS:${PN} += "python(abi) \
+python39-MarkupSafe"
 
 inherit rpm

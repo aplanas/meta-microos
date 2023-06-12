@@ -9,6 +9,18 @@ RPM_HASH = "e16dee0f2ac94f13798ee9f61b3338a194ff9d30b518590fa3c7a189a378d6b55a92
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langkorean"
-RDEPENDS:${PN} += "texlive-baekmuk texlive-cjk-ko texlive-collection-langcjk texlive-kotex-oblivoir texlive-kotex-plain texlive-kotex-utf texlive-kotex-utils texlive-lshort-korean texlive-nanumtype1 texlive-pmhanguljamo texlive-uhc texlive-unfonts-core texlive-unfonts-extra"
+RDEPENDS:${PN} += "texlive-baekmuk \
+texlive-cjk-ko \
+texlive-collection-langcjk \
+texlive-kotex-oblivoir \
+texlive-kotex-plain \
+texlive-kotex-utf \
+texlive-kotex-utils \
+texlive-lshort-korean \
+texlive-nanumtype1 \
+texlive-pmhanguljamo \
+texlive-uhc \
+texlive-unfonts-core \
+texlive-unfonts-extra"
 
 inherit rpm

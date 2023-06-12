@@ -20,7 +20,21 @@ RPM_NAME = "perl-Test-File-ShareDir-1.001002-1.23.noarch.rpm"
 RPM_HASH = "495f76f28433a6b2d2fbd33bcb23c53dba38af97e4b2bcc7448af330202afb1d1c56824c7e3a74f4d00d7f03f86a3d25010fba355b2d8fdedba999fa073dc4a8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::File::ShareDir) perl(Test::File::ShareDir::Dist) perl(Test::File::ShareDir::Module) perl(Test::File::ShareDir::Object::Dist) perl(Test::File::ShareDir::Object::Inc) perl(Test::File::ShareDir::Object::Module) perl(Test::File::ShareDir::TempDirObject) perl(Test::File::ShareDir::Utils) perl-Test-File-ShareDir"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Class::Tiny) perl(File::Copy::Recursive) perl(File::ShareDir) perl(Path::Tiny) perl(Scope::Guard) perl(parent)"
+RPROVIDES:${PN} += "perl(Test::File::ShareDir) \
+perl(Test::File::ShareDir::Dist) \
+perl(Test::File::ShareDir::Module) \
+perl(Test::File::ShareDir::Object::Dist) \
+perl(Test::File::ShareDir::Object::Inc) \
+perl(Test::File::ShareDir::Object::Module) \
+perl(Test::File::ShareDir::TempDirObject) \
+perl(Test::File::ShareDir::Utils) \
+perl-Test-File-ShareDir"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Tiny) \
+perl(File::Copy::Recursive) \
+perl(File::ShareDir) \
+perl(Path::Tiny) \
+perl(Scope::Guard) \
+perl(parent)"
 
 inherit rpm

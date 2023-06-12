@@ -15,7 +15,22 @@ RPM_NAME = "texlive-verbasef-2023.201.1.1svn21922-53.1.noarch.rpm"
 RPM_HASH = "a63182ee63e48d37d1d89bc6b422fdc539c04547d2e58287ba8959064533c2b1821fd08e9bb1affe2d98a0061890cd20e58c3348c6dcb88c8445c99a7eb85481"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(verbasef.sty) texlive-verbasef"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(here.sty) tex(verbatim.sty) tex(vrbexin.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(verbasef.sty) \
+texlive-verbasef"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(here.sty) \
+tex(verbatim.sty) \
+tex(vrbexin.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

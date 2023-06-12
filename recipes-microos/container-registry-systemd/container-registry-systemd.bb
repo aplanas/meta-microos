@@ -10,6 +10,8 @@ RPM_HASH = "351e3773b11a155cca5b630ed55630bd990dd60dddbe8cd20613aa8713b9a00d751d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "container-registry-systemd"
-RDEPENDS:${PN} += "/bin/bash /bin/sh certstrap"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+certstrap"
 
 inherit rpm

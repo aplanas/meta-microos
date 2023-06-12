@@ -16,6 +16,10 @@ RPM_HASH = "b393baa7f4fd9d37f4fae5b146dc81bd1321f49e21d84a383690a64c5576696eb469
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-remote-gcrypt"
-RDEPENDS:${PN} += "/bin/sh curl git gpg2 rsync"
+RDEPENDS:${PN} += "/bin/sh \
+curl \
+git \
+gpg2 \
+rsync"
 
 inherit rpm

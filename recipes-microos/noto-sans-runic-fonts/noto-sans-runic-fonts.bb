@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-runic-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "f9aae21268b33d5ced40fcd85a75c5b632455eb9ee9f9f82a9542f213a7e579fefc3695ea16244e3b02e41d46f75b36c22e362d0a804d489ef688e419eebe654"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-runic noto-sans-runic-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-runic \
+noto-sans-runic-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

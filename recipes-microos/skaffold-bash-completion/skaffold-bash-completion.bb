@@ -9,6 +9,7 @@ RPM_HASH = "8b7e9562450c27a710ace53ed097bac0e4c0bdc05fa2a2c145bfd1377ab0e9acfb01
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skaffold-bash-completion"
-RDEPENDS:${PN} += "bash-completion skaffold"
+RDEPENDS:${PN} += "bash-completion \
+skaffold"
 
 inherit rpm

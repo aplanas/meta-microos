@@ -18,7 +18,22 @@ RPM_NAME = "texlive-easyfig-2023.201.1.2asvn64967-53.1.noarch.rpm"
 RPM_HASH = "351a7427cfebe04b388b9aa9dd19c130b8ea96854c3ab2a0ec5ab931d72d1330b8b93860273d4428ec171b779c3a0276ea31207ecd8432257ef1c8537109e050"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(easyfig.sty) texlive-easyfig"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(adjustbox.sty) tex(ifetex.sty) tex(xkeyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(easyfig.sty) \
+texlive-easyfig"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(adjustbox.sty) \
+tex(ifetex.sty) \
+tex(xkeyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

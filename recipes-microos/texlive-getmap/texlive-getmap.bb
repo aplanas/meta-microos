@@ -15,7 +15,27 @@ RPM_NAME = "texlive-getmap-2023.201.1.11svn50589-52.1.noarch.rpm"
 RPM_HASH = "c1019f11f62962c7d2d57dcedc2c8a4e51bfbe9543b8b12ceabcc49a49dbdec4948fb9da90085d6d9b39c34d088bd359baba159bccb84e688fce1a685febfe82"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(getmap.cfg) tex(getmap.sty) texlive-getmap"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/texlua coreutils ed findutils grep sed tex(ifthen.sty) tex(ifxetex.sty) tex(shellesc.sty) tex(stringenc.sty) tex(xkeyval.sty) texlive texlive-filesystem texlive-getmap-bin texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(getmap.cfg) \
+tex(getmap.sty) \
+texlive-getmap"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/texlua \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifthen.sty) \
+tex(ifxetex.sty) \
+tex(shellesc.sty) \
+tex(stringenc.sty) \
+tex(xkeyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-getmap-bin \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

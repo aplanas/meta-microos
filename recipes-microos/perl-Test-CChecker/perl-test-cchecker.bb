@@ -20,7 +20,11 @@ PV = "0.10"
 RPM_NAME = "perl-Test-CChecker-0.10-1.17.aarch64.rpm"
 RPM_HASH = "0ab77c3f16dfdcaa08c068557eb93d9d933d7b8605b918ff6f874c137a7eb3d740fa30ba67503963ad96e32597c8763a4fc233c167daf5153af7767bdaf915ab"
 
-RPROVIDES:${PN} += "perl(Test::CChecker) perl-Test-CChecker perl-Test-CChecker(aarch-64)"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Capture::Tiny) perl(ExtUtils::CChecker)"
+RPROVIDES:${PN} += "perl(Test::CChecker) \
+perl-Test-CChecker \
+perl-Test-CChecker(aarch-64)"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Capture::Tiny) \
+perl(ExtUtils::CChecker)"
 
 inherit rpm

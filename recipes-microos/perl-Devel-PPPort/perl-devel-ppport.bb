@@ -23,7 +23,12 @@ PV = "3.68"
 RPM_NAME = "perl-Devel-PPPort-3.68-1.9.aarch64.rpm"
 RPM_HASH = "38ff3aa45374c9131195284e6a825e67d809d62a2dc2de67e9490e65cc6d6e0289826b0d877a18b6e3d5d499ad6c0188128e622d26aa14baffa7f59481ad5c17"
 
-RPROVIDES:${PN} += "perl(Devel::PPPort) perl-Devel-PPPort perl-Devel-PPPort(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Devel::PPPort) \
+perl-Devel-PPPort \
+perl-Devel-PPPort(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

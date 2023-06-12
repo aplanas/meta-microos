@@ -32,7 +32,12 @@ RPM_NAME = "jgroups-2.6.10-33.9.noarch.rpm"
 RPM_HASH = "a91416183accf73431677ae4206f9a98fbf06fb741cece735b86af447dc315ea03917bbcb3ce796d53e8456a81d499a82ab1324d8561a847ffb13158de2bd9fa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "javagroups jgroups"
-RDEPENDS:${PN} += "apache-commons-logging bsh2 geronimo-jms-1_1-api jaxp_parser_impl reload4j"
+RPROVIDES:${PN} += "javagroups \
+jgroups"
+RDEPENDS:${PN} += "apache-commons-logging \
+bsh2 \
+geronimo-jms-1_1-api \
+jaxp_parser_impl \
+reload4j"
 
 inherit rpm

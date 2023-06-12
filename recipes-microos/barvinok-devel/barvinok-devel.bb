@@ -20,7 +20,10 @@ PV = "0.41.6"
 RPM_NAME = "barvinok-devel-0.41.6-1.4.aarch64.rpm"
 RPM_HASH = "87d7eec4381638f78328fa32399752a3995e49b547c04fb0499c274451a1c5c26cae015031b899d4cd6cce548c6f2b5d211b31b9e2dd3d56036a45965e368c24"
 
-RPROVIDES:${PN} += "barvinok-devel barvinok-devel(aarch-64) pkgconfig(barvinok)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libbarvinok23"
+RPROVIDES:${PN} += "barvinok-devel \
+barvinok-devel(aarch-64) \
+pkgconfig(barvinok)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libbarvinok23"
 
 inherit rpm

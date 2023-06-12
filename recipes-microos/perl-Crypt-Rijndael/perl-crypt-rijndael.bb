@@ -47,7 +47,12 @@ PV = "1.16"
 RPM_NAME = "perl-Crypt-Rijndael-1.16-1.12.aarch64.rpm"
 RPM_HASH = "10f22fcee98acd747d2ff456206de6d1ed97f7001934b97956997721a7686d7d2dcb6208918886f044fffabb24e12b4232c9b6f09230541280d5c3c796e048db"
 
-RPROVIDES:${PN} += "perl(Crypt::Rijndael) perl-Crypt-Rijndael perl-Crypt-Rijndael(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Crypt::Rijndael) \
+perl-Crypt-Rijndael \
+perl-Crypt-Rijndael(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

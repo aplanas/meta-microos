@@ -10,7 +10,11 @@ PV = "20230603"
 RPM_NAME = "libfsext-devel-20230603-1.1.aarch64.rpm"
 RPM_HASH = "c1a20c05dac7866353e5279f0cc9f85e172a438ea915e3515510a891026b0d0509646e6148f182ad90f758848379c29bc0f96f983d5f075484f4307e848ad664"
 
-RPROVIDES:${PN} += "libfsext-devel libfsext-devel(aarch-64) pkgconfig(libfsext)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libbfio-devel libfsext1"
+RPROVIDES:${PN} += "libfsext-devel \
+libfsext-devel(aarch-64) \
+pkgconfig(libfsext)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libbfio-devel \
+libfsext1"
 
 inherit rpm

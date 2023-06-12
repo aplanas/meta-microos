@@ -14,7 +14,15 @@ PV = "1.2.6"
 RPM_NAME = "miredo-common-1.2.6-5.7.aarch64.rpm"
 RPM_HASH = "f10d1de84bf9ccce69b95a9cbc662da92609e10059767c8a595bef9ac5d46dcc95e6c8248d8cf67dc30912bc85e835eb2049203c7abbee0e1f2334b15c27880c"
 
-RPROVIDES:${PN} += "miredo-common miredo-common(aarch-64) miredo-libs"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcap.so.2()(64bit) libteredo.so.5()(64bit) shadow"
+RPROVIDES:${PN} += "miredo-common \
+miredo-common(aarch-64) \
+miredo-libs"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcap.so.2()(64bit) \
+libteredo.so.5()(64bit) \
+shadow"
 
 inherit rpm

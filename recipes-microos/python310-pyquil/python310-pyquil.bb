@@ -16,7 +16,19 @@ RPM_NAME = "python310-pyquil-3.5.2-1.1.noarch.rpm"
 RPM_HASH = "96b610c474402f2b0cc9f71ce4968dcea7429cc458e8b85a040d1fd613eb22ef8c7f8eed293cc0a99402474d94eb2302e4b795c53f6b506034acd83786725388"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyquil python3.10dist(pyquil) python310-pyquil python3dist(pyquil)"
-RDEPENDS:${PN} += "(python310-importlib-metadata >= 3.7.3 if python310-base < 3.8) (python310-qcs-api-client >= 0.21 with python310-qcs-api-client < 0.22.0) python(abi) python310-Deprecated python310-lark python310-networkx python310-numpy python310-rpcq python310-scipy python310-tenacity"
+RPROVIDES:${PN} += "python3-pyquil \
+python3.10dist(pyquil) \
+python310-pyquil \
+python3dist(pyquil)"
+RDEPENDS:${PN} += "(python310-importlib-metadata >= 3.7.3 if python310-base < 3.8) \
+(python310-qcs-api-client >= 0.21 with python310-qcs-api-client < 0.22.0) \
+python(abi) \
+python310-Deprecated \
+python310-lark \
+python310-networkx \
+python310-numpy \
+python310-rpcq \
+python310-scipy \
+python310-tenacity"
 
 inherit rpm

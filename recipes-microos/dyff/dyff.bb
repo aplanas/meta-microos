@@ -17,7 +17,8 @@ PV = "1.5.7"
 RPM_NAME = "dyff-1.5.7-1.2.aarch64.rpm"
 RPM_HASH = "4c8a474165b837ac07a6d2c260f3fcb3fc823cc6dc01a1b2dd4f224a3a7a340d1fad813d5538454787a5d91b37f59bfbd06629b0f7b2d9430d3b7bfb2a775fc6"
 
-RPROVIDES:${PN} += "dyff dyff(aarch-64)"
+RPROVIDES:${PN} += "dyff \
+dyff(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

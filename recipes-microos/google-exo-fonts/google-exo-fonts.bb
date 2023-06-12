@@ -16,6 +16,9 @@ RPM_HASH = "7a42a01cad5a5821502f4442f7cb923e1cef68579846f601e5b1838c0873afaef507
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-exo-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "6395b50155f6c60cac834e2fef29201fcc931178b0a87d236af55df56d913c5d74e8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libbluray-bdj"
-RDEPENDS:${PN} += "java jpackage-utils"
+RDEPENDS:${PN} += "java \
+jpackage-utils"
 
 inherit rpm

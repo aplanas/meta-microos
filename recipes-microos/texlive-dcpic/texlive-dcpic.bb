@@ -13,7 +13,21 @@ RPM_NAME = "texlive-dcpic-2023.201.5.0.0svn30206-52.1.noarch.rpm"
 RPM_HASH = "7acdaa324b47fe57c00bb0e896aa1589510113bd654fb7bceff8edb209164eb7531d6a55ec13a2661b1242f1e01146b0f9fc36dcb9689365ab40b2e4113fa57e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dcpic.sty) tex(europroc.cls) texlive-dcpic"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(article.cls) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(dcpic.sty) \
+tex(europroc.cls) \
+texlive-dcpic"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(article.cls) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

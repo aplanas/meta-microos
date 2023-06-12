@@ -14,7 +14,83 @@ RPM_NAME = "perl-Mail-SPF-2.9.0-2.15.noarch.rpm"
 RPM_HASH = "a25fd801a694af4027f8c3d0c135ebcd4529cde054b2135a667aae77dbb99d5d1865a2734d92b265a862507b28be6d98c4925c055779568af0773242aeec95c9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mail::SPF) perl(Mail::SPF::Base) perl(Mail::SPF::EAbstractClass) perl(Mail::SPF::EClassMethod) perl(Mail::SPF::EDNSError) perl(Mail::SPF::EDNSTimeout) perl(Mail::SPF::EDuplicateGlobalMod) perl(Mail::SPF::EInstanceMethod) perl(Mail::SPF::EInvalidMacro) perl(Mail::SPF::EInvalidMacroString) perl(Mail::SPF::EInvalidMech) perl(Mail::SPF::EInvalidMechQualifier) perl(Mail::SPF::EInvalidMod) perl(Mail::SPF::EInvalidOptionValue) perl(Mail::SPF::EInvalidRecordVersion) perl(Mail::SPF::EInvalidScope) perl(Mail::SPF::EInvalidTerm) perl(Mail::SPF::EJunkInRecord) perl(Mail::SPF::EJunkInTerm) perl(Mail::SPF::EMacroExpansionCtxRequired) perl(Mail::SPF::ENoAcceptableRecord) perl(Mail::SPF::ENoUnparsedText) perl(Mail::SPF::ENothingToParse) perl(Mail::SPF::EOptionRequired) perl(Mail::SPF::EProcessingLimitExceeded) perl(Mail::SPF::EReadOnlyValue) perl(Mail::SPF::ERecordSelectionError) perl(Mail::SPF::ERedundantAcceptableRecords) perl(Mail::SPF::ESyntaxError) perl(Mail::SPF::ETermDomainSpecExpected) perl(Mail::SPF::ETermIPv4AddressExpected) perl(Mail::SPF::ETermIPv4PrefixLengthExpected) perl(Mail::SPF::ETermIPv6AddressExpected) perl(Mail::SPF::ETermIPv6PrefixLengthExpected) perl(Mail::SPF::EUnexpectedTermObject) perl(Mail::SPF::Exception) perl(Mail::SPF::GlobalMod) perl(Mail::SPF::MacroString) perl(Mail::SPF::Mech) perl(Mail::SPF::Mech::A) perl(Mail::SPF::Mech::All) perl(Mail::SPF::Mech::Exists) perl(Mail::SPF::Mech::IP4) perl(Mail::SPF::Mech::IP6) perl(Mail::SPF::Mech::Include) perl(Mail::SPF::Mech::MX) perl(Mail::SPF::Mech::PTR) perl(Mail::SPF::Mod) perl(Mail::SPF::Mod::Exp) perl(Mail::SPF::Mod::Redirect) perl(Mail::SPF::PositionalMod) perl(Mail::SPF::Record) perl(Mail::SPF::Request) perl(Mail::SPF::Result) perl(Mail::SPF::Result::Error) perl(Mail::SPF::Result::Fail) perl(Mail::SPF::Result::Neutral) perl(Mail::SPF::Result::NeutralByDefault) perl(Mail::SPF::Result::None) perl(Mail::SPF::Result::Pass) perl(Mail::SPF::Result::PermError) perl(Mail::SPF::Result::SoftFail) perl(Mail::SPF::Result::TempError) perl(Mail::SPF::SenderIPAddrMech) perl(Mail::SPF::Server) perl(Mail::SPF::Term) perl(Mail::SPF::UnknownMod) perl(Mail::SPF::Util) perl(Mail::SPF::v1::Record) perl(Mail::SPF::v2::Record) perl-Mail-SPF"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Error) perl(Net::DNS) perl(NetAddr::IP) perl(URI) perl(version)"
+RPROVIDES:${PN} += "perl(Mail::SPF) \
+perl(Mail::SPF::Base) \
+perl(Mail::SPF::EAbstractClass) \
+perl(Mail::SPF::EClassMethod) \
+perl(Mail::SPF::EDNSError) \
+perl(Mail::SPF::EDNSTimeout) \
+perl(Mail::SPF::EDuplicateGlobalMod) \
+perl(Mail::SPF::EInstanceMethod) \
+perl(Mail::SPF::EInvalidMacro) \
+perl(Mail::SPF::EInvalidMacroString) \
+perl(Mail::SPF::EInvalidMech) \
+perl(Mail::SPF::EInvalidMechQualifier) \
+perl(Mail::SPF::EInvalidMod) \
+perl(Mail::SPF::EInvalidOptionValue) \
+perl(Mail::SPF::EInvalidRecordVersion) \
+perl(Mail::SPF::EInvalidScope) \
+perl(Mail::SPF::EInvalidTerm) \
+perl(Mail::SPF::EJunkInRecord) \
+perl(Mail::SPF::EJunkInTerm) \
+perl(Mail::SPF::EMacroExpansionCtxRequired) \
+perl(Mail::SPF::ENoAcceptableRecord) \
+perl(Mail::SPF::ENoUnparsedText) \
+perl(Mail::SPF::ENothingToParse) \
+perl(Mail::SPF::EOptionRequired) \
+perl(Mail::SPF::EProcessingLimitExceeded) \
+perl(Mail::SPF::EReadOnlyValue) \
+perl(Mail::SPF::ERecordSelectionError) \
+perl(Mail::SPF::ERedundantAcceptableRecords) \
+perl(Mail::SPF::ESyntaxError) \
+perl(Mail::SPF::ETermDomainSpecExpected) \
+perl(Mail::SPF::ETermIPv4AddressExpected) \
+perl(Mail::SPF::ETermIPv4PrefixLengthExpected) \
+perl(Mail::SPF::ETermIPv6AddressExpected) \
+perl(Mail::SPF::ETermIPv6PrefixLengthExpected) \
+perl(Mail::SPF::EUnexpectedTermObject) \
+perl(Mail::SPF::Exception) \
+perl(Mail::SPF::GlobalMod) \
+perl(Mail::SPF::MacroString) \
+perl(Mail::SPF::Mech) \
+perl(Mail::SPF::Mech::A) \
+perl(Mail::SPF::Mech::All) \
+perl(Mail::SPF::Mech::Exists) \
+perl(Mail::SPF::Mech::IP4) \
+perl(Mail::SPF::Mech::IP6) \
+perl(Mail::SPF::Mech::Include) \
+perl(Mail::SPF::Mech::MX) \
+perl(Mail::SPF::Mech::PTR) \
+perl(Mail::SPF::Mod) \
+perl(Mail::SPF::Mod::Exp) \
+perl(Mail::SPF::Mod::Redirect) \
+perl(Mail::SPF::PositionalMod) \
+perl(Mail::SPF::Record) \
+perl(Mail::SPF::Request) \
+perl(Mail::SPF::Result) \
+perl(Mail::SPF::Result::Error) \
+perl(Mail::SPF::Result::Fail) \
+perl(Mail::SPF::Result::Neutral) \
+perl(Mail::SPF::Result::NeutralByDefault) \
+perl(Mail::SPF::Result::None) \
+perl(Mail::SPF::Result::Pass) \
+perl(Mail::SPF::Result::PermError) \
+perl(Mail::SPF::Result::SoftFail) \
+perl(Mail::SPF::Result::TempError) \
+perl(Mail::SPF::SenderIPAddrMech) \
+perl(Mail::SPF::Server) \
+perl(Mail::SPF::Term) \
+perl(Mail::SPF::UnknownMod) \
+perl(Mail::SPF::Util) \
+perl(Mail::SPF::v1::Record) \
+perl(Mail::SPF::v2::Record) \
+perl-Mail-SPF"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Error) \
+perl(Net::DNS) \
+perl(NetAddr::IP) \
+perl(URI) \
+perl(version)"
 
 inherit rpm

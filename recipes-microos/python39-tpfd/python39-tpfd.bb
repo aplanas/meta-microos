@@ -14,7 +14,10 @@ RPM_NAME = "python39-tpfd-0.2.4-1.14.noarch.rpm"
 RPM_HASH = "b52578daa30129225b6d70f2d3fb1d76b43b7eabdc9c9019bb9fb0676acd9cfe82fec8970864b6bed167a9c20e5eb50b0e3bd0a3cc7d6e7c3505c620fe19bd3c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(tpfd) python39-tpfd python3dist(tpfd)"
-RDEPENDS:${PN} += "python(abi) python39-parse"
+RPROVIDES:${PN} += "python3.9dist(tpfd) \
+python39-tpfd \
+python3dist(tpfd)"
+RDEPENDS:${PN} += "python(abi) \
+python39-parse"
 
 inherit rpm

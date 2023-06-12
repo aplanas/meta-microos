@@ -22,7 +22,11 @@ RPM_NAME = "python39-smbprotocol-1.10.1-1.3.noarch.rpm"
 RPM_HASH = "bde37fd52e1dbbdef56e7b8f73ef7fe755f968ecc115e73bc07d78d70455a1107bbad158548fde7c358f2d33f604ef35f3a8303f03e5839d1533d70c59749537"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(smbprotocol) python39-smbprotocol python3dist(smbprotocol)"
-RDEPENDS:${PN} += "python(abi) python39-cryptography python39-pyspnego"
+RPROVIDES:${PN} += "python3.9dist(smbprotocol) \
+python39-smbprotocol \
+python3dist(smbprotocol)"
+RDEPENDS:${PN} += "python(abi) \
+python39-cryptography \
+python39-pyspnego"
 
 inherit rpm

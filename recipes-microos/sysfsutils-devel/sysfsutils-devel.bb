@@ -12,7 +12,10 @@ PV = "2.1.1"
 RPM_NAME = "sysfsutils-devel-2.1.1-1.8.aarch64.rpm"
 RPM_HASH = "d56a5d5a1578997ccdfa0e3951f7c03f12d9ca4610a2c5cbe636e8f9b8d376fa52bc126e597d6528cb9d23675b646383fa826289739f522da69d78c0272afba3"
 
-RPROVIDES:${PN} += "pkgconfig(libsysfs) sysfsutils-devel sysfsutils-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libsysfs2"
+RPROVIDES:${PN} += "pkgconfig(libsysfs) \
+sysfsutils-devel \
+sysfsutils-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libsysfs2"
 
 inherit rpm

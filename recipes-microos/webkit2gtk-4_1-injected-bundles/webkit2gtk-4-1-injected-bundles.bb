@@ -13,7 +13,9 @@ PV = "2.40.2"
 RPM_NAME = "webkit2gtk-4_1-injected-bundles-2.40.2-1.1.aarch64.rpm"
 RPM_HASH = "a249a9f4bf6542e8b71cd7dd5ef08be4b1547ec0cd5979db94be1e646a326897e10c269b99d48ed19f9ba81efe22b9b474cd5ea43f95b7637d576591bcab2299"
 
-RPROVIDES:${PN} += "libwebkit2gtkinjectedbundle.so()(64bit) webkit2gtk-4_1-injected-bundles webkit2gtk-4_1-injected-bundles(aarch-64)"
+RPROVIDES:${PN} += "libwebkit2gtkinjectedbundle.so()(64bit) \
+webkit2gtk-4_1-injected-bundles \
+webkit2gtk-4_1-injected-bundles(aarch-64)"
 RDEPENDS:${PN} += "libwebkit2gtk-4.1.so.0()(64bit)"
 
 inherit rpm

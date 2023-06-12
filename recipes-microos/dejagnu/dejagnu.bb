@@ -30,7 +30,11 @@ RPM_NAME = "dejagnu-1.6.3-1.13.noarch.rpm"
 RPM_HASH = "e0cf6a8c4d64753e07d68650bc2ef7589c02e02fbb4f3bec296d14ca24613259c3bde8e47b7bd48bc1f73fdfbfa8ccdcb532d75db27bec14a3ac820e862a6893"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(dejagnu) dejagnu"
-RDEPENDS:${PN} += "/bin/sh expect info tcl"
+RPROVIDES:${PN} += "config(dejagnu) \
+dejagnu"
+RDEPENDS:${PN} += "/bin/sh \
+expect \
+info \
+tcl"
 
 inherit rpm

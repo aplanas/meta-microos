@@ -10,7 +10,11 @@ PV = "1.0.3"
 RPM_NAME = "liblc3-tools-1.0.3-1.1.aarch64.rpm"
 RPM_HASH = "ced923244056012dabbff676c9895e6dfd82f186b816a4779eaf5c93659700dba0a933a97f78895f2b53360c37172dc4c93a140ef6829b109fb4a787932e9c28"
 
-RPROVIDES:${PN} += "liblc3-tools liblc3-tools(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) liblc3.so.1()(64bit)"
+RPROVIDES:${PN} += "liblc3-tools \
+liblc3-tools(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+liblc3.so.1()(64bit)"
 
 inherit rpm

@@ -13,7 +13,10 @@ RPM_NAME = "python39-typer-0.9.0-1.1.noarch.rpm"
 RPM_HASH = "65333c642c6d1818f05c949a87732aa7647f3f733d95c3413493de3ac4135af82e9b7296367b27a076c4e5d15e93ad33123957ca81a28c0cff866c1dc7958ef8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(typer) python39-typer python3dist(typer)"
-RDEPENDS:${PN} += "python(abi) python39-click"
+RPROVIDES:${PN} += "python3.9dist(typer) \
+python39-typer \
+python3dist(typer)"
+RDEPENDS:${PN} += "python(abi) \
+python39-click"
 
 inherit rpm

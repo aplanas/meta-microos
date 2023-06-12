@@ -10,6 +10,7 @@ RPM_HASH = "e0c122c980cbee231bf6a90b5a417f64b5a1239e13c2cf34ee4a5e31e5cf40a4f8c4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nvme-cli-regress-script"
-RDEPENDS:${PN} += "/bin/bash nvme-cli"
+RDEPENDS:${PN} += "/bin/bash \
+nvme-cli"
 
 inherit rpm

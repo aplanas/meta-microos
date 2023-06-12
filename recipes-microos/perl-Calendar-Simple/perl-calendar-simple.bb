@@ -8,7 +8,9 @@ RPM_NAME = "perl-Calendar-Simple-2.0.1-1.10.noarch.rpm"
 RPM_HASH = "8629eb4cee94fa5ad38ca5d63ca670b3e322a9d20cfba856f5ef6bbd2d973cb1d4922a158e2c58e2aa14cea8de32cbf09cfa44f2e0e452ff18a7512f49c5b94c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Calendar::Simple) perl-Calendar-Simple"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Calendar::Simple) \
+perl-Calendar-Simple"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

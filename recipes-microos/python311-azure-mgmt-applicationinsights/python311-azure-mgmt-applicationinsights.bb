@@ -13,7 +13,15 @@ RPM_NAME = "python311-azure-mgmt-applicationinsights-4.0.0-1.1.noarch.rpm"
 RPM_HASH = "bf913686fd91fbd7ac266fb7326414faa1bf8351164a7faeb025428cccac68f4a6652ad491fa49b0eea88f6db3be43b447ace98204b8c46887759a380b48e53f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-applicationinsights) python311-azure-mgmt-applicationinsights python3dist(azure-mgmt-applicationinsights)"
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) python(abi) python311-azure-common python311-azure-mgmt-core python311-azure-mgmt-nspkg python311-azure-nspkg python311-isodate"
+RPROVIDES:${PN} += "python3.11dist(azure-mgmt-applicationinsights) \
+python311-azure-mgmt-applicationinsights \
+python3dist(azure-mgmt-applicationinsights)"
+RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
+python(abi) \
+python311-azure-common \
+python311-azure-mgmt-core \
+python311-azure-mgmt-nspkg \
+python311-azure-nspkg \
+python311-isodate"
 
 inherit rpm

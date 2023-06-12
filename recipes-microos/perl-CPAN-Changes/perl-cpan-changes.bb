@@ -17,7 +17,12 @@ RPM_NAME = "perl-CPAN-Changes-0.400002-2.21.noarch.rpm"
 RPM_HASH = "ef237470c85c53ae745e2eb70985f892b8c143dd9a342182e865bfc1a47fbe557c71ab1d155c202c975305d1d6bfb8b406b26c1519fafe9ec42ca322adbda767"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(CPAN::Changes) perl(CPAN::Changes::Group) perl(CPAN::Changes::Release) perl(Test::CPAN::Changes) perl-CPAN-Changes"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(CPAN::Changes) \
+perl(CPAN::Changes::Group) \
+perl(CPAN::Changes::Release) \
+perl(Test::CPAN::Changes) \
+perl-CPAN-Changes"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

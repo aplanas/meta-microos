@@ -12,6 +12,7 @@ RPM_HASH = "fad216919f640657464eceb933a77cdc21c4bb3eb228f3c305082635d83cc4038463
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-Twisted-serial"
-RDEPENDS:${PN} += "python311-Twisted python311-pyserial"
+RDEPENDS:${PN} += "python311-Twisted \
+python311-pyserial"
 
 inherit rpm

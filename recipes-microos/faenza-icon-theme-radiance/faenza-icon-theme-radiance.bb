@@ -13,6 +13,7 @@ RPM_HASH = "345890cd2433bdccb439cccb42ecf08c2b6e1e274ce0e841ecf3d4aee4d869d1d2be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "faenza-icon-theme-radiance"
-RDEPENDS:${PN} += "/bin/sh faenza-icon-theme"
+RDEPENDS:${PN} += "/bin/sh \
+faenza-icon-theme"
 
 inherit rpm

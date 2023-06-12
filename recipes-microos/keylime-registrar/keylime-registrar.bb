@@ -9,6 +9,10 @@ RPM_HASH = "aa558cba58add5040c76c283a0ad3dba5c71cc2e6a43fc4399cd617f6485f2f6f2a5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-registrar"
-RDEPENDS:${PN} += "/bin/sh keylime-config keylime-logrotate keylime-tpm_cert_store python3-keylime"
+RDEPENDS:${PN} += "/bin/sh \
+keylime-config \
+keylime-logrotate \
+keylime-tpm_cert_store \
+python3-keylime"
 
 inherit rpm

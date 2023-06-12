@@ -14,7 +14,10 @@ PV = "1.0.4"
 RPM_NAME = "mtree-1.0.4-4.8.aarch64.rpm"
 RPM_HASH = "5ec2893c693622525b0ff1480ee0020ddf55c1ef117c1a9d24a89cb9820cc7ee80f135ba9f3beb541c844e3bed61a93e7ba66b3104bcf6f36878e6528a90cc2f"
 
-RPROVIDES:${PN} += "mtree mtree(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "mtree \
+mtree(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

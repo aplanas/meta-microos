@@ -18,7 +18,16 @@ RPM_NAME = "monitoring-plugins-keepalived-0.1.5-1.11.noarch.rpm"
 RPM_HASH = "994e7522430dc34195fcede4b46a7cabe412fd8859f91cb02cc5fc2879a9bba4571ff0843d386a9e572d4c7b153f10271d3443ea0a915c89630099ff15e4cbb9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(monitoring-plugins-keepalived) monitoring-plugins-keepalived"
-RDEPENDS:${PN} += "/bin/bash awk bash coreutils grep keepalived logrotate monitoring-plugins-common procps"
+RPROVIDES:${PN} += "config(monitoring-plugins-keepalived) \
+monitoring-plugins-keepalived"
+RDEPENDS:${PN} += "/bin/bash \
+awk \
+bash \
+coreutils \
+grep \
+keepalived \
+logrotate \
+monitoring-plugins-common \
+procps"
 
 inherit rpm

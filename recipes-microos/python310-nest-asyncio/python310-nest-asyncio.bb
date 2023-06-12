@@ -19,7 +19,10 @@ RPM_NAME = "python310-nest-asyncio-1.5.6-1.3.noarch.rpm"
 RPM_HASH = "a85b0811ac8743df42e0c07f8aa373872e3b34c737be2a0a0d5c1fb2fdab7d0c1689339930e1fe2135b8b73817a83a642c75552de791a9d6f0645fbdef20edb0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-nest-asyncio python3.10dist(nest-asyncio) python310-nest-asyncio python3dist(nest-asyncio)"
+RPROVIDES:${PN} += "python3-nest-asyncio \
+python3.10dist(nest-asyncio) \
+python310-nest-asyncio \
+python3dist(nest-asyncio)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

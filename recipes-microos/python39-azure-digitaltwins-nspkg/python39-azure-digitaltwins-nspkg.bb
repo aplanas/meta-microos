@@ -12,7 +12,10 @@ RPM_NAME = "python39-azure-digitaltwins-nspkg-1.0.0-1.10.noarch.rpm"
 RPM_HASH = "198956e81d99d6c8f9cd0a92cacbced72bea0ce4a8f691573b712dd6fcdd9bf8bf38076d7a6254385ee047866590d397256801add552733c4e177627b7cc41bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-digitaltwins-nspkg) python39-azure-digitaltwins-nspkg python3dist(azure-digitaltwins-nspkg)"
-RDEPENDS:${PN} += "python(abi) python39-azure-nspkg"
+RPROVIDES:${PN} += "python3.9dist(azure-digitaltwins-nspkg) \
+python39-azure-digitaltwins-nspkg \
+python3dist(azure-digitaltwins-nspkg)"
+RDEPENDS:${PN} += "python(abi) \
+python39-azure-nspkg"
 
 inherit rpm

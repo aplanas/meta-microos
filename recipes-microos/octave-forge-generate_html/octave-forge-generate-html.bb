@@ -13,6 +13,8 @@ RPM_HASH = "9fa4a30603fade0cc9f1d311242a53824bcaad89daedbcd1d85b35a3e7e32a37cc7a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-generate_html"
-RDEPENDS:${PN} += "/bin/sh makeinfo octave-cli"
+RDEPENDS:${PN} += "/bin/sh \
+makeinfo \
+octave-cli"
 
 inherit rpm

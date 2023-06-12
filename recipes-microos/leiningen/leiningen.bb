@@ -12,6 +12,8 @@ RPM_HASH = "bf337cab1efa52cd34d4bb6d349de2fccc074cd38bdde918e9d402e505113204e6df
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "leiningen"
-RDEPENDS:${PN} += "/usr/bin/env clojure java"
+RDEPENDS:${PN} += "/usr/bin/env \
+clojure \
+java"
 
 inherit rpm

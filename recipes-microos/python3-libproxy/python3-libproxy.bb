@@ -12,6 +12,7 @@ RPM_HASH = "61db66d5b96acfafadf1d3fd0d538f91b6f2ae9d291148ce0c6f1ba82d42280a9d4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-libproxy"
-RDEPENDS:${PN} += "libproxy1 python(abi)"
+RDEPENDS:${PN} += "libproxy1 \
+python(abi)"
 
 inherit rpm

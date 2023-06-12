@@ -10,6 +10,11 @@ RPM_HASH = "c749c9120a2c17074654592870c21d8d8de4d09df3d04d82730b7c01b7c1e54a8ad5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-cephadm"
-RDEPENDS:${PN} += "/bin/sh ceph-mgr cephadm openssh python3-Jinja2 python3-remoto"
+RDEPENDS:${PN} += "/bin/sh \
+ceph-mgr \
+cephadm \
+openssh \
+python3-Jinja2 \
+python3-remoto"
 
 inherit rpm

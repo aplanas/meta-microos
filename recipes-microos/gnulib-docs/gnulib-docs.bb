@@ -13,6 +13,8 @@ RPM_HASH = "86e16695faf56c75e07b50b1b4a398ac3d7a8cb267c8b9d14c7e0a30e1fcbf74ad6f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnulib-docs"
-RDEPENDS:${PN} += "/bin/sh gnulib-devel info"
+RDEPENDS:${PN} += "/bin/sh \
+gnulib-devel \
+info"
 
 inherit rpm

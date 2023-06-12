@@ -16,7 +16,19 @@ RPM_NAME = "texlive-fetchcls-2023.201.1.0svn45245-52.1.noarch.rpm"
 RPM_HASH = "050640cedde8ff3335a29db66ec70364fe181b4a50732ecc91d999d50fa4b4eda2e08e4c89bdf025dd623741b4597baec49970d56c2b9ade1d634a69613dd332"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fetchcls.sty) texlive-fetchcls"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(fetchcls.sty) \
+texlive-fetchcls"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

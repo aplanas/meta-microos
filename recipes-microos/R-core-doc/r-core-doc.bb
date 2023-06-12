@@ -7,7 +7,8 @@ PV = "4.3.0"
 RPM_NAME = "R-core-doc-4.3.0-45.2.aarch64.rpm"
 RPM_HASH = "a0f27a41570796a1ea9d02e0aa6367f0fb2bb5eb9efcf9ad4311082b5d6c7560f8565a1da179bc9be31d8bd6354d147659dd38a18863ee05fa91f74cd3bed96e"
 
-RPROVIDES:${PN} += "R-core-doc R-core-doc(aarch-64)"
+RPROVIDES:${PN} += "R-core-doc \
+R-core-doc(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

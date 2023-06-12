@@ -13,7 +13,19 @@ PV = "6.3.4"
 RPM_NAME = "kernel-64kb-devel-6.3.4-1.1.aarch64.rpm"
 RPM_HASH = "704c5a97c9a78772b934490cfd4305444727cb703244fa0704effe048220b525cb84138a5efcb5fd91be1f3f2064faee3c2ffcb8cba5f81d5a4179d544263f44"
 
-RPROVIDES:${PN} += "kernel-64kb-devel kernel-64kb-devel(aarch-64) multiversion(kernel)"
-RDEPENDS:${PN} += "/bin/sh coreutils dwarves kernel-devel libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libelf-devel libelf.so.1()(64bit) libelf.so.1(ELFUTILS_1.0)(64bit) libelf.so.1(ELFUTILS_1.3)(64bit)"
+RPROVIDES:${PN} += "kernel-64kb-devel \
+kernel-64kb-devel(aarch-64) \
+multiversion(kernel)"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+dwarves \
+kernel-devel \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libelf-devel \
+libelf.so.1()(64bit) \
+libelf.so.1(ELFUTILS_1.0)(64bit) \
+libelf.so.1(ELFUTILS_1.3)(64bit)"
 
 inherit rpm

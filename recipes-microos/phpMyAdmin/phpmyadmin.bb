@@ -40,7 +40,18 @@ RPM_NAME = "phpMyAdmin-5.2.1-3.1.noarch.rpm"
 RPM_HASH = "dec1fba7ea1a9cbf42a1878e7cc783c25d1652033fe8544998c86dad899096cea85a03c4e58133d90f121295bc9ca5757d8eb9d20e9f4ef1a95b51a469d1a64b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(phpMyAdmin) phpMyAdmin"
-RDEPENDS:${PN} += "/bin/sh php-bz2 php-ctype php-gd php-gettext php-iconv php-json php-mbstring php-mysql php-openssl php-session"
+RPROVIDES:${PN} += "config(phpMyAdmin) \
+phpMyAdmin"
+RDEPENDS:${PN} += "/bin/sh \
+php-bz2 \
+php-ctype \
+php-gd \
+php-gettext \
+php-iconv \
+php-json \
+php-mbstring \
+php-mysql \
+php-openssl \
+php-session"
 
 inherit rpm

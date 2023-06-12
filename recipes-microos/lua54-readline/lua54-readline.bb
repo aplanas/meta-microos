@@ -16,7 +16,15 @@ PV = "3.0"
 RPM_NAME = "lua54-readline-3.0-3.2.aarch64.rpm"
 RPM_HASH = "583b719ccb9b315dd9b015d345687192e65a7219c64897ed0c87106a7e09383060ed728b2607d4576605ba7ae8f6038ebc73e1c5ccc91a89e6d5c12848c8fd87"
 
-RPROVIDES:${PN} += "lua-readline lua54-readline lua54-readline(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) liblua5.4.so.5()(64bit) libreadline.so.8()(64bit) libreadline.so.8(READLINE_7.0)(64bit) lua54-luaposix"
+RPROVIDES:${PN} += "lua-readline \
+lua54-readline \
+lua54-readline(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+liblua5.4.so.5()(64bit) \
+libreadline.so.8()(64bit) \
+libreadline.so.8(READLINE_7.0)(64bit) \
+lua54-luaposix"
 
 inherit rpm

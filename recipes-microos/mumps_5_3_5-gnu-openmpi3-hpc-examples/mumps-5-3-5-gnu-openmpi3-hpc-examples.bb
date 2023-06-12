@@ -13,7 +13,16 @@ PV = "5.3.5"
 RPM_NAME = "mumps_5_3_5-gnu-openmpi3-hpc-examples-5.3.5-3.2.aarch64.rpm"
 RPM_HASH = "9f75657cad4e0c3366e91293fcd8be19fb45cb9794bce4770bd7ec6b8fbd60c496bd317bdbe6e8a0dff20e962190028fd872a3f297b66511e6c32ec4ff901bab"
 
-RPROVIDES:${PN} += "mumps_5_3_5-gnu-openmpi3-hpc-examples mumps_5_3_5-gnu-openmpi3-hpc-examples(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgfortran.so.5()(64bit) libgfortran.so.5(GFORTRAN_10)(64bit) libgfortran.so.5(GFORTRAN_8)(64bit) libm.so.6()(64bit) libmumps_5_3_5-gnu-openmpi3-hpc"
+RPROVIDES:${PN} += "mumps_5_3_5-gnu-openmpi3-hpc-examples \
+mumps_5_3_5-gnu-openmpi3-hpc-examples(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgfortran.so.5()(64bit) \
+libgfortran.so.5(GFORTRAN_10)(64bit) \
+libgfortran.so.5(GFORTRAN_8)(64bit) \
+libm.so.6()(64bit) \
+libmumps_5_3_5-gnu-openmpi3-hpc"
 
 inherit rpm

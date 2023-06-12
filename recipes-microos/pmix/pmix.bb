@@ -14,7 +14,11 @@ PV = "3.2.3"
 RPM_NAME = "pmix-3.2.3-10.1.aarch64.rpm"
 RPM_HASH = "03f9b4034051880f99d8623768ab54f51697d0899f679ce270227b16fbf48cb42d77982671a2505239cf2ec7fa0a4ab9ec333be95c4cc67c9f3d5412ef7bfb9a"
 
-RPROVIDES:${PN} += "pmix pmix(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libpmix.so.2()(64bit)"
+RPROVIDES:${PN} += "pmix \
+pmix(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libpmix.so.2()(64bit)"
 
 inherit rpm

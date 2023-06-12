@@ -11,7 +11,8 @@ PV = "8.4.5"
 RPM_NAME = "postgresql14-plr-doc-8.4.5-1.1.aarch64.rpm"
 RPM_HASH = "f64e784d782251cf4bfc055001705e4d330dec3982dd563d9871e0f05a9c1bdb40ff45be10620b749b815c9ae345f8ae8d95747e4087f2ac5324721d67455021"
 
-RPROVIDES:${PN} += "postgresql14-plr-doc postgresql14-plr-doc(aarch-64)"
+RPROVIDES:${PN} += "postgresql14-plr-doc \
+postgresql14-plr-doc(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

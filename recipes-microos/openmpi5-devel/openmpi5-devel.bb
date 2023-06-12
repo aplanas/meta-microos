@@ -20,7 +20,15 @@ PV = "5.0.0"
 RPM_NAME = "openmpi5-devel-5.0.0-2.3.aarch64.rpm"
 RPM_HASH = "418b4c05ef9084a9e231c5f2f9b3f9a79685650159fa02048c0b10dfb9ff65d078b44bc8774198b5f2d67f5e80b5add8e260c2f4f8dd23f97e20ccbe2c9b80e4"
 
-RPROVIDES:${PN} += "openmpi5-devel openmpi5-devel(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libibumad-devel libibverbs-devel libopen-pal.so.80()(64bit) libstdc++-devel openmpi5"
+RPROVIDES:${PN} += "openmpi5-devel \
+openmpi5-devel(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libibumad-devel \
+libibverbs-devel \
+libopen-pal.so.80()(64bit) \
+libstdc++-devel \
+openmpi5"
 
 inherit rpm

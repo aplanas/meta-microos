@@ -22,7 +22,14 @@ RPM_NAME = "maven-failsafe-plugin-2.22.0-8.1.noarch.rpm"
 RPM_HASH = "d845baa218507ae27c8bf162bc789f8de29e65c4f4ca78448947b744f637df535d743f1ac094e2b7958d77b31bf1a01bb04f82526b6def1725426698994c671c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "maven-failsafe-plugin mvn(org.apache.maven.plugins:maven-failsafe-plugin) mvn(org.apache.maven.plugins:maven-failsafe-plugin:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(commons-io:commons-io) mvn(org.apache.commons:commons-lang3) mvn(org.apache.maven.shared:maven-shared-utils) mvn(org.apache.maven.surefire:maven-surefire-common)"
+RPROVIDES:${PN} += "maven-failsafe-plugin \
+mvn(org.apache.maven.plugins:maven-failsafe-plugin) \
+mvn(org.apache.maven.plugins:maven-failsafe-plugin:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(commons-io:commons-io) \
+mvn(org.apache.commons:commons-lang3) \
+mvn(org.apache.maven.shared:maven-shared-utils) \
+mvn(org.apache.maven.surefire:maven-surefire-common)"
 
 inherit rpm

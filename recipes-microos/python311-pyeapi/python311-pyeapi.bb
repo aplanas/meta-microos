@@ -19,7 +19,10 @@ RPM_NAME = "python311-pyeapi-0.8.4-3.6.noarch.rpm"
 RPM_HASH = "4b9ee456c980bb9f2c98b4fbe3ef1461679242e1b1a3c55f86790cc9bf331a2ad5153a87317a4313fd23e7b3dfc2804df5e8699bb4ba667781bed88c971c139e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyeapi) python311-pyeapi python3dist(pyeapi)"
-RDEPENDS:${PN} += "python(abi) python311-netaddr"
+RPROVIDES:${PN} += "python3.11dist(pyeapi) \
+python311-pyeapi \
+python3dist(pyeapi)"
+RDEPENDS:${PN} += "python(abi) \
+python311-netaddr"
 
 inherit rpm

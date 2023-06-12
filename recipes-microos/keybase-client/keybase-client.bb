@@ -11,7 +11,8 @@ PV = "6.0.2"
 RPM_NAME = "keybase-client-6.0.2-3.4.aarch64.rpm"
 RPM_HASH = "b412d227a05f03d5ee52124307c9f77aab23385f81b3b39a8d4b9c6807c12083049e181fccdd1e5289dfd4d611a204e09b15aa4c2ba38e7d57c32cfb00f2bc0d"
 
-RPROVIDES:${PN} += "keybase-client keybase-client(aarch-64)"
+RPROVIDES:${PN} += "keybase-client \
+keybase-client(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -10,7 +10,8 @@ PV = "1.0.2"
 RPM_NAME = "ocaml-camomile-1.0.2-3.25.aarch64.rpm"
 RPM_HASH = "f25ae8ec05f5236cb1aa799a1763af2eeea1e4b449c861382eeca217d478542fb100beb188384312e4e8c91157feade763379fe08a904c1b646f39bf79d4b808"
 
-RPROVIDES:${PN} += "ocaml-camomile ocaml-camomile(aarch-64)"
+RPROVIDES:${PN} += "ocaml-camomile \
+ocaml-camomile(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

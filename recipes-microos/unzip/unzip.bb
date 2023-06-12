@@ -11,7 +11,12 @@ PV = "6.00"
 RPM_NAME = "unzip-6.00-41.3.aarch64.rpm"
 RPM_HASH = "a557c0aa696e9062bceb2a285e63f3dd44fd1c726381dbab5162802ef7c4c5bff40f7178ebee3c45828819928260edd83687fcdea38ba498ae5d3f5dc130c0fb"
 
-RPROVIDES:${PN} += "unzip unzip(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) update-alternatives"
+RPROVIDES:${PN} += "unzip \
+unzip(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+update-alternatives"
 
 inherit rpm

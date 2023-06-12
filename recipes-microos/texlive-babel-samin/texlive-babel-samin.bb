@@ -14,7 +14,19 @@ RPM_NAME = "texlive-babel-samin-2023.201.1.0csvn30288-53.1.noarch.rpm"
 RPM_HASH = "e701156e3819b2b06747622d01b9029300e382eb6bfe97770016b6028d1b52f54119aa948fc189849ad8134d4bb6614cb3c3e2e711688a45e95ba5c6391b04a9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(samin.ldf) texlive-babel-samin"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(samin.ldf) \
+texlive-babel-samin"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

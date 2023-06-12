@@ -12,6 +12,7 @@ RPM_HASH = "817398417f73d8e6e4f51a66ae15d816cceb0328c876d45bc324ef866346c9eb6cf7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-module-ipl"
-RDEPENDS:${PN} += "icingaweb2 icingaweb2-module-director"
+RDEPENDS:${PN} += "icingaweb2 \
+icingaweb2-module-director"
 
 inherit rpm

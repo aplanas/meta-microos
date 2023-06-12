@@ -8,7 +8,12 @@ RPM_NAME = "myspell-bg_BG-20221012-1.2.noarch.rpm"
 RPM_HASH = "22152a1019e31807a27c02a1bfe3e44584cbbb306b517fc383f472527e1baf3d9d2dc3fdefc7763acfee9ad315828aed4a7715c1299716a33e002a80c538dad7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libreoffice-thesaurus-bg locale(libreoffice:bg_BG) locale(seamonkey-spellchecker:bg_BG) myspell-bg_BG myspell-bulgarian myspell-dictionary"
+RPROVIDES:${PN} += "libreoffice-thesaurus-bg \
+locale(libreoffice:bg_BG) \
+locale(seamonkey-spellchecker:bg_BG) \
+myspell-bg_BG \
+myspell-bulgarian \
+myspell-dictionary"
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

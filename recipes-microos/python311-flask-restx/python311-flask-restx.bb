@@ -12,7 +12,13 @@ RPM_NAME = "python311-flask-restx-0.5.1-5.4.noarch.rpm"
 RPM_HASH = "5867cbdfc243668110bfbd670c68d9298f90e4bd85b0a0b2f1d65333463c608ede5570c77c3b7061d8ff97349b0e00dfa6baaa120e0cd42aceeb10566edeed34"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(flask-restx) python311-flask-restx python3dist(flask-restx)"
-RDEPENDS:${PN} += "python(abi) python311-Flask python311-aniso8601 python311-jsonschema python311-pytz"
+RPROVIDES:${PN} += "python3.11dist(flask-restx) \
+python311-flask-restx \
+python3dist(flask-restx)"
+RDEPENDS:${PN} += "python(abi) \
+python311-Flask \
+python311-aniso8601 \
+python311-jsonschema \
+python311-pytz"
 
 inherit rpm

@@ -9,7 +9,9 @@ PV = "4.9.2"
 RPM_NAME = "libnetcdf-gnu-openmpi2-hpc-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "4399fd13e5acabe34b8c3081aa4aceaa74bb531ad5b544a2f5946cb478fbb789ee9dcb9b837e120ded5987e1dffe0057e8f992bf7ee2eeaee94dc093455efe1d"
 
-RPROVIDES:${PN} += "libnetcdf-gnu-openmpi2-hpc libnetcdf-gnu-openmpi2-hpc(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh libnetcdf_4_9_2-gnu-openmpi2-hpc"
+RPROVIDES:${PN} += "libnetcdf-gnu-openmpi2-hpc \
+libnetcdf-gnu-openmpi2-hpc(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+libnetcdf_4_9_2-gnu-openmpi2-hpc"
 
 inherit rpm

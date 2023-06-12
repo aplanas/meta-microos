@@ -26,7 +26,10 @@ RPM_NAME = "perl-Expect-1.35-1.22.noarch.rpm"
 RPM_HASH = "4e06b919eaff4474680c0ac93074fffeac22ddd5b865a1484c6fc22480473d7c98f3bc9ec8197eaa8ec7281e4d1cdf53052b7da561f337b0a5ac7312f6408246"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Expect) perl-Expect"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(IO::Pty) perl(IO::Tty)"
+RPROVIDES:${PN} += "perl(Expect) \
+perl-Expect"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(IO::Pty) \
+perl(IO::Tty)"
 
 inherit rpm

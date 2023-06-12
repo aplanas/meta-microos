@@ -12,7 +12,14 @@ PV = "0.94m"
 RPM_NAME = "cddlib-tools-0.94m-1.10.aarch64.rpm"
 RPM_HASH = "cf4bfaba3df7c3a68ced29fe5c45fbc56a70f99116a5c09c13120ab1f8269bbd1db2e1a1aa8a8da975391ac0530f5476a632535ecb2344e74e9e8134643aaba6"
 
-RPROVIDES:${PN} += "cddlib-devel:/usr/bin/scdd cddlib-tools cddlib-tools(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcdd.so.0()(64bit) libcddgmp.so.0()(64bit) libgmp.so.10()(64bit)"
+RPROVIDES:${PN} += "cddlib-devel:/usr/bin/scdd \
+cddlib-tools \
+cddlib-tools(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcdd.so.0()(64bit) \
+libcddgmp.so.0()(64bit) \
+libgmp.so.10()(64bit)"
 
 inherit rpm

@@ -11,6 +11,8 @@ RPM_HASH = "0ceff9a0c6291a0e1e73d1c6b72ae27602cfe0907f9aea7671f925b8580d2fc7d0e8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-gcsfs-fuse"
-RDEPENDS:${PN} += "python(abi) python39-click python39-fusepy"
+RDEPENDS:${PN} += "python(abi) \
+python39-click \
+python39-fusepy"
 
 inherit rpm

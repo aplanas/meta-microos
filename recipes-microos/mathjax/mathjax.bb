@@ -15,6 +15,19 @@ RPM_HASH = "57cae95c890a27d507158b6ce427756aad3f04264aaacc179ba9c8347697aafccb29
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathjax"
-RDEPENDS:${PN} += "mathjax-ams-fonts mathjax-caligraphic-fonts mathjax-fraktur-fonts mathjax-main-fonts mathjax-math-fonts mathjax-sansserif-fonts mathjax-script-fonts mathjax-size1-fonts mathjax-size2-fonts mathjax-size3-fonts mathjax-size4-fonts mathjax-typewriter-fonts mathjax-winchrome-fonts mathjax-winie6-fonts"
+RDEPENDS:${PN} += "mathjax-ams-fonts \
+mathjax-caligraphic-fonts \
+mathjax-fraktur-fonts \
+mathjax-main-fonts \
+mathjax-math-fonts \
+mathjax-sansserif-fonts \
+mathjax-script-fonts \
+mathjax-size1-fonts \
+mathjax-size2-fonts \
+mathjax-size3-fonts \
+mathjax-size4-fonts \
+mathjax-typewriter-fonts \
+mathjax-winchrome-fonts \
+mathjax-winie6-fonts"
 
 inherit rpm

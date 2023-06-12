@@ -19,7 +19,12 @@ RPM_NAME = "monitoring-plugins-sip-1.3-100.16.noarch.rpm"
 RPM_HASH = "2a2f5fb8e84c54dbf8852a2e65c9788c731a23995d0fa3b1ccc4a76984aa14071fafb89c38046412f212f079228f8af5cd319bd56bf232b0250a0945212f614b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "monitoring-plugins-sip nagios-plugins-sip"
-RDEPENDS:${PN} += "/usr/bin/perl perl(IO::Socket::INET) perl(Net::Domain) perl(Switch) perl(Time::HiRes)"
+RPROVIDES:${PN} += "monitoring-plugins-sip \
+nagios-plugins-sip"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(IO::Socket::INET) \
+perl(Net::Domain) \
+perl(Switch) \
+perl(Time::HiRes)"
 
 inherit rpm

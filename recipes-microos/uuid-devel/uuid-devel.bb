@@ -24,7 +24,13 @@ PV = "1.6.2"
 RPM_NAME = "uuid-devel-1.6.2-19.45.aarch64.rpm"
 RPM_HASH = "cb6d5b61da48138f46f3b742471b1974147233e99f3396f48440d59c2abd748f3198bf747ea7072ebb7b7c55110be561479485b72e4d7a6f1de2bcf23bb9dd96"
 
-RPROVIDES:${PN} += "pkgconfig(ossp-uuid) uuid-devel uuid-devel(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config libossp-uuid++16 libossp-uuid16 libossp-uuid_dce16"
+RPROVIDES:${PN} += "pkgconfig(ossp-uuid) \
+uuid-devel \
+uuid-devel(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/pkg-config \
+libossp-uuid++16 \
+libossp-uuid16 \
+libossp-uuid_dce16"
 
 inherit rpm

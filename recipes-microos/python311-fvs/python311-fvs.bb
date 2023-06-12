@@ -21,7 +21,13 @@ RPM_NAME = "python311-fvs-0.3.4-1.3.noarch.rpm"
 RPM_HASH = "c14315d671cda1e47f2ff6b8918b5b41861661b14eeb69bee1bc58ac7bd2d963fc297f6b72a0914eff94e907b5f680a04a93e5b6368a285dc4246e85f538d324"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(fvs) python311-fvs python3dist(fvs)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-orjson update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(fvs) \
+python311-fvs \
+python3dist(fvs)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-orjson \
+update-alternatives"
 
 inherit rpm

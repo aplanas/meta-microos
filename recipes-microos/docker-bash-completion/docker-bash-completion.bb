@@ -9,6 +9,7 @@ RPM_HASH = "9e22021f5dab6e07ee690c7fc32c1e52b9d027868e4a8cc1c984425384d2a82616fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docker-bash-completion"
-RDEPENDS:${PN} += "bash-completion docker"
+RDEPENDS:${PN} += "bash-completion \
+docker"
 
 inherit rpm

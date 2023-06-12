@@ -13,7 +13,14 @@ RPM_NAME = "python310-azure-mgmt-scheduler-2.0.0-4.11.noarch.rpm"
 RPM_HASH = "039a1d3e5b4ec2870c906406dbe13ca9f2495caca30a3478e994381ad9abc8883dad8254fc8c207cd1f0d28d3c70a93c222baaebf89cab381916b1fcddf9fc1a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-scheduler python3.10dist(azure-mgmt-scheduler) python310-azure-mgmt-scheduler python3dist(azure-mgmt-scheduler)"
-RDEPENDS:${PN} += "python(abi) python310-azure-common python310-azure-mgmt-nspkg python310-azure-nspkg python310-msrestazure"
+RPROVIDES:${PN} += "python3-azure-mgmt-scheduler \
+python3.10dist(azure-mgmt-scheduler) \
+python310-azure-mgmt-scheduler \
+python3dist(azure-mgmt-scheduler)"
+RDEPENDS:${PN} += "python(abi) \
+python310-azure-common \
+python310-azure-mgmt-nspkg \
+python310-azure-nspkg \
+python310-msrestazure"
 
 inherit rpm

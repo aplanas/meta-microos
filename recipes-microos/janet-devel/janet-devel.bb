@@ -10,7 +10,10 @@ PV = "1.28.0"
 RPM_NAME = "janet-devel-1.28.0-1.1.aarch64.rpm"
 RPM_HASH = "8b4e662bacab345797a4fb45b9a787293ffe365ab73ed21c64e501bafd91b201494bff7e5a41ef12da8e6e87c7f83531e6722ac43fb614cb93c9175ceac6fc73"
 
-RPROVIDES:${PN} += "janet-devel janet-devel(aarch-64) pkgconfig(janet)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libjanet1_28"
+RPROVIDES:${PN} += "janet-devel \
+janet-devel(aarch-64) \
+pkgconfig(janet)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libjanet1_28"
 
 inherit rpm

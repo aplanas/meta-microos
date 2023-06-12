@@ -18,7 +18,13 @@ RPM_NAME = "python3-debtcollector-2.5.0-1.4.noarch.rpm"
 RPM_HASH = "b1ea150479eaf38ac022c1065cbed1604856d44d3aa769d9a769ba26f4a9b71d333c96d010f29cd3654e24e5bc28e40519007129f7501007f313d4dce03569d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-debtcollector python3.10dist(debtcollector) python3dist(debtcollector)"
-RDEPENDS:${PN} += "python(abi) python3-importlib-metadata python3-pbr python3-six python3-wrapt"
+RPROVIDES:${PN} += "python3-debtcollector \
+python3.10dist(debtcollector) \
+python3dist(debtcollector)"
+RDEPENDS:${PN} += "python(abi) \
+python3-importlib-metadata \
+python3-pbr \
+python3-six \
+python3-wrapt"
 
 inherit rpm

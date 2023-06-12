@@ -13,7 +13,10 @@ PV = "0.1.1"
 RPM_NAME = "libserialport-devel-0.1.1-2.12.aarch64.rpm"
 RPM_HASH = "4c5e53cd8d95782deca816a8aac2dbdd100b5e935eb1034a64f9f307c9858cce4bba02808ad8a8c65cd60a12ddad4d395a877fafb0590b7f7df57939905c3085"
 
-RPROVIDES:${PN} += "libserialport-devel libserialport-devel(aarch-64) pkgconfig(libserialport)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libserialport0"
+RPROVIDES:${PN} += "libserialport-devel \
+libserialport-devel(aarch-64) \
+pkgconfig(libserialport)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libserialport0"
 
 inherit rpm

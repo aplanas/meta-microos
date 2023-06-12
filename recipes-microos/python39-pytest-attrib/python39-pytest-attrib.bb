@@ -17,7 +17,10 @@ RPM_NAME = "python39-pytest-attrib-0.1.3-3.33.noarch.rpm"
 RPM_HASH = "a1f461264ec36d3e2414c8c3c2defebe6087d7939439e09f52b7733dcbe4b471539dc124e61b9a1ec60e83ec408680da75e17d9b55f717ebba6801ee58db9a32"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-attrib) python39-pytest-attrib python3dist(pytest-attrib)"
-RDEPENDS:${PN} += "python(abi) python39-pytest"
+RPROVIDES:${PN} += "python3.9dist(pytest-attrib) \
+python39-pytest-attrib \
+python3dist(pytest-attrib)"
+RDEPENDS:${PN} += "python(abi) \
+python39-pytest"
 
 inherit rpm

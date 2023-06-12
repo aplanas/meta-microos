@@ -13,7 +13,9 @@ RPM_NAME = "laptop-mode-tools-1.74-3.6.noarch.rpm"
 RPM_HASH = "89bbc50cf0cb8332122ba2a88debb4f421e6ca41a87b8a7651007e74e157e52eba30d171fcaddaf169891ed77ffb59ac5ba37671d841109ea82aaa0d4eaa4820"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(laptop-mode-tools) laptop-mode-tools"
-RDEPENDS:${PN} += "/bin/sh systemd"
+RPROVIDES:${PN} += "config(laptop-mode-tools) \
+laptop-mode-tools"
+RDEPENDS:${PN} += "/bin/sh \
+systemd"
 
 inherit rpm

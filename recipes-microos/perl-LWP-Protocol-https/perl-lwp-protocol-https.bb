@@ -23,7 +23,13 @@ RPM_NAME = "perl-LWP-Protocol-https-6.10-1.11.noarch.rpm"
 RPM_HASH = "596828280d01e413dd11163897bee5df4c15af3d5be1beaf87ae4022786d801815c145a660dbee7f8fe04933a691601aa2a5d7d9c450b62f58ad5a3c3514024b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(LWP::Protocol::https) perl(LWP::Protocol::https::Socket) perl-LWP-Protocol-https"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(IO::Socket::SSL) perl(LWP::Protocol::http) perl(LWP::UserAgent) perl(Net::HTTPS)"
+RPROVIDES:${PN} += "perl(LWP::Protocol::https) \
+perl(LWP::Protocol::https::Socket) \
+perl-LWP-Protocol-https"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(IO::Socket::SSL) \
+perl(LWP::Protocol::http) \
+perl(LWP::UserAgent) \
+perl(Net::HTTPS)"
 
 inherit rpm

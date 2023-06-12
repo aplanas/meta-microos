@@ -10,7 +10,13 @@ PV = "0.98.1"
 RPM_NAME = "libb2-1-0.98.1-1.13.aarch64.rpm"
 RPM_HASH = "6b7eaa7d2fda86049478e40feb0745ad32d3c94ffb4d6cb574a755eafb9cb0cb87baad5d767185ec88538290ba434f4c9e969e4b1b4add9174952879b8534810"
 
-RPROVIDES:${PN} += "libb2-1 libb2-1(aarch-64) libb2.so.1()(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig libc.so.6(GLIBC_2.25)(64bit) libgomp.so.1()(64bit) libgomp.so.1(GOMP_4.0)(64bit) libgomp.so.1(OMP_1.0)(64bit)"
+RPROVIDES:${PN} += "libb2-1 \
+libb2-1(aarch-64) \
+libb2.so.1()(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libc.so.6(GLIBC_2.25)(64bit) \
+libgomp.so.1()(64bit) \
+libgomp.so.1(GOMP_4.0)(64bit) \
+libgomp.so.1(OMP_1.0)(64bit)"
 
 inherit rpm

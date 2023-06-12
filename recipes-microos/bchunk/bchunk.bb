@@ -11,7 +11,10 @@ PV = "1.2.2"
 RPM_NAME = "bchunk-1.2.2-1.19.aarch64.rpm"
 RPM_HASH = "1dd0af422817309ca89110201bf27a78718abd2347c4fec8ae04f72dc9f0c586a54ac2a3cb10df29b99b6ea3d180686ee35e77049197379a6ec33a002fb4fff0"
 
-RPROVIDES:${PN} += "bchunk bchunk(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "bchunk \
+bchunk(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

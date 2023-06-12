@@ -9,6 +9,7 @@ RPM_HASH = "8e30290d1cd6ac6cf35ff368e37855cbf39e019d5132f6743f361a35a11ab9ef2489
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-gzip"
-RDEPENDS:${PN} += "/bin/sh busybox"
+RDEPENDS:${PN} += "/bin/sh \
+busybox"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "6904fdad3f1bf8502a529880bc9cc2fdb4165cebd545643718a7dcdaadc4677344a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bpftrace-tools"
-RDEPENDS:${PN} += "/usr/bin/bpftrace bpftrace"
+RDEPENDS:${PN} += "/usr/bin/bpftrace \
+bpftrace"
 
 inherit rpm

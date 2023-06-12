@@ -22,7 +22,41 @@ RPM_NAME = "texlive-quantumarticle-2023.201.6.1svn65242-53.1.noarch.rpm"
 RPM_HASH = "f84bb181df08eec6571e03f79ce6391ebb83922511b89fd11013df854aac040fa42dc4196247adde586f0c9c2c16caafe6516f526bee0f33c477ebcf6058153b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(quantumarticle.cls) tex(quantumview.cls) texlive-quantumarticle"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsfonts.sty) tex(amsmath.sty) tex(amssymb.sty) tex(bbm.sty) tex(caption.sty) tex(dsfont.sty) tex(etoolbox.sty) tex(fancyhdr.sty) tex(geometry.sty) tex(graphicx.sty) tex(hyperref.sty) tex(lmodern.sty) tex(ltxcmds.sty) tex(ltxgrid.sty) tex(natbib.sty) tex(soul.sty) tex(tikz.sty) tex(verbatim.sty) tex(xcolor.sty) tex(xkeyval.sty) tex(xstring.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(quantumarticle.cls) \
+tex(quantumview.cls) \
+texlive-quantumarticle"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsfonts.sty) \
+tex(amsmath.sty) \
+tex(amssymb.sty) \
+tex(bbm.sty) \
+tex(caption.sty) \
+tex(dsfont.sty) \
+tex(etoolbox.sty) \
+tex(fancyhdr.sty) \
+tex(geometry.sty) \
+tex(graphicx.sty) \
+tex(hyperref.sty) \
+tex(lmodern.sty) \
+tex(ltxcmds.sty) \
+tex(ltxgrid.sty) \
+tex(natbib.sty) \
+tex(soul.sty) \
+tex(tikz.sty) \
+tex(verbatim.sty) \
+tex(xcolor.sty) \
+tex(xkeyval.sty) \
+tex(xstring.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

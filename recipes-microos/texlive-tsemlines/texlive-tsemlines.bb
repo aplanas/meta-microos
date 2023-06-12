@@ -12,7 +12,19 @@ RPM_NAME = "texlive-tsemlines-2023.201.1.0svn23440-52.1.noarch.rpm"
 RPM_HASH = "72778460da699ac9679e377077f50dbccd7a8b2451750f56572941a06acd8a356b68ad83be0029c3f06038a1348151005b9dd2abbe7816350b123ad1c414604b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tsemlines.sty) texlive-tsemlines"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(tsemlines.sty) \
+texlive-tsemlines"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

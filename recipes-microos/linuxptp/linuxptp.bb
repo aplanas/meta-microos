@@ -8,7 +8,20 @@ PV = "3.1.1"
 RPM_NAME = "linuxptp-3.1.1-2.8.aarch64.rpm"
 RPM_HASH = "903482167312a724f2ed630d94aa77b56ec8c40def291335ff73394134e022150e070c9ad2ed6524c5aee07368c9d0aed1e32f5ae1b88a944f0fd148d9a6dbff"
 
-RPROVIDES:${PN} += "config(linuxptp) linuxptp linuxptp(aarch-64) ptp-timekeeping"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch fillup ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) systemd"
+RPROVIDES:${PN} += "config(linuxptp) \
+linuxptp \
+linuxptp(aarch-64) \
+ptp-timekeeping"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+fillup \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+systemd"
 
 inherit rpm

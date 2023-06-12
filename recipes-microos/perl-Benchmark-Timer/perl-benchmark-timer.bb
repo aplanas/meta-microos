@@ -27,7 +27,9 @@ RPM_NAME = "perl-Benchmark-Timer-0.7112-1.16.noarch.rpm"
 RPM_HASH = "33ed1d4df806227ae70b75047db3cbeb883499463316ed2774ceb96fa5cb3ccd9065b4214b80672edc041afe593da8c4d3adbeed8fcfa0921e23a75713dc409f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Benchmark::Timer) perl-Benchmark-Timer"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Benchmark::Timer) \
+perl-Benchmark-Timer"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

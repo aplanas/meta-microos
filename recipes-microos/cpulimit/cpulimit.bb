@@ -15,7 +15,10 @@ PV = "3.0"
 RPM_NAME = "cpulimit-3.0-1.1.aarch64.rpm"
 RPM_HASH = "0747f5f8c876ab00f909a966726e0c3c594be5ba55fd02cf790b5a0c6c39fe31e8f34e516d91915f6b2ea76c10d913bf4be3cd1bcc39e23e0735dd597dd4b814"
 
-RPROVIDES:${PN} += "cpulimit cpulimit(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "cpulimit \
+cpulimit(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

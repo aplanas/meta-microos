@@ -18,7 +18,9 @@ RPM_NAME = "perl-Text-Template-1.61-1.6.noarch.rpm"
 RPM_HASH = "f001dbda73f6973babf2738982240524228e88537230ff3aeaf0a10e06a7b61fd5d1b883530acc8464c386f94b7040963f651110dc49ba032c88e6606a2a4c29"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::Template) perl(Text::Template::Preprocess) perl-Text-Template"
+RPROVIDES:${PN} += "perl(Text::Template) \
+perl(Text::Template::Preprocess) \
+perl-Text-Template"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

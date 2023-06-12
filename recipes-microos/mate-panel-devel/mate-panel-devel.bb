@@ -9,7 +9,14 @@ PV = "1.26.3"
 RPM_NAME = "mate-panel-devel-1.26.3-1.1.aarch64.rpm"
 RPM_HASH = "b99b0bfd2e6c5d34cfeff571e0fab80a7fe1dd07576349ddaab3c7215cb802bc4cc3d0bb0206cc0126412467e5c354a530ae9985970acddcea6fbd2769ee21af"
 
-RPROVIDES:${PN} += "mate-panel-devel mate-panel-devel(aarch-64) pkgconfig(libmatepanelapplet-4.0)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libmate-panel-applet-4-1 pkgconfig(gio-2.0) pkgconfig(glib-2.0) pkgconfig(gtk+-3.0) typelib-1_0-MatePanelApplet-4_0"
+RPROVIDES:${PN} += "mate-panel-devel \
+mate-panel-devel(aarch-64) \
+pkgconfig(libmatepanelapplet-4.0)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libmate-panel-applet-4-1 \
+pkgconfig(gio-2.0) \
+pkgconfig(glib-2.0) \
+pkgconfig(gtk+-3.0) \
+typelib-1_0-MatePanelApplet-4_0"
 
 inherit rpm

@@ -16,7 +16,8 @@ RPM_NAME = "perl-Scope-Guard-0.21-1.26.noarch.rpm"
 RPM_HASH = "4916d59db083702693495afb1624e320fcd683e2ac9dccc0febd8532e80be24dc0452fdd5b748bcba61ecbe1d76a292fc2b935827ca07fd7207e8cb9144fa3d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Scope::Guard) perl-Scope-Guard"
+RPROVIDES:${PN} += "perl(Scope::Guard) \
+perl-Scope-Guard"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

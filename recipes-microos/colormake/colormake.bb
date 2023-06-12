@@ -11,6 +11,8 @@ RPM_HASH = "47c466a2997409a1cac2cbeb9b5acb8d5599221ab09a5c19fbf3785436614c1e30fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colormake"
-RDEPENDS:${PN} += "/bin/bash /usr/bin/perl perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "/bin/bash \
+/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

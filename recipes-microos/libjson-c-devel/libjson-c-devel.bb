@@ -13,7 +13,13 @@ PV = "0.16"
 RPM_NAME = "libjson-c-devel-0.16-1.6.aarch64.rpm"
 RPM_HASH = "0e8c759bdc7a75318601642202039ebcc5d4338dcbcc3ba149a627847a9daca3f5e21f04f504ea6bb77082e1e3110700b87912add85ce1c23d067a0f8a7e5b33"
 
-RPROVIDES:${PN} += "cmake(json-c) libjson-c-devel libjson-c-devel(aarch-64) libjson-devel pkgconfig(json) pkgconfig(json-c)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libjson-c5"
+RPROVIDES:${PN} += "cmake(json-c) \
+libjson-c-devel \
+libjson-c-devel(aarch-64) \
+libjson-devel \
+pkgconfig(json) \
+pkgconfig(json-c)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libjson-c5"
 
 inherit rpm

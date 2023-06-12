@@ -13,7 +13,8 @@ PV = "1.48.04"
 RPM_NAME = "espeak-devel-1.48.04-6.26.aarch64.rpm"
 RPM_HASH = "f7e848f28294d7e0b4809911479b592937041e2988d12929158c07e354288f5724f6ddf949e8b76ac9b93bafae6d00345e9ef6d13325382804106e1e6dab4dbc"
 
-RPROVIDES:${PN} += "espeak-devel espeak-devel(aarch-64)"
+RPROVIDES:${PN} += "espeak-devel \
+espeak-devel(aarch-64)"
 RDEPENDS:${PN} += "espeak"
 
 inherit rpm

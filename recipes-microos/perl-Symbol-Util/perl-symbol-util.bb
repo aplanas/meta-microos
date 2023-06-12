@@ -34,7 +34,8 @@ RPM_NAME = "perl-Symbol-Util-0.0203-5.24.noarch.rpm"
 RPM_HASH = "05ba82ccf72bf368feeab6fa630a831995de24683891fccca42175cf1f8fa1abad6716b4d99913db807fa2dc74100d182838e4bf15b1ce3594440aa8fb0ab729"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Symbol::Util) perl-Symbol-Util"
+RPROVIDES:${PN} += "perl(Symbol::Util) \
+perl-Symbol-Util"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

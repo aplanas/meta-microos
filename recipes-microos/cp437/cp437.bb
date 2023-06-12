@@ -14,7 +14,10 @@ PV = "0.6"
 RPM_NAME = "cp437-0.6-1.12.aarch64.rpm"
 RPM_HASH = "5a59c6451a0787301b1022cda72bc6f572e1001f66c78f73d56d9aa1e39deebe4b7f4d9ef5c2e924eb1b10adf7c9e938177cb4a8950f66ec4bacfe60cd0d6c1b"
 
-RPROVIDES:${PN} += "cp437 cp437(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "cp437 \
+cp437(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

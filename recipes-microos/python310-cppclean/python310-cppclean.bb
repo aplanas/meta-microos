@@ -12,7 +12,13 @@ RPM_NAME = "python310-cppclean-0.13-2.18.noarch.rpm"
 RPM_HASH = "bb8d2550398779ef5e0e3385175591f359742d580904ab079c54811961358f7df679b7e9d6b8b814bc69eee92700172482255b7e82168b2548d12468ffa7523f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cppclean python3.10dist(cppclean) python310-cppclean python3dist(cppclean)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3-cppclean \
+python3.10dist(cppclean) \
+python310-cppclean \
+python3dist(cppclean)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

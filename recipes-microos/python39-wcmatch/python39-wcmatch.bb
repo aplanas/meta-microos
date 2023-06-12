@@ -23,7 +23,10 @@ RPM_NAME = "python39-wcmatch-8.4.1-2.1.noarch.rpm"
 RPM_HASH = "0514dd0ce5760cf951b6033050e2086a9f923fe224217150fa481f38378e292fafba0ce65cfa83d9e7fc35c9db241c80c25f041382cacb71ee68834102821790"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(wcmatch) python39-wcmatch python3dist(wcmatch)"
-RDEPENDS:${PN} += "python(abi) python3.9dist(bracex)"
+RPROVIDES:${PN} += "python3.9dist(wcmatch) \
+python39-wcmatch \
+python3dist(wcmatch)"
+RDEPENDS:${PN} += "python(abi) \
+python3.9dist(bracex)"
 
 inherit rpm

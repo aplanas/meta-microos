@@ -13,7 +13,21 @@ PV = "2.40.2"
 RPM_NAME = "webkit2gtk4-devel-2.40.2-1.1.aarch64.rpm"
 RPM_HASH = "f332b3e698c3fd8aeba137ba76be4a08588adf3351ff514a0d44d691323d4f03a23235b876d054d98ff9562926458eb9da8e92c734ca51e3224efffc98300be1"
 
-RPROVIDES:${PN} += "pkgconfig(javascriptcoregtk-6.0) pkgconfig(webkitgtk-6.0) pkgconfig(webkitgtk-web-process-extension-6.0) webkit2gtk4-devel webkit2gtk4-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libjavascriptcoregtk6_0-1 libwebkitgtk6_0-4 pkgconfig(glib-2.0) pkgconfig(gobject-2.0) pkgconfig(gtk4) pkgconfig(javascriptcoregtk-6.0) pkgconfig(libsoup-3.0) typelib-1_0-JavaScriptCore-6_0 typelib-1_0-WebKit-6_0 typelib-1_0-WebKitWebProcessExtension-6_0"
+RPROVIDES:${PN} += "pkgconfig(javascriptcoregtk-6.0) \
+pkgconfig(webkitgtk-6.0) \
+pkgconfig(webkitgtk-web-process-extension-6.0) \
+webkit2gtk4-devel \
+webkit2gtk4-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libjavascriptcoregtk6_0-1 \
+libwebkitgtk6_0-4 \
+pkgconfig(glib-2.0) \
+pkgconfig(gobject-2.0) \
+pkgconfig(gtk4) \
+pkgconfig(javascriptcoregtk-6.0) \
+pkgconfig(libsoup-3.0) \
+typelib-1_0-JavaScriptCore-6_0 \
+typelib-1_0-WebKit-6_0 \
+typelib-1_0-WebKitWebProcessExtension-6_0"
 
 inherit rpm

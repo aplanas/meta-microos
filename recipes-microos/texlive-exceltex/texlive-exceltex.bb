@@ -18,7 +18,27 @@ RPM_NAME = "texlive-exceltex-2023.201.0.0.5.1svn26313-52.1.noarch.rpm"
 RPM_HASH = "4176dce51a390edef70247df7c978b11ef4fa41467284e244f729debf912bd9807f4ad652c540a23cdd4756b9c0ad841be74607b31bfedddea4b44419f556c59"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(exceltex.sty) texlive-exceltex"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Encode) perl(Getopt::Long) perl(Spreadsheet::ParseExcel) perl(strict) sed tex(color.sty) tex(ulem.sty) texlive texlive-exceltex-bin texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(exceltex.sty) \
+texlive-exceltex"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Encode) \
+perl(Getopt::Long) \
+perl(Spreadsheet::ParseExcel) \
+perl(strict) \
+sed \
+tex(color.sty) \
+tex(ulem.sty) \
+texlive \
+texlive-exceltex-bin \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

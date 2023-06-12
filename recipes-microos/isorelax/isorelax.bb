@@ -10,7 +10,13 @@ RPM_NAME = "isorelax-0.1-30.6.noarch.rpm"
 RPM_HASH = "1b83042880ab15339a1679cbcca8981f40fdb561328efe0b52d4aa9303604cb5e0b66a570205a2e85b536c1c643c4ab3dba2a50d74c8f72983ab56d8d554df58"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "isorelax isorelax-bootstrap mvn(isorelax:isorelax) mvn(isorelax:isorelax:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem xerces-j2 xml-apis"
+RPROVIDES:${PN} += "isorelax \
+isorelax-bootstrap \
+mvn(isorelax:isorelax) \
+mvn(isorelax:isorelax:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+xerces-j2 \
+xml-apis"
 
 inherit rpm

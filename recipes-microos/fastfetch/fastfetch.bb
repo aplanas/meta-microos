@@ -9,7 +9,10 @@ PV = "1.11.0"
 RPM_NAME = "fastfetch-1.11.0-1.1.aarch64.rpm"
 RPM_HASH = "bda82e82204e9a9abf7be0c0a8b757d78af6c764f71df0419e582260b5915e58f0a57ec6b0225accc58090570e08e45d1a9d6950674e3c45e9170fdc32dac4b7"
 
-RPROVIDES:${PN} += "fastfetch fastfetch(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "fastfetch \
+fastfetch(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

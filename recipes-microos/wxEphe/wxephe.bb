@@ -8,7 +8,28 @@ PV = "1.8"
 RPM_NAME = "wxEphe-1.8-1.2.aarch64.rpm"
 RPM_HASH = "bae70244f2fc53229cf170b2cce671ca4ca8c594997bf2aae5975029a94dd7b1243c068db01416557cf9005814324c7ae037dbce14eb54905abb44877bf6b6f1"
 
-RPROVIDES:${PN} += "application() application(wxEphe.desktop) wxEphe wxEphe(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libwx_baseu-suse.so.9.0.0()(64bit) libwx_baseu-suse.so.9.0.0(WXU_3.2)(64bit) libwx_baseu_xml-suse.so.9.0.0()(64bit) libwx_baseu_xml-suse.so.9.0.0(WXU_3.2)(64bit) libwx_gtk2u_core-suse.so.9.0.0()(64bit) libwx_gtk2u_core-suse.so.9.0.0(WXU_3.2)(64bit)"
+RPROVIDES:${PN} += "application() \
+application(wxEphe.desktop) \
+wxEphe \
+wxEphe(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libwx_baseu-suse.so.9.0.0()(64bit) \
+libwx_baseu-suse.so.9.0.0(WXU_3.2)(64bit) \
+libwx_baseu_xml-suse.so.9.0.0()(64bit) \
+libwx_baseu_xml-suse.so.9.0.0(WXU_3.2)(64bit) \
+libwx_gtk2u_core-suse.so.9.0.0()(64bit) \
+libwx_gtk2u_core-suse.so.9.0.0(WXU_3.2)(64bit)"
 
 inherit rpm

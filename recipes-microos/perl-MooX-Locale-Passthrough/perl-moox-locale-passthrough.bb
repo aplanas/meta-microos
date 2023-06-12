@@ -13,7 +13,9 @@ RPM_NAME = "perl-MooX-Locale-Passthrough-0.001-1.12.noarch.rpm"
 RPM_HASH = "c30b0031811ef10f2feb7c59e8f09e1e0f3cc9e52b8ffaa1d44267abc64ffffb488f73e2e505fcb677f6554d1f7b9a733c8f359871bf2097a02011122e82d0e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooX::Locale::Passthrough) perl-MooX-Locale-Passthrough"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Moo)"
+RPROVIDES:${PN} += "perl(MooX::Locale::Passthrough) \
+perl-MooX-Locale-Passthrough"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Moo)"
 
 inherit rpm

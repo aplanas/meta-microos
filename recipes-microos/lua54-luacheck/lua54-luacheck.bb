@@ -16,7 +16,14 @@ RPM_NAME = "lua54-luacheck-1.1.0-1.1.noarch.rpm"
 RPM_HASH = "dd7c7b070645c280b02bc172ed6b077255d9416975f7915c129c75e54e3e8c4665a87cdbfd4604c8b377ece1d506d94e3584ff84c704ccdf1d74c8cd19148ebe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "lua-luacheck lua54-luacheck luacheck"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/lua5.4 lua54 lua54-argparse lua54-luafilesystem update-alternatives"
+RPROVIDES:${PN} += "lua-luacheck \
+lua54-luacheck \
+luacheck"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/lua5.4 \
+lua54 \
+lua54-argparse \
+lua54-luafilesystem \
+update-alternatives"
 
 inherit rpm

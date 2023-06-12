@@ -9,6 +9,8 @@ RPM_HASH = "e09e1b26ee630d8e304c79af78d6d5b6d134ebe727bd3e2a188b4aa80c41af69115b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-vendor-lessphp"
-RDEPENDS:${PN} += "/usr/bin/php icingaweb2-common php"
+RDEPENDS:${PN} += "/usr/bin/php \
+icingaweb2-common \
+php"
 
 inherit rpm

@@ -8,7 +8,11 @@ RPM_NAME = "gdouros-alfios-fonts-1.01-3.19.noarch.rpm"
 RPM_HASH = "c63eca4a45aadc04cd2f78495872e1d3c28af3b327cfa44544c79c9cfbfc4011ac416ef9241ca781cbdefc143c10691e5c8e0165a09eb72b7e399f14950a7336"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "alfios-fonts gdouros-alfios-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "alfios-fonts \
+gdouros-alfios-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

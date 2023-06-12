@@ -10,7 +10,8 @@ PV = "2.1.0"
 RPM_NAME = "python39-Kivy-devel-2.1.0-3.6.aarch64.rpm"
 RPM_HASH = "792469dbb9114b33c03fa3c1f8d29114a4071eaba4c811021c4e6059c70f2f1a85d7a3e2f8cd6846d6c269fb556ffe2962ec7dee26bfdd2bbcbf7ee07e572d4f"
 
-RPROVIDES:${PN} += "python39-Kivy-devel python39-Kivy-devel(aarch-64)"
+RPROVIDES:${PN} += "python39-Kivy-devel \
+python39-Kivy-devel(aarch-64)"
 RDEPENDS:${PN} += "python39-Kivy"
 
 inherit rpm

@@ -12,7 +12,13 @@ PV = "2.5"
 RPM_NAME = "xcb-2.5-203.9.aarch64.rpm"
 RPM_HASH = "23fc39874c4e1d51e3c7744dd4215c34d6a72f97ba16af75dccb10d9f7cc179dd9568c3557b112c3dd30749e5b24d27810c9e0b65889bfaf044d1673b84caf76"
 
-RPROVIDES:${PN} += "xcb xcb(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libXaw.so.7()(64bit) libXt.so.6()(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "xcb \
+xcb(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libX11.so.6()(64bit) \
+libXaw.so.7()(64bit) \
+libXt.so.6()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

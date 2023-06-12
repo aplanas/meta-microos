@@ -16,7 +16,11 @@ RPM_NAME = "javaewah-1.1.6-2.10.noarch.rpm"
 RPM_HASH = "077a8bdb62adbffd2982557266ad01b212db81b57fc8d472b2fdb6c602df98e386a8e9ab02ea166a9b0d98ae8060d311dece89acb8f46e8641763b754fbd1a3a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "javaewah mvn(com.googlecode.javaewah:JavaEWAH) mvn(com.googlecode.javaewah:JavaEWAH:pom:) osgi(com.googlecode.javaewah.JavaEWAH)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "javaewah \
+mvn(com.googlecode.javaewah:JavaEWAH) \
+mvn(com.googlecode.javaewah:JavaEWAH:pom:) \
+osgi(com.googlecode.javaewah.JavaEWAH)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

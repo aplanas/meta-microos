@@ -11,7 +11,13 @@ PV = "2.1.5"
 RPM_NAME = "SDL2_Pango-devel-2.1.5-1.3.aarch64.rpm"
 RPM_HASH = "f2a239a51c978dee291646307365f11f21468229ebceb7cd82ba8840320da34697be416787d17da812237cc405e9c4ab96e7a2c62a67a1975a96c0aa202d1710"
 
-RPROVIDES:${PN} += "SDL2_Pango-devel SDL2_Pango-devel(aarch-64) pkgconfig(SDL2_Pango)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libSDL2_Pango4 pkgconfig(freetype2) pkgconfig(pango) pkgconfig(sdl2)"
+RPROVIDES:${PN} += "SDL2_Pango-devel \
+SDL2_Pango-devel(aarch-64) \
+pkgconfig(SDL2_Pango)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libSDL2_Pango4 \
+pkgconfig(freetype2) \
+pkgconfig(pango) \
+pkgconfig(sdl2)"
 
 inherit rpm

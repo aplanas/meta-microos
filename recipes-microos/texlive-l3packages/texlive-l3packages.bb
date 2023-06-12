@@ -21,7 +21,31 @@ RPM_NAME = "texlive-l3packages-2023.201.svn65722-55.1.noarch.rpm"
 RPM_HASH = "951643d5ea92938f772f880e52be10ac316d5b55b1dd264e6f27dda1dc03c6b1ad40b7b231054a6413764e062e4aa37401cd862453fb3e2eeb981a9ff7c789bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(l3keys2e.sty) tex(xfp.sty) tex(xfrac.sty) tex(xparse-2018-04-12.sty) tex(xparse-2020-10-01.sty) tex(xparse-generic.tex) tex(xparse.sty) tex(xtemplate.sty) texlive-l3packages"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amstext.sty) tex(expl3.sty) tex(graphicx.sty) tex(textcomp.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-l3kernel texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(l3keys2e.sty) \
+tex(xfp.sty) \
+tex(xfrac.sty) \
+tex(xparse-2018-04-12.sty) \
+tex(xparse-2020-10-01.sty) \
+tex(xparse-generic.tex) \
+tex(xparse.sty) \
+tex(xtemplate.sty) \
+texlive-l3packages"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amstext.sty) \
+tex(expl3.sty) \
+tex(graphicx.sty) \
+tex(textcomp.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-l3kernel \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

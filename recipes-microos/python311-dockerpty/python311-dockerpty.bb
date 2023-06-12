@@ -9,7 +9,11 @@ RPM_NAME = "python311-dockerpty-0.4.1-5.3.noarch.rpm"
 RPM_HASH = "3490df946fcc97f3a583b4ee4fcd6a2fa5510b5b0f0c772d292fab7afb9ba3b577c8e2a8a6711ef60da3b02ef646f42f4dbdfa85348a047142afbe21d6265cd9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(dockerpty) python311-dockerpty python3dist(dockerpty)"
-RDEPENDS:${PN} += "python(abi) python311-docker python311-six"
+RPROVIDES:${PN} += "python3.11dist(dockerpty) \
+python311-dockerpty \
+python3dist(dockerpty)"
+RDEPENDS:${PN} += "python(abi) \
+python311-docker \
+python311-six"
 
 inherit rpm

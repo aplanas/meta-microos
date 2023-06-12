@@ -11,7 +11,16 @@ PV = "1.1.0"
 RPM_NAME = "libesmtp6_2_0-1.1.0-1.4.aarch64.rpm"
 RPM_HASH = "5c6fc330300d1ab8e55f28eb05193a337bed926b13b47c023b0c353a49b7160ebf11b4d2df9224681b20921fa052d2d0f87b6ab35a1158c34a674448e397da2c"
 
-RPROVIDES:${PN} += "libesmtp.so.6.2.0()(64bit) libesmtp6_2_0 libesmtp6_2_0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit)"
+RPROVIDES:${PN} += "libesmtp.so.6.2.0()(64bit) \
+libesmtp6_2_0 \
+libesmtp6_2_0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit)"
 
 inherit rpm

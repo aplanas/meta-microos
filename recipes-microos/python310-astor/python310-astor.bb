@@ -29,7 +29,10 @@ RPM_NAME = "python310-astor-0.8.1-9.1.noarch.rpm"
 RPM_HASH = "6d53ef58d300c2cb15054d6221c0d165574ae7fb2e16ef26b284fdb3ae25e98a8b9dc657c2c68009f194a5643dd3efce3e15827526e671da520eac2392a0061e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-astor python3.10dist(astor) python310-astor python3dist(astor)"
+RPROVIDES:${PN} += "python3-astor \
+python3.10dist(astor) \
+python310-astor \
+python3dist(astor)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

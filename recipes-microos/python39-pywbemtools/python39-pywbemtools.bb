@@ -15,7 +15,28 @@ RPM_NAME = "python39-pywbemtools-1.1.1-1.2.noarch.rpm"
 RPM_HASH = "1f22de8dd1c66a2057c00506457d4e47cb6d7ac26b7d3f0c06f032d3889334aac46e3c1cd4a698e7048bc4d68f941faf1f996c0cb37ee363ffa76f8195be192e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pywbemtools) python39-pywbemtools python3dist(pywbemtools)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-PyYAML python39-asciitree python39-click python39-click-repl python39-click-spinner python39-nocasedict python39-nocaselist python39-packaging python39-prompt_toolkit python39-psutil python39-pyparsing python39-pywbem python39-six python39-tabulate python39-toposort python39-yamlloader update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(pywbemtools) \
+python39-pywbemtools \
+python3dist(pywbemtools)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-PyYAML \
+python39-asciitree \
+python39-click \
+python39-click-repl \
+python39-click-spinner \
+python39-nocasedict \
+python39-nocaselist \
+python39-packaging \
+python39-prompt_toolkit \
+python39-psutil \
+python39-pyparsing \
+python39-pywbem \
+python39-six \
+python39-tabulate \
+python39-toposort \
+python39-yamlloader \
+update-alternatives"
 
 inherit rpm

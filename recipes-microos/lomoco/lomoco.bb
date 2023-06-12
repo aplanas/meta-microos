@@ -15,7 +15,17 @@ PV = "1.0"
 RPM_NAME = "lomoco-1.0-127.21.aarch64.rpm"
 RPM_HASH = "656725ad899451f309aaa1a9222a0e42f775d341fbc73a691f611d1c07fb840c9cfbc6719da7c49ac046cca6564879ba5ccc671c2ff680604d561d19c1e2eb2a"
 
-RPROVIDES:${PN} += "lmctl:/usr/bin/lmctl lomoco lomoco(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/mkdir /usr/bin/touch fillup ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libusb-0.1.so.4()(64bit)"
+RPROVIDES:${PN} += "lmctl:/usr/bin/lmctl \
+lomoco \
+lomoco(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+fillup \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libusb-0.1.so.4()(64bit)"
 
 inherit rpm

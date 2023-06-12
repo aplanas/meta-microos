@@ -15,7 +15,23 @@ PV = "2.6.1"
 RPM_NAME = "libgensiocpp4-2.6.1-1.4.aarch64.rpm"
 RPM_HASH = "cc29f8b46fe7bec6f279d9aff1f1699dc5b7eec0997ea723e3ea24b6cecf8447578513694143b3e4792a4ef40a5fc78c4849621d6547241fe763771e14720e23"
 
-RPROVIDES:${PN} += "libgensiocpp.so.4()(64bit) libgensiocpp4 libgensiocpp4(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libgensio.so.4()(64bit) libgensioosh.so.0()(64bit) libgensiooshcpp.so.0()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
+RPROVIDES:${PN} += "libgensiocpp.so.4()(64bit) \
+libgensiocpp4 \
+libgensiocpp4(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libgensio.so.4()(64bit) \
+libgensioosh.so.0()(64bit) \
+libgensiooshcpp.so.0()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
 
 inherit rpm

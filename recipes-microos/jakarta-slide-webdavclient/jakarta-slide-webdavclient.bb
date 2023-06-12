@@ -10,6 +10,11 @@ RPM_HASH = "3024cfa0930ada080c067674de078195abf4af45bba27c12bb8c7c39ed65ac0f9ad7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-slide-webdavclient"
-RDEPENDS:${PN} += "/bin/sh geronimo-j2ee-connector-1_5-api jakarta-commons-httpclient3 jakarta-commons-transaction jdom xml-im-exporter"
+RDEPENDS:${PN} += "/bin/sh \
+geronimo-j2ee-connector-1_5-api \
+jakarta-commons-httpclient3 \
+jakarta-commons-transaction \
+jdom \
+xml-im-exporter"
 
 inherit rpm

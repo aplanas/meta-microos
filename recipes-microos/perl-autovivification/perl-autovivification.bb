@@ -17,7 +17,12 @@ PV = "0.18"
 RPM_NAME = "perl-autovivification-0.18-1.29.aarch64.rpm"
 RPM_HASH = "0aa2f81ea38ea56db9d2ee84e41fbde5dc9429945e4adfdcccd4f1c5b9e484993412ae1ee4064001e5bf4d415032058022ce1c7f600a8a6f00466e3879da98c8"
 
-RPROVIDES:${PN} += "perl(autovivification) perl-autovivification perl-autovivification(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(autovivification) \
+perl-autovivification \
+perl-autovivification(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

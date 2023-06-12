@@ -13,6 +13,9 @@ RPM_HASH = "241881cad9f90c83ce4fa73302febdc21fab073891efbf9023fb75910c7cee26603b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter_latex_envs"
-RDEPENDS:${PN} += "jupyter-jupyter_core jupyter-nbconvert jupyter-notebook python3-jupyter_latex_envs"
+RDEPENDS:${PN} += "jupyter-jupyter_core \
+jupyter-nbconvert \
+jupyter-notebook \
+python3-jupyter_latex_envs"
 
 inherit rpm

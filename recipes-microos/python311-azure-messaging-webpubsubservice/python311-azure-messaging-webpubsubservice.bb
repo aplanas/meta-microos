@@ -42,7 +42,16 @@ RPM_NAME = "python311-azure-messaging-webpubsubservice-1.0.1-1.7.noarch.rpm"
 RPM_HASH = "67b4f47e4bd78dbbb24346d9dde99ef69f15b197fc532f673c7e264b4c327155cdbaf7bba33263a2f93a0fc80bc4e60bfc8b07b7411afd7c34ab4873b0d1fa3a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-messaging-webpubsubservice) python311-azure-messaging-webpubsubservice python3dist(azure-messaging-webpubsubservice)"
-RDEPENDS:${PN} += "python(abi) python311-PyJWT python311-azure-core python311-azure-messaging-nspkg python311-azure-nspkg python311-cryptography python311-msrest python311-six"
+RPROVIDES:${PN} += "python3.11dist(azure-messaging-webpubsubservice) \
+python311-azure-messaging-webpubsubservice \
+python3dist(azure-messaging-webpubsubservice)"
+RDEPENDS:${PN} += "python(abi) \
+python311-PyJWT \
+python311-azure-core \
+python311-azure-messaging-nspkg \
+python311-azure-nspkg \
+python311-cryptography \
+python311-msrest \
+python311-six"
 
 inherit rpm

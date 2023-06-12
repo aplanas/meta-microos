@@ -29,7 +29,8 @@ RPM_NAME = "perl-Test-Manifest-2.023-1.7.noarch.rpm"
 RPM_HASH = "1c668e247ded55a7bd703579118b60b04dfcf2cea9270c5f2a1f1b58be26f043ee0d6c6727c5087c8a5757180679a1e1e237da3e8185b3538acf06bdc1373507"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Manifest) perl-Test-Manifest"
+RPROVIDES:${PN} += "perl(Test::Manifest) \
+perl-Test-Manifest"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

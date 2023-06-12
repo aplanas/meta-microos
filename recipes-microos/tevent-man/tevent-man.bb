@@ -14,7 +14,8 @@ PV = "0.14.1"
 RPM_NAME = "tevent-man-0.14.1-2.1.aarch64.rpm"
 RPM_HASH = "bbb5caefd55e0007f470cc09ab59ce61f0c3e0e05253b566c2b72f1e0fdb3afa51012b3856abfebffb2fc8aca4e041725794111541269da721b0a469468d56c3"
 
-RPROVIDES:${PN} += "tevent-man tevent-man(aarch-64)"
+RPROVIDES:${PN} += "tevent-man \
+tevent-man(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

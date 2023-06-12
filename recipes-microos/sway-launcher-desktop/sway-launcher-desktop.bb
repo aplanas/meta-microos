@@ -9,6 +9,7 @@ RPM_HASH = "b90ecc24216cd6f9d8910e2a6efbe2ee00397d96f0943c894db5ac0f7b0052f50266
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sway-launcher-desktop"
-RDEPENDS:${PN} += "/usr/bin/bash fzf"
+RDEPENDS:${PN} += "/usr/bin/bash \
+fzf"
 
 inherit rpm

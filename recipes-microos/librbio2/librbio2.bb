@@ -12,7 +12,14 @@ PV = "2.2.6"
 RPM_NAME = "librbio2-2.2.6-49.1.aarch64.rpm"
 RPM_HASH = "b6a352f88ec121899efc0cf1173bf6ed496cc7e246ce8df09b075c859169ce3f77534e7db1e7aaecf3d0f3116bb9cc906ac0c7c08eaf0eb737e903ad0d9326d6"
 
-RPROVIDES:${PN} += "librbio-2_2_6 librbio.so.2()(64bit) librbio2 librbio2(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libsuitesparseconfig.so.5()(64bit)"
+RPROVIDES:${PN} += "librbio-2_2_6 \
+librbio.so.2()(64bit) \
+librbio2 \
+librbio2(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libsuitesparseconfig.so.5()(64bit)"
 
 inherit rpm

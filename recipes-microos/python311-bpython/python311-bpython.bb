@@ -13,7 +13,22 @@ RPM_NAME = "python311-bpython-0.24-2.1.noarch.rpm"
 RPM_HASH = "57393c9c89b52579554c2b274eaadf54d121a5df1672b16562db3e89e1721c82898a78746ecf2de825c2d7dd0bb751c9ad74855a9e99759b3394403962c689d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(org.bpython-interpreter.bpython-3.11.desktop) metainfo() metainfo(org.bpython-interpreter.bpython-3.11.metainfo.xml) python3.11dist(bpython) python311-bpython python3dist(bpython)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-bpython-common python311-curtsies python311-greenlet python311-pygments python311-pyxdg python311-requests update-alternatives"
+RPROVIDES:${PN} += "application() \
+application(org.bpython-interpreter.bpython-3.11.desktop) \
+metainfo() \
+metainfo(org.bpython-interpreter.bpython-3.11.metainfo.xml) \
+python3.11dist(bpython) \
+python311-bpython \
+python3dist(bpython)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-bpython-common \
+python311-curtsies \
+python311-greenlet \
+python311-pygments \
+python311-pyxdg \
+python311-requests \
+update-alternatives"
 
 inherit rpm

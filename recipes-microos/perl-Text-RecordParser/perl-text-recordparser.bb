@@ -16,7 +16,16 @@ RPM_NAME = "perl-Text-RecordParser-1.6.5-3.7.noarch.rpm"
 RPM_HASH = "f34ee59c75c9cef98092b6f7496387b53ea7e49ba7163d69c27ff136287114329aff136fe4aee084d577fe32c8ea23ce02f7a879d1c20560568bfec2f2581630"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::RecordParser) perl(Text::RecordParser::Object) perl(Text::RecordParser::Tab) perl-Text-RecordParser"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Class::Accessor) perl(IO::Scalar) perl(List::MoreUtils) perl(Readonly) perl(Text::Autoformat)"
+RPROVIDES:${PN} += "perl(Text::RecordParser) \
+perl(Text::RecordParser::Object) \
+perl(Text::RecordParser::Tab) \
+perl-Text-RecordParser"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Accessor) \
+perl(IO::Scalar) \
+perl(List::MoreUtils) \
+perl(Readonly) \
+perl(Text::Autoformat)"
 
 inherit rpm

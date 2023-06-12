@@ -15,7 +15,23 @@ PV = "40.0.2"
 RPM_NAME = "python39-cryptography-40.0.2-2.1.aarch64.rpm"
 RPM_HASH = "d1a01d035478e0a4c5ea99084914e7e38998b0314f668018f2aa0b192e2c0e15beab801f2cbfb4b95a7fe4eb064c5ae92c3da44f8dde6d659187ca9afb0939dc"
 
-RPROVIDES:${PN} += "python3.9dist(cryptography) python39-cryptography python39-cryptography(aarch-64) python3dist(cryptography)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3)(64bit) libgcc_s.so.1(GCC_4.2.0)(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) python(abi) python39 python39-cffi"
+RPROVIDES:${PN} += "python3.9dist(cryptography) \
+python39-cryptography \
+python39-cryptography(aarch-64) \
+python3dist(cryptography)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3)(64bit) \
+libgcc_s.so.1(GCC_4.2.0)(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+python(abi) \
+python39 \
+python39-cffi"
 
 inherit rpm

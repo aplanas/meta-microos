@@ -22,7 +22,18 @@ PV = "4.0.2"
 RPM_NAME = "pidgin-plugin-otr-4.0.2-3.25.aarch64.rpm"
 RPM_HASH = "3130934e760f90cf787bf3891e87b2f321f9ad24802c653b96778518e5d572bef7a5eb1ac486ba8cb34027a5e552fe81d83a7aeaaa526ec61d22b7d299f6742c"
 
-RPROVIDES:${PN} += "metainfo() metainfo(pidgin-otr.metainfo.xml) pidgin-otr pidgin-plugin-otr pidgin-plugin-otr(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcrypt.so.20()(64bit) libgcrypt.so.20(GCRYPT_1.6)(64bit) libotr.so.5()(64bit) pidgin"
+RPROVIDES:${PN} += "metainfo() \
+metainfo(pidgin-otr.metainfo.xml) \
+pidgin-otr \
+pidgin-plugin-otr \
+pidgin-plugin-otr(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcrypt.so.20()(64bit) \
+libgcrypt.so.20(GCRYPT_1.6)(64bit) \
+libotr.so.5()(64bit) \
+pidgin"
 
 inherit rpm

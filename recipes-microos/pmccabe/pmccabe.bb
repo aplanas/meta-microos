@@ -30,7 +30,9 @@ PV = "2.8"
 RPM_NAME = "pmccabe-2.8-1.7.aarch64.rpm"
 RPM_HASH = "2d9f34e0e33367510f66626441c904725ae382ed38379227182a9cb376f65cfbe81e9f9a33f3896ee7bd984e908175c04597389595aaa4278d5c9499ad4b27fd"
 
-RPROVIDES:${PN} += "pmccabe pmccabe(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "pmccabe \
+pmccabe(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

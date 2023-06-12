@@ -16,6 +16,10 @@ RPM_HASH = "449090224ced235d92d27f20c807673ad3409337dea5de90f63495bc5658ce6b6a58
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sqlmap"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/bash /usr/bin/python3 python3"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/bash \
+/usr/bin/python3 \
+python3"
 
 inherit rpm

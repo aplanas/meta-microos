@@ -10,7 +10,9 @@ PV = "0.21"
 RPM_NAME = "pcapdump-0.21-1.3.aarch64.rpm"
 RPM_HASH = "afa5ddf8fb8ce02101f513f767e40f611c47c647d8338e94dca4e5810362d720ed28e30ff9d6edfd0ef3cdc958eb17c03cb77e69f05e7aa46ab9dd2a434fd045"
 
-RPROVIDES:${PN} += "pcapdump pcapdump(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl perl-Net-Pcap"
+RPROVIDES:${PN} += "pcapdump \
+pcapdump(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl-Net-Pcap"
 
 inherit rpm

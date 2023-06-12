@@ -11,7 +11,16 @@ PV = "3.89"
 RPM_NAME = "mozilla-nss-devel-3.89-2.1.aarch64.rpm"
 RPM_HASH = "f1ecf107b086d2f9b9e5033c43f802e2359ed8afa47aff4806deec976b4b0281079a99811cda9bb670265af383b0af0a69e840b262f2a15c26d281c59490fa3e"
 
-RPROVIDES:${PN} += "mozilla-nss-devel mozilla-nss-devel(aarch-64) pkgconfig(nss) pkgconfig(nss-util)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config libfreebl3 libsoftokn3 mozilla-nss pkgconfig(nspr) pkgconfig(nss-util)"
+RPROVIDES:${PN} += "mozilla-nss-devel \
+mozilla-nss-devel(aarch-64) \
+pkgconfig(nss) \
+pkgconfig(nss-util)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/pkg-config \
+libfreebl3 \
+libsoftokn3 \
+mozilla-nss \
+pkgconfig(nspr) \
+pkgconfig(nss-util)"
 
 inherit rpm

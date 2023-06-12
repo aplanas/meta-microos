@@ -12,6 +12,17 @@ RPM_HASH = "29280c0fa6abe5d50317764ca0f9708025164a05e62809aa6a14e882d714c1bf2d9d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lualatex-doc"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

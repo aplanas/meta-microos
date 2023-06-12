@@ -22,7 +22,20 @@ RPM_NAME = "perl-Minion-10.25-1.4.noarch.rpm"
 RPM_HASH = "21bd974d89cf7d723802b39fc01062989d5ed2e8c3844a0ada77e241ada0c073a9d0a76f5a45ca34ca9f245801fafa527f46932da64eebb4bfe46ad1487eb287"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Minion) perl(Minion::Backend) perl(Minion::Backend::Pg) perl(Minion::Command::minion) perl(Minion::Command::minion::job) perl(Minion::Command::minion::worker) perl(Minion::Iterator) perl(Minion::Job) perl(Minion::Worker) perl(Mojolicious::Plugin::Minion) perl(Mojolicious::Plugin::Minion::Admin) perl-Minion"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Mojolicious) perl(YAML::XS)"
+RPROVIDES:${PN} += "perl(Minion) \
+perl(Minion::Backend) \
+perl(Minion::Backend::Pg) \
+perl(Minion::Command::minion) \
+perl(Minion::Command::minion::job) \
+perl(Minion::Command::minion::worker) \
+perl(Minion::Iterator) \
+perl(Minion::Job) \
+perl(Minion::Worker) \
+perl(Mojolicious::Plugin::Minion) \
+perl(Mojolicious::Plugin::Minion::Admin) \
+perl-Minion"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Mojolicious) \
+perl(YAML::XS)"
 
 inherit rpm

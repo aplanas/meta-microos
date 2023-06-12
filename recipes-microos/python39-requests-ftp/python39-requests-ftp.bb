@@ -15,7 +15,10 @@ RPM_NAME = "python39-requests-ftp-0.3.1-3.15.noarch.rpm"
 RPM_HASH = "698ae617be3364b21ac53731efa8b9fd3010533ce9b229a79a8fe895305505b08502cdc8a07e525536e34b2f7ef4b7ecbede8787ce4911ad34ffa1f50c6cd6a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(requests-ftp) python39-requests-ftp python3dist(requests-ftp)"
-RDEPENDS:${PN} += "python(abi) python39-requests"
+RPROVIDES:${PN} += "python3.9dist(requests-ftp) \
+python39-requests-ftp \
+python3dist(requests-ftp)"
+RDEPENDS:${PN} += "python(abi) \
+python39-requests"
 
 inherit rpm

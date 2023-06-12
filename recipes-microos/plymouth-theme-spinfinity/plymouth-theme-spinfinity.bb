@@ -11,6 +11,8 @@ RPM_HASH = "bba251a0dcc5aa0b57176a4804947106c1e6da54e2e8de40c35d924a217ae525bf72
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-spinfinity"
-RDEPENDS:${PN} += "/bin/sh plymouth plymouth-scripts"
+RDEPENDS:${PN} += "/bin/sh \
+plymouth \
+plymouth-scripts"
 
 inherit rpm

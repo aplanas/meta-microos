@@ -10,7 +10,10 @@ RPM_NAME = "python311-rply-0.7.8-2.3.noarch.rpm"
 RPM_HASH = "90938a5cd5a3924a21479eb9eda83c729d8a6fa88ae4f5fe9a9982c47bf82ea7e84fb4206ac60ac8bf619135ef3a8fee124494dbb8b3fe4ab0b937f039b7800c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(rply) python311-rply python3dist(rply)"
-RDEPENDS:${PN} += "python(abi) python311-appdirs"
+RPROVIDES:${PN} += "python3.11dist(rply) \
+python311-rply \
+python3dist(rply)"
+RDEPENDS:${PN} += "python(abi) \
+python311-appdirs"
 
 inherit rpm

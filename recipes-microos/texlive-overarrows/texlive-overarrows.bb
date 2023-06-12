@@ -12,7 +12,26 @@ RPM_NAME = "texlive-overarrows-2023.201.1.1svn65853-54.1.noarch.rpm"
 RPM_HASH = "bd0156cd910b2c4ba886257f1941cb7d982e7dac0ac08ec8c449ae1e186edfd61b8085c6f5d7a80a73ee3b0d5b84fee462320333b331a43d6c9ea3ad9f88fe59"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(overarrows.sty) texlive-overarrows"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsmath.sty) tex(esvect.sty) tex(etoolbox.sty) tex(old-arrows.sty) tex(pgfkeys.sty) tex(pict2e.sty) tex(tikz.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(overarrows.sty) \
+texlive-overarrows"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsmath.sty) \
+tex(esvect.sty) \
+tex(etoolbox.sty) \
+tex(old-arrows.sty) \
+tex(pgfkeys.sty) \
+tex(pict2e.sty) \
+tex(tikz.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

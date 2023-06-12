@@ -11,6 +11,9 @@ RPM_HASH = "6afaddb359cfdd55d314332dde1feeab8f4e06a970131b3d0ce8cd8b6dac240c1709
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-digestif"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/lua5.3 lua53 update-alternatives"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/lua5.3 \
+lua53 \
+update-alternatives"
 
 inherit rpm

@@ -15,7 +15,11 @@ PV = "2.0.2"
 RPM_NAME = "libusbmuxd-devel-2.0.2-1.9.aarch64.rpm"
 RPM_HASH = "7c82359aab1927892ebfb5280e3f376cb12fc2e07da6f1cf9fba0038ac1a340e0b38cf1d572ae5e28a81faadce77a65a6c5ed7aed1c9b75d7fd2548e12fdf508"
 
-RPROVIDES:${PN} += "libusbmuxd-devel libusbmuxd-devel(aarch-64) pkgconfig(libusbmuxd-2.0)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libusbmuxd-2_0-6 pkgconfig(libplist-2.0)"
+RPROVIDES:${PN} += "libusbmuxd-devel \
+libusbmuxd-devel(aarch-64) \
+pkgconfig(libusbmuxd-2.0)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libusbmuxd-2_0-6 \
+pkgconfig(libplist-2.0)"
 
 inherit rpm

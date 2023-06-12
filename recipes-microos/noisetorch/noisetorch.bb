@@ -11,7 +11,10 @@ PV = "0.12.2"
 RPM_NAME = "noisetorch-0.12.2-2.5.aarch64.rpm"
 RPM_HASH = "dd2d36425565f43ed9fdb4cb12c509e74c74d5acb02e73d94046259c51e8b88cf497e46ab8dee0ca6833f9a0c15be5bd8ad7d6bcdf518fe2db39cdc75b0dd633"
 
-RPROVIDES:${PN} += "application() application(noisetorch.desktop) noisetorch noisetorch(aarch-64)"
+RPROVIDES:${PN} += "application() \
+application(noisetorch.desktop) \
+noisetorch \
+noisetorch(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,7 +16,11 @@ RPM_NAME = "python39-python-yubico-1.3.3-2.8.noarch.rpm"
 RPM_HASH = "724b2af6a6b19306d6cfcbb8f793d8b09b6348bcbea5110a7ee03b0aa4be981d4ffd3a2dd2ba35f56920a11fb3bb647a5a35a625247dd078b3d21ac3a14656ad"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(python-yubico) python39-python-yubico python39-yubico python3dist(python-yubico)"
-RDEPENDS:${PN} += "python(abi) python39-usb"
+RPROVIDES:${PN} += "python3.9dist(python-yubico) \
+python39-python-yubico \
+python39-yubico \
+python3dist(python-yubico)"
+RDEPENDS:${PN} += "python(abi) \
+python39-usb"
 
 inherit rpm

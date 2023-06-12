@@ -9,6 +9,9 @@ RPM_HASH = "c5c36418957a8b37f0557d23a219de812b3b9ded336178e9c5cb57030a63c184bc2f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sassist"
-RDEPENDS:${PN} += "/bin/sh freeipmi supportutils zip"
+RDEPENDS:${PN} += "/bin/sh \
+freeipmi \
+supportutils \
+zip"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "2e59988dd42973bfc027e7450f23d0fbb16c46e6ce55de97ac829e4e4b6fdbc7fb1b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "v4l2loopback-autoload"
-RDEPENDS:${PN} += "(kmod(v4l2loopback.ko) if kernel) systemd"
+RDEPENDS:${PN} += "(kmod(v4l2loopback.ko) if kernel) \
+systemd"
 
 inherit rpm

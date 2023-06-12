@@ -9,6 +9,8 @@ RPM_HASH = "c6f1dcd126dee6bcb286d2bea92678b182a206a2db4d33b63b2a88981802102200bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slurm-sjstat"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) slurm"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+slurm"
 
 inherit rpm

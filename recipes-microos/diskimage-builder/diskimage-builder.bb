@@ -16,7 +16,19 @@ RPM_NAME = "diskimage-builder-3.26.0-1.2.noarch.rpm"
 RPM_HASH = "25b83d506f7ce7e83998a964922b3fdd5930d1597582ad3d59d3b70028a4626907778b2b5ec12167b5ec3d65f7664e496613ce9f19ce93523886a32546116aa5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "diskimage-builder python3.10dist(diskimage-builder) python3dist(diskimage-builder)"
-RDEPENDS:${PN} += "/bin/bash /usr/bin/python3 kpartx python(abi) python3-Babel python3-PyYAML python3-networkx python3-six python3-stevedore qemu-tools sudo"
+RPROVIDES:${PN} += "diskimage-builder \
+python3.10dist(diskimage-builder) \
+python3dist(diskimage-builder)"
+RDEPENDS:${PN} += "/bin/bash \
+/usr/bin/python3 \
+kpartx \
+python(abi) \
+python3-Babel \
+python3-PyYAML \
+python3-networkx \
+python3-six \
+python3-stevedore \
+qemu-tools \
+sudo"
 
 inherit rpm

@@ -25,7 +25,14 @@ RPM_NAME = "python39-dnspython-2.3.0-2.1.noarch.rpm"
 RPM_HASH = "d3ed2a07167191646198eddb4a4598b5c01ba9cd1823d6682e1c633ad79ce1be373351bde342b5c093bbf1209ce93b5aa0e4331c2c380db9cfb8ee4d4b8dded5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(dnspython) python39-dnspython python3dist(dnspython)"
-RDEPENDS:${PN} += "python(abi) python39-cryptography python39-httpx python39-idna python39-requests python39-requests-toolbelt"
+RPROVIDES:${PN} += "python3.9dist(dnspython) \
+python39-dnspython \
+python3dist(dnspython)"
+RDEPENDS:${PN} += "python(abi) \
+python39-cryptography \
+python39-httpx \
+python39-idna \
+python39-requests \
+python39-requests-toolbelt"
 
 inherit rpm

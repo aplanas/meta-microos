@@ -27,7 +27,16 @@ PV = "1.1.15"
 RPM_NAME = "nss_wrapper-1.1.15-3.3.aarch64.rpm"
 RPM_HASH = "ddaa1513917d259559a8c5b997d270e4e977b6fa6d200a0502f383013ecf59bec8bdb0c1e530d8da66bd452f06ae759623ad3f28618b600310cbb3278e0ced0c"
 
-RPROVIDES:${PN} += "cmake(nss_wrapper) libnss_wrapper.so.0()(64bit) nss_wrapper nss_wrapper(aarch-64) pkgconfig(nss_wrapper)"
-RDEPENDS:${PN} += "/sbin/ldconfig /usr/bin/perl /usr/bin/pkg-config ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "cmake(nss_wrapper) \
+libnss_wrapper.so.0()(64bit) \
+nss_wrapper \
+nss_wrapper(aarch-64) \
+pkgconfig(nss_wrapper)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/perl \
+/usr/bin/pkg-config \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

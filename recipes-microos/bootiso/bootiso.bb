@@ -9,6 +9,10 @@ RPM_HASH = "b3a921095970c3dcaab0f68713e622bee060438b2a441a06b9131efdc50ead06c52e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bootiso"
-RDEPENDS:${PN} += "/bin/bash bc jq syslinux wimtools"
+RDEPENDS:${PN} += "/bin/bash \
+bc \
+jq \
+syslinux \
+wimtools"
 
 inherit rpm

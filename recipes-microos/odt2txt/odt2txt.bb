@@ -16,7 +16,11 @@ PV = "0.5"
 RPM_NAME = "odt2txt-0.5-1.27.aarch64.rpm"
 RPM_HASH = "683a78bdae6b25d181b5447baa4db52a2d0ec62644324cab936791eddfffa327f2232f73450e3dc947237cf16375db90df0b4ddcbfba1c1d24efb2ea8e17f291"
 
-RPROVIDES:${PN} += "odt2txt odt2txt(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libz.so.1()(64bit)"
+RPROVIDES:${PN} += "odt2txt \
+odt2txt(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libz.so.1()(64bit)"
 
 inherit rpm

@@ -19,7 +19,12 @@ RPM_NAME = "jetty-start-9.4.51-1.1.noarch.rpm"
 RPM_HASH = "7da0a2fdce2b6b28b51b88a59e40a0afa0dc3a4c4f2dcde33d7f579aecb4b1760880736819394015f6c6677029aaf0072692a3a94af00b50a6beade405c8b9ad"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jetty-start mvn(org.eclipse.jetty:jetty-start) mvn(org.eclipse.jetty:jetty-start:pom:) osgi(org.eclipse.jetty.start)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(org.eclipse.jetty:jetty-util)"
+RPROVIDES:${PN} += "jetty-start \
+mvn(org.eclipse.jetty:jetty-start) \
+mvn(org.eclipse.jetty:jetty-start:pom:) \
+osgi(org.eclipse.jetty.start)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(org.eclipse.jetty:jetty-util)"
 
 inherit rpm

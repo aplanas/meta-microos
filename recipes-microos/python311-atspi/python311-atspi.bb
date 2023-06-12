@@ -12,6 +12,11 @@ RPM_HASH = "cd9e00c539d125af73849812ddcbef88ae46f57af645eb27a4fa82225134de3473d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-atspi"
-RDEPENDS:${PN} += "python(abi) python311-dbus-python python311-gobject typelib(Atspi) typelib(GLib) typelib(GObject)"
+RDEPENDS:${PN} += "python(abi) \
+python311-dbus-python \
+python311-gobject \
+typelib(Atspi) \
+typelib(GLib) \
+typelib(GObject)"
 
 inherit rpm

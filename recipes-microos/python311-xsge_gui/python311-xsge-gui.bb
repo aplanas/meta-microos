@@ -13,7 +13,11 @@ RPM_NAME = "python311-xsge_gui-1.2.1-2.7.noarch.rpm"
 RPM_HASH = "af3e79702ba748461198a87072a435870b212693a05e6ccd6b3f4e1fcb6f1950a509e33ceac1aa774e3bd5061562f2c4b4a09b33ad5b5c114ded43739f1cfcf2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(xsge-gui) python311-xsge_gui python3dist(xsge-gui)"
-RDEPENDS:${PN} += "python(abi) python311-sge-pygame python311-six"
+RPROVIDES:${PN} += "python3.11dist(xsge-gui) \
+python311-xsge_gui \
+python3dist(xsge-gui)"
+RDEPENDS:${PN} += "python(abi) \
+python311-sge-pygame \
+python311-six"
 
 inherit rpm

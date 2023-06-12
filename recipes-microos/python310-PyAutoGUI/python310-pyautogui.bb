@@ -9,7 +9,15 @@ RPM_NAME = "python310-PyAutoGUI-0.9.53-1.3.noarch.rpm"
 RPM_HASH = "8227dadf312e72c816cd89ed38e3ca782950c9e025a0cf6d58a18e5772b3631a601332e9f1e7530871d7ae8ebbff141c574f72a92000e00035997794add70c37"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyAutoGUI python3.10dist(pyautogui) python310-PyAutoGUI python3dist(pyautogui)"
-RDEPENDS:${PN} += "python(abi) python310-Pillow python310-PyMsgBox python310-PyScreeze python310-PyTweening python310-python-xlib"
+RPROVIDES:${PN} += "python3-PyAutoGUI \
+python3.10dist(pyautogui) \
+python310-PyAutoGUI \
+python3dist(pyautogui)"
+RDEPENDS:${PN} += "python(abi) \
+python310-Pillow \
+python310-PyMsgBox \
+python310-PyScreeze \
+python310-PyTweening \
+python310-python-xlib"
 
 inherit rpm

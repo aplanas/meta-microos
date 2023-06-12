@@ -16,7 +16,9 @@ PV = "2.02"
 RPM_NAME = "perl-Crypt-RC4-2.02-13.29.aarch64.rpm"
 RPM_HASH = "e58755bbaf54d9768cd90998d03789dd9960479d262d5389859821bd3fb20824479bc077e1d01f964a3fef150dd3f278a7028902736c56309dbc60d591e7528d"
 
-RPROVIDES:${PN} += "perl(Crypt::RC4) perl-Crypt-RC4 perl-Crypt-RC4(aarch-64)"
+RPROVIDES:${PN} += "perl(Crypt::RC4) \
+perl-Crypt-RC4 \
+perl-Crypt-RC4(aarch-64)"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -14,7 +14,11 @@ RPM_NAME = "python310-tpfd-0.2.4-1.14.noarch.rpm"
 RPM_HASH = "11e78dd22b428b776b896fa6ac7ea7304bdbb4476e4fa4a68f1f1cbc08b27bed417ebfeee55ed618a3821f1f15693d769bc8b9f7a0b67d3b7d468a596d707c7b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tpfd python3.10dist(tpfd) python310-tpfd python3dist(tpfd)"
-RDEPENDS:${PN} += "python(abi) python310-parse"
+RPROVIDES:${PN} += "python3-tpfd \
+python3.10dist(tpfd) \
+python310-tpfd \
+python3dist(tpfd)"
+RDEPENDS:${PN} += "python(abi) \
+python310-parse"
 
 inherit rpm

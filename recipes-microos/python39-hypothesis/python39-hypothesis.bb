@@ -19,7 +19,15 @@ RPM_NAME = "python39-hypothesis-6.75.3-1.1.noarch.rpm"
 RPM_HASH = "3aefac533306296bd3ab634910d4cf23af702ce17c22e4e24440c53962b5139431da8a8541c4028c08287396933b4535354ab1a18fc99494ea6dd3039ab36d1b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(hypothesis) python39-hypothesis python3dist(hypothesis)"
-RDEPENDS:${PN} += "(python39-exceptiongroup >= 1.0.0 if python39-base < 3.11) (python39-sortedcontainers >= 2.1.0 with python39-sortedcontainers < 3.0) /bin/sh /usr/bin/python3.9 python(abi) python39-attrs update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(hypothesis) \
+python39-hypothesis \
+python3dist(hypothesis)"
+RDEPENDS:${PN} += "(python39-exceptiongroup >= 1.0.0 if python39-base < 3.11) \
+(python39-sortedcontainers >= 2.1.0 with python39-sortedcontainers < 3.0) \
+/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-attrs \
+update-alternatives"
 
 inherit rpm

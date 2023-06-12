@@ -25,7 +25,10 @@ RPM_NAME = "python310-attrs-23.1.0-1.1.noarch.rpm"
 RPM_HASH = "c386632017828bb22e15bc5b8343c3ddfcd32f8c312699f865e3fc2acea2a3e3b871412ba7248ca68e78b18d6687fd0f231d085800413d7c4688cdb166c505c4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-attrs python3.10dist(attrs) python310-attrs python3dist(attrs)"
+RPROVIDES:${PN} += "python3-attrs \
+python3.10dist(attrs) \
+python310-attrs \
+python3dist(attrs)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

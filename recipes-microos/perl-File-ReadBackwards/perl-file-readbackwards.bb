@@ -15,7 +15,8 @@ RPM_NAME = "perl-File-ReadBackwards-1.06-1.9.noarch.rpm"
 RPM_HASH = "0ef2c6a8f77ae904aafadb071529148edb7cd865cf874c193390830da629f5d961c5c014de61fe5a41a36481204e15faeefa757aad41fbb8a739978281e1a0d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::ReadBackwards) perl-File-ReadBackwards"
+RPROVIDES:${PN} += "perl(File::ReadBackwards) \
+perl-File-ReadBackwards"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

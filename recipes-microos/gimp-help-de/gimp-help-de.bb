@@ -11,7 +11,8 @@ RPM_NAME = "gimp-help-de-2.10.0-2.5.noarch.rpm"
 RPM_HASH = "f07246d5b84a5d7df6833f5727225d33266ec60b1ba268cdf3828ce8cac457af2a7289dbb42a48acefc529296b4941109dc815e7da97c4ad9e8071175238ecd6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "gimp-help-de locale(gimp-help:de)"
+RPROVIDES:${PN} += "gimp-help-de \
+locale(gimp-help:de)"
 RDEPENDS:${PN} += "gimp-help"
 
 inherit rpm

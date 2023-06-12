@@ -29,7 +29,16 @@ RPM_NAME = "python310-jenkinsapi-0.3.11-3.6.noarch.rpm"
 RPM_HASH = "ddf2896aa9676a39d87a228e91a63bc47f2dc0ff5a231898257507fcca32952e198a25b32474e38af4426f092d22899cb37291efecbdec7cffce0a118f704fb1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jenkinsapi python3.10dist(jenkinsapi) python310-jenkinsapi python3dist(jenkinsapi)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/python3.10 python(abi) python310-pytz python310-requests python310-six"
+RPROVIDES:${PN} += "python3-jenkinsapi \
+python3.10dist(jenkinsapi) \
+python310-jenkinsapi \
+python3dist(jenkinsapi)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-pytz \
+python310-requests \
+python310-six"
 
 inherit rpm

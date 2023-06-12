@@ -8,7 +8,11 @@ RPM_NAME = "java-17-openj9-javadoc-17.0.6.0-2.1.noarch.rpm"
 RPM_HASH = "434db48fbc407fcaddbed3125f4787d7fa47b85106afa3be407d8aa7a5dc8532bd8e966c0006cb3a3f621e86b0462bc6a01205c30ee4b705cc82ef790014cf76"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "java-17-javadoc java-17-openj9-javadoc java-javadoc"
-RDEPENDS:${PN} += "/bin/sh jpackage-utils update-alternatives"
+RPROVIDES:${PN} += "java-17-javadoc \
+java-17-openj9-javadoc \
+java-javadoc"
+RDEPENDS:${PN} += "/bin/sh \
+jpackage-utils \
+update-alternatives"
 
 inherit rpm

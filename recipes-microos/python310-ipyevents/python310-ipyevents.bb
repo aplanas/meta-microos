@@ -15,7 +15,12 @@ RPM_NAME = "python310-ipyevents-2.0.1-5.3.noarch.rpm"
 RPM_HASH = "a8517bad5581fa0e65731f0647255f0ee55fa0da824d40e8060226f5d235ac3dc5d058a6b7464269bf86db29fbf8ca2f46ba1a2e130b3849ec36a14789d92898"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ipyevents python3.10dist(ipyevents) python310-ipyevents python3dist(ipyevents)"
-RDEPENDS:${PN} += "jupyter-ipyevents python(abi) python310-ipywidgets"
+RPROVIDES:${PN} += "python3-ipyevents \
+python3.10dist(ipyevents) \
+python310-ipyevents \
+python3dist(ipyevents)"
+RDEPENDS:${PN} += "jupyter-ipyevents \
+python(abi) \
+python310-ipywidgets"
 
 inherit rpm

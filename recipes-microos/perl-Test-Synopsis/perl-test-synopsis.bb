@@ -33,7 +33,10 @@ RPM_NAME = "perl-Test-Synopsis-0.17-1.7.noarch.rpm"
 RPM_HASH = "3bb03efe00558d599612d6c84e536daa715665e27dbaf31d867642b5ef339f3a97bebfca3e2927dae64697a03ac2af266456dc4bd5210822875b83182bbf321b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Synopsis) perl-Test-Synopsis"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Pod::Simple) perl(parent)"
+RPROVIDES:${PN} += "perl(Test::Synopsis) \
+perl-Test-Synopsis"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Pod::Simple) \
+perl(parent)"
 
 inherit rpm

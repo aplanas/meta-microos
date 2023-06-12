@@ -13,7 +13,10 @@ RPM_NAME = "python310-backcall-0.2.0-2.1.noarch.rpm"
 RPM_HASH = "4b8a4ccd2a026dc5a7dedd313fb1521a662a7e8575d77205d73b0de012a64d7cab2c68750385507edceb03f3aa914ef72453c4aab931b5d503476d573f91399e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-backcall python3.10dist(backcall) python310-backcall python3dist(backcall)"
+RPROVIDES:${PN} += "python3-backcall \
+python3.10dist(backcall) \
+python310-backcall \
+python3dist(backcall)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

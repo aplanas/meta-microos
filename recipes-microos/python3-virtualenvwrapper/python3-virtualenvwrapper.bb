@@ -21,7 +21,13 @@ RPM_NAME = "python3-virtualenvwrapper-4.8.4-4.8.noarch.rpm"
 RPM_HASH = "78670a474fcd7b75fbf86e4d59bc769ddf2d6d401531495804ad02955204b0191c671ffc572b5ba640dea5a5200b1495d2a0cdcaf739258c6f8f9f324ba2835b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-virtualenvwrapper python3.10dist(virtualenvwrapper) python3dist(virtualenvwrapper)"
-RDEPENDS:${PN} += "/bin/sh python(abi) python3-stevedore python3-virtualenv python3-virtualenv-clone"
+RPROVIDES:${PN} += "python3-virtualenvwrapper \
+python3.10dist(virtualenvwrapper) \
+python3dist(virtualenvwrapper)"
+RDEPENDS:${PN} += "/bin/sh \
+python(abi) \
+python3-stevedore \
+python3-virtualenv \
+python3-virtualenv-clone"
 
 inherit rpm

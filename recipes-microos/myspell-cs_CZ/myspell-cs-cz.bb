@@ -8,7 +8,12 @@ RPM_NAME = "myspell-cs_CZ-20221012-1.2.noarch.rpm"
 RPM_HASH = "76a6be78516f03de0a248bca3a4b535ca8aa8478fbf65e9bb5832e4db47b131fd6a52a87f8c6be9f53235b76b429eaeeb5e48b3df41822670230216e77c9d77b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libreoffice-thesaurus-cs locale(libreoffice:cs_CZ) locale(seamonkey-spellchecker:cs_CZ) myspell-cs_CZ myspell-czech myspell-dictionary"
+RPROVIDES:${PN} += "libreoffice-thesaurus-cs \
+locale(libreoffice:cs_CZ) \
+locale(seamonkey-spellchecker:cs_CZ) \
+myspell-cs_CZ \
+myspell-czech \
+myspell-dictionary"
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

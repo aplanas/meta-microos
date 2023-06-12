@@ -9,7 +9,8 @@ RPM_NAME = "mingw64-binutils-2.39-4.3.noarch.rpm"
 RPM_HASH = "13e75463b36de1c771658ff8316527c1b3e0277df0d343fdd003b52cefc4f462eb8c37cacfeb3e6105d9a5070c5497210d4b1214dad05215f682c2b726cf1557"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mingw64(libdep.dll) mingw64-binutils"
+RPROVIDES:${PN} += "mingw64(libdep.dll) \
+mingw64-binutils"
 RDEPENDS:${PN} += ""
 
 inherit rpm

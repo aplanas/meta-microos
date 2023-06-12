@@ -24,7 +24,12 @@ PV = "1.11.0"
 RPM_NAME = "librelp-devel-1.11.0-1.3.aarch64.rpm"
 RPM_HASH = "d1e7001804f468afe7f5be8390b1ff4eb40b72bb8aaebb12e18655e319dd88184efa9335ff7d2f1ebb5c639ac81f54a036a517acd449caa83363f5dc01491ae3"
 
-RPROVIDES:${PN} += "librelp-devel librelp-devel(aarch-64) pkgconfig(relp)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libgnutls-devel librelp0 pkgconfig(openssl)"
+RPROVIDES:${PN} += "librelp-devel \
+librelp-devel(aarch-64) \
+pkgconfig(relp)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libgnutls-devel \
+librelp0 \
+pkgconfig(openssl)"
 
 inherit rpm

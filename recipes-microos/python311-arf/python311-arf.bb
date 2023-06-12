@@ -17,7 +17,10 @@ RPM_NAME = "python311-arf-2.6.1-4.4.noarch.rpm"
 RPM_HASH = "751051c91542fc7bf760327c9b2965b562bb542589aa3e774c75109a53db7059ec0050912e2debd2260b6c690e6bedd0f8f3673b39c7cfe7a50d8b4ca1a19a9e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(arf) python311-arf python3dist(arf)"
-RDEPENDS:${PN} += "python(abi) python311-h5py"
+RPROVIDES:${PN} += "python3.11dist(arf) \
+python311-arf \
+python3dist(arf)"
+RDEPENDS:${PN} += "python(abi) \
+python311-h5py"
 
 inherit rpm

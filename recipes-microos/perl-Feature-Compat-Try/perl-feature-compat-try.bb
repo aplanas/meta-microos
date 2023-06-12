@@ -24,7 +24,9 @@ RPM_NAME = "perl-Feature-Compat-Try-0.05-1.4.noarch.rpm"
 RPM_HASH = "29f20aa1285edaecf2899307a643745d9cc786b46124de2342e55c234ad2d25a9691815963a1f37482446e6968ee653b7380f4aa8e7902a17f9ee9ef39e6cddc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Feature::Compat::Try) perl-Feature-Compat-Try"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Syntax::Keyword::Try)"
+RPROVIDES:${PN} += "perl(Feature::Compat::Try) \
+perl-Feature-Compat-Try"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Syntax::Keyword::Try)"
 
 inherit rpm

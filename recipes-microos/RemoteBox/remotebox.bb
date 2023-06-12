@@ -14,7 +14,16 @@ RPM_NAME = "RemoteBox-3.2-1.1.noarch.rpm"
 RPM_HASH = "071d41b6888219bccff3387dd11c911c883d941ffe76cb3c21bf68f40e7ceb6b24ac06c7bb507317ea546bd78fd4c9eaf0aa2d5abca4b753f219ff76e6b9f1e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "RemoteBox application() application(RemoteBox.desktop) metainfo() metainfo(RemoteBox.appdata.xml)"
-RDEPENDS:${PN} += "/usr/bin/perl freerdp perl-Gtk3 perl-SOAP-Lite typelib-1_0-GdkPixdata-2_0 xdg-utils"
+RPROVIDES:${PN} += "RemoteBox \
+application() \
+application(RemoteBox.desktop) \
+metainfo() \
+metainfo(RemoteBox.appdata.xml)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+freerdp \
+perl-Gtk3 \
+perl-SOAP-Lite \
+typelib-1_0-GdkPixdata-2_0 \
+xdg-utils"
 
 inherit rpm

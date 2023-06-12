@@ -10,7 +10,12 @@ PV = "1.6.1"
 RPM_NAME = "enchant-1-tools-1.6.1-6.3.aarch64.rpm"
 RPM_HASH = "1270e637d2abb7379d78445c7a72236653f68ed807e6abadea6586f514906474503bfa1d00579d9f83df4757997884e035544bccb6cc2c3fcff519f09e655eb7"
 
-RPROVIDES:${PN} += "enchant-1-tools enchant-1-tools(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libenchant.so.1()(64bit) libglib-2.0.so.0()(64bit)"
+RPROVIDES:${PN} += "enchant-1-tools \
+enchant-1-tools(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libenchant.so.1()(64bit) \
+libglib-2.0.so.0()(64bit)"
 
 inherit rpm

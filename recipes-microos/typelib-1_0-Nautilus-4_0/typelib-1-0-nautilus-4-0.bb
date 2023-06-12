@@ -10,7 +10,12 @@ PV = "44.2"
 RPM_NAME = "typelib-1_0-Nautilus-4_0-44.2-1.1.aarch64.rpm"
 RPM_HASH = "f80b3c5a8cb433251f12d53c02db0eb2a60d886441b9e6076a9629f33423b85a9bd8a88fca548c57d7f5688506e82e34905cf5b78a64b2aa8e4c7e43f0ae8810"
 
-RPROVIDES:${PN} += "typelib(Nautilus) typelib-1_0-Nautilus-4_0 typelib-1_0-Nautilus-4_0(aarch-64)"
-RDEPENDS:${PN} += "libnautilus-extension.so.4()(64bit) typelib(GLib) typelib(GObject) typelib(Gio)"
+RPROVIDES:${PN} += "typelib(Nautilus) \
+typelib-1_0-Nautilus-4_0 \
+typelib-1_0-Nautilus-4_0(aarch-64)"
+RDEPENDS:${PN} += "libnautilus-extension.so.4()(64bit) \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gio)"
 
 inherit rpm

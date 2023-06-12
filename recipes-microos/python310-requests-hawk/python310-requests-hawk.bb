@@ -13,7 +13,12 @@ RPM_NAME = "python310-requests-hawk-1.2.1-1.1.noarch.rpm"
 RPM_HASH = "f549c3b4a7f784e546bf058c8d3aa06ea0f29759ccc30d3525c9f708304a00efaa5b1c57b08e089f14f6f37955f456af35a5e66d822e2208f77f6046825da133"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-requests-hawk python3.10dist(requests-hawk) python310-requests-hawk python3dist(requests-hawk)"
-RDEPENDS:${PN} += "python(abi) python310-mohawk python310-requests"
+RPROVIDES:${PN} += "python3-requests-hawk \
+python3.10dist(requests-hawk) \
+python310-requests-hawk \
+python3dist(requests-hawk)"
+RDEPENDS:${PN} += "python(abi) \
+python310-mohawk \
+python310-requests"
 
 inherit rpm

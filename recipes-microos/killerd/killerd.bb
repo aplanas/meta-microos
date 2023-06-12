@@ -9,7 +9,13 @@ PV = "1.1"
 RPM_NAME = "killerd-1.1-126.8.aarch64.rpm"
 RPM_HASH = "8368013dbb5b8e13511fd1b104cd221c73e7ecccc5b4042d24ce5bd5fb7b2c01b7e55462f1c583e788f7707d77cd5da5b555ba67aed721e3cb9ccbd04977ef5b"
 
-RPROVIDES:${PN} += "config(killerd) killerd killerd(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) systemd"
+RPROVIDES:${PN} += "config(killerd) \
+killerd \
+killerd(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+systemd"
 
 inherit rpm

@@ -11,7 +11,11 @@ PV = "6.3"
 RPM_NAME = "linux-glibc-devel-6.3-1.1.aarch64.rpm"
 RPM_HASH = "17634cb8f526381d9c89b11aafe89fb85e5ed626b56fe1828dedbd7d859eddfa48b423f216f366e82e9063e054d3841fff0b8e43b00315ccc1951a2b3a3663eb"
 
-RPROVIDES:${PN} += "kernel-headers linux-glibc-devel linux-glibc-devel(aarch-64) linux-kernel-headers"
-RDEPENDS:${PN} += "/bin/sh coreutils"
+RPROVIDES:${PN} += "kernel-headers \
+linux-glibc-devel \
+linux-glibc-devel(aarch-64) \
+linux-kernel-headers"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils"
 
 inherit rpm

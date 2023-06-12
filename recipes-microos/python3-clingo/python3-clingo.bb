@@ -16,7 +16,14 @@ PV = "5.6.2"
 RPM_NAME = "python3-clingo-5.6.2-1.3.aarch64.rpm"
 RPM_HASH = "dd2a6d20fc3c01f6ee89ce78ecb05104922fd66ae530df3be1a8cacedae28e67b24983890b9aece84d5011d2379d303ff73316fe12e0b9dc8c2d2e0098d52768"
 
-RPROVIDES:${PN} += "python3-clingo python3-clingo(aarch-64) python3.10dist(clingo) python3dist(clingo)"
-RDEPENDS:${PN} += "clingo libc.so.6(GLIBC_2.17)(64bit) libclingo.so.4()(64bit) python(abi) python3-cffi"
+RPROVIDES:${PN} += "python3-clingo \
+python3-clingo(aarch-64) \
+python3.10dist(clingo) \
+python3dist(clingo)"
+RDEPENDS:${PN} += "clingo \
+libc.so.6(GLIBC_2.17)(64bit) \
+libclingo.so.4()(64bit) \
+python(abi) \
+python3-cffi"
 
 inherit rpm

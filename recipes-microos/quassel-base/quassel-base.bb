@@ -12,7 +12,11 @@ PV = "0.14.0"
 RPM_NAME = "quassel-base-0.14.0-1.5.aarch64.rpm"
 RPM_HASH = "174e6add7aaccae57efebfe6035f70eebd5a3312721db9dfad1b981233bf96b6ac7f70382950c595170fc7ef759613f9c885cf04e483912fa0ad4be1ab1cf8ad"
 
-RPROVIDES:${PN} += "application() application(quasselclient.desktop) quassel-base quassel-base(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl quassel_ui"
+RPROVIDES:${PN} += "application() \
+application(quasselclient.desktop) \
+quassel-base \
+quassel-base(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+quassel_ui"
 
 inherit rpm

@@ -31,7 +31,36 @@ PV = "5.2.4"
 RPM_NAME = "courier-imap-5.2.4-1.1.aarch64.rpm"
 RPM_HASH = "08117c2e3f50c5bc3ba70c33c9f2beb30b388c1c95b65bf599b1b7df5b64e106f6492a3b3c897cbaba4c9c98eecc5bb62cc58162cabb6eeb00f7b171537109c1"
 
-RPROVIDES:${PN} += "config(courier-imap) courier-imap courier-imap(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/bash /usr/bin/perl courier-authlib gdbm ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcourier-unicode.so.7()(64bit) libcourierauth.so.0()(64bit) libcourierauthsasl.so.0()(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libgdbm.so.6()(64bit) libidn2.so.0()(64bit) libidn2.so.0(IDN2_0.0.0)(64bit) libpcre2-8.so.0()(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) openssl systemd"
+RPROVIDES:${PN} += "config(courier-imap) \
+courier-imap \
+courier-imap(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/bash \
+/usr/bin/perl \
+courier-authlib \
+gdbm \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcourier-unicode.so.7()(64bit) \
+libcourierauth.so.0()(64bit) \
+libcourierauthsasl.so.0()(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libgdbm.so.6()(64bit) \
+libidn2.so.0()(64bit) \
+libidn2.so.0(IDN2_0.0.0)(64bit) \
+libpcre2-8.so.0()(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+openssl \
+systemd"
 
 inherit rpm

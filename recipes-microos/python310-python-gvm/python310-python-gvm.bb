@@ -12,7 +12,13 @@ RPM_NAME = "python310-python-gvm-23.2.0-1.2.noarch.rpm"
 RPM_HASH = "f1369cda9636b24166059a8e945c78e1c4dc69b0c33287e43aa71c3077b74e36d961f8a8dd2fc3838f16b03ac79f153845e3af8d5a5ff28658d1958cd184bcf9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-gvm python3.10dist(python-gvm) python310-python-gvm python3dist(python-gvm)"
-RDEPENDS:${PN} += "python(abi) python310-defusedxml python310-lxml python310-paramiko"
+RPROVIDES:${PN} += "python3-python-gvm \
+python3.10dist(python-gvm) \
+python310-python-gvm \
+python3dist(python-gvm)"
+RDEPENDS:${PN} += "python(abi) \
+python310-defusedxml \
+python310-lxml \
+python310-paramiko"
 
 inherit rpm

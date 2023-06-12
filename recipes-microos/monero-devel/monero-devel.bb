@@ -12,7 +12,8 @@ PV = "0.18.2.0"
 RPM_NAME = "monero-devel-0.18.2.0-1.1.aarch64.rpm"
 RPM_HASH = "8eacb1fd4ef6cd16a8ebe46a8bd22302b0b404e61eacf7f45a2c627dafee904be5192b56ad720824fbd6543a682d2e79c124e9ce3ab085aaddf875cdbc8ba3ae"
 
-RPROVIDES:${PN} += "monero-devel monero-devel(aarch-64)"
+RPROVIDES:${PN} += "monero-devel \
+monero-devel(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

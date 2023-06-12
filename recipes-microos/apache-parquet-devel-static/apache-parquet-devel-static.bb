@@ -14,7 +14,8 @@ PV = "12.0.0"
 RPM_NAME = "apache-parquet-devel-static-12.0.0-1.1.aarch64.rpm"
 RPM_HASH = "6e98d3eb644412a13784177728334d8c72fb97f24b5165893253d7b13b4467c7b45911e1febab6e8b34c73cb2f6a91c1813fe32ae475a99080e29b78c0f73f6c"
 
-RPROVIDES:${PN} += "apache-parquet-devel-static apache-parquet-devel-static(aarch-64)"
+RPROVIDES:${PN} += "apache-parquet-devel-static \
+apache-parquet-devel-static(aarch-64)"
 RDEPENDS:${PN} += "apache-parquet-devel"
 
 inherit rpm

@@ -8,7 +8,10 @@ PV = "6.5.1"
 RPM_NAME = "qt6-opengl-private-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "bf4dd4163009d6f402457765525c5a8f06ccdb81f7a322c2dbcd8e7db95315cd4f97802f929d8378ceac9170bf9d865ffcc5f6bebf620af63143b8d9d9378fb5"
 
-RPROVIDES:${PN} += "qt6-opengl-private-devel qt6-opengl-private-devel(aarch-64)"
-RDEPENDS:${PN} += "cmake(Qt6OpenGL) qt6-core-private-devel qt6-gui-private-devel"
+RPROVIDES:${PN} += "qt6-opengl-private-devel \
+qt6-opengl-private-devel(aarch-64)"
+RDEPENDS:${PN} += "cmake(Qt6OpenGL) \
+qt6-core-private-devel \
+qt6-gui-private-devel"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "f185880edc109f8ced3979aa5189c0240c408fb4f9e9772ac9ff5c3efa1884fe70fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-ipyvue"
-RDEPENDS:${PN} += "jupyter-jupyterlab python3dist(ipyvue)"
+RDEPENDS:${PN} += "jupyter-jupyterlab \
+python3dist(ipyvue)"
 
 inherit rpm

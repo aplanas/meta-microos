@@ -127,7 +127,9 @@ RPM_NAME = "perl-Sys-SigAction-0.23-1.23.noarch.rpm"
 RPM_HASH = "fa1cb20c34ddc2a90464e250850d84f75fe42af15d581703f9e211a525771ca8edcec85e1ce47933a41e35d79acc012e771be2d275045c00847be38c602accbc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Sys::SigAction) perl(Sys::SigAction::Alarm) perl-Sys-SigAction"
+RPROVIDES:${PN} += "perl(Sys::SigAction) \
+perl(Sys::SigAction::Alarm) \
+perl-Sys-SigAction"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

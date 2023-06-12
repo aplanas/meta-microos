@@ -31,7 +31,10 @@ PV = "1.32.2"
 RPM_NAME = "nbdkit-1.32.2-1.3.aarch64.rpm"
 RPM_HASH = "8fc0b7540b861a4e7cc00b356b579bb064c1c916895bf0ded07ada3a76504f123eac7ef087977ba58db0237dc89f0f18fcc04e3133b9d2d137e746654981568e"
 
-RPROVIDES:${PN} += "nbdkit nbdkit(aarch-64)"
-RDEPENDS:${PN} += "nbdkit-basic-filters nbdkit-basic-plugins nbdkit-server"
+RPROVIDES:${PN} += "nbdkit \
+nbdkit(aarch-64)"
+RDEPENDS:${PN} += "nbdkit-basic-filters \
+nbdkit-basic-plugins \
+nbdkit-server"
 
 inherit rpm

@@ -9,7 +9,10 @@ RPM_NAME = "python39-python-utils-3.4.5-1.3.noarch.rpm"
 RPM_HASH = "31a292795de7b13fcb33e8f90287482ea7feae645da1791b7b4eca8bcac820cda109ff9abe26e8bf18fd62731b8d39c5d09965c5690c7a22cffa1166c59af528"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(python-utils) python39-python-utils python3dist(python-utils)"
-RDEPENDS:${PN} += "python(abi) python39-loguru"
+RPROVIDES:${PN} += "python3.9dist(python-utils) \
+python39-python-utils \
+python3dist(python-utils)"
+RDEPENDS:${PN} += "python(abi) \
+python39-loguru"
 
 inherit rpm

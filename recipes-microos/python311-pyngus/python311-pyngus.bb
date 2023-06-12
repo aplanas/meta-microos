@@ -9,7 +9,10 @@ RPM_NAME = "python311-pyngus-2.3.1-1.9.noarch.rpm"
 RPM_HASH = "dd76a7d90144c5394afb18500fec623cc48191eadabddf853035f055368043c3c062b97e422519ce69ceded5b38287febbdcb84af85f0e891004561c4c892474"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyngus) python311-pyngus python3dist(pyngus)"
-RDEPENDS:${PN} += "python(abi) python311-python-qpid-proton"
+RPROVIDES:${PN} += "python3.11dist(pyngus) \
+python311-pyngus \
+python3dist(pyngus)"
+RDEPENDS:${PN} += "python(abi) \
+python311-python-qpid-proton"
 
 inherit rpm

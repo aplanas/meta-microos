@@ -13,7 +13,27 @@ RPM_NAME = "texlive-flowfram-2023.201.1.17svn35291-52.1.noarch.rpm"
 RPM_HASH = "0cc33e37c1032d8cc61cd5c5e408ed9cdc8328fdf7ec63bfc9a890963a610e637cd81680b5cb9ff47c26bcd486adfcd07f8dc9a426b952f030c43956f0cc9abc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(flowfram.sty) texlive-flowfram"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep sed tex(afterpage.sty) tex(color.sty) tex(etoolbox.sty) tex(graphics.sty) tex(ifthen.sty) tex(xfor.sty) tex(xkeyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(flowfram.sty) \
+texlive-flowfram"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(afterpage.sty) \
+tex(color.sty) \
+tex(etoolbox.sty) \
+tex(graphics.sty) \
+tex(ifthen.sty) \
+tex(xfor.sty) \
+tex(xkeyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

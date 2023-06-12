@@ -16,7 +16,16 @@ RPM_NAME = "perl-IO-Pager-2.10-1.11.noarch.rpm"
 RPM_HASH = "c69e2f47d043ee38762fbba441f8c3a91622421820e220b6cf24a8535b8b4690f16a399526d7543e2693ec37c87613018b2900a3ef756de820331ebd52f16911"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IO::Pager) perl(IO::Pager::Buffered) perl(IO::Pager::Page) perl(IO::Pager::Perl) perl(IO::Pager::Unbuffered) perl(IO::Pager::less) perl-IO-Pager"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(File::Which) perl(Term::ReadKey)"
+RPROVIDES:${PN} += "perl(IO::Pager) \
+perl(IO::Pager::Buffered) \
+perl(IO::Pager::Page) \
+perl(IO::Pager::Perl) \
+perl(IO::Pager::Unbuffered) \
+perl(IO::Pager::less) \
+perl-IO-Pager"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(File::Which) \
+perl(Term::ReadKey)"
 
 inherit rpm

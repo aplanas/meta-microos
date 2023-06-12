@@ -9,6 +9,7 @@ RPM_HASH = "52aa2cf6f81720b27391de7993602910d0b0b96d23260d201246aea54a27cb6858be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shlomif-cmake-modules"
-RDEPENDS:${PN} += "cmake perl"
+RDEPENDS:${PN} += "cmake \
+perl"
 
 inherit rpm

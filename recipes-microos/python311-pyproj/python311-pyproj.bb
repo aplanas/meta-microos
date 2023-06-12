@@ -25,7 +25,18 @@ PV = "3.5.0"
 RPM_NAME = "python311-pyproj-3.5.0-1.1.aarch64.rpm"
 RPM_HASH = "8c0c6121894412a260960e3570fd10f679eb879144affec9eeae6d3c830fbb9b6a440918986d072054b42d56694968a7ceff203306ae745bf98cf4f2af9816d2"
 
-RPROVIDES:${PN} += "python3.11dist(pyproj) python311-pyproj python311-pyproj(aarch-64) python3dist(pyproj)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libproj.so.25()(64bit) python(abi) python311-certifi update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(pyproj) \
+python311-pyproj \
+python311-pyproj(aarch-64) \
+python3dist(pyproj)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libproj.so.25()(64bit) \
+python(abi) \
+python311-certifi \
+update-alternatives"
 
 inherit rpm

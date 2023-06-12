@@ -9,6 +9,7 @@ RPM_HASH = "c752e3251128a2ae1a11f27c3dd77965481cde49a35bca2809de814a2cb4cbdd342d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-layout-xkbswitch"
-RDEPENDS:${PN} += "bumblebee-status xkb-switch"
+RDEPENDS:${PN} += "bumblebee-status \
+xkb-switch"
 
 inherit rpm

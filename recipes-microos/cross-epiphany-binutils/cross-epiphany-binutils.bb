@@ -9,7 +9,15 @@ PV = "2.40"
 RPM_NAME = "cross-epiphany-binutils-2.40-5.1.aarch64.rpm"
 RPM_HASH = "4d24c58640dbc1d90f2e4254da600ca8e880ef672ccefd5be4fa3ac8e6ce44dbad6365b58004bf1698fd28113f0bf83ad80820c0f25bbe4c81cf070143eba845"
 
-RPROVIDES:${PN} += "cross-epiphany-binutils cross-epiphany-binutils(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libz.so.1()(64bit) libz.so.1(ZLIB_1.2.0)(64bit) libzstd.so.1()(64bit) update-alternatives"
+RPROVIDES:${PN} += "cross-epiphany-binutils \
+cross-epiphany-binutils(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libz.so.1()(64bit) \
+libz.so.1(ZLIB_1.2.0)(64bit) \
+libzstd.so.1()(64bit) \
+update-alternatives"
 
 inherit rpm

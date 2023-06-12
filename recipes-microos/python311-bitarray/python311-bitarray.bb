@@ -17,7 +17,13 @@ PV = "2.7.3"
 RPM_NAME = "python311-bitarray-2.7.3-1.4.aarch64.rpm"
 RPM_HASH = "606afc031713f383852e653bba1358a50be29f754f27313b96ec3498564127efa8493a67dba36e9e602c1b1cf47316576ed4661e3eaf19e8b57ad6462bbb2dba"
 
-RPROVIDES:${PN} += "python3.11dist(bitarray) python311-bitarray python311-bitarray(aarch-64) python3dist(bitarray)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.11dist(bitarray) \
+python311-bitarray \
+python311-bitarray(aarch-64) \
+python3dist(bitarray)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

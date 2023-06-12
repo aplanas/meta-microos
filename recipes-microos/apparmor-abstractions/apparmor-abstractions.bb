@@ -17,7 +17,9 @@ RPM_NAME = "apparmor-abstractions-3.1.4-1.1.noarch.rpm"
 RPM_HASH = "ed9471f3bebc353c247887b665dc5ae6d949dc7b925c6921e10be1f075a5d2cc56f5948d3c4ab411746e0433e4386d332a77197aa4c68780cff18902bf162fee"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "apparmor-abstractions config(apparmor-abstractions)"
-RDEPENDS:${PN} += "/bin/sh apparmor-parser(CAP_SYSLOG)"
+RPROVIDES:${PN} += "apparmor-abstractions \
+config(apparmor-abstractions)"
+RDEPENDS:${PN} += "/bin/sh \
+apparmor-parser(CAP_SYSLOG)"
 
 inherit rpm

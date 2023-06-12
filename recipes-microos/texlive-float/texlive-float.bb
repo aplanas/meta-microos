@@ -14,7 +14,19 @@ RPM_NAME = "texlive-float-2023.201.1.3dsvn15878-52.1.noarch.rpm"
 RPM_HASH = "35e0985c985252c86db4fe0f22e8685601accd1ddadd84abd56b1d2a2946c29e266602feaaaf4fb25270f0c02f9aea9fd15a1995e20b111514f7fcdf754f0744"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(float.sty) texlive-float"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(float.sty) \
+texlive-float"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

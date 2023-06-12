@@ -14,7 +14,11 @@ PV = "0.17.1"
 RPM_NAME = "raft-devel-0.17.1-1.3.aarch64.rpm"
 RPM_HASH = "66bf3869156da979ffdddf997da6e934b30cc00498b730652532c7a408b806ac27c2b9d0dd9f262081cfc4eed175a6be62d7e562f8a60a2339f44dff356e9448"
 
-RPROVIDES:${PN} += "pkgconfig(raft) raft-devel raft-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libraft3 pkgconfig(libuv)"
+RPROVIDES:${PN} += "pkgconfig(raft) \
+raft-devel \
+raft-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libraft3 \
+pkgconfig(libuv)"
 
 inherit rpm

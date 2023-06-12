@@ -23,7 +23,28 @@ RPM_NAME = "buildnumber-maven-plugin-1.3-2.10.noarch.rpm"
 RPM_HASH = "26066ab4e960db9197ccede1bf9faaa10add52982a768dc207a8f3cb6daa151779f941d150a1cbcd08f614afe187c4a5c9fe62e4717e22125dc3072f985af001"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "buildnumber-maven-plugin mvn(org.codehaus.mojo:buildnumber-maven-plugin) mvn(org.codehaus.mojo:buildnumber-maven-plugin:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(net.java.dev.jna:jna) mvn(org.apache.maven.scm:maven-scm-api) mvn(org.apache.maven.scm:maven-scm-manager-plexus) mvn(org.apache.maven.scm:maven-scm-provider-bazaar) mvn(org.apache.maven.scm:maven-scm-provider-clearcase) mvn(org.apache.maven.scm:maven-scm-provider-cvsexe) mvn(org.apache.maven.scm:maven-scm-provider-gitexe) mvn(org.apache.maven.scm:maven-scm-provider-hg) mvn(org.apache.maven.scm:maven-scm-provider-perforce) mvn(org.apache.maven.scm:maven-scm-provider-starteam) mvn(org.apache.maven.scm:maven-scm-provider-svn-commons) mvn(org.apache.maven.scm:maven-scm-provider-svnexe) mvn(org.apache.maven:maven-core) mvn(org.apache.maven:maven-plugin-api) mvn(org.apache.maven:maven-project) mvn(org.apache.maven:maven-settings:2.0.6) mvn(org.codehaus.plexus:plexus-container-default) mvn(org.codehaus.plexus:plexus-utils)"
+RPROVIDES:${PN} += "buildnumber-maven-plugin \
+mvn(org.codehaus.mojo:buildnumber-maven-plugin) \
+mvn(org.codehaus.mojo:buildnumber-maven-plugin:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(net.java.dev.jna:jna) \
+mvn(org.apache.maven.scm:maven-scm-api) \
+mvn(org.apache.maven.scm:maven-scm-manager-plexus) \
+mvn(org.apache.maven.scm:maven-scm-provider-bazaar) \
+mvn(org.apache.maven.scm:maven-scm-provider-clearcase) \
+mvn(org.apache.maven.scm:maven-scm-provider-cvsexe) \
+mvn(org.apache.maven.scm:maven-scm-provider-gitexe) \
+mvn(org.apache.maven.scm:maven-scm-provider-hg) \
+mvn(org.apache.maven.scm:maven-scm-provider-perforce) \
+mvn(org.apache.maven.scm:maven-scm-provider-starteam) \
+mvn(org.apache.maven.scm:maven-scm-provider-svn-commons) \
+mvn(org.apache.maven.scm:maven-scm-provider-svnexe) \
+mvn(org.apache.maven:maven-core) \
+mvn(org.apache.maven:maven-plugin-api) \
+mvn(org.apache.maven:maven-project) \
+mvn(org.apache.maven:maven-settings:2.0.6) \
+mvn(org.codehaus.plexus:plexus-container-default) \
+mvn(org.codehaus.plexus:plexus-utils)"
 
 inherit rpm

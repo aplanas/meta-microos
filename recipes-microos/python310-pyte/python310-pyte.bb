@@ -13,7 +13,11 @@ RPM_NAME = "python310-pyte-0.8.1-1.3.noarch.rpm"
 RPM_HASH = "a5b4a1a61fe3e652680e612fcf8784c0df8af27047dab6943dff8241d269c4cd05428ddf658df941fa57ed1603a93d2e891c601a1eea0652580db577183fc8d6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyte python3.10dist(pyte) python310-pyte python3dist(pyte)"
-RDEPENDS:${PN} += "python(abi) python310-wcwidth"
+RPROVIDES:${PN} += "python3-pyte \
+python3.10dist(pyte) \
+python310-pyte \
+python3dist(pyte)"
+RDEPENDS:${PN} += "python(abi) \
+python310-wcwidth"
 
 inherit rpm

@@ -11,7 +11,9 @@ RPM_NAME = "python311-Whoosh-2.7.4-8.1.noarch.rpm"
 RPM_HASH = "d1aa580820717cf4eac81625244780a97694bad71fb95f428117dc3a0c1610a943656b92debcbe1317cbbbfca51084ab0be3d522a888a516574ce6b1c79a49c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(whoosh) python311-Whoosh python3dist(whoosh)"
+RPROVIDES:${PN} += "python3.11dist(whoosh) \
+python311-Whoosh \
+python3dist(whoosh)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

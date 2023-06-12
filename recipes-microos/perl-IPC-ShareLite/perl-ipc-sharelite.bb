@@ -60,7 +60,12 @@ PV = "0.17"
 RPM_NAME = "perl-IPC-ShareLite-0.17-1.38.aarch64.rpm"
 RPM_HASH = "f9d54b27df786000863c38088a6beeed2c832a44a771a6bf93e966ca3a42d47f94c99588bfbb255b0226decb7825952f46af990755758c08adff3de93a37b55f"
 
-RPROVIDES:${PN} += "perl(IPC::ShareLite) perl-IPC-ShareLite perl-IPC-ShareLite(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(IPC::ShareLite) \
+perl-IPC-ShareLite \
+perl-IPC-ShareLite(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

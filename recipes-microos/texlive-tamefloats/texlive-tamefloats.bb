@@ -15,7 +15,19 @@ RPM_NAME = "texlive-tamefloats-2023.201.0.0.42svn27345-54.1.noarch.rpm"
 RPM_HASH = "c22dee2eec6c9a650add1f70e0ffb4e28ee4acaf50c42dcd5de6606f0a318728da11eb77cc323934f3e71507ed7feeed2bba8731795652dcf7859659e4307b25"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tameflts.sty) texlive-tamefloats"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(tameflts.sty) \
+texlive-tamefloats"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

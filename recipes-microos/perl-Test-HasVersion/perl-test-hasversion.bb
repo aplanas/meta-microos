@@ -34,7 +34,10 @@ RPM_NAME = "perl-Test-HasVersion-0.014-1.25.noarch.rpm"
 RPM_HASH = "a9c9781ffd32fec9d4fccd7a9c7347a101f6280e3f2d22733fe4a0d9b2d03bb3bcd267820f1144d89079b05cda3ade391fc158c110721c3f3459bdbaa1a95a08"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::HasVersion) perl-Test-HasVersion"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Test::Builder::Tester)"
+RPROVIDES:${PN} += "perl(Test::HasVersion) \
+perl-Test-HasVersion"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Test::Builder::Tester)"
 
 inherit rpm

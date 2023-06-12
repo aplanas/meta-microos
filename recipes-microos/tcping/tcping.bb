@@ -29,7 +29,8 @@ PV = "1.19.2"
 RPM_NAME = "tcping-1.19.2-1.2.aarch64.rpm"
 RPM_HASH = "445b7e292b76195125ba42014a72ce029f7b76a9cda46c52d81c34d08ec8ad28815cf59cf784939bffe363c394efd532aac78e81c3ff1a89f0c73bd0e36fc08f"
 
-RPROVIDES:${PN} += "tcping tcping(aarch-64)"
+RPROVIDES:${PN} += "tcping \
+tcping(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

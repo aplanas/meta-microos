@@ -9,6 +9,7 @@ RPM_HASH = "468f6e68c96cfb2df1674525f1d3646b8ee1590f71383ce01b3569e42192c0519b1d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansifilter-zsh-completion"
-RDEPENDS:${PN} += "ansifilter zsh"
+RDEPENDS:${PN} += "ansifilter \
+zsh"
 
 inherit rpm

@@ -14,7 +14,12 @@ RPM_NAME = "python311-Transplant-0.8.11-3.7.noarch.rpm"
 RPM_HASH = "97e2039fe7082dc878e60c2c60931098223672d9a858466745e9adbba1156a8eeeb5f30444259a3383b6b728fb13055528d2f27fd1c11c6bf59b3363f2787a7c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(transplant) python311-Transplant python3dist(transplant)"
-RDEPENDS:${PN} += "python(abi) python311-msgpack-python python311-numpy python311-pyzmq"
+RPROVIDES:${PN} += "python3.11dist(transplant) \
+python311-Transplant \
+python3dist(transplant)"
+RDEPENDS:${PN} += "python(abi) \
+python311-msgpack-python \
+python311-numpy \
+python311-pyzmq"
 
 inherit rpm

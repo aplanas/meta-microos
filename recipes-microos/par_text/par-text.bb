@@ -21,7 +21,10 @@ PV = "1.53.0+git.1584347654.eb0590f"
 RPM_NAME = "par_text-1.53.0+git.1584347654.eb0590f-3.3.aarch64.rpm"
 RPM_HASH = "b46cce0cd5b965921c22d77f1e11268146f2ea1c8b5b2c0d0acccb0fabbc8ce88f158abbf778194fbdb6bb38e8dec65542cde46a8d1c677915f08582c5ac29a7"
 
-RPROVIDES:${PN} += "par_text par_text(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "par_text \
+par_text(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

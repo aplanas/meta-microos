@@ -12,6 +12,13 @@ RPM_HASH = "aad6de876a94033bcf5487c2b9415d3d34fa756811b519f48d9fe1b3cfd9eaf40dae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "accerciser-plugin-IPython"
-RDEPENDS:${PN} += "/usr/bin/python3 accerciser python3-ipython python3-setuptools typelib(GLib) typelib(Gdk) typelib(Gtk) typelib(Pango)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+accerciser \
+python3-ipython \
+python3-setuptools \
+typelib(GLib) \
+typelib(Gdk) \
+typelib(Gtk) \
+typelib(Pango)"
 
 inherit rpm

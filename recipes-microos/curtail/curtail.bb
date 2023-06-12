@@ -10,7 +10,25 @@ RPM_NAME = "curtail-1.7.0-1.1.noarch.rpm"
 RPM_HASH = "773628b1916b9e6077ced84367a13d4dfea7b065b4a05e8ea62ef6d53076aeaf2bf8e0fcff1216baef60c40b8450069eb41eed09dd526494f4fa00b796a607e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(com.github.huluti.Curtail.desktop) curtail metainfo() metainfo(com.github.huluti.Curtail.appdata.xml) mimehandler(image/jpeg) mimehandler(image/png)"
-RDEPENDS:${PN} += "/usr/bin/python3 jpegoptim libwebp-tools optipng pngquant python3-gobject-Gdk typelib(Adw) typelib(GLib) typelib(GObject) typelib(Gdk) typelib(GdkPixbuf) typelib(Gio) typelib(Gtk)"
+RPROVIDES:${PN} += "application() \
+application(com.github.huluti.Curtail.desktop) \
+curtail \
+metainfo() \
+metainfo(com.github.huluti.Curtail.appdata.xml) \
+mimehandler(image/jpeg) \
+mimehandler(image/png)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+jpegoptim \
+libwebp-tools \
+optipng \
+pngquant \
+python3-gobject-Gdk \
+typelib(Adw) \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gdk) \
+typelib(GdkPixbuf) \
+typelib(Gio) \
+typelib(Gtk)"
 
 inherit rpm

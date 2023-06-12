@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-kayahli-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "bde2d4fb82e4fd13f6b3b0e87f6c4aa88f3bb44782be7585684f3ea32c01c60ba91a208231a7b81a489ce34d6a922d95d4e04424a066009cb45f92355d094719"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-kayahli noto-sans-kayahli-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-kayahli \
+noto-sans-kayahli-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

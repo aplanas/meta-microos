@@ -9,7 +9,11 @@ RPM_NAME = "python39-roman-3.3-2.1.noarch.rpm"
 RPM_HASH = "bcee8f8886c305c0a693b8774130a1e0b3a5577376cb5611e6a70771223e52f35821f102e69b6998ae59a9f1af5144bb122688916864caf2c90843b26c3be018"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(roman) python39-roman python3dist(roman)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi)"
+RPROVIDES:${PN} += "python3.9dist(roman) \
+python39-roman \
+python3dist(roman)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi)"
 
 inherit rpm

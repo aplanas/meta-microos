@@ -18,6 +18,8 @@ RPM_HASH = "895fcffef5e2fae8d3e78d1a4d301f9ad69f79e9d897cfc4a54d8fbe3010857f59bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clojure"
-RDEPENDS:${PN} += "/bin/bash java rlwrap"
+RDEPENDS:${PN} += "/bin/bash \
+java \
+rlwrap"
 
 inherit rpm

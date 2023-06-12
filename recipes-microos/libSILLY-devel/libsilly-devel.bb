@@ -12,7 +12,10 @@ PV = "0.1.0"
 RPM_NAME = "libSILLY-devel-0.1.0-1.8.aarch64.rpm"
 RPM_HASH = "219d7b192e597a18b922206c538e2b71ff1ab0fa7cb3ddb0804b2d7b1518135609fee65fa190b8d78f8868c22902828275f4217f69fa24651747b9c832ba967a"
 
-RPROVIDES:${PN} += "libSILLY-devel libSILLY-devel(aarch-64) pkgconfig(SILLY)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libSILLY1"
+RPROVIDES:${PN} += "libSILLY-devel \
+libSILLY-devel(aarch-64) \
+pkgconfig(SILLY)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libSILLY1"
 
 inherit rpm

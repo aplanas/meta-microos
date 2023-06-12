@@ -10,6 +10,7 @@ RPM_HASH = "bde41feb6b7aee6832411747752846486121a15adfc6c740c9755472758de3021820
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crudini"
-RDEPENDS:${PN} += "/usr/bin/python3 python3-iniparse"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3-iniparse"
 
 inherit rpm

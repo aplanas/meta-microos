@@ -20,7 +20,10 @@ RPM_NAME = "python310-ligotimegps-2.0.1-3.2.noarch.rpm"
 RPM_HASH = "d1f2c784d6e7e24c0fd013366b4b6b304765ee27c988bd231a4f39ed7298833665da28e108eb64b5ee90b72fa35ed32e3b139fb43e05024d31e630ea096a79bc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ligotimegps python3.10dist(ligotimegps) python310-ligotimegps python3dist(ligotimegps)"
+RPROVIDES:${PN} += "python3-ligotimegps \
+python3.10dist(ligotimegps) \
+python310-ligotimegps \
+python3dist(ligotimegps)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

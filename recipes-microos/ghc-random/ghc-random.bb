@@ -51,7 +51,23 @@ PV = "1.2.1.1"
 RPM_NAME = "ghc-random-1.2.1.1-2.2.aarch64.rpm"
 RPM_HASH = "5cb00a66f7d669abd5219ddcc192a6b5b8602e557d28b8ed5118c9ebd1876262319bd88ba9efe4ebf169163776f765f83463f5843565468384268c28d1dd523a"
 
-RPROVIDES:${PN} += "ghc-random ghc-random(aarch-64) libHSrandom-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o-ghc9.4.5.so()(64bit)"
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) libHSghc-boot-th-9.4.5-ghc9.4.5.so()(64bit) libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) libHSmtl-2.2.2-ghc9.4.5.so()(64bit) libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) libHSsplitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe-ghc9.4.5.so()(64bit) libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) libHStransformers-0.5.6.2-ghc9.4.5.so()(64bit) libc.so.6(GLIBC_2.17)(64bit) libgmp.so.10()(64bit) libm.so.6()(64bit)"
+RPROVIDES:${PN} += "ghc-random \
+ghc-random(aarch-64) \
+libHSrandom-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o-ghc9.4.5.so()(64bit)"
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
+libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
+libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \
+libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \
+libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
+libHSghc-boot-th-9.4.5-ghc9.4.5.so()(64bit) \
+libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
+libHSmtl-2.2.2-ghc9.4.5.so()(64bit) \
+libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) \
+libHSsplitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe-ghc9.4.5.so()(64bit) \
+libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) \
+libHStransformers-0.5.6.2-ghc9.4.5.so()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgmp.so.10()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

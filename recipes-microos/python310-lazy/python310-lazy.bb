@@ -14,7 +14,10 @@ RPM_NAME = "python310-lazy-1.5-1.3.noarch.rpm"
 RPM_HASH = "8f4669c4a170a47156eef6920df387660ba4c7786733866fdd93124464fb653ae3b8ca616246abb44187857eada61ea82e9a2394b851c5faab06041379e3ddd5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-lazy python3.10dist(lazy) python310-lazy python3dist(lazy)"
+RPROVIDES:${PN} += "python3-lazy \
+python3.10dist(lazy) \
+python310-lazy \
+python3dist(lazy)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

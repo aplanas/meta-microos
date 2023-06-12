@@ -23,7 +23,20 @@ PV = "2.46"
 RPM_NAME = "perl-XML-Parser-2.46-1.19.aarch64.rpm"
 RPM_HASH = "9e40127a84752a8118f58ad0f42f298c90eae4bf325531891afa397b0b272a94e4d99cd9e5d29ff20c278a695f24a5090cc487a8bbbe344df8fc7dc1aa5f6923"
 
-RPROVIDES:${PN} += "perl(XML::Parser) perl(XML::Parser::Expat) perl(XML::Parser::Style::Debug) perl(XML::Parser::Style::Objects) perl(XML::Parser::Style::Stream) perl(XML::Parser::Style::Subs) perl(XML::Parser::Style::Tree) perl-XML-Parser perl-XML-Parser(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libexpat.so.1()(64bit) perl(:MODULE_COMPAT_5.36.0) perl(LWP::UserAgent)"
+RPROVIDES:${PN} += "perl(XML::Parser) \
+perl(XML::Parser::Expat) \
+perl(XML::Parser::Style::Debug) \
+perl(XML::Parser::Style::Objects) \
+perl(XML::Parser::Style::Stream) \
+perl(XML::Parser::Style::Subs) \
+perl(XML::Parser::Style::Tree) \
+perl-XML-Parser \
+perl-XML-Parser(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libexpat.so.1()(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(LWP::UserAgent)"
 
 inherit rpm

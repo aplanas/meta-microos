@@ -15,7 +15,10 @@ RPM_NAME = "python310-Cycler-0.11.0-2.1.noarch.rpm"
 RPM_HASH = "8f60376c18220662733c6dc62200d752e09e5a257e24aed9fa069c5a7f232fd23a2b6cddce768e14e02c3e2bf38fcc7223bb4535894efe87630be1799dc72506"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Cycler python3.10dist(cycler) python310-Cycler python3dist(cycler)"
+RPROVIDES:${PN} += "python3-Cycler \
+python3.10dist(cycler) \
+python310-Cycler \
+python3dist(cycler)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

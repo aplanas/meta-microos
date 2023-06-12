@@ -16,7 +16,8 @@ RPM_NAME = "perl-HTML-Tagset-3.20-73.26.noarch.rpm"
 RPM_HASH = "679b52e836a49ab0f2a0b408d7b2adbdd0f6da5794c2cc39eed4cb5944375803d63faa74a83c13e6c285793b462a4cda99a6058e99f4585ad8b53e98cc0dfbc1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTML::Tagset) perl-HTML-Tagset"
+RPROVIDES:${PN} += "perl(HTML::Tagset) \
+perl-HTML-Tagset"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

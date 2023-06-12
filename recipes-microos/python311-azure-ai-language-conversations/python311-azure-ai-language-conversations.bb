@@ -14,7 +14,15 @@ RPM_NAME = "python311-azure-ai-language-conversations-1.1.0b1-1.5.noarch.rpm"
 RPM_HASH = "ac7fbbc361c0baf8bfc92bd96dc6d6fa839eb22a2a2ca7a599c849130ef686c2e8b0bc7e473e7cb493a87a235e925356f92b63dc28fd11eb729d301be3e99a2e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-ai-language-conversations) python311-azure-ai-language-conversations python3dist(azure-ai-language-conversations)"
-RDEPENDS:${PN} += "python(abi) python311-azure-ai-language-nspkg python311-azure-ai-nspkg python311-azure-common python311-azure-core python311-msrest python311-six"
+RPROVIDES:${PN} += "python3.11dist(azure-ai-language-conversations) \
+python311-azure-ai-language-conversations \
+python3dist(azure-ai-language-conversations)"
+RDEPENDS:${PN} += "python(abi) \
+python311-azure-ai-language-nspkg \
+python311-azure-ai-nspkg \
+python311-azure-common \
+python311-azure-core \
+python311-msrest \
+python311-six"
 
 inherit rpm

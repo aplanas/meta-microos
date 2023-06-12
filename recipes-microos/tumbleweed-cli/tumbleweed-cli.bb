@@ -10,6 +10,12 @@ RPM_HASH = "d47d9b17d916d3cc21ea2f3f7998cc9f860f353101c3cb16cc4b0ea42af1418f3d2e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tumbleweed-cli"
-RDEPENDS:${PN} += "/usr/bin/env coreutils curl grep libzypp(repovarexpand) sudo zypper"
+RDEPENDS:${PN} += "/usr/bin/env \
+coreutils \
+curl \
+grep \
+libzypp(repovarexpand) \
+sudo \
+zypper"
 
 inherit rpm

@@ -11,7 +11,21 @@ RPM_NAME = "texlive-etexcmds-2023.201.1.7svn53171-52.1.noarch.rpm"
 RPM_HASH = "4905ff7f0deb6208d36c9cde74da005e8a639acb464b8924c007bca4c0954a64451dfb49b1729870f10c836f2adcb9a36cf287b1617466e0e0d7a1d4513b883d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(etexcmds.sty) texlive-etexcmds"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(iftex.sty) tex(infwarerr.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(etexcmds.sty) \
+texlive-etexcmds"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(iftex.sty) \
+tex(infwarerr.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

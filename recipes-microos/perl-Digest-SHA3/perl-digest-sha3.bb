@@ -48,7 +48,13 @@ PV = "1.05"
 RPM_NAME = "perl-Digest-SHA3-1.05-1.2.aarch64.rpm"
 RPM_HASH = "d03d31b4ef98c3f69b5e27ff74fc215a8a7b5107f6152b9ac8c63fbd0e2bdb8318e17a12b0f1dfb8c0a11974688092c4e4f585829af08171abc629c8a76a0383"
 
-RPROVIDES:${PN} += "perl(Digest::SHA3) perl-Digest-SHA3 perl-Digest-SHA3(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Digest::SHA3) \
+perl-Digest-SHA3 \
+perl-Digest-SHA3(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -12,6 +12,10 @@ RPM_HASH = "c12b5b56e315ff377256d689e67be5c7d54f76623a0d73d16ff6da50d233367abc67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crypto-policies-scripts"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/python3 /usr/bin/sh crypto-policies"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/python3 \
+/usr/bin/sh \
+crypto-policies"
 
 inherit rpm

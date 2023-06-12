@@ -11,7 +11,8 @@ PV = "16.0.4"
 RPM_NAME = "python3-lldb-16.0.4-1.1.aarch64.rpm"
 RPM_HASH = "c99dd756c4932bfc3749f661582e0cab24bd4b35a870e572c4f410e6ca2b9bcbf456864b24bd6182729a4cbee518243d23cee58a711f6df11336a7766e08131f"
 
-RPROVIDES:${PN} += "python3-lldb python3-lldb(aarch-64)"
+RPROVIDES:${PN} += "python3-lldb \
+python3-lldb(aarch-64)"
 RDEPENDS:${PN} += "python3-lldb16"
 
 inherit rpm

@@ -11,7 +11,11 @@ RPM_NAME = "python310-requests-toolbelt-1.0.0-1.1.noarch.rpm"
 RPM_HASH = "c495531c45802d84e87c36e874f9aeb891a821a16464318bac9e40ebbc79b23c61b37aba7d410d73a20ba1057d318922a7300f14ea8a32166309bd7b8de7a736"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-requests-toolbelt python3.10dist(requests-toolbelt) python310-requests-toolbelt python3dist(requests-toolbelt)"
-RDEPENDS:${PN} += "python(abi) python310-requests"
+RPROVIDES:${PN} += "python3-requests-toolbelt \
+python3.10dist(requests-toolbelt) \
+python310-requests-toolbelt \
+python3dist(requests-toolbelt)"
+RDEPENDS:${PN} += "python(abi) \
+python310-requests"
 
 inherit rpm

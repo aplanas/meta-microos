@@ -18,7 +18,12 @@ RPM_NAME = "python311-requests-cache-1.0.1-1.1.noarch.rpm"
 RPM_HASH = "a9ea9b0c21a9f79e591ae221bc5f2efc0b7e022fa18fc3f713e9baa9149855b8a42d154e45e70390936690d441618076444e1532d1ce11421b46bf4622cadfdb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(requests-cache) python311-requests-cache python3dist(requests-cache)"
-RDEPENDS:${PN} += "python(abi) python311-itsdangerous python311-requests python311-url-normalize"
+RPROVIDES:${PN} += "python3.11dist(requests-cache) \
+python311-requests-cache \
+python3dist(requests-cache)"
+RDEPENDS:${PN} += "python(abi) \
+python311-itsdangerous \
+python311-requests \
+python311-url-normalize"
 
 inherit rpm

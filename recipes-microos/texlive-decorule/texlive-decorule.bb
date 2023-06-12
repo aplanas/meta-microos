@@ -13,7 +13,21 @@ RPM_NAME = "texlive-decorule-2023.201.0.0.7svn55230-52.1.noarch.rpm"
 RPM_HASH = "ae6401ed83bb28090a47fda4d667b79ea82fcb1ae434f075642143c14b7eacf096c71e0ec6cadfdf8eba853e62a01bd571942de15022bdba829c3b9eb4b160f7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(decorule.sty) texlive-decorule"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(fix-cm.sty) tex(graphicx.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(decorule.sty) \
+texlive-decorule"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(fix-cm.sty) \
+tex(graphicx.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

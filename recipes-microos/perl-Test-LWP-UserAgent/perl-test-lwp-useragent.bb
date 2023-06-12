@@ -54,7 +54,19 @@ RPM_NAME = "perl-Test-LWP-UserAgent-0.036-1.7.noarch.rpm"
 RPM_HASH = "6efcece476d2bd8e3965b7b212bd828d0edeff6a5561f7c3210032a3d133768a8c0e2c1d02397bd650b7e41949d2b8cd7ae91fa48c3a3ef15f132e7b94c02b94"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::LWP::UserAgent) perl-Test-LWP-UserAgent"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(HTTP::Date) perl(HTTP::Request) perl(HTTP::Response) perl(HTTP::Status) perl(IO::Socket::IP) perl(LWP::UserAgent) perl(Safe::Isa) perl(Try::Tiny) perl(URI) perl(namespace::clean) perl(parent)"
+RPROVIDES:${PN} += "perl(Test::LWP::UserAgent) \
+perl-Test-LWP-UserAgent"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(HTTP::Date) \
+perl(HTTP::Request) \
+perl(HTTP::Response) \
+perl(HTTP::Status) \
+perl(IO::Socket::IP) \
+perl(LWP::UserAgent) \
+perl(Safe::Isa) \
+perl(Try::Tiny) \
+perl(URI) \
+perl(namespace::clean) \
+perl(parent)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "e86fd697488afb4a9678ff4de58ca40847b0f1ba0361c1963acdd152f778da7d0bb6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rage-encryption-bash-completion"
-RDEPENDS:${PN} += "bash-completion rage-encryption"
+RDEPENDS:${PN} += "bash-completion \
+rage-encryption"
 
 inherit rpm

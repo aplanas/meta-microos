@@ -14,7 +14,10 @@ RPM_NAME = "python310-ftputil-3.4-3.15.noarch.rpm"
 RPM_HASH = "09d267c9d449f48c13bd1c111bf56f78ca7607e483906b0fffc2d943a0da418b7635ddfabcc676420b9971de8f3ab0ad3c45c812db07399d41cbe88fdf8c088c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ftputil python3.10dist(ftputil) python310-ftputil python3dist(ftputil)"
+RPROVIDES:${PN} += "python3-ftputil \
+python3.10dist(ftputil) \
+python310-ftputil \
+python3dist(ftputil)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

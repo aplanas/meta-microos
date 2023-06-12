@@ -16,7 +16,21 @@ RPM_NAME = "texlive-pst-solides3d-2023.201.4.34asvn61719-53.1.noarch.rpm"
 RPM_HASH = "33b9ddb658c85eb6dd41c0da66d3d00078543c36d1399c7769fb3697bbb9723c913425fbc9dda5950b043a884829419f06151ee8cc5b9d322c351a5a0fe4dd55"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-solides3d.sty) tex(pst-solides3d.tex) texlive-pst-solides3d"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(pstricks.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(pst-solides3d.sty) \
+tex(pst-solides3d.tex) \
+texlive-pst-solides3d"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(pstricks.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

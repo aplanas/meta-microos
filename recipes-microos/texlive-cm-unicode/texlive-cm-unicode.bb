@@ -17,7 +17,36 @@ RPM_NAME = "texlive-cm-unicode-2023.201.0.0.7.0svn58661-53.1.noarch.rpm"
 RPM_HASH = "ffefd21974f00f0726e43fa2f376384cf793fae927f608fcc77f1c2a97020357ea61360f513805668905a257459955ed9c09684b5384449c665af725406c1c3f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cmu-ec.enc) tex(cmu-ecsc.enc) tex(cmu-g.enc) tex(cmu-gsc.enc) tex(cmu-la.enc) tex(cmu-lasc.enc) tex(cmu-lb.enc) tex(cmu-lc.enc) tex(cmu-ld.enc) tex(cmu-rx.enc) tex(cmu-tc.enc) tex(cmu-tipa.enc) tex(cmu-tipx.enc) tex(cmu-ux.enc) tex(cmu-uxsc.enc) tex(cmu-vn.enc) tex(cmu.map) texlive-cm-unicode"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-cm-unicode-fonts texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(cmu-ec.enc) \
+tex(cmu-ecsc.enc) \
+tex(cmu-g.enc) \
+tex(cmu-gsc.enc) \
+tex(cmu-la.enc) \
+tex(cmu-lasc.enc) \
+tex(cmu-lb.enc) \
+tex(cmu-lc.enc) \
+tex(cmu-ld.enc) \
+tex(cmu-rx.enc) \
+tex(cmu-tc.enc) \
+tex(cmu-tipa.enc) \
+tex(cmu-tipx.enc) \
+tex(cmu-ux.enc) \
+tex(cmu-uxsc.enc) \
+tex(cmu-vn.enc) \
+tex(cmu.map) \
+texlive-cm-unicode"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-cm-unicode-fonts \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

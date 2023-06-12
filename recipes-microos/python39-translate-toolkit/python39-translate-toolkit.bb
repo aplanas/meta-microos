@@ -24,7 +24,17 @@ RPM_NAME = "python39-translate-toolkit-3.8.6-1.2.noarch.rpm"
 RPM_HASH = "f3da5a0606e7fcad4767f6b03e13b9ecc03ddd9d69af0ff1035213d97f3111ec45fbe7ee233a6ee5cb47c5a1c6d5d233d1d616a4624582784e09f5cba17c4553"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(translate-toolkit) python39-translate-toolkit python3dist(translate-toolkit)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/python3.9 gettext-runtime python(abi) python39 python39-lxml python39-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(translate-toolkit) \
+python39-translate-toolkit \
+python3dist(translate-toolkit)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/python3.9 \
+gettext-runtime \
+python(abi) \
+python39 \
+python39-lxml \
+python39-setuptools \
+update-alternatives"
 
 inherit rpm

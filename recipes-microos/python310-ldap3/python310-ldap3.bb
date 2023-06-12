@@ -12,7 +12,11 @@ RPM_NAME = "python310-ldap3-2.9.1-1.10.noarch.rpm"
 RPM_HASH = "85ef043f1670ba745de0e1cf5278a78d1a8c81a27c5c8a7ef6787ce18e89bbfb3b9d3a678a1965df22a53aede1f80cd3f464064cf2013ca94741d63e21daddd9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ldap3 python3.10dist(ldap3) python310-ldap3 python3dist(ldap3)"
-RDEPENDS:${PN} += "python(abi) python310-pyasn1"
+RPROVIDES:${PN} += "python3-ldap3 \
+python3.10dist(ldap3) \
+python310-ldap3 \
+python3dist(ldap3)"
+RDEPENDS:${PN} += "python(abi) \
+python310-pyasn1"
 
 inherit rpm

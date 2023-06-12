@@ -12,7 +12,36 @@ PV = "1.6.0"
 RPM_NAME = "libSoQt20-1.6.0-2.8.aarch64.rpm"
 RPM_HASH = "87f9e8000a6af84c04b30f9f47e7d24ed232f21725035166d5d7f5e5e0bd9ee48054bb675b92442be6deaaafdd76657f0f7420b9d0faa0da12aeeb2ba614f131"
 
-RPROVIDES:${PN} += "libSoQt.so.20()(64bit) libSoQt20 libSoQt20(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libCoin.so.80()(64bit) libOpenGL.so.0()(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5Gui.so.5()(64bit) libQt5Gui.so.5(Qt_5)(64bit) libQt5OpenGL.so.5()(64bit) libQt5OpenGL.so.5(Qt_5)(64bit) libQt5Widgets.so.5()(64bit) libQt5Widgets.so.5(Qt_5)(64bit) libX11.so.6()(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
+RPROVIDES:${PN} += "libSoQt.so.20()(64bit) \
+libSoQt20 \
+libSoQt20(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libCoin.so.80()(64bit) \
+libOpenGL.so.0()(64bit) \
+libQt5Core.so.5()(64bit) \
+libQt5Core.so.5(Qt_5)(64bit) \
+libQt5Gui.so.5()(64bit) \
+libQt5Gui.so.5(Qt_5)(64bit) \
+libQt5OpenGL.so.5()(64bit) \
+libQt5OpenGL.so.5(Qt_5)(64bit) \
+libQt5Widgets.so.5()(64bit) \
+libQt5Widgets.so.5(Qt_5)(64bit) \
+libX11.so.6()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.8)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
 
 inherit rpm

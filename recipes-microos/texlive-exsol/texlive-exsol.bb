@@ -19,7 +19,25 @@ RPM_NAME = "texlive-exsol-2023.201.1.4svn48977-52.1.noarch.rpm"
 RPM_HASH = "2c8007700cb8f6a2e3f133a3522d67e0a3a70da615232db629c913c93571af83423900ff0aeba6c0297ffbb0af6b66d0f20c724c067d78f83e3e1dc70a850b2a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(exsol.sty) texlive-exsol"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(fancyvrb.sty) tex(ifmtarg.sty) tex(ifthen.sty) tex(kvoptions.sty) tex(multicol.sty) tex(varwidth.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(exsol.sty) \
+texlive-exsol"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(fancyvrb.sty) \
+tex(ifmtarg.sty) \
+tex(ifthen.sty) \
+tex(kvoptions.sty) \
+tex(multicol.sty) \
+tex(varwidth.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -11,7 +11,22 @@ PV = "2.5.1"
 RPM_NAME = "libmpdec++3-2.5.1-2.13.aarch64.rpm"
 RPM_HASH = "eb196ac2add84ce12cf89e2af9b97e78feaa24480c621ed4b1941769f072766d84ddcc06068426e4af4a5536cc92208436a074df9f572d2289cd8695d0d2a83a"
 
-RPROVIDES:${PN} += "libmpdec++.so.3()(64bit) libmpdec++3 libmpdec++3(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.32)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libmpdec.so.3()(64bit) libmpdec3 libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+RPROVIDES:${PN} += "libmpdec++.so.3()(64bit) \
+libmpdec++3 \
+libmpdec++3(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.32)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libmpdec.so.3()(64bit) \
+libmpdec3 \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
 
 inherit rpm

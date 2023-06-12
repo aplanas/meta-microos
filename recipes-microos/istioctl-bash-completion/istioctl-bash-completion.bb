@@ -9,6 +9,7 @@ RPM_HASH = "ec7a51009824afefd1567d4ed9a62f3de584b1d1f518826686b37fdd436aed89665b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istioctl-bash-completion"
-RDEPENDS:${PN} += "bash-completion istioctl"
+RDEPENDS:${PN} += "bash-completion \
+istioctl"
 
 inherit rpm

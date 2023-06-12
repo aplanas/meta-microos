@@ -23,7 +23,14 @@ RPM_NAME = "perl-Config-Crontab-1.45-1.23.noarch.rpm"
 RPM_HASH = "b0165c43e6fafbad959da2cee7ef136754fa5d1001906f126675ba933b9f1b2dc60d386514c11ba2963cc54af648330a3e00ad1b1f95d6bd41c42287990a0df0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Config::Crontab) perl(Config::Crontab::Base) perl(Config::Crontab::Block) perl(Config::Crontab::Comment) perl(Config::Crontab::Container) perl(Config::Crontab::Env) perl(Config::Crontab::Event) perl-Config-Crontab"
+RPROVIDES:${PN} += "perl(Config::Crontab) \
+perl(Config::Crontab::Base) \
+perl(Config::Crontab::Block) \
+perl(Config::Crontab::Comment) \
+perl(Config::Crontab::Container) \
+perl(Config::Crontab::Env) \
+perl(Config::Crontab::Event) \
+perl-Config-Crontab"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

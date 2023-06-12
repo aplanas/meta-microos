@@ -16,7 +16,14 @@ PV = "1.99.13"
 RPM_NAME = "dd_rescue-crypt-1.99.13-2.2.aarch64.rpm"
 RPM_HASH = "475ed1db87f032d64ee66ee56af498a075b4056e2eeb2736f40383d759e345cae9d810b2d313d8cfb26ad8e1a415b4025fbd8f65b52b0135ab365e770b068425"
 
-RPROVIDES:${PN} += "dd_rescue-crypt dd_rescue-crypt(aarch-64) libddr_crypt.so()(64bit)"
-RDEPENDS:${PN} += "dd_rescue ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.25)(64bit) libcrypto.so.1.1()(64bit) libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)"
+RPROVIDES:${PN} += "dd_rescue-crypt \
+dd_rescue-crypt(aarch-64) \
+libddr_crypt.so()(64bit)"
+RDEPENDS:${PN} += "dd_rescue \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.25)(64bit) \
+libcrypto.so.1.1()(64bit) \
+libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)"
 
 inherit rpm

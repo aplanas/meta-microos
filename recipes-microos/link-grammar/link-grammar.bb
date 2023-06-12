@@ -14,7 +14,12 @@ PV = "5.10.5"
 RPM_NAME = "link-grammar-5.10.5-1.5.aarch64.rpm"
 RPM_HASH = "0f3da16e8e3e389f0b64284e5957f19ad89c23dbb5731a9ff113814610270ac6ce5590a739929010ce8c07d07b863e971876e4ba68ee37376b496ee10932fc67"
 
-RPROVIDES:${PN} += "link-grammar link-grammar(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libedit.so.0()(64bit) liblink-grammar.so.5()(64bit)"
+RPROVIDES:${PN} += "link-grammar \
+link-grammar(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libedit.so.0()(64bit) \
+liblink-grammar.so.5()(64bit)"
 
 inherit rpm

@@ -11,7 +11,11 @@ RPM_NAME = "perl-HTTP-Parser-0.06-1.10.noarch.rpm"
 RPM_HASH = "7aac79c29d6da417f8721d69d5f4d7fd7e3a5f58354d96e6d8a66c84509a10fa53a7f8c6d36451b3881c5a8a453655e3865484dd12f4b8b2c8c07276fdf166ce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Parser) perl-HTTP-Parser"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(HTTP::Request) perl(HTTP::Response) perl(URI)"
+RPROVIDES:${PN} += "perl(HTTP::Parser) \
+perl-HTTP-Parser"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(HTTP::Request) \
+perl(HTTP::Response) \
+perl(URI)"
 
 inherit rpm

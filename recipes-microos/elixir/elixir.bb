@@ -20,7 +20,12 @@ RPM_NAME = "elixir-1.14.2-2.4.noarch.rpm"
 RPM_HASH = "b1d8e533cc6b514b25d391fded7339ab69b9cade8a5930c0bd90524a74cff5817b48f5878ab237286416bcb2a085635c7af6400841947f706981823d15175ff0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "elixir rpm_macro(elixir_dir) rpm_macro(elixir_libdir) rpm_macro(mix_compile)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/env erlang"
+RPROVIDES:${PN} += "elixir \
+rpm_macro(elixir_dir) \
+rpm_macro(elixir_libdir) \
+rpm_macro(mix_compile)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/env \
+erlang"
 
 inherit rpm

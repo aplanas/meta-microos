@@ -12,6 +12,7 @@ RPM_HASH = "57bf0e42a5d43d26363f90b45df79228a82f1ab89b15836f7a990a236f4b72c34b89
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbdime-jupyterlab"
-RDEPENDS:${PN} += "jupyter-jupyterlab python3dist(nbdime)"
+RDEPENDS:${PN} += "jupyter-jupyterlab \
+python3dist(nbdime)"
 
 inherit rpm

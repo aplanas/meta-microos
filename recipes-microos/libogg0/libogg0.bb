@@ -11,7 +11,12 @@ PV = "1.3.5"
 RPM_NAME = "libogg0-1.3.5-1.7.aarch64.rpm"
 RPM_HASH = "d20cea335225a5f4a564c4beed766840746097065c36805bf436f4fa6ed5850d4607d09579b3922565c29f4b70f1a26e48b7fbe72764c46e09d58f68c9b37cd8"
 
-RPROVIDES:${PN} += "libogg.so.0()(64bit) libogg0 libogg0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libogg.so.0()(64bit) \
+libogg0 \
+libogg0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

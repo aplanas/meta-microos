@@ -12,7 +12,8 @@ PV = "1.13.0"
 RPM_NAME = "augeas-lenses-1.13.0-2.1.aarch64.rpm"
 RPM_HASH = "a70b01f526d09dc60ae0016ffbcf6f460805f730f25442de81953253c0bcc566a335c4b071e02510afe6df390e560f7d758db05ae662ed43325b7063be6d3edb"
 
-RPROVIDES:${PN} += "augeas-lenses augeas-lenses(aarch-64)"
+RPROVIDES:${PN} += "augeas-lenses \
+augeas-lenses(aarch-64)"
 RDEPENDS:${PN} += "libaugeas0"
 
 inherit rpm

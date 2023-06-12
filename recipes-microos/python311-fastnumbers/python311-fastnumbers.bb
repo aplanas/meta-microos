@@ -16,7 +16,13 @@ PV = "3.2.1"
 RPM_NAME = "python311-fastnumbers-3.2.1-1.8.aarch64.rpm"
 RPM_HASH = "7bee08fda0fced261b0a5e3a93a97e4039da902e566a3bf3ef8095dd3b515822a267e75c872225b4b682a8a4d61bd5bfab0ca4fd7c9127d3b54a91732332f82d"
 
-RPROVIDES:${PN} += "python3.11dist(fastnumbers) python311-fastnumbers python311-fastnumbers(aarch-64) python3dist(fastnumbers)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.11dist(fastnumbers) \
+python311-fastnumbers \
+python311-fastnumbers(aarch-64) \
+python3dist(fastnumbers)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

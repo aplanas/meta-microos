@@ -12,6 +12,7 @@ RPM_HASH = "feac0ab039921d9e99a36168c4f7603322bd4e8a5586294e52a29dd6dc21ad3889fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracut-sshd"
-RDEPENDS:${PN} += "/bin/bash dracut"
+RDEPENDS:${PN} += "/bin/bash \
+dracut"
 
 inherit rpm

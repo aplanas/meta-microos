@@ -33,7 +33,8 @@ RPM_NAME = "perl-Graphics-ColorUtils-0.17-1.15.noarch.rpm"
 RPM_HASH = "4438c383af159fd5234c749f914701deafcc07d8779c9077e34bab535d96a5e3b2c7a43e14272cb2d7368dcf91ddb28d0ebdb1460045970ad8ff41a846ed6ab5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Graphics::ColorUtils) perl-Graphics-ColorUtils"
+RPROVIDES:${PN} += "perl(Graphics::ColorUtils) \
+perl-Graphics-ColorUtils"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

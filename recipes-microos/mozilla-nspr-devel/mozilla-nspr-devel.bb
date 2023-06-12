@@ -10,7 +10,11 @@ PV = "4.35"
 RPM_NAME = "mozilla-nspr-devel-4.35-1.3.aarch64.rpm"
 RPM_HASH = "fa0017d9c795b5eea38b69b219fc073501aae636d529a57f8175134bbb4cabab1fbe43efca2c08acc3866a79a7b401859121d05204662b60ebc537b17eaabf61"
 
-RPROVIDES:${PN} += "mozilla-nspr-devel mozilla-nspr-devel(aarch-64) pkgconfig(nspr)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config mozilla-nspr"
+RPROVIDES:${PN} += "mozilla-nspr-devel \
+mozilla-nspr-devel(aarch-64) \
+pkgconfig(nspr)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/pkg-config \
+mozilla-nspr"
 
 inherit rpm

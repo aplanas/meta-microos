@@ -14,6 +14,10 @@ RPM_HASH = "d52f86aa5a62ed351f358f9e9d94125196ff1217c28b7d248e668bcd7871689ad81b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-luarepl"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/lua5.1 bash-sh lua51 update-alternatives"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/lua5.1 \
+bash-sh \
+lua51 \
+update-alternatives"
 
 inherit rpm

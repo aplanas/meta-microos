@@ -9,7 +9,13 @@ PV = "0.13"
 RPM_NAME = "xclip-0.13-2.8.aarch64.rpm"
 RPM_HASH = "1ac6dcd470b4567b96c62b774fe418ba1bf2ced6b030036be75b9a8d56a5ed2ffd90a2bcc2c1812f13c2c9569615addb452cada450ee6bd9c430785633bf64a8"
 
-RPROVIDES:${PN} += "xclip xclip(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libXmu.so.6()(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "xclip \
+xclip(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libX11.so.6()(64bit) \
+libXmu.so.6()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

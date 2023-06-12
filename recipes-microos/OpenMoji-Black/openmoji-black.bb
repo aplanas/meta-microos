@@ -9,6 +9,9 @@ RPM_HASH = "448b7389b79998b03c1039495c8e17cef6a8bc28a3e12a854aef41b41c8d2e2e09b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "OpenMoji-Black"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

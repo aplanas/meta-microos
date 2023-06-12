@@ -23,7 +23,10 @@ RPM_NAME = "python310-locket-1.0.0-1.4.noarch.rpm"
 RPM_HASH = "1b72eb202dec98937135bf583f2843d4c4148e784ed78722fae2d557d0ccdad2d40259fbbb774a4b092556851d5b21d596470746f88457aba3d6be3d538999a4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-locket python3.10dist(locket) python310-locket python3dist(locket)"
+RPROVIDES:${PN} += "python3-locket \
+python3.10dist(locket) \
+python310-locket \
+python3dist(locket)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

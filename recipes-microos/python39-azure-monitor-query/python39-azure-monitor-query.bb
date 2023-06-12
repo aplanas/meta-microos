@@ -17,7 +17,14 @@ RPM_NAME = "python39-azure-monitor-query-1.2.0-1.1.noarch.rpm"
 RPM_HASH = "4b9649ab08474c488120f3cd0eb6f61156375881165cb76ba8258b229ee204d7198cd77aeb7b9168d9002fe53a89fa517fca6c47c653da4eb6aa5ce77d93cbd4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-monitor-query) python39-azure-monitor-query python3dist(azure-monitor-query)"
-RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) python(abi) python39-azure-core python39-azure-monitor-nspkg python39-azure-nspkg python39-isodate"
+RPROVIDES:${PN} += "python3.9dist(azure-monitor-query) \
+python39-azure-monitor-query \
+python3dist(azure-monitor-query)"
+RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) \
+python(abi) \
+python39-azure-core \
+python39-azure-monitor-nspkg \
+python39-azure-nspkg \
+python39-isodate"
 
 inherit rpm

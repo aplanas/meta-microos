@@ -19,7 +19,14 @@ RPM_NAME = "emacs-auctex-13.1-2.1.noarch.rpm"
 RPM_HASH = "0e05eaf54f315fb74ead8779d03f43f77544a22e65191e458c4863cb4a1f3a56ec753ec11697bc9b074e15e9249b930d8e80dec2837201f4457efdf78021d3e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "auc-tex auctex config(emacs-auctex) emacs-auctex ge_auc"
-RDEPENDS:${PN} += "/bin/sh emacs texlive-latex texlive-tools"
+RPROVIDES:${PN} += "auc-tex \
+auctex \
+config(emacs-auctex) \
+emacs-auctex \
+ge_auc"
+RDEPENDS:${PN} += "/bin/sh \
+emacs \
+texlive-latex \
+texlive-tools"
 
 inherit rpm

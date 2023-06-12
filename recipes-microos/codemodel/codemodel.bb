@@ -11,7 +11,13 @@ RPM_NAME = "codemodel-2.6-4.4.noarch.rpm"
 RPM_HASH = "114b3344669f74d4c01efcaffe32db7779be2a2118d145ad8b1dd1490484f4fc5de6fec96729a9f59724c1c973104a0c03d68e5b0dbedd967afca84f937f2314"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "codemodel mvn(com.sun.codemodel:codemodel) mvn(com.sun.codemodel:codemodel-annotation-compiler) mvn(com.sun.codemodel:codemodel-annotation-compiler:pom:) mvn(com.sun.codemodel:codemodel-project:pom:) mvn(com.sun.codemodel:codemodel:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "codemodel \
+mvn(com.sun.codemodel:codemodel) \
+mvn(com.sun.codemodel:codemodel-annotation-compiler) \
+mvn(com.sun.codemodel:codemodel-annotation-compiler:pom:) \
+mvn(com.sun.codemodel:codemodel-project:pom:) \
+mvn(com.sun.codemodel:codemodel:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

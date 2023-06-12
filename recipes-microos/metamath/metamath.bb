@@ -10,7 +10,10 @@ PV = "0.198"
 RPM_NAME = "metamath-0.198-7.6.aarch64.rpm"
 RPM_HASH = "475285e20d17181ab70d67cf1cba6c01504c9632d384bca9037ee33e34f582bf36992b540e2ce91081995e99f91e1e4d3d93c15f099e6b94c6a46d40201d7129"
 
-RPROVIDES:${PN} += "metamath metamath(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "metamath \
+metamath(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

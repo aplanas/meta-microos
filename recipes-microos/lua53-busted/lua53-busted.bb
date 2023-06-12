@@ -25,6 +25,22 @@ RPM_HASH = "50427061a79deb732933ea1d14cf705eaf068502f1d932aa38beae9519b8920012f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-busted"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/lua5.3 curl lua53 lua53-cliargs lua53-dkjson lua53-lua-ev lua53-luafilesystem lua53-luassert lua53-luasystem lua53-luaterm lua53-mediator_lua lua53-penlight lua53-say openssl unzip update-alternatives"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/lua5.3 \
+curl \
+lua53 \
+lua53-cliargs \
+lua53-dkjson \
+lua53-lua-ev \
+lua53-luafilesystem \
+lua53-luassert \
+lua53-luasystem \
+lua53-luaterm \
+lua53-mediator_lua \
+lua53-penlight \
+lua53-say \
+openssl \
+unzip \
+update-alternatives"
 
 inherit rpm

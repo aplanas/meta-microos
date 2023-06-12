@@ -10,6 +10,16 @@ RPM_HASH = "491520538f03bb6deb9c773ba9383edda92c202d1a16f2125ac50ee8445dbf44cb38
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pentaho-reporting-flow-engine"
-RDEPENDS:${PN} += "flute java jpackage-utils libbase libfonts libformula liblayout librepository libserializer pentaho-libxml sac"
+RDEPENDS:${PN} += "flute \
+java \
+jpackage-utils \
+libbase \
+libfonts \
+libformula \
+liblayout \
+librepository \
+libserializer \
+pentaho-libxml \
+sac"
 
 inherit rpm

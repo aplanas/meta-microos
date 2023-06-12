@@ -17,7 +17,13 @@ RPM_NAME = "sbinary-0.4.2-4.1.noarch.rpm"
 RPM_HASH = "b0bc3a611674b00a31dca6ce4520155af6fbc2f09646001f89422a28da0e75c4f35db35c486b1402726218a05decb266bca1703cf2cfef6f6aa286b3dd196379"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.scala-tools.sbinary:sbinary_2.10) mvn(org.scala-tools.sbinary:sbinary_2.10:pom:) sbinary"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem javapackages-tools mvn(org.scala-lang:scala-library) scala"
+RPROVIDES:${PN} += "mvn(org.scala-tools.sbinary:sbinary_2.10) \
+mvn(org.scala-tools.sbinary:sbinary_2.10:pom:) \
+sbinary"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+javapackages-tools \
+mvn(org.scala-lang:scala-library) \
+scala"
 
 inherit rpm

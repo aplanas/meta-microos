@@ -27,7 +27,24 @@ RPM_NAME = "texlive-tabu-2023.201.2.9svn61719-54.1.noarch.rpm"
 RPM_HASH = "2b5bd27a8eb8e20cfb408a58d0bd3920f20a6512fa7ed100c971ccc32870dc29e7abcb322deeb27480ad836014101b2bb7c0bcfa9fa7b56d9f533475e317bff3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tabu.sty) texlive-tabu"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(array.sty) tex(delarray.sty) tex(linegoal.sty) tex(varwidth.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin texlive-varwidth"
+RPROVIDES:${PN} += "tex(tabu.sty) \
+texlive-tabu"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(array.sty) \
+tex(delarray.sty) \
+tex(linegoal.sty) \
+tex(varwidth.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-varwidth"
 
 inherit rpm

@@ -11,7 +11,10 @@ RPM_NAME = "maven-resolver-1.9.8-1.1.noarch.rpm"
 RPM_HASH = "e311ac152104be365669ef29c412325caf8e01c6eff3c4201ea957689ea7a8e694ff5eb71cf8ce2fe8f47dc4b15823aeac7e51f76e0572bf63526098839d1f9e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "maven-resolver mvn(org.apache.maven.resolver:maven-resolver:pom:) mvn(org.eclipse.aether:aether:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "maven-resolver \
+mvn(org.apache.maven.resolver:maven-resolver:pom:) \
+mvn(org.eclipse.aether:aether:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

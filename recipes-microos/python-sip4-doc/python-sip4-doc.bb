@@ -14,7 +14,9 @@ RPM_NAME = "python-sip4-doc-4.19.25-6.5.noarch.rpm"
 RPM_HASH = "44c21a1f8f6d0256f8609f586ac7580bbf599857ebb7446dd3e2392f5813737a60f6350cdcc4b1f0549d3efcb3959b23f537a02202010dd655d8cb41e82bdab3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python-sip4-doc python310-sip4-doc python39-sip4-doc"
+RPROVIDES:${PN} += "python-sip4-doc \
+python310-sip4-doc \
+python39-sip4-doc"
 RDEPENDS:${PN} += ""
 
 inherit rpm

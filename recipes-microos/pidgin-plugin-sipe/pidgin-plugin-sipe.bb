@@ -22,7 +22,10 @@ RPM_NAME = "pidgin-plugin-sipe-1.25.0-2.10.noarch.rpm"
 RPM_HASH = "a2e7fa44f1d9d06d3f97df4b6e5494bdab58afa3065688301665e6f2984f8f3ba5c89bed2f3e0be801ff76c970507c89f3857faa0ad75c3223081f1b857e7822"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "metainfo() metainfo(pidgin-sipe.metainfo.xml) pidgin-plugin-sipe pidgin-sipe"
+RPROVIDES:${PN} += "metainfo() \
+metainfo(pidgin-sipe.metainfo.xml) \
+pidgin-plugin-sipe \
+pidgin-sipe"
 RDEPENDS:${PN} += "libpurple-plugin-sipe"
 
 inherit rpm

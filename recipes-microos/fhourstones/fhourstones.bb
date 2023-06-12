@@ -8,7 +8,11 @@ PV = "3.1+git.20150122"
 RPM_NAME = "fhourstones-3.1+git.20150122-2.9.aarch64.rpm"
 RPM_HASH = "9ff6b663e179cd8ae22328fd4ab8b013f1d60b82e2374dab755125b8a4acf582d4b9189d61b1c0f3ab1f543de79574e705e8b11e199302912b8d47009cf8f36f"
 
-RPROVIDES:${PN} += "fhourstones fhourstones(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "fhourstones \
+fhourstones(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

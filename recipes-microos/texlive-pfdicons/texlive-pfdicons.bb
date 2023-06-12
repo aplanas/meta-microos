@@ -15,7 +15,21 @@ RPM_NAME = "texlive-pfdicons-2023.201.1.0asvn60089-51.1.noarch.rpm"
 RPM_HASH = "5206e847fb0e584b2fc5e784fb300870af8b0af2aeb9719f91977562fd8365be1a83b58e4417700bc812d9b67c719b72d14dd3df0736e931a579ebe86f9f633d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pfdicons.sty) texlive-pfdicons"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifthen.sty) tex(tikz.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(pfdicons.sty) \
+texlive-pfdicons"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifthen.sty) \
+tex(tikz.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

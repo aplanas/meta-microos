@@ -7,7 +7,29 @@ PV = "6.5.1"
 RPM_NAME = "qt6-opcua-imports-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "3927e7222fcae18bd9b4a9aae93d10bf0f2ff5e823c0bc96fb393048e1d7ece3efd8b31538d69abea1750661d1a7e0a23dd22fd47b916b21a0c68560d4bb819b"
 
-RPROVIDES:${PN} += "libdeclarativeopcuaplugin.so()(64bit) libdeclarativeopcuaplugin.so(Qt_6)(64bit) libdeclarativeopcuaplugin.so(Qt_6.0)(64bit) libdeclarativeopcuaplugin.so(Qt_6.1)(64bit) libdeclarativeopcuaplugin.so(Qt_6.2)(64bit) libdeclarativeopcuaplugin.so(Qt_6.3)(64bit) libdeclarativeopcuaplugin.so(Qt_6.4)(64bit) libdeclarativeopcuaplugin.so(Qt_6.5)(64bit) libdeclarativeopcuaplugin.so(Qt_6.5.1_PRIVATE_API)(64bit) qt6-opcua-imports qt6-opcua-imports(aarch-64)"
-RDEPENDS:${PN} += "libQt6Core.so.6()(64bit) libQt6Core.so.6(Qt_6)(64bit) libQt6Core.so.6(Qt_6.5)(64bit) libQt6DeclarativeOpcua.so.6()(64bit) libQt6DeclarativeOpcua.so.6(Qt_6)(64bit) libQt6Qml.so.6()(64bit) libQt6Qml.so.6(Qt_6)(64bit) libc.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) qt6-opcua"
+RPROVIDES:${PN} += "libdeclarativeopcuaplugin.so()(64bit) \
+libdeclarativeopcuaplugin.so(Qt_6)(64bit) \
+libdeclarativeopcuaplugin.so(Qt_6.0)(64bit) \
+libdeclarativeopcuaplugin.so(Qt_6.1)(64bit) \
+libdeclarativeopcuaplugin.so(Qt_6.2)(64bit) \
+libdeclarativeopcuaplugin.so(Qt_6.3)(64bit) \
+libdeclarativeopcuaplugin.so(Qt_6.4)(64bit) \
+libdeclarativeopcuaplugin.so(Qt_6.5)(64bit) \
+libdeclarativeopcuaplugin.so(Qt_6.5.1_PRIVATE_API)(64bit) \
+qt6-opcua-imports \
+qt6-opcua-imports(aarch-64)"
+RDEPENDS:${PN} += "libQt6Core.so.6()(64bit) \
+libQt6Core.so.6(Qt_6)(64bit) \
+libQt6Core.so.6(Qt_6.5)(64bit) \
+libQt6DeclarativeOpcua.so.6()(64bit) \
+libQt6DeclarativeOpcua.so.6(Qt_6)(64bit) \
+libQt6Qml.so.6()(64bit) \
+libQt6Qml.so.6(Qt_6)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+qt6-opcua"
 
 inherit rpm

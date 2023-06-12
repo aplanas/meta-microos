@@ -11,7 +11,8 @@ PV = "16.08.3"
 RPM_NAME = "kdgantt2-16.08.3-4.16.aarch64.rpm"
 RPM_HASH = "8c11f93c3bb394cac5424a2480bb86c49243d77e953ea9629bc0ce22c63f20fc62e6e9265a622c864d1f4a89e89b4b51ec8f01947b852b76298a441de6702e7a"
 
-RPROVIDES:${PN} += "kdgantt2 kdgantt2(aarch-64)"
+RPROVIDES:${PN} += "kdgantt2 \
+kdgantt2(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

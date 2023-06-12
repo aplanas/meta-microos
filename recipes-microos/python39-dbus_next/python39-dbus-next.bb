@@ -22,7 +22,9 @@ RPM_NAME = "python39-dbus_next-0.2.3-1.10.noarch.rpm"
 RPM_HASH = "ec1890635e71e80df1674a77e8ebdc932dc32e3778264dcf955233f04b80473116c9f8cda82c2de360f7be57ff4a387700e4650ea5dad18d2cf4e50e98a836dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(dbus-next) python39-dbus_next python3dist(dbus-next)"
+RPROVIDES:${PN} += "python3.9dist(dbus-next) \
+python39-dbus_next \
+python3dist(dbus-next)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

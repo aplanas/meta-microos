@@ -28,7 +28,19 @@ RPM_NAME = "perl-HTML-TokeParser-Simple-3.16-5.24.noarch.rpm"
 RPM_HASH = "d3496a97e74a8cd79c7d02e7eea69358efdd0a29c78e1bb72d1e4211b8858c14544caeac7a76cecab950e816f7e2edee506b3f9aa0e2f3e18c408d47257a54d6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTML::TokeParser::Simple) perl(HTML::TokeParser::Simple::Token) perl(HTML::TokeParser::Simple::Token::Comment) perl(HTML::TokeParser::Simple::Token::Declaration) perl(HTML::TokeParser::Simple::Token::ProcessInstruction) perl(HTML::TokeParser::Simple::Token::Tag) perl(HTML::TokeParser::Simple::Token::Tag::End) perl(HTML::TokeParser::Simple::Token::Tag::Start) perl(HTML::TokeParser::Simple::Token::Text) perl-HTML-TokeParser-Simple"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(HTML::Parser) perl(HTML::TokeParser) perl(Sub::Override)"
+RPROVIDES:${PN} += "perl(HTML::TokeParser::Simple) \
+perl(HTML::TokeParser::Simple::Token) \
+perl(HTML::TokeParser::Simple::Token::Comment) \
+perl(HTML::TokeParser::Simple::Token::Declaration) \
+perl(HTML::TokeParser::Simple::Token::ProcessInstruction) \
+perl(HTML::TokeParser::Simple::Token::Tag) \
+perl(HTML::TokeParser::Simple::Token::Tag::End) \
+perl(HTML::TokeParser::Simple::Token::Tag::Start) \
+perl(HTML::TokeParser::Simple::Token::Text) \
+perl-HTML-TokeParser-Simple"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(HTML::Parser) \
+perl(HTML::TokeParser) \
+perl(Sub::Override)"
 
 inherit rpm

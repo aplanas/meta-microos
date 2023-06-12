@@ -10,6 +10,7 @@ RPM_HASH = "24247ede5cb50dd248dac5f3e776f8b4cc58be1db7c7423780fea13d22e24d21eefe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netbeans-resolver"
-RDEPENDS:${PN} += "java javapackages-tools"
+RDEPENDS:${PN} += "java \
+javapackages-tools"
 
 inherit rpm

@@ -11,6 +11,20 @@ RPM_HASH = "a5ce36f7f4b282acb2b3847f2283db2d92239e419f9c4592b162b8c72a04e577ad09
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-local"
-RDEPENDS:${PN} += "javapackages-local javapackages-tools mvn(junit:junit) mvn(org.apache.maven.plugins:maven-compiler-plugin) mvn(org.apache.maven.plugins:maven-jar-plugin) mvn(org.apache.maven.plugins:maven-javadoc-plugin) mvn(org.apache.maven.plugins:maven-resources-plugin) mvn(org.apache.maven.plugins:maven-surefire-plugin) mvn(org.apache.maven.surefire:surefire-junit4) mvn(org.apache.maven.surefire:surefire-testng) xmvn-connector-aether xmvn-install xmvn-minimal xmvn-mojo xmvn-resolve"
+RDEPENDS:${PN} += "javapackages-local \
+javapackages-tools \
+mvn(junit:junit) \
+mvn(org.apache.maven.plugins:maven-compiler-plugin) \
+mvn(org.apache.maven.plugins:maven-jar-plugin) \
+mvn(org.apache.maven.plugins:maven-javadoc-plugin) \
+mvn(org.apache.maven.plugins:maven-resources-plugin) \
+mvn(org.apache.maven.plugins:maven-surefire-plugin) \
+mvn(org.apache.maven.surefire:surefire-junit4) \
+mvn(org.apache.maven.surefire:surefire-testng) \
+xmvn-connector-aether \
+xmvn-install \
+xmvn-minimal \
+xmvn-mojo \
+xmvn-resolve"
 
 inherit rpm

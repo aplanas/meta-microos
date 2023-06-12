@@ -19,7 +19,36 @@ RPM_NAME = "texlive-lollipop-2023.201.1.07svn45678-54.1.noarch.rpm"
 RPM_HASH = "ff84f62198c418ddb406b4a8dd997ae0127d3ad7494d2157a9c2ec001bbb629c235bc1debab6f939596c68deaa243073a9b76667bdbcc4d5ab5d43bb94925550"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lollipop-define.tex) tex(lollipop-document.tex) tex(lollipop-float.tex) tex(lollipop-fontdefs.tex) tex(lollipop-fonts.tex) tex(lollipop-heading.tex) tex(lollipop-lists.tex) tex(lollipop-output.tex) tex(lollipop-plain.tex) tex(lollipop-text.tex) tex(lollipop-tools.tex) tex(lollipop.tex) texlive-lollipop"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(language.dat) tex(language.dat.lua) tex(language.def) texlive texlive-cm texlive-filesystem texlive-hyphen-base texlive-kpathsea texlive-kpathsea-bin texlive-lollipop-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(lollipop-define.tex) \
+tex(lollipop-document.tex) \
+tex(lollipop-float.tex) \
+tex(lollipop-fontdefs.tex) \
+tex(lollipop-fonts.tex) \
+tex(lollipop-heading.tex) \
+tex(lollipop-lists.tex) \
+tex(lollipop-output.tex) \
+tex(lollipop-plain.tex) \
+tex(lollipop-text.tex) \
+tex(lollipop-tools.tex) \
+tex(lollipop.tex) \
+texlive-lollipop"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(language.dat) \
+tex(language.dat.lua) \
+tex(language.def) \
+texlive \
+texlive-cm \
+texlive-filesystem \
+texlive-hyphen-base \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-lollipop-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -16,7 +16,23 @@ RPM_NAME = "texlive-xcolor-2023.201.2.14svn63563-52.1.noarch.rpm"
 RPM_HASH = "c8adfd53f9d42171261c380a923ecfbf8967193e91aae392e88110b422080ea5ffadbcd95f4c7c555c81100d23bcc8191513d3370911576a81f0676ce50e1778"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(svgnam.def) tex(x11nam.def) tex(xcolor.sty) texlive-xcolor"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(colortbl.sty) tex(pdfcolmk.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(svgnam.def) \
+tex(x11nam.def) \
+tex(xcolor.sty) \
+texlive-xcolor"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(colortbl.sty) \
+tex(pdfcolmk.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -34,7 +34,72 @@ RPM_NAME = "texlive-cyklop-2023.204.0.0.915svn18651-54.1.noarch.rpm"
 RPM_HASH = "4c660db743992d165c4d23f71916fb7010a7670f6689c2106f13c386836c6ea08a6ece97425a812b688df5b99c108d25d9fadcf4af8be253880cf26e277c0232"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cs-cyklop-sc.enc) tex(cs-cyklop.enc) tex(cs-cyklopi-sc.tfm) tex(cs-cyklopi.tfm) tex(cs-cyklopr-sc.tfm) tex(cs-cyklopr.tfm) tex(cyklop-cs.map) tex(cyklop-ec.map) tex(cyklop-l7x.map) tex(cyklop-ly1.map) tex(cyklop-qx.map) tex(cyklop-t5.map) tex(cyklop.map) tex(cyklop.sty) tex(ec-cyklop-sc.enc) tex(ec-cyklop.enc) tex(ec-cyklopi-sc.tfm) tex(ec-cyklopi.tfm) tex(ec-cyklopr-sc.tfm) tex(ec-cyklopr.tfm) tex(il2cyklop.fd) tex(l7x-cyklop-sc.enc) tex(l7x-cyklop.enc) tex(l7x-cyklopi-sc.tfm) tex(l7x-cyklopi.tfm) tex(l7x-cyklopr-sc.tfm) tex(l7x-cyklopr.tfm) tex(l7xcyklop.fd) tex(ly1-cyklop-sc.enc) tex(ly1-cyklop.enc) tex(ly1-cyklopi-sc.tfm) tex(ly1-cyklopi.tfm) tex(ly1-cyklopr-sc.tfm) tex(ly1-cyklopr.tfm) tex(ly1cyklop.fd) tex(ot1cyklop.fd) tex(ot4cyklop.fd) tex(qx-cyklop-sc.enc) tex(qx-cyklop.enc) tex(qx-cyklopi-sc.tfm) tex(qx-cyklopi.tfm) tex(qx-cyklopr-sc.tfm) tex(qx-cyklopr.tfm) tex(qxcyklop.fd) tex(t1cyklop.fd) tex(t5-cyklop-sc.enc) tex(t5-cyklop.enc) tex(t5-cyklopi-sc.tfm) tex(t5-cyklopi.tfm) tex(t5-cyklopr-sc.tfm) tex(t5-cyklopr.tfm) tex(t5cyklop.fd) texlive-cyklop"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(updmap.cfg) texlive texlive-cyklop-fonts texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(cs-cyklop-sc.enc) \
+tex(cs-cyklop.enc) \
+tex(cs-cyklopi-sc.tfm) \
+tex(cs-cyklopi.tfm) \
+tex(cs-cyklopr-sc.tfm) \
+tex(cs-cyklopr.tfm) \
+tex(cyklop-cs.map) \
+tex(cyklop-ec.map) \
+tex(cyklop-l7x.map) \
+tex(cyklop-ly1.map) \
+tex(cyklop-qx.map) \
+tex(cyklop-t5.map) \
+tex(cyklop.map) \
+tex(cyklop.sty) \
+tex(ec-cyklop-sc.enc) \
+tex(ec-cyklop.enc) \
+tex(ec-cyklopi-sc.tfm) \
+tex(ec-cyklopi.tfm) \
+tex(ec-cyklopr-sc.tfm) \
+tex(ec-cyklopr.tfm) \
+tex(il2cyklop.fd) \
+tex(l7x-cyklop-sc.enc) \
+tex(l7x-cyklop.enc) \
+tex(l7x-cyklopi-sc.tfm) \
+tex(l7x-cyklopi.tfm) \
+tex(l7x-cyklopr-sc.tfm) \
+tex(l7x-cyklopr.tfm) \
+tex(l7xcyklop.fd) \
+tex(ly1-cyklop-sc.enc) \
+tex(ly1-cyklop.enc) \
+tex(ly1-cyklopi-sc.tfm) \
+tex(ly1-cyklopi.tfm) \
+tex(ly1-cyklopr-sc.tfm) \
+tex(ly1-cyklopr.tfm) \
+tex(ly1cyklop.fd) \
+tex(ot1cyklop.fd) \
+tex(ot4cyklop.fd) \
+tex(qx-cyklop-sc.enc) \
+tex(qx-cyklop.enc) \
+tex(qx-cyklopi-sc.tfm) \
+tex(qx-cyklopi.tfm) \
+tex(qx-cyklopr-sc.tfm) \
+tex(qx-cyklopr.tfm) \
+tex(qxcyklop.fd) \
+tex(t1cyklop.fd) \
+tex(t5-cyklop-sc.enc) \
+tex(t5-cyklop.enc) \
+tex(t5-cyklopi-sc.tfm) \
+tex(t5-cyklopi.tfm) \
+tex(t5-cyklopr-sc.tfm) \
+tex(t5-cyklopr.tfm) \
+tex(t5cyklop.fd) \
+texlive-cyklop"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(updmap.cfg) \
+texlive \
+texlive-cyklop-fonts \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

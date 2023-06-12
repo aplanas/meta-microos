@@ -14,7 +14,9 @@ RPM_NAME = "python311-plaster-1.1.2-1.3.noarch.rpm"
 RPM_HASH = "4924636287475e7abf2a045e75eaeff4bcf9f5f7b3d265d62c174ed1685482dca44b171e45bf4a4edad74bf27843d9de51d601aab4174533476f20cf1c53c3d6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(plaster) python311-plaster python3dist(plaster)"
+RPROVIDES:${PN} += "python3.11dist(plaster) \
+python311-plaster \
+python3dist(plaster)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

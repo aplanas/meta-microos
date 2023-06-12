@@ -13,7 +13,10 @@ RPM_NAME = "python311-construct-2.10.68-1.6.noarch.rpm"
 RPM_HASH = "82202640aab22828ddef489caf2b9b335bf5aea0284d70d5c4bf7ff73fb19a342e1875710518a21cc6b63f15d2f894ea768dd3e31f35475191cbda2954fa133d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(construct) python311-construct python3dist(construct)"
-RDEPENDS:${PN} += "python(abi) python311-arrow"
+RPROVIDES:${PN} += "python3.11dist(construct) \
+python311-construct \
+python3dist(construct)"
+RDEPENDS:${PN} += "python(abi) \
+python311-arrow"
 
 inherit rpm

@@ -14,7 +14,14 @@ RPM_NAME = "python310-pycdlib-1.14.0-1.4.noarch.rpm"
 RPM_HASH = "2b867f73c8b4bd4d73fcd9560acd5300c6ed4cc19b51ba6a767ed6d9d9ec764ad8000d8953710e4f806439643fc7bdc0eccf1966e57b4d792ea7a04b6a9b244a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pycdlib python3.10dist(pycdlib) python310-pycdlib python3dist(pycdlib)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 mkisofs python(abi) python3-pycdlib-common"
+RPROVIDES:${PN} += "python3-pycdlib \
+python3.10dist(pycdlib) \
+python310-pycdlib \
+python3dist(pycdlib)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+mkisofs \
+python(abi) \
+python3-pycdlib-common"
 
 inherit rpm

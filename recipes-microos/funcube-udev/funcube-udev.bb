@@ -9,6 +9,7 @@ RPM_HASH = "410e3974c332800644f3a9a976207d0b3aded4dcfab0f171834e3070848cce46a44c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "funcube-udev"
-RDEPENDS:${PN} += "/bin/sh shadow"
+RDEPENDS:${PN} += "/bin/sh \
+shadow"
 
 inherit rpm

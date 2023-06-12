@@ -13,7 +13,9 @@ PV = "5.5.4"
 RPM_NAME = "xrootd-private-devel-5.5.4-1.1.aarch64.rpm"
 RPM_HASH = "76a71762e5b1af1998cb4cd02872350df1805270429b68b57c3557b65575d5a9430ace8b9aa26e9cca0cc27c0a944cb20f0e278faa4b7fb50dcd41ae7a689f24"
 
-RPROVIDES:${PN} += "xrootd-private-devel xrootd-private-devel(aarch-64)"
-RDEPENDS:${PN} += "xrootd-libs xrootd-server-libs"
+RPROVIDES:${PN} += "xrootd-private-devel \
+xrootd-private-devel(aarch-64)"
+RDEPENDS:${PN} += "xrootd-libs \
+xrootd-server-libs"
 
 inherit rpm

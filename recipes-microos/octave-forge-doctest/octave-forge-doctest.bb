@@ -13,6 +13,7 @@ RPM_HASH = "322fc3cdb0f95c1e9afc9857d228aa731203def75926e06439b753384ccac73118b8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-doctest"
-RDEPENDS:${PN} += "/bin/sh octave-cli"
+RDEPENDS:${PN} += "/bin/sh \
+octave-cli"
 
 inherit rpm

@@ -9,7 +9,9 @@ RPM_NAME = "tesseract-ocr-traineddata-est-4.1.0+git.20191030.6572757-2.1.noarch.
 RPM_HASH = "fadb292e4002250e76b52efc9bcc7d2a6d87b0815ba8f4d879cedb3e8c8f7da36e95d85bee8f874b3a7305efb7aab93b409ee972a740c9ee6902f8080f200629"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-est tesseract-ocr-traineddata-estonian tesseract-traineddata-estonian"
+RPROVIDES:${PN} += "tesseract-ocr-traineddata-est \
+tesseract-ocr-traineddata-estonian \
+tesseract-traineddata-estonian"
 RDEPENDS:${PN} += "tesseract-ocr"
 
 inherit rpm

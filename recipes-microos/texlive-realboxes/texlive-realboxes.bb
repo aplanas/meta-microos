@@ -17,7 +17,28 @@ RPM_NAME = "texlive-realboxes-2023.201.0.0.2svn64967-53.1.noarch.rpm"
 RPM_HASH = "a650ff45f9ea403b7170193a2d9e75c63da1e514abf1a6f3f9145b7f476f7d1a73c583fb641800e4e8f2a7a6dede40fc5207a67ceebdd9d19dac34b91a59c176"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(realboxes.sty) texlive-realboxes"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(adjcalc.sty) tex(calc.sty) tex(collectbox.sty) tex(color.sty) tex(dashbox.sty) tex(fancybox.sty) tex(graphics.sty) tex(graphicx.sty) tex(xcolor.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(realboxes.sty) \
+texlive-realboxes"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(adjcalc.sty) \
+tex(calc.sty) \
+tex(collectbox.sty) \
+tex(color.sty) \
+tex(dashbox.sty) \
+tex(fancybox.sty) \
+tex(graphics.sty) \
+tex(graphicx.sty) \
+tex(xcolor.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

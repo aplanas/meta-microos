@@ -13,7 +13,14 @@ PV = "2.20.0"
 RPM_NAME = "libHYPRE_2_20_0-gnu-openmpi2-hpc-2.20.0-1.22.aarch64.rpm"
 RPM_HASH = "a58b537c1f97c9ce1859bdafccc7a569d6d3e66cfcfa8d2a8a0f0b0711f30cb9856475288daaae2aa21f28e6f59bffde46ee4b38798abe8723cbb2e8cdfd2ca8"
 
-RPROVIDES:${PN} += "libHYPRE_2_20_0-gnu-openmpi2-hpc libHYPRE_2_20_0-gnu-openmpi2-hpc(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh gnu-compilers-hpc ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libopenmpi2-gnu-hpc lua-lmod"
+RPROVIDES:${PN} += "libHYPRE_2_20_0-gnu-openmpi2-hpc \
+libHYPRE_2_20_0-gnu-openmpi2-hpc(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+gnu-compilers-hpc \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libopenmpi2-gnu-hpc \
+lua-lmod"
 
 inherit rpm

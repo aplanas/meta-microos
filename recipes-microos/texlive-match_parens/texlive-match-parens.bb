@@ -14,6 +14,19 @@ RPM_HASH = "c9235be6acc5a374b9fd071ee630521e3a0bc73eb2f662849e87e98fb5080c954f5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-match_parens"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/ruby coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-match_parens-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/ruby \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-match_parens-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

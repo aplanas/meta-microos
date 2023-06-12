@@ -20,7 +20,16 @@ RPM_NAME = "python39-email-validator-2.0.0-1.1.noarch.rpm"
 RPM_HASH = "99ccfe91ddd4d8b29a51f29d18397b4571c617c9adfe2a452e2979f049ced8a011c2aaccb2a561a988835fd52222a686f241ab88af608ed10a9d96b3a7af9687"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(email-validator) python39-email-validator python39-email_validator python3dist(email-validator)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-dnspython python39-idna python39-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(email-validator) \
+python39-email-validator \
+python39-email_validator \
+python3dist(email-validator)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-dnspython \
+python39-idna \
+python39-setuptools \
+update-alternatives"
 
 inherit rpm

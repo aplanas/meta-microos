@@ -17,7 +17,8 @@ RPM_NAME = "python310-sip-devel-6.7.9-4.5.noarch.rpm"
 RPM_HASH = "c2000ca451812d8c95eb02d7d23b6807a9928ac019aabc1e26f4b7d6d91c6cd371427cfad835bdab9d7dfd35c19a14cab7fce68eb7b7d8f79fbadbb1eca56ee1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sip-devel python310-sip-devel"
+RPROVIDES:${PN} += "python3-sip-devel \
+python310-sip-devel"
 RDEPENDS:${PN} += "python310-sip6-devel"
 
 inherit rpm

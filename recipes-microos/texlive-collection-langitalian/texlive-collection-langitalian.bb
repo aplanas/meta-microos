@@ -9,6 +9,24 @@ RPM_HASH = "ee4e439e3ad37010a4b21de23d990074773ddc47ee3f63c4316c65acbc8bb86a0ba8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langitalian"
-RDEPENDS:${PN} += "texlive-amsldoc-it texlive-amsmath-it texlive-amsthdoc-it texlive-antanilipsum texlive-babel-italian texlive-codicefiscaleitaliano texlive-collection-basic texlive-fancyhdr-it texlive-fixltxhyph texlive-frontespizio texlive-hyphen-italian texlive-itnumpar texlive-l2tabu-italian texlive-latex4wp-it texlive-layaureo texlive-lshort-italian texlive-psfrag-italian texlive-texlive-it texlive-verifica"
+RDEPENDS:${PN} += "texlive-amsldoc-it \
+texlive-amsmath-it \
+texlive-amsthdoc-it \
+texlive-antanilipsum \
+texlive-babel-italian \
+texlive-codicefiscaleitaliano \
+texlive-collection-basic \
+texlive-fancyhdr-it \
+texlive-fixltxhyph \
+texlive-frontespizio \
+texlive-hyphen-italian \
+texlive-itnumpar \
+texlive-l2tabu-italian \
+texlive-latex4wp-it \
+texlive-layaureo \
+texlive-lshort-italian \
+texlive-psfrag-italian \
+texlive-texlive-it \
+texlive-verifica"
 
 inherit rpm

@@ -13,7 +13,9 @@ PV = "1.1.3"
 RPM_NAME = "dragonbox-devel-1.1.3-2.3.aarch64.rpm"
 RPM_HASH = "88943fe3ad88e7c06cf72aaac20535897c679b10140e7df46911b6339ba7458c2b218bad4b38bd0944269ebdd9a3319e1522c0c0899df99207477f9b8bf8b723"
 
-RPROVIDES:${PN} += "cmake(dragonbox) dragonbox-devel dragonbox-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake(dragonbox) \
+dragonbox-devel \
+dragonbox-devel(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

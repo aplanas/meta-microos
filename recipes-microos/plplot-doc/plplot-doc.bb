@@ -11,7 +11,8 @@ PV = "5.15.0"
 RPM_NAME = "plplot-doc-5.15.0-16.2.aarch64.rpm"
 RPM_HASH = "ad55f4ae85c1e3da1f9260eebac35cc56c471f70fb7f8663e05a3a976f607c46c0ab4245e06acf66dd244a791a7be16a29e972e6407a54238af4868338a5ad3b"
 
-RPROVIDES:${PN} += "plplot-doc plplot-doc(aarch-64)"
+RPROVIDES:${PN} += "plplot-doc \
+plplot-doc(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

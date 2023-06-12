@@ -12,6 +12,7 @@ RPM_HASH = "d170438e39dc1d1f611c39fb0589cd1ebd5209e6eeccd5fa643149d66b2a5ec57677
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openbox-theme-adapta"
-RDEPENDS:${PN} += "metatheme-adapta-common openbox"
+RDEPENDS:${PN} += "metatheme-adapta-common \
+openbox"
 
 inherit rpm

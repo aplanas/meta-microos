@@ -7,7 +7,8 @@ PV = "2.13.9"
 RPM_NAME = "lttng-modules-2.13.9-1.2.aarch64.rpm"
 RPM_HASH = "54ea4e1859deab5dc696bb96fd1bd703bd024a3f600e565fde391e32722897f8276d6f3febd4dce86ffef4fb04811c34c269b68fc6723931083c126b74a6ef7e"
 
-RPROVIDES:${PN} += "lttng-modules lttng-modules(aarch-64)"
+RPROVIDES:${PN} += "lttng-modules \
+lttng-modules(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,7 +16,19 @@ RPM_NAME = "texlive-makerobust-2023.201.2.0svn52811-52.1.noarch.rpm"
 RPM_HASH = "57629d13820306338369d8780b74e3f180397d61cfaa15138be5057a70cb92e122cbdbecae705bfb724cd247ab6378ac3fd85bbfc33262197b24f749a3f33be7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(makerobust.sty) texlive-makerobust"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(makerobust.sty) \
+texlive-makerobust"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

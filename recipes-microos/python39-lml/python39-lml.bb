@@ -16,7 +16,9 @@ RPM_NAME = "python39-lml-0.1.0-1.6.noarch.rpm"
 RPM_HASH = "f6b4c313a14beff5428a9a0cf47cbad543b3d95794b3cb6b63dd472f1e0aed837e4fbb7c509b34fe19f67ad771d1393c4e319ef946bcd2f2d0fc5923570df8c3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(lml) python39-lml python3dist(lml)"
+RPROVIDES:${PN} += "python3.9dist(lml) \
+python39-lml \
+python3dist(lml)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

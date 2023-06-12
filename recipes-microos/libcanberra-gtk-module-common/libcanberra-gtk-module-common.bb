@@ -13,7 +13,8 @@ PV = "0.30"
 RPM_NAME = "libcanberra-gtk-module-common-0.30-15.23.aarch64.rpm"
 RPM_HASH = "76de357e1259a512b4be874bea483c451fa36f10cdb4d8aa872fb0c8e8d30ae4343583481325ce84a1b7542eee6d61280a1a112848bb7a8aed651d7e8d5b791d"
 
-RPROVIDES:${PN} += "libcanberra-gtk-module-common libcanberra-gtk-module-common(aarch-64)"
+RPROVIDES:${PN} += "libcanberra-gtk-module-common \
+libcanberra-gtk-module-common(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

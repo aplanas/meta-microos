@@ -10,7 +10,19 @@ RPM_NAME = "texlive-tabto-generic-2023.201.svn15878-54.1.noarch.rpm"
 RPM_HASH = "e6a1dbc7d0d381b35a487434ed5a803b56b517e82ed18b46bfffe10fcd14691da9bfd97b82d39b1009f54724db728a1dd0eda2ae71ed7f4de030472e1e442be5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tabto.tex) texlive-tabto-generic"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(tabto.tex) \
+texlive-tabto-generic"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

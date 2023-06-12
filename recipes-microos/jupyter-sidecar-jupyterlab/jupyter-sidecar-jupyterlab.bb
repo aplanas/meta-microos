@@ -11,6 +11,7 @@ RPM_HASH = "29d5f1f84fb740ddf43b9582749f4e4a2b629dd515cabd986b5b5730284269140c70
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-sidecar-jupyterlab"
-RDEPENDS:${PN} += "jupyter-jupyterlab python3dist(sidecar)"
+RDEPENDS:${PN} += "jupyter-jupyterlab \
+python3dist(sidecar)"
 
 inherit rpm

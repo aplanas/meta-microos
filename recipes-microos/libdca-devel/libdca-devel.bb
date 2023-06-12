@@ -14,7 +14,11 @@ PV = "0.0.7+2"
 RPM_NAME = "libdca-devel-0.0.7+2-1.2.aarch64.rpm"
 RPM_HASH = "0d46b7c41c9fbb31dc2f799a4542ac6a6a1eb57e16380e2f69cdf3bfaa1006d4a743b6d7023b4f10ec9630a8190b1f762a68258b225688db693f589f448db7f6"
 
-RPROVIDES:${PN} += "libdca-devel libdca-devel(aarch-64) pkgconfig(libdca) pkgconfig(libdts)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libdca0"
+RPROVIDES:${PN} += "libdca-devel \
+libdca-devel(aarch-64) \
+pkgconfig(libdca) \
+pkgconfig(libdts)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libdca0"
 
 inherit rpm

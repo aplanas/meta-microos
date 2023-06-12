@@ -53,7 +53,33 @@ PV = "4.2"
 RPM_NAME = "x3270-4.2-2.1.aarch64.rpm"
 RPM_HASH = "cba5feb90db8afce9ac511e04e578f5f7e5b45ceed77db0933b80e76ad405e40cf1d2f4f1f77f49fc18afb0e826a292262fb433f4f1657d2bfc634f99028c233"
 
-RPROVIDES:${PN} += "application() application(x3270.desktop) config(x3270) x3270 x3270(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libXaw.so.7()(64bit) libXmu.so.6()(64bit) libXpm.so.4()(64bit) libXt.so.6()(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libexpat.so.1()(64bit) libncursesw.so.6()(64bit) libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) libreadline.so.8()(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) libtcl8.6.so()(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.8.20110226)(64bit)"
+RPROVIDES:${PN} += "application() \
+application(x3270.desktop) \
+config(x3270) \
+x3270 \
+x3270(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libX11.so.6()(64bit) \
+libXaw.so.7()(64bit) \
+libXmu.so.6()(64bit) \
+libXpm.so.4()(64bit) \
+libXt.so.6()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libexpat.so.1()(64bit) \
+libncursesw.so.6()(64bit) \
+libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
+libreadline.so.8()(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+libtcl8.6.so()(64bit) \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.8.20110226)(64bit)"
 
 inherit rpm

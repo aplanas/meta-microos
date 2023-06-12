@@ -10,7 +10,14 @@ PV = "0.19.3"
 RPM_NAME = "libmrss0-0.19.3-1.2.aarch64.rpm"
 RPM_HASH = "11c016123afa0248f4e9acec2c53ca7fbda34114ffd7289e82d2c69c0d7a4e6c98fedef7929457e15a3afd445c92fa514cbefba882c563db4d39674b9c96f12b"
 
-RPROVIDES:${PN} += "libmrss.so.0()(64bit) libmrss0 libmrss0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libcurl.so.4()(64bit) libnxml.so.0()(64bit)"
+RPROVIDES:${PN} += "libmrss.so.0()(64bit) \
+libmrss0 \
+libmrss0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+libcurl.so.4()(64bit) \
+libnxml.so.0()(64bit)"
 
 inherit rpm

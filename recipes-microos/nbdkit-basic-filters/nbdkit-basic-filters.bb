@@ -83,7 +83,58 @@ PV = "1.32.2"
 RPM_NAME = "nbdkit-basic-filters-1.32.2-1.3.aarch64.rpm"
 RPM_HASH = "428b5adb86aaac9ce55fc457a00e2679764a6180f772c86d76b27527763dabfd370674cdc9966b6c1a57f087844ce593d451d5f5219e46b3e24c474d2dbd0bf8"
 
-RPROVIDES:${PN} += "nbdkit-basic-filters nbdkit-basic-filters(aarch-64) nbdkit-blocksize-filter nbdkit-blocksize-policy-filter nbdkit-cache-filter nbdkit-cacheextents-filter nbdkit-checkwrite-filter nbdkit-cow-filter nbdkit-ddrescue-filter nbdkit-delay-filter nbdkit-error-filter nbdkit-exitlast-filter nbdkit-exitwhen-filter nbdkit-exportname-filter nbdkit-extentlist-filter nbdkit-fua-filter nbdkit-ip-filter nbdkit-limit-filter nbdkit-log-filter nbdkit-luks-filter nbdkit-nocache-filter nbdkit-noextents-filter nbdkit-nofilter-filter nbdkit-noparallel-filter nbdkit-nozero-filter nbdkit-offset-filter nbdkit-partition-filter nbdkit-pause-filter nbdkit-protect-filter nbdkit-rate-filter nbdkit-readahead-filter nbdkit-retry-filter nbdkit-retry-request-filter nbdkit-scan-filter nbdkit-stats-filter nbdkit-swab-filter nbdkit-tls-fallback-filter nbdkit-truncate-filter"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libgnutls.so.30()(64bit) libgnutls.so.30(GNUTLS_3_4)(64bit) libgnutls.so.30(GNUTLS_3_6_13)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.18)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) nbdkit-server"
+RPROVIDES:${PN} += "nbdkit-basic-filters \
+nbdkit-basic-filters(aarch-64) \
+nbdkit-blocksize-filter \
+nbdkit-blocksize-policy-filter \
+nbdkit-cache-filter \
+nbdkit-cacheextents-filter \
+nbdkit-checkwrite-filter \
+nbdkit-cow-filter \
+nbdkit-ddrescue-filter \
+nbdkit-delay-filter \
+nbdkit-error-filter \
+nbdkit-exitlast-filter \
+nbdkit-exitwhen-filter \
+nbdkit-exportname-filter \
+nbdkit-extentlist-filter \
+nbdkit-fua-filter \
+nbdkit-ip-filter \
+nbdkit-limit-filter \
+nbdkit-log-filter \
+nbdkit-luks-filter \
+nbdkit-nocache-filter \
+nbdkit-noextents-filter \
+nbdkit-nofilter-filter \
+nbdkit-noparallel-filter \
+nbdkit-nozero-filter \
+nbdkit-offset-filter \
+nbdkit-partition-filter \
+nbdkit-pause-filter \
+nbdkit-protect-filter \
+nbdkit-rate-filter \
+nbdkit-readahead-filter \
+nbdkit-retry-filter \
+nbdkit-retry-request-filter \
+nbdkit-scan-filter \
+nbdkit-stats-filter \
+nbdkit-swab-filter \
+nbdkit-tls-fallback-filter \
+nbdkit-truncate-filter"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libgnutls.so.30()(64bit) \
+libgnutls.so.30(GNUTLS_3_4)(64bit) \
+libgnutls.so.30(GNUTLS_3_6_13)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+nbdkit-server"
 
 inherit rpm

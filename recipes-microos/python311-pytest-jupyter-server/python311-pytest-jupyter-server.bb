@@ -10,6 +10,9 @@ RPM_HASH = "4342fd6ecd66db054a47e7dd69ae22fbcf3d5805d3d54ada8d3ef82fe67dc8df4e50
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-pytest-jupyter-server"
-RDEPENDS:${PN} += "python311-jupyter-server python311-nbformat python311-pytest-jupyter python311-pytest-jupyter-client"
+RDEPENDS:${PN} += "python311-jupyter-server \
+python311-nbformat \
+python311-pytest-jupyter \
+python311-pytest-jupyter-client"
 
 inherit rpm

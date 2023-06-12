@@ -17,7 +17,9 @@ RPM_NAME = "python39-sqlglot-7.0.0-1.3.noarch.rpm"
 RPM_HASH = "ce19ce074a1c65157f55f0205f53f634ac3686c34af94ed62f308784f9b7c3a1c46f874ee29d235193fa6a7ae6765030331d8ed6cb0cf4e4a5e2c5e5de2539a5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(sqlglot) python39-sqlglot python3dist(sqlglot)"
+RPROVIDES:${PN} += "python3.9dist(sqlglot) \
+python39-sqlglot \
+python3dist(sqlglot)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

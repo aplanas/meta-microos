@@ -12,7 +12,13 @@ PV = "6.5"
 RPM_NAME = "brltty-driver-speech-dispatcher-6.5-2.4.aarch64.rpm"
 RPM_HASH = "7d9afc9856246a1151cea037dd8a900742f67a78febf2ef300ad25c9d68bd03011c050220b1d1ec10c6fde5c2c2f946a0127a10bf482da2346c8f8588f1649ce"
 
-RPROVIDES:${PN} += "brltty-driver-speech-dispatcher brltty-driver-speech-dispatcher(aarch-64) libbrlttyssd.so()(64bit)"
-RDEPENDS:${PN} += "brltty ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libspeechd.so.2()(64bit)"
+RPROVIDES:${PN} += "brltty-driver-speech-dispatcher \
+brltty-driver-speech-dispatcher(aarch-64) \
+libbrlttyssd.so()(64bit)"
+RDEPENDS:${PN} += "brltty \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libspeechd.so.2()(64bit)"
 
 inherit rpm

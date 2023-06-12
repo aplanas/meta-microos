@@ -11,7 +11,34 @@ RPM_NAME = "python310-jupyter-server-2.5.0-1.2.noarch.rpm"
 RPM_HASH = "732bb13934c679d925e11f1f683c8cee774611583256d3efc3406739324cec869ed1072b1573200e292f16030a93625ec87204196e7afb7a8c126dcdaa5236ee"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-jupyter-server python3-jupyter-server python3-jupyter_server python3.10dist(jupyter-server) python310-jupyter-server python310-jupyter_server python3dist(jupyter-server)"
-RDEPENDS:${PN} += "((python310-jupyter-core >= 4.12 with python310-jupyter-core < 5.0) or python310-jupyter-core >= 5.1) /bin/sh /usr/bin/python3.10 alts python(abi) python310 python310-Jinja2 python310-Send2Trash python310-anyio python310-argon2-cffi python310-jupyter-client python310-jupyter_events python310-jupyter_server_terminals python310-nbconvert python310-nbformat python310-packaging python310-prometheus_client python310-pyzmq python310-terminado python310-tornado python310-traitlets python310-websocket-client"
+RPROVIDES:${PN} += "jupyter-jupyter-server \
+python3-jupyter-server \
+python3-jupyter_server \
+python3.10dist(jupyter-server) \
+python310-jupyter-server \
+python310-jupyter_server \
+python3dist(jupyter-server)"
+RDEPENDS:${PN} += "((python310-jupyter-core >= 4.12 with python310-jupyter-core < 5.0) or python310-jupyter-core >= 5.1) \
+/bin/sh \
+/usr/bin/python3.10 \
+alts \
+python(abi) \
+python310 \
+python310-Jinja2 \
+python310-Send2Trash \
+python310-anyio \
+python310-argon2-cffi \
+python310-jupyter-client \
+python310-jupyter_events \
+python310-jupyter_server_terminals \
+python310-nbconvert \
+python310-nbformat \
+python310-packaging \
+python310-prometheus_client \
+python310-pyzmq \
+python310-terminado \
+python310-tornado \
+python310-traitlets \
+python310-websocket-client"
 
 inherit rpm

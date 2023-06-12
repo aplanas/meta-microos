@@ -15,7 +15,14 @@ RPM_NAME = "python310-QtPy-2.3.0-1.4.noarch.rpm"
 RPM_HASH = "cf5ea312788f8761b3f7ee4e2e46f2d91a581c0f95db365538a3ba0e84ef0af11b5f1ec9066dca81b0bc083e06c6c6d77c8cd84ff29940536f982d5d5f10f7d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-QtPy python3.10dist(qtpy) python310-QtPy python3dist(qtpy)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-packaging update-alternatives"
+RPROVIDES:${PN} += "python3-QtPy \
+python3.10dist(qtpy) \
+python310-QtPy \
+python3dist(qtpy)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-packaging \
+update-alternatives"
 
 inherit rpm

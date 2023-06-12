@@ -9,6 +9,7 @@ RPM_HASH = "631cc739465d332463f7ce59883ad5b6c4ddf31d19fbc779a61f64b3a88e5a0186b5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "megaglest-data"
-RDEPENDS:${PN} += "/bin/sh megaglest"
+RDEPENDS:${PN} += "/bin/sh \
+megaglest"
 
 inherit rpm

@@ -16,7 +16,32 @@ RPM_NAME = "python310-azure-ai-ml-1.7.2-1.1.noarch.rpm"
 RPM_HASH = "ae9b18fa30a165f5a92633f923875b6e3fb5f657ec2e153b01bbdac80dc72984cf7996421e535e998f9c0451df24abecbe5ea1d833f26ceaf93a97df0a7b3537"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-ai-ml python3.10dist(azure-ai-ml) python310-azure-ai-ml python3dist(azure-ai-ml)"
-RDEPENDS:${PN} += "python(abi) python310-PyJWT python310-PyYAML python310-applicationinsights python310-azure-ai-nspkg python310-azure-common python310-azure-core python310-azure-identity python310-azure-mgmt-core python310-azure-storage-blob python310-azure-storage-file-datalake python310-azure-storage-file-share python310-colorama python310-docker python310-isodate python310-jsonschema python310-marshmallow python310-msrest python310-pathspec python310-pydash python310-strictyaml python310-tqdm python310-typing-extensions"
+RPROVIDES:${PN} += "python3-azure-ai-ml \
+python3.10dist(azure-ai-ml) \
+python310-azure-ai-ml \
+python3dist(azure-ai-ml)"
+RDEPENDS:${PN} += "python(abi) \
+python310-PyJWT \
+python310-PyYAML \
+python310-applicationinsights \
+python310-azure-ai-nspkg \
+python310-azure-common \
+python310-azure-core \
+python310-azure-identity \
+python310-azure-mgmt-core \
+python310-azure-storage-blob \
+python310-azure-storage-file-datalake \
+python310-azure-storage-file-share \
+python310-colorama \
+python310-docker \
+python310-isodate \
+python310-jsonschema \
+python310-marshmallow \
+python310-msrest \
+python310-pathspec \
+python310-pydash \
+python310-strictyaml \
+python310-tqdm \
+python310-typing-extensions"
 
 inherit rpm

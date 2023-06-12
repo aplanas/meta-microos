@@ -9,6 +9,22 @@ RPM_HASH = "1ea99dc8c418919408d4613f7e20225a0777c4def12f27ca70d08cee2c7be2a4153e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hyphen-farsi"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(language.dat) tex(language.dat.lua) tex(language.def) texlive texlive-filesystem texlive-hyph-utf8 texlive-hyphen-base texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(language.dat) \
+tex(language.dat.lua) \
+tex(language.def) \
+texlive \
+texlive-filesystem \
+texlive-hyph-utf8 \
+texlive-hyphen-base \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

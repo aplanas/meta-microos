@@ -9,7 +9,15 @@ PV = "2.10.0"
 RPM_NAME = "freerdp-proxy-2.10.0-3.1.aarch64.rpm"
 RPM_HASH = "333a0bcf985b29f770246befa4261e3f10e42c8b52d05a714c259f6e594f44030013650293efba3f740f558107e779223ec577b851e6849d7bcc54a9a12caada"
 
-RPROVIDES:${PN} += "freerdp-proxy freerdp-proxy(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libfreerdp-client2.so.2()(64bit) libfreerdp-server2.so.2()(64bit) libfreerdp2.so.2()(64bit) librdpgfx-client.so()(64bit) libwinpr2.so.2()(64bit)"
+RPROVIDES:${PN} += "freerdp-proxy \
+freerdp-proxy(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libfreerdp-client2.so.2()(64bit) \
+libfreerdp-server2.so.2()(64bit) \
+libfreerdp2.so.2()(64bit) \
+librdpgfx-client.so()(64bit) \
+libwinpr2.so.2()(64bit)"
 
 inherit rpm

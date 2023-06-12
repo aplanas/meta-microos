@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-tagbanwa-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "a5b44ac8fdb5041fd1b9d5bbe9960045b0d1992a7181857517017f659ff973ca48088c16ef4a21d55ed038a6db906ac9cc230de864608e4f1e9bc50bbeb16177"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-tagbanwa noto-sans-tagbanwa-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-tagbanwa \
+noto-sans-tagbanwa-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

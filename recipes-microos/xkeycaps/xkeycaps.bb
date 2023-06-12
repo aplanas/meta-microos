@@ -19,7 +19,12 @@ PV = "2.46"
 RPM_NAME = "xkeycaps-2.46-973.26.aarch64.rpm"
 RPM_HASH = "7ab59eda58461a304c1bc4f605c01024c7288b06b380ab36019f8fbb8bf09d9069a27e36e5e880371c2b2ae9cc16eaaa14ea366f9ae62b223954ec777cde73ea"
 
-RPROVIDES:${PN} += "xkeycaps xkeycaps(aarch-64)"
-RDEPENDS:${PN} += "libX11.so.6()(64bit) libXaw.so.7()(64bit) libXmu.so.6()(64bit) libXt.so.6()(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "xkeycaps \
+xkeycaps(aarch-64)"
+RDEPENDS:${PN} += "libX11.so.6()(64bit) \
+libXaw.so.7()(64bit) \
+libXmu.so.6()(64bit) \
+libXt.so.6()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

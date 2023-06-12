@@ -14,7 +14,16 @@ RPM_NAME = "python310-evtx-0.7.4-3.12.noarch.rpm"
 RPM_HASH = "2ec051cbbe9f1e8f8245816542fddd6fcfb0557ee12b94797a93205240833557effa7eee4b2250443e7116f1985262cf208339ca67030bd9082f20db8234e3e1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-evtx python3.10dist(python-evtx) python310-evtx python3dist(python-evtx)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 alts python(abi) python310-hexdump python310-lxml python310-six"
+RPROVIDES:${PN} += "python3-evtx \
+python3.10dist(python-evtx) \
+python310-evtx \
+python3dist(python-evtx)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+alts \
+python(abi) \
+python310-hexdump \
+python310-lxml \
+python310-six"
 
 inherit rpm

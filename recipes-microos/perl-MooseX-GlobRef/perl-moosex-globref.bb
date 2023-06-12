@@ -23,7 +23,12 @@ RPM_NAME = "perl-MooseX-GlobRef-0.0701-9.24.noarch.rpm"
 RPM_HASH = "39a8e08a1697bdc1bb5496bf13cc8d60dd5a3624dfa6898d935691798f7a7e60594608d257ee2eec0cfa70aae5ff6c6d29f85422e7374afac6d7b431b92bbaeb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooseX::GlobRef) perl(MooseX::GlobRef::Object) perl(MooseX::GlobRef::Role::Meta::Instance) perl(MooseX::GlobRef::Role::Object) perl-MooseX-GlobRef"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Moose)"
+RPROVIDES:${PN} += "perl(MooseX::GlobRef) \
+perl(MooseX::GlobRef::Object) \
+perl(MooseX::GlobRef::Role::Meta::Instance) \
+perl(MooseX::GlobRef::Role::Object) \
+perl-MooseX-GlobRef"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Moose)"
 
 inherit rpm

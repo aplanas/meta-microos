@@ -16,7 +16,20 @@ RPM_NAME = "python39-pytest-astropy-0.10.0-1.5.noarch.rpm"
 RPM_HASH = "c6de44241cc5431a6cdfae627e6d4e664f03b8714cac664184451b044711068a583069da19603034574908b24743f6b4372424c9f5a5bf6b95f570c6a83bb69e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-astropy) python39-pytest-astropy python3dist(pytest-astropy)"
-RDEPENDS:${PN} += "python(abi) python39-attrs python39-hypothesis python39-pytest python39-pytest-arraydiff python39-pytest-astropy-header python39-pytest-cov python39-pytest-doctestplus python39-pytest-filter-subpackage python39-pytest-mock python39-pytest-openfiles python39-pytest-remotedata"
+RPROVIDES:${PN} += "python3.9dist(pytest-astropy) \
+python39-pytest-astropy \
+python3dist(pytest-astropy)"
+RDEPENDS:${PN} += "python(abi) \
+python39-attrs \
+python39-hypothesis \
+python39-pytest \
+python39-pytest-arraydiff \
+python39-pytest-astropy-header \
+python39-pytest-cov \
+python39-pytest-doctestplus \
+python39-pytest-filter-subpackage \
+python39-pytest-mock \
+python39-pytest-openfiles \
+python39-pytest-remotedata"
 
 inherit rpm

@@ -14,7 +14,11 @@ PV = "4.2.8p15"
 RPM_NAME = "ntp-doc-4.2.8p15-13.1.aarch64.rpm"
 RPM_HASH = "1e4e8fbf89325b5740ece8c9bb4df24bc86c34fa364ad1d38edb600f1231db5267cd842f1c576ee9d5795ae52804b43475227c4c6add1da17e9838b13800b1cb"
 
-RPROVIDES:${PN} += "ntp-doc ntp-doc(aarch-64) ntpdoc xntp-doc xntpdoc"
+RPROVIDES:${PN} += "ntp-doc \
+ntp-doc(aarch-64) \
+ntpdoc \
+xntp-doc \
+xntpdoc"
 RDEPENDS:${PN} += ""
 
 inherit rpm

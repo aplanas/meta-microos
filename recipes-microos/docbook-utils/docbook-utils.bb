@@ -16,6 +16,8 @@ RPM_HASH = "47b8647c3cc22dbee0e3f9712bc3275c9fbea524493ad1ca0323aadf6271d872e435
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-utils"
-RDEPENDS:${PN} += "/bin/sh docbook-utils-minimal texlive-jadetex"
+RDEPENDS:${PN} += "/bin/sh \
+docbook-utils-minimal \
+texlive-jadetex"
 
 inherit rpm

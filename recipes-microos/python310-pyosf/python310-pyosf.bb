@@ -21,7 +21,11 @@ RPM_NAME = "python310-pyosf-1.0.5-5.8.noarch.rpm"
 RPM_HASH = "42587367deebe61ddca150398399ff3c62cbb92f128afd095706b3bd405b4b7ceec9040e1e612bea05d3118b1a24439dde3d39897060beea1522a8fe6f5596a4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyosf python3.10dist(pyosf) python310-pyosf python3dist(pyosf)"
-RDEPENDS:${PN} += "python(abi) python310-requests"
+RPROVIDES:${PN} += "python3-pyosf \
+python3.10dist(pyosf) \
+python310-pyosf \
+python3dist(pyosf)"
+RDEPENDS:${PN} += "python(abi) \
+python310-requests"
 
 inherit rpm

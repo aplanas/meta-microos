@@ -11,6 +11,9 @@ RPM_HASH = "e47c9d4d0a8fc40754bae2fbad2b33465bcd7ae3e67c59a64da1145d2e022b5a616b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "os-update"
-RDEPENDS:${PN} += "/bin/bash /bin/sh lsof zypper-needs-restarting"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+lsof \
+zypper-needs-restarting"
 
 inherit rpm

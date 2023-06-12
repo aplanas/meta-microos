@@ -16,7 +16,13 @@ RPM_NAME = "python310-python-yubico-1.3.3-2.8.noarch.rpm"
 RPM_HASH = "253f679ed28c13c3ebde4c591fedda3d6158e0c1c38293842d14a4be51949eff6f86de7a7acf805241bd0abec3b081bcaf0730ac98f4dda3f6bbf3e1ad780138"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-yubico python3-yubico python3.10dist(python-yubico) python310-python-yubico python310-yubico python3dist(python-yubico)"
-RDEPENDS:${PN} += "python(abi) python310-usb"
+RPROVIDES:${PN} += "python3-python-yubico \
+python3-yubico \
+python3.10dist(python-yubico) \
+python310-python-yubico \
+python310-yubico \
+python3dist(python-yubico)"
+RDEPENDS:${PN} += "python(abi) \
+python310-usb"
 
 inherit rpm

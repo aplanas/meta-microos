@@ -16,7 +16,25 @@ RPM_NAME = "texlive-phonenumbers-2023.201.2.5svn63774-51.1.noarch.rpm"
 RPM_HASH = "39b03b62a66c50298fa8015163261e52e7b32691506aea0087c5e8f7ee27042c4673f561ed3023b6797e81cff6035fa7008e2c29f6630a301fa593f6f54c7abd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(phonenumbers-AT.def) tex(phonenumbers-DE.def) tex(phonenumbers-FR.def) tex(phonenumbers-UK.def) tex(phonenumbers-US.def) tex(phonenumbers.sty) texlive-phonenumbers"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(l3keys2e.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(phonenumbers-AT.def) \
+tex(phonenumbers-DE.def) \
+tex(phonenumbers-FR.def) \
+tex(phonenumbers-UK.def) \
+tex(phonenumbers-US.def) \
+tex(phonenumbers.sty) \
+texlive-phonenumbers"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(l3keys2e.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

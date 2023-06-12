@@ -10,7 +10,9 @@ RPM_NAME = "python311-pycparser-2.21-2.1.noarch.rpm"
 RPM_HASH = "06be801125a8fb642f269644cef7605669a854e6a8ce6608e867c34fbac380f7aee22172aadeabe9abfab972d9174a9ad22390adcddf29abc9f2f4289d86fe48"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pycparser) python311-pycparser python3dist(pycparser)"
+RPROVIDES:${PN} += "python3.11dist(pycparser) \
+python311-pycparser \
+python3dist(pycparser)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

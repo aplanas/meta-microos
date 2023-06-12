@@ -48,7 +48,12 @@ RPM_NAME = "perl-Test-Differences-0.69-1.7.noarch.rpm"
 RPM_HASH = "6efbd416fbb3131dd5c48905079e489ea7cf8fd1efa3f0bbc006a910de4fbb86a4fab1b9672a303732457da768ed5d9b4c3b09b793601d07ddbbe3ca123129ce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Differences) perl-Test-Differences"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Capture::Tiny) perl(Data::Dumper) perl(Test::More) perl(Text::Diff)"
+RPROVIDES:${PN} += "perl(Test::Differences) \
+perl-Test-Differences"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Capture::Tiny) \
+perl(Data::Dumper) \
+perl(Test::More) \
+perl(Text::Diff)"
 
 inherit rpm

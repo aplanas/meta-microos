@@ -11,7 +11,12 @@ RPM_NAME = "python310-pytest-httpserver-1.0.8-1.1.noarch.rpm"
 RPM_HASH = "0bb72631ee5236ceaf26e48c95987da5d9d783dfcc27aec974a7dfcaeb3fb8d6797a1d8435dcae45a578ae9940925d52fe630ff44b9283c4513ded5e6cde2099"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-httpserver python3.10dist(pytest-httpserver) python310-pytest-httpserver python3dist(pytest-httpserver)"
-RDEPENDS:${PN} += "python(abi) python310-Werkzeug python310-pytest"
+RPROVIDES:${PN} += "python3-pytest-httpserver \
+python3.10dist(pytest-httpserver) \
+python310-pytest-httpserver \
+python3dist(pytest-httpserver)"
+RDEPENDS:${PN} += "python(abi) \
+python310-Werkzeug \
+python310-pytest"
 
 inherit rpm

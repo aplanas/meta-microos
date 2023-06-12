@@ -16,7 +16,16 @@ PV = "1.2.1"
 RPM_NAME = "mgetty-1.2.1-9.3.aarch64.rpm"
 RPM_HASH = "f2a2df4602c1a7997d1c9f07e0659ec45818d9c0e1cd716058ae5a95bcbd7367e2c65622859c120e8648a23a6901991e72e60d77cd4672ca0b3711eabb8486aa"
 
-RPROVIDES:${PN} += "config(mgetty) mgetty mgetty(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh g3utils ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) systemd"
+RPROVIDES:${PN} += "config(mgetty) \
+mgetty \
+mgetty(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+g3utils \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+systemd"
 
 inherit rpm

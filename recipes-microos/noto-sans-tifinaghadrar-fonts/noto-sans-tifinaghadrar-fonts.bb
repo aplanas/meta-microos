@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-tifinaghadrar-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "78338c4dd5d9df4dcc9e789aa0c8ce25fcfa4a8fdf66a8cd321e016e588daf0f6d1e9a43a779f74e5a1f2cb3109bf34f8328e997cdd07117732b5eb4b6aa1625"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-tifinaghadrar noto-sans-tifinaghadrar-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-tifinaghadrar \
+noto-sans-tifinaghadrar-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

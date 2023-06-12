@@ -23,7 +23,15 @@ PV = "8.4.5"
 RPM_NAME = "postgresql15-plr-8.4.5-1.1.aarch64.rpm"
 RPM_HASH = "c59e145b9afc3dcf69c6ac4069814bb28fc2be1eefeefe27c0276e40e284bafd6619f611fa261c3868ad6ec9fd4025980d381bd078397cef52044dc604d2c108"
 
-RPROVIDES:${PN} += "config(postgresql15-plr) postgresql15-plr postgresql15-plr(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig R-base ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libR.so()(64bit) libc.so.6(GLIBC_2.33)(64bit) postgresql15-server"
+RPROVIDES:${PN} += "config(postgresql15-plr) \
+postgresql15-plr \
+postgresql15-plr(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+R-base \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libR.so()(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+postgresql15-server"
 
 inherit rpm

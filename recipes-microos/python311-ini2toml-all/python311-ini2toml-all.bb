@@ -9,6 +9,10 @@ RPM_HASH = "468f2e864fcb1eed9c3804e9256050d85ea8054a3e512f367c21df216901f2778383
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-ini2toml-all"
-RDEPENDS:${PN} += "(python311-configupdater >= 3.0.1 with python311-configupdater < 4) (python311-importlib-metadata if python311-base < 3.8) (python311-tomli-w >= 0.4.0 with python311-tomli-w < 2) (python311-tomlkit >= 0.10 with python311-tomlkit < 2) python311-ini2toml"
+RDEPENDS:${PN} += "(python311-configupdater >= 3.0.1 with python311-configupdater < 4) \
+(python311-importlib-metadata if python311-base < 3.8) \
+(python311-tomli-w >= 0.4.0 with python311-tomli-w < 2) \
+(python311-tomlkit >= 0.10 with python311-tomlkit < 2) \
+python311-ini2toml"
 
 inherit rpm

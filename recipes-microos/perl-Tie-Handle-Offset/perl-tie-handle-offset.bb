@@ -14,7 +14,9 @@ RPM_NAME = "perl-Tie-Handle-Offset-0.004-1.10.noarch.rpm"
 RPM_HASH = "e4d3497d3d14bb74c66d2c4dce1c3e9f2eb371acd960bd6f3c3cf2f746fd029774a5acdda1a675714fc23db881c0405d143e533fe343f1e290d60cb9ff699a60"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Tie::Handle::Offset) perl(Tie::Handle::SkipHeader) perl-Tie-Handle-Offset"
+RPROVIDES:${PN} += "perl(Tie::Handle::Offset) \
+perl(Tie::Handle::SkipHeader) \
+perl-Tie-Handle-Offset"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -14,7 +14,9 @@ PV = "5.9"
 RPM_NAME = "zsh-htmldoc-5.9-5.3.aarch64.rpm"
 RPM_HASH = "5a4b71fe5495dc652ec05156890a485e3a77a87ab2ac1b619102e5dd3ee510d42752fef858e83abb33bd1b4410ca89189a18e27bca684ece62ab2e60b1fd744d"
 
-RPROVIDES:${PN} += "zsh-html zsh-htmldoc zsh-htmldoc(aarch-64)"
+RPROVIDES:${PN} += "zsh-html \
+zsh-htmldoc \
+zsh-htmldoc(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

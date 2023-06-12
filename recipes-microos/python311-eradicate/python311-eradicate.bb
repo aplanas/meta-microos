@@ -13,7 +13,12 @@ RPM_NAME = "python311-eradicate-2.1.0-1.4.noarch.rpm"
 RPM_HASH = "63131766c9112e34b64905828cec1623bfb2e7246030d1054a2dcc750f95d1995ca9991d320d6b031b57dcd2bb9279243175c85ae56e7a8a057465b52d1d8b85"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(eradicate) python311-eradicate python3dist(eradicate)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(eradicate) \
+python311-eradicate \
+python3dist(eradicate)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

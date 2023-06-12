@@ -11,6 +11,9 @@ RPM_HASH = "cbbd8cec46b2c85c28a3b21737e68436f799544d43fd5a7de1f13807c0af5d98d686
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-ptpython-ptipython"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python39-ipython python39-ptpython"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python39-ipython \
+python39-ptpython"
 
 inherit rpm

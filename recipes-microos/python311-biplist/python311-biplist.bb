@@ -12,7 +12,9 @@ RPM_NAME = "python311-biplist-1.0.3-4.8.noarch.rpm"
 RPM_HASH = "2e8a6bbcf6691e89d11620aa475e23858c710587b8373e897af77cf186b73add4c9df5681d511b7480eb94a1b5a932209b77232f7a4fbda020d2091766e3d620"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(biplist) python311-biplist python3dist(biplist)"
+RPROVIDES:${PN} += "python3.11dist(biplist) \
+python311-biplist \
+python3dist(biplist)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

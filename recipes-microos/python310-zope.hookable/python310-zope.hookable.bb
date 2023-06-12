@@ -15,7 +15,14 @@ PV = "5.4"
 RPM_NAME = "python310-zope.hookable-5.4-3.1.aarch64.rpm"
 RPM_HASH = "e361a6c1bd90ff3967de2e00e3ac0b62fea0ab17a13b0928bcee4a7a6cb5b7ba5cbd3dbaca7de36a5c7df3f4851ba2e40859c4858cfc3025c841a605b4098833"
 
-RPROVIDES:${PN} += "python3-zope.hookable python3.10dist(zope.hookable) python310-zope.hookable python310-zope.hookable(aarch-64) python3dist(zope.hookable)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3-zope.hookable \
+python3.10dist(zope.hookable) \
+python310-zope.hookable \
+python310-zope.hookable(aarch-64) \
+python3dist(zope.hookable)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

@@ -19,7 +19,9 @@ RPM_NAME = "python310-dask-distributed-2023.3.2-3.1.noarch.rpm"
 RPM_HASH = "f38cacd336ec35c07ab2720c5f572a885c31e978fdcdfd5eda915fdbbdc72249240013eef11effa9d52290359a50a906d4f46b9b761f53b033c2934f850fde56"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dask-distributed python310-dask-distributed"
-RDEPENDS:${PN} += "python310-dask python310-distributed"
+RPROVIDES:${PN} += "python3-dask-distributed \
+python310-dask-distributed"
+RDEPENDS:${PN} += "python310-dask \
+python310-distributed"
 
 inherit rpm

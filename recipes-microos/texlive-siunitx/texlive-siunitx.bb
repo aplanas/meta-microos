@@ -27,7 +27,35 @@ RPM_NAME = "texlive-siunitx-2023.201.3.2.2svn66365-57.1.noarch.rpm"
 RPM_HASH = "383ae89af58afcf44f144674878dc8b266f22d50048376e2838629ad890b9b2bf3def3efb416df9949546e29b68a11b5f0b84532e5d467be0d59701ebe573c14"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(siunitx-abbreviations.cfg) tex(siunitx-binary.cfg) tex(siunitx-v2.sty) tex(siunitx-version-1.cfg) tex(siunitx.sty) texlive-siunitx"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amstext.sty) tex(array.sty) tex(color.sty) tex(expl3.sty) tex(l3keys2e.sty) tex(textcomp.sty) tex(translations.sty) tex(translator.sty) tex(xparse.sty) tex(xspace.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-l3kernel texlive-l3packages texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(siunitx-abbreviations.cfg) \
+tex(siunitx-binary.cfg) \
+tex(siunitx-v2.sty) \
+tex(siunitx-version-1.cfg) \
+tex(siunitx.sty) \
+texlive-siunitx"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amstext.sty) \
+tex(array.sty) \
+tex(color.sty) \
+tex(expl3.sty) \
+tex(l3keys2e.sty) \
+tex(textcomp.sty) \
+tex(translations.sty) \
+tex(translator.sty) \
+tex(xparse.sty) \
+tex(xspace.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-l3kernel \
+texlive-l3packages \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

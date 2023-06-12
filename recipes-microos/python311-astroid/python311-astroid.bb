@@ -18,7 +18,11 @@ RPM_NAME = "python311-astroid-2.15.5-1.1.noarch.rpm"
 RPM_HASH = "2ca455a0192976ad73f11f413c4371eb6864b84ead21ca491ea8ba4eaefda447e32ddf9ca731733e3f8719ca153bf366b05681d8ac45e543c3f5cd965d88f515"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(astroid) python311-astroid python3dist(astroid)"
-RDEPENDS:${PN} += "python(abi) python311-lazy-object-proxy python311-wrapt"
+RPROVIDES:${PN} += "python3.11dist(astroid) \
+python311-astroid \
+python3dist(astroid)"
+RDEPENDS:${PN} += "python(abi) \
+python311-lazy-object-proxy \
+python311-wrapt"
 
 inherit rpm

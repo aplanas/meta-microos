@@ -14,7 +14,9 @@ RPM_NAME = "python311-praatio-4.1.0-1.12.noarch.rpm"
 RPM_HASH = "387ae73caa3df704b7c1684463a546b844a9a36df6981d4161e3e11258c3f55492151a01472e37961f69ab9b5396d1199946aac87d068a5d85f80f46abd0ab73"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(praatio) python311-praatio python3dist(praatio)"
+RPROVIDES:${PN} += "python3.11dist(praatio) \
+python311-praatio \
+python3dist(praatio)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -18,7 +18,34 @@ RPM_NAME = "texlive-bundledoc-2023.201.3.4svn64620-52.1.noarch.rpm"
 RPM_HASH = "7d1cf28a52edb09c75ea5eac63c152eacf9e1b758e48fb0fa2b2ed05196c51b46e61a6fafb810539641b6182fa30472224ccba5fdfdc40eebe5b31cc16a0c812"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(miktex.cfg) tex(texlive-unix-arlatex.cfg) tex(texlive-unix.cfg) texlive-bundledoc"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(File::Basename) perl(File::Copy) perl(File::Find) perl(File::Path) perl(File::Spec) perl(File::Spec::Functions) perl(File::Temp) perl(Getopt::Long) perl(Pod::Usage) perl(strict) perl(warnings) sed texlive texlive-bundledoc-bin texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(miktex.cfg) \
+tex(texlive-unix-arlatex.cfg) \
+tex(texlive-unix.cfg) \
+texlive-bundledoc"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(File::Basename) \
+perl(File::Copy) \
+perl(File::Find) \
+perl(File::Path) \
+perl(File::Spec) \
+perl(File::Spec::Functions) \
+perl(File::Temp) \
+perl(Getopt::Long) \
+perl(Pod::Usage) \
+perl(strict) \
+perl(warnings) \
+sed \
+texlive \
+texlive-bundledoc-bin \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

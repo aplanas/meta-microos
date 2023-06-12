@@ -14,7 +14,15 @@ RPM_NAME = "python39-altair-widgets-0.2.2-3.7.noarch.rpm"
 RPM_HASH = "90630ebc1470cbc39a04f6933d0fe64e6957b162f75d234a434c7fc83062356af7d9950b4602c17200a3c1aa7528fb5cfe3d1bee6376b32c5fce357a707fa237"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(altair-widgets) python39-altair-widgets python39-jupyter_altair-widgets python3dist(altair-widgets)"
-RDEPENDS:${PN} += "python(abi) python39-altair python39-ipython python39-ipywidgets python39-pandas python39-vega"
+RPROVIDES:${PN} += "python3.9dist(altair-widgets) \
+python39-altair-widgets \
+python39-jupyter_altair-widgets \
+python3dist(altair-widgets)"
+RDEPENDS:${PN} += "python(abi) \
+python39-altair \
+python39-ipython \
+python39-ipywidgets \
+python39-pandas \
+python39-vega"
 
 inherit rpm

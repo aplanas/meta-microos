@@ -13,7 +13,9 @@ PV = "0.2.18"
 RPM_NAME = "c-toxcore-0.2.18-1.4.aarch64.rpm"
 RPM_HASH = "0084738636c4a6e4298e018fe4d72dd1fa06e7fb06d642fa431b10c6c3c38231701123f72217f9d9172824a47dfed4e973a9da88096ff478f4d9d27239f73bae"
 
-RPROVIDES:${PN} += "c-toxcore c-toxcore(aarch-64)"
-RDEPENDS:${PN} += "shadow systemd"
+RPROVIDES:${PN} += "c-toxcore \
+c-toxcore(aarch-64)"
+RDEPENDS:${PN} += "shadow \
+systemd"
 
 inherit rpm

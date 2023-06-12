@@ -10,6 +10,18 @@ RPM_HASH = "7232de2deada08c5f238fb59c4aa90bdb535493fed6f4cb4b513fb9bb78d2439c809
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-moto-all"
-RDEPENDS:${PN} += "python39-PyYAML python39-aws-xray-sdk python39-cfn-lint python39-docker python39-graphql-core python39-idna python39-jsondiff python39-moto python39-openapi-spec-validator python39-pyparsing python39-python-jose python39-setuptools python39-sshpubkeys"
+RDEPENDS:${PN} += "python39-PyYAML \
+python39-aws-xray-sdk \
+python39-cfn-lint \
+python39-docker \
+python39-graphql-core \
+python39-idna \
+python39-jsondiff \
+python39-moto \
+python39-openapi-spec-validator \
+python39-pyparsing \
+python39-python-jose \
+python39-setuptools \
+python39-sshpubkeys"
 
 inherit rpm

@@ -14,7 +14,12 @@ RPM_NAME = "python310-traitsui-7.2.1-1.6.noarch.rpm"
 RPM_HASH = "ae2cc3bfe58ae844504f718757ff321b2fde3e943261e1ac1148ee76553ae954e54c8e4f19d82441621f6b2512ee5d96e736515a34c871b029617f23a789b14c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-traitsui python3.10dist(traitsui) python310-traitsui python3dist(traitsui)"
-RDEPENDS:${PN} += "python(abi) python310-pyface python310-traits"
+RPROVIDES:${PN} += "python3-traitsui \
+python3.10dist(traitsui) \
+python310-traitsui \
+python3dist(traitsui)"
+RDEPENDS:${PN} += "python(abi) \
+python310-pyface \
+python310-traits"
 
 inherit rpm

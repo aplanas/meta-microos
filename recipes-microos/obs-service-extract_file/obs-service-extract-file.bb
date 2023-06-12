@@ -11,6 +11,11 @@ RPM_HASH = "9e3ae9efecabd0de32e6a7f14fdd3486762a31cd46d5604f3269c6794829d8b10052
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-extract_file"
-RDEPENDS:${PN} += "/bin/bash bzip2 gzip tar unzip xz"
+RDEPENDS:${PN} += "/bin/bash \
+bzip2 \
+gzip \
+tar \
+unzip \
+xz"
 
 inherit rpm

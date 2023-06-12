@@ -13,7 +13,19 @@ PV = "1.13a"
 RPM_NAME = "mgp-1.13a-121.10.aarch64.rpm"
 RPM_HASH = "b0e96525d7d262fd9972a24e8ae64e7982fd59c79cb5f3c0800d5e2cb5fe3e702c48fe1f0fd63f1abff6b10337ee6aeac5a39e5d26189ad47c902c7392f40662"
 
-RPROVIDES:${PN} += "magicpoint mgp mgp(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libImlib2.so.1()(64bit) libX11.so.6()(64bit) libXft.so.2()(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) perl sharutils"
+RPROVIDES:${PN} += "magicpoint \
+mgp \
+mgp(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libImlib2.so.1()(64bit) \
+libX11.so.6()(64bit) \
+libXft.so.2()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+perl \
+sharutils"
 
 inherit rpm

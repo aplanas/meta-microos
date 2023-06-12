@@ -16,7 +16,11 @@ PV = "2020.2"
 RPM_NAME = "qhull-2020.2-3.5.aarch64.rpm"
 RPM_HASH = "5aa30ce4f5f844b4b02c71d72be4854818c9706203614f9382f92efc446f5ed7ae23235ffe3da557e5a6adbed8c6077bfdff9ca9776a57dc564199387bd4c842"
 
-RPROVIDES:${PN} += "qhull qhull(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libqhull_r.so.8.0()(64bit)"
+RPROVIDES:${PN} += "qhull \
+qhull(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libqhull_r.so.8.0()(64bit)"
 
 inherit rpm

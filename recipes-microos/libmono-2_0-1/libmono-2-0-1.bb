@@ -13,7 +13,9 @@ PV = "6.12.0"
 RPM_NAME = "libmono-2_0-1-6.12.0-5.3.aarch64.rpm"
 RPM_HASH = "8b7d59adf21d7a875a1da28f39473bf1ef3f856e31381ad35bff3331a8a529a799ae9e10df559939b30360775c7a4964b82c50f2fb2f202ee2a06d79359d035f"
 
-RPROVIDES:${PN} += "libmono-2_0-1 libmono-2_0-1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig libmonosgen-2_0-1"
+RPROVIDES:${PN} += "libmono-2_0-1 \
+libmono-2_0-1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libmonosgen-2_0-1"
 
 inherit rpm

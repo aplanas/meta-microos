@@ -8,7 +8,16 @@ PV = "3.3+git0.39e0cf712"
 RPM_NAME = "nfs-ganesha-proxy-3.3+git0.39e0cf712-5.8.aarch64.rpm"
 RPM_HASH = "685d09cb32980dad239f9d4f5086e40acba3a12eb3e530076ea5af47ca6c2a36d198513a532889c9fcc1859362463941a71c80bbc75f02fd391271a28e9321e0"
 
-RPROVIDES:${PN} += "libfsalproxy.so()(64bit) nfs-ganesha-proxy nfs-ganesha-proxy(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libganesha_nfsd.so.3.3()(64bit) libntirpc.so.3.3()(64bit) libntirpc.so.3.3(NTIRPC_3.3)(64bit) liburcu-bp.so.8()(64bit) nfs-ganesha"
+RPROVIDES:${PN} += "libfsalproxy.so()(64bit) \
+nfs-ganesha-proxy \
+nfs-ganesha-proxy(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libganesha_nfsd.so.3.3()(64bit) \
+libntirpc.so.3.3()(64bit) \
+libntirpc.so.3.3(NTIRPC_3.3)(64bit) \
+liburcu-bp.so.8()(64bit) \
+nfs-ganesha"
 
 inherit rpm

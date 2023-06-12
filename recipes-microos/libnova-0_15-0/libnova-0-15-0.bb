@@ -10,7 +10,15 @@ PV = "0.15.0"
 RPM_NAME = "libnova-0_15-0-0.15.0-10.29.aarch64.rpm"
 RPM_HASH = "581f4242b0a00116f53c160765a558cc2a947dcfed8a7f63ae9b483ddb9506157a7128fc5a9734426a0be42b68a4d941157335bb387590e665ad1c301c123a3b"
 
-RPROVIDES:${PN} += "libnova-0.15.so.0()(64bit) libnova-0_15-0 libnova-0_15-0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "libnova-0.15.so.0()(64bit) \
+libnova-0_15-0 \
+libnova-0_15-0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

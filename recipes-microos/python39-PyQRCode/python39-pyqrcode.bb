@@ -10,7 +10,14 @@ RPM_NAME = "python39-PyQRCode-1.3.6-4.1.noarch.rpm"
 RPM_HASH = "ba935469c04f215bc478547b37a1bbcf0211598cfa5c13a2f72d08d8335fab4ad86a068f2a153f932b9fd10034009d3fd30478be0c2f075112b9a49ca3b351ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pyqrcodeng) python39-PyQRCode python39-PyQRCodeNG python39-pyqrcodeng python3dist(pyqrcodeng)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(pyqrcodeng) \
+python39-PyQRCode \
+python39-PyQRCodeNG \
+python39-pyqrcodeng \
+python3dist(pyqrcodeng)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

@@ -30,7 +30,22 @@ PV = "1.2.1"
 RPM_NAME = "libxspf-devel-1.2.1-1.6.aarch64.rpm"
 RPM_HASH = "da5a584dbec3f6827bcedbff3dc8d02afd97aeba4fc7e83f302b2325f7636820ecc11d6785c94028e0e55fae0e842227aa87726ee30fbf84eee24722cfddc591"
 
-RPROVIDES:${PN} += "libxspf-devel libxspf-devel(aarch-64) pkgconfig(xspf)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libexpat-devel libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++-devel libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libxspf4"
+RPROVIDES:${PN} += "libxspf-devel \
+libxspf-devel(aarch-64) \
+pkgconfig(xspf)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libexpat-devel \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++-devel \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libxspf4"
 
 inherit rpm

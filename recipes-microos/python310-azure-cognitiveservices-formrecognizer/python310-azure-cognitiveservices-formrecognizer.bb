@@ -10,7 +10,14 @@ RPM_NAME = "python310-azure-cognitiveservices-formrecognizer-0.1.1-2.11.noarch.r
 RPM_HASH = "de0ba72e89be4e83aa03b670defefdd91bf1748152964af0c2506afcdbcd2109c19a6dc519f62ca3b1c886231c10da0f7d8e1d3cfe7e7bf184b1f39cc59d31d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-cognitiveservices-formrecognizer python3.10dist(azure-cognitiveservices-formrecognizer) python310-azure-cognitiveservices-formrecognizer python3dist(azure-cognitiveservices-formrecognizer)"
-RDEPENDS:${PN} += "python(abi) python310-azure-cognitiveservices-nspkg python310-azure-common python310-azure-nspkg python310-msrest"
+RPROVIDES:${PN} += "python3-azure-cognitiveservices-formrecognizer \
+python3.10dist(azure-cognitiveservices-formrecognizer) \
+python310-azure-cognitiveservices-formrecognizer \
+python3dist(azure-cognitiveservices-formrecognizer)"
+RDEPENDS:${PN} += "python(abi) \
+python310-azure-cognitiveservices-nspkg \
+python310-azure-common \
+python310-azure-nspkg \
+python310-msrest"
 
 inherit rpm

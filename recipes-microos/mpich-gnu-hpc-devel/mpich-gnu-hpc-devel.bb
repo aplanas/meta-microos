@@ -9,7 +9,8 @@ PV = "4.0.2"
 RPM_NAME = "mpich-gnu-hpc-devel-4.0.2-3.3.aarch64.rpm"
 RPM_HASH = "c4d268e4292f6919fe12dd5936b49965432a1b62ae888255f8823ce119c76479b6df9205fcbf99775ca12cf8696e9bd188a3c14385c56e18730d75ebb8db0e3f"
 
-RPROVIDES:${PN} += "mpich-gnu-hpc-devel mpich-gnu-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "mpich-gnu-hpc-devel \
+mpich-gnu-hpc-devel(aarch-64)"
 RDEPENDS:${PN} += "mpich_4_0_2-gnu-hpc-devel"
 
 inherit rpm

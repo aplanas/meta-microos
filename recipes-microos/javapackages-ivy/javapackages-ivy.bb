@@ -10,6 +10,7 @@ RPM_HASH = "6275fb8169dadb733bbc197650ba351d3c1c1d81ad13c43387f38aad3badcdd33204
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javapackages-ivy"
-RDEPENDS:${PN} += "javapackages-local javapackages-tools"
+RDEPENDS:${PN} += "javapackages-local \
+javapackages-tools"
 
 inherit rpm

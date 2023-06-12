@@ -14,6 +14,37 @@ RPM_HASH = "7bc55002d04c6b15605fe880fd8de7718b031c6b22493157210e8cbd0dc3532505a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ltximg"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Archive::Tar) perl(Config) perl(Cwd) perl(Data::Dumper) perl(Env) perl(File::Basename) perl(File::Copy) perl(File::Find) perl(File::Path) perl(File::Spec::Functions) perl(File::Temp) perl(FileHandle) perl(Getopt::Long) perl(IO::Compress::Zip) perl(POSIX) perl(Term::ANSIColor) perl(autodie) perl(if) sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-ltximg-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Archive::Tar) \
+perl(Config) \
+perl(Cwd) \
+perl(Data::Dumper) \
+perl(Env) \
+perl(File::Basename) \
+perl(File::Copy) \
+perl(File::Find) \
+perl(File::Path) \
+perl(File::Spec::Functions) \
+perl(File::Temp) \
+perl(FileHandle) \
+perl(Getopt::Long) \
+perl(IO::Compress::Zip) \
+perl(POSIX) \
+perl(Term::ANSIColor) \
+perl(autodie) \
+perl(if) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-ltximg-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -14,7 +14,9 @@ RPM_NAME = "perl-Net-SMTP-SSL-1.04-1.23.noarch.rpm"
 RPM_HASH = "b655c44790d7f28c27858b6a265bd65a4b4d57cd2e72833e8b3975d1810a3b6dd0a9c01ba2051309977c469e46a1c3dedd2c0f3dfe0343a3630da1ff577f7a3c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Net::SMTP::SSL) perl-Net-SMTP-SSL"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(IO::Socket::SSL)"
+RPROVIDES:${PN} += "perl(Net::SMTP::SSL) \
+perl-Net-SMTP-SSL"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(IO::Socket::SSL)"
 
 inherit rpm

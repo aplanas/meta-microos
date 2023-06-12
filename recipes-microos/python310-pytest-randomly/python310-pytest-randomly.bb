@@ -25,7 +25,12 @@ RPM_NAME = "python310-pytest-randomly-3.12.0-1.1.noarch.rpm"
 RPM_HASH = "5865bdd6fe7b85d3d5013edc69532e056df524dbedd28e96233fd73079a35a8cb5895790b7c51744661dff33147d155e7ab3df414dcce4b4f0fcaf8b64d9ff33"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-randomly python3.10dist(pytest-randomly) python310-pytest-randomly python3dist(pytest-randomly)"
-RDEPENDS:${PN} += "python(abi) python310-importlib-metadata python310-pytest"
+RPROVIDES:${PN} += "python3-pytest-randomly \
+python3.10dist(pytest-randomly) \
+python310-pytest-randomly \
+python3dist(pytest-randomly)"
+RDEPENDS:${PN} += "python(abi) \
+python310-importlib-metadata \
+python310-pytest"
 
 inherit rpm

@@ -28,7 +28,13 @@ PV = "1.15.0"
 RPM_NAME = "python311-wrapt-1.15.0-1.1.aarch64.rpm"
 RPM_HASH = "446b47e2bcccc90227a6df6a568c83293ee399a0538b814b43abf7e7f67d7abdd4ea62aba98272a1cf9e6832d297cb32220930f4efb9734aa51b441b70653eb4"
 
-RPROVIDES:${PN} += "python3.11dist(wrapt) python311-wrapt python311-wrapt(aarch-64) python3dist(wrapt)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.11dist(wrapt) \
+python311-wrapt \
+python311-wrapt(aarch-64) \
+python3dist(wrapt)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

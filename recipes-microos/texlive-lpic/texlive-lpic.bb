@@ -16,7 +16,24 @@ RPM_NAME = "texlive-lpic-2023.201.0.0.8svn20843-54.1.noarch.rpm"
 RPM_HASH = "26525c7b85b5ba4392cdcce0104c17aed12df821a8cbf701ce27b8c6c54e245b88c99dcf7aa1f81604c42975a81f2d14f912db5ae9d4d44be15eaa986c570b8b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lpic.sty) texlive-lpic"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(color.sty) tex(epsfig.sty) tex(ifthen.sty) tex(rotating.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(lpic.sty) \
+texlive-lpic"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(color.sty) \
+tex(epsfig.sty) \
+tex(ifthen.sty) \
+tex(rotating.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

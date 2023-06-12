@@ -17,7 +17,21 @@ RPM_NAME = "texlive-beamercolorthemeowl-2023.201.0.0.1.1svn40105-53.1.noarch.rpm
 RPM_HASH = "f14eec2e4ceecc6755c55e56020bab96e510d3e7d36f211a6afac6db8bb8663848cab68d28a906a7c815ae529c791bfed400b61ae2efb25106f8847882edd9ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(beamercolorthemeowl.sty) texlive-beamercolorthemeowl"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(etoolbox.sty) tex(xcolor.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(beamercolorthemeowl.sty) \
+texlive-beamercolorthemeowl"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(etoolbox.sty) \
+tex(xcolor.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

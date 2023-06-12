@@ -11,7 +11,17 @@ RPM_NAME = "apache-commons-compress-1.21-2.6.noarch.rpm"
 RPM_HASH = "8e291727f003d0e826cd36c4a67465f0aedfb6bf30f0e9b4919c688c98ba131ac4cecc66cb239301ae7691f6fdc2f561422aae66d8fe7298cb6d0ba07482dfee"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "apache-commons-compress commons-compress jakarta-commons-compress mvn(commons-compress:commons-compress) mvn(commons-compress:commons-compress:pom:) mvn(commons:commons-compress) mvn(commons:commons-compress:pom:) mvn(org.apache.commons:commons-compress) mvn(org.apache.commons:commons-compress:pom:) osgi(org.apache.commons.compress)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "apache-commons-compress \
+commons-compress \
+jakarta-commons-compress \
+mvn(commons-compress:commons-compress) \
+mvn(commons-compress:commons-compress:pom:) \
+mvn(commons:commons-compress) \
+mvn(commons:commons-compress:pom:) \
+mvn(org.apache.commons:commons-compress) \
+mvn(org.apache.commons:commons-compress:pom:) \
+osgi(org.apache.commons.compress)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

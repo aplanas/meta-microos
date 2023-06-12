@@ -18,7 +18,14 @@ PV = "2.3.9"
 RPM_NAME = "apache2-mod_fcgid-2.3.9-11.11.aarch64.rpm"
 RPM_HASH = "1f41673f5a0ed42f2eb43a98ec6a1be9caf3f4881a83ff1367506bab0972b51731c79b91d80db4153f882f8c51ae3f09c5abc6dbb8f612aea28ede4cb8add63c"
 
-RPROVIDES:${PN} += "apache2-mod_fcgid apache2-mod_fcgid(aarch-64) config(apache2-mod_fcgid)"
-RDEPENDS:${PN} += "apache2 apache_mmn_20120211 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) suse_maintenance_mmn_0"
+RPROVIDES:${PN} += "apache2-mod_fcgid \
+apache2-mod_fcgid(aarch-64) \
+config(apache2-mod_fcgid)"
+RDEPENDS:${PN} += "apache2 \
+apache_mmn_20120211 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+suse_maintenance_mmn_0"
 
 inherit rpm

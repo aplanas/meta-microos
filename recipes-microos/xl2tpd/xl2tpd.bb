@@ -29,7 +29,16 @@ PV = "1.3.18"
 RPM_NAME = "xl2tpd-1.3.18-1.3.aarch64.rpm"
 RPM_HASH = "43f4bab6a01d1586563eebd24dd5242ddd9f5b81b61c3f0436ee1ce8bc62cd10490abee4ad5d60e53dfe11bee57259c220f59d991904c8a4105c3abebf0c82a7"
 
-RPROVIDES:${PN} += "config(xl2tpd) l2tpd xl2tpd xl2tpd(aarch-64)"
-RDEPENDS:${PN} += "(kmod(l2tp_ppp.ko) if kernel) /bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libpcap.so.1()(64bit) ppp"
+RPROVIDES:${PN} += "config(xl2tpd) \
+l2tpd \
+xl2tpd \
+xl2tpd(aarch-64)"
+RDEPENDS:${PN} += "(kmod(l2tp_ppp.ko) if kernel) \
+/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libpcap.so.1()(64bit) \
+ppp"
 
 inherit rpm

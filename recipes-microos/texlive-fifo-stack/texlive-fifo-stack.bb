@@ -13,7 +13,20 @@ RPM_NAME = "texlive-fifo-stack-2023.201.1.0svn33288-52.1.noarch.rpm"
 RPM_HASH = "e40c972289c53b0e0d9ffabd76ff1e9cfeb27bd45147c0bb201396d8d786fd040b028b2c38fe0d39baa2a74ca4ee23de076ed52211c60b743ac49e3df8dcb2a5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fifo-stack.sty) texlive-fifo-stack"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifthen.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(fifo-stack.sty) \
+texlive-fifo-stack"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifthen.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

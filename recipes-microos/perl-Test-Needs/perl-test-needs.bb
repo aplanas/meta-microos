@@ -28,7 +28,8 @@ RPM_NAME = "perl-Test-Needs-0.002010-1.1.noarch.rpm"
 RPM_HASH = "6f55c029b0c12b139d64f7d5938fc300fdc5fdabf55e9a2ce1d342c31776789ace8a98472ff53a100f3676583a3e45b03483c766c87e51b2671579e6bc4c092f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Needs) perl-Test-Needs"
+RPROVIDES:${PN} += "perl(Test::Needs) \
+perl-Test-Needs"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

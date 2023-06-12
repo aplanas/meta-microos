@@ -19,7 +19,13 @@ RPM_NAME = "jetty-rewrite-9.4.51-1.1.noarch.rpm"
 RPM_HASH = "880a65dc9e8b0d0d6cad5a715a151b5e472f2aee65c42b1a9cd7681b2fea812a8104db64761810846f0a09370a64ae1dc9865409734d39e11f3ad3b05fb5602e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jetty-rewrite mvn(org.eclipse.jetty:jetty-rewrite) mvn(org.eclipse.jetty:jetty-rewrite:pom:) osgi(org.eclipse.jetty.rewrite)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(javax.servlet:javax.servlet-api) mvn(org.eclipse.jetty:jetty-server)"
+RPROVIDES:${PN} += "jetty-rewrite \
+mvn(org.eclipse.jetty:jetty-rewrite) \
+mvn(org.eclipse.jetty:jetty-rewrite:pom:) \
+osgi(org.eclipse.jetty.rewrite)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(javax.servlet:javax.servlet-api) \
+mvn(org.eclipse.jetty:jetty-server)"
 
 inherit rpm

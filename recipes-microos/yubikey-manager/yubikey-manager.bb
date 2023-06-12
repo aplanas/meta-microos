@@ -12,7 +12,15 @@ RPM_NAME = "yubikey-manager-4.0.9-2.2.noarch.rpm"
 RPM_HASH = "f8b61f87560cf92363d70f9f246a3fcbc277a973d3ec9c6f3f245630869b17ad41aa2947d5c9de4eff7966dbb278145c66f2cd6e2f34def1f5c5930c84fafa4c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-yubikey-manager python3.10dist(yubikey-manager) python3dist(yubikey-manager) yubikey-manager"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-click python3-cryptography python3-fido2 python3-pyscard"
+RPROVIDES:${PN} += "python3-yubikey-manager \
+python3.10dist(yubikey-manager) \
+python3dist(yubikey-manager) \
+yubikey-manager"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3-click \
+python3-cryptography \
+python3-fido2 \
+python3-pyscard"
 
 inherit rpm

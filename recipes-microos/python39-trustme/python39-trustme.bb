@@ -12,7 +12,11 @@ RPM_NAME = "python39-trustme-1.0.0-1.1.noarch.rpm"
 RPM_HASH = "57ceaa12fc2c221e081e7a32707d1ad7cb2df89489293bba89652832918b5b304b1da6e59f62e1791a0b53bf4a2cf08945bb265043103a30d3155c20818f8a0d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(trustme) python39-trustme python3dist(trustme)"
-RDEPENDS:${PN} += "python(abi) python39-cryptography python39-idna"
+RPROVIDES:${PN} += "python3.9dist(trustme) \
+python39-trustme \
+python3dist(trustme)"
+RDEPENDS:${PN} += "python(abi) \
+python39-cryptography \
+python39-idna"
 
 inherit rpm

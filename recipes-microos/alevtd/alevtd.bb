@@ -8,7 +8,13 @@ PV = "3.107"
 RPM_NAME = "alevtd-3.107-2.10.aarch64.rpm"
 RPM_HASH = "2d493f9b2ee1098a55989d77d737f699812b13930fcd318fb407d29542d8823be4c6084eff1e801ba1b5ad947c204e4cab26d70f2a5640f45e94ae9c80b40ae7"
 
-RPROVIDES:${PN} += "alevtd alevtd(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libzvbi.so.0()(64bit)"
+RPROVIDES:${PN} += "alevtd \
+alevtd(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libzvbi.so.0()(64bit)"
 
 inherit rpm

@@ -19,7 +19,16 @@ RPM_NAME = "apache-commons-jexl-2.1.1-2.6.noarch.rpm"
 RPM_HASH = "aeb6cbafa9c4cf91fac7389e7bf5bf25bab77af6bbbf5f16350c6ba76c39967b488fccade14720b0df1690b0f9f2a2ed7c73d512bded8295cc7a85eae237a347"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "apache-commons-jexl commons-jexl mvn(org.apache.commons:commons-jexl) mvn(org.apache.commons:commons-jexl-compat) mvn(org.apache.commons:commons-jexl-compat:pom:) mvn(org.apache.commons:commons-jexl:pom:) osgi(org.apache.commons.commons-jexl) osgi(org.apache.commons.commons-jexl-compat)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(commons-logging:commons-logging)"
+RPROVIDES:${PN} += "apache-commons-jexl \
+commons-jexl \
+mvn(org.apache.commons:commons-jexl) \
+mvn(org.apache.commons:commons-jexl-compat) \
+mvn(org.apache.commons:commons-jexl-compat:pom:) \
+mvn(org.apache.commons:commons-jexl:pom:) \
+osgi(org.apache.commons.commons-jexl) \
+osgi(org.apache.commons.commons-jexl-compat)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(commons-logging:commons-logging)"
 
 inherit rpm

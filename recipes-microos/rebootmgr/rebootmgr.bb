@@ -9,7 +9,16 @@ PV = "2.0"
 RPM_NAME = "rebootmgr-2.0-1.2.aarch64.rpm"
 RPM_HASH = "c35790631b3bcb20c1257aeaa03f607bcb7318f356ada8fbd818cf89de280fc4f9bdf977704223eead04fbff8527974b41a0e67c4d88f095f9e44022c6a4457b"
 
-RPROVIDES:${PN} += "rebootmgr rebootmgr(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libdbus-1.so.3()(64bit) libdbus-1.so.3(LIBDBUS_1_3)(64bit) libeconf.so.0()(64bit) libeconf.so.0(LIBECONF_0.2)(64bit) libeconf.so.0(LIBECONF_ALPHA)(64bit)"
+RPROVIDES:${PN} += "rebootmgr \
+rebootmgr(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libdbus-1.so.3()(64bit) \
+libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
+libeconf.so.0()(64bit) \
+libeconf.so.0(LIBECONF_0.2)(64bit) \
+libeconf.so.0(LIBECONF_ALPHA)(64bit)"
 
 inherit rpm

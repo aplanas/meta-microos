@@ -10,7 +10,9 @@ PV = "1.3.8"
 RPM_NAME = "fltk-devel-static-1.3.8-3.8.aarch64.rpm"
 RPM_HASH = "7611917a3d2707d57792e0fac246a29d23f6993b212beee6d6f0205e36e4743c0c88ce9764bb86b6f53ecc22606c7270e8960e566cdea5ef03e8ac12d7ccb847"
 
-RPROVIDES:${PN} += "fltk-devel-static fltk-devel-static(aarch-64)"
-RDEPENDS:${PN} += "fltk-devel libfltk1_3"
+RPROVIDES:${PN} += "fltk-devel-static \
+fltk-devel-static(aarch-64)"
+RDEPENDS:${PN} += "fltk-devel \
+libfltk1_3"
 
 inherit rpm

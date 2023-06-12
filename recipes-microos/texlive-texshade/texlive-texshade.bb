@@ -17,7 +17,23 @@ RPM_NAME = "texlive-texshade-2023.201.1.26asvn64242-54.1.noarch.rpm"
 RPM_HASH = "7e52d8ee01239c61412a245b4ab2f3b6e27a27729737acfe1d151e2008883bb414f4c102ad83d4c0755876618517bba73dcdf193a084ad5ecc6163db014f7ab8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(texshade.def) tex(texshade.sty) texlive-texshade"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amssymb.sty) tex(color.sty) tex(graphics.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(texshade.def) \
+tex(texshade.sty) \
+texlive-texshade"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amssymb.sty) \
+tex(color.sty) \
+tex(graphics.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -11,7 +11,15 @@ PV = "1.22.3"
 RPM_NAME = "libgstisoff-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "6cbba963c559e4c103e782e94133f50f7ed479f1d2501e4d3482c452443470ad6777fcbabee2f3eca0c304f27c9ead761414eb0602422847b23f5d81cccbf12a"
 
-RPROVIDES:${PN} += "libgstisoff-1.0.so.0()(64bit) libgstisoff-1_0-0 libgstisoff-1_0-0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libglib-2.0.so.0()(64bit) libgstbase-1.0.so.0()(64bit) libgstreamer-1.0.so.0()(64bit)"
+RPROVIDES:${PN} += "libgstisoff-1.0.so.0()(64bit) \
+libgstisoff-1_0-0 \
+libgstisoff-1_0-0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgstbase-1.0.so.0()(64bit) \
+libgstreamer-1.0.so.0()(64bit)"
 
 inherit rpm

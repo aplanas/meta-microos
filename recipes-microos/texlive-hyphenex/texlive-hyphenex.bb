@@ -13,7 +13,19 @@ RPM_NAME = "texlive-hyphenex-2023.201.svn57387-52.1.noarch.rpm"
 RPM_HASH = "a1fad2bfb512033c16bf31beb47d1014fd0a9dceeb6c6f35ba9f59b076213d7a3b7c06b8c4d04bb2158bbd44e0796c0a10c1f04f0cf4b271c9096f6851b6ae24"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ushyphex.tex) texlive-hyphenex"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(ushyphex.tex) \
+texlive-hyphenex"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

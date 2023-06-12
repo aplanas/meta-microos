@@ -13,7 +13,11 @@ RPM_NAME = "python311-PyTrie-0.4.0-1.11.noarch.rpm"
 RPM_HASH = "6786fd7cb638429e47f9cff47606d68e398b9cc265e975f691d4fd8dae5d610d9270e8ec107661e87d950b87a1fa9abd17caaef723147b4ee485da599ae2b074"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pytrie) python311-PyTrie python311-pytrie python3dist(pytrie)"
-RDEPENDS:${PN} += "python(abi) python311-sortedcontainers"
+RPROVIDES:${PN} += "python3.11dist(pytrie) \
+python311-PyTrie \
+python311-pytrie \
+python3dist(pytrie)"
+RDEPENDS:${PN} += "python(abi) \
+python311-sortedcontainers"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "1716fab32380de6a44e540b3a060d663f3037a2d1f5954187e0fd3ec8d9d9f2d8776
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dumpzilla-bash-completion"
-RDEPENDS:${PN} += "bash-completion dumpzilla"
+RDEPENDS:${PN} += "bash-completion \
+dumpzilla"
 
 inherit rpm

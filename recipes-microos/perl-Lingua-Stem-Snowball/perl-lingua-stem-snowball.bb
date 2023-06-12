@@ -16,7 +16,12 @@ PV = "0.952"
 RPM_NAME = "perl-Lingua-Stem-Snowball-0.952-14.36.aarch64.rpm"
 RPM_HASH = "d3d3897cad1f0560156e6211b4c026c158db3c76ad94b4fe1bc81c99dbaa006b576bdebc96c6bfd76e818f7fa3a2c8ca673e85265222793350b6be534834beb3"
 
-RPROVIDES:${PN} += "perl(Lingua::Stem::Snowball) perl-Lingua-Stem-Snowball perl-Lingua-Stem-Snowball(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Lingua::Stem::Snowball) \
+perl-Lingua-Stem-Snowball \
+perl-Lingua-Stem-Snowball(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

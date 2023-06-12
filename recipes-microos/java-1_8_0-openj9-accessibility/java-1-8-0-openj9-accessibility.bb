@@ -14,7 +14,11 @@ PV = "1.8.0.362"
 RPM_NAME = "java-1_8_0-openj9-accessibility-1.8.0.362-2.1.aarch64.rpm"
 RPM_HASH = "b3f847ab7aef66b2a35716c333c3279c506e4f7a4104dab37e05411cfe0c4b5adbbf779626ca0e177d2d218c8c5b5cf62e9b94749084cd5f7f4db4b5079aa61f"
 
-RPROVIDES:${PN} += "config(java-1_8_0-openj9-accessibility) java-1_8_0-openj9-accessibility java-1_8_0-openj9-accessibility(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh java-1_8_0-openj9 java-atk-wrapper"
+RPROVIDES:${PN} += "config(java-1_8_0-openj9-accessibility) \
+java-1_8_0-openj9-accessibility \
+java-1_8_0-openj9-accessibility(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+java-1_8_0-openj9 \
+java-atk-wrapper"
 
 inherit rpm

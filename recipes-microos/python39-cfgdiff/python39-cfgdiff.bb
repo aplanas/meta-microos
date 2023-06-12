@@ -17,7 +17,16 @@ RPM_NAME = "python39-cfgdiff-0.0.0+git.1641843506.dc1234a-1.7.noarch.rpm"
 RPM_HASH = "d6203a0bc05681deed11e31391ed9462eb799bc6d93e8749b8fbb9b308d22c2666ea7d05d56d6b414900706635a19307faff94acf3c2a2d6b445acaee2757edf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "cfgdiff python3.9dist(cfgdiff) python39-cfgdiff python3dist(cfgdiff)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-PyYAML python39-configobj python39-dnspython python39-lxml"
+RPROVIDES:${PN} += "cfgdiff \
+python3.9dist(cfgdiff) \
+python39-cfgdiff \
+python3dist(cfgdiff)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-PyYAML \
+python39-configobj \
+python39-dnspython \
+python39-lxml"
 
 inherit rpm

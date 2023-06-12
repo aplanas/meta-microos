@@ -10,7 +10,11 @@ RPM_NAME = "noto-loopedthai-ui-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "33c48ece638d10f16673e72e3b93da6daa2c94bd28b9f8edd773b8807d07478ba05c5aa5aa1bd1eda294d40d2b6a122401824c1388fb52aa27415fa9c94fdfe9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-loopedthai-ui noto-loopedthai-ui-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-loopedthai-ui \
+noto-loopedthai-ui-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

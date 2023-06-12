@@ -10,7 +10,11 @@ RPM_NAME = "google-noto-serif-jp-fonts-2.001-2.3.noarch.rpm"
 RPM_HASH = "31a55ae772df8b432341fc5e38a8931e2908e838d9b34b9577837cf4570fb81b01ca61388e13c2d08ee4fca384d2984cb38bd9e0bac0118a0a098abf8408a968"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "google-noto-serif-jp-fonts locale(ja) noto-serif-jp-fonts scalable-font-ja"
-RDEPENDS:${PN} += "google-noto-serif-jp-bold-fonts google-noto-serif-jp-regular-fonts"
+RPROVIDES:${PN} += "google-noto-serif-jp-fonts \
+locale(ja) \
+noto-serif-jp-fonts \
+scalable-font-ja"
+RDEPENDS:${PN} += "google-noto-serif-jp-bold-fonts \
+google-noto-serif-jp-regular-fonts"
 
 inherit rpm

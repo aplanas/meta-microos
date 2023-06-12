@@ -18,7 +18,16 @@ RPM_NAME = "python39-alembic-1.10.4-1.1.noarch.rpm"
 RPM_HASH = "2e5293ec5bf8a3e29f2fd862094b4f0a8538d5a141a926f9691abb6f38fc14e2d435eaabbd67acc0d6ea87a90875b18942d7a79ec8a8311849eaa93174ce903a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(alembic) python39-alembic python3dist(alembic)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-Mako python39-SQLAlchemy python39-python-dateutil python39-typing-extensions update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(alembic) \
+python39-alembic \
+python3dist(alembic)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-Mako \
+python39-SQLAlchemy \
+python39-python-dateutil \
+python39-typing-extensions \
+update-alternatives"
 
 inherit rpm

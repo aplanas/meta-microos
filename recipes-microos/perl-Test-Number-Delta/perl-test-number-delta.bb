@@ -30,7 +30,8 @@ RPM_NAME = "perl-Test-Number-Delta-1.060000-1.26.noarch.rpm"
 RPM_HASH = "58e2bfb54934d49d8e87abca99f502655b680a3923033a9d7c07e6db30d92b7e627781514934a38671e56745b5ebc175562f0fd1740a4a23a152e0ac0d620b1d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Number::Delta) perl-Test-Number-Delta"
+RPROVIDES:${PN} += "perl(Test::Number::Delta) \
+perl-Test-Number-Delta"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

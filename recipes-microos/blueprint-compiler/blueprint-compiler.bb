@@ -9,6 +9,12 @@ RPM_HASH = "00bd03818b6bd207142af126afbf29e06c196808d5800f929c0e13342f028beacd2c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blueprint-compiler"
-RDEPENDS:${PN} += "/usr/bin/python3 gobject-introspection-devel gtk4-devel libadwaita-devel python(abi) python3-gobject typelib(GIRepository)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+gobject-introspection-devel \
+gtk4-devel \
+libadwaita-devel \
+python(abi) \
+python3-gobject \
+typelib(GIRepository)"
 
 inherit rpm

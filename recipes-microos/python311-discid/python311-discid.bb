@@ -20,7 +20,10 @@ RPM_NAME = "python311-discid-1.2.0-1.15.noarch.rpm"
 RPM_HASH = "28a26c403fbc1cfede395aed2b4c439adbd22453b8175fb8aa35e1aaeae64d0b672164eddb7db851f482d2aac42dce1b4b145095d4ae327212333390e0e75abe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(discid) python311-discid python3dist(discid)"
-RDEPENDS:${PN} += "libdiscid0 python(abi)"
+RPROVIDES:${PN} += "python3.11dist(discid) \
+python311-discid \
+python3dist(discid)"
+RDEPENDS:${PN} += "libdiscid0 \
+python(abi)"
 
 inherit rpm

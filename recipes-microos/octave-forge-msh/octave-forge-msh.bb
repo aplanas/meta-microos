@@ -10,6 +10,8 @@ RPM_HASH = "3e9aa0228989384a709dce49fc028259f6aa3b0cecbd49c4ec0edfe34317147d4a71
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-msh"
-RDEPENDS:${PN} += "/bin/sh octave-cli octave-forge-splines"
+RDEPENDS:${PN} += "/bin/sh \
+octave-cli \
+octave-forge-splines"
 
 inherit rpm

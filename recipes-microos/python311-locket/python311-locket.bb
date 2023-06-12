@@ -23,7 +23,9 @@ RPM_NAME = "python311-locket-1.0.0-1.4.noarch.rpm"
 RPM_HASH = "5cf11fd2dc27d64eeec864c16b1a666e3db94037f8ce5ef2c3f9a267123ebb607ad7861fd7db69bce1260bbc938574be21bffc7e389b745d0b0978e37e4649cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(locket) python311-locket python3dist(locket)"
+RPROVIDES:${PN} += "python3.11dist(locket) \
+python311-locket \
+python3dist(locket)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

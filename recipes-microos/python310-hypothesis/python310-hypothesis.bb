@@ -19,7 +19,16 @@ RPM_NAME = "python310-hypothesis-6.75.3-1.1.noarch.rpm"
 RPM_HASH = "c5992e18e883c81f1b26aa61d25c10b4860bb2540db179a0830389a14397fbd1237ff9f4c6098e79c39d9ee2df99c5ad6dd4fbc562b98ba0519228e8c1be76fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-hypothesis python3.10dist(hypothesis) python310-hypothesis python3dist(hypothesis)"
-RDEPENDS:${PN} += "(python310-exceptiongroup >= 1.0.0 if python310-base < 3.11) (python310-sortedcontainers >= 2.1.0 with python310-sortedcontainers < 3.0) /bin/sh /usr/bin/python3.10 python(abi) python310-attrs update-alternatives"
+RPROVIDES:${PN} += "python3-hypothesis \
+python3.10dist(hypothesis) \
+python310-hypothesis \
+python3dist(hypothesis)"
+RDEPENDS:${PN} += "(python310-exceptiongroup >= 1.0.0 if python310-base < 3.11) \
+(python310-sortedcontainers >= 2.1.0 with python310-sortedcontainers < 3.0) \
+/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-attrs \
+update-alternatives"
 
 inherit rpm

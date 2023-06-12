@@ -37,7 +37,14 @@ RPM_NAME = "perl-Task-Kensho-Async-0.41-1.9.noarch.rpm"
 RPM_HASH = "62b6918a491850ebd66b23213dcd912ba5867ef1212b042ab0f32c348808b13a6181070a86c518e17824dec698124df739778ca0c9cdc3d09d6a3f22f0b1924d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Task::Kensho::Async) perl-Task-Kensho-Async"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Future) perl(IO::Async) perl(MCE) perl(Mojo::IOLoop) perl(POE) perl(Parallel::ForkManager)"
+RPROVIDES:${PN} += "perl(Task::Kensho::Async) \
+perl-Task-Kensho-Async"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Future) \
+perl(IO::Async) \
+perl(MCE) \
+perl(Mojo::IOLoop) \
+perl(POE) \
+perl(Parallel::ForkManager)"
 
 inherit rpm

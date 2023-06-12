@@ -15,7 +15,9 @@ RPM_NAME = "python39-verboselogs-1.7-6.5.noarch.rpm"
 RPM_HASH = "85cc6ceedb9138869aa54dc4782e3eeaa60d39e678104aa588d7ec3843ee34e0bb893b7115f00ba4ecc8f924616a86cfb98a27ef659de14572c5578ac5f7b763"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(verboselogs) python39-verboselogs python3dist(verboselogs)"
+RPROVIDES:${PN} += "python3.9dist(verboselogs) \
+python39-verboselogs \
+python3dist(verboselogs)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

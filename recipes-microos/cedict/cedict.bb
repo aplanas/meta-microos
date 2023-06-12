@@ -16,7 +16,8 @@ RPM_NAME = "cedict-20141224-1.16.noarch.rpm"
 RPM_HASH = "ad2935e806ffb4f967e4c8fb2581e42282d1df14ca04d80c6ae0eefac8c54abd1eb494249aad1e64c4b7ec6769e034550c3f903ef771ba65a79262ddb8e14210"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "cedict locale(gjiten:zh)"
+RPROVIDES:${PN} += "cedict \
+locale(gjiten:zh)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

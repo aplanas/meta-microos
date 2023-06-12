@@ -9,7 +9,14 @@ PV = "3.19.1"
 RPM_NAME = "python310-simplejson-3.19.1-1.1.aarch64.rpm"
 RPM_HASH = "a2644d8863a0fa397a4953c97ffc659aba038323f0be65e6001717374a04241f0451b6ade9dbb2185103b60f728dff9f26df772132b8d1e27e7ff5d905bcb438"
 
-RPROVIDES:${PN} += "python3-simplejson python3.10dist(simplejson) python310-simplejson python310-simplejson(aarch-64) python3dist(simplejson)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3-simplejson \
+python3.10dist(simplejson) \
+python310-simplejson \
+python310-simplejson(aarch-64) \
+python3dist(simplejson)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

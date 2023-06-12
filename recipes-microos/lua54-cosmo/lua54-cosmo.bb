@@ -10,7 +10,9 @@ RPM_NAME = "lua54-cosmo-16.06.04-2.1.noarch.rpm"
 RPM_HASH = "f154d4ca9e64ce9d59ad8bf30876a8c6d3afb838376d115529faee763eca3ac45b3d4524b7d678115b078077c60c72abe10dee0fdced027341717faa721a7a64"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "lua-cosmo lua54-cosmo"
-RDEPENDS:${PN} += "lua54 lua54-lpeg"
+RPROVIDES:${PN} += "lua-cosmo \
+lua54-cosmo"
+RDEPENDS:${PN} += "lua54 \
+lua54-lpeg"
 
 inherit rpm

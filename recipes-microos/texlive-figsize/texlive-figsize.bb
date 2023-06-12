@@ -17,7 +17,23 @@ RPM_NAME = "texlive-figsize-2023.201.0.0.1svn18784-52.1.noarch.rpm"
 RPM_HASH = "bb1f9590791c0f76b8f08015274bae2f6187eb052ad0fb693bc2385482557568822503adcfdc0366f71b22403c757a51c559c5e02728fdd592011f930a16d603"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(figsize.sty) texlive-figsize"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(graphicx.sty) tex(ifthen.sty) tex(subfigure.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(figsize.sty) \
+texlive-figsize"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(graphicx.sty) \
+tex(ifthen.sty) \
+tex(subfigure.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

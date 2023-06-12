@@ -15,7 +15,25 @@ PV = "7.2.0"
 RPM_NAME = "libgraphblas7-7.2.0-49.1.aarch64.rpm"
 RPM_HASH = "42a5d02aa801e60ffc81e19fa09995d63c8bda2e58e0e9e7ae8ad37218c6cce9f0f8255e66d8b19840e9352b3495c9b74c96f8b55cd481353b16a72ba9733493"
 
-RPROVIDES:${PN} += "libgraphblas-7_2_0 libgraphblas.so.7()(64bit) libgraphblas7 libgraphblas7(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgomp.so.1()(64bit) libgomp.so.1(GOMP_1.0)(64bit) libgomp.so.1(GOMP_4.0)(64bit) libgomp.so.1(GOMP_4.5)(64bit) libgomp.so.1(OMP_1.0)(64bit) libgomp.so.1(OMP_2.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.23)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit) libm.so.6(GLIBC_2.35)(64bit)"
+RPROVIDES:${PN} += "libgraphblas-7_2_0 \
+libgraphblas.so.7()(64bit) \
+libgraphblas7 \
+libgraphblas7(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgomp.so.1()(64bit) \
+libgomp.so.1(GOMP_1.0)(64bit) \
+libgomp.so.1(GOMP_4.0)(64bit) \
+libgomp.so.1(GOMP_4.5)(64bit) \
+libgomp.so.1(OMP_1.0)(64bit) \
+libgomp.so.1(OMP_2.0)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.23)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libm.so.6(GLIBC_2.35)(64bit)"
 
 inherit rpm

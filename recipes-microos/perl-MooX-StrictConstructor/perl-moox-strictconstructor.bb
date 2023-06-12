@@ -16,7 +16,13 @@ RPM_NAME = "perl-MooX-StrictConstructor-0.011-1.10.noarch.rpm"
 RPM_HASH = "5b1c5b6a2ab402a61670c6436dc14bd3f3d6e29ffab456b0870b453d9fe38c0c3e0a763f114fff3c0cd07c0cf45a97afc5a8fa3f4e057491da4ea33fb4690c45"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Method::Generate::Constructor::Role::StrictConstructor) perl(MooX::StrictConstructor) perl-MooX-StrictConstructor"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Class::Method::Modifiers) perl(Moo) perl(Moo::Role) perl(strictures)"
+RPROVIDES:${PN} += "perl(Method::Generate::Constructor::Role::StrictConstructor) \
+perl(MooX::StrictConstructor) \
+perl-MooX-StrictConstructor"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Method::Modifiers) \
+perl(Moo) \
+perl(Moo::Role) \
+perl(strictures)"
 
 inherit rpm

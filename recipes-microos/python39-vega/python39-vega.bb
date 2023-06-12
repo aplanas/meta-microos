@@ -10,7 +10,13 @@ RPM_NAME = "python39-vega-4.0.0-2.1.noarch.rpm"
 RPM_HASH = "89ef44213e3ed6f45ac306415e21c37a421d1c0ed79bb2bd5445df6dbcd47e72d22118322b4c2a469d099aeb23b1fb99b234eb9f15c7720e2aae42cc38a1211d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(vega) python39-jupyter_vega python39-vega python3dist(vega)"
-RDEPENDS:${PN} += "python(abi) python39-ipytablewidgets python39-jupyter python39-pandas"
+RPROVIDES:${PN} += "python3.9dist(vega) \
+python39-jupyter_vega \
+python39-vega \
+python3dist(vega)"
+RDEPENDS:${PN} += "python(abi) \
+python39-ipytablewidgets \
+python39-jupyter \
+python39-pandas"
 
 inherit rpm

@@ -9,6 +9,8 @@ RPM_HASH = "1c0d72e2b286689942da8b46f7953aa44379ab0ca7b3516366c6549228564be87847
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-git"
-RDEPENDS:${PN} += "bumblebee-status python3-pygit2 xcwd"
+RDEPENDS:${PN} += "bumblebee-status \
+python3-pygit2 \
+xcwd"
 
 inherit rpm

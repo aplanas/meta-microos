@@ -19,7 +19,37 @@ RPM_NAME = "texlive-latex-make-2023.201.2.4.3svn60874-55.1.noarch.rpm"
 RPM_HASH = "6f7c883887e4921c45cef7f387571728aeb7958006777d8ff3f03fe6a9ab8e6a7a164ac6ea97cf6ce76e3e226c03f1ef3fc606892770130f2662981a897d5000"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(figlatex.cfg) tex(figlatex.sty) tex(pdfswitch.sty) tex(texdepends.sty) tex(texgraphicx.sty) texlive-latex-make"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 coreutils ed findutils grep sed tex(ae.sty) tex(aeguill.sty) tex(color.sty) tex(epstopdf.sty) tex(etoolbox.sty) tex(graphicx.sty) tex(hyperref.sty) tex(ifpdf.sty) tex(ifthen.sty) tex(ifxetex.sty) tex(thumbpdf.sty) tex(xcolor.sty) tex(xstring.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(figlatex.cfg) \
+tex(figlatex.sty) \
+tex(pdfswitch.sty) \
+tex(texdepends.sty) \
+tex(texgraphicx.sty) \
+texlive-latex-make"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ae.sty) \
+tex(aeguill.sty) \
+tex(color.sty) \
+tex(epstopdf.sty) \
+tex(etoolbox.sty) \
+tex(graphicx.sty) \
+tex(hyperref.sty) \
+tex(ifpdf.sty) \
+tex(ifthen.sty) \
+tex(ifxetex.sty) \
+tex(thumbpdf.sty) \
+tex(xcolor.sty) \
+tex(xstring.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

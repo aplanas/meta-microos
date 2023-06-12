@@ -15,7 +15,25 @@ PV = "1.4.1"
 RPM_NAME = "openbsc-1.4.1-1.10.aarch64.rpm"
 RPM_HASH = "0e32adbe1f7e180f272851315f0cc85594709668cca54a9d34926e7f4d8c4ffc61a6033bf9366c4c2f26468c7e21a83768df4bbe736b540cdd371ec721d0f0c9"
 
-RPROVIDES:${PN} += "config(openbsc) openbsc openbsc(aarch-64) osmocom-bsc-sccplite osmocom-nitb"
-RDEPENDS:${PN} += "/bin/sh libc.so.6(GLIBC_2.34)(64bit) libdbi-drivers-dbd-sqlite3 libdbi.so.3()(64bit) libdbi.so.3(ABI_3)(64bit) libosmoabis.so.10()(64bit) libosmocore.so.20()(64bit) libosmoctrl.so.0()(64bit) libosmoctrl.so.0(LIBOSMOCTRL_1.0)(64bit) libosmogsm.so.18()(64bit) libosmogsm.so.18(LIBOSMOGSM_1.0)(64bit) libosmovty.so.9()(64bit) libsmpp34.so.1()(64bit) libtalloc.so.2()(64bit) libtalloc.so.2(TALLOC_2.0.2)(64bit)"
+RPROVIDES:${PN} += "config(openbsc) \
+openbsc \
+openbsc(aarch-64) \
+osmocom-bsc-sccplite \
+osmocom-nitb"
+RDEPENDS:${PN} += "/bin/sh \
+libc.so.6(GLIBC_2.34)(64bit) \
+libdbi-drivers-dbd-sqlite3 \
+libdbi.so.3()(64bit) \
+libdbi.so.3(ABI_3)(64bit) \
+libosmoabis.so.10()(64bit) \
+libosmocore.so.20()(64bit) \
+libosmoctrl.so.0()(64bit) \
+libosmoctrl.so.0(LIBOSMOCTRL_1.0)(64bit) \
+libosmogsm.so.18()(64bit) \
+libosmogsm.so.18(LIBOSMOGSM_1.0)(64bit) \
+libosmovty.so.9()(64bit) \
+libsmpp34.so.1()(64bit) \
+libtalloc.so.2()(64bit) \
+libtalloc.so.2(TALLOC_2.0.2)(64bit)"
 
 inherit rpm

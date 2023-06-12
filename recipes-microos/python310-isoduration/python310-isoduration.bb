@@ -21,7 +21,11 @@ RPM_NAME = "python310-isoduration-20.11.0-2.1.noarch.rpm"
 RPM_HASH = "2301f476e93fb3b48ca0c8123b4de8a9273c56ca29769135aa0d90b63d72d801ab328f06dd506338c7ee81bfe1d187d87152525a3680664e1d6342154e247147"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-isoduration python3.10dist(isoduration) python310-isoduration python3dist(isoduration)"
-RDEPENDS:${PN} += "python(abi) python310-arrow"
+RPROVIDES:${PN} += "python3-isoduration \
+python3.10dist(isoduration) \
+python310-isoduration \
+python3dist(isoduration)"
+RDEPENDS:${PN} += "python(abi) \
+python310-arrow"
 
 inherit rpm

@@ -19,7 +19,30 @@ PV = "4.4.7"
 RPM_NAME = "nagios-4.4.7-2.4.aarch64.rpm"
 RPM_HASH = "b582b31eb2520782d2c88e1ff6d4316e937c377ed51ece4ef0a37fadc985cb62c25a24758fb32ae17707967a154ccab9fe9e5fd181b16e1b594379a048c49d99"
 
-RPROVIDES:${PN} += "config(nagios) monitoring_daemon nagios nagios(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/logger /bin/sh /usr/bin/mkdir /usr/bin/touch coreutils fillup grep ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) mailx permissions sed shadow"
+RPROVIDES:${PN} += "config(nagios) \
+monitoring_daemon \
+nagios \
+nagios(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/logger \
+/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+coreutils \
+fillup \
+grep \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+mailx \
+permissions \
+sed \
+shadow"
 
 inherit rpm

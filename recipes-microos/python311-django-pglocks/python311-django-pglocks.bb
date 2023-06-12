@@ -26,7 +26,11 @@ RPM_NAME = "python311-django-pglocks-1.0.4-1.13.noarch.rpm"
 RPM_HASH = "8fe027ba06b4dd94540dbfee4437f15439634beb28c2273edbc051352ed128b375b49c56fb5255c04dbb8bd4b4ae97beedcb6ace33e7dce4a5f3228de829da2d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(django-pglocks) python311-django-pglocks python3dist(django-pglocks)"
-RDEPENDS:${PN} += "python(abi) python311-Django python311-psycopg2"
+RPROVIDES:${PN} += "python3.11dist(django-pglocks) \
+python311-django-pglocks \
+python3dist(django-pglocks)"
+RDEPENDS:${PN} += "python(abi) \
+python311-Django \
+python311-psycopg2"
 
 inherit rpm

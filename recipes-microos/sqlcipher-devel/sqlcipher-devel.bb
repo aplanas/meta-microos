@@ -13,7 +13,12 @@ PV = "4.5.4"
 RPM_NAME = "sqlcipher-devel-4.5.4-1.1.aarch64.rpm"
 RPM_HASH = "ebbf5e6e6345df5584239e1cb30d451876275f6406cd4e71e64610bd570566650a95892364d5db0298dc1b105ed90e9533836f5a10fc512857b045db4b8f1680"
 
-RPROVIDES:${PN} += "pkgconfig(sqlcipher) sqlcipher-devel sqlcipher-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libsqlcipher-3_41_2-0 sqlcipher tcl-sqlcipher"
+RPROVIDES:${PN} += "pkgconfig(sqlcipher) \
+sqlcipher-devel \
+sqlcipher-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libsqlcipher-3_41_2-0 \
+sqlcipher \
+tcl-sqlcipher"
 
 inherit rpm

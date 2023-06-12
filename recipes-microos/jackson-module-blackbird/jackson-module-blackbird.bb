@@ -13,7 +13,13 @@ RPM_NAME = "jackson-module-blackbird-2.13.3-1.7.noarch.rpm"
 RPM_HASH = "9d71aa5e21fa19c5caed6da745c6fc125365da09fb968ea8bfa077ce8e67e63278b924e586cd17626867abb5a9b4d175cad0023fb64d2cd6eea9839bc7418f2c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jackson-module-blackbird mvn(com.fasterxml.jackson.module:jackson-module-blackbird) mvn(com.fasterxml.jackson.module:jackson-module-blackbird:pom:) osgi(com.fasterxml.jackson.module.jackson-module-blackbird)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(com.fasterxml.jackson.core:jackson-core) mvn(com.fasterxml.jackson.core:jackson-databind)"
+RPROVIDES:${PN} += "jackson-module-blackbird \
+mvn(com.fasterxml.jackson.module:jackson-module-blackbird) \
+mvn(com.fasterxml.jackson.module:jackson-module-blackbird:pom:) \
+osgi(com.fasterxml.jackson.module.jackson-module-blackbird)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(com.fasterxml.jackson.core:jackson-core) \
+mvn(com.fasterxml.jackson.core:jackson-databind)"
 
 inherit rpm

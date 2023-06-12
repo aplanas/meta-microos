@@ -14,7 +14,19 @@ RPM_NAME = "texlive-lazylist-2023.201.1.0asvn17691-54.1.noarch.rpm"
 RPM_HASH = "b5c716123fe555aa8be56235c4da8d65292ad26046263e7500fbb82c44d45a08c9b9844628cf23b1f0a641fe479280cc00222fed754c18e27c73311996c09775"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lazylist.sty) texlive-lazylist"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(lazylist.sty) \
+texlive-lazylist"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -11,7 +11,23 @@ RPM_NAME = "nemo-extension-terminal-5.2.0-3.4.noarch.rpm"
 RPM_HASH = "adffda7d71764add9a10c88f1551f784da9ca1aa1a47af055083efc59b1505bd64946f2204f6f17984cf7c7cc09fb049bd8712165276e926b3aa29a53e9dedb8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "nemo-extension-terminal nemo-terminal python3.10dist(nemo-terminal) python3dist(nemo-terminal)"
-RDEPENDS:${PN} += "/usr/bin/python3 nemo python(abi) python3-gobject python3-gobject-Gdk python3-nemo typelib(GLib) typelib(GObject) typelib(Gdk) typelib(Gio) typelib(Gtk) typelib(Nemo) typelib(Vte) typelib(XApp)"
+RPROVIDES:${PN} += "nemo-extension-terminal \
+nemo-terminal \
+python3.10dist(nemo-terminal) \
+python3dist(nemo-terminal)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+nemo \
+python(abi) \
+python3-gobject \
+python3-gobject-Gdk \
+python3-nemo \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gdk) \
+typelib(Gio) \
+typelib(Gtk) \
+typelib(Nemo) \
+typelib(Vte) \
+typelib(XApp)"
 
 inherit rpm

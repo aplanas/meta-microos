@@ -8,7 +8,9 @@ PV = "2.3.1"
 RPM_NAME = "monitoring-plugins-dummy-2.3.1-9.4.aarch64.rpm"
 RPM_HASH = "d01d2f0cb6a8516e5ed5f89b36f34121ecb0c3e7e66f2a038848502756941f96bc1345e410bc1fbad7301ec295a7689da4e5fc0728c52cf0506446849f191db2"
 
-RPROVIDES:${PN} += "monitoring-plugins-dummy monitoring-plugins-dummy(aarch-64) nagios-plugins-dummy"
+RPROVIDES:${PN} += "monitoring-plugins-dummy \
+monitoring-plugins-dummy(aarch-64) \
+nagios-plugins-dummy"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -13,7 +13,14 @@ RPM_NAME = "apache-ivy-2.5.1-1.2.noarch.rpm"
 RPM_HASH = "e2c7dc2063a33bcb13f672a2cadbb9f7ac8e5ca436652b28cda8aabfb37af7d0fc25ab13b139e1af9113365739f17c5c4aab3254394aa9351fdd917cecd37065"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "apache-ivy config(apache-ivy) ivy mvn(org.apache.ivy:ivy) mvn(org.apache.ivy:ivy:pom:) osgi(org.apache.ivy)"
-RDEPENDS:${PN} += "/bin/bash java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "apache-ivy \
+config(apache-ivy) \
+ivy \
+mvn(org.apache.ivy:ivy) \
+mvn(org.apache.ivy:ivy:pom:) \
+osgi(org.apache.ivy)"
+RDEPENDS:${PN} += "/bin/bash \
+java-headless \
+javapackages-filesystem"
 
 inherit rpm

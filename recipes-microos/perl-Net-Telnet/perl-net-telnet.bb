@@ -44,7 +44,8 @@ RPM_NAME = "perl-Net-Telnet-3.05-1.9.noarch.rpm"
 RPM_HASH = "d221b420f3920b4617e85d9eb5a6e0b21dad734084423590314c1dcf9ee3e92d31650d10206ffb19cde28969fcd02ec072d5414528538d03eafebc0f4f635ba3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Net::Telnet) perl-Net-Telnet"
+RPROVIDES:${PN} += "perl(Net::Telnet) \
+perl-Net-Telnet"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

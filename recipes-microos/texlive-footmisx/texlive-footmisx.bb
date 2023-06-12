@@ -24,7 +24,19 @@ RPM_NAME = "texlive-footmisx-2023.201.20161201svn42621-52.1.noarch.rpm"
 RPM_HASH = "080c80a82d4d1996301566b3efb4ff4fdf5e1f64f858fb2aa403cddbd25e97f74247597b1bba3ad1ae9c66cf9049847edaa873429dff7c9a35036370f7055c91"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(footmisx.sty) texlive-footmisx"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(footmisx.sty) \
+texlive-footmisx"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

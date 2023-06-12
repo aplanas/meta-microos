@@ -14,7 +14,13 @@ RPM_NAME = "python39-websockify-0.10.0-3.6.noarch.rpm"
 RPM_HASH = "627d41a75608d60d599d45fe0c0343d175a0c1577e64b0913a74e8df9b8b2bb0e6ce2dbdd20df6f3a3c25b50602adcc4245519b895a3ec729dd21d0cad54fa74"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(websockify) python39-websockify python3dist(websockify)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(websockify) \
+python39-websockify \
+python3dist(websockify)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-setuptools \
+update-alternatives"
 
 inherit rpm

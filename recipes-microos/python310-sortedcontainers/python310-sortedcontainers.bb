@@ -20,7 +20,10 @@ RPM_NAME = "python310-sortedcontainers-2.4.0-2.1.noarch.rpm"
 RPM_HASH = "e396b80a7150166dcb0066b4afe6574ac4f7a392656bd64c318ad0c574cd7d267d1b15b24f4b288a8f7f08a275256e487cd7be452b7ac4aa3d787fb6e44fdfd3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sortedcontainers python3.10dist(sortedcontainers) python310-sortedcontainers python3dist(sortedcontainers)"
+RPROVIDES:${PN} += "python3-sortedcontainers \
+python3.10dist(sortedcontainers) \
+python310-sortedcontainers \
+python3dist(sortedcontainers)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

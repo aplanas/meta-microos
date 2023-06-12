@@ -18,7 +18,13 @@ RPM_NAME = "jetty-unixsocket-9.4.51-1.1.noarch.rpm"
 RPM_HASH = "1906ca76be590e62cb955abe9d3e6a1ef5db888fb96ed729c3a210f49b8e0c3790eeff1682548d91f35df4ac7d92009826655a627dc86f34b0e6ee0c9b79951c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jetty-unixsocket mvn(org.eclipse.jetty:jetty-unixsocket) mvn(org.eclipse.jetty:jetty-unixsocket:pom:) osgi(org.eclipse.jetty.unixsocket)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(com.github.jnr:jnr-unixsocket) mvn(org.eclipse.jetty:jetty-server)"
+RPROVIDES:${PN} += "jetty-unixsocket \
+mvn(org.eclipse.jetty:jetty-unixsocket) \
+mvn(org.eclipse.jetty:jetty-unixsocket:pom:) \
+osgi(org.eclipse.jetty.unixsocket)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(com.github.jnr:jnr-unixsocket) \
+mvn(org.eclipse.jetty:jetty-server)"
 
 inherit rpm

@@ -11,7 +11,10 @@ PV = "0.4.18"
 RPM_NAME = "libproxy-devel-0.4.18-2.1.aarch64.rpm"
 RPM_HASH = "ea469dad5ff35d291d895cf3e667138e45887c6b6ee661f6fe905a1038f6c90aad8b1fc189329de2041a2f8285140ab968dd76396b41ba8814dce0242d32681f"
 
-RPROVIDES:${PN} += "libproxy-devel libproxy-devel(aarch-64) pkgconfig(libproxy-1.0)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libproxy1"
+RPROVIDES:${PN} += "libproxy-devel \
+libproxy-devel(aarch-64) \
+pkgconfig(libproxy-1.0)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libproxy1"
 
 inherit rpm

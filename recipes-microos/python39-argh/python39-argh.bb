@@ -25,7 +25,9 @@ RPM_NAME = "python39-argh-0.26.2-5.6.noarch.rpm"
 RPM_HASH = "263eb5d927c71c0ad77036542945d66ed0293e0f776786d005cb382b19592609233cef0aed1c5a3938710bda9c63b1cd281d730848a352991efbe067cce17665"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(argh) python39-argh python3dist(argh)"
+RPROVIDES:${PN} += "python3.9dist(argh) \
+python39-argh \
+python3dist(argh)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

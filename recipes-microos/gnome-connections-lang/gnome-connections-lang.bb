@@ -8,7 +8,55 @@ RPM_NAME = "gnome-connections-lang-44.1-1.1.noarch.rpm"
 RPM_HASH = "e764f7353c9f0f82c75e243d08b6928dafeb39c9707772080dc5f6d6ffa2dd5b5e0ca7bb2a708f61c2ce0c5d6102dab8991b7fb1767b85290a1b4188d4fd34bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "gnome-connections-lang gnome-connections-lang-all locale(gnome-connections:be) locale(gnome-connections:bg) locale(gnome-connections:ca) locale(gnome-connections:cs) locale(gnome-connections:da) locale(gnome-connections:de) locale(gnome-connections:el) locale(gnome-connections:en_GB) locale(gnome-connections:eo) locale(gnome-connections:es) locale(gnome-connections:eu) locale(gnome-connections:fa) locale(gnome-connections:fi) locale(gnome-connections:fr) locale(gnome-connections:fur) locale(gnome-connections:gl) locale(gnome-connections:he) locale(gnome-connections:hr) locale(gnome-connections:hu) locale(gnome-connections:id) locale(gnome-connections:is) locale(gnome-connections:it) locale(gnome-connections:ja) locale(gnome-connections:ka) locale(gnome-connections:kk) locale(gnome-connections:ko) locale(gnome-connections:lt) locale(gnome-connections:lv) locale(gnome-connections:nb) locale(gnome-connections:ne) locale(gnome-connections:nl) locale(gnome-connections:oc) locale(gnome-connections:pa) locale(gnome-connections:pl) locale(gnome-connections:pt) locale(gnome-connections:pt_BR) locale(gnome-connections:ro) locale(gnome-connections:ru) locale(gnome-connections:sk) locale(gnome-connections:sl) locale(gnome-connections:sr) locale(gnome-connections:sv) locale(gnome-connections:tr) locale(gnome-connections:uk) locale(gnome-connections:vi) locale(gnome-connections:zh_CN) locale(gnome-connections:zh_TW)"
+RPROVIDES:${PN} += "gnome-connections-lang \
+gnome-connections-lang-all \
+locale(gnome-connections:be) \
+locale(gnome-connections:bg) \
+locale(gnome-connections:ca) \
+locale(gnome-connections:cs) \
+locale(gnome-connections:da) \
+locale(gnome-connections:de) \
+locale(gnome-connections:el) \
+locale(gnome-connections:en_GB) \
+locale(gnome-connections:eo) \
+locale(gnome-connections:es) \
+locale(gnome-connections:eu) \
+locale(gnome-connections:fa) \
+locale(gnome-connections:fi) \
+locale(gnome-connections:fr) \
+locale(gnome-connections:fur) \
+locale(gnome-connections:gl) \
+locale(gnome-connections:he) \
+locale(gnome-connections:hr) \
+locale(gnome-connections:hu) \
+locale(gnome-connections:id) \
+locale(gnome-connections:is) \
+locale(gnome-connections:it) \
+locale(gnome-connections:ja) \
+locale(gnome-connections:ka) \
+locale(gnome-connections:kk) \
+locale(gnome-connections:ko) \
+locale(gnome-connections:lt) \
+locale(gnome-connections:lv) \
+locale(gnome-connections:nb) \
+locale(gnome-connections:ne) \
+locale(gnome-connections:nl) \
+locale(gnome-connections:oc) \
+locale(gnome-connections:pa) \
+locale(gnome-connections:pl) \
+locale(gnome-connections:pt) \
+locale(gnome-connections:pt_BR) \
+locale(gnome-connections:ro) \
+locale(gnome-connections:ru) \
+locale(gnome-connections:sk) \
+locale(gnome-connections:sl) \
+locale(gnome-connections:sr) \
+locale(gnome-connections:sv) \
+locale(gnome-connections:tr) \
+locale(gnome-connections:uk) \
+locale(gnome-connections:vi) \
+locale(gnome-connections:zh_CN) \
+locale(gnome-connections:zh_TW)"
 RDEPENDS:${PN} += "gnome-connections"
 
 inherit rpm

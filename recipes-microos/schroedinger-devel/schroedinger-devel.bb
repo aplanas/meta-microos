@@ -11,7 +11,14 @@ PV = "1.0.11"
 RPM_NAME = "schroedinger-devel-1.0.11-11.17.aarch64.rpm"
 RPM_HASH = "04cd1d911dda5a0deda0361382d49bb7d4664a2d42b3be206aa97f45cde61a12c78bf52b7ee0a1238e8cece9b29015686acb89dafaf53e36de990ccd4bcb2524"
 
-RPROVIDES:${PN} += "libschroedinger-devel pkgconfig(schroedinger-1.0) schroedinger-devel schroedinger-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config glib2-devel libschroedinger-1_0-0 orc pkgconfig(orc-0.4)"
+RPROVIDES:${PN} += "libschroedinger-devel \
+pkgconfig(schroedinger-1.0) \
+schroedinger-devel \
+schroedinger-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+glib2-devel \
+libschroedinger-1_0-0 \
+orc \
+pkgconfig(orc-0.4)"
 
 inherit rpm

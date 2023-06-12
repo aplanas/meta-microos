@@ -53,7 +53,14 @@ RPM_NAME = "perl-Path-Class-0.37-1.21.noarch.rpm"
 RPM_HASH = "6e679c0ec3494e3230dfb9ec541f92fd79bd16ea4e825814a1f8b59f741adcec9ae59d2b2e901a1c99b127bf0e23c3e3801e823d090581e54d47bcb0e9f423aa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Path::Class) perl(Path::Class::Dir) perl(Path::Class::Entity) perl(Path::Class::File) perl-Path-Class"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(File::Spec) perl(Perl::OSType) perl(parent)"
+RPROVIDES:${PN} += "perl(Path::Class) \
+perl(Path::Class::Dir) \
+perl(Path::Class::Entity) \
+perl(Path::Class::File) \
+perl-Path-Class"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(File::Spec) \
+perl(Perl::OSType) \
+perl(parent)"
 
 inherit rpm

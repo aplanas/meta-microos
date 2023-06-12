@@ -12,7 +12,8 @@ PV = "1.13.1"
 RPM_NAME = "adios-openmpi1-devel-static-1.13.1-5.12.aarch64.rpm"
 RPM_HASH = "702782bd80c5cb0c8b4855c97eb7d4c94e57d6e2482c6e5efe7e72d6c6e7ee4bc472349bdd1810d85ad351b60871db53c28164ca8609a5005505f9673a4dc509"
 
-RPROVIDES:${PN} += "adios-openmpi1-devel-static adios-openmpi1-devel-static(aarch-64)"
+RPROVIDES:${PN} += "adios-openmpi1-devel-static \
+adios-openmpi1-devel-static(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

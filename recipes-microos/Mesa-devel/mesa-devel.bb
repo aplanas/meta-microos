@@ -19,7 +19,22 @@ PV = "23.0.3"
 RPM_NAME = "Mesa-devel-23.0.3-349.1.aarch64.rpm"
 RPM_HASH = "a37eb5959619c03b091759e35fd5b4c592b3ed12aa923245ae9c660d75804d41d199b012157d83fd95860c12733094916db131dd2c568d8f730444f1d4529f75"
 
-RPROVIDES:${PN} += "Mesa-devel Mesa-devel(aarch-64) Mesa-devel-static Mesa-libIndirectGL-devel libtxc_dxtn-devel s2tc-devel xorg-x11-Mesa-devel"
-RDEPENDS:${PN} += "Mesa Mesa-dri-devel Mesa-libEGL-devel Mesa-libGL-devel Mesa-libGLESv1_CM-devel Mesa-libGLESv2-devel Mesa-libglapi-devel libOSMesa-devel libgbm-devel libglvnd-devel"
+RPROVIDES:${PN} += "Mesa-devel \
+Mesa-devel(aarch-64) \
+Mesa-devel-static \
+Mesa-libIndirectGL-devel \
+libtxc_dxtn-devel \
+s2tc-devel \
+xorg-x11-Mesa-devel"
+RDEPENDS:${PN} += "Mesa \
+Mesa-dri-devel \
+Mesa-libEGL-devel \
+Mesa-libGL-devel \
+Mesa-libGLESv1_CM-devel \
+Mesa-libGLESv2-devel \
+Mesa-libglapi-devel \
+libOSMesa-devel \
+libgbm-devel \
+libglvnd-devel"
 
 inherit rpm

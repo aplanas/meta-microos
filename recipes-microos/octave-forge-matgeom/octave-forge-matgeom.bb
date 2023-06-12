@@ -10,6 +10,7 @@ RPM_HASH = "e943b4275a2032a3543159225e324769be2868f39ed1bdb0d40cc4f06ca581de305b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-matgeom"
-RDEPENDS:${PN} += "/bin/sh octave-cli"
+RDEPENDS:${PN} += "/bin/sh \
+octave-cli"
 
 inherit rpm

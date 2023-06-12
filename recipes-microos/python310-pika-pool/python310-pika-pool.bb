@@ -13,7 +13,11 @@ RPM_NAME = "python310-pika-pool-0.1.3-5.12.noarch.rpm"
 RPM_HASH = "2f529905a7b384a6cc7b01a2fb6f68ddfb7e110c484f833154b3492dc6d6cc6aa8827c60d3731a29e7cfa26225d7276cce57041971ed34c4a4411e5a47f88faa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pika-pool python3.10dist(pika-pool) python310-pika-pool python3dist(pika-pool)"
-RDEPENDS:${PN} += "python(abi) python310-pika"
+RPROVIDES:${PN} += "python3-pika-pool \
+python3.10dist(pika-pool) \
+python310-pika-pool \
+python3dist(pika-pool)"
+RDEPENDS:${PN} += "python(abi) \
+python310-pika"
 
 inherit rpm

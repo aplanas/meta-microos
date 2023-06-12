@@ -21,7 +21,20 @@ RPM_NAME = "texlive-spalign-2023.201.svn42225-57.1.noarch.rpm"
 RPM_HASH = "b500f1d67da0f1966bef3407af3eaa5facfde76093eeff89f75bf43b125ba95169fb0ca16bafe0f46fe8892de348a49664e6fdde5ee355e668350b243b6d65e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(spalign.sty) texlive-spalign"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(kvoptions.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(spalign.sty) \
+texlive-spalign"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(kvoptions.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -12,7 +12,16 @@ PV = "5"
 RPM_NAME = "perl-Image-Sane-5-2.18.aarch64.rpm"
 RPM_HASH = "59c499befef5180529c1b5079d7edf3a48514b471a9241b858b883bd47a944ef07e30783f2db70d9dc2ae2e7396c6300247efc090c53ffc11e0c85caeffdddf5"
 
-RPROVIDES:${PN} += "perl(Image::Sane) perl(Image::Sane::Device) perl-Image-Sane perl-Image-Sane(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libsane.so.1()(64bit) perl(:MODULE_COMPAT_5.36.0) perl(Exception::Class) perl(Readonly)"
+RPROVIDES:${PN} += "perl(Image::Sane) \
+perl(Image::Sane::Device) \
+perl-Image-Sane \
+perl-Image-Sane(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libsane.so.1()(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Exception::Class) \
+perl(Readonly)"
 
 inherit rpm

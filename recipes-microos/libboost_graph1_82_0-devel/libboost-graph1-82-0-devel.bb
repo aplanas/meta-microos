@@ -10,7 +10,12 @@ PV = "1.82.0"
 RPM_NAME = "libboost_graph1_82_0-devel-1.82.0-1.2.aarch64.rpm"
 RPM_HASH = "fe0e0cdcf214ce4175a4a9c33f17503e3dbda4d90a280ba0d6b3e3a6dda5b835d694b7cd543216369363a4573fe967456e8c35a88a2235885f0260f5afd971c1"
 
-RPROVIDES:${PN} += "libboost_graph-devel-impl libboost_graph1_82_0-devel libboost_graph1_82_0-devel(aarch-64)"
-RDEPENDS:${PN} += "libboost_graph1_82_0 libboost_headers1_82_0-devel libboost_regex1_82_0-devel libstdc++-devel"
+RPROVIDES:${PN} += "libboost_graph-devel-impl \
+libboost_graph1_82_0-devel \
+libboost_graph1_82_0-devel(aarch-64)"
+RDEPENDS:${PN} += "libboost_graph1_82_0 \
+libboost_headers1_82_0-devel \
+libboost_regex1_82_0-devel \
+libstdc++-devel"
 
 inherit rpm

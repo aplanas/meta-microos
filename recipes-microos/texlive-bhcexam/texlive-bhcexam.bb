@@ -18,7 +18,36 @@ RPM_NAME = "texlive-bhcexam-2023.201.1.7svn64093-53.1.noarch.rpm"
 RPM_HASH = "04f29c4fc5de4bb1afff7b078b2ae6d59140c331e6dba3d9ebb72513eb171b390e31ec216ed0c116a8078844072914c2bbe79e6da0e0d58db32553edfd643532"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(BHCexam.cls) texlive-bhcexam"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsmath.sty) tex(amssymb.sty) tex(article.cls) tex(bbding.sty) tex(caption.sty) tex(ctex.sty) tex(enumitem.sty) tex(etoolbox.sty) tex(fancyhdr.sty) tex(geometry.sty) tex(graphicx.sty) tex(ifthen.sty) tex(pifont.sty) tex(romannum.sty) tex(tabularx.sty) tex(unicode-math.sty) tex(xcolor.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(BHCexam.cls) \
+texlive-bhcexam"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsmath.sty) \
+tex(amssymb.sty) \
+tex(article.cls) \
+tex(bbding.sty) \
+tex(caption.sty) \
+tex(ctex.sty) \
+tex(enumitem.sty) \
+tex(etoolbox.sty) \
+tex(fancyhdr.sty) \
+tex(geometry.sty) \
+tex(graphicx.sty) \
+tex(ifthen.sty) \
+tex(pifont.sty) \
+tex(romannum.sty) \
+tex(tabularx.sty) \
+tex(unicode-math.sty) \
+tex(xcolor.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

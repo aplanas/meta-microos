@@ -12,7 +12,8 @@ RPM_NAME = "translation-update-es-15.1-3.1.noarch.rpm"
 RPM_HASH = "d6c30ad21669dde27b40df5fffd62c62d179b2b857e3e379ae10b1899025ad23d755195173208fa27842ad7902e502552ba5d18b2123d78a9c813b11b3325243"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(translation-update:es) translation-update-es"
+RPROVIDES:${PN} += "locale(translation-update:es) \
+translation-update-es"
 RDEPENDS:${PN} += "translation-update"
 
 inherit rpm

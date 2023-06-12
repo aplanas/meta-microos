@@ -13,6 +13,9 @@ RPM_HASH = "95087a9168d6eb151df68429b6fc491ede7daa7be603b405b6957382552d4ef74dc1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ttf-converter"
-RDEPENDS:${PN} += "/usr/bin/python3 fontforge ftdump python3-base"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+fontforge \
+ftdump \
+python3-base"
 
 inherit rpm

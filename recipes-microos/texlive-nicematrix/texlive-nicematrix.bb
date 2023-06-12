@@ -16,7 +16,25 @@ RPM_NAME = "texlive-nicematrix-2023.201.6.16svn66461-54.1.noarch.rpm"
 RPM_HASH = "db03794da2c0f4dc4c7ac27a9107f2067264443ee64bedf21685904d2170d2e10fd111081d39e91a6307ca0b1697224c6f576f83cbdcaa31c870b5c61fed6901"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(nicematrix.sty) texlive-nicematrix"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsmath.sty) tex(array.sty) tex(footnote.sty) tex(footnotehyper.sty) tex(l3keys2e.sty) tex(pgfcore.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(nicematrix.sty) \
+texlive-nicematrix"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsmath.sty) \
+tex(array.sty) \
+tex(footnote.sty) \
+tex(footnotehyper.sty) \
+tex(l3keys2e.sty) \
+tex(pgfcore.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

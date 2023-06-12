@@ -16,7 +16,10 @@ RPM_NAME = "perl-Hash-Util-FieldHash-Compat-0.11-1.23.noarch.rpm"
 RPM_HASH = "699d05c37c44336d575141e86f1e22939ec28ab4e8bf173798e8c3bb31f29b653e2f7fd1de9339aac799c13a9c6006f57bbe577a513b495fecb6e2c3455f8462"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Hash::Util::FieldHash::Compat) perl(Hash::Util::FieldHash::Compat::Heavy) perl-Hash-Util-FieldHash-Compat"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(parent)"
+RPROVIDES:${PN} += "perl(Hash::Util::FieldHash::Compat) \
+perl(Hash::Util::FieldHash::Compat::Heavy) \
+perl-Hash-Util-FieldHash-Compat"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(parent)"
 
 inherit rpm

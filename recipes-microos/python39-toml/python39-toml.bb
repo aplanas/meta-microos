@@ -21,7 +21,9 @@ RPM_NAME = "python39-toml-0.10.2-3.1.noarch.rpm"
 RPM_HASH = "ec076f887a2633f99339a935da754afaf34c06aa9fde8ee6a24d5ed9286fb3975fdf1be201bcd9145b673788ea725cd6515eb212691d97fda0548c5541d75ee0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(toml) python39-toml python3dist(toml)"
+RPROVIDES:${PN} += "python3.9dist(toml) \
+python39-toml \
+python3dist(toml)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

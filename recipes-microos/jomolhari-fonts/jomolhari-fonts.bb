@@ -13,6 +13,9 @@ RPM_HASH = "1cda1152c892f8cd1b63f2833389588347a67c867b52c1b24fa60043204e97dd5845
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jomolhari-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

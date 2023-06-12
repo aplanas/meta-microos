@@ -19,7 +19,14 @@ PV = "1.2.23"
 RPM_NAME = "libtcnative-1-0-devel-1.2.23-2.14.aarch64.rpm"
 RPM_HASH = "c58aac52b26b124b286a8037930c4716f7217460da120431ae3217e16b0fa1912ea2c87eb37dea452e3eda88f2fffb6331cc43b45954d5bfbe550c45dee661e4"
 
-RPROVIDES:${PN} += "libtcnative-1-0-devel libtcnative-1-0-devel(aarch-64) pkgconfig(tcnative-1)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config glibc-devel libapr1-devel libopenssl-devel libtcnative-1-0 pkgconfig(apr-1)"
+RPROVIDES:${PN} += "libtcnative-1-0-devel \
+libtcnative-1-0-devel(aarch-64) \
+pkgconfig(tcnative-1)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+glibc-devel \
+libapr1-devel \
+libopenssl-devel \
+libtcnative-1-0 \
+pkgconfig(apr-1)"
 
 inherit rpm

@@ -43,7 +43,9 @@ RPM_NAME = "perl-HTTP-Negotiate-6.01-9.26.noarch.rpm"
 RPM_HASH = "e35fdcd40910376bc0818554219e4952d4bc8636ba6aee5605ec62c093536490f6c52a98c96f7575a154121142112b7faf5bd5d557de65bd4a60cfab3c8e8952"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Negotiate) perl-HTTP-Negotiate"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(HTTP::Headers)"
+RPROVIDES:${PN} += "perl(HTTP::Negotiate) \
+perl-HTTP-Negotiate"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(HTTP::Headers)"
 
 inherit rpm

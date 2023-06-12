@@ -11,6 +11,7 @@ RPM_HASH = "00af842d1de517e557e4ab7b90156032ce613e79f7a3cb700906c8df985667f8f783
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-download_url"
-RDEPENDS:${PN} += "/bin/bash wget"
+RDEPENDS:${PN} += "/bin/bash \
+wget"
 
 inherit rpm

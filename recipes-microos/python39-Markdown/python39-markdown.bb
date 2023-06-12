@@ -12,7 +12,13 @@ RPM_NAME = "python39-Markdown-3.4.3-1.2.noarch.rpm"
 RPM_HASH = "46e5450fbeb284c869e8f134cf1a2e5850b0b7048cf59df3e2de5c0c8457428945607e0cca30cd3468887f60c34581c4f428602220aae1538a3b3760a1cc040f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(markdown) python39-Markdown python3dist(markdown)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-importlib-metadata update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(markdown) \
+python39-Markdown \
+python3dist(markdown)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-importlib-metadata \
+update-alternatives"
 
 inherit rpm

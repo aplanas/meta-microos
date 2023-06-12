@@ -15,7 +15,12 @@ RPM_NAME = "python311-pytest-expect-1.1.0-4.1.noarch.rpm"
 RPM_HASH = "9c2362d6f3821d086b030fa650730412cbce4c41e61500030ff49f85dc5696abaeff1d01d1ff219b60da5049fab169db34815531980a3005e03505f9c3f846e0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pytest-expect) python311-pytest-expect python3dist(pytest-expect)"
-RDEPENDS:${PN} += "python(abi) python311-pytest python311-six python311-u-msgpack-python"
+RPROVIDES:${PN} += "python3.11dist(pytest-expect) \
+python311-pytest-expect \
+python3dist(pytest-expect)"
+RDEPENDS:${PN} += "python(abi) \
+python311-pytest \
+python311-six \
+python311-u-msgpack-python"
 
 inherit rpm

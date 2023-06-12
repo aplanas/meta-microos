@@ -19,7 +19,10 @@ RPM_NAME = "flare-game-1.14-1.2.noarch.rpm"
 RPM_HASH = "45c45e099c7f5000fa92dfce4ed26b8747d2befea13e974087abd9c3b9d18d956696e49e1511d8099864345f9ef2b5c083b30bba26692bcc9e5f08ca529b2210"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "flare-data flare-game metainfo() metainfo(org.flarerpg.Flare.appdata.xml)"
+RPROVIDES:${PN} += "flare-data \
+flare-game \
+metainfo() \
+metainfo(org.flarerpg.Flare.appdata.xml)"
 RDEPENDS:${PN} += "flare-engine"
 
 inherit rpm

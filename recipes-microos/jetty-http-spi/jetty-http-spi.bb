@@ -19,7 +19,11 @@ RPM_NAME = "jetty-http-spi-9.4.51-1.1.noarch.rpm"
 RPM_HASH = "d396133dd8a2f5064729a5c5fc5808b47ab4cd654ff04676462b85e8cc2763df22bffbc669acc4a61c02245a841c96d57f9d08c17326e7b9a7446956eb601543"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jetty-http-spi mvn(org.eclipse.jetty:jetty-http-spi) mvn(org.eclipse.jetty:jetty-http-spi:pom:) osgi(org.eclipse.jetty.http.spi)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "jetty-http-spi \
+mvn(org.eclipse.jetty:jetty-http-spi) \
+mvn(org.eclipse.jetty:jetty-http-spi:pom:) \
+osgi(org.eclipse.jetty.http.spi)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

@@ -10,6 +10,8 @@ RPM_HASH = "ca56b36e4d0be21a830a9b000e87be9b0ffbe55d9327ab6c41f00c41e4b53a797f5b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "susepaste"
-RDEPENDS:${PN} += "/bin/sh bash curl"
+RDEPENDS:${PN} += "/bin/sh \
+bash \
+curl"
 
 inherit rpm

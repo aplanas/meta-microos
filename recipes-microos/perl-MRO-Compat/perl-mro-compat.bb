@@ -32,7 +32,8 @@ RPM_NAME = "perl-MRO-Compat-0.15-1.7.noarch.rpm"
 RPM_HASH = "6fae5293ab1800c7be69a9b78a43a52bb7bdef4bfa98a73b3a14c208fe7a3b4f76aaec4445df5c3bf9f1ea3c5a74e89b840ec528015ec08715931f3f7dbb99d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MRO::Compat) perl-MRO-Compat"
+RPROVIDES:${PN} += "perl(MRO::Compat) \
+perl-MRO-Compat"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

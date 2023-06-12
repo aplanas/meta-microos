@@ -18,7 +18,15 @@ RPM_NAME = "python310-cli-helpers-2.3.0-1.4.noarch.rpm"
 RPM_HASH = "3e839d2588b77791223ebe2de584e97fd0989440f1f9f84e24389feedd4ced00ee3da04280671150a74e2ed9266e724e0b6c94938be1048f3a48999c4b73e14c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cli-helpers python3.10dist(cli-helpers) python310-cli-helpers python3dist(cli-helpers)"
-RDEPENDS:${PN} += "python(abi) python310-Pygments python310-configobj python310-tabulate python310-terminaltables python310-wcwidth"
+RPROVIDES:${PN} += "python3-cli-helpers \
+python3.10dist(cli-helpers) \
+python310-cli-helpers \
+python3dist(cli-helpers)"
+RDEPENDS:${PN} += "python(abi) \
+python310-Pygments \
+python310-configobj \
+python310-tabulate \
+python310-terminaltables \
+python310-wcwidth"
 
 inherit rpm

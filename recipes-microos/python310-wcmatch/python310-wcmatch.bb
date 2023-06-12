@@ -23,7 +23,11 @@ RPM_NAME = "python310-wcmatch-8.4.1-2.1.noarch.rpm"
 RPM_HASH = "5af6ceb8a678b4ec2d7006c027b178993501d60478166aafaa76d14a47c20bdff0296536dbe1c4a9253a28a22341cf11719bf479336e9b7139829290580b43a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wcmatch python3.10dist(wcmatch) python310-wcmatch python3dist(wcmatch)"
-RDEPENDS:${PN} += "python(abi) python3.10dist(bracex)"
+RPROVIDES:${PN} += "python3-wcmatch \
+python3.10dist(wcmatch) \
+python310-wcmatch \
+python3dist(wcmatch)"
+RDEPENDS:${PN} += "python(abi) \
+python3.10dist(bracex)"
 
 inherit rpm

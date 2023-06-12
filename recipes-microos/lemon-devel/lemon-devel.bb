@@ -14,7 +14,12 @@ PV = "1.3.1"
 RPM_NAME = "lemon-devel-1.3.1-1.3.aarch64.rpm"
 RPM_HASH = "e17b4c249036cbf42dbea243c21dd362eaca873534c897ac53f61d0f866fc9497a4a0d873465fcddc178c38d7f3266d11e6b35bb34921930fd0d1cfc5e456625"
 
-RPROVIDES:${PN} += "lemon-devel lemon-devel(aarch-64) pkgconfig(lemon)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config glpk-devel lemon libemon1_3_1"
+RPROVIDES:${PN} += "lemon-devel \
+lemon-devel(aarch-64) \
+pkgconfig(lemon)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+glpk-devel \
+lemon \
+libemon1_3_1"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "9002f83fbf09361c8409b702c554cf2cff634ede1012f5ffdf2b17b667dc81d84c0a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "solaar-udev"
-RDEPENDS:${PN} += "/bin/sh udev"
+RDEPENDS:${PN} += "/bin/sh \
+udev"
 
 inherit rpm

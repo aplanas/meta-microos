@@ -12,7 +12,19 @@ RPM_NAME = "texlive-cases-2023.201.3.2svn54682-52.1.noarch.rpm"
 RPM_HASH = "54fbbbb15ae86425bad2b1289f32420216ece15a7f0e04848274fe57e50a256997aebdd36d8d9a1f6cdb4dc8edc35399e53ebfc8e14e71566a25b148ef9ff687"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cases.sty) texlive-cases"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(cases.sty) \
+texlive-cases"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

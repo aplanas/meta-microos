@@ -14,7 +14,11 @@ PV = "6.12.1"
 RPM_NAME = "xf86-video-r128-6.12.1-1.2.aarch64.rpm"
 RPM_HASH = "c71489be792ebb58ea0583a7029d43ecbbbfb7ab7bbf9271cbef82ae1ffe5b633677e2a74eeaf0729f89899872ac036fb318a155c8dd210ae13a516de5f85043"
 
-RPROVIDES:${PN} += "xf86-video-r128 xf86-video-r128(aarch-64)"
-RDEPENDS:${PN} += "X11_ABI_VIDEODRV ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "xf86-video-r128 \
+xf86-video-r128(aarch-64)"
+RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

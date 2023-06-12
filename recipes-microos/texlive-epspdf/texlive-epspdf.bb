@@ -13,6 +13,20 @@ RPM_HASH = "a34f7e036193b3ae8d6807685dc8b1690c000be081e11d8e41305e44de7158da0381
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epspdf"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/texlua /usr/bin/wish coreutils ed findutils grep sed texlive texlive-epspdf-bin texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/texlua \
+/usr/bin/wish \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-epspdf-bin \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

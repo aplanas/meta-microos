@@ -18,7 +18,27 @@ RPM_NAME = "texlive-mcexam-2023.201.0.0.5svn60481-52.1.noarch.rpm"
 RPM_HASH = "8ad3a7399286022816199ff9f2a2fa90a55e74afef49a1ddc96c045ecff4bea24e6879364c26103a13ea647c9d48da143cdc2956b3c1be38f1f2966f2f9855a9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mcexam.sty) texlive-mcexam"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(enumitem.sty) tex(environ.sty) tex(etoolbox.sty) tex(longtable.sty) tex(newfile.sty) tex(pgffor.sty) tex(xkeyval.sty) tex(xstring.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(mcexam.sty) \
+texlive-mcexam"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(enumitem.sty) \
+tex(environ.sty) \
+tex(etoolbox.sty) \
+tex(longtable.sty) \
+tex(newfile.sty) \
+tex(pgffor.sty) \
+tex(xkeyval.sty) \
+tex(xstring.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

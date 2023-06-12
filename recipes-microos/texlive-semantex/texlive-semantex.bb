@@ -20,7 +20,25 @@ RPM_NAME = "texlive-semantex-2023.201.0.0.525svn65679-53.1.noarch.rpm"
 RPM_HASH = "5eee2410c5cd75603814d6442da36e148315e7359e888bf565e9fd08a48091369a8395c791d2770208f177858198b5e230c1311d19326a6e1b5e9809b5459ac7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(semantex.sty) tex(stripsemantex.sty) texlive-semantex"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(l3keys2e.sty) tex(leftindex.sty) tex(semtex.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin texlive-semtex"
+RPROVIDES:${PN} += "tex(semantex.sty) \
+tex(stripsemantex.sty) \
+texlive-semantex"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(l3keys2e.sty) \
+tex(leftindex.sty) \
+tex(semtex.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-semtex"
 
 inherit rpm

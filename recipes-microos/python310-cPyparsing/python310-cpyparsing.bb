@@ -7,7 +7,14 @@ PV = "2.4.7.1.2.1"
 RPM_NAME = "python310-cPyparsing-2.4.7.1.2.1-1.1.aarch64.rpm"
 RPM_HASH = "ba23a2a85eeae86ca9778be37df2abf29c50a054e38207a8d519b2abc59c5f99e7535e86415ce524b9ef7c3b61c5c5721e3a0bacfbccae362247e75eb6272382"
 
-RPROVIDES:${PN} += "python3-cPyparsing python3.10dist(cpyparsing) python310-cPyparsing python310-cPyparsing(aarch-64) python3dist(cpyparsing)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3-cPyparsing \
+python3.10dist(cpyparsing) \
+python310-cPyparsing \
+python310-cPyparsing(aarch-64) \
+python3dist(cpyparsing)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

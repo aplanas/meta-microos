@@ -11,7 +11,10 @@ PV = "1.5.5"
 RPM_NAME = "zstd-gzip-1.5.5-3.1.aarch64.rpm"
 RPM_HASH = "cd8fa80713dfbb1c788f0838903d9d944c4ab95496acb84172fc6a7b46c7a1b5f73846a23f3245ed6a2ab1207cf37cfef3683a6c965fd501c39d81782e31358b"
 
-RPROVIDES:${PN} += "alternative(gzip) gzip zstd-gzip zstd-gzip(aarch-64)"
+RPROVIDES:${PN} += "alternative(gzip) \
+gzip \
+zstd-gzip \
+zstd-gzip(aarch-64)"
 RDEPENDS:${PN} += "zstd"
 
 inherit rpm

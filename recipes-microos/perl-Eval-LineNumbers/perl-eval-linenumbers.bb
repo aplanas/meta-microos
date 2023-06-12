@@ -13,7 +13,8 @@ RPM_NAME = "perl-Eval-LineNumbers-0.35-1.9.noarch.rpm"
 RPM_HASH = "7368e5b735108f404ba10cb392d7129e01f0e545acbf35249539ec5d224342126368447802501545287772c5e873554bfd44742579e481ee1c2f168db888fa19"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Eval::LineNumbers) perl-Eval-LineNumbers"
+RPROVIDES:${PN} += "perl(Eval::LineNumbers) \
+perl-Eval-LineNumbers"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -9,7 +9,9 @@ PV = "3.9.1"
 RPM_NAME = "maven-3.9.1-2.1.aarch64.rpm"
 RPM_HASH = "9eaf571dc8c7a221783a0a1358bc260db4074dab41cb0f377b65102a828311b6190c0cc094f01d65300bb7dc7e8855bf608b917b968458221ee49364a58da5f9"
 
-RPROVIDES:${PN} += "maven maven(aarch-64)"
-RDEPENDS:${PN} += "aaa_base maven-lib"
+RPROVIDES:${PN} += "maven \
+maven(aarch-64)"
+RDEPENDS:${PN} += "aaa_base \
+maven-lib"
 
 inherit rpm

@@ -11,6 +11,18 @@ RPM_HASH = "826ff7fe36e403271395da7ae94fdf3b3c276fc0e2d83091017dcd26a6beaa007f3c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fandol"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-fandol-fonts texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-fandol-fonts \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

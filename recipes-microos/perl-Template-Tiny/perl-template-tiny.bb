@@ -21,7 +21,8 @@ RPM_NAME = "perl-Template-Tiny-1.14-1.9.noarch.rpm"
 RPM_HASH = "003527af9cf461e93923cdbfbddd1eb36dc0b636de052f2d18bf19b9951fecc18052c42141be2bbc528ad93c1b8e326470b27030938090eac03779a01d0b8287"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Template::Tiny) perl-Template-Tiny"
+RPROVIDES:${PN} += "perl(Template::Tiny) \
+perl-Template-Tiny"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

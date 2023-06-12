@@ -11,6 +11,7 @@ RPM_HASH = "23d60596f121a7aec451cc56c2b0915ce214b4eed17398dbd3487cb03a4be738d7f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metis-gnu-hpc-devel"
-RDEPENDS:${PN} += "/bin/sh metis_5_1_0-gnu-hpc-devel"
+RDEPENDS:${PN} += "/bin/sh \
+metis_5_1_0-gnu-hpc-devel"
 
 inherit rpm

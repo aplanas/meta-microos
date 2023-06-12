@@ -23,7 +23,32 @@ RPM_NAME = "texlive-stellenbosch-2023.201.11asvn66379-57.1.noarch.rpm"
 RPM_HASH = "7669c1ced3abc73df42eb9d72c10a19115009964f890bc116481283ec9bd958cc549cc6630da19c695a82c2727153f0765e4ff40670f6d791e7a36bab0d03539"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(usbib.sty) tex(usnomencl.sty) tex(ussummary.sty) tex(usthesis.cls) tex(usthesis.sty) tex(ustitle.sty) texlive-stellenbosch"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(array.sty) tex(calc.sty) tex(colortbl.sty) tex(ifpdf.sty) tex(ifthen.sty) tex(keyval.sty) tex(longtable.sty) tex(natbib.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(usbib.sty) \
+tex(usnomencl.sty) \
+tex(ussummary.sty) \
+tex(usthesis.cls) \
+tex(usthesis.sty) \
+tex(ustitle.sty) \
+texlive-stellenbosch"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(array.sty) \
+tex(calc.sty) \
+tex(colortbl.sty) \
+tex(ifpdf.sty) \
+tex(ifthen.sty) \
+tex(keyval.sty) \
+tex(longtable.sty) \
+tex(natbib.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

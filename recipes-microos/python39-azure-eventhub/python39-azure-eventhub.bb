@@ -25,7 +25,12 @@ RPM_NAME = "python39-azure-eventhub-5.11.2-1.2.noarch.rpm"
 RPM_HASH = "cd9191aa81a8ad3d7523bd22de41d58cb33e1af4281f92d53295da1a0fdf6720009c1c6178ed963e9cac577c40359ea0beadc527debb6d335d0a9b4eec893f33"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-eventhub) python39-azure-eventhub python3dist(azure-eventhub)"
-RDEPENDS:${PN} += "python(abi) python39-azure-core python39-azure-nspkg python39-typing_extensions"
+RPROVIDES:${PN} += "python3.9dist(azure-eventhub) \
+python39-azure-eventhub \
+python3dist(azure-eventhub)"
+RDEPENDS:${PN} += "python(abi) \
+python39-azure-core \
+python39-azure-nspkg \
+python39-typing_extensions"
 
 inherit rpm

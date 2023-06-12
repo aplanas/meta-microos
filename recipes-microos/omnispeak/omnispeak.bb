@@ -27,7 +27,18 @@ PV = "1.1+git20230213"
 RPM_NAME = "omnispeak-1.1+git20230213-1.1.aarch64.rpm"
 RPM_HASH = "691a6935a893fc837d0b31aa6e57de58ea0cfc3edcdd5639004e584bb60bc4b93d3f45d0a2d35c775d0a130b9c793b4ca935fde8df116d34033705f8eb7d89d1"
 
-RPROVIDES:${PN} += "omnispeak omnispeak(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libSDL2-2.0.so.0()(64bit) libSDL2-2.0.so.0(SUSE_2.0.5)(64bit) libasound.so.2()(64bit) libasound.so.2(ALSA_0.9)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "omnispeak \
+omnispeak(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libSDL2-2.0.so.0()(64bit) \
+libSDL2-2.0.so.0(SUSE_2.0.5)(64bit) \
+libasound.so.2()(64bit) \
+libasound.so.2(ALSA_0.9)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

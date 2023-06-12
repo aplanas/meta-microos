@@ -13,7 +13,21 @@ RPM_NAME = "dkimproxy-1.4.1-15.6.noarch.rpm"
 RPM_HASH = "663da0b36130ce1e255a09803c7a8162112852afce617f746f5baf623ef86123042474471c29e6f5eae6d2185e68c3a2667925ed279eaa8eb80a7177bc7cc9ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "dkimproxy perl(LookupMap) perl(MSDW::SMTP::Client) perl(MSDW::SMTP::Server) perl(MySmtpProxyServer) perl(MySmtpServer)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/perl /usr/bin/touch fillup git-core perl(IO::Socket::INET6) perl-Mail-DKIM perl-Net-Server pwdutils"
+RPROVIDES:${PN} += "dkimproxy \
+perl(LookupMap) \
+perl(MSDW::SMTP::Client) \
+perl(MSDW::SMTP::Server) \
+perl(MySmtpProxyServer) \
+perl(MySmtpServer)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/perl \
+/usr/bin/touch \
+fillup \
+git-core \
+perl(IO::Socket::INET6) \
+perl-Mail-DKIM \
+perl-Net-Server \
+pwdutils"
 
 inherit rpm

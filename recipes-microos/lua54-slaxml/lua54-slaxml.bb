@@ -16,7 +16,8 @@ RPM_NAME = "lua54-slaxml-0.7+git20191225.108970c-3.1.noarch.rpm"
 RPM_HASH = "afcd36d5a8e0e8d1bfccce825bf44ce745808385832c410bcff8aedf4f4e4880390f60629122be5e2974ff13dd888c52319e19e80cae083965820018f200dd8c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "lua-slaxml lua54-slaxml"
+RPROVIDES:${PN} += "lua-slaxml \
+lua54-slaxml"
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

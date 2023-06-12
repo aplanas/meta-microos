@@ -11,6 +11,8 @@ RPM_HASH = "55c4f22140e44e71d70b47b1a5888361f2dbc2fce24ba25c20df9aa0140a9a1924cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-level-set"
-RDEPENDS:${PN} += "/bin/sh octave-cli octave-forge-parallel"
+RDEPENDS:${PN} += "/bin/sh \
+octave-cli \
+octave-forge-parallel"
 
 inherit rpm

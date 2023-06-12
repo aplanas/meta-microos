@@ -13,7 +13,12 @@ PV = "1.2.5"
 RPM_NAME = "xev-1.2.5-2.3.aarch64.rpm"
 RPM_HASH = "833babab692ffd666d71d69329534faf12476e024ee01d3f0b1a4557f434f627e0c3e87eeb066909e9c64f3c5076669940131aaa32657666ad3c9702c26a6bbe"
 
-RPROVIDES:${PN} += "xev xev(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libXrandr.so.2()(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "xev \
+xev(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libX11.so.6()(64bit) \
+libXrandr.so.2()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

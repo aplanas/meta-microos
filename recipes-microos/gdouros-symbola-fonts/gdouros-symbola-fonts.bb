@@ -8,7 +8,11 @@ RPM_NAME = "gdouros-symbola-fonts-10.23-2.7.noarch.rpm"
 RPM_HASH = "e08681ae59d0ea9db1839a856675287073f7ec0e83396b71607402df5ef26d97dc3f994d92601085a325a3bef2f0beb467079470198803b9076d04ef77c46f17"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "gdouros-symbola-fonts symbola-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "gdouros-symbola-fonts \
+symbola-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

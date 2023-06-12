@@ -11,6 +11,8 @@ RPM_HASH = "5da7a2a5315d8f8b9193338025df02abf9b8be2517fbc45abfaddf6bcd850f6d1476
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfonts"
-RDEPENDS:${PN} += "java jpackage-utils libloader"
+RDEPENDS:${PN} += "java \
+jpackage-utils \
+libloader"
 
 inherit rpm

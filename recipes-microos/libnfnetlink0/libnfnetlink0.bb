@@ -11,7 +11,13 @@ PV = "1.0.2"
 RPM_NAME = "libnfnetlink0-1.0.2-1.7.aarch64.rpm"
 RPM_HASH = "37db814b946bb4a7ebbcf279c0d137e11971e32aec1cf7112fd86e34940aebcd8e2764e4e61d93bfc1c6690b5cc50458e4a892ac72c3886c07c05c30f76f0197"
 
-RPROVIDES:${PN} += "libnfnetlink.so.0()(64bit) libnfnetlink.so.0(NFNETLINK_1.0.1)(64bit) libnfnetlink0 libnfnetlink0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libnfnetlink.so.0()(64bit) \
+libnfnetlink.so.0(NFNETLINK_1.0.1)(64bit) \
+libnfnetlink0 \
+libnfnetlink0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

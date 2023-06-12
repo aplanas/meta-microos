@@ -9,7 +9,9 @@ PV = "2.3.1"
 RPM_NAME = "monitoring-plugins-all-2.3.1-9.4.aarch64.rpm"
 RPM_HASH = "48bd587609e9a05f3f89ce1c94160d0d7f8bf458ec59c96b6842e88d05583b2f09e8459c0fa8121245f0111684f486e993ff9ec625495854b07e1b16b4359069"
 
-RPROVIDES:${PN} += "monitoring-plugins-all monitoring-plugins-all(aarch-64) nagios-plugins-all"
+RPROVIDES:${PN} += "monitoring-plugins-all \
+monitoring-plugins-all(aarch-64) \
+nagios-plugins-all"
 RDEPENDS:${PN} += ""
 
 inherit rpm

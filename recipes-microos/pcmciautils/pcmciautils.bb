@@ -12,7 +12,14 @@ PV = "018"
 RPM_NAME = "pcmciautils-018-3.6.aarch64.rpm"
 RPM_HASH = "26703d17ef7cc9c7cfcf72117658a55cf5a43fb87cd09fdd18733478befc60543a93e7a23e482b7a932e0074c32a1b319459b1736dfb23174a2522e9c65d433c"
 
-RPROVIDES:${PN} += "config(pcmciautils) firmware(E-CARD.cis) pcmcia pcmciautils pcmciautils(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh libc.so.6(GLIBC_2.34)(64bit) libsysfs.so.2()(64bit) permissions"
+RPROVIDES:${PN} += "config(pcmciautils) \
+firmware(E-CARD.cis) \
+pcmcia \
+pcmciautils \
+pcmciautils(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+libc.so.6(GLIBC_2.34)(64bit) \
+libsysfs.so.2()(64bit) \
+permissions"
 
 inherit rpm

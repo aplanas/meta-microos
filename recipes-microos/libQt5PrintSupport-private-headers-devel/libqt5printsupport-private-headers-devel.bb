@@ -12,6 +12,10 @@ RPM_HASH = "4d74364aa29e97277708620ec4ee53b879e1abf58434bc828b63db60bef8a6091588
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5PrintSupport-private-headers-devel"
-RDEPENDS:${PN} += "cups-devel libQt5Core-private-headers-devel libQt5Gui-private-headers-devel libQt5PrintSupport-devel libQt5Widgets-private-headers-devel"
+RDEPENDS:${PN} += "cups-devel \
+libQt5Core-private-headers-devel \
+libQt5Gui-private-headers-devel \
+libQt5PrintSupport-devel \
+libQt5Widgets-private-headers-devel"
 
 inherit rpm

@@ -18,7 +18,12 @@ RPM_NAME = "python39-ciscoconfparse-1.7.18-1.1.noarch.rpm"
 RPM_HASH = "67a77415723725ebedd9e27c3fe4f867d4b3c05e2fdf2bdb83d5e94c624d57e09ade4ecba097a25a8e70d7291cac687b88889b49680d24a485616f0438d9e742"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(ciscoconfparse) python39-ciscoconfparse python3dist(ciscoconfparse)"
-RDEPENDS:${PN} += "python(abi) python39-dnspython python39-loguru python39-toml"
+RPROVIDES:${PN} += "python3.9dist(ciscoconfparse) \
+python39-ciscoconfparse \
+python3dist(ciscoconfparse)"
+RDEPENDS:${PN} += "python(abi) \
+python39-dnspython \
+python39-loguru \
+python39-toml"
 
 inherit rpm

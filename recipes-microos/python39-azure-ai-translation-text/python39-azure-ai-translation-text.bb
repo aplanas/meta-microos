@@ -18,7 +18,15 @@ RPM_NAME = "python39-azure-ai-translation-text-1.0.0~b1-1.1.noarch.rpm"
 RPM_HASH = "c7fa31818d532c05df0e8e9d7674239973662897656c3f2b0a0d35a07fdc368e55e4aef6592ec17b48c8a33fdf99f40f38cfce62c2b8fb15cd27929759edebab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-ai-translation-text) python39-azure-ai-translation-text python3dist(azure-ai-translation-text)"
-RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) python(abi) python39-azure-ai-nspkg python39-azure-ai-translation-nspkg python39-azure-common python39-azure-core python39-msrest"
+RPROVIDES:${PN} += "python3.9dist(azure-ai-translation-text) \
+python39-azure-ai-translation-text \
+python3dist(azure-ai-translation-text)"
+RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) \
+python(abi) \
+python39-azure-ai-nspkg \
+python39-azure-ai-translation-nspkg \
+python39-azure-common \
+python39-azure-core \
+python39-msrest"
 
 inherit rpm

@@ -22,7 +22,11 @@ RPM_NAME = "jformatstring-0.10~20131207-3.6.noarch.rpm"
 RPM_HASH = "90a7f42238075ed020ac06c6eccb369572e02737c00b6b215c47125c9397c13cb91a793af7a39e29253b862d4a7fb486ada3cce94c75321343dfd2bef6a0f37e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jFormatString jformatstring mvn(com.google.code.findbugs:jFormatString) mvn(com.google.code.findbugs:jFormatString:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "jFormatString \
+jformatstring \
+mvn(com.google.code.findbugs:jFormatString) \
+mvn(com.google.code.findbugs:jFormatString:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

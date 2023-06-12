@@ -7,7 +7,8 @@ PV = "3.6.5"
 RPM_NAME = "nova-3.6.5-1.1.aarch64.rpm"
 RPM_HASH = "981b257df35785254fb9b2f4225da47b3d0f7a64bdd76d8474fb4acf30de88cd3d6e2dbd320eb2e54d74057eeb2f9b6a41c0ed599c7272ae366d548dfb429894"
 
-RPROVIDES:${PN} += "nova nova(aarch-64)"
+RPROVIDES:${PN} += "nova \
+nova(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

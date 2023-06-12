@@ -14,6 +14,7 @@ RPM_HASH = "4d42c15da7499314f594a2b147f24bda9b038cebc2136f4a27356554f16f63257e9e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "borgbackup-fish-completion"
-RDEPENDS:${PN} += "borgbackup fish"
+RDEPENDS:${PN} += "borgbackup \
+fish"
 
 inherit rpm

@@ -14,7 +14,12 @@ PV = "1.9"
 RPM_NAME = "perl-Digest-MD4-1.9-5.37.aarch64.rpm"
 RPM_HASH = "c619a4dab22802900f451df36809b9845d1464f8d145fc771c6f7d06be506098f1e362803fc2ca266d4ab26dc341bdc851329210b39107f8a7314380b887a49c"
 
-RPROVIDES:${PN} += "perl(Digest::MD4) perl-Digest-MD4 perl-Digest-MD4(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Digest::MD4) \
+perl-Digest-MD4 \
+perl-Digest-MD4(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

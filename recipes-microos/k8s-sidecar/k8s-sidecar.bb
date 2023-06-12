@@ -9,6 +9,8 @@ RPM_HASH = "7b805f1726292bc80cdc2bbcf43ecbebe5d1eb44d2a26c2cae82c8fbe524b06948d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "k8s-sidecar"
-RDEPENDS:${PN} += "python3 python3-kubernetes python3-requests"
+RDEPENDS:${PN} += "python3 \
+python3-kubernetes \
+python3-requests"
 
 inherit rpm

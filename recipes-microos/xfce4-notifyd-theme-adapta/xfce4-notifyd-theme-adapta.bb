@@ -12,6 +12,7 @@ RPM_HASH = "d2760e2c1042c086d5740ae1a2548acc315a26e418d855aef3b986c435fa330c3840
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xfce4-notifyd-theme-adapta"
-RDEPENDS:${PN} += "metatheme-adapta-common xfce4-notifyd"
+RDEPENDS:${PN} += "metatheme-adapta-common \
+xfce4-notifyd"
 
 inherit rpm

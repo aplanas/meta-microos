@@ -12,7 +12,8 @@ PV = "5.3.5"
 RPM_NAME = "mumps-openmpi3-devel-static-5.3.5-3.3.aarch64.rpm"
 RPM_HASH = "7f696cf695ec330d530d96bf214458aeda848eb2c22b6203e7808245f5a77a4eda40926aa0bf2ffe359b27f3c620a1a3fdc62cf90c5bf3b27bde2d6378c75491"
 
-RPROVIDES:${PN} += "mumps-openmpi3-devel-static mumps-openmpi3-devel-static(aarch-64)"
+RPROVIDES:${PN} += "mumps-openmpi3-devel-static \
+mumps-openmpi3-devel-static(aarch-64)"
 RDEPENDS:${PN} += "mumps-openmpi3-devel"
 
 inherit rpm

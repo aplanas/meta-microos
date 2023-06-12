@@ -20,6 +20,8 @@ RPM_HASH = "6aff44419d2fb81dcbfc816cdfa53f4f737ee8a712580a1db106512e51cb8deb0e92
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "t-prot"
-RDEPENDS:${PN} += "/usr/bin/perl perl(Getopt::Long) perl(Locale::gettext)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(Getopt::Long) \
+perl(Locale::gettext)"
 
 inherit rpm

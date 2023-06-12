@@ -11,7 +11,27 @@ PV = "5.2.49"
 RPM_NAME = "belle-sip-devel-5.2.49-1.1.aarch64.rpm"
 RPM_HASH = "582ed58442aab964fd586c90423792b8bf70856393671a55eb464e68b254627dacb589e8361cc1b663ce9d2dfe07fd18e0bff159850b9e30cb6542ea1b81125c"
 
-RPROVIDES:${PN} += "belle-sip-devel belle-sip-devel(aarch-64) cmake(BelleSIP) pkgconfig(belle-sip)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbctoolbox-tester.so.1()(64bit) libbctoolbox.so.1()(64bit) libbellesip.so.1()(64bit) libbellesip1 libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libgcc_s.so.1(GCC_4.2.0)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) pkgconfig(bctoolbox) pkgconfig(zlib)"
+RPROVIDES:${PN} += "belle-sip-devel \
+belle-sip-devel(aarch-64) \
+cmake(BelleSIP) \
+pkgconfig(belle-sip)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbctoolbox-tester.so.1()(64bit) \
+libbctoolbox.so.1()(64bit) \
+libbellesip.so.1()(64bit) \
+libbellesip1 \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libgcc_s.so.1(GCC_4.2.0)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+pkgconfig(bctoolbox) \
+pkgconfig(zlib)"
 
 inherit rpm

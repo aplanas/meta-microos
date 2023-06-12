@@ -11,7 +11,19 @@ RPM_NAME = "texlive-ruler-2023.201.1.1svn54251-53.1.noarch.rpm"
 RPM_HASH = "bfa213cc099c2bdb5a698d8edc08948d6ade4cab5f0a4166436055309f558ea78d08da0632bb3a019f7454ada1d43dfc84e804c060fd6b7339258d643fdf5c02"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ruler.tex) texlive-ruler"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(ruler.tex) \
+texlive-ruler"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

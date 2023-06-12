@@ -24,7 +24,11 @@ RPM_NAME = "python311-SecretStorage-3.3.3-4.1.noarch.rpm"
 RPM_HASH = "1fef79720c9e4efe6d255c998f0964577980003368d07860045aad4acab4a4dccf6ca7d9d4d17444fd04cf60e8b556add86eea3795d18f8e5e3446baa2cc6938"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(secretstorage) python311-SecretStorage python3dist(secretstorage)"
-RDEPENDS:${PN} += "python(abi) python311-cryptography python311-jeepney"
+RPROVIDES:${PN} += "python3.11dist(secretstorage) \
+python311-SecretStorage \
+python3dist(secretstorage)"
+RDEPENDS:${PN} += "python(abi) \
+python311-cryptography \
+python311-jeepney"
 
 inherit rpm

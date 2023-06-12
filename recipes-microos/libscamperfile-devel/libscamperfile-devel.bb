@@ -14,7 +14,8 @@ PV = "20230302"
 RPM_NAME = "libscamperfile-devel-20230302-1.3.aarch64.rpm"
 RPM_HASH = "afe951c92b062343493bbb64c96f94403a6ff3db4578d6023991789ac7386577596185763c08b88521fa216a9770c529e84e1bee1ecb0e863cbfcaf1ca652a9d"
 
-RPROVIDES:${PN} += "libscamperfile-devel libscamperfile-devel(aarch-64)"
+RPROVIDES:${PN} += "libscamperfile-devel \
+libscamperfile-devel(aarch-64)"
 RDEPENDS:${PN} += "libscamperfile5"
 
 inherit rpm

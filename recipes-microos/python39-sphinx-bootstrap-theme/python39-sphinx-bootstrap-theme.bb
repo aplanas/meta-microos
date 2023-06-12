@@ -11,7 +11,10 @@ RPM_NAME = "python39-sphinx-bootstrap-theme-0.8.1-2.2.noarch.rpm"
 RPM_HASH = "9c6940142b2104d3551d24148efd3e9fc929cb13aabbe113596c04bb706ac0d6e05cfd197371077689f361c89f91435af336a0bd815c6a324e58d1fda9d37da8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(sphinx-bootstrap-theme) python39-sphinx-bootstrap-theme python3dist(sphinx-bootstrap-theme)"
-RDEPENDS:${PN} += "python(abi) python39-Sphinx"
+RPROVIDES:${PN} += "python3.9dist(sphinx-bootstrap-theme) \
+python39-sphinx-bootstrap-theme \
+python3dist(sphinx-bootstrap-theme)"
+RDEPENDS:${PN} += "python(abi) \
+python39-Sphinx"
 
 inherit rpm

@@ -10,7 +10,12 @@ RPM_NAME = "python311-sphinxcontrib-nwdiag-2.0.0-1.13.noarch.rpm"
 RPM_HASH = "0d7120b0867fea711e3fcd4a3386d7e0a1d13ad29f27016df4784d277e1d95cca7898c50c31ee512dc222f1469039a5e5da244fd04bd0ebd03fd7a803b56a1a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(sphinxcontrib-nwdiag) python311-sphinxcontrib-nwdiag python3dist(sphinxcontrib-nwdiag)"
-RDEPENDS:${PN} += "python(abi) python311-Sphinx python311-blockdiag python311-nwdiag"
+RPROVIDES:${PN} += "python3.11dist(sphinxcontrib-nwdiag) \
+python311-sphinxcontrib-nwdiag \
+python3dist(sphinxcontrib-nwdiag)"
+RDEPENDS:${PN} += "python(abi) \
+python311-Sphinx \
+python311-blockdiag \
+python311-nwdiag"
 
 inherit rpm

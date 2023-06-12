@@ -10,6 +10,7 @@ RPM_HASH = "ee8864d640d79b7414ca48224c988acdc46c096c03742a0ac7dd3ca1ea327504815b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-powerline"
-RDEPENDS:${PN} += "powerline vim"
+RDEPENDS:${PN} += "powerline \
+vim"
 
 inherit rpm

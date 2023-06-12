@@ -24,7 +24,14 @@ RPM_NAME = "python310-lmfit-1.1.0-1.3.noarch.rpm"
 RPM_HASH = "f88d313894665b2da6afc44a26e2e94cb8f110c615fe5e575b117e9c67d82601ffad596977b4b7e7273251f4fb670b03bef510b9b442ac4aa6ef1682062c6c8e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-lmfit python3.10dist(lmfit) python310-lmfit python3dist(lmfit)"
-RDEPENDS:${PN} += "python(abi) python310-asteval python310-numpy python310-scipy python310-uncertainties"
+RPROVIDES:${PN} += "python3-lmfit \
+python3.10dist(lmfit) \
+python310-lmfit \
+python3dist(lmfit)"
+RDEPENDS:${PN} += "python(abi) \
+python310-asteval \
+python310-numpy \
+python310-scipy \
+python310-uncertainties"
 
 inherit rpm

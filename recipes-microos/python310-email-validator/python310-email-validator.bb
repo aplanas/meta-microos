@@ -20,7 +20,18 @@ RPM_NAME = "python310-email-validator-2.0.0-1.1.noarch.rpm"
 RPM_HASH = "763332d11558fac80c9254bc8ff0f71251383b6c58d3966ed8a69c37879af55895347571892f2423ca2fe7012862554c70642d365963522ce24647fbe4c355ab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-email-validator python3-email_validator python3.10dist(email-validator) python310-email-validator python310-email_validator python3dist(email-validator)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-dnspython python310-idna python310-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3-email-validator \
+python3-email_validator \
+python3.10dist(email-validator) \
+python310-email-validator \
+python310-email_validator \
+python3dist(email-validator)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-dnspython \
+python310-idna \
+python310-setuptools \
+update-alternatives"
 
 inherit rpm

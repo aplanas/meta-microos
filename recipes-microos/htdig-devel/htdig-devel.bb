@@ -15,7 +15,8 @@ PV = "3.2.0b6"
 RPM_NAME = "htdig-devel-3.2.0b6-244.11.aarch64.rpm"
 RPM_HASH = "da9581b2e7e738a91c313f29eedd5ba87b35eb13207261507b10b38797b4be463515b61135d40cab2462b27435257a6cd6605b07305a49114142d4ae999f4078"
 
-RPROVIDES:${PN} += "htdig-devel htdig-devel(aarch-64)"
+RPROVIDES:${PN} += "htdig-devel \
+htdig-devel(aarch-64)"
 RDEPENDS:${PN} += "htdig"
 
 inherit rpm

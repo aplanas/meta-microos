@@ -13,7 +13,11 @@ RPM_NAME = "loook-0.9.0-1.4.noarch.rpm"
 RPM_HASH = "32424479a86e71f5ba0b602e1b50262eec69476991e8fd0993896495118cb3ad53873aa8e2fb4c50099fc953911c44d64685d096761248022485ef4aa011be23"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(loook.desktop) loook"
-RDEPENDS:${PN} += "/usr/bin/python3 python3-base python3-tk"
+RPROVIDES:${PN} += "application() \
+application(loook.desktop) \
+loook"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3-base \
+python3-tk"
 
 inherit rpm

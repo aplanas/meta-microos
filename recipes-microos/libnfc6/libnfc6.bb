@@ -12,7 +12,13 @@ PV = "1.8.0"
 RPM_NAME = "libnfc6-1.8.0-1.12.aarch64.rpm"
 RPM_HASH = "b729272565f4157e12cab89d1cc52e0d5026f5909214c6b2421cecccd6f4efdd45f4c7ec8311a4c7844b781bf0f7dc8f4887edfbcfcf432b10509db4f745bf66"
 
-RPROVIDES:${PN} += "libnfc.so.6()(64bit) libnfc6 libnfc6(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libusb-0.1.so.4()(64bit)"
+RPROVIDES:${PN} += "libnfc.so.6()(64bit) \
+libnfc6 \
+libnfc6(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+libusb-0.1.so.4()(64bit)"
 
 inherit rpm

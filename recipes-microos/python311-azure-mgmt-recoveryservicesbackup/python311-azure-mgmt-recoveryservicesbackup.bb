@@ -13,7 +13,15 @@ RPM_NAME = "python311-azure-mgmt-recoveryservicesbackup-6.0.0-1.1.noarch.rpm"
 RPM_HASH = "8a7fe75e0c2f5c2da171f227a53230e96a1088488fe98521e126f318cf4ebbdde1f53eff655d71eef3a62a3ba1268626371a06393a7831f59ce96b980ead8743"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-recoveryservicesbackup) python311-azure-mgmt-recoveryservicesbackup python3dist(azure-mgmt-recoveryservicesbackup)"
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) python(abi) python311-azure-common python311-azure-mgmt-core python311-azure-mgmt-nspkg python311-azure-nspkg python311-isodate"
+RPROVIDES:${PN} += "python3.11dist(azure-mgmt-recoveryservicesbackup) \
+python311-azure-mgmt-recoveryservicesbackup \
+python3dist(azure-mgmt-recoveryservicesbackup)"
+RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
+python(abi) \
+python311-azure-common \
+python311-azure-mgmt-core \
+python311-azure-mgmt-nspkg \
+python311-azure-nspkg \
+python311-isodate"
 
 inherit rpm

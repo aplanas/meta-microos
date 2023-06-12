@@ -8,7 +8,12 @@ RPM_NAME = "myspell-es_CO-20221012-1.2.noarch.rpm"
 RPM_HASH = "686e0052a271e2ea661d8b3c3368cb5ea13ad481f245a8799f51bffc77077d9ee40073d8e5c198c244951238fbaad450016c1162bce014a1269fa0c1a24c03e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:es_CO) locale(seamonkey-spellchecker:es_CO) myspell-dictionary myspell-es_CO myspell-spanish-colombian"
-RDEPENDS:${PN} += "myspell-dictionaries myspell-es"
+RPROVIDES:${PN} += "locale(libreoffice:es_CO) \
+locale(seamonkey-spellchecker:es_CO) \
+myspell-dictionary \
+myspell-es_CO \
+myspell-spanish-colombian"
+RDEPENDS:${PN} += "myspell-dictionaries \
+myspell-es"
 
 inherit rpm

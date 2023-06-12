@@ -14,7 +14,13 @@ RPM_NAME = "python310-sparse-0.14.0-1.2.noarch.rpm"
 RPM_HASH = "b4859fc55bd79932f9f0325414a001fa2bf911c5a60cacaf4fe1263d558446bf07a413be8f9e320b4cbcf072d94d66df5cda41da2c119eaf004208ac71dc2a4d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sparse python3.10dist(sparse) python310-sparse python3dist(sparse)"
-RDEPENDS:${PN} += "python(abi) python310-numba python310-numpy python310-scipy"
+RPROVIDES:${PN} += "python3-sparse \
+python3.10dist(sparse) \
+python310-sparse \
+python3dist(sparse)"
+RDEPENDS:${PN} += "python(abi) \
+python310-numba \
+python310-numpy \
+python310-scipy"
 
 inherit rpm

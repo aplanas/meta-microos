@@ -10,6 +10,7 @@ RPM_HASH = "74f9931424bd4556a31b09d726af8a2964a80ce333cb4824cc12f92b40d57db3517f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "include-what-you-use-tools"
-RDEPENDS:${PN} += "/usr/bin/python3 include-what-you-use"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+include-what-you-use"
 
 inherit rpm

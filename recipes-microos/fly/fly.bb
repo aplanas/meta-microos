@@ -7,7 +7,11 @@ PV = "2.0.1"
 RPM_NAME = "fly-2.0.1-1.18.aarch64.rpm"
 RPM_HASH = "fd875de46f9d39e78c98b2cc240a8b6970a3a2049210e27b22dc447b8882b54a6b1d10670ba0245e725cf24b5893112d8c59bde7df1401eb78aa3d0ca9a43a6f"
 
-RPROVIDES:${PN} += "fly fly(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgd.so.3()(64bit)"
+RPROVIDES:${PN} += "fly \
+fly(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgd.so.3()(64bit)"
 
 inherit rpm

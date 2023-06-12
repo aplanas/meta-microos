@@ -20,7 +20,19 @@ PV = "1.5.4"
 RPM_NAME = "libisofs6-1.5.4-2.11.aarch64.rpm"
 RPM_HASH = "0b3fc8174f0f0a1f7fb586965d086cfb6de1208e3bf4e57c6369a9668468581d76b13e0460e8c1b297f69e8d984d6f908b9caf55e7a06970ed3c6cb35fa87b09"
 
-RPROVIDES:${PN} += "libisofs.so.6()(64bit) libisofs.so.6(LIBISOFS6)(64bit) libisofs6 libisofs6(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libacl.so.1()(64bit) libacl.so.1(ACL_1.0)(64bit) libc.so.6(GLIBC_2.34)(64bit) libjte.so.2()(64bit) libjte.so.2(LIBJTE1)(64bit) libz.so.1()(64bit) libz.so.1(ZLIB_1.2.0)(64bit)"
+RPROVIDES:${PN} += "libisofs.so.6()(64bit) \
+libisofs.so.6(LIBISOFS6)(64bit) \
+libisofs6 \
+libisofs6(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libacl.so.1()(64bit) \
+libacl.so.1(ACL_1.0)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libjte.so.2()(64bit) \
+libjte.so.2(LIBJTE1)(64bit) \
+libz.so.1()(64bit) \
+libz.so.1(ZLIB_1.2.0)(64bit)"
 
 inherit rpm

@@ -8,7 +8,17 @@ PV = "0.2.4"
 RPM_NAME = "python311-django-collectd-rest-0.2.4-1.3.aarch64.rpm"
 RPM_HASH = "63ba629f01894da0d7fac3f6c437fcb96ea18cd312e1da168ea052bbdd226da37cc46a00469c35440aaf12f350c89f471ad8efb3dcfa6cc665230074145f3353"
 
-RPROVIDES:${PN} += "python3.11dist(django-collectd-rest) python311-django-collectd-rest python311-django-collectd-rest(aarch-64) python3dist(django-collectd-rest)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) librrd.so.8()(64bit) python(abi) python311-Django python311-djangorestframework rrdtool"
+RPROVIDES:${PN} += "python3.11dist(django-collectd-rest) \
+python311-django-collectd-rest \
+python311-django-collectd-rest(aarch-64) \
+python3dist(django-collectd-rest)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+librrd.so.8()(64bit) \
+python(abi) \
+python311-Django \
+python311-djangorestframework \
+rrdtool"
 
 inherit rpm

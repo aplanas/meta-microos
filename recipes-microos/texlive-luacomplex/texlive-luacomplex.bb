@@ -16,7 +16,23 @@ RPM_NAME = "texlive-luacomplex-2023.201.1.2svn65833-52.1.noarch.rpm"
 RPM_HASH = "4f24800e90e05ce143d14fb37b71e4d6944eb11e0c7a886dae67f8b3ebba93f5d680698cdcaa33423c4a8ba41d2fa3162e7754959c1182e1065061b0bd1c5a7a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(luacomplex.sty) texlive-luacomplex"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsmath.sty) tex(luacode.sty) tex(luamaths.sty) tex(xkeyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(luacomplex.sty) \
+texlive-luacomplex"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsmath.sty) \
+tex(luacode.sty) \
+tex(luamaths.sty) \
+tex(xkeyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

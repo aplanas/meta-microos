@@ -15,7 +15,12 @@ PV = "1.3.1"
 RPM_NAME = "bzip3-1.3.1-1.1.aarch64.rpm"
 RPM_HASH = "318632d540e38bbc2caea60f56e72c2626122b47a8be393d04730f49f3e78218cb4838338d7e12848ac0726e822d54eca50f597beac7aebf9de50beee8ef2efd"
 
-RPROVIDES:${PN} += "bzip3 bzip3(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbzip3.so.0()(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "bzip3 \
+bzip3(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbzip3.so.0()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

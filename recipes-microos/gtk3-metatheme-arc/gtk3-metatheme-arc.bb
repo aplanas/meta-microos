@@ -12,6 +12,7 @@ RPM_HASH = "719c5b11e5b9b7ae6ef2bd696d800625194d328d1b662ee7f74529717901e862b9b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-arc"
-RDEPENDS:${PN} += "gtk3 metatheme-arc-common"
+RDEPENDS:${PN} += "gtk3 \
+metatheme-arc-common"
 
 inherit rpm

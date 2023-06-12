@@ -9,7 +9,10 @@ PV = "0.14"
 RPM_NAME = "perl-UNIVERSAL-ref-0.14-1.13.aarch64.rpm"
 RPM_HASH = "a44bbdbcb3ab25017ea4d087aa7c2434a7142efd011e0e759e13ec7b5783bcd8953271d0043f8a5c205e5b5e6142f098db6e11ef1a26f946848585ebc12010fe"
 
-RPROVIDES:${PN} += "perl(UNIVERSAL::ref) perl-UNIVERSAL-ref perl-UNIVERSAL-ref(aarch-64)"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(B::Utils)"
+RPROVIDES:${PN} += "perl(UNIVERSAL::ref) \
+perl-UNIVERSAL-ref \
+perl-UNIVERSAL-ref(aarch-64)"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(B::Utils)"
 
 inherit rpm

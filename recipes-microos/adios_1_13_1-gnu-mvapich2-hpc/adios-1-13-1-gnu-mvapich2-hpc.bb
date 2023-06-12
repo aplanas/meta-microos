@@ -13,7 +13,24 @@ PV = "1.13.1"
 RPM_NAME = "adios_1_13_1-gnu-mvapich2-hpc-1.13.1-5.14.aarch64.rpm"
 RPM_HASH = "987f162dfcd91902bd269959821a2622ddc7cc6eef98dfbc3b8d162de9afca5ff22962fc5ad80fd4f8a44326b97dd98b0fac68a6bf590ff48c591eb52f44609a"
 
-RPROVIDES:${PN} += "adios_1_13_1-gnu-mvapich2-hpc adios_1_13_1-gnu-mvapich2-hpc(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/python3 gnu-compilers-hpc ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbz2.so.1()(64bit) libc.so.6(GLIBC_2.34)(64bit) liblz4.so.1()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libz.so.1()(64bit) lua-lmod mvapich2-gnu-hpc python3-PyYAML python3-xml"
+RPROVIDES:${PN} += "adios_1_13_1-gnu-mvapich2-hpc \
+adios_1_13_1-gnu-mvapich2-hpc(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/python3 \
+gnu-compilers-hpc \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbz2.so.1()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+liblz4.so.1()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libz.so.1()(64bit) \
+lua-lmod \
+mvapich2-gnu-hpc \
+python3-PyYAML \
+python3-xml"
 
 inherit rpm

@@ -10,7 +10,11 @@ RPM_NAME = "google-noto-serif-sc-light-fonts-2.001-2.3.noarch.rpm"
 RPM_HASH = "e4013778ce572995e5f42421459c381424db1d03d893a33a40de5447f111ef9e98fc0f418714c671b37725cceae325aa4b57a7c1286fd0f2a84937baad704de0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "google-noto-serif-sc-light-fonts noto-serif-sc-light-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "google-noto-serif-sc-light-fonts \
+noto-serif-sc-light-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

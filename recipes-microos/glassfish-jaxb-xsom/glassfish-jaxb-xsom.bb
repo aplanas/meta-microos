@@ -11,7 +11,11 @@ RPM_NAME = "glassfish-jaxb-xsom-2.3.1-4.4.noarch.rpm"
 RPM_HASH = "df464faef9530aae2599cbafc7874af8ad6868e6c94236a8eb537af8209e2584d712c310f05a39a4c60a35cf588680c83bac1b1b77560db024b02123ff41a8d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "glassfish-jaxb-xsom mvn(org.glassfish.jaxb:xsom) mvn(org.glassfish.jaxb:xsom:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(com.sun.xml.bind.external:relaxng-datatype)"
+RPROVIDES:${PN} += "glassfish-jaxb-xsom \
+mvn(org.glassfish.jaxb:xsom) \
+mvn(org.glassfish.jaxb:xsom:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(com.sun.xml.bind.external:relaxng-datatype)"
 
 inherit rpm

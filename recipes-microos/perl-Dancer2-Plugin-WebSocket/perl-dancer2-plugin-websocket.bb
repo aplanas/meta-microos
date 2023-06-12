@@ -14,7 +14,17 @@ RPM_NAME = "perl-Dancer2-Plugin-WebSocket-0.3.1-1.9.noarch.rpm"
 RPM_HASH = "da8776906de5db1e507948f387cb790ad87858d3ed162d5814a9e6cb15e24e3c77a719ac80e9ee99f8547f9a489e0dedaa961a81ed458403641bbdcf4d68d096"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Dancer2::Plugin::WebSocket) perl(Dancer2::Plugin::WebSocket::Connection) perl(Dancer2::Plugin::WebSocket::Group) perl-Dancer2-Plugin-WebSocket"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Dancer2::Plugin) perl(JSON::MaybeXS) perl(Moo) perl(Moo::Role) perl(Plack::App::WebSocket) perl(Set::Tiny) perl(Try::Tiny)"
+RPROVIDES:${PN} += "perl(Dancer2::Plugin::WebSocket) \
+perl(Dancer2::Plugin::WebSocket::Connection) \
+perl(Dancer2::Plugin::WebSocket::Group) \
+perl-Dancer2-Plugin-WebSocket"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Dancer2::Plugin) \
+perl(JSON::MaybeXS) \
+perl(Moo) \
+perl(Moo::Role) \
+perl(Plack::App::WebSocket) \
+perl(Set::Tiny) \
+perl(Try::Tiny)"
 
 inherit rpm

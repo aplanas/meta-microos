@@ -20,7 +20,22 @@ RPM_NAME = "texlive-xgreek-2023.201.3.2.0svn64300-52.1.noarch.rpm"
 RPM_HASH = "c43c58d764ceb4df1c7654e36e9d4f57425ff051ed34b80fb0f9e7086894135945622fced42655668e0a4c053467d8231b7205773fa5ee7adb4eb06afe7a119d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xelistings.sty) tex(xgreek.sty) texlive-xgreek"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(listings.sty) tex(luahyphenrules.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(xelistings.sty) \
+tex(xgreek.sty) \
+texlive-xgreek"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(listings.sty) \
+tex(luahyphenrules.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

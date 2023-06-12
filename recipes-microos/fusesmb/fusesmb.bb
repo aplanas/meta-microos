@@ -11,7 +11,15 @@ PV = "0.8.7"
 RPM_NAME = "fusesmb-0.8.7-128.29.aarch64.rpm"
 RPM_HASH = "9594f824d4e9fbc86903171438cc4a6ac352f7b3178f1fbc5d51b5c3f7cf9b006b304637f9f5d16f2a9d6801732360cfe279595f44fb7a6b1d1eb39748c3831f"
 
-RPROVIDES:${PN} += "fusesmb fusesmb(aarch-64)"
-RDEPENDS:${PN} += "fuse ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libfuse.so.2()(64bit) libfuse.so.2(FUSE_2.5)(64bit) libsmbclient.so.0()(64bit) libsmbclient.so.0(SMBCLIENT_0.1.0)(64bit)"
+RPROVIDES:${PN} += "fusesmb \
+fusesmb(aarch-64)"
+RDEPENDS:${PN} += "fuse \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libfuse.so.2()(64bit) \
+libfuse.so.2(FUSE_2.5)(64bit) \
+libsmbclient.so.0()(64bit) \
+libsmbclient.so.0(SMBCLIENT_0.1.0)(64bit)"
 
 inherit rpm

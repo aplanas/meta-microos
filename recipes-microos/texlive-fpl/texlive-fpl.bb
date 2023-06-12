@@ -21,6 +21,18 @@ RPM_HASH = "33cfeacc5f866565a36ff1af47f49790574bbbf0156f4d1f77b7a24b6299f8e7a4aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fpl"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-fpl-fonts texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-fpl-fonts \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

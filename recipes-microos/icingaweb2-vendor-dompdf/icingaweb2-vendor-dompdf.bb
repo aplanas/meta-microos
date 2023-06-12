@@ -9,6 +9,7 @@ RPM_HASH = "db716a9e13ef37f94d0cba2bb888441de138911dcd15004647bf1966594744430fbb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-vendor-dompdf"
-RDEPENDS:${PN} += "icingaweb2-common php"
+RDEPENDS:${PN} += "icingaweb2-common \
+php"
 
 inherit rpm

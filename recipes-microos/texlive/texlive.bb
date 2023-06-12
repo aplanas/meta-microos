@@ -33,7 +33,23 @@ PV = "2023.20230311"
 RPM_NAME = "texlive-2023.20230311-91.1.aarch64.rpm"
 RPM_HASH = "495addc8b7664d2cdd3532df0517c81ba644da7ceb7270bfef3383a88238fb2c82345286dc8984fa5d87f1b25e524cdfadc46305bcc34c9da5a6530f45b43586"
 
-RPROVIDES:${PN} += "texlive texlive(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/clear /usr/bin/dialog /usr/bin/perl coreutils ed findutils grep group(mktex) sed texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin user(mktex)"
+RPROVIDES:${PN} += "texlive \
+texlive(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/clear \
+/usr/bin/dialog \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+group(mktex) \
+sed \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+user(mktex)"
 
 inherit rpm

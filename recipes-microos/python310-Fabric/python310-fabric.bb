@@ -20,7 +20,27 @@ RPM_NAME = "python310-Fabric-2.7.1-3.4.noarch.rpm"
 RPM_HASH = "6857f95677f2334f919009c9870d0175c72de8237490a4842e833944daface743877c096fdec1ae34f4f54cf1d5386a71b6bae97fe9e26c50017006be4c35dba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Fabric python3-Fabric2 python3-Fabric3 python3-fabric python3-fabric2 python3.10dist(fabric) python310-Fabric python310-Fabric2 python310-Fabric3 python310-fabric python310-fabric2 python3dist(fabric)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-cryptography python310-decorator python310-invoke python310-paramiko python310-setuptools python310-six update-alternatives"
+RPROVIDES:${PN} += "python3-Fabric \
+python3-Fabric2 \
+python3-Fabric3 \
+python3-fabric \
+python3-fabric2 \
+python3.10dist(fabric) \
+python310-Fabric \
+python310-Fabric2 \
+python310-Fabric3 \
+python310-fabric \
+python310-fabric2 \
+python3dist(fabric)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-cryptography \
+python310-decorator \
+python310-invoke \
+python310-paramiko \
+python310-setuptools \
+python310-six \
+update-alternatives"
 
 inherit rpm

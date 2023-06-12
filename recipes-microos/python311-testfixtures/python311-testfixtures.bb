@@ -16,7 +16,9 @@ RPM_NAME = "python311-testfixtures-7.0.4-1.3.noarch.rpm"
 RPM_HASH = "fbb419fd172f10b5c61d1dfdc43178398009eae62ae3fd35f31a1d82f4bcdc144b1d1fa0639ee5915b8799ccf7969a9c6922bdc1087776f7929e6064b5cf1fa1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(testfixtures) python311-testfixtures python3dist(testfixtures)"
+RPROVIDES:${PN} += "python3.11dist(testfixtures) \
+python311-testfixtures \
+python3dist(testfixtures)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

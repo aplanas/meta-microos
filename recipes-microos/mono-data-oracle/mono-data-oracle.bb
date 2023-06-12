@@ -13,7 +13,15 @@ PV = "6.12.0"
 RPM_NAME = "mono-data-oracle-6.12.0-5.3.aarch64.rpm"
 RPM_HASH = "8720ae10f4190b67a650eeff99c6153f98f1dcce4bdf52746384973f0b474f8857d49fcc9d3691f92e7b5cce4b1e4919c0c8945d76c91e8e2dec65d6df290eba"
 
-RPROVIDES:${PN} += "mono(System.Data.OracleClient) mono-data-oracle mono-data-oracle(aarch-64)"
-RDEPENDS:${PN} += "mono(System) mono(System.Data) mono(System.Drawing) mono(System.EnterpriseServices) mono(mscorlib) mono-core mono-data"
+RPROVIDES:${PN} += "mono(System.Data.OracleClient) \
+mono-data-oracle \
+mono-data-oracle(aarch-64)"
+RDEPENDS:${PN} += "mono(System) \
+mono(System.Data) \
+mono(System.Drawing) \
+mono(System.EnterpriseServices) \
+mono(mscorlib) \
+mono-core \
+mono-data"
 
 inherit rpm

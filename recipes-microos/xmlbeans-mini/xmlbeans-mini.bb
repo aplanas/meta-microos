@@ -16,7 +16,8 @@ RPM_NAME = "xmlbeans-mini-2.6.0-13.1.noarch.rpm"
 RPM_HASH = "64d99d3ca575663923b9e4043a147d7c07c6077846c15f4c0090a7bde4a74a463e658c4aa76b915dd0d3e9f04de1c52bc1d1bebb8eeb06f92bb221b482bc029e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "xmlbeans xmlbeans-mini"
+RPROVIDES:${PN} += "xmlbeans \
+xmlbeans-mini"
 RDEPENDS:${PN} += ""
 
 inherit rpm

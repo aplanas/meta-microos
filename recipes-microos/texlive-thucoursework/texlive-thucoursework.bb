@@ -12,7 +12,24 @@ RPM_NAME = "texlive-thucoursework-2023.201.2.6svn56435-54.1.noarch.rpm"
 RPM_HASH = "dbecd843fefa93d07ca8c44c76c7c9215908552bd0b63ad1c6a9835669704e84bfe301cf2e5f65d276271033bf8b87361640fe8c8900da1e500b181b4d5aadce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(iidef.sty) texlive-thucoursework"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsmath.sty) tex(amsthm.sty) tex(enumitem.sty) tex(fancyhdr.sty) tex(kvoptions.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(iidef.sty) \
+texlive-thucoursework"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsmath.sty) \
+tex(amsthm.sty) \
+tex(enumitem.sty) \
+tex(fancyhdr.sty) \
+tex(kvoptions.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

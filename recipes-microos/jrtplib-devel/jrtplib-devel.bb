@@ -11,7 +11,11 @@ PV = "3.11.1"
 RPM_NAME = "jrtplib-devel-3.11.1-1.20.aarch64.rpm"
 RPM_HASH = "9fcaaff7460ba009419d435fb89f0bfd86203cdd0f2f2c2fa1eeba4e412461e419ee3008ce03b0babc9e4c885de5a2f0f690284548eba3342196d8b35b3846f9"
 
-RPROVIDES:${PN} += "cmake(JRTPLIB) jrtplib-devel jrtplib-devel(aarch-64) pkgconfig(jrtplib)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libjrtp3_11_1"
+RPROVIDES:${PN} += "cmake(JRTPLIB) \
+jrtplib-devel \
+jrtplib-devel(aarch-64) \
+pkgconfig(jrtplib)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libjrtp3_11_1"
 
 inherit rpm

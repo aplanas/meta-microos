@@ -17,7 +17,20 @@ RPM_NAME = "texlive-subfigure-2023.201.2.1.5svn15878-57.1.noarch.rpm"
 RPM_HASH = "a9598b7544e932a45ccca5319900e5a729194c349a785dc48d6721a5ae82848ac4966f31b5cc1f2498c237cad76fb271b903f8605d855082b19d5e0be924f78b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(subfigure.cfg) tex(subfigure.sty) texlive-subfigure"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(subfigure.cfg) \
+tex(subfigure.sty) \
+texlive-subfigure"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -20,7 +20,10 @@ RPM_NAME = "python310-AnyQt-0.2.0-1.3.noarch.rpm"
 RPM_HASH = "d8d9b53eeb48aca74be680b6bd9633dc7baa6c4b851c11a02ce414d91434b8196c875cb30e6830c601da7a620452b8100ddf30842c1dcff762c2e34d8a6c039e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-AnyQt python3.10dist(anyqt) python310-AnyQt python3dist(anyqt)"
+RPROVIDES:${PN} += "python3-AnyQt \
+python3.10dist(anyqt) \
+python310-AnyQt \
+python3dist(anyqt)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

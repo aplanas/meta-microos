@@ -17,6 +17,9 @@ RPM_HASH = "96ae83ebdb1ad4417fe328f8a4086f3c340ce201ce6ae45dfbc41c4a5dfabe708b68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoyast_xml_validator"
-RDEPENDS:${PN} += "/usr/bin/python3 jing libxml2-tools yast2-schema-collection"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+jing \
+libxml2-tools \
+yast2-schema-collection"
 
 inherit rpm

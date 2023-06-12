@@ -15,7 +15,12 @@ PV = "2.1.2"
 RPM_NAME = "libraw1394-11-2.1.2-1.11.aarch64.rpm"
 RPM_HASH = "198211be89632e10b8acb0369a74dec7d5752458db94fa6e2720d97e5a8afdc794929bc68d7945cbe6193915e65a825dbb9ba9a214cbfb16a8442d36116f933c"
 
-RPROVIDES:${PN} += "libraw1394-11 libraw1394-11(aarch-64) libraw1394.so.11()(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libraw1394-11 \
+libraw1394-11(aarch-64) \
+libraw1394.so.11()(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

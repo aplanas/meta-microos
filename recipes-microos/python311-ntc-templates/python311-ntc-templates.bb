@@ -8,7 +8,10 @@ RPM_NAME = "python311-ntc-templates-3.1.0-1.3.noarch.rpm"
 RPM_HASH = "88aaed0fb5853d9a897d5b44246ba3fb925fff67db44e4525d6680eed3c9484de0016c47d5c8ba54f8266e4dbae1bd979f62ec0879e2ec6d7940113ec123e9dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(ntc-templates) python311-ntc-templates python3dist(ntc-templates)"
-RDEPENDS:${PN} += "python(abi) python311-textfsm"
+RPROVIDES:${PN} += "python3.11dist(ntc-templates) \
+python311-ntc-templates \
+python3dist(ntc-templates)"
+RDEPENDS:${PN} += "python(abi) \
+python311-textfsm"
 
 inherit rpm

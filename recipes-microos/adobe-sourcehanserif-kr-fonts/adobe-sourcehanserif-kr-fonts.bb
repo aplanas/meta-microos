@@ -8,7 +8,9 @@ RPM_NAME = "adobe-sourcehanserif-kr-fonts-2.001-1.3.noarch.rpm"
 RPM_HASH = "94d888d3f38063f6a88b6111fbe4d91bd1754c21ee7454feaaff3781cdfb37fe46302af93e9b524eeb40c42d24120c09e9280d739cadc9ed71f077ce332295b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "adobe-sourcehanserif-kr-fonts locale(kr) scalable-font-kr"
+RPROVIDES:${PN} += "adobe-sourcehanserif-kr-fonts \
+locale(kr) \
+scalable-font-kr"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "179d239ad2b07a0bb91fcfd637b016beec45f2d530329ab6bab1dd175e8c1da7a143
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-fugitive"
-RDEPENDS:${PN} += "/bin/sh git-core"
+RDEPENDS:${PN} += "/bin/sh \
+git-core"
 
 inherit rpm

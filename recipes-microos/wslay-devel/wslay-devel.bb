@@ -15,7 +15,10 @@ PV = "1.1.1"
 RPM_NAME = "wslay-devel-1.1.1-2.8.aarch64.rpm"
 RPM_HASH = "933384480724ea9fb81d32c002f8d1a9ae73b64483a626c502b40f08077ba06ff96de3488be21a1284c4403a2444ad6a4a56a88f9e0131edce0998df39552d5c"
 
-RPROVIDES:${PN} += "pkgconfig(libwslay) wslay-devel wslay-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libwslay0"
+RPROVIDES:${PN} += "pkgconfig(libwslay) \
+wslay-devel \
+wslay-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libwslay0"
 
 inherit rpm

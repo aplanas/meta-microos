@@ -11,7 +11,13 @@ RPM_NAME = "python310-google-cloud-core-2.3.2-1.3.noarch.rpm"
 RPM_HASH = "763075d0f24c251e346bc11c9f4e369e3a2fe61ad63f9bbf940e3e9d13cc096ed78e9c161d9e910ca85b5ae255d7f7b52e51d6d1cd5787960955cbc0696311c9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-google-cloud-core python3.10dist(google-cloud-core) python310-google-cloud-core python3dist(google-cloud-core)"
-RDEPENDS:${PN} += "python(abi) python310-google-api-core python310-google-auth python310-six"
+RPROVIDES:${PN} += "python3-google-cloud-core \
+python3.10dist(google-cloud-core) \
+python310-google-cloud-core \
+python3dist(google-cloud-core)"
+RDEPENDS:${PN} += "python(abi) \
+python310-google-api-core \
+python310-google-auth \
+python310-six"
 
 inherit rpm

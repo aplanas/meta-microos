@@ -9,7 +9,12 @@ PV = "4.1"
 RPM_NAME = "libiniparser1-4.1-2.2.aarch64.rpm"
 RPM_HASH = "507e7307ada56054e3cb1cb6627bc16d6b8e21d9bd0643bf31112cbf0e488eb9573d640e6a7d1cb7d62be99583ca56b3c474d0836314b85910791217be4fc038"
 
-RPROVIDES:${PN} += "libiniparser.so.1()(64bit) libiniparser1 libiniparser1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libiniparser.so.1()(64bit) \
+libiniparser1 \
+libiniparser1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "0edea4786ae31fdd0a3d60d3046b9afe5e037bac4687b76642c376688b2a59623b51
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtnetworkauth-private-headers-devel"
-RDEPENDS:${PN} += "libQt5Core-private-headers-devel libqt5-qtnetworkauth-devel"
+RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
+libqt5-qtnetworkauth-devel"
 
 inherit rpm

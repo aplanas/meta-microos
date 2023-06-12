@@ -12,6 +12,7 @@ RPM_HASH = "da3e3ad3661b67ef842811b3bc5572942a24e5ed7ec000c1bb272a0bcd6988b84384
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scirenderer"
-RDEPENDS:${PN} += "java jpackage-utils"
+RDEPENDS:${PN} += "java \
+jpackage-utils"
 
 inherit rpm

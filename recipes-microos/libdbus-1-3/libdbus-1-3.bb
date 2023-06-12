@@ -12,7 +12,17 @@ PV = "1.14.6"
 RPM_NAME = "libdbus-1-3-1.14.6-2.3.aarch64.rpm"
 RPM_HASH = "82d4867973dec5d2e6dfe853fac3b733de030e6f9091cc10edbe11f86a5b57067f28efb69b91a331b480043dd975f4f6a94fcf325911f5e83166924883ed03c8"
 
-RPROVIDES:${PN} += "libdbus-1-3 libdbus-1-3(aarch-64) libdbus-1.so.3()(64bit) libdbus-1.so.3(LIBDBUS_1_3)(64bit) libdbus-1.so.3(LIBDBUS_PRIVATE_1.14.6)(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig dbus-1-common ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libsystemd.so.0()(64bit) libsystemd.so.0(LIBSYSTEMD_209)(64bit)"
+RPROVIDES:${PN} += "libdbus-1-3 \
+libdbus-1-3(aarch-64) \
+libdbus-1.so.3()(64bit) \
+libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
+libdbus-1.so.3(LIBDBUS_PRIVATE_1.14.6)(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+dbus-1-common \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libsystemd.so.0()(64bit) \
+libsystemd.so.0(LIBSYSTEMD_209)(64bit)"
 
 inherit rpm

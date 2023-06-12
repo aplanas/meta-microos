@@ -12,6 +12,7 @@ RPM_HASH = "b34693d8fd903da75135156e6c1b9c4d86a330dc31fa6921bddbf786517e4cb6e388
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-bqplot-jupyterlab"
-RDEPENDS:${PN} += "jupyter-bqplot-notebook jupyter-jupyterlab"
+RDEPENDS:${PN} += "jupyter-bqplot-notebook \
+jupyter-jupyterlab"
 
 inherit rpm

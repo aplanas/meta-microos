@@ -14,7 +14,21 @@ RPM_NAME = "texlive-12many-2023.201.0.0.3svn15878-54.1.noarch.rpm"
 RPM_HASH = "14257063d3c74f309312f45f0503932a0d9b1fd436437b7f1eb3bb8f0dcda0124aa770bca955c21c7baa6e8f3299430adb62eb596a478211cd6ac4a4e495ecd3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(12many.sty) texlive-12many"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(keyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(12many.sty) \
+texlive-12many"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(keyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -24,7 +24,8 @@ RPM_NAME = "perl-File-pushd-1.016-1.16.noarch.rpm"
 RPM_HASH = "ed7ebf4e27a86515ccb555981136fb421410c7b3a80b947e95b19c0e35b482b304a0e00b1c6ef353ee10479aeea2671930edfb764b31a91292daa502a1422be9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::pushd) perl-File-pushd"
+RPROVIDES:${PN} += "perl(File::pushd) \
+perl-File-pushd"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

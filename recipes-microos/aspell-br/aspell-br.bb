@@ -7,7 +7,9 @@ PV = "0.50.2"
 RPM_NAME = "aspell-br-0.50.2-2.14.aarch64.rpm"
 RPM_HASH = "73d24ff51e17487e59be4593fce061630926c53cc323a29e0123e4b8e4e3e1a40d095c7a8276c1cee2d4a24fa08abe2b94791b5c981ade7205459673dc43514c"
 
-RPROVIDES:${PN} += "aspell-br aspell-br(aarch-64) locale(aspell:br)"
+RPROVIDES:${PN} += "aspell-br \
+aspell-br(aarch-64) \
+locale(aspell:br)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

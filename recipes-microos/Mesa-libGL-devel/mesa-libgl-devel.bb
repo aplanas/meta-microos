@@ -12,7 +12,13 @@ PV = "23.0.3"
 RPM_NAME = "Mesa-libGL-devel-23.0.3-349.1.aarch64.rpm"
 RPM_HASH = "cc4b38f8c1769adf635146804ce3799c67fdcfd6428f7e14e13cee618631ffd61ec3b88346c27b2a35ec42b5552008d79e3dc11e24f571c9944ae5cc530ff319"
 
-RPROVIDES:${PN} += "Mesa-libGL-devel Mesa-libGL-devel(aarch-64) pkgconfig(gl)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config Mesa-KHR-devel Mesa-libGL1 libglvnd-devel pkgconfig(x11)"
+RPROVIDES:${PN} += "Mesa-libGL-devel \
+Mesa-libGL-devel(aarch-64) \
+pkgconfig(gl)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+Mesa-KHR-devel \
+Mesa-libGL1 \
+libglvnd-devel \
+pkgconfig(x11)"
 
 inherit rpm

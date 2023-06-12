@@ -14,7 +14,20 @@ RPM_NAME = "texlive-wordcount-2023.201.1.7svn46165-53.1.noarch.rpm"
 RPM_HASH = "67bbc7f0a7b6779a6eec57b1effa20fafb08a86f0e3a653cdbdf6caa8a409adc9646627920e02b88c48a53a01caabad4022d158ad64d7ead08744fb57b758cfd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(wordcount.tex) texlive-wordcount"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin texlive-wordcount-bin"
+RPROVIDES:${PN} += "tex(wordcount.tex) \
+texlive-wordcount"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-wordcount-bin"
 
 inherit rpm

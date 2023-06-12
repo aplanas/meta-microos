@@ -18,7 +18,12 @@ RPM_NAME = "python310-ldappool-3.0.0-3.3.noarch.rpm"
 RPM_HASH = "295ee889e329978ff50461020fda298ed7cc697f7c8d1f9f5217ab2805096eb65c539c36cad9476c50e395c95449488d157c6257db9a52b622ccd332ef9fcf3a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ldappool python3.10dist(ldappool) python310-ldappool python3dist(ldappool)"
-RDEPENDS:${PN} += "python(abi) python310-ldap python310-prettytable"
+RPROVIDES:${PN} += "python3-ldappool \
+python3.10dist(ldappool) \
+python310-ldappool \
+python3dist(ldappool)"
+RDEPENDS:${PN} += "python(abi) \
+python310-ldap \
+python310-prettytable"
 
 inherit rpm

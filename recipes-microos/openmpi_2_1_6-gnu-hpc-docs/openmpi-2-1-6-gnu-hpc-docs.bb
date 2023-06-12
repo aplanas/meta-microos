@@ -18,7 +18,8 @@ PV = "2.1.6"
 RPM_NAME = "openmpi_2_1_6-gnu-hpc-docs-2.1.6-14.3.aarch64.rpm"
 RPM_HASH = "66427493d5d595e732855d275fb03d948e27eb81174b1f56506ead916a6e66435635208337c43bbd63e5d2bb1d67700ed4037e0b1c84532ab1822ee988a63afb"
 
-RPROVIDES:${PN} += "openmpi_2_1_6-gnu-hpc-docs openmpi_2_1_6-gnu-hpc-docs(aarch-64)"
+RPROVIDES:${PN} += "openmpi_2_1_6-gnu-hpc-docs \
+openmpi_2_1_6-gnu-hpc-docs(aarch-64)"
 RDEPENDS:${PN} += "openmpi_2_1_6-gnu-hpc"
 
 inherit rpm

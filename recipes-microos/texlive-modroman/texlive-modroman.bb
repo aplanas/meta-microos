@@ -16,7 +16,21 @@ RPM_NAME = "texlive-modroman-2023.201.1svn29803-54.1.noarch.rpm"
 RPM_HASH = "a3f2e15ff20e45d95c7c0616451b12377d2474987d760d6214c3c605ed1d447a3e57bb61b0305818a7e2cc1aded4edb1980214336d30b7b0da15f7d5a74f03f2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(modroman.sty) texlive-modroman"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(etoolbox.sty) tex(ifthen.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(modroman.sty) \
+texlive-modroman"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(etoolbox.sty) \
+tex(ifthen.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

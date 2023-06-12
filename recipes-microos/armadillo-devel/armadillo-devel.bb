@@ -13,7 +13,15 @@ PV = "12.2.0"
 RPM_NAME = "armadillo-devel-12.2.0-1.1.aarch64.rpm"
 RPM_HASH = "b24ff9d78b40063846173f4c8b424df72e64e8a6192e0911e96b7abbca1a8c7eed93964f807e60d73c7e2f9465a09fe79929a397ae28fdd19908ed4ec3880cc6"
 
-RPROVIDES:${PN} += "armadillo-devel armadillo-devel(aarch-64) pkgconfig(armadillo)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config arpack-ng-devel blas-devel lapack-devel libarmadillo12 libstdc++-devel superlu-devel"
+RPROVIDES:${PN} += "armadillo-devel \
+armadillo-devel(aarch-64) \
+pkgconfig(armadillo)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+arpack-ng-devel \
+blas-devel \
+lapack-devel \
+libarmadillo12 \
+libstdc++-devel \
+superlu-devel"
 
 inherit rpm

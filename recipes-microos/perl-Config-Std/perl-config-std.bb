@@ -23,7 +23,15 @@ RPM_NAME = "perl-Config-Std-0.903-1.19.noarch.rpm"
 RPM_HASH = "49e0a542ce37e8760ad93c2ff6643c9391a71e3fb3d4a1f1e36c9f334fee4e53bb5aa2c8e2a786ad6b859b39158e25ec65351c5f7a8f9908ef8e9dc44f0a5026"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Config::Std) perl(Config::Std::Block) perl(Config::Std::Comment) perl(Config::Std::Gap) perl(Config::Std::Hash) perl(Config::Std::Keyval) perl-Config-Std"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Class::Std) perl(version)"
+RPROVIDES:${PN} += "perl(Config::Std) \
+perl(Config::Std::Block) \
+perl(Config::Std::Comment) \
+perl(Config::Std::Gap) \
+perl(Config::Std::Hash) \
+perl(Config::Std::Keyval) \
+perl-Config-Std"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Std) \
+perl(version)"
 
 inherit rpm

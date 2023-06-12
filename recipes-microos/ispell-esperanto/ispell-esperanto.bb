@@ -10,7 +10,10 @@ PV = "1.5"
 RPM_NAME = "ispell-esperanto-1.5-422.6.aarch64.rpm"
 RPM_HASH = "13cb4b19dcea9b8893aeeaac158763c3a876687936a1660584cb503431adf6a0fc367c788fc09c2d120373d5bb72a5a3e54ccdd3fc24a3ae58c30b06d0406b34"
 
-RPROVIDES:${PN} += "iesperan ispell-esperanto ispell-esperanto(aarch-64) ispell_dictionary"
+RPROVIDES:${PN} += "iesperan \
+ispell-esperanto \
+ispell-esperanto(aarch-64) \
+ispell_dictionary"
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -19,7 +19,12 @@ RPM_NAME = "pdfposter-0.8.1-1.1.noarch.rpm"
 RPM_HASH = "32315a750f563b71d1c916a23679975dec85805533cf8a508418d832b49155f29f240d404a61b9d6d8126f7b776de5644f28ddedfe08d8eba358a9b870c6ea57"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pdfposter python3.10dist(pdftools.pdfposter) python3dist(pdftools.pdfposter)"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-PyPDF2 python3-base"
+RPROVIDES:${PN} += "pdfposter \
+python3.10dist(pdftools.pdfposter) \
+python3dist(pdftools.pdfposter)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3-PyPDF2 \
+python3-base"
 
 inherit rpm

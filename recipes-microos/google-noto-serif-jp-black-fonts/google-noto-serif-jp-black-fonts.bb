@@ -10,7 +10,11 @@ RPM_NAME = "google-noto-serif-jp-black-fonts-2.001-2.3.noarch.rpm"
 RPM_HASH = "c89b758b7cf3276aacea2f972fb9091c7ca97232aee9c06f7ea3131a8ee9638a4ee8450cdaf10163f83fffb1729c6b851cc336a5556487d0e6e317f10be0f289"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "google-noto-serif-jp-black-fonts noto-serif-jp-black-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "google-noto-serif-jp-black-fonts \
+noto-serif-jp-black-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

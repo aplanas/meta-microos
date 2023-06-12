@@ -33,7 +33,13 @@ RPM_NAME = "iwatch-0.2.2-16.16.noarch.rpm"
 RPM_HASH = "97494564284f66f26012f94f48c193c61b63cdb4b3f6bf4a8be47b34d3dc805b53b51e68d74c0631999966a88afeb6f0c09a8ce1c41fc4639e76cfc1ed9739c6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(iwatch) iwatch"
-RDEPENDS:${PN} += "/usr/bin/perl perl-Event perl-Linux-Inotify2 perl-Mail-Sendmail perl-XML-LibXML perl-XML-SimpleObject-LibXML"
+RPROVIDES:${PN} += "config(iwatch) \
+iwatch"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl-Event \
+perl-Linux-Inotify2 \
+perl-Mail-Sendmail \
+perl-XML-LibXML \
+perl-XML-SimpleObject-LibXML"
 
 inherit rpm

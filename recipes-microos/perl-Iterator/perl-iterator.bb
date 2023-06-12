@@ -43,7 +43,9 @@ RPM_NAME = "perl-Iterator-0.03-14.26.noarch.rpm"
 RPM_HASH = "209a793c6a83eacd6190b8b6396f9fca0344e325c4e64fd708cf5e0d1df81320bdbb1d86e8885744df40762c502971ba6b523998cb31344a376a13c873e4ebd5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Iterator) perl-Iterator"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Exception::Class)"
+RPROVIDES:${PN} += "perl(Iterator) \
+perl-Iterator"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Exception::Class)"
 
 inherit rpm

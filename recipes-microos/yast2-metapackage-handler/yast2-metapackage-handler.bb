@@ -9,7 +9,17 @@ RPM_NAME = "yast2-metapackage-handler-4.6.0-1.1.noarch.rpm"
 RPM_HASH = "ade23d7aac6c4dacfc29c960cabc41a79eb865127ac93be1116577624b2eed8e65f42794751227b78ebcf9d93f919e68bd3a61fdc4f408768d786c4f8dace707"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(org.opensuse.yast.MetapackageHandler.desktop) mimehandler(text/x-suse-ymp) mimehandler(text/x-suse-ymu) yast2-metapackage-handler"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/xdg-su yast2 yast2-country-data yast2-packager yast2-ruby-bindings yast2-transfer"
+RPROVIDES:${PN} += "application() \
+application(org.opensuse.yast.MetapackageHandler.desktop) \
+mimehandler(text/x-suse-ymp) \
+mimehandler(text/x-suse-ymu) \
+yast2-metapackage-handler"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/xdg-su \
+yast2 \
+yast2-country-data \
+yast2-packager \
+yast2-ruby-bindings \
+yast2-transfer"
 
 inherit rpm

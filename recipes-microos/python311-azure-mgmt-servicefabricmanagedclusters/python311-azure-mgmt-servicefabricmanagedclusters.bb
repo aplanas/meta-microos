@@ -10,7 +10,14 @@ RPM_NAME = "python311-azure-mgmt-servicefabricmanagedclusters-1.0.0-2.2.noarch.r
 RPM_HASH = "66056838dc6591d212b0d51b688439a933d43352c6e6a035dc42681a81193de16010e160dde4cc3299d57da59e8d9d510e89810f2cf21cb137a49987794ee709"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-servicefabricmanagedclusters) python311-azure-mgmt-servicefabricmanagedclusters python3dist(azure-mgmt-servicefabricmanagedclusters)"
-RDEPENDS:${PN} += "python(abi) python311-azure-common python311-azure-mgmt-core python311-azure-mgmt-nspkg python311-azure-nspkg python311-msrest"
+RPROVIDES:${PN} += "python3.11dist(azure-mgmt-servicefabricmanagedclusters) \
+python311-azure-mgmt-servicefabricmanagedclusters \
+python3dist(azure-mgmt-servicefabricmanagedclusters)"
+RDEPENDS:${PN} += "python(abi) \
+python311-azure-common \
+python311-azure-mgmt-core \
+python311-azure-mgmt-nspkg \
+python311-azure-nspkg \
+python311-msrest"
 
 inherit rpm

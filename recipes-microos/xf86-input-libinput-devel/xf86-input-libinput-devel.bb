@@ -9,7 +9,10 @@ PV = "1.3.0"
 RPM_NAME = "xf86-input-libinput-devel-1.3.0-1.1.aarch64.rpm"
 RPM_HASH = "ac6b8d77339cac84e35ffdc537b0d87fba9965f46c2a512a404e19aa1be7acc76b47024c75736c7dbdce12672a014169029e61a58f9d9b76b5a6ab250124e7a5"
 
-RPROVIDES:${PN} += "pkgconfig(xorg-libinput) xf86-input-libinput-devel xf86-input-libinput-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config xf86-input-libinput"
+RPROVIDES:${PN} += "pkgconfig(xorg-libinput) \
+xf86-input-libinput-devel \
+xf86-input-libinput-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+xf86-input-libinput"
 
 inherit rpm

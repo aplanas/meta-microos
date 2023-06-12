@@ -23,7 +23,21 @@ RPM_NAME = "texlive-hepparticles-2023.201.2.0svn35723-53.1.noarch.rpm"
 RPM_HASH = "e5bff0973f6e07cbb5c467e90e85542a1780d1d7a3a38a820fa902193e59a738a5500144cb317ad02497dff6c10b5a40f881fb9815c75b3d819b7edfccd688a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hepparticles.sty) texlive-hepparticles"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsmath.sty) tex(subdepth.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(hepparticles.sty) \
+texlive-hepparticles"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsmath.sty) \
+tex(subdepth.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

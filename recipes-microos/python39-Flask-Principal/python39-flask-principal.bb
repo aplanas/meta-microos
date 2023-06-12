@@ -10,7 +10,11 @@ RPM_NAME = "python39-Flask-Principal-0.4.0-3.8.noarch.rpm"
 RPM_HASH = "a29938903a76d364995fb671868a81a71e6d72a6daca3be64f02e32bbfa7a34094ca0ad0593efdf6b16c5980ba0e8f3cae547cdf5c8b976e688b331698e0d9c6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(flask-principal) python39-Flask-Principal python3dist(flask-principal)"
-RDEPENDS:${PN} += "python(abi) python39-Flask python39-blinker"
+RPROVIDES:${PN} += "python3.9dist(flask-principal) \
+python39-Flask-Principal \
+python3dist(flask-principal)"
+RDEPENDS:${PN} += "python(abi) \
+python39-Flask \
+python39-blinker"
 
 inherit rpm

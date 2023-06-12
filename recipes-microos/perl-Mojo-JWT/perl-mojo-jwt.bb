@@ -18,7 +18,11 @@ RPM_NAME = "perl-Mojo-JWT-0.09-1.2.noarch.rpm"
 RPM_HASH = "d5ecbdfca7621e314f5f8321e4cc38ee2a85a6f0bd8a9b9f0238722a6468bdda24037db6a413e186bf4a5d408d50243c68a405336fa480a4348c5df356db67c0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mojo::JWT) perl-Mojo-JWT"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Digest::SHA) perl(MIME::Base64) perl(Mojolicious)"
+RPROVIDES:${PN} += "perl(Mojo::JWT) \
+perl-Mojo-JWT"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Digest::SHA) \
+perl(MIME::Base64) \
+perl(Mojolicious)"
 
 inherit rpm

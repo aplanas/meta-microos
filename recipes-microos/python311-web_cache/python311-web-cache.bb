@@ -11,7 +11,10 @@ RPM_NAME = "python311-web_cache-1.1.0-3.12.noarch.rpm"
 RPM_HASH = "b18e2a5c71e453ce35c08728079db0e183030cf7cbcfed8d3aa741e6648b60e28c70597d49d4d742fa4577b5573846ef127868f9036e20d44f30440564d586f4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(web-cache) python311-web_cache python3dist(web-cache)"
-RDEPENDS:${PN} += "python(abi) python311"
+RPROVIDES:${PN} += "python3.11dist(web-cache) \
+python311-web_cache \
+python3dist(web-cache)"
+RDEPENDS:${PN} += "python(abi) \
+python311"
 
 inherit rpm

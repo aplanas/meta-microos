@@ -22,7 +22,9 @@ RPM_NAME = "perl-JSON-4.10-1.2.noarch.rpm"
 RPM_HASH = "640e32d0b77667215cd2b1a15dec9468029f35e5155d7a884db49e3eebff02820531693bc1d38f756cecd651764bb9d2c9085328ea5e5983860d7958842500c6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(JSON) perl(JSON::Backend::PP) perl-JSON"
+RPROVIDES:${PN} += "perl(JSON) \
+perl(JSON::Backend::PP) \
+perl-JSON"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

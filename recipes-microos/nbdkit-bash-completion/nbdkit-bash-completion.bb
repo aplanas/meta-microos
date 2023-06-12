@@ -10,6 +10,7 @@ RPM_HASH = "a5c35dea7f78e12bb881f76b7dc54f21b9062dfb16b26bb22fcac30064bd8509087a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nbdkit-bash-completion"
-RDEPENDS:${PN} += "bash-completion nbdkit-server"
+RDEPENDS:${PN} += "bash-completion \
+nbdkit-server"
 
 inherit rpm

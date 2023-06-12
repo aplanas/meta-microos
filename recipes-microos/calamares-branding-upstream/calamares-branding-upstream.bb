@@ -11,7 +11,8 @@ RPM_NAME = "calamares-branding-upstream-3.2.36-1.20.noarch.rpm"
 RPM_HASH = "8a0a1a59bb386087306ce9af3ef18ee9c88552ed13a5090b0e32b5304cbe155481ec3181f379777371d353de63afcd8b3f394da0c6277fb694c6ee02c66c3360"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "calamares-branding calamares-branding-upstream"
+RPROVIDES:${PN} += "calamares-branding \
+calamares-branding-upstream"
 RDEPENDS:${PN} += "qt5qmlimport(QtQuick.2)"
 
 inherit rpm

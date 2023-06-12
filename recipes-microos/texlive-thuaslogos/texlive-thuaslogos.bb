@@ -10,7 +10,20 @@ RPM_NAME = "texlive-thuaslogos-2023.201.1.2svn51347-54.1.noarch.rpm"
 RPM_HASH = "31f798b8036731585a3bd692e96c1e7565eb3fe297c07e7fa5e7297ebe4db12d91b831345c0299efa6c5a5cebe6e681bcd86ac380eccead7c4e98009a95ec091"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(thuaslogos.sty) texlive-thuaslogos"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(pgf.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(thuaslogos.sty) \
+texlive-thuaslogos"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(pgf.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

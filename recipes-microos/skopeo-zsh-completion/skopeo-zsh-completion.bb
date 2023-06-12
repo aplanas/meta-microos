@@ -9,6 +9,7 @@ RPM_HASH = "838b93a387e74b1fe2e612e4e7261c607063b3c2036f122e446e834de2788a540c94
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skopeo-zsh-completion"
-RDEPENDS:${PN} += "skopeo zsh"
+RDEPENDS:${PN} += "skopeo \
+zsh"
 
 inherit rpm

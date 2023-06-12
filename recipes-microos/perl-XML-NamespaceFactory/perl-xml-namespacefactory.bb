@@ -23,7 +23,9 @@ RPM_NAME = "perl-XML-NamespaceFactory-1.02-1.26.noarch.rpm"
 RPM_HASH = "36c6ef73f929595908c4705877d13ecefbf3a56e83423c49b3d72a422f00f434d7c26d28192bf1f4f12ac1539f4dd60e8e4a04d5d133a3e9d5790d37016d147c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::NamespaceFactory) perl(XML::NamespaceFactory::TiedHash) perl-XML-NamespaceFactory"
+RPROVIDES:${PN} += "perl(XML::NamespaceFactory) \
+perl(XML::NamespaceFactory::TiedHash) \
+perl-XML-NamespaceFactory"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

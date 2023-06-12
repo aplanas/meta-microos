@@ -10,7 +10,8 @@ PV = "5.106.0"
 RPM_NAME = "kcoreaddons-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "f2e85eb57d81165cc7969cbb48ef3704709290b00e9d9abebd229741aa529acda621b04557437fd834f735722f13c3bcddcb8707f230ecdb0b8c1c7eb459a0bd"
 
-RPROVIDES:${PN} += "kcoreaddons kcoreaddons(aarch-64)"
+RPROVIDES:${PN} += "kcoreaddons \
+kcoreaddons(aarch-64)"
 RDEPENDS:${PN} += "shared-mime-info"
 
 inherit rpm

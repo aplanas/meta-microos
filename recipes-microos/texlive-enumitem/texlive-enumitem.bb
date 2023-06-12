@@ -14,7 +14,19 @@ RPM_NAME = "texlive-enumitem-2023.201.3.9svn51423-53.1.noarch.rpm"
 RPM_HASH = "ca007af82e936ad83bad381ec58ec3919fd251b82e2256b24d5c29cbc1316b70a567fe9c897794775e5a9c28093f250a8befa805cd1e6213c992e5cb2e1caf2b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(enumitem.sty) texlive-enumitem"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(enumitem.sty) \
+texlive-enumitem"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

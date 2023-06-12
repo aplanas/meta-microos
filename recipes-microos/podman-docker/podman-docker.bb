@@ -11,6 +11,7 @@ RPM_HASH = "b5a1e58fd133104b8a64d2cc467ce135255b1a4c7388a26009035e1fb7628d1c52d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "podman-docker"
-RDEPENDS:${PN} += "/bin/sh podman"
+RDEPENDS:${PN} += "/bin/sh \
+podman"
 
 inherit rpm

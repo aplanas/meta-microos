@@ -11,7 +11,20 @@ RPM_NAME = "texlive-bullcntr-2023.201.0.0.04svn15878-52.1.noarch.rpm"
 RPM_HASH = "0479674d36e06885b8be4b5394efbb708987b04cd87b061c8a793c6cc137a01d970d347787c21381eac33f226dc5cd30fcad46ed06ae947805c21035d566e0eb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bullcntr.sty) tex(bullenum.sty) texlive-bullcntr"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(bullcntr.sty) \
+tex(bullenum.sty) \
+texlive-bullcntr"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

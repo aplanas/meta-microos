@@ -12,7 +12,10 @@ RPM_NAME = "python311-clint-0.5.1-5.3.noarch.rpm"
 RPM_HASH = "3ed1402f8131b6270b1833781ec5abd7545cd36567f830940d3ce9d768146ea4d1aeceb0ef4c148048bdd1f0be51df2fa930ed07c5b844e7eb23a4074d96b3aa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(clint) python311-clint python3dist(clint)"
-RDEPENDS:${PN} += "python(abi) python311-args"
+RPROVIDES:${PN} += "python3.11dist(clint) \
+python311-clint \
+python3dist(clint)"
+RDEPENDS:${PN} += "python(abi) \
+python311-args"
 
 inherit rpm

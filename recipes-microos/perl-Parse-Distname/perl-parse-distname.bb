@@ -20,7 +20,8 @@ RPM_NAME = "perl-Parse-Distname-0.05-1.2.noarch.rpm"
 RPM_HASH = "c37e0927934abfc93d2fef48a24afe7d26546e50064a39d85f092ead009db357eeada010fb039af7cd44ac676024bc2d3948b7e2eddaa17f120133c9daa40f03"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Parse::Distname) perl-Parse-Distname"
+RPROVIDES:${PN} += "perl(Parse::Distname) \
+perl-Parse-Distname"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

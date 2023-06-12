@@ -14,7 +14,13 @@ RPM_NAME = "python39-argparse-manpage-4.1-1.1.noarch.rpm"
 RPM_HASH = "44e90367a30ca7b1562e591cce47d8ecc1ab21143baa531c47a37972b4b6c3e93d2aa58e4224aca8a2f785073a6ad8d42d106c50674077a43a7fd1852f991f90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(argparse-manpage) python39-argparse-manpage python3dist(argparse-manpage)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(argparse-manpage) \
+python39-argparse-manpage \
+python3dist(argparse-manpage)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-setuptools \
+update-alternatives"
 
 inherit rpm

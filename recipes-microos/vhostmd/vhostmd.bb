@@ -9,7 +9,22 @@ PV = "1.1"
 RPM_NAME = "vhostmd-1.1-5.6.aarch64.rpm"
 RPM_HASH = "2e6f258dd0448c0b41182ba534e3657073de3ce0d65d521ed617c6f557ad88e50bccf6959d673483e308d0a5de1afddc1dc4acb89b83241e3e0da707476f658e"
 
-RPROVIDES:${PN} += "config(vhostmd) vhostmd vhostmd(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libvirt.so.0()(64bit) libvirt.so.0(LIBVIRT_0.0.3)(64bit) libvirt.so.0(LIBVIRT_0.1.1)(64bit) libvirt.so.0(LIBVIRT_0.10.0)(64bit) libxml2.so.2()(64bit) libxml2.so.2(LIBXML2_2.4.30)(64bit) libxml2.so.2(LIBXML2_2.5.8)(64bit) libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+RPROVIDES:${PN} += "config(vhostmd) \
+vhostmd \
+vhostmd(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libvirt.so.0()(64bit) \
+libvirt.so.0(LIBVIRT_0.0.3)(64bit) \
+libvirt.so.0(LIBVIRT_0.1.1)(64bit) \
+libvirt.so.0(LIBVIRT_0.10.0)(64bit) \
+libxml2.so.2()(64bit) \
+libxml2.so.2(LIBXML2_2.4.30)(64bit) \
+libxml2.so.2(LIBXML2_2.5.8)(64bit) \
+libxml2.so.2(LIBXML2_2.6.0)(64bit)"
 
 inherit rpm

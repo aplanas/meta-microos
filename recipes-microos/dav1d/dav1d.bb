@@ -17,7 +17,13 @@ PV = "1.2.1"
 RPM_NAME = "dav1d-1.2.1-1.1.aarch64.rpm"
 RPM_HASH = "6047a8a686fda81bc606527beef080e0b723d3b68c6973be53b3e58f94b59b48da494f84c7e6a9c13bb46af03d0bcfd8d556b65f86ce3e78f5b7cae89e60ff2f"
 
-RPROVIDES:${PN} += "dav1d dav1d(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libdav1d.so.6()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "dav1d \
+dav1d(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libdav1d.so.6()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

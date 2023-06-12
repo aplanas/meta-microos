@@ -13,7 +13,12 @@ RPM_NAME = "python311-patatt-0.6.3-1.1.noarch.rpm"
 RPM_HASH = "b59c261dca5573313c5b404c21cc55451f0e5dcac05aaf828ae64b43171e21ec42812b1eb362e5d1e57b8903cda4462a6608061443c9742f6efe648d6078bac3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(patatt) python311-patatt python3dist(patatt)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(patatt) \
+python311-patatt \
+python3dist(patatt)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

@@ -11,6 +11,8 @@ RPM_HASH = "0704f71def86b8ef74eab28b89eb55381ba9d34b568f1bfeb71ad641575a260bf82d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-replace_using_package_version"
-RDEPENDS:${PN} += "/usr/bin/python3 python3-docopt python3-rpm"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3-docopt \
+python3-rpm"
 
 inherit rpm

@@ -18,7 +18,12 @@ PV = "0.25026"
 RPM_NAME = "perl-PkgConfig-0.25026-1.3.aarch64.rpm"
 RPM_HASH = "7401f837407c9779cc418cfadfff336aa3cb09d3829f3fda0d309649c605922f86df6be4b00779fc4c357eb3673f5daf21677803e51528939adb333d0898181e"
 
-RPROVIDES:${PN} += "perl(PkgConfig) perl(PkgConfig::Script) perl-PkgConfig perl-PkgConfig(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Test::More)"
+RPROVIDES:${PN} += "perl(PkgConfig) \
+perl(PkgConfig::Script) \
+perl-PkgConfig \
+perl-PkgConfig(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Test::More)"
 
 inherit rpm

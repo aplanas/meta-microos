@@ -17,7 +17,8 @@ RPM_NAME = "perl-HTTP-Tiny-0.082-1.2.noarch.rpm"
 RPM_HASH = "708bab69ad09660e908260976727b1b52e86ef1d22c01546acea8301d467ad4112f6b7dbaae8fc1ee4630b2247d944767d40ad7746a4bbfcce6b0907c3d010dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Tiny) perl-HTTP-Tiny"
+RPROVIDES:${PN} += "perl(HTTP::Tiny) \
+perl-HTTP-Tiny"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -25,7 +25,21 @@ RPM_NAME = "perl-WWW-Mechanize-2.17-1.1.noarch.rpm"
 RPM_HASH = "adb5f72859d24a492e540acb925638c89477357dee16d10b17af612c44402862d926ae0a0fd29e0cf048c686578ecdb3de910cb95f942c9532b87fce7cdb86af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(WWW::Mechanize) perl(WWW::Mechanize::Image) perl(WWW::Mechanize::Link) perl-WWW-Mechanize"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(HTML::Form) perl(HTML::HeadParser) perl(HTML::TokeParser) perl(HTML::TreeBuilder) perl(HTTP::Cookies) perl(HTTP::Request) perl(HTTP::Request::Common) perl(LWP::UserAgent) perl(URI::URL) perl(URI::file)"
+RPROVIDES:${PN} += "perl(WWW::Mechanize) \
+perl(WWW::Mechanize::Image) \
+perl(WWW::Mechanize::Link) \
+perl-WWW-Mechanize"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(HTML::Form) \
+perl(HTML::HeadParser) \
+perl(HTML::TokeParser) \
+perl(HTML::TreeBuilder) \
+perl(HTTP::Cookies) \
+perl(HTTP::Request) \
+perl(HTTP::Request::Common) \
+perl(LWP::UserAgent) \
+perl(URI::URL) \
+perl(URI::file)"
 
 inherit rpm

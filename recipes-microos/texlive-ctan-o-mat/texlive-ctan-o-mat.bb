@@ -21,6 +21,30 @@ RPM_HASH = "c49354aaa604cf20ef9314363692e05ee381569e941792c2aba5188d9fc9c87d235c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctan-o-mat"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Cwd) perl(Data::Dumper) perl(File::Basename) perl(FileHandle) perl(Getopt::Long) perl(HTTP::Request::Common) perl(LWP::Protocol::https) perl(LWP::UserAgent) perl(Pod::Text) perl(constant) perl(strict) sed texlive texlive-ctan-o-mat-bin texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Cwd) \
+perl(Data::Dumper) \
+perl(File::Basename) \
+perl(FileHandle) \
+perl(Getopt::Long) \
+perl(HTTP::Request::Common) \
+perl(LWP::Protocol::https) \
+perl(LWP::UserAgent) \
+perl(Pod::Text) \
+perl(constant) \
+perl(strict) \
+sed \
+texlive \
+texlive-ctan-o-mat-bin \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

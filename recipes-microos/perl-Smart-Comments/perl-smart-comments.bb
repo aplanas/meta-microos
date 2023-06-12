@@ -15,7 +15,8 @@ RPM_NAME = "perl-Smart-Comments-1.06-1.25.noarch.rpm"
 RPM_HASH = "31d6e6d9199b204e7019c58474f9b08ede44f28adef94be3f45a0140c2b779e7a5fc501f7cf975a0881de733409e16bb5f61bc0b3feac17b7b7cf55659f5e4ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Smart::Comments) perl-Smart-Comments"
+RPROVIDES:${PN} += "perl(Smart::Comments) \
+perl-Smart-Comments"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

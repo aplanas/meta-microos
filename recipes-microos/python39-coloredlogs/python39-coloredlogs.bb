@@ -14,7 +14,14 @@ RPM_NAME = "python39-coloredlogs-15.0.1-4.1.noarch.rpm"
 RPM_HASH = "33ad514dc4544f247de7a950ade69cf49bc25a637142820841728c7a00a8114cdd1076b1faf400849568780292544ca9e9cf530b45888957da97010bef69000a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(coloredlogs) python39-coloredlogs python3dist(coloredlogs)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-capturer python39-humanfriendly update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(coloredlogs) \
+python39-coloredlogs \
+python3dist(coloredlogs)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-capturer \
+python39-humanfriendly \
+update-alternatives"
 
 inherit rpm

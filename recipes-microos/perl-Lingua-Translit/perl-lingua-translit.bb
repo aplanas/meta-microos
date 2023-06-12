@@ -34,7 +34,10 @@ RPM_NAME = "perl-Lingua-Translit-0.29-1.4.noarch.rpm"
 RPM_HASH = "dda3a74d46409430568978291fd66257abb6d71af517baaeb091e0fb2c17fe059c449024f65b94c8dd61864a7f03099eb2a352b0a6c943d75dd2327eb05350af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Lingua::Translit) perl(Lingua::Translit::Tables) perl-Lingua-Translit"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Lingua::Translit) \
+perl(Lingua::Translit::Tables) \
+perl-Lingua-Translit"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

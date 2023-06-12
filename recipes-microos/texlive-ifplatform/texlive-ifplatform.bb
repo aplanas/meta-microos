@@ -15,7 +15,23 @@ RPM_NAME = "texlive-ifplatform-2023.201.0.0.4asvn45533-52.1.noarch.rpm"
 RPM_HASH = "3511b987b01854e1dae65fb6be79677de2bd937afac17fde8682feaedfa1ed5fcaf651b78c69c57cb819e8c5901d26dbdb7a321968fc2ba91daa7c6f022f13b1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ifplatform.sty) texlive-ifplatform"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(catchfile.sty) tex(ifluatex.sty) tex(pdftexcmds.sty) tex(shellesc.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(ifplatform.sty) \
+texlive-ifplatform"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(catchfile.sty) \
+tex(ifluatex.sty) \
+tex(pdftexcmds.sty) \
+tex(shellesc.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -10,6 +10,9 @@ RPM_HASH = "f05387082568e600e52564a52d93ba88ae3bb70573ab8842b2335d2120e174b6ddca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "babelstone-han-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "8b6d15f9c3ee7c5e50e099933e18c6aa41ba538412f7ce320bc5bb42d43c4cfcc575
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adios-gnu-openmpi2-hpc"
-RDEPENDS:${PN} += "/bin/sh adios_1_13_1-gnu-openmpi2-hpc"
+RDEPENDS:${PN} += "/bin/sh \
+adios_1_13_1-gnu-openmpi2-hpc"
 
 inherit rpm

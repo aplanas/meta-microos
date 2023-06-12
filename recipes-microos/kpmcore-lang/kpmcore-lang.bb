@@ -8,7 +8,61 @@ RPM_NAME = "kpmcore-lang-23.04.1-1.1.noarch.rpm"
 RPM_HASH = "0988b73b8d7a331a48834c733dfa8119e5cc9b81b8925ec4d67601e19141de9e82907f00eaabb6acc038440ae3724b8122bca0bb467a633a9dfc9365ed2771fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "kpmcore-lang kpmcore-lang-all locale(kpmcore:ar) locale(kpmcore:bg) locale(kpmcore:bs) locale(kpmcore:ca) locale(kpmcore:ca@valencia) locale(kpmcore:cs) locale(kpmcore:da) locale(kpmcore:de) locale(kpmcore:el) locale(kpmcore:en_GB) locale(kpmcore:eo) locale(kpmcore:es) locale(kpmcore:et) locale(kpmcore:eu) locale(kpmcore:fi) locale(kpmcore:fr) locale(kpmcore:ga) locale(kpmcore:gl) locale(kpmcore:hr) locale(kpmcore:hu) locale(kpmcore:id) locale(kpmcore:is) locale(kpmcore:it) locale(kpmcore:ja) locale(kpmcore:ka) locale(kpmcore:ko) locale(kpmcore:lt) locale(kpmcore:lv) locale(kpmcore:mai) locale(kpmcore:mr) locale(kpmcore:nb) locale(kpmcore:nds) locale(kpmcore:nl) locale(kpmcore:nn) locale(kpmcore:pa) locale(kpmcore:pl) locale(kpmcore:pt) locale(kpmcore:pt_BR) locale(kpmcore:ro) locale(kpmcore:ru) locale(kpmcore:sk) locale(kpmcore:sl) locale(kpmcore:sr) locale(kpmcore:sr@ijekavian) locale(kpmcore:sr@ijekavianlatin) locale(kpmcore:sr@latin) locale(kpmcore:sv) locale(kpmcore:th) locale(kpmcore:tr) locale(kpmcore:ug) locale(kpmcore:uk) locale(kpmcore:zh_CN) locale(kpmcore:zh_TW)"
+RPROVIDES:${PN} += "kpmcore-lang \
+kpmcore-lang-all \
+locale(kpmcore:ar) \
+locale(kpmcore:bg) \
+locale(kpmcore:bs) \
+locale(kpmcore:ca) \
+locale(kpmcore:ca@valencia) \
+locale(kpmcore:cs) \
+locale(kpmcore:da) \
+locale(kpmcore:de) \
+locale(kpmcore:el) \
+locale(kpmcore:en_GB) \
+locale(kpmcore:eo) \
+locale(kpmcore:es) \
+locale(kpmcore:et) \
+locale(kpmcore:eu) \
+locale(kpmcore:fi) \
+locale(kpmcore:fr) \
+locale(kpmcore:ga) \
+locale(kpmcore:gl) \
+locale(kpmcore:hr) \
+locale(kpmcore:hu) \
+locale(kpmcore:id) \
+locale(kpmcore:is) \
+locale(kpmcore:it) \
+locale(kpmcore:ja) \
+locale(kpmcore:ka) \
+locale(kpmcore:ko) \
+locale(kpmcore:lt) \
+locale(kpmcore:lv) \
+locale(kpmcore:mai) \
+locale(kpmcore:mr) \
+locale(kpmcore:nb) \
+locale(kpmcore:nds) \
+locale(kpmcore:nl) \
+locale(kpmcore:nn) \
+locale(kpmcore:pa) \
+locale(kpmcore:pl) \
+locale(kpmcore:pt) \
+locale(kpmcore:pt_BR) \
+locale(kpmcore:ro) \
+locale(kpmcore:ru) \
+locale(kpmcore:sk) \
+locale(kpmcore:sl) \
+locale(kpmcore:sr) \
+locale(kpmcore:sr@ijekavian) \
+locale(kpmcore:sr@ijekavianlatin) \
+locale(kpmcore:sr@latin) \
+locale(kpmcore:sv) \
+locale(kpmcore:th) \
+locale(kpmcore:tr) \
+locale(kpmcore:ug) \
+locale(kpmcore:uk) \
+locale(kpmcore:zh_CN) \
+locale(kpmcore:zh_TW)"
 RDEPENDS:${PN} += "kpmcore"
 
 inherit rpm

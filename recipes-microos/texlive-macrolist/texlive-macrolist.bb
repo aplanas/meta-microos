@@ -14,7 +14,20 @@ RPM_NAME = "texlive-macrolist-2023.201.2.1.0svn60139-52.1.noarch.rpm"
 RPM_HASH = "2087fea393d0aace5aeb85bf9e6adf72cdf242e68ea98e118dbf57c8e14f93968281a28702055a47171b64d42c540ef98956932d1722ee0217c2a14151844b1c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(macrolist.sty) texlive-macrolist"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(pgffor.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(macrolist.sty) \
+texlive-macrolist"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(pgffor.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

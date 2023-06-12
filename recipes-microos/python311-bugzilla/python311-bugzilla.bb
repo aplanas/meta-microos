@@ -13,7 +13,13 @@ RPM_NAME = "python311-bugzilla-3.2.0-1.4.noarch.rpm"
 RPM_HASH = "404bccde3adf0c87e182977351696b064c6965acf665c10b70e89ac49df19020b6dd9b8cbe583e52d113e101ac06fc1b6a31f1a9cba2ce43da08cf0b9834ad18"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(python-bugzilla) python311-bugzilla python3dist(python-bugzilla)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-requests update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(python-bugzilla) \
+python311-bugzilla \
+python3dist(python-bugzilla)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-requests \
+update-alternatives"
 
 inherit rpm

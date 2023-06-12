@@ -11,7 +11,10 @@ RPM_NAME = "python310-kafka-python-2.0.2-4.1.noarch.rpm"
 RPM_HASH = "b837b9bfb698db356106c47fdfe10d1cc13077068beaef9a76a722e299fbc723fcd7d5b3951a40b836249920fec2e0b62e649dcc837eac3ddb92fcbc515d2819"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-kafka-python python3.10dist(kafka-python) python310-kafka-python python3dist(kafka-python)"
+RPROVIDES:${PN} += "python3-kafka-python \
+python3.10dist(kafka-python) \
+python310-kafka-python \
+python3dist(kafka-python)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

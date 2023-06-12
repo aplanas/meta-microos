@@ -38,7 +38,13 @@ RPM_NAME = "python310-wfuzz-3.1.0-3.3.noarch.rpm"
 RPM_HASH = "350587adf7cc93d9bce373eaa78d218a536ef6fe00dfe4da3b56a9cb06ed7cb33f002fb383f047c026b9568d4dda6b24a0d2b199a14b442d1ca07d24757d0484"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wfuzz python3.10dist(wfuzz) python310-wfuzz python3dist(wfuzz)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3-wfuzz \
+python3.10dist(wfuzz) \
+python310-wfuzz \
+python3dist(wfuzz)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

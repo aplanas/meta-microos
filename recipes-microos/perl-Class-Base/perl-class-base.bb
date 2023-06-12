@@ -79,7 +79,9 @@ RPM_NAME = "perl-Class-Base-0.09-1.19.noarch.rpm"
 RPM_HASH = "14268091856e47e4987e3abfb8f931ce28920fb0af38ef14dfaa7d2ddb5e8adef28dde57ad2fcd78f6e0be38403164eeb1d0b7829d2b6c269a7f2caae7f7d5e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Base) perl-Class-Base"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Clone)"
+RPROVIDES:${PN} += "perl(Class::Base) \
+perl-Class-Base"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Clone)"
 
 inherit rpm

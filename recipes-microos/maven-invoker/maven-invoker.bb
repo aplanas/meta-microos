@@ -16,7 +16,12 @@ RPM_NAME = "maven-invoker-3.1.0-2.3.noarch.rpm"
 RPM_HASH = "d5ad747e95eee91973a0bd083fc555d752c558e50aab1c8e09436f436d4d1df9856571eb882bd86cc614ad528e02340ec7ac5e322a7a4321a592c9150a4cbf40"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "maven-invoker mvn(org.apache.maven.shared:maven-invoker) mvn(org.apache.maven.shared:maven-invoker:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(org.apache.maven.shared:maven-shared-utils) mvn(org.eclipse.sisu:org.eclipse.sisu.inject)"
+RPROVIDES:${PN} += "maven-invoker \
+mvn(org.apache.maven.shared:maven-invoker) \
+mvn(org.apache.maven.shared:maven-invoker:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(org.apache.maven.shared:maven-shared-utils) \
+mvn(org.eclipse.sisu:org.eclipse.sisu.inject)"
 
 inherit rpm

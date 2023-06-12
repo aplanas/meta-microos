@@ -10,7 +10,14 @@ PV = "1.7.2"
 RPM_NAME = "libopenobex2-1.7.2-3.4.aarch64.rpm"
 RPM_HASH = "d46475d8cdc39e4cf9986eb3ef1e559ffeae836ece7a9671418e7e9ed0b689a43db086c4427ebef5a1ce3781b7848f97a34f1d076efb4dc20fa1e03247d75107"
 
-RPROVIDES:${PN} += "libopenobex.so.2()(64bit) libopenobex2 libopenobex2(aarch-64) openobex"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libusb-1.0.so.0()(64bit)"
+RPROVIDES:${PN} += "libopenobex.so.2()(64bit) \
+libopenobex2 \
+libopenobex2(aarch-64) \
+openobex"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libusb-1.0.so.0()(64bit)"
 
 inherit rpm

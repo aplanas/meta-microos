@@ -18,7 +18,24 @@ RPM_NAME = "texlive-gamebooklib-2023.201.1.3svn63424-52.1.noarch.rpm"
 RPM_HASH = "293f711b92bace527d7b55debc257355014a8a71ee5dceb65bf49ce39d4053f4b66c3c80a68e1ede46e7866b52934708a7723bbf5ca84f2ba9b51511687ac5e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gamebooklib.sty) texlive-gamebooklib"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(environ.sty) tex(ifthen.sty) tex(lcg.sty) tex(macroswap.sty) tex(silence.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(gamebooklib.sty) \
+texlive-gamebooklib"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(environ.sty) \
+tex(ifthen.sty) \
+tex(lcg.sty) \
+tex(macroswap.sty) \
+tex(silence.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

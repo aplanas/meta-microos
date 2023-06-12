@@ -11,7 +11,9 @@ RPM_NAME = "python39-Pyphen-0.10.0-1.10.noarch.rpm"
 RPM_HASH = "88a14fac96e250310d86b3030cdcf9f820018facb80593f4d4289f0fbebd7eb5fcc1f914646733d2c64e936caba02774d52654a23c9c7fb62343bcbee860f69d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pyphen) python39-Pyphen python3dist(pyphen)"
+RPROVIDES:${PN} += "python3.9dist(pyphen) \
+python39-Pyphen \
+python3dist(pyphen)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

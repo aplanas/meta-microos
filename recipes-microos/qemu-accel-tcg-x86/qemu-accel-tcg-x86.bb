@@ -10,7 +10,10 @@ PV = "8.0.2"
 RPM_NAME = "qemu-accel-tcg-x86-8.0.2-1.1.aarch64.rpm"
 RPM_HASH = "c46756ae67fc3b899015cab7ef951ed6abdf329a186591ec1bf478eead4e6166bcc87b87fe408d6720e3cc7b82deef91267d257f502dc03d40d063bb968dd791"
 
-RPROVIDES:${PN} += "qemu-accel-tcg-x86 qemu-accel-tcg-x86(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "qemu-accel-tcg-x86 \
+qemu-accel-tcg-x86(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

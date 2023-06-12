@@ -10,6 +10,8 @@ RPM_HASH = "b0d119e167e21328c2b58c90826f7d0d3cc95c4bdafeae218bd61d92d0b4414cd155
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-secs1d"
-RDEPENDS:${PN} += "/bin/sh octave-cli octave-forge-bim"
+RDEPENDS:${PN} += "/bin/sh \
+octave-cli \
+octave-forge-bim"
 
 inherit rpm

@@ -63,7 +63,8 @@ RPM_NAME = "perl-CPAN-DistnameInfo-0.12-13.26.noarch.rpm"
 RPM_HASH = "0100bcba7cafffb63d18339b263ff87e34eba529c0bab6548c87feb8617838b36fa028e633ca736e0547afd06ce81c675060320f86cf7f640a0aed1dbaafa1d6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(CPAN::DistnameInfo) perl-CPAN-DistnameInfo"
+RPROVIDES:${PN} += "perl(CPAN::DistnameInfo) \
+perl-CPAN-DistnameInfo"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

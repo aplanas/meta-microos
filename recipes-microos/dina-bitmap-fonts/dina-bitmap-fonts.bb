@@ -11,6 +11,9 @@ RPM_HASH = "a478db2f574b8977f71ab26884536d255748f14b2368e45b751fdee6f31ad952e8bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dina-bitmap-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

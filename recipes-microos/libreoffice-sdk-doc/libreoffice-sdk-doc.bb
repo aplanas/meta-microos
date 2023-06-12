@@ -8,7 +8,9 @@ PV = "7.5.4.1"
 RPM_NAME = "libreoffice-sdk-doc-7.5.4.1-1.1.aarch64.rpm"
 RPM_HASH = "d17d4060730c5749f1ce22ae0d7582b54720b8439ac6ecd011bb1adc83d56b01d877301e28f276a1a5f25f2b675605aeb93c754fd04939c77d01586e44166187"
 
-RPROVIDES:${PN} += "libreoffice-sdk-doc libreoffice-sdk-doc(aarch-64) libreoffice-ure-devel-doc"
+RPROVIDES:${PN} += "libreoffice-sdk-doc \
+libreoffice-sdk-doc(aarch-64) \
+libreoffice-ure-devel-doc"
 RDEPENDS:${PN} += ""
 
 inherit rpm

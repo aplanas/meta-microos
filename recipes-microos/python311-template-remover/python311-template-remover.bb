@@ -12,7 +12,13 @@ RPM_NAME = "python311-template-remover-0.1.9-3.17.noarch.rpm"
 RPM_HASH = "315d9ff0b027ac313c570ea4a55d5f0032ae89b042c21ce35a99cc21aad13c4ed3ab331b7eb2e25071c55b099ddf620685506f7bb945e12f68d3c3290a06f84f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(template-remover) python311-template-remover python3dist(template-remover)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-docopt update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(template-remover) \
+python311-template-remover \
+python3dist(template-remover)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-docopt \
+update-alternatives"
 
 inherit rpm

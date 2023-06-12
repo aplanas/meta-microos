@@ -50,7 +50,19 @@ RPM_NAME = "gdouros-text-fonts-8.01-1.14.noarch.rpm"
 RPM_HASH = "9423e62b56c853ac82227e3755ffdb9aa8fe9b85b585c54bea258cff277a8a1fef5dbb6188080926cbb33aeda3de0f3887c6b571cd2d4fb1a3041d6b8b13feb4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "alexander-fonts anaktoria-fonts aroania-fonts avdira-fonts gdouros-alexander-fonts gdouros-anaktoria-fonts gdouros-aroania-fonts gdouros-asea-fonts gdouros-avdira-fonts gdouros-text-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "alexander-fonts \
+anaktoria-fonts \
+aroania-fonts \
+avdira-fonts \
+gdouros-alexander-fonts \
+gdouros-anaktoria-fonts \
+gdouros-aroania-fonts \
+gdouros-asea-fonts \
+gdouros-avdira-fonts \
+gdouros-text-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

@@ -11,7 +11,9 @@ PV = "1.2.1"
 RPM_NAME = "rekor-1.2.1-1.1.aarch64.rpm"
 RPM_HASH = "ada248a7834dcabc0f79403d9e3f7c4d0fc64baa14883c0827551248c7d52de51569d9af3f024c25d0b1fb60233e98abaf145d15c70270836a3ee04cb999eab6"
 
-RPROVIDES:${PN} += "rekor rekor(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "rekor \
+rekor(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

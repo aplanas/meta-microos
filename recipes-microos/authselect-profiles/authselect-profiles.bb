@@ -10,6 +10,13 @@ RPM_HASH = "176a7cb19afb41b278cd41c5fef1834902cc76ed122dfbf887eb064b9294a1668da8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "authselect-profiles"
-RDEPENDS:${PN} += "/bin/sh coreutils findutils gawk grep pam sed systemd"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+findutils \
+gawk \
+grep \
+pam \
+sed \
+systemd"
 
 inherit rpm

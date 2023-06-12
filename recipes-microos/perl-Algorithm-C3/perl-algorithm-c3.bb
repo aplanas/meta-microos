@@ -16,7 +16,8 @@ RPM_NAME = "perl-Algorithm-C3-0.11-1.11.noarch.rpm"
 RPM_HASH = "1cb26b229a14460377d853853058b2ec96fdb108b629fb0b5cce1a4e12c0d96ac3ebde130e5010d96f8953794ec51927101347b782f9c5b1e0f18f24ff7bdbe8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Algorithm::C3) perl-Algorithm-C3"
+RPROVIDES:${PN} += "perl(Algorithm::C3) \
+perl-Algorithm-C3"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

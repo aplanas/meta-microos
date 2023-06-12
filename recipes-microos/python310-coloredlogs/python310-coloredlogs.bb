@@ -14,7 +14,15 @@ RPM_NAME = "python310-coloredlogs-15.0.1-4.1.noarch.rpm"
 RPM_HASH = "bea36f6791fcf544e25ea9430b06ef7b6c5391accb782cf41a23e43405c67f52bd16c05d20ffd7deb8b9e40e8e66fda4884fba6419eec2aeae519ffd7ff26543"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-coloredlogs python3.10dist(coloredlogs) python310-coloredlogs python3dist(coloredlogs)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-capturer python310-humanfriendly update-alternatives"
+RPROVIDES:${PN} += "python3-coloredlogs \
+python3.10dist(coloredlogs) \
+python310-coloredlogs \
+python3dist(coloredlogs)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-capturer \
+python310-humanfriendly \
+update-alternatives"
 
 inherit rpm

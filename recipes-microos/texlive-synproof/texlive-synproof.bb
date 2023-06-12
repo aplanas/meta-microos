@@ -12,7 +12,23 @@ RPM_NAME = "texlive-synproof-2023.201.1.0svn15878-57.1.noarch.rpm"
 RPM_HASH = "fbd5a042b3a780477df1213d4123861d63315a28dd020be48326c2239a5e402a58fe500aef595f49e25a9cf5ae0f4b588fe6355638d3909a550071dc55b564ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(synproof.sty) texlive-synproof"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifthen.sty) tex(keyval.sty) tex(pst-node.sty) tex(pstricks.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(synproof.sty) \
+texlive-synproof"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifthen.sty) \
+tex(keyval.sty) \
+tex(pst-node.sty) \
+tex(pstricks.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

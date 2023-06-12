@@ -15,7 +15,22 @@ RPM_NAME = "texlive-biblatex-opcit-booktitle-2023.201.1.9.0svn48983-53.1.noarch.
 RPM_HASH = "b9208e82b108326766b5b1676ab057822c06c8c0e40a256f4b43c565d91ade3d1112b85327d9bf720cc4137f59efc5ec5b178806ebd0282d6ae3cb1d08fc9ed1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(biblatex-opcit-booktitle.sty) texlive-biblatex-opcit-booktitle"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ltxcmds.sty) tex(xkeyval.sty) tex(xpatch.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(biblatex-opcit-booktitle.sty) \
+texlive-biblatex-opcit-booktitle"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ltxcmds.sty) \
+tex(xkeyval.sty) \
+tex(xpatch.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

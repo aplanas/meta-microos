@@ -37,7 +37,17 @@ RPM_NAME = "perl-Task-Kensho-Testing-0.41-1.9.noarch.rpm"
 RPM_HASH = "1f2f2403abc1a2af26a8865bab16fcd41b4007ad679109d61e5ca047e57949d55b4ca6159abdea3bccecf273b08f74bc5b0bddaecd5413087b3047d95369459d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Task::Kensho::Testing) perl-Task-Kensho-Testing"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Devel::Cover) perl(Test2::Suite) perl(Test::Deep) perl(Test::Fatal) perl(Test::Memory::Cycle) perl(Test::Pod) perl(Test::Pod::Coverage) perl(Test::Requires) perl(Test::Warnings)"
+RPROVIDES:${PN} += "perl(Task::Kensho::Testing) \
+perl-Task-Kensho-Testing"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Devel::Cover) \
+perl(Test2::Suite) \
+perl(Test::Deep) \
+perl(Test::Fatal) \
+perl(Test::Memory::Cycle) \
+perl(Test::Pod) \
+perl(Test::Pod::Coverage) \
+perl(Test::Requires) \
+perl(Test::Warnings)"
 
 inherit rpm

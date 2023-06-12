@@ -14,7 +14,9 @@ RPM_NAME = "spirv-headers-1.6.1+sdk250-1.1.noarch.rpm"
 RPM_HASH = "fe0f4dd347b3c8731112f5da81775732d10a3d149cb011a9120c92e20a59dd35fe0c60dbd0824ff11f182c92765b2435f81b908033d5f432ac1cefd645a5bfa2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "cmake(SPIRV-Headers) pkgconfig(SPIRV-Headers) spirv-headers"
+RPROVIDES:${PN} += "cmake(SPIRV-Headers) \
+pkgconfig(SPIRV-Headers) \
+spirv-headers"
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

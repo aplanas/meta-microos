@@ -12,7 +12,22 @@ RPM_NAME = "texlive-pmxchords-2023.201.2.0.2svn39249-52.1.noarch.rpm"
 RPM_HASH = "b97431b89a312193a358b5661d3ff6eb5f0bdf66cbfae62211fc75470d664e24873bc7e6751f8e77463a405fea897f9b474fa90e0061f1493b081ad6430ba29c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(chords.tex) tex(chordsCZ.tex) texlive-pmxchords"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/texlua coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-pmxchords-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(chords.tex) \
+tex(chordsCZ.tex) \
+texlive-pmxchords"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/texlua \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-pmxchords-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

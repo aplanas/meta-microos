@@ -14,7 +14,14 @@ RPM_NAME = "openafs-kernel-source-1.8.9-4.1.noarch.rpm"
 RPM_HASH = "9f8c46b99ea8c8bb7a632e331dcb2138513f9be9bf09a2c9a9c41bb38cda958b171194593f962318a67366723106dfd6fabd23ce18e61b70d2caedfd9cdc96fd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "openafs-kernel openafs-kernel-source"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/perl bison flex gcc kernel-devel"
+RPROVIDES:${PN} += "openafs-kernel \
+openafs-kernel-source"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/perl \
+bison \
+flex \
+gcc \
+kernel-devel"
 
 inherit rpm

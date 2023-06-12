@@ -9,7 +9,12 @@ PV = "2023.01.19"
 RPM_NAME = "libUsageEnvironment3-2023.01.19-1.4.aarch64.rpm"
 RPM_HASH = "e59b95828fff59de9c4b20e2364fef4be43d513dc2dc1de6510416e3834d74f6de789ec26221028193a58eee68de9ba9a3e0133a96fc269c3b7ceee3b7521b92"
 
-RPROVIDES:${PN} += "libUsageEnvironment.so.3()(64bit) libUsageEnvironment3 libUsageEnvironment3(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libUsageEnvironment.so.3()(64bit) \
+libUsageEnvironment3 \
+libUsageEnvironment3(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

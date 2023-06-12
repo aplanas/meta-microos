@@ -12,7 +12,21 @@ RPM_NAME = "texlive-familytree-2023.201.3.1svn63739-52.1.noarch.rpm"
 RPM_HASH = "4b478f85c4898b654f45d3aee86ca2476526add19243c810d53203c27506cf535c6fd9942c3496a9b761b5561c34761cd5c623a5f84f1e9ee1c79a81dadc4229"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(familytree.sty) texlive-familytree"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(relsize.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(familytree.sty) \
+texlive-familytree"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(relsize.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

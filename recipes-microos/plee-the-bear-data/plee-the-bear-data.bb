@@ -12,7 +12,9 @@ RPM_NAME = "plee-the-bear-data-0.7.1-2.23.noarch.rpm"
 RPM_HASH = "ed4eb507a64625792ad548966c64a93aceceba431973d3ab1352f38b9941167352634e2815d87afd9c2dc2e0bb0b50713da8d777cf7ddbe69c33798f07efaaab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "cmake(bear) plee-the-bear-data"
-RDEPENDS:${PN} += "/bin/bash plee-the-bear"
+RPROVIDES:${PN} += "cmake(bear) \
+plee-the-bear-data"
+RDEPENDS:${PN} += "/bin/bash \
+plee-the-bear"
 
 inherit rpm

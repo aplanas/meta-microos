@@ -31,7 +31,13 @@ RPM_NAME = "perl-Sysadm-Install-0.48-1.23.noarch.rpm"
 RPM_HASH = "b37755d0245e1b35d3345d168526ddc3baf4e2152e4f9a2a5482f5b65e27503dbe8d85d00c9728e4d32f521a370a8ebd6abb0bef2d9059b2c322031880542602"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Sysadm::Install) perl-Sysadm-Install"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(File::Which) perl(LWP::Simple) perl(Log::Log4perl) perl(Term::ReadKey)"
+RPROVIDES:${PN} += "perl(Sysadm::Install) \
+perl-Sysadm-Install"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(File::Which) \
+perl(LWP::Simple) \
+perl(Log::Log4perl) \
+perl(Term::ReadKey)"
 
 inherit rpm

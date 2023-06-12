@@ -16,7 +16,14 @@ RPM_NAME = "read-only-root-fs-1.0+git20220808.cd59f4f-1.3.noarch.rpm"
 RPM_HASH = "dd2da80364ac5bc4719907c46622747b08dede016facf71b760eb3fa8d2017d2f20a1e0b58f3c1b0f87e1e5e362b094405bc0d7fa8a2f875a7c9419dd81063ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(read-only-root-fs) read-only-root-fs"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/cat /usr/bin/mkdir /usr/bin/sed dracut gawk snapper"
+RPROVIDES:${PN} += "config(read-only-root-fs) \
+read-only-root-fs"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/cat \
+/usr/bin/mkdir \
+/usr/bin/sed \
+dracut \
+gawk \
+snapper"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "13cb68e20606ffdaf94e243f9ee947dda7bdf332ae731559905b3d1a7ac4f0a9b3f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtwayland-private-headers-devel"
-RDEPENDS:${PN} += "libqt5-qtbase-private-headers-devel libqt5-qtwayland-devel"
+RDEPENDS:${PN} += "libqt5-qtbase-private-headers-devel \
+libqt5-qtwayland-devel"
 
 inherit rpm

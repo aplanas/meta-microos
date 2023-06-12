@@ -26,7 +26,10 @@ RPM_NAME = "perl-Meta-Builder-0.004-1.17.noarch.rpm"
 RPM_HASH = "121afcfa9c81282169a8a15b58e39e76694444c58b55831f2289feb508c1bcb28d911eef3a9a5bbf23f117c8ea1e0f4b33ba01b024646c865a9cef63ab90ab18"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Meta::Builder) perl(Meta::Builder::Base) perl(Meta::Builder::Util) perl-Meta-Builder"
+RPROVIDES:${PN} += "perl(Meta::Builder) \
+perl(Meta::Builder::Base) \
+perl(Meta::Builder::Util) \
+perl-Meta-Builder"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

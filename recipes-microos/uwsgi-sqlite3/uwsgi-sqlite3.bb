@@ -10,7 +10,12 @@ PV = "2.0.21"
 RPM_NAME = "uwsgi-sqlite3-2.0.21-2.1.aarch64.rpm"
 RPM_HASH = "020107eece2eb349a0b83bfe7335b40f9bf64604207714784ae15d6f3e64a7152e16014fc8eb1c60b4023d752803ef112bec3fe0521a8490f6399990546f4bde"
 
-RPROVIDES:${PN} += "uwsgi-sqlite3 uwsgi-sqlite3(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libsqlite3.so.0()(64bit) uwsgi"
+RPROVIDES:${PN} += "uwsgi-sqlite3 \
+uwsgi-sqlite3(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libsqlite3.so.0()(64bit) \
+uwsgi"
 
 inherit rpm

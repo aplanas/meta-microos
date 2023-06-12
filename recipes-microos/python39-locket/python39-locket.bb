@@ -23,7 +23,9 @@ RPM_NAME = "python39-locket-1.0.0-1.4.noarch.rpm"
 RPM_HASH = "23c0165741dfa61a7d01fad080e960804828a5b7a585ee3fde8973007ab28383bd64d05cb24a9b551e0a017696a2f435000035221fe83788ac8fe270b29bd776"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(locket) python39-locket python3dist(locket)"
+RPROVIDES:${PN} += "python3.9dist(locket) \
+python39-locket \
+python3dist(locket)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

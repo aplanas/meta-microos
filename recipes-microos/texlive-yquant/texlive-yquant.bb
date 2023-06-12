@@ -17,7 +17,35 @@ RPM_NAME = "texlive-yquant-2023.201.0.0.7.3svn65933-52.1.noarch.rpm"
 RPM_HASH = "eddc60acca1e608e4b17239e19923cdb737153d5e1a640a5171ea772cfda35985742cc62ddc557503ee578a8b7619aa942b03600560fc8474706af6b06bb9100"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(yquant-circuit.tex) tex(yquant-config.tex) tex(yquant-draw.tex) tex(yquant-env.tex) tex(yquant-lang.tex) tex(yquant-langhelper.tex) tex(yquant-prepare.tex) tex(yquant-registers.tex) tex(yquant-shapes.tex) tex(yquant-tools.tex) tex(yquant.sty) tex(yquantlanguage-groups.sty) tex(yquantlanguage-qasm.sty) texlive-yquant"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(etoolbox.sty) tex(tikz.sty) tex(trimspaces.sty) tex(xkeyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(yquant-circuit.tex) \
+tex(yquant-config.tex) \
+tex(yquant-draw.tex) \
+tex(yquant-env.tex) \
+tex(yquant-lang.tex) \
+tex(yquant-langhelper.tex) \
+tex(yquant-prepare.tex) \
+tex(yquant-registers.tex) \
+tex(yquant-shapes.tex) \
+tex(yquant-tools.tex) \
+tex(yquant.sty) \
+tex(yquantlanguage-groups.sty) \
+tex(yquantlanguage-qasm.sty) \
+texlive-yquant"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(etoolbox.sty) \
+tex(tikz.sty) \
+tex(trimspaces.sty) \
+tex(xkeyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

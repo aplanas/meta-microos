@@ -11,7 +11,23 @@ RPM_NAME = "texlive-continue-2023.204.0.0.2svn49449-54.1.noarch.rpm"
 RPM_HASH = "5c3eb91eda3c4e5e72540245fa9832065e133dfc18be15d8a5d73561e827594e27628afee0950b7bca6b3d105660bdf03d8c4fa9883739aed18baf6d4bb53924"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(continue.sty) texlive-continue"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(atbegshi.sty) tex(picture.sty) tex(zref-abspage.sty) tex(zref-lastpage.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(continue.sty) \
+texlive-continue"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(atbegshi.sty) \
+tex(picture.sty) \
+tex(zref-abspage.sty) \
+tex(zref-lastpage.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

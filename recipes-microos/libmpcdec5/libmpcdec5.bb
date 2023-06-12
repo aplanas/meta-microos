@@ -19,7 +19,13 @@ PV = "1.2.6"
 RPM_NAME = "libmpcdec5-1.2.6-35.13.aarch64.rpm"
 RPM_HASH = "002d4f90aa8ccf0f497b312f7d3f777ef1cb5c3410ebaef1ff6e6b76d03e21c584cf3a1a4ff00ba13c4277ac57aa12c737a3de96977c6649c3f398ee086e67bc"
 
-RPROVIDES:${PN} += "libmpcdec libmpcdec.so.5()(64bit) libmpcdec5 libmpcdec5(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libmpcdec \
+libmpcdec.so.5()(64bit) \
+libmpcdec5 \
+libmpcdec5(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

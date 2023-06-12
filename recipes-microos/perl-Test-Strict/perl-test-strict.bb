@@ -23,7 +23,8 @@ RPM_NAME = "perl-Test-Strict-0.52-1.15.noarch.rpm"
 RPM_HASH = "4062c77bbb54173c4dd2751924769484cff3fc4a19da3e7e1f26f1d79e84006bff5e639420a4a86113c2e0121a0bd789b5f7ba24ff0618aff3619d7f541fb338"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Strict) perl-Test-Strict"
+RPROVIDES:${PN} += "perl(Test::Strict) \
+perl-Test-Strict"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

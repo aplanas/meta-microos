@@ -52,7 +52,8 @@ RPM_NAME = "perl-Test-Command-0.11-5.24.noarch.rpm"
 RPM_HASH = "b1646c9c11f9639c35a614b6ae0652d1394a4e7efeed15f5c69923ab08a9d0943a52329305b5b94a40b4c7c107a276ce4826e5cad604811bfd4e456e04af8fcc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Command) perl-Test-Command"
+RPROVIDES:${PN} += "perl(Test::Command) \
+perl-Test-Command"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

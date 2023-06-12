@@ -14,7 +14,10 @@ RPM_NAME = "python-bottle-doc-0.12.25-4.1.noarch.rpm"
 RPM_HASH = "23bda24ef76ab56c1076c88e4981a5beebb3648c3bbac0a07d447acc6a17d6c6995c121bad9396ebc8833f7da7eacf83d523562cb583471ab289105c6ee41901"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python-bottle-doc python310-bottle-doc python311-bottle-doc python39-bottle-doc"
+RPROVIDES:${PN} += "python-bottle-doc \
+python310-bottle-doc \
+python311-bottle-doc \
+python39-bottle-doc"
 RDEPENDS:${PN} += ""
 
 inherit rpm

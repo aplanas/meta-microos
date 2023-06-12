@@ -17,7 +17,11 @@ RPM_NAME = "perl-XML-Simple-2.25-1.17.noarch.rpm"
 RPM_HASH = "dcc9e64868a197beb650d15b76e4e206cef120bd232f3e0ee3df9e66e0660e7553346eef7703d91c1132de4342a06cf42a763225003fb84f358ae21b50c48727"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::Simple) perl-XML-Simple"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(XML::NamespaceSupport) perl(XML::SAX) perl(XML::SAX::Expat)"
+RPROVIDES:${PN} += "perl(XML::Simple) \
+perl-XML-Simple"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(XML::NamespaceSupport) \
+perl(XML::SAX) \
+perl(XML::SAX::Expat)"
 
 inherit rpm

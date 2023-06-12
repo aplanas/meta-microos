@@ -14,7 +14,19 @@ RPM_NAME = "texlive-modulus-2023.201.1.0svn47599-54.1.noarch.rpm"
 RPM_HASH = "aef99c8787f60583c36014a33cdd04f37aba54ed313ab94bd4e371699a4727c286a8355dfdb98a5331582f23c92c3ef612da08c47c5d010a01f5b482ea2b6b4c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(modulus.sty) texlive-modulus"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(modulus.sty) \
+texlive-modulus"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

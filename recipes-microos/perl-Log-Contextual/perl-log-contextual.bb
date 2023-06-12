@@ -52,7 +52,21 @@ RPM_NAME = "perl-Log-Contextual-0.008001-1.18.noarch.rpm"
 RPM_HASH = "ab68f742b08cec83dd89c378c61c566928fb86434f22bc734555e0dcb58614a28bb5a6336279fc8b30ffc59a6a22a5c66d2eaf5416b0e14b3e9ba49489d7fccc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Log::Contextual) perl(Log::Contextual::Easy::Default) perl(Log::Contextual::Easy::Package) perl(Log::Contextual::Role::Router) perl(Log::Contextual::Role::Router::HasLogger) perl(Log::Contextual::Role::Router::SetLogger) perl(Log::Contextual::Role::Router::WithLogger) perl(Log::Contextual::Router) perl(Log::Contextual::SimpleLogger) perl(Log::Contextual::TeeLogger) perl(Log::Contextual::WarnLogger) perl-Log-Contextual"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Data::Dumper::Concise) perl(Exporter::Declare) perl(Moo)"
+RPROVIDES:${PN} += "perl(Log::Contextual) \
+perl(Log::Contextual::Easy::Default) \
+perl(Log::Contextual::Easy::Package) \
+perl(Log::Contextual::Role::Router) \
+perl(Log::Contextual::Role::Router::HasLogger) \
+perl(Log::Contextual::Role::Router::SetLogger) \
+perl(Log::Contextual::Role::Router::WithLogger) \
+perl(Log::Contextual::Router) \
+perl(Log::Contextual::SimpleLogger) \
+perl(Log::Contextual::TeeLogger) \
+perl(Log::Contextual::WarnLogger) \
+perl-Log-Contextual"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Data::Dumper::Concise) \
+perl(Exporter::Declare) \
+perl(Moo)"
 
 inherit rpm

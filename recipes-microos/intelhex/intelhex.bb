@@ -23,7 +23,10 @@ RPM_NAME = "intelhex-2.3.0-1.3.noarch.rpm"
 RPM_HASH = "746b7b3aace52300532e0c93504b5dad8a118f17492fcea447fce3d2614cca2bc7746f7d0d25cbd1254eec0b94a6cd5475b075a6b7062b71a7fa9c20b70f6af2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "intelhex python3.10dist(intelhex) python3dist(intelhex)"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi)"
+RPROVIDES:${PN} += "intelhex \
+python3.10dist(intelhex) \
+python3dist(intelhex)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi)"
 
 inherit rpm

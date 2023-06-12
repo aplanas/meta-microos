@@ -11,7 +11,13 @@ PV = "4.0.43"
 RPM_NAME = "mtools-4.0.43-1.1.aarch64.rpm"
 RPM_HASH = "a7aaf5c967df31aae435a891a41440942882417181a23faba0675ad22d0600e51bd1583bdaa5146c1a2ef1f8f6a0bcecdcdce1995bce510be507ee3abd00495b"
 
-RPROVIDES:${PN} += "config(mtools) mtools mtools(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh glibc-locale-base ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "config(mtools) \
+mtools \
+mtools(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+glibc-locale-base \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

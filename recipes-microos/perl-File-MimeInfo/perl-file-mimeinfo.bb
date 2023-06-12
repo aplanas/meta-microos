@@ -20,7 +20,16 @@ RPM_NAME = "perl-File-MimeInfo-0.33-1.3.noarch.rpm"
 RPM_HASH = "d205f8fbdc5403e4a7ff8f587475fa1b3dc48f08411c96d409b7443a4fddab8285fb65d5516d7228b3c99f0312cde6745f4f3702be850c6ec5acc880aec1e39a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::MimeInfo) perl(File::MimeInfo::Applications) perl(File::MimeInfo::Magic) perl(File::MimeInfo::Rox) perl-File-MimeInfo"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Encode::Locale) perl(File::BaseDir) perl(File::DesktopEntry) shared-mime-info"
+RPROVIDES:${PN} += "perl(File::MimeInfo) \
+perl(File::MimeInfo::Applications) \
+perl(File::MimeInfo::Magic) \
+perl(File::MimeInfo::Rox) \
+perl-File-MimeInfo"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Encode::Locale) \
+perl(File::BaseDir) \
+perl(File::DesktopEntry) \
+shared-mime-info"
 
 inherit rpm

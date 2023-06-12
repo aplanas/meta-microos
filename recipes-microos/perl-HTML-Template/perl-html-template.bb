@@ -19,7 +19,19 @@ RPM_NAME = "perl-HTML-Template-2.97-1.22.noarch.rpm"
 RPM_HASH = "5dfe9649e5cbb0c6f0ee6ba550fb7b916436b66f07a6696e92ce351f67dfbe8fcc61c84b7d8c49f2d585cde46228e1bf628cff928fa8ead57a179092305f1005"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTML::Template) perl(HTML::Template::COND) perl(HTML::Template::DEF) perl(HTML::Template::ESCAPE) perl(HTML::Template::FAQ) perl(HTML::Template::JSESCAPE) perl(HTML::Template::LOOP) perl(HTML::Template::NOOP) perl(HTML::Template::PRINTSCALAR) perl(HTML::Template::URLESCAPE) perl(HTML::Template::VAR) perl-HTML-Template"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(CGI)"
+RPROVIDES:${PN} += "perl(HTML::Template) \
+perl(HTML::Template::COND) \
+perl(HTML::Template::DEF) \
+perl(HTML::Template::ESCAPE) \
+perl(HTML::Template::FAQ) \
+perl(HTML::Template::JSESCAPE) \
+perl(HTML::Template::LOOP) \
+perl(HTML::Template::NOOP) \
+perl(HTML::Template::PRINTSCALAR) \
+perl(HTML::Template::URLESCAPE) \
+perl(HTML::Template::VAR) \
+perl-HTML-Template"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(CGI)"
 
 inherit rpm

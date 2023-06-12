@@ -24,7 +24,11 @@ RPM_NAME = "python310-configobj-5.0.8-1.1.noarch.rpm"
 RPM_HASH = "038dbd1e67eaac54aba12690cd0b11b94425f9ba612a5e292ab8f7edb913d14ac899a33705c64c47dda6163a6af5748d8327444ee27049c0eaea8d013176f62d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-configobj python3.10dist(configobj) python310-configobj python3dist(configobj)"
-RDEPENDS:${PN} += "python(abi) python310-six"
+RPROVIDES:${PN} += "python3-configobj \
+python3.10dist(configobj) \
+python310-configobj \
+python3dist(configobj)"
+RDEPENDS:${PN} += "python(abi) \
+python310-six"
 
 inherit rpm

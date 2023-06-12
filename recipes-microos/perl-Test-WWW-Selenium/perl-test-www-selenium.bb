@@ -19,7 +19,16 @@ RPM_NAME = "perl-Test-WWW-Selenium-1.36-3.25.noarch.rpm"
 RPM_HASH = "3c56565d2e208d19ad03da02bd070b94587447face79b4c2bb5337c4303e980398fe1c05575d1515c0acb6e944b38acce7cfc73f8e7ce52e50bff9ea8683290a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Devel::REPL::Plugin::Selenium) perl(Test::WWW::Selenium) perl(WWW::Selenium) perl(WWW::Selenium::Util) perl-Test-WWW-Selenium"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(HTTP::Headers) perl(HTTP::Request) perl(LWP::UserAgent) perl(URI::Escape) perl(namespace::clean)"
+RPROVIDES:${PN} += "perl(Devel::REPL::Plugin::Selenium) \
+perl(Test::WWW::Selenium) \
+perl(WWW::Selenium) \
+perl(WWW::Selenium::Util) \
+perl-Test-WWW-Selenium"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(HTTP::Headers) \
+perl(HTTP::Request) \
+perl(LWP::UserAgent) \
+perl(URI::Escape) \
+perl(namespace::clean)"
 
 inherit rpm

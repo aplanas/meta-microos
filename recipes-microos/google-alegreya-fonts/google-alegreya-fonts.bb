@@ -36,6 +36,9 @@ RPM_HASH = "21d87b8f84fdec2b057fa567dd9bd5318eb510959ea9d410550f4b23909657870b98
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-alegreya-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

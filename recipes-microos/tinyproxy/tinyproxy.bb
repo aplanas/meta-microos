@@ -11,7 +11,13 @@ PV = "1.11.1"
 RPM_NAME = "tinyproxy-1.11.1-3.3.aarch64.rpm"
 RPM_HASH = "0c4cce1da38bd239f5f9778c943065ff3d10fe2aca0661ac9a600029b2294fcda0c4142b673155e1f60a1bc0775cafef566e14bdc5850516032ac204cd426e53"
 
-RPROVIDES:${PN} += "config(tinyproxy) tinyproxy tinyproxy(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) logrotate"
+RPROVIDES:${PN} += "config(tinyproxy) \
+tinyproxy \
+tinyproxy(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+logrotate"
 
 inherit rpm

@@ -14,7 +14,16 @@ RPM_NAME = "python310-jsonpath-rw-1.4.0-6.13.noarch.rpm"
 RPM_HASH = "f95b90bc5d2697ea6822e6d65f12ffe1ea486fdb9b22059bff9d8327ef6a7f08175218919dbb11e7fa1c8192cee90a1bf3ed4a539e21f03602359fa19ffd9f1e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jsonpath-rw python3.10dist(jsonpath-rw) python310-jsonpath-rw python3dist(jsonpath-rw)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-decorator python310-ply python310-six update-alternatives"
+RPROVIDES:${PN} += "python3-jsonpath-rw \
+python3.10dist(jsonpath-rw) \
+python310-jsonpath-rw \
+python3dist(jsonpath-rw)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-decorator \
+python310-ply \
+python310-six \
+update-alternatives"
 
 inherit rpm

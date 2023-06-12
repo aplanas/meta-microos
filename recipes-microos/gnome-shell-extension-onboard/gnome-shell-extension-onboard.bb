@@ -11,6 +11,14 @@ RPM_HASH = "9a0f8c8cfbf0a9d71892e451faab2f6792a6d23e3a3b4930712637e310c56f7cc29e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-onboard"
-RDEPENDS:${PN} += "gnome-shell onboard typelib(Clutter) typelib(GLib) typelib(GObject) typelib(Gio) typelib(Gtk) typelib(Shell) typelib(St)"
+RDEPENDS:${PN} += "gnome-shell \
+onboard \
+typelib(Clutter) \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gio) \
+typelib(Gtk) \
+typelib(Shell) \
+typelib(St)"
 
 inherit rpm

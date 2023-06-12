@@ -26,7 +26,28 @@ PV = "0.88"
 RPM_NAME = "perl-Text-BibTeX-0.88-1.21.aarch64.rpm"
 RPM_HASH = "bbaef25a45662cc5cde878825fef0a73c3f020105e4cb66ee0b4230511b0d9490e4a080081a7c357ae16e79b3ba622f9f98a0dd815a9cceea1ead3d9a7aaf45f"
 
-RPROVIDES:${PN} += "perl(Text::BibTeX) perl(Text::BibTeX::BibEntry) perl(Text::BibTeX::BibFormat) perl(Text::BibTeX::BibSort) perl(Text::BibTeX::BibStructure) perl(Text::BibTeX::Entry) perl(Text::BibTeX::File) perl(Text::BibTeX::Name) perl(Text::BibTeX::NameFormat) perl(Text::BibTeX::SimpleValue) perl(Text::BibTeX::Structure) perl(Text::BibTeX::StructuredEntry) perl(Text::BibTeX::Value) perl-Text-BibTeX perl-Text-BibTeX(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbtparse.so()(64bit) libc.so.6(GLIBC_2.34)(64bit) perl(:MODULE_COMPAT_5.36.0) perl(Encode) perl(Scalar::Util) perl(Unicode::Normalize)"
+RPROVIDES:${PN} += "perl(Text::BibTeX) \
+perl(Text::BibTeX::BibEntry) \
+perl(Text::BibTeX::BibFormat) \
+perl(Text::BibTeX::BibSort) \
+perl(Text::BibTeX::BibStructure) \
+perl(Text::BibTeX::Entry) \
+perl(Text::BibTeX::File) \
+perl(Text::BibTeX::Name) \
+perl(Text::BibTeX::NameFormat) \
+perl(Text::BibTeX::SimpleValue) \
+perl(Text::BibTeX::Structure) \
+perl(Text::BibTeX::StructuredEntry) \
+perl(Text::BibTeX::Value) \
+perl-Text-BibTeX \
+perl-Text-BibTeX(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbtparse.so()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Encode) \
+perl(Scalar::Util) \
+perl(Unicode::Normalize)"
 
 inherit rpm

@@ -39,7 +39,10 @@ RPM_NAME = "perl-Data-OptList-0.114-1.1.noarch.rpm"
 RPM_HASH = "138ba9d9b28fb31464b9b51ca99467c362a1ad87f6df912c6c9e0a2cd697c5908dcf33dbfaa953a3ec6369cf3629a18fbad36d88ac48737e9597bc6b15fe95df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Data::OptList) perl-Data-OptList"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Params::Util) perl(Sub::Install)"
+RPROVIDES:${PN} += "perl(Data::OptList) \
+perl-Data-OptList"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Params::Util) \
+perl(Sub::Install)"
 
 inherit rpm

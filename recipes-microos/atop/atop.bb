@@ -15,7 +15,22 @@ PV = "2.9.0"
 RPM_NAME = "atop-2.9.0-1.1.aarch64.rpm"
 RPM_HASH = "2398e3ab320b6c58d0847544420fa13438141ee9e4253beafb1e13db0604fca0c039bf494f7f64ad1b02f6733313d7ea03fcf0f07285c1c969ff440d04540c20"
 
-RPROVIDES:${PN} += "application() application(atop.desktop) atop atop(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libncursesw.so.6()(64bit) libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) libz.so.1()(64bit) systemd"
+RPROVIDES:${PN} += "application() \
+application(atop.desktop) \
+atop \
+atop(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libncursesw.so.6()(64bit) \
+libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
+libz.so.1()(64bit) \
+systemd"
 
 inherit rpm

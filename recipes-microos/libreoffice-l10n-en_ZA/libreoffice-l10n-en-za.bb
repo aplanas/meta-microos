@@ -8,7 +8,13 @@ RPM_NAME = "libreoffice-l10n-en_ZA-7.5.4.1-1.1.noarch.rpm"
 RPM_HASH = "664f1caa9966d7dade36da8a098b26edb275a4364e6a7ba45512b80d16b5ef9e0d4667aeeef94c57e745d5d93118351c7c6c62b3c95ea62d40f00921c661cf8b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libreoffice-help-en-ZA libreoffice-help-en_ZA libreoffice-l10n-en_ZA locale(libreoffice:en_ZA)"
-RDEPENDS:${PN} += "/bin/sh libreoffice libreoffice-share-linker myspell-en_ZA"
+RPROVIDES:${PN} += "libreoffice-help-en-ZA \
+libreoffice-help-en_ZA \
+libreoffice-l10n-en_ZA \
+locale(libreoffice:en_ZA)"
+RDEPENDS:${PN} += "/bin/sh \
+libreoffice \
+libreoffice-share-linker \
+myspell-en_ZA"
 
 inherit rpm

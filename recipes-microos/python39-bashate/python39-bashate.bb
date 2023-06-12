@@ -17,7 +17,14 @@ RPM_NAME = "python39-bashate-2.1.1-1.4.noarch.rpm"
 RPM_HASH = "0b880c851913f2d3d17d8cba2d45614d53b20b732c697c3448de71ec30fb2ff99d458e78651b8f654dd73db95337eec8131422cf83478cdba718cf73188871e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(bashate) python39-bashate python3dist(bashate)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-Babel python39-pbr update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(bashate) \
+python39-bashate \
+python3dist(bashate)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-Babel \
+python39-pbr \
+update-alternatives"
 
 inherit rpm

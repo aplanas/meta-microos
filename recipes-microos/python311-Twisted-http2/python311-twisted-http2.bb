@@ -12,6 +12,8 @@ RPM_HASH = "60f6928c3b2663fdf8ae15f3e81fa48cc5ee8899ed0aa0c4c6266413aada175fd122
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-Twisted-http2"
-RDEPENDS:${PN} += "python311-Twisted python311-h2 python311-priority"
+RDEPENDS:${PN} += "python311-Twisted \
+python311-h2 \
+python311-priority"
 
 inherit rpm

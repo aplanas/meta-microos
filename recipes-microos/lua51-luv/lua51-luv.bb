@@ -17,7 +17,13 @@ PV = "1.43.0~0"
 RPM_NAME = "lua51-luv-1.43.0~0-3.6.aarch64.rpm"
 RPM_HASH = "ac21f1a00c04c2c8215b503e32589a7691fc61ef288f940b70f1f4f2824a5e363eb2303a41793af70965f6374bcdc82f676cf87f0ab94ac29c186b1daf7e296b"
 
-RPROVIDES:${PN} += "lua51-luv lua51-luv(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) liblua5.1.so.5()(64bit) libuv.so.1()(64bit) lua51"
+RPROVIDES:${PN} += "lua51-luv \
+lua51-luv(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+liblua5.1.so.5()(64bit) \
+libuv.so.1()(64bit) \
+lua51"
 
 inherit rpm

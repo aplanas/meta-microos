@@ -15,7 +15,16 @@ RPM_NAME = "python39-trio-0.22.0-2.1.noarch.rpm"
 RPM_HASH = "5004de8c213afa19c1519d68b28bb53aa888a873a1033904071901c900df452b26942d1ae639c2708361cf04e8a6d60de23cb2dfa63cfd468a923164e5e47aed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(trio) python39-trio python3dist(trio)"
-RDEPENDS:${PN} += "python(abi) python39-async_generator python39-attrs python39-exceptiongroup python39-idna python39-outcome python39-sniffio python39-sortedcontainers"
+RPROVIDES:${PN} += "python3.9dist(trio) \
+python39-trio \
+python3dist(trio)"
+RDEPENDS:${PN} += "python(abi) \
+python39-async_generator \
+python39-attrs \
+python39-exceptiongroup \
+python39-idna \
+python39-outcome \
+python39-sniffio \
+python39-sortedcontainers"
 
 inherit rpm

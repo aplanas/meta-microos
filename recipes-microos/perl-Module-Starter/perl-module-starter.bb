@@ -14,7 +14,18 @@ RPM_NAME = "perl-Module-Starter-1.77-1.12.noarch.rpm"
 RPM_HASH = "70a2750064f7dccc43ffccb1aee15236865f231739572a4d592a5eca2d4d83975165fcf2aa411f3e6d66492a9d33180177cd96de6280890581814517e0f3cf95"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Module::Starter) perl(Module::Starter::App) perl(Module::Starter::BuilderSet) perl(Module::Starter::Plugin::Template) perl(Module::Starter::Simple) perl-Module-Starter"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Module::Runtime) perl(Software::License) perl(Test::More) perl(parent) perl(version)"
+RPROVIDES:${PN} += "perl(Module::Starter) \
+perl(Module::Starter::App) \
+perl(Module::Starter::BuilderSet) \
+perl(Module::Starter::Plugin::Template) \
+perl(Module::Starter::Simple) \
+perl-Module-Starter"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Module::Runtime) \
+perl(Software::License) \
+perl(Test::More) \
+perl(parent) \
+perl(version)"
 
 inherit rpm

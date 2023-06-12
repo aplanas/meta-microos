@@ -24,7 +24,12 @@ RPM_NAME = "python311-pygn-0.10.2-2.4.noarch.rpm"
 RPM_HASH = "da7c36fc34452a8ee379c583081f0fa7f3b61a65d554359da0e662ea0fa344a1f11531613031170d340b3af5589ef82e1d40fa955106e76f373c47b13ef78c61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pygn) python311-pygn python3dist(pygn)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(pygn) \
+python311-pygn \
+python3dist(pygn)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

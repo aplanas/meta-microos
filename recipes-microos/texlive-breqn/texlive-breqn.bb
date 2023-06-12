@@ -21,7 +21,26 @@ RPM_NAME = "texlive-breqn-2023.201.0.0.98lsvn60881-52.1.noarch.rpm"
 RPM_HASH = "6ed8074942e930870074e7d35fd64407dba6376383ba3892d68db84b2797f5380f9cc98277b718304c86cb458997441f2a5d31b8d4dc77cb8a9d7b4cd9c156f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(breqn.sty) tex(flexisym.sty) tex(mathstyle.sty) texlive-breqn"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsmath.sty) tex(calc.sty) tex(expl3.sty) tex(graphicx.sty) tex(keyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(breqn.sty) \
+tex(flexisym.sty) \
+tex(mathstyle.sty) \
+texlive-breqn"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsmath.sty) \
+tex(calc.sty) \
+tex(expl3.sty) \
+tex(graphicx.sty) \
+tex(keyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

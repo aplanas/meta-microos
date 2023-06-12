@@ -14,7 +14,15 @@ PV = "0.46.0"
 RPM_NAME = "cadvisor-0.46.0-1.4.aarch64.rpm"
 RPM_HASH = "b98da04cdb3bdf3c75227abbcd53eaeb6ff3f2b65637b661580221bffebbbf23ebeb8cea0d90e6051150f5e0983ff30b3e0e5213589f317c00352655d6fa52a4"
 
-RPROVIDES:${PN} += "cadvisor cadvisor(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch ca-certificates fillup git-core libc.so.6(GLIBC_2.34)(64bit) rpm"
+RPROVIDES:${PN} += "cadvisor \
+cadvisor(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+ca-certificates \
+fillup \
+git-core \
+libc.so.6(GLIBC_2.34)(64bit) \
+rpm"
 
 inherit rpm

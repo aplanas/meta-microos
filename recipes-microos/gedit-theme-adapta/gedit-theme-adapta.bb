@@ -12,6 +12,7 @@ RPM_HASH = "e56ca56365bbbdb7fe99b72735c3cd9d9b734d930f07f482850319c12e553640093b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gedit-theme-adapta"
-RDEPENDS:${PN} += "gedit metatheme-adapta-common"
+RDEPENDS:${PN} += "gedit \
+metatheme-adapta-common"
 
 inherit rpm

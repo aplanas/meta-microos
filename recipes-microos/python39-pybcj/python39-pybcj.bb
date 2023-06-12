@@ -16,7 +16,14 @@ PV = "1.0.1"
 RPM_NAME = "python39-pybcj-1.0.1-1.5.aarch64.rpm"
 RPM_HASH = "f9ff3307156291010ca54678335772fe000cbbc780cb6050cf157b013f736234732e17ef93b251e2787c07ca2186ff7b707fc73f0a3e9c360e61dd4d15213b35"
 
-RPROVIDES:${PN} += "python3.9dist(pybcj) python39-pybcj python39-pybcj(aarch-64) python3dist(pybcj)"
-RDEPENDS:${PN} += "(python39-importlib_metadata if python39-base < 3.8) ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.9dist(pybcj) \
+python39-pybcj \
+python39-pybcj(aarch-64) \
+python3dist(pybcj)"
+RDEPENDS:${PN} += "(python39-importlib_metadata if python39-base < 3.8) \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

@@ -19,7 +19,21 @@ RPM_NAME = "jetty-jsp-9.4.51-1.1.noarch.rpm"
 RPM_HASH = "1a2de7fd909e219f14594cde5486e278d1778b0f6a467558d38f317d36453d1ddee6d3861598bc5c2aa5b75f98ecfc00e21701a114b731493358603ee12abb85"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jetty-jsp mvn(org.eclipse.jetty:apache-jsp) mvn(org.eclipse.jetty:apache-jsp::nolog:) mvn(org.eclipse.jetty:apache-jsp:pom:) mvn(org.eclipse.jetty:jetty-jsp) mvn(org.eclipse.jetty:jetty-jsp::nolog:) mvn(org.eclipse.jetty:jetty-jsp:pom:) osgi(org.eclipse.jetty.apache-jsp)"
-RDEPENDS:${PN} += "glassfish-el java-headless javapackages-filesystem mvn(javax.servlet:javax.servlet-api) mvn(org.apache.tomcat:tomcat-jasper) mvn(org.eclipse.jetty.toolchain:jetty-schemas) mvn(org.eclipse.jetty:jetty-annotations) mvn(org.eclipse.jetty:jetty-util)"
+RPROVIDES:${PN} += "jetty-jsp \
+mvn(org.eclipse.jetty:apache-jsp) \
+mvn(org.eclipse.jetty:apache-jsp::nolog:) \
+mvn(org.eclipse.jetty:apache-jsp:pom:) \
+mvn(org.eclipse.jetty:jetty-jsp) \
+mvn(org.eclipse.jetty:jetty-jsp::nolog:) \
+mvn(org.eclipse.jetty:jetty-jsp:pom:) \
+osgi(org.eclipse.jetty.apache-jsp)"
+RDEPENDS:${PN} += "glassfish-el \
+java-headless \
+javapackages-filesystem \
+mvn(javax.servlet:javax.servlet-api) \
+mvn(org.apache.tomcat:tomcat-jasper) \
+mvn(org.eclipse.jetty.toolchain:jetty-schemas) \
+mvn(org.eclipse.jetty:jetty-annotations) \
+mvn(org.eclipse.jetty:jetty-util)"
 
 inherit rpm

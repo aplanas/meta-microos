@@ -11,6 +11,26 @@ RPM_HASH = "948002a16f355d07b56db6d4fcdc51c5361dd19cf3003202b6b4f979250ebf620812
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-medium"
-RDEPENDS:${PN} += "texlive-collection-basic texlive-collection-binextra texlive-collection-context texlive-collection-fontsrecommended texlive-collection-fontutils texlive-collection-langczechslovak texlive-collection-langenglish texlive-collection-langeuropean texlive-collection-langfrench texlive-collection-langgerman texlive-collection-langitalian texlive-collection-langpolish texlive-collection-langportuguese texlive-collection-langspanish texlive-collection-latex texlive-collection-latexrecommended texlive-collection-luatex texlive-collection-mathscience texlive-collection-metapost texlive-collection-plaingeneric texlive-collection-xetex"
+RDEPENDS:${PN} += "texlive-collection-basic \
+texlive-collection-binextra \
+texlive-collection-context \
+texlive-collection-fontsrecommended \
+texlive-collection-fontutils \
+texlive-collection-langczechslovak \
+texlive-collection-langenglish \
+texlive-collection-langeuropean \
+texlive-collection-langfrench \
+texlive-collection-langgerman \
+texlive-collection-langitalian \
+texlive-collection-langpolish \
+texlive-collection-langportuguese \
+texlive-collection-langspanish \
+texlive-collection-latex \
+texlive-collection-latexrecommended \
+texlive-collection-luatex \
+texlive-collection-mathscience \
+texlive-collection-metapost \
+texlive-collection-plaingeneric \
+texlive-collection-xetex"
 
 inherit rpm

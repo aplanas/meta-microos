@@ -9,6 +9,7 @@ RPM_HASH = "c34812585c7f3a9aa0a72645cfab8721cfc385d3f8e12a963a83ffffc21096e6c3fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-widget-demo"
-RDEPENDS:${PN} += "yast2 yast2-ruby-bindings"
+RDEPENDS:${PN} += "yast2 \
+yast2-ruby-bindings"
 
 inherit rpm

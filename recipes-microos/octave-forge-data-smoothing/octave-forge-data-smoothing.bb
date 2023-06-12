@@ -10,6 +10,8 @@ RPM_HASH = "22eeb7e32549ece335b9eaa14d0b42e2beb0c9ff8aa9156eae3e0dab6879ceb31a1c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-data-smoothing"
-RDEPENDS:${PN} += "/bin/sh octave-cli octave-forge-optim"
+RDEPENDS:${PN} += "/bin/sh \
+octave-cli \
+octave-forge-optim"
 
 inherit rpm

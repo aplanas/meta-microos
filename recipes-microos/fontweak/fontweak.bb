@@ -14,7 +14,10 @@ RPM_NAME = "fontweak-1.3.1-2.20.noarch.rpm"
 RPM_HASH = "6f5c61735e641d832c4218e391cc85c4a4c8f0062d33309c5cbf017a3775562eaba375806b1db9efb3e59ab64b477755f8394a7930a3e75a5585ce1a0b209bd0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(fontweak.desktop) fontweak"
-RDEPENDS:${PN} += "/bin/sh java"
+RPROVIDES:${PN} += "application() \
+application(fontweak.desktop) \
+fontweak"
+RDEPENDS:${PN} += "/bin/sh \
+java"
 
 inherit rpm

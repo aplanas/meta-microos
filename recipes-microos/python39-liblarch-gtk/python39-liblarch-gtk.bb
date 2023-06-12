@@ -13,6 +13,9 @@ RPM_HASH = "e942ddc35c4c9ddfaf9bebf5bed13b349b975067d859891fbc42e8c5b76eeb508409
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-liblarch-gtk"
-RDEPENDS:${PN} += "python(abi) python39-gobject python39-liblarch typelib(Gtk)"
+RDEPENDS:${PN} += "python(abi) \
+python39-gobject \
+python39-liblarch \
+typelib(Gtk)"
 
 inherit rpm

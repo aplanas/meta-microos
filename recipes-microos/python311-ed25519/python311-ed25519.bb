@@ -7,7 +7,16 @@ PV = "1.5"
 RPM_NAME = "python311-ed25519-1.5-3.11.aarch64.rpm"
 RPM_HASH = "7576a50e9f59c5f093ca2448212e213b4c8b1d6bb95fb9f9e1c5d11606c8fd0c6d209ad5e32a6a24cd043b4ab06601fe09022cf2898c556d07b77b99dc2bd83e"
 
-RPROVIDES:${PN} += "python3.11dist(ed25519) python311-ed25519 python311-ed25519(aarch-64) python3dist(ed25519)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(ed25519) \
+python311-ed25519 \
+python311-ed25519(aarch-64) \
+python3dist(ed25519)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi) \
+update-alternatives"
 
 inherit rpm

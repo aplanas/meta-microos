@@ -9,6 +9,7 @@ RPM_HASH = "b90f74beb860c078cf9abcb74011f20aa6dad665e93b37b5fc2e77a51af50520caed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-vatnumber"
-RDEPENDS:${PN} += "python39-python-stdnum python39-six"
+RDEPENDS:${PN} += "python39-python-stdnum \
+python39-six"
 
 inherit rpm

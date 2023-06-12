@@ -17,7 +17,10 @@ RPM_NAME = "postgresql-15-2.7.noarch.rpm"
 RPM_HASH = "eae3ab5fe4b18e9ea39dba34393b4e5a40695880429d9cd432da39317a5422f5e937cb1d89e040d8ae2dd961526fab17a89f6fbdbc28cd28830cda9615d52031"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "postgresql postgresql-noarch"
-RDEPENDS:${PN} += "/bin/bash postgresql-implementation update-alternatives"
+RPROVIDES:${PN} += "postgresql \
+postgresql-noarch"
+RDEPENDS:${PN} += "/bin/bash \
+postgresql-implementation \
+update-alternatives"
 
 inherit rpm

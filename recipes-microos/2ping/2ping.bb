@@ -10,7 +10,13 @@ RPM_NAME = "2ping-4.5.1-4.2.noarch.rpm"
 RPM_HASH = "0201ab4add472c058d2379ad105ec489803cad9e47c5c17000b5234c7777b5c967b1d64627e5ffb69d6c80c0ade305bb63834dde5e4cfa99c06ee9503da7656e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "2ping python3.10dist(2ping) python3dist(2ping)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 python(abi) python3 systemd"
+RPROVIDES:${PN} += "2ping \
+python3.10dist(2ping) \
+python3dist(2ping)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+python(abi) \
+python3 \
+systemd"
 
 inherit rpm

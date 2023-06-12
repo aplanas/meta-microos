@@ -15,7 +15,21 @@ RPM_NAME = "python3-oslo.vmware-4.1.1-1.2.noarch.rpm"
 RPM_HASH = "6c3a91b35e02e62a5a34771cf66ae33f8ce939a51b50ef7e5eff64c30cd37911be4a8eb6699705c4f903de8a35791e7725c1148e123c8353fe0cb63d783f61da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-oslo.vmware python3.10dist(oslo.vmware) python3dist(oslo.vmware)"
-RDEPENDS:${PN} += "python(abi) python3-PyYAML python3-eventlet python3-lxml python3-netaddr python3-oslo.concurrency python3-oslo.context python3-oslo.i18n python3-oslo.utils python3-requests python3-stevedore python3-suds-community python3-urllib3"
+RPROVIDES:${PN} += "python3-oslo.vmware \
+python3.10dist(oslo.vmware) \
+python3dist(oslo.vmware)"
+RDEPENDS:${PN} += "python(abi) \
+python3-PyYAML \
+python3-eventlet \
+python3-lxml \
+python3-netaddr \
+python3-oslo.concurrency \
+python3-oslo.context \
+python3-oslo.i18n \
+python3-oslo.utils \
+python3-requests \
+python3-stevedore \
+python3-suds-community \
+python3-urllib3"
 
 inherit rpm

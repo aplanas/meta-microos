@@ -19,7 +19,15 @@ PV = "7.1.1.11"
 RPM_NAME = "libMagick++-devel-7.1.1.11-1.1.aarch64.rpm"
 RPM_HASH = "1f57f75a557c3ac5d849575a6aba887f1810cc768e520d57d68c46060b5a1432a277b3a6d1e6b20b607baa2e98f22d5ce211002f4fd95703b4725c55393cfefd"
 
-RPROVIDES:${PN} += "libMagick++-devel libMagick++-devel(aarch-64) pkgconfig(Magick++) pkgconfig(Magick++-7.Q16HDRI)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config libMagick++-7_Q16HDRI5 libstdc++-devel pkgconfig(ImageMagick) pkgconfig(MagickWand-7.Q16HDRI)"
+RPROVIDES:${PN} += "libMagick++-devel \
+libMagick++-devel(aarch-64) \
+pkgconfig(Magick++) \
+pkgconfig(Magick++-7.Q16HDRI)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/pkg-config \
+libMagick++-7_Q16HDRI5 \
+libstdc++-devel \
+pkgconfig(ImageMagick) \
+pkgconfig(MagickWand-7.Q16HDRI)"
 
 inherit rpm

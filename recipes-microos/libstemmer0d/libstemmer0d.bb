@@ -21,7 +21,12 @@ PV = "2.1.0"
 RPM_NAME = "libstemmer0d-2.1.0-1.8.aarch64.rpm"
 RPM_HASH = "1c92478f031c10c91b41eb771e31e4ea4427311fd597c594ccf62260f993f476b984f7b6e3e4e136aaf2e10cda6b6dc76d56c497deb65f51cf2625e46e94aebc"
 
-RPROVIDES:${PN} += "libstemmer.so.0d()(64bit) libstemmer0d libstemmer0d(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libstemmer.so.0d()(64bit) \
+libstemmer0d \
+libstemmer0d(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

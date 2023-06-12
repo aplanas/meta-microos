@@ -18,7 +18,22 @@ RPM_NAME = "texlive-hrefhide-2023.201.1.1asvn66189-53.1.noarch.rpm"
 RPM_HASH = "ab868160de7f91849273365d64b34b434c4c8e2f5f0c2a43198124d7d265b23fc9a704a1228aeaacfbf324b86f99bb0f29a3f99c6282b326eccdcb7d25fa698b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hrefhide.sty) texlive-hrefhide"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(hyperref.sty) tex(kvoptions.sty) tex(xcolor.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(hrefhide.sty) \
+texlive-hrefhide"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(hyperref.sty) \
+tex(kvoptions.sty) \
+tex(xcolor.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

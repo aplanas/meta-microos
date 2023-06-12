@@ -12,7 +12,14 @@ PV = "1.0.3"
 RPM_NAME = "gsound-devel-1.0.3-2.8.aarch64.rpm"
 RPM_HASH = "0d8600c08da7cee3aeb3f2b4c500baecdee40702411c0a43a47ca5deeb25b8b4f473309ce7767d8772b3ae65f0a423de63913f44880cbfcaa8466f3ca8f075a6"
 
-RPROVIDES:${PN} += "gsound-devel gsound-devel(aarch-64) pkgconfig(gsound)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libgsound0 pkgconfig(gio-2.0) pkgconfig(gobject-2.0) pkgconfig(libcanberra) typelib-1_0-GSound-1_0"
+RPROVIDES:${PN} += "gsound-devel \
+gsound-devel(aarch-64) \
+pkgconfig(gsound)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libgsound0 \
+pkgconfig(gio-2.0) \
+pkgconfig(gobject-2.0) \
+pkgconfig(libcanberra) \
+typelib-1_0-GSound-1_0"
 
 inherit rpm

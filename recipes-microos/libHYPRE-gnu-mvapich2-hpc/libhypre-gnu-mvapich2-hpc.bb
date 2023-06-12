@@ -9,7 +9,9 @@ PV = "2.20.0"
 RPM_NAME = "libHYPRE-gnu-mvapich2-hpc-2.20.0-1.22.aarch64.rpm"
 RPM_HASH = "dac8db8a521fdc87bd488e39b00b63053f550c3cadc76de1fdaad38477057d451252f6172983dbc7dde98fc1f3b1eb777b3562d98cd86ab4e9eeaea2823a00c5"
 
-RPROVIDES:${PN} += "libHYPRE-gnu-mvapich2-hpc libHYPRE-gnu-mvapich2-hpc(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh libHYPRE_2_20_0-gnu-mvapich2-hpc"
+RPROVIDES:${PN} += "libHYPRE-gnu-mvapich2-hpc \
+libHYPRE-gnu-mvapich2-hpc(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+libHYPRE_2_20_0-gnu-mvapich2-hpc"
 
 inherit rpm

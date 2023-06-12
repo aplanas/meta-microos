@@ -14,7 +14,19 @@ RPM_NAME = "texlive-moresize-2023.201.1.9svn17513-54.1.noarch.rpm"
 RPM_HASH = "e95f1f585380ef80a8d7dc2eaec8f0c6c0b7da85305fca0f86b9943667153a4201bdafaec8b88df3f8b996980f57bd5ccaf9a9a73bb1ebf0e9c2ce07f3caaee7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(moresize.sty) texlive-moresize"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(moresize.sty) \
+texlive-moresize"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

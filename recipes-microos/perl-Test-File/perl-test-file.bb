@@ -22,7 +22,9 @@ PV = "1.993"
 RPM_NAME = "perl-Test-File-1.993-1.2.aarch64.rpm"
 RPM_HASH = "1c516fd9414a7937dce18a23e0bcbb97c17a5568f421401535c571b3202badd140ebe934f75d3b193c6e28e624caab4acad8f64c26a5be6147a9c60cac1a6c3d"
 
-RPROVIDES:${PN} += "perl(Test::File) perl-Test-File perl-Test-File(aarch-64)"
+RPROVIDES:${PN} += "perl(Test::File) \
+perl-Test-File \
+perl-Test-File(aarch-64)"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

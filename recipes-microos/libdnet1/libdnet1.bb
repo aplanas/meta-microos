@@ -14,7 +14,12 @@ PV = "1.16.4"
 RPM_NAME = "libdnet1-1.16.4-1.1.aarch64.rpm"
 RPM_HASH = "67bc6e03c7e09113815bf3a0a66dd9474024f1b7ad0e8dc463ebe0b48f3c52bd519079b0c0b1265a0c0a6aa5ee3a5686c139f3f831d0eeae6edd142bed642280"
 
-RPROVIDES:${PN} += "libdnet.so.1()(64bit) libdnet1 libdnet1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libdnet.so.1()(64bit) \
+libdnet1 \
+libdnet1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

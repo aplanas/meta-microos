@@ -18,7 +18,15 @@ RPM_NAME = "dtrx-8.5.2-2.1.noarch.rpm"
 RPM_HASH = "cf9bbc9af5ca5a2abe69b8129510fa95efa5e932c319b1adc7cdd84b81a169fd94ae8ac7ee2406cc42f12859e051cca8f614367c391217fcd730d5e104ef9805"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "dtrx python3.10dist(dtrx) python3dist(dtrx)"
-RDEPENDS:${PN} += "/usr/bin/python3 bzip2 cpio gzip python(abi) tar unzip"
+RPROVIDES:${PN} += "dtrx \
+python3.10dist(dtrx) \
+python3dist(dtrx)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+bzip2 \
+cpio \
+gzip \
+python(abi) \
+tar \
+unzip"
 
 inherit rpm

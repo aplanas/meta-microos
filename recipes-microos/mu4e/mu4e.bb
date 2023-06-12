@@ -9,6 +9,7 @@ RPM_HASH = "c642c085eef38c8e5d622778ef1d2f11980bbee3a55e2e011a51e0e612f93fd7eb47
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mu4e"
-RDEPENDS:${PN} += "/bin/sh maildir-utils"
+RDEPENDS:${PN} += "/bin/sh \
+maildir-utils"
 
 inherit rpm

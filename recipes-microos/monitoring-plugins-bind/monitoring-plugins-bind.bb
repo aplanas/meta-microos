@@ -14,7 +14,12 @@ RPM_NAME = "monitoring-plugins-bind-1.3-104.6.noarch.rpm"
 RPM_HASH = "82fc098a733e07b49166cc3b059b4d5a72c0d67f48e9be81f41eb6930108963ec5dc55f5159ace60ddcbcacb9dddf44ec59402f2b255a672a58478dcadf2f3f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "monitoring-plugins-bind nagios-plugins-bind"
-RDEPENDS:${PN} += "/bin/sh bind-utils coreutils gawk sudo"
+RPROVIDES:${PN} += "monitoring-plugins-bind \
+nagios-plugins-bind"
+RDEPENDS:${PN} += "/bin/sh \
+bind-utils \
+coreutils \
+gawk \
+sudo"
 
 inherit rpm

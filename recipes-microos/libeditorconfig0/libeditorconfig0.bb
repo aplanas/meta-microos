@@ -14,7 +14,13 @@ PV = "0.12.6"
 RPM_NAME = "libeditorconfig0-0.12.6-1.1.aarch64.rpm"
 RPM_HASH = "8e18cc5a92bb285eca8bc086178195c166339d8acacde9ebf78a4f95135f4d29b8a7835d536c8468c64534f8fc4c69916e666a6edd13156d481122929ab0505c"
 
-RPROVIDES:${PN} += "libeditorconfig.so.0()(64bit) libeditorconfig0 libeditorconfig0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libpcre2-8.so.0()(64bit)"
+RPROVIDES:${PN} += "libeditorconfig.so.0()(64bit) \
+libeditorconfig0 \
+libeditorconfig0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libpcre2-8.so.0()(64bit)"
 
 inherit rpm

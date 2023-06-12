@@ -9,7 +9,9 @@ RPM_NAME = "python39-rfc3986-2.0.0-2.1.noarch.rpm"
 RPM_HASH = "50a177c70d3e2e491d75bf6d41d2bdeeba82e3f05d8a31244a7170e1245405032fd72e0ce35dd533b90ee5964adf8f91644126444ed6db30a84d7acb10ed2a75"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(rfc3986) python39-rfc3986 python3dist(rfc3986)"
+RPROVIDES:${PN} += "python3.9dist(rfc3986) \
+python39-rfc3986 \
+python3dist(rfc3986)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

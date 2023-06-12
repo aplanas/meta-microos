@@ -18,6 +18,13 @@ RPM_HASH = "0a9aa7a2da12e975a65898b845990486ca61097c5c9a5fbc8871ee65fd8a1ad88565
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fetchmsttfonts"
-RDEPENDS:${PN} += "/bin/sh /usr/sbin/fonts-config cabextract coreutils curl fonts-config mktemp w3m"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/sbin/fonts-config \
+cabextract \
+coreutils \
+curl \
+fonts-config \
+mktemp \
+w3m"
 
 inherit rpm

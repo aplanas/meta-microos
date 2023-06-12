@@ -25,7 +25,11 @@ RPM_NAME = "perl-Text-Aligner-0.16-1.13.noarch.rpm"
 RPM_HASH = "3f4de5f7e75c6bee9f51b8b785bce291d3554d2a3925955aa6aadc74bb0858529905acde79a783b244f239f4527818ecdfd7cfe8e13d0fb91c7db04dc0fb1b7d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::Aligner) perl(Text::Aligner::Auto) perl(Text::Aligner::MaxKeeper) perl-Text-Aligner"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Term::ANSIColor)"
+RPROVIDES:${PN} += "perl(Text::Aligner) \
+perl(Text::Aligner::Auto) \
+perl(Text::Aligner::MaxKeeper) \
+perl-Text-Aligner"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Term::ANSIColor)"
 
 inherit rpm

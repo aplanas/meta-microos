@@ -9,7 +9,14 @@ PV = "1.23"
 RPM_NAME = "perl-File-LibMagic-1.23-1.15.aarch64.rpm"
 RPM_HASH = "7baea3c52e80fdb225965b48c030edf5ae98a2e5228dbc9e4f9f501857b5c4884b570d5b07803f5fa917bc27be49c981f34e186266141dc334acef4c973810d1"
 
-RPROVIDES:${PN} += "perl(File::LibMagic) perl(File::LibMagic::Constants) perl-File-LibMagic perl-File-LibMagic(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libmagic.so.1()(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(File::LibMagic) \
+perl(File::LibMagic::Constants) \
+perl-File-LibMagic \
+perl-File-LibMagic(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libmagic.so.1()(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

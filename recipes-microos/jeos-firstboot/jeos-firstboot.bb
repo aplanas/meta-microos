@@ -10,6 +10,13 @@ RPM_HASH = "7b32928b46eb1792f820bb1330f02fe63f9f5528c5c8eed849b847f87a6a7e13c2c4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeos-firstboot"
-RDEPENDS:${PN} += "(/usr/bin/nmtui if NetworkManager) /bin/bash /bin/sh dialog iproute2 live-langset-data systemd timezone"
+RDEPENDS:${PN} += "(/usr/bin/nmtui if NetworkManager) \
+/bin/bash \
+/bin/sh \
+dialog \
+iproute2 \
+live-langset-data \
+systemd \
+timezone"
 
 inherit rpm

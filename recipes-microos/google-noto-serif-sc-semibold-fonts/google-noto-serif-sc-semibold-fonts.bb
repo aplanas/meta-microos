@@ -10,7 +10,11 @@ RPM_NAME = "google-noto-serif-sc-semibold-fonts-2.001-2.3.noarch.rpm"
 RPM_HASH = "715a577007395edfa0768fc503eeeb72ed7748825321b35b4040d520b329dde3ec6fe30032884f179344e218a3ece14b72dee26821028bdfc92cea4cb3471ef4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "google-noto-serif-sc-semibold-fonts noto-serif-sc-semibold-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "google-noto-serif-sc-semibold-fonts \
+noto-serif-sc-semibold-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

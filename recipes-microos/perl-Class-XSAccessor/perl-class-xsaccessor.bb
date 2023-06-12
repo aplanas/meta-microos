@@ -52,7 +52,13 @@ PV = "1.19"
 RPM_NAME = "perl-Class-XSAccessor-1.19-3.37.aarch64.rpm"
 RPM_HASH = "9e95ff91807179d3d8c927ae9bc20b49931a3bcf6eddd0ea707407924fff367867989faf3b84bed8d98eaf67272b3e6523b9f71e9222f97f2918490dcec31f10"
 
-RPROVIDES:${PN} += "perl(Class::XSAccessor) perl(Class::XSAccessor::Array) perl-Class-XSAccessor perl-Class-XSAccessor(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Class::XSAccessor) \
+perl(Class::XSAccessor::Array) \
+perl-Class-XSAccessor \
+perl-Class-XSAccessor(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

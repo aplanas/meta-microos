@@ -11,7 +11,8 @@ RPM_NAME = "gtkmm2-tutorial-2.24.1-16.10.noarch.rpm"
 RPM_HASH = "2dbe87f1dc40c4010e44e609cb17c79ff6754eedf4e84d12e56f66680dfdd5e895b39de01e2b5ac9609766b49cfea009d8c06679615d5b230c5173a4fcbead4e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "gtkmm2-documentation gtkmm2-tutorial"
+RPROVIDES:${PN} += "gtkmm2-documentation \
+gtkmm2-tutorial"
 RDEPENDS:${PN} += "gtkmm2-doc"
 
 inherit rpm

@@ -38,7 +38,11 @@ RPM_NAME = "perl-Devel-Confess-0.009004-1.23.noarch.rpm"
 RPM_HASH = "b6a6a20636248ccabbe26dd9917d41e91dc14502d6606a1ce7fd4253ff0b06fc9c9440f0b3e007b82125a7d7a2b8868ab361f89e586b4562215368ee0404b5c6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Devel::Confess) perl(Devel::Confess::Builtin) perl(Devel::Confess::Source) perl(Devel::Confess::_Util) perl-Devel-Confess"
+RPROVIDES:${PN} += "perl(Devel::Confess) \
+perl(Devel::Confess::Builtin) \
+perl(Devel::Confess::Source) \
+perl(Devel::Confess::_Util) \
+perl-Devel-Confess"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

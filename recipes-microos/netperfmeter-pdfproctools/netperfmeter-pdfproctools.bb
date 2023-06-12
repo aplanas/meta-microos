@@ -16,6 +16,11 @@ RPM_HASH = "39ecd2b4302e083663970bff06152317672081e2695239452da1c8091200fa868080
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netperfmeter-pdfproctools"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl ghostscript perl perl-PDF-API2 qpdf"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+ghostscript \
+perl \
+perl-PDF-API2 \
+qpdf"
 
 inherit rpm

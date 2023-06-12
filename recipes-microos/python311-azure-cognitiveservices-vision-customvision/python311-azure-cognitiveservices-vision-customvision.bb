@@ -10,7 +10,14 @@ RPM_NAME = "python311-azure-cognitiveservices-vision-customvision-3.1.0-2.11.noa
 RPM_HASH = "3b758f3791089bc0bfb25ad34356baa03842cbfd6ec40a63b366aeaf6b4c1e3ee83e68573dfd1304d14eaf71b1880cfaffd90e9ec707427416cbb902ebce17c3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-vision-customvision) python311-azure-cognitiveservices-vision-customvision python3dist(azure-cognitiveservices-vision-customvision)"
-RDEPENDS:${PN} += "python(abi) python311-azure-cognitiveservices-nspkg python311-azure-cognitiveservices-vision-nspkg python311-azure-common python311-azure-nspkg python311-msrest"
+RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-vision-customvision) \
+python311-azure-cognitiveservices-vision-customvision \
+python3dist(azure-cognitiveservices-vision-customvision)"
+RDEPENDS:${PN} += "python(abi) \
+python311-azure-cognitiveservices-nspkg \
+python311-azure-cognitiveservices-vision-nspkg \
+python311-azure-common \
+python311-azure-nspkg \
+python311-msrest"
 
 inherit rpm

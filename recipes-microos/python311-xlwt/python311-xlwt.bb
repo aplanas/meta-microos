@@ -12,7 +12,9 @@ RPM_NAME = "python311-xlwt-1.3.0-2.15.noarch.rpm"
 RPM_HASH = "24fb09503549acee000c6473c6678d1c42a3865afa219fa56ce9918e633e1c46b5b3b4d9c45b58bd218fa40ab3d7a4b239b9e45990e92d763d302360ad3f0950"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(xlwt) python311-xlwt python3dist(xlwt)"
+RPROVIDES:${PN} += "python3.11dist(xlwt) \
+python311-xlwt \
+python3dist(xlwt)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

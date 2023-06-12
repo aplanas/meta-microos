@@ -11,6 +11,8 @@ RPM_HASH = "f6138ef7949f70709cf63788402745a7363fb5362abee6f99734dc0239c20c39932f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "growpart"
-RDEPENDS:${PN} += "/bin/sh gptfdisk util-linux"
+RDEPENDS:${PN} += "/bin/sh \
+gptfdisk \
+util-linux"
 
 inherit rpm

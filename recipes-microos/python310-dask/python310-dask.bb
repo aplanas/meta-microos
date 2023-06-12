@@ -17,7 +17,23 @@ RPM_NAME = "python310-dask-2023.3.2-3.1.noarch.rpm"
 RPM_HASH = "57bc71c4bce88ef6eef5229c0a81530e2359c292e6ac705c01fe5134cec7f34904d8f744abfc344282343194ade33c613e6768290a5dccb9f7deccee8c4f1d8d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dask python3-dask-multiprocessing python3.10dist(dask) python310-dask python310-dask-multiprocessing python3dist(dask)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-PyYAML python310-click python310-cloudpickle python310-fsspec python310-importlib-metadata python310-packaging python310-partd python310-toolz update-alternatives"
+RPROVIDES:${PN} += "python3-dask \
+python3-dask-multiprocessing \
+python3.10dist(dask) \
+python310-dask \
+python310-dask-multiprocessing \
+python3dist(dask)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-PyYAML \
+python310-click \
+python310-cloudpickle \
+python310-fsspec \
+python310-importlib-metadata \
+python310-packaging \
+python310-partd \
+python310-toolz \
+update-alternatives"
 
 inherit rpm

@@ -12,7 +12,23 @@ RPM_NAME = "texlive-nag-2023.201.0.0.7svn24741-54.1.noarch.rpm"
 RPM_HASH = "f3bfef7ccd729100adbcfe67173877fc6959db9ad99a760562e94c531207f07cf0e237ca18eaffd8e6923114efb32dd8ad02c43207d329cb186ea582bf888132"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(nag-abort.cfg) tex(nag-experimental.cfg) tex(nag-l2tabu.cfg) tex(nag-orthodox.cfg) tex(nag.sty) texlive-nag"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(nag-abort.cfg) \
+tex(nag-experimental.cfg) \
+tex(nag-l2tabu.cfg) \
+tex(nag-orthodox.cfg) \
+tex(nag.sty) \
+texlive-nag"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

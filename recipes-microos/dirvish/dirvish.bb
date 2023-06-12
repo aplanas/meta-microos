@@ -11,7 +11,12 @@ RPM_NAME = "dirvish-1.2.1-2.15.noarch.rpm"
 RPM_HASH = "04edd83b9c53df9ff8d4be7caa2c363605768a33ea09ae1d40ec6fc23ed943475fb27939f2cc145aef7b88ac433fbab4733c703f64b309303f2f8ade2074eaf1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(dirvish) dirvish"
-RDEPENDS:${PN} += "/usr/bin/perl perl perl(Time::ParseDate) perl(Time::Period) rsync"
+RPROVIDES:${PN} += "config(dirvish) \
+dirvish"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl \
+perl(Time::ParseDate) \
+perl(Time::Period) \
+rsync"
 
 inherit rpm

@@ -37,7 +37,12 @@ RPM_NAME = "maven-archetype-3.2.1-1.9.noarch.rpm"
 RPM_HASH = "e977f6dcf2d0c6037cec1b704fd48dc31fc0d3ce73371019a3e26ec8e7860fd543f82f177b5fad8262eaecc699de1d9b5b8b2bcb3c73fa92d4cea69e72e5e149"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "maven-archetype mvn(org.apache.maven.archetype:archetype-models:pom:) mvn(org.apache.maven.archetype:maven-archetype:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(org.apache.maven:maven-parent:pom:) mvn(org.codehaus.plexus:plexus-component-metadata)"
+RPROVIDES:${PN} += "maven-archetype \
+mvn(org.apache.maven.archetype:archetype-models:pom:) \
+mvn(org.apache.maven.archetype:maven-archetype:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(org.apache.maven:maven-parent:pom:) \
+mvn(org.codehaus.plexus:plexus-component-metadata)"
 
 inherit rpm

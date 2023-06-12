@@ -40,7 +40,13 @@ RPM_NAME = "python310-blessed-1.19.1-2.3.noarch.rpm"
 RPM_HASH = "cc747ccc6ebac12bb19617b92d49a90d469d27ef952e2b8c6a215bffbc68c15c21aeb9ee3210a4260c6ff4100497a1dd77091dcb4b2c4ae3d0d05bdb0ecb7aa4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-blessed python3.10dist(blessed) python310-blessed python3dist(blessed)"
-RDEPENDS:${PN} += "python(abi) python310-curses python310-six python310-wcwidth"
+RPROVIDES:${PN} += "python3-blessed \
+python3.10dist(blessed) \
+python310-blessed \
+python3dist(blessed)"
+RDEPENDS:${PN} += "python(abi) \
+python310-curses \
+python310-six \
+python310-wcwidth"
 
 inherit rpm

@@ -20,7 +20,11 @@ PV = "1.2.13"
 RPM_NAME = "zlib-devel-1.2.13-4.1.aarch64.rpm"
 RPM_HASH = "508421172c7b98086e8088e02476b1dc081a82c09997698336ce633c78024e98d87a352d737e037410c71e0cbd432f97f4744bf70e86e2b37fe0413fc549a4a1"
 
-RPROVIDES:${PN} += "pkgconfig(zlib) zlib-devel zlib-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config glibc-devel libz1"
+RPROVIDES:${PN} += "pkgconfig(zlib) \
+zlib-devel \
+zlib-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+glibc-devel \
+libz1"
 
 inherit rpm

@@ -12,7 +12,10 @@ RPM_NAME = "python311-slack-sdk-3.21.3-1.1.noarch.rpm"
 RPM_HASH = "ffccd86e630b079696381cbb78383e0e7c607fc8fe03f13d70b92ce3c4f14d54224086ea30ba8fb52ae96544024cccf172f237d72c926832654b490222e479dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(slack-sdk) python311-slack-sdk python311-slackclient python3dist(slack-sdk)"
+RPROVIDES:${PN} += "python3.11dist(slack-sdk) \
+python311-slack-sdk \
+python311-slackclient \
+python3dist(slack-sdk)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

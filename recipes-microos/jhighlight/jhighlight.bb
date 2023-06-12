@@ -12,7 +12,12 @@ RPM_NAME = "jhighlight-1.0.1-2.10.noarch.rpm"
 RPM_HASH = "d4caa7d7dd767f8b43df46933ba2e9dd29ee227b4c78fb9ea998d5acfd2a8c2faf236650dccc34e78e1f3d2e12787d6ca375233230790fdebd78230250ca7a2e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jhighlight mvn(com.uwyn:jhighlight) mvn(com.uwyn:jhighlight:pom:) mvn(org.codelibs:jhighlight) mvn(org.codelibs:jhighlight:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "jhighlight \
+mvn(com.uwyn:jhighlight) \
+mvn(com.uwyn:jhighlight:pom:) \
+mvn(org.codelibs:jhighlight) \
+mvn(org.codelibs:jhighlight:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

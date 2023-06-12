@@ -26,7 +26,8 @@ RPM_NAME = "perl-Test-MockRandom-1.01-1.22.noarch.rpm"
 RPM_HASH = "171f571d79550f1e85a626c8fddfc17075b99c5192976ab8fa9b9cc7afce52b9569ac81603b673c352b2a00be25f3b0760e8aab5c7b4a484698683103f4d36a9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::MockRandom) perl-Test-MockRandom"
+RPROVIDES:${PN} += "perl(Test::MockRandom) \
+perl-Test-MockRandom"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

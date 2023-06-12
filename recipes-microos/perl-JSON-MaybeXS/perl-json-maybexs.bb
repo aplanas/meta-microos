@@ -19,7 +19,10 @@ RPM_NAME = "perl-JSON-MaybeXS-1.004005-1.1.noarch.rpm"
 RPM_HASH = "929dc6c9a699114bf77d3b89bcd43b8b2f1766a597b1c642bf60054275a8498210b9fe0326a288d2d2c460a7245d453cbb879e540cd7c06bd611ecd3adf603ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(JSON::MaybeXS) perl-JSON-MaybeXS"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Cpanel::JSON::XS) perl(JSON::PP)"
+RPROVIDES:${PN} += "perl(JSON::MaybeXS) \
+perl-JSON-MaybeXS"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Cpanel::JSON::XS) \
+perl(JSON::PP)"
 
 inherit rpm

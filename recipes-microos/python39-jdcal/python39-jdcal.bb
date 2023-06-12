@@ -14,7 +14,9 @@ RPM_NAME = "python39-jdcal-1.4.1-1.14.noarch.rpm"
 RPM_HASH = "1e0f54e03290f5ce6ad58a086a627506aa6f6b7117f0e0c94359abbf093c2d63f6ce88b691b1296e6b45281456104d5bc31454dce2531055bc04280d72961cdd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(jdcal) python39-jdcal python3dist(jdcal)"
+RPROVIDES:${PN} += "python3.9dist(jdcal) \
+python39-jdcal \
+python3dist(jdcal)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

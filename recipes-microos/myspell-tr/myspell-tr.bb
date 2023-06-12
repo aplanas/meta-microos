@@ -8,7 +8,11 @@ RPM_NAME = "myspell-tr-20221012-1.2.noarch.rpm"
 RPM_HASH = "e264b65c54e8eb9839d2653b798cff11e36072886357e6938d743cd8e2cc98afff45aa615377b7a20167db8e7eb0465540c9b0413f2c18dd96f07ed4d0cbadd8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:tr) locale(seamonkey-spellchecker:tr) myspell-dictionary myspell-tr"
-RDEPENDS:${PN} += "myspell-dictionaries myspell-tr_TR"
+RPROVIDES:${PN} += "locale(libreoffice:tr) \
+locale(seamonkey-spellchecker:tr) \
+myspell-dictionary \
+myspell-tr"
+RDEPENDS:${PN} += "myspell-dictionaries \
+myspell-tr_TR"
 
 inherit rpm

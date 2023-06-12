@@ -18,7 +18,8 @@ PV = "3.1.6"
 RPM_NAME = "openmpi3-docs-3.1.6-7.3.aarch64.rpm"
 RPM_HASH = "a42e7a5b9cd78f26cfeee768d16c704c5b40fc78665702621e233ef82a0c0615351ac3bfc80690448227d0cecbf745798284e8e7dd92a61cab065f70c09957c6"
 
-RPROVIDES:${PN} += "openmpi3-docs openmpi3-docs(aarch-64)"
+RPROVIDES:${PN} += "openmpi3-docs \
+openmpi3-docs(aarch-64)"
 RDEPENDS:${PN} += "openmpi3"
 
 inherit rpm

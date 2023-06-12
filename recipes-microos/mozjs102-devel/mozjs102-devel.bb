@@ -12,7 +12,11 @@ PV = "102.11.0"
 RPM_NAME = "mozjs102-devel-102.11.0-1.2.aarch64.rpm"
 RPM_HASH = "215afff6899eb5d746f1773ac090d0e8809d204f1558f95c95f59794dadd06efd4fa409b85ddf78ae1de6f07bfe1723abecb430b2912aafa688206af2b3a4a25"
 
-RPROVIDES:${PN} += "mozjs102-devel mozjs102-devel(aarch-64) pkgconfig(mozjs-102)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libmozjs-102-0 pkgconfig"
+RPROVIDES:${PN} += "mozjs102-devel \
+mozjs102-devel(aarch-64) \
+pkgconfig(mozjs-102)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libmozjs-102-0 \
+pkgconfig"
 
 inherit rpm

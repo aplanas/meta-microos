@@ -19,7 +19,11 @@ PV = "0.22"
 RPM_NAME = "perl-B-Hooks-OP-Check-0.22-1.29.aarch64.rpm"
 RPM_HASH = "d07b67bc0783d1e01166888a5473366e7fdd8f87b1d8554946c7deaa0d7bb32b300155c6262006e23e2706ad8b4163d8ae004f8d506bd2b4705a2259357c24a6"
 
-RPROVIDES:${PN} += "perl(B::Hooks::OP::Check) perl(B::Hooks::OP::Check::Install::Files) perl-B-Hooks-OP-Check perl-B-Hooks-OP-Check(aarch-64)"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(parent)"
+RPROVIDES:${PN} += "perl(B::Hooks::OP::Check) \
+perl(B::Hooks::OP::Check::Install::Files) \
+perl-B-Hooks-OP-Check \
+perl-B-Hooks-OP-Check(aarch-64)"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(parent)"
 
 inherit rpm

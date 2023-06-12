@@ -11,7 +11,19 @@ RPM_NAME = "texlive-cutwin-2023.204.0.0.2svn60901-54.1.noarch.rpm"
 RPM_HASH = "e13dce037d27a7a53ea02df1cc36b80e26830b93a8508684c3b8cb44fe0b148ebbfb81bbf2843bc7af0577678ab37fd661a0b3a08473f36fd9b90ef1c334c66e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cutwin.sty) texlive-cutwin"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(cutwin.sty) \
+texlive-cutwin"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

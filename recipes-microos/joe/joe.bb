@@ -8,7 +8,16 @@ PV = "4.6"
 RPM_NAME = "joe-4.6-2.17.aarch64.rpm"
 RPM_HASH = "666fe0c904d1aebabe2bf99bf05ccf720f33fc761e04620ef399940c6d0c63c4cd9fc1deb5358b05f4a617a08c02d8a3404cc0aa2dfff678bdb9da9e6be58a17"
 
-RPROVIDES:${PN} += "config(joe) joe joe(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit)"
+RPROVIDES:${PN} += "config(joe) \
+joe \
+joe(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit)"
 
 inherit rpm

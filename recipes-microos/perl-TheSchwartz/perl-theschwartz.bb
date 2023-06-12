@@ -29,7 +29,17 @@ RPM_NAME = "perl-TheSchwartz-1.17-1.7.noarch.rpm"
 RPM_HASH = "da9ac6fa9a0cd102d2f98fd9249c6cc9ad30c633bc4e1854a0025d3ff39bb32866f0a3e3a11d94feaf2ef62316cb1be0b8a95ef6732cc59be5c9fc7e764970fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(TheSchwartz) perl(TheSchwartz::Error) perl(TheSchwartz::ExitStatus) perl(TheSchwartz::FuncMap) perl(TheSchwartz::Job) perl(TheSchwartz::JobHandle) perl(TheSchwartz::Worker) perl-TheSchwartz"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Class::Accessor::Fast) perl(Data::ObjectDriver)"
+RPROVIDES:${PN} += "perl(TheSchwartz) \
+perl(TheSchwartz::Error) \
+perl(TheSchwartz::ExitStatus) \
+perl(TheSchwartz::FuncMap) \
+perl(TheSchwartz::Job) \
+perl(TheSchwartz::JobHandle) \
+perl(TheSchwartz::Worker) \
+perl-TheSchwartz"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Accessor::Fast) \
+perl(Data::ObjectDriver)"
 
 inherit rpm

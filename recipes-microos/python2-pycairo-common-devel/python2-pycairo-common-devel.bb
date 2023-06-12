@@ -10,7 +10,11 @@ PV = "1.18.1"
 RPM_NAME = "python2-pycairo-common-devel-1.18.1-5.14.aarch64.rpm"
 RPM_HASH = "73a4310601093cd7f7fb1cd88602d10f8cc51436da9127f97733726f03feff816fd38304002234e9af175793e1851c4a5e173959dc84423a20f19caa63c266cb"
 
-RPROVIDES:${PN} += "python-cairo-common-devel python-pycairo-common-devel python2-cairo-common-devel python2-pycairo-common-devel python2-pycairo-common-devel(aarch-64)"
+RPROVIDES:${PN} += "python-cairo-common-devel \
+python-pycairo-common-devel \
+python2-cairo-common-devel \
+python2-pycairo-common-devel \
+python2-pycairo-common-devel(aarch-64)"
 RDEPENDS:${PN} += "cairo-devel"
 
 inherit rpm

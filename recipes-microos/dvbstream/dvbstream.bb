@@ -11,7 +11,10 @@ PV = "0.6"
 RPM_NAME = "dvbstream-0.6-163.8.aarch64.rpm"
 RPM_HASH = "e6e8340dd741b90c8af4f8248151ba6ade2e4561317a8267fcb568d8d813a43bf93a772077d1e3ccf1a1411f6af5e91db3aea3f122550a4069ac9ce9f8029505"
 
-RPROVIDES:${PN} += "dvbstream dvbstream(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "dvbstream \
+dvbstream(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -22,7 +22,12 @@ PV = "1.07.1"
 RPM_NAME = "bc-1.07.1-4.22.aarch64.rpm"
 RPM_HASH = "d1927b719a4a9b14cece5d3b77737847fac886e8c307a1dc0c79e6c4ddb862cf1ab95c645e9fd661bbd5d6fefbc81fabf4043bf8ffcd50d4e647f6b2f5aac015"
 
-RPROVIDES:${PN} += "bc bc(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libreadline.so.8()(64bit)"
+RPROVIDES:${PN} += "bc \
+bc(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libreadline.so.8()(64bit)"
 
 inherit rpm

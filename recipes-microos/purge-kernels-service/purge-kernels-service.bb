@@ -8,7 +8,9 @@ RPM_NAME = "purge-kernels-service-0-9.4.noarch.rpm"
 RPM_HASH = "4a7637316f7f3cff3a3a8b068b93c57a5b0698d0653109cd75602472a109cfbc5e45b93532a0b275be5653828258e17790a375eccad5b05f8cb8dd503cbf30ca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "dracut:/usr/lib/systemd/system/purge-kernels.service purge-kernels-service"
-RDEPENDS:${PN} += "/bin/sh zypper(purge-kernels)"
+RPROVIDES:${PN} += "dracut:/usr/lib/systemd/system/purge-kernels.service \
+purge-kernels-service"
+RDEPENDS:${PN} += "/bin/sh \
+zypper(purge-kernels)"
 
 inherit rpm

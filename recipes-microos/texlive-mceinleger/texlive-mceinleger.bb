@@ -11,7 +11,19 @@ RPM_NAME = "texlive-mceinleger-2023.201.svn15878-52.1.noarch.rpm"
 RPM_HASH = "babd78df76eff8be460d47e02d68af219ab885986cfe1c46566d73672edbc5ae07d5646ba403c5ad0aeeb832836dd994e717e2f6799514064de33cbe2ca63012"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mceinleger.sty) texlive-mceinleger"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(mceinleger.sty) \
+texlive-mceinleger"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

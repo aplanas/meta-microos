@@ -11,7 +11,8 @@ PV = "16.0.4"
 RPM_NAME = "lldb-devel-16.0.4-1.1.aarch64.rpm"
 RPM_HASH = "27327f2ffecf63cf2246f821997d563ee45a3f018b75c94c82e5654bc6f96422d76c91376a12063e13a4b6f8f96f71bd9f6d3d69be3166ea4ccde534d924f632"
 
-RPROVIDES:${PN} += "lldb-devel lldb-devel(aarch-64)"
+RPROVIDES:${PN} += "lldb-devel \
+lldb-devel(aarch-64)"
 RDEPENDS:${PN} += "lldb16-devel"
 
 inherit rpm

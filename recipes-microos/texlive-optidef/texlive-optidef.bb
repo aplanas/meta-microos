@@ -23,7 +23,25 @@ RPM_NAME = "texlive-optidef-2023.201.3.1svn50941-54.1.noarch.rpm"
 RPM_HASH = "0f58414fb09d33093dbc597d25c170c8548005285fb843e60e3a502fde0bb15aad25790b2a56980625943d2fcd553b76f3522552226e93e4c257c06276eaab15"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(optidef.sty) texlive-optidef"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(environ.sty) tex(etoolbox.sty) tex(mathtools.sty) tex(xifthen.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(optidef.sty) \
+texlive-optidef"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(environ.sty) \
+tex(etoolbox.sty) \
+tex(mathtools.sty) \
+tex(xifthen.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

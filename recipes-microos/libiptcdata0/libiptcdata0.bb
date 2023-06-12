@@ -15,7 +15,13 @@ PV = "1.0.5"
 RPM_NAME = "libiptcdata0-1.0.5-1.10.aarch64.rpm"
 RPM_HASH = "6f951c7f698ff0dd03c71ce121a09132ce0f3093843c3289d2bd0fae1450ddc12f42619ce46d31f0fc68fde7cdfd4985c0860d45211fc13bc69afe70bd461d85"
 
-RPROVIDES:${PN} += "libiptcdata.so.0()(64bit) libiptcdata0 libiptcdata0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libiptcdata"
+RPROVIDES:${PN} += "libiptcdata.so.0()(64bit) \
+libiptcdata0 \
+libiptcdata0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libiptcdata"
 
 inherit rpm

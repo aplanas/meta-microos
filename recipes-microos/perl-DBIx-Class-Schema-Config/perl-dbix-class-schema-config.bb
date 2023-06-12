@@ -17,7 +17,16 @@ RPM_NAME = "perl-DBIx-Class-Schema-Config-0.001014-1.9.noarch.rpm"
 RPM_HASH = "64079cbeda5439d27a0f09200afa1025af6f0e44a4c6d7af9b86de5381d8f006f4548dee7cfa0ea063e80118be2d40267528fa16a241f48bc31101659a0585f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DBIx::Class::Schema::Config) perl-DBIx-Class-Schema-Config"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Config::Any) perl(DBD::SQLite) perl(DBIx::Class) perl(DBIx::Class::Schema) perl(File::HomeDir) perl(Hash::Merge) perl(URI) perl(namespace::clean)"
+RPROVIDES:${PN} += "perl(DBIx::Class::Schema::Config) \
+perl-DBIx-Class-Schema-Config"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Config::Any) \
+perl(DBD::SQLite) \
+perl(DBIx::Class) \
+perl(DBIx::Class::Schema) \
+perl(File::HomeDir) \
+perl(Hash::Merge) \
+perl(URI) \
+perl(namespace::clean)"
 
 inherit rpm

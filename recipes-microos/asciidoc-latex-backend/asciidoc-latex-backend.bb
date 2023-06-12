@@ -10,6 +10,19 @@ RPM_HASH = "f7831237e13a05adf616187e00e47fa30149f1194bcbdaacd503ab6f967d4b97e458
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "asciidoc-latex-backend"
-RDEPENDS:${PN} += "asciidoc dblatex tex(8r.enc) tex(fancybox.sty) tex(mathrsfs.sty) tex(pcrr8c.tfm) tex(phvr8t.tfm) tex(ptmr8t.tfm) tex(ptmri7t.tfm) tex(rsfs10.tfm) tex(upquote.sty) tex(zptmcm7v.tfm) tex(zptmcm7y.tfm) texlive-metafont-bin"
+RDEPENDS:${PN} += "asciidoc \
+dblatex \
+tex(8r.enc) \
+tex(fancybox.sty) \
+tex(mathrsfs.sty) \
+tex(pcrr8c.tfm) \
+tex(phvr8t.tfm) \
+tex(ptmr8t.tfm) \
+tex(ptmri7t.tfm) \
+tex(rsfs10.tfm) \
+tex(upquote.sty) \
+tex(zptmcm7v.tfm) \
+tex(zptmcm7y.tfm) \
+texlive-metafont-bin"
 
 inherit rpm

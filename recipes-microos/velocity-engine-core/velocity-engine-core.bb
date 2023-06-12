@@ -27,7 +27,14 @@ RPM_NAME = "velocity-engine-core-2.3-3.9.noarch.rpm"
 RPM_HASH = "2af1df5b79e5249d842217ebc207892b2fda91322d00a39a8866ae20b9be56fe2223d066cbb371221efe66979a48d7ee2da0f5cb3f3ca31bf8e74e0a0ead62a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.apache.velocity:velocity-engine-core) mvn(org.apache.velocity:velocity-engine-core:pom:) osgi(org.apache.velocity.engine-core) velocity-engine-core"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(commons-io:commons-io) mvn(org.apache.commons:commons-lang3) mvn(org.slf4j:slf4j-api)"
+RPROVIDES:${PN} += "mvn(org.apache.velocity:velocity-engine-core) \
+mvn(org.apache.velocity:velocity-engine-core:pom:) \
+osgi(org.apache.velocity.engine-core) \
+velocity-engine-core"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(commons-io:commons-io) \
+mvn(org.apache.commons:commons-lang3) \
+mvn(org.slf4j:slf4j-api)"
 
 inherit rpm

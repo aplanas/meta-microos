@@ -25,7 +25,10 @@ RPM_NAME = "python310-argh-0.26.2-5.6.noarch.rpm"
 RPM_HASH = "93e9f6c61ea15d1e2c5da457cbfc48988f25a19970ed5a0791a64da929d4de9dfd9b59efe5f165d77a546769f0a44e991c792a55ffcfed7e36f2a513d3a17281"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-argh python3.10dist(argh) python310-argh python3dist(argh)"
+RPROVIDES:${PN} += "python3-argh \
+python3.10dist(argh) \
+python310-argh \
+python3dist(argh)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

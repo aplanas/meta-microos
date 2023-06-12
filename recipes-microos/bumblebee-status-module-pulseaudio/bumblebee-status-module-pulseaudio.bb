@@ -10,6 +10,8 @@ RPM_HASH = "5ac202b867031e96b9b4b121e8d5ec2e74cbb3185f0e65c47f9d0c8553aca56fbb67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-pulseaudio"
-RDEPENDS:${PN} += "bumblebee-status pavucontrol pulseaudio-utils"
+RDEPENDS:${PN} += "bumblebee-status \
+pavucontrol \
+pulseaudio-utils"
 
 inherit rpm

@@ -9,6 +9,8 @@ RPM_HASH = "2cfa51b1ca9f0f485adacfaa38997b931db68e01a63e8b871840ff43d06b903920db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbsplit-tools"
-RDEPENDS:${PN} += "/usr/bin/perl perl-XML-DOM perl-XML-RegExp"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl-XML-DOM \
+perl-XML-RegExp"
 
 inherit rpm

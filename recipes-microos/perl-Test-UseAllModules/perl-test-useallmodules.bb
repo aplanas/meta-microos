@@ -12,7 +12,8 @@ RPM_NAME = "perl-Test-UseAllModules-0.17-1.26.noarch.rpm"
 RPM_HASH = "991ca8762f8be7ef524ab3a23156ef14937ed3f674585ad87ca6d1374388886e500a55b05db32057ff65370ae857d2779d9645028342602ab1cabf55751de5cc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::UseAllModules) perl-Test-UseAllModules"
+RPROVIDES:${PN} += "perl(Test::UseAllModules) \
+perl-Test-UseAllModules"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

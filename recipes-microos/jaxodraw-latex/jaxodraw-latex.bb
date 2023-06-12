@@ -13,6 +13,11 @@ RPM_HASH = "0261fb01cad47acab4bf07046af5283f959bacf5c36c10c5615c1bac764a623cac55
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxodraw-latex"
-RDEPENDS:${PN} += "/bin/sh coreutils jaxodraw tex(latex) texlive texlive-pst-tools"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+jaxodraw \
+tex(latex) \
+texlive \
+texlive-pst-tools"
 
 inherit rpm

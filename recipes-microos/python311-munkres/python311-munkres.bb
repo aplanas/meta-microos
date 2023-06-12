@@ -17,7 +17,9 @@ RPM_NAME = "python311-munkres-1.1.4-4.1.noarch.rpm"
 RPM_HASH = "e2748799c46efde7de0d0e1c70464a544244fa4d243b7cd5df83ef94b093aa78b81baa752ae390312516c117805f721b99191db10cf5923ae441b4d17bfd9242"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(munkres) python311-munkres python3dist(munkres)"
+RPROVIDES:${PN} += "python3.11dist(munkres) \
+python311-munkres \
+python3dist(munkres)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

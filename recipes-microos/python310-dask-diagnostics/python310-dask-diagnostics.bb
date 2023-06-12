@@ -19,7 +19,11 @@ RPM_NAME = "python310-dask-diagnostics-2023.3.2-3.1.noarch.rpm"
 RPM_HASH = "b6fa9128028cd1fdcdf2ca57a2038221849467c2e76cfe4e7fdce502c7ed2f11ddaabd90db8e6daf4e5c92e0a37ba0e82d059ba43e06d2460a86aea216839437"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dask-diagnostics python310-dask-diagnostics"
-RDEPENDS:${PN} += "(python310-bokeh >= 2.4.2 with python310-bokeh < 3) python(abi) python310-Jinja2 python310-dask"
+RPROVIDES:${PN} += "python3-dask-diagnostics \
+python310-dask-diagnostics"
+RDEPENDS:${PN} += "(python310-bokeh >= 2.4.2 with python310-bokeh < 3) \
+python(abi) \
+python310-Jinja2 \
+python310-dask"
 
 inherit rpm

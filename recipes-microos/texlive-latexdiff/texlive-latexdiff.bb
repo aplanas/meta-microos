@@ -18,6 +18,35 @@ RPM_HASH = "05a8b489b22296135d43b0fbd6dc018dcbf304c0ca93e22d157eefcb01a9bcc44808
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexdiff"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Exporter) perl(File::Basename) perl(File::Copy) perl(File::Path) perl(File::Spec) perl(File::Temp) perl(Getopt::Long) perl(IPC::Open2) perl(IPC::Open3) perl(Pod::Usage) perl(constant) perl(integer) perl(strict) perl(utf8) perl(vars) perl(warnings) sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-latexdiff-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Exporter) \
+perl(File::Basename) \
+perl(File::Copy) \
+perl(File::Path) \
+perl(File::Spec) \
+perl(File::Temp) \
+perl(Getopt::Long) \
+perl(IPC::Open2) \
+perl(IPC::Open3) \
+perl(Pod::Usage) \
+perl(constant) \
+perl(integer) \
+perl(strict) \
+perl(utf8) \
+perl(vars) \
+perl(warnings) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-latexdiff-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

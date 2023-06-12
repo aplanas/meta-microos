@@ -8,7 +8,8 @@ PV = "6.3.4"
 RPM_NAME = "kernel-obs-qa-6.3.4-1.1.aarch64.rpm"
 RPM_HASH = "13ca717094e15bd944b87bd02d89cc4bd09db07ee0845e6ab19f23cc4278afb38c5620b58957cb9b410158998c095d46c08aaa460ba4e8fcd165f0d889bdcae2"
 
-RPROVIDES:${PN} += "kernel-obs-qa kernel-obs-qa(aarch-64)"
+RPROVIDES:${PN} += "kernel-obs-qa \
+kernel-obs-qa(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,7 +9,18 @@ PV = "3.3.10"
 RPM_NAME = "libfftw3-3-3.3.10-3.5.aarch64.rpm"
 RPM_HASH = "d746be14210d803afa621b0cac9d58279d663901d9273a4d9bdd00d212ebf3cb3b9b7d1deefc16930adb70667b0a33e91c50e8c50ab8fe2df8aaed6cd36b2616"
 
-RPROVIDES:${PN} += "fftw3 libfftw3-3 libfftw3-3(aarch-64) libfftw3.so.3()(64bit) libfftw3f.so.3()(64bit) libfftw3l.so.3()(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "fftw3 \
+libfftw3-3 \
+libfftw3-3(aarch-64) \
+libfftw3.so.3()(64bit) \
+libfftw3f.so.3()(64bit) \
+libfftw3l.so.3()(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

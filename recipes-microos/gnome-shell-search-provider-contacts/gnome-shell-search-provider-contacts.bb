@@ -17,7 +17,21 @@ PV = "44.0"
 RPM_NAME = "gnome-shell-search-provider-contacts-44.0-1.1.aarch64.rpm"
 RPM_HASH = "9526972655a5397aba20860c54c5249171d2e5b58f4769cba7fa891877bbc9de4e146a19f7ef970ea3fc2f2d0c19ad69a9d95b2d544c51e79a1b3b31c3037f7a"
 
-RPROVIDES:${PN} += "gnome-shell-search-provider-contacts gnome-shell-search-provider-contacts(aarch-64)"
-RDEPENDS:${PN} += "gnome-contacts gnome-shell ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libedataserver-1.2.so.27()(64bit) libfolks-eds.so.26()(64bit) libfolks.so.26()(64bit) libgee-0.8.so.2()(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgoa-1.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgtk-4.so.1()(64bit)"
+RPROVIDES:${PN} += "gnome-shell-search-provider-contacts \
+gnome-shell-search-provider-contacts(aarch-64)"
+RDEPENDS:${PN} += "gnome-contacts \
+gnome-shell \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libedataserver-1.2.so.27()(64bit) \
+libfolks-eds.so.26()(64bit) \
+libfolks.so.26()(64bit) \
+libgee-0.8.so.2()(64bit) \
+libgio-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgoa-1.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgtk-4.so.1()(64bit)"
 
 inherit rpm

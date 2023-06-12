@@ -12,7 +12,11 @@ PV = "2.35.3"
 RPM_NAME = "dex-oidc-2.35.3-1.4.aarch64.rpm"
 RPM_HASH = "4f15fe2311976d66a602824c30659b2706dcf8f3eb798e334cfec2ae347f9a4fefffbb4411563ef184772adad3c8e013782e9a86f08b418e173c9c7ba14b58ca"
 
-RPROVIDES:${PN} += "caasp-dex dex-oidc dex-oidc(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/mkdir /usr/bin/touch fillup"
+RPROVIDES:${PN} += "caasp-dex \
+dex-oidc \
+dex-oidc(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/touch \
+fillup"
 
 inherit rpm

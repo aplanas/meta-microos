@@ -7,7 +7,12 @@ PV = "1.2.8"
 RPM_NAME = "libSDL_net-devel-1.2.8-7.26.aarch64.rpm"
 RPM_HASH = "9be6c728cc1c6e3d769bdbdbb7826de147b14c9659c429598b33e49a20ef34e68e1d3d65c17ed7dccc14f96c207fc901a60eda67757516c70d9d25f9e3eb0a73"
 
-RPROVIDES:${PN} += "SDL_net-devel libSDL_net-devel libSDL_net-devel(aarch-64) pkgconfig(SDL_net)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libSDL_net-1_2-0 pkgconfig(sdl)"
+RPROVIDES:${PN} += "SDL_net-devel \
+libSDL_net-devel \
+libSDL_net-devel(aarch-64) \
+pkgconfig(SDL_net)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libSDL_net-1_2-0 \
+pkgconfig(sdl)"
 
 inherit rpm

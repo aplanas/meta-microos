@@ -15,7 +15,25 @@ PV = "1.3.40"
 RPM_NAME = "libGraphicsMagick++-Q16-12-1.3.40-2.3.aarch64.rpm"
 RPM_HASH = "14096a18bbbeda13e8c05e8c845aa3e981059d93644fb0f6cb35af43fc6e9f4be27c8fffc70779ff578b14f0c5abb1b845cf2cf5d70fbe1f817cdbab3368f4d3"
 
-RPROVIDES:${PN} += "libGraphicsMagick++-Q16-12 libGraphicsMagick++-Q16-12(aarch-64) libGraphicsMagick++-Q16.so.12()(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libGraphicsMagick-Q16.so.3()(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
+RPROVIDES:${PN} += "libGraphicsMagick++-Q16-12 \
+libGraphicsMagick++-Q16-12(aarch-64) \
+libGraphicsMagick++-Q16.so.12()(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libGraphicsMagick-Q16.so.3()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.8)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
 
 inherit rpm

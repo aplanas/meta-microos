@@ -29,7 +29,14 @@ RPM_NAME = "python39-azure-security-attestation-1.0.0-1.8.noarch.rpm"
 RPM_HASH = "08cef2e3339ffcc992f6594babad8815eecc94bd28363b1cfadae3478d99753306d32eaea6e0074211e9795fb250bf47e6a2f7eea4c387479bc449e7e0eac4ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-security-attestation) python39-azure-security-attestation python3dist(azure-security-attestation)"
-RDEPENDS:${PN} += "python(abi) python39-azure-core python39-azure-nspkg python39-azure-security-nspkg python39-cryptography python39-msrest"
+RPROVIDES:${PN} += "python3.9dist(azure-security-attestation) \
+python39-azure-security-attestation \
+python3dist(azure-security-attestation)"
+RDEPENDS:${PN} += "python(abi) \
+python39-azure-core \
+python39-azure-nspkg \
+python39-azure-security-nspkg \
+python39-cryptography \
+python39-msrest"
 
 inherit rpm

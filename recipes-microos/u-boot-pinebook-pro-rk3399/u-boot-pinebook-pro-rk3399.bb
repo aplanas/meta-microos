@@ -8,7 +8,9 @@ PV = "2023.04"
 RPM_NAME = "u-boot-pinebook-pro-rk3399-2023.04-2.1.aarch64.rpm"
 RPM_HASH = "304ce48da7b205053c3ba555b5785cccf73d87eeaab476272d0614a11b432dc69e640a061e0bf53f93b16d89bb94b96a687dcabcc8d79f03a49d63e073063fc5"
 
-RPROVIDES:${PN} += "u-boot-loader u-boot-pinebook-pro-rk3399 u-boot-pinebook-pro-rk3399(aarch-64)"
+RPROVIDES:${PN} += "u-boot-loader \
+u-boot-pinebook-pro-rk3399 \
+u-boot-pinebook-pro-rk3399(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

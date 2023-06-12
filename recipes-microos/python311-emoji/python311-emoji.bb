@@ -18,7 +18,9 @@ RPM_NAME = "python311-emoji-2.4.0-1.1.noarch.rpm"
 RPM_HASH = "25b09aa511cc590ed8874c94697b0f32fb50314320c8b243cd9404262af5be667f1bc212c3be4b44fc10f5f5d6b9a187d931739564e84bd3121b3010b0600812"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(emoji) python311-emoji python3dist(emoji)"
+RPROVIDES:${PN} += "python3.11dist(emoji) \
+python311-emoji \
+python3dist(emoji)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

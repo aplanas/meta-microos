@@ -31,7 +31,33 @@ PV = "1.04"
 RPM_NAME = "sdl-ball-1.04-1.11.aarch64.rpm"
 RPM_HASH = "04c37be4f81bef66c19121336f73665996378539bbd1d0c4cd732617e1ff552fae03df6c69c6b65397c80d1631ee8da3bf240323592d629f6569375f06b1c2cf"
 
-RPROVIDES:${PN} += "application() application(sdl-ball.desktop) metainfo() metainfo(sdl-ball.appdata.xml) sdl-ball sdl-ball(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh libGL.so.1()(64bit) libGLU.so.1()(64bit) libSDL-1.2.so.0()(64bit) libSDL_image-1.2.so.0()(64bit) libSDL_mixer-1.2.so.0()(64bit) libSDL_ttf-2.0.so.0()(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.26)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit)"
+RPROVIDES:${PN} += "application() \
+application(sdl-ball.desktop) \
+metainfo() \
+metainfo(sdl-ball.appdata.xml) \
+sdl-ball \
+sdl-ball(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+libGL.so.1()(64bit) \
+libGLU.so.1()(64bit) \
+libSDL-1.2.so.0()(64bit) \
+libSDL_image-1.2.so.0()(64bit) \
+libSDL_mixer-1.2.so.0()(64bit) \
+libSDL_ttf-2.0.so.0()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit)"
 
 inherit rpm

@@ -9,6 +9,10 @@ RPM_HASH = "bd99c8580bf97cbea91aca4a4628783e5f168f155725ee11612b56939e633490f997
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "issue-generator"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/mkdir /usr/bin/touch fillup"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+fillup"
 
 inherit rpm

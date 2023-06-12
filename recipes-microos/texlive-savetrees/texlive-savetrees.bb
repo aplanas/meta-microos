@@ -16,7 +16,26 @@ RPM_NAME = "texlive-savetrees-2023.201.2.4svn40525-53.1.noarch.rpm"
 RPM_HASH = "766608edba435b678259a0051d9b6ae188f38ecbccc9e523bf73d3a6c98a6dfa5cb380cc9b770af55ce48e11e9599898c661cbc8e51853eb227422841e7cbf48"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(savetrees.bbx) tex(savetrees.cbx) tex(savetrees.sty) texlive-savetrees"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifluatex.sty) tex(ifpdf.sty) tex(numeric-comp.bbx) tex(numeric-comp.cbx) tex(xkeyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(savetrees.bbx) \
+tex(savetrees.cbx) \
+tex(savetrees.sty) \
+texlive-savetrees"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifluatex.sty) \
+tex(ifpdf.sty) \
+tex(numeric-comp.bbx) \
+tex(numeric-comp.cbx) \
+tex(xkeyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

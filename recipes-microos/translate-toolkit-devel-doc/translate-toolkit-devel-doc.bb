@@ -9,7 +9,9 @@ RPM_NAME = "translate-toolkit-devel-doc-3.8.6-1.2.noarch.rpm"
 RPM_HASH = "e2bcac07be8d2cfc72e47479b5a9f66e88c6f044fbe882783798c2170d01a3e247fb247669a69b486b518dfeeba10596e1abff984a38cf135ccf69644b6a7604"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "translate-toolkit-devel translate-toolkit-devel-doc"
-RDEPENDS:${PN} += "translate-toolkit translate-toolkit-doc"
+RPROVIDES:${PN} += "translate-toolkit-devel \
+translate-toolkit-devel-doc"
+RDEPENDS:${PN} += "translate-toolkit \
+translate-toolkit-doc"
 
 inherit rpm

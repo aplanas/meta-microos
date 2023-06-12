@@ -10,6 +10,7 @@ RPM_HASH = "48b5f6a881c07919157a4506bb90eca4551bcc139a9d1be53256b2032691e7a3cc9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-patch-translation"
-RDEPENDS:${PN} += "/bin/bash intltool"
+RDEPENDS:${PN} += "/bin/bash \
+intltool"
 
 inherit rpm

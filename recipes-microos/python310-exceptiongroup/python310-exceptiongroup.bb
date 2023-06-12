@@ -32,7 +32,10 @@ RPM_NAME = "python310-exceptiongroup-1.1.1-2.1.noarch.rpm"
 RPM_HASH = "a7e7c0d4140b2c01ff7f8f7e839dd617ecff8f643499a28885c0fef1daee16fed032c149bea3107312d33e22480f09f481223ed850926b7a68b056d8691d6a4e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-exceptiongroup python3.10dist(exceptiongroup) python310-exceptiongroup python3dist(exceptiongroup)"
+RPROVIDES:${PN} += "python3-exceptiongroup \
+python3.10dist(exceptiongroup) \
+python310-exceptiongroup \
+python3dist(exceptiongroup)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

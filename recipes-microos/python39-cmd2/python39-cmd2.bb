@@ -24,7 +24,13 @@ RPM_NAME = "python39-cmd2-2.4.3-1.3.noarch.rpm"
 RPM_HASH = "91133c6a3d23d0f8df0bc703c9cecf8aad200e7b13285cd088558661fe7e127fe81bcca7923c230a58e79bf3477372cada70d2c3ac03836ee43d9aabbf4bdcd3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(cmd2) python39-cmd2 python3dist(cmd2)"
-RDEPENDS:${PN} += "python(abi) python39 python39-attrs python39-pyperclip python39-wcwidth"
+RPROVIDES:${PN} += "python3.9dist(cmd2) \
+python39-cmd2 \
+python3dist(cmd2)"
+RDEPENDS:${PN} += "python(abi) \
+python39 \
+python39-attrs \
+python39-pyperclip \
+python39-wcwidth"
 
 inherit rpm

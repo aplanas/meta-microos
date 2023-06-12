@@ -9,7 +9,20 @@ PV = "1.26.1"
 RPM_NAME = "mate-system-log-1.26.1-1.1.aarch64.rpm"
 RPM_HASH = "f7274d15c6ce41b87b03fa3bf9347dec333a4e78431a90c90ec204d305ecb8e9e2239b1edf38bb5006d9a01532b8d95116d5efdd6707b9b3175ef9bb07fdf4fb"
 
-RPROVIDES:${PN} += "application() application(mate-system-log.desktop) mate-system-log mate-system-log(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgdk-3.so.0()(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgtk-3.so.0()(64bit) libpango-1.0.so.0()(64bit) libz.so.1()(64bit) mate-desktop-gschemas"
+RPROVIDES:${PN} += "application() \
+application(mate-system-log.desktop) \
+mate-system-log \
+mate-system-log(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgdk-3.so.0()(64bit) \
+libgio-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgtk-3.so.0()(64bit) \
+libpango-1.0.so.0()(64bit) \
+libz.so.1()(64bit) \
+mate-desktop-gschemas"
 
 inherit rpm

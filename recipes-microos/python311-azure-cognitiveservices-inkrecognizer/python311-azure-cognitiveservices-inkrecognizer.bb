@@ -16,7 +16,12 @@ RPM_NAME = "python311-azure-cognitiveservices-inkrecognizer-1.0.0b1-2.11.noarch.
 RPM_HASH = "39472d9fcd1468ea8f3189cd5d233ba1452ff08f28cebe7b2b4cc235086c933801d1b079613f5ea5259ad22c4f844412e616953710d950ad0682900418d0d1c3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-inkrecognizer) python311-azure-cognitiveservices-inkrecognizer python3dist(azure-cognitiveservices-inkrecognizer)"
-RDEPENDS:${PN} += "python(abi) python311-azure-cognitiveservices-nspkg python311-azure-common python311-azure-core"
+RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-inkrecognizer) \
+python311-azure-cognitiveservices-inkrecognizer \
+python3dist(azure-cognitiveservices-inkrecognizer)"
+RDEPENDS:${PN} += "python(abi) \
+python311-azure-cognitiveservices-nspkg \
+python311-azure-common \
+python311-azure-core"
 
 inherit rpm

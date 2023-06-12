@@ -21,7 +21,12 @@ PV = "2.0.26"
 RPM_NAME = "libSDL_gfx-devel-2.0.26-1.17.aarch64.rpm"
 RPM_HASH = "b7414d4b9ea6f8c7451637562f0ab1b244e3b773cc39dfb6fe3a3238d8e196a196bec743ad65ffe054e32195cbbbf36711eacbbbbd1536efe5f3a1f0f8fa5cf0"
 
-RPROVIDES:${PN} += "SDL_gfx-devel libSDL_gfx-devel libSDL_gfx-devel(aarch-64) pkgconfig(SDL_gfx)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libSDL_gfx15 pkgconfig(sdl)"
+RPROVIDES:${PN} += "SDL_gfx-devel \
+libSDL_gfx-devel \
+libSDL_gfx-devel(aarch-64) \
+pkgconfig(SDL_gfx)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libSDL_gfx15 \
+pkgconfig(sdl)"
 
 inherit rpm

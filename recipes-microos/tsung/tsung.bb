@@ -17,7 +17,13 @@ PV = "1.7.0"
 RPM_NAME = "tsung-1.7.0-1.15.aarch64.rpm"
 RPM_HASH = "8d1ce0f42f0fe50dc024aed5500174b2550b439d5b611125e34d1d502f233d1c13dade24ec394c0c9acdf8cf7804918d7ea634806b0a8f9ec38a1c9539b6a24b"
 
-RPROVIDES:${PN} += "tsung tsung(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/env /usr/bin/perl bash erlang perl(Template) python2"
+RPROVIDES:${PN} += "tsung \
+tsung(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/perl \
+bash \
+erlang \
+perl(Template) \
+python2"
 
 inherit rpm

@@ -13,7 +13,23 @@ RPM_NAME = "texlive-macros2e-2023.201.0.0.4asvn64967-52.1.noarch.rpm"
 RPM_HASH = "acdc2ccf5e614756f36dda3dcfd0d26ebe6ce6a241d857b0e19d1375993e90aefc18e749e2637b200e6658a1b8b04395ed33b64e289a02394ef1b6059e64a44b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(extlabels.sty) texlive-macros2e"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(hyperref.sty) tex(lipsum.sty) tex(zref-abspos.sty) tex(zref-user.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(extlabels.sty) \
+texlive-macros2e"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(hyperref.sty) \
+tex(lipsum.sty) \
+tex(zref-abspos.sty) \
+tex(zref-user.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

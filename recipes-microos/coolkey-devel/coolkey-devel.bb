@@ -20,7 +20,10 @@ PV = "1.1.0"
 RPM_NAME = "coolkey-devel-1.1.0-152.5.aarch64.rpm"
 RPM_HASH = "0c7e50aaddc9bfbbc78ebacaec85b6c1c1c9bcaae6b992a306c1c3ba1e92305367de63f59ba716224dd11809113c7426d3dd7e4a0fd75e7178a9fb7edba6266c"
 
-RPROVIDES:${PN} += "coolkey-devel coolkey-devel(aarch-64) pkgconfig(libckyapplet)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config coolkey"
+RPROVIDES:${PN} += "coolkey-devel \
+coolkey-devel(aarch-64) \
+pkgconfig(libckyapplet)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+coolkey"
 
 inherit rpm

@@ -13,7 +13,19 @@ RPM_NAME = "saxon9-9.4.0.7-16.6.noarch.rpm"
 RPM_HASH = "15cd57b401171c7f56c0a0d8eda903adea178d4397969c383ca2451de3923a18d16281b73182ecfb9f949f603a8dbbff4e0cb42b255d6f14198701e3cba10bb6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jaxp_transform_impl mvn(net.sf.saxon:saxon) mvn(net.sf.saxon:saxon:pom:) saxon9 saxon9-dom saxon9-jdom saxon9-sql saxon9-xom saxon9-xpath"
-RDEPENDS:${PN} += "/bin/sh bea-stax bea-stax-api java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "jaxp_transform_impl \
+mvn(net.sf.saxon:saxon) \
+mvn(net.sf.saxon:saxon:pom:) \
+saxon9 \
+saxon9-dom \
+saxon9-jdom \
+saxon9-sql \
+saxon9-xom \
+saxon9-xpath"
+RDEPENDS:${PN} += "/bin/sh \
+bea-stax \
+bea-stax-api \
+java-headless \
+javapackages-filesystem"
 
 inherit rpm

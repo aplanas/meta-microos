@@ -25,7 +25,31 @@ RPM_NAME = "texlive-lcdftypetools-2023.201.svn52851-54.1.noarch.rpm"
 RPM_HASH = "43e56599a78b6215123211d9c51cef2bcae036848dea34c5994f556ad6e8ba3282229ea0e82d0ed2158d62c6e74139b8f415e743f31d2dae2348004d6b38d502"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(cfftot1.1) man(mmafm.1) man(mmpfb.1) man(otfinfo.1) man(otftotfm.1) man(t1dotlessj.1) man(t1lint.1) man(t1rawafm.1) man(t1reencode.1) man(t1testpage.1) man(ttftotype42.1) texlive-lcdftypetools"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-glyphlist texlive-kpathsea texlive-kpathsea-bin texlive-lcdftypetools-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "man(cfftot1.1) \
+man(mmafm.1) \
+man(mmpfb.1) \
+man(otfinfo.1) \
+man(otftotfm.1) \
+man(t1dotlessj.1) \
+man(t1lint.1) \
+man(t1rawafm.1) \
+man(t1reencode.1) \
+man(t1testpage.1) \
+man(ttftotype42.1) \
+texlive-lcdftypetools"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-glyphlist \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-lcdftypetools-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

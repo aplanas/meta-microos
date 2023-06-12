@@ -13,7 +13,13 @@ RPM_NAME = "perl-Config-Identity-0.0019-1.10.noarch.rpm"
 RPM_HASH = "8608b01bd5ed6d6f044eede1f6c8f082a9b67c352c2912cde0dc001e252ba889ea6cdf728f40b2574b54f7723b620c08aa6b14c19ba89a2fc4d2065ee70ab0cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Config::Identity) perl(Config::Identity::GitHub) perl(Config::Identity::PAUSE) perl-Config-Identity"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(File::HomeDir) perl(File::Which) perl(IPC::Run)"
+RPROVIDES:${PN} += "perl(Config::Identity) \
+perl(Config::Identity::GitHub) \
+perl(Config::Identity::PAUSE) \
+perl-Config-Identity"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(File::HomeDir) \
+perl(File::Which) \
+perl(IPC::Run)"
 
 inherit rpm

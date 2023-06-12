@@ -18,7 +18,12 @@ RPM_NAME = "paratype-pt-serif-fonts-1.002OFL-3.17.noarch.rpm"
 RPM_HASH = "c64ca04dc8457676c610cebe72ab099cc96edabdcc81f3d638d9c2265a2351ffb77df37e6efbbeb82c3877473f6c3dcddc3278a1810964ba3359f670959f01ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "PTSerif-fonts locale(be;ru;uk) paratype-pt-serif-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "PTSerif-fonts \
+locale(be;ru;uk) \
+paratype-pt-serif-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

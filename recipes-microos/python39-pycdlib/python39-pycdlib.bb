@@ -14,7 +14,13 @@ RPM_NAME = "python39-pycdlib-1.14.0-1.4.noarch.rpm"
 RPM_HASH = "8932d13aacb8a0b9a32019328b5eaae25d8c390550421655ef4fa7fd0fa6bde599dd007881b9aa06685dc31d154065300f8062cae701c2678d0ee642c8a96d30"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pycdlib) python39-pycdlib python3dist(pycdlib)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 mkisofs python(abi) python3-pycdlib-common"
+RPROVIDES:${PN} += "python3.9dist(pycdlib) \
+python39-pycdlib \
+python3dist(pycdlib)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+mkisofs \
+python(abi) \
+python3-pycdlib-common"
 
 inherit rpm

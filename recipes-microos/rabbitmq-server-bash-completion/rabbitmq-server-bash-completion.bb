@@ -9,6 +9,7 @@ RPM_HASH = "fa2577bf3131a52a4366fb5262142dfb24ff484e675e591243e148641e716650783d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rabbitmq-server-bash-completion"
-RDEPENDS:${PN} += "bash-completion rabbitmq-server"
+RDEPENDS:${PN} += "bash-completion \
+rabbitmq-server"
 
 inherit rpm

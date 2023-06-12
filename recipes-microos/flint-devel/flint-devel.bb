@@ -13,7 +13,11 @@ PV = "2.9.0"
 RPM_NAME = "flint-devel-2.9.0-2.1.aarch64.rpm"
 RPM_HASH = "62cdd195f80eb23e1bae47c2d88c7d91d6fd4b425b7ea3c6fb7903e3694819c308f441f2169c2214b07ba1573d29d2185f4b534aac94dfe6d337c08b98d37866"
 
-RPROVIDES:${PN} += "flint-devel flint-devel(aarch-64)"
-RDEPENDS:${PN} += "gmp-devel libflint17 mpfr-devel ntl-devel"
+RPROVIDES:${PN} += "flint-devel \
+flint-devel(aarch-64)"
+RDEPENDS:${PN} += "gmp-devel \
+libflint17 \
+mpfr-devel \
+ntl-devel"
 
 inherit rpm

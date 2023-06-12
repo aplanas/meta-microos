@@ -13,7 +13,29 @@ PV = "2+git20201210.bd8898e"
 RPM_NAME = "casync-2+git20201210.bd8898e-1.12.aarch64.rpm"
 RPM_HASH = "baf3dbde6c5105522706e3bab22967e1da7e9212965e37b1f4d373f061e8a65af9e53d8908bd6978495a307f1edc6a1ac04783446f717ed619de941b5b90c5b0"
 
-RPROVIDES:${PN} += "casync casync(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libacl.so.1()(64bit) libacl.so.1(ACL_1.0)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libcurl.so.4()(64bit) libfuse.so.2()(64bit) libfuse.so.2(FUSE_2.2)(64bit) libfuse.so.2(FUSE_2.6)(64bit) liblzma.so.5()(64bit) liblzma.so.5(XZ_5.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libselinux.so.1()(64bit) libselinux.so.1(LIBSELINUX_1.0)(64bit) libudev.so.1()(64bit) libudev.so.1(LIBUDEV_183)(64bit) libz.so.1()(64bit) libzstd.so.1()(64bit)"
+RPROVIDES:${PN} += "casync \
+casync(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libacl.so.1()(64bit) \
+libacl.so.1(ACL_1.0)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libcurl.so.4()(64bit) \
+libfuse.so.2()(64bit) \
+libfuse.so.2(FUSE_2.2)(64bit) \
+libfuse.so.2(FUSE_2.6)(64bit) \
+liblzma.so.5()(64bit) \
+liblzma.so.5(XZ_5.0)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libselinux.so.1()(64bit) \
+libselinux.so.1(LIBSELINUX_1.0)(64bit) \
+libudev.so.1()(64bit) \
+libudev.so.1(LIBUDEV_183)(64bit) \
+libz.so.1()(64bit) \
+libzstd.so.1()(64bit)"
 
 inherit rpm

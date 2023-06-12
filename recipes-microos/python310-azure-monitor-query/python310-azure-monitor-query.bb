@@ -17,7 +17,15 @@ RPM_NAME = "python310-azure-monitor-query-1.2.0-1.1.noarch.rpm"
 RPM_HASH = "8dba9a86cb46b48f12b05deadfac2fa996f2b852a43aa91e6ee4cbd9b18bb68fbd5f0db74d0b83690143ce995bbfef73d52310b3c0688ba32e08eeb2389d6f1f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-monitor-query python3.10dist(azure-monitor-query) python310-azure-monitor-query python3dist(azure-monitor-query)"
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) python(abi) python310-azure-core python310-azure-monitor-nspkg python310-azure-nspkg python310-isodate"
+RPROVIDES:${PN} += "python3-azure-monitor-query \
+python3.10dist(azure-monitor-query) \
+python310-azure-monitor-query \
+python3dist(azure-monitor-query)"
+RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
+python(abi) \
+python310-azure-core \
+python310-azure-monitor-nspkg \
+python310-azure-nspkg \
+python310-isodate"
 
 inherit rpm

@@ -8,7 +8,12 @@ PV = "4.6.1685738164.28716cd"
 RPM_NAME = "openQA-auto-update-4.6.1685738164.28716cd-1.1.aarch64.rpm"
 RPM_HASH = "5d1abdb0555ce2a7bb4c000fc99a87d940400a6abea758a2e5d2f0158fc9b336033100425c152c933c2569c568c20b339fb0895ecdd8368d7b16f1235c5fd786"
 
-RPROVIDES:${PN} += "openQA-auto-update openQA-auto-update(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh curl openQA-common rebootmgr"
+RPROVIDES:${PN} += "openQA-auto-update \
+openQA-auto-update(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+curl \
+openQA-common \
+rebootmgr"
 
 inherit rpm

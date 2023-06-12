@@ -8,7 +8,13 @@ RPM_NAME = "python311-ansi2html-1.8.0-2.1.noarch.rpm"
 RPM_HASH = "556c79ad7d7dbe8a952871e3a0619d4675fdff780da953f31fe0d9eddc1e442dacf7060276d8534dfc76a4e294a48b0f8bcc8f1fcee5f137c916b31f37ed91ab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(ansi2html) python311-ansi2html python3dist(ansi2html)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-six update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(ansi2html) \
+python311-ansi2html \
+python3dist(ansi2html)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-six \
+update-alternatives"
 
 inherit rpm

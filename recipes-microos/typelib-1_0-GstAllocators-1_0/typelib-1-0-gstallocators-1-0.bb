@@ -14,7 +14,13 @@ PV = "1.22.3"
 RPM_NAME = "typelib-1_0-GstAllocators-1_0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "df14133db3017bd4d91464bea779b6db5cd618d3ecd65e186e0ab5b60a0cea0559968e32cff939c0308d22de25a4b1cc004c5ce6193d4d490bb7d5913fdb98e5"
 
-RPROVIDES:${PN} += "typelib(GstAllocators) typelib-1_0-GstAllocators-1_0 typelib-1_0-GstAllocators-1_0(aarch-64)"
-RDEPENDS:${PN} += "libgstallocators-1.0.so.0()(64bit) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gst)"
+RPROVIDES:${PN} += "typelib(GstAllocators) \
+typelib-1_0-GstAllocators-1_0 \
+typelib-1_0-GstAllocators-1_0(aarch-64)"
+RDEPENDS:${PN} += "libgstallocators-1.0.so.0()(64bit) \
+typelib(GLib) \
+typelib(GModule) \
+typelib(GObject) \
+typelib(Gst)"
 
 inherit rpm

@@ -9,7 +9,8 @@ RPM_NAME = "openttd-opensfx-1.0.3-1.6.noarch.rpm"
 RPM_HASH = "3a20f26a47e33f6b8eb4ad2ee1629645d1c6d81673b056cdec204691ec6e5740aa2cd253b5ca56972445c1b5b8997fab13427435e33ec5fddcf76ff7ac8a28f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "opensfx openttd-opensfx"
+RPROVIDES:${PN} += "opensfx \
+openttd-opensfx"
 RDEPENDS:${PN} += "openttd-data"
 
 inherit rpm

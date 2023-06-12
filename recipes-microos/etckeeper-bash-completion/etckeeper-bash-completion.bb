@@ -9,6 +9,7 @@ RPM_HASH = "86c1dd1749c400d37833069f7ed36b3ff4240b3f61cf475e554f9601b9b94026ecc6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "etckeeper-bash-completion"
-RDEPENDS:${PN} += "bash-completion etckeeper"
+RDEPENDS:${PN} += "bash-completion \
+etckeeper"
 
 inherit rpm

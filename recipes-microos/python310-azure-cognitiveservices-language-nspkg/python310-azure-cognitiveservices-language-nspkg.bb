@@ -12,7 +12,11 @@ RPM_NAME = "python310-azure-cognitiveservices-language-nspkg-3.0.1-3.9.noarch.rp
 RPM_HASH = "ebcdcbc19f31e861d191fb051b33658d1ff6882f461f459f51401bf3ed804c9aaee4dceb132e9a96f77a8f7c7019bc142e33aeb725f17f1c8f85e626ff2be4d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-cognitiveservices-language-nspkg python3.10dist(azure-cognitiveservices-language-nspkg) python310-azure-cognitiveservices-language-nspkg python3dist(azure-cognitiveservices-language-nspkg)"
-RDEPENDS:${PN} += "python310-azure-cognitiveservices-nspkg python310-azure-nspkg"
+RPROVIDES:${PN} += "python3-azure-cognitiveservices-language-nspkg \
+python3.10dist(azure-cognitiveservices-language-nspkg) \
+python310-azure-cognitiveservices-language-nspkg \
+python3dist(azure-cognitiveservices-language-nspkg)"
+RDEPENDS:${PN} += "python310-azure-cognitiveservices-nspkg \
+python310-azure-nspkg"
 
 inherit rpm

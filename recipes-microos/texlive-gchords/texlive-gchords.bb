@@ -12,7 +12,19 @@ RPM_NAME = "texlive-gchords-2023.201.1.20svn29803-52.1.noarch.rpm"
 RPM_HASH = "868d24440a719176ed9174f21c0654aa26925bccb8f4af1fc518f590f8c86e35999d4df080024741bef09b287902abfd68a5a7940485ac58b1b430cac11f6913"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gchords.sty) texlive-gchords"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(gchords.sty) \
+texlive-gchords"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -15,7 +15,10 @@ RPM_NAME = "python310-crumbs-2.1.1-1.12.noarch.rpm"
 RPM_HASH = "4f3ccedaf7eb8e0f5b4654dba334f86975f8c3014951af5c7f1b645f0c43febe1633e3ec38b27b9de42649636155df4e08d10d8b69de78f93da297856ab755dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-crumbs python3.10dist(crumbs) python310-crumbs python3dist(crumbs)"
+RPROVIDES:${PN} += "python3-crumbs \
+python3.10dist(crumbs) \
+python310-crumbs \
+python3dist(crumbs)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

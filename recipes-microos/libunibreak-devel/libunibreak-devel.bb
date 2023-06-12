@@ -8,7 +8,12 @@ PV = "5.0"
 RPM_NAME = "libunibreak-devel-5.0-1.6.aarch64.rpm"
 RPM_HASH = "7a60dbb94507500c25408af0baa128d6751bb4cc91954609dd8dd40652642798d814dd5d6dc63d4804dc092daf14aa49e420a1a0909378674ab6a15629cf10ad"
 
-RPROVIDES:${PN} += "liblinebreak-devel libunibreak-devel libunibreak-devel(aarch-64) pkgconfig(libunibreak)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libunibreak5 pkgconfig"
+RPROVIDES:${PN} += "liblinebreak-devel \
+libunibreak-devel \
+libunibreak-devel(aarch-64) \
+pkgconfig(libunibreak)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libunibreak5 \
+pkgconfig"
 
 inherit rpm

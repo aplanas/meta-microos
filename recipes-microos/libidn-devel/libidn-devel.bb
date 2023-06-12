@@ -17,7 +17,11 @@ PV = "1.41"
 RPM_NAME = "libidn-devel-1.41-1.2.aarch64.rpm"
 RPM_HASH = "1e5b4b877797575729869425b2afcdd8572749c6af55d8f6dab5d94bc0c7503d3f1426005f21bf8e2c8a20df2c1d889a4153d198ddfca4b69c3cef8a26f43e5b"
 
-RPROVIDES:${PN} += "libidn-devel libidn-devel(aarch-64) pkgconfig(libidn)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config glibc-devel libidn12"
+RPROVIDES:${PN} += "libidn-devel \
+libidn-devel(aarch-64) \
+pkgconfig(libidn)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+glibc-devel \
+libidn12"
 
 inherit rpm

@@ -12,7 +12,9 @@ RPM_NAME = "perl-Class-Inspector-1.36-1.15.noarch.rpm"
 RPM_HASH = "9fbeda54f07cf9204b4a8dc47e44f3ff4ed303b6c97672801343561749a67060dfd3212fc6204106c15ec32338ebe24ac7483c1497e431ff838f1ef614f6897a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Inspector) perl(Class::Inspector::Functions) perl-Class-Inspector"
+RPROVIDES:${PN} += "perl(Class::Inspector) \
+perl(Class::Inspector::Functions) \
+perl-Class-Inspector"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

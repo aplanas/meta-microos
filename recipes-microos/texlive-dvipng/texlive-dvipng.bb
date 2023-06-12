@@ -21,7 +21,21 @@ RPM_NAME = "texlive-dvipng-2023.201.1.17svn66203-53.1.noarch.rpm"
 RPM_HASH = "9d3656c1c8d5ef19a74cea0b7e727b5dcba9ab6ca64966c111e273ddc0b4b5d05c93cefc0fbd8665e26f2cbf0f196aa86411bbed76d8a500f4e939ea1a1c5a85"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(dvigif.1) man(dvipng.1) texlive-dvipng"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-dvipng-bin texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "man(dvigif.1) \
+man(dvipng.1) \
+texlive-dvipng"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-dvipng-bin \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

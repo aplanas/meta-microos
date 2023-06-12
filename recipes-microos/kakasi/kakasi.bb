@@ -18,7 +18,14 @@ PV = "2.3.6"
 RPM_NAME = "kakasi-2.3.6-3.32.aarch64.rpm"
 RPM_HASH = "815637a92f46e6fa6a0e72a4e3550f2aa72411a2309ca9dbb4ec8818bd29178526bd08b98fe768c7867ea281f2e7e3e0b3298c41055e4cd59255b2469d557add"
 
-RPROVIDES:${PN} += "kakasi kakasi(aarch-64) libkakasi.so.2()(64bit)"
-RDEPENDS:${PN} += "/bin/sh /sbin/ldconfig kakasi-dict ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "kakasi \
+kakasi(aarch-64) \
+libkakasi.so.2()(64bit)"
+RDEPENDS:${PN} += "/bin/sh \
+/sbin/ldconfig \
+kakasi-dict \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "2cd28061e5dc356b4b870342fe8ffc2aef78772edb549ce8dd90f57297dce754d488
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-table-mode"
-RDEPENDS:${PN} += "/bin/sh vim"
+RDEPENDS:${PN} += "/bin/sh \
+vim"
 
 inherit rpm

@@ -13,6 +13,8 @@ RPM_HASH = "e73ed4303f380902e6384480860ad9e6b90bab542b50f6df3c88b9a7ac23dd8ffad4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-compose_kiwi_description"
-RDEPENDS:${PN} += "/usr/bin/python3 git python3-kiwi-keg"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+git \
+python3-kiwi-keg"
 
 inherit rpm

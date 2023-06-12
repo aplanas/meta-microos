@@ -20,7 +20,10 @@ RPM_NAME = "python311-pydenticon-0.3.1-5.6.noarch.rpm"
 RPM_HASH = "5f9b70dd1ae6d449446103912604af9542b79d9e7c02f7c7f2375d50ff3a04bb2d581af412595fb5638c63fe8780e7e5966acd67e54aa80eb3fa017fff8fa767"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pydenticon) python311-pydenticon python3dist(pydenticon)"
-RDEPENDS:${PN} += "python(abi) python311-Pillow"
+RPROVIDES:${PN} += "python3.11dist(pydenticon) \
+python311-pydenticon \
+python3dist(pydenticon)"
+RDEPENDS:${PN} += "python(abi) \
+python311-Pillow"
 
 inherit rpm

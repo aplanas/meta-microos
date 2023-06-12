@@ -41,7 +41,12 @@ PV = "1.05"
 RPM_NAME = "perl-Email-Address-XS-1.05-1.3.aarch64.rpm"
 RPM_HASH = "fe80daaa94adf5da866a6f7b3a0f5213655abfdc343f9dd74f81eb89c557d11972287813686271139076c9c5be6feac9658d3816f128a4c772f12145d22e6723"
 
-RPROVIDES:${PN} += "perl(Email::Address::XS) perl-Email-Address-XS perl-Email-Address-XS(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Email::Address::XS) \
+perl-Email-Address-XS \
+perl-Email-Address-XS(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

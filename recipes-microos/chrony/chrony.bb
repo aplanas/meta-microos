@@ -26,7 +26,32 @@ PV = "4.3"
 RPM_NAME = "chrony-4.3-2.3.aarch64.rpm"
 RPM_HASH = "91af8cd8422f9db510f13318317b60f9234ec070ade53335a277464b19a0a9eb4f121a7c4a15942cd89c091b0040183717f9e135c4b988faae3548f5234f3c51"
 
-RPROVIDES:${PN} += "chrony chrony(aarch-64) config(chrony) group(chrony) ntp-daemon user(chrony)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/mkdir /usr/bin/touch chrony-pool fillup ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcap.so.2()(64bit) libedit.so.0()(64bit) libgnutls.so.30()(64bit) libgnutls.so.30(GNUTLS_3_4)(64bit) libgnutls.so.30(GNUTLS_3_6_3)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libnettle.so.8()(64bit) libnettle.so.8(NETTLE_8)(64bit) libseccomp.so.2()(64bit) sysuser-shadow"
+RPROVIDES:${PN} += "chrony \
+chrony(aarch-64) \
+config(chrony) \
+group(chrony) \
+ntp-daemon \
+user(chrony)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+chrony-pool \
+fillup \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcap.so.2()(64bit) \
+libedit.so.0()(64bit) \
+libgnutls.so.30()(64bit) \
+libgnutls.so.30(GNUTLS_3_4)(64bit) \
+libgnutls.so.30(GNUTLS_3_6_3)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libnettle.so.8()(64bit) \
+libnettle.so.8(NETTLE_8)(64bit) \
+libseccomp.so.2()(64bit) \
+sysuser-shadow"
 
 inherit rpm

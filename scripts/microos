@@ -135,6 +135,10 @@ def license(lic):
     )
 
 
+def package_list(pkgs):
+    return " \\\n".join(pkgs)
+
+
 def update_recipes(recipes, packages):
     for package in packages:
         recipe = recipes / package.name
@@ -155,8 +159,8 @@ def update_recipes(recipes, packages):
             if arch != "aarch64":
                 f.write(f'REPO_ARCH = "{arch}"\n')
             f.write("\n")
-            f.write(f'RPROVIDES:${{PN}} += "{" ".join(package.rprovides)}"\n')
-            f.write(f'RDEPENDS:${{PN}} += "{" ".join(package.rdepends)}"\n')
+            f.write(f'RPROVIDES:${{PN}} += "{package_list(package.rprovides)}"\n')
+            f.write(f'RDEPENDS:${{PN}} += "{package_list(package.rdepends)}"\n')
             f.write("\n")
             f.write("inherit rpm\n")
 

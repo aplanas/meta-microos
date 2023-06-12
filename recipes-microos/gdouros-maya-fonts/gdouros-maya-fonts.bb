@@ -11,7 +11,11 @@ RPM_NAME = "gdouros-maya-fonts-4.17-1.16.noarch.rpm"
 RPM_HASH = "a4059f4c75406ecde24d353b80f047490c316c78bfb2fbb151cb788e89b38e69eb833d3d46f2d0b588a4f00ae5d1453fb51af865536745860651b74682113020"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "gdouros-maya-fonts maya-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "gdouros-maya-fonts \
+maya-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

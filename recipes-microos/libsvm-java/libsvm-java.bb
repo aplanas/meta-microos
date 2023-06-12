@@ -9,6 +9,8 @@ RPM_HASH = "4cbbe8d5fd4109eee6eacf1e8216ae92f5921b58e1c9694cfe3388508e18584da8b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsvm-java"
-RDEPENDS:${PN} += "java javapackages-tools libsvm3"
+RDEPENDS:${PN} += "java \
+javapackages-tools \
+libsvm3"
 
 inherit rpm

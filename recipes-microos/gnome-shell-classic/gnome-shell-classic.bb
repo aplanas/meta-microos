@@ -13,6 +13,18 @@ RPM_HASH = "e07cd59cba568d5fafc21f8b26557280ea94560c3e0740d80899d36da1d2c5399b4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-classic"
-RDEPENDS:${PN} += "gnome-shell-extension-desktop-icons gnome-shell-extensions-common typelib(Adw) typelib(Atk) typelib(Clutter) typelib(GLib) typelib(GMenu) typelib(GObject) typelib(Gio) typelib(Gtk) typelib(Pango) typelib(Shell) typelib(St)"
+RDEPENDS:${PN} += "gnome-shell-extension-desktop-icons \
+gnome-shell-extensions-common \
+typelib(Adw) \
+typelib(Atk) \
+typelib(Clutter) \
+typelib(GLib) \
+typelib(GMenu) \
+typelib(GObject) \
+typelib(Gio) \
+typelib(Gtk) \
+typelib(Pango) \
+typelib(Shell) \
+typelib(St)"
 
 inherit rpm

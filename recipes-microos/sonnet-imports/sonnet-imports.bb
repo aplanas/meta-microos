@@ -12,7 +12,27 @@ PV = "5.106.0"
 RPM_NAME = "sonnet-imports-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "67b188d4151757a7b65fd97f44e75bee5d0b905e913aada19e11bca5ae963d9dbab0ada25bfa50761731969c06893fa6211e192ef0f2e124b12965d705d4dbca"
 
-RPROVIDES:${PN} += "libsonnetquickplugin.so()(64bit) qt5qmlimport(org.kde.sonnet.1) sonnet-imports sonnet-imports(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libKF5SonnetCore.so.5()(64bit) libKF5SonnetCore5 libKF5SonnetUi5 libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5Gui.so.5()(64bit) libQt5Gui.so.5(Qt_5)(64bit) libQt5Qml.so.5()(64bit) libQt5Qml.so.5(Qt_5)(64bit) libQt5Quick.so.5()(64bit) libQt5Quick.so.5(Qt_5)(64bit) libc.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+RPROVIDES:${PN} += "libsonnetquickplugin.so()(64bit) \
+qt5qmlimport(org.kde.sonnet.1) \
+sonnet-imports \
+sonnet-imports(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libKF5SonnetCore.so.5()(64bit) \
+libKF5SonnetCore5 \
+libKF5SonnetUi5 \
+libQt5Core.so.5()(64bit) \
+libQt5Core.so.5(Qt_5)(64bit) \
+libQt5Gui.so.5()(64bit) \
+libQt5Gui.so.5(Qt_5)(64bit) \
+libQt5Qml.so.5()(64bit) \
+libQt5Qml.so.5(Qt_5)(64bit) \
+libQt5Quick.so.5()(64bit) \
+libQt5Quick.so.5(Qt_5)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit)"
 
 inherit rpm

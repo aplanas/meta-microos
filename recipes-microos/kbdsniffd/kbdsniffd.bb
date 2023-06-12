@@ -12,7 +12,13 @@ PV = "0.6"
 RPM_NAME = "kbdsniffd-0.6-28.9.aarch64.rpm"
 RPM_HASH = "856c2c3013e0d69dc45b3b2e801d903ab135893bd0c85d8ba2ebd50c936654a8dba8eeed958c73c0d55951f619ab3a4e8a9bbda1b85cceb561e843bcbad15bfa"
 
-RPROVIDES:${PN} += "config(kbdsniffd) kbdsniffd kbdsniffd(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) systemd"
+RPROVIDES:${PN} += "config(kbdsniffd) \
+kbdsniffd \
+kbdsniffd(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+systemd"
 
 inherit rpm

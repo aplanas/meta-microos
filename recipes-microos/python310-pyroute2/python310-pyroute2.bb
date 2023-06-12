@@ -22,7 +22,26 @@ RPM_NAME = "python310-pyroute2-0.7.3-1.4.noarch.rpm"
 RPM_HASH = "9fba996d9767edd43c01f76da405877b73afcd3a126bd50de615856cb15b20c2f8cac4fca2e57b83c857e15b7e438ab5dfeabe4d42e17c4644f2f15acd4b2aeb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyroute2 python3-pyroute2.core python3-pyroute2.ethtool python3-pyroute2.ipdb python3-pyroute2.ipset python3-pyroute2.ndb python3-pyroute2.nftables python3-pyroute2.nslink python3.10dist(pyroute2) python310-pyroute2 python310-pyroute2.core python310-pyroute2.ethtool python310-pyroute2.ipdb python310-pyroute2.ipset python310-pyroute2.ndb python310-pyroute2.nftables python310-pyroute2.nslink python3dist(pyroute2)"
-RDEPENDS:${PN} += "/usr/bin/python3.10 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3-pyroute2 \
+python3-pyroute2.core \
+python3-pyroute2.ethtool \
+python3-pyroute2.ipdb \
+python3-pyroute2.ipset \
+python3-pyroute2.ndb \
+python3-pyroute2.nftables \
+python3-pyroute2.nslink \
+python3.10dist(pyroute2) \
+python310-pyroute2 \
+python310-pyroute2.core \
+python310-pyroute2.ethtool \
+python310-pyroute2.ipdb \
+python310-pyroute2.ipset \
+python310-pyroute2.ndb \
+python310-pyroute2.nftables \
+python310-pyroute2.nslink \
+python3dist(pyroute2)"
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

@@ -12,7 +12,27 @@ RPM_NAME = "texlive-zhspacing-2023.201.svn41145-52.1.noarch.rpm"
 RPM_HASH = "68d7137b8f03a0a3de98429d3229a547b6556d13ac1c739b1311804d2b02b730bb929ef36e1bf59ebf46dceadaf32cfea693a38869b83f916f10fb79a27fef71"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(t-zhspacing.tex) tex(zhfont.sty) tex(zhmath.sty) tex(zhsmyclass.sty) tex(zhspacing.sty) tex(zhsusefulmacros.sty) tex(zhulem.sty) texlive-zhspacing"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(fontspec.sty) tex(ulem.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(t-zhspacing.tex) \
+tex(zhfont.sty) \
+tex(zhmath.sty) \
+tex(zhsmyclass.sty) \
+tex(zhspacing.sty) \
+tex(zhsusefulmacros.sty) \
+tex(zhulem.sty) \
+texlive-zhspacing"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(fontspec.sty) \
+tex(ulem.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

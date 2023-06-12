@@ -14,7 +14,20 @@ RPM_NAME = "texlive-changepage-2023.201.1.0csvn15878-52.1.noarch.rpm"
 RPM_HASH = "f4705e6fdcc14614b167f108ea37aeeb150c22ab8cdabcaecda10c0511d4ec5df325d738504ee7242171f1e80c34683f8d09d04fb4d46810b5df644a58151ba6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(changepage.sty) tex(chngpage.sty) texlive-changepage"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(changepage.sty) \
+tex(chngpage.sty) \
+texlive-changepage"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

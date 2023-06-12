@@ -13,7 +13,19 @@ RPM_NAME = "texlive-endheads-2023.201.1.6svn43750-53.1.noarch.rpm"
 RPM_HASH = "2ac3d8704f53fc479169a83c401449e62b2774480c0b93175683673b6f6f650e39f9cbd251279e30b116445551699851b119dc22a828f3c58af98a9b394339d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(endheads.sty) texlive-endheads"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(endheads.sty) \
+texlive-endheads"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -12,7 +12,10 @@ RPM_NAME = "python311-pycountry-22.3.5-2.1.noarch.rpm"
 RPM_HASH = "fdb535b5a07d8e15f5628eee298c8f1bdb0712026b548e9e398774a72f6ee478faa9ae5c4d2e3d6391299d7831013c8b5840a0526d0d62b856a7c38bb7abbd95"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pycountry) python311-pycountry python3dist(pycountry)"
-RDEPENDS:${PN} += "python(abi) python311-lxml"
+RPROVIDES:${PN} += "python3.11dist(pycountry) \
+python311-pycountry \
+python3dist(pycountry)"
+RDEPENDS:${PN} += "python(abi) \
+python311-lxml"
 
 inherit rpm

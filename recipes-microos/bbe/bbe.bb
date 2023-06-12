@@ -9,7 +9,12 @@ PV = "0.2.2"
 RPM_NAME = "bbe-0.2.2-3.14.aarch64.rpm"
 RPM_HASH = "59c96087ba1f52d49024ca45f667c123de04339b7b66d5087ed987347d51b409c3ee982c582a3eef7ac58cb1db5318c40cba261afa71f6fc313c0cddbc46dcc7"
 
-RPROVIDES:${PN} += "bbe bbe(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh info ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "bbe \
+bbe(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+info \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -12,7 +12,16 @@ RPM_NAME = "trang-20220510-3.1.noarch.rpm"
 RPM_HASH = "a56a8b8c47661614fb7b9bf2ea5b9d62db5ee606c09efba9710d7979c69a9a36aeb96d9aea6fcdd4b989e4c1e1f4ecf5fdaa64f356a9a72e84b86e8024ee4348"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(com.thaiopensource:trang) mvn(org.relaxng:trang) mvn(org.relaxng:trang:pom:) trang"
-RDEPENDS:${PN} += "/bin/bash java-headless javapackages-filesystem jpackage-utils mvn(com.github.relaxng:relaxngDatatype) mvn(xerces:xercesImpl) mvn(xml-resolver:xml-resolver)"
+RPROVIDES:${PN} += "mvn(com.thaiopensource:trang) \
+mvn(org.relaxng:trang) \
+mvn(org.relaxng:trang:pom:) \
+trang"
+RDEPENDS:${PN} += "/bin/bash \
+java-headless \
+javapackages-filesystem \
+jpackage-utils \
+mvn(com.github.relaxng:relaxngDatatype) \
+mvn(xerces:xercesImpl) \
+mvn(xml-resolver:xml-resolver)"
 
 inherit rpm

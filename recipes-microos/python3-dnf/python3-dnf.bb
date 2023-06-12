@@ -9,6 +9,15 @@ RPM_HASH = "22a1c7da52b4aab6c4dca1c5004bd8ca8b70dca945f7b625b27b9868bbc6313d4079
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dnf"
-RDEPENDS:${PN} += "/usr/bin/python3 deltarpm dnf-data python(abi) python3-curses python3-gpg python3-hawkey python3-libcomps python3-libmodulemd python3-rpm"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+deltarpm \
+dnf-data \
+python(abi) \
+python3-curses \
+python3-gpg \
+python3-hawkey \
+python3-libcomps \
+python3-libmodulemd \
+python3-rpm"
 
 inherit rpm

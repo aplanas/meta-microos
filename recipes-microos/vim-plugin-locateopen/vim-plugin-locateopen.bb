@@ -17,6 +17,7 @@ RPM_HASH = "254f5840f03fa4081c3c3bc1184ec6fce6e37ce042e45aed6a15b3f438a5940a2326
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-locateopen"
-RDEPENDS:${PN} += "findutils-locate vim"
+RDEPENDS:${PN} += "findutils-locate \
+vim"
 
 inherit rpm

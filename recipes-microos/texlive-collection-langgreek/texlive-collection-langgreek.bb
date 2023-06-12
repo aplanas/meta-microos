@@ -9,6 +9,31 @@ RPM_HASH = "84456a7e751aafe62cd03a483dc8bf79962d27596c2517e47a72afa4010e5e0342b3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langgreek"
-RDEPENDS:${PN} += "texlive-babel-greek texlive-begingreek texlive-betababel texlive-cbfonts texlive-cbfonts-fd texlive-collection-basic texlive-gfsbaskerville texlive-gfsporson texlive-greek-fontenc texlive-greek-inputenc texlive-greekdates texlive-greektex texlive-greektonoi texlive-hyphen-ancientgreek texlive-hyphen-greek texlive-ibycus-babel texlive-ibygrk texlive-kerkis texlive-levy texlive-lgreek texlive-lgrmath texlive-mkgrkindex texlive-talos texlive-teubner texlive-xgreek texlive-yannisgr"
+RDEPENDS:${PN} += "texlive-babel-greek \
+texlive-begingreek \
+texlive-betababel \
+texlive-cbfonts \
+texlive-cbfonts-fd \
+texlive-collection-basic \
+texlive-gfsbaskerville \
+texlive-gfsporson \
+texlive-greek-fontenc \
+texlive-greek-inputenc \
+texlive-greekdates \
+texlive-greektex \
+texlive-greektonoi \
+texlive-hyphen-ancientgreek \
+texlive-hyphen-greek \
+texlive-ibycus-babel \
+texlive-ibygrk \
+texlive-kerkis \
+texlive-levy \
+texlive-lgreek \
+texlive-lgrmath \
+texlive-mkgrkindex \
+texlive-talos \
+texlive-teubner \
+texlive-xgreek \
+texlive-yannisgr"
 
 inherit rpm

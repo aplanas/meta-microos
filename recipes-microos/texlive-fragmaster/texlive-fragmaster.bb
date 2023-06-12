@@ -11,6 +11,23 @@ RPM_HASH = "fa386938c06b39becf952f85c9a8dc4e85d530e271d168f775a42e02c308d5f02074
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fragmaster"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Cwd) perl(File::Temp) perl(Pod::Usage) perl(strict) sed texlive texlive-filesystem texlive-fragmaster-bin texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Cwd) \
+perl(File::Temp) \
+perl(Pod::Usage) \
+perl(strict) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-fragmaster-bin \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

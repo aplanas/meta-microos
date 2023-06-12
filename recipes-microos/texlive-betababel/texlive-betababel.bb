@@ -13,7 +13,21 @@ RPM_NAME = "texlive-betababel-2023.201.0.0.5svn15878-53.1.noarch.rpm"
 RPM_HASH = "7ed95d2184e56fbf9192624b7012384b1c8040b1dc55e98b455b0946b0121afe18edc19f9df0202a7021a0fb904fac4688f18668e54a02b768ae4b3cf5ba98ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(betababel.sty) texlive-betababel"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(babel.sty) tex(teubner.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(betababel.sty) \
+texlive-betababel"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(babel.sty) \
+tex(teubner.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

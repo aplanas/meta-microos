@@ -15,7 +15,11 @@ PV = "3.6.2"
 RPM_NAME = "libarchive-devel-3.6.2-1.4.aarch64.rpm"
 RPM_HASH = "12dcdf345df24d54c895569382ed9732815cdc9c3fa85e6e24e303aad42806a7bdc103aa54e20498778257d7836876542c8f468884a63add0e7f3858d8535459"
 
-RPROVIDES:${PN} += "libarchive-devel libarchive-devel(aarch-64) pkgconfig(libarchive)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config glibc-devel libarchive13"
+RPROVIDES:${PN} += "libarchive-devel \
+libarchive-devel(aarch-64) \
+pkgconfig(libarchive)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+glibc-devel \
+libarchive13"
 
 inherit rpm

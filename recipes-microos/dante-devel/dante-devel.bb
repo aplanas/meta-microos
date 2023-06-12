@@ -10,7 +10,9 @@ PV = "1.4.3"
 RPM_NAME = "dante-devel-1.4.3-2.8.aarch64.rpm"
 RPM_HASH = "9d64e1222ac3d98674a6cb660ca2813714fa9109d9680c9e6bc42d360c3f9dc579704564a361ab6698f2d3b2640067f021624d4c0b13a0789be76844bd36d794"
 
-RPROVIDES:${PN} += "dante-devel dante-devel(aarch-64) dantedev"
+RPROVIDES:${PN} += "dante-devel \
+dante-devel(aarch-64) \
+dantedev"
 RDEPENDS:${PN} += "libsocks0"
 
 inherit rpm

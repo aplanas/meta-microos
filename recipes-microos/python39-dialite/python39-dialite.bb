@@ -15,7 +15,9 @@ RPM_NAME = "python39-dialite-0.5.3-1.11.noarch.rpm"
 RPM_HASH = "301a74c45a7cf371dc319671f7c99729d280058fa50c9fa41c2341168efccd6233dda18bfe2bf2e5ba3063f9f97c9e637d30a35488476ebceadc2a27cdf9196d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(dialite) python39-dialite python3dist(dialite)"
+RPROVIDES:${PN} += "python3.9dist(dialite) \
+python39-dialite \
+python3dist(dialite)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

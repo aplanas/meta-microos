@@ -9,6 +9,7 @@ RPM_HASH = "ffcd0f2ea3942210a44cc1a0614c7d3f9c5b1f10c85f077a3ab10855849da232f917
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openwsman-java"
-RDEPENDS:${PN} += "java libwsman1"
+RDEPENDS:${PN} += "java \
+libwsman1"
 
 inherit rpm

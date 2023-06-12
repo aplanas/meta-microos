@@ -15,7 +15,21 @@ RPM_NAME = "texlive-combofont-2023.201.0.0.3svn51348-53.1.noarch.rpm"
 RPM_HASH = "d5758985785f19970a88139b1d8a7ada7ffaab8c035ce7ed7a1d14d37270dbeece9af6ff0fed4c485cb6e6a2e8ae7efebd69d94cef2bcd3cebfe99cd05f804da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(combofont.sty) texlive-combofont"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(xfp.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(combofont.sty) \
+texlive-combofont"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(xfp.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

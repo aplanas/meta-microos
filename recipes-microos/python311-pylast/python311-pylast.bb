@@ -19,7 +19,9 @@ RPM_NAME = "python311-pylast-4.5.0-3.3.noarch.rpm"
 RPM_HASH = "80fc696927d47910c1983af4311e817259786c926d7bdba5f9e4f6092ef1962b957251aa51817614829251b9a4ed3b851be34bde7e7335cf8e8f1796273ab5df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pylast) python311-pylast python3dist(pylast)"
+RPROVIDES:${PN} += "python3.11dist(pylast) \
+python311-pylast \
+python3dist(pylast)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

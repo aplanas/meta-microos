@@ -16,7 +16,14 @@ PV = "2023.5.5"
 RPM_NAME = "python310-regex-2023.5.5-1.1.aarch64.rpm"
 RPM_HASH = "f2267703b7eacee4c0540f0679fb2d66db27c4104499edf682b44332207d6427f34f2ea2daf55fb8e61865372bff104591367d7aa16399b7224cf6530485c4d6"
 
-RPROVIDES:${PN} += "python3-regex python3.10dist(regex) python310-regex python310-regex(aarch-64) python3dist(regex)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3-regex \
+python3.10dist(regex) \
+python310-regex \
+python310-regex(aarch-64) \
+python3dist(regex)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

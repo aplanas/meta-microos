@@ -18,7 +18,10 @@ PV = "0.003"
 RPM_NAME = "perl-Scalar-String-0.003-1.28.aarch64.rpm"
 RPM_HASH = "1b32fb4eb9d71511b5febf829571de7ac75398b7aae855ec236d3b3e3b14c24adaad8c317584ee2b480490a5d11bc569450ddc1f8b662a4b8512004b8d8da720"
 
-RPROVIDES:${PN} += "perl(Scalar::String) perl-Scalar-String perl-Scalar-String(aarch-64)"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(parent)"
+RPROVIDES:${PN} += "perl(Scalar::String) \
+perl-Scalar-String \
+perl-Scalar-String(aarch-64)"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(parent)"
 
 inherit rpm

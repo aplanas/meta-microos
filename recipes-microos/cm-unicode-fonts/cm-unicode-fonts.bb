@@ -13,7 +13,12 @@ RPM_NAME = "cm-unicode-fonts-0.7.0-195.17.noarch.rpm"
 RPM_HASH = "914d90cabe3b9ddbaf16d2f07d796c8a51228b8d9214e45ec8eb301fc5c90458bda03927f9fc36f475467f2083c5e2b266ceecf6b0026b7ec4578157760b4991"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "cm-unicode cm-unicode-fonts locale(ru;bg;el)"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "cm-unicode \
+cm-unicode-fonts \
+locale(ru;bg;el)"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

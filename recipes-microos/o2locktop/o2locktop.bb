@@ -18,6 +18,8 @@ RPM_HASH = "c69958e68dfe8c7b5a1572105e8191f15e4b863426426baedc09b933f2f529fd2e0b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "o2locktop"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3"
 
 inherit rpm

@@ -20,7 +20,14 @@ RPM_NAME = "python310-screenplain-0.9.0+git.1679319196.353e6c9-1.2.noarch.rpm"
 RPM_HASH = "88683083ce26f31757c28eecee641b726df1915179489934f346def41c824ac979a2e978ea38d9cbe6a042ac22f82784c14c6f0827f117e42ab48e59bd5d5b9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-screenplain python3.10dist(screenplain) python310-screenplain python3dist(screenplain)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-reportlab update-alternatives"
+RPROVIDES:${PN} += "python3-screenplain \
+python3.10dist(screenplain) \
+python310-screenplain \
+python3dist(screenplain)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-reportlab \
+update-alternatives"
 
 inherit rpm

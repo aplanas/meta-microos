@@ -23,7 +23,15 @@ RPM_NAME = "python39-virtualenv-20.23.0-1.1.noarch.rpm"
 RPM_HASH = "4a2979012957df3e986bef6d724eb8d8a6d5e93111b8a77376084f1eca7a25213bbe89e7b4fb9c73dcdee17595e204682fa6df21e177b65cbb56f2f69ab82d13"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(virtualenv) python39-virtualenv python3dist(virtualenv)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-distlib python39-filelock python39-platformdirs update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(virtualenv) \
+python39-virtualenv \
+python3dist(virtualenv)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-distlib \
+python39-filelock \
+python39-platformdirs \
+update-alternatives"
 
 inherit rpm

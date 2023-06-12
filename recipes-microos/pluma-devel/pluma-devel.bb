@@ -11,7 +11,15 @@ PV = "1.26.1"
 RPM_NAME = "pluma-devel-1.26.1-1.1.aarch64.rpm"
 RPM_HASH = "a1daccbb51f9f6ecd4f69140b18fa16665f12bae0124f7b04fa978dac8ced551c7b11d99ecf4bf718b79b595f526bd3ab78b24df8451baa97da0c7344378bcf0"
 
-RPROVIDES:${PN} += "pkgconfig(pluma) pluma-devel pluma-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config pkgconfig(gtksourceview-3.0) pkgconfig(gtksourceview-4) pkgconfig(libpeas-1.0) pkgconfig(libpeas-gtk-1.0) pluma typelib-1_0-Pluma-1_0"
+RPROVIDES:${PN} += "pkgconfig(pluma) \
+pluma-devel \
+pluma-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+pkgconfig(gtksourceview-3.0) \
+pkgconfig(gtksourceview-4) \
+pkgconfig(libpeas-1.0) \
+pkgconfig(libpeas-gtk-1.0) \
+pluma \
+typelib-1_0-Pluma-1_0"
 
 inherit rpm

@@ -21,7 +21,33 @@ RPM_NAME = "texlive-spectralsequences-2023.201.1.3.3svn65667-57.1.noarch.rpm"
 RPM_HASH = "4bfcfc643cb9baa4d19a29ddfbe7958b870f17c8a39c3bd4f6dee9dd6ea386ebf41e035df2cc1d822a80226383e49c290b6c4785f4a6b2ce1051b57f104bfd0e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(spectralsequences.sty) tex(sseqcheckdefinitions.code.tex) tex(sseqdrawing.code.tex) tex(sseqforeach.code.tex) tex(sseqkeys.code.tex) tex(sseqloadstore.code.tex) tex(sseqmacromakers.code.tex) tex(sseqmain.code.tex) tex(sseqmessages.code.tex) tex(sseqparsers.code.tex) texlive-spectralsequences"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(etoolbox.sty) tex(pdfcomment.sty) tex(tikz.sty) tex(verbatim.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(spectralsequences.sty) \
+tex(sseqcheckdefinitions.code.tex) \
+tex(sseqdrawing.code.tex) \
+tex(sseqforeach.code.tex) \
+tex(sseqkeys.code.tex) \
+tex(sseqloadstore.code.tex) \
+tex(sseqmacromakers.code.tex) \
+tex(sseqmain.code.tex) \
+tex(sseqmessages.code.tex) \
+tex(sseqparsers.code.tex) \
+texlive-spectralsequences"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(etoolbox.sty) \
+tex(pdfcomment.sty) \
+tex(tikz.sty) \
+tex(verbatim.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

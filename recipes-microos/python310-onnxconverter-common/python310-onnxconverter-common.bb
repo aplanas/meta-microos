@@ -11,7 +11,13 @@ RPM_NAME = "python310-onnxconverter-common-1.9.0-2.5.noarch.rpm"
 RPM_HASH = "c9d2fa854f26afab7469064431d723aa52bb4b09c2231b42139a9eea89cddbc5bc26094028a5c9362ae08012554b01157e1ac9e8d794eb9e6e54ae38b52fec3b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-onnxconverter-common python3.10dist(onnxconverter-common) python310-onnxconverter-common python3dist(onnxconverter-common)"
-RDEPENDS:${PN} += "python(abi) python310-numpy python310-onnx python310-protobuf"
+RPROVIDES:${PN} += "python3-onnxconverter-common \
+python3.10dist(onnxconverter-common) \
+python310-onnxconverter-common \
+python3dist(onnxconverter-common)"
+RDEPENDS:${PN} += "python(abi) \
+python310-numpy \
+python310-onnx \
+python310-protobuf"
 
 inherit rpm

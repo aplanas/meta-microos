@@ -10,6 +10,15 @@ RPM_HASH = "3d52b2f5c1fdc606d741b2dcbd5564febd866da755feab211dcafa4279dd094c6afa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "build-compare"
-RDEPENDS:${PN} += "/bin/bash bash coreutils cpio diffutils file gawk grep rpm sed"
+RDEPENDS:${PN} += "/bin/bash \
+bash \
+coreutils \
+cpio \
+diffutils \
+file \
+gawk \
+grep \
+rpm \
+sed"
 
 inherit rpm

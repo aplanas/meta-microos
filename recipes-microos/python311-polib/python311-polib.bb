@@ -15,7 +15,9 @@ RPM_NAME = "python311-polib-1.1.1-1.8.noarch.rpm"
 RPM_HASH = "247fbe5fe905b4dd275642078ebacf96c06216856c2966dec1b72113152eeef783eb08b3647fff011a7b636345dffac4d0fd2cda18350af5bff1543c975412dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(polib) python311-polib python3dist(polib)"
+RPROVIDES:${PN} += "python3.11dist(polib) \
+python311-polib \
+python3dist(polib)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

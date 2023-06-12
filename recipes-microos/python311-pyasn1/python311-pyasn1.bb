@@ -11,7 +11,9 @@ RPM_NAME = "python311-pyasn1-0.5.0-1.1.noarch.rpm"
 RPM_HASH = "f4fbf734c88a2071a93aca5fe99d0c622516b076241a194701c5a5aab2c5d949a5199f68bb597ac137ba7317355909bbe5e9e4e3ee448ab81c4970b3447e434e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyasn1) python311-pyasn1 python3dist(pyasn1)"
+RPROVIDES:${PN} += "python3.11dist(pyasn1) \
+python311-pyasn1 \
+python3dist(pyasn1)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

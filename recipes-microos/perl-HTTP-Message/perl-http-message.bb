@@ -319,7 +319,32 @@ RPM_NAME = "perl-HTTP-Message-6.44-1.2.noarch.rpm"
 RPM_HASH = "11527e716176dea31f9b1f0b15196fa81715c067f1aed57564438f7c7de6a426268eff6474a029ce0571bc3f435395e0fcf8a157f5e1aae3f7735e56746f5804"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Config) perl(HTTP::Headers) perl(HTTP::Headers::Auth) perl(HTTP::Headers::ETag) perl(HTTP::Headers::Util) perl(HTTP::Message) perl(HTTP::Request) perl(HTTP::Request::Common) perl(HTTP::Response) perl(HTTP::Status) perl-HTTP-Message"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Clone) perl(Compress::Raw::Bzip2) perl(Compress::Raw::Zlib) perl(Encode) perl(Encode::Locale) perl(HTTP::Date) perl(IO::Compress::Bzip2) perl(IO::Compress::Deflate) perl(IO::Compress::Gzip) perl(IO::HTML) perl(IO::Uncompress::Inflate) perl(IO::Uncompress::RawInflate) perl(LWP::MediaTypes) perl(URI) perl(parent)"
+RPROVIDES:${PN} += "perl(HTTP::Config) \
+perl(HTTP::Headers) \
+perl(HTTP::Headers::Auth) \
+perl(HTTP::Headers::ETag) \
+perl(HTTP::Headers::Util) \
+perl(HTTP::Message) \
+perl(HTTP::Request) \
+perl(HTTP::Request::Common) \
+perl(HTTP::Response) \
+perl(HTTP::Status) \
+perl-HTTP-Message"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Clone) \
+perl(Compress::Raw::Bzip2) \
+perl(Compress::Raw::Zlib) \
+perl(Encode) \
+perl(Encode::Locale) \
+perl(HTTP::Date) \
+perl(IO::Compress::Bzip2) \
+perl(IO::Compress::Deflate) \
+perl(IO::Compress::Gzip) \
+perl(IO::HTML) \
+perl(IO::Uncompress::Inflate) \
+perl(IO::Uncompress::RawInflate) \
+perl(LWP::MediaTypes) \
+perl(URI) \
+perl(parent)"
 
 inherit rpm

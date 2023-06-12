@@ -13,7 +13,10 @@ PV = "1.0.2"
 RPM_NAME = "ipcalc-1.0.2-1.2.aarch64.rpm"
 RPM_HASH = "0bf6507d21c2b1a3fd25c374214f5f9c32a30b6cf56f1f6c82c42041565d54cc21b07b677a73ae725ba2529da12dde484c200acad421950e925f749c180fd9b9"
 
-RPROVIDES:${PN} += "ipcalc ipcalc(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "ipcalc \
+ipcalc(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -16,7 +16,11 @@ RPM_NAME = "lato-fonts-2.015-1.4.noarch.rpm"
 RPM_HASH = "d208410ed52fb0278a6e867eda24225cc82360db41a3a26b5c58ad27eb603b8a5085ffa5ba4cb3915c5589e8942f912576e942ecc140c93a70d18245c16e3dfc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "google-lato-fonts lato-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "google-lato-fonts \
+lato-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

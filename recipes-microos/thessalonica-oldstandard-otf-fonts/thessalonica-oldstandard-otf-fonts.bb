@@ -18,7 +18,9 @@ RPM_NAME = "thessalonica-oldstandard-otf-fonts-2.2-11.18.noarch.rpm"
 RPM_HASH = "7239281c39571702c7c8f5404df300730298b0c028f60a9c8c9c6a4e9e90852e8fb9b090e7dcaa11169611bd6381a080cbecaa64829c877aa372f1f904c2910b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(el;ru) oldstandard-fonts-otf thessalonica-oldstandard-otf-fonts"
+RPROVIDES:${PN} += "locale(el;ru) \
+oldstandard-fonts-otf \
+thessalonica-oldstandard-otf-fonts"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

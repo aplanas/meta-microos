@@ -22,7 +22,16 @@ RPM_NAME = "perl-Mojo-Redis-3.29-1.7.noarch.rpm"
 RPM_HASH = "804103d3f9920ae057837db6b9b738ad94e4b0a57c5267dfaeff814ceff81fbffcb82c5ec81f1a2e1b08371c530d0a4be08765402f7ea8ade313a711525eae5b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mojo::Redis) perl(Mojo::Redis::Cache) perl(Mojo::Redis::Connection) perl(Mojo::Redis::Connection::Offline) perl(Mojo::Redis::Cursor) perl(Mojo::Redis::Database) perl(Mojo::Redis::PubSub) perl-Mojo-Redis"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Mojolicious) perl(Protocol::Redis::Faster)"
+RPROVIDES:${PN} += "perl(Mojo::Redis) \
+perl(Mojo::Redis::Cache) \
+perl(Mojo::Redis::Connection) \
+perl(Mojo::Redis::Connection::Offline) \
+perl(Mojo::Redis::Cursor) \
+perl(Mojo::Redis::Database) \
+perl(Mojo::Redis::PubSub) \
+perl-Mojo-Redis"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Mojolicious) \
+perl(Protocol::Redis::Faster)"
 
 inherit rpm

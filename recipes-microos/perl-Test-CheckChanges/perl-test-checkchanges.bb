@@ -24,7 +24,8 @@ RPM_NAME = "perl-Test-CheckChanges-0.14-16.22.noarch.rpm"
 RPM_HASH = "c8ea24f8e0cdee252754710a1d4a9e9ff23829f12419efa1004cecbbad20235a88d501e005727e656102bfb536af0b8d0b62055a93199af6027fe43ad51986c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::CheckChanges) perl-Test-CheckChanges"
+RPROVIDES:${PN} += "perl(Test::CheckChanges) \
+perl-Test-CheckChanges"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

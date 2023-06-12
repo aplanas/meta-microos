@@ -18,7 +18,9 @@ RPM_NAME = "python39-colour-0.1.5-3.12.noarch.rpm"
 RPM_HASH = "0ed5d184c4354f86efda11dbd52b0c0fe80002866e768b47fa781f4cf27d0b9683efefc18cf674b636cbcb86caf71dfbd3946fa46693a5846f26c5d0d9489e61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(colour) python39-colour python3dist(colour)"
+RPROVIDES:${PN} += "python3.9dist(colour) \
+python39-colour \
+python3dist(colour)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

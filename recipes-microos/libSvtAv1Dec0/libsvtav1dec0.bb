@@ -11,7 +11,12 @@ PV = "1.4.1"
 RPM_NAME = "libSvtAv1Dec0-1.4.1-2.1.aarch64.rpm"
 RPM_HASH = "d03381e8de258be8ec249a36708c01dfd6ca91c0ece2a6cc44cb2de873446b655fa328e82e4f3cf3de48f122a336d43a4f0c8d6f30ba6c5e10aff6035b2b66c1"
 
-RPROVIDES:${PN} += "libSvtAv1Dec.so.0()(64bit) libSvtAv1Dec0 libSvtAv1Dec0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "libSvtAv1Dec.so.0()(64bit) \
+libSvtAv1Dec0 \
+libSvtAv1Dec0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

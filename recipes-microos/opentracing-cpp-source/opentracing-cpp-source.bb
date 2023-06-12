@@ -9,6 +9,7 @@ RPM_HASH = "37eae12d478cb09458c3f54c5e2608b4bca45a3b56decfbd43c4f82b46f6a2e2308f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opentracing-cpp-source"
-RDEPENDS:${PN} += "/bin/bash /bin/sh"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh"
 
 inherit rpm

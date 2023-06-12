@@ -16,7 +16,29 @@ PV = "3.2.0b6"
 RPM_NAME = "htdig-3.2.0b6-244.11.aarch64.rpm"
 RPM_HASH = "799e191e0e30cab7a697dae2ffbf5e9c1e3ce12bbb22f297958650813d649805373a1e83f08b9c504f86bcbd9d9c250fd557318e6c625da3d057a46ab0fba60a"
 
-RPROVIDES:${PN} += "config(htdig) htdig htdig(aarch-64) libcommon-3.2.0.so()(64bit) libfuzzy-3.2.0.so()(64bit) libht-3.2.0.so()(64bit) libhtdb-3.2.0.so()(64bit) libhtnet-3.2.0.so()(64bit) libhtword-3.2.0.so()(64bit)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.29)(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) libz.so.1()(64bit)"
+RPROVIDES:${PN} += "config(htdig) \
+htdig \
+htdig(aarch-64) \
+libcommon-3.2.0.so()(64bit) \
+libfuzzy-3.2.0.so()(64bit) \
+libht-3.2.0.so()(64bit) \
+libhtdb-3.2.0.so()(64bit) \
+libhtnet-3.2.0.so()(64bit) \
+libhtword-3.2.0.so()(64bit)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
+libz.so.1()(64bit)"
 
 inherit rpm

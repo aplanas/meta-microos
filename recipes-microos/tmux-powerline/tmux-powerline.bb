@@ -15,6 +15,7 @@ RPM_HASH = "072276cabf1d580d3a55f4d3d24a4a884c397abc9e7219ed595313760b2777a6591c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tmux-powerline"
-RDEPENDS:${PN} += "powerline tmux"
+RDEPENDS:${PN} += "powerline \
+tmux"
 
 inherit rpm

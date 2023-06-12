@@ -11,7 +11,12 @@ PV = "22.08.8"
 RPM_NAME = "typelib-1_0-AccountsService-1_0-22.08.8-2.4.aarch64.rpm"
 RPM_HASH = "1d5ca6af6004241139b6a11b5b6f136fdefdde7e70cd4f0832ed03a26002f0b1480466d5ef1a729be3aa6c61c7626ca1d03d0888c5fe008fa36fc87d79779368"
 
-RPROVIDES:${PN} += "typelib(AccountsService) typelib-1_0-AccountsService-1_0 typelib-1_0-AccountsService-1_0(aarch-64)"
-RDEPENDS:${PN} += "libaccountsservice.so.0()(64bit) typelib(GLib) typelib(GObject) typelib(Gio)"
+RPROVIDES:${PN} += "typelib(AccountsService) \
+typelib-1_0-AccountsService-1_0 \
+typelib-1_0-AccountsService-1_0(aarch-64)"
+RDEPENDS:${PN} += "libaccountsservice.so.0()(64bit) \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gio)"
 
 inherit rpm

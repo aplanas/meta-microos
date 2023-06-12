@@ -13,7 +13,8 @@ PV = "5.3.5"
 RPM_NAME = "mumps-mvapich2-devel-static-compat-5.3.5-3.3.aarch64.rpm"
 RPM_HASH = "50f8f219ea8caf6f2d3569de218d2d18a0ece708a6322566ff039da3506cf04a6704aca2f52adac8694ef32a6da0a345833ad4a957348bef869229b21267a940"
 
-RPROVIDES:${PN} += "mumps-mvapich2-devel-static-compat mumps-mvapich2-devel-static-compat(aarch-64)"
+RPROVIDES:${PN} += "mumps-mvapich2-devel-static-compat \
+mumps-mvapich2-devel-static-compat(aarch-64)"
 RDEPENDS:${PN} += "mumps-devel-static"
 
 inherit rpm

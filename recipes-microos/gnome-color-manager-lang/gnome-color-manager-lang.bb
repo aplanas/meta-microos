@@ -8,7 +8,73 @@ RPM_NAME = "gnome-color-manager-lang-3.36.0-2.9.noarch.rpm"
 RPM_HASH = "921f5cc8b53519c49ae69d18d1d7ce3ce86e49ffad23b37456408e180e5d47cdc08beb3268b7f419782ae27a2c8b0ade202dcf7bce45df278747ac18e7223177"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "gnome-color-manager-lang gnome-color-manager-lang-all locale(gnome-color-manager:ar) locale(gnome-color-manager:as) locale(gnome-color-manager:bg) locale(gnome-color-manager:bn_IN) locale(gnome-color-manager:bs) locale(gnome-color-manager:ca) locale(gnome-color-manager:ca@valencia) locale(gnome-color-manager:cs) locale(gnome-color-manager:da) locale(gnome-color-manager:de) locale(gnome-color-manager:el) locale(gnome-color-manager:en_GB) locale(gnome-color-manager:eo) locale(gnome-color-manager:es) locale(gnome-color-manager:et) locale(gnome-color-manager:eu) locale(gnome-color-manager:fa) locale(gnome-color-manager:fi) locale(gnome-color-manager:fr) locale(gnome-color-manager:fur) locale(gnome-color-manager:gd) locale(gnome-color-manager:gl) locale(gnome-color-manager:gu) locale(gnome-color-manager:he) locale(gnome-color-manager:hi) locale(gnome-color-manager:hr) locale(gnome-color-manager:hu) locale(gnome-color-manager:id) locale(gnome-color-manager:is) locale(gnome-color-manager:it) locale(gnome-color-manager:ja) locale(gnome-color-manager:kk) locale(gnome-color-manager:kn) locale(gnome-color-manager:ko) locale(gnome-color-manager:lt) locale(gnome-color-manager:lv) locale(gnome-color-manager:ml) locale(gnome-color-manager:mr) locale(gnome-color-manager:ms) locale(gnome-color-manager:nb) locale(gnome-color-manager:ne) locale(gnome-color-manager:nl) locale(gnome-color-manager:oc) locale(gnome-color-manager:or) locale(gnome-color-manager:pa) locale(gnome-color-manager:pl) locale(gnome-color-manager:pt) locale(gnome-color-manager:pt_BR) locale(gnome-color-manager:ro) locale(gnome-color-manager:ru) locale(gnome-color-manager:sk) locale(gnome-color-manager:sl) locale(gnome-color-manager:sr) locale(gnome-color-manager:sr@latin) locale(gnome-color-manager:sv) locale(gnome-color-manager:ta) locale(gnome-color-manager:te) locale(gnome-color-manager:th) locale(gnome-color-manager:tr) locale(gnome-color-manager:ug) locale(gnome-color-manager:uk) locale(gnome-color-manager:vi) locale(gnome-color-manager:zh_CN) locale(gnome-color-manager:zh_HK) locale(gnome-color-manager:zh_TW)"
+RPROVIDES:${PN} += "gnome-color-manager-lang \
+gnome-color-manager-lang-all \
+locale(gnome-color-manager:ar) \
+locale(gnome-color-manager:as) \
+locale(gnome-color-manager:bg) \
+locale(gnome-color-manager:bn_IN) \
+locale(gnome-color-manager:bs) \
+locale(gnome-color-manager:ca) \
+locale(gnome-color-manager:ca@valencia) \
+locale(gnome-color-manager:cs) \
+locale(gnome-color-manager:da) \
+locale(gnome-color-manager:de) \
+locale(gnome-color-manager:el) \
+locale(gnome-color-manager:en_GB) \
+locale(gnome-color-manager:eo) \
+locale(gnome-color-manager:es) \
+locale(gnome-color-manager:et) \
+locale(gnome-color-manager:eu) \
+locale(gnome-color-manager:fa) \
+locale(gnome-color-manager:fi) \
+locale(gnome-color-manager:fr) \
+locale(gnome-color-manager:fur) \
+locale(gnome-color-manager:gd) \
+locale(gnome-color-manager:gl) \
+locale(gnome-color-manager:gu) \
+locale(gnome-color-manager:he) \
+locale(gnome-color-manager:hi) \
+locale(gnome-color-manager:hr) \
+locale(gnome-color-manager:hu) \
+locale(gnome-color-manager:id) \
+locale(gnome-color-manager:is) \
+locale(gnome-color-manager:it) \
+locale(gnome-color-manager:ja) \
+locale(gnome-color-manager:kk) \
+locale(gnome-color-manager:kn) \
+locale(gnome-color-manager:ko) \
+locale(gnome-color-manager:lt) \
+locale(gnome-color-manager:lv) \
+locale(gnome-color-manager:ml) \
+locale(gnome-color-manager:mr) \
+locale(gnome-color-manager:ms) \
+locale(gnome-color-manager:nb) \
+locale(gnome-color-manager:ne) \
+locale(gnome-color-manager:nl) \
+locale(gnome-color-manager:oc) \
+locale(gnome-color-manager:or) \
+locale(gnome-color-manager:pa) \
+locale(gnome-color-manager:pl) \
+locale(gnome-color-manager:pt) \
+locale(gnome-color-manager:pt_BR) \
+locale(gnome-color-manager:ro) \
+locale(gnome-color-manager:ru) \
+locale(gnome-color-manager:sk) \
+locale(gnome-color-manager:sl) \
+locale(gnome-color-manager:sr) \
+locale(gnome-color-manager:sr@latin) \
+locale(gnome-color-manager:sv) \
+locale(gnome-color-manager:ta) \
+locale(gnome-color-manager:te) \
+locale(gnome-color-manager:th) \
+locale(gnome-color-manager:tr) \
+locale(gnome-color-manager:ug) \
+locale(gnome-color-manager:uk) \
+locale(gnome-color-manager:vi) \
+locale(gnome-color-manager:zh_CN) \
+locale(gnome-color-manager:zh_HK) \
+locale(gnome-color-manager:zh_TW)"
 RDEPENDS:${PN} += "gnome-color-manager"
 
 inherit rpm

@@ -8,7 +8,12 @@ RPM_NAME = "myspell-pl_PL-20221012-1.2.noarch.rpm"
 RPM_HASH = "38940ab089a81c39a66b7c418154eaf108d655d7db37a974c8d9a59166db7a26c0109a2f485338bc145451a0795f1e41d51ece8b451dfd4e44c8457b6b6265b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libreoffice-thesaurus-pl locale(libreoffice:pl_PL) locale(seamonkey-spellchecker:pl_PL) myspell-dictionary myspell-pl_PL myspell-polish"
+RPROVIDES:${PN} += "libreoffice-thesaurus-pl \
+locale(libreoffice:pl_PL) \
+locale(seamonkey-spellchecker:pl_PL) \
+myspell-dictionary \
+myspell-pl_PL \
+myspell-polish"
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

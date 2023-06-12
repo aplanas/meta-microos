@@ -10,7 +10,14 @@ RPM_NAME = "python39-azure-cognitiveservices-language-spellcheck-2.0.0-2.11.noar
 RPM_HASH = "f4889f2e001f5b61a6fe6d39fe913b20c5db12ac07cc8384017d099aed738b6bbdd1c2b4bea91592ccfc223d8334a7dc9a6d6a0f223941096ac27c1d5fd7e392"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-cognitiveservices-language-spellcheck) python39-azure-cognitiveservices-language-spellcheck python3dist(azure-cognitiveservices-language-spellcheck)"
-RDEPENDS:${PN} += "python(abi) python39-azure-cognitiveservices-language-nspkg python39-azure-cognitiveservices-nspkg python39-azure-common python39-azure-nspkg python39-msrest"
+RPROVIDES:${PN} += "python3.9dist(azure-cognitiveservices-language-spellcheck) \
+python39-azure-cognitiveservices-language-spellcheck \
+python3dist(azure-cognitiveservices-language-spellcheck)"
+RDEPENDS:${PN} += "python(abi) \
+python39-azure-cognitiveservices-language-nspkg \
+python39-azure-cognitiveservices-nspkg \
+python39-azure-common \
+python39-azure-nspkg \
+python39-msrest"
 
 inherit rpm

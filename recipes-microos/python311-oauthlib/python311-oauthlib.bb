@@ -22,7 +22,12 @@ RPM_NAME = "python311-oauthlib-3.2.2-2.1.noarch.rpm"
 RPM_HASH = "96c4e15cc979ae2610943ef4c6190f3663940d1785185ee61c2201b6f51de86630d805a4f1c8eb5dca1565164667d1f6e6b4960b7ecd1790309756bbf7a9633f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(oauthlib) python311-oauthlib python3dist(oauthlib)"
-RDEPENDS:${PN} += "python(abi) python311-PyJWT python311-blinker python311-cryptography"
+RPROVIDES:${PN} += "python3.11dist(oauthlib) \
+python311-oauthlib \
+python3dist(oauthlib)"
+RDEPENDS:${PN} += "python(abi) \
+python311-PyJWT \
+python311-blinker \
+python311-cryptography"
 
 inherit rpm

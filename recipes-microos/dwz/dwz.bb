@@ -22,7 +22,12 @@ PV = "0.15"
 RPM_NAME = "dwz-0.15-2.3.aarch64.rpm"
 RPM_HASH = "6254ab9a5e4171b196682f86972f1b6965e5296de0007b368327b87a8b01106a2ed6497fd04fcb09617feebca75520119d431211182b4ce03ecb42077c441d9e"
 
-RPROVIDES:${PN} += "dwz dwz(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libelf.so.1()(64bit) libelf.so.1(ELFUTILS_1.0)(64bit)"
+RPROVIDES:${PN} += "dwz \
+dwz(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libelf.so.1()(64bit) \
+libelf.so.1(ELFUTILS_1.0)(64bit)"
 
 inherit rpm

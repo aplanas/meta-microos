@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-sundanese-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "7dc2aed576dd795961fb47421214e7b728a599b776d27299b122541c163d72ff6bf1ddadd9db101aad5618817362952dcbff37e1297c04a39a269425e22e1fa8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-sundanese noto-sans-sundanese-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-sundanese \
+noto-sans-sundanese-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

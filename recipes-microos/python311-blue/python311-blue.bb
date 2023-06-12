@@ -16,7 +16,14 @@ RPM_NAME = "python311-blue-0.9.1-2.1.noarch.rpm"
 RPM_HASH = "5b52e68ef7fabea621c4219fc5a93e956abbba218aafdadf362b49fc2a58d2ea3a264cdc6cd1bd237481180ff435873dc852562182fb31419c63cc2b2afdc239"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(blue) python311-blue python3dist(blue)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-black python311-flake8 update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(blue) \
+python311-blue \
+python3dist(blue)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-black \
+python311-flake8 \
+update-alternatives"
 
 inherit rpm

@@ -17,7 +17,20 @@ RPM_NAME = "texlive-patgen-2023.201.2.4svn66186-51.1.noarch.rpm"
 RPM_HASH = "48632aa09c8cbdcb17116ddeb28127850046878010ce31424765579ecfe0b53ac5574fbff7a6f98acc50647d168d5e67e239e67a4e47f89392365275e58e9580"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(patgen.1) texlive-patgen"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-patgen-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "man(patgen.1) \
+texlive-patgen"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-patgen-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

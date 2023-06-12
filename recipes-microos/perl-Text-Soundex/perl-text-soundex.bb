@@ -50,7 +50,12 @@ PV = "3.05"
 RPM_NAME = "perl-Text-Soundex-3.05-1.35.aarch64.rpm"
 RPM_HASH = "f4f5db98627e2829c9717da8cc6af2df4cf961a91983d31664618030adec3b211830963202be84fd2d2d480f540cfdcbfa7fed6b684f968c1d2255681fb2a33b"
 
-RPROVIDES:${PN} += "perl(Text::Soundex) perl-Text-Soundex perl-Text-Soundex(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Text::Soundex) \
+perl-Text-Soundex \
+perl-Text-Soundex(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

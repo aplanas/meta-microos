@@ -15,7 +15,21 @@ PV = "1.11.1"
 RPM_NAME = "megatools-1.11.1-1.1.aarch64.rpm"
 RPM_HASH = "852594791ee1af400d8f6ddb6fb13413c5cdab3141acb46d0bd26d8badee26c8a567cffd23ad9dba9c1e2716410780332aca00ae48292bdb54bf255836cdc85e"
 
-RPROVIDES:${PN} += "megatools megatools(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig curl fuse glib-networking ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libcurl.so.4()(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) openssl"
+RPROVIDES:${PN} += "megatools \
+megatools(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+curl \
+fuse \
+glib-networking \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libcurl.so.4()(64bit) \
+libgio-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+openssl"
 
 inherit rpm

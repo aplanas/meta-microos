@@ -18,7 +18,13 @@ PV = "0.5.20130522"
 RPM_NAME = "numad-0.5.20130522-8.7.aarch64.rpm"
 RPM_HASH = "2dc73f456adcce40deeef95e6dd487710978ae0e60952d69f6d192c07d1214947bc65e8b85270f8e4a318042f81fd9d92b0215d5d7d484f858a1c2469fba22b8"
 
-RPROVIDES:${PN} += "config(numad) numad numad(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) systemd"
+RPROVIDES:${PN} += "config(numad) \
+numad \
+numad(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+systemd"
 
 inherit rpm

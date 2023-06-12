@@ -17,7 +17,10 @@ PV = "0.11"
 RPM_NAME = "perl-File-Sync-0.11-10.37.aarch64.rpm"
 RPM_HASH = "4ea8ff188e5d143d71cfed44c75e6d8baf80a3745fa23551da443f9bf4306f1220f5219dd9b929ba78eedbedc5d4515a4c743af5fd64d3ed259b58efb838bc83"
 
-RPROVIDES:${PN} += "perl(File::Sync) perl-File-Sync perl-File-Sync(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(File::Sync) \
+perl-File-Sync \
+perl-File-Sync(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

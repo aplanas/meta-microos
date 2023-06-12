@@ -15,7 +15,12 @@ PV = "2.3.1"
 RPM_NAME = "monitoring-plugins-radius-2.3.1-9.4.aarch64.rpm"
 RPM_HASH = "f6b8611af5fb7f630e0f37dd9828ee9aff6eaabd13c85346d145fecd4141aea875882f4e4ccacd02affffd01433f9bbb3a1f8cb155635b0e90b6a9a2be7e4b36"
 
-RPROVIDES:${PN} += "monitoring-plugins-radius monitoring-plugins-radius(aarch-64) nagios-plugins-radius"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libfreeradius-client.so.2()(64bit)"
+RPROVIDES:${PN} += "monitoring-plugins-radius \
+monitoring-plugins-radius(aarch-64) \
+nagios-plugins-radius"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libfreeradius-client.so.2()(64bit)"
 
 inherit rpm

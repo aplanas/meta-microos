@@ -13,7 +13,15 @@ RPM_NAME = "python310-azure-mgmt-machinelearningservices-1.0.0-1.10.noarch.rpm"
 RPM_HASH = "64516b55f35f66cf06696ab1087573f3f70844086134c2886277b83790005a6b6257cd42477171be5a895f8e6fb4ac2fc517a2d17ec843115ac81a4bbbb3f976"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-machinelearningservices python3.10dist(azure-mgmt-machinelearningservices) python310-azure-mgmt-machinelearningservices python3dist(azure-mgmt-machinelearningservices)"
-RDEPENDS:${PN} += "python(abi) python310-azure-common python310-azure-mgmt-core python310-azure-mgmt-nspkg python310-azure-nspkg python310-msrest"
+RPROVIDES:${PN} += "python3-azure-mgmt-machinelearningservices \
+python3.10dist(azure-mgmt-machinelearningservices) \
+python310-azure-mgmt-machinelearningservices \
+python3dist(azure-mgmt-machinelearningservices)"
+RDEPENDS:${PN} += "python(abi) \
+python310-azure-common \
+python310-azure-mgmt-core \
+python310-azure-mgmt-nspkg \
+python310-azure-nspkg \
+python310-msrest"
 
 inherit rpm

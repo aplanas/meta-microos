@@ -12,6 +12,31 @@ RPM_HASH = "ef480fdba90e1f7ac893b81a005187a09f5b7530500982862bdfb30fc9759c04f39f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-git-log"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Cwd) perl(File::Basename) perl(Getopt::Long) perl(IPC::System::Simple) perl(Locale::Maketext::Simple) perl(Pod::Usage) perl(autodie) perl(feature) perl(open) perl(strict) perl(utf8) perl(warnings) sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-latex-git-log-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Cwd) \
+perl(File::Basename) \
+perl(Getopt::Long) \
+perl(IPC::System::Simple) \
+perl(Locale::Maketext::Simple) \
+perl(Pod::Usage) \
+perl(autodie) \
+perl(feature) \
+perl(open) \
+perl(strict) \
+perl(utf8) \
+perl(warnings) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-latex-git-log-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

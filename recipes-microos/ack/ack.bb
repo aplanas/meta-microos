@@ -9,6 +9,9 @@ RPM_HASH = "aded055c44c966d317e0d0f69df1b9970854c54752e58fba7005f27719a04ac1f350
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ack"
-RDEPENDS:${PN} += "/usr/bin/perl perl perl-App-Ack perl-base"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl \
+perl-App-Ack \
+perl-base"
 
 inherit rpm

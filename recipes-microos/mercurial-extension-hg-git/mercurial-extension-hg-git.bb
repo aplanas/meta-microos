@@ -10,7 +10,12 @@ RPM_NAME = "mercurial-extension-hg-git-1.0.2-1.1.noarch.rpm"
 RPM_HASH = "7a4989c695875ebf13e47f092804f729c30298c87ff5daff2d7315b942e065933e4994b7dad624e5cbc441c018f90d13458c62ca36c07b7c82d6926148b6356d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mercurial-extension-hg-git python3-hg-git python3.10dist(hg-git) python3dist(hg-git)"
-RDEPENDS:${PN} += "mercurial python(abi) python3-dulwich"
+RPROVIDES:${PN} += "mercurial-extension-hg-git \
+python3-hg-git \
+python3.10dist(hg-git) \
+python3dist(hg-git)"
+RDEPENDS:${PN} += "mercurial \
+python(abi) \
+python3-dulwich"
 
 inherit rpm

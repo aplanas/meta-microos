@@ -12,7 +12,12 @@ PV = "4.6.0"
 RPM_NAME = "libyui-qt-rest-api-devel-4.6.0-1.1.aarch64.rpm"
 RPM_HASH = "06bdbb523c399c556504589ba5209d4b3a742ef3fd6bb6943c636173dfb745a1efb231803d1000cd03cbf0b5093c8e8299b3d91db25064d37e33859678b831de"
 
-RPROVIDES:${PN} += "libyui-qt-rest-api-devel libyui-qt-rest-api-devel(aarch-64)"
-RDEPENDS:${PN} += "glibc-devel libstdc++-devel libyui-qt-devel libyui-qt-rest-api16 libyui-rest-api-devel"
+RPROVIDES:${PN} += "libyui-qt-rest-api-devel \
+libyui-qt-rest-api-devel(aarch-64)"
+RDEPENDS:${PN} += "glibc-devel \
+libstdc++-devel \
+libyui-qt-devel \
+libyui-qt-rest-api16 \
+libyui-rest-api-devel"
 
 inherit rpm

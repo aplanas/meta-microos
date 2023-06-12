@@ -10,7 +10,11 @@ RPM_NAME = "python311-k5test-0.10.3-2.1.noarch.rpm"
 RPM_HASH = "b0fda8cc710150145f0f80057f81778ad97ba41d504d272bd96aec2d70eba8852c19be1715170eca86af79df5cdc65953faacbaab369a6905641e58f4e303341"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(k5test) python311-k5test python3dist(k5test)"
-RDEPENDS:${PN} += "krb5-client krb5-server python(abi)"
+RPROVIDES:${PN} += "python3.11dist(k5test) \
+python311-k5test \
+python3dist(k5test)"
+RDEPENDS:${PN} += "krb5-client \
+krb5-server \
+python(abi)"
 
 inherit rpm

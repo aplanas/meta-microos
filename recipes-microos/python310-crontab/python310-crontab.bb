@@ -11,7 +11,12 @@ RPM_NAME = "python310-crontab-0.23.0-1.8.noarch.rpm"
 RPM_HASH = "8fe2ef84e1daa24fea29faa387a549b6e1c1a454cb88797a50da403c75939c5a7f5cd97fcd17a833a164206b7d8c677e1f50387eaf2fbbd1295bb6eb6d726eb4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-crontab python3.10dist(crontab) python310-crontab python3dist(crontab)"
-RDEPENDS:${PN} += "python(abi) python310-python-dateutil python310-pytz"
+RPROVIDES:${PN} += "python3-crontab \
+python3.10dist(crontab) \
+python310-crontab \
+python3dist(crontab)"
+RDEPENDS:${PN} += "python(abi) \
+python310-python-dateutil \
+python310-pytz"
 
 inherit rpm

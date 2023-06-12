@@ -24,7 +24,12 @@ PV = "3.21.0"
 RPM_NAME = "valgrind-3.21.0-1.1.aarch64.rpm"
 RPM_HASH = "1790ff4bbb0a0511197f2fc81e267c08f69fbcd0344a98233c8bf825af1a7898e1d710be6f175ba426af044f1fb839da4e261e7df017fb9df8303725e94871e5"
 
-RPROVIDES:${PN} += "callgrind valgrind valgrind(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/env /usr/bin/perl glibc libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "callgrind \
+valgrind \
+valgrind(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/perl \
+glibc \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

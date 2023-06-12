@@ -49,7 +49,14 @@ PV = "2.10"
 RPM_NAME = "tktable-2.10-6.18.aarch64.rpm"
 RPM_HASH = "5badabcbe020d0750b8c0f19524a05bb07e2300a69a78e5af126ba6174ce7d0ce0c41e5c1784806176ee2b4c261c0c3d6198fa26e94ca003982b30cd1ff99421"
 
-RPROVIDES:${PN} += "libTktable2.10.so()(64bit) tktable tktable(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libc.so.6(GLIBC_2.17)(64bit) tcl tk"
+RPROVIDES:${PN} += "libTktable2.10.so()(64bit) \
+tktable \
+tktable(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libX11.so.6()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+tcl \
+tk"
 
 inherit rpm

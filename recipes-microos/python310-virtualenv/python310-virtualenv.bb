@@ -23,7 +23,16 @@ RPM_NAME = "python310-virtualenv-20.23.0-1.1.noarch.rpm"
 RPM_HASH = "6a6bb6e5a4d853e7a50c92949e7f16249520a1abb8e54b1ac76e251d147443837d83e71a18181a6201c8ba420833789c4ed6528fbfeffd92b502cf02be2bcda8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-virtualenv python3.10dist(virtualenv) python310-virtualenv python3dist(virtualenv)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-distlib python310-filelock python310-platformdirs update-alternatives"
+RPROVIDES:${PN} += "python3-virtualenv \
+python3.10dist(virtualenv) \
+python310-virtualenv \
+python3dist(virtualenv)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-distlib \
+python310-filelock \
+python310-platformdirs \
+update-alternatives"
 
 inherit rpm

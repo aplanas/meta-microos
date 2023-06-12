@@ -12,7 +12,12 @@ PV = "5.2.0"
 RPM_NAME = "libprelude-devel-bindings-5.2.0-2.14.aarch64.rpm"
 RPM_HASH = "dfde0be84def54f7125d8d6f86d68278462e7aa44a4a8d4c041bf3d78bfb5ccb370985aba34716264f0ca34a400b8a548ae2a4c39e7101d8fe724991d93c0ff1"
 
-RPROVIDES:${PN} += "libprelude-devel-bindings libprelude-devel-bindings(aarch-64)"
-RDEPENDS:${PN} += "libprelude-devel lua-devel python3-devel ruby-devel swig"
+RPROVIDES:${PN} += "libprelude-devel-bindings \
+libprelude-devel-bindings(aarch-64)"
+RDEPENDS:${PN} += "libprelude-devel \
+lua-devel \
+python3-devel \
+ruby-devel \
+swig"
 
 inherit rpm

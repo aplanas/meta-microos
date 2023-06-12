@@ -9,6 +9,7 @@ RPM_HASH = "be26cb122e719a1bf0337c402e34d1c0570f33d866ade75f929474959ce019a5cc10
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nmap-parse-output-bash-completion"
-RDEPENDS:${PN} += "bash-completion nmap-parse-output"
+RDEPENDS:${PN} += "bash-completion \
+nmap-parse-output"
 
 inherit rpm

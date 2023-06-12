@@ -10,7 +10,14 @@ RPM_NAME = "python311-azure-mgmt-avs-7.1.0-1.3.noarch.rpm"
 RPM_HASH = "369579a43552d561530e881cd45790a91ef7548ef12763bd6e2f93c490ff2f67455d75d805f254c964c2b2ed996f4de2eb1fb2c7fe6c06a66b73bdde79390d97"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-avs) python311-azure-mgmt-avs python3dist(azure-mgmt-avs)"
-RDEPENDS:${PN} += "python(abi) python311-azure-common python311-azure-mgmt-core python311-azure-mgmt-nspkg python311-azure-nspkg python311-msrest"
+RPROVIDES:${PN} += "python3.11dist(azure-mgmt-avs) \
+python311-azure-mgmt-avs \
+python3dist(azure-mgmt-avs)"
+RDEPENDS:${PN} += "python(abi) \
+python311-azure-common \
+python311-azure-mgmt-core \
+python311-azure-mgmt-nspkg \
+python311-azure-nspkg \
+python311-msrest"
 
 inherit rpm

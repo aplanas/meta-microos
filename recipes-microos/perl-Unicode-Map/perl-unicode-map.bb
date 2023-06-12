@@ -26,7 +26,13 @@ PV = "0.112"
 RPM_NAME = "perl-Unicode-Map-0.112-13.37.aarch64.rpm"
 RPM_HASH = "adb4837689e3d2e2092791a1b4220bf2b515750b6a42a5642b1d7161a0fae9fac0478d2b8138327c0c229eb3a80288668517d394bf2bc4515ebd14b4dab36dec"
 
-RPROVIDES:${PN} += "perl(Unicode::Map) perl-Unicode-Map perl-Unicode-Map(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Unicode::Map) \
+perl-Unicode-Map \
+perl-Unicode-Map(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

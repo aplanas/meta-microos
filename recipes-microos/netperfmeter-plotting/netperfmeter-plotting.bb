@@ -16,6 +16,9 @@ RPM_HASH = "9a0b533bf8d3b1f8b8a711014c4739180fe7a3304430984bc20cd90d0fd60510fabe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netperfmeter-plotting"
-RDEPENDS:${PN} += "/bin/sh R-core netperfmeter netperfmeter-pdfproctools"
+RDEPENDS:${PN} += "/bin/sh \
+R-core \
+netperfmeter \
+netperfmeter-pdfproctools"
 
 inherit rpm

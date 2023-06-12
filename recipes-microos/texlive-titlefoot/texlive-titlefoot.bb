@@ -12,7 +12,19 @@ RPM_NAME = "texlive-titlefoot-2023.201.svn15878-52.1.noarch.rpm"
 RPM_HASH = "98ad6d4f84401801f38c09ff58d4ea59f3329b6fade6a8b7eb2a7e951fab96c8fb0209dbd2a428d078f53d178411ec4e8926ac39c01c70a696e42eba22c458c9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(titlefoot.sty) texlive-titlefoot"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(titlefoot.sty) \
+texlive-titlefoot"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

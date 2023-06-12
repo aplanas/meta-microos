@@ -19,6 +19,9 @@ RPM_HASH = "deec35399257ac777efe7a4f4583c473eef1d368df67d7afd4964884360b92bb1055
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unifraktur-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

@@ -14,7 +14,15 @@ RPM_NAME = "glassfish-activation-api-1.2.0-4.3.noarch.rpm"
 RPM_HASH = "48eb97ed9e29fb4757c5c2923613d578575ce4b7c790083bb15a2750a07ef1c49c7c69eedc3c0c4358d99f4e4885579214640c602630f7b2d867378922570acb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "glassfish-activation-api gnu-jaf mvn(javax.activation:activation) mvn(javax.activation:activation:pom:) mvn(javax.activation:javax.activation-api) mvn(javax.activation:javax.activation-api:pom:) osgi(javax.activation-api)"
-RDEPENDS:${PN} += "/bin/sh java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "glassfish-activation-api \
+gnu-jaf \
+mvn(javax.activation:activation) \
+mvn(javax.activation:activation:pom:) \
+mvn(javax.activation:javax.activation-api) \
+mvn(javax.activation:javax.activation-api:pom:) \
+osgi(javax.activation-api)"
+RDEPENDS:${PN} += "/bin/sh \
+java-headless \
+javapackages-filesystem"
 
 inherit rpm

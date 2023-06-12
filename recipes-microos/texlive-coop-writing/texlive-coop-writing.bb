@@ -26,7 +26,31 @@ RPM_NAME = "texlive-coop-writing-2023.204.1.2.4svn61607-54.1.noarch.rpm"
 RPM_HASH = "f479a22da351089ab7bc19ef4678a9ec39dc8d81c6de7a90a65665c6b7f334b0565a23b6900c6971ef1f6afb5d61a0323444ad37c8ff9205512e20d9be097905"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(coop-writing.sty) texlive-coop-writing"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(csquotes.sty) tex(environ.sty) tex(etoolbox.sty) tex(hyperref.sty) tex(iflang.sty) tex(mdframed.sty) tex(soulutf8.sty) tex(tocloft.sty) tex(ulem.sty) tex(verbatim.sty) tex(xcolor.sty) tex(xstring.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(coop-writing.sty) \
+texlive-coop-writing"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(csquotes.sty) \
+tex(environ.sty) \
+tex(etoolbox.sty) \
+tex(hyperref.sty) \
+tex(iflang.sty) \
+tex(mdframed.sty) \
+tex(soulutf8.sty) \
+tex(tocloft.sty) \
+tex(ulem.sty) \
+tex(verbatim.sty) \
+tex(xcolor.sty) \
+tex(xstring.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -31,7 +31,14 @@ RPM_NAME = "perl-MooseX-Iterator-0.11-10.19.noarch.rpm"
 RPM_HASH = "76379abd70efcde5e0c841a697bc666f057a86b147c418f79543644d20626880812c9c55a0cfb29149b5f5b92a1619ee505299e06b8507f32b53d1af50902eda"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Moose::Meta::Attribute::Custom::Iterable) perl(MooseX::Iterator) perl(MooseX::Iterator::Array) perl(MooseX::Iterator::Hash) perl(MooseX::Iterator::Meta::Iterable) perl(MooseX::Iterator::Role) perl-MooseX-Iterator"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Moose)"
+RPROVIDES:${PN} += "perl(Moose::Meta::Attribute::Custom::Iterable) \
+perl(MooseX::Iterator) \
+perl(MooseX::Iterator::Array) \
+perl(MooseX::Iterator::Hash) \
+perl(MooseX::Iterator::Meta::Iterable) \
+perl(MooseX::Iterator::Role) \
+perl-MooseX-Iterator"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Moose)"
 
 inherit rpm

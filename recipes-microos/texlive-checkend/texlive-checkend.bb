@@ -14,7 +14,19 @@ RPM_NAME = "texlive-checkend-2023.201.1.0svn51475-53.1.noarch.rpm"
 RPM_HASH = "e2968285b8a90676213b9c21b6a161b3b9fcee3bea9215074b01ab103cce38724ae3b2042786aa01781df09758e41f810ebd8c7026574bae8f95e50ce04de47c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(checkend.sty) texlive-checkend"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(checkend.sty) \
+texlive-checkend"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

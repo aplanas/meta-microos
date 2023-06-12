@@ -18,7 +18,25 @@ RPM_NAME = "texlive-texdoctk-2023.201.0.0.6.0svn62186-54.1.noarch.rpm"
 RPM_HASH = "3780638002a97e36783c90d9bc65b3246a3dd3ba6be8b618bad1c3e44c668352713065eb24ea0fd8eb2b6dccbd8d142472a986c601ae0eefb383f0a70ebf537d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(texdoctk.dat) texlive-texdoctk"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(File::Basename) perl(File::Copy) perl(Getopt::Long) perl(strict) sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin texlive-texdoctk-bin"
+RPROVIDES:${PN} += "tex(texdoctk.dat) \
+texlive-texdoctk"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(File::Basename) \
+perl(File::Copy) \
+perl(Getopt::Long) \
+perl(strict) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-texdoctk-bin"
 
 inherit rpm

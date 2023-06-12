@@ -19,7 +19,15 @@ RPM_NAME = "jetty-cdi-9.4.51-1.1.noarch.rpm"
 RPM_HASH = "7b3781de3411611383b310faf3bbcc8bfb20d4844f746e0e424fc325ca3ff4716a24832157a6592dcaf70ae0728330dda501a7eb3f75303726aefc9eae58244a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jetty-cdi mvn(org.eclipse.jetty:jetty-cdi) mvn(org.eclipse.jetty:jetty-cdi:pom:) osgi(org.eclipse.jetty.cdi)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(org.eclipse.jetty:jetty-annotations) mvn(org.eclipse.jetty:jetty-server) mvn(org.eclipse.jetty:jetty-util) mvn(org.eclipse.jetty:jetty-webapp)"
+RPROVIDES:${PN} += "jetty-cdi \
+mvn(org.eclipse.jetty:jetty-cdi) \
+mvn(org.eclipse.jetty:jetty-cdi:pom:) \
+osgi(org.eclipse.jetty.cdi)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(org.eclipse.jetty:jetty-annotations) \
+mvn(org.eclipse.jetty:jetty-server) \
+mvn(org.eclipse.jetty:jetty-util) \
+mvn(org.eclipse.jetty:jetty-webapp)"
 
 inherit rpm

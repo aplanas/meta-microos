@@ -16,7 +16,32 @@ RPM_NAME = "gaupol-1.12-1.3.noarch.rpm"
 RPM_HASH = "f87adad4d700dfe54da237ff83ad4a6e688e76abee2550b2857205d43678b547e97d797d02c0fe8a8fb54c5e6abe5e4e2045b5be37952d17ff49b5ee14d88c2d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(io.otsaloma.gaupol.desktop) gaupol metainfo() metainfo(io.otsaloma.gaupol.appdata.xml) mimehandler(application/x-subrip) mimehandler(text/vtt) mimehandler(text/x-microdvd) mimehandler(text/x-ssa) mimehandler(text/x-subviewer) python3.10dist(gaupol) python3dist(gaupol)"
-RDEPENDS:${PN} += "/usr/bin/python3.10 python(abi) python3 python3-aeidon python3-gobject typelib(GLib) typelib(GObject) typelib(Gdk) typelib(Gio) typelib(Gspell) typelib(Gst) typelib(GstPbutils) typelib(GstTag) typelib(Gtk) typelib(Pango)"
+RPROVIDES:${PN} += "application() \
+application(io.otsaloma.gaupol.desktop) \
+gaupol \
+metainfo() \
+metainfo(io.otsaloma.gaupol.appdata.xml) \
+mimehandler(application/x-subrip) \
+mimehandler(text/vtt) \
+mimehandler(text/x-microdvd) \
+mimehandler(text/x-ssa) \
+mimehandler(text/x-subviewer) \
+python3.10dist(gaupol) \
+python3dist(gaupol)"
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+python(abi) \
+python3 \
+python3-aeidon \
+python3-gobject \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gdk) \
+typelib(Gio) \
+typelib(Gspell) \
+typelib(Gst) \
+typelib(GstPbutils) \
+typelib(GstTag) \
+typelib(Gtk) \
+typelib(Pango)"
 
 inherit rpm

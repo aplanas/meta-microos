@@ -16,7 +16,13 @@ RPM_NAME = "gcovr-5.2-1.2.noarch.rpm"
 RPM_HASH = "c4a3194eb67ae168bf1c9bf5ce7519a4df130bee701482ca74a0133e1ef0f989fe0f8083c72a730da43ce0a617314c9aeba6c9051912ec405f3026cf4a45669b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "gcovr python3.10dist(gcovr) python3dist(gcovr)"
-RDEPENDS:${PN} += "/usr/bin/python3 gcc python(abi) python3-Jinja2 python3-lxml"
+RPROVIDES:${PN} += "gcovr \
+python3.10dist(gcovr) \
+python3dist(gcovr)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+gcc \
+python(abi) \
+python3-Jinja2 \
+python3-lxml"
 
 inherit rpm

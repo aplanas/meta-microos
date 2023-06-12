@@ -9,6 +9,11 @@ RPM_HASH = "f8cb2304c2e0ab383c760266b57711bc213d9f9f0d7232a84b9f2a227cfe321492d0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xterm-console"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 aaa_base coreutils fonts-config perl"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+aaa_base \
+coreutils \
+fonts-config \
+perl"
 
 inherit rpm

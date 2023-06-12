@@ -13,7 +13,28 @@ PV = "2.6"
 RPM_NAME = "plotutils-2.6-29.3.aarch64.rpm"
 RPM_HASH = "28c120eba148fdb74810f0ac7fbb92587e521782cfdb83a0ae99342f715baaa67bd930759f66deda497f46f2d9dbb8bb7349980a64f2c8600a01ba59b7498d1c"
 
-RPROVIDES:${PN} += "plotutils plotutils(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.23)(64bit) libm.so.6(GLIBC_2.29)(64bit) libm.so.6(GLIBC_2.35)(64bit) libplot.so.2()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) perl"
+RPROVIDES:${PN} += "plotutils \
+plotutils(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.23)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libm.so.6(GLIBC_2.35)(64bit) \
+libplot.so.2()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.8)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+perl"
 
 inherit rpm

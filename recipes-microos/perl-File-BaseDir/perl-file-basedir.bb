@@ -17,7 +17,11 @@ RPM_NAME = "perl-File-BaseDir-0.09-1.9.noarch.rpm"
 RPM_HASH = "741ba8196fa06dc5a1828b477e7ce4830fade8b92db2b447dcfcdd85a2bf9251e18e75a323a434cde900446d5765af04d20dfdec51c6bd5da1225b0c447ab58c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::BaseDir) perl(File::IconTheme) perl(File::UserDirs) perl-File-BaseDir"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(IPC::System::Simple)"
+RPROVIDES:${PN} += "perl(File::BaseDir) \
+perl(File::IconTheme) \
+perl(File::UserDirs) \
+perl-File-BaseDir"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(IPC::System::Simple)"
 
 inherit rpm

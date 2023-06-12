@@ -12,7 +12,14 @@ RPM_NAME = "python311-sympy-1.11.1-1.4.noarch.rpm"
 RPM_HASH = "ed4f40406a1b4d809ca47546f085f82de5f4a24ecc310cd8b1fa4525b410a51b7adf5ed922863fab51a13c905bcb82400575263337672901af8e6ad7a28b800b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(sympy) python311-sympy python3dist(sympy)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-mpmath python311-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(sympy) \
+python311-sympy \
+python3dist(sympy)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-mpmath \
+python311-setuptools \
+update-alternatives"
 
 inherit rpm

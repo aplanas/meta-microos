@@ -31,7 +31,11 @@ RPM_NAME = "perl-Term-ProgressBar-2.23-1.2.noarch.rpm"
 RPM_HASH = "d1bd59d11f773fda0b6337bf9b64b31ecfc021741d619b0664d9cd47e786d6f165911a3bc7c16d8211b7cb35906939aa90cc7f1a8ea6e0a28b3a3b846ccca6de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Term::ProgressBar) perl(Term::ProgressBar::IO) perl-Term-ProgressBar"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Class::MethodMaker) perl(Term::ReadKey)"
+RPROVIDES:${PN} += "perl(Term::ProgressBar) \
+perl(Term::ProgressBar::IO) \
+perl-Term-ProgressBar"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::MethodMaker) \
+perl(Term::ReadKey)"
 
 inherit rpm

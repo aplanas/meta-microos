@@ -11,7 +11,11 @@ RPM_NAME = "python311-msgpack-numpy-0.4.8-1.4.noarch.rpm"
 RPM_HASH = "1086c7a5fcf9010bceacafa20e6c712d336fa864042accc03be1593171386be17bc53003fd67ed3eb6358a7ae75b1100b68fffa7d5bab592aebd19d9058005eb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(msgpack-numpy) python311-msgpack-numpy python3dist(msgpack-numpy)"
-RDEPENDS:${PN} += "python(abi) python311-msgpack python311-numpy"
+RPROVIDES:${PN} += "python3.11dist(msgpack-numpy) \
+python311-msgpack-numpy \
+python3dist(msgpack-numpy)"
+RDEPENDS:${PN} += "python(abi) \
+python311-msgpack \
+python311-numpy"
 
 inherit rpm

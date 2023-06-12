@@ -15,7 +15,9 @@ RPM_NAME = "python39-fqdn-1.5.1-2.1.noarch.rpm"
 RPM_HASH = "3f74d5426a94e563e91195e1680796215889fc2ab979e2b2cf066a7cbf7ce4f668d800eec8c0e3a6504b34c66978b2ff63ef065dc9608480b5e97c72a8d8f50d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(fqdn) python39-fqdn python3dist(fqdn)"
+RPROVIDES:${PN} += "python3.9dist(fqdn) \
+python39-fqdn \
+python3dist(fqdn)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

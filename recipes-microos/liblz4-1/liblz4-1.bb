@@ -11,7 +11,12 @@ PV = "1.9.4"
 RPM_NAME = "liblz4-1-1.9.4-2.3.aarch64.rpm"
 RPM_HASH = "de5ada4acb2f20274943e4b50b174b8ed52a9b9d07b93c8a81bcaaf8d2b8203a48ffb07bbe9fcea60dfe2eafc8f4f8a8e61d432470e46a2534bd98c66845922b"
 
-RPROVIDES:${PN} += "liblz4-1 liblz4-1(aarch-64) liblz4.so.1()(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "liblz4-1 \
+liblz4-1(aarch-64) \
+liblz4.so.1()(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

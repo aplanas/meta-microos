@@ -16,7 +16,17 @@ PV = "1.0.1"
 RPM_NAME = "mgdiff-1.0.1-7.27.aarch64.rpm"
 RPM_HASH = "c881db214a0f05f2980b081c36cacb31dcec622a44777237e6f23dc4b8039386eb2d272faba0a61fb44a7b83c3cefe8e32b5de1d511daa987ddff6cb8e219d17"
 
-RPROVIDES:${PN} += "application() application(mgdiff.desktop) mgdiff mgdiff(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libXm.so.4()(64bit) libXt.so.6()(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "application() \
+application(mgdiff.desktop) \
+mgdiff \
+mgdiff(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libX11.so.6()(64bit) \
+libXm.so.4()(64bit) \
+libXt.so.6()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

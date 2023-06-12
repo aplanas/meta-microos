@@ -18,7 +18,19 @@ PV = "20230302"
 RPM_NAME = "scamper-20230302-1.3.aarch64.rpm"
 RPM_HASH = "901af4fbd00887b277ce638ce2ef1d05ac577c500855981f7ce900fa25b5a21cc722abe34d08fe50538bc1d7244ecaa070420f3806d46111484b06743fa1853b"
 
-RPROVIDES:${PN} += "scamper scamper(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.36)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libscamperctrl.so.1()(64bit) libscamperfile.so.5()(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) libz.so.1()(64bit)"
+RPROVIDES:${PN} += "scamper \
+scamper(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.36)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libscamperctrl.so.1()(64bit) \
+libscamperfile.so.5()(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+libz.so.1()(64bit)"
 
 inherit rpm

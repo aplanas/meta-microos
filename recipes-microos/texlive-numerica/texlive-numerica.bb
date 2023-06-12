@@ -17,7 +17,23 @@ RPM_NAME = "texlive-numerica-2023.201.2.0.0svn61283-54.1.noarch.rpm"
 RPM_HASH = "0b27364063e870f6d672b63884186fdf3eb494fa2491a626ea75352611db6dbc37a353de30a66bb598205d055588a16a43bf15789d3aed03ea663277047d7888"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(numerica.sty) texlive-numerica"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsmath.sty) tex(etoolbox.sty) tex(l3keys2e.sty) tex(mathtools.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(numerica.sty) \
+texlive-numerica"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsmath.sty) \
+tex(etoolbox.sty) \
+tex(l3keys2e.sty) \
+tex(mathtools.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

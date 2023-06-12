@@ -11,7 +11,13 @@ PV = "3.2.6"
 RPM_NAME = "typelib-1_0-libmirage-3_2-3.2.6-1.8.aarch64.rpm"
 RPM_HASH = "68407d6c376101cb9e3e9dc38e37d5563a905d23776f8a22beaf9b1a24d41f3a3b8fb950cbfcf5f2a27aeaaec73659734a4333cdc5efe8b2398000689144ba17"
 
-RPROVIDES:${PN} += "typelib(Mirage) typelib-1_0-libmirage-3_2 typelib-1_0-libmirage-3_2(aarch-64)"
-RDEPENDS:${PN} += "libmirage.so.11()(64bit) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gio)"
+RPROVIDES:${PN} += "typelib(Mirage) \
+typelib-1_0-libmirage-3_2 \
+typelib-1_0-libmirage-3_2(aarch-64)"
+RDEPENDS:${PN} += "libmirage.so.11()(64bit) \
+typelib(GLib) \
+typelib(GModule) \
+typelib(GObject) \
+typelib(Gio)"
 
 inherit rpm

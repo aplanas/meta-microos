@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-lisu-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "f8ca26191640531c7807a6371869c5af77a70d5d37b05840360054815546b4304b3f6033c550f43043d3e752a8c5799134536af590bbc8834d51045945fcc3bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-lisu noto-sans-lisu-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-lisu \
+noto-sans-lisu-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

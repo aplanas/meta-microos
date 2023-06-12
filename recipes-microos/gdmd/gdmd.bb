@@ -9,6 +9,7 @@ RPM_HASH = "3c8b581267eb1468d4623e9a398d9d0904ad8b81ba29abce5bb9972ff390ae13cdb3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdmd"
-RDEPENDS:${PN} += "/usr/bin/perl gcc-d"
+RDEPENDS:${PN} += "/usr/bin/perl \
+gcc-d"
 
 inherit rpm

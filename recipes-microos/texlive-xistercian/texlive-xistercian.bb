@@ -14,7 +14,21 @@ RPM_NAME = "texlive-xistercian-2023.201.1.2svn61366-52.1.noarch.rpm"
 RPM_HASH = "e15ca5f6655b1bae380061beadba47e3ed0dfaa545e9d237c25b098f0c96375781eac9f9395a646271f73d3bc31e827d4059dc28da677e2a5a6d878bbac63d59"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xistercian.sty) texlive-xistercian"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(expkv-opt.sty) tex(pgf.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(xistercian.sty) \
+texlive-xistercian"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(expkv-opt.sty) \
+tex(pgf.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

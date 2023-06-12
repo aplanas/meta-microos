@@ -29,7 +29,10 @@ RPM_NAME = "python310-pytidylib-0.3.2-2.6.noarch.rpm"
 RPM_HASH = "b4eea1199e71e99a59b422340e16cce80fff7dfc54445c0750549c9fb36d7a9d875285c77a59be7f6bd17cf1556b0e08285db5cf57069c5ae4fe16b369560bb2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytidylib python3.10dist(pytidylib) python310-pytidylib python3dist(pytidylib)"
+RPROVIDES:${PN} += "python3-pytidylib \
+python3.10dist(pytidylib) \
+python310-pytidylib \
+python3dist(pytidylib)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

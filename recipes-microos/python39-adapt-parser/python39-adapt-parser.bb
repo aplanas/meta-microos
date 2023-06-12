@@ -10,7 +10,9 @@ RPM_NAME = "python39-adapt-parser-1.0.0-2.3.noarch.rpm"
 RPM_HASH = "ab8cbc25babc79efa05e8883c7b6d28885928895fda1e5965bec23b380d9ff516c8ca2e00f3fa5b3bedb82cc9b5a8d3bcac2029289bde0013228c607e59b23a4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(adapt-parser) python39-adapt-parser python3dist(adapt-parser)"
+RPROVIDES:${PN} += "python3.9dist(adapt-parser) \
+python39-adapt-parser \
+python3dist(adapt-parser)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -10,6 +10,12 @@ RPM_HASH = "51c5804175e598b43348e153b690a4abeeb0282ac4671250d217a53d6037752bc709
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-cargo_vendor"
-RDEPENDS:${PN} += "(cargo or rustup) /usr/bin/python3 gzip python3 python3-zstandard tar zstd"
+RDEPENDS:${PN} += "(cargo or rustup) \
+/usr/bin/python3 \
+gzip \
+python3 \
+python3-zstandard \
+tar \
+zstd"
 
 inherit rpm

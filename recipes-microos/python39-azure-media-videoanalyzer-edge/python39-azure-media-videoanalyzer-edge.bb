@@ -19,7 +19,13 @@ RPM_NAME = "python39-azure-media-videoanalyzer-edge-1.0.0b4-1.5.noarch.rpm"
 RPM_HASH = "e03ab0c3283cbc3ef667fec2f5e58fb8f1e8a1cda2ae37ff3835e1f1c4ea9a99c2ec21ef7d435fad52ceb734192507a164cdb9e29a9c8b9a710c27b5b1de6bc0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-media-videoanalyzer-edge) python39-azure-media-videoanalyzer-edge python3dist(azure-media-videoanalyzer-edge)"
-RDEPENDS:${PN} += "python(abi) python39-azure-core python39-azure-media-nspkg python39-azure-nspkg python39-msrest"
+RPROVIDES:${PN} += "python3.9dist(azure-media-videoanalyzer-edge) \
+python39-azure-media-videoanalyzer-edge \
+python3dist(azure-media-videoanalyzer-edge)"
+RDEPENDS:${PN} += "python(abi) \
+python39-azure-core \
+python39-azure-media-nspkg \
+python39-azure-nspkg \
+python39-msrest"
 
 inherit rpm

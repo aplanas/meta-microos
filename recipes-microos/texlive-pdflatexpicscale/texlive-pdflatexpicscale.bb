@@ -10,6 +10,24 @@ RPM_HASH = "7b9cb6493de54c3f8ec7af65af4636f7ea50910fe904a61e7ee9da4d9566093460a8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdflatexpicscale"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(File::Basename) perl(File::Copy) perl(File::Spec) perl(Getopt::Long) perl(strict) sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-pdflatexpicscale-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(File::Basename) \
+perl(File::Copy) \
+perl(File::Spec) \
+perl(Getopt::Long) \
+perl(strict) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-pdflatexpicscale-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

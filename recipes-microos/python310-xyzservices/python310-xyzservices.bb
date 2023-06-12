@@ -16,7 +16,11 @@ RPM_NAME = "python310-xyzservices-2022.9.0-1.5.noarch.rpm"
 RPM_HASH = "d299b0e03c2f45fcb1594fdfc29f6d062dc06c6296c11ed9b264477f57d3ae94dc7dbfa8bb49c22b2de0c2cb3fe5c8f4edb65f3bbcfa3e81a81a75586c20a500"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xyzservices python3.10dist(xyzservices) python310-xyzservices python3dist(xyzservices)"
-RDEPENDS:${PN} += "python(abi) xyzservices-data"
+RPROVIDES:${PN} += "python3-xyzservices \
+python3.10dist(xyzservices) \
+python310-xyzservices \
+python3dist(xyzservices)"
+RDEPENDS:${PN} += "python(abi) \
+xyzservices-data"
 
 inherit rpm

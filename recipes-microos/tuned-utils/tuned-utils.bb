@@ -10,6 +10,8 @@ RPM_HASH = "a3ffd6e329a82c4c6aa4828074584d6cfc678236b6765bd559c59b5b9e192f438fae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-utils"
-RDEPENDS:${PN} += "/usr/bin/python3 powertop tuned"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+powertop \
+tuned"
 
 inherit rpm

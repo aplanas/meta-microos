@@ -18,7 +18,10 @@ RPM_NAME = "perl-syntax-0.004-5.25.noarch.rpm"
 RPM_HASH = "65eb3b1462af509b65bf5787d959b141f5522e9b0d9a18b93aa44cd15559925d6bde6683d71cc8dbdbd8ee68e61a4ca66034be6ce346b1a4bb1de48f56d985c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(syntax) perl-syntax"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Data::OptList) perl(namespace::clean)"
+RPROVIDES:${PN} += "perl(syntax) \
+perl-syntax"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Data::OptList) \
+perl(namespace::clean)"
 
 inherit rpm

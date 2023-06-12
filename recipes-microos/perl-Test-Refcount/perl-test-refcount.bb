@@ -20,7 +20,8 @@ RPM_NAME = "perl-Test-Refcount-0.10-1.15.noarch.rpm"
 RPM_HASH = "bb83409e4c42c8baf118c650c32e7b86ea3d5e2db8052ceebe937063cb5deb967e66499e8a57455f7bd8d61c933a9f4a99de19281626652d2ae8daadd30b9e46"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Refcount) perl-Test-Refcount"
+RPROVIDES:${PN} += "perl(Test::Refcount) \
+perl-Test-Refcount"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

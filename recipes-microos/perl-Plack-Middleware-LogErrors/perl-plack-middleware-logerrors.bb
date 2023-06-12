@@ -20,7 +20,11 @@ RPM_NAME = "perl-Plack-Middleware-LogErrors-0.003-1.16.noarch.rpm"
 RPM_HASH = "8bbffeb4ce259625271666de96a2690bbea362afe8b5c8e0b611b5f12309d764d01e8a7b73d16d3c7bb226828fdfdadf8689f78735e7d3801dcee5ea201ac7f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Plack::Middleware::LogErrors) perl-Plack-Middleware-LogErrors"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Plack::Middleware) perl(Plack::Util::Accessor) perl(parent)"
+RPROVIDES:${PN} += "perl(Plack::Middleware::LogErrors) \
+perl-Plack-Middleware-LogErrors"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Plack::Middleware) \
+perl(Plack::Util::Accessor) \
+perl(parent)"
 
 inherit rpm

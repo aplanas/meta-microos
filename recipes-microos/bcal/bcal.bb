@@ -11,7 +11,9 @@ PV = "2.4"
 RPM_NAME = "bcal-2.4-1.5.aarch64.rpm"
 RPM_HASH = "d4457346a172a60cba8869b88de32d44e3edc55cf121c0f3dc0d397ea1bb8f7b394cc6d74796e8e7d1585cf7964d32056d617902466ac0b48bb8b6a23eaa61a6"
 
-RPROVIDES:${PN} += "bcal bcal(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) libreadline.so.8()(64bit)"
+RPROVIDES:${PN} += "bcal \
+bcal(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+libreadline.so.8()(64bit)"
 
 inherit rpm

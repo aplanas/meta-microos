@@ -28,7 +28,12 @@ RPM_NAME = "python39-seaborn-0.12.2-1.3.noarch.rpm"
 RPM_HASH = "deef2ef0a82fa03e0649cff19a5593d966a76ae620a7ce24d42226dd0b656b844769d3bf6d42b568ef90a4da5eb7dbbc7ec9080897cdafdba02729b4a3ccd726"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(seaborn) python39-seaborn python3dist(seaborn)"
-RDEPENDS:${PN} += "python(abi) python39-matplotlib python39-numpy python39-pandas"
+RPROVIDES:${PN} += "python3.9dist(seaborn) \
+python39-seaborn \
+python3dist(seaborn)"
+RDEPENDS:${PN} += "python(abi) \
+python39-matplotlib \
+python39-numpy \
+python39-pandas"
 
 inherit rpm

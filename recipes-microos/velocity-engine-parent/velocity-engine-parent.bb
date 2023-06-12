@@ -29,7 +29,12 @@ RPM_NAME = "velocity-engine-parent-2.3-3.9.noarch.rpm"
 RPM_HASH = "82d5163abf18333b1970a628fbb161a16e7581306dd273533ea901a835482696153fca5862d1d52ec93259e1ad5a5dda6c5881650a7acb0b212867141c4ac3a3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.apache.velocity:velocity-engine-parent:pom:) velocity-engine-parent"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(org.apache.maven.plugins:maven-compiler-plugin) mvn(org.apache.maven.plugins:maven-javadoc-plugin) mvn(org.apache.velocity:velocity-master:pom:)"
+RPROVIDES:${PN} += "mvn(org.apache.velocity:velocity-engine-parent:pom:) \
+velocity-engine-parent"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(org.apache.maven.plugins:maven-compiler-plugin) \
+mvn(org.apache.maven.plugins:maven-javadoc-plugin) \
+mvn(org.apache.velocity:velocity-master:pom:)"
 
 inherit rpm

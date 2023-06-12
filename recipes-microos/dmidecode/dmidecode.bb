@@ -18,7 +18,11 @@ PV = "3.5"
 RPM_NAME = "dmidecode-3.5-3.1.aarch64.rpm"
 RPM_HASH = "db12a36742f0d5faa876bf4f825a62158bcf1aa97a4e88cf1c44a4447fc48ade4634a2583456c944982862e578f6339c8b255d235aa772c1bca1f1915c4e7e1d"
 
-RPROVIDES:${PN} += "dmidecode dmidecode(aarch-64) pmtools:/usr/sbin/dmidecode"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "dmidecode \
+dmidecode(aarch-64) \
+pmtools:/usr/sbin/dmidecode"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

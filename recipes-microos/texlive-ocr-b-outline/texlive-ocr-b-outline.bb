@@ -11,7 +11,21 @@ RPM_NAME = "texlive-ocr-b-outline-2023.201.svn20969-54.1.noarch.rpm"
 RPM_HASH = "d9f5393be0623c8cd963fdb0f84042d7d4939ad0e606b39148229bc1571f917f93f181fc5c133d84304faba680fd20ba4def6c4b33405164669f2364d4bb39d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ocrb.map) texlive-ocr-b-outline"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(updmap.cfg) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-ocr-b-outline-fonts texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(ocrb.map) \
+texlive-ocr-b-outline"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(updmap.cfg) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-ocr-b-outline-fonts \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

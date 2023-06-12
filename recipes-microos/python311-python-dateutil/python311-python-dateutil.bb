@@ -34,7 +34,11 @@ RPM_NAME = "python311-python-dateutil-2.8.2-2.1.noarch.rpm"
 RPM_HASH = "5e2ea392a9e08699c32a352b7245982c232235c5881c502acd827057b78d0638b883dda29507828c4aef5436d06674439e71f753b5757dd740a462b271489ea3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(python-dateutil) python311-dateutil python311-python-dateutil python3dist(python-dateutil)"
-RDEPENDS:${PN} += "python(abi) python311-six"
+RPROVIDES:${PN} += "python3.11dist(python-dateutil) \
+python311-dateutil \
+python311-python-dateutil \
+python3dist(python-dateutil)"
+RDEPENDS:${PN} += "python(abi) \
+python311-six"
 
 inherit rpm

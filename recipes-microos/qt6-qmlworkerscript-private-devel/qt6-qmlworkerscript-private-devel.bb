@@ -8,7 +8,10 @@ PV = "6.5.1"
 RPM_NAME = "qt6-qmlworkerscript-private-devel-6.5.1-1.2.aarch64.rpm"
 RPM_HASH = "38b00ef1e005a2eb519a30c946b414143fdee4b59b389b9750e5b9cb2902878b4e01bf510e6ec5c37a9ea83f482c89c39bb47bfe34c4711969dc36ca8136a0b3"
 
-RPROVIDES:${PN} += "qt6-qmlworkerscript-private-devel qt6-qmlworkerscript-private-devel(aarch-64)"
-RDEPENDS:${PN} += "cmake(Qt6QmlWorkerScript) qt6-core-private-devel qt6-qml-private-devel"
+RPROVIDES:${PN} += "qt6-qmlworkerscript-private-devel \
+qt6-qmlworkerscript-private-devel(aarch-64)"
+RDEPENDS:${PN} += "cmake(Qt6QmlWorkerScript) \
+qt6-core-private-devel \
+qt6-qml-private-devel"
 
 inherit rpm

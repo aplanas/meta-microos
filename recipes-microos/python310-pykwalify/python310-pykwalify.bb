@@ -12,7 +12,17 @@ RPM_NAME = "python310-pykwalify-1.8.0-1.10.noarch.rpm"
 RPM_HASH = "4f17164a04ad27930cb450a70fa7bb52e9d625251900ff4058b790581034fb34c5aff5be9390fe87815e14e7912e1e84718d73bbaf69c6d8e92d49b116d78507"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pykwalify python3.10dist(pykwalify) python310-pykwalify python3dist(pykwalify)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-PyYAML python310-docopt python310-python-dateutil python310-ruamel.yaml update-alternatives"
+RPROVIDES:${PN} += "python3-pykwalify \
+python3.10dist(pykwalify) \
+python310-pykwalify \
+python3dist(pykwalify)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-PyYAML \
+python310-docopt \
+python310-python-dateutil \
+python310-ruamel.yaml \
+update-alternatives"
 
 inherit rpm

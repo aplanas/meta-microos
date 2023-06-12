@@ -24,6 +24,11 @@ RPM_HASH = "40e837a8637a72ff3c0c0b9073cecadff5eeacc943a12ff8e38d663e9772472b110e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cups-airprint"
-RDEPENDS:${PN} += "/usr/bin/python3 avahi cups cups-filters python3-pycups python3-xml"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+avahi \
+cups \
+cups-filters \
+python3-pycups \
+python3-xml"
 
 inherit rpm

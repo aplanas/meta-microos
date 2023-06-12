@@ -13,6 +13,7 @@ RPM_HASH = "7c60864810b95f5a9fd17d91bae6c48990cf9d4db405cf9aa2d7805b1eae4ccb2eb5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glade-catalog-libpeas"
-RDEPENDS:${PN} += "glade libpeas-gtk-1_0-0"
+RDEPENDS:${PN} += "glade \
+libpeas-gtk-1_0-0"
 
 inherit rpm

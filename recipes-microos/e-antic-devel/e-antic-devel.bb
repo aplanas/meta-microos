@@ -11,7 +11,11 @@ PV = "1.3.0"
 RPM_NAME = "e-antic-devel-1.3.0-1.5.aarch64.rpm"
 RPM_HASH = "e78dd79803368216c29b174a7efdee3eb0d61c4a61c4cd671304b42282aa7436dfe052623253e31f8e96355f81e2fa851a398d98105296de2464f8cf7f8a5c8f"
 
-RPROVIDES:${PN} += "e-antic-devel e-antic-devel(aarch-64)"
-RDEPENDS:${PN} += "antic-devel arb-devel libboost_headers-devel libeantic1"
+RPROVIDES:${PN} += "e-antic-devel \
+e-antic-devel(aarch-64)"
+RDEPENDS:${PN} += "antic-devel \
+arb-devel \
+libboost_headers-devel \
+libeantic1"
 
 inherit rpm

@@ -35,7 +35,10 @@ RPM_NAME = "perl-Sub-Exporter-ForMethods-0.100055-1.2.noarch.rpm"
 RPM_HASH = "13394cb092f01048c9870013aa13ab2f25539f3a6621dfcbf7f93635bc382d389cbdb6a4effd131f473c5906920aef2f1c45b58850dbc182df38114211b63aab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Sub::Exporter::ForMethods) perl-Sub-Exporter-ForMethods"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Sub::Exporter) perl(Sub::Util)"
+RPROVIDES:${PN} += "perl(Sub::Exporter::ForMethods) \
+perl-Sub-Exporter-ForMethods"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Sub::Exporter) \
+perl(Sub::Util)"
 
 inherit rpm

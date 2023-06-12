@@ -11,6 +11,10 @@ RPM_HASH = "abf27bef189b2c6c27ef21f6bf0a99cd3d5879f699776db0c9e98063d87d516c787c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-ipyvolume"
-RDEPENDS:${PN} += "jupyter-ipywebrtc jupyter-ipywidgets jupyter-jupyterlab jupyter-pythreejs python3dist(ipyvolume)"
+RDEPENDS:${PN} += "jupyter-ipywebrtc \
+jupyter-ipywidgets \
+jupyter-jupyterlab \
+jupyter-pythreejs \
+python3dist(ipyvolume)"
 
 inherit rpm

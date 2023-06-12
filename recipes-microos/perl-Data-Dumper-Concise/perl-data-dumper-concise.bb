@@ -28,7 +28,10 @@ RPM_NAME = "perl-Data-Dumper-Concise-2.023-1.22.noarch.rpm"
 RPM_HASH = "20a107f0fbd3dd2a0f1137f261fdfc35b990f3d34675b9c26743b6c8ddbcabb1dc1ad3b12a8fedfbe540adb439e5b5076fda41909f03766d3e468fa6fd11d421"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Data::Dumper::Concise) perl(Data::Dumper::Concise::Sugar) perl(Devel::Dwarn) perl-Data-Dumper-Concise"
+RPROVIDES:${PN} += "perl(Data::Dumper::Concise) \
+perl(Data::Dumper::Concise::Sugar) \
+perl(Devel::Dwarn) \
+perl-Data-Dumper-Concise"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

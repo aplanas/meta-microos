@@ -11,7 +11,11 @@ PV = "0.26"
 RPM_NAME = "perl-ExtUtils-CppGuess-0.26-1.6.aarch64.rpm"
 RPM_HASH = "e6727379a63062bb6ef989a7549e0bd147e912f2d2c82b5b7860433427b4f2da05152a662317af9de5fb32c5083c64398e61f6deffa17639ba150abeca2ceead"
 
-RPROVIDES:${PN} += "perl(ExtUtils::CppGuess) perl-ExtUtils-CppGuess perl-ExtUtils-CppGuess(aarch-64)"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Capture::Tiny) perl(ExtUtils::ParseXS)"
+RPROVIDES:${PN} += "perl(ExtUtils::CppGuess) \
+perl-ExtUtils-CppGuess \
+perl-ExtUtils-CppGuess(aarch-64)"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Capture::Tiny) \
+perl(ExtUtils::ParseXS)"
 
 inherit rpm

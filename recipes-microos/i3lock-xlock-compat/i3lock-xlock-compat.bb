@@ -9,7 +9,10 @@ PV = "2.13"
 RPM_NAME = "i3lock-xlock-compat-2.13-2.3.aarch64.rpm"
 RPM_HASH = "3defe5bf4510e2ef0665c2c62b7cb9e79f298cd0081761dcb2a3a8f274142077979e459139c030fbc0a3e208decb6d5ffbb3d38821a26ef74766f9be2ef9e3f9"
 
-RPROVIDES:${PN} += "i3lock-xlock-compat i3lock-xlock-compat(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash ImageMagick xdpyinfo"
+RPROVIDES:${PN} += "i3lock-xlock-compat \
+i3lock-xlock-compat(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+ImageMagick \
+xdpyinfo"
 
 inherit rpm

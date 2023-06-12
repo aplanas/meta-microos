@@ -8,7 +8,63 @@ PV = "0.9.0"
 RPM_NAME = "greetd-0.9.0-1.2.aarch64.rpm"
 RPM_HASH = "fb10be6f53d6ba684a15214e4a4cbc03f687789d3d9e69fc66b53bf3c59e9daec6b3ebdda78c170f7f22c55b4e42036eefedd598e60221e785064197835d529f"
 
-RPROVIDES:${PN} += "bundled(rust-crate:agreety) bundled(rust-crate:async-trait) bundled(rust-crate:autocfg) bundled(rust-crate:bitflags) bundled(rust-crate:bytes) bundled(rust-crate:cfg-if) bundled(rust-crate:enquote) bundled(rust-crate:getopts) bundled(rust-crate:greetd) bundled(rust-crate:greetd_ipc) bundled(rust-crate:inish) bundled(rust-crate:itoa) bundled(rust-crate:libc) bundled(rust-crate:log) bundled(rust-crate:memchr) bundled(rust-crate:memoffset) bundled(rust-crate:mio) bundled(rust-crate:nix) bundled(rust-crate:pam-sys) bundled(rust-crate:pin-project-lite) bundled(rust-crate:pin-utils) bundled(rust-crate:proc-macro2) bundled(rust-crate:quote) bundled(rust-crate:rpassword) bundled(rust-crate:ryu) bundled(rust-crate:serde) bundled(rust-crate:serde_derive) bundled(rust-crate:serde_json) bundled(rust-crate:signal-hook-registry) bundled(rust-crate:socket2) bundled(rust-crate:static_assertions) bundled(rust-crate:syn) bundled(rust-crate:thiserror) bundled(rust-crate:thiserror-impl) bundled(rust-crate:tokio) bundled(rust-crate:tokio-macros) bundled(rust-crate:unicode-ident) bundled(rust-crate:unicode-width) bundled(rust-crate:users) config(greetd) greetd greetd(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/getent /usr/sbin/groupadd /usr/sbin/useradd diffutils group(video) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3)(64bit) libgcc_s.so.1(GCC_4.2.0)(64bit) libpam.so.0()(64bit) libpam.so.0(LIBPAM_1.0)(64bit) libpam_misc.so.0()(64bit) libpam_misc.so.0(LIBPAM_MISC_1.0)(64bit) pam"
+RPROVIDES:${PN} += "bundled(rust-crate:agreety) \
+bundled(rust-crate:async-trait) \
+bundled(rust-crate:autocfg) \
+bundled(rust-crate:bitflags) \
+bundled(rust-crate:bytes) \
+bundled(rust-crate:cfg-if) \
+bundled(rust-crate:enquote) \
+bundled(rust-crate:getopts) \
+bundled(rust-crate:greetd) \
+bundled(rust-crate:greetd_ipc) \
+bundled(rust-crate:inish) \
+bundled(rust-crate:itoa) \
+bundled(rust-crate:libc) \
+bundled(rust-crate:log) \
+bundled(rust-crate:memchr) \
+bundled(rust-crate:memoffset) \
+bundled(rust-crate:mio) \
+bundled(rust-crate:nix) \
+bundled(rust-crate:pam-sys) \
+bundled(rust-crate:pin-project-lite) \
+bundled(rust-crate:pin-utils) \
+bundled(rust-crate:proc-macro2) \
+bundled(rust-crate:quote) \
+bundled(rust-crate:rpassword) \
+bundled(rust-crate:ryu) \
+bundled(rust-crate:serde) \
+bundled(rust-crate:serde_derive) \
+bundled(rust-crate:serde_json) \
+bundled(rust-crate:signal-hook-registry) \
+bundled(rust-crate:socket2) \
+bundled(rust-crate:static_assertions) \
+bundled(rust-crate:syn) \
+bundled(rust-crate:thiserror) \
+bundled(rust-crate:thiserror-impl) \
+bundled(rust-crate:tokio) \
+bundled(rust-crate:tokio-macros) \
+bundled(rust-crate:unicode-ident) \
+bundled(rust-crate:unicode-width) \
+bundled(rust-crate:users) \
+config(greetd) \
+greetd \
+greetd(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/getent \
+/usr/sbin/groupadd \
+/usr/sbin/useradd \
+diffutils \
+group(video) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3)(64bit) \
+libgcc_s.so.1(GCC_4.2.0)(64bit) \
+libpam.so.0()(64bit) \
+libpam.so.0(LIBPAM_1.0)(64bit) \
+libpam_misc.so.0()(64bit) \
+libpam_misc.so.0(LIBPAM_MISC_1.0)(64bit) \
+pam"
 
 inherit rpm

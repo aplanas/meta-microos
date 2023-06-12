@@ -15,7 +15,26 @@ RPM_NAME = "texlive-accsupp-2023.201.0.0.6svn53052-54.1.noarch.rpm"
 RPM_HASH = "7039269c92ee4b79b65cdb3f02812ec7484f58b1f808339d0f6cfc4d2d6c4c556cef98b71e4c86a5250581084aab092a0bceea28373f40b5a9972e899f869fad"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(accsupp-dvipdfm.def) tex(accsupp-dvips.def) tex(accsupp-luatex.def) tex(accsupp-pdftex.def) tex(accsupp.sty) texlive-accsupp"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(iftex.sty) tex(kvoptions.sty) tex(pdfescape.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(accsupp-dvipdfm.def) \
+tex(accsupp-dvips.def) \
+tex(accsupp-luatex.def) \
+tex(accsupp-pdftex.def) \
+tex(accsupp.sty) \
+texlive-accsupp"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(iftex.sty) \
+tex(kvoptions.sty) \
+tex(pdfescape.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

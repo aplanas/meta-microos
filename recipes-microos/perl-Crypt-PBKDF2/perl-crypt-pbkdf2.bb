@@ -15,7 +15,25 @@ RPM_NAME = "perl-Crypt-PBKDF2-0.161520-1.9.noarch.rpm"
 RPM_HASH = "25c99a914065857f434bc7bd9b6a608873fc8c0b07d968c52eef8c277bcf0a8e80670460f724295639cce7a875e8adc91ef4ebf264ee1536168cac8db3b3118d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Crypt::PBKDF2) perl(Crypt::PBKDF2::Hash) perl(Crypt::PBKDF2::Hash::DigestHMAC) perl(Crypt::PBKDF2::Hash::HMACSHA1) perl(Crypt::PBKDF2::Hash::HMACSHA2) perl(Crypt::PBKDF2::Hash::HMACSHA3) perl-Crypt-PBKDF2"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Digest) perl(Digest::HMAC) perl(Digest::SHA) perl(Digest::SHA3) perl(Module::Runtime) perl(Moo) perl(Moo::Role) perl(Try::Tiny) perl(Type::Tiny) perl(Types::Standard) perl(namespace::autoclean) perl(strictures)"
+RPROVIDES:${PN} += "perl(Crypt::PBKDF2) \
+perl(Crypt::PBKDF2::Hash) \
+perl(Crypt::PBKDF2::Hash::DigestHMAC) \
+perl(Crypt::PBKDF2::Hash::HMACSHA1) \
+perl(Crypt::PBKDF2::Hash::HMACSHA2) \
+perl(Crypt::PBKDF2::Hash::HMACSHA3) \
+perl-Crypt-PBKDF2"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Digest) \
+perl(Digest::HMAC) \
+perl(Digest::SHA) \
+perl(Digest::SHA3) \
+perl(Module::Runtime) \
+perl(Moo) \
+perl(Moo::Role) \
+perl(Try::Tiny) \
+perl(Type::Tiny) \
+perl(Types::Standard) \
+perl(namespace::autoclean) \
+perl(strictures)"
 
 inherit rpm

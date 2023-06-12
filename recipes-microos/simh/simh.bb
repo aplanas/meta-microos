@@ -30,7 +30,10 @@ PV = "3.11_0"
 RPM_NAME = "simh-3.11_0-1.12.aarch64.rpm"
 RPM_HASH = "18ac987e5320a2f113730aec957114b4a307a903a61faaf7a9ba7a23cea085103cf3e1fb9cddc3c138d28c2674d1676c54aa7208221df9ad7fb6b9dee158d287"
 
-RPROVIDES:${PN} += "simh simh(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "simh \
+simh(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

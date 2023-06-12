@@ -31,7 +31,11 @@ RPM_NAME = "perl-Exception-Class-1.45-1.9.noarch.rpm"
 RPM_HASH = "532f07c6de551eb19615ddc8ca2c8989d026e064efe47406c726e0b968c2d82dda65d37ab2e620841d59a878110146179c5738f236e3646883540694b39efd9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Exception::Class) perl(Exception::Class::Base) perl-Exception-Class"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Class::Data::Inheritable) perl(Devel::StackTrace)"
+RPROVIDES:${PN} += "perl(Exception::Class) \
+perl(Exception::Class::Base) \
+perl-Exception-Class"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Data::Inheritable) \
+perl(Devel::StackTrace)"
 
 inherit rpm

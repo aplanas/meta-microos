@@ -11,6 +11,14 @@ RPM_HASH = "10e0c612234147d5031e0ee031afbe5eabc72f9607fc9b93539655e6456fd7d218a3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "check_postgres"
-RDEPENDS:${PN} += "/usr/bin/perl perl perl(Cwd) perl(Data::Dumper) perl(File::Basename) perl(File::Temp) perl(Getopt::Long) perl(Time::HiRes) postgresql"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl \
+perl(Cwd) \
+perl(Data::Dumper) \
+perl(File::Basename) \
+perl(File::Temp) \
+perl(Getopt::Long) \
+perl(Time::HiRes) \
+postgresql"
 
 inherit rpm

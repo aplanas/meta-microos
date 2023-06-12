@@ -8,7 +8,18 @@ PV = "1.7.1"
 RPM_NAME = "ruby3.2-rubygem-cool.io-1.7.1-1.13.aarch64.rpm"
 RPM_HASH = "fc14a35ed98676a1c412ecf793aa3ce12936378e4adbe0b47ab4f99084af3046f566331fe7425db30428e67cff921704bab7c9024c435b1b17ac2adffee0c301"
 
-RPROVIDES:${PN} += "ruby3.2-rubygem-cool.io ruby3.2-rubygem-cool.io(aarch-64) rubygem(cool.io) rubygem(ruby:3.2.0:cool.io) rubygem(ruby:3.2.0:cool.io:1) rubygem(ruby:3.2.0:cool.io:1.7) rubygem(ruby:3.2.0:cool.io:1.7.1)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libm.so.6()(64bit) libruby3.2.so.3.2()(64bit) ruby(abi)"
+RPROVIDES:${PN} += "ruby3.2-rubygem-cool.io \
+ruby3.2-rubygem-cool.io(aarch-64) \
+rubygem(cool.io) \
+rubygem(ruby:3.2.0:cool.io) \
+rubygem(ruby:3.2.0:cool.io:1) \
+rubygem(ruby:3.2.0:cool.io:1.7) \
+rubygem(ruby:3.2.0:cool.io:1.7.1)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+libm.so.6()(64bit) \
+libruby3.2.so.3.2()(64bit) \
+ruby(abi)"
 
 inherit rpm

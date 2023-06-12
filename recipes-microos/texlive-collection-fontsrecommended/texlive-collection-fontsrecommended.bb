@@ -11,6 +11,39 @@ RPM_HASH = "679804bd50dea107a149e6c068acd0ac918793b255bece22f8532cd1c8e35bcc7c19
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-fontsrecommended"
-RDEPENDS:${PN} += "texlive-avantgar texlive-bookman texlive-charter texlive-cm-super texlive-cmextra texlive-collection-basic texlive-courier texlive-euro texlive-euro-ce texlive-eurosym texlive-fpl texlive-helvetic texlive-lm texlive-lm-math texlive-manfnt-font texlive-marvosym texlive-mathpazo texlive-mflogo-font texlive-ncntrsbk texlive-palatino texlive-pxfonts texlive-rsfs texlive-symbol texlive-tex-gyre texlive-tex-gyre-math texlive-times texlive-tipa texlive-txfonts texlive-utopia texlive-wasy texlive-wasy-type1 texlive-wasysym texlive-zapfchan texlive-zapfding"
+RDEPENDS:${PN} += "texlive-avantgar \
+texlive-bookman \
+texlive-charter \
+texlive-cm-super \
+texlive-cmextra \
+texlive-collection-basic \
+texlive-courier \
+texlive-euro \
+texlive-euro-ce \
+texlive-eurosym \
+texlive-fpl \
+texlive-helvetic \
+texlive-lm \
+texlive-lm-math \
+texlive-manfnt-font \
+texlive-marvosym \
+texlive-mathpazo \
+texlive-mflogo-font \
+texlive-ncntrsbk \
+texlive-palatino \
+texlive-pxfonts \
+texlive-rsfs \
+texlive-symbol \
+texlive-tex-gyre \
+texlive-tex-gyre-math \
+texlive-times \
+texlive-tipa \
+texlive-txfonts \
+texlive-utopia \
+texlive-wasy \
+texlive-wasy-type1 \
+texlive-wasysym \
+texlive-zapfchan \
+texlive-zapfding"
 
 inherit rpm

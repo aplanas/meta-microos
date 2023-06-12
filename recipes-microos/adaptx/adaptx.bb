@@ -9,6 +9,8 @@ RPM_HASH = "97ce51bb6a0430b2798e4e4c9825c83bd248adbdc7a3145c86876ca37336a2a10952
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adaptx"
-RDEPENDS:${PN} += "reload4j xerces-j2 xml-apis"
+RDEPENDS:${PN} += "reload4j \
+xerces-j2 \
+xml-apis"
 
 inherit rpm

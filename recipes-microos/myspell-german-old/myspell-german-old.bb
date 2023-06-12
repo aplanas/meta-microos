@@ -13,7 +13,9 @@ RPM_NAME = "myspell-german-old-20030428-265.16.noarch.rpm"
 RPM_HASH = "dbb479603afcbaaa24d5e40f781a4e415f3de497046326622191dbe8685ccf7d56da6184a4b27467c527f7f2559de4e50d3f3eb7cbdda1af695c1ecf96920cc1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "myspell-dictionary myspell-german-dictionary myspell-german-old"
+RPROVIDES:${PN} += "myspell-dictionary \
+myspell-german-dictionary \
+myspell-german-old"
 RDEPENDS:${PN} += ""
 
 inherit rpm

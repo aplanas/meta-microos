@@ -13,7 +13,15 @@ RPM_NAME = "python39-azure-mgmt-batch-17.0.0-1.3.noarch.rpm"
 RPM_HASH = "42ed54b666a538911df7b8ede4c7c5d06fe5d6b153bf113c5abec1721429a46b395a941b080e665a78712a4411a05366af5202bad9f0e4c7a5243b22e00cae5a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-batch) python39-azure-mgmt-batch python3dist(azure-mgmt-batch)"
-RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) python(abi) python39-azure-common python39-azure-mgmt-core python39-azure-mgmt-nspkg python39-azure-nspkg python39-msrest"
+RPROVIDES:${PN} += "python3.9dist(azure-mgmt-batch) \
+python39-azure-mgmt-batch \
+python3dist(azure-mgmt-batch)"
+RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) \
+python(abi) \
+python39-azure-common \
+python39-azure-mgmt-core \
+python39-azure-mgmt-nspkg \
+python39-azure-nspkg \
+python39-msrest"
 
 inherit rpm

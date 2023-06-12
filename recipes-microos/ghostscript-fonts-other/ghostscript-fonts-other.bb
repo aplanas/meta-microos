@@ -16,6 +16,7 @@ RPM_HASH = "5c8506c0a91b760646cbe5530c3b00ed5a3e7fb37a9f3fad6964dd7a4e6624910be5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghostscript-fonts-other"
-RDEPENDS:${PN} += "/bin/sh ghostscript-fonts-std"
+RDEPENDS:${PN} += "/bin/sh \
+ghostscript-fonts-std"
 
 inherit rpm

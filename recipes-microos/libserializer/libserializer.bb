@@ -10,6 +10,8 @@ RPM_HASH = "22b15ea01b02d297b8c98b41c103dde27dc53c66df0b3141488fc7921dad94b9d95d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libserializer"
-RDEPENDS:${PN} += "java jpackage-utils libbase"
+RDEPENDS:${PN} += "java \
+jpackage-utils \
+libbase"
 
 inherit rpm

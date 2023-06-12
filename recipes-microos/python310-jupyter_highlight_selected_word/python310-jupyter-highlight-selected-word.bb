@@ -12,7 +12,11 @@ RPM_NAME = "python310-jupyter_highlight_selected_word-0.2.0-8.5.noarch.rpm"
 RPM_HASH = "b505a41345fcfc6d89fb98a6cc0a84f87622062d5b91c8573eff9cbc44e41aaf531fe4e3f76aae89036f41049104f85fb18ff01fd54981a229a37b48cfe3e235"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyter_highlight_selected_word python3.10dist(jupyter-highlight-selected-word) python310-jupyter_highlight_selected_word python3dist(jupyter-highlight-selected-word)"
-RDEPENDS:${PN} += "python(abi) python310-notebook"
+RPROVIDES:${PN} += "python3-jupyter_highlight_selected_word \
+python3.10dist(jupyter-highlight-selected-word) \
+python310-jupyter_highlight_selected_word \
+python3dist(jupyter-highlight-selected-word)"
+RDEPENDS:${PN} += "python(abi) \
+python310-notebook"
 
 inherit rpm

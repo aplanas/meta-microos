@@ -15,7 +15,26 @@ PV = "1.0.0"
 RPM_NAME = "mdbtools-devel-1.0.0-1.7.aarch64.rpm"
 RPM_HASH = "49b8245009f02030eff36bf4e60d99c827a846aa7f3e9570c5fdb58820fcf5c6066024180f2d362f55902fac88d4249302a0e59519581bc05e4656116410d135"
 
-RPROVIDES:${PN} += "libmdbodbc.so()(64bit) libmdbodbcW.so()(64bit) mdbtools-devel mdbtools-devel(aarch-64) pkgconfig(libmdb) pkgconfig(libmdbsql)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config flex glib2-devel ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libglib-2.0.so.0()(64bit) libmdb.so.3()(64bit) libmdb3 libmdbsql.so.3()(64bit) libmdbsql3 libodbcinst.so.2()(64bit) pkgconfig(glib-2.0) pkgconfig(libmdb) unixODBC-devel"
+RPROVIDES:${PN} += "libmdbodbc.so()(64bit) \
+libmdbodbcW.so()(64bit) \
+mdbtools-devel \
+mdbtools-devel(aarch-64) \
+pkgconfig(libmdb) \
+pkgconfig(libmdbsql)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+flex \
+glib2-devel \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libmdb.so.3()(64bit) \
+libmdb3 \
+libmdbsql.so.3()(64bit) \
+libmdbsql3 \
+libodbcinst.so.2()(64bit) \
+pkgconfig(glib-2.0) \
+pkgconfig(libmdb) \
+unixODBC-devel"
 
 inherit rpm

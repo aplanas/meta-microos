@@ -18,7 +18,9 @@ PV = "0.11"
 RPM_NAME = "perl-Term-ReadPassword-0.11-69.29.aarch64.rpm"
 RPM_HASH = "7575dffb4056e3d2bb3cfa8e31cb7e0bf64f7ac1b2e40628126e08a2edbc2162ebb52f19b7ad3b8ee34683c15ef9f3ffcd1e0ac8430cb0a3c28898dbaab6d796"
 
-RPROVIDES:${PN} += "perl(Term::ReadPassword) perl-Term-ReadPassword perl-Term-ReadPassword(aarch-64)"
+RPROVIDES:${PN} += "perl(Term::ReadPassword) \
+perl-Term-ReadPassword \
+perl-Term-ReadPassword(aarch-64)"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

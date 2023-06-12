@@ -11,7 +11,8 @@ RPM_NAME = "libqt5-qtsvg-private-headers-devel-5.15.9+kde8-1.1.noarch.rpm"
 RPM_HASH = "3f1cb968e49d63cfdad1bc9e43cb6edf6372121619f5968c552492d8b0a98911ac4e75c4fd4681e4d8d20ab3f496e438d64b028f70c52931307148d12e32bdc9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libQt5Svg-private-headers-devel libqt5-qtsvg-private-headers-devel"
+RPROVIDES:${PN} += "libQt5Svg-private-headers-devel \
+libqt5-qtsvg-private-headers-devel"
 RDEPENDS:${PN} += "libqt5-qtsvg-devel"
 
 inherit rpm

@@ -20,7 +20,10 @@ PV = "3.13"
 RPM_NAME = "iperf-3.13-1.2.aarch64.rpm"
 RPM_HASH = "6d75438e208cc1893518db474583a91513a9b5121a4cf077cc848977cd2133fc3ba30e78608b00d5bdf444d0c55a1757f1edc2a086fe251ce9346c09473fe60a"
 
-RPROVIDES:${PN} += "iperf iperf(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) libiperf.so.0()(64bit) libiperf0"
+RPROVIDES:${PN} += "iperf \
+iperf(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+libiperf.so.0()(64bit) \
+libiperf0"
 
 inherit rpm

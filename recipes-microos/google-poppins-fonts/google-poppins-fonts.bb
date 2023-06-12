@@ -15,6 +15,8 @@ RPM_HASH = "5e872b7bf69f590a6119d06bce20dbc41dd3e6303b0396ee41041bc747bbb3728bf7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-poppins-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+perl"
 
 inherit rpm

@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-buginese-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "012bff5ab3ff7c7f0492d754f560645e7254e876c135ae431150ec59db65aefdff5d32ef29f5562a5d80aad03b0caba0fc69b686d3a16e3284cbdfcab10a6ecf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-buginese noto-sans-buginese-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-buginese \
+noto-sans-buginese-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

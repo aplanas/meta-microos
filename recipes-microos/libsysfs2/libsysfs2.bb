@@ -10,7 +10,12 @@ PV = "2.1.1"
 RPM_NAME = "libsysfs2-2.1.1-1.8.aarch64.rpm"
 RPM_HASH = "763fb0c3f8e912b1c9397c7482edd266dfdda680f32cf55b1c780a9738d1f02a44ea57f0650769540f836b433f60756a4de1cf0f432b6ea63c34733fb115dbdd"
 
-RPROVIDES:${PN} += "libsysfs.so.2()(64bit) libsysfs2 libsysfs2(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit)"
+RPROVIDES:${PN} += "libsysfs.so.2()(64bit) \
+libsysfs2 \
+libsysfs2(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit)"
 
 inherit rpm

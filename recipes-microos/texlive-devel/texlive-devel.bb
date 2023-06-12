@@ -10,6 +10,12 @@ RPM_HASH = "82d0c5c7e6bea1421f5114b99b11f29d22d830de7eb2e3d1c32db83d86ff89d3000f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-devel"
-RDEPENDS:${PN} += "texlive-bin-devel texlive-cweb texlive-kpathsea-devel texlive-ptexenc-devel texlive-synctex-devel texlive-texlua-devel texlive-web"
+RDEPENDS:${PN} += "texlive-bin-devel \
+texlive-cweb \
+texlive-kpathsea-devel \
+texlive-ptexenc-devel \
+texlive-synctex-devel \
+texlive-texlua-devel \
+texlive-web"
 
 inherit rpm

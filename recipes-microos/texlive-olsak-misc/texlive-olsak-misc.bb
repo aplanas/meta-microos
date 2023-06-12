@@ -20,7 +20,24 @@ RPM_NAME = "texlive-olsak-misc-2023.201.aug._2022svn65631-54.1.noarch.rpm"
 RPM_HASH = "869644692769fb4560fb12e266d47b76f02c249e81e9c2644caebe08d363eed767fd55128104c5b8f07e9d76161db7d540f162d1560d9ce826714b99307a7748"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(booklet.tex) tex(cropmarks.tex) tex(qrcode.tex) tex(scanbase.tex) tex(scancsv.tex) tex(xmlparser.tex) texlive-olsak-misc"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(booklet.tex) \
+tex(cropmarks.tex) \
+tex(qrcode.tex) \
+tex(scanbase.tex) \
+tex(scancsv.tex) \
+tex(xmlparser.tex) \
+texlive-olsak-misc"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

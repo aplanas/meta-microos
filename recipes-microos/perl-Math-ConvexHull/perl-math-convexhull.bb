@@ -20,7 +20,8 @@ RPM_NAME = "perl-Math-ConvexHull-1.04-3.26.noarch.rpm"
 RPM_HASH = "53354ac8643668b769ef77082866556e7a1bf53290b86e50e8adccb90e7899fabbe58aee3f86aa7fb72724834dcf9dc6895ab718d20bc41bd3d53a38534df62a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Math::ConvexHull) perl-Math-ConvexHull"
+RPROVIDES:${PN} += "perl(Math::ConvexHull) \
+perl-Math-ConvexHull"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

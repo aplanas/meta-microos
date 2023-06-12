@@ -9,7 +9,20 @@ RPM_NAME = "texlive-akshar-2023.201.0.0.2svn56277-54.1.noarch.rpm"
 RPM_HASH = "d5286f884eb246c233438468048ed4c7ede75e59731aa83d0046c89d21942d527fd3c34aaa09f02c4817427f10ae19ecf258f4302700a2b5f08bc8579295852c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(akshar.sty) texlive-akshar"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(fontspec.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(akshar.sty) \
+texlive-akshar"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(fontspec.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

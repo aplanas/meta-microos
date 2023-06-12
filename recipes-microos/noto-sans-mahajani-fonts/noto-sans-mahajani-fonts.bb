@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-mahajani-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "d283720350888a046e71973ac859d32ced99c35dbe411dc841fba7c09a27c21d197135bde90818b98874f3113cfa117545a5c0f1fec597c000d1c1d489de30f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-mahajani noto-sans-mahajani-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-mahajani \
+noto-sans-mahajani-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

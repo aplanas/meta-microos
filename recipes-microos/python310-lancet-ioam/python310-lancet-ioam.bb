@@ -17,7 +17,10 @@ RPM_NAME = "python310-lancet-ioam-0.9.0-2.22.noarch.rpm"
 RPM_HASH = "53e10f91421b43d3a14ebedf9c026e8b562affb0ee2c2f286b4e2f2a7c32bcb11053252a32873ebf31226ac6c7d759ce2bc981a09fffaae3fd17f36406809153"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-lancet-ioam python3.10dist(lancet-ioam) python310-lancet-ioam python3dist(lancet-ioam)"
+RPROVIDES:${PN} += "python3-lancet-ioam \
+python3.10dist(lancet-ioam) \
+python310-lancet-ioam \
+python3dist(lancet-ioam)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

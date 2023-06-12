@@ -18,7 +18,10 @@ PV = "0.81"
 RPM_NAME = "perl-XML-Dumper-0.81-69.29.aarch64.rpm"
 RPM_HASH = "79ee0d37cc058b842c379b2fdbcd29a2eac830c296cfd8e31013c7d3b2f13400ecfb5c8e0d3bc2b4795952e7101d65c29efa61fa65207a5c51abe8681dace608"
 
-RPROVIDES:${PN} += "perl(XML::Dumper) perl-XML-Dumper perl-XML-Dumper(aarch-64)"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl-XML-Parser"
+RPROVIDES:${PN} += "perl(XML::Dumper) \
+perl-XML-Dumper \
+perl-XML-Dumper(aarch-64)"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl-XML-Parser"
 
 inherit rpm

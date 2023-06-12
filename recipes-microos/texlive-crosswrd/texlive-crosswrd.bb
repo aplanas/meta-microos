@@ -11,7 +11,20 @@ RPM_NAME = "texlive-crosswrd-2023.204.3.0svn16896-54.1.noarch.rpm"
 RPM_HASH = "8f2d2523ea63d3c18dbe47284c08948a61a727fedb6adb7a665a13dc38daf38ef2370f75da2c837327302411bf89a2b0bfc2d6446e963c8e277ab374c11a2b06"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(crosswrd.sty) texlive-crosswrd"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifthen.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(crosswrd.sty) \
+texlive-crosswrd"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifthen.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

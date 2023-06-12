@@ -12,7 +12,14 @@ PV = "1.7"
 RPM_NAME = "mt-st-1.7-1.1.aarch64.rpm"
 RPM_HASH = "1bf5dca03b9ac3beb64dc0cddf230342c046cc029ffe505acb34ca21fba9a418b22d08fb1d9a9483ef0a9fdf52138a45827919f4ac91a60d41c9cae77e982125"
 
-RPROVIDES:${PN} += "config(mt-st) mt mt-st mt-st(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) update-alternatives"
+RPROVIDES:${PN} += "config(mt-st) \
+mt \
+mt-st \
+mt-st(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+update-alternatives"
 
 inherit rpm

@@ -7,7 +7,15 @@ PV = "0.8.7"
 RPM_NAME = "ruby3.2-rubygem-devise_ldap_authenticatable-0.8.7-1.15.aarch64.rpm"
 RPM_HASH = "8750f0bfe529489c057a2e503fd344cba5377fdca941be287b9fdbdecebc3a3005bf106c6cb24a1a3bf62c5bc4a07b55fbcbb6daec17e7e9bce20d23c18794c9"
 
-RPROVIDES:${PN} += "ruby3.2-rubygem-devise_ldap_authenticatable ruby3.2-rubygem-devise_ldap_authenticatable(aarch-64) rubygem(devise_ldap_authenticatable) rubygem(ruby:3.2.0:devise_ldap_authenticatable) rubygem(ruby:3.2.0:devise_ldap_authenticatable:0) rubygem(ruby:3.2.0:devise_ldap_authenticatable:0.8) rubygem(ruby:3.2.0:devise_ldap_authenticatable:0.8.7)"
-RDEPENDS:${PN} += "ruby(abi) rubygem(ruby:3.2.0:devise) rubygem(ruby:3.2.0:net-ldap)"
+RPROVIDES:${PN} += "ruby3.2-rubygem-devise_ldap_authenticatable \
+ruby3.2-rubygem-devise_ldap_authenticatable(aarch-64) \
+rubygem(devise_ldap_authenticatable) \
+rubygem(ruby:3.2.0:devise_ldap_authenticatable) \
+rubygem(ruby:3.2.0:devise_ldap_authenticatable:0) \
+rubygem(ruby:3.2.0:devise_ldap_authenticatable:0.8) \
+rubygem(ruby:3.2.0:devise_ldap_authenticatable:0.8.7)"
+RDEPENDS:${PN} += "ruby(abi) \
+rubygem(ruby:3.2.0:devise) \
+rubygem(ruby:3.2.0:net-ldap)"
 
 inherit rpm

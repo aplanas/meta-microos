@@ -14,7 +14,9 @@ RPM_NAME = "lua54-luaepnf-0.3+git19-2.1.noarch.rpm"
 RPM_HASH = "03eade3646d35a9d9bf3f6521f17ab13f2a13a498eed0d92b4f4e2e4095137c575449df86c388f7b84ee968ac7e6577aacd2d51d50d9e66232c13d71b6743fef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "lua-luaepnf lua54-luaepnf"
-RDEPENDS:${PN} += "lua54 lua54-lpeg"
+RPROVIDES:${PN} += "lua-luaepnf \
+lua54-luaepnf"
+RDEPENDS:${PN} += "lua54 \
+lua54-lpeg"
 
 inherit rpm

@@ -19,7 +19,9 @@ PV = "1.2.6"
 RPM_NAME = "libmpcdec-devel-1.2.6-35.13.aarch64.rpm"
 RPM_HASH = "f4d8a4eda9d753ed24818da0b545a018e48315281ef161200ae63b6cf2242d67a24918cc8581317521506cfd95ce47fd0831cba285ba81ed4541cbdab30db349"
 
-RPROVIDES:${PN} += "libmpcdec-devel libmpcdec-devel(aarch-64)"
-RDEPENDS:${PN} += "glibc-devel libmpcdec5"
+RPROVIDES:${PN} += "libmpcdec-devel \
+libmpcdec-devel(aarch-64)"
+RDEPENDS:${PN} += "glibc-devel \
+libmpcdec5"
 
 inherit rpm

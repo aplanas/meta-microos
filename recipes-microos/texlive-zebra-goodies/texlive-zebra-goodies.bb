@@ -17,7 +17,25 @@ RPM_NAME = "texlive-zebra-goodies-2023.201.0.0.8.0svn51554-52.1.noarch.rpm"
 RPM_HASH = "41822b20183472ee97c916ca2dfdcdf8f50da53278e0c259276dded559f064655ba2123d954fdd97be4d46d56ba8942990643bd0d26169bba0710b25770bc9ae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(zebra-goodies.sty) texlive-zebra-goodies"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(kvoptions.sty) tex(manfnt.sty) tex(marginnote.sty) tex(microtype.sty) tex(tikzpagenodes.sty) tex(xcolor.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(zebra-goodies.sty) \
+texlive-zebra-goodies"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(kvoptions.sty) \
+tex(manfnt.sty) \
+tex(marginnote.sty) \
+tex(microtype.sty) \
+tex(tikzpagenodes.sty) \
+tex(xcolor.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

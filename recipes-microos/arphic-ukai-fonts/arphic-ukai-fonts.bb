@@ -19,7 +19,17 @@ RPM_NAME = "arphic-ukai-fonts-0.2.20080216.1-100.2.noarch.rpm"
 RPM_HASH = "3acf8257acebd529da4d6fec730f31d4a6691bd2b2dbb776c343a844224fbf7b1a44182b912b9bb6f5860b97f088c2bce468b55bd36e8b18b27b8af254b4ed6a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "arphic-ukai-fonts locale(zh_TW;zh_HK;zh_CN;zh_SG;zh_MO) scalable-font-zh-CN scalable-font-zh-HK scalable-font-zh-MO scalable-font-zh-SG scalable-font-zh-TW ttf-arphic-ukai"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "arphic-ukai-fonts \
+locale(zh_TW;zh_HK;zh_CN;zh_SG;zh_MO) \
+scalable-font-zh-CN \
+scalable-font-zh-HK \
+scalable-font-zh-MO \
+scalable-font-zh-SG \
+scalable-font-zh-TW \
+ttf-arphic-ukai"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

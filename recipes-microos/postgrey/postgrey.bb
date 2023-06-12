@@ -19,7 +19,19 @@ RPM_NAME = "postgrey-1.37-7.6.noarch.rpm"
 RPM_HASH = "80a3b206ab27e06e0e4d04cf3392860bc579192f992bcb143412090d27c8902c6680cfa8eb25b517d0ff3b9d5296040c2789c9bdd04428761df0833d2795267e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(postgrey) postgrey"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/perl /usr/bin/touch fillup group(nogroup) perl perl-BerkeleyDB perl-IO-Multiplex perl-Net-DNS perl-Net-Server perl-NetAddr-IP"
+RPROVIDES:${PN} += "config(postgrey) \
+postgrey"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/perl \
+/usr/bin/touch \
+fillup \
+group(nogroup) \
+perl \
+perl-BerkeleyDB \
+perl-IO-Multiplex \
+perl-Net-DNS \
+perl-Net-Server \
+perl-NetAddr-IP"
 
 inherit rpm

@@ -52,7 +52,11 @@ PV = "1.18.10"
 RPM_NAME = "lv2-1.18.10-2.1.aarch64.rpm"
 RPM_HASH = "52f30c0f6ab3f240958f478e2083297155ef91467f5ed45f22ee698fb48fa173f42ae3280b02f5a1ee42d32ff825c7b05029e9cfb75905eff4ea1a6dbb9f6351"
 
-RPROVIDES:${PN} += "lv2 lv2(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "lv2 \
+lv2(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

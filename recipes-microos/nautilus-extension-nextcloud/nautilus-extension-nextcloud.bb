@@ -10,6 +10,10 @@ RPM_HASH = "a1edbf26de6292c2e70c87778dfa7f8e01c393ade4ab33b1e5c1ba747b627fada7ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nautilus-extension-nextcloud"
-RDEPENDS:${PN} += "nautilus nextcloud-desktop python3-nautilus typelib(GObject) typelib(Nautilus)"
+RDEPENDS:${PN} += "nautilus \
+nextcloud-desktop \
+python3-nautilus \
+typelib(GObject) \
+typelib(Nautilus)"
 
 inherit rpm

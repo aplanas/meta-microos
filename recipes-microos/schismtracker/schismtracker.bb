@@ -12,7 +12,26 @@ PV = "20221201"
 RPM_NAME = "schismtracker-20221201-1.3.aarch64.rpm"
 RPM_HASH = "2a1d14217595c0b438f833ae75871a2b9147b7289004eaec5494ec14ef1f71744460bd0e41a0ea51936b5f8111931ef2b7e9c44b2db6953d392da1e6dd85912c"
 
-RPROVIDES:${PN} += "application() application(schism.desktop) application(schismtracker.desktop) mimehandler(audio/x-it) mimehandler(audio/x-mod) mimehandler(audio/x-s3m) mimehandler(audio/x-xm) schismtracker schismtracker(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libSDL2-2.0.so.0()(64bit) libSDL2-2.0.so.0(SUSE_2.0.5)(64bit) libSDL2-2.0.so.0(SUSE_2.0.7)(64bit) libX11.so.6()(64bit) libXv.so.1()(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "application() \
+application(schism.desktop) \
+application(schismtracker.desktop) \
+mimehandler(audio/x-it) \
+mimehandler(audio/x-mod) \
+mimehandler(audio/x-s3m) \
+mimehandler(audio/x-xm) \
+schismtracker \
+schismtracker(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libSDL2-2.0.so.0()(64bit) \
+libSDL2-2.0.so.0(SUSE_2.0.5)(64bit) \
+libSDL2-2.0.so.0(SUSE_2.0.7)(64bit) \
+libX11.so.6()(64bit) \
+libXv.so.1()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

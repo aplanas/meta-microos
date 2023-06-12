@@ -10,7 +10,8 @@ PV = "202302"
 RPM_NAME = "ovmf-tools-202302-2.2.aarch64.rpm"
 RPM_HASH = "84f27b1667370423bb6774ef891e5a9cc33fc4cf5698562cde03b3b5127e66bad2628ea27afa7af2f9f85b3e53b4d85b2f5945911eeaf4a4395120432812b2f7"
 
-RPROVIDES:${PN} += "ovmf-tools ovmf-tools(aarch-64)"
+RPROVIDES:${PN} += "ovmf-tools \
+ovmf-tools(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

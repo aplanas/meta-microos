@@ -11,6 +11,11 @@ RPM_HASH = "41b83d1af953a9ef80d9827a3b43fdf0fe53045a2746891345793cacb2be7230c686
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xfs_undelete"
-RDEPENDS:${PN} += "/usr/bin/tclsh coreutils file file-magic tcl tcllib"
+RDEPENDS:${PN} += "/usr/bin/tclsh \
+coreutils \
+file \
+file-magic \
+tcl \
+tcllib"
 
 inherit rpm

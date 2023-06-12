@@ -16,7 +16,13 @@ RPM_NAME = "python311-Parsley-1.3-5.1.noarch.rpm"
 RPM_HASH = "95a01f9c274832679829e5d3ba89c885fd4a74ce1b8e803c9acabad60c5cfaa3ddd9e538da0eb9d78cf5d7381f0d3560cac7dd68b311c68bcfebbc66d40a21cb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(parsley) python311-Parsley python311-parsley python3dist(parsley)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(parsley) \
+python311-Parsley \
+python311-parsley \
+python3dist(parsley)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

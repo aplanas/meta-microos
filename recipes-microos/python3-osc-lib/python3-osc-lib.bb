@@ -11,7 +11,18 @@ RPM_NAME = "python3-osc-lib-2.7.0-1.2.noarch.rpm"
 RPM_HASH = "af3204f2cafa250bba3187253a2b66b25cc1ba88c7b08b59821427212267e0088a3659330ebb9b483e8b9e546dc50cf4d9171117f7f5fe83269586f373301f06"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-osc-lib python3.10dist(osc-lib) python3dist(osc-lib)"
-RDEPENDS:${PN} += "python(abi) python3-cliff python3-keystoneauth1 python3-openstacksdk python3-oslo.i18n python3-oslo.utils python3-pbr python3-simplejson python3-six python3-stevedore"
+RPROVIDES:${PN} += "python3-osc-lib \
+python3.10dist(osc-lib) \
+python3dist(osc-lib)"
+RDEPENDS:${PN} += "python(abi) \
+python3-cliff \
+python3-keystoneauth1 \
+python3-openstacksdk \
+python3-oslo.i18n \
+python3-oslo.utils \
+python3-pbr \
+python3-simplejson \
+python3-six \
+python3-stevedore"
 
 inherit rpm

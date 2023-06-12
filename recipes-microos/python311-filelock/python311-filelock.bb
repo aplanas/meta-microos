@@ -10,7 +10,9 @@ RPM_NAME = "python311-filelock-3.12.0-1.1.noarch.rpm"
 RPM_HASH = "23b018aad9f2d13d375c74291f91e11eb257ec3567881d70d26ebc1cca72821b9e21d6303cc63fe0456adc17c180a41a754e757457d7f8d831c1a03dce724bd0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(filelock) python311-filelock python3dist(filelock)"
+RPROVIDES:${PN} += "python3.11dist(filelock) \
+python311-filelock \
+python3dist(filelock)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

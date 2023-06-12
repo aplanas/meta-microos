@@ -20,7 +20,19 @@ RPM_NAME = "texlive-dancers-2023.204.svn13293-54.1.noarch.rpm"
 RPM_HASH = "891b9d32fb53cf28c3dfe5955308a4cebd31decf3e918d3074088e66ae92742fe0493781b6805162ba31e099eba0c14fc31f41b263f78862500707ccf042e71a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dancers.tfm) texlive-dancers"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(dancers.tfm) \
+texlive-dancers"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

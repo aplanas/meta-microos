@@ -8,7 +8,8 @@ RPM_NAME = "yast2-trans-zh_TW-84.87.20230516.e4ba802a-1.1.noarch.rpm"
 RPM_HASH = "873056a61e3a0598a3135dc8170c3e9693cf49b3d5f8e03eb906f837170b620dcaad7ffe965f94f0e7a02cdc6dfcb58841677007eaeb05786f35f29a506fa844"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(yast2:zh_TW) yast2-trans-zh_TW"
+RPROVIDES:${PN} += "locale(yast2:zh_TW) \
+yast2-trans-zh_TW"
 RDEPENDS:${PN} += ""
 
 inherit rpm

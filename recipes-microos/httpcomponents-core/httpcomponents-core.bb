@@ -18,7 +18,14 @@ RPM_NAME = "httpcomponents-core-4.4.13-2.6.noarch.rpm"
 RPM_HASH = "d8b744282a2f5a6cc4be5b7abda116edfaed3ffab74c70648691459688777aec264db80c4c74c5ace61b1202778afff5da1202b16439e5ab3ec22bb19c36809b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "httpcomponents-core mvn(org.apache.httpcomponents:httpcore) mvn(org.apache.httpcomponents:httpcore-nio) mvn(org.apache.httpcomponents:httpcore-nio:pom:) mvn(org.apache.httpcomponents:httpcore:pom:) osgi(org.apache.httpcomponents.httpcore) osgi(org.apache.httpcomponents.httpcore-nio)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "httpcomponents-core \
+mvn(org.apache.httpcomponents:httpcore) \
+mvn(org.apache.httpcomponents:httpcore-nio) \
+mvn(org.apache.httpcomponents:httpcore-nio:pom:) \
+mvn(org.apache.httpcomponents:httpcore:pom:) \
+osgi(org.apache.httpcomponents.httpcore) \
+osgi(org.apache.httpcomponents.httpcore-nio)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

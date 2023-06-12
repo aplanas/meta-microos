@@ -9,6 +9,8 @@ RPM_HASH = "7cf7961a05bc441557625e6c62dbe11f74e8385767b233127cc33d86b98d28a3b46a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-libvirt"
-RDEPENDS:${PN} += "bumblebee-status python3-libvirt-python virt-manager"
+RDEPENDS:${PN} += "bumblebee-status \
+python3-libvirt-python \
+virt-manager"
 
 inherit rpm

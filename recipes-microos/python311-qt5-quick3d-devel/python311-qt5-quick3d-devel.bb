@@ -10,7 +10,10 @@ PV = "5.15.9"
 RPM_NAME = "python311-qt5-quick3d-devel-5.15.9-1.4.aarch64.rpm"
 RPM_HASH = "ba752433662af42105135001c12dfad30c060771375f052840a1e33d104a4e126a3381aa66cbee11adccf1b010481dc4771f27837c2135d8d76fee3a0940a976"
 
-RPROVIDES:${PN} += "python311-qt5-quick3d-devel python311-qt5-quick3d-devel(aarch-64)"
-RDEPENDS:${PN} += "pkgconfig(Qt5Quick3D) python(abi) python311-qt5-devel"
+RPROVIDES:${PN} += "python311-qt5-quick3d-devel \
+python311-qt5-quick3d-devel(aarch-64)"
+RDEPENDS:${PN} += "pkgconfig(Qt5Quick3D) \
+python(abi) \
+python311-qt5-devel"
 
 inherit rpm

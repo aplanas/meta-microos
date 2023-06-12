@@ -13,7 +13,23 @@ RPM_NAME = "texlive-stanli-2023.201.3.0svn54512-57.1.noarch.rpm"
 RPM_HASH = "6be1f9b598424fd3a6978a884d45506f8ecccbbb6ed846ec78d45b93b02bfd4e9a56ac25d7461294b5c9ad206c9fcf2d8d679d64ca7223653fcec118796324e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(stanli.sty) texlive-stanli"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifthen.sty) tex(tikz.sty) tex(verbatim.sty) tex(xargs.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(stanli.sty) \
+texlive-stanli"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifthen.sty) \
+tex(tikz.sty) \
+tex(verbatim.sty) \
+tex(xargs.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

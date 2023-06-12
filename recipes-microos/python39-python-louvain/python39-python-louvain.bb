@@ -13,7 +13,14 @@ RPM_NAME = "python39-python-louvain-0.16-1.5.noarch.rpm"
 RPM_HASH = "5a49b71a6ba9ad7ffbc00260223c42bf9c3670883421c9fef7f78e50e47b77a0d1fec173d565bac8237f3790850eb79ea76a35e2039aec6ff81cc974e507e461"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(python-louvain) python39-python-louvain python3dist(python-louvain)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-networkx python39-numpy update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(python-louvain) \
+python39-python-louvain \
+python3dist(python-louvain)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-networkx \
+python39-numpy \
+update-alternatives"
 
 inherit rpm

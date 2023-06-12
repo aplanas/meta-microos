@@ -15,7 +15,10 @@ RPM_NAME = "python310-translationstring-1.4-2.12.noarch.rpm"
 RPM_HASH = "7f69aae9e2f8243611c3f54685f392a9ef74016b5abb70d7cafccfd9c1f85d2396577f40a90eefe50e83b23fcb09f46702f16bd112bdbc74347418ccbcbebb6d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-translationstring python3.10dist(translationstring) python310-translationstring python3dist(translationstring)"
+RPROVIDES:${PN} += "python3-translationstring \
+python3.10dist(translationstring) \
+python310-translationstring \
+python3dist(translationstring)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

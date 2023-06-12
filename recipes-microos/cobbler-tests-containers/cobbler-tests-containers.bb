@@ -9,6 +9,7 @@ RPM_HASH = "597a9a498edb75bfb4ad23742b5ba3dbeb90d3c47490fd96a048319756dc26c4297b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cobbler-tests-containers"
-RDEPENDS:${PN} += "/bin/bash cobbler"
+RDEPENDS:${PN} += "/bin/bash \
+cobbler"
 
 inherit rpm

@@ -20,7 +20,31 @@ RPM_NAME = "texlive-fontinst-2023.201.1.933svn62517-52.1.noarch.rpm"
 RPM_HASH = "23f17d9ca77e74c1a07a82d0b6b6b38d29b575d74f77ae3cff4ea8a314cdaf10d46141254071e0c5dd281545df525923a54dbfa2de12060567060243f196b1b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bbox.sty) tex(cfntinst.sty) tex(csc2x.tex) tex(csckrn2x.tex) tex(finstmsc.sty) tex(fontdoc.sty) tex(fontinst.sty) tex(multislot.sty) tex(osf2x.tex) tex(xfntinst.sty) texlive-fontinst"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amstext.sty) tex(color.sty) texlive texlive-filesystem texlive-fontinst-bin texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(bbox.sty) \
+tex(cfntinst.sty) \
+tex(csc2x.tex) \
+tex(csckrn2x.tex) \
+tex(finstmsc.sty) \
+tex(fontdoc.sty) \
+tex(fontinst.sty) \
+tex(multislot.sty) \
+tex(osf2x.tex) \
+tex(xfntinst.sty) \
+texlive-fontinst"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amstext.sty) \
+tex(color.sty) \
+texlive \
+texlive-filesystem \
+texlive-fontinst-bin \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

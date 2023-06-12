@@ -17,7 +17,17 @@ PV = "3.3+git0.39e0cf712"
 RPM_NAME = "libntirpc3_3-3.3+git0.39e0cf712-5.8.aarch64.rpm"
 RPM_HASH = "4303b9774ca8d7168cab1bae9d08d9e1e366dec750e6cb5307fddf4fe4acf1159cea5ce095959da61e4510c64f4e093fea801c1f912c1fbeef38850a65662c05"
 
-RPROVIDES:${PN} += "libntirpc.so.3.3()(64bit) libntirpc.so.3.3(NTIRPC_3.3)(64bit) libntirpc.so.3.3(NTIRPC_PRIVATE)(64bit) libntirpc3_3 libntirpc3_3(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgssapi_krb5.so.2()(64bit) libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) liburcu-bp.so.8()(64bit)"
+RPROVIDES:${PN} += "libntirpc.so.3.3()(64bit) \
+libntirpc.so.3.3(NTIRPC_3.3)(64bit) \
+libntirpc.so.3.3(NTIRPC_PRIVATE)(64bit) \
+libntirpc3_3 \
+libntirpc3_3(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgssapi_krb5.so.2()(64bit) \
+libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
+liburcu-bp.so.8()(64bit)"
 
 inherit rpm

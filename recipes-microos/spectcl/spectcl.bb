@@ -30,7 +30,10 @@ RPM_NAME = "spectcl-1.2.1.9-104.16.noarch.rpm"
 RPM_HASH = "2061f3483a720e5d64914a76ecad66a47703a04856af624153e5e7c79fb965f0acd76da1e5a5c975d460d9f75aa973de6c4aa2383b76904b4e5c9453747d88c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "SpecTcl1.1 spectcl"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/wish tk"
+RPROVIDES:${PN} += "SpecTcl1.1 \
+spectcl"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/wish \
+tk"
 
 inherit rpm

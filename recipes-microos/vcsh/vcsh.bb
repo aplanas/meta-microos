@@ -13,6 +13,8 @@ RPM_HASH = "5da16a2c155889dc0b350bc49220d7c85b7dfd300ea1364323005295bfb812c5e725
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vcsh"
-RDEPENDS:${PN} += "/bin/sh bash git-core"
+RDEPENDS:${PN} += "/bin/sh \
+bash \
+git-core"
 
 inherit rpm

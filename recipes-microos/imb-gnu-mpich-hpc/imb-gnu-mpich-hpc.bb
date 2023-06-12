@@ -11,6 +11,7 @@ RPM_HASH = "38da280eba381977b257aaed8d18713ffa747e7a0995821a7bf513f4489e521f0f7e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "imb-gnu-mpich-hpc"
-RDEPENDS:${PN} += "/bin/sh imb_2021_3-gnu-mpich-hpc"
+RDEPENDS:${PN} += "/bin/sh \
+imb_2021_3-gnu-mpich-hpc"
 
 inherit rpm

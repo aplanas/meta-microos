@@ -17,7 +17,12 @@ RPM_NAME = "perl-Pod-Coverage-Moose-0.07-1.23.noarch.rpm"
 RPM_HASH = "c7bb2c70f179e797aba4d06081dd1797c1e51f53bc88250d4f71615330a5bd46f3371283d11497798df4e8d4935d998877570f3358d686ee1fd6439a7e12669e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Pod::Coverage::Moose) perl-Pod-Coverage-Moose"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Class::Load) perl(Moose) perl(Pod::Coverage) perl(namespace::autoclean)"
+RPROVIDES:${PN} += "perl(Pod::Coverage::Moose) \
+perl-Pod-Coverage-Moose"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Load) \
+perl(Moose) \
+perl(Pod::Coverage) \
+perl(namespace::autoclean)"
 
 inherit rpm

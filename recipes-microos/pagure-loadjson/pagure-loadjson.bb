@@ -11,6 +11,8 @@ RPM_HASH = "f4463308e25271283bbfd3923604ca98232e5e878a29727ba4277e8df991111777f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-loadjson"
-RDEPENDS:${PN} += "/bin/sh pagure systemd"
+RDEPENDS:${PN} += "/bin/sh \
+pagure \
+systemd"
 
 inherit rpm

@@ -37,7 +37,8 @@ RPM_NAME = "perl-Tie-Hash-Method-0.02-1.20.noarch.rpm"
 RPM_HASH = "542e75bca751f03faa95fc67f4bdd96da67b0ed4423348e273888943b564ef60c63e22df5b96638a1fca7b5464618fb66461af1b64f14923288538d93baa24fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Tie::Hash::Method) perl-Tie-Hash-Method"
+RPROVIDES:${PN} += "perl(Tie::Hash::Method) \
+perl-Tie-Hash-Method"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

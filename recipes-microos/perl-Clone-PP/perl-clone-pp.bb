@@ -29,7 +29,8 @@ RPM_NAME = "perl-Clone-PP-1.08-1.12.noarch.rpm"
 RPM_HASH = "3ff9572fcf15c286cb5631239ebc2b4689e4058d73b2ac18b29d47d2773b8d75631f4f86bc152febefd5dc9be2c5b10c1ae9577435f9ff6467ba34d73e6a275e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Clone::PP) perl-Clone-PP"
+RPROVIDES:${PN} += "perl(Clone::PP) \
+perl-Clone-PP"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

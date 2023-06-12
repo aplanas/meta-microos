@@ -11,7 +11,10 @@ RPM_NAME = "perl-DateTime-Format-MySQL-0.0701-1.9.noarch.rpm"
 RPM_HASH = "4abe44995fc5445cf5e391c09b76bad368fa7051c70cf7e063b903a29adb9392af49d62bb91231a0c4a68ad90d4cec2be296014db836f7cec418302251bc47d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DateTime::Format::MySQL) perl-DateTime-Format-MySQL"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(DateTime) perl(DateTime::Format::Builder)"
+RPROVIDES:${PN} += "perl(DateTime::Format::MySQL) \
+perl-DateTime-Format-MySQL"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(DateTime) \
+perl(DateTime::Format::Builder)"
 
 inherit rpm

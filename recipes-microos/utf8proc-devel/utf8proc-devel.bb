@@ -16,7 +16,10 @@ PV = "2.8.0"
 RPM_NAME = "utf8proc-devel-2.8.0-1.2.aarch64.rpm"
 RPM_HASH = "cabdbeefd6e9eb7d6318d576574a78afbdedc262570609902602c0b50dba8ac8936c5f43685eca3e154528f6a0c5748573069f1e1d5d33a4b6ac25932e3df00e"
 
-RPROVIDES:${PN} += "pkgconfig(libutf8proc) utf8proc-devel utf8proc-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libutf8proc2"
+RPROVIDES:${PN} += "pkgconfig(libutf8proc) \
+utf8proc-devel \
+utf8proc-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libutf8proc2"
 
 inherit rpm

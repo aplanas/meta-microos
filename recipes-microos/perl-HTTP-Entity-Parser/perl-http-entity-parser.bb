@@ -12,7 +12,18 @@ RPM_NAME = "perl-HTTP-Entity-Parser-0.25-1.11.noarch.rpm"
 RPM_HASH = "d002195e55fddbf8afc4fc8b31e2659e80e670b007dd0f5b0688409e24bfbc8eba35df5ae4becc222cf4e62329d033aaddf46ed9de3d5f042a3321bec0b2dfbb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Entity::Parser) perl(HTTP::Entity::Parser::JSON) perl(HTTP::Entity::Parser::MultiPart) perl(HTTP::Entity::Parser::OctetStream) perl(HTTP::Entity::Parser::UrlEncoded) perl-HTTP-Entity-Parser"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(HTTP::MultiPartParser) perl(Hash::MultiValue) perl(JSON::MaybeXS) perl(Module::Load) perl(Stream::Buffered) perl(WWW::Form::UrlEncoded)"
+RPROVIDES:${PN} += "perl(HTTP::Entity::Parser) \
+perl(HTTP::Entity::Parser::JSON) \
+perl(HTTP::Entity::Parser::MultiPart) \
+perl(HTTP::Entity::Parser::OctetStream) \
+perl(HTTP::Entity::Parser::UrlEncoded) \
+perl-HTTP-Entity-Parser"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(HTTP::MultiPartParser) \
+perl(Hash::MultiValue) \
+perl(JSON::MaybeXS) \
+perl(Module::Load) \
+perl(Stream::Buffered) \
+perl(WWW::Form::UrlEncoded)"
 
 inherit rpm

@@ -9,7 +9,8 @@ RPM_NAME = "perl-Cache-LRU-0.04-2.20.noarch.rpm"
 RPM_HASH = "9e0eaccd6064c12f9293c762931837012ce299886c99da8738c0fe260dde869b0dff5f4abc1d1702ccea9f84ed822386ed6752e6b8d72ffcba133d9302abbc81"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Cache::LRU) perl-Cache-LRU"
+RPROVIDES:${PN} += "perl(Cache::LRU) \
+perl-Cache-LRU"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

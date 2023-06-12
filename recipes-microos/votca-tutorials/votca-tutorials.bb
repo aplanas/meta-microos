@@ -14,7 +14,11 @@ RPM_NAME = "votca-tutorials-2022.1-3.6.noarch.rpm"
 RPM_HASH = "5e28c0f8fd8357b9e120bee06397bd1bfe8ae4c20ebdde778b4561ec4ce6b13f3dd61c10f80d1c60e654ea72d68c73f22eb8912ccd75a467d1b03f63f2fe4e73"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "votca-csg-tutorials votca-tutorials"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/python2 /usr/bin/python3"
+RPROVIDES:${PN} += "votca-csg-tutorials \
+votca-tutorials"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/python2 \
+/usr/bin/python3"
 
 inherit rpm

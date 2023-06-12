@@ -16,7 +16,19 @@ RPM_NAME = "texlive-anonymous-acm-2023.201.1.0svn55121-54.1.noarch.rpm"
 RPM_HASH = "b5a1b4f32d30f25be77a592e58de050858e324ba60d7ece5804c8e70ad3668dbf001113c1b3e5196221c2369141319833851272021141dcf61e4e1670929ac45"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(anonymous-acm.sty) texlive-anonymous-acm"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(anonymous-acm.sty) \
+texlive-anonymous-acm"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

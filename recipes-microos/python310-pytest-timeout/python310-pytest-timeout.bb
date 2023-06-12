@@ -20,7 +20,11 @@ RPM_NAME = "python310-pytest-timeout-2.1.0-2.1.noarch.rpm"
 RPM_HASH = "7e3efaf4b69fec6d1e85285fa41f560c4712ed56e40f59e8eff725088d160ac3cc76ea1364df4ac3f9e254f545a72f812fd634b377a96efb9033bc9860a44503"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-timeout python3.10dist(pytest-timeout) python310-pytest-timeout python3dist(pytest-timeout)"
-RDEPENDS:${PN} += "python(abi) python310-pytest"
+RPROVIDES:${PN} += "python3-pytest-timeout \
+python3.10dist(pytest-timeout) \
+python310-pytest-timeout \
+python3dist(pytest-timeout)"
+RDEPENDS:${PN} += "python(abi) \
+python310-pytest"
 
 inherit rpm

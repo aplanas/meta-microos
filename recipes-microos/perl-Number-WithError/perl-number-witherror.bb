@@ -22,7 +22,10 @@ RPM_NAME = "perl-Number-WithError-1.01-1.17.noarch.rpm"
 RPM_HASH = "dba206589cc0c21affa3a63f7dfc32ac802ce52bcd890e58ba8fbbdbdf0aee40672b3e64b53a2812964fd3ed51f14e3b7ea3b819469db774fb3460b85bd5b0a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Number::WithError) perl-Number-WithError"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Params::Util) perl(prefork)"
+RPROVIDES:${PN} += "perl(Number::WithError) \
+perl-Number-WithError"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Params::Util) \
+perl(prefork)"
 
 inherit rpm

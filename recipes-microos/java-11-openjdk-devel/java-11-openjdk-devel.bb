@@ -7,7 +7,25 @@ PV = "11.0.19.0"
 RPM_NAME = "java-11-openjdk-devel-11.0.19.0-1.1.aarch64.rpm"
 RPM_HASH = "d9f28dca9f18109d5d96190aeda3fe131a5b643695798d98c7ecbfa1453f9a5ab8cabb767dec61bc125819e777d6ac175729a33590c7a18233a6e7dbdead6655"
 
-RPROVIDES:${PN} += "java-10-openjdk-devel java-11-devel java-11-openjdk-devel java-11-openjdk-devel(aarch-64) java-devel java-devel-openjdk java-sdk java-sdk-11 java-sdk-11-openjdk java-sdk-openjdk libattach.so()(64bit) libsaproc.so()(64bit)"
-RDEPENDS:${PN} += "/bin/sh java-11-openjdk ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libjava.so()(64bit) libjli.so()(64bit) update-alternatives"
+RPROVIDES:${PN} += "java-10-openjdk-devel \
+java-11-devel \
+java-11-openjdk-devel \
+java-11-openjdk-devel(aarch-64) \
+java-devel \
+java-devel-openjdk \
+java-sdk \
+java-sdk-11 \
+java-sdk-11-openjdk \
+java-sdk-openjdk \
+libattach.so()(64bit) \
+libsaproc.so()(64bit)"
+RDEPENDS:${PN} += "/bin/sh \
+java-11-openjdk \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libjava.so()(64bit) \
+libjli.so()(64bit) \
+update-alternatives"
 
 inherit rpm

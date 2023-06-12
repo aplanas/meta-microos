@@ -17,7 +17,13 @@ RPM_NAME = "parboiled-scala-1.1.6-5.6.noarch.rpm"
 RPM_HASH = "2ccbcf97e5b748752d2ab890a9a150b788d0032dba99e0523202a41ede43e1b3e0edb0f4c3db1c74b123046dd7c135693ddd0d92c40ee386718cc15fbd0230d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.parboiled:parboiled-scala_2.10) mvn(org.parboiled:parboiled-scala_2.10:pom:) osgi(org.parboiled.scala) parboiled-scala"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(org.parboiled:parboiled-core) mvn(org.scala-lang:scala-library)"
+RPROVIDES:${PN} += "mvn(org.parboiled:parboiled-scala_2.10) \
+mvn(org.parboiled:parboiled-scala_2.10:pom:) \
+osgi(org.parboiled.scala) \
+parboiled-scala"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(org.parboiled:parboiled-core) \
+mvn(org.scala-lang:scala-library)"
 
 inherit rpm

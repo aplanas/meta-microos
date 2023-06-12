@@ -13,7 +13,28 @@ PV = "1.50.1"
 RPM_NAME = "libguestfs-1.50.1-3.1.aarch64.rpm"
 RPM_HASH = "dfa2b6b21efe8841c4191ce9dc1e0687c9787bff6326d7f925eebf8ff983a98bfaf0b90ab3e953acd584f35e35a22977256936346b0ade5461902679f90d4ea9"
 
-RPROVIDES:${PN} += "config(libguestfs) libguestfs libguestfs(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libconfig.so.11()(64bit) libfuse.so.2()(64bit) libfuse.so.2(FUSE_2.6)(64bit) libfuse.so.2(FUSE_2.8)(64bit) libguestfs.so.0()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libreadline.so.8()(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtirpc.so.3()(64bit) libtirpc.so.3(TIRPC_0.3.0)(64bit) libxml2.so.2()(64bit) libxml2.so.2(LIBXML2_2.4.30)(64bit) supermin"
+RPROVIDES:${PN} += "config(libguestfs) \
+libguestfs \
+libguestfs(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libconfig.so.11()(64bit) \
+libfuse.so.2()(64bit) \
+libfuse.so.2(FUSE_2.6)(64bit) \
+libfuse.so.2(FUSE_2.8)(64bit) \
+libguestfs.so.0()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libreadline.so.8()(64bit) \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
+libtirpc.so.3()(64bit) \
+libtirpc.so.3(TIRPC_0.3.0)(64bit) \
+libxml2.so.2()(64bit) \
+libxml2.so.2(LIBXML2_2.4.30)(64bit) \
+supermin"
 
 inherit rpm

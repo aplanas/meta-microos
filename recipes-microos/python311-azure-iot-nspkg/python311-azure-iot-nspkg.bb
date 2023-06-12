@@ -12,7 +12,9 @@ RPM_NAME = "python311-azure-iot-nspkg-1.0.1-1.2.noarch.rpm"
 RPM_HASH = "60b2d02c25ff3fcba1b1c50fa6d938c6176845b6af2ae4e20d5ff2380ff0aff31482ce89465b59d74f091f7479447def9b1440a7c1d4c41bbbb1d5de52711721"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-iot-nspkg) python311-azure-iot-nspkg python3dist(azure-iot-nspkg)"
+RPROVIDES:${PN} += "python3.11dist(azure-iot-nspkg) \
+python311-azure-iot-nspkg \
+python3dist(azure-iot-nspkg)"
 RDEPENDS:${PN} += "python311-azure-nspkg"
 
 inherit rpm

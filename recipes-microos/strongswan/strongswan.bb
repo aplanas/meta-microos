@@ -35,7 +35,9 @@ PV = "5.9.10"
 RPM_NAME = "strongswan-5.9.10-2.1.aarch64.rpm"
 RPM_HASH = "7eefc6307a37a9cf490b7578a349b2c67a47b78e795a18fc5f11ba942a77dce9689a528cd82fe0aec3da976026e69520867245f121a51157fbabfd88d0f54b8d"
 
-RPROVIDES:${PN} += "strongswan strongswan(aarch-64)"
-RDEPENDS:${PN} += "strongswan-ipsec systemd"
+RPROVIDES:${PN} += "strongswan \
+strongswan(aarch-64)"
+RDEPENDS:${PN} += "strongswan-ipsec \
+systemd"
 
 inherit rpm

@@ -8,7 +8,18 @@ PV = "44.1"
 RPM_NAME = "gnome-shell-calendar-44.1-1.1.aarch64.rpm"
 RPM_HASH = "6c6af079e290f121d6e1b538b032dc070bbadeda2239461b931d90b04051f17f81028a1886766834780138b2c824d1b3b47ee96586d53a46e18c27651b320a72"
 
-RPROVIDES:${PN} += "gnome-shell-calendar gnome-shell-calendar(aarch-64)"
-RDEPENDS:${PN} += "evolution-data-server gnome-shell ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libecal-2.0.so.2()(64bit) libedataserver-1.2.so.27()(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libical-glib.so.3()(64bit)"
+RPROVIDES:${PN} += "gnome-shell-calendar \
+gnome-shell-calendar(aarch-64)"
+RDEPENDS:${PN} += "evolution-data-server \
+gnome-shell \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libecal-2.0.so.2()(64bit) \
+libedataserver-1.2.so.27()(64bit) \
+libgio-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libical-glib.so.3()(64bit)"
 
 inherit rpm

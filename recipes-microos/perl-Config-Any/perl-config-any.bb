@@ -20,7 +20,16 @@ RPM_NAME = "perl-Config-Any-0.33-1.1.noarch.rpm"
 RPM_HASH = "fe5a9fca38ec6e0cecae8987bb41d9fac8d9fa812f4873cebb54809b033710903d00986fb50c1aa68e2570a0e7224c118fa53cca8ec95330a405a96f47f12f50"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Config::Any) perl(Config::Any::Base) perl(Config::Any::General) perl(Config::Any::INI) perl(Config::Any::JSON) perl(Config::Any::Perl) perl(Config::Any::XML) perl(Config::Any::YAML) perl-Config-Any"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Module::Pluggable::Object)"
+RPROVIDES:${PN} += "perl(Config::Any) \
+perl(Config::Any::Base) \
+perl(Config::Any::General) \
+perl(Config::Any::INI) \
+perl(Config::Any::JSON) \
+perl(Config::Any::Perl) \
+perl(Config::Any::XML) \
+perl(Config::Any::YAML) \
+perl-Config-Any"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Module::Pluggable::Object)"
 
 inherit rpm

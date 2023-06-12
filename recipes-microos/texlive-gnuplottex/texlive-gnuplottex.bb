@@ -14,7 +14,24 @@ RPM_NAME = "texlive-gnuplottex-2023.201.0.0.9.5svn54758-53.1.noarch.rpm"
 RPM_HASH = "cfe15ab6ad03095bce2924231cb0fb3680d2d64eff6331a7a595a351c85a4cbd81a83cbcd4973831f3f659a49726eceae6696d516c4a7ad60a123ed58a879bc9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gnuplottex.sty) texlive-gnuplottex"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(catchfile.sty) tex(graphicx.sty) tex(ifthen.sty) tex(keyval.sty) tex(moreverb.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(gnuplottex.sty) \
+texlive-gnuplottex"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(catchfile.sty) \
+tex(graphicx.sty) \
+tex(ifthen.sty) \
+tex(keyval.sty) \
+tex(moreverb.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -13,7 +13,8 @@ RPM_NAME = "perl-POSIX-strftime-Compiler-0.44-1.13.noarch.rpm"
 RPM_HASH = "92ca02b3541eb94ecc5f1ed13226fa90d076964173eefbbbac89784adff828eaed1363719b4ceb7e2e7bfa485f5b91038169e2fca9ca8020af25247f64f93943"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(POSIX::strftime::Compiler) perl-POSIX-strftime-Compiler"
+RPROVIDES:${PN} += "perl(POSIX::strftime::Compiler) \
+perl-POSIX-strftime-Compiler"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

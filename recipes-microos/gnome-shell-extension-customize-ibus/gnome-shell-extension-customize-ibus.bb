@@ -10,6 +10,7 @@ RPM_HASH = "38823f3d5b4fc90237de87f921c1c3e47f249ecb265565c86ad13c5294f6d1d44d43
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-customize-ibus"
-RDEPENDS:${PN} += "gnome-shell gnome-tweaks"
+RDEPENDS:${PN} += "gnome-shell \
+gnome-tweaks"
 
 inherit rpm

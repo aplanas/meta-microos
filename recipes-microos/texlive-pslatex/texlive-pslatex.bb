@@ -22,7 +22,26 @@ RPM_NAME = "texlive-pslatex-2023.201.1.3svn57434-52.1.noarch.rpm"
 RPM_HASH = "d0dadb7760a666838fc737fb8c10bc8a0d1b6b84940446fe4538e13230d4ef00266837e5a0ce61fede4b775254b55d1b1730739f67eb40612030ac323b6e26b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pcrr7tn.tfm) tex(pcrr7tn.vf) tex(pcrr8rn.map) tex(pcrr8rn.tfm) tex(pcrr8tn.tfm) tex(pcrr8tn.vf) tex(pslatex.sty) texlive-pslatex"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(psyr.tfm) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(pcrr7tn.tfm) \
+tex(pcrr7tn.vf) \
+tex(pcrr8rn.map) \
+tex(pcrr8rn.tfm) \
+tex(pcrr8tn.tfm) \
+tex(pcrr8tn.vf) \
+tex(pslatex.sty) \
+texlive-pslatex"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(psyr.tfm) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

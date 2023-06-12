@@ -12,6 +12,7 @@ RPM_HASH = "980353eef3c768cf8f6fb49ebaaa162bad113d9b9a3e98af21ea1e7266eb219e422c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-penlight"
-RDEPENDS:${PN} += "lua53 lua53-luafilesystem"
+RDEPENDS:${PN} += "lua53 \
+lua53-luafilesystem"
 
 inherit rpm

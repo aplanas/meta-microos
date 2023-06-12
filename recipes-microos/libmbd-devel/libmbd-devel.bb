@@ -11,7 +11,9 @@ PV = "0.12.6"
 RPM_NAME = "libmbd-devel-0.12.6-1.3.aarch64.rpm"
 RPM_HASH = "d074106586532b1663f490e9d7154f002232ad737c82c738dacfe312940ee596a029624d0e82898147486468c6c0185488ede7ed8e55fe908cd057caf3e8877e"
 
-RPROVIDES:${PN} += "cmake(Mbd) libmbd-devel libmbd-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake(Mbd) \
+libmbd-devel \
+libmbd-devel(aarch-64)"
 RDEPENDS:${PN} += "libmbd"
 
 inherit rpm

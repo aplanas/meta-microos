@@ -13,7 +13,16 @@ PV = "23.02"
 RPM_NAME = "armnn-opencl-devel-23.02-2.1.aarch64.rpm"
 RPM_HASH = "f8ed2b9d658c56068c1ae4082053ac541ad0f05ef9be555e166fc16c793636d6ab9b3568d76ef98c125dfb683a3b9aa622d209ada2c705c1292cf267eff55194"
 
-RPROVIDES:${PN} += "armnn-opencl-devel armnn-opencl-devel(aarch-64) cmake(Armnn)"
-RDEPENDS:${PN} += "armnn-opencl libarmnn32-opencl libarmnnBasePipeServer32-opencl libarmnnSerializer32-opencl libarmnnTestUtils2-opencl libarmnnTfLiteParser24-opencl libtimelineDecoder32-opencl libtimelineDecoderJson32-opencl"
+RPROVIDES:${PN} += "armnn-opencl-devel \
+armnn-opencl-devel(aarch-64) \
+cmake(Armnn)"
+RDEPENDS:${PN} += "armnn-opencl \
+libarmnn32-opencl \
+libarmnnBasePipeServer32-opencl \
+libarmnnSerializer32-opencl \
+libarmnnTestUtils2-opencl \
+libarmnnTfLiteParser24-opencl \
+libtimelineDecoder32-opencl \
+libtimelineDecoderJson32-opencl"
 
 inherit rpm

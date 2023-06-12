@@ -11,7 +11,12 @@ PV = "5.0.0"
 RPM_NAME = "typelib-1_0-CjsPrivate-1_0-5.0.0-1.10.aarch64.rpm"
 RPM_HASH = "0bef13fced00663d851dbd7550bb1b3f7e8656e99ef7ed72cc89657dbbf9509eedecde53a100a14c5032eb5c879aada3b5ae1ac33d7350a3ebf81b452a65cd80"
 
-RPROVIDES:${PN} += "typelib(CjsPrivate) typelib-1_0-CjsPrivate-1_0 typelib-1_0-CjsPrivate-1_0(aarch-64)"
-RDEPENDS:${PN} += "libcjs.so.0()(64bit) typelib(GLib) typelib(GObject) typelib(Gio)"
+RPROVIDES:${PN} += "typelib(CjsPrivate) \
+typelib-1_0-CjsPrivate-1_0 \
+typelib-1_0-CjsPrivate-1_0(aarch-64)"
+RDEPENDS:${PN} += "libcjs.so.0()(64bit) \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gio)"
 
 inherit rpm

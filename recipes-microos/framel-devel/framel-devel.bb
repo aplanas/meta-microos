@@ -11,7 +11,10 @@ PV = "8.42.3"
 RPM_NAME = "framel-devel-8.42.3-1.5.aarch64.rpm"
 RPM_HASH = "7c7442c7df407466f46cd74f5986e56d4a0944ec7dc61c190847029f8b0e653572f385d8538a53b3fecd0e117d597ac1aa0517ff7de6fa1cfd8d7539976d1a1d"
 
-RPROVIDES:${PN} += "framel-devel framel-devel(aarch-64) pkgconfig(framel)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libframel8"
+RPROVIDES:${PN} += "framel-devel \
+framel-devel(aarch-64) \
+pkgconfig(framel)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libframel8"
 
 inherit rpm

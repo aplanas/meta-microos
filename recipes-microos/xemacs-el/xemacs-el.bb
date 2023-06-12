@@ -13,6 +13,7 @@ RPM_HASH = "4e5533f34222611a247639f27c83f4c7fd9881b4bf21bcad70b999031296ba12367a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xemacs-el"
-RDEPENDS:${PN} += "xemacs xemacs-packages-el"
+RDEPENDS:${PN} += "xemacs \
+xemacs-packages-el"
 
 inherit rpm

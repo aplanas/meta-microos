@@ -18,7 +18,12 @@ RPM_NAME = "monitoring-plugins-openvpn-1.1-102.7.noarch.rpm"
 RPM_HASH = "13feaf8f89396814cc73fef463b1ee06cd7ddc98d1c921fb138e933328032b6674b028d0d0ba94ba03122c138b0ed639755fbad233a9ee799be3783a09da47f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(monitoring-plugins-openvpn) monitoring-plugins-openvpn nagios-plugins-openvpn"
-RDEPENDS:${PN} += "/usr/bin/perl monitoring-plugins-common perl perl(Net::Telnet)"
+RPROVIDES:${PN} += "config(monitoring-plugins-openvpn) \
+monitoring-plugins-openvpn \
+nagios-plugins-openvpn"
+RDEPENDS:${PN} += "/usr/bin/perl \
+monitoring-plugins-common \
+perl \
+perl(Net::Telnet)"
 
 inherit rpm

@@ -14,7 +14,19 @@ PV = "8.0.2"
 RPM_NAME = "qemu-8.0.2-1.1.aarch64.rpm"
 RPM_HASH = "8fb56aa95c17b6f8f1de1685109671df2d92143d31967def9a8b9136492f362a26ab184786c648aeb28707e38ae227ac62f0adb6f118b9286933faea09b70116"
 
-RPROVIDES:${PN} += "application() application(qemu.desktop) qemu qemu(aarch-64)"
-RDEPENDS:${PN} += "(qemu-guest-agent = 8.0.2 if qemu-guest-agent) /bin/bash /bin/sh acl coreutils group(kvm) group(qemu) qemu-arm udev user(qemu)"
+RPROVIDES:${PN} += "application() \
+application(qemu.desktop) \
+qemu \
+qemu(aarch-64)"
+RDEPENDS:${PN} += "(qemu-guest-agent = 8.0.2 if qemu-guest-agent) \
+/bin/bash \
+/bin/sh \
+acl \
+coreutils \
+group(kvm) \
+group(qemu) \
+qemu-arm \
+udev \
+user(qemu)"
 
 inherit rpm

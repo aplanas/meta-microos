@@ -18,7 +18,27 @@ PV = "0.15.1"
 RPM_NAME = "nss-mdns-0.15.1-1.2.aarch64.rpm"
 RPM_HASH = "6c46a2a6a1a0848bcb718d093b25e5ac842a3a7b3187a125cde1775acb8d7991d14fa03031abc687950b513bd95a8ebaae65a16a7b37061000c0490de206a491"
 
-RPROVIDES:${PN} += "libnss_mdns.so.2()(64bit) libnss_mdns.so.2(NSSMDNS_0)(64bit) libnss_mdns4.so.2()(64bit) libnss_mdns4.so.2(NSSMDNS_0)(64bit) libnss_mdns4_minimal.so.2()(64bit) libnss_mdns4_minimal.so.2(NSSMDNS_0)(64bit) libnss_mdns6.so.2()(64bit) libnss_mdns6.so.2(NSSMDNS_0)(64bit) libnss_mdns6_minimal.so.2()(64bit) libnss_mdns6_minimal.so.2(NSSMDNS_0)(64bit) libnss_mdns_minimal.so.2()(64bit) libnss_mdns_minimal.so.2(NSSMDNS_0)(64bit) nss-mdns nss-mdns(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /sbin/ldconfig avahi grep ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) sed"
+RPROVIDES:${PN} += "libnss_mdns.so.2()(64bit) \
+libnss_mdns.so.2(NSSMDNS_0)(64bit) \
+libnss_mdns4.so.2()(64bit) \
+libnss_mdns4.so.2(NSSMDNS_0)(64bit) \
+libnss_mdns4_minimal.so.2()(64bit) \
+libnss_mdns4_minimal.so.2(NSSMDNS_0)(64bit) \
+libnss_mdns6.so.2()(64bit) \
+libnss_mdns6.so.2(NSSMDNS_0)(64bit) \
+libnss_mdns6_minimal.so.2()(64bit) \
+libnss_mdns6_minimal.so.2(NSSMDNS_0)(64bit) \
+libnss_mdns_minimal.so.2()(64bit) \
+libnss_mdns_minimal.so.2(NSSMDNS_0)(64bit) \
+nss-mdns \
+nss-mdns(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/sbin/ldconfig \
+avahi \
+grep \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+sed"
 
 inherit rpm

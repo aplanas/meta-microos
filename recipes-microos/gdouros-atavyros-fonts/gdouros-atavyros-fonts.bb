@@ -8,7 +8,11 @@ RPM_NAME = "gdouros-atavyros-fonts-1.01-3.21.noarch.rpm"
 RPM_HASH = "23aaf9bae875ccdb3d66f68b80a8c2606066f3099523cfe2b7825cba3172f682bbb8cfb2e1d3cfd108b4ffc1dd29b9f52bde91d0ba6fef6431df2dfc1b355ab0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "atavyros-fonts gdouros-atavyros-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "atavyros-fonts \
+gdouros-atavyros-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

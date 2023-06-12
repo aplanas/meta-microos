@@ -14,6 +14,10 @@ RPM_HASH = "d18449b1d999d33529eaec8db1412d9185d693245ccd1a1fd6f3969efdb069a47e19
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "parallel-printer-support"
-RDEPENDS:${PN} += "/bin/sh aaa_base group(lp) systemd udev"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+group(lp) \
+systemd \
+udev"
 
 inherit rpm

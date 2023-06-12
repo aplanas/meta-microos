@@ -16,7 +16,19 @@ RPM_NAME = "texlive-cybercic-2023.204.2.1svn37659-54.1.noarch.rpm"
 RPM_HASH = "ae14d74a3815c8bdb65d85beb856d2d33f67a532f56acb0a604f60b284addab3e05d0212381b50c9d5db713c25523e98112c403de1e019d9319abb5a58cc7b2c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cybercic.sty) texlive-cybercic"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(cybercic.sty) \
+texlive-cybercic"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -9,6 +9,9 @@ RPM_HASH = "a606098bb71b549a95560dbceea9dbc07a1b56375f83ac4686d9cb8168d94e114bb1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rfc-read"
-RDEPENDS:${PN} += "/usr/bin/bash bash curl less"
+RDEPENDS:${PN} += "/usr/bin/bash \
+bash \
+curl \
+less"
 
 inherit rpm

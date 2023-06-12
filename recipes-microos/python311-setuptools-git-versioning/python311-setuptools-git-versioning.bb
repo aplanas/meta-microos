@@ -15,7 +15,17 @@ RPM_NAME = "python311-setuptools-git-versioning-1.13.2-2.2.noarch.rpm"
 RPM_HASH = "8f5e9a90c8061cafccbb007a33dc65047464bead2a9142c885f26478792336c266d0ebe3980a82a507accb40f7db8fc14c654f533c6a003cc64dfe3832ac37c4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(setuptools-git-versioning) python311-setuptools-git-versioning python311-setuptools_git_versioning python3dist(setuptools-git-versioning)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 git-core python(abi) python311-Deprecated python311-packaging python311-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(setuptools-git-versioning) \
+python311-setuptools-git-versioning \
+python311-setuptools_git_versioning \
+python3dist(setuptools-git-versioning)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+git-core \
+python(abi) \
+python311-Deprecated \
+python311-packaging \
+python311-setuptools \
+update-alternatives"
 
 inherit rpm

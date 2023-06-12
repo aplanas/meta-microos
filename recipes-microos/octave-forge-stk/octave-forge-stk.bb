@@ -16,7 +16,15 @@ PV = "2.8.0"
 RPM_NAME = "octave-forge-stk-2.8.0-1.2.aarch64.rpm"
 RPM_HASH = "00578ffb8fd5c9a4c0881627197fda6775775e959b64f1b7901b7ba7934a8fab0e76a2743e186ae5627afa924b16f490ed372424da8447a725d153756a71b55f"
 
-RPROVIDES:${PN} += "octave-forge-stk octave-forge-stk(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) octave-cli"
+RPROVIDES:${PN} += "octave-forge-stk \
+octave-forge-stk(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+octave-cli"
 
 inherit rpm

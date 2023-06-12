@@ -17,7 +17,10 @@ RPM_NAME = "python310-tenacity-8.2.2-1.1.noarch.rpm"
 RPM_HASH = "1ce669318efd5069582857baacda8c962f01cb270cb72b44c3bb5852c5becae82d9fffd711a540779ef40ea43099cb8a3baadd76aead7e9e6aef3490bf6fde9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tenacity python3.10dist(tenacity) python310-tenacity python3dist(tenacity)"
+RPROVIDES:${PN} += "python3-tenacity \
+python3.10dist(tenacity) \
+python310-tenacity \
+python3dist(tenacity)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

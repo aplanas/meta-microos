@@ -9,6 +9,19 @@ RPM_HASH = "6b6f41c42ba94f05883120a809b785155b6cb55c17598848f8e86f79e269a5ee2c47
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luafindfont"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/texlua coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-luafindfont-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/texlua \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-luafindfont-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

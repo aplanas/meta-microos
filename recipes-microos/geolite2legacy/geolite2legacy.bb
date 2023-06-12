@@ -11,6 +11,7 @@ RPM_HASH = "d5ab134c1d20301bae6178ba1f3bc071b8524d4a6ad93a6387c025e12fe2a1936d2b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geolite2legacy"
-RDEPENDS:${PN} += "/usr/bin/python3 python3-ipaddr"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3-ipaddr"
 
 inherit rpm

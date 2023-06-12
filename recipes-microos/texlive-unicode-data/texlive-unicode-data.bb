@@ -21,7 +21,21 @@ RPM_NAME = "texlive-unicode-data-2023.201.1.16svn64423-53.1.noarch.rpm"
 RPM_HASH = "23a3e64511db6afafe306b2c58283166d85d2c248df27a77a9c27da0d9f3140e8bb8f271c750c01702777d715b4ad5753178ce53b183d22e4f161c4a4ac78952"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(load-unicode-data.tex) tex(load-unicode-math-classes.tex) tex(load-unicode-xetex-classes.tex) texlive-unicode-data"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(load-unicode-data.tex) \
+tex(load-unicode-math-classes.tex) \
+tex(load-unicode-xetex-classes.tex) \
+texlive-unicode-data"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

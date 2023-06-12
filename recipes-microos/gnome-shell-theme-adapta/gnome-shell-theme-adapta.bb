@@ -12,6 +12,7 @@ RPM_HASH = "b9c02aca4292092f80b2581f4274ee870c73db4a737c0de36f4ce0352a23761725f8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-theme-adapta"
-RDEPENDS:${PN} += "gnome-shell metatheme-adapta-common"
+RDEPENDS:${PN} += "gnome-shell \
+metatheme-adapta-common"
 
 inherit rpm

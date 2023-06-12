@@ -11,7 +11,11 @@ RPM_NAME = "gdouros-unidings-fonts-9.17-1.18.noarch.rpm"
 RPM_HASH = "fa6821a101d127469adf0c6c6062955fca8186b37939bb057ccca18db9e57090dd3c1d0744fbc78fbc7e40dc01bdc2ad1d273d7af0de5800192ba14903146fbc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "gdouros-unidings-fonts unidings-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "gdouros-unidings-fonts \
+unidings-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

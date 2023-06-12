@@ -21,7 +21,8 @@ RPM_NAME = "perl-PAR-Dist-0.52-1.1.noarch.rpm"
 RPM_HASH = "d89ae33ba4b79e4efdb41b76a2375339739380d9f6472018213955a8f2202edbb4f9a3ced075d5e436d9760b40bc467d522abd492bb87abb9ea5d371fd48d2ba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(PAR::Dist) perl-PAR-Dist"
+RPROVIDES:${PN} += "perl(PAR::Dist) \
+perl-PAR-Dist"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

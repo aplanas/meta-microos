@@ -14,7 +14,21 @@ PV = "2.4"
 RPM_NAME = "starfighter-2.4-1.13.aarch64.rpm"
 RPM_HASH = "77d121ee432e204be4e7d3f90727fb6341ad3bc1faff573f21392fb6417805ca671247c08d156f9ab00e63a6de5d310464a414dc75dafaa0d9cc791bb7853ad4"
 
-RPROVIDES:${PN} += "application() application(starfighter.desktop) metainfo() metainfo(starfighter.appdata.xml) starfighter starfighter(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libSDL2-2.0.so.0()(64bit) libSDL2_image-2.0.so.0()(64bit) libSDL2_mixer-2.0.so.0()(64bit) libSDL2_ttf-2.0.so.0()(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libpango-1.0.so.0()(64bit)"
+RPROVIDES:${PN} += "application() \
+application(starfighter.desktop) \
+metainfo() \
+metainfo(starfighter.appdata.xml) \
+starfighter \
+starfighter(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libSDL2-2.0.so.0()(64bit) \
+libSDL2_image-2.0.so.0()(64bit) \
+libSDL2_mixer-2.0.so.0()(64bit) \
+libSDL2_ttf-2.0.so.0()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libpango-1.0.so.0()(64bit)"
 
 inherit rpm

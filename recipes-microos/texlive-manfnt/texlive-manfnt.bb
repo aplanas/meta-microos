@@ -10,7 +10,19 @@ RPM_NAME = "texlive-manfnt-2023.201.svn54684-52.1.noarch.rpm"
 RPM_HASH = "e2ef1d137d6baf943abe4264b6decdd6445ad727cc63d6788713cdb832ebc72b520db2274507ec76e94fd0d1452365fe82467e1031e0a988bf81c42d215977f7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(manfnt.sty) texlive-manfnt"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(manfnt.sty) \
+texlive-manfnt"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

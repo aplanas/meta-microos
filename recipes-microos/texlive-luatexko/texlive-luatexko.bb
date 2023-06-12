@@ -15,7 +15,25 @@ RPM_NAME = "texlive-luatexko-2023.201.3.5svn64893-52.1.noarch.rpm"
 RPM_HASH = "96be49d914103f42fc5a78a5cfbdd53438af4999a3dd08dd875e7b2547d5d4e47005937b4e12f73672edba6b4539881cd22c2a8451a5ba051a03f2ee32badd60"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(luatexko.sty) texlive-luatexko"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(atbegshi.sty) tex(fontspec.sty) tex(kolabels-utf.sty) tex(konames-utf.sty) tex(luaotfload.sty) tex(luatexbase.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(luatexko.sty) \
+texlive-luatexko"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(atbegshi.sty) \
+tex(fontspec.sty) \
+tex(kolabels-utf.sty) \
+tex(konames-utf.sty) \
+tex(luaotfload.sty) \
+tex(luatexbase.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

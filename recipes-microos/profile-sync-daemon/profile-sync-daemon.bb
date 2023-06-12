@@ -13,6 +13,8 @@ RPM_HASH = "7e8a8ed18700f99d9324374865a8fe9c63ff325664080714e458b16202da19c16090
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "profile-sync-daemon"
-RDEPENDS:${PN} += "/bin/bash /bin/sh rsync"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+rsync"
 
 inherit rpm

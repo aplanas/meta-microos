@@ -11,7 +11,18 @@ PV = "0.5"
 RPM_NAME = "clamz-0.5-11.28.aarch64.rpm"
 RPM_HASH = "1481328e25ca7658330ccd27d2f53e51afc25ee0a0c672702398a2021183c3c98e9975cc694e463d732f782b5d8c847bc4947153279ac01096ecd11f74c72112"
 
-RPROVIDES:${PN} += "application() application(clamz.desktop) clamz clamz(aarch-64) mimehandler(audio/x-amzxml)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcurl.so.4()(64bit) libexpat.so.1()(64bit) libgcrypt.so.20()(64bit) libgcrypt.so.20(GCRYPT_1.6)(64bit)"
+RPROVIDES:${PN} += "application() \
+application(clamz.desktop) \
+clamz \
+clamz(aarch-64) \
+mimehandler(audio/x-amzxml)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcurl.so.4()(64bit) \
+libexpat.so.1()(64bit) \
+libgcrypt.so.20()(64bit) \
+libgcrypt.so.20(GCRYPT_1.6)(64bit)"
 
 inherit rpm

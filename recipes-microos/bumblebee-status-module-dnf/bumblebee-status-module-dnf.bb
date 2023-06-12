@@ -13,6 +13,7 @@ RPM_HASH = "28915c04c24c9e88b05ade49f66222054c01b0bcf1cc813d0e80797c58ef2cbd529b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-dnf"
-RDEPENDS:${PN} += "bumblebee-status dnf"
+RDEPENDS:${PN} += "bumblebee-status \
+dnf"
 
 inherit rpm

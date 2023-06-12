@@ -38,7 +38,14 @@ RPM_NAME = "python310-virtualenv-clone-0.5.7-1.4.noarch.rpm"
 RPM_HASH = "f969a93c126d4e0e34ead31db1cb1e91288e97ddc3a4b51e4748dcb34b7a55e37a256eda384a249450affb6779cf8f711f9b12950b3b4110fb92b48a44fd785b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-virtualenv-clone python3.10dist(virtualenv-clone) python310-virtualenv-clone python3dist(virtualenv-clone)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-virtualenv update-alternatives"
+RPROVIDES:${PN} += "python3-virtualenv-clone \
+python3.10dist(virtualenv-clone) \
+python310-virtualenv-clone \
+python3dist(virtualenv-clone)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-virtualenv \
+update-alternatives"
 
 inherit rpm

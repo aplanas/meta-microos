@@ -10,6 +10,8 @@ RPM_HASH = "c5114f460163521603c21be743e9dfed43439c031c317de5934fc279cd0856b78cd4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-webhook"
-RDEPENDS:${PN} += "/bin/sh pagure systemd"
+RDEPENDS:${PN} += "/bin/sh \
+pagure \
+systemd"
 
 inherit rpm

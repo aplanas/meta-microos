@@ -24,7 +24,11 @@ RPM_NAME = "python310-tblib-1.7.0-1.11.noarch.rpm"
 RPM_HASH = "55e681fec42feb025ac3857a168bdf654ab44ed448cfd812648d3b4132d715e6583f702c09c8c48155cf0f52aa99cdc201d9aa3b3d8bc9365d7d9e7b9b0ff64c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tblib python3.10dist(tblib) python310-tblib python3dist(tblib)"
-RDEPENDS:${PN} += "python(abi) python310-six"
+RPROVIDES:${PN} += "python3-tblib \
+python3.10dist(tblib) \
+python310-tblib \
+python3dist(tblib)"
+RDEPENDS:${PN} += "python(abi) \
+python310-six"
 
 inherit rpm

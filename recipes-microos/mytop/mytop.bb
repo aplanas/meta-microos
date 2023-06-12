@@ -14,6 +14,10 @@ RPM_HASH = "8ffb9d0ad9ffd27b1d0a8bd9d644e379443979c1ee70510868df4d5462d05b454200
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mytop"
-RDEPENDS:${PN} += "/usr/bin/perl perl perl-DBD-mysql perl-DBI perl-TermReadKey"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl \
+perl-DBD-mysql \
+perl-DBI \
+perl-TermReadKey"
 
 inherit rpm

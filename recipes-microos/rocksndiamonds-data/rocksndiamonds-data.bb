@@ -16,6 +16,7 @@ RPM_HASH = "9acb4ba62bc57eb4fc45463d65bd354ecbd035a8a472a3d595263090f58f8f7d92a5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rocksndiamonds-data"
-RDEPENDS:${PN} += "/bin/sh rocksndiamonds"
+RDEPENDS:${PN} += "/bin/sh \
+rocksndiamonds"
 
 inherit rpm

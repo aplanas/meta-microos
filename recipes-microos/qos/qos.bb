@@ -28,6 +28,12 @@ RPM_HASH = "5ce893e64d20ad3c844be1a5516cc21c31fb47709610346c0c3924232747b9be20fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qos"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/mkdir /usr/bin/touch fillup iproute2 systemd"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+fillup \
+iproute2 \
+systemd"
 
 inherit rpm

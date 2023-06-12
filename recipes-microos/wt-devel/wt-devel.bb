@@ -15,7 +15,18 @@ PV = "4.8.1"
 RPM_NAME = "wt-devel-4.8.1-3.6.aarch64.rpm"
 RPM_HASH = "b31c9043118e944e7fda65cae0d6840727807515e66b55bc3c92a7e99e1b195719fa5b6c72306b185c3fbd61a6c8c0a57b74e2ece3cf60553ba9831a3790bf85"
 
-RPROVIDES:${PN} += "cmake(wt) wt-devel wt-devel(aarch-64)"
-RDEPENDS:${PN} += "FastCGI-devel Xerces-c-devel boost-devel cmake mxml-devel pkgconfig(openssl) wt wt-dbo wt-dbo-mysql wt-dbo-postgres"
+RPROVIDES:${PN} += "cmake(wt) \
+wt-devel \
+wt-devel(aarch-64)"
+RDEPENDS:${PN} += "FastCGI-devel \
+Xerces-c-devel \
+boost-devel \
+cmake \
+mxml-devel \
+pkgconfig(openssl) \
+wt \
+wt-dbo \
+wt-dbo-mysql \
+wt-dbo-postgres"
 
 inherit rpm

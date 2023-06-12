@@ -10,6 +10,7 @@ RPM_HASH = "adc6b8185e0f5f4f61dc8f8d6e73efda28eff7de0a48ea9303bb5573e3fc42d1ccff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libalternatives-unit-test-helper"
-RDEPENDS:${PN} += "/bin/bash alts"
+RDEPENDS:${PN} += "/bin/bash \
+alts"
 
 inherit rpm

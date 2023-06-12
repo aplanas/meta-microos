@@ -13,7 +13,13 @@ PV = "3.81"
 RPM_NAME = "healpix_cxx-devel-3.81-1.7.aarch64.rpm"
 RPM_HASH = "659805b9a95155557b1132fde8558825aa600c933d9f721072b7991f67b400c61c0fffc0782a932a1a98ded4885a1da8ac665781c671ec4b5bb9cb045a4c0d53"
 
-RPROVIDES:${PN} += "healpix_cxx-devel healpix_cxx-devel(aarch-64) pkgconfig(healpix_cxx)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libhealpix_cxx3 pkgconfig(cfitsio) pkgconfig(libsharp) pkgconfig(zlib)"
+RPROVIDES:${PN} += "healpix_cxx-devel \
+healpix_cxx-devel(aarch-64) \
+pkgconfig(healpix_cxx)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libhealpix_cxx3 \
+pkgconfig(cfitsio) \
+pkgconfig(libsharp) \
+pkgconfig(zlib)"
 
 inherit rpm

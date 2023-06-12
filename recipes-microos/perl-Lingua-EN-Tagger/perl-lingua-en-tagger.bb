@@ -15,7 +15,13 @@ PV = "0.31"
 RPM_NAME = "perl-Lingua-EN-Tagger-0.31-1.15.aarch64.rpm"
 RPM_HASH = "ce45935af1d773536fa616e85dee16059fd2df6d214b6058bf269023c1d89eb7af50d79d998ee54df63e0d373fb8b171f936a502dc85e86e35fb9d186fc518d3"
 
-RPROVIDES:${PN} += "perl(Lingua::EN::Tagger) perl-Lingua-EN-Tagger perl-Lingua-EN-Tagger(aarch-64)"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(HTML::Parser) perl(HTML::Tagset) perl(Lingua::Stem) perl(Memoize::ExpireLRU)"
+RPROVIDES:${PN} += "perl(Lingua::EN::Tagger) \
+perl-Lingua-EN-Tagger \
+perl-Lingua-EN-Tagger(aarch-64)"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(HTML::Parser) \
+perl(HTML::Tagset) \
+perl(Lingua::Stem) \
+perl(Memoize::ExpireLRU)"
 
 inherit rpm

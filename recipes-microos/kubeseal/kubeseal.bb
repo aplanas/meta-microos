@@ -9,7 +9,8 @@ PV = "0.21.0"
 RPM_NAME = "kubeseal-0.21.0-1.1.aarch64.rpm"
 RPM_HASH = "eec685ce4201cee39078f1f312e7f0ab51d0c637f153402975a1ba1ef60aaed1df306e55ec8b63d1761bad307d1c35b9503f1162b892300fc043fa3b1f3c28f7"
 
-RPROVIDES:${PN} += "kubeseal kubeseal(aarch-64)"
+RPROVIDES:${PN} += "kubeseal \
+kubeseal(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

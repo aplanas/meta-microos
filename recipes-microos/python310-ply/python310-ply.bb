@@ -16,7 +16,10 @@ RPM_NAME = "python310-ply-3.11-5.1.noarch.rpm"
 RPM_HASH = "b8428a0a3d39e5fba3841d4b48a973ed4d225f2a787edae6ef2567b76dc7018e8d0e4edad1c6478e95d76e01082221a4a7981eb9b11ca4dd79a4595f2c419a2c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ply python3.10dist(ply) python310-ply python3dist(ply)"
+RPROVIDES:${PN} += "python3-ply \
+python3.10dist(ply) \
+python310-ply \
+python3dist(ply)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

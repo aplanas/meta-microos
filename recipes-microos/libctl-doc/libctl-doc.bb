@@ -11,7 +11,8 @@ PV = "4.5.1"
 RPM_NAME = "libctl-doc-4.5.1-1.7.aarch64.rpm"
 RPM_HASH = "60994a0f82ea53a58b956e3d019f33174403ff088e51d22a2ff9be3a5bcabe6bfc8df5b1f6a04c7f8a3f2daa0268a4c34143b676740d3db5d6f4d56635c57693"
 
-RPROVIDES:${PN} += "libctl-doc libctl-doc(aarch-64)"
+RPROVIDES:${PN} += "libctl-doc \
+libctl-doc(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

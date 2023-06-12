@@ -16,7 +16,19 @@ RPM_NAME = "texlive-sudoku-2023.201.1.0svn15878-57.1.noarch.rpm"
 RPM_HASH = "907f8915d34bd58359a62e165677a7e0af09f836bb0e9e3d042c5f5defa31b12ebf041d7d61ccd65285fed1ede3e055d0fac67c4485ed5edca27789bbb965748"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(sudoku.sty) texlive-sudoku"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(sudoku.sty) \
+texlive-sudoku"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -17,7 +17,27 @@ PV = "12.2.0"
 RPM_NAME = "glslang-devel-12.2.0-1.1.aarch64.rpm"
 RPM_HASH = "e43a5195dcd6865c81edce6cc32f432d4412ce36a735d65fb676bb0e66900be399bd11ab7c7c8f1194e0885c72bc12f427f4c5125743104222d4985ce69d0961"
 
-RPROVIDES:${PN} += "cmake(glslang) glslang-devel glslang-devel(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libSPIRV.so.12()(64bit) libSPVRemapper.so.12()(64bit) libc.so.6(GLIBC_2.34)(64bit) libglslang-default-resource-limits.so.12()(64bit) libglslang.so.12()(64bit) libglslang12 libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.22)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.32)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+RPROVIDES:${PN} += "cmake(glslang) \
+glslang-devel \
+glslang-devel(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libSPIRV.so.12()(64bit) \
+libSPVRemapper.so.12()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libglslang-default-resource-limits.so.12()(64bit) \
+libglslang.so.12()(64bit) \
+libglslang12 \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.22)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
 
 inherit rpm

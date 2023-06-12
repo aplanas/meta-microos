@@ -19,7 +19,23 @@ RPM_NAME = "texlive-tikz-feynhand-2023.201.1.1.0svn51915-52.1.noarch.rpm"
 RPM_HASH = "04fe3a761b4a731c4f7002b0cccf6e513afa34dd766c629e825f82b5d3e6fc1b5016e7c036a46e665724de533a394dd46697687639fed352f960de403f38dcc1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikz-feynhand.sty) tex(tikzfeynhand.keys.code.tex) tex(tikzlibraryfeynhand.code.tex) texlive-tikz-feynhand"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(pgfopts.sty) tex(tikz.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(tikz-feynhand.sty) \
+tex(tikzfeynhand.keys.code.tex) \
+tex(tikzlibraryfeynhand.code.tex) \
+texlive-tikz-feynhand"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(pgfopts.sty) \
+tex(tikz.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

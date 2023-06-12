@@ -12,7 +12,11 @@ PV = "5.106.0"
 RPM_NAME = "threadweaver-devel-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "02e3cca306402949ddb3df4c4e5bcd7e4b5e8928ad61b4d7dccfdf251baf5ba8a44818efc3e2b53bead59120479ace8a2b0300fbcd2777d877ab5a20b13c07ca"
 
-RPROVIDES:${PN} += "cmake(KF5ThreadWeaver) threadweaver-devel threadweaver-devel(aarch-64)"
-RDEPENDS:${PN} += "cmake(Qt5Core) extra-cmake-modules libKF5ThreadWeaver5"
+RPROVIDES:${PN} += "cmake(KF5ThreadWeaver) \
+threadweaver-devel \
+threadweaver-devel(aarch-64)"
+RDEPENDS:${PN} += "cmake(Qt5Core) \
+extra-cmake-modules \
+libKF5ThreadWeaver5"
 
 inherit rpm

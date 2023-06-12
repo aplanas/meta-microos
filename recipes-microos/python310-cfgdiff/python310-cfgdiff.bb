@@ -17,7 +17,17 @@ RPM_NAME = "python310-cfgdiff-0.0.0+git.1641843506.dc1234a-1.7.noarch.rpm"
 RPM_HASH = "853ef004e05140343005decead36787a79fff2b2f7abf8d8dc38c856c7bdfe371764ad8fe77e21035379b7be7be63d280731b99d7ee5dae05202df2c5817ee64"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "cfgdiff python3-cfgdiff python3.10dist(cfgdiff) python310-cfgdiff python3dist(cfgdiff)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-PyYAML python310-configobj python310-dnspython python310-lxml"
+RPROVIDES:${PN} += "cfgdiff \
+python3-cfgdiff \
+python3.10dist(cfgdiff) \
+python310-cfgdiff \
+python3dist(cfgdiff)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-PyYAML \
+python310-configobj \
+python310-dnspython \
+python310-lxml"
 
 inherit rpm

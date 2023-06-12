@@ -12,7 +12,10 @@ RPM_NAME = "jchardet-1.1-2.6.noarch.rpm"
 RPM_HASH = "608ca752d75f6b26cf7d560e9fd288a3ac2fd3cbb15e6276ad237dff7dd0598c679ef5d3b3918edc3bb06d997afa421aca8c31f9d91ae19f7558f6d03ca51d13"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jchardet mvn(net.sourceforge.jchardet:jchardet) mvn(net.sourceforge.jchardet:jchardet:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "jchardet \
+mvn(net.sourceforge.jchardet:jchardet) \
+mvn(net.sourceforge.jchardet:jchardet:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

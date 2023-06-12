@@ -11,6 +11,11 @@ RPM_HASH = "b8e6aa93ca2ed290a4bf8ed724b20bfd89277cf5afea688a1af9a8c34a60c3474520
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-pip-test"
-RDEPENDS:${PN} += "/bin/sh alts ca-certificates coreutils python311-setuptools python311-xml"
+RDEPENDS:${PN} += "/bin/sh \
+alts \
+ca-certificates \
+coreutils \
+python311-setuptools \
+python311-xml"
 
 inherit rpm

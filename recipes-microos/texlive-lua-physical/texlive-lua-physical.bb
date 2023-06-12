@@ -13,6 +13,18 @@ RPM_HASH = "9f7f2d96f61009ef7cbd81bc7856390f95fef5f7f87f7754392855e33099cfbf7ffb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-physical"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/luatex coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/luatex \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

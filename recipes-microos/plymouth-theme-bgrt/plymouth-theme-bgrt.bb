@@ -10,6 +10,8 @@ RPM_HASH = "52f1c9285a434d439b735aa054aa7bc564e19a264e030ba698d672b80410a5fb1967
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-bgrt"
-RDEPENDS:${PN} += "plymouth-plugin-two-step plymouth-scripts plymouth-theme-spinner"
+RDEPENDS:${PN} += "plymouth-plugin-two-step \
+plymouth-scripts \
+plymouth-theme-spinner"
 
 inherit rpm

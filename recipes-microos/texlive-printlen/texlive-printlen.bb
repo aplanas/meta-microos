@@ -15,7 +15,19 @@ RPM_NAME = "texlive-printlen-2023.201.1.1asvn19847-52.1.noarch.rpm"
 RPM_HASH = "6b2a4d3baf8d28ec50efc3eebf7318d5689658a6f25edf46f294d535d8811cc6117814d044453ebd465f3a62d505517c2badb7229a439cc8015ca82f362b9669"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(printlen.sty) texlive-printlen"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(printlen.sty) \
+texlive-printlen"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

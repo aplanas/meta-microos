@@ -10,6 +10,14 @@ RPM_HASH = "61e8d39b74b68e80cd2a5f4c198f58198337d72413ccb6a026212b98fbac99cc2b67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "prometheus-webhook-snmp"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 python(abi) python3-CherryPy python3-PyYAML python3-click python3-dateutil python3-prometheus_client python3-pysnmp"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+python(abi) \
+python3-CherryPy \
+python3-PyYAML \
+python3-click \
+python3-dateutil \
+python3-prometheus_client \
+python3-pysnmp"
 
 inherit rpm

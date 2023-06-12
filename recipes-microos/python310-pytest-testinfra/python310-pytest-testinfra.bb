@@ -13,7 +13,13 @@ RPM_NAME = "python310-pytest-testinfra-8.1.0-1.1.noarch.rpm"
 RPM_HASH = "93b0f58fd0317949a5dd01c026297a17350b675273880797b8a5bd0de8f5b69266b320f2a474d267b1836a1f8249f7d8745c4d6aecca55f81a0cb84883204a6d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-testinfra python3-testinfra python3.10dist(pytest-testinfra) python310-pytest-testinfra python310-testinfra python3dist(pytest-testinfra)"
-RDEPENDS:${PN} += "python(abi) python310-pytest"
+RPROVIDES:${PN} += "python3-pytest-testinfra \
+python3-testinfra \
+python3.10dist(pytest-testinfra) \
+python310-pytest-testinfra \
+python310-testinfra \
+python3dist(pytest-testinfra)"
+RDEPENDS:${PN} += "python(abi) \
+python310-pytest"
 
 inherit rpm

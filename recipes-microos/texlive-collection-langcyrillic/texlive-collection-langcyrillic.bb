@@ -10,6 +10,52 @@ RPM_HASH = "de4eb9872df6c96df52f6fc46bc2bd84fd4604259ce198cd11124b1a66738590cdb7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langcyrillic"
-RDEPENDS:${PN} += "texlive-babel-belarusian texlive-babel-bulgarian texlive-babel-russian texlive-babel-serbian texlive-babel-serbianc texlive-babel-ukrainian texlive-churchslavonic texlive-cmcyr texlive-collection-basic texlive-collection-latex texlive-cyrillic texlive-cyrillic-bin texlive-cyrplain texlive-disser texlive-eskd texlive-eskdx texlive-gost texlive-hyphen-belarusian texlive-hyphen-bulgarian texlive-hyphen-churchslavonic texlive-hyphen-mongolian texlive-hyphen-russian texlive-hyphen-serbian texlive-hyphen-ukrainian texlive-lcyw texlive-lh texlive-lhcyr texlive-lshort-bulgarian texlive-lshort-mongol texlive-lshort-russian texlive-lshort-ukr texlive-mongolian-babel texlive-montex texlive-mpman-ru texlive-numnameru texlive-pst-eucl-translation-bg texlive-ruhyphen texlive-russ texlive-serbian-apostrophe texlive-serbian-date-lat texlive-serbian-def-cyr texlive-serbian-lig texlive-t2 texlive-texlive-ru texlive-texlive-sr texlive-ukrhyph texlive-xecyrmongolian"
+RDEPENDS:${PN} += "texlive-babel-belarusian \
+texlive-babel-bulgarian \
+texlive-babel-russian \
+texlive-babel-serbian \
+texlive-babel-serbianc \
+texlive-babel-ukrainian \
+texlive-churchslavonic \
+texlive-cmcyr \
+texlive-collection-basic \
+texlive-collection-latex \
+texlive-cyrillic \
+texlive-cyrillic-bin \
+texlive-cyrplain \
+texlive-disser \
+texlive-eskd \
+texlive-eskdx \
+texlive-gost \
+texlive-hyphen-belarusian \
+texlive-hyphen-bulgarian \
+texlive-hyphen-churchslavonic \
+texlive-hyphen-mongolian \
+texlive-hyphen-russian \
+texlive-hyphen-serbian \
+texlive-hyphen-ukrainian \
+texlive-lcyw \
+texlive-lh \
+texlive-lhcyr \
+texlive-lshort-bulgarian \
+texlive-lshort-mongol \
+texlive-lshort-russian \
+texlive-lshort-ukr \
+texlive-mongolian-babel \
+texlive-montex \
+texlive-mpman-ru \
+texlive-numnameru \
+texlive-pst-eucl-translation-bg \
+texlive-ruhyphen \
+texlive-russ \
+texlive-serbian-apostrophe \
+texlive-serbian-date-lat \
+texlive-serbian-def-cyr \
+texlive-serbian-lig \
+texlive-t2 \
+texlive-texlive-ru \
+texlive-texlive-sr \
+texlive-ukrhyph \
+texlive-xecyrmongolian"
 
 inherit rpm

@@ -18,7 +18,10 @@ PV = "1.1"
 RPM_NAME = "libspnav-devel-1.1-1.2.aarch64.rpm"
 RPM_HASH = "9d877a8cfa9d5aff74a23d3fcb7b018efb76473f32ef223e5a1b37b9420ecfde42f991712c7fb54c07c6cbc328a7ef2bd34700348f3288148aac22d57b86d6f3"
 
-RPROVIDES:${PN} += "libspnav-devel libspnav-devel(aarch-64) pkgconfig(spnav)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libspnav0"
+RPROVIDES:${PN} += "libspnav-devel \
+libspnav-devel(aarch-64) \
+pkgconfig(spnav)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libspnav0"
 
 inherit rpm

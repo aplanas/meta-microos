@@ -22,7 +22,18 @@ RPM_NAME = "python311-pyroute2-0.7.3-1.4.noarch.rpm"
 RPM_HASH = "8f16f0a6d5a233b01757379cc010e7dbeeb30e938f619039ffc81cee77904348c8b349a4ac730b6177aeb12844d68b1974346a3304e2960329adcdb173a9af55"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyroute2) python311-pyroute2 python311-pyroute2.core python311-pyroute2.ethtool python311-pyroute2.ipdb python311-pyroute2.ipset python311-pyroute2.ndb python311-pyroute2.nftables python311-pyroute2.nslink python3dist(pyroute2)"
-RDEPENDS:${PN} += "/usr/bin/python3.11 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(pyroute2) \
+python311-pyroute2 \
+python311-pyroute2.core \
+python311-pyroute2.ethtool \
+python311-pyroute2.ipdb \
+python311-pyroute2.ipset \
+python311-pyroute2.ndb \
+python311-pyroute2.nftables \
+python311-pyroute2.nslink \
+python3dist(pyroute2)"
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

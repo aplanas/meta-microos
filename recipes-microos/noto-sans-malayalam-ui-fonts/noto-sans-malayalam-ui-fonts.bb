@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-malayalam-ui-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "f3a48e60baf6fbbb43f795bf111e8ab8340cbcd1504d6aa56a554eaf50a06ee6f77a4bc09fd7ea180306ed8779a8fad2c8b4c8b2f35a9d5f94d68953066a1cb4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-malayalam-ui noto-sans-malayalam-ui-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-malayalam-ui \
+noto-sans-malayalam-ui-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

@@ -13,6 +13,23 @@ RPM_HASH = "bba049cea2fcaceeab61365e02568d2289c762c67da85c76060ccd540d0397038d36
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langcjk"
-RDEPENDS:${PN} += "texlive-adobemapping texlive-c90 texlive-cjk texlive-cjk-gs-integrate texlive-cjkpunct texlive-cjkutils texlive-collection-basic texlive-dnp texlive-evangelion-jfm texlive-fixjfm texlive-garuda-c90 texlive-jfmutil texlive-norasi-c90 texlive-pxtatescale texlive-xcjk2uni texlive-xecjk texlive-zitie texlive-zxjafont"
+RDEPENDS:${PN} += "texlive-adobemapping \
+texlive-c90 \
+texlive-cjk \
+texlive-cjk-gs-integrate \
+texlive-cjkpunct \
+texlive-cjkutils \
+texlive-collection-basic \
+texlive-dnp \
+texlive-evangelion-jfm \
+texlive-fixjfm \
+texlive-garuda-c90 \
+texlive-jfmutil \
+texlive-norasi-c90 \
+texlive-pxtatescale \
+texlive-xcjk2uni \
+texlive-xecjk \
+texlive-zitie \
+texlive-zxjafont"
 
 inherit rpm

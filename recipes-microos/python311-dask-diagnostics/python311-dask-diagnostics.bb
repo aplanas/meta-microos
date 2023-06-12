@@ -20,6 +20,9 @@ RPM_HASH = "bdbc1a2f23e3dd8687ae7c451066a574a7ce129d47ac29d681e62033649c4363c8f2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-dask-diagnostics"
-RDEPENDS:${PN} += "(python311-bokeh >= 2.4.2 with python311-bokeh < 3) python(abi) python311-Jinja2 python311-dask"
+RDEPENDS:${PN} += "(python311-bokeh >= 2.4.2 with python311-bokeh < 3) \
+python(abi) \
+python311-Jinja2 \
+python311-dask"
 
 inherit rpm

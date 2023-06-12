@@ -12,6 +12,9 @@ RPM_HASH = "a856ec1a3cce464efd641c62702b59431dd2ea2b22cc926a1ee843f510f1efea669d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yelp-tools"
-RDEPENDS:${PN} += "/usr/bin/python3 itstool libxml2-tools libxslt"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+itstool \
+libxml2-tools \
+libxslt"
 
 inherit rpm

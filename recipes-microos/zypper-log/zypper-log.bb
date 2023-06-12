@@ -9,6 +9,8 @@ RPM_HASH = "2d490bbe1dc85d3003018d3c2b7054c87698af4ff0d32e9114da945acbe3a8738925
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zypper-log"
-RDEPENDS:${PN} += "/bin/bash /usr/bin/awk /usr/bin/grep"
+RDEPENDS:${PN} += "/bin/bash \
+/usr/bin/awk \
+/usr/bin/grep"
 
 inherit rpm

@@ -12,7 +12,9 @@ RPM_NAME = "websocketpp-devel-0.8.2-3.9.noarch.rpm"
 RPM_HASH = "d67477f3d1a283feca1cead8590deefebac739f0efe32ec9e6bfbb14ac852a12f4cf85c3a2fac5b9980c6cad9f8f48c2608b52d5f95e98102e78c7fcaf7d62a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "cmake(websocketpp) pkgconfig(websocketpp) websocketpp-devel"
+RPROVIDES:${PN} += "cmake(websocketpp) \
+pkgconfig(websocketpp) \
+websocketpp-devel"
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

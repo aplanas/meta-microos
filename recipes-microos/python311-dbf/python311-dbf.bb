@@ -13,7 +13,11 @@ RPM_NAME = "python311-dbf-0.99.3-1.3.noarch.rpm"
 RPM_HASH = "a8b4a77ac45058561d839efb4fd1372add99659c7d363a24c2ccf99cb5b4f955f77be4dba123b3a63e8795bf1e8285937479e95cd8d85735f81d8fc5a6411fa2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(dbf) python311-dbf python3dist(dbf)"
-RDEPENDS:${PN} += "python(abi) python311-aenum python311-pytz"
+RPROVIDES:${PN} += "python3.11dist(dbf) \
+python311-dbf \
+python3dist(dbf)"
+RDEPENDS:${PN} += "python(abi) \
+python311-aenum \
+python311-pytz"
 
 inherit rpm

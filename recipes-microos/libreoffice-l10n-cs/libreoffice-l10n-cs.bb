@@ -8,7 +8,12 @@ RPM_NAME = "libreoffice-l10n-cs-7.5.4.1-1.1.noarch.rpm"
 RPM_HASH = "2ebbc3101df27b1f57cb2e49ced0c6c70b4dee138d4e54e1c03df2d0106367d534aa1d9c48c10c4cdddb31dfd1b9113b1b41baee2f17faa115bb418eff2072ab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libreoffice-help-cs libreoffice-l10n-cs locale(libreoffice:cs)"
-RDEPENDS:${PN} += "/bin/sh libreoffice libreoffice-share-linker myspell-cs_CZ"
+RPROVIDES:${PN} += "libreoffice-help-cs \
+libreoffice-l10n-cs \
+locale(libreoffice:cs)"
+RDEPENDS:${PN} += "/bin/sh \
+libreoffice \
+libreoffice-share-linker \
+myspell-cs_CZ"
 
 inherit rpm

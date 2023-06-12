@@ -25,7 +25,12 @@ RPM_NAME = "pbuilder-0.231-1.4.noarch.rpm"
 RPM_HASH = "f258f3b4af74c1cd327af811f35aede380bcd48cf2fae5df02787c2a6b9c6d38492e38bc276278f56e1339e73a4ea59382ade6d58a7634d0565641d2bc821188"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(pbuilder) pbuilder"
-RDEPENDS:${PN} += "/bin/bash /bin/sh debootstrap dpkg wget"
+RPROVIDES:${PN} += "config(pbuilder) \
+pbuilder"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+debootstrap \
+dpkg \
+wget"
 
 inherit rpm

@@ -18,7 +18,20 @@ PV = "4.17.1_04"
 RPM_NAME = "xen-tools-domU-4.17.1_04-1.1.aarch64.rpm"
 RPM_HASH = "aa2dd9207a26defceb33fe161433e6fc2ae41405b0f278d526995ef02ccc0c181e5ba526f2dc290b82241e00fe5de1e8cf004524b8dfcadeaa0d5caba8cad768"
 
-RPROVIDES:${PN} += "config(xen-tools-domU) xen-tools-domU xen-tools-domU(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libxenctrl.so.4.17()(64bit) libxenctrl.so.4.17(VERS_4.17.0)(64bit) libxenguest.so.4.17()(64bit) libxenguest.so.4.17(VERS_4.17.0)(64bit) libxenstore.so.4()(64bit) libxenstore.so.4(VERS_4.0)(64bit) xen-libs"
+RPROVIDES:${PN} += "config(xen-tools-domU) \
+xen-tools-domU \
+xen-tools-domU(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libxenctrl.so.4.17()(64bit) \
+libxenctrl.so.4.17(VERS_4.17.0)(64bit) \
+libxenguest.so.4.17()(64bit) \
+libxenguest.so.4.17(VERS_4.17.0)(64bit) \
+libxenstore.so.4()(64bit) \
+libxenstore.so.4(VERS_4.0)(64bit) \
+xen-libs"
 
 inherit rpm

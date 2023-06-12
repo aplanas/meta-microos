@@ -12,7 +12,10 @@ PV = "6.3.5"
 RPM_NAME = "texlive-kpathsea-devel-6.3.5-91.1.aarch64.rpm"
 RPM_HASH = "960325b98a403dddc4f8947348e0c23bc8477968970be4e00158f1494ea8690548b07bdc4174ddccee7a038514bb8edb8fef6664b395979de94549fcbd3c75bf"
 
-RPROVIDES:${PN} += "pkgconfig(kpathsea) texlive-kpathsea-devel texlive-kpathsea-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libkpathsea6"
+RPROVIDES:${PN} += "pkgconfig(kpathsea) \
+texlive-kpathsea-devel \
+texlive-kpathsea-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libkpathsea6"
 
 inherit rpm

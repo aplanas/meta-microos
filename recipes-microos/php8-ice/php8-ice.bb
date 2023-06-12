@@ -9,7 +9,11 @@ PV = "1.10.1"
 RPM_NAME = "php8-ice-1.10.1-8.1.aarch64.rpm"
 RPM_HASH = "78441b9cbdd3869afe2bae1b7ece2cafdf3c83141d6612de4ce63e619cefac9d8b0082620b5005360d645f654a7a65a7d798f449353781493ec38c421e526537"
 
-RPROVIDES:${PN} += "config(php8-ice) php8-ice php8-ice(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "config(php8-ice) \
+php8-ice \
+php8-ice(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

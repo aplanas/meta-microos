@@ -11,7 +11,18 @@ RPM_NAME = "geronimo-ejb-3_0-api-1.2-36.11.noarch.rpm"
 RPM_HASH = "db5190a5dff60a061da1a5426e9ecb1a21bc0f37413138f02d7d5164fe252e39f5ebeed2c018db43ca8b9ce3c61985979678f6dae98c8d5f4c33e9e6332f013d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "ejb ejb_3_0_api ejb_api geronimo-ejb-3_0-api mvn(org.apache.geronimo.specs:geronimo-ejb_3.0_spec) mvn(org.apache.geronimo.specs:geronimo-ejb_3.0_spec:pom:)"
-RDEPENDS:${PN} += "/bin/sh annotation_1_0_api interceptor_3_0_api java-headless javapackages-filesystem jta_1_1_api update-alternatives"
+RPROVIDES:${PN} += "ejb \
+ejb_3_0_api \
+ejb_api \
+geronimo-ejb-3_0-api \
+mvn(org.apache.geronimo.specs:geronimo-ejb_3.0_spec) \
+mvn(org.apache.geronimo.specs:geronimo-ejb_3.0_spec:pom:)"
+RDEPENDS:${PN} += "/bin/sh \
+annotation_1_0_api \
+interceptor_3_0_api \
+java-headless \
+javapackages-filesystem \
+jta_1_1_api \
+update-alternatives"
 
 inherit rpm

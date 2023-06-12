@@ -13,7 +13,10 @@ RPM_NAME = "python39-ConfigUpdater-3.1.1-1.4.noarch.rpm"
 RPM_HASH = "cf10c6540870fa88d33400ed8518f0be5c798893a4dc4de5e1f450a50fd6a84f09501875fed1fafe68f58d2abf2456e38adac721760970f65debac411ef16a37"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(configupdater) python39-ConfigUpdater python39-configupdater python3dist(configupdater)"
+RPROVIDES:${PN} += "python3.9dist(configupdater) \
+python39-ConfigUpdater \
+python39-configupdater \
+python3dist(configupdater)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,7 +11,8 @@ PV = "1.5.2"
 RPM_NAME = "ocaml-csexp-1.5.2-1.1.aarch64.rpm"
 RPM_HASH = "1ff6bf5ac89c1181fef0825824b71fcd4598930d0f14c4ac451c989f166b108b27f1f37d415d13ca2140952b620c08805b66f4e7e4439c0e896403211a85daae"
 
-RPROVIDES:${PN} += "ocaml-csexp ocaml-csexp(aarch-64)"
+RPROVIDES:${PN} += "ocaml-csexp \
+ocaml-csexp(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

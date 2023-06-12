@@ -16,7 +16,16 @@ PV = "1.8.9"
 RPM_NAME = "openafs-devel-1.8.9-4.1.aarch64.rpm"
 RPM_HASH = "e3aece7f1f24c66e9d819d4f609ba85c3e7587433a96e4f55fdc6ffad26346672e5e05e740ebda3c1bcd84f3d9e37a7b90ae786b751bd877eacde36ca3c55b2c"
 
-RPROVIDES:${PN} += "openafs-devel openafs-devel(aarch-64) perl(AFS::ukernel) perl(AFS::ukernelc)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libafshcrypto.so.2()(64bit) libc.so.6(GLIBC_2.36)(64bit) librokenafs.so.2()(64bit) openafs"
+RPROVIDES:${PN} += "openafs-devel \
+openafs-devel(aarch-64) \
+perl(AFS::ukernel) \
+perl(AFS::ukernelc)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libafshcrypto.so.2()(64bit) \
+libc.so.6(GLIBC_2.36)(64bit) \
+librokenafs.so.2()(64bit) \
+openafs"
 
 inherit rpm

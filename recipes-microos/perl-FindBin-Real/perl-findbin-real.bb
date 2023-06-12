@@ -18,7 +18,8 @@ RPM_NAME = "perl-FindBin-Real-1.05-14.26.noarch.rpm"
 RPM_HASH = "cef72eed95a0ed4b193fa4d041ed65baa9e144fc88f0246def22a81f476072aa7f8f875d34088501ac6a822c9ff0d8b3c0126f65f47feb0d633aa42e141124d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(FindBin::Real) perl-FindBin-Real"
+RPROVIDES:${PN} += "perl(FindBin::Real) \
+perl-FindBin-Real"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

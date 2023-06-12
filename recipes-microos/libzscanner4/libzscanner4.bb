@@ -12,7 +12,14 @@ PV = "3.2.6"
 RPM_NAME = "libzscanner4-3.2.6-1.1.aarch64.rpm"
 RPM_HASH = "24867a9b10b6abfb7d5c228c424d0aa7ab82cb8eb962ad2d814d95667f7d56b850d3c186e7b4545cb976ac0d37492392dd60244d55744823a49c3865b566f364"
 
-RPROVIDES:${PN} += "libzscanner.so.4()(64bit) libzscanner4 libzscanner4(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "libzscanner.so.4()(64bit) \
+libzscanner4 \
+libzscanner4(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

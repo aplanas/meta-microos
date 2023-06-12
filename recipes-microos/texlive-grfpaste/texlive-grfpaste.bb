@@ -10,7 +10,20 @@ RPM_NAME = "texlive-grfpaste-2023.201.0.0.2svn17354-53.1.noarch.rpm"
 RPM_HASH = "fd09571857ed1a7ef785c903c34fb8ee0bd01bc6ef55cb5200e359b4e73217edd1b845cc2d7db9cdfaceef905eb7ef3f5b94158c1703328ae582e22a1db8c4d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(grfpaste.sty) texlive-grfpaste"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(graphicx.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(grfpaste.sty) \
+texlive-grfpaste"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(graphicx.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

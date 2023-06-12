@@ -34,7 +34,10 @@ RPM_NAME = "perl-SUPER-1.20190531-1.15.noarch.rpm"
 RPM_HASH = "ee71e8df52f84de52dc1dbd31cdaeb39a4f46cbc92afc0142040f324f33d357952d0b8980211c46416bef6e4336593d74d65d99dd3d9e6751a3cb423dc59a6c9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(SUPER) perl-SUPER"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Scalar::Util) perl(Sub::Identify)"
+RPROVIDES:${PN} += "perl(SUPER) \
+perl-SUPER"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Scalar::Util) \
+perl(Sub::Identify)"
 
 inherit rpm

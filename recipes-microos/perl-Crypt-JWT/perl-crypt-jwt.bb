@@ -17,7 +17,12 @@ RPM_NAME = "perl-Crypt-JWT-0.034-1.8.noarch.rpm"
 RPM_HASH = "dbd3721ca2d8c3d5ff86ef27ba33dec633054839134093aaf03b8f86a1a6784202f5bb4eb04868a82959d9e642565ee748744b350259a7e8169011336d0fbea3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Crypt::JWT) perl(Crypt::KeyWrap) perl-Crypt-JWT"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Compress::Raw::Zlib) perl(CryptX) perl(JSON)"
+RPROVIDES:${PN} += "perl(Crypt::JWT) \
+perl(Crypt::KeyWrap) \
+perl-Crypt-JWT"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Compress::Raw::Zlib) \
+perl(CryptX) \
+perl(JSON)"
 
 inherit rpm

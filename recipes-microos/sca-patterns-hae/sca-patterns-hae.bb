@@ -13,6 +13,9 @@ RPM_HASH = "67baa0f6171a27328bbafb4fed0265ee9883ff32081a7ec3c2a1c5bc595b945a2298
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sca-patterns-hae"
-RDEPENDS:${PN} += "/usr/bin/perl /usr/bin/python3 sca-patterns-base sca-server-report"
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/python3 \
+sca-patterns-base \
+sca-server-report"
 
 inherit rpm

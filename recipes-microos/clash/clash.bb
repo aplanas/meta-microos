@@ -7,7 +7,9 @@ PV = "1.12.0"
 RPM_NAME = "clash-1.12.0-1.4.aarch64.rpm"
 RPM_HASH = "6ea0825dde6ac17e0a6edba9e1f8d95bfa2b4b16bea9c129066312146740d3a3c8c7844115b2af7acebc34a89cc8bbac04f26901e4ceb2fb17ad76d5b09df690"
 
-RPROVIDES:${PN} += "clash clash(aarch-64) config(clash)"
+RPROVIDES:${PN} += "clash \
+clash(aarch-64) \
+config(clash)"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

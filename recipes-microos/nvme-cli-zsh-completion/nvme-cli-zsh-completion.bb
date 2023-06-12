@@ -9,6 +9,7 @@ RPM_HASH = "efb1efd22b7ebce60d2639dd0fe55aed24c75b9b56a13bc7fabe3e6b76e542c25da0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nvme-cli-zsh-completion"
-RDEPENDS:${PN} += "nvme-cli zsh"
+RDEPENDS:${PN} += "nvme-cli \
+zsh"
 
 inherit rpm

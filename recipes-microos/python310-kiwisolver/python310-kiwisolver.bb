@@ -14,7 +14,24 @@ PV = "1.4.4"
 RPM_NAME = "python310-kiwisolver-1.4.4-2.1.aarch64.rpm"
 RPM_HASH = "6d9a4da899b39dd97a05f9301821e890a978e9b9d34b98883331065773d2b0ec2173e094fe2510fd9e2808e30141f8adc19bb030dcc98758341654fd7529e551"
 
-RPROVIDES:${PN} += "python3-kiwisolver python3.10dist(kiwisolver) python310-kiwisolver python310-kiwisolver(aarch-64) python3dist(kiwisolver)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3-kiwisolver \
+python3.10dist(kiwisolver) \
+python310-kiwisolver \
+python310-kiwisolver(aarch-64) \
+python3dist(kiwisolver)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
+python(abi)"
 
 inherit rpm

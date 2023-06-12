@@ -16,7 +16,13 @@ RPM_NAME = "perl-Net-Daemon-0.49-1.12.noarch.rpm"
 RPM_HASH = "4dbb8163750185c22db1cca4fcb69f5b950d5d9dc984197d70291c54a0d72ee756713fec78f815d77e580e5546de978c50d53099c061e98e25986bfcd0ea86c1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Net::Daemon) perl(Net::Daemon::Log) perl(Net::Daemon::Test) perl(Net::Daemon::Test::Fork) perl(Net::Daemon::Test::Win32) perl-Net-Daemon"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Sys::Syslog)"
+RPROVIDES:${PN} += "perl(Net::Daemon) \
+perl(Net::Daemon::Log) \
+perl(Net::Daemon::Test) \
+perl(Net::Daemon::Test::Fork) \
+perl(Net::Daemon::Test::Win32) \
+perl-Net-Daemon"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Sys::Syslog)"
 
 inherit rpm

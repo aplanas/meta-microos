@@ -9,6 +9,24 @@ RPM_HASH = "1a05859c796436fee2a3db552d2ea321638e91e002aaa5d0c15c8c9cc12b4fd8428e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langpolish"
-RDEPENDS:${PN} += "texlive-babel-polish texlive-bredzenie texlive-cc-pl texlive-collection-basic texlive-collection-latex texlive-gustlib texlive-gustprog texlive-hyphen-polish texlive-lshort-polish texlive-mex texlive-mwcls texlive-pl texlive-polski texlive-przechlewski-book texlive-qpxqtx texlive-tap texlive-tex-virtual-academy-pl texlive-texlive-pl texlive-utf8mex"
+RDEPENDS:${PN} += "texlive-babel-polish \
+texlive-bredzenie \
+texlive-cc-pl \
+texlive-collection-basic \
+texlive-collection-latex \
+texlive-gustlib \
+texlive-gustprog \
+texlive-hyphen-polish \
+texlive-lshort-polish \
+texlive-mex \
+texlive-mwcls \
+texlive-pl \
+texlive-polski \
+texlive-przechlewski-book \
+texlive-qpxqtx \
+texlive-tap \
+texlive-tex-virtual-academy-pl \
+texlive-texlive-pl \
+texlive-utf8mex"
 
 inherit rpm

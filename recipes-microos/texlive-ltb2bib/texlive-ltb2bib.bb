@@ -15,7 +15,21 @@ RPM_NAME = "texlive-ltb2bib-2023.201.0.0.01svn43746-52.1.noarch.rpm"
 RPM_HASH = "20a4751930a8778264cbd59fdcd4288ac199f0405f6d886e3bf5c5156495e75dfdbc258996f6332ed6df2008ceaa4c4c7d7350b4be02fb75c19f5bbfbd77e8f7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ltb2bib.sty) texlive-ltb2bib"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsrefs.sty) tex(xpatch.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(ltb2bib.sty) \
+texlive-ltb2bib"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsrefs.sty) \
+tex(xpatch.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

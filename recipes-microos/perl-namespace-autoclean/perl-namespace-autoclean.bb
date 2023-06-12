@@ -34,7 +34,11 @@ RPM_NAME = "perl-namespace-autoclean-0.29-1.15.noarch.rpm"
 RPM_HASH = "320a56fd8ae3cdc84ef62cf0301abe45dcb8f0aef4971970ea031f74d529fc55a917d8e9d87fe18d2daa17765272025409ec740e34aa030f2ca807a0c2a2c81c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(namespace::autoclean) perl-namespace-autoclean"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(B::Hooks::EndOfScope) perl(Sub::Identify) perl(namespace::clean)"
+RPROVIDES:${PN} += "perl(namespace::autoclean) \
+perl-namespace-autoclean"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(B::Hooks::EndOfScope) \
+perl(Sub::Identify) \
+perl(namespace::clean)"
 
 inherit rpm

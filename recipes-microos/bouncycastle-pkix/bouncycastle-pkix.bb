@@ -11,7 +11,25 @@ RPM_NAME = "bouncycastle-pkix-1.73-1.1.noarch.rpm"
 RPM_HASH = "527e2db9dbf9597223038a4f45955ea9cd9088b17903a503433e444a89213719003e1332b4ce389dbf97812de7bf4b17bb592de3d1b49549fc271be80d465120"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "bouncycastle-pkix mvn(org.bouncycastle:bcpkix-jdk15) mvn(org.bouncycastle:bcpkix-jdk15:pom:) mvn(org.bouncycastle:bcpkix-jdk15on) mvn(org.bouncycastle:bcpkix-jdk15on:pom:) mvn(org.bouncycastle:bcpkix-jdk15to18) mvn(org.bouncycastle:bcpkix-jdk15to18:pom:) mvn(org.bouncycastle:bcpkix-jdk16) mvn(org.bouncycastle:bcpkix-jdk16:pom:) mvn(org.bouncycastle:bcpkix-jdk18) mvn(org.bouncycastle:bcpkix-jdk18:pom:) mvn(org.bouncycastle:bcpkix-jdk18on) mvn(org.bouncycastle:bcpkix-jdk18on:pom:) osgi(bcpkix)"
-RDEPENDS:${PN} += "bouncycastle bouncycastle-util java-headless javapackages-filesystem mvn(org.bouncycastle:bcprov-jdk18on) mvn(org.bouncycastle:bcutil-jdk18on)"
+RPROVIDES:${PN} += "bouncycastle-pkix \
+mvn(org.bouncycastle:bcpkix-jdk15) \
+mvn(org.bouncycastle:bcpkix-jdk15:pom:) \
+mvn(org.bouncycastle:bcpkix-jdk15on) \
+mvn(org.bouncycastle:bcpkix-jdk15on:pom:) \
+mvn(org.bouncycastle:bcpkix-jdk15to18) \
+mvn(org.bouncycastle:bcpkix-jdk15to18:pom:) \
+mvn(org.bouncycastle:bcpkix-jdk16) \
+mvn(org.bouncycastle:bcpkix-jdk16:pom:) \
+mvn(org.bouncycastle:bcpkix-jdk18) \
+mvn(org.bouncycastle:bcpkix-jdk18:pom:) \
+mvn(org.bouncycastle:bcpkix-jdk18on) \
+mvn(org.bouncycastle:bcpkix-jdk18on:pom:) \
+osgi(bcpkix)"
+RDEPENDS:${PN} += "bouncycastle \
+bouncycastle-util \
+java-headless \
+javapackages-filesystem \
+mvn(org.bouncycastle:bcprov-jdk18on) \
+mvn(org.bouncycastle:bcutil-jdk18on)"
 
 inherit rpm

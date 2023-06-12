@@ -15,7 +15,24 @@ PV = "15.3"
 RPM_NAME = "postgresql15-llvmjit-15.3-1.2.aarch64.rpm"
 RPM_HASH = "a9d76a7d19166b3d5aa4c4e9bc4795d2771053f428cd134c0e0f233b785bff6e01ceae2b2e324103d1a8bae20d181a0ceac47fd0065d8d0baad3ce3c2292519c"
 
-RPROVIDES:${PN} += "postgresql-llvmjit-implementation postgresql15-llvmjit postgresql15-llvmjit(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libLLVM.so.15()(64bit) libLLVM.so.15(LLVM_15)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) postgresql-llvmjit-noarch postgresql15-server"
+RPROVIDES:${PN} += "postgresql-llvmjit-implementation \
+postgresql15-llvmjit \
+postgresql15-llvmjit(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libLLVM.so.15()(64bit) \
+libLLVM.so.15(LLVM_15)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+postgresql-llvmjit-noarch \
+postgresql15-server"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "cda98d420ef4436544eafcd3449b24e9d941dd9f58978b11c1d7a7223d21d044442d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmlcharent"
-RDEPENDS:${PN} += "/bin/sh sgml-skel"
+RDEPENDS:${PN} += "/bin/sh \
+sgml-skel"
 
 inherit rpm

@@ -15,7 +15,17 @@ RPM_NAME = "perl-CLI-Osprey-0.08-1.9.noarch.rpm"
 RPM_HASH = "179b64a08c5f5e8abee95a13f84ccdaa3b277f2c99d6c58a19083c6627361e4c74ba9541b2b31a2c8d0808b6b13d80f47e22e88c7bab8686fa876e13bdc7213e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(CLI::Osprey) perl(CLI::Osprey::Descriptive) perl(CLI::Osprey::Descriptive::Usage) perl(CLI::Osprey::InlineSubcommand) perl(CLI::Osprey::Role) perl-CLI-Osprey"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Getopt::Long::Descriptive) perl(Module::Runtime) perl(Moo) perl(Moo::Role) perl(Path::Tiny)"
+RPROVIDES:${PN} += "perl(CLI::Osprey) \
+perl(CLI::Osprey::Descriptive) \
+perl(CLI::Osprey::Descriptive::Usage) \
+perl(CLI::Osprey::InlineSubcommand) \
+perl(CLI::Osprey::Role) \
+perl-CLI-Osprey"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Getopt::Long::Descriptive) \
+perl(Module::Runtime) \
+perl(Moo) \
+perl(Moo::Role) \
+perl(Path::Tiny)"
 
 inherit rpm

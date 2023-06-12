@@ -17,7 +17,12 @@ PV = "1.0.0rc+g1"
 RPM_NAME = "nginx-module-brotli-1.0.0rc+g1-1.7.aarch64.rpm"
 RPM_HASH = "221fdfb6964f9557665b0989c77bc22238a50e248dd49fb6f0b5dea78f9167b524361c9aa4374af5eacad4a821f3c76eadefcc0a95c6cd9a5ad7ff79a3e9a024"
 
-RPROVIDES:${PN} += "nginx-module-brotli nginx-module-brotli(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbrotlienc.so.1()(64bit) libc.so.6(GLIBC_2.17)(64bit) nginx"
+RPROVIDES:${PN} += "nginx-module-brotli \
+nginx-module-brotli(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbrotlienc.so.1()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+nginx"
 
 inherit rpm

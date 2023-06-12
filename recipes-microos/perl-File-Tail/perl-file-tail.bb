@@ -34,7 +34,8 @@ RPM_NAME = "perl-File-Tail-1.3-1.26.noarch.rpm"
 RPM_HASH = "067988ab9431067414541e49a80c596ffae190cc537e86caac7db9c82dc20b5dbd3884ed79c24bb31692162610602b67b1760a20e7ca6611da3b5edcc58b7407"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::Tail) perl-File-Tail"
+RPROVIDES:${PN} += "perl(File::Tail) \
+perl-File-Tail"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

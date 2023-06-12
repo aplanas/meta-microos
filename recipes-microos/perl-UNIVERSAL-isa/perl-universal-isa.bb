@@ -20,7 +20,8 @@ RPM_NAME = "perl-UNIVERSAL-isa-1.20171012-1.20.noarch.rpm"
 RPM_HASH = "37f800e1e4607c5d7d3f1d7134e55a694d79cffb0445af1347132553bf7a224e7a9605ec695588813fab8a60e319e3a2fc8d11f6ef4f1b0df1e771568dc70b96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(UNIVERSAL::isa) perl-UNIVERSAL-isa"
+RPROVIDES:${PN} += "perl(UNIVERSAL::isa) \
+perl-UNIVERSAL-isa"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

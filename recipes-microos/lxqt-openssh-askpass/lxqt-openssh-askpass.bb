@@ -7,7 +7,19 @@ PV = "1.3.0"
 RPM_NAME = "lxqt-openssh-askpass-1.3.0-1.1.aarch64.rpm"
 RPM_HASH = "5a6f261f401c7d2cc9b5e3d91fbea6f6c6e20e180fcd08ce433625087dd447ac69fdf46ea06b6a6037a80f107f6ef068d740d3e86b40cc3d9278e55a4a1b4bba"
 
-RPROVIDES:${PN} += "lxqt-openssh-askpass lxqt-openssh-askpass(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5Widgets.so.5()(64bit) libQt5Widgets.so.5(Qt_5)(64bit) libc.so.6(GLIBC_2.34)(64bit) liblxqt.so.1()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+RPROVIDES:${PN} += "lxqt-openssh-askpass \
+lxqt-openssh-askpass(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libQt5Core.so.5()(64bit) \
+libQt5Core.so.5(Qt_5)(64bit) \
+libQt5Widgets.so.5()(64bit) \
+libQt5Widgets.so.5(Qt_5)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+liblxqt.so.1()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit)"
 
 inherit rpm

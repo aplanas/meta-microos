@@ -12,7 +12,23 @@ RPM_NAME = "python39-jupyter-client-8.2.0-1.1.noarch.rpm"
 RPM_HASH = "72260e89d8c07b11ba0ab8fcb31b1a8ed454db1db26dca8bd106685c44e28b547f2bf2d088ca0bbd778ce098e0680eb105d663e9eca33a4766a3adec89e91fd1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-jupyter-client jupyter-jupyter-client-doc jupyter-jupyter_client python3.9dist(jupyter-client) python39-jupyter-client python39-jupyter_client python3dist(jupyter-client)"
-RDEPENDS:${PN} += "(python39-importlib-metadata >= 4.8.3 if python39-base < 3.10) (python39-jupyter-core >= 5.1 or (python39-jupyter-core >= 4.12 with python39-jupyter-core < 5.0)) /bin/sh /usr/bin/python3.9 python(abi) python39-entrypoints python39-python-dateutil python39-pyzmq python39-tornado python39-traitlets update-alternatives"
+RPROVIDES:${PN} += "jupyter-jupyter-client \
+jupyter-jupyter-client-doc \
+jupyter-jupyter_client \
+python3.9dist(jupyter-client) \
+python39-jupyter-client \
+python39-jupyter_client \
+python3dist(jupyter-client)"
+RDEPENDS:${PN} += "(python39-importlib-metadata >= 4.8.3 if python39-base < 3.10) \
+(python39-jupyter-core >= 5.1 or (python39-jupyter-core >= 4.12 with python39-jupyter-core < 5.0)) \
+/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-entrypoints \
+python39-python-dateutil \
+python39-pyzmq \
+python39-tornado \
+python39-traitlets \
+update-alternatives"
 
 inherit rpm

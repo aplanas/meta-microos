@@ -9,6 +9,8 @@ RPM_HASH = "0740ca009e44db230a365f90f1e622a569d26a2fe1712d9551e564fa1336ed25de6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-md2workflow-plugins-jira"
-RDEPENDS:${PN} += "python(abi) python39-jira python39-md2workflow"
+RDEPENDS:${PN} += "python(abi) \
+python39-jira \
+python39-md2workflow"
 
 inherit rpm

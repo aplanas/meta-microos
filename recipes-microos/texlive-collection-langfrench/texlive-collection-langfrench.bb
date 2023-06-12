@@ -9,6 +9,49 @@ RPM_HASH = "deec124f59de5014044782e368383402a5fc13d0dec8a17f22366aaa134a3ffa320b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langfrench"
-RDEPENDS:${PN} += "texlive-aeguill texlive-annee-scolaire texlive-apprendre-a-programmer-en-tex texlive-apprends-latex texlive-babel-basque texlive-babel-french texlive-basque-book texlive-basque-date texlive-bib-fr texlive-bibleref-french texlive-booktabs-fr texlive-collection-basic texlive-droit-fr texlive-e-french texlive-epslatex-fr texlive-expose-expl3-dunkerque-2019 texlive-facture texlive-formation-latex-ul texlive-frenchmath texlive-frletter texlive-frpseudocode texlive-hyphen-basque texlive-hyphen-french texlive-impatient-fr texlive-impnattypo texlive-l2tabu-french texlive-latex2e-help-texinfo-fr texlive-letgut texlive-lshort-french texlive-mafr texlive-matapli texlive-profcollege texlive-proflabo texlive-proflycee texlive-tabvar texlive-tdsfrmath texlive-texlive-fr texlive-translation-array-fr texlive-translation-dcolumn-fr texlive-translation-natbib-fr texlive-translation-tabbing-fr texlive-variations texlive-visualfaq-fr texlive-visualtikz"
+RDEPENDS:${PN} += "texlive-aeguill \
+texlive-annee-scolaire \
+texlive-apprendre-a-programmer-en-tex \
+texlive-apprends-latex \
+texlive-babel-basque \
+texlive-babel-french \
+texlive-basque-book \
+texlive-basque-date \
+texlive-bib-fr \
+texlive-bibleref-french \
+texlive-booktabs-fr \
+texlive-collection-basic \
+texlive-droit-fr \
+texlive-e-french \
+texlive-epslatex-fr \
+texlive-expose-expl3-dunkerque-2019 \
+texlive-facture \
+texlive-formation-latex-ul \
+texlive-frenchmath \
+texlive-frletter \
+texlive-frpseudocode \
+texlive-hyphen-basque \
+texlive-hyphen-french \
+texlive-impatient-fr \
+texlive-impnattypo \
+texlive-l2tabu-french \
+texlive-latex2e-help-texinfo-fr \
+texlive-letgut \
+texlive-lshort-french \
+texlive-mafr \
+texlive-matapli \
+texlive-profcollege \
+texlive-proflabo \
+texlive-proflycee \
+texlive-tabvar \
+texlive-tdsfrmath \
+texlive-texlive-fr \
+texlive-translation-array-fr \
+texlive-translation-dcolumn-fr \
+texlive-translation-natbib-fr \
+texlive-translation-tabbing-fr \
+texlive-variations \
+texlive-visualfaq-fr \
+texlive-visualtikz"
 
 inherit rpm

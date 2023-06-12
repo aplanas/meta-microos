@@ -12,7 +12,11 @@ RPM_NAME = "lua54-fluent-0.2.0-2.1.noarch.rpm"
 RPM_HASH = "ef445f887a24b8377b4a1a06c0d1704ad84cc8c129ee0b2cc5b84a0f8eeb289eb48dffe690cf3b1ac46e725da5aaf635374cd67f2529b709133cb86b421b25f7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "lua-fluent lua54-fluent"
-RDEPENDS:${PN} += "lua54 lua54-cldr lua54-luaepnf lua54-penlight"
+RPROVIDES:${PN} += "lua-fluent \
+lua54-fluent"
+RDEPENDS:${PN} += "lua54 \
+lua54-cldr \
+lua54-luaepnf \
+lua54-penlight"
 
 inherit rpm

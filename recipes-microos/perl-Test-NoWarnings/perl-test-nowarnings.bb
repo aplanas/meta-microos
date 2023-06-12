@@ -20,7 +20,10 @@ RPM_NAME = "perl-Test-NoWarnings-1.06-1.9.noarch.rpm"
 RPM_HASH = "f3f3e65ca89756b30c53dd2ac1366127bb2d62ca2b591ee5fb408232848236a1ceb64dd951caf4969be922300d8a8f985b710034f731fb4b8161c41d86af7a7a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::NoWarnings) perl(Test::NoWarnings::Warning) perl-Test-NoWarnings"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Test::Builder)"
+RPROVIDES:${PN} += "perl(Test::NoWarnings) \
+perl(Test::NoWarnings::Warning) \
+perl-Test-NoWarnings"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Test::Builder)"
 
 inherit rpm

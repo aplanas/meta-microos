@@ -14,6 +14,9 @@ RPM_HASH = "0e65f30148d68c3f7ed0636f832f4e10912622a013d482cfdcf2f96c5a9321bf7061
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "drbd-formula"
-RDEPENDS:${PN} += "/bin/bash drbd-utils salt-formulas-configuration salt-shaptools"
+RDEPENDS:${PN} += "/bin/bash \
+drbd-utils \
+salt-formulas-configuration \
+salt-shaptools"
 
 inherit rpm

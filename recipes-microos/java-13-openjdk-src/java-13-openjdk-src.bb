@@ -7,7 +7,8 @@ PV = "13.0.14.0"
 RPM_NAME = "java-13-openjdk-src-13.0.14.0-2.3.aarch64.rpm"
 RPM_HASH = "ed498d3379ce4ea81976bb7bf26bbc741ebdf17e59bf44b4496e6ee5dfc44b33d1236e703d291062c04fface640d69beae587b1ee55c4335f8650651363352b5"
 
-RPROVIDES:${PN} += "java-13-openjdk-src java-13-openjdk-src(aarch-64)"
+RPROVIDES:${PN} += "java-13-openjdk-src \
+java-13-openjdk-src(aarch-64)"
 RDEPENDS:${PN} += "java-13-openjdk"
 
 inherit rpm

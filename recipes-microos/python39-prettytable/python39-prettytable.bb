@@ -12,7 +12,11 @@ RPM_NAME = "python39-prettytable-3.7.0-1.1.noarch.rpm"
 RPM_HASH = "c87c5bddb031ba6657d719a3815c4531c4aa6c8e816ce6a203631bbb65854436890fd96ebd23fcdbc390c77841ce1036301d31531fa3e434a202ee94905b59c3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(prettytable) python39-PrettyTable python39-prettytable python3dist(prettytable)"
-RDEPENDS:${PN} += "python(abi) python39-wcwidth"
+RPROVIDES:${PN} += "python3.9dist(prettytable) \
+python39-PrettyTable \
+python39-prettytable \
+python3dist(prettytable)"
+RDEPENDS:${PN} += "python(abi) \
+python39-wcwidth"
 
 inherit rpm

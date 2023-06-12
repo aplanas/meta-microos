@@ -9,7 +9,11 @@ PV = "0.97"
 RPM_NAME = "iouyap-0.97-2.11.aarch64.rpm"
 RPM_HASH = "9887c7f8424f6c7eead1bb3dc4434e2aaaa4177d725c295f8936672e19027c7907813525df7f33c1697c935ecae1b8383f22328a37ce3dbb41d9a8a7ff046aca"
 
-RPROVIDES:${PN} += "iouyap iouyap(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh libc.so.6(GLIBC_2.34)(64bit) permissions shadow"
+RPROVIDES:${PN} += "iouyap \
+iouyap(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+libc.so.6(GLIBC_2.34)(64bit) \
+permissions \
+shadow"
 
 inherit rpm

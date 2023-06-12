@@ -18,7 +18,8 @@ PV = "5.9.3"
 RPM_NAME = "snmp-mibs-5.9.3-4.6.aarch64.rpm"
 RPM_HASH = "3ce4cfd9d6c80167b2516c9b0126f5d36556017bfe14dbab912fdfdac1d5a4d2c802a6084c80f99de88234b40abb117ffb5426db06c0b2814f97acf68f6b4d63"
 
-RPROVIDES:${PN} += "snmp-mibs snmp-mibs(aarch-64)"
+RPROVIDES:${PN} += "snmp-mibs \
+snmp-mibs(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

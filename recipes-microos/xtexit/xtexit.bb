@@ -18,7 +18,13 @@ PV = "0.42"
 RPM_NAME = "xtexit-0.42-1250.20.aarch64.rpm"
 RPM_HASH = "0bf635d3b80f8095477496e872471c0865a8dcb1cbb8d4720ac527b0a79c1a6c072e88db107360843b946337fabadeca611a8175a3346e429b89afe4080db616"
 
-RPROVIDES:${PN} += "config(xtexit) xtexit xtexit(aarch-64)"
-RDEPENDS:${PN} += "libX11.so.6()(64bit) libXaw.so.7()(64bit) libXt.so.6()(64bit) libc.so.6(GLIBC_2.34)(64bit) xaw3d"
+RPROVIDES:${PN} += "config(xtexit) \
+xtexit \
+xtexit(aarch-64)"
+RDEPENDS:${PN} += "libX11.so.6()(64bit) \
+libXaw.so.7()(64bit) \
+libXt.so.6()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+xaw3d"
 
 inherit rpm

@@ -11,7 +11,11 @@ RPM_NAME = "perl-IRI-0.011-1.13.noarch.rpm"
 RPM_HASH = "1698cb370280072394976c41604612f1bbf0a3fe845998f86e30685b08065b37f5a731339f10adab5843502ed0b4853be7a6acbeeb7977d8f47d3f57f687dc70"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IRI) perl-IRI"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Moo) perl(MooX::HandlesVia) perl(Type::Tiny)"
+RPROVIDES:${PN} += "perl(IRI) \
+perl-IRI"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Moo) \
+perl(MooX::HandlesVia) \
+perl(Type::Tiny)"
 
 inherit rpm

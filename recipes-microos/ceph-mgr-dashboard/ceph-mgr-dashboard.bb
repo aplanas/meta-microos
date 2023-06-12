@@ -12,6 +12,14 @@ RPM_HASH = "0b103828bad8ddd4255e2ace45a8e4a8aca72ee07181bd1e3dc3a64e03724bc3579f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-dashboard"
-RDEPENDS:${PN} += "/bin/sh ceph-grafana-dashboards ceph-mgr ceph-prometheus-alerts python3-CherryPy python3-PyJWT python3-Routes python3-Werkzeug python3-setuptools"
+RDEPENDS:${PN} += "/bin/sh \
+ceph-grafana-dashboards \
+ceph-mgr \
+ceph-prometheus-alerts \
+python3-CherryPy \
+python3-PyJWT \
+python3-Routes \
+python3-Werkzeug \
+python3-setuptools"
 
 inherit rpm

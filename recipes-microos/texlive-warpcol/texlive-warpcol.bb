@@ -15,7 +15,20 @@ RPM_NAME = "texlive-warpcol-2023.201.1.0csvn15878-53.1.noarch.rpm"
 RPM_HASH = "40c3b6fdcbbea78b97f91e0ecfd297078176979e1d43aa89dd97ee7d1685e5e5cab3201428e73b117186732e61aad12dfb33135707e7dbbdbff1a9596263c905"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(warpcol.sty) texlive-warpcol"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(array.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(warpcol.sty) \
+texlive-warpcol"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(array.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

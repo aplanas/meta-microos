@@ -10,7 +10,8 @@ RPM_NAME = "netcdf-fortran-gnu-hpc-devel-4.5.3-4.5.noarch.rpm"
 RPM_HASH = "8acf211b4f5989a1726afd8e776bb9fe5232761432575cbdc507bc788779c9f8af6fb1f304636d9124a1b659992cb1c8beddcfedd64e03999a214379a304bb99"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "netcdf-fortran-gnu-hpc netcdf-fortran-gnu-hpc-devel"
+RPROVIDES:${PN} += "netcdf-fortran-gnu-hpc \
+netcdf-fortran-gnu-hpc-devel"
 RDEPENDS:${PN} += "netcdf-fortran_4_5_3-gnu-hpc-devel"
 
 inherit rpm

@@ -13,7 +13,9 @@ PV = "1.13"
 RPM_NAME = "lzlib-devel-1.13-1.7.aarch64.rpm"
 RPM_HASH = "99989c49f70aa52c82607b855ab32d54f79e7ac8acbf804304bed30b45fbd9ef17e0b8a5b88bb65320886187c9d09f1a918ff3de7d812e2dd1ff10d11efc308d"
 
-RPROVIDES:${PN} += "lzlib-devel lzlib-devel(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh liblz1"
+RPROVIDES:${PN} += "lzlib-devel \
+lzlib-devel(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+liblz1"
 
 inherit rpm

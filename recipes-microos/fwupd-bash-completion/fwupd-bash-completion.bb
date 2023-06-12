@@ -9,6 +9,7 @@ RPM_HASH = "89406fa3aea7bedf53f5698f2c655b5ce31ef33d1805bc2b747c054b2ee8bbc96a4d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fwupd-bash-completion"
-RDEPENDS:${PN} += "bash-completion fwupd"
+RDEPENDS:${PN} += "bash-completion \
+fwupd"
 
 inherit rpm

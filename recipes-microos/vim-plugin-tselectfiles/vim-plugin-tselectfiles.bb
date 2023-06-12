@@ -11,6 +11,8 @@ RPM_HASH = "f71008b13d19a4573c1f1207e2860095f4dd5ccdace03f9de07327dd5e542748f0b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-tselectfiles"
-RDEPENDS:${PN} += "/bin/sh vim vim-plugin-tlib"
+RDEPENDS:${PN} += "/bin/sh \
+vim \
+vim-plugin-tlib"
 
 inherit rpm

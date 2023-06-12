@@ -14,7 +14,15 @@ PV = "1.34"
 RPM_NAME = "perl-YAML-Syck-1.34-1.16.aarch64.rpm"
 RPM_HASH = "f3492f175184b3561692cc0fa2397468eff7259fab090ce13b286a05be5c41386e29ad77a695a39c99e828873ebaf9b85f9434f71ab7153c8134cdeb612765fc"
 
-RPROVIDES:${PN} += "perl(JSON::Syck) perl(YAML::Dumper::Syck) perl(YAML::Loader::Syck) perl(YAML::Syck) perl-YAML-Syck perl-YAML-Syck(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(JSON::Syck) \
+perl(YAML::Dumper::Syck) \
+perl(YAML::Loader::Syck) \
+perl(YAML::Syck) \
+perl-YAML-Syck \
+perl-YAML-Syck(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -15,7 +15,9 @@ RPM_NAME = "sleuth-1.4.4-61.8.noarch.rpm"
 RPM_HASH = "6d96c9ad94adfbdc24bc14ab2cb46d1f46e1a4af9b25a1e8adb073f6a00dcb78fcd192c84d624fd65be5034c3efdff9b4a5ae1233682a174da706b4c133f857a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(sleuth) sleuth"
-RDEPENDS:${PN} += "/usr/bin/perl perl-Net-DNS"
+RPROVIDES:${PN} += "config(sleuth) \
+sleuth"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl-Net-DNS"
 
 inherit rpm

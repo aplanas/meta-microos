@@ -17,7 +17,21 @@ RPM_NAME = "texlive-xmpincl-2023.201.2.4svn60593-52.1.noarch.rpm"
 RPM_HASH = "0b7aca11cf31241faa05f781e1b89a0be104e407fefd88b08b470f63af38ea2c7a3eceb67f5eb98516bdb701a5947bc9cda8dbbc49d44556cf18398479c656c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xmpincl.sty) texlive-xmpincl"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifpdf.sty) tex(ifthen.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(xmpincl.sty) \
+texlive-xmpincl"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifpdf.sty) \
+tex(ifthen.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

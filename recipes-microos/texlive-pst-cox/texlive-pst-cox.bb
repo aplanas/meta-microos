@@ -22,7 +22,23 @@ RPM_NAME = "texlive-pst-cox-2023.201.0.0.98_betasvn15878-52.1.noarch.rpm"
 RPM_HASH = "97edebdf61f432a86eda14d3cb4bdb185f18dc17a1b7466dc64e47e29e4852e34063c51d7513dad72b0d72457ec7044cecc2121833528244b3380bec05ce112a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-coxcoor.sty) tex(pst-coxcoor.tex) tex(pst-coxeterp.sty) tex(pst-coxeterp.tex) texlive-pst-cox"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(pstricks.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(pst-coxcoor.sty) \
+tex(pst-coxcoor.tex) \
+tex(pst-coxeterp.sty) \
+tex(pst-coxeterp.tex) \
+texlive-pst-cox"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(pstricks.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

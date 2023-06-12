@@ -14,6 +14,10 @@ RPM_HASH = "84ff618d4d2438ea22a780db046b4d8a3519d6cc0a283b8a7913fd9cb13367d9f47c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "impressive"
-RDEPENDS:${PN} += "/usr/bin/python3 ghostscript python3-imaging python3-opengl python3-pygame"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+ghostscript \
+python3-imaging \
+python3-opengl \
+python3-pygame"
 
 inherit rpm

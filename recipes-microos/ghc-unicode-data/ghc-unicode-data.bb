@@ -13,7 +13,14 @@ PV = "0.4.0.1"
 RPM_NAME = "ghc-unicode-data-0.4.0.1-3.3.aarch64.rpm"
 RPM_HASH = "03beab559699eae189953f558de29d4d4c68927192a27658488d035dcd5352004821173ee5eeac3dbe12d457412650c2e616742710a1c9fd93986376daf2da60"
 
-RPROVIDES:${PN} += "ghc-unicode-data ghc-unicode-data(aarch-64) libHSunicode-data-0.4.0.1-IPznodd4J0BGoSZPR6u4lO-ghc9.4.5.so()(64bit)"
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) libc.so.6(GLIBC_2.17)(64bit) libgmp.so.10()(64bit) libm.so.6()(64bit)"
+RPROVIDES:${PN} += "ghc-unicode-data \
+ghc-unicode-data(aarch-64) \
+libHSunicode-data-0.4.0.1-IPznodd4J0BGoSZPR6u4lO-ghc9.4.5.so()(64bit)"
+RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
+libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
+libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgmp.so.10()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

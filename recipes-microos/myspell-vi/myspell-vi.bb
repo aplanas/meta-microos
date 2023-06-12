@@ -8,7 +8,11 @@ RPM_NAME = "myspell-vi-20221012-1.2.noarch.rpm"
 RPM_HASH = "a963366ffc1e8a4ea75f78c609223141ac7c8f241f42abeaea4995bf96c74b8708e458730b0e0198b1ea1cfa52e47abdcc9cd5da175b3b8d0abbe724588def01"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:vi) locale(seamonkey-spellchecker:vi) myspell-dictionary myspell-vi myspell-vietnamese"
+RPROVIDES:${PN} += "locale(libreoffice:vi) \
+locale(seamonkey-spellchecker:vi) \
+myspell-dictionary \
+myspell-vi \
+myspell-vietnamese"
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

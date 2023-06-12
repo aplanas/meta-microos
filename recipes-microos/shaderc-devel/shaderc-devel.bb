@@ -9,7 +9,10 @@ PV = "2023.4"
 RPM_NAME = "shaderc-devel-2023.4-1.1.aarch64.rpm"
 RPM_HASH = "18e60ca496c2849122359a23f58df7595f33db6341794432d0c704e0e61549797ff93b551ef8e3b888271a60887160a0e78e2480fb13ca80f38ef83eaa5601ec"
 
-RPROVIDES:${PN} += "pkgconfig(shaderc) shaderc-devel shaderc-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libshaderc_shared1"
+RPROVIDES:${PN} += "pkgconfig(shaderc) \
+shaderc-devel \
+shaderc-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libshaderc_shared1"
 
 inherit rpm

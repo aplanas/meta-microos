@@ -30,7 +30,20 @@ RPM_NAME = "python311-sortinghat-0.7.23-1.5.noarch.rpm"
 RPM_HASH = "3cbd85d02b50957415b062932fc30395d06671e5ef839d88f4d2054c4568bfa9473ccfdc0485a4a0e46e238075689693f7de4713699d871d2dc8b831fcfc72bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(sortinghat) python311-sortinghat python3dist(sortinghat)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-Jinja2 python311-PyMySQL python311-PyYAML python311-SQLAlchemy python311-pandas python311-python-dateutil python311-requests python311-urllib3 update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(sortinghat) \
+python311-sortinghat \
+python3dist(sortinghat)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-Jinja2 \
+python311-PyMySQL \
+python311-PyYAML \
+python311-SQLAlchemy \
+python311-pandas \
+python311-python-dateutil \
+python311-requests \
+python311-urllib3 \
+update-alternatives"
 
 inherit rpm

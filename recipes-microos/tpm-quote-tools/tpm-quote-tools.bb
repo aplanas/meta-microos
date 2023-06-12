@@ -11,7 +11,13 @@ PV = "1.0.4"
 RPM_NAME = "tpm-quote-tools-1.0.4-1.22.aarch64.rpm"
 RPM_HASH = "b804fa9191df787001173ea6d4ff3edf23911593fea8a1cd9e1e3fdad8abe819c73e032dba59dd1c37474fdd147899278f6ca77c2f781a8a56541f48eafb23e2"
 
-RPROVIDES:${PN} += "tpm-quote-tools tpm-quote-tools(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libtspi.so.1()(64bit)"
+RPROVIDES:${PN} += "tpm-quote-tools \
+tpm-quote-tools(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libtspi.so.1()(64bit)"
 
 inherit rpm

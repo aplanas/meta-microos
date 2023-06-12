@@ -7,7 +7,15 @@ PV = "0.7.1"
 RPM_NAME = "python311-pyheif-0.7.1-2.1.aarch64.rpm"
 RPM_HASH = "ea13106db58af628b40eafaf9b3e376d1773fb1e0e8d38021ecca3823128c4afa79ef8e06e13238867e4f77c1d0f8d11d35dadbf5d68c5590b359f11e43d4810"
 
-RPROVIDES:${PN} += "python3.11dist(pyheif) python311-pyheif python311-pyheif(aarch-64) python3dist(pyheif)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libheif.so.1()(64bit) python(abi) python311-cffi"
+RPROVIDES:${PN} += "python3.11dist(pyheif) \
+python311-pyheif \
+python311-pyheif(aarch-64) \
+python3dist(pyheif)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libheif.so.1()(64bit) \
+python(abi) \
+python311-cffi"
 
 inherit rpm

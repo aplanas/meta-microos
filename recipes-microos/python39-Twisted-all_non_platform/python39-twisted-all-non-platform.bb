@@ -12,6 +12,11 @@ RPM_HASH = "fa87ea1218c8b3c57c8b1ba916afb04340860ff146f356bed81783b849876cc3139c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-Twisted-all_non_platform"
-RDEPENDS:${PN} += "python39-PyHamcrest python39-Twisted-conch python39-Twisted-contextvars python39-Twisted-http2 python39-Twisted-serial python39-Twisted-tls"
+RDEPENDS:${PN} += "python39-PyHamcrest \
+python39-Twisted-conch \
+python39-Twisted-contextvars \
+python39-Twisted-http2 \
+python39-Twisted-serial \
+python39-Twisted-tls"
 
 inherit rpm

@@ -18,7 +18,17 @@ RPM_NAME = "python310-alembic-1.10.4-1.1.noarch.rpm"
 RPM_HASH = "b9104b87576e1c228122d4fd9dff6c791e341d097f820ef876b018f2a2317f058f10cda44a684448c382114c7710e41bbcdf5994dc946d8f00a309d6ad07188f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-alembic python3.10dist(alembic) python310-alembic python3dist(alembic)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-Mako python310-SQLAlchemy python310-python-dateutil python310-typing-extensions update-alternatives"
+RPROVIDES:${PN} += "python3-alembic \
+python3.10dist(alembic) \
+python310-alembic \
+python3dist(alembic)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-Mako \
+python310-SQLAlchemy \
+python310-python-dateutil \
+python310-typing-extensions \
+update-alternatives"
 
 inherit rpm

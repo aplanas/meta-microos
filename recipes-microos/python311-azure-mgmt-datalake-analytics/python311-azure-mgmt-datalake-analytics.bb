@@ -13,7 +13,14 @@ RPM_NAME = "python311-azure-mgmt-datalake-analytics-0.6.0-4.11.noarch.rpm"
 RPM_HASH = "ab4e5e9ee89b3431fc9b7ac38e12e4dadad87986824c7b2348939ab14835d9e498ffc7318fa8aa67c3d2613403d6a48e262c901e04a61687669854b53e880d10"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-datalake-analytics) python311-azure-mgmt-datalake-analytics python3dist(azure-mgmt-datalake-analytics)"
-RDEPENDS:${PN} += "python(abi) python311-azure-common python311-azure-mgmt-datalake-nspkg python311-azure-mgmt-nspkg python311-azure-nspkg python311-msrestazure"
+RPROVIDES:${PN} += "python3.11dist(azure-mgmt-datalake-analytics) \
+python311-azure-mgmt-datalake-analytics \
+python3dist(azure-mgmt-datalake-analytics)"
+RDEPENDS:${PN} += "python(abi) \
+python311-azure-common \
+python311-azure-mgmt-datalake-nspkg \
+python311-azure-mgmt-nspkg \
+python311-azure-nspkg \
+python311-msrestazure"
 
 inherit rpm

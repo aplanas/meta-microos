@@ -27,7 +27,25 @@ RPM_NAME = "python311-datashader-0.15.0-1.1.noarch.rpm"
 RPM_HASH = "df4e49c964f13e8675ea0d9c1d60970caea2904762e8c708767294a2cfad1abe8cf62f00c13b312dd8418c4740a0bdb5c145eb33b14241c4700f5c3857c9e815"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(datashader) python311-datashader python3dist(datashader)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-DataShape python311-Pillow python311-colorcet python311-dask-dataframe python311-numba python311-numpy python311-pandas python311-param python311-pyct python311-requests python311-scipy python311-toolz python311-xarray update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(datashader) \
+python311-datashader \
+python3dist(datashader)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-DataShape \
+python311-Pillow \
+python311-colorcet \
+python311-dask-dataframe \
+python311-numba \
+python311-numpy \
+python311-pandas \
+python311-param \
+python311-pyct \
+python311-requests \
+python311-scipy \
+python311-toolz \
+python311-xarray \
+update-alternatives"
 
 inherit rpm

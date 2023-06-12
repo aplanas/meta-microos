@@ -26,7 +26,19 @@ RPM_NAME = "texlive-pwebmac-2023.201.4.8.1svn63731-53.1.noarch.rpm"
 RPM_HASH = "ce6c5e50911834dc5d78774d663ffe09e2115d7ce930a7ecb9ff09cbba3c94045fa7b1bc0d9c0be19b1f1d1386402a7507bf82bd3c57bb210c4340b736b50015"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pwebmac.tex) texlive-pwebmac"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(pwebmac.tex) \
+texlive-pwebmac"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

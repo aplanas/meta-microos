@@ -13,7 +13,10 @@ PV = "0.6"
 RPM_NAME = "radamsa-0.6-1.3.aarch64.rpm"
 RPM_HASH = "bc7e475245da414f369ec79aaec03054b3be634272f61f8e09ab6872b162d032bc24a70b60ebeb1a5ba8ac353cb4d7bc0d7c795a483ceae99a36860a8e4a119a"
 
-RPROVIDES:${PN} += "radamsa radamsa(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "radamsa \
+radamsa(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

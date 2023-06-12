@@ -9,6 +9,7 @@ RPM_HASH = "9f74cd75ebc37c6d9a1c2a72e2ddb760822b4556b537c74da98b0fb4cc04c67a1542
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "smemstat-bash-completion"
-RDEPENDS:${PN} += "bash-completion smemstat"
+RDEPENDS:${PN} += "bash-completion \
+smemstat"
 
 inherit rpm

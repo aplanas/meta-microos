@@ -11,6 +11,9 @@ RPM_HASH = "7d1be30490fc01ca31bc78fd8511163502f9844d10d08a2f2ba5647c3119e9382bf3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "redhat-overpass-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

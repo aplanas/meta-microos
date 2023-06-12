@@ -16,6 +16,9 @@ RPM_HASH = "7cb693c63ce1e1197830df65f7915c1e1aa94740d086e1bc48e38bfffa9c938da65a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-test"
-RDEPENDS:${PN} += "/usr/bin/python3 ansible-core python(abi) python3-virtualenv"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+ansible-core \
+python(abi) \
+python3-virtualenv"
 
 inherit rpm

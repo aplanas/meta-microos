@@ -15,7 +15,10 @@ RPM_NAME = "python3-os-service-types-1.7.0-4.4.noarch.rpm"
 RPM_HASH = "23794d1b91091db4692363f140d0fc77edf218e3e29d2ecae0de1a6d3c40cab94bfbfee874685cda46bb56b1eab52c1b459335aa88b1650725ae433ab6fdd9f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-os-service-types python3.10dist(os-service-types) python3dist(os-service-types)"
-RDEPENDS:${PN} += "python(abi) python3-pbr"
+RPROVIDES:${PN} += "python3-os-service-types \
+python3.10dist(os-service-types) \
+python3dist(os-service-types)"
+RDEPENDS:${PN} += "python(abi) \
+python3-pbr"
 
 inherit rpm

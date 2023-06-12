@@ -17,7 +17,10 @@ RPM_NAME = "python39-css-parser-1.0.9-1.1.noarch.rpm"
 RPM_HASH = "1a236b39edae875cca7229d9fef1d58f96fa23af96ceca152dcf74ca9abb99fc9a7074d2aa537a3b0dc926209a9683e9f192ae7de1f7def6b2006573b8f41a9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(css-parser) python39-css-parser python3dist(css-parser)"
-RDEPENDS:${PN} += "python(abi) python39-chardet"
+RPROVIDES:${PN} += "python3.9dist(css-parser) \
+python39-css-parser \
+python3dist(css-parser)"
+RDEPENDS:${PN} += "python(abi) \
+python39-chardet"
 
 inherit rpm

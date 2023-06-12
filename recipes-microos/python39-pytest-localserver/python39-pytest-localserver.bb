@@ -15,7 +15,11 @@ RPM_NAME = "python39-pytest-localserver-0.7.1-1.1.noarch.rpm"
 RPM_HASH = "e19a98c83e6bfb11d28f34e201413ddee655b3820749381b1b5b11f341ff86a853b4837485225c89319b661d11c1f1d0371fd1538edef4557d250155706eab7c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-localserver) python39-pytest-localserver python3dist(pytest-localserver)"
-RDEPENDS:${PN} += "python(abi) python39-Werkzeug python39-pytest"
+RPROVIDES:${PN} += "python3.9dist(pytest-localserver) \
+python39-pytest-localserver \
+python3dist(pytest-localserver)"
+RDEPENDS:${PN} += "python(abi) \
+python39-Werkzeug \
+python39-pytest"
 
 inherit rpm

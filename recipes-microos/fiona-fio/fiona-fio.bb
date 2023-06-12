@@ -10,6 +10,7 @@ RPM_HASH = "65711cbacbdccde4abd9f80c1d57ccf242dc42f088f91ab0bff8ab63e704758d2e23
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fiona-fio"
-RDEPENDS:${PN} += "/usr/bin/python3.10 python3-Fiona"
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+python3-Fiona"
 
 inherit rpm

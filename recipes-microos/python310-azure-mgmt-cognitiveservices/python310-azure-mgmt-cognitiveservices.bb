@@ -13,7 +13,16 @@ RPM_NAME = "python310-azure-mgmt-cognitiveservices-13.4.0-1.3.noarch.rpm"
 RPM_HASH = "5e5e0deb33fdcf065d9214e60882e40bfd153ffc5853837124a8006b7798503ac427e19ca444c2ff65ad593b38b8e89ce9f3d9ad685a600128e053fdfda77a26"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-cognitiveservices python3.10dist(azure-mgmt-cognitiveservices) python310-azure-mgmt-cognitiveservices python3dist(azure-mgmt-cognitiveservices)"
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) python(abi) python310-azure-common python310-azure-mgmt-core python310-azure-mgmt-nspkg python310-azure-nspkg python310-msrest"
+RPROVIDES:${PN} += "python3-azure-mgmt-cognitiveservices \
+python3.10dist(azure-mgmt-cognitiveservices) \
+python310-azure-mgmt-cognitiveservices \
+python3dist(azure-mgmt-cognitiveservices)"
+RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
+python(abi) \
+python310-azure-common \
+python310-azure-mgmt-core \
+python310-azure-mgmt-nspkg \
+python310-azure-nspkg \
+python310-msrest"
 
 inherit rpm

@@ -17,7 +17,23 @@ RPM_NAME = "texlive-listofsymbols-2023.201.0.0.2svn16134-54.1.noarch.rpm"
 RPM_HASH = "fda0d9e3e70d1ba12395e523f2c50bf608745b4b4e8b1aedae8058ab911e7004a90172ababb77c7c890d806e0ab67fa34cbb41d4253f4eb7385eb9e75729c65d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(listofsymbols.sty) texlive-listofsymbols"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(ifthen.sty) tex(nomencl.sty) tex(xspace.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(listofsymbols.sty) \
+texlive-listofsymbols"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(ifthen.sty) \
+tex(nomencl.sty) \
+tex(xspace.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -13,7 +13,8 @@ PV = "1.3.1.2"
 RPM_NAME = "libkeccak-devel-1.3.1.2-2.3.aarch64.rpm"
 RPM_HASH = "db370a1bedd34c2fac951ab56cf1467bfacf6ccd098a76c32d6eca9b8de3eb516756fe1e7a6b7f79775f99eed8e9671492f599d63cb1fa727508dd535daffa2b"
 
-RPROVIDES:${PN} += "libkeccak-devel libkeccak-devel(aarch-64)"
+RPROVIDES:${PN} += "libkeccak-devel \
+libkeccak-devel(aarch-64)"
 RDEPENDS:${PN} += "libkeccak1"
 
 inherit rpm

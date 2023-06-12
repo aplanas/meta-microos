@@ -12,7 +12,22 @@ RPM_NAME = "texlive-pst-spinner-2023.201.1.02svn66115-53.1.noarch.rpm"
 RPM_HASH = "0cf7c3229401dd7f670f6fb944b2a6754cb267faed4858a1f02d4046199e224a9ce9c8d427a693ac73cb792d455e5276a9049de21ca856cd3b4d4d90f8c8efcd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-spinner.sty) tex(pst-spinner.tex) texlive-pst-spinner"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(pst-node.sty) tex(pstricks.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(pst-spinner.sty) \
+tex(pst-spinner.tex) \
+texlive-pst-spinner"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(pst-node.sty) \
+tex(pstricks.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

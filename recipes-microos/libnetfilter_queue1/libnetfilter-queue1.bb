@@ -11,7 +11,16 @@ PV = "1.0.5"
 RPM_NAME = "libnetfilter_queue1-1.0.5-2.10.aarch64.rpm"
 RPM_HASH = "0f42d6a48f0eb71cef4388215d9e1369f5d3325f71b8693611d03984ffc5279c1a77fd57d72c1816e003f525168ea01c2476bfdf87c2dc4b049ee31a13228dcc"
 
-RPROVIDES:${PN} += "libnetfilter_queue.so.1()(64bit) libnetfilter_queue1 libnetfilter_queue1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libmnl.so.0()(64bit) libmnl.so.0(LIBMNL_1.0)(64bit) libnfnetlink.so.0()(64bit) libnfnetlink.so.0(NFNETLINK_1.0.1)(64bit)"
+RPROVIDES:${PN} += "libnetfilter_queue.so.1()(64bit) \
+libnetfilter_queue1 \
+libnetfilter_queue1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libmnl.so.0()(64bit) \
+libmnl.so.0(LIBMNL_1.0)(64bit) \
+libnfnetlink.so.0()(64bit) \
+libnfnetlink.so.0(NFNETLINK_1.0.1)(64bit)"
 
 inherit rpm

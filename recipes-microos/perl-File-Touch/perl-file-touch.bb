@@ -51,7 +51,9 @@ RPM_NAME = "perl-File-Touch-0.12-1.10.noarch.rpm"
 RPM_HASH = "b57dc77c611d5ae5af3bd00d1e84e0a45a538b81099372a76913dfef8c2d6301f3ca99390644639b99b8229d9d35f7e79278e07398d45dc84734064866eef3e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::Touch) perl-File-Touch"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Time::HiRes)"
+RPROVIDES:${PN} += "perl(File::Touch) \
+perl-File-Touch"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Time::HiRes)"
 
 inherit rpm

@@ -7,7 +7,9 @@ PV = "2023.20230311.svn65877"
 RPM_NAME = "texlive-lacheck-bin-2023.20230311.svn65877-91.1.aarch64.rpm"
 RPM_HASH = "e9354e2d91a6944fa0ba702ecd711ad665384981d5d77b0aaaf807e65c694a0cd37c58b86c8aa71ff72a9054c3a00c4a8191c7e381632b39fe1c68a0e3c83c01"
 
-RPROVIDES:${PN} += "texlive-lacheck-bin texlive-lacheck-bin(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) texlive-lacheck"
+RPROVIDES:${PN} += "texlive-lacheck-bin \
+texlive-lacheck-bin(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+texlive-lacheck"
 
 inherit rpm

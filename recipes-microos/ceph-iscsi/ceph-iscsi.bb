@@ -20,7 +20,24 @@ PV = "3.5+1679292226.g8769429"
 RPM_NAME = "ceph-iscsi-3.5+1679292226.g8769429-1.1.aarch64.rpm"
 RPM_HASH = "6cfa60be90c5d745e538524d9fc70fd23dac17da7bbe5965d1d60aa4d558dc1e806ae8c52d9281980c5885881847711f6fb5e63be0fec995ef04d535df1de5f0"
 
-RPROVIDES:${PN} += "ceph-iscsi ceph-iscsi(aarch-64) python3.10dist(ceph-iscsi) python3dist(ceph-iscsi)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 ceph-common python(abi) python3-Flask python3-configshell-fb python3-cryptography python3-netifaces python3-pyOpenSSL python3-rados python3-rbd python3-requests python3-rtslib systemd tcmu-runner"
+RPROVIDES:${PN} += "ceph-iscsi \
+ceph-iscsi(aarch-64) \
+python3.10dist(ceph-iscsi) \
+python3dist(ceph-iscsi)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+ceph-common \
+python(abi) \
+python3-Flask \
+python3-configshell-fb \
+python3-cryptography \
+python3-netifaces \
+python3-pyOpenSSL \
+python3-rados \
+python3-rbd \
+python3-requests \
+python3-rtslib \
+systemd \
+tcmu-runner"
 
 inherit rpm

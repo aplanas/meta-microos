@@ -12,7 +12,21 @@ PV = "12.3.0+git1204"
 RPM_NAME = "libada12-12.3.0+git1204-1.1.aarch64.rpm"
 RPM_HASH = "4d891cef72ac0cab83b878e801dc5ee776ab7fd75655bab1e1640c6203bc5d0037d4cf72550c9317269ffaba494ef0ecb529d118dce5eb7095d152f803713d36"
 
-RPROVIDES:${PN} += "libada12 libada12(aarch-64) libgnarl-12 libgnarl-12.so()(64bit) libgnat-12 libgnat-12.so()(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3)(64bit) libgcc_s.so.1(GCC_4.2.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "libada12 \
+libada12(aarch-64) \
+libgnarl-12 \
+libgnarl-12.so()(64bit) \
+libgnat-12 \
+libgnat-12.so()(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3)(64bit) \
+libgcc_s.so.1(GCC_4.2.0)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

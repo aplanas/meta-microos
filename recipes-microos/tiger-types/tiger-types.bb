@@ -12,7 +12,11 @@ RPM_NAME = "tiger-types-2.2-4.10.noarch.rpm"
 RPM_HASH = "d353511954e281170eecac5bf4cffcc51b844abc0a3d2b67525d981ded32bfcb18b3e16d96bb8b4b46d8e4cdf04bef9445a1f8e5e152481bf5521c8f2849b79a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.jvnet:tiger-types) mvn(org.jvnet:tiger-types:pom:) osgi(org.jvnet.tiger-types) tiger-types"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "mvn(org.jvnet:tiger-types) \
+mvn(org.jvnet:tiger-types:pom:) \
+osgi(org.jvnet.tiger-types) \
+tiger-types"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

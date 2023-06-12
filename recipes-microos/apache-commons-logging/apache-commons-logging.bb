@@ -16,7 +16,32 @@ RPM_NAME = "apache-commons-logging-1.2-11.5.noarch.rpm"
 RPM_HASH = "5ff3c6ff00949c3ee6dcd6afd5c25c6882103016cf5c0401ce92254fc78eacc6d44c3312722013162331fc123db114392ccb15bbc8e392f8502e9b32d9d2b2b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "apache-commons-logging commons-logging jakarta-commons-logging mvn(apache:commons-logging) mvn(apache:commons-logging-adapters) mvn(apache:commons-logging-adapters:pom:) mvn(apache:commons-logging-api) mvn(apache:commons-logging-api:pom:) mvn(apache:commons-logging:pom:) mvn(commons-logging:commons-logging) mvn(commons-logging:commons-logging-adapters) mvn(commons-logging:commons-logging-adapters:pom:) mvn(commons-logging:commons-logging-api) mvn(commons-logging:commons-logging-api:pom:) mvn(commons-logging:commons-logging:pom:) mvn(org.apache.commons:commons-logging) mvn(org.apache.commons:commons-logging-adapters) mvn(org.apache.commons:commons-logging-adapters:pom:) mvn(org.apache.commons:commons-logging-api) mvn(org.apache.commons:commons-logging-api:pom:) mvn(org.apache.commons:commons-logging:pom:) osgi(org.apache.commons.logging) osgi(org.apache.commons.logging.adapters) osgi(org.apache.commons.logging.api)"
-RDEPENDS:${PN} += "java java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "apache-commons-logging \
+commons-logging \
+jakarta-commons-logging \
+mvn(apache:commons-logging) \
+mvn(apache:commons-logging-adapters) \
+mvn(apache:commons-logging-adapters:pom:) \
+mvn(apache:commons-logging-api) \
+mvn(apache:commons-logging-api:pom:) \
+mvn(apache:commons-logging:pom:) \
+mvn(commons-logging:commons-logging) \
+mvn(commons-logging:commons-logging-adapters) \
+mvn(commons-logging:commons-logging-adapters:pom:) \
+mvn(commons-logging:commons-logging-api) \
+mvn(commons-logging:commons-logging-api:pom:) \
+mvn(commons-logging:commons-logging:pom:) \
+mvn(org.apache.commons:commons-logging) \
+mvn(org.apache.commons:commons-logging-adapters) \
+mvn(org.apache.commons:commons-logging-adapters:pom:) \
+mvn(org.apache.commons:commons-logging-api) \
+mvn(org.apache.commons:commons-logging-api:pom:) \
+mvn(org.apache.commons:commons-logging:pom:) \
+osgi(org.apache.commons.logging) \
+osgi(org.apache.commons.logging.adapters) \
+osgi(org.apache.commons.logging.api)"
+RDEPENDS:${PN} += "java \
+java-headless \
+javapackages-filesystem"
 
 inherit rpm

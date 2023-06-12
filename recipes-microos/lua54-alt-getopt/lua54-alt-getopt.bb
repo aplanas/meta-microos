@@ -11,7 +11,8 @@ RPM_NAME = "lua54-alt-getopt-0.8.1-4.2.noarch.rpm"
 RPM_HASH = "9341345f1d7e0f3b842bf515fe15113edf9005b55a91221641f0fb5dc517338a9c65c69eac81c95cd3b31b423d01e6817297b2e7ab21b5b6c1aa626133549d27"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "lua-alt-getopt lua54-alt-getopt"
+RPROVIDES:${PN} += "lua-alt-getopt \
+lua54-alt-getopt"
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

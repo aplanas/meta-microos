@@ -29,7 +29,8 @@ RPM_NAME = "perl-Digest-Perl-MD5-1.9-3.26.noarch.rpm"
 RPM_HASH = "9723fce6fdaebe02511e9699f85a8c2c696a2ef45aaf1c7820d6faf312cd8fd94b904aa8c89c653a2e82a3e2bf621a3a897476a60df832587e1209b238ecf669"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Digest::Perl::MD5) perl-Digest-Perl-MD5"
+RPROVIDES:${PN} += "perl(Digest::Perl::MD5) \
+perl-Digest-Perl-MD5"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

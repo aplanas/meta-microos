@@ -12,7 +12,20 @@ PV = "20230411"
 RPM_NAME = "sysinfo-20230411-1.1.aarch64.rpm"
 RPM_HASH = "fd9f61742e06bb3025076943dedab6e5cec802e7264b7eab30f2eb3d9731cfb51fb2e3c0001111735a9188a5ecb4c2bf47a49bf1757d607ddeda2a265beb6d26"
 
-RPROVIDES:${PN} += "sysinfo sysinfo(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libHX.so.32()(64bit) libHX.so.32(LIBHX_3.25)(64bit) libc.so.6(GLIBC_2.34)(64bit) libmount.so.1()(64bit) libmount.so.1(MOUNT_2.19)(64bit) libpci.so.3()(64bit) libpci.so.3(LIBPCI_3.0)(64bit) libpci.so.3(LIBPCI_3.5)(64bit) libxcb.so.1()(64bit)"
+RPROVIDES:${PN} += "sysinfo \
+sysinfo(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/usr/bin/perl \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libHX.so.32()(64bit) \
+libHX.so.32(LIBHX_3.25)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libmount.so.1()(64bit) \
+libmount.so.1(MOUNT_2.19)(64bit) \
+libpci.so.3()(64bit) \
+libpci.so.3(LIBPCI_3.0)(64bit) \
+libpci.so.3(LIBPCI_3.5)(64bit) \
+libxcb.so.1()(64bit)"
 
 inherit rpm

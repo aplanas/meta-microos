@@ -13,7 +13,33 @@ RPM_NAME = "texlive-active-conf-2023.201.0.0.3asvn15878-54.1.noarch.rpm"
 RPM_HASH = "83b4ecb3328b3616d8320f969fc1c610ca769b3b7bc4576a2abe59596e6c2c26b10f65bac74bf1bf3bb38a6bcfd12514a10d23b09bd574f7281fcfbaf077a49c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(active-conf.cls) texlive-active-conf"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsmath.sty) tex(amssymb.sty) tex(array.sty) tex(article.cls) tex(bm.sty) tex(calc.sty) tex(fontenc.sty) tex(geometry.sty) tex(graphicx.sty) tex(helvet.sty) tex(hyperref.sty) tex(ifthen.sty) tex(textcomp.sty) tex(url.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(active-conf.cls) \
+texlive-active-conf"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsmath.sty) \
+tex(amssymb.sty) \
+tex(array.sty) \
+tex(article.cls) \
+tex(bm.sty) \
+tex(calc.sty) \
+tex(fontenc.sty) \
+tex(geometry.sty) \
+tex(graphicx.sty) \
+tex(helvet.sty) \
+tex(hyperref.sty) \
+tex(ifthen.sty) \
+tex(textcomp.sty) \
+tex(url.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

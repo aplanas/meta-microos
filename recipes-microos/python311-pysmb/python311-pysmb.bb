@@ -8,7 +8,10 @@ RPM_NAME = "python311-pysmb-1.2.9.1-1.3.noarch.rpm"
 RPM_HASH = "58315ce60f4f7c1308f527d99ca02acd40d85cb08f95b7e703a65ff09cf25a72cef8052a8e3b784b261be0f3035b228e2a27d3886fc2a6c38e003f0102de8c18"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pysmb) python311-pysmb python3dist(pysmb)"
-RDEPENDS:${PN} += "python(abi) python311-pyasn1"
+RPROVIDES:${PN} += "python3.11dist(pysmb) \
+python311-pysmb \
+python3dist(pysmb)"
+RDEPENDS:${PN} += "python(abi) \
+python311-pyasn1"
 
 inherit rpm

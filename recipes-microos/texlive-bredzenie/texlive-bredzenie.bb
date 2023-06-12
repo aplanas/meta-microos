@@ -11,7 +11,19 @@ RPM_NAME = "texlive-bredzenie-2023.201.1.0svn44371-52.1.noarch.rpm"
 RPM_HASH = "15b309aa5a7250efec2b16d2aeee417040f36212b3d5eae199857786be0cfc49c97ed00ec40e816bf4acfde4cea546765eb46e4980b96482bdb7beacceefc934"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bredzenie.sty) texlive-bredzenie"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(bredzenie.sty) \
+texlive-bredzenie"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

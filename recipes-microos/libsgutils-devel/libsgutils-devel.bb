@@ -15,7 +15,9 @@ PV = "1.48~20221101+1.142dace"
 RPM_NAME = "libsgutils-devel-1.48~20221101+1.142dace-1.3.aarch64.rpm"
 RPM_HASH = "cb6a75cb8a69c14323b748265325086268fbcbd9a75ddc57d68a938a6f6f2b41ef8c73b83016576f8fb0b5ba1e7f31b51be40e7bf720f3d6529f7544864df1fa"
 
-RPROVIDES:${PN} += "libsgutils-devel libsgutils-devel(aarch-64) sg3_utils-devel"
+RPROVIDES:${PN} += "libsgutils-devel \
+libsgutils-devel(aarch-64) \
+sg3_utils-devel"
 RDEPENDS:${PN} += "libsgutils2-1_48-2"
 
 inherit rpm

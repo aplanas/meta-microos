@@ -9,7 +9,10 @@ PV = "0.5.2"
 RPM_NAME = "xtermset-0.5.2-283.16.aarch64.rpm"
 RPM_HASH = "9367162ecee3924745ad87abb96183629f7aec31e4ddf291d9ad6b771208844f1194fb868e9770eed112e942f434173fa78e3217800b338c14d48bd27a9445f2"
 
-RPROVIDES:${PN} += "xtermset xtermset(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "xtermset \
+xtermset(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

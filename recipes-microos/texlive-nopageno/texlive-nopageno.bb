@@ -15,7 +15,19 @@ RPM_NAME = "texlive-nopageno-2023.201.svn18128-54.1.noarch.rpm"
 RPM_HASH = "225dabf016d79b6130e178366650a64ba5d211bd443d593746572b53577243a85cfe5495335fbeb883689eb5b7ab14a555784f941e278128adb0528f30bf9562"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(nopageno.sty) texlive-nopageno"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(nopageno.sty) \
+texlive-nopageno"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

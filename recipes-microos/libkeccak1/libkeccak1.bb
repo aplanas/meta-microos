@@ -12,7 +12,12 @@ PV = "1.3.1.2"
 RPM_NAME = "libkeccak1-1.3.1.2-2.3.aarch64.rpm"
 RPM_HASH = "899a3cd9eab2309813a15969ee2368d1b072173f51440e24044db052b1616f19562fbcccef1d1ac1445242f1d4c00d2d9d852949c25357d22cc8d16712a658a3"
 
-RPROVIDES:${PN} += "libkeccak.so.1()(64bit) libkeccak1 libkeccak1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit)"
+RPROVIDES:${PN} += "libkeccak.so.1()(64bit) \
+libkeccak1 \
+libkeccak1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit)"
 
 inherit rpm

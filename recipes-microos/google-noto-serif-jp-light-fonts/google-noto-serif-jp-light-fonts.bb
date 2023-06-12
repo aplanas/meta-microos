@@ -10,7 +10,11 @@ RPM_NAME = "google-noto-serif-jp-light-fonts-2.001-2.3.noarch.rpm"
 RPM_HASH = "f6a6a882fd43d8b061d645853b55ebfb72caa7effac6c170250a421faef1f5b6ee2a99c02929b2b446d89bb634808c5f3a602b23b767f5560d1a161ca2ebf7f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "google-noto-serif-jp-light-fonts noto-serif-jp-light-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "google-noto-serif-jp-light-fonts \
+noto-serif-jp-light-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

@@ -13,7 +13,23 @@ RPM_NAME = "texlive-titlesec-2023.201.2.14svn59845-52.1.noarch.rpm"
 RPM_HASH = "bed474c596a7638789bc13bad698a3f5fecaa43f6521e836e86d9ea735abfa989b20f97913426900cdec5534147aba25bbec9c4a7ad70fc73d900da7c144ed85"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(titleps.sty) tex(titlesec.sty) tex(titletoc.sty) texlive-titlesec"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(etex.sty) tex(keyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(titleps.sty) \
+tex(titlesec.sty) \
+tex(titletoc.sty) \
+texlive-titlesec"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(etex.sty) \
+tex(keyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

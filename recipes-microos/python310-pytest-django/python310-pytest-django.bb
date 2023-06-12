@@ -20,7 +20,12 @@ RPM_NAME = "python310-pytest-django-4.5.2-4.4.noarch.rpm"
 RPM_HASH = "d08645fa4b414e477fa0fe93fa41cc0e4a9f308c41bb04a63020ed8c54f835d0334485ffe9a7e98aeef598e1ce02111501c7accb727edd8cc213d203802ac4f9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-django python3.10dist(pytest-django) python310-pytest-django python3dist(pytest-django)"
-RDEPENDS:${PN} += "python(abi) python310-Django python310-pytest"
+RPROVIDES:${PN} += "python3-pytest-django \
+python3.10dist(pytest-django) \
+python310-pytest-django \
+python3dist(pytest-django)"
+RDEPENDS:${PN} += "python(abi) \
+python310-Django \
+python310-pytest"
 
 inherit rpm

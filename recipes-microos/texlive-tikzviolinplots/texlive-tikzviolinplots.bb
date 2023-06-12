@@ -12,7 +12,24 @@ RPM_NAME = "texlive-tikzviolinplots-2023.201.0.0.7.1svn65687-52.1.noarch.rpm"
 RPM_HASH = "f10ec15f5d07398cade5f1b0073128ba944378964ed7ebcc58bc1e30e154dc3ce12d907d9fc08c36582563697affd73a066e9d2682760fb86460c50ca99abe5d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikzviolinplots.sty) texlive-tikzviolinplots"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifthen.sty) tex(pgfkeys.sty) tex(pgfplots.sty) tex(pgfplotstable.sty) tex(stringstrings.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(tikzviolinplots.sty) \
+texlive-tikzviolinplots"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifthen.sty) \
+tex(pgfkeys.sty) \
+tex(pgfplots.sty) \
+tex(pgfplotstable.sty) \
+tex(stringstrings.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

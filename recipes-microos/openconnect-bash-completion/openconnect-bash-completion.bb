@@ -9,6 +9,7 @@ RPM_HASH = "c63f14167a8844fad1e8519336e78b62f3e13ed6c98a98303964bc1a6f685937915d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openconnect-bash-completion"
-RDEPENDS:${PN} += "bash-completion openconnect"
+RDEPENDS:${PN} += "bash-completion \
+openconnect"
 
 inherit rpm

@@ -10,7 +10,11 @@ RPM_NAME = "noto-serif-lao-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "38750a5c764e88e527bf602d5d429f6f5cb99895b92e0366b81ef27b6d0808eac7f72b5ee76d9c51e50a2cadf44284aaa1587e0ae6d36ef700539189975876c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-serif-lao noto-serif-lao-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-serif-lao \
+noto-serif-lao-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

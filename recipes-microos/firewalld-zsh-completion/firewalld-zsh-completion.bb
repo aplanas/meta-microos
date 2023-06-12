@@ -9,6 +9,7 @@ RPM_HASH = "5e7da6bf2a284c01b7366e08b50677a806d37080f6f75da8211f052398569ac23446
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewalld-zsh-completion"
-RDEPENDS:${PN} += "firewalld zsh"
+RDEPENDS:${PN} += "firewalld \
+zsh"
 
 inherit rpm

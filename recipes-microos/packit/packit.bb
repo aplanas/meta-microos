@@ -12,7 +12,12 @@ PV = "1.8.1"
 RPM_NAME = "packit-1.8.1-1.2.aarch64.rpm"
 RPM_HASH = "5aa04e45bfa3870f33afb2bb00396e1e951386d7f8c7c4b4b5a3eae3d15555c41a975d3468394fff43d740c15ed2a253b631adb0d67ffafdd98ab752a87a806b"
 
-RPROVIDES:${PN} += "packit packit(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libnet.so.9()(64bit) libpcap.so.1()(64bit)"
+RPROVIDES:${PN} += "packit \
+packit(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libnet.so.9()(64bit) \
+libpcap.so.1()(64bit)"
 
 inherit rpm

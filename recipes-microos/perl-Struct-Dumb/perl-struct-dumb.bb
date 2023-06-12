@@ -47,7 +47,9 @@ RPM_NAME = "perl-Struct-Dumb-0.14-1.1.noarch.rpm"
 RPM_HASH = "8a4c66693206fa0a61d18591f40a6ec012f3b8e7dd65080eb679807ce7ab1823ff79c720ae4147986f08fd23015866a09f03af4467db6fd712b15a4c92fbc84a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Struct::Dumb) perl(Struct::Dumb::_DestroyWatch) perl-Struct-Dumb"
+RPROVIDES:${PN} += "perl(Struct::Dumb) \
+perl(Struct::Dumb::_DestroyWatch) \
+perl-Struct-Dumb"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

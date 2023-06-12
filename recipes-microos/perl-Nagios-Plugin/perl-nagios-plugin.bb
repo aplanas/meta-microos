@@ -15,7 +15,21 @@ PV = "0.36"
 RPM_NAME = "perl-Nagios-Plugin-0.36-10.27.aarch64.rpm"
 RPM_HASH = "a4f3881d99a5ef09f50787212397aea336a28159d5dd94db7ee2c20f5d0dd968ef97aae66550336569f5fc2b40eaa463e39d0f2cd0fe55ff090a519c3548c2a9"
 
-RPROVIDES:${PN} += "Nagios-Plugin perl(Nagios::Plugin) perl(Nagios::Plugin::Config) perl(Nagios::Plugin::ExitResult) perl(Nagios::Plugin::Functions) perl(Nagios::Plugin::Getopt) perl(Nagios::Plugin::Performance) perl(Nagios::Plugin::Range) perl(Nagios::Plugin::Threshold) perl-Nagios-Plugin perl-Nagios-Plugin(aarch-64)"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Class::Accessor) perl(Config::Tiny) perl(Math::Calc::Units) perl(Params::Validate)"
+RPROVIDES:${PN} += "Nagios-Plugin \
+perl(Nagios::Plugin) \
+perl(Nagios::Plugin::Config) \
+perl(Nagios::Plugin::ExitResult) \
+perl(Nagios::Plugin::Functions) \
+perl(Nagios::Plugin::Getopt) \
+perl(Nagios::Plugin::Performance) \
+perl(Nagios::Plugin::Range) \
+perl(Nagios::Plugin::Threshold) \
+perl-Nagios-Plugin \
+perl-Nagios-Plugin(aarch-64)"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Accessor) \
+perl(Config::Tiny) \
+perl(Math::Calc::Units) \
+perl(Params::Validate)"
 
 inherit rpm

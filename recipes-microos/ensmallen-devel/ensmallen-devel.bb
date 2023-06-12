@@ -11,7 +11,9 @@ PV = "2.19.1"
 RPM_NAME = "ensmallen-devel-2.19.1-1.2.aarch64.rpm"
 RPM_HASH = "527c37e1f7f26214b1674b1b0c314154fdc3e1c27b3251411ca8373332dfb71adf2fccef12f13403cf008d5625ac84ed14725ba396f38f8ef5d0904ac120d92f"
 
-RPROVIDES:${PN} += "cmake(ensmallen) ensmallen-devel ensmallen-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake(ensmallen) \
+ensmallen-devel \
+ensmallen-devel(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

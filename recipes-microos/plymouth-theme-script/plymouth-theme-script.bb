@@ -11,6 +11,7 @@ RPM_HASH = "6d45a8b0d6c36bea4edc67ec7aefc5b9a41a1f5942ffbc1ad32f5c3d52220f428952
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-script"
-RDEPENDS:${PN} += "plymouth-plugin-script plymouth-scripts"
+RDEPENDS:${PN} += "plymouth-plugin-script \
+plymouth-scripts"
 
 inherit rpm

@@ -10,7 +10,8 @@ PV = "13"
 RPM_NAME = "gcc-PIE-13-1.3.aarch64.rpm"
 RPM_HASH = "1197a3cbbe2b1f9e09ede453d9573d7922d6af8e736a890b19756029490b2325cc8bba6ea235b44c9f004acc1eac7e6bbc1b8bf2f54f2e56c3da03ff57f786b8"
 
-RPROVIDES:${PN} += "gcc-PIE gcc-PIE(aarch-64)"
+RPROVIDES:${PN} += "gcc-PIE \
+gcc-PIE(aarch-64)"
 RDEPENDS:${PN} += "gcc13-PIE"
 
 inherit rpm

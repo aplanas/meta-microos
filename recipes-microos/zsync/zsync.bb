@@ -13,7 +13,12 @@ PV = "0.6.2"
 RPM_NAME = "zsync-0.6.2-25.14.aarch64.rpm"
 RPM_HASH = "ab011a034fe72938e1659118f913706372bf173009ca5b6a5e66d39fbad4b00641551afdfdb525b5d99690bfaf9aa16ebd9295dbd845b6f58660071802a7b0c2"
 
-RPROVIDES:${PN} += "zsync zsync(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "zsync \
+zsync(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

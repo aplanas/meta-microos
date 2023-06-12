@@ -10,7 +10,11 @@ RPM_NAME = "python310-typogrify-2.0.7-1.11.noarch.rpm"
 RPM_HASH = "c0045b0e1ce800f610fc9acdea5a9895d524ed49936541fc8d4522489d72405411390e1faddee7a2c09b58bdc2e24279ca614920f48c302bb8937fbe1a516c68"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-typogrify python3.10dist(typogrify) python310-typogrify python3dist(typogrify)"
-RDEPENDS:${PN} += "python(abi) python310-smartypants"
+RPROVIDES:${PN} += "python3-typogrify \
+python3.10dist(typogrify) \
+python310-typogrify \
+python3dist(typogrify)"
+RDEPENDS:${PN} += "python(abi) \
+python310-smartypants"
 
 inherit rpm

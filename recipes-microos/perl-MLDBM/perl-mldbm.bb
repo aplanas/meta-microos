@@ -27,7 +27,12 @@ RPM_NAME = "perl-MLDBM-2.05-5.24.noarch.rpm"
 RPM_HASH = "f5532adc412e8616c98cc93e7075785ed5287294e1903e9fcc4e12fb1cdbf9c4582510dd430f565cdcde40d65a423d7ef0668dfc8c81132ff0e93b34c624849a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MLDBM) perl(MLDBM::Serializer) perl(MLDBM::Serializer::Data::Dumper) perl(MLDBM::Serializer::FreezeThaw) perl(MLDBM::Serializer::Storable) perl-MLDBM"
+RPROVIDES:${PN} += "perl(MLDBM) \
+perl(MLDBM::Serializer) \
+perl(MLDBM::Serializer::Data::Dumper) \
+perl(MLDBM::Serializer::FreezeThaw) \
+perl(MLDBM::Serializer::Storable) \
+perl-MLDBM"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -13,7 +13,22 @@ PV = "0+git20150328.d1afbf6"
 RPM_NAME = "primus-0+git20150328.d1afbf6-3.21.aarch64.rpm"
 RPM_HASH = "991079b89a4d46ad5c5228d00b2c93506fc9130f4ab33f05729fa5d7f5f65e1328e6df513e5e8effb5c610b7df15bf2f5135b5a410ec3ef5a58b0e77c31b6c11"
 
-RPROVIDES:${PN} += "libGL.so.1()(64bit) primus primus(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash bumblebee ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
+RPROVIDES:${PN} += "libGL.so.1()(64bit) \
+primus \
+primus(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+bumblebee \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libX11.so.6()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
 
 inherit rpm

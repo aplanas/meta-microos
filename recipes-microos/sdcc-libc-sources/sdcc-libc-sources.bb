@@ -15,6 +15,7 @@ RPM_HASH = "1b381f80cf60ff9191567785915a2116fc802de1f98e5eeebaaeb4a95619ab9c667e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sdcc-libc-sources"
-RDEPENDS:${PN} += "/bin/sh sdcc"
+RDEPENDS:${PN} += "/bin/sh \
+sdcc"
 
 inherit rpm

@@ -11,6 +11,9 @@ RPM_HASH = "a0437e45506ee508c70aac8877358f1b8ce5818021896cdc7441e007fcb2adc645f2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "permissions-zypp-plugin"
-RDEPENDS:${PN} += "/usr/bin/python3 libzypp(plugin:commit) permissions python3-zypp-plugin"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+libzypp(plugin:commit) \
+permissions \
+python3-zypp-plugin"
 
 inherit rpm

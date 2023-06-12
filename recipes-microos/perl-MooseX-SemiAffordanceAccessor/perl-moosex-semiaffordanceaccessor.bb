@@ -19,7 +19,13 @@ RPM_NAME = "perl-MooseX-SemiAffordanceAccessor-0.10-1.25.noarch.rpm"
 RPM_HASH = "416d158fe8dac6063a422963fe94d94cae819b9d02be313b1d21c02f510f839cb90fec7ecfd804c5bc7573f849d0e3625d8075ff4221d3b3d08128c0b6312d73"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooseX::SemiAffordanceAccessor) perl(MooseX::SemiAffordanceAccessor::Role::Attribute) perl-MooseX-SemiAffordanceAccessor"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Moose) perl(Moose::Exporter) perl(Moose::Role) perl(Moose::Util::MetaRole)"
+RPROVIDES:${PN} += "perl(MooseX::SemiAffordanceAccessor) \
+perl(MooseX::SemiAffordanceAccessor::Role::Attribute) \
+perl-MooseX-SemiAffordanceAccessor"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Moose) \
+perl(Moose::Exporter) \
+perl(Moose::Role) \
+perl(Moose::Util::MetaRole)"
 
 inherit rpm

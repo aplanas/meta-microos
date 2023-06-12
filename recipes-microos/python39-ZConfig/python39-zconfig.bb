@@ -21,7 +21,13 @@ RPM_NAME = "python39-ZConfig-3.6.1-1.3.noarch.rpm"
 RPM_HASH = "e1a12b5bbb794beb362a9c4fc8a3585a03dfb4eb2e748636ecc04950f5c7453fdd8881e3a7f303995f074ab2734a85eb24db5831aef38b1441814828f6e38324"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(zconfig) python39-ZConfig python3dist(zconfig)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(zconfig) \
+python39-ZConfig \
+python3dist(zconfig)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-setuptools \
+update-alternatives"
 
 inherit rpm

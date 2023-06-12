@@ -24,7 +24,8 @@ RPM_NAME = "perl-Test-Inter-1.10-1.1.noarch.rpm"
 RPM_HASH = "ac3ea11f97221111c16364bbbe860ae8d8a2a1c51ccc63ef78835ac9fe6455e01d28c7c9be2a1aaf9ee8c1cda23e1ec8b9222fa71d9d73f7cbb289ba090e49e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Inter) perl-Test-Inter"
+RPROVIDES:${PN} += "perl(Test::Inter) \
+perl-Test-Inter"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

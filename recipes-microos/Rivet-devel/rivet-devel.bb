@@ -16,7 +16,13 @@ PV = "3.1.7"
 RPM_NAME = "Rivet-devel-3.1.7-1.1.aarch64.rpm"
 RPM_HASH = "c5f78124a349e07ca076076c3b3f20dacb0d3cfcc9e51c702f5e1ed737ff6c751cc6130ca7dc0f588154412b00c707e5dc6710e7e82ee272c689fcb32dbf844a"
 
-RPROVIDES:${PN} += "Rivet-devel Rivet-devel(aarch-64) pkgconfig(rivet)"
-RDEPENDS:${PN} += "/bin/bash /usr/bin/pkg-config Rivet-data YODA-devel libRivet-3_1_7"
+RPROVIDES:${PN} += "Rivet-devel \
+Rivet-devel(aarch-64) \
+pkgconfig(rivet)"
+RDEPENDS:${PN} += "/bin/bash \
+/usr/bin/pkg-config \
+Rivet-data \
+YODA-devel \
+libRivet-3_1_7"
 
 inherit rpm

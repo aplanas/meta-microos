@@ -28,7 +28,26 @@ RPM_NAME = "texlive-texosquery-2023.201.1.7svn53676-54.1.noarch.rpm"
 RPM_HASH = "db0c308d89c557586d82e768410850d027c1ffa92b88e0552f2f76c9f3bc26b2b74e100d8436869dae957393d66ca052ac024901cfc9bdf77bb16188411545f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(texosquery-jre5.jar) tex(texosquery-jre8.jar) tex(texosquery.cfg) tex(texosquery.jar) tex(texosquery.sty) tex(texosquery.tex) texlive-texosquery"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep java sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin texlive-texosquery-bin"
+RPROVIDES:${PN} += "tex(texosquery-jre5.jar) \
+tex(texosquery-jre8.jar) \
+tex(texosquery.cfg) \
+tex(texosquery.jar) \
+tex(texosquery.sty) \
+tex(texosquery.tex) \
+texlive-texosquery"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+java \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-texosquery-bin"
 
 inherit rpm

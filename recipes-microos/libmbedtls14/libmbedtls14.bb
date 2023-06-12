@@ -13,7 +13,15 @@ PV = "2.28.3"
 RPM_NAME = "libmbedtls14-2.28.3-2.1.aarch64.rpm"
 RPM_HASH = "f98d0be375b640b8f066f12cbb5e75045068683e7d2622390af846c96e0dd1bb4db8a93b5dff676ad3c16ca2f291481dfd82cbc9f4ece5820ab446bd1961e920"
 
-RPROVIDES:${PN} += "libmbedtls.so.14()(64bit) libmbedtls14 libmbedtls14(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libmbedcrypto.so.7()(64bit) libmbedx509.so.1()(64bit) libz.so.1()(64bit)"
+RPROVIDES:${PN} += "libmbedtls.so.14()(64bit) \
+libmbedtls14 \
+libmbedtls14(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libmbedcrypto.so.7()(64bit) \
+libmbedx509.so.1()(64bit) \
+libz.so.1()(64bit)"
 
 inherit rpm

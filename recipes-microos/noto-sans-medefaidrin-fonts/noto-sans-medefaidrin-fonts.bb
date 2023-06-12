@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-medefaidrin-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "aecb1391e155027fb23d636887c9bf2ef53701378f35235a1327b98fd6c7110dce4af3cce01f409269992131db8ad18768bc674ec6af8df310e128f18bfee41e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-medefaidrin noto-sans-medefaidrin-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-medefaidrin \
+noto-sans-medefaidrin-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

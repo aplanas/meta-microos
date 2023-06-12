@@ -17,7 +17,13 @@ PV = "1.12"
 RPM_NAME = "perl-IO-Socket-Multicast-1.12-19.37.aarch64.rpm"
 RPM_HASH = "2854edda8b49a303e7c8378ad47baee252bad17f57c5ab993730e1130f8d35db39d12ec0eba9d0f95d7980f70c82c08736bfb980382f41b698884c77638d3cbf"
 
-RPROVIDES:${PN} += "perl(IO::Socket::Multicast) perl-IO-Socket-Multicast perl-IO-Socket-Multicast(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0) perl(IO::Interface)"
+RPROVIDES:${PN} += "perl(IO::Socket::Multicast) \
+perl-IO-Socket-Multicast \
+perl-IO-Socket-Multicast(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(IO::Interface)"
 
 inherit rpm

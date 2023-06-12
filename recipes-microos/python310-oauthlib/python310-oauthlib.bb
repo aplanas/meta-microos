@@ -22,7 +22,13 @@ RPM_NAME = "python310-oauthlib-3.2.2-2.1.noarch.rpm"
 RPM_HASH = "d8125938d4377c702c6ac8e593156570f3470b0f4428bb5425c31772ff28045a89ad1cbe18849d8641ae4de34d5ae9107ce26227d4e89038c42d5054a0853bf7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-oauthlib python3.10dist(oauthlib) python310-oauthlib python3dist(oauthlib)"
-RDEPENDS:${PN} += "python(abi) python310-PyJWT python310-blinker python310-cryptography"
+RPROVIDES:${PN} += "python3-oauthlib \
+python3.10dist(oauthlib) \
+python310-oauthlib \
+python3dist(oauthlib)"
+RDEPENDS:${PN} += "python(abi) \
+python310-PyJWT \
+python310-blinker \
+python310-cryptography"
 
 inherit rpm

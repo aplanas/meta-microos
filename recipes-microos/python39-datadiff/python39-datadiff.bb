@@ -13,7 +13,9 @@ RPM_NAME = "python39-datadiff-2.1.0-1.2.noarch.rpm"
 RPM_HASH = "64d0a6938de151f1cace138895229582aa75b4480035f8b38bd8ec9ae7492204e120c91acd5c0265b894959793403e0f818ad8f409da42ab99c72cf306a9ee57"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(datadiff) python39-datadiff python3dist(datadiff)"
+RPROVIDES:${PN} += "python3.9dist(datadiff) \
+python39-datadiff \
+python3dist(datadiff)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

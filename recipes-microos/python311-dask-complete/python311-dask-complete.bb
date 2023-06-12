@@ -19,7 +19,17 @@ RPM_NAME = "python311-dask-complete-2023.3.2-3.1.noarch.rpm"
 RPM_HASH = "464789f4fd13a0afc579d506eaa9319f90dded81db04daecd76d255ada15973b91ff2739c7f0271b687189fa4391d0a1701d7cbc59364b143f5d897d72c20de8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-dask-all python311-dask-complete"
-RDEPENDS:${PN} += "python311-dask python311-dask-array python311-dask-bag python311-dask-dataframe python311-dask-delayed python311-dask-diagnostics python311-dask-distributed python311-dask-dot python311-lz4 python311-pyarrow"
+RPROVIDES:${PN} += "python311-dask-all \
+python311-dask-complete"
+RDEPENDS:${PN} += "python311-dask \
+python311-dask-array \
+python311-dask-bag \
+python311-dask-dataframe \
+python311-dask-delayed \
+python311-dask-diagnostics \
+python311-dask-distributed \
+python311-dask-dot \
+python311-lz4 \
+python311-pyarrow"
 
 inherit rpm

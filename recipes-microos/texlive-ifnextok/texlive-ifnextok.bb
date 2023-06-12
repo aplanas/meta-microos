@@ -16,7 +16,19 @@ RPM_NAME = "texlive-ifnextok-2023.201.0.0.3svn23379-52.1.noarch.rpm"
 RPM_HASH = "ffe64c3b6c3a77e3a23430448ebb609dfa1e349a2b282a967b08b12c1d3330852b7001ba87fa9b30a89c39e787c8b1bb209c6a6d69f9511872d0094821f826fd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ifnextok.sty) texlive-ifnextok"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(ifnextok.sty) \
+texlive-ifnextok"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

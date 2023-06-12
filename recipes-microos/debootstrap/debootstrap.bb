@@ -13,6 +13,7 @@ RPM_HASH = "1ce01c0aa27440693fda5e3ed5d74af1a149274f9f20b848c04b39028e212fb40b3c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "debootstrap"
-RDEPENDS:${PN} += "/bin/sh wget"
+RDEPENDS:${PN} += "/bin/sh \
+wget"
 
 inherit rpm

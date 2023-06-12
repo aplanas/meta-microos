@@ -11,6 +11,7 @@ RPM_HASH = "701e82f1990f6d73720fd04f58c4ad94f446d687996a70fb240d2b1c728351e93f30
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hypre-gnu-openmpi3-hpc-devel"
-RDEPENDS:${PN} += "/bin/sh hypre_2_20_0-gnu-openmpi3-hpc-devel"
+RDEPENDS:${PN} += "/bin/sh \
+hypre_2_20_0-gnu-openmpi3-hpc-devel"
 
 inherit rpm

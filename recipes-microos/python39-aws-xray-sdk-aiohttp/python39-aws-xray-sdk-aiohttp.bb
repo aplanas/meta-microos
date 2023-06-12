@@ -12,6 +12,8 @@ RPM_HASH = "fb6aaed3809c7231ca4617b8f992382969dde123207b8584129d363bfa4e8a39c365
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-aiohttp"
-RDEPENDS:${PN} += "python(abi) python39-aiohttp python39-aws-xray-sdk"
+RDEPENDS:${PN} += "python(abi) \
+python39-aiohttp \
+python39-aws-xray-sdk"
 
 inherit rpm

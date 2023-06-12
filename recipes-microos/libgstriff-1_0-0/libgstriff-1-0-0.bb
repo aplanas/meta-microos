@@ -11,7 +11,18 @@ PV = "1.22.3"
 RPM_NAME = "libgstriff-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "a954980db0a692ba3d09b0717333d4a09fcba65c368af9b4039e91c6b674a5965c16e92afb480c7cd3794c92bedf9ad43d0e5b69503d9f5a93d98a55c2f4eab2"
 
-RPROVIDES:${PN} += "libgstriff-1.0.so.0()(64bit) libgstriff-1_0-0 libgstriff-1_0-0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig gstreamer-plugins-base ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgstaudio-1.0.so.0()(64bit) libgstreamer-1.0.so.0()(64bit) libgsttag-1.0.so.0()(64bit)"
+RPROVIDES:${PN} += "libgstriff-1.0.so.0()(64bit) \
+libgstriff-1_0-0 \
+libgstriff-1_0-0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+gstreamer-plugins-base \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgstaudio-1.0.so.0()(64bit) \
+libgstreamer-1.0.so.0()(64bit) \
+libgsttag-1.0.so.0()(64bit)"
 
 inherit rpm

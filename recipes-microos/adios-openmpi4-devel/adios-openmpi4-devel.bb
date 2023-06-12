@@ -12,7 +12,11 @@ PV = "1.13.1"
 RPM_NAME = "adios-openmpi4-devel-1.13.1-5.12.aarch64.rpm"
 RPM_HASH = "c4dffc6c11fc1f3215e6bbf23fafe08ff1077b49cdc81dc6b295e691ae0d70405b0dd5d0154f3fef2a6f2300e7fba3025c32ff87c2e9944e50364ebddefde8dc"
 
-RPROVIDES:${PN} += "adios-openmpi4-devel adios-openmpi4-devel(aarch-64)"
-RDEPENDS:${PN} += "adios-openmpi4 adios-openmpi4-devel-static hdf5-openmpi4-devel netcdf-openmpi4-devel"
+RPROVIDES:${PN} += "adios-openmpi4-devel \
+adios-openmpi4-devel(aarch-64)"
+RDEPENDS:${PN} += "adios-openmpi4 \
+adios-openmpi4-devel-static \
+hdf5-openmpi4-devel \
+netcdf-openmpi4-devel"
 
 inherit rpm

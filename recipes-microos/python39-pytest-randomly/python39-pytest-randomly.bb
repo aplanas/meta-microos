@@ -25,7 +25,11 @@ RPM_NAME = "python39-pytest-randomly-3.12.0-1.1.noarch.rpm"
 RPM_HASH = "78894ae69256fa28e8f88af92ce70f83cb5734554f5f6cc515331fbebeaad5ee37f1da8bf54e3c6df63f9ecc8160449e9eec4d127413a7f662f1d2b322ea139b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-randomly) python39-pytest-randomly python3dist(pytest-randomly)"
-RDEPENDS:${PN} += "python(abi) python39-importlib-metadata python39-pytest"
+RPROVIDES:${PN} += "python3.9dist(pytest-randomly) \
+python39-pytest-randomly \
+python3dist(pytest-randomly)"
+RDEPENDS:${PN} += "python(abi) \
+python39-importlib-metadata \
+python39-pytest"
 
 inherit rpm

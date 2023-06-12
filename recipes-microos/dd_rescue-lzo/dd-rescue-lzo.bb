@@ -25,7 +25,13 @@ PV = "1.99.13"
 RPM_NAME = "dd_rescue-lzo-1.99.13-2.2.aarch64.rpm"
 RPM_HASH = "16d49e1c54a7c3ff70a4012776fdcbaa65f7ad2c5d31998896927acf6f5fdc25fd6e37dc318ee248fcc40de8ac4100f2c58739c2a25330d94693d5b93550f389"
 
-RPROVIDES:${PN} += "dd_rescue-lzo dd_rescue-lzo(aarch-64) libddr_lzo.so()(64bit)"
-RDEPENDS:${PN} += "dd_rescue ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) liblzo2.so.2()(64bit)"
+RPROVIDES:${PN} += "dd_rescue-lzo \
+dd_rescue-lzo(aarch-64) \
+libddr_lzo.so()(64bit)"
+RDEPENDS:${PN} += "dd_rescue \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+liblzo2.so.2()(64bit)"
 
 inherit rpm

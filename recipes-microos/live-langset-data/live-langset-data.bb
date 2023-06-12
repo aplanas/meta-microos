@@ -10,6 +10,8 @@ RPM_HASH = "6c79b303497f3018724437089b85eb052a9f9b61c41141d2340fb8f9d41aebd0af0b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "live-langset-data"
-RDEPENDS:${PN} += "/bin/sh sed systemd"
+RDEPENDS:${PN} += "/bin/sh \
+sed \
+systemd"
 
 inherit rpm

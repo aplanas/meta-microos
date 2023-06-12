@@ -7,7 +7,8 @@ PV = "2.3.4"
 RPM_NAME = "kubescape-2.3.4-1.1.aarch64.rpm"
 RPM_HASH = "b7d920552404527c017caf089bcb7cb05718b2d875e1387f0694287065156446018612e42be04c0eda184959a2bd63292cb6b23520dd06125e15b18d19e51f63"
 
-RPROVIDES:${PN} += "kubescape kubescape(aarch-64)"
+RPROVIDES:${PN} += "kubescape \
+kubescape(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

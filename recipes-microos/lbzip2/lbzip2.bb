@@ -20,7 +20,11 @@ PV = "2.5"
 RPM_NAME = "lbzip2-2.5-7.9.aarch64.rpm"
 RPM_HASH = "4398e944778237d16a40e863905c098427053a8c178162a1c3faed8b2987734f516453d91e5a3c94d1a7c867f29fe7228fbe6f3a6ffe031e89a5f2d58ebf0df3"
 
-RPROVIDES:${PN} += "lbunzip2 lbzip2 lbzip2(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "lbunzip2 \
+lbzip2 \
+lbzip2(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

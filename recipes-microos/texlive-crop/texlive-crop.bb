@@ -18,7 +18,22 @@ RPM_NAME = "texlive-crop-2023.204.1.10.2svn55424-54.1.noarch.rpm"
 RPM_HASH = "8329be35bb2a3f6d19fed6528667f78601bfc8f44d9c701e3009c543ba616a01e976c3ae1a38b7ff31bb65488c1d6fa35eb050b614ad94c324000f8e93f43316"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(crop.sty) texlive-crop"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(color.sty) tex(graphics.sty) tex(ifluatex.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(crop.sty) \
+texlive-crop"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(color.sty) \
+tex(graphics.sty) \
+tex(ifluatex.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

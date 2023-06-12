@@ -14,7 +14,33 @@ RPM_NAME = "texlive-elpres-2023.201.1.0.1svn60209-53.1.noarch.rpm"
 RPM_HASH = "dd1daebcea3b0ea3c6a0f409bf42d31989ea3f45328fc2a02e137d73b04630670acc1a208fdeb314f94be2b0f55cc6dea0175c77f8e429c3266543ab39346013"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(elpres.cls) tex(elpresbluelightgrayscheme.sty) tex(elpresgrayscheme.sty) tex(elpreswhitebluescheme.sty) tex(elpreswhiteredscheme.sty) tex(elpreswhitetealscheme.sty) texlive-elpres"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(article.cls) tex(courier.sty) tex(fancyhdr.sty) tex(graphicx.sty) tex(helvet.sty) tex(hyperref.sty) tex(ifthen.sty) tex(mathptmx.sty) tex(xcolor.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(elpres.cls) \
+tex(elpresbluelightgrayscheme.sty) \
+tex(elpresgrayscheme.sty) \
+tex(elpreswhitebluescheme.sty) \
+tex(elpreswhiteredscheme.sty) \
+tex(elpreswhitetealscheme.sty) \
+texlive-elpres"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(article.cls) \
+tex(courier.sty) \
+tex(fancyhdr.sty) \
+tex(graphicx.sty) \
+tex(helvet.sty) \
+tex(hyperref.sty) \
+tex(ifthen.sty) \
+tex(mathptmx.sty) \
+tex(xcolor.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

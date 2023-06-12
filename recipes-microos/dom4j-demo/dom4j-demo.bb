@@ -12,6 +12,7 @@ RPM_HASH = "a7e3051e2f4a3448164c145d73ac5a2468cde57ec2a1f3c09ca54f80d23bb7211692
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dom4j-demo"
-RDEPENDS:${PN} += "/bin/sh dom4j"
+RDEPENDS:${PN} += "/bin/sh \
+dom4j"
 
 inherit rpm

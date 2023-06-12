@@ -10,7 +10,10 @@ PV = "12.0.0"
 RPM_NAME = "python311-pyarrow-devel-12.0.0-1.1.aarch64.rpm"
 RPM_HASH = "edcb4ecece0486121e59c08cbcddd6ccd61ca48c592b5f13d77e54c65e60f96658aabf19a1d93c45b964c99972c7de5f8106bd70b41bd8d5a840e8469ecc842f"
 
-RPROVIDES:${PN} += "python311-pyarrow-devel python311-pyarrow-devel(aarch-64)"
-RDEPENDS:${PN} += "python(abi) python311-Cython python311-pyarrow"
+RPROVIDES:${PN} += "python311-pyarrow-devel \
+python311-pyarrow-devel(aarch-64)"
+RDEPENDS:${PN} += "python(abi) \
+python311-Cython \
+python311-pyarrow"
 
 inherit rpm

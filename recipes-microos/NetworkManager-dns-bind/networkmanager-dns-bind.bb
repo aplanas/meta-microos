@@ -17,6 +17,7 @@ RPM_HASH = "50450aed9079b626dc955375f9e8ad91fab2f72bcef104f1d1a4b3aedd58332b411e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-dns-bind"
-RDEPENDS:${PN} += "/bin/bash NetworkManager"
+RDEPENDS:${PN} += "/bin/bash \
+NetworkManager"
 
 inherit rpm

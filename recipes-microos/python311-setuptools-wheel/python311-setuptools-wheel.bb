@@ -11,6 +11,7 @@ RPM_HASH = "dcd103a9b9c918d897eeb67da4e8dbd9a0804eb12772f79c5c31b538a881365145f7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-setuptools-wheel"
-RDEPENDS:${PN} += "python(abi) update-alternatives"
+RDEPENDS:${PN} += "python(abi) \
+update-alternatives"
 
 inherit rpm

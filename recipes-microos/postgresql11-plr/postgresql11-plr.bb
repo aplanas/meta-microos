@@ -23,7 +23,15 @@ PV = "8.4.5"
 RPM_NAME = "postgresql11-plr-8.4.5-1.1.aarch64.rpm"
 RPM_HASH = "fbec5bd61bd4707a6fa69044428f2af3a38a760dbf5bf44f2b4c866057df96b6cc812bc70ef31e03f72726edb7cfbae13be71200d8ddbc59a4f8a1ba15715c27"
 
-RPROVIDES:${PN} += "config(postgresql11-plr) postgresql11-plr postgresql11-plr(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig R-base ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libR.so()(64bit) libc.so.6(GLIBC_2.33)(64bit) postgresql11-server"
+RPROVIDES:${PN} += "config(postgresql11-plr) \
+postgresql11-plr \
+postgresql11-plr(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+R-base \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libR.so()(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+postgresql11-server"
 
 inherit rpm

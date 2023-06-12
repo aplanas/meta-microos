@@ -14,7 +14,13 @@ PV = "5.8.0"
 RPM_NAME = "typelib-1_0-CMenu-3_0-5.8.0-1.1.aarch64.rpm"
 RPM_HASH = "10258600c3f9f93de38be2180460cdd77854ffa23d41b101c61c72d3bdcb9fd6558e1f40adda506c69a0af14ad9a45b9164b3ed43d26469c3ae3d8ba707ce80b"
 
-RPROVIDES:${PN} += "typelib(CMenu) typelib-1_0-CMenu-3_0 typelib-1_0-CMenu-3_0(aarch-64) typelib-1_0-CinnamonMenu-3_0"
-RDEPENDS:${PN} += "libcinnamon-menu-3.so.0()(64bit) typelib(GLib) typelib(GObject) typelib(Gio)"
+RPROVIDES:${PN} += "typelib(CMenu) \
+typelib-1_0-CMenu-3_0 \
+typelib-1_0-CMenu-3_0(aarch-64) \
+typelib-1_0-CinnamonMenu-3_0"
+RDEPENDS:${PN} += "libcinnamon-menu-3.so.0()(64bit) \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gio)"
 
 inherit rpm

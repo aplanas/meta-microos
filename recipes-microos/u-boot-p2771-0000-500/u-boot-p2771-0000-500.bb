@@ -8,7 +8,9 @@ PV = "2023.04"
 RPM_NAME = "u-boot-p2771-0000-500-2023.04-2.1.aarch64.rpm"
 RPM_HASH = "74a912f48f42b9f939b73f8e56311f31adbc961233c9f815c126d6b869de833b94d0fb106e08e85b16409aedc5d106fd5b0660456b79ccafb294edc178f6cc55"
 
-RPROVIDES:${PN} += "u-boot-loader u-boot-p2771-0000-500 u-boot-p2771-0000-500(aarch-64)"
+RPROVIDES:${PN} += "u-boot-loader \
+u-boot-p2771-0000-500 \
+u-boot-p2771-0000-500(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -18,7 +18,22 @@ PV = "0.13.1"
 RPM_NAME = "python39-pyFFTW-0.13.1-1.4.aarch64.rpm"
 RPM_HASH = "e2f32e30454be860cb2042b8bd1dc7f7b5900b7c4d7a36cbe1ad67ae11fbca9dac5343effe7af9e139bbf1391fadda26a9b425a3b6057e0be3b7878f2eb6da27"
 
-RPROVIDES:${PN} += "python3.9dist(pyfftw) python39-pyFFTW python39-pyFFTW(aarch-64) python3dist(pyfftw)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libfftw3.so.3()(64bit) libfftw3_threads.so.3()(64bit) libfftw3f.so.3()(64bit) libfftw3f_threads.so.3()(64bit) libfftw3l.so.3()(64bit) libfftw3l_threads.so.3()(64bit) python(abi) python39-dask python39-numpy python39-scipy"
+RPROVIDES:${PN} += "python3.9dist(pyfftw) \
+python39-pyFFTW \
+python39-pyFFTW(aarch-64) \
+python3dist(pyfftw)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libfftw3.so.3()(64bit) \
+libfftw3_threads.so.3()(64bit) \
+libfftw3f.so.3()(64bit) \
+libfftw3f_threads.so.3()(64bit) \
+libfftw3l.so.3()(64bit) \
+libfftw3l_threads.so.3()(64bit) \
+python(abi) \
+python39-dask \
+python39-numpy \
+python39-scipy"
 
 inherit rpm

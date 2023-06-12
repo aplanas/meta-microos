@@ -44,7 +44,25 @@ RPM_NAME = "perl-Log-Any-1.715-1.1.noarch.rpm"
 RPM_HASH = "e6865f6453062cae61c64a50653d3909d76133bb44a1edf8e4c8335cc228bdda9213ce83466b4efa881f5c61aa4d298756f0499fab7322b07e35cd1c1f35af6a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Log::Any) perl(Log::Any::Adapter) perl(Log::Any::Adapter::Base) perl(Log::Any::Adapter::Capture) perl(Log::Any::Adapter::File) perl(Log::Any::Adapter::Multiplex) perl(Log::Any::Adapter::Null) perl(Log::Any::Adapter::Stderr) perl(Log::Any::Adapter::Stdout) perl(Log::Any::Adapter::Syslog) perl(Log::Any::Adapter::Test) perl(Log::Any::Adapter::Util) perl(Log::Any::Manager) perl(Log::Any::Proxy) perl(Log::Any::Proxy::Null) perl(Log::Any::Proxy::Test) perl(Log::Any::Proxy::WithStackTrace) perl(Log::Any::Test) perl-Log-Any"
+RPROVIDES:${PN} += "perl(Log::Any) \
+perl(Log::Any::Adapter) \
+perl(Log::Any::Adapter::Base) \
+perl(Log::Any::Adapter::Capture) \
+perl(Log::Any::Adapter::File) \
+perl(Log::Any::Adapter::Multiplex) \
+perl(Log::Any::Adapter::Null) \
+perl(Log::Any::Adapter::Stderr) \
+perl(Log::Any::Adapter::Stdout) \
+perl(Log::Any::Adapter::Syslog) \
+perl(Log::Any::Adapter::Test) \
+perl(Log::Any::Adapter::Util) \
+perl(Log::Any::Manager) \
+perl(Log::Any::Proxy) \
+perl(Log::Any::Proxy::Null) \
+perl(Log::Any::Proxy::Test) \
+perl(Log::Any::Proxy::WithStackTrace) \
+perl(Log::Any::Test) \
+perl-Log-Any"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

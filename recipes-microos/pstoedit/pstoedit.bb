@@ -39,7 +39,37 @@ PV = "3.78"
 RPM_NAME = "pstoedit-3.78-2.5.aarch64.rpm"
 RPM_HASH = "df073909d82dd0776f9a9aac14c402c9918e6b98a4c2034af08d75e6ce5ca7d79b540a49a25bbe99df6ebf9205a5c9a82d0dadc270d0887ebb6981d504e067d3"
 
-RPROVIDES:${PN} += "libp2edrvlplot.so()(64bit) libp2edrvpptx.so()(64bit) libp2edrvstd.so()(64bit) libp2edrvwmf.so()(64bit) libpstoedit.so.0()(64bit) pstoedit pstoedit(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ghostscript ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libEMF.so.1()(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libplotter.so.2()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.26)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.5)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) libzip.so.5()(64bit)"
+RPROVIDES:${PN} += "libp2edrvlplot.so()(64bit) \
+libp2edrvpptx.so()(64bit) \
+libp2edrvstd.so()(64bit) \
+libp2edrvwmf.so()(64bit) \
+libpstoedit.so.0()(64bit) \
+pstoedit \
+pstoedit(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ghostscript \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libEMF.so.1()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libplotter.so.2()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.8)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.5)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
+libzip.so.5()(64bit)"
 
 inherit rpm

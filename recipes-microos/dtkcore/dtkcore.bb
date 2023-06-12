@@ -11,7 +11,26 @@ PV = "5.5.33"
 RPM_NAME = "dtkcore-5.5.33-1.7.aarch64.rpm"
 RPM_HASH = "e4bc70402ef90f3b3865d08d02251b558735287dca88673a831c5cf34139a93eedb1e80090bb87e766b74133054757bc2cbf4097b4e657816627bf9d1a81fd5f"
 
-RPROVIDES:${PN} += "dtkcore dtkcore(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/python3 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5DBus.so.5()(64bit) libQt5DBus.so.5(Qt_5)(64bit) libQt5DBus.so.5(Qt_5.15.9_PRIVATE_API)(64bit) libQt5Xml.so.5()(64bit) libQt5Xml.so.5(Qt_5)(64bit) libc.so.6(GLIBC_2.34)(64bit) libdtkcore.so.5()(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+RPROVIDES:${PN} += "dtkcore \
+dtkcore(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libQt5Core.so.5()(64bit) \
+libQt5Core.so.5(Qt_5)(64bit) \
+libQt5DBus.so.5()(64bit) \
+libQt5DBus.so.5(Qt_5)(64bit) \
+libQt5DBus.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
+libQt5Xml.so.5()(64bit) \
+libQt5Xml.so.5(Qt_5)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libdtkcore.so.5()(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "f069f1837305a95d174936fbb8fa8e5e22dbc310b5272b9b4e9da9277f8c0cea842f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-acitoolkit-doc-samples"
-RDEPENDS:${PN} += "python-acitoolkit-doc python3-PyMySQL"
+RDEPENDS:${PN} += "python-acitoolkit-doc \
+python3-PyMySQL"
 
 inherit rpm

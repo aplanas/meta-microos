@@ -18,7 +18,13 @@ RPM_NAME = "python310-hl7apy-1.3.3-2.13.noarch.rpm"
 RPM_HASH = "b345c1f5ff043a55c130fa264df1a8957804164b0af2e7504478b6237c4c505d3764f1f16392587105ed50b901013cf5f922bc60e6487106caa3b972a4d50dbb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-hl7apy python3.10dist(hl7apy) python310-hl7apy python3dist(hl7apy)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3-hl7apy \
+python3.10dist(hl7apy) \
+python310-hl7apy \
+python3dist(hl7apy)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

@@ -22,7 +22,17 @@ PV = "1.42.0"
 RPM_NAME = "libgsmsd8-1.42.0-4.6.aarch64.rpm"
 RPM_HASH = "e9c2f87c7f544b8e1bc0e88aa5a3067f410b676054a0128500ab5501e34137b6322f822f1e6626e1e103fb740277e6b474bc7cb85cc764cbbd8254c064ca6212"
 
-RPROVIDES:${PN} += "libgsmsd.so.8()(64bit) libgsmsd8 libgsmsd8(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libGammu.so.8()(64bit) libc.so.6(GLIBC_2.33)(64bit) libmariadb.so.3()(64bit) libmariadb.so.3(libmysqlclient_18)(64bit) libodbc.so.2()(64bit) libpq.so.5()(64bit)"
+RPROVIDES:${PN} += "libgsmsd.so.8()(64bit) \
+libgsmsd8 \
+libgsmsd8(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libGammu.so.8()(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+libmariadb.so.3()(64bit) \
+libmariadb.so.3(libmysqlclient_18)(64bit) \
+libodbc.so.2()(64bit) \
+libpq.so.5()(64bit)"
 
 inherit rpm

@@ -14,7 +14,28 @@ RPM_NAME = "texlive-floatrow-2023.201.0.0.3bsvn15878-52.1.noarch.rpm"
 RPM_HASH = "960fbcc6b4cbf5891cede5d09173181ecb9f94bb1fb7634817135ee79b69e67bbcf9c9768ae0f179b6ff19f4a864a9d49a55c9bf0d56f72fcfc43f839c2c6371"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(floatpagestyle.sty) tex(floatrow.sty) tex(fr-fancy.sty) tex(fr-longtable.sty) tex(fr-subfig.sty) tex(listpen.sty) texlive-floatrow"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(caption3.sty) tex(fancybox.sty) tex(keyval.sty) tex(longtable.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(floatpagestyle.sty) \
+tex(floatrow.sty) \
+tex(fr-fancy.sty) \
+tex(fr-longtable.sty) \
+tex(fr-subfig.sty) \
+tex(listpen.sty) \
+texlive-floatrow"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(caption3.sty) \
+tex(fancybox.sty) \
+tex(keyval.sty) \
+tex(longtable.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

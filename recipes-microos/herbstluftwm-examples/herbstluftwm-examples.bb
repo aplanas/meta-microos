@@ -10,6 +10,8 @@ RPM_HASH = "8778348917baa3027a3035e0ca901d0c847a36b8f718673d6bbff92d9549d019fba0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "herbstluftwm-examples"
-RDEPENDS:${PN} += "/usr/bin/bash bash herbstluftwm"
+RDEPENDS:${PN} += "/usr/bin/bash \
+bash \
+herbstluftwm"
 
 inherit rpm

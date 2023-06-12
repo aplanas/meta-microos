@@ -15,7 +15,19 @@ RPM_NAME = "moreutils-perl-0.67-2.2.noarch.rpm"
 RPM_HASH = "68d2d08c2f8adadfd98915d682852f31b08173d1f4d3886a3a7e8a768f973a4d142b99f3f37d61794766dbf5428823b1ec307ac8c9b0e2108e5f007b0c5a836d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "moreutils-perl moreutils:/usr/bin/combine moreutils:/usr/bin/vidir moreutils:/usr/bin/vipe moreutils:/usr/bin/zrun"
-RDEPENDS:${PN} += "/usr/bin/perl perl(File::Basename) perl(File::Path) perl(File::Spec) perl(File::Temp) perl(Getopt::Long) perl(IO::Handle) perl(strict) perl(warnings)"
+RPROVIDES:${PN} += "moreutils-perl \
+moreutils:/usr/bin/combine \
+moreutils:/usr/bin/vidir \
+moreutils:/usr/bin/vipe \
+moreutils:/usr/bin/zrun"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(File::Basename) \
+perl(File::Path) \
+perl(File::Spec) \
+perl(File::Temp) \
+perl(Getopt::Long) \
+perl(IO::Handle) \
+perl(strict) \
+perl(warnings)"
 
 inherit rpm

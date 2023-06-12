@@ -10,7 +10,13 @@ RPM_NAME = "python39-webruntime-0.5.8-1.5.noarch.rpm"
 RPM_HASH = "f4aa76e325e544d631491d5a88109a87906023190b116ac974139767501f393119bf83b3b1177444ef267bfba4661fb8595270a4d5ec141f2ecbb36e4a601d60"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(webruntime) python39-webruntime python3dist(webruntime)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-dialite update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(webruntime) \
+python39-webruntime \
+python3dist(webruntime)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-dialite \
+update-alternatives"
 
 inherit rpm

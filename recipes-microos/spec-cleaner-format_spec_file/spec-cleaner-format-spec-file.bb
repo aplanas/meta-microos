@@ -10,6 +10,7 @@ RPM_HASH = "8d49a778af6d8270a9cc023c15ee68839124fa2c7aa689dc8013f5dc6c06c6c14f1f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spec-cleaner-format_spec_file"
-RDEPENDS:${PN} += "/bin/sh spec-cleaner"
+RDEPENDS:${PN} += "/bin/sh \
+spec-cleaner"
 
 inherit rpm

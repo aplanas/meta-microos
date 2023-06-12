@@ -11,7 +11,12 @@ PV = "1.3.8rc1+git.20171112"
 RPM_NAME = "samplicator-1.3.8rc1+git.20171112-3.7.aarch64.rpm"
 RPM_HASH = "28360939d267074493ffdb995a75b71e6c8b449ae2d784e63c30056601d70bba445b349cdd4b74a097a2923a297d96f96026c588063520c22e86d39465cd88dc"
 
-RPROVIDES:${PN} += "config(samplicator) samplicator samplicator(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "config(samplicator) \
+samplicator \
+samplicator(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPM_HASH = "a04ee2e58ca19a08c3297a104ee3d4f90f8bb10ca3aba856cac43741fb6ab0a5c3e0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xalan-j2-demo"
-RDEPENDS:${PN} += "servlet xalan-j2"
+RDEPENDS:${PN} += "servlet \
+xalan-j2"
 
 inherit rpm

@@ -7,7 +7,10 @@ PV = "0.9.0+17"
 RPM_NAME = "libtw-devel-0.9.0+17-3.5.aarch64.rpm"
 RPM_HASH = "7f23edc908d01c4a5843f7cf5147e3085d7b0568ceb1f5b7927e70dc0e497ef855d1e6f4bbac7dd8aaa21788da5361c56ae2c04271c07da49ecd0fbcac369e4e"
 
-RPROVIDES:${PN} += "libTw-devel libtw-devel libtw-devel(aarch-64)"
-RDEPENDS:${PN} += "libtstl1 libtw1"
+RPROVIDES:${PN} += "libTw-devel \
+libtw-devel \
+libtw-devel(aarch-64)"
+RDEPENDS:${PN} += "libtstl1 \
+libtw1"
 
 inherit rpm

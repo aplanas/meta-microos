@@ -19,7 +19,18 @@ RPM_NAME = "perl-Heap-0.80-1.12.noarch.rpm"
 RPM_HASH = "1401146596a0f4ad334ebd39daf6ec3c1a71cc1a75649c10503460b088d17c41b77f78d41223fe2d3042d03d5642bbe5c5d514c48b6a9af8e6153f66e70c9b18"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Heap) perl(Heap::Binary) perl(Heap::Binomial) perl(Heap::Elem) perl(Heap::Elem::Num) perl(Heap::Elem::NumRev) perl(Heap::Elem::Ref) perl(Heap::Elem::RefRev) perl(Heap::Elem::Str) perl(Heap::Elem::StrRev) perl(Heap::Fibonacci) perl-Heap"
+RPROVIDES:${PN} += "perl(Heap) \
+perl(Heap::Binary) \
+perl(Heap::Binomial) \
+perl(Heap::Elem) \
+perl(Heap::Elem::Num) \
+perl(Heap::Elem::NumRev) \
+perl(Heap::Elem::Ref) \
+perl(Heap::Elem::RefRev) \
+perl(Heap::Elem::Str) \
+perl(Heap::Elem::StrRev) \
+perl(Heap::Fibonacci) \
+perl-Heap"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

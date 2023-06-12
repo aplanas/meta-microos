@@ -13,7 +13,10 @@ RPM_NAME = "python-Genshi-doc-0.7.7-3.1.noarch.rpm"
 RPM_HASH = "fed78306dc060a1d89c4baac7c9bb1df53bfad7639f75b855a425113033cc4bd072bdd7547f351dfd0773b30683ca8192a3b1f991a7607ded84e2a11ea10b2ae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python-Genshi-doc python310-Genshi-doc python311-Genshi-doc python39-Genshi-doc"
+RPROVIDES:${PN} += "python-Genshi-doc \
+python310-Genshi-doc \
+python311-Genshi-doc \
+python39-Genshi-doc"
 RDEPENDS:${PN} += ""
 
 inherit rpm

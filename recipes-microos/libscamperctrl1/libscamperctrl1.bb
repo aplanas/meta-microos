@@ -14,7 +14,12 @@ PV = "20230302"
 RPM_NAME = "libscamperctrl1-20230302-1.3.aarch64.rpm"
 RPM_HASH = "812106a1fe4af54693c323c1cb658acd025287804aeb3c0e9fdaba3a0ec7b03037c756933f9f455982e4f736ad4bf1cb23d90ab406b16d8cb250db2c0505a9e2"
 
-RPROVIDES:${PN} += "libscamperctrl.so.1()(64bit) libscamperctrl1 libscamperctrl1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libscamperctrl.so.1()(64bit) \
+libscamperctrl1 \
+libscamperctrl1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "8f72d4c01dc7af67db5758450cc8a17830aded2a575f2c6c0dead302319814973978
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metacity-theme-adapta"
-RDEPENDS:${PN} += "metacity metatheme-adapta-common"
+RDEPENDS:${PN} += "metacity \
+metatheme-adapta-common"
 
 inherit rpm

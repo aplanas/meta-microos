@@ -26,7 +26,30 @@ RPM_NAME = "perl-Mac-PropertyList-1.504-1.3.noarch.rpm"
 RPM_HASH = "bdbc4475b0ce8a64556c895bee1ee58d01c04ab78b688c0f6f27523df9d3a7fe93a069a44bf0bb2946c428e7cd17b8ba5dbc813c043270ed921a149f0e079056"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mac::PropertyList) perl(Mac::PropertyList::Boolean) perl(Mac::PropertyList::Container) perl(Mac::PropertyList::Item) perl(Mac::PropertyList::LineListSource) perl(Mac::PropertyList::ReadBinary) perl(Mac::PropertyList::Scalar) perl(Mac::PropertyList::Source) perl(Mac::PropertyList::TextSource) perl(Mac::PropertyList::WriteBinary) perl(Mac::PropertyList::array) perl(Mac::PropertyList::data) perl(Mac::PropertyList::date) perl(Mac::PropertyList::dict) perl(Mac::PropertyList::false) perl(Mac::PropertyList::integer) perl(Mac::PropertyList::real) perl(Mac::PropertyList::string) perl(Mac::PropertyList::true) perl(Mac::PropertyList::uid) perl(Mac::PropertyList::ustring) perl-Mac-PropertyList"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(XML::Entities) perl(parent)"
+RPROVIDES:${PN} += "perl(Mac::PropertyList) \
+perl(Mac::PropertyList::Boolean) \
+perl(Mac::PropertyList::Container) \
+perl(Mac::PropertyList::Item) \
+perl(Mac::PropertyList::LineListSource) \
+perl(Mac::PropertyList::ReadBinary) \
+perl(Mac::PropertyList::Scalar) \
+perl(Mac::PropertyList::Source) \
+perl(Mac::PropertyList::TextSource) \
+perl(Mac::PropertyList::WriteBinary) \
+perl(Mac::PropertyList::array) \
+perl(Mac::PropertyList::data) \
+perl(Mac::PropertyList::date) \
+perl(Mac::PropertyList::dict) \
+perl(Mac::PropertyList::false) \
+perl(Mac::PropertyList::integer) \
+perl(Mac::PropertyList::real) \
+perl(Mac::PropertyList::string) \
+perl(Mac::PropertyList::true) \
+perl(Mac::PropertyList::uid) \
+perl(Mac::PropertyList::ustring) \
+perl-Mac-PropertyList"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(XML::Entities) \
+perl(parent)"
 
 inherit rpm

@@ -27,7 +27,21 @@ PV = "0.36"
 RPM_NAME = "perl-forks-0.36-1.25.aarch64.rpm"
 RPM_HASH = "5520c0c74470f298f71b573d132c28196dbeb1d64f1fb94e0301135bbd50fa61e6b822594c83cbe678111b79e91606dd2ff49e346a98e573c42f0188e9be9d53"
 
-RPROVIDES:${PN} += "perl(forks) perl(forks::shared) perl(threads::shared::array) perl(threads::shared::handle) perl(threads::shared::hash) perl(threads::shared::scalar) perl-forks perl-forks(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0) perl(Acme::Damn) perl(Devel::Symdump) perl(List::MoreUtils) perl(Sys::SigAction)"
+RPROVIDES:${PN} += "perl(forks) \
+perl(forks::shared) \
+perl(threads::shared::array) \
+perl(threads::shared::handle) \
+perl(threads::shared::hash) \
+perl(threads::shared::scalar) \
+perl-forks \
+perl-forks(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Acme::Damn) \
+perl(Devel::Symdump) \
+perl(List::MoreUtils) \
+perl(Sys::SigAction)"
 
 inherit rpm

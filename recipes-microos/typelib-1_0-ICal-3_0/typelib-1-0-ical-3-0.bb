@@ -7,7 +7,11 @@ PV = "3.0.16"
 RPM_NAME = "typelib-1_0-ICal-3_0-3.0.16-1.3.aarch64.rpm"
 RPM_HASH = "28cc872dacc38858769ddac843a71e8075d202bf637d17b780076bcdcbee02276e9afda913ea63300630a7f64accf6a971c73463d37f67aced7b286e15bc672c"
 
-RPROVIDES:${PN} += "typelib(ICal) typelib-1_0-ICal-3_0 typelib-1_0-ICal-3_0(aarch-64)"
-RDEPENDS:${PN} += "libical.so.3()(64bit) typelib(GLib) typelib(GObject)"
+RPROVIDES:${PN} += "typelib(ICal) \
+typelib-1_0-ICal-3_0 \
+typelib-1_0-ICal-3_0(aarch-64)"
+RDEPENDS:${PN} += "libical.so.3()(64bit) \
+typelib(GLib) \
+typelib(GObject)"
 
 inherit rpm

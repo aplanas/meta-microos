@@ -9,6 +9,12 @@ RPM_HASH = "bb16e3da1f2507b86ac14d9e5188e932555c4bfa3de71a960ffda9e1894402a2a86d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-jupyter-server-test"
-RDEPENDS:${PN} += "python311-ipykernel python311-jupyter-server python311-pytest python311-pytest-console-scripts python311-pytest-jupyter-server python311-pytest-timeout python311-requests"
+RDEPENDS:${PN} += "python311-ipykernel \
+python311-jupyter-server \
+python311-pytest \
+python311-pytest-console-scripts \
+python311-pytest-jupyter-server \
+python311-pytest-timeout \
+python311-requests"
 
 inherit rpm

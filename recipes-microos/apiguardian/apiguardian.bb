@@ -12,7 +12,11 @@ RPM_NAME = "apiguardian-1.0.0-2.6.noarch.rpm"
 RPM_HASH = "f38ea6498195f44dbc982814ec61e611817a32297b6fd5f4e0c82235efe722dc08612dfafbbff7c8cc2a97da8a26f3bc4db368f76155500e8aaa7fc3565df04f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "apiguardian mvn(org.apiguardian:apiguardian-api) mvn(org.apiguardian:apiguardian-api:pom:) osgi(org.apiguardian)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "apiguardian \
+mvn(org.apiguardian:apiguardian-api) \
+mvn(org.apiguardian:apiguardian-api:pom:) \
+osgi(org.apiguardian)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

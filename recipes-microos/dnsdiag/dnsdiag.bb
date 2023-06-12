@@ -25,7 +25,13 @@ RPM_NAME = "dnsdiag-2.1.0-1.1.noarch.rpm"
 RPM_HASH = "e3c9c9a26a44bf49d1b968e89c3b716129064f10e3f5e378e693f5f21c5d2353fcae58d15d57fb03e93931630e3d24058eae03551e176674583e8bd5e65bb855"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "dnsdiag python3.10dist(dnsdiag) python3dist(dnsdiag)"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-cymruwhois python3-dnspython python3-setuptools"
+RPROVIDES:${PN} += "dnsdiag \
+python3.10dist(dnsdiag) \
+python3dist(dnsdiag)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3-cymruwhois \
+python3-dnspython \
+python3-setuptools"
 
 inherit rpm

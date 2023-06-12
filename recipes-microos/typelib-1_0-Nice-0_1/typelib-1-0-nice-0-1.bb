@@ -10,7 +10,12 @@ PV = "0.1.21"
 RPM_NAME = "typelib-1_0-Nice-0_1-0.1.21-2.1.aarch64.rpm"
 RPM_HASH = "2b76035cfb7b7aeae24f54048c15424f5f58cbe8edc37b995b29f026c4f19c2b50b7a9d7c0e2063ec38b43ba2f6c06ce7866b73ac9539287feee163379d3675f"
 
-RPROVIDES:${PN} += "typelib(Nice) typelib-1_0-Nice-0_1 typelib-1_0-Nice-0_1(aarch-64)"
-RDEPENDS:${PN} += "libnice.so.10()(64bit) typelib(GLib) typelib(GObject) typelib(Gio)"
+RPROVIDES:${PN} += "typelib(Nice) \
+typelib-1_0-Nice-0_1 \
+typelib-1_0-Nice-0_1(aarch-64)"
+RDEPENDS:${PN} += "libnice.so.10()(64bit) \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gio)"
 
 inherit rpm

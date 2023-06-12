@@ -11,6 +11,7 @@ RPM_HASH = "13caf9467da8bdcf49c19b145986fc6fe0baf0e95421542e9b22f4d74d3d1bea738c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-metatheme-numix"
-RDEPENDS:${PN} += "cinnamon metatheme-numix-common"
+RDEPENDS:${PN} += "cinnamon \
+metatheme-numix-common"
 
 inherit rpm

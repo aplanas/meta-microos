@@ -14,6 +14,7 @@ RPM_HASH = "793c52dbe8a34e2d03f8bbe43181c89bba15faccb0dc159fef075911cc543e8a31bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-gnupg"
-RDEPENDS:${PN} += "/bin/sh gpg2"
+RDEPENDS:${PN} += "/bin/sh \
+gpg2"
 
 inherit rpm

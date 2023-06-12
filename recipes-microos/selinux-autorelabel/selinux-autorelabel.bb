@@ -10,6 +10,8 @@ RPM_HASH = "3e70b945cc8044d45683f7f990c503cc255a91a089bbb6b0bf4a4bc1c19cf1306e30
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "selinux-autorelabel"
-RDEPENDS:${PN} += "/bin/bash /bin/sh policycoreutils"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+policycoreutils"
 
 inherit rpm

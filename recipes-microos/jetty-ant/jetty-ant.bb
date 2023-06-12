@@ -19,7 +19,18 @@ RPM_NAME = "jetty-ant-9.4.51-1.1.noarch.rpm"
 RPM_HASH = "ae8dff30c70354ce15f03ffac287d85fd5cbcca78d2c8ab58e6adb063e32ea4720a052e94407449d2d37617b1d49f7df8cd8a1d858e878f685e876f213acad05"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(jetty-ant) jetty-ant mvn(org.eclipse.jetty:jetty-ant) mvn(org.eclipse.jetty:jetty-ant:pom:) osgi(org.eclipse.jetty.ant)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(org.apache.ant:ant) mvn(org.apache.ant:ant-launcher) mvn(org.eclipse.jetty:jetty-annotations) mvn(org.eclipse.jetty:jetty-plus) mvn(org.eclipse.jetty:jetty-security) mvn(org.eclipse.jetty:jetty-webapp)"
+RPROVIDES:${PN} += "config(jetty-ant) \
+jetty-ant \
+mvn(org.eclipse.jetty:jetty-ant) \
+mvn(org.eclipse.jetty:jetty-ant:pom:) \
+osgi(org.eclipse.jetty.ant)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(org.apache.ant:ant) \
+mvn(org.apache.ant:ant-launcher) \
+mvn(org.eclipse.jetty:jetty-annotations) \
+mvn(org.eclipse.jetty:jetty-plus) \
+mvn(org.eclipse.jetty:jetty-security) \
+mvn(org.eclipse.jetty:jetty-webapp)"
 
 inherit rpm

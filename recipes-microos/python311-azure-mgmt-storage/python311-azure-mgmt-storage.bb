@@ -13,7 +13,15 @@ RPM_NAME = "python311-azure-mgmt-storage-21.0.0-1.3.noarch.rpm"
 RPM_HASH = "8fae95e4f640a4937a68e8ec53262c7a8b19c6c85095f355e32877b2a93372c31403f7bbef374bbe88e5f33f2a68bfdbca9692b6cbfd389f7101b293a74ad18e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-storage) python311-azure-mgmt-storage python3dist(azure-mgmt-storage)"
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) python(abi) python311-azure-common python311-azure-mgmt-core python311-azure-mgmt-nspkg python311-azure-nspkg python311-msrest"
+RPROVIDES:${PN} += "python3.11dist(azure-mgmt-storage) \
+python311-azure-mgmt-storage \
+python3dist(azure-mgmt-storage)"
+RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
+python(abi) \
+python311-azure-common \
+python311-azure-mgmt-core \
+python311-azure-mgmt-nspkg \
+python311-azure-nspkg \
+python311-msrest"
 
 inherit rpm

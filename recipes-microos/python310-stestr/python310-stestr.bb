@@ -19,7 +19,20 @@ RPM_NAME = "python310-stestr-3.2.1-2.3.noarch.rpm"
 RPM_HASH = "951905cde9ae6b8c168afdd6062e0a498f001b5297ee98e15b2d211f50375a73892cac56d3d8634fc237ba061333a0216584ae127216f95b5025fc74a6fe99ba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-stestr python3.10dist(stestr) python310-stestr python3dist(stestr)"
-RDEPENDS:${PN} += "/usr/bin/python3.10 python(abi) python3-cliff python310-PyYAML python310-dbm python310-fixtures python310-future python310-pbr python310-python-subunit python310-testtools python310-voluptuous"
+RPROVIDES:${PN} += "python3-stestr \
+python3.10dist(stestr) \
+python310-stestr \
+python3dist(stestr)"
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+python(abi) \
+python3-cliff \
+python310-PyYAML \
+python310-dbm \
+python310-fixtures \
+python310-future \
+python310-pbr \
+python310-python-subunit \
+python310-testtools \
+python310-voluptuous"
 
 inherit rpm

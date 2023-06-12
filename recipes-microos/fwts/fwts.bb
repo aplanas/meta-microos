@@ -12,7 +12,27 @@ PV = "23.05.00"
 RPM_NAME = "fwts-23.05.00-1.1.aarch64.rpm"
 RPM_HASH = "f0f2362e47f647cae35f333be09d168bc36e566ec9c062ad221c1144c02e9af45dea8865d7bf65857726a31c082debe60d7e78ded326deff45c877808449db06"
 
-RPROVIDES:${PN} += "fwts fwts(aarch-64) libfwts.so.1()(64bit) libfwtsacpica.so.1()(64bit) libfwtsiasl.so.1()(64bit)"
-RDEPENDS:${PN} += "bash-completion ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbsd.so.0()(64bit) libbsd.so.0(LIBBSD_0.0)(64bit) libc.so.6(GLIBC_2.34)(64bit) libfdt.so.1()(64bit) libfdt.so.1(LIBFDT_1.2)(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libpci.so.3()(64bit) libpci.so.3(LIBPCI_3.0)(64bit) libpci.so.3(LIBPCI_3.5)(64bit) libpci.so.3(LIBPCI_3.8)(64bit)"
+RPROVIDES:${PN} += "fwts \
+fwts(aarch-64) \
+libfwts.so.1()(64bit) \
+libfwtsacpica.so.1()(64bit) \
+libfwtsiasl.so.1()(64bit)"
+RDEPENDS:${PN} += "bash-completion \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbsd.so.0()(64bit) \
+libbsd.so.0(LIBBSD_0.0)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libfdt.so.1()(64bit) \
+libfdt.so.1(LIBFDT_1.2)(64bit) \
+libgio-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libpci.so.3()(64bit) \
+libpci.so.3(LIBPCI_3.0)(64bit) \
+libpci.so.3(LIBPCI_3.5)(64bit) \
+libpci.so.3(LIBPCI_3.8)(64bit)"
 
 inherit rpm

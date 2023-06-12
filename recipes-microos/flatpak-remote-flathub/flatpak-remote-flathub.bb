@@ -10,6 +10,8 @@ RPM_HASH = "25ea3dc8cdb60bb5f3f734a76dd9020e80bece65f3f2cc23a9f0d90481a08b5fd104
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flatpak-remote-flathub"
-RDEPENDS:${PN} += "/bin/sh flatpak sed"
+RDEPENDS:${PN} += "/bin/sh \
+flatpak \
+sed"
 
 inherit rpm

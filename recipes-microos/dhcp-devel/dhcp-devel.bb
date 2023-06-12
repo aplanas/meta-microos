@@ -8,7 +8,8 @@ PV = "4.4.2.P1"
 RPM_NAME = "dhcp-devel-4.4.2.P1-14.3.aarch64.rpm"
 RPM_HASH = "17d50fab779479f6d8b1f21eb5dcc1b7a4635f4a7c647faea21a64114cb155ae21139b6dfeee73eb6a434c8580c908d123027bf7f9cf2485526c1e11e8c9f837"
 
-RPROVIDES:${PN} += "dhcp-devel dhcp-devel(aarch-64)"
+RPROVIDES:${PN} += "dhcp-devel \
+dhcp-devel(aarch-64)"
 RDEPENDS:${PN} += "dhcp"
 
 inherit rpm

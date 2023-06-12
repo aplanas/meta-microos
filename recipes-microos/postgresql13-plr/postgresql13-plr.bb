@@ -23,7 +23,15 @@ PV = "8.4.5"
 RPM_NAME = "postgresql13-plr-8.4.5-1.1.aarch64.rpm"
 RPM_HASH = "85c715aff40cdbb2bf6c235ef479632cdf1f6f6fbb46c3387e945e2a8c474e6a55d672886649c271c7e1fe5e5922601db7e3119c4655280edc36c1872b15228a"
 
-RPROVIDES:${PN} += "config(postgresql13-plr) postgresql13-plr postgresql13-plr(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig R-base ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libR.so()(64bit) libc.so.6(GLIBC_2.33)(64bit) postgresql13-server"
+RPROVIDES:${PN} += "config(postgresql13-plr) \
+postgresql13-plr \
+postgresql13-plr(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+R-base \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libR.so()(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+postgresql13-server"
 
 inherit rpm

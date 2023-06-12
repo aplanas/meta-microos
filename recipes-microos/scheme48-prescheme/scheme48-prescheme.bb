@@ -17,7 +17,9 @@ PV = "1.9.2"
 RPM_NAME = "scheme48-prescheme-1.9.2-2.18.aarch64.rpm"
 RPM_HASH = "34d33527a33e4fb9c25cc0b70881b7388af371b579f77c06e5156b42fd517017c579efe57718d21aadda0d9f211897564cfd39721d3e684e974aa118f3ceae10"
 
-RPROVIDES:${PN} += "scheme48-prescheme scheme48-prescheme(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh scheme48"
+RPROVIDES:${PN} += "scheme48-prescheme \
+scheme48-prescheme(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+scheme48"
 
 inherit rpm

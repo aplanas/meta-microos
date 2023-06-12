@@ -21,7 +21,26 @@ RPM_NAME = "texlive-missaali-2023.201.2.0svn61719-54.1.noarch.rpm"
 RPM_HASH = "e1c28e026f5428f6fe0772dcae788ea9390e5d0602124ab348e19dc75bda5238c9e7a91c95ca2c8333a62835c24eecb913ab1cb28c49ccdf301599f4d24bd457"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(missaali.sty) texlive-missaali"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(accsupp.sty) tex(calc.sty) tex(fontspec.sty) tex(geometry.sty) tex(ifthen.sty) tex(multicol.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-missaali-fonts texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(missaali.sty) \
+texlive-missaali"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(accsupp.sty) \
+tex(calc.sty) \
+tex(fontspec.sty) \
+tex(geometry.sty) \
+tex(ifthen.sty) \
+tex(multicol.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-missaali-fonts \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

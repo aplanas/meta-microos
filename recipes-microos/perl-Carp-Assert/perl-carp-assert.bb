@@ -84,7 +84,8 @@ RPM_NAME = "perl-Carp-Assert-0.22-1.1.noarch.rpm"
 RPM_HASH = "1889cd10a4205f02693e793d1334c2831ad237b8916c9f1e5ff5790fe629c40ea5e03bec33108ac13112b79d09287ede2cb311d909ed1241b0bd9fef6f70d550"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Carp::Assert) perl-Carp-Assert"
+RPROVIDES:${PN} += "perl(Carp::Assert) \
+perl-Carp-Assert"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

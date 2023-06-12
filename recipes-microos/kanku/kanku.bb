@@ -13,6 +13,11 @@ RPM_HASH = "85c678c3418f55d7138acb1431854448d998c41925f25e899a0b8235a8b21b83eeaf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku"
-RDEPENDS:${PN} += "kanku-cli kanku-dispatcher kanku-scheduler kanku-triggerd kanku-web kanku-worker"
+RDEPENDS:${PN} += "kanku-cli \
+kanku-dispatcher \
+kanku-scheduler \
+kanku-triggerd \
+kanku-web \
+kanku-worker"
 
 inherit rpm

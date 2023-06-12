@@ -11,6 +11,9 @@ RPM_HASH = "2cab92de6d1024583847142f7e0ccf0cdc075aa2febbc8e8297b422c9f409d33f3e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "inxi"
-RDEPENDS:${PN} += "/usr/bin/perl pciutils procps util-linux"
+RDEPENDS:${PN} += "/usr/bin/perl \
+pciutils \
+procps \
+util-linux"
 
 inherit rpm

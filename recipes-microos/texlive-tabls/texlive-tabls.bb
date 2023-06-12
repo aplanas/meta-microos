@@ -12,7 +12,19 @@ RPM_NAME = "texlive-tabls-2023.201.3.5svn17255-54.1.noarch.rpm"
 RPM_HASH = "26ff7bae6e6b24ce19081889f8c8c07957967562ccc6be5a3df57738f8a7529d0b52a424620142e295fb4926aa60848c323633c0777aa7d40d27382cd3d4f240"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tabls.sty) texlive-tabls"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(tabls.sty) \
+texlive-tabls"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

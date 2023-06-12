@@ -14,6 +14,7 @@ RPM_HASH = "3cd6466ba4a01d537eaa4ec64099c058a3954e02099e65ef730f5186bbca5347d2f2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "psl-make-dafsa"
-RDEPENDS:${PN} += "/usr/bin/python3 python3-base"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3-base"
 
 inherit rpm

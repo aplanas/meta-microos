@@ -16,7 +16,20 @@ RPM_NAME = "texlive-newverbs-2023.201.1.6asvn64833-54.1.noarch.rpm"
 RPM_HASH = "59ca1706e6e3993a51ae52d7f29a434270d571d14ca95058c0e68127c2eef056a3faabbfe1080571e05fe32a9b4534eda0fdd7c4e937ebb97ba184112b20647d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(newverbs.sty) texlive-newverbs"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(shortvrb.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(newverbs.sty) \
+texlive-newverbs"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(shortvrb.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -20,7 +20,22 @@ RPM_NAME = "texlive-etextools-2023.201.3.1415926svn20694-52.1.noarch.rpm"
 RPM_HASH = "ccaf227bc2333b90b21c4c10a32c473e4d0f4ec201a19f93e5f5020d1f36ea1c78d0bb305d9a0f5b6ec93fbb0b6d401fbf5c8b8121e98a9619fa440b01eb73da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(etextools.sty) texlive-etextools"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(etex.sty) tex(etoolbox.sty) tex(letltxmacro.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(etextools.sty) \
+texlive-etextools"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(etex.sty) \
+tex(etoolbox.sty) \
+tex(letltxmacro.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

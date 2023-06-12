@@ -11,6 +11,7 @@ RPM_HASH = "ae1a2266378ddb90eb77288fa41eb154f7c0117dc0f5e737cade6e25b47a58d3a393
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ocr-gnu-mvapich2-hpc-devel"
-RDEPENDS:${PN} += "/bin/sh ocr_1_0_1-gnu-mvapich2-hpc-devel"
+RDEPENDS:${PN} += "/bin/sh \
+ocr_1_0_1-gnu-mvapich2-hpc-devel"
 
 inherit rpm

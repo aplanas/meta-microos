@@ -11,7 +11,13 @@ RPM_NAME = "python310-pybind11-2.10.4-2.1.noarch.rpm"
 RPM_HASH = "19df8bb18aef4797a4de68e1c1c1500d19ff7f8165930e38721e13c3aafedb71ae370deeb13e0fd351a6000b715b7540092fbaa233a0dfe43c610f41a795d748"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pybind11 python3.10dist(pybind11) python310-pybind11 python3dist(pybind11)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 alts python(abi)"
+RPROVIDES:${PN} += "python3-pybind11 \
+python3.10dist(pybind11) \
+python310-pybind11 \
+python3dist(pybind11)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+alts \
+python(abi)"
 
 inherit rpm

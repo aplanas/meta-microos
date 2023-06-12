@@ -21,7 +21,23 @@ RPM_NAME = "texlive-ccool-2023.201.3.2svn60600-52.1.noarch.rpm"
 RPM_HASH = "b649db0bbeaa87d8cb1e9ff358d0f6eae24ab10f32563cd7f7962cf427a0dd788711302d87bdbdc47f988ea8ff723d42803fce250d6af3a0598b67cdd0b6fe51"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ccool.sty) texlive-ccool"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(expl3.sty) tex(l3keys2e.sty) tex(lambdax.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(ccool.sty) \
+texlive-ccool"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(expl3.sty) \
+tex(l3keys2e.sty) \
+tex(lambdax.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

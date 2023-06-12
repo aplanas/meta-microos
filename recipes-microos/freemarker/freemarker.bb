@@ -12,7 +12,11 @@ RPM_NAME = "freemarker-2.3.31-2.8.noarch.rpm"
 RPM_HASH = "0e51abfe6eb1820cae8d0079a4e651bdc21126ccd1b7e342cd160c6c36c6b54d6897506dc7b4950cb6b1e368782a138b28ff201276112c52ac8accae87d489df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "freemarker mvn(org.freemarker:freemarker) mvn(org.freemarker:freemarker:pom:) osgi(org.freemarker.freemarker)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "freemarker \
+mvn(org.freemarker:freemarker) \
+mvn(org.freemarker:freemarker:pom:) \
+osgi(org.freemarker.freemarker)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

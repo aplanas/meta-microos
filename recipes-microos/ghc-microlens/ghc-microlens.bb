@@ -63,7 +63,14 @@ PV = "0.4.13.1"
 RPM_NAME = "ghc-microlens-0.4.13.1-2.2.aarch64.rpm"
 RPM_HASH = "20a9d980689e0af4972d80693ff8ddf8d3f2884d5153929e1f6e089fd062def81210ed77f9751e84eca1bb09714c3914fdd57096f6a28d194994209d0c3a8c10"
 
-RPROVIDES:${PN} += "ghc-microlens ghc-microlens(aarch-64) libHSmicrolens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1-ghc9.4.5.so()(64bit)"
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) libc.so.6(GLIBC_2.17)(64bit) libgmp.so.10()(64bit) libm.so.6()(64bit)"
+RPROVIDES:${PN} += "ghc-microlens \
+ghc-microlens(aarch-64) \
+libHSmicrolens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1-ghc9.4.5.so()(64bit)"
+RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
+libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
+libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgmp.so.10()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

@@ -15,7 +15,28 @@ RPM_NAME = "texlive-pst-pdf-2023.201.1.2fsvn56622-53.1.noarch.rpm"
 RPM_HASH = "898578e8b0057c3f62dffebbcdd329ca28f861544e7ab823a56c6ceb2b77519f81b2737dafaa90d7598ca48ec493d489ab1a3152fc3a0a2c2a073772e033b888"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-pdf.sty) texlive-pst-pdf"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(environ.sty) tex(graphicx.sty) tex(ifpdf.sty) tex(ifvtex.sty) tex(ifxetex.sty) tex(luatex85.sty) tex(preview.sty) tex(pstricks.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-pst-pdf-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(pst-pdf.sty) \
+texlive-pst-pdf"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(environ.sty) \
+tex(graphicx.sty) \
+tex(ifpdf.sty) \
+tex(ifvtex.sty) \
+tex(ifxetex.sty) \
+tex(luatex85.sty) \
+tex(preview.sty) \
+tex(pstricks.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-pst-pdf-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -13,7 +13,20 @@ RPM_NAME = "texlive-na-position-2023.201.1.2svn55559-54.1.noarch.rpm"
 RPM_HASH = "7d1379967ae935514ba08ed70fe36d9356d82155bfb8bf5effafb3863d3f010e3813d2ef410fba3145fae3563c29e7dbb44a56b33f935d1ad133618e2c2442bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(na-position.sty) texlive-na-position"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(tkz-tab.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(na-position.sty) \
+texlive-na-position"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(tkz-tab.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

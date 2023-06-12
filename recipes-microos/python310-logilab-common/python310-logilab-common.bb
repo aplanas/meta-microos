@@ -16,7 +16,10 @@ RPM_NAME = "python310-logilab-common-1.9.8-1.3.noarch.rpm"
 RPM_HASH = "644f47d5b21ae86fa52f3a50b887f51f3b4866bf5944baed5af79c44255deb283fc1a8d811e081783162c430dabbce21d9366f9f3998ab17ebee1e6c0f2dbb57"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-logilab-common python3.10dist(logilab-common) python310-logilab-common python3dist(logilab-common)"
+RPROVIDES:${PN} += "python3-logilab-common \
+python3.10dist(logilab-common) \
+python310-logilab-common \
+python3dist(logilab-common)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

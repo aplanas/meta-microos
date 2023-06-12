@@ -16,7 +16,12 @@ PV = "6.5"
 RPM_NAME = "ocaml-brlapi-6.5-2.4.aarch64.rpm"
 RPM_HASH = "716d8ec04061793e8a2b962546fa73b8cb2af31aa52cf7c93827d2b118b0c6f818ceb073f0d913f5741bb4db854c6490c147fcff6642b9d79c997bc5612a55ad"
 
-RPROVIDES:${PN} += "ocaml-brlapi ocaml-brlapi(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbrlapi.so.0.8()(64bit) libc.so.6(GLIBC_2.17)(64bit) ocaml"
+RPROVIDES:${PN} += "ocaml-brlapi \
+ocaml-brlapi(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbrlapi.so.0.8()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+ocaml"
 
 inherit rpm

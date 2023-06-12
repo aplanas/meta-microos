@@ -11,7 +11,10 @@ PV = "1.0.7"
 RPM_NAME = "libecpint-devel-1.0.7-2.10.aarch64.rpm"
 RPM_HASH = "572a4ba5f058f7ad8d15033a896b51705e34014cf505e9fd7ff59a68d0455cac9d630176e6af909ceff5f260952930306d727c16a15d84bee8012957d54cc146"
 
-RPROVIDES:${PN} += "cmake(ecpint) libecpint-devel libecpint-devel(aarch-64)"
-RDEPENDS:${PN} += "libcerf-devel libecpint1"
+RPROVIDES:${PN} += "cmake(ecpint) \
+libecpint-devel \
+libecpint-devel(aarch-64)"
+RDEPENDS:${PN} += "libcerf-devel \
+libecpint1"
 
 inherit rpm

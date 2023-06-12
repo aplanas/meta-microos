@@ -17,7 +17,19 @@ RPM_NAME = "python39-holoviews-1.15.4-1.2.noarch.rpm"
 RPM_HASH = "553ce8578401fb0d9db2183f98f89fd789900191cb9a3bdcea527fa1d92d2af52b0e2b49f85707b52946cc5acbbe2760b3b9cc06f9b2b046611af7c6ca7a3753"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(holoviews) python39-holoviews python3dist(holoviews)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-colorcet python39-numpy python39-packaging python39-pandas python39-panel python39-param python39-pyviz-comms update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(holoviews) \
+python39-holoviews \
+python3dist(holoviews)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-colorcet \
+python39-numpy \
+python39-packaging \
+python39-pandas \
+python39-panel \
+python39-param \
+python39-pyviz-comms \
+update-alternatives"
 
 inherit rpm

@@ -25,7 +25,14 @@ PV = "5.004"
 RPM_NAME = "perl-Sereal-Encoder-5.004-1.1.aarch64.rpm"
 RPM_HASH = "b8dea51240a1a711b37c2a48ca5169d59a1e26213a26d396d5bf5ffcb5fbf875959e3850b32180631173c40d2d0f785424ef67d3b75525b339f24a7613c56fe1"
 
-RPROVIDES:${PN} += "perl(Sereal::Encoder) perl(Sereal::Encoder::Constants) perl-Sereal-Encoder perl-Sereal-Encoder(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0) perl(Sereal::Decoder)"
+RPROVIDES:${PN} += "perl(Sereal::Encoder) \
+perl(Sereal::Encoder::Constants) \
+perl-Sereal-Encoder \
+perl-Sereal-Encoder(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Sereal::Decoder)"
 
 inherit rpm

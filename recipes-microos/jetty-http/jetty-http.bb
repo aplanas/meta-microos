@@ -19,7 +19,13 @@ RPM_NAME = "jetty-http-9.4.51-1.1.noarch.rpm"
 RPM_HASH = "3c0492efb9c535872009541d80bf317bb7c1067c7b7f00a338471fbfa3e3c7a16fe2d4cad4177d71e26946c2699eddda02f86393ca90599338cee307734f5ec8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jetty-http mvn(org.eclipse.jetty:jetty-http) mvn(org.eclipse.jetty:jetty-http:pom:) osgi(org.eclipse.jetty.http)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(org.eclipse.jetty:jetty-io) mvn(org.eclipse.jetty:jetty-util)"
+RPROVIDES:${PN} += "jetty-http \
+mvn(org.eclipse.jetty:jetty-http) \
+mvn(org.eclipse.jetty:jetty-http:pom:) \
+osgi(org.eclipse.jetty.http)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(org.eclipse.jetty:jetty-io) \
+mvn(org.eclipse.jetty:jetty-util)"
 
 inherit rpm

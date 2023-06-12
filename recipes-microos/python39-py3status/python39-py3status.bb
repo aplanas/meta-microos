@@ -18,7 +18,14 @@ RPM_NAME = "python39-py3status-3.50-1.1.noarch.rpm"
 RPM_HASH = "11c8d7abed683e101dcb065506a547288f60a2c0059a4358b68db602ecdea71fbf3a2d0764936095029648aa8414a01cd31d801d1848f4244d39827277377279"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "py3status python3.9dist(py3status) python39-py3status python3dist(py3status)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-setuptools update-alternatives"
+RPROVIDES:${PN} += "py3status \
+python3.9dist(py3status) \
+python39-py3status \
+python3dist(py3status)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-setuptools \
+update-alternatives"
 
 inherit rpm

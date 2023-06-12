@@ -16,7 +16,9 @@ RPM_NAME = "python311-PyDispatcher-2.0.7-1.1.noarch.rpm"
 RPM_HASH = "b479cb4e0b1b634a9e719ced3c8a973064bc0df1074028ac9b32f4e18d6e94f584129efa422a9f6fe5031645c3cec3658171a93791a15f82da34553c427d0eaf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pydispatcher) python311-PyDispatcher python3dist(pydispatcher)"
+RPROVIDES:${PN} += "python3.11dist(pydispatcher) \
+python311-PyDispatcher \
+python3dist(pydispatcher)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

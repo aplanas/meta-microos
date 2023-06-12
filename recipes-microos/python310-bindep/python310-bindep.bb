@@ -13,7 +13,16 @@ RPM_NAME = "python310-bindep-2.11.0-3.1.noarch.rpm"
 RPM_HASH = "0671f1daf120365ec2af070b916e645db645189ed5ffca767e81564137df7687198c1427f37b0434b040c7e9ce60583d3783dcb7d568c70eba533137c2c656b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-bindep python3.10dist(bindep) python310-bindep python3dist(bindep)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-Parsley python310-distro python310-packaging python310-pbr"
+RPROVIDES:${PN} += "python3-bindep \
+python3.10dist(bindep) \
+python310-bindep \
+python3dist(bindep)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-Parsley \
+python310-distro \
+python310-packaging \
+python310-pbr"
 
 inherit rpm

@@ -7,7 +7,11 @@ PV = "1.1.6"
 RPM_NAME = "mtdev-1.1.6-1.10.aarch64.rpm"
 RPM_HASH = "68b09c4277b4dceaa205963813f145304d4d0ad0dcb172f36772713b4581127b4ef5c5bba1a24a15879506500710a5e3f0dc597ba7e6490290d31639accc10c9"
 
-RPROVIDES:${PN} += "mtdev mtdev(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libmtdev.so.1()(64bit)"
+RPROVIDES:${PN} += "mtdev \
+mtdev(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libmtdev.so.1()(64bit)"
 
 inherit rpm

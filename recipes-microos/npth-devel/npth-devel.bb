@@ -10,7 +10,9 @@ PV = "1.6"
 RPM_NAME = "npth-devel-1.6-2.10.aarch64.rpm"
 RPM_HASH = "cea088f0d7a08223412ed8b3290138d3ab9735197ad67d994693132b1b6db98f027569a470118e2fda70eeb2fa5f0a44b9bef7f6dfe9a7d25e969979eec5d481"
 
-RPROVIDES:${PN} += "npth-devel npth-devel(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh libnpth0"
+RPROVIDES:${PN} += "npth-devel \
+npth-devel(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+libnpth0"
 
 inherit rpm

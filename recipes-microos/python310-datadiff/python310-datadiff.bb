@@ -13,7 +13,10 @@ RPM_NAME = "python310-datadiff-2.1.0-1.2.noarch.rpm"
 RPM_HASH = "dce5325ef6adb931273d4683d1ad87268c7065abb6652b4fd521ace0ed1e00177c22f267978953f2cfda565fb9d6598e44ab8f6c51cb8bb37d0b08515abeb79d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-datadiff python3.10dist(datadiff) python310-datadiff python3dist(datadiff)"
+RPROVIDES:${PN} += "python3-datadiff \
+python3.10dist(datadiff) \
+python310-datadiff \
+python3dist(datadiff)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

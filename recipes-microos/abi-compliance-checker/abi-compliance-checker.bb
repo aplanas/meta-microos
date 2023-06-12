@@ -19,7 +19,20 @@ RPM_NAME = "abi-compliance-checker-2.3-3.10.noarch.rpm"
 RPM_HASH = "0c3e79955376f945108fae4ecf83b3a66e51954b1a107fe3bd0ca1d11e1e6e596942ac1bf7b1c49e040396437bc2cf5ebec77978c54b112ae6be2a581ad3ba1f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "abi-compliance-checker perl(In)"
-RDEPENDS:${PN} += "/usr/bin/perl abi-dumper binutils coreutils cpio ctags diffutils file gcc-c++ gzip perl-base rpm tar"
+RPROVIDES:${PN} += "abi-compliance-checker \
+perl(In)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+abi-dumper \
+binutils \
+coreutils \
+cpio \
+ctags \
+diffutils \
+file \
+gcc-c++ \
+gzip \
+perl-base \
+rpm \
+tar"
 
 inherit rpm

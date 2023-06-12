@@ -26,7 +26,8 @@ RPM_NAME = "perl-Test-RequiresInternet-0.05-1.26.noarch.rpm"
 RPM_HASH = "bcad611dffa9febabe4eed41e7c1cdea738b03a46d7463b3296ab94be52e762982935520667d798d17a114fe0d9409484de8c990f03f75b0dc1c9822537fdde7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::RequiresInternet) perl-Test-RequiresInternet"
+RPROVIDES:${PN} += "perl(Test::RequiresInternet) \
+perl-Test-RequiresInternet"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

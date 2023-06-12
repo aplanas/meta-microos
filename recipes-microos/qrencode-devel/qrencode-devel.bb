@@ -12,7 +12,10 @@ PV = "4.1.1"
 RPM_NAME = "qrencode-devel-4.1.1-1.11.aarch64.rpm"
 RPM_HASH = "00b19287f49c6e3c7aeb4a6b2fa614f87aa7d5604561f3b692af56d237b484643ce88ebdf2cf0d4c85c1d7f86abb078e9cf5dbed6a4fcaa6cb63c5680f2dc3ce"
 
-RPROVIDES:${PN} += "pkgconfig(libqrencode) qrencode-devel qrencode-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libqrencode4"
+RPROVIDES:${PN} += "pkgconfig(libqrencode) \
+qrencode-devel \
+qrencode-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libqrencode4"
 
 inherit rpm

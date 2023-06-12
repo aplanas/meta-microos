@@ -22,7 +22,20 @@ RPM_NAME = "perl-User-Identity-1.02-1.1.noarch.rpm"
 RPM_HASH = "f909f410b8d44968ae3ca371a9834f04c21c498b410ccbfb0abd62af41c91e5cb1a830762d1b2bb5faa24d8e48bcf078a507439bdc2fd381ab7332d3efeb4f9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mail::Identity) perl(User::Identity) perl(User::Identity::Archive) perl(User::Identity::Archive::Plain) perl(User::Identity::Collection) perl(User::Identity::Collection::Emails) perl(User::Identity::Collection::Locations) perl(User::Identity::Collection::Systems) perl(User::Identity::Collection::Users) perl(User::Identity::Item) perl(User::Identity::Location) perl(User::Identity::System) perl-User-Identity"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Hash::Ordered)"
+RPROVIDES:${PN} += "perl(Mail::Identity) \
+perl(User::Identity) \
+perl(User::Identity::Archive) \
+perl(User::Identity::Archive::Plain) \
+perl(User::Identity::Collection) \
+perl(User::Identity::Collection::Emails) \
+perl(User::Identity::Collection::Locations) \
+perl(User::Identity::Collection::Systems) \
+perl(User::Identity::Collection::Users) \
+perl(User::Identity::Item) \
+perl(User::Identity::Location) \
+perl(User::Identity::System) \
+perl-User-Identity"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Hash::Ordered)"
 
 inherit rpm

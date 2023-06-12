@@ -12,7 +12,9 @@ RPM_NAME = "perl-Module-Reader-0.003003-1.22.noarch.rpm"
 RPM_HASH = "90cb36a82012c3057784758a9ea59b8346d0f5066cfc074e4ab8fc6fc9e8544cc07bce351d2c9b849ef2a54b32280edd7171a6c92555aad02534bf02e22c30ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Module::Reader) perl(Module::Reader::File) perl-Module-Reader"
+RPROVIDES:${PN} += "perl(Module::Reader) \
+perl(Module::Reader::File) \
+perl-Module-Reader"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

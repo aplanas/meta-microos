@@ -56,7 +56,10 @@ RPM_NAME = "perl-Test-Spelling-0.25-1.16.noarch.rpm"
 RPM_HASH = "9ca8cad3f1e7647119345184b1208e4aec71a94abc054a7dcff9ef947a1d29852c8f253191f90dbf5c06b516c0e2709a8e008c168fc648bbf38a97e17b71fe57"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Spelling) perl-Test-Spelling"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(IPC::Run3) perl(Pod::Spell)"
+RPROVIDES:${PN} += "perl(Test::Spelling) \
+perl-Test-Spelling"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(IPC::Run3) \
+perl(Pod::Spell)"
 
 inherit rpm

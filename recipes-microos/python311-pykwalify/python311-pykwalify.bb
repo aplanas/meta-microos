@@ -12,7 +12,16 @@ RPM_NAME = "python311-pykwalify-1.8.0-1.10.noarch.rpm"
 RPM_HASH = "d865cde698f09d1cd0c0c8736c2f0b55e822bb9ff03ed9d1b641f9a2f3872119da74e0d271c841eb142280fc62a7f4b9777e4700f43f0908dc87829979038fb2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pykwalify) python311-pykwalify python3dist(pykwalify)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-PyYAML python311-docopt python311-python-dateutil python311-ruamel.yaml update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(pykwalify) \
+python311-pykwalify \
+python3dist(pykwalify)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-PyYAML \
+python311-docopt \
+python311-python-dateutil \
+python311-ruamel.yaml \
+update-alternatives"
 
 inherit rpm

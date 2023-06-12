@@ -13,7 +13,8 @@ PV = "1.29.0"
 RPM_NAME = "pkcs11-helper-1.29.0-1.3.aarch64.rpm"
 RPM_HASH = "361cb30caa000ff607f76a547dd5607c0d564e899ed1c73d427af0dd30216da73e6639fdb23f2022b1b89c0c7631d138a18c4a5c145a6dcc182d80d5858a539f"
 
-RPROVIDES:${PN} += "pkcs11-helper pkcs11-helper(aarch-64)"
+RPROVIDES:${PN} += "pkcs11-helper \
+pkcs11-helper(aarch-64)"
 RDEPENDS:${PN} += "libpkcs11-helper1"
 
 inherit rpm

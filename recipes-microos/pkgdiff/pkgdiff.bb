@@ -11,6 +11,12 @@ RPM_HASH = "4fe34fa6f5680aee0cc9d700a3b8e15b43ccbca1610de79b2c5220d59d76814546a1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgdiff"
-RDEPENDS:${PN} += "/bin/bash /usr/bin/perl awk binutils diff perl-base wdiff"
+RDEPENDS:${PN} += "/bin/bash \
+/usr/bin/perl \
+awk \
+binutils \
+diff \
+perl-base \
+wdiff"
 
 inherit rpm

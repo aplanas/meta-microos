@@ -39,7 +39,26 @@ RPM_NAME = "perl-Lingua-Stem-2.31-1.12.noarch.rpm"
 RPM_HASH = "4cf82538cceee6df89a6700fed0c284360d9e6d9e1134de67a4ebc40971779f5de46aad87f84e067c5d2622ec5c0b4c74f463b422994706001d5919f30903a7d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Lingua::Stem) perl(Lingua::Stem::AutoLoader) perl(Lingua::Stem::Da) perl(Lingua::Stem::De) perl(Lingua::Stem::En) perl(Lingua::Stem::EnBroken) perl(Lingua::Stem::Gl) perl(Lingua::Stem::No) perl(Lingua::Stem::Pt) perl(Lingua::Stem::Sv) perl-Lingua-Stem"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Lingua::GL::Stemmer) perl(Lingua::PT::Stemmer) perl(Lingua::Stem::Fr) perl(Lingua::Stem::It) perl(Lingua::Stem::Ru) perl(Lingua::Stem::Snowball::Da) perl(Lingua::Stem::Snowball::No) perl(Lingua::Stem::Snowball::Se) perl(Text::German)"
+RPROVIDES:${PN} += "perl(Lingua::Stem) \
+perl(Lingua::Stem::AutoLoader) \
+perl(Lingua::Stem::Da) \
+perl(Lingua::Stem::De) \
+perl(Lingua::Stem::En) \
+perl(Lingua::Stem::EnBroken) \
+perl(Lingua::Stem::Gl) \
+perl(Lingua::Stem::No) \
+perl(Lingua::Stem::Pt) \
+perl(Lingua::Stem::Sv) \
+perl-Lingua-Stem"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Lingua::GL::Stemmer) \
+perl(Lingua::PT::Stemmer) \
+perl(Lingua::Stem::Fr) \
+perl(Lingua::Stem::It) \
+perl(Lingua::Stem::Ru) \
+perl(Lingua::Stem::Snowball::Da) \
+perl(Lingua::Stem::Snowball::No) \
+perl(Lingua::Stem::Snowball::Se) \
+perl(Text::German)"
 
 inherit rpm

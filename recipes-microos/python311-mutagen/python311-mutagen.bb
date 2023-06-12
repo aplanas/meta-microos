@@ -14,7 +14,13 @@ RPM_NAME = "python311-mutagen-1.46.0-1.4.noarch.rpm"
 RPM_HASH = "f039f1fd304a5736e72db297b4e875a26f579a8e3b5fb6bbbfdff27b15c424d53bcf5a2cdd893eb03773f31f8510c97abeeb28502c11c7f655986b2a6db0164a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(mutagen) python311-mutagen python3dist(mutagen)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(mutagen) \
+python311-mutagen \
+python3dist(mutagen)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-setuptools \
+update-alternatives"
 
 inherit rpm

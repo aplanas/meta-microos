@@ -19,7 +19,31 @@ RPM_NAME = "texlive-svg-2023.201.2.02ksvn57010-57.1.noarch.rpm"
 RPM_HASH = "d7c561f10da41e2aff9ba598df571166f188eeb138e472554c9016a98dd7184a92ad8213cfb7b96567aad4e6f931df5f29d71b9b08c890e1ba09c2b9d2deded8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(svg-extract.sty) tex(svg.sty) texlive-svg"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(graphicx.sty) tex(ifplatform.sty) tex(iftex.sty) tex(pdftexcmds.sty) tex(pgfsys.sty) tex(scrbase.sty) tex(shellesc.sty) tex(transparent.sty) tex(trimspaces.sty) tex(xcolor.sty) tex(xr.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(svg-extract.sty) \
+tex(svg.sty) \
+texlive-svg"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(graphicx.sty) \
+tex(ifplatform.sty) \
+tex(iftex.sty) \
+tex(pdftexcmds.sty) \
+tex(pgfsys.sty) \
+tex(scrbase.sty) \
+tex(shellesc.sty) \
+tex(transparent.sty) \
+tex(trimspaces.sty) \
+tex(xcolor.sty) \
+tex(xr.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -15,7 +15,20 @@ RPM_NAME = "texlive-worksheet-2023.201.1.1svn48423-53.1.noarch.rpm"
 RPM_HASH = "f6ddf4b9ee104494617bdbfb18aeee31e07d4983bb07f4d90eb1dfc7df2a24650eafefb303b190a57abf9b00a91d367ccd8d42a1bd99e716e06578edeb77674b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(worksheet.sty) texlive-worksheet"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(scrlayer-scrpage.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(worksheet.sty) \
+texlive-worksheet"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(scrlayer-scrpage.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -8,7 +8,11 @@ RPM_NAME = "myspell-ar_QA-20221012-1.2.noarch.rpm"
 RPM_HASH = "ac04edbcc2952c32c2f78eecf8567484560a22cb988b97a044905cc5433fdd9fa9f01ea66705ee00a49399abfb8f64f803db92805c7ed04eba91bdc615fe0533"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:ar_QA) locale(seamonkey-spellchecker:ar_QA) myspell-ar_QA myspell-dictionary"
-RDEPENDS:${PN} += "myspell-ar myspell-dictionaries"
+RPROVIDES:${PN} += "locale(libreoffice:ar_QA) \
+locale(seamonkey-spellchecker:ar_QA) \
+myspell-ar_QA \
+myspell-dictionary"
+RDEPENDS:${PN} += "myspell-ar \
+myspell-dictionaries"
 
 inherit rpm

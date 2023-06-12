@@ -11,6 +11,8 @@ RPM_HASH = "3d957c62c8bd0e48e5c5ad1be58ae89d51d59824fce1a9775669bd3b6ed65f5b95ac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openmpi_1_10_7-gnu-hpc-testsuite"
-RDEPENDS:${PN} += "gnu-compilers-hpc lua-lmod openmpi-runtime-config"
+RDEPENDS:${PN} += "gnu-compilers-hpc \
+lua-lmod \
+openmpi-runtime-config"
 
 inherit rpm

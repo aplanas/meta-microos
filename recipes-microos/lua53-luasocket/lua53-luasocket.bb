@@ -13,7 +13,11 @@ PV = "3.1.0"
 RPM_NAME = "lua53-luasocket-3.1.0-2.2.aarch64.rpm"
 RPM_HASH = "9e643442d190e6b0862ede1633344b7bc89f490e912c774d9fa8c9fc1b2d5c4e75fa623871129e7f6e392e220cfdeb258bca475712d606e55d62de273f1cb0a0"
 
-RPROVIDES:${PN} += "lua53-luasocket lua53-luasocket(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) lua53"
+RPROVIDES:${PN} += "lua53-luasocket \
+lua53-luasocket(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+lua53"
 
 inherit rpm

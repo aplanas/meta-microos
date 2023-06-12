@@ -22,7 +22,22 @@ RPM_NAME = "texlive-derivative-2023.201.1.2svn63850-52.1.noarch.rpm"
 RPM_HASH = "dc86caaa9f0e555a2d2eff9b203dfdbfeb5b00f639c70474eb6097349b65ed4ea8b082f8013bf46f543b094a00dc8bd06694928012ec717358c350c5d0637c70"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(derivative.sty) texlive-derivative"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(expl3.sty) tex(l3keys2e.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(derivative.sty) \
+texlive-derivative"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(expl3.sty) \
+tex(l3keys2e.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

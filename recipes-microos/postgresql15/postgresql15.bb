@@ -16,7 +16,24 @@ PV = "15.3"
 RPM_NAME = "postgresql15-15.3-1.2.aarch64.rpm"
 RPM_HASH = "41e56988142b07d94ab8b540ed2300bee4db71b2e0287220fa830532a113ea3025fcda38b05222b00dfe9ab6ce7aadc0e094e720b1fbb07ef95ae44267129648"
 
-RPROVIDES:${PN} += "postgresql postgresql-implementation postgresql15 postgresql15(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) liblz4.so.1()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libpq.so.5()(64bit) libpq5 libreadline.so.8()(64bit) libz.so.1()(64bit) libzstd.so.1()(64bit) postgresql-noarch"
+RPROVIDES:${PN} += "postgresql \
+postgresql-implementation \
+postgresql15 \
+postgresql15(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+liblz4.so.1()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libpq.so.5()(64bit) \
+libpq5 \
+libreadline.so.8()(64bit) \
+libz.so.1()(64bit) \
+libzstd.so.1()(64bit) \
+postgresql-noarch"
 
 inherit rpm

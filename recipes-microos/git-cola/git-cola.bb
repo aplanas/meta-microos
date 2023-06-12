@@ -9,7 +9,23 @@ RPM_NAME = "git-cola-4.2.1-1.1.noarch.rpm"
 RPM_HASH = "e2297c519da8a4d5e741f01dbd51b872c4cbe02eb2c0e9313b9662f357954556612380c12c66c1e674659641a692e9cecb88dbe9db3ef3bb156f6d7dd899b643"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(git-cola-folder-handler.desktop) application(git-cola.desktop) application(git-dag.desktop) git-cola metainfo() metainfo(git-cola.appdata.xml) metainfo(git-dag.appdata.xml) mimehandler(inode/directory) python3.10dist(git-cola) python3dist(git-cola)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/env /usr/bin/python3.10 git-core python(abi) python3-QtPy python3-qt5"
+RPROVIDES:${PN} += "application() \
+application(git-cola-folder-handler.desktop) \
+application(git-cola.desktop) \
+application(git-dag.desktop) \
+git-cola \
+metainfo() \
+metainfo(git-cola.appdata.xml) \
+metainfo(git-dag.appdata.xml) \
+mimehandler(inode/directory) \
+python3.10dist(git-cola) \
+python3dist(git-cola)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/env \
+/usr/bin/python3.10 \
+git-core \
+python(abi) \
+python3-QtPy \
+python3-qt5"
 
 inherit rpm

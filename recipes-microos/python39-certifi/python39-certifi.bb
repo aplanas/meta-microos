@@ -12,7 +12,11 @@ RPM_NAME = "python39-certifi-2023.5.7-1.1.noarch.rpm"
 RPM_HASH = "3722c4081d831cde39681e1d5817a8a35e236b046b0a86ad6461d25e0fbd14a450f17f392461e9e94d4c71ed1eaed430762c42c322fbc97f7fff91e9c3959199"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(certifi) python39-certifi python3dist(certifi)"
-RDEPENDS:${PN} += "ca-certificates ca-certificates-mozilla python(abi)"
+RPROVIDES:${PN} += "python3.9dist(certifi) \
+python39-certifi \
+python3dist(certifi)"
+RDEPENDS:${PN} += "ca-certificates \
+ca-certificates-mozilla \
+python(abi)"
 
 inherit rpm

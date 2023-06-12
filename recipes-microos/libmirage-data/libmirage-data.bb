@@ -13,6 +13,7 @@ RPM_HASH = "49f8e7a530871bc745c967fd361a4f46e8076132fbd75b72276a8774c1118e5879bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmirage-data"
-RDEPENDS:${PN} += "/bin/sh shared-mime-info"
+RDEPENDS:${PN} += "/bin/sh \
+shared-mime-info"
 
 inherit rpm

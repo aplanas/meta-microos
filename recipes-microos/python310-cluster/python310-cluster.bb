@@ -17,7 +17,13 @@ RPM_NAME = "python310-cluster-1.4.1.post2-2.8.noarch.rpm"
 RPM_HASH = "4040d88187467e680d620ec839b237f70a2647849211d2f015bb715586332f518de8dd32fd874db1c3139caf854537327af11bce9fdba1fd9a6fd2073070ba8d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cluster python3.10dist(cluster) python310-cluster python3dist(cluster)"
-RDEPENDS:${PN} += "python(abi) python310-matplotlib python310-numpy python310-scipy"
+RPROVIDES:${PN} += "python3-cluster \
+python3.10dist(cluster) \
+python310-cluster \
+python3dist(cluster)"
+RDEPENDS:${PN} += "python(abi) \
+python310-matplotlib \
+python310-numpy \
+python310-scipy"
 
 inherit rpm

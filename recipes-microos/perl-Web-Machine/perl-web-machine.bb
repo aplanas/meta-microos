@@ -34,7 +34,28 @@ RPM_NAME = "perl-Web-Machine-0.17-2.9.noarch.rpm"
 RPM_HASH = "4c9a5a49d46408183c7a4f5bce1b548b9051ff504d37ce46dec641ab5ef74a2b126ead7952172ab8258dfcf865791e7233a99cfa6baf073752156534ae74fab7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Web::Machine) perl(Web::Machine::FSM) perl(Web::Machine::FSM::States) perl(Web::Machine::I18N) perl(Web::Machine::I18N::en) perl(Web::Machine::Resource) perl(Web::Machine::Util) perl(Web::Machine::Util::BodyEncoding) perl(Web::Machine::Util::ContentNegotiation) perl-Web-Machine"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(HTTP::Headers::ActionPack) perl(HTTP::Status) perl(Hash::MultiValue) perl(IO::Handle::Util) perl(Module::Runtime) perl(Plack::Component) perl(Plack::Request) perl(Plack::Response) perl(Plack::Util) perl(Sub::Exporter) perl(Try::Tiny) perl(parent)"
+RPROVIDES:${PN} += "perl(Web::Machine) \
+perl(Web::Machine::FSM) \
+perl(Web::Machine::FSM::States) \
+perl(Web::Machine::I18N) \
+perl(Web::Machine::I18N::en) \
+perl(Web::Machine::Resource) \
+perl(Web::Machine::Util) \
+perl(Web::Machine::Util::BodyEncoding) \
+perl(Web::Machine::Util::ContentNegotiation) \
+perl-Web-Machine"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(HTTP::Headers::ActionPack) \
+perl(HTTP::Status) \
+perl(Hash::MultiValue) \
+perl(IO::Handle::Util) \
+perl(Module::Runtime) \
+perl(Plack::Component) \
+perl(Plack::Request) \
+perl(Plack::Response) \
+perl(Plack::Util) \
+perl(Sub::Exporter) \
+perl(Try::Tiny) \
+perl(parent)"
 
 inherit rpm

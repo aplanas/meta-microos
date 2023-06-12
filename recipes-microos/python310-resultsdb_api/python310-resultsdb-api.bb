@@ -11,7 +11,12 @@ RPM_NAME = "python310-resultsdb_api-2.1.5-1.3.noarch.rpm"
 RPM_HASH = "5884990394f61f8a416a551d5210d3c2a5095a0bdd7bce4d216405ac53fcf6d8d23cea939f644a5ae2afbe4bf655e3c559e4a4c79c00d5892d848f449539df5f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-resultsdb_api python3.10dist(resultsdb-api) python310-resultsdb_api python3dist(resultsdb-api)"
-RDEPENDS:${PN} += "python(abi) python310-requests python310-simplejson"
+RPROVIDES:${PN} += "python3-resultsdb_api \
+python3.10dist(resultsdb-api) \
+python310-resultsdb_api \
+python3dist(resultsdb-api)"
+RDEPENDS:${PN} += "python(abi) \
+python310-requests \
+python310-simplejson"
 
 inherit rpm

@@ -11,7 +11,13 @@ PV = "0.5"
 RPM_NAME = "libclastfm0-0.5-9.26.aarch64.rpm"
 RPM_HASH = "6f60c7c1e56c980d8133c82dc6525ba8c9e3bca32d4c68d72e0d281c1947bf8c9ed33b5eb3d301081334659b64d21e0592f284c64215b6d6db7a8a820f1882e9"
 
-RPROVIDES:${PN} += "libclastfm.so.0()(64bit) libclastfm0 libclastfm0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libcurl.so.4()(64bit)"
+RPROVIDES:${PN} += "libclastfm.so.0()(64bit) \
+libclastfm0 \
+libclastfm0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libcurl.so.4()(64bit)"
 
 inherit rpm

@@ -44,7 +44,18 @@ RPM_NAME = "perl-IO-Socket-SSL-2.083-1.1.noarch.rpm"
 RPM_HASH = "d3d4276b70f6fbc3fb1e383c8f5e00ba4850aafe16a0f99380e766b3bef1e12c0c70aba3700f7b59c111fe61358a147b68e95c350dedb58a2bc361c2f12df8fa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IO::Socket::SSL) perl(IO::Socket::SSL::Intercept) perl(IO::Socket::SSL::OCSP_Cache) perl(IO::Socket::SSL::OCSP_Resolver) perl(IO::Socket::SSL::PublicSuffix) perl(IO::Socket::SSL::SSL_Context) perl(IO::Socket::SSL::SSL_HANDLE) perl(IO::Socket::SSL::Session_Cache) perl(IO::Socket::SSL::Trace) perl(IO::Socket::SSL::Utils) perl-IO-Socket-SSL"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Net::SSLeay)"
+RPROVIDES:${PN} += "perl(IO::Socket::SSL) \
+perl(IO::Socket::SSL::Intercept) \
+perl(IO::Socket::SSL::OCSP_Cache) \
+perl(IO::Socket::SSL::OCSP_Resolver) \
+perl(IO::Socket::SSL::PublicSuffix) \
+perl(IO::Socket::SSL::SSL_Context) \
+perl(IO::Socket::SSL::SSL_HANDLE) \
+perl(IO::Socket::SSL::Session_Cache) \
+perl(IO::Socket::SSL::Trace) \
+perl(IO::Socket::SSL::Utils) \
+perl-IO-Socket-SSL"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Net::SSLeay)"
 
 inherit rpm

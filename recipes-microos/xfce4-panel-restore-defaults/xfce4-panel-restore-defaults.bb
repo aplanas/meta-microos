@@ -8,7 +8,11 @@ PV = "4.18.4"
 RPM_NAME = "xfce4-panel-restore-defaults-4.18.4-1.1.aarch64.rpm"
 RPM_HASH = "7cb3a2afcae90c144e62fcb28f54d43b83f5d8f0063c8c852df8265fb2d92d5fe861f282c636111d81a80a1af436775f1e13657b7434e80280155ba76b7aa1ef"
 
-RPROVIDES:${PN} += "application() application(xfce4-panel-restore-defaults.desktop) xfce4-panel-restore-defaults xfce4-panel-restore-defaults(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash zenity"
+RPROVIDES:${PN} += "application() \
+application(xfce4-panel-restore-defaults.desktop) \
+xfce4-panel-restore-defaults \
+xfce4-panel-restore-defaults(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+zenity"
 
 inherit rpm

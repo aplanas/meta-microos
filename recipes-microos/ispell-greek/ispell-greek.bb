@@ -10,7 +10,11 @@ PV = "1.5"
 RPM_NAME = "ispell-greek-1.5-422.6.aarch64.rpm"
 RPM_HASH = "076bb4773c8521e407394357fe30b3071ca6bf3d3cd89bd6af8ccef6db82fee5851fd426fd87336d2e43667d83f1b7c513de14707743df8e986e5315386d18b8"
 
-RPROVIDES:${PN} += "igreek ispell-greek ispell-greek(aarch-64) ispell_dictionary locale(ispell:el)"
+RPROVIDES:${PN} += "igreek \
+ispell-greek \
+ispell-greek(aarch-64) \
+ispell_dictionary \
+locale(ispell:el)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

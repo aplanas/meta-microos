@@ -10,6 +10,7 @@ RPM_HASH = "aef1fc5aefddba64c8c57f95b7aa3c7db9800666ae21b4e4926469141dee22ed5a3a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang-github-linuxdeepin-go-lib"
-RDEPENDS:${PN} += "golang(github.com/linuxdeepin/go-gir/gio-2.0) golang(github.com/linuxdeepin/go-gir/glib-2.0)"
+RDEPENDS:${PN} += "golang(github.com/linuxdeepin/go-gir/gio-2.0) \
+golang(github.com/linuxdeepin/go-gir/glib-2.0)"
 
 inherit rpm

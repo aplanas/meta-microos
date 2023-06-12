@@ -11,7 +11,12 @@ RPM_NAME = "perl-Mixin-Linewise-0.111-1.2.noarch.rpm"
 RPM_HASH = "aa6f5e36667e0aaf8bc9cde80afc9104c8f13681c9e8f86d5ecbd69f26f642476753e6192f9d5e3ee73149195be6b078eeadfc72c3af18d920c0ece600bdc8b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mixin::Linewise) perl(Mixin::Linewise::Readers) perl(Mixin::Linewise::Writers) perl-Mixin-Linewise"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(PerlIO::utf8_strict) perl(Sub::Exporter)"
+RPROVIDES:${PN} += "perl(Mixin::Linewise) \
+perl(Mixin::Linewise::Readers) \
+perl(Mixin::Linewise::Writers) \
+perl-Mixin-Linewise"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(PerlIO::utf8_strict) \
+perl(Sub::Exporter)"
 
 inherit rpm

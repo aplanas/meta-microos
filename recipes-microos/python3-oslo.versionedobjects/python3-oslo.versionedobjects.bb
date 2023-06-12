@@ -15,7 +15,20 @@ RPM_NAME = "python3-oslo.versionedobjects-3.1.0-1.2.noarch.rpm"
 RPM_HASH = "4a7f51439141df9835165f6b9bdabd1b0ed52f52114d766e97fe53ab7be569feeec22bdd547e8f2e5b15548544a24e21628a16df2025aaa6f62496b51661c5b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-oslo.versionedobjects python3.10dist(oslo.versionedobjects) python3dist(oslo.versionedobjects)"
-RDEPENDS:${PN} += "python(abi) python3-WebOb python3-iso8601 python3-netaddr python3-oslo.concurrency python3-oslo.config python3-oslo.context python3-oslo.i18n python3-oslo.log python3-oslo.messaging python3-oslo.serialization python3-oslo.utils"
+RPROVIDES:${PN} += "python3-oslo.versionedobjects \
+python3.10dist(oslo.versionedobjects) \
+python3dist(oslo.versionedobjects)"
+RDEPENDS:${PN} += "python(abi) \
+python3-WebOb \
+python3-iso8601 \
+python3-netaddr \
+python3-oslo.concurrency \
+python3-oslo.config \
+python3-oslo.context \
+python3-oslo.i18n \
+python3-oslo.log \
+python3-oslo.messaging \
+python3-oslo.serialization \
+python3-oslo.utils"
 
 inherit rpm

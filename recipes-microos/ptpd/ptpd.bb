@@ -13,7 +13,20 @@ PV = "2.3.1"
 RPM_NAME = "ptpd-2.3.1-9.11.aarch64.rpm"
 RPM_HASH = "6073d3cf398b5d2c0b0f4fbd2f354dc7b3f25f65d4dafede4925965985d0f93fa446d598234897dbf8a6aef416e81c2ce280d680b9f7ad2a7b83cf5b3b0c4177"
 
-RPROVIDES:${PN} += "config(ptpd) ptpd ptpd(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libnetsnmp.so.40()(64bit) libnetsnmpagent.so.40()(64bit) libnetsnmpmibs.so.40()(64bit) libpcap.so.1()(64bit) systemd"
+RPROVIDES:${PN} += "config(ptpd) \
+ptpd \
+ptpd(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libnetsnmp.so.40()(64bit) \
+libnetsnmpagent.so.40()(64bit) \
+libnetsnmpmibs.so.40()(64bit) \
+libpcap.so.1()(64bit) \
+systemd"
 
 inherit rpm

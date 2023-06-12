@@ -10,7 +10,32 @@ PV = "4.6.0"
 RPM_NAME = "libyui-rest-api16-4.6.0-1.1.aarch64.rpm"
 RPM_HASH = "a9cfea0386bd7419282369084ec7c6b1ee7d758d97ee5cb3a5869b819ca33b85b68892e1ca1fb62f1c8e8e4a3b927edbc16f59a4408d5c95df298f733a832ef9"
 
-RPROVIDES:${PN} += "libyui-rest-api libyui-rest-api.so.16()(64bit) libyui-rest-api16 libyui-rest-api16(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libjsoncpp.so.25()(64bit) libmicrohttpd.so.12()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.14)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.26)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.32)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) libyui.so.16()(64bit) libyui16 yui_backend"
+RPROVIDES:${PN} += "libyui-rest-api \
+libyui-rest-api.so.16()(64bit) \
+libyui-rest-api16 \
+libyui-rest-api16(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libjsoncpp.so.25()(64bit) \
+libmicrohttpd.so.12()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.8)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
+libyui.so.16()(64bit) \
+libyui16 \
+yui_backend"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "5dde13d2a5f6487b4bbcf7197306b7ec14aca3579c9d80fb11346c78ded856bb1e0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xca-bash-completion"
-RDEPENDS:${PN} += "bash-completion xca"
+RDEPENDS:${PN} += "bash-completion \
+xca"
 
 inherit rpm

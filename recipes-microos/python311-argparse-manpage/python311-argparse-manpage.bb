@@ -14,7 +14,13 @@ RPM_NAME = "python311-argparse-manpage-4.1-1.1.noarch.rpm"
 RPM_HASH = "fe5bf27975e902c75841934fa0d94a1df5842bff375f4a6069b32d27e4aa6b9b7f028e91e18962fa443ba9e0bfba469fd1acd6418575ee1408668f75014bd600"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(argparse-manpage) python311-argparse-manpage python3dist(argparse-manpage)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(argparse-manpage) \
+python311-argparse-manpage \
+python3dist(argparse-manpage)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-setuptools \
+update-alternatives"
 
 inherit rpm

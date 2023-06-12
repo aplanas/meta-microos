@@ -14,7 +14,12 @@ PV = "2.7.1"
 RPM_NAME = "gsl-devel-2.7.1-1.3.aarch64.rpm"
 RPM_HASH = "6f05b906efb57c475730359b6ece71e211b2db5a438fd2aea04b046ad9d9d84ef8c79afd016afde6bdfd2151ae9403d28cc729eacd6ed4d8139147e6ad7b837a"
 
-RPROVIDES:${PN} += "gsl-devel gsl-devel(aarch-64) pkgconfig(gsl)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config libgsl27 libgslcblas0"
+RPROVIDES:${PN} += "gsl-devel \
+gsl-devel(aarch-64) \
+pkgconfig(gsl)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/pkg-config \
+libgsl27 \
+libgslcblas0"
 
 inherit rpm

@@ -11,7 +11,9 @@ RPM_NAME = "python310-aeidon-1.12-1.3.noarch.rpm"
 RPM_HASH = "0598a98e3d57232f1f875bbd79c28dcaa2f49ca51bb4b9a8bd460591e3eae396d211fc595d250c5e41962804bd0d39ab5f82d20aba80218ed512e5914ba5a92f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aeidon python310-aeidon"
-RDEPENDS:${PN} += "python(abi) typelib(Gspell)"
+RPROVIDES:${PN} += "python3-aeidon \
+python310-aeidon"
+RDEPENDS:${PN} += "python(abi) \
+typelib(Gspell)"
 
 inherit rpm

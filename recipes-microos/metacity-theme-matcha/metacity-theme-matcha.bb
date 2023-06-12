@@ -11,6 +11,7 @@ RPM_HASH = "f4c986e2bd76a1d528548bbb3db5dc073b5800c5389f55e60883d1b1297a3a3e1725
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metacity-theme-matcha"
-RDEPENDS:${PN} += "metacity metatheme-matcha-common"
+RDEPENDS:${PN} += "metacity \
+metatheme-matcha-common"
 
 inherit rpm

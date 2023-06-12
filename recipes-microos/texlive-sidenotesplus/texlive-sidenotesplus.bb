@@ -28,7 +28,30 @@ RPM_NAME = "texlive-sidenotesplus-2023.201.1.02svn63867-53.1.noarch.rpm"
 RPM_HASH = "20a1877fd05671fc81f119a3604fe6f8f27f2f6bbdb1c5fe7ac99e20f372b2f2205b07b994650cd1981d5e24e041dba67a9675fdf1cbc4baa275ab5ee5724ec6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(sidenotesplus.sty) texlive-sidenotesplus"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(caption.sty) tex(changepage.sty) tex(etoolbox.sty) tex(ifoddpage.sty) tex(l3keys2e.sty) tex(marginnote.sty) tex(mparhack.sty) tex(ragged2e.sty) tex(xparse.sty) tex(xspace.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(sidenotesplus.sty) \
+texlive-sidenotesplus"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(caption.sty) \
+tex(changepage.sty) \
+tex(etoolbox.sty) \
+tex(ifoddpage.sty) \
+tex(l3keys2e.sty) \
+tex(marginnote.sty) \
+tex(mparhack.sty) \
+tex(ragged2e.sty) \
+tex(xparse.sty) \
+tex(xspace.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

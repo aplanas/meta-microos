@@ -8,7 +8,10 @@ RPM_NAME = "myspell-bs_BA-20221012-1.2.noarch.rpm"
 RPM_HASH = "fe3fb15ae99a3f2f7f8fd93a223ef59c5e46d30d6536ae7cb004ab02622a79d73645400a7eebb4c01a8f746f63b2fcad75c45740b4c47856126cacf4727165b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:bs_BA) locale(seamonkey-spellchecker:bs_BA) myspell-bs_BA myspell-dictionary"
+RPROVIDES:${PN} += "locale(libreoffice:bs_BA) \
+locale(seamonkey-spellchecker:bs_BA) \
+myspell-bs_BA \
+myspell-dictionary"
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

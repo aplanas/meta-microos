@@ -18,7 +18,12 @@ PV = "1.4.0"
 RPM_NAME = "perl-Mail-SpamAssassin-Plugin-dqs-1.4.0-1.2.aarch64.rpm"
 RPM_HASH = "0d0a1bc6dba5832b48ec0d104163874d977e7fbd24a88af524a5f0b5d5a5d16575b89be91839d1072253a9eeeb3d5716b06d7823dae9273976eabf40c50e4bd7"
 
-RPROVIDES:${PN} += "config(perl-Mail-SpamAssassin-Plugin-dqs) perl(Mail::SpamAssassin::Plugin::SH) perl-Mail-SpamAssassin-Plugin-dqs perl-Mail-SpamAssassin-Plugin-dqs(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash perl(:MODULE_COMPAT_5.36.0) spamassassin"
+RPROVIDES:${PN} += "config(perl-Mail-SpamAssassin-Plugin-dqs) \
+perl(Mail::SpamAssassin::Plugin::SH) \
+perl-Mail-SpamAssassin-Plugin-dqs \
+perl-Mail-SpamAssassin-Plugin-dqs(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+perl(:MODULE_COMPAT_5.36.0) \
+spamassassin"
 
 inherit rpm

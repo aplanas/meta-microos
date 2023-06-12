@@ -14,7 +14,8 @@ PV = "0.21.1"
 RPM_NAME = "libraw-devel-static-0.21.1-2.1.aarch64.rpm"
 RPM_HASH = "82472e840b4d2ded73a2b7f33e273a6b6d08f71d84c0a47661578c240904d1e4ac716321dd02a83b87a51169a6e5c9e9e8caf9ae19d5219f43537cedcbb405e1"
 
-RPROVIDES:${PN} += "libraw-devel-static libraw-devel-static(aarch-64)"
+RPROVIDES:${PN} += "libraw-devel-static \
+libraw-devel-static(aarch-64)"
 RDEPENDS:${PN} += "libraw-devel"
 
 inherit rpm

@@ -8,7 +8,12 @@ RPM_NAME = "myspell-da_DK-20221012-1.2.noarch.rpm"
 RPM_HASH = "f8fdbb8f098d8d81cd665fb76ceb106591ea6aad041d0e3ba2330405e444d97bff9226e7c451386d19519813a8f9953604a735c2378fc8220ffc26a61b3f1896"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libreoffice-thesaurus-da locale(libreoffice:da_DK) locale(seamonkey-spellchecker:da_DK) myspell-da_DK myspell-danish myspell-dictionary"
+RPROVIDES:${PN} += "libreoffice-thesaurus-da \
+locale(libreoffice:da_DK) \
+locale(seamonkey-spellchecker:da_DK) \
+myspell-da_DK \
+myspell-danish \
+myspell-dictionary"
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

@@ -11,7 +11,11 @@ PV = "1.5.0"
 RPM_NAME = "libshp-devel-1.5.0-2.7.aarch64.rpm"
 RPM_HASH = "429cd571a8fd54c8f25e5eaf03eb26895dff805a39d7c4e90a29fee529088750b7181aea04146adfa2f6fb5e99f174c36b258069cd6202a5479ec6db87d74c8c"
 
-RPROVIDES:${PN} += "libshp-devel libshp-devel(aarch-64) pkgconfig(shapelib) shapelib-devel"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libshp2"
+RPROVIDES:${PN} += "libshp-devel \
+libshp-devel(aarch-64) \
+pkgconfig(shapelib) \
+shapelib-devel"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libshp2"
 
 inherit rpm

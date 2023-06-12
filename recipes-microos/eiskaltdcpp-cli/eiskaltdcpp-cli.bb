@@ -12,7 +12,10 @@ PV = "2.4.2"
 RPM_NAME = "eiskaltdcpp-cli-2.4.2-1.13.aarch64.rpm"
 RPM_HASH = "9d4f92ddd21894b90466191e8b3a1e684e872b9399242cfedfb6ad41567d3914efe65da24b5b59928f3139affa47d2c9d26d0e6992b484c8e2a2ed588461a65b"
 
-RPROVIDES:${PN} += "eiskaltdcpp-cli eiskaltdcpp-cli(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl eiskaltdcpp-common perl(JSON::RPC)"
+RPROVIDES:${PN} += "eiskaltdcpp-cli \
+eiskaltdcpp-cli(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+eiskaltdcpp-common \
+perl(JSON::RPC)"
 
 inherit rpm

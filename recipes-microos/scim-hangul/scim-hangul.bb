@@ -7,7 +7,25 @@ PV = "0.4.0+git20140408.ee1d084"
 RPM_NAME = "scim-hangul-0.4.0+git20140408.ee1d084-1.30.aarch64.rpm"
 RPM_HASH = "5267f40b3e77c5fb25c87de49a341f9f6fb9cdf62626695bb55e681b60eb801c9ae6b28cad7e8892dc4bbe54816c9d3fa02cb47b433f93de8f83b61df60669bb"
 
-RPROVIDES:${PN} += "scim-hangul scim-hangul(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libgobject-2.0.so.0()(64bit) libgtk-3.so.0()(64bit) libhangul.so.1()(64bit) libscim-1.0.so.8()(64bit) libscim-1.0.so.8(LIBSCIM_1.0)(64bit) libscim-gtkutils-1.0.so.8()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+RPROVIDES:${PN} += "scim-hangul \
+scim-hangul(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgtk-3.so.0()(64bit) \
+libhangul.so.1()(64bit) \
+libscim-1.0.so.8()(64bit) \
+libscim-1.0.so.8(LIBSCIM_1.0)(64bit) \
+libscim-gtkutils-1.0.so.8()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
 
 inherit rpm

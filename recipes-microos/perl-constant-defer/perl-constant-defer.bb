@@ -24,7 +24,8 @@ RPM_NAME = "perl-constant-defer-6-2.26.noarch.rpm"
 RPM_HASH = "87299f36c24663cde39f4d06cf6491277adf4b9594acda28d2ae902cd9a48e27dfba1d20b4bf1c9f85a6f4275ee7ee73218cd3c9de2ea776c6fdbf69b4e44af8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(constant::defer) perl-constant-defer"
+RPROVIDES:${PN} += "perl(constant::defer) \
+perl-constant-defer"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

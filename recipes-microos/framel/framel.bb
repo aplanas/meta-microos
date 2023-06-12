@@ -10,7 +10,14 @@ PV = "8.42.3"
 RPM_NAME = "framel-8.42.3-1.5.aarch64.rpm"
 RPM_HASH = "69b7f81739199abd89ac614086bbbf2c8708e7cea741aab50fa34d6a7c1fdf29fa3953de93cbaee70b0e4e4e864fb9cfa4ccfdb53cc78eb811100be7fdecbd77"
 
-RPROVIDES:${PN} += "framel framel(aarch-64) python2-framel"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libframel.so.8()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "framel \
+framel(aarch-64) \
+python2-framel"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libframel.so.8()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

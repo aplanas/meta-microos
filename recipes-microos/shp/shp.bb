@@ -12,6 +12,10 @@ RPM_HASH = "3dbc1210f9146a793af34591a78cef2506782fe2c7875b99189e13ac582b6f2c06ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shp"
-RDEPENDS:${PN} += "/bin/bash bash coreutils gawk openssl"
+RDEPENDS:${PN} += "/bin/bash \
+bash \
+coreutils \
+gawk \
+openssl"
 
 inherit rpm

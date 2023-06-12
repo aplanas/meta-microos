@@ -18,7 +18,21 @@ RPM_NAME = "texlive-eqparbox-2023.201.4.1svn45215-53.1.noarch.rpm"
 RPM_HASH = "3040b2f7351afa2ded1d3cdc18781912b5c2e3bb483c2060cbecefdf8f07c12003105528de9cbe1d24b206e64af97da6bdb788ad5d77316fb45aab6239a8c059"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(eqparbox.sty) texlive-eqparbox"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(array.sty) tex(environ.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(eqparbox.sty) \
+texlive-eqparbox"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(array.sty) \
+tex(environ.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -22,7 +22,15 @@ PV = "0.62"
 RPM_NAME = "perl-JSON-Parse-0.62-1.4.aarch64.rpm"
 RPM_HASH = "7aeb04581af65ea91c2818bc8aa585e12a5dd6f49fbc6314b08f225162949bfb30edccafc577e21365c2ccec534bda6b3d18f30f9d320905c4767259e72f526c"
 
-RPROVIDES:${PN} += "perl(JSON::Parse) perl(JSON::Tokenize) perl(JSON::Whitespace) perl-JSON-Parse perl-JSON-Parse(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(JSON::Parse) \
+perl(JSON::Tokenize) \
+perl(JSON::Whitespace) \
+perl-JSON-Parse \
+perl-JSON-Parse(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

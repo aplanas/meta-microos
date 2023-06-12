@@ -37,7 +37,11 @@ RPM_NAME = "perl-WWW-RobotRules-6.02-9.26.noarch.rpm"
 RPM_HASH = "0bc94331a4d62f648b92091d888ec0cbd9c35c701430767a813aea08aaf03e4fa68544afe591be9ec4ec46c2676059b8726dd07719a2c1d49e03deb9b0600115"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(WWW::RobotRules) perl(WWW::RobotRules::AnyDBM_File) perl(WWW::RobotRules::InCore) perl-WWW-RobotRules"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(URI)"
+RPROVIDES:${PN} += "perl(WWW::RobotRules) \
+perl(WWW::RobotRules::AnyDBM_File) \
+perl(WWW::RobotRules::InCore) \
+perl-WWW-RobotRules"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(URI)"
 
 inherit rpm

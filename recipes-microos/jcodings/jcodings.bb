@@ -9,6 +9,7 @@ RPM_HASH = "22cdb5c7fa946145271062084b23140d892602eb2f0d56514f92ff7fb84f33209ff7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcodings"
-RDEPENDS:${PN} += "java javapackages-tools"
+RDEPENDS:${PN} += "java \
+javapackages-tools"
 
 inherit rpm

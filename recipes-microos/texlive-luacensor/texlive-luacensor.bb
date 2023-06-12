@@ -16,7 +16,26 @@ RPM_NAME = "texlive-luacensor-2023.201.1.1.0svn62167-52.1.noarch.rpm"
 RPM_HASH = "fd571720f8e672475608316ef9089fcdeb80870039ff07d51ed06a8b9fbb0370b6070bb077a38b38298d05de3f0beea72717ac8e1f760d2edc71dd98cddc6240"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(luacensor.sty) texlive-luacensor"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(accsupp.sty) tex(environ.sty) tex(fontspec.sty) tex(graphicx.sty) tex(luacode.sty) tex(verbatim.sty) tex(xcolor.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(luacensor.sty) \
+texlive-luacensor"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(accsupp.sty) \
+tex(environ.sty) \
+tex(fontspec.sty) \
+tex(graphicx.sty) \
+tex(luacode.sty) \
+tex(verbatim.sty) \
+tex(xcolor.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "a12a139133dd860afa61f909c3ee145289e6b2125213d2d6bb4ab31b4bd549388081
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-nautilus"
-RDEPENDS:${PN} += "gnome-shell nautilus"
+RDEPENDS:${PN} += "gnome-shell \
+nautilus"
 
 inherit rpm

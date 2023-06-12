@@ -24,6 +24,8 @@ RPM_HASH = "0e42741abf91f20c53ef9cfbf9504ce08ac5ad4b23f9ee089d4a5380e1d892f0565c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xlogin"
-RDEPENDS:${PN} += "/bin/bash /bin/sh textutils"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+textutils"
 
 inherit rpm

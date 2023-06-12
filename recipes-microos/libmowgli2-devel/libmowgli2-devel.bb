@@ -14,7 +14,11 @@ PV = "2.1.3"
 RPM_NAME = "libmowgli2-devel-2.1.3-2.12.aarch64.rpm"
 RPM_HASH = "380da2cbf00f8b5dc5cd9677d9b39d73edc4fea6c36b3135b2482c66171cd940d000e3726259d74392dab8c01ccbabae3cc01753c896cb2ce8bc234ba352c9dd"
 
-RPROVIDES:${PN} += "libmowgli2-devel libmowgli2-devel(aarch-64) pkgconfig(libmowgli-2)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config glibc-devel libmowgli-2-0"
+RPROVIDES:${PN} += "libmowgli2-devel \
+libmowgli2-devel(aarch-64) \
+pkgconfig(libmowgli-2)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+glibc-devel \
+libmowgli-2-0"
 
 inherit rpm

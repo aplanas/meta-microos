@@ -31,7 +31,9 @@ RPM_NAME = "perl-Module-Path-0.19-1.26.noarch.rpm"
 RPM_HASH = "f6b1ba74f3e73b6e0ac86922e4de40b19f59f5720273f543cad5ed5da346175d26fe129b8ace31a90886888aabe32e196c20853921daffaa0834f901557858fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Module::Path) perl-Module-Path"
-RDEPENDS:${PN} += "/usr/bin/env perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Module::Path) \
+perl-Module-Path"
+RDEPENDS:${PN} += "/usr/bin/env \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

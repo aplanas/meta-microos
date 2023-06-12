@@ -16,7 +16,16 @@ RPM_NAME = "python39-thLib-0.12.2-5.8.noarch.rpm"
 RPM_HASH = "de161a23b6635df8ad2bd7c5a10a355e596665cbe58f06c150f55a091ed6ed31a765bd8b64abf39c41003f75cd904b4d862776dbfe2b96e0316606c3c103ff6e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(thlib) python39-thLib python3dist(thlib)"
-RDEPENDS:${PN} += "python(abi) python39-matplotlib python39-numpy python39-pandas python39-scikit-image python39-scipy python39-statsmodels python39-sympy"
+RPROVIDES:${PN} += "python3.9dist(thlib) \
+python39-thLib \
+python3dist(thlib)"
+RDEPENDS:${PN} += "python(abi) \
+python39-matplotlib \
+python39-numpy \
+python39-pandas \
+python39-scikit-image \
+python39-scipy \
+python39-statsmodels \
+python39-sympy"
 
 inherit rpm

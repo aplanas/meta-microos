@@ -34,7 +34,13 @@ RPM_NAME = "python310-chardet-5.1.0-3.1.noarch.rpm"
 RPM_HASH = "93eaa73bebb98076b5016ef329065bbc7dbc8e192813004b0ed61818f262dcb173ae5c4b0d288a0d0db55bed4ab264c8a77ab4dbae295c58d1766c61c8f2a4a6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-chardet python3.10dist(chardet) python310-chardet python3dist(chardet)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 alts python(abi)"
+RPROVIDES:${PN} += "python3-chardet \
+python3.10dist(chardet) \
+python310-chardet \
+python3dist(chardet)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+alts \
+python(abi)"
 
 inherit rpm

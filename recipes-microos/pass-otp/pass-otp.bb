@@ -10,6 +10,9 @@ RPM_HASH = "cebd3f4b0969be4a83118a29c3410c27846c181840ddff16bae91d4bded7845e94db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pass-otp"
-RDEPENDS:${PN} += "/bin/bash oath-toolkit password-store qrencode"
+RDEPENDS:${PN} += "/bin/bash \
+oath-toolkit \
+password-store \
+qrencode"
 
 inherit rpm

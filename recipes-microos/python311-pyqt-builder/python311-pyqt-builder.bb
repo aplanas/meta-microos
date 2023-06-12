@@ -14,7 +14,15 @@ RPM_NAME = "python311-pyqt-builder-1.15.1-1.1.noarch.rpm"
 RPM_HASH = "146804d9a1777695c5ff9a7b24a582189785e7040f0983a6085adbf4d9031aff61f1aaa54d31f6df6240f944ba525218d89fd0d2bf963f47289fe41a14b3ae90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyqt-builder) python311-PyQt-builder python311-pyqt-builder python3dist(pyqt-builder)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-packaging python311-sip-devel update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(pyqt-builder) \
+python311-PyQt-builder \
+python311-pyqt-builder \
+python3dist(pyqt-builder)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-packaging \
+python311-sip-devel \
+update-alternatives"
 
 inherit rpm

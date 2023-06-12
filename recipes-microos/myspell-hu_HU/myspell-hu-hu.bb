@@ -8,7 +8,12 @@ RPM_NAME = "myspell-hu_HU-20221012-1.2.noarch.rpm"
 RPM_HASH = "8136fbd136fd7525dc61ce776bfcaaa311c0b93d88cd9421e4ca8e25f0ffa6f2b47e60e698ee338bb02d5d37a4e83a7956a16555678352768a55fb17fb34bf96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libreoffice-thesaurus-hu locale(libreoffice:hu_HU) locale(seamonkey-spellchecker:hu_HU) myspell-dictionary myspell-hu_HU myspell-hungarian"
+RPROVIDES:${PN} += "libreoffice-thesaurus-hu \
+locale(libreoffice:hu_HU) \
+locale(seamonkey-spellchecker:hu_HU) \
+myspell-dictionary \
+myspell-hu_HU \
+myspell-hungarian"
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

@@ -12,7 +12,12 @@ PV = "1.1.0"
 RPM_NAME = "wayland-utils-1.1.0-1.2.aarch64.rpm"
 RPM_HASH = "344724c7a75e85e4b08e1d70305c999e1ec79cd7233a089bd326ea7a1b8510361f2ed3e7b86ca9bb78615d6e5aa43030861f56ff78cf720d4e0fabf90f74ce47"
 
-RPROVIDES:${PN} += "wayland-utils wayland-utils(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libdrm.so.2()(64bit) libwayland-client.so.0()(64bit)"
+RPROVIDES:${PN} += "wayland-utils \
+wayland-utils(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libdrm.so.2()(64bit) \
+libwayland-client.so.0()(64bit)"
 
 inherit rpm

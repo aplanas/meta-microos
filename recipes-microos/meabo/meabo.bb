@@ -25,7 +25,17 @@ PV = "1.0+git.20180412"
 RPM_NAME = "meabo-1.0+git.20180412-2.11.aarch64.rpm"
 RPM_HASH = "7eb799da97e135ceb6af979dc11fb979645b8ee968182f364d3dc25941439e43f6013a9f4676bacb7cc6cf074f09776b0aa8b19349cb387b400e75270125da90"
 
-RPROVIDES:${PN} += "meabo meabo(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgomp.so.1()(64bit) libgomp.so.1(GOMP_1.0)(64bit) libgomp.so.1(GOMP_4.0)(64bit) libgomp.so.1(OMP_1.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "meabo \
+meabo(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgomp.so.1()(64bit) \
+libgomp.so.1(GOMP_1.0)(64bit) \
+libgomp.so.1(GOMP_4.0)(64bit) \
+libgomp.so.1(OMP_1.0)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

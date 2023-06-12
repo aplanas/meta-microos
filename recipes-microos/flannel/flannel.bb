@@ -14,7 +14,10 @@ PV = "0.14.0"
 RPM_NAME = "flannel-0.14.0-1.10.aarch64.rpm"
 RPM_HASH = "f77bc282ab6f420a7e7ab25749b345211bdbb0462b612ac3345cf9bff6f512c848f07c78f7c2e8452b0e4d17621bbf9de7987a9a4ee71cc30eaa691801438098"
 
-RPROVIDES:${PN} += "flannel flannel(aarch-64)"
-RDEPENDS:${PN} += "iproute2 iptables net-tools-deprecated"
+RPROVIDES:${PN} += "flannel \
+flannel(aarch-64)"
+RDEPENDS:${PN} += "iproute2 \
+iptables \
+net-tools-deprecated"
 
 inherit rpm

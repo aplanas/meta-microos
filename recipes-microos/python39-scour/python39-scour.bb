@@ -11,7 +11,15 @@ RPM_NAME = "python39-scour-0.38.2-1.11.noarch.rpm"
 RPM_HASH = "16505e40f4731033f0ddd72671b3f31e6f635b86af89b70a1a5a9be637c8c5b9580563c3ed68212c72d542aeebf53ec15a630db17c6d59d7eada1c5153b56121"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(scour) python39-scour python3dist(scour) scour"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-setuptools python39-six update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(scour) \
+python39-scour \
+python3dist(scour) \
+scour"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-setuptools \
+python39-six \
+update-alternatives"
 
 inherit rpm

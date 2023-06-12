@@ -11,7 +11,12 @@ PV = "0.14.1"
 RPM_NAME = "typelib-1_0-GExiv2-0_10-0.14.1-1.1.aarch64.rpm"
 RPM_HASH = "22fe3dc243693361a8f558d8719cb5fd7b44949fdddc4d3ae0629af985117162cf0f40d42c57d35c3c0068c8392dbea76c4736843c8d2767555b04076172adb9"
 
-RPROVIDES:${PN} += "typelib(GExiv2) typelib-1_0-GExiv2-0_10 typelib-1_0-GExiv2-0_10(aarch-64)"
-RDEPENDS:${PN} += "libgexiv2.so.2()(64bit) typelib(GLib) typelib(GObject) typelib(Gio)"
+RPROVIDES:${PN} += "typelib(GExiv2) \
+typelib-1_0-GExiv2-0_10 \
+typelib-1_0-GExiv2-0_10(aarch-64)"
+RDEPENDS:${PN} += "libgexiv2.so.2()(64bit) \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gio)"
 
 inherit rpm

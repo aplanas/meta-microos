@@ -17,6 +17,32 @@ RPM_HASH = "0f4c387af25918ecc806117b1992b59ac73c4d13f9baa6d53909deb9418eaf480bdd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-purifyeps"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Cwd) perl(English) perl(File::Basename) perl(File::Spec) perl(File::Temp) perl(File::Which) perl(FindBin) perl(Getopt::Long) perl(POSIX) perl(Pod::Man) perl(Pod::Usage) perl(strict) perl(warnings) sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-purifyeps-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Cwd) \
+perl(English) \
+perl(File::Basename) \
+perl(File::Spec) \
+perl(File::Temp) \
+perl(File::Which) \
+perl(FindBin) \
+perl(Getopt::Long) \
+perl(POSIX) \
+perl(Pod::Man) \
+perl(Pod::Usage) \
+perl(strict) \
+perl(warnings) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-purifyeps-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

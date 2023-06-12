@@ -16,7 +16,8 @@ RPM_NAME = "rt2860-1.8.0.0-23.16.noarch.rpm"
 RPM_HASH = "b42bf450b6ea42f7b5edd2ec15b0dbb7a505ccafbfbc6acec45d7557cf7ba21b92dd90d47b0241caa925e1c2d741ba86f37ae22243275c3c76ff254a162bc46b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(rt2860) rt2860"
+RPROVIDES:${PN} += "config(rt2860) \
+rt2860"
 RDEPENDS:${PN} += ""
 
 inherit rpm

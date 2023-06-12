@@ -22,7 +22,10 @@ PV = "2.86"
 RPM_NAME = "razor-agents-2.86-1.4.aarch64.rpm"
 RPM_HASH = "4dc87a94e88ce60bf3489177731ab190a78a84cd4b3c777bcd7a6070bf1c2d496793c15640d49eddabad3ac113544f8ad300cef81648b9368ed161675d96d720"
 
-RPROVIDES:${PN} += "razor-agents razor-agents(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl-razor-agents"
+RPROVIDES:${PN} += "razor-agents \
+razor-agents(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl-razor-agents"
 
 inherit rpm

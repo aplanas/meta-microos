@@ -11,6 +11,7 @@ RPM_HASH = "86904c11e0364df2e2bd96d59207b43162256ece65a523968aa25c4506dbeb7e2185
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wine-binfmt-standalone"
-RDEPENDS:${PN} += "/bin/sh wine-binfmt"
+RDEPENDS:${PN} += "/bin/sh \
+wine-binfmt"
 
 inherit rpm

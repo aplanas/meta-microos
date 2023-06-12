@@ -14,7 +14,17 @@ RPM_NAME = "perl-Test-WriteVariants-0.014-1.17.noarch.rpm"
 RPM_HASH = "9741ab9de50b38967f2504314c9c013374c04ef63ee7597c58b1a06d2ba30794b45462f50e4b845c00a931d122fba1e969addd1923516ae38b4f3057d173d230"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::WriteVariants) perl(Test::WriteVariants::Context) perl(Test::WriteVariants::Context::BaseItem) perl(Test::WriteVariants::Context::EnvVar) perl(Test::WriteVariants::Context::MetaInfo) perl(Test::WriteVariants::Context::ModuleUse) perl(Test::WriteVariants::Context::OurVar) perl-Test-WriteVariants"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Data::Tumbler) perl(Module::Pluggable::Object) perl(Module::Runtime)"
+RPROVIDES:${PN} += "perl(Test::WriteVariants) \
+perl(Test::WriteVariants::Context) \
+perl(Test::WriteVariants::Context::BaseItem) \
+perl(Test::WriteVariants::Context::EnvVar) \
+perl(Test::WriteVariants::Context::MetaInfo) \
+perl(Test::WriteVariants::Context::ModuleUse) \
+perl(Test::WriteVariants::Context::OurVar) \
+perl-Test-WriteVariants"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Data::Tumbler) \
+perl(Module::Pluggable::Object) \
+perl(Module::Runtime)"
 
 inherit rpm

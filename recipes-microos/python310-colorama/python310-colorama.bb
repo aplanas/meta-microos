@@ -20,7 +20,10 @@ RPM_NAME = "python310-colorama-0.4.6-2.1.noarch.rpm"
 RPM_HASH = "a55aa463e8502d9a1e2da5f7f6847390af6e1dcc63e492320764c64a140a43d8043a2d0da4992f616e84648f1ad335c27fee124535369be4546a5ab85eacc0d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-colorama python3.10dist(colorama) python310-colorama python3dist(colorama)"
+RPROVIDES:${PN} += "python3-colorama \
+python3.10dist(colorama) \
+python310-colorama \
+python3dist(colorama)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

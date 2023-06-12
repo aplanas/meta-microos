@@ -12,7 +12,11 @@ RPM_NAME = "python311-colormap-1.0.4-1.3.noarch.rpm"
 RPM_HASH = "d70e4c05ecb3fdce06e9c079a3b4021029004153e8c477360fc71d0ecdc6be172a1f3b95b857352b3e0bbc0197dc45413ce1ce929927565150ae0a6d68c82c87"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(colormap) python311-colormap python3dist(colormap)"
-RDEPENDS:${PN} += "python(abi) python311-easydev python311-matplotlib"
+RPROVIDES:${PN} += "python3.11dist(colormap) \
+python311-colormap \
+python3dist(colormap)"
+RDEPENDS:${PN} += "python(abi) \
+python311-easydev \
+python311-matplotlib"
 
 inherit rpm

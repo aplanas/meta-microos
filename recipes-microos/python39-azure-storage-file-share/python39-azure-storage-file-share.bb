@@ -20,7 +20,15 @@ RPM_NAME = "python39-azure-storage-file-share-12.12.0-1.2.noarch.rpm"
 RPM_HASH = "e758d00db4373f12d6eb4b1ffb788a239d8f5518a8fb406baf3b65c57b87935d02944c2fb76e02c5f0eb99a291a76818266ef10bf0c7112969957b0be00c7e71"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-storage-file-share) python39-azure-storage-file-share python3dist(azure-storage-file-share)"
-RDEPENDS:${PN} += "(python39-typing_extensions >= 4.0.1 if python39-base < 3.8) python(abi) python39-azure-core python39-azure-nspkg python39-azure-storage-nspkg python39-cryptography python39-isodate"
+RPROVIDES:${PN} += "python3.9dist(azure-storage-file-share) \
+python39-azure-storage-file-share \
+python3dist(azure-storage-file-share)"
+RDEPENDS:${PN} += "(python39-typing_extensions >= 4.0.1 if python39-base < 3.8) \
+python(abi) \
+python39-azure-core \
+python39-azure-nspkg \
+python39-azure-storage-nspkg \
+python39-cryptography \
+python39-isodate"
 
 inherit rpm

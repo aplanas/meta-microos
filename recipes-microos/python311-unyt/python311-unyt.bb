@@ -13,7 +13,12 @@ RPM_NAME = "python311-unyt-2.9.5-1.1.noarch.rpm"
 RPM_HASH = "1c132296870d494b330776c12dd93e74fba1c0161d9f6153df1e5268485758f929c74f9bcc77195ad7442392690b6518e5f13aebc7eed87475c9f64b0203e62b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(unyt) python311-unyt python3dist(unyt)"
-RDEPENDS:${PN} += "python(abi) python311-numpy python311-packaging python311-sympy"
+RPROVIDES:${PN} += "python3.11dist(unyt) \
+python311-unyt \
+python3dist(unyt)"
+RDEPENDS:${PN} += "python(abi) \
+python311-numpy \
+python311-packaging \
+python311-sympy"
 
 inherit rpm

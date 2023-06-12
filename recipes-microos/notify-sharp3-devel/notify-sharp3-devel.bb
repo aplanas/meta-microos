@@ -15,7 +15,10 @@ RPM_NAME = "notify-sharp3-devel-3.0.3-1.17.noarch.rpm"
 RPM_HASH = "bc5c0e2e69af1362982926f98fc547825272b0eb7c2ca3da34512cdbe51f40147a5aeb03839b19fa5e83e1b9d6fb7df423bc89f2e840d8bfe88b380b318816c5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "notify-sharp3-devel pkgconfig(notify-sharp-3.0)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config notify-sharp3 pkgconfig(gtk-sharp-3.0)"
+RPROVIDES:${PN} += "notify-sharp3-devel \
+pkgconfig(notify-sharp-3.0)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+notify-sharp3 \
+pkgconfig(gtk-sharp-3.0)"
 
 inherit rpm

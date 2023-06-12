@@ -12,7 +12,28 @@ RPM_NAME = "texlive-fonetika-2023.201.svn21326-52.1.noarch.rpm"
 RPM_HASH = "cef21743e30ef4f496dae458730dd1a65d8ac9e81a210807b924389b7dad79dfc6c1db980f92e24c62dc07c52580cb7b985e2e8cc4bac486760b6fc05deb1598"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fonetika.map) tex(fonetika.sty) tex(fonetika.tfm) tex(fonetikabold.tfm) tex(fonetikasans.tfm) tex(fonetikasansbold.tfm) tex(t1fonetika.fd) texlive-fonetika"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(fontenc.sty) tex(updmap.cfg) texlive texlive-filesystem texlive-fonetika-fonts texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(fonetika.map) \
+tex(fonetika.sty) \
+tex(fonetika.tfm) \
+tex(fonetikabold.tfm) \
+tex(fonetikasans.tfm) \
+tex(fonetikasansbold.tfm) \
+tex(t1fonetika.fd) \
+texlive-fonetika"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(fontenc.sty) \
+tex(updmap.cfg) \
+texlive \
+texlive-filesystem \
+texlive-fonetika-fonts \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

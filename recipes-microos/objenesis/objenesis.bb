@@ -25,7 +25,13 @@ RPM_NAME = "objenesis-3.1-2.6.noarch.rpm"
 RPM_HASH = "e25d2a57309e30e9caef326592cb53985222e2a27bcba4bdd0bcdb4437cb600a02c5e2372d3a3bf0fe752623b1f231f8d8bb501c0e22af6b17c62b9b13806fd9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.objenesis:objenesis) mvn(org.objenesis:objenesis-tck) mvn(org.objenesis:objenesis-tck:pom:) mvn(org.objenesis:objenesis:pom:) objenesis osgi(org.objenesis)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "mvn(org.objenesis:objenesis) \
+mvn(org.objenesis:objenesis-tck) \
+mvn(org.objenesis:objenesis-tck:pom:) \
+mvn(org.objenesis:objenesis:pom:) \
+objenesis \
+osgi(org.objenesis)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

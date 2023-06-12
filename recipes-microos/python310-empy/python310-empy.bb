@@ -19,7 +19,10 @@ RPM_NAME = "python310-empy-3.3.4-1.19.noarch.rpm"
 RPM_HASH = "ce9ccc9908a86aa28ce0e1aa4e17c3737cb82480117a35d18a548f2ea5c36efea47d8652e4a0d9054ddd0046a04a1505f6fcc911d69ca8bf3d580b2d54c2be20"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-empy python3.10dist(empy) python310-empy python3dist(empy)"
+RPROVIDES:${PN} += "python3-empy \
+python3.10dist(empy) \
+python310-empy \
+python3dist(empy)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

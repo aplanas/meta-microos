@@ -13,7 +13,23 @@ RPM_NAME = "texlive-xpdfopen-2023.201.0.0.86svn65952-52.1.noarch.rpm"
 RPM_HASH = "201be3ea8c0d35b2ba2dff8be96eb5b625f3a00fff042611629dbe542c802498eba56e0fe7d736b283867088734b9de402d3b816990d373f4e30456416159d26"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(pdfclose.1) man(pdfopen.1) texlive-pdftools-doc:/usr/share/man/man1/pdfclose.1.gz texlive-pdftools-doc:/usr/share/man/man1/pdfopen.1.gz texlive-xpdfopen"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin texlive-xpdfopen-bin"
+RPROVIDES:${PN} += "man(pdfclose.1) \
+man(pdfopen.1) \
+texlive-pdftools-doc:/usr/share/man/man1/pdfclose.1.gz \
+texlive-pdftools-doc:/usr/share/man/man1/pdfopen.1.gz \
+texlive-xpdfopen"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-xpdfopen-bin"
 
 inherit rpm

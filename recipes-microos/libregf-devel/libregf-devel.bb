@@ -11,7 +11,11 @@ PV = "20230319"
 RPM_NAME = "libregf-devel-20230319-1.2.aarch64.rpm"
 RPM_HASH = "e598d258f2755571aaa891282962afc59e35d57fd422fe1a1b637eadb045f1194a6f22c1c9c8bdc1f48c0c552c84d959c2d4ea9436c44b60917dbfb163b81e27"
 
-RPROVIDES:${PN} += "libregf-devel libregf-devel(aarch-64) pkgconfig(libregf)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libbfio-devel libregf1"
+RPROVIDES:${PN} += "libregf-devel \
+libregf-devel(aarch-64) \
+pkgconfig(libregf)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libbfio-devel \
+libregf1"
 
 inherit rpm

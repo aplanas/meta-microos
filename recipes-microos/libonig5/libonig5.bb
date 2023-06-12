@@ -16,7 +16,12 @@ PV = "6.9.8"
 RPM_NAME = "libonig5-6.9.8-1.5.aarch64.rpm"
 RPM_HASH = "40d660de771fbf53c798da539343002f743cc00529fa4c14f8bea8a8435490373ebb25e6203731f1eaf0cde15dfaca1801da74aebbffc4d96b92f3e2bacc7c7a"
 
-RPROVIDES:${PN} += "libonig.so.5()(64bit) libonig5 libonig5(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libonig.so.5()(64bit) \
+libonig5 \
+libonig5(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

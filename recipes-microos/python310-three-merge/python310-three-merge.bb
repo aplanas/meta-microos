@@ -10,7 +10,11 @@ RPM_NAME = "python310-three-merge-0.1.1-1.11.noarch.rpm"
 RPM_HASH = "43b56fe047ae6cec0cc9503157bc504ccff465ca79dd04140226fa94017e7c9656146b1037e8d3b4c20426cb140884d3afdf4f03d9323fad27fc736087ea14dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-three-merge python3.10dist(three-merge) python310-three-merge python3dist(three-merge)"
-RDEPENDS:${PN} += "python(abi) python310-diff-match-patch"
+RPROVIDES:${PN} += "python3-three-merge \
+python3.10dist(three-merge) \
+python310-three-merge \
+python3dist(three-merge)"
+RDEPENDS:${PN} += "python(abi) \
+python310-diff-match-patch"
 
 inherit rpm

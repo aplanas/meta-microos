@@ -9,7 +9,9 @@ RPM_NAME = "perl-DateTime-HiRes-0.04-1.1.noarch.rpm"
 RPM_HASH = "c5c65ea8f1b3a9e9fe0c79ed7d61853640fd13c4539ba1a86fdac19e68dc916c20d8992212dd908a07553d8b2843501b1f6e0b1cd39337dbf130190d2dc480b1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DateTime::HiRes) perl-DateTime-HiRes"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(DateTime)"
+RPROVIDES:${PN} += "perl(DateTime::HiRes) \
+perl-DateTime-HiRes"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(DateTime)"
 
 inherit rpm

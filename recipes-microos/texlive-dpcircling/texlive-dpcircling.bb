@@ -15,7 +15,21 @@ RPM_NAME = "texlive-dpcircling-2023.201.1.0svn54994-52.1.noarch.rpm"
 RPM_HASH = "05a9b9961aa51b8b040d79a2d3ef69183b0b928d56afffad59ee945e90259ad1b74cb211716f4553bddd2d4af72fbcbbb3e77e7ea17ce9b9c92057bebfcf92bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(DPcircling.sty) texlive-dpcircling"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(keyval.sty) tex(tikz.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(DPcircling.sty) \
+texlive-dpcircling"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(keyval.sty) \
+tex(tikz.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

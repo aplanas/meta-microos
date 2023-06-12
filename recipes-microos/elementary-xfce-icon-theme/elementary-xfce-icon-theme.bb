@@ -13,6 +13,8 @@ RPM_HASH = "0bed57ffd051d87154308b374ca136ff34d0ba739bacd0b9ac518a2d54759e37a380
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elementary-xfce-icon-theme"
-RDEPENDS:${PN} += "adwaita-icon-theme gtk3-tools hicolor-icon-theme"
+RDEPENDS:${PN} += "adwaita-icon-theme \
+gtk3-tools \
+hicolor-icon-theme"
 
 inherit rpm

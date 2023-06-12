@@ -16,7 +16,11 @@ RPM_NAME = "python310-versiontools-1.9.1-14.17.noarch.rpm"
 RPM_HASH = "68f20d2145da51d6269760fc7324567af62274c55184715235b619111a899025406364a240a875fb6fa4a167e51f9418b4c446a6cb7585f2d142bcf15d1c7087"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-versiontools python3.10dist(versiontools) python310-versiontools python3dist(versiontools)"
-RDEPENDS:${PN} += "python(abi) python310-setuptools"
+RPROVIDES:${PN} += "python3-versiontools \
+python3.10dist(versiontools) \
+python310-versiontools \
+python3dist(versiontools)"
+RDEPENDS:${PN} += "python(abi) \
+python310-setuptools"
 
 inherit rpm

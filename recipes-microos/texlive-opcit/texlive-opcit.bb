@@ -15,7 +15,21 @@ RPM_NAME = "texlive-opcit-2023.201.1.1svn15878-54.1.noarch.rpm"
 RPM_HASH = "7c0653bd73370028c6419889bd39246cdcb63bc892809ae72229a704163ad6c305bc5065d37a27a49bc276ef180e0bd34e50d42e36ac3ae668f94a1fed4033ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(opcit.sty) texlive-opcit"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(hyperref.sty) tex(xspace.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(opcit.sty) \
+texlive-opcit"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(hyperref.sty) \
+tex(xspace.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

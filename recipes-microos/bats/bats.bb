@@ -17,6 +17,7 @@ RPM_HASH = "e2ac5057d0a98e0d9922273c0be7c573631561bb9b03e33bfe96f0749d75cfa8882f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bats"
-RDEPENDS:${PN} += "/bin/bash gnu_parallel"
+RDEPENDS:${PN} += "/bin/bash \
+gnu_parallel"
 
 inherit rpm

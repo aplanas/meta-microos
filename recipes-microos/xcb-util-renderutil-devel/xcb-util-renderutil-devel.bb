@@ -12,7 +12,12 @@ PV = "0.3.10"
 RPM_NAME = "xcb-util-renderutil-devel-0.3.10-1.2.aarch64.rpm"
 RPM_HASH = "1cdb0dd1468087c02ac4386f0527a5fe1f16d6126ffb43a733444ea2ee949fba91957da646668e82d7f02d011106f1513ca294439bd8c214ade9de1c6c8b2641"
 
-RPROVIDES:${PN} += "pkgconfig(xcb-renderutil) xcb-util-renderutil-devel xcb-util-renderutil-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libxcb-render-util0 pkgconfig(xcb) pkgconfig(xcb-render)"
+RPROVIDES:${PN} += "pkgconfig(xcb-renderutil) \
+xcb-util-renderutil-devel \
+xcb-util-renderutil-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libxcb-render-util0 \
+pkgconfig(xcb) \
+pkgconfig(xcb-render)"
 
 inherit rpm

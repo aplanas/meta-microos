@@ -12,7 +12,15 @@ PV = "2.212"
 RPM_NAME = "frozen-bubble-server-2.212-15.3.aarch64.rpm"
 RPM_HASH = "6d1e62050c2828d107ec02cc5d5497ec80093c9c0ab30e73ba48ab140512c831dcddadf6ee1d3223932ace6f85eb023df7a7ac878c5a69c30fe7c692f3b4df97"
 
-RPROVIDES:${PN} += "config(frozen-bubble-server) frozen-bubble-server frozen-bubble-server(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh coreutils ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libglib-2.0.so.0()(64bit) systemd"
+RPROVIDES:${PN} += "config(frozen-bubble-server) \
+frozen-bubble-server \
+frozen-bubble-server(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libglib-2.0.so.0()(64bit) \
+systemd"
 
 inherit rpm

@@ -11,7 +11,10 @@ RPM_NAME = "python39-fido2-1.1.1-1.1.noarch.rpm"
 RPM_HASH = "43b79b5b3a8ca49215775fac1d69a12bf7e5c6efb76e101adac040b167765f8159bde08bfce45e872b0316468aeac2b9dce9267aef2344ccd7094a0fe19c446e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(fido2) python39-fido2 python3dist(fido2)"
-RDEPENDS:${PN} += "python(abi) python39-cryptography"
+RPROVIDES:${PN} += "python3.9dist(fido2) \
+python39-fido2 \
+python3dist(fido2)"
+RDEPENDS:${PN} += "python(abi) \
+python39-cryptography"
 
 inherit rpm

@@ -17,7 +17,12 @@ PV = "1.6.9"
 RPM_NAME = "ocaml-cppo-1.6.9-1.4.aarch64.rpm"
 RPM_HASH = "4c4c363af7cc8dd0b80aa3744ceddc72ef683d464b2b96e2e13bf40ae9af9d7f1d30946ef0c293a2b5c3b5bb8005b2808879cbdbabac6fca7f9bf61a18d4a8e5"
 
-RPROVIDES:${PN} += "ocaml-cppo ocaml-cppo(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libm.so.6(GLIBC_2.35)(64bit)"
+RPROVIDES:${PN} += "ocaml-cppo \
+ocaml-cppo(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libm.so.6(GLIBC_2.35)(64bit)"
 
 inherit rpm

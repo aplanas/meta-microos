@@ -10,6 +10,18 @@ RPM_HASH = "531aa696497cf6f397ae7f0f3694d7d829fbb90d7b774b93799aa1379ff738020b66
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-moto-all"
-RDEPENDS:${PN} += "python311-PyYAML python311-aws-xray-sdk python311-cfn-lint python311-docker python311-graphql-core python311-idna python311-jsondiff python311-moto python311-openapi-spec-validator python311-pyparsing python311-python-jose python311-setuptools python311-sshpubkeys"
+RDEPENDS:${PN} += "python311-PyYAML \
+python311-aws-xray-sdk \
+python311-cfn-lint \
+python311-docker \
+python311-graphql-core \
+python311-idna \
+python311-jsondiff \
+python311-moto \
+python311-openapi-spec-validator \
+python311-pyparsing \
+python311-python-jose \
+python311-setuptools \
+python311-sshpubkeys"
 
 inherit rpm

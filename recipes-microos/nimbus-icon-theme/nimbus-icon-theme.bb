@@ -10,6 +10,7 @@ RPM_HASH = "a01fecd1896311e4463b96511181a44de298a8b932efd2f0d566a6e0bd34175648c8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nimbus-icon-theme"
-RDEPENDS:${PN} += "/bin/sh tango-icon-theme"
+RDEPENDS:${PN} += "/bin/sh \
+tango-icon-theme"
 
 inherit rpm

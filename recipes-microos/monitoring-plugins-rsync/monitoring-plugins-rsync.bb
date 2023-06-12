@@ -14,7 +14,10 @@ RPM_NAME = "monitoring-plugins-rsync-1.02-4.2.noarch.rpm"
 RPM_HASH = "87281a9e4e57ef36d508545052ff2899a2427e367d303cf7112893f4f6dfb23142abf8368108931d580ea2975840cf5c46722f68d8978b7e462f27f64467221e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "monitoring-plugins-rsync nagios-plugins-rsync"
-RDEPENDS:${PN} += "/usr/bin/perl perl(Getopt::Long) rsync"
+RPROVIDES:${PN} += "monitoring-plugins-rsync \
+nagios-plugins-rsync"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(Getopt::Long) \
+rsync"
 
 inherit rpm

@@ -29,7 +29,22 @@ RPM_NAME = "texlive-conditext-2023.201.1.5svn55387-53.1.noarch.rpm"
 RPM_HASH = "a763e8070f2e97abc500925262efcef7bf2c6c928bde1149f6056a0c1419097065acc42a7944b50430272e3ce0afaaba6345079e1b8f52368d38716ce3af9e52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(CondiTeXt.sty) texlive-conditext"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(simplekv.sty) tex(xifthen.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(CondiTeXt.sty) \
+texlive-conditext"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(simplekv.sty) \
+tex(xifthen.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

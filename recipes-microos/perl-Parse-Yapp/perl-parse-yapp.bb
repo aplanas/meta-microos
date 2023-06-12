@@ -13,7 +13,15 @@ RPM_NAME = "perl-Parse-Yapp-1.21-1.21.noarch.rpm"
 RPM_HASH = "0a84ab5a1ab2ef4839329deba4afa2802d45d5725b5d9c10f0b965287b2eada48bf89f89895e7a2ffb91870809cf189354398f94805744c6b144160aa646c0fb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Parse::Yapp) perl(Parse::Yapp::Driver) perl(Parse::Yapp::Grammar) perl(Parse::Yapp::Lalr) perl(Parse::Yapp::Options) perl(Parse::Yapp::Output) perl(Parse::Yapp::Parse) perl-Parse-Yapp"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Parse::Yapp) \
+perl(Parse::Yapp::Driver) \
+perl(Parse::Yapp::Grammar) \
+perl(Parse::Yapp::Lalr) \
+perl(Parse::Yapp::Options) \
+perl(Parse::Yapp::Output) \
+perl(Parse::Yapp::Parse) \
+perl-Parse-Yapp"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

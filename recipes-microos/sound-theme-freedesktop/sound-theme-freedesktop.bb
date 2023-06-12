@@ -10,6 +10,7 @@ RPM_HASH = "e66bdd228060a9c199ea267e80d48e6d7e3a4aa774a1781164a05b2b883f9dc9dca1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sound-theme-freedesktop"
-RDEPENDS:${PN} += "/bin/sh /bin/touch"
+RDEPENDS:${PN} += "/bin/sh \
+/bin/touch"
 
 inherit rpm

@@ -27,7 +27,26 @@ RPM_NAME = "python310-datashader-0.15.0-1.1.noarch.rpm"
 RPM_HASH = "8860b400f97a6c075c9e2a5bd26aada7be815fe1c1b1e16bcc38a7e1dd2e9b8d2b4e03c29d2e860843a8c49fb81b37413d1b1391a45891e72cd6d1a2548af926"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-datashader python3.10dist(datashader) python310-datashader python3dist(datashader)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-DataShape python310-Pillow python310-colorcet python310-dask-dataframe python310-numba python310-numpy python310-pandas python310-param python310-pyct python310-requests python310-scipy python310-toolz python310-xarray update-alternatives"
+RPROVIDES:${PN} += "python3-datashader \
+python3.10dist(datashader) \
+python310-datashader \
+python3dist(datashader)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-DataShape \
+python310-Pillow \
+python310-colorcet \
+python310-dask-dataframe \
+python310-numba \
+python310-numpy \
+python310-pandas \
+python310-param \
+python310-pyct \
+python310-requests \
+python310-scipy \
+python310-toolz \
+python310-xarray \
+update-alternatives"
 
 inherit rpm

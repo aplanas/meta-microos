@@ -7,7 +7,27 @@ PV = "1.5.1615+0"
 RPM_NAME = "psi+-plugins-extendedmenuplugin-1.5.1615+0-3.1.aarch64.rpm"
 RPM_HASH = "969caf1ba02e263d6be403b21130e1184786c758adb70db3fc1cf5812509f82f8456678eec65d14bed834acc886ae059cd76c4d05b28f90dc709624dcae5812b"
 
-RPROVIDES:${PN} += "libextendedmenuplugin.so()(64bit) psi+-plugins-extendedmenuplugin psi+-plugins-extendedmenuplugin(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5Gui.so.5()(64bit) libQt5Gui.so.5(Qt_5)(64bit) libQt5Widgets.so.5()(64bit) libQt5Widgets.so.5(Qt_5)(64bit) libQt5Xml.so.5()(64bit) libQt5Xml.so.5(Qt_5)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) psi+"
+RPROVIDES:${PN} += "libextendedmenuplugin.so()(64bit) \
+psi+-plugins-extendedmenuplugin \
+psi+-plugins-extendedmenuplugin(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libQt5Core.so.5()(64bit) \
+libQt5Core.so.5(Qt_5)(64bit) \
+libQt5Gui.so.5()(64bit) \
+libQt5Gui.so.5(Qt_5)(64bit) \
+libQt5Widgets.so.5()(64bit) \
+libQt5Widgets.so.5(Qt_5)(64bit) \
+libQt5Xml.so.5()(64bit) \
+libQt5Xml.so.5(Qt_5)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+psi+"
 
 inherit rpm

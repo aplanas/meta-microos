@@ -15,7 +15,19 @@ RPM_NAME = "texlive-fix2col-2023.201.0.0.04svn38770-52.1.noarch.rpm"
 RPM_HASH = "361180ffdbace4c20db58e04b4a8ff3d918bebba4904d219d07e1f04b1b1c8bd1f7ce0a680a35ba60176fcc66fcfe36090009dd34d36ef55806de4db2eb228f9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fix2col.sty) texlive-fix2col"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(fix2col.sty) \
+texlive-fix2col"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

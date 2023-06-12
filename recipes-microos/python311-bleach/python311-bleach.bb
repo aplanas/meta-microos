@@ -19,7 +19,10 @@ RPM_NAME = "python311-bleach-6.0.0-1.1.noarch.rpm"
 RPM_HASH = "a106ad1031504a5e1c58dfd3d87d4265fe2da90d9efd845235ef4e67ef4a85bc95ba25f070c114d001231e5ca7038d422f8c8ee5ef79740c326480c91eceafaf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(bleach) python311-bleach python3dist(bleach)"
-RDEPENDS:${PN} += "python(abi) python311-html5lib"
+RPROVIDES:${PN} += "python3.11dist(bleach) \
+python311-bleach \
+python3dist(bleach)"
+RDEPENDS:${PN} += "python(abi) \
+python311-html5lib"
 
 inherit rpm

@@ -11,7 +11,11 @@ PV = "1.4.1"
 RPM_NAME = "libosmotrau-devel-1.4.1-1.1.aarch64.rpm"
 RPM_HASH = "6cf65aeb3b0b1098adcbcfc7bfd933636dd70435517fbed560c73870a016d77dd73635d141133e8faea2747d07f2d2a026a0b39f9617c964c57bb0bcc8fc4cef"
 
-RPROVIDES:${PN} += "libosmotrau-devel libosmotrau-devel(aarch-64) pkgconfig(libosmotrau)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libosmotrau2 pkgconfig(libosmocore)"
+RPROVIDES:${PN} += "libosmotrau-devel \
+libosmotrau-devel(aarch-64) \
+pkgconfig(libosmotrau)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libosmotrau2 \
+pkgconfig(libosmocore)"
 
 inherit rpm

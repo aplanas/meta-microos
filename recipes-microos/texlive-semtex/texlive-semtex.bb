@@ -17,7 +17,20 @@ RPM_NAME = "texlive-semtex-2023.201.0.0.45svn56530-53.1.noarch.rpm"
 RPM_HASH = "f7b9e4b75dce0b354f00e1fea72449eea7117ccc92e4fc85e80e63c2b2734f50cec603a882bea1e2be10ad70df7cbf7790abf210d529b0d46477fe1147865225"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(semtex.sty) texlive-semtex"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(semtex.sty) \
+texlive-semtex"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

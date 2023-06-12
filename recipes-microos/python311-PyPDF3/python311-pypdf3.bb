@@ -11,7 +11,10 @@ RPM_NAME = "python311-PyPDF3-1.0.6-1.3.noarch.rpm"
 RPM_HASH = "fb7c4620ab69f0fface954eb5a4d652fe1276de5268ea40674c72564ec990fff1474b6df6ff2b6b728c9a499bdada6038e342592a827319a6d5a16d580b9e8b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pypdf3) python311-PyPDF3 python3dist(pypdf3)"
-RDEPENDS:${PN} += "python(abi) python311-tqdm"
+RPROVIDES:${PN} += "python3.11dist(pypdf3) \
+python311-PyPDF3 \
+python3dist(pypdf3)"
+RDEPENDS:${PN} += "python(abi) \
+python311-tqdm"
 
 inherit rpm

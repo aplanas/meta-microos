@@ -14,7 +14,12 @@ PV = "2.0.0"
 RPM_NAME = "openslp-2.0.0-21.4.aarch64.rpm"
 RPM_HASH = "a3b1af93ba18a87d67f80e4bfcc84327d2d57b501ac97de2a97edf0effc7d03b61d06fbddd6ce5aa789099267b87e03cc2a8685f745dc0edf6abc9673d2f0e2e"
 
-RPROVIDES:${PN} += "config(openslp) openslp openslp(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libslp.so.1()(64bit)"
+RPROVIDES:${PN} += "config(openslp) \
+openslp \
+openslp(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libslp.so.1()(64bit)"
 
 inherit rpm

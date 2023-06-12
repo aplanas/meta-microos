@@ -11,6 +11,8 @@ RPM_HASH = "4565330c59fcf8a5d1429e7caedcd78a99928c26fb23ec9c19370e9290b48175cca3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-taglist"
-RDEPENDS:${PN} += "/bin/sh ctags vim"
+RDEPENDS:${PN} += "/bin/sh \
+ctags \
+vim"
 
 inherit rpm

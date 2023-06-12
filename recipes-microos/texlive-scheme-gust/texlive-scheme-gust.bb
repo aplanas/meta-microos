@@ -11,6 +11,37 @@ RPM_HASH = "fc9c5bca7c696773ef89f997391253577a3fada99cb3ea2874f8685a2815159c338a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-gust"
-RDEPENDS:${PN} += "texlive-amslatex-primer texlive-amstex texlive-antt texlive-bibtex8 texlive-collection-basic texlive-collection-context texlive-collection-fontsrecommended texlive-collection-fontutils texlive-collection-langpolish texlive-collection-latex texlive-collection-latexrecommended texlive-collection-metapost texlive-collection-plaingeneric texlive-collection-xetex texlive-comment texlive-comprehensive texlive-concrete texlive-cyklop texlive-dvidvi texlive-dviljk texlive-fontinstallationguide texlive-gustprog texlive-impatient texlive-iwona texlive-metafont-beginners texlive-metapost-examples texlive-poltawski texlive-seetexk texlive-seminar texlive-tds texlive-tex4ht texlive-texdoc"
+RDEPENDS:${PN} += "texlive-amslatex-primer \
+texlive-amstex \
+texlive-antt \
+texlive-bibtex8 \
+texlive-collection-basic \
+texlive-collection-context \
+texlive-collection-fontsrecommended \
+texlive-collection-fontutils \
+texlive-collection-langpolish \
+texlive-collection-latex \
+texlive-collection-latexrecommended \
+texlive-collection-metapost \
+texlive-collection-plaingeneric \
+texlive-collection-xetex \
+texlive-comment \
+texlive-comprehensive \
+texlive-concrete \
+texlive-cyklop \
+texlive-dvidvi \
+texlive-dviljk \
+texlive-fontinstallationguide \
+texlive-gustprog \
+texlive-impatient \
+texlive-iwona \
+texlive-metafont-beginners \
+texlive-metapost-examples \
+texlive-poltawski \
+texlive-seetexk \
+texlive-seminar \
+texlive-tds \
+texlive-tex4ht \
+texlive-texdoc"
 
 inherit rpm

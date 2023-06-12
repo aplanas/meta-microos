@@ -8,7 +8,11 @@ RPM_NAME = "gdouros-aegean-fonts-9.78-1.17.noarch.rpm"
 RPM_HASH = "15b87f7ccd57a96d4dda56e1aaf702b22a9717b8b35ef8c6b6a3b1d2d40b98f7f1149577f57df024c1665869182f2c00317d0b222d79d77882def6c2b0c088ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "aegean-fonts gdouros-aegean-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "aegean-fonts \
+gdouros-aegean-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

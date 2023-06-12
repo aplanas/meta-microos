@@ -23,6 +23,9 @@ RPM_HASH = "f9517964226a6fb08d3fb2fdb14e97c74d5e075b58597ef5de526468781572df61bf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-dask-array"
-RDEPENDS:${PN} += "python(abi) python39-dask python39-dask-delayed python39-numpy"
+RDEPENDS:${PN} += "python(abi) \
+python39-dask \
+python39-dask-delayed \
+python39-numpy"
 
 inherit rpm

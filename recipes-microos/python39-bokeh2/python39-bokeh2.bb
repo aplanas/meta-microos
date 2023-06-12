@@ -14,7 +14,21 @@ RPM_NAME = "python39-bokeh2-2.4.3-2.6.noarch.rpm"
 RPM_HASH = "82d3389b91f4d6db6d37f59c0f64db633d5197c73bd231119edbcb46ad381ea8174103ef6d7d7751a4622e6b39aa18a5322b2793d6c433c3cb9bfc4a8d97b7f7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(bokeh) python39-bokeh python39-bokeh2 python3dist(bokeh)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-Jinja2 python39-Pillow python39-PyYAML python39-numpy python39-packaging python39-python-dateutil python39-tornado python39-typing_extensions update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(bokeh) \
+python39-bokeh \
+python39-bokeh2 \
+python3dist(bokeh)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-Jinja2 \
+python39-Pillow \
+python39-PyYAML \
+python39-numpy \
+python39-packaging \
+python39-python-dateutil \
+python39-tornado \
+python39-typing_extensions \
+update-alternatives"
 
 inherit rpm

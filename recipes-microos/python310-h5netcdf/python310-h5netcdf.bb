@@ -10,7 +10,11 @@ RPM_NAME = "python310-h5netcdf-1.1.0-1.3.noarch.rpm"
 RPM_HASH = "5bd30978f8818c47d54e1227b52c8c210ea49f02bc7e58a54c1c931cc33f3ecf8e123b6d20005d8902360f162892e0d91a691fd68f452bfd907ba2ed343c7dc4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-h5netcdf python3.10dist(h5netcdf) python310-h5netcdf python3dist(h5netcdf)"
-RDEPENDS:${PN} += "python(abi) python310-h5py"
+RPROVIDES:${PN} += "python3-h5netcdf \
+python3.10dist(h5netcdf) \
+python310-h5netcdf \
+python3dist(h5netcdf)"
+RDEPENDS:${PN} += "python(abi) \
+python310-h5py"
 
 inherit rpm

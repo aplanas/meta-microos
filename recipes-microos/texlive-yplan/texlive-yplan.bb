@@ -15,7 +15,22 @@ RPM_NAME = "texlive-yplan-2023.201.svn34398-52.1.noarch.rpm"
 RPM_HASH = "86bf8420118d8e58407a6461d8a43e0850dbe17666ef7bde801396a90d5f1b577979ed69efb62155f0bcebd301f276beb4d55b3b293df1a681dec7375f2eeb5f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(yplan.sty) texlive-yplan"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep sed tex(ifthen.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin texlive-yplan-bin"
+RPROVIDES:${PN} += "tex(yplan.sty) \
+texlive-yplan"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifthen.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-yplan-bin"
 
 inherit rpm

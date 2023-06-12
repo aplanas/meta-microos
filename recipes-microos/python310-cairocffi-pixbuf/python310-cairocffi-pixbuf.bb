@@ -13,7 +13,10 @@ RPM_NAME = "python310-cairocffi-pixbuf-1.5.1-1.1.noarch.rpm"
 RPM_HASH = "6d9b761769afba320d4da12eaaac9671df920cd9ecc379409b008be917933ea02a724e50118897948654da05ab8c8e598b4d399bcd6b0f42c4d8cee4351498cb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cairocffi-pixbuf python310-cairocffi-pixbuf"
-RDEPENDS:${PN} += "gdk-pixbuf python(abi) python310-cairocffi"
+RPROVIDES:${PN} += "python3-cairocffi-pixbuf \
+python310-cairocffi-pixbuf"
+RDEPENDS:${PN} += "gdk-pixbuf \
+python(abi) \
+python310-cairocffi"
 
 inherit rpm

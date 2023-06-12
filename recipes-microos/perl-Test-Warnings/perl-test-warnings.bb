@@ -31,7 +31,9 @@ RPM_NAME = "perl-Test-Warnings-0.031-1.9.noarch.rpm"
 RPM_HASH = "a9bde5e965cdce38c7966d3afa6b5b2b167877420b8c9db8cd91f10550c2936060167b5ca92da4c94121990a1cfbe60ea4c83f48062706e1df88880ef0896118"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Warnings) perl-Test-Warnings"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(parent)"
+RPROVIDES:${PN} += "perl(Test::Warnings) \
+perl-Test-Warnings"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(parent)"
 
 inherit rpm

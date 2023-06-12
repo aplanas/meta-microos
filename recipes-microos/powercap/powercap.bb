@@ -14,7 +14,11 @@ PV = "0.6.0"
 RPM_NAME = "powercap-0.6.0-1.3.aarch64.rpm"
 RPM_HASH = "cab0373c57f2e92d32f60617efaf668a54b4ee6e3d36f8acd66db0b045184f96e0f0b2b161a8bafaf0848fa37757969a613ff6cc1d5590b37d264ad0badbc04f"
 
-RPROVIDES:${PN} += "libpowercap.so.0()(64bit) powercap powercap(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "libpowercap.so.0()(64bit) \
+powercap \
+powercap(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

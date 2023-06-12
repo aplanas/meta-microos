@@ -10,7 +10,12 @@ RPM_NAME = "python310-MouseInfo-0.1.3-1.12.noarch.rpm"
 RPM_HASH = "a609297f469c79c58379c5458def6d07195d278d85f99941399e58739eaee55ca5903fa599d265cf15da718009a1b8f1e3a60428e29fa0dc6e94ef696f5d589f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-MouseInfo python3.10dist(mouseinfo) python310-MouseInfo python3dist(mouseinfo)"
-RDEPENDS:${PN} += "python(abi) python310-Pillow python310-pyperclip"
+RPROVIDES:${PN} += "python3-MouseInfo \
+python3.10dist(mouseinfo) \
+python310-MouseInfo \
+python3dist(mouseinfo)"
+RDEPENDS:${PN} += "python(abi) \
+python310-Pillow \
+python310-pyperclip"
 
 inherit rpm

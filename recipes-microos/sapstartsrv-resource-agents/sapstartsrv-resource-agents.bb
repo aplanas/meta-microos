@@ -17,6 +17,11 @@ RPM_HASH = "458c66788511751a0a3258035a2a3a056e580671f4afe8da2e13c80f23f89206b459
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sapstartsrv-resource-agents"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 pacemaker python3 python3-psutil resource-agents"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+pacemaker \
+python3 \
+python3-psutil \
+resource-agents"
 
 inherit rpm

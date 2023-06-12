@@ -9,6 +9,8 @@ RPM_HASH = "fc37c7b1f9bb416c85cbb0d449b269b84c159b7c191f4bc78260badb7e5b979d742f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libstorage-ng-integration-tests"
-RDEPENDS:${PN} += "/usr/bin/python3 libstorage-ng-python3 python(abi)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+libstorage-ng-python3 \
+python(abi)"
 
 inherit rpm

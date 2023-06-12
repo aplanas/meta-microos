@@ -16,7 +16,10 @@ RPM_NAME = "gnome-icon-theme-symbolic-3.12.0-3.18.noarch.rpm"
 RPM_HASH = "fc3535940493318e146d83d4ae995cf020297a92c41f6a406baf18d1eadafc2e369d15a8c6b944a78534e19add94a89da2662962ee569e626d4f40ac4f6b525f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "gnome-icon-theme-symbolic pkgconfig(gnome-icon-theme-symbolic)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config gnome-icon-theme"
+RPROVIDES:${PN} += "gnome-icon-theme-symbolic \
+pkgconfig(gnome-icon-theme-symbolic)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/pkg-config \
+gnome-icon-theme"
 
 inherit rpm

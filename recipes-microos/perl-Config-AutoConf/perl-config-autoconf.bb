@@ -19,7 +19,9 @@ RPM_NAME = "perl-Config-AutoConf-0.320-1.9.noarch.rpm"
 RPM_HASH = "cb8492bc412a5143928ba6c7b6c1dd5127c063ac13c72bf9c3f0a2b3b10d1df70721d143d7388bca20cbc0a3f3c3d61081d593e848a613366c680c71ec921f2b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Config::AutoConf) perl-Config-AutoConf"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Capture::Tiny)"
+RPROVIDES:${PN} += "perl(Config::AutoConf) \
+perl-Config-AutoConf"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Capture::Tiny)"
 
 inherit rpm

@@ -17,7 +17,30 @@ RPM_NAME = "texlive-jslectureplanner-2023.201.1.12svn57095-55.1.noarch.rpm"
 RPM_HASH = "17eb53f83712966231032b4097879246eac1c2c687cd4314edcc140bbcc080f8bdf510eba7fbb9eda44fa3d40b2504b1916e8965c5b5fec14cb1537361da7611"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(jslectureplanner.sty) tex(jsmembertable.sty) texlive-jslectureplanner"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(array.sty) tex(calc.sty) tex(datatool.sty) tex(datetime2.sty) tex(etoolbox.sty) tex(hhline.sty) tex(ifthen.sty) tex(longtable.sty) tex(xkeyval.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(jslectureplanner.sty) \
+tex(jsmembertable.sty) \
+texlive-jslectureplanner"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(array.sty) \
+tex(calc.sty) \
+tex(datatool.sty) \
+tex(datetime2.sty) \
+tex(etoolbox.sty) \
+tex(hhline.sty) \
+tex(ifthen.sty) \
+tex(longtable.sty) \
+tex(xkeyval.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

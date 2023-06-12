@@ -12,7 +12,20 @@ RPM_NAME = "texlive-ucharclasses-2023.201.2.6svn64782-53.1.noarch.rpm"
 RPM_HASH = "2be0c3ebfffe130bd6f733aaf014368f06921786637482ca7e5a305e508ebe6a421bf5dd49ec4107f74d5ca8a3b29bbaa63df077e302fa6816dc3f4dc90d9bee"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ucharclasses.sty) texlive-ucharclasses"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifxetex.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(ucharclasses.sty) \
+texlive-ucharclasses"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifxetex.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

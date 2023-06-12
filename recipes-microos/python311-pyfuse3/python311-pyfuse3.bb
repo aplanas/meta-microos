@@ -7,7 +7,16 @@ PV = "3.2.3"
 RPM_NAME = "python311-pyfuse3-3.2.3-1.1.aarch64.rpm"
 RPM_HASH = "130ec730c794c81b9bdaad3a73fc405d77c2f9a655c0b66e8680f591156ebeb1214a61a69a1bfdbdb8948a2c3351d21071ba9ec2e78fe2459d7d157b97000985"
 
-RPROVIDES:${PN} += "python3.11dist(pyfuse3) python311-pyfuse3 python311-pyfuse3(aarch-64) python3dist(pyfuse3)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libfuse3.so.3()(64bit) libfuse3.so.3(FUSE_3.0)(64bit) python(abi) python311-trio"
+RPROVIDES:${PN} += "python3.11dist(pyfuse3) \
+python311-pyfuse3 \
+python311-pyfuse3(aarch-64) \
+python3dist(pyfuse3)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libfuse3.so.3()(64bit) \
+libfuse3.so.3(FUSE_3.0)(64bit) \
+python(abi) \
+python311-trio"
 
 inherit rpm

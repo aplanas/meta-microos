@@ -21,7 +21,22 @@ RPM_NAME = "texlive-aboensis-2023.201.svn62977-54.1.noarch.rpm"
 RPM_HASH = "830e69e40c1c051b3eb97b174523508d2717d405fc2851ac24a2fe71ca9339c0287c05d125fdabc921c0e026e398c7447a973e75195ca85400903a736f9fd134"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(aboensis.sty) texlive-aboensis"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(fontspec.sty) tex(xcolor.sty) texlive texlive-aboensis-fonts texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(aboensis.sty) \
+texlive-aboensis"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(fontspec.sty) \
+tex(xcolor.sty) \
+texlive \
+texlive-aboensis-fonts \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

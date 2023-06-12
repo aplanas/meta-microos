@@ -11,7 +11,23 @@ PV = "5.8.0"
 RPM_NAME = "typelib-1_0-CinnamonDesktop-3_0-5.8.0-1.1.aarch64.rpm"
 RPM_HASH = "f93bc369f225621674ea78a128872f9f2c910fc93bca41f58e6f18e17d32de05fcc5fc8c29b6e54f88c6bf22bb225c6dbd8c394aa4d85c6c44c4ad4b37f0c77a"
 
-RPROVIDES:${PN} += "typelib(CDesktopEnums) typelib(CinnamonDesktop) typelib-1_0-CinnamonDesktop-3_0 typelib-1_0-CinnamonDesktop-3_0(aarch-64)"
-RDEPENDS:${PN} += "libcinnamon-desktop.so.4()(64bit) typelib(Atk) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gdk) typelib(GdkPixbuf) typelib(Gio) typelib(Gtk) typelib(HarfBuzz) typelib(Pango) typelib(cairo) typelib(freetype2) typelib(xlib)"
+RPROVIDES:${PN} += "typelib(CDesktopEnums) \
+typelib(CinnamonDesktop) \
+typelib-1_0-CinnamonDesktop-3_0 \
+typelib-1_0-CinnamonDesktop-3_0(aarch-64)"
+RDEPENDS:${PN} += "libcinnamon-desktop.so.4()(64bit) \
+typelib(Atk) \
+typelib(GLib) \
+typelib(GModule) \
+typelib(GObject) \
+typelib(Gdk) \
+typelib(GdkPixbuf) \
+typelib(Gio) \
+typelib(Gtk) \
+typelib(HarfBuzz) \
+typelib(Pango) \
+typelib(cairo) \
+typelib(freetype2) \
+typelib(xlib)"
 
 inherit rpm

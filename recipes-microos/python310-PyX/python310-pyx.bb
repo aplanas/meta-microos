@@ -11,7 +11,15 @@ RPM_NAME = "python310-PyX-0.15-2.11.noarch.rpm"
 RPM_HASH = "134d3d0c8323d836f2cb4ddb95d464897f47c57e4d8c62a0cf5a99585985b73534ea04130e5b21a2c8a19a7148e115f2433a91b31b5816de8a0682373c6594f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyX python3-pyx python3.10dist(pyx) python310-PyX python310-pyx python3dist(pyx)"
-RDEPENDS:${PN} += "python(abi) texlive-latex-bin-bin texlive-tex-bin texlive-texware-bin"
+RPROVIDES:${PN} += "python3-PyX \
+python3-pyx \
+python3.10dist(pyx) \
+python310-PyX \
+python310-pyx \
+python3dist(pyx)"
+RDEPENDS:${PN} += "python(abi) \
+texlive-latex-bin-bin \
+texlive-tex-bin \
+texlive-texware-bin"
 
 inherit rpm

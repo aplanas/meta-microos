@@ -10,6 +10,10 @@ RPM_HASH = "843f37fd858466f310734d652c6de491b43cf5d005a409390ecaada3ff018734149b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-milters"
-RDEPENDS:${PN} += "/bin/sh pagure postfix python3-pymilter systemd"
+RDEPENDS:${PN} += "/bin/sh \
+pagure \
+postfix \
+python3-pymilter \
+systemd"
 
 inherit rpm

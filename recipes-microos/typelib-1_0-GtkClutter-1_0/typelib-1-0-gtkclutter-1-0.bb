@@ -13,7 +13,28 @@ PV = "1.8.4"
 RPM_NAME = "typelib-1_0-GtkClutter-1_0-1.8.4-5.17.aarch64.rpm"
 RPM_HASH = "f4ec0ec1580364c8cc8203ac7a12dcbf301fa3b559b58042433d1ee0d4453fd997af52a29550c702360c24a3d7c8db19adb725e2e8b4942cb6a696ee554da9e2"
 
-RPROVIDES:${PN} += "typelib(GtkClutter) typelib-1_0-GtkClutter-1_0 typelib-1_0-GtkClutter-1_0(aarch-64)"
-RDEPENDS:${PN} += "libclutter-gtk-1.0.so.0()(64bit) typelib(Atk) typelib(Clutter) typelib(Cogl) typelib(CoglPango) typelib(GL) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gdk) typelib(GdkPixbuf) typelib(Gio) typelib(Gtk) typelib(HarfBuzz) typelib(Json) typelib(Pango) typelib(PangoCairo) typelib(cairo) typelib(freetype2) typelib(xlib)"
+RPROVIDES:${PN} += "typelib(GtkClutter) \
+typelib-1_0-GtkClutter-1_0 \
+typelib-1_0-GtkClutter-1_0(aarch-64)"
+RDEPENDS:${PN} += "libclutter-gtk-1.0.so.0()(64bit) \
+typelib(Atk) \
+typelib(Clutter) \
+typelib(Cogl) \
+typelib(CoglPango) \
+typelib(GL) \
+typelib(GLib) \
+typelib(GModule) \
+typelib(GObject) \
+typelib(Gdk) \
+typelib(GdkPixbuf) \
+typelib(Gio) \
+typelib(Gtk) \
+typelib(HarfBuzz) \
+typelib(Json) \
+typelib(Pango) \
+typelib(PangoCairo) \
+typelib(cairo) \
+typelib(freetype2) \
+typelib(xlib)"
 
 inherit rpm

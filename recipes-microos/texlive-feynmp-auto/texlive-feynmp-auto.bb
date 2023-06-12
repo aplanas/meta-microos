@@ -11,7 +11,23 @@ RPM_NAME = "texlive-feynmp-auto-2023.201.1.1svn30223-52.1.noarch.rpm"
 RPM_HASH = "c90c554c202a31fb766e3ecee323e0404b66f035ed68fb2a3f3e587d7872f93fd36c2790198780c0ff12a3cffc30ed136dc2fc31e2dd8878e3b987a2731b4c2f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(feynmp-auto.sty) texlive-feynmp-auto"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(feynmp.sty) tex(ifpdf.sty) tex(ifxetex.sty) tex(pdftexcmds.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(feynmp-auto.sty) \
+texlive-feynmp-auto"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(feynmp.sty) \
+tex(ifpdf.sty) \
+tex(ifxetex.sty) \
+tex(pdftexcmds.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -12,6 +12,9 @@ RPM_HASH = "bbfa71a5f6aa9213ec1e2edbd4790b06b1cceab0833b5b6e165a5af5bcf3d6642dd9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-ci"
-RDEPENDS:${PN} += "/bin/sh pagure python3-python-jenkins systemd"
+RDEPENDS:${PN} += "/bin/sh \
+pagure \
+python3-python-jenkins \
+systemd"
 
 inherit rpm

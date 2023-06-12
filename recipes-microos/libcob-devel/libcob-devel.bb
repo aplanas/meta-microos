@@ -9,7 +9,8 @@ PV = "3.1.2"
 RPM_NAME = "libcob-devel-3.1.2-1.13.aarch64.rpm"
 RPM_HASH = "8c9250c6d14673ea599b402d426caafd10c3a99bd9d0a611b0927b4179327903c3fa6d8a075c53b8acce666f7a0892d43cfec908f7afd8f31270c85bb7089fc8"
 
-RPROVIDES:${PN} += "libcob-devel libcob-devel(aarch-64)"
+RPROVIDES:${PN} += "libcob-devel \
+libcob-devel(aarch-64)"
 RDEPENDS:${PN} += "libcob4"
 
 inherit rpm

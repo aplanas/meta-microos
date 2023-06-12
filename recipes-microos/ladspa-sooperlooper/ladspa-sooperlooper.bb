@@ -8,7 +8,10 @@ PV = "0.93"
 RPM_NAME = "ladspa-sooperlooper-0.93-3.26.aarch64.rpm"
 RPM_HASH = "a38fc1a7e76af01276cff20dc6895477aea4bbad7c57ee31a9fdfcface6b2856402cbf2dc62218f4075e8f9b31f6e0d197f458ae46aa791463398083bb97a220"
 
-RPROVIDES:${PN} += "ladspa-sooperlooper ladspa-sooperlooper(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "ladspa-sooperlooper \
+ladspa-sooperlooper(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

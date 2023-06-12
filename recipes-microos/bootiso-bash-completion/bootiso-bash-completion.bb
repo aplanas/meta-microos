@@ -9,6 +9,7 @@ RPM_HASH = "aec7975a9e72a2ea715dbe99f83854999b004aaa67a9a35c8fc7cc9b2736346f3ef7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bootiso-bash-completion"
-RDEPENDS:${PN} += "bash-completion bootiso"
+RDEPENDS:${PN} += "bash-completion \
+bootiso"
 
 inherit rpm

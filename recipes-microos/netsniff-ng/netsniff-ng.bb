@@ -23,7 +23,28 @@ PV = "0.6.8"
 RPM_NAME = "netsniff-ng-0.6.8-2.3.aarch64.rpm"
 RPM_HASH = "fa4ca8c5c867f9c877bef687b310ba3788d13b78acd59e69530aedac3030297267c00affeeea5abe1c23a56a348900c9059fa14ba4153dd2e50320b5b2d2dffd"
 
-RPROVIDES:${PN} += "config(netsniff-ng) netsniff-ng netsniff-ng(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcli.so.1.10()(64bit) libncursesw.so.6()(64bit) libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) libnet.so.9()(64bit) libnetfilter_conntrack.so.3()(64bit) libnl-3.so.200()(64bit) libnl-3.so.200(libnl_3)(64bit) libnl-genl-3.so.200()(64bit) libnl-genl-3.so.200(libnl_3)(64bit) libnl-route-3.so.200()(64bit) libnl-route-3.so.200(libnl_3)(64bit) libpcap.so.1()(64bit) libsodium.so.23()(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) liburcu.so.8()(64bit)"
+RPROVIDES:${PN} += "config(netsniff-ng) \
+netsniff-ng \
+netsniff-ng(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcli.so.1.10()(64bit) \
+libncursesw.so.6()(64bit) \
+libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
+libnet.so.9()(64bit) \
+libnetfilter_conntrack.so.3()(64bit) \
+libnl-3.so.200()(64bit) \
+libnl-3.so.200(libnl_3)(64bit) \
+libnl-genl-3.so.200()(64bit) \
+libnl-genl-3.so.200(libnl_3)(64bit) \
+libnl-route-3.so.200()(64bit) \
+libnl-route-3.so.200(libnl_3)(64bit) \
+libpcap.so.1()(64bit) \
+libsodium.so.23()(64bit) \
+libtinfo.so.6()(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
+libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
+liburcu.so.8()(64bit)"
 
 inherit rpm

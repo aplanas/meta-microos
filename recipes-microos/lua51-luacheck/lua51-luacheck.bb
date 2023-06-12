@@ -16,7 +16,13 @@ RPM_NAME = "lua51-luacheck-1.1.0-1.1.noarch.rpm"
 RPM_HASH = "70eb0a88f07ab7ae42892ed68b7757536c059c33ef035090d502a860f04e87b79613bd1f9b17f2000bfe1df4828c7eb7624386257fe3ddca198d406d8981554f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "lua51-luacheck luacheck"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/lua5.1 lua51 lua51-argparse lua51-luafilesystem update-alternatives"
+RPROVIDES:${PN} += "lua51-luacheck \
+luacheck"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/lua5.1 \
+lua51 \
+lua51-argparse \
+lua51-luafilesystem \
+update-alternatives"
 
 inherit rpm

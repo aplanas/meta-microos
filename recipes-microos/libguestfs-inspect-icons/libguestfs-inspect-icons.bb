@@ -15,6 +15,7 @@ RPM_HASH = "aeb519a6824a5beaeee63d90b1bdfe725ca36b86fb4c03abd8bf87ed13da69da014b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libguestfs-inspect-icons"
-RDEPENDS:${PN} += "icoutils libguestfs"
+RDEPENDS:${PN} += "icoutils \
+libguestfs"
 
 inherit rpm

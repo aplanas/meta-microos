@@ -24,7 +24,14 @@ RPM_NAME = "perl-CGI-Application-4.61-1.17.noarch.rpm"
 RPM_HASH = "4e3396df20a729d6eb86e87fa3c5ed11e701df20a13fc1b9b82c3022771eac0e36b3cab2b0fd662d4523d4ab6d4affd6c734f56376ee1cf8654062aae9dc389e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(CGI::Application) perl(CGI::Application::Mailform) perl-CGI-Application"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(CGI) perl(Class::ISA) perl(HTML::Template) perl(Module::Build) perl(Test::Requires)"
+RPROVIDES:${PN} += "perl(CGI::Application) \
+perl(CGI::Application::Mailform) \
+perl-CGI-Application"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(CGI) \
+perl(Class::ISA) \
+perl(HTML::Template) \
+perl(Module::Build) \
+perl(Test::Requires)"
 
 inherit rpm

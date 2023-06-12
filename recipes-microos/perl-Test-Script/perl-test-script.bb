@@ -27,7 +27,11 @@ RPM_NAME = "perl-Test-Script-1.29-1.9.noarch.rpm"
 RPM_HASH = "b87a0d502d6c9a7b7aa615b03c9dcc4c561c40de5143a73cdc3bb29dfea79be0cf73c64a00409b1a676ae32a71d45bffeef080e601dc290086ff3228328c72b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Script) perl-Test-Script"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Capture::Tiny) perl(Probe::Perl) perl(Test2::API)"
+RPROVIDES:${PN} += "perl(Test::Script) \
+perl-Test-Script"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Capture::Tiny) \
+perl(Probe::Perl) \
+perl(Test2::API)"
 
 inherit rpm

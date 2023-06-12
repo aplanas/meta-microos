@@ -14,7 +14,8 @@ RPM_NAME = "lua54-copas-2.0.2-4.1.noarch.rpm"
 RPM_HASH = "6d4d512daea22884d8dc4a6220630ba7733ce532341420f6d7010f3b1ddf90c27d8a53ede5501f953ac01225b162e6241e35fac9f5a38faa9fa4ee359872548f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "lua-copas lua54-copas"
+RPROVIDES:${PN} += "lua-copas \
+lua54-copas"
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

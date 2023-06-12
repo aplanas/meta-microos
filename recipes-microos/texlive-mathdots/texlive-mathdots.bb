@@ -12,7 +12,20 @@ RPM_NAME = "texlive-mathdots-2023.201.0.0.9svn34301-52.1.noarch.rpm"
 RPM_HASH = "a899f1adff773bcd37074795aafaac05dc48ac93ca94c92fea7313d65574710c2b5a3d09c0aa38f1154e0720eb0a5387cc1676c536d1b65eb9f26115c9cfeffe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mathdots.sty) tex(mathdots.tex) texlive-mathdots"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(mathdots.sty) \
+tex(mathdots.tex) \
+texlive-mathdots"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

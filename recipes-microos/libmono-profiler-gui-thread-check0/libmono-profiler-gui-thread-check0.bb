@@ -8,7 +8,12 @@ PV = "2.99.4"
 RPM_NAME = "libmono-profiler-gui-thread-check0-2.99.4-6.11.aarch64.rpm"
 RPM_HASH = "8a183556b1281220608770c884b071b7d178ddb74e2c6616c4c126f8d5e229e869ad50452c59eb4f5e59bf3350095d51db0339c2b5999afda47d2433b5e64f29"
 
-RPROVIDES:${PN} += "libmono-profiler-gui-thread-check.so.0()(64bit) libmono-profiler-gui-thread-check0 libmono-profiler-gui-thread-check0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig libc.so.6(GLIBC_2.17)(64bit) libglib-2.0.so.0()(64bit) libmonosgen-2.0.so.1()(64bit)"
+RPROVIDES:${PN} += "libmono-profiler-gui-thread-check.so.0()(64bit) \
+libmono-profiler-gui-thread-check0 \
+libmono-profiler-gui-thread-check0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libc.so.6(GLIBC_2.17)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libmonosgen-2.0.so.1()(64bit)"
 
 inherit rpm

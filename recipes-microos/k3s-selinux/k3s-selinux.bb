@@ -9,6 +9,10 @@ RPM_HASH = "a07aa1947b40c2eb9da2c776754ae78dd70ca7560d375d0e339f38dfe06bca3f7d04
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "k3s-selinux"
-RDEPENDS:${PN} += "/bin/sh container-selinux policycoreutils selinux-policy-base selinux-tools"
+RDEPENDS:${PN} += "/bin/sh \
+container-selinux \
+policycoreutils \
+selinux-policy-base \
+selinux-tools"
 
 inherit rpm

@@ -21,7 +21,40 @@ PV = "2.5.10"
 RPM_NAME = "perl-Mouse-2.5.10-1.17.aarch64.rpm"
 RPM_HASH = "a08c96b8a9e8a084e65dfb44b884636233f516f115bc0cae2cbf758b3ac166819b945a9a67525a60d958c531275cd244380e2d1f3b10b3d3725889e04c72a98b"
 
-RPROVIDES:${PN} += "perl(Mouse) perl(Mouse::Exporter) perl(Mouse::Meta::Attribute) perl(Mouse::Meta::Class) perl(Mouse::Meta::Method) perl(Mouse::Meta::Method::Accessor) perl(Mouse::Meta::Method::Constructor) perl(Mouse::Meta::Method::Delegation) perl(Mouse::Meta::Method::Destructor) perl(Mouse::Meta::Module) perl(Mouse::Meta::Role) perl(Mouse::Meta::Role::Application) perl(Mouse::Meta::Role::Application::RoleSummation) perl(Mouse::Meta::Role::Composite) perl(Mouse::Meta::Role::Method) perl(Mouse::Meta::TypeConstraint) perl(Mouse::Object) perl(Mouse::PurePerl) perl(Mouse::Role) perl(Mouse::Spec) perl(Mouse::Tiny) perl(Mouse::TypeRegistry) perl(Mouse::Util) perl(Mouse::Util::MetaRole) perl(Mouse::Util::TypeConstraints) perl(Squirrel) perl(Squirrel::Role) perl(Test::Mouse) perl(ouse) perl-Mouse perl-Mouse(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Mouse) \
+perl(Mouse::Exporter) \
+perl(Mouse::Meta::Attribute) \
+perl(Mouse::Meta::Class) \
+perl(Mouse::Meta::Method) \
+perl(Mouse::Meta::Method::Accessor) \
+perl(Mouse::Meta::Method::Constructor) \
+perl(Mouse::Meta::Method::Delegation) \
+perl(Mouse::Meta::Method::Destructor) \
+perl(Mouse::Meta::Module) \
+perl(Mouse::Meta::Role) \
+perl(Mouse::Meta::Role::Application) \
+perl(Mouse::Meta::Role::Application::RoleSummation) \
+perl(Mouse::Meta::Role::Composite) \
+perl(Mouse::Meta::Role::Method) \
+perl(Mouse::Meta::TypeConstraint) \
+perl(Mouse::Object) \
+perl(Mouse::PurePerl) \
+perl(Mouse::Role) \
+perl(Mouse::Spec) \
+perl(Mouse::Tiny) \
+perl(Mouse::TypeRegistry) \
+perl(Mouse::Util) \
+perl(Mouse::Util::MetaRole) \
+perl(Mouse::Util::TypeConstraints) \
+perl(Squirrel) \
+perl(Squirrel::Role) \
+perl(Test::Mouse) \
+perl(ouse) \
+perl-Mouse \
+perl-Mouse(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

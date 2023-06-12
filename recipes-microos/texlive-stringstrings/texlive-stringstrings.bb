@@ -17,7 +17,20 @@ RPM_NAME = "texlive-stringstrings-2023.201.1.24svn57097-57.1.noarch.rpm"
 RPM_HASH = "3ca30f91e1bc710949863e60dcf76895ba7a74d3070d8422b2e1cebea8795830f4ec8bbc57378a83de227c7655dd83d3e34e690c371543c261cb724b2be89d18"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(stringstrings.sty) texlive-stringstrings"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifthen.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(stringstrings.sty) \
+texlive-stringstrings"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifthen.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

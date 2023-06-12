@@ -31,7 +31,28 @@ RPM_NAME = "perl-MooseX-Types-0.50-1.21.noarch.rpm"
 RPM_HASH = "3b25f3f57757b0578e769102217e24339d278c830a51695d205816f4cf21cde417f049bc5c78ae657bf476d94d62a7f61140b88683f226660969036caa857b85"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooseX::Types) perl(MooseX::Types::Base) perl(MooseX::Types::CheckedUtilExports) perl(MooseX::Types::Combine) perl(MooseX::Types::Moose) perl(MooseX::Types::TypeDecorator) perl(MooseX::Types::UndefinedType) perl(MooseX::Types::Util) perl(MooseX::Types::Wrapper) perl-MooseX-Types"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Carp::Clan) perl(Module::Runtime) perl(Moose) perl(Moose::Exporter) perl(Moose::Meta::TypeConstraint::Union) perl(Moose::Util::TypeConstraints) perl(Scalar::Util) perl(Sub::Exporter) perl(Sub::Exporter::ForMethods) perl(Sub::Install) perl(Sub::Name) perl(namespace::autoclean)"
+RPROVIDES:${PN} += "perl(MooseX::Types) \
+perl(MooseX::Types::Base) \
+perl(MooseX::Types::CheckedUtilExports) \
+perl(MooseX::Types::Combine) \
+perl(MooseX::Types::Moose) \
+perl(MooseX::Types::TypeDecorator) \
+perl(MooseX::Types::UndefinedType) \
+perl(MooseX::Types::Util) \
+perl(MooseX::Types::Wrapper) \
+perl-MooseX-Types"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Carp::Clan) \
+perl(Module::Runtime) \
+perl(Moose) \
+perl(Moose::Exporter) \
+perl(Moose::Meta::TypeConstraint::Union) \
+perl(Moose::Util::TypeConstraints) \
+perl(Scalar::Util) \
+perl(Sub::Exporter) \
+perl(Sub::Exporter::ForMethods) \
+perl(Sub::Install) \
+perl(Sub::Name) \
+perl(namespace::autoclean)"
 
 inherit rpm

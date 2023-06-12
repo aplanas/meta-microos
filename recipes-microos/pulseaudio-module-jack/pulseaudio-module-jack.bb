@@ -11,7 +11,16 @@ PV = "16.1"
 RPM_NAME = "pulseaudio-module-jack-16.1-3.1.aarch64.rpm"
 RPM_HASH = "94fcf957e1d50c9703d48b18756445ce4495352be5d75ec771a6c197c72eea2614e81bacde794bcc30ad0bdd0853d58203945f92c5cd88c90514428d8fc78693"
 
-RPROVIDES:${PN} += "pulseaudio-module-jack pulseaudio-module-jack(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libdbus-1.so.3()(64bit) libdbus-1.so.3(LIBDBUS_1_3)(64bit) libjack.so.0()(64bit) libpulsecommon-16.1.so()(64bit) libpulsecore-16.1.so()(64bit) pulseaudio"
+RPROVIDES:${PN} += "pulseaudio-module-jack \
+pulseaudio-module-jack(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libdbus-1.so.3()(64bit) \
+libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
+libjack.so.0()(64bit) \
+libpulsecommon-16.1.so()(64bit) \
+libpulsecore-16.1.so()(64bit) \
+pulseaudio"
 
 inherit rpm

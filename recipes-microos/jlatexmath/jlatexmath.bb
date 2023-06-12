@@ -12,6 +12,7 @@ RPM_HASH = "119ad8f89bea4514d2e8d68bb4b2bc688b6c99235f089e86381ce811e415c2c4e35b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jlatexmath"
-RDEPENDS:${PN} += "java javapackages-tools"
+RDEPENDS:${PN} += "java \
+javapackages-tools"
 
 inherit rpm

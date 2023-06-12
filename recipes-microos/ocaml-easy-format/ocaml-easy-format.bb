@@ -20,7 +20,8 @@ PV = "1.3.4"
 RPM_NAME = "ocaml-easy-format-1.3.4-1.4.aarch64.rpm"
 RPM_HASH = "1a20c7e23e9586acda20925c772ecc3d062b3bcbcaef28ff210848688e1527e222bffbddef57753ab06d185c4793b0c8bb616f5f03bf5d9ff96c1cd4f8b2359f"
 
-RPROVIDES:${PN} += "ocaml-easy-format ocaml-easy-format(aarch-64)"
+RPROVIDES:${PN} += "ocaml-easy-format \
+ocaml-easy-format(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

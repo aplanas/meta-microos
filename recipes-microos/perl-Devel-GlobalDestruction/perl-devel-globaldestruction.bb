@@ -16,7 +16,9 @@ RPM_NAME = "perl-Devel-GlobalDestruction-0.14-1.23.noarch.rpm"
 RPM_HASH = "8d51d31adb6015705e59b27256cc9e1bdf6496269c29b62671cedb31d6d32c1b63979ca30206ee526745f69edde6c804fdeffddbb47b6491a5950e54b366f87d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Devel::GlobalDestruction) perl-Devel-GlobalDestruction"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Sub::Exporter::Progressive)"
+RPROVIDES:${PN} += "perl(Devel::GlobalDestruction) \
+perl-Devel-GlobalDestruction"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Sub::Exporter::Progressive)"
 
 inherit rpm

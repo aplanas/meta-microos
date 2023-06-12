@@ -18,7 +18,13 @@ PV = "1.6.1"
 RPM_NAME = "eblook-1.6.1-161.28.aarch64.rpm"
 RPM_HASH = "14c7e713d851b5123875155d6fac03fe89e515823b5c8f8217cc8ed49f194ec0cdf38bf2a55099ebc43fa1c653c371c713cecf2410035b1aafe1b8613fc8b197"
 
-RPROVIDES:${PN} += "eblook eblook(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh eb ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libeb.so.16()(64bit)"
+RPROVIDES:${PN} += "eblook \
+eblook(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+eb \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libeb.so.16()(64bit)"
 
 inherit rpm

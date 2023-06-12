@@ -12,7 +12,16 @@ RPM_NAME = "python310-python-dbusmock-0.24.1-3.1.noarch.rpm"
 RPM_HASH = "56e4d156b2bf7eaba452c074a39bc12fc4ba9594d27e557e8e071d65974328b71130d24d11ab564fddd267263c9ad3036ddcde6a3f9816624ada7a49e2453b85"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dbusmock python3-python-dbusmock python3.10dist(python-dbusmock) python310-dbusmock python310-python-dbusmock python3dist(python-dbusmock)"
-RDEPENDS:${PN} += "dbus-1-x11 python(abi) python310-dbus-python python310-gobject typelib(GLib)"
+RPROVIDES:${PN} += "python3-dbusmock \
+python3-python-dbusmock \
+python3.10dist(python-dbusmock) \
+python310-dbusmock \
+python310-python-dbusmock \
+python3dist(python-dbusmock)"
+RDEPENDS:${PN} += "dbus-1-x11 \
+python(abi) \
+python310-dbus-python \
+python310-gobject \
+typelib(GLib)"
 
 inherit rpm

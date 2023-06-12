@@ -40,7 +40,19 @@ RPM_NAME = "perl-XML-RSS-1.62-1.12.noarch.rpm"
 RPM_HASH = "57249c44efcd1c47c03d18e8ca6c975bf4015d4f4de08c874a35215c645d570b73a1d0fff3234d1a209f7b8a3d812efdf4ded14f5c19f6b9dcea4cb84b7c22fb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::RSS) perl(XML::RSS::Private::Output::Base) perl(XML::RSS::Private::Output::Roles::ImageDims) perl(XML::RSS::Private::Output::Roles::ModulesElems) perl(XML::RSS::Private::Output::V0_9) perl(XML::RSS::Private::Output::V0_91) perl(XML::RSS::Private::Output::V1_0) perl(XML::RSS::Private::Output::V2_0) perl-XML-RSS"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(DateTime::Format::Mail) perl(DateTime::Format::W3CDTF) perl(HTML::Entities) perl(XML::Parser)"
+RPROVIDES:${PN} += "perl(XML::RSS) \
+perl(XML::RSS::Private::Output::Base) \
+perl(XML::RSS::Private::Output::Roles::ImageDims) \
+perl(XML::RSS::Private::Output::Roles::ModulesElems) \
+perl(XML::RSS::Private::Output::V0_9) \
+perl(XML::RSS::Private::Output::V0_91) \
+perl(XML::RSS::Private::Output::V1_0) \
+perl(XML::RSS::Private::Output::V2_0) \
+perl-XML-RSS"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(DateTime::Format::Mail) \
+perl(DateTime::Format::W3CDTF) \
+perl(HTML::Entities) \
+perl(XML::Parser)"
 
 inherit rpm

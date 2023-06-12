@@ -31,7 +31,9 @@ RPM_NAME = "perl-HTML-SimpleParse-0.12-284.15.noarch.rpm"
 RPM_HASH = "c8abe49c65de7e44607f5da0829fbebb14bffd4149fc5fb5d925d5b7a18b40e0a9e7802a0c243ef85727e242c6e4251a9789938c15ad8c3f6439aeac3d663dff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "HTML-SimpleParse perl(HTML::SimpleParse) perl-HTML-SimpleParse"
+RPROVIDES:${PN} += "HTML-SimpleParse \
+perl(HTML::SimpleParse) \
+perl-HTML-SimpleParse"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

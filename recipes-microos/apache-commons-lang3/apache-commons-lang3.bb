@@ -18,7 +18,12 @@ RPM_NAME = "apache-commons-lang3-3.12.0-2.6.noarch.rpm"
 RPM_HASH = "f6f9c1273377a5e3cfbf39ee6fdf0b8164fa06a4ae8a3a73d0dcb58e44e066601b406f3a33940895fe747fb5a2d9c6b30f7c7e5c489013b0de8b466a5513879f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "apache-commons-lang3 commons-lang3 mvn(org.apache.commons:commons-lang3) mvn(org.apache.commons:commons-lang3:pom:) osgi(org.apache.commons.lang3)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "apache-commons-lang3 \
+commons-lang3 \
+mvn(org.apache.commons:commons-lang3) \
+mvn(org.apache.commons:commons-lang3:pom:) \
+osgi(org.apache.commons.lang3)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

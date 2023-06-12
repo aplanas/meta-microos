@@ -17,7 +17,12 @@ PV = "2.2.0"
 RPM_NAME = "pcsc-reflex60-2.2.0-156.25.aarch64.rpm"
 RPM_HASH = "096a417ded061b3d81dfb4c774fb5d086520b0b347fb811a48b4c784447dafe2def0121dcfbba6d1f74f961f64d1b310b5c70b7b349bdf02f6a73f3cbc4b8b71"
 
-RPROVIDES:${PN} += "libslb_rf60.so()(64bit) pcsc-reflex60 pcsc-reflex60(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) pcsc-lite"
+RPROVIDES:${PN} += "libslb_rf60.so()(64bit) \
+pcsc-reflex60 \
+pcsc-reflex60(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+pcsc-lite"
 
 inherit rpm

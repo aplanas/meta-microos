@@ -13,7 +13,14 @@ RPM_NAME = "python310-nibabel-4.0.2-1.4.noarch.rpm"
 RPM_HASH = "c81cee403b5f22418383eb61925a630e5c6bbf799e8aa1141340cd728325529fcad8c5854ff6f1e02d09c097e57f2f5a0ec6a537d94faff0aaaf68bb2355c8f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-nibabel python3.10dist(nibabel) python310-nibabel python3dist(nibabel)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-numpy update-alternatives"
+RPROVIDES:${PN} += "python3-nibabel \
+python3.10dist(nibabel) \
+python310-nibabel \
+python3dist(nibabel)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-numpy \
+update-alternatives"
 
 inherit rpm

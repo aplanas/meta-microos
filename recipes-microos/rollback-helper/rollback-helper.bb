@@ -11,6 +11,9 @@ RPM_HASH = "298e3aa470889886244c54f8ea1e8357b96851bfa581571b7e29db3912aeb701b3ed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rollback-helper"
-RDEPENDS:${PN} += "/bin/bash /bin/sh SUSEConnect systemd"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+SUSEConnect \
+systemd"
 
 inherit rpm

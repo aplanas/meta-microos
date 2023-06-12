@@ -23,7 +23,24 @@ RPM_NAME = "texlive-dejavu-otf-2023.201.0.0.04svn45991-52.1.noarch.rpm"
 RPM_HASH = "6f627f9df8015ddfbcdce4f154c58c19a03730e88e4609a9e446dae29a9ad5a6e3a63dbfdfdf2dc10d862690ea4232bc5e4aaa21707e076a5cc886996fa04a33"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dejavu-otf.sty) texlive-dejavu-otf"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifluatex.sty) tex(ifxetex.sty) tex(textcomp.sty) tex(unicode-math.sty) tex(xkeyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(dejavu-otf.sty) \
+texlive-dejavu-otf"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifluatex.sty) \
+tex(ifxetex.sty) \
+tex(textcomp.sty) \
+tex(unicode-math.sty) \
+tex(xkeyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

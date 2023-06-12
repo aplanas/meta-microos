@@ -13,7 +13,17 @@ PV = "4.4.0.0"
 RPM_NAME = "uhd-devel-4.4.0.0-1.4.aarch64.rpm"
 RPM_HASH = "07fd0a79b57dc9cd0ea3414d1723de6dcad22322abb9550849f3e19f5834071224c21830e77a5760a78b445a3c7690b1e0a4d5337a85248543c443969b392406"
 
-RPROVIDES:${PN} += "cmake(UHD) pkgconfig(uhd) uhd-devel uhd-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libboost_filesystem-devel libboost_program_options-devel libboost_regex-devel libboost_serialization-devel libboost_test-devel libboost_thread-devel libuhd4_4_0"
+RPROVIDES:${PN} += "cmake(UHD) \
+pkgconfig(uhd) \
+uhd-devel \
+uhd-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libboost_filesystem-devel \
+libboost_program_options-devel \
+libboost_regex-devel \
+libboost_serialization-devel \
+libboost_test-devel \
+libboost_thread-devel \
+libuhd4_4_0"
 
 inherit rpm

@@ -24,7 +24,12 @@ RPM_NAME = "perl-Object-Pluggable-1.29-1.20.noarch.rpm"
 RPM_HASH = "4d911e83fdbdf35190e35a2046ffc254a18028b812e54a1b097e23e88a67761eed90ae7f5c5d82a9271613d434cebdcbd68ccbd84d47f3d396eede6222390f9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Object::Pluggable) perl(Object::Pluggable::Constants) perl(Object::Pluggable::Pipeline) perl-Object-Pluggable"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Task::Weaken) perl(constant)"
+RPROVIDES:${PN} += "perl(Object::Pluggable) \
+perl(Object::Pluggable::Constants) \
+perl(Object::Pluggable::Pipeline) \
+perl-Object-Pluggable"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Task::Weaken) \
+perl(constant)"
 
 inherit rpm

@@ -21,7 +21,38 @@ PV = "0.57.0"
 RPM_NAME = "python310-numba-0.57.0-1.1.aarch64.rpm"
 RPM_HASH = "dcba5206d30dffdba6cf6c253a7fb5628eba2583b061fb6bfa01996bbd80663eba100b92653cb2028cb30f7771547874963870a842f2c0ac5b8b6c7ca7c890fa"
 
-RPROVIDES:${PN} += "python3-numba python3.10dist(numba) python310-numba python310-numba(aarch-64) python3dist(numba)"
-RDEPENDS:${PN} += "(python310-llvmlite >= 0.40 with python310-llvmlite < 0.41) (python310-numpy >= 1.21 with python310-numpy < 1.25) /bin/sh /usr/bin/python3.10 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libgomp.so.1()(64bit) libgomp.so.1(GOMP_4.0)(64bit) libgomp.so.1(OMP_1.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.23)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.32)(64bit) libtbb.so.12()(64bit) python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3-numba \
+python3.10dist(numba) \
+python310-numba \
+python310-numba(aarch-64) \
+python3dist(numba)"
+RDEPENDS:${PN} += "(python310-llvmlite >= 0.40 with python310-llvmlite < 0.41) \
+(python310-numpy >= 1.21 with python310-numpy < 1.25) \
+/bin/sh \
+/usr/bin/python3.10 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libgomp.so.1()(64bit) \
+libgomp.so.1(GOMP_4.0)(64bit) \
+libgomp.so.1(OMP_1.0)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.23)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.8)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
+libtbb.so.12()(64bit) \
+python(abi) \
+update-alternatives"
 
 inherit rpm

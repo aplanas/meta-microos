@@ -9,6 +9,7 @@ RPM_HASH = "ba15c9c7b950ee645c85f6653700a086b5f867f564812b147a5341cdd1846e98b966
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "v4l2loopback-utils"
-RDEPENDS:${PN} += "/bin/bash v4l-utils"
+RDEPENDS:${PN} += "/bin/bash \
+v4l-utils"
 
 inherit rpm

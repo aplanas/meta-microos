@@ -16,7 +16,12 @@ PV = "22.11"
 RPM_NAME = "pgn-extract-22.11-1.3.aarch64.rpm"
 RPM_HASH = "02449a2559e475a17c1f2b1f854774152a61b0c2bdaa2fabab5c6afb591ad6ad75a0d2f14ed42484e8c86f39253bf307299d37cdf3af3d08a9038bf0fb89322f"
 
-RPROVIDES:${PN} += "pgn-extract pgn-extract(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "pgn-extract \
+pgn-extract(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

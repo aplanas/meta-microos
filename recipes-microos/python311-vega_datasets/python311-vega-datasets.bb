@@ -11,7 +11,10 @@ RPM_NAME = "python311-vega_datasets-0.9.0-1.9.noarch.rpm"
 RPM_HASH = "febd247db420bde2ec440d2917b79d228ca70d51f11a471af5c60e013ff1a40d7e7728ba92d98119ad25c3352dc71ad8b44dde477ba103f17c747c1a42248b9e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(vega-datasets) python311-vega_datasets python3dist(vega-datasets)"
-RDEPENDS:${PN} += "python(abi) python311-pandas"
+RPROVIDES:${PN} += "python3.11dist(vega-datasets) \
+python311-vega_datasets \
+python3dist(vega-datasets)"
+RDEPENDS:${PN} += "python(abi) \
+python311-pandas"
 
 inherit rpm

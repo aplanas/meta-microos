@@ -24,7 +24,12 @@ RPM_NAME = "python39-pygn-0.10.2-2.4.noarch.rpm"
 RPM_HASH = "4faa8115ea79843f718511c25f313a905337934a58ffae97418847726816dda1e573e6961536eebc6353e3c4315bbe86a0b9df828da6ca5620819642ae323f87"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pygn) python39-pygn python3dist(pygn)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(pygn) \
+python39-pygn \
+python3dist(pygn)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

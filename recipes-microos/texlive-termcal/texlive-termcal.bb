@@ -15,7 +15,21 @@ RPM_NAME = "texlive-termcal-2023.201.1.8svn22514-54.1.noarch.rpm"
 RPM_HASH = "5e27f9f857ee72cd04c554292820e93475c7aea35fe23941e732692f2839faa76951089725efb6e0ec5739831f8e2116398e7e34f4e5eec3ef7dc4933e3ba71a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(termcal.sty) texlive-termcal"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifthen.sty) tex(longtable.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(termcal.sty) \
+texlive-termcal"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifthen.sty) \
+tex(longtable.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

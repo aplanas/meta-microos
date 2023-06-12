@@ -27,7 +27,13 @@ PV = "0.34.1"
 RPM_NAME = "pen-0.34.1-1.12.aarch64.rpm"
 RPM_HASH = "81847bc361a8d783e7b37ed61e449b4bf80f7678afb7cb9c09e3e9f864638dde5f50d04385c822d3aece5cf13229f1900f2971c056853a98a7cbbe467629ca9f"
 
-RPROVIDES:${PN} += "config(pen) pen pen(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) systemd"
+RPROVIDES:${PN} += "config(pen) \
+pen \
+pen(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+systemd"
 
 inherit rpm

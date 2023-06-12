@@ -14,7 +14,20 @@ RPM_NAME = "texlive-pmx-2023.201.3.00svn65926-52.1.noarch.rpm"
 RPM_HASH = "d41fed292daf12f59457620cb6baa56af091798262f88c40ffc7590046a630c8f7877c39506628bbf656cb4b80235ae48abc6ed46f28f63c1e7519e5eadd1ff9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pmx.tex) texlive-pmx"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-pmx-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(pmx.tex) \
+texlive-pmx"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-pmx-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

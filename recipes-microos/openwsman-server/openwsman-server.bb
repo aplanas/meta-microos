@@ -7,7 +7,36 @@ PV = "2.7.2"
 RPM_NAME = "openwsman-server-2.7.2-2.5.aarch64.rpm"
 RPM_HASH = "ecb76395a5301f6e5dce656260b3c7c051153257d3a0b478668f998880a901eee109164d63493711068dee937902c97ee34457a9b908cd07eb1f6379ef499ef4"
 
-RPROVIDES:${PN} += "config(openwsman-server) libredirect.so.1()(64bit) libwsman_cim_plugin.so.1()(64bit) libwsman_file_auth.so.1()(64bit) libwsman_identify_plugin.so.1()(64bit) libwsman_pam_auth.so.1()(64bit) libwsman_server.so.1()(64bit) libwsman_test.so.1()(64bit) openwsman-server openwsman-server(aarch-64)"
-RDEPENDS:${PN} += "/bin/hostname /bin/sh coreutils diffutils fillup grep ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcmpisfcc.so.1()(64bit) libcmpisfcc.so.1(CMPISFCC_2.0)(64bit) libcrypt.so.1()(64bit) libcrypt.so.1(XCRYPT_2.0)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libpam.so.0()(64bit) libpam.so.0(LIBPAM_1.0)(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) libwsman.so.1()(64bit) sed"
+RPROVIDES:${PN} += "config(openwsman-server) \
+libredirect.so.1()(64bit) \
+libwsman_cim_plugin.so.1()(64bit) \
+libwsman_file_auth.so.1()(64bit) \
+libwsman_identify_plugin.so.1()(64bit) \
+libwsman_pam_auth.so.1()(64bit) \
+libwsman_server.so.1()(64bit) \
+libwsman_test.so.1()(64bit) \
+openwsman-server \
+openwsman-server(aarch-64)"
+RDEPENDS:${PN} += "/bin/hostname \
+/bin/sh \
+coreutils \
+diffutils \
+fillup \
+grep \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcmpisfcc.so.1()(64bit) \
+libcmpisfcc.so.1(CMPISFCC_2.0)(64bit) \
+libcrypt.so.1()(64bit) \
+libcrypt.so.1(XCRYPT_2.0)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libpam.so.0()(64bit) \
+libpam.so.0(LIBPAM_1.0)(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+libwsman.so.1()(64bit) \
+sed"
 
 inherit rpm

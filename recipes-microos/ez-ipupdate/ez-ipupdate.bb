@@ -34,7 +34,13 @@ PV = "3.0.11b8"
 RPM_NAME = "ez-ipupdate-3.0.11b8-292.7.aarch64.rpm"
 RPM_HASH = "2989d61843eeeac3dd86c8ae4540abcad6b052898f1569fe6903bb3a538dcfb3cdf035f8fd5fa862fae8b59f57d39a67978d1143c8e09d4160ee43c4c49a9fc4"
 
-RPROVIDES:${PN} += "config(ez-ipupdate) ez-ipupdate ez-ipupdate(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) systemd"
+RPROVIDES:${PN} += "config(ez-ipupdate) \
+ez-ipupdate \
+ez-ipupdate(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+systemd"
 
 inherit rpm

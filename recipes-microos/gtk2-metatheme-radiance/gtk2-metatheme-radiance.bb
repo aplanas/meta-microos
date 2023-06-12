@@ -11,6 +11,7 @@ RPM_HASH = "6ae65c5d1a9c694acc101995a5329db8dd84f4e664fd04a32f8a04c84d3a58512b37
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-radiance"
-RDEPENDS:${PN} += "gtk2-engine-murrine metatheme-radiance-common"
+RDEPENDS:${PN} += "gtk2-engine-murrine \
+metatheme-radiance-common"
 
 inherit rpm

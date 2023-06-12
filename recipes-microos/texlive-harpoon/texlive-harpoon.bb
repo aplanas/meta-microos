@@ -11,7 +11,20 @@ RPM_NAME = "texlive-harpoon-2023.201.1.0svn21327-53.1.noarch.rpm"
 RPM_HASH = "33a62b2b9b91c4184e0c22f0d34fae2b878d188dc42fb53f4e7e5500105d0df0c37ee388eb87ee6e4e60864d3480203deac2d5ca002210477461f6e1456fa737"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(harpoon.sty) texlive-harpoon"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(graphics.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(harpoon.sty) \
+texlive-harpoon"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(graphics.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

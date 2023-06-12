@@ -13,7 +13,10 @@ RPM_NAME = "python39-python-daemon-2.3.2-2.1.noarch.rpm"
 RPM_HASH = "b7227abd02e802c1e88e276dd6465be3ea55667f19f1bb2b6fb981a8f40cd1fe03e8c75c8fef1e2d83c4672418b28dddf410d182ef58cd2b52cf4b84b24f70d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(python-daemon) python39-python-daemon python3dist(python-daemon)"
-RDEPENDS:${PN} += "python(abi) python39-lockfile"
+RPROVIDES:${PN} += "python3.9dist(python-daemon) \
+python39-python-daemon \
+python3dist(python-daemon)"
+RDEPENDS:${PN} += "python(abi) \
+python39-lockfile"
 
 inherit rpm

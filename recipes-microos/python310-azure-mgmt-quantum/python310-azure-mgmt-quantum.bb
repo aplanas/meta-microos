@@ -10,7 +10,16 @@ RPM_NAME = "python310-azure-mgmt-quantum-1.0.0b3-1.3.noarch.rpm"
 RPM_HASH = "2ee2d1f1d058b058b037598f24153181d758c453255c736bfa9f1724147c4d67e435801482ea66fab0506dad6c0637f73ddbe5cc9996bc31573214535b1231c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-quantum python3.10dist(azure-mgmt-quantum) python310-azure-mgmt-quantum python3dist(azure-mgmt-quantum)"
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) python(abi) python310-azure-common python310-azure-mgmt-core python310-azure-mgmt-nspkg python310-azure-nspkg python310-msrest"
+RPROVIDES:${PN} += "python3-azure-mgmt-quantum \
+python3.10dist(azure-mgmt-quantum) \
+python310-azure-mgmt-quantum \
+python3dist(azure-mgmt-quantum)"
+RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
+python(abi) \
+python310-azure-common \
+python310-azure-mgmt-core \
+python310-azure-mgmt-nspkg \
+python310-azure-nspkg \
+python310-msrest"
 
 inherit rpm

@@ -17,7 +17,25 @@ PV = "1.1.1"
 RPM_NAME = "hexter-1.1.1-1.11.aarch64.rpm"
 RPM_HASH = "92b7fff1deb5275a43a8744f5ad532148d538ea34c0b057cdc0dfae372f98dfb7beb88eb44311476e92e9a8d9a75f75aa126e848014adc24b2a70421189de543"
 
-RPROVIDES:${PN} += "hexter hexter(aarch-64)"
-RDEPENDS:${PN} += "dssi ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libasound.so.2()(64bit) libasound.so.2(ALSA_0.9)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcairo.so.2()(64bit) libgdk-x11-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgtk-x11-2.0.so.0()(64bit) liblo.so.7()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit) libpango-1.0.so.0()(64bit) libpangocairo-1.0.so.0()(64bit)"
+RPROVIDES:${PN} += "hexter \
+hexter(aarch-64)"
+RDEPENDS:${PN} += "dssi \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libasound.so.2()(64bit) \
+libasound.so.2(ALSA_0.9)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcairo.so.2()(64bit) \
+libgdk-x11-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgtk-x11-2.0.so.0()(64bit) \
+liblo.so.7()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libpango-1.0.so.0()(64bit) \
+libpangocairo-1.0.so.0()(64bit)"
 
 inherit rpm

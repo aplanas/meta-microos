@@ -10,7 +10,12 @@ RPM_NAME = "python311-distro-1.8.0-2.1.noarch.rpm"
 RPM_HASH = "cfb6c9c297f48f6a95b7c881866078098ee9a8fb1c993ab0f2509ee6af95c3289bdc6db884ac70bf30cd4d2ddbfbfe41ec9a84d53d2ba13a2dc86f8d9a81c911"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(distro) python311-distro python3dist(distro)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(distro) \
+python311-distro \
+python3dist(distro)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

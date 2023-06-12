@@ -21,7 +21,8 @@ PV = "1.6.2+git0.ge8fd65f08"
 RPM_NAME = "rook-integration-1.6.2+git0.ge8fd65f08-2.8.aarch64.rpm"
 RPM_HASH = "4f1a5d1ef78b5091f1cdb6f977d393ecec6da498995aa2c6aa7bd9747a1e993df8e18535f87d39cc279af3fee36a0777300d3491dcc5e0907830139632520755"
 
-RPROVIDES:${PN} += "rook-integration rook-integration(aarch-64)"
+RPROVIDES:${PN} += "rook-integration \
+rook-integration(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,7 +12,13 @@ RPM_NAME = "python39-restructuredtext_lint-1.4.0-1.4.noarch.rpm"
 RPM_HASH = "7fabc5ad77bb66915a7cf69ecc5d10310c232fbc81f59934edd67f57c9d784b4d4e10f93dd4b2d2fd2e506dce53f04ce479899e38d97b5c963063661a9cee592"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(restructuredtext-lint) python39-restructuredtext_lint python3dist(restructuredtext-lint)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-docutils update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(restructuredtext-lint) \
+python39-restructuredtext_lint \
+python3dist(restructuredtext-lint)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-docutils \
+update-alternatives"
 
 inherit rpm

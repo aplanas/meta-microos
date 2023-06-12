@@ -11,6 +11,8 @@ RPM_HASH = "ab759326cb9761f7d003c5f0a868097e76f2a601e886523c151cd7c859a2f9626319
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rypper"
-RDEPENDS:${PN} += "/usr/bin/perl perl zypper"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl \
+zypper"
 
 inherit rpm

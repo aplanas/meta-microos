@@ -11,7 +11,21 @@ RPM_NAME = "texlive-datetime2-catalan-2023.201.1.1svn47032-52.1.noarch.rpm"
 RPM_HASH = "d1be5c5a9acb892eff69d7faed2b60fe8cf9e5dd4480bc1d3b03a46d344b1bd92d0cdd1cf61ea2170abfccd90dba29cfc1ecd45d7a3a566c227bb670650ff4b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(datetime2-catalan-ascii.ldf) tex(datetime2-catalan-utf8.ldf) tex(datetime2-catalan.ldf) texlive-datetime2-catalan"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(datetime2-catalan-ascii.ldf) \
+tex(datetime2-catalan-utf8.ldf) \
+tex(datetime2-catalan.ldf) \
+texlive-datetime2-catalan"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

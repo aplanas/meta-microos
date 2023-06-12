@@ -9,7 +9,12 @@ RPM_NAME = "python311-pybind11-stubgen-0.12.0-1.4.noarch.rpm"
 RPM_HASH = "bdacca8d51cff6f1b88cb2bf35015fe8060c9b3c803c157baa31503423a3608ad7f09a74222c02f691ea0829f567057702408b78e098153252919b2c86dc6cd7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pybind11-stubgen) python311-pybind11-stubgen python3dist(pybind11-stubgen)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(pybind11-stubgen) \
+python311-pybind11-stubgen \
+python3dist(pybind11-stubgen)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

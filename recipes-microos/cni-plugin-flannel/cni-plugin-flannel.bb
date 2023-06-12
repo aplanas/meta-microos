@@ -18,7 +18,9 @@ PV = "1.0.1"
 RPM_NAME = "cni-plugin-flannel-1.0.1-1.9.aarch64.rpm"
 RPM_HASH = "ca4de3bfc554d733dfd2748ead66bfcf9f211303c52825c9c157e60984690c22dc4e4489e300159c81b477ca318722509a83a815402a355b20d350662e2daf24"
 
-RPROVIDES:${PN} += "cni-plugin-flannel cni-plugin-flannel(aarch-64)"
-RDEPENDS:${PN} += "flannel libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "cni-plugin-flannel \
+cni-plugin-flannel(aarch-64)"
+RDEPENDS:${PN} += "flannel \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

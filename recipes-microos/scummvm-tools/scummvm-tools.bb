@@ -18,7 +18,35 @@ PV = "2.7.0"
 RPM_NAME = "scummvm-tools-2.7.0-1.4.aarch64.rpm"
 RPM_HASH = "a8cb22c5206ecd5db82691224bbe690671a66ff2aef1f6fe6bf4685d9b2bf4f77c41f45c5c9ac2a8e11fcf80f705371545e7870571143335792c2d2ad3319700"
 
-RPROVIDES:${PN} += "application() application(scummvm-tools.desktop) scummvm-tools scummvm-tools(aarch-64)"
-RDEPENDS:${PN} += "libFLAC.so.12()(64bit) libc.so.6(GLIBC_2.34)(64bit) libfreetype.so.6()(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libogg.so.0()(64bit) libpng16.so.16()(64bit) libpng16.so.16(PNG16_0)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.26)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libvorbis.so.0()(64bit) libvorbisenc.so.2()(64bit) libwx_baseu-suse.so.9.0.0()(64bit) libwx_baseu-suse.so.9.0.0(WXU_3.2)(64bit) libwx_gtk2u_core-suse.so.9.0.0()(64bit) libwx_gtk2u_core-suse.so.9.0.0(WXU_3.2)(64bit) libz.so.1()(64bit)"
+RPROVIDES:${PN} += "application() \
+application(scummvm-tools.desktop) \
+scummvm-tools \
+scummvm-tools(aarch-64)"
+RDEPENDS:${PN} += "libFLAC.so.12()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libfreetype.so.6()(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libogg.so.0()(64bit) \
+libpng16.so.16()(64bit) \
+libpng16.so.16(PNG16_0)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.8)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libvorbis.so.0()(64bit) \
+libvorbisenc.so.2()(64bit) \
+libwx_baseu-suse.so.9.0.0()(64bit) \
+libwx_baseu-suse.so.9.0.0(WXU_3.2)(64bit) \
+libwx_gtk2u_core-suse.so.9.0.0()(64bit) \
+libwx_gtk2u_core-suse.so.9.0.0(WXU_3.2)(64bit) \
+libz.so.1()(64bit)"
 
 inherit rpm

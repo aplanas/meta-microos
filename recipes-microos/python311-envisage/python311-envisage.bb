@@ -16,7 +16,10 @@ RPM_NAME = "python311-envisage-6.1.1-1.3.noarch.rpm"
 RPM_HASH = "7e1c55706b9322839c7d488e11e324729605d3f925673515c068434aa28998041b2f519633be46f249c9648a4b5a3fe5079af76e9e9612814a5fac85f1ca8260"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(envisage) python311-envisage python3dist(envisage)"
-RDEPENDS:${PN} += "python(abi) python311-traits"
+RPROVIDES:${PN} += "python3.11dist(envisage) \
+python311-envisage \
+python3dist(envisage)"
+RDEPENDS:${PN} += "python(abi) \
+python311-traits"
 
 inherit rpm

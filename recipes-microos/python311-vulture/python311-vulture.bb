@@ -23,7 +23,13 @@ RPM_NAME = "python311-vulture-2.1-1.13.noarch.rpm"
 RPM_HASH = "3171726e4da9259f5fec6034fb033bc69c9b2fe719db60d82fd5ece31b97dbda5a1953743125fb40b506c6b5ddc58787849209763b01883231869b6122f81f0f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(vulture) python311-vulture python3dist(vulture)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-toml update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(vulture) \
+python311-vulture \
+python3dist(vulture)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-toml \
+update-alternatives"
 
 inherit rpm

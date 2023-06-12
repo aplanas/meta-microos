@@ -10,6 +10,15 @@ RPM_HASH = "36099c171747e4ef13ddb22347bcc25ff9925469bd04c847ef3efe88e17fbc28d857
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "patch2mail"
-RDEPENDS:${PN} += "/bin/bash /bin/hostname /bin/rm /bin/sh /usr/bin/xsltproc cron grep mail mktemp zypper"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/hostname \
+/bin/rm \
+/bin/sh \
+/usr/bin/xsltproc \
+cron \
+grep \
+mail \
+mktemp \
+zypper"
 
 inherit rpm

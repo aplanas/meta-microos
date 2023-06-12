@@ -12,7 +12,11 @@ RPM_NAME = "base64coder-20101219-2.15.noarch.rpm"
 RPM_HASH = "6cc53614ee9bb7e0febd4c81d398aa3ef561e95f9c9ba6efc44ad13b5ae6755f8c912430b307a7159f1d28b09cff728a7a452d1d3874829d1a9995971580dc9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "base64coder mvn(biz.source_code:base64coder) mvn(biz.source_code:base64coder:pom:) osgi(biz.source_code.base64coder)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "base64coder \
+mvn(biz.source_code:base64coder) \
+mvn(biz.source_code:base64coder:pom:) \
+osgi(biz.source_code.base64coder)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

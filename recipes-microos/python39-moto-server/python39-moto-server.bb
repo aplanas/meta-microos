@@ -10,6 +10,8 @@ RPM_HASH = "d5fafe44707d6ae7ab04d79e0cf406a2b7815812e1010c2090807c6afb6dd7a9eeaa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-moto-server"
-RDEPENDS:${PN} += "python39-Flask python39-Flask-Cors python39-moto-all"
+RDEPENDS:${PN} += "python39-Flask \
+python39-Flask-Cors \
+python39-moto-all"
 
 inherit rpm

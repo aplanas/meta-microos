@@ -9,6 +9,8 @@ RPM_HASH = "b6013176e21dab2eaa5fd23563c717f72984441fb9137f8f410ddf80501bf9824af6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bat-extras"
-RDEPENDS:${PN} += "/bin/bash bash bat"
+RDEPENDS:${PN} += "/bin/bash \
+bash \
+bat"
 
 inherit rpm

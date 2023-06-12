@@ -8,7 +8,8 @@ PV = "6.5.1"
 RPM_NAME = "qt6-pdfwidgets-private-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "add8afb0ef277196f371f612d54c1796ca15162c368a08a5ffb38431176a62116b97473185424472e8e08f95efd55046b841667a01f8c5ef86d8e9f0cb28bbf7"
 
-RPROVIDES:${PN} += "qt6-pdfwidgets-private-devel qt6-pdfwidgets-private-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-pdfwidgets-private-devel \
+qt6-pdfwidgets-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6PdfWidgets)"
 
 inherit rpm

@@ -42,7 +42,8 @@ RPM_NAME = "perl-Exception-Base-0.2501-1.23.noarch.rpm"
 RPM_HASH = "3fa451d04627d4fb6d9e39ff4ee321e33bc19562c1aa4155f1e4dc9edaf8f117c7757a9ba52fd1180c6f3f9c6333f754815c472eb77b253695db5c85ae9b3421"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Exception::Base) perl-Exception-Base"
+RPROVIDES:${PN} += "perl(Exception::Base) \
+perl-Exception-Base"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

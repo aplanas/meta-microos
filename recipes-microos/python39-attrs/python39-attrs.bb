@@ -25,7 +25,9 @@ RPM_NAME = "python39-attrs-23.1.0-1.1.noarch.rpm"
 RPM_HASH = "7c138b44d5477229cc5d222325b8f336dddb85a8afa10176fc55bbd294ce9f9469a5ea4fdf5f7a10cb38b54d377153b2dae5629838642fb1cde7fa332d452a0e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(attrs) python39-attrs python3dist(attrs)"
+RPROVIDES:${PN} += "python3.9dist(attrs) \
+python39-attrs \
+python3dist(attrs)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

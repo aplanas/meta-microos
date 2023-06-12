@@ -18,7 +18,8 @@ RPM_NAME = "perl-PerlIO-via-Timeout-0.32-1.24.noarch.rpm"
 RPM_HASH = "da213e120cbd253da0c015c06ebdc99e68fb05e168ab508d7c9dde88d26f853a309cef4ab200d38c29f3339f2afe3c6940ba75e91107a97b35a4973aaf0f86db"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(PerlIO::via::Timeout) perl-PerlIO-via-Timeout"
+RPROVIDES:${PN} += "perl(PerlIO::via::Timeout) \
+perl-PerlIO-via-Timeout"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

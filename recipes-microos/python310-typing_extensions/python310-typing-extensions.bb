@@ -31,7 +31,12 @@ RPM_NAME = "python310-typing_extensions-4.5.0-2.1.noarch.rpm"
 RPM_HASH = "92a2f9fff96709b5f08a940dccaec28f4378e99b8788994534240c54a3c989ec30becbe095390448dcd393e0f2296e2aa6839211acd9a63f27104c756aee2463"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-typing-extensions python3-typing_extensions python3.10dist(typing-extensions) python310-typing-extensions python310-typing_extensions python3dist(typing-extensions)"
+RPROVIDES:${PN} += "python3-typing-extensions \
+python3-typing_extensions \
+python3.10dist(typing-extensions) \
+python310-typing-extensions \
+python310-typing_extensions \
+python3dist(typing-extensions)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

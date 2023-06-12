@@ -17,7 +17,11 @@ RPM_NAME = "raleway-fonts-3.0-4.17.noarch.rpm"
 RPM_HASH = "d3cf7f9707d1499166c06941e7d62948358615c610f5ee777a1fe9966c3817fee62a831aab89a73afbe5160e698c9dc8885dd3db972e5dc0b2e16b8b6145cb37"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "lomt-raleway-fonts raleway-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "lomt-raleway-fonts \
+raleway-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

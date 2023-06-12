@@ -16,7 +16,38 @@ PV = "2.8.0+git.20230428.7aaa251"
 RPM_NAME = "cvise-2.8.0+git.20230428.7aaa251-1.1.aarch64.rpm"
 RPM_HASH = "7345e7143da2ff849a14a3d091f2a7ae4abd3bae7282c09931e6c50ee9e3775ed544fbbbfb036046d98d45aa180b0f5302d8a5171e05e57383caa2b1318efab8"
 
-RPROVIDES:${PN} += "cvise cvise(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/env astyle clang colordiff indent ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libLLVM.so.16()(64bit) libLLVM.so.16(LLVM_16)(64bit) libc.so.6(GLIBC_2.34)(64bit) libclang-cpp.so.16()(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libm.so.6()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.18)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.26)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) llvm python3-Pebble python3-chardet python3-psutil unifdef"
+RPROVIDES:${PN} += "cvise \
+cvise(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/env \
+astyle \
+clang \
+colordiff \
+indent \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libLLVM.so.16()(64bit) \
+libLLVM.so.16(LLVM_16)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libclang-cpp.so.16()(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libm.so.6()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
+llvm \
+python3-Pebble \
+python3-chardet \
+python3-psutil \
+unifdef"
 
 inherit rpm

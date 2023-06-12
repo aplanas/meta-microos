@@ -15,7 +15,15 @@ PV = "0.4.12"
 RPM_NAME = "libp11-3-0.4.12-2.3.aarch64.rpm"
 RPM_HASH = "a89e71938956a4ffc1e5a78a60bc8adb7bb38dacfe5c3f8b5543419c38475d4ac0c1c77508c4af1693facc31f7ea76b7ea3c7aa131ce61f579a1bc299be97f53"
 
-RPROVIDES:${PN} += "libp11-3 libp11-3(aarch-64) libp11.so.3()(64bit) libp11.so.3(LIBP11_3)(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit)"
+RPROVIDES:${PN} += "libp11-3 \
+libp11-3(aarch-64) \
+libp11.so.3()(64bit) \
+libp11.so.3(LIBP11_3)(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit)"
 
 inherit rpm

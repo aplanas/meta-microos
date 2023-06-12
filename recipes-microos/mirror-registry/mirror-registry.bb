@@ -7,7 +7,9 @@ PV = "1.4"
 RPM_NAME = "mirror-registry-1.4-1.2.aarch64.rpm"
 RPM_HASH = "30fc664477a97163804840bfb1e6ad0eaefd71014fc71ea4e80182c9f861121dded86304ff3fb82adaf30971b6a65f26e14bdf1cf1a7d3dfb49e9179cfb9ac47"
 
-RPROVIDES:${PN} += "mirror-registry mirror-registry(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) skopeo"
+RPROVIDES:${PN} += "mirror-registry \
+mirror-registry(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+skopeo"
 
 inherit rpm

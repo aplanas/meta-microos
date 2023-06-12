@@ -36,7 +36,13 @@ RPM_NAME = "python310-Beaker-1.12.1-1.4.noarch.rpm"
 RPM_HASH = "133f925f4112bb70e9baadbd03ffaa1bc61d5c2549e511d80f94455dde8f920a52227bbd12df16df157c0d21c8897e00201b78f40be052780dab1d6017c661a6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Beaker python3.10dist(beaker) python310-Beaker python3dist(beaker)"
-RDEPENDS:${PN} += "python(abi) python310-dbm python310-pylibmc python310-setuptools"
+RPROVIDES:${PN} += "python3-Beaker \
+python3.10dist(beaker) \
+python310-Beaker \
+python3dist(beaker)"
+RDEPENDS:${PN} += "python(abi) \
+python310-dbm \
+python310-pylibmc \
+python310-setuptools"
 
 inherit rpm

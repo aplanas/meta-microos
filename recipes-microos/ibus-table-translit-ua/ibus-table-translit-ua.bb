@@ -9,7 +9,8 @@ RPM_NAME = "ibus-table-translit-ua-1.3.13-2.3.noarch.rpm"
 RPM_HASH = "5dcf09905b49e9d3331ac79fa38a2cbca12dcd1691cfa6d2d5df68c8955d80c485abe015f935ee03566ac15a91292e087c76726731e7abf46daca6fd26557cc1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "ibus-table-translit-ua locale(ibus:uk)"
+RPROVIDES:${PN} += "ibus-table-translit-ua \
+locale(ibus:uk)"
 RDEPENDS:${PN} += "ibus-table"
 
 inherit rpm

@@ -19,7 +19,24 @@ RPM_NAME = "texlive-semantic-markup-2023.201.svn53607-53.1.noarch.rpm"
 RPM_HASH = "56f333545ae6343588e52d0456a18807c0533502426db4cc6016569f8ca2148925d8c9d58106a7ca22dc9c944cd0569b5347a7956b1eaf16d59ff7b9d0952ad9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(semantic-markup.sty) texlive-semantic-markup"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(csquotes.sty) tex(endnotes.sty) tex(environ.sty) tex(stackengine.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(semantic-markup.sty) \
+texlive-semantic-markup"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(csquotes.sty) \
+tex(endnotes.sty) \
+tex(environ.sty) \
+tex(stackengine.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

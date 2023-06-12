@@ -17,7 +17,11 @@ RPM_NAME = "python39-parse_type-0.6.0-1.7.noarch.rpm"
 RPM_HASH = "2ef47000ef20749448ffa62d973bfa2bf4c49bfd8d10a37cf7a2cc2be625f441aaf9b03d8adde8ae8ff64d00ec07fd05a7f5932c6c3926b902cd5565437f27f4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(parse-type) python39-parse_type python3dist(parse-type)"
-RDEPENDS:${PN} += "python(abi) python39-parse python39-six"
+RPROVIDES:${PN} += "python3.9dist(parse-type) \
+python39-parse_type \
+python3dist(parse-type)"
+RDEPENDS:${PN} += "python(abi) \
+python39-parse \
+python39-six"
 
 inherit rpm

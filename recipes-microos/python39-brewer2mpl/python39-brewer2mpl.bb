@@ -14,7 +14,9 @@ RPM_NAME = "python39-brewer2mpl-1.4.1-3.2.noarch.rpm"
 RPM_HASH = "41ae7e839de479527c53ad58c8ac437f765edc0efa74f237061f50f47ba1c49dac38478acb074d6317c2582d78938ea0189a18fcc042e60e3c6f2258f44ff2c5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(brewer2mpl) python39-brewer2mpl python3dist(brewer2mpl)"
+RPROVIDES:${PN} += "python3.9dist(brewer2mpl) \
+python39-brewer2mpl \
+python3dist(brewer2mpl)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

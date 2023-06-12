@@ -10,7 +10,14 @@ PV = "3.26.0"
 RPM_NAME = "python310-cassandra-driver-3.26.0-1.2.aarch64.rpm"
 RPM_HASH = "78d2a9ce18bc5f6ff7bdb1d43de60c4522565cd43bc2657f5586b8fa1902b4a6adf49fb3b02a97059f3c5878b4a4fcd374dd04aeed8de8d7f9d90f709fc9290e"
 
-RPROVIDES:${PN} += "python3-cassandra-driver python3.10dist(cassandra-driver) python310-cassandra-driver python310-cassandra-driver(aarch-64) python3dist(cassandra-driver)"
-RDEPENDS:${PN} += "python(abi) python310-Cython python310-geomet python310-six"
+RPROVIDES:${PN} += "python3-cassandra-driver \
+python3.10dist(cassandra-driver) \
+python310-cassandra-driver \
+python310-cassandra-driver(aarch-64) \
+python3dist(cassandra-driver)"
+RDEPENDS:${PN} += "python(abi) \
+python310-Cython \
+python310-geomet \
+python310-six"
 
 inherit rpm

@@ -14,7 +14,9 @@ RPM_NAME = "icewm-config-upstream-3.3.5-1.1.noarch.rpm"
 RPM_HASH = "8a48fee813d59fe9df2b773ac35a21ae1d013baa1b53ccc57baee062b480fb403404a474a37b0b7000f4e8708fd71b1c06edcfc8ec62975fd13ed0495a1834fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(icewm-config-upstream) icewm-config-upstream icewm-configuration-files"
+RPROVIDES:${PN} += "config(icewm-config-upstream) \
+icewm-config-upstream \
+icewm-configuration-files"
 RDEPENDS:${PN} += ""
 
 inherit rpm

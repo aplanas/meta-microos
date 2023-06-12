@@ -14,7 +14,12 @@ PV = "2.40.1"
 RPM_NAME = "git-gui-2.40.1-1.1.aarch64.rpm"
 RPM_HASH = "0beacc326d40f2af5920e5f2edfbddc9f446b158ccdbaaac8d879c2d4f314359814d14ef0ea4ce700d91db376347321e165431ed4b9b7f58de616a04c74ff9ba"
 
-RPROVIDES:${PN} += "application() application(git-gui.desktop) git-gui git-gui(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh git-core tk"
+RPROVIDES:${PN} += "application() \
+application(git-gui.desktop) \
+git-gui \
+git-gui(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+git-core \
+tk"
 
 inherit rpm

@@ -23,7 +23,61 @@ RPM_NAME = "texlive-asmeconf-2023.201.1.34svn65413-53.1.noarch.rpm"
 RPM_HASH = "dace698c21f8e4aa8945287da8279b1f71509ba64b574dad8ce7db1de776e28fd81be0ef11d1a1f1ce0aed78f1cb7bf33b1be6fb7603ee13eed7b4cbf95bbecd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(asmeconf.cls) texlive-asmeconf"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(array.sty) tex(article.cls) tex(babel.sty) tex(bm.sty) tex(bookmark.sty) tex(booktabs.sty) tex(caption.sty) tex(dcolumn.sty) tex(doi.sty) tex(etoolbox.sty) tex(fancyhdr.sty) tex(flushend.sty) tex(fnpos.sty) tex(fontenc.sty) tex(fontspec.sty) tex(geometry.sty) tex(glyphtounicode.tex) tex(graphicx.sty) tex(hologo.sty) tex(hyperref.sty) tex(hyperxmp.sty) tex(hyphsubst.sty) tex(iftex.sty) tex(ifthen.sty) tex(inconsolata.sty) tex(inputenc.sty) tex(kvoptions.sty) tex(lineno.sty) tex(luatexja-fontspec.sty) tex(mathalfa.sty) tex(mathtools.sty) tex(metalogo.sty) tex(natbib.sty) tex(newtxmath.sty) tex(newtxtext.sty) tex(subcaption.sty) tex(superiors.sty) tex(textcase.sty) tex(titlesec.sty) tex(xcoffins.sty) tex(xcolor.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(asmeconf.cls) \
+texlive-asmeconf"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(array.sty) \
+tex(article.cls) \
+tex(babel.sty) \
+tex(bm.sty) \
+tex(bookmark.sty) \
+tex(booktabs.sty) \
+tex(caption.sty) \
+tex(dcolumn.sty) \
+tex(doi.sty) \
+tex(etoolbox.sty) \
+tex(fancyhdr.sty) \
+tex(flushend.sty) \
+tex(fnpos.sty) \
+tex(fontenc.sty) \
+tex(fontspec.sty) \
+tex(geometry.sty) \
+tex(glyphtounicode.tex) \
+tex(graphicx.sty) \
+tex(hologo.sty) \
+tex(hyperref.sty) \
+tex(hyperxmp.sty) \
+tex(hyphsubst.sty) \
+tex(iftex.sty) \
+tex(ifthen.sty) \
+tex(inconsolata.sty) \
+tex(inputenc.sty) \
+tex(kvoptions.sty) \
+tex(lineno.sty) \
+tex(luatexja-fontspec.sty) \
+tex(mathalfa.sty) \
+tex(mathtools.sty) \
+tex(metalogo.sty) \
+tex(natbib.sty) \
+tex(newtxmath.sty) \
+tex(newtxtext.sty) \
+tex(subcaption.sty) \
+tex(superiors.sty) \
+tex(textcase.sty) \
+tex(titlesec.sty) \
+tex(xcoffins.sty) \
+tex(xcolor.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

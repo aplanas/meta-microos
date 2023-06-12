@@ -15,7 +15,14 @@ PV = "1.0.0"
 RPM_NAME = "python310-pyppmd-1.0.0-1.5.aarch64.rpm"
 RPM_HASH = "605516a40193dcd6c6d6511a6296abe6613d956408c9cf4a59bfe9e84a0ea10ea960d4ac3dcf4cc1b0820194eb7203a8d666f0e0f3343a5fc39211eea5fa33ca"
 
-RPROVIDES:${PN} += "python3-pyppmd python3.10dist(pyppmd) python310-pyppmd python310-pyppmd(aarch-64) python3dist(pyppmd)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3-pyppmd \
+python3.10dist(pyppmd) \
+python310-pyppmd \
+python310-pyppmd(aarch-64) \
+python3dist(pyppmd)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+python(abi)"
 
 inherit rpm

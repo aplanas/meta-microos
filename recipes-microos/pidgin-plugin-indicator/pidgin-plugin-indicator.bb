@@ -23,7 +23,15 @@ PV = "1.0.1"
 RPM_NAME = "pidgin-plugin-indicator-1.0.1-2.14.aarch64.rpm"
 RPM_HASH = "88cc115fcb1b9efcb4d80674f6c976650e036b8b7a7dc1c5e7851b3d59b813606cc9295f19d19be078d8c4d3c5095eef81faf361af6a7c62ac444ed1b9bb5e6b"
 
-RPROVIDES:${PN} += "pidgin-indicator pidgin-plugin-indicator pidgin-plugin-indicator(aarch-64)"
-RDEPENDS:${PN} += "libappindicator.so.1()(64bit) libc.so.6(GLIBC_2.17)(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgtk-x11-2.0.so.0()(64bit) libpurple.so.0()(64bit) pidgin"
+RPROVIDES:${PN} += "pidgin-indicator \
+pidgin-plugin-indicator \
+pidgin-plugin-indicator(aarch-64)"
+RDEPENDS:${PN} += "libappindicator.so.1()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgtk-x11-2.0.so.0()(64bit) \
+libpurple.so.0()(64bit) \
+pidgin"
 
 inherit rpm

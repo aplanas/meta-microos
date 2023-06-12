@@ -11,7 +11,9 @@ RPM_NAME = "libqt5-qtxmlpatterns-private-headers-devel-5.15.9+kde0-1.1.noarch.rp
 RPM_HASH = "924313fff5657f8f896a18cdd89dfa72c2cc563976051f0b094b890be5ce824fc4e7ac4112f2e541fe624b8d1b2e616a4e269c641e2f84fe2123608b21888cc6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libQt5XmlPatterns-private-headers-devel libqt5-qtxmlpatterns-private-headers-devel"
-RDEPENDS:${PN} += "libQt5Core-private-headers-devel libqt5-qtxmlpatterns-devel"
+RPROVIDES:${PN} += "libQt5XmlPatterns-private-headers-devel \
+libqt5-qtxmlpatterns-private-headers-devel"
+RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
+libqt5-qtxmlpatterns-devel"
 
 inherit rpm

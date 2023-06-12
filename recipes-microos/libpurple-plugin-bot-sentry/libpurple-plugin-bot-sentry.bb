@@ -10,7 +10,11 @@ PV = "1.3.0"
 RPM_NAME = "libpurple-plugin-bot-sentry-1.3.0-2.25.aarch64.rpm"
 RPM_HASH = "6b9c7931d88146bce6048303c86205c21f8884237397e40a71399dc75171de82aa14449853be53e9b2003032334cc97845db4a9449716a7f4a47848d91e66d3d"
 
-RPROVIDES:${PN} += "libpurple-plugin-bot-sentry libpurple-plugin-bot-sentry(aarch-64) pidgin-bot-sentry"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) libglib-2.0.so.0()(64bit) libpurple.so.0()(64bit)"
+RPROVIDES:${PN} += "libpurple-plugin-bot-sentry \
+libpurple-plugin-bot-sentry(aarch-64) \
+pidgin-bot-sentry"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libpurple.so.0()(64bit)"
 
 inherit rpm

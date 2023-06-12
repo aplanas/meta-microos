@@ -11,6 +11,8 @@ RPM_HASH = "c0ef0c3ae994dfc1b9aad4985513c975f23d8416e0303050c8094303db1319912218
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "selinux-targeted-setup"
-RDEPENDS:${PN} += "/bin/bash /bin/sh selinux-policy-targeted"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+selinux-policy-targeted"
 
 inherit rpm

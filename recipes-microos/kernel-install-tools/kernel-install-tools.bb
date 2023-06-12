@@ -11,7 +11,11 @@ PV = "0.3.0"
 RPM_NAME = "kernel-install-tools-0.3.0-2.2.aarch64.rpm"
 RPM_HASH = "0d08500e545a36c8770ff7cb49aef0cfecc2124afbd1083f3f56727e3fa7e5c19f2d0bb569db4096372520666b36b6ea6a468d54e914451d87f013397e66ccb1"
 
-RPROVIDES:${PN} += "kernel-install-tools kernel-install-tools(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash mozilla-nss-tools openssl pesign"
+RPROVIDES:${PN} += "kernel-install-tools \
+kernel-install-tools(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+mozilla-nss-tools \
+openssl \
+pesign"
 
 inherit rpm

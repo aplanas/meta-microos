@@ -10,7 +10,17 @@ PV = "1.26.1"
 RPM_NAME = "libcaja-extension1-1.26.1-1.4.aarch64.rpm"
 RPM_HASH = "ac0e2c111de2420409de31dc4345a57ffd6847be359d5b231c30f7d62384f9b4be9b0dbe4ab02dace0e5c70b6f4b8053e3d3c60829f7f50ab822fe2a38794e4a"
 
-RPROVIDES:${PN} += "libcaja-extension.so.1()(64bit) libcaja-extension1 libcaja-extension1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig caja-gschemas ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgtk-3.so.0()(64bit)"
+RPROVIDES:${PN} += "libcaja-extension.so.1()(64bit) \
+libcaja-extension1 \
+libcaja-extension1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+caja-gschemas \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgio-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgtk-3.so.0()(64bit)"
 
 inherit rpm

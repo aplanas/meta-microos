@@ -10,6 +10,7 @@ RPM_HASH = "ca1e7f4a7577dd64bfe41e76c329a15eca496910fdf51f889b05f83186ff16b98438
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-cross-ctest"
-RDEPENDS:${PN} += "mingw32-cross-cmake mingw32-cross-wine"
+RDEPENDS:${PN} += "mingw32-cross-cmake \
+mingw32-cross-wine"
 
 inherit rpm

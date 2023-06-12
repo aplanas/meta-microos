@@ -12,7 +12,12 @@ RPM_NAME = "javahelp2-2.0.05-32.5.noarch.rpm"
 RPM_HASH = "071533f6386f4510c1e5a65a56e1da20799f3a29736fbf44e9e6e8d777e23fa582b8c6efd2cf8fd36a866643a8ac4ad87295c9a9422d3c35fdbaab9b2452abac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "javahelp2 mvn(javax.help:javahelp)"
-RDEPENDS:${PN} += "/bin/bash glassfish-jsp-api glassfish-servlet-api java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "javahelp2 \
+mvn(javax.help:javahelp)"
+RDEPENDS:${PN} += "/bin/bash \
+glassfish-jsp-api \
+glassfish-servlet-api \
+java-headless \
+javapackages-filesystem"
 
 inherit rpm

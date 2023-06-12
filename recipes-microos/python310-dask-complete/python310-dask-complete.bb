@@ -19,7 +19,19 @@ RPM_NAME = "python310-dask-complete-2023.3.2-3.1.noarch.rpm"
 RPM_HASH = "dfcb56f9a0f691e0da474d0c056861323ad662ecbf87e99ae9be48b4d0710e1e6e1216f91366c1601864c6d1a339a421cbe8022b9c8f34827c646fa1a21dc8e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dask-all python3-dask-complete python310-dask-all python310-dask-complete"
-RDEPENDS:${PN} += "python310-dask python310-dask-array python310-dask-bag python310-dask-dataframe python310-dask-delayed python310-dask-diagnostics python310-dask-distributed python310-dask-dot python310-lz4 python310-pyarrow"
+RPROVIDES:${PN} += "python3-dask-all \
+python3-dask-complete \
+python310-dask-all \
+python310-dask-complete"
+RDEPENDS:${PN} += "python310-dask \
+python310-dask-array \
+python310-dask-bag \
+python310-dask-dataframe \
+python310-dask-delayed \
+python310-dask-diagnostics \
+python310-dask-distributed \
+python310-dask-dot \
+python310-lz4 \
+python310-pyarrow"
 
 inherit rpm

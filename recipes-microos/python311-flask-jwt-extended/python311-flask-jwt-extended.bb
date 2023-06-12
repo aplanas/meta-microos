@@ -19,7 +19,12 @@ RPM_NAME = "python311-flask-jwt-extended-4.3.1-1.6.noarch.rpm"
 RPM_HASH = "9f4d5f32642cf381d8337cd25174f0749020a699fde955bd27cf5ef8bd57706267041bdc3e95efa8d2dfc7c8b23b44ceaf015114fecb8fec5c7e6455f42fa802"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(flask-jwt-extended) python311-flask-jwt-extended python3dist(flask-jwt-extended)"
-RDEPENDS:${PN} += "python(abi) python311-Flask python311-PyJWT python311-Werkzeug"
+RPROVIDES:${PN} += "python3.11dist(flask-jwt-extended) \
+python311-flask-jwt-extended \
+python3dist(flask-jwt-extended)"
+RDEPENDS:${PN} += "python(abi) \
+python311-Flask \
+python311-PyJWT \
+python311-Werkzeug"
 
 inherit rpm

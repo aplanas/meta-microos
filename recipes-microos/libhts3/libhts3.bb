@@ -11,7 +11,23 @@ PV = "1.16"
 RPM_NAME = "libhts3-1.16-1.3.aarch64.rpm"
 RPM_HASH = "0eb915392d4fb5918c3ffc039434184a774ffc61e60618fa8a95f919102741822556d916b916219b43799e68e1ab408c82778cbada177fd916e569e88925968a"
 
-RPROVIDES:${PN} += "libhts.so.3()(64bit) libhts3 libhts3(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbz2.so.1()(64bit) libc.so.6(GLIBC_2.34)(64bit) libcurl.so.4()(64bit) libhtscodecs.so.2()(64bit) libhtscodecs2 liblzma.so.5()(64bit) liblzma.so.5(XZ_5.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.23)(64bit) libm.so.6(GLIBC_2.29)(64bit) libz.so.1()(64bit)"
+RPROVIDES:${PN} += "libhts.so.3()(64bit) \
+libhts3 \
+libhts3(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbz2.so.1()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcurl.so.4()(64bit) \
+libhtscodecs.so.2()(64bit) \
+libhtscodecs2 \
+liblzma.so.5()(64bit) \
+liblzma.so.5(XZ_5.0)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.23)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libz.so.1()(64bit)"
 
 inherit rpm

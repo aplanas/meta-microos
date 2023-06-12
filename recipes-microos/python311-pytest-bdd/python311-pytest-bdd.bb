@@ -21,7 +21,18 @@ RPM_NAME = "python311-pytest-bdd-5.0.0-1.7.noarch.rpm"
 RPM_HASH = "e84d3c0d16026f20719d2f668460fe37ca94ee747e28e832db9dfdab063e102c85208075229b5dfe515525851b6aaef8989280f3201dfcbf44fd4bb7072be556"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pytest-bdd) python311-pytest-bdd python3dist(pytest-bdd)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-Mako python311-glob2 python311-parse python311-parse_type python311-py python311-pytest update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(pytest-bdd) \
+python311-pytest-bdd \
+python3dist(pytest-bdd)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-Mako \
+python311-glob2 \
+python311-parse \
+python311-parse_type \
+python311-py \
+python311-pytest \
+update-alternatives"
 
 inherit rpm

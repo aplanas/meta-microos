@@ -14,7 +14,8 @@ RPM_NAME = "plotutils-doc-2.6-29.3.noarch.rpm"
 RPM_HASH = "bcff016931ac67d3926564bea2687e4c330e65e0ef3fdefb02eff9aac65bdcbe776c5537e598f2ae179960083af11145c8db67b4a4defc417f95c23b9cd7388b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "plotutils-doc plotutils:/usr/share/doc/packages/plotutils/README"
+RPROVIDES:${PN} += "plotutils-doc \
+plotutils:/usr/share/doc/packages/plotutils/README"
 RDEPENDS:${PN} += "plotutils"
 
 inherit rpm

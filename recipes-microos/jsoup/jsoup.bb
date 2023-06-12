@@ -21,7 +21,11 @@ RPM_NAME = "jsoup-1.15.3-2.2.noarch.rpm"
 RPM_HASH = "7d5d66c253337dbbfa38760b3a9e996704de8625725a0dc5dce195c82ec6fea1bcf1e8e821187d6b280f5f9a959cf562145c4e259de2247bc426cbc97951e2ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jsoup mvn(org.jsoup:jsoup) mvn(org.jsoup:jsoup:pom:) osgi(org.jsoup)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "jsoup \
+mvn(org.jsoup:jsoup) \
+mvn(org.jsoup:jsoup:pom:) \
+osgi(org.jsoup)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

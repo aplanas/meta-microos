@@ -9,7 +9,8 @@ PV = "2.16.2"
 RPM_NAME = "okteto-2.16.2-1.1.aarch64.rpm"
 RPM_HASH = "466bf45f24817b134776bc2b54bf466e2017604f72b812ccbf5acc823226247980e386032b576f8f924a374bbc6915818ee11fcb3a17f02c97e0086f82526818"
 
-RPROVIDES:${PN} += "okteto okteto(aarch-64)"
+RPROVIDES:${PN} += "okteto \
+okteto(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

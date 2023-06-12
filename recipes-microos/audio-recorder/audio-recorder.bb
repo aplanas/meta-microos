@@ -23,7 +23,29 @@ PV = "3.3.4"
 RPM_NAME = "audio-recorder-3.3.4-1.6.aarch64.rpm"
 RPM_HASH = "3674f22fed13c3e03c6226c44974a77110301ee4c3f1f56271cc40ed33c50f1705d3c08259a45b40eeb8650572c3f74e11955eed6996126f49cca54723b2dad6"
 
-RPROVIDES:${PN} += "application() application(audio-recorder.desktop) audio-recorder audio-recorder(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh gstreamer-plugins-bad gstreamer-plugins-base gstreamer-plugins-good gstreamer-plugins-ugly ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libappindicator3.so.1()(64bit) libc.so.6(GLIBC_2.34)(64bit) libcairo.so.2()(64bit) libgdk-3.so.0()(64bit) libgdk_pixbuf-2.0.so.0()(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgstpbutils-1.0.so.0()(64bit) libgstreamer-1.0.so.0()(64bit) libgtk-3.so.0()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "application() \
+application(audio-recorder.desktop) \
+audio-recorder \
+audio-recorder(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+gstreamer-plugins-bad \
+gstreamer-plugins-base \
+gstreamer-plugins-good \
+gstreamer-plugins-ugly \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libappindicator3.so.1()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcairo.so.2()(64bit) \
+libgdk-3.so.0()(64bit) \
+libgdk_pixbuf-2.0.so.0()(64bit) \
+libgio-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgstpbutils-1.0.so.0()(64bit) \
+libgstreamer-1.0.so.0()(64bit) \
+libgtk-3.so.0()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

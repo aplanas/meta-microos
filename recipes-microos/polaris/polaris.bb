@@ -14,7 +14,8 @@ PV = "8.0.0"
 RPM_NAME = "polaris-8.0.0-1.1.aarch64.rpm"
 RPM_HASH = "c9ad37db7043a62b6b5c9d8d5cf9b049e4b2bb1b6e72a730294116d5ee1a6e0e967ca2a7605274df7f4bea820d5b179bceb5eaa58b51cd2fb7012c3e609fd658"
 
-RPROVIDES:${PN} += "polaris polaris(aarch-64)"
+RPROVIDES:${PN} += "polaris \
+polaris(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

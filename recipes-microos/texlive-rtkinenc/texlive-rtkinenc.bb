@@ -20,7 +20,19 @@ RPM_NAME = "texlive-rtkinenc-2023.201.1.0svn20003-53.1.noarch.rpm"
 RPM_HASH = "d2ba35fb1c0f15172242b7f0d43fb17834c3b0d72a9cbaa2a7bddb38e3fe0f63028c91b2cdd9539582740cafbf83edebad98dd801a72967a5785aa7386cff608"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(rtkinenc.sty) texlive-rtkinenc"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(rtkinenc.sty) \
+texlive-rtkinenc"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

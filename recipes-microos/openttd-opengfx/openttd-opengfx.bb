@@ -11,7 +11,8 @@ RPM_NAME = "openttd-opengfx-7.1-1.6.noarch.rpm"
 RPM_HASH = "2f6b352560ad8b5c5b075dbe058541378d9d08646a4407be3db3420ec6d7e29d7cfd897adb96ea76b90aa046f621fc225b63af8591d2348a00675a0818327847"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "opengfx openttd-opengfx"
+RPROVIDES:${PN} += "opengfx \
+openttd-opengfx"
 RDEPENDS:${PN} += "openttd-data"
 
 inherit rpm

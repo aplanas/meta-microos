@@ -19,7 +19,16 @@ RPM_NAME = "jetty-annotations-9.4.51-1.1.noarch.rpm"
 RPM_HASH = "288fa6a65ed86020486aada795b89cc1ed51bca96e798e4a626ff06c4746232445ea7cc0787b38b379908168a8c4c4f2e44fd4a4054df8b270330b98ff5070dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jetty-annotations mvn(org.eclipse.jetty:jetty-annotations) mvn(org.eclipse.jetty:jetty-annotations:pom:) osgi(org.eclipse.jetty.annotations)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(javax.annotation:javax.annotation-api) mvn(org.eclipse.jetty:jetty-plus) mvn(org.eclipse.jetty:jetty-webapp) mvn(org.ow2.asm:asm) mvn(org.ow2.asm:asm-commons)"
+RPROVIDES:${PN} += "jetty-annotations \
+mvn(org.eclipse.jetty:jetty-annotations) \
+mvn(org.eclipse.jetty:jetty-annotations:pom:) \
+osgi(org.eclipse.jetty.annotations)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(javax.annotation:javax.annotation-api) \
+mvn(org.eclipse.jetty:jetty-plus) \
+mvn(org.eclipse.jetty:jetty-webapp) \
+mvn(org.ow2.asm:asm) \
+mvn(org.ow2.asm:asm-commons)"
 
 inherit rpm

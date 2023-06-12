@@ -13,7 +13,15 @@ RPM_NAME = "python39-azure-mgmt-resource-23.0.1-1.1.noarch.rpm"
 RPM_HASH = "f52184d9268badfac536f44f5f7828fc50b1acb21619f1ad193ef32246a8bfd22bee7860f1d4b68acca97816a789f2d644db5ab60a8f596469e7f996081904c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-resource) python39-azure-mgmt-resource python3dist(azure-mgmt-resource)"
-RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) python(abi) python39-azure-common python39-azure-mgmt-core python39-azure-mgmt-nspkg python39-azure-nspkg python39-isodate"
+RPROVIDES:${PN} += "python3.9dist(azure-mgmt-resource) \
+python39-azure-mgmt-resource \
+python3dist(azure-mgmt-resource)"
+RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) \
+python(abi) \
+python39-azure-common \
+python39-azure-mgmt-core \
+python39-azure-mgmt-nspkg \
+python39-azure-nspkg \
+python39-isodate"
 
 inherit rpm

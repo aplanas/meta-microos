@@ -7,7 +7,32 @@ PV = "6.5.1"
 RPM_NAME = "libQt6SensorsQuick6-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "036a907df12ed1cdd36d9665d2ef20cdcfb4f63cf4504639b2f9b5d697d1646e19d91534aa58eb03735a884804d53990e1c7e628e1232f4c5de6c07548dcb9c0"
 
-RPROVIDES:${PN} += "libQt6SensorsQuick.so.6()(64bit) libQt6SensorsQuick.so.6(Qt_6)(64bit) libQt6SensorsQuick.so.6(Qt_6.0)(64bit) libQt6SensorsQuick.so.6(Qt_6.1)(64bit) libQt6SensorsQuick.so.6(Qt_6.2)(64bit) libQt6SensorsQuick.so.6(Qt_6.3)(64bit) libQt6SensorsQuick.so.6(Qt_6.4)(64bit) libQt6SensorsQuick.so.6(Qt_6.5)(64bit) libQt6SensorsQuick.so.6(Qt_6.5.1_PRIVATE_API)(64bit) libQt6SensorsQuick6 libQt6SensorsQuick6(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt6Core.so.6()(64bit) libQt6Core.so.6(Qt_6)(64bit) libQt6Core.so.6(Qt_6.5)(64bit) libQt6Core.so.6(Qt_6.5.1_PRIVATE_API)(64bit) libQt6Qml.so.6()(64bit) libQt6Qml.so.6(Qt_6)(64bit) libQt6Sensors.so.6()(64bit) libQt6Sensors.so.6(Qt_6)(64bit) libc.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+RPROVIDES:${PN} += "libQt6SensorsQuick.so.6()(64bit) \
+libQt6SensorsQuick.so.6(Qt_6)(64bit) \
+libQt6SensorsQuick.so.6(Qt_6.0)(64bit) \
+libQt6SensorsQuick.so.6(Qt_6.1)(64bit) \
+libQt6SensorsQuick.so.6(Qt_6.2)(64bit) \
+libQt6SensorsQuick.so.6(Qt_6.3)(64bit) \
+libQt6SensorsQuick.so.6(Qt_6.4)(64bit) \
+libQt6SensorsQuick.so.6(Qt_6.5)(64bit) \
+libQt6SensorsQuick.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
+libQt6SensorsQuick6 \
+libQt6SensorsQuick6(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libQt6Core.so.6()(64bit) \
+libQt6Core.so.6(Qt_6)(64bit) \
+libQt6Core.so.6(Qt_6.5)(64bit) \
+libQt6Core.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
+libQt6Qml.so.6()(64bit) \
+libQt6Qml.so.6(Qt_6)(64bit) \
+libQt6Sensors.so.6()(64bit) \
+libQt6Sensors.so.6(Qt_6)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit)"
 
 inherit rpm

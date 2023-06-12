@@ -16,7 +16,10 @@ RPM_NAME = "python310-pymemcache-4.0.0-3.1.noarch.rpm"
 RPM_HASH = "27d74971c89afdb8878b9687c659acdb01b3bcaf4cb234c70c1e30eb2aebc847ec8c88486d7e26546782f4813ccbb2431ee9c62e1706ef82e3d329ed01b40c69"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pymemcache python3.10dist(pymemcache) python310-pymemcache python3dist(pymemcache)"
+RPROVIDES:${PN} += "python3-pymemcache \
+python3.10dist(pymemcache) \
+python310-pymemcache \
+python3dist(pymemcache)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

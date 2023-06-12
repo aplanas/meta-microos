@@ -13,7 +13,21 @@ RPM_NAME = "texlive-showkerning-2023.201.0.0.1svn63708-53.1.noarch.rpm"
 RPM_HASH = "e64e621cdfb2d0bfad9d53925b3b02baf8b893278947f37d030791ab0411f7e42eaa365ecb85c521b083bac8b8d880273cb031b816c7181da6e50ace5f0b2c6f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(showkerning.sty) texlive-showkerning"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifluatex.sty) tex(luatexbase.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(showkerning.sty) \
+texlive-showkerning"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifluatex.sty) \
+tex(luatexbase.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

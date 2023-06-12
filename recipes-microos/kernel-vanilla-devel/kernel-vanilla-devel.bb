@@ -13,7 +13,18 @@ PV = "6.3.4"
 RPM_NAME = "kernel-vanilla-devel-6.3.4-1.1.aarch64.rpm"
 RPM_HASH = "ad5ea5b32fccaa15a802e7a4ae151f4db7ee3dddb7e454e1ad7e7a831d0c0b2cc0d012c45f8eda4ab4045c9896ece27c22b35862403c6d4f52f513018b824a9e"
 
-RPROVIDES:${PN} += "kernel-vanilla-devel kernel-vanilla-devel(aarch-64) multiversion(kernel)"
-RDEPENDS:${PN} += "/bin/sh coreutils dwarves kernel-source-vanilla libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libelf.so.1()(64bit) libelf.so.1(ELFUTILS_1.0)(64bit) libelf.so.1(ELFUTILS_1.3)(64bit)"
+RPROVIDES:${PN} += "kernel-vanilla-devel \
+kernel-vanilla-devel(aarch-64) \
+multiversion(kernel)"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+dwarves \
+kernel-source-vanilla \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libelf.so.1()(64bit) \
+libelf.so.1(ELFUTILS_1.0)(64bit) \
+libelf.so.1(ELFUTILS_1.3)(64bit)"
 
 inherit rpm

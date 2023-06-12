@@ -30,7 +30,8 @@ RPM_NAME = "perl-Number-Format-1.76-1.1.noarch.rpm"
 RPM_HASH = "7e7b0dcdff75132cfbce527faebafd7a50c0771437e159cc34d751d4b8b4208ecf41882b1cdb493dce7eea7d41346b025d92e33c4c1131d794024a07dd8213f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Number::Format) perl-Number-Format"
+RPROVIDES:${PN} += "perl(Number::Format) \
+perl-Number-Format"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

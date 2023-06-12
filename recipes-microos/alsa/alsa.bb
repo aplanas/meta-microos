@@ -11,7 +11,14 @@ PV = "1.2.9"
 RPM_NAME = "alsa-1.2.9-1.1.aarch64.rpm"
 RPM_HASH = "85992e646d2e3a77e531969aa1891de54fc48d7acdb23792705c56215a09a7d75f37c632e2ccbe4acb312199b6cfe5bdbcf559b925da82f744c8dcf4196d5d35"
 
-RPROVIDES:${PN} += "alsa alsa(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/mkdir /usr/bin/touch alsa-ucm-conf alsa-utils fillup"
+RPROVIDES:${PN} += "alsa \
+alsa(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+alsa-ucm-conf \
+alsa-utils \
+fillup"
 
 inherit rpm

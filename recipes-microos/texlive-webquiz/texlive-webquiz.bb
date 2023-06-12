@@ -12,7 +12,33 @@ RPM_NAME = "texlive-webquiz-2023.201.5.2svn58808-53.1.noarch.rpm"
 RPM_HASH = "e4fc4f1ca574fc1a514f6faf93bb20dec0972277e69a03f95e1e6ee0a39506c88178d0567439c14dd8eabcd8e5468f40f511fc4770abb008153d71adb6a9d921"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(webquiz-doc.code.tex) tex(webquiz-ini.code.tex) tex(webquiz.cfg) tex(webquiz.cls) texlive-webquiz"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 coreutils ed findutils grep sed tex(amsfonts.sty) tex(amsmath.sty) tex(article.cls) tex(bbding.sty) tex(etoolbox.sty) tex(pgffor.sty) tex(pgfopts.sty) tex(tikz.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin texlive-webquiz-bin"
+RPROVIDES:${PN} += "tex(webquiz-doc.code.tex) \
+tex(webquiz-ini.code.tex) \
+tex(webquiz.cfg) \
+tex(webquiz.cls) \
+texlive-webquiz"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsfonts.sty) \
+tex(amsmath.sty) \
+tex(article.cls) \
+tex(bbding.sty) \
+tex(etoolbox.sty) \
+tex(pgffor.sty) \
+tex(pgfopts.sty) \
+tex(tikz.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-webquiz-bin"
 
 inherit rpm

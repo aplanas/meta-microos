@@ -11,7 +11,11 @@ RPM_NAME = "python39-pulsectl-22.3.2-1.2.noarch.rpm"
 RPM_HASH = "899f1a8d5c1df574450dc8181f10fee0091515fb70498953319699c7777fa12b9a6761b25d154820a10688a4f2fe53b878592acf2f6f0a169701aa3fadb71719"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pulsectl) python39-pulsectl python3dist(pulsectl)"
-RDEPENDS:${PN} += "pulseaudio-daemon python(abi) python39-setuptools"
+RPROVIDES:${PN} += "python3.9dist(pulsectl) \
+python39-pulsectl \
+python3dist(pulsectl)"
+RDEPENDS:${PN} += "pulseaudio-daemon \
+python(abi) \
+python39-setuptools"
 
 inherit rpm

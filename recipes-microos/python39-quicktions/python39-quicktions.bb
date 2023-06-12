@@ -19,7 +19,13 @@ PV = "1.14"
 RPM_NAME = "python39-quicktions-1.14-1.3.aarch64.rpm"
 RPM_HASH = "fe13fdee08ee8808bca68cab0fc0916553929b02002382c11742e28c4588e33f3045b39f655198b44a7bb8e632b3c8999d0d8e8567f95e9770da54be8c12b1db"
 
-RPROVIDES:${PN} += "python3.9dist(quicktions) python39-quicktions python39-quicktions(aarch-64) python3dist(quicktions)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.9dist(quicktions) \
+python39-quicktions \
+python39-quicktions(aarch-64) \
+python3dist(quicktions)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

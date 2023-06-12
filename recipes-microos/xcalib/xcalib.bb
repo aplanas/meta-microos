@@ -11,7 +11,15 @@ PV = "0.10"
 RPM_NAME = "xcalib-0.10-1.8.aarch64.rpm"
 RPM_HASH = "ac98f5b386ee5c776e2dbf3f8fd213a49b6bad0562f76d098d9ca8a482012fa61568166702a3553805684cb16843bfc6311de11a7b480263f1aee124fe0cfe60"
 
-RPROVIDES:${PN} += "xcalib xcalib(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libXrandr.so.2()(64bit) libXxf86vm.so.1()(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "xcalib \
+xcalib(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libX11.so.6()(64bit) \
+libXrandr.so.2()(64bit) \
+libXxf86vm.so.1()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

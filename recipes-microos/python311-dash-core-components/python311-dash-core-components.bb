@@ -13,7 +13,9 @@ RPM_NAME = "python311-dash-core-components-2.0.0-1.5.noarch.rpm"
 RPM_HASH = "14264ad507e8464b35f87acd2edb6b2142f9b944b5b9299d070fc2a182c8990fba59b25a3fd56b3faed63e46ec73bb0a3baf801eff1dd0e4d7d877d531c12a13"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(dash-core-components) python311-dash-core-components python3dist(dash-core-components)"
+RPROVIDES:${PN} += "python3.11dist(dash-core-components) \
+python311-dash-core-components \
+python3dist(dash-core-components)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

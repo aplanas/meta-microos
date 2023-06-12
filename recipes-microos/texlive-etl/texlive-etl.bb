@@ -19,7 +19,19 @@ RPM_NAME = "texlive-etl-2023.201.0.0.3svn60998-52.1.noarch.rpm"
 RPM_HASH = "859b292065b1da4eda43850897148f9a03a93e6e63fe32f6a4db0bce9db556f9ba8b413cdbde06077fdc4ff4df754fbd7707bfd7dceeb96baa92fbfb43800087"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(etl.sty) texlive-etl"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(etl.sty) \
+texlive-etl"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

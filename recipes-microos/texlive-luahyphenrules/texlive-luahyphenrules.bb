@@ -12,7 +12,19 @@ RPM_NAME = "texlive-luahyphenrules-2023.201.1.1svn56200-52.1.noarch.rpm"
 RPM_HASH = "24f111ef6170b02fd46bf9f9d606c268a7312bd2c93a1577729afaf5aa3f3b6e66303d93e1f6837c58b36783187d75dc3e3ce37f7e266a03cad6d2607b414459"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(luahyphenrules.sty) texlive-luahyphenrules"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(luahyphenrules.sty) \
+texlive-luahyphenrules"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

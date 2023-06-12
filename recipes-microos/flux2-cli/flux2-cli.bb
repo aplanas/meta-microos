@@ -13,7 +13,8 @@ PV = "2.0.0~rc4"
 RPM_NAME = "flux2-cli-2.0.0~rc4-1.1.aarch64.rpm"
 RPM_HASH = "005e1ccb7d0a1e2ac9ef573381f6c97b774ab03753c1550533435e9b293fb58fd8a564f910ee4f5d51bfc0b6de2188da9409b87961f7c1cd4d793789b9c148aa"
 
-RPROVIDES:${PN} += "flux2-cli flux2-cli(aarch-64)"
+RPROVIDES:${PN} += "flux2-cli \
+flux2-cli(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

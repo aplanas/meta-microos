@@ -10,6 +10,9 @@ RPM_HASH = "72852774bef09415f47e1df207d3dee2c11a601a855bd19f64f82d761f7d02d24767
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libstoragemgmt-targetd-plugin"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 python(abi) python3-libstoragemgmt"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+python(abi) \
+python3-libstoragemgmt"
 
 inherit rpm

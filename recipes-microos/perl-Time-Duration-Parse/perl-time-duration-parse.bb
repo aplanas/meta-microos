@@ -18,7 +18,8 @@ RPM_NAME = "perl-Time-Duration-Parse-0.16-1.9.noarch.rpm"
 RPM_HASH = "be417b421c167ae851f71f3046847c642940b13c37ed7bc3c73d69f56c99970f6cf443e5861629c716116b71ae21594d892b27013914d82834a9951673fe3559"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Time::Duration::Parse) perl-Time-Duration-Parse"
+RPROVIDES:${PN} += "perl(Time::Duration::Parse) \
+perl-Time-Duration-Parse"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

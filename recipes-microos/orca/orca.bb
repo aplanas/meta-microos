@@ -11,6 +11,25 @@ RPM_HASH = "1a30f1dac1383cf244bd080dad3f9ed77ace8e855ce640714b62e1792c95545ab3cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "orca"
-RDEPENDS:${PN} += "/usr/bin/python3 glib2-tools py3atspi python(abi) python3-brlapi python3-gobject python3-gobject-Gdk python3-louis python3-speechd typelib(Atk) typelib(Atspi) typelib(GLib) typelib(GObject) typelib(Gdk) typelib(GdkX11) typelib(Gio) typelib(Gst) typelib(Gtk) typelib(Pango) typelib(Wnck)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+glib2-tools \
+py3atspi \
+python(abi) \
+python3-brlapi \
+python3-gobject \
+python3-gobject-Gdk \
+python3-louis \
+python3-speechd \
+typelib(Atk) \
+typelib(Atspi) \
+typelib(GLib) \
+typelib(GObject) \
+typelib(Gdk) \
+typelib(GdkX11) \
+typelib(Gio) \
+typelib(Gst) \
+typelib(Gtk) \
+typelib(Pango) \
+typelib(Wnck)"
 
 inherit rpm

@@ -20,7 +20,13 @@ PV = "0.53"
 RPM_NAME = "perl-XML-Bare-0.53-5.37.aarch64.rpm"
 RPM_HASH = "99f4bd998abed4ccae6bc9b8cea2b07bb7e13bdc62ec09a065dcb46646dcd46ad6c6c1de8513ab1dae302e469686591f07e250cc6dac49eb5e2a90a727213a6a"
 
-RPROVIDES:${PN} += "perl(XML::Bare) perl(XML::Bare::Object) perl-XML-Bare perl-XML-Bare(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(XML::Bare) \
+perl(XML::Bare::Object) \
+perl-XML-Bare \
+perl-XML-Bare(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -56,7 +56,8 @@ RPM_NAME = "perl-Business-ISSN-1.005-1.7.noarch.rpm"
 RPM_HASH = "eb8c1912c4a3f4ef98b74f021e42eb12246a7fdac586142b8e8fbd53a2cbce8596502a8aa364a9104117236918f8e89378b6756f98b908ac360863e68cadaf49"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Business::ISSN) perl-Business-ISSN"
+RPROVIDES:${PN} += "perl(Business::ISSN) \
+perl-Business-ISSN"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

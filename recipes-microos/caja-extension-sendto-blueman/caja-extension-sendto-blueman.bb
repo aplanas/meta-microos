@@ -9,6 +9,9 @@ RPM_HASH = "3871f7fba0acf7c25ad2a6cf5e1d1b3a307342319c165d924fc18ecf3bda8ae5ea36
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-extension-sendto-blueman"
-RDEPENDS:${PN} += "blueman typelib(Caja) typelib(GObject) typelib(Gio)"
+RDEPENDS:${PN} += "blueman \
+typelib(Caja) \
+typelib(GObject) \
+typelib(Gio)"
 
 inherit rpm

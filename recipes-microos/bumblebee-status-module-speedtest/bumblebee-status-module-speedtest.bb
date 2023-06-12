@@ -9,6 +9,7 @@ RPM_HASH = "25be9803e9e46fc45a17d064352e1965019c3046931de0e622fa035f74fa04672c90
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-speedtest"
-RDEPENDS:${PN} += "bumblebee-status speedtest-cli"
+RDEPENDS:${PN} += "bumblebee-status \
+speedtest-cli"
 
 inherit rpm

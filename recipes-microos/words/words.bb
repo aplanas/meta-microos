@@ -15,7 +15,11 @@ RPM_NAME = "words-2020.12.07-2.1.noarch.rpm"
 RPM_HASH = "01e781fd05bbd8d265a26ecee375a6d3eb6edce2186c4759ff417eab00e9d36a018a6b632ab93e4f7b31e7aa34c7526baca2819dd214d3f883248b478fbdc64c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "scowl words"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch fillup"
+RPROVIDES:${PN} += "scowl \
+words"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+fillup"
 
 inherit rpm

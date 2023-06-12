@@ -26,7 +26,24 @@ RPM_NAME = "velocity-1.7-11.6.noarch.rpm"
 RPM_HASH = "eec609cc312f9c8e8ebdb7fd1c0e78ff8b209ba7e8cc1de5a84d574f3722f35a5f638f6501974d8dc6b992f31247e0a8d05981851b8795c609713de4c1213b60"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.apache.velocity:velocity) mvn(org.apache.velocity:velocity:pom:) mvn(velocity:velocity) mvn(velocity:velocity:pom:) osgi(org.apache.velocity) velocity"
-RDEPENDS:${PN} += "avalon-logkit commons-collections commons-lang java java-headless javapackages-filesystem jdom mvn(commons-collections:commons-collections) mvn(commons-lang:commons-lang) oro reload4j servletapi4 werken-xpath"
+RPROVIDES:${PN} += "mvn(org.apache.velocity:velocity) \
+mvn(org.apache.velocity:velocity:pom:) \
+mvn(velocity:velocity) \
+mvn(velocity:velocity:pom:) \
+osgi(org.apache.velocity) \
+velocity"
+RDEPENDS:${PN} += "avalon-logkit \
+commons-collections \
+commons-lang \
+java \
+java-headless \
+javapackages-filesystem \
+jdom \
+mvn(commons-collections:commons-collections) \
+mvn(commons-lang:commons-lang) \
+oro \
+reload4j \
+servletapi4 \
+werken-xpath"
 
 inherit rpm

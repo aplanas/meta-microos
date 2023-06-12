@@ -16,7 +16,11 @@ RPM_NAME = "bogofilter-common-1.2.4-15.12.noarch.rpm"
 RPM_HASH = "dc10523ce345b5c5fcea469ad528edf3934c0159d41866188ef47634feba3206065b06f29b30b62ea8b4e91180468b28afbea1d0fb87a77a9deb7bcfa844e71c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "bogofilter-common config(bogofilter-common)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/perl bogofilter-backend"
+RPROVIDES:${PN} += "bogofilter-common \
+config(bogofilter-common)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/perl \
+bogofilter-backend"
 
 inherit rpm

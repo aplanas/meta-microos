@@ -13,7 +13,16 @@ RPM_NAME = "jackson-dataformat-xml-2.13.3-1.7.noarch.rpm"
 RPM_HASH = "a2e64652c6441c69e3221c1c3bbdab20fc46df04de359e8f3201aa8b47878793ec6add9e38cb18a086b5fc6faa799c97f957185b10128ccd13cd0e7aa9ed61ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jackson-dataformat-xml mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-xml) mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-xml:pom:) osgi(com.fasterxml.jackson.dataformat.jackson-dataformat-xml)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(com.fasterxml.jackson.core:jackson-annotations) mvn(com.fasterxml.jackson.core:jackson-core) mvn(com.fasterxml.jackson.core:jackson-databind) mvn(com.fasterxml.woodstox:woodstox-core) mvn(org.codehaus.woodstox:stax2-api)"
+RPROVIDES:${PN} += "jackson-dataformat-xml \
+mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-xml) \
+mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-xml:pom:) \
+osgi(com.fasterxml.jackson.dataformat.jackson-dataformat-xml)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(com.fasterxml.jackson.core:jackson-annotations) \
+mvn(com.fasterxml.jackson.core:jackson-core) \
+mvn(com.fasterxml.jackson.core:jackson-databind) \
+mvn(com.fasterxml.woodstox:woodstox-core) \
+mvn(org.codehaus.woodstox:stax2-api)"
 
 inherit rpm

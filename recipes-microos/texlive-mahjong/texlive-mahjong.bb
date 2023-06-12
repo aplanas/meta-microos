@@ -15,7 +15,24 @@ RPM_NAME = "texlive-mahjong-2023.201.1.0.1svn58896-52.1.noarch.rpm"
 RPM_HASH = "ac2550a4a4ed0b69ad6720e72db9b576bb36b0da42cf466e27e85359218f6ce9e1be60780be591d8927f891d59d1693c12b3b2a61a83364c179c7ba4e97a8cb6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mahjong.sty) texlive-mahjong"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(expl3.sty) tex(graphicx.sty) tex(l3keys2e.sty) tex(stackengine.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(mahjong.sty) \
+texlive-mahjong"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(expl3.sty) \
+tex(graphicx.sty) \
+tex(l3keys2e.sty) \
+tex(stackengine.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

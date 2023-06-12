@@ -21,7 +21,23 @@ RPM_NAME = "texlive-fontch-2023.201.2.2svn17859-52.1.noarch.rpm"
 RPM_HASH = "1a6aafc0936ca93c4db10089fe85d0f3a7824b629515ef445ad70957b180cc8f388d12fe7e071b167df4b94df2e43966d92a374c83e34cbaa88cc608301fab5a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(DSmac.tex) tex(TS1mac.tex) tex(bsymbols.tex) tex(fontch.tex) tex(fontch_doc.tex) texlive-fontch"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(DSmac.tex) \
+tex(TS1mac.tex) \
+tex(bsymbols.tex) \
+tex(fontch.tex) \
+tex(fontch_doc.tex) \
+texlive-fontch"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

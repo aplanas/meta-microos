@@ -19,7 +19,14 @@ RPM_NAME = "perl-Class-Load-0.25-1.16.noarch.rpm"
 RPM_HASH = "8e7216c636c358b07a67a29efa339fcb649191b74f0809a0fce7f39ff45c49c9882b840edab556f0b73c42e4f44337c63b940ee15a524a1b220bf27ff0511dc1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Load) perl(Class::Load::PP) perl-Class-Load"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Data::OptList) perl(Module::Implementation) perl(Module::Runtime) perl(Package::Stash) perl(Try::Tiny)"
+RPROVIDES:${PN} += "perl(Class::Load) \
+perl(Class::Load::PP) \
+perl-Class-Load"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Data::OptList) \
+perl(Module::Implementation) \
+perl(Module::Runtime) \
+perl(Package::Stash) \
+perl(Try::Tiny)"
 
 inherit rpm

@@ -9,6 +9,16 @@ RPM_HASH = "9cf423e3269b60ee39ec9b6da825d121a232ebbc8d62c442442c0e2f1b942bb74e96
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-common"
-RDEPENDS:${PN} += "/bin/sh autoconf autoconf-archive automake gettext-tools glib2-devel gtk-doc intltool libtool pkgconfig yelp-tools"
+RDEPENDS:${PN} += "/bin/sh \
+autoconf \
+autoconf-archive \
+automake \
+gettext-tools \
+glib2-devel \
+gtk-doc \
+intltool \
+libtool \
+pkgconfig \
+yelp-tools"
 
 inherit rpm

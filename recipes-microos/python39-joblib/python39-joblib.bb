@@ -18,7 +18,9 @@ RPM_NAME = "python39-joblib-1.2.0-1.3.noarch.rpm"
 RPM_HASH = "cc759727595241892d9fe6792f1db7a9f9208845edd04e34ca2fa3395e96ae8c3a54a55398b192046794d60b21201064db3f8df3a6208e207e2c42d761405447"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(joblib) python39-joblib python3dist(joblib)"
+RPROVIDES:${PN} += "python3.9dist(joblib) \
+python39-joblib \
+python3dist(joblib)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

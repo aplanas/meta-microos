@@ -9,7 +9,17 @@ RPM_NAME = "ldap-sdk-4.21.0-2.6.noarch.rpm"
 RPM_HASH = "c65d7a4fcebbed8049380e90656ef37b1d4e4509913e4f163635049ecb8175b2c8a197fd4e3b83f4ddde1e3fbc4ad79869ce2a3465c9685f57a712f1326ade02"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "ldap-sdk ldapjdk mvn(ldapjdk:ldapjdk) mvn(ldapjdk:ldapjdk:pom:) mvn(ldapsdk:ldapsdk) mvn(ldapsdk:ldapsdk:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem jpackage-utils mozilla-jss slf4j slf4j-jdk14"
+RPROVIDES:${PN} += "ldap-sdk \
+ldapjdk \
+mvn(ldapjdk:ldapjdk) \
+mvn(ldapjdk:ldapjdk:pom:) \
+mvn(ldapsdk:ldapsdk) \
+mvn(ldapsdk:ldapsdk:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+jpackage-utils \
+mozilla-jss \
+slf4j \
+slf4j-jdk14"
 
 inherit rpm

@@ -10,6 +10,8 @@ RPM_HASH = "4d8d122f8300a4199093aacf3c5b3b05fa56326552796eb6376301d58151be932a6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icc-profiles-mini"
-RDEPENDS:${PN} += "icc-profiles-basiccolor-lstarrgb icc-profiles-lcms-lab icc-profiles-openicc-rgb"
+RDEPENDS:${PN} += "icc-profiles-basiccolor-lstarrgb \
+icc-profiles-lcms-lab \
+icc-profiles-openicc-rgb"
 
 inherit rpm

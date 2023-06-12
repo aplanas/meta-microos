@@ -14,7 +14,20 @@ PV = "1.8.0"
 RPM_NAME = "libosmogsm18-1.8.0-1.1.aarch64.rpm"
 RPM_HASH = "6917e8f216e29db71ddadd779063dec2129aac2562e6ad0407fa17527c70e8bf7c8c4d0b245f3cf31ddffe700445234b81b34063a1a44e208d22ea72cdab486d"
 
-RPROVIDES:${PN} += "libosmogsm.so.18()(64bit) libosmogsm.so.18(LIBOSMOGSM_1.0)(64bit) libosmogsm18 libosmogsm18(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.25)(64bit) libgnutls.so.30()(64bit) libgnutls.so.30(GNUTLS_3_4)(64bit) libosmocore.so.20()(64bit) libosmoisdn.so.0()(64bit) libosmoisdn.so.0(LIBOSMOISDN_1.0)(64bit) libtalloc.so.2()(64bit) libtalloc.so.2(TALLOC_2.0.2)(64bit)"
+RPROVIDES:${PN} += "libosmogsm.so.18()(64bit) \
+libosmogsm.so.18(LIBOSMOGSM_1.0)(64bit) \
+libosmogsm18 \
+libosmogsm18(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.25)(64bit) \
+libgnutls.so.30()(64bit) \
+libgnutls.so.30(GNUTLS_3_4)(64bit) \
+libosmocore.so.20()(64bit) \
+libosmoisdn.so.0()(64bit) \
+libosmoisdn.so.0(LIBOSMOISDN_1.0)(64bit) \
+libtalloc.so.2()(64bit) \
+libtalloc.so.2(TALLOC_2.0.2)(64bit)"
 
 inherit rpm

@@ -22,6 +22,10 @@ RPM_HASH = "f1b13e38a1821e49b422fc81adf03bb6c8d743712d4cb82d39458d8d3f2bd687f444
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "schemaspy"
-RDEPENDS:${PN} += "/bin/bash graphviz graphviz-gd java javapackages-tools"
+RDEPENDS:${PN} += "/bin/bash \
+graphviz \
+graphviz-gd \
+java \
+javapackages-tools"
 
 inherit rpm

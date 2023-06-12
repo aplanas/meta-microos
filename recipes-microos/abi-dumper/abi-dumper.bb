@@ -10,6 +10,11 @@ RPM_HASH = "d502bf7b3591ccfa31a51374b369a488e3dea455ae70718d74704d9c097dcb57cee0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "abi-dumper"
-RDEPENDS:${PN} += "/usr/bin/perl binutils elfutils gcc-c++ perl(Storable) vtable-dumper"
+RDEPENDS:${PN} += "/usr/bin/perl \
+binutils \
+elfutils \
+gcc-c++ \
+perl(Storable) \
+vtable-dumper"
 
 inherit rpm

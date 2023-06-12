@@ -30,7 +30,15 @@ PV = "1.446"
 RPM_NAME = "perl-Alien-SDL-1.446-4.11.aarch64.rpm"
 RPM_HASH = "1a10f3c5727032def812b2b2fb91206e946339328f8831ae087ee6aa41fbd7d6025641953c007c17182ab690d466cd73619559745564e9228bb4d6d8e7986401"
 
-RPROVIDES:${PN} += "perl(Alien::SDL) perl(Alien::SDL::ConfigData) perl-Alien-SDL perl-Alien-SDL(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Capture::Tiny) perl(ExtUtils::CBuilder) perl(File::ShareDir) perl(File::Which)"
+RPROVIDES:${PN} += "perl(Alien::SDL) \
+perl(Alien::SDL::ConfigData) \
+perl-Alien-SDL \
+perl-Alien-SDL(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Capture::Tiny) \
+perl(ExtUtils::CBuilder) \
+perl(File::ShareDir) \
+perl(File::Which)"
 
 inherit rpm

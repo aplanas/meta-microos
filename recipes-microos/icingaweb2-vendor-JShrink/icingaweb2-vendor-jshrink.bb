@@ -9,6 +9,7 @@ RPM_HASH = "83eaf094d0f4bd723ada36151a0e8cba180ea885bce2aaa38050600ecd93d7eb1760
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-vendor-JShrink"
-RDEPENDS:${PN} += "icingaweb2-common php"
+RDEPENDS:${PN} += "icingaweb2-common \
+php"
 
 inherit rpm

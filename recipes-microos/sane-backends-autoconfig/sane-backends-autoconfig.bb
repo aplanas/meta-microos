@@ -26,7 +26,8 @@ PV = "1.2.1"
 RPM_NAME = "sane-backends-autoconfig-1.2.1-1.1.aarch64.rpm"
 RPM_HASH = "27316c8f95784e018369e2ef340dd6e523bf0ffc32ed01a9f4e9cd17dc9140607e46b1d7645bd40596994c85864bdea4ad0008071c507d381c4d0841e3e11fe8"
 
-RPROVIDES:${PN} += "sane-backends-autoconfig sane-backends-autoconfig(aarch-64)"
+RPROVIDES:${PN} += "sane-backends-autoconfig \
+sane-backends-autoconfig(aarch-64)"
 RDEPENDS:${PN} += "libsane1"
 
 inherit rpm

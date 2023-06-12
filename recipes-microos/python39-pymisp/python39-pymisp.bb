@@ -10,7 +10,14 @@ RPM_NAME = "python39-pymisp-2.4.166-1.4.noarch.rpm"
 RPM_HASH = "0b3c4895cbde8abd940cec41d1d000c77573536afca77827c9cfbd15682dd612d69c19da06701f5813e90b447c95d627edfb856af11fe579445907bd67da8c16"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pymisp) python39-pymisp python3dist(pymisp)"
-RDEPENDS:${PN} += "python(abi) python39-Deprecated python39-jsonschema python39-oletools python39-python-dateutil python39-requests"
+RPROVIDES:${PN} += "python3.9dist(pymisp) \
+python39-pymisp \
+python3dist(pymisp)"
+RDEPENDS:${PN} += "python(abi) \
+python39-Deprecated \
+python39-jsonschema \
+python39-oletools \
+python39-python-dateutil \
+python39-requests"
 
 inherit rpm

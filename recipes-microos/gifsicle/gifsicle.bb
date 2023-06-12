@@ -21,7 +21,15 @@ PV = "1.93"
 RPM_NAME = "gifsicle-1.93-1.8.aarch64.rpm"
 RPM_HASH = "811bb5d781e24056b40bfdd389e4dee8a481d7ff8e7c0f7c8792c019dcec6ae7887fb4bb6a0e764ffe7de8048663ad3452b351aef723430e3cb141d7742a2e67"
 
-RPROVIDES:${PN} += "gifsicle gifsicle(aarch-64) ungifsicle"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "gifsicle \
+gifsicle(aarch-64) \
+ungifsicle"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libX11.so.6()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

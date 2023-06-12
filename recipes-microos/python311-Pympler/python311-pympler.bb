@@ -14,7 +14,10 @@ RPM_NAME = "python311-Pympler-1.0.1-4.1.noarch.rpm"
 RPM_HASH = "1a4a47c0621f29b9d41ad60b28248a11a4658ede04d696547e5252de5d96275b9604710fc836f0fa5123c50d519a1bf06d0c4329711370d1796a99f9c921147f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pympler) python311-Pympler python3dist(pympler)"
-RDEPENDS:${PN} += "python(abi) python311-tk"
+RPROVIDES:${PN} += "python3.11dist(pympler) \
+python311-Pympler \
+python3dist(pympler)"
+RDEPENDS:${PN} += "python(abi) \
+python311-tk"
 
 inherit rpm

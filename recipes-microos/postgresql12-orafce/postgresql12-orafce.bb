@@ -10,7 +10,12 @@ PV = "4.2.6+git0.86d7f4c"
 RPM_NAME = "postgresql12-orafce-4.2.6+git0.86d7f4c-1.2.aarch64.rpm"
 RPM_HASH = "aeac94a5916c26d1c880fdc7c74c27f083c507ddced1b08cab44c9cdfa91ce1d5f0388ae53481a0ba2c1d598c80ceb264ba383ca1df652c73b3537763cc1c24a"
 
-RPROVIDES:${PN} += "orafce postgresql12-orafce postgresql12-orafce(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) postgresql12-server"
+RPROVIDES:${PN} += "orafce \
+postgresql12-orafce \
+postgresql12-orafce(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+postgresql12-server"
 
 inherit rpm

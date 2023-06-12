@@ -13,7 +13,12 @@ PV = "0.16.3"
 RPM_NAME = "ode-devel-0.16.3-1.3.aarch64.rpm"
 RPM_HASH = "d29dd135a66e152099f7dc5df2200a0e1ab6469d0a189c94f0b73873bda9f423e7d6e18d09f555f73f5b5c54d00725a67f39bfbdcb2e42db6b016c502fdeea98"
 
-RPROVIDES:${PN} += "libode-devel ode-devel ode-devel(aarch-64) pkgconfig(ode)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config libode8"
+RPROVIDES:${PN} += "libode-devel \
+ode-devel \
+ode-devel(aarch-64) \
+pkgconfig(ode)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/pkg-config \
+libode8"
 
 inherit rpm

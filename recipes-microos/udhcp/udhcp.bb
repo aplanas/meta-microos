@@ -8,7 +8,11 @@ PV = "0.9.8"
 RPM_NAME = "udhcp-0.9.8-29.2.aarch64.rpm"
 RPM_HASH = "277d88acf6d92077580c3830d94bbb8643f720496fa2931e0de00fc92a2c7d5581884437467da9efc962b323cc292c96700282f366acde87f8c43b2f3f9c80af"
 
-RPROVIDES:${PN} += "udhcp udhcp(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "udhcp \
+udhcp(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -19,7 +19,9 @@ RPM_NAME = "perl-Test-Requires-Git-1.008-1.15.noarch.rpm"
 RPM_HASH = "925a299b576c2b74b30a210a5aa809b5f8a7d85c54fe2522dd7019e28e34da53290b5b315d8dbde4250d27d04774b4874c2ce36dcd00c10c55fd9c621ca3469c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Requires::Git) perl-Test-Requires-Git"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Git::Version::Compare)"
+RPROVIDES:${PN} += "perl(Test::Requires::Git) \
+perl-Test-Requires-Git"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Git::Version::Compare)"
 
 inherit rpm

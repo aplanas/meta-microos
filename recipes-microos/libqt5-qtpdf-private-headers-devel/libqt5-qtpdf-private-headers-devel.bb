@@ -12,6 +12,7 @@ RPM_HASH = "a7d6ea32ad0b1e21495d9e72acf753c76c56bf811d15a09e66da65870b6529f76108
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtpdf-private-headers-devel"
-RDEPENDS:${PN} += "libqt5-qtbase-private-headers-devel libqt5-qtpdf-devel"
+RDEPENDS:${PN} += "libqt5-qtbase-private-headers-devel \
+libqt5-qtpdf-devel"
 
 inherit rpm

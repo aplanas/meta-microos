@@ -53,7 +53,8 @@ RPM_NAME = "perl-Class-Data-Inheritable-0.09-1.9.noarch.rpm"
 RPM_HASH = "45babe8d33fd14620ecdbd80bc333998950c31f5bbf81d53015e5821585f023b408e329bd8efe6327abef66fff0926fc786b69494c2a695165da22268dbe5679"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Data::Inheritable) perl-Class-Data-Inheritable"
+RPROVIDES:${PN} += "perl(Class::Data::Inheritable) \
+perl-Class-Data-Inheritable"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

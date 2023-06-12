@@ -11,6 +11,11 @@ RPM_HASH = "fbd3cca9a330946d1e2d7e85880170dc5e555ccf82d892f20cdef7ea810f5a264160
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pip-wheel"
-RDEPENDS:${PN} += "/bin/sh alts ca-certificates coreutils python39-setuptools python39-xml"
+RDEPENDS:${PN} += "/bin/sh \
+alts \
+ca-certificates \
+coreutils \
+python39-setuptools \
+python39-xml"
 
 inherit rpm

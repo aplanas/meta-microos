@@ -16,7 +16,17 @@ PV = "2.8.0"
 RPM_NAME = "python39-pykafka-2.8.0-2.21.aarch64.rpm"
 RPM_HASH = "b52e140154110d6161124038b850324225b3eacae2deae4eafea8a953c3d4ad406bb74d60ca0c4d98c3f07740eeeb4b7414a4381927fce18b27237e98e302e67"
 
-RPROVIDES:${PN} += "python3.9dist(pykafka) python39-pykafka python39-pykafka(aarch-64) python3dist(pykafka)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-gevent python39-kazoo python39-setuptools python39-six python39-tabulate"
+RPROVIDES:${PN} += "python3.9dist(pykafka) \
+python39-pykafka \
+python39-pykafka(aarch-64) \
+python3dist(pykafka)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-gevent \
+python39-kazoo \
+python39-setuptools \
+python39-six \
+python39-tabulate"
 
 inherit rpm

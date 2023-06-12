@@ -17,7 +17,11 @@ PV = "2.7.2"
 RPM_NAME = "libint-devel-2.7.2-2.3.aarch64.rpm"
 RPM_HASH = "9ed341062abe99c60bed37d551686f9a60c082f80d16b9a0af477583861b03b6b7178cb09bbe19185575995f11450689612d7a30b9cf2ee50449375cb473223b"
 
-RPROVIDES:${PN} += "libint-devel libint-devel(aarch-64) pkgconfig(libint2)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config eigen3-devel libint2-2"
+RPROVIDES:${PN} += "libint-devel \
+libint-devel(aarch-64) \
+pkgconfig(libint2)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+eigen3-devel \
+libint2-2"
 
 inherit rpm

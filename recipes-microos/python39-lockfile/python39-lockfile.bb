@@ -15,7 +15,9 @@ RPM_NAME = "python39-lockfile-0.12.2-3.1.noarch.rpm"
 RPM_HASH = "b9ed86811111aae1d1d3334e326bf939971019a5eb9556ccd2168feeb513075b24a6d7facc4e1626e51f39ad59c47abb34555e2d7622a0c6418fbefe206a38a9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(lockfile) python39-lockfile python3dist(lockfile)"
+RPROVIDES:${PN} += "python3.9dist(lockfile) \
+python39-lockfile \
+python3dist(lockfile)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

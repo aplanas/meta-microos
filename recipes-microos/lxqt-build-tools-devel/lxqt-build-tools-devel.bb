@@ -10,7 +10,10 @@ RPM_NAME = "lxqt-build-tools-devel-0.13.0-1.1.noarch.rpm"
 RPM_HASH = "fd24b46af80b650c13e6ff0fe39c02624e14009915b72447d9928d8da1660d4bd9b01ed65cf12f1991715a4d8315571a563a7244489598afd6936d28e7be54da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "cmake(lxqt-build-tools) lxqt-build-tools-devel"
-RDEPENDS:${PN} += "/bin/sh pkgconfig pkgconfig(Qt5Core)"
+RPROVIDES:${PN} += "cmake(lxqt-build-tools) \
+lxqt-build-tools-devel"
+RDEPENDS:${PN} += "/bin/sh \
+pkgconfig \
+pkgconfig(Qt5Core)"
 
 inherit rpm

@@ -13,7 +13,26 @@ RPM_NAME = "texlive-xcjk2uni-2023.201.1.0svn54958-52.1.noarch.rpm"
 RPM_HASH = "1770be0d54c0c9356259b39257161b4912276475f39bb1850af677b90547684e753117e6a9603c5f64f809c95b512846ed01d03fbcad4ef87f7036312046f240"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xCJK2uni-UBg5plus.def) tex(xCJK2uni-UBig5.def) tex(xCJK2uni-UGB.def) tex(xCJK2uni-UGBK.def) tex(xCJK2uni-UJIS.def) tex(xCJK2uni-UKS.def) tex(xCJK2uni.sty) texlive-xcjk2uni"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(expl3.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(xCJK2uni-UBg5plus.def) \
+tex(xCJK2uni-UBig5.def) \
+tex(xCJK2uni-UGB.def) \
+tex(xCJK2uni-UGBK.def) \
+tex(xCJK2uni-UJIS.def) \
+tex(xCJK2uni-UKS.def) \
+tex(xCJK2uni.sty) \
+texlive-xcjk2uni"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(expl3.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

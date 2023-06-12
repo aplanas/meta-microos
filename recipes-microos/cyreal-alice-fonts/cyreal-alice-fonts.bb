@@ -15,6 +15,9 @@ RPM_HASH = "d010b239aac6164fa39649b422d82f76422b08bbea0f7c5502a3b9fa845a67857cda
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cyreal-alice-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

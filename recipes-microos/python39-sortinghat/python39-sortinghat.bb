@@ -30,7 +30,20 @@ RPM_NAME = "python39-sortinghat-0.7.23-1.5.noarch.rpm"
 RPM_HASH = "f891ac76fa767712a64a4c245070f640f419f4bd312672914f2eb689d90b66661649fb64d98229e58bf5b7f9cf66a6c1c5d3a0c2f4b2ac550588f28e460d27af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(sortinghat) python39-sortinghat python3dist(sortinghat)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-Jinja2 python39-PyMySQL python39-PyYAML python39-SQLAlchemy python39-pandas python39-python-dateutil python39-requests python39-urllib3 update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(sortinghat) \
+python39-sortinghat \
+python3dist(sortinghat)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-Jinja2 \
+python39-PyMySQL \
+python39-PyYAML \
+python39-SQLAlchemy \
+python39-pandas \
+python39-python-dateutil \
+python39-requests \
+python39-urllib3 \
+update-alternatives"
 
 inherit rpm

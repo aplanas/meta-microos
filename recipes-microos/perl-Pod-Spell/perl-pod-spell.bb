@@ -20,7 +20,16 @@ RPM_NAME = "perl-Pod-Spell-1.26-1.1.noarch.rpm"
 RPM_HASH = "f1697f305c32a1979e62bf4385fce387b1ee0d90354298d5d3ff488b1d6ae184ca04c03c89b26ebab1cc5a935dbf501d3a822a648e30d4da62145d536614e7bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Pod::Spell) perl(Pod::Wordlist) perl-Pod-Spell"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(Class::Tiny) perl(File::ShareDir) perl(Lingua::EN::Inflect) perl(Pod::Escapes) perl(Pod::Simple) perl(parent)"
+RPROVIDES:${PN} += "perl(Pod::Spell) \
+perl(Pod::Wordlist) \
+perl-Pod-Spell"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Tiny) \
+perl(File::ShareDir) \
+perl(Lingua::EN::Inflect) \
+perl(Pod::Escapes) \
+perl(Pod::Simple) \
+perl(parent)"
 
 inherit rpm

@@ -10,6 +10,9 @@ RPM_HASH = "c13c2fa1df1bdbc8b7e67d7b22d8593d8d8880d598240d24006e3e366f23710c82db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nanopb-source"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/python2 /usr/bin/python3"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/python2 \
+/usr/bin/python3"
 
 inherit rpm

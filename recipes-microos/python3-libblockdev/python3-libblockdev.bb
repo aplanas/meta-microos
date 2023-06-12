@@ -8,7 +8,11 @@ PV = "2.28"
 RPM_NAME = "python3-libblockdev-2.28-1.4.aarch64.rpm"
 RPM_HASH = "ad25989d5f8d285962fe478d4f7d98c4243aab3cf0532deed515535306e52559bd1dcaefe1dfe40e6164ee512c1aca60d1056875c710757bf196551ab0e322ce"
 
-RPROVIDES:${PN} += "python3-libblockdev python3-libblockdev(aarch-64)"
-RDEPENDS:${PN} += "libblockdev2 python(abi) python3-gobject typelib(GLib)"
+RPROVIDES:${PN} += "python3-libblockdev \
+python3-libblockdev(aarch-64)"
+RDEPENDS:${PN} += "libblockdev2 \
+python(abi) \
+python3-gobject \
+typelib(GLib)"
 
 inherit rpm

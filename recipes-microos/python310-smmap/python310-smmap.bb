@@ -16,7 +16,10 @@ RPM_NAME = "python310-smmap-5.0.0-2.1.noarch.rpm"
 RPM_HASH = "70016acf999b27e13f8ddd7ce64b5a885430a24da9b601aa16a7c024976a3f8ce0a4c0173b73c873f75cf78b1209333eff595a37dbc096e1bdcff205bca13fbe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-smmap python3.10dist(smmap) python310-smmap python3dist(smmap)"
+RPROVIDES:${PN} += "python3-smmap \
+python3.10dist(smmap) \
+python310-smmap \
+python3dist(smmap)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,7 +9,10 @@ PV = "2.37"
 RPM_NAME = "glibc-devel-static-2.37-4.1.aarch64.rpm"
 RPM_HASH = "9d5d312da006589d9f51e607e01c2cd658e44d05eb9f5020f9040ef7e13e38aa39f5f36e277be4b89f4dbf7617e4430579ee0173aef66394feaec63154c3d339"
 
-RPROVIDES:${PN} += "glibc-devel-static glibc-devel-static(aarch-64) glibc-static"
-RDEPENDS:${PN} += "glibc-devel libxcrypt-devel-static"
+RPROVIDES:${PN} += "glibc-devel-static \
+glibc-devel-static(aarch-64) \
+glibc-static"
+RDEPENDS:${PN} += "glibc-devel \
+libxcrypt-devel-static"
 
 inherit rpm

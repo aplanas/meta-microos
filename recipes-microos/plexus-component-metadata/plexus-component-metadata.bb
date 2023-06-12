@@ -13,7 +13,16 @@ RPM_NAME = "plexus-component-metadata-2.1.1-4.1.noarch.rpm"
 RPM_HASH = "5212845884647a086f5bf5053e3ef73947154caca2891e31dfc0b0e15bccc00b0853d65990b12bfeb7f5257e8f75e04a03c5663d3f1a5c70f48db7223d2fa68e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-component-metadata) mvn(org.codehaus.plexus:plexus-component-metadata:pom:) plexus-component-metadata"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(com.thoughtworks.qdox:qdox) mvn(org.codehaus.plexus:plexus-component-annotations) mvn(org.codehaus.plexus:plexus-container-default) mvn(org.codehaus.plexus:plexus-utils) mvn(org.jdom:jdom2) mvn(org.ow2.asm:asm)"
+RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-component-metadata) \
+mvn(org.codehaus.plexus:plexus-component-metadata:pom:) \
+plexus-component-metadata"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(com.thoughtworks.qdox:qdox) \
+mvn(org.codehaus.plexus:plexus-component-annotations) \
+mvn(org.codehaus.plexus:plexus-container-default) \
+mvn(org.codehaus.plexus:plexus-utils) \
+mvn(org.jdom:jdom2) \
+mvn(org.ow2.asm:asm)"
 
 inherit rpm

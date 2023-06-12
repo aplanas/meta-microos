@@ -15,7 +15,21 @@ RPM_NAME = "python39-impacket-0.10.0-1.1.noarch.rpm"
 RPM_HASH = "f4182cafea1828fb14e453178f397d50d330d4c1c2c8b8d407f476f01c48dcdd6f7d1fedab84a65a04a2b2311561c6a44b162aaa8c5fd2b9b00f94e7c0db8676"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(impacket) python39-impacket python3dist(impacket)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-Flask python39-chardet python39-future python39-ldap3 python39-ldapdomaindump python39-pyOpenSSL python39-pyasn1 python39-pycryptodomex python39-six update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(impacket) \
+python39-impacket \
+python3dist(impacket)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-Flask \
+python39-chardet \
+python39-future \
+python39-ldap3 \
+python39-ldapdomaindump \
+python39-pyOpenSSL \
+python39-pyasn1 \
+python39-pycryptodomex \
+python39-six \
+update-alternatives"
 
 inherit rpm

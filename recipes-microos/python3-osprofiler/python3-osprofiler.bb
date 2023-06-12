@@ -15,7 +15,17 @@ RPM_NAME = "python3-osprofiler-3.4.3-1.5.noarch.rpm"
 RPM_HASH = "5ce41d194436f81a071838ac50fa930f819fe5c1273f13a175ad1c2a742af95bb309805f012912510fdf602f6620ffa5703e4eac6745eddbc7379101e7569b9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-osprofiler python3.10dist(osprofiler) python3dist(osprofiler)"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-PrettyTable python3-WebOb python3-importlib-metadata python3-oslo.concurrency python3-oslo.config python3-oslo.log python3-oslo.utils"
+RPROVIDES:${PN} += "python3-osprofiler \
+python3.10dist(osprofiler) \
+python3dist(osprofiler)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3-PrettyTable \
+python3-WebOb \
+python3-importlib-metadata \
+python3-oslo.concurrency \
+python3-oslo.config \
+python3-oslo.log \
+python3-oslo.utils"
 
 inherit rpm

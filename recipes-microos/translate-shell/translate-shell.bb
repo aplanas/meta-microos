@@ -12,6 +12,8 @@ RPM_HASH = "1199075a8cd58ca3a7fb7170d0fe150d4bb9013ba3388bc839448fcfe58b2a9cf5f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "translate-shell"
-RDEPENDS:${PN} += "/bin/bash bash gawk"
+RDEPENDS:${PN} += "/bin/bash \
+bash \
+gawk"
 
 inherit rpm

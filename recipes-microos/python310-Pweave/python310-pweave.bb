@@ -16,7 +16,20 @@ RPM_NAME = "python310-Pweave-0.30.3-6.4.noarch.rpm"
 RPM_HASH = "4383e2c7f7f3c9c8084ad9a0e24b6aa4ed2b96f2aec2751799c36b18f283da8e39c123bb5413d26bcc6ed1a376b3af69390226a3de17ab85fb59fa95dc2a8538"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Pweave python3.10dist(pweave) python310-Pweave python3dist(pweave)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-Markdown python310-Pygments python310-certifi python310-jupyter_client python310-jupyter_ipykernel python310-jupyter_ipython python310-jupyter_nbconvert python310-jupyter_nbformat"
+RPROVIDES:${PN} += "python3-Pweave \
+python3.10dist(pweave) \
+python310-Pweave \
+python3dist(pweave)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-Markdown \
+python310-Pygments \
+python310-certifi \
+python310-jupyter_client \
+python310-jupyter_ipykernel \
+python310-jupyter_ipython \
+python310-jupyter_nbconvert \
+python310-jupyter_nbformat"
 
 inherit rpm

@@ -10,7 +10,15 @@ PV = "0.1.1"
 RPM_NAME = "libdisplay-info1-0.1.1-1.3.aarch64.rpm"
 RPM_HASH = "5853bd5ff311f003a2b88fe7cceb30e5275b721bd73348a75637febf57b76de76125caaa5afed85628bfe78ff95b483dda3f3fa7787dcaccd4fe6fa3a9ff00e3"
 
-RPROVIDES:${PN} += "libdisplay-info.so.1()(64bit) libdisplay-info1 libdisplay-info1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit)"
+RPROVIDES:${PN} += "libdisplay-info.so.1()(64bit) \
+libdisplay-info1 \
+libdisplay-info1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit)"
 
 inherit rpm

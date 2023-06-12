@@ -23,7 +23,8 @@ RPM_NAME = "perl-Tie-Cache-0.21-1.27.noarch.rpm"
 RPM_HASH = "23180452600a6e590ca5d7ed274ec326179426d8984c45ebfa7208cdea5ee7be64ead5cb24520fc25536a5dddc2fcec95f1ca0d9c083f2a12820bbe6327136cc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Tie::Cache) perl-Tie-Cache"
+RPROVIDES:${PN} += "perl(Tie::Cache) \
+perl-Tie-Cache"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

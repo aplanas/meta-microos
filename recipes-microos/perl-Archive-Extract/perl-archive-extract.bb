@@ -15,7 +15,12 @@ RPM_NAME = "perl-Archive-Extract-0.88-1.9.noarch.rpm"
 RPM_HASH = "3be0160f396b4b759e3a0773a1007154aaec94fc24dcbd5067bd0aa6c765db135f0244712afbe593c2ddf8ab98b7810dc121aed701c24797adb129ed8132ecdf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Archive::Extract) perl-Archive-Extract"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(IPC::Cmd) perl(Locale::Maketext::Simple) perl(Module::Load::Conditional) perl(Params::Check)"
+RPROVIDES:${PN} += "perl(Archive::Extract) \
+perl-Archive-Extract"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(IPC::Cmd) \
+perl(Locale::Maketext::Simple) \
+perl(Module::Load::Conditional) \
+perl(Params::Check)"
 
 inherit rpm

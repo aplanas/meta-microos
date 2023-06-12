@@ -14,6 +14,8 @@ RPM_HASH = "60c0a49e384c4aa304b18144d63b03a504ba1acb67c44d0f96c2ec12654feed949d8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mailgraph-apache"
-RDEPENDS:${PN} += "/usr/bin/perl apache2-mod_perl mailgraph"
+RDEPENDS:${PN} += "/usr/bin/perl \
+apache2-mod_perl \
+mailgraph"
 
 inherit rpm

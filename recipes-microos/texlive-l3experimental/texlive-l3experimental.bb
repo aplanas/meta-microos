@@ -23,7 +23,31 @@ RPM_NAME = "texlive-l3experimental-2023.201.svn65621-55.1.noarch.rpm"
 RPM_HASH = "3dfea2378947e4fc460dc5dc98abce052b1e31d886af14f22da8692bd1b5ef425442c96cda16138a73aaeec69c29c79521233e66bbe1f4a0ba254b49001bf9d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(l3benchmark.sty) tex(l3bitset.sty) tex(l3draw.sty) tex(l3galley.sty) tex(l3graphics.sty) tex(l3opacity.sty) tex(l3str-format.sty) tex(l3sys-shell.sty) tex(xcoffins.sty) tex(xgalley.sty) texlive-l3experimental"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(expl3.sty) tex(xtemplate.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-l3kernel texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(l3benchmark.sty) \
+tex(l3bitset.sty) \
+tex(l3draw.sty) \
+tex(l3galley.sty) \
+tex(l3graphics.sty) \
+tex(l3opacity.sty) \
+tex(l3str-format.sty) \
+tex(l3sys-shell.sty) \
+tex(xcoffins.sty) \
+tex(xgalley.sty) \
+texlive-l3experimental"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(expl3.sty) \
+tex(xtemplate.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-l3kernel \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

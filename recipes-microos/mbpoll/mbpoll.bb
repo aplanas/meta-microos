@@ -18,7 +18,11 @@ PV = "1.4.11"
 RPM_NAME = "mbpoll-1.4.11-1.9.aarch64.rpm"
 RPM_HASH = "3f8ac81ae84501e9c9e14bf77feebb7b4166afc4f9131e2f039300a9035e51d02b2d85a0d2eff862807efd0a7baf0e69453090c5373495dcd53ed3bd0064c38d"
 
-RPROVIDES:${PN} += "mbpoll mbpoll(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libmodbus.so.5()(64bit)"
+RPROVIDES:${PN} += "mbpoll \
+mbpoll(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libmodbus.so.5()(64bit)"
 
 inherit rpm

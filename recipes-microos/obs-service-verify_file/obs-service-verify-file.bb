@@ -11,6 +11,7 @@ RPM_HASH = "cc7351b4ca62752ad71c4811d12a9207cd78ce57c6e6cdb2a1ea1e8d47ce44e34dea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-verify_file"
-RDEPENDS:${PN} += "/bin/bash coreutils"
+RDEPENDS:${PN} += "/bin/bash \
+coreutils"
 
 inherit rpm

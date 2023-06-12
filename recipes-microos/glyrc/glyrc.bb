@@ -24,7 +24,13 @@ PV = "1.0.10"
 RPM_NAME = "glyrc-1.0.10-3.9.aarch64.rpm"
 RPM_HASH = "3cfbec80487b47a63dd69a39c94d118c477421120803e79374ba81d46c84bb68dcbbbece43663a6d5ffc42cdec50e34b0b3f8b423a8377914bddad2f6865b9c1"
 
-RPROVIDES:${PN} += "glyr glyrc glyrc(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libglib-2.0.so.0()(64bit) libglyr.so.1()(64bit)"
+RPROVIDES:${PN} += "glyr \
+glyrc \
+glyrc(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libglyr.so.1()(64bit)"
 
 inherit rpm

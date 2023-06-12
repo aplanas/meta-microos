@@ -23,7 +23,17 @@ PV = "2.6.4"
 RPM_NAME = "openldap2-contrib-2.6.4-1.1.aarch64.rpm"
 RPM_HASH = "bb101c7b8f487adbc13aceac9e9d1f7b6d15d9b9b692c656dd13e161ce509eb845791d90ba0acce1440693b45da3dce91a9acb441ff19a678f11cbda42d1ca56"
 
-RPROVIDES:${PN} += "openldap2-contrib openldap2-contrib(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) liblber.so.2()(64bit) liblber.so.2(OPENLDAP_2.200)(64bit) libldap.so.2()(64bit) libldap.so.2(OPENLDAP_2.200)(64bit) openldap2"
+RPROVIDES:${PN} += "openldap2-contrib \
+openldap2-contrib(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+liblber.so.2()(64bit) \
+liblber.so.2(OPENLDAP_2.200)(64bit) \
+libldap.so.2()(64bit) \
+libldap.so.2(OPENLDAP_2.200)(64bit) \
+openldap2"
 
 inherit rpm

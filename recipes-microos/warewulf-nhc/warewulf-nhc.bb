@@ -13,7 +13,11 @@ RPM_NAME = "warewulf-nhc-1.4.2-1.9.noarch.rpm"
 RPM_HASH = "2bd7bc941360b978a0ab8b612e668f2868a7def7de6cb5a22c774a9dc35c1d9bb1ccc18c330e0f46e6280292a42847c37c07c4c3626859f71e09723449b75fc2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(warewulf-nhc) warewulf-nhc"
-RDEPENDS:${PN} += "/bin/bash /bin/sh bash logrotate"
+RPROVIDES:${PN} += "config(warewulf-nhc) \
+warewulf-nhc"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+bash \
+logrotate"
 
 inherit rpm

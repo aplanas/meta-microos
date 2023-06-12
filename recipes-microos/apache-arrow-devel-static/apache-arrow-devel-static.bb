@@ -14,7 +14,8 @@ PV = "12.0.0"
 RPM_NAME = "apache-arrow-devel-static-12.0.0-1.1.aarch64.rpm"
 RPM_HASH = "d20d38a6a3fba245cf7075756794fc1217004633cf15923ef5f90db99d320df5adef8d050f3f07a13aa55ec235bf63cc0fbe760f90f6e85875deb5aa048616ae"
 
-RPROVIDES:${PN} += "apache-arrow-devel-static apache-arrow-devel-static(aarch-64)"
+RPROVIDES:${PN} += "apache-arrow-devel-static \
+apache-arrow-devel-static(aarch-64)"
 RDEPENDS:${PN} += "apache-arrow-devel"
 
 inherit rpm

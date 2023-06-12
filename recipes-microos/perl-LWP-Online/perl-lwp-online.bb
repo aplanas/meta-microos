@@ -39,7 +39,10 @@ RPM_NAME = "perl-LWP-Online-1.08-12.20.noarch.rpm"
 RPM_HASH = "03afd616f4665a2f444a5880b2c908c42d6e14fcb0cdd43f9fa0bb437e88350afee7bbf61d14bee629caea07c8f95cfa718754f6005b8c8702e6de2d6e651904"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(LWP::Online) perl-LWP-Online"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(LWP::Simple) perl(URI)"
+RPROVIDES:${PN} += "perl(LWP::Online) \
+perl-LWP-Online"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(LWP::Simple) \
+perl(URI)"
 
 inherit rpm

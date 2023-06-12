@@ -16,7 +16,8 @@ RPM_NAME = "perl-Hash-Ordered-0.014-1.1.noarch.rpm"
 RPM_HASH = "fca61b0bca8774f491ca8660728e88f78a6bbfa39313cab10eb9ae237a6ccb825167de2f4de15f6e8c60e085618c1e026972e09fb3c347eeccd85d432b30ac88"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Hash::Ordered) perl-Hash-Ordered"
+RPROVIDES:${PN} += "perl(Hash::Ordered) \
+perl-Hash-Ordered"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

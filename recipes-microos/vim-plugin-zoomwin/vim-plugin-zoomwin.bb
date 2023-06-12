@@ -13,6 +13,7 @@ RPM_HASH = "d8974cf313cf06918037d6f2147958c75c525a469bb4e2a7b39777dd17186f0f41ac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-zoomwin"
-RDEPENDS:${PN} += "/bin/sh vim"
+RDEPENDS:${PN} += "/bin/sh \
+vim"
 
 inherit rpm

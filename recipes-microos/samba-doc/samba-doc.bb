@@ -10,6 +10,7 @@ RPM_HASH = "8bd1036449cccadbbbd288c6437b753a4de5ad3d576035b8f6bc1f20752eec8cb164
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "samba-doc"
-RDEPENDS:${PN} += "coreutils findutils"
+RDEPENDS:${PN} += "coreutils \
+findutils"
 
 inherit rpm

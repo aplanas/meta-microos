@@ -38,7 +38,10 @@ RPM_NAME = "perl-CGI-Ajax-0.707-15.26.noarch.rpm"
 RPM_HASH = "8a2432e6c5ae3459a638f641a1978cc4b03e813a17d74d6ff8040bc565e906a17e33dfad882e718b595098d95769ed2cc1e9208cf824824b4dfab217c30eeb48"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(CGI::Ajax) perl-CGI-Ajax"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(CGI) perl(Class::Accessor)"
+RPROVIDES:${PN} += "perl(CGI::Ajax) \
+perl-CGI-Ajax"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(CGI) \
+perl(Class::Accessor)"
 
 inherit rpm

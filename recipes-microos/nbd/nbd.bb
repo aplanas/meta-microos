@@ -22,7 +22,25 @@ PV = "3.24"
 RPM_NAME = "nbd-3.24-2.6.aarch64.rpm"
 RPM_HASH = "9af9da590caf4792edfaacf687a323c85cd0e99f43f164c592a8d887dd5fccfe54ebe1cb8d5aa2e780301abbf3c6a25ff26810f0eca53d3e88edba798c389aad"
 
-RPROVIDES:${PN} += "config(nbd) nbd nbd(aarch-64)"
-RDEPENDS:${PN} += "(kmod(nbd.ko) if kernel) /bin/sh /usr/bin/mkdir /usr/bin/touch coreutils fillup ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libglib-2.0.so.0()(64bit) libgnutls.so.30()(64bit) libgnutls.so.30(GNUTLS_3_4)(64bit) libnl-3.so.200()(64bit) libnl-3.so.200(libnl_3)(64bit) libnl-genl-3.so.200()(64bit) libnl-genl-3.so.200(libnl_3)(64bit) systemd"
+RPROVIDES:${PN} += "config(nbd) \
+nbd \
+nbd(aarch-64)"
+RDEPENDS:${PN} += "(kmod(nbd.ko) if kernel) \
+/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+coreutils \
+fillup \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgnutls.so.30()(64bit) \
+libgnutls.so.30(GNUTLS_3_4)(64bit) \
+libnl-3.so.200()(64bit) \
+libnl-3.so.200(libnl_3)(64bit) \
+libnl-genl-3.so.200()(64bit) \
+libnl-genl-3.so.200(libnl_3)(64bit) \
+systemd"
 
 inherit rpm

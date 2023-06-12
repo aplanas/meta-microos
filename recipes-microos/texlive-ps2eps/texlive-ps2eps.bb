@@ -25,7 +25,23 @@ RPM_NAME = "texlive-ps2eps-2023.201.1.70svn62856-52.1.noarch.rpm"
 RPM_HASH = "b5a9ab08ba148839e82093bbbc6ae1aa7eb0f2a94b774ecac5f4d6e765ed2869e4faddfb3465eaabe696d93c81fa997efec3eff60713c5eadb29b457bf3ddab2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-ps2eps texlive-pstools:/usr/share/texmf/scripts/ps2eps/ps2eps.pl"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Getopt::Long) perl(POSIX) sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-ps2eps-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "texlive-ps2eps \
+texlive-pstools:/usr/share/texmf/scripts/ps2eps/ps2eps.pl"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Getopt::Long) \
+perl(POSIX) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-ps2eps-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

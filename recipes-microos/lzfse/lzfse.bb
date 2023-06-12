@@ -9,7 +9,11 @@ PV = "1.0"
 RPM_NAME = "lzfse-1.0-2.11.aarch64.rpm"
 RPM_HASH = "046edb5d66f9ae219e8e5b76e6ffe98eb90123d85f3be30f26041b9acb0ead0949fd13a53aa100f0ad5b8beec22e8396d442cb58aaf308174a1f98923fc0751a"
 
-RPROVIDES:${PN} += "liblzfse.so()(64bit) lzfse lzfse(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "liblzfse.so()(64bit) \
+lzfse \
+lzfse(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

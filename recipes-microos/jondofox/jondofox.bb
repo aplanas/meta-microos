@@ -25,7 +25,10 @@ RPM_NAME = "jondofox-2.15.0-1.19.noarch.rpm"
 RPM_HASH = "5f3dc09d8a948a8279e82b70fddb71f2bfc03a908a640c90d7bba3d720a8e6047b449c6606647a34569e60ca83c23f4abf6568adc4d82b3892157422c016751a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(jondofox.desktop) jondofox"
-RDEPENDS:${PN} += "/bin/bash firefox"
+RPROVIDES:${PN} += "application() \
+application(jondofox.desktop) \
+jondofox"
+RDEPENDS:${PN} += "/bin/bash \
+firefox"
 
 inherit rpm

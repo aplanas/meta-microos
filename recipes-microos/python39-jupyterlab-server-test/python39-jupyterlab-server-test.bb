@@ -10,6 +10,15 @@ RPM_HASH = "1fe33024e87a01e4488071e5c205f608608e08b65ccc5387ea700851309fde32f5c0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-jupyterlab-server-test"
-RDEPENDS:${PN} += "(python39-openapi-spec-validator >= 0.5.1 with python39-openapi-spec-validator < 0.6) python39-Werkzeug python39-ipykernel python39-jupyterlab-server-openapi python39-pytest python39-pytest-console-scripts python39-pytest-jupyter-server python39-pytest-timeout python39-requests-mock python39-strict-rfc3339"
+RDEPENDS:${PN} += "(python39-openapi-spec-validator >= 0.5.1 with python39-openapi-spec-validator < 0.6) \
+python39-Werkzeug \
+python39-ipykernel \
+python39-jupyterlab-server-openapi \
+python39-pytest \
+python39-pytest-console-scripts \
+python39-pytest-jupyter-server \
+python39-pytest-timeout \
+python39-requests-mock \
+python39-strict-rfc3339"
 
 inherit rpm

@@ -21,7 +21,30 @@ PV = "1.0.9.4"
 RPM_NAME = "ghc-skein-1.0.9.4-4.2.aarch64.rpm"
 RPM_HASH = "3d89b79fbdb5dbc58d9b9b31599012ad1442f1b12ade2187ef6838d2e97e66e0d848cb7fe2046a0aace635d4b857f3774336473c110693df963eda416ca8a6eb"
 
-RPROVIDES:${PN} += "ghc-skein ghc-skein(aarch-64) libHSskein-1.0.9.4-C8WZ6GadOdNJdCjx57swFO-ghc9.4.5.so()(64bit)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) libHScereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f-ghc9.4.5.so()(64bit) libHScontainers-0.6.7-ghc9.4.5.so()(64bit) libHScrypto-api-0.13.3-9orTVpCmnZz79j7elcs5GE-ghc9.4.5.so()(64bit) libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) libHSentropy-0.4.1.10-HkaMHQZP8nyRj15panvtP-ghc9.4.5.so()(64bit) libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) libHSghc-boot-th-9.4.5-ghc9.4.5.so()(64bit) libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) libHStagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa-ghc9.4.5.so()(64bit) libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) libHStime-1.12.2-ghc9.4.5.so()(64bit) libHStransformers-0.5.6.2-ghc9.4.5.so()(64bit) libHSunix-2.7.3-ghc9.4.5.so()(64bit) libc.so.6(GLIBC_2.17)(64bit) libgmp.so.10()(64bit) libm.so.6()(64bit)"
+RPROVIDES:${PN} += "ghc-skein \
+ghc-skein(aarch-64) \
+libHSskein-1.0.9.4-C8WZ6GadOdNJdCjx57swFO-ghc9.4.5.so()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
+libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
+libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \
+libHScereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f-ghc9.4.5.so()(64bit) \
+libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \
+libHScrypto-api-0.13.3-9orTVpCmnZz79j7elcs5GE-ghc9.4.5.so()(64bit) \
+libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \
+libHSentropy-0.4.1.10-HkaMHQZP8nyRj15panvtP-ghc9.4.5.so()(64bit) \
+libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
+libHSghc-boot-th-9.4.5-ghc9.4.5.so()(64bit) \
+libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
+libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) \
+libHStagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa-ghc9.4.5.so()(64bit) \
+libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) \
+libHStime-1.12.2-ghc9.4.5.so()(64bit) \
+libHStransformers-0.5.6.2-ghc9.4.5.so()(64bit) \
+libHSunix-2.7.3-ghc9.4.5.so()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgmp.so.10()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

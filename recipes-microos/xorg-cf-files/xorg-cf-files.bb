@@ -19,6 +19,8 @@ RPM_HASH = "ee6cef5fe75a12f7417bc057347fdba20afc3e12e8ed5c8910a013bf89e2f00fb7ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-cf-files"
-RDEPENDS:${PN} += "gccmakedep imake makedepend"
+RDEPENDS:${PN} += "gccmakedep \
+imake \
+makedepend"
 
 inherit rpm

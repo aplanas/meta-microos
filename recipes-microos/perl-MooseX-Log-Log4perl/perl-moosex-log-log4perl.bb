@@ -39,7 +39,11 @@ RPM_NAME = "perl-MooseX-Log-Log4perl-0.47-2.19.noarch.rpm"
 RPM_HASH = "e4e80de297292308142b12e3b5bf58e8ba973f8de3cdd62f60b26c4258dc29161d5d2a4142f242689bbeb497f5887022be13bd57a96394bc4f9cb742c0369e3b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooseX::Log::Log4perl) perl(MooseX::Log::Log4perl::Easy) perl-MooseX-Log-Log4perl"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Log::Log4perl) perl(Moo)"
+RPROVIDES:${PN} += "perl(MooseX::Log::Log4perl) \
+perl(MooseX::Log::Log4perl::Easy) \
+perl-MooseX-Log-Log4perl"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Log::Log4perl) \
+perl(Moo)"
 
 inherit rpm

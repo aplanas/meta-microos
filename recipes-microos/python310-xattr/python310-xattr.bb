@@ -12,7 +12,19 @@ PV = "0.10.1"
 RPM_NAME = "python310-xattr-0.10.1-1.4.aarch64.rpm"
 RPM_HASH = "f0f24255afea653329b2987804f426e38fd5a5df90e305b437d6274f1569f864a9bda5d69cb72210fb88aa96d47a67d070c8b8e41d515fd6cb389ff89db8d825"
 
-RPROVIDES:${PN} += "python3-xattr python3.10dist(xattr) python310-xattr python310-xattr(aarch-64) python3dist(xattr)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python310-cffi python310-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3-xattr \
+python3.10dist(xattr) \
+python310-xattr \
+python310-xattr(aarch-64) \
+python3dist(xattr)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi) \
+python310-cffi \
+python310-setuptools \
+update-alternatives"
 
 inherit rpm

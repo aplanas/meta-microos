@@ -13,7 +13,19 @@ PV = "0.8.0"
 RPM_NAME = "atftp-0.8.0-1.2.aarch64.rpm"
 RPM_HASH = "422873b830235768adce7b20c64156cb4de415970e31cf41cb630f3b756cda1ce6df0c6fafc4dd2a18fe93b3ce321e5f586c519e7a7953083c9f57d21ddd99e7"
 
-RPROVIDES:${PN} += "atftp atftp(aarch-64) tftp(client) tftp(server)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch fillup group(tftp) ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libreadline.so.8()(64bit) user(tftp)"
+RPROVIDES:${PN} += "atftp \
+atftp(aarch-64) \
+tftp(client) \
+tftp(server)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+fillup \
+group(tftp) \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libreadline.so.8()(64bit) \
+user(tftp)"
 
 inherit rpm

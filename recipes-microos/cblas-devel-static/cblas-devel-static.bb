@@ -9,7 +9,8 @@ PV = "3.9.0"
 RPM_NAME = "cblas-devel-static-3.9.0-9.1.aarch64.rpm"
 RPM_HASH = "14e95e367237261a67a0a518151ae6c0f9e3382c93af1065453f2d5efda01db38a43b07dd804499e683e681734477b26a0920d0db800f159694bc7db97255b2f"
 
-RPROVIDES:${PN} += "cblas-devel-static cblas-devel-static(aarch-64)"
+RPROVIDES:${PN} += "cblas-devel-static \
+cblas-devel-static(aarch-64)"
 RDEPENDS:${PN} += "cblas-devel"
 
 inherit rpm

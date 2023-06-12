@@ -12,7 +12,8 @@ RPM_NAME = "ceph-grafana-dashboards-16.2.13.66+g54799ee0666-2.1.noarch.rpm"
 RPM_HASH = "2a88e4466b7c4116bfa580a56278ef1bf20d460b97873363dde7836b12d01a0fdf063521e78e1fe89d34f817aef5d7cd8218c46b520f2183deebc7f139688f12"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "ceph-grafana-dashboards config(ceph-grafana-dashboards)"
+RPROVIDES:${PN} += "ceph-grafana-dashboards \
+config(ceph-grafana-dashboards)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

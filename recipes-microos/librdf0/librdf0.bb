@@ -12,7 +12,16 @@ PV = "1.0.17"
 RPM_NAME = "librdf0-1.0.17-2.20.aarch64.rpm"
 RPM_HASH = "72ad4c83cfe6082d712ff0864c598f2f8f5e7e196b4850627580970534446ad07759d5c30c2d95bdd6f01cca29df4788598b1466048d9b6adb40cb8a5aa25f38"
 
-RPROVIDES:${PN} += "librdf.so.0()(64bit) librdf0 librdf0(aarch-64) libredland0"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libdb-4.8.so()(64bit) libraptor2.so.0()(64bit) librasqal.so.3()(64bit)"
+RPROVIDES:${PN} += "librdf.so.0()(64bit) \
+librdf0 \
+librdf0(aarch-64) \
+libredland0"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libdb-4.8.so()(64bit) \
+libraptor2.so.0()(64bit) \
+librasqal.so.3()(64bit)"
 
 inherit rpm

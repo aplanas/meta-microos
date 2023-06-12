@@ -13,7 +13,11 @@ RPM_NAME = "python39-PyTrie-0.4.0-1.11.noarch.rpm"
 RPM_HASH = "8aedef1d380884e191136ccf3facbba9e161432a5bfd0c5c082fbccdac955b7023f70c8ea607d53d7cbd94518c04d58b2b332749b9b8f4a60e3e19e66f7c5f57"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytrie) python39-PyTrie python39-pytrie python3dist(pytrie)"
-RDEPENDS:${PN} += "python(abi) python39-sortedcontainers"
+RPROVIDES:${PN} += "python3.9dist(pytrie) \
+python39-PyTrie \
+python39-pytrie \
+python3dist(pytrie)"
+RDEPENDS:${PN} += "python(abi) \
+python39-sortedcontainers"
 
 inherit rpm

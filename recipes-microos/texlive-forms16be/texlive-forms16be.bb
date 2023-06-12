@@ -19,7 +19,20 @@ RPM_NAME = "texlive-forms16be-2023.201.1.3svn51305-52.1.noarch.rpm"
 RPM_HASH = "2dcb4b3ec3b4c0d56f8db9fa8cda59f628ab835c01e305641b268757f9edf5cd7c9e5dae2c4316d2e6fb416720667dceaa5907644aee6de6b1dfc89042c243ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(forms16be.sty) tex(uni4basic-latin.def) texlive-forms16be"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(forms16be.sty) \
+tex(uni4basic-latin.def) \
+texlive-forms16be"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -19,7 +19,28 @@ RPM_NAME = "texlive-wargame-2023.201.0.0.3.2svn64797-53.1.noarch.rpm"
 RPM_HASH = "f40f2d494e46ab9956128ce9e3289771dea3858e2bcb42df1409862b6ee93b318e006a945d0b5caf45c36dbdcf29597f937f69da6fbe49161033fc301ffd5007"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikzlibrarywargame.chit.code.tex) tex(tikzlibrarywargame.hex.code.tex) tex(tikzlibrarywargame.natoapp6c.code.tex) tex(tikzlibrarywargame.util.code.tex) tex(wargame.sty) tex(wgexport.cls) texlive-wargame"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 coreutils ed findutils grep sed tex(standalone.cls) tex(tikz.sty) tex(xcolor.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(tikzlibrarywargame.chit.code.tex) \
+tex(tikzlibrarywargame.hex.code.tex) \
+tex(tikzlibrarywargame.natoapp6c.code.tex) \
+tex(tikzlibrarywargame.util.code.tex) \
+tex(wargame.sty) \
+tex(wgexport.cls) \
+texlive-wargame"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(standalone.cls) \
+tex(tikz.sty) \
+tex(xcolor.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

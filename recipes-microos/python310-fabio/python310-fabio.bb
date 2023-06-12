@@ -7,7 +7,22 @@ PV = "0.14.0"
 RPM_NAME = "python310-fabio-0.14.0-2.5.aarch64.rpm"
 RPM_HASH = "360d240cb40d524b494c097d14528211828b22244e22bb323d6fcb2b8df5c30af63b9e861a79c24434eaa6f6a733352412ec5747da8953185d2e60030fd40527"
 
-RPROVIDES:${PN} += "python3-fabio python3.10dist(fabio) python310-fabio python310-fabio(aarch-64) python3dist(fabio)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python310-Pillow python310-h5py python310-lxml python310-numpy python310-qt5 update-alternatives"
+RPROVIDES:${PN} += "python3-fabio \
+python3.10dist(fabio) \
+python310-fabio \
+python310-fabio(aarch-64) \
+python3dist(fabio)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi) \
+python310-Pillow \
+python310-h5py \
+python310-lxml \
+python310-numpy \
+python310-qt5 \
+update-alternatives"
 
 inherit rpm

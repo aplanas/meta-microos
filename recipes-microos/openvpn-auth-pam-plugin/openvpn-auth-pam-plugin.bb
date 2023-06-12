@@ -18,7 +18,13 @@ PV = "2.6.4"
 RPM_NAME = "openvpn-auth-pam-plugin-2.6.4-1.1.aarch64.rpm"
 RPM_HASH = "d6c37c6bd6327caeb65b22d9ebeb5c66081dc05a44cfe6e4dc9946bd8a60d823dd9717c9a54fd0385e19341c63f019a673bac3f4c75c4545774feb24a094cff6"
 
-RPROVIDES:${PN} += "openvpn-auth-pam-plugin openvpn-auth-pam-plugin(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libpam.so.0()(64bit) libpam.so.0(LIBPAM_1.0)(64bit) openvpn"
+RPROVIDES:${PN} += "openvpn-auth-pam-plugin \
+openvpn-auth-pam-plugin(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libpam.so.0()(64bit) \
+libpam.so.0(LIBPAM_1.0)(64bit) \
+openvpn"
 
 inherit rpm

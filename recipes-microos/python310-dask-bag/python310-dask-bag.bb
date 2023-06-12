@@ -24,7 +24,9 @@ RPM_NAME = "python310-dask-bag-2023.3.2-3.1.noarch.rpm"
 RPM_HASH = "9958e27c0f1f3aee4315c0caad532b4d5d4dd22d37a08d6d3083e605ad9794911d100006bffbc04547fa20ac417f9c4cae9156f09823c7735db22e65eb0e82ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dask-bag python310-dask-bag"
-RDEPENDS:${PN} += "python(abi) python310-dask"
+RPROVIDES:${PN} += "python3-dask-bag \
+python310-dask-bag"
+RDEPENDS:${PN} += "python(abi) \
+python310-dask"
 
 inherit rpm

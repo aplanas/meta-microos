@@ -30,7 +30,8 @@ PV = "0.0.13"
 RPM_NAME = "spdx-sbom-generator-0.0.13-1.9.aarch64.rpm"
 RPM_HASH = "1be80c9ffdfb8807f3e77724f0378ae7bb9bf54afc194d7439f47758db3a3f2723576fcfa03add3d53690a74dbae1c4a3ff724204e896a1076ae2fdd3a9f40cb"
 
-RPROVIDES:${PN} += "spdx-sbom-generator spdx-sbom-generator(aarch-64)"
+RPROVIDES:${PN} += "spdx-sbom-generator \
+spdx-sbom-generator(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

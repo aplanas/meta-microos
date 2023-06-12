@@ -8,7 +8,12 @@ PV = "1.4.2"
 RPM_NAME = "libcppunit_subunit0-devel-1.4.2-2.2.aarch64.rpm"
 RPM_HASH = "e5f31e1f0379ba52c53ad40fbcad894ddf6dd348bf170edf6665ae1ee59aa68e552974da4bbdbe75617553e1a797a6e318c650442101674b84f586884c1e2a0b"
 
-RPROVIDES:${PN} += "libcppunit_subunit0-devel libcppunit_subunit0-devel(aarch-64) pkgconfig(libcppunit_subunit)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config cppunit-devel(aarch-64) libcppunit_subunit0(aarch-64) subunit-devel(aarch-64)"
+RPROVIDES:${PN} += "libcppunit_subunit0-devel \
+libcppunit_subunit0-devel(aarch-64) \
+pkgconfig(libcppunit_subunit)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+cppunit-devel(aarch-64) \
+libcppunit_subunit0(aarch-64) \
+subunit-devel(aarch-64)"
 
 inherit rpm

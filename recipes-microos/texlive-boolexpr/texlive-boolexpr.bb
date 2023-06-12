@@ -18,7 +18,19 @@ RPM_NAME = "texlive-boolexpr-2023.201.3.14svn17830-52.1.noarch.rpm"
 RPM_HASH = "caf1d16d0aeed106f52c0d9bb4ef7c515bf4f6c0657ed99c5c7d85eca2d84d5f5beb78d3cfecc55339ec722c4f3c3181fdd5f80a3c17606724f0cd4fa495f584"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(boolexpr.sty) texlive-boolexpr"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(boolexpr.sty) \
+texlive-boolexpr"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

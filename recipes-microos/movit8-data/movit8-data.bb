@@ -13,7 +13,8 @@ RPM_NAME = "movit8-data-1.6.3-1.15.noarch.rpm"
 RPM_HASH = "53f5a0ff6259e70580af2b41106515d31e59325897ee35d49b6f87e5fe7e928c062d44dd65da93ec3ba6ca4101616b043cf9000e172021a8357d2ce9273cfe53"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "movit-data movit8-data"
+RPROVIDES:${PN} += "movit-data \
+movit8-data"
 RDEPENDS:${PN} += ""
 
 inherit rpm

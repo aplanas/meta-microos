@@ -9,7 +9,10 @@ RPM_NAME = "python310-rfc3986-2.0.0-2.1.noarch.rpm"
 RPM_HASH = "1c9080df444b1c41ae74457fc84d6a623e34370a93acfb553c990a4d34fe4fc977072a7a9c5db81da4b6b2a32777fedd53e05092fdaa10cbdb614943b6edc2da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rfc3986 python3.10dist(rfc3986) python310-rfc3986 python3dist(rfc3986)"
+RPROVIDES:${PN} += "python3-rfc3986 \
+python3.10dist(rfc3986) \
+python310-rfc3986 \
+python3dist(rfc3986)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

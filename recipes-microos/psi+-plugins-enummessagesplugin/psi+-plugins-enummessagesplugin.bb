@@ -11,7 +11,27 @@ PV = "1.5.1615+0"
 RPM_NAME = "psi+-plugins-enummessagesplugin-1.5.1615+0-3.1.aarch64.rpm"
 RPM_HASH = "ac9f4361193c3ff3b54e6f6d329efe5343611c45f610c34adfaccc8e086e628ce38f1c04697dace9ff1eebdebf76dfbaa27c8460be30b93b4e67088ca97966a0"
 
-RPROVIDES:${PN} += "libenummessagesplugin.so()(64bit) psi+-plugins-enummessagesplugin psi+-plugins-enummessagesplugin(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5Gui.so.5()(64bit) libQt5Gui.so.5(Qt_5)(64bit) libQt5Widgets.so.5()(64bit) libQt5Widgets.so.5(Qt_5)(64bit) libQt5Xml.so.5()(64bit) libQt5Xml.so.5(Qt_5)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) psi+"
+RPROVIDES:${PN} += "libenummessagesplugin.so()(64bit) \
+psi+-plugins-enummessagesplugin \
+psi+-plugins-enummessagesplugin(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libQt5Core.so.5()(64bit) \
+libQt5Core.so.5(Qt_5)(64bit) \
+libQt5Gui.so.5()(64bit) \
+libQt5Gui.so.5(Qt_5)(64bit) \
+libQt5Widgets.so.5()(64bit) \
+libQt5Widgets.so.5(Qt_5)(64bit) \
+libQt5Xml.so.5()(64bit) \
+libQt5Xml.so.5(Qt_5)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+psi+"
 
 inherit rpm

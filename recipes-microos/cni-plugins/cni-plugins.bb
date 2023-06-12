@@ -16,7 +16,14 @@ PV = "1.1.1"
 RPM_NAME = "cni-plugins-1.1.1-2.4.aarch64.rpm"
 RPM_HASH = "719b134e3ab080d74f74d89cc8b604372d7202693522fa0ccea59d46a023634737df9e64d4d290de94a88826529c38582bb99d50e4adc38fd8fbd86b96fe8a54"
 
-RPROVIDES:${PN} += "cni-plugins cni-plugins(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch cni fillup libc.so.6(GLIBC_2.34)(64bit) systemd"
+RPROVIDES:${PN} += "cni-plugins \
+cni-plugins(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+cni \
+fillup \
+libc.so.6(GLIBC_2.34)(64bit) \
+systemd"
 
 inherit rpm

@@ -36,7 +36,23 @@ PV = "4.9.2"
 RPM_NAME = "libnetcdf_4_9_2-gnu-openmpi4-hpc-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "b7db00cb498fa1675e33c2b3102f690110c53fe014848835369855b30ea0815b90e5fa446d6e78b3f2c0263e2cd445f091d5b0241daed282b84b690e02c1a08d"
 
-RPROVIDES:${PN} += "libnetcdf_4_9_2-gnu-openmpi4-hpc libnetcdf_4_9_2-gnu-openmpi4-hpc(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh gnu-compilers-hpc ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libcurl.so.4()(64bit) libhdf5-gnu-openmpi4-hpc libhdf5_hl-gnu-openmpi4-hpc libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libopenmpi4-gnu-hpc libxml2.so.2()(64bit) libxml2.so.2(LIBXML2_2.4.30)(64bit) libxml2.so.2(LIBXML2_2.6.0)(64bit) lua-lmod"
+RPROVIDES:${PN} += "libnetcdf_4_9_2-gnu-openmpi4-hpc \
+libnetcdf_4_9_2-gnu-openmpi4-hpc(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+gnu-compilers-hpc \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+libcurl.so.4()(64bit) \
+libhdf5-gnu-openmpi4-hpc \
+libhdf5_hl-gnu-openmpi4-hpc \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libopenmpi4-gnu-hpc \
+libxml2.so.2()(64bit) \
+libxml2.so.2(LIBXML2_2.4.30)(64bit) \
+libxml2.so.2(LIBXML2_2.6.0)(64bit) \
+lua-lmod"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "abc153e522d30ae29ebffb811690a8e9e2f01c8387aec28aab1215f9d0994445a06b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "faba-icon-theme"
-RDEPENDS:${PN} += "/bin/sh gnome-icon-theme"
+RDEPENDS:${PN} += "/bin/sh \
+gnome-icon-theme"
 
 inherit rpm

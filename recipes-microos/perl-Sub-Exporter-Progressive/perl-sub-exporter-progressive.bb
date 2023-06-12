@@ -19,7 +19,8 @@ RPM_NAME = "perl-Sub-Exporter-Progressive-0.001013-1.23.noarch.rpm"
 RPM_HASH = "73052b68dab0421628cdaa96aef6c25a55d29a5f719fbf36cf61cc27532545eb00278bbe9409116d3c204d8f9895148c54cb30bcc077dc483fdc65612773f30c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Sub::Exporter::Progressive) perl-Sub-Exporter-Progressive"
+RPROVIDES:${PN} += "perl(Sub::Exporter::Progressive) \
+perl-Sub-Exporter-Progressive"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

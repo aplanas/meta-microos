@@ -10,6 +10,7 @@ RPM_HASH = "562d2785c1b369d0305dbd6e33e696afa24badc7e459946df13c1a22a8c06d69bd67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-zypp-plugin"
-RDEPENDS:${PN} += "python(abi) python311-base"
+RDEPENDS:${PN} += "python(abi) \
+python311-base"
 
 inherit rpm

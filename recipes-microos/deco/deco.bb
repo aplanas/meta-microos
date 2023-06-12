@@ -15,7 +15,13 @@ PV = "1.6.4"
 RPM_NAME = "deco-1.6.4-1.11.aarch64.rpm"
 RPM_HASH = "b927c3ca59e61e369952179a8f2c7656ed72ee8d002e4b270cecac2e37f1dfc184ee2169d6c3e234a6ecfe728731fae8fbee562ee4ca3486c1409ffeb24cc0e3"
 
-RPROVIDES:${PN} += "deco deco(aarch-64)"
-RDEPENDS:${PN} += "bzip2 gzip ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) tar"
+RPROVIDES:${PN} += "deco \
+deco(aarch-64)"
+RDEPENDS:${PN} += "bzip2 \
+gzip \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+tar"
 
 inherit rpm

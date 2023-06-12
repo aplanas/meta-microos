@@ -28,7 +28,11 @@ RPM_NAME = "perl-MooseX-OneArgNew-0.007-1.2.noarch.rpm"
 RPM_HASH = "07233eb4e6507f7a27041ed0209892ee9a0995c6c520b0859b73c40dd9e026035646d1872a99e38df636ea88b336aab245c575ba7bb4a48aebd227521cf4fb9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooseX::OneArgNew) perl-MooseX-OneArgNew"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Moose::Util::TypeConstraints) perl(MooseX::Role::Parameterized) perl(namespace::autoclean)"
+RPROVIDES:${PN} += "perl(MooseX::OneArgNew) \
+perl-MooseX-OneArgNew"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Moose::Util::TypeConstraints) \
+perl(MooseX::Role::Parameterized) \
+perl(namespace::autoclean)"
 
 inherit rpm

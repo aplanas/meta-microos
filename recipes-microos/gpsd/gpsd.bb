@@ -22,7 +22,26 @@ PV = "3.25"
 RPM_NAME = "gpsd-3.25-1.3.aarch64.rpm"
 RPM_HASH = "770671597d28b6cb9d18c19a8c2a19a0c669ce64c92e2b7178b897b80aca6431431084a20a13ad2cda1fa6d164e6a270c6cfc0bcacc20becef751499965f1c56"
 
-RPROVIDES:${PN} += "gpsd gpsd(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/mkdir /usr/bin/touch coreutils fillup ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbluetooth.so.3()(64bit) libc.so.6(GLIBC_2.34)(64bit) libdbus-1.so.3()(64bit) libdbus-1.so.3(LIBDBUS_1_3)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libm.so.6(GLIBC_2.35)(64bit) libusb-1.0.so.0()(64bit) systemd udev"
+RPROVIDES:${PN} += "gpsd \
+gpsd(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+coreutils \
+fillup \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libbluetooth.so.3()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libdbus-1.so.3()(64bit) \
+libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libm.so.6(GLIBC_2.35)(64bit) \
+libusb-1.0.so.0()(64bit) \
+systemd \
+udev"
 
 inherit rpm

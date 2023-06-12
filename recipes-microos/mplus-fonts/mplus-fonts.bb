@@ -9,6 +9,7 @@ RPM_HASH = "7ea21130166e4e45ed8ce5a7a8cf62a8428e10ebaf306152868f2c78aefaff5e89f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mplus-fonts"
-RDEPENDS:${PN} += "mplus1-fonts mplus2-fonts"
+RDEPENDS:${PN} += "mplus1-fonts \
+mplus2-fonts"
 
 inherit rpm

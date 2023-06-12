@@ -24,7 +24,9 @@ RPM_NAME = "perl-constant-boolean-0.02-9.24.noarch.rpm"
 RPM_HASH = "53bd30097818ab48a079d0bc0e670d14b2916343d6222e61d32eda6519b4aea7e74b7cee0bde1c37772bcb9ab35693f90b5d72ab2232bb0fd5e64e5b79cb2779"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(constant::boolean) perl-constant-boolean"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Symbol::Util)"
+RPROVIDES:${PN} += "perl(constant::boolean) \
+perl-constant-boolean"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Symbol::Util)"
 
 inherit rpm

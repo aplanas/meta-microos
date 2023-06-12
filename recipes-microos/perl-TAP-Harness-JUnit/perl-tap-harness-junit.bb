@@ -11,7 +11,12 @@ RPM_NAME = "perl-TAP-Harness-JUnit-0.42-1.15.noarch.rpm"
 RPM_HASH = "b56e003ed6ded64817dd8035f9ce4783397409e90b5a276e9dff6d229da81c668a8d07dfbb8997c49b6615c3c98d28195a1be23ffb5e74883dfe8381b082a433"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(TAP::Harness::JUnit) perl(TAP::Harness::JUnit::Parser) perl-TAP-Harness-JUnit"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(TAP::Harness) perl(TAP::Parser) perl(XML::Simple)"
+RPROVIDES:${PN} += "perl(TAP::Harness::JUnit) \
+perl(TAP::Harness::JUnit::Parser) \
+perl-TAP-Harness-JUnit"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(TAP::Harness) \
+perl(TAP::Parser) \
+perl(XML::Simple)"
 
 inherit rpm

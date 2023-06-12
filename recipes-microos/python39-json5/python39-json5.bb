@@ -16,7 +16,13 @@ RPM_NAME = "python39-json5-0.9.13-1.2.noarch.rpm"
 RPM_HASH = "80372ec39a27dcbe895cf78ed1bb60066a92e77170eeb5aabe0fecb500372ec051e22c2f759422f6912e39ba22d05f97994f71e0b55f5e87af11fb1d82e4aef0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(json5) python39-json5 python3dist(json5)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 alts python(abi) python39-setuptools"
+RPROVIDES:${PN} += "python3.9dist(json5) \
+python39-json5 \
+python3dist(json5)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+alts \
+python(abi) \
+python39-setuptools"
 
 inherit rpm

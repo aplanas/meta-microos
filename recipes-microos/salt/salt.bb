@@ -12,7 +12,21 @@ PV = "3006.0"
 RPM_NAME = "salt-3006.0-1.1.aarch64.rpm"
 RPM_HASH = "7b7313e558cc9cb436f46321acc02fd09c94515ffc05f6b14b24c717e86820267218b52a20c0e6f09b244fbd0a52e1de3f53fd0fda036e0c5817d50a6b0154d1"
 
-RPROVIDES:${PN} += "config(salt) salt salt(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/python3 /usr/bin/touch /usr/sbin/groupadd /usr/sbin/useradd dbus-1 fillup iproute2 logrotate procps python3-salt shadow"
+RPROVIDES:${PN} += "config(salt) \
+salt \
+salt(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/python3 \
+/usr/bin/touch \
+/usr/sbin/groupadd \
+/usr/sbin/useradd \
+dbus-1 \
+fillup \
+iproute2 \
+logrotate \
+procps \
+python3-salt \
+shadow"
 
 inherit rpm

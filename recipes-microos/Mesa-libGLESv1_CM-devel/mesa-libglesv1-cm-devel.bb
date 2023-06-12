@@ -15,7 +15,12 @@ PV = "23.0.3"
 RPM_NAME = "Mesa-libGLESv1_CM-devel-23.0.3-349.1.aarch64.rpm"
 RPM_HASH = "f7c705fb227db0399dae9f39c88168b0fc8f55e0fc17d80bdbd4ac7952742b5e29fa79ffca7ab8640d65402f8ce61c7923f13238499b40b1d7ade4e084d2a810"
 
-RPROVIDES:${PN} += "Mesa-libGLESv1_CM-devel Mesa-libGLESv1_CM-devel(aarch-64) pkgconfig(glesv1_cm)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config Mesa-KHR-devel libglvnd-devel pkgconfig(egl)"
+RPROVIDES:${PN} += "Mesa-libGLESv1_CM-devel \
+Mesa-libGLESv1_CM-devel(aarch-64) \
+pkgconfig(glesv1_cm)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+Mesa-KHR-devel \
+libglvnd-devel \
+pkgconfig(egl)"
 
 inherit rpm

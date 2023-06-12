@@ -15,7 +15,21 @@ RPM_NAME = "texlive-ocgx-2023.201.0.0.5svn54512-54.1.noarch.rpm"
 RPM_HASH = "303ef645964bc52e8972b7250eae08f91c599171dc76b88696d0561cdec6e960d46f22ace4741d64214d0a8e9d2a3cd262e5c4098c2c560c29d5525227c03d70"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ocgx.sty) tex(tikzlibraryocgx.code.tex) texlive-ocgx"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ocg-p.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(ocgx.sty) \
+tex(tikzlibraryocgx.code.tex) \
+texlive-ocgx"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ocg-p.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

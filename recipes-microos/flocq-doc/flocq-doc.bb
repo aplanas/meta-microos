@@ -9,6 +9,7 @@ RPM_HASH = "cee642c8bab95471905a811d499c2d709782aa3a1de9921a09721157cd92e713767b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flocq-doc"
-RDEPENDS:${PN} += "coq-doc flocq"
+RDEPENDS:${PN} += "coq-doc \
+flocq"
 
 inherit rpm

@@ -9,7 +9,9 @@ PV = "4.3.1"
 RPM_NAME = "libnetcdf-cxx4-gnu-hpc-4.3.1-6.5.aarch64.rpm"
 RPM_HASH = "eb86ebbf52fc8ebae03031a0dd21901b7fe543482f73ad1b33256fe099fc529d98169f2bd780e37c4ec62c27ead6a0a4092f198cad4d215b88cc3e0bf78b2c1a"
 
-RPROVIDES:${PN} += "libnetcdf-cxx4-gnu-hpc libnetcdf-cxx4-gnu-hpc(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh libnetcdf-cxx4_4_3_1-gnu-hpc"
+RPROVIDES:${PN} += "libnetcdf-cxx4-gnu-hpc \
+libnetcdf-cxx4-gnu-hpc(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+libnetcdf-cxx4_4_3_1-gnu-hpc"
 
 inherit rpm

@@ -20,7 +20,11 @@ RPM_NAME = "perl-CGI-Simple-1.280-1.7.noarch.rpm"
 RPM_HASH = "cb99493c5f87a274e8f3dd54af11b273d6b361c452937a385e3c50bac122c5f125201e2110b26b43120d15f1cf9d0d01fa8951abd4a1543d6550fff35d181c53"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(CGI::Simple) perl(CGI::Simple::Cookie) perl(CGI::Simple::Standard) perl(CGI::Simple::Util) perl-CGI-Simple"
+RPROVIDES:${PN} += "perl(CGI::Simple) \
+perl(CGI::Simple::Cookie) \
+perl(CGI::Simple::Standard) \
+perl(CGI::Simple::Util) \
+perl-CGI-Simple"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

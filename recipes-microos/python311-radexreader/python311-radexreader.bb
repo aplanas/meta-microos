@@ -13,7 +13,14 @@ RPM_NAME = "python311-radexreader-1.2.1-1.9.noarch.rpm"
 RPM_HASH = "ac21be4365e2a7c89a63ff4fe9885a7bac74f33332059388451f6483ca59882a8421a6e895775fb9189f44ee119ab25b9a7be2540faaada01b82050f4e1bd434"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(radexreader) python311-radexreader python3dist(radexreader)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-pyserial python311-pyusb update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(radexreader) \
+python311-radexreader \
+python3dist(radexreader)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-pyserial \
+python311-pyusb \
+update-alternatives"
 
 inherit rpm

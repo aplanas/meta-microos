@@ -14,7 +14,18 @@ RPM_NAME = "gtg-0.6-1.4.noarch.rpm"
 RPM_HASH = "793cb0c130e6345b17dbd022061883d81b19adfbb37216de5c313000246a794936720e70091b40919475aa7df1e4705d0877fc817bfe0c0825e201547eef9699"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(org.gnome.GTG.desktop) gtg metainfo() metainfo(org.gnome.GTG.appdata.xml) mimehandler(x-scheme-handler/gtg)"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-gobject-Gdk python3-liblarch python3-liblarch-gtk python3-lxml python3-pycairo"
+RPROVIDES:${PN} += "application() \
+application(org.gnome.GTG.desktop) \
+gtg \
+metainfo() \
+metainfo(org.gnome.GTG.appdata.xml) \
+mimehandler(x-scheme-handler/gtg)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3-gobject-Gdk \
+python3-liblarch \
+python3-liblarch-gtk \
+python3-lxml \
+python3-pycairo"
 
 inherit rpm

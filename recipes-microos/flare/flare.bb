@@ -16,7 +16,33 @@ PV = "1.14"
 RPM_NAME = "flare-1.14-1.3.aarch64.rpm"
 RPM_HASH = "acec35639f9d07d0f60cc19f9aa8bbff8111323450036c1a18887d6e199e90220109b853ff4d90b0c7040bfafe137184071d477308287ef381bbcd41dce772e4"
 
-RPROVIDES:${PN} += "application() application(flare.desktop) flare flare(aarch-64) flare-engine"
-RDEPENDS:${PN} += "flare-game hicolor-icon-theme ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libSDL2-2.0.so.0()(64bit) libSDL2_image-2.0.so.0()(64bit) libSDL2_mixer-2.0.so.0()(64bit) libSDL2_ttf-2.0.so.0()(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.26)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) update-desktop-files"
+RPROVIDES:${PN} += "application() \
+application(flare.desktop) \
+flare \
+flare(aarch-64) \
+flare-engine"
+RDEPENDS:${PN} += "flare-game \
+hicolor-icon-theme \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libSDL2-2.0.so.0()(64bit) \
+libSDL2_image-2.0.so.0()(64bit) \
+libSDL2_mixer-2.0.so.0()(64bit) \
+libSDL2_ttf-2.0.so.0()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
+update-desktop-files"
 
 inherit rpm

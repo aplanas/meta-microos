@@ -13,7 +13,24 @@ PV = "0.10.1"
 RPM_NAME = "zig-0.10.1-2.3.aarch64.rpm"
 RPM_HASH = "f21255e7e251af3d2377168dc25921f926f23b1ee1f260c16928c72fca87a25b3fd376543008b9604987b00b5fc7011e6c378c5e7f2adc890cae81c747e06be4"
 
-RPROVIDES:${PN} += "zig zig(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libLLVM.so.15()(64bit) libLLVM.so.15(LLVM_15)(64bit) libc.so.6(GLIBC_2.34)(64bit) libclang-cpp.so.15()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.26)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) lld15 zig-libs"
+RPROVIDES:${PN} += "zig \
+zig(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libLLVM.so.15()(64bit) \
+libLLVM.so.15(LLVM_15)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libclang-cpp.so.15()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+lld15 \
+zig-libs"
 
 inherit rpm

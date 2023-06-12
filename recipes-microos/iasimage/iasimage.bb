@@ -11,6 +11,7 @@ RPM_HASH = "378476a5bac4145936f0d6385a45afbf9f8ccc87c28356d3bc7e070ca393f30ecda7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iasimage"
-RDEPENDS:${PN} += "/usr/bin/python3 python3-cryptography"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3-cryptography"
 
 inherit rpm

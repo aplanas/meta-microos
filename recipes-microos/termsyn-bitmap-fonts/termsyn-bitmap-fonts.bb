@@ -30,7 +30,11 @@ RPM_NAME = "termsyn-bitmap-fonts-1.8.7-1.17.noarch.rpm"
 RPM_HASH = "4c91f2b07d409fac4325f029bc611809f41d8676165c90fa2390f461720b0c4fd12e7bfa6b0c89f93662b7baf1a277829b1069032321938d53a73c7abbc198c5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "termsyn-bitmap-fonts termsyn-font"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "termsyn-bitmap-fonts \
+termsyn-font"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

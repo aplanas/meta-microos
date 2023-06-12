@@ -26,7 +26,11 @@ RPM_NAME = "perl-MooseX-SimpleConfig-0.11-1.24.noarch.rpm"
 RPM_HASH = "6193294333e4d60b8a8eb34e7c9a5087d9d1bb5fabe28d8a55f65212e0a78475bf2ccb4f182d6f7c2c3c0581eb0a2abf86715f26becac0e55e611fe0d4647614"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooseX::SimpleConfig) perl-MooseX-SimpleConfig"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Config::Any) perl(Moose::Role) perl(MooseX::ConfigFromFile)"
+RPROVIDES:${PN} += "perl(MooseX::SimpleConfig) \
+perl-MooseX-SimpleConfig"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Config::Any) \
+perl(Moose::Role) \
+perl(MooseX::ConfigFromFile)"
 
 inherit rpm

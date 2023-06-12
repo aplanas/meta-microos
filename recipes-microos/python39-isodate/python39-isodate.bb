@@ -12,7 +12,9 @@ RPM_NAME = "python39-isodate-0.6.1-3.1.noarch.rpm"
 RPM_HASH = "df86d24db50c418daaa8a91e614a5d12038f48695df844772705679ac5f0a79557276013e9cfe6b6f566aeca249ee1f1ff7b3c815502cfd1f55b330b2f564569"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(isodate) python39-isodate python3dist(isodate)"
+RPROVIDES:${PN} += "python3.9dist(isodate) \
+python39-isodate \
+python3dist(isodate)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

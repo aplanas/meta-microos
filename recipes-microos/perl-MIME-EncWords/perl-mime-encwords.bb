@@ -39,7 +39,12 @@ RPM_NAME = "perl-MIME-EncWords-1.014.3-1.26.noarch.rpm"
 RPM_HASH = "0349b5a007ea240cdb5c22ad462245af7a7c289d73a5aee96c2c94c3ffcde7652a3e50ef66a9de1557d8ecba81b833ad62345cd91370994894777c2b277c937c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Encode::MIME::EncWords) perl(MIME::EncWords) perl-MIME-EncWords"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Encode) perl(MIME::Base64) perl(MIME::Charset)"
+RPROVIDES:${PN} += "perl(Encode::MIME::EncWords) \
+perl(MIME::EncWords) \
+perl-MIME-EncWords"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Encode) \
+perl(MIME::Base64) \
+perl(MIME::Charset)"
 
 inherit rpm

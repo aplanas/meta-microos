@@ -7,7 +7,14 @@ PV = "2.13"
 RPM_NAME = "cpio-mt-2.13-5.3.aarch64.rpm"
 RPM_HASH = "e45a5717878af02508302706b64bbfae1fca5de6fa57635ffa8a20eb8ed451162749dac1eba9562e56da12df4296a7bf0567bdba3a4bc8a720e3e2f8cdc8bdd7"
 
-RPROVIDES:${PN} += "cpio-mt cpio-mt(aarch-64) mt"
-RDEPENDS:${PN} += "/bin/sh cpio ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) update-alternatives"
+RPROVIDES:${PN} += "cpio-mt \
+cpio-mt(aarch-64) \
+mt"
+RDEPENDS:${PN} += "/bin/sh \
+cpio \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+update-alternatives"
 
 inherit rpm

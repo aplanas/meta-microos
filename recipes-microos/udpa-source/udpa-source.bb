@@ -9,6 +9,7 @@ RPM_HASH = "5e2eba1e1cea8b1bc91b832dd3307dd48d752223677f6c6ce2cfd9847c48a151e74a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "udpa-source"
-RDEPENDS:${PN} += "/bin/bash /usr/bin/python3"
+RDEPENDS:${PN} += "/bin/bash \
+/usr/bin/python3"
 
 inherit rpm

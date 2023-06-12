@@ -14,7 +14,11 @@ RPM_NAME = "python311-djangorestframework-3.14.0-2.3.noarch.rpm"
 RPM_HASH = "215ac8fc5fd90d07681f5d8096d37d90875fb54ea540fbd092fc7b481be56ff61940e73b7af4d539407c7336e5b8c9210b84f7fea59203f828403ed95d51f909"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(djangorestframework) python311-django-rest-framework python311-djangorestframework python3dist(djangorestframework)"
-RDEPENDS:${PN} += "python(abi) python311-Django"
+RPROVIDES:${PN} += "python3.11dist(djangorestframework) \
+python311-django-rest-framework \
+python311-djangorestframework \
+python3dist(djangorestframework)"
+RDEPENDS:${PN} += "python(abi) \
+python311-Django"
 
 inherit rpm

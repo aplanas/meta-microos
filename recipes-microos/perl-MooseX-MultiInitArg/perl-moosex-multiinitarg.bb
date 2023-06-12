@@ -13,7 +13,11 @@ RPM_NAME = "perl-MooseX-MultiInitArg-0.02-5.24.noarch.rpm"
 RPM_HASH = "b241f921dd31f8370ef6b5d6173a5b84d02725bd9d03a086dc9a7fdc717fd09f9d028a8a53aa1ec3c1fe280e370dba830e05acdde58502c3714c1ea70a59bf70"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooseX::MultiInitArg) perl(MooseX::MultiInitArg::Attribute) perl(MooseX::MultiInitArg::Trait) perl-MooseX-MultiInitArg"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Moose)"
+RPROVIDES:${PN} += "perl(MooseX::MultiInitArg) \
+perl(MooseX::MultiInitArg::Attribute) \
+perl(MooseX::MultiInitArg::Trait) \
+perl-MooseX-MultiInitArg"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Moose)"
 
 inherit rpm

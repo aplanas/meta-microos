@@ -13,7 +13,14 @@ PV = "2.3.0"
 RPM_NAME = "kim-api-devel-2.3.0-1.8.aarch64.rpm"
 RPM_HASH = "7819b7c9f3b539c848e254ac1059250a96c87a90bb60d17a0118e6ac80aa3b6ba48b3e7dde8e17960b955fa592fb10eff18c70db5c92ca6162b4859f2e501fd6"
 
-RPROVIDES:${PN} += "cmake(kim-api) cmake(kim-api-items) kim-api-devel kim-api-devel(aarch-64) pkgconfig(libkim-api)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config kim-api libkim-api2 vim"
+RPROVIDES:${PN} += "cmake(kim-api) \
+cmake(kim-api-items) \
+kim-api-devel \
+kim-api-devel(aarch-64) \
+pkgconfig(libkim-api)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+kim-api \
+libkim-api2 \
+vim"
 
 inherit rpm

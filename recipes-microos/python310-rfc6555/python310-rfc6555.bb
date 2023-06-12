@@ -11,7 +11,10 @@ RPM_NAME = "python310-rfc6555-0.1.0-1.5.noarch.rpm"
 RPM_HASH = "5de766ddd2b5aea68f53c1838a91efe0a2fb4ee84dabdb143e7c46118004b68b113bde32139119c7ebefaee0de50d25cbc3c0d0cf59621ed8796d06a7598c49f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rfc6555 python3.10dist(rfc6555) python310-rfc6555 python3dist(rfc6555)"
+RPROVIDES:${PN} += "python3-rfc6555 \
+python3.10dist(rfc6555) \
+python310-rfc6555 \
+python3dist(rfc6555)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

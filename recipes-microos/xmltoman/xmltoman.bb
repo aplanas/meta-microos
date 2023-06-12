@@ -10,6 +10,7 @@ RPM_HASH = "53fbad9b2ad93d4316a00713a53eb961dbf05003c51a9ed3a8f223833179bf557dcd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmltoman"
-RDEPENDS:${PN} += "/usr/bin/perl perl(XML::Parser)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(XML::Parser)"
 
 inherit rpm

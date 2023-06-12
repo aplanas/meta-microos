@@ -14,7 +14,14 @@ PV = "2.2.0"
 RPM_NAME = "libmraa2-2.2.0-2.10.aarch64.rpm"
 RPM_HASH = "b1040db0c21d5c5312c975953b13c618f983dd43eaa2488cb1f8d7adae6b6c5bb0988ccd7271a6555cc65bcd4c544dcddf659b95e8a9e9828ae94b5bc6c41c2b"
 
-RPROVIDES:${PN} += "libmraa.so.2()(64bit) libmraa2 libmraa2(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libjson-c.so.5()(64bit) libjson-c.so.5(JSONC_0.14)(64bit)"
+RPROVIDES:${PN} += "libmraa.so.2()(64bit) \
+libmraa2 \
+libmraa2(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libjson-c.so.5()(64bit) \
+libjson-c.so.5(JSONC_0.14)(64bit)"
 
 inherit rpm

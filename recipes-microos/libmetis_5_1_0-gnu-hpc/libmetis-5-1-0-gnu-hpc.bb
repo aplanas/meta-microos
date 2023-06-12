@@ -10,7 +10,19 @@ PV = "5.1.0"
 RPM_NAME = "libmetis_5_1_0-gnu-hpc-5.1.0-9.11.aarch64.rpm"
 RPM_HASH = "c9f97c04b3f2b612212a9863514c96aad15a3002ca0914b6cc27703b12046d5eaa760db5f51d38243c47c8f7bd92e9e50882d75861594dd8b62192780a731ec9"
 
-RPROVIDES:${PN} += "libmetis_5_1_0-gnu-hpc libmetis_5_1_0-gnu-hpc(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libgomp.so.1()(64bit) libgomp.so.1(GOMP_1.0)(64bit) libgomp.so.1(GOMP_4.0)(64bit) libgomp.so.1(OMP_1.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "libmetis_5_1_0-gnu-hpc \
+libmetis_5_1_0-gnu-hpc(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.33)(64bit) \
+libgomp.so.1()(64bit) \
+libgomp.so.1(GOMP_1.0)(64bit) \
+libgomp.so.1(GOMP_4.0)(64bit) \
+libgomp.so.1(OMP_1.0)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.27)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

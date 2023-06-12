@@ -11,7 +11,8 @@ RPM_NAME = "kicad-packages3D-7.0.5-1.1.noarch.rpm"
 RPM_HASH = "3e63866652ae23f534a03da108ce4c0c1fddc495d92f5581f713213775475e44eac34fb89eb926f3e8e46a16a6b3c63206e90d709528b1f41b0601c81c6d4a32"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "kicad-library-3d kicad-packages3D"
+RPROVIDES:${PN} += "kicad-library-3d \
+kicad-packages3D"
 RDEPENDS:${PN} += "kicad-footprints"
 
 inherit rpm

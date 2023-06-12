@@ -9,7 +9,8 @@ PV = "0.7.0"
 RPM_NAME = "ocaml-logs-0.7.0-3.4.aarch64.rpm"
 RPM_HASH = "8af949b4394cb71178bb6be7ce769be0ac187ca0a317745c05bcde127b2291416d713b2ab72ca4786b662b9a4aff4f5f50962b01f7d70af80fa28c1f7aec2c08"
 
-RPROVIDES:${PN} += "ocaml-logs ocaml-logs(aarch-64)"
+RPROVIDES:${PN} += "ocaml-logs \
+ocaml-logs(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

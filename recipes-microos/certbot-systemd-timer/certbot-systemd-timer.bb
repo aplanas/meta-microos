@@ -9,6 +9,11 @@ RPM_HASH = "87646253101507b665d94ed570de51160030feb74d332157ba63499ad90ae0a45ad0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "certbot-systemd-timer"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch fillup python3-certbot systemd"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/mkdir \
+/usr/bin/touch \
+fillup \
+python3-certbot \
+systemd"
 
 inherit rpm

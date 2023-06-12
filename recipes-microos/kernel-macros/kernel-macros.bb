@@ -12,7 +12,19 @@ RPM_NAME = "kernel-macros-6.3.4-1.1.noarch.rpm"
 RPM_HASH = "163a50830304f535f9773f8250197217785494a859762fab997a7949cb683e97a12d56a8afa2a311757cdafc63c92f4f344ca21a426edb6dcb95146bb3d22302"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "kernel-macros kernel-subpackage-macros rpm_macro(_kernel_module_package) rpm_macro(cpu_arch) rpm_macro(kernel_build_shell_package) rpm_macro(kernel_module_directory) rpm_macro(kernel_module_package) rpm_macro(kernel_module_package_buildreqs) rpm_macro(kernel_module_package_release) rpm_macro(linux_arch) rpm_macro(linux_make_arch) rpm_macro(suse_kernel_module_package)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh"
+RPROVIDES:${PN} += "kernel-macros \
+kernel-subpackage-macros \
+rpm_macro(_kernel_module_package) \
+rpm_macro(cpu_arch) \
+rpm_macro(kernel_build_shell_package) \
+rpm_macro(kernel_module_directory) \
+rpm_macro(kernel_module_package) \
+rpm_macro(kernel_module_package_buildreqs) \
+rpm_macro(kernel_module_package_release) \
+rpm_macro(linux_arch) \
+rpm_macro(linux_make_arch) \
+rpm_macro(suse_kernel_module_package)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh"
 
 inherit rpm

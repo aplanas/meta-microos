@@ -26,7 +26,31 @@ RPM_NAME = "texlive-unicode-math-2023.201.0.0.8qsvn61719-53.1.noarch.rpm"
 RPM_HASH = "5be9ec055769acddde6cd5f04a6c3de06fa11d0426b2ffb2e79a6dce9cae446b98f3d62d65bfeab85da3b13871a7e862df4f70c69a47e0833dbef6fa6b302e22"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(unicode-math-luatex.sty) tex(unicode-math-table.tex) tex(unicode-math-xetex.sty) tex(unicode-math.sty) texlive-unicode-math"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsmath.sty) tex(expl3.sty) tex(fix-cm.sty) tex(fontspec.sty) tex(l3keys2e.sty) tex(lualatex-math.sty) tex(xparse.sty) texlive texlive-filesystem texlive-fontspec texlive-kpathsea texlive-kpathsea-bin texlive-lm-math texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(unicode-math-luatex.sty) \
+tex(unicode-math-table.tex) \
+tex(unicode-math-xetex.sty) \
+tex(unicode-math.sty) \
+texlive-unicode-math"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsmath.sty) \
+tex(expl3.sty) \
+tex(fix-cm.sty) \
+tex(fontspec.sty) \
+tex(l3keys2e.sty) \
+tex(lualatex-math.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-fontspec \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-lm-math \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

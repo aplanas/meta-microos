@@ -14,6 +14,7 @@ RPM_HASH = "dae3912528fc047c5fc3e59addd5b68c3e937dd4738f48cb895ccfb987e0589bd76e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "borgbackup-bash-completion"
-RDEPENDS:${PN} += "bash-completion borgbackup"
+RDEPENDS:${PN} += "bash-completion \
+borgbackup"
 
 inherit rpm

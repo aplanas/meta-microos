@@ -9,6 +9,13 @@ RPM_HASH = "d850b13426c4dc4d058e23f58e47098bd552a2cd5ca4e18193a2c10b56c8ba71cc4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-firewall"
-RDEPENDS:${PN} += "dbus-1-python3 python(abi) python3-decorator python3-gobject python3-slip-dbus typelib(GLib) typelib(Gio) typelib(NM)"
+RDEPENDS:${PN} += "dbus-1-python3 \
+python(abi) \
+python3-decorator \
+python3-gobject \
+python3-slip-dbus \
+typelib(GLib) \
+typelib(Gio) \
+typelib(NM)"
 
 inherit rpm

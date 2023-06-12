@@ -13,7 +13,19 @@ RPM_NAME = "texlive-isonums-2023.201.1.0svn17362-55.1.noarch.rpm"
 RPM_HASH = "b495e2eea3b2808674acefc0a84b5cd358d540b3812893568e603fe9781ab92164caed5086513d213e3d1c31adb10676bc6c799b59e28e0b188a8ac013f794d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(isonums.sty) texlive-isonums"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(isonums.sty) \
+texlive-isonums"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

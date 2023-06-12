@@ -19,6 +19,31 @@ RPM_HASH = "4b531ee2d69174c7e95276ef53540d326ff69191c0200cc8d44fb2f0293cb27c1c78
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctanify"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Cwd) perl(File::Basename) perl(File::Copy::Recursive) perl(File::Find) perl(File::Path) perl(File::Spec) perl(File::Temp) perl(File::stat) perl(Getopt::Long) perl(Pod::Usage) perl(strict) perl(warnings) sed texlive texlive-ctanify-bin texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Cwd) \
+perl(File::Basename) \
+perl(File::Copy::Recursive) \
+perl(File::Find) \
+perl(File::Path) \
+perl(File::Spec) \
+perl(File::Temp) \
+perl(File::stat) \
+perl(Getopt::Long) \
+perl(Pod::Usage) \
+perl(strict) \
+perl(warnings) \
+sed \
+texlive \
+texlive-ctanify-bin \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

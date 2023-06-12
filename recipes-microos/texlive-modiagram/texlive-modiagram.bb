@@ -14,7 +14,24 @@ RPM_NAME = "texlive-modiagram-2023.201.0.0.3asvn56886-54.1.noarch.rpm"
 RPM_HASH = "75647379bcc433c6619e7f20b32cc62bce7e272528d8e0e54391e26778c45f6b4ac223e972395e161d19f848379604490450fdcd13e4cc017e275d3fae3b044f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(modiagram.sty) texlive-modiagram"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(chemgreek.sty) tex(expl3.sty) tex(l3keys2e.sty) tex(tikz.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(modiagram.sty) \
+texlive-modiagram"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(chemgreek.sty) \
+tex(expl3.sty) \
+tex(l3keys2e.sty) \
+tex(tikz.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

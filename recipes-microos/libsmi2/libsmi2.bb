@@ -16,7 +16,13 @@ PV = "0.4.8"
 RPM_NAME = "libsmi2-0.4.8-25.7.aarch64.rpm"
 RPM_HASH = "4d6e81fbe97c90f4927272e583c2ed558a8af00b1370cf089dc324955a7542674fa26c1bb020bd451ccf11b38d4bc27da91a98b97ae6b03577e8905e9dc5ac5d"
 
-RPROVIDES:${PN} += "libsmi.so.2()(64bit) libsmi2 libsmi2(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libsmi"
+RPROVIDES:${PN} += "libsmi.so.2()(64bit) \
+libsmi2 \
+libsmi2(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libsmi"
 
 inherit rpm

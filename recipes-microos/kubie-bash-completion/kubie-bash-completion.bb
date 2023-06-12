@@ -9,6 +9,7 @@ RPM_HASH = "bccbef74dbdc527a8634e08f73a4a387c9f948f8bb20a17ac1b7443542ba42a0a0e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubie-bash-completion"
-RDEPENDS:${PN} += "bash-completion kubie"
+RDEPENDS:${PN} += "bash-completion \
+kubie"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "9f3c4c4d3b03b35e18b01df9e97064ec08d70df209ceddc5e5886d5c8dc66339ffd2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-build-dependencies-picoruby"
-RDEPENDS:${PN} += "gcc git"
+RDEPENDS:${PN} += "gcc \
+git"
 
 inherit rpm

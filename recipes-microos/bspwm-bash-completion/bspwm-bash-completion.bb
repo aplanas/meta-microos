@@ -9,6 +9,7 @@ RPM_HASH = "6127381ccd24df0dbee52dc026947b3673a6ae255cb572ecc4220ed1b8b1ce54f496
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bspwm-bash-completion"
-RDEPENDS:${PN} += "bash-completion bspwm"
+RDEPENDS:${PN} += "bash-completion \
+bspwm"
 
 inherit rpm

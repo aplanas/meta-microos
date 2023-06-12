@@ -13,7 +13,19 @@ RPM_NAME = "texlive-faktor-2023.201.0.0.1bsvn15878-52.1.noarch.rpm"
 RPM_HASH = "b41f16d3dc77309d3c95ffc1743535304d7f861e272c1b8a139ff2849a19dca5fc3bd41d6d6d413b025c2a5929d9fb68f695b5a5bf80a96d3697f729ec875c4b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(faktor.sty) texlive-faktor"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(faktor.sty) \
+texlive-faktor"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -17,7 +17,20 @@ RPM_NAME = "texlive-xsavebox-2023.201.0.0.18svn64049-52.1.noarch.rpm"
 RPM_HASH = "14ab88481d90c6a3e396b66736c0a857c4ead40d0d22d5583334f5e1ac908c2762286463a4adb064f492bc31dc088e660ca651f792426d4b717d842a10002a4a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xsavebox.sty) texlive-xsavebox"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(pdfbase.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(xsavebox.sty) \
+texlive-xsavebox"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(pdfbase.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

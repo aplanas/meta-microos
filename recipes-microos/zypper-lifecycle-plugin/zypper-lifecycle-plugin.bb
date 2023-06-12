@@ -9,6 +9,9 @@ RPM_HASH = "b6a9e22a64a80a7231bcae0b7e95cf9bc3d2f6f0a83fda2a72bab3aa8d67a16724b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zypper-lifecycle-plugin"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/ruby systemd zypper"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/ruby \
+systemd \
+zypper"
 
 inherit rpm

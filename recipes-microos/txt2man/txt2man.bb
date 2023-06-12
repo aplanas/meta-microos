@@ -10,6 +10,7 @@ RPM_HASH = "cb62ca9032f5816c416f5a16ba413de4fae1410f7719a580bdae409333c370432ebf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "txt2man"
-RDEPENDS:${PN} += "/bin/sh gawk"
+RDEPENDS:${PN} += "/bin/sh \
+gawk"
 
 inherit rpm

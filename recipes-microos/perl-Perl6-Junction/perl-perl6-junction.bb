@@ -20,7 +20,13 @@ RPM_NAME = "perl-Perl6-Junction-1.60000-3.26.noarch.rpm"
 RPM_HASH = "81ef6cca879185904c0d8cd12a309e4edb187cf608ac9eaa81da4c0e67af65c1e0caa7b8b37136b4f745282e3310d3c939ffc1cc4c3f19a117f6843f7a4864d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Perl6::Junction) perl(Perl6::Junction::All) perl(Perl6::Junction::Any) perl(Perl6::Junction::Base) perl(Perl6::Junction::None) perl(Perl6::Junction::One) perl-Perl6-Junction"
+RPROVIDES:${PN} += "perl(Perl6::Junction) \
+perl(Perl6::Junction::All) \
+perl(Perl6::Junction::Any) \
+perl(Perl6::Junction::Base) \
+perl(Perl6::Junction::None) \
+perl(Perl6::Junction::One) \
+perl-Perl6-Junction"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

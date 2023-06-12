@@ -16,7 +16,11 @@ RPM_NAME = "python310-mpmath-1.2.1-3.3.noarch.rpm"
 RPM_HASH = "5446b78c08961ca861ddd6b2170577b16403643720bd6f98edfafbdc0fc314c17dc8cb80c77cc8f3a32781fe049baa45194e738e1e979041c9da1e5a267cedf4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mpmath python3.10dist(mpmath) python310-mpmath python3dist(mpmath)"
-RDEPENDS:${PN} += "python(abi) python310-gmpy2"
+RPROVIDES:${PN} += "python3-mpmath \
+python3.10dist(mpmath) \
+python310-mpmath \
+python3dist(mpmath)"
+RDEPENDS:${PN} += "python(abi) \
+python310-gmpy2"
 
 inherit rpm

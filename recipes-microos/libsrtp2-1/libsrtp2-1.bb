@@ -14,7 +14,14 @@ PV = "2.5.0"
 RPM_NAME = "libsrtp2-1-2.5.0-2.1.aarch64.rpm"
 RPM_HASH = "d703f45726a2f29678f81d258c26d35bc121849e2561d510417931735c3c3fe2ae9ac8302e5ae3bdb640195fc9012ca9d3ce6c7a0cf9513faa60ec86df616174"
 
-RPROVIDES:${PN} += "libsrtp2-1 libsrtp2-1(aarch-64) libsrtp2.so.1()(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit)"
+RPROVIDES:${PN} += "libsrtp2-1 \
+libsrtp2-1(aarch-64) \
+libsrtp2.so.1()(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit)"
 
 inherit rpm

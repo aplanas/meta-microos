@@ -9,6 +9,7 @@ RPM_HASH = "92db08217656fdb6be6f9229136906f56f24bd367290967e41baeca937800c45b16a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stress-ng-bash-completion"
-RDEPENDS:${PN} += "bash-completion stress-ng"
+RDEPENDS:${PN} += "bash-completion \
+stress-ng"
 
 inherit rpm

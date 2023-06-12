@@ -19,7 +19,28 @@ RPM_NAME = "texlive-beamerposter-2023.201.1.13svn54512-53.1.noarch.rpm"
 RPM_HASH = "c903d326e76a9c93f3bfd5805ac6f7adcc75bb5906ddd537babe50ecba83037026abf6bc1ae142bce7c576e7f908e0b3a32bae78a7c4c91b9f19723ae2d1d642"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(beamerposter.sty) tex(beamerthemeAachen.sty) tex(beamerthemeI6dv.sty) tex(beamerthemeI6pd.sty) tex(beamerthemeI6pd2.sty) tex(beamerthemeI6td.sty) tex(beamerthemeZH.sty) texlive-beamerposter"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(fp.sty) tex(type1cm.sty) tex(xkeyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(beamerposter.sty) \
+tex(beamerthemeAachen.sty) \
+tex(beamerthemeI6dv.sty) \
+tex(beamerthemeI6pd.sty) \
+tex(beamerthemeI6pd2.sty) \
+tex(beamerthemeI6td.sty) \
+tex(beamerthemeZH.sty) \
+texlive-beamerposter"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(fp.sty) \
+tex(type1cm.sty) \
+tex(xkeyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

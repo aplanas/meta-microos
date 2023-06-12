@@ -12,7 +12,9 @@ RPM_NAME = "perl-Test-LongString-0.17-1.26.noarch.rpm"
 RPM_HASH = "2ec45d7241a581febcdc61af008f2dc9c631f5cc8fbf80608c983778627154905a9a7fbbfc88bacbda8445f2a85a7d531a86858112224dd6fb772a53809229d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::LongString) perl-Test-LongString"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Test::Builder::Tester)"
+RPROVIDES:${PN} += "perl(Test::LongString) \
+perl-Test-LongString"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Test::Builder::Tester)"
 
 inherit rpm

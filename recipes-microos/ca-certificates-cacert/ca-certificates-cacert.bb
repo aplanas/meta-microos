@@ -9,6 +9,7 @@ RPM_HASH = "9ba2bc6bc5d8f650955e104ba265428178a6755f1477fd58cb63aa9271f55fee4669
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates-cacert"
-RDEPENDS:${PN} += "/bin/sh ca-certificates"
+RDEPENDS:${PN} += "/bin/sh \
+ca-certificates"
 
 inherit rpm

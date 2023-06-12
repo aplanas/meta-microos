@@ -32,7 +32,13 @@ RPM_NAME = "python311-odfpy-1.4.2-1.4.noarch.rpm"
 RPM_HASH = "2ef71111aae4e7d0cfda45784f902b348851a90917157d01ba6352d3b9bc85976bede7241d75161d4459f6722a0fb7073c1612edbe2f317f00d45593ba4f8eed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(odfpy) python311-odfpy python3dist(odfpy)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-defusedxml update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(odfpy) \
+python311-odfpy \
+python3dist(odfpy)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-defusedxml \
+update-alternatives"
 
 inherit rpm

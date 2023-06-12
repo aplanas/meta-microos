@@ -14,7 +14,42 @@ RPM_NAME = "texlive-cryptocode-2023.204.0.0.44svn60249-54.1.noarch.rpm"
 RPM_HASH = "41fbb6448ec53d55595b08535c3f3fcca9d82a95d18ee04ede59560f34b795fb20f5a74764e16b44e71f83175e572cfc61a1d47aef371efa49fec14388f4c5d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cryptocode-2018-11-11.sty) tex(cryptocode-2020-04-24.sty) tex(cryptocode.sty) texlive-cryptocode"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsfonts.sty) tex(amsmath.sty) tex(array.sty) tex(calc.sty) tex(centernot.sty) tex(environ.sty) tex(etex.sty) tex(etoolbox.sty) tex(expl3.sty) tex(forloop.sty) tex(ifthen.sty) tex(mathtools.sty) tex(pbox.sty) tex(pgf.sty) tex(suffix.sty) tex(tikz.sty) tex(varwidth.sty) tex(xargs.sty) tex(xcolor.sty) tex(xkeyval.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(cryptocode-2018-11-11.sty) \
+tex(cryptocode-2020-04-24.sty) \
+tex(cryptocode.sty) \
+texlive-cryptocode"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsfonts.sty) \
+tex(amsmath.sty) \
+tex(array.sty) \
+tex(calc.sty) \
+tex(centernot.sty) \
+tex(environ.sty) \
+tex(etex.sty) \
+tex(etoolbox.sty) \
+tex(expl3.sty) \
+tex(forloop.sty) \
+tex(ifthen.sty) \
+tex(mathtools.sty) \
+tex(pbox.sty) \
+tex(pgf.sty) \
+tex(suffix.sty) \
+tex(tikz.sty) \
+tex(varwidth.sty) \
+tex(xargs.sty) \
+tex(xcolor.sty) \
+tex(xkeyval.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

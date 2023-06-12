@@ -11,7 +11,14 @@ RPM_NAME = "python39-unify-0.5-2.13.noarch.rpm"
 RPM_HASH = "dae7796b0b7f7a08acb550c42b67e0acda963d68ad434f41df1721e3a0e94a08f1f7babe65991f84f28fa19f15109997bfd04fdb71983149148abea691c821ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(unify) python39-unify python3dist(unify)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-setuptools python39-untokenize update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(unify) \
+python39-unify \
+python3dist(unify)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-setuptools \
+python39-untokenize \
+update-alternatives"
 
 inherit rpm

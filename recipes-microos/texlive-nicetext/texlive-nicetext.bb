@@ -20,7 +20,35 @@ RPM_NAME = "texlive-nicetext-2023.201.r0.67svn38914-54.1.noarch.rpm"
 RPM_HASH = "31184b2dba6f22c24a7c8d690b6dce39bbffcff8fbce75fd7370447d17e5ed75c8d1ba8a0a0e74553d1a038ed3c9e06b467b021d2757aba9830f891ae6d6287a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(arseneau.tex) tex(atari.cfg) tex(copyfile.cfg) tex(copyfile.tex) tex(fddial0g.sty) tex(fdtxttex.cfg) tex(fdtxttex.tex) tex(fifinddo.sty) tex(makedoc.cfg) tex(makedoc.sty) tex(mdoccorr.cfg) tex(niceverb.sty) tex(substr.tex) tex(wiki.sty) texlive-nicetext"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(actcodes.sty) tex(moreverb.sty) tex(stacklet.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(arseneau.tex) \
+tex(atari.cfg) \
+tex(copyfile.cfg) \
+tex(copyfile.tex) \
+tex(fddial0g.sty) \
+tex(fdtxttex.cfg) \
+tex(fdtxttex.tex) \
+tex(fifinddo.sty) \
+tex(makedoc.cfg) \
+tex(makedoc.sty) \
+tex(mdoccorr.cfg) \
+tex(niceverb.sty) \
+tex(substr.tex) \
+tex(wiki.sty) \
+texlive-nicetext"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(actcodes.sty) \
+tex(moreverb.sty) \
+tex(stacklet.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -11,7 +11,8 @@ PV = "5.10.1"
 RPM_NAME = "gwenhywfar-5.10.1-1.4.aarch64.rpm"
 RPM_HASH = "e8ce5773c3b6dd19f7e1072bdb830f29a076dbd0efc33b6225fe42b35193be37dde0149e0bef85cbfa84d0dec04f1e03029f1460959ca151f8205f6ddafb6f8e"
 
-RPROVIDES:${PN} += "gwenhywfar gwenhywfar(aarch-64)"
+RPROVIDES:${PN} += "gwenhywfar \
+gwenhywfar(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,7 +12,10 @@ RPM_NAME = "python310-priority-2.0.0-2.1.noarch.rpm"
 RPM_HASH = "030cfd72a546e2ed0d9fb3eb90ef4565b0a929458036099bf8a2eacd2d2185572c582c2e39413fa95666ffcc25ffdc5127b909407d7598afb25aff83a592d92d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-priority python3.10dist(priority) python310-priority python3dist(priority)"
+RPROVIDES:${PN} += "python3-priority \
+python3.10dist(priority) \
+python310-priority \
+python3dist(priority)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

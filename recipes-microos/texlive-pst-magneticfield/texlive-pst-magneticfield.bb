@@ -12,7 +12,23 @@ RPM_NAME = "texlive-pst-magneticfield-2023.201.1.17svn63821-52.1.noarch.rpm"
 RPM_HASH = "3158f58115c1a2ac2794e91e8ded8907122297e968530104beb8f233717af28efae9044b497ea9d2fe6b8bc4c5d1d63ae33e99e5a3926f4f3bc85a5886ba14d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-magneticfield.sty) tex(pst-magneticfield.tex) texlive-pst-magneticfield"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(multido.sty) tex(pst-3d.sty) tex(pstricks.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(pst-magneticfield.sty) \
+tex(pst-magneticfield.tex) \
+texlive-pst-magneticfield"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(multido.sty) \
+tex(pst-3d.sty) \
+tex(pstricks.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

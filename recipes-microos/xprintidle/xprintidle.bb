@@ -8,7 +8,13 @@ PV = "0.2.5"
 RPM_NAME = "xprintidle-0.2.5-1.1.aarch64.rpm"
 RPM_HASH = "e9d77c6dfc303b7473b79f119a9ade25b3f9301d1abbe6d89196862e76527ff86560e3d6aeadac31e457144887dc916f49cc79967341fee253ce6032757e2eef"
 
-RPROVIDES:${PN} += "xprintidle xprintidle(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libXext.so.6()(64bit) libXss.so.1()(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "xprintidle \
+xprintidle(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libX11.so.6()(64bit) \
+libXext.so.6()(64bit) \
+libXss.so.1()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

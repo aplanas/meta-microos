@@ -8,7 +8,31 @@ RPM_NAME = "xz-lang-5.4.3-1.1.noarch.rpm"
 RPM_HASH = "f02efc577e6d15fc18b4e0185b52468688c982965e32c9af1bb104150ad6935b216f250aab96ae1edba699d340a9d1b3de439e7fb369ffe4dac93676fed055f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(xz:ca) locale(xz:cs) locale(xz:da) locale(xz:de) locale(xz:eo) locale(xz:es) locale(xz:fi) locale(xz:fr) locale(xz:hr) locale(xz:hu) locale(xz:it) locale(xz:ko) locale(xz:pl) locale(xz:pt) locale(xz:pt_BR) locale(xz:ro) locale(xz:sr) locale(xz:sv) locale(xz:tr) locale(xz:uk) locale(xz:vi) locale(xz:zh_CN) locale(xz:zh_TW) xz-lang xz-lang-all"
+RPROVIDES:${PN} += "locale(xz:ca) \
+locale(xz:cs) \
+locale(xz:da) \
+locale(xz:de) \
+locale(xz:eo) \
+locale(xz:es) \
+locale(xz:fi) \
+locale(xz:fr) \
+locale(xz:hr) \
+locale(xz:hu) \
+locale(xz:it) \
+locale(xz:ko) \
+locale(xz:pl) \
+locale(xz:pt) \
+locale(xz:pt_BR) \
+locale(xz:ro) \
+locale(xz:sr) \
+locale(xz:sv) \
+locale(xz:tr) \
+locale(xz:uk) \
+locale(xz:vi) \
+locale(xz:zh_CN) \
+locale(xz:zh_TW) \
+xz-lang \
+xz-lang-all"
 RDEPENDS:${PN} += "xz"
 
 inherit rpm

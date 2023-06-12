@@ -15,7 +15,11 @@ PV = "13.0.3"
 RPM_NAME = "teleport-13.0.3-1.1.aarch64.rpm"
 RPM_HASH = "71d749a5a966c3d4233cbe4cb66fe71601de072574b9418b12f85f3be2619222636b66b0405f4cccd366a20b5b5f42476215a1964871a6c7eb7ea58b7b97c057"
 
-RPROVIDES:${PN} += "config(teleport) teleport teleport(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh libc.so.6(GLIBC_2.34)(64bit) teleport-tctl"
+RPROVIDES:${PN} += "config(teleport) \
+teleport \
+teleport(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+libc.so.6(GLIBC_2.34)(64bit) \
+teleport-tctl"
 
 inherit rpm

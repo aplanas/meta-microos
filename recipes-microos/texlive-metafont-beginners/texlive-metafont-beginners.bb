@@ -12,6 +12,17 @@ RPM_HASH = "a1f5e98a9afffff312afc0785a1dd13be57ec1f62984ad39a45b0e905cc6b16fe6a8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metafont-beginners"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

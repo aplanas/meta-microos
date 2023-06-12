@@ -13,7 +13,12 @@ RPM_NAME = "lua54-luarepl-0.10-2.2.noarch.rpm"
 RPM_HASH = "4c9ae57c98ede70e984f38ff34d2b18d79295fc90b92e94da825ba0ec06a04a5225f20e498b9d9faef5e8cb5d01a2135303ad53cb118bd6b80696dac3861ecf4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "lua-luarepl lua54-luarepl"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/lua5.4 bash-sh lua54 update-alternatives"
+RPROVIDES:${PN} += "lua-luarepl \
+lua54-luarepl"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/lua5.4 \
+bash-sh \
+lua54 \
+update-alternatives"
 
 inherit rpm

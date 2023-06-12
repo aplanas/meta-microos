@@ -19,7 +19,11 @@ RPM_NAME = "python310-aioeventlet-0.5.2-4.3.noarch.rpm"
 RPM_HASH = "523ee393fc4b3778ae2862676fd1f4b3a1471e6d4a58c9a81c6e7d05b438ba8fde77f4bfc04fe97375311e62180dcea89152785720230fa55f45c458cc1a73e5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aioeventlet python3.10dist(aioeventlet) python310-aioeventlet python3dist(aioeventlet)"
-RDEPENDS:${PN} += "python(abi) python310-eventlet"
+RPROVIDES:${PN} += "python3-aioeventlet \
+python3.10dist(aioeventlet) \
+python310-aioeventlet \
+python3dist(aioeventlet)"
+RDEPENDS:${PN} += "python(abi) \
+python310-eventlet"
 
 inherit rpm

@@ -18,7 +18,8 @@ RPM_NAME = "perl-Class-Singleton-1.6-1.11.noarch.rpm"
 RPM_HASH = "23ecb44580a3094dce4cc5249da0ec2da52782812cc50b5cf880d4bd39ac2d599b3acdcc9d60e4ffd68323dcf766f90141cf901eb4d13344de40e3ddbd0342a8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Singleton) perl-Class-Singleton"
+RPROVIDES:${PN} += "perl(Class::Singleton) \
+perl-Class-Singleton"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -16,7 +16,8 @@ RPM_NAME = "perl-XML-Parser-Lite-0.722-1.16.noarch.rpm"
 RPM_HASH = "4d9982a9d84ec973bd01d9bfeed45523ce34a2a8febb90b141f08cd8057c55080e7c7f2df436d43eb56e738b918a65e5131ac35e375e8e518d05ec1ebd046435"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::Parser::Lite) perl-XML-Parser-Lite"
+RPROVIDES:${PN} += "perl(XML::Parser::Lite) \
+perl-XML-Parser-Lite"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -14,7 +14,13 @@ PV = "1.15"
 RPM_NAME = "libxcb-xvmc0-1.15-2.2.aarch64.rpm"
 RPM_HASH = "f4bbf5978143c8fb6920a5272dd602689f491dad5b21d3f00ceab9b09ace269a5e756766924f05f7e64aad04889f2be3b84fe138146283e7d87ba35938605bdf"
 
-RPROVIDES:${PN} += "libxcb-xvmc.so.0()(64bit) libxcb-xvmc0 libxcb-xvmc0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libxcb.so.1()(64bit)"
+RPROVIDES:${PN} += "libxcb-xvmc.so.0()(64bit) \
+libxcb-xvmc0 \
+libxcb-xvmc0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libxcb.so.1()(64bit)"
 
 inherit rpm

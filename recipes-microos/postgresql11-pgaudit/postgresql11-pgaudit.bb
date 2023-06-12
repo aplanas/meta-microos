@@ -16,7 +16,12 @@ PV = "1.3.4"
 RPM_NAME = "postgresql11-pgaudit-1.3.4-4.2.aarch64.rpm"
 RPM_HASH = "c1f7c765c88e463ab719ab3df5f1fa294afe905b4e4da37cc38b3ea2d7e7f8f97ed29420a018ad562de3960094b7d825cb86724bec33ee49593b2787e8f70ad0"
 
-RPROVIDES:${PN} += "postgresql11-pgaudit postgresql11-pgaudit(aarch-64) postgresql11-pgaudit-llvmjit"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) postgresql11-server"
+RPROVIDES:${PN} += "postgresql11-pgaudit \
+postgresql11-pgaudit(aarch-64) \
+postgresql11-pgaudit-llvmjit"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+postgresql11-server"
 
 inherit rpm

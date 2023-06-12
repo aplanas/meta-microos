@@ -12,7 +12,11 @@ RPM_NAME = "python39-pymdown-extensions-9.11-1.1.noarch.rpm"
 RPM_HASH = "8dce33131099946d335805ebe8eb3845119ac3532140defd048cfaa8fc8c5dab745d9b0f8993910be153c434560ce9bea827aca499e0b5511950ac7df4b128ba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pymdown-extensions) python39-pymdown-extensions python3dist(pymdown-extensions)"
-RDEPENDS:${PN} += "python(abi) python39-Markdown python39-PyYAML"
+RPROVIDES:${PN} += "python3.9dist(pymdown-extensions) \
+python39-pymdown-extensions \
+python3dist(pymdown-extensions)"
+RDEPENDS:${PN} += "python(abi) \
+python39-Markdown \
+python39-PyYAML"
 
 inherit rpm

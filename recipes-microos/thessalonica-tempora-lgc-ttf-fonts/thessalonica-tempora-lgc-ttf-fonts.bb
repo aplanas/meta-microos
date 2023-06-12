@@ -19,7 +19,8 @@ RPM_NAME = "thessalonica-tempora-lgc-ttf-fonts-0.2.1-11.18.noarch.rpm"
 RPM_HASH = "ae0a3b55f794aa21f76778be32353d39f05f4ed319796a1026cd345e81cd2000e1cb56400e4e5361c370afa4ae30f35e4c07ad5ea4f4230fefa9adec603ae99a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tempora-lgc-fonts-ttf thessalonica-tempora-lgc-ttf-fonts"
+RPROVIDES:${PN} += "tempora-lgc-fonts-ttf \
+thessalonica-tempora-lgc-ttf-fonts"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

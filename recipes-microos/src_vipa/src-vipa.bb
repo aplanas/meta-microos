@@ -12,7 +12,9 @@ PV = "2.1.0"
 RPM_NAME = "src_vipa-2.1.0-4.6.aarch64.rpm"
 RPM_HASH = "ae0e56a69af36474b966ca060d6f638e35ce9d11bed2f91bbb6014a5780c4bfc3ff0ebcf59f28b246a1aabc248f0597671bb0c923a71a6988d1e5922b958f2be"
 
-RPROVIDES:${PN} += "src_vipa src_vipa(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "src_vipa \
+src_vipa(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

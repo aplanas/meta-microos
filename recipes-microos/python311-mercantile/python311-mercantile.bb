@@ -13,7 +13,13 @@ RPM_NAME = "python311-mercantile-1.2.1-1.4.noarch.rpm"
 RPM_HASH = "6c8651116d49f2aa27c489b035fce7102f9bf74f4d770b251664ef7879fc624512f2f397c07eca2aeee6486f58519baf2104caed3178a779197c4165e468c1b1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(mercantile) python311-mercantile python3dist(mercantile)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-click update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(mercantile) \
+python311-mercantile \
+python3dist(mercantile)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-click \
+update-alternatives"
 
 inherit rpm

@@ -19,7 +19,12 @@ RPM_NAME = "perl-SQL-Abstract-Classic-1.91-1.13.noarch.rpm"
 RPM_HASH = "5d6d6261afda2785d76437b7cddfba58f9c8269b0c594531217063617b72422cc353674b3c89b18ae00623b2952b04273c117a5e38bbb394873e3be36e703976"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(SQL::Abstract::Classic) perl(SQL::Abstract::Util) perl-SQL-Abstract-Classic"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(MRO::Compat) perl(SQL::Abstract) perl(Text::Balanced)"
+RPROVIDES:${PN} += "perl(SQL::Abstract::Classic) \
+perl(SQL::Abstract::Util) \
+perl-SQL-Abstract-Classic"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(MRO::Compat) \
+perl(SQL::Abstract) \
+perl(Text::Balanced)"
 
 inherit rpm

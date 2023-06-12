@@ -12,7 +12,9 @@ RPM_NAME = "python39-xlwt-1.3.0-2.15.noarch.rpm"
 RPM_HASH = "4b4f97a1a32713fec20bde25e5b3514af969b6d694c14649f6314bdd2fc3366eb212136cc83216786aeb402182fc03f4381fff26ee46b6cd2672a80bb68b461c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(xlwt) python39-xlwt python3dist(xlwt)"
+RPROVIDES:${PN} += "python3.9dist(xlwt) \
+python39-xlwt \
+python3dist(xlwt)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

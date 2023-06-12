@@ -16,7 +16,14 @@ RPM_NAME = "python311-mypy-1.3.0-1.1.noarch.rpm"
 RPM_HASH = "4238d0a166bb1e7f90047c36218e5ea993be6370b36858b0d43636553879f0ed1051888f56ea9c49de77266b9a5928bec0d32a02f017c51a9944ab15ba5efa05"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(mypy) python311-mypy python3dist(mypy)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-mypy_extensions python311-typing_extensions update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(mypy) \
+python311-mypy \
+python3dist(mypy)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-mypy_extensions \
+python311-typing_extensions \
+update-alternatives"
 
 inherit rpm

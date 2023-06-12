@@ -12,7 +12,12 @@ PV = "3.0.23.01.25"
 RPM_NAME = "clinfo-3.0.23.01.25-1.2.aarch64.rpm"
 RPM_HASH = "fe224a495d0aed0a70a46fafc75edf528064e9a80c503c97d351ebdd5f2c434ef55f567b822cc27b9bf07eaf25844d007419d727d3db2dce82614251c9c7e7f9"
 
-RPROVIDES:${PN} += "clinfo clinfo(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libOpenCL.so.1()(64bit) libOpenCL.so.1(OPENCL_1.0)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "clinfo \
+clinfo(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libOpenCL.so.1()(64bit) \
+libOpenCL.so.1(OPENCL_1.0)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

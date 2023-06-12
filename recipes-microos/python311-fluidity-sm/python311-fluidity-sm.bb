@@ -14,7 +14,9 @@ RPM_NAME = "python311-fluidity-sm-0.2.0-2.1.noarch.rpm"
 RPM_HASH = "28bc9b22bb6a3449a61bdf3e6560297f8bd2746891b650767b03a349cbe22b810830525bbde8b63295da7c56d12687ab6ff37ef42f1073ada1331501590d4be1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(fluidity-sm) python311-fluidity-sm python3dist(fluidity-sm)"
+RPROVIDES:${PN} += "python3.11dist(fluidity-sm) \
+python311-fluidity-sm \
+python3dist(fluidity-sm)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

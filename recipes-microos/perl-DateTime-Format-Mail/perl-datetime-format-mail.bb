@@ -46,7 +46,10 @@ RPM_NAME = "perl-DateTime-Format-Mail-0.403-1.15.noarch.rpm"
 RPM_HASH = "0fb48171da7a05f635263eb5d935776f0ed4a5a54d6ebb5c3ef374e2d727bde63d56329a068e66a2f65542b5bc90b6e49a1493852aa678d236660ba9718514df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DateTime::Format::Mail) perl-DateTime-Format-Mail"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(DateTime) perl(Params::Validate)"
+RPROVIDES:${PN} += "perl(DateTime::Format::Mail) \
+perl-DateTime-Format-Mail"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(DateTime) \
+perl(Params::Validate)"
 
 inherit rpm

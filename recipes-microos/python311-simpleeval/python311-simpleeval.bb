@@ -14,7 +14,9 @@ RPM_NAME = "python311-simpleeval-0.9.12-1.7.noarch.rpm"
 RPM_HASH = "290888f426d34edd6a504e85f07a2b7f3088ad5aaeb619d85475028cb291c2767bcbe3390daf09e6c41b95baeb596c23e21c388d602ea35d79bed638166e43fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(simpleeval) python311-simpleeval python3dist(simpleeval)"
+RPROVIDES:${PN} += "python3.11dist(simpleeval) \
+python311-simpleeval \
+python3dist(simpleeval)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

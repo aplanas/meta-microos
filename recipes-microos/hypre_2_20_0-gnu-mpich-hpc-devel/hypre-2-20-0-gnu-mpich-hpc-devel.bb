@@ -8,7 +8,17 @@ PV = "2.20.0"
 RPM_NAME = "hypre_2_20_0-gnu-mpich-hpc-devel-2.20.0-1.23.aarch64.rpm"
 RPM_HASH = "968a99b34c75bf09883466e5c03d46cdbdc995ee50f3d48834487a88a672ab13ad327aff7308f2c7ab4ab94b0ace9e6b90981b7d075dc40391693b9d0e430177"
 
-RPROVIDES:${PN} += "hypre_2_20_0-gnu-mpich-hpc-devel hypre_2_20_0-gnu-mpich-hpc-devel(aarch-64) pkgconfig(hypre)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config gnu-compilers-hpc-devel ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libHYPRE_2_20_0-gnu-mpich-hpc libc.so.6(GLIBC_2.17)(64bit) libopenblas-gnu-hpc-devel mpich-gnu-hpc-devel superlu-gnu-hpc-devel"
+RPROVIDES:${PN} += "hypre_2_20_0-gnu-mpich-hpc-devel \
+hypre_2_20_0-gnu-mpich-hpc-devel(aarch-64) \
+pkgconfig(hypre)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+gnu-compilers-hpc-devel \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libHYPRE_2_20_0-gnu-mpich-hpc \
+libc.so.6(GLIBC_2.17)(64bit) \
+libopenblas-gnu-hpc-devel \
+mpich-gnu-hpc-devel \
+superlu-gnu-hpc-devel"
 
 inherit rpm

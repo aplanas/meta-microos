@@ -36,7 +36,17 @@ PV = "4.5.3"
 RPM_NAME = "libnetcdf-fortran_4_5_3-gnu-openmpi1-hpc-4.5.3-4.5.aarch64.rpm"
 RPM_HASH = "3b5811a5cdc2e5cceafdf790c6d684933c575b3f9fa4fc305bdfe6333212b91407a08416529c23781955dc182f4ecd8515431af61da56678e3876564d4c074f2"
 
-RPROVIDES:${PN} += "libnetcdf-fortran_4_5_3-gnu-openmpi1-hpc libnetcdf-fortran_4_5_3-gnu-openmpi1-hpc(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh gnu-compilers-hpc ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgfortran.so.5()(64bit) libgfortran.so.5(GFORTRAN_10)(64bit) libgfortran.so.5(GFORTRAN_8)(64bit) libopenmpi1-gnu-hpc lua-lmod"
+RPROVIDES:${PN} += "libnetcdf-fortran_4_5_3-gnu-openmpi1-hpc \
+libnetcdf-fortran_4_5_3-gnu-openmpi1-hpc(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+gnu-compilers-hpc \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgfortran.so.5()(64bit) \
+libgfortran.so.5(GFORTRAN_10)(64bit) \
+libgfortran.so.5(GFORTRAN_8)(64bit) \
+libopenmpi1-gnu-hpc \
+lua-lmod"
 
 inherit rpm

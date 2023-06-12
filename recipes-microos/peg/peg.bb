@@ -18,7 +18,10 @@ PV = "0.1.18"
 RPM_NAME = "peg-0.1.18-1.11.aarch64.rpm"
 RPM_HASH = "6c4983926b6d84d75925ca1ef20d493717d124a7cfd7195a0d0e792dadc08db39b9690964871410a1cc9394a4d4747f0e9efea8f0bdb467ff80d3b8b9f45bff9"
 
-RPROVIDES:${PN} += "peg peg(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "peg \
+peg(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -8,7 +8,24 @@ PV = "44.1"
 RPM_NAME = "typelib-1_0-EvinceView-3_0-44.1-1.1.aarch64.rpm"
 RPM_HASH = "df3c645067c4751a0b729b8e1fcc2cb251837097dd7897ec400a054a0f99848f6b8ffcdc66cb635a96a4063fe2076ce9fcc80d9d26b3d72158a420628ffa5ef3"
 
-RPROVIDES:${PN} += "typelib(EvinceView) typelib-1_0-EvinceView-3_0 typelib-1_0-EvinceView-3_0(aarch-64)"
-RDEPENDS:${PN} += "libevdocument3.so.4()(64bit) libevview3.so.3()(64bit) typelib(Atk) typelib(EvinceDocument) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gdk) typelib(GdkPixbuf) typelib(Gio) typelib(Gtk) typelib(HarfBuzz) typelib(Pango) typelib(cairo) typelib(freetype2) typelib(xlib)"
+RPROVIDES:${PN} += "typelib(EvinceView) \
+typelib-1_0-EvinceView-3_0 \
+typelib-1_0-EvinceView-3_0(aarch-64)"
+RDEPENDS:${PN} += "libevdocument3.so.4()(64bit) \
+libevview3.so.3()(64bit) \
+typelib(Atk) \
+typelib(EvinceDocument) \
+typelib(GLib) \
+typelib(GModule) \
+typelib(GObject) \
+typelib(Gdk) \
+typelib(GdkPixbuf) \
+typelib(Gio) \
+typelib(Gtk) \
+typelib(HarfBuzz) \
+typelib(Pango) \
+typelib(cairo) \
+typelib(freetype2) \
+typelib(xlib)"
 
 inherit rpm

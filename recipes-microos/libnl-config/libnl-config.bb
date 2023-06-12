@@ -11,7 +11,8 @@ RPM_NAME = "libnl-config-3.7.0-1.4.noarch.rpm"
 RPM_HASH = "034663818293eae3d5a5baa644a73ea544b9618136174bf656d19b905ae076b02971ceb15f84ae58454adadff230bc460bf7d5eb58e97a7b3aaedf554df3788e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(libnl-config) libnl-config"
+RPROVIDES:${PN} += "config(libnl-config) \
+libnl-config"
 RDEPENDS:${PN} += ""
 
 inherit rpm

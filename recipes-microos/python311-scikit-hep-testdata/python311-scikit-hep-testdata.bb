@@ -14,7 +14,15 @@ RPM_NAME = "python311-scikit-hep-testdata-0.4.30-1.1.noarch.rpm"
 RPM_HASH = "cb8d16d030785fedc886f6260ddaa266bfc6b55f924e51db281e87da4bb64a67fe97bac5ce98402faac197e38fa1751b6f6230dd62c6613f082d157cd32b3251"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(scikit-hep-testdata) python311-scikit-hep-testdata python3dist(scikit-hep-testdata)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-PyYAML python311-requests scikit-hep-testdata-files update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(scikit-hep-testdata) \
+python311-scikit-hep-testdata \
+python3dist(scikit-hep-testdata)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-PyYAML \
+python311-requests \
+scikit-hep-testdata-files \
+update-alternatives"
 
 inherit rpm

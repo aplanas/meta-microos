@@ -19,7 +19,12 @@ PV = "0.06"
 RPM_NAME = "perl-B-Hooks-OP-PPAddr-0.06-1.30.aarch64.rpm"
 RPM_HASH = "73d5756c38b83ecb4e97b7a427d94d794897a441ea0d65d4696462b48a99ab887168100a396c2088802f28723917ff77c9f59459d0d1c51fdca47e14b0274d90"
 
-RPROVIDES:${PN} += "perl(B::Hooks::OP::PPAddr) perl(B::Hooks::OP::PPAddr::Install::Files) perl-B-Hooks-OP-PPAddr perl-B-Hooks-OP-PPAddr(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0) perl(parent)"
+RPROVIDES:${PN} += "perl(B::Hooks::OP::PPAddr) \
+perl(B::Hooks::OP::PPAddr::Install::Files) \
+perl-B-Hooks-OP-PPAddr \
+perl-B-Hooks-OP-PPAddr(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(parent)"
 
 inherit rpm

@@ -11,7 +11,13 @@ PV = "6.0.17"
 RPM_NAME = "zabbix-java-gateway-6.0.17-1.1.aarch64.rpm"
 RPM_HASH = "0bf79456e390a3e58725c7bb9427e659d5d102d335023c5d0e89300e108756694a6916c19b13eb0019376c74fb0321829c00482dae97ea9c0fb18a443cb8419b"
 
-RPROVIDES:${PN} += "config(zabbix-java-gateway) zabbix zabbix-java-gateway zabbix-java-gateway(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh jre shadow"
+RPROVIDES:${PN} += "config(zabbix-java-gateway) \
+zabbix \
+zabbix-java-gateway \
+zabbix-java-gateway(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+jre \
+shadow"
 
 inherit rpm

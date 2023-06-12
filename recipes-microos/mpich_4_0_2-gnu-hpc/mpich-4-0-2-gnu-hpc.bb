@@ -18,7 +18,30 @@ PV = "4.0.2"
 RPM_NAME = "mpich_4_0_2-gnu-hpc-4.0.2-3.3.aarch64.rpm"
 RPM_HASH = "7031da7eedc9c0b80eb182446aff7cb190d0a6646a329b045b5d8ab92110eec4b677d9cb4dd8d51ddc83c8ebbd0a1d5f1d266c2256355a619f33a73d14518bc3"
 
-RPROVIDES:${PN} += "mpi mpich_4_0_2-gnu-hpc mpich_4_0_2-gnu-hpc(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/bash /usr/bin/perl gnu-compilers-hpc ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgfortran.so.5()(64bit) libgfortran.so.5(GFORTRAN_8)(64bit) libgfortran.so.5(GFORTRAN_9)(64bit) libjson-c.so.5()(64bit) libjson-c.so.5(JSONC_0.14)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libucp.so.0()(64bit) libucs.so.0()(64bit) lua-lmod"
+RPROVIDES:${PN} += "mpi \
+mpich_4_0_2-gnu-hpc \
+mpich_4_0_2-gnu-hpc(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/bash \
+/usr/bin/perl \
+gnu-compilers-hpc \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgfortran.so.5()(64bit) \
+libgfortran.so.5(GFORTRAN_8)(64bit) \
+libgfortran.so.5(GFORTRAN_9)(64bit) \
+libjson-c.so.5()(64bit) \
+libjson-c.so.5(JSONC_0.14)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.8)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libucp.so.0()(64bit) \
+libucs.so.0()(64bit) \
+lua-lmod"
 
 inherit rpm

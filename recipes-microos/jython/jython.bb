@@ -24,7 +24,21 @@ RPM_NAME = "jython-2.2.1-25.7.noarch.rpm"
 RPM_HASH = "3e51f1bc13b7f4e1d393e6f6cdfeeecc0c5df70aea615125f239eef8265eae61bb450adb9f6526b79297eb07c4e0c7d6d07b0781ee67e863b8edc358ed5db922"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jython mvn(jython:jython) mvn(jython:jython:pom:) mvn(org.python:jython) mvn(org.python:jython-standalone) mvn(org.python:jython-standalone:pom:) mvn(org.python:jython:pom:)"
-RDEPENDS:${PN} += "jakarta-oro java java-headless javapackages-filesystem javapackages-local jline1 libreadline-java python3 servletapi5"
+RPROVIDES:${PN} += "jython \
+mvn(jython:jython) \
+mvn(jython:jython:pom:) \
+mvn(org.python:jython) \
+mvn(org.python:jython-standalone) \
+mvn(org.python:jython-standalone:pom:) \
+mvn(org.python:jython:pom:)"
+RDEPENDS:${PN} += "jakarta-oro \
+java \
+java-headless \
+javapackages-filesystem \
+javapackages-local \
+jline1 \
+libreadline-java \
+python3 \
+servletapi5"
 
 inherit rpm

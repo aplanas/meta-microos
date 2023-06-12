@@ -15,7 +15,22 @@ RPM_NAME = "texlive-mfirstuc-2023.201.2.08svn64743-54.1.noarch.rpm"
 RPM_HASH = "76e0b8d9b6fde467262f11312b9c999fbbf43a854e29c01b12a032599a399aa9a56f367dc869b52c120890cee4b0182a1b93488f0ac195c1d2314fbafe0f92fd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mfirstuc-2021-10-15.sty) tex(mfirstuc-english.sty) tex(mfirstuc.sty) texlive-mfirstuc"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(etoolbox.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(mfirstuc-2021-10-15.sty) \
+tex(mfirstuc-english.sty) \
+tex(mfirstuc.sty) \
+texlive-mfirstuc"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(etoolbox.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

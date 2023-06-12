@@ -16,7 +16,27 @@ RPM_NAME = "texlive-testidx-2023.201.1.2svn60966-54.1.noarch.rpm"
 RPM_HASH = "1970cb2dab4ecaca5684e6b0c3012ff07ec4cb3968cfac40ad7c43eb70334763374232f12822cd1f3b79e15e349251f27678f7c6705b60c008ea99730e196d95"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(testidx-glossaries-diglyphs.tex) tex(testidx-glossaries-nodiglyphs.tex) tex(testidx-glossaries-samples.tex) tex(testidx-glossaries.sty) tex(testidx.sty) texlive-testidx"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(color.sty) tex(glossary-mcols.sty) tex(ifluatex.sty) tex(ifxetex.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(testidx-glossaries-diglyphs.tex) \
+tex(testidx-glossaries-nodiglyphs.tex) \
+tex(testidx-glossaries-samples.tex) \
+tex(testidx-glossaries.sty) \
+tex(testidx.sty) \
+texlive-testidx"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(color.sty) \
+tex(glossary-mcols.sty) \
+tex(ifluatex.sty) \
+tex(ifxetex.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

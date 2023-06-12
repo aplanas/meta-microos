@@ -27,7 +27,27 @@ PV = "0.8.0.0"
 RPM_NAME = "ghc-http-media-0.8.0.0-6.3.aarch64.rpm"
 RPM_HASH = "bd784fb378f9d89421be734e5608747baf34719db86df711fd26e606a437397133eac807126df19e04211197eeed7eeab0f37eef426dddb3f30c4ace6dccd923"
 
-RPROVIDES:${PN} += "ghc-http-media ghc-http-media(aarch-64) libHShttp-media-0.8.0.0-9GHxrTRagkN589CoQuo7sU-ghc9.4.5.so()(64bit)"
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) libHScase-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3-ghc9.4.5.so()(64bit) libHScontainers-0.6.7-ghc9.4.5.so()(64bit) libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) libHSfilepath-1.4.2.2-ghc9.4.5.so()(64bit) libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) libHSghc-boot-th-9.4.5-ghc9.4.5.so()(64bit) libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so()(64bit) libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) libHStext-2.0.2-ghc9.4.5.so()(64bit) libHSutf8-string-1.0.2-3yyxPCwARUwDt9ZNWn320Q-ghc9.4.5.so()(64bit) libc.so.6(GLIBC_2.17)(64bit) libgmp.so.10()(64bit) libm.so.6()(64bit)"
+RPROVIDES:${PN} += "ghc-http-media \
+ghc-http-media(aarch-64) \
+libHShttp-media-0.8.0.0-9GHxrTRagkN589CoQuo7sU-ghc9.4.5.so()(64bit)"
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
+libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
+libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \
+libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \
+libHScase-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3-ghc9.4.5.so()(64bit) \
+libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \
+libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \
+libHSfilepath-1.4.2.2-ghc9.4.5.so()(64bit) \
+libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
+libHSghc-boot-th-9.4.5-ghc9.4.5.so()(64bit) \
+libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
+libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so()(64bit) \
+libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) \
+libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) \
+libHStext-2.0.2-ghc9.4.5.so()(64bit) \
+libHSutf8-string-1.0.2-3yyxPCwARUwDt9ZNWn320Q-ghc9.4.5.so()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgmp.so.10()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

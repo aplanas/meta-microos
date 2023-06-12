@@ -9,7 +9,11 @@ RPM_NAME = "python310-aiosignal-1.3.1-1.1.noarch.rpm"
 RPM_HASH = "fde6dae1ba4f4facb91442eabdadf36891800c74dfe6502f05db9bb7e9604f28ce1684d6df828108b9f6a735b96ce70f6f090dd37937953498d3919d54000331"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aiosignal python3.10dist(aiosignal) python310-aiosignal python3dist(aiosignal)"
-RDEPENDS:${PN} += "python(abi) python310-frozenlist"
+RPROVIDES:${PN} += "python3-aiosignal \
+python3.10dist(aiosignal) \
+python310-aiosignal \
+python3dist(aiosignal)"
+RDEPENDS:${PN} += "python(abi) \
+python310-frozenlist"
 
 inherit rpm

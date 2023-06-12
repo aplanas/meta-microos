@@ -13,7 +13,9 @@ RPM_NAME = "python39-BitVector-3.5.0-1.8.noarch.rpm"
 RPM_HASH = "65bc6a666e3cf74f04143ec531dd63bdc69d60042cb1fd7877f4c9aad53fd496c46a18c9437ec4484c878e4ee11e8a933b63d66922f1da04603b8d507c3c53b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(bitvector) python39-BitVector python3dist(bitvector)"
+RPROVIDES:${PN} += "python3.9dist(bitvector) \
+python39-BitVector \
+python3dist(bitvector)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

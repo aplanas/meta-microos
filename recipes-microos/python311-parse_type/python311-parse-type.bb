@@ -17,7 +17,11 @@ RPM_NAME = "python311-parse_type-0.6.0-1.7.noarch.rpm"
 RPM_HASH = "60832028d26e469790770bf3203b4428ed9c788eef09593d03a1b29ea35ae082a9b6af45be39a00d6952fcf312b55a14a17b4e94c960eccb1bf334a764b5e907"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(parse-type) python311-parse_type python3dist(parse-type)"
-RDEPENDS:${PN} += "python(abi) python311-parse python311-six"
+RPROVIDES:${PN} += "python3.11dist(parse-type) \
+python311-parse_type \
+python3dist(parse-type)"
+RDEPENDS:${PN} += "python(abi) \
+python311-parse \
+python311-six"
 
 inherit rpm

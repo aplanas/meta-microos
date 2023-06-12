@@ -13,6 +13,23 @@ RPM_HASH = "8697dbc010d9c3fc5ad829fa76b065ba225fcbe14bf6efba3c3462a3f550c0018fc8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ptex2pdf"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/texlua coreutils ed findutils grep perl perl(TeXLive::TLUtils) sed tex(texmf.cnf) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-ptex2pdf-bin texlive-scripts texlive-scripts-bin texlive-texlive.infra"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/texlua \
+coreutils \
+ed \
+findutils \
+grep \
+perl \
+perl(TeXLive::TLUtils) \
+sed \
+tex(texmf.cnf) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-ptex2pdf-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-texlive.infra"
 
 inherit rpm

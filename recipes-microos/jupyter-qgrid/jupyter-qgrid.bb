@@ -11,6 +11,8 @@ RPM_HASH = "7cf13bd49079962333d2695b595f754284a0702ed4833a36acb19813637d44afaaec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-qgrid"
-RDEPENDS:${PN} += "jupyter-ipywidgets jupyter-notebook python3-qgrid"
+RDEPENDS:${PN} += "jupyter-ipywidgets \
+jupyter-notebook \
+python3-qgrid"
 
 inherit rpm

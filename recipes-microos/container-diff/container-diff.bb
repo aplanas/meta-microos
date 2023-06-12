@@ -17,7 +17,8 @@ PV = "0.17.0"
 RPM_NAME = "container-diff-0.17.0-1.10.aarch64.rpm"
 RPM_HASH = "a824ecd152fe85ee79b0c67395cf0d02380f61ea97ac715a792cde267b645432989a7065edcb00e241d8cdbbe9c5242628cb4940e274ca6638c5a146779b66a3"
 
-RPROVIDES:${PN} += "container-diff container-diff(aarch-64)"
+RPROVIDES:${PN} += "container-diff \
+container-diff(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

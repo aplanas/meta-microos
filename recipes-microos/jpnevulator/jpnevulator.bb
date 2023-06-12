@@ -18,7 +18,10 @@ PV = "2.3.6"
 RPM_NAME = "jpnevulator-2.3.6-1.11.aarch64.rpm"
 RPM_HASH = "35b905ddb2bc420bb7cddf4e15de7f26153dea11c36c316a592fd48c444aeeea7caf1fcba80efb3d079b8b302580b7d57c7447108ad6ae08d08e940e4174f419"
 
-RPROVIDES:${PN} += "jpnevulator jpnevulator(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "jpnevulator \
+jpnevulator(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

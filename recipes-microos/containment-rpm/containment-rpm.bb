@@ -16,6 +16,8 @@ RPM_HASH = "71130916e2aec3e806151628170bffa20f50a84049d94355692644b6c74a765f851b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "containment-rpm"
-RDEPENDS:${PN} += "/bin/bash jq libxml2-tools"
+RDEPENDS:${PN} += "/bin/bash \
+jq \
+libxml2-tools"
 
 inherit rpm

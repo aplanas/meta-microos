@@ -41,7 +41,32 @@ PV = "1.32.2"
 RPM_NAME = "nbdkit-basic-plugins-1.32.2-1.3.aarch64.rpm"
 RPM_HASH = "9c00e800659f511169b88a657afc24332ef879863e57e6554e7dd9291ee6b02b07cee67e3d7460f9308b2272b46a446df93b4618a30bd1f7f4eea26ad2026fe1"
 
-RPROVIDES:${PN} += "nbdkit-basic-plugins nbdkit-basic-plugins(aarch-64) nbdkit-data-plugin nbdkit-eval-plugin nbdkit-file-plugin nbdkit-floppy-plugin nbdkit-full-plugin nbdkit-info-plugin nbdkit-memory-plugin nbdkit-null-plugin nbdkit-ondemand-plugin nbdkit-partitioning-plugin nbdkit-pattern-plugin nbdkit-random-plugin nbdkit-sh-plugin nbdkit-sparse-random-plugin nbdkit-split-plugin nbdkit-streaming-plugin nbdkit-zero-plugin"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgnutls.so.30()(64bit) libgnutls.so.30(GNUTLS_3_4)(64bit) libgnutls.so.30(GNUTLS_3_6_0)(64bit) libzstd.so.1()(64bit) nbdkit-server"
+RPROVIDES:${PN} += "nbdkit-basic-plugins \
+nbdkit-basic-plugins(aarch-64) \
+nbdkit-data-plugin \
+nbdkit-eval-plugin \
+nbdkit-file-plugin \
+nbdkit-floppy-plugin \
+nbdkit-full-plugin \
+nbdkit-info-plugin \
+nbdkit-memory-plugin \
+nbdkit-null-plugin \
+nbdkit-ondemand-plugin \
+nbdkit-partitioning-plugin \
+nbdkit-pattern-plugin \
+nbdkit-random-plugin \
+nbdkit-sh-plugin \
+nbdkit-sparse-random-plugin \
+nbdkit-split-plugin \
+nbdkit-streaming-plugin \
+nbdkit-zero-plugin"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgnutls.so.30()(64bit) \
+libgnutls.so.30(GNUTLS_3_4)(64bit) \
+libgnutls.so.30(GNUTLS_3_6_0)(64bit) \
+libzstd.so.1()(64bit) \
+nbdkit-server"
 
 inherit rpm

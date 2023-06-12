@@ -14,7 +14,14 @@ RPM_NAME = "python310-argparse-manpage-4.1-1.1.noarch.rpm"
 RPM_HASH = "3c95e14bf09f788a70f0b2f055f725473e524d6692e9b5c110e33921a82fbdd2cb150505b3f08ecf34d4b85b039c8b1da2be394b7f08c2d9fcc0b8743d6bbcb7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-argparse-manpage python3.10dist(argparse-manpage) python310-argparse-manpage python3dist(argparse-manpage)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3-argparse-manpage \
+python3.10dist(argparse-manpage) \
+python310-argparse-manpage \
+python3dist(argparse-manpage)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+python310-setuptools \
+update-alternatives"
 
 inherit rpm

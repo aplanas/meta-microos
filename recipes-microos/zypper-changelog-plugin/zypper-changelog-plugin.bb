@@ -9,6 +9,8 @@ RPM_HASH = "541c8f811fe729a7f0347fa8ec4166d78ffe49442fe935d1291932a81ee0a3b72e3a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zypper-changelog-plugin"
-RDEPENDS:${PN} += "/usr/bin/env /usr/bin/python3 python3-requests"
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/python3 \
+python3-requests"
 
 inherit rpm

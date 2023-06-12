@@ -10,7 +10,11 @@ RPM_NAME = "xpp2-2.1.10-30.6.noarch.rpm"
 RPM_HASH = "bed6bc1c83ba79120673b78feb58b79c4f53917b016f1f0542d79383c88af857c5d079aa01944dfb32161d48026382048f82751b2f7750223a9c7184ff531061"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(pull-parser:pull-parser) mvn(pull-parser:pull-parser:pom:) xpp2"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem xml-commons-apis"
+RPROVIDES:${PN} += "mvn(pull-parser:pull-parser) \
+mvn(pull-parser:pull-parser:pom:) \
+xpp2"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+xml-commons-apis"
 
 inherit rpm

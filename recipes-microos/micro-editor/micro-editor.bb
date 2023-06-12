@@ -15,7 +15,8 @@ PV = "2.0.11"
 RPM_NAME = "micro-editor-2.0.11-2.1.aarch64.rpm"
 RPM_HASH = "7706c970f9d831b8973b49c977adcc2d6f9e891be9308b35d69836ad260bc2682466ab80714cf3ef047a8df2e3544326939cd19dd1b7ae86603dac8fe374cb5c"
 
-RPROVIDES:${PN} += "micro-editor micro-editor(aarch-64)"
+RPROVIDES:${PN} += "micro-editor \
+micro-editor(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

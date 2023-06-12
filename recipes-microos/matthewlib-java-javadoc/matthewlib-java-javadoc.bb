@@ -20,7 +20,8 @@ PV = "0.8"
 RPM_NAME = "matthewlib-java-javadoc-0.8-13.6.aarch64.rpm"
 RPM_HASH = "741e7c9a0adb5034eab6dc6201ca1e15121cf9d2dadfd3059c0dbbcbc14c71edc0f739d9b4f9d2fdf8cd04c22d82eafa8cedd4f3388ed1b2a11b61e03c763c3b"
 
-RPROVIDES:${PN} += "matthewlib-java-javadoc matthewlib-java-javadoc(aarch-64)"
+RPROVIDES:${PN} += "matthewlib-java-javadoc \
+matthewlib-java-javadoc(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

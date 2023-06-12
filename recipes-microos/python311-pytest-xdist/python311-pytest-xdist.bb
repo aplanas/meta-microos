@@ -29,7 +29,11 @@ RPM_NAME = "python311-pytest-xdist-3.3.1-1.1.noarch.rpm"
 RPM_HASH = "5b0860513925cd5a5f3cc7268562d5f350d07e4dd7cc3b78d2ef4efe667e57beed1031f18769e5d617b377c235f113d3da1c0114ec315e69a7862904fcbf50a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pytest-xdist) python311-pytest-xdist python3dist(pytest-xdist)"
-RDEPENDS:${PN} += "python(abi) python311-execnet python311-pytest"
+RPROVIDES:${PN} += "python3.11dist(pytest-xdist) \
+python311-pytest-xdist \
+python3dist(pytest-xdist)"
+RDEPENDS:${PN} += "python(abi) \
+python311-execnet \
+python311-pytest"
 
 inherit rpm

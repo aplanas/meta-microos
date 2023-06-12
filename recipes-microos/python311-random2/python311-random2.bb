@@ -17,7 +17,9 @@ RPM_NAME = "python311-random2-1.0.1-8.1.noarch.rpm"
 RPM_HASH = "dcfc9dcc0a905bf449aa2b24eb7095f2e552c7ca4cc497b6212c3ed4c9cace0bcaab697835b91ce8f8dcc1add677d753da146844b994a4424cc650e432dd1f92"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(random2) python311-random2 python3dist(random2)"
+RPROVIDES:${PN} += "python3.11dist(random2) \
+python311-random2 \
+python3dist(random2)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

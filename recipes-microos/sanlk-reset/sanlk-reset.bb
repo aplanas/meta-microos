@@ -10,7 +10,15 @@ PV = "3.8.5"
 RPM_NAME = "sanlk-reset-3.8.5-1.3.aarch64.rpm"
 RPM_HASH = "300373bae0aa2aac027a9050d7d8048ff290245d8148d9311241dba264c6ba165a8460457d32430fd8227e3c7688e977463ce1e7800d99127e26591bd1956d95"
 
-RPROVIDES:${PN} += "sanlk-reset sanlk-reset(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libsanlock.so.1()(64bit) libsanlock1 libwdmd.so.1()(64bit) sanlock"
+RPROVIDES:${PN} += "sanlk-reset \
+sanlk-reset(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libsanlock.so.1()(64bit) \
+libsanlock1 \
+libwdmd.so.1()(64bit) \
+sanlock"
 
 inherit rpm

@@ -15,6 +15,19 @@ RPM_HASH = "ca0874edf9574b108092487ac1dc51067b93c0e6b7fa9aacfb56c3796393ad5051e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spix"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin texlive-spix-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-spix-bin"
 
 inherit rpm

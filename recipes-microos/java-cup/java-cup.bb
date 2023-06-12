@@ -17,7 +17,12 @@ RPM_NAME = "java-cup-0.11-32.1.noarch.rpm"
 RPM_HASH = "e6ef5186ca1efd839596671d3e0da99eeb6f12e137da2717c4fb1b36ed3a1e7ba8b958c4b2d79e045c13762480ffdcbb8fcc24517ee54a789b2327459063e08c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "java-cup java_cup mvn(com.github.vbmacher:java-cup) mvn(com.github.vbmacher:java-cup-runtime)"
-RDEPENDS:${PN} += "/bin/bash java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "java-cup \
+java_cup \
+mvn(com.github.vbmacher:java-cup) \
+mvn(com.github.vbmacher:java-cup-runtime)"
+RDEPENDS:${PN} += "/bin/bash \
+java-headless \
+javapackages-filesystem"
 
 inherit rpm

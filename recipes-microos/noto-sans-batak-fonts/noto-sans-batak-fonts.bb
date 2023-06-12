@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-batak-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "49c38e978f03637dfa060aa3d6098d8636c9aee4347d260fda3ce79d9232f9bbe191585bca3ff197ca5bc0080e9902edefd2d381e04ea6301f758427012060e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-batak noto-sans-batak-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-batak \
+noto-sans-batak-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

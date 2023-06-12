@@ -15,7 +15,12 @@ RPM_NAME = "python39-SoundCard-0.4.2-1.3.noarch.rpm"
 RPM_HASH = "bea4a9366240df8fceb3632b04ae7f31049636c38a625d2258614c605e2b8544c513c0b4a8be14a91ff95a57f8a7c24e68d4ff30a0d3367251a1a21e39dfcd37"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(soundcard) python39-SoundCard python3dist(soundcard)"
-RDEPENDS:${PN} += "pulseaudio-daemon python(abi) python39-cffi python39-numpy"
+RPROVIDES:${PN} += "python3.9dist(soundcard) \
+python39-SoundCard \
+python3dist(soundcard)"
+RDEPENDS:${PN} += "pulseaudio-daemon \
+python(abi) \
+python39-cffi \
+python39-numpy"
 
 inherit rpm

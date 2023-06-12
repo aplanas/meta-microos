@@ -24,7 +24,10 @@ RPM_NAME = "perl-Class-Spiffy-0.15-138.20.noarch.rpm"
 RPM_HASH = "8578243e97432016fef41556d1df7cf53af2d0f0e2e64b2cb34a07b29d7d5405099896c5a7e5d79922fe122a564040498f0c536aca8b6ce24b7156676ca622e1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Spiffy) perl(Class::Spiffy::mixin) perl(DB) perl-Class-Spiffy"
+RPROVIDES:${PN} += "perl(Class::Spiffy) \
+perl(Class::Spiffy::mixin) \
+perl(DB) \
+perl-Class-Spiffy"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

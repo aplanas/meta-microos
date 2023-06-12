@@ -12,6 +12,10 @@ RPM_HASH = "e8786fec8192f3ff010e4781babac63ef59a4c12624a2f06f35b9b04dce2ce4d027e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-Twisted-conch"
-RDEPENDS:${PN} += "python39-Twisted python39-appdirs python39-bcrypt python39-cryptography python39-pyasn1"
+RDEPENDS:${PN} += "python39-Twisted \
+python39-appdirs \
+python39-bcrypt \
+python39-cryptography \
+python39-pyasn1"
 
 inherit rpm

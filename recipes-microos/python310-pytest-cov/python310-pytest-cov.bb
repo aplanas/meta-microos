@@ -13,7 +13,12 @@ RPM_NAME = "python310-pytest-cov-4.1.0-1.1.noarch.rpm"
 RPM_HASH = "974ec0fd508fbc267227d126d8e0444fcdda018a46834990854e77df9f782829add8015fe990c3269d59eccd0153f1a21241d3334a2ae22abea19898f0b6c732"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-cov python3.10dist(pytest-cov) python310-pytest-cov python3dist(pytest-cov)"
-RDEPENDS:${PN} += "python(abi) python310-coverage python310-pytest"
+RPROVIDES:${PN} += "python3-pytest-cov \
+python3.10dist(pytest-cov) \
+python310-pytest-cov \
+python3dist(pytest-cov)"
+RDEPENDS:${PN} += "python(abi) \
+python310-coverage \
+python310-pytest"
 
 inherit rpm

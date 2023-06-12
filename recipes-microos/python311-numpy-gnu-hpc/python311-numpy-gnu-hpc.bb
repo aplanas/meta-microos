@@ -9,7 +9,9 @@ PV = "1.24.2"
 RPM_NAME = "python311-numpy-gnu-hpc-1.24.2-3.1.aarch64.rpm"
 RPM_HASH = "867813e23fc65c1b2ab4679ce2b9cadae024b5344abf796753fb0e7b36c0372db298fd519c82d94d18553e847214866de39f179d2783758b20ac7bf771b36fb5"
 
-RPROVIDES:${PN} += "python311-numpy-gnu-hpc python311-numpy-gnu-hpc(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh python311-numpy_1_24_2-gnu-hpc"
+RPROVIDES:${PN} += "python311-numpy-gnu-hpc \
+python311-numpy-gnu-hpc(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+python311-numpy_1_24_2-gnu-hpc"
 
 inherit rpm

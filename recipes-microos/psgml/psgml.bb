@@ -28,6 +28,7 @@ RPM_HASH = "e54d46709cf3e9063e74aa6e1f616f7cacf87f273986751464a21134ff307c214599
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "psgml"
-RDEPENDS:${PN} += "/bin/sh emacs_program"
+RDEPENDS:${PN} += "/bin/sh \
+emacs_program"
 
 inherit rpm

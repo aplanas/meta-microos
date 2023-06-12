@@ -14,7 +14,20 @@ RPM_NAME = "texlive-listlbls-2023.201.1.03svn34893-54.1.noarch.rpm"
 RPM_HASH = "cfefe509a80c0e36ceba6db0acc87432711b3d5555fabf15d6f242bb004537eb4efeb975fd5461cc955e94404d56cd78d812a450af20bc3d0196689109f0e6d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(listlbls.sty) texlive-listlbls"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(translations.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(listlbls.sty) \
+texlive-listlbls"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(translations.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

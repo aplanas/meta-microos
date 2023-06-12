@@ -10,7 +10,8 @@ PV = "4.1.2"
 RPM_NAME = "libbeecrypt-devel-4.1.2-28.12.aarch64.rpm"
 RPM_HASH = "422522efc3a61e821107f915b20b5e3ec5c440ef8360640bb587ca115ed12196090f7aeb6c39365eb78766973026c34b72b0e586f188da75563c4f488d164e0c"
 
-RPROVIDES:${PN} += "libbeecrypt-devel libbeecrypt-devel(aarch-64)"
+RPROVIDES:${PN} += "libbeecrypt-devel \
+libbeecrypt-devel(aarch-64)"
 RDEPENDS:${PN} += "libbeecrypt6"
 
 inherit rpm

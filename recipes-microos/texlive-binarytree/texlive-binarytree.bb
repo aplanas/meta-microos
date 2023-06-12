@@ -14,7 +14,20 @@ RPM_NAME = "texlive-binarytree-2023.201.1.01svn41777-53.1.noarch.rpm"
 RPM_HASH = "ef89c0750fd6e83cbe94552a8de0f4c74a73a3b3cd80f200386de38a53e9c2664ee9e4a373571f22ab5e76b8f7445c2deaf225e27f3cd622f096c33ad37faac0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(binarytree.sty) texlive-binarytree"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(tikz.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(binarytree.sty) \
+texlive-binarytree"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(tikz.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

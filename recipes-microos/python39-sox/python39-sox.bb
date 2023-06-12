@@ -13,7 +13,10 @@ RPM_NAME = "python39-sox-1.4.1-1.14.noarch.rpm"
 RPM_HASH = "67ffdeb024b07cd8ec3e50f0e0b78d3c35d89bd22fb1bf99d44faa518cc5e423b0eff8c73295a7185028a15bdcb77b3d5587a62412f747979c3c5e994a5392d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(sox) python39-sox python3dist(sox)"
-RDEPENDS:${PN} += "python(abi) sox"
+RPROVIDES:${PN} += "python3.9dist(sox) \
+python39-sox \
+python3dist(sox)"
+RDEPENDS:${PN} += "python(abi) \
+sox"
 
 inherit rpm

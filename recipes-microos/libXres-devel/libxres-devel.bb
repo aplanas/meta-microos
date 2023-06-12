@@ -13,7 +13,13 @@ PV = "1.2.2"
 RPM_NAME = "libXres-devel-1.2.2-1.2.aarch64.rpm"
 RPM_HASH = "56804e3dc97b85df3f53df41900755e8d2ca218f2f439c03f9e70af17fd1bde1dd6e8237be30435e6895aa1c138e32fbe24de7fc435dba760395f547737e2000"
 
-RPROVIDES:${PN} += "libXres-devel libXres-devel(aarch-64) pkgconfig(xres)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libXRes1 pkgconfig(x11) pkgconfig(xext) pkgconfig(xproto)"
+RPROVIDES:${PN} += "libXres-devel \
+libXres-devel(aarch-64) \
+pkgconfig(xres)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libXRes1 \
+pkgconfig(x11) \
+pkgconfig(xext) \
+pkgconfig(xproto)"
 
 inherit rpm

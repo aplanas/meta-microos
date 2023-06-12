@@ -11,7 +11,9 @@ RPM_NAME = "python39-python-rpm-spec-0.10-1.11.noarch.rpm"
 RPM_HASH = "3f36c2d09fadb96a117fbb25bffc1af1629e7198cdce3acef35969b7c8c1c7a4208856906268842d00dae96dbb21cdcde5296ddc2ed29a69ec7e39e4777ef49d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(python-rpm-spec) python39-python-rpm-spec python3dist(python-rpm-spec)"
+RPROVIDES:${PN} += "python3.9dist(python-rpm-spec) \
+python39-python-rpm-spec \
+python3dist(python-rpm-spec)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

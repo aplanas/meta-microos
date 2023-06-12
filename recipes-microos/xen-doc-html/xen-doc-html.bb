@@ -18,7 +18,8 @@ PV = "4.17.1_04"
 RPM_NAME = "xen-doc-html-4.17.1_04-1.1.aarch64.rpm"
 RPM_HASH = "e0567d4bda60d4989934c5421cb7e2647be4dbff8197e22df61bcee676a72b08c7be68a2358eefcbfe68b7f5b299d06a2a2c9edefb1570e9302c2641c7845f71"
 
-RPROVIDES:${PN} += "xen-doc-html xen-doc-html(aarch-64)"
+RPROVIDES:${PN} += "xen-doc-html \
+xen-doc-html(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,7 +9,9 @@ RPM_NAME = "auto-1.6.1-1.10.noarch.rpm"
 RPM_HASH = "f58e5a319d71eb96a2b63b4f484b48de43f8675f37decc8b3382a36a5ddb5dd985ad07b1641417edf269b9e771f8220d2e9412592518bec23b45f289f106205e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "auto mvn(com.google.auto:auto-parent:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "auto \
+mvn(com.google.auto:auto-parent:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

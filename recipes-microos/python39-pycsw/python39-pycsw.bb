@@ -13,7 +13,18 @@ RPM_NAME = "python39-pycsw-2.6.1-1.4.noarch.rpm"
 RPM_HASH = "52e72df83f6a21d2bbc473ea49152d2be5405f7a16fad13c488b14d0362f6b4bd3c154fb246c84e91d670b46e3200a8c67eeabb883ffc471c928f701dee21e07"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pycsw) python39-pycsw python3dist(pycsw)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-OWSLib python39-Shapely python39-geolinks python39-lxml python39-pyproj python39-xmltodict update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(pycsw) \
+python39-pycsw \
+python3dist(pycsw)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+python39-OWSLib \
+python39-Shapely \
+python39-geolinks \
+python39-lxml \
+python39-pyproj \
+python39-xmltodict \
+update-alternatives"
 
 inherit rpm

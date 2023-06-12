@@ -12,7 +12,14 @@ PV = "1.5.4"
 RPM_NAME = "python310-typed-ast-1.5.4-2.1.aarch64.rpm"
 RPM_HASH = "19c0dd1a7fafb820ae0d10974b02b1ea700317faadb5abfb5b60f224f2ad320a5d2d559bdf2748ee018a9086e5ae28fd855b4bbf3be3129dd1dbc67b4af11808"
 
-RPROVIDES:${PN} += "python3-typed-ast python3.10dist(typed-ast) python310-typed-ast python310-typed-ast(aarch-64) python3dist(typed-ast)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3-typed-ast \
+python3.10dist(typed-ast) \
+python310-typed-ast \
+python310-typed-ast(aarch-64) \
+python3dist(typed-ast)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi)"
 
 inherit rpm

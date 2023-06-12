@@ -15,7 +15,23 @@ RPM_NAME = "texlive-cartonaugh-2023.201.1.0svn59938-52.1.noarch.rpm"
 RPM_HASH = "ce498d260c7ea31075c3c2c01282a57b1c35b907f37b00de87d141d781b8991f179e90ec0fa5cb9402bf8c9e8bb0a5b6555c7127bc9e88ca759f7120d015a589"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cartonaugh.sty) texlive-cartonaugh"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(iftex.sty) tex(tikz.sty) tex(xparse.sty) tex(xstring.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(cartonaugh.sty) \
+texlive-cartonaugh"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(iftex.sty) \
+tex(tikz.sty) \
+tex(xparse.sty) \
+tex(xstring.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

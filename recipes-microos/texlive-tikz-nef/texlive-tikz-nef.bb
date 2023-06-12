@@ -14,7 +14,19 @@ RPM_NAME = "texlive-tikz-nef-2023.201.0.0.1svn55920-52.1.noarch.rpm"
 RPM_HASH = "083410b69ce2ace1d0d07d1d5f00f9ffe11e6f8734a830dff4ad6db49e0b9c7a3229dc2b876ad7f32e3e5ce75036ab709b4649ad647a889a00c0bb3e68af5f62"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikzlibrarynef.code.tex) texlive-tikz-nef"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(tikzlibrarynef.code.tex) \
+texlive-tikz-nef"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

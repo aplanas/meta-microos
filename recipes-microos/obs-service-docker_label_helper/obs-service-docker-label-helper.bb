@@ -10,6 +10,7 @@ RPM_HASH = "6fe7deaa5fd02798467b346df850e25c36278407169092643e332cfe2316dd3cdc86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-docker_label_helper"
-RDEPENDS:${PN} += "/bin/bash gawk"
+RDEPENDS:${PN} += "/bin/bash \
+gawk"
 
 inherit rpm

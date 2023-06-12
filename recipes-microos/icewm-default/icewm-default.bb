@@ -11,7 +11,48 @@ PV = "3.3.5"
 RPM_NAME = "icewm-default-3.3.5-1.1.aarch64.rpm"
 RPM_HASH = "b2e37ef36736b319ee89ddbca4e84fa147b03f96b8b253b7719308774b151e3f92ab72b1cdcdf32eb5a0eaf5fb02d051652b9a16a402f3eca6d64fea73635629"
 
-RPROVIDES:${PN} += "icewm-bin icewm-default icewm-default(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl adwaita-icon-theme icewm ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libICE.so.6()(64bit) libImlib2.so.1()(64bit) libSM.so.6()(64bit) libX11.so.6()(64bit) libXcomposite.so.1()(64bit) libXdamage.so.1()(64bit) libXext.so.6()(64bit) libXfixes.so.3()(64bit) libXft.so.2()(64bit) libXinerama.so.1()(64bit) libXpm.so.4()(64bit) libXrandr.so.2()(64bit) libXrender.so.1()(64bit) libasound.so.2()(64bit) libasound.so.2(ALSA_0.9)(64bit) libasound.so.2(ALSA_0.9.0rc4)(64bit) libc.so.6(GLIBC_2.34)(64bit) libfribidi.so.0()(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libsndfile.so.1()(64bit) libsndfile.so.1(libsndfile.so.1.0)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) update-alternatives"
+RPROVIDES:${PN} += "icewm-bin \
+icewm-default \
+icewm-default(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+adwaita-icon-theme \
+icewm \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libICE.so.6()(64bit) \
+libImlib2.so.1()(64bit) \
+libSM.so.6()(64bit) \
+libX11.so.6()(64bit) \
+libXcomposite.so.1()(64bit) \
+libXdamage.so.1()(64bit) \
+libXext.so.6()(64bit) \
+libXfixes.so.3()(64bit) \
+libXft.so.2()(64bit) \
+libXinerama.so.1()(64bit) \
+libXpm.so.4()(64bit) \
+libXrandr.so.2()(64bit) \
+libXrender.so.1()(64bit) \
+libasound.so.2()(64bit) \
+libasound.so.2(ALSA_0.9)(64bit) \
+libasound.so.2(ALSA_0.9.0rc4)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libfribidi.so.0()(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libgio-2.0.so.0()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libsndfile.so.1()(64bit) \
+libsndfile.so.1(libsndfile.so.1.0)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.8)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+update-alternatives"
 
 inherit rpm

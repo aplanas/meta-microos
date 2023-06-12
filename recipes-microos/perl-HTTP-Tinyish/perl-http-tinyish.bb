@@ -14,7 +14,17 @@ RPM_NAME = "perl-HTTP-Tinyish-0.18-1.4.noarch.rpm"
 RPM_HASH = "5e188dbc14551541bdb8c463699e6ab9d5908c0ea2cb3e36368517de4e00e28a612b16d80d48e9d1f6c04b1fca931656ded230f37e14c0f00af7e7cc17652527"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Tinyish) perl(HTTP::Tinyish::Base) perl(HTTP::Tinyish::Curl) perl(HTTP::Tinyish::HTTPTiny) perl(HTTP::Tinyish::LWP) perl(HTTP::Tinyish::Wget) perl-HTTP-Tinyish"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(File::Which) perl(HTTP::Tiny) perl(IPC::Run3) perl(parent)"
+RPROVIDES:${PN} += "perl(HTTP::Tinyish) \
+perl(HTTP::Tinyish::Base) \
+perl(HTTP::Tinyish::Curl) \
+perl(HTTP::Tinyish::HTTPTiny) \
+perl(HTTP::Tinyish::LWP) \
+perl(HTTP::Tinyish::Wget) \
+perl-HTTP-Tinyish"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(File::Which) \
+perl(HTTP::Tiny) \
+perl(IPC::Run3) \
+perl(parent)"
 
 inherit rpm

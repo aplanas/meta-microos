@@ -16,7 +16,12 @@ PV = "2.10.0"
 RPM_NAME = "tensorflow-lite-devel-2.10.0-1.1.aarch64.rpm"
 RPM_HASH = "15220eb5c98ecbd28e6dbfdcbf87edfff2d914793e04492359e3f166dc14239bc80c05aa7cc6aee4644fe6c20fd542767d5f74f53f66f5b9daf5018b73e1220e"
 
-RPROVIDES:${PN} += "pkgconfig(tensorflow-lite) pkgconfig(tensorflow2-lite) tensorflow-lite-devel tensorflow-lite-devel(aarch-64) tensorflow2-lite-devel"
-RDEPENDS:${PN} += "/usr/bin/pkg-config tensorflow-lite"
+RPROVIDES:${PN} += "pkgconfig(tensorflow-lite) \
+pkgconfig(tensorflow2-lite) \
+tensorflow-lite-devel \
+tensorflow-lite-devel(aarch-64) \
+tensorflow2-lite-devel"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+tensorflow-lite"
 
 inherit rpm

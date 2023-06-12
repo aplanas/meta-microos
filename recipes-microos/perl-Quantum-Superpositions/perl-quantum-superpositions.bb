@@ -87,7 +87,12 @@ RPM_NAME = "perl-Quantum-Superpositions-2.03-1.16.noarch.rpm"
 RPM_HASH = "795dd6c71174645266d9fc89dd65f45f721ad1c39ad990da27525f952c0983c936ab47f4cfa87958a1ec8f21c0b1631cc9c6c8f5faca63f4c4cb3cf40c9c28eb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Quantum::Superpositions) perl(Quantum::Superpositions::Conj) perl(Quantum::Superpositions::Conj::True) perl(Quantum::Superpositions::Disj) perl-Quantum-Superpositions"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Class::Multimethods)"
+RPROVIDES:${PN} += "perl(Quantum::Superpositions) \
+perl(Quantum::Superpositions::Conj) \
+perl(Quantum::Superpositions::Conj::True) \
+perl(Quantum::Superpositions::Disj) \
+perl-Quantum-Superpositions"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Multimethods)"
 
 inherit rpm

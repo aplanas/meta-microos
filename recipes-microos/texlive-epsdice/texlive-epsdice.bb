@@ -12,7 +12,22 @@ RPM_NAME = "texlive-epsdice-2023.201.2.1svn15878-53.1.noarch.rpm"
 RPM_HASH = "fe121f9ae0e5c52ae83972575f8b3b9a076caa9892e02720211e7ec6742b46f72f90cc20b387f4592dc57c47ca1175ba2aaa1538e6f56ed0d410c79725b71d8f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(epsdice.cfg) tex(epsdice.sty) texlive-epsdice"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(graphicx.sty) tex(ifthen.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(epsdice.cfg) \
+tex(epsdice.sty) \
+texlive-epsdice"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(graphicx.sty) \
+tex(ifthen.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

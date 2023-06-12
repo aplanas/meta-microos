@@ -13,7 +13,12 @@ RPM_NAME = "python310-pyqtgraph-0.12.4-1.2.noarch.rpm"
 RPM_HASH = "ee76ce0e931b512e8f74e9cc3f24bccfa57b68c806ee3be597077137abaa5a94bfb995fa9266feff0031c21692c177ac2a36b1a8331759860bdf5fbe494c748d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyqtgraph python3.10dist(pyqtgraph) python310-pyqtgraph python3dist(pyqtgraph)"
-RDEPENDS:${PN} += "(python310-qt5 >= 5.12 or python310-PyQt6 >= 6.1 or python3-pyside2 >= 5.12) python(abi) python310-numpy"
+RPROVIDES:${PN} += "python3-pyqtgraph \
+python3.10dist(pyqtgraph) \
+python310-pyqtgraph \
+python3dist(pyqtgraph)"
+RDEPENDS:${PN} += "(python310-qt5 >= 5.12 or python310-PyQt6 >= 6.1 or python3-pyside2 >= 5.12) \
+python(abi) \
+python310-numpy"
 
 inherit rpm

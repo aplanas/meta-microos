@@ -8,7 +8,14 @@ PV = "1.0.3"
 RPM_NAME = "libzopfli1-1.0.3-2.1.aarch64.rpm"
 RPM_HASH = "9bd6e82ecfd81edf23f39e08fec9e1d4b2683de31d3f9966caafdaa506f451160a84b0db3cf712dc25791d73394839dbf7f237da856e71b0a0a5899d80a7cd21"
 
-RPROVIDES:${PN} += "libzopfli.so.1()(64bit) libzopfli1 libzopfli1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "libzopfli.so.1()(64bit) \
+libzopfli1 \
+libzopfli1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

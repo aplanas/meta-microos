@@ -10,7 +10,15 @@ PV = "6.3.0"
 RPM_NAME = "libsundials_cvode6-openmpi2-6.3.0-2.4.aarch64.rpm"
 RPM_HASH = "775bab39ff2d7081e48ded9aa5ccaee85ca328d027be7869ade28e05f462ca2c42df6952685b3acf08eaeeaf4ea103f94153e30e3333602a5439750ab147c8ae"
 
-RPROVIDES:${PN} += "libsundials_cvode.so.6()(64bit) libsundials_cvode6-openmpi2 libsundials_cvode6-openmpi2(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "libsundials_cvode.so.6()(64bit) \
+libsundials_cvode6-openmpi2 \
+libsundials_cvode6-openmpi2(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

@@ -8,7 +8,12 @@ RPM_NAME = "myspell-ca-20221012-1.2.noarch.rpm"
 RPM_HASH = "0063eebe34cf64a7557ad7620d23565c2f86bdf226f48b18b49dadf3e8dca12dc8ffb13c307984af97dead7ed3c17977b1961e50a9106b8c5824ca5f3a3e0ad8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libreoffice-thesaurus-ca locale(libreoffice:ca) locale(seamonkey-spellchecker:ca) myspell-ca myspell-catalan myspell-dictionary"
+RPROVIDES:${PN} += "libreoffice-thesaurus-ca \
+locale(libreoffice:ca) \
+locale(seamonkey-spellchecker:ca) \
+myspell-ca \
+myspell-catalan \
+myspell-dictionary"
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

@@ -11,7 +11,22 @@ PV = "2.7.2"
 RPM_NAME = "libwsman1-2.7.2-2.5.aarch64.rpm"
 RPM_HASH = "6e40d9a9f752f92c80db1c78c8fb8ed1fdf25526da99e3192ee9fac541caa736ab1ad8962fc5b81e7d7c5fbdd0afec4fd99f6adec0bf7c9224ee026f9317eb6a"
 
-RPROVIDES:${PN} += "libwsman.so.1()(64bit) libwsman1 libwsman1(aarch-64) libwsman_curl_client_transport.so.1()(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libcurl.so.4()(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) libwsman_client.so.5()(64bit) libxml2.so.2()(64bit) libxml2.so.2(LIBXML2_2.4.30)(64bit) libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+RPROVIDES:${PN} += "libwsman.so.1()(64bit) \
+libwsman1 \
+libwsman1(aarch-64) \
+libwsman_curl_client_transport.so.1()(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libcurl.so.4()(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+libwsman_client.so.5()(64bit) \
+libxml2.so.2()(64bit) \
+libxml2.so.2(LIBXML2_2.4.30)(64bit) \
+libxml2.so.2(LIBXML2_2.6.0)(64bit)"
 
 inherit rpm

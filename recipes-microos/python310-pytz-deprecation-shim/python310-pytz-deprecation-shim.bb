@@ -21,7 +21,10 @@ RPM_NAME = "python310-pytz-deprecation-shim-0.1.0.post0-4.1.noarch.rpm"
 RPM_HASH = "ce80bebab40a7d7028236d88d70d38468488a17ce5f41c9817b117107b89391bc74d605959f390b0ae2a3fc0c3eef510e56087f2073c99fccfc1c1311b20d210"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytz-deprecation-shim python3.10dist(pytz-deprecation-shim) python310-pytz-deprecation-shim python3dist(pytz-deprecation-shim)"
+RPROVIDES:${PN} += "python3-pytz-deprecation-shim \
+python3.10dist(pytz-deprecation-shim) \
+python310-pytz-deprecation-shim \
+python3dist(pytz-deprecation-shim)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

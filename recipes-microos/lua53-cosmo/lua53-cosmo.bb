@@ -11,6 +11,7 @@ RPM_HASH = "9a8560aab2da02959a919e265d5c73470145dd1539e8c86592a41d709839c1fb2090
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-cosmo"
-RDEPENDS:${PN} += "lua53 lua53-lpeg"
+RDEPENDS:${PN} += "lua53 \
+lua53-lpeg"
 
 inherit rpm

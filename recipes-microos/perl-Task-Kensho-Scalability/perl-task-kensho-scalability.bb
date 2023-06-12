@@ -37,7 +37,10 @@ RPM_NAME = "perl-Task-Kensho-Scalability-0.41-1.9.noarch.rpm"
 RPM_HASH = "429b935c74ad6ae60d7b1f9c5f8da61995d2445b27583f66db12282eb81e8ed19fd7bf0e342c6c9c6c5e90106d40d87d762bd5fd28a9f71d79d35a8c98dc3990"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Task::Kensho::Scalability) perl-Task-Kensho-Scalability"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(CHI) perl(Redis)"
+RPROVIDES:${PN} += "perl(Task::Kensho::Scalability) \
+perl-Task-Kensho-Scalability"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(CHI) \
+perl(Redis)"
 
 inherit rpm

@@ -33,7 +33,8 @@ RPM_NAME = "thessalonica-theano-ttf-fonts-2.0-11.18.noarch.rpm"
 RPM_HASH = "025b16c2955a934f3c6392dde7c297a363fd36e70ff2057e93d6c690915ab40c445c9db0d47d9a27ecf5c29b738b0ef46dd94f789963c7b0ac2af2a30e62c54e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "theano-fonts-ttf thessalonica-theano-ttf-fonts"
+RPROVIDES:${PN} += "theano-fonts-ttf \
+thessalonica-theano-ttf-fonts"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -95,7 +95,11 @@ RPM_NAME = "perl-File-Finder-0.53-1.23.noarch.rpm"
 RPM_HASH = "60947df4083a42a000b04b5e462c779bbf6a3c5dff522794b9312e78bc4c4993965236fe1098c7b67e2111b742c9ee36ec8bd5defa714140eaee98872d79959c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::Finder) perl(File::Finder::Steps) perl-File-Finder"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Test::More) perl(Text::Glob)"
+RPROVIDES:${PN} += "perl(File::Finder) \
+perl(File::Finder::Steps) \
+perl-File-Finder"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Test::More) \
+perl(Text::Glob)"
 
 inherit rpm

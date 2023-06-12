@@ -23,7 +23,20 @@ RPM_NAME = "texlive-shadethm-2023.201.svn53350-53.1.noarch.rpm"
 RPM_HASH = "35ab08635c245f4271bc26d2acc443db5f43bebab936afa7337fed72d3c991a901739c91f412839f9ae89a3691292b097015b202f9a99e9c653aab12e2edeea7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(shadethm.sty) texlive-shadethm"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(color.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(shadethm.sty) \
+texlive-shadethm"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(color.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

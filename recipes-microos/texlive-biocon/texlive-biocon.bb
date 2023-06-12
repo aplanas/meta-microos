@@ -15,7 +15,22 @@ RPM_NAME = "texlive-biocon-2023.201.svn15878-53.1.noarch.rpm"
 RPM_HASH = "2657dea403a93e74c325897c92a90043541b8252f8bcfc6aa69689844e8ec1ce48ba5af7c796eb9e2aee28a31ba4f81996f58081a8a42c2a9efa6d15a5204806"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(biocon-old.sty) tex(biocon.sty) texlive-biocon"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifthen.sty) tex(keyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(biocon-old.sty) \
+tex(biocon.sty) \
+texlive-biocon"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifthen.sty) \
+tex(keyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

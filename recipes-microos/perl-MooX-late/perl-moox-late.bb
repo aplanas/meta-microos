@@ -50,7 +50,12 @@ RPM_NAME = "perl-MooX-late-0.100-2.10.noarch.rpm"
 RPM_HASH = "c4e731ce94a1ca22994a933e39a5523e71651ca19b0458b07b0acb92370584bf9988851df7013eea49de9d362605bb1963c70f79de69005338e939a3c4a8132f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooX::late) perl(MooX::late::DefinitionContext) perl-MooX-late"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Moo) perl(Sub::HandlesVia) perl(Type::Utils)"
+RPROVIDES:${PN} += "perl(MooX::late) \
+perl(MooX::late::DefinitionContext) \
+perl-MooX-late"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Moo) \
+perl(Sub::HandlesVia) \
+perl(Type::Utils)"
 
 inherit rpm

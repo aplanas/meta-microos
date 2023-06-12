@@ -25,7 +25,10 @@ RPM_NAME = "perl-XML-Filter-BufferText-1.01-9.26.noarch.rpm"
 RPM_HASH = "0de3a24b5e741803d32f7d599c355cac3d47657d75e7a749a9cf34952269245d5568adf3e8d7122390e016e6785bec1e634b37b8a13407aad1e2d70b477ea253"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::Filter::BufferText) perl-XML-Filter-BufferText"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(XML::SAX) perl(XML::SAX::Base)"
+RPROVIDES:${PN} += "perl(XML::Filter::BufferText) \
+perl-XML-Filter-BufferText"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(XML::SAX) \
+perl(XML::SAX::Base)"
 
 inherit rpm

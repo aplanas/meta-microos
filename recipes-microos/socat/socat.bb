@@ -12,7 +12,16 @@ PV = "1.7.4.3"
 RPM_NAME = "socat-1.7.4.3-2.6.aarch64.rpm"
 RPM_HASH = "9c7393686bef10806cabd6825b371602d0941e59a18e182fce1ddc9b9a67aa64728bfa96cc0934d612c3dfff125d95c34f05e1d41e28dd9f5f426e8e9952d8b7"
 
-RPROVIDES:${PN} += "socat socat(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libreadline.so.8()(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) libwrap.so.0()(64bit)"
+RPROVIDES:${PN} += "socat \
+socat(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libreadline.so.8()(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+libwrap.so.0()(64bit)"
 
 inherit rpm

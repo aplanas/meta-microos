@@ -11,7 +11,12 @@ RPM_NAME = "python39-caldav-0.10.0-1.3.noarch.rpm"
 RPM_HASH = "20d432d94b88d3a35e66ad4a0a031f2660644080fdfd2a835fd83bef519faff0ce1853da923702df3de440fbc67edd51654411f442c46a21f4e542d7a0451106"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(caldav) python39-caldav python3dist(caldav)"
-RDEPENDS:${PN} += "python(abi) python39-lxml python39-requests python39-vobject"
+RPROVIDES:${PN} += "python3.9dist(caldav) \
+python39-caldav \
+python3dist(caldav)"
+RDEPENDS:${PN} += "python(abi) \
+python39-lxml \
+python39-requests \
+python39-vobject"
 
 inherit rpm

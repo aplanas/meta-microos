@@ -22,7 +22,11 @@ RPM_NAME = "python39-dj-database-url-1.3.0-2.1.noarch.rpm"
 RPM_HASH = "b7c3e6d1ef3348a3a2b9534803aeefabb58e7577b12d3ed1016dc7567c97607321d0a2752838501d3988e7c49b762bbb74084a236231bd55fd4d60a778ec2906"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(dj-database-url) python39-dj-database-url python3dist(dj-database-url)"
-RDEPENDS:${PN} += "python(abi) python39-Django python39-typing_extensions"
+RPROVIDES:${PN} += "python3.9dist(dj-database-url) \
+python39-dj-database-url \
+python3dist(dj-database-url)"
+RDEPENDS:${PN} += "python(abi) \
+python39-Django \
+python39-typing_extensions"
 
 inherit rpm

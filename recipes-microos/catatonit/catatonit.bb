@@ -14,7 +14,8 @@ PV = "0.1.7"
 RPM_NAME = "catatonit-0.1.7-1.7.aarch64.rpm"
 RPM_HASH = "883da28cfd6a80cb2f070fd519def4228f6f0cb72fcf2577d59782ea57aec3fdd8028c3d75f7b0921dfe5d4c7250715051df65195097ea3e1b9488cb0f4e2994"
 
-RPROVIDES:${PN} += "catatonit catatonit(aarch-64)"
+RPROVIDES:${PN} += "catatonit \
+catatonit(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,7 +13,30 @@ PV = "1.9.13p3"
 RPM_NAME = "sudo-1.9.13p3-3.1.aarch64.rpm"
 RPM_HASH = "43424f7c99dc5025233a2821619b2fdf52432ab318420f5ea5650612c1f4ceb01ec342f638f92124faeadee455845204ac6e4121831ade1a0d108108298bf2b3"
 
-RPROVIDES:${PN} += "config(sudo) libsudo_util.so.0()(64bit) sudo sudo(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh coreutils ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libaudit.so.1()(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) liblber.so.2()(64bit) liblber.so.2(OPENLDAP_2.200)(64bit) libldap.so.2()(64bit) libldap.so.2(OPENLDAP_2.200)(64bit) libpam.so.0()(64bit) libpam.so.0(LIBPAM_1.0)(64bit) libselinux.so.1()(64bit) libselinux.so.1(LIBSELINUX_1.0)(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) libz.so.1()(64bit) libz.so.1(ZLIB_1.2.0.2)(64bit) permissions"
+RPROVIDES:${PN} += "config(sudo) \
+libsudo_util.so.0()(64bit) \
+sudo \
+sudo(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libaudit.so.1()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+liblber.so.2()(64bit) \
+liblber.so.2(OPENLDAP_2.200)(64bit) \
+libldap.so.2()(64bit) \
+libldap.so.2(OPENLDAP_2.200)(64bit) \
+libpam.so.0()(64bit) \
+libpam.so.0(LIBPAM_1.0)(64bit) \
+libselinux.so.1()(64bit) \
+libselinux.so.1(LIBSELINUX_1.0)(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+libz.so.1()(64bit) \
+libz.so.1(ZLIB_1.2.0.2)(64bit) \
+permissions"
 
 inherit rpm

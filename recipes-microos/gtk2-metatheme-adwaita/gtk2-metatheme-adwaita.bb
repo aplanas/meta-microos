@@ -9,6 +9,8 @@ RPM_HASH = "ea1e5ea4c2bd8779e205151cddbabf0b22762f03619919aceab52edbd49105bf1584
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-adwaita"
-RDEPENDS:${PN} += "gtk2 gtk2-theming-engine-adwaita metatheme-adwaita-common"
+RDEPENDS:${PN} += "gtk2 \
+gtk2-theming-engine-adwaita \
+metatheme-adwaita-common"
 
 inherit rpm

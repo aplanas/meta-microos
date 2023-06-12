@@ -10,6 +10,8 @@ RPM_HASH = "5f3bccf88dc78c5cadff6c5c7c2a8a1653983e9ab3ccb4609a6b49843550e18e5a75
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracut-transactional-update"
-RDEPENDS:${PN} += "/bin/bash /bin/sh tukit"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+tukit"
 
 inherit rpm

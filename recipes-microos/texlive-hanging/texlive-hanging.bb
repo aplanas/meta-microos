@@ -15,7 +15,19 @@ RPM_NAME = "texlive-hanging-2023.201.1.2bsvn15878-53.1.noarch.rpm"
 RPM_HASH = "d3b4c4fa9145d2bd04eba51ad254b5c8a8f597d4a1a143732765a482c2e825fe8832a4579276edeb3f72959cf4e6f4ebdf65af15963e600149a03bc9cb0644a1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hanging.sty) texlive-hanging"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(hanging.sty) \
+texlive-hanging"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

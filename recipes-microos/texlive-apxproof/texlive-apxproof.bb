@@ -19,7 +19,27 @@ RPM_NAME = "texlive-apxproof-2023.201.1.2.4svn64715-54.1.noarch.rpm"
 RPM_HASH = "5ece37c09b4beb13eec0047c3a186bbf696c016f27f1c6c0981de584e9b4cba5bf0116661bc728e28813b9d9eaa8ce69e770ac90f635c67d1488b0eb62e5c60b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(apxproof.sty) texlive-apxproof"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsthm.sty) tex(bibunits.sty) tex(catchfile.sty) tex(environ.sty) tex(etoolbox.sty) tex(fancyvrb.sty) tex(ifthen.sty) tex(kvoptions.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(apxproof.sty) \
+texlive-apxproof"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsthm.sty) \
+tex(bibunits.sty) \
+tex(catchfile.sty) \
+tex(environ.sty) \
+tex(etoolbox.sty) \
+tex(fancyvrb.sty) \
+tex(ifthen.sty) \
+tex(kvoptions.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

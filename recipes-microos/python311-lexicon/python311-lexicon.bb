@@ -12,7 +12,10 @@ RPM_NAME = "python311-lexicon-2.0.1-4.1.noarch.rpm"
 RPM_HASH = "726d0780ee1358acdee6c07cf2a8a716d94c55ef3fef7cf4eb4a4b924ca34759a134c8c5f2e5eb8ee91f032338516b5cb1462a59f06faf10943bded2a962a71f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(lexicon) python311-lexicon python3dist(lexicon)"
-RDEPENDS:${PN} += "python(abi) python311-six"
+RPROVIDES:${PN} += "python3.11dist(lexicon) \
+python311-lexicon \
+python3dist(lexicon)"
+RDEPENDS:${PN} += "python(abi) \
+python311-six"
 
 inherit rpm

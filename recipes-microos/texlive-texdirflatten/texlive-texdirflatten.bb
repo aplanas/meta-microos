@@ -13,6 +13,24 @@ RPM_HASH = "dab5647f6d3550fe7a5602b651ca6a441221c4abc641f19ec079002387e8d7de3d9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texdirflatten"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(Getopt::Long) perl(Pod::Usage) perl(re) perl(strict) perl(warnings) sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin texlive-texdirflatten-bin"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(Getopt::Long) \
+perl(Pod::Usage) \
+perl(re) \
+perl(strict) \
+perl(warnings) \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin \
+texlive-texdirflatten-bin"
 
 inherit rpm

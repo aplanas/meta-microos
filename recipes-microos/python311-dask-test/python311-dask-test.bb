@@ -11,6 +11,7 @@ RPM_HASH = "10d601a6048a43168eef031b50cc2cab4c81096c52e1ce813cebe1162f784d2225a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-dask-test"
-RDEPENDS:${PN} += "python(abi) python311-dask-complete"
+RDEPENDS:${PN} += "python(abi) \
+python311-dask-complete"
 
 inherit rpm

@@ -14,7 +14,32 @@ PV = "1.11.1"
 RPM_NAME = "pmdk-tools-1.11.1-1.8.aarch64.rpm"
 RPM_HASH = "c65ae59697d0b3d8c856b050d8e45c4444ca8fe41a040adb543eb33db6f2006b134763b60e558ad1dbf38d052b6d4a09495b041181ee9de566a565c07405b991"
 
-RPROVIDES:${PN} += "nvml-tools pmdk-tools pmdk-tools(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh bash-completion ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libdaxctl.so.1()(64bit) libdaxctl.so.1(LIBDAXCTL_1)(64bit) libdaxctl.so.1(LIBDAXCTL_2)(64bit) libdaxctl.so.1(LIBDAXCTL_4)(64bit) libndctl.so.6()(64bit) libndctl.so.6(LIBNDCTL_1)(64bit) libndctl.so.6(LIBNDCTL_15)(64bit) libndctl.so.6(LIBNDCTL_18)(64bit) libndctl.so.6(LIBNDCTL_3)(64bit) libpmem.so.1()(64bit) libpmem.so.1(LIBPMEM_1.0)(64bit) libpmemblk.so.1()(64bit) libpmemblk.so.1(LIBPMEMBLK_1.0)(64bit) libpmemlog.so.1()(64bit) libpmemlog.so.1(LIBPMEMLOG_1.0)(64bit) libpmemobj.so.1()(64bit) libpmemobj.so.1(LIBPMEMOBJ_1.0)(64bit) libpmempool.so.1()(64bit) libpmempool.so.1(LIBPMEMPOOL_1.0)(64bit)"
+RPROVIDES:${PN} += "nvml-tools \
+pmdk-tools \
+pmdk-tools(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+bash-completion \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libdaxctl.so.1()(64bit) \
+libdaxctl.so.1(LIBDAXCTL_1)(64bit) \
+libdaxctl.so.1(LIBDAXCTL_2)(64bit) \
+libdaxctl.so.1(LIBDAXCTL_4)(64bit) \
+libndctl.so.6()(64bit) \
+libndctl.so.6(LIBNDCTL_1)(64bit) \
+libndctl.so.6(LIBNDCTL_15)(64bit) \
+libndctl.so.6(LIBNDCTL_18)(64bit) \
+libndctl.so.6(LIBNDCTL_3)(64bit) \
+libpmem.so.1()(64bit) \
+libpmem.so.1(LIBPMEM_1.0)(64bit) \
+libpmemblk.so.1()(64bit) \
+libpmemblk.so.1(LIBPMEMBLK_1.0)(64bit) \
+libpmemlog.so.1()(64bit) \
+libpmemlog.so.1(LIBPMEMLOG_1.0)(64bit) \
+libpmemobj.so.1()(64bit) \
+libpmemobj.so.1(LIBPMEMOBJ_1.0)(64bit) \
+libpmempool.so.1()(64bit) \
+libpmempool.so.1(LIBPMEMPOOL_1.0)(64bit)"
 
 inherit rpm

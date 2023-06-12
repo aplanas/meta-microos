@@ -12,7 +12,10 @@ RPM_NAME = "python311-aspectlib-2.0.0-1.1.noarch.rpm"
 RPM_HASH = "c60a0f904b2dabbba31450b7c564a42e2f22aa34b37d8e0998805efc971c387cfa7999f2faf8402c027d1bcea346ea1365cadbfe5f699d2ba805b63debb96065"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(aspectlib) python311-aspectlib python3dist(aspectlib)"
-RDEPENDS:${PN} += "python(abi) python311-fields"
+RPROVIDES:${PN} += "python3.11dist(aspectlib) \
+python311-aspectlib \
+python3dist(aspectlib)"
+RDEPENDS:${PN} += "python(abi) \
+python311-fields"
 
 inherit rpm

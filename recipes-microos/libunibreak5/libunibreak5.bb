@@ -9,7 +9,12 @@ PV = "5.0"
 RPM_NAME = "libunibreak5-5.0-1.6.aarch64.rpm"
 RPM_HASH = "6691f7163cb762cf8c0dcd2da3ab453c341cd313f105de1fc7c31a7164370fa211c59b9189c8c6399873c07d92ff345017307da4307f1513861449fe3ce5e60c"
 
-RPROVIDES:${PN} += "libunibreak.so.5()(64bit) libunibreak5 libunibreak5(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libunibreak.so.5()(64bit) \
+libunibreak5 \
+libunibreak5(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

@@ -8,7 +8,11 @@ PV = "20230604"
 RPM_NAME = "MicroOS-release-dvd-20230604-1684.1.aarch64.rpm"
 RPM_HASH = "6839ef0a6255fda87e2de62e0d1d93bfe3c72b1d0414f32b253fbc5f9f7bb63d8ed2dd9ac2cac5e6dd627c5cdb0945f2b8dd598a067606817976a2d09243dd33"
 
-RPROVIDES:${PN} += "MicroOS-release-dvd MicroOS-release-dvd(aarch-64) flavor(dvd) product_flavor() product_flavor(MicroOS)"
+RPROVIDES:${PN} += "MicroOS-release-dvd \
+MicroOS-release-dvd(aarch-64) \
+flavor(dvd) \
+product_flavor() \
+product_flavor(MicroOS)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

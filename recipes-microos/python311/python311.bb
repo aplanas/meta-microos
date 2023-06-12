@@ -18,7 +18,17 @@ PV = "3.11.3"
 RPM_NAME = "python311-3.11.3-1.1.aarch64.rpm"
 RPM_HASH = "d7c7704c2ecfde9fab8ebb959e46f55bc7aad19c71950f52096eb50f3ac1de2528ee7a024a2b28ef7eccef3b78039ee38420fb50db346c1e7dc54f3e88ce4bed"
 
-RPROVIDES:${PN} += "python311 python311(aarch-64) python311-readline python311-sqlite3"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libreadline.so.8()(64bit) libreadline.so.8(READLINE_7.0)(64bit) libsqlite3.so.0()(64bit) python(abi) python311-base"
+RPROVIDES:${PN} += "python311 \
+python311(aarch-64) \
+python311-readline \
+python311-sqlite3"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libreadline.so.8()(64bit) \
+libreadline.so.8(READLINE_7.0)(64bit) \
+libsqlite3.so.0()(64bit) \
+python(abi) \
+python311-base"
 
 inherit rpm

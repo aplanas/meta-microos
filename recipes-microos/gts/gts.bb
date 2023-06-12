@@ -28,7 +28,16 @@ PV = "0.7.6_p20121130"
 RPM_NAME = "gts-0.7.6_p20121130-4.29.aarch64.rpm"
 RPM_HASH = "b8ad4f559c52a85a05582f88b4f81a85800a9e7a3062131d21023ba4abb179b1cce57f71b2398f0354fdd8af18c1e70bd90b537056102099d43560798a7117d1"
 
-RPROVIDES:${PN} += "gts gts(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libglib-2.0.so.0()(64bit) libgts-0.7.so.5()(64bit) libgts-0_7-5 libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "gts \
+gts(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgts-0.7.so.5()(64bit) \
+libgts-0_7-5 \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

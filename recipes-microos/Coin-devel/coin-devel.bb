@@ -13,7 +13,22 @@ PV = "3.1.3"
 RPM_NAME = "Coin-devel-3.1.3-6.11.aarch64.rpm"
 RPM_HASH = "b5023f8809b1ddd8f3edc8be564dc0e3eb6a6ec62b444de7ff6020f29765ace3af8b927c64d170ddb3de71004bee13495cf2e8135ee5c1b03c4228899ca9f9cd"
 
-RPROVIDES:${PN} += "Coin-devel Coin-devel(aarch-64) pkgconfig(Coin)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config fontconfig-devel freetype2-devel libCoin60 openal-soft-devel pkgconfig(bzip2) pkgconfig(dri) pkgconfig(gl) pkgconfig(glu) pkgconfig(ice) pkgconfig(x11) pkgconfig(xt) zlib-devel"
+RPROVIDES:${PN} += "Coin-devel \
+Coin-devel(aarch-64) \
+pkgconfig(Coin)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/pkg-config \
+fontconfig-devel \
+freetype2-devel \
+libCoin60 \
+openal-soft-devel \
+pkgconfig(bzip2) \
+pkgconfig(dri) \
+pkgconfig(gl) \
+pkgconfig(glu) \
+pkgconfig(ice) \
+pkgconfig(x11) \
+pkgconfig(xt) \
+zlib-devel"
 
 inherit rpm

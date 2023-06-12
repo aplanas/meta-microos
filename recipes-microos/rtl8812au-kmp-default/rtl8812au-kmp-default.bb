@@ -13,7 +13,17 @@ PV = "5.13.6+git20230511.765d4e4_k6.3.4_1"
 RPM_NAME = "rtl8812au-kmp-default-5.13.6+git20230511.765d4e4_k6.3.4_1-1.2.aarch64.rpm"
 RPM_HASH = "5c48ec4da832201bd1e5433db88dc5c93464b591c51a685b467dd39a18368e517d1baa8d452f83830a01d0b1cc8ecaf637b3bfe8afc66f77ec2b006a5e4a2c5a"
 
-RPROVIDES:${PN} += "kmod(8812au.ko) multiversion(kernel) rtl8812au-kmp rtl8812au-kmp-default rtl8812au-kmp-default(aarch-64) rtl8812au-kmp-default-k6.3.4_1"
-RDEPENDS:${PN} += "/bin/sh coreutils grep kernel-default kernel-uname-r suse-kernel-rpm-scriptlets"
+RPROVIDES:${PN} += "kmod(8812au.ko) \
+multiversion(kernel) \
+rtl8812au-kmp \
+rtl8812au-kmp-default \
+rtl8812au-kmp-default(aarch-64) \
+rtl8812au-kmp-default-k6.3.4_1"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+grep \
+kernel-default \
+kernel-uname-r \
+suse-kernel-rpm-scriptlets"
 
 inherit rpm

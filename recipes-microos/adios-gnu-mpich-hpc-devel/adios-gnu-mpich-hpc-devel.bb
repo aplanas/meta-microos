@@ -11,6 +11,7 @@ RPM_HASH = "77b528b08c4f629436c270d200b9bf0df4254a2d2067a408fcae60d093cfe68b53dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adios-gnu-mpich-hpc-devel"
-RDEPENDS:${PN} += "/bin/sh adios_1_13_1-gnu-mpich-hpc-devel"
+RDEPENDS:${PN} += "/bin/sh \
+adios_1_13_1-gnu-mpich-hpc-devel"
 
 inherit rpm

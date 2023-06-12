@@ -14,7 +14,17 @@ PV = "3.26.0"
 RPM_NAME = "ruby3.2-rubygem-hoe-3.26.0-1.6.aarch64.rpm"
 RPM_HASH = "905adc69f0556925fb4d1a9df3c991cdb4128f83d2121d751358b08db80a4d330fa95123467faf99b33b5a0d9ebf9e6903a25b6a3767aff178c7dc5cd8005250"
 
-RPROVIDES:${PN} += "ruby3.2-rubygem-hoe ruby3.2-rubygem-hoe(aarch-64) rubygem(hoe) rubygem(ruby:3.2.0:hoe) rubygem(ruby:3.2.0:hoe:3) rubygem(ruby:3.2.0:hoe:3.26) rubygem(ruby:3.2.0:hoe:3.26.0)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/ruby.ruby3.2 ruby(abi) rubygem(ruby:3.2.0:rake) update-alternatives"
+RPROVIDES:${PN} += "ruby3.2-rubygem-hoe \
+ruby3.2-rubygem-hoe(aarch-64) \
+rubygem(hoe) \
+rubygem(ruby:3.2.0:hoe) \
+rubygem(ruby:3.2.0:hoe:3) \
+rubygem(ruby:3.2.0:hoe:3.26) \
+rubygem(ruby:3.2.0:hoe:3.26.0)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/ruby.ruby3.2 \
+ruby(abi) \
+rubygem(ruby:3.2.0:rake) \
+update-alternatives"
 
 inherit rpm

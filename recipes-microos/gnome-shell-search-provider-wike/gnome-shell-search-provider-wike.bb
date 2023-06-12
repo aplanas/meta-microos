@@ -10,6 +10,7 @@ RPM_HASH = "3774f2bf34e5846c7941fcaa042630a5223218ebb8a34e1a4366fd547b2ab4bba9ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-wike"
-RDEPENDS:${PN} += "gnome-shell wike"
+RDEPENDS:${PN} += "gnome-shell \
+wike"
 
 inherit rpm

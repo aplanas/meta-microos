@@ -13,7 +13,12 @@ PV = "3.2.2"
 RPM_NAME = "fpc-3.2.2-3.9.aarch64.rpm"
 RPM_HASH = "58c9c97971d21400252512c49b996b722aa0e2446b043ee1dc6dfc108de1544a3faa233e54fd9c9770fd75d443256c55886159abfef319e0f5fbd4149304716a"
 
-RPROVIDES:${PN} += "config(fpc) fpc fpc(aarch-64) libpas2jslib.so()(64bit)"
-RDEPENDS:${PN} += "/bin/sh binutils libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "config(fpc) \
+fpc \
+fpc(aarch-64) \
+libpas2jslib.so()(64bit)"
+RDEPENDS:${PN} += "/bin/sh \
+binutils \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

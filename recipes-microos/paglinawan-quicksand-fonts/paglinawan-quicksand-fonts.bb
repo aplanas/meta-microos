@@ -16,6 +16,9 @@ RPM_HASH = "17d48a70f82c06865f1ef408ce950f1ae3aac7b2a430f78b14777a7c68355149b671
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "paglinawan-quicksand-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

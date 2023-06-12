@@ -15,7 +15,14 @@ RPM_NAME = "perl-Gravatar-URL-1.07-1.20.noarch.rpm"
 RPM_HASH = "fb9d4758278af60d5e5c77c906d3c5bb856f543e271232b467e966dea4ebc7404519ab60aa8ff7bed5c8e8f6ed3249f99e79fb08bf1dbe39dc5b4d1320876d7c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Gravatar::URL) perl(Libravatar::URL) perl(Unicornify::URL) perl-Gravatar-URL"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Digest::SHA) perl(Net::DNS) perl(URI::Escape) perl(parent)"
+RPROVIDES:${PN} += "perl(Gravatar::URL) \
+perl(Libravatar::URL) \
+perl(Unicornify::URL) \
+perl-Gravatar-URL"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Digest::SHA) \
+perl(Net::DNS) \
+perl(URI::Escape) \
+perl(parent)"
 
 inherit rpm

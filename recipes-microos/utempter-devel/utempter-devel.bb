@@ -8,7 +8,8 @@ PV = "1.2.1"
 RPM_NAME = "utempter-devel-1.2.1-1.1.aarch64.rpm"
 RPM_HASH = "febd096eba32cced6e39991e788199ae1a31bea76b81024bbdc1549b3e8f86b0cff9427cbd06d46e1023af76cc63083d6c3928ea540ab37bb0be8ba192070857"
 
-RPROVIDES:${PN} += "utempter-devel utempter-devel(aarch-64)"
+RPROVIDES:${PN} += "utempter-devel \
+utempter-devel(aarch-64)"
 RDEPENDS:${PN} += "libutempter0"
 
 inherit rpm

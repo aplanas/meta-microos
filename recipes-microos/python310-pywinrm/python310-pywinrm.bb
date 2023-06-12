@@ -15,7 +15,14 @@ RPM_NAME = "python310-pywinrm-0.4.3-2.1.noarch.rpm"
 RPM_HASH = "19963c158c00faedc0d0d5d8eaad368cafee223611d65e589c8792be514357a65541d341fd0b2392f32bfc636e5c1033e22eda364b855e6d02a919858afb076e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pywinrm python3.10dist(pywinrm) python310-pywinrm python3dist(pywinrm)"
-RDEPENDS:${PN} += "python(abi) python310-requests python310-requests_ntlm python310-six python310-xmltodict"
+RPROVIDES:${PN} += "python3-pywinrm \
+python3.10dist(pywinrm) \
+python310-pywinrm \
+python3dist(pywinrm)"
+RDEPENDS:${PN} += "python(abi) \
+python310-requests \
+python310-requests_ntlm \
+python310-six \
+python310-xmltodict"
 
 inherit rpm

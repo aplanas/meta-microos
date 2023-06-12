@@ -11,7 +11,16 @@ PV = "2.0.1.g17"
 RPM_NAME = "libSDL2_sound2-2.0.1.g17-1.9.aarch64.rpm"
 RPM_HASH = "ea8253b50c84ae290c3ff74dd446f515722fcb535b7d5d4915f7e03a834a51c725652597070de73fb3f9acfd91be4758a02f52a99bbd3b3d13f841e3d1bb171c"
 
-RPROVIDES:${PN} += "libSDL2_sound.so.2()(64bit) libSDL2_sound2 libSDL2_sound2(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libSDL2-2.0.so.0()(64bit) libSDL2-2.0.so.0(SUSE_2.0.10)(64bit) libSDL2-2.0.so.0(SUSE_2.0.9)(64bit) libSDL2-2.0.so.0(SUSE_2.24.0)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libSDL2_sound.so.2()(64bit) \
+libSDL2_sound2 \
+libSDL2_sound2(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libSDL2-2.0.so.0()(64bit) \
+libSDL2-2.0.so.0(SUSE_2.0.10)(64bit) \
+libSDL2-2.0.so.0(SUSE_2.0.9)(64bit) \
+libSDL2-2.0.so.0(SUSE_2.24.0)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

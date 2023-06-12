@@ -16,7 +16,16 @@ PV = "5.3.6"
 RPM_NAME = "lua53-5.3.6-2.3.aarch64.rpm"
 RPM_HASH = "389601b98d47597ca058a4d6b8486c47538475ba8ea078e6238d1755f8cf5c1376dba1c9d08cd8e8f22bf32379286288d503e356b97f85100ae681d2405eae5e"
 
-RPROVIDES:${PN} += "Lua(API) lua lua53 lua53(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) liblua5.3.so.5()(64bit) libreadline.so.8()(64bit) update-alternatives"
+RPROVIDES:${PN} += "Lua(API) \
+lua \
+lua53 \
+lua53(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+liblua5.3.so.5()(64bit) \
+libreadline.so.8()(64bit) \
+update-alternatives"
 
 inherit rpm

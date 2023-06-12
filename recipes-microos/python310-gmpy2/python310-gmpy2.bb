@@ -12,7 +12,19 @@ PV = "2.1.5"
 RPM_NAME = "python310-gmpy2-2.1.5-2.1.aarch64.rpm"
 RPM_HASH = "3a768bbe6418dc50d3634c130c92c6cfc65be6818bf73b4931c271f949edf87430a7171ea64743b85646c882b6e5430fbcc3d1b33892d3398722f85aa5b2379a"
 
-RPROVIDES:${PN} += "python3-gmpy2 python3.10dist(gmpy2) python310-gmpy2 python310-gmpy2(aarch-64) python3dist(gmpy2)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgmp.so.10()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.29)(64bit) libmpc.so.3()(64bit) libmpfr.so.6()(64bit) python(abi)"
+RPROVIDES:${PN} += "python3-gmpy2 \
+python3.10dist(gmpy2) \
+python310-gmpy2 \
+python310-gmpy2(aarch-64) \
+python3dist(gmpy2)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgmp.so.10()(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libmpc.so.3()(64bit) \
+libmpfr.so.6()(64bit) \
+python(abi)"
 
 inherit rpm

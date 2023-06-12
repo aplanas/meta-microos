@@ -24,7 +24,11 @@ RPM_NAME = "python39-SecretStorage-3.3.3-4.1.noarch.rpm"
 RPM_HASH = "2f157afd80be6ce943edca9f1d04edeb6a0320ab4945f2f7614a3f841090dd4cbc7fa602f89b5d876b62dee7ff82d90f50a011a3b0fa545b0147714edd83bfd0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(secretstorage) python39-SecretStorage python3dist(secretstorage)"
-RDEPENDS:${PN} += "python(abi) python39-cryptography python39-jeepney"
+RPROVIDES:${PN} += "python3.9dist(secretstorage) \
+python39-SecretStorage \
+python3dist(secretstorage)"
+RDEPENDS:${PN} += "python(abi) \
+python39-cryptography \
+python39-jeepney"
 
 inherit rpm

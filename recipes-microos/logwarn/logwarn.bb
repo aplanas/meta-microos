@@ -21,7 +21,10 @@ PV = "1.0.17"
 RPM_NAME = "logwarn-1.0.17-1.3.aarch64.rpm"
 RPM_HASH = "976793356e86dc3137c3d2673245c95548c334327026d1e6375b10f710d75a176a0b72f9dda9addc2a276cf8beeb0cde18bad57384a2f432f28c71cda32482fb"
 
-RPROVIDES:${PN} += "logwarn logwarn(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "logwarn \
+logwarn(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

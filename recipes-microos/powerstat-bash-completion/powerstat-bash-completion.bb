@@ -9,6 +9,7 @@ RPM_HASH = "ec1b2cf7367eeb12d1cb8305148484eeed34cfdbdef2f65566f83bdb88891b3e0daf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "powerstat-bash-completion"
-RDEPENDS:${PN} += "bash-completion powerstat"
+RDEPENDS:${PN} += "bash-completion \
+powerstat"
 
 inherit rpm

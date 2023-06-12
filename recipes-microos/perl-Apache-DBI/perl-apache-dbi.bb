@@ -26,7 +26,12 @@ RPM_NAME = "perl-Apache-DBI-1.12-1.26.noarch.rpm"
 RPM_HASH = "f9a3a9c4c2ef6d823125b435dd6e7f52f06f60f0dcd81cc850545aa98a3b3029bc27fa4484c6365c25eace37f700878eb5f7429e946dd75fcfcefab32170bd25"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Apache::AuthDBI) perl(Apache::DBI) perl(Apache::DBI::db) perl-Apache-DBI"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(DBI) perl(Digest::SHA1)"
+RPROVIDES:${PN} += "perl(Apache::AuthDBI) \
+perl(Apache::DBI) \
+perl(Apache::DBI::db) \
+perl-Apache-DBI"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(DBI) \
+perl(Digest::SHA1)"
 
 inherit rpm

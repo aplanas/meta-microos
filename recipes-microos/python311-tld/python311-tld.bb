@@ -10,7 +10,13 @@ RPM_NAME = "python311-tld-0.12.6-2.5.noarch.rpm"
 RPM_HASH = "ee0253aadc2fc3dc774f4abf858f8b59510e45e6740f8daa43787124885f806023ff30490107e13af7efcbfb14979796b2fecb1926a99be7a7e133dbe6aa4cd2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(tld) python311-tld python3dist(tld)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(tld) \
+python311-tld \
+python3dist(tld)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-setuptools \
+update-alternatives"
 
 inherit rpm

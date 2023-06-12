@@ -16,7 +16,12 @@ RPM_NAME = "chronic-0.67-2.2.noarch.rpm"
 RPM_HASH = "26224bf744c0cb6259834d806ccce1cd8b8718c2361bba21882a8600c90b94197411a8f97e132c276eafe4293ce82ae3da22b3aeb4ae89197e5117ed32756bea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "chronic moreutils:/usr/bin/chronic"
-RDEPENDS:${PN} += "/usr/bin/perl perl(Getopt::Std) perl(IPC::Run) perl(strict) perl(warnings)"
+RPROVIDES:${PN} += "chronic \
+moreutils:/usr/bin/chronic"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(Getopt::Std) \
+perl(IPC::Run) \
+perl(strict) \
+perl(warnings)"
 
 inherit rpm

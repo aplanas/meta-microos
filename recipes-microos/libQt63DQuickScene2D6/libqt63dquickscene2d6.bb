@@ -7,7 +7,51 @@ PV = "6.5.1"
 RPM_NAME = "libQt63DQuickScene2D6-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "e0587b3fb0e78bb37e052b0ff90833468e37c68651ca4736871dc9df49b2a336590e0112fbe54697b9627f331241c732deadb2887b2485a9c6bda3fe5c96cc7d"
 
-RPROVIDES:${PN} += "libQt63DQuickScene2D.so.6()(64bit) libQt63DQuickScene2D.so.6(Qt_6)(64bit) libQt63DQuickScene2D.so.6(Qt_6.0)(64bit) libQt63DQuickScene2D.so.6(Qt_6.1)(64bit) libQt63DQuickScene2D.so.6(Qt_6.2)(64bit) libQt63DQuickScene2D.so.6(Qt_6.3)(64bit) libQt63DQuickScene2D.so.6(Qt_6.4)(64bit) libQt63DQuickScene2D.so.6(Qt_6.5)(64bit) libQt63DQuickScene2D.so.6(Qt_6.5.1_PRIVATE_API)(64bit) libQt63DQuickScene2D6 libQt63DQuickScene2D6(aarch-64) libscene2d.so()(64bit) libscene2d.so(Qt_6)(64bit) libscene2d.so(Qt_6.0)(64bit) libscene2d.so(Qt_6.1)(64bit) libscene2d.so(Qt_6.2)(64bit) libscene2d.so(Qt_6.3)(64bit) libscene2d.so(Qt_6.4)(64bit) libscene2d.so(Qt_6.5)(64bit) libscene2d.so(Qt_6.5.1_PRIVATE_API)(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt63DCore.so.6()(64bit) libQt63DCore.so.6(Qt_6)(64bit) libQt63DCore.so.6(Qt_6.5.1_PRIVATE_API)(64bit) libQt63DRender.so.6()(64bit) libQt63DRender.so.6(Qt_6)(64bit) libQt63DRender.so.6(Qt_6.5.1_PRIVATE_API)(64bit) libQt6Core.so.6()(64bit) libQt6Core.so.6(Qt_6)(64bit) libQt6Core.so.6(Qt_6.5)(64bit) libQt6Core.so.6(Qt_6.5.1_PRIVATE_API)(64bit) libQt6Gui.so.6()(64bit) libQt6Gui.so.6(Qt_6)(64bit) libQt6OpenGL.so.6()(64bit) libQt6OpenGL.so.6(Qt_6)(64bit) libQt6Qml.so.6()(64bit) libQt6Qml.so.6(Qt_6.5.1_PRIVATE_API)(64bit) libQt6Quick.so.6()(64bit) libQt6Quick.so.6(Qt_6)(64bit) libc.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+RPROVIDES:${PN} += "libQt63DQuickScene2D.so.6()(64bit) \
+libQt63DQuickScene2D.so.6(Qt_6)(64bit) \
+libQt63DQuickScene2D.so.6(Qt_6.0)(64bit) \
+libQt63DQuickScene2D.so.6(Qt_6.1)(64bit) \
+libQt63DQuickScene2D.so.6(Qt_6.2)(64bit) \
+libQt63DQuickScene2D.so.6(Qt_6.3)(64bit) \
+libQt63DQuickScene2D.so.6(Qt_6.4)(64bit) \
+libQt63DQuickScene2D.so.6(Qt_6.5)(64bit) \
+libQt63DQuickScene2D.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
+libQt63DQuickScene2D6 \
+libQt63DQuickScene2D6(aarch-64) \
+libscene2d.so()(64bit) \
+libscene2d.so(Qt_6)(64bit) \
+libscene2d.so(Qt_6.0)(64bit) \
+libscene2d.so(Qt_6.1)(64bit) \
+libscene2d.so(Qt_6.2)(64bit) \
+libscene2d.so(Qt_6.3)(64bit) \
+libscene2d.so(Qt_6.4)(64bit) \
+libscene2d.so(Qt_6.5)(64bit) \
+libscene2d.so(Qt_6.5.1_PRIVATE_API)(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libQt63DCore.so.6()(64bit) \
+libQt63DCore.so.6(Qt_6)(64bit) \
+libQt63DCore.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
+libQt63DRender.so.6()(64bit) \
+libQt63DRender.so.6(Qt_6)(64bit) \
+libQt63DRender.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
+libQt6Core.so.6()(64bit) \
+libQt6Core.so.6(Qt_6)(64bit) \
+libQt6Core.so.6(Qt_6.5)(64bit) \
+libQt6Core.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
+libQt6Gui.so.6()(64bit) \
+libQt6Gui.so.6(Qt_6)(64bit) \
+libQt6OpenGL.so.6()(64bit) \
+libQt6OpenGL.so.6(Qt_6)(64bit) \
+libQt6Qml.so.6()(64bit) \
+libQt6Qml.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
+libQt6Quick.so.6()(64bit) \
+libQt6Quick.so.6(Qt_6)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit)"
 
 inherit rpm

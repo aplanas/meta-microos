@@ -33,7 +33,25 @@ PV = "0.30"
 RPM_NAME = "ghc-cryptonite-0.30-2.3.aarch64.rpm"
 RPM_HASH = "f8f7001f0ad6679649d717d7de2e78bc68823b7db62abb71bddbf2b831a0d100ba61d2ff0e1c588877393b27f6dc7fd8cb34bef599ab75da5a98df55f25fef67"
 
-RPROVIDES:${PN} += "ghc-cryptonite ghc-cryptonite(aarch-64) libHScryptonite-0.30-AbDFzA14dNKDfU9pLpBLye-ghc9.4.5.so()(64bit)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) libHSbasement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S-ghc9.4.5.so()(64bit) libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) libHSghc-boot-th-9.4.5-ghc9.4.5.so()(64bit) libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) libHSinteger-gmp-1.1-ghc9.4.5.so()(64bit) libHSmemory-0.18.0-2DG6nqjfLMK4MSR77XYQqL-ghc9.4.5.so()(64bit) libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) libc.so.6(GLIBC_2.34)(64bit) libgmp.so.10()(64bit) libm.so.6()(64bit)"
+RPROVIDES:${PN} += "ghc-cryptonite \
+ghc-cryptonite(aarch-64) \
+libHScryptonite-0.30-AbDFzA14dNKDfU9pLpBLye-ghc9.4.5.so()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
+libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
+libHSbasement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S-ghc9.4.5.so()(64bit) \
+libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \
+libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \
+libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
+libHSghc-boot-th-9.4.5-ghc9.4.5.so()(64bit) \
+libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
+libHSinteger-gmp-1.1-ghc9.4.5.so()(64bit) \
+libHSmemory-0.18.0-2DG6nqjfLMK4MSR77XYQqL-ghc9.4.5.so()(64bit) \
+libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) \
+libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgmp.so.10()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

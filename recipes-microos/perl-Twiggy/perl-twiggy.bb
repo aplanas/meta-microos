@@ -46,7 +46,18 @@ RPM_NAME = "perl-Twiggy-0.1026-1.10.noarch.rpm"
 RPM_HASH = "de6afad938ccf4869e95af8f630d5a4c361174f74193996f6ba29b6489d89cc350602571155def4cadbef4b5902d30448725bcf9dd83164eaf1c7cf1efccfa58"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(AnyEvent::Server::PSGI) perl(Plack::Handler::Twiggy) perl(Twiggy) perl(Twiggy::Server) perl(Twiggy::Server::SS) perl(Twiggy::Writer) perl-Twiggy"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0) perl(AnyEvent) perl(HTTP::Status) perl(Plack) perl(Try::Tiny)"
+RPROVIDES:${PN} += "perl(AnyEvent::Server::PSGI) \
+perl(Plack::Handler::Twiggy) \
+perl(Twiggy) \
+perl(Twiggy::Server) \
+perl(Twiggy::Server::SS) \
+perl(Twiggy::Writer) \
+perl-Twiggy"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(AnyEvent) \
+perl(HTTP::Status) \
+perl(Plack) \
+perl(Try::Tiny)"
 
 inherit rpm

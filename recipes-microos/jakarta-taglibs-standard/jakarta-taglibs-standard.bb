@@ -12,6 +12,7 @@ RPM_HASH = "4d7def67219266c127b689c8344ae2d4531d098f5100604b86f2ff08dc9e51b1a07e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-taglibs-standard"
-RDEPENDS:${PN} += "servletapi5 xalan-j2"
+RDEPENDS:${PN} += "servletapi5 \
+xalan-j2"
 
 inherit rpm

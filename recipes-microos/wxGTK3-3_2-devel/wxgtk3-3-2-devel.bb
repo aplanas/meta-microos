@@ -16,7 +16,44 @@ PV = "3.2.2.1"
 RPM_NAME = "wxGTK3-3_2-devel-3.2.2.1-3.1.aarch64.rpm"
 RPM_HASH = "b71f64aa4b7a54795b027ee7addfadca0f86fc69679067de8d2ceae6d4f664e58babbcc837a2089d43dda78bbfd81fb1faa32cdde73d2c6c25ea7027a2f14d23"
 
-RPROVIDES:${PN} += "wxGTK3-3_2-devel wxGTK3-3_2-devel(aarch-64) wxGTK3-devel wxWidgets-any-devel"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.18)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libwx_base-suse-devel libwx_baseu-suse.so.9.0.0()(64bit) libwx_baseu-suse.so.9.0.0(WXU_3.2)(64bit) libwx_baseu_xml-suse.so.9.0.0()(64bit) libwx_baseu_xml-suse.so.9.0.0(WXU_3.2)(64bit) libwx_gtk3u_adv-suse9_0_0 libwx_gtk3u_aui-suse9_0_0 libwx_gtk3u_core-suse9_0_0 libwx_gtk3u_gl-suse9_0_0 libwx_gtk3u_html-suse9_0_0 libwx_gtk3u_media-suse9_0_0 libwx_gtk3u_propgrid-suse9_0_0 libwx_gtk3u_qa-suse9_0_0 libwx_gtk3u_ribbon-suse9_0_0 libwx_gtk3u_richtext-suse9_0_0 libwx_gtk3u_stc-suse9_0_0 libwx_gtk3u_webview-suse9_0_0 libwx_gtk3u_xrc-suse9_0_0 pkgconfig(gl) pkgconfig(glu) pkgconfig(gtk+-3.0)"
+RPROVIDES:${PN} += "wxGTK3-3_2-devel \
+wxGTK3-3_2-devel(aarch-64) \
+wxGTK3-devel \
+wxWidgets-any-devel"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
+libwx_base-suse-devel \
+libwx_baseu-suse.so.9.0.0()(64bit) \
+libwx_baseu-suse.so.9.0.0(WXU_3.2)(64bit) \
+libwx_baseu_xml-suse.so.9.0.0()(64bit) \
+libwx_baseu_xml-suse.so.9.0.0(WXU_3.2)(64bit) \
+libwx_gtk3u_adv-suse9_0_0 \
+libwx_gtk3u_aui-suse9_0_0 \
+libwx_gtk3u_core-suse9_0_0 \
+libwx_gtk3u_gl-suse9_0_0 \
+libwx_gtk3u_html-suse9_0_0 \
+libwx_gtk3u_media-suse9_0_0 \
+libwx_gtk3u_propgrid-suse9_0_0 \
+libwx_gtk3u_qa-suse9_0_0 \
+libwx_gtk3u_ribbon-suse9_0_0 \
+libwx_gtk3u_richtext-suse9_0_0 \
+libwx_gtk3u_stc-suse9_0_0 \
+libwx_gtk3u_webview-suse9_0_0 \
+libwx_gtk3u_xrc-suse9_0_0 \
+pkgconfig(gl) \
+pkgconfig(glu) \
+pkgconfig(gtk+-3.0)"
 
 inherit rpm

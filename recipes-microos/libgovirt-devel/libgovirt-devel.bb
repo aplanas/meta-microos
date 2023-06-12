@@ -10,7 +10,15 @@ PV = "0.3.9"
 RPM_NAME = "libgovirt-devel-0.3.9-1.3.aarch64.rpm"
 RPM_HASH = "82f51e3720d5299677d6d9c491083e791fd43da2dc8764b9170b45d754b648cdafe24bd80749f9f8e7c179a90ace438d0a312bbf2968ae3ad0f05c347623555c"
 
-RPROVIDES:${PN} += "libgovirt-devel libgovirt-devel(aarch-64) pkgconfig(govirt-1.0)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libgovirt2 pkgconfig(gio-2.0) pkgconfig(gobject-2.0) pkgconfig(gthread-2.0) pkgconfig(rest-1.0) typelib-1_0-GoVirt-1_0"
+RPROVIDES:${PN} += "libgovirt-devel \
+libgovirt-devel(aarch-64) \
+pkgconfig(govirt-1.0)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libgovirt2 \
+pkgconfig(gio-2.0) \
+pkgconfig(gobject-2.0) \
+pkgconfig(gthread-2.0) \
+pkgconfig(rest-1.0) \
+typelib-1_0-GoVirt-1_0"
 
 inherit rpm

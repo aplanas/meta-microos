@@ -20,7 +20,20 @@ RPM_NAME = "texlive-pdfoverlay-2023.201.1.3svn64210-51.1.noarch.rpm"
 RPM_HASH = "26d2fd94ff44b43f172e163b7cb8aa56a27a9c9edb6402b74c2759c92d321dae835dd964d3c264c9d5233897a68059059e49e0eb536fac4f02d310aeb26465b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pdfoverlay.sty) texlive-pdfoverlay"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(graphicx.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(pdfoverlay.sty) \
+texlive-pdfoverlay"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(graphicx.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

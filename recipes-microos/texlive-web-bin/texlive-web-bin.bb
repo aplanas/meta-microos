@@ -7,7 +7,12 @@ PV = "2023.20230311.svn65877"
 RPM_NAME = "texlive-web-bin-2023.20230311.svn65877-91.1.aarch64.rpm"
 RPM_HASH = "0e93338e19b514cef4df33443a87cc01d650e7b22bf6dae68d51ba5ccdb6d52bd33b90b4e8d1aa16473c949d1c4421447f821e8f4aa5d8b31a6d746fe3f10c1d"
 
-RPROVIDES:${PN} += "texlive-web-bin texlive-web-bin(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libkpathsea.so.6()(64bit) texlive-web"
+RPROVIDES:${PN} += "texlive-web-bin \
+texlive-web-bin(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libkpathsea.so.6()(64bit) \
+texlive-web"
 
 inherit rpm

@@ -25,7 +25,21 @@ RPM_NAME = "texlive-latex2nemeth-2023.201.1.1.3svn65269-54.1.noarch.rpm"
 RPM_HASH = "a7ec77be035be7de46bfa870d04acd5f65252f1b02406fc9c4df7f9d22d9e2b464cd7906606e5289fa08cf5f52e490b1411879dc5141a119ec11633c96ef4550"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(latex2nemeth.jar) texlive-latex2nemeth"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep java sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-latex2nemeth-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(latex2nemeth.jar) \
+texlive-latex2nemeth"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+java \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-latex2nemeth-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -17,7 +17,10 @@ RPM_NAME = "python311-easywatch-0.0.5-2.17.noarch.rpm"
 RPM_HASH = "32554b4cc55f20b0a2eaa766decef39d9f2e4372b6b6148a91af83da7604538c57efb6732b6d9743672156aaf4257e8ec79caa7e915bd67a09bc75444c2908bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(easywatch) python311-easywatch python3dist(easywatch)"
-RDEPENDS:${PN} += "python(abi) python311-watchdog"
+RPROVIDES:${PN} += "python3.11dist(easywatch) \
+python311-easywatch \
+python3dist(easywatch)"
+RDEPENDS:${PN} += "python(abi) \
+python311-watchdog"
 
 inherit rpm

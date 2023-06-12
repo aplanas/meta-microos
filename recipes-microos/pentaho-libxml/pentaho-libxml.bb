@@ -10,6 +10,9 @@ RPM_HASH = "0369d1e655cef5683af0d2d55a06b0b23bc9e325b7122661c3ca11c5e70eae358a0a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pentaho-libxml"
-RDEPENDS:${PN} += "java jpackage-utils libbase libloader"
+RDEPENDS:${PN} += "java \
+jpackage-utils \
+libbase \
+libloader"
 
 inherit rpm

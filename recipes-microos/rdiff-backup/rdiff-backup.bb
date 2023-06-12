@@ -18,7 +18,18 @@ PV = "2.2.4"
 RPM_NAME = "rdiff-backup-2.2.4-2.1.aarch64.rpm"
 RPM_HASH = "cc0f94b16001896dfd09f8f69191a74dc4149776d0bcb6b2f608daa274cf47c2bcaf0acfa2cc2d04fb3409aea0b0776ded186fe5d69cc341ee6c4bb4eb5140fa"
 
-RPROVIDES:${PN} += "python3.10dist(rdiff-backup) python3dist(rdiff-backup) rdiff-backup rdiff-backup(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/python3 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) librsync.so.2()(64bit) python(abi) python3-PyYAML python3-pylibacl python3-xattr"
+RPROVIDES:${PN} += "python3.10dist(rdiff-backup) \
+python3dist(rdiff-backup) \
+rdiff-backup \
+rdiff-backup(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+librsync.so.2()(64bit) \
+python(abi) \
+python3-PyYAML \
+python3-pylibacl \
+python3-xattr"
 
 inherit rpm

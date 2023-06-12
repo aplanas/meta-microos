@@ -21,7 +21,11 @@ RPM_NAME = "python311-tzlocal-4.3-1.1.noarch.rpm"
 RPM_HASH = "e275756a5a928c1be3b8d1d38f8eb77dc9599acd9e225916561d2636e8fe750d43a2d29914d083662813aa6ad4fc09ca2f4d320489a7721fe658a07bcd40530c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(tzlocal) python311-tzlocal python3dist(tzlocal)"
-RDEPENDS:${PN} += "python(abi) python311-pytz python311-pytz-deprecation-shim"
+RPROVIDES:${PN} += "python3.11dist(tzlocal) \
+python311-tzlocal \
+python3dist(tzlocal)"
+RDEPENDS:${PN} += "python(abi) \
+python311-pytz \
+python311-pytz-deprecation-shim"
 
 inherit rpm

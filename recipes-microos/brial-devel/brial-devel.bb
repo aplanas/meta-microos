@@ -15,7 +15,9 @@ PV = "1.2.12"
 RPM_NAME = "brial-devel-1.2.12-1.3.aarch64.rpm"
 RPM_HASH = "e7c70d6929a13c84dc429ce2ca25ce9de8263696b0325e368a7a3e20a31b60a843c3209d79d5dee5350cdbf75c8c2cbb1fe9d181b2bfdaba1583131a7433cf88"
 
-RPROVIDES:${PN} += "brial-devel brial-devel(aarch-64)"
-RDEPENDS:${PN} += "boost-devel libbrial3"
+RPROVIDES:${PN} += "brial-devel \
+brial-devel(aarch-64)"
+RDEPENDS:${PN} += "boost-devel \
+libbrial3"
 
 inherit rpm

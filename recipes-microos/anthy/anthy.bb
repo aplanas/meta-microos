@@ -11,7 +11,14 @@ PV = "9100h"
 RPM_NAME = "anthy-9100h-41.9.aarch64.rpm"
 RPM_HASH = "73be5b803529b05ea85d9d840b423ac3428ba1dcf17f8887bc8a19c85efb46e0bc60888af803e5d9c445df1295d5acdf2a8a5b91f2c177973836b4ae42255ca7"
 
-RPROVIDES:${PN} += "anthy anthy(aarch-64) config(anthy)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libanthy.so.0()(64bit) libanthydic.so.0()(64bit) libanthyinput.so.0()(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "anthy \
+anthy(aarch-64) \
+config(anthy)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libanthy.so.0()(64bit) \
+libanthydic.so.0()(64bit) \
+libanthyinput.so.0()(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

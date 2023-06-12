@@ -12,7 +12,12 @@ RPM_NAME = "perl-AnyEvent-WebSocket-Server-0.10-1.10.noarch.rpm"
 RPM_HASH = "d335b6f63b11f3221693b001b833dae6f8c5f9e99762d19fd9097152ec47a5bd8b1d8b33c3c8d843e57dacb8d9439e59fede594e8b462b261c1d84aba7954d25"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(AnyEvent::WebSocket::Server) perl-AnyEvent-WebSocket-Server"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(AnyEvent::Handle) perl(AnyEvent::WebSocket::Client) perl(Protocol::WebSocket::Handshake::Server) perl(Try::Tiny)"
+RPROVIDES:${PN} += "perl(AnyEvent::WebSocket::Server) \
+perl-AnyEvent-WebSocket-Server"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(AnyEvent::Handle) \
+perl(AnyEvent::WebSocket::Client) \
+perl(Protocol::WebSocket::Handshake::Server) \
+perl(Try::Tiny)"
 
 inherit rpm

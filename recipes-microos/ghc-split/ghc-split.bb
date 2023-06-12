@@ -22,7 +22,14 @@ PV = "0.2.3.5"
 RPM_NAME = "ghc-split-0.2.3.5-2.2.aarch64.rpm"
 RPM_HASH = "e466de6e6be01cc1a790a675ff22e4e671e67e2bd1aabef6b37a9508f82626a917a1079ce3446bbdffefdd772324c27e16f6bcbf8f985624973f019a9ba5eaa9"
 
-RPROVIDES:${PN} += "ghc-split ghc-split(aarch-64) libHSsplit-0.2.3.5-u3oGLAiW7JJbxIffWSCWf-ghc9.4.5.so()(64bit)"
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) libc.so.6(GLIBC_2.17)(64bit) libgmp.so.10()(64bit) libm.so.6()(64bit)"
+RPROVIDES:${PN} += "ghc-split \
+ghc-split(aarch-64) \
+libHSsplit-0.2.3.5-u3oGLAiW7JJbxIffWSCWf-ghc9.4.5.so()(64bit)"
+RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
+libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
+libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgmp.so.10()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

@@ -14,7 +14,14 @@ PV = "1.22.3"
 RPM_NAME = "typelib-1_0-GstAudio-1_0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "adeb9353828536a4c1e0231b8df4b9eb4f28852bd47bba2f9528b22a14bf87f7dc025096df9d558961f0fc38ebfd23947532a46c8a65f6d459fe381cec0c5411"
 
-RPROVIDES:${PN} += "typelib(GstAudio) typelib-1_0-GstAudio-1_0 typelib-1_0-GstAudio-1_0(aarch-64)"
-RDEPENDS:${PN} += "libgstaudio-1.0.so.0()(64bit) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gst) typelib(GstBase)"
+RPROVIDES:${PN} += "typelib(GstAudio) \
+typelib-1_0-GstAudio-1_0 \
+typelib-1_0-GstAudio-1_0(aarch-64)"
+RDEPENDS:${PN} += "libgstaudio-1.0.so.0()(64bit) \
+typelib(GLib) \
+typelib(GModule) \
+typelib(GObject) \
+typelib(Gst) \
+typelib(GstBase)"
 
 inherit rpm

@@ -12,7 +12,11 @@ RPM_NAME = "cpuset-1.6-3.6.noarch.rpm"
 RPM_HASH = "452bda8067e6463068cca1ef104e609401b896d2b662a404be16af0879da0b48fff65cc4a9e3346c84a9a23c8f72e6d199ad200b906ce58e6aad62443d74d3a1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "cpuset python3.10dist(cpuset) python3dist(cpuset)"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-future"
+RPROVIDES:${PN} += "cpuset \
+python3.10dist(cpuset) \
+python3dist(cpuset)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3-future"
 
 inherit rpm

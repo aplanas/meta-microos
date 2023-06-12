@@ -9,6 +9,12 @@ RPM_HASH = "cc741614a3e6347f4f379a08b986368a68bbf2c6df9a096d1b6fa364aa003e2740fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "container-selinux"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/sed policycoreutils selinux-policy selinux-policy-base selinux-policy-targeted selinux-tools"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/sed \
+policycoreutils \
+selinux-policy \
+selinux-policy-base \
+selinux-policy-targeted \
+selinux-tools"
 
 inherit rpm

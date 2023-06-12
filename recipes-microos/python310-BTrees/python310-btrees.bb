@@ -14,7 +14,18 @@ PV = "5.0"
 RPM_NAME = "python310-BTrees-5.0-1.4.aarch64.rpm"
 RPM_HASH = "e144cd283e708fb311e181aab9c775fae572236512889ed15c5aa2fb75469ee8909ef638a3041b9adf14d47bfd994d249ba7201af2f6e07e4cede10e2ada73d1"
 
-RPROVIDES:${PN} += "python3-BTrees python3-BTrees-doc python3.10dist(btrees) python310-BTrees python310-BTrees(aarch-64) python310-BTrees-doc python3dist(btrees)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python310-persistent python310-zope.interface"
+RPROVIDES:${PN} += "python3-BTrees \
+python3-BTrees-doc \
+python3.10dist(btrees) \
+python310-BTrees \
+python310-BTrees(aarch-64) \
+python310-BTrees-doc \
+python3dist(btrees)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+python(abi) \
+python310-persistent \
+python310-zope.interface"
 
 inherit rpm

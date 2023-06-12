@@ -8,7 +8,9 @@ RPM_NAME = "xfce4-power-manager-branding-openSUSE-4.18.0+git0.9a2f754-1.5.noarch
 RPM_HASH = "978d50e39eeab8ede0ec0d23920a335573144e176617b9253cd224bde007575f6b705a2a448481043cf584da390bc9948b2107bcb69aaafd94ecf17a1f63b2b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(xfce4-power-manager-branding-openSUSE) xfce4-power-manager-branding xfce4-power-manager-branding-openSUSE"
+RPROVIDES:${PN} += "config(xfce4-power-manager-branding-openSUSE) \
+xfce4-power-manager-branding \
+xfce4-power-manager-branding-openSUSE"
 RDEPENDS:${PN} += ""
 
 inherit rpm

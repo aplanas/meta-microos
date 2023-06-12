@@ -8,7 +8,15 @@ PV = "1.8.9"
 RPM_NAME = "libiptc-devel-1.8.9-1.3.aarch64.rpm"
 RPM_HASH = "a6a0ab19f3075f62da9c55bc5103dfa15ab312a7ff1cf132ebf689c948787e2c6a621e806e6f4a636b622eee6c30ffe2b2416e8797c8e3fb457fa2105ca57032"
 
-RPROVIDES:${PN} += "libiptc-devel libiptc-devel(aarch-64) pkgconfig(libip4tc) pkgconfig(libip6tc) pkgconfig(libiptc)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libip4tc2 libip6tc2 pkgconfig(libip4tc) pkgconfig(libip6tc)"
+RPROVIDES:${PN} += "libiptc-devel \
+libiptc-devel(aarch-64) \
+pkgconfig(libip4tc) \
+pkgconfig(libip6tc) \
+pkgconfig(libiptc)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libip4tc2 \
+libip6tc2 \
+pkgconfig(libip4tc) \
+pkgconfig(libip6tc)"
 
 inherit rpm

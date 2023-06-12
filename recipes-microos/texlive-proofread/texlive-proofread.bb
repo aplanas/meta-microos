@@ -22,7 +22,23 @@ RPM_NAME = "texlive-proofread-2023.201.1.04svn61719-52.1.noarch.rpm"
 RPM_HASH = "9a4e4b265b4d8d85a74835d780b1f857185ca2993c186214a23ec1401d0cdd722996a8fd540839c4add93f1c274120a07bf7346b9b1e0cdf0db8978e11fc65e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(proofread.sty) texlive-proofread"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(marginnote.sty) tex(setspace.sty) tex(soul.sty) tex(tikz.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(proofread.sty) \
+texlive-proofread"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(marginnote.sty) \
+tex(setspace.sty) \
+tex(soul.sty) \
+tex(tikz.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

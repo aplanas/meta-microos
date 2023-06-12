@@ -18,7 +18,39 @@ RPM_NAME = "texlive-chemstyle-2023.201.2.0msvn31096-53.1.noarch.rpm"
 RPM_HASH = "b2c6c32f35a1d6c7df3f5e22acb7480992594d00a24a24a7c5783f267c5abea990dfafef516a330de1023b5af188d91b0f3281bd0e2c8f30b455f58e5cf6377f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(angew.chemstyle.cfg) tex(chemscheme.sty) tex(chemstyle.sty) tex(ic.chemstyle.cfg) tex(jacs.chemstyle.cfg) tex(jomc.chemstyle.cfg) tex(orglett.chemstyle.cfg) tex(rsc.chemstyle.cfg) tex(tetlett.chemstyle.cfg) texlive-chemstyle"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(SIunits.sty) tex(amstext.sty) tex(bpchem.sty) tex(caption.sty) tex(chemcompounds.sty) tex(float.sty) tex(floatrow.sty) tex(kvoptions.sty) tex(psfrag.sty) tex(siunitx.sty) tex(varioref.sty) tex(xspace.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(angew.chemstyle.cfg) \
+tex(chemscheme.sty) \
+tex(chemstyle.sty) \
+tex(ic.chemstyle.cfg) \
+tex(jacs.chemstyle.cfg) \
+tex(jomc.chemstyle.cfg) \
+tex(orglett.chemstyle.cfg) \
+tex(rsc.chemstyle.cfg) \
+tex(tetlett.chemstyle.cfg) \
+texlive-chemstyle"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(SIunits.sty) \
+tex(amstext.sty) \
+tex(bpchem.sty) \
+tex(caption.sty) \
+tex(chemcompounds.sty) \
+tex(float.sty) \
+tex(floatrow.sty) \
+tex(kvoptions.sty) \
+tex(psfrag.sty) \
+tex(siunitx.sty) \
+tex(varioref.sty) \
+tex(xspace.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -17,7 +17,21 @@ RPM_NAME = "texlive-etoc-2023.201.1.2svn66299-52.1.noarch.rpm"
 RPM_HASH = "9ef1474c2337985a6dcd37d28874ca7e14c3259f64468acd75b92e877ddf4b59c099a98090bb8707d53bebf7009d53ce7de9d382ed004bf53e015c5615d217ca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(etoc.sty) texlive-etoc"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(kvoptions.sty) tex(multicol.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(etoc.sty) \
+texlive-etoc"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(kvoptions.sty) \
+tex(multicol.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -20,7 +20,21 @@ RPM_NAME = "texlive-luavlna-2023.201.0.0.1jsvn64142-52.1.noarch.rpm"
 RPM_HASH = "761ddd9ee2f82b3d7447d3f898d2d4257b5920d3d5affd053342cfc1d44013d7f245c8e4619e899e20e1c6366f4e75a6d5c9475c87edcce94e99e71e21eada6b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(luavlna.sty) tex(luavlna.tex) texlive-luavlna"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(kvoptions.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(luavlna.sty) \
+tex(luavlna.tex) \
+texlive-luavlna"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(kvoptions.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

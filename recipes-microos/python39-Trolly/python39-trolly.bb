@@ -15,7 +15,9 @@ RPM_NAME = "python39-Trolly-0.2.2-4.12.noarch.rpm"
 RPM_HASH = "1a488f5405a98bc7dacaa74833e24b05766ed0c118e976a6a833cdbb045eb1d243e46c17c3b8e16ad85f1e76c0a32562b906a5997f87fae20f0dce966b2f3871"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(trolly) python39-Trolly python3dist(trolly)"
+RPROVIDES:${PN} += "python3.9dist(trolly) \
+python39-Trolly \
+python3dist(trolly)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

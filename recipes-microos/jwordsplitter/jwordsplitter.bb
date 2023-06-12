@@ -12,7 +12,10 @@ RPM_NAME = "jwordsplitter-4.4-1.18.noarch.rpm"
 RPM_HASH = "6b87b4d678f8c86bbadeed429d5c7842e86adbd3e59427494e5424b56322dd12f6a960de42eb51ecebcebb9ae6e5b0c545de43621752ca28dd6efc710c021332"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jwordsplitter mvn(de.danielnaber:jwordsplitter) mvn(de.danielnaber:jwordsplitter:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem"
+RPROVIDES:${PN} += "jwordsplitter \
+mvn(de.danielnaber:jwordsplitter) \
+mvn(de.danielnaber:jwordsplitter:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

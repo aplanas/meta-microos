@@ -9,6 +9,11 @@ RPM_HASH = "2b65cdf4972aa75dc8ecc54016ee50866e4b9a3c0b51b6f5694cc14cabcab99fd7b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gluegen2-devel"
-RDEPENDS:${PN} += "/bin/sh ant-antlr ant-contrib ant-junit cpptasks gluegen2"
+RDEPENDS:${PN} += "/bin/sh \
+ant-antlr \
+ant-contrib \
+ant-junit \
+cpptasks \
+gluegen2"
 
 inherit rpm

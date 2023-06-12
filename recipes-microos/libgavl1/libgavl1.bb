@@ -14,7 +14,13 @@ PV = "1.4.0rsvn4256"
 RPM_NAME = "libgavl1-1.4.0rsvn4256-2.30.aarch64.rpm"
 RPM_HASH = "f87a4ec2f5d96c3767d9e3f09275351c6b348097d09944b72c421183564f5bed313e68893ca84bb39cdb8f881bd4562f7fd7b328cbdc74d54329c20146120605"
 
-RPROVIDES:${PN} += "libgavl.so.1()(64bit) libgavl1 libgavl1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit)"
+RPROVIDES:${PN} += "libgavl.so.1()(64bit) \
+libgavl1 \
+libgavl1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libc.so.6(GLIBC_2.17)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit)"
 
 inherit rpm

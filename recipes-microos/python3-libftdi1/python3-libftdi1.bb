@@ -10,7 +10,12 @@ PV = "1.5.12+git.0684c1b"
 RPM_NAME = "python3-libftdi1-1.5.12+git.0684c1b-2.1.aarch64.rpm"
 RPM_HASH = "843cb81211257b9657edc192d7360f361af60f596e9d6b6dd3b598185e1b903dbd7c398862496da930eb52f464120b9390a300fc7acead1f6607cf819b178a09"
 
-RPROVIDES:${PN} += "python3-libftdi1 python3-libftdi1(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libftdi1.so.2()(64bit) python(abi)"
+RPROVIDES:${PN} += "python3-libftdi1 \
+python3-libftdi1(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libftdi1.so.2()(64bit) \
+python(abi)"
 
 inherit rpm

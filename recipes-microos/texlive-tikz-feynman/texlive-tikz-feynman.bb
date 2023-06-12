@@ -14,7 +14,26 @@ RPM_NAME = "texlive-tikz-feynman-2023.201.1.1.0svn56615-52.1.noarch.rpm"
 RPM_HASH = "739d5511ca4a16411debe1ae0c090cff91728668bf5ceddef5ff0d6908ba5338bf1787ed60ae04205e6a0a74ec96b3b7a045a7615f13865866bbce32d54c94a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikz-feynman.sty) tex(tikzfeynman.keys.code.tex) tex(tikzlibraryfeynman.code.tex) texlive-tikz-feynman"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(ifluatex.sty) tex(pgfopts.sty) tex(tikz.sty) texlive texlive-filesystem texlive-iftex texlive-kpathsea texlive-kpathsea-bin texlive-pgfopts texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(tikz-feynman.sty) \
+tex(tikzfeynman.keys.code.tex) \
+tex(tikzlibraryfeynman.code.tex) \
+texlive-tikz-feynman"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(ifluatex.sty) \
+tex(pgfopts.sty) \
+tex(tikz.sty) \
+texlive \
+texlive-filesystem \
+texlive-iftex \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-pgfopts \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

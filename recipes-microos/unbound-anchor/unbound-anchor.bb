@@ -9,7 +9,21 @@ PV = "1.17.1"
 RPM_NAME = "unbound-anchor-1.17.1-1.3.aarch64.rpm"
 RPM_HASH = "41685ab65a93b0965840bf13d205717cac33df4c3fd60f57e9fd8b93414ae08c168074c6ab7101585f657cb161669d15d460b06c6b87074c7344fa2d8131cdde"
 
-RPROVIDES:${PN} += "config(unbound-anchor) group(unbound) unbound-anchor unbound-anchor(aarch-64) user(unbound)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.36)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libexpat.so.1()(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) libunbound.so.8()(64bit) sysuser-shadow"
+RPROVIDES:${PN} += "config(unbound-anchor) \
+group(unbound) \
+unbound-anchor \
+unbound-anchor(aarch-64) \
+user(unbound)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.36)(64bit) \
+libcrypto.so.3()(64bit) \
+libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
+libexpat.so.1()(64bit) \
+libssl.so.3()(64bit) \
+libssl.so.3(OPENSSL_3.0.0)(64bit) \
+libunbound.so.8()(64bit) \
+sysuser-shadow"
 
 inherit rpm

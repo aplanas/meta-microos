@@ -16,7 +16,9 @@ RPM_NAME = "python39-opcodes-0.3.14-2.13.noarch.rpm"
 RPM_HASH = "f7ca9e118788e826d42c60c441f78f80b45a9bd0264d963838c3629a20ee1bacacde371855548de9d8ead01b9bd2346c49674d55cdbd62bc0fd706f874863354"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(opcodes) python39-opcodes python3dist(opcodes)"
+RPROVIDES:${PN} += "python3.9dist(opcodes) \
+python39-opcodes \
+python3dist(opcodes)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

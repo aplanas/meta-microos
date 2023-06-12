@@ -26,7 +26,9 @@ RPM_NAME = "perl-Class-Container-0.13-1.19.noarch.rpm"
 RPM_HASH = "c4afbb686d92db552529827858bd713bd7d742ece72a29ee731a0b13a509495c2c2ea49853125736145ffc84119c33cfd4d10a948c46c736a234b2910c847313"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Container) perl-Class-Container"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Params::Validate)"
+RPROVIDES:${PN} += "perl(Class::Container) \
+perl-Class-Container"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Params::Validate)"
 
 inherit rpm

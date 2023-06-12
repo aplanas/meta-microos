@@ -11,7 +11,15 @@ PV = "2.19.1"
 RPM_NAME = "ruby3.2-rubygem-loofah-2.19.1-1.2.aarch64.rpm"
 RPM_HASH = "91ff06f272fc8c74dfe9ba3c95f4c28a0f9c606701c5a677660786c5131cb7d441c9d9f6d7232adaa3b7f1b3225e713b1bb44569a9f44c5b16333b2a7482f0ce"
 
-RPROVIDES:${PN} += "ruby3.2-rubygem-loofah ruby3.2-rubygem-loofah(aarch-64) rubygem(loofah) rubygem(ruby:3.2.0:loofah) rubygem(ruby:3.2.0:loofah:2) rubygem(ruby:3.2.0:loofah:2.19) rubygem(ruby:3.2.0:loofah:2.19.1)"
-RDEPENDS:${PN} += "ruby(abi) rubygem(ruby:3.2.0:crass:1.0) rubygem(ruby:3.2.0:nokogiri)"
+RPROVIDES:${PN} += "ruby3.2-rubygem-loofah \
+ruby3.2-rubygem-loofah(aarch-64) \
+rubygem(loofah) \
+rubygem(ruby:3.2.0:loofah) \
+rubygem(ruby:3.2.0:loofah:2) \
+rubygem(ruby:3.2.0:loofah:2.19) \
+rubygem(ruby:3.2.0:loofah:2.19.1)"
+RDEPENDS:${PN} += "ruby(abi) \
+rubygem(ruby:3.2.0:crass:1.0) \
+rubygem(ruby:3.2.0:nokogiri)"
 
 inherit rpm

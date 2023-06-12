@@ -24,7 +24,29 @@ PV = "0.65"
 RPM_NAME = "perl-BerkeleyDB-0.65-1.6.aarch64.rpm"
 RPM_HASH = "99b72aca5f288d52be47019ac28fea9fb068a28bc7d5cec4f16c17c463ae73fe797a29be8c6657e5369a36650c1e29d8d425c823b063a414692c28b868842aaa"
 
-RPROVIDES:${PN} += "perl(BerkeleyDB) perl(BerkeleyDB::Btree) perl(BerkeleyDB::CDS::Lock) perl(BerkeleyDB::Common) perl(BerkeleyDB::Cursor) perl(BerkeleyDB::Env) perl(BerkeleyDB::Hash) perl(BerkeleyDB::Heap) perl(BerkeleyDB::Queue) perl(BerkeleyDB::Recno) perl(BerkeleyDB::Term) perl(BerkeleyDB::Txn) perl(BerkeleyDB::TxnMgr) perl(BerkeleyDB::Unknown) perl(BerkeleyDB::_tiedArray) perl(BerkeleyDB::_tiedHash) perl-BerkeleyDB perl-BerkeleyDB(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libdb-4.8.so()(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(BerkeleyDB) \
+perl(BerkeleyDB::Btree) \
+perl(BerkeleyDB::CDS::Lock) \
+perl(BerkeleyDB::Common) \
+perl(BerkeleyDB::Cursor) \
+perl(BerkeleyDB::Env) \
+perl(BerkeleyDB::Hash) \
+perl(BerkeleyDB::Heap) \
+perl(BerkeleyDB::Queue) \
+perl(BerkeleyDB::Recno) \
+perl(BerkeleyDB::Term) \
+perl(BerkeleyDB::Txn) \
+perl(BerkeleyDB::TxnMgr) \
+perl(BerkeleyDB::Unknown) \
+perl(BerkeleyDB::_tiedArray) \
+perl(BerkeleyDB::_tiedHash) \
+perl-BerkeleyDB \
+perl-BerkeleyDB(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/perl \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libdb-4.8.so()(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

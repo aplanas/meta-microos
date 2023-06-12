@@ -15,7 +15,11 @@ RPM_NAME = "python310-fudge-1.1.1-6.7.noarch.rpm"
 RPM_HASH = "86a5d006ddcaafd8027109e03ada2a6840c19d023d7cceaf0b398797f021f523ceaa511dc98a7ffc58ce1821a580c763f818e86039bbeee9da59d1033f12634d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-fudge python3.10dist(fudge) python310-fudge python3dist(fudge)"
-RDEPENDS:${PN} += "python(abi) python310-six"
+RPROVIDES:${PN} += "python3-fudge \
+python3.10dist(fudge) \
+python310-fudge \
+python3dist(fudge)"
+RDEPENDS:${PN} += "python(abi) \
+python310-six"
 
 inherit rpm

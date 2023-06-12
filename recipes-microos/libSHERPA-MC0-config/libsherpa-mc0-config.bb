@@ -8,7 +8,9 @@ RPM_NAME = "libSHERPA-MC0-config-2.2.12-2.12.noarch.rpm"
 RPM_HASH = "49ebfd233a53927ad2dafceb909b123d608fd82bbc981aa0d27a17d2e34e0301b15f9f3677a6b3c1a7ce86b4388b5882d57c9903ff5b53b8903d0c821c214c6f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(libSHERPA-MC0-config) libSHERPA-MC-config libSHERPA-MC0-config"
+RPROVIDES:${PN} += "config(libSHERPA-MC0-config) \
+libSHERPA-MC-config \
+libSHERPA-MC0-config"
 RDEPENDS:${PN} += ""
 
 inherit rpm

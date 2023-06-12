@@ -17,7 +17,8 @@ RPM_NAME = "jupyter-plotly-5.13.1-1.3.noarch.rpm"
 RPM_HASH = "5001a370166b9cf6a5d73f93e1611b243d645aadad61a00e274a25c71fbf2f5704cf60a16c6067cc396e0bf3db55c3809cbb3ffee7783e538d697f0c58dac059"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-plotly jupyterlab-plotly"
+RPROVIDES:${PN} += "jupyter-plotly \
+jupyterlab-plotly"
 RDEPENDS:${PN} += "python3-plotly-jupyter"
 
 inherit rpm

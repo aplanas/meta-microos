@@ -7,7 +7,8 @@ PV = "20221012"
 RPM_NAME = "myspell-lightproof-en-20221012-1.2.aarch64.rpm"
 RPM_HASH = "cdf67e681faa79ad6537cc9dc65a770a04091ca9cfe2d88bbf1e66bbbffd45b84cb9fc796b0735fd8665a2fc204375f5302d24dec25056eadcc46f75c5880e18"
 
-RPROVIDES:${PN} += "myspell-lightproof-en myspell-lightproof-en(aarch-64)"
+RPROVIDES:${PN} += "myspell-lightproof-en \
+myspell-lightproof-en(aarch-64)"
 RDEPENDS:${PN} += "myspell-en"
 
 inherit rpm

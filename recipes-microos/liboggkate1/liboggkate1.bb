@@ -16,7 +16,13 @@ PV = "0.4.1"
 RPM_NAME = "liboggkate1-0.4.1-26.15.aarch64.rpm"
 RPM_HASH = "db2bb6b21d03ab1797ea512fc87d749149d8473b728e40ecb3b68ec610262313a542591c2b26a02934bb1e71ac85a5d2adc1601e32d675f31da7b21d4a62340c"
 
-RPROVIDES:${PN} += "liboggkate.so.1()(64bit) liboggkate1 liboggkate1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libkate.so.1()(64bit)"
+RPROVIDES:${PN} += "liboggkate.so.1()(64bit) \
+liboggkate1 \
+liboggkate1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libkate.so.1()(64bit)"
 
 inherit rpm

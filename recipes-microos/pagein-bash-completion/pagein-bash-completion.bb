@@ -9,6 +9,7 @@ RPM_HASH = "f648dd63638fecf2c8d9276486356e91e445339c79de10a672d51de35295eb26816f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagein-bash-completion"
-RDEPENDS:${PN} += "bash-completion pagein"
+RDEPENDS:${PN} += "bash-completion \
+pagein"
 
 inherit rpm

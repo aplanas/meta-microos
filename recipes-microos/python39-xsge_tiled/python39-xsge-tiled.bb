@@ -18,7 +18,11 @@ RPM_NAME = "python39-xsge_tiled-2.0-1.3.noarch.rpm"
 RPM_HASH = "37bf6854c62a797465c42a86b449f0680714b38a351654164cbe2391f5f667693c766fd1d4bc61c6de93aeeca2e7cf8b89e51147b9a605f2763fbb4a2f348bcc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(xsge-tiled) python39-xsge_tiled python3dist(xsge-tiled)"
-RDEPENDS:${PN} += "python(abi) python39-sge-pygame python39-xsge_path"
+RPROVIDES:${PN} += "python3.9dist(xsge-tiled) \
+python39-xsge_tiled \
+python3dist(xsge-tiled)"
+RDEPENDS:${PN} += "python(abi) \
+python39-sge-pygame \
+python39-xsge_path"
 
 inherit rpm

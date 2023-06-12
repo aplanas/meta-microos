@@ -12,6 +12,8 @@ RPM_HASH = "72dbd93b7ae7334dc0e2007b978b52c5177d1bf0fc1051d7adc1aa12771e016b5291
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-doc-utils"
-RDEPENDS:${PN} += "/bin/bash libxslt python3-libxml2"
+RDEPENDS:${PN} += "/bin/bash \
+libxslt \
+python3-libxml2"
 
 inherit rpm

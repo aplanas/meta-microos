@@ -42,7 +42,8 @@ RPM_NAME = "perl-YAML-Tiny-1.74-1.1.noarch.rpm"
 RPM_HASH = "cf5aa780cb1673abd9fffa05d02da1f7f695f4d43beefacac3bd85955bce51d5ee7503b4d7e9bcbe36b217a3064116ea27d90572038933a2a0c793fee3fca331"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(YAML::Tiny) perl-YAML-Tiny"
+RPROVIDES:${PN} += "perl(YAML::Tiny) \
+perl-YAML-Tiny"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

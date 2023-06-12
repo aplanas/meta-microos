@@ -14,7 +14,22 @@ RPM_NAME = "texlive-xyling-2023.201.1.1svn15878-52.1.noarch.rpm"
 RPM_HASH = "310b9f2b16a1a574cd4c69d962f4bea1823b47b8a2c56f7b62131ee3c6f22d89f3d20556f86dda270085780e7dad4e52bf21bd556fec2a50bed198b0b6b60039"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xyling.sty) texlive-xyling"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(color.sty) tex(ifthen.sty) tex(xy.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(xyling.sty) \
+texlive-xyling"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(color.sty) \
+tex(ifthen.sty) \
+tex(xy.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

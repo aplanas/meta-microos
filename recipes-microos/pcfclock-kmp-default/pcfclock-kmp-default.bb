@@ -13,7 +13,16 @@ PV = "0.44_k6.3.4_1"
 RPM_NAME = "pcfclock-kmp-default-0.44_k6.3.4_1-269.26.aarch64.rpm"
 RPM_HASH = "42c6e65e39f8c845c2fb976cd25ec6601f81a1599b339695b8b259a8a0b8c1470d819e476dd71cb14f476554178d6411ff3506a7b646540c00bf4e9c08ca9c14"
 
-RPROVIDES:${PN} += "kmod(pcfclock.ko) multiversion(kernel) pcfclock-kmp pcfclock-kmp-default pcfclock-kmp-default(aarch-64) pcfclock-kmp-default-k6.3.4_1"
-RDEPENDS:${PN} += "/bin/sh coreutils grep kernel-uname-r suse-kernel-rpm-scriptlets"
+RPROVIDES:${PN} += "kmod(pcfclock.ko) \
+multiversion(kernel) \
+pcfclock-kmp \
+pcfclock-kmp-default \
+pcfclock-kmp-default(aarch-64) \
+pcfclock-kmp-default-k6.3.4_1"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+grep \
+kernel-uname-r \
+suse-kernel-rpm-scriptlets"
 
 inherit rpm

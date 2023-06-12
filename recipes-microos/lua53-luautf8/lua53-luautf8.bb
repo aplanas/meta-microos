@@ -12,7 +12,9 @@ PV = "0.1.5"
 RPM_NAME = "lua53-luautf8-0.1.5-2.4.aarch64.rpm"
 RPM_HASH = "786337d9599bf3a217c0c3f6c7005bfcdb178a3f79a03b6704b9567172edf60275f30603cb543a1b3f8e343780e8ee688fcdc6e8fe7ab74f90c19e615d71802a"
 
-RPROVIDES:${PN} += "lua53-luautf8 lua53-luautf8(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) lua53"
+RPROVIDES:${PN} += "lua53-luautf8 \
+lua53-luautf8(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+lua53"
 
 inherit rpm

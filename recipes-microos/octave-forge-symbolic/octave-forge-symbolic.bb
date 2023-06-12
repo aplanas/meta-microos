@@ -14,6 +14,8 @@ RPM_HASH = "5046a35fe42c64da9fef1ea1bf5a39847d6d813cc7e4ecf5b0a741bb5d59c638e4df
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-symbolic"
-RDEPENDS:${PN} += "/bin/sh octave-cli python3-sympy"
+RDEPENDS:${PN} += "/bin/sh \
+octave-cli \
+python3-sympy"
 
 inherit rpm

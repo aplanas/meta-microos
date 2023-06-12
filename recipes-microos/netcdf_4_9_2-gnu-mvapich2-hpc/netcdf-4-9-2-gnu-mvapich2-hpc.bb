@@ -12,7 +12,11 @@ PV = "4.9.2"
 RPM_NAME = "netcdf_4_9_2-gnu-mvapich2-hpc-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "ed9e86c74cb9586f410b7ea09e7d65bea57fd2de337979aa7d95d93bc5974b6b90672f1b754408cf494cd524dcd88a2b0b3fb2fab70be2fc6b283d2f0476d9ca"
 
-RPROVIDES:${PN} += "netcdf_4_9_2-gnu-mvapich2-hpc netcdf_4_9_2-gnu-mvapich2-hpc(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libnetcdf_4_9_2-gnu-mvapich2-hpc"
+RPROVIDES:${PN} += "netcdf_4_9_2-gnu-mvapich2-hpc \
+netcdf_4_9_2-gnu-mvapich2-hpc(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libnetcdf_4_9_2-gnu-mvapich2-hpc"
 
 inherit rpm

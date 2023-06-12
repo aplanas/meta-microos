@@ -18,7 +18,24 @@ RPM_NAME = "texlive-kpfonts-otf-2023.201.0.0.48svn65560-55.1.noarch.rpm"
 RPM_HASH = "9de05897f8ced1533dc44cc1d523e954885bc64bf5ddfd72d8c7a029859cd3d69989b04a9e5708b5c170a2107b8a0af159faf67910c6304467a925c9682e87e5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(kpfonts-otf.sty) texlive-kpfonts-otf"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(fontspec.sty) tex(iftex.sty) tex(realscripts.sty) tex(unicode-math.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-kpfonts-otf-fonts texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(kpfonts-otf.sty) \
+texlive-kpfonts-otf"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(fontspec.sty) \
+tex(iftex.sty) \
+tex(realscripts.sty) \
+tex(unicode-math.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-kpfonts-otf-fonts \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

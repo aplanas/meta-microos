@@ -20,7 +20,15 @@ PV = "5.13.0"
 RPM_NAME = "libsuitesparseconfig5-5.13.0-49.1.aarch64.rpm"
 RPM_HASH = "9a5487bfa3fae49b24bd4a8e2047e87bc31a2a208e09d5b36d870a63f59f625d75802ea5149c876c799879c7966dd1ed4bc8f482d54b6d74b252815c4e4a729a"
 
-RPROVIDES:${PN} += "libUFconfig libsuitesparseconfig.so.5()(64bit) libsuitesparseconfig5 libsuitesparseconfig5(aarch-64) libsuitesparseconfig5_13_0 libufconfig"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libUFconfig \
+libsuitesparseconfig.so.5()(64bit) \
+libsuitesparseconfig5 \
+libsuitesparseconfig5(aarch-64) \
+libsuitesparseconfig5_13_0 \
+libufconfig"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

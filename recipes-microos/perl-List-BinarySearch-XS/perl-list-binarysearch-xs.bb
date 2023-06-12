@@ -46,7 +46,12 @@ PV = "0.09"
 RPM_NAME = "perl-List-BinarySearch-XS-0.09-1.17.aarch64.rpm"
 RPM_HASH = "4db3e3e89a3ab6cad9a3c1394412d2b157bace66f736e6b2fadc3bc9c2b08caf95f8bc5186c9fed74c000581bd73103a0fdccda24c83a64049ea9b0405d35b5e"
 
-RPROVIDES:${PN} += "perl(List::BinarySearch::XS) perl-List-BinarySearch-XS perl-List-BinarySearch-XS(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(List::BinarySearch::XS) \
+perl-List-BinarySearch-XS \
+perl-List-BinarySearch-XS(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

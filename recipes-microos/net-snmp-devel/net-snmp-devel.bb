@@ -19,7 +19,20 @@ PV = "5.9.3"
 RPM_NAME = "net-snmp-devel-5.9.3-4.6.aarch64.rpm"
 RPM_HASH = "9db86c8d6afe1876440e9fe483c84888851cf25a7d0d044c76dcd7bf3bff7d9c48062b1333d3983780e86c0abcc16e00bb741eefef5ba148bd58d6533cfeda7d"
 
-RPROVIDES:${PN} += "net-snmp-devel net-snmp-devel(aarch-64) pkgconfig(netsnmp) pkgconfig(netsnmp-agent)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl /usr/bin/pkg-config libsensors4-devel libsnmp40 perl perl-SNMP pkgconfig(libssl) rpm-devel tcpd-devel zlib-devel"
+RPROVIDES:${PN} += "net-snmp-devel \
+net-snmp-devel(aarch-64) \
+pkgconfig(netsnmp) \
+pkgconfig(netsnmp-agent)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+/usr/bin/pkg-config \
+libsensors4-devel \
+libsnmp40 \
+perl \
+perl-SNMP \
+pkgconfig(libssl) \
+rpm-devel \
+tcpd-devel \
+zlib-devel"
 
 inherit rpm

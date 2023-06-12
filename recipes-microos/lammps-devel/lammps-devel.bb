@@ -19,7 +19,12 @@ PV = "20201029"
 RPM_NAME = "lammps-devel-20201029-5.1.aarch64.rpm"
 RPM_HASH = "f9943baccb1cdb1e04e128c9698031ea4fb49e043633d4d247121dcb3a220ebbf370f37e88ac260530af61f422b60b9be0f40228d229e9a48a39fcc9de46d84b"
 
-RPROVIDES:${PN} += "cmake(LAMMPS) lammps-devel lammps-devel(aarch-64) pkgconfig(liblammps)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config lammps liblammps0"
+RPROVIDES:${PN} += "cmake(LAMMPS) \
+lammps-devel \
+lammps-devel(aarch-64) \
+pkgconfig(liblammps)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+lammps \
+liblammps0"
 
 inherit rpm

@@ -29,7 +29,9 @@ RPM_NAME = "python39-pytidylib-0.3.2-2.6.noarch.rpm"
 RPM_HASH = "98fa2a89287e2d0850335d08509ba9089158e3e7e0af60bda4863193a7784819644b3d7ced5cc355e79ab7fb243fbae0e1641bdd7ca11c9bf96df4e9df4e0dfe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytidylib) python39-pytidylib python3dist(pytidylib)"
+RPROVIDES:${PN} += "python3.9dist(pytidylib) \
+python39-pytidylib \
+python3dist(pytidylib)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

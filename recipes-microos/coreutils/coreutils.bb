@@ -18,7 +18,51 @@ PV = "9.3"
 RPM_NAME = "coreutils-9.3-1.1.aarch64.rpm"
 RPM_HASH = "6debf714194da0024e5da8c6d33e63559d196e42d52478736604b69f19c1ece87ba98742fbfbc42043c27a2340e7255c7edc8d6714acee423ded70eeb1842959"
 
-RPROVIDES:${PN} += "/bin/cat /bin/chgrp /bin/chmod /bin/chown /bin/cp /bin/dd /bin/df /bin/echo /bin/false /bin/ln /bin/ls /bin/mkdir /bin/mknod /bin/mktemp /bin/mv /bin/pwd /bin/rm /bin/rmdir /bin/sleep /bin/sort /bin/stty /bin/sync /bin/touch /bin/true /bin/uname coreutils coreutils(aarch-64) fileutils libstdbuf.so()(64bit) mktemp sh-utils stat textutils"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libacl.so.1()(64bit) libacl.so.1(ACL_1.0)(64bit) libattr.so.1()(64bit) libattr.so.1(ATTR_1.1)(64bit) libattr.so.1(ATTR_1.3)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcap.so.2()(64bit) libgmp.so.10()(64bit) libselinux.so.1()(64bit) libselinux.so.1(LIBSELINUX_1.0)(64bit)"
+RPROVIDES:${PN} += "/bin/cat \
+/bin/chgrp \
+/bin/chmod \
+/bin/chown \
+/bin/cp \
+/bin/dd \
+/bin/df \
+/bin/echo \
+/bin/false \
+/bin/ln \
+/bin/ls \
+/bin/mkdir \
+/bin/mknod \
+/bin/mktemp \
+/bin/mv \
+/bin/pwd \
+/bin/rm \
+/bin/rmdir \
+/bin/sleep \
+/bin/sort \
+/bin/stty \
+/bin/sync \
+/bin/touch \
+/bin/true \
+/bin/uname \
+coreutils \
+coreutils(aarch-64) \
+fileutils \
+libstdbuf.so()(64bit) \
+mktemp \
+sh-utils \
+stat \
+textutils"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libacl.so.1()(64bit) \
+libacl.so.1(ACL_1.0)(64bit) \
+libattr.so.1()(64bit) \
+libattr.so.1(ATTR_1.1)(64bit) \
+libattr.so.1(ATTR_1.3)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcap.so.2()(64bit) \
+libgmp.so.10()(64bit) \
+libselinux.so.1()(64bit) \
+libselinux.so.1(LIBSELINUX_1.0)(64bit)"
 
 inherit rpm

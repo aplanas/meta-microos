@@ -10,7 +10,15 @@ PV = "1.9.18"
 RPM_NAME = "haveged-1.9.18-2.3.aarch64.rpm"
 RPM_HASH = "22eab4de3c507f90f1265360e9cefa7caef232663bd19261cd098dad5ac2b97c403c193aaab44e7c899e222be9f2d8b75814a5aeb2f7fc9a4468002df6bfc597"
 
-RPROVIDES:${PN} += "haveged haveged(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh coreutils ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libhavege.so.2()(64bit) systemd"
+RPROVIDES:${PN} += "haveged \
+haveged(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+coreutils \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libhavege.so.2()(64bit) \
+systemd"
 
 inherit rpm

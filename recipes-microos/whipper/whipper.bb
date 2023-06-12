@@ -10,7 +10,29 @@ PV = "0.10.0"
 RPM_NAME = "whipper-0.10.0-3.7.aarch64.rpm"
 RPM_HASH = "fa10a65a248be6c2e531561bdeb7ccb5b9c0ea2c536ec7922035745eb3750204644f72083725ca662b2186613f9bcf0c6a1ba1d2ed5f524421de7816a783843c"
 
-RPROVIDES:${PN} += "metainfo() metainfo(com.github.whipper_team.Whipper.metainfo.xml) python3.10dist(whipper) python3dist(whipper) whipper whipper(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/python3 cd-paranoia cdrdao flac ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libsndfile.so.1()(64bit) libsndfile.so.1(libsndfile.so.1.0)(64bit) python(abi) python3-discid python3-gobject python3-musicbrainzngs python3-mutagen python3-pycdio python3-ruamel.yaml sox typelib(GLib)"
+RPROVIDES:${PN} += "metainfo() \
+metainfo(com.github.whipper_team.Whipper.metainfo.xml) \
+python3.10dist(whipper) \
+python3dist(whipper) \
+whipper \
+whipper(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+cd-paranoia \
+cdrdao \
+flac \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libsndfile.so.1()(64bit) \
+libsndfile.so.1(libsndfile.so.1.0)(64bit) \
+python(abi) \
+python3-discid \
+python3-gobject \
+python3-musicbrainzngs \
+python3-mutagen \
+python3-pycdio \
+python3-ruamel.yaml \
+sox \
+typelib(GLib)"
 
 inherit rpm

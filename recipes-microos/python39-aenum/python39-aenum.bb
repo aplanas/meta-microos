@@ -29,7 +29,9 @@ RPM_NAME = "python39-aenum-3.1.11-1.3.noarch.rpm"
 RPM_HASH = "add3f6504dc229895c93c4db04f1992ae1e0da5a39e9f1b3b80a58ad2af43954cc6e4b9bcbe15112617f05aafc1eb42d8cca62f0933a10353e9b9c5afe649299"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(aenum) python39-aenum python3dist(aenum)"
+RPROVIDES:${PN} += "python3.9dist(aenum) \
+python39-aenum \
+python3dist(aenum)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

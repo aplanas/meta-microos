@@ -11,7 +11,20 @@ RPM_NAME = "texlive-truthtable-2023.201.0.0.0.2svn60717-52.1.noarch.rpm"
 RPM_HASH = "66cdd5f11920c73868196f228ba5dd6644bbe2481533c7f62c01b0aab251bf0ec7b7491c27a2b6788e1c7d4e043619f45970436746428524547a070bbf2a55de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(truthtable.sty) texlive-truthtable"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(luacode.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(truthtable.sty) \
+texlive-truthtable"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(luacode.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

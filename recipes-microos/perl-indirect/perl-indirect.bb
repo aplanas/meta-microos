@@ -20,7 +20,12 @@ PV = "0.39"
 RPM_NAME = "perl-indirect-0.39-1.19.aarch64.rpm"
 RPM_HASH = "ef2e44def56de1f38a211636e0c89a6676f75e43263da176af56c34c95bccfe03c53eb19e962a8b2c253c77b631f5cf0fcf7af896e315f98f659a2ca802ceced"
 
-RPROVIDES:${PN} += "perl(indirect) perl-indirect perl-indirect(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(indirect) \
+perl-indirect \
+perl-indirect(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

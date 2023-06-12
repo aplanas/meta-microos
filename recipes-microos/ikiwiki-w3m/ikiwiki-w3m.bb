@@ -11,6 +11,8 @@ RPM_HASH = "188ccf2dd74367e7f4260e19ae674b051afadf04ad45cb76fa8f85030a1f21aab4a8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ikiwiki-w3m"
-RDEPENDS:${PN} += "/usr/bin/perl ikiwiki w3m"
+RDEPENDS:${PN} += "/usr/bin/perl \
+ikiwiki \
+w3m"
 
 inherit rpm

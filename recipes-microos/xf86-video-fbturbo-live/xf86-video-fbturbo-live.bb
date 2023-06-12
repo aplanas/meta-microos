@@ -17,7 +17,11 @@ PV = "0.4.git.1444169281.f9a6ed7"
 RPM_NAME = "xf86-video-fbturbo-live-0.4.git.1444169281.f9a6ed7-3.8.aarch64.rpm"
 RPM_HASH = "39a41e1a9e19adf000ed5711d24779a5a695213c1a295add7171d2f55fa8a91d3613d2641662dcb1d423bd1d7be50427ba74896d1acec9aaca9d087993bb32d9"
 
-RPROVIDES:${PN} += "xf86-video-fbturbo-live xf86-video-fbturbo-live(aarch-64)"
-RDEPENDS:${PN} += "X11_ABI_VIDEODRV ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "xf86-video-fbturbo-live \
+xf86-video-fbturbo-live(aarch-64)"
+RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

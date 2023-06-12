@@ -10,7 +10,11 @@ RPM_NAME = "noto-sans-mongolian-fonts-20220607-2.6.noarch.rpm"
 RPM_HASH = "6954e9a54ec6346ced606300ae41baf84ca1b04d02fb406a98bae61681376043dced1faa61e22f58614069008e4fcc7639225ce19b6a2f9f6381cb361f4bf718"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "noto-sans-mongolian noto-sans-mongolian-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "noto-sans-mongolian \
+noto-sans-mongolian-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

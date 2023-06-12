@@ -13,6 +13,13 @@ RPM_HASH = "75f583ffdf1cf8d98756c671b4294a7943cf40873984f69d892e6eb0365bd6b20cb4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "protobuf-source"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/env /usr/bin/node /usr/bin/python /usr/bin/python2.7 /usr/bin/python3 /usr/bin/ruby"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/env \
+/usr/bin/node \
+/usr/bin/python \
+/usr/bin/python2.7 \
+/usr/bin/python3 \
+/usr/bin/ruby"
 
 inherit rpm

@@ -13,7 +13,15 @@ RPM_NAME = "python311-azure-mgmt-apimanagement-4.0.0-1.1.noarch.rpm"
 RPM_HASH = "22ded2ced2d1203550020deddb9e18a025c4923426429bcb06d36f619e1a10ed054e7c591d2b94a487d9bc6c8396d9d50b5f31343c09895bca944a81d4236d0d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-apimanagement) python311-azure-mgmt-apimanagement python3dist(azure-mgmt-apimanagement)"
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) python(abi) python311-azure-common python311-azure-mgmt-core python311-azure-mgmt-nspkg python311-azure-nspkg python311-isodate"
+RPROVIDES:${PN} += "python3.11dist(azure-mgmt-apimanagement) \
+python311-azure-mgmt-apimanagement \
+python3dist(azure-mgmt-apimanagement)"
+RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
+python(abi) \
+python311-azure-common \
+python311-azure-mgmt-core \
+python311-azure-mgmt-nspkg \
+python311-azure-nspkg \
+python311-isodate"
 
 inherit rpm

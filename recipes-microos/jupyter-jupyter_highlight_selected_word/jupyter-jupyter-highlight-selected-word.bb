@@ -13,6 +13,7 @@ RPM_HASH = "16c23529369ac4d1c1421204e3578c886589857c38d450a6c593f138628544d09bae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter_highlight_selected_word"
-RDEPENDS:${PN} += "jupyter-notebook python3-jupyter_highlight_selected_word"
+RDEPENDS:${PN} += "jupyter-notebook \
+python3-jupyter_highlight_selected_word"
 
 inherit rpm

@@ -16,7 +16,21 @@ RPM_NAME = "python310-pytest-astropy-0.10.0-1.5.noarch.rpm"
 RPM_HASH = "37a6ec18d204811f822eb30567b8fb418bec05909d1615aa320385f43fcfe63e2dd9a14c7ba988952dfabcf972fdb1297861a8d40e64b394132d36781179bbbd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-astropy python3.10dist(pytest-astropy) python310-pytest-astropy python3dist(pytest-astropy)"
-RDEPENDS:${PN} += "python(abi) python310-attrs python310-hypothesis python310-pytest python310-pytest-arraydiff python310-pytest-astropy-header python310-pytest-cov python310-pytest-doctestplus python310-pytest-filter-subpackage python310-pytest-mock python310-pytest-openfiles python310-pytest-remotedata"
+RPROVIDES:${PN} += "python3-pytest-astropy \
+python3.10dist(pytest-astropy) \
+python310-pytest-astropy \
+python3dist(pytest-astropy)"
+RDEPENDS:${PN} += "python(abi) \
+python310-attrs \
+python310-hypothesis \
+python310-pytest \
+python310-pytest-arraydiff \
+python310-pytest-astropy-header \
+python310-pytest-cov \
+python310-pytest-doctestplus \
+python310-pytest-filter-subpackage \
+python310-pytest-mock \
+python310-pytest-openfiles \
+python310-pytest-remotedata"
 
 inherit rpm

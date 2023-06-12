@@ -13,6 +13,8 @@ RPM_HASH = "daf74ef4cc553c1ed41694c15a629964b685a5c08f0ddb312221b3b338603e53878a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yadm"
-RDEPENDS:${PN} += "/usr/bin/bash bash git"
+RDEPENDS:${PN} += "/usr/bin/bash \
+bash \
+git"
 
 inherit rpm

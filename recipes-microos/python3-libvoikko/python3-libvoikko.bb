@@ -14,6 +14,7 @@ RPM_HASH = "b676972abfb0dcccccb1ba2a0d70283a9f32930c78d851b84294d9fc2ed80a400cde
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-libvoikko"
-RDEPENDS:${PN} += "libvoikko1 python(abi)"
+RDEPENDS:${PN} += "libvoikko1 \
+python(abi)"
 
 inherit rpm

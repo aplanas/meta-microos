@@ -14,7 +14,12 @@ RPM_NAME = "python311-pyOpenSSL-23.1.1-2.1.noarch.rpm"
 RPM_HASH = "ad54945dbf462e2ad66e604d076bf7aa8aeae4c14f79611e00a80292dc2f5d20d06b2113f4cc2b63c4f8db8fa996477a406a3220be18d732ce6db26495a1c8a1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pyOpenSSL python3.11dist(pyopenssl) python311-pyOpenSSL python3dist(pyopenssl)"
-RDEPENDS:${PN} += "(python311-cryptography >= 38.0.0 with python311-cryptography < 41) python(abi) python311-cffi"
+RPROVIDES:${PN} += "pyOpenSSL \
+python3.11dist(pyopenssl) \
+python311-pyOpenSSL \
+python3dist(pyopenssl)"
+RDEPENDS:${PN} += "(python311-cryptography >= 38.0.0 with python311-cryptography < 41) \
+python(abi) \
+python311-cffi"
 
 inherit rpm

@@ -24,7 +24,10 @@ RPM_NAME = "python39-configobj-5.0.8-1.1.noarch.rpm"
 RPM_HASH = "3b97e09dc73363c51887100880baafaa4d17079259960eae292d2e5d095097656d4a35ed9e25d069e8692a28eeadc6dff30ab0d72a83091f73fd2bdf7c04d346"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(configobj) python39-configobj python3dist(configobj)"
-RDEPENDS:${PN} += "python(abi) python39-six"
+RPROVIDES:${PN} += "python3.9dist(configobj) \
+python39-configobj \
+python3dist(configobj)"
+RDEPENDS:${PN} += "python(abi) \
+python39-six"
 
 inherit rpm

@@ -11,7 +11,9 @@ RPM_NAME = "ispell-bulgarian-4.2-1.14.noarch.rpm"
 RPM_HASH = "59147108894eb892b48eabaa483b0a037619ee9fa77402a949f8a839f12eff2295c93b0ccbd1aff2ad4ee758f86476b7c874a0781a8c565ee1449512e20783ae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "ispell-bulgarian ispell_dictionary locale(ispell:bg)"
+RPROVIDES:${PN} += "ispell-bulgarian \
+ispell_dictionary \
+locale(ispell:bg)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

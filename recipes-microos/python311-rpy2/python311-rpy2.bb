@@ -14,7 +14,13 @@ RPM_NAME = "python311-rpy2-3.4.4-1.10.noarch.rpm"
 RPM_HASH = "cc50f7ce0af0256472d1cc12b09aeba34536f7907ec76f409014604309405c8fe5d5bba710a5d7d8a6a91d480b763061347f099e0dd6971af0d871d3a620531f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(rpy2) python311-rpy2 python3dist(rpy2)"
-RDEPENDS:${PN} += "R-base python(abi) python311-cffi python311-numpy readline"
+RPROVIDES:${PN} += "python3.11dist(rpy2) \
+python311-rpy2 \
+python3dist(rpy2)"
+RDEPENDS:${PN} += "R-base \
+python(abi) \
+python311-cffi \
+python311-numpy \
+readline"
 
 inherit rpm

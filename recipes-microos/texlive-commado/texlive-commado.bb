@@ -18,7 +18,20 @@ RPM_NAME = "texlive-commado-2023.201.r0.11asvn38875-53.1.noarch.rpm"
 RPM_HASH = "df359991646747d4456b8395611ba57d2e018d026c0a4cdc715d449185391ed655dc22cfbe48731b99f51b0b8a8cd92cd8564592000576baa883a7dbffa1ffac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(commado.sty) tex(filesdo.sty) texlive-commado"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(commado.sty) \
+tex(filesdo.sty) \
+texlive-commado"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

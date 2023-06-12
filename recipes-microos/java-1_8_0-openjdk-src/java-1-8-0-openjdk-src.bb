@@ -7,7 +7,8 @@ PV = "1.8.0.372"
 RPM_NAME = "java-1_8_0-openjdk-src-1.8.0.372-1.1.aarch64.rpm"
 RPM_HASH = "9fa5ac1dbf5965b5d49edcd795d06b2139d9de22beff4ce752e9fbfd7a313f3dc9aadaf787555bea1d8415dcce12477f7436470edda5ff2c027f787c813c9d50"
 
-RPROVIDES:${PN} += "java-1_8_0-openjdk-src java-1_8_0-openjdk-src(aarch-64)"
+RPROVIDES:${PN} += "java-1_8_0-openjdk-src \
+java-1_8_0-openjdk-src(aarch-64)"
 RDEPENDS:${PN} += "java-1_8_0-openjdk"
 
 inherit rpm

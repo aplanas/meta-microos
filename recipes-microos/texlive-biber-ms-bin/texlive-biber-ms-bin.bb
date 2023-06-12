@@ -9,6 +9,12 @@ RPM_HASH = "e828a670c3fb757556bf2cbc0ed64ad359f540ed47e5543ec318665fc7ad4a3020bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biber-ms-bin"
-RDEPENDS:${PN} += "/usr/bin/env perl perl(Biber) perl(LWP::UserAgent) perl(Text::BibTeX) perl(Text::Roman) texlive-biber-ms"
+RDEPENDS:${PN} += "/usr/bin/env \
+perl \
+perl(Biber) \
+perl(LWP::UserAgent) \
+perl(Text::BibTeX) \
+perl(Text::Roman) \
+texlive-biber-ms"
 
 inherit rpm

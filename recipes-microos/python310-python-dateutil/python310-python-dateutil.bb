@@ -34,7 +34,13 @@ RPM_NAME = "python310-python-dateutil-2.8.2-2.1.noarch.rpm"
 RPM_HASH = "e74a1ba313d8d9569538ba6e61316c7903652999056001a4b59237aaa97b973282bc10a33e293fbe61b40e451f95a6671acef10d8aa64cb6834f5467176c4083"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dateutil python3-python-dateutil python3.10dist(python-dateutil) python310-dateutil python310-python-dateutil python3dist(python-dateutil)"
-RDEPENDS:${PN} += "python(abi) python310-six"
+RPROVIDES:${PN} += "python3-dateutil \
+python3-python-dateutil \
+python3.10dist(python-dateutil) \
+python310-dateutil \
+python310-python-dateutil \
+python3dist(python-dateutil)"
+RDEPENDS:${PN} += "python(abi) \
+python310-six"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "94e29a4670d465bf970b1843c877f08954e16212e6e3396d089b92701d261379dc4f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewalld-rpcbind-helper"
-RDEPENDS:${PN} += "/usr/bin/python3 python3"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3"
 
 inherit rpm

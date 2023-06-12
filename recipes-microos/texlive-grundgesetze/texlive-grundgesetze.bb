@@ -10,7 +10,21 @@ RPM_NAME = "texlive-grundgesetze-2023.201.1.03svn58997-53.1.noarch.rpm"
 RPM_HASH = "7f9e8fc78ba2cc6ea38b0cea9b9c695c6b7f7660ff5cd40f6f1dffb3cf560deabd4d6df56c797e463a132a60995b55ac6e9c5bba4559308f3df2ae74aad58a18"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(grundgesetze.sty) texlive-grundgesetze"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(bguq.sty) tex(kvoptions.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(grundgesetze.sty) \
+texlive-grundgesetze"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(bguq.sty) \
+tex(kvoptions.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

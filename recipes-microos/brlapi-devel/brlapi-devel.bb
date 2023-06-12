@@ -16,7 +16,10 @@ PV = "6.5"
 RPM_NAME = "brlapi-devel-6.5-2.4.aarch64.rpm"
 RPM_HASH = "69ba91e07b8c9ddcfd89121fb667b16e408560268dd22ea0b87d238781d1164656397dbc6fb2bfc8db598352cce89a1e9f1b7f21cd275868612bcea6c9e8ccb6"
 
-RPROVIDES:${PN} += "brlapi-devel brlapi-devel(aarch-64) pkgconfig(brltty)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libbrlapi0_8"
+RPROVIDES:${PN} += "brlapi-devel \
+brlapi-devel(aarch-64) \
+pkgconfig(brltty)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libbrlapi0_8"
 
 inherit rpm

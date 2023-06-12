@@ -10,7 +10,12 @@ RPM_NAME = "python311-falcon-3.1.1-1.4.noarch.rpm"
 RPM_HASH = "be77e1073498fc728fc33b228ffa0a5705fd018f9abc186047d702fbbb34d390bb0017f28764b11cd59171c27b344939392afdb694fb2464493d21e8db49247a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(falcon) python311-falcon python3dist(falcon)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(falcon) \
+python311-falcon \
+python3dist(falcon)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

@@ -24,7 +24,20 @@ PV = "2.1.6"
 RPM_NAME = "openmpi2-2.1.6-14.3.aarch64.rpm"
 RPM_HASH = "cbf415edcd89371fac0060c5a301b2fe0736a4dd5d17254725a398b9106472ed6468aa0fbffd64382f25104e9ba07e2142cc43e34fd4d2dafe743754fcd0bc84"
 
-RPROVIDES:${PN} += "mpi openmpi2 openmpi2(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libmpi.so.20()(64bit) libopen-pal.so.20()(64bit) libopen-rte.so.20()(64bit) liboshmem.so.20()(64bit) mpi-selector openmpi-runtime-config openmpi2-libs openssh"
+RPROVIDES:${PN} += "mpi \
+openmpi2 \
+openmpi2(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libmpi.so.20()(64bit) \
+libopen-pal.so.20()(64bit) \
+libopen-rte.so.20()(64bit) \
+liboshmem.so.20()(64bit) \
+mpi-selector \
+openmpi-runtime-config \
+openmpi2-libs \
+openssh"
 
 inherit rpm

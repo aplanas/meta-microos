@@ -22,7 +22,43 @@ RPM_NAME = "texlive-qyxf-book-2023.201.3.1.0svn56319-53.1.noarch.rpm"
 RPM_HASH = "9e022560079939f078f6d054b027206cd2fdc90b33c8c64c968200970d8f202d5f3c14010947b8fb82eb540cc0b79d77d1bf077c7b7cfef48f1aa817c3808bbe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(qyxf-book.cls) texlive-qyxf-book"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(amsmath.sty) tex(appendix.sty) tex(booktabs.sty) tex(caption.sty) tex(ctexbook.cls) tex(enumitem.sty) tex(etoolbox.sty) tex(fancyhdr.sty) tex(geometry.sty) tex(graphicx.sty) tex(hologo.sty) tex(hyperref.sty) tex(kvoptions.sty) tex(lastpage.sty) tex(longtable.sty) tex(natbib.sty) tex(pifont.sty) tex(tcolorbox.sty) tex(tikz.sty) tex(titlesec.sty) tex(titletoc.sty) tex(ulem.sty) tex(unicode-math.sty) tex(xstring.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(qyxf-book.cls) \
+texlive-qyxf-book"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(amsmath.sty) \
+tex(appendix.sty) \
+tex(booktabs.sty) \
+tex(caption.sty) \
+tex(ctexbook.cls) \
+tex(enumitem.sty) \
+tex(etoolbox.sty) \
+tex(fancyhdr.sty) \
+tex(geometry.sty) \
+tex(graphicx.sty) \
+tex(hologo.sty) \
+tex(hyperref.sty) \
+tex(kvoptions.sty) \
+tex(lastpage.sty) \
+tex(longtable.sty) \
+tex(natbib.sty) \
+tex(pifont.sty) \
+tex(tcolorbox.sty) \
+tex(tikz.sty) \
+tex(titlesec.sty) \
+tex(titletoc.sty) \
+tex(ulem.sty) \
+tex(unicode-math.sty) \
+tex(xstring.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

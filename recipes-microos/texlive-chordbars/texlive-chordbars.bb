@@ -13,7 +13,24 @@ RPM_NAME = "texlive-chordbars-2023.201.1.1svn49569-53.1.noarch.rpm"
 RPM_HASH = "e10177a2d6a741f4d9402492badac1c2574c903b372f38847f48eff3274b5c19b71d5243f6f889e4e043055bd063a160eff85e722b3d599697ffe0ea841a5e26"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(chordbars.sty) texlive-chordbars"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(ifthen.sty) tex(pgfmath.sty) tex(tikz.sty) tex(tkz-euclide.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(chordbars.sty) \
+texlive-chordbars"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(ifthen.sty) \
+tex(pgfmath.sty) \
+tex(tikz.sty) \
+tex(tkz-euclide.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

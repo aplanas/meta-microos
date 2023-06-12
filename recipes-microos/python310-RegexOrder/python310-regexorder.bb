@@ -12,7 +12,11 @@ RPM_NAME = "python310-RegexOrder-0.2-4.13.noarch.rpm"
 RPM_HASH = "6d0f341737d3307f32ebc6e5a3c1b1a00d3a6ef016f1bb0ec1588956401402eb106d736f0a1bbff90375606c69a1a194abaaf124ce85589de14ce10d700ba629"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-RegexOrder python3.10dist(regexorder) python310-RegexOrder python3dist(regexorder)"
-RDEPENDS:${PN} += "python(abi) python310-regex"
+RPROVIDES:${PN} += "python3-RegexOrder \
+python3.10dist(regexorder) \
+python310-RegexOrder \
+python3dist(regexorder)"
+RDEPENDS:${PN} += "python(abi) \
+python310-regex"
 
 inherit rpm

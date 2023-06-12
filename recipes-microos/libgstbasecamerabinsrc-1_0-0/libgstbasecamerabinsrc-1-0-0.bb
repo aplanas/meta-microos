@@ -11,7 +11,16 @@ PV = "1.22.3"
 RPM_NAME = "libgstbasecamerabinsrc-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "a4abeda10a10c799b7a9c9c2008f8f4b3e61aea53d6cad155665d7155f3b3b804b09533afbdbe0d4e433490579e2f230a3e41d04864b75faaee37a28b145c054"
 
-RPROVIDES:${PN} += "libgstbasecamerabinsrc-1.0.so.0()(64bit) libgstbasecamerabinsrc-1_0-0 libgstbasecamerabinsrc-1_0-0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgstapp-1.0.so.0()(64bit) libgstreamer-1.0.so.0()(64bit)"
+RPROVIDES:${PN} += "libgstbasecamerabinsrc-1.0.so.0()(64bit) \
+libgstbasecamerabinsrc-1_0-0 \
+libgstbasecamerabinsrc-1_0-0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgstapp-1.0.so.0()(64bit) \
+libgstreamer-1.0.so.0()(64bit)"
 
 inherit rpm

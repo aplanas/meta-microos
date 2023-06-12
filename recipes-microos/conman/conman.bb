@@ -19,7 +19,26 @@ PV = "0.3.1"
 RPM_NAME = "conman-0.3.1-1.2.aarch64.rpm"
 RPM_HASH = "c0ce45c162dfa8bc8f573f7f20c921aa7b031b3474ca74c03928ea827d7064938dd3ddf38c9f81917f764896f27ed029c143c7ce4a71867f81feedaa98614f41"
 
-RPROVIDES:${PN} += "config(conman) conman conman(aarch-64) group(conman) user(conman)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/expect /usr/bin/mkdir /usr/bin/perl /usr/bin/touch coreutils expect fillup ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libwrap.so.0()(64bit) logrotate sed shadow systemd"
+RPROVIDES:${PN} += "config(conman) \
+conman \
+conman(aarch-64) \
+group(conman) \
+user(conman)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/expect \
+/usr/bin/mkdir \
+/usr/bin/perl \
+/usr/bin/touch \
+coreutils \
+expect \
+fillup \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libwrap.so.0()(64bit) \
+logrotate \
+sed \
+shadow \
+systemd"
 
 inherit rpm

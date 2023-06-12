@@ -16,7 +16,9 @@ PV = "0.30"
 RPM_NAME = "canberra-gtk-play-gnome-0.30-15.23.aarch64.rpm"
 RPM_HASH = "a7b8939bb977962677c4427946b38f458badbb24ba60ed35afc2de575d2ddaacd04c9c7ed5f242b1969b4a134c440800ef55757dbb1423ca73b84bca048b9d3f"
 
-RPROVIDES:${PN} += "canberra-gtk-play-gnome canberra-gtk-play-gnome(aarch-64) libcanberra-gtk-gnome"
+RPROVIDES:${PN} += "canberra-gtk-play-gnome \
+canberra-gtk-play-gnome(aarch-64) \
+libcanberra-gtk-gnome"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

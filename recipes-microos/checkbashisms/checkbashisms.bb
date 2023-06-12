@@ -11,7 +11,10 @@ RPM_NAME = "checkbashisms-2.22.2-1.3.noarch.rpm"
 RPM_HASH = "05bcfececc3161a55b06a080d509aaa770016b296707f7fe3de2f311c9e64d1500e5765be2c96c49ba93d4ac19ac17ae3b8de5e1c6539fdc3cb3f393b5dc9958"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "checkbashisms deb:/usr/bin/checkbashisms devscripts:/usr/bin/checkbashisms"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "checkbashisms \
+deb:/usr/bin/checkbashisms \
+devscripts:/usr/bin/checkbashisms"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

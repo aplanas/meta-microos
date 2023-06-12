@@ -18,7 +18,21 @@ RPM_NAME = "autoconf-2.71-2.3.noarch.rpm"
 RPM_HASH = "1cf7d2d33fb931150e2198bdbf86b419e0e78b7672dda2569c24e77b43e0fbb5ace37dff206c21cbd21f3ae0b1e7e7b35cbd0107152daf44c541d5b70004ed52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "autoconf perl(Autom4te::C4che) perl(Autom4te::ChannelDefs) perl(Autom4te::Channels) perl(Autom4te::Config) perl(Autom4te::Configure_ac) perl(Autom4te::FileUtils) perl(Autom4te::General) perl(Autom4te::Getopt) perl(Autom4te::Request) perl(Autom4te::XFile)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl info m4 perl-base"
+RPROVIDES:${PN} += "autoconf \
+perl(Autom4te::C4che) \
+perl(Autom4te::ChannelDefs) \
+perl(Autom4te::Channels) \
+perl(Autom4te::Config) \
+perl(Autom4te::Configure_ac) \
+perl(Autom4te::FileUtils) \
+perl(Autom4te::General) \
+perl(Autom4te::Getopt) \
+perl(Autom4te::Request) \
+perl(Autom4te::XFile)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+info \
+m4 \
+perl-base"
 
 inherit rpm

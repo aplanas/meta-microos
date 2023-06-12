@@ -27,7 +27,14 @@ RPM_NAME = "bcel-5.2-37.2.noarch.rpm"
 RPM_HASH = "b3887659810ded3fc799aa93ff327afd8be8cd797638993c37f1287d684ec02a59db92cc84f7355cad04edd3347871560161f20dbd6a8ef1a6029357a1d7d9d6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "bcel mvn(bcel:bcel) mvn(bcel:bcel:pom:) mvn(org.apache.bcel:bcel) mvn(org.apache.bcel:bcel:pom:)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(jakarta-regexp:jakarta-regexp) regexp"
+RPROVIDES:${PN} += "bcel \
+mvn(bcel:bcel) \
+mvn(bcel:bcel:pom:) \
+mvn(org.apache.bcel:bcel) \
+mvn(org.apache.bcel:bcel:pom:)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(jakarta-regexp:jakarta-regexp) \
+regexp"
 
 inherit rpm

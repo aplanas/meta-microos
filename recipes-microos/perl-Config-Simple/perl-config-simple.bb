@@ -13,7 +13,10 @@ PV = "4.59"
 RPM_NAME = "perl-Config-Simple-4.59-19.29.aarch64.rpm"
 RPM_HASH = "4bda9346df7c87c789980ee5f182907bd3ab1c11f25ea131cc9775b5acc7e376bff1b2347fa48cb88a44da32eb520f62f483654cd64671a3f9af7df18f81cab9"
 
-RPROVIDES:${PN} += "perl(Config::Simple) perl-Config-Simple perl-Config-Simple(aarch-64)"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(AutoLoader)"
+RPROVIDES:${PN} += "perl(Config::Simple) \
+perl-Config-Simple \
+perl-Config-Simple(aarch-64)"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(AutoLoader)"
 
 inherit rpm

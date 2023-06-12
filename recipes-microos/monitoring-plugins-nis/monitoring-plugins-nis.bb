@@ -19,7 +19,9 @@ RPM_NAME = "monitoring-plugins-nis-1.2-1.16.noarch.rpm"
 RPM_HASH = "20387e7e5101161eff933db2e364db338c794bd7851084087e118235b842033fc61454062e8ddb04d90389c44a524afb1e64b1849c869b45ba9efdc289b442ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "monitoring-plugins-nis nagios-plugins-nis"
-RDEPENDS:${PN} += "/bin/sh yp-tools"
+RPROVIDES:${PN} += "monitoring-plugins-nis \
+nagios-plugins-nis"
+RDEPENDS:${PN} += "/bin/sh \
+yp-tools"
 
 inherit rpm

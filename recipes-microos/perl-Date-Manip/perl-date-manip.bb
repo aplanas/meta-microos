@@ -86,7 +86,38 @@ RPM_NAME = "perl-Date-Manip-6.91-1.1.noarch.rpm"
 RPM_HASH = "75062a5c5bfe07814430d339fe67ac6c8027d3ac2ecb0bdf9339946ec84d6bd13dd9cf6059c2cd8b2508277127456e347ec5348c7c1281e4ef519fba822b4aa1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Date::Manip) perl(Date::Manip::Base) perl(Date::Manip::DM5) perl(Date::Manip::DM5abbrevs) perl(Date::Manip::DM6) perl(Date::Manip::Date) perl(Date::Manip::Delta) perl(Date::Manip::Lang::catalan) perl(Date::Manip::Lang::danish) perl(Date::Manip::Lang::dutch) perl(Date::Manip::Lang::english) perl(Date::Manip::Lang::finnish) perl(Date::Manip::Lang::french) perl(Date::Manip::Lang::german) perl(Date::Manip::Lang::index) perl(Date::Manip::Lang::italian) perl(Date::Manip::Lang::norwegian) perl(Date::Manip::Lang::polish) perl(Date::Manip::Lang::portugue) perl(Date::Manip::Lang::romanian) perl(Date::Manip::Lang::russian) perl(Date::Manip::Lang::spanish) perl(Date::Manip::Lang::swedish) perl(Date::Manip::Lang::turkish) perl(Date::Manip::Obj) perl(Date::Manip::Recur) perl(Date::Manip::TZ) perl(Date::Manip::TZ_Base) perl(Date::Manip::TZdata) perl(Date::Manip::Zones) perl-Date-Manip"
-RDEPENDS:${PN} += "/usr/bin/perl perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Date::Manip) \
+perl(Date::Manip::Base) \
+perl(Date::Manip::DM5) \
+perl(Date::Manip::DM5abbrevs) \
+perl(Date::Manip::DM6) \
+perl(Date::Manip::Date) \
+perl(Date::Manip::Delta) \
+perl(Date::Manip::Lang::catalan) \
+perl(Date::Manip::Lang::danish) \
+perl(Date::Manip::Lang::dutch) \
+perl(Date::Manip::Lang::english) \
+perl(Date::Manip::Lang::finnish) \
+perl(Date::Manip::Lang::french) \
+perl(Date::Manip::Lang::german) \
+perl(Date::Manip::Lang::index) \
+perl(Date::Manip::Lang::italian) \
+perl(Date::Manip::Lang::norwegian) \
+perl(Date::Manip::Lang::polish) \
+perl(Date::Manip::Lang::portugue) \
+perl(Date::Manip::Lang::romanian) \
+perl(Date::Manip::Lang::russian) \
+perl(Date::Manip::Lang::spanish) \
+perl(Date::Manip::Lang::swedish) \
+perl(Date::Manip::Lang::turkish) \
+perl(Date::Manip::Obj) \
+perl(Date::Manip::Recur) \
+perl(Date::Manip::TZ) \
+perl(Date::Manip::TZ_Base) \
+perl(Date::Manip::TZdata) \
+perl(Date::Manip::Zones) \
+perl-Date-Manip"
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

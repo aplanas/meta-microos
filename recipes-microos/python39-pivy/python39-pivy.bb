@@ -18,7 +18,24 @@ PV = "0.6.8"
 RPM_NAME = "python39-pivy-0.6.8-1.4.aarch64.rpm"
 RPM_HASH = "f92ab164f228545bfd28828a0add7c59c1c415dbecd5e61d653fecfd156e86022b44fa155fd7c817676565c46ea7494a2e069337874f4b8cc75d2fb76d87cad2"
 
-RPROVIDES:${PN} += "python3.9dist(pivy) python39-pivy python39-pivy(aarch-64) python3dist(pivy)"
-RDEPENDS:${PN} += "/usr/bin/python3.9 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libCoin.so.80()(64bit) libSoQt.so.20()(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.9dist(pivy) \
+python39-pivy \
+python39-pivy(aarch-64) \
+python3dist(pivy)"
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libCoin.so.80()(64bit) \
+libSoQt.so.20()(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.8)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+python(abi)"
 
 inherit rpm

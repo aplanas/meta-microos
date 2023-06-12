@@ -35,7 +35,9 @@ RPM_NAME = "perl-strictures-2.000006-1.15.noarch.rpm"
 RPM_HASH = "4e7f761f2c584eb2f2c64ecc02c9af2f306c2080feb56419a10f60789c02e2f21e08e3dccebbe9714ab705f28bf691190e058fa94497c1e48ab1acadce527d44"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(strictures) perl(strictures::extra) perl-strictures"
+RPROVIDES:${PN} += "perl(strictures) \
+perl(strictures::extra) \
+perl-strictures"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

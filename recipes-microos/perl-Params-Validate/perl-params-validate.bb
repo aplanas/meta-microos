@@ -19,7 +19,16 @@ PV = "1.31"
 RPM_NAME = "perl-Params-Validate-1.31-1.2.aarch64.rpm"
 RPM_HASH = "488bb9d8b83cd4f5490a51ed22c7e29cff9054a4389604274aeb15bcb6c086f72bef0e1969804a1f982d2aed926c7249f2f9571cf1f34b5e95eaf3e728584ef7"
 
-RPROVIDES:${PN} += "perl(Params::Validate) perl(Params::Validate::Constants) perl(Params::Validate::PP) perl(Params::Validate::XS) perl-Params-Validate perl-Params-Validate(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0) perl(Module::Implementation)"
+RPROVIDES:${PN} += "perl(Params::Validate) \
+perl(Params::Validate::Constants) \
+perl(Params::Validate::PP) \
+perl(Params::Validate::XS) \
+perl-Params-Validate \
+perl-Params-Validate(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(Module::Implementation)"
 
 inherit rpm

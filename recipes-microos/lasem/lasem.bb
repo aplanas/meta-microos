@@ -10,7 +10,14 @@ PV = "0.4.4"
 RPM_NAME = "lasem-0.4.4-2.15.aarch64.rpm"
 RPM_HASH = "e4d2d4d678894095344901f83c5f0836f643e80c06fe618d42ed9f64a18e498c4a072923d662c3b1eb608f117663050dbc6d3d3b3d8d0b9e2207407f3d039ddd"
 
-RPROVIDES:${PN} += "lasem lasem(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcairo.so.2()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) liblasem-0.4.so.4()(64bit)"
+RPROVIDES:${PN} += "lasem \
+lasem(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libcairo.so.2()(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+liblasem-0.4.so.4()(64bit)"
 
 inherit rpm

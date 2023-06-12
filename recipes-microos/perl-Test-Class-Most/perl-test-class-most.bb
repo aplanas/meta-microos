@@ -28,7 +28,10 @@ RPM_NAME = "perl-Test-Class-Most-0.08-1.23.noarch.rpm"
 RPM_HASH = "bbcc3616e79ce96db02f9fa4f48d09ea1f57def83794c72c3636e8581e8cf6f3d2c99136eb98771b722e2a4eae37b4826574f84b6ae5cf4269cd554f9dc5d421"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Class::Most) perl-Test-Class-Most"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Test::Class) perl(Test::Most)"
+RPROVIDES:${PN} += "perl(Test::Class::Most) \
+perl-Test-Class-Most"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Test::Class) \
+perl(Test::Most)"
 
 inherit rpm

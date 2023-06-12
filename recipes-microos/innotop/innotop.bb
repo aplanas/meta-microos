@@ -12,6 +12,15 @@ RPM_HASH = "54bcb2763d79df65fc18a29dea508d86282f332e42511d2a2aaf9a83dae66ef68d3e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "innotop"
-RDEPENDS:${PN} += "/usr/bin/env perl(:MODULE_COMPAT_5.36.0) perl(DBD::mysql) perl(DBI) perl(File::Basename) perl(File::Temp) perl(Getopt::Long) perl(List::Util) perl(Term::ReadKey) perl(Time::HiRes)"
+RDEPENDS:${PN} += "/usr/bin/env \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(DBD::mysql) \
+perl(DBI) \
+perl(File::Basename) \
+perl(File::Temp) \
+perl(Getopt::Long) \
+perl(List::Util) \
+perl(Term::ReadKey) \
+perl(Time::HiRes)"
 
 inherit rpm

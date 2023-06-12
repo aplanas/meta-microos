@@ -12,7 +12,13 @@ PV = "23.28"
 RPM_NAME = "dt-23.28-1.9.aarch64.rpm"
 RPM_HASH = "7f7b8f65235eea2e76401d0486debde310f2b1f11f6674fe6a181219dff38340e41eb9d35cb71025d1410a261fbef26a5dad91cfb3559faed36a36294c7bf2d1"
 
-RPROVIDES:${PN} += "dt dt(aarch-64)"
-RDEPENDS:${PN} += "/bin/csh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libuuid.so.1()(64bit) libuuid.so.1(UUID_1.0)(64bit)"
+RPROVIDES:${PN} += "dt \
+dt(aarch-64)"
+RDEPENDS:${PN} += "/bin/csh \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libuuid.so.1()(64bit) \
+libuuid.so.1(UUID_1.0)(64bit)"
 
 inherit rpm

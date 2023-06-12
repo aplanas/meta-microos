@@ -12,7 +12,10 @@ RPM_NAME = "python310-packaging-23.1-2.1.noarch.rpm"
 RPM_HASH = "8da430fa25b8507dce933dca5fd9dc5041c477a981ef1d328c60d622e4bb0f2b7f8b767e02ccabbfb8cf5eb701f2706f9c5d724df5b257cc6b10875bddd1ab3c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-packaging python3.10dist(packaging) python310-packaging python3dist(packaging)"
+RPROVIDES:${PN} += "python3-packaging \
+python3.10dist(packaging) \
+python310-packaging \
+python3dist(packaging)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

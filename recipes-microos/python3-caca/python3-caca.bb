@@ -9,6 +9,7 @@ RPM_HASH = "698c5b3d03318235c39405ea42f110a5b9b78c9178f469753531c057eb93ee660f33
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-caca"
-RDEPENDS:${PN} += "libcaca python(abi)"
+RDEPENDS:${PN} += "libcaca \
+python(abi)"
 
 inherit rpm

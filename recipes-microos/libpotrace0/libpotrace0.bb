@@ -13,7 +13,14 @@ PV = "1.16"
 RPM_NAME = "libpotrace0-1.16-1.14.aarch64.rpm"
 RPM_HASH = "f08f612eb36e34ecb1793d51af1bfa27ea7ca1df5a97096e7f3c96a7ba555220abfdc90e33ebba03d4a8f3d5d99db70d24b2b31b10a0063d3c547710e0f611f9"
 
-RPROVIDES:${PN} += "libpotrace.so.0()(64bit) libpotrace0 libpotrace0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libpotrace.so.0()(64bit) \
+libpotrace0 \
+libpotrace0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

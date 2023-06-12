@@ -10,6 +10,7 @@ RPM_HASH = "b3087dea8921d7003ad90ed26adce1fe2fac800872feb7ad3508847fb03ef97927ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-playerctl"
-RDEPENDS:${PN} += "bumblebee-status playerctl"
+RDEPENDS:${PN} += "bumblebee-status \
+playerctl"
 
 inherit rpm

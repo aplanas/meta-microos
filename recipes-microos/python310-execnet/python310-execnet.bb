@@ -16,7 +16,10 @@ RPM_NAME = "python310-execnet-1.9.0-3.1.noarch.rpm"
 RPM_HASH = "7a01ba0fd010381d9708e927fe68363f8405f60dc7b16342e4fddb528da68246ca3fc0b54533b3262ba17057cb4de95165dc93abb279fa4293da01dc7bbecd6c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-execnet python3.10dist(execnet) python310-execnet python3dist(execnet)"
+RPROVIDES:${PN} += "python3-execnet \
+python3.10dist(execnet) \
+python310-execnet \
+python3dist(execnet)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

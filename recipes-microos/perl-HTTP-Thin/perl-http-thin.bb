@@ -17,7 +17,14 @@ RPM_NAME = "perl-HTTP-Thin-0.006-3.26.noarch.rpm"
 RPM_HASH = "d7c0b69a539ce57b6d914883323b3ef6e523b273d359efbb478b38824d83877eac9e212676440c275ff233fe7acb0597109e4cb0c2c10d4cb78711145a341ffa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Thin) perl-HTTP-Thin"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Class::Method::Modifiers) perl(HTTP::Response) perl(HTTP::Tiny) perl(Hash::MultiValue) perl(Safe::Isa) perl(parent)"
+RPROVIDES:${PN} += "perl(HTTP::Thin) \
+perl-HTTP-Thin"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Class::Method::Modifiers) \
+perl(HTTP::Response) \
+perl(HTTP::Tiny) \
+perl(Hash::MultiValue) \
+perl(Safe::Isa) \
+perl(parent)"
 
 inherit rpm

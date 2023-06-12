@@ -21,7 +21,10 @@ RPM_NAME = "perl-Class-C3-Adopt-NEXT-0.14-1.24.noarch.rpm"
 RPM_HASH = "d11f72a0900cae5108b0a0e61200f6e3b2aae1320d9b6e25d34c488c4d6b473cd0dcf37108e1160291728096f812e100dd48b9b9bc2a3660f5e3c2118fc492aa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::C3::Adopt::NEXT) perl-Class-C3-Adopt-NEXT"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(List::Util) perl(MRO::Compat)"
+RPROVIDES:${PN} += "perl(Class::C3::Adopt::NEXT) \
+perl-Class-C3-Adopt-NEXT"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(List::Util) \
+perl(MRO::Compat)"
 
 inherit rpm

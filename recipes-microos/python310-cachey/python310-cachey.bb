@@ -21,7 +21,11 @@ RPM_NAME = "python310-cachey-0.2.1-2.3.noarch.rpm"
 RPM_HASH = "7f20078994cf05c0acdaed6b84b427aca20064cac5e33815af48bf4af139de42471d7b84b3b4c9771be469c71f74a40e0a95ba41533aefef739fe295ec36bef1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cachey python3.10dist(cachey) python310-cachey python3dist(cachey)"
-RDEPENDS:${PN} += "python(abi) python310-HeapDict"
+RPROVIDES:${PN} += "python3-cachey \
+python3.10dist(cachey) \
+python310-cachey \
+python3dist(cachey)"
+RDEPENDS:${PN} += "python(abi) \
+python310-HeapDict"
 
 inherit rpm

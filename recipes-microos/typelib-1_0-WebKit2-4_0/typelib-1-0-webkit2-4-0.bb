@@ -16,7 +16,25 @@ PV = "2.40.2"
 RPM_NAME = "typelib-1_0-WebKit2-4_0-2.40.2-1.1.aarch64.rpm"
 RPM_HASH = "5edd174e98a8123bbde0500d7f670b1134345db5f6369225769a118ea3a340f97129c2e57b6b8d0b52e4549c8bd7a181f7b2890de7811651b429d8e0c9834cbb"
 
-RPROVIDES:${PN} += "typelib(WebKit2) typelib-1_0-WebKit2-4_0 typelib-1_0-WebKit2-4_0(aarch-64)"
-RDEPENDS:${PN} += "libjavascriptcoregtk-4.0.so.18()(64bit) libwebkit2gtk-4.0.so.37()(64bit) typelib(Atk) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gdk) typelib(GdkPixbuf) typelib(Gio) typelib(Gtk) typelib(HarfBuzz) typelib(JavaScriptCore) typelib(Pango) typelib(Soup) typelib(cairo) typelib(freetype2) typelib(xlib)"
+RPROVIDES:${PN} += "typelib(WebKit2) \
+typelib-1_0-WebKit2-4_0 \
+typelib-1_0-WebKit2-4_0(aarch-64)"
+RDEPENDS:${PN} += "libjavascriptcoregtk-4.0.so.18()(64bit) \
+libwebkit2gtk-4.0.so.37()(64bit) \
+typelib(Atk) \
+typelib(GLib) \
+typelib(GModule) \
+typelib(GObject) \
+typelib(Gdk) \
+typelib(GdkPixbuf) \
+typelib(Gio) \
+typelib(Gtk) \
+typelib(HarfBuzz) \
+typelib(JavaScriptCore) \
+typelib(Pango) \
+typelib(Soup) \
+typelib(cairo) \
+typelib(freetype2) \
+typelib(xlib)"
 
 inherit rpm

@@ -10,7 +10,22 @@ PV = "23.03.0"
 RPM_NAME = "ovn-23.03.0-14.1.aarch64.rpm"
 RPM_HASH = "3c280919c028077e772dd29c69da2c3e891ddefb6713b01ab2a5213bb7bd41571c689cfd3328bef329c6c2c9744da2b89a6810a39330a42297b3f44a11dd7295"
 
-RPROVIDES:${PN} += "config(ovn) openvswitch-dpdk-ovn openvswitch-ovn openvswitch-ovn-common ovn ovn(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/python3 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libopenvswitch-3.1.so.0()(64bit) libopenvswitch-3.1.so.0(libopenvswitch_0)(64bit) libovn-23.03.so.0()(64bit) libovn-23.03.so.0(libovn_0)(64bit) openvswitch"
+RPROVIDES:${PN} += "config(ovn) \
+openvswitch-dpdk-ovn \
+openvswitch-ovn \
+openvswitch-ovn-common \
+ovn \
+ovn(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+/usr/bin/python3 \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libopenvswitch-3.1.so.0()(64bit) \
+libopenvswitch-3.1.so.0(libopenvswitch_0)(64bit) \
+libovn-23.03.so.0()(64bit) \
+libovn-23.03.so.0(libovn_0)(64bit) \
+openvswitch"
 
 inherit rpm

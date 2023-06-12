@@ -8,7 +8,12 @@ RPM_NAME = "myspell-es_DO-20221012-1.2.noarch.rpm"
 RPM_HASH = "6b79f948ad91a4f69ff32904903353f4116893d1659ed65480f839fbc5895133a68e1db79e99fcfe6064184956aec0cd58d51c6f52127d6091f80cb1f1d13230"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:es_DO) locale(seamonkey-spellchecker:es_DO) myspell-dictionary myspell-es_DO myspell-spanish-dominican"
-RDEPENDS:${PN} += "myspell-dictionaries myspell-es"
+RPROVIDES:${PN} += "locale(libreoffice:es_DO) \
+locale(seamonkey-spellchecker:es_DO) \
+myspell-dictionary \
+myspell-es_DO \
+myspell-spanish-dominican"
+RDEPENDS:${PN} += "myspell-dictionaries \
+myspell-es"
 
 inherit rpm

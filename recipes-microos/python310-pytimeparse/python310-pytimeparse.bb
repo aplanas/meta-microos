@@ -27,7 +27,10 @@ RPM_NAME = "python310-pytimeparse-1.1.8-3.12.noarch.rpm"
 RPM_HASH = "8f6c2ad6ae5a2e8b62f966b18001059035d1e28038190a6e625b8ff6605e0999d4300fda36c906a5d42fe8ecd993eecf66ab0e5382b62ce38915d06694fe2a9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytimeparse python3.10dist(pytimeparse) python310-pytimeparse python3dist(pytimeparse)"
+RPROVIDES:${PN} += "python3-pytimeparse \
+python3.10dist(pytimeparse) \
+python310-pytimeparse \
+python3dist(pytimeparse)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

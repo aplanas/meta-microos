@@ -20,7 +20,27 @@ RPM_NAME = "texlive-accfonts-2023.201.0.0.25svn18835-54.1.noarch.rpm"
 RPM_HASH = "82bc1ee8f129894156af92e9aeb1024379d72f4299edcda71a65813698fc32f388d0ad33ab66a95f55ce033b647ebbaca79405ed2cb25dc7be3d55b4c6736eef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(CSX.def) tex(ISO-Latin1.def) tex(ISO-Latin2.def) tex(IndUni_Omega.def) tex(Norman.def) texlive-accfonts"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl coreutils ed findutils grep perl(File::Basename) perl(Getopt::Std) sed texlive texlive-accfonts-bin texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(CSX.def) \
+tex(ISO-Latin1.def) \
+tex(ISO-Latin2.def) \
+tex(IndUni_Omega.def) \
+tex(Norman.def) \
+texlive-accfonts"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+coreutils \
+ed \
+findutils \
+grep \
+perl(File::Basename) \
+perl(Getopt::Std) \
+sed \
+texlive \
+texlive-accfonts-bin \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

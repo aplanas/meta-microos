@@ -14,7 +14,11 @@ PV = "2.26"
 RPM_NAME = "blog-plymouth-2.26-2.2.aarch64.rpm"
 RPM_HASH = "bcf5bbc538482d0b65443f0225611717f6e11a8c107ee26beebb784383ee960eddb9eb722ec38ae2a9dc69ee85107e9ef56da23c3971119b8f299b0611635174"
 
-RPROVIDES:${PN} += "blog-plymouth blog-plymouth(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh blog systemd"
+RPROVIDES:${PN} += "blog-plymouth \
+blog-plymouth(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh \
+blog \
+systemd"
 
 inherit rpm

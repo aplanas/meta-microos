@@ -10,7 +10,12 @@ PV = "1.0.2"
 RPM_NAME = "libblitz0-1.0.2-2.11.aarch64.rpm"
 RPM_HASH = "5b01488ed680bb12781b98f9e5008034e3396a53b5060afbe4da32cef1569d2cd27269124a4ac8740e7637db5815b43f98a3fdcac4a6cebdbb775e0f2d5eb816"
 
-RPROVIDES:${PN} += "libblitz.so.0()(64bit) libblitz0 libblitz0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig libc.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
+RPROVIDES:${PN} += "libblitz.so.0()(64bit) \
+libblitz0 \
+libblitz0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libc.so.6(GLIBC_2.17)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
 
 inherit rpm

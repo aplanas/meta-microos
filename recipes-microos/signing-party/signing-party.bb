@@ -40,7 +40,24 @@ PV = "2.11"
 RPM_NAME = "signing-party-2.11-1.8.aarch64.rpm"
 RPM_HASH = "e31743e6b86ca0ce485cb04ce772e95c9530be2f41549af01593322945c8f899e4b8322dac967bebb3657f4ec4d4856307ebf74ed2c4fd4bfb40d65b0c4ad8f2"
 
-RPROVIDES:${PN} += "signing-party signing-party(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/perl /usr/bin/python3 /usr/sbin/sendmail gpg ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libmd.so.0()(64bit) libmd.so.0(LIBMD_0.0)(64bit) perl perl-GnuPG-Interface perl-MIME-tools perl-MailTools perl-Net-IDN-Encode perl-Text-Template qprint"
+RPROVIDES:${PN} += "signing-party \
+signing-party(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/perl \
+/usr/bin/python3 \
+/usr/sbin/sendmail \
+gpg \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libmd.so.0()(64bit) \
+libmd.so.0(LIBMD_0.0)(64bit) \
+perl \
+perl-GnuPG-Interface \
+perl-MIME-tools \
+perl-MailTools \
+perl-Net-IDN-Encode \
+perl-Text-Template \
+qprint"
 
 inherit rpm

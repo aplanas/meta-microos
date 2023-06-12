@@ -41,7 +41,13 @@ RPM_NAME = "python310-scspell3k-2.2-4.13.noarch.rpm"
 RPM_HASH = "0d14988ebe75f39f1e7ba1a6dd17cc610fe9c2744abbca6bafd45f81beea13302930d08a02ff9b5062f83cf8e75b99369e86e3eea60897f8e6ad10a22429a228"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-scspell3k python3.10dist(scspell3k) python310-scspell3k python3dist(scspell3k)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3-scspell3k \
+python3.10dist(scspell3k) \
+python310-scspell3k \
+python3dist(scspell3k)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

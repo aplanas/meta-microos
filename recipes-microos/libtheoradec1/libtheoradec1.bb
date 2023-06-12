@@ -11,7 +11,14 @@ PV = "1.1.1"
 RPM_NAME = "libtheoradec1-1.1.1-30.8.aarch64.rpm"
 RPM_HASH = "b04110ca1f038da1c593da4d9f584b80c7714d3fae0b4479c417806b64744d0aa47bb4aa66138a349108b9716ee6c1c3bf79caad1c1e057bfb94d7629519b85a"
 
-RPROVIDES:${PN} += "libtheoradec.so.1()(64bit) libtheoradec.so.1(libtheora.so.1.0)(64bit) libtheoradec.so.1(libtheoradec_1.0)(64bit) libtheoradec1 libtheoradec1(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"
+RPROVIDES:${PN} += "libtheoradec.so.1()(64bit) \
+libtheoradec.so.1(libtheora.so.1.0)(64bit) \
+libtheoradec.so.1(libtheoradec_1.0)(64bit) \
+libtheoradec1 \
+libtheoradec1(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

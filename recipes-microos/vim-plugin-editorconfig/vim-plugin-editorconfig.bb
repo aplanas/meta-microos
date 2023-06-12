@@ -16,6 +16,7 @@ RPM_HASH = "e7ed77ca1d5d1d91945b19adf8e7a8421956f6e2b0767fa407a486424ce19672cec6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-editorconfig"
-RDEPENDS:${PN} += "/bin/sh editorconfig"
+RDEPENDS:${PN} += "/bin/sh \
+editorconfig"
 
 inherit rpm

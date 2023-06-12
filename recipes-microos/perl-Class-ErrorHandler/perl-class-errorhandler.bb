@@ -21,7 +21,8 @@ RPM_NAME = "perl-Class-ErrorHandler-0.04-1.15.noarch.rpm"
 RPM_HASH = "6e47be020c4bd04829ea836d1bf9a30fd1a4cb5ffb5caeb53edfd4cc1ebc44e9b13e7b28d537521d02f5e045f7e0177e8cd3f97ae7ddf728d5ed95d83d598f0b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::ErrorHandler) perl-Class-ErrorHandler"
+RPROVIDES:${PN} += "perl(Class::ErrorHandler) \
+perl-Class-ErrorHandler"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

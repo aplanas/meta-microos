@@ -14,7 +14,11 @@ PV = "2.3.3"
 RPM_NAME = "slang-devel-2.3.3-1.3.aarch64.rpm"
 RPM_HASH = "9cf4440dab0be0dda16716561da00ae039cc61619f6adfad616d62e2304cc4b92f32c7ca2fe5ab050cc317c36931bc393bd235e82f00a1b2a941f88070a4fbe5"
 
-RPROVIDES:${PN} += "pkgconfig(slang) slang-devel slang-devel(aarch-64) slang:/usr/include/slang.h"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libslang2"
+RPROVIDES:${PN} += "pkgconfig(slang) \
+slang-devel \
+slang-devel(aarch-64) \
+slang:/usr/include/slang.h"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libslang2"
 
 inherit rpm

@@ -27,7 +27,29 @@ PV = "0.08"
 RPM_NAME = "perl-File-Comments-0.08-10.12.aarch64.rpm"
 RPM_HASH = "8779d0624a6e6c8778b49ac6b6f71822812c5a104d30ec5eece9fd7caabc73ddff8916ec73a19ba87e4d59c0e8fbc5ac01f21f3adeb20a59c1acb998e661b74b"
 
-RPROVIDES:${PN} += "perl(File::Comments) perl(File::Comments::Plugin) perl(File::Comments::Plugin::C) perl(File::Comments::Plugin::HTML) perl(File::Comments::Plugin::Java) perl(File::Comments::Plugin::JavaScript) perl(File::Comments::Plugin::Makefile) perl(File::Comments::Plugin::PHP) perl(File::Comments::Plugin::Perl) perl(File::Comments::Plugin::Python) perl(File::Comments::Plugin::Shell) perl(File::Comments::Target) perl(PodExtractor) perl-File-Comments perl-File-Comments(aarch-64)"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Archive::Tar) perl(HTML::TokeParser) perl(HTML::TreeBuilder) perl(Log::Log4perl) perl(Module::Pluggable) perl(PPI) perl(Pod::Parser) perl(Sysadm::Install)"
+RPROVIDES:${PN} += "perl(File::Comments) \
+perl(File::Comments::Plugin) \
+perl(File::Comments::Plugin::C) \
+perl(File::Comments::Plugin::HTML) \
+perl(File::Comments::Plugin::Java) \
+perl(File::Comments::Plugin::JavaScript) \
+perl(File::Comments::Plugin::Makefile) \
+perl(File::Comments::Plugin::PHP) \
+perl(File::Comments::Plugin::Perl) \
+perl(File::Comments::Plugin::Python) \
+perl(File::Comments::Plugin::Shell) \
+perl(File::Comments::Target) \
+perl(PodExtractor) \
+perl-File-Comments \
+perl-File-Comments(aarch-64)"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Archive::Tar) \
+perl(HTML::TokeParser) \
+perl(HTML::TreeBuilder) \
+perl(Log::Log4perl) \
+perl(Module::Pluggable) \
+perl(PPI) \
+perl(Pod::Parser) \
+perl(Sysadm::Install)"
 
 inherit rpm

@@ -36,7 +36,9 @@ RPM_NAME = "perl-Class-Tiny-1.008-1.12.noarch.rpm"
 RPM_HASH = "47aef258cdda02b327041c27c882fcf1b93c1f9141bc95608da5bd02f3a7fc889a5e0b73e821e34a3be81fa63a5a7ee7e934d82eca17a93550564358c9974f90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Tiny) perl(Class::Tiny::Object) perl-Class-Tiny"
+RPROVIDES:${PN} += "perl(Class::Tiny) \
+perl(Class::Tiny::Object) \
+perl-Class-Tiny"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -14,7 +14,25 @@ RPM_NAME = "texlive-hanzibox-2023.201.2.3.0svn63062-53.1.noarch.rpm"
 RPM_HASH = "db83e5f7e74eb4905f8b4a142ac66e343ad3cbde1c40fa1a92bd28b7c3f37368da5dd530cb4dfaaa549078af112bf6fcce4aa5ec6b4c3db2d9d17d559ec809ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hanzibox.sty) texlive-hanzibox"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(expl3.sty) tex(l3draw.sty) tex(l3keys2e.sty) tex(xparse.sty) tex(xpinyin.sty) tex(xtemplate.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(hanzibox.sty) \
+texlive-hanzibox"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(expl3.sty) \
+tex(l3draw.sty) \
+tex(l3keys2e.sty) \
+tex(xparse.sty) \
+tex(xpinyin.sty) \
+tex(xtemplate.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

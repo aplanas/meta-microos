@@ -17,7 +17,17 @@ RPM_NAME = "python311-pytesseract-0.3.10-1.5.noarch.rpm"
 RPM_HASH = "a2aae444f1cc0feb6e13ff58c0d236641f8b13699c945e91e79cc80839a313314e938d2d9934d59cb5bfac1489f49103cf5b57a454f9574973e8d80bb2340bf0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pytesseract) python311-pytesseract python3dist(pytesseract)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 pkgconfig(tesseract) python(abi) python311-Pillow python311-setuptools tesseract-ocr-traineddata-deu tesseract-ocr-traineddata-eng update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(pytesseract) \
+python311-pytesseract \
+python3dist(pytesseract)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+pkgconfig(tesseract) \
+python(abi) \
+python311-Pillow \
+python311-setuptools \
+tesseract-ocr-traineddata-deu \
+tesseract-ocr-traineddata-eng \
+update-alternatives"
 
 inherit rpm

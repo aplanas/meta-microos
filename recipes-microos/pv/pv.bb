@@ -11,7 +11,10 @@ PV = "1.6.20"
 RPM_NAME = "pv-1.6.20-1.7.aarch64.rpm"
 RPM_HASH = "e94c70e0fabd50732a31ba57134d094aad0918fea240b314a71502f1fc636d680d1f36212a29a29924bfd825695389c9862c2c10306739d857bd03b23a357fec"
 
-RPROVIDES:${PN} += "pv pv(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "pv \
+pv(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

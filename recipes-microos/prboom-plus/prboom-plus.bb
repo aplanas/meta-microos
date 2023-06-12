@@ -19,7 +19,36 @@ PV = "2.6.2"
 RPM_NAME = "prboom-plus-2.6.2-3.10.aarch64.rpm"
 RPM_HASH = "9b5e885c4bf781e407577c1b089f4fabb5c1c0dec30bc1d16e038e255fe06562316ebfe1959ec040a9dac642ce342532955fb3fa3b94219bf2f794550a4e8a4e"
 
-RPROVIDES:${PN} += "application() application(prboom-plus.desktop) mimehandler(application/x-doom-wad) prboom prboom-plus prboom-plus(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libGL.so.1()(64bit) libGLU.so.1()(64bit) libSDL2-2.0.so.0()(64bit) libSDL2-2.0.so.0(SUSE_2.0.5)(64bit) libSDL2_image-2.0.so.0()(64bit) libSDL2_mixer-2.0.so.0()(64bit) libSDL2_net-2.0.so.0()(64bit) libasound.so.2()(64bit) libasound.so.2(ALSA_0.9)(64bit) libc.so.6(GLIBC_2.34)(64bit) libfluidsynth.so.3()(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libpcreposix.so.0()(64bit) libportmidi.so.2()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libvorbisfile.so.3()(64bit) libz.so.1()(64bit)"
+RPROVIDES:${PN} += "application() \
+application(prboom-plus.desktop) \
+mimehandler(application/x-doom-wad) \
+prboom \
+prboom-plus \
+prboom-plus(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libGL.so.1()(64bit) \
+libGLU.so.1()(64bit) \
+libSDL2-2.0.so.0()(64bit) \
+libSDL2-2.0.so.0(SUSE_2.0.5)(64bit) \
+libSDL2_image-2.0.so.0()(64bit) \
+libSDL2_mixer-2.0.so.0()(64bit) \
+libSDL2_net-2.0.so.0()(64bit) \
+libasound.so.2()(64bit) \
+libasound.so.2(ALSA_0.9)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libfluidsynth.so.3()(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libpcreposix.so.0()(64bit) \
+libportmidi.so.2()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libvorbisfile.so.3()(64bit) \
+libz.so.1()(64bit)"
 
 inherit rpm

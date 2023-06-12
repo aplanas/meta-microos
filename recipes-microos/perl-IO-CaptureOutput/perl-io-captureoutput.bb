@@ -13,7 +13,9 @@ RPM_NAME = "perl-IO-CaptureOutput-1.1105-1.15.noarch.rpm"
 RPM_HASH = "4124561e8003cbd82326024b30b783bd2b5326e618e5613da0a152217301c0fbcc8521a094845714f6ae366419ed964b1ed91c2749f1cbaa426945aa733a7984"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IO::CaptureOutput) perl(IO::CaptureOutput::_proxy) perl-IO-CaptureOutput"
+RPROVIDES:${PN} += "perl(IO::CaptureOutput) \
+perl(IO::CaptureOutput::_proxy) \
+perl-IO-CaptureOutput"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

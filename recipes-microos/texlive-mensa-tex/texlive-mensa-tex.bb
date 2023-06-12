@@ -17,7 +17,28 @@ RPM_NAME = "texlive-mensa-tex-2023.201.svn45997-52.1.noarch.rpm"
 RPM_HASH = "674974541925764c16464f33e21e18893c984a1b963647bae1fc8877bc211e43a27be29bfafdd3fd60800d4e836a55d9f4937e1d84809b6cef612ee42558f684"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mensa-tex.cls) texlive-mensa-tex"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(array.sty) tex(article.cls) tex(datetime2-calc.sty) tex(datetime2.sty) tex(geometry.sty) tex(graphicx.sty) tex(lmodern.sty) tex(textcomp.sty) tex(xcolor.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(mensa-tex.cls) \
+texlive-mensa-tex"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(array.sty) \
+tex(article.cls) \
+tex(datetime2-calc.sty) \
+tex(datetime2.sty) \
+tex(geometry.sty) \
+tex(graphicx.sty) \
+tex(lmodern.sty) \
+tex(textcomp.sty) \
+tex(xcolor.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

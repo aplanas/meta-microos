@@ -10,7 +10,11 @@ PV = "1.1.0"
 RPM_NAME = "libesmtp-devel-1.1.0-1.4.aarch64.rpm"
 RPM_HASH = "b6b7470ce2f642a7c33250c3f71ca7cf98f3a720d4e01fac1a13da67729970c3d8a37ed5c754e533201d1b04219f5e4983bd267082c961095e020e8219059594"
 
-RPROVIDES:${PN} += "libesmtp-devel libesmtp-devel(aarch-64) pkgconfig(libesmtp-1.0)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libesmtp6_2_0 pkgconfig(openssl)"
+RPROVIDES:${PN} += "libesmtp-devel \
+libesmtp-devel(aarch-64) \
+pkgconfig(libesmtp-1.0)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libesmtp6_2_0 \
+pkgconfig(openssl)"
 
 inherit rpm

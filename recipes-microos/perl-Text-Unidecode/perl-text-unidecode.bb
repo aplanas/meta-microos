@@ -29,7 +29,8 @@ RPM_NAME = "perl-Text-Unidecode-1.30-2.36.noarch.rpm"
 RPM_HASH = "aebd91d6b160a2e83e1989a297478a5e1d09ac0977a0837820f30f66f0ff2e8e0e7292536b2d9de873fafa4d8e60ae4bc40dcecb52f096da593418360984d6b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::Unidecode) perl-Text-Unidecode"
+RPROVIDES:${PN} += "perl(Text::Unidecode) \
+perl-Text-Unidecode"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

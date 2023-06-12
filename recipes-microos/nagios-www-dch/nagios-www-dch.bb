@@ -21,7 +21,9 @@ PV = "4.4.7"
 RPM_NAME = "nagios-www-dch-4.4.7-2.4.aarch64.rpm"
 RPM_HASH = "68a3b7dae8f830628eb3e4620c28e2db9fb7181e0712139750daeb6a5011e0e29b49e510eb510def7c4761efb71965168ec5240d7a045659e48e86e213d071e0"
 
-RPROVIDES:${PN} += "nagios-www-dch nagios-www-dch(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh nagios-www"
+RPROVIDES:${PN} += "nagios-www-dch \
+nagios-www-dch(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+nagios-www"
 
 inherit rpm

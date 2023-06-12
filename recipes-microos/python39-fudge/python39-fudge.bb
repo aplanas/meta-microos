@@ -15,7 +15,10 @@ RPM_NAME = "python39-fudge-1.1.1-6.7.noarch.rpm"
 RPM_HASH = "f06881734fa1bd994811efc78cb4aa5b783851b18ba0e25e4ed8cffdc03610d736f264c3a8dcb016408f7d18e2dc165f6bccf591978bb74cdd214d36622f71bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(fudge) python39-fudge python3dist(fudge)"
-RDEPENDS:${PN} += "python(abi) python39-six"
+RPROVIDES:${PN} += "python3.9dist(fudge) \
+python39-fudge \
+python3dist(fudge)"
+RDEPENDS:${PN} += "python(abi) \
+python39-six"
 
 inherit rpm

@@ -17,7 +17,21 @@ RPM_NAME = "texlive-dinbrief-2023.201.svn15878-52.1.noarch.rpm"
 RPM_HASH = "1d95dc74c76f1ac24a9ad0f82b045384aa0ac04317399f18788090c69c46878e700c260e20e74c2e89a63493943860194a5b0f4f00b41c7b4f5d8f4791f0693a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dinbrief.cfg) tex(dinbrief.cls) tex(dinbrief.sty) texlive-dinbrief"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(dinbrief.cfg) \
+tex(dinbrief.cls) \
+tex(dinbrief.sty) \
+texlive-dinbrief"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

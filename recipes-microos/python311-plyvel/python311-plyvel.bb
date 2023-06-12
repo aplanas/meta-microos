@@ -12,7 +12,21 @@ PV = "1.5.0"
 RPM_NAME = "python311-plyvel-1.5.0-1.5.aarch64.rpm"
 RPM_HASH = "665749064e12bf0737a7ae42763c0e1eabef7e72e6b31f80f821f14889ace77d8367e7a3ca3da047ca7daba1de78d5145258957c98c8e2d771287042752656a3"
 
-RPROVIDES:${PN} += "python3.11dist(plyvel) python311-plyvel python311-plyvel(aarch-64) python3dist(plyvel)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libleveldb.so.1()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.11dist(plyvel) \
+python311-plyvel \
+python311-plyvel(aarch-64) \
+python3dist(plyvel)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libleveldb.so.1()(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+python(abi)"
 
 inherit rpm

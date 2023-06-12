@@ -9,6 +9,7 @@ RPM_HASH = "d450af990ef1126d23608e8f01207b711b561e524271721309d7a26fbe6484cfcd96
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsixel-bash-completion"
-RDEPENDS:${PN} += "bash-completion libsixel-utils"
+RDEPENDS:${PN} += "bash-completion \
+libsixel-utils"
 
 inherit rpm

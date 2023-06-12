@@ -12,7 +12,21 @@ RPM_NAME = "texlive-cooltooltips-2023.204.1.1svn60201-54.1.noarch.rpm"
 RPM_HASH = "32bdf83007ffc4ebc773e88e4a0fd57db704c51ad57c8f235e3c0a38c840c20faaf4c4b65af83d2bf52065a44feac666348e2970388bba5953354fac529c3374"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cooltooltips.sty) texlive-cooltooltips"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(iftex.sty) tex(luatex85.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(cooltooltips.sty) \
+texlive-cooltooltips"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(iftex.sty) \
+tex(luatex85.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

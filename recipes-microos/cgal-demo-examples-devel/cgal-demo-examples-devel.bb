@@ -11,6 +11,7 @@ RPM_HASH = "8b023ffb76328456024da551e1f473caf99ed9239a24925396eb281f62a9a4bbf85f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cgal-demo-examples-devel"
-RDEPENDS:${PN} += "/bin/sh cgal-devel"
+RDEPENDS:${PN} += "/bin/sh \
+cgal-devel"
 
 inherit rpm

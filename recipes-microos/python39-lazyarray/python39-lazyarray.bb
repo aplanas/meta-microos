@@ -22,7 +22,10 @@ RPM_NAME = "python39-lazyarray-0.5.2-1.6.noarch.rpm"
 RPM_HASH = "5284e0376c1904c09779a0eae454ad0ab14f6b3f9c78e4fd89d6fe2100885dcea472affbf0c463f0719c891850592963e4817257f8cc14ef732f7aef0ba66a52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(lazyarray) python39-lazyarray python3dist(lazyarray)"
-RDEPENDS:${PN} += "python(abi) python39-numpy"
+RPROVIDES:${PN} += "python3.9dist(lazyarray) \
+python39-lazyarray \
+python3dist(lazyarray)"
+RDEPENDS:${PN} += "python(abi) \
+python39-numpy"
 
 inherit rpm

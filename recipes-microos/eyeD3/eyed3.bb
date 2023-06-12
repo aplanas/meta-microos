@@ -21,7 +21,21 @@ RPM_NAME = "eyeD3-0.9.7-1.2.noarch.rpm"
 RPM_HASH = "5f79f0743be9928291b1eba0cdf38e83e38e7a67120a82df2d2ca219ff74d9021d0dad6e3ba7a8d554a6e05f934af584b9015f35dad42ada79e82fc08272ae88"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "eyeD3 python3.10dist(eyed3) python3dist(eyed3)"
-RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-chardet python3-colorama python3-deprecation python3-filetype python3-idna python3-packaging python3-pyparsing python3-requests python3-six python3-toml python3-urllib3"
+RPROVIDES:${PN} += "eyeD3 \
+python3.10dist(eyed3) \
+python3dist(eyed3)"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python(abi) \
+python3-chardet \
+python3-colorama \
+python3-deprecation \
+python3-filetype \
+python3-idna \
+python3-packaging \
+python3-pyparsing \
+python3-requests \
+python3-six \
+python3-toml \
+python3-urllib3"
 
 inherit rpm

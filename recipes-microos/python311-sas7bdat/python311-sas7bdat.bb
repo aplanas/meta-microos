@@ -16,7 +16,13 @@ RPM_NAME = "python311-sas7bdat-2.2.3-2.13.noarch.rpm"
 RPM_HASH = "1abd76cdbdef73c7d1c31d028dd2ee070c098a54a15d6b056f60fcf9d58cb1635f101fe55a94044df66fea7b8db421d9a8cb8516200702a17c1359bfb6a6ecfe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(sas7bdat) python311-sas7bdat python3dist(sas7bdat)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-six update-alternatives"
+RPROVIDES:${PN} += "python3.11dist(sas7bdat) \
+python311-sas7bdat \
+python3dist(sas7bdat)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.11 \
+python(abi) \
+python311-six \
+update-alternatives"
 
 inherit rpm

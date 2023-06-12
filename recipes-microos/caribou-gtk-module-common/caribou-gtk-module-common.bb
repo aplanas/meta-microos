@@ -13,7 +13,8 @@ PV = "0.4.21"
 RPM_NAME = "caribou-gtk-module-common-0.4.21-8.7.aarch64.rpm"
 RPM_HASH = "003ca80627e6f13ada09ba587adec8cab972d3186d06b6f970e69558ee58e35518bc22b5138465f4dc161ff4ad2658b97d0c55f8652b7faf21b8bf415d2c0840"
 
-RPROVIDES:${PN} += "caribou-gtk-module-common caribou-gtk-module-common(aarch-64)"
+RPROVIDES:${PN} += "caribou-gtk-module-common \
+caribou-gtk-module-common(aarch-64)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

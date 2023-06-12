@@ -26,6 +26,9 @@ RPM_HASH = "30eaa6c1982cbbac56ec89e46f829e9324b73b85fc83ce94eed2c24e984249a9e3ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ubuntu-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

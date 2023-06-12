@@ -12,6 +12,7 @@ RPM_HASH = "2fd5cc29de75861e673f291ad1a715ac1ead54cc522f6d099c4e4ae95eaad4db8881
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opencensus-cpp-source"
-RDEPENDS:${PN} += "/bin/bash /usr/bin/env"
+RDEPENDS:${PN} += "/bin/bash \
+/usr/bin/env"
 
 inherit rpm

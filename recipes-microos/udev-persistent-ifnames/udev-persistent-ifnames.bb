@@ -18,6 +18,7 @@ RPM_HASH = "bc0e1cc0a724216575bf8e7e574f49a8ba5cbc61339b3f7f7fc3c703f0d7734747c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "udev-persistent-ifnames"
-RDEPENDS:${PN} += "/bin/bash /bin/sh"
+RDEPENDS:${PN} += "/bin/bash \
+/bin/sh"
 
 inherit rpm

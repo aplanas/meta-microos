@@ -28,7 +28,9 @@ RPM_NAME = "perl-Lingua-PT-Stemmer-0.02-1.25.noarch.rpm"
 RPM_HASH = "d3a3cf48be50bc7cbeb4437e444bf3d5c52dae9cee3cca9244e554737ca38172b7b07cdc919de347759469f055f4f93fbe86f9f2680cfd420776b14c35c612d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Lingua::GL::Stemmer) perl(Lingua::PT::Stemmer) perl-Lingua-PT-Stemmer"
+RPROVIDES:${PN} += "perl(Lingua::GL::Stemmer) \
+perl(Lingua::PT::Stemmer) \
+perl-Lingua-PT-Stemmer"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

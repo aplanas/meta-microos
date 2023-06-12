@@ -10,7 +10,14 @@ PV = "1.24.1"
 RPM_NAME = "libv4l2-0-1.24.1-1.3.aarch64.rpm"
 RPM_HASH = "a255cfc12425ff7d95c3803ad77a1422f08842045dba5477ec9819483225cdf1cca059b87ec725bc3a2294dc2f0cfe8527e2a079f68cb58818e241e253164fed"
 
-RPROVIDES:${PN} += "libv4l2-0 libv4l2-0(aarch-64) libv4l2.so.0()(64bit)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libv4l libv4lconvert.so.0()(64bit)"
+RPROVIDES:${PN} += "libv4l2-0 \
+libv4l2-0(aarch-64) \
+libv4l2.so.0()(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libv4l \
+libv4lconvert.so.0()(64bit)"
 
 inherit rpm

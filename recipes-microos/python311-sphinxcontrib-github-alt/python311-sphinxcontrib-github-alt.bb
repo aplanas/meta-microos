@@ -12,7 +12,11 @@ RPM_NAME = "python311-sphinxcontrib-github-alt-1.2-1.12.noarch.rpm"
 RPM_HASH = "d7cf051cebb4ccdb6e275077417e08cccb18f9125193ec58d83b11f4256a4737124b76cb7492c24623a8cc66bd75642baae25b7cfb1e14c6627af9f16530eff4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(sphinxcontrib-github-alt) python311-sphinxcontrib-github-alt python3dist(sphinxcontrib-github-alt)"
-RDEPENDS:${PN} += "python(abi) python311-Sphinx python311-docutils"
+RPROVIDES:${PN} += "python3.11dist(sphinxcontrib-github-alt) \
+python311-sphinxcontrib-github-alt \
+python3dist(sphinxcontrib-github-alt)"
+RDEPENDS:${PN} += "python(abi) \
+python311-Sphinx \
+python311-docutils"
 
 inherit rpm

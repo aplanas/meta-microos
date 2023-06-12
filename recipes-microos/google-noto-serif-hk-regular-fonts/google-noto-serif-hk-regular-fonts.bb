@@ -10,7 +10,11 @@ RPM_NAME = "google-noto-serif-hk-regular-fonts-2.001-2.3.noarch.rpm"
 RPM_HASH = "4f226b89dcc724cf32fa52b755900593b5b594443e5a73142d17be8114f43771ebfc2de706481ef7946a8de085eb4e414d7b571d067aa7c7210176cb8a876351"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "google-noto-serif-hk-regular-fonts noto-serif-hk-regular-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "google-noto-serif-hk-regular-fonts \
+noto-serif-hk-regular-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

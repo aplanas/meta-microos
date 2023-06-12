@@ -27,7 +27,26 @@ PV = "1.6"
 RPM_NAME = "xyconvert-1.6-1.15.aarch64.rpm"
 RPM_HASH = "1fbcf09aa0c424026ecf9f0ab105fd639a30a5065c06c50850b1cff83645260e0c9dad70b783fe7e4cc272eefa4487bfc707b9831632956d23ef1e0b58e3af64"
 
-RPROVIDES:${PN} += "xyconvert xyconvert(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libwx_baseu-suse.so.9.0.0()(64bit) libwx_baseu-suse.so.9.0.0(WXU_3.2)(64bit) libwx_gtk2u_core-suse.so.9.0.0()(64bit) libwx_gtk2u_core-suse.so.9.0.0(WXU_3.2)(64bit) libxy.so.3()(64bit)"
+RPROVIDES:${PN} += "xyconvert \
+xyconvert(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3)(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
+libwx_baseu-suse.so.9.0.0()(64bit) \
+libwx_baseu-suse.so.9.0.0(WXU_3.2)(64bit) \
+libwx_gtk2u_core-suse.so.9.0.0()(64bit) \
+libwx_gtk2u_core-suse.so.9.0.0(WXU_3.2)(64bit) \
+libxy.so.3()(64bit)"
 
 inherit rpm

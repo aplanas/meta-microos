@@ -15,7 +15,9 @@ RPM_NAME = "python39-yamlloader-1.2.2-1.3.noarch.rpm"
 RPM_HASH = "133ac0f50d8bcd3250505c6cf2d1836305c4753bf009088442788a7906650c45deae0fa3d8a389f1a0e8ec07db5342482fa25ae907a8e4eb01e1a8342218413d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(yamlloader) python39-yamlloader python3dist(yamlloader)"
+RPROVIDES:${PN} += "python3.9dist(yamlloader) \
+python39-yamlloader \
+python3dist(yamlloader)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

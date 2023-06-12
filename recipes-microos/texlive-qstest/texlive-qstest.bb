@@ -18,7 +18,21 @@ RPM_NAME = "texlive-qstest-2023.201.svn15878-53.1.noarch.rpm"
 RPM_HASH = "bbd286454cab659b093db44b8c9b4264e394767302e6ce0139539bec8bf94089da9786dd1a3913a6ada6c712750de68b39b212b998827ac03dcb97a2127ab92a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(makematch.sty) tex(qstest.sty) texlive-qstest"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(verbatim.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(makematch.sty) \
+tex(qstest.sty) \
+texlive-qstest"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(verbatim.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

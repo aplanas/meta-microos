@@ -13,6 +13,7 @@ RPM_HASH = "14881422bf026cae1092331fc5258e80aca2083094feb929d599e13c30cf9ea3ca5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rcm"
-RDEPENDS:${PN} += "/usr/bin/bash bash"
+RDEPENDS:${PN} += "/usr/bin/bash \
+bash"
 
 inherit rpm

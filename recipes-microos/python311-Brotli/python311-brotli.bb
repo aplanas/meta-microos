@@ -13,7 +13,21 @@ PV = "1.0.9"
 RPM_NAME = "python311-Brotli-1.0.9-2.1.aarch64.rpm"
 RPM_HASH = "5f16d6d795b29ddb4d3d22b1f6839d094c3f3bc2e701d779f70262793928b7238c033488f5d5ad754d7befdce74f070e2a97e029e033d4a43909d5c4b813ef00"
 
-RPROVIDES:${PN} += "python3.11dist(brotli) python311-Brotli python311-Brotli(aarch-64) python3dist(brotli)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.29)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) python(abi)"
+RPROVIDES:${PN} += "python3.11dist(brotli) \
+python311-Brotli \
+python311-Brotli(aarch-64) \
+python3dist(brotli)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libgcc_s.so.1()(64bit) \
+libgcc_s.so.1(GCC_3.0)(64bit) \
+libgcc_s.so.1(GCC_3.3.1)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libstdc++.so.6()(64bit) \
+libstdc++.so.6(CXXABI_1.3.9)(64bit) \
+libstdc++.so.6(GLIBCXX_3.4)(64bit) \
+python(abi)"
 
 inherit rpm

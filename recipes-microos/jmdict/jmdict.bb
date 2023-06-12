@@ -17,7 +17,8 @@ RPM_NAME = "jmdict-20230511-1.1.noarch.rpm"
 RPM_HASH = "7d52d653bb6fc9cf919a87e94bf0f26c4e4f9f3d5d0ba7f2d86dcba5157706a6a1aa5642db1ffa6ea2fc778489372bad5d554283f198fa38f86ccbeb92cdd6f7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jmdict locale(ja)"
+RPROVIDES:${PN} += "jmdict \
+locale(ja)"
 RDEPENDS:${PN} += ""
 
 inherit rpm

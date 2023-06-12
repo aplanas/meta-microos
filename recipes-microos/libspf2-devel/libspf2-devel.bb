@@ -14,7 +14,8 @@ PV = "1.2.11"
 RPM_NAME = "libspf2-devel-1.2.11-6.12.aarch64.rpm"
 RPM_HASH = "553bb0b92fcdda76f8000e6dd94ca3a3036f98350146cc3e97351ce1dcb290c6f06cd33f4834b1ba33167ff65265a3952d1707aec1be42b8e49d41d0253459c8"
 
-RPROVIDES:${PN} += "libspf2-devel libspf2-devel(aarch-64)"
+RPROVIDES:${PN} += "libspf2-devel \
+libspf2-devel(aarch-64)"
 RDEPENDS:${PN} += "libspf2-2"
 
 inherit rpm

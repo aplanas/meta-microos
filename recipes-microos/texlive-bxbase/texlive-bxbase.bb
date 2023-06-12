@@ -11,7 +11,31 @@ RPM_NAME = "texlive-bxbase-2023.201.1.2asvn66115-52.1.noarch.rpm"
 RPM_HASH = "345afb9485c55a884690f16ef5e903b927569c58d77653d20e4f46c0a6f65e664d25aeaef4b935620bcb629f70e54ea4ad5aeb081dcafe773c9c93ce5872bf02"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bxbase.def) tex(bxbase.sty) tex(bxtoolbox-ext.def) tex(bxtoolbox-ja.def) tex(bxtoolbox.def) tex(bxtoolbox.sty) tex(bxutf8.def) tex(bxutf8x.def) tex(zxbase.sty) texlive-bxbase"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(etoolbox.sty) tex(ifxetex.sty) tex(keyval.sty) tex(xkeyval.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(bxbase.def) \
+tex(bxbase.sty) \
+tex(bxtoolbox-ext.def) \
+tex(bxtoolbox-ja.def) \
+tex(bxtoolbox.def) \
+tex(bxtoolbox.sty) \
+tex(bxutf8.def) \
+tex(bxutf8x.def) \
+tex(zxbase.sty) \
+texlive-bxbase"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(etoolbox.sty) \
+tex(ifxetex.sty) \
+tex(keyval.sty) \
+tex(xkeyval.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -17,7 +17,10 @@ PV = "0.15"
 RPM_NAME = "perl-Class-C3-XS-0.15-1.17.aarch64.rpm"
 RPM_HASH = "1d6f9132734886f89b566767e8838b8b81b096f176dad2e60f47c42e0c3a8eea4671be2f2d3e504bb762144b0544964eb217d0ac1d13777077fd1d07ffb2f51e"
 
-RPROVIDES:${PN} += "perl(Class::C3::XS) perl-Class-C3-XS perl-Class-C3-XS(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"
+RPROVIDES:${PN} += "perl(Class::C3::XS) \
+perl-Class-C3-XS \
+perl-Class-C3-XS(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

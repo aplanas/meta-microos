@@ -17,7 +17,13 @@ RPM_NAME = "python39-Pygments-2.15.1-2.1.noarch.rpm"
 RPM_HASH = "a219f888f8c0d832c6c1e8aaef3576ffd9d33ae70173ac46597231cb126988c1dce29ae58758ecb6c6df2a42659df4ef0e1d795193ffcce5acec24f449a79a73"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pygments) python39-Pygments python39-pygments python3dist(pygments)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 alts python(abi)"
+RPROVIDES:${PN} += "python3.9dist(pygments) \
+python39-Pygments \
+python39-pygments \
+python3dist(pygments)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+alts \
+python(abi)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "d2eacb6002b68cea040f36d31f711441b953164858018ec9d9990d07d717efbfff0a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "neomutt-contrib"
-RDEPENDS:${PN} += "/usr/bin/env neomutt"
+RDEPENDS:${PN} += "/usr/bin/env \
+neomutt"
 
 inherit rpm

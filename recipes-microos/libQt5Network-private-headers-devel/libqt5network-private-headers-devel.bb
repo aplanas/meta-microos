@@ -12,6 +12,7 @@ RPM_HASH = "a10e8cfab5c4729315c2c2b64342a9cee62fa2673c3e29dcadf9d17e4e3556cf68fd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5Network-private-headers-devel"
-RDEPENDS:${PN} += "libQt5Core-private-headers-devel libQt5Network-devel"
+RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
+libQt5Network-devel"
 
 inherit rpm

@@ -17,7 +17,13 @@ PV = "0.17.1"
 RPM_NAME = "ruby3.2-rubygem-net-ldap-0.17.1-1.5.aarch64.rpm"
 RPM_HASH = "31911c5448ec3961cae54e2648858ef6506d3362c3bcb1fb660ad78dbc7c170d9d955caf659516ec8631a5101296ff2ab9b6243eef3d4ed9d569b68733d6341c"
 
-RPROVIDES:${PN} += "ruby3.2-rubygem-net-ldap ruby3.2-rubygem-net-ldap(aarch-64) rubygem(net-ldap) rubygem(ruby:3.2.0:net-ldap) rubygem(ruby:3.2.0:net-ldap:0) rubygem(ruby:3.2.0:net-ldap:0.17) rubygem(ruby:3.2.0:net-ldap:0.17.1)"
+RPROVIDES:${PN} += "ruby3.2-rubygem-net-ldap \
+ruby3.2-rubygem-net-ldap(aarch-64) \
+rubygem(net-ldap) \
+rubygem(ruby:3.2.0:net-ldap) \
+rubygem(ruby:3.2.0:net-ldap:0) \
+rubygem(ruby:3.2.0:net-ldap:0.17) \
+rubygem(ruby:3.2.0:net-ldap:0.17.1)"
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

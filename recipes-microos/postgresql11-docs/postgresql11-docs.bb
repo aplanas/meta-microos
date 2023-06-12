@@ -16,7 +16,8 @@ RPM_NAME = "postgresql11-docs-11.20-1.2.noarch.rpm"
 RPM_HASH = "59f39d87f3324324ca0cd5122b17b9347edfd901c352e20ac1984389162f7e73ac7a18f8e1317f0d11ebeb405b5dad5debbdfaceadb1fc945e045f2b2be7a4fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "postgresql-docs-implementation postgresql11-docs"
+RPROVIDES:${PN} += "postgresql-docs-implementation \
+postgresql11-docs"
 RDEPENDS:${PN} += "postgresql-docs-noarch"
 
 inherit rpm

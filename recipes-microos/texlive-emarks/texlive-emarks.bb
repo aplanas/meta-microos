@@ -18,7 +18,20 @@ RPM_NAME = "texlive-emarks-2023.201.1.0svn24504-53.1.noarch.rpm"
 RPM_HASH = "7288d259b40cd55a3e287bf66345115cb99d29f502c321c51822bc2dab5e346ee52e2fe920f096d4c2261b7fcfb08a0131c3ee528aa6159f1ef3efaebc8e5bd1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(emarks.sty) texlive-emarks"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(etex.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(emarks.sty) \
+texlive-emarks"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(etex.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

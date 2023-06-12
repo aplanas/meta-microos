@@ -10,7 +10,11 @@ RPM_NAME = "google-noto-sans-tc-mono-fonts-2.004-3.3.noarch.rpm"
 RPM_HASH = "e12f8bd841fef74fb88172586c9e082259be867aab34cb40f7da3a60ce011887b839cc76c0d970eb0ee34a00ca2da1fcdac524981b991b2402b1006eb0b29d97"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "google-noto-sans-tc-mono-fonts noto-sans-tc-mono-fonts"
-RDEPENDS:${PN} += "/bin/sh aaa_base coreutils perl"
+RPROVIDES:${PN} += "google-noto-sans-tc-mono-fonts \
+noto-sans-tc-mono-fonts"
+RDEPENDS:${PN} += "/bin/sh \
+aaa_base \
+coreutils \
+perl"
 
 inherit rpm

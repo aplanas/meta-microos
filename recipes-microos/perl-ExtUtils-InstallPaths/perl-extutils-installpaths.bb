@@ -64,7 +64,9 @@ RPM_NAME = "perl-ExtUtils-InstallPaths-0.012-1.17.noarch.rpm"
 RPM_HASH = "013c6228e80133f7b1afc3b8aa9acdb5992f3581d25e3686d9290b2d4d1f371213c95e4b9d1c7d819c73a0937c276ea61fbfd5c9275196ddbd23840ed763c3c1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(ExtUtils::InstallPaths) perl-ExtUtils-InstallPaths"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(ExtUtils::Config)"
+RPROVIDES:${PN} += "perl(ExtUtils::InstallPaths) \
+perl-ExtUtils-InstallPaths"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(ExtUtils::Config)"
 
 inherit rpm

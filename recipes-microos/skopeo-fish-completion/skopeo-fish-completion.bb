@@ -9,6 +9,7 @@ RPM_HASH = "1614dc6c8823b4f15c713a7e7cdfc1046b226699c2f94d99795c82f1e749927c809e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skopeo-fish-completion"
-RDEPENDS:${PN} += "fish skopeo"
+RDEPENDS:${PN} += "fish \
+skopeo"
 
 inherit rpm

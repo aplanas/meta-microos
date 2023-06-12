@@ -9,7 +9,8 @@ PV = "1.7.0"
 RPM_NAME = "choqok-devel-1.7.0-3.10.aarch64.rpm"
 RPM_HASH = "b63736c8011519d49ad8c650e27cc072b64dbfa083e6aeadb7a3c2c1a7afad766472f0a521033efd06d4cf5b0d9e24ceb2be7a2456370e65c700977ac91796da"
 
-RPROVIDES:${PN} += "choqok-devel choqok-devel(aarch-64)"
+RPROVIDES:${PN} += "choqok-devel \
+choqok-devel(aarch-64)"
 RDEPENDS:${PN} += "choqok"
 
 inherit rpm

@@ -8,7 +8,12 @@ RPM_NAME = "myspell-de_DE-20221012-1.2.noarch.rpm"
 RPM_HASH = "a33d099b3f8ebd58b3cc9ad130236c92cdb1ae39341e40d744b73dd80b680cac022f7a56de7a4fc24e2f6337b25c0b0a4cf20251adfeb6ece18e4a38bb0e72d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:de_DE) locale(seamonkey-spellchecker:de_DE) myspell-de_DE myspell-dictionary myspell-german"
-RDEPENDS:${PN} += "myspell-de myspell-dictionaries"
+RPROVIDES:${PN} += "locale(libreoffice:de_DE) \
+locale(seamonkey-spellchecker:de_DE) \
+myspell-de_DE \
+myspell-dictionary \
+myspell-german"
+RDEPENDS:${PN} += "myspell-de \
+myspell-dictionaries"
 
 inherit rpm

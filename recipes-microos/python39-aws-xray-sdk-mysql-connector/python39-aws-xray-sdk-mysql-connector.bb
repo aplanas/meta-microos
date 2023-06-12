@@ -12,6 +12,8 @@ RPM_HASH = "b387c6314f0ba28a03946cefe9a86fcc7dd2c65d5212d8536f11545524895f523251
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-mysql-connector"
-RDEPENDS:${PN} += "python(abi) python39-aws-xray-sdk python39-mysql-connector-python"
+RDEPENDS:${PN} += "python(abi) \
+python39-aws-xray-sdk \
+python39-mysql-connector-python"
 
 inherit rpm

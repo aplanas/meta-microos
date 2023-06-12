@@ -11,7 +11,21 @@ RPM_NAME = "texlive-efbox-2023.201.1.0svn33236-53.1.noarch.rpm"
 RPM_HASH = "ae63025911e1368879bd425534779a84f2850d64a849e9127976b1338684a0cbce4f20b27f823463a58925272152b7c778f073f51e64ff3d04f2980fb58df965"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(efbox.sty) texlive-efbox"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(color.sty) tex(pgfkeys.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(efbox.sty) \
+texlive-efbox"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(color.sty) \
+tex(pgfkeys.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

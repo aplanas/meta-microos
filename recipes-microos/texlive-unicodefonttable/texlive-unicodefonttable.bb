@@ -14,7 +14,27 @@ RPM_NAME = "texlive-unicodefonttable-2023.201.1.0gsvn65009-53.1.noarch.rpm"
 RPM_HASH = "c5acc97bf391ef219a3a3654a6abfc5a5f123146885eb6bea34a5c589f64814a90a0c17af1edce1f47e62c0338f8b16cbec6018d53523587a95ba33b60f9b42d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(unicodefont.tex) tex(unicodefonttable.sty) texlive-unicodefonttable"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(booktabs.sty) tex(caption.sty) tex(fontspec.sty) tex(l3keys2e.sty) tex(longtable.sty) tex(xcolor.sty) tex(xparse.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(unicodefont.tex) \
+tex(unicodefonttable.sty) \
+texlive-unicodefonttable"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(booktabs.sty) \
+tex(caption.sty) \
+tex(fontspec.sty) \
+tex(l3keys2e.sty) \
+tex(longtable.sty) \
+tex(xcolor.sty) \
+tex(xparse.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -11,7 +11,16 @@ PV = "1.22.3"
 RPM_NAME = "libgstwebrtc-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "eec6b8f84736842ca6bf563ca63a75336c878e1a99ebfd898deef169ed65301b86c447e6ad525335c454e453f75c077ae0a11f3c279e02c9c2e9b34cff1232ba"
 
-RPROVIDES:${PN} += "libgstwebrtc-1.0.so.0()(64bit) libgstwebrtc-1_0-0 libgstwebrtc-1_0-0(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgstreamer-1.0.so.0()(64bit) libgstsdp-1.0.so.0()(64bit)"
+RPROVIDES:${PN} += "libgstwebrtc-1.0.so.0()(64bit) \
+libgstwebrtc-1_0-0 \
+libgstwebrtc-1_0-0(aarch-64)"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.17)(64bit) \
+libglib-2.0.so.0()(64bit) \
+libgobject-2.0.so.0()(64bit) \
+libgstreamer-1.0.so.0()(64bit) \
+libgstsdp-1.0.so.0()(64bit)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "214e1b6ee1996922d73d8a2868361167b534f6fcaca6ec37a34ada30b23d6677289e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ddgr"
-RDEPENDS:${PN} += "/usr/bin/python3 python3"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3"
 
 inherit rpm

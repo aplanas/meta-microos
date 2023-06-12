@@ -14,7 +14,16 @@ RPM_NAME = "lua54-luarocks-3.9.1-4.3.noarch.rpm"
 RPM_HASH = "9c3ad07ebf93c6d300db82c6ca497a131205138b48f968e1136c9d08eb9ada020259da6d6fa6505b74a26a1118ad3678d080d30b9539db0de24492ea5558f980"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(lua54-luarocks) lua-luarocks lua54-luarocks"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/lua5.4 curl lua54 openssl unzip update-alternatives zip"
+RPROVIDES:${PN} += "config(lua54-luarocks) \
+lua-luarocks \
+lua54-luarocks"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/lua5.4 \
+curl \
+lua54 \
+openssl \
+unzip \
+update-alternatives \
+zip"
 
 inherit rpm

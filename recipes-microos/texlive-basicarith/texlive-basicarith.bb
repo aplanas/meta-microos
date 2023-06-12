@@ -14,7 +14,19 @@ RPM_NAME = "texlive-basicarith-2023.201.1.1svn35460-53.1.noarch.rpm"
 RPM_HASH = "9c1bb752ba58f90beee5d129a4264349853799b1f3115488ad937c5381e680c86a0e13be0710a9c7258b4a53669dc9600f3bc0e209c7c3c65508521e5596f83e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(basicarith.sty) texlive-basicarith"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(basicarith.sty) \
+texlive-basicarith"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

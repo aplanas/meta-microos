@@ -13,7 +13,21 @@ RPM_NAME = "texlive-sgame-2023.201.2.15svn30959-53.1.noarch.rpm"
 RPM_HASH = "d73cff2c971748c86832f76e403600cc3e98403bad3ae68d9042058872bd1fae0bbe966e6e6831285aa1b9dbdd477421f1d50048dfd4ac1bf5cff718bb3a3777"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(sgame.sty) tex(sgamevar.sty) texlive-sgame"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(color.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(sgame.sty) \
+tex(sgamevar.sty) \
+texlive-sgame"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(color.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

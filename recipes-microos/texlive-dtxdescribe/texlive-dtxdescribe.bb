@@ -27,7 +27,29 @@ RPM_NAME = "texlive-dtxdescribe-2023.201.1.07svn65445-52.1.noarch.rpm"
 RPM_HASH = "b00eea0db79d838c8dfe6fa5edd65d8b348a0a0b08f3f4e7d717795548ad3ddb29223ac5800bec4020a517cc12917912436423058c359e3b908b739ff1130fb9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dtxdescribe.sty) texlive-dtxdescribe"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(calc.sty) tex(caption.sty) tex(etoolbox.sty) tex(fancyvrb.sty) tex(makeidx.sty) tex(newfloat.sty) tex(pict2e.sty) tex(xcolor.sty) tex(xparse.sty) tex(xstring.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(dtxdescribe.sty) \
+texlive-dtxdescribe"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(calc.sty) \
+tex(caption.sty) \
+tex(etoolbox.sty) \
+tex(fancyvrb.sty) \
+tex(makeidx.sty) \
+tex(newfloat.sty) \
+tex(pict2e.sty) \
+tex(xcolor.sty) \
+tex(xparse.sty) \
+tex(xstring.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

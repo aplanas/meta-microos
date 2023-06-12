@@ -14,7 +14,29 @@ PV = "2.5.1"
 RPM_NAME = "sfml2-devel-2.5.1-1.20.aarch64.rpm"
 RPM_HASH = "59cee5e235d5eec9846868be593400deb42818472b6a277e3810b3bde76116555249432aa3cd4ebbb4523adfbe361d4f6436dfd4cbd1055bc4ed80f651993609"
 
-RPROVIDES:${PN} += "cmake(SFML) pkgconfig(sfml-all) pkgconfig(sfml-audio) pkgconfig(sfml-graphics) pkgconfig(sfml-network) pkgconfig(sfml-system) pkgconfig(sfml-window) sfml2-devel sfml2-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libsfml2-2_5 pkgconfig(flac) pkgconfig(freetype2) pkgconfig(gl) pkgconfig(ogg) pkgconfig(openal) pkgconfig(sfml-audio) pkgconfig(sfml-graphics) pkgconfig(sfml-network) pkgconfig(sfml-system) pkgconfig(sfml-window) pkgconfig(vorbis) pkgconfig(vorbisenc) pkgconfig(vorbisfile)"
+RPROVIDES:${PN} += "cmake(SFML) \
+pkgconfig(sfml-all) \
+pkgconfig(sfml-audio) \
+pkgconfig(sfml-graphics) \
+pkgconfig(sfml-network) \
+pkgconfig(sfml-system) \
+pkgconfig(sfml-window) \
+sfml2-devel \
+sfml2-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libsfml2-2_5 \
+pkgconfig(flac) \
+pkgconfig(freetype2) \
+pkgconfig(gl) \
+pkgconfig(ogg) \
+pkgconfig(openal) \
+pkgconfig(sfml-audio) \
+pkgconfig(sfml-graphics) \
+pkgconfig(sfml-network) \
+pkgconfig(sfml-system) \
+pkgconfig(sfml-window) \
+pkgconfig(vorbis) \
+pkgconfig(vorbisenc) \
+pkgconfig(vorbisfile)"
 
 inherit rpm

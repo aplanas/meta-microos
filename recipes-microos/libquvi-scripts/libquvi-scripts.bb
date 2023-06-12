@@ -9,7 +9,9 @@ PV = "0.9.20131130"
 RPM_NAME = "libquvi-scripts-0.9.20131130-4.7.aarch64.rpm"
 RPM_HASH = "91a7edc9bfa15193ce5708b15c1449e620409c6ad742c143e6d0d9ab679e21b05824a5e158475b14858d8281eb46b9f2a5ec9e859d183f5ceda82eac23debdb9"
 
-RPROVIDES:${PN} += "libquvi-scripts libquvi-scripts(aarch-64)"
-RDEPENDS:${PN} += "(lua53-luasocket if liblua5_3-5) (lua54-luasocket if liblua5_4-5)"
+RPROVIDES:${PN} += "libquvi-scripts \
+libquvi-scripts(aarch-64)"
+RDEPENDS:${PN} += "(lua53-luasocket if liblua5_3-5) \
+(lua54-luasocket if liblua5_4-5)"
 
 inherit rpm

@@ -20,7 +20,19 @@ PV = "3.3.1"
 RPM_NAME = "percona-toolkit-3.3.1-2.12.aarch64.rpm"
 RPM_HASH = "ea0a507e74555aba79615560be399ed9e32b18fb738308bb58976bac5df07b409077adc81054dc6e8bebb1ac92f5f04ccb923f9889d014a69af8d45781267163"
 
-RPROVIDES:${PN} += "config(percona-toolkit) maatkit percona-toolkit percona-toolkit(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/bash /usr/bin/perl libc.so.6(GLIBC_2.34)(64bit) perl(:MODULE_COMPAT_5.36.0) perl(DBD::mysql) perl(DBI) perl(IO::Socket::SSL) perl(Term::ReadKey) perl(Time::HiRes)"
+RPROVIDES:${PN} += "config(percona-toolkit) \
+maatkit \
+percona-toolkit \
+percona-toolkit(aarch-64)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/bash \
+/usr/bin/perl \
+libc.so.6(GLIBC_2.34)(64bit) \
+perl(:MODULE_COMPAT_5.36.0) \
+perl(DBD::mysql) \
+perl(DBI) \
+perl(IO::Socket::SSL) \
+perl(Term::ReadKey) \
+perl(Time::HiRes)"
 
 inherit rpm

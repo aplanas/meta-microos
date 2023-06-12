@@ -27,7 +27,10 @@ RPM_NAME = "python311-thespian-3.10.6-1.3.noarch.rpm"
 RPM_HASH = "a34bb2018f43fb1adf98cd3a754d2e5047a692555fd32b8d4c6543eedf422722fa74d15c0f6fca1b3b1a3b40a48b21e2b71443765725ec98491f4944cfeb04c1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(thespian) python311-thespian python3dist(thespian)"
-RDEPENDS:${PN} += "python(abi) python311-setproctitle"
+RPROVIDES:${PN} += "python3.11dist(thespian) \
+python311-thespian \
+python3dist(thespian)"
+RDEPENDS:${PN} += "python(abi) \
+python311-setproctitle"
 
 inherit rpm

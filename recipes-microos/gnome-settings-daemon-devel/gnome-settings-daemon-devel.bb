@@ -13,7 +13,10 @@ PV = "44.1"
 RPM_NAME = "gnome-settings-daemon-devel-44.1-1.1.aarch64.rpm"
 RPM_HASH = "59b68d30532c14d7112e1f150749a524b219ca6dcb579192f765c60960e4399f88dcabe19728ae56d868988616411cd0848baa3e220c85df00634836773840cd"
 
-RPROVIDES:${PN} += "gnome-settings-daemon-devel gnome-settings-daemon-devel(aarch-64) pkgconfig(gnome-settings-daemon)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config gnome-settings-daemon"
+RPROVIDES:${PN} += "gnome-settings-daemon-devel \
+gnome-settings-daemon-devel(aarch-64) \
+pkgconfig(gnome-settings-daemon)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+gnome-settings-daemon"
 
 inherit rpm

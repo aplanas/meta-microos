@@ -11,7 +11,14 @@ PV = "3.4.05"
 RPM_NAME = "ispell-british-3.4.05-1.3.aarch64.rpm"
 RPM_HASH = "770c3f6f8a52c36f54703e68a7643df051056239b457dac4b7e6acbffd5613dd0fb153c939a157c6178ab141a03bfccd4b6de7607bbe1387f3c37afaf79f9fd1"
 
-RPROVIDES:${PN} += "ibritish ispell-british ispell-british(aarch-64) ispell_dictionary ispell_english_dictionary locale(ispell:en_GB)"
-RDEPENDS:${PN} += "/bin/sh bash fileutils"
+RPROVIDES:${PN} += "ibritish \
+ispell-british \
+ispell-british(aarch-64) \
+ispell_dictionary \
+ispell_english_dictionary \
+locale(ispell:en_GB)"
+RDEPENDS:${PN} += "/bin/sh \
+bash \
+fileutils"
 
 inherit rpm

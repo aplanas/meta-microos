@@ -20,7 +20,17 @@ RPM_NAME = "perl-Crypt-CBC-3.04-1.9.noarch.rpm"
 RPM_HASH = "9285ea4677feab6dd938f347c4fc3603e1d6eb27845604d0bbca472aec16b5e215d2836f3c3a9db5df684fc11d16d1adc08ddc3a040e6efab62042642434f253"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Crypt::CBC) perl(Crypt::CBC::PBKDF) perl(Crypt::CBC::PBKDF::none) perl(Crypt::CBC::PBKDF::opensslv1) perl(Crypt::CBC::PBKDF::opensslv2) perl(Crypt::CBC::PBKDF::pbkdf2) perl(Crypt::CBC::PBKDF::randomiv) perl-Crypt-CBC"
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) perl(Crypt::Cipher::AES) perl(Crypt::PBKDF2) perl(Digest::SHA)"
+RPROVIDES:${PN} += "perl(Crypt::CBC) \
+perl(Crypt::CBC::PBKDF) \
+perl(Crypt::CBC::PBKDF::none) \
+perl(Crypt::CBC::PBKDF::opensslv1) \
+perl(Crypt::CBC::PBKDF::opensslv2) \
+perl(Crypt::CBC::PBKDF::pbkdf2) \
+perl(Crypt::CBC::PBKDF::randomiv) \
+perl-Crypt-CBC"
+RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+perl(Crypt::Cipher::AES) \
+perl(Crypt::PBKDF2) \
+perl(Digest::SHA)"
 
 inherit rpm

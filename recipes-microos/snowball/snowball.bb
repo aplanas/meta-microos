@@ -19,7 +19,10 @@ PV = "2.1.0"
 RPM_NAME = "snowball-2.1.0-1.8.aarch64.rpm"
 RPM_HASH = "f4080c316b4c8f41234b778fe1848fd9aa40e2c01a60102b1c40f8a37333168e30836b1c584ecff55ae6f8512f64193cf9ba6722b368e14fac3d72cee68cb2d7"
 
-RPROVIDES:${PN} += "libstemmer-tools snowball snowball(aarch-64)"
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) libstemmer.so.0d()(64bit)"
+RPROVIDES:${PN} += "libstemmer-tools \
+snowball \
+snowball(aarch-64)"
+RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+libstemmer.so.0d()(64bit)"
 
 inherit rpm

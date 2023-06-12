@@ -21,7 +21,8 @@ RPM_NAME = "perl-Return-Value-1.666005-1.20.noarch.rpm"
 RPM_HASH = "3dec19d7d4aa80c691bcea0d671856f450f84daff2b9bc0dde7a6955d568e80fc870ae05b6b4f99ae03ced31d24765f99af78ebfa3fb3c54a400e14968f1e69f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Return::Value) perl-Return-Value"
+RPROVIDES:${PN} += "perl(Return::Value) \
+perl-Return-Value"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -12,7 +12,10 @@ PV = "1.2+g24"
 RPM_NAME = "samurai-1.2+g24-2.6.aarch64.rpm"
 RPM_HASH = "7dad005c9db0a59f041588ee14b85b30545336ded92b3b15967496e5ff6755ed175e02337e8de46a568f75b798f5b81166705fe7650dde1bf30907389f633c0b"
 
-RPROVIDES:${PN} += "samurai samurai(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"
+RPROVIDES:${PN} += "samurai \
+samurai(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

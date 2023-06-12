@@ -15,7 +15,11 @@ RPM_NAME = "python310-extension-helpers-1.0.0-1.10.noarch.rpm"
 RPM_HASH = "2744c2ffb6cac5d51f4fab4cb83a4b10a1a50932e2dd9d33816dbf4892cc96eeb2973cb8b667908ec7053a54462e39e7c31c321e17dc585e4c890f656981f307"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-extension-helpers python3.10dist(extension-helpers) python310-extension-helpers python3dist(extension-helpers)"
-RDEPENDS:${PN} += "python(abi) python310-setuptools"
+RPROVIDES:${PN} += "python3-extension-helpers \
+python3.10dist(extension-helpers) \
+python310-extension-helpers \
+python3dist(extension-helpers)"
+RDEPENDS:${PN} += "python(abi) \
+python310-setuptools"
 
 inherit rpm

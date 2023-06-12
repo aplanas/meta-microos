@@ -13,7 +13,10 @@ RPM_NAME = "python39-PyPrind-2.11.3-1.3.noarch.rpm"
 RPM_HASH = "51ea1f24c401a7ee4b80fe9c77f0d84b330ef1a2f7af3300c07de1534794f92119c79a17e93e531da4ca940fff681d42e778242eceb9897decefbca009e9cfba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pyprind) python39-PyPrind python3dist(pyprind)"
-RDEPENDS:${PN} += "python(abi) python39-psutil"
+RPROVIDES:${PN} += "python3.9dist(pyprind) \
+python39-PyPrind \
+python3dist(pyprind)"
+RDEPENDS:${PN} += "python(abi) \
+python39-psutil"
 
 inherit rpm

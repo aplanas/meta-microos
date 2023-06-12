@@ -8,7 +8,12 @@ RPM_NAME = "python39-cssutils-2.6.0-1.4.noarch.rpm"
 RPM_HASH = "73764c2b4fbf8378a45bc2d8b18a5f1c27c3d04a0728f179eee8ea074feeba5f7cb4aac3f74bdada441af8c897c698d9342cdabd00deed5bfe056fed133f20f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(cssutils) python39-cssutils python3dist(cssutils)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(cssutils) \
+python39-cssutils \
+python3dist(cssutils)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.9 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

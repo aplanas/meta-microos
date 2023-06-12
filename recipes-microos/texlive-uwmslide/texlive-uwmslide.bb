@@ -17,7 +17,22 @@ RPM_NAME = "texlive-uwmslide-2023.201.svn27354-53.1.noarch.rpm"
 RPM_HASH = "3efbf4c44855868f7843e695cb1d12ffde8e7f0d57eabd359b43296c417ba200982ce86075659cecb1904432494cc5048fbe8a8ce1d6582fe66a1317e0553b28"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(uwmslide.cls) texlive-uwmslide"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed tex(article.cls) tex(epsfig.sty) tex(times.sty) texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(uwmslide.cls) \
+texlive-uwmslide"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+tex(article.cls) \
+tex(epsfig.sty) \
+tex(times.sty) \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

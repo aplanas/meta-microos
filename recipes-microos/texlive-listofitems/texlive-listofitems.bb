@@ -18,7 +18,21 @@ RPM_NAME = "texlive-listofitems-2023.201.1.63svn51923-54.1.noarch.rpm"
 RPM_HASH = "12d7902c54c8e64cc878035580b4f863fdc3da1d3c21ad5976075bad13b2f99ab282f7645f48c37971c9fe7b0effa1202a0877ee459f36c868f0db5167d3061e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(listofitems.sty) tex(listofitems.tex) tex(listofitemsold.tex) texlive-listofitems"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(listofitems.sty) \
+tex(listofitems.tex) \
+tex(listofitemsold.tex) \
+texlive-listofitems"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

@@ -11,6 +11,8 @@ RPM_HASH = "11ca78890d463e5cbd5c3a186dbc69a9a725fe398e05799bbe39761e512b541da6b5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-tar_scm"
-RDEPENDS:${PN} += "/usr/bin/python3 git-core obs-service-obs_scm-common"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+git-core \
+obs-service-obs_scm-common"
 
 inherit rpm

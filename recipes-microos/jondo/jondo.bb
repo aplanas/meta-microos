@@ -13,7 +13,10 @@ RPM_NAME = "jondo-00.20.001-1.16.noarch.rpm"
 RPM_HASH = "438501ebf57b1d26b10c0a9df4576017307c792613ab353af14faf83cbbf2226fba856d18184d434be0df224555f8fe92a5a07b319ed9d9dd35968eb01ce7da8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() application(jondo.desktop) jondo"
-RDEPENDS:${PN} += "/bin/sh jre"
+RPROVIDES:${PN} += "application() \
+application(jondo.desktop) \
+jondo"
+RDEPENDS:${PN} += "/bin/sh \
+jre"
 
 inherit rpm

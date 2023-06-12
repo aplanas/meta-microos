@@ -10,6 +10,10 @@ RPM_HASH = "98607b3608017d43feaf7d93a6ae816533b8e9f079bde48ba7149e1ea7aa4ce3d4e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libstoragemgmt-smis-plugin"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 python(abi) python3-libstoragemgmt python3-pywbem"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3 \
+python(abi) \
+python3-libstoragemgmt \
+python3-pywbem"
 
 inherit rpm

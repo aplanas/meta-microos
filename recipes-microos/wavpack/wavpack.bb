@@ -17,7 +17,14 @@ PV = "5.6.0"
 RPM_NAME = "wavpack-5.6.0-1.3.aarch64.rpm"
 RPM_HASH = "7ef516403e40ff55e413c3d133e89a8f576d065677341230984be9494789deead6413446d9bccea860693c7abc8a2ff4bfca1269ac735b7f4c27f2cd24ccb860"
 
-RPROVIDES:${PN} += "wavpack wavpack(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libwavpack.so.1()(64bit)"
+RPROVIDES:${PN} += "wavpack \
+wavpack(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
+libc.so.6(GLIBC_2.34)(64bit) \
+libm.so.6()(64bit) \
+libm.so.6(GLIBC_2.17)(64bit) \
+libm.so.6(GLIBC_2.29)(64bit) \
+libwavpack.so.1()(64bit)"
 
 inherit rpm

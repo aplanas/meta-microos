@@ -10,7 +10,12 @@ RPM_NAME = "logback-access-1.2.11-1.9.noarch.rpm"
 RPM_HASH = "0ed93684285fdfc1d3b7793abb0877188ad6e4abbb3bd621d247b305843aa51e8a16a243e41a3c9e550a9f933a2a2cb4c833c6909d646859720245019782bd94"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "logback-access mvn(ch.qos.logback:logback-access) mvn(ch.qos.logback:logback-access:pom:) osgi(ch.qos.logback.access)"
-RDEPENDS:${PN} += "java-headless javapackages-filesystem mvn(ch.qos.logback:logback-core)"
+RPROVIDES:${PN} += "logback-access \
+mvn(ch.qos.logback:logback-access) \
+mvn(ch.qos.logback:logback-access:pom:) \
+osgi(ch.qos.logback.access)"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn(ch.qos.logback:logback-core)"
 
 inherit rpm

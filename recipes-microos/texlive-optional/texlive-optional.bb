@@ -15,7 +15,19 @@ RPM_NAME = "texlive-optional-2023.201.2.2bsvn18131-54.1.noarch.rpm"
 RPM_HASH = "926a0ce9f5a939ca6a3cfd0e6d07511c7f06705afd5156bf519ce253368cc3ed8ae18c79c4e3434eae590cd1c90cb3cb4089222f5744f502c551f7b817739c96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(optional.sty) texlive-optional"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(optional.sty) \
+texlive-optional"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

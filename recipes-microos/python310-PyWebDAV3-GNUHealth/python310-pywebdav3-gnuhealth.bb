@@ -15,7 +15,13 @@ RPM_NAME = "python310-PyWebDAV3-GNUHealth-0.10.3-1.17.noarch.rpm"
 RPM_HASH = "0b2814c86c0a1ded3674296c5a873eb41d5734eaca89ff7aa7ce85ee99f64076fd59af05436fb09c932bfeabd8066e5ae5bf70843ccce8cf7dcd5f7052e938a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyWebDAV3-GNUHealth python3.10dist(pywebdav3-gnuhealth) python310-PyWebDAV3-GNUHealth python3dist(pywebdav3-gnuhealth)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) update-alternatives"
+RPROVIDES:${PN} += "python3-PyWebDAV3-GNUHealth \
+python3.10dist(pywebdav3-gnuhealth) \
+python310-PyWebDAV3-GNUHealth \
+python3dist(pywebdav3-gnuhealth)"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/python3.10 \
+python(abi) \
+update-alternatives"
 
 inherit rpm

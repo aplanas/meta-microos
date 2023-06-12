@@ -15,7 +15,20 @@ RPM_NAME = "texlive-xlop-2023.201.0.0.28svn56910-52.1.noarch.rpm"
 RPM_HASH = "12500d6588184095898d666165f5bfd5b8137a73731c49c06c414362e6a6aaff9e741212e15a0ab3736a75dc8c07e7065a1f1d32f7b60012a0170bdaa163dfab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xlop.sty) tex(xlop.tex) texlive-xlop"
-RDEPENDS:${PN} += "/bin/sh coreutils ed findutils grep sed texlive texlive-filesystem texlive-kpathsea texlive-kpathsea-bin texlive-scripts texlive-scripts-bin"
+RPROVIDES:${PN} += "tex(xlop.sty) \
+tex(xlop.tex) \
+texlive-xlop"
+RDEPENDS:${PN} += "/bin/sh \
+coreutils \
+ed \
+findutils \
+grep \
+sed \
+texlive \
+texlive-filesystem \
+texlive-kpathsea \
+texlive-kpathsea-bin \
+texlive-scripts \
+texlive-scripts-bin"
 
 inherit rpm

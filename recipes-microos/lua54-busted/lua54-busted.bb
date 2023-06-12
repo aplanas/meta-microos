@@ -24,7 +24,24 @@ RPM_NAME = "lua54-busted-2.0.0-6.1.noarch.rpm"
 RPM_HASH = "76c7dbbb83addfaf549caf8525ecb703802354e63506a34cac5e714fb227f5c4bd8d97942b4e640b7380d73436294121aa145301a47e734afde03859b9331374"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "lua-busted lua54-busted"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/lua5.4 curl lua54 lua54-cliargs lua54-dkjson lua54-lua-ev lua54-luafilesystem lua54-luassert lua54-luasystem lua54-luaterm lua54-mediator_lua lua54-penlight lua54-say openssl unzip update-alternatives"
+RPROVIDES:${PN} += "lua-busted \
+lua54-busted"
+RDEPENDS:${PN} += "/bin/sh \
+/usr/bin/lua5.4 \
+curl \
+lua54 \
+lua54-cliargs \
+lua54-dkjson \
+lua54-lua-ev \
+lua54-luafilesystem \
+lua54-luassert \
+lua54-luasystem \
+lua54-luaterm \
+lua54-mediator_lua \
+lua54-penlight \
+lua54-say \
+openssl \
+unzip \
+update-alternatives"
 
 inherit rpm

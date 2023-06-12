@@ -10,6 +10,17 @@ RPM_HASH = "eb11b585ea9bfbe7ad0ca57dbf6fdb566d013c29a2c6d3666af57b01081a09b6e534
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "WoeUSB"
-RDEPENDS:${PN} += "/usr/bin/bash bash dosfstools findutils gawk grep grub2 ntfsprogs parted util-linux wget wimtools"
+RDEPENDS:${PN} += "/usr/bin/bash \
+bash \
+dosfstools \
+findutils \
+gawk \
+grep \
+grub2 \
+ntfsprogs \
+parted \
+util-linux \
+wget \
+wimtools"
 
 inherit rpm

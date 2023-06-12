@@ -13,7 +13,12 @@ RPM_NAME = "jemmy-2.3.0.0-26.6.noarch.rpm"
 RPM_HASH = "021464eff5423c838520f23fc08dedb5e5309244d82070ca0123eebde43b5c38dbce2116ac506f2f9754eb03dde6d1f974ada80e5c16c3e33da7dae3160aa9be"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jemmy mvn(org.netbeans:jemmy) mvn(org.netbeans:jemmy:pom:)"
-RDEPENDS:${PN} += "java java-headless javapackages-filesystem javapackages-tools"
+RPROVIDES:${PN} += "jemmy \
+mvn(org.netbeans:jemmy) \
+mvn(org.netbeans:jemmy:pom:)"
+RDEPENDS:${PN} += "java \
+java-headless \
+javapackages-filesystem \
+javapackages-tools"
 
 inherit rpm

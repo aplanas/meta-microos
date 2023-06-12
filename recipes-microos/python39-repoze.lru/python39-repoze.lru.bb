@@ -11,7 +11,9 @@ RPM_NAME = "python39-repoze.lru-0.7-2.16.noarch.rpm"
 RPM_HASH = "f460be30c8b8e89b2ae0fdf365dde66eb1f2d77a17c743db2977fde8a8b7031c4493cdfa8de7c42036cbf038d65caf02c349b5c87a353e3e5dc378803c6a7ebe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(repoze.lru) python39-repoze.lru python3dist(repoze.lru)"
+RPROVIDES:${PN} += "python3.9dist(repoze.lru) \
+python39-repoze.lru \
+python3dist(repoze.lru)"
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm
