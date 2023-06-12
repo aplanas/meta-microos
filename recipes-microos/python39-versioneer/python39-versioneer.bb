@@ -4,10 +4,10 @@ setup.py and the conventional ‘from PROJECT import _version’ pattern) \
 by asking the version control system about the current tree."
 LICENSE = "Unlicense"
 
-PV = "0.26"
+PV = "0.28"
 
-RPM_NAME = "python39-versioneer-0.26-1.4.noarch.rpm"
-RPM_HASH = "d0e7819d7d2c43365c90558eab1977cf8638926485b7786c907dd673acd2b53bdafa451daca4661c451568d735ca67f29298aa07ad00739e54da67cec5ab6643"
+RPM_NAME = "python39-versioneer-0.28-1.1.noarch.rpm"
+RPM_HASH = "504e0b7ddf3ceb5f1f490a76345e103c4667532da3c9717d864e5f816ade7fd53a5fdff6341f6f341e66a2a8e7499074bf7129c7de6883b20c6520897c708203"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(versioneer) python39-versioneer python3dist(versioneer)"

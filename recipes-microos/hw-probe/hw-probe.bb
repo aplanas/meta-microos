@@ -15,12 +15,12 @@ system logs at once: \
  \
 By creating probes you contribute to the HDD/SSD Real-Life \
 Reliability Test study: https://github.com/linuxhw/SMART"
-LICENSE = "LGPL-2.0+"
+LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.5"
+PV = "1.6"
 
-RPM_NAME = "hw-probe-1.5-1.7.noarch.rpm"
-RPM_HASH = "2f9b5e72070a3219de8fd0291d74d5948a5d769dadf14d5f41a2baced691c492f6b2ab157a860d690a4bb5ca0add36d7e820d08e8c0fb721ecfa495f77cbd7ab"
+RPM_NAME = "hw-probe-1.6-1.1.noarch.rpm"
+RPM_HASH = "07546134aa8a7f9daaf40f493799a193686f128881bd5ac91fb178b62eb70078e594eaf7040cf3449cb7dc3e051a229cd79d933327f1c66d762b3d3d9fb0a350"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hw-probe"

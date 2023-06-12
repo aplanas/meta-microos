@@ -4,10 +4,10 @@ Also includes a packet parser that can be used to decode raw \
 NTLM/SPNEGO/Kerberos tokens into a human readable format."
 LICENSE = "MIT"
 
-PV = "0.6.3"
+PV = "0.9.0"
 
-RPM_NAME = "python310-pyspnego-0.6.3-1.4.noarch.rpm"
-RPM_HASH = "87df174a57c0d054dd6dd276520bcc69d39454edd4161b839f34ac549d21db5bf020cae3c095bc5d8552a5cb9850ca207ee104efe9a487ee2065257ff1dae977"
+RPM_NAME = "python310-pyspnego-0.9.0-1.1.noarch.rpm"
+RPM_HASH = "2bcc1d3f183a8dfa45d9a6b749a7407c3c7ae1ca3061139d3e556f1da40d474f81160a6f30c6979bd293148403059c564431bdff564205824150956fadf43707"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyspnego python3.10dist(pyspnego) python310-pyspnego python3dist(pyspnego)"

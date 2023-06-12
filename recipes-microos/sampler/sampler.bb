@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1.0"
 
-RPM_NAME = "sampler-1.1.0-2.11.aarch64.rpm"
-RPM_HASH = "67ff2d11a2b12a9db029773a21516d037f74e1d288e564bd47265949270706ca3dc9751d79aba032426d17040d36c45659cfffbc969d721939a835200521b5e6"
+RPM_NAME = "sampler-1.1.0-2.12.aarch64.rpm"
+RPM_HASH = "b1eb9dd725669ae555bfd09e15a7cee32c02bbd6a60f128c0fdfb7c411c3607f0cbab68ec604b9ec10637a74c471c24808672fb6d8c0c26226233e53b14869bb"
 
 RPROVIDES:${PN} += "sampler sampler(aarch-64)"
 RDEPENDS:${PN} += "libasound.so.2()(64bit) libasound.so.2(ALSA_0.9)(64bit) libasound.so.2(ALSA_0.9.0rc4)(64bit) libc.so.6(GLIBC_2.34)(64bit)"

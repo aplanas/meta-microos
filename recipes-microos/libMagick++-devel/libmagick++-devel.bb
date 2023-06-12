@@ -14,10 +14,10 @@ support value (rather than pointer) semantics so it is trivial to \
 support multiple generations of an image in memory at one time."
 LICENSE = "ImageMagick"
 
-PV = "7.1.1.8"
+PV = "7.1.1.11"
 
-RPM_NAME = "libMagick++-devel-7.1.1.8-1.1.aarch64.rpm"
-RPM_HASH = "1d4e95dc0e1ae82e10a0d012499ea7eaca6f0ecbd292055af319a5d012ada245c91492fbc1d9a226537c00318ef7894d46b31cd72d2fa7f217620d8a1cfeb05e"
+RPM_NAME = "libMagick++-devel-7.1.1.11-1.1.aarch64.rpm"
+RPM_HASH = "1f57f75a557c3ac5d849575a6aba887f1810cc768e520d57d68c46060b5a1432a277b3a6d1e6b20b607baa2e98f22d5ce211002f4fd95703b4725c55393cfefd"
 
 RPROVIDES:${PN} += "libMagick++-devel libMagick++-devel(aarch-64) pkgconfig(Magick++) pkgconfig(Magick++-7.Q16HDRI)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config libMagick++-7_Q16HDRI5 libstdc++-devel pkgconfig(ImageMagick) pkgconfig(MagickWand-7.Q16HDRI)"

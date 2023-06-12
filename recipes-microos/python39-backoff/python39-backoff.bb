@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "2.2.1"
 
-RPM_NAME = "python39-backoff-2.2.1-1.3.noarch.rpm"
-RPM_HASH = "10cd441998ffb83c47b53f231c42b3c09182ddc560db6d9d3875a57f8790450a75bf82c6db0790b9770a7784af290c7d73aaf75de7bee8bddc1a167048226df2"
+RPM_NAME = "python39-backoff-2.2.1-2.1.noarch.rpm"
+RPM_HASH = "3c8dfb20d38c65a8c46d5b7e1b54b1539f1a21b8d2282a9c07e840ab3a2e75c363a7882cc8d37fed7c80a16b4f5bd7376a3cd180ae2097859f6694d2ba591a71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(backoff) python39-backoff python3dist(backoff)"

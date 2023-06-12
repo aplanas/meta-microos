@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "7.0.0"
 
-RPM_NAME = "keylime-config-7.0.0-1.1.noarch.rpm"
-RPM_HASH = "63f8cbaa2ff1573940b0dd0a62c54e0c1569cbb1c1fc04deafb9b669cc5b7dc476c34fd5d31bfb0bcc5f769e466e2597ac1871ba5f942e46f21431eea4fabef2"
+RPM_NAME = "keylime-config-7.0.0-2.1.noarch.rpm"
+RPM_HASH = "01b289ed80ed561ca52143ff62c4ce46716fe4348ffa15fc924b0f005bb695309b0d62929536705f1af343d4336cf287e77c8d3b6a0bba456739d05aea9fe3f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-config"

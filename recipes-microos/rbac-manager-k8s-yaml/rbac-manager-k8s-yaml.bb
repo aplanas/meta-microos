@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.2"
 
-RPM_NAME = "rbac-manager-k8s-yaml-1.4.2-1.3.noarch.rpm"
-RPM_HASH = "fd31a1ecd4f889c3b56b497fe9b83079fadb386d3cce5adb597a2e53200b7d810960794d40b82a60c64ac107f5db6c2df8e317d2daed33673a264942dfb8a5b2"
+RPM_NAME = "rbac-manager-k8s-yaml-1.4.2-1.4.noarch.rpm"
+RPM_HASH = "eba0702812037f8fecfbb1c6ccd6dba502477197409bbbd0f81eeb7d7a2ca30c48194f03f00991bf56b66ea73c89b30971d96ca5c388c95d6b801ee51b8e5393"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rbac-manager-k8s-yaml"

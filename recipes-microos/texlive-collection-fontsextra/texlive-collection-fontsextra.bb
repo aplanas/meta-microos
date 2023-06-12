@@ -2,10 +2,10 @@ SUMMARY = "Additional fonts"
 DESCRIPTION = "The collection-fontsextra package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64952"
+PV = "2023.208.svn64952"
 
-RPM_NAME = "texlive-collection-fontsextra-2023.201.svn64952-56.1.noarch.rpm"
-RPM_HASH = "fb2a6d8ed42c7df4d5b8515e4ba3dbcd4551f0c386bd5c1949cdffa1a67c44a7aae5228eac6582d94d33cb9b2c87d1c68c4ed92abffcdb6258d54a6c500130c0"
+RPM_NAME = "texlive-collection-fontsextra-2023.208.svn64952-58.1.noarch.rpm"
+RPM_HASH = "92694cb5ea37c91886f76c1b0a6a930e4dddb6ca0984fbd641959ba039af7143f578bdbffb5b7624828af9251c01aec5610e1f79713613264fb52efb14c6babb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-fontsextra"

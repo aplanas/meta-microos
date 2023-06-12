@@ -1,13 +1,14 @@
-SUMMARY = "Prometheus exporter for SAP systems (a.k.a. NetWeaver)"
-DESCRIPTION = "Prometheus exporter for Pacemaker HA clusters metrics"
+SUMMARY = "Prometheus exporter for SAP hosts"
+DESCRIPTION = "A Prometheus metrics exporter that connects to the SAPControl web interface \
+to collect data about SAP systems like NetWeaver and S4/HANA."
 LICENSE = "Apache-2.0"
 
-PV = "0.5.1+git.1593777035.a5d05f8"
+PV = "0.6.0+git.1685628435.48c4099"
 
-RPM_NAME = "prometheus-sap_host_exporter-0.5.1+git.1593777035.a5d05f8-1.10.aarch64.rpm"
-RPM_HASH = "7d8b0d97241ef88f782438f7ac203cd532a1fd746b3fa928d94b79d4c95ea7e053f6cbf6a24a8543bb4ab3dd8bbe673db1667bc48e1c0f2136bd210ddf53b70f"
+RPM_NAME = "prometheus-sap_host_exporter-0.6.0+git.1685628435.48c4099-1.1.aarch64.rpm"
+RPM_HASH = "5d93c1ace8d3633fcad94def838dd9f3de30c9973fae74bdfe54ecefc393a676deaa9029d0d24d06510c196f676ce723f83f7e5bd81a5ce6e093332df94d6f09"
 
-RPROVIDES:${PN} += "config(prometheus-sap_host_exporter) prometheus(sap_host_exporter) prometheus-sap_host_exporter prometheus-sap_host_exporter(aarch-64) prometheus-sap_host_exporter-devel prometheus-sap_host_exporter-devel-static sap_host_exporter"
+RPROVIDES:${PN} += "config(prometheus-sap_host_exporter) prometheus(sap_host_exporter) prometheus-sap_host_exporter prometheus-sap_host_exporter(aarch-64) sap_host_exporter"
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

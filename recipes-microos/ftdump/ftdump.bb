@@ -5,8 +5,8 @@ LICENSE = "FTL & GPL-2.0-only"
 
 PV = "2.13.0"
 
-RPM_NAME = "ftdump-2.13.0-3.1.aarch64.rpm"
-RPM_HASH = "eff551e97891df6f455ea300ff9ebb182f95bc203d36cc0966f3bf299f277bf92e11ffdeb4b5a25587ea59f24bcfe319b9a071913397cb0eddd386dbddc1b15c"
+RPM_NAME = "ftdump-2.13.0-4.1.aarch64.rpm"
+RPM_HASH = "5bd094b71fb6929e20ed1f343385d4881e456eb2bb0f1f0b57f7812aace7b669dc55a7bdbfc6c583079003ddf355ece4f55a3907b07dbe6ebc204e1a40c0a966"
 
 RPROVIDES:${PN} += "ftdump ftdump(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libfreetype.so.6()(64bit)"

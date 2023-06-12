@@ -7,11 +7,11 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "3.1"
 
-RPM_NAME = "docbook_3-3.1-771.10.noarch.rpm"
-RPM_HASH = "1ad8a1a8758b697a7b1a89b904ff1661c9922ec1365f5bfda441911e1241adbf0cda6557c3c05cd9d98b789bbb74377a6daefbf40a42f3e51ffefabe1dc20d78"
+RPM_NAME = "docbook_3-3.1-773.1.noarch.rpm"
+RPM_HASH = "667835342236ef0e2aa9c01edffd83806cfbf1ae9e7f10a364091be9d9b3097dd32c87359cc802d73b2dacf3ce86096979fbb0334f1cfa75bc815ae1fae8df8a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "dbhset docbk30 docbk31 docbook_3 docbook_3-dtd"
+RPROVIDES:${PN} += "docbook_3"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/sgml-register-catalog /usr/bin/xmlcatalog docbook_4 iso_ent"
 
 inherit rpm

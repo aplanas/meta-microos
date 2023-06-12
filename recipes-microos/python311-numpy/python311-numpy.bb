@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.24.2"
 
-RPM_NAME = "python311-numpy-1.24.2-2.1.aarch64.rpm"
-RPM_HASH = "5215da95d7484fbe8a182d63a74a023a678fdcf50f409b8188a48b427fdb54116babc498047d86a2133197efb53be3aaac8e48e64b1371aed074dce2b106f6d8"
+RPM_NAME = "python311-numpy-1.24.2-3.1.aarch64.rpm"
+RPM_HASH = "e9cb420efac8d6eac71b4d5748f30817f3c835b75426f346c7b2d6ad1ea38a52499bf0fe637033abf7f978ae0a469f56ba1838e53597e1b3bf10e2f53580cb5c"
 
 RPROVIDES:${PN} += "python3.11dist(numpy) python311-numpy python311-numpy(aarch-64) python3dist(numpy)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 alts ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libblas.so.3()(64bit) libc.so.6(GLIBC_2.34)(64bit) libcblas.so.3()(64bit) liblapack.so.3()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit) libm.so.6(GLIBC_2.35)(64bit) python(abi)"

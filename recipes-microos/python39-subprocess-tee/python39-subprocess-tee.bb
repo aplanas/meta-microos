@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "python39-subprocess-tee-0.4.1-3.1.noarch.rpm"
-RPM_HASH = "b00c3da015dc404c54fa910b10bb5b57b924de8d1620f4376fb83cb0e03c461343ae6a2d1a280c366adad4e0a460b663cd3a708ba1e4c473f728b474627fad21"
+RPM_NAME = "python39-subprocess-tee-0.4.1-4.1.noarch.rpm"
+RPM_HASH = "97874bb8bfa8f2aa4a30b3dd1d2442ad0e487d9cee6ccd56c2a1ec7f2cf64b22da2c9f9ab63d2e646d9b689c56c8f9c95e70b4a50d13cb9a69a1c47b0362b772"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(subprocess-tee) python39-subprocess-tee python3dist(subprocess-tee)"

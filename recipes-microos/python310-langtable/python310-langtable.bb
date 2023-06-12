@@ -8,11 +8,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.61"
 
-RPM_NAME = "python310-langtable-0.0.61-1.3.noarch.rpm"
-RPM_HASH = "10ed309557c0882b1f5cfba57e7574d903a3562f7b0c7047dc9c51480caae99c175e49c583738d0938f2317da9b51a8ec3748032b3546360266a9a7efbb69b16"
+RPM_NAME = "python310-langtable-0.0.61-2.1.noarch.rpm"
+RPM_HASH = "216bb87410ca90d08246e52406ef1efb2288acd987a0a1195e9ebfca9a688c453ec68387c58fb24cad7828d26ca361b732b1d946f465ef8facb91272bc1d8f6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-langtable python3.10dist(langtable) python310-langtable python3dist(langtable)"
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python(abi) python-langtable-data"
 
 inherit rpm

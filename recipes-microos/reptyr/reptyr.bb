@@ -6,10 +6,10 @@ screen, use reptyr to grab it, and then kill the ssh session and head \
 on home."
 LICENSE = "MIT"
 
-PV = "0.9.0"
+PV = "0.10.0"
 
-RPM_NAME = "reptyr-0.9.0-1.3.aarch64.rpm"
-RPM_HASH = "4c15000e281033e57078619b249fc154a628e3e9cfd2a28ab6c5cb8bdca061b539fbe57f07b555a44c4984429a82d6eaa26ff90c909b38333b7880295efb308b"
+RPM_NAME = "reptyr-0.10.0-1.1.aarch64.rpm"
+RPM_HASH = "848b09b789a0a110f38def800be18695e2e3e0003c5fe6b42a1c68284d40a5599835bf4dc0dc5486a7d225f5d708732a5cf9400702c889ef2373088bd3d40827"
 
 RPROVIDES:${PN} += "reptyr reptyr(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"

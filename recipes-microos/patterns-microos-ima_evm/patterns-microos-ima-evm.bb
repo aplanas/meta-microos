@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-ima_evm-5.0-69.1.aarch64.rpm"
-RPM_HASH = "3daf06fdc879228343be28ddabd2e9fa35adc1454fafd1e91ee1e3723e62d205726fb46d2b449a1a296dabc8d98d8aed3abf4c0dc1ecec683609f950459ee519"
+RPM_NAME = "patterns-microos-ima_evm-5.0-70.1.aarch64.rpm"
+RPM_HASH = "885aa615a8c0acf50a55182b331c3eb386bc69a4c8f7b87865bfbfa964b7c1b2c5af61df3f93d69cb6fa84320c267a4fc124b4d74cdee0d1f8a781ead02f27db"
 
 RPROVIDES:${PN} += "pattern() pattern-category() pattern-icon() pattern-order() pattern-visible() patterns-microos-ima_evm patterns-microos-ima_evm(aarch-64)"
 RDEPENDS:${PN} += "attr dracut-ima ima-evm-utils keyutils"

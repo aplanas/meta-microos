@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn15543"
 
-RPM_NAME = "texlive-cachepic-bin-2023.20230311.svn15543-89.1.aarch64.rpm"
-RPM_HASH = "d1c5a12988c7f0e7917a845e2babf85c0071ccbc083158130deee50cb83709544cdcadccd563fe4292bef24acfd5eb8ea72ea7f4cbcf09b21520917e055e3b34"
+RPM_NAME = "texlive-cachepic-bin-2023.20230311.svn15543-91.1.aarch64.rpm"
+RPM_HASH = "b377c5c761489c8637a720f14c60df0204c861a4962fedf3b021fef46d609c54f4b59dde0c41425d84a9aed6ce89341908a6c6f4fcdb1d8b10ce1b3a4ba198dc"
 
 RPROVIDES:${PN} += "texlive-cachepic-bin texlive-cachepic-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-cachepic"

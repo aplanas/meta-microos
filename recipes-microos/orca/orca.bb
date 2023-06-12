@@ -4,10 +4,10 @@ graphical desktop via user-customizable combinations of speech, \
 braille, and/or magnification."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "44.0"
+PV = "44.1"
 
-RPM_NAME = "orca-44.0-1.1.noarch.rpm"
-RPM_HASH = "f1e1cc52825c07e81b07f72c546d8a50a5323caf83233fa7bdb42cc57a0e2d4a0f10a7d96ee39773864d0693db1d49304fb186c428ab2320d648b6480f2bd165"
+RPM_NAME = "orca-44.1-1.1.noarch.rpm"
+RPM_HASH = "1a30f1dac1383cf244bd080dad3f9ed77ace8e855ce640714b62e1792c95545ab3cd3be637d7e8be193bc231087081f4281f7135209b21caa56ee08055eb3cd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "orca"

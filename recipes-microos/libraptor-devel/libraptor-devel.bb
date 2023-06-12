@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later | GPL-2.0-or-later | Apache-2.0"
 
 PV = "2.0.15"
 
-RPM_NAME = "libraptor-devel-2.0.15-3.17.aarch64.rpm"
-RPM_HASH = "da79f50232d1dcdf4398f4c3ad8441860d806627f32d50cbef8bdba7b5c1d8634693245ad08e7462bd06377fd4924f9b623d7410021584512d35111fff693933"
+RPM_NAME = "libraptor-devel-2.0.15-3.18.aarch64.rpm"
+RPM_HASH = "600a05cbba5023eb42791769521d824efa9d78eafa5a339bbb96a7d019b5e3baf8470f59941fc5dc946d3cbd67a27aebaebf0fa7dfe797dca000d07d82b17b37"
 
 RPROVIDES:${PN} += "libraptor-devel libraptor-devel(aarch-64) pkgconfig(raptor2) raptor-devel"
 RDEPENDS:${PN} += "/usr/bin/pkg-config glibc-devel libraptor2-0 raptor"

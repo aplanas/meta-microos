@@ -10,11 +10,11 @@ LICENSE = "Python-2.0"
 
 PV = "1.59"
 
-RPM_NAME = "python39-python-memcached-1.59-6.3.noarch.rpm"
-RPM_HASH = "a0535c0c122829fb43c7f3e0abd1bc0ef9745ae83193b03fa7cac844b982223559caf38c42aff95529da58f056914afa16863026fece16761d5fa97992043481"
+RPM_NAME = "python39-python-memcached-1.59-7.1.noarch.rpm"
+RPM_HASH = "ad926bb1d78629096579a2d5b8ea2e75c4cad7bba1fdadf8afb946517b80da25ac173ccd48a5a00dafbcd7118c491b4d43786d1d4eff8d5b45fa455978a45b07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(python-memcached) python39-python-memcached python3dist(python-memcached)"
-RDEPENDS:${PN} += "memcached python(abi) python39-six"
+RDEPENDS:${PN} += "memcached python(abi)"
 
 inherit rpm

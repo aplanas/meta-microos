@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & MIT"
 
 PV = "2.3.20"
 
-RPM_NAME = "dovecot23-backend-pgsql-2.3.20-3.1.aarch64.rpm"
-RPM_HASH = "9d0dd6585c2af489e6532452bcfcbebca9955b64c9a4b15327dea0381a7f06cab8f2f61f39cd2d1a2c0d19a93413ba61915859726348a160c425032c1889ecfa"
+RPM_NAME = "dovecot23-backend-pgsql-2.3.20-3.2.aarch64.rpm"
+RPM_HASH = "d9f7fd546f14a00ecc8cc1b31cddcf979352aabd6d9cf6294d7897036970c55094bd6bc4042270990e824a68cb056464a8d650dad838d1867cac211ef903bfbc"
 
 RPROVIDES:${PN} += "dovecot-backend-pgsql dovecot23-backend-pgsql dovecot23-backend-pgsql(aarch-64) dovecot_sql_backend libdriver_pgsql.so()(64bit)"
 RDEPENDS:${PN} += "dovecot23 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libpq.so.5()(64bit)"

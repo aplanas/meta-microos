@@ -12,10 +12,10 @@ Some of its features include: \
 This package provides the PipeWire shared library."
 LICENSE = "MIT"
 
-PV = "0.3.69"
+PV = "0.3.71"
 
-RPM_NAME = "libpipewire-0_3-0-0.3.69-2.1.aarch64.rpm"
-RPM_HASH = "a61b6b99a6c80661f87257b612c76917c9671b32896da4f133501a8ee00d32aa9ce01c9e1b3e703fa32ab51607d14bcc7ed0eff45b70fadef4fcd8a36a4ef5ef"
+RPM_NAME = "libpipewire-0_3-0-0.3.71-3.1.aarch64.rpm"
+RPM_HASH = "0e507287072046c181d5079d8d6a6fd53299731a79f459f51a00ff4d8818a594cc553eb0a1bbf1389844b286e632b5d41cef2c14b1fef74dda84f6d4e3f56863"
 
 RPROVIDES:${PN} += "libpipewire-0.3.so.0()(64bit) libpipewire-0_3-0 libpipewire-0_3-0(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) pipewire-modules-0_3 pipewire-spa-plugins-0_2"

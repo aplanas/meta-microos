@@ -2,12 +2,12 @@ SUMMARY = "Devel files for ftxui"
 DESCRIPTION = "Development files for ftxui."
 LICENSE = "MIT"
 
-PV = "4.0.0"
+PV = "4.1.1"
 
-RPM_NAME = "ftxui-devel-4.0.0-1.1.aarch64.rpm"
-RPM_HASH = "cff5f94d110da24831b4a82e8fa56e641a0453b01a1d738c5eac49952c9c7b92429820b7c587c47115e9f8008e4d5e5deb5bf67f9ceece38622fcb61b2a519fc"
+RPM_NAME = "ftxui-devel-4.1.1-1.1.aarch64.rpm"
+RPM_HASH = "0994f7e6c8f18463bbd91622648473de874c48cd23fadd11f276b7b6170422cd3269d46575bb6143e95983659dc992d20bdd1f346ec2a1d5892393995f97197c"
 
-RPROVIDES:${PN} += "cmake(ftxui) ftxui-devel ftxui-devel(aarch-64)"
-RDEPENDS:${PN} += "libftxui4_0_0"
+RPROVIDES:${PN} += "cmake(ftxui) ftxui ftxui-devel ftxui-devel(aarch-64)"
+RDEPENDS:${PN} += "libftxui4_1_0"
 
 inherit rpm

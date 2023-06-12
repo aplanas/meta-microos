@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.11.0"
 
-RPM_NAME = "eclipse-jgit-5.11.0-6.1.noarch.rpm"
-RPM_HASH = "402963319aae042706cf698da552a86aa20e060a93f048fddc329265c084caa163c094773d012f86ece7782304af5734ca3a62bc2c80e99617a0b414c9b287dd"
+RPM_NAME = "eclipse-jgit-5.11.0-7.1.noarch.rpm"
+RPM_HASH = "ff036a50c65c29205c516e2bfb6a012b450dcd728d01f5295d41f7be679ceee8bd862ec2c49ddf9074b28a3efda08bd6f1dbede855e9f622736d1932a640d06f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-jgit mvn(org.eclipse.jgit.feature:org.eclipse.jgit) mvn(org.eclipse.jgit.feature:org.eclipse.jgit.gpg.bc) mvn(org.eclipse.jgit.feature:org.eclipse.jgit.http.apache) mvn(org.eclipse.jgit.feature:org.eclipse.jgit.junit) mvn(org.eclipse.jgit.feature:org.eclipse.jgit.lfs) mvn(org.eclipse.jgit.feature:org.eclipse.jgit.pgm) mvn(org.eclipse.jgit.feature:org.eclipse.jgit.ssh.apache) mvn(org.eclipse.jgit.feature:org.eclipse.jgit.ssh.jsch)"

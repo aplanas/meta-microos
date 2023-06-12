@@ -2,10 +2,10 @@ SUMMARY = "NXP (Freescale) based arm64 systems"
 DESCRIPTION = "Device Tree files for NXP (Freescale) based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.1"
+PV = "6.3.4"
 
-RPM_NAME = "dtb-freescale-6.3.1-1.2.aarch64.rpm"
-RPM_HASH = "eca3d661b089e054a5bac354062f597ed783a7f046ce3088cea2ad011a79c3b4ce361be12bce409209fa3c9e509d9f7721f3674a632f143dedb165e5492eb834"
+RPM_NAME = "dtb-freescale-6.3.4-1.1.aarch64.rpm"
+RPM_HASH = "aed8cceb9092504df9ae0de615b0bc3a12d3211888f1a328259b6201cd55f471a9a712242186aa297c7a0ad42ca2dc81b5fa9eb6e17e9f53ce3fae2d5708009b"
 
 RPROVIDES:${PN} += "dtb-freescale dtb-freescale(aarch-64) multiversion(dtb)"
 RDEPENDS:${PN} += "/bin/sh coreutils"

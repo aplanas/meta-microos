@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "13.1"
 
-RPM_NAME = "openttd-data-13.1-1.1.noarch.rpm"
-RPM_HASH = "3a8db1a62faa165c438fb94da96a8450e0b95ca2dd37baf724375e10949c077dd54e9f6aaf64ee93080685c1cc510de4d6e082c15c7619106263ab1b1bc622b0"
+RPM_NAME = "openttd-data-13.1-1.2.noarch.rpm"
+RPM_HASH = "afd34d77dccb8431e283be4e5eab2a5e67c553c15c3ba01c0a2a636478fbd2629bfa60c0b53977e3fe8823d6563829ae2cc7674f4674032b0a7aafcf3018400e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openttd-data"

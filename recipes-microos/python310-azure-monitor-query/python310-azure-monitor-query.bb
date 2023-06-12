@@ -11,10 +11,10 @@ type. Telemetry such as events and traces are stored as logs in addition to perf
 so that it can all be combined for analysis."
 LICENSE = "MIT"
 
-PV = "1.1.1"
+PV = "1.2.0"
 
-RPM_NAME = "python310-azure-monitor-query-1.1.1-1.3.noarch.rpm"
-RPM_HASH = "1f50bb6b447b01e6f2dc6e973a90cd8a8254702cbd24a6aa473969cf5ecc9c165dc1cf9e411d895bec352721ee68725aa9ac63e12b55a1459c6cd443f8d6d097"
+RPM_NAME = "python310-azure-monitor-query-1.2.0-1.1.noarch.rpm"
+RPM_HASH = "8dba9a86cb46b48f12b05deadfac2fa996f2b852a43aa91e6ee4cbd9b18bb68fbd5f0db74d0b83690143ce995bbfef73d52310b3c0688ba32e08eeb2389d6f1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-monitor-query python3.10dist(azure-monitor-query) python310-azure-monitor-query python3dist(azure-monitor-query)"

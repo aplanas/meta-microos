@@ -10,10 +10,10 @@ generally, it is designed for pulling from REST APIs and streaming \
 APIs like Twitter's."
 LICENSE = "MIT"
 
-PV = "2.0.8"
+PV = "2.0.9"
 
-RPM_NAME = "python39-geventhttpclient-2.0.8-1.4.aarch64.rpm"
-RPM_HASH = "7f7cbabe7557260efc264839ba30f0ab190397a2e07cb9046bfe01c332c3d00bd55dd3364dc3589d3819679e056c14f9f99fac927db3cd49c8cbe18c6e7dad01"
+RPM_NAME = "python39-geventhttpclient-2.0.9-1.1.aarch64.rpm"
+RPM_HASH = "05202e0ec5765df39dbf8d2470c1988d7abbfc23a8a4853d2931e27c403a1bbc2aaa1141b68c575cb72ec61b41bf01107c9e0afabfea82ac7b1fb5c75a7c8112"
 
 RPROVIDES:${PN} += "python3.9dist(geventhttpclient) python39-geventhttpclient python39-geventhttpclient(aarch-64) python3dist(geventhttpclient)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python39-Brotli python39-certifi python39-gevent"

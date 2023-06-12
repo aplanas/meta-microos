@@ -2,10 +2,10 @@ SUMMARY = "Southern_Ndebele localization files for LibreOffice"
 DESCRIPTION = "Provides Southern_Ndebele translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-nr-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "8ddbd6936ed54b021bf16b77b8b9e045f4646a78e2fccc6f21bb7af0661986341d24c109b0b1426a9261c8e21bac0bfdac2098b181106735b84f6b948353841c"
+RPM_NAME = "libreoffice-l10n-nr-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "0587a62aa788d5a8e09a43327e4385572d95720a7db468eb1329f5775c6e8e4e0fe6525b26d15dafc986e5e392ac07b6edc235a31a68ddbab0e932f718673426"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-nr libreoffice-l10n-nr locale(libreoffice:nr)"

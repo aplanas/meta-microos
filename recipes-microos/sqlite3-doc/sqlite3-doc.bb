@@ -5,10 +5,10 @@ other documentation found on sqlite.org. The files can be found in \
 /usr/share/doc/packages/sqlite3-doc."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "3.41.2"
+PV = "3.42.0"
 
-RPM_NAME = "sqlite3-doc-3.41.2-1.1.noarch.rpm"
-RPM_HASH = "359136dba6e930da00674d0483f89f2cfaf1cc068c47cededa0b71fec985d70193587771d4b8cba464876602cf6361d4df04cb282ba55e0cac15b373adcfa403"
+RPM_NAME = "sqlite3-doc-3.42.0-1.1.noarch.rpm"
+RPM_HASH = "17c5eca14e506347ea87a1ec090737faf9454e8bf94767ecbb4b145d2657981886b5a506468ee90e0f99686f66490f5ffa6a18545069fb00499cbc4b030f82e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sqlite3-doc"

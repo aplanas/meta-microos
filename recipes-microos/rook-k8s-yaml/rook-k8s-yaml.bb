@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.2+git0.ge8fd65f08"
 
-RPM_NAME = "rook-k8s-yaml-1.6.2+git0.ge8fd65f08-2.7.noarch.rpm"
-RPM_HASH = "dfa22aecd9d040af50c5719dc66f342bbffd80d4aa75d23787b9044980e4231fc70e2083e11b51f9ddda4b0843cc38df49a9faaef5af10c0e2b1c3b231491f2b"
+RPM_NAME = "rook-k8s-yaml-1.6.2+git0.ge8fd65f08-2.8.noarch.rpm"
+RPM_HASH = "5a92b181a58bdc1900d5197099cc756ade3542587741afef82bdfcf664bca1d963eda38f44cd36091efb9809de33267eed7c506b43fafead8f463b5250fb1001"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rook-k8s-yaml"

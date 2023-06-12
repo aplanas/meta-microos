@@ -2,10 +2,10 @@ SUMMARY = "German documentation and tutorials for KiCad"
 DESCRIPTION = "This package contains German documentation and tutorials for KiCad"
 LICENSE = "CC-BY-SA-3.0 & GPL-3.0-or-later"
 
-PV = "7.0.2"
+PV = "7.0.5"
 
-RPM_NAME = "kicad-doc-de-7.0.2-1.1.noarch.rpm"
-RPM_HASH = "1ad595da7eb30ce0845907af05524a71d653200d9666fbf5ae44c8fcaa63e9869255e84ed3ac005266b6621a674218f30ed001fc230a4bc86737759c226a1b32"
+RPM_NAME = "kicad-doc-de-7.0.5-1.1.noarch.rpm"
+RPM_HASH = "28f5cb035b8968ab7e7d5e7ab8c7fb4434887996e8e031130f98bea43dc68f08fc0484541ac17400e0d23742ca0ee782e8a0c17b116eebfd10425ddbcb3cc05c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-doc-de locale(kicad-doc:de)"

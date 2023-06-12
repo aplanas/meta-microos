@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "4.3.0"
 
-RPM_NAME = "R-base-4.3.0-45.1.aarch64.rpm"
-RPM_HASH = "5576ef76826343599d1751db4dacd3eb011c68f24830b677eb6577ddd4bdd5251bde7c1e3a04c59542d34c55b60aad5a087772cbc571f6e4b1a7a72db7c63e3e"
+RPM_NAME = "R-base-4.3.0-45.2.aarch64.rpm"
+RPM_HASH = "efdde58e04101d8cfd5a158600aaf6521fed53cab4683ca19be3ff1bfb5dcb24b254c7273bcb476db940042d9071087a3ef52f59a7ccba46c9dfb65f8fe7e951"
 
 RPROVIDES:${PN} += "R R-base R-base(aarch-64)"
 RDEPENDS:${PN} += "R-base-devel R-core R-core-devel R-core-doc R-core-libs R-core-packages R-recommended-packages fontconfig glibc-locale make xdg-utils xorg-x11-fonts-100dpi xorg-x11-fonts-75dpi"

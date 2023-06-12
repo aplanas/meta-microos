@@ -7,10 +7,10 @@ and ThreadWeaver will work out the most efficient way of dividing the work betwe
 threads within a set of resource limits. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.105.0"
+PV = "5.106.0"
 
-RPM_NAME = "threadweaver-devel-5.105.0-1.1.aarch64.rpm"
-RPM_HASH = "29c73857c8539a9b8c1262a298bc36902fc0710f392f166c141a13ac40deff1d750fe4eff79692f92287e646c6b4c7fc1f4880de17e1cd46a7e541010d7a8fb4"
+RPM_NAME = "threadweaver-devel-5.106.0-1.1.aarch64.rpm"
+RPM_HASH = "02e3cca306402949ddb3df4c4e5bcd7e4b5e8928ad61b4d7dccfdf251baf5ba8a44818efc3e2b53bead59120479ace8a2b0300fbcd2777d877ab5a20b13c07ca"
 
 RPROVIDES:${PN} += "cmake(KF5ThreadWeaver) threadweaver-devel threadweaver-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt5Core) extra-cmake-modules libKF5ThreadWeaver5"

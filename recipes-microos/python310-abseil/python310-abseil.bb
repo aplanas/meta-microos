@@ -8,10 +8,10 @@ been extensively tested and used in production. \
 * Testing utilities"
 LICENSE = "Apache-2.0"
 
-PV = "1.2.0"
+PV = "1.4.0"
 
-RPM_NAME = "python310-abseil-1.2.0-1.3.noarch.rpm"
-RPM_HASH = "cccc8a52b2835622515a493d87140bb9f60c7ae3412177c6e8133b48e0f633e3a6396d4441f111cf93b58a71b9504a1e1367e30ad204c9da31a0bf7464f4fc92"
+RPM_NAME = "python310-abseil-1.4.0-1.1.noarch.rpm"
+RPM_HASH = "26bb96308b8b10f863da3c49696c67693c529bf13d5b3c7c659fa5cda7944e9855018a31b9d0bd3c320ad24305e55494be5043e046adce16d0db93a78d7024eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-abseil python3-absl-py python3.10dist(absl-py) python310-abseil python310-absl-py python3dist(absl-py)"

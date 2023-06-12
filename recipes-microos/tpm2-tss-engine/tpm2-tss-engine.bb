@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "tpm2-tss-engine-1.2.0-1.2.aarch64.rpm"
-RPM_HASH = "c5ab52efe812ccf6599d8216b50ab0f63902d95eeef0160331b611e7660fb5ecf7970117f0a90590eb2c4084e44b9e56d1539cda4bc4a8c0a5fe611be01bbb9c"
+RPM_NAME = "tpm2-tss-engine-1.2.0-2.1.aarch64.rpm"
+RPM_HASH = "b590c334564c3ee59bb9eced5cc751e7b92c0c771b1f48ac80d722c264ef0dc8a4b588be0c9ca86f132eeaee2b289b3a1e4404165d0ad24a44b4e881c7b298ce"
 
 RPROVIDES:${PN} += "libtpm2tss.so()(64bit) tpm2-tss-engine tpm2-tss-engine(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libtss2-esys.so.0()(64bit) libtss2-mu.so.0()(64bit) libtss2-tctildr.so.0()(64bit)"

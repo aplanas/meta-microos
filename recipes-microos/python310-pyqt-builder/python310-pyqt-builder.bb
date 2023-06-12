@@ -8,10 +8,10 @@ optional project.py script. Any PEP 517 compliant frontend, for example \
 sip-install or pip can then be used to build and install the project."
 LICENSE = "GPL-2.0-only | GPL-3.0-only | SUSE-SIP"
 
-PV = "1.15.0"
+PV = "1.15.1"
 
-RPM_NAME = "python310-pyqt-builder-1.15.0-1.1.noarch.rpm"
-RPM_HASH = "6341e71e88973d21ac0c2803624c205ff2d5323aaaa674d068ddc964a9fa2aaa9bf85e7db704a6055b7991a3bab8bf18ae6b659fca85bf2ee011cd412ed25e91"
+RPM_NAME = "python310-pyqt-builder-1.15.1-1.1.noarch.rpm"
+RPM_HASH = "4530ead9a3e931256158fb9d857db4d5d5255a18683a810b4160500222f6bf5fcfcb7a598905591c13d992ba2a16a482eeb7f5c66265c94d475fbb89977d4c0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyQt-builder python3-pyqt-builder python3.10dist(pyqt-builder) python310-PyQt-builder python310-pyqt-builder python3dist(pyqt-builder)"

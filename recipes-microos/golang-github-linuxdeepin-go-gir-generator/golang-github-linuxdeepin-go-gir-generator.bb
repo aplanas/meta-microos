@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "golang-github-linuxdeepin-go-gir-generator-2.1.0-1.8.noarch.rpm"
-RPM_HASH = "a0161be38082f964a7e4599466659d476a4bbea625a58035bfd1fd1339c2666064dc3f57098d3c288949494f40ae3c732abf0ddfc5fb99636f04220a530c609c"
+RPM_NAME = "golang-github-linuxdeepin-go-gir-generator-2.1.0-1.10.noarch.rpm"
+RPM_HASH = "445896ab2df17738407188eab768c517ec71d6b5ef67afda68d6f5bfc1671209e55768525236b5c09b32505c224eacca79fba8768508b4ffd1955bf4f3a0612b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang(github.com/linuxdeepin/go-gir/gio-2.0) golang(github.com/linuxdeepin/go-gir/glib-2.0) golang(github.com/linuxdeepin/go-gir/gobject-2.0) golang(github.com/linuxdeepin/go-gir/gudev-1.0) golang-github-linuxdeepin-go-gir-generator"

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.2"
 
-RPM_NAME = "kured-k8s-yaml-1.10.2-1.3.noarch.rpm"
-RPM_HASH = "5eb23e9a4dd844105f9a066eb163af89ef866658c9412922b495f93985be3afb563a2e79ca13c0d72112dd7d674e7cee2f5f0135747c28aa0271779bc7169c13"
+RPM_NAME = "kured-k8s-yaml-1.10.2-1.4.noarch.rpm"
+RPM_HASH = "930739e79d05375e7479540e1d29ea12ce4ce1a0112ac9d6560df56ed4adb6358b911e592d5684050baa04776a54e6b791c2e8cf0105124a3b2e8d33b1ebd0cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kured-k8s-yaml"

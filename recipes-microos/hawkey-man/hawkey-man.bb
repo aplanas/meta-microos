@@ -2,10 +2,10 @@ SUMMARY = "Documentation for the hawkey Python bindings"
 DESCRIPTION = "This package provides the man pages for the hawkey Python bindings."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.70.0"
+PV = "0.70.1"
 
-RPM_NAME = "hawkey-man-0.70.0-1.3.noarch.rpm"
-RPM_HASH = "b28a6d94047bf474e31d8389bfb3d2802f8a972f1264ffec7cef514663270d2feb5a5fccff60909013cbd86d369d61465f1d8de758328e61ead49b45f3a21146"
+RPM_NAME = "hawkey-man-0.70.1-1.1.noarch.rpm"
+RPM_HASH = "d3178b3d1ce413a2337275da6b0b9255352d354434cfd946b5c16c7c8cd32552db8a857d33e2f402c01eaa6e2f788dcf6fd8e3f8611ab1ff4ecd05401ee03a89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hawkey-man"

@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "0.22.0"
 
-RPM_NAME = "kubeaudit-0.22.0-1.1.aarch64.rpm"
-RPM_HASH = "71ed2ba4cafd468b7b84fd1b8603b48011083fc4d8652be9e4be10e784bd684ac4e9fff26869cc57db991b56abfe6903a068d5d09e0d8d7b26e4025f0e682546"
+RPM_NAME = "kubeaudit-0.22.0-1.2.aarch64.rpm"
+RPM_HASH = "f396ea9e23c7f11e1d1492e83dab0f8ef635653037ccc4e66cf75d4a1724231306b47d9797ad8e34b55f284193ea746d6b5c4765ce6236d611ed70b491cc6825"
 
 RPROVIDES:${PN} += "kubeaudit kubeaudit(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

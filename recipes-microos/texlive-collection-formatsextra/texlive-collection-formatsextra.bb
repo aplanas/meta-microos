@@ -6,10 +6,10 @@ package(s). It also includes the Aleph engine and related Omega \
 formats and packages, and the HiTeX engine and related."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn62226"
+PV = "2023.208.svn62226"
 
-RPM_NAME = "texlive-collection-formatsextra-2023.201.svn62226-56.1.noarch.rpm"
-RPM_HASH = "6e725526225da842528aaf6eaecd907e83ca3ca03d70249957b558d0b74c2db3f6ef20e7a8810ef462b26a07469b8bb1513e766949318ac8aa259bce1581cd72"
+RPM_NAME = "texlive-collection-formatsextra-2023.208.svn62226-58.1.noarch.rpm"
+RPM_HASH = "1eda842e47db3d0a4f95f406e02a10f7055cca9c1c076dfdcf942f5fc1a0836851e89c94dbe4daaf2655d5bc7db0fcfb59aa2aee6d36cf5ad08b495f71993a80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-formatsextra"

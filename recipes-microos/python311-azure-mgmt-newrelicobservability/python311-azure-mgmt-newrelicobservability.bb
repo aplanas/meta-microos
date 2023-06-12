@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Newrelicobservability Management Clie
 This package has been tested with Python 3.7+."
 LICENSE = "MIT"
 
-PV = "1.0.0~b1"
+PV = "1.0.0"
 
-RPM_NAME = "python311-azure-mgmt-newrelicobservability-1.0.0~b1-1.2.noarch.rpm"
-RPM_HASH = "513879ebd5813df5f689c3d8446d5dd61755bdb5a31c87c8fcd38e104a84e911b05f97760ff0fa149fd3f8440a55522f17fc2592254a61065c2f594485e3d860"
+RPM_NAME = "python311-azure-mgmt-newrelicobservability-1.0.0-1.1.noarch.rpm"
+RPM_HASH = "b38de9853020dabb618e448e5a17c24018536b3d3c0c908eb93802c9ca8ad3dc49e7a1fa937748e81a39b8af9f800def179246d03f3456ed518a402001c85af6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-newrelicobservability) python311-azure-mgmt-newrelicobservability python3dist(azure-mgmt-newrelicobservability)"

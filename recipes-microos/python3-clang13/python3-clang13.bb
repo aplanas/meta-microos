@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
 
 PV = "13.0.1"
 
-RPM_NAME = "python3-clang13-13.0.1-8.1.noarch.rpm"
-RPM_HASH = "e318b133021d0e21ec0af4b07c15774a4584f0f16fdffd0f6eff0d217becf8ceac987cae0169b1b9db8105eb46e1694db19855a1a27d8654807ca600fc1a1d6f"
+RPM_NAME = "python3-clang13-13.0.1-9.1.noarch.rpm"
+RPM_HASH = "7a53df954748debedc6ba01d738c288072ceec59b3aa08e967dcd4bac1d94d6635c7a9073a2c1fa8a15b33a27e0fae492ff0aee9ac44d33912824d484ecb07cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/lib64/python3.10/site-packages/clang/ python3-clang13"

@@ -5,12 +5,12 @@ you will need to install civetweb-devel and check civetweb's API at its \
 comprisable header file."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "civetweb-devel-1.15-2.8.aarch64.rpm"
-RPM_HASH = "6108a3b55c3b6d3526c600d235291d69ecc19dae2f346a93f61df2e1f6c94979b8a1c06144395e267e3c3f934db1376f468c153849999a2551dad781136eb1c4"
+RPM_NAME = "civetweb-devel-1.16-1.1.aarch64.rpm"
+RPM_HASH = "8bfc12ddbf6600ecd9c38a9b303e9f4a77267856b78aa4d7abb03982f513fc766f429e1d5552e5b5e2440795ac74a73202059d8766fbf130c24fda1caefaa5d1"
 
-RPROVIDES:${PN} += "civetweb-devel civetweb-devel(aarch-64) cmake(civetweb)"
-RDEPENDS:${PN} += "libcivetweb-cpp1_15_0 libcivetweb1_15_0"
+RPROVIDES:${PN} += "civetweb-devel civetweb-devel(aarch-64) cmake(civetweb) pkgconfig(civetweb) pkgconfig(civetweb-cpp)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config libcivetweb-cpp1_15_0 libcivetweb1_15_0"
 
 inherit rpm

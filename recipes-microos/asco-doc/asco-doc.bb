@@ -1,15 +1,16 @@
 SUMMARY = "Documentation for ASCO"
-DESCRIPTION = "ASCO project aims to bring circuit optimization capabilities to existing SPICE \
-simulators using a high-performance parallel differential evolution (DE) optimization \
-algorithm. \
+DESCRIPTION = "ASCO brings circuit optimization capabilities to existing SPICE \
+simulators using a parallel differential evolution (DE) optimization \
+algorithm. Currently, out-of-the-box support for Eldo, HSPICE, LTspice, \
+Spectre, Qucs and ngspice exist. \
  \
 This package provides documentation for ASCO in PDF format."
 LICENSE = "GPL-2.0-only"
 
 PV = "0.4.11"
 
-RPM_NAME = "asco-doc-0.4.11-1.7.noarch.rpm"
-RPM_HASH = "1d9fdb7c4c28c46b5e0b893731a7360622fc1fb600aacf99e55455f81447edbae1089592148a7a7c9764412788685566c22c37e2af62d189ac2c271c064e9587"
+RPM_NAME = "asco-doc-0.4.11-2.1.noarch.rpm"
+RPM_HASH = "5bc6787dc205c1b6e8c0d82e1c550b203757652a00f247302d27580046e6124529765401e85c83464eb5f0c05f89f2b8d2c8592bd39eeee1a59d02a89f29403d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "asco-doc"

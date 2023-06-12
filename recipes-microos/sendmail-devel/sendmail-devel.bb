@@ -7,8 +7,8 @@ LICENSE = "Sendmail"
 
 PV = "8.17.1"
 
-RPM_NAME = "sendmail-devel-8.17.1-8.3.aarch64.rpm"
-RPM_HASH = "b209af661111048cf283260950e9093cd9e28327f27c248278905d0a152eb356d45652e1f9e9d40d5af607dcc5eafd1d2c23e8634ce95e926a6e01c624682c75"
+RPM_NAME = "sendmail-devel-8.17.1-9.1.aarch64.rpm"
+RPM_HASH = "7047cffee9415c74fea526cf7127aff2cb0a57da9b11d75bc136cc7b2aafd6f3e91f56b8a2ca984bc1fb82598d5d08836e6e819246362a7ea82c080a97c5f402"
 
 RPROVIDES:${PN} += "sendmail-devel sendmail-devel(aarch-64)"
 RDEPENDS:${PN} += "libmilter1_0"

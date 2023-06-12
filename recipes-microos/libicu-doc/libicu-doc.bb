@@ -4,10 +4,10 @@ and locale support. \
 This package contains the HTML documentation."
 LICENSE = "ICU"
 
-PV = "72.1"
+PV = "73.1"
 
-RPM_NAME = "libicu-doc-72.1-2.3.aarch64.rpm"
-RPM_HASH = "eb81a9e66490b01f3ed9ec52e3791fdf821b67998861039b1850ccd990536f2e62563f803e581f59753da929d2c7c650969b6803b933b731954e96f00b4d5821"
+RPM_NAME = "libicu-doc-73.1-1.1.aarch64.rpm"
+RPM_HASH = "1dfbc65bccae3a32fef7bc9dff161f23909903ddcee2dca99bc2de2577836b3642f09cc40f7d27736a70b53c421c3994b179c4e904d3fcbb722975af5428d582"
 
 RPROVIDES:${PN} += "libicu-doc libicu-doc(aarch-64)"
 RDEPENDS:${PN} += ""

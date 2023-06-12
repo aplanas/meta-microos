@@ -4,10 +4,10 @@ randomly generated instances of the type. It provides combinators for \
 generating instances and printing them."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.20"
+PV = "0.21.1"
 
-RPM_NAME = "ocaml-qcheck-0.20-1.5.aarch64.rpm"
-RPM_HASH = "244a8b704deb4ca69384486db4cc4afed93b6c20ce3dbbb656694e58ecf53f31e7a6adea9385df7a9b3707d88df913f425b0a18bd8349e9d413a5d0bdfb7ad5d"
+RPM_NAME = "ocaml-qcheck-0.21.1-1.1.aarch64.rpm"
+RPM_HASH = "cf3fc58650e70bba0cd7529c93fab20e8fba34563ddd6d37e382af3ea6c67059e994f88e858c8296c5abe38ef07f0f710876030328a141f01ea4a5d959873041"
 
 RPROVIDES:${PN} += "ocaml-qcheck ocaml-qcheck(aarch-64)"
 RDEPENDS:${PN} += ""

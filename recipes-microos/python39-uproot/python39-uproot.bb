@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.0.7"
 
-RPM_NAME = "python39-uproot-5.0.7-1.1.noarch.rpm"
-RPM_HASH = "65e94cbbed5442152cb11b423f181defe0cdd26575bf5afcb339dc83394d38b16ffba798202b4b589db3943ddbda74cd2c29c9e6209d890ded88002ae4348856"
+RPM_NAME = "python39-uproot-5.0.7-2.1.noarch.rpm"
+RPM_HASH = "30ed5763a75198017fc64d126b23ca29410843440a243b3777a28289d438af14e6f093bba3260530b87bfe873071438b4790bcf2cbb7288fea4e7115738e6686"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(uproot) python39-uproot python3dist(uproot)"

@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libosmocoding."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.7.0"
+PV = "1.8.0"
 
-RPM_NAME = "libosmocoding-devel-1.7.0-2.4.aarch64.rpm"
-RPM_HASH = "7cd190087d2091701b0142e8ec7e2e64e8cc8880faeba0acb39a58de0c921edae99ef6bd4cfe31969d592acf8bec0646b49505253576a480d5f3e311f39f4ce0"
+RPM_NAME = "libosmocoding-devel-1.8.0-1.1.aarch64.rpm"
+RPM_HASH = "b6adac80c83f6b76de63609e8e9de389ffec0224c5dfe23a3a52c07ec45d6fc79580accff9b45bc4051fa211750c7edd665230dcdfea1f12b271d6006f350d31"
 
 RPROVIDES:${PN} += "libosmocoding-devel libosmocoding-devel(aarch-64) pkgconfig(libosmocoding)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libosmocoding0 libosmocore-devel pkgconfig(libosmocodec) pkgconfig(libosmocore) pkgconfig(libosmogsm) pkgconfig(talloc)"

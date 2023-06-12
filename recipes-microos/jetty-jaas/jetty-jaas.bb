@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The jaas module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.48"
+PV = "9.4.51"
 
-RPM_NAME = "jetty-jaas-9.4.48-3.1.noarch.rpm"
-RPM_HASH = "5b141bbe517b4422470a58d0ea6c71108cc6c5f158eec67944341eaafdf10757548e8858401f958b103210066ab5c7f071ea4ed6dec0f6f2d2163ea002d54c25"
+RPM_NAME = "jetty-jaas-9.4.51-1.1.noarch.rpm"
+RPM_HASH = "0fe4a71c557fd5979cb83a0acb2531bee61c9a8eb44f13f421b8dfac8d57047562b93024086897b9c74c3db3c822c6ae0372f371e642a032957fa250ac9f3324"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-jaas mvn(org.eclipse.jetty:jetty-jaas) mvn(org.eclipse.jetty:jetty-jaas:pom:) osgi(org.eclipse.jetty.jaas)"

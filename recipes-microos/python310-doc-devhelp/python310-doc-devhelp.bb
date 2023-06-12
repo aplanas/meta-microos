@@ -4,10 +4,10 @@ Extending and Embedding Reference, Python/C API Reference, Documenting \
 Python, and Macintosh Module Reference in format for devhelp."
 LICENSE = "Python-2.0"
 
-PV = "3.10.10"
+PV = "3.10.11"
 
-RPM_NAME = "python310-doc-devhelp-3.10.10-2.1.aarch64.rpm"
-RPM_HASH = "0322e0edf92ff04f75d6b18289fb72fdfa1cb0fc8272bf29c8c7dd208143c7865294c405bf04ce78124f277705232587fe18cee3a707462de22bc4d064b9c0b8"
+RPM_NAME = "python310-doc-devhelp-3.10.11-1.1.aarch64.rpm"
+RPM_HASH = "51f6ad55b1ca8179ef943003b8c45335e859778e6a8d7f4f60a6fdec7595757e4244f3adaa54e63272b3048d9dfbfa2b6a1a0b338a4bdc7a9be97f0878319e27"
 
 RPROVIDES:${PN} += "python3-doc-devhelp python310-doc-devhelp python310-doc-devhelp(aarch-64)"
 RDEPENDS:${PN} += ""

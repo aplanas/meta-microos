@@ -2,10 +2,10 @@ SUMMARY = "PSTricks"
 DESCRIPTION = "PSTricks core and all add-on packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65367"
+PV = "2023.208.svn65367"
 
-RPM_NAME = "texlive-collection-pstricks-2023.201.svn65367-56.1.noarch.rpm"
-RPM_HASH = "48bf78f73702c00f6b3275d0a16561d851f447528a1ca71474cff20eb07b5ef8be8db5a1c914d095c4f8b30e403237acead940fde5700a6ee262e09d494fdb9a"
+RPM_NAME = "texlive-collection-pstricks-2023.208.svn65367-58.1.noarch.rpm"
+RPM_HASH = "389271fa7d70a83e4e9c68ef84b27c00e1ce585e5fc853e42264216c36cf36875fe90af46330bd6aa267bfa6f90313469d417439e942142e27c0585591c6c976"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pstricks) texlive-collection-pstricks"

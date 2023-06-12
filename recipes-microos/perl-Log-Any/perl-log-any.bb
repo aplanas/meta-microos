@@ -38,10 +38,10 @@ See http://www.openswartz.com/2007/09/06/standard-logging-api/ for the \
 original post proposing this module."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.714"
+PV = "1.715"
 
-RPM_NAME = "perl-Log-Any-1.714-1.1.noarch.rpm"
-RPM_HASH = "ccf95ba693c5d53a4b2d5b952ac2e96f18f087cb0518380cab0305b34f309407d1c1d06278ebd5ea91e8a0058359faab8560b40a20fecb33e56abe7e876323a1"
+RPM_NAME = "perl-Log-Any-1.715-1.1.noarch.rpm"
+RPM_HASH = "e6865f6453062cae61c64a50653d3909d76133bb44a1edf8e4c8335cc228bdda9213ce83466b4efa881f5c61aa4d298756f0499fab7322b07e35cd1c1f35af6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Log::Any) perl(Log::Any::Adapter) perl(Log::Any::Adapter::Base) perl(Log::Any::Adapter::Capture) perl(Log::Any::Adapter::File) perl(Log::Any::Adapter::Multiplex) perl(Log::Any::Adapter::Null) perl(Log::Any::Adapter::Stderr) perl(Log::Any::Adapter::Stdout) perl(Log::Any::Adapter::Syslog) perl(Log::Any::Adapter::Test) perl(Log::Any::Adapter::Util) perl(Log::Any::Manager) perl(Log::Any::Proxy) perl(Log::Any::Proxy::Null) perl(Log::Any::Proxy::Test) perl(Log::Any::Proxy::WithStackTrace) perl(Log::Any::Test) perl-Log-Any"

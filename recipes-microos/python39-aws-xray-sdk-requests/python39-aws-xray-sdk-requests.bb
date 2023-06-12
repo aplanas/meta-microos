@@ -5,10 +5,10 @@ emit information from within their applications to the AWS X-Ray service. \
 This package provides the requests backend for python39-aws-xray-sdk."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "python39-aws-xray-sdk-requests-2.10.0-1.3.noarch.rpm"
-RPM_HASH = "d986a2a6bac9c9896ff2c1e098df3c59a53ddcf80c78b1988963f5b1352627fb005f8a25d1c868e6b0fcbb3221be913b690b807b96f2097fb5dddf42112ddfa6"
+RPM_NAME = "python39-aws-xray-sdk-requests-2.12.0-1.1.noarch.rpm"
+RPM_HASH = "41bd25bbcf06d37a8d190166e75cc90ea4e0b6d29cc65a5ee1da9e221efe58f6c10df3926d23cdc059c968d3a163d38a5a4ea9fa9c0f3ac5e697d814cfd5d3af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-requests"

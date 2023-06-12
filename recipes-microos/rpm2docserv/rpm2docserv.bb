@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20230308.4ed55cf"
 
-RPM_NAME = "rpm2docserv-20230308.4ed55cf-1.3.aarch64.rpm"
-RPM_HASH = "6928ec0489ab5c6cb93c58a1a8ddece47d28875b0090f24d4a9b4820aeec0669e70f7375b95c91b71741744de0088bb4cb38f99a06edf9d16e147d71d61f4d04"
+RPM_NAME = "rpm2docserv-20230308.4ed55cf-1.4.aarch64.rpm"
+RPM_HASH = "d808c43858b77277b99b300bed399815dd9138a192be3be03b1b97e0db757bbc0d4e75a6b1afe40ffe6c0af0316fcc76d691d6def0f2b4e82d821a514ce91e1a"
 
 RPROVIDES:${PN} += "rpm2docserv rpm2docserv(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/mandoc cpio libc.so.6(GLIBC_2.34)(64bit)"

@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "python39-pydle-1.0.1-1.4.noarch.rpm"
-RPM_HASH = "4ecaff533819b0b75e55c8cecb7da3f46db166a1a37f6cb5c62c7e290f66f5a87ac7e50d18143f82c244931a0ff71650c61a74acbdb0baf2eafa77e045b1c3c5"
+RPM_NAME = "python39-pydle-1.0.1-2.1.noarch.rpm"
+RPM_HASH = "96bf949fcd88468f7a61142058e553053b756f8cb85e81c25a9c9b62c43a06148ee7797a52a0bdc2c9beb8743d86c73d306fbc08aa25423f76e4b6a39b02d203"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pydle"

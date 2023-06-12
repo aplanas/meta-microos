@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.4.0"
 
-RPM_NAME = "libmbedcrypto14-3.4.0-2.1.aarch64.rpm"
-RPM_HASH = "e8da316988f61d676b4713e7a7f4151373f0ed130f4eb3f47dfddf0b2e53adf255421f385d2539f903c603b24f3f11565c72e860830300bebc28a72f4783a17b"
+RPM_NAME = "libmbedcrypto14-3.4.0-3.1.aarch64.rpm"
+RPM_HASH = "e6ac9c93ce94bcc78ff81abbbd3d2a97338b70e25531fd19f8adb62b34b2b58a31844c6f34cf7c0e6e3e3ffe0e9b2e6115c543ff09f6b0cd9785bca73f092b0d"
 
 RPROVIDES:${PN} += "libmbedcrypto.so.14()(64bit) libmbedcrypto14 libmbedcrypto14(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.25)(64bit)"

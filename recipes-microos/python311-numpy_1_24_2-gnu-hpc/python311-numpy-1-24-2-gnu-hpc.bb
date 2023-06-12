@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.24.2"
 
-RPM_NAME = "python311-numpy_1_24_2-gnu-hpc-1.24.2-2.1.aarch64.rpm"
-RPM_HASH = "44731bfc4dcfd1efad2a96827dba132a95fcbaa1022265c745173e1ff17e56526f04dc9317ad237ab081d0ad9c4fbba4867af591743572ee683e98c4436c44a9"
+RPM_NAME = "python311-numpy_1_24_2-gnu-hpc-1.24.2-3.1.aarch64.rpm"
+RPM_HASH = "ba14993fdb57c8ad2a8138884879ab3f5879bddb5143f092a19536d83747772ecaad96e4a08e29eb4e2bf8f7a85ed3e97801ff14a21d5720f4de7b5cc20f02bc"
 
 RPROVIDES:${PN} += "python3.11dist(numpy) python311-numpy_1_24_2-gnu-hpc python311-numpy_1_24_2-gnu-hpc(aarch-64) python3dist(numpy)"
 RDEPENDS:${PN} += "/usr/bin/python3.11 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit) libm.so.6(GLIBC_2.35)(64bit) libopenblas-gnu-hpc"

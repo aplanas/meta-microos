@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains header files for developing applications
 that want to make use of the OpenSSL C API."
 LICENSE = "OpenSSL"
 
-PV = "1.1.1t"
+PV = "1.1.1u"
 
-RPM_NAME = "libopenssl-1_1-devel-1.1.1t-3.1.aarch64.rpm"
-RPM_HASH = "0e8fde68fee66b8aee2574d6d09b072fb6f580aebf17e6fc21d073d1a39c7bf5015f35fca154a0b3638d99c760f3ea26bbfe70297811b72adfe1f0b61340f8dc"
+RPM_NAME = "libopenssl-1_1-devel-1.1.1u-1.1.aarch64.rpm"
+RPM_HASH = "99395851a7ddeaa3594c0861a8648ad47f4242be153ba2f7a8568a8a3d9dff5b1caaacf6b083098bf679fafb9805a7ec863dfaa72f4f3ea950d4c593009a68db"
 
 RPROVIDES:${PN} += "libopenssl-1_1-devel libopenssl-1_1-devel(aarch-64) pkgconfig(libcrypto) pkgconfig(libssl) pkgconfig(openssl)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libopenssl1_1 pkgconfig(libcrypto) pkgconfig(libssl) pkgconfig(zlib)"

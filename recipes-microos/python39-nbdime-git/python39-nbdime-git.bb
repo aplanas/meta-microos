@@ -5,10 +5,10 @@ Jupyter Notebooks. \
 This package provides git integration."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.0"
+PV = "3.2.1"
 
-RPM_NAME = "python39-nbdime-git-3.2.0-11.1.noarch.rpm"
-RPM_HASH = "fec9be5760f70b9078748a8b89881947b5393d2ba61158eded1e652a2f4b158baee0e9e6925398f58264b9073c91543bb8aad4f9482150b8656334f926bc60d2"
+RPM_NAME = "python39-nbdime-git-3.2.1-12.2.noarch.rpm"
+RPM_HASH = "8e723feb682a99bccce736ba61cc0300eeda6bff7b85f1b2d2ec063a400f3e4b91a96fd825e8bca3107c62cb98f93155fdbcbead9c86c60f9fc294b830141fbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-jupyter_nbdime-git python39-nbdime-git"

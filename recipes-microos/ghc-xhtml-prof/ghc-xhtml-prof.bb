@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3000.2.2.1"
 
-RPM_NAME = "ghc-xhtml-prof-3000.2.2.1-1.1.aarch64.rpm"
-RPM_HASH = "b4cb12422a84603d05925098c5a2fcc2c226f8f00e205209f1d953f6f51101dbe46da873b758cfbe3d4bb500f4042f976cb6f66ffa5928e205d9d540f44c27a5"
+RPM_NAME = "ghc-xhtml-prof-3000.2.2.1-3.1.aarch64.rpm"
+RPM_HASH = "553367f0ed0d3feeee4a06698696e8bd367181061a86dbc973ed7bb8edceacdf111daede9f785bf7dd5732266b14ffe78e3ec39adc3368e8d6fea6cf7dcd44d4"
 
 RPROVIDES:${PN} += "ghc-prof(xhtml-3000.2.2.1) ghc-xhtml-prof ghc-xhtml-prof(aarch-64)"
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) ghc-xhtml-devel(aarch-64)"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "42.2"
 
-RPM_NAME = "libcinnamon-desktop-data-branding-openSUSE-42.2-5.17.noarch.rpm"
-RPM_HASH = "918d71adcc95befe607b549f1c2efeac6a4486ea6e931936cb6ab76f3e4c1876b8cf16fe34992ac45b7bbbeee3bd8fa6329adacf5dc017b91b68bffd1bb3d803"
+RPM_NAME = "libcinnamon-desktop-data-branding-openSUSE-42.2-5.18.noarch.rpm"
+RPM_HASH = "f4e61b9343ca9efbb687a0c1cbd11a72a18bbc6828a1798e9c99ed96cbe09fa42325e01cefa1ac252ba2d1c739b42c0b5f331ffa4901e9d0c7e5b12889fad14d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcinnamon-desktop-data-branding libcinnamon-desktop-data-branding-openSUSE"

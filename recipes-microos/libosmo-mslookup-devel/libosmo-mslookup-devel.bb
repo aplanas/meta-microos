@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "libosmo-mslookup-devel-1.4.0-1.10.aarch64.rpm"
-RPM_HASH = "2e99866b145cd94a206a4840b0006f6442119bd68d5b6c01dac231c4cc82a5982d51127cb0f3485f2e684607439e747bfd4b9a464398aa9d0b21d864d8df4be5"
+RPM_NAME = "libosmo-mslookup-devel-1.4.0-1.11.aarch64.rpm"
+RPM_HASH = "e495b0cd605e67ad84b1d21b21450b88e32e6c687ece1c065c3a1899b4f85dbab227a4281bf459f3e1e219fc7aa824bf85886841c0be49412d539fe372f54bfb"
 
 RPROVIDES:${PN} += "libosmo-mslookup-devel libosmo-mslookup-devel(aarch-64) pkgconfig(libosmo-mslookup)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libosmo-mslookup0"

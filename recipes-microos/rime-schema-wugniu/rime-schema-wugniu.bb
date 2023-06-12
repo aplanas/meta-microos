@@ -1,11 +1,11 @@
 SUMMARY = "wugniu input schema for rime"
-DESCRIPTION = "wugniuinput schema for rime."
+DESCRIPTION = "wugniu input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20210525+git.4f7fc2a"
+PV = "20230603+git.5fdd2d6"
 
-RPM_NAME = "rime-schema-wugniu-20210525+git.4f7fc2a-1.9.noarch.rpm"
-RPM_HASH = "8f2e1f82467f31e79e22e2dd1c3351d8327d91b949d1dd9c8dba453121192c8a1efc3678d364bcd7215fa28ad951da30a6517bbab26da2a03ae324e682a5c530"
+RPM_NAME = "rime-schema-wugniu-20230603+git.5fdd2d6-1.1.noarch.rpm"
+RPM_HASH = "2b052968d4b7c29ee96d27c1c5f68127d5ff3aafaf0bda1954a4272a2da21baca45e514c25153c994009cbe14dee0c3803759200c737c092589ff66252dc8a48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-wugniu"

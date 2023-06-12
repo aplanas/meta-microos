@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.4"
 
-RPM_NAME = "systemd-sysvcompat-253.4-1.2.aarch64.rpm"
-RPM_HASH = "a30b52de7935e35c7707089dc892dfbf1a996b3633ae37ce3a06e6cbe4fb722884c58c4bb9b68db6c377538c5ab89119ee4982034389dea76b4698b656430c7f"
+RPM_NAME = "systemd-sysvcompat-253.4-2.1.aarch64.rpm"
+RPM_HASH = "7b2f0c7a1cba63cee9c627b8915d538b841fc9612947ea055e25718ea5928325addb0d5c7b4ace117425624a3e6a3edf81df1d68e046d0c08a86c1b7620cc242"
 
 RPROVIDES:${PN} += "systemd-sysvcompat systemd-sysvcompat(aarch-64) systemd-sysvinit:/usr/sbin/runlevel systemd-sysvinit:/usr/sbin/telinit"
 RDEPENDS:${PN} += "/bin/bash ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libsystemd-shared-253.so()(64bit) libsystemd-shared-253.so(SD_SHARED)(64bit) systemd"

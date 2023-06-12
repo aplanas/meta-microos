@@ -2,10 +2,10 @@ SUMMARY = "ROOT and examples web applications for Apache Tomcat"
 DESCRIPTION = "The ROOT and examples web applications for Apache Tomcat"
 LICENSE = "Apache-2.0"
 
-PV = "9.0.43"
+PV = "9.0.75"
 
-RPM_NAME = "tomcat-webapps-9.0.43-16.1.noarch.rpm"
-RPM_HASH = "baf8dded78150c8e162dd7a856a374151d1e2a0f5bf71727db2b9980b789789a74cdc631a87f21f7af1dbc4a92e5b6a724cc06fd5c7952a54c79c85ca833479a"
+RPM_NAME = "tomcat-webapps-9.0.75-1.1.noarch.rpm"
+RPM_HASH = "de17747fe008b807aa7398b809e771ae752e71adcecc6a0f4baf5135b2e28efd2d99c43038607739861e0d799811adda8760c3198f7cd878c6eaa88754379415"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(tomcat-webapps) tomcat-webapps"

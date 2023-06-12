@@ -3,10 +3,10 @@ DESCRIPTION = "Packages for XeTeX, the Unicode/OpenType-enabled TeX by \
 Jonathan Kew, http://tug.org/xetex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64951"
+PV = "2023.208.svn64951"
 
-RPM_NAME = "texlive-collection-xetex-2023.201.svn64951-56.1.noarch.rpm"
-RPM_HASH = "f8e3d0a078e2040564ef52a8c698769e58d7ebba64d675368bd6efcb02f067e8e4225c42cf7d3bb0598b542fa837058cd7618cf91cc43a923e2f87447e3afc33"
+RPM_NAME = "texlive-collection-xetex-2023.208.svn64951-58.1.noarch.rpm"
+RPM_HASH = "41e54ead55b9fc7a8446278a70615d30791f4e64cf90452bbf82beeb2a42257bd0b06d8814971f1553b02eb36694e467177ca324ecf2164b54360cce394f984f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xetex) texlive-collection-xetex"

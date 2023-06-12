@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "tcl-brlapi-6.5-2.3.aarch64.rpm"
-RPM_HASH = "f7c847af3be7d1e4448cdc7fb44d6fe6033af96cf4211fe7481b00cd5e1d86edd46cd4dd6cb6a65228b2c1d7e512e0d39b2b1e141b2c1cc9700c31713343db86"
+RPM_NAME = "tcl-brlapi-6.5-2.4.aarch64.rpm"
+RPM_HASH = "cfd75cb1b20218876b8b6d6e9f6b6739b15729ae5a5dff9cda14e4bbb4aaf7519236fb61df4e41995126569ff81322ae0cac6202970689095a436921f11ed81a"
 
 RPROVIDES:${PN} += "libbrlapi_tcl.so.0.8()(64bit) tcl-brlapi tcl-brlapi(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbrlapi.so.0.8()(64bit) libc.so.6(GLIBC_2.17)(64bit) libtcl8.6.so()(64bit) tcl"

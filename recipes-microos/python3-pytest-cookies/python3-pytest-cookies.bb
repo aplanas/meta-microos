@@ -2,10 +2,10 @@ SUMMARY = "Cookiecutter template pytest plugin"
 DESCRIPTION = "The pytest plugin for your Cookiecutter templates."
 LICENSE = "MIT"
 
-PV = "0.5.1"
+PV = "0.7.0"
 
-RPM_NAME = "python3-pytest-cookies-0.5.1-3.6.noarch.rpm"
-RPM_HASH = "e4fcb79f2df37e19c9ae871894d126fdb691cfd8996b0296cdb3a5110cd393a9351da819c0785324b58e30bf45faff035b883b096e1d418be50caed5be641aa2"
+RPM_NAME = "python3-pytest-cookies-0.7.0-1.1.noarch.rpm"
+RPM_HASH = "3ae6919eac08a840f70f9e2d060463e71547ec4cfee713a12ef89a65be42361d7320663b2ad0b9031196c5e652b3de72104937a0dbc35e0e06fdebc56824ca02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-cookies python3.10dist(pytest-cookies) python3dist(pytest-cookies)"

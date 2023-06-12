@@ -4,10 +4,10 @@ They are useful for educational purpose and as a base for creating \
 embedded systems."
 LICENSE = "Apache-2.0"
 
-PV = "25.3"
+PV = "25.3.2"
 
-RPM_NAME = "erlang-dialyzer-src-25.3-1.1.aarch64.rpm"
-RPM_HASH = "077d5dc56f256696948fa3ec915a1402d5f511f0ba08a905fb1af6c372ba015d23c9079addcba4ff64943fb9f8035fc37329e6d5838ab70f2693d0493a9a34db"
+RPM_NAME = "erlang-dialyzer-src-25.3.2-1.1.aarch64.rpm"
+RPM_HASH = "d8b07620bc48e180f76cebc668ee0edb779c270d24478656d6615a865768f0696a7499faaaf7707e9755d81bfcc213fd505befef1fb932d9fd73c502a3fb15d5"
 
 RPROVIDES:${PN} += "erlang-dialyzer-src erlang-dialyzer-src(aarch-64)"
 RDEPENDS:${PN} += "erlang-dialyzer"

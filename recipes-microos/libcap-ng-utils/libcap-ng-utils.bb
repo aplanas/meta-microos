@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "libcap-ng-utils-0.8.3-1.8.aarch64.rpm"
-RPM_HASH = "a9d1ca2e33f205070a4c74cdab44d3b7811a038d5286bd86a67d575ddc2aec4f37bf7d928b1efab4461d8fae935dce7ba446c18f99f54caef35ada5d4d2c437c"
+RPM_NAME = "libcap-ng-utils-0.8.3-2.1.aarch64.rpm"
+RPM_HASH = "d2123e64a81cb7ad78bb2d287eb3c29cddcdd16a9b3f9f99aa3ae49326caffd7bf45179a2270a075f279e395519e74544dd98373718648536b1eb3cd381bec2e"
 
 RPROVIDES:${PN} += "libcap-ng-utils libcap-ng-utils(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcap-ng.so.0()(64bit)"

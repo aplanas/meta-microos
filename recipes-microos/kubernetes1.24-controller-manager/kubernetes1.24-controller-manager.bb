@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.24.13"
 
-RPM_NAME = "kubernetes1.24-controller-manager-1.24.13-2.1.aarch64.rpm"
-RPM_HASH = "7f180b4dda2acb1dca4db5b20925465d8f852f02c3b757d9a17673b1fa94c1ec269d03957cd2c047a0b7a833b343818c3120476326a8af3f23542d9eb20384b3"
+RPM_NAME = "kubernetes1.24-controller-manager-1.24.13-2.2.aarch64.rpm"
+RPM_HASH = "fb1f9064f80c3b04bddc8198f3a778a629c912e8b41b78846be8959c9500cb95edc7fe3cfe9a72b7b3575094f22cd582841803df0736b3df0cc37738575d6aaf"
 
 RPROVIDES:${PN} += "kubernetes-controller-manager-provider kubernetes1.24-controller-manager kubernetes1.24-controller-manager(aarch-64)"
 RDEPENDS:${PN} += ""

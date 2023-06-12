@@ -5,10 +5,10 @@ relative to the other tests. pytest-order is a fork of pytest-ordering that \
 provides some additional features."
 LICENSE = "MIT"
 
-PV = "0.10.0"
+PV = "1.1.0"
 
-RPM_NAME = "python311-pytest-order-0.10.0-1.10.noarch.rpm"
-RPM_HASH = "b3cdb71adb7b99d07ebf79d66a18897c072d08de506f33bbf30ac12db6a785209e3b32962ce2de82fc34b58347d474b87c8663f1ba4d858ae7b59356a6eb8fc6"
+RPM_NAME = "python311-pytest-order-1.1.0-1.1.noarch.rpm"
+RPM_HASH = "dae718e4030ccb4c1c8a07747476bfdd4e7b3b5511b22484ca6f66af88fc3864e469425f2aed90c154c7a7a6232709cb07bcaf621ed8e19ebea13d731b40782e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(pytest-order) python311-pytest-order python3dist(pytest-order)"

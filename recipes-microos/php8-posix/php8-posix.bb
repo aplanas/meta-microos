@@ -2,12 +2,12 @@ SUMMARY = "POSIX functions for PHP"
 DESCRIPTION = "This module contains an interface to those functions defined in the \
 IEEE 1003.1 (POSIX.1) standards document which are not accessible \
 through other means."
-LICENSE = "PHP-3.01"
+LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.5"
+PV = "8.1.19"
 
-RPM_NAME = "php8-posix-8.2.5-1.1.aarch64.rpm"
-RPM_HASH = "b793820b24a9a0b687f1143f9b38112a958d843151539c27f64e8f061df85dcff62b3c04cb075e8a74933c4e63cece4b308be1324c4ae71df5286c9927e92645"
+RPM_NAME = "php8-posix-8.1.19-2.2.aarch64.rpm"
+RPM_HASH = "b9ec0905dddf058493f65dce2a7bba505882992a9e7a747579bde54ac6fe676f1505266a3689ada80758aad66993dbb29669858d8565d62c89ac0f2477c2f3c9"
 
 RPROVIDES:${PN} += "config(php8-posix) php-posix php8-posix php8-posix(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) php"

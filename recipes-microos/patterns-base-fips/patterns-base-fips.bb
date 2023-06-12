@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "20200505"
 
-RPM_NAME = "patterns-base-fips-20200505-40.1.aarch64.rpm"
-RPM_HASH = "b997148f5dc8a0ec409c15ee5d7f9d38b8553349dd9f0225ca60d0cd10a774f11218f3db11eb67bb420492a840d34648a246d316f63bca9a26edfbcad531a865"
+RPM_NAME = "patterns-base-fips-20200505-41.1.aarch64.rpm"
+RPM_HASH = "d0a424603fbe8d04decd2f192129e44b6f06e9783a30b57c37693d0beefe6fa635eacc348394f77f26e984e5594c2836debf1e0b07c6e87ed7d64b0e2ca93a88"
 
 RPROVIDES:${PN} += "pattern() pattern-category() pattern-icon() pattern-order() pattern-visible() patterns-base-fips patterns-base-fips(aarch-64) patterns-server-enterprise-fips patterns-server-enterprise-fips-32bit patterns-sles-fips"
 RDEPENDS:${PN} += "(dracut-fips if dracut) (libcryptsetup12-hmac if libcryptsetup12) (libcryptsetup12-hmac-32bit if libcryptsetup12-32bit) (libfreebl3-hmac if libfreebl3) (libfreebl3-hmac-32bit if libfreebl3-32bit) (libgcrypt20-hmac if libgcrypt20) (libgnutls30-hmac if libgnutls30) (libgnutls30-hmac-32bit if libgnutls30-32bit) (libopenssl1_0_0-hmac if libopenssl1_0_0) (libopenssl1_0_0-hmac-32bit if libopenssl1_0_0-32bit) (libopenssl1_1-hmac if libopenssl1_1) (libopenssl1_1-hmac-32bit if libopenssl1_1-32bit) (libsoftokn3-hmac if libsoftokn3) (libsoftokn3-hmac-32bit if libsoftokn3-32bit) (openssh-fips if openssh-clients) (openssh-fips if openssh-server) (strongswan-hmac if strongswan)"

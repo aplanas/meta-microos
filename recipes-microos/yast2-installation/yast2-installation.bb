@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Installation Parts"
 DESCRIPTION = "System installation code as present on installation media."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.2"
+PV = "4.6.3"
 
-RPM_NAME = "yast2-installation-4.6.2-1.1.noarch.rpm"
-RPM_HASH = "3d0e7cfe20e181ad83f4349f5f81b427c491a35edb7a021a924a37c2bef09b7215b5c24db1f6b2f37e747a3cae6c8681a14332dceec8d9b97cc227f5d23c7c66"
+RPM_NAME = "yast2-installation-4.6.3-1.1.noarch.rpm"
+RPM_HASH = "dd97e48e21d18acadc6af7f1c2ebb8bd97eadfb55f822e96379cb89be1705fa59539d1c2268493c8675fc9a32b91f8833212de7976dd9ed6a809c82f12b785e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "application() application(org.opensuse.yast.Installation.desktop) application(org.opensuse.yast.ReleaseNotes.desktop) application(org.opensuse.yast.Upgrade.desktop) metainfo() metainfo(org.opensuse.yast.Installation.metainfo.xml) metainfo(org.opensuse.yast.ReleaseNotes.metainfo.xml) metainfo(org.opensuse.yast.Upgrade.metainfo.xml) yast2-installation"

@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.53.16"
 
-RPM_NAME = "seamonkey-irc-2.53.16-1.1.aarch64.rpm"
-RPM_HASH = "1ba4afd8ff75a17da14a1f1376d44e45bd835fa06ab679e29454c19a08444e96b5270b435ab29598c78bcd76430944e4450c1f3ae6b17081aae93b35afbbec29"
+RPM_NAME = "seamonkey-irc-2.53.16-1.2.aarch64.rpm"
+RPM_HASH = "66ba2e998fc9a34aca1d875e27e5e8758da9723835bfa132f0f6de8d8aca21ffe19813dc59a6ea951997d0d425d24a7f2d5f26c4a4b6bcd5da3c5ac8a8efe5c4"
 
 RPROVIDES:${PN} += "seamonkey-irc seamonkey-irc(aarch-64)"
 RDEPENDS:${PN} += "seamonkey"

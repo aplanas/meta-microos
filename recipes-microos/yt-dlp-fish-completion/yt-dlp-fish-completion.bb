@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0 & SUSE-Public-Domain"
 
 PV = "2023.03.04"
 
-RPM_NAME = "yt-dlp-fish-completion-2023.03.04-1.1.noarch.rpm"
-RPM_HASH = "d86ff32d532aa72d3987e5f7b1e8e4c68b54497aff5f972f4db9ec39c9652fd13d47011df540c905dca6930896a0f5166d5d6dbe0f1f29ae718a1df270cb8450"
+RPM_NAME = "yt-dlp-fish-completion-2023.03.04-2.1.noarch.rpm"
+RPM_HASH = "ffe894e7a35f63ad9a2ae78db3c0ac8a9797026bd3485d336c2fc6468e55d0801876313679cf02aeef0f6a5689abf32bb1280810e19bc2c3735aeaba091e3996"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yt-dlp-fish-completion"

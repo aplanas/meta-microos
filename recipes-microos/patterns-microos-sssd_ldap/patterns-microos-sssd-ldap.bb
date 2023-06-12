@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-sssd_ldap-5.0-69.1.aarch64.rpm"
-RPM_HASH = "382b3fbb75437a6c59bcad38298d213fae9f1af538abdbef8e1fe5a6041e605b651fee244fdd039882bd04b4c1169ee9f4e83b5d79ec482352c0d1d58474cbaf"
+RPM_NAME = "patterns-microos-sssd_ldap-5.0-70.1.aarch64.rpm"
+RPM_HASH = "c5ba5673aaa6982f39ca61bccd3b464e3b8e1bdf68f90e2bfb3d7e0e904fa5ee741eac1d6fec8e24954f83dd5685ae1bab5a21e951d287b1aca6cd76c291c266"
 
 RPROVIDES:${PN} += "pattern() pattern-category() pattern-icon() pattern-order() pattern-visible() patterns-microos-sssd_ldap patterns-microos-sssd_ldap(aarch-64)"
 RDEPENDS:${PN} += "sssd sssd-ldap"

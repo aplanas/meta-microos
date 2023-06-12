@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-3d in QCH format"
 DESCRIPTION = "This package contains documentation for qt6-3d in QCH format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-3d-docs-qch-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "84461f47d288323a144ce39a21c36299f942433ae675dfd3d367d133cb369e9bc98c90c77dbaf7f6d61bd68b39bd1c6317effe2bfa5586569e7c2e1b063b26d3"
+RPM_NAME = "qt6-3d-docs-qch-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "0dcfd68f9ad3154e299e73537a369c5044d99049aeae7d6a789ccba32360f3cea243a1f3db3b39bf3f26ce1d2a47fc1948e0de0a3ea4b3ec795e6165d00dab2c"
 
 RPROVIDES:${PN} += "qt6-3d-docs-qch qt6-3d-docs-qch(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh"

@@ -4,8 +4,8 @@ LICENSE = "IPL-1.0 | EPL-2.0"
 
 PV = "3.8.0"
 
-RPM_NAME = "postfix-devel-3.8.0-2.1.noarch.rpm"
-RPM_HASH = "c5dd8f60e324291a9cf928ad17573148c669a459aaac129963e7a92f974c72772f121b288e8907e35f537708a9e7a0ca8fcbf6a1dd9661f5d8794ba84299beb0"
+RPM_NAME = "postfix-devel-3.8.0-2.2.noarch.rpm"
+RPM_HASH = "05fff7ef858cf1eeacf38d17658a01c3e8e5299277f0341d8408d12768235978936b68aa9e6775fd15af367e027d16ec175c06845d5a6d0283ba397d58072cca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postfix-devel"

@@ -3,10 +3,10 @@ DESCRIPTION = "These packages are either mandated by the core LaTeX team, or \
 very widely used and strongly recommended in practice."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn63515"
+PV = "2023.208.svn63515"
 
-RPM_NAME = "texlive-collection-latex-2023.201.svn63515-56.1.noarch.rpm"
-RPM_HASH = "10f65c3f431ad54390d9558f8ff5bbd232341ab439fe8bbeb502466f9a3e5f68db17d2f6288db11fe343a085fa6d3087a9f28f347c6c4eae1bbcae6185dd1b31"
+RPM_NAME = "texlive-collection-latex-2023.208.svn63515-58.1.noarch.rpm"
+RPM_HASH = "439697e57d7e7f29f4a41bcc9d454808011e0a88d6e168b704320d6a0976e7c5abc695bb96c50731f31a5a8fcc3aece0761b3012c8d866f6885efc55192b8ccc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(latex) texlive-collection-latex"

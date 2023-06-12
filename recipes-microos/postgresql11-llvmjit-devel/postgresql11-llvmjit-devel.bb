@@ -10,10 +10,10 @@ if llvm is supported. Otherwise it will just pull the \
 postgresql11-server-devel package."
 LICENSE = "PostgreSQL"
 
-PV = "11.19"
+PV = "11.20"
 
-RPM_NAME = "postgresql11-llvmjit-devel-11.19-2.1.aarch64.rpm"
-RPM_HASH = "d2d79979751497a0df4547b1ec1ecf098c732603af7ca2055369529fb72937106a02404f66be02ea8b3f61663febabd1e92fabf6f20ea3ccaefae29dc5cd4c38"
+RPM_NAME = "postgresql11-llvmjit-devel-11.20-1.2.aarch64.rpm"
+RPM_HASH = "6306edd5b9b470efa13f0d01ee88cec04d7eda03564eb6862c0a75ff6d50ceaff3956fe93adc6a4f10c512e508da48f4e4e97a5865484a10225cb08977685106"
 
 RPROVIDES:${PN} += "postgresql-llvmjit-devel postgresql-llvmjit-devel-implementation postgresql11-llvmjit-devel postgresql11-llvmjit-devel(aarch-64)"
 RDEPENDS:${PN} += "clang15 llvm15 postgresql-llvmjit-devel-noarch postgresql11-llvmjit postgresql11-server-devel"

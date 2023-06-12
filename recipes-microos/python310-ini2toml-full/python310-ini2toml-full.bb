@@ -2,10 +2,10 @@ SUMMARY = "Python ini2toml[full] extra requirement"
 DESCRIPTION = "The ini2toml[full] extra requirements for python310-ini2toml"
 LICENSE = "MPL-2.0"
 
-PV = "0.11.3"
+PV = "0.12"
 
-RPM_NAME = "python310-ini2toml-full-0.11.3-2.1.noarch.rpm"
-RPM_HASH = "8871f9d63fa67bb74589e4b4b31d92d4155e9f93bad2c49ddb57c9a253caffeea4e56628ff13a98d1696c4be11092b76613b976a01eace863f165f93090c8509"
+RPM_NAME = "python310-ini2toml-full-0.12-2.1.noarch.rpm"
+RPM_HASH = "4966a909e072ec3dcaca21a8b5773d6405ffa0a2df69a5d0bcd38978daca1544eedbdb9defaaa7541f88b62254aba5214165bf7a4a955e7e747f73d3b6c1e2a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ini2toml-full python310-ini2toml-full"

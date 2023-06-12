@@ -7,10 +7,10 @@ The libmate-menu library implements the 'Desktop Menu Specification' \
 from freedesktop.org."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.26.0"
+PV = "1.26.1"
 
-RPM_NAME = "mate-menus-1.26.0-1.8.aarch64.rpm"
-RPM_HASH = "53e6fc7fc5112acc49475e385da185fa346e7e9a21bc297e86455e9f59a9ae76c71bbbbd71b9b9d46aca1dbacc175c323c5b70e1f974f958b73a1971bd841b8b"
+RPM_NAME = "mate-menus-1.26.1-1.1.aarch64.rpm"
+RPM_HASH = "646fd985e7ef6a1cd665abad2481238c2b65d115cafd84d36e85a909b0bcb7f04613b967d1af1dd18504d182f238a466d7b677541fd37e92202e1294ba4b5c66"
 
 RPROVIDES:${PN} += "config(mate-menus) mate-menus mate-menus(aarch-64)"
 RDEPENDS:${PN} += "mate-menus-branding"

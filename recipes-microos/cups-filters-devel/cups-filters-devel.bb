@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & MIT"
 
 PV = "1.28.15"
 
-RPM_NAME = "cups-filters-devel-1.28.15-2.3.aarch64.rpm"
-RPM_HASH = "c4730aa127a10f64db53e95db98667daae968411276608f5d524f83b244df7f38c6e1267e5ed496291d755f2cf2eb2029e651ccc4417086f084e98e444c01dcf"
+RPM_NAME = "cups-filters-devel-1.28.15-3.1.aarch64.rpm"
+RPM_HASH = "af47dbd3c39fd0fba6cc75e70d4588739774c2f5f3456a7f42a3e79cdf2c68f1a7dbd14aa87355e6c371c4e0da674a309306380bc618eb12ebb39c89760dd1d7"
 
 RPROVIDES:${PN} += "cups-filters-devel cups-filters-devel(aarch-64) pkgconfig(libcupsfilters) pkgconfig(libfontembed)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config cups-filters"

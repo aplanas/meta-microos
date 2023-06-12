@@ -2,10 +2,10 @@ SUMMARY = "Korean documentation for lxc"
 DESCRIPTION = "Korean language man pages for lxc."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.1"
+PV = "5.0.2"
 
-RPM_NAME = "lxc-ko-doc-5.0.1-2.3.noarch.rpm"
-RPM_HASH = "05708337c2648395da5b612a09bda3ee35e3a1aaaab0d2b1f09bfa3d7fb139c3bfea1b0f51152f8e216c230856901f1fd32cf04523f82077384ff33f571ca3ee"
+RPM_NAME = "lxc-ko-doc-5.0.2-1.1.noarch.rpm"
+RPM_HASH = "77ec020359883b504452ff06f22238622cf866e6e75400dcd60d60221f359c205fa2032851d936580de543a12a1fe835ce30d5f35f6eb35d68f0d5e57e8294a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxc-ko-doc"

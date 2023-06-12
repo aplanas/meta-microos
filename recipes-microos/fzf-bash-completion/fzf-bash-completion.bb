@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for fzf"
 DESCRIPTION = "Bash shell completions for fzf"
 LICENSE = "MIT"
 
-PV = "0.40.0"
+PV = "0.41.0"
 
-RPM_NAME = "fzf-bash-completion-0.40.0-1.1.noarch.rpm"
-RPM_HASH = "b313b76f2727a70234766ac845af2a5a8e36e9b5cc52e9bd9eee2a2cabf82673108ce2cd31b54eed40d17553dfddf8ea59d30c85ddad726acdb9d7b3e98147bb"
+RPM_NAME = "fzf-bash-completion-0.41.0-1.1.noarch.rpm"
+RPM_HASH = "989196a9f4d75468ead9c87e07b2faecebbcf9daf4f368e08e7aa0c59041b8e62dfa54509ed1af7b9ae99c9f9dc386d8158806400f2b2ad10667eea034044c3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fzf-bash-completion"

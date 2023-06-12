@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.2"
 
-RPM_NAME = "csi-external-attacher-3.0.2-1.9.aarch64.rpm"
-RPM_HASH = "35b6d181442ac33d39027e7d3ab114b0274d433baf27ed9508f3430808080a034d4718fdce4564036fb3b5f04e0324ec3059416768bd913c5decd6b6d7eab41b"
+RPM_NAME = "csi-external-attacher-3.0.2-1.10.aarch64.rpm"
+RPM_HASH = "e00c3e8ae01556038af195e71536559ba02ad70e3c2a92bdb34b933ae95033a74f1f794ea84bcd67b756155a99e0edceb5d7de6bde67d260283990a8ac2e6988"
 
 RPROVIDES:${PN} += "csi-external-attacher csi-external-attacher(aarch-64)"
 RDEPENDS:${PN} += ""

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "1.7.36"
 
-RPM_NAME = "slf4j-reload4j-1.7.36-3.3.noarch.rpm"
-RPM_HASH = "1ae4dca9b0cac68c3844991ba65f6ebd7fd310b03f845aa8914f1f008ba7f28f4f718d32cdb6d14c00fc61dd5e0d3a1a7a6db23e93d4b8c4f36d909ca6759f5e"
+RPM_NAME = "slf4j-reload4j-1.7.36-4.1.noarch.rpm"
+RPM_HASH = "b83b6b29cc8ae3c63228af3a8da076aaa784717952feaff85d7e1f4eb8d04a4c4fa0d6033fec5db88bf2e774c22c06b57724ddc81a1863c5b2e533fc6eb04a36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(org.slf4j:slf4j-log4j12) mvn(org.slf4j:slf4j-log4j12:pom:) mvn(org.slf4j:slf4j-reload4j) mvn(org.slf4j:slf4j-reload4j:pom:) osgi(slf4j.reload4j) slf4j-log4j12 slf4j-reload4j"

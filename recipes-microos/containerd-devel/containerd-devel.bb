@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the source code needed for building package
 reference the following Go import paths: github.com/containerd/containerd"
 LICENSE = "Apache-2.0"
 
-PV = "1.6.20"
+PV = "1.6.21"
 
-RPM_NAME = "containerd-devel-1.6.20-1.1.aarch64.rpm"
-RPM_HASH = "e64633a1aca1391e41a9b2b9c6a38a13f5ca51b4868df65810433743922389bbf72b3d284f9399dd460b904046df884c8195214b28fb737e5ae874a7ee2bd610"
+RPM_NAME = "containerd-devel-1.6.21-1.1.aarch64.rpm"
+RPM_HASH = "452d2d06d7f6c370d3d583658330d58c7f15d85afefa33a5264eb6863a48e99b4c845b4f39bdbe092fe4df0d2d216eac7d66758ded2b9a92c5c26fa837d24f2d"
 
 RPROVIDES:${PN} += "containerd-devel containerd-devel(aarch-64)"
 RDEPENDS:${PN} += "containerd"

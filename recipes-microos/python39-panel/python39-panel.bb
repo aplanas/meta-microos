@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14.4"
 
-RPM_NAME = "python39-panel-0.14.4-1.1.noarch.rpm"
-RPM_HASH = "be9d44ca9720ca608f6e4967f0a18349a85b48d042272f13ae88aff1acf8cc67729b7b3f59fefa61c38b91778cb0542cfdd07b835db125619068e2b79ace11c0"
+RPM_NAME = "python39-panel-0.14.4-1.2.noarch.rpm"
+RPM_HASH = "8656578f93a50dc39e01b48f009fea64be9bd2579f82faba7e749b6be7a3bf75e48acef039a91c8bc30c7ae2947992f1e26db85961f59bdbd4ed28d8a0fbd051"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(panel) python39-panel python3dist(panel)"

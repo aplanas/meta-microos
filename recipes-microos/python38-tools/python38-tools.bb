@@ -5,8 +5,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.8.16"
 
-RPM_NAME = "python38-tools-3.8.16-6.1.aarch64.rpm"
-RPM_HASH = "6296713f0b19a8d647c42c93ef02ffd085d037b7f36f399e4d0aa9547edbf7a247b85373a14ad858c5a7aa2ded9684e1372b2f011fd9d9e1f5cdf2b739ec18bf"
+RPM_NAME = "python38-tools-3.8.16-7.1.aarch64.rpm"
+RPM_HASH = "baa7efe1ab36a6cbaf0c785a6e47a478ba9a4238c73d858096634c15f83a2e3015008106c2c6533fe5e1ab15f487fcaa176fd8234077599e39be4c87042daf0c"
 
 RPROVIDES:${PN} += "python38-2to3 python38-demo python38-tools python38-tools(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/python3.8 python(abi) python38-base"

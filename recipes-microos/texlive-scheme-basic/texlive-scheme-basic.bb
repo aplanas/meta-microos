@@ -5,10 +5,10 @@ PostScript or PDF, using the Computer Modern fonts. This scheme \
 corresponds to collection-basic and collection-latex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54191"
+PV = "2023.208.svn54191"
 
-RPM_NAME = "texlive-scheme-basic-2023.201.svn54191-56.1.noarch.rpm"
-RPM_HASH = "265a33c723faca3e97a091f3d4ec2148c9c4b39bc59af6efa70cf8f7dedfc1a337be8ee3b4023c7ccc86645317e8335ec541342ee44b7da7b0359f6923be429d"
+RPM_NAME = "texlive-scheme-basic-2023.208.svn54191-58.1.noarch.rpm"
+RPM_HASH = "3f6d93fa05c1d0498ef53ec6ea4e56f189b10e1bf51bd5abe8feb50ff4c542d27ea2ceb7da28b1f50ed9c0cb986e308afaf5bc05aa479ffec50de30be025f579"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-basic"

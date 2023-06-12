@@ -11,8 +11,8 @@ LICENSE = "Sendmail"
 
 PV = "8.17.1"
 
-RPM_NAME = "libmilter-doc-8.17.1-8.3.noarch.rpm"
-RPM_HASH = "c8d983d77092ab34c178c47f8e38615d92038af94c0e4246d79ae8baedc1e94d8f6c7e1547dee8630384cc37d5f273d0888746831183c0f73b95ed64f40532a8"
+RPM_NAME = "libmilter-doc-8.17.1-9.1.noarch.rpm"
+RPM_HASH = "21969133adf066665796108dfc22037cd84bda598658554fae1fbdc35a984118dd80c3842525d7554f6abfda5256edda5053dd823e6bd157f495c09cf6877213"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmilter-doc"

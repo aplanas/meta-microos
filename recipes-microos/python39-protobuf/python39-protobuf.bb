@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "21.12"
 
-RPM_NAME = "python39-protobuf-21.12-3.1.aarch64.rpm"
-RPM_HASH = "7525b1ba794201df4fa2ba1772d277b21e72b05dbbec3704d58243e053c283068bdc7bd605f695cffd253f6dde32347a4d4d7fa4d4352fc2ce2117f599ec55ed"
+RPM_NAME = "python39-protobuf-21.12-3.2.aarch64.rpm"
+RPM_HASH = "54130921c972513f738f9b61d5b50e3eadc7a6389a0ad538bdd1ab7b3f8922837115416bdc89afea5fcc3ae396bff7c7abe2a88109b12c0f5e56da00b02e79f3"
 
 RPROVIDES:${PN} += "python3.9dist(protobuf) python39-protobuf python39-protobuf(aarch-64) python3dist(protobuf)"
 RDEPENDS:${PN} += "python(abi) python39-six"

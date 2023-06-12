@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt63DQuickAnimation t
 have any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-3dquickanimation-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "336c64678a67175ff52c40ca0b96b457157e054e4b0cdfbcefb857c967ec202101a537038fa30e1f1caff59b73dae4ead2d16ae1b2e9ef702549518b3fc84163"
+RPM_NAME = "qt6-3dquickanimation-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "a8f4398b0ea8e69d757c48e89da4a5b1abcbd639b39eabb943a65a409ce7cffc6ce754d9196e7cc89b870747dd48cbcf888ca9014c711a3b2c5abd0a6d400465"
 
 RPROVIDES:${PN} += "qt6-3dquickanimation-private-devel qt6-3dquickanimation-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt63DQuickAnimation)"

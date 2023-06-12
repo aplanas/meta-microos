@@ -3,10 +3,10 @@ DESCRIPTION = "KDeclarative provides integration of QML and KDE workspaces. \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.105.0"
+PV = "5.106.0"
 
-RPM_NAME = "kdeclarative-devel-5.105.0-1.2.aarch64.rpm"
-RPM_HASH = "0dab7fb0d8ddbc5587ce0f7b5ac55042e93d8af4765732289af497d2dea676f2093e54e6770b2f1cae9cc3c3e09ee895814d46c7d78af7aa1007cb34b495171c"
+RPM_NAME = "kdeclarative-devel-5.106.0-1.2.aarch64.rpm"
+RPM_HASH = "51b7b4c34d02a67331605306e20fc5fcf64605c206c4aec8a2dbfe51a35de862cbb7445db89b463c29ef2d3feff3142a4f8492b19a51ee6c819e6e31fcc52ed6"
 
 RPROVIDES:${PN} += "cmake(KF5Declarative) kdeclarative-devel kdeclarative-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(KF5Config) cmake(KF5CoreAddons) cmake(KF5Package) cmake(Qt5Qml) extra-cmake-modules kdeclarative-components libKF5CalendarEvents5 libKF5Declarative5 libKF5QuickAddons5"

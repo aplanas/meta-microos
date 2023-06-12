@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "5.5.25"
 
-RPM_NAME = "deepin-api-5.5.25-1.4.aarch64.rpm"
-RPM_HASH = "68a460fdcabd7b6fd51a00559979973451807f8f945c3640b478eb64da3cef4a26e75e0aa42a18108295f02fa67fb728655282743b982b47d769271cc9ca7ad3"
+RPM_NAME = "deepin-api-5.5.25-1.5.aarch64.rpm"
+RPM_HASH = "28d9efe578fce5eff49f2cfc5671094f8bd917c4ed75d14acad662cfa09852e3147af23109dae414886e99d8010f47cf4507492ef36125d112089ebf32fd2125"
 
 RPROVIDES:${PN} += "deepin-api deepin-api(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh deepin-desktop-base rfkill"

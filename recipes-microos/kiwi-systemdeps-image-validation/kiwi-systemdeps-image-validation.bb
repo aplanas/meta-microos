@@ -5,10 +5,10 @@ includes reading of image descriptions for different markup \
 languages"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.24.57"
+PV = "9.24.61"
 
-RPM_NAME = "kiwi-systemdeps-image-validation-9.24.57-1.2.aarch64.rpm"
-RPM_HASH = "ac42bfd2dea69d0f4f6e40e7101abb458f79a61e89e47fbda01194296ad8d69e2c2b0c93e84411464413dd49775073e070d51e592167cac3d9a73c7ad0c1e42c"
+RPM_NAME = "kiwi-systemdeps-image-validation-9.24.61-1.1.aarch64.rpm"
+RPM_HASH = "656c918de0be7660ef2a21a5b7773328d3d7cc095b5c03729de9e658a30681b86ce2e25457c7746079a4034d0c85ed8f62348e55ac757f702547f6312bdcd105"
 
 RPROVIDES:${PN} += "kiwi-systemdeps-image-validation kiwi-systemdeps-image-validation(aarch-64)"
 RDEPENDS:${PN} += "python3-solv"

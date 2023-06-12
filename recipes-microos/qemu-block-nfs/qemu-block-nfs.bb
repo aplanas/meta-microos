@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a module for directly accessing nfs based i
 for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "7.1.0"
+PV = "8.0.2"
 
-RPM_NAME = "qemu-block-nfs-7.1.0-16.1.aarch64.rpm"
-RPM_HASH = "cf10668deff41b29bf970f0e7aa4e32c8f6bc237ea00a847be8e849976a2328e375d76383d3b24a538ef88f4258709ed47f8694ff4bfc65d6d5eed6d682cbaba"
+RPM_NAME = "qemu-block-nfs-8.0.2-1.1.aarch64.rpm"
+RPM_HASH = "15ef2c1ca5935dea878f66989c60685709b7330ed9a5ac503e5745f56edf727d1ed0a524e953c14d71977b321381c86865b21a30019be730d2a9944dc107cc39"
 
 RPROVIDES:${PN} += "qemu-block-nfs qemu-block-nfs(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libnfs.so.14()(64bit)"

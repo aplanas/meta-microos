@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn32405"
 
-RPM_NAME = "texlive-pmxchords-bin-2023.20230311.svn32405-89.1.aarch64.rpm"
-RPM_HASH = "6777a9d8e02d9370bf4a3e2c4a89ce298b3f458b3a9cd7daa43f54f23f1d050a49e673e1699fd8a05f7283183372a72a21138bf5cc71855b69958cc91f5d40f4"
+RPM_NAME = "texlive-pmxchords-bin-2023.20230311.svn32405-91.1.aarch64.rpm"
+RPM_HASH = "cfeef7b5b8e152c697a78d0dcaec9f6975c59239d40791a5b294884c2175c78503c7e88f0d03e1d7b2f52cb1664733100095ceeba866fad879805d0986adf079"
 
 RPROVIDES:${PN} += "texlive-pmxchords-bin texlive-pmxchords-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-pmxchords"

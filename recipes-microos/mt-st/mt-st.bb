@@ -7,12 +7,12 @@ initializing of SCSI tape drive modes at system startup, or when \
 new tape drivers are added."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4"
+PV = "1.7"
 
-RPM_NAME = "mt-st-1.4-1.9.aarch64.rpm"
-RPM_HASH = "cb85d17828788e6b7ea2babe3016d8e0ef719a42aa9f6b5d0a9d16c951277c9d978dea0a34c7a3785e00f9e2329a96fad9ca03037b9e16573c563ea886598308"
+RPM_NAME = "mt-st-1.7-1.1.aarch64.rpm"
+RPM_HASH = "1bf5dca03b9ac3beb64dc0cddf230342c046cc029ffe505acb34ca21fba9a418b22d08fb1d9a9483ef0a9fdf52138a45827919f4ac91a60d41c9cae77e982125"
 
 RPROVIDES:${PN} += "config(mt-st) mt mt-st mt-st(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) udev update-alternatives"
+RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) update-alternatives"
 
 inherit rpm

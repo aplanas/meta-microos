@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.8"
 
-RPM_NAME = "zisofs-tools-1.0.8-26.8.aarch64.rpm"
-RPM_HASH = "8ac3ad43943f797b7cdf4cde97f3fe496249bd4b04134f68187ec9cc04add6b7317ad3b434661899bcea4046ad29e9f24d918ad9a2b2078a3bec7036c2f40e78"
+RPM_NAME = "zisofs-tools-1.0.8-27.1.aarch64.rpm"
+RPM_HASH = "086f84de13a1d15de37e30e73a43e2655c463297caddca4164b55b69ba79674341eaef7b0d193a24cec2a1e03578675da0a5afacc392abfdfad66e700fa93bc5"
 
 RPROVIDES:${PN} += "zisofs-tools zisofs-tools(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libz.so.1()(64bit) mkisofs"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides upstream defaults for settings stored with 
 GSettings and applications used by the MIME system."
 LICENSE = "GPL-2.0-or-later & MIT"
 
-PV = "5.6.2"
+PV = "5.8.0"
 
-RPM_NAME = "libcinnamon-desktop-data-branding-upstream-5.6.2-1.1.noarch.rpm"
-RPM_HASH = "0541ad98cd67285edad6d9af36ba3635b579d2ce0d40215461a7cbbbebf333c8279a6bddb51dc05db11b359239806bcc9c1b9052013c72c4b9cd7bd1a3b4e988"
+RPM_NAME = "libcinnamon-desktop-data-branding-upstream-5.8.0-1.1.noarch.rpm"
+RPM_HASH = "c413fea4b25fff97509fa4d26f5c808a0e189ee3ce80411829f4b53a3bd1271049bba45f803f9e7c57779abbcfdeaa7883917c5b630f174fba039c7e4bf80653"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcinnamon-desktop-data-branding libcinnamon-desktop-data-branding-upstream"

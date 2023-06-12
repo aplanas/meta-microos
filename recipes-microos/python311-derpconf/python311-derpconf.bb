@@ -4,11 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.8.3"
 
-RPM_NAME = "python311-derpconf-0.8.3-1.16.noarch.rpm"
-RPM_HASH = "ff350537d249566275cb0a2c8d064e31535b169c506c0fc4295c86c540a7ad0a339c7464fc652e22723a111794515486d9ab46f4689343679b1994b6d40df8b7"
+RPM_NAME = "python311-derpconf-0.8.3-2.1.noarch.rpm"
+RPM_HASH = "56f4240eea94eb0abc33735875314e9729ee24f6ad0ba0728a8d95e2d87e1defe91970f4861aae73f2edbfea2f26763612d06dc89932e48f6893092a8cb184eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(derpconf) python311-derpconf python3dist(derpconf)"
-RDEPENDS:${PN} += "python(abi) python311-six"
+RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

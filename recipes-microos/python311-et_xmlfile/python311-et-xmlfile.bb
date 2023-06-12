@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python311-et_xmlfile-1.0.1-3.14.noarch.rpm"
-RPM_HASH = "67468d7d63992c57f4e49326a8dd9db655f7845d4b6365a2ee683f83b97bd6843139a7cb69f7c99e50a80271ee6f39e0f62706e8334bae3e70da83cd74346ff5"
+RPM_NAME = "python311-et_xmlfile-1.0.1-4.1.noarch.rpm"
+RPM_HASH = "904db5293c1425059a7e4268989f4d8c7c23ea1c711f40b2f474d1f7786cbf45cb1a219f8cef6adaebd9ef3eb93571dd99991fc09d0f595c967af47037f0b5df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(et-xmlfile) python311-et_xmlfile python3dist(et-xmlfile)"

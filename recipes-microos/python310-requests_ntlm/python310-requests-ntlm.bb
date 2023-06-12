@@ -7,8 +7,8 @@ LICENSE = "ISC"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-requests_ntlm-1.2.0-1.2.noarch.rpm"
-RPM_HASH = "69bcce268dde21502656511d5fe24de5341841a5cfad3520a9d38f433b859e7655edc9c6deca2d7c784b05f3f88b253910b80248dc516f75e95c724f5639bc3f"
+RPM_NAME = "python310-requests_ntlm-1.2.0-2.1.noarch.rpm"
+RPM_HASH = "688e5b0b57457d37d41210c5f7e7f675d3362df7beb2079c2a24da6687d0d6e6a67ac7c7a921e48550ac4113137a47f778cfbe6898d8a53ed525dce02ed0faa3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-requests_ntlm python3.10dist(requests-ntlm) python310-requests_ntlm python3dist(requests-ntlm)"

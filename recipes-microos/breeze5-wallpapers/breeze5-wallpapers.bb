@@ -3,10 +3,10 @@ DESCRIPTION = "Artwork, styles and assets for the Breeze visual style for the Pl
 This package provides Breeze wallpaper theme."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.4"
+PV = "5.27.5"
 
-RPM_NAME = "breeze5-wallpapers-5.27.4-2.1.noarch.rpm"
-RPM_HASH = "a76727c75090657b195d3b0f966b13a8367c8ff65a73c2cc38bfd7200737e0eb9b7ac5cba6d6523bb67fdd4c2491ad3673171a2e5c90fc88651d247bd1a38580"
+RPM_NAME = "breeze5-wallpapers-5.27.5-1.1.noarch.rpm"
+RPM_HASH = "22f3d2eeeecee9ee4d459b94f032283d3876ec2370b8b417e0340fc6ecd1f55e835bc19da46ea9dcf9671f90e3aa6c8956f97d7f3aa983e8f93aca289208473d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "breeze5-wallpapers"

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn55132"
 
-RPM_NAME = "texlive-tikztosvg-bin-2023.20230311.svn55132-89.1.aarch64.rpm"
-RPM_HASH = "ff772d95383f5ef54db6aa24994efaa8cbad778873b952d645bcdb606b928ebf6dda6a0a13f4cf1e2213e69b90f506ab427ba84b82c7ce5f27069b3b24a15c6c"
+RPM_NAME = "texlive-tikztosvg-bin-2023.20230311.svn55132-91.1.aarch64.rpm"
+RPM_HASH = "8cf8a80b9f6bb5a37f6e3d0bbf654638db00ed1470fca590133c1e46b29366455fb11378d2100ecf4a2579103db133f7361d3d8e4ef26cc9f57fac7a3ffc32a9"
 
 RPROVIDES:${PN} += "texlive-tikztosvg-bin texlive-tikztosvg-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-tikztosvg"

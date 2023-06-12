@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.1"
 
-RPM_NAME = "cni-plugin-flannel-1.0.1-1.8.aarch64.rpm"
-RPM_HASH = "f7baa327ef47483aa9b101b3d85dd4dff14304826393eeb418be3eedf1cfdfa76b42fb6b9cd122257a44c72f3a05c2e6c487659f7f7a826f2fbcd7e7cf2e5e1b"
+RPM_NAME = "cni-plugin-flannel-1.0.1-1.9.aarch64.rpm"
+RPM_HASH = "ca4de3bfc554d733dfd2748ead66bfcf9f211303c52825c9c157e60984690c22dc4e4489e300159c81b477ca318722509a83a815402a355b20d350662e2daf24"
 
 RPROVIDES:${PN} += "cni-plugin-flannel cni-plugin-flannel(aarch-64)"
 RDEPENDS:${PN} += "flannel libc.so.6(GLIBC_2.34)(64bit)"

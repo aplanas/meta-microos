@@ -6,8 +6,8 @@ LICENSE = "ISC"
 
 PV = "2.1.4"
 
-RPM_NAME = "dnscrypt-proxy-2.1.4-1.3.aarch64.rpm"
-RPM_HASH = "4cfae829ca83b10e6e87c05ae01f44c20ffdf7c794ef95210efc011eb128b86ff1fce7e25de96ce43536ec9b072aa2e5052485380a5c39f429ab57a6ed1c44af"
+RPM_NAME = "dnscrypt-proxy-2.1.4-1.4.aarch64.rpm"
+RPM_HASH = "7f66c23085bc9e3e159c125d7bb465f95bbb14b552fc42d538a6ef356e672f789db4390ab975c4233c9f589e344a891741d242a0582085a3b2e130dc0ef3b1d4"
 
 RPROVIDES:${PN} += "config(dnscrypt-proxy) dnscrypt dnscrypt-proxy dnscrypt-proxy(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 bash libc.so.6(GLIBC_2.34)(64bit) shadow systemd"

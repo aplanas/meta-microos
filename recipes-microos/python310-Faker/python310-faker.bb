@@ -4,10 +4,10 @@ database bootstrapping, creating XML documents, persistence stress \
 testing, and data anonymization from production services."
 LICENSE = "MIT"
 
-PV = "18.6.0"
+PV = "18.9.0"
 
-RPM_NAME = "python310-Faker-18.6.0-1.1.noarch.rpm"
-RPM_HASH = "af105b397609d8466c5398e59de3dcd4a45d38fccee308fd2dd5cee5eb9ec0aa181ded8cf502d0fae8bd91bfeb65c7af16fcf684bebfa72b8be440dbdc815fc7"
+RPM_NAME = "python310-Faker-18.9.0-1.1.noarch.rpm"
+RPM_HASH = "06e659c2ae03f047b68e8184c11fd03ac20e5bd444d048de8e6f60740f0566450fa329e9b3346a09a7bd0c785aa477645bd716bfe7f0a0cb04467cdaa099dcf0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Faker python3-fake-factory python3.10dist(faker) python310-Faker python3dist(faker)"

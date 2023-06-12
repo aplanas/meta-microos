@@ -2,10 +2,10 @@ SUMMARY = "Gaelic localization files for LibreOffice"
 DESCRIPTION = "Provides Gaelic translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-gd-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "5717917e68a9acd521461e73fc53f2584242509dd8722926f77da078de895ad730cc3d2456cfa39ca1a3b3c2c7669f8cc041aeaea4b610e552bc6da56057ef6e"
+RPM_NAME = "libreoffice-l10n-gd-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "a4095aa5aa006a0e23cb1502ff02ded4694b868a63a37d749f85abd64a7dca85f7872346907f481c5b11a12b4549bb0146f498db2c166cf9e75cb1895482d7f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-gd libreoffice-l10n-gd locale(libreoffice:gd)"

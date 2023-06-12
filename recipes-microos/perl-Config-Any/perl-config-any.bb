@@ -12,12 +12,12 @@ configuration loader allows different users to make different choices, \
 without generating extra work for the developers. As a developer you only \
 need to learn a single interface to be able to use the power of different \
 configuration formats."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.32"
+PV = "0.33"
 
-RPM_NAME = "perl-Config-Any-0.32-1.23.noarch.rpm"
-RPM_HASH = "6dd9baeadb0a236cf408e362972d82036f6a26ab69f3f00a25d7026dbf2a342c4ef6e730303600adf582893ccb7ace9215902ecefcb66e746ac4176cc88b5764"
+RPM_NAME = "perl-Config-Any-0.33-1.1.noarch.rpm"
+RPM_HASH = "fe5a9fca38ec6e0cecae8987bb41d9fac8d9fa812f4873cebb54809b033710903d00986fb50c1aa68e2570a0e7224c118fa53cca8ec95330a405a96f47f12f50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Config::Any) perl(Config::Any::Base) perl(Config::Any::General) perl(Config::Any::INI) perl(Config::Any::JSON) perl(Config::Any::Perl) perl(Config::Any::XML) perl(Config::Any::YAML) perl-Config-Any"

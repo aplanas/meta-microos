@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6ShaderTools that d
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-shadertools-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "799cd8798f4ddd71f498ee506f6c5c07abc0865f219805bf9ce5d6ba1ed3143fbf80d2e4ffcb862451ab6936986f017b3879511ec2975c06d2590e6b99885222"
+RPM_NAME = "qt6-shadertools-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "e98409f6b1caf8e3fb0390310507c27297f11b277aa6df33f0c1b2955db6d277b69347adc48da512e9a03998fa537366f2ab4b6dc8294e8510c9556018c6fc5a"
 
 RPROVIDES:${PN} += "qt6-shadertools-private-devel qt6-shadertools-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6ShaderTools) qt6-core-private-devel"

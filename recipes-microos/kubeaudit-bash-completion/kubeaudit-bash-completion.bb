@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.22.0"
 
-RPM_NAME = "kubeaudit-bash-completion-0.22.0-1.1.noarch.rpm"
-RPM_HASH = "8ecf58162dabbdf28312d617c4d73306f5e5c6cdc1e148e0303dd63985d63b8ffd6977abf902ab0146aaf144f04c3b826ea751edc3b41a28749a666685cefce9"
+RPM_NAME = "kubeaudit-bash-completion-0.22.0-1.2.noarch.rpm"
+RPM_HASH = "4025e2c8f5f7ed8fc6866ea4a10284f70ba769d6d86444fe9190836ad624e2dbbe5d3419a93d17f810dd43a9703535051e66bc736a7a21e7a3d1834202fc0a8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubeaudit-bash-completion"

@@ -6,10 +6,10 @@ Warning: the zlib and lzo libraries are statically linked in and may lack \
 important updates"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.1.3"
+PV = "6.3"
 
-RPM_NAME = "btrfsprogs-static-6.1.3-5.1.aarch64.rpm"
-RPM_HASH = "169426e8fa1e0b69591f89e21414e2534c4c167b9ad9ff796917625f28a2a8acabfe11c823f40d234800faa7d2d817775c9889320d5fcaa23ece60348cdd12c9"
+RPM_NAME = "btrfsprogs-static-6.3-1.1.aarch64.rpm"
+RPM_HASH = "33e936e11c3614f8d490e7d2944c953a7e977afc44a61839d7ed05b2e2c6f936d838bc36c25a0c644779b314899d4f5f498def96dd43547804518a1dac3c35c3"
 
 RPROVIDES:${PN} += "btrfs-progs-static btrfs-progs-static(aarch64) btrfsprogs-static btrfsprogs-static(aarch-64)"
 RDEPENDS:${PN} += ""

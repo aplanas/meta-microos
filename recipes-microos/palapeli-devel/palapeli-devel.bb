@@ -2,10 +2,10 @@ SUMMARY = "Development package for Palapeli"
 DESCRIPTION = "This package contains the development files for Palapeli."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.0"
+PV = "23.04.1"
 
-RPM_NAME = "palapeli-devel-23.04.0-1.1.aarch64.rpm"
-RPM_HASH = "e7fcd9fbd77d3e6c6852f12e58e4a41914c3da3e739e7c22ec657f5ff2820cdec611b56b96471995892d16e3fe7425f9596773640c471b553df7e28df7297490"
+RPM_NAME = "palapeli-devel-23.04.1-1.1.aarch64.rpm"
+RPM_HASH = "744baaa4e0420781b0188ca09bc7a157b1d3310d7d98110cf7bd570815c2b3b9e102a24fdad8b53d41510c8e311c3f3479295e8f3839f389f1d9b2b095374f96"
 
 RPROVIDES:${PN} += "cmake(Pala) palapeli-devel palapeli-devel(aarch-64)"
 RDEPENDS:${PN} += "palapeli"

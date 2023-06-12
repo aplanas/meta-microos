@@ -11,10 +11,10 @@ HTML documentation for PostgreSQL can be found in the postgresql-docs \
 package."
 LICENSE = "PostgreSQL"
 
-PV = "12.14"
+PV = "12.15"
 
-RPM_NAME = "postgresql12-12.14-2.1.aarch64.rpm"
-RPM_HASH = "8639b981ead433fdf2fd72a612a554a032e6e0cb1834649a097c4d1ba1904e313a454b74e3ec4eedc53fc9a939c58df0455e050a9961e7c7d63d48fe7726b74a"
+RPM_NAME = "postgresql12-12.15-1.2.aarch64.rpm"
+RPM_HASH = "532f472f0e2f3aecb848be7fd67c81ea5acf5323f427e074e4148ef3fec0e81c12e9a4f5cb8776611d117e24b0f470126a36a40297375ffcf53343d6d3810cb8"
 
 RPROVIDES:${PN} += "postgresql postgresql-implementation postgresql12 postgresql12(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libpq.so.5()(64bit) libpq5 libreadline.so.8()(64bit) libz.so.1()(64bit) postgresql-noarch"

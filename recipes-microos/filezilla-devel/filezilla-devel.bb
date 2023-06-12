@@ -2,10 +2,10 @@ SUMMARY = "Development files for filezilla"
 DESCRIPTION = "This are development files for filezilla."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.63.2.1"
+PV = "3.64.0"
 
-RPM_NAME = "filezilla-devel-3.63.2.1-2.2.aarch64.rpm"
-RPM_HASH = "1c34f789141ca4a5a731c4992ff86b62909da37b26a2911108a1c45039e7f2c998d30fa8257aca52541b4065558c1beb8c435b345885258aaa405c7d753735eb"
+RPM_NAME = "filezilla-devel-3.64.0-1.1.aarch64.rpm"
+RPM_HASH = "c370867f0477b95da1a445333dfd3864bc89a653d1420ea7c90f6ce7ad0e6bbdd249737b9c06df78d77e7537ae57bc238e454c99886157170834202e4538b5ee"
 
 RPROVIDES:${PN} += "filezilla-devel filezilla-devel(aarch-64)"
 RDEPENDS:${PN} += "filezilla"

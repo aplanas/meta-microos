@@ -23,10 +23,10 @@ You can check out all current parse and load results from the \
 yaml-test-suite here: https://perlpunk.github.io/YAML-PP-p5/test-suite.html"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.035"
+PV = "0.036"
 
-RPM_NAME = "perl-YAML-PP-0.035-1.2.noarch.rpm"
-RPM_HASH = "1805bab3603168cd0d8f8170b781f23502f4f15b519cd62062550c2fe6b48c517781118ebe82cde76bc4a9fc5e7e7767962eba460e6534845a80272e4e8816d0"
+RPM_NAME = "perl-YAML-PP-0.036-1.1.noarch.rpm"
+RPM_HASH = "86e08a9d6a45bc338f8203298ee0eb9043465c47f90ce949be689661c156f655bb8811bcd7c2240e8e50f6ea11644b3d2af087504e8239adb8b8b4bce0433363"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(YAML::PP) perl(YAML::PP::Common) perl(YAML::PP::Constructor) perl(YAML::PP::Dumper) perl(YAML::PP::Emitter) perl(YAML::PP::Exception) perl(YAML::PP::Grammar) perl(YAML::PP::Highlight) perl(YAML::PP::Lexer) perl(YAML::PP::Loader) perl(YAML::PP::Parser) perl(YAML::PP::Perl) perl(YAML::PP::Preserve::Array) perl(YAML::PP::Preserve::Hash) perl(YAML::PP::Preserve::Scalar) perl(YAML::PP::Reader) perl(YAML::PP::Reader::File) perl(YAML::PP::Render) perl(YAML::PP::Representer) perl(YAML::PP::Schema) perl(YAML::PP::Schema::Binary) perl(YAML::PP::Schema::Core) perl(YAML::PP::Schema::Failsafe) perl(YAML::PP::Schema::Include) perl(YAML::PP::Schema::JSON) perl(YAML::PP::Schema::Merge) perl(YAML::PP::Schema::Perl) perl(YAML::PP::Schema::Tie::IxHash) perl(YAML::PP::Schema::YAML1_1) perl(YAML::PP::Type::MergeKey) perl(YAML::PP::Writer) perl(YAML::PP::Writer::File) perl-YAML-PP"

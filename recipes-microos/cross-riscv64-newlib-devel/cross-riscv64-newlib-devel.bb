@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & MIT & LGPL-2.0-or-later & ISC"
 
 PV = "4.3.0.20230120"
 
-RPM_NAME = "cross-riscv64-newlib-devel-4.3.0.20230120-1.3.aarch64.rpm"
-RPM_HASH = "5dff7ff8f47ff11d2f50bb21de0f30a9f9dab1ffddddc9926c0229ccf110cbf0f3017364d9e5edba1fcd2ce524ac5aeeb33e49f94ab13d7f2044fa55521edde1"
+RPM_NAME = "cross-riscv64-newlib-devel-4.3.0.20230120-2.1.aarch64.rpm"
+RPM_HASH = "21cb6235823a8ac7c80c77afc084faecba4e1a2e84a8ffc25fd1384cd767e99806d837a1c5a250bfa07a3b8e6011079af5589eada7035695ba19d6e8b6a3eec9"
 
 RPROVIDES:${PN} += "cross-riscv64-newlib-devel cross-riscv64-newlib-devel(aarch-64)"
 RDEPENDS:${PN} += ""

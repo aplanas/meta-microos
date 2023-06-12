@@ -7,10 +7,10 @@ keyd attempts to solve this problem by providing a flexible system wide daemon \
 which remaps keys using kernel level input primitives (evdev, uinput)."
 LICENSE = "MIT"
 
-PV = "2.4.2"
+PV = "2.4.3"
 
-RPM_NAME = "keyd-2.4.2-2.1.aarch64.rpm"
-RPM_HASH = "5c911892619f23db5b061f61c5521af9b05f33bb2f25ba04c67f2645fb2a6b6b024bf628e6199e247b12af37f7cfde8153923136574e647b8b98098cba9f1aa9"
+RPM_NAME = "keyd-2.4.3-1.1.aarch64.rpm"
+RPM_HASH = "a642503c9b5113993468fb013eae09f14e5eca5d018cbc32c1452f9fa48aabcb6611fc92628929fa174a807ef3dcc84945d24592e10f87afefeaa91194606943"
 
 RPROVIDES:${PN} += "keyd keyd(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 libc.so.6(GLIBC_2.34)(64bit) python3-xlib sed shadow"

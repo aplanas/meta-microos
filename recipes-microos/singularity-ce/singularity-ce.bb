@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause-LBNL"
 
 PV = "3.10.2"
 
-RPM_NAME = "singularity-ce-3.10.2-2.3.aarch64.rpm"
-RPM_HASH = "f0e9702f3ce8d0832d23de5feb9f8496e39f2ec1cbb1d643a233cc525671d47ef7c3eaca826e1f1d0a1ac20f5bc423d99220bfc8da82e48345c7e270bbf1084c"
+RPM_NAME = "singularity-ce-3.10.2-2.4.aarch64.rpm"
+RPM_HASH = "6a8802154c0582401548179136609bca8673814a2f06c945861483e168f4a5c149ecf80ff8ea94111027d415e85f869fa8e418a38cb3e306e73b9262be0711f8"
 
 RPROVIDES:${PN} += "config(singularity-ce) group(singularity) singularity singularity-ce singularity-ce(aarch-64) singularity-ce-runtime"
 RDEPENDS:${PN} += "/bin/sh cryptsetup ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libglib-2.0.so.0()(64bit) libseccomp.so.2()(64bit) permissions runc squashfs"

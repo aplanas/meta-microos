@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.17.2"
 
-RPM_NAME = "istioctl-bash-completion-1.17.2-2.1.noarch.rpm"
-RPM_HASH = "2e1541273b82fbf31af2c590cfea2a8cfa8988fc2c1812aa657aff93aa495f18f270c8f35220222b9a80d77334dde5a0c0ecfbdba8fa349516a0500d5f3cbd21"
+RPM_NAME = "istioctl-bash-completion-1.17.2-2.2.noarch.rpm"
+RPM_HASH = "ec7a51009824afefd1567d4ed9a62f3de584b1d1f518826686b37fdd436aed89665b28c5a3b78e78ba07798c987e42541d1ba432f8fee519f6bc7eceb6193f9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istioctl-bash-completion"

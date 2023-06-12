@@ -12,15 +12,15 @@ Uniqueness is checked with the 'eq' operator so among other things it is \
 case sensitive. \
  \
 As a side effect the module does not allow undef as a value in the array."
-LICENSE = "GPL-2.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.08"
+PV = "0.09"
 
-RPM_NAME = "perl-Array-Unique-0.08-7.24.noarch.rpm"
-RPM_HASH = "ee7cccf049af28bebfccd7e79a65876cd0d67f2b733fe89df523b848cae335ade2f6387e7e061810b8bae98064e88ba6ac90329c3bb232c0b76a354e7348a717"
+RPM_NAME = "perl-Array-Unique-0.09-1.1.noarch.rpm"
+RPM_HASH = "77ea4c02791eb90a0899e9bd2d27ff2f6cabaa3b0e3f77bf0d8eee7d1edc3c5c860c1c586652a90823893f57b8c81c48e5c9d31107989a8bc16840c51fcf24cc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Array::Unique) perl-Array-Unique"
+RPROVIDES:${PN} += "perl(Array::Unique) perl(Array::Unique::Hash) perl(Array::Unique::IxHash) perl(Array::Unique::Quick) perl(Array::Unique::Std) perl-Array-Unique"
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

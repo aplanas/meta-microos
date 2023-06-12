@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.2+git.1559732444.7c75531"
 
-RPM_NAME = "git-deps-1.0.2+git.1559732444.7c75531-4.3.noarch.rpm"
-RPM_HASH = "930ef4ab640deccad3628d18e2c2b69e6c09f9dbe495bd809015c24ee52223720de139c52b1644a87fe27471e33267d3e42f38925fe73f8b80cd50c109f43430"
+RPM_NAME = "git-deps-1.0.2+git.1559732444.7c75531-4.4.noarch.rpm"
+RPM_HASH = "4c4dc9417f889de0680b4bf8fe30094d619acd204f4e6402bf1b078fe9bd53df68fb97a0a85cc55f1509de289741b95003f0571ebc61e8345c5042ed64d3161b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-deps python3.10dist(git-deps) python3dist(git-deps)"

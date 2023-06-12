@@ -13,10 +13,10 @@ Authors: \
     Ian Pratt <ian.pratt@cl.cam.ac.uk>"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.17.1_02"
+PV = "4.17.1_04"
 
-RPM_NAME = "xen-tools-domU-4.17.1_02-1.1.aarch64.rpm"
-RPM_HASH = "86195227aa3670005330a90cb0ba471e8574e9be6ca0904f4379f7a7c20e5e35fb2ab33041d2527756d9a6fb2d0d862255b2a29d05bea86ffb3dc4f173829ae0"
+RPM_NAME = "xen-tools-domU-4.17.1_04-1.1.aarch64.rpm"
+RPM_HASH = "aa2dd9207a26defceb33fe161433e6fc2ae41405b0f278d526995ef02ccc0c181e5ba526f2dc290b82241e00fe5de1e8cf004524b8dfcadeaa0d5caba8cad768"
 
 RPROVIDES:${PN} += "config(xen-tools-domU) xen-tools-domU xen-tools-domU(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash /bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libxenctrl.so.4.17()(64bit) libxenctrl.so.4.17(VERS_4.17.0)(64bit) libxenguest.so.4.17()(64bit) libxenguest.so.4.17(VERS_4.17.0)(64bit) libxenstore.so.4()(64bit) libxenstore.so.4(VERS_4.0)(64bit) xen-libs"

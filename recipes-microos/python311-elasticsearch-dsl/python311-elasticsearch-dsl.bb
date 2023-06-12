@@ -2,10 +2,10 @@ SUMMARY = "Python client for Elasticsearch"
 DESCRIPTION = "Python client for Elasticsearch."
 LICENSE = "Apache-2.0"
 
-PV = "7.4.0"
+PV = "7.4.1"
 
-RPM_NAME = "python311-elasticsearch-dsl-7.4.0-2.3.noarch.rpm"
-RPM_HASH = "708e388821f8fd13cc3b7dcb8fd1b96bff06a0c4c2275ba8d1bae07e031348b7253fb6e9fb49adf0290b6efce3bb4e9cf7a645606f542036c485e93e926f716a"
+RPM_NAME = "python311-elasticsearch-dsl-7.4.1-1.1.noarch.rpm"
+RPM_HASH = "c639c596efe4afdb77035e4c3cd9d62f6fad695c3be403a84775f4296291ba79c8b0a5ad0465f0a361bdb29bab88164319d8bbf5f3f788ebd52e5c08094c476a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(elasticsearch-dsl) python311-elasticsearch-dsl python3dist(elasticsearch-dsl)"

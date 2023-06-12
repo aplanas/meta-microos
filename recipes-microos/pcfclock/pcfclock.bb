@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.44"
 
-RPM_NAME = "pcfclock-0.44-269.23.aarch64.rpm"
-RPM_HASH = "109dc9bdff538f505005535c4ccbab1aed7165641ed8364702112b96138eb6274c31d5705bfe9948866cd6c888445b11d2b1b32983a80bb307c11429d4275465"
+RPM_NAME = "pcfclock-0.44-269.26.aarch64.rpm"
+RPM_HASH = "03fd91bb5b7bffe2fb618fc1a5b042f7f913071a06163f5d441283a2c641de8489eba17a161ad44fda7f0ae80a6dcd4fb612c5994c7b1e4d11bb952c5f547af9"
 
 RPROVIDES:${PN} += "pcfclock pcfclock(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) pcfclock-kmp systemd"

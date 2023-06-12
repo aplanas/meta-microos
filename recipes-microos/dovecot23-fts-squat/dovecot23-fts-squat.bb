@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & MIT"
 
 PV = "2.3.20"
 
-RPM_NAME = "dovecot23-fts-squat-2.3.20-3.1.aarch64.rpm"
-RPM_HASH = "3a644881803d0d98a94b7bdcbe4e4cb56541e79f48cf2acb61f1727662ad0b9574d4a9a1e37aede7fb51a10275d0e4f3c1382da6d78ed70bb7ba8143210b7e61"
+RPM_NAME = "dovecot23-fts-squat-2.3.20-3.2.aarch64.rpm"
+RPM_HASH = "23184393644f85d3f60eb74ddb9975672941883ac9fc54ac721f75a86b248ea72dccaa4780e158276d426cdef1c4a6797ecdfecbb9c53f1e5ee174a5bb0e2395"
 
 RPROVIDES:${PN} += "dovecot23-fts-squat dovecot23-fts-squat(aarch-64) lib21_fts_squat_plugin.so()(64bit)"
 RDEPENDS:${PN} += "dovecot23 dovecot23-fts ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) lib20_fts_plugin.so()(64bit) libc.so.6(GLIBC_2.33)(64bit)"

@@ -8,8 +8,8 @@ LICENSE = "FTL & GPL-2.0-only"
 
 PV = "2.13.0"
 
-RPM_NAME = "freetype2-devel-2.13.0-3.1.aarch64.rpm"
-RPM_HASH = "0b68033f682bb0515a648798b39a85d183f0c2088c6f4d88eb8ef48abb9a4aa504f19a927ed026f2d6c337db908cff763d1678dd2cf63aa151798e9ae14b1e17"
+RPM_NAME = "freetype2-devel-2.13.0-4.1.aarch64.rpm"
+RPM_HASH = "1ac10fb8c044e8d0f707c46d255d5d9d965697dd6a1a5821aa8e5520c6c6a2a193e30d36c1f1f82d82d33287007bc631ab557b9f1980a93388bc9fa45cfbccbd"
 
 RPROVIDES:${PN} += "freetype-devel freetype2-devel freetype2-devel(aarch-64) libfreetype6-devel-static pkgconfig(freetype2)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config libfreetype6 pkgconfig(bzip2) pkgconfig(libbrotlidec) pkgconfig(zlib)"

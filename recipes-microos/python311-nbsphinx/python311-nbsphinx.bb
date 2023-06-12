@@ -7,13 +7,13 @@ stored output cells – will be automatically executed during the Sphinx \
 build process."
 LICENSE = "MIT"
 
-PV = "0.9.1"
+PV = "0.9.2"
 
-RPM_NAME = "python311-nbsphinx-0.9.1-1.2.noarch.rpm"
-RPM_HASH = "0545bf49953a3f06dc561a2b2c0022a09d95e2ba7ba80e31b3b91be80e11ba47adfd1311dea600abd0c6b63c6872e0c31811a3ecb493c5261ed4e9807d8f6c0a"
+RPM_NAME = "python311-nbsphinx-0.9.2-1.1.noarch.rpm"
+RPM_HASH = "7857516416a812cd3c939ef0a1d463204a3fb2a14aabff6bd98b3e36d1d07817b366a0e67101a937ba48b5ae6ef9b1fbd901f4267ab5d10ef88dc9f9e4a57255"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(nbsphinx) python311-jupyter_nbsphinx python311-nbsphinx python3dist(nbsphinx)"
-RDEPENDS:${PN} += "python(abi) python311-Jinja2 python311-Sphinx python311-docutils python311-nbconvert python311-nbformat python311-sphinx_rtd_theme python311-traitlets"
+RDEPENDS:${PN} += "python(abi) python311-Jinja2 python311-Sphinx python311-docutils python311-nbconvert python311-nbformat python311-traitlets"
 
 inherit rpm

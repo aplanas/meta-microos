@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "21.12"
 
-RPM_NAME = "python310-protobuf-21.12-3.1.aarch64.rpm"
-RPM_HASH = "161df5a958368e4c9df80d65e15c829ff235d4d955bf1f883fa6d7f756a23004fd8d80534417f10d63f0b49a9152d96096b93307643546a131dfc078582cf728"
+RPM_NAME = "python310-protobuf-21.12-3.2.aarch64.rpm"
+RPM_HASH = "9fe104212cca8ee956f0ad299e425b7d0248a3f0b3cb97dc7b4b21cfd27bf97757ac854611e2520016b82d7371e32f43248e7c55ca6caaeaa46c02a92da37831"
 
 RPROVIDES:${PN} += "python3-protobuf python3.10dist(protobuf) python310-protobuf python310-protobuf(aarch-64) python3dist(protobuf)"
 RDEPENDS:${PN} += "python(abi) python310-six"

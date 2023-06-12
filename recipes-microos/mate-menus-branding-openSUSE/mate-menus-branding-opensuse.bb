@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "42.1"
 
-RPM_NAME = "mate-menus-branding-openSUSE-42.1-5.3.noarch.rpm"
-RPM_HASH = "41257f48eee7c6f54dbc0ba3eff3eb0660bd6d62b9709f40900fff3a9ec9cb1ee1113b1cc678f4170179a61f6c79855c5d657b585d602c461094c9324c12006a"
+RPM_NAME = "mate-menus-branding-openSUSE-42.1-5.5.noarch.rpm"
+RPM_HASH = "7ab326a2cd31111db51d5e36b39398bc09272e6e209f81322946e8ebefba5ae63a95e85798cfb8db5ac20eea75cacafb708f45d0f1c19fcb8330c8bcd41cc384"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(mate-menus-branding-openSUSE) mate-menus-branding mate-menus-branding-openSUSE"

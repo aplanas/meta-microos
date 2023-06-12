@@ -3,10 +3,10 @@ DESCRIPTION = "sqlparse is a non-validating SQL parser module.  It provides supp
 parsing, splitting and formatting SQL statements."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.3"
+PV = "0.4.4"
 
-RPM_NAME = "python39-sqlparse-0.4.3-1.4.noarch.rpm"
-RPM_HASH = "8e3a98951400882fb50e559a7ec49b07ad28a5f05da19d5e7093b223a839730919a44dd236c2db046d6b930ca8716040f3ed187edd57b7a8762f72b438e5c669"
+RPM_NAME = "python39-sqlparse-0.4.4-1.1.noarch.rpm"
+RPM_HASH = "666a1b7f8ad16a8bf6fb2e78e68a871cd7e1a5b1468ee0664e2ae4fbb087475333d8ef42081e51e531bcdd91cccbb5ae317c3df38c9429801345e9bede7b92c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(sqlparse) python39-sqlparse python3dist(sqlparse)"

@@ -17,13 +17,13 @@ virtualenv environments (and optionally doesnt use the globally installed \
 libraries either)."
 LICENSE = "MIT"
 
-PV = "20.22.0"
+PV = "20.23.0"
 
-RPM_NAME = "python39-virtualenv-20.22.0-1.1.noarch.rpm"
-RPM_HASH = "a1ad8a102179536b7efc492f21d15270e120f5e41d4864eb77e2b6ad41cf5c3abe687c6ef30b41aa54cf4a46bb37af52a331adc87688d7af24f37c343a334ae5"
+RPM_NAME = "python39-virtualenv-20.23.0-1.1.noarch.rpm"
+RPM_HASH = "4a2979012957df3e986bef6d724eb8d8a6d5e93111b8a77376084f1eca7a25213bbe89e7b4fb9c73dcdee17595e204682fa6df21e177b65cbb56f2f69ab82d13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(virtualenv) python39-virtualenv python3dist(virtualenv)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-backports.entry_points_selectable python39-distlib python39-filelock python39-platformdirs python39-setuptools update-alternatives"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-distlib python39-filelock python39-platformdirs update-alternatives"
 
 inherit rpm

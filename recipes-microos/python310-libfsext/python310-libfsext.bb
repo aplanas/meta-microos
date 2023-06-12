@@ -18,12 +18,12 @@ Unsupported ext format features: \
 * encryption"
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20220829"
+PV = "20230603"
 
-RPM_NAME = "python310-libfsext-20220829-3.9.aarch64.rpm"
-RPM_HASH = "f5851b120f72f0dce2279a4b0d36702108a7b562e5842dd72a6d5eb4a01c1ed5779b351ab6d25d97ca3b668f47d28dd1905f478ce1894d5bec8d541a8a03c60f"
+RPM_NAME = "python310-libfsext-20230603-1.1.aarch64.rpm"
+RPM_HASH = "c2e56d35b8f7e2d458bc4840deeee293943fd2ca4c6ec581874b21887790d7d75e79d5351c8fdb748cb60dac327894c0590d8f6a0433d2f6797682c46e457d58"
 
 RPROVIDES:${PN} += "python3-libfsext python310-libfsext python310-libfsext(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbfio.so.1()(64bit) libbfio.so.1(V_20221025)(64bit) libc.so.6(GLIBC_2.17)(64bit) libcerror.so.1()(64bit) libcerror.so.1(V_20220101)(64bit) libfsext.so.1()(64bit) libfsext.so.1(V_20220829)(64bit) python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbfio.so.1()(64bit) libbfio.so.1(V_20221025)(64bit) libc.so.6(GLIBC_2.17)(64bit) libcerror.so.1()(64bit) libcerror.so.1(V_20220101)(64bit) libfsext.so.1()(64bit) libfsext.so.1(V_20230603)(64bit) python(abi)"
 
 inherit rpm

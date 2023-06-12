@@ -3,10 +3,10 @@ DESCRIPTION = "TeX Live scheme nearly equivalent to the teTeX distribution \
 that was maintained by Thomas Esser."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59715"
+PV = "2023.208.svn59715"
 
-RPM_NAME = "texlive-scheme-tetex-2023.201.svn59715-56.1.noarch.rpm"
-RPM_HASH = "59b507a438515076084ec3730dd9dcc30b0ad8b0eaf5446916d054d3e8e4635232a5ba5b675345879e939b80e30f7a41d53ac21e9165ac99a0be8f62c7b1d666"
+RPM_NAME = "texlive-scheme-tetex-2023.208.svn59715-58.1.noarch.rpm"
+RPM_HASH = "88ba916fe8126829c5cc7ec1798d67814d02848a208f9dddf42fd426325a4f63b2ec3356c90090124d8580e05be80a32190d9a857b5fde4e7a962d7d804dcce4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tetex) texlive-scheme-tetex"

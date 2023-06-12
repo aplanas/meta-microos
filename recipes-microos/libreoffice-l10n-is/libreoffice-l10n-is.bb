@@ -2,10 +2,10 @@ SUMMARY = "Icelandic localization files for LibreOffice"
 DESCRIPTION = "Provides Icelandic translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-is-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "1eeee53347eee2e253859c530194f23121ecea8edcd8f94211c275a30c2a84336e7b9891b5a7ebf238d0b558b3fde47d91111719298848d42e349f8de1d8f027"
+RPM_NAME = "libreoffice-l10n-is-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "df8f0eb1f5eadfe5b1781568163e81b733737a0247247ad34f4fb6a37f1f745b3ed981fde59c1aa5fc2d5ddeb603edc129fd7660d9b4c37d32d97026e7a2ecf9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-is libreoffice-l10n-is locale(libreoffice:is)"

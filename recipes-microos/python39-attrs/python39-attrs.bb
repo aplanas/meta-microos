@@ -19,10 +19,10 @@ life! \
 python-attrs is the successor to python-characterstic"
 LICENSE = "MIT"
 
-PV = "22.2.0"
+PV = "23.1.0"
 
-RPM_NAME = "python39-attrs-22.2.0-2.1.noarch.rpm"
-RPM_HASH = "ea3e5f001811ffd11f85462ecbcfafe7b4b941ce8479ef90d6a0ca901ba536ea6fbadbfbb05a5bf519ec626343019919cc6174c118e638d884a533e46e3ee8ac"
+RPM_NAME = "python39-attrs-23.1.0-1.1.noarch.rpm"
+RPM_HASH = "7c138b44d5477229cc5d222325b8f336dddb85a8afa10176fc55bbd294ce9f9469a5ea4fdf5f7a10cb38b54d377153b2dae5629838642fb1cde7fa332d452a0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(attrs) python39-attrs python3dist(attrs)"

@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Serbian"
 DESCRIPTION = "This package provides translations of man pages in Serbian."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1"
+PV = "4.19.0"
 
-RPM_NAME = "man-pages-sr-4.18.1-1.1.noarch.rpm"
-RPM_HASH = "191dfcfc3fa68b02150bbd4a47ae688f7b3ad135872e24bf3dce225842d899b1e4dbf5c260b3804905919d549c1793a6aa4dc00eda79e3b240b779e2fb7f8889"
+RPM_NAME = "man-pages-sr-4.19.0-1.1.noarch.rpm"
+RPM_HASH = "d57f8c6c94b80ff433c8f499d073114a2d860b5230fb8d0023fe7a092404c3d4eb28200a4a448eb6f6423b54a555bdf08636448897021ae07c915b87b0c556c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(man-pages:sr) man-pages-sr"

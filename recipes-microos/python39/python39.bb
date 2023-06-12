@@ -15,8 +15,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.9.16"
 
-RPM_NAME = "python39-3.9.16-6.1.aarch64.rpm"
-RPM_HASH = "d5b21e7ade48e85ec8bfd2ae55722233e1efb3078071395d57c3ab0260075c426c05cd2c35a7d4d0ccfae1bf09496e38dec2d54630402bf101c5e03f2404d073"
+RPM_NAME = "python39-3.9.16-8.1.aarch64.rpm"
+RPM_HASH = "ac23f25b4c94e418e09958a67f8752d5ed140cf8f5bd8ddee2c6457850ab3f134143478f2907a442301a5ba52186adfc4a64103701a79b9a8190c13a297033f1"
 
 RPROVIDES:${PN} += "python39 python39(aarch-64) python39-readline python39-sqlite3"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libreadline.so.8()(64bit) libreadline.so.8(READLINE_7.0)(64bit) libsqlite3.so.0()(64bit) python(abi) python39-base"

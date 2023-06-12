@@ -5,13 +5,13 @@ is an extended subset of the JSON Schema Specification \
 Wright Draft 00."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.3.4"
+PV = "0.4.4"
 
-RPM_NAME = "python311-openapi-schema-validator-0.3.4-2.2.noarch.rpm"
-RPM_HASH = "2e50852360e9fd7f8d5558144a4269e1ca800e426066d727ef0741f74f5a9074f3e491cc463af14d91efcfc10d6362c4f1b39b799767d6012382acdf4feb5f66"
+RPM_NAME = "python311-openapi-schema-validator-0.4.4-1.1.noarch.rpm"
+RPM_HASH = "3dc0e44fae86b713ba4185a9639d923d8b97e14c49c04bf7d57bec8ae9dfe44e836e9dd62a6ef0e860f16f9201867b6c8ca9dbaccbcab55fa16dbe23076d1d1d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(openapi-schema-validator) python311-openapi-schema-validator python3dist(openapi-schema-validator)"
-RDEPENDS:${PN} += "python(abi) python311-isodate python311-jsonschema python311-setuptools python311-strict-rfc3339"
+RPROVIDES:${PN} += "python3.11dist(openapi-schema-validator) python311-openapi-schema-validator python311-openapi_schema_validator python3dist(openapi-schema-validator)"
+RDEPENDS:${PN} += "(python311-jsonschema >= 4 with python311-jsonschema < 4.18) python(abi) python311-rfc3339-validator"
 
 inherit rpm

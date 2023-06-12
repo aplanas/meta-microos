@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6SerialPort that do
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-serialport-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "4cb6a28b7d56cfe9848f28ce265da9934c69d2d66e82bbb79165432e852bb6ff17061983a424df7e9c32b7de9a4dbab7feeec46fc1864dd6cd9b06fe490f730e"
+RPM_NAME = "qt6-serialport-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "ea20c11f7e25dca77ff99d1bb262b127b0fa54a8a5a9d2d7b2282aa59617d8d521db3c8bd28b0ecfcf77a91ebc2d3258edb2788340ecff8af9c09f47a8b70315"
 
 RPROVIDES:${PN} += "qt6-serialport-private-devel qt6-serialport-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6SerialPort) qt6-core-private-devel"

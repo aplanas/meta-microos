@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides upstream defaults for settings stored with 
 GSettings and applications used by the MIME system."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.26.1"
 
-RPM_NAME = "mate-session-manager-branding-upstream-1.26.0-2.4.noarch.rpm"
-RPM_HASH = "394a4b7073b857379f69ccbdc6805b9bc20a8bc682a3fe51ad84be70e39422a361b9e582b910c4f4bce12017bc472f4fc5c2b03338cc2e8094d49c211c880137"
+RPM_NAME = "mate-session-manager-branding-upstream-1.26.1-1.1.noarch.rpm"
+RPM_HASH = "764df6153735f6835712137302d2518ee21792f87bcb0b46bfeacb0d58f31b93d508c79aa4869b5f2448e973d69d91aa3bb30f37515555bc2e8a37cf53a4721d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(mate-session-manager-branding-upstream) mate-session-manager-branding mate-session-manager-branding-upstream"

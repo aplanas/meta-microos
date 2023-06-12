@@ -4,10 +4,10 @@ them in the background with workers. It is backed by Redis. It can be \
 integrated into web stacks."
 LICENSE = "Apache-2.0"
 
-PV = "1.11.1"
+PV = "1.15"
 
-RPM_NAME = "python311-rq-1.11.1-2.4.noarch.rpm"
-RPM_HASH = "15d00e8e3a16ed0254992384cff338b76caebbc82ce066c71db175856bf90b46465ab91c4fcde2b4c5b00805cd8653c7b5e4acf25c17c236d3db40c2c01c5db1"
+RPM_NAME = "python311-rq-1.15-1.1.noarch.rpm"
+RPM_HASH = "e6f67fc42c5d6244b951477b4b38c47ae43adac8235162b5977ea86d36a8b1e656c8afed834ded414ffda2f2f33005eba99ca90bbe1ebcc171c8ac4902af705d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(rq) python311-rq python3dist(rq)"

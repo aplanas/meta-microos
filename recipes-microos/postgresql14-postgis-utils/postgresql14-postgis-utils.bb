@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.4"
 
-RPM_NAME = "postgresql14-postgis-utils-3.2.4-1.5.noarch.rpm"
-RPM_HASH = "d2a64fd1990c0fd8aadb3f6908b29e8be7dd3798006e29b9198db71a07706cbee03ee19a8cba983438f3a03539a87ccfd7aba0ccdcbbb6e8c618c0344def2d34"
+RPM_NAME = "postgresql14-postgis-utils-3.2.4-1.6.noarch.rpm"
+RPM_HASH = "dd79c8160abc3777655d9f55bfc8d9aec31b937e6cd512311286caaefdc550c5c2a6eba3493670581b166db53dc28462704cc2df3aed8e9a2a12ae8c5505bc23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgis-utils postgresql14-postgis-utils"

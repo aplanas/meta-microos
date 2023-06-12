@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Italian"
 DESCRIPTION = "This package provides translations of man pages in Italian."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1"
+PV = "4.19.0"
 
-RPM_NAME = "man-pages-it-4.18.1-1.1.noarch.rpm"
-RPM_HASH = "75d9530fbcb3a7996ae64edf05bdfe8628a7928cd612390ee435cd7748ae1ddbd18499f7fefd05b57d928bfe7b9b2877bc03268a5d154447951f9e313769e93f"
+RPM_NAME = "man-pages-it-4.19.0-1.1.noarch.rpm"
+RPM_HASH = "2673a4fd3e16595447349832d82b3cc6a3a6094e97fc03d817d4b8f8a04695e7efe1fed4be1434409e6717030b96802b9eb80c11066e688fbba09635f9ae9ab7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(man-pages:it) man-pages-it"

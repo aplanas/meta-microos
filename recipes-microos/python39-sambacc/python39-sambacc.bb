@@ -5,10 +5,10 @@ automate all of the low level steps of setting up smbd, users, groups, and other
 supporting components."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "v0.2+git.88.c81c65a"
+PV = "v0.2+git.108.e7850e0"
 
-RPM_NAME = "python39-sambacc-v0.2+git.88.c81c65a-1.1.noarch.rpm"
-RPM_HASH = "e4d3576f83d835aad4969b50e7867d039c2de3d0274f6d65e8d985c44ae85e6e8b12209c3ccd2341e7c9329752f4ebd7169579f8c2eb0618658d24bf25b94d2b"
+RPM_NAME = "python39-sambacc-v0.2+git.108.e7850e0-1.1.noarch.rpm"
+RPM_HASH = "d5f197859cba954fa9e889d570c035feba1e2500dc90025b60171abbf80f85953b5a10e9fd7369ac49c9813eb9cc4ad8f32efbf09e4af76f936922db3d58143d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-sambacc"

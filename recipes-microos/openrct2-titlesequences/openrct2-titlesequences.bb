@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.4.3"
 
-RPM_NAME = "openrct2-titlesequences-0.4.3-2.1.noarch.rpm"
-RPM_HASH = "3fb9810daccb17983800b029268db9f283d9b8ba3475b7ed68d4937b277696605fd26978577ba6102f34218e3327bbdb3c41db55913a6c60f9f0126f5ed91cd4"
+RPM_NAME = "openrct2-titlesequences-0.4.3-2.2.noarch.rpm"
+RPM_HASH = "af92fd9d626a4a30619d36755c5acec7041c170ccc19c97a6eed2a5ff8236336cc1deed1ec6350f2392e29c0c608593be3f4889c15abdd5a2c3178ae9b2e46a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openrct2-titlesequences"

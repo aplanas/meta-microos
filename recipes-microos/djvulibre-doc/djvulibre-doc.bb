@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5.28"
 
-RPM_NAME = "djvulibre-doc-3.5.28-4.6.noarch.rpm"
-RPM_HASH = "4f9d4cbaf4e1f9cf831108203b019475311fcc96cb064b36b0cf545852c5a6935ffb703be0a71b9995ab06c93a44e363519198de91e295baf3a4f43d08033e47"
+RPM_NAME = "djvulibre-doc-3.5.28-5.1.noarch.rpm"
+RPM_HASH = "755a641b1996da622080bad28c1dcc94ecb12b8935d91628a32454041f76deaa5f49b2fa571ea00091fa8d814220043632104881b5fda1ea3c1abbbabb2b504f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "djvulibre-doc"

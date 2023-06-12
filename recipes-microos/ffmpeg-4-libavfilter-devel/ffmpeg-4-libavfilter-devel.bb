@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "ffmpeg-4-libavfilter-devel-4.4.4-1.1.aarch64.rpm"
-RPM_HASH = "8cd8cb20bc8539a01d38c9a3ab327eeca01d230db558e24e4e7a3ac3921b159ef6a2e4c3c354d249fb2830fdac98ec2c1cb46af5a4c38e18a62b8e1daf754655"
+RPM_NAME = "ffmpeg-4-libavfilter-devel-4.4.4-1.2.aarch64.rpm"
+RPM_HASH = "05fc13b639d9b48a7b19c32b4f4958a92a50200d0d9bdbe43cb873a2f2a40c56e72c198f0f17de643f4fbf7275bf599398f2385829b0f6e103984bfa7a9254ea"
 
 RPROVIDES:${PN} += "ffmpeg-4-libavfilter-devel ffmpeg-4-libavfilter-devel(aarch-64) libavfilter-devel pkgconfig(libavfilter)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config ffmpeg-4-libavcodec-devel ffmpeg-4-libavformat-devel ffmpeg-4-libavresample-devel ffmpeg-4-libavutil-devel ffmpeg-4-libpostproc-devel ffmpeg-4-libswresample-devel ffmpeg-4-libswscale-devel libavfilter7_110 pkgconfig(libavcodec) pkgconfig(libavformat) pkgconfig(libavresample) pkgconfig(libavutil) pkgconfig(libpostproc) pkgconfig(libswresample) pkgconfig(libswscale)"

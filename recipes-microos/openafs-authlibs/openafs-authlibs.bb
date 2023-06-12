@@ -12,8 +12,8 @@ LICENSE = "IPL-1.0"
 
 PV = "1.8.9"
 
-RPM_NAME = "openafs-authlibs-1.8.9-2.9.aarch64.rpm"
-RPM_HASH = "5320d8786b1fd270798cfdf848ab81ee9d815063fe4859d4eb5a9184d33cb1a9463567f17615cf2fb285fc821f79bad12d75d4af41e0da054b89a4c578deff78"
+RPM_NAME = "openafs-authlibs-1.8.9-4.1.aarch64.rpm"
+RPM_HASH = "8e233a9a1a69bbd973bebd1cc11c744732627b942e78d353a28f8784243c759e1a369bd30133b110eacb3bda43940fdd98f42537b0b6919a5e4464fb5af09030"
 
 RPROVIDES:${PN} += "libafsauthent.so.2()(64bit) libafsrpc.so.2()(64bit) libkopenafs.so.2()(64bit) openafs-authlibs openafs-authlibs(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libafshcrypto.so.2()(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypt.so.1()(64bit) libcrypt.so.1(XCRYPT_2.0)(64bit) librokenafs.so.2()(64bit)"

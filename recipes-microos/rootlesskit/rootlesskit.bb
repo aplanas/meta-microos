@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.0"
 
-RPM_NAME = "rootlesskit-1.1.0-2.3.aarch64.rpm"
-RPM_HASH = "9c157c73d42e2c3694d97423196a7473ec137a9b04156afc95d88966b3cba8408b9c4a4bcb581ce65aa2079a90d2d1b45fd24dca035e0a89c7c0f0e6178511a5"
+RPM_NAME = "rootlesskit-1.1.0-2.4.aarch64.rpm"
+RPM_HASH = "e43f4a2f1c64bd9e8debdefb8ea204ef12e64fc261ac9da1a6ae550ab7d9469301bf32ad42af0069c4bb6ebf06ef96959543b83bda930fe6b459027fb3debd43"
 
 RPROVIDES:${PN} += "rootlesskit rootlesskit(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

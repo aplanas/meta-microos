@@ -11,10 +11,10 @@ RFC 7159. \
 * Can encode frozendict immutable dictionaries."
 LICENSE = "Apache-2.0"
 
-PV = "1.6.5"
+PV = "2.0.0"
 
-RPM_NAME = "python310-canonicaljson-1.6.5-1.2.noarch.rpm"
-RPM_HASH = "6dbd2275bea72f4a3b0ca6816691dd8b5042e7853ebcbad69ea4efbdad7c071c8c244568ace9bad7b49893009e94f99d54e683648ab939eb2df0e760728edcc7"
+RPM_NAME = "python310-canonicaljson-2.0.0-1.1.noarch.rpm"
+RPM_HASH = "955af6ab0508185594081ae1cfd8d7d18fc985fa604d1a262240f344cf47c8db0109c7dabfb08eed6905bfe6c892d8d8cf38e9d395032ffc4ac630d5d34c0845"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-canonicaljson python3.10dist(canonicaljson) python310-canonicaljson python3dist(canonicaljson)"

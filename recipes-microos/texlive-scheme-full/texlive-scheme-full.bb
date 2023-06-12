@@ -3,10 +3,10 @@ DESCRIPTION = "This is the full TeX Live scheme: it installs everything \
 available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54074"
+PV = "2023.208.svn54074"
 
-RPM_NAME = "texlive-scheme-full-2023.201.svn54074-56.1.noarch.rpm"
-RPM_HASH = "4bf782081b25db4b13c2a91dcd15115c9b55bc928d815d8bd628a0724099c646b45fe6f33f63431db8186f807393da2d36ac530ffd3114b437983e31c570c0c7"
+RPM_NAME = "texlive-scheme-full-2023.208.svn54074-58.1.noarch.rpm"
+RPM_HASH = "e456b3b8d189506680950616a6803b9cc1f6943f5b21d3f2569da7830a6e79dd394cad23bc4acebd9be25464355186892ac356b3359e8416300dde0c06d62930"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-full"

@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.4.14"
 
-RPM_NAME = "typelib-1_0-Wp-0_4-0.4.14-1.1.aarch64.rpm"
-RPM_HASH = "23d268ad884218aa9a305872a7944f4c1b1092fb2ab358277d56caf57a5b2e848bc61e4eeee207328537cdeba965f58dcab8eaa5067acdc1dd243e95691a6059"
+RPM_NAME = "typelib-1_0-Wp-0_4-0.4.14-2.1.aarch64.rpm"
+RPM_HASH = "e643b27a2ab47283d008028b8261eee2f89dd576f68ccb9bc895252a72cff8cdc63322a88de215b43c052f9b43d09b6d40646ec58fe561e0e4492e804b86e271"
 
 RPROVIDES:${PN} += "typelib(Wp) typelib-1_0-Wp-0_4 typelib-1_0-Wp-0_4(aarch-64)"
 RDEPENDS:${PN} += "libwireplumber-0.4.so.0()(64bit) typelib(GLib) typelib(GObject) typelib(Gio)"

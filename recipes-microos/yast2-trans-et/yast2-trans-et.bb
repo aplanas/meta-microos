@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Estonian Translations"
 DESCRIPTION = "YaST2 - Translations for Estonian."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230507.125aa699e6"
+PV = "84.87.20230516.e4ba802a"
 
-RPM_NAME = "yast2-trans-et-84.87.20230507.125aa699e6-1.1.noarch.rpm"
-RPM_HASH = "54a45fa32c08edcaafb4f50363b20c0b40cec6ccd5b7d0ef93c3419ce402085d56217b4e3e8bb7809a3a09f86e5a358dc5db65362d8755bfd951267b70a47e30"
+RPM_NAME = "yast2-trans-et-84.87.20230516.e4ba802a-1.1.noarch.rpm"
+RPM_HASH = "8e792ee44f61f5786e08cec63efc1d7fd02ae06984f6c12b1ff22e609f3e2da698190499084eaebf4877e0f9b33116e9ac4cd9da05dbb0b24137d701d44a1d74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(yast2:et) yast2-trans-et"

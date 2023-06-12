@@ -3,10 +3,10 @@ DESCRIPTION = "This package will attract all the documentation packages of any \
 already installed TeXLive package."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & SUSE-TeX"
 
-PV = "2023.201"
+PV = "2023.208"
 
-RPM_NAME = "texlive-alldocumentation-2023.201-56.1.noarch.rpm"
-RPM_HASH = "32a57bc41d0ae17f3e7f1c1425d670eb5a47a3fa3b6fff6bbfad1e1f8ff51a1f968fc2cc87c59e0a8bc8d1bd40b9eff3bc40a45df709d2b11d63d650f96513c7"
+RPM_NAME = "texlive-alldocumentation-2023.208-58.1.noarch.rpm"
+RPM_HASH = "1459809c3e0e5e54d412aba65c78b427c30be6d6341b461cabf18e9d849cdef860e06ac4132e150725a428433771626f455110dc0f6c907a075828a0c07d11c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-alldocumentation"

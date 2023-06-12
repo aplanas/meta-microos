@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.14.45"
 
-RPM_NAME = "deepin-daemon-dbus-5.14.45-2.3.noarch.rpm"
-RPM_HASH = "f07f68576334624cd201b3c07b8e34a5fce7d09e7b8ea461291634c9794d0ff3c68abc038be39701407fe2e2625113e2b37f2fd1a16dcf45d71a8af2a15a1d15"
+RPM_NAME = "deepin-daemon-dbus-5.14.45-2.4.noarch.rpm"
+RPM_HASH = "b0d84176bcac18a3ba4a27a09b6a20da1a60e4170f6920480a26e47476f281e6a1824a769d3d3dfe7f6f3b445fefab82ad657b0ea64d7b5f6bdc16ec43b0ff63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-daemon-dbus"

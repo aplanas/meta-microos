@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & MIT"
 
 PV = "2.3.20"
 
-RPM_NAME = "dovecot23-devel-2.3.20-3.1.aarch64.rpm"
-RPM_HASH = "acc4c39090dc4537a92698dcd47ccaed3c962604a304a25621739ad3b897e45f159761f4398958d15fb5604ba8f25afd9c68558e30fe09c71525a28d449ee6e2"
+RPM_NAME = "dovecot23-devel-2.3.20-3.2.aarch64.rpm"
+RPM_HASH = "767b1743e450f91dc7d5dc90d1df9294d26916a69224b514af2b9238f6140fc88016d3acc98e997d4b34fe7cbfe63f5de7a215bd65fab57c7ece3d6dba73c70e"
 
 RPROVIDES:${PN} += "dovecot-devel dovecot23-devel dovecot23-devel(aarch-64)"
 RDEPENDS:${PN} += "dovecot23"

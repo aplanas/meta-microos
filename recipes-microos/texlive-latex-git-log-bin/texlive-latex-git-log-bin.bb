@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn30983"
 
-RPM_NAME = "texlive-latex-git-log-bin-2023.20230311.svn30983-89.1.aarch64.rpm"
-RPM_HASH = "db7bf1d71e59c17e62b2100d702f34788a9d6b74925f1f72e0dacc8dbc2642a47d269c089aaecf2c53f424ded9c250cbfb7926062b19467db93e73ca59063d38"
+RPM_NAME = "texlive-latex-git-log-bin-2023.20230311.svn30983-91.1.aarch64.rpm"
+RPM_HASH = "347d97d4ff87a3b27dc1fe78d48fb96db60dd5c23aa7c939a1d72c9cad0faf1b34b3a27d546d6d19a5dffd2038500b85426d47f0c5a6c6acd91ef80bf9af7e60"
 
 RPROVIDES:${PN} += "texlive-latex-git-log-bin texlive-latex-git-log-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-latex-git-log"

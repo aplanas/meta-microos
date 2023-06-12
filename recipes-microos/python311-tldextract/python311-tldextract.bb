@@ -6,13 +6,13 @@ exceptions. You can optionally support the Public Suffix List's private domains 
 as well."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.4.0"
+PV = "3.4.4"
 
-RPM_NAME = "python311-tldextract-3.4.0-1.4.noarch.rpm"
-RPM_HASH = "c09fe6b039856cde9dec39d5abfa4223c14f045ac28fac2ade321affdab12db0a5b9ca508c63aa664e608aba8e0f34e1ccdcebd16b583bcaf70ddd0ca8082613"
+RPM_NAME = "python311-tldextract-3.4.4-1.1.noarch.rpm"
+RPM_HASH = "91dcb99f64a22f1551dfabd5679c42af30d55b8db5b3fffc2a0f4c2b1681b9c121432c9b618f8027b4146bb2519281e7f07b06412dc95366d6eec0bdbc56511a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(tldextract) python311-tldextract python3dist(tldextract)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-filelock python311-idna python311-requests python311-requests-file python311-setuptools update-alternatives"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-filelock python311-idna python311-requests python311-requests-file update-alternatives"
 
 inherit rpm

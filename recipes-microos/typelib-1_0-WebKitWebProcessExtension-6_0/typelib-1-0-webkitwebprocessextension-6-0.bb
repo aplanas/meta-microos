@@ -11,10 +11,10 @@ This package provides the GObject Introspection bindings for the GTK+ \
 port of WebKit2."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.1"
+PV = "2.40.2"
 
-RPM_NAME = "typelib-1_0-WebKitWebProcessExtension-6_0-2.40.1-1.1.aarch64.rpm"
-RPM_HASH = "2527e8a0fced1b13e4dce2107dacafff7a3c538a9bd564f066c41c31c8dcce45e7fb2fed5f08d9b123b29f37f97ac3b2de2800054739557664e4c3419cf0e449"
+RPM_NAME = "typelib-1_0-WebKitWebProcessExtension-6_0-2.40.2-1.1.aarch64.rpm"
+RPM_HASH = "b23b26872b4738f8517499dd3b17db3d2032064a9444f76784dc76f1afc29d365f5a3755683297a3dc881af655b967183fb82985f7522f07aad52adc4f003977"
 
 RPROVIDES:${PN} += "typelib(WebKitWebProcessExtension) typelib-1_0-WebKitWebProcessExtension-6_0 typelib-1_0-WebKitWebProcessExtension-6_0(aarch-64)"
 RDEPENDS:${PN} += "libjavascriptcoregtk-6.0.so.1()(64bit) libwebkitgtk-6.0.so.4()(64bit) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gdk) typelib(GdkPixbuf) typelib(Gio) typelib(Graphene) typelib(Gsk) typelib(Gtk) typelib(HarfBuzz) typelib(JavaScriptCore) typelib(Pango) typelib(PangoCairo) typelib(Soup) typelib(cairo) typelib(freetype2)"

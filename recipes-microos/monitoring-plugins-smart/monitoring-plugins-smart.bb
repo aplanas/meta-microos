@@ -10,12 +10,12 @@ in /etc/sudoers to run this script as non privileged user. \
 Since SLES 12/openSUSE 12.1, there is a file \
   /etc/sysconfig/sudoers.d/monitoring-plugins-smart \
 which holds the same content and should be used automatically."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "6.13.0"
+PV = "6.14.0"
 
-RPM_NAME = "monitoring-plugins-smart-6.13.0-1.4.noarch.rpm"
-RPM_HASH = "5eef5f550359a7dbd86748f352acd94d0b08b9a1ab2ef75b2e59447358a5a1e4c2b5dd352fa85fdbe0a919aaf95c0b64f049fb01a3749a18801f06932d872252"
+RPM_NAME = "monitoring-plugins-smart-6.14.0-1.1.noarch.rpm"
+RPM_HASH = "9830abf600bb17a28453932f6af41c44ae21e2fbaf505862a9c047e8dd2860bd57f651a88a4e509e60d942a39fa01814d7fbfd90e49c24e2dca097e39754b36d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(monitoring-plugins-smart) monitoring-plugins-smart nagios-plugins-smart"

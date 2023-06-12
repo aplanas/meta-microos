@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libosmovty."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.7.0"
+PV = "1.8.0"
 
-RPM_NAME = "libosmovty-devel-1.7.0-2.4.aarch64.rpm"
-RPM_HASH = "4ff3f4ac8327b125a6f1fb6c5546269ee07d5a7468380af616304e4e8a091f9d89805827c07609ce1493d022deba30a1f13074b3b0859234eb76b8f07b26aa65"
+RPM_NAME = "libosmovty-devel-1.8.0-1.1.aarch64.rpm"
+RPM_HASH = "bfec05ed69ff28005126c6c25c36aff9b537a1a3de2d55e574e643b63aa634ba732c4371e28714bde31ba70aee949d3950cfe505c8d96dae24ef2898578d36e9"
 
 RPROVIDES:${PN} += "libosmovty-devel libosmovty-devel(aarch-64) pkgconfig(libosmovty)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libosmocore-devel libosmovty9 pkgconfig(libosmocore) pkgconfig(talloc)"

@@ -6,8 +6,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.4"
 
-RPM_NAME = "libmspub-devel-0.1.4-2.23.aarch64.rpm"
-RPM_HASH = "e51dba6be460d449f8164f3b82c896fd35dd4065e2fa873441d775780ed8121dd989928f4055f626686e4a71e8e7b4a8715b75ea5d7dea7d24d020721ac15d00"
+RPM_NAME = "libmspub-devel-0.1.4-2.24.aarch64.rpm"
+RPM_HASH = "f11898af27ef12cf3e17707fa866dd20a99970ee322cbcd8b3a920eacfb4bb53f56f74f584245f357fbeb2a8b414fa800f67ff773f4e40e11101714ce8b47b05"
 
 RPROVIDES:${PN} += "libmspub-devel libmspub-devel(aarch-64) pkgconfig(libmspub-0.1)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libmspub-0_1-1 pkgconfig(icu-i18n) pkgconfig(librevenge-0.0) pkgconfig(zlib)"

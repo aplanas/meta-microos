@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.4.3"
 
-RPM_NAME = "helmify-0.4.3-1.1.aarch64.rpm"
-RPM_HASH = "d0ab168e2d6d13ab45b6cf50057668dd9582e6fdef455906a82212ddf55ca5eb3c376148834d116a62c8f8a1b8bb9191c3ddb4d03901faff967e7608a840dc76"
+RPM_NAME = "helmify-0.4.3-1.2.aarch64.rpm"
+RPM_HASH = "fab9db527a0dfc32057d99d54673ca02db913ee95d697b73c13ae5ff1e9a62b98f87087e29db131a081061a0f764f3d29084856a4d83dd8d39d18d6f3240ae43"
 
 RPROVIDES:${PN} += "helmify helmify(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

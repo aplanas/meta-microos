@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains health-checker plugins for testing that \
 the openSUSE MicroOS did boot correctly."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.7"
+PV = "1.8"
 
-RPM_NAME = "health-checker-plugins-MicroOS-1.7-1.2.noarch.rpm"
-RPM_HASH = "a9fb8e0ad094ac2b835a0b72b7664152dba9f93584261bbf06ad45df695b17465ed2fee5feafb81b2bdbb49bcaa0b7d4fdb16744fa37412a410d2f051d8a6d72"
+RPM_NAME = "health-checker-plugins-MicroOS-1.8-1.1.noarch.rpm"
+RPM_HASH = "6d0f274538a004490d7508055d8cd6f15e494f4f3ff5d927d7071b7855f152d740ea60fa03c88a4508754d92065443e4812a3aaf32f0e647b6ec59320ae99090"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "health-checker-plugins health-checker-plugins-MicroOS"

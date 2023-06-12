@@ -4,10 +4,10 @@ including a variant of the Python 3 Standard Library `@lru_cache`_ \
 function decorator."
 LICENSE = "MIT"
 
-PV = "5.3.0"
+PV = "5.3.1"
 
-RPM_NAME = "python39-cachetools-5.3.0-2.1.noarch.rpm"
-RPM_HASH = "5d3cf5eabe42ab643aee5f3cdb03811810912a17b372cba87b3a581e3b4caedd8e4df7ebe1fe33b5b3a41b7d790afe45e71d19a7d2cde506ee43878d600a64ff"
+RPM_NAME = "python39-cachetools-5.3.1-1.1.noarch.rpm"
+RPM_HASH = "53818d68fb71d77f56788f27907bad64eca0024343249b425911b4ae03418b697ebabb101ff2884226ebb2ab9b168cd046865c0f99ad811b7e024073e6eea81a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(cachetools) python39-cachetools python3dist(cachetools)"

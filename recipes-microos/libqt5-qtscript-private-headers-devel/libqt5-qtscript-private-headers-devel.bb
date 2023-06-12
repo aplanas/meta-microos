@@ -7,8 +7,8 @@ LICENSE = "(LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later) & LGPL-2.0-or-later
 
 PV = "5.15.12"
 
-RPM_NAME = "libqt5-qtscript-private-headers-devel-5.15.12-2.2.noarch.rpm"
-RPM_HASH = "ff721e6bc7637b94141ec5e6ec1583e9811063c3069766ae002c41606700ddcc68006ba83db6098f1302dc80f842521c3dc417715bb63bf7ea129eada946e56f"
+RPM_NAME = "libqt5-qtscript-private-headers-devel-5.15.12-2.3.noarch.rpm"
+RPM_HASH = "3aee64beec33a31e497b9cbe4a745fa93cf82b9ff542c8eb03647100db8f3714bd67426ab7fb059841e7f003315f0f231c9900abf7ea271eb59878b77ba0303a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5Script-private-headers-devel libqt5-qtscript-private-headers-devel"

@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "python3-brlapi-6.5-2.3.aarch64.rpm"
-RPM_HASH = "d4620a3d785a213f6e4f3536a758a0bf723d30c1cb5e71a53d86a41ec879622147aa5709c74be10ad7f303c008c460b37931b0c9af88f43b842b938ffb5b9dfd"
+RPM_NAME = "python3-brlapi-6.5-2.4.aarch64.rpm"
+RPM_HASH = "deef26c1f8c534f38a1d6d9e8ef2c21166595b9491b648e59b1623813012ce3d5bb848f2874131fc8069478ebbf01eaa21b72d67409e589fb43298f6d12d4fbd"
 
 RPROVIDES:${PN} += "python3-brlapi python3-brlapi(aarch-64) python3.10dist(brlapi) python3dist(brlapi)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbrlapi.so.0.8()(64bit) libc.so.6(GLIBC_2.34)(64bit) python(abi)"

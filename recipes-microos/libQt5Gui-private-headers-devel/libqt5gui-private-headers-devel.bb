@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde151"
+PV = "5.15.9+kde154"
 
-RPM_NAME = "libQt5Gui-private-headers-devel-5.15.9+kde151-1.1.noarch.rpm"
-RPM_HASH = "e692e5368b459c70d4df6a3603c6dbc5a9ec5e507d340d766f862e36bc5a9ac7bc0878d9c031ede3ac77e9e56f142fb72e0c33f0fc0f5eb59ffdcf43f7803fce"
+RPM_NAME = "libQt5Gui-private-headers-devel-5.15.9+kde154-1.2.noarch.rpm"
+RPM_HASH = "4d0b9c921f5831fb3487fd68c8532b46571e9b4ca7c2f826e2597839d395893657ff0fdef2bec4b5f94f239a366f89ce0046b07387521eaed33f9a2125298299"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5Gui-private-headers-devel"

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "csi-node-driver-registrar-2.0.1-1.9.aarch64.rpm"
-RPM_HASH = "c1aadcb69af93e41125bbd34bf291a73471cac6c3ad3ef073c1660e93190f39cf6fc1e0cc121d154742da33012a46b63c9908e6b340b0698c3e0b47ac896c85d"
+RPM_NAME = "csi-node-driver-registrar-2.0.1-1.10.aarch64.rpm"
+RPM_HASH = "bb205addba8876f514bfc26982e79c7bf75b8726801ecf493bbbefb2d559f04aee20c4402201799552f0e58801e981a1618f76524e6891190fc8ecf15972f62f"
 
 RPROVIDES:${PN} += "csi-node-driver-registrar csi-node-driver-registrar(aarch-64)"
 RDEPENDS:${PN} += ""

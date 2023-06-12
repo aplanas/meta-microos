@@ -3,10 +3,10 @@ DESCRIPTION = "Uvicorn is an ASGI server implementation, using uvloop and httpto
 It supports HTTP/1.1 and WebSockets only."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.20.0"
+PV = "0.22.0"
 
-RPM_NAME = "python310-uvicorn-0.20.0-3.1.noarch.rpm"
-RPM_HASH = "db6d5657121073b63b9124e5fb751cb71fbb21a8e6dfc299d5387df5c2ebe3d297d6d564e087a2235b43d278da4a5d9a15b970edb545303db40436ab003d8270"
+RPM_NAME = "python310-uvicorn-0.22.0-1.1.noarch.rpm"
+RPM_HASH = "1c457e9e2e90190c7f76aa929b86f70aba753065d6ae33f8b8bf21cf8f7296d5609f386f99f10ee814fbcea525cd86bc9e89135740e6a37b0e24c13d74b5911a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-uvicorn python3.10dist(uvicorn) python310-uvicorn python3dist(uvicorn)"

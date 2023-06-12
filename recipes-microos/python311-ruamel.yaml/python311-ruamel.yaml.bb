@@ -3,10 +3,10 @@ DESCRIPTION = "ruamel.yaml is a YAML parser/emitter that supports roundtrip pres
 of comments, seq/map flow style, and map key order."
 LICENSE = "MIT"
 
-PV = "0.17.21"
+PV = "0.17.31"
 
-RPM_NAME = "python311-ruamel.yaml-0.17.21-2.1.noarch.rpm"
-RPM_HASH = "e3b079b8957962f1559c443f8767e1e182e6cbd929bae0c8af2988c9fb29703369f294812c0ba80d47d73e1f8bf9b418066d6b9845c61508506f7128a759c2ed"
+RPM_NAME = "python311-ruamel.yaml-0.17.31-1.1.noarch.rpm"
+RPM_HASH = "aaf1dcfbb45df287e44a254a51196f57cd68f6a9cff1ffb0e79d1e3d49d8ebcabb36c3f9965122cbadc4fe9ceaf2992d1ff83598a61b35398bd1597bb6541e45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(ruamel.yaml) python311-ruamel.yaml python3dist(ruamel.yaml)"

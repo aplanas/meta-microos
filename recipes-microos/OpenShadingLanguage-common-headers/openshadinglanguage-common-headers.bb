@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.10.0"
 
-RPM_NAME = "OpenShadingLanguage-common-headers-1.12.10.0-1.2.aarch64.rpm"
-RPM_HASH = "7709dae54573a2f3cd5c00c264f40a0eecd166e4aa36281741f7cdc7d6eecd9d012899913be874d581e32d9c85394d19ba239354f745a9ece29bbf0e8cc611c1"
+RPM_NAME = "OpenShadingLanguage-common-headers-1.12.10.0-2.1.aarch64.rpm"
+RPM_HASH = "28b232ee5d6b0194309d56127515a318b2eac42f09d8acef01c51184fc454fd4cf1155e3ef357913ada533be2a79cb21c137a47cc672fb894c815feda439b449"
 
 RPROVIDES:${PN} += "OpenShadingLanguage-common-headers OpenShadingLanguage-common-headers(aarch-64)"
 RDEPENDS:${PN} += "OpenShadingLanguage"

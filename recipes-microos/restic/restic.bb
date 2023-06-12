@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.15.2"
 
-RPM_NAME = "restic-0.15.2-1.1.aarch64.rpm"
-RPM_HASH = "57831134f5fc61146ca06cf76982a6504e7138a1d0cc985daa921bf285df4e41ce2f6755f6966ae992e8eabbda64affaa8af282da4235939dc0b110d3dba1ae9"
+RPM_NAME = "restic-0.15.2-1.2.aarch64.rpm"
+RPM_HASH = "a7567fcda3f2fdb4e3df387db7cf6c9c76f0322998d400a09742b1fe9d8551fe6d0c99486187f83a79d1871e3874d1878bf8d65985d9e86f7795ef8d51cfa985"
 
 RPROVIDES:${PN} += "restic restic(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause & BSD-4-Clause"
 
 PV = "6.7.0+git20230328.dc14420f"
 
-RPM_NAME = "miller-6.7.0+git20230328.dc14420f-1.1.aarch64.rpm"
-RPM_HASH = "ad6f05b51bf5c315eef218eb97a603977b7a182bf5ba90f8f59234ca85863b246113274b87f42e063e83bde6f0caf76cd364fc0a1001904a337d97a4a8b78866"
+RPM_NAME = "miller-6.7.0+git20230328.dc14420f-1.2.aarch64.rpm"
+RPM_HASH = "d4186e459b433e8d2c2cf8fe1de43cdfe5ee724fa647c7a89a5c4c54488da6e1ba8f4c71689faf053a311be0d11c74a80dc68b58d09a021f4bafc10f74bf09ee"
 
 RPROVIDES:${PN} += "miller miller(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "5.13.1"
 
-RPM_NAME = "python311-plotly-jupyter-5.13.1-1.2.noarch.rpm"
-RPM_HASH = "1bdae93c2c6cdd23b130a8fa892f15449841559e79cd557e642e45712f01797f546c59c205d8e90bae4caa07013bf67c7dbc7e98363355501a01b568b3b9e19e"
+RPM_NAME = "python311-plotly-jupyter-5.13.1-1.3.noarch.rpm"
+RPM_HASH = "1c0768c0ec2fdb438f2f9e198041c68e8dba8417ad62ba8d96a3d8ad6079f0c7bfb96fb55273b7da3d709977a61d0dd61399518641efa80186e0d88ea3db68d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-jupyterlab-plotly python311-plotly-jupyter"

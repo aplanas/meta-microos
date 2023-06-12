@@ -4,10 +4,10 @@ plain TeX macros, Computer Modern fonts, and configuration for \
 common drivers; no LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59159"
+PV = "2023.208.svn59159"
 
-RPM_NAME = "texlive-collection-basic-2023.201.svn59159-56.1.noarch.rpm"
-RPM_HASH = "5bb229283107bd2a0a3b283267a57d8f1796dead0990121e7a248c13c2245634311fbd87e05c797d35ab37c83c83361c4ad13aa17eb186cd89797ec91eec0063"
+RPM_NAME = "texlive-collection-basic-2023.208.svn59159-58.1.noarch.rpm"
+RPM_HASH = "3dae9ce726072d4725e19d402937ac9a704a2b0636097ce41e18cf88b5e5cfaad3f061cc0fb45ac48bba99ee20ced452901a7f7074957e97355cd89fb0e92e2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(basic) tex(tex) texlive-collection-basic"

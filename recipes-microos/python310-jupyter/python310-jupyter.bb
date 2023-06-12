@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-jupyter-1.0.0-11.1.noarch.rpm"
-RPM_HASH = "215522cc74196c6703be60bf11c9517f1d654078d679a414e2b70fd3b58e4c64cc877cc12507f2bd63dc1d911d2c8a116dde10e3a42bdf78daa51d2b773845ef"
+RPM_NAME = "python310-jupyter-1.0.0-12.1.noarch.rpm"
+RPM_HASH = "ec5fa2f4b4334e2872c252b5d90ff0d378a0f40f4aefc0decdfcbf1051f362b66a897f311758afc9f3df750f58d2d453156b4a50f49094250ae8460349c720b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter python3-jupyter python3.10dist(jupyter) python310-jupyter python3dist(jupyter)"

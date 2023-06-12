@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "20230301"
 
-RPM_NAME = "re2-devel-20230301-53.3.aarch64.rpm"
-RPM_HASH = "203c4162f987c623016a0244dd794fa400446313302a6ee1e2c28d7dce860e87c92704458786ae7575bf7e0736bc0a60789aebba6048fa78df2e6b88c4bb50b9"
+RPM_NAME = "re2-devel-20230301-53.4.aarch64.rpm"
+RPM_HASH = "a8a56bc569933ea2578dde90f7609123531fdc86420395992ce68cc11d1820e7ab9a2b6fc431a837cd30a906f0545570ec938729fbea0ee09352067150b57af8"
 
 RPROVIDES:${PN} += "cmake(re2) pkgconfig(re2) re2-devel re2-devel(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libre2-10 pkgconfig(icu-uc)"

@@ -3,10 +3,10 @@ DESCRIPTION = "A Python module for semantic versioning. Simplifies comparing ver
 See also http://semver.org/"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.0.0~dev.4"
+PV = "3.0.0"
 
-RPM_NAME = "python39-semver-3.0.0~dev.4-1.2.noarch.rpm"
-RPM_HASH = "6ab35b6b8873109352b913d655827e8e8b0f24ae7e927bf223dbd23c5567324278aa5290c88cd5bd4a89c880db891738be7ac165953aa316ae6cca4b8f5da90a"
+RPM_NAME = "python39-semver-3.0.0-1.1.noarch.rpm"
+RPM_HASH = "57b784bee9cb91b93bff796fef1e3ddac4b2b627c36db4ceb49e683c2790d176dc282ba587fa3324ff7f0f7a45481a0a70d9d37d2d2dca2b89003a0bb1dece58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(semver) python39-semver python3dist(semver)"

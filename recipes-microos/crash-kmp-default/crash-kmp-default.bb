@@ -11,12 +11,12 @@ Authors: \
     David Anderson <anderson@redhat.com>"
 LICENSE = "GFDL-1.2-only & GPL-3.0-or-later"
 
-PV = "8.0.3_k6.3.1_1"
+PV = "8.0.3_k6.3.4_1"
 
-RPM_NAME = "crash-kmp-default-8.0.3_k6.3.1_1-1.1.aarch64.rpm"
-RPM_HASH = "b25a64e7e7b7fc0b7db4568e0c654430188b2977cbe4cfaecf7d3dc535cc042684b2f9a1897d14dd999ed1461bcf5ba82eda381d05f49f87e3b351390c384fc5"
+RPM_NAME = "crash-kmp-default-8.0.3_k6.3.4_1-1.4.aarch64.rpm"
+RPM_HASH = "b225c98be2919f5877da0744bc4036d1c8594a4db87f9c3e1aecf4c47e85acfef30bc1d8bc6ea9776fe23c19748429600722a7d1d147ef4fd4bad5626f125536"
 
-RPROVIDES:${PN} += "crash-kmp crash-kmp-default crash-kmp-default(aarch-64) crash-kmp-default-k6.3.1_1 kmod(crash.ko) multiversion(kernel)"
+RPROVIDES:${PN} += "crash-kmp crash-kmp-default crash-kmp-default(aarch-64) crash-kmp-default-k6.3.4_1 kmod(crash.ko) multiversion(kernel)"
 RDEPENDS:${PN} += "/bin/sh coreutils grep kernel-default kernel-uname-r suse-kernel-rpm-scriptlets"
 
 inherit rpm

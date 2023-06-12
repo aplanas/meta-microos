@@ -6,8 +6,8 @@ LICENSE = "OML"
 
 PV = "2.4.0"
 
-RPM_NAME = "perl-FastCGI-2.4.0-172.30.aarch64.rpm"
-RPM_HASH = "bde5ce47768105218665ad9eb94bdeb0c271111f0b67acabb2a537ff358b09f836f614516885569a8f0c90efb52adfa0ac723097b935e2d8c5ec6a8d7bb4a332"
+RPM_NAME = "perl-FastCGI-2.4.0-173.1.aarch64.rpm"
+RPM_HASH = "df435099b17b12a406dc30a49b64827d1da1d3813053f0b0205eb76d30b805ad21d4863a06405e9ede0d0de7b6f9b6c77ae7800bb7b3f9268dcd587618a8646c"
 
 RPROVIDES:${PN} += "perl(FCGI) perl(FCGI::Stream) perl-FastCGI perl-FastCGI(aarch-64)"
 RDEPENDS:${PN} += "FastCGI ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.28)(64bit) perl(:MODULE_COMPAT_5.36.0)"

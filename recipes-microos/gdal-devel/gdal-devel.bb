@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & MIT & SUSE-Public-Domain"
 
 PV = "3.6.3"
 
-RPM_NAME = "gdal-devel-3.6.3-1.4.aarch64.rpm"
-RPM_HASH = "adceb7af98af2b75071c786bc360967972a6328e91879b8f436187a7c583de880ef8a605a6972b33806a23706c4bfffa656cd61c76c1850d23375434139ab859"
+RPM_NAME = "gdal-devel-3.6.3-2.1.aarch64.rpm"
+RPM_HASH = "8a9286071400a2b87725fdca0910dba7e233d7d8e98dbc901c4491ffdfe24f21994d29039a0f703cad4b20cb522168447e249d6aa693c24aab8d9ca0f4804b25"
 
 RPROVIDES:${PN} += "cmake(GDAL) gdal-devel gdal-devel(aarch-64) libgdal-devel libgdal32-devel pkgconfig(gdal)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config libgdal32 pkgconfig(libopenjp2)"

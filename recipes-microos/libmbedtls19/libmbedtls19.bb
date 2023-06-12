@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.4.0"
 
-RPM_NAME = "libmbedtls19-3.4.0-2.1.aarch64.rpm"
-RPM_HASH = "ce7af9285bf181b583c7a979f50ae425684a0764d0110583ac8cc655c353f0377dcba6f474227657d86e88b7aec25b73fcae4ad1a764580cc5b5db4169879386"
+RPM_NAME = "libmbedtls19-3.4.0-3.1.aarch64.rpm"
+RPM_HASH = "eba5c675c60c96e8786c5538a4fe940744c74cdca7c0c122e54b2b9dd2bf3d94f5740fc67c242a4e98c10b9ed0a98d6c05765cd455c3cd76fcfb9e95f98044da"
 
 RPROVIDES:${PN} += "libmbedtls.so.19()(64bit) libmbedtls19 libmbedtls19(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libmbedcrypto.so.14()(64bit) libmbedx509.so.5()(64bit)"

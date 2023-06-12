@@ -4,10 +4,10 @@ the appropriate theme to make your documentation look consistent. \
 Available themes: flask, jinja, werkzeug, click"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "python311-Pallets-Sphinx-Themes-2.0.3-2.1.noarch.rpm"
-RPM_HASH = "2d76a38de1b68d075498f2de30fd857647df3bcbe1b1df90567f4a02f34e7a964755d7006330fa99faff8c5827c11427f0db034bf7e3e9ebb15e54bc0dd30e68"
+RPM_NAME = "python311-Pallets-Sphinx-Themes-2.1.0-1.1.noarch.rpm"
+RPM_HASH = "892e855feda1090da504731573dec85733632e6d7ebdde6017a11cf95e707a35143880b56c9ef66aaa527be893f1efbfad2fb3a640147f5e39c0296dcf66e4dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(pallets-sphinx-themes) python311-Pallets-Sphinx-Themes python3dist(pallets-sphinx-themes)"

@@ -10,10 +10,10 @@ if llvm is supported. Otherwise it will just pull the \
 postgresql14-server-devel package."
 LICENSE = "PostgreSQL"
 
-PV = "14.7"
+PV = "14.8"
 
-RPM_NAME = "postgresql14-llvmjit-devel-14.7-2.1.aarch64.rpm"
-RPM_HASH = "11603c9cbd7098977243a251894170595ba234bfecb40b3bccbe7ed5b2eb1a3ab0bcef40eb8cfed9379a2d07d82a84dfe8141acca7a14f83b3516e7ee914157c"
+RPM_NAME = "postgresql14-llvmjit-devel-14.8-1.2.aarch64.rpm"
+RPM_HASH = "53af72c03b89b46b7e3297e7b85c30546bee296467ac7ac8338f814cb8d10ee69780c22f2ac8c2d521085ef80be0c97ddc7a0bdddfe59a13e606b5a8f629a95a"
 
 RPROVIDES:${PN} += "postgresql-llvmjit-devel postgresql-llvmjit-devel-implementation postgresql14-llvmjit-devel postgresql14-llvmjit-devel(aarch-64)"
 RDEPENDS:${PN} += "clang15 llvm15 postgresql-llvmjit-devel-noarch postgresql14-llvmjit postgresql14-server-devel"

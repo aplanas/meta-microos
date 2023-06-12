@@ -3,10 +3,10 @@ DESCRIPTION = "Django's 'formtools' is a set of high-level abstractions for Djan
 Currently for form previews and multi-step forms."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.4"
+PV = "2.4.1"
 
-RPM_NAME = "python311-django-formtools-2.4-1.3.noarch.rpm"
-RPM_HASH = "a7afc116a5852f81a537e717493b7894f9a6e0484eb1b881c5748269aae712ba89cbd21b0d9330c16a2ab10a4ea0e8464fe9d7d53baf6238c24d2490072c0f9e"
+RPM_NAME = "python311-django-formtools-2.4.1-1.1.noarch.rpm"
+RPM_HASH = "a1bd291edb7aa4850fbff40713bbd40781b5e399d9b93a90e9b38e3d4219f4e93baaf3fdafe5217be506b85e188ef429bc1706b99e416c5cf0eccb9c4166c8d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(django-formtools) python311-django-formtools python3dist(django-formtools)"

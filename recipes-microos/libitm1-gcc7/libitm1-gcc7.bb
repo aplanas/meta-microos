@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "libitm1-gcc7-7.5.0+r278197-12.5.aarch64.rpm"
-RPM_HASH = "8b7743e9c1edcfa4d66950a7b4b6960505158c4519b073d171a72adbc0838390ff9e213b7f13a6c0892d0056430e8146da4390d8f07887bc4945f90d4f11a8e2"
+RPM_NAME = "libitm1-gcc7-7.5.0+r278197-14.3.aarch64.rpm"
+RPM_HASH = "37c8090d0e0984d816b2aa55a84916bf5bff9149566395c4b6cf2d06a92724c4cfd984b69595546c0ff19e61aaefc4af3a67eebf29c42c49eb6e98f2b71130e4"
 
 RPROVIDES:${PN} += "libitm.so.1()(64bit) libitm.so.1(LIBITM_1.0)(64bit) libitm.so.1(LIBITM_1.1)(64bit) libitm1 libitm1-gcc7 libitm1-gcc7(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig libc.so.6(GLIBC_2.34)(64bit)"

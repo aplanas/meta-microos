@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.18.0"
 
-RPM_NAME = "rpm-devel-4.18.0-4.3.aarch64.rpm"
-RPM_HASH = "f6f9ecffc7f1ec4fc0f007cec5b25d9a153bc960bc3a24cd7db3c6f403554624aa66053a5e900d4e2091d3aa349db761f6ecda6d917028790263dc87b91e103e"
+RPM_NAME = "rpm-devel-4.18.0-5.1.aarch64.rpm"
+RPM_HASH = "486b2a0d73ecfb78e03f049788bebda78fde3e250f423fd539dc8765c07cb53ed94ea26ff0739ee8012f6420a0712d6cc62f8655ffa42317c98e7068bd18990c"
 
 RPROVIDES:${PN} += "pkgconfig(rpm) rpm-devel rpm-devel(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config pkgconfig(libzstd) pkgconfig(popt) popt-devel rpm"

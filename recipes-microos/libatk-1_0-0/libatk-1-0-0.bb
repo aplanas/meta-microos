@@ -4,10 +4,10 @@ supporting the ATK interfaces, an application or toolkit can be used \
 with screen readers, magnifiers, and alternate input devices."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.48.0"
+PV = "2.48.3"
 
-RPM_NAME = "libatk-1_0-0-2.48.0-1.1.aarch64.rpm"
-RPM_HASH = "b4ccc1faa1f3781010c2c0b0b8fc3f6de77d3a707a9a79a417b17a76a1be027b2c9e2812941998d1023e9d59b8a9ff0fecfe32f8527516f467e45fd737e33567"
+RPM_NAME = "libatk-1_0-0-2.48.3-1.1.aarch64.rpm"
+RPM_HASH = "16002eecdb78ab50d6d7f281e55b80536f9eff739c0991bf5410c43c66616d264bc14dcc3752013ee6622dba26ea5a67c057cedbfc5065244766ae715a3f28c7"
 
 RPROVIDES:${PN} += "atk libatk-1.0.so.0()(64bit) libatk-1_0-0 libatk-1_0-0(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit)"

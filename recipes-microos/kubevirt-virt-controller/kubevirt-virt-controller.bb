@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.59.0"
 
-RPM_NAME = "kubevirt-virt-controller-0.59.0-3.1.aarch64.rpm"
-RPM_HASH = "2be63c65b4bfbc6e766bf1bb93c1fa31bcbfd6caa6c0a8d003beec9fc65a5c7b97f372d0db10a1e1119d8bb612584613a51de2d0514880d883765b39d2c8fd93"
+RPM_NAME = "kubevirt-virt-controller-0.59.0-3.2.aarch64.rpm"
+RPM_HASH = "ffb1ac7226515bee21d2f1617a3459dff3046ac58dabcff4b3789105034820d5be592cfb76d0141990dd32fc0547763d16176e659d60f1d264141a649c4bdf98"
 
 RPROVIDES:${PN} += "kubevirt-virt-controller kubevirt-virt-controller(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The jndi module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.48"
+PV = "9.4.51"
 
-RPM_NAME = "jetty-jndi-9.4.48-3.1.noarch.rpm"
-RPM_HASH = "2aa62d3cf9dfd04005a3b4b8ccd64815300c011e9598ce241423060af254da9050c30ce66311bc52dda2ad84154e391a1365069b544e907f303fb4af43204cfe"
+RPM_NAME = "jetty-jndi-9.4.51-1.1.noarch.rpm"
+RPM_HASH = "9f8d43ae55e3c28ba052ac6ccd54bc8bd3707900bc4b314089ea0b77ba8def468c6354664c0aac23765894471b778bbfaeef750e69f1142ff3b1e065a09a311d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-jndi mvn(org.eclipse.jetty:jetty-jndi) mvn(org.eclipse.jetty:jetty-jndi:pom:) osgi(org.eclipse.jetty.jndi)"

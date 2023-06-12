@@ -5,10 +5,10 @@ framework for Haskell. It is similar to JUnit, and other xUnit testing \
 frameworks."
 LICENSE = "MIT"
 
-PV = "2.2.6"
+PV = "2.2.7"
 
-RPM_NAME = "ocaml-ounit-2.2.6-1.9.aarch64.rpm"
-RPM_HASH = "f5f5cefcee360cbd0ff3298ee3f090203bdbf88eec9d49764aef1edf77c704b2e0ea451d2c54a85173356f88bbaf3ed0ac2fe265c2dae842575cd68a8961aa86"
+RPM_NAME = "ocaml-ounit-2.2.7-1.1.aarch64.rpm"
+RPM_HASH = "f5dca0dc7348653ce4c4e3723717bbc000bf080a4fb3e79d5b02a0aad399ea90fdd553f67febd7e7d6fd2c93f881b960d40b408714d29720ca3930b0989a3395"
 
 RPROVIDES:${PN} += "ocaml-ounit ocaml-ounit(aarch-64)"
 RDEPENDS:${PN} += ""

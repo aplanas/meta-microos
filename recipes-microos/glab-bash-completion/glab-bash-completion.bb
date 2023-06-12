@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for glab"
 DESCRIPTION = "Bash command line completion support for glab."
 LICENSE = "MIT"
 
-PV = "1.29.1"
+PV = "1.30.0"
 
-RPM_NAME = "glab-bash-completion-1.29.1-1.1.noarch.rpm"
-RPM_HASH = "4976f4f36a7b5af10b3a0c599a48586c928de97b98fc10acaa2897b61e1f8a04b6246fe061e8398794b876d16561ce28b9c4cf9e372a5ff2d048ce33d45e4022"
+RPM_NAME = "glab-bash-completion-1.30.0-1.1.noarch.rpm"
+RPM_HASH = "f6fae31d8481b54d381cd831aeb195e89d5b117e99d715ff5843cab4e004a63b9437069d994b1df3e1ff59fea077002b748247cd38fe671dd0c92fe7bea70338"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glab-bash-completion"

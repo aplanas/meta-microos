@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "5.13.1"
 
-RPM_NAME = "python310-plotly-5.13.1-1.2.noarch.rpm"
-RPM_HASH = "83e2a5cd48febf8130da4a814d0d35c36c997e1074a9c3f781ec11f5e83826f39eb667c8f7ca7163b204a5140636397a6b2c75f1de09b8ad323d17947ed46791"
+RPM_NAME = "python310-plotly-5.13.1-1.3.noarch.rpm"
+RPM_HASH = "0c957ef0c20917ed78cb2e4481d497e33b9063519a797f203b8bbabcd67bf2f76a2a703c59f3fe89c0d5c621c0df67b41bde9cf9ef3b53912e726419a3c57c10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-plotly python3.10dist(plotly) python310-plotly python3dist(plotly)"

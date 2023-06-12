@@ -3,10 +3,10 @@ DESCRIPTION = "Adds a zypper rule to prevent accidental uninstallation of \
 transactional-update."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.1.5"
+PV = "4.2.1"
 
-RPM_NAME = "transactional-update-zypp-config-4.1.5-1.1.noarch.rpm"
-RPM_HASH = "60f5d46330d67c89a8ecbe0b6d2e25599f0fb0db5050f2d03969e539b325df03704e8b9ac7b61e5e598cee18497d58c03273e41ea50c4a530f0eb177f5afa62d"
+RPM_NAME = "transactional-update-zypp-config-4.2.1-1.1.noarch.rpm"
+RPM_HASH = "bd37c5e629ad8156e736c24d02a3b814d2acdc8197d1a4ccab3f5c6a3cd3df9be7a8dc6c3607419aae8eb9cd6293c73c457a09586fe09094e5f1b9bf4b0eecef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(transactional-update-zypp-config) transactional-update-zypp-config"

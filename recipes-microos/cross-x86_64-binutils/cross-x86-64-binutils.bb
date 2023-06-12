@@ -6,8 +6,8 @@ LICENSE = "GFDL-1.3-only & GPL-3.0-or-later"
 
 PV = "2.40"
 
-RPM_NAME = "cross-x86_64-binutils-2.40-4.1.aarch64.rpm"
-RPM_HASH = "2686551fc79ea424ab5b1cd1e234eeaa345e76b7118f2913344b3dc3ddfdc5c6f16f4c71661e0c8f32c028757f559add159030323ce4d331ab1bf6b408afdff8"
+RPM_NAME = "cross-x86_64-binutils-2.40-5.1.aarch64.rpm"
+RPM_HASH = "6d02dce73d6ea259e8f9fc00521cd8d01296b6a7a4c72392ab6cc43a1a8321b79c75248627a4964e243c7f9b9912b5eeaa40a09efca5d4de0396b9ab0c75b985"
 
 RPROVIDES:${PN} += "cross-x86_64-binutils cross-x86_64-binutils(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libz.so.1()(64bit) libz.so.1(ZLIB_1.2.0)(64bit) libzstd.so.1()(64bit) update-alternatives"

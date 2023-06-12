@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.4"
 
-RPM_NAME = "systemd-journal-remote-253.4-1.2.aarch64.rpm"
-RPM_HASH = "f9724962392b007d600ce805519536e130fb16c27a5ec0d7a8ae0474639ad7383d2b906d483e22f2bbe405c8e96a561c361c70440c763e5f58b396fa8a5b22f4"
+RPM_NAME = "systemd-journal-remote-253.4-2.1.aarch64.rpm"
+RPM_HASH = "2517778d20e3a0da9672213664f4be0d6c290f26a9b3412c1a0a311c12276e28c715ca537b43eb2696b745130820568bff9dfee5fae8e22d95addf72116cf6eb"
 
 RPROVIDES:${PN} += "config(systemd-journal-remote) systemd-journal-remote systemd-journal-remote(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcurl.so.4()(64bit) libgnutls.so.30()(64bit) libgnutls.so.30(GNUTLS_3_4)(64bit) libmicrohttpd.so.12()(64bit) libsystemd-shared-253.so()(64bit) libsystemd-shared-253.so(SD_SHARED)(64bit) systemd"

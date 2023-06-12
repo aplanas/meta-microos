@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.26.1"
 
-RPM_NAME = "kompose-1.26.1-1.8.aarch64.rpm"
-RPM_HASH = "70bc4e1d0b49a037f49c5efa1c8e2671ff89c4ecf1a63b8afcfb5ef2fffe4900d0aac2f7386226b74f4241dc3b45c02b37ceb8d0d0b8d8780dde549b011fcfde"
+RPM_NAME = "kompose-1.26.1-1.9.aarch64.rpm"
+RPM_HASH = "424b94465eef3cab04fa043a2bb526db4edb61e8976e487f22fafc4fb5b9f87ba3e78dd04e21f4535459fa10d07e78cf65983b2fbeae86606f59aef9a0549b53"
 
 RPROVIDES:${PN} += "kompose kompose(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

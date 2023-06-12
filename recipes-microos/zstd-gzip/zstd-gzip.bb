@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "1.5.5"
 
-RPM_NAME = "zstd-gzip-1.5.5-1.1.aarch64.rpm"
-RPM_HASH = "e5e5317315f6deed3a010c31d3088914b79fa09cc3cd2fea039211be1af18e16fbc70d98658b82627860953da166774bdc521a56f42b510b68b320c8a761e5ed"
+RPM_NAME = "zstd-gzip-1.5.5-3.1.aarch64.rpm"
+RPM_HASH = "cd8fa80713dfbb1c788f0838903d9d944c4ab95496acb84172fc6a7b46c7a1b5f73846a23f3245ed6a2ab1207cf37cfef3683a6c965fd501c39d81782e31358b"
 
 RPROVIDES:${PN} += "alternative(gzip) gzip zstd-gzip zstd-gzip(aarch-64)"
 RDEPENDS:${PN} += "zstd"

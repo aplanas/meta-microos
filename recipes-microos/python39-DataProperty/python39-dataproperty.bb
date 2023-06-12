@@ -2,10 +2,10 @@ SUMMARY = "Python library for extract property from data"
 DESCRIPTION = "Python library for extract property from data."
 LICENSE = "MIT"
 
-PV = "0.55.0"
+PV = "0.55.1"
 
-RPM_NAME = "python39-DataProperty-0.55.0-2.3.noarch.rpm"
-RPM_HASH = "b8f928277d98cb30c8cde31610023ce8c9825bb27cb3849a009477d5fa410ff6fccd0caef38ef90e0fb46b76e5079ae2c2b89ec2d888916999c0f3214b44bf07"
+RPM_NAME = "python39-DataProperty-0.55.1-1.1.noarch.rpm"
+RPM_HASH = "2e9393c2467092de97f488242be710a90cee7de5640e61f02573e71b443cf3fda32d59657c9d85042342a578a2d2ec477e84b3b7d8cf9b2c1798cf4e60dac0bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(dataproperty) python39-DataProperty python3dist(dataproperty)"

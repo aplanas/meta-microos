@@ -2,10 +2,10 @@ SUMMARY = "SELinux policies for container runtimes"
 DESCRIPTION = "SELinux policy modules for use with container runtimes."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.211.0"
+PV = "2.215.0"
 
-RPM_NAME = "container-selinux-2.211.0-1.1.noarch.rpm"
-RPM_HASH = "5169975f57872d09eba9ca93291453f019925929c804b80118633d5e4f5e0659b309ec80dcfca0f3e234ccf85c88091a0e74f15499f357e3d24786221db0bbc6"
+RPM_NAME = "container-selinux-2.215.0-1.1.noarch.rpm"
+RPM_HASH = "cc741614a3e6347f4f379a08b986368a68bbf2c6df9a096d1b6fa364aa003e2740fc9a699d55a0e95f868197ec263a0c749067b30c0850a204e2c8d7d526fa70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "container-selinux"

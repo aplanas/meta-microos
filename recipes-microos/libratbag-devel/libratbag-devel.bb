@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.17"
 
-RPM_NAME = "libratbag-devel-0.17-1.3.aarch64.rpm"
-RPM_HASH = "0057f7eb54998ee02440cf3a1761ff16bc325b0cdb954a5a5b6cf7e6bd34394e38256dbfdbe38c8fb23ca74f0dd623bf217ea082c4c84971fa38f3250009aa61"
+RPM_NAME = "libratbag-devel-0.17-2.1.aarch64.rpm"
+RPM_HASH = "c111df0c5b54025cd3251f90bfc281139995b593b65c3e476ef70bf90e00173bcaf3c8a31079d579e2a8ce37d6c6d02ef3e3cce9bdd30cc45a27b88c5eef2e97"
 
 RPROVIDES:${PN} += "libratbag-devel libratbag-devel(aarch-64) pkgconfig(liblur)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config liblur3"

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.4.0"
 
-RPM_NAME = "warewulf4-slurm-4.4.0-6.3.aarch64.rpm"
-RPM_HASH = "27575ac9b584ca515bad5310d129a610adabc02db192e399fddb1eb9d09e1064023698c8de2f05c8087b59ffd9be3cd8e33f4cdf70f8409a017e845ddde070cf"
+RPM_NAME = "warewulf4-slurm-4.4.0-6.4.aarch64.rpm"
+RPM_HASH = "c209fc3ad3959c16ef950756db10338c10b982dc74b049bc1ab7ae3abbf7f5a17580b59414dafd32eae2065177b5a75e0c7b125c3efb909cc5798e779a0fecfe"
 
 RPROVIDES:${PN} += "config(warewulf4-slurm) warewulf4-slurm warewulf4-slurm(aarch-64)"
 RDEPENDS:${PN} += "slurm warewulf4"

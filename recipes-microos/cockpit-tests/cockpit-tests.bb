@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "276.1"
 
-RPM_NAME = "cockpit-tests-276.1-4.3.aarch64.rpm"
-RPM_HASH = "16fcd40db7d6a0ac157a94a867da979510ac10cbf22af70dad8661b2c674b168527827daf72aecdc479bee8e3dcfb8d30e8aa74b1551e825eceff4751b055d23"
+RPM_NAME = "cockpit-tests-276.1-4.4.aarch64.rpm"
+RPM_HASH = "291aa3b61f8d8d332231d6a3fb7d3d55a807bf6921ca30e1d801eee57dfe65ee655be2d4f8b3e149136760d62c176de48e8918f218416a3e1399fa02831105f1"
 
 RPROVIDES:${PN} += "cockpit-test-assets cockpit-tests cockpit-tests(aarch-64)"
 RDEPENDS:${PN} += "cockpit-bridge cockpit-system ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libpam.so.0()(64bit) libpam.so.0(LIBPAM_1.0)(64bit) openssh-clients"

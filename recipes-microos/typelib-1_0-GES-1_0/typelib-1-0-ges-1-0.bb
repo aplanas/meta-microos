@@ -19,10 +19,10 @@ a series of classes to simplify the creation of many kind of \
 editing-related applications."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.2"
+PV = "1.22.3"
 
-RPM_NAME = "typelib-1_0-GES-1_0-1.22.2-1.1.aarch64.rpm"
-RPM_HASH = "9e061a9530d7d080e488a16f235b7f9708209c27095e94f3d1266a9914316aed3a1889f389ad49a1895be4d9816bfb4929c288acec848c5ef3113fcfe4b33e4f"
+RPM_NAME = "typelib-1_0-GES-1_0-1.22.3-1.1.aarch64.rpm"
+RPM_HASH = "51adc59309832c743d2d62d1310dc16fae5e4f97269b444087f68814499b75cf7889b02ab30e8869080318e19510dc24dce61f982b5713d0136c11eb9157d509"
 
 RPROVIDES:${PN} += "typelib(GES) typelib-1_0-GES-1_0 typelib-1_0-GES-1_0(aarch-64)"
 RDEPENDS:${PN} += "libges-1.0.so.0()(64bit) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gio) typelib(Gst) typelib(GstAudio) typelib(GstBase) typelib(GstPbutils) typelib(GstVideo)"

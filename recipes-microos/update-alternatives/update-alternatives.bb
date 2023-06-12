@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.21.8"
 
-RPM_NAME = "update-alternatives-1.21.8-1.9.aarch64.rpm"
-RPM_HASH = "feb3faaf0e1c0eb7d8fc827778c4a981260485742ba8007bc4293e08e30d27fb9281b888bba3a12a3c62bfeacf9245e25e9dc01e4d97b503fa9387e6e63bf182"
+RPM_NAME = "update-alternatives-1.21.8-2.1.aarch64.rpm"
+RPM_HASH = "d8fc3a3607b765e00c12be80ac75c3755f628ef17beb4ffe0edda5e2ca4e20779718700fa3f2d8d3459ae3cce52ca228522be1ef78d0bf10bfbb971cf8c21018"
 
 RPROVIDES:${PN} += "alternatives update-alternatives update-alternatives(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"

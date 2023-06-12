@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.7.30"
 
-RPM_NAME = "traefik1.7-1.7.30-2.9.aarch64.rpm"
-RPM_HASH = "7ef5fc30bd3ed1cd06517dd3e0cce7d0e4e88ca0579674caea8612a01c3cb249dfce8acf3768c46ae0856bf12554268d46f30032a0570f36ab3b5263771c6c81"
+RPM_NAME = "traefik1.7-1.7.30-2.10.aarch64.rpm"
+RPM_HASH = "64492e050a68ade60444e34879f786efdac343b4948304e5aa63026bf6ee95164fe0d03ddda0ced4c0e4789c22bdf6aa5daab2d4d58fbd48ff6b85eb4734c70e"
 
 RPROVIDES:${PN} += "config(traefik1.7) traefik1.7 traefik1.7(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh systemd"

@@ -11,10 +11,10 @@ contains the XML variant of: \
   'kanjidic2.xml' file)"
 LICENSE = "CC-BY-SA-3.0 & CC-BY-SA-4.0"
 
-PV = "20230411"
+PV = "20230511"
 
-RPM_NAME = "jmdict-20230411-1.1.noarch.rpm"
-RPM_HASH = "57860a97000c5d58083dc09ffa6eb398af356f1e93040823be9bcc9bd95d2347b9aa4efb7993ddd5eeeeaa2ba329c3e19bcef68d8daa5dc1d9302cc3e1d70d09"
+RPM_NAME = "jmdict-20230511-1.1.noarch.rpm"
+RPM_HASH = "7d52d653bb6fc9cf919a87e94bf0f26c4e4f9f3d5d0ba7f2d86dcba5157706a6a1aa5642db1ffa6ea2fc778489372bad5d554283f198fa38f86ccbeb92cdd6f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jmdict locale(ja)"

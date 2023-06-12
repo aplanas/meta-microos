@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.0"
 
-RPM_NAME = "ffmpeg-6-libpostproc-devel-6.0-2.1.aarch64.rpm"
-RPM_HASH = "5c56fbf31704b6eef69c8dcac185971294d2fd19cc84c06558ded3ad8093c16e685a195a3fbbb3055664fbe947339744ae20f958afd5b92e17f8c33e5caa9b84"
+RPM_NAME = "ffmpeg-6-libpostproc-devel-6.0-2.2.aarch64.rpm"
+RPM_HASH = "14e357feebd82a8c3df8a4011e2b6c14ec50f261bbea3573dcd70dd1957c3c16631be5ba765edb1725613425406920d7e44efe0c10e28baedfc2af5d3badd69d"
 
 RPROVIDES:${PN} += "ffmpeg-6-libpostproc-devel ffmpeg-6-libpostproc-devel(aarch-64) libpostproc-devel pkgconfig(libpostproc)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config ffmpeg-6-libavutil-devel libpostproc57 pkgconfig(libavutil)"

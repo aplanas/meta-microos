@@ -5,10 +5,10 @@ emit information from within their applications to the AWS X-Ray service. \
 This package provides the pynamodb backend for python311-aws-xray-sdk."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "python311-aws-xray-sdk-pynamodb-2.10.0-1.3.noarch.rpm"
-RPM_HASH = "f65104bdd1b2a22896b352319a6307c872d8260fe14a3287ac688e716b97072800bf27052c117c42f124b8dac3b741e34f49d8f6e3be8c3afa9931971441df92"
+RPM_NAME = "python311-aws-xray-sdk-pynamodb-2.12.0-1.1.noarch.rpm"
+RPM_HASH = "9600476294f50f94894b575c3066d6bb69e6d4ae38bd6af74d4d81c938083a4a946bf9fcd838d65525ecf7eea84649ee287b518cd8117a3336e0b261608c6eec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-aws-xray-sdk-pynamodb"

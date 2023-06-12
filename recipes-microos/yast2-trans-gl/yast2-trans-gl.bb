@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Galician Translations"
 DESCRIPTION = "YaST2 - Galician translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230507.125aa699e6"
+PV = "84.87.20230516.e4ba802a"
 
-RPM_NAME = "yast2-trans-gl-84.87.20230507.125aa699e6-1.1.noarch.rpm"
-RPM_HASH = "b4d4f95013929464eef7910c88b77983d3ee940eb8e614e89f5d33133c97f44796a3e846ef2df9aac192a76188016e8bfdbcfb865c654e537981296e9fab64b8"
+RPM_NAME = "yast2-trans-gl-84.87.20230516.e4ba802a-1.1.noarch.rpm"
+RPM_HASH = "89360e359d58c0f645a7e627588040298550532be0198889d66e3db1d75191e5458646a698aed40461f93c9d6a61606caf62c9c1612693ef3bd8cd2c9f0ed930"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(yast2:gl) yast2-trans-gl"

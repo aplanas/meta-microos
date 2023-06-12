@@ -2,10 +2,10 @@ SUMMARY = "MicroOS Desktop default settings"
 DESCRIPTION = "This package installs MicroOS default applications for Plasma."
 LICENSE = "BSD-3-Clause"
 
-PV = "20230420"
+PV = "20230519"
 
-RPM_NAME = "plasma-branding-MicroOS-20230420-1.1.noarch.rpm"
-RPM_HASH = "8c50b2a31fb13f6e290f74e1c48886cf21924367e5584afa592dc851afe041b35010f2c0d3d2c7ff7b2466bd52041fd85235e68855c47d0a1a979988636bf978"
+RPM_NAME = "plasma-branding-MicroOS-20230519-1.1.noarch.rpm"
+RPM_HASH = "a3d6640b1d89ea8d59015efbc9a02b08b05f4507463eb0c2e5f7525b9f3f3971c3ee8ebb1fabad4fe4786cf06210a1e1e66f94523fd572231bdf27925335df63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(plasma-branding-MicroOS) plasma-branding-MicroOS"

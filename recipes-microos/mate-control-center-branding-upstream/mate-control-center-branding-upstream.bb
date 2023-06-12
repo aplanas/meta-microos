@@ -6,10 +6,10 @@ This package provides the upstream definition of what appears in the \
 control center."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.26.1"
 
-RPM_NAME = "mate-control-center-branding-upstream-1.26.0-1.10.noarch.rpm"
-RPM_HASH = "256128a7ede6415ac965c91ad2ba0e737d5ba1942caf9aca5ef36e0bbc5e1fa312aefd33f65fcc126913629859da289f272a4e5d6f47ca0aa2cb001e93685ac9"
+RPM_NAME = "mate-control-center-branding-upstream-1.26.1-1.1.noarch.rpm"
+RPM_HASH = "72fdc4ea657d19aa2fdc589ce64b9fc0acae3009eda4ff6cc3063398b160ce451367dde8b8e3d60ea819ded326ce96ff4b47c7af248947ed183a825ce7f03349"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(mate-control-center-branding-upstream) mate-control-center-branding mate-control-center-branding-upstream"

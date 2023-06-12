@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.0.3"
 
-RPM_NAME = "python310-docker-5.0.3-3.3.noarch.rpm"
-RPM_HASH = "134d5b5d684d22e77d6bacf7f9e1bb519c4353ecc8994305e1ba7ec29f11f023c9ada2351707f4b8b9e65350f438232de75290b4a86ae0b3ca2f2f8005e0ed13"
+RPM_NAME = "python310-docker-5.0.3-4.1.noarch.rpm"
+RPM_HASH = "ab86efc4208269416bd0d437856ea01655c2ba8f9a2fa36ba0eb281bcf4938ca020a0a623b0db3a678a4c95442d40934cd58d577ba2484c04848ee87f0c0bf44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-docker python3-docker-py python3.10dist(docker) python310-docker python310-docker-py python3dist(docker)"

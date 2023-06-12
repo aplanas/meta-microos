@@ -2,10 +2,10 @@ SUMMARY = "OpenVPN plugin header"
 DESCRIPTION = "This package provides the header file to build external plugins."
 LICENSE = "GPL-2.0-only-WITH-openvpn-openssl-exception"
 
-PV = "2.6.3"
+PV = "2.6.4"
 
-RPM_NAME = "openvpn-devel-2.6.3-1.1.aarch64.rpm"
-RPM_HASH = "f2f500e68b7d7556d44521221145f73f48398ebb2a198021d0c40f8967485437a0557a7f80c52dfcd48aa89f12e1cfa680d7ebcabbb3602df99a25f8fac0b8af"
+RPM_NAME = "openvpn-devel-2.6.4-1.1.aarch64.rpm"
+RPM_HASH = "0c49458eb24c482c1a9b01512d117e08ba9e4534a84c61cdf683651a7b44f3c23d3c6384b20826c64f2e570d093cddc4903fec23c491b5be2487f9ea56e351f7"
 
 RPROVIDES:${PN} += "openvpn-devel openvpn-devel(aarch-64)"
 RDEPENDS:${PN} += "openvpn"

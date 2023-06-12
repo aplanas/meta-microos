@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.1.3"
 
-RPM_NAME = "python39-pygame-2.1.3-1.4.aarch64.rpm"
-RPM_HASH = "ce28e90dc1ebc91896b5e56510c706974d0c91726788be50e12da3be778dcc4ac47d285b0909e788e895ef5f4caef7ae6548c1ed5e054dbf53a6498e2bf0c072"
+RPM_NAME = "python39-pygame-2.1.3-2.1.aarch64.rpm"
+RPM_HASH = "397ff90ed8bb492d1aedc8bc347e2b4bab54010b588081a23e60fa90b6c95e907efa901b684d05fc1125b14de86b659535133a09feedb5edb141823aaf540875"
 
 RPROVIDES:${PN} += "python3.9dist(pygame) python39-pygame python39-pygame(aarch-64) python3dist(pygame)"
 RDEPENDS:${PN} += "/usr/bin/python3 /usr/bin/python3.9 fontconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libSDL2-2.0.so.0()(64bit) libSDL2-2.0.so.0(SUSE_2.0.10)(64bit) libSDL2-2.0.so.0(SUSE_2.0.5)(64bit) libSDL2-2.0.so.0(SUSE_2.0.6)(64bit) libSDL2-2.0.so.0(SUSE_2.0.7)(64bit) libSDL2-2.0.so.0(SUSE_2.0.9)(64bit) libSDL2-2.0.so.0(SUSE_2.24.0)(64bit) libSDL2_image-2.0.so.0()(64bit) libSDL2_mixer-2.0.so.0()(64bit) libSDL2_ttf-2.0.so.0()(64bit) libc.so.6(GLIBC_2.33)(64bit) libfreetype.so.6()(64bit) libpng16.so.16()(64bit) libpng16.so.16(PNG16_0)(64bit) libportmidi.so.2()(64bit) python(abi) python39-numpy"

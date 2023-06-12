@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6QmlCore that do no
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-qmlcore-private-devel-6.5.0-2.1.aarch64.rpm"
-RPM_HASH = "a25e808528e39ea62184012716172bbad13468c440678646240e7cacb81a5ff04e1c292c9c6bc01bf564023990cfdeeb35db069d49a09605153677deff73475e"
+RPM_NAME = "qt6-qmlcore-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "8fefec54c3a0d968a85dd0cc9f24733e4b8953f056ef8bd50f80f07c45bc8fca768cfb18916780b69ebac645bf5e0b9f51cefa4e5ff34b95a20fa0dc1920798a"
 
 RPROVIDES:${PN} += "qt6-qmlcore-private-devel qt6-qmlcore-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6QmlCore)"

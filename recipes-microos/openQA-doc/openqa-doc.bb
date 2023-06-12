@@ -3,10 +3,10 @@ DESCRIPTION = "Documentation material covering installation, configuration, basi
 Covering both openQA and also os-autoinst test engine."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1683294886.8a7e554"
+PV = "4.6.1685738164.28716cd"
 
-RPM_NAME = "openQA-doc-4.6.1683294886.8a7e554-1.1.aarch64.rpm"
-RPM_HASH = "f3cd6d06f150f5a84c24d853bfa28d906943f9d7d4ca22c7eb80f7aa7bc8b425c19b2ffcc98c4b46b69a0ac936624b8dfc63caed9932f56bf55d937735a17c0b"
+RPM_NAME = "openQA-doc-4.6.1685738164.28716cd-1.1.aarch64.rpm"
+RPM_HASH = "f2c887eec9d1be86e1528e752bb0a0f6d38b7c521f583a8591d1356d15fca9648346c31387017f3f6c12fed10cbe46158559223881f44f4d5d43d8b0c734dde6"
 
 RPROVIDES:${PN} += "openQA-doc openQA-doc(aarch-64)"
 RDEPENDS:${PN} += ""

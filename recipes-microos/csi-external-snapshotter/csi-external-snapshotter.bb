@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.0"
 
-RPM_NAME = "csi-external-snapshotter-4.0.0-1.8.aarch64.rpm"
-RPM_HASH = "c10586eed3813351630d104af7748f87f63085d73fcdd3e38b666904062fe9ac8a81f479b579378c0c31fca01d720ef6ac6847d9e400fba89d64e3b9d034f22a"
+RPM_NAME = "csi-external-snapshotter-4.0.0-1.9.aarch64.rpm"
+RPM_HASH = "d79622d7b215b6104e92bd6a025c2381169e5fd5d13a957b24c48346eb92c83e26477130a66da1eed11689a47bd307f50cadfd8e6f11335c692fc613982c6d19"
 
 RPROVIDES:${PN} += "csi-external-snapshotter csi-external-snapshotter(aarch-64)"
 RDEPENDS:${PN} += ""

@@ -7,10 +7,10 @@ via channels, easily extendable to add support for unsupported namespaces, \
 multi-room setups with Audio cast devices."
 LICENSE = "MIT"
 
-PV = "13.0.4"
+PV = "13.0.7"
 
-RPM_NAME = "python311-PyChromecast-13.0.4-1.3.noarch.rpm"
-RPM_HASH = "72ccdd37c3b12639b47504fec913fa1f39287de925f8887df04895d62e80d2e6b6d2fd8ef412dd962f68e60d24a2f4d19ce98ee8b8f8e4cccd63012abdf354d5"
+RPM_NAME = "python311-PyChromecast-13.0.7-1.1.noarch.rpm"
+RPM_HASH = "c54ad40ccf6a0f416c591a4b74052edddd8c144b456f67e65755871fc7e48793bf3e83b8719cae8f598a33cbc0f778d40176427508a33790a3492d5829f5b50a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(pychromecast) python311-PyChromecast python3dist(pychromecast)"

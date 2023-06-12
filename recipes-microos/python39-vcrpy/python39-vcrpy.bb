@@ -7,11 +7,11 @@ LICENSE = "MIT"
 
 PV = "4.2.1"
 
-RPM_NAME = "python39-vcrpy-4.2.1-1.3.noarch.rpm"
-RPM_HASH = "3e5be9650e78a0d272e53b4137a9d45afd8939c97f0e309d506968feb153748163be1c14d0b7fbaa9ef5b6c7155c88c7bff81930536ce6ff0e1deca557bfec50"
+RPM_NAME = "python39-vcrpy-4.2.1-2.1.noarch.rpm"
+RPM_HASH = "7932b864d00cf1ebe5070505545d0870a3fac4ceebbd4564342c41e2893efedfb484e3196998a89a322cceb3c83fed6e138d960389d38392ea42e11fa91c6f86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(vcrpy) python39-vcrpy python3dist(vcrpy)"
-RDEPENDS:${PN} += "python(abi) python39-PyYAML python39-six python39-wrapt python39-yarl"
+RDEPENDS:${PN} += "python(abi) python39-PyYAML python39-six python39-urllib3 python39-wrapt python39-yarl"
 
 inherit rpm

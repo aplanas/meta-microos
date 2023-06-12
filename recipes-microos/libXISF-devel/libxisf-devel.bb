@@ -2,12 +2,12 @@ SUMMARY = "Development files for libXISF"
 DESCRIPTION = "This package contains all the needed development files to use libXISF."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.2.3"
+PV = "0.2.6"
 
-RPM_NAME = "libXISF-devel-0.2.3-1.1.aarch64.rpm"
-RPM_HASH = "ef6c6616aca1a917f826f478351585dc9a93ec915dfd0f02048ccdcaad0e21350ec0d21df6a6775edd272adc1c9a18bcb63017b9bfbdf59d001480a86fd93bca"
+RPM_NAME = "libXISF-devel-0.2.6-1.1.aarch64.rpm"
+RPM_HASH = "2c92678d465bdd46033259fe634bdf120dfa617975b8eae1fcb2bb92b2b9d1c10053aefad5a64d6c2a9840234406394ae2f043ee17af9c76c119a345ef299d19"
 
-RPROVIDES:${PN} += "libXISF-devel libXISF-devel(aarch-64)"
-RDEPENDS:${PN} += "libXISF0"
+RPROVIDES:${PN} += "libXISF-devel libXISF-devel(aarch-64) pkgconfig(libxisf)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config libXISF0"
 
 inherit rpm

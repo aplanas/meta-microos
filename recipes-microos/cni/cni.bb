@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.2"
 
-RPM_NAME = "cni-1.1.2-2.3.aarch64.rpm"
-RPM_HASH = "a88a59b57e4258baeed537427dc08220a9b0faeb634f75b6293cda53d69650681304ed066a0b789f6ab8c3ec76792b17c15e081a39a88565a0ca482b4212ec6e"
+RPM_NAME = "cni-1.1.2-2.4.aarch64.rpm"
+RPM_HASH = "9c24c348fcb517bb7d01c4bf7592ffbb2700bd738fdbe5ba4db4c8d3e063f065a326fe4f7fcd86a531a9055c0487b4c06d8fcf3391bdb32d9fd9c854d42138d5"
 
 RPROVIDES:${PN} += "cni cni(aarch-64) config(cni)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch fillup libc.so.6(GLIBC_2.34)(64bit) systemd"

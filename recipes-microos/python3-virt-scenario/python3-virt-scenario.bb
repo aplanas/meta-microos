@@ -1,20 +1,16 @@
-SUMMARY = "Create XML guest configuration and prepare the host for a scenario"
-DESCRIPTION = "Prepare a libvirt XML guest configuration and the host to run a customized guest. \
-Idea is to use multiple templates and concatenate them to create the \
-expected Guest XML file. If Host need a custom setting it will be done in second phase. \
- \
-Customization to match a specific scenario is not graved in stone. The idea is to \
-prepare a configuration which should improved the usage compared to a basic setting. \
-This will **NOT guarantee** that this is perfect."
+SUMMARY = "Tool to create XML guest configuration and prepare the host for a scenario"
+DESCRIPTION = "A tool to generate a customized libvirt XML guest and prepare the host. \
+The idea is to improve the experience of usage compared to a basic setting. \
+This tool also simplifies the creation of secure VM (AMD SEV)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.0.6"
+PV = "2.0.4"
 
-RPM_NAME = "python3-virt-scenario-1.0.6-1.1.noarch.rpm"
-RPM_HASH = "cefcdbd8ee01a7a5c7f6e08b3743362eaf841f0277bbde23ab903b446e12feb43b7ad183027fd948dc67555a68616f0f798260c62c49fea0db20a12b2be6f9ba"
+RPM_NAME = "python3-virt-scenario-2.0.4-1.1.noarch.rpm"
+RPM_HASH = "0311356ac4940374b56837c497d51fa18a614be016c5b4accf8e443c3af518b7b836888fddd3a4b46a1e73eaeb7acbc88b8e9d2d19e16916adc13f513e43393a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(python3-virt-scenario) python3-virt-scenario python3.10dist(virt-scenario) python3dist(virt-scenario)"
+RPROVIDES:${PN} += "config(python3-virt-scenario) python3-virt-scenario python3.10dist(virt-scenario) python3dist(virt-scenario) virt-scenario"
 RDEPENDS:${PN} += "/usr/bin/python3 python(abi) python3-PyYAML python3-curses python3-libvirt-python python3-psutil python3-pyudev"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for whois"
 DESCRIPTION = "bash command line completion support for whois."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.5.16"
+PV = "5.5.17"
 
-RPM_NAME = "whois-bash-completion-5.5.16-1.2.aarch64.rpm"
-RPM_HASH = "1f19353a7dcb55cfcc65dd90543686799fa8a1a7ba944ba1f0c7bcc16cdfb8724b8d8451e08230829394ec39842dfd42e0a76988071be98005e0a76fa22f47b6"
+RPM_NAME = "whois-bash-completion-5.5.17-1.1.aarch64.rpm"
+RPM_HASH = "b0f864364ce003fab8c25a9a33d237770164f3a39d16928055e432b8af5ee2bdafe64d3c7e488fc9bf1d15b5b5c422798e12ad5c9699eaab30729f142f331275"
 
 RPROVIDES:${PN} += "whois-bash-completion whois-bash-completion(aarch-64)"
 RDEPENDS:${PN} += "bash-completion whois"

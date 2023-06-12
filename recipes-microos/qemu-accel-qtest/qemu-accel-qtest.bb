@@ -5,10 +5,10 @@ models. \
 This package provides QTest accelerator for testing QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "7.1.0"
+PV = "8.0.2"
 
-RPM_NAME = "qemu-accel-qtest-7.1.0-16.1.aarch64.rpm"
-RPM_HASH = "662ca3149dcbc3ed726ec7d0dfca4180ab1a5e1c63e481325fae3ef69804bb49ea36a96f48fdd92cc89ff2b2b0f1463a7755a3d9880875a30a7a73b689784dce"
+RPM_NAME = "qemu-accel-qtest-8.0.2-1.1.aarch64.rpm"
+RPM_HASH = "60629b0016fc6c8d28808e19d889a838c48077397ad9ad2529e859befcca24bee1310c022471bafd7794da9c6aecc984430a8524355ad1e833eb220428b8464d"
 
 RPROVIDES:${PN} += "qemu-accel-qtest qemu-accel-qtest(aarch-64)"
 RDEPENDS:${PN} += ""

@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in French"
 DESCRIPTION = "This package provides translations of man pages in French."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1"
+PV = "4.19.0"
 
-RPM_NAME = "man-pages-fr-4.18.1-1.1.noarch.rpm"
-RPM_HASH = "76e9dc094195936060045926ab8266c8c09eb8fa675c0c4de9ee6393113c84642759a13ddb09ced72bbf46c6f9831a73b9968a25561cdbffb7a798b5cc2ff869"
+RPM_NAME = "man-pages-fr-4.19.0-1.1.noarch.rpm"
+RPM_HASH = "6190539436e02630ffd01e3b7ec7b70509ba49bf0bef4c9a44717c79e37271d80f4acf8fe234d248ef625c93270fbfe582b09f09bad3404580c4c83b00693090"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(man-pages:fr) man-pages-fr"

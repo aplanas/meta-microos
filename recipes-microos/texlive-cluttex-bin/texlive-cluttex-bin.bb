@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn48871"
 
-RPM_NAME = "texlive-cluttex-bin-2023.20230311.svn48871-89.1.aarch64.rpm"
-RPM_HASH = "516c3e77ad6ad5ac944e818b9b96b04d8e4fbb3d3e95c53cbdc630e6a3ae58f659494ad01a199c307a7904127048e18f00bb90658122a5fad8f1e015a7eae09c"
+RPM_NAME = "texlive-cluttex-bin-2023.20230311.svn48871-91.1.aarch64.rpm"
+RPM_HASH = "b092a657d9d8b792743d275a9bc05493db287109e0bb3e5c281c7ebee8c0c61cf8e2d4f5e06be8c8e12fa35c410e59d25b31f989750327aedac97be5b7937319"
 
 RPROVIDES:${PN} += "texlive-cluttex-bin texlive-cluttex-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-cluttex"

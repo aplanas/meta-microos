@@ -5,10 +5,10 @@ the actual programs and packages to be tested are installed \
 separately afterwards, with tlmgr install."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54191"
+PV = "2023.208.svn54191"
 
-RPM_NAME = "texlive-scheme-infraonly-2023.201.svn54191-56.1.noarch.rpm"
-RPM_HASH = "25fe561e9aad899cdf26dbdc12f70011426c47832a35cd912a0b2287a37d45e620cdd21ea8125cd5246631841af73c2f052e0b1ff9ba7522b4440b995218aedf"
+RPM_NAME = "texlive-scheme-infraonly-2023.208.svn54191-58.1.noarch.rpm"
+RPM_HASH = "5c5fc00a47e4540908ac92c02f8dc2ea4304842655df5c5730b218ca22cbab222bbc536ee782df3aa8b60a1ecee28c873499610074918316aab4934d15865428"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-infraonly"

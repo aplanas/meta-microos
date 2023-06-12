@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2.19"
 
-RPM_NAME = "perl-biber-2.19-89.1.noarch.rpm"
-RPM_HASH = "8ea323e6ccf1dea6b540d6e5b89c4115c91115391fe0301940ba1fce2001e10d251b38e542034fbe9f1f1cd4b280b074802ccfb6f7a6df833781c2d5a05ffba3"
+RPM_NAME = "perl-biber-2.19-91.1.noarch.rpm"
+RPM_HASH = "815de0eb2fab36670ef7a09fc02c7959fb64dfdb37df412c9c49b933bec5e3a23e40db22ab0b58466b7439303c47b430eea5d3bf1ecfca60baf10df12003f999"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Biber) perl(Biber::Annotation) perl(Biber::Config) perl(Biber::Constants) perl(Biber::DataList) perl(Biber::DataLists) perl(Biber::DataModel) perl(Biber::Date::Format) perl(Biber::Entries) perl(Biber::Entry) perl(Biber::Entry::FieldValue) perl(Biber::Entry::List) perl(Biber::Entry::Name) perl(Biber::Entry::Names) perl(Biber::Input::file::biblatexml) perl(Biber::Input::file::bibtex) perl(Biber::Internals) perl(Biber::LaTeX::Recode) perl(Biber::LangTag) perl(Biber::LangTags) perl(Biber::Output::base) perl(Biber::Output::bbl) perl(Biber::Output::bblxml) perl(Biber::Output::biblatexml) perl(Biber::Output::bibtex) perl(Biber::Output::dot) perl(Biber::Section) perl(Biber::Sections) perl(Biber::UCollate) perl(Biber::Utils) perl-biber"

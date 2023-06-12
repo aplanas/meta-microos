@@ -2,10 +2,10 @@ SUMMARY = "Pandoc filters package for Python"
 DESCRIPTION = "Panflute is a Python package for writing Pandoc filters."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.3"
+PV = "2.3.0"
 
-RPM_NAME = "python310-panflute-2.2.3-1.5.noarch.rpm"
-RPM_HASH = "1de9e9a085373cd044a73389045cf1d9daebc1d8ffe72896fa2ac3e4dd856c56d056e53016a0c3924e12137cb6f51c6ff824d3b5893fe1698bcbcfd78956845d"
+RPM_NAME = "python310-panflute-2.3.0-1.1.noarch.rpm"
+RPM_HASH = "8468179e45f9c3ad205b1ff256b1e2eff85af008fb7eca1c2de322a934eb466a3de6c8f57ca9cbe80c2a7c80a35ad73ed473c69ff8c4ad9806c556f5d61cb0e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-panflute python3.10dist(panflute) python310-panflute python3dist(panflute)"

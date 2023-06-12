@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt63DInput that do no
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-3dinput-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "2740b5f17c84b5c9303c8bf7b820fb94647279e4c5852975398ebf534e99b69becdbed489f2602f4b9f459ac0c627324e3c78cd19c1f94dcb3748bf7ccbdbc4b"
+RPM_NAME = "qt6-3dinput-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "f043827d0b14d508a33a911f971208fc00d230b9b7e9120c0a88c00d06540fdd21166a80a91276e241850e912f1c0e300edcdb318d9f636ee543e8ac2f987ba9"
 
 RPROVIDES:${PN} += "qt6-3dinput-private-devel qt6-3dinput-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt63DInput)"

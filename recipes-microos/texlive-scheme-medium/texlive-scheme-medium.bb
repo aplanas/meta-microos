@@ -4,10 +4,10 @@ LaTeX, many recommended packages, and support for most European \
 languages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54074"
+PV = "2023.208.svn54074"
 
-RPM_NAME = "texlive-scheme-medium-2023.201.svn54074-56.1.noarch.rpm"
-RPM_HASH = "29be61c365dd755010abb58ea2739a1da44ef1b8433caef15403235c3dbaa9f06b9d9dc6880d2a4a315a9371055d2b170c548ffec6ba8b0fee532c73918af039"
+RPM_NAME = "texlive-scheme-medium-2023.208.svn54074-58.1.noarch.rpm"
+RPM_HASH = "948002a16f355d07b56db6d4fcdc51c5361dd19cf3003202b6b4f979250ebf6208123413e938625eed59b30fa57b6fefb26e914601a9733da926e13ca5f1a04b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-medium"

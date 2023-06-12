@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.0+git.1680557182.90888a0c"
 
-RPM_NAME = "loki-2.8.0+git.1680557182.90888a0c-1.1.aarch64.rpm"
-RPM_HASH = "0e5c0480d35a26ad5ae29700fd8cc9e73e69ed180bc654df6239bda782f5963ddbf4c3de8fa0904a649a2d82b23fd2799fa039e58b044cc082d63a601364db68"
+RPM_NAME = "loki-2.8.0+git.1680557182.90888a0c-1.2.aarch64.rpm"
+RPM_HASH = "b06abb6309338c8af4237836ed87aef0e1705ff5a0e964f2638db94894dcc79797269a8990c38dbcb584e80a90cfca844a2dbb9daabab7c1bfab815159f12202"
 
 RPROVIDES:${PN} += "config(loki) loki loki(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch fillup group(loki) logcli user(loki)"

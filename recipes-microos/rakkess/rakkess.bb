@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.1"
 
-RPM_NAME = "rakkess-0.5.1-1.3.aarch64.rpm"
-RPM_HASH = "04df77088a66565aca91b80d83adeedeebae92deee8f4cf568a746fc478ab3bfa6c4aa793963214df3024eeaeed2519b24d147f6c2a9e038b336076583a4b606"
+RPM_NAME = "rakkess-0.5.1-1.4.aarch64.rpm"
+RPM_HASH = "a27f2b02994baa09fae79f66407e858e8e86d7e42645f79c2282a1bcd1e14ab5cc67195c32f56f60ecfd774b86d65cd09f1b06297eed1be172de98a90c52e949"
 
 RPROVIDES:${PN} += "rakkess rakkess(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

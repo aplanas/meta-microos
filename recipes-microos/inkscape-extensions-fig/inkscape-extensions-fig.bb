@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.2"
 
-RPM_NAME = "inkscape-extensions-fig-1.2.2-2.3.aarch64.rpm"
-RPM_HASH = "0f48a5bb466950cd9dc253df4f1e5bfb705e3617cfbcbe69c61de459ecfe5e25e14709602f04f12184e269a5fcff0f62bb47639edd466ceaba50107d18f28cc1"
+RPM_NAME = "inkscape-extensions-fig-1.2.2-3.1.aarch64.rpm"
+RPM_HASH = "bc3cef6c4030324894a8be07fafc98c667b9dc1f579da2e5db59fa122f1d79d12bee538eec136311c4ff14626804da3e66092e3668f7dba15cbd985c6462263f"
 
 RPROVIDES:${PN} += "inkscape-extensions-fig inkscape-extensions-fig(aarch-64)"
 RDEPENDS:${PN} += "inkscape inkscape-extensions-extra transfig"

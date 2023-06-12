@@ -10,10 +10,10 @@ dispersion relations, modes, wave functions, various Green’s \
 functions, out-of-equilibrium local quantities."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.4.2"
+PV = "1.4.3"
 
-RPM_NAME = "python311-kwant-1.4.2-3.12.aarch64.rpm"
-RPM_HASH = "c79613adf3df657f7bf37b60bf8c3f64284123f40fd5b2f014de5b4d33e01c2e07a9e80b012c6b7247500ae8c7280b620ea33097561f1db52a168b67e7d294f6"
+RPM_NAME = "python311-kwant-1.4.3-1.1.aarch64.rpm"
+RPM_HASH = "d980cc15a5cdb4540e46aedc89922e6e5d98172ef4c659de13781ff1f9098337bc44f82bd9eeeb661bb187e09edcf6e429e9919c5e84cf318be7d0db99aa05af"
 
 RPROVIDES:${PN} += "python3.11dist(kwant) python311-kwant python311-kwant(aarch-64) python3dist(kwant)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libzmumps_seq.so.5.3.5()(64bit) python(abi) python311-numpy python311-scipy python311-tinyarray"

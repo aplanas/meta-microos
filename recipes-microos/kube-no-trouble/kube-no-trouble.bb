@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "kube-no-trouble-0.7.0-1.3.aarch64.rpm"
-RPM_HASH = "f968f7f58805e3006825085880b38f8d4e7a6f5632b8e00bf1e06ee968d7a843125dbf885411583f8a337aa2041bc48163d36083ef08bb8c8b4e859c193e8cbd"
+RPM_NAME = "kube-no-trouble-0.7.0-1.4.aarch64.rpm"
+RPM_HASH = "fe36834fe798c3e85dd5cfb66b7541533af20321ea397896652d686851bd46972236d291d258e50b590a23ad2fcff97d71f2195b0ba5e80f2e8af72f1b558d43"
 
 RPROVIDES:${PN} += "kube-no-trouble kube-no-trouble(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

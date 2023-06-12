@@ -4,10 +4,10 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "19"
 
-RPM_NAME = "clevis-systemd-19-1.1.aarch64.rpm"
-RPM_HASH = "86de631a5e69bc54ab7eb79a6c5b9e10e7b74c9900f0edd357bd60b9beae74554b0bd18664b0b1809d199e710a7654c3eebcd1d8a8ab5f8ae1419adb236711ed"
+RPM_NAME = "clevis-systemd-19-2.1.aarch64.rpm"
+RPM_HASH = "37db32ed6d80469cb1cfe82b57d5873ecfb5d98e49dd2ed7b5d250d0d0ee68159c5894ea0272d6eab184ebff4bcc22bdce240f03381059cf33f8ccea7be8cd3a"
 
 RPROVIDES:${PN} += "clevis-systemd clevis-systemd(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh clevis-luks ncat systemd"
+RDEPENDS:${PN} += "/bin/bash /bin/sh clevis-luks systemd"
 
 inherit rpm

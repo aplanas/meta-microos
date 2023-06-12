@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0 & SUSE-Public-Domain"
 
 PV = "2021.12.17"
 
-RPM_NAME = "youtube-dl-fish-completion-2021.12.17-6.1.noarch.rpm"
-RPM_HASH = "b2aae95ed690223271873ef648dd1534f8cf3d498b811cb4de0e033e6c9c26bf212095fd39dfcd5e4c4f0b2076695e22f8aec3b2890536c202a5a932e85fbc3d"
+RPM_NAME = "youtube-dl-fish-completion-2021.12.17-7.1.noarch.rpm"
+RPM_HASH = "4a1e0e79dc3c97a27a4bec5d62fc88202118e2a7318b87b8783fef59a8b31b566827e399209017ffca0d1aa0b62a7c34d7dd94a6ac5ac3f4e9f9b10e64f6beb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "youtube-dl-fish-completion"

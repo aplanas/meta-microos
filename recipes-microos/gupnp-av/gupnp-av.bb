@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.14.1"
 
-RPM_NAME = "gupnp-av-0.14.1-2.1.aarch64.rpm"
-RPM_HASH = "69b17092300bb0fe48597d679d2c27c788144948aad80a99735cd60cb240d2bfa3f0c687f2495513a5aa43d457e87386b107a720bb6456fdec091adacf4dea17"
+RPM_NAME = "gupnp-av-0.14.1-3.1.aarch64.rpm"
+RPM_HASH = "f19fcad70b23b0f2af4e0c66b8b22aec26f5826400a73b96eb1eefd8838c83562df205a3d65e5187ee8da25bdf7831641761d23d3444f64bb3bf49f3bb362151"
 
 RPROVIDES:${PN} += "gupnp-av gupnp-av(aarch-64)"
 RDEPENDS:${PN} += ""

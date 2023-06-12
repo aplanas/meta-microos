@@ -3,10 +3,10 @@ DESCRIPTION = "A tool to automatically upgrade syntax for newer versions of the 
 programming language."
 LICENSE = "MIT"
 
-PV = "3.2.2"
+PV = "3.4.0"
 
-RPM_NAME = "python39-pyupgrade-3.2.2-1.4.noarch.rpm"
-RPM_HASH = "535fa5f8ad1eba28d9b80a57aa6876685791160170daf0d76c5257eb8e07ddb07da32cfbee98658f6e199d50e5ec465d62003a629d9906512a95cb94c94db80f"
+RPM_NAME = "python39-pyupgrade-3.4.0-1.1.noarch.rpm"
+RPM_HASH = "a743d4a994b53f8e4dec3adfb62b1fe2196f9075e0e48160749e702e67c5557272526096183d8396b485cb9756941b8c63b2019ee0d6f95cca4b9e11e0a0a30a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(pyupgrade) python39-pyupgrade python3dist(pyupgrade)"

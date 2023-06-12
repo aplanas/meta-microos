@@ -6,10 +6,10 @@ capabilities to provide precise information about the properties \
 and root causes of unexpected results."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.1"
+PV = "6.3.4"
 
-RPM_NAME = "rtla-6.3.1-5.1.aarch64.rpm"
-RPM_HASH = "e63e534e26dfc09a44badc6079c3a6fb05456bed1a906b255f150401ad33d4492deb5e256752fc22e62c2e9825e5b87e7c5d8610eee571bc05aec17582d682c7"
+RPM_NAME = "rtla-6.3.4-5.3.aarch64.rpm"
+RPM_HASH = "39dbcda1af9b54c5a3fb3fa9758326a0a4b464c0ffb8dd27c936facc955f94103240dc8fc72667be99f12c2e3920d55a50483908c4f2101cd3c88f841c5b4dc1"
 
 RPROVIDES:${PN} += "rtla rtla(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libtraceevent.so.1()(64bit) libtracefs.so.1()(64bit)"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.25.0"
 
-RPM_NAME = "deepin-kwin-devel-5.25.0-1.1.aarch64.rpm"
-RPM_HASH = "2f0a08ed197f875614fd37646088cf47a803e98c1c25213a51856e62b71ced452a1cccd532bbe9a167007b4ed63f17d79682a10a75846ddd0102b11bf546f57f"
+RPM_NAME = "deepin-kwin-devel-5.25.0-1.2.aarch64.rpm"
+RPM_HASH = "aa8e4ec6c6d827bf1b16778ac69e6df170c566360e2e1630445b02a3e05181ed15b26e2b43b650909495a5f0f919856d9c607cc46c6a8858420bce76c64755d2"
 
 RPROVIDES:${PN} += "cmake(KWinDBusInterface) cmake(KWinEffects) deepin-kwin-devel deepin-kwin-devel(aarch-64)"
 RDEPENDS:${PN} += "deepin-kwin"

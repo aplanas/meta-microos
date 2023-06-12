@@ -3,12 +3,12 @@ DESCRIPTION = "NeoMutt is a command line mail reader based on Mutt, brings toget
 new features. Can be installed in parallel with mutt."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230407"
+PV = "20230517"
 
-RPM_NAME = "neomutt-20230407-1.1.aarch64.rpm"
-RPM_HASH = "547e5e072c439fa7b1d472befe6e5f95e8f2c64aef6e855a18761e7afb006741d987d19b9cad7731cd831e54828c71cf210bca0767209f0ce37e44b6ccd5bc27"
+RPM_NAME = "neomutt-20230517-1.1.aarch64.rpm"
+RPM_HASH = "dee320ba092eda40e8045392b74af71b5b122392f52c501f7aa5f98eeae6dec9f4d80694f775397462f2b5b17180aa173e8d4f35fa8f2c8804f51f7977598842"
 
 RPROVIDES:${PN} += "config(neomutt) neomutt neomutt(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/env /usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgnutls.so.30()(64bit) libgnutls.so.30(GNUTLS_3_4)(64bit) libgpgme.so.11()(64bit) libgpgme.so.11(GPGME_1.0)(64bit) libgpgme.so.11(GPGME_1.1)(64bit) libgssapi_krb5.so.2()(64bit) libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) libidn.so.12()(64bit) libidn.so.12(LIBIDN_1.0)(64bit) libkyotocabinet.so.16()(64bit) liblmdb-0.9.30.so()(64bit) liblua5.4.so.5()(64bit) libncursesw.so.6()(64bit) libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) libnotmuch.so.5()(64bit) libpcre2-8.so.0()(64bit) libsasl2.so.3()(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.1.20000708)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.4.20040208)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) libz.so.1()(64bit) libz.so.1(ZLIB_1.2.0)(64bit)"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/env /usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgnutls.so.30()(64bit) libgnutls.so.30(GNUTLS_3_4)(64bit) libgpgme.so.11()(64bit) libgpgme.so.11(GPGME_1.0)(64bit) libgpgme.so.11(GPGME_1.1)(64bit) libgssapi_krb5.so.2()(64bit) libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) libidn2.so.0()(64bit) libidn2.so.0(IDN2_0.0.0)(64bit) libkyotocabinet.so.16()(64bit) liblmdb-0.9.30.so()(64bit) liblua5.4.so.5()(64bit) libncursesw.so.6()(64bit) libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) libncursesw.so.6(NCURSESTW6_6.1.20171230)(64bit) libnotmuch.so.5()(64bit) libpcre2-8.so.0()(64bit) libsasl2.so.3()(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.1.20000708)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.4.20040208)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) libz.so.1()(64bit) libz.so.1(ZLIB_1.2.0)(64bit)"
 
 inherit rpm

@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.1"
 
-RPM_NAME = "cni-plugin-dnsname-1.3.1-1.8.aarch64.rpm"
-RPM_HASH = "5ad1e79d567ff0f8dfc7518bdd23bac7c281289034123aaf30d872f490b399354ac384a14f28288491ca440bbfe0465e4a8c6194c0153eba4a0b7f81c7815021"
+RPM_NAME = "cni-plugin-dnsname-1.3.1-1.9.aarch64.rpm"
+RPM_HASH = "f2f8ae6e3cf8eef5830dd67545aa21885a12b4018f73c910da44a19be61b735f55558aede38ea6a4fee251daf5f5b92f269394656fb56c8781ee522144f98336"
 
 RPROVIDES:${PN} += "cni-plugin-dnsname cni-plugin-dnsname(aarch-64)"
 RDEPENDS:${PN} += "cni dnsmasq libc.so.6(GLIBC_2.34)(64bit)"

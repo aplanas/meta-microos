@@ -5,10 +5,10 @@ This package contains a search provider to enable GNOME Shell to get \
 search results from Web (epiphany)"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.2"
+PV = "44.3"
 
-RPM_NAME = "gnome-shell-search-provider-epiphany-44.2-1.1.aarch64.rpm"
-RPM_HASH = "3aaa2cf7c093c86ea9c5e8065b869ef77d37c771a24c47f00d8354d0402d1cafc00618d436b938c25ba9bab6b7ae70a8d30f8de388bef421db9aa8c9e67c3f42"
+RPM_NAME = "gnome-shell-search-provider-epiphany-44.3-1.1.aarch64.rpm"
+RPM_HASH = "694187d2ddb59fe61ef3c477e772b894154acd7678d802c11adfab363714fa9744db9128bbe94a03a76f1ef52b2120eafe4cfbf93208f6c20115570baf69d3fa"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-epiphany gnome-shell-search-provider-epiphany(aarch-64)"
 RDEPENDS:${PN} += "epiphany gnome-shell ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libephymain.so()(64bit) libephymisc.so()(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit)"

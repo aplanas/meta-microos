@@ -1,14 +1,14 @@
 SUMMARY = "A SPICE Circuit Optimizer"
-DESCRIPTION = "ASCO project aims to bring circuit optimization capabilities to existing SPICE \
-simulators using a high-performance parallel differential evolution (DE) optimization \
-algorithm. Currently out-of-the-box support for Eldo (TM), HSPICE (R), LTspice (TM), \
-Spectre (R), Qucs and ngspice exist."
+DESCRIPTION = "ASCO brings circuit optimization capabilities to existing SPICE \
+simulators using a parallel differential evolution (DE) optimization \
+algorithm. Currently, out-of-the-box support for Eldo, HSPICE, LTspice, \
+Spectre, Qucs and ngspice exist."
 LICENSE = "GPL-2.0-only"
 
 PV = "0.4.11"
 
-RPM_NAME = "asco-0.4.11-1.7.aarch64.rpm"
-RPM_HASH = "423970055a9b04411e6061ac7964fc0ed027c022fd2e5a6e750a4ab6627409d19d1e20c932ce2b4304e9fa2e04c121a517e78ff1fcf51d93f7b12b93792253ea"
+RPM_NAME = "asco-0.4.11-2.1.aarch64.rpm"
+RPM_HASH = "dc15e5f9c99d0b74b1405b87297abecf50c656eb6c565cdb189cb624a02225a85b7111ef6963f0373bdf49ffdf28df4fabfb441955c479f676638a83ac41cf88"
 
 RPROVIDES:${PN} += "asco asco(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit)"

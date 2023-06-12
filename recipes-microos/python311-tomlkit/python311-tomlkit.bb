@@ -2,10 +2,10 @@ SUMMARY = "Style preserving TOML library"
 DESCRIPTION = "Style preserving TOML library"
 LICENSE = "MIT"
 
-PV = "0.11.7"
+PV = "0.11.8"
 
-RPM_NAME = "python311-tomlkit-0.11.7-2.1.noarch.rpm"
-RPM_HASH = "07df80dcf442cf25188e747599025072b745ec408d9a0ebef7ddb1b0ffda2c4253107d2fda850467100addb35002c4239169aab818b1a98e81f59d6c3b9de572"
+RPM_NAME = "python311-tomlkit-0.11.8-1.1.noarch.rpm"
+RPM_HASH = "b396def631fb18c6eada7069b4356324f1f0a846a9cda30ef8aa007052661d3affe502da8e69e8e078d3d79d2c8f129c1aef9c1030a23c4f39c43dd18c80b702"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(tomlkit) python311-tomlkit python3dist(tomlkit)"

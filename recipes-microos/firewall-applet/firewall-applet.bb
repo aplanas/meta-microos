@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "firewall-applet-1.3.2-1.1.noarch.rpm"
-RPM_HASH = "371e15c856ba297ef7266036b0179c28b498808eff2193d51d9c374e5d969ea2d4a394c090535b80cfee3cc128f76ff60fee115fbfe4b2ea9092ff4596534f36"
+RPM_NAME = "firewall-applet-1.3.2-2.1.noarch.rpm"
+RPM_HASH = "d8df94fe41843b6b646181ce6f3c2ef4ef2de2e5bedbfa349f6be362e90ba1404cecf699231810071063afbfa4a5ef73a99c29f9af1ebdff8a53762b9a766196"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(firewall-applet) firewall-applet"

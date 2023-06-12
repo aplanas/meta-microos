@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.16.1"
 
-RPM_NAME = "libAppStreamQt-devel-0.16.1-2.3.aarch64.rpm"
-RPM_HASH = "35bbf1abacb778ab9eeaf9f1ffc4e64d63dc83d988ac63bf1e5f038b3e8618b6fa15b8cd2b2ee33af7934247ce32bca99a7456d9ee944b199cc6e06591933167"
+RPM_NAME = "libAppStreamQt-devel-0.16.1-3.1.aarch64.rpm"
+RPM_HASH = "12e324995e6ce6f9a4be8ba0d964ebd4c72a4e823e9dc35fa603768090da2f533a9817f8f1ec7e76dacb938731265d68e89eed7585dd1fb4921256ed7bb95cbc"
 
 RPROVIDES:${PN} += "cmake(AppStreamQt) libAppStreamQt-devel libAppStreamQt-devel(aarch-64)"
 RDEPENDS:${PN} += "libAppStreamQt2 libappstream4"

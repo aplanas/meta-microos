@@ -2,10 +2,10 @@ SUMMARY = "Apple SOC based arm64 systems"
 DESCRIPTION = "Device Tree files for Apple SOC based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.1"
+PV = "6.3.4"
 
-RPM_NAME = "dtb-apple-6.3.1-1.2.aarch64.rpm"
-RPM_HASH = "5d291c448139579a9cc113b75ad3f83dd487b492c59264b3e8509bf392b26274aa0c57371aac3f324d8dfbc4c124827f70fe2721d62e32161d32215c79d37701"
+RPM_NAME = "dtb-apple-6.3.4-1.1.aarch64.rpm"
+RPM_HASH = "19bad81f8441363d8f2ab322591dcfcc7884782c8746c1ff0e1e0527ca188b58590ca38f683113e233a4ca40a58a27fef5ca83d8691af1434619775555eeebaa"
 
 RPROVIDES:${PN} += "dtb-apple dtb-apple(aarch-64) multiversion(dtb)"
 RDEPENDS:${PN} += "/bin/sh coreutils"

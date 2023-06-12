@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the documentation for Zebra.  Zebra is a fi
 free text indexing and retrieval engine with a Z39.50 front-end."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.2.6"
+PV = "2.2.7"
 
-RPM_NAME = "idzebra-doc-2.2.6-1.4.aarch64.rpm"
-RPM_HASH = "87a7622148db5151f9aba90e13fadea3a583e2fe80c187ff3feecfc46eb500eaf1869e78daea54cbce3858843794a3228695a123554af17333765efbd10b19d5"
+RPM_NAME = "idzebra-doc-2.2.7-1.1.aarch64.rpm"
+RPM_HASH = "efc674e7e8e58175172f6cbcc33087bf910ee1ec70bc9700d0139c11553fd7bc771166bab046b41574b054d81f40101028735eee111754a293595897e4576286"
 
 RPROVIDES:${PN} += "idzebra-doc idzebra-doc(aarch-64)"
 RDEPENDS:${PN} += "idzebra"

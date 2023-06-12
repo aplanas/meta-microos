@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "22.11.1"
 
-RPM_NAME = "dpdk-devel-22.11.1-2.1.aarch64.rpm"
-RPM_HASH = "e8d415625c5dde65c118f40d56929fd50c3d38387b9704a580782dc57fe1d029d7e5073be26084f2e8c36c808b10ee4bd6520125d9866be33a422e5d75edbdb7"
+RPM_NAME = "dpdk-devel-22.11.1-2.4.aarch64.rpm"
+RPM_HASH = "a9f61e0b7c253f74f8ccb030accc4bb4e60c7f6b43d7e874e5962caa06348c716e5a1629ef7c30a690e2c4e1ca1b691005378bf5cb449518b2fa73ddab61a0e4"
 
 RPROVIDES:${PN} += "dpdk-any-devel dpdk-devel dpdk-devel(aarch-64) pkgconfig(libdpdk) pkgconfig(libdpdk-libs)"
 RDEPENDS:${PN} += "/sbin/ldconfig /usr/bin/pkg-config libdpdk-23 pkgconfig(jansson) pkgconfig(libcrypto) pkgconfig(libdpdk-libs) pkgconfig(libelf) pkgconfig(libibverbs) pkgconfig(libmlx4) pkgconfig(libmlx5) pkgconfig(libpcap) pkgconfig(zlib)"

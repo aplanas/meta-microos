@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20230308.4ed55cf"
 
-RPM_NAME = "docserv-sitemap-20230308.4ed55cf-1.3.aarch64.rpm"
-RPM_HASH = "c12f2be470396f0a5d2e309ca4e477aea86c259262f622c15fa61e8268ac2cf6ca1b281c225eeaafc92d11cf11bb9ec3aa94678a51c18a8e6fb252dfeb411bc9"
+RPM_NAME = "docserv-sitemap-20230308.4ed55cf-1.4.aarch64.rpm"
+RPM_HASH = "6c99af11abf3201f37bdcf95d44472daf825d521355542de68f1c6b0d491d78c3d54971aa3f3dcd642dad5ab325b6998f7a7f72bb4e395c9b151a220b99b2682"
 
 RPROVIDES:${PN} += "docserv-sitemap docserv-sitemap(aarch-64)"
 RDEPENDS:${PN} += ""

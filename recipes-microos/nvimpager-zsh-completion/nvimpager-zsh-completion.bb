@@ -2,10 +2,10 @@ SUMMARY = "Zsh completion for nvimpager"
 DESCRIPTION = "Zsh command line completion support for nvimpager."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.11.0"
+PV = "0.12.0"
 
-RPM_NAME = "nvimpager-zsh-completion-0.11.0-1.2.noarch.rpm"
-RPM_HASH = "5dfc77ad8c95eff47e11db07defbf52b99d985548c36d9148e59e286a6448a40daf347cae986bf4877f6e1d3f1b8e3865b03a0865374c35fc7bcbad6551a2aa5"
+RPM_NAME = "nvimpager-zsh-completion-0.12.0-1.1.noarch.rpm"
+RPM_HASH = "7e795dfeedd4bda4c82b530deb97c70232b71dec59343f2f6027299999899e8af9460754d046981e627b881d7f789554b07344af67f84f8e5192ded66d1c31b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nvimpager-zsh-completion"

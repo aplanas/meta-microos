@@ -10,10 +10,10 @@ the command line as well as through C, C++, and Perl-based programming \
 interfaces."
 LICENSE = "ImageMagick"
 
-PV = "7.1.1.8"
+PV = "7.1.1.11"
 
-RPM_NAME = "ImageMagick-devel-7.1.1.8-1.1.aarch64.rpm"
-RPM_HASH = "cee8bfe2ae53b64efd1345f938c00955b498c2f4bcdcb3a61b7fad065bded7468e15f5e42ec220c26136a357fa6182aed5f31a689a3f4c520e29b1cea019f96b"
+RPM_NAME = "ImageMagick-devel-7.1.1.11-1.1.aarch64.rpm"
+RPM_HASH = "9624275c8d0c9566af6254e9b3cc8c9ebf073b06f7e2c926c0b817fd24bb728ba534332e310fe5534ba73b2ad93c2d955a174ff45c98ab8d1cd00bb183acb921"
 
 RPROVIDES:${PN} += "ImageMagick-devel ImageMagick-devel(aarch-64) pkgconfig(ImageMagick) pkgconfig(ImageMagick-7.Q16HDRI) pkgconfig(MagickCore) pkgconfig(MagickCore-7.Q16HDRI) pkgconfig(MagickWand) pkgconfig(MagickWand-7.Q16HDRI)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config ImageMagick glibc-devel libMagickCore-7_Q16HDRI10 libMagickWand-7_Q16HDRI10 pkgconfig(MagickCore-7.Q16HDRI) pkgconfig(bzip2)"

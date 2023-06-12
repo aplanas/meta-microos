@@ -8,13 +8,13 @@ the interface also provides controls to configure the extensions' options. \
 This package provides the jupyter components."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.6.1"
+PV = "0.6.3"
 
-RPM_NAME = "jupyter-jupyter_nbextensions_configurator-0.6.1-1.3.noarch.rpm"
-RPM_HASH = "a045f40480a9003dd72965e908b5a902ff3f914aa97588ad56ed321413e029a43980395c1d9a0fbe5e79a6f398f062450ea1a9fedd7a68f3bdcf560232969a5b"
+RPM_NAME = "jupyter-jupyter_nbextensions_configurator-0.6.3-1.1.noarch.rpm"
+RPM_HASH = "64062752c4bb796fc6ff3955235ebfe2e4f1ccbf030de2af246fabe13b20307f2ff0e32f7777ac258c417845323b15a2cbb9306ad15c9531061cd89f9a5faa49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter_nbextensions_configurator"
-RDEPENDS:${PN} += "(python39-jupyter_nbextensions_configurator = 0.6.1 or python311-jupyter_nbextensions_configurator = 0.6.1 or python310-jupyter_nbextensions_configurator = 0.6.1) /usr/bin/python3.10 jupyter-jupyter_contrib_core jupyter-jupyter_core jupyter-notebook"
+RDEPENDS:${PN} += "(python39-jupyter_nbextensions_configurator = 0.6.3 or python311-jupyter_nbextensions_configurator = 0.6.3 or python310-jupyter_nbextensions_configurator = 0.6.3) /usr/bin/python3.10 jupyter-jupyter_contrib_core jupyter-jupyter_core jupyter-notebook"
 
 inherit rpm

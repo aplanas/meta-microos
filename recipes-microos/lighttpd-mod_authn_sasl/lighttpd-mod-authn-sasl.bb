@@ -2,10 +2,10 @@ SUMMARY = "SASL authentication in lighttpd"
 DESCRIPTION = "A module to provide SASL authentication in lighttpd."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.69"
+PV = "1.4.71"
 
-RPM_NAME = "lighttpd-mod_authn_sasl-1.4.69-1.3.aarch64.rpm"
-RPM_HASH = "6dce6f5d21aab5f14113d2df912f3f020389702eb368f04ed37072288c312d242f18922ca81e1e5ee22f15bab1dad583aefb6e82804e15f6de399704b25d4be2"
+RPM_NAME = "lighttpd-mod_authn_sasl-1.4.71-1.1.aarch64.rpm"
+RPM_HASH = "82d8a56279994294a3ee7364d1dcb4382a0e934a5fa0753d45aed5cae6120943849cfe44c23cbba30e6427668d807a8f92f5290d3ca7b642618d3128398ec9cb"
 
 RPROVIDES:${PN} += "lighttpd-mod_authn_sasl lighttpd-mod_authn_sasl(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) libsasl2.so.3()(64bit) lighttpd"

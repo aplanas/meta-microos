@@ -8,10 +8,10 @@ context-free grammar, and some more powerful grammars. There are several railroa
 generators out there, but none of them had the visual appeal I wanted, so I wrote my own."
 LICENSE = "CC0-1.0"
 
-PV = "1.1.1"
+PV = "3.0.1"
 
-RPM_NAME = "python311-railroad-diagrams-1.1.1-2.1.noarch.rpm"
-RPM_HASH = "e97986a6c682d86aef2811e6d6ac07b4616d10739d4822bcaff7d1f7e4146889d648a78112d4f99ea7ede5c437ee6d3edca5b67be12c2b6824766a8825a0749a"
+RPM_NAME = "python311-railroad-diagrams-3.0.1-1.1.noarch.rpm"
+RPM_HASH = "d6a730fb3fd4e735ff8fe4deb8707f4a292d1dc8ac5e637836e4d43c986904579f29efee264be684f4bb47c2bd225608aa657de6d42aefa1ebc7f1fdd97425f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(railroad-diagrams) python311-railroad-diagrams python3dist(railroad-diagrams)"

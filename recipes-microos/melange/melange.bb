@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.2"
 
-RPM_NAME = "melange-0.3.2-1.1.aarch64.rpm"
-RPM_HASH = "e304bd7ea8828826a1bcaa36dcb1a8df73ae45d06276e541c1bd7c5607ac87147de5104eb37471bae4dd776d25fc143f5602b68b25cc225de761ee0a8d8a74c2"
+RPM_NAME = "melange-0.3.2-1.2.aarch64.rpm"
+RPM_HASH = "e38b2e4f654abea85e3ecf0d479553be30f3e4d08a7b6d3166d976f3ed2443f8ab566b20bc18e5c6cec48a85b8ea366cc061999bd895dc128a37fde8a4394ed5"
 
 RPROVIDES:${PN} += "melange melange(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

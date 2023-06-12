@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.999"
 
-RPM_NAME = "xsane-0.999-3.18.aarch64.rpm"
-RPM_HASH = "428d47af8cd633a929da4676b4c73a610046114d16e70e367f78ab2aec8682ebe3c8a9ad8c2ac25e4b1cc7d0bd5f6dfc6a637bf6ca3fdf2f5584581fb5748344"
+RPM_NAME = "xsane-0.999-4.1.aarch64.rpm"
+RPM_HASH = "d668cfc37a9de3e294aed2b98c40c32cf2952ef48c92216b0eedd8fec1e488d277e2f76033759b30476c34ebf26d900e6490dd6614a685d493807bd1d09bb08d"
 
 RPROVIDES:${PN} += "application() application(xsane.desktop) gimp-2.0-scanner-plugin xsane xsane(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgdk-x11-2.0.so.0()(64bit) libgimp-2.0.so.0()(64bit) libgimpbase-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgtk-x11-2.0.so.0()(64bit) libjpeg.so.8()(64bit) libjpeg.so.8(LIBJPEG_8.0)(64bit) liblcms2.so.2()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libpng16.so.16()(64bit) libpng16.so.16(PNG16_0)(64bit) libsane.so.1()(64bit) libtiff.so.6()(64bit) libtiff.so.6(LIBTIFF_4.0)(64bit) libz.so.1()(64bit) sane-backends xdg-utils"

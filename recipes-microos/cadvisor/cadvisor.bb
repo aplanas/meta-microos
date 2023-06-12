@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.46.0"
 
-RPM_NAME = "cadvisor-0.46.0-1.3.aarch64.rpm"
-RPM_HASH = "93c899616a9344a94408fe06fc30132e8d891271e14baeb2b9f01770fd937abaa80591936dfa9511b5f22c77dc4b308acc9688e8fc4b8139a278689a60840550"
+RPM_NAME = "cadvisor-0.46.0-1.4.aarch64.rpm"
+RPM_HASH = "b98da04cdb3bdf3c75227abbcd53eaeb6ff3f2b65637b661580221bffebbbf23ebeb8cea0d90e6051150f5e0983ff30b3e0e5213589f317c00352655d6fa52a4"
 
 RPROVIDES:${PN} += "cadvisor cadvisor(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch ca-certificates fillup git-core libc.so.6(GLIBC_2.34)(64bit) rpm"

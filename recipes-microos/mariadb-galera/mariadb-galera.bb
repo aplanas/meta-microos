@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains configuration files and scripts that are \
 needed for running MariaDB Galera Cluster."
 LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
-PV = "10.11.2"
+PV = "10.11.3"
 
-RPM_NAME = "mariadb-galera-10.11.2-2.3.aarch64.rpm"
-RPM_HASH = "a781b2aedf283006f7a6bccb29a270001f577062be5c48add53e2e9f2620371eb79f0d3af984ea67a70a25ea9e05df9f3249d444f1c1ca34976a746d33a68975"
+RPM_NAME = "mariadb-galera-10.11.3-1.1.aarch64.rpm"
+RPM_HASH = "bd526e6b6b0ddffa97e3b6d67bdce0adf9a1699c63cfbe30f538161c9a8d7dc6875ba0ea13eb42506c6eb5fe2a2e707aa3214b93e75b738ea91e4914c6c1f2e0"
 
 RPROVIDES:${PN} += "config(mariadb-galera) mariadb-galera mariadb-galera(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/env galera-4 iproute2 lsof mariadb rsync socat which"

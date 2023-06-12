@@ -3,10 +3,10 @@ DESCRIPTION = "This package is using the kernel compiled within Open Build Servi
 projects and runs basic tests."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.1"
+PV = "6.3.4"
 
-RPM_NAME = "kernel-obs-qa-6.3.1-1.2.aarch64.rpm"
-RPM_HASH = "d73a22252fcd42b7e4ac4b19a3d3ffc8ede0154ad258143552284c34a944a1e8f5f77719cf005d968752771d1c88330c8f4591d92c228da51c9376eba762e85d"
+RPM_NAME = "kernel-obs-qa-6.3.4-1.1.aarch64.rpm"
+RPM_HASH = "13ca717094e15bd944b87bd02d89cc4bd09db07ee0845e6ab19f23cc4278afb38c5620b58957cb9b410158998c095d46c08aaa460ba4e8fcd165f0d889bdcae2"
 
 RPROVIDES:${PN} += "kernel-obs-qa kernel-obs-qa(aarch-64)"
 RDEPENDS:${PN} += ""

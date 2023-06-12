@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.8"
 
-RPM_NAME = "python311-argcomplete-3.0.8-1.1.noarch.rpm"
-RPM_HASH = "ed2b9472886836f8d68d190fb2a465c6f57f18f68ad9ffb59c5d06ba65a4ba59f0a0b32cb3ad48d687f43b435aad81218e18cfb61846c1f597f6e5b5999ce585"
+RPM_NAME = "python311-argcomplete-3.0.8-2.1.noarch.rpm"
+RPM_HASH = "0c739108628a9002ae8969376f42de4a1031388c84b72b23480ad04d1269354611b4c51c890208b6c248c2dcf3c9ea779dd880288b5088c4f90e76973e0ac6e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(argcomplete) python311-argcomplete python3dist(argcomplete)"

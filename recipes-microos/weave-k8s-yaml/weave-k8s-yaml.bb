@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.1"
 
-RPM_NAME = "weave-k8s-yaml-2.8.1-3.7.noarch.rpm"
-RPM_HASH = "5d8bf4cafc32476163ae7e27d3fb12afb29fc54cfb21204bc92a4403468b122378fe6ea8d0ffa7d273d9a1eed525cf634d61834218492187ed28e4ad21d9f126"
+RPM_NAME = "weave-k8s-yaml-2.8.1-3.8.noarch.rpm"
+RPM_HASH = "829435763e706d481664d6b31a6b005716b5bdf360f057e5dca91ea058177bd97b4447e0cad36210b1b74fa0fa2b1bd74ca3104a69cb6b507329d4650d9b7794"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "weave-k8s-yaml"

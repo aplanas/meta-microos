@@ -3,10 +3,10 @@ DESCRIPTION = "Support for Japanese; additional packages are in \
 collection-langcjk."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64603"
+PV = "2023.208.svn64603"
 
-RPM_NAME = "texlive-collection-langjapanese-2023.201.svn64603-56.1.noarch.rpm"
-RPM_HASH = "8d6a83b55bade5f23267f294c96f435a638dadf71e6aa04277564d0ab9fcccd58bd118a45f19bbcb499077ab44d022dd6a8fd0a46598f5d70c3e57fa472df4bf"
+RPM_NAME = "texlive-collection-langjapanese-2023.208.svn64603-58.1.noarch.rpm"
+RPM_HASH = "d93df140404826caebbdd5acd7eeafbca42882a6e69de0a57b0483893c816357ab3dadc52a659f9b4ef5ef588f6a092a39a448dbe589212e6561bbc682987162"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langjapanese"

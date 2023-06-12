@@ -3,10 +3,10 @@ DESCRIPTION = "The GNU diff utilities find differences between files. diff is us
 make source code patches, for instance."
 LICENSE = "GFDL-1.2-only & GPL-3.0-or-later"
 
-PV = "3.9"
+PV = "3.10"
 
-RPM_NAME = "diffutils-3.9-1.3.aarch64.rpm"
-RPM_HASH = "bb7f5bd1e58bbf7092c237e69e025742d9c7da4e20e5e9903d4c117441e08f093246892010d95ce003010421e310b4e1fa95a54ba5c860a53f2d0589d216b86f"
+RPM_NAME = "diffutils-3.10-1.1.aarch64.rpm"
+RPM_HASH = "723bc09c5700c1c4af026fc80958b3ad4bc0432dc8c3ce3ad27b483dbd70afb00325924bca9f5213e8a471a86805bb08f1a36696073f700989ffea8f76253217"
 
 RPROVIDES:${PN} += "diff diffutils diffutils(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"

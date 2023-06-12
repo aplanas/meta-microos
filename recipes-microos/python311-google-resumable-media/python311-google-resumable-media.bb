@@ -2,10 +2,10 @@ SUMMARY = "Utilities for Google Media Downloads and Resumable Uploads"
 DESCRIPTION = "Utilities for Google Media Downloads and Resumable Uploads"
 LICENSE = "Apache-2.0"
 
-PV = "2.4.1"
+PV = "2.5.0"
 
-RPM_NAME = "python311-google-resumable-media-2.4.1-1.2.noarch.rpm"
-RPM_HASH = "eccd3ae2f6d2c59f0bd50abeda71346c2bf19427425c920e64c73ec36cc9fd130bf6692cad823f5e2d4f3b90531d441344dd128b7835f2dfc2235e43471be471"
+RPM_NAME = "python311-google-resumable-media-2.5.0-1.1.noarch.rpm"
+RPM_HASH = "c9e580d5c747ddfd2ce59196b84be46665de78d3fcdbaf59535ce4ab7c6cdf9b156200ca2fc8d1fb27a79dcb2d3035d55796c12bf021167024257caa660c6752"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(google-resumable-media) python311-google-resumable-media python3dist(google-resumable-media)"

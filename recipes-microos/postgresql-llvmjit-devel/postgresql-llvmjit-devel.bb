@@ -12,8 +12,8 @@ LICENSE = "PostgreSQL"
 
 PV = "15"
 
-RPM_NAME = "postgresql-llvmjit-devel-15-2.4.noarch.rpm"
-RPM_HASH = "b5dad9c5d9512fa518388430c07cabca95a45981a5ada360fdf0a6884730ed2e98ce773039ea4c58ebe85d8fe0bb55b2aa22833cf109a58d1e7bfd31dd070d63"
+RPM_NAME = "postgresql-llvmjit-devel-15-2.7.noarch.rpm"
+RPM_HASH = "49b429336551108fa75bffa22685f41da424ee0696752493493f13826051ca1af31f058756e664f1d7586cceaea9b1b1a28bc58ecc2216ecc8ff36044aa37f41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-llvmjit-devel postgresql-llvmjit-devel-noarch"

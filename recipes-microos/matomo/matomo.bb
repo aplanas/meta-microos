@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.14.2"
 
-RPM_NAME = "matomo-4.14.2-1.1.noarch.rpm"
-RPM_HASH = "2717e78fab932d3ecb8dbd8f06796836e45e2c16da958503927b3b9804ab6c60049ec8fe0c2bfafa70282856700ef4e9d91532202f332f48ca53bdb668ab8454"
+RPM_NAME = "matomo-4.14.2-1.2.noarch.rpm"
+RPM_HASH = "faefa8bc4270ac7d8c77c4a213cd25e5965ac99b72910e8e989ae3256375eb7286ab6537b3c8f4c8043093b6489af58d4cc793fc45725cec65c8c90ac12e36db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(matomo) matomo"

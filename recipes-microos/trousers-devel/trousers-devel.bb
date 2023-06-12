@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.15"
 
-RPM_NAME = "trousers-devel-0.3.15-5.6.aarch64.rpm"
-RPM_HASH = "d9d0b4a471253fa8285c4f5a7f531d46df9e1c3443f45cc297e0e55f8fd78f47caaf50cfbb73921eaac15c8a6fe887bb2dfb83584948ebf00b0aec45cb8d60b0"
+RPM_NAME = "trousers-devel-0.3.15-6.1.aarch64.rpm"
+RPM_HASH = "d4f01e50cb6b630b68669a73daf86f1932a0f6b411dbdf4d5e67bdaaf9d6120e6b1a98b3a5d82c3801987c25dcf3d8f69924de9806b6368a420a7d8d35dc9431"
 
 RPROVIDES:${PN} += "trousers-devel trousers-devel(aarch-64)"
 RDEPENDS:${PN} += "glibc-devel libopenssl-devel libtspi1 trousers"

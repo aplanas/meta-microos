@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.24.13"
 
-RPM_NAME = "kubernetes1.24-kubeadm-1.24.13-2.1.aarch64.rpm"
-RPM_HASH = "81769157ec4531d52a02c6215cf27d1a99b95dd0faf1e8fe2feb4e4d4c1d716f63d50e5ee62e199b4f0d30f895890baf3bec35da78985c4fd2bbdb84547131e6"
+RPM_NAME = "kubernetes1.24-kubeadm-1.24.13-2.2.aarch64.rpm"
+RPM_HASH = "a231d4ffce1c29d6eaac1853680c25e23ef04228f366c45c7f133092a3b52976fff9288e5aede88fef62737237fe4fea18a840826ed49a0b74640e8d2c0ac2de"
 
 RPROVIDES:${PN} += "kubernetes-kubeadm-provider kubernetes1.24-kubeadm kubernetes1.24-kubeadm(aarch-64)"
 RDEPENDS:${PN} += "(kmod(br_netfilter.ko) if kernel) (kubernetes1.24-kubelet or kubernetes1.23-kubelet) cri-runtime cri-tools ebtables ethtool kubernetes-kubeadm-criconfig shadow socat"

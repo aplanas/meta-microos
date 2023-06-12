@@ -2,10 +2,10 @@ SUMMARY = "openSUSE branding of sway"
 DESCRIPTION = "This package provides the openSUSE look and feel for sway."
 LICENSE = "MIT"
 
-PV = "0.15.1"
+PV = "0.15.2"
 
-RPM_NAME = "sway-branding-openSUSE-0.15.1-1.1.noarch.rpm"
-RPM_HASH = "d934266f130583058a2ca271e8ef6618d197defed2228525ac8269ffd8c6a200216156806b1ef4d60a28dc3549b4dd82bd52fcf9828e87e635ac04ff52564c6a"
+RPM_NAME = "sway-branding-openSUSE-0.15.2-1.1.noarch.rpm"
+RPM_HASH = "dd1d90a572c355f62c941e9b800e454e24c102bfe3a41edc3fa31e9c95d9026b90f96c7a012bb49278d926d7216682241accfaa019dc2b20945dcc132a8aad7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(sway-branding-openSUSE) sway-branding sway-branding-openSUSE"

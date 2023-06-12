@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.3.4"
 
-RPM_NAME = "python311-leather-0.3.4-1.6.noarch.rpm"
-RPM_HASH = "fb84ce6f2b09d7cd311a90b23d01a825e7dbdafcab9cb12ca98a25c506a8e42e7243123893b6b82a4dc1236429d8651d823fcbc42edcb5a50b61523bbad79b28"
+RPM_NAME = "python311-leather-0.3.4-2.1.noarch.rpm"
+RPM_HASH = "2ea61f3afbdb5187c7b57398d30a636dbc3eba165a566246f6fb04800debde5cfd3b553374ce2df534f9953a315b64831e9be353d45183fb65cb59fddfc55b97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(leather) python311-leather python3dist(leather)"
-RDEPENDS:${PN} += "python(abi) python311-six"
+RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

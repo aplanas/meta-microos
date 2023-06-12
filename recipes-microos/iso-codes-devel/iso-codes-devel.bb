@@ -4,10 +4,10 @@ Territory code list, and ISO-3166-2 sub-territory lists, and all their \
 translations in gettext .po form."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.13.0"
+PV = "4.15.0"
 
-RPM_NAME = "iso-codes-devel-4.13.0-1.1.noarch.rpm"
-RPM_HASH = "e1ddaff2ee1b8f25f68ad5fdc56645b1d12aa10b1e73176d35ce0fe52946110f51c42e721a937fcd4c2f5990181dc0756e4fbb2a2016f1e68ed8892b557e58e8"
+RPM_NAME = "iso-codes-devel-4.15.0-1.1.noarch.rpm"
+RPM_HASH = "c8048164b2e86d67a2b33262f07805787e2f6ba4a279d0c336abee4377cc3cc971493a6eeed65cd84aca02ddd13386043af80fb671683875c89fb334cdd80bc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iso-codes-devel pkgconfig(iso-codes)"

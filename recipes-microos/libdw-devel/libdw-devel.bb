@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "0.189"
 
-RPM_NAME = "libdw-devel-0.189-2.3.aarch64.rpm"
-RPM_HASH = "b4823370d1a57d8c985eb58333a86fc565c0fe7d687ceaf738ecabc71bdaa2f26c18c25b613aca83555fbef6e6eeaab919be6f0354261305c6431f88d768a492"
+RPM_NAME = "libdw-devel-0.189-3.1.aarch64.rpm"
+RPM_HASH = "45a724d23e08d7c0d28737dfa9d033d081a56f16e95e80a4b431d04cc59194c664cdefb4558d11cc2ce59db63682d8f8df4f78c7b6604a3b334b71bd3172e26b"
 
 RPROVIDES:${PN} += "libdw-devel libdw-devel(aarch-64) pkgconfig(libdw)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config glibc-devel libdw1 libelf-devel pkgconfig(libelf) pkgconfig(liblzma) pkgconfig(libzstd) pkgconfig(zlib)"

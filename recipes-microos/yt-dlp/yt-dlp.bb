@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-3.0 & SUSE-Public-Domain"
 
 PV = "2023.03.04"
 
-RPM_NAME = "yt-dlp-2023.03.04-1.1.noarch.rpm"
-RPM_HASH = "4ceefbb4ea0e90fb7d40d371063ecf17593b5ddb409f61b046b5869c9ca5a8dc45429154596c2e4e8d6b48660a1e5b762f37e0eb104d0a24b763c7a217a2c3ab"
+RPM_NAME = "yt-dlp-2023.03.04-2.1.noarch.rpm"
+RPM_HASH = "20ac3c5f40f6cb07b82828d6b746a72b6c9feaeaa72b6774c195e098d7a5fdd81a5907f1a9cb852bdffe757aab29253a9f1e3957e3af918360ba2cd4220a04b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yt-dlp"

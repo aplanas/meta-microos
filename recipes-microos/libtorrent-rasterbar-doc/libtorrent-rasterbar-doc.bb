@@ -2,10 +2,10 @@ SUMMARY = "Documentation for libtorrent-rasterbar"
 DESCRIPTION = "Documentation for the libtorrent-rasterbar package."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.8"
+PV = "2.0.9"
 
-RPM_NAME = "libtorrent-rasterbar-doc-2.0.8-2.2.noarch.rpm"
-RPM_HASH = "a836826031d34514af7ba7a480da9218d7f7daf1e2af1e5f7ab28582d3ba98f0aa4a691c59d9ed8b03c300e97484ea980e9390ecc5764cee7fec0902055b2ece"
+RPM_NAME = "libtorrent-rasterbar-doc-2.0.9-1.1.noarch.rpm"
+RPM_HASH = "9e4f34c1a21b69cd2857a08428a017072144a0f99e354a50adf5d510bfd4b30a66e595eba3e012c1d44753b8668a5338975d4b0cfa2295f539fc8a9f151b7c78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libtorrent-rasterbar-doc"

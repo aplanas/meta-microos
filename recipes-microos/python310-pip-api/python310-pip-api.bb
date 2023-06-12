@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.0.30"
 
-RPM_NAME = "python310-pip-api-0.0.30-1.3.noarch.rpm"
-RPM_HASH = "cbd5cc6892188cc35489d0d8b46b3b75e2df4801e8e5858293fc3d452396a5f4018d3bbb9b88f8825ed36b929281778b1baad40453adde67d8d13586370b00a3"
+RPM_NAME = "python310-pip-api-0.0.30-2.1.noarch.rpm"
+RPM_HASH = "40838f9b84adf97f1d82abf5b78222f0bf8cc4dd858b78fb663f870136aff179f5709f9369fb10db11a11ccbe606b43927ef5e28c6fb8e459178717f58fd362b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pip-api python3.10dist(pip-api) python310-pip-api python3dist(pip-api)"

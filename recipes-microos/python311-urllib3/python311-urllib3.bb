@@ -15,13 +15,13 @@ DESCRIPTION = "Highlights \
   Requests which is also powered by urllib3."
 LICENSE = "MIT"
 
-PV = "1.26.15"
+PV = "2.0.2"
 
-RPM_NAME = "python311-urllib3-1.26.15-2.1.noarch.rpm"
-RPM_HASH = "c6b666d2ba458e8634a7ffebc406ad1f372ae559c9f8365be0888289b8aefce6f69d9746f29dcd0656ab1e3eaccabdfc346bb96b9c1e9ab340956f5834dd1155"
+RPM_NAME = "python311-urllib3-2.0.2-1.1.noarch.rpm"
+RPM_HASH = "5ab73e3b511d2f96d81a6f98907af4c8f0110c6ec75cdd6452a2bc0fd2023acf3909c385dffb4af1ec4005ab7f6352af55bba2f679d5fa2fb7e892f78bbc034c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(urllib3) python311-urllib3 python3dist(urllib3)"
-RDEPENDS:${PN} += "ca-certificates-mozilla python(abi) python311-certifi python311-cryptography python311-idna python311-pyOpenSSL python311-six"
+RDEPENDS:${PN} += "ca-certificates-mozilla python(abi) python311-certifi python311-cryptography python311-idna python311-pyOpenSSL"
 
 inherit rpm

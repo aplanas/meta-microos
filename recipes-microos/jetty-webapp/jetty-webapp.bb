@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The webapp module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.48"
+PV = "9.4.51"
 
-RPM_NAME = "jetty-webapp-9.4.48-3.1.noarch.rpm"
-RPM_HASH = "5c856fa9ec50a3877977cedc2a1f59b217c82d39f5f13c0dd358961e17de7610e63e170356f7b75bbf9d30223d1a0a79bd9c1e2b9115e4818824529e419e6900"
+RPM_NAME = "jetty-webapp-9.4.51-1.1.noarch.rpm"
+RPM_HASH = "3dc3a266bc05e494275dad560146af20fd4f9611cd0f81f356bbb361e9d5f2f9aefe91cb6065497aede72ccc0a3862d6158e3c5290d6e705d165d5d8fb12b119"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-webapp mvn(org.eclipse.jetty:jetty-webapp) mvn(org.eclipse.jetty:jetty-webapp:pom:) osgi(org.eclipse.jetty.webapp)"

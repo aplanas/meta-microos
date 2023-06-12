@@ -9,13 +9,16 @@ preloading it into the game. \
  \
 For Steam games this can be done by editing the launch options: \
  \
-    LD_PRELOAD=$LD_PRELOAD:/usr/lib64/libgamemodeauto.so.0 %command%"
+    LD_PRELOAD=$LD_PRELOAD:/usr/lib64/libgamemodeauto.so.0 %command% \
+ \
+Nowadays this however can be easier done by using the gamemoderun command \
+from the gamemode package."
 LICENSE = "BSD-3-Clause"
 
 PV = "1.7"
 
-RPM_NAME = "libgamemodeauto0-1.7-2.2.aarch64.rpm"
-RPM_HASH = "7954867632b0e911633dcf0109a24ae9b01ab35d44db00e7f4f01d4783a6d4ade447a48f7fde2328acac7116fe65dc1384d712be220019024450d50ac6cfcadf"
+RPM_NAME = "libgamemodeauto0-1.7-3.1.aarch64.rpm"
+RPM_HASH = "a18bd73d30dcb5421fb02f67918222b810ad100fc0d11ea02d17764da8099cf458d7274900595261dee1683ec0f9ac067783c6acc1c8d2ee026a1cce94515dae"
 
 RPROVIDES:${PN} += "libgamemodeauto.so.0()(64bit) libgamemodeauto0 libgamemodeauto0(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgamemode0"

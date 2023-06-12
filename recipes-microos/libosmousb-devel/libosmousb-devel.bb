@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libosmousb."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.7.0"
+PV = "1.8.0"
 
-RPM_NAME = "libosmousb-devel-1.7.0-2.4.aarch64.rpm"
-RPM_HASH = "5e5fc5e0dda105162fbbc1a1038faaabae4fd4f1d8c4d7083c196e9eea5a39dee30455522b5e3aa2034424dd3dcd4d8eb78a72c2dde5106b80ba722216eff78b"
+RPM_NAME = "libosmousb-devel-1.8.0-1.1.aarch64.rpm"
+RPM_HASH = "699abdf531aaf964995161175f519c4d09f6efa50a6d3e186ac01bc0554cac4636a65e540c3e32aed3260807a369cae3f338482d3eeb048b967dd0235e354ca5"
 
 RPROVIDES:${PN} += "libosmousb-devel libosmousb-devel(aarch-64) pkgconfig(libosmousb)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libosmocore-devel libosmousb0 libusb-1_0-devel pkgconfig(libosmocore) pkgconfig(libusb-1.0) pkgconfig(talloc)"

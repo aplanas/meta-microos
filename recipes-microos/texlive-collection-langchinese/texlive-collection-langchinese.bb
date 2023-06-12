@@ -2,10 +2,10 @@ SUMMARY = "Chinese"
 DESCRIPTION = "Support for Chinese; additional packages in collection-langcjk."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn63995"
+PV = "2023.208.svn63995"
 
-RPM_NAME = "texlive-collection-langchinese-2023.201.svn63995-56.1.noarch.rpm"
-RPM_HASH = "bc600edbedb49f4184d58ef605287923fb8ff0a12fb5cc56d0b0e97f7ee655abee9fe210cdd727ff35a3b32418409bffde4525e01524e386a240d9e693e79072"
+RPM_NAME = "texlive-collection-langchinese-2023.208.svn63995-58.1.noarch.rpm"
+RPM_HASH = "c6932d9af5cf4928bbba4cd37215e191347f3ad327fda513cba18f39cb96e0ec8303ec64e8c49a4341f6c6555d710b1f6fbc8c8315bea1dca66ad2221d6ca216"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langchinese"

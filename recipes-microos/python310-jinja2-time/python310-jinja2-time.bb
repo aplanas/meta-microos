@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-jinja2-time-0.2.0-3.14.noarch.rpm"
-RPM_HASH = "94ad0fb00d682ccac7ac8cd86b4af749e118c17eb70589435ebf891f43722c24dca8142c394b8bc50190ab2c248210de67afa5acf3937748b17bb417eb511e17"
+RPM_NAME = "python310-jinja2-time-0.2.0-4.1.noarch.rpm"
+RPM_HASH = "dd974e690e617c207a48060c6d8539db68f56a87f44550a1ed282074b370e519e45975aaf1b532dd6c4ea44777ece44794bef76898b235d98bd718ee1ece6d44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jinja2-time python3.10dist(jinja2-time) python310-jinja2-time python3dist(jinja2-time)"

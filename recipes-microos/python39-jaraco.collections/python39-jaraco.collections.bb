@@ -3,10 +3,10 @@ DESCRIPTION = "jaraco.collections Tools for working with collections. \
 Models and classes to supplement the stdlib ‘collections’ module."
 LICENSE = "MIT"
 
-PV = "3.8.0"
+PV = "4.1.0"
 
-RPM_NAME = "python39-jaraco.collections-3.8.0-2.2.noarch.rpm"
-RPM_HASH = "5d205efacacefb945b003ea25e6e07ed7205b55b4f44bfc86402045829c177b11f48f6f1a1bac3b3ec36e3eadafab637273cbad47e42e34893420087069da1cf"
+RPM_NAME = "python39-jaraco.collections-4.1.0-1.1.noarch.rpm"
+RPM_HASH = "8164fb9d5710f59368211a1fd28625c33ea74db47802c2d6f51abd38e1d19fb119abdaf404d0d18a64211a9946355f315723893f8aadbbffa70bd6d09639a4d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(jaraco.collections) python39-jaraco.collections python3dist(jaraco.collections)"

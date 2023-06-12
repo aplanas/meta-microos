@@ -4,11 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.4"
 
-RPM_NAME = "python311-jsonschema-spec-0.1.4-1.2.noarch.rpm"
-RPM_HASH = "c9f222a89eb8ebc3b6e853f6646f666f72e2560be25296885d67686b4331b8576994bf029baaea6a57e9b70e1c844a961b3bd3ee59539cef35bf1692802b7690"
+RPM_NAME = "python311-jsonschema-spec-0.1.4-2.1.noarch.rpm"
+RPM_HASH = "8fbf10904b3f3aec427834a15f78382828ad34709e4068b9866f310d6b550e4820e47f027ef7b09181c135def7bfad75afd576dc9924afe2339fdfd54cd7e013"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(jsonschema-spec) python311-jsonschema-spec python3dist(jsonschema-spec)"
-RDEPENDS:${PN} += "python(abi) python311-PyYAML python311-jsonschema python311-pathable python311-typing_extensions"
+RPROVIDES:${PN} += "python3.11dist(jsonschema-spec) python311-jsonschema-spec python311-jsonschema_spec python3dist(jsonschema-spec)"
+RDEPENDS:${PN} += "(python311-jsonschema >= 4.0.0 with python311-jsonschema < 4.18) python(abi) python311-PyYAML python311-pathable python311-typing_extensions"
 
 inherit rpm

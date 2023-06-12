@@ -2,10 +2,10 @@ SUMMARY = "Document Files for ImageMagick Library"
 DESCRIPTION = "HTML documentation for ImageMagick library and scene examples."
 LICENSE = "ImageMagick"
 
-PV = "7.1.1.8"
+PV = "7.1.1.11"
 
-RPM_NAME = "ImageMagick-doc-7.1.1.8-1.1.noarch.rpm"
-RPM_HASH = "f237d0d3cc44c85f4bd98e5aa5f707810a2b608ef4a1ad818efa137a5644ea18e246993f632904389432f1ec6c5c06e8e8a81479210445ad4e6dcdb3cbc9a37b"
+RPM_NAME = "ImageMagick-doc-7.1.1.11-1.1.noarch.rpm"
+RPM_HASH = "cd628770c61375dd5bb7f8eba0eee11abc90fef1d3307333394e1252277c1ef0871f277f9ec4a8be912d6ae1bd5fe18acc9522e41ac4dbe02a362e90338760f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ImageMagick-doc"

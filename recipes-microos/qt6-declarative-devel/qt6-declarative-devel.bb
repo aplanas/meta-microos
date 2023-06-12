@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Declarative meta package"
 DESCRIPTION = "This meta-package requires all the qt6-declarative development packages."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-declarative-devel-6.5.0-2.1.noarch.rpm"
-RPM_HASH = "35e70bca8d299bc68e8a22ab490f910ead4478b8fa58445f69f526b71346990530dcb429257137f5001c140f63b4020bbee933beeea62f5ae1b1533814ec10ae"
+RPM_NAME = "qt6-declarative-devel-6.5.1-1.2.noarch.rpm"
+RPM_HASH = "f7350d3637550917e04a9fa7f693b1c7993340193dacb2a3e281d5d6600272fa1cfebb2edc53f29b29ea1405e0607ec9f7ba42e0c1ed6e0597d42032ff9ef06e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-declarative-devel"

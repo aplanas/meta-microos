@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn3006"
 
-RPM_NAME = "texlive-jadetex-bin-2023.20230311.svn3006-89.1.aarch64.rpm"
-RPM_HASH = "3e92a710e339df00cf268922ab9ed1f9738a68864499b029edba4e18b45a1f78aac04b7347868eefa542ce973421c4a27c383b22f6ecd1d4058f1d63b7704cb5"
+RPM_NAME = "texlive-jadetex-bin-2023.20230311.svn3006-91.1.aarch64.rpm"
+RPM_HASH = "07c5a8bb5850dc9594b78846b470c2a5be14741bf32dd5479599ee6448e2e22efb37ee0974e508bb1472663e63a350fd741de102f5e4cd851ef1b5ab63c55183"
 
 RPROVIDES:${PN} += "texlive-jadetex-bin texlive-jadetex-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-jadetex"

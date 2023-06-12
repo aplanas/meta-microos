@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.2u"
 
-RPM_NAME = "libopenssl1_0_0-hmac-1.0.2u-15.1.aarch64.rpm"
-RPM_HASH = "b738f4ec9666e7e01ecda6661321307d787411d30beafad4b6c4e9050df347b5c6d79e24241fe97ed5202bb022052b67a2ef6afc404de3accc6faea2d10c0e67"
+RPM_NAME = "libopenssl1_0_0-hmac-1.0.2u-16.1.aarch64.rpm"
+RPM_HASH = "258f0f133851a767cfe650bb7f2e01c0fd48c3c860f44be74dd5a9d68bd040c15789eac3088a5375133f0b7e66ff306f29f14de943f58f74e90f021a0485d579"
 
 RPROVIDES:${PN} += "libopenssl1_0_0-hmac libopenssl1_0_0-hmac(aarch-64)"
 RDEPENDS:${PN} += "libopenssl1_0_0"

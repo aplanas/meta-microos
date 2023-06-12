@@ -9,10 +9,10 @@ C extensions that link into the PostgreSQL server. For building client \
 applications, see the postgresql11-devel package."
 LICENSE = "PostgreSQL"
 
-PV = "11.19"
+PV = "11.20"
 
-RPM_NAME = "postgresql11-server-devel-11.19-2.1.aarch64.rpm"
-RPM_HASH = "6f0c71daba52de933a70bc6966c9c044b65d4bd4e85188863a1b3d57b21d0d75999cb2e3ace5048f690f5aae9221f0f6d8a7c5da4af92280db820e129e4a7cc6"
+RPM_NAME = "postgresql11-server-devel-11.20-1.2.aarch64.rpm"
+RPM_HASH = "7e06b562f96c4ced07c68cf33ad8aa55fe54296289e4fd7d63e49f11371d59aee1914a8254fe69d3041d4786026579035f509384de77c579f3cdd0e2d135fd11"
 
 RPROVIDES:${PN} += "postgresql-server-devel postgresql-server-devel-exclusive postgresql-server-devel-implementation postgresql11-server-devel postgresql11-server-devel(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libselinux-devel libxslt-devel openssl-devel pam-devel pkgconfig(krb5) postgresql-server-devel-noarch postgresql11-devel postgresql11-server readline-devel zlib-devel"

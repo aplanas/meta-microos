@@ -2,10 +2,10 @@ SUMMARY = "Kazakh localization files for LibreOffice"
 DESCRIPTION = "Provides Kazakh translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-kk-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "9134076ccadd5e7b4d9d1e8f2de386a0b94d588c82362f45d92b755c177ea121f07ad81cc25d3274aea2ae59545c5757b6d50b1827c9240ce5f9190b8edce6d6"
+RPM_NAME = "libreoffice-l10n-kk-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "820650148a4892db4c4b1535ece3055bb28ec93755cfa88de44afe3f7fd2efa21192670e9c78cd56de8864c723ca005964fd792700b5ef4c39f94a31dd7b15be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-kk libreoffice-l10n-kk locale(libreoffice:kk)"

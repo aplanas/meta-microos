@@ -6,10 +6,10 @@ The LuaTeX engine itself (and plain formats) are in \
 collection-basic."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65791"
+PV = "2023.208.svn65791"
 
-RPM_NAME = "texlive-collection-luatex-2023.201.svn65791-56.1.noarch.rpm"
-RPM_HASH = "088bc025bebce9621cf92df5aff5dc71712c9e9b087c882b651f54afcf1b2e93471e966e6c086f4c74554b17e564fdbe86bb950565d262eea76cc0b2fae06050"
+RPM_NAME = "texlive-collection-luatex-2023.208.svn65791-58.1.noarch.rpm"
+RPM_HASH = "56af124109ef01eab152e8bf2b0f399f993c57dcbfede37c217b7b0e0beab2e006086388018c925c29fab786c003a9bf4871ee0635e9d8e02863af809ed8521f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-luatex"

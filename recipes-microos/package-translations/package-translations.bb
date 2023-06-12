@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides translations for our packages. You don't wa
 package on your system, it's only useful when you create openSUSE media."
 LICENSE = "BSD-3-Clause"
 
-PV = "89.87.20230417.43910d3"
+PV = "89.87.20230508.84161a4"
 
-RPM_NAME = "package-translations-89.87.20230417.43910d3-1.1.noarch.rpm"
-RPM_HASH = "6c8993b892ad446988fc70d30ffef346e66fc86376fac6b1411c8d53d7ab55b19271a87c5cd99edd8e75f39ccb83d0720199443d1112630292ffc09575c58406"
+RPM_NAME = "package-translations-89.87.20230508.84161a4-1.1.noarch.rpm"
+RPM_HASH = "b94dbc9fe9acd7153c9cba425ced355b9d57dba8dbb4f99a5934bef4de892691e71604b6e5435229458418c390cec11a0caa25a0faa6c335ae1290088b03ba8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "package-translations"

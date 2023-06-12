@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.5"
 
-RPM_NAME = "figlet-2.2.5-2.23.aarch64.rpm"
-RPM_HASH = "e64815aecfa698256a70e2f18ecdb26a1360a165019374662c6d0d2cb3e35bb4e588143576d69f172e57ade2ee5c47fa8d45e41fa7d866027f0a7fb0e434b670"
+RPM_NAME = "figlet-2.2.5-3.1.aarch64.rpm"
+RPM_HASH = "06b07a67f2cd5275cd4266d72eaabbbbcd589916c1b4ea3c3b4ef1c8c88542ea7fca2224ab4c4b880846d2876d0dee61ac3d19f733d760e0e99b78e0dde02437"
 
 RPROVIDES:${PN} += "figlet figlet(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit)"

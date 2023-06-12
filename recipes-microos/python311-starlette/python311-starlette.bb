@@ -3,10 +3,10 @@ DESCRIPTION = "Starlette is a lightweight ASGI framework/toolkit, which is ideal
 building high performance asyncio services."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.26.1"
+PV = "0.27.0"
 
-RPM_NAME = "python311-starlette-0.26.1-1.3.noarch.rpm"
-RPM_HASH = "00e4761bd1d2a0050f57f037accbb62fda8fdce68ca178b84ccd95da8cb241000011d79e4e18f327632318042b1b6626f1c0b91ea1fa710ef1e8278ccd622c98"
+RPM_NAME = "python311-starlette-0.27.0-1.1.noarch.rpm"
+RPM_HASH = "2e2b6e95c801cd287399bca6827a053ff5dbb1a310df6d1140fd806eb00c0e0bbc43194d61af905c0bd1b0565cfee48cf468d61ec7658092b28eab3a595dde84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(starlette) python311-starlette python3dist(starlette)"

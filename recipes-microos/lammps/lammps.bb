@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-only & GPL-3.0-or-later"
 
 PV = "20201029"
 
-RPM_NAME = "lammps-20201029-4.3.aarch64.rpm"
-RPM_HASH = "27e8b19a3b5d5085bfb5d53d9c42a1b25d80c9fb7d5c02b3c411fbf36274a98287070ffdaba389fd2a0e46841fee21aab6d64f90650a41c8b1bd5d3c140fc3c5"
+RPM_NAME = "lammps-20201029-5.1.aarch64.rpm"
+RPM_HASH = "87102f9745196ec4d21367d2ac05d9601b0e9bec7d6229a59e28ba82ec55870141345b6ad7a4b05d714834b4e7b14f441e1bdc568f5b46102e0792a3ba4573ef"
 
 RPROVIDES:${PN} += "lammps lammps(aarch-64)"
 RDEPENDS:${PN} += "lammps-data ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libgfortran.so.5()(64bit) libgfortran.so.5(GFORTRAN_10)(64bit) libgfortran.so.5(GFORTRAN_8)(64bit) liblammps.so.0()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit) libmpi.so.40()(64bit) libreadline.so.8()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"

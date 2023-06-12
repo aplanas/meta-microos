@@ -6,10 +6,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "osmo-mslookup-client-1.4.0-1.10.aarch64.rpm"
-RPM_HASH = "dbf4a03502491d39d2445a728b8903e8c45effb26fa42f00eea1e7ea0909499e00514bc2558b195d0fc3226d0eba77fd41fb988e41fd031d511667015505eb42"
+RPM_NAME = "osmo-mslookup-client-1.4.0-1.11.aarch64.rpm"
+RPM_HASH = "93ae35564268e2807bae847496a6738f8c346349600fa882cb90c6fa8aa6425c34eafe7f6f0b62c4791145685fecad91b86dcad5ae2223451d70a663f54ce88c"
 
 RPROVIDES:${PN} += "osmo-mslookup-client osmo-mslookup-client(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libosmo-mslookup.so.0()(64bit) libosmocore.so.19()(64bit) libtalloc.so.2()(64bit) libtalloc.so.2(TALLOC_2.0.2)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libosmo-mslookup.so.0()(64bit) libosmocore.so.20()(64bit) libtalloc.so.2()(64bit) libtalloc.so.2(TALLOC_2.0.2)(64bit)"
 
 inherit rpm

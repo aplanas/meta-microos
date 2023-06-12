@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for swww"
 DESCRIPTION = "Bash command-line completion support for swww."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.7.2"
+PV = "0.7.3"
 
-RPM_NAME = "swww-bash-completion-0.7.2-1.3.noarch.rpm"
-RPM_HASH = "05d1305d7766f897e27be606b540f3d527acbb5031a21acd468809cff4c12a1a87ac4782c490d6ee5b6ecbdc702250e8a45320eae74d17006b4fec41f6531146"
+RPM_NAME = "swww-bash-completion-0.7.3-1.1.noarch.rpm"
+RPM_HASH = "6bb9310fa87215abf695c546973bc9f4b15e8b2fef4d92f9f6940fbe05d2d710894fddb1b9476f4b50cc0055210c1790f2b2f39b4441672872e81d2e0f142808"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swww-bash-completion"

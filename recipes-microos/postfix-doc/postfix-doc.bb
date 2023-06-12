@@ -5,8 +5,8 @@ LICENSE = "IPL-1.0 | EPL-2.0"
 
 PV = "3.8.0"
 
-RPM_NAME = "postfix-doc-3.8.0-2.1.noarch.rpm"
-RPM_HASH = "6e65e3c33b752bf6b3936661d778bdea591b02f0d396cb6c068d40d21419e72c8e6e840f6f297e23d85bdb6284d407edc08d8a6ea1c4e7b4df825d29d59a88f8"
+RPM_NAME = "postfix-doc-3.8.0-2.2.noarch.rpm"
+RPM_HASH = "86271a7533aea50e200b35d9c7f11eb04e88191eddbf828a2375de1f682fe0559e9c6085306cc2dd0b6f07267119ea73923ba34a6578184c95de64b43a744c60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postfix-doc"

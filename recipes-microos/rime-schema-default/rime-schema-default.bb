@@ -2,13 +2,13 @@ SUMMARY = "Default/Preset collection of rime schemas"
 DESCRIPTION = "Default/Preset collection of rime schemas."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20210525+git.4f7fc2a"
+PV = "20230603+git.5fdd2d6"
 
-RPM_NAME = "rime-schema-default-20210525+git.4f7fc2a-1.9.noarch.rpm"
-RPM_HASH = "33bd24cd7805406a08b11e4e3e9ec0480eaf2c14a30170cce2671e47d8da5865f4f7df9de440188d7c4f9892a33088fc51b9bfc00ba015c97666bd7acfeaf6aa"
+RPM_NAME = "rime-schema-default-20230603+git.5fdd2d6-1.1.noarch.rpm"
+RPM_HASH = "7dc727aeb338007ab9cc4472191ee9ff09d9fbd8ae56d906b06d12ca222aa0d88924a48c8ae45a6fa133a47651ea3411a8591928a7a554d3ea011474a9fcdb8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-default"
-RDEPENDS:${PN} += "rime-schema-bopomofo rime-schema-cangjie rime-schema-essay rime-schema-luna-pinyin rime-schema-prelude rime-schema-stroke rime-schema-terra-pinyin"
+RDEPENDS:${PN} += "rime-schema-bopomofo rime-schema-cangjie rime-schema-custom rime-schema-essay rime-schema-luna-pinyin rime-schema-prelude rime-schema-stroke rime-schema-terra-pinyin"
 
 inherit rpm

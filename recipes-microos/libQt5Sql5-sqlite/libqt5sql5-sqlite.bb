@@ -9,10 +9,10 @@ file, which must be set as the database name when opening a \
 connection."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde151"
+PV = "5.15.9+kde154"
 
-RPM_NAME = "libQt5Sql5-sqlite-5.15.9+kde151-1.1.aarch64.rpm"
-RPM_HASH = "5112a868882ec2e27e5fcc329060b5621ebbba1db9e452b7e99deb31e32afba21e0ca35f3fca0a8c61f1de733c8d0d90f9e264476c2881329972a975f30d7d8d"
+RPM_NAME = "libQt5Sql5-sqlite-5.15.9+kde154-1.2.aarch64.rpm"
+RPM_HASH = "cfed1783f250e74102f262a67e727e40694dfb099421d60c7d3c2a3b40e1d5a74b8ee08bef73f4d59337035d8669630b1fb0f893759cd068ef6ba3cdf523a529"
 
 RPROVIDES:${PN} += "libQt5Sql5-sqlite libQt5Sql5-sqlite(aarch-64) libqsqlite.so()(64bit) libqt5-sql-sqlite libqt5_sql_backend"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5Core.so.5(Qt_5.15.9_PRIVATE_API)(64bit) libQt5Sql.so.5()(64bit) libQt5Sql.so.5(Qt_5)(64bit) libQt5Sql.so.5(Qt_5.15.9_PRIVATE_API)(64bit) libQt5Sql5 libc.so.6(GLIBC_2.17)(64bit) libsqlite3.so.0()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"

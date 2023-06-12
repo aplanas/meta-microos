@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20200505"
 
-RPM_NAME = "patterns-base-base-20200505-40.1.aarch64.rpm"
-RPM_HASH = "98d8d4f56cbd9fa0cb66613cd4638dcbebb8e84d8d2f04f8f8c74746edec3a78f5645b40e1dfd0b84107ca616ac561ee9e61f64031fa1a46b1431af442025c65"
+RPM_NAME = "patterns-base-base-20200505-41.1.aarch64.rpm"
+RPM_HASH = "f91ce360ab4c45168ec24005a807835f4c215e979b34149ac5b34809545e0bf3a8335d3aed5cf1613c0448e39513520eba9514d2018211c463967ff76ee470b3"
 
 RPROVIDES:${PN} += "pattern() pattern-category() pattern-icon() pattern-order() pattern-visible() patterns-base-base patterns-base-base(aarch-64) patterns-openSUSE-base patterns-openSUSE-minimal"
 RDEPENDS:${PN} += "aaa_base bash ca-certificates-mozilla coreutils glibc libnss_usrfiles2 pam pam-config pattern() purge-kernels-service rpm system-user-nobody systemd util-linux"

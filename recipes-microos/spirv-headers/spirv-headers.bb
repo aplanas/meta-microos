@@ -8,10 +8,10 @@ registry. This includes: \
 * The XML registry file."
 LICENSE = "MIT"
 
-PV = "1.6.1+sdk243"
+PV = "1.6.1+sdk250"
 
-RPM_NAME = "spirv-headers-1.6.1+sdk243-1.1.noarch.rpm"
-RPM_HASH = "e6f86ba2599c3d69b5467c77070778fede18a8cfae30c2930611dacf55570f9b38c482fb60d6c53045898b8865722d83c648a21e8f2193672384a6f3c3e32f6e"
+RPM_NAME = "spirv-headers-1.6.1+sdk250-1.1.noarch.rpm"
+RPM_HASH = "fe0f4dd347b3c8731112f5da81775732d10a3d149cb011a9120c92e20a59dd35fe0c60dbd0824ff11f182c92765b2435f81b908033d5f432ac1cefd645a5bfa2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake(SPIRV-Headers) pkgconfig(SPIRV-Headers) spirv-headers"

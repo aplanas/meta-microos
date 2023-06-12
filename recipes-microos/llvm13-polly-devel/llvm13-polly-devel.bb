@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
 
 PV = "13.0.1"
 
-RPM_NAME = "llvm13-polly-devel-13.0.1-8.1.aarch64.rpm"
-RPM_HASH = "bc02d83dd420351a361ab47ff2fb4e01b4a1ab500cd86a41268db10e6bc129c2db2e622f6d98dd1fef6a4c5cf2338f51b17ecadaecc49fab23ff9dabc4229f9c"
+RPM_NAME = "llvm13-polly-devel-13.0.1-9.1.aarch64.rpm"
+RPM_HASH = "4d4d3a3b5e6a8ff45332a7911ab60c2bf64e72753670e6ad70817d6735da3199f371136951fdd65a33a4336bbbbab7b5bd7f39b1ce089fc442e75659e6d65c1d"
 
 RPROVIDES:${PN} += "cmake(Polly) llvm-polly-devel-provider llvm13-polly-devel llvm13-polly-devel(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig llvm13-devel llvm13-polly"

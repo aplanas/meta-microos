@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause | GPL-3.0-or-later"
 
 PV = "633"
 
-RPM_NAME = "less-633-1.1.aarch64.rpm"
-RPM_HASH = "587a688ebd03a27fee9ec3919661f21c9d03835e8b150abcf4152c52568745fd09ceb9563282d906d114f3d6a7e818b290406c5cf2b18d87b0fba64826c886a6"
+RPM_NAME = "less-633-2.1.aarch64.rpm"
+RPM_HASH = "b92417b164794113efa12ed7b49a3c817e9b83b87880a8b3614a00e4a75a8ffec2a117ef7e2a8fbd4f80f954cf968fa20aba2f4cf6e09e32929cad016b3416eb"
 
 RPROVIDES:${PN} += "less less(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/which file ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit)"

@@ -4,10 +4,10 @@ issues as a collection of text files using an interface inspired by \
 `git` and `hg`."
 LICENSE = "MIT"
 
-PV = "2.3.0"
+PV = "2.3.1"
 
-RPM_NAME = "python311-jirafs-2.3.0-2.7.noarch.rpm"
-RPM_HASH = "bf6c6f683d7f52cd0d75c74a657f80750736a5d1b58c72d75d2de0bd7d3ab3f5ecb6c28fe055d7bbb8294da6c340ec9aafa2223a18e782b3786a92e57c9df7f2"
+RPM_NAME = "python311-jirafs-2.3.1-1.1.noarch.rpm"
+RPM_HASH = "18decdd7c6d7f447d16245b7de214fe016fbb6227249defe7c6d0c1cb3256ba468e418fa0c02246cb56854b88c1c8cc7d3192307939dcb29b70b1489767e998d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(jirafs) python311-jirafs python3dist(jirafs)"

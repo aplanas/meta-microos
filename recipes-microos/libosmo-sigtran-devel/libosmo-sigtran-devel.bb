@@ -5,10 +5,10 @@ This subpackage contains the development files for the Osmocom \
 SIGTRAN library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.6.0"
+PV = "1.7.0"
 
-RPM_NAME = "libosmo-sigtran-devel-1.6.0-1.4.aarch64.rpm"
-RPM_HASH = "ff46f9ed8df46d981d093ec08205c27fe3cbde5fb700d36d335ea4ab5bbee550247eda6b79aabe45d09ec14a2dc1d3c3fdd41faa01a62403eeeabaa18c1ff7f6"
+RPM_NAME = "libosmo-sigtran-devel-1.7.0-1.1.aarch64.rpm"
+RPM_HASH = "54bbd5dbc0502d052e124738263d2fb634c41de047f8e0dd7523d78840b00e9118f892aed7a358bb0b1f6cc2b5644d5632a8e44d51b939dbd6847e51e9aecd96"
 
 RPROVIDES:${PN} += "libosmo-sigtran-devel libosmo-sigtran-devel(aarch-64) pkgconfig(libosmo-sigtran)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libosmo-sigtran7"

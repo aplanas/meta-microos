@@ -8,10 +8,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7"
 
-RPM_NAME = "gamemoded-1.7-2.2.aarch64.rpm"
-RPM_HASH = "07d46ef4a9dedb484befdb59bce92ce334965f6c8e53bab375c0944a38aca497b952c1cc6c928f5dde43255d9857c37e7babd9de15da64a59f5b2767c6b4aba0"
+RPM_NAME = "gamemoded-1.7-3.1.aarch64.rpm"
+RPM_HASH = "e4cc9942fd2c5c0ed083382fa2039667d361c09847d85a1ad57ef32134ec6f7d317a33042855290029cc55432e621dee76290e89589777437e6a83368866051b"
 
 RPROVIDES:${PN} += "gamemoded gamemoded(aarch-64) metainfo() metainfo(io.github.feralinteractive.gamemode.metainfo.xml)"
-RDEPENDS:${PN} += "/bin/bash ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libinih.so.0()(64bit) libsystemd.so.0()(64bit) libsystemd.so.0(LIBSYSTEMD_209)(64bit) libsystemd.so.0(LIBSYSTEMD_221)(64bit) libsystemd.so.0(LIBSYSTEMD_243)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libinih.so.0()(64bit) libsystemd.so.0()(64bit) libsystemd.so.0(LIBSYSTEMD_209)(64bit) libsystemd.so.0(LIBSYSTEMD_221)(64bit) libsystemd.so.0(LIBSYSTEMD_243)(64bit)"
 
 inherit rpm

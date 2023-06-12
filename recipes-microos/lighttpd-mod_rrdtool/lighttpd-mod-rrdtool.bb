@@ -6,10 +6,10 @@ This module feeds an rrdtool database with the traffic stats from \
 lighttpd."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.69"
+PV = "1.4.71"
 
-RPM_NAME = "lighttpd-mod_rrdtool-1.4.69-1.3.aarch64.rpm"
-RPM_HASH = "a19d1e87d3c829aa0fd989f10ae9c27faeac9ff3590de14e197ca4e64e4d8a87434d51489e07ae20d9df3cd1a8aeb6365f8a3afd09734fa5adae57a6318428f0"
+RPM_NAME = "lighttpd-mod_rrdtool-1.4.71-1.1.aarch64.rpm"
+RPM_HASH = "c0baf4d9956315b58d7d39bd383ec46c742c1378cb53e27b444339ad981cf543ebafd6afee2a98f659bef3017c34231ea2cc1249e7da4bec74b5467c940c227e"
 
 RPROVIDES:${PN} += "config(lighttpd-mod_rrdtool) lighttpd-mod_rrdtool lighttpd-mod_rrdtool(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) lighttpd rrdtool"

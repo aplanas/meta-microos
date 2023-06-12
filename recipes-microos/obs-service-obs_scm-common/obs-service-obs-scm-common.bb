@@ -6,10 +6,10 @@ It supports downloading from svn, git, hg and bzr repositories. \
 This package holds the shared files for different services."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.34.1667392550.026bf0e"
+PV = "0.10.36"
 
-RPM_NAME = "obs-service-obs_scm-common-0.10.34.1667392550.026bf0e-1.2.noarch.rpm"
-RPM_HASH = "3812341c0bdebcc017818d00f06c7097dd44aec4991d3f8cbe16abc6523570cb30b6e8b42de14602bdf674b3ff561289f489a75502b1d83295518bcbfe2af656"
+RPM_NAME = "obs-service-obs_scm-common-0.10.36-1.1.noarch.rpm"
+RPM_HASH = "1a38871b69c80c4f1172b712ed509a75dedb3fdef5f6ea2635460a5a01240e7f8bd764f1f9f6d72303f03aa1497fbf3d0faa45d56ad62da6e8421dad15b09814"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(obs-service-obs_scm-common) obs-service-obs_scm-common"

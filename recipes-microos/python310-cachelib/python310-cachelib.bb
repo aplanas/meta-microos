@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.2"
 
-RPM_NAME = "python310-cachelib-0.10.2-1.3.noarch.rpm"
-RPM_HASH = "3286b13ec4ea029206cc6c84d099bdcd4d81540eee9346d1ddcdf0bb8fa68059dcb1dc9f8a84a2c1d0f80c261c79d33801ac812694fdae379a4aff943aa67d0f"
+RPM_NAME = "python310-cachelib-0.10.2-2.1.noarch.rpm"
+RPM_HASH = "ae975ad702b7563a6183d5f9ebf32b55acd1c6bc08211ff803a51a6281139d1cf01ebfa65fef86e0ab10880022fc98ac3339a9f8eddd507d7288365ca743585e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cachelib python3.10dist(cachelib) python310-cachelib python3dist(cachelib)"

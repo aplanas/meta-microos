@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & Apache-2.0"
 
 PV = "1.8.1"
 
-RPM_NAME = "sword-devel-1.8.1-1.32.aarch64.rpm"
-RPM_HASH = "1b4d896aeb5612ed75deb69d52a09975bd64695ec27b52b7dc9a98bd1559d5d9e1cc5d3b7e26b2a4c155fa0d14897accca583a6230911f3bbef1262e241b3dca"
+RPM_NAME = "sword-devel-1.8.1-1.33.aarch64.rpm"
+RPM_HASH = "733a79a9f9f9aca6e15bb1bd5aa6044a5679762bf8a3d12c30bbbcb3c3aac4119a9d00cdd9b338423bbe83647a19fdfda829b449a925710d42630a2e4a5c9ddb"
 
 RPROVIDES:${PN} += "pkgconfig(sword) sword-devel sword-devel(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libsword-1_8_1 pkgconfig(libcurl)"

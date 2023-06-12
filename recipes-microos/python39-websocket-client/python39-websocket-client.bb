@@ -5,10 +5,10 @@ low-level APIs for WebSocket. All APIs are synchronous functions. \
 Websocket-client supports only hybi-13."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.4.2"
+PV = "1.5.1"
 
-RPM_NAME = "python39-websocket-client-1.4.2-3.1.noarch.rpm"
-RPM_HASH = "daf0f9736b9542a6eca029279ebef750e7058ee2b9080a7061cea998612294cfb1098ac9927766b689fa0132302eef92db0149ffda6c16544ad531f4d471f197"
+RPM_NAME = "python39-websocket-client-1.5.1-1.1.noarch.rpm"
+RPM_HASH = "462e5ca0bebd171600a778787952d17904d1fb549e0f6ff4cf24ed1c6165c2af281eed358319954565ed989fe07f376d455ca77b249b201b713b7c22c0af5d0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(websocket-client) python39-websocket-client python39-websocket-client-test python3dist(websocket-client)"

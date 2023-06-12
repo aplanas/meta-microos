@@ -15,10 +15,10 @@ FriendFeed servers. (For more information on scaling servers to support \
 thousands of clients, see The C10K problem.)"
 LICENSE = "Apache-2.0"
 
-PV = "6.2"
+PV = "6.3.2"
 
-RPM_NAME = "python310-tornado6-6.2-2.1.aarch64.rpm"
-RPM_HASH = "c19a8505210fa96d12141ac6c6ac757feb8685642e2f4215d5e2cf932521db1653c667c790d45807f95fa50a5a8aa9fbf3ad5aa62257696d4c0c8e2367a287bb"
+RPM_NAME = "python310-tornado6-6.3.2-1.1.aarch64.rpm"
+RPM_HASH = "244d3aabefa1b06886192268b4a7b9ebb05bb00089454f82a4f90919c4ecd79d6c851eef0ddda3f48c0a23c13ddd8c69bddf7c9f88b3626f8674c8ba54b540c8"
 
 RPROVIDES:${PN} += "python3-tornado python3-tornado-impl python3-tornado6 python3-toro python3.10dist(tornado) python310-tornado python310-tornado-impl python310-tornado6 python310-tornado6(aarch-64) python310-toro python3dist(tornado)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python310"

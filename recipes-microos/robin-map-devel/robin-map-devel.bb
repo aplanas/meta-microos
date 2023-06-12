@@ -16,10 +16,10 @@ your use case (useful if you are a bit lost with the multiple hash tables \
 implementations in the tsl namespace)."
 LICENSE = "MIT"
 
-PV = "1.0.1"
+PV = "1.2.1"
 
-RPM_NAME = "robin-map-devel-1.0.1-1.4.noarch.rpm"
-RPM_HASH = "e93ed6b65077b745ec3afa102dc044b597fd85e52f58df113a2da7122b7b6040a68922a4db3e64fa70de9f4d024e64b07e2ebe64d15b178124c9c13d1ca8de37"
+RPM_NAME = "robin-map-devel-1.2.1-1.1.noarch.rpm"
+RPM_HASH = "f4a9591468b39e72aaeea9efe60766480ae873bbbb0b5493fe911a18dcb9bedfe5918cc3b7021a56a1513be14b0c2e3322ea52873348906a104539e1863fd0d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake(tsl-robin-map) robin-map-devel"

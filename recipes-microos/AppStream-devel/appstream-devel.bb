@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.16.1"
 
-RPM_NAME = "AppStream-devel-0.16.1-2.3.aarch64.rpm"
-RPM_HASH = "ab036ceacdd0fee7173be885b50307d600d7a2449aed30a1d229c6989e814808246a35c231a79f293edf983f709fe9af710bd3046811c2fb993ef7cb96d611c0"
+RPM_NAME = "AppStream-devel-0.16.1-3.1.aarch64.rpm"
+RPM_HASH = "6eac4887f3248b35f3b8e2edacc37129e4f68a1873bf869040d0be58c08cecad06754f271f04f55f9cf6279fe901b864eae857e96db9fbe2ed2722d900492d15"
 
 RPROVIDES:${PN} += "AppStream-devel AppStream-devel(aarch-64) pkgconfig(appstream)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config AppStream libappstream4 pkgconfig(gio-2.0) pkgconfig(glib-2.0) pkgconfig(gobject-2.0)"

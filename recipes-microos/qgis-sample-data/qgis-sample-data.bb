@@ -2,10 +2,10 @@ SUMMARY = "QGIS sample data"
 DESCRIPTION = "QGIS sample data with raster, vector, gps files and a GRASS location from the Alaska area."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.30.1"
+PV = "3.30.2"
 
-RPM_NAME = "qgis-sample-data-3.30.1-3.1.noarch.rpm"
-RPM_HASH = "f218cdce19142e4dede56dc85112d759c8a0f121af07b5d7bfc886065c59d05d7864cbbc2d08385bddb9617a31721bc7b654fca867e7aa1e2945c1428d2a46e8"
+RPM_NAME = "qgis-sample-data-3.30.2-1.1.noarch.rpm"
+RPM_HASH = "dcd59ebdbda86a8257f7fa25beb9dba746cc8566f2bb61cf02fdd25571744cd084668ec9fcee48e253f80ea83288849b3eff859b3714f30f83f791ac5e471116"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qgis-sample-data"

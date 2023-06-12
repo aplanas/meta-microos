@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "4.3.0"
 
-RPM_NAME = "R-graphics-4.3.0-45.1.aarch64.rpm"
-RPM_HASH = "5b278f3fea62035e34a17232fd4c01701724b5a89a7780f015f03573e95fdddae537ea8cf0f843abc26ab963968537f5c4c75d04e6e7565b126c51d6786af1ea"
+RPM_NAME = "R-graphics-4.3.0-45.2.aarch64.rpm"
+RPM_HASH = "93e39bd9ce7572608f364e98a3da3e645df4c20836a855a94502c76d360e9acbec44e08e4b61030d219cd46aa497c89b750881af9604fe8b530bde0c545ed17d"
 
 RPROVIDES:${PN} += "R-graphics R-graphics(aarch-64)"
 RDEPENDS:${PN} += "R-base ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libR.so()(64bit) libc.so.6(GLIBC_2.17)(64bit)"

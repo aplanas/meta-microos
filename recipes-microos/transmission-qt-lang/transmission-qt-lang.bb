@@ -4,8 +4,8 @@ LICENSE = "(GPL-2.0-only | GPL-3.0-only) & MIT"
 
 PV = "4.0.3"
 
-RPM_NAME = "transmission-qt-lang-4.0.3-1.1.noarch.rpm"
-RPM_HASH = "ee54bc11fb4b83ff0303461b473cd7d0fbb5e707865090c4b11c6f8ff86922e9bdf511435972c9dca777b46c99cfa597f73b895289bf1319d7e1ea52ed4f1adc"
+RPM_NAME = "transmission-qt-lang-4.0.3-2.1.noarch.rpm"
+RPM_HASH = "2403e1d42557ee8d3e1c5f6b959b9ea57b80b27e4dcaa9ad78b9589f745793fc33fa5d74857a11ece36cb810da9c2adada9027858ee3e0ccccdef2d18685fde9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "transmission-qt-lang transmission-qt-lang-all"

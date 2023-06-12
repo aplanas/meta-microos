@@ -5,10 +5,10 @@ emit information from within their applications to the AWS X-Ray service. \
 This package provides the SQLAlchemy backend for python311-aws-xray-sdk."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "python311-aws-xray-sdk-SQLAlchemy-2.10.0-1.3.noarch.rpm"
-RPM_HASH = "ba5abc5976f53fbfa96581908ea67fd32d39c0c4e5a49b417063f61bcec9781537c7fa5df4fe64e2a77a7f9cb1afc21e5cf910d33666afdc6c1c1f3e7391114d"
+RPM_NAME = "python311-aws-xray-sdk-SQLAlchemy-2.12.0-1.1.noarch.rpm"
+RPM_HASH = "c6355f2bb514de9746e669da500b3b8424171d89d8c92118a15adbffba11a58e7c2b2c1be9ac0afce5252af61905d2a0becf97c0eaf06d579d7a0516ce521937"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-aws-xray-sdk-SQLAlchemy"

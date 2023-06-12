@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.11.6"
 
-RPM_NAME = "deepin-screen-recorder-lang-5.11.6-1.6.noarch.rpm"
-RPM_HASH = "5717f1a3bd572f9b67aecd80a676ecd7457dbd934ac0a519a73df339e153fe7f8a05ab5108f3e742e87e808796675f99add097d154cd04fd525452fae8a3d39f"
+RPM_NAME = "deepin-screen-recorder-lang-5.11.6-1.7.noarch.rpm"
+RPM_HASH = "65e9b54d1f4479639af0070cdcbd34c9ae79bfe626e1faecaba1be22d77a0cdd0ac0aeaf9179a49f592c593a6ecc53630d6740f111b9393b3c5e34518fced8cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-screen-recorder-lang deepin-screen-recorder-lang-all"

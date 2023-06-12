@@ -2,10 +2,10 @@ SUMMARY = "GTK+ theme matching KDE's Breeze -- Common Files"
 DESCRIPTION = "A GTK+ theme created to match with the new Plasma 5 Breeze theme."
 LICENSE = "LGPL-2.1-only"
 
-PV = "5.27.4"
+PV = "5.27.5"
 
-RPM_NAME = "metatheme-breeze-common-5.27.4-2.1.aarch64.rpm"
-RPM_HASH = "040869ee47b68d20349ea10e5b5fbe0271fcd17672aea4f8fdbc38db4f5296c14b9339c5c82f7528bb95d06225dd5b7d33d7e06ab1cccb33f494f3debefaf152"
+RPM_NAME = "metatheme-breeze-common-5.27.5-1.1.aarch64.rpm"
+RPM_HASH = "eb8f796c2c779034998c857f227fce159ffbfd67169bdbf471183ac80665d6ee3cc7d99a61159768ed64b2c041e0bbb9917509b8af393e5e8c77f70da09b850d"
 
 RPROVIDES:${PN} += "breeze-gtk metatheme-breeze-common metatheme-breeze-common(aarch-64)"
 RDEPENDS:${PN} += ""

@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 
-RPM_NAME = "wxWidgets-3_2-doc-xml-3.2.2.1-2.1.noarch.rpm"
-RPM_HASH = "94679bb791367ebec6330efc3b19f02424abdff6056a35a6890bc792d3e8e2c3e80333c8405f7329d4f2e7594ecbcbef57a613b8e4eda7d82439baf95d38b4c8"
+RPM_NAME = "wxWidgets-3_2-doc-xml-3.2.2.1-3.1.noarch.rpm"
+RPM_HASH = "63d6869154cfcd5ea1258a947280d6f8acda1c59abd8492e258a2a978da99b02de7bd1ffb19f6c2ba197b9a8fed4f760ef6d21bcb2e1fb21e43c041dc77814d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wxWidgets-3_2-doc-xml"

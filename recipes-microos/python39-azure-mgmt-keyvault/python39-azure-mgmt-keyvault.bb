@@ -7,10 +7,10 @@ replace the old Azure Service Management (ASM). \
 This package has been tested with Python 2.7, 3.4, 3.5, 3.6 and 3.7."
 LICENSE = "MIT"
 
-PV = "10.2.1"
+PV = "10.2.2"
 
-RPM_NAME = "python39-azure-mgmt-keyvault-10.2.1-1.1.noarch.rpm"
-RPM_HASH = "936a90d3c123fe648af3bfd42f5e352580e3f97a35a1ec86a09a0ebcb496e83ebcaa996e1e0600160afe190882078f3f7722855c9c0fd37d7bfee664f39d7e47"
+RPM_NAME = "python39-azure-mgmt-keyvault-10.2.2-1.1.noarch.rpm"
+RPM_HASH = "3e5e747a9b0252e3979d9a15eba7da3e1242839790009f2592d677cb763a67e21cf99c256a8a7cf77128628d45e70090f5316893534a8303d4d755351b98924c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-keyvault) python39-azure-mgmt-keyvault python3dist(azure-mgmt-keyvault)"

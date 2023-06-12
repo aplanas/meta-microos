@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.1"
 
-RPM_NAME = "gokart-0.5.1-1.3.aarch64.rpm"
-RPM_HASH = "e1d414ef789f2e606b8c6a71c579d73c4452cbb4016ab047d62255bb6250628587a638a7fe278e877ac6319268003cc02bc3a028c4f1798fb0598a797312ac95"
+RPM_NAME = "gokart-0.5.1-1.4.aarch64.rpm"
+RPM_HASH = "c24159ed14e17ebc15e1e0bae256178d8ab0cb2b9bd26302dc4818fc204feb1879f9f38517fe4e1397a1e700cf4cde8f0015f3e4ef4c01b3a76d8e0b50590c9c"
 
 RPROVIDES:${PN} += "gokart gokart(aarch-64)"
 RDEPENDS:${PN} += "go libc.so.6(GLIBC_2.34)(64bit)"

@@ -6,10 +6,10 @@ indentation of source code, and printing and editing of multiple \
 documents in one window."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.26.1"
 
-RPM_NAME = "pluma-devel-1.26.0-2.5.aarch64.rpm"
-RPM_HASH = "6f01ba1564c54e27c5a1463ed6ee3895606f15e67f075f95711736cbf108582036969ef52f80f42b1708bad84cad63d0b328dd188c7f9931055f7d47a18cce36"
+RPM_NAME = "pluma-devel-1.26.1-1.1.aarch64.rpm"
+RPM_HASH = "a1daccbb51f9f6ecd4f69140b18fa16665f12bae0124f7b04fa978dac8ced551c7b11d99ecf4bf718b79b595f526bd3ab78b24df8451baa97da0c7344378bcf0"
 
 RPROVIDES:${PN} += "pkgconfig(pluma) pluma-devel pluma-devel(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config pkgconfig(gtksourceview-3.0) pkgconfig(gtksourceview-4) pkgconfig(libpeas-1.0) pkgconfig(libpeas-gtk-1.0) pluma typelib-1_0-Pluma-1_0"

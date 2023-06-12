@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.2.0"
 
-RPM_NAME = "python311-pick-2.2.0-1.4.noarch.rpm"
-RPM_HASH = "4efdcef8d910aaac940c6e8a7b4fd9c75164189323290ff8501fe84c8c54d072003e4046d3ce8ca851a21dbb67e1a5913b483787e3fa5dc22a6ca41f13b3b348"
+RPM_NAME = "python311-pick-2.2.0-2.1.noarch.rpm"
+RPM_HASH = "42443a09f8a8769f9e8fba40d9615a1ed7660d95c710107dfeeef53e0591b9f789e6fb923ca7da32fd5b5f6aaec95f4089152a2b304a45a0554bbef501805aa1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(pick) python311-pick python3dist(pick)"

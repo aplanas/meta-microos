@@ -3,10 +3,10 @@ DESCRIPTION = "XStatic is a packaging standard to package external (often 3rd pa
 static files as a Python package."
 LICENSE = "MIT"
 
-PV = "1.0.2"
+PV = "1.0.3"
 
-RPM_NAME = "python310-XStatic-1.0.2-2.14.noarch.rpm"
-RPM_HASH = "016595c6ffb914d38f611abb8a68f9278a61266d421e3090a59efd1cc05a250f4c3a78999b7f876c8a1a55754ae87da7d22fa26a197cba66fafaa93ac5683685"
+RPM_NAME = "python310-XStatic-1.0.3-1.1.noarch.rpm"
+RPM_HASH = "3c83bfe2998c9e6139f097216e50de6d825acc1a8889d1b66540b2851bb89fe08e8170ebe4d627f0ead048b538148dc57c967b7f2f8e340016a89e0ef8771c67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-XStatic python3.10dist(xstatic) python310-XStatic python3dist(xstatic)"

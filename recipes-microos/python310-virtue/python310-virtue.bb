@@ -2,10 +2,10 @@ SUMMARY = "After trial comes virtue. A test runner for good"
 DESCRIPTION = "After trial comes virtue. A test runner for good."
 LICENSE = "MIT"
 
-PV = "2.5.2"
+PV = "2023.5.3"
 
-RPM_NAME = "python310-virtue-2.5.2-2.1.noarch.rpm"
-RPM_HASH = "63e30439c23f88e10deede5f8f9e0b7938af9558e1716e472be94bb69ae679cbef0a8e82b59f06900ba88680712b692c2107bd2c09c677db7be4a0808830f383"
+RPM_NAME = "python310-virtue-2023.5.3-1.1.noarch.rpm"
+RPM_HASH = "8c71b599de6d971dc6bd715067ff6f11e797b2a222e02c4c9e6d79e7967e4d9aaebfe7a8427d916c0b25c8ed13e352afa24f8eaf36f193fd0b858f5af20a01e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-virtue python3.10dist(virtue) python310-virtue python3dist(virtue)"

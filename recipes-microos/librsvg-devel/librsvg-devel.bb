@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "2.56.0"
+PV = "2.56.1"
 
-RPM_NAME = "librsvg-devel-2.56.0-3.1.aarch64.rpm"
-RPM_HASH = "1cb18cd5375cea2dec788bd7d115f6aebcc718c55d25d889c4d8ab664e503c707f54b71fe79ce9a87eb1237fa71b77ec8b5c319488ee95cf5baabfa30208d03b"
+RPM_NAME = "librsvg-devel-2.56.1-1.1.aarch64.rpm"
+RPM_HASH = "88e1c63488a8c3640f409949c8a238e7d912d62c12180cbe88339866681f52c1b6aedb504b4bea5d1b1f201b78f4689dc3f576a9f0dd7ead209034a559d65b5d"
 
 RPROVIDES:${PN} += "librsvg-devel librsvg-devel(aarch-64) librsvg2-devel pkgconfig(librsvg-2.0)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config librsvg-2-2 pkgconfig(cairo) pkgconfig(gdk-pixbuf-2.0) pkgconfig(gio-2.0) pkgconfig(glib-2.0) typelib-1_0-Rsvg-2_0"

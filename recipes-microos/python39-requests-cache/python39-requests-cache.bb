@@ -12,10 +12,10 @@ If you need library which knows how to use HTTP headers and status codes, \
 take a look at `CacheControl <https://github.com/ionrock/cachecontrol>`_."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.6.3"
+PV = "1.0.1"
 
-RPM_NAME = "python39-requests-cache-0.6.3-1.9.noarch.rpm"
-RPM_HASH = "58f5e2cccb60b0ce2b87836c3e4415060ceef9bb8e16c56a6ee32bc6737f59180892fb0e7e63c229b0e1e4c73225a124261aa17691bbddd3e86ed07082a9af4a"
+RPM_NAME = "python39-requests-cache-1.0.1-1.1.noarch.rpm"
+RPM_HASH = "1e206372ae75c18eb3969f86766e85bee021a3ab35fe1b2cadf1918c79d28d135d0ac33b2bc2c32ef261c7aefc5760e07a5a1ec5548a1675a40e32af3d066600"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(requests-cache) python39-requests-cache python3dist(requests-cache)"

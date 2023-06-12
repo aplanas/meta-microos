@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.1"
 
-RPM_NAME = "rbac-lookup-0.9.1-1.3.aarch64.rpm"
-RPM_HASH = "ca65f29dea024d891edb72fed7229258b06b6b29bbfc5ea053a58704a26c04297282173547d2a74a0d8b6c5b1a631561af2f61aa03022b197a8fa4f31dc8806e"
+RPM_NAME = "rbac-lookup-0.9.1-1.4.aarch64.rpm"
+RPM_HASH = "21260c56c5a4ec08dedccada4aa3a80d899bd8fcddf9229708bea161ab32acb2fbc5776b2166cda7fc707761c4ddb29c8f1a47914d497bf1045f9041b620fb0a"
 
 RPROVIDES:${PN} += "rbac-lookup rbac-lookup(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

@@ -5,10 +5,10 @@ LICENSE = "MIT"
 
 PV = "5.1"
 
-RPM_NAME = "npm-default-5.1-1.2.aarch64.rpm"
-RPM_HASH = "2237ca3a5229e3927821b1e78128ddb27436b3c0636e92f0dc20e0782facc9a89688d45d7512bc360109540b6b29cd9c91ce72370128f849eddb6b41b5bf021a"
+RPM_NAME = "npm-default-5.1-2.1.aarch64.rpm"
+RPM_HASH = "c75513fcedaf2c0d70c169f292b67cde3649600732914e8e2d2fe77e23151240096300ab6f25af0e2a16708af18d05f579ed6776c4c3b74c930df23568d0a0c1"
 
 RPROVIDES:${PN} += "npm npm-default npm-default(aarch-64)"
-RDEPENDS:${PN} += "nodejs-default npm19"
+RDEPENDS:${PN} += "nodejs-default npm20"
 
 inherit rpm

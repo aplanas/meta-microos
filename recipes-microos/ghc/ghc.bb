@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.4.5"
 
-RPM_NAME = "ghc-9.4.5-1.1.aarch64.rpm"
-RPM_HASH = "80b47c247503024a82751e3032c17789837c3f9de10300cd5e0f8944d6710fbbc41f4b0e2f196c09c4cfea00074f8bf6610418b5ec75995b515ea76647d68e13"
+RPM_NAME = "ghc-9.4.5-3.1.aarch64.rpm"
+RPM_HASH = "f2089adf7429dc6f694e43890cc31e53e216ac567c16a9d830e8a4ea652f7d9d5b6d1c285dc5672122e814187e314b7d2e0da56635038feda1ba0b78c5e8214d"
 
 RPROVIDES:${PN} += "ghc ghc(aarch-64)"
 RDEPENDS:${PN} += "ghc-compiler ghc-devel ghc-ghc-boot-devel ghc-ghc-compact-devel ghc-ghc-devel ghc-ghc-heap-devel ghc-ghci-devel ghc-hpc-devel ghc-libiserv-devel"

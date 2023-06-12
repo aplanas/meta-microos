@@ -13,8 +13,8 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "8.9p1"
 
-RPM_NAME = "openssh-helpers-8.9p1-9.1.aarch64.rpm"
-RPM_HASH = "c6431d979a5b813fc5c466020a87606584403e18623e6592a17550db1aa35fbd05d9abcfac3248732ea53981fb166f8e438a5ddbc16844414b868ae8a7f79e01"
+RPM_NAME = "openssh-helpers-8.9p1-9.2.aarch64.rpm"
+RPM_HASH = "9d359a070828e75895055a738090a9951cf512f12eccb2e018957f78d9d18fc4db3d14b1439e94af8164ec501e16c7692bd193d6037c141aab1221454b58d39e"
 
 RPROVIDES:${PN} += "config(openssh-helpers) openssh-helpers openssh-helpers(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) liblber.so.2()(64bit) liblber.so.2(OPENLDAP_2.200)(64bit) libldap.so.2()(64bit) libldap.so.2(OPENLDAP_2.200)(64bit) openssh-common"

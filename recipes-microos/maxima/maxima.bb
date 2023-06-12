@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.46.0"
 
-RPM_NAME = "maxima-5.46.0-1.19.aarch64.rpm"
-RPM_HASH = "cbf1edbeb2e51b1e3b729cd019b59711061d47befb973d54dad0e85951c3c1b51a349b23598b63dbdfc409002088874fabeae872687d75f41773058664c2826c"
+RPM_NAME = "maxima-5.46.0-1.20.aarch64.rpm"
+RPM_HASH = "c060fe2142e651e4adb24cb6f25fa531dfc5fbb1318c6714dfe8fe5cacab9ee3db9fac80adca183487e6106549dfd891123cd27a35d3e7e803d5d9ef1c1521d4"
 
 RPROVIDES:${PN} += "maxima maxima(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh gnuplot maxima_exec plotutils rlwrap"

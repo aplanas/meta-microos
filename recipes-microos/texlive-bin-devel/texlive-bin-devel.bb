@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & SUSE-TeX"
 
 PV = "2023.20230311"
 
-RPM_NAME = "texlive-bin-devel-2023.20230311-89.1.aarch64.rpm"
-RPM_HASH = "dda3fe1f4a03fd9905b8a0895bc2f4a90148f4ff1df46edcebb233063ad2d76008e1591eb6ce5fd17872b83d5ad97d9e3b4cd9d208a644e4c5eccf60abf68f1b"
+RPM_NAME = "texlive-bin-devel-2023.20230311-91.1.aarch64.rpm"
+RPM_HASH = "6c9b2d23a2a3b5c9c7ecf5f433f3a3183ebe085d741ebe1b22395b7e3fbaf48f99b9462d7389084bd45cd8246ffebc3c5936e0ead5ce79d7936c103c284c35f9"
 
 RPROVIDES:${PN} += "texlive-bin-devel texlive-bin-devel(aarch-64)"
 RDEPENDS:${PN} += "libkpathsea6 libptexenc1 libsynctex2 libtexlua53-5 libtexluajit2 texlive-cweb-bin texlive-web-bin"

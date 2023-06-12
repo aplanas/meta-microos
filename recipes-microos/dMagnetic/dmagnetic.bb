@@ -4,10 +4,10 @@ can be used to play 'The Pawn', 'The Guild of Thieves', 'Jinxter', \
 'Fish!', 'Myth', 'Corruption' and 'Wonderland'."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.35"
+PV = "0.36"
 
-RPM_NAME = "dMagnetic-0.35-1.3.aarch64.rpm"
-RPM_HASH = "284c1f06f5ebdcc5a36298047a661351086718c51df8a99461b2a2c2c6d94d607f6740f32b3559bdaa22b0beba2f412ac9a2d4080e32a8425bc55e18eebb955c"
+RPM_NAME = "dMagnetic-0.36-1.1.aarch64.rpm"
+RPM_HASH = "b5e8dbd42f3675993a6e0a2d46dc13b87ce5b19c38d40d9566925912925fd41f5329677de76fe22ad45509229e7696f9b412856d2bca13ef25f2c62ce618bc73"
 
 RPROVIDES:${PN} += "dMagnetic dMagnetic(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

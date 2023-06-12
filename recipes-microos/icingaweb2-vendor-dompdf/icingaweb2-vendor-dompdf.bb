@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.11.4"
 
-RPM_NAME = "icingaweb2-vendor-dompdf-2.11.4-1.1.noarch.rpm"
-RPM_HASH = "10429847c19b33f84d84c4ee0044a0a5fc12c6aa08bd93f23187e152a7f93dac8cf4c358a06f5d2d3b97ac46ff706946d4ba34cbfc929f669799091bfb1d0c8c"
+RPM_NAME = "icingaweb2-vendor-dompdf-2.11.4-2.1.noarch.rpm"
+RPM_HASH = "db716a9e13ef37f94d0cba2bb888441de138911dcd15004647bf1966594744430fbb871d5422652d62203b1020e78fe3840022deaa20bfbd65bb01c5bf95c8d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-vendor-dompdf"

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.8.0"
 
-RPM_NAME = "python310-nbformat-5.8.0-1.1.noarch.rpm"
-RPM_HASH = "03ec49da80e58572a141a807323b067162a41d8bc8cba8be1737a6de47a7c4ba225674580cedf882e2156850df25e9ecbb6ab2ec14ba83abc266632286a2bd6e"
+RPM_NAME = "python310-nbformat-5.8.0-1.2.noarch.rpm"
+RPM_HASH = "29f95b3a83ff0579483965b3076849e3a2551d16c11c22a6cdf833b7b8e69fb1a7eb7310afb70017a0bd76fb0870e8ddb8a8f75d26591d43252bcd0dd5dcf8bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter_nbformat python3-nbformat python3.10dist(nbformat) python310-jupyter_nbformat python310-nbformat python3dist(nbformat)"

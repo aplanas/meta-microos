@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7"
 
-RPM_NAME = "libgamemode-devel-1.7-2.2.aarch64.rpm"
-RPM_HASH = "50e90756ecd3213758b58b89ac04f5f818ba55f69974cc151de23be8cae4f848ec09b24e51d1d02e37d9cde8ed30cfe088e65b19aac7584db1f0650c96e58e8a"
+RPM_NAME = "libgamemode-devel-1.7-3.1.aarch64.rpm"
+RPM_HASH = "113be1db073698c58be7661fc8a727053677c101ceac28e38936beaa546fb1fc9ec5a74ea02e0fb8b7a50c1e56960af04073218c9d40eb575c75b5e3f1b6a590"
 
 RPROVIDES:${PN} += "libgamemode-devel libgamemode-devel(aarch-64) pkgconfig(gamemode) pkgconfig(libgamemodeauto)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libgamemode0 libgamemodeauto0"

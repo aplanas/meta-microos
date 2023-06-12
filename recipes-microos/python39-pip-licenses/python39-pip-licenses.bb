@@ -2,10 +2,10 @@ SUMMARY = "Python packages license list"
 DESCRIPTION = "Dump the software license list of Python packages installed with pip."
 LICENSE = "MIT"
 
-PV = "4.3.1"
+PV = "4.3.2"
 
-RPM_NAME = "python39-pip-licenses-4.3.1-1.1.noarch.rpm"
-RPM_HASH = "4c97c773e7045ffb7aa1fd31323fc3062984b5391ba71ea6fce5789072046aef8f5fe31ab613c3a932c40bd8f157c42071ba13bf00ee2217fa1056d99c33a8fb"
+RPM_NAME = "python39-pip-licenses-4.3.2-1.1.noarch.rpm"
+RPM_HASH = "54f44d07da71e0f5a6e942ec44c48ba34fab9b36feafe1140c50e6810d8d493217e0da1f89d146cc329a789315445075a4c3de029ac812cb1270a89c37625440"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(pip-licenses) python39-pip-licenses python3dist(pip-licenses)"

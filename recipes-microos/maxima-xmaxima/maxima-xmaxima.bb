@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.46.0"
 
-RPM_NAME = "maxima-xmaxima-5.46.0-1.19.aarch64.rpm"
-RPM_HASH = "395db0284cfe6b6367fb7b713b74214ad6eeab700ed298a241a3b938b4daa83e5e5fd5306e029f4071a9b75094cad1ad1760c022e4b1d52c4286d92df2ed4c08"
+RPM_NAME = "maxima-xmaxima-5.46.0-1.20.aarch64.rpm"
+RPM_HASH = "248c759915c308a5e8e32e6356a4f27e920746505b765b5d5fc045c5b45fac89d2052164147867ebad27b069585888852296ae79cb76137922512b2c80167b6d"
 
 RPROVIDES:${PN} += "application() application(net.sourceforge.maxima.xmaxima.desktop) maxima-xmaxima maxima-xmaxima(aarch-64) metainfo() metainfo(net.sourceforge.maxima.xmaxima.appdata.xml) xmaxima"
 RDEPENDS:${PN} += "/bin/sh maxima tk"

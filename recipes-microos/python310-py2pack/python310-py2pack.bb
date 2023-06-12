@@ -5,10 +5,10 @@ It allows to list Python modules or search for them on the Python Package Index 
 universal tool to package Python modules."
 LICENSE = "Apache-2.0"
 
-PV = "0.8.7"
+PV = "0.9.0"
 
-RPM_NAME = "python310-py2pack-0.8.7-2.3.noarch.rpm"
-RPM_HASH = "92c14eb6fd92f199871baf5b44c7b8e3f85e40e04e6e1d82d9a417f3e8bc6777a1d449e73e34fb56e5682dca96a2fff5a4f381c9242c6b70e75ebeaf89cec36d"
+RPM_NAME = "python310-py2pack-0.9.0-1.1.noarch.rpm"
+RPM_HASH = "0d9ea87dfef4cbb7ae34ca55d623bc1e778ab5565cd9de6e2375180918d86ee1c53a1fc238790c1b891f2ca7525d21030374c9cc1d61bedbccf52b4eee3d64af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-py2pack python3.10dist(py2pack) python310-py2pack python3dist(py2pack)"

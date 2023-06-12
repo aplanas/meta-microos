@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "1.43.0"
 
-RPM_NAME = "terraform-provider-openstack-1.43.0-2.8.aarch64.rpm"
-RPM_HASH = "072e0fbd3664791a9f2c41cc033752a1a7502210bf683e9fd334fe3d59358ea5a69a7c86f6183673a61b2e4063cb0ff348f409fefd69a8d66cbbd2f13706006a"
+RPM_NAME = "terraform-provider-openstack-1.43.0-2.9.aarch64.rpm"
+RPM_HASH = "19bccd19fc333ab2f5a883ecb0f76261d54bef34375f07518c5cbeb4aabf8723d0e9be82acd0999475141b4f8e3f07b8f6d648c2991f1a7c2c6bb52bb71ac707"
 
 RPROVIDES:${PN} += "terraform-provider-openstack terraform-provider-openstack(aarch-64)"
 RDEPENDS:${PN} += "mkisofs terraform"

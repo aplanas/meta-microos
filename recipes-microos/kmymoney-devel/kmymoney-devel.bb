@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "5.1.3"
 
-RPM_NAME = "kmymoney-devel-5.1.3-2.9.aarch64.rpm"
-RPM_HASH = "3972a178450e29fde4e4c1c6b77aacdfa0c64df8f7eb33461e99d7c95d86da86990fa78ffa64eb643f97842740508785c8d41b6a8aca751d99faecb7fea1be4c"
+RPM_NAME = "kmymoney-devel-5.1.3-2.10.aarch64.rpm"
+RPM_HASH = "d1c88948408b4ed50b7491d7c1d932a48e26115b220c18becec6d8ece358c16af2659e90508198f48d6e2094b1f45193607bf3d1325a9752f5e13bf663687955"
 
 RPROVIDES:${PN} += "kmymoney-devel kmymoney-devel(aarch-64)"
 RDEPENDS:${PN} += "kmymoney"

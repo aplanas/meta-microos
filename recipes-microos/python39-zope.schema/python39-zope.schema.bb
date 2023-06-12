@@ -11,8 +11,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "7.0.1"
 
-RPM_NAME = "python39-zope.schema-7.0.1-1.3.noarch.rpm"
-RPM_HASH = "e779fe03fa1a5dd9c6739836e7341a276fb76564533bd04d82db9c3146f7ef928a07f7e569dc3a82e0822bae79c4125c37cfe1f364c96cdb2e57159696ca4031"
+RPM_NAME = "python39-zope.schema-7.0.1-2.1.noarch.rpm"
+RPM_HASH = "47011771dfd2448494dd4b12a93f7e90e7945b90094eb6f0f99cd1618840e452bc1f8ca60cb8bb7d0ddaac42beb3870ddd0974f94aa7bfe2248ac1e9cbd63f59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(zope.schema) python39-zope.schema python3dist(zope.schema)"

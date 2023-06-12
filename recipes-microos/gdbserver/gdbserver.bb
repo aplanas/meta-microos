@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only-WITH-GCC-exception-3.1 & GPL-3.0-or-later & LGPL-2.1-or-
 
 PV = "12.1"
 
-RPM_NAME = "gdbserver-12.1-7.1.aarch64.rpm"
-RPM_HASH = "2e7ecc944d9efc3673b82c2b6dc5e7589ebb25145e98a6f4c5a8d2a0371812c68c1d457bcf7d4881725305bf69242a769cdde6858e0551d7c843cf64be66d057"
+RPM_NAME = "gdbserver-12.1-8.1.aarch64.rpm"
+RPM_HASH = "3c285ee3cfa3982106fb093556d9d53efba8ccc1b0eaa03e5311bb6bc9e309986a78fa1cc3ee8581670069feafb8b2a972a9d7d897a08e1e14003b8ded31be42"
 
 RPROVIDES:${PN} += "gdbserver gdbserver(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.19)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"

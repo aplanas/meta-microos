@@ -18,8 +18,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.2"
 
-RPM_NAME = "cups-2.4.2-4.3.aarch64.rpm"
-RPM_HASH = "664e35b3f43f1581c2df6a121ededc786425fd0fc69d3e2a6cf62d3353aa31feb970967734c3324690e1d98e7b355dc3b8269f6c28192ca659dfe46ddcc889a5"
+RPM_NAME = "cups-2.4.2-5.1.aarch64.rpm"
+RPM_HASH = "612d6e7f53066c80d50f63c82318b1143fed0dbd9e69741abad78dbbffefadc70a7b8661da4137fcfae4601da767e095c177a2c870297c8bbb323f88eff95e0e"
 
 RPROVIDES:${PN} += "config(cups) cups cups(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash /usr/sbin/groupadd coreutils cups-client cups-config ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libavahi-client.so.3()(64bit) libavahi-common.so.3()(64bit) libc.so.6(GLIBC_2.36)(64bit) libcups.so.2()(64bit) libdbus-1.so.3()(64bit) libdbus-1.so.3(LIBDBUS_1_3)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libgssapi_krb5.so.2()(64bit) libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libpam.so.0()(64bit) libpam.so.0(LIBPAM_1.0)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libsystemd.so.0()(64bit) libsystemd.so.0(LIBSYSTEMD_209)(64bit) libusb-1.0.so.0()(64bit) systemd"

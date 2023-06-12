@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "python310-ansi2html-1.8.0-1.9.noarch.rpm"
-RPM_HASH = "2813f650494070b550d29aaa8f88cd5b9f592af7e7e69a22169f53472e89d68dbe0c88c0aa9eb7c314db73b3e9f1ada596cc512172dee26483c477383a1d2351"
+RPM_NAME = "python310-ansi2html-1.8.0-2.1.noarch.rpm"
+RPM_HASH = "61b665db69718d289366d847028829bc5a164264ac059ff513b9ec21bfde608ab2768f5697899ce0c4d706c2f3d3dc280b0515dfaa980997c851771b6b3e8717"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ansi2html python3.10dist(ansi2html) python310-ansi2html python3dist(ansi2html)"

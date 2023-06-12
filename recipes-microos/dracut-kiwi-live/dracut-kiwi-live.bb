@@ -3,12 +3,12 @@ DESCRIPTION = "This package contains the kiwi-live dracut module which is used \
 for booting iso(live) images built with KIWI"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.24.57"
+PV = "9.24.61"
 
-RPM_NAME = "dracut-kiwi-live-9.24.57-1.2.aarch64.rpm"
-RPM_HASH = "4d9f6ebfb050d12c6cd82fb9a4eddcb700d2176c7277ff8d354f3c1323244b88cdd1f46598e16a057a66c2a6f881874b3bb76c4adde3ff609fd609845d3c0cb0"
+RPM_NAME = "dracut-kiwi-live-9.24.61-1.1.aarch64.rpm"
+RPM_HASH = "137ca1a076cd13db3dea4f0326b7db26f16355c9fcd163bc45ac52bce9f9bd22b0bed3a1ccfe12154bb96aaa18f44f66dfd0d8ce603353eec063fb1b2a68a5a2"
 
 RPROVIDES:${PN} += "dracut-kiwi-live dracut-kiwi-live(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash device-mapper dialog dracut e2fsprogs parted util-linux util-linux-systemd xfsprogs xorriso"
+RDEPENDS:${PN} += "/bin/bash device-mapper dialog dracut e2fsprogs util-linux util-linux-systemd xfsprogs xorriso"
 
 inherit rpm

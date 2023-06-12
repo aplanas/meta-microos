@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.57"
 
-RPM_NAME = "fox16-doc-1.6.57-2.1.noarch.rpm"
-RPM_HASH = "3bc0c7df4e3e84add92ec3468467aeb6cb7d409726229f49c388a21425134081f77f2d4132535e627d99b24bfe24e72d0cbab3e007c6d249a0164fcaa15a9df2"
+RPM_NAME = "fox16-doc-1.6.57-4.1.noarch.rpm"
+RPM_HASH = "39df441ce3eb9d36b6b5f3b1c2210868ddf7026fe53d8103a0e4511d44a207cdabf18045f14282c3c2ceeaa1f7f76dd27c45fc83c88b56b81ed3d145dadc47de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fox16-doc"

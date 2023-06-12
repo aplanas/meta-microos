@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "libcap-ng-devel-0.8.3-1.8.aarch64.rpm"
-RPM_HASH = "04094e1a48ea493a611e76484c0bce88197d0a27fd030709d822aa7c31a5eff4e81f5ba4a0d74a0771cccc48db34caadefc7ce9027c9996fcdc214c12ccf6ab9"
+RPM_NAME = "libcap-ng-devel-0.8.3-2.1.aarch64.rpm"
+RPM_HASH = "f53812144ae35c25a6a7905c1811868d6ac6c0a8f2c0a4ca4d4cad3539a5c3272d5e92950d2fada131e6e5c3bfb11d4de6faca24ef1d423191e8ce1bed1827f6"
 
 RPROVIDES:${PN} += "libcap-ng-devel libcap-ng-devel(aarch-64) pkgconfig(libcap-ng)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config kernel-headers libcap-ng0 pkgconfig"

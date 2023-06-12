@@ -2,10 +2,10 @@ SUMMARY = "Google Cloud Guest Agent"
 DESCRIPTION = "Google Cloud Guest Agent"
 LICENSE = "Apache-2.0"
 
-PV = "20230221.00"
+PV = "20230510.00"
 
-RPM_NAME = "google-guest-agent-20230221.00-2.2.aarch64.rpm"
-RPM_HASH = "c75424eaae08756b7f4b447b303ab99d081ff45d10b68a2915be570e1b9365c30ccddda1472fc34cb608d7c5bc427fd5c6e3b13c5f86a090116894d25652adbc"
+RPM_NAME = "google-guest-agent-20230510.00-1.1.aarch64.rpm"
+RPM_HASH = "7b50dd566fc7aa0923138fd74e8bee6ea71432425a02677c3df5a19ef3018280384174d8e20f09cf9dc38d5f9b8d278101c23e896986fda9ca04ca05dc76cdbd"
 
 RPROVIDES:${PN} += "google-compute-engine-init google-guest-agent google-guest-agent(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh google-guest-configs"

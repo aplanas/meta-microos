@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.0.2"
 
-RPM_NAME = "kbfs-tool-6.0.2-3.3.aarch64.rpm"
-RPM_HASH = "0352f0ebbd7a27d1ea90bcf12963914486c434826c1f1b2452ed0632363bc634e4d869a4dbc845e7f981f5e3d9004eee3af973f2efa8bb0986f17714caaa5473"
+RPM_NAME = "kbfs-tool-6.0.2-3.4.aarch64.rpm"
+RPM_HASH = "94aa1cba0f98f9533182620434568bf12bd4f6c396b6c2cd6cddc70ba111cdd7d36cc97431696fa75536612b07805278922015bd5fdd26e9847c1513aa327ec8"
 
 RPROVIDES:${PN} += "kbfs-tool kbfs-tool(aarch-64)"
 RDEPENDS:${PN} += "keybase-client"

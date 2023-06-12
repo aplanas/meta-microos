@@ -6,12 +6,12 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libosmotrau."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.0"
+PV = "1.4.1"
 
-RPM_NAME = "libosmotrau-devel-1.3.0-1.4.aarch64.rpm"
-RPM_HASH = "43e28b6109188f791726aea5b9628b85bcfe484420da9e1fbbebc95cb9b2cea06b14ef296385ae7142b928b37e2d0f5669f41d6950dd257b780970cbfa7c2a0a"
+RPM_NAME = "libosmotrau-devel-1.4.1-1.1.aarch64.rpm"
+RPM_HASH = "6cf65aeb3b0b1098adcbcfc7bfd933636dd70435517fbed560c73870a016d77dd73635d141133e8faea2747d07f2d2a026a0b39f9617c964c57bb0bcc8fc4cef"
 
 RPROVIDES:${PN} += "libosmotrau-devel libosmotrau-devel(aarch-64) pkgconfig(libosmotrau)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libosmotrau2"
+RDEPENDS:${PN} += "/usr/bin/pkg-config libosmotrau2 pkgconfig(libosmocore)"
 
 inherit rpm

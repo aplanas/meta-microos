@@ -11,10 +11,10 @@ This package provides the GObject Introspection bindings for the GTK+ \
 port of WebKit2."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.1"
+PV = "2.40.2"
 
-RPM_NAME = "typelib-1_0-WebKit2-4_0-2.40.1-1.1.aarch64.rpm"
-RPM_HASH = "a8b32046c5522148a947ce73106cc8aa5e21a8cbb7acdf3d1607d0b2c33b4019d6ab5329a5ddc3628e711b2e1f4905f79d17a467aa3e50948aa9c94a2d774878"
+RPM_NAME = "typelib-1_0-WebKit2-4_0-2.40.2-1.1.aarch64.rpm"
+RPM_HASH = "5edd174e98a8123bbde0500d7f670b1134345db5f6369225769a118ea3a340f97129c2e57b6b8d0b52e4549c8bd7a181f7b2890de7811651b429d8e0c9834cbb"
 
 RPROVIDES:${PN} += "typelib(WebKit2) typelib-1_0-WebKit2-4_0 typelib-1_0-WebKit2-4_0(aarch-64)"
 RDEPENDS:${PN} += "libjavascriptcoregtk-4.0.so.18()(64bit) libwebkit2gtk-4.0.so.37()(64bit) typelib(Atk) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gdk) typelib(GdkPixbuf) typelib(Gio) typelib(Gtk) typelib(HarfBuzz) typelib(JavaScriptCore) typelib(Pango) typelib(Soup) typelib(cairo) typelib(freetype2) typelib(xlib)"

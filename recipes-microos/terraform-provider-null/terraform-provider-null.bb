@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "terraform-provider-null-3.1.0-2.8.aarch64.rpm"
-RPM_HASH = "67aa5e0dffd11650fd02f58e46115c3b7d9ae9f8321f60d8cd93f0721d50bc85b4abc333e7b67e2bac1cbd3bb3e2007ed4b264ea541e19a7b80b9d34aa963844"
+RPM_NAME = "terraform-provider-null-3.1.0-2.9.aarch64.rpm"
+RPM_HASH = "b4e5c61100476c7ab3671caad675fdb923dc255d5fd8f1211b304e19d2335d8e4fae8a0594c8f45cae3dcfe0b12b37d0e309e8f6718a01d4a2aa9d19223b2bee"
 
 RPROVIDES:${PN} += "terraform-provider-null terraform-provider-null(aarch-64)"
 RDEPENDS:${PN} += "terraform"

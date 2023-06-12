@@ -4,10 +4,10 @@ needed by the configuration applets in the cinnamon-control-center \
 package."
 LICENSE = "GPL-2.0-only & GPL-3.0-or-later & MIT"
 
-PV = "5.6.1"
+PV = "5.8.0"
 
-RPM_NAME = "cinnamon-control-center-common-5.6.1-1.3.noarch.rpm"
-RPM_HASH = "20be91033ef6fb4d6f71a2e3067b32c36f1e75bb3e6ecb53e374d5537dbc7e0a00c9f0fda42491722157957ab813200f90facbf9cc69cea101507ee4508364d4"
+RPM_NAME = "cinnamon-control-center-common-5.8.0-1.1.noarch.rpm"
+RPM_HASH = "5ba220ccc3c01f870d9da9bf9b865bdc5f6c105c8cc17446a3313ace5c7cd9c3bdb9df12f122f25c9f8d4c2980fc7b07cd1653af1fcde984ca94c358ce27edd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-control-center-common"

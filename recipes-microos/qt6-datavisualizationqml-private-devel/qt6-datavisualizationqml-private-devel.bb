@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6DataVisualizationQ
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-datavisualizationqml-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "46813a419d141e3e16540fe92899bfd039ced36a94506570e730535a921996710d3befdc3c1959b6fa1961196fcd57839bcc81a98b13b6a1dd07f14a27b4a623"
+RPM_NAME = "qt6-datavisualizationqml-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "34a40f9e5a6da87a8371d635afef46504702549a9ff9f4b33a64103bd45c682b2eb23575a8a2defd817f0ca5e7d2d5a4bea38335e69fec1b791bd6b414501da1"
 
 RPROVIDES:${PN} += "qt6-datavisualizationqml-private-devel qt6-datavisualizationqml-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6DataVisualizationQml)"

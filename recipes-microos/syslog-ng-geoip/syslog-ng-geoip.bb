@@ -3,12 +3,12 @@ DESCRIPTION = "This package provides GeoIP (MaxMindDB) modules providing support
 logging geo-location information."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.0.1"
+PV = "4.2.0"
 
-RPM_NAME = "syslog-ng-geoip-4.0.1-1.4.aarch64.rpm"
-RPM_HASH = "7c8f2202c138045715e7b802f75a5d118d069a7a961c5c66c1d6f137967bd798bafe37d62d8bb78059b61c8c0af16af39905a9f19b27f6338eb8a45a57c93e70"
+RPM_NAME = "syslog-ng-geoip-4.2.0-1.1.aarch64.rpm"
+RPM_HASH = "b296d710c24bbcca0b0b3fd3c4eb0dca813cce03bfe3debc203618c331ed2b32cd1c7795a62919b7b68f924e809b8b25aec6386d2658dcc6c709fc48def1523e"
 
-RPROVIDES:${PN} += "libgeoip2-plugin.so()(64bit) syslog-ng-geoip syslog-ng-geoip(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libmaxminddb.so.0()(64bit) libsyslog-ng-4.0.so.0()(64bit) syslog-ng"
+RPROVIDES:${PN} += "syslog-ng-geoip syslog-ng-geoip(aarch-64)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libmaxminddb.so.0()(64bit) libsyslog-ng-4.2.so.0()(64bit) syslog-ng"
 
 inherit rpm

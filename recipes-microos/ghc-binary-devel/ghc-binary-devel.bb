@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.9.1"
 
-RPM_NAME = "ghc-binary-devel-0.8.9.1-1.1.aarch64.rpm"
-RPM_HASH = "83a81228c001205ce41c59390283d21f118d3d9ec3b1d4aa9a33dd621bf32eaa0496a96ce8988ad0368065a52ba93d069acfb109bafba96515e3554062bb3561"
+RPM_NAME = "ghc-binary-devel-0.8.9.1-3.1.aarch64.rpm"
+RPM_HASH = "add5f37cfe93e84f1f67dba261fc016c6446b5bded74e69fa49672f6860009a4fb53ef175b98eafc0136e5c829e32e6c281a05d2e167e90e748fb1cc41a3494d"
 
 RPROVIDES:${PN} += "ghc-binary-devel ghc-binary-devel(aarch-64) ghc-binary-static ghc-binary-static(aarch-64) ghc-devel(binary-0.8.9.1)"
 RDEPENDS:${PN} += "ghc-binary(aarch-64) ghc-compiler ghc-devel(array-0.5.4.0) ghc-devel(base-4.17.1.0) ghc-devel(bytestring-0.11.4.0) ghc-devel(containers-0.6.7)"

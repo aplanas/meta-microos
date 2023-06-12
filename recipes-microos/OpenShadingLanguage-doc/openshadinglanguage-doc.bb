@@ -7,8 +7,8 @@ LICENSE = "CC-BY-3.0"
 
 PV = "1.12.10.0"
 
-RPM_NAME = "OpenShadingLanguage-doc-1.12.10.0-1.2.aarch64.rpm"
-RPM_HASH = "f86325a21a81238f903cd58debaa8863078a0d1320ce17e5a2932c3254c21a6cbcc7073b214819579f7e1c52309413ef241bf6b89cb81c6503cd97f79ad62d44"
+RPM_NAME = "OpenShadingLanguage-doc-1.12.10.0-2.1.aarch64.rpm"
+RPM_HASH = "63d17e707e991fee83bddf7b69a0dd5af03d0c3eb9f90aa70960d44ceff896051521f3fe80abad482727ab8ec70b376b8cff4e276f349812c5a5663e4eff7e8f"
 
 RPROVIDES:${PN} += "OpenShadingLanguage-doc OpenShadingLanguage-doc(aarch-64)"
 RDEPENDS:${PN} += "OpenShadingLanguage"

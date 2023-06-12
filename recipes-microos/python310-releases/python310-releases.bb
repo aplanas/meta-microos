@@ -16,13 +16,13 @@ Specifically: \
   overridden on a per-issue basis."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.6.3"
+PV = "2.1.1"
 
-RPM_NAME = "python310-releases-1.6.3-5.1.noarch.rpm"
-RPM_HASH = "c0e0209466cb984e9400a5c07e9a6fedf0a0ab052336f3175718cf4e52b71c96caf06611bb85f22a28b0f33192b1acc222b8eba8036cb0295c768879450cd383"
+RPM_NAME = "python310-releases-2.1.1-1.1.noarch.rpm"
+RPM_HASH = "ff343f3dcfb138985b42bfdc158560b59fdb3153d209edf6aae27536898eb80298f004cc31b34e33484e798b7c51d6835080105a7612807a5b733e0075b1e191"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-releases python3.10dist(releases) python310-releases python3dist(releases)"
-RDEPENDS:${PN} += "python(abi) python310-Sphinx python310-semantic_version python310-six"
+RDEPENDS:${PN} += "python(abi) python310-Sphinx python310-semantic_version"
 
 inherit rpm

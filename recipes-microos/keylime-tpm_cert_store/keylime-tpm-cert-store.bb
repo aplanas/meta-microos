@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "7.0.0"
 
-RPM_NAME = "keylime-tpm_cert_store-7.0.0-1.1.noarch.rpm"
-RPM_HASH = "bf41439efc1e50798c7dbc34fff454976aaca153da7c10ff9fad7b98ddddd41ae78a173641c9ea51f4c033518e90f2be30dc3bf621d7815b20bc3a4ac2b9d397"
+RPM_NAME = "keylime-tpm_cert_store-7.0.0-2.1.noarch.rpm"
+RPM_HASH = "5ee7719f7a461f9deea751c7da69732726ea26711452b67257ed9d89dbac5b788302119934045cc4dca40a46ab3636bf2bd8baaadd7915175e0a1376a9c00b9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group(keylime) keylime-tpm_cert_store user(keylime)"

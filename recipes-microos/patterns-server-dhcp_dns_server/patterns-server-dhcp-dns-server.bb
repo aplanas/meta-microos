@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20210330"
 
-RPM_NAME = "patterns-server-dhcp_dns_server-20210330-4.1.aarch64.rpm"
-RPM_HASH = "8e742aad6e8097d63462b5f760a2fc2768980eb98c3a0e0d99661b31455bc31ac0c28e034f32653d402cd4fb7e1a22cea0145cc9739e7012056780cfdab1247d"
+RPM_NAME = "patterns-server-dhcp_dns_server-20210330-5.1.aarch64.rpm"
+RPM_HASH = "7bfcd12059cdc2641ef7e4f82589e5d528cb21d4176a953d3506937e40968105eab88c7c9356ad16c4c05532b569a0665d4a2fb2e87f3ad63990c0eef7c0087a"
 
 RPROVIDES:${PN} += "pattern() pattern-category() pattern-icon() pattern-order() pattern-visible() patterns-openSUSE-dhcp_dns_server patterns-server-dhcp_dns_server patterns-server-dhcp_dns_server(aarch-64)"
 RDEPENDS:${PN} += "bind dhcp-server pattern()"

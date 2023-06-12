@@ -5,10 +5,10 @@ services, such as printers, to be discovered without any user intervention or \
 centralized infrastructure."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.105.0"
+PV = "5.106.0"
 
-RPM_NAME = "libKF5DNSSD5-5.105.0-1.1.aarch64.rpm"
-RPM_HASH = "66b875100a37d62928ca1dfc31ee4cded39f6edc0a4ef487a323670ec555bc677b663c9251a8120832700573760542a7f15f0a6eb31bb2200f4cbb881ac8ae59"
+RPM_NAME = "libKF5DNSSD5-5.106.0-1.1.aarch64.rpm"
+RPM_HASH = "da40955ffc05c3181c2ec782ddd647359d0175610957058bc8203b4fb417ddc3e44c55b09ed745ede59bb7912053a9b51c42ed37a89f28e658846764a39c769a"
 
 RPROVIDES:${PN} += "libKF5DNSSD.so.5()(64bit) libKF5DNSSD5 libKF5DNSSD5(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5DBus.so.5()(64bit) libQt5DBus.so.5(Qt_5)(64bit) libQt5DBus5 libQt5Network.so.5()(64bit) libQt5Network.so.5(Qt_5)(64bit) libQt5Network5 libc.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"

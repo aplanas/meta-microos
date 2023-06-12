@@ -7,8 +7,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-or-later"
 
 PV = "1.9.0"
 
-RPM_NAME = "libosmo-mgcp-client-devel-1.9.0-1.9.aarch64.rpm"
-RPM_HASH = "572038eeca2ce1e34837ccb23b8a0f53490a05b669eb600d1c379fb2320b593e4a0b6804496655d70ef98c0f2dbac56b9775a4bbb705fb8c7641b45cd72fe5c2"
+RPM_NAME = "libosmo-mgcp-client-devel-1.9.0-1.10.aarch64.rpm"
+RPM_HASH = "31c5d9672e5ee3ab551da3aa442c03ed759622c2d0732ab70feabad065c76e90071b876bbf3e232cb1101f0b7c258728cd9863c1acec07a916d630cdf3ea3d08"
 
 RPROVIDES:${PN} += "libosmo-mgcp-client-devel libosmo-mgcp-client-devel(aarch-64) pkgconfig(libosmo-mgcp-client)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libosmo-mgcp-client9"

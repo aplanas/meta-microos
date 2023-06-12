@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 base development meta package"
 DESCRIPTION = "This meta-package requires all the qt6-base development packages."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-base-devel-6.5.0-3.1.noarch.rpm"
-RPM_HASH = "a6c59a38e24d744c89a682860653c0c02b5ce3f95379a2b135a8cf7e98fcf59d8513d499423ea77a9db97ed9f28598f2ef8a267fb4cf608ec13593df84941a7c"
+RPM_NAME = "qt6-base-devel-6.5.1-1.1.noarch.rpm"
+RPM_HASH = "3e7d06941bcaed4fbfff080438ae2991ec14f732de77b3f5edbe4f9bf3a83f774965949be41bfe4d793532ec5e5f1c7d82ffdda5dbe4e78f0764243455b1ffea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-base-devel"

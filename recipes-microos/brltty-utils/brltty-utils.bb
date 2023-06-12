@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "brltty-utils-6.5-2.3.aarch64.rpm"
-RPM_HASH = "67e5de2ad5ecd98589ae1edc76e54560eaea436663842cf953a8e7e0ce41d994237a4a7f9aa10b569b402ba2493e900c7da2edf7a1e59b96a8f20d76ac35405d"
+RPM_NAME = "brltty-utils-6.5-2.4.aarch64.rpm"
+RPM_HASH = "e2c6991239a2d59efb8ef78f91b339813976dba4ea7f49f4ffca8d0d47bb0dda5831029721da07276b31d795ea6116a5ba60a7bd84c5c2de5a750ef305855233"
 
 RPROVIDES:${PN} += "brltty-utils brltty-utils(aarch-64)"
 RDEPENDS:${PN} += "brltty ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbrlapi.so.0.8()(64bit) libc.so.6(GLIBC_2.34)(64bit)"

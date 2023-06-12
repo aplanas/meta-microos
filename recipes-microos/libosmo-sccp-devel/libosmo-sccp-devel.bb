@@ -7,12 +7,12 @@ This subpackage contains the development files for the Osmocom SCCP \
 library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.6.0"
+PV = "1.7.0"
 
-RPM_NAME = "libosmo-sccp-devel-1.6.0-1.4.aarch64.rpm"
-RPM_HASH = "d1fb5c2393a5c0d79ddab5d556b9397ca69da06eca238321eb5d1bcfbfaf2fea31ac98b7096cfa90f5b806baacfe48d0c4685ae8126e920d063aada34424ab92"
+RPM_NAME = "libosmo-sccp-devel-1.7.0-1.1.aarch64.rpm"
+RPM_HASH = "f1399b951a41a115ecaeccb31907e9e609fedf7b01fad9e2c54b57a5e9800371f715cc1eb07f3b4b068d9b574a7a3c15a97a2486f09aae296b6d9ffa6e692d41"
 
 RPROVIDES:${PN} += "libosmo-sccp-devel libosmo-sccp-devel(aarch-64) pkgconfig(libosmo-sccp)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libosmo-sccp-1_6_0"
+RDEPENDS:${PN} += "/usr/bin/pkg-config libosmo-sccp-1_7_0"
 
 inherit rpm

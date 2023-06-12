@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later"
 
 PV = "4.18.0+git0.9a2f754"
 
-RPM_NAME = "xfwm4-branding-openSUSE-4.18.0+git0.9a2f754-1.2.noarch.rpm"
-RPM_HASH = "f9918ddcda2cae60c64714b3fe809a0f64fc068565b8d05245cf136e4cbc48b2c20cd9cbb5fa6caaed99045d35fcd95055c8226ac5ae281e68508fce48fc7ab7"
+RPM_NAME = "xfwm4-branding-openSUSE-4.18.0+git0.9a2f754-1.5.noarch.rpm"
+RPM_HASH = "222463f35ca3b33924ab17d957f12b433ad8c7c2b0b2560cf5e27c294da8bc1508a7c34e91f2bf86b24e72f0a175aaa7e9238712d769fd73a181bd565b1c6807"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(xfwm4-branding-openSUSE) xfwm4-branding xfwm4-branding-openSUSE"

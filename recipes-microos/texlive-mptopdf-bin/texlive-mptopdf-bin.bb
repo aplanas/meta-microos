@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn18674"
 
-RPM_NAME = "texlive-mptopdf-bin-2023.20230311.svn18674-89.1.aarch64.rpm"
-RPM_HASH = "6080aa9e585e934823667da88e0d9cf0dae6a0b1c20bf4fb05b5bd5b3a0feeb96b9a45973f35a46e13ed3d6e9dfacea22ca187cae2903c6689c22976b1249936"
+RPM_NAME = "texlive-mptopdf-bin-2023.20230311.svn18674-91.1.aarch64.rpm"
+RPM_HASH = "a2f4fffe2c7b82cdd73908b69c93cfd5297a7df3b49e247475521abe1fff77f66781fa89f911d39f97d7da35b78bd59268d0e477b741772f2c12213804deee10"
 
 RPROVIDES:${PN} += "texlive-mptopdf-bin texlive-mptopdf-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-mptopdf"

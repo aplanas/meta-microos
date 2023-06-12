@@ -2,10 +2,10 @@ SUMMARY = "Dogri localization files for LibreOffice"
 DESCRIPTION = "Provides Dogri translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-dgo-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "bf1afc4366593c3f6e7f17dcab7902fcf281183265ec3e97e67f367221c34f4f30826083a2e7568164ab60194b50601aeec6391dee86b209a909cc1c5af75261"
+RPM_NAME = "libreoffice-l10n-dgo-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "4d8d24c9d6427530a1489158292f6a78c17fd312e3f737a125f9a35ea01548f1da9473a8ed2d2779019979680d6ffe0e4bf304f7c16025ad971390f9b7edeb96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-dgo libreoffice-l10n-dgo locale(libreoffice:dgo)"

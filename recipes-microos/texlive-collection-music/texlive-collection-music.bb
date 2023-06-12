@@ -2,10 +2,10 @@ SUMMARY = "Music packages"
 DESCRIPTION = "Music-related fonts and packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65862"
+PV = "2023.208.svn65862"
 
-RPM_NAME = "texlive-collection-music-2023.201.svn65862-56.1.noarch.rpm"
-RPM_HASH = "ea302df7cce59a1e1a261fb6bd3490881c47a8108821e0a7a1afc11db02801ae708cec675fcabd8d520d6f19f5d9d94670cb9632506d266e06055bed23003fa8"
+RPM_NAME = "texlive-collection-music-2023.208.svn65862-58.1.noarch.rpm"
+RPM_HASH = "b925ffe7f6df7e1732caaec853903aa8287c276531604cf3287450bd3ebfa35cb2045a04b8c24d43f02e3b05d41f2d44e65e9b7a27c250bfa3fd74798dc3e401"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(music) texlive-collection-music"

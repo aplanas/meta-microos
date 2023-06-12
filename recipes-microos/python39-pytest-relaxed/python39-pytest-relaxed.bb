@@ -2,10 +2,10 @@ SUMMARY = "Relaxed test discovery/organization for pytest"
 DESCRIPTION = "Relaxed test discovery/organization plugin for pytest from python-paramiko author"
 LICENSE = "BSD-2-Clause"
 
-PV = "2.0.0"
+PV = "2.0.1"
 
-RPM_NAME = "python39-pytest-relaxed-2.0.0-2.1.noarch.rpm"
-RPM_HASH = "ffe02ea9849636d53901579d84e012c8b63e43fa06a50bfeeade5dd5f35a9ae6e7740f1b993b7cd1724abc99e9dd96b3fc82e18d1d6a137d8048601f13e600c8"
+RPM_NAME = "python39-pytest-relaxed-2.0.1-1.1.noarch.rpm"
+RPM_HASH = "0b8c1620102bad85a4ec07df3f89d6ac1db4d50de66b3529abb4e09838e034d7442c7f635ac48d337eceb330f6a56be0f6e7a4f8c50ddb4c3043e8c439e47432"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(pytest-relaxed) python39-pytest-relaxed python3dist(pytest-relaxed)"

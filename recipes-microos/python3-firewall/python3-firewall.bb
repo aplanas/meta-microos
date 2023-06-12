@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "python3-firewall-1.3.2-1.1.noarch.rpm"
-RPM_HASH = "5c400e97812310fbabd033038ea2cb0d239433b77750a33481764664655c835daedaf08fbceaf0d06cf796ad6c225d430a13665f1e64eed5007561f8e195cd78"
+RPM_NAME = "python3-firewall-1.3.2-2.1.noarch.rpm"
+RPM_HASH = "d850b13426c4dc4d058e23f58e47098bd552a2cd5ca4e18193a2c10b56c8ba71cc4ae6ee051cef7c7ad6f0a409fcd49aeb2ff408dccf35facc51447663dc3705"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-firewall"

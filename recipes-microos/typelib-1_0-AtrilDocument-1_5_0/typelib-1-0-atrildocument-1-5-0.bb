@@ -3,10 +3,10 @@ DESCRIPTION = "Atril is a document viewer capable of displaying multiple and sin
 page document formats like PDF and Postscript."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "1.26.0"
+PV = "1.26.1"
 
-RPM_NAME = "typelib-1_0-AtrilDocument-1_5_0-1.26.0-1.11.aarch64.rpm"
-RPM_HASH = "36909d451547b1d6258679e6313bce055bc56eaec908c156a6762dd2fd38f9f0314efcc2c67083a38645567cf787f8144ab00924c784ff51fa52953a5d360a00"
+RPM_NAME = "typelib-1_0-AtrilDocument-1_5_0-1.26.1-1.1.aarch64.rpm"
+RPM_HASH = "bb924384a89eeaa86d1e63ae678a1d8e7658f9b57c3693498f684499eb9d9a367b28412612f9bd473f2a292a00e1d737f196cc80f69234408810618bbaf15dab"
 
 RPROVIDES:${PN} += "typelib(AtrilDocument) typelib-1_0-AtrilDocument-1_5_0 typelib-1_0-AtrilDocument-1_5_0(aarch-64)"
 RDEPENDS:${PN} += "libatrildocument.so.3()(64bit) typelib(Atk) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gdk) typelib(GdkPixbuf) typelib(Gio) typelib(Gtk) typelib(HarfBuzz) typelib(Pango) typelib(cairo) typelib(freetype2) typelib(xlib)"

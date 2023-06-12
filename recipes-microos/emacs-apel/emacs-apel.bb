@@ -2,10 +2,10 @@ SUMMARY = "A Portable Emacs Library"
 DESCRIPTION = "A Portable Emacs Library"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "10.8+80+g6947dc4"
+PV = "10.8+81+g82eb232"
 
-RPM_NAME = "emacs-apel-10.8+80+g6947dc4-1.4.noarch.rpm"
-RPM_HASH = "465abc8698feedddfe397931533dac3e79f0e3a574c2f74a3da3a90c7e70a790708f21221d4e0b1854a8986c2a212a09494eafefa549e82727d59d54831563f6"
+RPM_NAME = "emacs-apel-10.8+81+g82eb232-1.1.noarch.rpm"
+RPM_HASH = "ce289245216f60c5b6dadbb7ceda82697a265e3ba371c626ecf0f72daf1797c813c3cf19d401f9fc1ce37196a51baffb36240453fa31dd2cbbacea326b2c41f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apel emacs-apel"

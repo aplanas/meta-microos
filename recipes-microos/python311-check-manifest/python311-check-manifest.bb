@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.49"
 
-RPM_NAME = "python311-check-manifest-0.49-2.2.noarch.rpm"
-RPM_HASH = "66fb8564e58e637ad4c092587427231968c68eca81ae0b0c94e4c11acd2652172f7c8a5033b6eedee2f2f58c489b794a41a96ac7dc50cd3b750840a8f1a43934"
+RPM_NAME = "python311-check-manifest-0.49-3.1.noarch.rpm"
+RPM_HASH = "52ed51f019c5aae486ebe424bc2b8e71bab989d23199dad69f3b0ed38d5da664421f0114e4bd3f7a59cd2a4679354ebb3ee3755ed27bad4fdcae49f7953fcdb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(check-manifest) python311-check-manifest python3dist(check-manifest)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-build python311-setuptools python311-toml update-alternatives"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-build python311-setuptools update-alternatives"
 
 inherit rpm

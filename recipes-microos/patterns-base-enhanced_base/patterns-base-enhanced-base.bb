@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20200505"
 
-RPM_NAME = "patterns-base-enhanced_base-20200505-40.1.aarch64.rpm"
-RPM_HASH = "0086698593e10adf4141b145934e0d4a5552eba67018e59d40f5eceb60db238dcc661e0d25424c5c9cc248a19fe73aad523ba947d73dce62bca8eea37deb3caf"
+RPM_NAME = "patterns-base-enhanced_base-20200505-41.1.aarch64.rpm"
+RPM_HASH = "2cb3e58fd663f04a8e4d805e2ea3eef62e9d024f03933b7cd25f8001dbf06ffd45ac6b8abcf2a536f81af90dc4a3dce86865f8db224182ea35f5f98e52becbe0"
 
 RPROVIDES:${PN} += "pattern() pattern-category() pattern-icon() pattern-order() pattern-visible() patterns-base-enhanced_base patterns-base-enhanced_base(aarch-64) patterns-openSUSE-enhanced_base"
 RDEPENDS:${PN} += "openssh pattern()"

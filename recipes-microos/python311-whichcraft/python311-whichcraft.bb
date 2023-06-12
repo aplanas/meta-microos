@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1"
 
-RPM_NAME = "python311-whichcraft-0.6.1-1.14.noarch.rpm"
-RPM_HASH = "0396c961ce1f5434d3362b50742ca1e9bbb4207ef83bddffab40f6b6a20419ccbcf66bb37a0688659916d63bed39b1b0af66c81363d0562d03ceac442aaa6abb"
+RPM_NAME = "python311-whichcraft-0.6.1-2.1.noarch.rpm"
+RPM_HASH = "fe458a3757e93449941a178403fb358f997b58f4da81a16be12402c3c07bb9f371ab34d30140e3b3b9059b5241b2e14bec080a626a9dab19d74946bd8d0d9be2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(whichcraft) python311-whichcraft python3dist(whichcraft)"

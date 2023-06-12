@@ -8,10 +8,10 @@ the interface also provides controls to configure the extensions' options. \
 This package provides the python interface."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.6.1"
+PV = "0.6.3"
 
-RPM_NAME = "python39-jupyter_nbextensions_configurator-0.6.1-1.3.noarch.rpm"
-RPM_HASH = "bf0e036f92b9c4370a9c7d28d21d70f4c0403cf63b3014ce15d16a5cdf87c75388d53fe6847ee156bdf43f3a91e706ee2eae5694f27ff3606367f7571a7a5ab6"
+RPM_NAME = "python39-jupyter_nbextensions_configurator-0.6.3-1.1.noarch.rpm"
+RPM_HASH = "98e7add3349e6c626d4c17a1c469ea083ba9dce796bbd6cc5bef6e2754be776091be5c907d504ad904fef856ede380e975179d0af1a78ab685a069c4baadad56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(jupyter-nbextensions-configurator) python39-jupyter_nbextensions_configurator python3dist(jupyter-nbextensions-configurator)"

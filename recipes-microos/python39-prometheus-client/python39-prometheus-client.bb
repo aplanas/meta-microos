@@ -2,10 +2,10 @@ SUMMARY = "Python client for the Prometheus monitoring system"
 DESCRIPTION = "The official Python 2 and 3 client for Prometheus."
 LICENSE = "Apache-2.0"
 
-PV = "0.16.0"
+PV = "0.17.0"
 
-RPM_NAME = "python39-prometheus-client-0.16.0-1.3.noarch.rpm"
-RPM_HASH = "b3aae1b4b7592882fb3993030bad3803efa5098647b7584d658ebb2b53a78377dd0d930afca305c21799efbae714272d454c7a7a363061b351a90473f542d10d"
+RPM_NAME = "python39-prometheus-client-0.17.0-2.1.noarch.rpm"
+RPM_HASH = "c82928ac5ccd440de576e744adeee50de8845448365b24328ac7ceae4c22b08a42bfd03580d7ac1a847c4b7fec3cb8891c85403b05e804aee415b237d1db2a92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(prometheus-client) python39-prometheus-client python39-prometheus_client python3dist(prometheus-client)"

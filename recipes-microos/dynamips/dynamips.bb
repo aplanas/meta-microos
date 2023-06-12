@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.23"
 
-RPM_NAME = "dynamips-0.2.23-1.3.aarch64.rpm"
-RPM_HASH = "6aafc4c6c1780aae8c323a8aff87513b4a217328c19fe98a41a18e9d6dd35f05902961f5551293dda55cfa4bab748f4755232e83f03aa7d1212f1ca672e4502e"
+RPM_NAME = "dynamips-0.2.23-2.1.aarch64.rpm"
+RPM_HASH = "db9e6f0a0355737bc4da958fe9ebe90ae52ac4d68dcb990bd9a6c9f53a7178b083727852e5b2c3f55eaac9410d55b3095d2297242dab099625e304a1bcc6a7f6"
 
 RPROVIDES:${PN} += "dynamips dynamips(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libelf.so.1()(64bit) libelf.so.1(ELFUTILS_1.0)(64bit) libpcap.so.1()(64bit)"

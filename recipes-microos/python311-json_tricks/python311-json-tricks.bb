@@ -12,10 +12,10 @@ python handling of json files: \
 As well as compression and disallowing duplicate keys."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.15.5"
+PV = "3.16.1"
 
-RPM_NAME = "python311-json_tricks-3.15.5-2.4.noarch.rpm"
-RPM_HASH = "a3d1564b2a0960facb08c09d7063a9a636b42f0a33f0eb260ed9386b5a68e13e0bee0caeb36a07b4431914e88ec2c3c259d3b4d33dff517d1b97c4d966aea013"
+RPM_NAME = "python311-json_tricks-3.16.1-1.1.noarch.rpm"
+RPM_HASH = "f5c5e5ad767f781bd6c9b68f02ac0362db8f07cf181895733884b2ac513de1aff3c2202055e645b0fc976ee8ca8e95c2a2f05567be85831f2f563a640196f6e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(json-tricks) python311-json_tricks python3dist(json-tricks)"

@@ -7,10 +7,10 @@ Sun under the Java Community Process. \
 ATTENTION: This tomcat is built with java 1.8.0."
 LICENSE = "Apache-2.0"
 
-PV = "9.0.43"
+PV = "9.0.75"
 
-RPM_NAME = "tomcat-9.0.43-16.1.noarch.rpm"
-RPM_HASH = "bf108c63de9c5104de5bb9e69c9232db44000c4deb961cc90a1db37643ef173e3cd20881c57013993e6cd52fa6e339bbbb510a94525b3052388edc74d2d1fd94"
+RPM_NAME = "tomcat-9.0.75-1.1.noarch.rpm"
+RPM_HASH = "d63ca87a3a02c0cffc838a0992639cdb00169d12d9b11a9971ac94bcb62168193093cdac4ce2e8b7fd7be9f19be0f7a3ac61edb436f00b5d34b16dce96e0793b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(tomcat) tomcat"

@@ -5,8 +5,8 @@ LICENSE = "SUSE-GPL-3.0-with-FLOSS-exception"
 
 PV = "1.2.77"
 
-RPM_NAME = "libkyotocabinet-devel-1.2.77-2.10.aarch64.rpm"
-RPM_HASH = "fb1d31990f325f5bdfea578a9815e430e5ef0c6653bacd54e0be0fc6655038ecbe0d2b85dcbdbf20f2437e13190c87fe4b7708b664c50adf63dd75305b168067"
+RPM_NAME = "libkyotocabinet-devel-1.2.77-3.1.aarch64.rpm"
+RPM_HASH = "2c6c17ac75d28a35bf665db9ef89cf8616fd32a8cfa8d0f24f2e838e2f87e8b3ad586b5a32d5b5df1b44380955a0e7c37f1fad1154a61a9e976f326379adadf8"
 
 RPROVIDES:${PN} += "libkyotocabinet-devel libkyotocabinet-devel(aarch-64) libkyotocabinet16-devel pkgconfig(kyotocabinet)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libkyotocabinet16"

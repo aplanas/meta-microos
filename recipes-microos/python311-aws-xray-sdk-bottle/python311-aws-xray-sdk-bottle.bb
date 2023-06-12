@@ -5,10 +5,10 @@ emit information from within their applications to the AWS X-Ray service. \
 This package provides the bottle backend for python311-aws-xray-sdk."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "python311-aws-xray-sdk-bottle-2.10.0-1.3.noarch.rpm"
-RPM_HASH = "df8a7f37568fd96af2af0d9642aaf4abd42503c59017c35365f041262c6356a4608a6e739879619b44826bdda0a50188c5f617c30e31083e9819934374310646"
+RPM_NAME = "python311-aws-xray-sdk-bottle-2.12.0-1.1.noarch.rpm"
+RPM_HASH = "c5627e1aec9de842d484ae63aaac339f917a2fcb3a8a3b15e98bd5606b732363b8c03d144655d6fc054686920ea2a32fc51e10f5894619c245af1b9f25d1f433"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-aws-xray-sdk-bottle"

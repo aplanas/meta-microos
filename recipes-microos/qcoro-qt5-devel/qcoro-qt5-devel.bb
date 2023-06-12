@@ -5,12 +5,12 @@ This package provides development headers to use QCoro in Qt based \
 applications."
 LICENSE = "MIT"
 
-PV = "0.8.0"
+PV = "0.9.0"
 
-RPM_NAME = "qcoro-qt5-devel-0.8.0-1.3.aarch64.rpm"
-RPM_HASH = "5f6cb4417733c61aeb2a14a60273eb0a850b9f244d483a1e52cc2e8a78109b4ab6b724cbd92e62295728ca998be2181ea3ba8e88b9f5fb7b045dad4c488a3d4f"
+RPM_NAME = "qcoro-qt5-devel-0.9.0-1.1.aarch64.rpm"
+RPM_HASH = "fbf334c9699e5aaf3ea27139499967a6fe767b71e631d0207c77d2031eba229b75f89623b2f69c4cdff67917ab2dc861550711c2a27e47f087866a7f0cbdf8ce"
 
-RPROVIDES:${PN} += "cmake(QCoro5) cmake(QCoro5Core) cmake(QCoro5Coro) cmake(QCoro5DBus) cmake(QCoro5Network) cmake(QCoro5Qml) cmake(QCoro5Quick) cmake(QCoro5WebSockets) qcoro-qt5-devel qcoro-qt5-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake(QCoro5) cmake(QCoro5Core) cmake(QCoro5Coro) cmake(QCoro5DBus) cmake(QCoro5Network) cmake(QCoro5Qml) cmake(QCoro5Quick) cmake(QCoro5Test) cmake(QCoro5WebSockets) qcoro-qt5-devel qcoro-qt5-devel(aarch-64)"
 RDEPENDS:${PN} += "libQCoro5Core0 libQCoro5DBus0 libQCoro5Network0 libQCoro5Qml0 libQCoro5Quick0 libQCoro5WebSockets0"
 
 inherit rpm

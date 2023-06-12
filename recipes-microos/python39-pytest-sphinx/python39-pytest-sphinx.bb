@@ -2,10 +2,10 @@ SUMMARY = "Doctest plugin for pytest with support for Sphinx-specific doctest-di
 DESCRIPTION = "Doctest plugin for pytest with support for Sphinx-specific doctest-directives."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.0"
+PV = "0.5.0"
 
-RPM_NAME = "python39-pytest-sphinx-0.4.0-1.5.noarch.rpm"
-RPM_HASH = "8ae98fa72ff879de063f9ca7df753cd5d1586c1f766edbbc86be1ff43f827aec994daa488b5994bf9039cfdf9cce364649cfc85946aaa8cd9a93f191cf3a8281"
+RPM_NAME = "python39-pytest-sphinx-0.5.0-1.1.noarch.rpm"
+RPM_HASH = "442b4aa5600821f244b4d415b14d95e9aab9a918349312b06cef15325a732532ba6e32168abf2b9ddca82cbc3de897db24c7dd5193707e36b1c938d786430ca5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(pytest-sphinx) python39-pytest-sphinx python3dist(pytest-sphinx)"

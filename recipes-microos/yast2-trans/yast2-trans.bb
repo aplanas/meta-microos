@@ -4,10 +4,10 @@ yast2-trans-LL, yast2-trans-LLL, and yast2-trans-LL_CC packages as \
 subpackages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230507.125aa699e6"
+PV = "84.87.20230516.e4ba802a"
 
-RPM_NAME = "yast2-trans-84.87.20230507.125aa699e6-1.1.noarch.rpm"
-RPM_HASH = "eba3cd11807bae6ec8b3103b132d81beb32b5820f35b412df4c42573a4cfbad3ff392cc4be6d1fb21dbac1022b7bf2ec64a7c6e14b40e7175755c19754f12634"
+RPM_NAME = "yast2-trans-84.87.20230516.e4ba802a-1.1.noarch.rpm"
+RPM_HASH = "20f9523859c2f3bc6ac34de477a43a75ca2863de88113f79fb2023ca7eb9f5b4a8afe21437cc6e4a4aa54c390a5a82e12687932a0ccb177408ee3808f7d05627"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-trans"

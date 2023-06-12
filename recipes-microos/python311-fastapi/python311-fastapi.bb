@@ -2,10 +2,10 @@ SUMMARY = "FastAPI framework"
 DESCRIPTION = "Python FastAPI framework."
 LICENSE = "MIT"
 
-PV = "0.95.1"
+PV = "0.95.2"
 
-RPM_NAME = "python311-fastapi-0.95.1-2.1.noarch.rpm"
-RPM_HASH = "16ea99ea4f543710d9d19d95cb3c20403e90b562a71140813bb6626af21d4c38cac694039a16b627815e133b261e3fd223d2f5a8b6496b5c5107ab9ededf59a3"
+RPM_NAME = "python311-fastapi-0.95.2-1.1.noarch.rpm"
+RPM_HASH = "23a11a122a0cfaf52bde0c428e63d806bbd19bd1d68affc059c99af3ca1a4f790f30964b6ec2b89b589081b4f497b63fd1a3d0da1c65c5243782dc57f04e4ef8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(fastapi) python311-fastapi python3dist(fastapi)"

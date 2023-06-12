@@ -5,10 +5,10 @@ This includes, for example, Steam or GOG games, Windows games (WINE), \
 or emulated console games and browser games."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.5.12"
+PV = "0.5.13"
 
-RPM_NAME = "lutris-0.5.12-3.1.noarch.rpm"
-RPM_HASH = "1085bc941756335b287922003d0d1ac1d71e2a9e06cca129422428f3dd4f2b7072bb0af1ccca6122535bf1763a360189f47883cea525a2d5f46067302413709d"
+RPM_NAME = "lutris-0.5.13-1.1.noarch.rpm"
+RPM_HASH = "b72f60945e48dbf8b60d93096a5958d0113e51b1afad00d686a3efa2588e756a34354155eb05430e757aaa9c44dff2ba7a6ba03a917237145a398f8d2fe3755c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "application() application(net.lutris.Lutris.desktop) lutris metainfo() metainfo(net.lutris.Lutris.metainfo.xml) mimehandler(x-scheme-handler/lutris) python3.10dist(lutris) python3dist(lutris)"

@@ -12,12 +12,12 @@ of SGP4. You can call the routine directly, or through an array API that loops \
 over arrays of satellites and arrays of times with machine code instead of Python."
 LICENSE = "MIT"
 
-PV = "2.20"
+PV = "2.22"
 
-RPM_NAME = "python310-sgp4-2.20-1.10.aarch64.rpm"
-RPM_HASH = "72380479b56eea5cd99b9dc6e737df087b477b95c5cd8e1e1a9b2acb80f1c6580a2ff7fd2363bac37ddde47a6366700d073f24d526c5fcf58902af0986e61012"
+RPM_NAME = "python310-sgp4-2.22-1.1.aarch64.rpm"
+RPM_HASH = "5921b4976f297666cfd793d4e9da46f54b739927c7ecf4c95edbd62eb4617a1458f6571cd141b202f74050c3738363008cc45baeb9c86d811d059176a15be815"
 
 RPROVIDES:${PN} += "python3-sgp4 python3.10dist(sgp4) python310-sgp4 python310-sgp4(aarch-64) python3dist(sgp4)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) python(abi) python310-numpy"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(GLIBCXX_3.4.32)(64bit) python(abi) python310-numpy"
 
 inherit rpm

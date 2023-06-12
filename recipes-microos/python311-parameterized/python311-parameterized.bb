@@ -2,10 +2,10 @@ SUMMARY = "Parameterized testing"
 DESCRIPTION = "Parameterized testing with any Python test framework."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.8.1"
+PV = "0.9.0"
 
-RPM_NAME = "python311-parameterized-0.8.1-4.1.noarch.rpm"
-RPM_HASH = "b3ea61f57cd58d67ca774973094b5d655a128ac9b3b63c58b2830917b28c278fceb218877c3acdbb41310050206c73a23bd1a5fdbbbaba4a066fb6db1cffc323"
+RPM_NAME = "python311-parameterized-0.9.0-1.1.noarch.rpm"
+RPM_HASH = "f77b7d60ae5d61d9ffd5c43b8e70524b0af7595e3cda1aae0ddf14f3d8411d68a72435d1ac7b311c1f5b844664b539c41b159f2b297cc3ebb77e0808790a680d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(parameterized) python311-parameterized python3dist(parameterized)"

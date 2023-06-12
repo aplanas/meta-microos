@@ -2,10 +2,10 @@ SUMMARY = "MetaPost and Metafont packages"
 DESCRIPTION = "The collection-metapost package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64878"
+PV = "2023.208.svn64878"
 
-RPM_NAME = "texlive-collection-metapost-2023.201.svn64878-56.1.noarch.rpm"
-RPM_HASH = "ad0370468f0f2683aadb36295640dcf78b79e4e2aa2dce71257003c69436e561dcb24108e8428034531d121d6a5da13a6cb0d97e3dafed03833a160d5c395050"
+RPM_NAME = "texlive-collection-metapost-2023.208.svn64878-58.1.noarch.rpm"
+RPM_HASH = "f7b0bf6b730c15614f72dd60c23d14a24c33ec471a1ce59daddd326a9e78c2b8cf2ee3190d47c4af48250c73a71ac8322ad10c48498d4b317d1b1374ee953b96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(metapost) texlive-collection-metapost"

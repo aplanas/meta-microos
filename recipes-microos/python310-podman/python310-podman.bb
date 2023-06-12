@@ -2,13 +2,13 @@ SUMMARY = "A library to interact with a Podman server"
 DESCRIPTION = "A library to interact with a Podman server"
 LICENSE = "Apache-2.0"
 
-PV = "4.3.0"
+PV = "4.5.1"
 
-RPM_NAME = "python310-podman-4.3.0-1.3.noarch.rpm"
-RPM_HASH = "0a361f491bb9d8515d00a01d18a9a4567d0632f1bbec4318a69bcd539448b43fd4015327e46333031d2fc4670d6616a78102fd4be7f107989f299e57e60ab204"
+RPM_NAME = "python310-podman-4.5.1-1.1.noarch.rpm"
+RPM_HASH = "e5ed6e19df82d547c61024d683fc605b0e4ef8b9a52537c6e7b5f7231c17965a2082e8962432f0cc37cb7084f1e61e09523381c62bc1928c7bd9891e6060e51e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-podman python3.10dist(podman) python310-podman python3dist(podman)"
-RDEPENDS:${PN} += "python(abi) python310-psutil python310-python-dateutil python310-requests python310-setuptools python310-varlink"
+RDEPENDS:${PN} += "python(abi) python310-pyxdg python310-requests python310-urllib3"
 
 inherit rpm

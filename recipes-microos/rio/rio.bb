@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8.0"
 
-RPM_NAME = "rio-0.8.0-1.8.aarch64.rpm"
-RPM_HASH = "b250d99ae76f256acf19177de5b656abf9b868c17e05fa9d0f0670ac8d8c36f517bd1951f223ef34962e5bcd7c5abb13ff06705c2faee9712f2ce1fc3dad9ca6"
+RPM_NAME = "rio-0.8.0-1.9.aarch64.rpm"
+RPM_HASH = "1bfdf12568e65c7ae44d8ee292c44cb3e680766318e5c1ba70ae38c4ae97fd228d5d0d000dd501a7531bfcfbb5ebbe8145c2735d2852e2f32714a4449c4e066e"
 
 RPROVIDES:${PN} += "rio rio(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

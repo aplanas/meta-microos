@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.3.5"
 
-RPM_NAME = "libkpathsea6-6.3.5-89.1.aarch64.rpm"
-RPM_HASH = "4e3a8e4b72532927701961e462a96ff504069a62807bd26bcdbadbdfbacd0b05a88ec91499e8f834780b377e8e11b32e633350ee72f918f53f0ad2f1c7c579ed"
+RPM_NAME = "libkpathsea6-6.3.5-91.1.aarch64.rpm"
+RPM_HASH = "85c358d078ad027582e063ebba15126528edf650af8c04a981655e632b937874a0b6e3a52b4e4304bd5ccd5fea5c4c57e0491f26f5a1f794e58484d4db99e78c"
 
 RPROVIDES:${PN} += "libkpathsea.so.6()(64bit) libkpathsea6 libkpathsea6(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit)"

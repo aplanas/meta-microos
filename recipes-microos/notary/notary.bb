@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.0"
 
-RPM_NAME = "notary-0.7.0-1.12.aarch64.rpm"
-RPM_HASH = "f3a79b9fe0bdcc7ff75808286b18917fae39371d35a4378d0f2dc779309f2af14644b8f30bb316030246ce0586a35617690508dff7123327b90d3c8a90b9df93"
+RPM_NAME = "notary-0.7.0-1.13.aarch64.rpm"
+RPM_HASH = "9ca42a69d61ee4c9891527bcb4080dde3393aa11132d8b0890c64a3de0fdc0e548f276798c3866c4994658aa47cdc5a04fabb977f1729b5021a54d1ea8ad21a1"
 
 RPROVIDES:${PN} += "config(notary) notary notary(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/env"

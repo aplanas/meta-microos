@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "libboost_system1_82_0-devel-1.82.0-1.1.aarch64.rpm"
-RPM_HASH = "9f63ff273b5fe6766496d815f1a05da9f4208988766894b3d96f47094ffa15025955547890285d91f9a6bfdcbd6ff7206f79b638319495fa8408ea4ec52dfdaf"
+RPM_NAME = "libboost_system1_82_0-devel-1.82.0-1.2.aarch64.rpm"
+RPM_HASH = "9cff70193e0792fbf396e41747049dfc692d2fc9204ef74ff867824d22f101ccae19bc1a7a4091b5c94b14b95500f5f06732c777812f9294b2bc086610247927"
 
 RPROVIDES:${PN} += "libboost_system-devel-impl libboost_system1_82_0-devel libboost_system1_82_0-devel(aarch-64)"
 RDEPENDS:${PN} += "libboost_headers1_82_0-devel libboost_system1_82_0"

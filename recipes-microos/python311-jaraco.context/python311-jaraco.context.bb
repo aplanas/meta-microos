@@ -3,10 +3,10 @@ DESCRIPTION = "jaraco.functools Tools for working with functools. \
 Additional functools in the spirit of stdlib’s functools."
 LICENSE = "MIT"
 
-PV = "4.1.1"
+PV = "4.3.0"
 
-RPM_NAME = "python311-jaraco.context-4.1.1-1.4.noarch.rpm"
-RPM_HASH = "46ec94aa3de29224af0a3f08e8faabe25d809ffebc2d739eb10e44619381be84dcfd1a665fb674250fcc2b1e5b80056a2b3112d04457f9738731378e3e60a3ca"
+RPM_NAME = "python311-jaraco.context-4.3.0-1.1.noarch.rpm"
+RPM_HASH = "49a1bf8002c56308c9aae7a7b0d7080b5a852950794fe9058402821b1438c65e1f61c1350060e177c243ef3c305dc147f855db51d7e38485e6b75ef369661df1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(jaraco.context) python311-jaraco.context python3dist(jaraco.context)"

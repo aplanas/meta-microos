@@ -10,8 +10,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.8.16"
 
-RPM_NAME = "libpython3_8-1_0-3.8.16-6.1.aarch64.rpm"
-RPM_HASH = "424088fac9c560f76c7d00f28db189aebc4ae83bbad7de484ec2e8f3d7b86aad626ebe6157e6378f236cca96f7dd02fc04441eae187e9a084081f2946d2d2759"
+RPM_NAME = "libpython3_8-1_0-3.8.16-7.1.aarch64.rpm"
+RPM_HASH = "860e3dceece2da789977daa4a917f0f67e113e9449aa2ada6d64505445df59984abfe27e399d757543dfbb08445602105bd200c6c0db48a633d94fefa256a61f"
 
 RPROVIDES:${PN} += "libpython3.8.so.1.0()(64bit) libpython3_8-1_0 libpython3_8-1_0(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libm.so.6(GLIBC_2.35)(64bit) python38-base"

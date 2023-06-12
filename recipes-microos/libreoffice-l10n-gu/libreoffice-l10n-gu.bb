@@ -2,10 +2,10 @@ SUMMARY = "Gujarati localization files for LibreOffice"
 DESCRIPTION = "Provides Gujarati translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-gu-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "844484909dfbdbb7201013e2c121eff4b16480af2ccd8436673a73b6cb7973e61fc6dee4d5a894b393736481cbeaeeb1100c453939637f836fe97a9b72b87181"
+RPM_NAME = "libreoffice-l10n-gu-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "37dba50d6d087bab05b846fda038b1d2dd3d9477ce1bebb7266f96bbd2e95722cb11998148d5437d2bf84f9cf3b2aa6806344b0b04b8aa146e240c25dec977d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-gu libreoffice-help-gu-IN libreoffice-l10n-gu libreoffice-l10n-gu-IN locale(libreoffice:gu)"

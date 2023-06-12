@@ -2,10 +2,10 @@ SUMMARY = "Periodic Table of Elements"
 DESCRIPTION = "Kalzium shows a periodic table of the elements."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.0"
+PV = "23.04.1"
 
-RPM_NAME = "kalzium-devel-23.04.0-1.1.aarch64.rpm"
-RPM_HASH = "88e308dea5f653be308a0ca5e18eaf9c1526bc78843ed695f3bb4fa8f8f8ae5b707ae5d34e67b2ba4b03f057cdec469342aa0d3b7bdb3938890b6ad92273b3a2"
+RPM_NAME = "kalzium-devel-23.04.1-1.1.aarch64.rpm"
+RPM_HASH = "7ec7c6ae9665e7724c24637e1a22a6a421a03204537fc59be0e9f7ef3cf8c97d67debed8faa8f9a415deb4411819e949357ede9e04e2ad8444a89810ae4e4d17"
 
 RPROVIDES:${PN} += "kalzium-devel kalzium-devel(aarch-64)"
 RDEPENDS:${PN} += "kalzium"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6ChartsQml that do 
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-chartsqml-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "2fcf3743f2e3373abc3ebdb0a7d271d6acea79bb66f3d03548a6fd25222811781a28c556b29c030e0aedd715098fcab12577b0e7bb3f055e0d98b87712d97f4b"
+RPM_NAME = "qt6-chartsqml-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "7882fb56f49eb6575295604c0cf064b3d24525aaeb8c9815dc51533b88beb79657fa25c08dc0cb838054ca636d5b6022da8d779e3ccd8880787c2726d9d1a0a9"
 
 RPROVIDES:${PN} += "qt6-chartsqml-private-devel qt6-chartsqml-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6ChartsQml)"

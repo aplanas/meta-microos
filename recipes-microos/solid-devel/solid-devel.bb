@@ -4,10 +4,10 @@ interacting with hardware independently of the underlying operating system. \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.105.0"
+PV = "5.106.0"
 
-RPM_NAME = "solid-devel-5.105.0-1.1.aarch64.rpm"
-RPM_HASH = "c0c15621cdf272de3462948a989a5468e11ced0674b5dd894b02e80f67686e14dad2ca57a7a03a43912de0a7965b64919638facd64632efad03ddb9d9657204b"
+RPM_NAME = "solid-devel-5.106.0-1.1.aarch64.rpm"
+RPM_HASH = "7af291148ce2f043db76b7c4a4f41cbe9fba4b0f04c97bc88910525105a72077e32c6ca0453c9ec7d2b8cce203abc5fbe24a8476db1d09e2ed3f31583285ac97"
 
 RPROVIDES:${PN} += "cmake(KF5Solid) solid-devel solid-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt5Core) extra-cmake-modules libKF5Solid5"

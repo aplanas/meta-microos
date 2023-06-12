@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.4.14"
 
-RPM_NAME = "wireplumber-audio-0.4.14-1.1.noarch.rpm"
-RPM_HASH = "943d8462e67aed41d4218346f7b929d8d9272a63394bcc458767dd750d66080ef2b0893a61041f0c8ddaf0962c3e7058db811a0651b026a0c2e0f86245332be7"
+RPM_NAME = "wireplumber-audio-0.4.14-2.1.noarch.rpm"
+RPM_HASH = "6d64dfd74de0a1ee27be0f8d8921259e38ac7b445c9b3e32922002a4d466cd6689da05332cb7c34aa69a3873a0416df611874b02eca820dd5c9b0a4af90b740f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wireplumber-audio"

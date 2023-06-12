@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The continuation module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.48"
+PV = "9.4.51"
 
-RPM_NAME = "jetty-continuation-9.4.48-3.1.noarch.rpm"
-RPM_HASH = "5c8d7a5788fbbdacc5d168b9fe3fa7a860924ff0ef7d6db593035c0339106ab9ee8e8cb17752fcd91167a9dc973d9fb508a9507a6fb0e579acbbbf992c8660dc"
+RPM_NAME = "jetty-continuation-9.4.51-1.1.noarch.rpm"
+RPM_HASH = "61ea98569281e2e034aa49e26b79d5704882e3b53a4e2a19781641bffcae9dbd8818ef0ff755acd6bb0d70fbd4f75f5fad0806a6b5400c90bbb55b07e8f9abb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-continuation mvn(org.eclipse.jetty:jetty-continuation) mvn(org.eclipse.jetty:jetty-continuation:pom:) osgi(org.eclipse.jetty.continuation)"

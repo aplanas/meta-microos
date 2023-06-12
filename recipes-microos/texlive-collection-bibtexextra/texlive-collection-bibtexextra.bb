@@ -3,10 +3,10 @@ DESCRIPTION = "Additional BibTeX styles and bibliography data(bases), notably \
 including BibLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65257"
+PV = "2023.208.svn65257"
 
-RPM_NAME = "texlive-collection-bibtexextra-2023.201.svn65257-56.1.noarch.rpm"
-RPM_HASH = "1c48ee465071c99b12f0f78592a8422ef12281c7e29d1cbbe95d619f57ca72aab4c5b6551e2967f568ba968f0e28f20b9d387af85c46fc0f8fdd2a7dc9c96da0"
+RPM_NAME = "texlive-collection-bibtexextra-2023.208.svn65257-58.1.noarch.rpm"
+RPM_HASH = "f3aee3ffbf8bce43b6be5bf73ca0d10365466fc63afe46461832b00b85fcc221af2e74da82faf43ff24c10736f7275ac4d1eba9a27e955157cbce37291b04652"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-bibtexextra"

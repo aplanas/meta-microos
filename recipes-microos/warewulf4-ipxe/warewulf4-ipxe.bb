@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.4.0"
 
-RPM_NAME = "warewulf4-ipxe-4.4.0-6.3.noarch.rpm"
-RPM_HASH = "4e00f92bacdd7598d3cc71d97ee1007722817b044da7c17d02e19e6de19ec2cb50539add33f2462b3ff7327db121bb5c060416e3decb1a7f476dfb0c6cb3cc6e"
+RPM_NAME = "warewulf4-ipxe-4.4.0-6.4.noarch.rpm"
+RPM_HASH = "db153570e7c168ebf8c81e5597932163823175ecdc7c7ad9bfca36c1c52a4d400532f60173b41b308b0c5590b31fa8c2cefe8f71241aff6d7e72ad86ed6da05f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warewulf4-ipxe"

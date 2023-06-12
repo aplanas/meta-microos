@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0-WITH-LLVM-exception | NCSA"
 
 PV = "12.0.1"
 
-RPM_NAME = "llvm12-opt-viewer-12.0.1-11.1.noarch.rpm"
-RPM_HASH = "d4adee0b80f6b52e022870f6ea88580255d0a675955a06ae1e8e2d157dc9e0bf87de9ee26ae727ca4231c61fb659e4aae9be958e109b0015be6e6a3d882471d9"
+RPM_NAME = "llvm12-opt-viewer-12.0.1-12.1.noarch.rpm"
+RPM_HASH = "a2006519b999b4fe06ba30155e92d9918682e725058693c9fb5e9667214050e94d98a7be39453e3dc2ba4b7aff1a7e293788811269bb358a19a5620c62d8ee6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "llvm12-opt-viewer opt-viewer"

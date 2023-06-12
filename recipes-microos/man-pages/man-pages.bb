@@ -9,10 +9,10 @@ etc. (e.g., nroff, ascii); and Section 8, system administration (intro \
 only)."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
 
-PV = "6.02"
+PV = "6.04"
 
-RPM_NAME = "man-pages-6.02-1.2.noarch.rpm"
-RPM_HASH = "c981fd896e14062105203981740f36213be73fe3247a61a1267cbab1cf8871e8d46d3993f67f2d0d46d88b05c7073806769127bf85e69d9c80624ea1142b0ddc"
+RPM_NAME = "man-pages-6.04-1.1.noarch.rpm"
+RPM_HASH = "2544f6f1b6df20b4d2ad2186378a021502d98e0a7a42f259d81e2bce8b2430e3f70ac7328a26c276d82e9118c189f3660891aeddf8e41a1c1aa8acf32595be58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-pages"

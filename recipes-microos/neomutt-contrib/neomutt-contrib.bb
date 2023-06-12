@@ -3,10 +3,10 @@ DESCRIPTION = "Examples, scripts and helpers that are distributed with Neomutt b
 maintained by the Neomutt authors."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230407"
+PV = "20230517"
 
-RPM_NAME = "neomutt-contrib-20230407-1.1.noarch.rpm"
-RPM_HASH = "bf7e62ea800dcb39c5dbdb79a625484f962588810bcdf8a5f539bd809392c0cf878172b01abdcd4962f428d1d5dd25ce64b8f3d4a8163be2ab0e1ec267386f7d"
+RPM_NAME = "neomutt-contrib-20230517-1.1.noarch.rpm"
+RPM_HASH = "d2eacb6002b68cea040f36d31f711441b953164858018ec9d9990d07d717efbfff0a645e0f183069ece7545a6047fa16d4d46f151923ae2167224ac3144f9f05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "neomutt-contrib"

@@ -1,11 +1,11 @@
 SUMMARY = "prelude input schema for rime"
-DESCRIPTION = "preludeinput schema for rime."
+DESCRIPTION = "prelude input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20210525+git.4f7fc2a"
+PV = "20230603+git.5fdd2d6"
 
-RPM_NAME = "rime-schema-prelude-20210525+git.4f7fc2a-1.9.noarch.rpm"
-RPM_HASH = "fa34a97f16d56ea268d7208c9634cd9bfcf59842f826229c937fffe8dd083311dab24908cfe625ad00c99d91049456f28a635124ffddc3e6895a8377a2540f0f"
+RPM_NAME = "rime-schema-prelude-20230603+git.5fdd2d6-1.1.noarch.rpm"
+RPM_HASH = "58d4af6c65527750f8cb3ba2dabeb218f88ab4a137613ffe96b546f4b2a0fa910b4ba143089da57fddde73ad8b9bac698897226ae221b8c6a74f87969656d56f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-prelude"

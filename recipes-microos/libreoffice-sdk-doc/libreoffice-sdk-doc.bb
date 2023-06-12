@@ -3,10 +3,10 @@ DESCRIPTION = "This package includes documentation and examples for the LibreOff
 Software Development Kit (SDK)."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-sdk-doc-7.5.3.1-1.1.aarch64.rpm"
-RPM_HASH = "aede540b9b4de58bbf6a8043264b8476778696e78c759d63cdc7ed28aaf0a411575a0b3ae6559b3ba0fd4fcf2cea1d7e7a92b888e3d0cb77c9e254eb6ddb1bdf"
+RPM_NAME = "libreoffice-sdk-doc-7.5.4.1-1.1.aarch64.rpm"
+RPM_HASH = "d17d4060730c5749f1ce22ae0d7582b54720b8439ac6ecd011bb1adc83d56b01d877301e28f276a1a5f25f2b675605aeb93c754fd04939c77d01586e44166187"
 
 RPROVIDES:${PN} += "libreoffice-sdk-doc libreoffice-sdk-doc(aarch-64) libreoffice-ure-devel-doc"
 RDEPENDS:${PN} += ""

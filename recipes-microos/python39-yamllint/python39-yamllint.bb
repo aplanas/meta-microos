@@ -6,10 +6,10 @@ repetition and cosmetic problems such as lines length, trailing spaces, \
 indentation, etc."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.28.0"
+PV = "1.32.0"
 
-RPM_NAME = "python39-yamllint-1.28.0-2.1.noarch.rpm"
-RPM_HASH = "efa9ab238e59f81ec442dd609babb0874d416a7db03ad3ab27c986c70336fd2e64b9f3ceeaafdad45d9eb540a730895368ad2def0616a940ee6fa17b2d34c306"
+RPM_NAME = "python39-yamllint-1.32.0-1.1.noarch.rpm"
+RPM_HASH = "6e003ab8fc2aba4cb80b8916a31d41c1dad6efd6d4d20a8f75a15e82d75ad5241cc06732c0b7b5a4048082dc9aba7a885338af5e3460f1c72bee4e817b468798"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(yamllint) python39-yamllint python3dist(yamllint)"

@@ -11,10 +11,10 @@ DESCRIPTION = "Example applications for for libacars: \
    reports)"
 LICENSE = "MIT"
 
-PV = "2.1.3"
+PV = "2.1.4"
 
-RPM_NAME = "acars2-examples-2.1.3-1.10.aarch64.rpm"
-RPM_HASH = "cc2fe1d5da6b51b9c2b837d7bd5da8ff9420c52e60a35fee764df1d6fc2161b23a0cf55f53e79fc438edd85feaa3e8491e779096c875a9db98720ae7b2a2b83b"
+RPM_NAME = "acars2-examples-2.1.4-1.1.aarch64.rpm"
+RPM_HASH = "2ec931048a66fedd878401fd68fc7c26a20d8c90bed81296274acdea0de2069362d64db884c8668ecaf6887c1f8bcf287e21278ad31ca0170a444091bbdfa533"
 
 RPROVIDES:${PN} += "acars2-examples acars2-examples(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libacars-2.so.2()(64bit) libacars-2.so.2(ACARS_2.0)(64bit) libc.so.6(GLIBC_2.34)(64bit)"

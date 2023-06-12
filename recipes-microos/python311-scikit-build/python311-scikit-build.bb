@@ -2,10 +2,10 @@ SUMMARY = "Improved build system generator for Python C/C++/Fortran/Cython exten
 DESCRIPTION = "Improved build system generator for Python C/C++/Fortran/Cython extensions"
 LICENSE = "MIT"
 
-PV = "0.17.2"
+PV = "0.17.5"
 
-RPM_NAME = "python311-scikit-build-0.17.2-2.1.noarch.rpm"
-RPM_HASH = "54e4f0562d94b9f05f5b5cf65acd0c8d51945e2e2419e18fdda05e7c4b60b9b2d9503e706cabeaeaa87b53fd066f21b76eeecd408b7bccc3ca981b000af12199"
+RPM_NAME = "python311-scikit-build-0.17.5-1.1.noarch.rpm"
+RPM_HASH = "c8a39712d54bf1970e5d222125b2214c490fc469805e393938bfab7af6a6d1ee6882f004e4ef42adbc75b04ee5199545b4dc39a9b3d36408c61593158476e9ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(scikit-build) python311-scikit-build python3dist(scikit-build)"

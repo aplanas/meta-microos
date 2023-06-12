@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains development files to develop additional wid
 the Plasma desktop."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-only"
 
-PV = "5.27.4"
+PV = "5.27.5"
 
-RPM_NAME = "plasma5-addons-devel-5.27.4-1.1.aarch64.rpm"
-RPM_HASH = "296dfbd6b980c8a10071c3b2c1c21c014ad130b64bb4bea9085dc4cdaf2fd51b0f0b66b1d5e8210c8425533d6ee34bd74a840fff18dca82d68ae9dd1d076a101"
+RPM_NAME = "plasma5-addons-devel-5.27.5-1.2.aarch64.rpm"
+RPM_HASH = "1c0bcdaf695517ec45cfab62356a6b26e42a4283779b83520611d39844fdcb0a9b259499b3787026cabbf293099fbf3d1e6a542e724c87c80ca34e277df5d9ae"
 
 RPROVIDES:${PN} += "cmake(PlasmaPotdProvider) plasma5-addons-devel plasma5-addons-devel(aarch-64)"
 RDEPENDS:${PN} += "plasma5-addons"

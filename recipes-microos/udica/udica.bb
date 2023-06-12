@@ -3,10 +3,10 @@ DESCRIPTION = "Tool for generating SELinux security profiles for containers base
 inspection of container JSON file."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.2.6"
+PV = "0.2.7"
 
-RPM_NAME = "udica-0.2.6-1.2.noarch.rpm"
-RPM_HASH = "43babf72a2a641c944146d5e04c7ae349dae70d0aff990bfcca8038ab63eb75a2f896374da997029cac4a36a5a34a9f373bbc32d6f7eee0ed5c53c6194c5e125"
+RPM_NAME = "udica-0.2.7-1.1.noarch.rpm"
+RPM_HASH = "598209519baf599deb3350db3124f9f753cee9e8c64380b1990d74f2fc250f0801024aff3cc86a41577313eb06fdeb2bd8ee665a951e54051ca929bcf5b366ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist(udica) python3dist(udica) udica"

@@ -2,10 +2,10 @@ SUMMARY = "Ahead of Time compiler for numeric kernels"
 DESCRIPTION = "Ahead of Time compiler for numeric kernels"
 LICENSE = "BSD-3-Clause"
 
-PV = "0.12.1"
+PV = "0.13.1"
 
-RPM_NAME = "python310-pythran-0.12.1-1.4.noarch.rpm"
-RPM_HASH = "3a9cb3ea4d786ac0c7a5f182db7fe9aa566e43f3a98b3cfd8029cf5905213c6dc04149cf13844edb55c0f675d2df08b36d3364ff26b3ff4c5ad57efe2c790203"
+RPM_NAME = "python310-pythran-0.13.1-1.1.noarch.rpm"
+RPM_HASH = "3bcd94801aa472488e4b6fd5721f02c2253ca0cb7f742e441d4f353fa678620d4bbfb463209fa1f36915a0b5effd9e0d22036a85ed0c3bb72d01407c1d73539e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pythran python3.10dist(pythran) python310-pythran python3dist(pythran)"

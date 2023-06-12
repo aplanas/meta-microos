@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.5"
 
-RPM_NAME = "ktop-0.3.5-1.1.aarch64.rpm"
-RPM_HASH = "f10aaf23932805be6dbd613d2d1d6bea08605eb56d59b61a684a8c4db5f2ad7a66a514cbd8d3f576814e61ed0ebc8b3fc55e3a8868c6f7f28ef41f640294896d"
+RPM_NAME = "ktop-0.3.5-1.2.aarch64.rpm"
+RPM_HASH = "6e77438878f0602124f5745c4a0af6fbf531935f215ba9b78bb8d5c62b1c853b0e32449164186646e3cc3e5c03713f5a8223292bc966a8b77c6a65ab00bebb14"
 
 RPROVIDES:${PN} += "ktop ktop(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

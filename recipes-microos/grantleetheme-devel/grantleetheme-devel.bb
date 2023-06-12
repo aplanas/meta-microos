@@ -2,10 +2,10 @@ SUMMARY = "Development package for grantleetheme"
 DESCRIPTION = "The development package for the grantleetheme library"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.0"
+PV = "23.04.1"
 
-RPM_NAME = "grantleetheme-devel-23.04.0-1.1.aarch64.rpm"
-RPM_HASH = "25b539b2780fda0b001b5ea587c61047e860eb4c232f1b859f3fc42c622d2227a68272d99a887808b675be80e2e71181fde3d1d5d6eaf31a86dc529afd4ec3a3"
+RPM_NAME = "grantleetheme-devel-23.04.1-1.1.aarch64.rpm"
+RPM_HASH = "9a1b0054977966a87d0b8f5a0569e26b2dc9d4d2e418b0e292b85019afca9a0763f1e8ce2b62015b887e5458215aea4acafe033dd02e3608508e9d449cca1194"
 
 RPROVIDES:${PN} += "cmake(KF5GrantleeTheme) cmake(KPim5GrantleeTheme) grantleetheme-devel grantleetheme-devel(aarch-64)"
 RDEPENDS:${PN} += "libKPim5GrantleeTheme5"

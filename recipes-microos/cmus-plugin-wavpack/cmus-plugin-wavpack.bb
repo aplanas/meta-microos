@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.10.0"
 
-RPM_NAME = "cmus-plugin-wavpack-2.10.0-1.8.aarch64.rpm"
-RPM_HASH = "cf5fb3c3858ed203f2ee0dcc88999d0c2bb32a8d62b55b54f64183dbc52d76bfa49c039f3002cdb55f4219ca00d8b98f84eb16cd8fea58646da116008584d8ba"
+RPM_NAME = "cmus-plugin-wavpack-2.10.0-2.1.aarch64.rpm"
+RPM_HASH = "7df9b80f5654be24502c119f8534c8b3108c11de43ce8af59e66cacbc8b89e7f02e2e5f29555894edce724e98bffef4918f78b55195d7cc3fa1c010dc5d8b6d5"
 
 RPROVIDES:${PN} += "cmus-plugin-wavpack cmus-plugin-wavpack(aarch-64)"
 RDEPENDS:${PN} += "cmus ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libwavpack.so.1()(64bit)"

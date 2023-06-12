@@ -9,10 +9,10 @@ with high speed connections as well as 28k modems. \
 This package contains data files such as sounds."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "5.2.10"
+PV = "5.2.50"
 
-RPM_NAME = "liblinphone-data-5.2.10-2.3.noarch.rpm"
-RPM_HASH = "4e89a22328512803540edae9d6eb5d6af0a80f8301fcdc165e6645314edc7312e16f7114f208ff46ca199ded5461f46b5cdf868260bd54d70d52f76958a59b52"
+RPM_NAME = "liblinphone-data-5.2.50-1.1.noarch.rpm"
+RPM_HASH = "9bba5783e03f5c2a8ca08937caaa4b3eb8a7e52bcd03ecb8f3f097d7bd7acdbb06f17b3c47e437b0e7497e13b7563c65ab025c49692f2789ec9c40666586f127"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liblinphone-data"

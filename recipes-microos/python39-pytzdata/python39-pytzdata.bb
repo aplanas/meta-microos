@@ -4,10 +4,11 @@ LICENSE = "MIT"
 
 PV = "2020.1"
 
-RPM_NAME = "python39-pytzdata-2020.1-1.16.aarch64.rpm"
-RPM_HASH = "c3e428e98582eea4c7d88e3f2c99b198e8c923deaf3391ae04a0f96ba6531272be6b91a51a07eacd825dd55abb9bbb8147995e71361b8cb213f357400e36c429"
+RPM_NAME = "python39-pytzdata-2020.1-3.1.noarch.rpm"
+RPM_HASH = "aa5f0442d84d585200fe913a9d7a43589decb81beea500ea5b79eb3fe235b7e52d3e167a46ccf1917cc229bde6a8df827f5f2528fd29135a8e09d494ad34d85e"
+REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytzdata) python39-pytzdata python39-pytzdata(aarch-64) python3dist(pytzdata)"
+RPROVIDES:${PN} += "python3.9dist(pytzdata) python39-pytzdata python3dist(pytzdata)"
 RDEPENDS:${PN} += "python(abi) timezone"
 
 inherit rpm

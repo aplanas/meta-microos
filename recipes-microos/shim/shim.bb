@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "15.7"
 
-RPM_NAME = "shim-15.7-6.1.aarch64.rpm"
-RPM_HASH = "0b8969b1758cd329ddee5ae544b552a3fe28ac4856d309cb234e369c22a2014f8a9b322faf02dc8e9faed9bc73e8bbdfa2830550c11e4c563cdc83c0ca25907d"
+RPM_NAME = "shim-15.7-7.1.aarch64.rpm"
+RPM_HASH = "2da896dddb7191e0941fb5d0440f1ee71857a0a0b288b56d91ff664d0b42b04e31e7d969c2b23bd639a9c68306088e69ba6c7bb87fc03ce10074bfe44282f329"
 
 RPROVIDES:${PN} += "shim shim(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash /bin/sh grub2-arm64-efi mokutil"

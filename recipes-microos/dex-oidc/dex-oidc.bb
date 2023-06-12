@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.35.3"
 
-RPM_NAME = "dex-oidc-2.35.3-1.3.aarch64.rpm"
-RPM_HASH = "7905a354947188ded117c93c615eb6dee07b8841d178a5dc42164312b1ec4e0273e8860ca92005cb0a7a97a6ead6e715904ac295ac2d621b9eba4eec4effac42"
+RPM_NAME = "dex-oidc-2.35.3-1.4.aarch64.rpm"
+RPM_HASH = "4f15fe2311976d66a602824c30659b2706dcf8f3eb798e334cfec2ae347f9a4fefffbb4411563ef184772adad3c8e013782e9a86f08b418e173c9c7ba14b58ca"
 
 RPROVIDES:${PN} += "caasp-dex dex-oidc dex-oidc(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/mkdir /usr/bin/touch fillup"

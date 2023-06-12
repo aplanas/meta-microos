@@ -5,10 +5,10 @@ scripts are used in TeX Live infrastructure. This scheme \
 corresponds exactly to collection-basic."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54191"
+PV = "2023.208.svn54191"
 
-RPM_NAME = "texlive-scheme-minimal-2023.201.svn54191-56.1.noarch.rpm"
-RPM_HASH = "bc89ef219f4065d5f5467a860f5513874327df6ad92782c11ef6afe1e96854de9037fdbf20144ad2ac82c8681e9873e6fc012494fa1264c79709d00a1274fb7f"
+RPM_NAME = "texlive-scheme-minimal-2023.208.svn54191-58.1.noarch.rpm"
+RPM_HASH = "2b89db2b725b6cca7bacbfd97d5d634f2ae921de32d41946f2bf1962f361428207d23d0221e5bfb4727241ea0b7c4f50117ecbfff515d3b3098dd2bc5e908097"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-minimal"

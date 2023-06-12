@@ -3,10 +3,10 @@ DESCRIPTION = "The control center is GNOME's main interface for configuration of
 various aspects of your desktop."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "44.2"
 
-RPM_NAME = "gnome-control-center-devel-44.1-1.1.noarch.rpm"
-RPM_HASH = "da6da21ee2deced1162af970a3a0e613b5239f0d442a07043f2f194138e399458dd95bf92058669236bac990b8f036d0960cc254463bd1081f75690b5b6cdbfc"
+RPM_NAME = "gnome-control-center-devel-44.2-1.1.noarch.rpm"
+RPM_HASH = "213416283c63768b2d133881091d6f7f13ce029920193a761b2f39e6d7cb7a3045933149feb8b639f31bdcc8845b91879c38d4b183afc96946cc3e23f6cb697c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-control-center-devel pkgconfig(gnome-keybindings)"

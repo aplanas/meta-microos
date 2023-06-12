@@ -5,10 +5,10 @@ emit information from within their applications to the AWS X-Ray service. \
 This package provides the Django backend for python310-aws-xray-sdk."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "python310-aws-xray-sdk-Django-2.10.0-1.3.noarch.rpm"
-RPM_HASH = "dcf1f62b91877ab51ebda52dfaecd0c7bb42cb3d3eca2c77c92c01a152ce7b5792bbecaec0a2cb26bd4b85f94fd7a993efe205f9ea03d943d84cccdf1845b83f"
+RPM_NAME = "python310-aws-xray-sdk-Django-2.12.0-1.1.noarch.rpm"
+RPM_HASH = "006119c0e51a8c059caadf7ac97f3033509e7b09469738e241d73c54f24b91d03f4601c11118ac70041204ddb49007ef0afcf23451f037e3469c485f26604a82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aws-xray-sdk-Django python310-aws-xray-sdk-Django"

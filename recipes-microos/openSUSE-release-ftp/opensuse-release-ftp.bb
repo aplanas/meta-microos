@@ -2,10 +2,10 @@ SUMMARY = "openSUSE Tumbleweed"
 DESCRIPTION = "openSUSE Tumbleweed is the rolling distribution by the openSUSE.org project."
 LICENSE = "BSD-3-Clause"
 
-PV = "20230509"
+PV = "20230604"
 
-RPM_NAME = "openSUSE-release-ftp-20230509-1651.1.aarch64.rpm"
-RPM_HASH = "44c063847c6b6395e37a5095597d7871c548e392d064761db0d194a67df72018f99ea90a4c9095edbb2596f1bb4fc201bb76b9421fe5636d19e5bd7d6358d8ce"
+RPM_NAME = "openSUSE-release-ftp-20230604-1684.1.aarch64.rpm"
+RPM_HASH = "7ed62a9af797bcee5c1ace9f867df841c7ae25a2c670a37ffcfb5eb1bd54ea6ee4b6b24490a60c9107955b3b265d91cc86d0065a92d90fd2209a4eb4acdb3e5f"
 
 RPROVIDES:${PN} += "flavor(ftp) openSUSE-release-ftp openSUSE-release-ftp(aarch-64) product_flavor() product_flavor(openSUSE)"
 RDEPENDS:${PN} += ""

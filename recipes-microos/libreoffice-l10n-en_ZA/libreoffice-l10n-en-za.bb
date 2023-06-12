@@ -2,10 +2,10 @@ SUMMARY = "English_ZA localization files for LibreOffice"
 DESCRIPTION = "Provides English_ZA translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-en_ZA-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "0906490d6b70641c177debdcd7ad9563d00092d54f08d572e476af41787bd6b2c5564fbba35aab09e714586d848a965d60756e561b0caccd20f975f82ca713a7"
+RPM_NAME = "libreoffice-l10n-en_ZA-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "664f1caa9966d7dade36da8a098b26edb275a4364e6a7ba45512b80d16b5ef9e0d4667aeeef94c57e745d5d93118351c7c6c62b3c95ea62d40f00921c661cf8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-en-ZA libreoffice-help-en_ZA libreoffice-l10n-en_ZA locale(libreoffice:en_ZA)"

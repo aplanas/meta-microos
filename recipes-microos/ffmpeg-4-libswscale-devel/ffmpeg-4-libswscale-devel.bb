@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "ffmpeg-4-libswscale-devel-4.4.4-1.1.aarch64.rpm"
-RPM_HASH = "bb1463974aa350dee12f6c3d86d83ece597a042c0b327c0f90c21bf0caa76e5746b55698efe54dfeb270920ec58c7a53aeed751b7da27d1390c4bf8adfaae991"
+RPM_NAME = "ffmpeg-4-libswscale-devel-4.4.4-1.2.aarch64.rpm"
+RPM_HASH = "cbfa8e8ba0ea934a61988d81406aae42009714810b911569b1128e7bb5fdd18c2c40265ab0a943689d38bc5ba2af65d8c8666e566be4a30a52505bbfe10c2be3"
 
 RPROVIDES:${PN} += "ffmpeg-4-libswscale-devel ffmpeg-4-libswscale-devel(aarch-64) libswscale-devel pkgconfig(libswscale)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config ffmpeg-4-libavutil-devel libswscale5_9 pkgconfig(libavutil)"

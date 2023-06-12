@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only | SUSE-SIP"
 
 PV = "6.7.9"
 
-RPM_NAME = "python39-sip6-devel-6.7.9-1.1.aarch64.rpm"
-RPM_HASH = "b8954511ec063464dcb172508a2d2550985ba049840a7ca2f1c5fb3be0a149a0ab36c5a66b0f6b5d7ecc2a8b0c3dbb2b804401a03f59e960c4ce75c1866e08ea"
+RPM_NAME = "python39-sip6-devel-6.7.9-2.1.aarch64.rpm"
+RPM_HASH = "aff0878f7f98d4287f78d5c61f2d83855a29e672e99003395a348826607c8b128f3677d951fc232ee0650785114d409d74e7bee76d53f5f078ce2df710eb7ee3"
 
 RPROVIDES:${PN} += "python3.9dist(sip) python39-sip-devel python39-sip-impl python39-sip6-devel python39-sip6-devel(aarch-64) python3dist(sip)"
 RDEPENDS:${PN} += "(python39-tomli if python39-base < 3.11) /bin/sh /usr/bin/python3.9 c++_compiler ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python39-devel python39-packaging python39-ply python39-setuptools update-alternatives"

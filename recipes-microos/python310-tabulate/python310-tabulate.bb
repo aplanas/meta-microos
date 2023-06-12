@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python310-tabulate-0.9.0-2.1.noarch.rpm"
-RPM_HASH = "ddec544d17942535a0c37008ec80dbf3818d0a76c738f744545a8e4f1353d94ccb68983004f7ce4d642541f2fb50867e167832c4755c4a75730585d63129e07a"
+RPM_NAME = "python310-tabulate-0.9.0-3.1.noarch.rpm"
+RPM_HASH = "ebe9cb93a063fd212a5f2659b96e006c21ed46611d39f6ac3b7a45ca95b7183a736b83373999de6eb5ff380b298fe8de1353722e917c4d49b56bb665cc13c9a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tabulate python3.10dist(tabulate) python310-tabulate python3dist(tabulate)"

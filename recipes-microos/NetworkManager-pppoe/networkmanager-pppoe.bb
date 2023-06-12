@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.42.6"
 
-RPM_NAME = "NetworkManager-pppoe-1.42.6-1.1.aarch64.rpm"
-RPM_HASH = "fd2ed27999514a16cb13f085ba952f5db3b84cb13e77246d80e7b504a5cd2c3b8b89e3e74e995d4bdf2e8e78b542b52c6d37e34202e7b59f4309ab6eba2eba7d"
+RPM_NAME = "NetworkManager-pppoe-1.42.6-2.1.aarch64.rpm"
+RPM_HASH = "49cce49f2684df0c7279d6f3322622acc4e44c3c05bd13986ec64d0f1c9fdf265bc684fe7486a998a471bcab372160a836c0e6a7239237f93248f9076cd9a3b9"
 
 RPROVIDES:${PN} += "NetworkManager-pppoe NetworkManager-pppoe(aarch-64) libnm-device-plugin-adsl.so()(64bit) libnm-ppp-plugin.so()(64bit)"
 RDEPENDS:${PN} += "NetworkManager ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) ppp rp-pppoe"

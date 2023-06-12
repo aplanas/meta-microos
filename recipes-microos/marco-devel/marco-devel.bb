@@ -3,10 +3,10 @@ DESCRIPTION = "Marco is a small window manager, using GTK+ to do everything. It 
 developed mainly for the MATE Desktop."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.26.2"
 
-RPM_NAME = "marco-devel-1.26.1-1.3.aarch64.rpm"
-RPM_HASH = "97139d84411f733c607bb1808c1f41469134e92fb2ff40be4be66efe6f14c4e6906a77f193fb7e40e9c7c1846b7d226cf2b27662c79a3072f230d673fde0e2ca"
+RPM_NAME = "marco-devel-1.26.2-1.1.aarch64.rpm"
+RPM_HASH = "fd002641e5dd0151f31e1d855404657636dbd5d2d80c09eba53332ff3b5abf88138057fb49f4d4dcf7a8edf6bb01e498ded337aecca877604e1f5108546121e0"
 
 RPROVIDES:${PN} += "marco-devel marco-devel(aarch-64) mate-window-manager-devel pkgconfig(libmarco-private)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libmarco-private2 pkgconfig(gtk+-3.0)"

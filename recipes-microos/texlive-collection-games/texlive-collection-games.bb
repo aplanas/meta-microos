@@ -2,10 +2,10 @@ SUMMARY = "Games typesetting"
 DESCRIPTION = "Setups for typesetting various games, including chess."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65631"
+PV = "2023.208.svn65631"
 
-RPM_NAME = "texlive-collection-games-2023.201.svn65631-56.1.noarch.rpm"
-RPM_HASH = "d527d35e2c0c974ebd77c79cac554f3374e25bf5c33d1db549c4e61f46dec13b4b047be00ce15c8cefaf3f18c0224a9eedc456ec34e95f1f33538127ecd399ac"
+RPM_NAME = "texlive-collection-games-2023.208.svn65631-58.1.noarch.rpm"
+RPM_HASH = "b397cca8f34df7c3109f3c5c5a3caac36d55cb57065a3c6150050ccfbe6fa357945fa4123268b2925dcee7dc01c939b4ceac79e46548babbe6b2fefa4787683e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-games"

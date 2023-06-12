@@ -6,10 +6,10 @@ sources). \
 This package contains the HTML documentation for Sphinx."
 LICENSE = "BSD-2-Clause"
 
-PV = "7.0.0"
+PV = "7.0.1"
 
-RPM_NAME = "python-Sphinx-doc-html-7.0.0-1.1.noarch.rpm"
-RPM_HASH = "cf111540d524b9ab8697c8d23dfae6c903c4266e108517ddc72d555bf123db025d6ee98c3617b7f0140c93138a86e697853787a7e8941f3244c8b409cdc956d8"
+RPM_NAME = "python-Sphinx-doc-html-7.0.1-1.2.noarch.rpm"
+RPM_HASH = "beff6d38e42882d5252b63af2e4b86eacd5d25ac9f583ab1cce750dcc1e1c3015b746e43e4e759d0db901fb3409465ea6917fb67765a6ad21e04e1a8b5e680b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Sphinx-doc-html"

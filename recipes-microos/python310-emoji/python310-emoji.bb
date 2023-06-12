@@ -9,13 +9,13 @@ Python is 👍 \
 >> print(emoji.emojize('Python is :thumbsup:', use_aliases=True)) \
 Python is 👍 \
  \
-By default, the language is English (``language='en'``) but Spanish (``'es'``), Portuguese (``'pt'``) and Italian (``'it'``) are also supported."
+By default, the language is English (``language='en'``) several further languages are also supported."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.0"
+PV = "2.4.0"
 
-RPM_NAME = "python310-emoji-2.2.0-1.3.noarch.rpm"
-RPM_HASH = "a870f9858680699aefabeee3028a1e1d27c80a45fbcfb8e1985c67f3e0f63f6eb8c76015e2c6da84db9825e8976d605479801b61b348c71a67982b1440d46eb1"
+RPM_NAME = "python310-emoji-2.4.0-1.1.noarch.rpm"
+RPM_HASH = "0d7dec2e4f30f36ce0e527cdf33962f671b6b067042795b9509fb2b4d07875b56457ff7ff5d472ad336930436f403a3df3f2f41d28a31b49a1d7d612c6f50285"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-emoji python3.10dist(emoji) python310-emoji python3dist(emoji)"

@@ -6,10 +6,10 @@ of the support, to keep both collection sizes and the number of \
 collections reasonable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59564"
+PV = "2023.208.svn59564"
 
-RPM_NAME = "texlive-collection-langother-2023.201.svn59564-56.1.noarch.rpm"
-RPM_HASH = "91ce43c1731cf7e718c9dd9117210a5454a82ec92249978ebae10865ba4d925a813ce5e0292279080d26e314e0df74cecfaa3f307b47bd99ac507fc970c870fe"
+RPM_NAME = "texlive-collection-langother-2023.208.svn59564-58.1.noarch.rpm"
+RPM_HASH = "c419874b0aa1b8a9e4c158924fc36185fd1ae74a42df015444865c94129aea2e8dc5e6eb8d8e3cb65fcd28d60954cda9727037c5d8314c2136beea084e85141a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langother"

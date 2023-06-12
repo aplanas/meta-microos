@@ -15,10 +15,10 @@ location as KDELibs4Support, although it may be sufficient to set the \
 KDEDIRS environment variable correctly."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.105.0"
+PV = "5.106.0"
 
-RPM_NAME = "kssl-5.105.0-1.1.aarch64.rpm"
-RPM_HASH = "313c96169fb31372b75483e5e4648cd723bdb4be4e15ea0af813af3dfe85196013abbe23f0a257b1f1bd9e38b02cc4bfb39e4e9332a951b06e807708b15dfea7"
+RPM_NAME = "kssl-5.106.0-1.1.aarch64.rpm"
+RPM_HASH = "c301cb587a753934c30a25f750d99c221baf25fa654167433d76679fdd5858760da6339ff0c82419646a6ebda39b80e1ee04e8a49513248d94fe99b4f46cdbc0"
 
 RPROVIDES:${PN} += "kssl kssl(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libKF5ConfigWidgets.so.5()(64bit) libKF5CoreAddons.so.5()(64bit) libKF5I18n.so.5()(64bit) libKF5KIOCore.so.5()(64bit) libKF5KIOWidgets.so.5()(64bit) libKF5WidgetsAddons.so.5()(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5Network.so.5()(64bit) libQt5Network.so.5(Qt_5)(64bit) libQt5Widgets.so.5()(64bit) libQt5Widgets.so.5(Qt_5)(64bit) libc.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"

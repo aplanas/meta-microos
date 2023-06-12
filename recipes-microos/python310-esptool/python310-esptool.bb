@@ -4,10 +4,10 @@ DESCRIPTION = "A command line utility to communicate with the ROM bootloader in 
 Allows flashing firmware, reading back firmware, querying chip parameters, etc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.3.2"
+PV = "4.5.1"
 
-RPM_NAME = "python310-esptool-3.3.2-1.5.noarch.rpm"
-RPM_HASH = "ab44ac338596a9c698e8d2a21503519ba44be839908ccf26e59f086f03f50deda01a748470fc8446bdc3239028f460b59706886661dda5e9044bba3a48520a8b"
+RPM_NAME = "python310-esptool-4.5.1-1.1.noarch.rpm"
+RPM_HASH = "fba42f15a408e7b3b1a4651956d4b429131bae21527af3de11c6687495f5e980be3d682f1d28c89d5537e773556a761cd7a0a7d7dcb0201be6c46b7a001e56ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-esptool python3.10dist(esptool) python310-esptool python3dist(esptool)"

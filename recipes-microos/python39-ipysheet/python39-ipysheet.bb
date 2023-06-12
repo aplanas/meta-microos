@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-ipysheet-0.7.0-1.4.noarch.rpm"
-RPM_HASH = "30603e2f1d8bc45b5403e827dfb3b1e668d00c4b43a8e645a37aac2a2453918ccfd26acb22ef3d29d1eba03352a3db735995dac3747e9a939c2823bfad436c87"
+RPM_NAME = "python39-ipysheet-0.7.0-1.5.noarch.rpm"
+RPM_HASH = "89b57cf91e56dba071bcb7017d36e9b6f613d9379302bf4d765d02b601fac81be07c521d0f022d854a402d26ef1204e9e96103b2daa70e7ccd3434b1a4e9629d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(ipysheet) python39-ipysheet python3dist(ipysheet)"

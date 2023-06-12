@@ -1,11 +1,11 @@
 SUMMARY = "ipa input schema for rime"
-DESCRIPTION = "ipainput schema for rime."
+DESCRIPTION = "ipa input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20210525+git.4f7fc2a"
+PV = "20230603+git.5fdd2d6"
 
-RPM_NAME = "rime-schema-ipa-20210525+git.4f7fc2a-1.9.noarch.rpm"
-RPM_HASH = "4b40a6adddcc420aeae21b124f5fef32e8ed9ac660f0c4d5cc3de0b32a4799f4f06a1185b4ed67f24acf27c4856751759e6d43589479b067e597e8425acd646d"
+RPM_NAME = "rime-schema-ipa-20230603+git.5fdd2d6-1.1.noarch.rpm"
+RPM_HASH = "91ecd823b3b7f11bf795e4eda434109ac98367caa040e7429609e5b49338df1b0a1cf9be72c7373409ed48fee10a96a5e3b99a73d1a82f65394506f7e498751a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-ipa"

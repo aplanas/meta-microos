@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0beta3"
 
-RPM_NAME = "libtexluajit2-2.1.0beta3-89.1.aarch64.rpm"
-RPM_HASH = "2ea20c8171ff321745c6eece66ae7895284c33d79ecabf0975c9253316fd5f6f14f72b08d80a9c1dbdad4b1b017a8a6d03ca19a4bb36ed6c1332f780b415793a"
+RPM_NAME = "libtexluajit2-2.1.0beta3-91.1.aarch64.rpm"
+RPM_HASH = "1cb87b1ee4a223fa87904b05a6ed7cbd73b9989191e0f98fdf9aca0e58cdaac7a7d789a96ad74c932193bf44ce2d729c5a8f9373cadad7cc0ed36257d87815a2"
 
 RPROVIDES:${PN} += "libtexluajit.so.2()(64bit) libtexluajit2 libtexluajit2(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit)"

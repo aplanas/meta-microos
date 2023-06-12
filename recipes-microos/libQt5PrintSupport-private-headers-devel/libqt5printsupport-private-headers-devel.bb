@@ -5,10 +5,10 @@ ABI or API guarantees. The packages that build against these have to \
 require the exact Qt version."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde151"
+PV = "5.15.9+kde154"
 
-RPM_NAME = "libQt5PrintSupport-private-headers-devel-5.15.9+kde151-1.1.noarch.rpm"
-RPM_HASH = "a94574924d77e090d210ae83ed215f1e64dcb2706f6bb088402ccf23d117dcd50f627f455e82b324d7e96c8a371e30d99e18c1ca497a5f368e663ea0351f4f4b"
+RPM_NAME = "libQt5PrintSupport-private-headers-devel-5.15.9+kde154-1.2.noarch.rpm"
+RPM_HASH = "4d74364aa29e97277708620ec4ee53b879e1abf58434bc828b63db60bef8a6091588ddd7ea17a0397f0f9dcd6c0e1994a2f9aabd025e1c87d020c478b77d9e3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5PrintSupport-private-headers-devel"

@@ -10,10 +10,10 @@ using different compilers, options, and MPI implementations. \
 This package contains the man page."
 LICENSE = "Apache-2.0 & MIT & Python-2.0 & BSD-3-Clause"
 
-PV = "0.19.2"
+PV = "0.20.0"
 
-RPM_NAME = "spack-man-0.19.2-1.1.noarch.rpm"
-RPM_HASH = "31de822b16bb84c2e7ef750f42eb0c948065d1a267f8b7ac5d3969cd9b1a17d3a0022920effc1e5eabeb31dae1f69c9847ce0ef4c5162fa2fb5c06a8de81e7d1"
+RPM_NAME = "spack-man-0.20.0-1.1.noarch.rpm"
+RPM_HASH = "89c90975fb9a364910e8ad8bff77e8b8cac745177aead619f6407a97d4ff18fa95f0a70789c8057f2ceeeb2fffe5daf55ad29f63135d06cdea31480b6672c2d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spack-man"

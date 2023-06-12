@@ -8,10 +8,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.57"
 
-RPM_NAME = "fox16-devel-1.6.57-2.1.aarch64.rpm"
-RPM_HASH = "7bc886c2a7b4a6702d9aa498d5c9ecc441203f411bf4c1c0294c8d5df1b750f3ebbf9b5f5e2d566c5047ba478618fd3b7fc2966bb086109a8d6c16e3221f823b"
+RPM_NAME = "fox16-devel-1.6.57-4.1.aarch64.rpm"
+RPM_HASH = "22d02991e96649eb247bb0fc26e3f2dbf4e166e3c9cb9b89f0579742981b15f8938f79c33265215934f5ea0c2cd98f9385d6c683acc82810607d6c0118d77d72"
 
 RPROVIDES:${PN} += "fox-devel fox16-devel fox16-devel(aarch-64) pkgconfig(fox)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config bzip2 cups-devel cups-libs expat fontconfig-devel freetype2-devel glibc-devel libFOX-1_6-0 libbz2-devel libc.so.6(GLIBC_2.34)(64bit) libexpat-devel libjpeg-devel libpng-devel libtiff-devel pkgconfig(glu) xorg-x11-Mesa-devel xorg-x11-devel xorg-x11-libX11-devel xorg-x11-libXau-devel xorg-x11-libXdmcp-devel xorg-x11-libXext-devel xorg-x11-libXfixes-devel xorg-x11-libXrender-devel zlib-devel"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config bzip2 cups-devel cups-libs expat glibc-devel libFOX-1_6-0 libbz2-devel libc.so.6(GLIBC_2.34)(64bit) libexpat-devel libjpeg-devel libpng-devel libtiff-devel pkgconfig(fontconfig) pkgconfig(freetype2) pkgconfig(gl) pkgconfig(glu) pkgconfig(x11) pkgconfig(xcursor) pkgconfig(xext) pkgconfig(xft) pkgconfig(xi) pkgconfig(xproto) pkgconfig(xrandr) pkgconfig(xrender) zlib-devel"
 
 inherit rpm

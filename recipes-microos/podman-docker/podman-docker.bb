@@ -4,10 +4,10 @@ executes podman commands, it also creates links between all Docker CLI man \
 pages and podman."
 LICENSE = "Apache-2.0"
 
-PV = "4.5.0"
+PV = "4.5.1"
 
-RPM_NAME = "podman-docker-4.5.0-1.1.noarch.rpm"
-RPM_HASH = "012fa97a63a39fe8ab6260e7a1364515d977951c3e5c237baae93c18dc49f3d51e7f4112d86561e308d373770d291eeb785f5c6536b6dc3a75edaf38d531ecd4"
+RPM_NAME = "podman-docker-4.5.1-1.1.noarch.rpm"
+RPM_HASH = "b5a1e58fd133104b8a64d2cc467ce135255b1a4c7388a26009035e1fb7628d1c52d741a0bb19f52605f52b54bd475ca8e844c4edd26475eba10aac90997afaee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "podman-docker"

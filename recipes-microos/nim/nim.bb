@@ -34,8 +34,8 @@ LICENSE = "MIT"
 
 PV = "1.6.12"
 
-RPM_NAME = "nim-1.6.12-1.3.aarch64.rpm"
-RPM_HASH = "908bfb408f58be8f68f6b2a2c1fe49c663bb360c68bf03b82c884e127e101f808b9fdd34713cdc6ed8d418e0b3747824c30e0242053866da9f5c2fd0deeff777"
+RPM_NAME = "nim-1.6.12-1.4.aarch64.rpm"
+RPM_HASH = "8c839e7c5622b4d0068aa4cc106a41dd7afa33f7b978bfdb63a0d5c1e8b3cf5e95b21e741286450babc0f6df071f80591d802db180f566cbd7197b2f90fc0fe8"
 
 RPROVIDES:${PN} += "config(nim) nim nim(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/bash gcc ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.23)(64bit) libm.so.6(GLIBC_2.29)(64bit) libm.so.6(GLIBC_2.35)(64bit)"

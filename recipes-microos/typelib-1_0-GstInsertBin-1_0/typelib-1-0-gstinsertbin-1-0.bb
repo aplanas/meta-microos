@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.2"
+PV = "1.22.3"
 
-RPM_NAME = "typelib-1_0-GstInsertBin-1_0-1.22.2-3.1.aarch64.rpm"
-RPM_HASH = "8e7ae64e37dc4ae9cbb84a1c9bfe394d39bb3320540998433c58b19a3538b60c5fe69b14dae5c90c12889e1fcfe9979632cd832990997f66006017f343f388da"
+RPM_NAME = "typelib-1_0-GstInsertBin-1_0-1.22.3-1.1.aarch64.rpm"
+RPM_HASH = "7cf93551bd4617154a182c33941dbafb2ad3f0e10670a28d4eafeb14e4844b12dd6109eaf8042f67c5d43d3dcb20bbd2fe3b1cb13fe028d44f05a134a62f33be"
 
 RPROVIDES:${PN} += "typelib(GstInsertBin) typelib-1_0-GstInsertBin-1_0 typelib-1_0-GstInsertBin-1_0(aarch-64)"
 RDEPENDS:${PN} += "libgstinsertbin-1.0.so.0()(64bit) typelib(GLib) typelib(GModule) typelib(GObject) typelib(Gst)"

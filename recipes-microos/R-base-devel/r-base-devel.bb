@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "4.3.0"
 
-RPM_NAME = "R-base-devel-4.3.0-45.1.aarch64.rpm"
-RPM_HASH = "8233e67d38477a9563d60f4932947e3cbd7646c4e181fdedccc7f6876222d9a3f6a7899e365a4f329b469140a22b827dd7702f06d73bfc84ae9b2d6e83c72ad3"
+RPM_NAME = "R-base-devel-4.3.0-45.2.aarch64.rpm"
+RPM_HASH = "86843f26845bae882ad1d1e7f04921de638de4cd5e6c26e3feeafcfd5d8b847340d3d65868ffbb4260339181c1fcb349b09b2c9c37d2b33c0c597ae156a4b08b"
 
 RPROVIDES:${PN} += "R-base-devel R-base-devel(aarch-64)"
 RDEPENDS:${PN} += "R-core-devel R-core-libs"

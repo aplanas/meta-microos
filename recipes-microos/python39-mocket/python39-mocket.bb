@@ -3,13 +3,13 @@ DESCRIPTION = "Socket Mock Framework - for all kinds of socket animals, web-clie
 included, with gevent/asyncio/SSL support."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.11.0"
+PV = "3.11.1"
 
-RPM_NAME = "python39-mocket-3.11.0-1.2.noarch.rpm"
-RPM_HASH = "6a0a043e6841860c25501e891a690423df490e7c580ab17c16b614b25cf167562808ba21e3bd7b71404016091aaa401f0f56e3ccbde17514db7d797b051f70bf"
+RPM_NAME = "python39-mocket-3.11.1-1.1.noarch.rpm"
+RPM_HASH = "2a0c501778633d1d109ab4750e6a15208b269ef3e051cb823a35c6e22583f2c5de80098fe79e580185514087103f2f3c38f5935316dc0c06efd1a8e06ff059ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(mocket) python39-mocket python3dist(mocket)"
-RDEPENDS:${PN} += "python(abi) python39-decorator python39-http-parser python39-httptools python39-python-magic python39-urllib3"
+RDEPENDS:${PN} += "python(abi) python39-decorator python39-httptools python39-python-magic python39-urllib3"
 
 inherit rpm

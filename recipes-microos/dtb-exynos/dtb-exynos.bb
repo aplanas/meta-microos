@@ -2,10 +2,10 @@ SUMMARY = "Samsung Exynos based arm64 systems"
 DESCRIPTION = "Device Tree files for Samsung Exynos based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.1"
+PV = "6.3.4"
 
-RPM_NAME = "dtb-exynos-6.3.1-1.2.aarch64.rpm"
-RPM_HASH = "516d1a1110d216db1214aeb07b75df3232141bdcc9995f25d1a46690f088ba4ef196736ec7f2ad79b9fa0895344e0ce5b4f24182128952107751233f3a5caac7"
+RPM_NAME = "dtb-exynos-6.3.4-1.1.aarch64.rpm"
+RPM_HASH = "5e427aaa22c4ff5ac86311a88abf7290f83f3541a4364860a0d405156a3d08354fceb2d05ebc6d68320d5d454fa4a461dfbe239150d234bbf4bf0854b70e668c"
 
 RPROVIDES:${PN} += "dtb-exynos dtb-exynos(aarch-64) multiversion(dtb)"
 RDEPENDS:${PN} += "/bin/sh coreutils"

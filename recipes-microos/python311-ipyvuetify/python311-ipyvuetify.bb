@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.8.10"
 
-RPM_NAME = "python311-ipyvuetify-1.8.10-2.1.noarch.rpm"
-RPM_HASH = "2788b45a0f0c95ebafe97e533cd03a7119953b38ed668e3ca70f97576bbc73038851b32ac2ddcf57f8aadaa723ca973a55bd02e0e84fb31fc50c9bfd2e849187"
+RPM_NAME = "python311-ipyvuetify-1.8.10-2.2.noarch.rpm"
+RPM_HASH = "a26255b1c655bc48a138da8b84c3a206de6d87449441968e43d340aa7668b8b6c7f806e11beeb6b11f2676c911366b7c8772773f75b9e50479f5b4ab76982208"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(ipyvuetify) python311-ipyvuetify python3dist(ipyvuetify)"

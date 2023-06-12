@@ -9,10 +9,10 @@ This file contains YaST2-independent files needed to create \
 installation sources."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.1"
+PV = "4.6.2"
 
-RPM_NAME = "autoyast2-4.6.1-1.1.noarch.rpm"
-RPM_HASH = "d1e43c6ae6b410b9d4c4896684f60e1c3ba9d83c1f51eec3a04b9412d3af3b6abb82e08fc3f6d12f6bbe5975d31f7b176055b3b6891308ff163f8c761fb00cc3"
+RPM_NAME = "autoyast2-4.6.2-1.1.noarch.rpm"
+RPM_HASH = "64c86838aa13cf9987c17a129e8d7ac2510ef0f76d753576d89733f691c67a842e2e62a10a2d06722b3a74fa78d1b38bec9ced0832259ab6833926d21582708f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "application() application(org.opensuse.yast.AutoYaST.desktop) application(org.opensuse.yast.CloneSystem.desktop) autoyast2 metainfo() metainfo(org.opensuse.yast.AutoYaST.metainfo.xml) metainfo(org.opensuse.yast.CloneSystem.metainfo.xml) yast2-config-autoinst yast2-lib-autoinst yast2-module-autoinst"

@@ -3,10 +3,10 @@ DESCRIPTION = "Hans Hagen's powerful ConTeXt system, http://pragma-ade.com. \
 Also includes third-party ConTeXt packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66171"
+PV = "2023.208.svn66171"
 
-RPM_NAME = "texlive-collection-context-2023.201.svn66171-56.1.noarch.rpm"
-RPM_HASH = "ec5f4ccf059971e5007ecc2bc03e089544e57c1d43eba5990e47ab1633ba4737f9f1be71abf648d022774aca3ece1a224e6717beb4fbde48971829ac797fcf1c"
+RPM_NAME = "texlive-collection-context-2023.208.svn66171-58.1.noarch.rpm"
+RPM_HASH = "0dfe7f5c43774def0feed47f010e562bfc5056626f1ed28594ddfc157c6364641bfffb7d223604c004d0f46baa3ceda45b911b6572c7f8cebcfa37558013c292"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-context"

@@ -10,10 +10,10 @@ using different compilers, options, and MPI implementations. \
 This package contains the built-in package recipes."
 LICENSE = "Apache-2.0 & MIT & Python-2.0 & BSD-3-Clause"
 
-PV = "0.19.2"
+PV = "0.20.0"
 
-RPM_NAME = "spack-recipes-0.19.2-1.1.noarch.rpm"
-RPM_HASH = "da3e2e3de908b6d85678b399b8477a1883cc6ccfd64910946c3fb14be0f7dba3c588a0048b18c5a53ab95eb6570235b7b08670b374db6cc934c7bf8f27debfa6"
+RPM_NAME = "spack-recipes-0.20.0-1.1.noarch.rpm"
+RPM_HASH = "6693db3bf5bd6940c47ad4bad45cc4130df29b3bc456a54e32d3efd86daddca4a545d101c0d55d58b53edd0df7c095c4c4b964a83416ba92afddd0b8194c1080"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spack-recipes"

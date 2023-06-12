@@ -10,10 +10,10 @@ share media such as music and photos. \
 This package contains development files for libdmapsharing."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.9.11"
+PV = "3.9.12"
 
-RPM_NAME = "libdmapsharing-devel-3.9.11-1.1.aarch64.rpm"
-RPM_HASH = "ceb81d492b94039527129e78fba7b6e2703ec49e00326b1e16408f81b53592feb2702d1a09702b754407218ff8c8874d6411c64d926f5fc6614b26d76908051a"
+RPM_NAME = "libdmapsharing-devel-3.9.12-1.1.aarch64.rpm"
+RPM_HASH = "470998e0ac3fcb86aed1205eb0099ae4c534604ba52a7d95a81a524b55c8a11131c739b2c3c699a35ae1960bcdf5645d6a3cad0ddb2a1079de2a72832b4bed67"
 
 RPROVIDES:${PN} += "libdmapsharing-devel libdmapsharing-devel(aarch-64) pkgconfig(libdmapsharing-4.0)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libdmapsharing-4_0-3 pkgconfig(glib-2.0) pkgconfig(gstreamer-1.0) pkgconfig(gstreamer-app-1.0) pkgconfig(libsoup-3.0) typelib-1_0-Dmap-4_0"

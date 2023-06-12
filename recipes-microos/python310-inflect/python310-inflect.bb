@@ -2,13 +2,13 @@ SUMMARY = "Methods for working on numbers and nouns"
 DESCRIPTION = "Correctly generate plurals, singular nouns, ordinals, indefinite articles; convert numbers to words."
 LICENSE = "MIT"
 
-PV = "5.0.2"
+PV = "6.0.4"
 
-RPM_NAME = "python310-inflect-5.0.2-3.1.noarch.rpm"
-RPM_HASH = "5298893b6010e91e8494ca95c909b5ddb76a1870a906be8e139fa6b399b202497a408213bd80f6768d3133bf815ccd8d97f0f3933a43b77cfc208d0bb2b656da"
+RPM_NAME = "python310-inflect-6.0.4-1.1.noarch.rpm"
+RPM_HASH = "f799bda051e76529cbae0e30c0b0a3a956494ac2feaa7a9767b95d0fb1f6aa291a59788656735fc7d9647ef9c6095c4eb935a78514ea1d6d7fc9f7fac496bb44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-inflect python3.10dist(inflect) python310-inflect python3dist(inflect)"
-RDEPENDS:${PN} += "python(abi) python310-toml"
+RDEPENDS:${PN} += "python(abi) python310-pydantic python310-toml"
 
 inherit rpm

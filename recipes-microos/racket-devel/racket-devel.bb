@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the symlinks, headers and object files need
 compile and link programs which use Racket."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "8.8"
+PV = "8.9"
 
-RPM_NAME = "racket-devel-8.8-1.3.aarch64.rpm"
-RPM_HASH = "6c7ef29458e19c945ab8cc1c8ee7981dee5ea8a5ba42b9f7c1d3a2536bc6de1b2f4c7766be2426cde415daefc2df61455ebd8aa96205c9e91d30731ed5aaf424"
+RPM_NAME = "racket-devel-8.9-1.1.aarch64.rpm"
+RPM_HASH = "b7c13419ee002f6f69e46fd99c61c52a80ff1abf768c93f6fa7d9fd978e198843faf7c5c6aed1ecb338e525a3ef2e92236c6d8d964db87ff05eb816d559aa535"
 
 RPROVIDES:${PN} += "racket-devel racket-devel(aarch-64)"
 RDEPENDS:${PN} += "glibc-devel libffi-devel racket"

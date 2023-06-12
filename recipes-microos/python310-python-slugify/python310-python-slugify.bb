@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0.2"
 
-RPM_NAME = "python310-python-slugify-5.0.2-1.9.noarch.rpm"
-RPM_HASH = "feb4bb3338b3bd5357c934133bf49e0aff821c7855491e0ec8582f71280a7d12235def0942549104f11166557a74f0364a9f649c62991cb6b01875b9e5584488"
+RPM_NAME = "python310-python-slugify-5.0.2-2.1.noarch.rpm"
+RPM_HASH = "90685267c9846a4ed3b26a3a043ce00780f4d44324cfc2b2100375787401b39ca21cc7d8a43ee0ea1258a2fea23246b9aa544e341c54ceab49afa5fe5651f750"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-slugify python3.10dist(python-slugify) python310-python-slugify python3dist(python-slugify)"

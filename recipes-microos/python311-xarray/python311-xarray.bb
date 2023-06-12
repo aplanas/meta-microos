@@ -8,10 +8,10 @@ The Common Data Model for self-describing scientific data is used. \
 The dataset is an in-memory representation of a netCDF file."
 LICENSE = "Apache-2.0"
 
-PV = "2023.2.0"
+PV = "2023.5.0"
 
-RPM_NAME = "python311-xarray-2023.2.0-1.1.noarch.rpm"
-RPM_HASH = "22f42b7f17a4df1a550b8b5b44e93cb367311d9e69a45e8b0237f3414c00bac2d7f3dcc34edfa368c09da5b830fa3031c73cb2c0ce5c7583acf949616662c1aa"
+RPM_NAME = "python311-xarray-2023.5.0-1.1.noarch.rpm"
+RPM_HASH = "9b23da0b126db72ff058e66f56d9258c6c0c51ba16e8170f191b6c87abd2dd857db101e8b2013c687b087aabfb822c89ea09d782ef1f4c16d588c426553ee118"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(xarray) python311-xarray python311-xray python3dist(xarray)"

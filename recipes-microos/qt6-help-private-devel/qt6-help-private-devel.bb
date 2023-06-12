@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Help that do not h
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-help-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "eedcb56e6473c01b34210afc2894a9d5c9ca6dd49e50186bf7b01e04fcf6c5c4b769f3578f4e5279af81dd1716a349549f6d3c2926ce85c108694da349032a0a"
+RPM_NAME = "qt6-help-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "696221a0c366297969a3cbf2f91b0dbb84f11c3acb1b3523800a8fb9f6afe48bc94e46d9cf09a451a60722a4d5631d2288e397f0f289543f5c843cd8571613b6"
 
 RPROVIDES:${PN} += "qt6-help-private-devel qt6-help-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6Help) qt6-core-private-devel"

@@ -14,10 +14,10 @@ Key features: \
 * Normalizes email addresses (super important for internationalized addresses! see below)."
 LICENSE = "CC0-1.0"
 
-PV = "1.3.1"
+PV = "2.0.0"
 
-RPM_NAME = "python39-email-validator-1.3.1-1.4.noarch.rpm"
-RPM_HASH = "7b3caf38d190362711de678556218db9d15728491acf54fe642828deae3c9e39f243bf6142ddfe4c7b5c90ef1649589943abfa4dbde7a2c7f94eb49913928b6c"
+RPM_NAME = "python39-email-validator-2.0.0-1.1.noarch.rpm"
+RPM_HASH = "99ccfe91ddd4d8b29a51f29d18397b4571c617c9adfe2a452e2979f049ced8a011c2aaccb2a561a988835fd52222a686f241ab88af608ed10a9d96b3a7af9687"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(email-validator) python39-email-validator python39-email_validator python3dist(email-validator)"

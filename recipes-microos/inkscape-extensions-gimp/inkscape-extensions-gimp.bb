@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.2"
 
-RPM_NAME = "inkscape-extensions-gimp-1.2.2-2.3.aarch64.rpm"
-RPM_HASH = "78e14f2c01472aaa41eb20fb5fe1e052eee1a7c106fa0842f37fe84a44fb9e138aa19571fe61102e5de9d1cc2d36526615a1e23f701471c4623805c0a2fbdcb9"
+RPM_NAME = "inkscape-extensions-gimp-1.2.2-3.1.aarch64.rpm"
+RPM_HASH = "c49b40f2130b0ab7dea4b9e0bf83202af78bbd0736d14a692dc65efc369af49fba5870f88c3bd390853baa008e35c65f137e48b5eb11eed098855baaa13fca76"
 
 RPROVIDES:${PN} += "inkscape-extensions-gimp inkscape-extensions-gimp(aarch-64)"
 RDEPENDS:${PN} += "gimp inkscape inkscape-extensions-extra"

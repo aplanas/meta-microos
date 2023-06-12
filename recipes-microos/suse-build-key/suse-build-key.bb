@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "12.0"
 
-RPM_NAME = "suse-build-key-12.0-10.6.noarch.rpm"
-RPM_HASH = "4ca9ef74e6efda6577517f5c180a105fdeff052cf9b4f52155db7c2f527a1353edc85037065d40ae47f8e39f672170972783b2a8ad6fad177c2e5601b29d05b0"
+RPM_NAME = "suse-build-key-12.0-11.1.noarch.rpm"
+RPM_HASH = "82b40175a1fdf8c7b6077c543aeaee3def082d0b4e0433a74b15f547db370013630807154679f0f0772574f1c032971947fbf52b308a14c478c33cb8b57a2220"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "build-key suse-build-key"

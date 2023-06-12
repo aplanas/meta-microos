@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "1.5.5"
 
-RPM_NAME = "libzstd-devel-1.5.5-1.1.aarch64.rpm"
-RPM_HASH = "84e9e32b394f3c3826cbaabddd25380c5baf750f16886ce1a8855639bac519a40660edd71adf4dc1d0a08e7331c038e0017c5d92d2c3203a36d9d3dadb476ee8"
+RPM_NAME = "libzstd-devel-1.5.5-3.1.aarch64.rpm"
+RPM_HASH = "c217bdc206246f6f13658092c4037116c3f150c9304deb4ece18b45b6b66f537fe501d49478d6142c1e503bb42a7367ba98ea4b49d160c4b08af997e245b5b83"
 
 RPROVIDES:${PN} += "libzstd-devel libzstd-devel(aarch-64) pkgconfig(libzstd)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config glibc-devel libzstd1"

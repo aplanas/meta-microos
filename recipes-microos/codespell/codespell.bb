@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.4"
 
-RPM_NAME = "codespell-2.2.4-1.1.noarch.rpm"
-RPM_HASH = "efb0c4771a6bbcff66657de5005d9466bdf1241b41148122a7a381acc011d1b8b244edc594aa7aeb4811db22c9aa13412cfced51d090bf8895467dc58abd5cd6"
+RPM_NAME = "codespell-2.2.4-2.1.noarch.rpm"
+RPM_HASH = "8fb313b54911d5c070572e4e07a99de745b4629dc91c0c6b402d9fd5bdcd3de9100208802dcf0a309bbb2711bcdcb20ee57b4d42fe9ff830576797bb8dfde1a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "codespell python3.10dist(codespell) python3dist(codespell)"

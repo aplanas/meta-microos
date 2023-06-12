@@ -18,10 +18,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10.0"
 
-RPM_NAME = "baresip-2.10.0-1.7.aarch64.rpm"
-RPM_HASH = "8d289c333262d865992a05f586cf502aeee5ffa209a5032992c286652b3387163859519ed8fdfa48537ed7626605745f40af808d085f2c184a03556989ac75f2"
+RPM_NAME = "baresip-2.10.0-1.8.aarch64.rpm"
+RPM_HASH = "96fa48cab5b17d75ee6d85f15ba8ec7eaf6f938d8931116629acf0491a649e5ff129050aa5e40d86c1b031198c6cafb1541c9390b6a513f3f4ecba6ea414b9f0"
 
 RPROVIDES:${PN} += "baresip baresip(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libasound.so.2()(64bit) libasound.so.2(ALSA_0.9)(64bit) libasound.so.2(ALSA_0.9.0rc4)(64bit) libbaresip.so.2()(64bit) libc.so.6(GLIBC_2.34)(64bit) libcodec2.so.1.0()(64bit) libfdk-aac.so.2()(64bit) libgdk-3.so.0()(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgtk-3.so.0()(64bit) libjack.so.0()(64bit) libmosquitto.so.1()(64bit) libmp3lame.so.0()(64bit) libmpg123.so.0()(64bit) libopus.so.0()(64bit) libpng16.so.16()(64bit) libpng16.so.16(PNG16_0)(64bit) libportaudio.so.2()(64bit) libpulse-simple.so.0()(64bit) libpulse-simple.so.0(PULSE_0)(64bit) libpulse.so.0()(64bit) libpulse.so.0(PULSE_0)(64bit) libre.so.12()(64bit) libsndfile.so.1()(64bit) libsndfile.so.1(libsndfile.so.1.0)(64bit) libspandsp.so.3()(64bit) libspeexdsp.so.1()(64bit) libtwolame.so.0()(64bit) libwebrtc_audio_processing.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libasound.so.2()(64bit) libasound.so.2(ALSA_0.9)(64bit) libasound.so.2(ALSA_0.9.0rc4)(64bit) libbaresip.so.2()(64bit) libc.so.6(GLIBC_2.34)(64bit) libcodec2.so.1.1()(64bit) libfdk-aac.so.2()(64bit) libgdk-3.so.0()(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit) libgtk-3.so.0()(64bit) libjack.so.0()(64bit) libmosquitto.so.1()(64bit) libmp3lame.so.0()(64bit) libmpg123.so.0()(64bit) libopus.so.0()(64bit) libpng16.so.16()(64bit) libpng16.so.16(PNG16_0)(64bit) libportaudio.so.2()(64bit) libpulse-simple.so.0()(64bit) libpulse-simple.so.0(PULSE_0)(64bit) libpulse.so.0()(64bit) libpulse.so.0(PULSE_0)(64bit) libre.so.12()(64bit) libsndfile.so.1()(64bit) libsndfile.so.1(libsndfile.so.1.0)(64bit) libspandsp.so.3()(64bit) libspeexdsp.so.1()(64bit) libtwolame.so.0()(64bit) libwebrtc_audio_processing.so.1()(64bit)"
 
 inherit rpm

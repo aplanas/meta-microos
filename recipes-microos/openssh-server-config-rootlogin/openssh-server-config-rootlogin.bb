@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "8.9p1"
 
-RPM_NAME = "openssh-server-config-rootlogin-8.9p1-9.1.aarch64.rpm"
-RPM_HASH = "52c837531ed865c47f618b4247c305571d247dd442837558539bc543c341e6e96537c6a15b531c043fb048b8aa95136cc9fd6e494588862ad00d1d47d6c86d53"
+RPM_NAME = "openssh-server-config-rootlogin-8.9p1-9.2.aarch64.rpm"
+RPM_HASH = "5e785f926c105144112c41075d68be1647e79296c6267fd95193457831e673993744ba8c6c336cc6ab7fbe04f982a54f723a0e3d0002e067d8e1cb77f512f095"
 
 RPROVIDES:${PN} += "openssh-server-config-rootlogin openssh-server-config-rootlogin(aarch-64)"
 RDEPENDS:${PN} += "openssh-server"

@@ -7,10 +7,10 @@ llvm-devel that openSUSE currently supports.  Packages that \
 don't require a specific LLVM version should depend on this."
 LICENSE = "Apache-2.0-WITH-LLVM-exception | NCSA"
 
-PV = "16.0.2"
+PV = "16.0.4"
 
-RPM_NAME = "llvm-devel-16.0.2-1.1.aarch64.rpm"
-RPM_HASH = "37028f567b5af38e1e9272910b7468c2a192d084746ff1b70490c330fa1b46ecfa78d9276cec859c057cd377e8d01ffe563aae326fc2590f1534edbee08fc994"
+RPM_NAME = "llvm-devel-16.0.4-1.1.aarch64.rpm"
+RPM_HASH = "af85e63a268f1895379621af37d1e09faef852241da54e9da6c155c3a4638cf01df3496706af7b53dc75f3e291cab17ec1c4de3f35fe5bd4b38addb4ba4c4d77"
 
 RPROVIDES:${PN} += "llvm-LTO-devel llvm-devel llvm-devel(aarch-64)"
 RDEPENDS:${PN} += "llvm-gold llvm16-devel"

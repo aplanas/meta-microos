@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.18"
 
-RPM_NAME = "goss-0.3.18-1.2.aarch64.rpm"
-RPM_HASH = "6f3a4f5943ddb93858ac32b4777cfd8bca867d30e1f6351c325f9eca97cc3a5cb99f2d4882f4e840dd6d22d51fe9e0c4c1b53ece7ca17379893c10879a0c26dc"
+RPM_NAME = "goss-0.3.18-1.3.aarch64.rpm"
+RPM_HASH = "8f6abf416c79b367ad9f8a91e935bba4a189acea1d4034d45a4935cd60f7340762c84ae3d8c7a554314418d604a29dbd7c4600ff115f407c7dfd5b57ad87f024"
 
 RPROVIDES:${PN} += "goss goss(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash /usr/bin/env"

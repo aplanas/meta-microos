@@ -2,10 +2,10 @@ SUMMARY = "US and UK English"
 DESCRIPTION = "Support for, and documentation in, English."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65496"
+PV = "2023.208.svn65496"
 
-RPM_NAME = "texlive-collection-langenglish-2023.201.svn65496-56.1.noarch.rpm"
-RPM_HASH = "85360825eb6019f457c8f7e5aacaac0dd5e4927327f7198d7bac181faa88f813c7109eeaa620a7437488ecfacea446bd573089d0d8b13a88e505697682b1ac0d"
+RPM_NAME = "texlive-collection-langenglish-2023.208.svn65496-58.1.noarch.rpm"
+RPM_HASH = "67b3092952c1b69be141cce44da96b801f180eba051ad27c91770bae6d5a426aae62352cacdfaab842b3f23149e806a772b85a8d0f32c25ea32ca06911417f33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langenglish"

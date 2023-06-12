@@ -10,10 +10,10 @@ such as CPU time. Atop only shows the active system-resources and processes, \
 and only shows the deviations since the previous interval."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.8.1"
+PV = "2.9.0"
 
-RPM_NAME = "atop-2.8.1-1.3.aarch64.rpm"
-RPM_HASH = "6a58e26b855f94a97a38d5dba1618e3bd929f1763f29a3292a5bd62bac56ac9c7b86a5f29001a75fe9cf45d559ec733a6772d11b74ba962d7c0e0348547f8f57"
+RPM_NAME = "atop-2.9.0-1.1.aarch64.rpm"
+RPM_HASH = "2398e3ab320b6c58d0847544420fa13438141ee9e4253beafb1e13db0604fca0c039bf494f7f64ad1b02f6733313d7ea03fcf0f07285c1c969ff440d04540c20"
 
 RPROVIDES:${PN} += "application() application(atop.desktop) atop atop(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libncursesw.so.6()(64bit) libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) libtinfo.so.6()(64bit) libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) libz.so.1()(64bit) systemd"

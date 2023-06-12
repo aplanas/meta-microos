@@ -8,10 +8,10 @@ much quicker test runs during development while simulating the real runs as \
 much as possible."
 LICENSE = "MIT"
 
-PV = "1.3.1"
+PV = "1.4.1"
 
-RPM_NAME = "python39-pytest-console-scripts-1.3.1-1.6.noarch.rpm"
-RPM_HASH = "e46ba1f0122f79365835469d6e65489b4c9f94669de8c43813c39a498b251733ee665e0a78bfee8c704dd9d9317c2a02715d8fb81b0d99725d76d7d6bac19e24"
+RPM_NAME = "python39-pytest-console-scripts-1.4.1-1.1.noarch.rpm"
+RPM_HASH = "ea9af961c8449d8e05660fbd10d7d9b102b6df50754ec2e1cade6862344687f06c2f6ee743b40850432c8235311cfc155a997f39c866369a6bd5d28c6311adbf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(pytest-console-scripts) python39-pytest-console-scripts python3dist(pytest-console-scripts)"

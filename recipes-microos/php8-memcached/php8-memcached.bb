@@ -5,8 +5,8 @@ LICENSE = "PHP-3.01"
 
 PV = "3.2.0"
 
-RPM_NAME = "php8-memcached-3.2.0-4.2.aarch64.rpm"
-RPM_HASH = "92d1e34b27e89601866fdf4c612b8a0a7fdf4e6856a549c16011fef1e2ed33a635c9508f1221201b3cd6a52c27d507fa083e92f51ac2efbb2fe1ef2bdd4baa77"
+RPM_NAME = "php8-memcached-3.2.0-4.3.aarch64.rpm"
+RPM_HASH = "66f697269468e8411be991594801b72d329c80e1774eaba96ebbe7c1edfdc7b8d28475faa92bdc4fcbef563f2fae286afdde6376d08f4a82997d8296f702a966"
 
 RPROVIDES:${PN} += "config(php8-memcached) php8-memcached php8-memcached(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libfastlz.so.1()(64bit) libmemcached.so.11()(64bit) libsasl2.so.3()(64bit) libz.so.1()(64bit) php(api) php(zend-abi)"

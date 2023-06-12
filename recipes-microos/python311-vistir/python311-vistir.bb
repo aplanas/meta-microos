@@ -3,10 +3,10 @@ DESCRIPTION = "Miscellaneous utilities for dealing with filesystems, paths, proj
 subprocesses, and more."
 LICENSE = "ISC"
 
-PV = "0.7.0"
+PV = "0.8.0"
 
-RPM_NAME = "python311-vistir-0.7.0-1.3.noarch.rpm"
-RPM_HASH = "b1d1094475a6fbe49d19c2fefce6fe6f7304ce729914fa57c5d03f1d50877a38c9faa451ef76743146d536f8e2cdae48618fcc94b3f46acc3c2a27d10528d9ba"
+RPM_NAME = "python311-vistir-0.8.0-1.1.noarch.rpm"
+RPM_HASH = "51a1c49c5412de75f090830cfe2e5f79d30fea00eadfbf4af4dbb099cca356f1936d8a0a860064636487f80e76da9aa06250dd9fe23a08b57041f738c593fc01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(vistir) python311-vistir python3dist(vistir)"

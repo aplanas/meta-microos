@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a thumbnailer to render SVG (scalable vecto
 graphics) data."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "2.56.0"
+PV = "2.56.1"
 
-RPM_NAME = "rsvg-thumbnailer-2.56.0-3.1.noarch.rpm"
-RPM_HASH = "e7ff1464c2f1e3c54e7ae454b4427c0636cc187d53e94735bcb426ecab1621c87e3ac6a08b0e45e4f702f22afc8a6cc57d565c8066b0cc8fbca6659d8631d749"
+RPM_NAME = "rsvg-thumbnailer-2.56.1-1.1.noarch.rpm"
+RPM_HASH = "9df6e7b62d0fa9fec033b5cdb36394c39b19f66e6abdd915267e218d5c55933d9dadfe55ea9959be7f35b7da246968cc7fbd5c0de3d53ce0c120061f9fd6ea6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rsvg-thumbnailer"

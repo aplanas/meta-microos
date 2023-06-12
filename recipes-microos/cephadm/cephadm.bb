@@ -3,10 +3,10 @@ DESCRIPTION = "Utility to bootstrap a Ceph cluster and manage Ceph daemons deplo
 with systemd and podman."
 LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
 
-PV = "16.2.11.65+g8b7e6fc0182"
+PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "cephadm-16.2.11.65+g8b7e6fc0182-1.1.noarch.rpm"
-RPM_HASH = "cda1340d419e9ee637bfffe045fb076967bca2a2b5f9d18467539464e8aaeac574290eaea58a45ba7d0a002044fae195ea1eb52464341085710da97f931ec3d9"
+RPM_NAME = "cephadm-16.2.13.66+g54799ee0666-2.1.noarch.rpm"
+RPM_HASH = "827bccc742bcaf7a6a4de23049b41d29ab17b056e021bc2289687d63c541f99972da06577b9a92f5662d8323dc173c64bc7bfd9add500307d31b03191a1beaa2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cephadm config(cephadm)"

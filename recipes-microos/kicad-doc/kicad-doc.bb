@@ -5,10 +5,10 @@ This is the documentation package for KiCad. It contains documentation \
 and tutorials."
 LICENSE = "CC-BY-SA-3.0 & GPL-3.0-or-later"
 
-PV = "7.0.2"
+PV = "7.0.5"
 
-RPM_NAME = "kicad-doc-7.0.2-1.1.noarch.rpm"
-RPM_HASH = "ce775c45fbe300597c4d1ec3f4b7dfe0c5d25110e0db0265a9efc681f4f2cbf0d0387f0ba4e0455ddef30189fd039caf85d6facb370946280fc8f5b1d6fe9451"
+RPM_NAME = "kicad-doc-7.0.5-1.1.noarch.rpm"
+RPM_HASH = "bd6ea0ca754d6ba10f6f2a8707f6b08cd44371f9fcf74d392b0e7ec4b663f0ea1f50c798e71c2a909e465846130c6c724a927ecec4046f5d35d28f3b49d3e60e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-doc"

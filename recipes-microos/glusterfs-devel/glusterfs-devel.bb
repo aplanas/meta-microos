@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "glusterfs-devel-11.0-1.3.aarch64.rpm"
-RPM_HASH = "eb0709710329af3bc358df5fd1c0269b40ce6dc0d0f755b07c9ea730ca1fd4b5dee21446b045f2f87c133a937f785083313612aaab5e2f8293c10bf62d941420"
+RPM_NAME = "glusterfs-devel-11.0-2.1.aarch64.rpm"
+RPM_HASH = "a95a37d9d92df4229b168583fc15195754ed3c1eae8625c43d474b42cd7ec94b227045bcf6edd1077c7245f836667976ef4eeff0512548e029decf5c3b9b0c0b"
 
 RPROVIDES:${PN} += "glusterfs-devel glusterfs-devel(aarch-64) pkgconfig(glusterfs-api) pkgconfig(libgfchangelog)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config glusterfs libacl-devel libgfapi0 libgfchangelog0 libgfrpc0 libgfxdr0 libglusterfs0 pkgconfig(uuid)"

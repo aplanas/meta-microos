@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "4.2.6+git0.86d7f4c"
 
-RPM_NAME = "postgresql14-orafce-4.2.6+git0.86d7f4c-1.1.aarch64.rpm"
-RPM_HASH = "a2b1a554fdff4c0ac0eb836bc01cee41d143d5ccfde56f2695a106110f7b448676da908ffe87c8b60dc35a4c0b3dc4a1014634b59b954577ba83db3c33b14c1c"
+RPM_NAME = "postgresql14-orafce-4.2.6+git0.86d7f4c-1.2.aarch64.rpm"
+RPM_HASH = "13da87beb4ee005b08c3404c37aed9dfe1b827a6e0d1ab47e0738a126ea6e68ea192b9a49aef78da1ff0ec3237bc330e7ceae5c8974771b61c009bf42c397019"
 
 RPROVIDES:${PN} += "orafce postgresql14-orafce postgresql14-orafce(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) postgresql14-server"

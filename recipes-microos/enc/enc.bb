@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "enc-1.1.1-1.3.aarch64.rpm"
-RPM_HASH = "b7fa0ff4517da7cdb54d887ffd824d46563c7e009462e7ce4cdc86f32c7af702696c5a951892a01efe4b58e81445ccafdf22524c6ddfae175604fce87fa2e808"
+RPM_NAME = "enc-1.1.1-1.4.aarch64.rpm"
+RPM_HASH = "e374c57075c3bad75b99bbb44c43897698c83d969541c1d9ab9f038816cc564bd32260772c30faba0d0195491df52e9a59664ad9a1bd3e64ea158b933ec45a0e"
 
 RPROVIDES:${PN} += "enc enc(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

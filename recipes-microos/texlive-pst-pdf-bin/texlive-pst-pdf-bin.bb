@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn7838"
 
-RPM_NAME = "texlive-pst-pdf-bin-2023.20230311.svn7838-89.1.aarch64.rpm"
-RPM_HASH = "14c8db0d4cde09ab9dd860981407765b058aa79693b46c865774bc588db8b85b179426181a0212ba8e0ce29445d5b6d5115775a6242d2279bc80a8f744fc997e"
+RPM_NAME = "texlive-pst-pdf-bin-2023.20230311.svn7838-91.1.aarch64.rpm"
+RPM_HASH = "881115e1c57dd40d14e943ab8dff39ea8219c49618443372690aefe99d6d5e71a0ef98e533d2b68aea55692c0796c41d732f642a52d045d52033a43ddd2f16a4"
 
 RPROVIDES:${PN} += "texlive-pst-pdf-bin texlive-pst-pdf-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-pst-pdf"

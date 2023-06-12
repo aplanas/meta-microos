@@ -10,10 +10,10 @@ provided as well as the framework to add new color models and data \
 types."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "0.1.102"
+PV = "0.1.106"
 
-RPM_NAME = "libbabl-0_1-0-0.1.102-2.3.aarch64.rpm"
-RPM_HASH = "a1bb5be82270e5e28f162f7f3770bf0216f03d97a0ce4a20baa296461d0f97b4e43c176db5cae9c00abb5ac72659231259f588c93f993bc0ba06efebd8c9a51e"
+RPM_NAME = "libbabl-0_1-0-0.1.106-1.1.aarch64.rpm"
+RPM_HASH = "5a0dd869117f2bd41942eb9ba7f5aa1659c737b3d2ad739f6607d5a34bcd1c944a70a9a8617a2754564182257033751940050c7e002b842f341f376e5c5019f2"
 
 RPROVIDES:${PN} += "libbabl-0.1.so.0()(64bit) libbabl-0.1.so.0(V0_1_0)(64bit) libbabl-0_1-0 libbabl-0_1-0(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) liblcms2.so.2()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libm.so.6(GLIBC_2.29)(64bit)"

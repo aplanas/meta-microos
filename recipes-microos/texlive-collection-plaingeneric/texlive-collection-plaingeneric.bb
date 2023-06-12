@@ -3,10 +3,10 @@ DESCRIPTION = "Add-on packages and macros that work with plain TeX, often \
 LaTeX, and occasionally other formats."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65622"
+PV = "2023.208.svn65622"
 
-RPM_NAME = "texlive-collection-plaingeneric-2023.201.svn65622-56.1.noarch.rpm"
-RPM_HASH = "1bd42b8dae02682651a1260832699eef4fe1bd8019b6d50b169a909a009f68a1ce4a240410d6a73a7bb80939f05f64d442f0191a62655c147ea63061457c3fb4"
+RPM_NAME = "texlive-collection-plaingeneric-2023.208.svn65622-58.1.noarch.rpm"
+RPM_HASH = "096fed836670ed7c855898ab1da128855527696b39ca3ef3b1e82c2d59580658441587ccbb6875815a01ab22eed4aa32e652f992a0eb1541699f2c5fee6f0909"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-plaingeneric"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "5.1.16"
 
-RPM_NAME = "golang-github-linuxdeepin-deepin-pw-check-5.1.16-1.4.noarch.rpm"
-RPM_HASH = "43adde2216aa5cc9aedd3cbc56b226c161399c4fb062be42f6960cb37f7807292db60253a93681c1e2c983e9bc589938713e193fdddb28ce5325ffe7275687e4"
+RPM_NAME = "golang-github-linuxdeepin-deepin-pw-check-5.1.16-1.5.noarch.rpm"
+RPM_HASH = "1c63f46f0158573564d75a00fb6dab26eb502e8009542e78069782c95ac1192515d747321850dfc0a7a4754f599953c16eebce9d523e6466224a3b46268566e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang-github-linuxdeepin-deepin-pw-check"

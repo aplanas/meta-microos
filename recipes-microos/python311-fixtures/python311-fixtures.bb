@@ -6,10 +6,10 @@ provided that makes using fixtures that meet the Fixtures contract in unittest \
 compatible test cases easy and straight forward."
 LICENSE = "Apache-2.0 | BSD-3-Clause"
 
-PV = "4.0.1"
+PV = "4.1.0"
 
-RPM_NAME = "python311-fixtures-4.0.1-2.1.noarch.rpm"
-RPM_HASH = "8aa9367fe201b9c68eb25eacd70b7142f8639c358da103ce7e9edc4d92068819dcbd40e2780ed5e9227dd0dbd9310c36deb551a14af76ed99f8519deb662565b"
+RPM_NAME = "python311-fixtures-4.1.0-1.1.noarch.rpm"
+RPM_HASH = "ef682395d3bbade158bce3a7f3782cd95008098801ec57867be8a8790b4b5fe97763c35757470e0828e1023a8af22462d72de0cf61fc4755ea2938f41cf1c338"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(fixtures) python311-fixtures python3dist(fixtures)"

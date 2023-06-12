@@ -2,10 +2,10 @@ SUMMARY = "Catalan documentation and tutorials for KiCad"
 DESCRIPTION = "This package contains Catalan documentation and tutorials for KiCad"
 LICENSE = "CC-BY-SA-3.0 & GPL-3.0-or-later"
 
-PV = "7.0.2"
+PV = "7.0.5"
 
-RPM_NAME = "kicad-doc-ca-7.0.2-1.1.noarch.rpm"
-RPM_HASH = "e7080c337d01a7e4d49cfd6d4406d64480b5d6e49463f3ba6ab1835af4cfb9f7c48baa20d22b7d227f03825066de05059fafa1f614e1e5528faa4b3df1f50314"
+RPM_NAME = "kicad-doc-ca-7.0.5-1.1.noarch.rpm"
+RPM_HASH = "f63fe7b3690bc449101a72f57a4a434fb3915f0226cb25d0514b9b60266338028fbc39e5c3be9fb4b55e04a2b1c1a8311ba0baa03ca67be3689897bcf0aca65f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-doc-ca locale(kicad-doc:ca)"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "libddcutil-devel-1.4.1-1.2.aarch64.rpm"
-RPM_HASH = "d8ce71a19a14221bf5969bb797f77f67f3a0c15e2d4d07ea8663a0a578a1ee31ba983e19e82d28ed7f0d4261867c74d09d699d5040e17fe59c4b6c870be71242"
+RPM_NAME = "libddcutil-devel-1.4.1-2.1.aarch64.rpm"
+RPM_HASH = "15eeb2bd657739a1c53d741420ea81c34aae74f38f4f8afc943a08cda9ed158d7ba748309b0a47cf326c490bcfdb16fdedf98d990be7973e9f93232a41b8f21b"
 
 RPROVIDES:${PN} += "libddcutil-devel libddcutil-devel(aarch-64) pkgconfig(ddcutil)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libddcutil4"

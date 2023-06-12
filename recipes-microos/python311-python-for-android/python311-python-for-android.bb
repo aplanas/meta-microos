@@ -2,13 +2,13 @@ SUMMARY = "Android APK packager for Python scripts and apps"
 DESCRIPTION = "Android APK packager for Python scripts and apps"
 LICENSE = "MIT"
 
-PV = "2022.9.4"
+PV = "2023.2.10"
 
-RPM_NAME = "python311-python-for-android-2022.9.4-2.4.noarch.rpm"
-RPM_HASH = "41cc995c0f6cffb6077b08c564fb20a4969493a1ad3b11f5adf60c68fc9eeb9d5a0dac684ac5c741fe08a4c9a0c3003281b11e6db2bd991e038ee63077f08bfd"
+RPM_NAME = "python311-python-for-android-2023.2.10-1.1.noarch.rpm"
+RPM_HASH = "22a4663c59e13bfcf2abec72664eab2dd44672ae41d4874650dcbb333e77a6e7e5e0ae8cf6f3fca04ed32ca8fa8e2fc011c4e72f200df97283474427250d6bf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(python-for-android) python311-python-for-android python3dist(python-for-android)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/bash /usr/bin/python3.11 python(abi) python311-Jinja2 python311-appdirs python311-colorama python311-pep517 python311-toml update-alternatives"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/bash /usr/bin/python3.11 python(abi) python311-Jinja2 python311-appdirs python311-build python311-colorama python311-toml update-alternatives"
 
 inherit rpm

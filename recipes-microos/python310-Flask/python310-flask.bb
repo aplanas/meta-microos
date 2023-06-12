@@ -3,10 +3,10 @@ DESCRIPTION = "Flask is a microframework for Python based on Werkzeug, Jinja 2 a
 intentions. And before you ask: It's BSD licensed!"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.2"
+PV = "2.2.5"
 
-RPM_NAME = "python310-Flask-2.2.2-2.1.noarch.rpm"
-RPM_HASH = "f8feff5c2ec139412734340be43d2001624aed692a036ea3585ec13a508db1a19b9fbcc312781ad40113ed702142d6cc6ad74dbf92c0ffc78c44f6691019a28e"
+RPM_NAME = "python310-Flask-2.2.5-1.1.noarch.rpm"
+RPM_HASH = "bd8ca32c0cd61b58e9e94940bad4bcf93c64afd1204cc519ac3835104fac61fbc429fbd3096c60d90473c50fe9cb5e6341e37c9caa5b8738f5bb85551c918716"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask python3.10dist(flask) python310-Flask python3dist(flask)"

@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The util-ajax module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.48"
+PV = "9.4.51"
 
-RPM_NAME = "jetty-util-ajax-9.4.48-3.1.noarch.rpm"
-RPM_HASH = "0bca1f04df1e7e559d7f24d0d1e475b593b742b343ba8c6524d037d7dedf234112e4d1daea4de5caac17aead24c1ed236de18d89d7f181a3d1679d2e9caa261f"
+RPM_NAME = "jetty-util-ajax-9.4.51-1.1.noarch.rpm"
+RPM_HASH = "55c02bf8ee75805f0fdf3fd22ec746afcdddebe0c52ac6385439194ac9834df03a53800216a6d2d677683f1711e214483b2f495fe46618932cc4a860edff79f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-util-ajax mvn(org.eclipse.jetty:jetty-util-ajax) mvn(org.eclipse.jetty:jetty-util-ajax:pom:) osgi(org.eclipse.jetty.util.ajax)"

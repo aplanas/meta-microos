@@ -10,10 +10,10 @@ OSV-Scanner provides an officially supported frontend to the OSV database that c
 The above all results in fewer, more actionable vulnerability notifications, which reduces the time needed to resolve them."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.2"
+PV = "1.3.3"
 
-RPM_NAME = "osv-scanner-1.3.2-1.1.aarch64.rpm"
-RPM_HASH = "1aa536ca1c95b5dff97ce785deb114b72d51aa191fb45ffad1d145cf81f5f672e6eb4160c0de9857b5854187caaa9187ab251a8111edd9178fdb6bf0b2443749"
+RPM_NAME = "osv-scanner-1.3.3-1.1.aarch64.rpm"
+RPM_HASH = "ad275a6cfc2a4107de64ae2ca762a9b92806c24a86cb7c4e58a164c9e4253d4ed2b87bc01466ce78f048e8206194a8a28a1f7e5aa83a33bd5c78bb0c21ab9a27"
 
 RPROVIDES:${PN} += "osv-scanner osv-scanner(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

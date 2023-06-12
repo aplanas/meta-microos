@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "4.3.0"
 
-RPM_NAME = "R-stats4-4.3.0-45.1.aarch64.rpm"
-RPM_HASH = "5f64537c02833e0aba413148a3e4643a41595d63f6c1eee5957c7f84caf5a78f402aa9155ca5186a8ff3152a02663d33bfe8214f5a9fbc3462cfee52adbcf2ca"
+RPM_NAME = "R-stats4-4.3.0-45.2.aarch64.rpm"
+RPM_HASH = "bc21138959e61f5a5db776cca8f05a7a351481a9d1014fada2693579def10ba1ee9ad47ff0ef29d8d30accc9417af1f794e93532791768197e09eccf691b3a33"
 
 RPROVIDES:${PN} += "R-stats4 R-stats4(aarch-64)"
 RDEPENDS:${PN} += "R-base"

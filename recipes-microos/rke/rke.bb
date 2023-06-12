@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.5"
 
-RPM_NAME = "rke-1.4.5-1.1.aarch64.rpm"
-RPM_HASH = "b193b0620fbebe417508082a6b3bcfa6379b54b124b50c27228f73af107a6e5796e42e29a53f4b17ae4b34e668ea3de82b77dd059466f598ed720e8e7981ac32"
+RPM_NAME = "rke-1.4.5-1.2.aarch64.rpm"
+RPM_HASH = "c1fa9a0c8379fc878cf35b53d3c3371b2cb49adb4dee2ce7d1c61f1b69fc2d01d328e29ce2b6e5c677f41b4fe33609da6ecec9004aef31d866e7006fafd2db4c"
 
 RPROVIDES:${PN} += "rke rke(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

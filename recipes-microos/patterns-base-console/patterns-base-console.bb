@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20200505"
 
-RPM_NAME = "patterns-base-console-20200505-40.1.aarch64.rpm"
-RPM_HASH = "68843a6f3f80d6fbdf7c75bd7a94804d9c84b897060c7a8152c2b93f48378c58f69d41357262e1fed16c8d9714d22b270d5345b65ee3920613089ae9e8d2c868"
+RPM_NAME = "patterns-base-console-20200505-41.1.aarch64.rpm"
+RPM_HASH = "ffcfef42e1bc71d2f1a4848adf20252a7e9280326ab3b3a57335ac874b223ab2cde9a07b67712ff55d7b8d1971f472fad7d55babecd0e557baf5e8ab59b2c66f"
 
 RPROVIDES:${PN} += "pattern() pattern-category() pattern-icon() pattern-order() pattern-visible() patterns-base-console patterns-base-console(aarch-64) patterns-openSUSE-console"
 RDEPENDS:${PN} += "pattern()"

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "3.3.0"
 
-RPM_NAME = "python311-cogapp-3.3.0-1.4.noarch.rpm"
-RPM_HASH = "5581ce1ec2a55b009a06dc946ea936182e0303de0cbeca6d28cef98c5b09a2a18cf82486584f3be3c9ac5764202503e9b44b5452a5dee193b260c6c8159fb276"
+RPM_NAME = "python311-cogapp-3.3.0-2.1.noarch.rpm"
+RPM_HASH = "5d5777b599f86e5a3b883ac7043aaa9b7eb9fa540cf674c895633eae6d53df3b7bee863cf6a0226683c6137316ab037054b87024331da5da34e67dc1397f0711"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(cogapp) python311-cogapp python3dist(cogapp)"

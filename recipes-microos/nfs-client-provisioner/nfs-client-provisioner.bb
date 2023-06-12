@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.0+git20210204.23ecb30"
 
-RPM_NAME = "nfs-client-provisioner-4.0.0+git20210204.23ecb30-1.10.aarch64.rpm"
-RPM_HASH = "a1af473a2525efbe74247c73f7ee29c0d1b7632cb177c8e96597c88e2d6e83bc8278ba43b0eec7ba9ded5594f956373130198f6f8bc09a9eb11703f519a10c84"
+RPM_NAME = "nfs-client-provisioner-4.0.0+git20210204.23ecb30-1.11.aarch64.rpm"
+RPM_HASH = "55c932582edd7a42d2d173b9dbf2f07ec72bfc89de33b39adaf16769ff76741f4bb84ac0bfc252057a714a59105d6f9db7af40d6ebbf72bbe3a7c6eca0f76bc5"
 
 RPROVIDES:${PN} += "nfs-client-provisioner nfs-client-provisioner(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

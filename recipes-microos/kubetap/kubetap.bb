@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.4"
 
-RPM_NAME = "kubetap-0.1.4-1.9.aarch64.rpm"
-RPM_HASH = "28c8dbf17f1630a19e31bd7a6e546241ba1581bdb60119849ea2c59122f358f58cd0ac7e95876c4266f20ea5cd2ee07dd4f09dc11fcd3cb023aa0b9ddf57e638"
+RPM_NAME = "kubetap-0.1.4-1.10.aarch64.rpm"
+RPM_HASH = "00f938e4e417c7ff8f023c9c20480b1bad9e544ef9309af8f286c004e0e37bf7e70e932097eed6d1e6419a594bf06f7d143c2f4901f0016d66c9561dadd06f46"
 
 RPROVIDES:${PN} += "kubetap kubetap(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

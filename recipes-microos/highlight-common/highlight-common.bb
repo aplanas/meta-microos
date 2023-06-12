@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides some architecture-independent files for hig
 configuration and themes."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.5"
+PV = "4.6"
 
-RPM_NAME = "highlight-common-4.5-1.3.noarch.rpm"
-RPM_HASH = "07d46dc433c3044c509fa7f1b1e34ea99fc0b3c6efc6d954ab654c7e57b37ada0cbb1d8f9493b302f55976c2e18b88436849e26fe5c85ed2f7ba0a6eaf3803f5"
+RPM_NAME = "highlight-common-4.6-1.1.noarch.rpm"
+RPM_HASH = "19293f9f1a7ca68356990ebc7c1f1b6df226d1522b823518c56e64429ca3df43bc47aafa4037a0b8e506d6189262c4323908d8d07d576c5f2a233b0c59a74024"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(highlight-common) highlight-common"

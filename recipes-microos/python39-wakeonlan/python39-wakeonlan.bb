@@ -1,14 +1,14 @@
 SUMMARY = "A small python module for wake on lan"
 DESCRIPTION = "A small python module for wake on lan."
-LICENSE = "WTFPL"
+LICENSE = "MIT"
 
-PV = "2.1.0"
+PV = "3.0.0"
 
-RPM_NAME = "python39-wakeonlan-2.1.0-1.11.noarch.rpm"
-RPM_HASH = "53eba1d176a8988a41da3ee062d564e24e7585bfc3fc31cca0dc0f8858f56d0f6ed6c243a74e32b3a8369acc4cae3334cb2a1ece493cb47e99ee8f545f04bfd2"
+RPM_NAME = "python39-wakeonlan-3.0.0-1.1.noarch.rpm"
+RPM_HASH = "0c6a0a5a9c3383766ea6959fedbc052e668152448c42d68e5790cbed2dc4ed63b8c491ba4c798bbaee05bd7b2093a2cd71b84e90945b2140a0a3cda4b6ac6162"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(wakeonlan) python39-wakeonlan python3dist(wakeonlan)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/env /usr/bin/python3.9 python(abi) update-alternatives"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) update-alternatives"
 
 inherit rpm

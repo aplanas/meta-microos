@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.0"
 
-RPM_NAME = "ffmpeg-6-private-devel-6.0-2.1.aarch64.rpm"
-RPM_HASH = "9ce2f96532eb3bb8888c5ba072c10dae31c75a9d62cfcb55fc2db7f4465f3a5c715a1b584b93a57abece33394b149bbdde7ec81d1590a01a838e7bc9abc6929e"
+RPM_NAME = "ffmpeg-6-private-devel-6.0-2.2.aarch64.rpm"
+RPM_HASH = "f2062cc4fde9ebf96ed2f2e0a7db5e6a5bab158390afb56f69e6ddba3315c2da7e5a45b0f2d19f5740d2ee3785fae24b7695372f77b23d022000c211411747f3"
 
 RPROVIDES:${PN} += "ffmpeg-6-private-devel ffmpeg-6-private-devel(aarch-64) ffmpeg-private-devel"
 RDEPENDS:${PN} += "ffmpeg-6-libavcodec-devel ffmpeg-6-libavformat-devel ffmpeg-6-libavutil-devel"

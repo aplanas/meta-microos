@@ -2,18 +2,18 @@ SUMMARY = "The Linux Kernel Sources"
 DESCRIPTION = "Linux kernel sources with many fixes and improvements. \
  \
  \
-Source Timestamp: 2023-05-03 05:18:39 +0000 \
-GIT Revision: 8a31779f5544166bb801a03085764c84a737a62d \
+Source Timestamp: 2023-05-29 06:22:29 +0000 \
+GIT Revision: 2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.1"
+PV = "6.3.4"
 
-RPM_NAME = "kernel-source-6.3.1-1.2.noarch.rpm"
-RPM_HASH = "ffc52200607e44943a5727601f729cf11747e6009f0b7b11d5aaf98513021288ff5cefd5d255be814c85187535f37ac8223aa38dc8ecd7476e2e9008bab023f4"
+RPM_NAME = "kernel-source-6.3.4-1.1.noarch.rpm"
+RPM_HASH = "7cb788c47906fd9fc9606a40b2a0c38647bb0682aa281c4d0ab344ae7221494aefa810ca3b659832c9f547dfa41bbe09450c16f3043b7d791b0d30ab5dd96f48"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "kernel-source kernel-source-srchash-8a31779f5544166bb801a03085764c84a737a62d linux multiversion(kernel)"
+RPROVIDES:${PN} += "kernel-source kernel-source-srchash-2c66b1f470678d30f7dc560d1f3770e6e13b5e65 linux multiversion(kernel)"
 RDEPENDS:${PN} += "/bin/sh coreutils kernel-devel sed"
 
 inherit rpm

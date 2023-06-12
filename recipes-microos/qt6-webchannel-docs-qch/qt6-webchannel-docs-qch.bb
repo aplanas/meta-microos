@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-webchannel in QCH format"
 DESCRIPTION = "This package contains documentation for qt6-webchannel in QCH format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-webchannel-docs-qch-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "9c2e5bad2c80e9bcfa24a5aa81b27e61488a23f533de9445fd779cc308764f847168635e262189718b029dc0137345ae6a5bdac47a93be459cb9a4a0a886aaf1"
+RPM_NAME = "qt6-webchannel-docs-qch-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "c371862c63e2543982f140bd84a3294f1ead311350090bcf6ace1043babe60a2bc2b74c52c8c442cf5f87fb0687050a890f954321e024152cd823c56c8b63f15"
 
 RPROVIDES:${PN} += "qt6-webchannel-docs-qch qt6-webchannel-docs-qch(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Quick3DRuntimeRend
 have any ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3druntimerender-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "c8ce41a4be0710b5d81ec7c974d6bfd7d4b0fed61d74df5cdebb94d2b8694a3b75db96a20d47d2e4d20d189be02c88fdc695e229826393f4779ae062fd57d77c"
+RPM_NAME = "qt6-quick3druntimerender-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "d1c95fbcb0f83fd579f864e098df16a982f4e13d202e1d404eb6c09231db8dd69ad782f925dcae7f4149e4d0b055e49aaca798a9cf938bd44a82a19e94417f58"
 
 RPROVIDES:${PN} += "qt6-quick3druntimerender-private-devel qt6-quick3druntimerender-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6Quick3DRuntimeRender) qt6-quick-private-devel qt6-quick3dassetimport-private-devel qt6-quick3dutils-private-devel qt6-shadertools-private-devel"

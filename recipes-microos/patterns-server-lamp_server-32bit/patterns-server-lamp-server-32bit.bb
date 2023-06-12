@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20210330"
 
-RPM_NAME = "patterns-server-lamp_server-32bit-20210330-4.1.aarch64.rpm"
-RPM_HASH = "68855133db6d217c3f97da7cd80b570a65ebbfa7fa18a671ca36a73d12e18e4bb4d40b583d05d602a60da9400acbae50c9b59c88556b646fdd3ecab964efcf50"
+RPM_NAME = "patterns-server-lamp_server-32bit-20210330-5.1.aarch64.rpm"
+RPM_HASH = "56f50ebee22e570fc0a8300739418925094f50c61a44cac4450a0db0c28c0d8f34d734bd54cf92ab0ee37c4ebd023c11bc81009ad7218df108d6a32a54b5e3a7"
 
 RPROVIDES:${PN} += "pattern() patterns-server-lamp_server-32bit patterns-server-lamp_server-32bit(aarch-64)"
 RDEPENDS:${PN} += ""

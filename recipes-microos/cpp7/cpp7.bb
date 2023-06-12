@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cpp7-7.5.0+r278197-12.5.aarch64.rpm"
-RPM_HASH = "dc5fdc7c86e495b3f21e661d55879698df13e72978f6a1a3d9a04f2a1d01c40785bb1db635102e1ca47c320f0dfb2ec13c14a79661e6a4fc35b34fca08101ad0"
+RPM_NAME = "cpp7-7.5.0+r278197-14.3.aarch64.rpm"
+RPM_HASH = "d2f736721b2af8b0dacd298722f3edb5989197674435d777df74e2addfb5b69fe8db1bfb0ad3a05238b3c1952afe738501dc6983d4444db3460b775ed8d3faed"
 
 RPROVIDES:${PN} += "cpp7 cpp7(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) libgmp.so.10()(64bit) libisl.so.23()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libmpc.so.3()(64bit) libmpfr.so.6()(64bit) libz.so.1()(64bit)"

@@ -6,10 +6,10 @@ http://en.opensuse.org/openSUSE:Build_Service_Tutorial \
 for a general introduction."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.2"
+PV = "1.1.4"
 
-RPM_NAME = "osc-1.1.2-1.1.noarch.rpm"
-RPM_HASH = "611abb79724efdfdab03a34ebc3328cd4d605e0f9bade77e4bfc933d0d54228056971000d65d90145b047a289b35c94a1a00f9ee0e66e62ced1acc0cdbc8da2b"
+RPM_NAME = "osc-1.1.4-1.1.noarch.rpm"
+RPM_HASH = "9164296d40ffd779cc30c756614089db296f4dd516e46aa6b6ef2e8e936932471e7fa8f2aade712dfc0c07fe209627343ba952605d4847b9529b586ed5c16d0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "osc python3-osc python3.10dist(osc) python3dist(osc) rpm_macro(osc_plugin_dir)"

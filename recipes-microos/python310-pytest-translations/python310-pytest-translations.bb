@@ -7,10 +7,10 @@ Test check for: \
 -  Fuzzy translations"
 LICENSE = "Apache-2.0"
 
-PV = "3.0.0"
+PV = "4.0.1"
 
-RPM_NAME = "python310-pytest-translations-3.0.0-1.10.noarch.rpm"
-RPM_HASH = "52b55ad48e6de48d69213531a9be37d5b30ad11c2d4500dce895ffbde51a2c7685ebcf0ac764176f58607decbfe67411df2d77cdce26aa3ccec15e57577cdc3d"
+RPM_NAME = "python310-pytest-translations-4.0.1-1.1.noarch.rpm"
+RPM_HASH = "107ff4e847f91210f6f8d50bd7c12a9857e358a8facf03aaadbdc70e1007e8c18cdbe7d13d46bd79381c644f5fc9f5573412a320b59e7f93dff9131c99eff744"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-translations python3.10dist(pytest-translations) python310-pytest-translations python3dist(pytest-translations)"

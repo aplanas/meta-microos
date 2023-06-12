@@ -3,10 +3,10 @@ DESCRIPTION = "KItemModels provides a set of item models extending the Qt model-
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.105.0"
+PV = "5.106.0"
 
-RPM_NAME = "kitemmodels-devel-5.105.0-1.1.aarch64.rpm"
-RPM_HASH = "7a71e76fcc0b22c681353d3a892ae6641e23ca585fd85ce28575430585ea6ff08b0175dd454d0d7089990e4663b4a43ff4944378803ae75f82184ff961b30ed8"
+RPM_NAME = "kitemmodels-devel-5.106.0-1.1.aarch64.rpm"
+RPM_HASH = "d7e84ff47ef2020319f83d5d19cdd96d3591a00ac0be8f392b89d307cbddc5433c59915b78937cfcfa02ec01a6d6f91d68c177d77dec297d262f06441ac10432"
 
 RPROVIDES:${PN} += "cmake(KF5ItemModels) kitemmodels-devel kitemmodels-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt5Core) extra-cmake-modules libKF5ItemModels5"

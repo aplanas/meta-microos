@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "42.1"
 
-RPM_NAME = "mate-panel-branding-openSUSE-42.1-5.3.noarch.rpm"
-RPM_HASH = "b8536cbc8a8198906006f6aded6bfde8d2aeae843ac2f1159aabb52251598f2ceb8ea96aeed803976562af1a1282e52025fe08b727df5339e6d8dd44e4c1c92e"
+RPM_NAME = "mate-panel-branding-openSUSE-42.1-5.5.noarch.rpm"
+RPM_HASH = "e6e34caff9a2120433e6e1829f701d5b3c0cd4c973bfc56faefa5032def5ea7549b24173a076899efef550efa3d4b6bd2939d65cf68a37e94ce04b4b431783ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-panel-branding mate-panel-branding-openSUSE"

@@ -3,12 +3,12 @@ DESCRIPTION = "Server side daemon and driver required to manage the virtualizati
 capabilities of LXC"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.3.0"
+PV = "9.4.0"
 
-RPM_NAME = "libvirt-daemon-lxc-9.3.0-1.1.aarch64.rpm"
-RPM_HASH = "147f69ec66ac6d389b28d4d6a412153d43d04bd6b79d78bfe86c0ce6d67f05ee7389b5b5dc4038e39f448cb57a1f50264d3770c9b7b0a3dbddeea9714afeec60"
+RPM_NAME = "libvirt-daemon-lxc-9.4.0-1.1.aarch64.rpm"
+RPM_HASH = "9ff7e74da87782338169457f1fdf33e73b99bfb1015a389c5f74c15439be1ab6a3e6c5079e32c9aae854e3ab23a31e053635a0a5dd7dacfedbf2866cf555fbf8"
 
 RPROVIDES:${PN} += "libvirt-daemon-lxc libvirt-daemon-lxc(aarch-64)"
-RDEPENDS:${PN} += "libvirt-daemon-common libvirt-daemon-driver-interface libvirt-daemon-driver-lxc libvirt-daemon-driver-network libvirt-daemon-driver-nodedev libvirt-daemon-driver-nwfilter libvirt-daemon-driver-secret libvirt-daemon-driver-storage libvirt-daemon-log libvirt-daemon-proxy"
+RDEPENDS:${PN} += "libvirt-daemon-driver-interface libvirt-daemon-driver-lxc libvirt-daemon-driver-network libvirt-daemon-driver-nodedev libvirt-daemon-driver-nwfilter libvirt-daemon-driver-secret libvirt-daemon-driver-storage libvirt-daemon-log libvirt-daemon-proxy"
 
 inherit rpm

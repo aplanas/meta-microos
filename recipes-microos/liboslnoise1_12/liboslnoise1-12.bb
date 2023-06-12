@@ -6,10 +6,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.10.0"
 
-RPM_NAME = "liboslnoise1_12-1.12.10.0-1.2.aarch64.rpm"
-RPM_HASH = "acb84d50d9e0a796688db37d4b2363796579dfd1c58684958295bb5b9adf14446d3af000dce70c1983ea4026ea604dfe6e7834824b7423d9f1ae6dede88e797b"
+RPM_NAME = "liboslnoise1_12-1.12.10.0-2.1.aarch64.rpm"
+RPM_HASH = "a71e39c3d9a355e4f2acc348cb2478915ff3cc280f408d18199ff1e9d832ed8aa9203a5ba16f42a078d3ea92b704d16a3c2416be8b4f1d4ad8f592f97a34f9db"
 
 RPROVIDES:${PN} += "liboslnoise.so.1.12()(64bit) liboslnoise1_12 liboslnoise1_12(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.32)(64bit)"
 
 inherit rpm

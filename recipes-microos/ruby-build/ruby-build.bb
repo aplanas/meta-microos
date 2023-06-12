@@ -2,10 +2,10 @@ SUMMARY = "Compile and install Ruby"
 DESCRIPTION = "ruby-build provides a simple way to compile and install different versions of Ruby on UNIX-like systems."
 LICENSE = "MIT"
 
-PV = "20230428"
+PV = "20230512"
 
-RPM_NAME = "ruby-build-20230428-1.1.noarch.rpm"
-RPM_HASH = "6c30a5c962b6bf8b128c7ee1de66fa5a3fb05281240565fb7b61270c614be0036cfdb5bba8fe15b7163ca2c7f42ffd89afcc8704c8e564ce3506d0a7c2d42383"
+RPM_NAME = "ruby-build-20230512-1.1.noarch.rpm"
+RPM_HASH = "5d7825ee8b442234a5fcf67ae1a3a658cd1c842c2f22a124b5889a2387c4fd32659394948aa4d05c840a6f71fb20f6b92b5b16ed11828a9f2d1f22f08d22e69b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-build"

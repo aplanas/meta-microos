@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6PdfWidgets that do
 ABI or API guarantees."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-pdfwidgets-private-devel-6.5.0-1.2.aarch64.rpm"
-RPM_HASH = "aff6a5939d662e552718352a1f004d5c59400205e9a451281da637a2b724b7bb0ca1a8aaa5de11fe09fb4ef984578e6f834db6af9a12351596932582b0434993"
+RPM_NAME = "qt6-pdfwidgets-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "add8afb0ef277196f371f612d54c1796ca15162c368a08a5ffb38431176a62116b97473185424472e8e08f95efd55046b841667a01f8c5ef86d8e9f0cb28bbf7"
 
 RPROVIDES:${PN} += "qt6-pdfwidgets-private-devel qt6-pdfwidgets-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6PdfWidgets)"

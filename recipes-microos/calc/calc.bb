@@ -5,12 +5,12 @@ Calc comes with a rich set of builtin mathematical and programmatic \
 functions."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.14.1.5"
+PV = "2.14.1.6"
 
-RPM_NAME = "calc-2.14.1.5-1.3.aarch64.rpm"
-RPM_HASH = "fa280666adfe0e8ffc31b05cb6646eec2cc898d4eba332d0cbe226f4376d9df9e4ece30cff722e1f3de327248ebdd5188c25cb5271ff71104f35b2f8addffca7"
+RPM_NAME = "calc-2.14.1.6-1.1.aarch64.rpm"
+RPM_HASH = "313ee6503f98934277bd59f5773c1d5f12de578e11549d323aa9d7483f1b683c8941a93ef01a49684459ce6f907f6ad55b7c8d0ca322ba3f4490ceabf1e28061"
 
 RPROVIDES:${PN} += "calc calc(aarch-64)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) less libc.so.6(GLIBC_2.34)(64bit) libcalc.so.2.14.1.5()(64bit) libcalc2_14_1_5 libhistory.so.8()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) less libc.so.6(GLIBC_2.34)(64bit) libcalc.so.2.14.1.6()(64bit) libcalc2_14_1_6 libhistory.so.8()(64bit)"
 
 inherit rpm

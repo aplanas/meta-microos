@@ -2,10 +2,10 @@ SUMMARY = "Tools to work with Tidelift"
 DESCRIPTION = "jaraco.tidelift Tools for Tidelift"
 LICENSE = "MIT"
 
-PV = "1.5.0"
+PV = "1.5.1"
 
-RPM_NAME = "python310-jaraco.tidelift-1.5.0-4.6.noarch.rpm"
-RPM_HASH = "de3ceab5028bb83f6763e5d540e61d3ec8ea2a259627b2e00f399d5f521564b0e62df46aaaa36f6915fe04e967bd833808a13fc8be2a2088c00b0207452bd13a"
+RPM_NAME = "python310-jaraco.tidelift-1.5.1-1.1.noarch.rpm"
+RPM_HASH = "13d57a1f21f9a54557a96f2fe896fcb4adf7ae3e6cab01da7601947b7a46bd1733dac33ad805bfe3f4ef260ff9e51bbcbbbaa4f2e9ad0dc6a733c49e77d14ced"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jaraco.tidelift python3.10dist(jaraco.tidelift) python310-jaraco.tidelift python3dist(jaraco.tidelift)"

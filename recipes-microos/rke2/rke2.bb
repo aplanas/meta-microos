@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.25.4+rke2r1"
 
-RPM_NAME = "rke2-1.25.4+rke2r1-1.3.aarch64.rpm"
-RPM_HASH = "a3bc70ed389ad4cfa1a15e06ec3b5953a33ce508ac2c1fc154e951f7d82f6397d23e7a86c5a1dd44dc54a7441a05acef7e1a984d482f561f72ccf8be078aaea1"
+RPM_NAME = "rke2-1.25.4+rke2r1-1.4.aarch64.rpm"
+RPM_HASH = "c855e9c00c2c3c773eb2ffbd44a2591cdb8f14bd232baa3d78395a40ce4b9deda852f59506e17348ca734619ba416111031565b97aa144e5b1fc2864736f686f"
 
 RPROVIDES:${PN} += "rke2 rke2(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

@@ -5,10 +5,10 @@ emit information from within their applications to the AWS X-Ray service. \
 This package provides the aiohttp backend for python39-aws-xray-sdk."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "python39-aws-xray-sdk-aiohttp-2.10.0-1.3.noarch.rpm"
-RPM_HASH = "58d2a451bf261cd90d1231cea561ea7f9f817b5574d24acde658e037b809b94862c965da90b8ff83cb37b47593fc59d6fadb49baa23782f790531439b5da34b3"
+RPM_NAME = "python39-aws-xray-sdk-aiohttp-2.12.0-1.1.noarch.rpm"
+RPM_HASH = "fb6aaed3809c7231ca4617b8f992382969dde123207b8584129d363bfa4e8a39c36524bf44c22022b2b0eebd935176e762bc20935b029631466e962773d8740f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-aiohttp"

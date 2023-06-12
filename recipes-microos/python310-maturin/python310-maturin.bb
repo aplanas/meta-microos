@@ -7,10 +7,10 @@ setuptools-rust milksnake. It supports building wheels for Python \
 3.6+, can upload them to PyPI and has basic PyPy support."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "0.15.1"
+PV = "1.0.1"
 
-RPM_NAME = "python310-maturin-0.15.1-1.1.aarch64.rpm"
-RPM_HASH = "d084b13f19b3a46a81378b44264837b3a72c21b3466874cfe0a8268bd48d63373ac2fd993609153a2fdb77d6639471d012bc9fdc5f5b2d1ea65f3b72b2778e04"
+RPM_NAME = "python310-maturin-1.0.1-1.1.aarch64.rpm"
+RPM_HASH = "baaebef3b290aad0b4ff6367d42a672c47928e11cf54c48d94ab7abd1d36ca75a5ba5f6118e8ab10c2ae44355af3c53bad6791a9576a65de137675dc057f5169"
 
 RPROVIDES:${PN} += "python3-maturin python3.10dist(maturin) python310-maturin python310-maturin(aarch-64) python3dist(maturin)"
 RDEPENDS:${PN} += "/bin/sh libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3)(64bit) libgcc_s.so.1(GCC_4.2.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) python(abi) python310-tomli update-alternatives"

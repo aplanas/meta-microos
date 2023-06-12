@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.4"
 
-RPM_NAME = "libmspub-devel-doc-0.1.4-2.23.noarch.rpm"
-RPM_HASH = "1581aaf3458696c8722015c942d0c51b07aabdad4d4ee8588c6c0dd80babe611c43419f64e93a4143a38a61b8d37972c04c6c743f1ddf467be87b20482cf695c"
+RPM_NAME = "libmspub-devel-doc-0.1.4-2.24.noarch.rpm"
+RPM_HASH = "678b483ea220b0de1912b37e08a8794c2859882df96e2ad78ab01215ae54356b75a2669a315af0203a9775b0eec60a93f2917df563f2e0f333d25c930d4267aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmspub-devel-doc"

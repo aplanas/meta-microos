@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The fcgi module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.48"
+PV = "9.4.51"
 
-RPM_NAME = "jetty-fcgi-9.4.48-3.1.noarch.rpm"
-RPM_HASH = "e996f174024f3996c44941384967fca24990b485ed2936511287828f1a7140a0928a1812f48ff8443a1990335ff8ed6a21d6c6155a7dbff0caf1d7c0ff775f43"
+RPM_NAME = "jetty-fcgi-9.4.51-1.1.noarch.rpm"
+RPM_HASH = "539d90fceb3ad7394b6be570dd5c5b00120baf0a34626268ca706a61444bc6af5de62a3a72a331515bf2ce010f75b8ab36615052c99e326fe5c3f1fdf6dbdf88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-fcgi mvn(org.eclipse.jetty.fcgi:fcgi-client) mvn(org.eclipse.jetty.fcgi:fcgi-client:pom:) mvn(org.eclipse.jetty.fcgi:fcgi-server) mvn(org.eclipse.jetty.fcgi:fcgi-server:pom:) osgi(org.eclipse.jetty.fcgi.client) osgi(org.eclipse.jetty.fcgi.server)"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6QuickDialogs2Impl 
 have any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-quickdialogs2quickimpl-private-devel-6.5.0-2.1.aarch64.rpm"
-RPM_HASH = "a9b8bf97b2af02928b2419397c001f9d5862f0c621fd97f91ccb9e1800d9c59f745fa0bdda76916bfe9676f9829417a8bd48d44f2ed6b7a6ad9232f1e2bd9019"
+RPM_NAME = "qt6-quickdialogs2quickimpl-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "3e23ef5dc19d909c1a3b99fa14a81ac61c8c6abdbce1ec3bb814c127684d9aa8a51699b5a71186832b7466e8a72e4d099c1b679005077c64b12a738ee4260466"
 
 RPROVIDES:${PN} += "qt6-quickdialogs2quickimpl-private-devel qt6-quickdialogs2quickimpl-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6QuickDialogs2QuickImpl)"

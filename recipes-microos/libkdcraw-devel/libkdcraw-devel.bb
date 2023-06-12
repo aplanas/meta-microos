@@ -7,10 +7,10 @@ This library is used by kipi-plugins, digiKam and others kipi host \
 programs."
 LICENSE = "LGPL-2.0-or-later & GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.04.0"
+PV = "23.04.1"
 
-RPM_NAME = "libkdcraw-devel-23.04.0-1.1.aarch64.rpm"
-RPM_HASH = "d56d06fc9496236150a234c1ce58c8734905b8139a52564e814cc10384de3f649cd6be5d423c6d9167579d135979460c0c719e0964e4f99094df60d4a5b54352"
+RPM_NAME = "libkdcraw-devel-23.04.1-1.1.aarch64.rpm"
+RPM_HASH = "8c4fc7b6ee5d9d980829c051fcb9cb10718dbe60568202d98e2352744a44c7091fa8eee2fc17aef4c624f455de6c29ae4814e79f6c00aca157702a71e681489d"
 
 RPROVIDES:${PN} += "cmake(KF5KDcraw) libkdcraw-devel libkdcraw-devel(aarch-64) libkdcraw-kf5-devel"
 RDEPENDS:${PN} += "libKF5KDcraw5"

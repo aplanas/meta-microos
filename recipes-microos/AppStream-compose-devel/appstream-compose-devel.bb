@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.16.1"
 
-RPM_NAME = "AppStream-compose-devel-0.16.1-2.3.aarch64.rpm"
-RPM_HASH = "b8ba2b690488abd7efa8e8f1e6f6afaabf52b5430556981750414b7674d778e5bc37fc0706fb8a6b958ddec2e07be15902666f4cee5ebc03e0d295cbfab94abf"
+RPM_NAME = "AppStream-compose-devel-0.16.1-3.1.aarch64.rpm"
+RPM_HASH = "254cd6703046ae04003ac56243f630cf59ca56fde8fdfbf09a5a9c0027297842d3f54ce25b38a9eee9a72c0823c86d67275007fc1f24f6e995a5df5c1a7880fd"
 
 RPROVIDES:${PN} += "AppStream-compose-devel AppStream-compose-devel(aarch-64) pkgconfig(appstream-compose)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config AppStream AppStream-compose pkgconfig(appstream) pkgconfig(gdk-pixbuf-2.0) pkgconfig(gio-2.0) pkgconfig(glib-2.0) pkgconfig(gobject-2.0)"

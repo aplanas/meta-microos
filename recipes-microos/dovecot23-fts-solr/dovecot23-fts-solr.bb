@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & MIT"
 
 PV = "2.3.20"
 
-RPM_NAME = "dovecot23-fts-solr-2.3.20-3.1.aarch64.rpm"
-RPM_HASH = "f27298f7acd68a05e93452a17d0049e596af906844427251c93ceee0abf5f460e018bffaa8948057be10ec53d5b9db73ac581871b9b4bd29b4e0bd8b59f78057"
+RPM_NAME = "dovecot23-fts-solr-2.3.20-3.2.aarch64.rpm"
+RPM_HASH = "ae7a85a69b8605951e268f44915f12acbbcbe66f047216bc6b41a9cc17fdc8cc5ea30f9464e918036d709e4b699a0d510b5c7ecd0624e240527b34259a54a9d0"
 
 RPROVIDES:${PN} += "dovecot-fts-solr dovecot23-fts-solr dovecot23-fts-solr(aarch-64) dovecot_fts_backend lib21_fts_solr_plugin.so()(64bit)"
 RDEPENDS:${PN} += "dovecot23 dovecot23-fts ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) lib20_fts_plugin.so()(64bit) libc.so.6(GLIBC_2.17)(64bit) libexpat.so.1()(64bit)"

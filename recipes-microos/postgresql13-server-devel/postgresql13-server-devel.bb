@@ -9,10 +9,10 @@ C extensions that link into the PostgreSQL server. For building client \
 applications, see the postgresql13-devel package."
 LICENSE = "PostgreSQL"
 
-PV = "13.10"
+PV = "13.11"
 
-RPM_NAME = "postgresql13-server-devel-13.10-2.1.aarch64.rpm"
-RPM_HASH = "8c786faa30a8f5c96b424ecc5ec8296ed253bfed7c4218263a9d4611f77eaa6934161b0600c149d3d20a0d8003dc119abddce6dd6f289e5366fa147e8dd98b36"
+RPM_NAME = "postgresql13-server-devel-13.11-1.2.aarch64.rpm"
+RPM_HASH = "a9556e49a1b6db05e09b3a6f89e0e1894ff40fe8be4eabc30e15f3496d6fcaec5dac4022ac2574a0e9714632ec638e51b9522b1467ad72f825bdbef917ef2d2f"
 
 RPROVIDES:${PN} += "postgresql-server-devel postgresql-server-devel-exclusive postgresql-server-devel-implementation postgresql13-server-devel postgresql13-server-devel(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libselinux-devel libxslt-devel openssl-devel pam-devel pkgconfig(krb5) postgresql-server-devel-noarch postgresql13-devel postgresql13-server readline-devel zlib-devel"

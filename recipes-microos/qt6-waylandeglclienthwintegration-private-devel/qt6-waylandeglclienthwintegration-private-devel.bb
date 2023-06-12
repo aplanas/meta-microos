@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for the Qt 6 WaylandEglClientHwIntegration libr
 This library does not have any ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-waylandeglclienthwintegration-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "5c38bdfd38343808b60cee16948f44c0895d4d02a79de5c1975e0f8fac9e8f44e509ba962bf57dbac98159bd95f8968b58a287812e9519fce16965bfaec84ba6"
+RPM_NAME = "qt6-waylandeglclienthwintegration-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "9afbf7b2b03ec5d0a0b3b9069fe17df93b6f20e68d0189f5eb057cfa2c4777f6cbba19e4b7a7c316450e7b7b2f875d21e858530bd9a295fa81b2fca36bcac292"
 
 RPROVIDES:${PN} += "cmake(Qt6WaylandEglClientHwIntegrationPrivate) qt6-waylandeglclienthwintegration-private-devel qt6-waylandeglclienthwintegration-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6Gui) libQt6WaylandEglClientHwIntegration6 qt6-opengl-private-devel qt6-waylandclient-private-devel"

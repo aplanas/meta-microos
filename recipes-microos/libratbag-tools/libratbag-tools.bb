@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.17"
 
-RPM_NAME = "libratbag-tools-0.17-1.3.aarch64.rpm"
-RPM_HASH = "7d23a471b681c263a5cc95936a61e86e171f9732bdf875ae6dacdaa6aed51f6653bf2c71a2bcc1bd45f356a3ee01fbc10e3d57da96e9baf2c8c73155fb47b6cb"
+RPM_NAME = "libratbag-tools-0.17-2.1.aarch64.rpm"
+RPM_HASH = "d91f201b777566fed1d67b417b940528caa5bd2c74198d46c3f01b595f3f13c8ea69a338bccb2385a0ac2769dd8927db08ff66ae161d5929172ccc6b3b666bca"
 
 RPROVIDES:${PN} += "libratbag-tools libratbag-tools(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/python3 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) liblur.so.3()(64bit) liblur.so.3(LIBLUR_0.4.0)(64bit) python3-evdev ratbagd"

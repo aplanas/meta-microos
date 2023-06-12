@@ -5,10 +5,10 @@ Jupyter Notebooks. \
 This package provides mercurial integration."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.0"
+PV = "3.2.1"
 
-RPM_NAME = "python39-nbdime-hg-3.2.0-11.1.noarch.rpm"
-RPM_HASH = "645457655e4106e091db05c685d9c6526665f985903b5b3a26374316b2bfce9e612e3dbeefe71c02a0537adbbfa3e81a0a81c466672ed8611106a9dc6a6e8f7b"
+RPM_NAME = "python39-nbdime-hg-3.2.1-12.2.noarch.rpm"
+RPM_HASH = "d568d827e23d1f91688453b4ba264c81c61a9bb04ee2c1d7048191eb981e107b55f16cf5bb6843530990da338546ee8039462953ffac64e30ad4367b130ddd7b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-jupyter_nbdime-hg python39-nbdime-hg"

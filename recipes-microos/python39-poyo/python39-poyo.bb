@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.5.0"
 
-RPM_NAME = "python39-poyo-0.5.0-1.14.noarch.rpm"
-RPM_HASH = "01c45dd3b1d4477cacf5b6ba7fa015caaec964d68df79c9a3a68ba3a8e6734c1222518dcafef5d78cb81decda9d25fe128232b8e907205c1b9cab721bd9658ed"
+RPM_NAME = "python39-poyo-0.5.0-2.1.noarch.rpm"
+RPM_HASH = "873894f2a352a143351c48efec90e991d81efdd55d945893334053d9dfe5f3b89b2ba22b0a254d5097a0357b50eda29843400b02aa165076152069a193186ab9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(poyo) python39-poyo python3dist(poyo)"

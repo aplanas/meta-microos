@@ -5,10 +5,10 @@ Jupyter Notebooks. \
 This package provides the python interface."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.0"
+PV = "3.2.1"
 
-RPM_NAME = "python311-nbdime-3.2.0-11.1.noarch.rpm"
-RPM_HASH = "896b780293b7b241b74c8bf4afb8fa4b60653d49906bc20f66b3a2c246e94ec06d51d1be2f6f34f1305ced2fcbe093cbc058242f6a881328b91999fa495d15e4"
+RPM_NAME = "python311-nbdime-3.2.1-12.2.noarch.rpm"
+RPM_HASH = "e822ef5c868b938a8c2ae463226741c25f36ca00b9f73c385331ff4007868f392007f4bcd1f0818dc15c48727abcfa802a7c21cd9fe78d164a538a881e99b874"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(nbdime) python311-jupyter_nbdime python311-nbdime python3dist(nbdime)"

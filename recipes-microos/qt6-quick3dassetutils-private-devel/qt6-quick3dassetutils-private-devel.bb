@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Quick3DAssetUtils 
 have any ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dassetutils-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "dd31bf63b47f428843eb8526ac72e76f985fda59ea9ddc577d78ba2ff46f5174f2a50ec4a0fe9abc5e4c7968006c509ae9ca130a32d324a014fd363c0076780c"
+RPM_NAME = "qt6-quick3dassetutils-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "011f44fad2c7111e0aec12c3be2b40756579c7409695e1021d067979375e7104a8edc1e413a62119c076389ae36bb8d86c00186aa3bef99c631fddfcb2a92d04"
 
 RPROVIDES:${PN} += "qt6-quick3dassetutils-private-devel qt6-quick3dassetutils-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6Quick3DAssetUtils)"

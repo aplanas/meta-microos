@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-x86_64-gcc7-7.5.0+r278197-12.5.aarch64.rpm"
-RPM_HASH = "90782e69cecf06e3c29210a31d6e40c1483c21748739d7ed10e7623d753bfe163282a9072ae0d1b7f4499a82e179a83095b3d5cec719bbdb71843133f1b200ef"
+RPM_NAME = "cross-x86_64-gcc7-7.5.0+r278197-14.1.aarch64.rpm"
+RPM_HASH = "e6c5b6334ae42b52c266d90dd805ff26a890dc57b39f03c65edd146df173148e3945b64585e5cb598ac4a64ae2b4aa8fc4e7606369b550a6de10078d6861abc1"
 
 RPROVIDES:${PN} += "cross-x86_64-gcc7 cross-x86_64-gcc7(aarch-64) liblto_plugin.so.0()(64bit)"
 RDEPENDS:${PN} += "/bin/sh cross-x86_64-binutils libc.so.6(GLIBC_2.36)(64bit) libgmp.so.10()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libmpc.so.3()(64bit) libmpfr.so.6()(64bit) libz.so.1()(64bit) update-alternatives"

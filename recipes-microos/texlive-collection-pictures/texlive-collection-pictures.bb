@@ -3,10 +3,10 @@ DESCRIPTION = "Including TikZ, pict, etc., but MetaPost and PStricks are \
 separate."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66360"
+PV = "2023.208.svn66360"
 
-RPM_NAME = "texlive-collection-pictures-2023.201.svn66360-56.1.noarch.rpm"
-RPM_HASH = "4313a8051d10d8b952fe75220bce9d51b54050a23617f0d076b92f6d6dc707d077c89c24d521adb7b01245067ec29b3c227adaca2440e0b203796f794b9f193c"
+RPM_NAME = "texlive-collection-pictures-2023.208.svn66360-58.1.noarch.rpm"
+RPM_HASH = "0ab055a314ae63b03a78b3a988dfd992cc44d29cfe2ce2dac278f870497a5cd80dc353f2cfdea13e9693bee3ca9445e06eec4f3c28a33be85aa1ee4da3aac8e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pictures) texlive-collection-pictures"

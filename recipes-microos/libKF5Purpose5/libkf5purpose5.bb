@@ -8,10 +8,10 @@ can receive all the information they need. \
 This package contains the core library files of the package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.105.0"
+PV = "5.106.0"
 
-RPM_NAME = "libKF5Purpose5-5.105.0-1.1.aarch64.rpm"
-RPM_HASH = "f1eab3f32053e7e7b20e972ebcec3b0c885537d339f374617e8fe032bc22a7f484f86277382b3bd8f2c154dd5357550042aa508763ad7e8a35c9607c8d2a6f2f"
+RPM_NAME = "libKF5Purpose5-5.106.0-1.1.aarch64.rpm"
+RPM_HASH = "687538bee2e369a04213f47fc174429c97dbe6898ba723570f42f4e6d177fb900359ad2c2b9f47d220f66f851672b50d0501a8fa73ef60050765b4f1a8ba5a38"
 
 RPROVIDES:${PN} += "libKF5Purpose.so.5()(64bit) libKF5Purpose5 libKF5Purpose5(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libKF5ConfigCore.so.5()(64bit) libKF5CoreAddons.so.5()(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5DBus.so.5()(64bit) libQt5DBus.so.5(Qt_5)(64bit) libQt5Gui.so.5()(64bit) libQt5Gui.so.5(Qt_5)(64bit) libQt5Network.so.5()(64bit) libQt5Network.so.5(Qt_5)(64bit) libc.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.14)(64bit)"

@@ -9,12 +9,12 @@ virtualization. \
 This package acts as an umbrella package to the other QEMU sub-packages."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "7.1.0"
+PV = "8.0.2"
 
-RPM_NAME = "qemu-7.1.0-16.1.aarch64.rpm"
-RPM_HASH = "d4cd46d68e92c4a95f7758741a92ec7bee1bf7a104c22a2b5dd97ca9f9b83d317c6cd18dd7444d32b49b6657c95b1d6c1ea43a6682a11cca173130a153b0fbf1"
+RPM_NAME = "qemu-8.0.2-1.1.aarch64.rpm"
+RPM_HASH = "8fb56aa95c17b6f8f1de1685109671df2d92143d31967def9a8b9136492f362a26ab184786c648aeb28707e38ae227ac62f0adb6f118b9286933faea09b70116"
 
 RPROVIDES:${PN} += "application() application(qemu.desktop) qemu qemu(aarch-64)"
-RDEPENDS:${PN} += "(qemu-guest-agent = 7.1.0 if qemu-guest-agent) /bin/bash /bin/sh acl coreutils group(kvm) group(qemu) qemu-arm udev user(qemu)"
+RDEPENDS:${PN} += "(qemu-guest-agent = 8.0.2 if qemu-guest-agent) /bin/bash /bin/sh acl coreutils group(kvm) group(qemu) qemu-arm udev user(qemu)"
 
 inherit rpm

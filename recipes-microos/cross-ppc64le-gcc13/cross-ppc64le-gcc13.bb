@@ -5,10 +5,10 @@ Note this is only useful for building freestanding things like the \
 kernel since it fails to include target libraries and headers."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.0.1+git7231"
+PV = "13.1.1+git7364"
 
-RPM_NAME = "cross-ppc64le-gcc13-13.0.1+git7231-1.1.aarch64.rpm"
-RPM_HASH = "36518f61fb823fb48bfec65ab04946af2a815a7522efeb52b2c4014a7f51d8fdeaa13b332d9aa713dbaffa07bcac4c11c83768674a3e12649d6964cbfbdb4c41"
+RPM_NAME = "cross-ppc64le-gcc13-13.1.1+git7364-1.1.aarch64.rpm"
+RPM_HASH = "acc999d5c9247e12c8aa7543bce9de9d8121d0a7a1fada608ecb39e9459769c8b63da9b29efc92d8fcaa17507dc68829f49c7d59dec8daffbc1fe1ff4e9288ec"
 
 RPROVIDES:${PN} += "cross-ppc64le-gcc13 cross-ppc64le-gcc13(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh cross-ppc64le-binutils libstdc++6-devel-gcc13 update-alternatives"

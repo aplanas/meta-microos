@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn65625"
 
-RPM_NAME = "texlive-pagelayout-bin-2023.20230311.svn65625-89.1.aarch64.rpm"
-RPM_HASH = "b4da596343dae588bb850da5dac6d36e0d12cdb707906f39d16e7bf2d07138feca080788701a1457d29b69f9385354e020c5e2260700773b46f931c61ad4064a"
+RPM_NAME = "texlive-pagelayout-bin-2023.20230311.svn65625-91.1.aarch64.rpm"
+RPM_HASH = "df0b3d20a1aa81f160084520ab1be4bd451ef7035ea812379b8f7d54b4ff529feacaa419b18903ac7d2c79cb83c5cdfa3955a0533a89b1ede950787b0f0f689a"
 
 RPROVIDES:${PN} += "texlive-pagelayout-bin texlive-pagelayout-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-pagelayout"

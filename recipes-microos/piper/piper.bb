@@ -1,13 +1,13 @@
 SUMMARY = "Configuration UI for gaming mice"
 DESCRIPTION = "Piper is a GTK+ application to configure gaming mice. It is a graphical frontent \
 to the ratbagd DBUS daemon which provides the actual configuration support for the \
-devices."
+devices to any user in the group 'games'."
 LICENSE = "GPL-2.0-only"
 
 PV = "0.7"
 
-RPM_NAME = "piper-0.7-1.3.noarch.rpm"
-RPM_HASH = "5efebc712f66dbde81a264741036c9494272dc94e23f2d34fce1f2809ce13bf73f84fac9aa974e366a989266c194476036e8e648fb201f6b69deb125559e2cbc"
+RPM_NAME = "piper-0.7-2.1.noarch.rpm"
+RPM_HASH = "3d43ae80bb195e3516882a73322cfb862374ac4bef9b7cb373829030f9b1e842b54be5498a707f4d0f87a7fb8c69aaeeb9df951b0101b5b0617657f24d183348"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "application() application(org.freedesktop.Piper.desktop) metainfo() metainfo(org.freedesktop.Piper.appdata.xml) piper"

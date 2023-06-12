@@ -7,10 +7,10 @@ setuptools-rust milksnake. It supports building wheels for Python \
 3.6+, can upload them to PyPI and has basic PyPy support."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "0.15.1"
+PV = "1.0.1"
 
-RPM_NAME = "python311-maturin-0.15.1-1.1.aarch64.rpm"
-RPM_HASH = "7429a03048fb9414dec0e0c892dcb1cd2c33e6957cba23f42e1a31b28da878165b20eb058ce17098d41c2feec729dc55f09027e2f160722d4a7f92ad77662d30"
+RPM_NAME = "python311-maturin-1.0.1-1.1.aarch64.rpm"
+RPM_HASH = "9e0a7b9c535e80cb74369b62d57a464e42140ce400d3b5b020dfc911586e6ca6b171f97387ef8404df11296b42a0a00c372ee0d41df7ddd19c76a0feabacc315"
 
 RPROVIDES:${PN} += "python3.11dist(maturin) python311-maturin python311-maturin(aarch-64) python3dist(maturin)"
 RDEPENDS:${PN} += "/bin/sh libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3)(64bit) libgcc_s.so.1(GCC_4.2.0)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.27)(64bit) python(abi) update-alternatives"

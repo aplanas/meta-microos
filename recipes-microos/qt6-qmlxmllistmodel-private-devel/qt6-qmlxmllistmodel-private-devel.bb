@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6QmlXmlListModel th
 any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-qmlxmllistmodel-private-devel-6.5.0-2.1.aarch64.rpm"
-RPM_HASH = "a264ad69fbfdb16bc0d538230821f1b545c726192811b713c583ec065613374bbd4e8f5658927aabc160ea20a9c9b0115db91ac3e4c8100d8a92b0fb3e65ec27"
+RPM_NAME = "qt6-qmlxmllistmodel-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "3a876578b27dcba2003e267a21872edc50f7aa59847534cfe1e1ecd635fb277911a530567b28df4d06607c488fbf211741aff70bd80436c31112975304b7b88b"
 
 RPROVIDES:${PN} += "qt6-qmlxmllistmodel-private-devel qt6-qmlxmllistmodel-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6QmlXmlListModel) qt6-core-private-devel"

@@ -5,10 +5,10 @@ being a minimal layer over SQLite attempting just to translate the \
 complete SQLite API into Python."
 LICENSE = "Zlib"
 
-PV = "3.41.2.0"
+PV = "3.42.0.0"
 
-RPM_NAME = "python311-apsw-3.41.2.0-1.1.aarch64.rpm"
-RPM_HASH = "e25c625aa8bd46d6ffb0be1f44e68043667c97950b697c13934e6d6a7ad81f5194022b82a2eb8e61b73416a0d04c5f7118fcaa2d2a1f0744d71d1e163c9c4e4f"
+RPM_NAME = "python311-apsw-3.42.0.0-1.1.aarch64.rpm"
+RPM_HASH = "2eb664168d3976e49cae53b04c83cd4b261fd490b74270247bda044e64f64be804beec70262a6ae362e56c8b849a18fc6531b30b3adf1f48018853d72f35c70a"
 
 RPROVIDES:${PN} += "python3.11dist(apsw) python311-apsw python311-apsw(aarch-64) python3dist(apsw)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libsqlite3.so.0()(64bit) python(abi)"

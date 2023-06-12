@@ -11,10 +11,10 @@ Features \
 - Customize retrying on expected returned result"
 LICENSE = "Apache-2.0"
 
-PV = "8.1.0"
+PV = "8.2.2"
 
-RPM_NAME = "python311-tenacity-8.1.0-1.3.noarch.rpm"
-RPM_HASH = "077011fcaf5ad9ecd5ad5ca3a486cf3433389a888bbedf86067e24be6ff015baac2149e8acfd218384eea52a949119ec55c038ebde64c004de1747c0f0c94770"
+RPM_NAME = "python311-tenacity-8.2.2-1.1.noarch.rpm"
+RPM_HASH = "86f6584a591ddc504402a6770428d3c4eb89e16e3d666011b7f0d9b2a85101d17f757b7673522b8c33daac3c5cf4ce8709d9c76882098cf48dbc2d35f86426f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(tenacity) python311-tenacity python3dist(tenacity)"

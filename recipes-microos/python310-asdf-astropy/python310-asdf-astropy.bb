@@ -2,10 +2,10 @@ SUMMARY = "ASDF serialization support for astropy"
 DESCRIPTION = "ASDF serialization support for astropy"
 LICENSE = "BSD-3-Clause"
 
-PV = "0.3.0"
+PV = "0.4.0"
 
-RPM_NAME = "python310-asdf-astropy-0.3.0-1.3.noarch.rpm"
-RPM_HASH = "022bde38a35b009dfd67402c3a21ef5f8de6dae1fa7933fce742094b754c8c2b08ba391c46c8d15a9535798540803c7ddfc1aaceed27b24f2111e2edef7ee2bf"
+RPM_NAME = "python310-asdf-astropy-0.4.0-1.1.noarch.rpm"
+RPM_HASH = "e3708d2cf4c4011749d702305187e6a61dba582e782fe2f374578a1190a5bb8ac48c592877b78f8a4ac5ebc9b2f2652c00e2b298381d972deeb86551dab061e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-asdf-astropy python3.10dist(asdf-astropy) python310-asdf-astropy python3dist(asdf-astropy)"

@@ -8,10 +8,10 @@ DESCRIPTION = "This is 'astral' a Python module which calculates \
 For documentation see the http://astral.readthedocs.io/en/latest/index.html"
 LICENSE = "Apache-2.0"
 
-PV = "2.2"
+PV = "3.2"
 
-RPM_NAME = "python310-astral-2.2-3.10.noarch.rpm"
-RPM_HASH = "e6e56297f4dda119a1729997b807a609e27251c847f4bbead6e1bba3e0dbc8186e282bc7640af14d240bbf10c85b98fe26e13cca77364d802298052c42926da7"
+RPM_NAME = "python310-astral-3.2-1.1.noarch.rpm"
+RPM_HASH = "c6201cc3f1e942e056b25dc86b8698cdfb8fa4c496e0a96d0b13c7fafa119108c1d917ce706dc5ef752430b6184c80b168c43fcfd838c378b2774dd8174ff01e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-astral python3.10dist(astral) python310-astral python3dist(astral)"

@@ -3,12 +3,12 @@ DESCRIPTION = "transactional-update is a tool to update a system in an atomic \
 way with zypper, btrfs and snapshots."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.1.5"
+PV = "4.2.1"
 
-RPM_NAME = "transactional-update-4.1.5-1.1.aarch64.rpm"
-RPM_HASH = "c0044eb31efc55a4951ad6b298713a98fa974ab0a7d29dcfd44cc416bdbaf6243ee6d689aa11129a341e24f29fb36721407ccfea0b8f0b96cf6c96d214360307"
+RPM_NAME = "transactional-update-4.2.1-1.1.aarch64.rpm"
+RPM_HASH = "8d372e0bad694753594dd4e5c09e2e5e190d5d3283938e06dc6c9e8d29ba4e76668df798c2f783c01e146488786b0e5168feeb51c3bf50c2c49c9d848f1f9ebe"
 
 RPROVIDES:${PN} += "transactional-update transactional-update(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/bc dracut-transactional-update logrotate lsof psmisc tukit zypper"
+RDEPENDS:${PN} += "(compat-usrmerge-tools or rpmlib(X-CheckUnifiedSystemdir)) /bin/bash /bin/sh /usr/bin/bc dracut-transactional-update logrotate lsof psmisc tukit zypper"
 
 inherit rpm

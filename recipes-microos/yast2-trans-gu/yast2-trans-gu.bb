@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Gujarati Translations"
 DESCRIPTION = "YaST2 - Translations for Gujarati."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230507.125aa699e6"
+PV = "84.87.20230516.e4ba802a"
 
-RPM_NAME = "yast2-trans-gu-84.87.20230507.125aa699e6-1.1.noarch.rpm"
-RPM_HASH = "a68d8481568e50af9b18a33a1ac3a6119111ff4538c90afc7757a4f3c0b911179c137c47f9da2c31a30b8e4897f8dc21c8b5e3fa91b95333a444a42f6fbbfff3"
+RPM_NAME = "yast2-trans-gu-84.87.20230516.e4ba802a-1.1.noarch.rpm"
+RPM_HASH = "056d11600dd025d9e42842460cf563ce7e5b51f1dc9416ab95b9d39f8a36a482efccc35909b75a1ea0e9cd25218ce2356b7d4ab0f60ac9931d06001e1698a62c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(yast2:gu) yast2-trans-gu"

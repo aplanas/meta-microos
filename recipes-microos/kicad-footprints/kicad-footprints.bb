@@ -4,10 +4,10 @@ DESCRIPTION = "KiCad is a software suite used for Electronic Design Automation (
 This is the footprints library package for KiCad."
 LICENSE = "CC-BY-SA-4.0"
 
-PV = "7.0.2"
+PV = "7.0.5"
 
-RPM_NAME = "kicad-footprints-7.0.2-1.1.noarch.rpm"
-RPM_HASH = "2a039165a89e4811b0ffb3789a329547fbc69028c650352d771bd1b1fd71679f1130cfd7bc420bbf0d6cbdd64ba0a45fb91fc43567ea6238fc647caec3f061a7"
+RPM_NAME = "kicad-footprints-7.0.5-1.1.noarch.rpm"
+RPM_HASH = "6ea9a6cbc4a233b0e55c6268748746b3319ec9857f0a590efb25c5bbcf7a4e85f0039b1dccea3050e65320d84671092ddc17ecf4ad9844f742684f9ebc4a144c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-footprints kicad-library:/usr/share/kicad/template/fp-lib-table"

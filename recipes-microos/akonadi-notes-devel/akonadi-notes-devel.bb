@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development files needed to use the ako
 library in other applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.0"
+PV = "23.04.1"
 
-RPM_NAME = "akonadi-notes-devel-23.04.0-1.1.aarch64.rpm"
-RPM_HASH = "126acf98962286a4abf0b926b18f4c1c64d82267706b656a13f28cb92d84836d9a36acb453723ac94053305bff96ec838a18bb04335175c71f47bebde29969f2"
+RPM_NAME = "akonadi-notes-devel-23.04.1-1.1.aarch64.rpm"
+RPM_HASH = "5f127d65f0463f205987f5c6582591f204df3b54475895c9a12ef6b906a6b4c9cf3c024780fd09a49a1cfa86abe2185be669edfb485ce40a6e0632822fbd4037"
 
 RPROVIDES:${PN} += "akonadi-notes-devel akonadi-notes-devel(aarch-64) cmake(KF5AkonadiNotes) cmake(KPim5AkonadiNotes)"
 RDEPENDS:${PN} += "cmake(KPim5Mime) libKPim5AkonadiNotes5"

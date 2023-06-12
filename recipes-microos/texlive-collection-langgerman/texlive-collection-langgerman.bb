@@ -2,10 +2,10 @@ SUMMARY = "German"
 DESCRIPTION = "Support for German."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn55706"
+PV = "2023.208.svn55706"
 
-RPM_NAME = "texlive-collection-langgerman-2023.201.svn55706-56.1.noarch.rpm"
-RPM_HASH = "a66340c36c4a0cbcfae20c640608d6bc1ddb78a7d407c22890f63d7b2ed1471836ca5171a5f75d3598e282e81da61ec06e002637d9465c2b5c5d0c927e85d62e"
+RPM_NAME = "texlive-collection-langgerman-2023.208.svn55706-58.1.noarch.rpm"
+RPM_HASH = "537e6f7196b0542755a0109b05c4ecc217515760c46b66a518aba04cf74eb87c1a56a0153ade702e9a2165cb9b9845517a02f084ebcbbfcb24d30aa13a665989"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langgerman"

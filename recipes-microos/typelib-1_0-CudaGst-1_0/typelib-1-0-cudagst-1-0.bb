@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.2"
+PV = "1.22.3"
 
-RPM_NAME = "typelib-1_0-CudaGst-1_0-1.22.2-3.1.aarch64.rpm"
-RPM_HASH = "433d6e6750422cebd7146e7a1b56e01a0f8fa14b25908bfec003314ff498407c30ccde9026fb2772c2f425df7beda54ac245d9f6418d06fef23b24fad0b36c4d"
+RPM_NAME = "typelib-1_0-CudaGst-1_0-1.22.3-1.1.aarch64.rpm"
+RPM_HASH = "6382b7202c0f6fb62e1915afa77bd91176acab71848cac5d093c3571688a0ebe76406ecdfc2f709134ad3bd98b17f447e25cbe6a78a994e3c71fc74a4a62501d"
 
 RPROVIDES:${PN} += "typelib(CudaGst) typelib-1_0-CudaGst-1_0 typelib-1_0-CudaGst-1_0(aarch-64)"
 RDEPENDS:${PN} += "libgstcuda-1.0.so.0()(64bit)"

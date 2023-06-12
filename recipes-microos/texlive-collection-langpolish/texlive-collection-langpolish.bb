@@ -2,10 +2,10 @@ SUMMARY = "Polish"
 DESCRIPTION = "Support for Polish."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54074"
+PV = "2023.208.svn54074"
 
-RPM_NAME = "texlive-collection-langpolish-2023.201.svn54074-56.1.noarch.rpm"
-RPM_HASH = "1a41dfa7d00dadfb518d16a87840b81fc2bb23cafa64f7aab04dfd872c48e08b7749783840022371101e325985bcc2915632c5562c32245027386649caaa3828"
+RPM_NAME = "texlive-collection-langpolish-2023.208.svn54074-58.1.noarch.rpm"
+RPM_HASH = "1a05859c796436fee2a3db552d2ea321638e91e002aaa5d0c15c8c9cc12b4fd8428e4963c3c002c2080e5ca9141ca378a2f361ae1bb086befd51ce4a8ee6ee21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langpolish"

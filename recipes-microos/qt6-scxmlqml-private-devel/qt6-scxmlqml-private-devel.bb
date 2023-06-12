@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6ScxmlQml that do n
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-scxmlqml-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "bce6948c2049bea7c579e814a1515d5cda9c4fa2573f847ef5c492ebbeead447862d6c1d8bfd8e9c829114924c9991d7aaa2808b2fbba141c73858c9195a0ac7"
+RPM_NAME = "qt6-scxmlqml-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "7bca7c7b17c6450e948f7f3c7bdc4034a12b64cd9b6e887b957c77f0d0ad02f8069c6df6705ee2b53ecabf3ecae344b22ff267e57ed6d3dc725a056f1fea5b54"
 
 RPROVIDES:${PN} += "qt6-scxmlqml-private-devel qt6-scxmlqml-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6ScxmlQml)"

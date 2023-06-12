@@ -3,10 +3,10 @@ DESCRIPTION = "This meta-package requires all the qt6-declarative development pa
 not have any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-declarative-private-devel-6.5.0-2.1.noarch.rpm"
-RPM_HASH = "f4fedc3b6589ee83ceabc2ab15e9a4832ceef85781d7cc127c2e0b409101a2ce5fc478d0720972614a2cc6945e622ceaa729ed2d12cfe5c2c31e440825ec1fae"
+RPM_NAME = "qt6-declarative-private-devel-6.5.1-1.2.noarch.rpm"
+RPM_HASH = "80f8cf3109da9720274ddfdb8a358bd42d727802f796fd95285872763a5575a409c7d4a16c906b4a149a259f083000bc5d71e797821ef18f1827d7e890d4f3b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-declarative-private-devel"

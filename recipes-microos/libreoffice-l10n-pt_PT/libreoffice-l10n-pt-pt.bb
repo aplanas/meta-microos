@@ -2,10 +2,10 @@ SUMMARY = "Portuguese localization files for LibreOffice"
 DESCRIPTION = "Provides Portuguese translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-pt_PT-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "f40e15feb1662d97193857c1bc46dea6886105555d0730873bbf663a33d808dd9bc085dcce00f8a4b8d13f5efbc946aebc7857645aecbecc93c4735cc4b9f9ae"
+RPM_NAME = "libreoffice-l10n-pt_PT-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "2269c6b0a2d06e1b16d506c8e5024f73db39362657016630f545854e42c6aa6fa3422c69f03edf451eebca5e2f72229f53ae0bdee08de4143ed28272694a0d0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-pt libreoffice-help-pt-PT libreoffice-help-pt_PT libreoffice-l10n-pt libreoffice-l10n-pt-PT libreoffice-l10n-pt_PT locale(libreoffice:pt_PT)"

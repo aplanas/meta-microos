@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20210330"
 
-RPM_NAME = "patterns-server-gateway_server-32bit-20210330-4.1.aarch64.rpm"
-RPM_HASH = "4dcdcf4feba0e5d6033ee216670844d1394a8f38139d1a8bf3dcc7f0e0313a08f6a7480d6e770c674c70b7b81bb3acc8fa3e4577a2b4abd3112c80fd7b9722fe"
+RPM_NAME = "patterns-server-gateway_server-32bit-20210330-5.1.aarch64.rpm"
+RPM_HASH = "9f673af4fd21765143d89454e4655be4c22c6a2245083e099cea5b54569f4dbc00f33d85b66c76c95c09d7b4814867debb5892f95fb82807136026cb3b169262"
 
 RPROVIDES:${PN} += "pattern() patterns-server-gateway_server-32bit patterns-server-gateway_server-32bit(aarch-64)"
 RDEPENDS:${PN} += ""

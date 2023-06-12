@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "libboost_json1_82_0-devel-1.82.0-1.1.aarch64.rpm"
-RPM_HASH = "ba69f5d1ad6b45d46a8f214a7ceab5e5df6612442039084dde5d251ae29db404e64ba1bd3e186fade75fae700f2327e91cf860059b81b00faedebf4dde8017a4"
+RPM_NAME = "libboost_json1_82_0-devel-1.82.0-1.2.aarch64.rpm"
+RPM_HASH = "06cd6e33614b2b8e3bdf1b425ed6033510a0fe800b2251dae1209fe54bf2b4a70e2d02480a08e40b5af4faeb1fc3b8bc49f56c093bcda1afed83fe2be6aa0030"
 
 RPROVIDES:${PN} += "libboost_json-devel-impl libboost_json1_82_0-devel libboost_json1_82_0-devel(aarch-64)"
 RDEPENDS:${PN} += "libboost_container1_82_0-devel libboost_json1_82_0"

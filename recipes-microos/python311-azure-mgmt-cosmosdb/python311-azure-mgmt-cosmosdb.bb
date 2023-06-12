@@ -7,10 +7,10 @@ replace the old Azure Service Management (ASM). \
 This package has been tested with Python 2.7, 3.5, 3.6 and 3.7."
 LICENSE = "MIT"
 
-PV = "9.1.0"
+PV = "9.2.0"
 
-RPM_NAME = "python311-azure-mgmt-cosmosdb-9.1.0-1.1.noarch.rpm"
-RPM_HASH = "2e23339d5452921e4886aa779e2421a944b89a096b56b3786e3e86ba48713166f0e1625ce2f52ffa9ffd8430b48c4a358fbc9ddfee23484f3d7ccd6f0cce00ab"
+RPM_NAME = "python311-azure-mgmt-cosmosdb-9.2.0-1.1.noarch.rpm"
+RPM_HASH = "9c337a8eb872d3af27f0a5747b7397d60e5d96bb8243b94db1e288444d161f39e276e0696a1027b53ae312e4e12cde7988614e6bc5030a2dce80ff7f0f9e9a8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-cosmosdb) python311-azure-mgmt-cosmosdb python3dist(azure-mgmt-cosmosdb)"

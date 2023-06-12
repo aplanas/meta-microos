@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.4"
 
-RPM_NAME = "fscrypt-0.3.4-3.3.aarch64.rpm"
-RPM_HASH = "aee7e46b2d227e5ddb9adfdda933edebe868271f7899f01675ea0a519b4a57650592cd39d4f604212e21538134a6ae3cd110e03b3be539998748a31278a820a9"
+RPM_NAME = "fscrypt-0.3.4-3.4.aarch64.rpm"
+RPM_HASH = "1d779b5324599f94bc10ba8f61a85a74c8b8e5cea2f0777858605eeefbd37efe6eab2c8d248423692e400fb4743de9c5a1085ad5fdb751cb5af65cebdfeb9540"
 
 RPROVIDES:${PN} += "fscrypt fscrypt(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) libpam.so.0()(64bit) libpam.so.0(LIBPAM_1.0)(64bit) libpam.so.0(LIBPAM_EXTENSION_1.0)(64bit) pam-fscrypt"

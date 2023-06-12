@@ -8,12 +8,12 @@ The previous sources were obtained from https://github.com/morrownr/8812au-20210
 https://github.com/maurossi/rtl8812au/ ."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.13.6+git20220905.a8450b0_k6.2.12_1"
+PV = "5.13.6+git20230511.765d4e4_k6.3.4_1"
 
-RPM_NAME = "rtl8812au-kmp-default-5.13.6+git20220905.a8450b0_k6.2.12_1-2.14.aarch64.rpm"
-RPM_HASH = "87db32fba0621dc0c80c81a7185376cd38b64dad05fbec6f1a263c483d506bfa5804d74f25776552e408eb393e8f9f4aacd32fac10062e350276fd5fb4d0cc7e"
+RPM_NAME = "rtl8812au-kmp-default-5.13.6+git20230511.765d4e4_k6.3.4_1-1.2.aarch64.rpm"
+RPM_HASH = "5c48ec4da832201bd1e5433db88dc5c93464b591c51a685b467dd39a18368e517d1baa8d452f83830a01d0b1cc8ecaf637b3bfe8afc66f77ec2b006a5e4a2c5a"
 
-RPROVIDES:${PN} += "kmod(8812au.ko) multiversion(kernel) rtl8812au-kmp rtl8812au-kmp-default rtl8812au-kmp-default(aarch-64) rtl8812au-kmp-default-k6.2.12_1"
+RPROVIDES:${PN} += "kmod(8812au.ko) multiversion(kernel) rtl8812au-kmp rtl8812au-kmp-default rtl8812au-kmp-default(aarch-64) rtl8812au-kmp-default-k6.3.4_1"
 RDEPENDS:${PN} += "/bin/sh coreutils grep kernel-default kernel-uname-r suse-kernel-rpm-scriptlets"
 
 inherit rpm

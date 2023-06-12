@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.1.3"
 
-RPM_NAME = "bluetuith-0.1.3-1.3.aarch64.rpm"
-RPM_HASH = "72a6c015422b38864a9db2cbf2072d3ec1752fa4d6aa1059eac6ee4991e0f702a56b9be154e663bd5dff125963b351008680cb461248326af0b1a29fc202ad76"
+RPM_NAME = "bluetuith-0.1.3-1.4.aarch64.rpm"
+RPM_HASH = "a95354a4f32c27b9fbc8ca5777f8b902b574a97b289cbcf834ac174a7a649f716cb685f210b89b7de8550f8c8a712d2aa34a5abb1df7c96a5f431c4576a82a54"
 
 RPROVIDES:${PN} += "bluetuith bluetuith(aarch-64)"
 RDEPENDS:${PN} += "bluez dbus-1 libc.so.6(GLIBC_2.34)(64bit)"

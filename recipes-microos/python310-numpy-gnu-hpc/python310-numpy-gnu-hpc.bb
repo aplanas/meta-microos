@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.24.2"
 
-RPM_NAME = "python310-numpy-gnu-hpc-1.24.2-2.1.aarch64.rpm"
-RPM_HASH = "67a4d93a65581c45afe72b2511dfecdc33d592db7d903cc6d85f69737999da68dae991097a506f5e00a41748be7b7a72fe1c7859337a49960287eaf6694d435f"
+RPM_NAME = "python310-numpy-gnu-hpc-1.24.2-3.1.aarch64.rpm"
+RPM_HASH = "7b093ea464c84bdca8a867017cb3e01c31f15ade77492f5dd939775fe0de7240bff3eaf8bfb2895597715cf1ff494da753796a22566cb08a3c8629514b54de28"
 
 RPROVIDES:${PN} += "python3-numpy-gnu-hpc python310-numpy-gnu-hpc python310-numpy-gnu-hpc(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh python310-numpy_1_24_2-gnu-hpc"

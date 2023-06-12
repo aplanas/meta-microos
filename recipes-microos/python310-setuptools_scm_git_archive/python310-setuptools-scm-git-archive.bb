@@ -6,10 +6,10 @@ Note that it only works for archives of tagged commits (because git currently \
 lacks a format option equivalent to git describe --tags)."
 LICENSE = "MIT"
 
-PV = "1.1"
+PV = "1.4"
 
-RPM_NAME = "python310-setuptools_scm_git_archive-1.1-2.1.noarch.rpm"
-RPM_HASH = "e06abd77d10830ef3a277aa1534a50164c4d6b25c937f77d10e1a409864440a6108134046afd5c0ed5c009606ef4adc180a7a42aa3172ec001b3a2e013de66ee"
+RPM_NAME = "python310-setuptools_scm_git_archive-1.4-1.1.noarch.rpm"
+RPM_HASH = "e7ebf5189c5eef1479ebb9e89c021ce00d041b47b4c2109fe86a24d5bab65e60dc11d7e2af322756ba8c32922941bad56a43f776d1381a70d016f71b01d88846"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-setuptools_scm_git_archive python3.10dist(setuptools-scm-git-archive) python310-setuptools_scm_git_archive python3dist(setuptools-scm-git-archive)"

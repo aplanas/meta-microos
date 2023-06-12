@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.0.0+git20220520.d04f242"
 
-RPM_NAME = "pprof-0.0.0+git20220520.d04f242-1.5.aarch64.rpm"
-RPM_HASH = "9d07068a609418c726fe71250bac3d6ef982eea51f933db03bac1849170c87dcc1d8adf954c46ce2d79ab734dc575d87c73b2ecfa9fefb698097a1471d40fddb"
+RPM_NAME = "pprof-0.0.0+git20220520.d04f242-1.6.aarch64.rpm"
+RPM_HASH = "1450dc82ec27c59b8ef3bfda2ac860dd0d175c6a231f2813fcd321c4b671b4763a93343b05ed623729389147db4766f5d5ceb468a29852e79bd0e317ee6e226e"
 
 RPROVIDES:${PN} += "pprof pprof(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

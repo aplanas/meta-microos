@@ -2,10 +2,10 @@ SUMMARY = "Emacs support for poke"
 DESCRIPTION = "Provides Emacs support for poke."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.1"
+PV = "3.2"
 
-RPM_NAME = "emacs-poke-3.1-1.1.noarch.rpm"
-RPM_HASH = "f6d626ecc56c81be6fa433ea2ac50ad86532fc4da3e8a871257d6edf86698b132299c1d23c867a77d2e43b30150fa30eb0a9607a3375038097676f89fbdd8c2f"
+RPM_NAME = "emacs-poke-3.2-1.1.noarch.rpm"
+RPM_HASH = "be64c83360c6952a1a89d9e28fe0f656d408fcad30ff4b06bf9d835364b4c1e635a34b289c89357d8d7c19920f4abc51c342416363d0e4ce28a91a7beb7cc3c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-poke"

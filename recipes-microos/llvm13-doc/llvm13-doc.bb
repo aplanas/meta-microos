@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
 
 PV = "13.0.1"
 
-RPM_NAME = "llvm13-doc-13.0.1-8.1.noarch.rpm"
-RPM_HASH = "d06649f66d774ea5f3484c0401b156e61201a54fb208c557c3e45fb0a0ff1c32f6b799124967990dc2c4aa482f21509d93139e81fd3638eb6e1c547e1528bc6b"
+RPM_NAME = "llvm13-doc-13.0.1-9.1.noarch.rpm"
+RPM_HASH = "79ec7d1c7156753c535c581e8a02238b8395c0e19968faca2c7ae9107c8e107259d9a92cd81257f0b1c98a027155cab7b745730d368f6a5baf8a0693eb2d6b47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "llvm-doc-provider llvm13-doc"

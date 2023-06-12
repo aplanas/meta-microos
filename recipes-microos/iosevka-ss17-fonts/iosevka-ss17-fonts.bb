@@ -7,10 +7,10 @@ This package contains the Iosevka SS17 typeface (monospace, Recursive Mono \
 style)."
 LICENSE = "OFL-1.1"
 
-PV = "22.1.0"
+PV = "24.0.0"
 
-RPM_NAME = "iosevka-ss17-fonts-22.1.0-1.1.noarch.rpm"
-RPM_HASH = "f2af9d3d4c11412a74e64e2f0536fb582725a61f5cb30004e9e19172cb8216dfcea55e89b3754bf720e2265a633bfe546a9e2d27136a3d2698337afbd0752c59"
+RPM_NAME = "iosevka-ss17-fonts-24.0.0-1.1.noarch.rpm"
+RPM_HASH = "aebe8c4b33c0c8533fabed49db364ee9e1adc0e998351487872af539344823e00167e535140a79a47a5705daf5b7f15c54a571445d196658c718155a6e4874d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss17-fonts"

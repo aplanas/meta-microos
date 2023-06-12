@@ -4,10 +4,10 @@ new packages have been installed. This is helpful for maintaining custom \
 entries in /etc/permissions.local."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1699_20230424"
+PV = "1699_20230516"
 
-RPM_NAME = "permissions-zypp-plugin-1699_20230424-1.1.noarch.rpm"
-RPM_HASH = "76716ff0331f10e10e9ba2d7882d63a3299ed8ccbef8b8b0f03f0fe70081eef7acd0760257b168c9e7c4f8e221dc3feb57cb41508f78724ea17868a0152a0a50"
+RPM_NAME = "permissions-zypp-plugin-1699_20230516-1.1.noarch.rpm"
+RPM_HASH = "a0437e45506ee508c70aac8877358f1b8ce5818021896cdc7441e007fcb2adc645f2c25dfead764da52a59532632e58ec23588b25c2d654a738cb70376f029f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "permissions-zypp-plugin"

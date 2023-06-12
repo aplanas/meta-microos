@@ -1,14 +1,14 @@
-SUMMARY = "KIWI - host requirements for container images"
+SUMMARY = "KIWI - host requirements for OCI container images"
 DESCRIPTION = "Host setup helper to pull in all packages required/useful on \
-the build host to build container images e.g docker, wsl"
+the build host to build OCI container images"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.24.57"
+PV = "9.24.61"
 
-RPM_NAME = "kiwi-systemdeps-containers-9.24.57-1.2.aarch64.rpm"
-RPM_HASH = "b3d9b7c73f1f0f84473877aac7e1d5065387d27ad1f37e1292810bf028e3c4bde7611597ca134831c88a89a13630dd7ec92ebffb513eb51fa4c99e3530ad4c5c"
+RPM_NAME = "kiwi-systemdeps-containers-9.24.61-1.1.aarch64.rpm"
+RPM_HASH = "6118e12934f9e7d16d0e1fe95b09664101b44372a38709ddc596b992bcea8bb5a172fffe49a1d89e4308a0fda4a9d4cb59b574542d8f3787d557aa1d919cc7a7"
 
-RPROVIDES:${PN} += "kiwi-image-docker-requires kiwi-image-wsl-requires kiwi-image:appx kiwi-image:docker kiwi-systemdeps-containers kiwi-systemdeps-containers(aarch-64)"
-RDEPENDS:${PN} += "fb-util-for-appx skopeo umoci"
+RPROVIDES:${PN} += "kiwi-image-docker-requires kiwi-image:docker kiwi-systemdeps-containers kiwi-systemdeps-containers(aarch-64)"
+RDEPENDS:${PN} += "skopeo umoci"
 
 inherit rpm

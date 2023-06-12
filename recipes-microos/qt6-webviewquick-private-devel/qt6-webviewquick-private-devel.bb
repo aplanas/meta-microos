@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6WebViewQuick that 
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-webviewquick-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "4bdde4e156c6db182b885e5c8008abb645e71215ab0fd8c8ec38f1ca2d0069d86d5010845b7b4c4fdb93e03c2c7f4878857733c2cb989fad1287c494bf75508e"
+RPM_NAME = "qt6-webviewquick-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "6f1f19d47d8cf93c0ea83006a7e1c4b7dded46301b6593da94c977c2d9fe7b40f54be8d703ca9d7d14a92aa9c7acf9581cc0ff2dc033d16399abbabf535560d0"
 
 RPROVIDES:${PN} += "qt6-webviewquick-private-devel qt6-webviewquick-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6WebViewQuick)"

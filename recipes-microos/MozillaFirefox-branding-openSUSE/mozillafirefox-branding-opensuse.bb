@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "68"
 
-RPM_NAME = "MozillaFirefox-branding-openSUSE-68-3.6.aarch64.rpm"
-RPM_HASH = "59ea3607ec4beabe2426c04edea0bc6bbc5eea873cb36c335978fe11a47177f034f18fb861728e0ee44f987710014638e26f3d5123eecd01c12e04da21924738"
+RPM_NAME = "MozillaFirefox-branding-openSUSE-68-4.1.aarch64.rpm"
+RPM_HASH = "1cff05c8b0b53295cd9d44037ded1c82bb539799f2db2e58145d0cafbaf673187269a76836b71315828ca996a755f6a80bb218e4fcf20af389274f6c433bd785"
 
 RPROVIDES:${PN} += "MozillaFirefox-branding MozillaFirefox-branding-openSUSE MozillaFirefox-branding-openSUSE(aarch-64)"
 RDEPENDS:${PN} += ""

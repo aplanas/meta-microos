@@ -10,12 +10,12 @@ module, plus a character device 'back end' to pass the SCSI commands \
 through to user-space daemons."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.70_release+865.af13081a1ae5_k6.3.1_1"
+PV = "1.70_release+865.af13081a1ae5_k6.3.4_1"
 
-RPM_NAME = "mhvtl-kmp-default-1.70_release+865.af13081a1ae5_k6.3.1_1-2.20.aarch64.rpm"
-RPM_HASH = "09004313b6740d04e21b279dd1be2e5630e0d3b75fb6e671b3b5b913ffe4481e4788ce58d464ccba9a0d045201f51eae8eeeacc7577974dbb017d911d370436b"
+RPM_NAME = "mhvtl-kmp-default-1.70_release+865.af13081a1ae5_k6.3.4_1-2.23.aarch64.rpm"
+RPM_HASH = "180b509a6773ce5b556091c08ec87b2b21beb4faf6374e7853b5b4c49a61a8d6dc8ab8b9125f9c24550e0d85dbf4bba7fbd1861352625be9a168fabc32898e1f"
 
-RPROVIDES:${PN} += "kmod(mhvtl.ko) mhvtl-kmp mhvtl-kmp-default mhvtl-kmp-default(aarch-64) mhvtl-kmp-default-k6.3.1_1 multiversion(kernel)"
+RPROVIDES:${PN} += "kmod(mhvtl.ko) mhvtl-kmp mhvtl-kmp-default mhvtl-kmp-default(aarch-64) mhvtl-kmp-default-k6.3.4_1 multiversion(kernel)"
 RDEPENDS:${PN} += "/bin/sh coreutils grep kernel-default kernel-uname-r suse-kernel-rpm-scriptlets"
 
 inherit rpm

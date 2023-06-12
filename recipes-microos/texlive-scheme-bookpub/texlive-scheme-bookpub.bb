@@ -7,10 +7,10 @@ are large), nor does it contain additional mathematical or \
 other technical packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn63547"
+PV = "2023.208.svn63547"
 
-RPM_NAME = "texlive-scheme-bookpub-2023.201.svn63547-56.1.noarch.rpm"
-RPM_HASH = "964a18fcec335af6dd42a342b7a6a4846a2c73c57608549011d548a3394ed0ffed2795ba19a5e59e86dfb7157199ee9cf25b975dacdd8665820ea76d6be01aa6"
+RPM_NAME = "texlive-scheme-bookpub-2023.208.svn63547-58.1.noarch.rpm"
+RPM_HASH = "f62f89444c7b4db20b759133891db4a5969bb25e820a7c5527f35910586ebd0458cbc19c6c7689f642d2db1a8b58ba3f7bb846501996eb12bfb7928b3ac3fab4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-bookpub"

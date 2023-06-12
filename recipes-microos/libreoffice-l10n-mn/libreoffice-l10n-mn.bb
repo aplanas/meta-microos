@@ -2,10 +2,10 @@ SUMMARY = "Monglolian localization files for LibreOffice"
 DESCRIPTION = "Provides Monglolian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-mn-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "4425eaf6fb758dfe7151dd1568f3204b04d80405caf8ccb9db24e4055af4c49f56118260ee241c337ca58835a9a7a9772c59cefe83afc9e8f86611ad0dbfc6ab"
+RPM_NAME = "libreoffice-l10n-mn-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "b4f6c882630ae5c6e5efdb4b5543f408f9f8eda262a93f37a6e6b10570233f95b25975b9d9d441e534391f6c8a428a2930bc96366a69a83d012e23746b2f3aeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-mn libreoffice-l10n-mn locale(libreoffice:mn)"

@@ -8,10 +8,10 @@ it provides an API based on coroutines, making it easy to write highly \
 concurrent applications."
 LICENSE = "BSD-3-Clause"
 
-PV = "10.4"
+PV = "11.0.3"
 
-RPM_NAME = "python39-websockets-10.4-2.1.aarch64.rpm"
-RPM_HASH = "250a4aa17121742039325933f932da43707783c89c55ebbdcb5f928ba01aa27b0607eefccb314b9ecd7b44422fc2c8bc0a87464aa033abe48f6fc16a07ed7833"
+RPM_NAME = "python39-websockets-11.0.3-2.1.aarch64.rpm"
+RPM_HASH = "1dc34ab313b32aed81a90ba1e8750dcc2668c322585c655276c64e0b96eb9bc1f88a7efd4594f8a51b557dfa912300f76dba4b03411af38489a7e1c668f9bf23"
 
 RPROVIDES:${PN} += "python3.9dist(websockets) python39-websockets python39-websockets(aarch-64) python3dist(websockets)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"

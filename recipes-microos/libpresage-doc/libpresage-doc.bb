@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "libpresage-doc-0.9.1-12.6.noarch.rpm"
-RPM_HASH = "d033b08fd43c72c907c839301271e4b997573488bd1082b0c433f542c2773360c14d7f9ed553ec8c6bc1cc302449886c4a9d0f875af2fb337399ef6fec825dae"
+RPM_NAME = "libpresage-doc-0.9.1-13.1.noarch.rpm"
+RPM_HASH = "c89c2b3118c803a43d8ffbe3490dc9125f964bcdc908aced7aab8acb4b72122abf6378d5fb739ce4c6ace34bf441ebc6ec01300f9b769a24c8f65fa130fabcf3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpresage-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a module for accessing Mac OS X image files
 qemu-img tool and QEMU system emulation."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "7.1.0"
+PV = "8.0.2"
 
-RPM_NAME = "qemu-block-dmg-7.1.0-16.1.aarch64.rpm"
-RPM_HASH = "374d55a5e2fc2a56edd2a4606302d4f5878a6b19bed7fd7ede9bbb217847011fd231fe368f5ff1decd82aa99f4045ba66a3472a0651f263a8bbc5bdecb090dcc"
+RPM_NAME = "qemu-block-dmg-8.0.2-1.1.aarch64.rpm"
+RPM_HASH = "feb43fde66e94e2063ff9720511ed00a26dbd6df7cff0dd0083695a9e51c1a64dca26be5a134b017c3d8c8e4dac02029a0a459e8afdbcacbb38543fd9ee233dc"
 
 RPROVIDES:${PN} += "qemu-block-dmg qemu-block-dmg(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbz2.so.1()(64bit) libc.so.6(GLIBC_2.17)(64bit) liblzfse.so()(64bit)"

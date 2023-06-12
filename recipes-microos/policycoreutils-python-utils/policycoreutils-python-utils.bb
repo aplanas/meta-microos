@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "policycoreutils-python-utils-3.5-1.4.noarch.rpm"
-RPM_HASH = "7699f41700e48bdce1db0a18be7bcb2e4c1b8ddee853b6c81952854ffd001597d079197f3fa09af7215e729b7768c3b2263c06d39d79f3b00a16d932c63adeeb"
+RPM_NAME = "policycoreutils-python-utils-3.5-2.1.noarch.rpm"
+RPM_HASH = "97cdadc35bc48248318ad15d9b24eaf939567a62a2fdd7ee56a9e6936d379c9fa4fb4876382bec43277b1794a82ba40d6c786e8316ce2ed39137dafdf14dad3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "policycoreutils-python-utils"

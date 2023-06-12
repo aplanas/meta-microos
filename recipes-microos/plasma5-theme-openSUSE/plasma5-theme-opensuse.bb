@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-4.0 & GPL-2.0-or-later"
 
 PV = "84.87~git20230131T131056~433af24"
 
-RPM_NAME = "plasma5-theme-openSUSE-84.87~git20230131T131056~433af24-6.1.noarch.rpm"
-RPM_HASH = "e3d674ed36fa64cfd9a5e24a500ee3937964b2c94afa0ed321b64e064685722d348907367b5b76c11dbbf9d318510cb392af7cf133127e67b5e8521b568fa814"
+RPM_NAME = "plasma5-theme-openSUSE-84.87~git20230131T131056~433af24-7.1.noarch.rpm"
+RPM_HASH = "3184bf5c5296ffcb3de9cc9b3488b619ecf531cdd867e9a23261ae68dd8200c4186379a0b39a6d3df49f5fbd44f4757ca8c9944f46b60b3fef76af33218548bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plasma5-desktop-branding-openSUSE plasma5-theme-openSUSE"

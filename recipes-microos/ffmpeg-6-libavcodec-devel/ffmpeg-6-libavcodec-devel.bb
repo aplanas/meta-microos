@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.0"
 
-RPM_NAME = "ffmpeg-6-libavcodec-devel-6.0-2.1.aarch64.rpm"
-RPM_HASH = "e0c60ea22cc27a505677a14f0ba1e1fa04293af39ab67a94f3d5aede3d9fd5eaf595bd752d302941e3929f6e0fd88bbbdd15306266ac5a39ef9b9b1109b45e2d"
+RPM_NAME = "ffmpeg-6-libavcodec-devel-6.0-2.2.aarch64.rpm"
+RPM_HASH = "fc8c49fc1c4ba928efec2e87ededa5498fa8eeddd21b6bd238cf8e4ebc93d63c5a7450cbdcf513a77c85c242688e3afd49d8c0fd7770e1f116b2a02d058b5ca5"
 
 RPROVIDES:${PN} += "ffmpeg-6-libavcodec-devel ffmpeg-6-libavcodec-devel(aarch-64) libavcodec-devel pkgconfig(libavcodec)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config ffmpeg-6-libavutil-devel libavcodec60 pkgconfig(libavutil) pkgconfig(libswresample)"

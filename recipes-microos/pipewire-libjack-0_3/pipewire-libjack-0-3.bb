@@ -12,12 +12,12 @@ Some of its features include: \
 This package provides the PipeWire replacement libraries for libjack."
 LICENSE = "MIT"
 
-PV = "0.3.69"
+PV = "0.3.71"
 
-RPM_NAME = "pipewire-libjack-0_3-0.3.69-2.1.aarch64.rpm"
-RPM_HASH = "d16f6df490891e01789f8aae0f7ff5e09efc3f24f7b9f161a2438a44c85d5f945c69cf90aa4220827fa3882583a6b787b40f264c2f8ba49309b949e991680be4"
+RPM_NAME = "pipewire-libjack-0_3-0.3.71-3.1.aarch64.rpm"
+RPM_HASH = "b87bfbccb990697c8db743c73accfde875bf7eac0651c691f13e0f7a506cdc71df764e8941cfebf84c0732517836c3d2d2f08d3b2a9832f4809a6362c21b309a"
 
-RPROVIDES:${PN} += "config(pipewire-libjack-0_3) libjack.so.0()(64bit) libjacknet.so.0()(64bit) libjackserver.so.0()(64bit) pipewire-libjack-0_3 pipewire-libjack-0_3(aarch-64)"
+RPROVIDES:${PN} += "libjack.so.0()(64bit) libjacknet.so.0()(64bit) libjackserver.so.0()(64bit) pipewire-libjack-0_3 pipewire-libjack-0_3(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libpipewire-0.3.so.0()(64bit) update-alternatives"
 
 inherit rpm

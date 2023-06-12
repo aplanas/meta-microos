@@ -2,10 +2,10 @@ SUMMARY = "Development files for libFcitx5GClient"
 DESCRIPTION = "This package provides development files for libFcitx5GClient."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.22"
+PV = "5.0.23"
 
-RPM_NAME = "libFcitx5GClient-devel-5.0.22-1.3.aarch64.rpm"
-RPM_HASH = "abde28f185c2d4bf30a45db1c1a8960a5d6bc9420a0d6573d3edfcd1adf51d80256337b8dccbffe4399c5fd3e04085c7b977bea107f479cf5403b059ad650f79"
+RPM_NAME = "libFcitx5GClient-devel-5.0.23-1.1.aarch64.rpm"
+RPM_HASH = "27b2fdaacabf34b68a8bfe51c19444ffea90938d93a5d7624d2f04d8d31e0e99b732f3bc6a49fc038e2eb1c7d3f2a02c79c04258bdb5000b2633aae287cdf27c"
 
 RPROVIDES:${PN} += "cmake(Fcitx5GClient) libFcitx5GClient-devel libFcitx5GClient-devel(aarch-64) pkgconfig(Fcitx5GClient)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libFcitx5GClient2 pkgconfig(gio-2.0) pkgconfig(gobject-2.0)"

@@ -2,10 +2,10 @@ SUMMARY = "Send responses to httpx"
 DESCRIPTION = "Send responses to httpx."
 LICENSE = "MIT"
 
-PV = "0.21.2"
+PV = "0.22.0"
 
-RPM_NAME = "python311-pytest-httpx-0.21.2-1.3.noarch.rpm"
-RPM_HASH = "b85b8ffdf86a8b6ba8ed30d32535b8c0acaa02aac1f739a90a4b9184d95b3494a537bedd3a88a059150e8c240c5694aa14ac847ae79ae65fca0ef6e48547f482"
+RPM_NAME = "python311-pytest-httpx-0.22.0-1.1.noarch.rpm"
+RPM_HASH = "d6b78453c25a700216cf4c3172f7f874af6ba7e23bee486c9becf8d3709b73ad8acee2ed144534b636b0649128ab5cb324161dfaaea446e1de413751d9d9da1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(pytest-httpx) python311-pytest-httpx python3dist(pytest-httpx)"

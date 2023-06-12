@@ -8,12 +8,12 @@ This package contains all necessary include files and libraries needed \
 to develop plugins for Weston."
 LICENSE = "CC-BY-SA-3.0 & MIT"
 
-PV = "11"
+PV = "12.0.1"
 
-RPM_NAME = "weston-devel-11-3.1.aarch64.rpm"
-RPM_HASH = "b849253c871220646b966c6227ab2f8f37a11c0a59f67b171ec6debef96c406f0d66e5a76ee62c0590c655ecb304cf3bdad076821b96b87b13bc847a792769b0"
+RPM_NAME = "weston-devel-12.0.1-1.1.aarch64.rpm"
+RPM_HASH = "6324e468862ddcb1f6b3008e1d78c87acc84b4d5caba72e35b6c7381f066c15f270307f3ea6268a658fc257c23917832c1c17e3246ad705b131c8f5eb979eb82"
 
-RPROVIDES:${PN} += "pkgconfig(libweston-11) pkgconfig(libweston-11-protocols) pkgconfig(libweston-desktop-11) pkgconfig(weston) weston-devel weston-devel(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/pkg-config libweston-11-0 pkgconfig(libweston-11) pkgconfig(pixman-1) pkgconfig(wayland-server) pkgconfig(xkbcommon)"
+RPROVIDES:${PN} += "pkgconfig(libweston-12) pkgconfig(libweston-12-protocols) pkgconfig(weston) weston-devel weston-devel(aarch-64)"
+RDEPENDS:${PN} += "/usr/bin/pkg-config libweston-12-0 pkgconfig(libweston-12) pkgconfig(pixman-1) pkgconfig(wayland-server) pkgconfig(xkbcommon)"
 
 inherit rpm

@@ -4,10 +4,10 @@ German, French, ...) have their own collections, depending \
 simply on the size of the support."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66432"
+PV = "2023.208.svn66432"
 
-RPM_NAME = "texlive-collection-langeuropean-2023.201.svn66432-56.1.noarch.rpm"
-RPM_HASH = "98daddd03099027f8492804a06fed27a7c229b0126801531f6731a562e281e8f28b4f55fbb2b40629c0ce7758beed453ec3ebc2d3e0d8963f4566fd867943ee7"
+RPM_NAME = "texlive-collection-langeuropean-2023.208.svn66432-58.1.noarch.rpm"
+RPM_HASH = "bee15b111e3de32e1e218dfd51141aeb5fbfc06090caed381a3476980e075369770bda6e85494abf04537386d938146a116a8a44ff7c43d349fd63170182225c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langeuropean"

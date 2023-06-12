@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "php8-psr-1.2.0-2.4.aarch64.rpm"
-RPM_HASH = "cdd32d3bad3949d943e374b0ad72305fa2eeebd22aa303a359427f55d0d81630b4b582e1c96e491458530f8e5a7fb564a65621455959909cf7fc2db4d4f2666a"
+RPM_NAME = "php8-psr-1.2.0-2.5.aarch64.rpm"
+RPM_HASH = "c56021008afe43f952e9dfd030ef3602b06870e4386cc62d5ffb3ddeea5f2abc8f487ba8548e572af3fbdd76ae81a8a80fa0905ffe83914e65f158f599120c9d"
 
 RPROVIDES:${PN} += "config(php8-psr) php8-psr php8-psr(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) php(api) php(zend-abi)"

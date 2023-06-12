@@ -7,8 +7,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.8.16"
 
-RPM_NAME = "python38-idle-3.8.16-6.1.aarch64.rpm"
-RPM_HASH = "6ba1a3ef52324d4cfb6e5cbc6f5d12e8059a36d6d90d7a65f30b188ece8e77d1b054098fa48531074bd41e6c5d2024e00cc2292dc4259fd90eaa675b3c6e36c1"
+RPM_NAME = "python38-idle-3.8.16-7.1.aarch64.rpm"
+RPM_HASH = "3f68bf70ab75abc319a65ccd85091853b254e6b2769317569443468f42710236fc45e17a8e0ead8de9a73e426c43f34be69d153a11d7bac18719476d75d15e1c"
 
 RPROVIDES:${PN} += "application() application(idle3.8.desktop) config(python38-idle) metainfo() metainfo(idle3.8.appdata.xml) mimehandler(text/x-python) python38-idle python38-idle(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/python3.8 python(abi) python38 python38-tk"

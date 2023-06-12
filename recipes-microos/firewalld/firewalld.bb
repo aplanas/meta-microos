@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "firewalld-1.3.2-1.1.noarch.rpm"
-RPM_HASH = "22e448a3760a98e38a2e83559f22d29b17da33c7cd46e8c3b30a867df992c5cff9b29ad5b8aebc401a750613a4f17547c2aea3b0faebbb2a0d92d5e9f1940ead"
+RPM_NAME = "firewalld-1.3.2-2.1.noarch.rpm"
+RPM_HASH = "776ed9a8e8652714a8e77002cb97db4691b8e529fc980614f062c1571b3e0e70f97c47ffe677fe8672e222fadbb950f75e3edd68fccd4112e021ae5d8ad1ca4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(firewalld) firewalld firewalld-prometheus-config"

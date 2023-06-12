@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "ocaml-pp-1.1.2-3.6.aarch64.rpm"
-RPM_HASH = "9dc7ac38576c38d383b39630018407e9f3b75e75e1824e7a03fc2a4b42adf6f2257fffb183cd4224ad9c7faf7e89b5719df6cdb3c29d4952cb91948fe1cab6a3"
+RPM_NAME = "ocaml-pp-1.1.2-4.1.aarch64.rpm"
+RPM_HASH = "f36d4b77a4caab01e95d887ed71419daec5f79e3b531bb5dedef1f409b31edbb2e6c0ec1a1c163b3b37179a26c3e00c742aff93cc94072e83b5b6a20edce6caf"
 
 RPROVIDES:${PN} += "ocaml-pp ocaml-pp(aarch-64)"
 RDEPENDS:${PN} += ""

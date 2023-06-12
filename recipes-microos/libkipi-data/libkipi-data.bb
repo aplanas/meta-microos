@@ -2,10 +2,10 @@ SUMMARY = "KDE Image Plug-In Interface - data files"
 DESCRIPTION = "This package contains data files needed by the KDE image plug-in library."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "23.04.0"
+PV = "23.04.1"
 
-RPM_NAME = "libkipi-data-23.04.0-1.1.aarch64.rpm"
-RPM_HASH = "d2e9523e4359e225da59c118efdbeefb4a20d6cdaceee89d1791c186e4b0f6a32dd4d647038477b91135179e6f45689b45b1a0d7dd7577c7ac85805582b3f646"
+RPM_NAME = "libkipi-data-23.04.1-1.1.aarch64.rpm"
+RPM_HASH = "b036ff252fc97a09d630726cf9a5fcfda2e0358d2e5963cc8fefec146e396ba8de7a50311ed37ca3c28cde5166698621aaa038e9d83fe57a15512afa8af395d9"
 
 RPROVIDES:${PN} += "libkipi-data libkipi-data(aarch-64)"
 RDEPENDS:${PN} += ""

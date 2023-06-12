@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.32.2"
 
-RPM_NAME = "direnv-2.32.2-1.3.aarch64.rpm"
-RPM_HASH = "988b9b47b8fa8ac7a2d25b685d4651b1778ace5dfe394cb8ee195ec90df1e3613dac90b39f11e31ad2a9880cff52040527fb9cbccd99690cb1cacd06ec6c5c46"
+RPM_NAME = "direnv-2.32.2-1.4.aarch64.rpm"
+RPM_HASH = "21b138c79e2782c4c6f07489691accb98012f696751a297c7077221ffab5d565f9b03286039a1c6536fe1c809d5617abe86753a806debb16e74367a12165cbd2"
 
 RPROVIDES:${PN} += "direnv direnv(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

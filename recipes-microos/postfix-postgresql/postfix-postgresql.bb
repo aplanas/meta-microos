@@ -6,8 +6,8 @@ LICENSE = "IPL-1.0 | EPL-2.0"
 
 PV = "3.8.0"
 
-RPM_NAME = "postfix-postgresql-3.8.0-2.1.aarch64.rpm"
-RPM_HASH = "16e2187edf606780a8aa80422be5ed81bda550008f2385e6a299daaea634a27bd09661f0e3af13cafe195e927f88662487592d7f0d79658d11359ffd9fdaa557"
+RPM_NAME = "postfix-postgresql-3.8.0-2.2.aarch64.rpm"
+RPM_HASH = "c7877f2e9f71c3128c581737bc134a58e5879aad7efb71a30633be56f15d4f5f73afa08f222ba46be530aa1247953995cb5880dd5fde61b1df1fbe9b56660149"
 
 RPROVIDES:${PN} += "postfix-postgresql postfix-postgresql(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libpq.so.5()(64bit) postfix"

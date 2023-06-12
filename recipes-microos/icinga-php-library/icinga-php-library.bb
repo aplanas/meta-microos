@@ -3,10 +3,10 @@ DESCRIPTION = "This project bundles all Icinga PHP libraries into one \
 piece and can be integrated as library into Icinga Web 2."
 LICENSE = "MIT"
 
-PV = "0.10.0"
+PV = "0.11.0"
 
-RPM_NAME = "icinga-php-library-0.10.0-1.2.noarch.rpm"
-RPM_HASH = "c07b8159a6a20d5752a165ffcd85cfcac9604171d41ac33b877a7ca2ade1617106bd078937a39afbe692d7c27ebbf1ebe9d57416ad61bcb1b1e59fa4367c0d4a"
+RPM_NAME = "icinga-php-library-0.11.0-1.1.noarch.rpm"
+RPM_HASH = "c34731802f41b510486a5920b9f22283c57dee9cd06fa29a7b42572db8d81fa1a7bbf0c384892e646690fa52e253a6abfa2e0c4af9681f0fc1cbf7be5236a309"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icinga-php-library"

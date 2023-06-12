@@ -5,10 +5,10 @@ libdwarf is a library of functions to provide read/write DWARF \
 debugging records."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.6.0"
+PV = "0.7.0"
 
-RPM_NAME = "libdwarf-devel-static-0.6.0-1.3.aarch64.rpm"
-RPM_HASH = "3a6ba74c73b98e8d5006af780353470dc678cfd655f2708212164bfe2a550141b93073ecae04ab493e8d6b17a7d576f6b580f2d998b590d2d91cbe595ea5f36e"
+RPM_NAME = "libdwarf-devel-static-0.7.0-1.1.aarch64.rpm"
+RPM_HASH = "d62013a377d2eefeb32f7472688fe7fa67ff170b7b03a76a24ca93efb4c259482f91734b4812082df6e9c7565493f2e845b4f2a772cfb456e0288263b39fd0e1"
 
 RPROVIDES:${PN} += "libdwarf-devel-static libdwarf-devel-static(aarch-64) libdwarf-devel:/usr/lib64/libdwarf.a"
 RDEPENDS:${PN} += "libdwarf-devel"

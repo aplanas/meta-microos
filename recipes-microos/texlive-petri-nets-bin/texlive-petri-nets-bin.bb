@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn39165"
 
-RPM_NAME = "texlive-petri-nets-bin-2023.20230311.svn39165-89.1.aarch64.rpm"
-RPM_HASH = "5622137adef9e1c3602923f974f678ff0cf308d6d4483776165b171bc25402c5916e8997a2278b77ff69d57b5308c0f30faea86d1c562e174702aa86a0721bc3"
+RPM_NAME = "texlive-petri-nets-bin-2023.20230311.svn39165-91.1.aarch64.rpm"
+RPM_HASH = "c8b62d72a34979e28958f3e4bab07386945c8f8b6bd96c0e27d1f04263dfc916f8d9c90830476e0d7cc084fc1f0f000daa437533309dd5416bf0b2be3dc6f9e9"
 
 RPROVIDES:${PN} += "texlive-petri-nets-bin texlive-petri-nets-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-petri-nets"

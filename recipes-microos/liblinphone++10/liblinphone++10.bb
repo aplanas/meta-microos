@@ -9,12 +9,12 @@ with high speed connections as well as 28k modems. \
 This package contains a C++ library."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "5.2.10"
+PV = "5.2.50"
 
-RPM_NAME = "liblinphone++10-5.2.10-2.3.aarch64.rpm"
-RPM_HASH = "2f0b21d28bc79801ccc4a34779ab3715c87d2dbfb47614b4e2051ba4347dd3548820c94d3b06158e81e1bc30d57fca302ffc6849898c7b414dcbccf8cac1b875"
+RPM_NAME = "liblinphone++10-5.2.50-1.1.aarch64.rpm"
+RPM_HASH = "a50dc52cd1592f49094795cfe34cc8679902f602e0e3bafe68e75bc7b10b9fe820f7e55ee292c7dba33d6dc19a674744d7ce087e67a04259f7344e99e37b8337"
 
 RPROVIDES:${PN} += "liblinphone++.so.10()(64bit) liblinphone++10 liblinphone++10(aarch-64)"
-RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbctoolbox.so.1()(64bit) libbellesip.so.1()(64bit) libc.so.6(GLIBC_2.32)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) liblime.so.0()(64bit) liblinphone.so.10()(64bit) libm.so.6()(64bit) libmediastreamer.so.11()(64bit) libortp.so.15()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
+RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbctoolbox.so.1()(64bit) libbellesip.so.1()(64bit) libc.so.6(GLIBC_2.32)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) liblime.so.0()(64bit) liblinphone.so.10()(64bit) libm.so.6()(64bit) libmediastreamer.so.11()(64bit) libortp.so.15()(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.32)(64bit)"
 
 inherit rpm

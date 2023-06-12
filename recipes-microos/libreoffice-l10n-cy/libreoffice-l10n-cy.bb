@@ -2,10 +2,10 @@ SUMMARY = "Welsh localization files for LibreOffice"
 DESCRIPTION = "Provides Welsh translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-cy-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "96b9c6868ad3f4333f2419647ce1b422783a3ea3447c715410ce71ed2c93a5581c4c4668fb857110359fa8adee219cc8790425ba912c128605e56a616eec20c1"
+RPM_NAME = "libreoffice-l10n-cy-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "a4e3f299e49aa10138db98bd73df18facbaab0320ac517518b6dc1ffcc1a5dd08ffe38adaf60c1a1e740c3f3bace516d64174a0d449cbde9cff433bd765b1528"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-cy libreoffice-l10n-cy locale(libreoffice:cy)"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.3.13"
 
-RPM_NAME = "q4wine-lang-1.3.13-1.16.noarch.rpm"
-RPM_HASH = "0ac8b0e414bdf79bea32f44a43eef85b61f2a1105bef25c301e09533fd805f2a162eb84f98f424943212e06122b72c38eb16b94a82eb739c9966617e01066772"
+RPM_NAME = "q4wine-lang-1.3.13-1.17.noarch.rpm"
+RPM_HASH = "68a8cf89ee35775492707c1067ce3d574cc088fcd7966e822fdf4dd6e2a67df752948d49d01acc27313b7b5002064ab413e9254a9ca1f03f02a494e1e29fead7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "q4wine-lang q4wine-lang-all"

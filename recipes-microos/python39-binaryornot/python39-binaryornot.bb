@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.4"
 
-RPM_NAME = "python39-binaryornot-0.4.4-3.15.noarch.rpm"
-RPM_HASH = "bdd115235cdba7355a98455f187f708040ef732f1ab5ec0c3ffd2c5db89dbe257d320c25d9d8fabad62cbab0bd03e6a6911f4fe6d1dd746293655cfe3e811eca"
+RPM_NAME = "python39-binaryornot-0.4.4-4.1.noarch.rpm"
+RPM_HASH = "8b7843823fa800272256f47940ff8a98f22e2455a57266bb295f0eff41a719a3b7876a506b276df6b9a37480dd0d4d6f0a19b423b659a1dff593214e9afbfc92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(binaryornot) python39-binaryornot python3dist(binaryornot)"

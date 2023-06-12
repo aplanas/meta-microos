@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.7"
 
-RPM_NAME = "ghc-containers-doc-0.6.7-1.1.noarch.rpm"
-RPM_HASH = "380d3da32aaf9ce36003a72f834357d1b43a8c9c504e491de84fc40388983aa1e542e5f4262fb03e39a6443ebc40f2716850c8207b4c7703dfbae019f978ca8e"
+RPM_NAME = "ghc-containers-doc-0.6.7-3.1.noarch.rpm"
+RPM_HASH = "c451219c0564aa78a65d27d4f9ecbba3e81b308cc0c22c40c4032723c7816d28e876813197aec5b999153c1395f5ea17a77677b26a733311de57f90c89c0cb2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-containers-doc"

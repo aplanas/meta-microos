@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.11.4"
 
-RPM_NAME = "icingaweb2-vendor-zf1-2.11.4-1.1.noarch.rpm"
-RPM_HASH = "caeae8bf015fe9c6c98bda59b4d0240cec772fad03d17c79fe4a843d92cb000a3ddba9e307f3488149201b5e7a3669102772d5124cd38f45298ff15b5155727f"
+RPM_NAME = "icingaweb2-vendor-zf1-2.11.4-2.1.noarch.rpm"
+RPM_HASH = "aff5c5b7a6c4a424efd1f32025504ffe6315da08a4e7da07e21f520b253444490f3439534eeb5c50e7b07ced59f279b3c8778b9499c71b0e859d9e2e77427dcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-vendor-Zend icingaweb2-vendor-zf1"

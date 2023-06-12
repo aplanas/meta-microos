@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "gcc7-testresults-7.5.0+r278197-12.5.aarch64.rpm"
-RPM_HASH = "bdcc698e6522de154261d502586e3abf6566ec3fdf88ea69e068da3fccf082fea1a04c79bc6976ee6f07eee4bc1f5c6566d482cdd51e2e8ed2b358aaac2dba4c"
+RPM_NAME = "gcc7-testresults-7.5.0+r278197-14.1.aarch64.rpm"
+RPM_HASH = "833baed7bdea97220dcccaa3636fd78330ad9bff7c980a075a92e180bab50884ebf0d3d71a0a0d61b8e51060d9f6a027cdacc4de091aea49c7f37670e21fe282"
 
 RPROVIDES:${PN} += "gcc7-testresults gcc7-testresults(aarch-64)"
 RDEPENDS:${PN} += ""

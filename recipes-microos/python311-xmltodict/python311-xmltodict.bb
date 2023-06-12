@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.13.0"
 
-RPM_NAME = "python311-xmltodict-0.13.0-1.4.noarch.rpm"
-RPM_HASH = "3df9055fb0fb6828f9a4bc25a722fb5621975192b7a09ee35591c57847ac1dc3e2ea263010b7a33e72f3c55f9698be17a241725462d4d7ba309136947a5762cc"
+RPM_NAME = "python311-xmltodict-0.13.0-2.1.noarch.rpm"
+RPM_HASH = "9c11e522b4110ee921d212fe39e3601277ce1f9e0902d8153459f6cff2b19e3ceaeff2f445831636c436c69b3dc97dde5771c589779cc32570891a68cfedeb02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(xmltodict) python311-xmltodict python3dist(xmltodict)"

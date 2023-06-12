@@ -2,10 +2,10 @@ SUMMARY = "Fastest Python implementation of JSON schema"
 DESCRIPTION = "Fastest Python implementation of JSON schema"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.16.3"
+PV = "2.17.1"
 
-RPM_NAME = "python311-fastjsonschema-2.16.3-1.2.noarch.rpm"
-RPM_HASH = "603a0a28cd2865a4a766a544f6904d97d3a83e405db2aba32122ff3a8d0a130219f226c59c578a7e079c6749a683dfa69721dec55042499e0ba1887d4863c714"
+RPM_NAME = "python311-fastjsonschema-2.17.1-1.1.noarch.rpm"
+RPM_HASH = "ce4d518829af8f7588e31f67797c9a8c6beb30f1b7bbfcf3d937c277adb9c3001914051455e5995cee2c10e195aa0e25ee1ae6523c3f7c56d6d060a11b0e41c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(fastjsonschema) python311-fastjsonschema python3dist(fastjsonschema)"

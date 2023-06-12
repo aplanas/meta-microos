@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.15.2"
 
-RPM_NAME = "restic-bash-completion-0.15.2-1.1.noarch.rpm"
-RPM_HASH = "bcfbce4fe934d68cb1eae4b591a08977e76c6a82dcd5e60fc7dc7020f5ad361bfe63006f118e5d4b4cd2cd08be63fc205474e3d7d03509e7bcc758b87ef4fe7f"
+RPM_NAME = "restic-bash-completion-0.15.2-1.2.noarch.rpm"
+RPM_HASH = "15551d4a4e39e71c7048b7a31bdb7d23ece06c7a8ac163549913bdb4d1104566a3d963978ff2486a24b9b9f926aeef9419734b7121c82ed67695aa82fa626048"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "restic-bash-completion"

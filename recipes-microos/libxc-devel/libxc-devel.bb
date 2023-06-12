@@ -9,10 +9,10 @@ meta-GGAs. The library provides values for the energy density and its \
 This package contains development headers and libraries for libxc."
 LICENSE = "MPL-2.0"
 
-PV = "6.0.0"
+PV = "6.2.0"
 
-RPM_NAME = "libxc-devel-6.0.0-1.3.aarch64.rpm"
-RPM_HASH = "c6cea852ebd42f76282b6b3e63febe5e4065a727f5ddaae1e13bc975009db0d3b8bf63d70b2263b72e111902d9d31030af4033a7550018192c112b96d9f25e38"
+RPM_NAME = "libxc-devel-6.2.0-1.1.aarch64.rpm"
+RPM_HASH = "117f5e347a84ada1b2ae51b74486af5a8057bfd2776777286511aa5f06155142ccdc6fef188407c3a8f7d8b7d1d2f9029b35ba6b474917cb070e1e1ba5b25ffd"
 
 RPROVIDES:${PN} += "libxc-devel libxc-devel(aarch-64) pkgconfig(libxc) pkgconfig(libxcf03) pkgconfig(libxcf90)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libxc.so.12()(64bit) libxc12"

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-docker-pycreds-0.4.0-1.15.noarch.rpm"
-RPM_HASH = "2547c97974a516de2fd585850a502def03a7d1d196d5520fcecba8d7537ab1d4a7ac27b49c9e8dd9c0e41accbd7ddb8e85b8b8cfea797f0e6b8821710b3837dc"
+RPM_NAME = "python310-docker-pycreds-0.4.0-2.1.noarch.rpm"
+RPM_HASH = "06a8a380c5d1ae20fb4676e58003502eb83df7a35a4b7459b649f2c5906124a20c5ee7ea0fbe2539475717dd2e024b5e194e2504c95f59a42c13fad50ec33e5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-docker-pycreds python3.10dist(docker-pycreds) python310-docker-pycreds python3dist(docker-pycreds)"

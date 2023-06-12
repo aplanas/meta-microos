@@ -4,10 +4,10 @@ BasicTeX variant. It adds XeTeX, MetaPost, various \
 hyphenations, and some recommended packages to scheme-basic."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54191"
+PV = "2023.208.svn54191"
 
-RPM_NAME = "texlive-scheme-small-2023.201.svn54191-56.1.noarch.rpm"
-RPM_HASH = "ac6a2dd0776162da559cabea48e542b85cde815385bc0045824faeeb24eacaf0982ed0f26df055f296051b7248c62cda64148b2416f0927bd60db3bfa29a3171"
+RPM_NAME = "texlive-scheme-small-2023.208.svn54191-58.1.noarch.rpm"
+RPM_HASH = "96bf73b553c286f26939627e0e9f3b8373be50eb52e7380cf66623fe4eed2a3a75e036db196df37dcd757fc0f9ed71150b770ccebc1591a308a57b41c7cbbaf0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-small"

@@ -8,10 +8,10 @@ JAR (Java Archive) file. The usage is quite simple; download our sqlite-jdbc \
 library, then append the library (JAR file) to your class path."
 LICENSE = "Apache-2.0"
 
-PV = "3.41.2.1"
+PV = "3.42.0.0"
 
-RPM_NAME = "sqlite-jdbc-3.41.2.1-1.1.aarch64.rpm"
-RPM_HASH = "ef6e921c8ab0edfa793e1e0dccf876abedd21b5c8d4d39816abea71c850a472e363a9e8d470714a2ffe3ea043c80159be6b1a25cb9f42df61aeec76d26334391"
+RPM_NAME = "sqlite-jdbc-3.42.0.0-1.1.aarch64.rpm"
+RPM_HASH = "f192cffcb1f92030cae3bb5a8847078e3a8b438f18cba4bd3b96ba92a42e95399ef29c79becdfe561851232f6276906c2d55b1c35b4a0824b5a26a1900fadf33"
 
 RPROVIDES:${PN} += "mvn(org.xerial:sqlite-jdbc) mvn(org.xerial:sqlite-jdbc:pom:) osgi(org.xerial.sqlite-jdbc) sqlite-jdbc sqlite-jdbc(aarch-64)"
 RDEPENDS:${PN} += "java-headless javapackages-filesystem"

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.59.0"
 
-RPM_NAME = "kubevirt-virt-operator-0.59.0-3.1.aarch64.rpm"
-RPM_HASH = "45d7112592671703c39ab138cc5be63fc0e4b6821638b56a1503c03f258ed361847061705858d1159d32b9dcff527ae348652567fa07f14e1612030d664f8f82"
+RPM_NAME = "kubevirt-virt-operator-0.59.0-3.2.aarch64.rpm"
+RPM_HASH = "4f0eff8d379a5085016df18d5f8e8768d1919c24fadda180e82f19f6e00fad44337ebff38f7f0fbc999bf892ec11ddeb090fb6e5a8669bb16aa1fd00142daef8"
 
 RPROVIDES:${PN} += "kubevirt-virt-operator kubevirt-virt-operator(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

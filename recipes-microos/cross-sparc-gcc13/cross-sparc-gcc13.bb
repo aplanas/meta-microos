@@ -5,10 +5,10 @@ Note this is only useful for building freestanding things like the \
 kernel since it fails to include target libraries and headers."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.0.1+git7231"
+PV = "13.1.1+git7364"
 
-RPM_NAME = "cross-sparc-gcc13-13.0.1+git7231-1.1.aarch64.rpm"
-RPM_HASH = "f1850486eea5d704f896a794424a286cfe82247f98965101bb0cdd21bcd783e69920bc7510bf14d6bd93dd6393aaed8b5fcbfd11b9d80a38bd1a53082f842143"
+RPM_NAME = "cross-sparc-gcc13-13.1.1+git7364-1.1.aarch64.rpm"
+RPM_HASH = "ada655aabf11ea27c526d82f7e1ed3a5f2cacbd87f9a08328bc57c6792f065efe15a4245530ee3e63508b63e224a0fa4f023746ee65698c230f91d15c4a14a17"
 
 RPROVIDES:${PN} += "cross-sparc-gcc13 cross-sparc-gcc13(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh cross-sparc-binutils libstdc++6-devel-gcc13 update-alternatives"

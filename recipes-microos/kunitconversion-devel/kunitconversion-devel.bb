@@ -5,10 +5,10 @@ well as converting between different unit systems (e.g. liters, gallons). \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.105.0"
+PV = "5.106.0"
 
-RPM_NAME = "kunitconversion-devel-5.105.0-1.1.aarch64.rpm"
-RPM_HASH = "8cf604dc2dc2f569c9021df05b47614dd8a7d3e592dc3d262d279789674bb935c46f579fe9bbdba31670353de7f0fba0b129bcf190ca885a3c4b4cae46257342"
+RPM_NAME = "kunitconversion-devel-5.106.0-1.1.aarch64.rpm"
+RPM_HASH = "16c3153745dfd9ff666c89e4a3ae415947c6285cde75c81282ff17ce46a8542d63cd64ab3ae72f6c965c0db93a1e753011c570d8a7e5e83fe3b3a83de27a3290"
 
 RPROVIDES:${PN} += "cmake(KF5UnitConversion) kunitconversion-devel kunitconversion-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt5Core) extra-cmake-modules libKF5UnitConversion5"

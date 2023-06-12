@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides API Documentation for the Budgie Plugin API
 GTK-Doc HTML format."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "10.7.1+20"
+PV = "10.7.2+0"
 
-RPM_NAME = "budgie-desktop-doc-10.7.1+20-1.1.aarch64.rpm"
-RPM_HASH = "86ae590df56bcc5ef0e66ffd2ada33fb0b9b5187efb6a7c497bd0e77975adc955c13a7acea3dff0c8a26922f1e2dee378ee15aae71b2754b918479ace5ea9a11"
+RPM_NAME = "budgie-desktop-doc-10.7.2+0-1.1.aarch64.rpm"
+RPM_HASH = "7120d7eea888f23879daed41fe293e08910182cb92fc68a2722b1182162978cd54dce0af8fcbde156e4bffc9acee235ff8606799affcf1b9a4d1e2a494a2e7b0"
 
 RPROVIDES:${PN} += "budgie-desktop-doc budgie-desktop-doc(aarch-64)"
 RDEPENDS:${PN} += ""

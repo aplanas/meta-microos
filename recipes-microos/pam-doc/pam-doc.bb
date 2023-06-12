@@ -6,10 +6,10 @@ having to recompile programs that do authentication. \
 This package contains the documentation."
 LICENSE = "GPL-2.0-or-later | BSD-3-Clause"
 
-PV = "1.5.2.90"
+PV = "1.5.3"
 
-RPM_NAME = "pam-doc-1.5.2.90-1.1.noarch.rpm"
-RPM_HASH = "c4ca819f5b808bda11cb1230c938a3c88aca1e9d6499f9aec927d85b1d2af4e0a522dbe53afb3292dcf74e80b553fadbc03ad1a1358079a18c52e116b925ba6a"
+RPM_NAME = "pam-doc-1.5.3-1.1.noarch.rpm"
+RPM_HASH = "f9b19964258bd6e1b3fb363f73c4ea90c799047518ba71789f9672f2ec34d0f9f623630765eb55a66706fd9b1b3afb08b3bd65f4a103e634ea56a97d783f4c25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pam-doc"

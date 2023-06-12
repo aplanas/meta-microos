@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.20.15"
 
-RPM_NAME = "kubernetes1.20-client-bash-completion-1.20.15-2.1.noarch.rpm"
-RPM_HASH = "8e93e37d9145659711daf9234ed23f8dde86a2374d1b9239a059fb16d5f7524dfff19708264f11de0aa3c34ad5c66b1cbdc61cdd8c5cf227d838360bc5aef595"
+RPM_NAME = "kubernetes1.20-client-bash-completion-1.20.15-2.2.noarch.rpm"
+RPM_HASH = "af92a1491f4dfded8118d4d1b0db0a2542b634e77c7a9bc20c3364a591d93d74c2b373359e475531092a59f3c6bb272089c339834db40ee3b8991f4468c6e250"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubernetes-client-bash-completion kubernetes1.20-client-bash-completion"

@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.7"
 
-RPM_NAME = "libcdr-devel-doc-0.1.7-1.17.noarch.rpm"
-RPM_HASH = "a5c9b210babc85fd8f0d31f8f9c0f1873883c9c05e147ae9ccddddebb5734a2b573108ff9b91640441886e984f91586066244d00e1d1fb1f69410a57a8c300c1"
+RPM_NAME = "libcdr-devel-doc-0.1.7-1.18.noarch.rpm"
+RPM_HASH = "0d292030abf175dc343fc62e9d26b9312b7a51af6d0bbddbd33eff5310d3bc74d0ae6f06317666cb05cfac3978b86b22655dc0eaae8c37ae008ba9fbbe545cb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcdr-devel-doc"

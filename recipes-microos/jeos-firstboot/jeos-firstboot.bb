@@ -3,13 +3,13 @@ DESCRIPTION = "Simple text based JeOS first boot wizard that can be used instead
 of the line based one that is built into systemd."
 LICENSE = "MIT"
 
-PV = "1.2.0.5"
+PV = "1.2.0.6"
 
-RPM_NAME = "jeos-firstboot-1.2.0.5-1.1.noarch.rpm"
-RPM_HASH = "a86e6f8c2d710585820bfcb05653b5bc76ecd85fec906c7fa9d9af5ce740df015754306b27fe8d92e5bf695ff48c15fdd16ff61836dc022471582db4041d2506"
+RPM_NAME = "jeos-firstboot-1.2.0.6-1.1.noarch.rpm"
+RPM_HASH = "7b32928b46eb1792f820bb1330f02fe63f9f5528c5c8eed849b847f87a6a7e13c2c43eb955cfc20de42c2d2a5631da16325e00a6806ac43697532c88d42a8711"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeos-firstboot"
-RDEPENDS:${PN} += "/bin/bash /bin/sh dialog iproute2 live-langset-data systemd timezone"
+RDEPENDS:${PN} += "(/usr/bin/nmtui if NetworkManager) /bin/bash /bin/sh dialog iproute2 live-langset-data systemd timezone"
 
 inherit rpm

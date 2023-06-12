@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20210330"
 
-RPM_NAME = "patterns-server-mail_server-32bit-20210330-4.1.aarch64.rpm"
-RPM_HASH = "f87664dc44f46c517b6d76c52f6a87442154543986539ccc2bd08457393db9728a06577abac9d4d02622bef886e74dba4a6d8589652536348fc0e23441a29a95"
+RPM_NAME = "patterns-server-mail_server-32bit-20210330-5.1.aarch64.rpm"
+RPM_HASH = "2800a4ec8de228bc4d7b672ae127d55a45703c28203fe8dbee6591df057964e58cfebec8f0e63baf235572bdf1f5cb9e2d04b634d614b33c5fd93022dfc89bc1"
 
 RPROVIDES:${PN} += "pattern() patterns-server-mail_server-32bit patterns-server-mail_server-32bit(aarch-64)"
 RDEPENDS:${PN} += ""

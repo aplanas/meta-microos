@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "python311-pecan-1.4.2-2.5.noarch.rpm"
-RPM_HASH = "4cd5432ba9b5c542947486f259af408ad81b56cbe1dff16b373badf2797b430f0153b98367fbc14864673ece997f428291b7d0435fcb17b95b8b7b24e36531a1"
+RPM_NAME = "python311-pecan-1.4.2-3.1.noarch.rpm"
+RPM_HASH = "4035389ca6993daefa9e10a7ff6bc972719a761b1ddfef710497fb5c71bb2de4dfb7220d36b16a13b6fa61a582664bac44f993f4028e8bd7446fba84b8342929"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(pecan) python311-pecan python3dist(pecan)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 alts python(abi) python311-Mako python311-WebOb python311-WebTest python311-logutils python311-setuptools python311-six"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 alts python(abi) python311-Mako python311-WebOb python311-WebTest python311-logutils python311-setuptools"
 
 inherit rpm

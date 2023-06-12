@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "deepin-gir-generator-2.1.0-1.8.aarch64.rpm"
-RPM_HASH = "7073ddd40808a4f7a0d46d288cdf997c80a35df53f243244ab8546bfe28089427975f7ec1c6bc009ba77bea7fefff0b2f0140882baf960ca5bf7278944224ac6"
+RPM_NAME = "deepin-gir-generator-2.1.0-1.10.aarch64.rpm"
+RPM_HASH = "eea34aab4cee078458105850ee0eaf8c4019be5c72bf28eac6a1027c0fb5ab0466b8968e7ed89796d68b1d7b98f1d6ea92020b5f4a53db24741a24d2658669b7"
 
 RPROVIDES:${PN} += "deepin-gir-generator deepin-gir-generator(aarch-64) go-gir-generator"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) libgirepository-1.0.so.1()(64bit) libglib-2.0.so.0()(64bit)"

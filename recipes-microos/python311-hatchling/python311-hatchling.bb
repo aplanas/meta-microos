@@ -2,10 +2,10 @@ SUMMARY = "Build backend used by Hatch"
 DESCRIPTION = "This is the extensible, standards compliant build backend used by Hatch."
 LICENSE = "MIT"
 
-PV = "1.14.1"
+PV = "1.17.0"
 
-RPM_NAME = "python311-hatchling-1.14.1-1.1.noarch.rpm"
-RPM_HASH = "35d1280546b30ec6b227d15badd2dfd7fff8553e46ca4714caa03b90cd2bc125149c6111372e1e8c457ed591eb54ace8ee4801171b7fac7243fe548e37b45f7e"
+RPM_NAME = "python311-hatchling-1.17.0-1.1.noarch.rpm"
+RPM_HASH = "73ae6f7eb2b66d347dad61ada1a21a66795216a6c4ad2e2568828c2cb22e432142b1f5a0ff2535b009d66c7a250539116e81a48750bcff58dbc3bda2efa7b3b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(hatchling) python311-hatchling python3dist(hatchling)"

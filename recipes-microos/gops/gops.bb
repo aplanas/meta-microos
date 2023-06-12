@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause-Clear"
 
 PV = "0.3.25"
 
-RPM_NAME = "gops-0.3.25-1.5.aarch64.rpm"
-RPM_HASH = "d368d77f4668c49cfa0bc715d3ab000662f5691d2c332fa8a2f1a43d367ca8be261050cea584749ff282bd895b2d96b7a8774d7e88d555e63bfd2bae2df6f8d1"
+RPM_NAME = "gops-0.3.25-1.6.aarch64.rpm"
+RPM_HASH = "e69f4b2f5e5bb609a7b8bc0e0e6ede3ddf0afdf188ff7e9ae90cd27ca5156ef8a1dc665a9f26c42bfbfdb15f5180c98dae6d3c85854d312df623f0b62c9e898c"
 
 RPROVIDES:${PN} += "gops gops(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

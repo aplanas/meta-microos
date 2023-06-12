@@ -6,10 +6,10 @@ Signal receivers can subscribe to specific senders or receive signals \
 sent by any sender."
 LICENSE = "MIT"
 
-PV = "1.5"
+PV = "1.6.2"
 
-RPM_NAME = "python311-blinker-1.5-3.1.noarch.rpm"
-RPM_HASH = "5532c26be2592fef517394377a1cea4b76288716200544f6e2a4e142d1e45487d32e6e28b44061edd8b2fc8a55d3db0856fbff9d0b781c620059491ee36f8fec"
+RPM_NAME = "python311-blinker-1.6.2-1.1.noarch.rpm"
+RPM_HASH = "ec8dcc07c929688da23fdb168336e9236e829ff4a0505d0250404229af28296abe215e301b9be309d93e359724abeb5af055108c1921ad97f60d8fac58841115"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(blinker) python311-blinker python3dist(blinker)"

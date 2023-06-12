@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "golang-github-prometheus-node_exporter-1.5.0-4.1.aarch64.rpm"
-RPM_HASH = "8186450130b0f259ebf4c76dbe556f2a0c298f56cdbd9b6af91c158a7dbd3879fae278fb347858ff4d64bdddc6cd700b91424ff8906ac89386bdc91a09ab6231"
+RPM_NAME = "golang-github-prometheus-node_exporter-1.5.0-4.2.aarch64.rpm"
+RPM_HASH = "9155c48859eb3bb1d3e91c7720c088696dac97059de9f510e71b9dab922332317e2df12c07085d970d783850633ebf8dcee34b5630854169ace3562a1422f598"
 
 RPROVIDES:${PN} += "golang-github-prometheus-node_exporter golang-github-prometheus-node_exporter(aarch-64) node_exporter prometheus(node_exporter)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch fillup shadow"

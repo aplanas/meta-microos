@@ -18,10 +18,10 @@ My intent here is to make common assertions easy so that we as programmers \
 have no excuse to not use them."
 LICENSE = "Artistic-2.0"
 
-PV = "2.2.0"
+PV = "2.3.0"
 
-RPM_NAME = "perl-Carp-Assert-More-2.2.0-1.1.noarch.rpm"
-RPM_HASH = "4d4b43f5f2e2509e21660707aead16231ff75b52c022b49795008daf0b662e1874ba48c74da343ac56524b336f6c2cccc0460a3a959a0502eb5cd8d2a11399a3"
+RPM_NAME = "perl-Carp-Assert-More-2.3.0-1.1.noarch.rpm"
+RPM_HASH = "942161ed0c36054fec726fa7e030706ecf3e53e34afa1a47800f570369f31b40d264e2f93f42efc256a9088c062a134da1ff2154cb255b4941e1e5de384b591e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Carp::Assert::More) perl-Carp-Assert-More"

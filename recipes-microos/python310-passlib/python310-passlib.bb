@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.4"
 
-RPM_NAME = "python310-passlib-1.7.4-4.7.noarch.rpm"
-RPM_HASH = "168c5305f3a93f2475419e7ab68d51e4becffc2684378d2c0dedf301e2cff5d1b7fa5991b80f8bf08383658331a4ccc3ee3b83af83196764f18a4426e433435e"
+RPM_NAME = "python310-passlib-1.7.4-5.1.noarch.rpm"
+RPM_HASH = "bd59b27ec1a0cb25eaff0c40a0b57d04535036a68ca0069435d93e98de39f07103d4a76a2b3cc3b34964ab7a6089a14870ce41dd72ab0232664e8d54feb65a6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-passlib python3.10dist(passlib) python310-passlib python3dist(passlib)"

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.2.7"
 
-RPM_NAME = "python39-celery-5.2.7-2.2.noarch.rpm"
-RPM_HASH = "76bdd5b99a11c86618d1ee2c6988db21c504e55bc96d129188d832219c572ecd535cfbf0972a88124605d6e5b6a98cece2915064e8d118c7cb29fc85d307ee5b"
+RPM_NAME = "python39-celery-5.2.7-3.1.noarch.rpm"
+RPM_HASH = "0500d8b89d57111d4104d63d4949e06390f13b45feafd08d5633550c6be70f3b3562d6aea711674160f0bdb067425e5b0866f3ef272a57cfef69490fc1063fdf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(celery) python39-celery python3dist(celery)"

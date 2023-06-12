@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.15"
 
-RPM_NAME = "libtspi1-0.3.15-5.6.aarch64.rpm"
-RPM_HASH = "19f2a33c0e3dc09aa921cb70cd0f61e62ea294e1cd1207884fcc70b4d092b482402328c955403d73718461172191c6e29b3f6e0590502e7d77c4c5ca6dbc8b99"
+RPM_NAME = "libtspi1-0.3.15-6.1.aarch64.rpm"
+RPM_HASH = "ac0e908e7cb507897591773cf7794756a5c4f09a3b8bfb60ece18a8a2de1a9f51704be7fc064ad92b638a5844d19194d1182df789a0fa1ab2539713fa7ce76fd"
 
 RPROVIDES:${PN} += "libtspi.so.1()(64bit) libtspi1 libtspi1(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) trousers"

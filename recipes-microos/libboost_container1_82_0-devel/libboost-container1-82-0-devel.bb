@@ -9,8 +9,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "libboost_container1_82_0-devel-1.82.0-1.1.aarch64.rpm"
-RPM_HASH = "cc89da27211f8a21f3abe240d20a71aec395f4f0227cb2ef2e2ded714c9f2c40d685571dbdd470fe629045bd21c420aba898ba9a08a07dfb1b04871ba67e9aaa"
+RPM_NAME = "libboost_container1_82_0-devel-1.82.0-1.2.aarch64.rpm"
+RPM_HASH = "9f2792c2718755883482c2dfd6faea15b4e949e331a185eb0f7d35abeb5ea4e163f69aa9d62bc6f2eed61db9cf54e299a26dc5d8c007420b299e473a473afc19"
 
 RPROVIDES:${PN} += "libboost_container-devel-impl libboost_container1_82_0-devel libboost_container1_82_0-devel(aarch-64)"
 RDEPENDS:${PN} += "libboost_container1_82_0 libboost_headers1_82_0-devel libstdc++-devel"

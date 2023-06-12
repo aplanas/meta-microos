@@ -8,10 +8,10 @@ This should be used in 'trylocal' mode, so that osc is adapting the existing \
 spec file instead of creating a new one."
 LICENSE = "GPL-2.0-only"
 
-PV = "20221113"
+PV = "20230522"
 
-RPM_NAME = "obs-service-format_spec_file-20221113-1.2.noarch.rpm"
-RPM_HASH = "5d2f175f8898640c2ea7c83d31cf0571e4557cd545e80d0050534d6d27b4cecc8ba87a047e61b59ba1e74d29efff7e00db2865a67e3041cb476df51a02625b05"
+RPM_NAME = "obs-service-format_spec_file-20230522-1.1.noarch.rpm"
+RPM_HASH = "a1822e9e3978dedf14fe9b91e6d05ff4cd4da89f7f5245a1aaf258e11edffa7a5469684bc70b287c836307a9aba5943c9ab1ba6d1bff977d8edd32076b0aeed0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-format_spec_file"

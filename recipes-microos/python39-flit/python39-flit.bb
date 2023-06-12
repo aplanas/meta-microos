@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.0"
 
-RPM_NAME = "python39-flit-3.8.0-4.1.noarch.rpm"
-RPM_HASH = "fa8a6be65259daf13d92ab2f4f924776af2c7b873756843ea2dd014dc48d135c0072bee348853e6fc2704c576e4e41dc50e831a64dc654ca536f162bd19af882"
+RPM_NAME = "python39-flit-3.8.0-5.1.noarch.rpm"
+RPM_HASH = "83d795a9a73f077e68ccc27826460ddd2dcf0536823040f36f7ed7bfa5d05b033b29a89705c43ece304254338452bf4885bf452cbf5b916aa6411fb41a0d8e9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(flit) python39-flit python3dist(flit)"

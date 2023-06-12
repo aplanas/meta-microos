@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.2"
 
-RPM_NAME = "inkscape-extensions-scribus-1.2.2-2.3.aarch64.rpm"
-RPM_HASH = "c8fa5acadebd3ca6705cc513a2bc860c354e013da70cf3e0a11d663c943de113d9f49fb9f6c9b7636d1cea5c8c25798648ea0d4f07feca5da7d5ecbd86123ce6"
+RPM_NAME = "inkscape-extensions-scribus-1.2.2-3.1.aarch64.rpm"
+RPM_HASH = "85c7c9388310047638e367a5c9a821f7e8b0e8a19409876c8ce208905748541876c46d78de9e51d3c43bf4bd91122c3aa6edba768b4840eb5f638a5ccade2941"
 
 RPROVIDES:${PN} += "inkscape-extensions-scribus inkscape-extensions-scribus(aarch-64)"
 RDEPENDS:${PN} += "inkscape inkscape-extensions-extra scribus"

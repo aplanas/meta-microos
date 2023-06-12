@@ -2,10 +2,10 @@ SUMMARY = "ConTeXt scheme"
 DESCRIPTION = "This is the TeX Live scheme for installing ConTeXt."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59636"
+PV = "2023.208.svn59636"
 
-RPM_NAME = "texlive-scheme-context-2023.201.svn59636-56.1.noarch.rpm"
-RPM_HASH = "5632ee5a974917fce053015178398a20e4ad91814f1eff5333f1602698c27bfee47b811c61f4d638cec922b9b186d0cb5db9417b337669aa2a29ecd675a63c05"
+RPM_NAME = "texlive-scheme-context-2023.208.svn59636-58.1.noarch.rpm"
+RPM_HASH = "5feb306663d4169f27c9c93a485b2894592a9d16201f8948b465827e086e9e71ead18d208b736e510b58a2ee50dc3e0be12e2bb080badabe86df7e05be246a6f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(context) texlive-scheme-context"

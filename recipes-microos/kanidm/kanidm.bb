@@ -3,10 +3,10 @@ DESCRIPTION = "An identity management platform written in rust that supports RAD
 and more."
 LICENSE = "( Apache-2.0 | BSL-1.0 ) & ( Apache-2.0 | ISC | MIT ) & ( Apache-2.0 | MIT ) & ( Apache-2.0-WITH-LLVM-exception | Apache-2.0 | MIT ) & ( CC0-1.0 | Apache-2.0 ) & ( MIT | Apache-2.0 | Zlib ) & ( Unlicense | MIT ) & ( Zlib | Apache-2.0 | MIT ) & Apache-2.0 & BSD-2-Clause & BSD-3-Clause & CC0-1.0 & ISC & MIT & MPL-2.0 & MPL-2.0+"
 
-PV = "1.1.0~alpha11~git0.d3a2a6b"
+PV = "1.1.0~alpha12~git0.bcdbb18"
 
-RPM_NAME = "kanidm-1.1.0~alpha11~git0.d3a2a6b-3.1.aarch64.rpm"
-RPM_HASH = "2271696c93393d6aebc7dbdb868916dd910630b99f8b9e2ff9e67e6e51d7cdf3501bbdb187721ecc978f2855379a85e0da1b4396170981d5158f039356609523"
+RPM_NAME = "kanidm-1.1.0~alpha12~git0.bcdbb18-1.1.aarch64.rpm"
+RPM_HASH = "adf71370fd6a9b8f81cdf16f27f4eb893a7e4e81d4f7ed9c78f0b3127ab53b91d08af13785e9553047ab235301bb051c08a90246361d148c9c7b3f176c12adc2"
 
 RPROVIDES:${PN} += "kanidm kanidm(aarch-64)"
 RDEPENDS:${PN} += "kanidm-clients kanidm-unixd-clients"

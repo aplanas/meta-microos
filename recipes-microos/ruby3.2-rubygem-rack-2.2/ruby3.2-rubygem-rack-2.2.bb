@@ -6,12 +6,12 @@ servers, web frameworks, and software in between (the so-called \
 middleware) into a single method call."
 LICENSE = "MIT"
 
-PV = "2.2.6.4"
+PV = "2.2.7"
 
-RPM_NAME = "ruby3.2-rubygem-rack-2.2-2.2.6.4-1.2.aarch64.rpm"
-RPM_HASH = "66207ce091e6102002346f3eb10b42309840e64af1426b2762aa445b034f5a486e93724914565755c9ec6d1b1809f339cda48ebae62fa5316f81678032bb04cd"
+RPM_NAME = "ruby3.2-rubygem-rack-2.2-2.2.7-1.1.aarch64.rpm"
+RPM_HASH = "81685ecc74ec1c82405e6aee61cd9a4dde047726462e06d38b729e843f1544d6219797411c6aea15cb15a831e610bfef747b8d27d78c2df04d4bde2376639aec"
 
-RPROVIDES:${PN} += "ruby3.2-rubygem-rack-2.2 ruby3.2-rubygem-rack-2.2(aarch-64) rubygem(rack) rubygem(ruby:3.2.0:rack) rubygem(ruby:3.2.0:rack:2) rubygem(ruby:3.2.0:rack:2.2) rubygem(ruby:3.2.0:rack:2.2.6)"
+RPROVIDES:${PN} += "ruby3.2-rubygem-rack-2.2 ruby3.2-rubygem-rack-2.2(aarch-64) rubygem(rack) rubygem(ruby:3.2.0:rack) rubygem(ruby:3.2.0:rack:2) rubygem(ruby:3.2.0:rack:2.2) rubygem(ruby:3.2.0:rack:2.2.7)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/ruby.ruby3.2 ruby(abi) update-alternatives"
 
 inherit rpm

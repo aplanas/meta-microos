@@ -5,10 +5,10 @@ This package provides the client for interacting \
 with Girder servers"
 LICENSE = "Apache-2.0"
 
-PV = "3.1.3"
+PV = "3.1.20"
 
-RPM_NAME = "python310-girder-client-3.1.3-1.13.noarch.rpm"
-RPM_HASH = "de9e5cb53a1b15ff0f603fd152037df80a12437d4005bfc63c9bfb8be542c5d6655d4b7a76586ab7d46de6bfa54fe3a3e680d2bbac3b3aa9590a113e216dc881"
+RPM_NAME = "python310-girder-client-3.1.20-1.1.noarch.rpm"
+RPM_HASH = "828a32d65269b812685c4f1915b72a1081b68888ca7caddb78ead6c45f2483db704d19093ab4616342d48da6e63a1968e0c1c20fe6aa00da7eef0581bb23ff59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-girder-client python3.10dist(girder-client) python310-girder-client python3dist(girder-client)"

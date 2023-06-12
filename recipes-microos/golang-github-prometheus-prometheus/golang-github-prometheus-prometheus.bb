@@ -9,10 +9,10 @@ DESCRIPTION = "Prometheus's main features are: \
  - multiple modes of graphing and dashboarding support"
 LICENSE = "Apache-2.0"
 
-PV = "2.43.1"
+PV = "2.44.0"
 
-RPM_NAME = "golang-github-prometheus-prometheus-2.43.1-1.1.aarch64.rpm"
-RPM_HASH = "7e526f796dd88ca4c414a3a206b1dad20194f16cf72556fad2bf6000f8a110891692572322789f250e7899d7668fec9ea820a938fd56e53b64f65aee5a370567"
+RPM_NAME = "golang-github-prometheus-prometheus-2.44.0-1.1.aarch64.rpm"
+RPM_HASH = "81115d67da03fa2d8d7ab95f08affe64e947bcea2cba9e58800a4e2f0a21e99a0d36e80a04622a6b62fd740fbd8b13fc81fef055766c8bceb5624adf472a9269"
 
 RPROVIDES:${PN} += "config(golang-github-prometheus-prometheus) golang-github-prometheus-prometheus golang-github-prometheus-prometheus(aarch-64) prometheus"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch fillup group(prometheus) user(prometheus)"

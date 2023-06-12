@@ -2,10 +2,10 @@ SUMMARY = "Broadcom based arm64 systems"
 DESCRIPTION = "Device Tree files for Broadcom based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.1"
+PV = "6.3.4"
 
-RPM_NAME = "dtb-broadcom-6.3.1-1.2.aarch64.rpm"
-RPM_HASH = "049792d02f63eb50690f0163ff3fc1991c2b54f3d58ced1dcd08236395b4ddfcaf27bf1a91bd611f8c4fa4bcf0da83e938baddbd9345e1fe5af93ee27f8cd35a"
+RPM_NAME = "dtb-broadcom-6.3.4-1.1.aarch64.rpm"
+RPM_HASH = "5f76ceea7aeaa3d9fd63a9ffec75e77ddde83d9ce144389769ec7a8afe6263a425370d4ba5c798cac2ff58614986e21c7e40b805d1262c9c718bf781e9a8250a"
 
 RPROVIDES:${PN} += "dtb-broadcom dtb-broadcom(aarch-64) multiversion(dtb)"
 RDEPENDS:${PN} += "/bin/sh coreutils"

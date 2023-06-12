@@ -3,10 +3,10 @@ DESCRIPTION = "Svgpathtools is a collection of tools for manipulating and \
 analyzing SVG Path objects and Bézier curves."
 LICENSE = "MIT"
 
-PV = "1.6.0"
+PV = "1.6.1"
 
-RPM_NAME = "python310-svgpathtools-1.6.0-1.2.noarch.rpm"
-RPM_HASH = "b27a8b11ec5988b87d0d228f921e9daa73f521e30492aa18d84093cb301e1729c74ab28eaea05c87d7a064a6d33b9a042036e9b20ea627c5cda4bec5081429ab"
+RPM_NAME = "python310-svgpathtools-1.6.1-1.1.noarch.rpm"
+RPM_HASH = "83371756844180ace0479f3824e199c880785dcf6ed4708e41820789ae839e9ff7d0b6683333b6b1344465d25fb9415f726ee8e29a39e3b78851cdf266c9a5fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-svgpathtools python3.10dist(svgpathtools) python310-svgpathtools python3dist(svgpathtools)"

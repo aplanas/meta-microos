@@ -21,16 +21,13 @@ parameters are: \
   GIGA_SUFFIX       -    '    '  '    '        '         '    gigabytes (trad) \
   KIBI_SUFFIX       - suffix to add when format_bytes formats kibibytes (iec) \
   MEBI_SUFFIX       -    '    '  '    '        '         '    mebibytes (iec) \
-  GIBI_SUFFIX       -    '    '  '    '        '         '    gibibytes (iec) \
- \
-They may be specified in upper or lower case, with or without a leading \
-hyphen ( - )."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+  GIBI_SUFFIX       -    '    '  '    '        '         '    gibibytes (iec)"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.75"
+PV = "1.76"
 
-RPM_NAME = "perl-Number-Format-1.75-1.26.noarch.rpm"
-RPM_HASH = "33d667714193ffb987c025c5b3e812eaf45b62c91df745d254c6849a26421479a0e39fbf8ee9e397f32074dcd3beb43382a392113e89f9e9a182c1340c938d67"
+RPM_NAME = "perl-Number-Format-1.76-1.1.noarch.rpm"
+RPM_HASH = "7e7b0dcdff75132cfbce527faebafd7a50c0771437e159cc34d751d4b8b4208ecf41882b1cdb493dce7eea7d41346b025d92e33c4c1131d794024a07dd8213f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Number::Format) perl-Number-Format"

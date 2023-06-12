@@ -6,10 +6,10 @@ centroid computation to further increase the resolution of the peak \
 detection."
 LICENSE = "MIT"
 
-PV = "1.3.3"
+PV = "1.3.4"
 
-RPM_NAME = "python311-PeakUtils-1.3.3-2.7.noarch.rpm"
-RPM_HASH = "a0ef1089b35dd1502de8af92655571fc82fc68ba92dfa76d25b46f5b75b50e553c08faa57ad57a51019b65615aa4bc670bfceedb85cd5a878ffc5a58105631a1"
+RPM_NAME = "python311-PeakUtils-1.3.4-1.1.noarch.rpm"
+RPM_HASH = "3494add191b7d36918692cb61f2a25afb3bb11cf222e2f4f8f100b01eb368c8eb2195d8a793c469eb03287370f14d43a39be627846cd58d939bb7f71edc47990"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(peakutils) python311-PeakUtils python3dist(peakutils)"

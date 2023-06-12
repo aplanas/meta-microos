@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Quick3DParticles t
 have any ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dparticles-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "b87ec5c72adc6ddbece0094b777d34999687defd61db5f9292ce1042ca123ab052c3c19d6e8089117a478c3c156467b3e27e48087c4090dd252f21f7186a03b2"
+RPM_NAME = "qt6-quick3dparticles-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "c263e3c798ed0f350a351a16e18ce20f67d08f1062bfeb5e2a38b25dacc432b1a1d159df2fcabe9b12a2630612f2b2a6fab55d9ce8538dcfcedce5b3d9d2053d"
 
 RPROVIDES:${PN} += "qt6-quick3dparticles-private-devel qt6-quick3dparticles-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6Quick3DParticles)"

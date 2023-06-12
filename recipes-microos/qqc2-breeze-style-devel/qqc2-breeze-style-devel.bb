@@ -4,10 +4,10 @@ qqc2-breeze-style. \
 Usually not needed as it is only a runtime dependency."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "5.27.4"
+PV = "5.27.5"
 
-RPM_NAME = "qqc2-breeze-style-devel-5.27.4-1.1.aarch64.rpm"
-RPM_HASH = "d24f183db5e0805291fdefdd831b1220a83464d98b6ce41f132e21394a9d3663f5474cb708a7c8886b5e766960e58134af267ac1a257db26f11857838f189d87"
+RPM_NAME = "qqc2-breeze-style-devel-5.27.5-1.1.aarch64.rpm"
+RPM_HASH = "c69dd383993489d1630de33fc0babf2e93dd3da427f41e6870f26eeef01f5f299db72750b6c9ad5ed2c028bdde310207f7781c1773f783af4969da6d61f9a151"
 
 RPROVIDES:${PN} += "cmake(KF5QQC2BreezeStyle) qqc2-breeze-style-devel qqc2-breeze-style-devel(aarch-64)"
 RDEPENDS:${PN} += "extra-cmake-modules qqc2-breeze-style"

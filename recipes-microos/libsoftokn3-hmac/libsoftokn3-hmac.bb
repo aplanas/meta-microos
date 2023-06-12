@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.89"
 
-RPM_NAME = "libsoftokn3-hmac-3.89-1.1.aarch64.rpm"
-RPM_HASH = "6c5af90176daf16df06b4da6bacc40c5b30b62efa5e2ed8af759eaf0e41f2c945355689bebf21d61de220053b549ad944306e4a93390acdc44ce7967d5553fe9"
+RPM_NAME = "libsoftokn3-hmac-3.89-2.1.aarch64.rpm"
+RPM_HASH = "e9d14e4705c94cb3eb397c853e86b21b9ad209e30db62b1e658c0e9a8ba9ad854f3563bfd696cc7b7c77497f9ba41beb3248dd979fcdd344e2a442dc1d6ef8b9"
 
 RPROVIDES:${PN} += "libsoftokn3-hmac libsoftokn3-hmac(aarch-64)"
 RDEPENDS:${PN} += "libsoftokn3"

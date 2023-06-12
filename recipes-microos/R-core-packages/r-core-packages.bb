@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "4.3.0"
 
-RPM_NAME = "R-core-packages-4.3.0-45.1.aarch64.rpm"
-RPM_HASH = "acbe4d78506f64108f27c8cc84bb0c04319fb4ba96676368a8defe61e11075bf2734f38c5a79ec19d9c1bb7201a0ffde97627bb6e85bdbcc0eba3d4d981069f1"
+RPM_NAME = "R-core-packages-4.3.0-45.2.aarch64.rpm"
+RPM_HASH = "d22efc404596a5d5fbf25835e4c41885fc8cd08644f74c36a582d5d4138193797a446127a42f6ac31c0c500124eea09b8dc6b720fd87b845e37180de18eea988"
 
 RPROVIDES:${PN} += "R-core-packages R-core-packages(aarch-64)"
 RDEPENDS:${PN} += "R-compiler R-datasets R-grDevices R-graphics R-grid R-methods R-parallel R-splines R-stats R-stats4 R-tcltk R-tools R-utils"

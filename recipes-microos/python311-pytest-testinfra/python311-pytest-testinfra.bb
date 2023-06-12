@@ -7,10 +7,10 @@ Testinfra is like a Serverspec equivalent in Python, and is written \
 as a plugin to the Pytest test engine."
 LICENSE = "Apache-2.0"
 
-PV = "6.3.0"
+PV = "8.1.0"
 
-RPM_NAME = "python311-pytest-testinfra-6.3.0-2.1.noarch.rpm"
-RPM_HASH = "9f714e942d3311bb4de32986b53e87e131c46690059a40ed5619649ff2e4d0500bd320ffc20232957c5e3943aae095fe5e0cc36e5bf779702eb43782ba1aac18"
+RPM_NAME = "python311-pytest-testinfra-8.1.0-1.1.noarch.rpm"
+RPM_HASH = "b3888a74df9dc818a009486a908281e1e72c1303051c9d7f739e874cff45373d9ef1c7ac224ae8d2a8d25218a6436c7e22c603f64a1001bf3e65452a6ac95fc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(pytest-testinfra) python311-pytest-testinfra python311-testinfra python3dist(pytest-testinfra)"

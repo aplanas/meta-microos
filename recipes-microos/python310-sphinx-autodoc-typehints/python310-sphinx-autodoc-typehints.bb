@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.19.2"
 
-RPM_NAME = "python310-sphinx-autodoc-typehints-1.19.2-1.3.noarch.rpm"
-RPM_HASH = "97fec6dd905d0c13ece4e0a875530feedac9829e7cc536937052ed99ae81288cfb6c9f33b2fc3bbe3d38b3432fc4b95ed51c23f9b739fa2f89a9edc2248ecfbd"
+RPM_NAME = "python310-sphinx-autodoc-typehints-1.19.2-1.4.noarch.rpm"
+RPM_HASH = "0e85367ccad046b803cbb4e6f2430a9e779d2931258c9df60e95bdb30d37b2a578df53e1ae81afa473ea0b25b644a2666beecf293863fbe50cad1fbefdf97af6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinx-autodoc-typehints python3.10dist(sphinx-autodoc-typehints) python310-sphinx-autodoc-typehints python3dist(sphinx-autodoc-typehints)"

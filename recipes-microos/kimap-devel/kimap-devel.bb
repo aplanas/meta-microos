@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains development headers to add IMAP support to 
 applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.0"
+PV = "23.04.1"
 
-RPM_NAME = "kimap-devel-23.04.0-1.1.aarch64.rpm"
-RPM_HASH = "d67f94d05ae5fe2e6c94eb518d796d9f2999a75686c7fff7dfabad6031d8eef2200ff2529f8ecd9f487a71e957d9615de9c318e96005614a5c2f1b5070237f4e"
+RPM_NAME = "kimap-devel-23.04.1-1.1.aarch64.rpm"
+RPM_HASH = "1c2e3013d59f458a8d1c6c5271463d09d5b0cb505c6a7bb0305262fc7aa613660d13d5d184495403928ceecb61263f6de1eafd506bd6104ab82abd8fe6ee43d6"
 
 RPROVIDES:${PN} += "cmake(KF5IMAP) cmake(KPim5IMAP) kimap-devel kimap-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(KF5CoreAddons) cmake(KPim5Mime) cyrus-sasl-devel libKPim5IMAP5"

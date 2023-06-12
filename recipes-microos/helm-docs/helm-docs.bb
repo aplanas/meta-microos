@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.11.0"
 
-RPM_NAME = "helm-docs-1.11.0-1.5.aarch64.rpm"
-RPM_HASH = "c7e808c09cc3010838e0d5d1a7bcc263cb8515c06f02622a6e3064a1d1e8e0d6c6e18fd3c187492a1e897b07e1aec6eb50d50ae06f8f4096fb26c1adf021fe49"
+RPM_NAME = "helm-docs-1.11.0-1.6.aarch64.rpm"
+RPM_HASH = "78e6fddfb8b65355f481e9b47e19e32e5c08d749c85a0fde98db6bbf22447f97b20f1109a308f34c712cfa506201209939481b865a8c84343231613249d9601f"
 
 RPROVIDES:${PN} += "helm-docs helm-docs(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

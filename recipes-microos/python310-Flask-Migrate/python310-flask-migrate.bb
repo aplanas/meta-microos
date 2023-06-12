@@ -4,10 +4,10 @@ for Flask applications using Alembic. The database operations are provided \
 as command line arguments for Flask-Script."
 LICENSE = "MIT"
 
-PV = "4.0.0"
+PV = "4.0.4"
 
-RPM_NAME = "python310-Flask-Migrate-4.0.0-1.3.noarch.rpm"
-RPM_HASH = "ff1cc27c8f1d5bd52c5d16bc4b931d4ff196c7e99954ff4c00dafa8b7f76843ba2dd2b6d4a3a35f553f4be44bb9a9ed40699da4bf77e7fc2f77c07d211a6cf84"
+RPM_NAME = "python310-Flask-Migrate-4.0.4-1.1.noarch.rpm"
+RPM_HASH = "2e8d6d0faebef5912a4e797c895f25671fce535d67df1a90b1bee638d092cceb62d7486ceaffcfad22b684e2e4cfb0487aeea8bd2b79b90000be0d016c6b7b27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-Migrate python3.10dist(flask-migrate) python310-Flask-Migrate python3dist(flask-migrate)"

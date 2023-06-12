@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.2"
 
-RPM_NAME = "kubespy-0.6.2-1.1.aarch64.rpm"
-RPM_HASH = "b7047b02ce60e7b99433a1560833470f5f323fa5dd6101187eb50c07060a6d3bc5b24e54f3b9e9526ca1e91605e6c3dfb943c28ec427d2bb247323017d52ecca"
+RPM_NAME = "kubespy-0.6.2-1.2.aarch64.rpm"
+RPM_HASH = "4b428f3abb7082ffda38780efbeed5937e3fa11e945d790e6f6e0301c22360e6a51d7d5f8875898858f251cf8bad7afba17478c292daeb6a837dcc0441c117c1"
 
 RPROVIDES:${PN} += "kubespy kubespy(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

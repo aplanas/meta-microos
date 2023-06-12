@@ -2,10 +2,10 @@ SUMMARY = "Portuguese"
 DESCRIPTION = "Support for Portuguese."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54074"
+PV = "2023.208.svn54074"
 
-RPM_NAME = "texlive-collection-langportuguese-2023.201.svn54074-56.1.noarch.rpm"
-RPM_HASH = "56200f2de64ce21aba14bfe9f7505de1e2fde6601bbaa6218d346e51f677ece484b1b052503b9558d5084e99681391c5a7072a3ab6457c3f83834a6e095778ad"
+RPM_NAME = "texlive-collection-langportuguese-2023.208.svn54074-58.1.noarch.rpm"
+RPM_HASH = "ea24fd69e0c274493f362a2e5b16f377a2237a3a63b9f218cc6cfdcfb61060ec40e0e934a67691f3d13aa1aabfabaeeabf710175fab7dbe3d86eebc8fc232041"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langportuguese"

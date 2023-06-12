@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.10.0"
 
-RPM_NAME = "uwac0-0-devel-2.10.0-2.1.aarch64.rpm"
-RPM_HASH = "ffb7023ddbc1b17659c08a46ed9f43e754f1b466d3f59e44be9e5c15c73aeb33871d0dfec427238110ade5a52b5b1ac70feb9cdbcfd82dc2a28aa6b57fbec68c"
+RPM_NAME = "uwac0-0-devel-2.10.0-3.1.aarch64.rpm"
+RPM_HASH = "60bb0e440d31d50681fc71e54511ddc42f4763443d7e6e3e0856bb22df31bebf9f35393220b140e8c374b322cf414b92cbe4ef08fc20cf6cb1f113a6e80b07a2"
 
 RPROVIDES:${PN} += "cmake(uwac) libuwac0-devel pkgconfig(uwac0) uwac0-0-devel uwac0-0-devel(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config cmake libuwac0-0 pkgconfig(freerdp2) pkgconfig(wayland-client) pkgconfig(xkbcommon)"

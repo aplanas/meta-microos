@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.4.0"
 
-RPM_NAME = "cheat-4.4.0-1.3.aarch64.rpm"
-RPM_HASH = "c702ed2a43cd832d9df60661c75b7b8deb0162b3cea3d7836415fd4ed260394fc7b4866c401d7200f48cbd80945598da6b89fdbc324322730ec288e65784b2c9"
+RPM_NAME = "cheat-4.4.0-1.4.aarch64.rpm"
+RPM_HASH = "6b4e580ec2e763426fad035cc78e14b35cd2c3909011869ebfdef67879b957e281cedc8948d02fcd8c2fc46afbd4fe69c058f9115a0f4a7916f2cdf02b6cb46c"
 
 RPROVIDES:${PN} += "cheat cheat(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

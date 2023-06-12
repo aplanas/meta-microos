@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.0.24"
 
-RPM_NAME = "kubelogin-0.0.24-1.3.aarch64.rpm"
-RPM_HASH = "5d16693704bc568100611c51a138501f484cddbed19e5ee09bb3ca10d3a5f4eed69eea5bdc965e77947aaebbd8102f1f410380b69bddee30898f959c72b8fcf2"
+RPM_NAME = "kubelogin-0.0.24-1.4.aarch64.rpm"
+RPM_HASH = "61cbe345d151e8b4195d8cd61bac5519e1106e4f76101e90a22e6a3ce867db1a6c67551f0ba1d0e4b9534e34e598673f538d81160badf273b1bcc461d07242fa"
 
 RPROVIDES:${PN} += "kubelogin kubelogin(aarch-64)"
 RDEPENDS:${PN} += ""

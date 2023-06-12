@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "12.1"
 
-RPM_NAME = "gdb-testresults-12.1-7.1.aarch64.rpm"
-RPM_HASH = "45a2205e981a91fdf9f58bdec10d0fdb1532a3cf14181ba4b76c8b6152702d8efb7255cf5af2ca688635fb97f9fefc2073a37c678c704a4c3b040a484b9eefca"
+RPM_NAME = "gdb-testresults-12.1-8.1.aarch64.rpm"
+RPM_HASH = "45d6a21514ba8c9f94a3bdf7688d2e041aa1605d79619860c5e37c48a8896804e3fa6c42689f04acd909bf386d154b00e140c3dffa3f6a6241648307bcb755ab"
 
 RPROVIDES:${PN} += "gdb-testresults gdb-testresults(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh python3-base"

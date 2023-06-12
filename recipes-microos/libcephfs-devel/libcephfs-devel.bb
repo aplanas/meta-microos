@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains libraries and headers needed to develop pro
 that use Ceph distributed file system."
 LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
 
-PV = "16.2.11.65+g8b7e6fc0182"
+PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "libcephfs-devel-16.2.11.65+g8b7e6fc0182-1.1.aarch64.rpm"
-RPM_HASH = "639e3ff0edd1e8d17aef3e21161e9c343c09d4c7bc563ab004de9f24cbecb335fc2b22eba8dc52f6a7f539b75688ebe31b5fc5422ab7d9f1347e4dbe4236e35d"
+RPM_NAME = "libcephfs-devel-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
+RPM_HASH = "5114f26f8a32c9425c924fbbeb1fad985d37b199a59e38320bf5ded03bb91dfa8fc884beb38ef911e8abcee88bb9ebdc6e175bac39c6d1f8077768563f3ac3dc"
 
 RPROVIDES:${PN} += "libcephfs-devel libcephfs-devel(aarch-64) libcephfs2-devel"
 RDEPENDS:${PN} += "libcephfs2 librados-devel"

@@ -1,11 +1,11 @@
 SUMMARY = "stenotype input schema for rime"
-DESCRIPTION = "stenotypeinput schema for rime."
+DESCRIPTION = "stenotype input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20210525+git.4f7fc2a"
+PV = "20230603+git.5fdd2d6"
 
-RPM_NAME = "rime-schema-stenotype-20210525+git.4f7fc2a-1.9.noarch.rpm"
-RPM_HASH = "60c878e7ab1f6ed9cfda0f50be0b0cfde900c1d1902007a11e116db45609acb2bd0f333d9110cbab5259261af12025b53ce5c5913ae86c07e08d5577f0241a71"
+RPM_NAME = "rime-schema-stenotype-20230603+git.5fdd2d6-1.1.noarch.rpm"
+RPM_HASH = "beaefd5fe2dd118316440fd4b19b96dc1acb8e1fbec5fbee07a336cea6310d2a6583d8fb8e51b57b9f17c1b4efc08b37b960bac0c7aceb8d3737de9fa6b2cf06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-stenotype"

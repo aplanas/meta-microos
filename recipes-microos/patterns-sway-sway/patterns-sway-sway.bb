@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "20200619"
 
-RPM_NAME = "patterns-sway-sway-20200619-5.3.aarch64.rpm"
-RPM_HASH = "7a18b15e59f2f3dac217a4ea0649a7c85c53e272ddc22289f52564ff265ab18e3a5005703b01dd82f1f121590f640cb0d23a72b6e8b95d6d5ba2aefc41e5af6c"
+RPM_NAME = "patterns-sway-sway-20200619-6.1.aarch64.rpm"
+RPM_HASH = "105835be668fdcb4e80d13e581998c18861c5229190717994ba1be472adfae1955efe66eaab1fd71cd8389b86bbb04725065abc98164d4838d43bbd8f0bab260"
 
 RPROVIDES:${PN} += "pattern() pattern-category() pattern-icon() pattern-order() pattern-visible() patterns-sway-sway patterns-sway-sway(aarch-64)"
-RDEPENDS:${PN} += "Mesa alacritty fontawesome-fonts grim mako slurp sway swaybg swayidle swaylock waybar wofi"
+RDEPENDS:${PN} += "Mesa alacritty fontawesome-fonts grim slurp sway swaybg swayidle swaylock waybar wofi"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "ZSH Completion for gh"
 DESCRIPTION = "ZSH command line completion support for gh."
 LICENSE = "MIT"
 
-PV = "2.28.0"
+PV = "2.30.0"
 
-RPM_NAME = "gh-zsh-completion-2.28.0-1.1.noarch.rpm"
-RPM_HASH = "66cf5a7c1405d956ecbbde35942fe4fec728d21ffb1678098541e14f6c7d6c8de49e91a4910d20d21c48bc5b58c38b6e7592e55695cc96c66b9bf2cac0dcb0be"
+RPM_NAME = "gh-zsh-completion-2.30.0-1.1.noarch.rpm"
+RPM_HASH = "8e09a488b615b09faaa26fafb6fc23d8166a69a0601d40d3879ec22fa74378cd860b6ee877b6dbc38601c974061918ef39f498b4ff62d3b6139edb2b732a4561"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gh-zsh-completion"

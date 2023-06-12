@@ -2,10 +2,10 @@ SUMMARY = "Google Authentication Library"
 DESCRIPTION = "This library simplifies using Google’s various server-to-server authentication mechanisms to access Google APIs."
 LICENSE = "Apache-2.0"
 
-PV = "2.16.1"
+PV = "2.17.3"
 
-RPM_NAME = "python39-google-auth-2.16.1-3.1.noarch.rpm"
-RPM_HASH = "cb9e56d86b0c70e32706d7fb75bcaa67e27c4ce6de05394d721e403fb557b3054eb342dd01171aa4c099f9d0b218189681bba48b461aea6fe073a2a691b34bed"
+RPM_NAME = "python39-google-auth-2.17.3-2.1.noarch.rpm"
+RPM_HASH = "74cac05780c34ef634302a99562155842ee217ad5c5c948175b24bf7df87a0ca7727c8cef3061312645b975f3bce18bc5507cc8c05fccebca2e32a885c3e7146"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(google-auth) python39-google-auth python3dist(google-auth)"

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.2+git0.ge8fd65f08"
 
-RPM_NAME = "rook-1.6.2+git0.ge8fd65f08-2.7.aarch64.rpm"
-RPM_HASH = "cf36d885d54e7ddf84ebad7ea7102b762b2de498a5b6811c4009c2a2b6fff270e32fab01430e3b072eec65c534e686ff0e5067f53daf224f395baff61cbe25fe"
+RPM_NAME = "rook-1.6.2+git0.ge8fd65f08-2.8.aarch64.rpm"
+RPM_HASH = "35b2eff1dea3ee6ae23c325125eb1f3e53b39a88651153184b1f59218c7bb7900433aea7ad7e65659cea661be1856756832827ba4ae457d623dbf172b98d4b60"
 
 RPROVIDES:${PN} += "config(rook) rook rook(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh pattern() tini"

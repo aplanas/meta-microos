@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.3"
 
-RPM_NAME = "python39-bokeh2-2.4.3-2.5.noarch.rpm"
-RPM_HASH = "94e5d1e4b2355964c88dee0b35c6e512326de5010f29e398a1071976717584ef8e15dfac06a5e2f6f891cfffad26fa39a8823c46b31a3bc3bad26d5771e22ca6"
+RPM_NAME = "python39-bokeh2-2.4.3-2.6.noarch.rpm"
+RPM_HASH = "82d3389b91f4d6db6d37f59c0f64db633d5197c73bd231119edbcb46ad381ea8174103ef6d7d7751a4622e6b39aa18a5322b2793d6c433c3cb9bfc4a8d97b7f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(bokeh) python39-bokeh python39-bokeh2 python3dist(bokeh)"

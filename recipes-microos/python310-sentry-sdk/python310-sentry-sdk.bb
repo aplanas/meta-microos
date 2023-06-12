@@ -3,10 +3,10 @@ DESCRIPTION = "A Python SDK for Sentry.io. \
 https://sentry.io/for/python/"
 LICENSE = "BSD-2-Clause"
 
-PV = "1.15.0"
+PV = "1.24.0"
 
-RPM_NAME = "python310-sentry-sdk-1.15.0-1.4.noarch.rpm"
-RPM_HASH = "7890da85c7b943a44d492ca1a48ddbf86aafe2400c05126d5cd533032fc92afdc62f4e9fb7d95f1ecd86946ea2bb2a23d118b3b3cadbd4aecb3c56b4c7079fdc"
+RPM_NAME = "python310-sentry-sdk-1.24.0-1.1.noarch.rpm"
+RPM_HASH = "3e158b43d3d43bd6d4172772fa37227c2ab6494e5284619b42e8cdc08c19ab965982963af18956c8c21f7f1ffda5dcb0279a28c90a2ada92f808a3202b89a376"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sentry-sdk python3.10dist(sentry-sdk) python310-sentry-sdk python3dist(sentry-sdk)"

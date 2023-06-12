@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
 
 PV = "14.0.6"
 
-RPM_NAME = "llvm14-polly-14.0.6-8.1.aarch64.rpm"
-RPM_HASH = "10b463eb8d61eb1212632e7d94e88ac3f3e3ddcd5526db5c21e57c15274fe96de79200534e5241c94c74026b9a309e056936ad8c6bb46158eb5e75e1850494d4"
+RPM_NAME = "llvm14-polly-14.0.6-9.1.aarch64.rpm"
+RPM_HASH = "247013ddd87f6ae5945421f7becdc6c3b11789050ff4bd64faf28ba2883b9ab0e2da82841adb627845e18c295b7b30d0b8cb2b96116146e05f60f7dd5a446584"
 
 RPROVIDES:${PN} += "llvm-polly-provider llvm14-polly llvm14-polly(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.14)(64bit) libstdc++.so.6(GLIBCXX_3.4.15)(64bit) libstdc++.so.6(GLIBCXX_3.4.20)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.26)(64bit) libstdc++.so.6(GLIBCXX_3.4.29)(64bit)"

@@ -3,12 +3,12 @@ DESCRIPTION = "This package contains the kernel module for OpenAFS. For details 
 the openafs package."
 LICENSE = "IPL-1.0"
 
-PV = "1.8.9_k6.2.12_1"
+PV = "1.8.9_k6.3.4_1"
 
-RPM_NAME = "openafs-kmp-default-1.8.9_k6.2.12_1-2.9.aarch64.rpm"
-RPM_HASH = "df13c1a7340801ca206b0b37f1fd081e577ab886eb12f0e7e4267e1d808eab6a4bbba0f61fefd4179efd69fd9d2344bddc93f9abfe9b17054225c9bebbf019e3"
+RPM_NAME = "openafs-kmp-default-1.8.9_k6.3.4_1-4.1.aarch64.rpm"
+RPM_HASH = "eeb6062a60d18e9d2104d6c82ae65c0f55b6ade7937e8889359863681256843a6db36acd3837139721a5cf1f0516b1da1b3b713f5ab7a4506d6a60c23d1104db"
 
-RPROVIDES:${PN} += "kmod(afspag.ko) kmod(libafs.ko) multiversion(kernel) openafs-kmp openafs-kmp-default openafs-kmp-default(aarch-64) openafs-kmp-default-k6.2.12_1"
+RPROVIDES:${PN} += "kmod(afspag.ko) kmod(libafs.ko) multiversion(kernel) openafs-kmp openafs-kmp-default openafs-kmp-default(aarch-64) openafs-kmp-default-k6.3.4_1"
 RDEPENDS:${PN} += "/bin/sh coreutils grep kernel-default kernel-uname-r openafs-client suse-kernel-rpm-scriptlets"
 
 inherit rpm

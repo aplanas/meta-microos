@@ -10,10 +10,10 @@ Invocations is currently in pre-alpha status and is unsupported. Please follow \
 the Invoke project's communication channels for updates. Thanks!"
 LICENSE = "BSD-2-Clause"
 
-PV = "3.0.0"
+PV = "3.0.2"
 
-RPM_NAME = "python311-invocations-3.0.0-2.1.noarch.rpm"
-RPM_HASH = "02ded5ba6b34d606e1428523751c3896cb4be11210904ba5f82dc329740b9e10c6353a04ef866855f3e165d1f4aa7138648b96ae106674c073ccab9d21531b80"
+RPM_NAME = "python311-invocations-3.0.2-1.1.noarch.rpm"
+RPM_HASH = "e24245ce420ae74e9bceb8a785c884cf3aefb12ed21d6c24e4cc9d7ad54772ab942d0cd65f2c2de46e60675783dac752e41ff70da7387696dc2c1e4f934f6a40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(invocations) python311-invocations python3dist(invocations)"

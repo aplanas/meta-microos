@@ -2,10 +2,10 @@ SUMMARY = "Ext2fs library"
 DESCRIPTION = "The basic Ext2fs shared library."
 LICENSE = "LGPL-2.0-only"
 
-PV = "1.46.5"
+PV = "1.47.0"
 
-RPM_NAME = "libext2fs2-1.46.5-4.3.aarch64.rpm"
-RPM_HASH = "fec80b506115771d28f6ae66270e1b8af28279b63591fc67b7b752052bb5c9ad7bd5e5176293ac531630f72634a261f5998e3be86945ce8287e811f10ec29cab"
+RPM_NAME = "libext2fs2-1.47.0-1.1.aarch64.rpm"
+RPM_HASH = "155ca05b30b4a355d95d4ba8951c92f2a7ee812532031274bc84f7d8f36023402438fe205cd1ac746a9f620c57aca54a7a0f2714c715e32a8b6952d2ae35afa6"
 
 RPROVIDES:${PN} += "libe2p.so.2()(64bit) libext2fs.so.2()(64bit) libext2fs2 libext2fs2(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcom_err.so.2()(64bit)"

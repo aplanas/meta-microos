@@ -2,10 +2,10 @@ SUMMARY = "Mathematics, natural sciences, computer science packages"
 DESCRIPTION = "The collection-mathscience package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65753"
+PV = "2023.208.svn65753"
 
-RPM_NAME = "texlive-collection-mathscience-2023.201.svn65753-56.1.noarch.rpm"
-RPM_HASH = "a2bbfcfe4378b13ec24de840c3e88818d5232213f41f255b5f725518e94a2265135c9caacbf6c7e0bbd3622b03e250d4dc6b0279e15fc8a868c752709eb6caab"
+RPM_NAME = "texlive-collection-mathscience-2023.208.svn65753-58.1.noarch.rpm"
+RPM_HASH = "0c07027f60949d207b9b4511c72516553cc9270c86f3190e734a790f64e8ab3996eef7c0aeecc48c56db1e91b27aef17867c3122a813a0c7bc5aee14f743450e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-mathscience"

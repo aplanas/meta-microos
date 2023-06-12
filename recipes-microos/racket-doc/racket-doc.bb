@@ -2,10 +2,10 @@ SUMMARY = "Documentation HTML files for Racket"
 DESCRIPTION = "A local installation of the Racket documentation system."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "8.8"
+PV = "8.9"
 
-RPM_NAME = "racket-doc-8.8-1.3.noarch.rpm"
-RPM_HASH = "2e7ea2ce8a4c0bfa24b27a5b9d297b74637e556a1086d8f9d0344c69876d0464ced2f8989227e4bd001f5a583483886df9870cab8ddbc77ed945882ec9d37c6c"
+RPM_NAME = "racket-doc-8.9-1.1.noarch.rpm"
+RPM_HASH = "7c79bcd2c50861155ecb8bf131c4435d989d4aea7c9c63fb0dbdc6f4c3b7782908e392d75f3c2a4e413e1b6a5699400ea2d8125e810de5a8807ac6e3010be928"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "racket-doc racket:/usr/share/doc/packages/racket/docindex.sqlite"

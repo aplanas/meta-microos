@@ -2,10 +2,10 @@ SUMMARY = "Bosnian localization files for LibreOffice"
 DESCRIPTION = "Provides Bosnian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-bs-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "818b7b17a8de6d5169e951a4a94941a62a17ae8fd6e6d02ba2604da37f014e62d279db57b3d29bc4ef47c430df74f4fff6fe2d314881ce980aceb162602256cf"
+RPM_NAME = "libreoffice-l10n-bs-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "e9b51f01acd7e76eb934e50a462e1a11c3728c86dc726cb8a2b9703307b096b943962963c24e36de66675634074ac599a828be4c01ee015cfc4d098dd47756b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-bs libreoffice-l10n-bs locale(libreoffice:bs)"

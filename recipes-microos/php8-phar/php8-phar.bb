@@ -8,12 +8,12 @@ abstraction method for creating and manipulating tar and zip files \
 through the PharData class, much as PDO provides a unified interface \
 for accessing different databases. Phar also can convert between tar, \
 zip and phar file formats."
-LICENSE = "PHP-3.01"
+LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.5"
+PV = "8.1.19"
 
-RPM_NAME = "php8-phar-8.2.5-1.1.aarch64.rpm"
-RPM_HASH = "fa15f278901b0c73c3325bf4677624b16ab9f80329a04f0cb5845afe80ed5bb4f6e235f9186e75e2b62c5afe42f3ef761e4aff5117323730098cde51713857ca"
+RPM_NAME = "php8-phar-8.1.19-2.2.aarch64.rpm"
+RPM_HASH = "25198fabbb2e60539e59ed6b06a5a39466b3b87f469547a797b17c69d3783247948f80e9785add2249e5defe0422bcb4153adcc0856a32198ce55d12785b74d6"
 
 RPROVIDES:${PN} += "config(php8-phar) php-phar php8-phar php8-phar(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) php php-zlib"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
 
 PV = "2.11.4"
 
-RPM_NAME = "php-Icinga-2.11.4-1.1.noarch.rpm"
-RPM_HASH = "5900316b9b3a09c7373773aa788ec802285c1c054785abb865770af556c73c0e991653e0a1cb9dd5d9314c11b81e434f058e24e6a54ab226e746fe74dc24b663"
+RPM_NAME = "php-Icinga-2.11.4-2.1.noarch.rpm"
+RPM_HASH = "c38614b12e717c88710ba99cbbdabe791e5e6f025aa5d72dad161e2368c7af8a693dae88ba1b7435afbab3dc4c0707b7959cfd182469d8eda7e0ee3f0eb8be09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-Icinga"

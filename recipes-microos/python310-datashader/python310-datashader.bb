@@ -21,13 +21,13 @@ representation to accurately convey the data at every location, with no \
 saturation, overplotting, or underplotting issues."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.14.4"
+PV = "0.15.0"
 
-RPM_NAME = "python310-datashader-0.14.4-2.1.noarch.rpm"
-RPM_HASH = "12333be97097117a64b977a2fc333fa4d2f844dbbedb77b38af9fcf1d9a4a895c009cc8996550486a9bcb15244d129b6a363c3921ce810c12f413bee82354c96"
+RPM_NAME = "python310-datashader-0.15.0-1.1.noarch.rpm"
+RPM_HASH = "8860b400f97a6c075c9e2a5bd26aada7be815fe1c1b1e16bcc38a7e1dd2e9b8d2b4e03c29d2e860843a8c49fb81b37413d1b1391a45891e72cd6d1a2548af926"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-datashader python3.10dist(datashader) python310-datashader python3dist(datashader)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-DataShape python310-Pillow python310-PyYAML python310-colorcet python310-dask-all python310-numba python310-numpy python310-pandas python310-param python310-pyct python310-requests python310-scikit-image python310-scipy python310-toolz python310-xarray update-alternatives"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-DataShape python310-Pillow python310-colorcet python310-dask-dataframe python310-numba python310-numpy python310-pandas python310-param python310-pyct python310-requests python310-scipy python310-toolz python310-xarray update-alternatives"
 
 inherit rpm

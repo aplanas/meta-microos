@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.0"
 
-RPM_NAME = "csi-livenessprobe-1.1.0-1.11.aarch64.rpm"
-RPM_HASH = "ff3627f48ce6102f5226dad8c983ac2ee34d32f42535d4e6e0fb24943da96fc6908d4a25f9dcb27a4f81d29d95ee0725e67351445a928a1132b1bc47aa193008"
+RPM_NAME = "csi-livenessprobe-1.1.0-1.12.aarch64.rpm"
+RPM_HASH = "9b077b41a47859fdd3fe97f162a0b541825b8fa58013abd6d780c03f8ccb82154e20b566fbf08da0656aaddc76659a89ca4fb97325bdcd5aa974475a1f030f45"
 
 RPROVIDES:${PN} += "csi-livenessprobe csi-livenessprobe(aarch-64)"
 RDEPENDS:${PN} += ""

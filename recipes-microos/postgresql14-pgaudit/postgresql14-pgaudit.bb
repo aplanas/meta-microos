@@ -13,8 +13,8 @@ LICENSE = "PostgreSQL"
 
 PV = "1.6.2"
 
-RPM_NAME = "postgresql14-pgaudit-1.6.2-4.1.aarch64.rpm"
-RPM_HASH = "e731c06270c04174411a8723a8b1e276ed12fc7807f0f132bfbea5bb4653a8d35d40931c7194568e01074cc347a223a6074cfb6117ef8c638d1469dacca14c5f"
+RPM_NAME = "postgresql14-pgaudit-1.6.2-4.2.aarch64.rpm"
+RPM_HASH = "d7f78cd842927b2fcd737d6539a5b6781eb9dc837ec41d38ba81becd5e5d741925afdc746a943c8151f6c44121c150a04d4677b14f08a7e30b1a04b086bdfb80"
 
 RPROVIDES:${PN} += "postgresql14-pgaudit postgresql14-pgaudit(aarch-64) postgresql14-pgaudit-llvmjit"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) postgresql14-server"

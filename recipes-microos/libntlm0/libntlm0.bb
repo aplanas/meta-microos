@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6"
 
-RPM_NAME = "libntlm0-1.6-1.11.aarch64.rpm"
-RPM_HASH = "a739549fa6373e63214b4263b39e12b6567f46d7dd6a300a48359a0abe60c5b39efa18b101c5cf8d3cd181d87bb37264363f30a5f7fad91dfaa98fc514277d14"
+RPM_NAME = "libntlm0-1.6-2.1.aarch64.rpm"
+RPM_HASH = "b2c8e70688bc0f674d32ed0435bfc2b4e7088ed66166ffb6d8fbd8888dead8470e55aafec465ef3915937cfee07a03dacdcb0e43643de444ef0d678505acc3b3"
 
 RPROVIDES:${PN} += "libntlm.so.0()(64bit) libntlm0 libntlm0(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit)"

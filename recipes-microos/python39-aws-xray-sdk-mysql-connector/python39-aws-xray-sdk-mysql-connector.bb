@@ -5,10 +5,10 @@ emit information from within their applications to the AWS X-Ray service. \
 This package provides the mysql-connector-python backend for python39-aws-xray-sdk."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "python39-aws-xray-sdk-mysql-connector-2.10.0-1.3.noarch.rpm"
-RPM_HASH = "9e32f8c8b8a0a8479efcefbf90967234ed433c23594010632b62f19ccc9f6a99cc997f58b74b498dd9f337a9bde68d08cc7f6a4a5558f22467595049a68cf6ed"
+RPM_NAME = "python39-aws-xray-sdk-mysql-connector-2.12.0-1.1.noarch.rpm"
+RPM_HASH = "b387c6314f0ba28a03946cefe9a86fcc7dd2c65d5212d8536f11545524895f523251d264b4edcad4d16a2d1779d61241a9952966c181802b5bc58ecaeea9477c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-mysql-connector"

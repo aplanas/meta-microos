@@ -3,10 +3,10 @@ DESCRIPTION = "The setuptools_scm package handles managing one's Python package 
 in SCM metadata. It also handles file finders for the supperted SCMs."
 LICENSE = "MIT"
 
-PV = "7.0.5"
+PV = "7.1.0"
 
-RPM_NAME = "python39-setuptools_scm-7.0.5-2.1.noarch.rpm"
-RPM_HASH = "aa1cbbf97077a62a1ee9f015c07649bf00c489d7478da39be31c01269f56d4343085b04cd071e7d5b58e6b8bc5b9cfe153effaeb480bf51227b4d925dc256358"
+RPM_NAME = "python39-setuptools_scm-7.1.0-1.1.noarch.rpm"
+RPM_HASH = "a15ec7dc73b0b714ca8329656dd968116a84457221dd7d66e424e05d8259a49f837a38b4725891b452bab5179f8a7d588854351e7c961aa7cf142c0055b72e52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(setuptools-scm) python39-setuptools_scm python3dist(setuptools-scm)"

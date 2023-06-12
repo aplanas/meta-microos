@@ -3,10 +3,10 @@ DESCRIPTION = "Marco is a small window manager, using GTK+ to do everything. It 
 developed mainly for the MATE Desktop."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.26.2"
 
-RPM_NAME = "marco-themes-1.26.1-1.3.noarch.rpm"
-RPM_HASH = "d1d9ed372a581f99a41c9c724eaeefd2f5f652f35f57789a32c1fc68a1990ed546cf1665198ea1027ff2c70ba5344bfedf76e757b5c310880a39ca324d3edebc"
+RPM_NAME = "marco-themes-1.26.2-1.1.noarch.rpm"
+RPM_HASH = "4a3716748807b71a545234133b52cd7a42d6e5cea1838ca076e151833e098ca9a240b70e5f3856c7af84a11559504290840dc9414c82b02645849ca9b54d9985"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "marco-themes mate-window-manager-themes"

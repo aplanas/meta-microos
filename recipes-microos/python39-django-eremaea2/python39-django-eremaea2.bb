@@ -3,10 +3,10 @@ DESCRIPTION = "django-eremaea2 is a simple Django application to store and manag
 The application is built on top of django-rest-framework and provides REST API to access the files."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.0.17"
+PV = "2.0.18"
 
-RPM_NAME = "python39-django-eremaea2-2.0.17-3.1.noarch.rpm"
-RPM_HASH = "84f6069097a8ccf5c60ed66145d61efd3113352de5614125c2829bffd5c4f333e509b3975d3cb6e2a85d15398fa9aec8cc460b81f1442866f7713159003e9691"
+RPM_NAME = "python39-django-eremaea2-2.0.18-1.1.noarch.rpm"
+RPM_HASH = "6c34ae13e9d2db837de98fbba38a9fa3991175e2b4d764dba1f3ed40ed4266a6928f7793be0cac4dd34fde8e2ef4208b225b5e73a8f893439d9f317c5e60be54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(django-eremaea2) python39-django-eremaea2 python3dist(django-eremaea2)"

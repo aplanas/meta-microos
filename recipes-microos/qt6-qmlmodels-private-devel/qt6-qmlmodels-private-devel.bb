@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6QmlModels that do 
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-qmlmodels-private-devel-6.5.0-2.1.aarch64.rpm"
-RPM_HASH = "907604ac788375ad2435bfcb7ce9c598dc90ce9db9107f23d0ab527444ac232862d9aae4dd72ce4d666507362a974ebcf10e8ca9923739c72aeaf1189bc171b6"
+RPM_NAME = "qt6-qmlmodels-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "4071d8b702ffa9b5bf455b20e778d799226ac26f870cb75c4ebaba5a6afe54a83c1dd5ab568ba995e28439b0b30944972b063b2881ebe510207ecb0ac3937be3"
 
 RPROVIDES:${PN} += "qt6-qmlmodels-private-devel qt6-qmlmodels-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6QmlModels) qt6-core-private-devel qt6-qml-private-devel"

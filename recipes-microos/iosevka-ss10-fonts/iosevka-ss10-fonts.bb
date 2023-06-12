@@ -6,10 +6,10 @@ preparing technical documents. \
 This package contains the Iosevka SS10 typeface (monospace, Envy Code R style)."
 LICENSE = "OFL-1.1"
 
-PV = "22.1.0"
+PV = "24.0.0"
 
-RPM_NAME = "iosevka-ss10-fonts-22.1.0-1.1.noarch.rpm"
-RPM_HASH = "e8c2b7bc32cf94b4ecd39b8fbb4d649aa05d787d763fd8dda9b5b2f75640588e6496983af987cc0f9b2a4495cb531a43682b69f26e37a3ea0310a82a13dc3855"
+RPM_NAME = "iosevka-ss10-fonts-24.0.0-1.1.noarch.rpm"
+RPM_HASH = "6dc32077908564c7f43a10512e9df12740a4340313669ad1df5003ec10f7ad5697b73d2d460c0a2f3597eb5de0962fdb4e1b63c62adb1a444c7610674e89e06c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss10-fonts"

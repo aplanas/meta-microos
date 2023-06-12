@@ -5,10 +5,10 @@ synthesis methods like wave field synthesis (WFS) or \
 near-field compensated higher order Ambisonics (NFC-HOA)."
 LICENSE = "MIT"
 
-PV = "0.5.0"
+PV = "0.6.2"
 
-RPM_NAME = "python311-sfs-0.5.0-2.9.noarch.rpm"
-RPM_HASH = "6deb070cae8e7e8de9575628c77fa68fa078e797ea4e3b9dd0465521aacd8717ac21c24c56afefb13a072b60e25402829c14fd19fd88e53a369801ec7e84ec66"
+RPM_NAME = "python311-sfs-0.6.2-1.1.noarch.rpm"
+RPM_HASH = "642e2011752fb8aa7ab2035838f686c7e97e440e1e468cb11a6e7a35e04bbb4027d854d0d49907bf799a836517ef3cbc764fc6fe8c192b939bab7c62b70d3a2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(sfs) python311-sfs python3dist(sfs)"

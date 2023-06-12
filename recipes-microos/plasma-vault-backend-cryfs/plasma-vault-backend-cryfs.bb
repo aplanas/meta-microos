@@ -2,10 +2,10 @@ SUMMARY = "Necessary packages for plasma-vault to support cryfs vaults"
 DESCRIPTION = "This package pulls in dependencies for the plasma-vault cryfs backend."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.4"
+PV = "5.27.5"
 
-RPM_NAME = "plasma-vault-backend-cryfs-5.27.4-1.1.aarch64.rpm"
-RPM_HASH = "f0b0375cb6c71ce3383a102c01870f9814f03b8f7884213d3ebf56690b6e43331a4dda7babc950d5fe4c7c9675037dbc0beaeb96578ff832ea6d3321a2ea93a3"
+RPM_NAME = "plasma-vault-backend-cryfs-5.27.5-1.1.aarch64.rpm"
+RPM_HASH = "34c8c972128275dae1385d2c40b0b5af7d979c80a50ee3b8580cc4491b2443527c7992cbf292b9daacb629dd5bab35c41e14498cc5aedacac65a1967c36e9b3d"
 
 RPROVIDES:${PN} += "plasma-vault-backend plasma-vault-backend-cryfs plasma-vault-backend-cryfs(aarch-64)"
 RDEPENDS:${PN} += "cryfs plasma-vault"

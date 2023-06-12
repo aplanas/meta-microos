@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.24.3"
 
-RPM_NAME = "cri-o-1.24.3-1.3.aarch64.rpm"
-RPM_HASH = "a79b264e04489982aad47253c177b0d0278ae390e1500131c7d1e94fd9974fd0cf5c5fc2c48fd4e6d437fb0ac83d5bfaa48486a3703ce0485099e3132e79ed88"
+RPM_NAME = "cri-o-1.24.3-1.4.aarch64.rpm"
+RPM_HASH = "64bafbc3b976353d5542b6dfb82a0f5f8828fa90bf48c6da0a06e15c1c55f1d8b83f7d8b7d1bfba78c1a0d06442fe9f699315fa7f2dbbeeb29dd95a3fa04f37e"
 
 RPROVIDES:${PN} += "config(cri-o) cri-o cri-o(aarch-64) cri-runtime"
 RDEPENDS:${PN} += "/bin/sh cni cni-plugins conmon conntrack-tools iproute2 iptables libc.so.6(GLIBC_2.34)(64bit) libcontainers-common libdevmapper.so.1.03()(64bit) libdevmapper.so.1.03(Base)(64bit) libdevmapper.so.1.03(DM_1_02_97)(64bit) libseccomp.so.2()(64bit) patterns-base-apparmor runc"

@@ -4,13 +4,13 @@ Check https://github.com/getsentry/responses for more information \
 about the library."
 LICENSE = "Apache-2.0"
 
-PV = "0.21.0"
+PV = "0.23.1"
 
-RPM_NAME = "python311-responses-0.21.0-4.1.noarch.rpm"
-RPM_HASH = "1fb9b7f1d3e667ad4c80175ad4d2d36785d2267f1afa6bf5d9b7767faf7fc78e8b4cd833d41b32e514bdd329d68f317a89ca3c07d73863c25c698a66a08633b7"
+RPM_NAME = "python311-responses-0.23.1-2.1.noarch.rpm"
+RPM_HASH = "5af8b26ab12b062a11772fec4ef4ea6d1772dfcc25a64287366a016e68ae6f76184373fc1a2f954757786dcee26c0914adcae6c95783f308832fbaad3c127d02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(responses) python311-responses python3dist(responses)"
-RDEPENDS:${PN} += "python(abi) python311-requests"
+RDEPENDS:${PN} += "(python311-requests >= 2.22.0 with python311-requests < 3) python(abi) python311-PyYAML python311-urllib3"
 
 inherit rpm

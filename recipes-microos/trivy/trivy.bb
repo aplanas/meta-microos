@@ -11,10 +11,10 @@ LICENSE = "Apache-2.0"
 
 PV = "0.41.0"
 
-RPM_NAME = "trivy-0.41.0-1.1.aarch64.rpm"
-RPM_HASH = "1a0978c3d6a2467d1a5e325ee60ce552df9a8f81c1fdad2c2798a1cd5ecfad5d0dd30e8c3f07810c2a849e140fadb9998138bb69c46c853f2bc5e2cb6923591f"
+RPM_NAME = "trivy-0.41.0-2.1.aarch64.rpm"
+RPM_HASH = "4b8ee289c245978f7ac9bee370575ab2e688c2e6d0339a4a5abc27b42f28e4757d5094e2219ff6187000a55b741c8abd807ca38e277f407a0f13b8ff9a578eaa"
 
 RPROVIDES:${PN} += "trivy trivy(aarch-64)"
-RDEPENDS:${PN} += "ca-certificates git-core rpm"
+RDEPENDS:${PN} += "ca-certificates git-core libc.so.6(GLIBC_2.34)(64bit) rpm"
 
 inherit rpm

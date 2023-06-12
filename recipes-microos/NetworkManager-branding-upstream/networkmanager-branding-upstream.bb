@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.42.6"
 
-RPM_NAME = "NetworkManager-branding-upstream-1.42.6-1.1.noarch.rpm"
-RPM_HASH = "c3e85a55beed35a41f75f13fdc9f97be2d48edfce50e425a6c404590e25acde537ba02503f04462fecdd4f531a636b2203b1c03bc94bbfd62227e84c50325432"
+RPM_NAME = "NetworkManager-branding-upstream-1.42.6-2.1.noarch.rpm"
+RPM_HASH = "9ff1a4163e787deb6d575805026f5c5927f72405200a0b387a9c751c3c310a43fc3ba6bca98b2f5b5f4771a83ed062fbc998eab297a8ffefe1c4e608bbb5e225"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-branding NetworkManager-branding-upstream"

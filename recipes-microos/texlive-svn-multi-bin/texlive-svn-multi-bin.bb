@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn13663"
 
-RPM_NAME = "texlive-svn-multi-bin-2023.20230311.svn13663-89.1.aarch64.rpm"
-RPM_HASH = "2494bcf038e47020d5fe0dc184e7b58039c100e61fbb8dedf938ca4982b3acfbe0cbc99cc31173599a45bdde338fb96d47b942c4335ee2d10ca5afab5c2ec18d"
+RPM_NAME = "texlive-svn-multi-bin-2023.20230311.svn13663-91.1.aarch64.rpm"
+RPM_HASH = "c2049599612c693d69ebb331125741860e251528c464f09a8429c9eaeea4b2cf7c4b0b89020eb1a6d26e01a09e18190c431e45893e9b1a6c2a202390918341cc"
 
 RPROVIDES:${PN} += "texlive-svn-multi-bin texlive-svn-multi-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-svn-multi"

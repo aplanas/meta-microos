@@ -4,10 +4,10 @@ Latin Modern, TeX Gyre, and T1 and other encoding support for \
 Computer Modern, in outline form."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54074"
+PV = "2023.208.svn54074"
 
-RPM_NAME = "texlive-collection-fontsrecommended-2023.201.svn54074-56.1.noarch.rpm"
-RPM_HASH = "097e0bffaca78acfdb1564fff8b16e5ab93d3e210626c050796bae42baa2583bfd70c9ac2555823fc58bbe127b83cd420589c10f988cf637cf03676fe67dd2f3"
+RPM_NAME = "texlive-collection-fontsrecommended-2023.208.svn54074-58.1.noarch.rpm"
+RPM_HASH = "679804bd50dea107a149e6c068acd0ac918793b255bece22f8532cd1c8e35bcc7c191a3cebad42181512e6378574343e933d568308a5bc8fc7f35e0abb2b314a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-fontsrecommended"

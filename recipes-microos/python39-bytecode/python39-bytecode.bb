@@ -2,10 +2,10 @@ SUMMARY = "Python module to generate and modify bytecode"
 DESCRIPTION = "Python module to generate and modify bytecode"
 LICENSE = "MIT"
 
-PV = "0.14.1"
+PV = "0.14.2"
 
-RPM_NAME = "python39-bytecode-0.14.1-1.1.noarch.rpm"
-RPM_HASH = "cd22c7f0b35abd590d054cf75fca0ed588288d1c7783d64c7fbf48d6226ab07bd734a94fc1d226fc0bf962e8b6ee2826d9578789417ce420c1846bf35f4da9b1"
+RPM_NAME = "python39-bytecode-0.14.2-1.1.noarch.rpm"
+RPM_HASH = "6eaad84aee6c6c97c86f730a9096fb4bc67772a851b71d7c97255d9fc9151317465c488fb16a7d431966175449eaa7797892b891586e4dad306c8869469b07e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(bytecode) python39-bytecode python3dist(bytecode)"

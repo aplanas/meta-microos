@@ -6,12 +6,12 @@ This package contains helper programs for using FUSE mounts. \
  \
 FUSE file systems are typically implemented as a standalone \
 applications in their own right and are packaged separately."
-LICENSE = "BSD-2-Clause & GPL-2.0-or-later & LGPL-2.1-or-later"
+LICENSE = "BSD-2-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "3.14.1"
 
-RPM_NAME = "fuse3-3.14.1-1.1.aarch64.rpm"
-RPM_HASH = "fe4c62c1f99778b8e01ff70517722ca966a3915bf7cb3ace32eccb24986b8ea9702142a7717b8af4508cdc5414b69fa72f375879273a9eac606c1157ebab3d09"
+RPM_NAME = "fuse3-3.14.1-2.1.aarch64.rpm"
+RPM_HASH = "a9c893624df6bc7401b9277dc273b8ff14a8cd78b2411b4b1d7c7d85658e8f86d695a7d24067e9c50c4d57c49fbe5e797b493cc41e042a6db353e3660497d307"
 
 RPROVIDES:${PN} += "config(fuse3) fuse3 fuse3(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh group(trusted) ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libfuse3.so.3()(64bit) libfuse3.so.3(FUSE_3.3)(64bit) permissions util-linux"

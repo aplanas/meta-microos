@@ -3,10 +3,10 @@ DESCRIPTION = "These libraries are needed for developing software that makes use
 AppArmor API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.1.3"
+PV = "3.1.4"
 
-RPM_NAME = "libapparmor-devel-3.1.3-2.1.aarch64.rpm"
-RPM_HASH = "242436cb9625c8bb609de8b450b26e3abe96e407ed59b58a22b224227eb322ae4e61bb6112f2d282f648b03c34b0f4a9487fcd81cc6938e7f5a274795bb2c3c3"
+RPM_NAME = "libapparmor-devel-3.1.4-1.1.aarch64.rpm"
+RPM_HASH = "40f55f0de84321d82153cd769ae505c46dd0ea5c31a7f7ecd46669b71041223ff3ca41071197f74c77d85778b627af51e3fd5768df0cbb48f98b207cceebb46e"
 
 RPROVIDES:${PN} += "libapparmor-devel libapparmor-devel(aarch-64) libapparmor:/usr/include/sys/apparmor.h pkgconfig(libapparmor)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libapparmor1"

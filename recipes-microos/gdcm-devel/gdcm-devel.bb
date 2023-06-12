@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.21"
 
-RPM_NAME = "gdcm-devel-3.0.21-1.4.aarch64.rpm"
-RPM_HASH = "0d8d93ff4015157919a86e5e524cf1582e312fa7383ca11cf85a1c55e717427f87d19de09960783f9e8429183de9b1131636af9909919eb776503d33905d529b"
+RPM_NAME = "gdcm-devel-3.0.21-1.5.aarch64.rpm"
+RPM_HASH = "e9ded2a2b8ea1fa5648d37f364fb175551aff99c90505cad6b86c773d98cdbd91f7569e46879b2a5cc007b2b29bbbbb261ac58f9df255faae9eed1209c5c56ea"
 
 RPROVIDES:${PN} += "cmake(GDCM) gdcm-devel gdcm-devel(aarch-64)"
 RDEPENDS:${PN} += "gdcm-applications(aarch-64) libgdcm3_0 libsocketxx1_2"

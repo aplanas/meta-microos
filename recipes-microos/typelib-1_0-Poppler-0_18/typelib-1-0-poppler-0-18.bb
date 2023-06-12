@@ -5,12 +5,12 @@ developed by Derek Noonburg of Glyph and Cog, LLC. \
 This package provides the GObject Introspection bindings for Poppler."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "23.04.0"
+PV = "23.05.0"
 
-RPM_NAME = "typelib-1_0-Poppler-0_18-23.04.0-1.1.aarch64.rpm"
-RPM_HASH = "88a5917a233079b9a51f74935bcef7e39cd55bbbb769ff81d2bc2185e6fd2277dc853df4a1e0aee7a8be50f339e9fd3cf7427921537deefe09450433b0283f5a"
+RPM_NAME = "typelib-1_0-Poppler-0_18-23.05.0-1.1.aarch64.rpm"
+RPM_HASH = "3b5b24aa0353dd86a3e60ae48767d444e91856e06c09a0658d3563135ecd3f97862dfba55dd805d207ff246a14db8b3568366c74a8f1e416febea02bbcc14931"
 
 RPROVIDES:${PN} += "typelib(Poppler) typelib-1_0-Poppler-0_18 typelib-1_0-Poppler-0_18(aarch-64)"
-RDEPENDS:${PN} += "libpoppler-glib.so.8()(64bit) libpoppler.so.127()(64bit) typelib(GLib) typelib(GObject) typelib(Gio) typelib(cairo)"
+RDEPENDS:${PN} += "libpoppler-glib.so.8()(64bit) libpoppler.so.128()(64bit) typelib(GLib) typelib(GObject) typelib(Gio) typelib(cairo)"
 
 inherit rpm

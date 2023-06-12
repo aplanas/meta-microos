@@ -3,10 +3,10 @@ DESCRIPTION = "Discover which versions of the Python interpreter are present on 
 system."
 LICENSE = "MIT"
 
-PV = "0.2.4"
+PV = "0.2.5"
 
-RPM_NAME = "python310-findpython-0.2.4-1.4.noarch.rpm"
-RPM_HASH = "6318e7eb824cad0dd06448f93554ee968829100c64adc5df4ad4ad2e8c8f6e18a9487cd727a5a35e0c52f3bd9b69fc5bcc3fad58c1129c972b7f3b711bbbf1c7"
+RPM_NAME = "python310-findpython-0.2.5-1.1.noarch.rpm"
+RPM_HASH = "c8fb7653c9add23c2df7ab7129ba9c4371eaab53b423ba1ce6f8337afae4ea6317f0c08bb467c37e9329c8ee754da0140d9956caa77238d72e2c5668626b98ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-findpython python3.10dist(findpython) python310-findpython python3dist(findpython)"

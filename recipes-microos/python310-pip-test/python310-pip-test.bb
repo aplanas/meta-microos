@@ -4,10 +4,10 @@ finding packages, so packages that were made easy_installable should be \
 pip-installable as well."
 LICENSE = "MIT"
 
-PV = "22.3.1"
+PV = "23.1.2"
 
-RPM_NAME = "python310-pip-test-22.3.1-2.1.noarch.rpm"
-RPM_HASH = "e24f7ef25aba0ae280bfe76bcc2290f2b118df58265777a806267665023a6280b8d64655d6afc4e5e587d52c831449545fe0744aa6de5fedcb484683f09fa2eb"
+RPM_NAME = "python310-pip-test-23.1.2-1.1.noarch.rpm"
+RPM_HASH = "64303a53eb448ae258fe4b022a53ea6520d4972972b24302d172ed0149144620e6bd833d5908dceb60702445024ccbcb7043d66c33fce2ba918d0953a4d3fb59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pip-test python310-pip-test"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.9.49"
 
-RPM_NAME = "deepin-start-5.9.49-2.3.aarch64.rpm"
-RPM_HASH = "6b9534fb042fa4e21e72050da65c782bf6946a870cf629899620df2dc0dd44897df009b449f17cd3532549d73034b8d6602311113d34067fa867b8ff054132d0"
+RPM_NAME = "deepin-start-5.9.49-2.4.aarch64.rpm"
+RPM_HASH = "52701c202f151b47e1e26534b64bed7790eb85fc6e2b9acd01ff055de26291d90619b7193e18a622e5d28843c391656f560b7f49e00d3a53cb059f5e3a636c25"
 
 RPROVIDES:${PN} += "deepin-start deepin-start(aarch-64) startdde"
 RDEPENDS:${PN} += "/bin/sh deepin-daemon update-alternatives"

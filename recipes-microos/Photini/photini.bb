@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2022.3.2"
 
-RPM_NAME = "Photini-2022.3.2-2.4.noarch.rpm"
-RPM_HASH = "fd1076e559ff3cf68ab335b82094e76cb03174c607b58bef05219a0c77044d8b39ec7cdb50ecb2afb524820c5295545dcfa30ad3412d8d2330ef2d6ddd6d52be"
+RPM_NAME = "Photini-2022.3.2-2.5.noarch.rpm"
+RPM_HASH = "f05222e293c9a6155d18d5dcb44f227fa582d395d9e5c1726e10936ba46363bd22653507fcb2ed9848236c0b77bfa50e6cf0f4898c6838c66375ea306ea9b19b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Photini application() application(photini.desktop) mimehandler(image/gif) mimehandler(image/jpeg) mimehandler(image/jpeg2000) mimehandler(image/png) mimehandler(image/svg+xml) mimehandler(image/tiff) mimehandler(image/x-dcraw) python3.10dist(photini) python3dist(photini)"

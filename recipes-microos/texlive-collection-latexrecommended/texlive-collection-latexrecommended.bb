@@ -3,10 +3,10 @@ DESCRIPTION = "A collection of recommended add-on packages for LaTeX which \
 have widespread use."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65512"
+PV = "2023.208.svn65512"
 
-RPM_NAME = "texlive-collection-latexrecommended-2023.201.svn65512-56.1.noarch.rpm"
-RPM_HASH = "c85ffef419950e6b2c96a44969df67c21e078f21983eba52cf5266de6bea9204e85760fdc6be80fc698c1db706b23230aa260fa48413f36679380a446b4b9e09"
+RPM_NAME = "texlive-collection-latexrecommended-2023.208.svn65512-58.1.noarch.rpm"
+RPM_HASH = "5728306a99b084d2c87a8f1cd05a0da05388d03e1973de327c85203bf1165dad3f61fad564606b7d6ae02126f456c5898a673033c95d67263b72cdc8a23f3326"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-latexrecommended"

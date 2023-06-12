@@ -5,10 +5,10 @@ which the products will be purchased and a list of purchase lines, \
 each one containing a product and a quantity."
 LICENSE = "GPL-3.0"
 
-PV = "6.0.10"
+PV = "6.0.11"
 
-RPM_NAME = "trytond_purchase-6.0.10-1.1.noarch.rpm"
-RPM_HASH = "a020ca360a08cf8e18ca7ff97f0346433ae3e91e615bc6cb374f524050b4ba8bec77b69c3123cda65517025117811001e864cec5f4124f2a054b0019bc3f4155"
+RPM_NAME = "trytond_purchase-6.0.11-1.1.noarch.rpm"
+RPM_HASH = "f97ac297a87455824b8504892fa684438765d6b77650446e458ef9a741b397ec133914504463de67a41b275ddb96ab7fb54fb92740b4177c459435552b7940bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist(trytond-purchase) python3dist(trytond-purchase) trytond_purchase"

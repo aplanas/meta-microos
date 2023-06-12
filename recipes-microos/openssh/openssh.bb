@@ -13,8 +13,8 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "8.9p1"
 
-RPM_NAME = "openssh-8.9p1-9.1.aarch64.rpm"
-RPM_HASH = "e681c177c20b5bd082e25c2d0a8c2c7de72f2088f9af6885325b5b51152a037744101317dd9906acff7f03faafb6703d0ceb5eaca129d0db94de56d1b4dfb676"
+RPM_NAME = "openssh-8.9p1-9.2.aarch64.rpm"
+RPM_HASH = "83f67ff73a2e42a7bc60559e30803797810cd76d024858b2f0630010999494b1cd35055969663f3fb7870d62e1f893e63e0a3edb313cf3228252241dfb2ff585"
 
 RPROVIDES:${PN} += "openssh openssh(aarch-64)"
 RDEPENDS:${PN} += "findutils grep openssh-clients openssh-server"

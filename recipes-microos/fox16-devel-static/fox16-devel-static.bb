@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.57"
 
-RPM_NAME = "fox16-devel-static-1.6.57-2.1.aarch64.rpm"
-RPM_HASH = "69d9e54d8a88c89f1d7b316025c5f9eb3bbdf92c8358f0b914dd5877c0297de7b661ae88a958686b0afd2f40f1029386f1bd31d391c04a7d19c2dca3874a52b7"
+RPM_NAME = "fox16-devel-static-1.6.57-4.1.aarch64.rpm"
+RPM_HASH = "43f0d2e2e3662619fbb84a55b7e3d697dc558ae166e2234b616d10107392fc3df053d8ef4ea8cfdd2e635bb69f8e15b622a6176ea1655a6f4435e7ae1f7f3bc9"
 
 RPROVIDES:${PN} += "fox16-devel-static fox16-devel-static(aarch-64) fox16-static"
 RDEPENDS:${PN} += "fox16-devel"

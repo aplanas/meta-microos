@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a module providing the s390x virtio gpu ccw
 QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "7.1.0"
+PV = "8.0.2"
 
-RPM_NAME = "qemu-hw-s390x-virtio-gpu-ccw-7.1.0-16.1.aarch64.rpm"
-RPM_HASH = "ec0448b9585d4a117f137b0fa122f0d1a26e4a34f2a342869e75008ff8fe3475bbe7ad79c57789bd7148785f58aae5dafa6cdbe30377229cfa38f96f09933414"
+RPM_NAME = "qemu-hw-s390x-virtio-gpu-ccw-8.0.2-1.1.aarch64.rpm"
+RPM_HASH = "4f16ec7ee929a4d09ae888bb4e868826f09b2f0b3b572ce06331083155dbb1e33a5e5f8d80fb9ab6e8eb3e6d241e3eab40cbbce44c84095104c8e01c9c6552fc"
 
 RPROVIDES:${PN} += "qemu-hw-s390x-virtio-gpu-ccw qemu-hw-s390x-virtio-gpu-ccw(aarch-64)"
 RDEPENDS:${PN} += "qemu-hw-display-virtio-gpu"

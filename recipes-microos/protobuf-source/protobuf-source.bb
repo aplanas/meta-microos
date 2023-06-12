@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "21.12"
 
-RPM_NAME = "protobuf-source-21.12-3.1.noarch.rpm"
-RPM_HASH = "cd53e3d3a525a49e996838f672691aeb6833a0b8c40ce1483c88b1d92ec82ce0e6ed605b4a9f266ab825932fdf348dfbcae4fbec76b3cd5d2461dd14918ece75"
+RPM_NAME = "protobuf-source-21.12-3.2.noarch.rpm"
+RPM_HASH = "75f583ffdf1cf8d98756c671b4294a7943cf40873984f69d892e6eb0365bd6b20cb4687b630df1be41fb5d3f529cf7f2c6bdb522111fa473ba4b4f8c3b976cf8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "protobuf-source"

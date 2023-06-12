@@ -1,11 +1,11 @@
-SUMMARY = "YaST2 - AutoYaST Schema"
-DESCRIPTION = "AutoYaST Syntax Schema"
+SUMMARY = "YaST2 - AutoYaST Schema (default variant)"
+DESCRIPTION = "AutoYaST Syntax Schema (default variant)"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "4.6.1"
 
-RPM_NAME = "yast2-schema-default-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "87fb6aaf17833c2180cafa0d36df3726988c17784f39894f328fb696861cf573f647a07ae6ef6e72d3bc80893653d8494ca34a9c9dd2ebdb5fc5e382924949b4"
+RPM_NAME = "yast2-schema-default-4.6.1-1.1.aarch64.rpm"
+RPM_HASH = "891f7bcc24ebe94a0243e71e2f4c1c572c9967c6782f1ab6e56448f0591a7933bae274ce557928e4ebfb26e7861d54d37301b62a374d957ec1e5a8654d1adb4d"
 
 RPROVIDES:${PN} += "yast2-schema yast2-schema-default yast2-schema-default(aarch-64)"
 RDEPENDS:${PN} += ""

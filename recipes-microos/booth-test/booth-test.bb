@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains automated tests for Booth, \
 the Cluster Ticket Manager for Pacemaker."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0+20220815.f40c2d5"
+PV = "1.0+20221117.9d4029a"
 
-RPM_NAME = "booth-test-1.0+20220815.f40c2d5-1.3.aarch64.rpm"
-RPM_HASH = "2aff573566128e5de29af89c5717b5382f5c94f9aa036d5130fa2b4b6bf83c5197fe7631bf9da766f42ece5b815c8d1697fdc97ddf1482eca08b7dd3367b57b8"
+RPM_NAME = "booth-test-1.0+20221117.9d4029a-1.1.aarch64.rpm"
+RPM_HASH = "ac926abedc5d94033981e4417540a7324f95c168ba81d5c4d94312d4e8ae3ce863586ac845882e0ffe0e0b603bcda24c2ba5cfbffc59d5b6a481e93058f0efbd"
 
 RPROVIDES:${PN} += "booth-test booth-test(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash /bin/sh booth python3"

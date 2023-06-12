@@ -2,10 +2,10 @@ SUMMARY = "KDE Framework for providing different actions given a string query"
 DESCRIPTION = "Files needed for developing custom runners or frontends."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.105.0"
+PV = "5.106.0"
 
-RPM_NAME = "krunner-devel-5.105.0-1.1.aarch64.rpm"
-RPM_HASH = "be7d39f7ffeee549aed83afd80e2933227e8c97f18abb595c6f5ecddf673319b7d97f379ae10011dbabaef1e79cfca50079b87d15cb118d18c0cf10ea8ddc530"
+RPM_NAME = "krunner-devel-5.106.0-1.1.aarch64.rpm"
+RPM_HASH = "63bdb5859632c7cea9662f9cf5343a93bf122486768ea5c51e69099b5aee59b8112d45a05109af23f3b6492cebb9375e7c309e1d57d2618aef377e81e9d2c865"
 
 RPROVIDES:${PN} += "cmake(KF5Runner) krunner-devel krunner-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(KF5Plasma) cmake(Qt5Core) extra-cmake-modules libKF5Runner5"

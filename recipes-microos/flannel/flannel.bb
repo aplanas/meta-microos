@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.14.0"
 
-RPM_NAME = "flannel-0.14.0-1.9.aarch64.rpm"
-RPM_HASH = "beae1de8163c0165fd476f4b3767248741d46a05b0c6669be21ca2cb4404f08fa72b8e2ce8737dfcaa796b8108da002602d2da3f6905f2a116b4d1bb4704cc62"
+RPM_NAME = "flannel-0.14.0-1.10.aarch64.rpm"
+RPM_HASH = "f77bc282ab6f420a7e7ab25749b345211bdbb0462b612ac3345cf9bff6f512c848f07c78f7c2e8452b0e4d17621bbf9de7987a9a4ee71cc30eaa691801438098"
 
 RPROVIDES:${PN} += "flannel flannel(aarch-64)"
 RDEPENDS:${PN} += "iproute2 iptables net-tools-deprecated"

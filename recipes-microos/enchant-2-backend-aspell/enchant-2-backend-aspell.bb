@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.2.15"
 
-RPM_NAME = "enchant-2-backend-aspell-2.2.15-3.3.aarch64.rpm"
-RPM_HASH = "14a6dfc73b2edce379e62e6f2df67d13a45f24f1791ba3c5b51f6bfacb7dc1a94a5bcd91893d360ea7d24216949ccc578929d23114d435d7dd56e62fa7b21f47"
+RPM_NAME = "enchant-2-backend-aspell-2.2.15-3.4.aarch64.rpm"
+RPM_HASH = "1b3379501bc21b2009f58c674105dead13439c9259b65712bf49c0fafc67562f3b43292d2b98d4d36bb23ae277b872120f283cc6b708f7d2f12c6e730ba3f7dc"
 
 RPROVIDES:${PN} += "enchant-2-backend enchant-2-backend-aspell enchant-2-backend-aspell(aarch-64)"
 RDEPENDS:${PN} += "libaspell.so.15()(64bit) libc.so.6(GLIBC_2.17)(64bit) libenchant-2.so.2()(64bit) libglib-2.0.so.0()(64bit)"

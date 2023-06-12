@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.6"
 
-RPM_NAME = "etcd-for-k8s1.23-3.5.6-1.3.aarch64.rpm"
-RPM_HASH = "1695498dc54eb0cee676aa0d8d79c6ea2134a4f503af0c908cafbcf12f434f3bae7cc6fd218c722996c46a6cf26f26cf2b0b84f232dddb55c2b4dca10a4885c1"
+RPM_NAME = "etcd-for-k8s1.23-3.5.6-1.4.aarch64.rpm"
+RPM_HASH = "74e7c97fa92c9543aabbf898d53cc02af9d132d166f099f8d6d91271a4e0ff94d540b243d2f7dc6be9657175bff96390baf24c253b0915f22f35250ef8b0e831"
 
 RPROVIDES:${PN} += "etcd-for-k8s etcd-for-k8s1.23 etcd-for-k8s1.23(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash libc.so.6(GLIBC_2.34)(64bit)"

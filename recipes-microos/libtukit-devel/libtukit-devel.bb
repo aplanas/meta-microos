@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the files required to develop programs to d
 transactional updates using btrfs snapshots."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.1.5"
+PV = "4.2.1"
 
-RPM_NAME = "libtukit-devel-4.1.5-1.1.aarch64.rpm"
-RPM_HASH = "c39732663cec3dc0e3394c52cc977bfdf528c501e1e44c0b3a32e4fecb8e0b6bd1b94878517475a2263bf96bbd4a4846f97d919945631b01a53edead7a83fefd"
+RPM_NAME = "libtukit-devel-4.2.1-1.1.aarch64.rpm"
+RPM_HASH = "daa5fc87a1a4d71367957e60abba4dc0061111ada723a737124baaabe4293632a2e0fee338b78ffce917448fc5376cd1c5d7b1c578d80374d40db010283c71b4"
 
 RPROVIDES:${PN} += "libtukit-devel libtukit-devel(aarch-64) pkgconfig(tukit) tukit-devel"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libtukit4 pkgconfig(libeconf) pkgconfig(mount) pkgconfig(rpm)"

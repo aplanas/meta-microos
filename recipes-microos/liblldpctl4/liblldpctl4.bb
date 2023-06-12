@@ -8,10 +8,10 @@ inter-vendor compatible mechanism to deliver Link-Layer notifications \
 to adjacent network devices."
 LICENSE = "MIT"
 
-PV = "1.0.16"
+PV = "1.0.17"
 
-RPM_NAME = "liblldpctl4-1.0.16-1.4.aarch64.rpm"
-RPM_HASH = "9a5522e85d1fad99b16417c3b711658f58baa98513c87b6b399737538d9de81f961c244319435d6d76bb84010e2def0d768c2283839b423556de10b3a2214550"
+RPM_NAME = "liblldpctl4-1.0.17-1.1.aarch64.rpm"
+RPM_HASH = "aa6a72ef33320405dc5e8aee30bc434e1dfec541416a437ff112b9333e9af2d40bd5c3a819cfb1048820ebe4f374699989a1d86d5b9ee9f967d5b4b005607069"
 
 RPROVIDES:${PN} += "liblldpctl.so.4()(64bit) liblldpctl.so.4(LIBLLDPCTL_4.6)(64bit) liblldpctl.so.4(LIBLLDPCTL_4.7)(64bit) liblldpctl.so.4(LIBLLDPCTL_4.8)(64bit) liblldpctl.so.4(LIBLLDPCTL_4.9)(64bit) liblldpctl4 liblldpctl4(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libbsd.so.0()(64bit) libbsd.so.0(LIBBSD_0.0)(64bit) libbsd.so.0(LIBBSD_0.2)(64bit) libc.so.6(GLIBC_2.17)(64bit)"

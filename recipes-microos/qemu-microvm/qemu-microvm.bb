@@ -5,10 +5,10 @@ bios-microvm, created from a minimal seabios configuration, provides slightly \
 wider support than qboot, but still focuses on quick boot up."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "7.1.0"
+PV = "8.0.2"
 
-RPM_NAME = "qemu-microvm-7.1.0-16.1.noarch.rpm"
-RPM_HASH = "c233a5453a810bf4aaf2465d517c53a16a90b1223bae029cde01288e807977fe3e4628f778f6ea14b2583f652bbb1b9d12029535756c3572fe5cc17dc1744682"
+RPM_NAME = "qemu-microvm-8.0.2-1.1.noarch.rpm"
+RPM_HASH = "4a12d6e7cf845e07d78ae21d1e5f61bb380db2787f316aa3d7302b23f7ce19673789fddcb2e0d0812b0312cac6dfdb035a728c5ff75692f8eb3e7bf97206b622"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-microvm"

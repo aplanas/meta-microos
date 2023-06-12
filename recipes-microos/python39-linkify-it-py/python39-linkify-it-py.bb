@@ -7,10 +7,10 @@ Why it's awesome: \
 * Allows rules extension & custom normalizers."
 LICENSE = "MIT"
 
-PV = "2.0.0"
+PV = "2.0.2"
 
-RPM_NAME = "python39-linkify-it-py-2.0.0-2.1.noarch.rpm"
-RPM_HASH = "661e52ca36bf819a763d53c4b63037b8b1c03e8e4cd2f669371afa43c157a29cbeb4c3c4be63af6d420f4806b685dab77e90b4f2429723f929d1b282ed8436e9"
+RPM_NAME = "python39-linkify-it-py-2.0.2-1.1.noarch.rpm"
+RPM_HASH = "8442464b8d208cf68aea0b34d4283ac2d9c1120a01f9f65d1b4cb546f7baf42c0d40f639ad68a18da3a7700b590a334bfb8f738783b7e54c2637589100674863"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(linkify-it-py) python39-linkify-it-py python3dist(linkify-it-py)"

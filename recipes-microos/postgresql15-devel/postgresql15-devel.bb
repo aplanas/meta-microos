@@ -14,10 +14,10 @@ For building PostgreSQL server extensions, see the \
 postgresql15-server-devel package."
 LICENSE = "PostgreSQL"
 
-PV = "15.2"
+PV = "15.3"
 
-RPM_NAME = "postgresql15-devel-15.2-3.1.aarch64.rpm"
-RPM_HASH = "08b5b875dff48ce415947b03779e928baf7a7955908399bc088590d0e0a9499e583b03de2b7488ee4379acdd4154eaa37017c268d843d5f8d28c71a52aeb5469"
+RPM_NAME = "postgresql15-devel-15.3-1.2.aarch64.rpm"
+RPM_HASH = "a974c8734128975249d77c397799c383ecd1dae7c33d81c57ab563cdff9594bf4c590d7ddf9355b1fde76396c3d3db8d2b93a8814886751c1a12296702c5f8d4"
 
 RPROVIDES:${PN} += "pkgconfig(libecpg) pkgconfig(libecpg_compat) pkgconfig(libpgtypes) pkgconfig(libpq) postgresql-devel postgresql-devel-exclusive postgresql-devel-implementation postgresql15-devel postgresql15-devel(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libecpg6 libpq5 pkgconfig(libcrypto) pkgconfig(libecpg) pkgconfig(libpgtypes) pkgconfig(libpq) pkgconfig(libssl) postgresql-devel-noarch"

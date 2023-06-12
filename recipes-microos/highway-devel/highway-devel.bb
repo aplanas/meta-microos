@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.4"
 
-RPM_NAME = "highway-devel-1.0.4-1.2.aarch64.rpm"
-RPM_HASH = "7ebe2f36c312790f988773f9ce4ab46445f527584a6b70eb8834e0e3d628c81bc7818d1ae7c2c590e28f24e68598f36b1a077c33c6e55056c4bf0aef462c0c8a"
+RPM_NAME = "highway-devel-1.0.4-4.1.aarch64.rpm"
+RPM_HASH = "1a6e0a4ed2f8cd2551b3c803034b15d9256634a19e4001e257131f03f2eb7c216d26f2f047e8049cec7dedb739c4137f8bcfed6730f26b5e297a087306823ce0"
 
 RPROVIDES:${PN} += "cmake(hwy) highway-devel highway-devel(aarch-64) pkgconfig(libhwy) pkgconfig(libhwy-contrib) pkgconfig(libhwy-test)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libhwy1 pkgconfig(gtest)"

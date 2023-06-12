@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-quickeffectmaker in HTML format"
 DESCRIPTION = "This package contains documentation for qt6-quickeffectmaker in HTML format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-quickeffectmaker-docs-html-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "023b60d3ffbbdd328f29f29d5e7bf2ffa725005e83752ec2c5789a846512c066c45cf0c64897fb90d8018325354e50722c7b9bb78cd174517f7709b3f22e7f1e"
+RPM_NAME = "qt6-quickeffectmaker-docs-html-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "3a08efcece01f6b2a3dde17bb05c5b256b01fce57f26709d803f295e697e2434ffcf54b5d3315ff2dfe0e3e1c5b805a611ab0e3a7bff9d62aac2b56541689043"
 
 RPROVIDES:${PN} += "qt6-quickeffectmaker-docs-html qt6-quickeffectmaker-docs-html(aarch-64)"
 RDEPENDS:${PN} += ""

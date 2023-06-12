@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "v1.1.1~git10.d54f404"
 
-RPM_NAME = "fileb0x-v1.1.1~git10.d54f404-1.8.aarch64.rpm"
-RPM_HASH = "7cdbc0a9458fe14c30d48c9526f3206c555f206fa9180347af45321c2a0465ff5ef25e37ff6bdcf3acc9d8e5f4aaff58b2c5fd96ead3588ff22d80f44ad1bbdf"
+RPM_NAME = "fileb0x-v1.1.1~git10.d54f404-1.9.aarch64.rpm"
+RPM_HASH = "cb361e6b8ab8b6a025db075ee5af09ac792753539c17d473c979417360bf2ae7ad09761b2264ebb3a4b6e95b002b20c2a24bf0cdaffefd06324fc8f32decf2d7"
 
 RPROVIDES:${PN} += "fileb0x fileb0x(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

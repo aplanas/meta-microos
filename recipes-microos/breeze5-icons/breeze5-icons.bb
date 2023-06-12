@@ -2,10 +2,10 @@ SUMMARY = "Breeze icon theme"
 DESCRIPTION = "Breeze-icons is a freedesktop.org compatible icon theme."
 LICENSE = "LGPL-3.0-only"
 
-PV = "5.105.0"
+PV = "5.106.0"
 
-RPM_NAME = "breeze5-icons-5.105.0-1.1.noarch.rpm"
-RPM_HASH = "0444ef9f301536fc30fca7e2bde941e8f08cb2038b579bea05719ba647182d7de419754df38b81d4ddf4d300dd1aeb36235960dcd0b5a44d734d7965976038c9"
+RPM_NAME = "breeze5-icons-5.106.0-1.1.noarch.rpm"
+RPM_HASH = "0f8d9afe698bae87512b70b65b54dff710eee812c00e55cec1e2bb867be6c6d0c838d415d038ee21e6162ed25cb76788a56bc8cec82a41a03854b3b04e165831"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "breeze5-icons"

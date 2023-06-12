@@ -13,12 +13,12 @@ VPNs, such as: \
 * Fortinet Fortigate SSL VPN"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.10"
+PV = "9.12"
 
-RPM_NAME = "openconnect-9.10-1.1.aarch64.rpm"
-RPM_HASH = "39fe82b663a87891d01e3b97cd1fedafa2068fc956f5e88de1aa410b1d55a2d6b6def5dcbfaabad2bdc116891e9db57a4c2f2747008cb088af7c3c1907bd19c2"
+RPM_NAME = "openconnect-9.12-1.1.aarch64.rpm"
+RPM_HASH = "0a69f1844ff3a5d917d8bbed06c34d23e537ab484853be1fc35264c3d3d8cd8fabcbefbd010de7435cba6a5e343e9a637085f3093de1f9e2cd61ff3471ec6414"
 
-RPROVIDES:${PN} += "openconnect openconnect(aarch-64)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/python3 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgnutls.so.30()(64bit) libgnutls.so.30(GNUTLS_3_4)(64bit) libopenconnect.so.5()(64bit) libopenconnect.so.5(OPENCONNECT_5.0)(64bit) libopenconnect.so.5(OPENCONNECT_5_1)(64bit) libopenconnect.so.5(OPENCONNECT_5_2)(64bit) libopenconnect.so.5(OPENCONNECT_5_3)(64bit) libopenconnect.so.5(OPENCONNECT_5_4)(64bit) libopenconnect.so.5(OPENCONNECT_5_5)(64bit) libopenconnect.so.5(OPENCONNECT_5_6)(64bit) libopenconnect.so.5(OPENCONNECT_5_7)(64bit) libopenconnect.so.5(OPENCONNECT_5_8)(64bit) libopenconnect.so.5(OPENCONNECT_PRIVATE)(64bit) libproxy.so.1()(64bit) libproxy.so.1(LIBPROXY_0.4.16)(64bit) libxml2.so.2()(64bit) libxml2.so.2(LIBXML2_2.4.30)(64bit) libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+RPROVIDES:${PN} += "config(openconnect) openconnect openconnect(aarch-64)"
+RDEPENDS:${PN} += "/bin/bash /bin/sh /usr/bin/python3 ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgnutls.so.30()(64bit) libgnutls.so.30(GNUTLS_3_4)(64bit) libopenconnect.so.5()(64bit) libopenconnect.so.5(OPENCONNECT_5.0)(64bit) libopenconnect.so.5(OPENCONNECT_5_1)(64bit) libopenconnect.so.5(OPENCONNECT_5_2)(64bit) libopenconnect.so.5(OPENCONNECT_5_3)(64bit) libopenconnect.so.5(OPENCONNECT_5_4)(64bit) libopenconnect.so.5(OPENCONNECT_5_5)(64bit) libopenconnect.so.5(OPENCONNECT_5_6)(64bit) libopenconnect.so.5(OPENCONNECT_5_7)(64bit) libopenconnect.so.5(OPENCONNECT_5_9)(64bit) libopenconnect.so.5(OPENCONNECT_PRIVATE)(64bit) libproxy.so.1()(64bit) libproxy.so.1(LIBPROXY_0.4.16)(64bit) libxml2.so.2()(64bit) libxml2.so.2(LIBXML2_2.4.30)(64bit) libxml2.so.2(LIBXML2_2.6.0)(64bit)"
 
 inherit rpm

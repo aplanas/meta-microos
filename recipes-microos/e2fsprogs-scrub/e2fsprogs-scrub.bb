@@ -3,10 +3,10 @@ DESCRIPTION = "Scripts and systemd service files for background scrubbing of LVM
 with ext2, ext3, and ext4 filesystems."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.46.5"
+PV = "1.47.0"
 
-RPM_NAME = "e2fsprogs-scrub-1.46.5-4.3.aarch64.rpm"
-RPM_HASH = "a6c7cd8c95cb3f6948e91e1e6ef87b44534c94e3fa9688e21b595e8756374ab0462b8e09075ad420bfa1c418c0fa54bf215c38e59efb68279f931c1a6b435589"
+RPM_NAME = "e2fsprogs-scrub-1.47.0-1.1.aarch64.rpm"
+RPM_HASH = "9846cb67555758a6ec2cee82ad8f6efd2237bc94a0c95b3bbe9a96ee6d0601e766132af680ab2fad96fc321177ba289a0581a0664b850df67d85494db983f1fe"
 
 RPROVIDES:${PN} += "config(e2fsprogs-scrub) e2fsprogs-scrub e2fsprogs-scrub(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash /bin/sh e2fsprogs lvm2 postfix systemd util-linux"

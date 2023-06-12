@@ -2,10 +2,10 @@ SUMMARY = "French"
 DESCRIPTION = "Support for French and Basque."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn63147"
+PV = "2023.208.svn63147"
 
-RPM_NAME = "texlive-collection-langfrench-2023.201.svn63147-56.1.noarch.rpm"
-RPM_HASH = "82a156ef8387664f83970e8e24eda75eef33682c73df95275277ce1ccea53a24536a9476ec59ef1566fb3424f4b14775af1bab5d15444c91b405c910983fed70"
+RPM_NAME = "texlive-collection-langfrench-2023.208.svn63147-58.1.noarch.rpm"
+RPM_HASH = "deec124f59de5014044782e368383402a5fc13d0dec8a17f22366aaa134a3ffa320b9e350647dc450ff22e347dbf70df1ce49037a9affa7547894c1504b923a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langfrench"

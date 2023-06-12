@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Synapse Artifacts Client Library. \
 This package has been tested with Python 2.7, 3.5, 3.6, 3.7 and 3.8."
 LICENSE = "MIT"
 
-PV = "0.15.0"
+PV = "0.16.0"
 
-RPM_NAME = "python310-azure-synapse-artifacts-0.15.0-1.3.noarch.rpm"
-RPM_HASH = "c1ca4a9761f592211c778c7bbaa1c7088e90e925aa57f3cf0b9793da8097a06816bbe9079119d4c1fbe7690ffb73519eea67d24aa12498beeae6ec469bbf9709"
+RPM_NAME = "python310-azure-synapse-artifacts-0.16.0-1.1.noarch.rpm"
+RPM_HASH = "a1dd56014c629757843a531a897ab1f00dac9126784c1cf81bfa88e78a86b79ed33cfd6b42116c9d2b86e8467c082f1355d22b819ab658a7f3e54694c41d539c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-synapse python3-azure-synapse-artifacts python3.10dist(azure-synapse-artifacts) python310-azure-synapse python310-azure-synapse-artifacts python3dist(azure-synapse-artifacts)"

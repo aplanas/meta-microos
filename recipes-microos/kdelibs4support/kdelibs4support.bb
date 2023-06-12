@@ -15,10 +15,10 @@ location as KDELibs4Support, although it may be sufficient to set the \
 KDEDIRS environment variable correctly."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.105.0"
+PV = "5.106.0"
 
-RPM_NAME = "kdelibs4support-5.105.0-1.1.aarch64.rpm"
-RPM_HASH = "e666b33d56a79ab5ce322707895a48aff267a449dceae8d3f9fe8e8b356f6e0d17dedf840ed5528c1be7af2ce602cb6d7e976c37d8b2ae8c32c780d1d6b47a32"
+RPM_NAME = "kdelibs4support-5.106.0-1.1.aarch64.rpm"
+RPM_HASH = "ff56295d6a3c1ffa5938c1737edbb548340ff8ca770ace3627131785194fa1e5696c9ddd43c7c64d50e14e4864baf7205e4d7aa9228a4ad2be5c425e71efccab"
 
 RPROVIDES:${PN} += "kde4support kdelibs4support kdelibs4support(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/perl ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libKF5Completion.so.5()(64bit) libKF5ConfigCore.so.5()(64bit) libKF5CoreAddons.so.5()(64bit) libKF5DBusAddons.so.5()(64bit) libKF5I18n.so.5()(64bit) libKF5ItemViews.so.5()(64bit) libKF5KDELibs4Support.so.5()(64bit) libKF5KIOCore.so.5()(64bit) libQt5Core.so.5()(64bit) libQt5Core.so.5(Qt_5)(64bit) libQt5DBus.so.5()(64bit) libQt5DBus.so.5(Qt_5)(64bit) libQt5Gui.so.5()(64bit) libQt5Gui.so.5(Qt_5)(64bit) libQt5Widgets.so.5()(64bit) libQt5Widgets.so.5(Qt_5)(64bit) libc.so.6(GLIBC_2.34)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.9)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit)"

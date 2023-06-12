@@ -3,10 +3,10 @@ DESCRIPTION = "Slimline Open Firmware (SLOF) is an implementation of the IEEE 12
 It can be used as partition firmware for pSeries machines running on QEMU or KVM."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "7.1.0"
+PV = "8.0.2"
 
-RPM_NAME = "qemu-SLOF-7.1.0-16.1.noarch.rpm"
-RPM_HASH = "b10ac8e925be134b2e4e15097e8800db617ca784b8c7e39b9dd1632d189dd2a9591111798b62bc07a516262c9521da722790cc3f10293f2ddd6f502813de43f7"
+RPM_NAME = "qemu-SLOF-8.0.2-1.1.noarch.rpm"
+RPM_HASH = "43608c840fe0be9110832189c7da3359024a19f38b65d3a6f4b8fe96bd2b01e93aecac7881d8c188d2ba1a90427ef3031c6e2c3f757e14dcfda0850e80d9fe0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-SLOF"

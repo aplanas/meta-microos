@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Mqtt that do not h
 ABI or API guarantees."
 LICENSE = "GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-mqtt-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "e8c5149174237c0a6f81cef4485d3ee651f8637620c92b0295e9ccdbdea5fc5865ce20311fd978895ac4399be219224618fb9000e90a8dc2638b6947747a809f"
+RPM_NAME = "qt6-mqtt-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "123101871f5dbbe313aa088d6f6f502fe484f31afbcb481092ecce45f0ad2678179f47dcf8ab4abc5e37597c5e6b1d4a3d9e89460cf296486eee8933465aaaeb"
 
 RPROVIDES:${PN} += "qt6-mqtt-private-devel qt6-mqtt-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6Mqtt)"

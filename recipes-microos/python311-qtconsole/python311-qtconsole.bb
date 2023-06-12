@@ -3,10 +3,10 @@ DESCRIPTION = "A rich Qt-based console for working with Jupyter kernels, \
 supporting rich media output, session export, and more."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.4.2"
+PV = "5.4.3"
 
-RPM_NAME = "python311-qtconsole-5.4.2-1.1.noarch.rpm"
-RPM_HASH = "d11e9d643c4bba9ef1e5ef63bccfa8b8e8dcf5dd78a825a43b7b852bc433df7e3a4c84a5b05039d03f74fea3d07e184cb5773e901f93ac4508f0a454f2aca345"
+RPM_NAME = "python311-qtconsole-5.4.3-1.1.noarch.rpm"
+RPM_HASH = "c72eaa24670b7dfdc7c7e085e7043f2e8627f8e3637ab69b41875aa8e107f5b31c49ad57cb192231971ca0a0251b0804927ff2c1eb71d0bb594b84e566123586"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "application() application(jupyter-qtconsole-3.11.desktop) python3.11dist(qtconsole) python311-jupyter_qtconsole python311-qtconsole python3dist(qtconsole)"

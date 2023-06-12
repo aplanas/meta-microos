@@ -7,10 +7,10 @@ This subpackage contains the development headers for packages wanting \
 to make use of Vulkan."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.247"
+PV = "1.3.250.0"
 
-RPM_NAME = "vulkan-devel-1.3.247-1.1.aarch64.rpm"
-RPM_HASH = "47ad294b960b4dc9eff0623719bf18790bdf91612fb492ef9750b29047a30f91e948e654f883f6c744676d54e1677aa1bf5ec5b178529843929ebd1f73fe7f32"
+RPM_NAME = "vulkan-devel-1.3.250.0-1.1.aarch64.rpm"
+RPM_HASH = "e731942085126d3b4e2711c8808187c3825603daabc085f499dc210438d9e52f1bac1ef0f05ae0f56c7ec4f4e73e7b9b43ce0c9823b86257e1f0bc3d284f0670"
 
 RPROVIDES:${PN} += "pkgconfig(vulkan) vulkan-devel vulkan-devel(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libvulkan1 vulkan-headers"

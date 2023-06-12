@@ -7,13 +7,13 @@ middleware technologies including reliable message queuing and durable \
 publish/subscribe messaging."
 LICENSE = "Apache-2.0"
 
-PV = "7.9.0"
+PV = "7.10.0"
 
-RPM_NAME = "python39-azure-servicebus-7.9.0-1.1.noarch.rpm"
-RPM_HASH = "1c2b3e66d552fbd06f41fc6109afc4c4e24af6e194174153ba12de40aefc97d4e4915ec071fb3a31bb8c9c81b37bc25af528d0dfbc878351e2864e8b648a0e45"
+RPM_NAME = "python39-azure-servicebus-7.10.0-1.1.noarch.rpm"
+RPM_HASH = "63a519da9d222279e076d4434ca4855fa3fc8db48d9506afac28b7f388253247bbec6943738cf8cbb183686def51203b30b203895a389014ab88fe408c8f8370"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(azure-servicebus) python39-azure-servicebus python3dist(azure-servicebus)"
-RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) python(abi) python39-azure-core python39-azure-nspkg python39-isodate python39-uamqp"
+RDEPENDS:${PN} += "python(abi) python39-azure-core python39-azure-nspkg python39-isodate python39-typing_extensions"
 
 inherit rpm

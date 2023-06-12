@@ -2,10 +2,10 @@ SUMMARY = "Generic map viewer: Build Environment"
 DESCRIPTION = "Development headers and libraries for Marble."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.0"
+PV = "23.04.1"
 
-RPM_NAME = "marble-devel-23.04.0-1.1.aarch64.rpm"
-RPM_HASH = "fae99a34c26398bf6f5a24c3de472ae23919e70e6d7b0ac5df8cf755dcbca37cb36e1d90276eb36f5ad9f9cc47bd3e79027503e5df394a4bd826ce22dc44eb47"
+RPM_NAME = "marble-devel-23.04.1-1.1.aarch64.rpm"
+RPM_HASH = "87b2b32c7e5427ec2d5325383f3356037f5b15f75e947b2820912eddccc1ad1c291a913f5487dd222654549bcdb33c588f15168667c968a444a01e73cef452d7"
 
 RPROVIDES:${PN} += "cmake(Astro) cmake(Marble) marble-devel marble-devel(aarch-64) marble5-devel"
 RDEPENDS:${PN} += "cmake(Qt5WebEngineWidgets) cmake(Qt5Widgets) cmake(Qt5Xml) libastro1 libmarblewidget-qt5-28"

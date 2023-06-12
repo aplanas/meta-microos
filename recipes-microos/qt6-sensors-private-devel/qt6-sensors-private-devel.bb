@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Sensors that do no
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-sensors-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "e28a63c08f94e4c3684adae8be2f52d34401fee7a6d0e1df2b0e576f2234a0cb148fa4d47eb11df662f41eab0cda9d8b9d330584acd95f790fe4c6c01a8cc7ae"
+RPM_NAME = "qt6-sensors-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "6a0efcec9268984977412f51af50e8cfe5ca2f1e7a1a381b3dc79b524c5c7558eb3da915b220f09f00fc8e205468dff382b4b85eec3574c63a22abf55b99736b"
 
 RPROVIDES:${PN} += "qt6-sensors-private-devel qt6-sensors-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6Sensors)"

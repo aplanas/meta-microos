@@ -12,10 +12,10 @@ Jetty is available on all Java supported platforms. \
 This package contains the unixsocket module for Jetty"
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.48"
+PV = "9.4.51"
 
-RPM_NAME = "jetty-unixsocket-9.4.48-3.1.noarch.rpm"
-RPM_HASH = "89a6f8298c1f9da68102e38df2ed2cde9c8e1735f68f01f42fe575a52ce37df81e10f5ca695d7038d224ff2358fed8150f925022d22d84c293b9036ee6a6cf5b"
+RPM_NAME = "jetty-unixsocket-9.4.51-1.1.noarch.rpm"
+RPM_HASH = "1906ca76be590e62cb955abe9d3e6a1ef5db888fb96ed729c3a210f49b8e0c3790eeff1682548d91f35df4ac7d92009826655a627dc86f34b0e6ee0c9b79951c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-unixsocket mvn(org.eclipse.jetty:jetty-unixsocket) mvn(org.eclipse.jetty:jetty-unixsocket:pom:) osgi(org.eclipse.jetty.unixsocket)"

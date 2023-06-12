@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.0+git20200420.1957bb5"
 
-RPM_NAME = "golang-org-x-sys-0.0.0+git20200420.1957bb5-1.14.aarch64.rpm"
-RPM_HASH = "3b20c6c4d0f4404e8ce558dc8719abc7e625363a935458bb328f8cbe15a7f2a1dde4c3cc7060ad031cc1005afe623fdb3374bde038883c35e6abac6de7983d66"
+RPM_NAME = "golang-org-x-sys-0.0.0+git20200420.1957bb5-1.15.aarch64.rpm"
+RPM_HASH = "4810e060b73bd412f974d0d1f626c099bc813f36fc06a7af41bbd4f4ddd29f37e77614edd5a70db92f32b0908c5a08f893b9e0c8a721c6a19d533498bc779c25"
 
 RPROVIDES:${PN} += "golang-org-x-sys golang-org-x-sys(aarch-64)"
 RDEPENDS:${PN} += ""

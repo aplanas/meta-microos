@@ -10,10 +10,10 @@ Features \
   * Responsive CLI, ~2-3x faster than equivalent tools"
 LICENSE = "MIT"
 
-PV = "1.6.3"
+PV = "1.7.0"
 
-RPM_NAME = "python311-hatch-1.6.3-1.4.noarch.rpm"
-RPM_HASH = "8ed95b6ade1cda5ce4e38b04c726d76291d7f48fe47fda3e3f3edf23934bf5e8ef02295d3bcef4814c9f80d18e722d406c39e00b5026a24b9f6706d332c21a0d"
+RPM_NAME = "python311-hatch-1.7.0-1.1.noarch.rpm"
+RPM_HASH = "4485ec89ab045ab97f2ed4b9cb237e179c5a83b86df99bf525edcc9ba4c20a4510ce8fae9236d8c4f04adfa0999bb72bd8f796950282461b57ee6fb7911bd382"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(hatch) python311-hatch python3dist(hatch)"

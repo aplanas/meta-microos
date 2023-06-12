@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "9.0.30~1+git.8e9c0812"
 
-RPM_NAME = "drbd-9.0.30~1+git.8e9c0812-8.9.aarch64.rpm"
-RPM_HASH = "3de8215ab8bc9e9e5fd6f14598d519a5466185a2ba3027d514b616e9050035765e7e93d98854dd3db5a3a9dba4a5e7000b9fa0fbed625af8bfbcace1426bf3e8"
+RPM_NAME = "drbd-9.0.30~1+git.8e9c0812-8.12.aarch64.rpm"
+RPM_HASH = "4d89c31e368daf4527faf87fc1ce8dee7dd06c5c2e2d95d176c0b22d7ce79752e0a288ebd87a42285819b8c397c84868e233881f9058b71998fd0196ad96c2bb"
 
 RPROVIDES:${PN} += "drbd drbd(aarch-64)"
 RDEPENDS:${PN} += "drbd-utils"

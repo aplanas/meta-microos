@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "python3-pyprompter-0.9.1-12.10.noarch.rpm"
-RPM_HASH = "714c6a83dcf17296c77bf95a4df361e9ff3d887722980f11ebff54a9173869cb60886b5c9bdacccc9bc790081006b8c265cb0480c44d04cf86f4dcfd252929c3"
+RPM_NAME = "python3-pyprompter-0.9.1-13.1.noarch.rpm"
+RPM_HASH = "89d8fda9ceafb06be4d11606a4b24cbdc1a2c9752c5085d2c8cbdb2c8cc9a162894a3b03599eb38cabf4904c65e89baedfd6fe5d6dc2a8bf373d1d09bac3e540"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "application() application(pyprompter.desktop) pyprompter python3-pyprompter python3.10dist(pyprompter) python3dist(pyprompter)"

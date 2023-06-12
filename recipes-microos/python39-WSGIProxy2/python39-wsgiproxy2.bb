@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.5.1"
 
-RPM_NAME = "python39-WSGIProxy2-0.5.1-2.3.noarch.rpm"
-RPM_HASH = "dc1dd0ff0586d3750f9a61c4d71abffee65db011a5f0a96a255f0b309e73c4b8e30811c161ba2bc531a20e09efe1370ec72db058956745d6936ac14190eac9c5"
+RPM_NAME = "python39-WSGIProxy2-0.5.1-3.1.noarch.rpm"
+RPM_HASH = "e60f6ba831c45025211ae3294802fa8e5978dac1360cc438cbd157a5e74cdead3f96bbec958aae0bb172c038dc893e0ead9bbd1c6503c4fb8f83f0d7f55203bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(wsgiproxy2) python39-WSGIProxy2 python3dist(wsgiproxy2)"

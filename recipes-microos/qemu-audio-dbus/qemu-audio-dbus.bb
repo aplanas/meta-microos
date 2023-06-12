@@ -2,10 +2,10 @@ SUMMARY = "D-Bus based audio support for QEMU"
 DESCRIPTION = "This package provides a module for D-Bus based audio support for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "7.1.0"
+PV = "8.0.2"
 
-RPM_NAME = "qemu-audio-dbus-7.1.0-16.1.aarch64.rpm"
-RPM_HASH = "7463befa23071f8edc8fdbc0c62f2b9f6934cc73537ca9073c1f3cd9e38a7a51d955ee3185fda1054c0aa71a2004fcb92efcd17b50d36313dcc57bab67304bbd"
+RPM_NAME = "qemu-audio-dbus-8.0.2-1.1.aarch64.rpm"
+RPM_HASH = "02624cf3685a110a72bf0eca8752cece88c001e43423ec45df26dba0f56fe2d2a523adcb965333e0f8292a10a056ad4995c72b7dcc229a8a7b6f0d8cde641c6d"
 
 RPROVIDES:${PN} += "qemu-audio-dbus qemu-audio-dbus(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgio-2.0.so.0()(64bit) libglib-2.0.so.0()(64bit) libgobject-2.0.so.0()(64bit)"

@@ -2,10 +2,10 @@ SUMMARY = "LaTeX additional packages"
 DESCRIPTION = "A very large collection of add-on packages for LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66548"
+PV = "2023.208.svn66548"
 
-RPM_NAME = "texlive-collection-latexextra-2023.201.svn66548-56.1.noarch.rpm"
-RPM_HASH = "c1437dde504a1fbdd80fc6261f4462dec62a8f521aea22d46cd5d1bd1501c09f68f4af92a185bab549b60cf019284cbc41b5039861e5a40f6eccdaadda6ae295"
+RPM_NAME = "texlive-collection-latexextra-2023.208.svn66548-58.1.noarch.rpm"
+RPM_HASH = "5327b3038e9bce8581d22ea499a18d6edd4207896407c78d80a9a458dcd2f169ba974de2606a0ce5779c66e2fe17b35ef08eca9d5b36a498e0db1a6ac60c7e2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-latexextra"

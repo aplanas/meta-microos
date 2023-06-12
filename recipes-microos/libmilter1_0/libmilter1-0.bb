@@ -11,8 +11,8 @@ LICENSE = "Sendmail"
 
 PV = "8.17.1"
 
-RPM_NAME = "libmilter1_0-8.17.1-8.3.aarch64.rpm"
-RPM_HASH = "36feb44c9d8c8b7396ccf755fb0050469dc2e55a1c864ae2d579585d9f146bb130b1415af53cebd7766b744730ca8325c67edaa00d6f501428f0dc9e758fb21f"
+RPM_NAME = "libmilter1_0-8.17.1-9.1.aarch64.rpm"
+RPM_HASH = "e29c03961760bc638e3ed107b988eb14cb40a7c64d616b75447fa32fe936be4a22846a5d762d3234538c7b6127fb5a298640d3fc05a8722e2c350a8b1bf3720e"
 
 RPROVIDES:${PN} += "libmilter.so.1.0()(64bit) libmilter1_0 libmilter1_0(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) smtp_daemon"

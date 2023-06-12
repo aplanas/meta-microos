@@ -7,10 +7,10 @@ If your project workflow doesn't use patches sent via email, then you don't \
 need this and should simply start signing your tags and commits."
 LICENSE = "MIT-0"
 
-PV = "0.6.2"
+PV = "0.6.3"
 
-RPM_NAME = "python39-patatt-0.6.2-1.5.noarch.rpm"
-RPM_HASH = "63675bb491bff1546128d1e275ca71bf37a90f7054a2326d454bd42785eb358ae134206d2be78dfbdf6854c9ce8a51c1a44d07e782182a730d9f69d699088684"
+RPM_NAME = "python39-patatt-0.6.3-1.1.noarch.rpm"
+RPM_HASH = "f72e3a2f7806799d3fd489db3c5f384fba6e80ca02f79434e38ca59c4f62a976f5d0a1f1275ddf593bbb1f7741e6b9f3fe1a3255ac44717e60184cb3d360d707"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(patatt) python39-patatt python3dist(patatt)"

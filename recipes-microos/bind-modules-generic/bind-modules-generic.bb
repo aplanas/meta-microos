@@ -8,10 +8,10 @@ the template.  '$zone$' is replaced with zone name: i.e., the shortest \
 possible string of labels in the query name that matches the wildcard."
 LICENSE = "MPL-2.0"
 
-PV = "9.18.14"
+PV = "9.18.15"
 
-RPM_NAME = "bind-modules-generic-9.18.14-1.1.aarch64.rpm"
-RPM_HASH = "35de85a20629fba1879ec59528d990309b822236b4bad9ebfbeaab86889ffb5fe6255fc68b4aac7f25c04f716494aabdb6603baa6a3e6152c976385342bef857"
+RPM_NAME = "bind-modules-generic-9.18.15-1.1.aarch64.rpm"
+RPM_HASH = "11cf83bd082d96bd9d033015e80c424e455aca8c4bc7584c8bf6054f90eccc705cea8bf5b585acf049a9930957cf5e66e419f6d08be0596a4286f77d2c7e1532"
 
 RPROVIDES:${PN} += "bind-modules-generic bind-modules-generic(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit)"

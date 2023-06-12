@@ -2,10 +2,10 @@ SUMMARY = "Korean"
 DESCRIPTION = "Support for Korean; additional packages in collection-langcjk."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54074"
+PV = "2023.208.svn54074"
 
-RPM_NAME = "texlive-collection-langkorean-2023.201.svn54074-56.1.noarch.rpm"
-RPM_HASH = "467603df5ebd5005f286f7cf5b49167eb2298987a24dbfe08e7c93f7c2b3f496b3a5df1467457f85a37d1410614d7aacc05db065fae13585e9859867894a6ebe"
+RPM_NAME = "texlive-collection-langkorean-2023.208.svn54074-58.1.noarch.rpm"
+RPM_HASH = "e16dee0f2ac94f13798ee9f61b3338a194ff9d30b518590fa3c7a189a378d6b55a927691cdd1a48e1e3c8c15f20b0cb6fe8613d14e2bcddd8057bf385732abbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langkorean"

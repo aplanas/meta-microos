@@ -10,10 +10,10 @@ LICENSE = "MIT"
 
 PV = "1.4.46"
 
-RPM_NAME = "python310-SQLAlchemy1-1.4.46-2.1.aarch64.rpm"
-RPM_HASH = "e3abe172ada39bc3d30fabdbec815febbba66e919cf59d9f55a44409b99e6e0f2af3c17501f2041a55be29c95c09d6646ccd92142481b8ad970f4187b0527a95"
+RPM_NAME = "python310-SQLAlchemy1-1.4.46-3.1.aarch64.rpm"
+RPM_HASH = "819233a734f77ef0430e29cfed1e0449b05f35fef48126e99ce6e226858462b0ecbdaad5ce1e253b4abccfa94f824dd2ec85162d8a9e937f44af43e8556f204f"
 
-RPROVIDES:${PN} += "python3-SQLAlchemy1 python3-sqlalchemy python3.10dist(sqlalchemy) python310-SQLAlchemy1 python310-SQLAlchemy1(aarch-64) python310-sqlalchemy python3dist(sqlalchemy)"
+RPROVIDES:${PN} += "python3-SQLAlchemy python3-SQLAlchemy1 python3-sqlalchemy python3.10dist(sqlalchemy) python310-SQLAlchemy python310-SQLAlchemy1 python310-SQLAlchemy1(aarch-64) python310-sqlalchemy python3dist(sqlalchemy)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python310 python310-greenlet"
 
 inherit rpm

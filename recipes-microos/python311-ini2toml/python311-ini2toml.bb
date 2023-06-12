@@ -4,10 +4,10 @@ to PEP 621, but by extension it can also be used to convert any compatible ini_c
 file to TOML."
 LICENSE = "MPL-2.0"
 
-PV = "0.11.3"
+PV = "0.12"
 
-RPM_NAME = "python311-ini2toml-0.11.3-2.1.noarch.rpm"
-RPM_HASH = "2671921d454a7eeabef9680e7759a37cd2db99f3b1aacae83455b4d16fad107319dc54cd28aa0d8b04c7ed551300e08a9933cc48aaefe41495fd6ca95819ea14"
+RPM_NAME = "python311-ini2toml-0.12-2.1.noarch.rpm"
+RPM_HASH = "260f815000892ed6c448c15c01ce25aa87766116b1a5b689b3f9da1ccab3bf9fc4c2132234f90424da3edfb8df329ee271c82c78352935079a04337fac0661ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(ini2toml) python311-ini2toml python3dist(ini2toml)"

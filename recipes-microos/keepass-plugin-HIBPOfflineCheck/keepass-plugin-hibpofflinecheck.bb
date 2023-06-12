@@ -4,10 +4,10 @@ Check can be performed both during password generation and editing or in batch o
 database."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.7.9"
+PV = "1.7.10"
 
-RPM_NAME = "keepass-plugin-HIBPOfflineCheck-1.7.9-1.5.noarch.rpm"
-RPM_HASH = "7956814c39d25b839afa281ff1c8f524fd59097bb218018ecd5178d635eb6d6c924f483b451673ef496b9a00916ed6309d93d5155a21803a4497ea3e1e40553c"
+RPM_NAME = "keepass-plugin-HIBPOfflineCheck-1.7.10-1.1.noarch.rpm"
+RPM_HASH = "2a4019b6dc66e59dbac5f5c947caf6ba3120a0f0df188810fe476bed2f7f295e7b401a32aaaca25ddddc981aad93a44ecea6b2406f4c768e7e0c0c0800ccc281"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keepass-plugin-HIBPOfflineCheck mono(HIBPOfflineCheck)"

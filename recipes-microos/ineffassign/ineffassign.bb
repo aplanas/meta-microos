@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.0.0+git20210225.2e10b26"
 
-RPM_NAME = "ineffassign-0.0.0+git20210225.2e10b26-1.11.aarch64.rpm"
-RPM_HASH = "75249e123732323735f8107174a526226c67b1e8d7feabb88611eb5432f2198ae9ca7ee5f77e807ecefe1bc7dd49af0a56687c1f12c8249b8310a3b54ea8cd99"
+RPM_NAME = "ineffassign-0.0.0+git20210225.2e10b26-1.12.aarch64.rpm"
+RPM_HASH = "143202241d7268a3573cf47eec153e911c4508d30efd405dfbb3941fc2fdac355a5034fb5246ee40d37c5ce9d6dabede5738ec3763bf71eab6e55a7ad060d4b2"
 
 RPROVIDES:${PN} += "ineffassign ineffassign(aarch-64)"
 RDEPENDS:${PN} += ""

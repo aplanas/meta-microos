@@ -5,10 +5,10 @@ kernel-default is rebuilt in OBS. \
 There is no reason to install this package."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.1"
+PV = "6.3.4"
 
-RPM_NAME = "perf-rebuild-6.3.1-79.18.aarch64.rpm"
-RPM_HASH = "fea139d063228c60b3419d63d94704579821da9a0bd42e1c2a23d17b633f2167fe64e03db1da626a5721f4c2cc17e526e69dc56d84540a89d46e8e7da9d83e36"
+RPM_NAME = "perf-rebuild-6.3.4-80.3.aarch64.rpm"
+RPM_HASH = "6822ecbf8ecb3f87ba823848907a1c020e733be2d592e1070735603044aca314b70e869bc3e1b4ddd9654f0f16fe67a57eb8087b02e065968d15cbcb9008c9b0"
 
 RPROVIDES:${PN} += "perf-rebuild perf-rebuild(aarch-64)"
 RDEPENDS:${PN} += "kernel-source"

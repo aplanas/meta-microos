@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6"
 
-RPM_NAME = "multus-k8s-yaml-3.6-1.8.noarch.rpm"
-RPM_HASH = "032939d55b8de2cec2e7b9c8fd2f2823eaab65cd817d8411896f85e48090bc40198f4c3dedc6a88adb89b27dfdff32c5821e5ea5e4a61a5e58f540333f3d3204"
+RPM_NAME = "multus-k8s-yaml-3.6-1.9.noarch.rpm"
+RPM_HASH = "f3a80736fc2637f2434154c693db06ed5eef9d67d698444afd218b04e3fa5bd67922c7cbbb1f6899a54d7bfe2651fd63b7f2c23b4657c16d9c73aea106e15d4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "multus-k8s-yaml"

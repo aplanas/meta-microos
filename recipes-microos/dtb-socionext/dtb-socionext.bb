@@ -2,10 +2,10 @@ SUMMARY = "Socionext based arm64 systems"
 DESCRIPTION = "Device Tree files for Socionext based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.1"
+PV = "6.3.4"
 
-RPM_NAME = "dtb-socionext-6.3.1-1.2.aarch64.rpm"
-RPM_HASH = "f315f4a2000a9b04e5fde09658c93be2159da4371af8d29e5eb44e7f7941871cf840f37f70389b1d5828f4c219ac4c5d603b011605595282127d6930cc0b3152"
+RPM_NAME = "dtb-socionext-6.3.4-1.1.aarch64.rpm"
+RPM_HASH = "b145eb93f165cfba35f13c8a71b668b5423b7e9bb33c1699b7c69bce8b1b4c9c91a1218bf6f468f18cc03cc2cd6798056fbb716a824dcb8e102d0ace9f2ae153"
 
 RPROVIDES:${PN} += "dtb-socionext dtb-socionext(aarch-64) multiversion(dtb)"
 RDEPENDS:${PN} += "/bin/sh coreutils"

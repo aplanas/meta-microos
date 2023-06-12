@@ -4,10 +4,10 @@ to build libraries while giving the user control on the management of \
 logs, callbacks and progress bars."
 LICENSE = "MIT"
 
-PV = "0.1.9"
+PV = "0.1.10"
 
-RPM_NAME = "python310-proglog-0.1.9-1.15.noarch.rpm"
-RPM_HASH = "acc12f6c079728e19b77e2985a0f3fe08c6c6d5120a03ef2c63d710741051240d3b5025bd4d061d2f8199e7f45f08d669a0e84c5f5d82998f5b06cc82faad92f"
+RPM_NAME = "python310-proglog-0.1.10-1.1.noarch.rpm"
+RPM_HASH = "3f7ae36d2cbb25a65b753c235ccbba6fe53d20acca6373e76dbe26abc89dcce6f92327d874058e0a1687203185f43034b81123fde6f08f43a52ac2076ecac920"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-proglog python3.10dist(proglog) python310-proglog python3dist(proglog)"

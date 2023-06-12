@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6.1"
 
-RPM_NAME = "qalculate-data-4.6.1-1.1.noarch.rpm"
-RPM_HASH = "9f162d31291ab0a3007df3d6e3e809e1cd2069438c575f1733bd2780328591dd337eaa0e4c85d968b120ce79ce4a0f4025117ba505877a1e0d9a0c61448acba0"
+RPM_NAME = "qalculate-data-4.6.1-1.2.noarch.rpm"
+RPM_HASH = "27191df2b39d6b71522a1a841ce53947db8784cfb0869eed0abc72ab2b693a8ad167ac5f2b97b577190ca75b69ec6d23bc1b31d0c23043e0f3d016066e9f78c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qalculate-data qalculate:/usr/share/qalculate/units.xml"

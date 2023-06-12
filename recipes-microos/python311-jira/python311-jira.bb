@@ -2,13 +2,13 @@ SUMMARY = "Python library for interacting with JIRA via REST APIs"
 DESCRIPTION = "This library eases the use of the JIRA REST API from Python."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.5.0"
+PV = "3.5.1"
 
-RPM_NAME = "python311-jira-3.5.0-1.1.noarch.rpm"
-RPM_HASH = "01143a47da2deb3dbf32bdc606276faa33a533d94933cd5f282d936f6216c2d96faf20b0764bd16925432aa47af3eed8b3c19cafbf19dc4445fcfc56f6b786eb"
+RPM_NAME = "python311-jira-3.5.1-1.1.noarch.rpm"
+RPM_HASH = "6c25d1529c8a994fd388b760b92b4e221c0e9971738c12a0345e573d7c24b064d82a1616b4b890595b77fe238ff0a07a89f882705f28d201319d98b7192e6f2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(jira) python311-jira python3dist(jira)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-defusedxml python311-keyring python311-oauthlib python311-pbr python311-requests python311-requests-oauthlib python311-requests-toolbelt python311-typing_extensions update-alternatives"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-defusedxml python311-keyring python311-oauthlib python311-packaging python311-requests python311-requests-oauthlib python311-requests-toolbelt python311-typing_extensions update-alternatives"
 
 inherit rpm

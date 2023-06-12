@@ -10,10 +10,10 @@ using different compilers, options, and MPI implementations. \
 This package provides a module file that must be loaded to use spack."
 LICENSE = "Apache-2.0 & MIT & Python-2.0 & BSD-3-Clause"
 
-PV = "0.19.2"
+PV = "0.20.0"
 
-RPM_NAME = "spack-0.19.2-1.1.noarch.rpm"
-RPM_HASH = "cf3a4b4216a7209e465f9569eb22e58379a81ab491fb2c37b2ec8524919a78c36ed3b9f49e49e2f6c893d396d5387373ca8de8ad4659184eddd2f630997c19f4"
+RPM_NAME = "spack-0.20.0-1.1.noarch.rpm"
+RPM_HASH = "03db5ac3d30204509801e4e5ba1e3cf5397545e9e9c9d4a2d7b69dd0170a25a14db915ce9ce9d9223c58b906486aa024b56c6b49b438df6b3769e4ae302f9e54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(spack) group(spack) spack"

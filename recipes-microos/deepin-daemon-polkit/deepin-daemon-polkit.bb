@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.14.45"
 
-RPM_NAME = "deepin-daemon-polkit-5.14.45-2.3.noarch.rpm"
-RPM_HASH = "4f0d89be92b0de7cfb1d201776edb040352d446b56eda013730604fd7689aef9080843f2f1cef05a63f3e83969fcfe4f43f3dd03b7d8e80ef36bcf06c174eac7"
+RPM_NAME = "deepin-daemon-polkit-5.14.45-2.4.noarch.rpm"
+RPM_HASH = "5977d52103ef33ec086b594d51f6cc4f869cb2907a8a752e7d666123d5444290320d627ada6fd5e6f8736a920f0de8cc234a5d0223d5ea7e488a75a089641d55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-daemon-polkit"

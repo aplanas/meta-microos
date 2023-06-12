@@ -10,10 +10,10 @@ its foundation with the CLI v2 which is currently in also in public preview. \
 This package has been tested with Python 3.6, 3.7, 3.8, 3.9 and 3.10."
 LICENSE = "MIT"
 
-PV = "1.6.0"
+PV = "1.7.2"
 
-RPM_NAME = "python310-azure-ai-ml-1.6.0-1.1.noarch.rpm"
-RPM_HASH = "b621fe3e451f101bacfd7c34e28ffd672cd9fe8b1de83e3d2618a19c904b036ab50a1131bf3f34c47c9ad5554ce1a3fa45fb39307734923106ed36d1d51d6ea1"
+RPM_NAME = "python310-azure-ai-ml-1.7.2-1.1.noarch.rpm"
+RPM_HASH = "ae9b18fa30a165f5a92633f923875b6e3fb5f657ec2e153b01bbdac80dc72984cf7996421e535e998f9c0451df24abecbe5ea1d833f26ceaf93a97df0a7b3537"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-ai-ml python3.10dist(azure-ai-ml) python310-azure-ai-ml python3dist(azure-ai-ml)"

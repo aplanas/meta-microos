@@ -10,10 +10,10 @@ multi-processor systems. That's the reason why they must be optimized to get \
 the most work done from every CPU cycle."
 LICENSE = "GPL-3.0+ & LGPL-2.1+"
 
-PV = "2.7.8+git0.58c657f26"
+PV = "2.8.0+git0.fdd8154ed"
 
-RPM_NAME = "haproxy-2.7.8+git0.58c657f26-1.1.aarch64.rpm"
-RPM_HASH = "b664a74e233cb61e795148fc58d66f7619386b59013fcba26d32dcfa556ac31cbb7f480bd70d95f7600e0ed8bc92885db206e4fda1a6d94f5a32f91806fc8f07"
+RPM_NAME = "haproxy-2.8.0+git0.fdd8154ed-1.1.aarch64.rpm"
+RPM_HASH = "81b91d5bc734224d998c0c5acc0fcd6c0ae1fe4f514154f7abd3300a616dd3d4bac4ee93467035f0839f493dc94338dd5e76a7f9a9d8afb5b31daaa77b2ab93c"
 
 RPROVIDES:${PN} += "config(haproxy) group(haproxy) haproxy haproxy(aarch-64) haproxy-1.5 haproxy-doc user(haproxy)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libcrypt.so.1()(64bit) libcrypt.so.1(XCRYPT_2.0)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) liblua5.4.so.5()(64bit) libpcre2-8.so.0()(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) libsystemd.so.0()(64bit) libsystemd.so.0(LIBSYSTEMD_209)(64bit) libz.so.1()(64bit) sysuser-shadow"

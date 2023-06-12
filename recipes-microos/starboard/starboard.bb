@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.15.12"
 
-RPM_NAME = "starboard-0.15.12-1.1.aarch64.rpm"
-RPM_HASH = "74ef51737b207486970c0c2c9a5b8220a2fcbb30cb24da47d10f5880bf983e43dc87a7b095cadffa8ff724868360190dd08a1b9a875aa3e0d61e9f3b17279325"
+RPM_NAME = "starboard-0.15.12-1.2.aarch64.rpm"
+RPM_HASH = "7934e7604165401958cfe2dafd26b67c87ce48a3444da0addce9428beccb546b740d6e6723247aa3c046ed0547caf22eb1ed56ac08f01c433a360637fd014499"
 
 RPROVIDES:${PN} += "starboard starboard(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

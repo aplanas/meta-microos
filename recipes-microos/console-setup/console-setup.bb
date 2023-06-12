@@ -7,10 +7,10 @@ several languages that would be otherwise unsupported on the \
 console (such as Armenian, Georgian, Lao and Thai)."
 LICENSE = "GPL-2.0-or-later & MIT & SUSE-Public-Domain"
 
-PV = "1.215"
+PV = "1.220"
 
-RPM_NAME = "console-setup-1.215-1.2.noarch.rpm"
-RPM_HASH = "36d2cd44d67f017ad020469f69d3e2acd5669aac833df23d84d765840fd7a8bc7c04529e48f8844e29827a4a8e3b0ed1b69c10887d42eeee9405aecc72cb3bfe"
+RPM_NAME = "console-setup-1.220-1.1.noarch.rpm"
+RPM_HASH = "5d0233ffece874d11fec156d40506bb953b9039ae82f3dc1b172489d8a213d9bf87e0da69b1500824ecb1674b82711e78644d4b5311d35270f78d4c74d304a62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(console-setup) console-setup"

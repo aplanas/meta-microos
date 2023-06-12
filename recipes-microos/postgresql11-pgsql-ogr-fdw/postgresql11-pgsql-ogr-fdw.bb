@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "postgresql11-pgsql-ogr-fdw-1.1.0-4.1.aarch64.rpm"
-RPM_HASH = "8216b7772b0f82df7287c769eea82de675010f7d9de5cbff8baf98ff5baf485aadfce0f6ce6a28ffcd713e4f1683d54c60b74cfa0243476e79345809dbf72a8a"
+RPM_NAME = "postgresql11-pgsql-ogr-fdw-1.1.0-4.2.aarch64.rpm"
+RPM_HASH = "273b1ebdcc458cbf35c5f70cd6a469c49f2168c4a21f925e0ef30c931aa46676949b3c5c9866947243e95eeef605f7467acb19b360615e076fd0d191d5e29186"
 
 RPROVIDES:${PN} += "postgresql11-pgsql-ogr-fdw postgresql11-pgsql-ogr-fdw(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgdal.so.32()(64bit) postgresql11-server"

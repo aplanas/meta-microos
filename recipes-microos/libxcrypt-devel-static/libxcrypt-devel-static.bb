@@ -4,10 +4,10 @@ linking.  You don't need this, unless you link statically, which \
 is highly discouraged."
 LICENSE = "BSD-2-Clause & GPL-3.0-or-later & LGPL-2.1-or-later & BSD-3-Clause & SUSE-Public-Domain"
 
-PV = "4.4.33"
+PV = "4.4.34"
 
-RPM_NAME = "libxcrypt-devel-static-4.4.33-3.1.aarch64.rpm"
-RPM_HASH = "937b293207fbedb2063296ae741dff6f4d3d922e3ece62ebe9b1caa86021dce0608cce64ca90d6867f1d0e1e8fc5db36e8836815987e16bf460e09d6cee49eba"
+RPM_NAME = "libxcrypt-devel-static-4.4.34-1.1.aarch64.rpm"
+RPM_HASH = "9626d0c4d5f9564912c7a60edba72c971380cf12c5e2966ddec7e3e7ce6057888626a7f24c6280c9e0d51c0d827cfa941c43ea1bcb3aa47f113e1cb1269ab40f"
 
 RPROVIDES:${PN} += "glibc-devel-static:/usr/lib64/libcrypt.a libxcrypt-devel-static libxcrypt-devel-static(aarch-64)"
 RDEPENDS:${PN} += "glibc-devel-static libxcrypt-devel"

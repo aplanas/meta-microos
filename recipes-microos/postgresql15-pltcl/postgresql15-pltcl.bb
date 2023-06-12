@@ -12,10 +12,10 @@ PostgreSQL also offers the built-in procedural language PL/SQL which is \
 included in the postgresql-server package."
 LICENSE = "PostgreSQL"
 
-PV = "15.2"
+PV = "15.3"
 
-RPM_NAME = "postgresql15-pltcl-15.2-3.1.aarch64.rpm"
-RPM_HASH = "e70627384c621fbaa80ba2d682224a7eb0fb8fea5f63e4946dca4c4cad989fcb84804886dc8ff2969ae03ea5eca0a8a82a0189ded8aebf1ce73b2ad5ab5f22f1"
+RPM_NAME = "postgresql15-pltcl-15.3-1.2.aarch64.rpm"
+RPM_HASH = "321796a48a16655546690d168f04920f3ec0a85b672c779bd7f57aa1f049c362b093e0a7998896da67488affc0a56a69493d2a3232bccc1825fba575218cf54e"
 
 RPROVIDES:${PN} += "postgresql-pltcl-implementation postgresql15-pltcl postgresql15-pltcl(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libtcl8.6.so()(64bit) postgresql-pltcl-noarch postgresql15-server tcl"

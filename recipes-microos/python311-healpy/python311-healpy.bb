@@ -15,12 +15,12 @@ healpy provides utilities to: \
 * compute Auto and Cross Power Spectra from maps and create map realizations from spectra"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.16.1"
+PV = "1.16.2"
 
-RPM_NAME = "python311-healpy-1.16.1-1.5.aarch64.rpm"
-RPM_HASH = "968388abe158b6489e3b43427a144666682cd2ee150137a6492724e140cf62bfd1389106ef55b89489d2a9ae762c3202d1a4972468c23cebeb9c86621148b3a3"
+RPM_NAME = "python311-healpy-1.16.2-1.1.aarch64.rpm"
+RPM_HASH = "2e7daebec5d107f49f4f42a8dbaa39a9ba46bf78a1560f99cf27c99bf024baeeb79bf379b86985581fbb2b1b5c8946412d6e205e2b01ff0d77bd22ea991f7765"
 
 RPROVIDES:${PN} += "python3.11dist(healpy) python311-healpy python311-healpy(aarch-64) python3dist(healpy)"
-RDEPENDS:${PN} += "/bin/bash /bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libgcc_s.so.1(GCC_4.0.0)(64bit) libhealpix_cxx.so.3()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) python(abi) python311-astropy python311-matplotlib python311-numpy python311-scipy update-alternatives"
+RDEPENDS:${PN} += "/bin/bash /bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3.1)(64bit) libgcc_s.so.1(GCC_4.0.0)(64bit) libhealpix_cxx.so.3()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(CXXABI_1.3)(64bit) libstdc++.so.6(CXXABI_1.3.8)(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.21)(64bit) libstdc++.so.6(GLIBCXX_3.4.32)(64bit) python(abi) python311-astropy python311-matplotlib python311-numpy python311-scipy update-alternatives"
 
 inherit rpm

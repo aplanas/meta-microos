@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "12.6.2"
 
-RPM_NAME = "sysstat-12.6.2-1.1.aarch64.rpm"
-RPM_HASH = "83fc72bdd7096af05027250fab5da93415bf11344cda8cf316df490cbfdb9a039387bd8b14025e17b71fb37f27d5edabe9ead7bf549a004487236ad627421bb2"
+RPM_NAME = "sysstat-12.6.2-2.1.aarch64.rpm"
+RPM_HASH = "3d6a92110979423b9e3e05f67a4e8b977681c8ea4bfd78c7b672f49e95526fd536ea92ccd40113b74ae42dd3d195175de574af5c062df78861df9e6cf9a33410"
 
 RPROVIDES:${PN} += "config(sysstat) sysstat sysstat(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libpcp.so.3()(64bit) libpcp.so.3(PCP_3.22)(64bit) libpcp_import.so.1()(64bit) libpcp_import.so.1(PCP_IMPORT_1.0)(64bit) libsensors.so.4()(64bit) procmail xz"

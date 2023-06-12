@@ -2,10 +2,10 @@ SUMMARY = "Parser and printer for the opam file syntax"
 DESCRIPTION = "This is a parser and a printer for the opam file syntax."
 LICENSE = "LGPL-2.1-only-WITH-OCaml-LGPL-linking-exception"
 
-PV = "2.1.5"
+PV = "2.1.6"
 
-RPM_NAME = "opam-file-format-2.1.5-1.3.aarch64.rpm"
-RPM_HASH = "0dc8549e4529b3ece3004f1a3d879209fcd6c265f6a3765d7fc291b59d245db6787eb2441db38858ea97a646f5db39489576dd782f549391fc6ad578d4c7e4f6"
+RPM_NAME = "opam-file-format-2.1.6-1.1.aarch64.rpm"
+RPM_HASH = "e05d1a6748ae32e50549458572916270b78b91ce73bf628513797167923449044e75e98db77e3e0b32f6f7461a22e17c440a4c35a6a3e2048c69a79f3885c7a1"
 
 RPROVIDES:${PN} += "opam-file-format opam-file-format(aarch-64)"
 RDEPENDS:${PN} += ""

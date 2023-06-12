@@ -14,10 +14,10 @@ SQLite can be used via the sqlite command line tool or via any \
 application that supports the Qt database plug-ins."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "3.41.2"
+PV = "3.42.0"
 
-RPM_NAME = "libsqlite3-0-3.41.2-1.1.aarch64.rpm"
-RPM_HASH = "9c28168ac9feee8e9df524a9e7160ac49475c6c4b94072f4cf39eb0176cc7bd17b75c2623c1dd8814fd462a0114db743d733374ffd60d75cae975225e62f5827"
+RPM_NAME = "libsqlite3-0-3.42.0-1.1.aarch64.rpm"
+RPM_HASH = "a72123b561a47af27b9c08e70e3d06a68c313da0b0046b9b7aa30f3e447db74f80d60a4a7224ea09ffa7281534a708cec59c6292b3b60009f8f4d171451fb6ff"
 
 RPROVIDES:${PN} += "libsqlite3-0 libsqlite3-0(aarch-64) libsqlite3.so.0()(64bit)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libm.so.6(GLIBC_2.29)(64bit)"

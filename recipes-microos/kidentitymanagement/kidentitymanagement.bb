@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a library to handle multiple email identiti
 associated settings."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.0"
+PV = "23.04.1"
 
-RPM_NAME = "kidentitymanagement-23.04.0-1.1.aarch64.rpm"
-RPM_HASH = "10ac2ce9373807b2fc8badbcda5542d92e36e8fa8f38eafd0aeb947c81b057b276e2d7112a963d5b4d93436606f514f6e7e82c59dace971e7298bb458f14f5bb"
+RPM_NAME = "kidentitymanagement-23.04.1-1.1.aarch64.rpm"
+RPM_HASH = "59265e74e55d54117b6ea8e4f8fed44010e6e68d1f5432cbf06ed1169425a92aea023fb5f593382a218fcd620d5af70f9e8e6e4654d305b5ea831b6b8d9e69c7"
 
 RPROVIDES:${PN} += "kidentitymanagement kidentitymanagement(aarch-64)"
 RDEPENDS:${PN} += ""

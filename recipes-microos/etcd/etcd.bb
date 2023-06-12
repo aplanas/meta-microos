@@ -8,10 +8,10 @@ service discovery, with a focus on being: \
 - Reliable: properly distributed using Raft"
 LICENSE = "Apache-2.0"
 
-PV = "3.5.8"
+PV = "3.5.9"
 
-RPM_NAME = "etcd-3.5.8-1.1.aarch64.rpm"
-RPM_HASH = "94ff540682a4c62de003450977e246f31bbdd41389c7a8d748582c6d145a6a229fc0e2d5f682a365523b06a34b72792c3bdfddbe0739956a2728f7c304f7d18c"
+RPM_NAME = "etcd-3.5.9-1.1.aarch64.rpm"
+RPM_HASH = "8dc8da2a383733054b61e9578af7bc51f753db0de443355109a6613abb3f275e9300c1f552688dfc8f6fcbaf325e3440956d20bebc44d97b4950ae70a3c580cb"
 
 RPROVIDES:${PN} += "etcd etcd(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/mkdir /usr/bin/touch fillup sysuser-shadow"

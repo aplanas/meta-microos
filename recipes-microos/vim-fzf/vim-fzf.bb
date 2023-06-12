@@ -2,10 +2,10 @@ SUMMARY = "Vim plugin for fzf"
 DESCRIPTION = "Plugin for vim allowing use of fzf."
 LICENSE = "MIT"
 
-PV = "0.40.0"
+PV = "0.41.0"
 
-RPM_NAME = "vim-fzf-0.40.0-1.1.noarch.rpm"
-RPM_HASH = "5fa7eb1c42e2599a314bc8eac88cfeb5829d5cd1f81ce51db256cee53554e5593308cedc760e43d484539dfeaa07ae1094b8beea6c3f34ee50489e6a3d3a3302"
+RPM_NAME = "vim-fzf-0.41.0-1.1.noarch.rpm"
+RPM_HASH = "a11c41d427f6531e115c345782037bbeea0e6414c2b6d7ffed592a87eba1af5663c15f5c0407e901e3bfa039e44ea5987106df34fae224fd59103721623b7cf1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-fzf"

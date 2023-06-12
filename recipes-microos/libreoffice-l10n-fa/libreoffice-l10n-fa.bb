@@ -2,10 +2,10 @@ SUMMARY = "Farsi localization files for LibreOffice"
 DESCRIPTION = "Provides Farsi translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-fa-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "58476549a80498217351823c965d2b7cd385f6bb8158a67d4c8524e5978dfba7a9e129b99c99c4997a2975f9b47f9b080c4392e83fed722cce5b325aee75acc0"
+RPM_NAME = "libreoffice-l10n-fa-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "16fa4b61c881744d3b742c4b12e6f37fd8bf8732cf60f142cd8fcbb1ad52e8a4622de2da568625a5117cf4ef156353030c8918967a07f7a4978af073916fcdd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-fa libreoffice-l10n-fa locale(libreoffice:fa)"

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "2.20.0"
 
-RPM_NAME = "hypre_2_20_0-gnu-openmpi2-hpc-devel-2.20.0-1.21.aarch64.rpm"
-RPM_HASH = "a6e52bb512c444e84cc32942c9b15957ea0f851d259669ad081d5161639b5995f4c472fd5f5b76610d77b3d5fbd9587ae786613f7766dfb10fffa5dbc8a5cc5b"
+RPM_NAME = "hypre_2_20_0-gnu-openmpi2-hpc-devel-2.20.0-1.22.aarch64.rpm"
+RPM_HASH = "8625bd7b428fc63023d6827d8dae14b2db007cd22f54fdf40e405119d4189d17320ae68379611635c2c1d3e6d8bd390b959d23ceac2b09b92cacfbef5d4c5d24"
 
 RPROVIDES:${PN} += "hypre_2_20_0-gnu-openmpi2-hpc-devel hypre_2_20_0-gnu-openmpi2-hpc-devel(aarch-64) pkgconfig(hypre)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config gnu-compilers-hpc-devel ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libHYPRE_2_20_0-gnu-openmpi2-hpc libc.so.6(GLIBC_2.17)(64bit) libopenblas-gnu-hpc-devel openmpi2-gnu-hpc-devel superlu-gnu-hpc-devel"

@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 MultimediaWidgets library - Development files"
 DESCRIPTION = "Development files for the Qt 6 MultimediaWidgets library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-multimediawidgets-devel-6.5.0-1.2.aarch64.rpm"
-RPM_HASH = "f7b927a34ea763baaf5f70a8b6edb58b437c9c83364b904e2905715cc128e4ab8986cbcc1989caa04865b4a8903d0dc562ec3fa8fb7041440c1013cfe3a0c7eb"
+RPM_NAME = "qt6-multimediawidgets-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "3fdb464e9ba2ced346a11b086a13642e2ff93458966bf24eb0c5e4928d6ce2252171bbd49deb000c425129a42880e9699e258e3adcd7313c98be14ae176d2036"
 
 RPROVIDES:${PN} += "cmake(Qt6MultimediaWidgets) pkgconfig(Qt6MultimediaWidgets) qt6-multimediawidgets-devel qt6-multimediawidgets-devel(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config cmake(Qt6Multimedia) cmake(Qt6Widgets) libQt6MultimediaWidgets6 pkgconfig(Qt6Core) pkgconfig(Qt6Gui) pkgconfig(Qt6Multimedia) pkgconfig(Qt6Widgets)"

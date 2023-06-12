@@ -5,10 +5,10 @@ accessible via localhost can be started with the pre-defined expected \
 HTTP requests and their responses."
 LICENSE = "MIT"
 
-PV = "1.0.6"
+PV = "1.0.8"
 
-RPM_NAME = "python39-pytest-httpserver-1.0.6-1.1.noarch.rpm"
-RPM_HASH = "fdfa1283e3540e01123b3656b06dc52191be16ce3ed87890f377498fee1dd5d2c3eda2c9907610fb320c7cb2fb2c021a4f5611202bdd10279cbc4f4656ac96cb"
+RPM_NAME = "python39-pytest-httpserver-1.0.8-1.1.noarch.rpm"
+RPM_HASH = "74ba1bd2d100e69d06e525bf43abf100dbb6c9856f704f4d94d3bd818bea10f6264e2396c549ceb5d5a7e9783c7b97c43ca5bd23dae6f34ab83bfcead29876e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(pytest-httpserver) python39-pytest-httpserver python3dist(pytest-httpserver)"

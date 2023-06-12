@@ -7,10 +7,10 @@ This subpackage contains the header files for developing \
 applications that want to make use of the XSLT libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1.37"
+PV = "1.1.38"
 
-RPM_NAME = "libxslt-devel-1.1.37-1.3.aarch64.rpm"
-RPM_HASH = "d58e97236fa0861a4cfbb3bdc11189a1a4d58ca10d9904e059fe97fdfbe10e0d367697d86950d6dcd03dfbd71107a8ff81db9937863bf6b3dd6f738c8eed9e18"
+RPM_NAME = "libxslt-devel-1.1.38-1.1.aarch64.rpm"
+RPM_HASH = "76a5557b582d070e95a8ed848025861d1103f816bfc430a94ab1fb3ac7c3f7ae2cec5309a962183aae6c8f4c9bae16bc15f60cf83d1c34a52bcf8f3be0436ccf"
 
 RPROVIDES:${PN} += "libxslt-devel libxslt-devel(aarch-64) pkgconfig(libexslt) pkgconfig(libxslt)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config glibc-devel libexslt0 libgcrypt-devel libxslt-tools libxslt1 pkgconfig(libxml-2.0) pkgconfig(libxslt)"

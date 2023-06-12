@@ -33,10 +33,10 @@ This works by assuming that any defined scalar is a name and any reference \
 following a name is its value."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.113"
+PV = "0.114"
 
-RPM_NAME = "perl-Data-OptList-0.113-1.2.noarch.rpm"
-RPM_HASH = "f8ece15f06c51dc006d8e5569a55511412f745724fdff399ad3554316e81ff415cebe69e2430d096d7c3344c831810d847557961d7ee44e2a02a225d77d4b78d"
+RPM_NAME = "perl-Data-OptList-0.114-1.1.noarch.rpm"
+RPM_HASH = "138ba9d9b28fb31464b9b51ca99467c362a1ad87f6df912c6c9e0a2cd697c5908dcf33dbfaa953a3ec6369cf3629a18fbad36d88ac48737e9597bc6b15fe95df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Data::OptList) perl-Data-OptList"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.9.0"
 
-RPM_NAME = "libhwloc15-2.9.0-2.3.aarch64.rpm"
-RPM_HASH = "bb349e29aa8c89b8a79575762b15e9aaf0fdf4b349bf76e33b9bd7921a1bf2c12cb0e8934dff756946e741c5aae74917b17d4105f584a26d944761d06413f7b1"
+RPM_NAME = "libhwloc15-2.9.0-3.1.aarch64.rpm"
+RPM_HASH = "4c104dd2829010cf1d81d33278ecf700b1593aa2e0df1dcb4eda5c351ba405cfea18c893405b1332fd0ef9b5784d53bf1d3c9310db1d0061d34702df9612db53"
 
 RPROVIDES:${PN} += "libhwloc.so.15()(64bit) libhwloc15 libhwloc15(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig hwloc-data ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libpciaccess.so.0()(64bit) libxml2.so.2()(64bit) libxml2.so.2(LIBXML2_2.4.30)(64bit) libxml2.so.2(LIBXML2_2.6.0)(64bit)"

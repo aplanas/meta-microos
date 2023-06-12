@@ -2,10 +2,10 @@ SUMMARY = "Xhosa localization files for LibreOffice"
 DESCRIPTION = "Provides Xhosa translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-xh-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "ae655e78f64ceee19f9aa12de572599810d6ee716c07c70664ac4b5dbcbcdec2c49366534e9b16f3c652aa9ad3328e0792707608782f7011a665782f5f7b03b8"
+RPM_NAME = "libreoffice-l10n-xh-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "40c3ce1eb5b178134dd887bf631b94bc916938bc68bd529cd20fd9e579cb2e9771c79c81188c56833009cdd9ed1bc11991d5e76bedcf4110214070a19eb46ccd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-xh libreoffice-l10n-xh locale(libreoffice:xh)"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.29.0"
 
-RPM_NAME = "gnustep-base-devel-1.29.0-1.4.aarch64.rpm"
-RPM_HASH = "c3eefaddd1910655e018a6c27b2d3099f3e264119bf7ab88d3ac25373b27b7e272d4e67624f8a2187bc1bf2f94daef2a412e3070761d7a2e2ce4f29ce2ac150d"
+RPM_NAME = "gnustep-base-devel-1.29.0-1.5.aarch64.rpm"
+RPM_HASH = "ae03258ef1b8d037bd2f17b43b440356ea379540fd72f4d6519b50c0f4e35e0badc3c1cab29d06dea02c8d07f1938fd80d834564071d3f85379c427797bdd777"
 
 RPROVIDES:${PN} += "gnustep-base-devel gnustep-base-devel(aarch-64)"
 RDEPENDS:${PN} += "gnustep-base libgnustep-base1_29"

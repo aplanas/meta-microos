@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-loguru-0.7.0-1.1.noarch.rpm"
-RPM_HASH = "ec4efbd3176742695c7b5fa752a5d8ea453cd186309614d805bb065e671f5ea4803a96c44893a4fb97b73edb88fb727054c0135878a2014a0a7bc2351fe36a98"
+RPM_NAME = "python39-loguru-0.7.0-2.1.noarch.rpm"
+RPM_HASH = "262789203c8dc299127c36a90745f6a246e6bf55bc9b67898693cf6cee78945d62c3d4353da0e3baf45e088b8d7734c8f37700927eb6c643593f8ffd53ad2af8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(loguru) python39-loguru python3dist(loguru)"

@@ -2,10 +2,10 @@ SUMMARY = "A Python 3 asyncio Matrix framework"
 DESCRIPTION = "A Python 3 asyncio Matrix framework."
 LICENSE = "MPL-2.0"
 
-PV = "0.17.8"
+PV = "0.19.15"
 
-RPM_NAME = "python310-mautrix-0.17.8-1.5.noarch.rpm"
-RPM_HASH = "ed4c29423e07fdb101940a2b65c875ae7ca32eb54fad82448b077fa730960215aec20f677dcc421de102b8a5dc290e44ef45e989ae6dfd0ea2eafef9141c2b3a"
+RPM_NAME = "python310-mautrix-0.19.15-1.1.noarch.rpm"
+RPM_HASH = "95a339fe2eaecba14e7d3d300106038c5722ab0deb871f7afea2886a31e7bb5f72f124f309b4400f35950a81e91d4f9625116a9d9bd09077b669d77e0cb6d5ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mautrix python3.10dist(mautrix) python310-mautrix python3dist(mautrix)"

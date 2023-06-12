@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-session-default-session-44.0-1.1.aarch64.rpm"
-RPM_HASH = "07d1d8ba23ac480370c9b22f972466157f1dde6b8af6b89139d48dc69c608ba586554c51efecb8ab21b29cccd7fd6de88f42e35026843e4d416e6abd04bea090"
+RPM_NAME = "gnome-session-default-session-44.0-2.1.aarch64.rpm"
+RPM_HASH = "6d05000833613027d02d0bf58b30601c56836616105d738b25e8897a1b7e2f56350b1dd92f60559bd5a32d0d9234bed6fb27584369ab178c6bf3af31f82a833a"
 
 RPROVIDES:${PN} += "gnome-session-default-session gnome-session-default-session(aarch-64)"
 RDEPENDS:${PN} += "gnome-session gnome-settings-daemon gnome-shell"

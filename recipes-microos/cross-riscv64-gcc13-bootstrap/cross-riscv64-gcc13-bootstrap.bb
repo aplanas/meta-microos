@@ -9,10 +9,10 @@ This is a package that is necessary for bootstrapping another package \
 only, it is not intended for any other use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.0.1+git7231"
+PV = "13.1.1+git7364"
 
-RPM_NAME = "cross-riscv64-gcc13-bootstrap-13.0.1+git7231-1.1.aarch64.rpm"
-RPM_HASH = "c7be59261f4b0f4e9bcf42323ef46cc479cd6772314c2feaf31a06015219ce66597ebc55800c7634e03f0d3ae8fac518b5f573f0f9634123a594a57e38166ac2"
+RPM_NAME = "cross-riscv64-gcc13-bootstrap-13.1.1+git7364-1.1.aarch64.rpm"
+RPM_HASH = "d68a4e15a36c5c77ccb602becbd302dc9b6c0deb82401ced7d50d58bb5958ce0b5ef05421470fc78f7ca28b0c4840e47e9714c2ecec8818ccc63d46c4e0ec64a"
 
 RPROVIDES:${PN} += "cross-riscv64-gcc13-bootstrap cross-riscv64-gcc13-bootstrap(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh cross-riscv64-binutils update-alternatives"

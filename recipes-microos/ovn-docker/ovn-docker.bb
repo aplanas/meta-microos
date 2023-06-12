@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "23.03.0"
 
-RPM_NAME = "ovn-docker-23.03.0-13.1.aarch64.rpm"
-RPM_HASH = "e66a171fd21f598deb03c35a9a1e1abfcb5ce3514e42e3a86088064433ec483ab05297cb3954428df666d1127d60993cb0f688553cd8fac84dedec8ea67794de"
+RPM_NAME = "ovn-docker-23.03.0-14.1.aarch64.rpm"
+RPM_HASH = "a4ee8674a481724b213fb30396de66cab40432c2ebfdf4701e92130acf0876c864333657ea1a1561e339633a82643bb3f86d2e2148f768b169af0355bae35017"
 
 RPROVIDES:${PN} += "openvswitch-dpdk-ovn:/usr/bin/ovn-docker-overlay-driver openvswitch-ovn-docker openvswitch-ovn:/usr/bin/ovn-docker-overlay-driver ovn-docker ovn-docker(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/python3 openvswitch ovn python3-openvswitch"

@@ -35,10 +35,10 @@ Python. Only the pieces that are extremely critical to performance \
 (e.g. block ciphers) are implemented as C extensions."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.16.0"
+PV = "3.18.0"
 
-RPM_NAME = "python311-pycryptodomex-3.16.0-1.5.aarch64.rpm"
-RPM_HASH = "d26ea33abaa07e4cee05eed22d6847be3b509cc7472c5cdbfe68464f9e5dffd1b4778c01f1670927917ba98ea5eed72529052315c48545cfd9f131e36d57c3df"
+RPM_NAME = "python311-pycryptodomex-3.18.0-1.1.aarch64.rpm"
+RPM_HASH = "259be4b59b0ab6a608283271a82df54bb34673d1fa6216d33e3324506ba86cb8d537604e96b83ffdfd0ad475510ec64bac467cf5ed5bbfc5aa3bb30b6c0ce10b"
 
 RPROVIDES:${PN} += "python3.11dist(pycryptodomex) python311-pycryptodomex python311-pycryptodomex(aarch-64) python3dist(pycryptodomex)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi)"

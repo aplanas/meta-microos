@@ -3,10 +3,10 @@ DESCRIPTION = "With DBI based vhosting you can put the information where to look
 the document-root of a given host into any DBI supported database."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.69"
+PV = "1.4.71"
 
-RPM_NAME = "lighttpd-mod_vhostdb_dbi-1.4.69-1.3.aarch64.rpm"
-RPM_HASH = "f29d06b1dcf547c214caf6df65054a63ba5be144ebd8fb6d80be7e5ec78a121f73f4fd07bd1dc86bf6ade827e7484de9d80fdfb2fa15e9da738303df32c5c3b2"
+RPM_NAME = "lighttpd-mod_vhostdb_dbi-1.4.71-1.1.aarch64.rpm"
+RPM_HASH = "c4a16f9b6baf681a15ac9766c808f00c8a9d1b690e2bdfedc4f8738c56b4bb0c3f8ee574b4c17289f692978fed423c63949a801c393c05da80c7c8df561d5365"
 
 RPROVIDES:${PN} += "lighttpd-mod_vhostdb_dbi lighttpd-mod_vhostdb_dbi(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) libdbi.so.3()(64bit) libdbi.so.3(ABI_3)(64bit) lighttpd"

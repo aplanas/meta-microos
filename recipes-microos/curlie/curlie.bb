@@ -2,10 +2,10 @@ SUMMARY = "a frontend to curl that adds the ease of use of httpie"
 DESCRIPTION = "If you like the interface of HTTPie but miss the features of curl, curlie is what you are searching for. Curlie is a frontend to curl that adds the ease of use of httpie, without compromising on features and performance. All curl options are exposed with syntax sugar and output formatting inspired from httpie."
 LICENSE = "MIT"
 
-PV = "1.6.9"
+PV = "1.7.1"
 
-RPM_NAME = "curlie-1.6.9-1.3.aarch64.rpm"
-RPM_HASH = "f1a753290d85603901df48fe3797aff718ec0c0dcb29d2a5278580e38ccb79aa27b79d2b3ebce86548e31be844bdf0aeeda579365d13e32e71d7dec28eb4db9b"
+RPM_NAME = "curlie-1.7.1-1.1.aarch64.rpm"
+RPM_HASH = "e24b105ee9e3158d58b725f28fb17a70aee9ee342c643d6c97c82036306c56646642734e62ad225bdd97e97d0da22635bf0b86d06a68880c0298532871d2ecf0"
 
 RPROVIDES:${PN} += "curlie curlie(aarch-64)"
 RDEPENDS:${PN} += ""

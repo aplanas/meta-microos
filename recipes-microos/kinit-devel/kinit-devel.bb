@@ -3,10 +3,10 @@ DESCRIPTION = "Kdeinit is a process launcher somewhat similar to the famous init
 booting UNIX. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.105.0"
+PV = "5.106.0"
 
-RPM_NAME = "kinit-devel-5.105.0-1.1.aarch64.rpm"
-RPM_HASH = "baf25ae98fb9fd55de7947b355350282df2478292058ae798ae6a54a1153e22efa095791f14d6f7c227a87858126a63c8c39fbac52d710e9ee9a446bb8c1040a"
+RPM_NAME = "kinit-devel-5.106.0-1.1.aarch64.rpm"
+RPM_HASH = "66098ea7c7479858de395947afa80996df646619b8f800678efa1fd0f42ac7086078509d7180db015f2910aa36d15493d7ee2b563fe07b70d6af12bd447487ca"
 
 RPROVIDES:${PN} += "cmake(KF5Init) kinit-devel kinit-devel(aarch-64)"
 RDEPENDS:${PN} += "extra-cmake-modules"

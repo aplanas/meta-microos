@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.25.0"
 
-RPM_NAME = "stern-1.25.0-1.1.aarch64.rpm"
-RPM_HASH = "dacbe70560c571dbd6d8704f71e9f4982eadfb7487f6b2372b63cba0beed10e7b1ae1d653ffad3773a218d4635c45fa7226980227fc2a2bbe053ce0cbadd3882"
+RPM_NAME = "stern-1.25.0-1.2.aarch64.rpm"
+RPM_HASH = "6046ca4698929d2fb4061eb3671e86e494f76d53789d3b1153754db52b45a2acb2e38005502cedb628e59557449317d3b93b0ef377f84491832cbfa132c558d3"
 
 RPROVIDES:${PN} += "stern stern(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

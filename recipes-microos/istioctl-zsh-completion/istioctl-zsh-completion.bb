@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.17.2"
 
-RPM_NAME = "istioctl-zsh-completion-1.17.2-2.1.noarch.rpm"
-RPM_HASH = "41ce31b3961224bb6af733912420c62aa3db6a13541918c632690022d1f8d2d43f491ed710b23b5eae2c34f2031a277cac867d1c0d4241fcc7d5060bc90840bb"
+RPM_NAME = "istioctl-zsh-completion-1.17.2-2.2.noarch.rpm"
+RPM_HASH = "9f1730aa5f6da7bbb4e57be584f4e524d8825f05b9e7cdd9ac4fb00fccb0856fd7f6d7719fb38185a6c5649cc102f778a4d50ec3518de479a54eac14d8069b57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istioctl-zsh-completion"

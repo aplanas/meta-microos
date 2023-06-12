@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.0+git20161122.aa8c435"
 
-RPM_NAME = "golang-gopkgin-check-0.0.0+git20161122.aa8c435-1.16.aarch64.rpm"
-RPM_HASH = "e1ba11c4644ce9b33c31d90565146c6c076b654523231e659b121fa48cbbf7b8fb47199c52f340ed5284f6dfaf948211eb46a65e313765a4f80ab8dd24a530f1"
+RPM_NAME = "golang-gopkgin-check-0.0.0+git20161122.aa8c435-1.17.aarch64.rpm"
+RPM_HASH = "ab753e4f575eec854ed6a06a2885c88cef289dd28247246cefec78ef6ceed3a4b6ab9a1ac14c1de51f711a9f2263851d4e08226e410a251a39e59e786cb284c5"
 
 RPROVIDES:${PN} += "golang-gopkgin-check golang-gopkgin-check(aarch-64)"
 RDEPENDS:${PN} += ""

@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The cdi module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.48"
+PV = "9.4.51"
 
-RPM_NAME = "jetty-cdi-9.4.48-3.1.noarch.rpm"
-RPM_HASH = "d48072062c8d9a75175b19ca862165207e1e4d9dc9bc887ec1d1e3cee9cbcaec65ccb598a603dfd39cdd8224df838b553f61540e9cd96f632059ffcac822ac2a"
+RPM_NAME = "jetty-cdi-9.4.51-1.1.noarch.rpm"
+RPM_HASH = "7b3781de3411611383b310faf3bbcc8bfb20d4844f746e0e424fc325ca3ff4716a24832157a6592dcaf70ae0728330dda501a7eb3f75303726aefc9eae58244a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-cdi mvn(org.eclipse.jetty:jetty-cdi) mvn(org.eclipse.jetty:jetty-cdi:pom:) osgi(org.eclipse.jetty.cdi)"

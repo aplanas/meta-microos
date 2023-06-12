@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for cpupower"
 DESCRIPTION = "bash command line completion support for cpupower."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.1"
+PV = "6.3.4"
 
-RPM_NAME = "cpupower-bash-completion-6.3.1-4.10.noarch.rpm"
-RPM_HASH = "fbe69a3d423c3b1f75477708c60cc4908a5b09055857eab2ae6941b851167f891a4b7a7f794ee1ba27b5084849850e353b3a68be69f39786de32ab875f6f1562"
+RPM_NAME = "cpupower-bash-completion-6.3.4-4.12.noarch.rpm"
+RPM_HASH = "35c939c2a423a8ae81bae528aa4a85096229656c28aa298e6470b9fa883bd68ee305b16633869ef0456baecaad7b7814e428bd34f5348a2ed581de0290620ddc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpupower-bash-completion"

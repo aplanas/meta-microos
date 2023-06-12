@@ -3,10 +3,10 @@ DESCRIPTION = "The *xmlschema* library is an implementation of `XML Schema <http
 for Python."
 LICENSE = "MIT"
 
-PV = "2.2.3"
+PV = "2.3.0"
 
-RPM_NAME = "python39-xmlschema-2.2.3-2.1.noarch.rpm"
-RPM_HASH = "f573236b1609e6ddb3360fd91576d1f717ea7b9d7db652e9ba9f146df2040680342a02bb5c9f34df315d9d47b442c522b859410f66b511dd3fbaa3e87946a8cc"
+RPM_NAME = "python39-xmlschema-2.3.0-1.1.noarch.rpm"
+RPM_HASH = "cb5cfb3315ef4f468e182337a0b2905614c85566610a2c979a114ba14e65752b28eb4a4ef04aad7695bcbcf7ec09286b4135479f4a57798e37f7671486c284a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(xmlschema) python39-xmlschema python3dist(xmlschema)"

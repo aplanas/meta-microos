@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn8457"
 
-RPM_NAME = "texlive-mkjobtexmf-bin-2023.20230311.svn8457-89.1.aarch64.rpm"
-RPM_HASH = "d19b68b8a4403dc051082d1780dc01c0de57ff415faafcc3f57e538d3dc58476598202897e78c2da665bdbd222063cb1e94e7c6657b82d84e926b74034c4f9c2"
+RPM_NAME = "texlive-mkjobtexmf-bin-2023.20230311.svn8457-91.1.aarch64.rpm"
+RPM_HASH = "dcd3bbba9e8f3f768af010b2f997fc372e43da682acbbdd0619fbd4304686b20094aa85b8969ede5a06f186ca6a3ecf134435c26aef6886e18d66d070a24a675"
 
 RPROVIDES:${PN} += "texlive-mkjobtexmf-bin texlive-mkjobtexmf-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-mkjobtexmf"

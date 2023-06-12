@@ -3,10 +3,10 @@ DESCRIPTION = "This meta-package requires all the qt6-wayland development packag
 have any ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-wayland-private-devel-6.5.0-1.1.noarch.rpm"
-RPM_HASH = "aac409d3deb5e45de12487eca8fb2df20544b39f83120cab74547c3c7c25528cadd3f27f015bcd0ef56e5976dab6f0dbd161629d4ae61e37d48a0a93374f0b50"
+RPM_NAME = "qt6-wayland-private-devel-6.5.1-1.1.noarch.rpm"
+RPM_HASH = "0faf319b043ad2a5e0ce36e137b8821aa850402bdfb88414200c6c650042af3925ba85b43a46e26c0dcc8b49d56ec382d370cbad7fc8627728a0dd5e7075dced"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-wayland-private-devel"

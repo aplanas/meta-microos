@@ -9,10 +9,10 @@ glyph position in the console font is not wasted but used for \
 another symbol."
 LICENSE = "GPL-2.0-or-later & MIT & SUSE-Public-Domain"
 
-PV = "1.215"
+PV = "1.220"
 
-RPM_NAME = "bdf2psf-1.215-1.2.noarch.rpm"
-RPM_HASH = "304918382cda88efcad74757fe789f6a297ec603afe5abbe5045d90f2d21856d01b0803f6fdf813608a0f768b669526ee8f4992e771fa09c996fbe1061057dac"
+RPM_NAME = "bdf2psf-1.220-1.1.noarch.rpm"
+RPM_HASH = "e5b3c572132ec212493a6850be0f15de59243ff645d09078e3f052cacf2601a498b0ec74bff6449b896812c7a8966d71332bd866a0641839a1fe5c7f8616741e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bdf2psf"

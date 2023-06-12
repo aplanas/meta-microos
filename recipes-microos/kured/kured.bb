@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.2"
 
-RPM_NAME = "kured-1.10.2-1.3.aarch64.rpm"
-RPM_HASH = "2bc08d14c2dc708cfd16473faf3e9246819ff3099c3b376d67bc34c2488a7b738ac9bca41c3052db80864d7f98d858f759059d4eb4b88bc3987113ceab8fa772"
+RPM_NAME = "kured-1.10.2-1.4.aarch64.rpm"
+RPM_HASH = "f61e9ae06133e5d0fb5984a3b1865eb8b7b2c6b57881f0bba65e6e2b7cb5b9bdc725c7bf2eea4fb2b17b89a33d612ed6dc9e30195621fb472747ab7245fa0bf2"
 
 RPROVIDES:${PN} += "kured kured(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

@@ -2,10 +2,10 @@ SUMMARY = "Command-line YAML processor - jq wrapper for YAML documents"
 DESCRIPTION = "yq: Command-line YAML processor - jq wrapper for YAML documents"
 LICENSE = "Apache-2.0"
 
-PV = "3.2.1"
+PV = "3.2.2"
 
-RPM_NAME = "python310-yq-3.2.1-1.1.noarch.rpm"
-RPM_HASH = "3f3faceef5d94079f8877135be7f9791a72d3d4adcfff00e618884cad87efd28c8f6883b167e7841d03302a1766356f91fa945a02e3c16f20210f75bba1f7cbb"
+RPM_NAME = "python310-yq-3.2.2-1.1.noarch.rpm"
+RPM_HASH = "07b9e21f16396e95e46f3a434ecf9640f1723449a8c4b4fa4e389ca9369ead86cf8069fdde0c302242e047c511ac31c015db7f0b44bcc05ed223f0d75a79fe2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-yq python3.10dist(yq) python310-yq python3dist(yq)"

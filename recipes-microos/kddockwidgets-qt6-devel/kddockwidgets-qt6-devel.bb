@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "1.7.0"
 
-RPM_NAME = "kddockwidgets-qt6-devel-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "ba4e95664c24fcada98745e901226063cda4149b88f43095a62bc20d0794f9bf3c56f0fab513d997c8ad8e3121156b841b5040910199ed9d61d1098d1cec4c55"
+RPM_NAME = "kddockwidgets-qt6-devel-1.7.0-1.2.aarch64.rpm"
+RPM_HASH = "6aa262c731178bd99d3b220510313ef32adb30737f619b0f6e489e0d0652e270582076b5bbacb081f574c458a67e9afbc8a41c95d4aa4bb98fa9bbe7b9bb814a"
 
 RPROVIDES:${PN} += "cmake(KDDockWidgets-qt6) kddockwidgets-qt6-devel kddockwidgets-qt6-devel(aarch-64)"
 RDEPENDS:${PN} += "libkddockwidgets-qt6-1_7"

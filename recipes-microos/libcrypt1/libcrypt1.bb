@@ -7,10 +7,10 @@ Openwall Linux, 'crypt_rn', 'crypt_ra', 'crypt_gensalt', \
 'crypt_gensalt_rn', and 'crypt_gensalt_ra'."
 LICENSE = "BSD-2-Clause & LGPL-2.1-or-later & BSD-3-Clause & SUSE-Public-Domain"
 
-PV = "4.4.33"
+PV = "4.4.34"
 
-RPM_NAME = "libcrypt1-4.4.33-3.1.aarch64.rpm"
-RPM_HASH = "5de432d079987cf016e661e753e747291c6f18959c2fcc494b8aae0dbf7cb264138be24ac71bd70bac8dc11fb04cff8a9b5e50861e5c7b5e33d639eb9506fdea"
+RPM_NAME = "libcrypt1-4.4.34-1.1.aarch64.rpm"
+RPM_HASH = "b66bdb256a01a3f07c37a510707e95981a3cc9a00396215b8dea98feefcfd1a8536950df80185f0e2d9682d925df70c4d56774ff6791903729de96269b2dc4eb"
 
 RPROVIDES:${PN} += "libcrypt.so.1()(64bit) libcrypt.so.1(GLIBC_2.17)(64bit) libcrypt.so.1(OW_CRYPT_1.0)(64bit) libcrypt.so.1(XCRYPT_2.0)(64bit) libcrypt.so.1(XCRYPT_4.3)(64bit) libcrypt.so.1(XCRYPT_4.4)(64bit) libcrypt1 libcrypt1(aarch-64) libowcrypt.so.1()(64bit) libowcrypt.so.1(OW_CRYPT_1.0)(64bit)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.36)(64bit)"

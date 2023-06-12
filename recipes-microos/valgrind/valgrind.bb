@@ -19,12 +19,12 @@ memory, but is usually still usable. Valgrind is still in development, \
 but it has been successfully used to optimize several KDE applications."
 LICENSE = "GFDL-1.2-only & GPL-2.0-or-later"
 
-PV = "3.20.0"
+PV = "3.21.0"
 
-RPM_NAME = "valgrind-3.20.0-3.1.aarch64.rpm"
-RPM_HASH = "9bd6bbbf8f17f96cdd56d4688d6f58789f82ebfc1eb74344188d8af165a48c02c736fce75aaa8b1b91fc3e0d5e37591f7ff299804578ad1835e1e307c33839cd"
+RPM_NAME = "valgrind-3.21.0-1.1.aarch64.rpm"
+RPM_HASH = "1790ff4bbb0a0511197f2fc81e267c08f69fbcd0344a98233c8bf825af1a7898e1d710be6f175ba426af044f1fb839da4e261e7df017fb9df8303725e94871e5"
 
 RPROVIDES:${PN} += "callgrind valgrind valgrind(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/perl glibc libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "/usr/bin/env /usr/bin/perl glibc libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.22.1"
 
-RPM_NAME = "python311-jupyterlab-server-2.22.1-1.1.noarch.rpm"
-RPM_HASH = "f2e41e202e545eda3b7660564f0e2a0e218cb157717d84298a3e76fdc70eac49b4f698f9561a17e0f2409f03b14e63a94256a85a74ae8179ee9e24c4ff29f1ab"
+RPM_NAME = "python311-jupyterlab-server-2.22.1-1.2.noarch.rpm"
+RPM_HASH = "bb41df5fc08cc1164af9e864ff149aadfbd5cd2d7ac87a56a847d266d6775554ab5b41b7ecba5941485a64ec38c574efcdbd60583fa8da99e2e93463a79fdc1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(jupyterlab-server) python311-jupyter-jupyterlab-server python311-jupyter_jupyterlab_launcher python311-jupyter_jupyterlab_server python311-jupyterlab-server python311-jupyterlab_server python3dist(jupyterlab-server)"

@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14.4"
 
-RPM_NAME = "jupyter-panel-0.14.4-1.1.noarch.rpm"
-RPM_HASH = "006dc9a73c4eb5f6c366984d707206cc42e2dd80038d4b52547cdcc6ee4ea08e7fc34aec8e166cb145f8ec4db92e2b137dce1970f29239de95eec2c1160f199c"
+RPM_NAME = "jupyter-panel-0.14.4-1.2.noarch.rpm"
+RPM_HASH = "878584d8e3ca061348083aced87df6d5531d8a3941f103cfe1ffb4932d62e071428054b32d13e143f1186de109f1953a020c371cbb89be61a13256098c9f3d17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-panel"

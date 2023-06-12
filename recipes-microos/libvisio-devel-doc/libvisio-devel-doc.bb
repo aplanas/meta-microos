@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.7"
 
-RPM_NAME = "libvisio-devel-doc-0.1.7-1.26.noarch.rpm"
-RPM_HASH = "cb35fc5ee6d814524321475b0b35317d99b5a7e8f6064822035596aa67fcef447c4f349c26bf4decc1e694c36c3aa5e7c5e01fe57b528c7e98064661ca20ba0a"
+RPM_NAME = "libvisio-devel-doc-0.1.7-1.27.noarch.rpm"
+RPM_HASH = "9d81cf48c67646256125eb527e74a44e09bb5ecb2e7d112f25933e756e69e8307af2c3c8ae14a7ca46f77ff2ffa046d9d6a6742937700b3a20328e1d966b17a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libvisio-devel-doc"

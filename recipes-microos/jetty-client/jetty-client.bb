@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The client module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.48"
+PV = "9.4.51"
 
-RPM_NAME = "jetty-client-9.4.48-3.1.noarch.rpm"
-RPM_HASH = "ec12eba96c4ad45648d91445e83b95cb0b95099010bd23b4abe66ab13674915c92f4b4bab6225ddfacde13e450ff076da65ec9742865632a7f86338832ada86b"
+RPM_NAME = "jetty-client-9.4.51-1.1.noarch.rpm"
+RPM_HASH = "d454cda386954448ad9f121a8bc1c01625d766faefad227addff0ade022b0b310284b278240473ce24e1461fa00c50aa0d0e325ccaef8de1ca5bb9758c565cf1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-client mvn(org.eclipse.jetty:jetty-client) mvn(org.eclipse.jetty:jetty-client:pom:) osgi(org.eclipse.jetty.client)"

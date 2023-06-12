@@ -6,10 +6,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "osmo-bts-virtual-1.4.0-1.9.aarch64.rpm"
-RPM_HASH = "b4d98765beebb3b49587ab8efa6f74bf4bfbcfc4598c69063125ebad0437a5ee322c1ddbe5d8b09806408dfd9988c66bd082c4360520e659dc19cf24c3976006"
+RPM_NAME = "osmo-bts-virtual-1.4.0-1.10.aarch64.rpm"
+RPM_HASH = "d4dd67469050467cbeeb5422bee2edfb35d180706d85a1c3ced99f85fcd137ca555daf55c26a0391fb6e48ba79ec23c3075f34256d26e065f9283e19e7b64165"
 
 RPROVIDES:${PN} += "config(osmo-bts-virtual) osmo-bts-virtual osmo-bts-virtual(aarch-64)"
-RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libosmoabis.so.10()(64bit) libosmocore.so.19()(64bit) libosmoctrl.so.0()(64bit) libosmoctrl.so.0(LIBOSMOCTRL_1.0)(64bit) libosmogsm.so.18()(64bit) libosmogsm.so.18(LIBOSMOGSM_1.0)(64bit) libosmotrau.so.2()(64bit) libosmovty.so.9()(64bit) libtalloc.so.2()(64bit) libtalloc.so.2(TALLOC_2.0.2)(64bit)"
+RDEPENDS:${PN} += "/bin/sh ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libosmoabis.so.10()(64bit) libosmocore.so.20()(64bit) libosmoctrl.so.0()(64bit) libosmoctrl.so.0(LIBOSMOCTRL_1.0)(64bit) libosmogsm.so.18()(64bit) libosmogsm.so.18(LIBOSMOGSM_1.0)(64bit) libosmotrau.so.2()(64bit) libosmovty.so.9()(64bit) libtalloc.so.2()(64bit) libtalloc.so.2(TALLOC_2.0.2)(64bit)"
 
 inherit rpm

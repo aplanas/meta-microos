@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt63DQuickInput that 
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-3dquickinput-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "4703cf9ea0aa10f647ea422bda64cff12f731f1f2b23238a767fff6a73480e2efe2277ae1f018293e8719e62d049102d7d13a7a6bf688c5e75f2dc960b5c9216"
+RPM_NAME = "qt6-3dquickinput-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "66645f6e75bef30a9f3dc26fb4fb4490030e06c65ca8b6c77bb3929321fe5afc299962e6fbed26cbc16910ffb14806281735d30e2617adec48bbd1a40f6113e7"
 
 RPROVIDES:${PN} += "qt6-3dquickinput-private-devel qt6-3dquickinput-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt63DQuickInput)"

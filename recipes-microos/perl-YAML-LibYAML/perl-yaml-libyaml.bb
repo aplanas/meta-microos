@@ -2,10 +2,10 @@ SUMMARY = "Perl YAML Serialization using XS and libyaml"
 DESCRIPTION = "Perl YAML Serialization using XS and libyaml"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.86"
+PV = "0.88"
 
-RPM_NAME = "perl-YAML-LibYAML-0.86-1.3.aarch64.rpm"
-RPM_HASH = "33be86e1255787cb443d99742f66ce9cbece0f44428a113d377bad34bea550366e3277522f02d2b61fb771470096c48c46c175f46128d959f640c5f57d033516"
+RPM_NAME = "perl-YAML-LibYAML-0.88-1.1.aarch64.rpm"
+RPM_HASH = "f9155bf9be48f109caab3ada263e0297b2b33973c51459f1fe329538384250512586caff74aac7746866f2893c7f60633c326af8be2ee12b049d56779780c961"
 
 RPROVIDES:${PN} += "perl(YAML::LibYAML) perl(YAML::XS) perl(YAML::XS::LibYAML) perl-YAML-LibYAML perl-YAML-LibYAML(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) perl(:MODULE_COMPAT_5.36.0)"

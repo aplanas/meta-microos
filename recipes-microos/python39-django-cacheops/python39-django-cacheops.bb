@@ -6,10 +6,10 @@ It uses `redis <http://redis.io/>`_ as backend for ORM cache and redis or \
 filesystem for simple time-invalidated one."
 LICENSE = "BSD-3-Clause"
 
-PV = "7.0"
+PV = "7.0.1"
 
-RPM_NAME = "python39-django-cacheops-7.0-1.1.noarch.rpm"
-RPM_HASH = "e2a7b1293ed1a9500a09ec28a0671caea49c07d9714c233753857eca0d013258ac773003fec870747a287bfe8817a37552e3d33de8a647b8b2b36397d4fad718"
+RPM_NAME = "python39-django-cacheops-7.0.1-1.1.noarch.rpm"
+RPM_HASH = "5ae8181b78ffe9351aecd2bae5f9cfb1759a5eb4a2e1806c5384ef8f84975dc2e7bb40ded998f997a5307b206d9881ed3e04217485a790b69a94d69e1b23f382"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(django-cacheops) python39-django-cacheops python3dist(django-cacheops)"

@@ -5,8 +5,8 @@ LICENSE = "CPL-1.0 | GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "3.1.16"
 
-RPM_NAME = "jnr-posix-3.1.16-1.1.noarch.rpm"
-RPM_HASH = "ab95dc5a861578ab6b04375168a28b35b0cc625c93176dd6660ec751608b99019ceddffeafec4bedc6f90c3a5775f4df4f42d8edc485b2f1f1c688aa321aeca0"
+RPM_NAME = "jnr-posix-3.1.16-2.1.noarch.rpm"
+RPM_HASH = "33a5d2e5aa110deb8c31fbbd11f39e655a3bb288a12e834c8e8c2a60dc3ea94ba11901165db2a0c7c380a9fed4753f87b1214424b1c540c84f8bbb1342e6e800"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-posix mvn(com.github.jnr:jnr-posix) mvn(com.github.jnr:jnr-posix:pom:) osgi(com.github.jnr.posix)"

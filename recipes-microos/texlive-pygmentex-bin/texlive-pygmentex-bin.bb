@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn34996"
 
-RPM_NAME = "texlive-pygmentex-bin-2023.20230311.svn34996-89.1.aarch64.rpm"
-RPM_HASH = "70e9262c7e05a2b03830b6d5fd63879c06720e5d0ae45b63c97faf5bac7ae7a912538fc84acc7da3197c8633cb61723774dcf88ead6c4f9ebf9c330fe454d51b"
+RPM_NAME = "texlive-pygmentex-bin-2023.20230311.svn34996-91.1.aarch64.rpm"
+RPM_HASH = "071ab9b2256893e03ad28193ca588987cb8613e8be57ea76e0f1d5441796c41dab2991d908df9db9524bf2c86cc98d6da325daf29ab3b795599efda78e55bd69"
 
 RPROVIDES:${PN} += "texlive-pygmentex-bin texlive-pygmentex-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-pygmentex"

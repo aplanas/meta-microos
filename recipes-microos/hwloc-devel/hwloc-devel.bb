@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.9.0"
 
-RPM_NAME = "hwloc-devel-2.9.0-2.3.aarch64.rpm"
-RPM_HASH = "12907156400b12a24745bd0b3a7eaecdaf38f3fcba25690c7f7e006b1bbafc99ae4f3a946fb273479134a7f2de182584ba1d461f7a2cd170fe7a1dff4d01bbc5"
+RPM_NAME = "hwloc-devel-2.9.0-3.1.aarch64.rpm"
+RPM_HASH = "14470165c02aeb4243f1ff035785b21822d03e60a16cfa422237ab9e13d7e65cb82a2467092981c6d62ce7f0c1761b3293fcf11b277886d4a3340b47c8a53f48"
 
 RPROVIDES:${PN} += "hwloc-devel hwloc-devel(aarch-64) libhwloc-devel pkgconfig(hwloc)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libhwloc15 pkgconfig(libxml-2.0) pkgconfig(pciaccess)"

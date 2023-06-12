@@ -4,10 +4,10 @@ program.  Contains warnings that don't belong in pyflakes and \
 pycodestyle."
 LICENSE = "MIT"
 
-PV = "23.3.23"
+PV = "23.5.9"
 
-RPM_NAME = "python310-flake8-bugbear-23.3.23-1.1.noarch.rpm"
-RPM_HASH = "7bcc267dbcb192aebcc63b72c6df74b9e6638711f38895914ddc072ef88af5f70454f7c78959849772c7ae85cfac5d9f1e34d260b9a15fdd35a3085434fad612"
+RPM_NAME = "python310-flake8-bugbear-23.5.9-1.1.noarch.rpm"
+RPM_HASH = "a7f29d0727dd2cee4d395fc5489abd881a5e6fcea912b8d3343950703af5afbe6e80bb8605b805cda14a66850701b426dabd4a1512f307be18207b9448bd39de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flake8-bugbear python3.10dist(flake8-bugbear) python310-flake8-bugbear python3dist(flake8-bugbear)"

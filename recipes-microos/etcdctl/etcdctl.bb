@@ -3,10 +3,10 @@ DESCRIPTION = "A command line client for etcd. It can be used in scripts or for 
 to explore an etcd cluster."
 LICENSE = "Apache-2.0"
 
-PV = "3.5.8"
+PV = "3.5.9"
 
-RPM_NAME = "etcdctl-3.5.8-1.1.aarch64.rpm"
-RPM_HASH = "e0ae841815f07842b988e3ae986d5063aa4968ca1116bf88279834bef012e8138785b960151e2f2d04309a448afcec8674e2abafe3049f728c22de9f1b94ac8e"
+RPM_NAME = "etcdctl-3.5.9-1.1.aarch64.rpm"
+RPM_HASH = "a7c05641c61fc59b8fbaec6aa37f97bcfc79da87b460df1342ea1522e3d28e1556371da8ebe7c54b917c6e97bf2cfa3de4702a448802bf674c24ddf238a33e65"
 
 RPROVIDES:${PN} += "etcdctl etcdctl(aarch-64)"
 RDEPENDS:${PN} += ""

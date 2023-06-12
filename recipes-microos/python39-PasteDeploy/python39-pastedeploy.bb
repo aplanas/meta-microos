@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.1.1+git.1652668078.0f0697d"
 
-RPM_NAME = "python39-PasteDeploy-2.1.1+git.1652668078.0f0697d-1.9.noarch.rpm"
-RPM_HASH = "fafd0c6408f97bcc32b3baa0e2f3088e9ed06bdad3ad09661598c2317e5d3c11b3ac3568619537b112d9b03b457a672ac2c7cd4cf0353b289060357286e695c3"
+RPM_NAME = "python39-PasteDeploy-2.1.1+git.1652668078.0f0697d-2.1.noarch.rpm"
+RPM_HASH = "2d1df87ba54d7d8fce26fcf435f37b51245a0b7122e52c539741478683452cf4622f67e74c2dbdf64303ed7beffc3f858e93c603ce81ec02fb3be4f7b95fb5d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(pastedeploy) python39-PasteDeploy python39-pastedeploy python3dist(pastedeploy)"

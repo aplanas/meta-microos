@@ -2,10 +2,10 @@ SUMMARY = "Development files for python39-pyzmq"
 DESCRIPTION = "Development libraries and headers needed to build software using python39-pyzmq."
 LICENSE = "BSD-3-Clause & LGPL-3.0-or-later"
 
-PV = "24.0.1"
+PV = "25.0.2"
 
-RPM_NAME = "python39-pyzmq-devel-24.0.1-3.5.aarch64.rpm"
-RPM_HASH = "2f2199c50c639eaaa646008a4d52ac56a750be18d252540a2a20e5d23426465e364ff1a2e504df8f76154326e897684251b3d07c3244e27e0934cfcc87df29e1"
+RPM_NAME = "python39-pyzmq-devel-25.0.2-1.1.aarch64.rpm"
+RPM_HASH = "6be67d856051b691bd3ad73345c19a35720ca1386e0936e9ecad9b57e2282f3e6f8daf35f611002b182cda99d90af5ea034378b9eafd7b0fafd92d3b9dc043aa"
 
 RPROVIDES:${PN} += "python39-pyzmq-devel python39-pyzmq-devel(aarch-64)"
 RDEPENDS:${PN} += "python(abi) python39-devel python39-pyzmq zeromq-devel"

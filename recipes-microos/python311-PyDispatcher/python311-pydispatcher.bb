@@ -10,10 +10,10 @@ provide the ability to selectively apply arguments to callable objects and \
 to reference instance methods using weak-references."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.6"
+PV = "2.0.7"
 
-RPM_NAME = "python311-PyDispatcher-2.0.6-1.3.noarch.rpm"
-RPM_HASH = "43d3eb6532206b694d485969a521d55f27728f6625bdfeb728c78f89f559c631621dd559ac6bedadf587ee3ed388a3d75f6b3072a5f894270bf98028296a21af"
+RPM_NAME = "python311-PyDispatcher-2.0.7-1.1.noarch.rpm"
+RPM_HASH = "b479cb4e0b1b634a9e719ced3c8a973064bc0df1074028ac9b32f4e18d6e94f584129efa422a9f6fe5031645c3cec3658171a93791a15f82da34553c427d0eaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(pydispatcher) python311-PyDispatcher python3dist(pydispatcher)"

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-extras-filemanagertemplates-3.2.1-7.16.aarch64.rpm"
-RPM_HASH = "ec185a2cf9b2d0f12a4ce2f852b1f02c10cc5365e5928132cea34eb42b0a91363f28ef8eb16e348f1c3c9fc3f00de675900fd39e2766c4aa18eb72dd3d8f7b54"
+RPM_NAME = "calligra-extras-filemanagertemplates-3.2.1-7.17.aarch64.rpm"
+RPM_HASH = "6b9bd3652ab192710106bcafbff13a98907e5e8077bb9dc2a1d0c105428b12be9e5f684e1a7eef49e8fdb915a6a00d1554dc0abe3dd2c625c5efdb4eba3eea73"
 
 RPROVIDES:${PN} += "calligra-extras-filemanagertemplates calligra-extras-filemanagertemplates(aarch-64)"
 RDEPENDS:${PN} += ""

@@ -4,10 +4,10 @@ cryptographic policies for various cryptographic back-ends, \
 such as SSL/TLS libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "20210917.c9d86d1"
+PV = "20230420.3d08ae7"
 
-RPM_NAME = "crypto-policies-20210917.c9d86d1-1.14.noarch.rpm"
-RPM_HASH = "866a4bb2b6d546182ba2ae75f6285eb0abb4abe289c88595aca9b72faa750db172d43a84a8cb0df55be398fa41a456c2f5860b2109407c49e2d4ef6759767771"
+RPM_NAME = "crypto-policies-20230420.3d08ae7-1.1.noarch.rpm"
+RPM_HASH = "0db1e15dd0a9d42cce8991ffa2862277bf768d10fadc805d103230f2036a275e72adcd3bf3ea4d278abd6c8f6b361bcd5a30532c627fb081287f384a62bd16ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(crypto-policies) crypto-policies"

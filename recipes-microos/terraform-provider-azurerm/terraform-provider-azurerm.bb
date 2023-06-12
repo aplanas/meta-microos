@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.35.0"
 
-RPM_NAME = "terraform-provider-azurerm-3.35.0-1.3.aarch64.rpm"
-RPM_HASH = "e45f374bcaec0593d4ae0d6cae93036b10e549ceefde9de43ffe7ea05ded4886e5a50ac4f898b35608d64fb3bf131b05c55f958e4df73158f2501b3ef8b6a481"
+RPM_NAME = "terraform-provider-azurerm-3.35.0-1.4.aarch64.rpm"
+RPM_HASH = "db88d3805185fe25b12cbe54b7dd7c3e334655d2e1089749e71b2f2c0f49ba9cebbe87b4cafac3c950e5075511b9e80cb0b5c6675dcd2e7e79c0bb26fdd74d87"
 
 RPROVIDES:${PN} += "terraform-provider-azurerm terraform-provider-azurerm(aarch-64)"
 RDEPENDS:${PN} += "terraform"

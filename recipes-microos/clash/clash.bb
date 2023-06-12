@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.12.0"
 
-RPM_NAME = "clash-1.12.0-1.3.aarch64.rpm"
-RPM_HASH = "5cf1b9630a3d79923076449f08a7483e9d527d9fbd7574018b5e1a0d2183503c50c2e80424ca9aa5e32d4548b01a226ccdf299f211cfd9dd0338227ae89b9ecc"
+RPM_NAME = "clash-1.12.0-1.4.aarch64.rpm"
+RPM_HASH = "6ea0825dde6ac17e0a6edba9e1f8d95bfa2b4b16bea9c129066312146740d3a3c8c7844115b2af7acebc34a89cc8bbac04f26901e4ceb2fb17ad76d5b09df690"
 
 RPROVIDES:${PN} += "clash clash(aarch-64) config(clash)"
 RDEPENDS:${PN} += "/bin/sh"

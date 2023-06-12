@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.0.4"
 
-RPM_NAME = "python39-rt-3.0.4-1.3.noarch.rpm"
-RPM_HASH = "4c93c5028960ebfd17abcd5ba9f9a7461925a2ddf135db7b69e8b2c44ba2311b80664754f1717aae4a65b284db090ed85e216596499014a80be901be286d27af"
+RPM_NAME = "python39-rt-3.0.4-1.4.noarch.rpm"
+RPM_HASH = "d321f591d74723f5a1d42bed1a2b8c6f32e286d880788114e663b04977c378c095137d52c21010f5566b3439683446d16d1a191af0b9909b4de1e7ee6064a553"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(rt) python39-rt python3dist(rt)"

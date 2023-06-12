@@ -13,10 +13,10 @@ Additional backends can be installed by installing python311-aws-xray-sdk-backen
 packages.  The python311-aws-xray-sdk-all package installs all backends."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "python311-aws-xray-sdk-2.10.0-1.3.noarch.rpm"
-RPM_HASH = "4e683dbb351653ce114da85333de4b0a98d82ed169cd25ab7f6463c8e884cec9c951b8d9000cb618b235f2230c0f77950b4e936fe8cb4253d2013f34cc650244"
+RPM_NAME = "python311-aws-xray-sdk-2.12.0-1.1.noarch.rpm"
+RPM_HASH = "975bb8915cd47b7de5f342751390efc5a886933d086c125c8cf49e482560c345991b5316db7f96d2ceeaf28a72b7982de28863b6b2e1caaf9b0e44b5aa9ac23b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(aws-xray-sdk) python311-aws-xray-sdk python3dist(aws-xray-sdk)"

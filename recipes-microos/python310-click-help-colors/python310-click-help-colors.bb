@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "python310-click-help-colors-0.9.1-1.8.noarch.rpm"
-RPM_HASH = "bf5bbf9f160a40baf5e2c2e8521d279a7465ff36f33c37fa9b9b40fa6bd585157d7b9899928ef29f4a16c60b57cc382b83f1c1061e32f81b4f3b94bae93b9de5"
+RPM_NAME = "python310-click-help-colors-0.9.1-2.1.noarch.rpm"
+RPM_HASH = "eca2ac9e8dbe92496eac564e22836df34418de48171474b039eb150e8347f5d8cbaf0dcc5ca4d560928cc354993ae8aa7643c37c31132b045dfde9aebf18045a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-click-help-colors python3.10dist(click-help-colors) python310-click-help-colors python3dist(click-help-colors)"

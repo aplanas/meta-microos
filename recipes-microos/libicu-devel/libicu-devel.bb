@@ -4,12 +4,12 @@ and locale support. \
 This package contains the headers for ICU."
 LICENSE = "ICU"
 
-PV = "72.1"
+PV = "73.1"
 
-RPM_NAME = "libicu-devel-72.1-2.3.aarch64.rpm"
-RPM_HASH = "360693749078c16c907d582a896de3158f34609734df9206787254a9b393ad0253957fd5cc2a477262308a50fc0bf2584f445730a93f82d3cfcc9d28ab094f6a"
+RPM_NAME = "libicu-devel-73.1-1.1.aarch64.rpm"
+RPM_HASH = "a61a988ca39f304392b91482c78a84c854300a436a39b99fd01cfed4932b0ce78d0f3e69e64512fe7947028ce7894431d2eab244abfb0c6ae537af8f7890d44a"
 
 RPROVIDES:${PN} += "libicu-devel libicu-devel(aarch-64) pkgconfig(icu-i18n) pkgconfig(icu-io) pkgconfig(icu-uc)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config libicu72 pkgconfig(icu-i18n) pkgconfig(icu-uc)"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config libicu73 pkgconfig(icu-i18n) pkgconfig(icu-uc)"
 
 inherit rpm

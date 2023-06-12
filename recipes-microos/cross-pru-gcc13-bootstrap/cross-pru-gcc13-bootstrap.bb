@@ -9,10 +9,10 @@ This is a package that is necessary for bootstrapping another package \
 only, it is not intended for any other use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.0.1+git7231"
+PV = "13.1.1+git7364"
 
-RPM_NAME = "cross-pru-gcc13-bootstrap-13.0.1+git7231-1.1.aarch64.rpm"
-RPM_HASH = "e281b7d50ccb91a0f737fdbe2a0807b1d7c9b7e05e78dadf5716eae2d8a755a737d505dc6fb957e15b23b7f5efd7ced212faf9ce6ce826e482e84a703199caa2"
+RPM_NAME = "cross-pru-gcc13-bootstrap-13.1.1+git7364-1.1.aarch64.rpm"
+RPM_HASH = "e852f283eca2eeb32dd506da52ab693cca2fdbddd9f496b9b662c56c1fc01e255ffdf7ef79c1a6a7aab096b3647774db2c5ec51a4c9c6374560d3045ff21191c"
 
 RPROVIDES:${PN} += "cross-pru-gcc13-bootstrap cross-pru-gcc13-bootstrap(aarch-64) pru-gcc"
 RDEPENDS:${PN} += "/bin/sh cross-pru-binutils update-alternatives"

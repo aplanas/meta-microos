@@ -6,10 +6,10 @@ It is the core base of an Open Source ERP. \
 It provides modularity, scalability and security."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.0.26"
+PV = "6.0.27"
 
-RPM_NAME = "tryton-6.0.26-1.1.noarch.rpm"
-RPM_HASH = "678f32ad0bfa85266326037ea654bb015dc614df23530ab8f7ef3f8fa4184c319bd677e3ff8ab34764d1e2ce21961e6535fa44aed3dd108063b1518d46791bbc"
+RPM_NAME = "tryton-6.0.27-1.1.noarch.rpm"
+RPM_HASH = "b3320f550bc712a9073849efc5d99d978036cebde075eacd70a3bd14cf3afdd27ef60dfcf2175e55e13f7efe49f3850db73ccc4509f29b1e579353514f3c958a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "application() application(tryton.desktop) mimehandler(application/tryton) python3.10dist(tryton) python3dist(tryton) tryton"

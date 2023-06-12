@@ -2,10 +2,10 @@ SUMMARY = "Minimal low-level Python HTTP client"
 DESCRIPTION = "Python minimal low-level HTTP client."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.16.3"
+PV = "0.17.0"
 
-RPM_NAME = "python311-httpcore-0.16.3-2.1.noarch.rpm"
-RPM_HASH = "f3318243d14633b3f5acd942dd7d97343b79615f0412b796511a8064af2056d73b70a1e44a0de229ee9a48be36bcfef6ac996453d86ef6f7ae0ea54f2e0605bf"
+RPM_NAME = "python311-httpcore-0.17.0-1.1.noarch.rpm"
+RPM_HASH = "aca9c18160a4ea22e96b90bed13016d90acbf19ca755595f5cb96e073afe2cb617b52c0138755418f4c6eb60edd17359db45016f9fd9b61369fc681e85f5633e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(httpcore) python311-httpcore python3dist(httpcore)"

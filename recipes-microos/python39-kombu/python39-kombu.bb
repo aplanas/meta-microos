@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.2.4"
 
-RPM_NAME = "python39-kombu-5.2.4-3.1.noarch.rpm"
-RPM_HASH = "a737369e32440259d7818ccbc233593eaa3b0d97d5a57d9e871a283dd5c70957883badc397d413371e9ed2a294136ba861e8581f0b2e775f6d711f44646a5f12"
+RPM_NAME = "python39-kombu-5.2.4-4.1.noarch.rpm"
+RPM_HASH = "87d12e12d9c787f4d3924a276b1f44e6d1f28727f286c979ca9287665fdf8393038f6f0e30d26627a1bfa85f56d73239dabc45ad2c5b13f3cfd94eb940d833bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(kombu) python39-kombu python3dist(kombu)"

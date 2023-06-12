@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.24.13"
 
-RPM_NAME = "kubernetes1.24-kubelet-common-1.24.13-2.1.aarch64.rpm"
-RPM_HASH = "ce1915ddaa266130ea87de801fdc2e590eba49485ca49263bdb70637fc88d4102b8dad150cd9b0d012157dbe5aa3b4f6dee3f5d106a53f5fbcdc70eb57025d17"
+RPM_NAME = "kubernetes1.24-kubelet-common-1.24.13-2.2.aarch64.rpm"
+RPM_HASH = "814f83b8274d5c83963b0f67a71b9e785f4553e08307e0b53f6127cd4fc2e04f6a1ad2817da0d26c77d213bee4f6d6acf0c61d15f5bc2fd69fdad55061ded7fb"
 
 RPROVIDES:${PN} += "kubernetes-kubelet-common kubernetes1.24-kubelet-common kubernetes1.24-kubelet-common(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh cri-runtime kubernetes-kubelet1.24"

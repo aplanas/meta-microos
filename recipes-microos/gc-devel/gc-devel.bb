@@ -7,10 +7,10 @@ automatically recycles memory when it determines that it can no longer \
 be otherwise accessed."
 LICENSE = "BSD-3-Clause"
 
-PV = "8.2.2"
+PV = "8.2.4"
 
-RPM_NAME = "gc-devel-8.2.2-1.3.aarch64.rpm"
-RPM_HASH = "95a95b439df744f336adbbdddae7acc2903de602c8780a574769bb070ce165a5b99ad8e7d048c95d81a9cb625149cfca1abb76e4fb46dee0a19183c067db38f8"
+RPM_NAME = "gc-devel-8.2.4-1.1.aarch64.rpm"
+RPM_HASH = "9768438d8c429cb08b74023ace8e193d38c03cbd5374f4335ed2b5c099332672534a240a21f9d3029867d15b8d4e6fa91fb4069f632488fa1dd506ba046cce9f"
 
 RPROVIDES:${PN} += "gc-devel gc-devel(aarch-64) gc:/usr/include/gc/gc.h pkgconfig(bdw-gc)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config glibc-devel libatomic_ops-devel libgc1"

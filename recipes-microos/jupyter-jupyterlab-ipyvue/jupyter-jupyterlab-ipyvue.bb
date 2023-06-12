@@ -4,10 +4,10 @@ DESCRIPTION = "Jupyter widgets base for Vue libraries \
 This package provides the jupyterlab extension."
 LICENSE = "MIT"
 
-PV = "1.9.0"
+PV = "1.9.1"
 
-RPM_NAME = "jupyter-jupyterlab-ipyvue-1.9.0-2.1.noarch.rpm"
-RPM_HASH = "40e9f0c233a22a2b24217c26e6687c0e1a3eb1c798f52eef539d49b6fd8aaabd6e62c97b185a6fa8d9930531e828b00f41da197c03d0ca124049bf84f2c91782"
+RPM_NAME = "jupyter-jupyterlab-ipyvue-1.9.1-1.1.noarch.rpm"
+RPM_HASH = "f185880edc109f8ced3979aa5189c0240c408fb4f9e9772ac9ff5c3efa1884fe70fe8720706456b36e4cbc6fead27de025ba681f4629232ce9b37df7101579ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-ipyvue"

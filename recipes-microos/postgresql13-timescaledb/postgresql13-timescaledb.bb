@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.10.2"
 
-RPM_NAME = "postgresql13-timescaledb-2.10.2-1.1.aarch64.rpm"
-RPM_HASH = "15f1929560fb2ba6a1d409c8c9caba311434c8ced1465aae05f925df6caa7875795375d21ed68714f8c5feccc76bb31d05ccafc47ebf8e2f19ce6f0706ede691"
+RPM_NAME = "postgresql13-timescaledb-2.10.2-1.2.aarch64.rpm"
+RPM_HASH = "82027230fbd5fef5726aa98c4735048699ef5f7218694d3c0fc8db1e983b7e647d40f3b5ff07bddd8bd2fa8bfdbfd25a09b0e1b836320932bbf98640fd28dcab"
 
 RPROVIDES:${PN} += "postgresql13-timescaledb postgresql13-timescaledb(aarch-64) postgresql13-timescaledb-llvmjit"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit) postgresql13-server"

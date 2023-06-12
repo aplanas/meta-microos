@@ -2,10 +2,10 @@ SUMMARY = "Golang security checker"
 DESCRIPTION = "Inspects source code for security problems by scanning the go abstract syntax tree."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.0"
+PV = "2.16.0"
 
-RPM_NAME = "gosec-2.15.0-1.3.aarch64.rpm"
-RPM_HASH = "05381822a8a3d86b9299a06f9668ecdbc22a064542b635c5aeb6fc007c4e627a3201dc98e5a990e2408dc577557a7dc58eac59822ba9f80ca490065b0383687d"
+RPM_NAME = "gosec-2.16.0-1.1.aarch64.rpm"
+RPM_HASH = "d3c9e34bc01c7fe0b06e08a619b59f5195561e07189007d8ca14f6091073405b5d05f987569ed32597234abdb7a3f01139bb807eee55a873193061b1ccd09b76"
 
 RPROVIDES:${PN} += "gosec gosec(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

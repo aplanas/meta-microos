@@ -6,10 +6,10 @@ https://martinfowler.com/bliki/TestDouble.html, that is, the trust \
 circle of the CA is limited to the test environment."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "0.9.0"
+PV = "1.0.0"
 
-RPM_NAME = "python311-trustme-0.9.0-3.1.noarch.rpm"
-RPM_HASH = "a3ab1002a1e0622c2b8e85a4a6b79c9d8443baad4026dcdfb1e7b487e0904f45dcba4b974dac6f86412552ea35ded740a32b67f4087f48aad0a64703843f7858"
+RPM_NAME = "python311-trustme-1.0.0-1.1.noarch.rpm"
+RPM_HASH = "62a3a9ee254f4b413514330df2e751a50b9a43111a24244fd519011fbb2aad6e2f7fbe88a9a9e01d4a2a502684f7a80f68e32335e3e26db05fb60fe6f7646e66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(trustme) python311-trustme python3dist(trustme)"

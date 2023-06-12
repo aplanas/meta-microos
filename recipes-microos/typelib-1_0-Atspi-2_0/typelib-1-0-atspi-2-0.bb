@@ -6,10 +6,10 @@ This package provides the GObject Introspection bindings for the \
 libatspi library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.48.0"
+PV = "2.48.3"
 
-RPM_NAME = "typelib-1_0-Atspi-2_0-2.48.0-1.1.aarch64.rpm"
-RPM_HASH = "af3a4e92fbcce9165b8c63a12c8bc16c3f5a6980f75922333c276497aca6c7bc7bd24692f2b02e4ef0b4d0d63954d5cb994106a1ebb0e63b0bb92f086faa0572"
+RPM_NAME = "typelib-1_0-Atspi-2_0-2.48.3-1.1.aarch64.rpm"
+RPM_HASH = "feaf61461f9a8a1ff29c05a39232cf0e47bc24855ae16306b407aacbba2a02bdce6a88853044c1ee36891ae562d07be970b7f1963b7546ce7e6228ddb82ee7a3"
 
 RPROVIDES:${PN} += "typelib(Atspi) typelib-1_0-Atspi-2_0 typelib-1_0-Atspi-2_0(aarch-64)"
 RDEPENDS:${PN} += "libatspi.so.0()(64bit) typelib(DBus) typelib(GLib) typelib(GObject)"

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.6.4"
 
-RPM_NAME = "caddy-2.6.4-1.1.aarch64.rpm"
-RPM_HASH = "9696bb57eb36a79fde75774bfba2eb46c1413752658129ba11597e843d9813c42080e92020b0369b6293d6849ac90abdd106ee2ba1dc48dc179ebab3198b80a5"
+RPM_NAME = "caddy-2.6.4-1.2.aarch64.rpm"
+RPM_HASH = "8161594a77f2a6e69d1098fe429cb6ab870206425d5769868db098c33a5af41149b68950febd982722e4835656531729e496d3a18647144aba45dfccdcb724c7"
 
 RPROVIDES:${PN} += "caddy caddy(aarch-64) config(caddy)"
 RDEPENDS:${PN} += "/bin/sh systemd"

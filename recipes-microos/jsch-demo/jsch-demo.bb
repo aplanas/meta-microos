@@ -4,10 +4,10 @@ X11 forwarding, file transfer, etc., and you can integrate its \
 functionality into your own Java programs."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.55"
+PV = "0.2.9"
 
-RPM_NAME = "jsch-demo-0.1.55-2.6.noarch.rpm"
-RPM_HASH = "52529536d8623d2b7b8506b8d9785b487b153c21d04359f2f941172ca1b1a44b56e313f33f4479ca7d02574b2e9c5460bd8264f6318891425c2ea0853b8e19f5"
+RPM_NAME = "jsch-demo-0.2.9-1.1.noarch.rpm"
+RPM_HASH = "6550d1d4cab1ec1f13f229f0cd9dc12b8580426797988e98d30fb575d9362c100a2f41d4a6ba0c75cb4f819db9ca08814b5005b144a55792e420020b6a9d737b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch-demo"

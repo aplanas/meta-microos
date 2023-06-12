@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "21.12"
 
-RPM_NAME = "protobuf-java-21.12-3.1.aarch64.rpm"
-RPM_HASH = "17289c94ca7bf8911f88d62d1bb49952c12516e0db67ae42623b78296c748f2a87d7661672a66550fa25ca766483241ff20a37358111c82582c8f40b167aaf6c"
+RPM_NAME = "protobuf-java-21.12-3.2.aarch64.rpm"
+RPM_HASH = "60dca9424d9b3dd846924fa68a9834bbe2b315260629521ad6524413d9ee1b216fe0b3a1119e14c33f7d594025714162c6a1df01be3d8f0730c9e02294d206b3"
 
 RPROVIDES:${PN} += "mvn(com.google.protobuf:protobuf-bom:pom:) mvn(com.google.protobuf:protobuf-java) mvn(com.google.protobuf:protobuf-java:pom:) mvn(com.google.protobuf:protobuf-parent:pom:) protobuf-java protobuf-java(aarch-64)"
 RDEPENDS:${PN} += "java java-headless javapackages-filesystem"

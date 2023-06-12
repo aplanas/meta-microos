@@ -5,13 +5,13 @@ source code annotated with coverage information. It also adds overview pages \
 for easy navigation within the file structure."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.16+git.20220603.dfeb750"
+PV = "2.0"
 
-RPM_NAME = "lcov-1.16+git.20220603.dfeb750-1.3.noarch.rpm"
-RPM_HASH = "a9e0630e2c676288971eccc8b7d5a957b31e5e3799b43bb5fe696e3d9f3c2b5e5c9d99466be84012dfa75abffe0c535e0a6ab8eac2192df04148c540a986d2b9"
+RPM_NAME = "lcov-2.0-1.1.noarch.rpm"
+RPM_HASH = "1664b679a78c60878f8e7489ebd4c0139b2e72e10a043ae2d683ef15dcf98e283a378084c94d0512004a52bb4b508d702b71f69601addd50cb0250f601cb9f61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(lcov) lcov"
-RDEPENDS:${PN} += "/usr/bin/perl findutils gcc perl-GD perl-PerlIO-gzip"
+RPROVIDES:${PN} += "config(lcov) lcov perl(BranchBlock) perl(BranchData) perl(BranchEntry) perl(CountData) perl(FunctionEntry) perl(FunctionMap) perl(InOutFile) perl(JsonSupport) perl(MapData) perl(ReadCurrentSource) perl(TraceFile) perl(TraceInfo) perl(lcovutil)"
+RDEPENDS:${PN} += "/usr/bin/perl /usr/bin/python3 findutils gcc perl-Capture-Tiny perl-DateTime perl-GD perl-PerlIO-gzip"
 
 inherit rpm

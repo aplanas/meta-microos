@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "3.2.0"
 
-RPM_NAME = "kdb-devel-3.2.0-7.16.aarch64.rpm"
-RPM_HASH = "f901b8e3eff04d576a27be954d9d62553c96d63b49f93d85e295d1de99582649fd9b60177b14874d1c0d85495d3238441cbef94541613674b53c08e072d4fb77"
+RPM_NAME = "kdb-devel-3.2.0-7.17.aarch64.rpm"
+RPM_HASH = "9fc0a7fa2063be78d1cfeba9d6a36a1135af1e2debeea70d696524873cc438bf6bfea9f3cc5331b415e82c9798cdc683edc739bfef56336f526845bc8c3b6312"
 
 RPROVIDES:${PN} += "cmake(KDb) kdb-devel kdb-devel(aarch-64)"
 RDEPENDS:${PN} += "libKDb3-4"

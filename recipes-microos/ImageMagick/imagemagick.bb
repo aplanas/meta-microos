@@ -10,10 +10,10 @@ the command line as well as through C, C++, and Perl-based programming \
 interfaces."
 LICENSE = "ImageMagick"
 
-PV = "7.1.1.8"
+PV = "7.1.1.11"
 
-RPM_NAME = "ImageMagick-7.1.1.8-1.1.aarch64.rpm"
-RPM_HASH = "27313e443592fdc74af02f4329114ef1aa9290931eda5206a638c5491f92507d414a42f17ece20078920f35de6a223367a36b09efb8aa4fa4030574773aba24a"
+RPM_NAME = "ImageMagick-7.1.1.11-1.1.aarch64.rpm"
+RPM_HASH = "431603feb63834cba3f6b2aa43cf1952808e6c1ced8a24c5c0001fa2b1b6ce4e9ef9a9b7ba49fc0be08de3ab05e079f565075dbaea24fa05d6ad7aeaf3b6db21"
 
 RPROVIDES:${PN} += "ImageMagick ImageMagick(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libMagickCore-7.Q16HDRI.so.10()(64bit) libMagickWand-7.Q16HDRI.so.10()(64bit) libMagickWand-7.Q16HDRI.so.10(VERS_10.0)(64bit) libc.so.6(GLIBC_2.34)(64bit)"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt63DRender that do n
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-3drender-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "b1819de9f6d9c84ca012f367436c524ad0a171883c61b39d54eea77070b7a1fee00dcd52456ab2b97ae524ba3b5b6a6af17cd2698fd7b5802645c2a7f3531854"
+RPM_NAME = "qt6-3drender-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "2297f7f802998872d28fd74d8517810ff1b153edd436ab94adab31339bbcbea9fdea8f59569428c5b5cde25a38e899ceadfe16369d9100925c4c5dc725f784e1"
 
 RPROVIDES:${PN} += "qt6-3drender-private-devel qt6-3drender-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt63DRender)"

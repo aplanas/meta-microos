@@ -4,10 +4,10 @@ which uses the twisted framework. test functions can return Deferred \
 objects and pytest will wait for their completion with this plugin."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.13.4"
+PV = "1.14.0"
 
-RPM_NAME = "python310-pytest-twisted-1.13.4-2.5.noarch.rpm"
-RPM_HASH = "13911888f49723a4122c23a4cdce2e13081e454b8fb534eacd01e9a6b40c8273914e0cdba752d5004c518f9d4fa970e36d42604b84c449a89db689e579d7745f"
+RPM_NAME = "python310-pytest-twisted-1.14.0-1.1.noarch.rpm"
+RPM_HASH = "bbb851939b07c398bc15a1f287b38e5207670f1cd0900b11c88990a0ef987d1a6881a9db832bfe1b34f3f2c5f32775e1540677098d9f6e8de860cf368890cf2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-twisted python3.10dist(pytest-twisted) python310-pytest-twisted python3dist(pytest-twisted)"

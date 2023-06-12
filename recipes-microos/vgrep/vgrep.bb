@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.6.1"
 
-RPM_NAME = "vgrep-2.6.1-1.3.aarch64.rpm"
-RPM_HASH = "9759b7a367f3b8f0a7d7f922de1b8ac124942e10ca1ca763445aeaa5b3705455c183ac2cc5e32e320b5367cc51e987ec5fbace10723107dea373ac6c24e97e91"
+RPM_NAME = "vgrep-2.6.1-1.4.aarch64.rpm"
+RPM_HASH = "f852b4ca83c177b11b7f157ebe07269a82abb8629c32b230c523a676f09f40eed9f941af94337a9c2e76f1cf408b6355feeabf0adce95541255fb50643a1d257"
 
 RPROVIDES:${PN} += "vgrep vgrep(aarch-64)"
 RDEPENDS:${PN} += "git-core grep"

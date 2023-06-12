@@ -5,10 +5,10 @@ API guarantees. \
 The packages that build against these have to require the exact Qt version."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "qt6-connectivity-private-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "6df568872fa9840594ce97dc96a9fdb3992abacbbc319e3835d6e2ecce1f247dbd67de6d1edbf50cc033ce69a1805d023514245af28c072389da6d0e1c4e495a"
+RPM_NAME = "qt6-connectivity-private-devel-6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "145609fa1792982998f9e9d63e093691d28f054ea934c755eb22ff6a62d4ee66b5ece4b9743e0b66b418dfea8d2dfa32895603fb87ec9f6b2ee24cf4fce2b83e"
 
 RPROVIDES:${PN} += "qt6-connectivity-private-devel qt6-connectivity-private-devel(aarch-64)"
 RDEPENDS:${PN} += "cmake(Qt6Bluetooth) cmake(Qt6Nfc) qt6-core-private-devel"

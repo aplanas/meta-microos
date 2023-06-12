@@ -5,10 +5,10 @@ This package is part of a suite of tools that used to be named \
 SubDomain."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.3"
+PV = "3.1.4"
 
-RPM_NAME = "apparmor-docs-3.1.3-2.1.noarch.rpm"
-RPM_HASH = "6f0938daec3f180c9d68d5e2621c9f1effe23304d59b2ccdead6285c29f9d240f2c2ae1587577d85af059a52bf2fee2bd630020d974d6327b71102159d4f80da"
+RPM_NAME = "apparmor-docs-3.1.4-1.1.noarch.rpm"
+RPM_HASH = "9687f000a054f39d4337bd7e3fb03379108622c6b74b9c3000fa3ff38ad6042f101c860d79acda4f62fdd67b2514eca57d10a30d53b0633890ff4376fad32f6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-docs"

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "22.11.1"
 
-RPM_NAME = "dpdk-thunderx-devel-static-22.11.1-2.1.aarch64.rpm"
-RPM_HASH = "35b9dc8bce9485e41f9bc126c13b1dd1f38423081c2b6776e135071a061feb2cf286bda280bf8edbc9022982a48ba0fc754ff0f1ec841e93685b24598ae7dd9f"
+RPM_NAME = "dpdk-thunderx-devel-static-22.11.1-2.4.aarch64.rpm"
+RPM_HASH = "22da84d52c08e98cb728c7ba652e909d0f62a495b205af0b5845b1e7b223aeda7136582ce8570a6f9a9bdaf4f0525153ad7a004ffdf48f40218e626a848dc64e"
 
 RPROVIDES:${PN} += "dpdk-thunderx-devel-static dpdk-thunderx-devel-static(aarch-64)"
 RDEPENDS:${PN} += "dpdk-thunderx-devel"

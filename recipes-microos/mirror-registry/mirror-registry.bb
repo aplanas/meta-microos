@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4"
 
-RPM_NAME = "mirror-registry-1.4-1.1.aarch64.rpm"
-RPM_HASH = "51c3bd4c9b6712c47f4decae76ec682f7afdfacb889a29a32e0f6cc03c76d20fed848168efa0dc40d51288f361e778d965614d75a86f979fb07c2041bed10e4a"
+RPM_NAME = "mirror-registry-1.4-1.2.aarch64.rpm"
+RPM_HASH = "30fc664477a97163804840bfb1e6ad0eaefd71014fc71ea4e80182c9f861121dded86304ff3fb82adaf30971b6a65f26e14bdf1cf1a7d3dfb49e9179cfb9ac47"
 
 RPROVIDES:${PN} += "mirror-registry mirror-registry(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) skopeo"

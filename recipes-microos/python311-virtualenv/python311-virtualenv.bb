@@ -17,13 +17,13 @@ virtualenv environments (and optionally doesnt use the globally installed \
 libraries either)."
 LICENSE = "MIT"
 
-PV = "20.22.0"
+PV = "20.23.0"
 
-RPM_NAME = "python311-virtualenv-20.22.0-1.1.noarch.rpm"
-RPM_HASH = "d9e58761f40447e9c1fa5ffa23a84beb7be711d4ce3507a870d775a633bbad1cbeddd1154d76142370714c68cba5d222766c6d12ab6d8cb3e9a17da61402e484"
+RPM_NAME = "python311-virtualenv-20.23.0-1.1.noarch.rpm"
+RPM_HASH = "437ab049b8314d1afbd00bcdbec80e866f06173f356f6d6d374d7be1962e26f4becb67153c2a5614eefba136e9db6cda5cf9fa4d56205b2948ecb2634910bb32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(virtualenv) python311-virtualenv python3dist(virtualenv)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-backports.entry_points_selectable python311-distlib python311-filelock python311-platformdirs python311-setuptools update-alternatives"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.11 python(abi) python311-distlib python311-filelock python311-platformdirs update-alternatives"
 
 inherit rpm

@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.49"
 
-RPM_NAME = "python310-check-manifest-0.49-2.2.noarch.rpm"
-RPM_HASH = "ae42ff9733eda49ee2edac9433fe0c0fc5ec43570782b3637651bf2baaf76fbfb57edcfb761c0a8c29a350b39c66d4575fa64416e4782030089b83daf57859dd"
+RPM_NAME = "python310-check-manifest-0.49-3.1.noarch.rpm"
+RPM_HASH = "3343be24fa78e6867365263abfa880e77d35bec05271cd5f25e8329d64547a35e5f404caf25dce5f7f6ee88f973e83661ba46e042f5be43dd0e2537ec1bbe1f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-check-manifest python3.10dist(check-manifest) python310-check-manifest python3dist(check-manifest)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-build python310-setuptools python310-toml update-alternatives"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.10 python(abi) python310-build python310-setuptools python310-tomli update-alternatives"
 
 inherit rpm

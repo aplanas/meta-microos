@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.11.0"
 
-RPM_NAME = "spdlog-devel-1.11.0-1.3.aarch64.rpm"
-RPM_HASH = "d34b98dc4745b79ffb0b8e676bef4a962df334874143f0aec1a9e795e8afcc008e9c1d14b96b233dc83c4ca2a6b463dfd07b1e68a59ae0a0bfbdd25f99764446"
+RPM_NAME = "spdlog-devel-1.11.0-2.1.aarch64.rpm"
+RPM_HASH = "a426eb72569ab890b498ffadacea4b7531ce00e5ee5e568f1cd457425d8d96e0b9ebc51206dd2421af623fd8f2e6a441c216a4f8f16d2282bb90c7e32b722b0b"
 
 RPROVIDES:${PN} += "cmake(spdlog) pkgconfig(spdlog) spdlog-devel spdlog-devel(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libspdlog1_11 libstdc++-devel pkgconfig(fmt)"

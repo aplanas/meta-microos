@@ -23,10 +23,10 @@ are reported back and displayed to your local terminal. \
 You may specify different Python versions and interpreters."
 LICENSE = "MIT"
 
-PV = "3.2.1"
+PV = "3.3.1"
 
-RPM_NAME = "python311-pytest-xdist-3.2.1-2.1.noarch.rpm"
-RPM_HASH = "bdbea027ce91ea52e5eac9065137ff53eceb1c83b975588c541e488ef4c0eda454f6d352d7f29de6098f30c24e6c5fc52ac29240daa81eee4b3d1059608d5f5a"
+RPM_NAME = "python311-pytest-xdist-3.3.1-1.1.noarch.rpm"
+RPM_HASH = "5b0860513925cd5a5f3cc7268562d5f350d07e4dd7cc3b78d2ef4efe667e57beed1031f18769e5d617b377c235f113d3da1c0114ec315e69a7862904fcbf50a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(pytest-xdist) python311-pytest-xdist python3dist(pytest-xdist)"

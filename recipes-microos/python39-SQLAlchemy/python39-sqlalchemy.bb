@@ -8,12 +8,12 @@ define the join conditions explicitly, to bridge the gap between database and \
 domain."
 LICENSE = "MIT"
 
-PV = "2.0.12"
+PV = "2.0.15"
 
-RPM_NAME = "python39-SQLAlchemy-2.0.12-1.1.aarch64.rpm"
-RPM_HASH = "0dbe2ef1b98cba41a91a2a9897563450bf2ca04dcb1e814a42d3712a29f3a30ad3e9c2b2ac127995f76a034efcce5e95529da50c09f588ace8de4c024dee223c"
+RPM_NAME = "python39-SQLAlchemy-2.0.15-1.1.aarch64.rpm"
+RPM_HASH = "04df99af03027319aaf066e732706a3190fa5121ed2e1799303cb8435eb06f5e217383350c94f23ef47121af61803e0c6b8f4ee4f27a7371bcf0ae6965402d69"
 
 RPROVIDES:${PN} += "python3.9dist(sqlalchemy) python39-SQLAlchemy python39-SQLAlchemy(aarch-64) python39-sqlalchemy python3dist(sqlalchemy)"
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python39 python39-greenlet"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python39 python39-greenlet python39-typing_extensions"
 
 inherit rpm

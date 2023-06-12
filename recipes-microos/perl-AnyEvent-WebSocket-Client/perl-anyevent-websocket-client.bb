@@ -12,10 +12,10 @@ using this module. The older version of the API has since been deprecated \
 and removed."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.54"
+PV = "0.55"
 
-RPM_NAME = "perl-AnyEvent-WebSocket-Client-0.54-1.10.noarch.rpm"
-RPM_HASH = "107268bf80a97aaeed40382d6225b5408a4fd535bb7fd8035c08788a4478d2bbad207e15864e661251aa28e933a6e824ec052a96760d8b7d35a6816cc6c35cd4"
+RPM_NAME = "perl-AnyEvent-WebSocket-Client-0.55-1.1.noarch.rpm"
+RPM_HASH = "21dab1faed8e0e98281eeba985280e15c3316518a13e32a637d2ea74507fdcf2f5f14e67e495cba417007353b1a4f8b3c8513935da2a72b3fc68a0fa9cd8cb6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(AnyEvent::WebSocket::Client) perl(AnyEvent::WebSocket::Connection) perl(AnyEvent::WebSocket::Message) perl-AnyEvent-WebSocket-Client"

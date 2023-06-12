@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.9"
 
-RPM_NAME = "cg3-devel-1.3.9-1.4.aarch64.rpm"
-RPM_HASH = "fac9e0696aafaf2fbdea0f42060c52339fdde8bf7a48d7f0ba94e0518a3c280a25d7e3c050e8887ea8f64bdfea04dd88156e9dee601518cc8e9a73d7c98050a1"
+RPM_NAME = "cg3-devel-1.3.9-1.5.aarch64.rpm"
+RPM_HASH = "81768ece96a3da763f50eef14f578a374822b613032c433000e002c1d244371db798b73944b58224fa70cb8f6b646c8a7efbb6511666ffdcfb9d78d353c324f7"
 
 RPROVIDES:${PN} += "cg3-devel cg3-devel(aarch-64) pkgconfig(cg3)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libcg3-1"

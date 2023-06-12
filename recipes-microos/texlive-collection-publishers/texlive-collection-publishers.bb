@@ -2,10 +2,10 @@ SUMMARY = "Publisher styles, theses, etcetera"
 DESCRIPTION = "The collection-publishers package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66330"
+PV = "2023.208.svn66330"
 
-RPM_NAME = "texlive-collection-publishers-2023.201.svn66330-56.1.noarch.rpm"
-RPM_HASH = "716500e90cc558a9c55269f3c1844dfe06d2d0690ac431e389f7d7585cb65424455691b106414ab12675d88307f3a2c70c889e092f346e210abf5daa4d112102"
+RPM_NAME = "texlive-collection-publishers-2023.208.svn66330-58.1.noarch.rpm"
+RPM_HASH = "20408ecc02253ac347cd4d64c3d2f521eedb5b87e85427850b217dfd2590085ccc3fce2337c0114f1a5027ff79b64dc08c825f62fecff8566e1527e80cdec4f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-publishers"

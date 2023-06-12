@@ -2,10 +2,10 @@ SUMMARY = "Manipuri localization files for LibreOffice"
 DESCRIPTION = "Provides Manipuri translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-mni-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "2989f7f0774d443b945135f5490b02cff41738fc3882080777200d670b546403e9f4108688523e8beeef420aa945a13b21c19eabd2d19714721628068c9adefc"
+RPM_NAME = "libreoffice-l10n-mni-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "179500b82c804a062ae0ede6baa345f73c060cabc9b6e7d188ddb8ef9722391f67ac3a2862bc173b2696153fa841c0f2c36e16c508df93ae71a27f5fcd46f098"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-mni libreoffice-l10n-mni locale(libreoffice:mni)"

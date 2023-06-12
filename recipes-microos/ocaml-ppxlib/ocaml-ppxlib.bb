@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.29.1"
 
-RPM_NAME = "ocaml-ppxlib-0.29.1-1.3.aarch64.rpm"
-RPM_HASH = "9841f1c07cdac39d88941835f1b13e9629ab2c68ef8082ac1d1c20d54c2752e287326e603cbf9f72653c8827f273bdc42ff73089e29208534385fe452eefb35e"
+RPM_NAME = "ocaml-ppxlib-0.29.1-3.1.aarch64.rpm"
+RPM_HASH = "fca3c7dc3f7dae6e3403fec80794cb9c297b27495827759fa7b669914a9d344efcd4991053f35956d6bd8b7c4b60887424d6bb79f1c786ebb34136b7417ca676"
 
 RPROVIDES:${PN} += "ocaml-ppxlib ocaml-ppxlib(aarch-64)"
 RDEPENDS:${PN} += ""

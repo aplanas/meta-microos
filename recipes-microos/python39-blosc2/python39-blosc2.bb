@@ -14,10 +14,10 @@ API of python-blosc, so the former can be used as a drop-in replacement \
 for the later."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.0"
+PV = "2.2.2"
 
-RPM_NAME = "python39-blosc2-2.2.0-1.1.aarch64.rpm"
-RPM_HASH = "94be829bd2dec5d254b194dd50fd015be087e7976c5843bb5d3ac5db73c1180318547ade01722742063b409071ce26ce9a97b70d89fa0f7660085e869361fb3c"
+RPM_NAME = "python39-blosc2-2.2.2-1.1.aarch64.rpm"
+RPM_HASH = "046f3435ad4e2a22893c9f487f8f7fd63b1d6e68733743b00c984356dfc6794f1dcf65e9b14204223d71d71fbaf129de7b2965fe5b7ac94c27f6883cc8de8685"
 
 RPROVIDES:${PN} += "python3.9dist(blosc2) python39-blosc2 python39-blosc2(aarch-64) python3dist(blosc2)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libblosc2.so.2()(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python39-msgpack python39-ndindex python39-numpy python39-py-cpuinfo python39-rich"

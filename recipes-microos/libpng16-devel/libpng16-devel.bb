@@ -9,8 +9,8 @@ LICENSE = "libpng-2.0"
 
 PV = "1.6.39"
 
-RPM_NAME = "libpng16-devel-1.6.39-3.1.aarch64.rpm"
-RPM_HASH = "a36bedcea4a9b66b4c8378986a6e804645d43fc01e2c7c522c1091dc979d0b38da195b48d0e69b198a278bf81823fa47e7c5f57ca12cef6a3d6662dbf7ecb92b"
+RPM_NAME = "libpng16-devel-1.6.39-4.1.aarch64.rpm"
+RPM_HASH = "06663b505e5511b3c8bb18992586d0e42f33133d950cd00fda71ac71aa9e7efe741166aef46f3d220ec08d3e23e72506ad019543d5f2424add6d12a040ed8a5c"
 
 RPROVIDES:${PN} += "libpng16-devel libpng16-devel(aarch-64) pkgconfig(libpng16)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/pkg-config glibc-devel libpng16-16 pkgconfig pkgconfig(zlib)"

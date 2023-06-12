@@ -6,8 +6,8 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "0.3.0"
 
-RPM_NAME = "gomuks-0.3.0-2.3.aarch64.rpm"
-RPM_HASH = "9e3555213e93b0837bb553040fbb8d6ed673e073df61820a5595efd33f82ddca037590e643a9151d09c1b25afaadf710f6a85040b1f7b1340dcf25a27d9b1c78"
+RPM_NAME = "gomuks-0.3.0-2.4.aarch64.rpm"
+RPM_HASH = "0b1e4a2dbc536ab359c94c70ad1bd97d0bdbbe794cbdd121c0dee3fbcfb513615db29b25b3a2e8f41c2ac8b29f4651731c657584b5648f6f7ccbc9be38c64393"
 
 RPROVIDES:${PN} += "gomuks gomuks(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) libolm.so.3()(64bit)"

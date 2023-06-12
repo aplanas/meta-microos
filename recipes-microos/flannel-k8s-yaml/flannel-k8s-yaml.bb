@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.14.0"
 
-RPM_NAME = "flannel-k8s-yaml-0.14.0-1.9.noarch.rpm"
-RPM_HASH = "c0f30669225b16e3a8aff466bc81c7892b48e340ece62f89ee65db425d42fe1252f44a98432362cc0c5ff35963eedddb67317057ae268a2f50e68eb4588736f8"
+RPM_NAME = "flannel-k8s-yaml-0.14.0-1.10.noarch.rpm"
+RPM_HASH = "202e3024c88269c8ab3227df7c2dc4ef65e0a53c5837a9777e22344272c29b6ca76c71c49bdb0e94b2178e2d0620d93bb2c92d04517b75068869007b74dc97ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flannel-k8s-yaml"

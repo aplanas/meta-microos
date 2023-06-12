@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "ddcutil-1.4.1-1.2.aarch64.rpm"
-RPM_HASH = "ae4dd53cd07c53c084bf141285baab563e09071e97c33f544c6d91afc1bf4fd83a6d6da75f3553d775da3cd6fcb73ed57fdbc31a95ffe0c8802a51caaa78c826"
+RPM_NAME = "ddcutil-1.4.1-2.1.aarch64.rpm"
+RPM_HASH = "a91ae5dfb7640326abdbdcdb31e39f55a2d74de47045812d21b6d6b56c81826ac5f74a6db985666623055d2222b546ffeb24a1e0a54f358f409e10c116e53b19"
 
 RPROVIDES:${PN} += "ddcutil ddcutil(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libX11.so.6()(64bit) libXrandr.so.2()(64bit) libc.so.6(GLIBC_2.34)(64bit) libdrm.so.2()(64bit) libglib-2.0.so.0()(64bit) libkmod.so.2()(64bit) libkmod.so.2(LIBKMOD_5)(64bit) libudev.so.1()(64bit) libudev.so.1(LIBUDEV_183)(64bit)"

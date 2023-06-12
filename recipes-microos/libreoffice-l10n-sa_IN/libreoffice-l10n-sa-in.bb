@@ -2,10 +2,10 @@ SUMMARY = "Sanskrit localization files for LibreOffice"
 DESCRIPTION = "Provides Sanskrit translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.3.1"
+PV = "7.5.4.1"
 
-RPM_NAME = "libreoffice-l10n-sa_IN-7.5.3.1-1.1.noarch.rpm"
-RPM_HASH = "6a459c436d02a65dfded3216ab03ea64f67a56204188b7a51985c4a218b9164672782a499d48f013960db4d93ebeec33a9acc321b8866f04ecce52c6685bb208"
+RPM_NAME = "libreoffice-l10n-sa_IN-7.5.4.1-1.1.noarch.rpm"
+RPM_HASH = "2e26ebff46f60e0ae58e11356e2dfee040b5bf7a6481e09154c1f8dcab7a93d3ac3870cf2e268aa12c06ba274dfbdfd2726d258e9817d1b705c4ed77e8772592"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-sa-IN libreoffice-help-sa_IN libreoffice-l10n-sa_IN locale(libreoffice:sa_IN)"

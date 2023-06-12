@@ -2,10 +2,10 @@ SUMMARY = "ANSI color-code highlighting for Pygments"
 DESCRIPTION = "An ANSI color-code highlighting lexer for Pygments."
 LICENSE = "Apache-2.0"
 
-PV = "0.1.0"
+PV = "0.2.0"
 
-RPM_NAME = "python311-pygments-ansi-color-0.1.0-2.1.noarch.rpm"
-RPM_HASH = "ec0f4f7b67b139e538e542ebe4eb59858356bc7f2df68a65ca72a9fe0e6a0ad2b12621b72c3d73cd450bd90250dcdb2c4e189d6ebd5a2de32650b288bcf8dae9"
+RPM_NAME = "python311-pygments-ansi-color-0.2.0-1.1.noarch.rpm"
+RPM_HASH = "a266eb919c3b650d2d6b79faa69fb212f3a88aac77f57f52d7506a534fff78d5e2212a79cfbbb32b2cdf3fcd765a1f511749a45047c9f0df0721b409c397f018"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(pygments-ansi-color) python311-pygments-ansi-color python3dist(pygments-ansi-color)"

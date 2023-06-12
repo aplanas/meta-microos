@@ -4,10 +4,10 @@ programs and macros for DVI file manipulation, literate \
 programming, patgen, and plenty more."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66381"
+PV = "2023.208.svn66381"
 
-RPM_NAME = "texlive-collection-binextra-2023.201.svn66381-56.1.noarch.rpm"
-RPM_HASH = "d8031fd658e09503fd595e706009ca0e7db739bc3c7e7eb7f8292c4647be5b36f98cad3d50cbfe9a272deca634830ce2d31e49ebdf9ca0c12153c800f8a1d17f"
+RPM_NAME = "texlive-collection-binextra-2023.208.svn66381-58.1.noarch.rpm"
+RPM_HASH = "0ecffc40285efd91c1f5df1520796c53f9e0a9f370b964293d187fa074bb1334a658da24aa0469945f133b5389d614c4f7b6e833f5894a261b71bdc45a61ad7b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-binextra"

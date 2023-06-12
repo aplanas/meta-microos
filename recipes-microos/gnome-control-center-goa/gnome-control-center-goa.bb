@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the online accounts onfiguration panel for 
 GNOME control center."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "44.2"
 
-RPM_NAME = "gnome-control-center-goa-44.1-1.1.noarch.rpm"
-RPM_HASH = "76b85cf2f30a3a37f5476aacef43cd5c78906e1a6b2595c16d8b83c61673c4b1e37781a6e2d085150bcbe0770554142ca879e4907d37f735d20a2ccb9e2696cc"
+RPM_NAME = "gnome-control-center-goa-44.2-1.1.noarch.rpm"
+RPM_HASH = "6c7e2c737fdee19a24b8774e84ccda0f45a27ce13afd2bfc8c69fad950901adef067a95dca0b73fd15b9ed46104efeb2c0455dceb183b0e598e89cea19f355c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "application() application(gnome-online-accounts-panel.desktop) gnome-control-center-goa"

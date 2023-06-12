@@ -2,10 +2,10 @@ SUMMARY = "Add inline tabbed content to your Sphinx documentation"
 DESCRIPTION = "Add inline tabbed content to your Sphinx documentation."
 LICENSE = "MIT"
 
-PV = "2022.1.2b11"
+PV = "2023.4.21"
 
-RPM_NAME = "python311-sphinx-inline-tabs-2022.1.2b11-1.3.noarch.rpm"
-RPM_HASH = "98f08a7ee1b503fed04c3f42a767435e85a65d2e1deefe4d307649c06f405f9b4ff49587fa380b484aaabcdb26ef69e6e7f67d4b1f2a36117d0747589ce03674"
+RPM_NAME = "python311-sphinx-inline-tabs-2023.4.21-1.1.noarch.rpm"
+RPM_HASH = "6259f44d464bdd2c7afe7febee23d83a76f60ce1611078008b626bcb81a333edaea3c06b5db7954dfb987868fd8221dd8194299e758a519614f0f6ad93082b8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(sphinx-inline-tabs) python311-sphinx-inline-tabs python3dist(sphinx-inline-tabs)"

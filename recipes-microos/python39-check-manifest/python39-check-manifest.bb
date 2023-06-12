@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.49"
 
-RPM_NAME = "python39-check-manifest-0.49-2.2.noarch.rpm"
-RPM_HASH = "ea2b13c2bffa96ca0ff783f1d5a635a26c5885d36dcae43f2290ce6341b5a1ead6f9837f8388f0fc886b768014158f45a69e5ac0ce4993ef2450fc9484c865d0"
+RPM_NAME = "python39-check-manifest-0.49-3.1.noarch.rpm"
+RPM_HASH = "9b191224d704f9b47b43d389592243245d769fa33fd8411b525504e627d6c8dae21183a5dfde42a9b2d8cd3319f4fe563209eb1b24f2e5547ca3af431f101f91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(check-manifest) python39-check-manifest python3dist(check-manifest)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-build python39-setuptools python39-toml update-alternatives"
+RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-build python39-setuptools python39-tomli update-alternatives"
 
 inherit rpm

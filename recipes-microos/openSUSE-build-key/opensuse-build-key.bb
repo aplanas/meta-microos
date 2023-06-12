@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "openSUSE-build-key-1.0-47.2.aarch64.rpm"
-RPM_HASH = "59cd728f5a1402db1031981ea32d83b9135ddbb7599f956938a034f09f1fb5ff126ac98f16f7e138784349d570654b14b051c090f9d12dfe344fbbce9e3f46d3"
+RPM_NAME = "openSUSE-build-key-1.0-48.1.aarch64.rpm"
+RPM_HASH = "d58b4f28fff2788eb24bdcf411c6e60ce3d7c8c366bbb463130dc60bc825da6b3f24e005dbe20a887d1af19960f02734a4e3beeaaaea7c5fb0d6c9fe779777d5"
 
 RPROVIDES:${PN} += "build-key openSUSE-build-key openSUSE-build-key(aarch-64)"
 RDEPENDS:${PN} += ""

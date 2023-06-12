@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.26.4"
 
-RPM_NAME = "kubernetes1.26-scheduler-1.26.4-1.1.aarch64.rpm"
-RPM_HASH = "92835367b3e05fec5f40ba4195d8ecf01e35e26609f9b3479ecd2d604d5dd4c12ad1587e5d3ce379f6e6ee8bd996118d6be73d9c8c65e5ad03580e9468452115"
+RPM_NAME = "kubernetes1.26-scheduler-1.26.4-1.2.aarch64.rpm"
+RPM_HASH = "b54bf6638602ed49719f564f028e632ee711a4c6b37617d2efcc056481ba3835bb7074cb118bf1acbf9f68d2fa4efed2631839e2ee56488e990c344f489ffe47"
 
 RPROVIDES:${PN} += "kubernetes-scheduler-provider kubernetes1.26-scheduler kubernetes1.26-scheduler(aarch-64)"
 RDEPENDS:${PN} += ""

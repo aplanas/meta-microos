@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "23.03.0"
 
-RPM_NAME = "ovn-doc-23.03.0-13.1.noarch.rpm"
-RPM_HASH = "9a00bb7fc3069bb466a03ec449ff1167cfe12ec6d0b085acb0eb2563fd091e6ba472f03e652056da6211a119fb8ba9fcb7dd29bcb89efeb900d7e8bf2e5f6af6"
+RPM_NAME = "ovn-doc-23.03.0-14.1.noarch.rpm"
+RPM_HASH = "c828f51fdb5a6f59f0223ff44fae97da8d161b7479fcba51b1244c797723a7d40255a71d80ee1410cfd7f462e1f543db86842ae7e7c5fc993c79520f9eb5133a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ovn-doc"

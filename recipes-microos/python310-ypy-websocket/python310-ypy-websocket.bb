@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.8.2"
 
-RPM_NAME = "python310-ypy-websocket-0.8.2-1.2.noarch.rpm"
-RPM_HASH = "3882d36d12dee07b118b8bf26a29c25ce99a1a0211c1c25a429b0e15f4b5aae9ab9914de145320ef03a9724c0cfeaf69f6a9e40cced2d7602d4ff0d9f4f2b721"
+RPM_NAME = "python310-ypy-websocket-0.8.2-1.3.noarch.rpm"
+RPM_HASH = "9a91af40a8898ec213daf6138cd09ce3f98fe1aed06d64bc14d36ff0edfaa430e4b50357d9563d8e1a8cb3a5aecca114cdb07eba961c8c264e264a2a2644d6b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ypy-websocket python3.10dist(ypy-websocket) python310-ypy-websocket python3dist(ypy-websocket)"

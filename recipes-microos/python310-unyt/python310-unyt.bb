@@ -7,10 +7,10 @@ way to easily tell what the units of the data are without somehow knowing *a \
 priori*."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.9.4"
+PV = "2.9.5"
 
-RPM_NAME = "python310-unyt-2.9.4-1.3.noarch.rpm"
-RPM_HASH = "bea7dd679208f460282a59b800855ca1305e9038fb21bfd8288a5b3888ae4374e1ae38705ac7a853028aaab3c274bfc4a294d8b975e4f4d5f7eb8a5c09850649"
+RPM_NAME = "python310-unyt-2.9.5-1.1.noarch.rpm"
+RPM_HASH = "04a3c95c57cb5718b1479781026d42cdf33992305d85f28e4c1e44e153a0fdb2bafb42c8dfb4bca567f4ab414a50d1a5cf32f420a337074aa23e5bc7b450f67d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-unyt python3.10dist(unyt) python310-unyt python3dist(unyt)"

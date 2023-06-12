@@ -4,11 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.4.3"
 
-RPM_NAME = "python39-url-normalize-1.4.3-1.15.noarch.rpm"
-RPM_HASH = "ad138e2cdcef8d819e30abbf4a32443c0a84218950952ab96a2fd5451e3e475b094998432a669b011724a946fc2ea0c266a753614eda1b3f0ba46f6352c84326"
+RPM_NAME = "python39-url-normalize-1.4.3-2.1.noarch.rpm"
+RPM_HASH = "16753a15c9f1838fdb91d968bb55e49a2aee7c286ba9179615a7c31e042895da5ed420375aa96675a00592480b668c1c97883e32bed69e3ba008899f9482da04"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(url-normalize) python39-url-normalize python3dist(url-normalize)"
+RPROVIDES:${PN} += "python3.9dist(url-normalize) python39-url-normalize python39-url_normalize python3dist(url-normalize)"
 RDEPENDS:${PN} += "python(abi) python39-six"
 
 inherit rpm

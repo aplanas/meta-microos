@@ -13,10 +13,10 @@ This subpackage contains the permanent monitoring daemon, to store history \
 information about processes and system resources."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.8.1"
+PV = "2.9.0"
 
-RPM_NAME = "atop-daemon-2.8.1-1.3.aarch64.rpm"
-RPM_HASH = "3186c8f22d2b47828aa33c0250d9be3bb31cd1fa4120c53824bf75e7c7f0682ee1e3554bc6280834d66a30dcc84b1d59d13678423730b5577bc90936dc625544"
+RPM_NAME = "atop-daemon-2.9.0-1.1.aarch64.rpm"
+RPM_HASH = "bae2a0ab54ab40e9d68952a6febe4b41b09463b62ddd1b8b32c50886a47abc5a522b312275140279813a588fb09c1c1051c0eb5a66ca4ee15979f90a45594fde"
 
 RPROVIDES:${PN} += "atop-daemon atop-daemon(aarch-64) config(atop-daemon)"
 RDEPENDS:${PN} += "/bin/sh /usr/bin/python3 atop libc.so.6(GLIBC_2.34)(64bit)"

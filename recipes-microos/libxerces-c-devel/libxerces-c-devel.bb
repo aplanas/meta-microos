@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.4"
 
-RPM_NAME = "libxerces-c-devel-3.2.4-1.4.aarch64.rpm"
-RPM_HASH = "b46315960c03358993c525b2b2229628c3cb7067a8ed50cbcfbb70bd01fdc2f4e0c173ffa634ced28ee7cee1f596ccb3e89d82ed5bc795ca59b952e5dea955bb"
+RPM_NAME = "libxerces-c-devel-3.2.4-1.5.aarch64.rpm"
+RPM_HASH = "581690b5918cb02d2420f937f438a3003ad4ef7c4c7f11a8a890050455268cec81af126e2732990835db777a22ff069820b1f205b87b0c1f97bf59da6a18030f"
 
 RPROVIDES:${PN} += "Xerces-c-devel libXerces-c-devel libxerces-c-devel libxerces-c-devel(aarch-64) pkgconfig(xerces-c)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libxerces-c-3_2"

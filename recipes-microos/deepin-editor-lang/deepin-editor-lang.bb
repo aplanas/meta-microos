@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.10.40"
 
-RPM_NAME = "deepin-editor-lang-5.10.40-1.5.noarch.rpm"
-RPM_HASH = "5d04b27a91ba53bd3bf947cdf30905e45da0037a03a265fd641ec4e75bff621d4f05fdb718802d942a3745cb0f87646be229afcc42456e5aefcf27446990278d"
+RPM_NAME = "deepin-editor-lang-5.10.40-1.6.noarch.rpm"
+RPM_HASH = "bb5d0daa1611d11907e8e6ebf9d07be3a5e34765764f5d01fa033d594dbc2734e433b65d85aa6d6075b0fd161c2a7d30af886a108de86a24b252d3310c76e121"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-editor-lang deepin-editor-lang-all"

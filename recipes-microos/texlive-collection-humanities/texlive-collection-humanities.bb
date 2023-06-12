@@ -3,10 +3,10 @@ DESCRIPTION = "Packages for law, linguistics, social sciences, humanities, \
 etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65216"
+PV = "2023.208.svn65216"
 
-RPM_NAME = "texlive-collection-humanities-2023.201.svn65216-56.1.noarch.rpm"
-RPM_HASH = "3fe89550f371c2cc110639060e80049f48674e23d25189aab5e12a468f906347891d644de88795c762abdc2717300bf458b88172a1c83272f7d71c2005901613"
+RPM_NAME = "texlive-collection-humanities-2023.208.svn65216-58.1.noarch.rpm"
+RPM_HASH = "05958c5a277f5f68f8561697d16576b572ad491292ccb8df12a737aa8de6670f2be9c8820ef1e093e56e8d93d8602c54b85dde710d0d2390719fd766993831d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-humanities"

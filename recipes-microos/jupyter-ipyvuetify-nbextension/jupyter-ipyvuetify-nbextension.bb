@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.8.10"
 
-RPM_NAME = "jupyter-ipyvuetify-nbextension-1.8.10-2.1.noarch.rpm"
-RPM_HASH = "aac4a50ae83a91ff365d9faa0ee180cc4dc2ba12b0e9727ab3f9509b495d5916ccf88e2379c0f1bcee2742f2ff9d5abe7db12587259c06eb09d0f794fd73a5e4"
+RPM_NAME = "jupyter-ipyvuetify-nbextension-1.8.10-2.2.noarch.rpm"
+RPM_HASH = "7a9d9c9d85a26648e5295749f0e724a9d5ecf6fec74f43d0ca7941cbe68044c92174e24364b4d47956444d61b96d86184a3df2b9dd360460cb14958ca19cc6c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyvuetify-nbextension"

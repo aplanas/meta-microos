@@ -4,10 +4,10 @@ are not meant to be used standalone, but are required for building other \
 Plasma components."
 LICENSE = "GPL-2.0+"
 
-PV = "5.27.4"
+PV = "5.27.5"
 
-RPM_NAME = "plasma5-integration-devel-5.27.4-1.2.aarch64.rpm"
-RPM_HASH = "e407e208e394146ef4e8e0ea62c5ee1edabcaf257f0600f36c2eb5370800e25908a9f1ab534c129dd272cbaea1bee6fdc4061e77eeec0fe4b48258d533a3e4aa"
+RPM_NAME = "plasma5-integration-devel-5.27.5-1.2.aarch64.rpm"
+RPM_HASH = "f21df0afb76926687671bcade442ff451ba7afe8840b4b2b55d07879929627e32b84f0e8107990cc7d8e783cf829bc65f747a0ad76260160873743b3da849951"
 
 RPROVIDES:${PN} += "pkgconfig(plasma-key-data) plasma5-integration-devel plasma5-integration-devel(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config plasma5-integration-plugin"

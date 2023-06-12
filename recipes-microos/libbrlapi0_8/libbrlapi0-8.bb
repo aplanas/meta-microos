@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "libbrlapi0_8-6.5-2.3.aarch64.rpm"
-RPM_HASH = "48cfa516faa05a844ffe0844a0ee89018e41e670de04da30f047bfb2f8e69553eb5e4c9a64776d8fbf34b649e667eab698b48664e888727150b507d849395a1f"
+RPM_NAME = "libbrlapi0_8-6.5-2.4.aarch64.rpm"
+RPM_HASH = "c5894f59c6fdb8be3e9947ee8ba7ea836f48c31ade770d1500447406c2e59cd39b185c7be73f1ad5ef8a928241ba406d2e2af963746c80954311c9093acadc22"
 
 RPROVIDES:${PN} += "libbrlapi.so.0.8()(64bit) libbrlapi0_8 libbrlapi0_8(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh /sbin/ldconfig coreutils group(brlapi) ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libsystemd.so.0()(64bit) libsystemd.so.0(LIBSYSTEMD_209)(64bit) util-linux"

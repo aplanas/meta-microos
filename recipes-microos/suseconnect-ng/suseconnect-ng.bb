@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.0~git0.e3c41e60892e"
 
-RPM_NAME = "suseconnect-ng-1.1.0~git0.e3c41e60892e-1.1.aarch64.rpm"
-RPM_HASH = "ee1f5f0253ae326c85b192ec227a3315d541756999bc4bb3aed339469a3c561cb5512030ccaa793493000e366ee641165ed881ef888fdb01f9d46cfefed176ca"
+RPM_NAME = "suseconnect-ng-1.1.0~git0.e3c41e60892e-1.2.aarch64.rpm"
+RPM_HASH = "61fa6e71a71c3bc0d3ff5679c2692281d47727eec6c16a3f032b8a1d212e551dc9cbe1af79549bd59ce9be4a2b9b8e43eff4acdf03406e913b68d101f6fe95ed"
 
 RPROVIDES:${PN} += "SUSEConnect suseconnect-ng suseconnect-ng(aarch-64) zypper-migration-plugin zypper-search-packages-plugin"
 RDEPENDS:${PN} += "/bin/sh ca-certificates-mozilla coreutils dmidecode util-linux zypper"

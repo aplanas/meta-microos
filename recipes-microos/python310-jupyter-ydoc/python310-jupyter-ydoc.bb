@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.4"
 
-RPM_NAME = "python310-jupyter-ydoc-0.2.4-1.1.noarch.rpm"
-RPM_HASH = "876fcb90d3204bbc0fecbd52ff3a337380166e7cae436c26c531e8995d5cbc96fb8c6815b0ad11881705e7a2cf84f4bab35f5e3e8ba696623db777806510add6"
+RPM_NAME = "python310-jupyter-ydoc-0.2.4-1.2.noarch.rpm"
+RPM_HASH = "bdad17fce79b5f6312b2c1a4507cb21b75615fc1e95ac1b41be7789d0ff9845ac14293cb9dde280ee99d7be87e5e43539c6bd720f14432ea9c78fefbfa91baf0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-ydoc python3-jupyter_ydoc python3.10dist(jupyter-ydoc) python310-jupyter-ydoc python310-jupyter_ydoc python3dist(jupyter-ydoc)"

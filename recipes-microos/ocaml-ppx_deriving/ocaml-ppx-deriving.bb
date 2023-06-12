@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "5.2.1"
 
-RPM_NAME = "ocaml-ppx_deriving-5.2.1-1.6.aarch64.rpm"
-RPM_HASH = "458ec99a63f3a78b90b72af73938e12628f78b7228f45a59aba808298d96d301cfccc40673f2ffffc843cbacdc199e5c29450f9c57cffe86f079d85cf44da944"
+RPM_NAME = "ocaml-ppx_deriving-5.2.1-2.1.aarch64.rpm"
+RPM_HASH = "f87f5f26bee3d88e87edf912b19ed207ef860dc7cd6d31335181743c34e5ba19e31a265c7e696e61959fed348eb321e025e88e79152a54bbb9c2f9823a54926d"
 
 RPROVIDES:${PN} += "ocaml-ppx_deriving ocaml-ppx_deriving(aarch-64)"
 RDEPENDS:${PN} += ""

@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "2.20.0"
 
-RPM_NAME = "libHYPRE_2_20_0-gnu-openmpi3-hpc-2.20.0-1.20.aarch64.rpm"
-RPM_HASH = "2cd983c3b2ab315e33cfb50289b72f3aa18128f1b47c101b78f66238402b6ccb0bca2cce7bab792b5fe8a2753ac2edb76895c31030ae97e14dcffe389395f7be"
+RPM_NAME = "libHYPRE_2_20_0-gnu-openmpi3-hpc-2.20.0-1.21.aarch64.rpm"
+RPM_HASH = "bb80f0c2711bc286eaaf0f3d33740a936fe9cac65e7bcf7bee2d8003ed3e2ed6148d3c5c305ea59d817b6a8b0e1a315f77130bd33a8f12f081bbc2ee2e739481"
 
 RPROVIDES:${PN} += "libHYPRE_2_20_0-gnu-openmpi3-hpc libHYPRE_2_20_0-gnu-openmpi3-hpc(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh gnu-compilers-hpc ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libopenmpi3-gnu-hpc lua-lmod"

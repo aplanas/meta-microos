@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20200505"
 
-RPM_NAME = "patterns-base-basic_desktop-20200505-40.1.aarch64.rpm"
-RPM_HASH = "ef45d78ddcc67ffa6ddaf47f61f2faf6dd5d43f60b6a8bbabe7f314c852903d33bcfad8ed48d30cb216b9c0f9d818121bedd84ca29d637f007ba825cf6fad7bb"
+RPM_NAME = "patterns-base-basic_desktop-20200505-41.1.aarch64.rpm"
+RPM_HASH = "d4ef8eb62266ec3da18f64856e960e96706751dc96f9fa3732853ab998c1e19a3fc73381331818568f2f966fd33c830d991274c6bae09debca7fcedcafee668a"
 
 RPROVIDES:${PN} += "pattern() pattern-category() pattern-icon() pattern-order() pattern-visible() patterns-base-basic_desktop patterns-base-basic_desktop(aarch-64)"
 RDEPENDS:${PN} += "icewm-default icewm-theme-branding pattern()"

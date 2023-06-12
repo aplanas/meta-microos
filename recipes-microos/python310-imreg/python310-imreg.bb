@@ -3,10 +3,10 @@ DESCRIPTION = "Imreg is a Python library that implements an FFT-based technique 
 translation, rotation and scale-invariant image registration."
 LICENSE = "BSD-3-Clause"
 
-PV = "2020.1.1"
+PV = "2022.9.27"
 
-RPM_NAME = "python310-imreg-2020.1.1-2.9.noarch.rpm"
-RPM_HASH = "b109801d5fabdc54eb4ace415d9ef7fb1f7075d6c2455c4805a99fb1007f9c3ddf81fcb3a43d5632351d04a6fcf94fe2852956a4b8e2d43e011a99d938adf3ce"
+RPM_NAME = "python310-imreg-2022.9.27-1.1.noarch.rpm"
+RPM_HASH = "8ad444e1edacbd6b306ecf5a67d72ecc7608763ca51bf21a9c4c7a6266c39f0b03c4f23a5da3c95c6225aa8af78e70f51942b8ea74427e72c6384a0ca8aed352"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-imreg python3.10dist(imreg) python310-imreg python3dist(imreg)"

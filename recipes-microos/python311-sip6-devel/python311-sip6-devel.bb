@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only | SUSE-SIP"
 
 PV = "6.7.9"
 
-RPM_NAME = "python311-sip6-devel-6.7.9-1.1.aarch64.rpm"
-RPM_HASH = "5aa40a3eea15f9ca09b223f00cfa80e3db06184ca38de04bcf7a0ab9af7483d6a4c85994f3fcda1c63be77e0b77298cead2d39724503eceec885f5e8040d2cc1"
+RPM_NAME = "python311-sip6-devel-6.7.9-2.1.aarch64.rpm"
+RPM_HASH = "ca57c7e0238936d5235109f232493b56fb5044e734b94de7170c124a1c5cdc5f625fa0b12ff498daaa43c16e3d2ee9f3de718cebda6d9c382232c4382091b8c2"
 
 RPROVIDES:${PN} += "python3.11dist(sip) python311-sip-devel python311-sip-impl python311-sip6-devel python311-sip6-devel(aarch-64) python3dist(sip)"
 RDEPENDS:${PN} += "(python311-tomli if python311-base < 3.11) /bin/sh /usr/bin/python3.11 c++_compiler ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) python(abi) python311-devel python311-packaging python311-ply python311-setuptools update-alternatives"

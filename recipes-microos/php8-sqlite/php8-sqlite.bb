@@ -12,12 +12,12 @@ directly to and from the database files on disk. \
  \
 This package includes sqlite and pdo_sqlite modules for sqlite version \
 2 and 3 respectively."
-LICENSE = "PHP-3.01"
+LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.5"
+PV = "8.1.19"
 
-RPM_NAME = "php8-sqlite-8.2.5-1.1.aarch64.rpm"
-RPM_HASH = "0ffedf875ccc84b82eef55b57489ff498795adc758eca3673fb75c14ac8c45cd1b77de4e48d600ba13627d2f380144a656b624794466448e92309944b80fecea"
+RPM_NAME = "php8-sqlite-8.1.19-2.2.aarch64.rpm"
+RPM_HASH = "1cb37ad9dd0c3492d711e283a744d423a62ce442be1d5409ef9d21b376ee64e6b6654665f65704095151f9e5ef186d3d4a17250d3c7791ac0dddacb6e9004cc6"
 
 RPROVIDES:${PN} += "config(php8-sqlite) php-pdo_sqlite php-sqlite php8-sqlite php8-sqlite(aarch-64)"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libsqlite3.so.0()(64bit) php php-pdo"

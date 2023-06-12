@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.12.11"
 
-RPM_NAME = "python39-CacheControl-0.12.11-2.1.noarch.rpm"
-RPM_HASH = "d5d09a66a49b7ff60e04e8d7bd7e4dc05ebbafee943cc3776b6ceb699d3be82230cce6ea0151bc729762b766329ffd9dc459f57bfca2ffc01630d37547a7acc4"
+RPM_NAME = "python39-CacheControl-0.12.11-3.1.noarch.rpm"
+RPM_HASH = "b298b0f1db96e1719319962e50d06e7de9306fca9ffefe93bb89b8142ec51c96e4d08f77f0dda9f7f77379c8a7f211991301995358f575aa9a9540fda542acaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(cachecontrol) python39-CacheControl python39-cachecontrol python3dist(cachecontrol)"

@@ -9,10 +9,10 @@ LICENSE = "MIT"
 
 PV = "0.14.9"
 
-RPM_NAME = "sile-0.14.9-1.1.aarch64.rpm"
-RPM_HASH = "d67b8eb09c21204ed31e50333e1a83e5c90418d1826c05c4397e76f9cbf8be19cabbdb84256d5ece3447ac3a17c831872553208c6c40bf174e8debfc7e585a3c"
+RPM_NAME = "sile-0.14.9-1.2.aarch64.rpm"
+RPM_HASH = "263006ae6c21fd336b3d76bd045996bd92f6726878ef194f55ca14ca667362ba4bec0660b703b54dcf03e2990e5daffa640b59bc79c3d6930cba7ab57ffa554a"
 
 RPROVIDES:${PN} += "sile sile(aarch-64)"
-RDEPENDS:${PN} += "/usr/bin/lua fontconfig freetype2 git-core glibc icu ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libfontconfig.so.1()(64bit) libharfbuzz-subset.so.0()(64bit) libharfbuzz.so.0()(64bit) libicui18n.so.72()(64bit) libicuuc.so.72()(64bit) liblua5.4.so.5()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libtexpdf.so.0()(64bit) lua54 lua54-bit32 lua54-cassowary lua54-cldr lua54-cliargs lua54-cosmo lua54-fluent lua54-linenoise lua54-loadkit lua54-lpeg lua54-luaepnf lua54-luaexpat lua54-luafilesystem lua54-luarepl lua54-luasec lua54-luasocket lua54-luautf8 lua54-penlight lua54-vstruct lua54-zlib"
+RDEPENDS:${PN} += "/usr/bin/lua fontconfig freetype2 git-core glibc icu ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.17)(64bit) libfontconfig.so.1()(64bit) libharfbuzz-subset.so.0()(64bit) libharfbuzz.so.0()(64bit) libicui18n.so.73()(64bit) libicuuc.so.73()(64bit) liblua5.4.so.5()(64bit) libm.so.6()(64bit) libm.so.6(GLIBC_2.17)(64bit) libtexpdf.so.0()(64bit) lua54 lua54-bit32 lua54-cassowary lua54-cldr lua54-cliargs lua54-cosmo lua54-fluent lua54-linenoise lua54-loadkit lua54-lpeg lua54-luaepnf lua54-luaexpat lua54-luafilesystem lua54-luarepl lua54-luasec lua54-luasocket lua54-luautf8 lua54-penlight lua54-vstruct lua54-zlib"
 
 inherit rpm

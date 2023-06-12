@@ -17,10 +17,10 @@ Features of Requests: \
    + URL + HTTP Auth Registry."
 LICENSE = "Apache-2.0"
 
-PV = "2.28.2"
+PV = "2.30.0"
 
-RPM_NAME = "python310-requests-2.28.2-2.2.noarch.rpm"
-RPM_HASH = "320e52f3de06d05a6f5dad5bd9b8be8e78caca0d31bcb964525d0e66ddebaf45c6bfe06e9aa83757af262cc72221c069ac7a8e915b9e4406442a596ee0bf21dd"
+RPM_NAME = "python310-requests-2.30.0-1.1.noarch.rpm"
+RPM_HASH = "9ed5996f479a6c4b75da684ff92b7e0e5101e046f88069ee9d9fb58f807dfd9e0f1537092594a0eceb740af8b243423b7b2bf2b35aeeb59cf993f2b33d949776"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-requests python3.10dist(requests) python310-requests python3dist(requests)"

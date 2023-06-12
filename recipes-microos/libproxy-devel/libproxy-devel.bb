@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.4.18"
 
-RPM_NAME = "libproxy-devel-0.4.18-1.4.aarch64.rpm"
-RPM_HASH = "e136b31fea3a5102e3cc40a7b2f054ca576dbade840d2e3302d11f606924bd3183629be1634833aea0e89bc47c4dda36c61fbd38d537d14fe1d262f3967b8811"
+RPM_NAME = "libproxy-devel-0.4.18-2.1.aarch64.rpm"
+RPM_HASH = "ea469dad5ff35d291d895cf3e667138e45887c6b6ee661f6fe905a1038f6c90aad8b1fc189329de2041a2f8285140ab968dd76396b41ba8814dce0242d32681f"
 
 RPROVIDES:${PN} += "libproxy-devel libproxy-devel(aarch-64) pkgconfig(libproxy-1.0)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libproxy1"

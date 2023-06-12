@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "tpm2-tss-engine-bash-completion-1.2.0-1.2.noarch.rpm"
-RPM_HASH = "4ff6362b79a41a185f2e18f7c4043a0adc079ce4b13d9df04970d86353bd4cfd0c51a2000258ffcfb56628757fd6991bfa81e171508ece1e126b9bbf0c986a61"
+RPM_NAME = "tpm2-tss-engine-bash-completion-1.2.0-2.1.noarch.rpm"
+RPM_HASH = "1b35cd31dc69c55d5aea1661b27328700f434ccc16e576c7d72470d6ab990f49d7a72f21a36b96c7bc679e1090783a6a9f434a5bff1e2234faf504bc05d2b0b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tpm2-tss-engine-bash-completion"

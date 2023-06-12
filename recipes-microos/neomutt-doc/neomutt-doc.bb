@@ -3,10 +3,10 @@ DESCRIPTION = "Documentation for NeoMutt with neomuttrc examples for different e
 and requirements."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230407"
+PV = "20230517"
 
-RPM_NAME = "neomutt-doc-20230407-1.1.noarch.rpm"
-RPM_HASH = "c21397349a45a2f3957dd8e60aac5f539b03affc385f2eccb48b542a82bfefc76cda73aa0bf3fee3681991049fd52735f2db4c321e9391f572621709c7aee3b5"
+RPM_NAME = "neomutt-doc-20230517-1.1.noarch.rpm"
+RPM_HASH = "5cec1d9b48b4610e90859e8f7ae2d2121f6b4e4a115805b37590540e33c4328c9399331fcfa64026b7e1a2f6d73373938c089cea98e36b68832c3fe6c5e82edb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "neomutt-doc"

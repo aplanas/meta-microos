@@ -10,10 +10,10 @@ Features \
   * Responsive CLI, ~2-3x faster than equivalent tools"
 LICENSE = "MIT"
 
-PV = "1.6.3"
+PV = "1.7.0"
 
-RPM_NAME = "python310-hatch-1.6.3-1.4.noarch.rpm"
-RPM_HASH = "b36f5020cbef8f1d5ebc7e84787d75a808885e88de785925b20496f4a92798e192ae9e115fc2b516313ccb73a816d3eae187fd2bb2777757be48055ff71f936d"
+RPM_NAME = "python310-hatch-1.7.0-1.1.noarch.rpm"
+RPM_HASH = "1f6258e049c55a8f0e7d89241f9cf00b4e89c5213e000a4a3022bb5956d819382ca8936ee29716ad5667f46f4ccab4b31bfce5a8280f94a53616df68e2587a14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hatch python3.10dist(hatch) python310-hatch python3dist(hatch)"

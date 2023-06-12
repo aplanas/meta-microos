@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.16.1"
 
-RPM_NAME = "kubeval-0.16.1-1.8.aarch64.rpm"
-RPM_HASH = "6a5956972bf98f6b5c80cb93700bf45792eaa5aba8cfbf5d4218881ab89d2224be74ea571e678db5bd73cf9d5feadef488489f7da4bc691a3fd9427ee215b870"
+RPM_NAME = "kubeval-0.16.1-1.9.aarch64.rpm"
+RPM_HASH = "ce8b2bc2e7c095e5bcddab7fee5e4f8e7ba8c22bfd40fc7bd3e0d2cd108468d2878edfb689c872fd8ff176cc916c14b91d203ce59b8dbd8c973e3bb526e7f82c"
 
 RPROVIDES:${PN} += "kubeval kubeval(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"

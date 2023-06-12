@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "3.6.1"
 
-RPM_NAME = "openbox-kde-3.6.1-3.31.aarch64.rpm"
-RPM_HASH = "7a71c573b60d6ed344e5bd912592d8d056f852fb4f9780e07b27bb66835469b79af588951433ca0f93b9683903e6e10f68e2452b3c16290efd0dbc386253ee2c"
+RPM_NAME = "openbox-kde-3.6.1-4.1.aarch64.rpm"
+RPM_HASH = "4c201a668cad9dd0f28a23caf6af7a64a577c64455c64d9d47016e2af056c55963531f6faca5b1524a283139c3eee08d2c113095bd6849957e364b431d615686"
 
 RPROVIDES:${PN} += "openbox-kde openbox-kde(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh openbox"

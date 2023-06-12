@@ -5,12 +5,12 @@ need to ascertain the identity of the party at the other end. \
 OpenSSL contains an implementation of the SSL and TLS protocols."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.8"
+PV = "3.1.1"
 
-RPM_NAME = "libopenssl3-3.0.8-2.3.aarch64.rpm"
-RPM_HASH = "63a74944c4a478f1cefadf50e17d73e7b6822bf6b0bb973d3904df1d11bd6153cd0406fa5a7dbc0189fcc84aaae3426e96ea3539195bf62f0a3a7d8c393d17bf"
+RPM_NAME = "libopenssl3-3.1.1-1.1.aarch64.rpm"
+RPM_HASH = "9505cc6db23f5e66b9aa9242f5af2ab8545252566f0af26763f43297ece9e3be413220f405d9dc4232e6abe5ca98db2ea0cd054955d2fdcda5e4d92838250faf"
 
-RPROVIDES:${PN} += "libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libcrypto.so.3(OPENSSL_3.0.3)(64bit) libcrypto.so.3(OPENSSL_3.0.8)(64bit) libopenssl3 libopenssl3(aarch-64) libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit)"
+RPROVIDES:${PN} += "libcrypto.so.3()(64bit) libcrypto.so.3(OPENSSL_3.0.0)(64bit) libcrypto.so.3(OPENSSL_3.0.3)(64bit) libcrypto.so.3(OPENSSL_3.0.8)(64bit) libcrypto.so.3(OPENSSL_3.0.9)(64bit) libcrypto.so.3(OPENSSL_3.1.0)(64bit) libopenssl3 libopenssl3(aarch-64) libopenssl3-hmac libssl.so.3()(64bit) libssl.so.3(OPENSSL_3.0.0)(64bit)"
 RDEPENDS:${PN} += "/sbin/ldconfig crypto-policies ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libz.so.1()(64bit)"
 
 inherit rpm

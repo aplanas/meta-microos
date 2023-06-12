@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.4.0"
 
-RPM_NAME = "libmbedx509-5-3.4.0-2.1.aarch64.rpm"
-RPM_HASH = "b7b22128ac4abc6a30a9c94be5e7d2b75383566087015d9d83fff76bdfeca7a27a742d40139ab7cacb6a0a5c56507acee8c16ce81448e19018a11765630a1438"
+RPM_NAME = "libmbedx509-5-3.4.0-3.1.aarch64.rpm"
+RPM_HASH = "d91d2c93033b3c785bf1effddd024c07e08d1a3e1980a4646c637270932c3a308a19ecf01157c1117176a8fc2812a02604cb97b684e34d6bb4cb3901c633d61e"
 
 RPROVIDES:${PN} += "libmbedx509-5 libmbedx509-5(aarch-64) libmbedx509.so.5()(64bit)"
 RDEPENDS:${PN} += "/sbin/ldconfig ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.33)(64bit) libmbedcrypto.so.14()(64bit)"

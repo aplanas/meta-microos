@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.8.0"
 
-RPM_NAME = "python311-nbformat-5.8.0-1.1.noarch.rpm"
-RPM_HASH = "558676816b9528f455de260973507ce0c8c96b1cc44ef05a9b4d175f55097654e5d1f25ca0569913758e114a274415f3fbe5fdb7f23772569c1dac45b48e2aa3"
+RPM_NAME = "python311-nbformat-5.8.0-1.2.noarch.rpm"
+RPM_HASH = "0483cfc0d9ed0a40f27a571eb13804057e4f77cb687fc542a8b45be55a8a3ed9c3aa7002b84b2826b87fef683eac3d4e98cb93c8ddc28defc899469ad6e4b639"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(nbformat) python311-jupyter_nbformat python311-nbformat python3dist(nbformat)"

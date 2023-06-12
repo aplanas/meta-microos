@@ -5,13 +5,13 @@ OpenAPI 3.0.0 specification. The validator aims to check \
 for full compliance with the Specification."
 LICENSE = "Apache-2.0"
 
-PV = "0.5.1"
+PV = "0.5.6"
 
-RPM_NAME = "python39-openapi-spec-validator-0.5.1-2.5.noarch.rpm"
-RPM_HASH = "ddb4ff0b4124e672ea2bba56185f4b45b26dc1a4e16d1e66efbf5ab235863b9d3eed3e7639466a7f536da57ccdc610bc50752f8ac9bac333040fb856d85725f3"
+RPM_NAME = "python39-openapi-spec-validator-0.5.6-1.1.noarch.rpm"
+RPM_HASH = "0f276e952a8f19b20a5ad2fbb90e0f61c46d3ff256d4200d844f9f5140aec04047867bda687bafab365c81e47bcea7363bb343ffbd5931e7bab5e904057afd8a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(openapi-spec-validator) python39-openapi-spec-validator python3dist(openapi-spec-validator)"
-RDEPENDS:${PN} += "/bin/sh /usr/bin/python3.9 python(abi) python39-PyYAML python39-importlib-resources python39-jsonschema python39-jsonschema-spec python39-lazy-object-proxy python39-openapi-schema-validator python39-setuptools update-alternatives"
+RPROVIDES:${PN} += "python3.9dist(openapi-spec-validator) python39-openapi-spec-validator python39-openapi_spec_validator python3dist(openapi-spec-validator)"
+RDEPENDS:${PN} += "(python39-jsonschema >= 4.0.0 with python39-jsonschema < 4.18) /bin/sh /usr/bin/python3.9 python(abi) python39-importlib-resources python39-jsonschema-spec python39-lazy-object-proxy python39-openapi-schema-validator update-alternatives"
 
 inherit rpm

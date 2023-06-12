@@ -18,8 +18,8 @@ LICENSE = "MIT"
 
 PV = "1.7.2"
 
-RPM_NAME = "python39-python-lsp-server-1.7.2-1.1.noarch.rpm"
-RPM_HASH = "b08aa92d7e779ebecba1dc7e08a9ecb8c043a78d3ad84e9b85a1b0ca4be64cd5eda4236645879c7a2e379f88f6e5e110d3a8439743cc517c0a7981eee58ba4b6"
+RPM_NAME = "python39-python-lsp-server-1.7.2-2.1.noarch.rpm"
+RPM_HASH = "cd00dcc8e5bafc8f53ae2df52aa82575ff0e7843507edc200b4c91da783bcddf0197742bcf6153c0bfd02f0c4fa91746248e63f6aaab110effe6979da5c672a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(python-lsp-server) python39-python-lsp-server python3dist(python-lsp-server)"

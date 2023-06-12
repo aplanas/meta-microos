@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.37"
 
-RPM_NAME = "glibc-utils-2.37-3.1.aarch64.rpm"
-RPM_HASH = "53ff1496268f43e13a8039dce516ccbe439d5c3459f250ba97359989b462648ff4a992ec0d0205defc6ed12f7a2047794b51167016d507a267dcdd265a7385d3"
+RPM_NAME = "glibc-utils-2.37-4.1.aarch64.rpm"
+RPM_HASH = "e4a4755f69920455da3b2dd7d7a3103fddc2b1ee90e54c10cd84de8f5c2db069472c99f3910419fb8573ed02d214103430c54fcac5b95e9918ae44a182f21712"
 
 RPROVIDES:${PN} += "glibc-utils glibc-utils(aarch-64) libmemusage.so()(64bit) libpcprofile.so()(64bit)"
 RDEPENDS:${PN} += "/bin/bash /usr/bin/perl glibc ld-linux-aarch64.so.1()(64bit) ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgd.so.3()(64bit) libm.so.6()(64bit) libpng16.so.16()(64bit) libz.so.1()(64bit)"

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn37771"
 
-RPM_NAME = "texlive-tex4ebook-bin-2023.20230311.svn37771-89.1.aarch64.rpm"
-RPM_HASH = "a50e4a15590cdbe25d2f32cc39436a8e94334bd721a2394ec040ebdeb7f08d180d46f703e22862fdd69626d64f1961cd03ca75b1abdd81b6db1cc8e798d1ec2c"
+RPM_NAME = "texlive-tex4ebook-bin-2023.20230311.svn37771-91.1.aarch64.rpm"
+RPM_HASH = "f2b65d7c729820b0b8133c2668683a8d59b86836102283525a9a9faec49dbabb2268a1eda6c6ad0dc786dcd73528d53437c08df877477ec985f9786fe46942cd"
 
 RPROVIDES:${PN} += "texlive-tex4ebook-bin texlive-tex4ebook-bin(aarch-64)"
 RDEPENDS:${PN} += "texlive-tex4ebook"

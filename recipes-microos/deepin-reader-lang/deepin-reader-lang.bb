@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "5.10.23"
 
-RPM_NAME = "deepin-reader-lang-5.10.23-1.4.noarch.rpm"
-RPM_HASH = "fd28176b957eb1601c6bdb6216c4f67441adfdb78d39115bec5bd487eb9a4ca86995876ae54d21943d82f8fcecc3c1cc3e2d4f8a5d68151a7a414977f721901f"
+RPM_NAME = "deepin-reader-lang-5.10.23-1.5.noarch.rpm"
+RPM_HASH = "c9d0bcd28ec65ee2fdc84041fa1ebe3e76802b2ac02161b26dab83cf3dca22e6717eeaa956a900740d56e080e9cbf98da6778883728d5249334e44cc5982e9fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-reader-lang deepin-reader-lang-all"

@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.12.23"
 
-RPM_NAME = "libphonenumber-devel-8.12.23-1.29.aarch64.rpm"
-RPM_HASH = "24dc286cd14a6e5b4e6b7f3c6555dbb47503c615481e43e99f5d2a277ed59ce351602770a1f8b51db2824fe0fe3cd8473e1b784398ad7e91a5b3c9d4e0383c85"
+RPM_NAME = "libphonenumber-devel-8.12.23-1.30.aarch64.rpm"
+RPM_HASH = "efa4d3eebbe1d91e6d5f67d98afd190d67da4431a5b513de4610cf67c7dee2e793b706b7320fd33f8d95a1b37ff2cf452d8149bdfbd27474086d88305ed8feea"
 
 RPROVIDES:${PN} += "libphonenumber-devel libphonenumber-devel(aarch-64)"
 RDEPENDS:${PN} += "libphonenumber8 pkgconfig(protobuf)"

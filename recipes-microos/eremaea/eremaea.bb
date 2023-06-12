@@ -2,10 +2,10 @@ SUMMARY = "Systemd unit files for python-django-eremaea2"
 DESCRIPTION = "This package contains the systemd unit files for python-django-eremaea2."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.0.17"
+PV = "2.0.18"
 
-RPM_NAME = "eremaea-2.0.17-3.1.noarch.rpm"
-RPM_HASH = "2999b3c457a0d0ca8f3358545b41734afc9cf293c6067fad81ba06312f0287dbcfcf3587ecd688f905157b414e250825559d5f2b3ae5ce5de34f605364069fec"
+RPM_NAME = "eremaea-2.0.18-1.1.noarch.rpm"
+RPM_HASH = "556d72c3baabb1f8cde70fc41435b8b40d56a3f67f95083670b35c4a7a1d8ef10d7b0a657a6f1f4a30d7c25a8de9ec988490b9faf272a8c195313ba7a6a2df91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eremaea"

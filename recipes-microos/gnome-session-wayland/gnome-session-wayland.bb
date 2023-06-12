@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-session-wayland-44.0-1.1.aarch64.rpm"
-RPM_HASH = "9f8e6b0033f8a10465d47f5d3eb53639704d0aa3511571b95209bf98333584ccaaada476f9af7e0f5ea7dc69c6cddae9443e28565e5a4fc8f3c11b3e8626ca8f"
+RPM_NAME = "gnome-session-wayland-44.0-2.1.aarch64.rpm"
+RPM_HASH = "5139efc6b727bdf01c34973ede0272dc4e21d5a173e3fa4fcdd2c96dd3cb230c60dd1cf7ea5042336e9fed9a5752aa091988b799f162582c7d4bb243f0de52bb"
 
 RPROVIDES:${PN} += "gnome-session-wayland gnome-session-wayland(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh gnome-session gnome-settings-daemon xorg-x11-server-wayland"

@@ -14,10 +14,10 @@ followed by the license file, and the changelog section for only the last \
 release? You've come to the right place!"
 LICENSE = "MIT"
 
-PV = "22.8.0"
+PV = "23.1.0"
 
-RPM_NAME = "python311-hatch-fancy-pypi-readme-22.8.0-3.1.noarch.rpm"
-RPM_HASH = "85d77ec622c246886acc30d944b0aee1523f8351077f94d881cc9cb1f2c2ee0ce844d1ff10d5948fe360143d703905eee944acec4f827e4baaeec276941f9c98"
+RPM_NAME = "python311-hatch-fancy-pypi-readme-23.1.0-1.1.noarch.rpm"
+RPM_HASH = "0aa14b6917c68cceb347f33d902730f2f9ce85b3c07651f33445692667b1dd2e06ca6552e5a1f1c49193c4f49a5223ca216cc8f09e061e501683f5153bee9582"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(hatch-fancy-pypi-readme) python311-hatch-fancy-pypi-readme python311-hatch_fancy_pypi_readme python3dist(hatch-fancy-pypi-readme)"

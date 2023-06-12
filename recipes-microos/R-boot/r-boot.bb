@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "1.3.28"
 
-RPM_NAME = "R-boot-1.3.28-45.1.aarch64.rpm"
-RPM_HASH = "7c508c539490ae051b5469b736e62d1f528dad8d8f3e6cee70e400bdd313e3e7a8eaab2cc616d713957ec2e18c77a4d6ed62d835d627bc8cc00f062a7891e03d"
+RPM_NAME = "R-boot-1.3.28-45.2.aarch64.rpm"
+RPM_HASH = "5fd065077587a08edfb91e4d237387c0883b4f2cb2356fe2d7cefa8e1d985994acefb27adb622c56749675e51a35e8d55c74ebcd03d0bea0096d193a3b28254b"
 
 RPROVIDES:${PN} += "R-boot R-boot(aarch-64)"
 RDEPENDS:${PN} += "R-base"

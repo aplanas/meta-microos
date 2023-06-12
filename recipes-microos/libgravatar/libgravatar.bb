@@ -2,10 +2,10 @@ SUMMARY = "Library to download and display gravatars"
 DESCRIPTION = "This package contains the debug categories for the libgravatar library."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.04.0"
+PV = "23.04.1"
 
-RPM_NAME = "libgravatar-23.04.0-1.1.aarch64.rpm"
-RPM_HASH = "7a8ea3f58622fb1100c7b5a52d6b248b4cc3e597d15813eb03c9dfb54960dd2124d5ab6d4748c0d632dc16e394575e00d2dc8c66db9ea228476410c8f3db105e"
+RPM_NAME = "libgravatar-23.04.1-1.1.aarch64.rpm"
+RPM_HASH = "ce00d9a9125711ebd59b04eb02c015810c7ff02e8bdb65cf918b193419de7f024f65de0ad55f42a00f51e6b2dae4d7beadc6640b6c2698c5661ed25396edc503"
 
 RPROVIDES:${PN} += "libgravatar libgravatar(aarch-64)"
 RDEPENDS:${PN} += ""

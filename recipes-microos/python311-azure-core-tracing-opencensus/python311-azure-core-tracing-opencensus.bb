@@ -2,10 +2,10 @@ SUMMARY = "Azure Core Tracing OpenCensus client library for Python"
 DESCRIPTION = "Azure Core Tracing OpenCensus client library for Python"
 LICENSE = "MIT"
 
-PV = "1.0.0b8"
+PV = "1.0.0b9"
 
-RPM_NAME = "python311-azure-core-tracing-opencensus-1.0.0b8-1.8.noarch.rpm"
-RPM_HASH = "26f07f81c164fb65293b5db403f4dee28faee89b5c158cae07e64a8563dfa36bb0ce6b9ac82ec9138c6c615a48cf5783402fbac1f9f5734a71c40a68d9e0d85c"
+RPM_NAME = "python311-azure-core-tracing-opencensus-1.0.0b9-1.1.noarch.rpm"
+RPM_HASH = "12e09ec5ef255a81a37c1088fdc6a165bb7fcc838ae3447abab54016c2d53216a2b487e42d7a59ef7e589704e44d7984ac742412759fe4cb623d9067fa57b8e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist(azure-core-tracing-opencensus) python311-azure-core-tracing-opencensus python3dist(azure-core-tracing-opencensus)"

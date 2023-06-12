@@ -7,10 +7,10 @@ implementations. \
 This package contains development files."
 LICENSE = "MIT"
 
-PV = "24.0.1"
+PV = "25.0"
 
-RPM_NAME = "libbitcoinconsensus-devel-24.0.1-2.1.aarch64.rpm"
-RPM_HASH = "89ba30512f99b1c81a33ebfb1d66ff374ef9c145e79c06934a03295c87f53d5d6fc4c0a9b140e7f53d96696e78d78a99290af538db2dc1e074c3b3c847443e9e"
+RPM_NAME = "libbitcoinconsensus-devel-25.0-1.1.aarch64.rpm"
+RPM_HASH = "1a3c31c91a34de80d2a52fe5981cde721a7ad7613b87473a6c05f15c18f6ae80a468172a0681436cb978ed919df35c5032f81d1f5e2b4dffb18ef43b1b67b8eb"
 
 RPROVIDES:${PN} += "libbitcoinconsensus-devel libbitcoinconsensus-devel(aarch-64) pkgconfig(libbitcoinconsensus)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libbitcoinconsensus0"

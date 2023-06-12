@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.3"
 
-RPM_NAME = "texlive-ptexenc-devel-1.4.3-89.1.aarch64.rpm"
-RPM_HASH = "5a179cac19e20773f830526669d790639cb2ff4b094217f7922c0f0f7bf9bc6ba3e73104ed99c2363f49b074b4629ad80406d26dc8636d9ad1a3d4a68d23f718"
+RPM_NAME = "texlive-ptexenc-devel-1.4.3-91.1.aarch64.rpm"
+RPM_HASH = "9e960b948f9e8f0d0bae9d9e2aa719d397664246a2dd0fe7d9d7f639532698251999658e7a6d7e0bdcd82a10ebcdac3e126618e52a2b79bd7edc6a37b7b6a709"
 
 RPROVIDES:${PN} += "pkgconfig(ptexenc) texlive-ptexenc-devel texlive-ptexenc-devel(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config libptexenc1 pkgconfig(kpathsea)"

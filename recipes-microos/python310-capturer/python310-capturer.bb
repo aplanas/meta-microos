@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "3.0"
 
-RPM_NAME = "python310-capturer-3.0-2.12.noarch.rpm"
-RPM_HASH = "9cbe77ce30e73bc7cffcf51807b17a5e81002fd075d5e27ca000783af454b391eaa251609e5bc91a9e115d09b132adbb2fb47627226a8ad295a7690e98538a8c"
+RPM_NAME = "python310-capturer-3.0-3.1.noarch.rpm"
+RPM_HASH = "c7df24db52107059396ca7bb3e84cf0ed1a263c68521597d6d9c419b51b1b48beeacba506bb5dc6bcbe6d5ca63db798db00298607d1ef076e7e9657581eae76e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-capturer python3.10dist(capturer) python310-capturer python3dist(capturer)"

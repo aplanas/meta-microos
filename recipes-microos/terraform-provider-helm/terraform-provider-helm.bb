@@ -8,8 +8,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.9.0"
 
-RPM_NAME = "terraform-provider-helm-2.9.0-1.3.aarch64.rpm"
-RPM_HASH = "f133cc24d4eb7d4f04e82a77fa9e51277eb0085d6cb76441b69b33d012f55c327fd993a20981382a881a477a34c97175a7c9ffd0b225b741df221f44a92ccdb7"
+RPM_NAME = "terraform-provider-helm-2.9.0-1.4.aarch64.rpm"
+RPM_HASH = "a3fe3a8f84e1424e29c63c360f63dedc1047cdb0be5ccdbf57f81c5dbbcc5e13e1e8259c3b417168b3a3c1c6a083c097a04da018edf0994b53711b3e56ea6caa"
 
 RPROVIDES:${PN} += "terraform-provider-helm terraform-provider-helm(aarch-64)"
 RDEPENDS:${PN} += "terraform"

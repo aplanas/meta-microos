@@ -5,10 +5,10 @@ line continuation, indentation, comment processing, identifier processing, \
 values parsing, case insensitive comparison, and more."
 LICENSE = "MIT"
 
-PV = "3.11.0"
+PV = "3.11.1"
 
-RPM_NAME = "python39-jaraco.text-3.11.0-1.3.noarch.rpm"
-RPM_HASH = "5fb7841649fac947e3c170ce0bb4867f6c0bbb973e2e9012d9da2b52bb166834d05d942a824d14a13e560cf6ccc92f3603ac9911185f3b0bc06bb4506a06e850"
+RPM_NAME = "python39-jaraco.text-3.11.1-1.1.noarch.rpm"
+RPM_HASH = "9c08dbe308f5b017a968912a98bd3efdac6140de64683b05574fdc750653c21f4c053d451884cf212ca2c9508a859720185df44ec34286456b3fdb7d04992e1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(jaraco.text) python39-jaraco.text python3dist(jaraco.text)"

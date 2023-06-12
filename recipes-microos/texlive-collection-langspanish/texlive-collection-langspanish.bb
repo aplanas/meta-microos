@@ -2,10 +2,10 @@ SUMMARY = "Spanish"
 DESCRIPTION = "Support for Spanish."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54141"
+PV = "2023.208.svn54141"
 
-RPM_NAME = "texlive-collection-langspanish-2023.201.svn54141-56.1.noarch.rpm"
-RPM_HASH = "c3e5b34baf1082990fc362f9d5e3a13d3cc43669917a257c4baa8d7fecec891399e7b6ea72eb72c223660f4fbc0f22bb206061cea01e90b680419069ca640b10"
+RPM_NAME = "texlive-collection-langspanish-2023.208.svn54141-58.1.noarch.rpm"
+RPM_HASH = "1b50eb4bfb2d426b052713b4de4f30e5be3b791cfec8b839f03aecb62d8fd01d4168cdfd0e52737bd2c11440b56fcb21b3139c29020502682b213981877c8121"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langspanish"

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.24"
 
-RPM_NAME = "python39-bpython-0.24-1.4.noarch.rpm"
-RPM_HASH = "4ca13d85e9d081d0df2ce85b9febcbb8a524d8c0c1de7e22ff5a50b58e8245aef9b9835e4dd8d97a479dfa38509ca153a84ed7edfc2a48487b73aa6fb6391a3a"
+RPM_NAME = "python39-bpython-0.24-2.1.noarch.rpm"
+RPM_HASH = "78876620fe635538b26f7d0654be29a42b13da3e5270317600be916d67009466a8126ef38db461c7443d14d662f41117df89453c22efafc9e681b7cab989ba12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "application() application(org.bpython-interpreter.bpython-3.9.desktop) metainfo() metainfo(org.bpython-interpreter.bpython-3.9.metainfo.xml) python3.9dist(bpython) python39-bpython python3dist(bpython)"

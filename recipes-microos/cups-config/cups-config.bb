@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.2"
 
-RPM_NAME = "cups-config-2.4.2-4.3.aarch64.rpm"
-RPM_HASH = "c2948e1b734719689da492a194219f4c14d24a710df70ea93458cb058bec243073fa9c2097dcc26de3aff6f41856a3981a559f43c6392c22ee8808fa9bb95866"
+RPM_NAME = "cups-config-2.4.2-5.1.aarch64.rpm"
+RPM_HASH = "e2a01ced454f0c93de0feebf4c68e9c3c74a79313056fee2ad0f6cfb8e484e3f34c70eda42644f7c4bae7f6179efb056a840bf157cc341e1bfd14b1573e8ec7a"
 
 RPROVIDES:${PN} += "config(cups-config) cups-config cups-config(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh group(lp) user(lp)"

@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.1"
 
-RPM_NAME = "weave-npc-2.8.1-3.7.aarch64.rpm"
-RPM_HASH = "629d2db7e9054f7ddcf7a66798c01a031be2d442e90b468ee3831baa4a0c28e3282f3c7cbf5e69757c151625511ed556a925ce8e51c22801f21bb28f8ec8a788"
+RPM_NAME = "weave-npc-2.8.1-3.8.aarch64.rpm"
+RPM_HASH = "0afc8d00ae36737862d380c3f5ff58678c9131022a3744ce10639703d392420a53090c12cc69c6dc3c3782437e8ccc9fb1ab1f2b876ebef7d6082f960a65b06e"
 
 RPROVIDES:${PN} += "config(weave-npc) weave-npc weave-npc(aarch-64)"
 RDEPENDS:${PN} += "ipset iptables ulogd ulogd-pcap"

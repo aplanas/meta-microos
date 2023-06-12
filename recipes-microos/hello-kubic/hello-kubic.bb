@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.1"
 
-RPM_NAME = "hello-kubic-1.4.1-1.5.aarch64.rpm"
-RPM_HASH = "273dc903bdcddbbbc53a5138de0a94688e5052a7791092c007f7eae829870391915f9b21be1be6d34916568314606016e6f39cb7ccb72c9f7b4ccedb72ba2a58"
+RPM_NAME = "hello-kubic-1.4.1-1.6.aarch64.rpm"
+RPM_HASH = "c06c53edbfbd8c4f05490e193534970bebd2b745b898d2c8d2a11522640c2ee40a3c78f97463a859201624aee89465b290a52d6bb5ac81d8156b4e2b4b8d59e0"
 
 RPROVIDES:${PN} += "hello-kubic hello-kubic(aarch-64)"
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
