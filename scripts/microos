@@ -4,6 +4,7 @@ import argparse
 import gzip
 import pathlib
 import shutil
+import subprocess
 import sys
 import urllib.error
 import urllib.parse
@@ -31,6 +32,25 @@ class Package:
     rdepends: list[str]
 
 
+def update_group(group):
+    try:
+        print(f"Updating {group} from OBS ... ")
+        result = subprocess.run(
+            ["osc", "cat", "openSUSE:Factory", "000product/opensuse_microos.group"],
+            capture_output=True,
+        )
+    except FileNotFoundError:
+        print("'osc' command not found. Install it or download manually the group")
+        sys.exit(1)
+
+    if result.returncode:
+        print("Error downloading the group")
+        sys.exit(1)
+
+    with group.open("wb") as f:
+        f.write(result.stdout)
+
+
 def read_and_parse(url):
     with urllib.request.urlopen(url) as resp:
         if url.endswith(".gz"):
@@ -44,7 +64,8 @@ def primary_xml(url):
     print("Reading repomd.xml ...")
     repomd_xml = read_and_parse(repomd_url)
     location = repomd_xml.find(
-        "./{http://linux.duke.edu/metadata/repo}data[@type='primary']/{http://linux.duke.edu/metadata/repo}location"
+        "./{http://linux.duke.edu/metadata/repo}data[@type='primary']/"
+        "{http://linux.duke.edu/metadata/repo}location"
     )
     if location is None:
         print("Error. Primary location tag not found", file=sys.stderr)
@@ -54,7 +75,7 @@ def primary_xml(url):
     return read_and_parse(primary_url)
 
 
-def generate_package_info(url):
+def generate_package_list(url):
     packages_xml = primary_xml(url).findall(
         "./{http://linux.duke.edu/metadata/common}package[@type='rpm']"
     )
@@ -144,9 +165,9 @@ def normalize_pkgs(pkgs):
     return " \\\n".join(pkg for pkg in pkgs if not _ignore(pkg))
 
 
-def update_recipes(recipes, packages):
+def update_pool(pool, packages):
     for package in packages:
-        recipe = recipes / package.name
+        recipe = pool / package.name
         recipe.mkdir(exist_ok=True)
         with (recipe / f"{normalize_pn(package.name)}.bb").open("w") as f:
             if package.summary:
@@ -170,11 +191,34 @@ def update_recipes(recipes, packages):
             f.write("inherit rpm\n")
 
 
-def prune_recipes(recipes, packages):
+def prune_pool(pool, packages):
     packages = {p.name for p in packages}
-    for r in recipes.iterdir():
+    for r in pool.iterdir():
         if r.is_dir() and r.name not in packages:
             shutil.rmtree(r)
+
+
+def generate_group_package_list(group):
+    with group.open() as f:
+        partial = f.read()
+
+    root = ET.fromstring(f"<grp>{partial}</grp>")
+
+    return [pkg.attrib["name"] for pkg in root.findall(".//package")]
+
+
+def unlink_recipes(recipes):
+    for r in recipes.iterdir():
+        if r.is_symlink():
+            r.unlink()
+
+
+def link_recipes(recipes, group_packages, pool):
+    print("Linking recipes from the pool ...")
+    rel_pool = pathlib.Path("..", pool)
+    for package in group_packages:
+        if (pool / package).exists():
+            (recipes / package).symlink_to(rel_pool / package)
 
 
 if __name__ == "__main__":
@@ -186,7 +230,13 @@ if __name__ == "__main__":
         choices=REPO.keys(),
         help="Select repository architecture (default: aarch64)",
     )
-
+    parser.add_argument(
+        "-p",
+        "--pool",
+        default="pool-tumbleweed",
+        type=pathlib.Path,
+        help="Pool of Yocto packages that represent all Tumbleweed",
+    )
     parser.add_argument(
         "-r",
         "--recipes",
@@ -194,9 +244,29 @@ if __name__ == "__main__":
         type=pathlib.Path,
         help="Yocto recipe directory to synchronize",
     )
+    parser.add_argument(
+        "-g",
+        "--group",
+        default="recipes-microos/opensuse_microos.group",
+        type=pathlib.Path,
+        help="Pool of Yocto packages that represent all Tumbleweed",
+    )
+    parser.add_argument(
+        "-u",
+        "--update-group",
+        action="store_true",
+        help="Use 'osc' to update the MicroOS group",
+    )
 
     args = parser.parse_args()
 
-    packages = generate_package_info(REPO[args.arch])
-    update_recipes(args.recipes, packages)
-    prune_recipes(args.recipes, packages)
+    if args.update_group:
+        update_group(args.group)
+
+    packages = generate_package_list(REPO[args.arch])
+    update_pool(args.pool, packages)
+    prune_pool(args.pool, packages)
+
+    group_packages = generate_group_package_list(args.group)
+    unlink_recipes(args.recipes)
+    link_recipes(args.recipes, group_packages, args.pool)
