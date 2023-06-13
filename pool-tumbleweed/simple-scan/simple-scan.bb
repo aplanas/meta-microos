@@ -21,8 +21,7 @@ simple-scan \
 simple-scan(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcolord.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \
@@ -32,12 +31,9 @@ libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libgusb.so.2()(64bit) \
-libgusb.so.2(LIBGUSB_0.1.0)(64bit) \
-libgusb.so.2(LIBGUSB_0.2.2)(64bit) \
 libhandy-1.so.0()(64bit) \
 libhandy-1.so.0(LIBHANDY_1_0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpackagekit-glib2.so.18()(64bit) \
 libsane.so.1()(64bit) \
 libwebp.so.7()(64bit) \

@@ -15,9 +15,8 @@ libSDL_ttf-2_0-0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL-1.2.so.0()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libfreetype.so.6()(64bit)"
 
 inherit rpm

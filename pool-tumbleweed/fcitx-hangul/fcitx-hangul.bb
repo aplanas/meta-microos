@@ -14,7 +14,7 @@ locale(fcitx:ko)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fcitx \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libhangul.so.1()(64bit)"
 
 inherit rpm

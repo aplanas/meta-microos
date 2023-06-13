@@ -16,7 +16,7 @@ locale(patterns-xfce-xfce:zh_CN;zh_SG;zh_TW;zh_HK) \
 lunar-calendar-gtk3-module \
 lunar-calendar-gtk3-module(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 liblunar-calendar-3.0.so.1()(64bit) \

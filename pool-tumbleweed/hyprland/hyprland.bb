@@ -15,58 +15,22 @@ RPROVIDES:${PN} += "hyprland \
 hyprland(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \
 libGLESv2.so.2()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libdisplay-info.so.1()(64bit) \
 libdrm.so.2()(64bit) \
 libgbm.so.1()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libinput.so.10()(64bit) \
-libinput.so.10(LIBINPUT_0.12.0)(64bit) \
-libinput.so.10(LIBINPUT_0.14.0)(64bit) \
-libinput.so.10(LIBINPUT_0.19.0)(64bit) \
-libinput.so.10(LIBINPUT_0.20.0)(64bit) \
-libinput.so.10(LIBINPUT_0.21.0)(64bit) \
-libinput.so.10(LIBINPUT_1.1)(64bit) \
-libinput.so.10(LIBINPUT_1.19)(64bit) \
-libinput.so.10(LIBINPUT_1.2)(64bit) \
-libinput.so.10(LIBINPUT_1.23)(64bit) \
-libinput.so.10(LIBINPUT_1.3)(64bit) \
-libinput.so.10(LIBINPUT_1.4)(64bit) \
-libinput.so.10(LIBINPUT_1.5)(64bit) \
-libinput.so.10(LIBINPUT_1.7)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libpixman-1.so.0()(64bit) \
 libseat.so.1()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.2)(64bit) \
-libstdc++.so.6(CXXABI_1.3.5)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.19)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.22)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.31)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libudev.so.1()(64bit) \
@@ -87,8 +51,6 @@ libxcb-shm.so.0()(64bit) \
 libxcb-xfixes.so.0()(64bit) \
 libxcb-xinput.so.0()(64bit) \
 libxcb.so.1()(64bit) \
-libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit) \
-libxkbcommon.so.0(V_0.8.0)(64bit)"
+libxkbcommon.so.0()(64bit)"
 
 inherit rpm

@@ -16,16 +16,9 @@ python3dist(pytaglib)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
 libtag.so.1()(64bit) \
 python(abi) \
 python311-setuptools \

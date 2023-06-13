@@ -17,8 +17,7 @@ pulseaudio-module-bluetooth(aarch-64)"
 
 RDEPENDS:${PN} += "bluez \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -30,8 +29,6 @@ libpulse.so.0(PULSE_0)(64bit) \
 libpulsecommon-16.1.so()(64bit) \
 libpulsecore-16.1.so()(64bit) \
 libsbc.so.1()(64bit) \
-libsbc.so.1(SBC_1.0)(64bit) \
-libsbc.so.1(SBC_1.1)(64bit) \
 pulseaudio"
 
 inherit rpm

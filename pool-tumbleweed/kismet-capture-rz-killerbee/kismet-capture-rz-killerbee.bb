@@ -15,10 +15,8 @@ kismet-capture-rz-killerbee(aarch-64)"
 
 RDEPENDS:${PN} += "kismet \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libprotobuf-c.so.1()(64bit) \
-libprotobuf-c.so.1(LIBPROTOBUF_C_1.0.0)(64bit) \
 libusb-1.0.so.0()(64bit) \
 libwebsockets.so.19()(64bit)"
 

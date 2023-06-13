@@ -13,14 +13,12 @@ RPM_NAME = "liboggz2-1.1.1-15.28.aarch64.rpm"
 RPM_HASH = "545e95acfc709091c396a5c2ecd651a7e91be23c137dc8190378ab173306ceca9657ceef14585d9ff6a60742ae773022146c210f343807ec8aa2ef2fb6b1e762"
 
 RPROVIDES:${PN} += "liboggz.so.2()(64bit) \
-liboggz.so.2(liboggz.so.0.2)(64bit) \
 liboggz2 \
 liboggz2(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libogg.so.0()(64bit)"
 
 inherit rpm

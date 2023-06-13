@@ -18,6 +18,6 @@ RDEPENDS:${PN} += "/bin/sh \
 glibc-devel \
 lib3ds-1-3 \
 lib3ds-1.so.3()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

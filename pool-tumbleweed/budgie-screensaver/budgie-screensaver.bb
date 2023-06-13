@@ -14,10 +14,9 @@ budgie-screensaver(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXxf86vm.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
@@ -30,7 +29,6 @@ libgnome-desktop-3.so.20()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 pam \

@@ -14,7 +14,6 @@ RDEPENDS:${PN} += "cinnamon \
 cinnamon-settings-daemon \
 dbus-1-x11 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libICE.so.6()(64bit) \
 libSM.so.6()(64bit) \
@@ -24,7 +23,7 @@ libXcomposite.so.1()(64bit) \
 libXext.so.6()(64bit) \
 libXrender.so.1()(64bit) \
 libXtst.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcanberra.so.0()(64bit) \
 libgdk-3.so.0()(64bit) \

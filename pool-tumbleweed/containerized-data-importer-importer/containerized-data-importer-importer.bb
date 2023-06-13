@@ -10,6 +10,6 @@ RPM_HASH = "f7c7fc5927af1d7489a6af20791a99fc9709bfb1cd022b007e26dae2c0501f7a1a72
 RPROVIDES:${PN} += "containerized-data-importer-importer \
 containerized-data-importer-importer(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

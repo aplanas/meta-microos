@@ -15,8 +15,7 @@ python39-gssapi(aarch-64) \
 python3dist(gssapi)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgssapi_krb5.so.2()(64bit) \
 libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
 python(abi) \

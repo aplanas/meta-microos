@@ -15,18 +15,13 @@ ices(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libogg.so.0()(64bit) \
 libshout.so.3()(64bit) \
 libvorbis.so.0()(64bit) \
 libvorbisenc.so.2()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

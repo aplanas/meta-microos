@@ -14,10 +14,8 @@ libspice-client-glib-helper(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 group(kvm) \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \
-libacl.so.1(ACL_1.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap-ng.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

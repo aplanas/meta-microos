@@ -16,8 +16,7 @@ libebackend-1_2-11(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcamel-1.2.so.64()(64bit) \
 libdb-4.8.so()(64bit) \
 libedataserver-1.2.so.27()(64bit) \

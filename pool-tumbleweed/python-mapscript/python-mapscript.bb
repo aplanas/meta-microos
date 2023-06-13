@@ -15,8 +15,7 @@ python3.10dist(mapscript) \
 python3dist(mapscript)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libmapserver.so.2()(64bit) \
 libmapserver2 \
 libpython3.10.so.1.0()(64bit) \

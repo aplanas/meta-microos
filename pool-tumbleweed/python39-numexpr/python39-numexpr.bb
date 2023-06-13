@@ -16,19 +16,10 @@ python39-numexpr(aarch-64) \
 python3dist(numexpr)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 python(abi) \
 python39-numpy"
 

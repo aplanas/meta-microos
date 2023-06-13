@@ -12,18 +12,14 @@ RPM_HASH = "a863405fe9b5d6d3b28a8cf5fe810a38e47109869b54ecf8c2b6a53294e12f0be736
 
 RPROVIDES:${PN} += "libsndfile \
 libsndfile.so.1()(64bit) \
-libsndfile.so.1(libsndfile.so.1.0)(64bit) \
 libsndfile1 \
 libsndfile1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libogg.so.0()(64bit) \
 libopus.so.0()(64bit) \
 libspeex.so.1()(64bit) \

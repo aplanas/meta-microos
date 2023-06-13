@@ -13,14 +13,10 @@ RPROVIDES:${PN} += "pam_cgfs \
 pam_cgfs(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcap.so.2()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libseccomp.so.2()(64bit) \
 libselinux.so.1()(64bit)"
 

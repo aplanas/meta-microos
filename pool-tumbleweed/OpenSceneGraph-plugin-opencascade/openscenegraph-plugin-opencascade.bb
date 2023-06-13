@@ -17,7 +17,6 @@ OpenSceneGraphPlugin(ext:iges) \
 OpenSceneGraphPlugin(ext:step)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libTKBRep.so.7.7()(64bit) \
 libTKIGES.so.7.7()(64bit) \
 libTKLCAF.so.7.7()(64bit) \
@@ -30,19 +29,11 @@ libTKXDEIGES.so.7.7()(64bit) \
 libTKXDESTEP.so.7.7()(64bit) \
 libTKXSBase.so.7.7()(64bit) \
 libTKernel.so.7.7()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libosg.so.161()(64bit) \
 libosgDB.so.161()(64bit) \
 libosgUtil.so.161()(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

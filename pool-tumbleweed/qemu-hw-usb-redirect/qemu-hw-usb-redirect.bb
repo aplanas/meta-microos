@@ -11,9 +11,7 @@ RPROVIDES:${PN} += "qemu-hw-usb-redirect \
 qemu-hw-usb-redirect(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
-libusbredirparser.so.1()(64bit) \
-libusbredirparser.so.1(USBREDIRPARSER_0.8.0)(64bit)"
+libc.so.6()(64bit) \
+libusbredirparser.so.1()(64bit)"
 
 inherit rpm

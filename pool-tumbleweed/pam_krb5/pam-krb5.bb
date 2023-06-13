@@ -13,18 +13,14 @@ pam_krb5 \
 pam_krb5(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcom_err.so.2()(64bit) \
 libk5crypto.so.3()(64bit) \
 libk5crypto.so.3(k5crypto_3_MIT)(64bit) \
 libkeyutils.so.1()(64bit) \
-libkeyutils.so.1(KEYUTILS_0.3)(64bit) \
 libkrb5.so.3()(64bit) \
 libkrb5.so.3(krb5_3_MIT)(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
-libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit)"
+libselinux.so.1()(64bit)"
 
 inherit rpm

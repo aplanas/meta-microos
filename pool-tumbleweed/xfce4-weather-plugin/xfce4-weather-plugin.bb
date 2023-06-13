@@ -14,8 +14,7 @@ xfce4-weather-plugin(aarch-64)"
 
 RDEPENDS:${PN} += "exo-tools \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
@@ -23,7 +22,6 @@ libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libsoup-2.4.so.1()(64bit) \
 libupower-glib.so.3()(64bit) \
@@ -32,8 +30,6 @@ libxfce4ui-2.so.0()(64bit) \
 libxfce4util.so.7()(64bit) \
 libxfconf-0.so.3()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 xfce4-panel"
 
 inherit rpm

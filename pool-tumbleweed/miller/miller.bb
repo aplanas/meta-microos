@@ -14,6 +14,6 @@ RPM_HASH = "d4186e459b433e8d2c2cf8fe1de43cdfe5ee724fa647c7a89a5c4c54488da6e1ba8f
 RPROVIDES:${PN} += "miller \
 miller(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

@@ -17,7 +17,7 @@ RDEPENDS:${PN} += "/usr/bin/python3 \
 dbus-1 \
 i3 \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 psmisc \
 python3 \
 python3-dbus-python \

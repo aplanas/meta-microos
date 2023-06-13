@@ -19,14 +19,10 @@ selinux-tools(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libpcre2-8.so.0()(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
-libselinux.so.1(LIBSELINUX_3.5)(64bit) \
 libselinux1 \
-libsepol.so.2()(64bit) \
-libsepol.so.2(LIBSEPOL_1.0)(64bit)"
+libsepol.so.2()(64bit)"
 
 inherit rpm

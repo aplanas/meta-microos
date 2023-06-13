@@ -21,12 +21,11 @@ metainfo(mate-terminal.appdata.xml)"
 RDEPENDS:${PN} += "/usr/bin/perl \
 gsettings-backend-dconf \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \
 libSM.so.6()(64bit) \
 libX11.so.6()(64bit) \
 libatk-1.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libdconf.so.1()(64bit) \
 libgdk-3.so.0()(64bit) \

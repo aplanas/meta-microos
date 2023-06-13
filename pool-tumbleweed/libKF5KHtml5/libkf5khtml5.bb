@@ -15,7 +15,6 @@ libKF5KHtml5(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Archive.so.5()(64bit) \
 libKF5Codecs.so.5()(64bit) \
 libKF5Completion.so.5()(64bit) \
@@ -56,25 +55,15 @@ libQt5X11Extras.so.5(Qt_5)(64bit) \
 libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgif.so.7()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libphonon4qt5.so.4()(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

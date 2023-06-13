@@ -16,9 +16,8 @@ RPROVIDES:${PN} += "pcre2-tools \
 pcre2-tools(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libedit.so.0()(64bit) \
 libpcre2-16.so.0()(64bit) \
 libpcre2-32.so.0()(64bit) \

@@ -15,8 +15,7 @@ zathura-plugin-ps(aarch-64) \
 zathura-ps-plugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgirara-gtk3.so.3()(64bit) \
 libspectre.so.1()(64bit) \

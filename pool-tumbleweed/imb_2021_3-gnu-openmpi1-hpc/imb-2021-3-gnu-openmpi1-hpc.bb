@@ -14,18 +14,10 @@ imb_2021_3-gnu-openmpi1-hpc(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libopenmpi1-gnu-hpc \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 lua-lmod"
 
 inherit rpm

@@ -25,7 +25,6 @@ lxqt-session(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5WindowSystem.so.5()(64bit) \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
@@ -39,14 +38,11 @@ libQt5X11Extras.so.5()(64bit) \
 libQt5X11Extras.so.5(Qt_5)(64bit) \
 libQt5Xdg.so.3()(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblxqt.so.1()(64bit) \
 libprocps.so.8()(64bit) \
 libprocps.so.8(LIBPROCPS_0)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 libudev.so.1()(64bit) \
 libudev.so.1(LIBUDEV_183)(64bit) \
 qtxdg-tools \

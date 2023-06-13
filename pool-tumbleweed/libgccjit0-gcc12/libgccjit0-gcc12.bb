@@ -39,7 +39,7 @@ libgccjit0-gcc12(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gcc12 \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libisl.so.23()(64bit) \
 libmpc.so.3()(64bit) \

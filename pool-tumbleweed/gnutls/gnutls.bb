@@ -14,8 +14,7 @@ gnutls(aarch-64)"
 
 RDEPENDS:${PN} += "crypto-policies \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgnutls-dane.so.0()(64bit) \
 libgnutls-dane.so.0(DANE_0_0)(64bit) \
 libgnutls-dane0 \
@@ -37,7 +36,6 @@ libgnutls.so.30(GNUTLS_3_7_4)(64bit) \
 libgnutls.so.30(GNUTLS_PRIVATE_3_4)(64bit) \
 libjitterentropy3 \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libtasn1.so.6()(64bit) \
 libtasn1.so.6(LIBTASN1_0_3)(64bit)"
 

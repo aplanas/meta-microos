@@ -16,6 +16,6 @@ RPROVIDES:${PN} += "src_vipa \
 src_vipa(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/bash \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

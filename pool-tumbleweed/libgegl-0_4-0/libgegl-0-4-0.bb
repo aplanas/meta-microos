@@ -17,15 +17,13 @@ libgegl-0_4-0(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gegl-0_4 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbabl-0.1.so.0()(64bit) \
 libbabl-0.1.so.0(V0_1_0)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

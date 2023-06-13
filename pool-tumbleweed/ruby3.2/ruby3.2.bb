@@ -480,27 +480,19 @@ rubygem(zlib)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libffi.so.8()(64bit) \
-libffi.so.8(LIBFFI_BASE_8.0)(64bit) \
-libffi.so.8(LIBFFI_CLOSURE_8.0)(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libncurses.so.6()(64bit) \
 libreadline.so.8()(64bit) \
 libruby3.2.so.3.2()(64bit) \
 libruby3_2-3_2 \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libyaml-0.so.2()(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.2)(64bit) \
-libz.so.1(ZLIB_1.2.9)(64bit) \
 ruby-common \
 update-alternatives"
 

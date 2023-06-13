@@ -20,6 +20,6 @@ mDNSResponder-lib"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libavahi-client.so.3()(64bit) \
 libavahi-common.so.3()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

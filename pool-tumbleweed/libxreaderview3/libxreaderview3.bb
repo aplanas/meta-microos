@@ -14,9 +14,8 @@ libxreaderview3(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatk-1.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgailutil-3.so.0()(64bit) \
 libgdk-3.so.0()(64bit) \
@@ -25,7 +24,6 @@ libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libwebkit2gtk-4.0.so.37()(64bit) \
 libxreaderdocument.so.3()(64bit)"

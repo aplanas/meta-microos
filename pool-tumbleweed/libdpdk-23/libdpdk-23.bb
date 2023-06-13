@@ -423,52 +423,17 @@ librte_vhost.so.23(INTERNAL)(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \
-libatomic.so.1(LIBATOMIC_1.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libelf.so.1()(64bit) \
-libelf.so.1(ELFUTILS_1.0)(64bit) \
 libfdt.so.1()(64bit) \
-libfdt.so.1(LIBFDT_1.2)(64bit) \
 libibverbs.so.1()(64bit) \
-libibverbs.so.1(IBVERBS_1.0)(64bit) \
-libibverbs.so.1(IBVERBS_1.1)(64bit) \
-libibverbs.so.1(IBVERBS_1.10)(64bit) \
-libibverbs.so.1(IBVERBS_1.8)(64bit) \
 libjansson.so.4()(64bit) \
-libjansson.so.4(libjansson.so.4)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmlx4.so.1()(64bit) \
-libmlx4.so.1(MLX4_1.0)(64bit) \
 libmlx5.so.1()(64bit) \
-libmlx5.so.1(MLX5_1.0)(64bit) \
-libmlx5.so.1(MLX5_1.1)(64bit) \
-libmlx5.so.1(MLX5_1.10)(64bit) \
-libmlx5.so.1(MLX5_1.11)(64bit) \
-libmlx5.so.1(MLX5_1.12)(64bit) \
-libmlx5.so.1(MLX5_1.13)(64bit) \
-libmlx5.so.1(MLX5_1.14)(64bit) \
-libmlx5.so.1(MLX5_1.15)(64bit) \
-libmlx5.so.1(MLX5_1.16)(64bit) \
-libmlx5.so.1(MLX5_1.17)(64bit) \
-libmlx5.so.1(MLX5_1.19)(64bit) \
-libmlx5.so.1(MLX5_1.2)(64bit) \
-libmlx5.so.1(MLX5_1.20)(64bit) \
-libmlx5.so.1(MLX5_1.21)(64bit) \
-libmlx5.so.1(MLX5_1.24)(64bit) \
-libmlx5.so.1(MLX5_1.3)(64bit) \
-libmlx5.so.1(MLX5_1.6)(64bit) \
-libmlx5.so.1(MLX5_1.7)(64bit) \
-libmlx5.so.1(MLX5_1.8)(64bit) \
-libmlx5.so.1(MLX5_1.9)(64bit) \
 libnuma.so.1()(64bit) \
-libnuma.so.1(libnuma_1.1)(64bit) \
-libnuma.so.1(libnuma_1.2)(64bit) \
 libpcap.so.1()(64bit) \
 libz.so.1()(64bit)"
 

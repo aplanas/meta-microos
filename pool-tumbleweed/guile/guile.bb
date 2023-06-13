@@ -15,10 +15,8 @@ guile(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 fileutils \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libguile-3.0.so.1()(64bit) \
-libguile-3.0.so.1(GUILE_2.0)(64bit) \
 sh-utils"
 
 inherit rpm

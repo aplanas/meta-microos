@@ -20,24 +20,18 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libao.so.4()(64bit) \
-libao.so.4(LIBAO4_1.1.0)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgtk-x11-2.0.so.0()(64bit) \
 libjack.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libncurses.so.6()(64bit) \
-libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) \
 libogg.so.0()(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
@@ -45,8 +39,6 @@ libslang.so.2()(64bit) \
 libslang.so.2(SLANG2)(64bit) \
 libspeex.so.1()(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
 libvorbis.so.0()(64bit) \
 libvorbisenc.so.2()(64bit)"
 

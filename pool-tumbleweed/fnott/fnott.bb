@@ -13,15 +13,12 @@ fnott \
 fnott(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libfcft.so.4()(64bit) \
 libfontconfig.so.1()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpixman-1.so.0()(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \

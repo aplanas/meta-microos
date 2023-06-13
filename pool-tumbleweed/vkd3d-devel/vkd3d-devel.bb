@@ -17,11 +17,8 @@ vkd3d-devel(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
 libvkd3d-shader.so.1()(64bit) \
 libvkd3d-shader.so.1(VKD3D_1_0)(64bit) \
 libvkd3d-utils1 \

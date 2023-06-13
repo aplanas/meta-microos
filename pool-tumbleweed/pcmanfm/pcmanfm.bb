@@ -20,10 +20,9 @@ RDEPENDS:${PN} += "/bin/sh \
 gvfs \
 gvfs-backends \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libatk-1.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libfm \
 libfm-gtk.so.4()(64bit) \

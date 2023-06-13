@@ -15,10 +15,8 @@ python39-slixmpp(aarch-64) \
 python3dist(slixmpp)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libidn.so.12()(64bit) \
-libidn.so.12(LIBIDN_1.0)(64bit) \
 python(abi) \
 python39-aiohttp \
 python39-dnspython"

@@ -14,37 +14,13 @@ libtelepathy-farstream3(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdbus-glib-1.so.2()(64bit) \
 libfarstream-0.2.so.5()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgstreamer-1.0.so.0()(64bit) \
-libtelepathy-glib.so.0()(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.11.0)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.11.13)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.11.3)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.13.14)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.13.2)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.13.3)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.13.4)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.14.3)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.17.5)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.0)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.1)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.15)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.17)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.18)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.2)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.23)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.26)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.28)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.29)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.34)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.6)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.9)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.9.2)(64bit)"
+libtelepathy-glib.so.0()(64bit)"
 
 inherit rpm

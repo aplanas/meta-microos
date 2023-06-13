@@ -30,9 +30,8 @@ dbus(org.freedesktop.Notifications) \
 dbus-1-python3 \
 gdk-pixbuf-loader-rsvg \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbluetooth.so.3()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 obex-data-server \
 polkit \
 pulseaudio-utils \

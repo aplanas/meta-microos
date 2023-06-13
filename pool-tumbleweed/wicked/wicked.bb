@@ -21,12 +21,10 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libnl-3.so.200()(64bit) \
 libnl-3.so.200(libnl_3)(64bit) \
 libnl-route-3.so.200()(64bit) \

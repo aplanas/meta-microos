@@ -19,17 +19,12 @@ RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc-devel \
 hdf5-gnu-openmpi4-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcurl-devel \
 libcurl.so.4()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libnetcdf_4_9_2-gnu-openmpi4-hpc \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 openmpi4-gnu-hpc-devel \
 pkgconfig \
 zlib-devel"

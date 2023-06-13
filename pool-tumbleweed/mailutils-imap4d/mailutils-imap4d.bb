@@ -12,10 +12,8 @@ RPROVIDES:${PN} += "mailutils-imap4d \
 mailutils-imap4d(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgsasl.so.7()(64bit) \
-libgsasl.so.7(LIBGSASL_1.1)(64bit) \
 libgssapi_krb5.so.2()(64bit) \
 libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
 libkrb5.so.3()(64bit) \

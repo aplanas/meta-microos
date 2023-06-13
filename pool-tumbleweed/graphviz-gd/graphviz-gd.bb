@@ -15,14 +15,12 @@ libgvplugin_gd.so.6()(64bit)"
 RDEPENDS:${PN} += "/bin/sh \
 graphviz \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcgraph.so.6()(64bit) \
 libgd.so.3()(64bit) \
 libgvc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpathplan.so.4()(64bit)"
 
 inherit rpm

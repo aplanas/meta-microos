@@ -11,7 +11,7 @@ RPM_HASH = "c808ff6434cfb6a9b40a65692403dbbac38730d6fb086b5392f28818ff477b2a23ca
 RPROVIDES:${PN} += "cpp12 \
 cpp12(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.36)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libisl.so.23()(64bit) \
 libmpc.so.3()(64bit) \

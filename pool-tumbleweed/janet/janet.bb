@@ -14,12 +14,7 @@ RPROVIDES:${PN} += "janet \
 janet(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.23)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit)"
+libc.so.6()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

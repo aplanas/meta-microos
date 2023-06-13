@@ -18,13 +18,9 @@ RPROVIDES:${PN} += "webkit-jsc-6.0 \
 webkit-jsc-6.0(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libjavascriptcoregtk-6.0.so.1()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

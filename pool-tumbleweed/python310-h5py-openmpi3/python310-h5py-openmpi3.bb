@@ -19,8 +19,7 @@ python3dist(h5py)"
 
 RDEPENDS:${PN} += "hdf5-openmpi3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libhdf5.so.200()(64bit) \
 libhdf5_hl.so.200()(64bit) \
 libmpi.so.40()(64bit) \

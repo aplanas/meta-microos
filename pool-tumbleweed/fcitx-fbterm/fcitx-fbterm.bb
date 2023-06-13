@@ -12,7 +12,7 @@ fcitx-fbterm(aarch-64) \
 locale(fbterm:ko;zh_CN;zh_SG)"
 
 RDEPENDS:${PN} += "/bin/bash \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfcitx-gclient.so.1()(64bit) \
 libfcitx-utils.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

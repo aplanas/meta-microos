@@ -16,25 +16,15 @@ libsox3(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \
 libao.so.4()(64bit) \
-libao.so.4(LIBAO4_1.1.0)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_1.0)(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit) \
-libgomp.so.1(OMP_3.0)(64bit) \
 libgsm.so.1()(64bit) \
 libid3tag.so.0.16.2()(64bit) \
 libltdl.so.7()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmad.so.0()(64bit) \
 libmagic.so.1()(64bit) \
 libmp3lame.so.0()(64bit) \
@@ -49,7 +39,6 @@ libpulse-simple.so.0(PULSE_0)(64bit) \
 libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
 libsndfile.so.1()(64bit) \
-libsndfile.so.1(libsndfile.so.1.0)(64bit) \
 libtwolame.so.0()(64bit) \
 libvorbis.so.0()(64bit) \
 libvorbisenc.so.2()(64bit) \

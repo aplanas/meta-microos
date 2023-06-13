@@ -212,7 +212,6 @@ mimehandler(image/x-sony-srf)"
 RDEPENDS:${PN} += "/bin/bash \
 iso-codes \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libIex-3_1.so.30()(64bit) \
 libImath-3_1.so.29()(64bit) \
 libOpenEXR-3_1.so.30()(64bit) \
@@ -220,7 +219,7 @@ libSDL2-2.0.so.0()(64bit) \
 libX11.so.6()(64bit) \
 libXrandr.so.2()(64bit) \
 libavif.so.15()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcolord-gtk.so.1()(64bit) \
 libcolord.so.2()(64bit) \
@@ -228,9 +227,6 @@ libcups.so.2()(64bit) \
 libcurl.so.4()(64bit) \
 libexiv2.so.27()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
-libgcc_s.so.1(GCC_4.0.0)(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
@@ -239,12 +235,6 @@ libgmic.so.3()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_1.0)(64bit) \
-libgomp.so.1(GOMP_2.0)(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(GOMP_4.5)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit) \
-libgomp.so.1(OMP_3.0)(64bit) \
 libgphoto2.so.6()(64bit) \
 libgphoto2_port.so.12()(64bit) \
 libgphoto2_port.so.12(LIBGPHOTO2_5_0)(64bit) \
@@ -253,9 +243,7 @@ libheif.so.1()(64bit) \
 libicui18n.so.73()(64bit) \
 libicuuc.so.73()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libjxl.so.0.8()(64bit) \
 libjxl.so.0.8(JXL_0)(64bit) \
 libjxl_threads.so.0.8()(64bit) \
@@ -264,10 +252,6 @@ liblcms2.so.2()(64bit) \
 liblensfun.so.1()(64bit) \
 liblua5.4.so.5()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libopenjp2.so.7()(64bit) \
 libosmgpsmap-1.0.so.1()(64bit) \
 libpango-1.0.so.0()(64bit) \
@@ -281,24 +265,10 @@ libsecret-1.so.0()(64bit) \
 libsoup-2.4.so.1()(64bit) \
 libsqlite3.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 libwebp.so.7()(64bit) \
 libwebpmux.so.3()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

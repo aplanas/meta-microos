@@ -18,28 +18,13 @@ libraw_r.so.23()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_1.0)(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(GOMP_4.5)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 liblcms2.so.2()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

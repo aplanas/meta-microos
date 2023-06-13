@@ -16,11 +16,10 @@ metainfo(3omns.appdata.xml)"
 
 RDEPENDS:${PN} += "bitstream-vera-fonts \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \
 libSDL2_image-2.0.so.0()(64bit) \
 libSDL2_ttf-2.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblua5.3.so.5()(64bit)"
 
 inherit rpm

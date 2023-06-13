@@ -14,17 +14,10 @@ RPROVIDES:${PN} += "lua-clingo \
 lua-clingo(aarch-64)"
 
 RDEPENDS:${PN} += "clingo \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libclingo.so.4()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 liblua5.4.so.5()(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

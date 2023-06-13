@@ -24,23 +24,16 @@ rxvt-unicode \
 rxvt-unicode(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXft.so.2()(64bit) \
 libXrender.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfontconfig.so.1()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libperl.so()(64bit) \
 libptytty.so.0()(64bit) \
 libstartup-notification-1.so.0()(64bit) \

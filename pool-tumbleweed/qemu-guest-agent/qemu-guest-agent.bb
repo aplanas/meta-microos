@@ -14,19 +14,14 @@ qemu-guest-agent(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 group(kvm) \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libnuma.so.1()(64bit) \
-libnuma.so.1(libnuma_1.2)(64bit) \
-libnuma.so.1(libnuma_1.3)(64bit) \
 libudev.so.1()(64bit) \
 libudev.so.1(LIBUDEV_183)(64bit) \
 liburing.so.2()(64bit) \
-liburing.so.2(LIBURING_2.0)(64bit) \
 udev"
 
 inherit rpm

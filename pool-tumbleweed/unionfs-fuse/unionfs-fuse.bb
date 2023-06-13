@@ -17,10 +17,7 @@ RPROVIDES:${PN} += "unionfs-fuse \
 unionfs-fuse(aarch-64)"
 
 RDEPENDS:${PN} += "fuse \
-libc.so.6(GLIBC_2.34)(64bit) \
-libfuse.so.2()(64bit) \
-libfuse.so.2(FUSE_2.5)(64bit) \
-libfuse.so.2(FUSE_2.6)(64bit) \
-libfuse.so.2(FUSE_2.8)(64bit)"
+libc.so.6()(64bit) \
+libfuse.so.2()(64bit)"
 
 inherit rpm

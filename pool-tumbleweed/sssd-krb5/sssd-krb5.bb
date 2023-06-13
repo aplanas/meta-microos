@@ -13,16 +13,11 @@ sssd-krb5 \
 sssd-krb5(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libsss_debug.so()(64bit) \
-libsss_debug.so(V_2.9.0)(64bit) \
 libsss_krb5_common.so()(64bit) \
-libsss_krb5_common.so(V_2.9.0)(64bit) \
 libsss_util.so()(64bit) \
-libsss_util.so(V_2.9.0)(64bit) \
 libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit) \
 sssd-krb5-common"
 
 inherit rpm

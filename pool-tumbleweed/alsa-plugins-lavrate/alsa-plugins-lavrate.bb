@@ -14,13 +14,9 @@ alsa-plugins-lavrate(aarch-64) \
 libasound_module_rate_lavrate.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
 libavutil.so.58()(64bit) \
-libavutil.so.58(LIBAVUTIL_58.2_SUSE)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
-libswresample.so.4()(64bit) \
-libswresample.so.4(LIBSWRESAMPLE_4.10_SUSE)(64bit)"
+libc.so.6()(64bit) \
+libswresample.so.4()(64bit)"
 
 inherit rpm

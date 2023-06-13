@@ -17,10 +17,8 @@ libratbag-tools(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblur.so.3()(64bit) \
-liblur.so.3(LIBLUR_0.4.0)(64bit) \
 python3-evdev \
 ratbagd"
 

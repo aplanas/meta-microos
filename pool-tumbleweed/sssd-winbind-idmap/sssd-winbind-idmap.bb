@@ -12,14 +12,9 @@ RPROVIDES:${PN} += "sssd-winbind-idmap \
 sssd-winbind-idmap(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libsss_idmap.so.0()(64bit) \
-libsss_idmap.so.0(SSS_IDMAP_0.4)(64bit) \
 libsss_nss_idmap.so.0()(64bit) \
-libsss_nss_idmap.so.0(SSS_NSS_IDMAP_0.0.1)(64bit) \
-libsss_nss_idmap.so.0(SSS_NSS_IDMAP_0.5.0)(64bit) \
-libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit)"
+libtalloc.so.2()(64bit)"
 
 inherit rpm

@@ -14,9 +14,8 @@ libspice-client-gtk-3_0-5(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libepoxy.so.0()(64bit) \
 libgdk-3.so.0()(64bit) \
@@ -28,7 +27,6 @@ libgstreamer-1.0.so.0()(64bit) \
 libgstvideo-1.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libphodav-3.0.so.0()(64bit) \
-libphodav-3.0.so.0(LIBPHODAV1_0.0)(64bit) \
 libspice-client-glib-2.0.so.8()(64bit) \
 libspice-client-glib-2.0.so.8(SPICEGTK_1)(64bit) \
 libwayland-client.so.0()(64bit) \

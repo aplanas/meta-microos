@@ -14,8 +14,6 @@ libcerf2 \
 libcerf2(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

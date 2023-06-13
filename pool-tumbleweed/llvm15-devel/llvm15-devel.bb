@@ -29,28 +29,14 @@ rpm_macro(_llvm_with_valgrind)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM15 \
 libLTO15 \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libomp15-devel \
 libstdc++-devel \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.5)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 libtool \
 llvm15 \
 llvm15-gold \

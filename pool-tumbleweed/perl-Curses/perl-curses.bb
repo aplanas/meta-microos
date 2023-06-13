@@ -24,19 +24,12 @@ perl-Curses \
 perl-Curses(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libform.so.5()(64bit) \
-libform.so.5(NCURSES_5.0.19991023)(64bit) \
 libmenu.so.5()(64bit) \
-libmenu.so.5(NCURSES_5.0.19991023)(64bit) \
 libncursesw.so.5()(64bit) \
-libncursesw.so.5(NCURSESW_5.1.20000708)(64bit) \
-libncursesw.so.5(NCURSESW_5.3.20021019)(64bit) \
 libpanel.so.5()(64bit) \
-libpanel.so.5(NCURSES_5.0.19991023)(64bit) \
 libtinfo.so.5()(64bit) \
-libtinfo.so.5(NCURSES_TINFO_5.0.19991023)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -14,13 +14,11 @@ libvirglrenderer1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdrm.so.2()(64bit) \
 libepoxy.so.0()(64bit) \
 libgbm.so.1()(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

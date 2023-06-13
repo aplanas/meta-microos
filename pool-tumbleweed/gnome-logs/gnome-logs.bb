@@ -16,10 +16,9 @@ metainfo(org.gnome.Logs.appdata.xml)"
 
 RDEPENDS:${PN} += "gsettings-desktop-schemas \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libadwaita-1.so.0()(64bit) \
 libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \

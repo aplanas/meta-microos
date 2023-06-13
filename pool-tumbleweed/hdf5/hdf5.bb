@@ -16,8 +16,7 @@ hdf5(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libhdf5-200 \
 libhdf5.so.200()(64bit) \
 libhdf5_cpp200 \

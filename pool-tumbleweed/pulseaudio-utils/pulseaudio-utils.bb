@@ -19,15 +19,13 @@ pulseaudio-utils(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libpulse-mainloop-glib0 \
 libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
 libpulse0 \
 libpulsecommon-16.1.so()(64bit) \
 libsndfile.so.1()(64bit) \
-libsndfile.so.1(libsndfile.so.1.0)(64bit) \
 libxcb.so.1()(64bit) \
 pulseaudio-daemon"
 

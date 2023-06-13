@@ -11,6 +11,6 @@ RPROVIDES:${PN} += "containerized-data-importer-cloner \
 containerized-data-importer-cloner(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/bash \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

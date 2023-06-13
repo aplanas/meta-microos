@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "libjabber_http_file_upload.so()(64bit) \
 libpurple-plugin-xmpp-http-upload \
 libpurple-plugin-xmpp-http-upload(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libjabber.so.0()(64bit) \

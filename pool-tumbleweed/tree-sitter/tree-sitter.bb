@@ -87,11 +87,8 @@ bundled(rust-crate:which) \
 tree-sitter \
 tree-sitter(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libtree-sitter0"
 
 inherit rpm

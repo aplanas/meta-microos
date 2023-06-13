@@ -19,9 +19,8 @@ xfce4-terminal \
 xfce4-terminal(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
@@ -31,7 +30,6 @@ libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libpango-1.0.so.0()(64bit) \
 libutempter.so.0()(64bit) \
-libutempter.so.0(UTEMPTER_1.1)(64bit) \
 libvte-2.91.so.0()(64bit) \
 libxfce4kbd-private-3.so.0()(64bit) \
 libxfce4ui-2.so.0()(64bit) \

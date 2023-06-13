@@ -11,11 +11,8 @@ RPM_HASH = "e9d5e672e5a181955594534b5b7f775e632dd7c06f90d923e2cb46b7ceef0abb82e3
 RPROVIDES:${PN} += "exa \
 exa(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

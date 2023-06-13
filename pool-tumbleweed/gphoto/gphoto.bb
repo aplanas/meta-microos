@@ -21,16 +21,13 @@ RPROVIDES:${PN} += "gphoto \
 gphoto(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcdk.so.6.2.4()(64bit) \
-libcdk.so.6.2.4(CDK_2.0.0)(64bit) \
 libexif.so.12()(64bit) \
 libgphoto2.so.6()(64bit) \
 libgphoto2_port.so.12()(64bit) \
 libgphoto2_port.so.12(LIBGPHOTO2_5_0)(64bit) \
 libncurses.so.6()(64bit) \
-libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) \
 libpopt.so.0()(64bit) \
 libpopt.so.0(LIBPOPT_0)(64bit) \
 libreadline.so.8()(64bit)"

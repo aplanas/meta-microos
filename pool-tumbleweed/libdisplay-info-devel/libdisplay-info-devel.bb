@@ -16,12 +16,9 @@ pkgconfig(libdisplay-info)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdisplay-info.so.1()(64bit) \
 libdisplay-info1 \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

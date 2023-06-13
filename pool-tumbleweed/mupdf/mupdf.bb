@@ -30,28 +30,20 @@ mupdf \
 mupdf(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libXrandr.so.2()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libcurl.so.4()(64bit) \
 libfreetype.so.6()(64bit) \
 libharfbuzz.so.0()(64bit) \
 libjbig2dec.so.0()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libopenjp2.so.7()(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit) \
 xdg-utils"
 
 inherit rpm

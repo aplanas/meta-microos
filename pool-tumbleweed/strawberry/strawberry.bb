@@ -64,12 +64,10 @@ strawberry \
 strawberry(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Concurrent.so.6()(64bit) \
 libQt6Concurrent.so.6(Qt_6)(64bit) \
 libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Core.so.6(Qt_6.5)(64bit) \
 libQt6DBus.so.6()(64bit) \
 libQt6DBus.so.6(Qt_6)(64bit) \
 libQt6Gui.so.6()(64bit) \
@@ -82,15 +80,12 @@ libQt6Widgets.so.6()(64bit) \
 libQt6Widgets.so.6(Qt_6)(64bit) \
 libX11.so.6()(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcdio.so.19()(64bit) \
 libcdio.so.19(CDIO_19)(64bit) \
 libchromaprint.so.1()(64bit) \
 libfftw3.so.3()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -106,27 +101,12 @@ libgsttag-1.0.so.0()(64bit) \
 libicui18n.so.73()(64bit) \
 libicuuc.so.73()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmtp.so.9()(64bit) \
 libprotobuf-3.21.12.so()(64bit) \
 libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
 libsqlite3.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.13)(64bit) \
-libstdc++.so.6(CXXABI_1.3.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libtag.so.1()(64bit) \
 qt6-sql-sqlite"
 

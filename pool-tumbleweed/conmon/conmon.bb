@@ -12,7 +12,7 @@ RPM_HASH = "56a54f9b0658217160c1377150ee2621fcfa7b9508d0dfaebc777a0d6fac18da6fa8
 RPROVIDES:${PN} += "conmon \
 conmon(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit)"

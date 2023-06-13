@@ -14,8 +14,7 @@ xf86-video-amdgpu(aarch-64)"
 
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdrm_amdgpu.so.1()(64bit) \
 libgbm.so.1()(64bit) \
 libudev.so.1()(64bit) \

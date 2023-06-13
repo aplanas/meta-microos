@@ -10,18 +10,12 @@ RPM_HASH = "5ff0e75ee85c5762c57fd1f1f8b38aff057b527f1367497f92ea0950c0be8640b887
 RPROVIDES:${PN} += "gprofng \
 gprofng(aarch-64) \
 libgp-collector.so()(64bit) \
-libgp-collector.so(GLIBC_2.17)(64bit) \
 libgp-collectorAPI.so()(64bit) \
-libgp-collectorAPI.so(GLIBC_2.17)(64bit) \
 libgp-heap.so()(64bit) \
-libgp-heap.so(GLIBC_2.17)(64bit) \
 libgp-iotrace.so()(64bit) \
-libgp-iotrace.so(GLIBC_2.17)(64bit) \
-libgp-sync.so()(64bit) \
-libgp-sync.so(GLIBC_2.17)(64bit)"
+libgp-sync.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

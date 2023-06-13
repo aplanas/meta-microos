@@ -33,8 +33,7 @@ RDEPENDS:${PN} += "(kmod(nbd.ko) if kernel) \
 coreutils \
 fillup \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \

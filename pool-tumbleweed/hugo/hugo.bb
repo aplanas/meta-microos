@@ -19,7 +19,7 @@ RPM_HASH = "9c66590cc9d333d494ce3f4ac368333d83a65b87389c9793cba470217f10721d47a0
 RPROVIDES:${PN} += "hugo \
 hugo(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libsass-3.6.5.so.1()(64bit) \
 libwebp.so.7()(64bit)"
 

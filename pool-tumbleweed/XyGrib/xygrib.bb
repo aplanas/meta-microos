@@ -18,7 +18,6 @@ application() \
 application(XyGrib.desktop)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libQt5Gui.so.5()(64bit) \
@@ -30,24 +29,15 @@ libQt5PrintSupport.so.5(Qt_5)(64bit) \
 libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libnova-0.15.so.0()(64bit) \
 libopenjp2.so.7()(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libproj.so.25()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

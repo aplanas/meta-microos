@@ -15,8 +15,7 @@ metainfo(org.gnome.Evolution-pst.metainfo.xml)"
 
 RDEPENDS:${PN} += "evolution \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcamel-1.2.so.64()(64bit) \
 libebook-1.2.so.21()(64bit) \
 libebook-contacts-1.2.so.4()(64bit) \

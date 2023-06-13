@@ -24,7 +24,7 @@ RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 binutils-gold \
 gcc \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 update-alternatives"
 
 inherit rpm

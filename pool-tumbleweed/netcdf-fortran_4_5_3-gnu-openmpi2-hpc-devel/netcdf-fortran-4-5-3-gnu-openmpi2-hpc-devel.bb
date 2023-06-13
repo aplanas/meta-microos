@@ -19,8 +19,7 @@ netcdf-fortran_4_5_3-gnu-openmpi2-hpc-devel(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcurl-devel \
 libgfortran.so.5()(64bit) \
 libgfortran.so.5(GFORTRAN_10)(64bit) \

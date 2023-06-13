@@ -15,8 +15,7 @@ xviewer-plugin-map(aarch-64) \
 xviewer-plugins:/usr/lib64/xviewer/plugins/map.plugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libchamplain-0.12.so.0()(64bit) \
 libchamplain-gtk-0.12.so.0()(64bit) \
 libclutter-1.0.so.0()(64bit) \

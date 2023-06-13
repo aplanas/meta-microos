@@ -13,10 +13,8 @@ policycoreutils-devel(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/make \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 python3-distro \
 python3-policycoreutils"
 

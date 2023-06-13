@@ -15,20 +15,12 @@ libvirt-lock-sanlock"
 RDEPENDS:${PN} += "/bin/sh \
 augeas \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libsanlock_client.so.1()(64bit) \
 libvirt-libs \
 libvirt.so.0()(64bit) \
-libvirt.so.0(LIBVIRT_0.0.3)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.1)(64bit) \
-libvirt.so.0(LIBVIRT_0.4.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.7.3)(64bit) \
-libvirt.so.0(LIBVIRT_PRIVATE_9.4.0)(64bit) \
 sanlock"
 
 inherit rpm

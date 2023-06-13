@@ -13,16 +13,14 @@ application() \
 application(gamt.desktop)"
 
 RDEPENDS:${PN} += "amtterm \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libgdk-3.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libpango-1.0.so.0()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libvte-2.91.so.0()(64bit)"
 
 inherit rpm

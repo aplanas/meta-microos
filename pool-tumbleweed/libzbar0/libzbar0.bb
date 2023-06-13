@@ -18,14 +18,12 @@ libzbar0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXv.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libv4l2.so.0()(64bit)"
 
 inherit rpm

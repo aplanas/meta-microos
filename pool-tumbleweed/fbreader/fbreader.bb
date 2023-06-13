@@ -19,18 +19,9 @@ fbreader \
 fbreader(aarch-64) \
 mimehandler(application/x-fictionbook+xml)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libsqlite3.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libzlcore.so.0.99()(64bit) \
 libzltext.so.0.99()(64bit) \
 libzlui.so.0.99()(64bit)"

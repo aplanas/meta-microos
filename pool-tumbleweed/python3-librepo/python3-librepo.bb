@@ -11,8 +11,7 @@ RPROVIDES:${PN} += "python3-librepo \
 python3-librepo(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libpython3.10.so.1.0()(64bit) \
 librepo.so.0()(64bit) \

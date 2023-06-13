@@ -13,7 +13,6 @@ ghc-clientsession(aarch-64) \
 libHSclientsession-0.9.1.2-Jnvj5vMN6iR9xGMf6HxcGE-ghc9.4.5.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbase64-bytestring-1.2.1.0-8KbzJpmSQbYKTeew1rv0hh-ghc9.4.5.so()(64bit) \
@@ -48,17 +47,10 @@ libHSunix-2.7.3-ghc9.4.5.so()(64bit) \
 libHSvector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp-ghc9.4.5.so()(64bit) \
 libHSvector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s-ghc9.4.5.so()(64bit) \
 libatomic.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libffi.so.8()(64bit) \
-libffi.so.8(LIBFFI_BASE_8.0)(64bit) \
-libffi.so.8(LIBFFI_CLOSURE_8.0)(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libnuma.so.1()(64bit) \
-libnuma.so.1(libnuma_1.1)(64bit) \
-libnuma.so.1(libnuma_1.2)(64bit)"
+libnuma.so.1()(64bit)"
 
 inherit rpm

@@ -14,14 +14,11 @@ libvncserver1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 liblzo2.so.2()(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \

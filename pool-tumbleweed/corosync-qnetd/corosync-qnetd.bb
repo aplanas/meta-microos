@@ -16,14 +16,10 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/sbin/useradd \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
 libssl3.so()(64bit) \
-libssl3.so(NSS_3.2)(64bit) \
-libssl3.so(NSS_3.7.4)(64bit) \
 mozilla-nss-tools"
 
 inherit rpm

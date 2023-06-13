@@ -17,24 +17,15 @@ libRlapack.so()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgfortran.so.5()(64bit) \
 libgfortran.so.5(GFORTRAN_8)(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit) \
 libicui18n.so.73()(64bit) \
 libicuuc.so.73()(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.23)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libpcre2-8.so.0()(64bit) \
 libreadline.so.8()(64bit) \
 libz.so.1()(64bit)"

@@ -21,15 +21,13 @@ libEGL_mesa.so.0()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11-xcb.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdrm.so.2()(64bit) \
 libgbm.so.1()(64bit) \
 libglapi.so.0()(64bit) \
 libglvnd \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libwayland-client.so.0()(64bit) \
 libwayland-server.so.0()(64bit) \
 libxcb-dri2.so.0()(64bit) \

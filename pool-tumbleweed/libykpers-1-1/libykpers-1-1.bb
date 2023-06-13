@@ -9,35 +9,13 @@ RPM_HASH = "815668b418d0c81eb83c167654be1d37540133d55d2fbdd7d9d39dcb23e5ffaaa343
 
 RPROVIDES:${PN} += "libykpers-1-1 \
 libykpers-1-1(aarch-64) \
-libykpers-1.so.1()(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.0)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.10)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.11)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.12)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.13)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.14)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.15)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.16)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.17)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.18)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.19)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.20)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.4)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.5)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.6)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.7)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.8)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.9)(64bit)"
+libykpers-1.so.1()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libjson-c.so.5()(64bit) \
-libjson-c.so.5(JSONC_0.14)(64bit) \
 libusb-1.0.so.0()(64bit) \
-libyubikey.so.0()(64bit) \
-libyubikey.so.0(YUBIKEY_1.0)(64bit) \
-libyubikey.so.0(YUBIKEY_1.5)(64bit)"
+libyubikey.so.0()(64bit)"
 
 inherit rpm

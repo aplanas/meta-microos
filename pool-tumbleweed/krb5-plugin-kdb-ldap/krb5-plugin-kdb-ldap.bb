@@ -20,8 +20,7 @@ libkdb_ldap.so.1(kdb_ldap_1_MIT)(64bit)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 krb5-server \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcom_err.so.2()(64bit) \
 libgssrpc.so.4()(64bit) \
 libgssrpc.so.4(gssrpc_4_MIT)(64bit) \
@@ -35,7 +34,6 @@ libkrb5.so.3()(64bit) \
 libkrb5.so.3(krb5_3_MIT)(64bit) \
 libkrb5support.so.0()(64bit) \
 libkrb5support.so.0(krb5support_0_MIT)(64bit) \
-libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit)"
+libldap.so.2()(64bit)"
 
 inherit rpm

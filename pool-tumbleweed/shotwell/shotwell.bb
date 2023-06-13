@@ -89,8 +89,7 @@ shotwell(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \
 libexif.so.12()(64bit) \
@@ -111,10 +110,7 @@ libgstreamer-1.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libgudev-1.0.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libportal-gtk3.so.1()(64bit) \
@@ -126,9 +122,6 @@ libsqlite3.so.0()(64bit) \
 libwebkit2gtk-4.1.so.0()(64bit) \
 libwebp.so.7()(64bit) \
 libwebpdemux.so.2()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.7.3)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

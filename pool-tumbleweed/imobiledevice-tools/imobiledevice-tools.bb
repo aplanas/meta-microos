@@ -13,10 +13,8 @@ imobiledevice-tools(aarch-64) \
 libimobiledevice-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libimobiledevice-1.0.so.6()(64bit) \
 libimobiledevice-1_0-6 \
 libimobiledevice-glue-1.0.so.0()(64bit) \

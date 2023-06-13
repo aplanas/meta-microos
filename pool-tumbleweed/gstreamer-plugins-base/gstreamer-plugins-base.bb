@@ -210,16 +210,12 @@ metainfo(gstreamer-plugins-base.appdata.xml)"
 
 RDEPENDS:${PN} += "gstreamer \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libXi.so.6()(64bit) \
 libXv.so.1()(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libasound.so.2(ALSA_0.9.0rc8)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcdda_interface.so.0()(64bit) \
 libcdda_paranoia.so.0()(64bit) \
@@ -240,11 +236,7 @@ libgstriff-1.0.so.0()(64bit) \
 libgsttag-1.0.so.0()(64bit) \
 libgstvideo-1.0.so.0()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libogg.so.0()(64bit) \
 libopus.so.0()(64bit) \
 liborc-0.4.so.0()(64bit) \
@@ -253,9 +245,7 @@ libpangocairo-1.0.so.0()(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libtheoradec.so.1()(64bit) \
-libtheoradec.so.1(libtheoradec_1.0)(64bit) \
 libtheoraenc.so.1()(64bit) \
-libtheoraenc.so.1(libtheoraenc_1.0)(64bit) \
 libvisual-0.4.so.0()(64bit) \
 libvorbis.so.0()(64bit) \
 libvorbisenc.so.2()(64bit)"

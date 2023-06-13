@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "libnova-devel \
 libnova-devel(aarch-64)"
 
 RDEPENDS:${PN} += "glibc-devel \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libnova-0.15.so.0()(64bit) \
 libnova-0_15-0"
 

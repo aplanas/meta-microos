@@ -11,14 +11,12 @@ RPROVIDES:${PN} += "python39-lalburst \
 python39-lalburst(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgsl.so.25()(64bit) \
 liblal.so.20()(64bit) \
 liblalburst.so.6()(64bit) \
 liblalsupport.so.14()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 python(abi) \
 python39-glue \
 python39-lal \

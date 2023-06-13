@@ -34,10 +34,9 @@ RDEPENDS:${PN} += "/usr/bin/mkdir \
 fillup \
 frozen-bubble-server \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL-1.2.so.0()(64bit) \
 libSDL_mixer-1.2.so.0()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 net-tools \
 perl \
 perl(Alien::SDL) \

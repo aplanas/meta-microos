@@ -22,23 +22,17 @@ libRivet-3_1_7(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHepMC3.so.3()(64bit) \
 libHepMC3search.so.4()(64bit) \
 libYODA-1.9.7.so()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfastjet.so.0()(64bit) \
 libfastjetplugins.so.0()(64bit) \
 libfastjettools.so.0()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgmp.so.10()(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(OMP_1.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

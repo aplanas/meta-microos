@@ -22,8 +22,7 @@ metainfo(gnome-radio.appdata.xml) \
 mimehandler(application/gnome-radio)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libchamplain-0.12.so.0()(64bit) \
 libchamplain-gtk-0.12.so.0()(64bit) \
 libclutter-1.0.so.0()(64bit) \
@@ -37,8 +36,6 @@ libgstplayer-1.0.so.0()(64bit) \
 libgstreamer-1.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libwayland-server.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

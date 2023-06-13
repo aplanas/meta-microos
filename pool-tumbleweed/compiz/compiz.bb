@@ -22,7 +22,6 @@ compiz-branding \
 compiz-decorator \
 compiz-plugins \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libICE.so.6()(64bit) \
 libSM.so.6()(64bit) \
@@ -35,14 +34,11 @@ libXfixes.so.3()(64bit) \
 libXi.so.6()(64bit) \
 libXinerama.so.1()(64bit) \
 libXrandr.so.2()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcompizconfig \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libstartup-notification-1.so.0()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 pciutils"
 
 inherit rpm

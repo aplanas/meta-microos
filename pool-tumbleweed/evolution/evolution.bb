@@ -63,9 +63,8 @@ mimehandler(x-scheme-handler/webcal)"
 
 RDEPENDS:${PN} += "evolution-data-server \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatk-1.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \
 libcamel-1.2.so.64()(64bit) \
@@ -96,32 +95,17 @@ libical.so.3()(64bit) \
 libicalvcal.so.3()(64bit) \
 libjavascriptcoregtk-4.1.so.0()(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libnotify.so.4()(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
-libnss3.so(NSS_3.3)(64bit) \
-libnss3.so(NSS_3.4)(64bit) \
-libnss3.so(NSS_3.5)(64bit) \
-libnss3.so(NSS_3.6)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libsecret-1.so.0()(64bit) \
 libsmime3.so()(64bit) \
-libsmime3.so(NSS_3.12.2)(64bit) \
-libsmime3.so(NSS_3.2)(64bit) \
-libsmime3.so(NSS_3.4)(64bit) \
 libsoup-3.0.so.0()(64bit) \
 libsqlite3.so.0()(64bit) \
 libwebkit2gtk-4.1.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.7.3)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

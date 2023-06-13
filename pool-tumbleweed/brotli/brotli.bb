@@ -21,8 +21,7 @@ RPM_HASH = "1d10e7e95c2108a9e9d4ee06f0b7b5d81016ec31a501bf6cc11c9877f579b1d548b5
 RPROVIDES:${PN} += "brotli \
 brotli(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

@@ -12,12 +12,9 @@ RPROVIDES:${PN} += "openldap2-back-perl \
 openldap2-back-perl(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblber.so.2()(64bit) \
-liblber.so.2(OPENLDAP_2.200)(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
 libperl.so()(64bit) \
 openldap2 \
 perl"

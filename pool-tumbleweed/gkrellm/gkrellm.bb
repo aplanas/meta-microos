@@ -49,13 +49,11 @@ gkrellm \
 gkrellm(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \
 libSM.so.6()(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -63,10 +61,8 @@ libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-x11-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libsensors.so.4()(64bit) \
-libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit)"
+libssl.so.3()(64bit)"
 
 inherit rpm

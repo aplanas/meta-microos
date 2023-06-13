@@ -18,7 +18,7 @@ RDEPENDS:${PN} += "/bin/sh \
 Mesa-demo \
 libQt5Pas.so.1()(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 mangohud \
 replay-sorcery \
 vkbasalt \

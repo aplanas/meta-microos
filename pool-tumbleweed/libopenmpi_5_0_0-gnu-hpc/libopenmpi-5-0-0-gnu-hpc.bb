@@ -25,23 +25,15 @@ libopenmpi_5_0_0-gnu-hpc(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libevent_core-2.1.so.7()(64bit) \
 libfabric.so.1()(64bit) \
-libfabric.so.1(FABRIC_1.0)(64bit) \
-libfabric.so.1(FABRIC_1.1)(64bit) \
-libfabric.so.1(FABRIC_1.3)(64bit) \
-libfabric.so.1(FABRIC_1.5)(64bit) \
 libhwloc.so.15()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libucp.so.0()(64bit) \
 libucs.so.0()(64bit) \
 libuct.so.0()(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit) \
 lua-lmod \
 openmpi_5_0_0-gnu-hpc"
 

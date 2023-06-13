@@ -23,23 +23,17 @@ pureftpd"
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap.so.2()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
 libmariadb.so.3()(64bit) \
 libmariadb.so.3(libmysqlclient_18)(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libpq.so.5()(64bit) \
 libsodium.so.23()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 systemd \
 user(ftp)"
 

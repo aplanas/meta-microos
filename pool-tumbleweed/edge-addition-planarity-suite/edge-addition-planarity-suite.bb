@@ -16,8 +16,7 @@ RPROVIDES:${PN} += "edge-addition-planarity-suite \
 edge-addition-planarity-suite(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libplanarity.so.0()(64bit)"
 
 inherit rpm

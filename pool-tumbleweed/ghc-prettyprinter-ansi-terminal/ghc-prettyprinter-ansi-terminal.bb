@@ -27,7 +27,7 @@ libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) \
 libHSprettyprinter-1.7.1-1jjh6iCiPNl8MgeqtPsio2-ghc9.4.5.so()(64bit) \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) \
 libHStext-2.0.2-ghc9.4.5.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit)"
 

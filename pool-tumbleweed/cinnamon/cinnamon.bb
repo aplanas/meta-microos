@@ -75,13 +75,12 @@ glib2-tools \
 gnomekbd-tools \
 iso-country-flags-png \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXfixes.so.3()(64bit) \
 libatk-1.0.so.0()(64bit) \
 libatk-bridge-2.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcinnamon-desktop-data \
 libcinnamon-menu-3.so.0()(64bit) \
@@ -96,7 +95,6 @@ libgstbase-1.0.so.0()(64bit) \
 libgstreamer-1.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmuffin-clutter-0.so()(64bit) \
 libmuffin-cogl-0.so()(64bit) \
 libmuffin-cogl-pango-0.so()(64bit) \
@@ -105,7 +103,6 @@ libmuffin.so.0()(64bit) \
 libpango-1.0.so.0()(64bit) \
 libstartup-notification-1.so.0()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 muffin \
 nemo \
 pkgconfig \

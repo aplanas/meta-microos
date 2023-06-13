@@ -17,20 +17,15 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_1.0)(64bit) \
-libblkid.so.1(BLKID_2.15)(64bit) \
-libblkid.so.1(BLKID_2.17)(64bit) \
 libblkid.so.1(BLKID_2_36)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcom_err.so.2()(64bit) \
 libcom_err2 \
 libe2p.so.2()(64bit) \
 libext2fs.so.2()(64bit) \
 libext2fs2 \
 libss.so.2()(64bit) \
-libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit)"
+libuuid.so.1()(64bit)"
 
 inherit rpm

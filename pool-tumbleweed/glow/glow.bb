@@ -16,6 +16,6 @@ RPM_HASH = "086286be7cb8215d8454248d6303fb893ebc7ce0ae5e9faf2f6ee570de51f9072928
 RPROVIDES:${PN} += "glow \
 glow(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

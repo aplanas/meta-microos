@@ -20,39 +20,13 @@ libtelepathy-logger3(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdbus-glib-1.so.2()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libsqlite3.so.0()(64bit) \
 libtelepathy-glib.so.0()(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.11.15)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.11.5)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.11.9)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.13.10)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.13.9)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.15.5)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.15.6)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.17.5)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.0)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.1)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.12)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.17)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.18)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.20)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.21)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.26)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.29)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.32)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.34)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.6)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.9)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.9.0)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.9.2)(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

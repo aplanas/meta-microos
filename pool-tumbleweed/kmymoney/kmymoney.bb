@@ -35,7 +35,6 @@ mimehandler(application/x-ofx)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKChart.so.2()(64bit) \
 libKF5Activities.so.5()(64bit) \
 libKF5Archive.so.5()(64bit) \
@@ -67,7 +66,6 @@ libKPim5AkonadiCore.so.5()(64bit) \
 libKPim5IdentityManagement.so.5()(64bit) \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Core.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5DBus.so.5()(64bit) \
 libQt5DBus.so.5(Qt_5)(64bit) \
 libQt5Gui.so.5()(64bit) \
@@ -80,7 +78,6 @@ libQt5QuickWidgets.so.5()(64bit) \
 libQt5QuickWidgets.so.5(Qt_5)(64bit) \
 libQt5Sql.so.5()(64bit) \
 libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5WebEngineWidgets.so.5()(64bit) \
 libQt5WebEngineWidgets.so.5(Qt_5)(64bit) \
 libQt5Widgets.so.5()(64bit) \
@@ -89,10 +86,8 @@ libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
 libalkimia5.so.8()(64bit) \
 libaqbanking.so.44()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgmp.so.10()(64bit) \
 libgpgmepp.so.6()(64bit) \
 libgwengui-cpp.so.79()(64bit) \
@@ -100,20 +95,10 @@ libgwengui-qt5.so.79()(64bit) \
 libgwenhywfar.so.79()(64bit) \
 libical.so.3()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libofx.so.7()(64bit) \
 libpython3.10.so.1.0()(64bit) \
 libsqlcipher-3.41.2.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 qt5qmlimport(QtQuick.2)"
 
 inherit rpm

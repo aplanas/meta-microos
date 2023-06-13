@@ -10,7 +10,7 @@ RPM_HASH = "82d8a56279994294a3ee7364d1dcb4382a0e934a5fa0753d45aed5cae6120943849c
 RPROVIDES:${PN} += "lighttpd-mod_authn_sasl \
 lighttpd-mod_authn_sasl(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libsasl2.so.3()(64bit) \
 lighttpd"
 

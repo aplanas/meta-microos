@@ -35,19 +35,13 @@ systemd:/usr/lib/systemd/systemd-resolved"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap.so.2()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libgpg-error.so.0()(64bit) \
-libgpg-error.so.0(GPG_ERROR_1.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libsystemd-shared-253.so()(64bit) \
 libsystemd-shared-253.so(SD_SHARED)(64bit) \
 systemd"

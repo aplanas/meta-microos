@@ -70,13 +70,9 @@ RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libOSMesa.so.8()(64bit) \
 libOpenCL.so.1()(64bit) \
-libOpenCL.so.1(OPENCL_1.0)(64bit) \
-libOpenCL.so.1(OPENCL_1.1)(64bit) \
-libOpenCL.so.1(OPENCL_1.2)(64bit) \
 libSDL2-2.0.so.0()(64bit) \
 libX11.so.6()(64bit) \
 libXcomposite.so.1()(64bit) \
@@ -89,9 +85,7 @@ libXrandr.so.2()(64bit) \
 libXrender.so.1()(64bit) \
 libXxf86vm.so.1()(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libc.so.6(GLIBC_2.35)(64bit) \
+libc.so.6()(64bit) \
 libcapi20.so.3()(64bit) \
 libcups.so.2()(64bit) \
 libdbus-1.so.3()(64bit) \
@@ -110,9 +104,6 @@ libgsttag-1.0.so.0()(64bit) \
 libgstvideo-1.0.so.0()(64bit) \
 libkrb5.so.3()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libpcap.so.1()(64bit) \
 libpcsclite.so.1()(64bit) \
 libpulse.so.0()(64bit) \

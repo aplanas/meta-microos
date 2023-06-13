@@ -141,12 +141,11 @@ vtk-openmpi4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLESv2.so.2()(64bit) \
 libGLX.so.0()(64bit) \
 libOpenGL.so.0()(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcgns.so.4.3()(64bit) \
 libdouble-conversion.so.3()(64bit) \
 libexpat.so.1()(64bit) \
@@ -154,22 +153,13 @@ libfmt.so.9()(64bit) \
 libfontconfig.so.1()(64bit) \
 libfreetype.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
-libgcc_s.so.1(GCC_4.0.0)(64bit) \
-libgcc_s.so.1(GCC_4.5.0)(64bit) \
 libhdf5.so.200()(64bit) \
 libhpdf.so()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libjsoncpp.so.25()(64bit) \
 liblz4.so.1()(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmpi.so.40()(64bit) \
 libnetcdf.so.19()(64bit) \
 libogg.so.0()(64bit) \
@@ -180,37 +170,11 @@ libpugixml.so.1()(64bit) \
 libpython3.10.so.1.0()(64bit) \
 libsqlite3.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.2)(64bit) \
-libstdc++.so.6(CXXABI_1.3.5)(64bit) \
-libstdc++.so.6(CXXABI_1.3.7)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.17)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.19)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.22)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.30)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.5)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libtheoradec.so.1()(64bit) \
-libtheoradec.so.1(libtheoradec_1.0)(64bit) \
 libtheoraenc.so.1()(64bit) \
-libtheoraenc.so.1(libtheoraenc_1.0)(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 libverdict.so.1.4()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.3.3)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

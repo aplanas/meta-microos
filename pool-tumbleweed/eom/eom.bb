@@ -78,10 +78,9 @@ mimehandler(text/ico) \
 mimehandler(text/xml-svg)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libatk-1.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libexempi.so.8()(64bit) \
 libexif.so.12()(64bit) \
@@ -93,17 +92,13 @@ libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 liblcms2.so.2()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmate-desktop-2.so.17()(64bit) \
 libpeas-1.0.so.0()(64bit) \
 libpeas-gtk-1.0.so.0()(64bit) \
 librsvg-2.so.2()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 libz.so.1()(64bit) \
 mate-desktop-gsettings-schemas"
 

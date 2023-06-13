@@ -15,8 +15,7 @@ pkgconfig(libpmempool)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdaxctl.so.1()(64bit) \
 libdaxctl.so.1(LIBDAXCTL_2)(64bit) \
 libndctl.so.6()(64bit) \
@@ -25,7 +24,6 @@ libndctl.so.6(LIBNDCTL_15)(64bit) \
 libndctl.so.6(LIBNDCTL_18)(64bit) \
 libndctl.so.6(LIBNDCTL_3)(64bit) \
 libpmem.so.1()(64bit) \
-libpmem.so.1(LIBPMEM_1.0)(64bit) \
 libpmempool1 \
 pkgconfig(libdaxctl) \
 pkgconfig(libndctl) \

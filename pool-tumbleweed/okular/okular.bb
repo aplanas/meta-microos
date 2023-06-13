@@ -101,7 +101,6 @@ okular5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Activities.so.5()(64bit) \
 libKF5Archive.so.5()(64bit) \
 libKF5Bookmarks.so.5()(64bit) \
@@ -151,32 +150,19 @@ libQt5X11Extras.so.5()(64bit) \
 libQt5X11Extras.so.5(Qt_5)(64bit) \
 libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libchm.so.0()(64bit) \
 libdjvulibre.so.21()(64bit) \
 libepub.so.0()(64bit) \
 libfreetype.so.6()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libmarkdown.so.3()(64bit) \
 libphonon4qt5.so.4()(64bit) \
 libpoppler-qt5.so.1()(64bit) \
 libqmobipocket.so.2()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 libz.so.1()(64bit) \
 libzip.so.5()(64bit)"
 

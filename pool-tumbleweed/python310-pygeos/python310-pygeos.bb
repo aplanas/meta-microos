@@ -18,8 +18,7 @@ python310-pygeos(aarch-64) \
 python3dist(pygeos)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgeos_c.so.1()(64bit) \
 python(abi) \
 python310-numpy"

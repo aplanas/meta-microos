@@ -22,11 +22,8 @@ RPM_HASH = "d529147cbad6937aa6725851790d56b1455bc9d6055d9116966195b0863fae2bb017
 RPROVIDES:${PN} += "jless \
 jless(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libxcb-render.so.0()(64bit) \
 libxcb-shape.so.0()(64bit) \
 libxcb-xfixes.so.0()(64bit) \

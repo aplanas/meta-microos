@@ -18,9 +18,7 @@ RPROVIDES:${PN} += "apache2-mod_apparmor \
 apache2-mod_apparmor(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libapparmor.so.1()(64bit) \
-libapparmor.so.1(APPARMOR_1.1)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

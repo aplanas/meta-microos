@@ -15,14 +15,12 @@ RPM_HASH = "82d4867973dec5d2e6dfe853fac3b733de030e6f9091cc10edbe11f86a5b57067f28
 RPROVIDES:${PN} += "libdbus-1-3 \
 libdbus-1-3(aarch-64) \
 libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libdbus-1.so.3(LIBDBUS_PRIVATE_1.14.6)(64bit)"
+libdbus-1.so.3(LIBDBUS_1_3)(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dbus-1-common \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit)"
 

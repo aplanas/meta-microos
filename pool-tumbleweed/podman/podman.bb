@@ -23,11 +23,9 @@ cni-plugins \
 conmon \
 fuse-overlayfs \
 iptables \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcontainers-common \
 libgpgme.so.11()(64bit) \
-libgpgme.so.11(GPGME_1.0)(64bit) \
-libgpgme.so.11(GPGME_1.1)(64bit) \
 libseccomp.so.2()(64bit) \
 runc \
 slirp4netns \

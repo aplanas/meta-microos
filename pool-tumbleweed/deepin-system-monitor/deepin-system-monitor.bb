@@ -18,7 +18,6 @@ metainfo(deepin-system-monitor.appdata.xml)"
 RDEPENDS:${PN} += "/usr/bin/pkexec \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Concurrent.so.5()(64bit) \
 libQt5Concurrent.so.5(Qt_5)(64bit) \
 libQt5Core.so.5()(64bit) \
@@ -29,12 +28,11 @@ libQt5Gui.so.5()(64bit) \
 libQt5Gui.so.5(Qt_5)(64bit) \
 libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdtkcore.so.5()(64bit) \
 libdtkgui.so.5()(64bit) \
 libdtkwidget.so.5()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libicui18n.so.73()(64bit) \
 libicuuc.so.73()(64bit) \
 libnl-3.so.200()(64bit) \
@@ -44,15 +42,6 @@ libnl-route-3.so.200(libnl_3)(64bit) \
 libnl-route-3.so.200(libnl_3_2_29)(64bit) \
 libpcap.so.1()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libudev.so.1()(64bit) \
 libudev.so.1(LIBUDEV_183)(64bit) \
 libudev.so.1(LIBUDEV_196)(64bit) \

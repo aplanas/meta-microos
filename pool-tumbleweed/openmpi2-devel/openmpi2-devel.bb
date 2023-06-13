@@ -24,8 +24,7 @@ RPROVIDES:${PN} += "openmpi2-devel \
 openmpi2-devel(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libibumad-devel \
 libibverbs-devel \
 libopen-pal.so.20()(64bit) \

@@ -17,7 +17,6 @@ metainfo(org.kde.windowbuttons.appdata.xml) \
 qt5qmlimport(org.kde.appletdecoration.0)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigCore.so.5()(64bit) \
 libKF5ConfigWidgets.so.5()(64bit) \
 libKF5CoreAddons.so.5()(64bit) \
@@ -34,14 +33,10 @@ libQt5Qml.so.5()(64bit) \
 libQt5Qml.so.5(Qt_5)(64bit) \
 libQt5Quick.so.5()(64bit) \
 libQt5Quick.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libkdecorations2.so.5()(64bit) \
 libkdecorations2private.so.10()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
 qt5qmlimport(QtGraphicalEffects.1) \
 qt5qmlimport(QtQml.Models.2) \
 qt5qmlimport(QtQuick.2) \

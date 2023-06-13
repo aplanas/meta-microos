@@ -11,18 +11,14 @@ RPM_HASH = "6e2f011d1852bd1fc952e28b7dd44fa6a8a39d833be61cddd256f8c03fa367dd5177
 
 RPROVIDES:${PN} += "bash:/lib64/libreadline.so.6 \
 libhistory.so.6()(64bit) \
-libhistory.so.6(READLINE_6.3)(64bit) \
 libreadline.so.6()(64bit) \
-libreadline.so.6(READLINE_6.3)(64bit) \
 libreadline6 \
 libreadline6(aarch-64) \
 readline"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
-libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit)"
+libc.so.6()(64bit) \
+libtinfo.so.6()(64bit)"
 
 inherit rpm

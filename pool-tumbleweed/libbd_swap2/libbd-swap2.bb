@@ -15,13 +15,10 @@ libblockdev-swap"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbd_utils.so.2()(64bit) \
 libbd_utils2 \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_2.15)(64bit) \
-libblkid.so.1(BLKID_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 util-linux"
 

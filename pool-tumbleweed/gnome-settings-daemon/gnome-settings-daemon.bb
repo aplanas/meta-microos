@@ -21,14 +21,12 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkexec \
 gsettings-desktop-schemas \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libXfixes.so.3()(64bit) \
 libXi.so.6()(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcanberra-gtk3.so.0()(64bit) \
 libcanberra.so.0()(64bit) \
@@ -47,18 +45,12 @@ libgtk-3.so.0()(64bit) \
 libgudev-1.0.so.0()(64bit) \
 libgweather-4.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmm-glib.so.0()(64bit) \
 libnm.so.0()(64bit) \
 libnm.so.0(libnm_1_0_0)(64bit) \
 libnotify.so.4()(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.12.5)(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
-libnss3.so(NSS_3.3)(64bit) \
-libnss3.so(NSS_3.9.3)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libpolkit-gobject-1.so.0()(64bit) \
@@ -68,7 +60,6 @@ libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
 libupower-glib.so.3()(64bit) \
 libwacom.so.9()(64bit) \
-libwacom.so.9(LIBWACOM_2.0)(64bit) \
 libwayland-client.so.0()(64bit)"
 
 inherit rpm

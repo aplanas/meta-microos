@@ -13,8 +13,7 @@ nfs-ganesha-rados-urls \
 nfs-ganesha-rados-urls(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libganesha_nfsd.so.3.3()(64bit) \
 librados.so.2()(64bit) \
 nfs-ganesha"

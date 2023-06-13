@@ -18,6 +18,6 @@ RPM_HASH = "7706c970f9d831b8973b49c977adcc2d6f9e891be9308b35d69836ad260bc2682466
 RPROVIDES:${PN} += "micro-editor \
 micro-editor(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

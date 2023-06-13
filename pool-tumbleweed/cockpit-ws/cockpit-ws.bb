@@ -21,10 +21,8 @@ distribution-logos \
 glib-networking \
 glib2 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgnutls.so.30()(64bit) \
@@ -33,10 +31,7 @@ libgobject-2.0.so.0()(64bit) \
 libgssapi_krb5.so.2()(64bit) \
 libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
-libpam.so.0(LIBPAM_MODUTIL_1.1.9)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libsystemd.so.0(LIBSYSTEMD_221)(64bit) \

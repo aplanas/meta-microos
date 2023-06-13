@@ -16,7 +16,7 @@ RDEPENDS:${PN} += "/bin/sh \
 appmenu-gtk2-module \
 appmenu-gtk3-module \
 appmenu-registrar \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

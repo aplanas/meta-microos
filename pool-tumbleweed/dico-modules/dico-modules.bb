@@ -16,16 +16,12 @@ dico-modules(aarch-64)"
 
 RDEPENDS:${PN} += "dico \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libWN.so.3()(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libdico.so.2()(64bit) \
 libguile-3.0.so.1()(64bit) \
-libguile-3.0.so.1(GUILE_2.0)(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libpcre.so.1()(64bit) \
 libpython3.10.so.1.0()(64bit) \
 libz.so.1()(64bit)"

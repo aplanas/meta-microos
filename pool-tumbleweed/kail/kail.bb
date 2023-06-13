@@ -13,6 +13,6 @@ RPM_HASH = "806c695dd8ca2cb4bafe2a55df65c0e90eb5d133504737afc6e19d5ae0d08244d935
 RPROVIDES:${PN} += "kail \
 kail(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

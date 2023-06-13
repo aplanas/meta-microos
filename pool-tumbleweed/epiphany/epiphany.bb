@@ -31,11 +31,10 @@ mimehandler(x-scheme-handler/https)"
 RDEPENDS:${PN} += "epiphany-branding \
 iso-codes \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libadwaita-1.so.0()(64bit) \
 libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
 libarchive.so.13()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgcr-4.so.4()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
@@ -50,7 +49,6 @@ libhogweed.so.6()(64bit) \
 libhogweed.so.6(HOGWEED_6)(64bit) \
 libjavascriptcoregtk-6.0.so.1()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libnettle.so.8()(64bit) \
 libnettle.so.8(NETTLE_8)(64bit) \
 libpango-1.0.so.0()(64bit) \
@@ -60,9 +58,6 @@ libsecret-1.so.0()(64bit) \
 libsoup-3.0.so.0()(64bit) \
 libsqlite3.so.0()(64bit) \
 libwebkitgtk-6.0.so.4()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.5)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

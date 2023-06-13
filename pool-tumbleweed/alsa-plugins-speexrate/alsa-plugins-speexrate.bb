@@ -13,11 +13,8 @@ alsa-plugins-speexrate(aarch-64) \
 libasound_module_rate_speexrate.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

@@ -18,8 +18,7 @@ metainfo(network-manager-openconnect.metainfo.xml)"
 
 RDEPENDS:${PN} += "NetworkManager-openconnect \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcr-base-3.so.1()(64bit) \
 libgcr-ui-3.so.1()(64bit) \
 libgio-2.0.so.0()(64bit) \
@@ -35,7 +34,6 @@ libnma-gtk4.so.0(libnma_1_8_0)(64bit) \
 libnma.so.0()(64bit) \
 libnma.so.0(libnma_1_8_0)(64bit) \
 libopenconnect.so.5()(64bit) \
-libopenconnect.so.5(OPENCONNECT_5.0)(64bit) \
 libopenconnect.so.5(OPENCONNECT_5_2)(64bit) \
 libopenconnect.so.5(OPENCONNECT_5_3)(64bit) \
 libopenconnect.so.5(OPENCONNECT_5_5)(64bit) \
@@ -44,8 +42,6 @@ libopenconnect.so.5(OPENCONNECT_5_8)(64bit) \
 libsecret-1.so.0()(64bit) \
 libsoup-3.0.so.0()(64bit) \
 libwebkit2gtk-4.1.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

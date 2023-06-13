@@ -15,10 +15,8 @@ libnm-vpn-plugin-l2tp.so()(64bit)"
 RDEPENDS:${PN} += "/bin/sh \
 NetworkManager \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
@@ -27,11 +25,7 @@ libnm.so.0(libnm_1_0_0)(64bit) \
 libnm.so.0(libnm_1_2_0)(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
-libnss3.so(NSS_3.4)(64bit) \
-libnss3.so(NSS_3.5)(64bit) \
 libsmime3.so()(64bit) \
-libsmime3.so(NSS_3.2)(64bit) \
 ppp \
 xl2tpd"
 

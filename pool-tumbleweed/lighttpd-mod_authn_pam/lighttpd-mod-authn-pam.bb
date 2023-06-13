@@ -10,9 +10,8 @@ RPM_HASH = "3fa6931cdc0215cb4446c6ce47c84ea9791d3c5312bbddc53d41f71bf63f2bbb5d2e
 RPROVIDES:${PN} += "lighttpd-mod_authn_pam \
 lighttpd-mod_authn_pam(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 lighttpd"
 
 inherit rpm

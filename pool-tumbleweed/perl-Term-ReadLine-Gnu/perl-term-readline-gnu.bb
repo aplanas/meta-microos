@@ -25,16 +25,9 @@ perl-TermReadLine-Gnu"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libreadline.so.8()(64bit) \
-libreadline.so.8(READLINE_6.3)(64bit) \
-libreadline.so.8(READLINE_7.0)(64bit) \
-libreadline.so.8(READLINE_8.0)(64bit) \
-libreadline.so.8(READLINE_8.1)(64bit) \
-libreadline.so.8(READLINE_8.2)(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

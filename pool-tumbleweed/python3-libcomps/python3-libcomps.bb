@@ -13,8 +13,7 @@ python3.10dist(libcomps) \
 python3dist(libcomps)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcomps.so.0()(64bit) \
 libcomps0(aarch-64) \
 libpython3.10.so.1.0()(64bit) \

@@ -20,8 +20,7 @@ python39-sip4(aarch-64) \
 python3dist(sip)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpython3.9.so.1.0()(64bit) \
 python(abi) \
 python39-sip4-common"

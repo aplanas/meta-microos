@@ -10,7 +10,7 @@ RPM_HASH = "aa778a823718baf5fd9544aef6f63e79fda76c5cb6b086e98622c18a6130a1986e8a
 RPROVIDES:${PN} += "libcsync-plugin-owncloud \
 libcsync-plugin-owncloud(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libcsync.so.0()(64bit) \
 libcsync0 \
 libneon.so.27()(64bit)"

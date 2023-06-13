@@ -17,20 +17,15 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 keyutils \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap-ng.so.0()(64bit) \
 libgssapi_krb5.so.2()(64bit) \
 libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
 libkeyutils.so.1()(64bit) \
-libkeyutils.so.1(KEYUTILS_0.3)(64bit) \
-libkeyutils.so.1(KEYUTILS_1.0)(64bit) \
 libkrb5.so.3()(64bit) \
 libkrb5.so.3(krb5_3_MIT)(64bit) \
 libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit) \
 libwbclient.so.0()(64bit) \
-libwbclient.so.0(WBCLIENT_0.9)(64bit) \
 update-alternatives"
 
 inherit rpm

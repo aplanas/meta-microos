@@ -15,17 +15,13 @@ libloudmouth-1.so.0()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgssapi_krb5.so.2()(64bit) \
 libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
 libidn.so.12()(64bit) \
-libidn.so.12(LIBIDN_1.0)(64bit) \
-libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit)"
+libssl.so.3()(64bit)"
 
 inherit rpm

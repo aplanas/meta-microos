@@ -12,10 +12,8 @@ collectd-plugin-write_stackdriver(aarch-64)"
 
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libcurl.so.4()(64bit) \
 libyajl.so.2()(64bit)"
 

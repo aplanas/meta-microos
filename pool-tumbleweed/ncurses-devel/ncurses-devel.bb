@@ -29,24 +29,10 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
 /usr/bin/tack \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libncurses6 \
 libticw.so.6()(64bit) \
-libticw.so.6(NCURSES6_TIC_5.0.19991023)(64bit) \
-libticw.so.6(NCURSES6_TIC_5.1.20000708)(64bit) \
-libticw.so.6(NCURSES6_TIC_5.5.20051010)(64bit) \
-libticw.so.6(NCURSES6_TIC_5.9.20150530)(64bit) \
-libticw.so.6(NCURSES6_TIC_6.1.20171230)(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.1.20000708)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.3.20021019)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.4.20040208)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.5.20051010)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_6.2.20200212)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_6.2.20211010)(64bit) \
 ncurses"
 
 inherit rpm

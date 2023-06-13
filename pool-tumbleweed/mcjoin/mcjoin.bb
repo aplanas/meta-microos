@@ -16,6 +16,6 @@ RPM_HASH = "f5b2415e491c95dfda14ec3ca06dbf0246424a72e914af415d56978a14275c3e0f86
 RPROVIDES:${PN} += "mcjoin \
 mcjoin(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

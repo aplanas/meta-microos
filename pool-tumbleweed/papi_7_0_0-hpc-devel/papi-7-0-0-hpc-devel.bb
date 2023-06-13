@@ -13,8 +13,7 @@ RPROVIDES:${PN} += "papi_7_0_0-hpc-devel \
 papi_7_0_0-hpc-devel(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libpapi_7_0_0-hpc \
 libpfm.so.4()(64bit) \
 linux-kernel-headers \

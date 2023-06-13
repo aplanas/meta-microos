@@ -21,24 +21,12 @@ iproute2-doc"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbpf.so.1()(64bit) \
-libbpf.so.1(LIBBPF_0.0.1)(64bit) \
-libbpf.so.1(LIBBPF_0.0.6)(64bit) \
-libbpf.so.1(LIBBPF_0.0.7)(64bit) \
-libbpf.so.1(LIBBPF_0.1.0)(64bit) \
-libbpf.so.1(LIBBPF_0.2.0)(64bit) \
-libbpf.so.1(LIBBPF_0.6.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libelf.so.1()(64bit) \
-libelf.so.1(ELFUTILS_1.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmnl.so.0()(64bit) \
-libmnl.so.0(LIBMNL_1.0)(64bit) \
-libmnl.so.0(LIBMNL_1.1)(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 libxtables.so.12()(64bit)"
 
 inherit rpm

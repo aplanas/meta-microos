@@ -14,7 +14,7 @@ gcc12-obj-c++(aarch-64)"
 
 RDEPENDS:${PN} += "gcc12-c++ \
 gcc12-objc \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libisl.so.23()(64bit) \
 libmpc.so.3()(64bit) \

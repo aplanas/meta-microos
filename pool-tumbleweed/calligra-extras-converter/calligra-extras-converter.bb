@@ -12,7 +12,6 @@ RPROVIDES:${PN} += "calligra-extras-converter \
 calligra-extras-converter(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \
 libKF5I18n.so.5()(64bit) \
 libKF5KIOCore.so.5()(64bit) \
@@ -24,10 +23,9 @@ libQt5PrintSupport.so.5()(64bit) \
 libQt5PrintSupport.so.5(Qt_5)(64bit) \
 libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libkomain.so.17()(64bit) \
 libkostore.so.17()(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

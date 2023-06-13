@@ -12,12 +12,9 @@ python3-tevent(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit) \
 libtevent.so.0()(64bit) \
-libtevent.so.0(TEVENT_0.9.9)(64bit) \
 libtevent0 \
 python(abi)"
 

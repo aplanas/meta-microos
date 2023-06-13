@@ -14,12 +14,9 @@ RPROVIDES:${PN} += "kismet-capture-linux-wifi \
 kismet-capture-linux-wifi(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libnl-3.so.200()(64bit) \
 libnl-3.so.200(libnl_3)(64bit) \
 libnl-genl-3.so.200()(64bit) \
@@ -29,7 +26,6 @@ libnm.so.0(libnm_1_0_0)(64bit) \
 libnm.so.0(libnm_1_2_0)(64bit) \
 libpcap.so.1()(64bit) \
 libprotobuf-c.so.1()(64bit) \
-libprotobuf-c.so.1(LIBPROTOBUF_C_1.0.0)(64bit) \
 libwebsockets.so.19()(64bit)"
 
 inherit rpm

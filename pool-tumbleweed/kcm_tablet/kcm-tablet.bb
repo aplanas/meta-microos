@@ -21,7 +21,6 @@ metainfo(org.kde.plasma.wacomtablet.appdata.xml) \
 metainfo(org.kde.wacomtablet.metainfo.xml)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigCore.so.5()(64bit) \
 libKF5ConfigWidgets.so.5()(64bit) \
 libKF5CoreAddons.so.5()(64bit) \
@@ -44,12 +43,9 @@ libQt5Widgets.so.5(Qt_5)(64bit) \
 libQt5X11Extras.so.5()(64bit) \
 libQt5X11Extras.so.5(Qt_5)(64bit) \
 libXi.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 libwacom.so.9()(64bit) \
-libwacom.so.9(LIBWACOM_2.0)(64bit) \
 libxcb-xinput.so.0()(64bit) \
 libxcb.so.1()(64bit) \
 qt5qmlimport(QtQuick.2) \

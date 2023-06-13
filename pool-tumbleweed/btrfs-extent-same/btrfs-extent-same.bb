@@ -10,6 +10,6 @@ RPM_HASH = "d792b580a6f80ed202426d77874070545086883b9afd347cd6f52df419038db6caf8
 RPROVIDES:${PN} += "btrfs-extent-same \
 btrfs-extent-same(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

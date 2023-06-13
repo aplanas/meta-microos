@@ -16,9 +16,8 @@ libclutter-gst-3_0-0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libclutter-1.0.so.0()(64bit) \
 libcogl.so.20()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
@@ -31,7 +30,6 @@ libgstreamer-1.0.so.0()(64bit) \
 libgsttag-1.0.so.0()(64bit) \
 libgstvideo-1.0.so.0()(64bit) \
 libgudev-1.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

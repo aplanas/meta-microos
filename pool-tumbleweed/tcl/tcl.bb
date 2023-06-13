@@ -35,15 +35,9 @@ tclsh8.6"
 RDEPENDS:${PN} += "/bin/rm \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit) \
-libz.so.1(ZLIB_1.2.2)(64bit) \
 sqlite3-tcl"
 
 inherit rpm

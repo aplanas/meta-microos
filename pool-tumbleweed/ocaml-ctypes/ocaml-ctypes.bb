@@ -12,9 +12,7 @@ RPM_HASH = "ad5cf577d558ca9860f05b31febe1ecfd0129e6d63289ff8606c10ca6a7cb6b21eb2
 RPROVIDES:${PN} += "ocaml-ctypes \
 ocaml-ctypes(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
-libffi.so.8()(64bit) \
-libffi.so.8(LIBFFI_BASE_8.0)(64bit) \
-libffi.so.8(LIBFFI_CLOSURE_8.0)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
+libffi.so.8()(64bit)"
 
 inherit rpm

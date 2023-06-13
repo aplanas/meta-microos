@@ -36,13 +36,12 @@ gnome-themes-accessibility \
 gsettings-desktop-schemas \
 gstreamer-plugin-pipewire \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLESv2.so.2()(64bit) \
 libX11.so.6()(64bit) \
 libXfixes.so.3()(64bit) \
 libatk-1.0.so.0()(64bit) \
 libatk-bridge-2.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgcr-4.so.4()(64bit) \
 libgdk-3.so.0()(64bit) \
@@ -58,10 +57,7 @@ libgraphene-1.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libgtk-4.so.1()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmutter-12.so.0()(64bit) \
 libmutter-clutter-12.so.0()(64bit) \
 libmutter-cogl-12.so.0()(64bit) \

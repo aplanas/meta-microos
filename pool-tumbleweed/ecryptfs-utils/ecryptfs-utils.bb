@@ -19,16 +19,11 @@ libecryptfs_key_mod_tspi.so()(64bit)"
 RDEPENDS:${PN} += "(kmod(ecryptfs.ko) if kernel) \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libecryptfs.so.1()(64bit) \
 libkeyutils.so.1()(64bit) \
-libkeyutils.so.1(KEYUTILS_0.3)(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
-libpam.so.0(LIBPAM_EXTENSION_1.0)(64bit) \
 libpkcs11-helper.so.1()(64bit) \
 libtspi.so.1()(64bit) \
 pam-config \

@@ -10,13 +10,8 @@ RPM_HASH = "1de930a6c6fbfc701264aad379c1971c2172a75bc26e3b862f03c3970aa90dfaa617
 RPROVIDES:${PN} += "micropython \
 micropython(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libffi.so.8()(64bit) \
-libffi.so.8(LIBFFI_BASE_8.0)(64bit) \
-libffi.so.8(LIBFFI_CLOSURE_8.0)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.23)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

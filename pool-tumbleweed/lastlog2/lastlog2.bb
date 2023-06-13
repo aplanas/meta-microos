@@ -12,14 +12,9 @@ lastlog2(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblastlog2.so.1()(64bit) \
-liblastlog2.so.1(LIBLASTLOG2_1.0)(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
-libpam.so.0(LIBPAM_EXTENSION_1.0)(64bit) \
-libpam.so.0(LIBPAM_MODUTIL_1.0)(64bit) \
 pam-config"
 
 inherit rpm

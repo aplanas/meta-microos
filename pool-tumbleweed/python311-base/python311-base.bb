@@ -24,31 +24,19 @@ python311-xml"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libexpat.so.1()(64bit) \
 libffi.so.8()(64bit) \
-libffi.so.8(LIBFFI_BASE_8.0)(64bit) \
-libffi.so.8(LIBFFI_CLOSURE_8.0)(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libmpdec.so.3()(64bit) \
 libpython3.11.so.1.0()(64bit) \
 libpython3_11-1_0 \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_2.20)(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

@@ -23,15 +23,12 @@ ImageMagick-extra(aarch-64)"
 
 RDEPENDS:${PN} += "ImageMagick \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMagickCore-7.Q16HDRI.so.10()(64bit) \
 libMagickCore-7_Q16HDRI10 \
 libMagickWand-7.Q16HDRI.so.10()(64bit) \
-libMagickWand-7.Q16HDRI.so.10(VERS_10.0)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdjvulibre.so.21()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libopenjp2.so.7()(64bit) \
 libwmflite-0.2.so.7()(64bit)"
 

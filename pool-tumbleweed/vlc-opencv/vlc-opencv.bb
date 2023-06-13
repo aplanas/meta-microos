@@ -16,18 +16,12 @@ vlc:/usr/lib64/vlc/plugins/video_filter/libopencv_example_plugin.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libopencv_core.so.3.4()(64bit) \
 libopencv_imgproc.so.3.4()(64bit) \
 libopencv_objdetect.so.3.4()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 libvlccore.so.9()(64bit) \
 vlc-noX"
 

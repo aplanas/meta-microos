@@ -13,8 +13,7 @@ vcdimager(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcdio.so.19()(64bit) \
 libcdio.so.19(CDIO_19)(64bit) \
 libiso9660.so.11()(64bit) \
@@ -23,7 +22,6 @@ libpopt.so.0()(64bit) \
 libpopt.so.0(LIBPOPT_0)(64bit) \
 libvcdinfo.so.0()(64bit) \
 libvcdinfo.so.0(VCDINFO_0)(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

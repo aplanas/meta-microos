@@ -14,11 +14,8 @@ openhpi-daemon(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 libopenhpi_ssl.so.4()(64bit) \
@@ -26,8 +23,6 @@ libopenhpimarshal.so.4()(64bit) \
 libopenhpitransport.so.4()(64bit) \
 libopenhpiutils.so.4()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 openhpi \
 systemd"
 

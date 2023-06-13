@@ -21,6 +21,6 @@ gluegen2(aarch-64) \
 libgluegen2-rt.so()(64bit)"
 
 RDEPENDS:${PN} += "java \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

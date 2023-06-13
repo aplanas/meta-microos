@@ -17,6 +17,6 @@ RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 dracut \
 dracut-kiwi-lib \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

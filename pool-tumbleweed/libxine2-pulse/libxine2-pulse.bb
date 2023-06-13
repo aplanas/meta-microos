@@ -17,8 +17,7 @@ RPROVIDES:${PN} += "libxine2-pulse \
 libxine2-pulse(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
 libxine.so.2()(64bit) \

@@ -19,22 +19,12 @@ veritysetup"
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_2.15)(64bit) \
-libblkid.so.1(BLKID_2.17)(64bit) \
-libblkid.so.1(BLKID_2.21)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcryptsetup.so.12()(64bit) \
-libcryptsetup.so.12(CRYPTSETUP_2.0)(64bit) \
-libcryptsetup.so.12(CRYPTSETUP_2.4)(64bit) \
-libcryptsetup.so.12(CRYPTSETUP_2.5)(64bit) \
-libcryptsetup.so.12(CRYPTSETUP_2.6)(64bit) \
 libpopt.so.0()(64bit) \
 libpopt.so.0(LIBPOPT_0)(64bit) \
 libpwquality.so.1()(64bit) \
-libpwquality.so.1(LIBPWQUALITY_1.0)(64bit) \
-libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit)"
+libuuid.so.1()(64bit)"
 
 inherit rpm

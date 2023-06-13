@@ -13,15 +13,13 @@ RPROVIDES:${PN} += "cd-paranoia \
 cd-paranoia(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcdio.so.19()(64bit) \
 libcdio.so.19(CDIO_19)(64bit) \
 libcdio_cdda.so.2()(64bit) \
 libcdio_cdda.so.2(CDIO_CDDA_2)(64bit) \
 libcdio_paranoia.so.2()(64bit) \
 libcdio_paranoia.so.2(CDIO_PARANOIA_2)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

@@ -29,9 +29,8 @@ rygel(aarch-64)"
 
 RDEPENDS:${PN} += "gstreamer-plugins-base \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgee-0.8.so.2()(64bit) \
 libges-1.0.so.0()(64bit) \
@@ -49,7 +48,6 @@ libgupnp-av-1.0.so.3()(64bit) \
 libgupnp-dlna-2.0.so.4()(64bit) \
 libgupnp-dlna-gst-2.0.so.4()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libmediaart-2.0.so.0()(64bit) \
 librygel-core-2.8.so.0()(64bit) \
 librygel-db-2.8.so.0()(64bit) \
@@ -58,8 +56,6 @@ librygel-ruih-2.8.so.0()(64bit) \
 librygel-server-2.8.so.0()(64bit) \
 libsoup-3.0.so.0()(64bit) \
 libsqlite3.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

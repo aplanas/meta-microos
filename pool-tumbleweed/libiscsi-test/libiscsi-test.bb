@@ -12,15 +12,10 @@ RPROVIDES:${PN} += "libiscsi-test \
 libiscsi-test(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcunit.so.1()(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libibverbs.so.1()(64bit) \
-libibverbs.so.1(IBVERBS_1.0)(64bit) \
-libibverbs.so.1(IBVERBS_1.1)(64bit) \
-librdmacm.so.1()(64bit) \
-librdmacm.so.1(RDMACM_1.0)(64bit)"
+librdmacm.so.1()(64bit)"
 
 inherit rpm

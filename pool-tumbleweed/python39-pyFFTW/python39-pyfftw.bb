@@ -24,8 +24,7 @@ python39-pyFFTW(aarch-64) \
 python3dist(pyfftw)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libfftw3.so.3()(64bit) \
 libfftw3_threads.so.3()(64bit) \
 libfftw3f.so.3()(64bit) \

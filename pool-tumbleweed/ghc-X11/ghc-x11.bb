@@ -14,7 +14,6 @@ ghc-X11(aarch-64) \
 libHSX11-1.10.3-5dCbs7YG84pBbMQ87MYXiX-ghc9.4.5.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdata-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
@@ -24,7 +23,7 @@ libXext.so.6()(64bit) \
 libXinerama.so.1()(64bit) \
 libXrandr.so.2()(64bit) \
 libXss.so.1()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit)"
 

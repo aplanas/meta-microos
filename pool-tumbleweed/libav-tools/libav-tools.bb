@@ -13,7 +13,6 @@ RPROVIDES:${PN} += "libav-tools \
 libav-tools(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.58.134()(64bit) \
 libavcodec.so.58.134(LIBAVCODEC_58)(64bit) \
 libavdevice.so.58.13()(64bit) \
@@ -26,10 +25,8 @@ libavresample.so.4.0()(64bit) \
 libavresample.so.4.0(LIBAVRESAMPLE_4)(64bit) \
 libavutil.so.56.70()(64bit) \
 libavutil.so.56.70(LIBAVUTIL_56)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libswscale.so.5.9()(64bit) \
 libswscale.so.5.9(LIBSWSCALE_5)(64bit)"
 

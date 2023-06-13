@@ -43,7 +43,6 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 desktop-data \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \
 libSM.so.6()(64bit) \
 libX11.so.6()(64bit) \
@@ -53,13 +52,12 @@ libXft.so.2()(64bit) \
 libXinerama.so.1()(64bit) \
 libXpm.so.4()(64bit) \
 libXrender.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libfontconfig.so.1()(64bit) \
 libfribidi.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libreadline.so.8()(64bit) \

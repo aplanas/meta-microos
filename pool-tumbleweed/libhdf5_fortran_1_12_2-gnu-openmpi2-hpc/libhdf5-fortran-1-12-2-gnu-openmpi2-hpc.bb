@@ -16,10 +16,8 @@ libhdf5_fortran_1_12_2-gnu-openmpi2-hpc(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 hdf5_1_12_2-gnu-openmpi2-hpc-module \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libgfortran.so.5()(64bit) \
 libgfortran.so.5(GFORTRAN_8)(64bit)"
 

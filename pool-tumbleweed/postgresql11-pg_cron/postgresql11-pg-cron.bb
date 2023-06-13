@@ -16,8 +16,7 @@ postgresql11-pg_cron-llvmjit"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpq.so.5()(64bit) \
 postgresql11-server"
 

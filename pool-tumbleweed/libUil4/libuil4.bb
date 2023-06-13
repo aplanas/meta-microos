@@ -15,10 +15,9 @@ libUil4(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMrm.so.4()(64bit) \
 libXm.so.4()(64bit) \
 libXt.so.6()(64bit) \
-libc.so.6(GLIBC_2.33)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

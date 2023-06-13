@@ -9,27 +9,14 @@ RPM_HASH = "f2fa60d8d07353fd1bb199ca1f1ee3bde8238ddb669efc1aada7407ec73fe65be9ad
 
 RPROVIDES:${PN} += "libQt6Sensors.so.6()(64bit) \
 libQt6Sensors.so.6(Qt_6)(64bit) \
-libQt6Sensors.so.6(Qt_6.0)(64bit) \
-libQt6Sensors.so.6(Qt_6.1)(64bit) \
-libQt6Sensors.so.6(Qt_6.2)(64bit) \
-libQt6Sensors.so.6(Qt_6.3)(64bit) \
-libQt6Sensors.so.6(Qt_6.4)(64bit) \
-libQt6Sensors.so.6(Qt_6.5)(64bit) \
-libQt6Sensors.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
 libQt6Sensors6 \
 libQt6Sensors6(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Core.so.6(Qt_6.5)(64bit) \
-libQt6Core.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+libc.so.6()(64bit) \
+libstdc++.so.6()(64bit)"
 
 inherit rpm

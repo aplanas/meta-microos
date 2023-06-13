@@ -33,7 +33,6 @@ RDEPENDS:${PN} += "/bin/bash \
 /sbin/ldconfig \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Archive.so.5()(64bit) \
 libKF5Bookmarks.so.5()(64bit) \
 libKF5Completion.so.5()(64bit) \
@@ -80,24 +79,16 @@ libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
 libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgadu.so.3()(64bit) \
 libidn.so.12()(64bit) \
-libidn.so.12(LIBIDN_1.0)(64bit) \
 libotr.so.5()(64bit) \
 libphonon4qt5.so.4()(64bit) \
 libqca-qt5.so.2()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 libv4l2.so.0()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 libxslt.so.1()(64bit) \
-libxslt.so.1(LIBXML2_1.0.11)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

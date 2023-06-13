@@ -18,13 +18,11 @@ mimehandler(x-scheme-handler/irc) \
 mimehandler(x-scheme-handler/ircs)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \
 libconfig.so.11()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \

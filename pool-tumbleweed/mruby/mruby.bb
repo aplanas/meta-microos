@@ -21,7 +21,7 @@ RPM_HASH = "dbdefd4a9621f32b6e19632120d8d93681066cb7a03b8e508d5b34943d7658595220
 RPROVIDES:${PN} += "mruby \
 mruby(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libm.so.6()(64bit) \
 libmruby.so.3.1.0()(64bit) \
 libmruby_core.so.3.1.0()(64bit)"

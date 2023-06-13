@@ -29,15 +29,13 @@ remmina-plugins-common"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libappindicator3.so.1()(64bit) \
 libavahi-client.so.3()(64bit) \
 libavahi-common.so.3()(64bit) \
 libavahi-ui-gtk3.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libgdk-3.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -45,7 +43,6 @@ libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libsodium.so.23()(64bit) \
 libssh.so.4()(64bit) \

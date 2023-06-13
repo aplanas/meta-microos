@@ -16,17 +16,13 @@ obexd-client"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libell.so.0()(64bit) \
-libell.so.0(ELL_0.56)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libjson-c.so.5()(64bit) \
-libjson-c.so.5(JSONC_0.14)(64bit) \
 libreadline.so.8()(64bit) \
 libudev.so.1()(64bit) \
 libudev.so.1(LIBUDEV_183)(64bit) \

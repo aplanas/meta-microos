@@ -26,9 +26,8 @@ ghostscript-fonts-std \
 glibc \
 glibc-locale \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 liba2ps.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgc.so.1()(64bit) \
 libm.so.6()(64bit) \
 libpaper.so.2()(64bit) \

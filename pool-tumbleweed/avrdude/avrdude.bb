@@ -17,14 +17,10 @@ config(avrdude)"
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/modprobe \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libelf.so.1()(64bit) \
-libelf.so.1(ELFUTILS_1.0)(64bit) \
-libelf.so.1(ELFUTILS_1.5)(64bit) \
 libftdi1.so.2()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libreadline.so.8()(64bit) \
 libusb-0.1.so.4()(64bit) \
 libusb-1.0.so.0()(64bit)"

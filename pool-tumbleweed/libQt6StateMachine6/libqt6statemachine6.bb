@@ -9,29 +9,16 @@ RPM_HASH = "e5461437cec4ed937e11ffde7c31f99312b2ae10d17f5ec8eb11316b651efa591060
 
 RPROVIDES:${PN} += "libQt6StateMachine.so.6()(64bit) \
 libQt6StateMachine.so.6(Qt_6)(64bit) \
-libQt6StateMachine.so.6(Qt_6.0)(64bit) \
-libQt6StateMachine.so.6(Qt_6.1)(64bit) \
-libQt6StateMachine.so.6(Qt_6.2)(64bit) \
-libQt6StateMachine.so.6(Qt_6.3)(64bit) \
-libQt6StateMachine.so.6(Qt_6.4)(64bit) \
-libQt6StateMachine.so.6(Qt_6.5)(64bit) \
-libQt6StateMachine.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
 libQt6StateMachine6 \
 libQt6StateMachine6(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Core.so.6(Qt_6.5)(64bit) \
-libQt6Core.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
 libQt6Gui.so.6()(64bit) \
 libQt6Gui.so.6(Qt_6)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+libc.so.6()(64bit) \
+libstdc++.so.6()(64bit)"
 
 inherit rpm

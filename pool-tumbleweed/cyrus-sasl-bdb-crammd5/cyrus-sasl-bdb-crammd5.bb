@@ -15,7 +15,6 @@ libcrammd5.so.3()(64bit)"
 
 RDEPENDS:${PN} += "cyrus-sasl-bdb \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

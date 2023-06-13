@@ -16,8 +16,7 @@ python2-dbm \
 python2-gdbm"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgdbm.so.6()(64bit) \
 libgdbm_compat.so.4()(64bit) \
 libpython2.7.so.1.0()(64bit) \

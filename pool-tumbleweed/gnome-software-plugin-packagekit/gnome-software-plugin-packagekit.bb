@@ -17,20 +17,13 @@ RDEPENDS:${PN} += "(libzypp-plugin-appdata if PackageKit-backend-zypp) \
 PackageKit \
 gnome-software \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libappstream.so.4()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgnomesoftware.so.20()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libpackagekit-glib2.so.18()(64bit) \
-libxmlb.so.2()(64bit) \
-libxmlb.so.2(LIBXMLB_0.1.0)(64bit) \
-libxmlb.so.2(LIBXMLB_0.1.1)(64bit) \
-libxmlb.so.2(LIBXMLB_0.1.2)(64bit) \
-libxmlb.so.2(LIBXMLB_0.1.3)(64bit) \
-libxmlb.so.2(LIBXMLB_0.1.7)(64bit) \
-libxmlb.so.2(LIBXMLB_0.3.1)(64bit)"
+libxmlb.so.2()(64bit)"
 
 inherit rpm

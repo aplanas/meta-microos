@@ -12,13 +12,9 @@ RPROVIDES:${PN} += "p11-kit-server \
 p11-kit-server(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libffi.so.8()(64bit) \
-libffi.so.8(LIBFFI_BASE_8.0)(64bit) \
-libffi.so.8(LIBFFI_CLOSURE_8.0)(64bit) \
 libp11-kit.so.0()(64bit) \
-libp11-kit.so.0(LIBP11_KIT_1.0)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 p11-kit(aarch-64)"

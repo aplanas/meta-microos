@@ -16,20 +16,16 @@ quota(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libext2fs.so.2()(64bit) \
 liblber.so.2()(64bit) \
-liblber.so.2(OPENLDAP_2.200)(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
 libnl-3.so.200()(64bit) \
 libnl-3.so.200(libnl_3)(64bit) \
 libnl-genl-3.so.200()(64bit) \
 libnl-genl-3.so.200(libnl_3)(64bit) \
-libtirpc.so.3()(64bit) \
-libtirpc.so.3(TIRPC_0.3.0)(64bit)"
+libtirpc.so.3()(64bit)"
 
 inherit rpm

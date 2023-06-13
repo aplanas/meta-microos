@@ -203,7 +203,7 @@ ocamlx(Pango) \
 ocamlx(PangoEnums) \
 ocamlx(SourceView3Enums)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \

@@ -10,6 +10,6 @@ RPM_HASH = "126ab99272644ae4def5e3a5bd6afeeffd25216a559a275f01ea89788f010219e9df
 RPROVIDES:${PN} += "recidivm \
 recidivm(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

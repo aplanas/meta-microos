@@ -14,11 +14,10 @@ pkgconfig(babl-0.1)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbabl-0.1.so.0()(64bit) \
 libbabl-0.1.so.0(V0_1_0)(64bit) \
 libbabl-0_1-0 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 pkgconfig(lcms2) \
 typelib-1_0-Babl-0_1"
 

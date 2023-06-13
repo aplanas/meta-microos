@@ -18,10 +18,9 @@ audit-libs \
 coreutils \
 group(audit) \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaudit.so.1()(64bit) \
 libauparse.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap-ng.so.0()(64bit) \
 libwrap.so.0()(64bit)"
 

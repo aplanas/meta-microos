@@ -66,8 +66,7 @@ pragha(aarch-64)"
 RDEPENDS:${PN} += "gstreamer-plugins-base \
 gstreamer-plugins-good \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
@@ -79,14 +78,12 @@ libgstreamer-1.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libgudev-1.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpeas-1.0.so.0()(64bit) \
 libpeas-gtk-1.0.so.0()(64bit) \
 libsqlite3.so.0()(64bit) \
 libtag_c.so.0()(64bit) \
 libtotem-plparser.so.18()(64bit) \
-libtotem-plparser.so.18(LIBTOTEM_PL_PARSER_MINI_1.0)(64bit) \
 libxfce4ui-2.so.0()(64bit)"
 
 inherit rpm

@@ -12,10 +12,7 @@ RPM_HASH = "221a6aa7ea9367fed4e17b1cc0a2f1a7ca44c52851f68ca2cb8dfd5c5fc93d0a0eae
 RPROVIDES:${PN} += "ladspa-tap-plugins \
 ladspa-tap-plugins(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

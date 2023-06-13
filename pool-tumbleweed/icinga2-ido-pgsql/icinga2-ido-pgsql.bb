@@ -16,8 +16,6 @@ libpgsql_shim.so.2.13.7()(64bit)"
 RDEPENDS:${PN} += "/bin/sh \
 icinga2-bin \
 libpq.so.5()(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

@@ -14,13 +14,10 @@ evmctl(aarch-64) \
 ima-evm-utils"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libimaevm.so.4()(64bit) \
 libkeyutils.so.1()(64bit) \
-libkeyutils.so.1(KEYUTILS_0.3)(64bit) \
 libtss2-esys.so.0()(64bit) \
 libtss2-rc.so.0()(64bit)"
 

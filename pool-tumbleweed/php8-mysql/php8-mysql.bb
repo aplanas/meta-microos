@@ -16,8 +16,7 @@ php8-mysql(aarch-64) \
 php_any_db"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 php \
 php-pdo"
 

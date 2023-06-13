@@ -21,23 +21,16 @@ pine \
 pine4"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libgssapi_krb5.so.2()(64bit) \
 libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
 libkrb5.so.3()(64bit) \
 libkrb5.so.3(krb5_3_MIT)(64bit) \
 liblber.so.2()(64bit) \
-liblber.so.2(OPENLDAP_2.200)(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
-libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit)"
+libtinfo.so.6()(64bit)"
 
 inherit rpm

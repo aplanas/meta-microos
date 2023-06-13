@@ -11,7 +11,7 @@ RPM_HASH = "0b1fca1bf83e35f2a0e9a1ea2bce8930d03ae8415ca85bb9efa5e3bf57d55baca9fc
 RPROVIDES:${PN} += "mcpp \
 mcpp(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libmcpp.so.0()(64bit)"
 
 inherit rpm

@@ -22,7 +22,6 @@ SHERPA-MC-devel(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libAhadicDecays.so.0()(64bit) \
 libAhadicFormation.so.0()(64bit) \
 libAhadicMain.so.0()(64bit) \
@@ -106,12 +105,11 @@ libToolsMath.so.0()(64bit) \
 libToolsOrg.so.0()(64bit) \
 libToolsPhys.so.0()(64bit) \
 libZfunctions.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfastjet.so.0()(64bit) \
 libfastjetplugins.so.0()(64bit) \
 libfastjettools.so.0()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libgfortran.so.5()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit) \
@@ -119,14 +117,6 @@ libsiscone.so.0()(64bit) \
 libsiscone_spherical.so.0()(64bit) \
 libsqlite3.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.1)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

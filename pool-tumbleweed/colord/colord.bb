@@ -27,8 +27,7 @@ RDEPENDS:${PN} += "/bin/sh \
 argyllcms \
 colord-color-profiles \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcolord.so.2()(64bit) \
 libcolordprivate.so.2()(64bit) \
 libcolorhug.so.2()(64bit) \
@@ -38,11 +37,8 @@ libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgudev-1.0.so.0()(64bit) \
 libgusb.so.2()(64bit) \
-libgusb.so.2(LIBGUSB_0.1.0)(64bit) \
-libgusb.so.2(LIBGUSB_0.2.2)(64bit) \
 liblcms2.so.2()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpolkit-gobject-1.so.0()(64bit) \
 libsqlite3.so.0()(64bit) \
 libsystemd.so.0()(64bit) \

@@ -15,7 +15,7 @@ pkgconfig(libxfce4kbd-private-3) \
 pkgconfig(libxfce4ui-2)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgladeui-2.so.13()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \

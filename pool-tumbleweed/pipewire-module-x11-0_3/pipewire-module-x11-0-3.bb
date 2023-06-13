@@ -22,10 +22,9 @@ pipewire-module-x11-0_3 \
 pipewire-module-x11-0_3(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXfixes.so.3()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcanberra.so.0()(64bit) \
 libpipewire-0.3.so.0()(64bit) \
 libpipewire-0_3-0 \

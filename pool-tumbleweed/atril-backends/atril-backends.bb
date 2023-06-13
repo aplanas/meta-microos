@@ -21,9 +21,8 @@ libxpsdocument.so()(64bit) \
 mate-document-viewer-libs-3"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatrildocument.so.3()(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libdjvulibre.so.21()(64bit) \
 libgdk-3.so.0()(64bit) \
@@ -35,14 +34,11 @@ libgtk-3.so.0()(64bit) \
 libgxps.so.2()(64bit) \
 libkpathsea.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpoppler-glib.so.8()(64bit) \
 libspectre.so.1()(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 libz.so.1()(64bit) \
 mathjax"
 

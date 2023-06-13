@@ -12,7 +12,7 @@ RPM_HASH = "b0b7d204d75c2354a03c88a83f834cdf6ee36b4ac419d5f7b8250b21c3805e746a8e
 RPROVIDES:${PN} += "wlopm \
 wlopm(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libwayland-client.so.0()(64bit)"
 
 inherit rpm

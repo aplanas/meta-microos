@@ -13,6 +13,6 @@ RPM_HASH = "62c68fa4e1e5b0425edb7535a1b71847dba2ad0cc8ce797353a97c45ce593d1daa99
 RPROVIDES:${PN} += "dnsproxy \
 dnsproxy(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

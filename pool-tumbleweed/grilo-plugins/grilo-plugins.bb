@@ -34,11 +34,10 @@ libgrlthetvdb.so()(64bit) \
 libgrltmdb.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libarchive.so.13()(64bit) \
 libavahi-client.so.3()(64bit) \
 libavahi-glib.so.1()(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libdmapsharing-4.0.so.3()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -50,17 +49,12 @@ libgrlnet-0.3.so.0()(64bit) \
 libgrlpls-0.3.so.0()(64bit) \
 libgstreamer-1.0.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 liblua5.4.so.5()(64bit) \
 libmediaart-2.0.so.0()(64bit) \
 liboauth.so.0()(64bit) \
 libsqlite3.so.0()(64bit) \
 libtotem-plparser-mini.so.18()(64bit) \
-libtotem-plparser-mini.so.18(LIBTOTEM_PL_PARSER_MINI_1.0)(64bit) \
 libtotem-plparser.so.18()(64bit) \
-libtotem-plparser.so.18(LIBTOTEM_PL_PARSER_MINI_1.0)(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

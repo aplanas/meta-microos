@@ -16,11 +16,9 @@ deltarpm(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 librpm.so.9()(64bit) \
 librpmio.so.9()(64bit) \
 libzstd.so.1()(64bit)"

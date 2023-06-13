@@ -11,8 +11,7 @@ RPROVIDES:${PN} += "uwsc \
 uwsc(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liborcania.so.2.3()(64bit) \
 libulfius.so.2.7()(64bit) \
 libyder.so.1.4()(64bit)"

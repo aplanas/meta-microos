@@ -12,20 +12,11 @@ librpmbuild9 \
 librpmbuild9(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcap.so.2()(64bit) \
 libdw.so.1()(64bit) \
-libdw.so.1(ELFUTILS_0.159)(64bit) \
-libdw.so.1(ELFUTILS_0.177)(64bit) \
 libelf.so.1()(64bit) \
-libelf.so.1(ELFUTILS_1.0)(64bit) \
-libelf.so.1(ELFUTILS_1.5)(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_1.0)(64bit) \
-libgomp.so.1(GOMP_2.0)(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit) \
 liblua5.4.so.5()(64bit) \
 libmagic.so.1()(64bit) \
 libpopt.so.0()(64bit) \

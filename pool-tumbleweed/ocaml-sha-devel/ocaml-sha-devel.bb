@@ -18,7 +18,7 @@ ocamlx(Sha1) \
 ocamlx(Sha256) \
 ocamlx(Sha512)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Bigarray) \

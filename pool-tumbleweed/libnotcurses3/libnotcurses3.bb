@@ -19,16 +19,11 @@ libnotcurses3(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.60()(64bit) \
-libavcodec.so.60(LIBAVCODEC_60.3_SUSE)(64bit) \
 libavformat.so.60()(64bit) \
-libavformat.so.60(LIBAVFORMAT_60.3_SUSE)(64bit) \
 libavutil.so.58()(64bit) \
-libavutil.so.58(LIBAVUTIL_58.2_SUSE)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libnotcurses-core.so.3()(64bit) \
-libswscale.so.7()(64bit) \
-libswscale.so.7(LIBSWSCALE_7.1_SUSE)(64bit)"
+libswscale.so.7()(64bit)"
 
 inherit rpm

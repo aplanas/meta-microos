@@ -9,23 +9,13 @@ RPM_HASH = "c39518040f66bff23c81e12bd5a2fb9f7123ba8b697211ee58325c19d5dd41afb021
 
 RPROVIDES:${PN} += "librdmacm \
 librdmacm.so.1()(64bit) \
-librdmacm.so.1(RDMACM_1.0)(64bit) \
-librdmacm.so.1(RDMACM_1.1)(64bit) \
-librdmacm.so.1(RDMACM_1.2)(64bit) \
-librdmacm.so.1(RDMACM_1.3)(64bit) \
 librdmacm1 \
 librdmacm1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libibverbs.so.1()(64bit) \
-libibverbs.so.1(IBVERBS_1.0)(64bit) \
-libibverbs.so.1(IBVERBS_1.1)(64bit) \
-libibverbs.so.1(IBVERBS_1.10)(64bit) \
-libibverbs.so.1(IBVERBS_1.5)(64bit) \
-libibverbs.so.1(IBVERBS_1.9)(64bit) \
 libnl-3.so.200()(64bit) \
 libnl-3.so.200(libnl_3)(64bit) \
 rdma-core"

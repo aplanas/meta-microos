@@ -14,20 +14,15 @@ libopenvas_wincmd1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasn1.so.8()(64bit) \
-libasn1.so.8(HEIMDAL_ASN1_1.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcom_err.so.2()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libgssapi.so.3()(64bit) \
-libgssapi.so.3(HEIMDAL_GSS_2.0)(64bit) \
 libhdb.so.9()(64bit) \
-libhdb.so.9(HEIMDAL_HDB_1.0)(64bit) \
 libkrb5.so.26()(64bit) \
-libkrb5.so.26(HEIMDAL_KRB5_2.0)(64bit) \
 libpopt.so.0()(64bit) \
 libpopt.so.0(LIBPOPT_0)(64bit)"
 

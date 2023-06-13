@@ -22,14 +22,13 @@ libwebkit2gtk3"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 bubblewrap \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libWPEBackend-fdo-1.0.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXcomposite.so.1()(64bit) \
 libXdamage.so.1()(64bit) \
 libatk-1.0.so.0()(64bit) \
 libavif.so.15()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libdrm.so.2()(64bit) \
 libenchant-2.so.2()(64bit) \
@@ -38,9 +37,7 @@ libfontconfig.so.1()(64bit) \
 libfreetype.so.6()(64bit) \
 libgbm.so.1()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_4.0.0)(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
@@ -67,13 +64,8 @@ libicuuc.so.73()(64bit) \
 libjavascriptcoregtk-4.1.so.0()(64bit) \
 libjavascriptcoregtk-4_1-0 \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 liblcms2.so.2()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libmanette-0.2.so.0()(64bit) \
 libopenjp2.so.7()(64bit) \
 libpango-1.0.so.0()(64bit) \
@@ -84,25 +76,6 @@ libsecret-1.so.0()(64bit) \
 libsoup-3.0.so.0()(64bit) \
 libsqlite3.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.5)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.17)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.19)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.22)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.30)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.31)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libtasn1.so.6()(64bit) \
@@ -115,20 +88,8 @@ libwebpdemux.so.2()(64bit) \
 libwoff2dec.so.1.0.2()(64bit) \
 libwpe-1.0.so.1()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.6)(64bit) \
 libxslt.so.1()(64bit) \
-libxslt.so.1(LIBXML2_1.0.11)(64bit) \
-libxslt.so.1(LIBXML2_1.0.13)(64bit) \
-libxslt.so.1(LIBXML2_1.0.22)(64bit) \
-libxslt.so.1(LIBXML2_1.0.24)(64bit) \
-libxslt.so.1(LIBXML2_1.0.30)(64bit) \
-libxslt.so.1(LIBXML2_1.1.18)(64bit) \
-libxslt.so.1(LIBXML2_1.1.9)(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit) \
-libz.so.1(ZLIB_1.2.2)(64bit) \
 webkit2gtk-4_1-injected-bundles \
 xdg-dbus-proxy"
 

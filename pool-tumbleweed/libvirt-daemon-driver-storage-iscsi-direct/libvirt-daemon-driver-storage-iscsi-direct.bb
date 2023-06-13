@@ -13,16 +13,12 @@ libvirt-daemon-driver-storage-iscsi-direct(aarch-64) \
 libvirt_storage_backend_iscsi-direct.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libiscsi.so.9()(64bit) \
 libvirt-daemon-driver-storage-core \
 libvirt-libs \
-libvirt.so.0()(64bit) \
-libvirt.so.0(LIBVIRT_PRIVATE_9.4.0)(64bit)"
+libvirt.so.0()(64bit)"
 
 inherit rpm

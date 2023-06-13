@@ -17,7 +17,6 @@ RDEPENDS:${PN} += "/bin/sh \
 gsettings-desktop-schemas \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \
 libGL.so.1()(64bit) \
 libGLESv2.so.2()(64bit) \
@@ -25,7 +24,7 @@ libICE.so.6()(64bit) \
 libSM.so.6()(64bit) \
 libX11.so.6()(64bit) \
 libXcomposite.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libepoxy.so.0()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
@@ -34,7 +33,6 @@ libgnome-desktop-3.so.20()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit)"
 

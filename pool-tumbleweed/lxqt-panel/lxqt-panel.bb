@@ -25,7 +25,6 @@ lxqt-panel \
 lxqt-panel(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Solid.so.5()(64bit) \
 libKF5WindowSystem.so.5()(64bit) \
 libQt5Core.so.5()(64bit) \
@@ -45,25 +44,17 @@ libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
 libXtst.so.6()(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdbusmenu-qt5.so.2()(64bit) \
 liblxqt-globalkeys-ui.so.1()(64bit) \
 liblxqt-globalkeys.so.1()(64bit) \
 liblxqt.so.1()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
 libsensors.so.4()(64bit) \
 libstatgrab.so.10()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libsysstat-qt5.so.0()(64bit) \
 libxcb-composite.so.0()(64bit) \
 libxcb-damage.so.0()(64bit) \
@@ -73,9 +64,7 @@ libxcb-util.so.1()(64bit) \
 libxcb-xkb.so.1()(64bit) \
 libxcb.so.1()(64bit) \
 libxkbcommon-x11.so.0()(64bit) \
-libxkbcommon-x11.so.0(V_0.5.0)(64bit) \
 libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit) \
 lxmenu-data"
 
 inherit rpm

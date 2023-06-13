@@ -10,6 +10,6 @@ RPM_HASH = "1bfdf12568e65c7ae44d8ee292c44cb3e680766318e5c1ba70ae38c4ae97fd228d5d
 RPROVIDES:${PN} += "rio \
 rio(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

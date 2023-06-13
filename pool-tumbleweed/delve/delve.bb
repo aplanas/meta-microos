@@ -14,6 +14,6 @@ RPM_HASH = "09627dadd79b5fd91acae479644d5de2504a9dae7c2f456f949335b23aa6081dc108
 RPROVIDES:${PN} += "delve \
 delve(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

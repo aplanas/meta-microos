@@ -12,12 +12,10 @@ RPM_HASH = "4b7282e61f66921a12619dfd96a09873e367ee3218a740134bf2644eff5a34842038
 RPROVIDES:${PN} += "openbsc-bs11-utils \
 openbsc-bs11-utils(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libosmoabis.so.10()(64bit) \
 libosmocore.so.20()(64bit) \
 libosmogsm.so.18()(64bit) \
-libosmogsm.so.18(LIBOSMOGSM_1.0)(64bit) \
-libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit)"
+libtalloc.so.2()(64bit)"
 
 inherit rpm

@@ -15,9 +15,8 @@ libappstream-glib8(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libarchive.so.13()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
@@ -25,7 +24,6 @@ libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 librpmio.so.9()(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
 libyaml-0.so.2()(64bit)"
 
 inherit rpm

@@ -45,7 +45,6 @@ libvideo-client.so()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXdamage.so.1()(64bit) \
 libXext.so.6()(64bit) \
@@ -53,26 +52,19 @@ libXfixes.so.3()(64bit) \
 libXinerama.so.1()(64bit) \
 libXtst.so.6()(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
 libavcodec.so.60()(64bit) \
-libavcodec.so.60(LIBAVCODEC_60.3_SUSE)(64bit) \
 libavutil.so.58()(64bit) \
-libavutil.so.58(LIBAVUTIL_58.2_SUSE)(64bit) \
-libc.so.6(GLIBC_2.32)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libcups.so.2()(64bit) \
 libgsm.so.1()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libmp3lame.so.0()(64bit) \
 libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
 libsoxr.so.0()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libusb-1.0.so.0()(64bit) \
 libwinpr-tools2.so.2()(64bit) \
 libwinpr2.so.2()(64bit) \

@@ -12,10 +12,9 @@ RPROVIDES:${PN} += "zk \
 zk(aarch-64)"
 
 RDEPENDS:${PN} += "fzf \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libicui18n.so.73()(64bit) \
 libicuuc.so.73()(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

@@ -31,14 +31,12 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/gzip \
 ffcall \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXau.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libXpm.so.4()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libdb-4.8.so()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
@@ -52,21 +50,12 @@ libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-x11-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.23)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libpcre.so.1()(64bit) \
 libpq.so.5()(64bit) \
 libreadline.so.8()(64bit) \
-libreadline.so.8(READLINE_6.3)(64bit) \
-libreadline.so.8(READLINE_7.0)(64bit) \
 libsigsegv.so.2()(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit) \
 vim \
 vim-data"
 

@@ -29,10 +29,9 @@ libasb_plugin_shell_extension.so()(64bit)"
 RDEPENDS:${PN} += "gcab \
 gdk-pixbuf-loader-rsvg \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libappstream-glib.so.8()(64bit) \
 libarchive.so.13()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
@@ -40,7 +39,6 @@ libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 librpm.so.9()(64bit) \
 librpmio.so.9()(64bit) \
 pngquant"

@@ -16,16 +16,12 @@ rdesktop(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXcursor.so.1()(64bit) \
 libXrandr.so.2()(64bit) \
 libao.so.4()(64bit) \
-libao.so.4(LIBAO4_1.1.0)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
@@ -37,8 +33,6 @@ libnettle.so.8()(64bit) \
 libnettle.so.8(NETTLE_8)(64bit) \
 libpcsclite.so.1()(64bit) \
 libsamplerate.so.0()(64bit) \
-libsamplerate.so.0(libsamplerate.so.0.0)(64bit) \
-libsamplerate.so.0(libsamplerate.so.0.1)(64bit) \
 libtasn1.so.6()(64bit) \
 libtasn1.so.6(LIBTASN1_0_3)(64bit)"
 

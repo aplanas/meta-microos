@@ -28,7 +28,7 @@ pidgin-plugin-indicator \
 pidgin-plugin-indicator(aarch-64)"
 
 RDEPENDS:${PN} += "libappindicator.so.1()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-x11-2.0.so.0()(64bit) \

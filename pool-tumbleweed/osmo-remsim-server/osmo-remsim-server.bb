@@ -13,18 +13,14 @@ RPROVIDES:${PN} += "osmo-remsim-server \
 osmo-remsim-server(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libjansson.so.4()(64bit) \
-libjansson.so.4(libjansson.so.4)(64bit) \
 liborcania.so.2.3()(64bit) \
 libosmo-rspro.so.1()(64bit) \
 libosmoabis.so.10()(64bit) \
 libosmocore.so.20()(64bit) \
 libosmogsm.so.18()(64bit) \
-libosmogsm.so.18(LIBOSMOGSM_1.0)(64bit) \
 libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit) \
 libulfius.so.2.7()(64bit)"
 
 inherit rpm

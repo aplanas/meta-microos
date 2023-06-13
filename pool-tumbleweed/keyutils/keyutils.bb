@@ -15,19 +15,8 @@ keyutils(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libkeyutils.so.1()(64bit) \
-libkeyutils.so.1(KEYUTILS_0.3)(64bit) \
-libkeyutils.so.1(KEYUTILS_1.0)(64bit) \
-libkeyutils.so.1(KEYUTILS_1.10)(64bit) \
-libkeyutils.so.1(KEYUTILS_1.3)(64bit) \
-libkeyutils.so.1(KEYUTILS_1.4)(64bit) \
-libkeyutils.so.1(KEYUTILS_1.5)(64bit) \
-libkeyutils.so.1(KEYUTILS_1.6)(64bit) \
-libkeyutils.so.1(KEYUTILS_1.7)(64bit) \
-libkeyutils.so.1(KEYUTILS_1.9)(64bit) \
-libresolv.so.2()(64bit) \
-libresolv.so.2(GLIBC_2.17)(64bit)"
+libresolv.so.2()(64bit)"
 
 inherit rpm

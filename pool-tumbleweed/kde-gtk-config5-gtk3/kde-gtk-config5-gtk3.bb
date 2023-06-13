@@ -13,8 +13,7 @@ kde-gtk-config5-gtk3(aarch-64)"
 
 RDEPENDS:${PN} += "kde-gtk-config5 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit)"

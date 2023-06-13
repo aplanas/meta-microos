@@ -16,21 +16,16 @@ libgd3(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libXpm.so.4()(64bit) \
 libavif.so.15()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libfontconfig.so.1()(64bit) \
 libfreetype.so.6()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 libwebp.so.7()(64bit) \
 libz.so.1()(64bit)"
 

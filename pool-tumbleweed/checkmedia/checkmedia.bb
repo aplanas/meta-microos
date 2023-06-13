@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "checkmedia \
 checkmedia(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libmediacheck.so.6()(64bit)"
 
 inherit rpm

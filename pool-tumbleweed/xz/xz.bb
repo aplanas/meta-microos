@@ -24,11 +24,7 @@ xz(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
-liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
-liblzma.so.5(XZ_5.2)(64bit) \
-liblzma.so.5(XZ_5.4)(64bit)"
+libc.so.6()(64bit) \
+liblzma.so.5()(64bit)"
 
 inherit rpm

@@ -18,12 +18,8 @@ RPROVIDES:${PN} += "pam_cifscreds \
 pam_cifscreds(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libkeyutils.so.1()(64bit) \
-libkeyutils.so.1(KEYUTILS_0.3)(64bit) \
-libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
-libpam.so.0(LIBPAM_EXTENSION_1.0)(64bit)"
+libpam.so.0()(64bit)"
 
 inherit rpm

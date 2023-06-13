@@ -15,17 +15,13 @@ gnome-podcasts(aarch-64) \
 metainfo() \
 metainfo(org.gnome.Podcasts.appdata.xml)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
@@ -39,7 +35,6 @@ libhandy-1.so.0()(64bit) \
 libhandy-1.so.0(LIBHANDY_1_0)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libsqlite3.so.0()(64bit) \
-libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit)"
+libssl.so.3()(64bit)"
 
 inherit rpm

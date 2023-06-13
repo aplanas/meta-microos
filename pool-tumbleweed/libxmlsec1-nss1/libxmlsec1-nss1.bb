@@ -13,21 +13,11 @@ libxmlsec1-nss1 \
 libxmlsec1-nss1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.11.2)(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
-libnss3.so(NSS_3.3)(64bit) \
-libnss3.so(NSS_3.4)(64bit) \
-libnss3.so(NSS_3.6)(64bit) \
-libnss3.so(NSS_3.7)(64bit) \
-libnss3.so(NSS_3.9)(64bit) \
 libsmime3.so()(64bit) \
-libsmime3.so(NSS_3.2)(64bit) \
-libsmime3.so(NSS_3.4)(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 libxmlsec1-1 \
 libxmlsec1.so.1()(64bit)"
 

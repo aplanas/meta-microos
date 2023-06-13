@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "libdoclet.so()(64bit) \
 valadoc-doclet-devhelp \
 valadoc-doclet-devhelp(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libvala-0.56.so.0()(64bit) \

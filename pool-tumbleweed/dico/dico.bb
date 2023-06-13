@@ -15,13 +15,10 @@ dico(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 info \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libdico.so.2()(64bit) \
 libgsasl.so.7()(64bit) \
-libgsasl.so.7(LIBGSASL_1.1)(64bit) \
 libltdl.so.7()(64bit) \
 libreadline.so.8()(64bit) \
 m4"

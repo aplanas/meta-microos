@@ -20,30 +20,14 @@ user(pesign)"
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libefivar.so.1()(64bit) \
-libefivar.so.1(libefivar.so.0)(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.10)(64bit) \
-libnss3.so(NSS_3.11.7)(64bit) \
-libnss3.so(NSS_3.12)(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
-libnss3.so(NSS_3.3)(64bit) \
-libnss3.so(NSS_3.4)(64bit) \
-libnss3.so(NSS_3.5)(64bit) \
-libnss3.so(NSS_3.6)(64bit) \
-libnss3.so(NSS_3.9)(64bit) \
 libpopt.so.0()(64bit) \
 libpopt.so.0(LIBPOPT_0)(64bit) \
 libsmime3.so()(64bit) \
-libsmime3.so(NSS_3.15)(64bit) \
-libsmime3.so(NSS_3.2)(64bit) \
-libsmime3.so(NSS_3.3)(64bit) \
-libsmime3.so(NSS_3.4)(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
 systemd \
 sysuser-shadow"
 

@@ -15,7 +15,7 @@ ocr_1_0_1-gnu-hpc(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 gnu-compilers-hpc \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 lua-lmod"
 
 inherit rpm

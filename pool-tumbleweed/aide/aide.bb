@@ -13,18 +13,13 @@ config(aide)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \
-libacl.so.1(ACL_1.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpcre2-8.so.0()(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

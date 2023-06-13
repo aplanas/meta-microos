@@ -11,6 +11,6 @@ RPM_HASH = "408019433c0951374d27cc99a693da7705eda3595caf78d09e76272b702c2aca30b8
 RPROVIDES:${PN} += "dnsmasq-utils \
 dnsmasq-utils(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

@@ -17,9 +17,7 @@ papi(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

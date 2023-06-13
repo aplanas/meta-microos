@@ -12,20 +12,15 @@ RPM_HASH = "fe5d06595872fe9c32e615fc932ca55e24c8200be61069108fe3c070a1e7b8e46813
 
 RPROVIDES:${PN} += "libgsasl \
 libgsasl.so.7()(64bit) \
-libgsasl.so.7(LIBGSASL_1.1)(64bit) \
-libgsasl.so.7(LIBGSASL_1.10)(64bit) \
-libgsasl.so.7(LIBGSASL_1.4)(64bit) \
 libgsasl7 \
 libgsasl7(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgssapi_krb5.so.2()(64bit) \
 libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
 libidn.so.12()(64bit) \
-libidn.so.12(LIBIDN_1.0)(64bit) \
 libntlm.so.0()(64bit)"
 
 inherit rpm

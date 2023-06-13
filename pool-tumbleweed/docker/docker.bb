@@ -32,7 +32,7 @@ e2fsprogs \
 fillup \
 iproute2 \
 iptables \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdevmapper.so.1.03()(64bit) \
 libdevmapper.so.1.03(Base)(64bit) \
 libdevmapper.so.1.03(DM_1_02_97)(64bit) \

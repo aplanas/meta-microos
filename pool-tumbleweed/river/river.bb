@@ -12,23 +12,14 @@ river(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libevdev.so.2()(64bit) \
 libevdev.so.2(LIBEVDEV_1)(64bit) \
 libinput.so.10()(64bit) \
-libinput.so.10(LIBINPUT_0.12.0)(64bit) \
-libinput.so.10(LIBINPUT_0.14.0)(64bit) \
-libinput.so.10(LIBINPUT_0.19.0)(64bit) \
-libinput.so.10(LIBINPUT_0.21.0)(64bit) \
-libinput.so.10(LIBINPUT_1.1)(64bit) \
-libinput.so.10(LIBINPUT_1.2)(64bit) \
-libinput.so.10(LIBINPUT_1.5)(64bit) \
 libpixman-1.so.0()(64bit) \
 libwayland-server.so.0()(64bit) \
 libwlroots.so.11()(64bit) \
 libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit) \
 river-riverctl \
 river-rivertile"
 

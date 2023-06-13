@@ -15,12 +15,10 @@ libaqbanking.so.44()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libgwenhywfar.so.79()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 libxmlsec1.so.1()(64bit) \
 libz.so.1()(64bit)"
 

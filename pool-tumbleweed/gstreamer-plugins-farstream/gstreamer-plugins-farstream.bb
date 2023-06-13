@@ -18,15 +18,13 @@ libfsvideoanyrate.so()(64bit)"
 RDEPENDS:${PN} += "gstreamer-plugins-bad \
 gstreamer-plugins-good \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libfarstream-0.2.so.5()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgstbase-1.0.so.0()(64bit) \
 libgstreamer-1.0.so.0()(64bit) \
 libgstrtp-1.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

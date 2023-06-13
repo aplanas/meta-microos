@@ -15,14 +15,12 @@ metainfo(evince-tiffdocument.metainfo.xml)"
 
 RDEPENDS:${PN} += "evince \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libevdocument3.so.4()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
-libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit)"
+libtiff.so.6()(64bit)"
 
 inherit rpm

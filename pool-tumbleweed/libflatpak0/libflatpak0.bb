@@ -15,36 +15,20 @@ libflatpak0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libXau.so.6()(64bit) \
 libarchive.so.13()(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libdconf.so.1()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libostree-1.so.1()(64bit) \
-libostree-1.so.1(LIBOSTREE_2016.3)(64bit) \
-libostree-1.so.1(LIBOSTREE_2016.4)(64bit) \
-libostree-1.so.1(LIBOSTREE_2016.5)(64bit) \
-libostree-1.so.1(LIBOSTREE_2016.6)(64bit) \
-libostree-1.so.1(LIBOSTREE_2016.7)(64bit) \
-libostree-1.so.1(LIBOSTREE_2016.8)(64bit) \
-libostree-1.so.1(LIBOSTREE_2017.10)(64bit) \
-libostree-1.so.1(LIBOSTREE_2017.15)(64bit) \
-libostree-1.so.1(LIBOSTREE_2017.2)(64bit) \
-libostree-1.so.1(LIBOSTREE_2017.6)(64bit) \
-libostree-1.so.1(LIBOSTREE_2018.6)(64bit) \
-libostree-1.so.1(LIBOSTREE_2018.9)(64bit) \
 libseccomp.so.2()(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 libzstd.so.1()(64bit)"
 
 inherit rpm

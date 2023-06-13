@@ -15,8 +15,7 @@ liblouis-tools(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblouis.so.20()(64bit) \
 libyaml-0.so.2()(64bit)"
 

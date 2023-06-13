@@ -17,8 +17,7 @@ libcrc32c1 \
 libcrc32c1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit)"
+libc.so.6()(64bit) \
+libstdc++.so.6()(64bit)"
 
 inherit rpm

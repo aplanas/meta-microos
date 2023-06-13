@@ -14,8 +14,7 @@ libstoragemgmt-nfs-plugin(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libstoragemgmt(aarch-64) \
 python(abi) \
 python3-libstoragemgmt"

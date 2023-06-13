@@ -12,9 +12,8 @@ RPROVIDES:${PN} += "libgen.so()(64bit) \
 lua53-luaposix \
 lua53-luaposix(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 lua53"
 
 inherit rpm

@@ -13,6 +13,6 @@ bluetuith(aarch-64)"
 
 RDEPENDS:${PN} += "bluez \
 dbus-1 \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

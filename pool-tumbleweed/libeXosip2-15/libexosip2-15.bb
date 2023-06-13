@@ -14,14 +14,11 @@ libeXosip2.so.15()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcares.so.2()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libosip2.so.15()(64bit) \
 libosipparser2.so.15()(64bit) \
-libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit)"
+libssl.so.3()(64bit)"
 
 inherit rpm

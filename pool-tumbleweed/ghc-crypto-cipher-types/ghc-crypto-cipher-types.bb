@@ -24,7 +24,7 @@ libHSmemory-0.18.0-2DG6nqjfLMK4MSR77XYQqL-ghc9.4.5.so()(64bit) \
 libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) \
 libHSsecuremem-0.1.10-BbcWu3otOS6JQaPW3JfszZ-ghc9.4.5.so()(64bit) \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit)"
 

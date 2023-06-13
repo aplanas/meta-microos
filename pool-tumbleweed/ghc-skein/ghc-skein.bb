@@ -26,7 +26,6 @@ ghc-skein(aarch-64) \
 libHSskein-1.0.9.4-C8WZ6GadOdNJdCjx57swFO-ghc9.4.5.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \
@@ -44,7 +43,7 @@ libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) \
 libHStime-1.12.2-ghc9.4.5.so()(64bit) \
 libHStransformers-0.5.6.2-ghc9.4.5.so()(64bit) \
 libHSunix-2.7.3-ghc9.4.5.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit)"
 

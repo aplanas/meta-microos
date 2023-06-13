@@ -10,10 +10,7 @@ RPM_HASH = "6b444d76bf5e59e407e68ad12790091b5313583c6fd6af257bed1d08c5ce5da19b45
 RPROVIDES:${PN} += "ocaml-bisect_ppx \
 ocaml-bisect_ppx(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

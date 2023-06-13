@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "criu-plugin-amdgpu \
 criu-plugin-amdgpu(aarch-64)"
 
 RDEPENDS:${PN} += "criu \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdrm_amdgpu.so.1()(64bit)"
 
 inherit rpm

@@ -13,12 +13,10 @@ libxmlsec1-gnutls1 \
 libxmlsec1-gnutls1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 libxmlsec1-1 \
 libxmlsec1-gcrypt.so.1()(64bit) \
 libxmlsec1.so.1()(64bit)"

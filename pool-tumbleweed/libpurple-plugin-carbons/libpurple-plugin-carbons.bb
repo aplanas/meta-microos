@@ -11,7 +11,7 @@ RPM_HASH = "ff09075cdd25f1bdb80512bcd96218e54b24d792e65804498746d890dcc67aad46b7
 RPROVIDES:${PN} += "libpurple-plugin-carbons \
 libpurple-plugin-carbons(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libjabber.so.0()(64bit)"
 

@@ -14,8 +14,7 @@ libfolks-eds26(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libebook-1.2.so.21()(64bit) \
 libebook-contacts-1.2.so.4()(64bit) \
 libedataserver-1.2.so.27()(64bit) \

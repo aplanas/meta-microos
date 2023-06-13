@@ -14,7 +14,7 @@ RPM_HASH = "8cf007992e1f1db01c07453216cdee55ef892f954c062dcd8088cde7197ffdf1e6f2
 RPROVIDES:${PN} += "mpg123-portaudio \
 mpg123-portaudio(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libportaudio.so.2()(64bit)"
 
 inherit rpm

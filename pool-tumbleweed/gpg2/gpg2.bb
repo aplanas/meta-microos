@@ -20,22 +20,16 @@ newpg"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libassuan.so.0()(64bit) \
-libassuan.so.0(LIBASSUAN_1.0)(64bit) \
 libassuan0 \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libgcrypt20 \
 libgpg-error.so.0()(64bit) \
-libgpg-error.so.0(GPG_ERROR_1.0)(64bit) \
 libksba \
 libksba.so.8()(64bit) \
-libksba.so.8(KSBA_0.9)(64bit) \
 libnpth.so.0()(64bit) \
-libnpth.so.0(NPTH_1.0)(64bit) \
 libreadline.so.8()(64bit) \
 libsqlite3.so.0()(64bit) \
 libusb-1.0.so.0()(64bit) \

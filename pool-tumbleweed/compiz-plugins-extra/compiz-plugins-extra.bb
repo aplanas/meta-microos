@@ -48,13 +48,12 @@ libworkspacenames.so()(64bit)"
 RDEPENDS:${PN} += "compiz \
 compiz-plugins-main \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLU.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libXfixes.so.3()(64bit) \
 libXrender.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libnotify.so.4()(64bit)"

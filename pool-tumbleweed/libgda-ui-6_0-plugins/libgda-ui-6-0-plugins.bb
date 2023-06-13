@@ -15,8 +15,7 @@ libgda-ui-6_0-plugins(aarch-64) \
 libgda-ui-plugins-libgda-6.0.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgda-6.0.so.6.0.0()(64bit) \
 libgda-ui-6.0.so.6.0.0()(64bit) \

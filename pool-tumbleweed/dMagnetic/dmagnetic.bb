@@ -12,6 +12,6 @@ RPM_HASH = "b5e8dbd42f3675993a6e0a2d46dc13b87ce5b19c38d40d9566925912925fd41f5329
 RPROVIDES:${PN} += "dMagnetic \
 dMagnetic(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

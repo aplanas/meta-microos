@@ -16,12 +16,10 @@ libauthuserdb.so.0()(64bit)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcourierauth.so.0()(64bit) \
 libcourierauthcommon.so.0()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libgdbm.so.6()(64bit)"
 
 inherit rpm

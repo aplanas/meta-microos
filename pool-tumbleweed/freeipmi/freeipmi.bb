@@ -18,8 +18,7 @@ RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 info \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfreeipmi.so.17()(64bit) \
 libipmiconsole.so.2()(64bit) \
 libipmidetect.so.0()(64bit)"

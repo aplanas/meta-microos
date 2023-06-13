@@ -17,8 +17,7 @@ python311-pycdio(aarch-64) \
 python3dist(pycdio)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcdio.so.19()(64bit) \
 libcdio.so.19(CDIO_19)(64bit) \
 libiso9660.so.11()(64bit) \

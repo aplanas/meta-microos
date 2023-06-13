@@ -17,12 +17,11 @@ RPROVIDES:${PN} += "libdv-playdv \
 libdv-playdv(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL-1.2.so.0()(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libXv.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdv.so.4()(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \
 libgtk-x11-2.0.so.0()(64bit) \

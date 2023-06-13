@@ -13,11 +13,9 @@ libcriterion3(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcriterion3-devel \
 libffi.so.8()(64bit) \
-libffi.so.8(LIBFFI_BASE_8.0)(64bit) \
 libgit2.so.1.6()(64bit) \
 libnanomsg.so.6()(64bit) \
 libprotobuf-nanopb.so.0()(64bit)"

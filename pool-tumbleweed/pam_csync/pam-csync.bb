@@ -14,10 +14,9 @@ RPROVIDES:${PN} += "config(pam_csync) \
 pam_csync \
 pam_csync(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libcsync.so.0()(64bit) \
 libiniparser.so.1()(64bit) \
-libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit)"
+libpam.so.0()(64bit)"
 
 inherit rpm

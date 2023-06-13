@@ -14,13 +14,10 @@ php8-imagick \
 php8-imagick(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMagickCore-7.Q16HDRI.so.10()(64bit) \
 libMagickWand-7.Q16HDRI.so.10()(64bit) \
-libMagickWand-7.Q16HDRI.so.10(VERS_10.0)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(OMP_5.0)(64bit) \
 php(api) \
 php(zend-abi)"
 

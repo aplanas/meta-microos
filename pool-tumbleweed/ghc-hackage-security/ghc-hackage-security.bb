@@ -26,7 +26,6 @@ ghc-hackage-security(aarch-64) \
 libHShackage-security-0.6.2.3-Km2R5J8alEh3bTkVIJr5Mq-ghc9.4.5.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSCabal-syntax-3.8.1.0-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
@@ -57,7 +56,7 @@ libHStime-1.12.2-ghc9.4.5.so()(64bit) \
 libHStransformers-0.5.6.2-ghc9.4.5.so()(64bit) \
 libHSunix-2.7.3-ghc9.4.5.so()(64bit) \
 libHSzlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk-ghc9.4.5.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit) \
 libz.so.1()(64bit)"

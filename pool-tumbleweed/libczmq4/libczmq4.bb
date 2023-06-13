@@ -23,13 +23,11 @@ libczmq4(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblz4.so.1()(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
 libzmq.so.5()(64bit)"
 
 inherit rpm

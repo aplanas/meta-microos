@@ -15,7 +15,6 @@ libkcompactdisc"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5I18n.so.5()(64bit) \
 libKF5Solid.so.5()(64bit) \
 libQt5Core.so.5()(64bit) \
@@ -23,13 +22,8 @@ libQt5Core.so.5(Qt_5)(64bit) \
 libQt5DBus.so.5()(64bit) \
 libQt5DBus.so.5(Qt_5)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libphonon4qt5.so.4()(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

@@ -79,9 +79,8 @@ subversion-perl(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libapr-1.so.0()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libsvn_client-1.so.0()(64bit) \
 libsvn_delta-1.so.0()(64bit) \
 libsvn_diff-1.so.0()(64bit) \

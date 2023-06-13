@@ -15,14 +15,13 @@ metainfo() \
 metainfo(com.github.cybre.budgie-haste-applet.appdata.xml)"
 
 RDEPENDS:${PN} += "libbudgie-plugin.so.0()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libpeas-1.0.so.0()(64bit) \
 libsoup-2.4.so.1()(64bit)"
 

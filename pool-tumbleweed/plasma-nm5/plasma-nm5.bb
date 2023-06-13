@@ -28,7 +28,6 @@ kded \
 kirigami2 \
 kwalletd5 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Completion.so.5()(64bit) \
 libKF5ConfigCore.so.5()(64bit) \
 libKF5ConfigWidgets.so.5()(64bit) \
@@ -60,7 +59,7 @@ libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
 libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libnm.so.0()(64bit) \
@@ -70,13 +69,6 @@ libnm.so.0(libnm_1_2_0)(64bit) \
 libnm.so.0(libnm_1_40_0)(64bit) \
 libqca-qt5.so.2()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 prison-qt5-imports \
 qt5qmlimport(QtQuick.2) \
 qt5qmlimport(QtQuick.Controls.2) \

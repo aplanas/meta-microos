@@ -18,6 +18,6 @@ RPM_HASH = "f396ea9e23c7f11e1d1492e83dab0f8ef635653037ccc4e66cf75d4a1724231306b4
 RPROVIDES:${PN} += "kubeaudit \
 kubeaudit(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

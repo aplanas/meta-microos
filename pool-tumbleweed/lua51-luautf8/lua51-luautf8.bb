@@ -15,7 +15,7 @@ RPM_HASH = "38fde1d7b349d26cbb2415f7333ae052d4955964fa1252065c6a4bb7b5c9a6a093d6
 RPROVIDES:${PN} += "lua51-luautf8 \
 lua51-luautf8(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 lua51"
 
 inherit rpm

@@ -15,22 +15,7 @@ xf86-input-libinput(aarch-64)"
 
 RDEPENDS:${PN} += "X11_ABI_XINPUT \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
-libinput.so.10()(64bit) \
-libinput.so.10(LIBINPUT_0.12.0)(64bit) \
-libinput.so.10(LIBINPUT_0.14.0)(64bit) \
-libinput.so.10(LIBINPUT_0.19.0)(64bit) \
-libinput.so.10(LIBINPUT_0.20.0)(64bit) \
-libinput.so.10(LIBINPUT_0.21.0)(64bit) \
-libinput.so.10(LIBINPUT_1.1)(64bit) \
-libinput.so.10(LIBINPUT_1.11)(64bit) \
-libinput.so.10(LIBINPUT_1.15)(64bit) \
-libinput.so.10(LIBINPUT_1.19)(64bit) \
-libinput.so.10(LIBINPUT_1.2)(64bit) \
-libinput.so.10(LIBINPUT_1.23)(64bit) \
-libinput.so.10(LIBINPUT_1.3)(64bit) \
-libinput.so.10(LIBINPUT_1.4)(64bit) \
-libinput.so.10(LIBINPUT_1.5)(64bit)"
+libc.so.6()(64bit) \
+libinput.so.10()(64bit)"
 
 inherit rpm

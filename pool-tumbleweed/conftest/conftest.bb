@@ -10,6 +10,6 @@ RPM_HASH = "bbe4dc8c9d92830305cdcf645ae021cbe836c43d23165ad11e4e4271d5136f5d9c07
 RPROVIDES:${PN} += "conftest \
 conftest(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

@@ -20,33 +20,18 @@ metainfo() \
 metainfo(4Pane.appdata.xml)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-x11-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_baseu-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_gtk2u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_core-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_gtk2u_html-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_html-suse.so.9.0.0(WXU_3.2)(64bit) \
-libwx_gtk2u_xrc-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_xrc-suse.so.9.0.0(WXU_3.2)(64bit)"
+libwx_gtk2u_xrc-suse.so.9.0.0()(64bit)"
 
 inherit rpm

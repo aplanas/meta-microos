@@ -14,10 +14,8 @@ gq(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libglade-2.0.so.0()(64bit) \
@@ -26,11 +24,8 @@ libgnome-keyring.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-x11-2.0.so.0()(64bit) \
 liblber.so.2()(64bit) \
-liblber.so.2(OPENLDAP_2.200)(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
 libpango-1.0.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

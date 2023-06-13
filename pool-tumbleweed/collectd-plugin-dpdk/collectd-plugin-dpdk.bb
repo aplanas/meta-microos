@@ -15,10 +15,8 @@ collectd-plugin-dpdk(aarch-64)"
 
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libjansson.so.4()(64bit) \
-libjansson.so.4(libjansson.so.4)(64bit) \
 librte_eal.so.23()(64bit) \
 librte_eal.so.23(DPDK_23)(64bit) \
 librte_ethdev.so.23()(64bit) \

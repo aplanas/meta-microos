@@ -24,8 +24,7 @@ RDEPENDS:${PN} += "(python39-async_timeout >= 4.0 with python39-async_timeout < 
 (python39-typing_extensions >= 3.7.4 if python39-base < 3.8) \
 (python39-yarl >= 1.0 with python39-yarl < 2) \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 python(abi) \
 python39-aiosignal \
 python39-attrs \

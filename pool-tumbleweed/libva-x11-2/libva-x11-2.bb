@@ -16,12 +16,11 @@ libva-x11.so.2()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11-xcb.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libXfixes.so.3()(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libdrm.so.2()(64bit) \
 libva.so.2()(64bit) \
 libxcb-dri3.so.0()(64bit) \

@@ -17,8 +17,6 @@ RDEPENDS:${PN} += "/bin/sh \
 icinga2-bin \
 libmariadb.so.3()(64bit) \
 libmariadb.so.3(libmysqlclient_18)(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

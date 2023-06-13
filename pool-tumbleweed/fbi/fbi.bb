@@ -15,21 +15,18 @@ fbi(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ghostscript-library \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdrm.so.2()(64bit) \
 libexif.so.12()(64bit) \
 libfontconfig.so.1()(64bit) \
 libfreetype.so.6()(64bit) \
 libgif.so.7()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpcd.so.2()(64bit) \
 libpixman-1.so.0()(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
-libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit)"
+libtiff.so.6()(64bit)"
 
 inherit rpm

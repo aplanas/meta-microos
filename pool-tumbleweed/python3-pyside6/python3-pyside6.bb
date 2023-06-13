@@ -29,16 +29,12 @@ libQt63DLogic.so.6()(64bit) \
 libQt63DLogic.so.6(Qt_6)(64bit) \
 libQt63DRender.so.6()(64bit) \
 libQt63DRender.so.6(Qt_6)(64bit) \
-libQt63DRender.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
 libQt6Bluetooth.so.6()(64bit) \
 libQt6Bluetooth.so.6(Qt_6)(64bit) \
 libQt6Charts.so.6()(64bit) \
 libQt6Charts.so.6(Qt_6)(64bit) \
-libQt6Charts.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
 libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Core.so.6(Qt_6.5)(64bit) \
-libQt6Core.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
 libQt6DBus.so.6()(64bit) \
 libQt6DBus.so.6(Qt_6)(64bit) \
 libQt6DataVisualization.so.6()(64bit) \
@@ -59,7 +55,6 @@ libQt6MultimediaWidgets.so.6()(64bit) \
 libQt6MultimediaWidgets.so.6(Qt_6)(64bit) \
 libQt6Network.so.6()(64bit) \
 libQt6Network.so.6(Qt_6)(64bit) \
-libQt6Network.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
 libQt6NetworkAuth.so.6()(64bit) \
 libQt6NetworkAuth.so.6(Qt_6)(64bit) \
 libQt6Nfc.so.6()(64bit) \
@@ -78,7 +73,6 @@ libQt6PrintSupport.so.6()(64bit) \
 libQt6PrintSupport.so.6(Qt_6)(64bit) \
 libQt6Qml.so.6()(64bit) \
 libQt6Qml.so.6(Qt_6)(64bit) \
-libQt6Qml.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
 libQt6Quick.so.6()(64bit) \
 libQt6Quick.so.6(Qt_6)(64bit) \
 libQt6Quick3D.so.6()(64bit) \
@@ -127,20 +121,12 @@ libQt6Widgets.so.6()(64bit) \
 libQt6Widgets.so.6(Qt_6)(64bit) \
 libQt6Xml.so.6()(64bit) \
 libQt6Xml.so.6(Qt_6)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libpython3.10.so.1.0()(64bit) \
 libshiboken6.abi3.so.6.5()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
 python(abi)"
 
 inherit rpm

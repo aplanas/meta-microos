@@ -13,6 +13,6 @@ occt-DRAWEXE(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/bash \
 libTKDraw.so.7.7()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

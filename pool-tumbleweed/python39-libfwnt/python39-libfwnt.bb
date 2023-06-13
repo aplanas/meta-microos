@@ -12,8 +12,7 @@ RPROVIDES:${PN} += "python39-libfwnt \
 python39-libfwnt(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcerror.so.1()(64bit) \
 libcerror.so.1(V_20220101)(64bit) \
 libfwnt.so.1()(64bit) \

@@ -18,6 +18,6 @@ RPROVIDES:${PN} += "luvcview \
 luvcview(aarch-64)"
 
 RDEPENDS:${PN} += "libSDL-1.2.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

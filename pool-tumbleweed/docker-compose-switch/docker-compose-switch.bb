@@ -13,7 +13,7 @@ docker-compose-switch(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 docker \
 docker-compose \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 update-alternatives"
 
 inherit rpm

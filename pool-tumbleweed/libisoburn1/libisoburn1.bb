@@ -20,10 +20,9 @@ libisoburn1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libburn.so.4()(64bit) \
 libburn.so.4(LIBBURN4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libisofs.so.6()(64bit) \
 libisofs.so.6(LIBISOFS6)(64bit) \
 libjte.so.2()(64bit) \

@@ -43,8 +43,7 @@ pkgconfig(cxxtools-xmlrpc)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcxxtools-bin.so.10()(64bit) \
 libcxxtools-bin10 \
 libcxxtools-http10 \
@@ -54,17 +53,7 @@ libcxxtools-xmlrpc10 \
 libcxxtools.so.10()(64bit) \
 libcxxtools10 \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.7)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 pkgconfig(cxxtools) \
 pkgconfig(cxxtools-http)"
 

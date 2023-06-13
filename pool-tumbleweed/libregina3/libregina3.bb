@@ -10,19 +10,12 @@ RPM_HASH = "9e65aa4608dee7cf0541083e13d21be65e88afdb03c49ae4d4199bc288699ac521da
 
 RPROVIDES:${PN} += "libregina.so.3()(64bit) \
 libregina.so.3(REXXSAA_API)(64bit) \
-libregina.so.3(regina_2.0)(64bit) \
-libregina.so.3(regina_2.2)(64bit) \
-libregina.so.3(regina_3.1)(64bit) \
-libregina.so.3(regina_3.3)(64bit) \
-libregina.so.3(regina_3.7)(64bit) \
 libregina3 \
 libregina3(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
-libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit)"
+libc.so.6()(64bit) \
+libcrypt.so.1()(64bit)"
 
 inherit rpm

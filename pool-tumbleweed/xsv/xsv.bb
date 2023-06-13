@@ -11,10 +11,7 @@ RPM_HASH = "e545990b430dfc23cc90be0d843eb243f3a005038b0570763ec8aef2bca91c6c2103
 RPROVIDES:${PN} += "xsv \
 xsv(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
-libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
+libgcc_s.so.1()(64bit)"
 
 inherit rpm

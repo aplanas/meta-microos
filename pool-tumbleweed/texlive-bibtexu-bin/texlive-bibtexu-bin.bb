@@ -11,8 +11,7 @@ RPROVIDES:${PN} += "texlive-bibtexu-bin \
 texlive-bibtexu-bin(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libicui18n.so.73()(64bit) \
 libicuuc.so.73()(64bit) \
 libkpathsea.so.6()(64bit) \

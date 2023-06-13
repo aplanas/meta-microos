@@ -14,16 +14,8 @@ RPROVIDES:${PN} += "ved \
 ved(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libschily.so.2.0()(64bit) \
-libschily.so.2.0(SCHILY_1.0)(64bit) \
-libschily.so.2.0(SCHILY_1.10)(64bit) \
-libschily.so.2.0(SCHILY_1.2)(64bit) \
-libschily.so.2.0(SCHILY_1.5)(64bit) \
-libschily.so.2.0(SCHILY_2.0)(64bit) \
-libxtermcap.so.1.0()(64bit) \
-libxtermcap.so.1.0(SCHILY_1.0)(64bit) \
-libxtermcap.so.1.0(SCHILY_1.1)(64bit)"
+libxtermcap.so.1.0()(64bit)"
 
 inherit rpm

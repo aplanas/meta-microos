@@ -19,8 +19,7 @@ libredland0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdb-4.8.so()(64bit) \
 libraptor2.so.0()(64bit) \
 librasqal.so.3()(64bit)"

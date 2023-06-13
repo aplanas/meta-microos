@@ -19,11 +19,9 @@ mimehandler(audio/x-amzxml)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libexpat.so.1()(64bit) \
-libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit)"
+libgcrypt.so.20()(64bit)"
 
 inherit rpm

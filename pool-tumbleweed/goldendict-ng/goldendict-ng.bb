@@ -18,10 +18,8 @@ mimehandler(x-scheme-handler/dict) \
 mimehandler(x-scheme-handler/goldendict)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Core.so.6(Qt_6.5)(64bit) \
 libQt6Core5Compat.so.6()(64bit) \
 libQt6Core5Compat.so.6(Qt_6)(64bit) \
 libQt6Gui.so.6()(64bit) \
@@ -49,46 +47,22 @@ libQt6Xml.so.6(Qt_6)(64bit) \
 libX11.so.6()(64bit) \
 libXtst.so.6()(64bit) \
 libavcodec.so.60()(64bit) \
-libavcodec.so.60(LIBAVCODEC_60.3_SUSE)(64bit) \
 libavformat.so.60()(64bit) \
-libavformat.so.60(LIBAVFORMAT_60.3_SUSE)(64bit) \
 libavutil.so.58()(64bit) \
-libavutil.so.58(LIBAVUTIL_58.2_SUSE)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libeb.so.16()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libhunspell-1.7.so.0()(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 liblzo2.so.2()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libopencc.so.1.1()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.11)(64bit) \
-libstdc++.so.6(CXXABI_1.3.13)(64bit) \
-libstdc++.so.6(CXXABI_1.3.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libswresample.so.4()(64bit) \
-libswresample.so.4(LIBSWRESAMPLE_4.10_SUSE)(64bit) \
 libvorbisfile.so.3()(64bit) \
 libxapian.so.30()(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit) \
-libz.so.1(ZLIB_1.2.0.2)(64bit) \
-libz.so.1(ZLIB_1.2.2.3)(64bit) \
 libzstd.so.1()(64bit)"
 
 inherit rpm

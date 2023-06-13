@@ -36,16 +36,12 @@ RDEPENDS:${PN} += "/bin/sh \
 gstreamer1(element-gtksink)()(64bit) \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libadwaita-1.so.0()(64bit) \
 libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgee-0.8.so.2()(64bit) \
 libgio-2.0.so.0()(64bit) \
@@ -55,8 +51,6 @@ libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgpgme.so.11()(64bit) \
-libgpgme.so.11(GPGME_1.0)(64bit) \
-libgpgme.so.11(GPGME_1.1)(64bit) \
 libgraphene-1.0.so.0()(64bit) \
 libgstapp-1.0.so.0()(64bit) \
 libgstaudio-1.0.so.0()(64bit) \
@@ -67,8 +61,6 @@ libgstvideo-1.0.so.0()(64bit) \
 libgtk-4.so.1()(64bit) \
 libicuuc.so.73()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libnice.so.10()(64bit) \
 libpango-1.0.so.0()(64bit) \
 libqrencode.so.4()(64bit) \
@@ -77,9 +69,6 @@ libsoup-3.0.so.0()(64bit) \
 libsqlite3.so.0()(64bit) \
 libsrtp2.so.1()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 libwebrtc_audio_processing.so.1()(64bit)"
 
 inherit rpm

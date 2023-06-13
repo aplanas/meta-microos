@@ -12,6 +12,6 @@ RPM_HASH = "66b8a68414de50d7745d492fe6687116b0b695d0603dc37e2a68e37bfe4357a44a1e
 RPROVIDES:${PN} += "dnstracer \
 dnstracer(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

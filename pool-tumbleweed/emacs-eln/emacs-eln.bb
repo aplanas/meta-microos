@@ -17,6 +17,6 @@ RPROVIDES:${PN} += "emacs-eln \
 emacs-eln(aarch-64)"
 
 RDEPENDS:${PN} += "emacs-el \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

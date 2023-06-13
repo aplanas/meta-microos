@@ -18,17 +18,12 @@ protobuf-devel(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gcc-c++ \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libprotobuf-lite3_21_12 \
 libprotobuf3_21_12 \
 libprotoc-3.21.12.so()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
 pkgconfig(zlib)"
 
 inherit rpm

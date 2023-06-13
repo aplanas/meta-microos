@@ -30,18 +30,14 @@ libcholmod3(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libamd.so.2()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcamd.so.2()(64bit) \
 libccolamd.so.2()(64bit) \
 libcolamd.so.2()(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit) \
 liblapack.so.3()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libmetis.so.5()(64bit) \
 libopenblas.so.0()(64bit) \
 libsuitesparseconfig.so.5()(64bit)"

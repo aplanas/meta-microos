@@ -14,19 +14,15 @@ RPROVIDES:${PN} += "ccx \
 ccx(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libarpack.so.2()(64bit) \
 libblas.so.3()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_4.0.0)(64bit) \
 libgfortran.so.5()(64bit) \
 libgfortran.so.5(GFORTRAN_10)(64bit) \
 libgfortran.so.5(GFORTRAN_8)(64bit) \
 liblapack.so.3()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libspooles.so.2.2()(64bit)"
 
 inherit rpm

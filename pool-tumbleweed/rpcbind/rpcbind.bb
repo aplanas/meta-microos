@@ -22,13 +22,10 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libtirpc.so.3()(64bit) \
-libtirpc.so.3(TIRPC_0.3.0)(64bit) \
-libtirpc.so.3(TIRPC_0.3.3)(64bit) \
 libtirpc.so.3(TIRPC_PRIVATE)(64bit) \
 libwrap.so.0()(64bit) \
 sysuser-shadow"

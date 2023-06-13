@@ -36,7 +36,7 @@ libHStime-1.12.2-ghc9.4.5.so()(64bit) \
 libHStransformers-0.5.6.2-ghc9.4.5.so()(64bit) \
 libHSunix-2.7.3-ghc9.4.5.so()(64bit) \
 libHSutf8-string-1.0.2-3yyxPCwARUwDt9ZNWn320Q-ghc9.4.5.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgmp.so.10()(64bit) \

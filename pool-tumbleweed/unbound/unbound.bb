@@ -21,19 +21,15 @@ unbound(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 ldns \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libevent-2.1.so.7()(64bit) \
 libnghttp2.so.14()(64bit) \
 libprotobuf-c.so.1()(64bit) \
-libprotobuf-c.so.1(LIBPROTOBUF_C_1.0.0)(64bit) \
 libpython3.10.so.1.0()(64bit) \
 libsodium.so.23()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libunbound.so.8()(64bit) \
 openssl \
 sudo \

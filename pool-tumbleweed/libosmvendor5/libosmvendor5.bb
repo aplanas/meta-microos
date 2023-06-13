@@ -8,19 +8,14 @@ RPM_NAME = "libosmvendor5-3.3.24-3.7.aarch64.rpm"
 RPM_HASH = "e4ce8549779e5436c6a97a6503a5b0581e6415e80caeb1f640d91f53faf288079e9b3747c45c9b29a6a6a087150544f096933e656550c0406b9736d898b4f1cf"
 
 RPROVIDES:${PN} += "libosmvendor.so.5()(64bit) \
-libosmvendor.so.5(OSMVENDOR_2.0)(64bit) \
 libosmvendor5 \
 libosmvendor5(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libibumad.so.3()(64bit) \
-libibumad.so.3(IBUMAD_1.0)(64bit) \
 libopensm.so.9()(64bit) \
-libopensm.so.9(OPENSM_1.5)(64bit) \
-libosmcomp.so.5()(64bit) \
-libosmcomp.so.5(OSMCOMP_2.3)(64bit)"
+libosmcomp.so.5()(64bit)"
 
 inherit rpm

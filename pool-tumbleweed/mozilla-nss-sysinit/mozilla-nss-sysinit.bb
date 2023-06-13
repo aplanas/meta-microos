@@ -12,7 +12,6 @@ RPM_HASH = "b16062b65e00bdac6ad6c2129cfbf2989312510ef409994b546213d34395291f9a23
 
 RPROVIDES:${PN} += "config(mozilla-nss-sysinit) \
 libnsssysinit.so()(64bit) \
-libnsssysinit.so(NSS_3.15)(64bit) \
 mozilla-nss-sysinit \
 mozilla-nss-sysinit(aarch-64)"
 
@@ -20,12 +19,9 @@ RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libnspr4.so()(64bit) \
 libnssutil3.so()(64bit) \
-libnssutil3.so(NSSUTIL_3.12)(64bit) \
-libnssutil3.so(NSSUTIL_3.14)(64bit) \
 libplc4.so()(64bit) \
 mozilla-nss"
 

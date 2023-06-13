@@ -11,7 +11,7 @@ RPM_HASH = "f5fd01ab68328c2da9d22fb9991074710a90c4f110cd61bc859cd89e71d2321ab553
 RPROVIDES:${PN} += "sunxi-tools \
 sunxi-tools(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libusb-1.0.so.0()(64bit) \
 libz.so.1()(64bit)"
 

@@ -10,6 +10,6 @@ RPM_HASH = "f69f7ed8b4bb341adbf7d208675e6b7bfdcb3303f7316a015e87facc1a895726840a
 RPROVIDES:${PN} += "kubevirt-tests \
 kubevirt-tests(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

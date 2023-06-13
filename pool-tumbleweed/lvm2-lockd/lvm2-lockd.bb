@@ -14,13 +14,10 @@ RDEPENDS:${PN} += "/bin/sh \
 corosync \
 device-mapper \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdlm \
 libdlm_lt.so.3()(64bit) \
-libdlm_lt.so.3(V_4.1.0)(64bit) \
 libdlmcontrol.so.3()(64bit) \
-libdlmcontrol.so.3(V_4.1.0)(64bit) \
 libsanlock_client.so.1()(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \

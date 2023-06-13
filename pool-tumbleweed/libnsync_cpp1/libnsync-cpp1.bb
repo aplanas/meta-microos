@@ -12,10 +12,7 @@ libnsync_cpp1 \
 libnsync_cpp1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.34)(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.19)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+libc.so.6()(64bit) \
+libstdc++.so.6()(64bit)"
 
 inherit rpm

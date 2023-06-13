@@ -12,7 +12,7 @@ gcc12-devel(aarch-64)"
 
 RDEPENDS:${PN} += "gcc12 \
 gmp-devel \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 mpc-devel"
 
 inherit rpm

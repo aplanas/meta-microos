@@ -36,13 +36,9 @@ radare2(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libcapstone.so.4()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libmagic.so.1()(64bit) \
 libxxhash.so.0()(64bit) \
 libz.so.1()(64bit) \

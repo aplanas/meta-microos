@@ -15,10 +15,8 @@ osgi(com.github.jnr.jffi.native)"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libffi.so.8()(64bit) \
-libffi.so.8(LIBFFI_BASE_8.0)(64bit) \
-libffi.so.8(LIBFFI_CLOSURE_8.0)(64bit) \
 osgi(com.github.jnr.jffi)"
 
 inherit rpm

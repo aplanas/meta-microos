@@ -12,8 +12,7 @@ RPROVIDES:${PN} += "syslog-ng-geoip \
 syslog-ng-geoip(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libmaxminddb.so.0()(64bit) \
 libsyslog-ng-4.2.so.0()(64bit) \
 syslog-ng"

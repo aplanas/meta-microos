@@ -14,8 +14,7 @@ xorg-x11-driver-video-nouveau"
 
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libdrm.so.2()(64bit) \
 libdrm_nouveau.so.2()(64bit) \
 libudev.so.1()(64bit) \

@@ -19,7 +19,7 @@ warewulf4(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 dhcp-server \
 ipxe-bootimgs \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 pigz \
 sysuser-shadow \
 tftp \

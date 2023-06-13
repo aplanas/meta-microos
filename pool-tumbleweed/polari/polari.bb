@@ -20,31 +20,13 @@ typelib(Polari)"
 
 RDEPENDS:${PN} += "gjs \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libgirepository-1.0.so.1()(64bit) \
 libgjs.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libtelepathy-glib.so.0()(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.11.7)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.13.10)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.13.14)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.13.9)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.15.5)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.15.6)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.15.8)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.19.9)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.0)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.1)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.17)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.18)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.2)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.21)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.32)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.9)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.9.0)(64bit) \
 telepathy-idle \
 telepathy-logger \
 telepathy-mission-control \

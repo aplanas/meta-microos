@@ -22,12 +22,9 @@ pam_keyring"
 RDEPENDS:${PN} += "/bin/sh \
 gnome-keyring \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 pam-config \
 sed"
 

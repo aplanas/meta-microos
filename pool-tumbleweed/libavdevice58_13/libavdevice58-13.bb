@@ -17,11 +17,8 @@ libavdevice58_13(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
 libavcodec.so.58.134()(64bit) \
 libavcodec.so.58.134(LIBAVCODEC_58)(64bit) \
 libavcodec58_134 \
@@ -34,7 +31,7 @@ libavformat58_76 \
 libavutil.so.56.70()(64bit) \
 libavutil.so.56.70(LIBAVUTIL_56)(64bit) \
 libavutil56_70 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcdio_cdda.so.2()(64bit) \
 libcdio_cdda.so.2(CDIO_CDDA_2)(64bit) \
 libcdio_paranoia.so.2()(64bit) \

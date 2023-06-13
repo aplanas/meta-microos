@@ -11,11 +11,10 @@ RPROVIDES:${PN} += "libpurple-plugin-rocketchat \
 libpurple-plugin-rocketchat(aarch-64) \
 librocketchat.so()(64bit)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libmarkdown.so.3()(64bit) \
 libpurple.so.0()(64bit)"
 

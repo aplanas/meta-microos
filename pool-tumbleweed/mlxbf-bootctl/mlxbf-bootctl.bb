@@ -10,6 +10,6 @@ RPM_HASH = "36e6a20730e7964cdac712c3299d19a21c164adfc9f76d420be79a7445013e0fa936
 RPROVIDES:${PN} += "mlxbf-bootctl \
 mlxbf-bootctl(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

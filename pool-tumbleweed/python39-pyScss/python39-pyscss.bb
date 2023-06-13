@@ -27,8 +27,7 @@ python3dist(pyscss)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpcre.so.1()(64bit) \
 python(abi) \
 python39-setuptools \

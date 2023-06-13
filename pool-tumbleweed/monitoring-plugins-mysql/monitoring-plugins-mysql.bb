@@ -16,8 +16,7 @@ monitoring-plugins-mysql_query \
 nagios-plugins-mysql"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libmariadb.so.3()(64bit) \
 libmariadb.so.3(libmysqlclient_18)(64bit)"
 

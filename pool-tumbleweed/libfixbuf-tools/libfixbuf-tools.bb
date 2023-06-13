@@ -18,8 +18,7 @@ RPROVIDES:${PN} += "libfixbuf-tools \
 libfixbuf-tools(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfixbuf.so.9()(64bit) \
 libglib-2.0.so.0()(64bit)"
 

@@ -12,7 +12,7 @@ chart-testing(aarch-64)"
 
 RDEPENDS:${PN} += "git-core \
 helm \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 python3-yamale \
 python3-yamllint"
 

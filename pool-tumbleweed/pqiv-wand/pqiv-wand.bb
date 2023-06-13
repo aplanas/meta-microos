@@ -11,8 +11,7 @@ RPROVIDES:${PN} += "pqiv-wand \
 pqiv-wand(aarch-64)"
 
 RDEPENDS:${PN} += "libMagickWand-7.Q16HDRI.so.10()(64bit) \
-libMagickWand-7.Q16HDRI.so.10(VERS_10.0)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \

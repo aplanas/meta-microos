@@ -22,15 +22,13 @@ user(dnsmasq)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libgmp.so.10()(64bit) \
 libhogweed.so.6()(64bit) \
 libhogweed.so.6(HOGWEED_6)(64bit) \
 libidn2.so.0()(64bit) \
-libidn2.so.0(IDN2_0.0.0)(64bit) \
 liblua5.4.so.5()(64bit) \
 libnetfilter_conntrack.so.3()(64bit) \
 libnettle.so.8()(64bit) \

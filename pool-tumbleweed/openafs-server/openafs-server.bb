@@ -22,11 +22,9 @@ openafs-server(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libafshcrypto.so.2()(64bit) \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libkrb5.so.3()(64bit) \
 libkrb5.so.3(krb5_3_MIT)(64bit) \
 librokenafs.so.2()(64bit) \

@@ -9,14 +9,10 @@ RPM_NAME = "liburing2-2.3-3.1.aarch64.rpm"
 RPM_HASH = "abee5631607d0bbcd0f9991252568068d32588d92338f31bcad46f9de49ea1667038e2d70cb1be18958d958675f98d621c759e33717c51d25b013183731b17bf"
 
 RPROVIDES:${PN} += "liburing.so.2()(64bit) \
-liburing.so.2(LIBURING_2.0)(64bit) \
-liburing.so.2(LIBURING_2.1)(64bit) \
-liburing.so.2(LIBURING_2.2)(64bit) \
-liburing.so.2(LIBURING_2.3)(64bit) \
 liburing2 \
 liburing2(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

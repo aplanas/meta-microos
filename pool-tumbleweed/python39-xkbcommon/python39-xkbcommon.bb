@@ -13,13 +13,8 @@ python39-xkbcommon(aarch-64) \
 python3dist(xkbcommon)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit) \
-libxkbcommon.so.0(V_0.6.0)(64bit) \
-libxkbcommon.so.0(V_0.7.0)(64bit) \
-libxkbcommon.so.0(V_0.8.0)(64bit) \
 python(abi)"
 
 inherit rpm

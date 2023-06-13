@@ -13,8 +13,7 @@ php8-memcached \
 php8-memcached(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libfastlz.so.1()(64bit) \
 libmemcached.so.11()(64bit) \
 libsasl2.so.3()(64bit) \

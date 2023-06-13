@@ -17,30 +17,12 @@ libuct_rdmacm.so.0()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libibverbs.so.1()(64bit) \
-libibverbs.so.1(IBVERBS_1.0)(64bit) \
-libibverbs.so.1(IBVERBS_1.1)(64bit) \
-libibverbs.so.1(IBVERBS_1.10)(64bit) \
-libibverbs.so.1(IBVERBS_1.12)(64bit) \
-libibverbs.so.1(IBVERBS_1.8)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmlx5.so.1()(64bit) \
-libmlx5.so.1(MLX5_1.1)(64bit) \
-libmlx5.so.1(MLX5_1.11)(64bit) \
-libmlx5.so.1(MLX5_1.19)(64bit) \
-libmlx5.so.1(MLX5_1.2)(64bit) \
-libmlx5.so.1(MLX5_1.3)(64bit) \
-libmlx5.so.1(MLX5_1.7)(64bit) \
-libmlx5.so.1(MLX5_1.8)(64bit) \
 libnuma.so.1()(64bit) \
-libnuma.so.1(libnuma_1.1)(64bit) \
-libnuma.so.1(libnuma_1.2)(64bit) \
 librdmacm.so.1()(64bit) \
-librdmacm.so.1(RDMACM_1.0)(64bit) \
-librdmacm.so.1(RDMACM_1.2)(64bit) \
 libucs.so.0()(64bit)"
 
 inherit rpm

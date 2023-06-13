@@ -19,7 +19,7 @@ ocamlfind(integers.top) \
 ocamlx(Signed) \
 ocamlx(Unsigned)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 ocaml(Asttypes) \
 ocaml(Build_path_prefix_map) \
 ocaml(CamlinternalFormatBasics) \

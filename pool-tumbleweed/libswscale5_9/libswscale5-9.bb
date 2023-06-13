@@ -15,13 +15,10 @@ libswscale5_9(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavutil.so.56.70()(64bit) \
 libavutil.so.56.70(LIBAVUTIL_56)(64bit) \
 libavutil56_70 \
-libc.so.6(GLIBC_2.17)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+libc.so.6()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

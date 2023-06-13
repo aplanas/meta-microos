@@ -19,7 +19,7 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/touch \
 fillup \
 group(nobody) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libz.so.1()(64bit) \
 net-tools-deprecated \
 sysuser-shadow"

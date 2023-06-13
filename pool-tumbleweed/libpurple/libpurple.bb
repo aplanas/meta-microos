@@ -32,11 +32,10 @@ ca-certificates-mozilla \
 cyrus-sasl-digestmd5 \
 cyrus-sasl-plain \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-client.so.3()(64bit) \
 libavahi-common.so.3()(64bit) \
 libavahi-glib.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libgadu.so.3()(64bit) \
@@ -47,12 +46,8 @@ libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgstreamer-1.0.so.0()(64bit) \
 libidn.so.12()(64bit) \
-libidn.so.12(LIBIDN_1.0)(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
-libnss3.so(NSS_3.3)(64bit) \
-libnss3.so(NSS_3.4)(64bit) \
 libperl.so()(64bit) \
 libpurple-branding \
 libpurple-client.so.0()(64bit) \
@@ -60,15 +55,8 @@ libpurple-client0 \
 libpurple0 \
 libsasl2.so.3()(64bit) \
 libsmime3.so()(64bit) \
-libsmime3.so(NSS_3.4)(64bit) \
 libssl3.so()(64bit) \
-libssl3.so(NSS_3.12.6)(64bit) \
-libssl3.so(NSS_3.14)(64bit) \
-libssl3.so(NSS_3.2)(64bit) \
-libssl3.so(NSS_3.4)(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 perl \
 python3-dbus-python"
 

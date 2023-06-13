@@ -22,7 +22,7 @@ ocamlx(Parmap_compat) \
 ocamlx(Parmap_utils) \
 ocamlx(Setcore)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Array) \

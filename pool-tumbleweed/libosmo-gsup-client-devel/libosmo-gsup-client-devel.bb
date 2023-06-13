@@ -18,14 +18,11 @@ pkgconfig(libosmo-gsup-client)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libosmo-gsup-client.so.0()(64bit) \
 libosmo-gsup-client0 \
 libosmocore.so.20()(64bit) \
 libosmogsm.so.18()(64bit) \
-libosmogsm.so.18(LIBOSMOGSM_1.0)(64bit) \
-libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit)"
+libtalloc.so.2()(64bit)"
 
 inherit rpm

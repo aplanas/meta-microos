@@ -29,12 +29,11 @@ mimehandler(inode/directory) \
 mimehandler(x-content/software)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \
 libSM.so.6()(64bit) \
 libX11.so.6()(64bit) \
 libatk-1.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \
 libcaja-extension.so.1()(64bit) \
@@ -53,11 +52,6 @@ libnotify.so.4()(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.23)(64bit) \
-libxml2.so.2(LIBXML2_2.6.8)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

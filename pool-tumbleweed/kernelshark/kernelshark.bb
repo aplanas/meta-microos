@@ -20,7 +20,6 @@ libkshark.so.2()(64bit)"
 RDEPENDS:${PN} += "/bin/bash \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libGLU.so.1()(64bit) \
 libQt5Core.so.5()(64bit) \
@@ -31,34 +30,12 @@ libQt5Network.so.5()(64bit) \
 libQt5Network.so.5(Qt_5)(64bit) \
 libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libglut.so.3()(64bit) \
 libjson-c.so.5()(64bit) \
-libjson-c.so.5(JSONC_0.14)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.11)(64bit) \
-libstdc++.so.6(CXXABI_1.3.13)(64bit) \
-libstdc++.so.6(CXXABI_1.3.2)(64bit) \
-libstdc++.so.6(CXXABI_1.3.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.17)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.22)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.30)(64bit) \
 libtracecmd.so.1()(64bit) \
 libtraceevent.so.1()(64bit) \
 libtracefs.so.1()(64bit)"

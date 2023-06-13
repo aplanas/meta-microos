@@ -14,7 +14,7 @@ fcitx-chewing(aarch-64) \
 locale(fcitx:zh_TW)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libchewing.so.3()(64bit)"
 
 inherit rpm

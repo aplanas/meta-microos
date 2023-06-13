@@ -15,23 +15,14 @@ pkgconfig(gstreamermm-1.0)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libglibmm-2.4.so.1()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgstreamer-1.0.so.0()(64bit) \
 libgstreamermm-1_0-1 \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 pkgconfig(giomm-2.4) \
 pkgconfig(gstreamer-1.0) \
 pkgconfig(gstreamer-allocators-1.0) \

@@ -13,9 +13,8 @@ liblqr-1-0(aarch-64) \
 liblqr-1.so.0()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.27)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

@@ -16,11 +16,8 @@ mvn(com.github.hbci4j:hbci4j-core:pom:)"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 mvn(javax.xml.bind:jaxb-api) \
 mvn(org.glassfish.jaxb:jaxb-runtime)"
 

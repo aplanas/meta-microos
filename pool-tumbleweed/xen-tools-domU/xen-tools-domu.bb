@@ -25,14 +25,10 @@ xen-tools-domU(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libxenctrl.so.4.17()(64bit) \
-libxenctrl.so.4.17(VERS_4.17.0)(64bit) \
 libxenguest.so.4.17()(64bit) \
-libxenguest.so.4.17(VERS_4.17.0)(64bit) \
 libxenstore.so.4()(64bit) \
-libxenstore.so.4(VERS_4.0)(64bit) \
 xen-libs"
 
 inherit rpm

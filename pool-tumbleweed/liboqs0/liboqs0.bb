@@ -13,8 +13,7 @@ liboqs0 \
 liboqs0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit) \
-libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit)"
+libc.so.6()(64bit) \
+libcrypto.so.3()(64bit)"
 
 inherit rpm

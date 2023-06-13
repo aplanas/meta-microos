@@ -14,7 +14,7 @@ enchant-2-backend-aspell \
 enchant-2-backend-aspell(aarch-64)"
 
 RDEPENDS:${PN} += "libaspell.so.15()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libenchant-2.so.2()(64bit) \
 libglib-2.0.so.0()(64bit)"
 

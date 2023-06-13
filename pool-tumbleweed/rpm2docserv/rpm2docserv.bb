@@ -12,6 +12,6 @@ rpm2docserv(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/mandoc \
 cpio \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

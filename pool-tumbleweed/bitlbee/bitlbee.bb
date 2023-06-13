@@ -18,20 +18,16 @@ config(bitlbee)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libotr.so.5()(64bit) \
 libpurple.so.0()(64bit) \
 libresolv.so.2()(64bit) \
-libresolv.so.2(GLIBC_2.17)(64bit) \
 logrotate \
 shadow"
 

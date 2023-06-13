@@ -17,7 +17,6 @@ libhdf5_hl_1_12_2-gnu-hpc(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 hdf5_1_12_2-gnu-hpc-module \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

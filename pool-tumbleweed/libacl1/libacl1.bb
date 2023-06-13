@@ -11,15 +11,11 @@ RPM_HASH = "b0659fc04b3d5df7a8681ad6db59f9e8cc735fcd189f966cd232eb461229fe2ad933
 
 RPROVIDES:${PN} += "libacl \
 libacl.so.1()(64bit) \
-libacl.so.1(ACL_1.0)(64bit) \
-libacl.so.1(ACL_1.1)(64bit) \
-libacl.so.1(ACL_1.2)(64bit) \
 libacl1 \
 libacl1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

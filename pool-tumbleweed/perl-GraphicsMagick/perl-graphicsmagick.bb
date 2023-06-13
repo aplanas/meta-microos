@@ -21,11 +21,9 @@ perl-GraphicsMagick(aarch-64)"
 
 RDEPENDS:${PN} += "GraphicsMagick \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGraphicsMagick-Q16.so.3()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 perl"
 
 inherit rpm

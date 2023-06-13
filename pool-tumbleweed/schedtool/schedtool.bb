@@ -11,6 +11,6 @@ RPM_HASH = "71ef202b3130b6937124804d82144fdfebca7f36b1beaae7e0d710ba750f085cc7be
 RPROVIDES:${PN} += "schedtool \
 schedtool(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

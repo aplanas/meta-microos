@@ -12,10 +12,8 @@ RPROVIDES:${PN} += "python3-ipa_hbac \
 python3-ipa_hbac(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libipa_hbac.so.0()(64bit) \
-libipa_hbac.so.0(IPA_HBAC_0.0.1)(64bit) \
 python(abi) \
 python3"
 

@@ -54,16 +54,11 @@ textutils"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \
-libacl.so.1(ACL_1.0)(64bit) \
 libattr.so.1()(64bit) \
-libattr.so.1(ATTR_1.1)(64bit) \
-libattr.so.1(ATTR_1.3)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap.so.2()(64bit) \
 libgmp.so.10()(64bit) \
-libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit)"
+libselinux.so.1()(64bit)"
 
 inherit rpm

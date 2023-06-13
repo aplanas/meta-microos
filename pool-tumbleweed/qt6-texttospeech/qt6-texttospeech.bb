@@ -9,48 +9,22 @@ RPM_HASH = "54716472dde854fc86f5177860b06fc9ec0f327621461df75d32d64b2291197d8afd
 
 RPROVIDES:${PN} += "libqtexttospeech_mock.so()(64bit) \
 libqtexttospeech_mock.so(Qt_6)(64bit) \
-libqtexttospeech_mock.so(Qt_6.0)(64bit) \
-libqtexttospeech_mock.so(Qt_6.1)(64bit) \
-libqtexttospeech_mock.so(Qt_6.2)(64bit) \
-libqtexttospeech_mock.so(Qt_6.3)(64bit) \
-libqtexttospeech_mock.so(Qt_6.4)(64bit) \
-libqtexttospeech_mock.so(Qt_6.5)(64bit) \
-libqtexttospeech_mock.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 libqtexttospeech_speechd.so()(64bit) \
 libqtexttospeech_speechd.so(Qt_6)(64bit) \
-libqtexttospeech_speechd.so(Qt_6.0)(64bit) \
-libqtexttospeech_speechd.so(Qt_6.1)(64bit) \
-libqtexttospeech_speechd.so(Qt_6.2)(64bit) \
-libqtexttospeech_speechd.so(Qt_6.3)(64bit) \
-libqtexttospeech_speechd.so(Qt_6.4)(64bit) \
-libqtexttospeech_speechd.so(Qt_6.5)(64bit) \
-libqtexttospeech_speechd.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 libtexttospeechqmlplugin.so()(64bit) \
 libtexttospeechqmlplugin.so(Qt_6)(64bit) \
-libtexttospeechqmlplugin.so(Qt_6.0)(64bit) \
-libtexttospeechqmlplugin.so(Qt_6.1)(64bit) \
-libtexttospeechqmlplugin.so(Qt_6.2)(64bit) \
-libtexttospeechqmlplugin.so(Qt_6.3)(64bit) \
-libtexttospeechqmlplugin.so(Qt_6.4)(64bit) \
-libtexttospeechqmlplugin.so(Qt_6.5)(64bit) \
-libtexttospeechqmlplugin.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-texttospeech \
 qt6-texttospeech(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Core.so.6(Qt_6.5)(64bit) \
 libQt6Qml.so.6()(64bit) \
 libQt6Qml.so.6(Qt_6)(64bit) \
 libQt6TextToSpeech.so.6()(64bit) \
 libQt6TextToSpeech.so.6(Qt_6)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libspeechd.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

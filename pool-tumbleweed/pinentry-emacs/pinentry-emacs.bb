@@ -16,13 +16,10 @@ pinentry:/usr/bin/pinentry-emacs"
 
 RDEPENDS:${PN} += "emacs \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libassuan.so.0()(64bit) \
-libassuan.so.0(LIBASSUAN_1.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgpg-error.so.0()(64bit) \
-libgpg-error.so.0(GPG_ERROR_1.0)(64bit) \
 libsecret-1.so.0()(64bit) \
 pinentry"
 

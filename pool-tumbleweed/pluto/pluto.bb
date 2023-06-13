@@ -10,6 +10,6 @@ RPM_HASH = "0d8ece2781a742cae0d42fb0dac00cb3331a6cc0e0aade76cd9759ba3f34d4ad3ed7
 RPROVIDES:${PN} += "pluto \
 pluto(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

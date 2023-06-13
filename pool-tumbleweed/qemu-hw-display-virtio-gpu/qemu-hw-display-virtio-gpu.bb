@@ -11,8 +11,7 @@ RPROVIDES:${PN} += "qemu-hw-display-virtio-gpu \
 qemu-hw-display-virtio-gpu(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.28)(64bit) \
+libc.so.6()(64bit) \
 libpixman-1.so.0()(64bit) \
 libvirglrenderer.so.1()(64bit)"
 

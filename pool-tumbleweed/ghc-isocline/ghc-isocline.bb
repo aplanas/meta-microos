@@ -18,7 +18,6 @@ ghc-isocline(aarch-64) \
 libHSisocline-1.0.9-7x8dFWbXh69GJxYhigSqXG-ghc9.4.5.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \
@@ -32,17 +31,10 @@ libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) \
 libHStext-2.0.2-ghc9.4.5.so()(64bit) \
 libatomic.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libffi.so.8()(64bit) \
-libffi.so.8(LIBFFI_BASE_8.0)(64bit) \
-libffi.so.8(LIBFFI_CLOSURE_8.0)(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libnuma.so.1()(64bit) \
-libnuma.so.1(libnuma_1.1)(64bit) \
-libnuma.so.1(libnuma_1.2)(64bit)"
+libnuma.so.1()(64bit)"
 
 inherit rpm

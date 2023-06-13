@@ -11,17 +11,13 @@ RPROVIDES:${PN} += "tmate \
 tmate(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libevent-2.1.so.7()(64bit) \
 libmsgpackc.so.2()(64bit) \
 libresolv.so.2()(64bit) \
-libresolv.so.2(GLIBC_2.17)(64bit) \
 libssh.so.4()(64bit) \
 libssh.so.4(LIBSSH_4_5_0)(64bit) \
 libssh.so.4(LIBSSH_4_7_0)(64bit) \
-libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
+libtinfo.so.6()(64bit)"
 
 inherit rpm

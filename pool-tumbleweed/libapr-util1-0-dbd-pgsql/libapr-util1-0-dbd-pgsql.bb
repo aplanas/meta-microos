@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "libapr-util1-0-dbd-pgsql \
 libapr-util1-0-dbd-pgsql(aarch-64)"
 
 RDEPENDS:${PN} += "libapr-util1-0 \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpq.so.5()(64bit)"
 
 inherit rpm

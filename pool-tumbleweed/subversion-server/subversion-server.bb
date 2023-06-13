@@ -16,7 +16,7 @@ RDEPENDS:${PN} += "apache2 \
 apache_mmn_20120211 \
 libapr-1.so.0()(64bit) \
 libaprutil-1.so.0()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libsvn_delta-1.so.0()(64bit) \
 libsvn_fs-1.so.0()(64bit) \
 libsvn_repos-1.so.0()(64bit) \

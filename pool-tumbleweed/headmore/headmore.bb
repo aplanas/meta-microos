@@ -14,7 +14,7 @@ RPM_HASH = "cde9b77fd277aacdd7e69dd8172c74e96530081c9c84e965377b2562595ea73742ea
 RPROVIDES:${PN} += "headmore \
 headmore(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libcaca.so.0()(64bit) \
 libvncclient.so.1()(64bit)"
 

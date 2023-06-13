@@ -14,8 +14,7 @@ python310-lupa(aarch-64) \
 python3dist(lupa)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libluajit-5.1.so.2()(64bit) \
 python(abi)"
 

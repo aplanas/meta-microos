@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "illum \
 illum(aarch-64)"
 
 RDEPENDS:${PN} += "libasan.so.8()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libev.so.4()(64bit) \
 libevdev.so.2()(64bit) \
 libevdev.so.2(LIBEVDEV_1)(64bit) \

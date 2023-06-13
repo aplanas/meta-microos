@@ -13,18 +13,11 @@ mokutil(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libefivar.so.1()(64bit) \
-libefivar.so.1(LIBEFIVAR_0.24)(64bit) \
-libefivar.so.1(libefivar.so.0)(64bit) \
 libkeyutils.so.1()(64bit) \
-libkeyutils.so.1(KEYUTILS_0.3)(64bit) \
-libkeyutils.so.1(KEYUTILS_1.5)(64bit) \
 openssl"
 
 inherit rpm

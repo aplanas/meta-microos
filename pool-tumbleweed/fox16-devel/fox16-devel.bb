@@ -25,7 +25,7 @@ expat \
 glibc-devel \
 libFOX-1_6-0 \
 libbz2-devel \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libexpat-devel \
 libjpeg-devel \
 libpng-devel \

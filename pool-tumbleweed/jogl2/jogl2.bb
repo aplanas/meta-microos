@@ -31,7 +31,7 @@ libXcursor.so.1()(64bit) \
 libXrandr.so.2()(64bit) \
 libXrender.so.1()(64bit) \
 libXxf86vm.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libjawt.so()(64bit)"
 
 inherit rpm

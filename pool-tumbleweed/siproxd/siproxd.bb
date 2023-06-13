@@ -19,8 +19,7 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libltdl.so.7()(64bit) \
 libosipparser2.so.15()(64bit) \
 libsqlite3.so.0()(64bit) \

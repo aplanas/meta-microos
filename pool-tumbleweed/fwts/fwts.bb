@@ -20,20 +20,13 @@ libfwtsiasl.so.1()(64bit)"
 
 RDEPENDS:${PN} += "bash-completion \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbsd.so.0()(64bit) \
-libbsd.so.0(LIBBSD_0.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfdt.so.1()(64bit) \
-libfdt.so.1(LIBFDT_1.2)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libpci.so.3()(64bit) \
-libpci.so.3(LIBPCI_3.0)(64bit) \
-libpci.so.3(LIBPCI_3.5)(64bit) \
-libpci.so.3(LIBPCI_3.8)(64bit)"
+libpci.so.3()(64bit)"
 
 inherit rpm

@@ -17,14 +17,10 @@ global(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libltdl.so.7()(64bit) \
 libncurses.so.6()(64bit) \
-libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
 python3-Pygments"
 
 inherit rpm

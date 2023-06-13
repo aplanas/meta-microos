@@ -14,16 +14,10 @@ pinentry-dialog"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libassuan.so.0()(64bit) \
-libassuan.so.0(LIBASSUAN_1.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgpg-error.so.0()(64bit) \
-libgpg-error.so.0(GPG_ERROR_1.0)(64bit) \
 libncursesw.so.6()(64bit) \
-libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
-libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
+libtinfo.so.6()(64bit)"
 
 inherit rpm

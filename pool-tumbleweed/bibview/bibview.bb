@@ -16,6 +16,6 @@ config(bibview)"
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libXaw3d.so.8()(64bit) \
 libXt.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

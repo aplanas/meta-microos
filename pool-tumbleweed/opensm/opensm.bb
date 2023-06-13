@@ -20,14 +20,10 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libopensm.so.9()(64bit) \
-libopensm.so.9(OPENSM_1.5)(64bit) \
 libosmcomp.so.5()(64bit) \
-libosmcomp.so.5(OSMCOMP_2.3)(64bit) \
 libosmvendor.so.5()(64bit) \
-libosmvendor.so.5(OSMVENDOR_2.0)(64bit) \
 logrotate \
 systemd"
 

@@ -18,7 +18,7 @@ metainfo() \
 metainfo(purple-plugin-pack.metainfo.xml) \
 purple-plugin_pack"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpurple.so.0()(64bit)"

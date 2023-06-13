@@ -14,10 +14,8 @@ libguile-ssh14(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libguile-3.0.so.1()(64bit) \
-libguile-3.0.so.1(GUILE_2.0)(64bit) \
 libssh.so.4()(64bit) \
 libssh.so.4(LIBSSH_4_5_0)(64bit)"
 

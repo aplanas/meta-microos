@@ -15,14 +15,11 @@ msmtp(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libgsasl.so.7()(64bit) \
-libgsasl.so.7(LIBGSASL_1.1)(64bit) \
 libresolv.so.2()(64bit) \
-libresolv.so.2(GLIBC_2.17)(64bit) \
 libsecret-1.so.0()(64bit)"
 
 inherit rpm

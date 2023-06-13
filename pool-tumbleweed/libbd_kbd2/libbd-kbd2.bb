@@ -17,11 +17,10 @@ libblockdev-kbd"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 bcache-tools \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbd_utils.so.2()(64bit) \
 libbd_utils2 \
 libbytesize.so.1()(64bit) \
-libc.so.6(GLIBC_2.27)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit)"
 
 inherit rpm

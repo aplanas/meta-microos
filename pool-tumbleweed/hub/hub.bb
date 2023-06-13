@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "hub \
 hub(aarch-64) \
 rubygem-hub"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

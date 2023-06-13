@@ -15,8 +15,7 @@ RDEPENDS:${PN} += "/bin/sh \
 graphviz \
 graphviz-gnome \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgvc.so.6()(64bit) \
 libwebp.so.7()(64bit)"

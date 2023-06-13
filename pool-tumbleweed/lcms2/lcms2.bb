@@ -16,12 +16,9 @@ RPROVIDES:${PN} += "lcms2 \
 lcms2(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 liblcms2.so.2()(64bit) \
-libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit)"
+libtiff.so.6()(64bit)"
 
 inherit rpm

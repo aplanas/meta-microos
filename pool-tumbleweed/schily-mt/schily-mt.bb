@@ -15,14 +15,9 @@ star-rmt:/usr/bin/smt"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 librmt.so.1.0()(64bit) \
-librmt.so.1.0(SCHILY_1.0)(64bit) \
 libschily.so.2.0()(64bit) \
-libschily.so.2.0(SCHILY_1.0)(64bit) \
-libschily.so.2.0(SCHILY_1.10)(64bit) \
-libschily.so.2.0(SCHILY_1.5)(64bit) \
 update-alternatives"
 
 inherit rpm

@@ -27,28 +27,15 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbsd.so.0()(64bit) \
-libbsd.so.0(LIBBSD_0.0)(64bit) \
-libbsd.so.0(LIBBSD_0.2)(64bit) \
-libbsd.so.0(LIBBSD_0.5)(64bit) \
-libbsd.so.0(LIBBSD_0.6)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libevent-2.1.so.7()(64bit) \
 liblldpctl.so.4()(64bit) \
-liblldpctl.so.4(LIBLLDPCTL_4.6)(64bit) \
-liblldpctl.so.4(LIBLLDPCTL_4.7)(64bit) \
-liblldpctl.so.4(LIBLLDPCTL_4.8)(64bit) \
-liblldpctl.so.4(LIBLLDPCTL_4.9)(64bit) \
 libnetsnmp.so.40()(64bit) \
 libnetsnmpagent.so.40()(64bit) \
 libnetsnmpmibs.so.40()(64bit) \
 libreadline.so.8()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.3)(64bit) \
-libxml2.so.2(LIBXML2_2.6.5)(64bit) \
 pwdutils"
 
 inherit rpm

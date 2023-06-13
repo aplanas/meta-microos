@@ -18,10 +18,9 @@ mumps-openmpi2-examples \
 mumps-openmpi2-examples(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblacs.so.2.1.0()(64bit) \
 libblas.so.3()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcmumps.so.5.3.5()(64bit) \
 libdmumps.so.5.3.5()(64bit) \
 libgcc_s.so.1()(64bit) \

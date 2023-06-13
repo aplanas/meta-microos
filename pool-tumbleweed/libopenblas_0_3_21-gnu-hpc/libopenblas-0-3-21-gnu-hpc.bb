@@ -13,19 +13,11 @@ libopenblas_0_3_21-gnu-hpc(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgfortran.so.5()(64bit) \
 libgfortran.so.5(GFORTRAN_8)(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_2.0)(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit) \
-libgomp.so.1(OMP_4.5)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 lua-lmod"
 
 inherit rpm

@@ -14,15 +14,12 @@ liballeg4_4(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXcursor.so.1()(64bit) \
 libXext.so.6()(64bit) \
 libXpm.so.4()(64bit) \
 libXxf86vm.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit)"
+libc.so.6()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

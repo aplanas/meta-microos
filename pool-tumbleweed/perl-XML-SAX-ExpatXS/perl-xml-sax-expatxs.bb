@@ -21,8 +21,7 @@ perl-XML-SAX-ExpatXS(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 expat \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libexpat.so.1()(64bit) \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(XML::SAX)"

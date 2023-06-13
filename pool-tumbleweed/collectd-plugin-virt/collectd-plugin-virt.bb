@@ -13,30 +13,8 @@ collectd-plugin-virt(aarch-64)"
 
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libvirt.so.0()(64bit) \
-libvirt.so.0(LIBVIRT_0.0.3)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.1)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.4)(64bit) \
-libvirt.so.0(LIBVIRT_0.3.2)(64bit) \
-libvirt.so.0(LIBVIRT_0.7.5)(64bit) \
-libvirt.so.0(LIBVIRT_0.8.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.8.1)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.10)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.13)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.2)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.3)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.5)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.8)(64bit) \
-libvirt.so.0(LIBVIRT_1.0.2)(64bit) \
-libvirt.so.0(LIBVIRT_1.0.3)(64bit) \
-libvirt.so.0(LIBVIRT_1.2.11)(64bit) \
-libvirt.so.0(LIBVIRT_1.2.8)(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

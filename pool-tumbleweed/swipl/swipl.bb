@@ -23,38 +23,27 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXft.so.2()(64bit) \
 libXpm.so.4()(64bit) \
 libXt.so.6()(64bit) \
 libarchive.so.13()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libdb-4.8.so()(64bit) \
 libedit.so.0()(64bit) \
 libfontconfig.so.1()(64bit) \
 libgmp.so.10()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libjvm.so()(64bit) \
-libjvm.so(SUNWprivate_1.1)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.23)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libodbc.so.2()(64bit) \
 libossp-uuid.so.16()(64bit) \
 libreadline.so.8()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
 libyaml-0.so.2()(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.2)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

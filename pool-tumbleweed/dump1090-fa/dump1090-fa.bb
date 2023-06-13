@@ -12,16 +12,11 @@ RPROVIDES:${PN} += "dump1090-fa \
 dump1090-fa(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbladeRF.so.2()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libncurses.so.6()(64bit) \
-libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) \
 librtlsdr.so.0()(64bit) \
-libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
+libtinfo.so.6()(64bit)"
 
 inherit rpm

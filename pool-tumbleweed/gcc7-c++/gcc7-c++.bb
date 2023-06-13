@@ -11,11 +11,10 @@ RPROVIDES:${PN} += "gcc7-c++ \
 gcc7-c++(aarch-64)"
 
 RDEPENDS:${PN} += "gcc7 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libisl.so.23()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libmpc.so.3()(64bit) \
 libmpfr.so.6()(64bit) \
 libstdc++6-devel-gcc7 \

@@ -12,7 +12,7 @@ cmpi-bindings-ruby \
 cmpi-bindings-ruby(aarch-64) \
 librbCmpiProvider.so()(64bit)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libruby3.2.so.3.2()(64bit)"
 
 inherit rpm

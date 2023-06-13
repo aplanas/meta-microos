@@ -12,13 +12,12 @@ RPROVIDES:${PN} += "gcc7-go \
 gcc7-go(aarch-64)"
 
 RDEPENDS:${PN} += "gcc7 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libgo.so.11()(64bit) \
 libgo11 \
 libisl.so.23()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libmpc.so.3()(64bit) \
 libmpfr.so.6()(64bit) \
 libz.so.1()(64bit)"

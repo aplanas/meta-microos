@@ -13,8 +13,7 @@ python39-espeak(aarch-64) \
 python3dist(python-espeak)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libespeak.so.1()(64bit) \
 python(abi)"
 

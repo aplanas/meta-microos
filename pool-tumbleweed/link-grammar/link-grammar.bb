@@ -18,8 +18,7 @@ RPROVIDES:${PN} += "link-grammar \
 link-grammar(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libedit.so.0()(64bit) \
 liblink-grammar.so.5()(64bit)"
 

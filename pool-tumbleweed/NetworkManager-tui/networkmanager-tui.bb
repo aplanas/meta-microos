@@ -14,16 +14,11 @@ NetworkManager-tui(aarch-64)"
 
 RDEPENDS:${PN} += "NetworkManager \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libnewt.so.0.52()(64bit) \
-libnewt.so.0.52(NEWT_0.52)(64bit) \
-libnewt.so.0.52(NEWT_0.52.13)(64bit) \
-libnewt.so.0.52(NEWT_0.52.6)(64bit) \
-libnewt.so.0.52(NEWT_0.52.9)(64bit) \
 libnm.so.0()(64bit) \
 libnm.so.0(libnm_1_0_0)(64bit) \
 libnm.so.0(libnm_1_10_0)(64bit) \

@@ -17,14 +17,12 @@ hdf5_1_12_2-gnu-mpich-hpc(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libhdf5_1_12_2-gnu-mpich-hpc \
 libhdf5_fortran_1_12_2-gnu-mpich-hpc \
 libhdf5_hl_1_12_2-gnu-mpich-hpc \
 libhdf5hl_fortran_1_12_2-gnu-mpich-hpc \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 lua-lmod \
 mpich-gnu-hpc"
 

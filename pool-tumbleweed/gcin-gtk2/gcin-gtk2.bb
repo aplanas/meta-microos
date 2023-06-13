@@ -14,7 +14,7 @@ gcin-gtk2-immodule"
 RDEPENDS:${PN} += "/bin/sh \
 gcin \
 gtk2-tools \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcin-im-client.so.1()(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

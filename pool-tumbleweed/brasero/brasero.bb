@@ -73,13 +73,12 @@ gstreamer \
 gstreamer-plugins-base \
 gstreamer-plugins-good \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbrasero-burn3.so.1()(64bit) \
 libbrasero-media3.so.1()(64bit) \
 libbrasero-utils3.so.1()(64bit) \
 libburn.so.4()(64bit) \
 libburn.so.4(LIBBURN4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
@@ -95,11 +94,7 @@ libisofs.so.6()(64bit) \
 libisofs.so.6(LIBISOFS6)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libtotem-plparser.so.18()(64bit) \
-libtotem-plparser.so.18(LIBTOTEM_PL_PARSER_MINI_1.0)(64bit) \
 libtracker-sparql-3.0.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.5)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

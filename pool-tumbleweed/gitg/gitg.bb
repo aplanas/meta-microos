@@ -20,8 +20,7 @@ metainfo(org.gnome.gitg.appdata.xml) \
 mimehandler(x-scheme-handler/gitg)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgee-0.8.so.2()(64bit) \
@@ -36,7 +35,6 @@ libgspell-1.so.2()(64bit) \
 libgtk-3.so.0()(64bit) \
 libgtksourceview-4.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpeas-1.0.so.0()(64bit) \
 typelib-1_0-Peas-1_0 \

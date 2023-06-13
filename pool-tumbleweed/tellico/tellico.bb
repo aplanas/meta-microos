@@ -21,7 +21,6 @@ tellico(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/dbus-send \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Archive.so.5()(64bit) \
 libKF5Cddb.so.5()(64bit) \
 libKF5Codecs.so.5()(64bit) \
@@ -54,7 +53,6 @@ libKF5WindowSystem.so.5()(64bit) \
 libKF5XmlGui.so.5()(64bit) \
 libQt5Charts.so.5()(64bit) \
 libQt5Charts.so.5(Qt_5)(64bit) \
-libQt5Charts.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libQt5DBus.so.5()(64bit) \
@@ -71,31 +69,19 @@ libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
 libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcdio.so.19()(64bit) \
 libcdio.so.19(CDIO_19)(64bit) \
 libcsv.so.3()(64bit) \
 libexempi.so.8()(64bit) \
 libexslt.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
 libpoppler-qt5.so.1()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libtag.so.1()(64bit) \
 libv4l1.so.0()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.5.4)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 libxslt.so.1()(64bit) \
-libxslt.so.1(LIBXML2_1.0.11)(64bit) \
 libyaz.so.5()(64bit)"
 
 inherit rpm

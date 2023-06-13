@@ -15,8 +15,7 @@ python39-pymilter(aarch-64) \
 python3dist(pymilter)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libmilter.so.1.0()(64bit) \
 pymilter-common \
 python(abi) \

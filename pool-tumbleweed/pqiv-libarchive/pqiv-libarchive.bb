@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "pqiv-libarchive \
 pqiv-libarchive(aarch-64)"
 
 RDEPENDS:${PN} += "libarchive.so.13()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \

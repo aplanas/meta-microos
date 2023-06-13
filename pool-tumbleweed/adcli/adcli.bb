@@ -12,8 +12,7 @@ RPROVIDES:${PN} += "adcli \
 adcli(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgssapi_krb5.so.2()(64bit) \
 libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
 libk5crypto.so.3()(64bit) \
@@ -21,10 +20,7 @@ libk5crypto.so.3(k5crypto_3_MIT)(64bit) \
 libkrb5.so.3()(64bit) \
 libkrb5.so.3(krb5_3_MIT)(64bit) \
 liblber.so.2()(64bit) \
-liblber.so.2(OPENLDAP_2.200)(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
-libresolv.so.2()(64bit) \
-libresolv.so.2(GLIBC_2.17)(64bit)"
+libresolv.so.2()(64bit)"
 
 inherit rpm

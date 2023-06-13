@@ -12,12 +12,9 @@ RPM_HASH = "7788e370510d68e65422cf3a9fd84f0716b17f5f49c5b699822b8a18c2802f7a47c5
 RPROVIDES:${PN} += "xmlsec1 \
 xmlsec1(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 libxmlsec1.so.1()(64bit) \
-libxslt.so.1()(64bit) \
-libxslt.so.1(LIBXML2_1.0.11)(64bit) \
-libxslt.so.1(LIBXML2_1.0.22)(64bit)"
+libxslt.so.1()(64bit)"
 
 inherit rpm

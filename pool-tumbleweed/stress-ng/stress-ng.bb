@@ -16,19 +16,10 @@ RPROVIDES:${PN} += "stress-ng \
 stress-ng(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbsd.so.0()(64bit) \
-libbsd.so.0(LIBBSD_0.0)(64bit) \
-libbsd.so.0(LIBBSD_0.3)(64bit) \
-libbsd.so.0(LIBBSD_0.5)(64bit) \
-libbsd.so.0(LIBBSD_0.6)(64bit) \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.23)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libsctp.so.1()(64bit) \
 libsctp.so.1(VERS_1)(64bit) \
 libz.so.1()(64bit)"

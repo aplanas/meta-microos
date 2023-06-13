@@ -11,10 +11,8 @@ RPROVIDES:${PN} += "linuxrc \
 linuxrc(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_1.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libhd.so.22()(64bit) \
 libmediacheck.so.6()(64bit) \

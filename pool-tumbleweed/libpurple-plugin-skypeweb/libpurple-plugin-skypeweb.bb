@@ -12,11 +12,10 @@ RPROVIDES:${PN} += "libpurple-plugin-skypeweb \
 libpurple-plugin-skypeweb(aarch-64) \
 libskypeweb.so()(64bit)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libpurple.so.0()(64bit) \
 libz.so.1()(64bit)"
 

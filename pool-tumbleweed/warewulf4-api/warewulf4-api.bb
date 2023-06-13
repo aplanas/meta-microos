@@ -11,10 +11,8 @@ RPROVIDES:${PN} += "config(warewulf4-api) \
 warewulf4-api \
 warewulf4-api(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgpgme.so.11()(64bit) \
-libgpgme.so.11(GPGME_1.0)(64bit) \
-libgpgme.so.11(GPGME_1.1)(64bit) \
 warewulf4"
 
 inherit rpm

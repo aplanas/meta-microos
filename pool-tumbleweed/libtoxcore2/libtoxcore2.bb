@@ -12,7 +12,7 @@ libtoxcore2 \
 libtoxcore2(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libopus.so.0()(64bit) \
 libsodium.so.23()(64bit) \
 libvpx.so.8()(64bit)"

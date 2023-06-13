@@ -14,10 +14,8 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 freeradius-server-libs \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libfreeradius-dhcp.so()(64bit) \
 libfreeradius-eap.so()(64bit) \
 libfreeradius-radius.so()(64bit) \
@@ -25,8 +23,6 @@ libfreeradius-server.so()(64bit) \
 libgdbm.so.6()(64bit) \
 libpcap.so.1()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
-libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit)"
+libtalloc.so.2()(64bit)"
 
 inherit rpm

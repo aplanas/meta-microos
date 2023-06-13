@@ -42,18 +42,13 @@ libnetcdf_4_9_2-gnu-openmpi4-hpc(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libhdf5-gnu-openmpi4-hpc \
 libhdf5_hl-gnu-openmpi4-hpc \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libopenmpi4-gnu-hpc \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 lua-lmod"
 
 inherit rpm

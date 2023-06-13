@@ -17,12 +17,9 @@ melt(aarch-64) \
 melt7"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libmlt-7.so.7()(64bit) \
-libmlt-7.so.7(MLT_0.8.8)(64bit) \
-libmlt-7.so.7(MLT_7.0.0)(64bit) \
 libmlt7-data \
 libmlt7-modules"
 

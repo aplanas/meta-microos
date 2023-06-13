@@ -15,9 +15,8 @@ python39-python-gammu(aarch-64) \
 python3dist(python-gammu)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGammu.so.8()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgsmsd.so.8()(64bit) \
 python(abi)"
 

@@ -11,8 +11,7 @@ RPROVIDES:${PN} += "texlive-dviout-util-bin \
 texlive-dviout-util-bin(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libptexenc.so.1()(64bit) \
 texlive-dviout-util"
 

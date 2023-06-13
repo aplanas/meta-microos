@@ -20,8 +20,7 @@ metainfo() \
 metainfo(org.gnome.MultiWriter.appdata.xml)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcanberra-gtk3.so.0()(64bit) \
 libcanberra.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
@@ -30,10 +29,6 @@ libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libgudev-1.0.so.0()(64bit) \
 libgusb.so.2()(64bit) \
-libgusb.so.2(LIBGUSB_0.1.0)(64bit) \
-libgusb.so.2(LIBGUSB_0.1.7)(64bit) \
-libgusb.so.2(LIBGUSB_0.2.2)(64bit) \
-libgusb.so.2(LIBGUSB_0.2.4)(64bit) \
 libpolkit-gobject-1.so.0()(64bit) \
 libudisks2.so.0()(64bit)"
 

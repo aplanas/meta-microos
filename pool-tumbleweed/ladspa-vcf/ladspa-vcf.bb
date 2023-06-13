@@ -11,9 +11,7 @@ RPM_HASH = "789e422abc77bc95259817165aa70ad185479a54ffcb49fb69f900fd8dd7642090b7
 RPROVIDES:${PN} += "ladspa-vcf \
 ladspa-vcf(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

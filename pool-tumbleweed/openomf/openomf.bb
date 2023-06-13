@@ -19,20 +19,15 @@ openomf(aarch-64)"
 
 RDEPENDS:${PN} += "libSDL2-2.0.so.0()(64bit) \
 libargtable2.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libconfuse.so.2()(64bit) \
 libenet.so.7()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libopenal.so.1()(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libshadowdive.so.0.0.0-suse()(64bit) \
 libvorbisfile.so.3()(64bit) \
-libxmp.so.4()(64bit) \
-libxmp.so.4(XMP_4.0)(64bit) \
-libxmp.so.4(XMP_4.1)(64bit) \
-libxmp.so.4(XMP_4.4)(64bit)"
+libxmp.so.4()(64bit)"
 
 inherit rpm

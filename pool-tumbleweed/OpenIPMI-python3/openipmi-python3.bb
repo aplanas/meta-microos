@@ -15,13 +15,12 @@ openipmigui"
 RDEPENDS:${PN} += "/usr/bin/python3 \
 OpenIPMI \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOpenIPMI.so.0()(64bit) \
 libOpenIPMIcmdlang.so.0()(64bit) \
 libOpenIPMIglib.so.0()(64bit) \
 libOpenIPMIpthread.so.0()(64bit) \
 libOpenIPMIutils.so.0()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 python(abi) \
 python3-tk \
 tix"

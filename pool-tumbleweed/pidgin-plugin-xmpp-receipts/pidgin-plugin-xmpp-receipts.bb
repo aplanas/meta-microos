@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "pidgin-plugin-xmpp-receipts \
 pidgin-plugin-xmpp-receipts(aarch-64) \
 pidgin-xmpp-receipts"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 pidgin"
 
 inherit rpm

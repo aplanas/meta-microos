@@ -15,13 +15,10 @@ RPROVIDES:${PN} += "lame-mp3rtp \
 lame-mp3rtp(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmp3lame.so.0()(64bit) \
 libmp3lame0 \
-libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit)"
+libtinfo.so.6()(64bit)"
 
 inherit rpm

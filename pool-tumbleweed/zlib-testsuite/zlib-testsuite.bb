@@ -13,10 +13,8 @@ RPROVIDES:${PN} += "zlib-testsuite \
 zlib-testsuite(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0.2)(64bit) \
 libz1"
 
 inherit rpm

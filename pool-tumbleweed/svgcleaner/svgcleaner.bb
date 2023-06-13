@@ -13,13 +13,9 @@ RPM_HASH = "76a5ac348222feb7dfd5d9ba04f5e324fccc0bde8398f92b71d7c584496b2311e239
 RPROVIDES:${PN} += "svgcleaner \
 svgcleaner(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 p7zip \
 svgcleaner-gui"
 

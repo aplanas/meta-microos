@@ -14,9 +14,8 @@ RPROVIDES:${PN} += "calc \
 calc(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 less \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcalc.so.2.14.1.6()(64bit) \
 libcalc2_14_1_6 \
 libhistory.so.8()(64bit)"

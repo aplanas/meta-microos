@@ -18,12 +18,9 @@ python3dist(borgbackup)"
 RDEPENDS:${PN} += "(python3-msgpack >= 0.5.6 with python3-msgpack <= 1.0.5) \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \
-libacl.so.1(ACL_1.0)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 liblz4.so.1()(64bit) \
 libzstd.so.1()(64bit) \
 python(abi) \

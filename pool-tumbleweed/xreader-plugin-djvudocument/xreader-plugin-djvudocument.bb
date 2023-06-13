@@ -12,8 +12,7 @@ xreader-plugin-djvudocument \
 xreader-plugin-djvudocument(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libdjvulibre.so.21()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \

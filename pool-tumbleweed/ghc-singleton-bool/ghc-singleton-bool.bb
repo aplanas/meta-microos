@@ -27,7 +27,7 @@ libHSsome-1.0.5-3dwCpkSImpx8T8axxRPR3Z-ghc9.4.5.so()(64bit) \
 libHStagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa-ghc9.4.5.so()(64bit) \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) \
 libHStransformers-0.5.6.2-ghc9.4.5.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit)"
 

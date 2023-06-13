@@ -20,7 +20,7 @@ obexftp(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libbluetooth.so.3()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libopenobex.so.2()(64bit)"
 
 inherit rpm

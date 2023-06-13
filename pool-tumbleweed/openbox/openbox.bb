@@ -26,7 +26,6 @@ windowmanager"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \
 libSM.so.6()(64bit) \
 libX11.so.6()(64bit) \
@@ -34,7 +33,7 @@ libXcursor.so.1()(64bit) \
 libXext.so.6()(64bit) \
 libXinerama.so.1()(64bit) \
 libXrandr.so.2()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libobrender.so.32()(64bit) \
 libobt.so.2()(64bit) \

@@ -11,15 +11,13 @@ RPM_HASH = "dbf8c0b46a3a59344cbe0c69dbb8ae2c74e3b4b33928ec1ae4f6e218bc11db9d3bc9
 RPROVIDES:${PN} += "config(libpwquality1) \
 libpwquality \
 libpwquality.so.1()(64bit) \
-libpwquality.so.1(LIBPWQUALITY_1.0)(64bit) \
 libpwquality1 \
 libpwquality1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 cracklib-dict \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcrack.so.2()(64bit)"
 
 inherit rpm

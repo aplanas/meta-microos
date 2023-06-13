@@ -12,40 +12,21 @@ RPROVIDES:${PN} += "samba-ldb-ldap \
 samba-ldb-ldap(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcli-ldap-common-samba4.so()(64bit) \
-libcli-ldap-common-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 libcli-ldap-samba4.so()(64bit) \
-libcli-ldap-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 libcmdline-samba4.so()(64bit) \
-libcmdline-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 libgensec-samba4.so()(64bit) \
-libgensec-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 libldb.so.2()(64bit) \
-libldb.so.2(LDB_0.9.10)(64bit) \
-libldb.so.2(LDB_0.9.15)(64bit) \
-libldb.so.2(LDB_0.9.18)(64bit) \
-libldb.so.2(LDB_0.9.19)(64bit) \
 libldbsamba-samba4.so()(64bit) \
-libldbsamba-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 libreplace-samba4.so()(64bit) \
-libreplace-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 libsamba-credentials.so.1()(64bit) \
-libsamba-credentials.so.1(SAMBA_CREDENTIALS_1.0.0)(64bit) \
 libsamba-debug-samba4.so()(64bit) \
-libsamba-debug-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 libsamba-hostconfig.so.0()(64bit) \
-libsamba-hostconfig.so.0(SAMBA_HOSTCONFIG_0.0.1)(64bit) \
 libsamba-util.so.0()(64bit) \
-libsamba-util.so.0(SAMBA_UTIL_0.0.1)(64bit) \
 libsamdb-common-samba4.so()(64bit) \
-libsamdb-common-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 libsamdb.so.0()(64bit) \
-libsamdb.so.0(SAMDB_0.0.1)(64bit) \
 libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit) \
-libtevent.so.0()(64bit) \
-libtevent.so.0(TEVENT_0.9.9)(64bit)"
+libtevent.so.0()(64bit)"
 
 inherit rpm

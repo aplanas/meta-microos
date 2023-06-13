@@ -12,14 +12,8 @@ RPROVIDES:${PN} += "python3-sss_nss_idmap \
 python3-sss_nss_idmap(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libsss_nss_idmap.so.0()(64bit) \
-libsss_nss_idmap.so.0(SSS_NSS_IDMAP_0.0.1)(64bit) \
-libsss_nss_idmap.so.0(SSS_NSS_IDMAP_0.2.0)(64bit) \
-libsss_nss_idmap.so.0(SSS_NSS_IDMAP_0.3.0)(64bit) \
-libsss_nss_idmap.so.0(SSS_NSS_IDMAP_0.5.0)(64bit) \
-libsss_nss_idmap.so.0(SSS_NSS_IDMAP_0.7.0)(64bit) \
 python(abi) \
 python3"
 

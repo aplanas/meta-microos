@@ -12,6 +12,6 @@ RPM_HASH = "6e77438878f0602124f5745c4a0af6fbf531935f215ba9b78bb8d5c62b1c853b0e32
 RPROVIDES:${PN} += "ktop \
 ktop(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

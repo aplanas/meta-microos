@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "qm \
 qm(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/python2 \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpython2.7.so.1.0()(64bit) \
 python2-base \
 python2-xml"

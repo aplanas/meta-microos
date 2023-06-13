@@ -12,6 +12,6 @@ RPM_HASH = "c06c53edbfbd8c4f05490e193534970bebd2b745b898d2c8d2a11522640c2ee40a3c
 RPROVIDES:${PN} += "hello-kubic \
 hello-kubic(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

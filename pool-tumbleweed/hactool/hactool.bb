@@ -12,6 +12,6 @@ RPM_HASH = "5f51ec497b7595e45687d4d82c4969ce16a2557d6721b0e96209d72badbbfe396419
 RPROVIDES:${PN} += "hactool \
 hactool(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

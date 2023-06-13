@@ -18,14 +18,11 @@ libKF5Wallet.so.5()(64bit) \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libapr-1.so.0()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 libsvn_subr-1.so.0()(64bit) \
 subversion"
 

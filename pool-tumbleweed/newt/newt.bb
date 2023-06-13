@@ -17,10 +17,8 @@ RPROVIDES:${PN} += "newt \
 newt(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libnewt.so.0.52()(64bit) \
-libnewt.so.0.52(NEWT_0.52)(64bit) \
 libpopt.so.0()(64bit) \
 libpopt.so.0(LIBPOPT_0)(64bit) \
 libslang.so.2()(64bit) \

@@ -12,14 +12,12 @@ wannier90-openmpi3-devel \
 wannier90-openmpi3-devel(aarch-64)"
 
 RDEPENDS:${PN} += "libblas.so.3()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgfortran.so.5()(64bit) \
 libgfortran.so.5(GFORTRAN_10)(64bit) \
 libgfortran.so.5(GFORTRAN_8)(64bit) \
 liblapack.so.3()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmpi_mpifh.so.40()(64bit)"
 
 inherit rpm

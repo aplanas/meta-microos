@@ -11,12 +11,10 @@ RPROVIDES:${PN} += "libknet1-crypto-nss-plugin \
 libknet1-crypto-nss-plugin(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libknet1(aarch-64) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
 libplds4.so()(64bit)"
 
 inherit rpm

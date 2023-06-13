@@ -26,9 +26,8 @@ libsoup2"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 glib-networking \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbrotlidec.so.1()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
@@ -38,8 +37,6 @@ libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
 libpsl.so.5()(64bit) \
 libsqlite3.so.0()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

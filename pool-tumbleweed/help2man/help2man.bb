@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "help2man \
 help2man(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 perl-gettext"
 
 inherit rpm

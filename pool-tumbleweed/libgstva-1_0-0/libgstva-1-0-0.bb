@@ -17,8 +17,7 @@ libgstva-1_0-0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdrm.so.2()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
@@ -26,7 +25,6 @@ libgstallocators-1.0.so.0()(64bit) \
 libgstreamer-1.0.so.0()(64bit) \
 libgstvideo-1.0.so.0()(64bit) \
 libva-drm.so.2()(64bit) \
-libva.so.2()(64bit) \
-libva.so.2(VA_API_0.33.0)(64bit)"
+libva.so.2()(64bit)"
 
 inherit rpm

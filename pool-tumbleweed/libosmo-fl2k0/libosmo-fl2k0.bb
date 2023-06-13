@@ -16,8 +16,7 @@ libosmo-fl2k0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libusb-1.0.so.0()(64bit) \
 osmo-fl2k-udev"
 

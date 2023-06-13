@@ -14,12 +14,9 @@ ocaml-curses-devel(aarch-64) \
 ocamlfind(curses) \
 ocamlx(Curses)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libncursesw.so.6()(64bit) \
-libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
 ncurses-devel \
 ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \

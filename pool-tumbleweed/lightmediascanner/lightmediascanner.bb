@@ -12,13 +12,12 @@ RPROVIDES:${PN} += "lightmediascanner \
 lightmediascanner(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \
 libavcodec.so.58.134()(64bit) \
 libavcodec.so.58.134(LIBAVCODEC_58)(64bit) \
 libavformat.so.58.76()(64bit) \
 libavformat.so.58.76(LIBAVFORMAT_58)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
@@ -26,7 +25,6 @@ liblightmediascanner.so.0()(64bit) \
 libogg.so.0()(64bit) \
 libsqlite3.so.0()(64bit) \
 libtheoradec.so.1()(64bit) \
-libtheoradec.so.1(libtheoradec_1.0)(64bit) \
 libvorbis.so.0()(64bit)"
 
 inherit rpm

@@ -19,8 +19,7 @@ RDEPENDS:${PN} += "(python310-Pillow >= 9.2 if python310-base >= 3.7) \
 /bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 python(abi) \
 python310-Cython \
 python310-Django \

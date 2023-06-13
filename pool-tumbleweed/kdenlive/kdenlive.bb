@@ -21,7 +21,6 @@ metainfo(org.kde.kdenlive.appdata.xml) \
 mimehandler(application/x-kdenlive)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Archive.so.5()(64bit) \
 libKF5Bookmarks.so.5()(64bit) \
 libKF5Codecs.so.5()(64bit) \
@@ -78,43 +77,13 @@ libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
 libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libmlt++-7.so.7()(64bit) \
-libmlt++-7.so.7(MLTPP_0.8.8)(64bit) \
-libmlt++-7.so.7(MLTPP_0.9.0)(64bit) \
-libmlt++-7.so.7(MLTPP_0.9.2)(64bit) \
-libmlt++-7.so.7(MLTPP_0.9.4)(64bit) \
-libmlt++-7.so.7(MLTPP_0.9.8)(64bit) \
-libmlt++-7.so.7(MLTPP_6.10.0)(64bit) \
-libmlt++-7.so.7(MLTPP_6.14.0)(64bit) \
-libmlt++-7.so.7(MLTPP_6.22.0)(64bit) \
-libmlt++-7.so.7(MLTPP_6.4.0)(64bit) \
-libmlt++-7.so.7(MLTPP_6.6.0)(64bit) \
-libmlt++-7.so.7(MLTPP_6.8.0)(64bit) \
-libmlt++-7.so.7(MLTPP_7.0.0)(64bit) \
-libmlt++-7.so.7(MLT_7.12.0)(64bit) \
-libmlt++-7.so.7(MLT_7.14.0)(64bit) \
 libmlt-7.so.7()(64bit) \
-libmlt-7.so.7(MLT_0.8.8)(64bit) \
-libmlt-7.so.7(MLT_6.22.0)(64bit) \
 libqt5-qtquickcontrols \
 libqt5-qtquickcontrols2 \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 melt"
 
 inherit rpm

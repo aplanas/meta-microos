@@ -12,14 +12,8 @@ RPROVIDES:${PN} += "tiff \
 tiff(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
-libtiff.so.6(LIBTIFF_4.1)(64bit) \
-libtiff.so.6(LIBTIFF_4.2)(64bit) \
-libtiff.so.6(LIBTIFF_4.5)(64bit)"
+libtiff.so.6()(64bit)"
 
 inherit rpm

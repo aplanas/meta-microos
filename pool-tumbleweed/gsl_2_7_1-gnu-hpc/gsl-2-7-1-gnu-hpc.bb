@@ -15,8 +15,7 @@ RPROVIDES:${PN} += "gsl_2_7_1-gnu-hpc \
 gsl_2_7_1-gnu-hpc(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgsl_2_7_1-gnu-hpc"
 
 inherit rpm

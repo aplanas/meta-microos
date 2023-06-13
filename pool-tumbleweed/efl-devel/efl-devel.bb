@@ -110,8 +110,7 @@ gettext-devel \
 giflib-devel \
 glibc-devel \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libecore.so.1()(64bit) \
 libecore_con.so.1()(64bit) \
 libecore_evas.so.1()(64bit) \
@@ -126,8 +125,6 @@ libelementary.so.1()(64bit) \
 libeo.so.1()(64bit) \
 libevas.so.1()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 pkgconfig(bullet) \
 pkgconfig(dbus-1) \
 pkgconfig(dri) \

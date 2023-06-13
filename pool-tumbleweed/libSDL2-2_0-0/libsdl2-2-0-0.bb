@@ -14,32 +14,13 @@ RPM_HASH = "ffe9bf5f3558c9f30d11623f758098620fb946e1dcb4d07b7b2727375f3e206c7162
 
 RPROVIDES:${PN} += "SDL2 \
 libSDL2-2.0.so.0()(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.10)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.12)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.14)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.16)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.18)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.22)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.5)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.6)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.7)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.8)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.9)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.24.0)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.26.0)(64bit) \
 libSDL2-2_0-0 \
 libSDL2-2_0-0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+libc.so.6()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

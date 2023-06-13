@@ -28,8 +28,7 @@ python311-lmdb(aarch-64) \
 python3dist(lmdb)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 liblmdb-0.9.30.so()(64bit) \
 python(abi)"
 

@@ -18,13 +18,10 @@ logrotate(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/xz \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \
-libacl.so.1(ACL_1.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libpopt.so.0()(64bit) \
 libpopt.so.0(LIBPOPT_0)(64bit) \
-libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit)"
+libselinux.so.1()(64bit)"
 
 inherit rpm

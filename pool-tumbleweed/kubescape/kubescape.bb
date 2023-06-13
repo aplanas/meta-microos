@@ -10,6 +10,6 @@ RPM_HASH = "b7d920552404527c017caf089bcb7cb05718b2d875e1387f06942870651564460186
 RPROVIDES:${PN} += "kubescape \
 kubescape(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

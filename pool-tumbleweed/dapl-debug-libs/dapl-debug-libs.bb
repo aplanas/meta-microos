@@ -16,13 +16,11 @@ RPM_HASH = "d07bdf27b4a442219e60a70616b582e1d190b03f6253f17e52beac34c59bf999f4d2
 RPROVIDES:${PN} += "dapl-debug-libs \
 dapl-debug-libs(aarch-64) \
 dapl2 \
-libdat2.so.2()(64bit) \
-libdat2.so.2(DAT_2.0)(64bit)"
+libdat2.so.2()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dapl-debug \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

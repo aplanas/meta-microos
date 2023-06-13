@@ -18,7 +18,7 @@ python3dist(powerline-status)"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 powerline-fonts \
 python(abi) \
 python3 \

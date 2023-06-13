@@ -26,26 +26,22 @@ imlib2-loaders \
 imlib2-loaders(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libImlib2.so.1()(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgif.so.7()(64bit) \
 libheif.so.1()(64bit) \
 libid3tag.so.0.16.2()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libjxl.so.0.8()(64bit) \
 libjxl.so.0.8(JXL_0)(64bit) \
 libjxl_threads.so.0.8()(64bit) \
 libjxl_threads.so.0.8(JXL_0)(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 libopenjp2.so.7()(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 libwebp.so.7()(64bit) \
 libwebpdemux.so.2()(64bit) \
 libz.so.1()(64bit)"

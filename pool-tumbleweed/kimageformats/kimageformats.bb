@@ -14,7 +14,6 @@ RPROVIDES:${PN} += "kimageformats \
 kimageformats(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libIex-3_1.so.30()(64bit) \
 libImath-3_1.so.29()(64bit) \
 libKF5Archive.so.5()(64bit) \
@@ -26,24 +25,15 @@ libQt5Gui.so.5(Qt_5)(64bit) \
 libQt5Gui5 \
 libQt5PrintSupport5 \
 libavif.so.15()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libheif.so.1()(64bit) \
 libjxl.so.0.8()(64bit) \
 libjxl.so.0.8(JXL_0)(64bit) \
 libjxl_threads.so.0.8()(64bit) \
 libjxl_threads.so.0.8(JXL_0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libraw.so.23()(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

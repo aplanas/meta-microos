@@ -12,8 +12,7 @@ python3-lash(aarch-64)"
 
 RDEPENDS:${PN} += "lash \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 liblash.so.1()(64bit) \
 python(abi)"
 

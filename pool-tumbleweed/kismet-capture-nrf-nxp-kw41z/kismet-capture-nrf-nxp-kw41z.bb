@@ -15,10 +15,8 @@ RPROVIDES:${PN} += "kismet-capture-nrf-nxp-kw41z \
 kismet-capture-nrf-nxp-kw41z(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libprotobuf-c.so.1()(64bit) \
-libprotobuf-c.so.1(LIBPROTOBUF_C_1.0.0)(64bit) \
 libwebsockets.so.19()(64bit)"
 
 inherit rpm

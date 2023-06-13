@@ -21,11 +21,8 @@ RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 dwarves \
 kernel-source-vanilla \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
-libelf.so.1()(64bit) \
-libelf.so.1(ELFUTILS_1.0)(64bit) \
-libelf.so.1(ELFUTILS_1.3)(64bit)"
+libelf.so.1()(64bit)"
 
 inherit rpm

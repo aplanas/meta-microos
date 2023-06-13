@@ -102,7 +102,7 @@ libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
 libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcdr-0.1.so.1()(64bit) \
 libcups.so.2()(64bit) \
@@ -110,19 +110,14 @@ libfontconfig.so.1()(64bit) \
 libfreehand-0.1.so.1()(64bit) \
 libfreetype.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libharfbuzz-icu.so.0()(64bit) \
 libharfbuzz-subset.so.0()(64bit) \
 libharfbuzz.so.0()(64bit) \
 libhunspell-1.7.so.0()(64bit) \
 libicuuc.so.73()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 liblcms2.so.2()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libmspub-0.1.so.1()(64bit) \
 libpagemaker-0.0.so.0()(64bit) \
 libpng16.so.16()(64bit) \
@@ -135,22 +130,9 @@ librevenge-0.0.so.0()(64bit) \
 librevenge-generators-0.0.so.0()(64bit) \
 librevenge-stream-0.0.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 libvisio-0.1.so.1()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 libz.so.1()(64bit) \
 libzmf-0.0.so.0()(64bit)"
 

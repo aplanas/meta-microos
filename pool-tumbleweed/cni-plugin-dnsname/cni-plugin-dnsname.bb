@@ -18,6 +18,6 @@ cni-plugin-dnsname(aarch-64)"
 
 RDEPENDS:${PN} += "cni \
 dnsmasq \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

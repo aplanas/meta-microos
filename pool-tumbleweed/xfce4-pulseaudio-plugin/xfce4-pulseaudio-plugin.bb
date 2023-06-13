@@ -16,8 +16,7 @@ xfce4-pulseaudio-plugin \
 xfce4-pulseaudio-plugin(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcanberra.so.0()(64bit) \
 libexo-2.so.0()(64bit) \

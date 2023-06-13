@@ -70,8 +70,7 @@ openjfx(aarch-64)"
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.35)(64bit) \
+libc.so.6()(64bit) \
 mvn(org.antlr:ST4) \
 mvn(org.antlr:antlr) \
 mvn(org.antlr:antlr-runtime) \

@@ -17,30 +17,13 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libformw.so.6()(64bit) \
-libformw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
-libformw.so.6(NCURSESTW6_5.9.20150530)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libmenuw.so.6()(64bit) \
-libmenuw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
 libncursesw.so.6()(64bit) \
-libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
-libncursesw.so.6(NCURSESTW6_5.8.20110226)(64bit) \
-libncursesw.so.6(NCURSESTW6_5.9.20150530)(64bit) \
-libncursesw.so.6(NCURSESTW6_6.1.20171230)(64bit) \
 libpanelw.so.6()(64bit) \
-libpanelw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.1.20000708)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.4.20040208)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.8.20110226)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.9.20150530)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_6.4.current)(64bit) \
 ncurses-utils"
 
 inherit rpm

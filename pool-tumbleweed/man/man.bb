@@ -23,11 +23,10 @@ glibc-locale-base \
 groff \
 group(man) \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 less \
 libalternatives.so.1()(64bit) \
 libalternatives.so.1(ALTS_1)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgdbm.so.6()(64bit) \
 libpipeline.so.1()(64bit) \
 libz.so.1()(64bit) \

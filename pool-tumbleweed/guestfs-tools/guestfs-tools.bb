@@ -74,41 +74,19 @@ guestfs-tools(aarch-64)"
 RDEPENDS:${PN} += "curl \
 gpg2 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libguestfs.so.0()(64bit) \
 libjansson.so.4()(64bit) \
-libjansson.so.4(libjansson.so.4)(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libosinfo-1.0.so.0()(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.0.1)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.0.5)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.2.2)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.2.6)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_1.7.0)(64bit) \
 libpcre2-8.so.0()(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
 libvirt.so.0()(64bit) \
-libvirt.so.0(LIBVIRT_0.0.3)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.1)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.5)(64bit) \
-libvirt.so.0(LIBVIRT_0.4.0)(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.5)(64bit) \
-libxml2.so.2(LIBXML2_2.6.8)(64bit) \
 xz"
 
 inherit rpm

@@ -24,7 +24,6 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 imlib2-loaders \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \
 libImlib2.so.1()(64bit) \
 libSM.so.6()(64bit) \
@@ -37,11 +36,9 @@ libXft.so.2()(64bit) \
 libXinerama.so.1()(64bit) \
 libXrandr.so.2()(64bit) \
 libXrender.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangoxft-1.0.so.0()(64bit)"
 

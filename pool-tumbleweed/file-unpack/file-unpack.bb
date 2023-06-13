@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "file-unpack \
 file-unpack(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 perl(File::Unpack)"
 
 inherit rpm

@@ -12,13 +12,10 @@ application(org.pipewire.Helvum.desktop) \
 helvum \
 helvum(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -26,7 +23,6 @@ libgobject-2.0.so.0()(64bit) \
 libgraphene-1.0.so.0()(64bit) \
 libgtk-4.so.1()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpipewire-0.3.so.0()(64bit)"
 

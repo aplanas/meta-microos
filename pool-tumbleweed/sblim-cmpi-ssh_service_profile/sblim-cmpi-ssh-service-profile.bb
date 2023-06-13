@@ -23,7 +23,7 @@ sblim-cmpi-ssh_service_profile(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 cim-schema \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libkonkret.so.0()(64bit) \
 libsblim-cmpiutil.so.1()(64bit) \
 sblim-cmpi-base \

@@ -19,7 +19,7 @@ LHAPDF-devel \
 libAPFEL.so.0()(64bit) \
 libAPFEL0 \
 libLHAPDF-6.5.4.so()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgfortran.so.5()(64bit) \
 libgfortran.so.5(GFORTRAN_8)(64bit)"
 

@@ -17,7 +17,6 @@ metainfo(org.kde.kalgebra.appdata.xml) \
 mimehandler(application/x-kalgebra)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libAnalitza.so.8()(64bit) \
 libAnalitzaGui.so.8()(64bit) \
 libAnalitzaPlot.so.8()(64bit) \
@@ -37,11 +36,9 @@ libQt5WebEngineWidgets.so.5()(64bit) \
 libQt5WebEngineWidgets.so.5(Qt_5)(64bit) \
 libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libreadline.so.8()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 qt5qmlimport(QtQuick.2) \
 qt5qmlimport(org.kde.analitza.1) \
 qt5qmlimport(org.kde.plasma.components.2)"

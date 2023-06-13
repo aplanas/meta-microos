@@ -15,18 +15,15 @@ RPROVIDES:${PN} += "dump \
 dump(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_1.0)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcom_err.so.2()(64bit) \
 libe2p.so.2()(64bit) \
 libext2fs.so.2()(64bit) \
 liblzo2.so.2()(64bit) \
 libreadline.so.8()(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

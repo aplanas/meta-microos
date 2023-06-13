@@ -22,10 +22,7 @@ RPM_HASH = "d69c5374df6ba3b70b8c113d1a854ed3790ba4bf268cf2d30ff4a7424eb7dee9904d
 RPROVIDES:${PN} += "ipset \
 ipset(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
-libipset.so.13()(64bit) \
-libipset.so.13(LIBIPSET_2.0)(64bit) \
-libipset.so.13(LIBIPSET_4.11)(64bit) \
-libipset.so.13(LIBIPSET_4.8)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
+libipset.so.13()(64bit)"
 
 inherit rpm

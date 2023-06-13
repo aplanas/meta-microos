@@ -33,30 +33,23 @@ pkgconfig(Qt5QuickWidgets)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libQt5Gui.so.5()(64bit) \
 libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5Qml.so.5()(64bit) \
 libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5Quick.so.5()(64bit) \
 libQt5Quick.so.5(Qt_5)(64bit) \
 libQt5QuickTest.so.5()(64bit) \
-libQt5QuickTest.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5Test.so.5()(64bit) \
 libQt5Test.so.5(Qt_5)(64bit) \
 libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
 libQtQuick5 \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libqt5-qtdeclarative-tools \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 pkgconfig(Qt5Core) \
 pkgconfig(Qt5Gui) \
 pkgconfig(Qt5Network) \

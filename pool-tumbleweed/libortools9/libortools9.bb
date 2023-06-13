@@ -13,7 +13,6 @@ libortools9(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libabsl_die_if_null.so.2301.0.0()(64bit) \
 libabsl_flags_internal.so.2301.0.0()(64bit) \
 libabsl_flags_marshalling.so.2301.0.0()(64bit) \
@@ -45,35 +44,12 @@ libabsl_strings_internal.so.2301.0.0()(64bit) \
 libabsl_synchronization.so.2301.0.0()(64bit) \
 libabsl_throw_delegate.so.2301.0.0()(64bit) \
 libabsl_time.so.2301.0.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libprotobuf-3.21.12.so()(64bit) \
 libre2.so.10()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.5)(64bit) \
-libstdc++.so.6(CXXABI_1.3.7)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.17)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.22)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.30)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

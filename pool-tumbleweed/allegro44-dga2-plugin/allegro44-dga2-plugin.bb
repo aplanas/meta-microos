@@ -12,10 +12,9 @@ allegro44-dga2-plugin(aarch-64)"
 
 RDEPENDS:${PN} += "allegro44 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXxf86dga.so.1()(64bit) \
 liballeg.so.4.4()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

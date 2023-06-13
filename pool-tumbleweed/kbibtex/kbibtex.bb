@@ -29,7 +29,6 @@ mimehandler(text/x-bibtex)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 desktop-file-utils \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Completion.so.5()(64bit) \
 libKF5ConfigCore.so.5()(64bit) \
 libKF5ConfigGui.so.5()(64bit) \
@@ -66,15 +65,12 @@ libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
 libQt5XmlPatterns.so.5()(64bit) \
 libQt5XmlPatterns.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libicui18n.so.73()(64bit) \
 libicuuc.so.73()(64bit) \
 libpoppler-qt5.so.1()(64bit) \
 libqoauth.so.2()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
 shared-mime-info"
 
 inherit rpm

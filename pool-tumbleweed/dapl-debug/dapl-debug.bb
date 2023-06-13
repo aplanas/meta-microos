@@ -14,23 +14,16 @@ RPROVIDES:${PN} += "config(dapl-debug) \
 dapl-debug \
 dapl-debug(aarch-64) \
 libdaplofa.so.2()(64bit) \
-libdaplofa.so.2(DAPL_CMA_2.0)(64bit) \
 libdaploscm.so.2()(64bit) \
-libdaploscm.so.2(DAPL_SCM_2.0)(64bit) \
-libdaploucm.so.2()(64bit) \
-libdaploucm.so.2(DAPL_OCM_2.0)(64bit)"
+libdaploucm.so.2()(64bit)"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libibverbs.so.1()(64bit) \
-libibverbs.so.1(IBVERBS_1.0)(64bit) \
-libibverbs.so.1(IBVERBS_1.1)(64bit) \
 librdmacm.so.1()(64bit) \
-librdmacm.so.1(RDMACM_1.0)(64bit) \
 sed"
 
 inherit rpm

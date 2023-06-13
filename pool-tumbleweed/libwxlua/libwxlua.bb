@@ -15,42 +15,21 @@ RPROVIDES:${PN} += "libwx.so()(64bit) \
 libwxlua \
 libwxlua(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_baseu-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_baseu_net-suse.so.9.0.0()(64bit) \
-libwx_baseu_net-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_baseu_xml-suse.so.9.0.0()(64bit) \
-libwx_baseu_xml-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_gtk3u_aui-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_aui-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_gtk3u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_gtk3u_gl-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_gl-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_gtk3u_html-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_html-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_gtk3u_media-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_media-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_gtk3u_stc-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_stc-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_gtk3u_webview-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_webview-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_gtk3u_xrc-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_xrc-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwxlua-wx32-3_1_0_0 \
 libwxlua_bind-wx32-3_1_0_0 \
 libwxlua_debug-wx32-3_1_0_0 \

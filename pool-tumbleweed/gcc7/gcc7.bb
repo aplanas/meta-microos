@@ -20,7 +20,7 @@ cpp7 \
 glibc-devel \
 libasan4 \
 libatomic1 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s1 \
 libgmp.so.10()(64bit) \
 libgomp1 \
@@ -28,7 +28,6 @@ libisl.so.23()(64bit) \
 libitm1 \
 liblsan0 \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libmpc.so.3()(64bit) \
 libmpfr.so.6()(64bit) \
 libtsan0 \

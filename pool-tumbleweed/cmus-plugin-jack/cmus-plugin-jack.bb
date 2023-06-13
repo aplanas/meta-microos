@@ -12,10 +12,8 @@ cmus-plugin-jack(aarch-64)"
 
 RDEPENDS:${PN} += "cmus \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libjack.so.0()(64bit) \
-libsamplerate.so.0()(64bit) \
-libsamplerate.so.0(libsamplerate.so.0.0)(64bit)"
+libsamplerate.so.0()(64bit)"
 
 inherit rpm

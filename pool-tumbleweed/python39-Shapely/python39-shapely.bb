@@ -19,8 +19,7 @@ python39-shapely \
 python3dist(shapely)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgeos3_11_2 \
 libgeos_c.so.1()(64bit) \
 libgeos_c1 \

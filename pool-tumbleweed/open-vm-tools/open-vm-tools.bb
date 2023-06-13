@@ -46,32 +46,24 @@ open-vm-tools(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libDeployPkg.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libdrm.so.2()(64bit) \
 libfuse3.so.3()(64bit) \
-libfuse3.so.3(FUSE_3.0)(64bit) \
-libfuse3.so.3(FUSE_3.1)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libguestlib.so.0()(64bit) \
 libhgfs.so.0()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libtirpc.so.3()(64bit) \
-libtirpc.so.3(TIRPC_0.3.0)(64bit) \
 libudev.so.1()(64bit) \
 libudev.so.1(LIBUDEV_183)(64bit) \
 libvgauth.so.0()(64bit) \
 libvmtools.so.0()(64bit) \
 libvmtools0 \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.5.8)(64bit) \
 libxmlsec1-openssl1 \
 libxmlsec1.so.1()(64bit) \
 net-tools \

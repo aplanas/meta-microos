@@ -44,7 +44,7 @@ libHStext-2.0.2-ghc9.4.5.so()(64bit) \
 libHStime-1.12.2-ghc9.4.5.so()(64bit) \
 libHStransformers-0.5.6.2-ghc9.4.5.so()(64bit) \
 libHSunix-2.7.3-ghc9.4.5.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit)"
 

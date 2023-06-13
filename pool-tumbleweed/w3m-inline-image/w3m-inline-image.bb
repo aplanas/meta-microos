@@ -16,10 +16,9 @@ w3m:/usr/lib64/w3m/w3mimgdisplay"
 
 RDEPENDS:${PN} += "imlib2-loaders \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libImlib2.so.1()(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 w3m"
 
 inherit rpm

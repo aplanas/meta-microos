@@ -13,15 +13,13 @@ gnome-remote-desktop(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libepoxy.so.0()(64bit) \
 libfdk-aac.so.2()(64bit) \
 libfreerdp-server2.so.2()(64bit) \
 libfreerdp2.so.2()(64bit) \
 libfuse3.so.3()(64bit) \
-libfuse3.so.3(FUSE_3.0)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
@@ -35,7 +33,6 @@ libtss2-tctildr.so.0()(64bit) \
 libvncserver.so.1()(64bit) \
 libwinpr2.so.2()(64bit) \
 libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_1.0.0)(64bit) \
 pipewire"
 
 inherit rpm

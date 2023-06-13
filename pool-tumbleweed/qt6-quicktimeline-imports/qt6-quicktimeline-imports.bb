@@ -9,27 +9,16 @@ RPM_HASH = "38720716701b582c5d5188866d6b7f3020f8ddd000fc9ccf5f5d5ab0995a28bdf3bb
 
 RPROVIDES:${PN} += "libqtquicktimelineplugin.so()(64bit) \
 libqtquicktimelineplugin.so(Qt_6)(64bit) \
-libqtquicktimelineplugin.so(Qt_6.0)(64bit) \
-libqtquicktimelineplugin.so(Qt_6.1)(64bit) \
-libqtquicktimelineplugin.so(Qt_6.2)(64bit) \
-libqtquicktimelineplugin.so(Qt_6.3)(64bit) \
-libqtquicktimelineplugin.so(Qt_6.4)(64bit) \
-libqtquicktimelineplugin.so(Qt_6.5)(64bit) \
-libqtquicktimelineplugin.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-quicktimeline-imports \
 qt6-quicktimeline-imports(aarch-64)"
 
 RDEPENDS:${PN} += "libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Core.so.6(Qt_6.5)(64bit) \
 libQt6Qml.so.6()(64bit) \
 libQt6Qml.so.6(Qt_6)(64bit) \
 libQt6QuickTimeline.so.6()(64bit) \
 libQt6QuickTimeline.so.6(Qt_6)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+libc.so.6()(64bit) \
+libstdc++.so.6()(64bit)"
 
 inherit rpm

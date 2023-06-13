@@ -34,15 +34,10 @@ gcc13 \
 glibc-devel \
 libLLVM.so.15()(64bit) \
 libLLVM.so.15(LLVM_15)(64bit) \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.2)(64bit) \
 lld15"
 
 inherit rpm

@@ -16,11 +16,10 @@ xorg-x11-libXmu"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libXt.so.6()(64bit) \
-libc.so.6(GLIBC_2.26)(64bit) \
+libc.so.6()(64bit) \
 xbitmaps"
 
 inherit rpm

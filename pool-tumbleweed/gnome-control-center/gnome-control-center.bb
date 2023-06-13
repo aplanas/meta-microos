@@ -53,13 +53,12 @@ gnome-version \
 gnomekbd-tools \
 iso-codes \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXi.so.6()(64bit) \
 libaccountsservice.so.0()(64bit) \
 libadwaita-1.so.0()(64bit) \
 libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcolord-gtk4.so.1()(64bit) \
 libcolord.so.2()(64bit) \
@@ -89,8 +88,6 @@ libibus-1.0.so.5()(64bit) \
 libkrb5.so.3()(64bit) \
 libkrb5.so.3(krb5_3_MIT)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmalcontent-0.so.0()(64bit) \
 libmm-glib.so.0()(64bit) \
 libnm.so.0()(64bit) \
@@ -112,15 +109,11 @@ libpulse-mainloop-glib.so.0(PULSE_0)(64bit) \
 libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
 libpwquality.so.1()(64bit) \
-libpwquality.so.1(LIBPWQUALITY_1.0)(64bit) \
 libsecret-1.so.0()(64bit) \
 libsmbclient.so.0()(64bit) \
-libsmbclient.so.0(SMBCLIENT_0.1.0)(64bit) \
 libudisks2.so.0()(64bit) \
 libupower-glib.so.3()(64bit) \
 libwacom.so.9()(64bit) \
-libwacom.so.9(LIBWACOM_2.0)(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

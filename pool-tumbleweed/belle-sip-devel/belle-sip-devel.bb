@@ -18,20 +18,13 @@ pkgconfig(belle-sip)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbctoolbox-tester.so.1()(64bit) \
 libbctoolbox.so.1()(64bit) \
 libbellesip.so.1()(64bit) \
 libbellesip1 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
 pkgconfig(bctoolbox) \
 pkgconfig(zlib)"
 

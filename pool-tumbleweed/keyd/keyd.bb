@@ -17,7 +17,7 @@ keyd(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 python3-xlib \
 sed \
 shadow"

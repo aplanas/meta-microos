@@ -13,8 +13,7 @@ python3-gnucash(aarch-64)"
 
 RDEPENDS:${PN} += "gnucash \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgnc-app-utils.so()(64bit) \
 libgnc-core-utils.so()(64bit) \

@@ -11,11 +11,9 @@ RPROVIDES:${PN} += "cage \
 cage(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libwayland-server.so.0()(64bit) \
 libwlroots.so.11()(64bit) \
-libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit)"
+libxkbcommon.so.0()(64bit)"
 
 inherit rpm

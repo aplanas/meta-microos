@@ -21,8 +21,7 @@ libpurple-plugin-sipe(aarch-64) \
 libsipe.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libfarstream-0.2.so.5()(64bit) \
@@ -38,19 +37,9 @@ libgstreamer-1.0.so.0()(64bit) \
 libgstrtp-1.0.so.0()(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.10)(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
-libnss3.so(NSS_3.3)(64bit) \
-libnss3.so(NSS_3.4)(64bit) \
-libnss3.so(NSS_3.5)(64bit) \
-libnss3.so(NSS_3.6)(64bit) \
-libnss3.so(NSS_3.9.2)(64bit) \
 libpurple.so.0()(64bit) \
 libsmime3.so()(64bit) \
-libsmime3.so(NSS_3.4)(64bit) \
 libwinpr2.so.2()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

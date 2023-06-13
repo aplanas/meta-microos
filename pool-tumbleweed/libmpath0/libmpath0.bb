@@ -21,22 +21,10 @@ libforeign-nvme.so()(64bit) \
 libmpath0 \
 libmpath0(aarch-64) \
 libmpathcmd.so.0()(64bit) \
-libmpathcmd.so.0(LIBMPATHCMD_1.0.0)(64bit) \
 libmpathpersist.so.0()(64bit) \
-libmpathpersist.so.0(LIBMPATHPERSIST_2.1.0)(64bit) \
-libmpathpersist.so.0(__LIBMPATHPERSIST_INT_1.0.0)(64bit) \
 libmpathutil.so.0()(64bit) \
-libmpathutil.so.0(LIBMPATHCOMMON_1.0.0)(64bit) \
-libmpathutil.so.0(LIBMPATHUTIL_1.0)(64bit) \
-libmpathutil.so.0(LIBMPATHUTIL_1.1)(64bit) \
-libmpathutil.so.0(LIBMPATHUTIL_1.2)(64bit) \
-libmpathutil.so.0(LIBMULTIPATH_16.0.0)(64bit) \
 libmpathvalid.so.0()(64bit) \
-libmpathvalid.so.0(MPATH_1.0)(64bit) \
 libmultipath.so.0()(64bit) \
-libmultipath.so.0(LIBMPATHCOMMON_1.0.0)(64bit) \
-libmultipath.so.0(LIBMULTIPATH_18.0.0)(64bit) \
-libmultipath.so.0(LIBMULTIPATH_18.1.0)(64bit) \
 libprioalua.so()(64bit) \
 libprioconst.so()(64bit) \
 libpriodatacore.so()(64bit) \
@@ -53,23 +41,15 @@ libprioweightedpath.so()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaio.so.1()(64bit) \
-libaio.so.1(LIBAIO_0.1)(64bit) \
-libaio.so.1(LIBAIO_0.4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdevmapper.so.1.03()(64bit) \
 libdevmapper.so.1.03(Base)(64bit) \
 libdevmapper.so.1.03(DM_1_02_110)(64bit) \
 libdevmapper.so.1.03(DM_1_02_97)(64bit) \
 libdevmapper.so.1.03(DM_1_02_98)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmount.so.1()(64bit) \
-libmount.so.1(MOUNT_2.19)(64bit) \
-libmount.so.1(MOUNT_2.22)(64bit) \
-libmount.so.1(MOUNT_2.24)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libudev.so.1()(64bit) \

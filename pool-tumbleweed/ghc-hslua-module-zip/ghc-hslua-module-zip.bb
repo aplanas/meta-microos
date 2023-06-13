@@ -42,7 +42,7 @@ libHStransformers-0.5.6.2-ghc9.4.5.so()(64bit) \
 libHSunix-2.7.3-ghc9.4.5.so()(64bit) \
 libHSzip-archive-0.4.3-DcfDtoW5uCpFhVU7PDyRvn-ghc9.4.5.so()(64bit) \
 libHSzlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk-ghc9.4.5.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit) \
 libz.so.1()(64bit)"

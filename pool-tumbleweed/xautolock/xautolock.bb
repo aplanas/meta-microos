@@ -16,6 +16,6 @@ xautolock(aarch-64)"
 
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libXss.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

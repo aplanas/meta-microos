@@ -22,8 +22,7 @@ git-core \
 glibc \
 icu \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libfontconfig.so.1()(64bit) \
 libharfbuzz-subset.so.0()(64bit) \
 libharfbuzz.so.0()(64bit) \
@@ -31,7 +30,6 @@ libicui18n.so.73()(64bit) \
 libicuuc.so.73()(64bit) \
 liblua5.4.so.5()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libtexpdf.so.0()(64bit) \
 lua54 \
 lua54-bit32 \

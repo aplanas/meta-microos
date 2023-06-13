@@ -16,8 +16,7 @@ libedataserverui-1_2-4(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcamel-1.2.so.64()(64bit) \
 libecal-2.0.so.2()(64bit) \
@@ -30,13 +29,8 @@ libgtk-3.so.0()(64bit) \
 libical-glib.so.3()(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
-libnss3.so(NSS_3.3)(64bit) \
-libnss3.so(NSS_3.7)(64bit) \
-libnss3.so(NSS_3.9.2)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libsmime3.so()(64bit) \
-libsmime3.so(NSS_3.4)(64bit) \
 libsoup-3.0.so.0()(64bit) \
 libwebkit2gtk-4.1.so.0()(64bit)"
 

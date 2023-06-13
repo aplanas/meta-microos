@@ -20,14 +20,10 @@ libtpl-extensions3(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdbus-glib-1.so.2()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
-libtelepathy-glib.so.0()(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.0)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.1)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.6)(64bit)"
+libtelepathy-glib.so.0()(64bit)"
 
 inherit rpm

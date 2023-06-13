@@ -10,7 +10,7 @@ RPM_HASH = "4cf513a68af18d48980771909e5766c86f710c2147b5f1f22994a88323e4d3da80ce
 RPROVIDES:${PN} += "libknet1-compress-zstd-plugin \
 libknet1-compress-zstd-plugin(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libknet1(aarch-64) \
 libzstd.so.1()(64bit)"
 

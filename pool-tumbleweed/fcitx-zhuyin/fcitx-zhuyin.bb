@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "fcitx-zhuyin \
 fcitx-zhuyin(aarch-64) \
 locale(fcitx:zh_TW;zh_HK)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libzhuyin.so.15()(64bit) \
 libzhuyin.so.15(LIBZHUYIN)(64bit)"

@@ -15,7 +15,7 @@ libreadline-java \
 libreadline-java(aarch-64)"
 
 RDEPENDS:${PN} += "java \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libedit \
 libedit.so.0()(64bit)"
 

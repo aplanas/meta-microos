@@ -15,12 +15,10 @@ RPROVIDES:${PN} += "SDL2_sound-devel \
 SDL2_sound-devel(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.18)(64bit) \
 libSDL2_sound.so.2()(64bit) \
 libSDL2_sound2 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 pkgconfig(sdl2)"
 
 inherit rpm

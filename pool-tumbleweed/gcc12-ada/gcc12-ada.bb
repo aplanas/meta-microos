@@ -13,7 +13,7 @@ gcc12-ada(aarch-64)"
 
 RDEPENDS:${PN} += "gcc12 \
 libada12 \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libisl.so.23()(64bit) \
 libmpc.so.3()(64bit) \

@@ -17,11 +17,8 @@ libopenssl1_0_0-steam(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.1.0.0()(64bit) \
-libcrypto.so.1.0.0(OPENSSL_1.0.0)(64bit) \
-libcrypto.so.1.0.0(OPENSSL_1.0.1_EC)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

@@ -15,17 +15,10 @@ RDEPENDS:${PN} += "libboost_mpi.so.1.82.0()(64bit) \
 libboost_mpi_python-py3.so.1.82.0()(64bit) \
 libboost_python-py3.so.1.82.0()(64bit) \
 libboost_serialization.so.1.82.0()(64bit) \
-libc.so.6(GLIBC_2.32)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libmpi.so.40()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 python(abi)"
 
 inherit rpm

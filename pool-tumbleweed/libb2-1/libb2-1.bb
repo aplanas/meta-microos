@@ -15,9 +15,7 @@ libb2-1(aarch-64) \
 libb2.so.1()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.25)(64bit) \
-libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit)"
+libc.so.6()(64bit) \
+libgomp.so.1()(64bit)"
 
 inherit rpm

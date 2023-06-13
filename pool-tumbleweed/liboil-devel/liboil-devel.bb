@@ -14,7 +14,7 @@ pkgconfig(liboil-0.3)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liboil-0.3.so.0()(64bit) \
 liboil-0_3-0"
 

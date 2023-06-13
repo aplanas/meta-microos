@@ -10,7 +10,7 @@ RPM_HASH = "6206718b5f9b8ebbff472b0c4718cd2fc38bd4c024c3c344321711d7663f64d318b4
 RPROVIDES:${PN} += "hawk-apiserver \
 hawk-apiserver(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libcib.so.27()(64bit) \
 libcrmcommon.so.34()(64bit) \
 libglib-2.0.so.0()(64bit) \

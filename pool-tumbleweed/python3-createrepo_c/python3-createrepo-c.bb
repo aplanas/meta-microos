@@ -13,8 +13,7 @@ python3.10dist(createrepo-c) \
 python3dist(createrepo-c)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcreaterepo_c.so.0()(64bit) \
 libcreaterepo_c0(aarch-64) \
 libglib-2.0.so.0()(64bit) \

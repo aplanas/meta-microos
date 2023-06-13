@@ -33,13 +33,10 @@ RPROVIDES:${PN} += "nftlb \
 nftlb(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libev.so.4()(64bit) \
 libjansson.so.4()(64bit) \
-libjansson.so.4(libjansson.so.4)(64bit) \
 libmnl.so.0()(64bit) \
-libmnl.so.0(LIBMNL_1.0)(64bit) \
 libnftables.so.1()(64bit) \
 libnftables.so.1(LIBNFTABLES_1)(64bit)"
 

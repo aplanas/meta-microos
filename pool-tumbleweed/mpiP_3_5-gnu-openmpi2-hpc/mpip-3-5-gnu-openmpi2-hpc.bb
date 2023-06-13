@@ -20,10 +20,8 @@ RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \
 gnu-compilers-hpc \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libopenmpi2-gnu-hpc \
 libunwind.so.8()(64bit) \
 lua-lmod"

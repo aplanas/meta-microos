@@ -40,7 +40,7 @@ libHStime-1.12.2-ghc9.4.5.so()(64bit) \
 libHStime-manager-0.0.0-49hD2RcPrUEG8anOiBePCj-ghc9.4.5.so()(64bit) \
 libHSunix-2.7.3-ghc9.4.5.so()(64bit) \
 libHSunix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0-ghc9.4.5.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit)"
 

@@ -15,16 +15,12 @@ libquvi-0_9-0_9_4(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgpg-error.so.0()(64bit) \
-libgpg-error.so.0(GPG_ERROR_1.0)(64bit) \
 liblua5.4.so.5()(64bit) \
-libproxy.so.1()(64bit) \
-libproxy.so.1(LIBPROXY_0.4.16)(64bit)"
+libproxy.so.1()(64bit)"
 
 inherit rpm

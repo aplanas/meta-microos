@@ -25,10 +25,8 @@ perl-Compress-Raw-Lzma \
 perl-Compress-Raw-Lzma(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

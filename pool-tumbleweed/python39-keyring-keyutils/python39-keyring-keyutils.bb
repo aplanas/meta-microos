@@ -22,11 +22,8 @@ python39-keyring-keyutils(aarch-64) \
 python3dist(keyring-keyutils)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.25)(64bit) \
+libc.so.6()(64bit) \
 libkeyutils.so.1()(64bit) \
-libkeyutils.so.1(KEYUTILS_0.3)(64bit) \
-libkeyutils.so.1(KEYUTILS_1.4)(64bit) \
 python(abi)"
 
 inherit rpm

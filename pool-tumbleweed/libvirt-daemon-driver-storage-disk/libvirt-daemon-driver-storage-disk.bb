@@ -14,15 +14,11 @@ libvirt_storage_backend_disk.so()(64bit)"
 
 RDEPENDS:${PN} += "device-mapper \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libvirt-daemon-driver-storage-core \
 libvirt.so.0()(64bit) \
-libvirt.so.0(LIBVIRT_PRIVATE_9.4.0)(64bit) \
 parted"
 
 inherit rpm

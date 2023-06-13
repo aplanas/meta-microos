@@ -14,8 +14,7 @@ RPROVIDES:${PN} += "celt051 \
 celt051(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcelt051.so.0()(64bit) \
 libogg.so.0()(64bit)"
 

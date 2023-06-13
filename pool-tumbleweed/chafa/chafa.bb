@@ -13,10 +13,8 @@ RPROVIDES:${PN} += "chafa \
 chafa(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMagickWand-7.Q16HDRI.so.10()(64bit) \
-libMagickWand-7.Q16HDRI.so.10(VERS_10.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libchafa.so.0()(64bit) \
 libchafa0 \
 libfreetype.so.6()(64bit) \

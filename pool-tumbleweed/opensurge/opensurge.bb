@@ -17,7 +17,6 @@ opensurge \
 opensurge(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 liballegro.so.5.2()(64bit) \
 liballegro_acodec.so.5.2()(64bit) \
 liballegro_audio.so.5.2()(64bit) \
@@ -27,11 +26,8 @@ liballegro_image.so.5.2()(64bit) \
 liballegro_memfile.so.5.2()(64bit) \
 liballegro_primitives.so.5.2()(64bit) \
 liballegro_ttf.so.5.2()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libsurgescript.so.0.5.6()(64bit)"
 
 inherit rpm

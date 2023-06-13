@@ -11,22 +11,16 @@ RPROVIDES:${PN} += "hashlink-hdlls \
 hashlink-hdlls(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libSDL2-2.0.so.0()(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libhl.so.1()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libturbojpeg.so.0()(64bit) \
-libturbojpeg.so.0(TURBOJPEG_1.0)(64bit) \
-libturbojpeg.so.0(TURBOJPEG_1.2)(64bit) \
 libuv.so.1()(64bit) \
 libvorbisfile.so.3()(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

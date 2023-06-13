@@ -25,23 +25,16 @@ libgphoto2.so.6()(64bit)"
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libexif.so.12()(64bit) \
 libgd.so.3()(64bit) \
 libgphoto2_port.so.12()(64bit) \
 libgphoto2_port.so.12(LIBGPHOTO2_5_0)(64bit) \
 libgphoto2_port.so.12(LIBGPHOTO2_INTERNAL)(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libltdl.so.7()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.7.3)(64bit) \
 udev"
 
 inherit rpm

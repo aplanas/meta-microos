@@ -11,7 +11,7 @@ RPM_HASH = "5c83b92bdfa46f21853397c76d178395c3ce4118280ccde96259dccb676642577e6e
 RPROVIDES:${PN} += "udns \
 udns(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libudns.so.0()(64bit)"
 
 inherit rpm

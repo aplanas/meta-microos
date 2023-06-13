@@ -9,32 +9,20 @@ RPM_HASH = "21f63ff67104fce7557435cb3b5403b5a340ea43858fb495ca0b75864e6dab9f5a97
 
 RPROVIDES:${PN} += "libqmlwebsocketsplugin.so()(64bit) \
 libqmlwebsocketsplugin.so(Qt_6)(64bit) \
-libqmlwebsocketsplugin.so(Qt_6.0)(64bit) \
-libqmlwebsocketsplugin.so(Qt_6.1)(64bit) \
-libqmlwebsocketsplugin.so(Qt_6.2)(64bit) \
-libqmlwebsocketsplugin.so(Qt_6.3)(64bit) \
-libqmlwebsocketsplugin.so(Qt_6.4)(64bit) \
-libqmlwebsocketsplugin.so(Qt_6.5)(64bit) \
-libqmlwebsocketsplugin.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-websockets-imports \
 qt6-websockets-imports(aarch-64) \
 qt6qmlimport(QtWebSockets.1)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Core.so.6(Qt_6.5)(64bit) \
 libQt6Network.so.6()(64bit) \
 libQt6Network.so.6(Qt_6)(64bit) \
 libQt6Qml.so.6()(64bit) \
 libQt6Qml.so.6(Qt_6)(64bit) \
 libQt6WebSockets.so.6()(64bit) \
 libQt6WebSockets.so.6(Qt_6)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+libc.so.6()(64bit) \
+libstdc++.so.6()(64bit)"
 
 inherit rpm

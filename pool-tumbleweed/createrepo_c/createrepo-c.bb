@@ -17,8 +17,7 @@ createrepo_c(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcreaterepo_c.so.0()(64bit) \
 libcreaterepo_c0 \
 libcreaterepo_c0(aarch-64) \

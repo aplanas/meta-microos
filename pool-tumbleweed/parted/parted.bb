@@ -13,15 +13,11 @@ parted(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libparted-fs-resize.so.0()(64bit) \
-libparted-fs-resize.so.0(LIBPARTED_FS_RESIZE_0.0.0)(64bit) \
 libparted.so.2()(64bit) \
 libreadline.so.8()(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit)"
+libuuid.so.1()(64bit)"
 
 inherit rpm

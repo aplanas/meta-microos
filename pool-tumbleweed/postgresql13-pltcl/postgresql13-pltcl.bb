@@ -22,8 +22,7 @@ postgresql13-pltcl \
 postgresql13-pltcl(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libtcl8.6.so()(64bit) \
 postgresql-pltcl-noarch \
 postgresql13-server \

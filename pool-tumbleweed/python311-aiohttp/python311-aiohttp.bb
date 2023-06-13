@@ -24,8 +24,7 @@ RDEPENDS:${PN} += "(python311-async_timeout >= 4.0 with python311-async_timeout 
 (python311-typing_extensions >= 3.7.4 if python311-base < 3.8) \
 (python311-yarl >= 1.0 with python311-yarl < 2) \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 python(abi) \
 python311-aiosignal \
 python311-attrs \

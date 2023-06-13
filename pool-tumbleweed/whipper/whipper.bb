@@ -22,10 +22,8 @@ cd-paranoia \
 cdrdao \
 flac \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libsndfile.so.1()(64bit) \
-libsndfile.so.1(libsndfile.so.1.0)(64bit) \
 python(abi) \
 python3-discid \
 python3-gobject \

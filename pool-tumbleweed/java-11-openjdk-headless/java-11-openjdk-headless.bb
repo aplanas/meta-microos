@@ -46,7 +46,6 @@ libjli.so()(64bit) \
 libjsig.so()(64bit) \
 libjsound.so()(64bit) \
 libjvm.so()(64bit) \
-libjvm.so(SUNWprivate_1.1)(64bit) \
 liblcms.so()(64bit) \
 libmanagement.so()(64bit) \
 libmanagement_agent.so()(64bit) \
@@ -67,31 +66,18 @@ RDEPENDS:${PN} += "/bin/sh \
 java-ca-certificates \
 jpackage-utils \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfreetype.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libharfbuzz.so.0()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 liblcms2.so.2()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.53)(64bit) \
 libpcsclite.so.1()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit) \
-libz.so.1(ZLIB_1.2.2)(64bit) \
 mozilla-nss \
 update-alternatives"
 

@@ -15,7 +15,6 @@ xawtv \
 xawtv(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXaw.so.7()(64bit) \
@@ -28,15 +27,11 @@ libXv.so.1()(64bit) \
 libXxf86dga.so.1()(64bit) \
 libXxf86vm.so.1()(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfontconfig.so.1()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 liblirc_client.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libzvbi.so.0()(64bit) \
 tv-common \
 tv-fonts \

@@ -12,7 +12,7 @@ freeradius-server-postgresql \
 freeradius-server-postgresql(aarch-64)"
 
 RDEPENDS:${PN} += "freeradius-server \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpq.so.5()(64bit)"
 
 inherit rpm

@@ -28,7 +28,7 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python3 \
 /usr/bin/python3.10 \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpython3.10.so.1.0()(64bit) \
 python(abi) \
 python310-base"

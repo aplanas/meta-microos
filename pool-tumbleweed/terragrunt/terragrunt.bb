@@ -10,6 +10,6 @@ RPM_HASH = "529c5e8cfa5978e96e40d62910e630961df83298772b852e201c3b7726f5ee087560
 RPROVIDES:${PN} += "terragrunt \
 terragrunt(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

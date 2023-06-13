@@ -30,11 +30,10 @@ mate-settings-daemon \
 mate-settings-daemon(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXi.so.6()(64bit) \
 libatspi.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcanberra-gtk3.so.0()(64bit) \
 libdbus-1.so.3()(64bit) \
@@ -50,7 +49,6 @@ libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libmate-desktop-2.so.17()(64bit) \
 libmatekbd.so.4()(64bit) \
 libmatekbdui.so.4()(64bit) \
@@ -58,10 +56,6 @@ libmatemixer.so.0()(64bit) \
 libnotify.so.4()(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
-libnss3.so(NSS_3.3)(64bit) \
-libnss3.so(NSS_3.4)(64bit) \
-libnss3.so(NSS_3.9.3)(64bit) \
 libplc4.so()(64bit) \
 libpolkit-gobject-1.so.0()(64bit) \
 libpulse.so.0()(64bit) \

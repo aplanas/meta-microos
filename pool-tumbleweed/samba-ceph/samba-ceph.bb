@@ -13,32 +13,20 @@ RPROVIDES:${PN} += "samba-ceph \
 samba-ceph(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcephfs.so.2()(64bit) \
 libgenrand-samba4.so()(64bit) \
-libgenrand-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 librados.so.2()(64bit) \
 libreplace-samba4.so()(64bit) \
-libreplace-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 libsamba-debug-samba4.so()(64bit) \
-libsamba-debug-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 libsamba-errors.so.1()(64bit) \
-libsamba-errors.so.1(SAMBA_ERRORS_1.0.0)(64bit) \
 libsamba-util.so.0()(64bit) \
-libsamba-util.so.0(SAMBA_UTIL_0.0.1)(64bit) \
 libsamba3-util-samba4.so()(64bit) \
-libsamba3-util-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 libsmbconf.so.0()(64bit) \
-libsmbconf.so.0(SMBCONF_0.0.1)(64bit) \
 libsmbd-base-samba4.so()(64bit) \
-libsmbd-base-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit) \
 libtevent-util.so.0()(64bit) \
-libtevent-util.so.0(TEVENT_UTIL_0.0.1)(64bit) \
 libtevent.so.0()(64bit) \
-libtevent.so.0(TEVENT_0.9.9)(64bit) \
 samba"
 
 inherit rpm

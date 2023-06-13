@@ -10,11 +10,9 @@ RPM_HASH = "79dbcf424afd34144dc35641e36bf422ccce9b0bcba37738ab5966e1a294c5c4798e
 
 RPROVIDES:${PN} += "libgfortran.so.5()(64bit) \
 libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_10.2)(64bit) \
 libgfortran.so.5(GFORTRAN_12)(64bit) \
 libgfortran.so.5(GFORTRAN_8)(64bit) \
 libgfortran.so.5(GFORTRAN_9)(64bit) \
-libgfortran.so.5(GFORTRAN_9.2)(64bit) \
 libgfortran.so.5(GFORTRAN_C99_8)(64bit) \
 libgfortran.so.5(GFORTRAN_F2C_8)(64bit) \
 libgfortran5 \
@@ -22,16 +20,8 @@ libgfortran5-gcc12 \
 libgfortran5-gcc12(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
-libgcc_s.so.1(GCC_4.5.0)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.18)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

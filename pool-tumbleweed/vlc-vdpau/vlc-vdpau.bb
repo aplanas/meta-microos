@@ -21,15 +21,13 @@ vlc-vdpau(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libavcodec.so.58.134()(64bit) \
 libavcodec.so.58.134(LIBAVCODEC_58)(64bit) \
 libavutil.so.56.70()(64bit) \
 libavutil.so.56.70(LIBAVUTIL_56)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libvlc_xcb_events.so.0()(64bit) \
 libvlccore.so.9()(64bit) \
 libxcb.so.1()(64bit) \

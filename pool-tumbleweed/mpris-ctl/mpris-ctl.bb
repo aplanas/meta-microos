@@ -11,7 +11,7 @@ RPM_HASH = "111fe6efcc9dc2641eac11d6f8aecca8b115c5031b9d78523cac39b76a1f817411f7
 RPROVIDES:${PN} += "mpris-ctl \
 mpris-ctl(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit)"
 

@@ -13,15 +13,12 @@ RPROVIDES:${PN} += "telepathy-accounts-signon \
 telepathy-accounts-signon(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaccounts-glib.so.0()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libmission-control-plugins.so.0()(64bit) \
 libsignon-glib.so.2()(64bit) \
-libtelepathy-glib.so.0()(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.0)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.29)(64bit)"
+libtelepathy-glib.so.0()(64bit)"
 
 inherit rpm

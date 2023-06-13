@@ -19,11 +19,9 @@ libstonith.so.1()(64bit)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 cluster-glue \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libltdl.so.7()(64bit) \
-libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit)"
+libuuid.so.1()(64bit)"
 
 inherit rpm

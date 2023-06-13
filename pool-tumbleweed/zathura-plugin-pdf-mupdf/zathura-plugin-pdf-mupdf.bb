@@ -15,18 +15,15 @@ zathura-plugin-pdf-mupdf \
 zathura-plugin-pdf-mupdf(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgirara-gtk3.so.3()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libharfbuzz.so.0()(64bit) \
 libjbig2dec.so.0()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libopenjp2.so.7()(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit) \
 mupdf \
 zathura"
 

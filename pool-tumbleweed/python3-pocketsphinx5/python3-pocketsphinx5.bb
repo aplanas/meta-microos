@@ -15,8 +15,7 @@ python3-pocketsphinx5 \
 python3-pocketsphinx5(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpocketsphinx.so.3()(64bit) \
 libsphinxbase.so.3()(64bit) \
 pocketsphinx5 \

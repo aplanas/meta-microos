@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "perl(Class::C3::XS) \
 perl-Class-C3-XS \
 perl-Class-C3-XS(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

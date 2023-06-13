@@ -12,18 +12,12 @@ nilfs-utils \
 nilfs-utils(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_2.15)(64bit) \
-libblkid.so.1(BLKID_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libmount.so.1()(64bit) \
-libmount.so.1(MOUNT_2.19)(64bit) \
-libmount.so.1(MOUNT_2.20)(64bit) \
 libnilfs.so.0()(64bit) \
 libnilfscleaner.so.0()(64bit) \
 libnilfsgc.so.0()(64bit) \
-libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit)"
+libuuid.so.1()(64bit)"
 
 inherit rpm

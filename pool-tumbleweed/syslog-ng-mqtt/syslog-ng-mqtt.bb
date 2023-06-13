@@ -11,8 +11,7 @@ RPROVIDES:${PN} += "syslog-ng-mqtt \
 syslog-ng-mqtt(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libevtlog-4.2.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libpaho-mqtt3cs.so.1()(64bit) \

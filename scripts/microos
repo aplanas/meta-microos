@@ -3,6 +3,7 @@
 import argparse
 import gzip
 import pathlib
+import re
 import shutil
 import subprocess
 import sys
@@ -128,8 +129,8 @@ def generate_package_list(url):
                 src_uri=location,
                 sha512sum=checksum,
                 license=license,
-                rprovides=sorted(set(provides)),
-                rdepends=sorted(set(requires)),
+                rprovides=provides,
+                rdepends=requires,
             )
         )
 
@@ -159,10 +160,15 @@ def license(lic):
 def normalize_pkgs(pkgs):
     prefixes = ["weakremover("]
 
+    def _remove_versioned_symbol(pkg):
+        return re.sub(r"\(.*\..*\)\(", "()(", pkg)
+
     def _ignore(pkg):
         return any(pkg.startswith(prefix) for prefix in prefixes)
 
-    return " \\\n".join(pkg for pkg in pkgs if not _ignore(pkg))
+    return " \\\n".join(
+        sorted(set(_remove_versioned_symbol(pkg) for pkg in pkgs if not _ignore(pkg)))
+    )
 
 
 def update_pool(pool, packages):

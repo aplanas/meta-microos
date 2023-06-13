@@ -16,12 +16,10 @@ perl-PerlMagick(aarch-64)"
 
 RDEPENDS:${PN} += "ImageMagick \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMagickCore-7.Q16HDRI.so.10()(64bit) \
 libMagickCore-7_Q16HDRI10 \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 perl"
 
 inherit rpm

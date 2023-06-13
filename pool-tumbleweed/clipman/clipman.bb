@@ -11,6 +11,6 @@ RPM_HASH = "ab974efb21ba74e0de7a3d418e20c38635a177f34f507c77b962becdfb8178f50997
 RPROVIDES:${PN} += "clipman \
 clipman(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

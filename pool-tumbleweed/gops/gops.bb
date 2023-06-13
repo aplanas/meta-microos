@@ -13,6 +13,6 @@ RPM_HASH = "e69f4b2f5e5bb609a7b8bc0e0e6ede3ddf0afdf188ff7e9ae90cd27ca5156ef8a1dc
 RPROVIDES:${PN} += "gops \
 gops(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

@@ -10,15 +10,11 @@ RPM_HASH = "1780383601c1778b1ade9716ab4aaac8f16b7579cfbff495adf279595f39e6b90cf3
 RPROVIDES:${PN} += "konkretcmpi-python3 \
 konkretcmpi-python3(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libkonkretmof.so.0()(64bit) \
 libpython3.10.so.1.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 python(abi) \
 python3"
 

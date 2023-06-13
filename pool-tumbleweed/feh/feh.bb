@@ -40,16 +40,14 @@ RDEPENDS:${PN} += "desktop-file-utils \
 hicolor-icon-theme \
 imlib2-loaders \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libImlib2.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXinerama.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libexif.so.12()(64bit) \
 libjpeg-turbo \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit)"
 

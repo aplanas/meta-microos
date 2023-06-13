@@ -11,14 +11,9 @@ RPROVIDES:${PN} += "qemu-hw-display-qxl \
 qemu-hw-display-qxl(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpixman-1.so.0()(64bit) \
 libspice-server.so.1()(64bit) \
-libspice-server.so.1(SPICE_SERVER_0.10.4)(64bit) \
-libspice-server.so.1(SPICE_SERVER_0.12.3)(64bit) \
-libspice-server.so.1(SPICE_SERVER_0.14.2)(64bit) \
-libspice-server.so.1(SPICE_SERVER_0.8.2)(64bit) \
 qemu-ui-spice-core"
 
 inherit rpm

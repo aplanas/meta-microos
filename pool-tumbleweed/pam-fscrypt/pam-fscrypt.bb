@@ -15,9 +15,7 @@ RPROVIDES:${PN} += "pam-fscrypt \
 pam-fscrypt(aarch-64)"
 
 RDEPENDS:${PN} += "fscrypt \
-libc.so.6(GLIBC_2.34)(64bit) \
-libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
-libpam.so.0(LIBPAM_EXTENSION_1.0)(64bit)"
+libc.so.6()(64bit) \
+libpam.so.0()(64bit)"
 
 inherit rpm

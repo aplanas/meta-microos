@@ -15,11 +15,9 @@ python3dist(btrfsutil)"
 
 RDEPENDS:${PN} += "btrfsprogs \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbtrfsutil.so.1()(64bit) \
-libbtrfsutil.so.1(LIBBTRFSUTIL_1.1)(64bit) \
 libbtrfsutil1 \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 python(abi) \
 python3"
 

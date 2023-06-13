@@ -48,17 +48,12 @@ cim-schema \
 cmpi-provider-register \
 curl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libsfcUtil.so.0()(64bit) \
-libsfcUtil.so.0(SFCUTIL_1.0)(64bit) \
-libsfcUtil.so.0(SFCUTIL_1.1)(64bit) \
 libslp.so.1()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libz.so.1()(64bit) \
 openssl \
 pam"

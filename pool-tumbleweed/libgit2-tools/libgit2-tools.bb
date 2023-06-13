@@ -11,14 +11,11 @@ RPROVIDES:${PN} += "libgit2-tools \
 libgit2-tools(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libpcre2-8.so.0()(64bit) \
 libssh2.so.1()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

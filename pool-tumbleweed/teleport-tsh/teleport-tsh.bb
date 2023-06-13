@@ -10,6 +10,6 @@ RPM_HASH = "2b0256dca75ddd0ee53f26ca9a60451bbf84b35c456374c539bcf0ce06372ea6cf0d
 RPROVIDES:${PN} += "teleport-tsh \
 teleport-tsh(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_HASH = "39dc5d78c2e44bb4addb329f52020d3e8bdf1030af2c41b93ee52ca4a514e26837ac
 RPROVIDES:${PN} += "gtkgreet \
 gtkgreet(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
@@ -19,7 +19,6 @@ libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libgtk-layer-shell.so.0()(64bit) \
-libjson-c.so.5()(64bit) \
-libjson-c.so.5(JSONC_0.14)(64bit)"
+libjson-c.so.5()(64bit)"
 
 inherit rpm

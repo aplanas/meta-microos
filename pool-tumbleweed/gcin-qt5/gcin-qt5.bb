@@ -18,10 +18,8 @@ libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libQt5Gui.so.5()(64bit) \
 libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libgcin-im-client.so.1()(64bit)"
 
 inherit rpm

@@ -17,9 +17,8 @@ python3.10dist(bt2) \
 python3dist(bt2)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbabeltrace2.so.0()(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 python(abi)"
 

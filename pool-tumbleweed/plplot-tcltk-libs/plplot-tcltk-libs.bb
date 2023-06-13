@@ -20,9 +20,8 @@ plplot-tcltk-libs(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libplplot.so.17()(64bit) \
 libtcl8.6.so()(64bit) \
 libtk8.6.so()(64bit)"

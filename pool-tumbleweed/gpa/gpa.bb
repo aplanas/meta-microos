@@ -18,22 +18,16 @@ mimehandler(application/pgp-signature)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libassuan.so.0()(64bit) \
-libassuan.so.0(LIBASSUAN_1.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgpg-error.so.0()(64bit) \
-libgpg-error.so.0(GPG_ERROR_1.0)(64bit) \
 libgpgme.so.11()(64bit) \
-libgpgme.so.11(GPGME_1.0)(64bit) \
-libgpgme.so.11(GPGME_1.1)(64bit) \
 libgtk-x11-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

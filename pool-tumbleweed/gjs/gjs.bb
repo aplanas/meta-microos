@@ -12,10 +12,8 @@ RPROVIDES:${PN} += "gjs \
 gjs(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libgjs.so.0()(64bit) \
 libgjs0 \
@@ -23,7 +21,6 @@ libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libmozjs-102.so.0()(64bit) \
 libmozjs-102.so.0(mozjs_102)(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

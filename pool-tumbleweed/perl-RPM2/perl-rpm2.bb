@@ -17,8 +17,7 @@ perl-RPM2 \
 perl-RPM2(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 librpm.so.9()(64bit) \
 librpmio.so.9()(64bit) \
 perl(:MODULE_COMPAT_5.36.0) \

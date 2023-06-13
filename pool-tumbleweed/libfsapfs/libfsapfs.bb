@@ -31,10 +31,9 @@ libfsapfs(aarch-64) \
 python2-libfsapfs"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \
 libbfio.so.1(V_20221025)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcerror.so.1()(64bit) \
 libcerror.so.1(V_20220101)(64bit) \
 libclocale.so.1()(64bit) \
@@ -48,9 +47,6 @@ libfguid.so.1(V_20220113)(64bit) \
 libfsapfs.so.1()(64bit) \
 libfsapfs.so.1(V_20221102)(64bit) \
 libfuse.so.2()(64bit) \
-libfuse.so.2(FUSE_2.2)(64bit) \
-libfuse.so.2(FUSE_2.5)(64bit) \
-libfuse.so.2(FUSE_2.6)(64bit) \
 libhmac.so.1()(64bit) \
 libhmac.so.1(V_20230407)(64bit) \
 libuna.so.1()(64bit) \

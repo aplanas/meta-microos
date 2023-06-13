@@ -12,15 +12,12 @@ swaylock(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libwayland-client.so.0()(64bit) \
-libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit)"
+libxkbcommon.so.0()(64bit)"
 
 inherit rpm

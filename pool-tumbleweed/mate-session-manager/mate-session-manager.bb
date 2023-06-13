@@ -17,7 +17,6 @@ mate-session-manager(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \
 libGL.so.1()(64bit) \
 libGLESv2.so.2()(64bit) \
@@ -29,7 +28,7 @@ libXcomposite.so.1()(64bit) \
 libXext.so.6()(64bit) \
 libXrender.so.1()(64bit) \
 libXtst.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \

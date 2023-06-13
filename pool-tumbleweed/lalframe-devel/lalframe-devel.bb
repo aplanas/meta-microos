@@ -15,14 +15,12 @@ pkgconfig(lalframe)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblal.so.20()(64bit) \
 liblalframe.so.13()(64bit) \
 liblalframe13 \
 liblalsupport.so.14()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 pkgconfig(framecppc) \
 pkgconfig(framel) \
 pkgconfig(lal)"

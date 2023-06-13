@@ -52,12 +52,10 @@ gnome-session-core \
 gnome-settings-daemon \
 ibus \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLESv2.so.2()(64bit) \
 libX11.so.6()(64bit) \
 libXcomposite.so.1()(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
 libbudgie-appindexer.so.0()(64bit) \
 libbudgie-appindexer0 \
 libbudgie-plugin.so.0()(64bit) \
@@ -68,7 +66,7 @@ libbudgie-raven-plugin.so.0()(64bit) \
 libbudgie-raven-plugin0 \
 libbudgietheme.so.0()(64bit) \
 libbudgietheme0 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcanberra-gtk3.so.0()(64bit) \
 libcanberra.so.0()(64bit) \
@@ -86,8 +84,6 @@ libgstreamer-1.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libibus-1.0.so.5()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmutter-12.so.0()(64bit) \
 libmutter-clutter-12.so.0()(64bit) \
 libmutter-cogl-12.so.0()(64bit) \
@@ -104,8 +100,6 @@ libraven.so.0()(64bit) \
 libraven0 \
 libupower-glib.so.3()(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
-libuuid.so.1(UUID_2.20)(64bit) \
 libwnck-3.so.0()(64bit) \
 typelib-1_0-Budgie-1_0 \
 typelib-1_0-BudgieRaven-1_0 \

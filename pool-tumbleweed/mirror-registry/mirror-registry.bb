@@ -10,7 +10,7 @@ RPM_HASH = "30fc664477a97163804840bfb1e6ad0eaefd71014fc71ea4e80182c9f861121dded8
 RPROVIDES:${PN} += "mirror-registry \
 mirror-registry(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 skopeo"
 
 inherit rpm

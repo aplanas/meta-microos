@@ -12,7 +12,7 @@ RPM_HASH = "f0d97ced18e7763fef866991fcffcf9100b07aac771ec048b21c2fa1239529584238
 RPROVIDES:${PN} += "libpurple-plugin-gnome-keyring \
 libpurple-plugin-gnome-keyring(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libsecret-1.so.0()(64bit)"
 

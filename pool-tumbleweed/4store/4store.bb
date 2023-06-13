@@ -16,21 +16,18 @@ RPROVIDES:${PN} += "4store \
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-client.so.3()(64bit) \
 libavahi-common.so.3()(64bit) \
 libavahi-glib.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgthread-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpcre.so.1()(64bit) \
 libraptor2.so.0()(64bit) \
 librasqal.so.3()(64bit) \
 libreadline.so.8()(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

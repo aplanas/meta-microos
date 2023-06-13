@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "buildah \
 buildah(aarch-64)"
 
 RDEPENDS:${PN} += "cni \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcontainers-common \
 libcontainers-image \
 libcontainers-storage \
@@ -29,8 +29,6 @@ libdevmapper.so.1.03()(64bit) \
 libdevmapper.so.1.03(Base)(64bit) \
 libdevmapper.so.1.03(DM_1_02_97)(64bit) \
 libgpgme.so.11()(64bit) \
-libgpgme.so.11(GPGME_1.0)(64bit) \
-libgpgme.so.11(GPGME_1.1)(64bit) \
 libseccomp.so.2()(64bit) \
 runc \
 slirp4netns"

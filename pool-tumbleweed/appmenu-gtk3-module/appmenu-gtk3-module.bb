@@ -17,7 +17,7 @@ appmenu-gtk-module-common \
 gtk3-tools \
 libappmenu-gtk3-parser.so.0()(64bit) \
 libappmenu-gtk3-parser0 \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

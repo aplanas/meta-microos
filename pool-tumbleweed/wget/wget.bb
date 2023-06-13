@@ -13,25 +13,17 @@ wget \
 wget(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcares.so.2()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libgpgme.so.11()(64bit) \
-libgpgme.so.11(GPGME_1.0)(64bit) \
-libgpgme.so.11(GPGME_1.1)(64bit) \
 libidn2.so.0()(64bit) \
-libidn2.so.0(IDN2_0.0.0)(64bit) \
 libmetalink.so.3()(64bit) \
 libpcre2-8.so.0()(64bit) \
 libproxy.so.1()(64bit) \
-libproxy.so.1(LIBPROXY_0.4.16)(64bit) \
 libpsl.so.5()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

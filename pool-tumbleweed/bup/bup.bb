@@ -16,8 +16,7 @@ RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 git-core \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 par2 \
 python3 \
 python3-fuse \

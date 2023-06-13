@@ -28,7 +28,6 @@ xscreensaver-data \
 xscreensaver-data(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \
 libGL.so.1()(64bit) \
 libGLU.so.1()(64bit) \
@@ -36,13 +35,10 @@ libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libXft.so.2()(64bit) \
 libXt.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

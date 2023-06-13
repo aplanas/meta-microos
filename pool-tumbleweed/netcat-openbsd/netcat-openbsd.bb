@@ -22,12 +22,8 @@ netcat-openbsd \
 netcat-openbsd(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbsd.so.0()(64bit) \
-libbsd.so.0(LIBBSD_0.0)(64bit) \
-libbsd.so.0(LIBBSD_0.2)(64bit) \
-libc.so.6(GLIBC_2.36)(64bit) \
-libresolv.so.2()(64bit) \
-libresolv.so.2(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit) \
+libresolv.so.2()(64bit)"
 
 inherit rpm

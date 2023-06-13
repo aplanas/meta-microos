@@ -16,19 +16,9 @@ libSDL2_mixer-2_0-0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.10)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.12)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.5)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.6)(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.7)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libfluidsynth.so.3()(64bit) \
-libxmp.so.4()(64bit) \
-libxmp.so.4(XMP_4.0)(64bit) \
-libxmp.so.4(XMP_4.1)(64bit) \
-libxmp.so.4(XMP_4.2)(64bit) \
-libxmp.so.4(XMP_4.5)(64bit)"
+libxmp.so.4()(64bit)"
 
 inherit rpm

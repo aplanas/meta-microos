@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "toluapp-5.4 \
 toluapp-5.4(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblua5.4.so.5()(64bit) \
 libm.so.6()(64bit) \
 libtolua++-5.4.so.1()(64bit) \

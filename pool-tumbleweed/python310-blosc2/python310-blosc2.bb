@@ -26,9 +26,8 @@ python310-blosc2(aarch-64) \
 python3dist(blosc2)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblosc2.so.2()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 python(abi) \
 python310-msgpack \
 python310-ndindex \

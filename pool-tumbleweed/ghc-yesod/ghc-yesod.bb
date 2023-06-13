@@ -180,7 +180,7 @@ libHSyesod-core-1.6.24.2-DExtrbWuaUvstmq3VZuwG-ghc9.4.5.so()(64bit) \
 libHSyesod-form-1.7.4-4xvxNC76eVrIZVDOGDISYi-ghc9.4.5.so()(64bit) \
 libHSyesod-persistent-1.6.0.8-DUd8QtbJfktGowTUT2pCEk-ghc9.4.5.so()(64bit) \
 libHSzlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk-ghc9.4.5.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit) \
 libyaml-0.so.2()(64bit) \

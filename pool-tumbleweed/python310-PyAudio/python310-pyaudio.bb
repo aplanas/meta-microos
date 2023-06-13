@@ -16,8 +16,7 @@ python310-PyAudio(aarch-64) \
 python3dist(pyaudio)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libportaudio.so.2()(64bit) \
 python(abi)"
 

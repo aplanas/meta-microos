@@ -23,14 +23,12 @@ mjpg-streamer(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 libSDL-1.2.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgphoto2.so.6()(64bit) \
 libgphoto2_port.so.12()(64bit) \
 libgphoto2_port.so.12(LIBGPHOTO2_5_0)(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libprotobuf-c.so.1()(64bit) \
-libprotobuf-c.so.1(LIBPROTOBUF_C_1.0.0)(64bit) \
 libzmq.so.5()(64bit)"
 
 inherit rpm

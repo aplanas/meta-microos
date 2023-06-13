@@ -12,12 +12,10 @@ guile-gnutls \
 guile-gnutls(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libgnutls.so.30(GNUTLS_3_6_3)(64bit) \
-libguile-3.0.so.1()(64bit) \
-libguile-3.0.so.1(GUILE_2.0)(64bit)"
+libguile-3.0.so.1()(64bit)"
 
 inherit rpm

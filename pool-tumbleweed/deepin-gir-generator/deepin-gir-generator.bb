@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "deepin-gir-generator \
 deepin-gir-generator(aarch-64) \
 go-gir-generator"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgirepository-1.0.so.1()(64bit) \
 libglib-2.0.so.0()(64bit)"
 

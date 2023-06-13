@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "libqb-tools \
 libqb-tools(aarch-64) \
 libqb0:/usr/sbin/qb-blackbox"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libqb.so.100()(64bit)"
 
 inherit rpm

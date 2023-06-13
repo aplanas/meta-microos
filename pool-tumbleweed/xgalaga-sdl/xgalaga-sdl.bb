@@ -15,12 +15,11 @@ xgalaga-sdl \
 xgalaga-sdl(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL-1.2.so.0()(64bit) \
 libSDL_gfx.so.15()(64bit) \
 libSDL_image-1.2.so.0()(64bit) \
 libSDL_mixer-1.2.so.0()(64bit) \
 libSDL_ttf-2.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

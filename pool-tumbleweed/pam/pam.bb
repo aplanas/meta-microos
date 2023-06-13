@@ -11,21 +11,8 @@ RPM_HASH = "7ee170873ec624d0fcf3807b64c033d806b8f33dbebaeea00a2f71ceb0512e3cafc1
 
 RPROVIDES:${PN} += "/sbin/unix2_chkpwd \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
-libpam.so.0(LIBPAM_1.4)(64bit) \
-libpam.so.0(LIBPAM_EXTENSION_1.0)(64bit) \
-libpam.so.0(LIBPAM_EXTENSION_1.1)(64bit) \
-libpam.so.0(LIBPAM_EXTENSION_1.1.1)(64bit) \
-libpam.so.0(LIBPAM_MODUTIL_1.0)(64bit) \
-libpam.so.0(LIBPAM_MODUTIL_1.1)(64bit) \
-libpam.so.0(LIBPAM_MODUTIL_1.1.3)(64bit) \
-libpam.so.0(LIBPAM_MODUTIL_1.1.9)(64bit) \
-libpam.so.0(LIBPAM_MODUTIL_1.3.2)(64bit) \
-libpam.so.0(LIBPAM_MODUTIL_1.4.1)(64bit) \
 libpam_misc.so.0()(64bit) \
-libpam_misc.so.0(LIBPAM_MISC_1.0)(64bit) \
 libpamc.so.0()(64bit) \
-libpamc.so.0(LIBPAMC_1.0)(64bit) \
 pam \
 pam(aarch-64)"
 
@@ -33,17 +20,11 @@ RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 group(shadow) \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaudit.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
-libcrypt.so.1(XCRYPT_4.3)(64bit) \
 libeconf.so.0()(64bit) \
-libeconf.so.0(LIBECONF_0.2)(64bit) \
-libeconf.so.0(LIBECONF_0.4)(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 permissions \
 user(root)"
 

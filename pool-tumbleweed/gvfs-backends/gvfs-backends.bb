@@ -14,13 +14,12 @@ gvfs-backends(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 gvfs \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libarchive.so.13()(64bit) \
 libavahi-client.so.3()(64bit) \
 libavahi-common.so.3()(64bit) \
 libavahi-glib.so.1()(64bit) \
 libbluray.so.2()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcdio.so.19()(64bit) \
 libcdio.so.19(CDIO_19)(64bit) \
 libcdio_cdda.so.2()(64bit) \
@@ -28,7 +27,6 @@ libcdio_cdda.so.2(CDIO_CDDA_2)(64bit) \
 libcdio_paranoia.so.2()(64bit) \
 libcdio_paranoia.so.2(CDIO_PARANOIA_2)(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
@@ -48,8 +46,6 @@ libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libudisks2.so.0()(64bit) \
 libusb-1.0.so.0()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 permissions"
 
 inherit rpm

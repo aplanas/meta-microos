@@ -26,9 +26,8 @@ cinnamon-settings-daemon \
 desktop-data \
 gnome-online-accounts \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcinnamon-control-center.so.1()(64bit) \
 libcinnamon-menu-3.so.0()(64bit) \
 libgdk-3.so.0()(64bit) \

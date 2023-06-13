@@ -10,6 +10,6 @@ RPM_HASH = "3f23c57228018262e590bd693acecb37d1068cc6c7957afb90b450a9c78426ff8ad7
 RPROVIDES:${PN} += "kubectl-oomd \
 kubectl-oomd(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

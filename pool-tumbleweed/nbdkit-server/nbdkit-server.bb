@@ -11,13 +11,11 @@ RPROVIDES:${PN} += "nbdkit-server \
 nbdkit-server(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libgnutls.so.30(GNUTLS_3_6_0)(64bit) \
 libgnutls.so.30(GNUTLS_3_7_3)(64bit) \
-libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit)"
+libselinux.so.1()(64bit)"
 
 inherit rpm

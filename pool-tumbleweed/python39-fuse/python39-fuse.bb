@@ -13,12 +13,8 @@ python39-fuse(aarch-64) \
 python3dist(fuse-python)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libfuse.so.2()(64bit) \
-libfuse.so.2(FUSE_2.2)(64bit) \
-libfuse.so.2(FUSE_2.6)(64bit) \
-libfuse.so.2(FUSE_2.8)(64bit) \
 python(abi)"
 
 inherit rpm

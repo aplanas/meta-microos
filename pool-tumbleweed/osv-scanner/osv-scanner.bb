@@ -18,6 +18,6 @@ RPM_HASH = "ad275a6cfc2a4107de64ae2ca762a9b92806c24a86cb7c4e58a164c9e4253d4ed2b8
 RPROVIDES:${PN} += "osv-scanner \
 osv-scanner(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

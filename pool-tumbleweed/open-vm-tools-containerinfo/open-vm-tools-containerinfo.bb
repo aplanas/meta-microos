@@ -14,13 +14,10 @@ open-vm-tools-containerinfo(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 curl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libabsl_synchronization.so.2301.0.0()(64bit) \
-libc.so.6(GLIBC_2.32)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgpr.so.31()(64bit) \
@@ -28,13 +25,6 @@ libgrpc++.so.1.54()(64bit) \
 libgrpc.so.31()(64bit) \
 libprotobuf-3.21.12.so()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.5)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
 libvmtools.so.0()(64bit) \
 open-vm-tools(aarch-64)"
 

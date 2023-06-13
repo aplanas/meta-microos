@@ -29,16 +29,13 @@ libsnmp40(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libperl.so()(64bit) \
 librpm.so.9()(64bit) \
 librpmio.so.9()(64bit) \
 libsensors.so.4()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libwrap.so.0()(64bit) \
 perl-base \
 snmp-mibs"

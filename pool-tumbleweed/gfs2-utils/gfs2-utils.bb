@@ -14,20 +14,12 @@ gfs2-utils(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_2.15)(64bit) \
-libblkid.so.1(BLKID_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libncurses.so.6()(64bit) \
-libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.3.5)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

@@ -21,11 +21,9 @@ RPROVIDES:${PN} += "multimon-ng \
 multimon-ng(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpulse-simple.so.0()(64bit) \
 libpulse-simple.so.0(PULSE_0)(64bit) \
 libpulse.so.0()(64bit) \

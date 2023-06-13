@@ -21,7 +21,6 @@ sar2 \
 sar2(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libGLU.so.1()(64bit) \
 libICE.so.6()(64bit) \
@@ -33,12 +32,9 @@ libXmu.so.6()(64bit) \
 libXpm.so.4()(64bit) \
 libXxf86vm.so.1()(64bit) \
 libalut.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libopenal.so.1()(64bit) \
 libstdc++.so.6()(64bit) \
 libvorbisfile.so.3()(64bit) \

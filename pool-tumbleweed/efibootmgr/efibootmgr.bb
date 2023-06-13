@@ -14,16 +14,9 @@ RPROVIDES:${PN} += "efibootmgr \
 efibootmgr(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libefiboot.so.1()(64bit) \
-libefiboot.so.1(LIBEFIBOOT_1.31)(64bit) \
-libefiboot.so.1(libefiboot.so.0)(64bit) \
 libefivar.so.1()(64bit) \
-libefivar.so.1(LIBEFIVAR_0.24)(64bit) \
-libefivar.so.1(LIBEFIVAR_1.30)(64bit) \
-libefivar.so.1(LIBEFIVAR_1.36)(64bit) \
-libefivar.so.1(libefivar.so.0)(64bit) \
 libpopt.so.0()(64bit) \
 libpopt.so.0(LIBPOPT_0)(64bit)"
 

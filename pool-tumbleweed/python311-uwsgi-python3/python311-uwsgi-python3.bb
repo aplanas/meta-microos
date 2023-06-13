@@ -13,8 +13,7 @@ RPROVIDES:${PN} += "python311-uwsgi-python3 \
 python311-uwsgi-python3(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libpython3.11.so.1.0()(64bit) \
 python(abi) \
 uwsgi"

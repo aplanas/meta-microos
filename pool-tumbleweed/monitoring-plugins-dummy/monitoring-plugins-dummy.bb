@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "monitoring-plugins-dummy \
 monitoring-plugins-dummy(aarch-64) \
 nagios-plugins-dummy"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

@@ -21,9 +21,8 @@ RDEPENDS:${PN} += "/bin/sh \
 itcl-devel \
 itk \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libplplot.so.17()(64bit) \
 libplplottcltk.so.14()(64bit) \
 libplplottcltk_Main.so.1()(64bit) \

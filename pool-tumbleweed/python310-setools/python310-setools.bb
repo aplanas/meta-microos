@@ -16,13 +16,9 @@ python310-setools(aarch-64) \
 python3dist(setools)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 libsepol.so.2()(64bit) \
-libsepol.so.2(LIBSEPOL_1.0)(64bit) \
-libsepol.so.2(LIBSEPOL_1.1)(64bit) \
 python(abi) \
 python3"
 

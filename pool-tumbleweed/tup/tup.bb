@@ -13,12 +13,9 @@ RPM_HASH = "babcb00391b0df0051b1729c82a39e380a8ba40bf168bc7bb519c30edcf4b575707c
 RPROVIDES:${PN} += "tup \
 tup(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libfuse3.so.3()(64bit) \
-libfuse3.so.3(FUSE_3.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpcre.so.1()(64bit) \
 vim"
 

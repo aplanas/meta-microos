@@ -23,20 +23,16 @@ mimehandler(application/x-designer)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libQt5DBus.so.5()(64bit) \
 libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5DBus5 \
 libQt5Designer.so.5()(64bit) \
 libQt5Designer.so.5(Qt_5)(64bit) \
 libQt5DesignerComponents.so.5()(64bit) \
-libQt5DesignerComponents.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5Gui.so.5()(64bit) \
 libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5Help.so.5()(64bit) \
 libQt5Help.so.5(Qt_5)(64bit) \
 libQt5Network.so.5()(64bit) \
@@ -44,7 +40,6 @@ libQt5Network.so.5(Qt_5)(64bit) \
 libQt5PrintSupport.so.5()(64bit) \
 libQt5PrintSupport.so.5(Qt_5)(64bit) \
 libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5QuickWidgets.so.5()(64bit) \
 libQt5QuickWidgets.so.5(Qt_5)(64bit) \
 libQt5Sql.so.5()(64bit) \
@@ -54,16 +49,10 @@ libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
 libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libqt5-qdbus \
 libqt5-qtpaths \
 libqt5-qttools-qhelpgenerator \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

@@ -46,7 +46,6 @@ fileutils \
 gnu-unifont-bitmap-fonts \
 ifnteuro \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \
 libSM.so.6()(64bit) \
 libX11-xcb.so.1()(64bit) \
@@ -61,11 +60,8 @@ libXrandr.so.2()(64bit) \
 libXrender.so.1()(64bit) \
 libXt.so.6()(64bit) \
 libacl.so.1()(64bit) \
-libacl.so.1(ACL_1.0)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
@@ -89,16 +85,10 @@ libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libharfbuzz.so.0()(64bit) \
 libjansson.so.4()(64bit) \
-libjansson.so.4(libjansson.so.4)(64bit) \
 libjavascriptcoregtk-4.0.so.18()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 liblcms2.so.2()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libm17n-core.so.0()(64bit) \
 libm17n-flt.so.0()(64bit) \
 libotf.so.1()(64bit) \
@@ -107,18 +97,13 @@ libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 librsvg-2.so.2()(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
 libwebkit2gtk-4.0.so.37()(64bit) \
 libxcb.so.1()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 libz.so.1()(64bit) \
 xorg-x11-fonts \
 xorg-x11-fonts-core"

@@ -10,6 +10,6 @@ RPM_HASH = "cf8eb25b5ca706ab96955ec0539aac2e13801ca52a5caef180be7058ad91d377c1bf
 RPROVIDES:${PN} += "grype \
 grype(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

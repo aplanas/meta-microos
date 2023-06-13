@@ -26,10 +26,8 @@ RPROVIDES:${PN} += "perl(Term::Terminfo) \
 perl-Term-Terminfo \
 perl-Term-Terminfo(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

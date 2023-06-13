@@ -9,38 +9,20 @@ RPM_HASH = "958ea80b93023fdf7c35a081450cf4d25dd6b1ba6bda5d899baee68d59f6f07cf929
 
 RPROVIDES:${PN} += "libdeclarative_scxmlplugin.so()(64bit) \
 libdeclarative_scxmlplugin.so(Qt_6)(64bit) \
-libdeclarative_scxmlplugin.so(Qt_6.0)(64bit) \
-libdeclarative_scxmlplugin.so(Qt_6.1)(64bit) \
-libdeclarative_scxmlplugin.so(Qt_6.2)(64bit) \
-libdeclarative_scxmlplugin.so(Qt_6.3)(64bit) \
-libdeclarative_scxmlplugin.so(Qt_6.4)(64bit) \
-libdeclarative_scxmlplugin.so(Qt_6.5)(64bit) \
-libdeclarative_scxmlplugin.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 libqtqmlstatemachineplugin.so()(64bit) \
 libqtqmlstatemachineplugin.so(Qt_6)(64bit) \
-libqtqmlstatemachineplugin.so(Qt_6.0)(64bit) \
-libqtqmlstatemachineplugin.so(Qt_6.1)(64bit) \
-libqtqmlstatemachineplugin.so(Qt_6.2)(64bit) \
-libqtqmlstatemachineplugin.so(Qt_6.3)(64bit) \
-libqtqmlstatemachineplugin.so(Qt_6.4)(64bit) \
-libqtqmlstatemachineplugin.so(Qt_6.5)(64bit) \
-libqtqmlstatemachineplugin.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-scxml-imports \
 qt6-scxml-imports(aarch-64)"
 
 RDEPENDS:${PN} += "libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Core.so.6(Qt_6.5)(64bit) \
 libQt6Qml.so.6()(64bit) \
 libQt6Qml.so.6(Qt_6)(64bit) \
 libQt6ScxmlQml.so.6()(64bit) \
 libQt6ScxmlQml.so.6(Qt_6)(64bit) \
 libQt6StateMachineQml.so.6()(64bit) \
 libQt6StateMachineQml.so.6(Qt_6)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+libc.so.6()(64bit) \
+libstdc++.so.6()(64bit)"
 
 inherit rpm

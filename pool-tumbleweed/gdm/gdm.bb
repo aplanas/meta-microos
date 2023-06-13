@@ -26,13 +26,12 @@ gnome-settings-daemon \
 gnome-shell \
 group(video) \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXau.so.6()(64bit) \
 libXdmcp.so.6()(64bit) \
 libaccountsservice.so.0()(64bit) \
 libaudit.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcanberra-gtk3.so.0()(64bit) \
 libcanberra.so.0()(64bit) \
 libgdk-3.so.0()(64bit) \
@@ -44,12 +43,8 @@ libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libgudev-1.0.so.0()(64bit) \
 libkeyutils.so.1()(64bit) \
-libkeyutils.so.1(KEYUTILS_0.3)(64bit) \
-libkeyutils.so.1(KEYUTILS_1.5)(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libxcb.so.1()(64bit) \

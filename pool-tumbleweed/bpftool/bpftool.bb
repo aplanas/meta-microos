@@ -12,17 +12,11 @@ RPROVIDES:${PN} += "bpftool \
 bpftool(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.16()(64bit) \
 libLLVM.so.16(LLVM_16)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap.so.2()(64bit) \
 libelf.so.1()(64bit) \
-libelf.so.1(ELFUTILS_1.0)(64bit) \
-libelf.so.1(ELFUTILS_1.3)(64bit) \
-libelf.so.1(ELFUTILS_1.5)(64bit) \
-libelf.so.1(ELFUTILS_1.6)(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.3.3)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_HASH = "bdf6a6885123f99c0a574ce046440435a1074d98c72c37f3262e0e239d530d32fccd
 RPROVIDES:${PN} += "gtklock \
 gtklock(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -19,7 +19,6 @@ libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libgtk-layer-shell.so.0()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libwayland-client.so.0()(64bit)"
 
 inherit rpm

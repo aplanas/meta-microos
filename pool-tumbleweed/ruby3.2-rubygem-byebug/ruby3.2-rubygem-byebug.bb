@@ -22,8 +22,7 @@ rubygem(ruby:3.2.0:byebug:11.1.3)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
 libruby3.2.so.3.2()(64bit) \
 ruby(abi) \

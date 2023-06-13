@@ -26,16 +26,13 @@ RDEPENDS:${PN} += "libSDL-1.2.so.0()(64bit) \
 libSDL_image-1.2.so.0()(64bit) \
 libSDL_ttf-2.0.so.0()(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfontconfig.so.1()(64bit) \
 liblua5.4.so.5()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

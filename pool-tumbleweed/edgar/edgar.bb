@@ -26,14 +26,12 @@ metainfo(edgar.appdata.xml)"
 
 RDEPENDS:${PN} += "edgar-data \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \
 libSDL2_image-2.0.so.0()(64bit) \
 libSDL2_mixer-2.0.so.0()(64bit) \
 libSDL2_ttf-2.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libz.so.1()(64bit)"

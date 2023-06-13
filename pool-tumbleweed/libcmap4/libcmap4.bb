@@ -11,14 +11,12 @@ RPM_NAME = "libcmap4-2.4.6-1.3.aarch64.rpm"
 RPM_HASH = "c37aa19344b8405d2feba8f04d8a14d222d1a614c3315876614ca81e78c818cd37f294b42371483979d46999dea416a7c27b5e370ae60f8eefdb5ec32cd22dbc"
 
 RPROVIDES:${PN} += "libcmap.so.4()(64bit) \
-libcmap.so.4(COROSYNC_CMAP_1.0)(64bit) \
 libcmap4 \
 libcmap4(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcorosync_common.so.4()(64bit) \
 libqb.so.100()(64bit)"
 

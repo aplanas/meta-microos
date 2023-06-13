@@ -14,32 +14,20 @@ libqt5-dxcbplugin(aarch-64)"
 
 RDEPENDS:${PN} += "libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Core.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5DBus.so.5()(64bit) \
 libQt5DBus.so.5(Qt_5)(64bit) \
 libQt5Gui.so.5()(64bit) \
 libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
 libQt5X11Extras.so.5()(64bit) \
 libQt5X11Extras.so.5(Qt_5)(64bit) \
 libQt5XcbQpa.so.5()(64bit) \
-libQt5XcbQpa.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libX11.so.6()(64bit) \
 libXi.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.7)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 libxcb-composite.so.0()(64bit) \
 libxcb-damage.so.0()(64bit) \
 libxcb-icccm.so.4()(64bit) \

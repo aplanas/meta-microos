@@ -75,7 +75,6 @@ mimehandler(image/x-xpixmap) \
 mimehandler(image/x-xwindowdump)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libIex-3_1.so.30()(64bit) \
 libOpenEXR-3_1.so.30()(64bit) \
 libX11.so.6()(64bit) \
@@ -85,18 +84,15 @@ libXfixes.so.3()(64bit) \
 libXmu.so.6()(64bit) \
 libXpm.so.4()(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
 libbabl-0.1.so.0()(64bit) \
 libbabl-0.1.so.0(V0_1_0)(64bit) \
 libbabl-0_1-0 \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libfontconfig.so.1()(64bit) \
 libfreetype.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgegl-0.4.so.0()(64bit) \
@@ -124,21 +120,14 @@ libgudev-1.0.so.0()(64bit) \
 libharfbuzz.so.0()(64bit) \
 libheif.so.1()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libjxl.so.0.8()(64bit) \
 libjxl.so.0.8(JXL_0)(64bit) \
 libjxl_threads.so.0.8()(64bit) \
 libjxl_threads.so.0.8(JXL_0)(64bit) \
 liblcms2.so.2()(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libmng.so.2()(64bit) \
 libmypaint.so.0()(64bit) \
 libopenjp2.so.7()(64bit) \
@@ -150,12 +139,7 @@ libpng16.so.16(PNG16_0)(64bit) \
 libpoppler-glib.so.8()(64bit) \
 librsvg-2.so.2()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 libunwind.so.8()(64bit) \
 libwebp.so.7()(64bit) \
 libwebpdemux.so.2()(64bit) \

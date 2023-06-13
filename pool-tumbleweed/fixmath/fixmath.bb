@@ -10,10 +10,9 @@ RPM_HASH = "5429d3ae6673347e8654fa0d99c6244aaa1589e2c6ad58e438dafe8ec435e5603867
 
 RPROVIDES:${PN} += "fixmath \
 fixmath(aarch-64) \
-libfixmath.so()(64bit) \
-libfixmath.so(FIXMATH_2022.07.20)(64bit)"
+libfixmath.so()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

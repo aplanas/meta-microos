@@ -14,18 +14,14 @@ libbluezqtextensionplugin.so()(64bit) \
 qt5qmlimport(org.kde.bluezqt.1)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5BluezQt.so.6()(64bit) \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libQt5Qml.so.5()(64bit) \
 libQt5Qml.so.5(Qt_5)(64bit) \
 libQtQuick5 \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 qt5qmlimport(org.kde.bluezqt.1)"
 
 inherit rpm

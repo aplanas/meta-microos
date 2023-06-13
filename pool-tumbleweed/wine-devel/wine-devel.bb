@@ -13,7 +13,6 @@ wine-devel(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libOSMesa.so.8()(64bit) \
 libSDL2-2.0.so.0()(64bit) \
@@ -27,7 +26,7 @@ libXinerama.so.1()(64bit) \
 libXrandr.so.2()(64bit) \
 libXrender.so.1()(64bit) \
 libXxf86vm.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcups.so.2()(64bit) \
 libdbus-1.so.3()(64bit) \
 libfontconfig.so.1()(64bit) \

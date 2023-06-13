@@ -18,9 +18,8 @@ libavif15(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaom.so.3()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdav1d.so.6()(64bit) \
 librav1e.so.0()(64bit) \
 libsharpyuv.so.0()(64bit) \

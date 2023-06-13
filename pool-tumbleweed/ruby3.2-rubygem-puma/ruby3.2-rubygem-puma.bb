@@ -22,14 +22,11 @@ rubygem(ruby:3.2.0:puma:6.0.0)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libm.so.6()(64bit) \
 libruby3.2.so.3.2()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 ruby(abi) \
 rubygem(ruby:3.2.0:nio4r:2) \
 update-alternatives"

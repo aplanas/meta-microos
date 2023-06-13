@@ -10,6 +10,6 @@ RPM_HASH = "ab9b82ce8b482cd0234ddc62d872d3376a111ce64d36a789345b29bb6dcdad774a5c
 RPROVIDES:${PN} += "skaffold \
 skaffold(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

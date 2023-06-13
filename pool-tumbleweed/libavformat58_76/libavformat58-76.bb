@@ -20,7 +20,6 @@ libavformat58_76(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.58.134()(64bit) \
 libavcodec.so.58.134(LIBAVCODEC_58)(64bit) \
 libavcodec58_134 \
@@ -29,22 +28,16 @@ libavutil.so.56.70(LIBAVUTIL_56)(64bit) \
 libavutil56_70 \
 libbluray.so.2()(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libopenmpt.so.0()(64bit) \
 libsrt.so.1.5()(64bit) \
 libssh.so.4()(64bit) \
 libssh.so.4(LIBSSH_4_5_0)(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.7.3)(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0.2)(64bit) \
 libzmq.so.5()(64bit)"
 
 inherit rpm

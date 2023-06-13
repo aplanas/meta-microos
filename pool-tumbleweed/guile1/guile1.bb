@@ -14,7 +14,7 @@ guile1(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 fileutils \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libguile-srfi-srfi-1-v-3-3 \
 libguile-srfi-srfi-13-14-v-3-3 \
 libguile-srfi-srfi-4-v-3-3 \

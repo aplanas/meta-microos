@@ -36,7 +36,6 @@ qt5qmlimport(org.kde.marble.private.plasma.0) \
 qt5qmlimport(org.kde.marble.private.plasma.1)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigCore.so.5()(64bit) \
 libKF5ConfigGui.so.5()(64bit) \
 libKF5ConfigWidgets.so.5()(64bit) \
@@ -77,23 +76,16 @@ libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
 libastro.so.1()(64bit) \
 libastro1 \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgps.so.30()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmarblewidget-qt5-28 \
 libmarblewidget-qt5.so.28()(64bit) \
 libphonon4qt5.so.4()(64bit) \
 libprotobuf-3.21.12.so()(64bit) \
 libshp.so.2()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
 libz.so.1()(64bit) \
 marble-data \
 marble-frontend"

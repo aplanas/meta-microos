@@ -43,13 +43,12 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \
 libanjuta-3.so.0()(64bit) \
 libatk-1.0.so.0()(64bit) \
 libatomicparsley.so.0()(64bit) \
 libbrasero-media3.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libclutter-1.0.so.0()(64bit) \
 libclutter-gtk-1.0.so.0()(64bit) \

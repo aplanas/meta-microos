@@ -11,24 +11,12 @@ RPM_HASH = "3bf36e6a84c2a08ea74649efa3766de8baf0d45531ec5f74e7959530f781395ad497
 RPROVIDES:${PN} += "espeakedit \
 espeakedit(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libportaudio.so.2()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_baseu-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_gtk2u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_core-suse.so.9.0.0(WXU_3.2)(64bit) \
-libwx_gtk2u_html-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_html-suse.so.9.0.0(WXU_3.2)(64bit)"
+libwx_gtk2u_html-suse.so.9.0.0()(64bit)"
 
 inherit rpm

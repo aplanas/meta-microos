@@ -14,8 +14,7 @@ metainfo(org.gnome.Evolution-spamassassin.metainfo.xml)"
 
 RDEPENDS:${PN} += "evolution \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcamel-1.2.so.64()(64bit) \
 libedataserver-1.2.so.27()(64bit) \
 libemail-engine.so()(64bit) \

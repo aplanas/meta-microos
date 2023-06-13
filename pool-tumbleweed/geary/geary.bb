@@ -29,9 +29,8 @@ metainfo(org.gnome.Geary.appdata.xml) \
 mimehandler(x-scheme-handler/mailto)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatk-1.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libenchant-2.so.2()(64bit) \
 libfolks.so.26()(64bit) \
@@ -53,9 +52,7 @@ libhandy-1.so.0(LIBHANDY_1_0)(64bit) \
 libicuuc.so.73()(64bit) \
 libjavascriptcoregtk-4.1.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libpeas-1.0.so.0()(64bit) \
@@ -65,8 +62,6 @@ libsqlite3.so.0()(64bit) \
 libstemmer.so.0d()(64bit) \
 libunwind.so.8()(64bit) \
 libwebkit2gtk-4.1.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

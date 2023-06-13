@@ -20,14 +20,9 @@ findutils \
 gawk \
 grep \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdw.so.1()(64bit) \
-libdw.so.1(ELFUTILS_0.167)(64bit) \
 libelf.so.1()(64bit) \
-libelf.so.1(ELFUTILS_1.0)(64bit) \
-libelf.so.1(ELFUTILS_1.3)(64bit) \
-libelf.so.1(ELFUTILS_1.6)(64bit) \
 sed \
 xz"
 

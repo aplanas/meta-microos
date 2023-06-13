@@ -15,13 +15,10 @@ dpdk-thunderx-examples(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libfdt.so.1()(64bit) \
 libjansson.so.4()(64bit) \
-libjansson.so.4(libjansson.so.4)(64bit) \
 libm.so.6()(64bit) \
 libnuma.so.1()(64bit) \
 libpcap.so.1()(64bit) \
@@ -126,13 +123,6 @@ librte_vhost.so.23()(64bit) \
 librte_vhost.so.23(DPDK_23)(64bit) \
 librte_vhost.so.23(EXPERIMENTAL)(64bit) \
 libssl.so.3()(64bit) \
-libvirt.so.0()(64bit) \
-libvirt.so.0(LIBVIRT_0.0.3)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.4)(64bit) \
-libvirt.so.0(LIBVIRT_0.7.3)(64bit) \
-libvirt.so.0(LIBVIRT_0.8.5)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.13)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.3)(64bit)"
+libvirt.so.0()(64bit)"
 
 inherit rpm

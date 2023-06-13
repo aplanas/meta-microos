@@ -99,7 +99,6 @@ kirigami2 \
 kmenuedit5 \
 knewstuff-imports \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Activities.so.5()(64bit) \
 libKF5ActivitiesStats.so.1()(64bit) \
 libKF5AuthCore.so.5()(64bit) \
@@ -171,7 +170,7 @@ libX11.so.6()(64bit) \
 libXcursor.so.1()(64bit) \
 libXi.so.6()(64bit) \
 libaccounts-qt5.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
@@ -180,22 +179,12 @@ libkaccounts.so.2()(64bit) \
 libksysguard5-imports \
 libkworkspace5.so.5()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libnotificationmanager.so.1()(64bit) \
 libpackagekitqt5.so.1()(64bit) \
 libphonon4qt5.so.4()(64bit) \
 libprocesscore.so.9()(64bit) \
 libqt5-qtgraphicaleffects \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libtaskmanager.so.6()(64bit) \
 libwayland-client.so.0()(64bit) \
 libxcb-keysyms.so.1()(64bit) \
@@ -203,7 +192,6 @@ libxcb-record.so.0()(64bit) \
 libxcb-xkb.so.1()(64bit) \
 libxcb.so.1()(64bit) \
 libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit) \
 libxkbfile.so.1()(64bit) \
 plasma-framework-components \
 plasma5-workspace \

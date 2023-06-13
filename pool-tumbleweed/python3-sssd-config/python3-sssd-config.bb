@@ -14,20 +14,14 @@ python3.10dist(sssdconfig) \
 python3dist(sssdconfig)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libldb.so.2()(64bit) \
-libldb.so.2(LDB_0.9.10)(64bit) \
 libpopt.so.0()(64bit) \
 libpopt.so.0(LIBPOPT_0)(64bit) \
 libsss_crypt.so()(64bit) \
-libsss_crypt.so(V_2.9.0)(64bit) \
 libsss_debug.so()(64bit) \
-libsss_debug.so(V_2.9.0)(64bit) \
 libsss_util.so()(64bit) \
-libsss_util.so(V_2.9.0)(64bit) \
 libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit) \
 python(abi) \
 python3"
 

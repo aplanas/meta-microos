@@ -15,12 +15,8 @@ RPROVIDES:${PN} += "haxe \
 haxe(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libmbedcrypto.so.7()(64bit) \
 libmbedtls.so.14()(64bit) \
 libmbedx509.so.1()(64bit) \
@@ -28,7 +24,6 @@ libneko.so.2()(64bit) \
 libpcre2-8.so.0()(64bit) \
 libuv.so.1()(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit) \
 neko"
 
 inherit rpm

@@ -23,23 +23,12 @@ wxWidgets-any-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 libwx_base-suse-devel \
 libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_baseu-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_baseu_xml-suse.so.9.0.0()(64bit) \
-libwx_baseu_xml-suse.so.9.0.0(WXU_3.2)(64bit) \
 libwx_qtu_adv-suse9_0_0 \
 libwx_qtu_aui-suse9_0_0 \
 libwx_qtu_core-suse9_0_0 \

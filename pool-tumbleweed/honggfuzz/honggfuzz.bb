@@ -13,13 +13,11 @@ RPROVIDES:${PN} += "honggfuzz \
 honggfuzz(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libsframe.so.0()(64bit) \
 libunwind-aarch64.so.8()(64bit) \
 libunwind-ptrace.so.0()(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit) \
 libzstd.so.1()(64bit)"
 
 inherit rpm

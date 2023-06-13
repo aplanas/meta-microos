@@ -18,9 +18,8 @@ libslingshot.so()(64bit)"
 RDEPENDS:${PN} += "budgie-extras-lang \
 gnome-menus \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbudgie-plugin.so.0()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgee-0.8.so.2()(64bit) \
@@ -32,7 +31,6 @@ libgtk-3.so.0()(64bit) \
 libhandy-1.so.0()(64bit) \
 libhandy-1.so.0(LIBHANDY_1_0)(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libpeas-1.0.so.0()(64bit) \
 libplank.so.1()(64bit)"
 

@@ -10,6 +10,6 @@ RPM_HASH = "b162aa023637fe5048b0b3875565345ac5486854ff67e1292be93de31ea3f467ffd0
 RPROVIDES:${PN} += "cilium-cli \
 cilium-cli(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

@@ -11,15 +11,10 @@ RPM_HASH = "5575a80f2ebba701e6e45b8e0e68b4bde2a202dfe85efccc9d4db8d4a0110152b97b
 RPROVIDES:${PN} += "libhugetlbfs \
 libhugetlbfs(aarch-64) \
 libhugetlbfs.so()(64bit) \
-libhugetlbfs.so(HTLBFS_2.0)(64bit) \
-libhugetlbfs.so(HTLBFS_2.1)(64bit) \
-libhugetlbfs.so(VERS_1.0)(64bit) \
-libhugetlbfs_privutils.so()(64bit) \
-libhugetlbfs_privutils.so(VERS_1.0)(64bit)"
+libhugetlbfs_privutils.so()(64bit)"
 
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

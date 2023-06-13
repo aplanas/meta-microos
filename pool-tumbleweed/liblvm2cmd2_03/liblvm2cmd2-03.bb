@@ -15,20 +15,12 @@ liblvm2cmd2_03(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaio.so.1()(64bit) \
-libaio.so.1(LIBAIO_0.1)(64bit) \
-libaio.so.1(LIBAIO_0.4)(64bit) \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_1.0)(64bit) \
-libblkid.so.1(BLKID_2.15)(64bit) \
-libblkid.so.1(BLKID_2.17)(64bit) \
-libblkid.so.1(BLKID_2.23)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libdevmapper-event.so.1.03()(64bit) \
 libdevmapper-event.so.1.03(Base)(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libsystemd.so.0(LIBSYSTEMD_233)(64bit) \

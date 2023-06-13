@@ -28,22 +28,17 @@ RDEPENDS:${PN} += "Mesa-demo-egl \
 Mesa-demo-es \
 Mesa-demo-x \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libGLU.so.1()(64bit) \
 libOSMesa.so.8()(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglut.so.3()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libvulkan.so.1()(64bit) \
 libxcb.so.1()(64bit) \
 libxkbcommon-x11.so.0()(64bit) \
-libxkbcommon-x11.so.0(V_0.5.0)(64bit) \
-libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit)"
+libxkbcommon.so.0()(64bit)"
 
 inherit rpm

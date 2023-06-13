@@ -20,16 +20,9 @@ pciutils(aarch-64)"
 
 RDEPENDS:${PN} += "hwdata \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libkmod.so.2()(64bit) \
 libkmod.so.2(LIBKMOD_5)(64bit) \
-libpci.so.3()(64bit) \
-libpci.so.3(LIBPCI_3.0)(64bit) \
-libpci.so.3(LIBPCI_3.1)(64bit) \
-libpci.so.3(LIBPCI_3.5)(64bit) \
-libpci.so.3(LIBPCI_3.6)(64bit) \
-libpci.so.3(LIBPCI_3.7)(64bit) \
-libpci.so.3(LIBPCI_3.8)(64bit)"
+libpci.so.3()(64bit)"
 
 inherit rpm

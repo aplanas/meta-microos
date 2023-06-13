@@ -17,18 +17,14 @@ java-sdk-1.8.0 \
 java-sdk-1.8.0-openjdk \
 java-sdk-openjdk \
 libjawt.so()(64bit) \
-libjawt.so(SUNWprivate_1.1)(64bit) \
 libjli.so()(64bit) \
-libjli.so(SUNWprivate_1.1)(64bit) \
-libunpack.so(SUNWprivate_1.1)(64bit)"
+libunpack.so()(64bit)"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-1_8_0-openjdk \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libawt_xawt.so()(64bit) \
-libawt_xawt.so(SUNWprivate_1.1)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libz.so.1()(64bit) \
 update-alternatives"
 

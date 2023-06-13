@@ -52,9 +52,8 @@ mlterm \
 mlterm(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libfontconfig.so.1()(64bit) \
 libfreetype.so.6()(64bit) \
@@ -65,7 +64,6 @@ libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmef.so.3()(64bit) \
 libmef.so.3(mef)(64bit) \
 libmlterm_coreotl.so()(64bit) \
@@ -73,7 +71,6 @@ libpobl.so.2()(64bit) \
 libwayland-client.so.0()(64bit) \
 libwayland-cursor.so.0()(64bit) \
 libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit) \
 mlterm-common"
 
 inherit rpm

@@ -12,13 +12,11 @@ onedrive \
 onedrive(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdruntime-ldc-shared.so.102()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libnotify.so.4()(64bit) \
 libnotify4 \
 libphobos2-ldc-shared.so.102()(64bit) \

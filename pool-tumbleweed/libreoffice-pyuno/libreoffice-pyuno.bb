@@ -23,46 +23,19 @@ libreoffice-pyuno \
 libreoffice-pyuno(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libm.so.6()(64bit) \
 libpython3.10.so.1.0()(64bit) \
 libreoffice \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libuno_cppu.so.3()(64bit) \
-libuno_cppu.so.3(LIBO_UDK_4.4)(64bit) \
-libuno_cppu.so.3(UDK_3.1)(64bit) \
 libuno_cppu.so.3(UDK_3_0_0)(64bit) \
 libuno_cppuhelpergcc3.so.3()(64bit) \
-libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit) \
-libuno_cppuhelpergcc3.so.3(UDK_3.1)(64bit) \
 libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit) \
 libuno_sal.so.3()(64bit) \
-libuno_sal.so.3(LIBO_UDK_3.6)(64bit) \
-libuno_sal.so.3(LIBO_UDK_4.0)(64bit) \
-libuno_sal.so.3(LIBO_UDK_4.1)(64bit) \
-libuno_sal.so.3(LIBO_UDK_5.1)(64bit) \
-libuno_sal.so.3(PRIVATE_1.2)(64bit) \
-libuno_sal.so.3(PRIVATE_1.3)(64bit) \
-libuno_sal.so.3(UDK_3.11)(64bit) \
-libuno_sal.so.3(UDK_3.3)(64bit) \
-libuno_sal.so.3(UDK_3.6)(64bit) \
-libuno_sal.so.3(UDK_3.8)(64bit) \
 libuno_sal.so.3(UDK_3_0_0)(64bit) \
 libuno_salhelpergcc3.so.3()(64bit) \
-libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit) \
 libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit) \
 python(abi) \
 rtld(GNU_HASH)"

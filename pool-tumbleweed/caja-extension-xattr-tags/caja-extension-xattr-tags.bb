@@ -12,7 +12,7 @@ caja-extension-xattr-tags(aarch-64) \
 libcaja-xattr-tags.so()(64bit)"
 
 RDEPENDS:${PN} += "caja \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcaja-extension.so.1()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

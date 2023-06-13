@@ -14,11 +14,10 @@ RPROVIDES:${PN} += "adms \
 adms(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libadmsAdmstpath.so.0()(64bit) \
 libadmsElement.so.0()(64bit) \
 libadmsPreprocessor.so.0()(64bit) \
 libadmsVeriloga.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

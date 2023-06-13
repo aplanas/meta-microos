@@ -12,8 +12,7 @@ RPROVIDES:${PN} += "retro-gtk \
 retro-gtk(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libepoxy.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -23,8 +22,6 @@ libpulse-simple.so.0()(64bit) \
 libpulse-simple.so.0(PULSE_0)(64bit) \
 libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
-libsamplerate.so.0()(64bit) \
-libsamplerate.so.0(libsamplerate.so.0.0)(64bit) \
-libsamplerate.so.0(libsamplerate.so.0.1)(64bit)"
+libsamplerate.so.0()(64bit)"
 
 inherit rpm

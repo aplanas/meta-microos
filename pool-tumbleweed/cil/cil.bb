@@ -14,10 +14,7 @@ RPROVIDES:${PN} += "cil \
 cil(aarch-64) \
 cil-doc"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
-libsepol.so.2()(64bit) \
-libsepol.so.2(LIBSEPOL_1.0)(64bit) \
-libsepol.so.2(LIBSEPOL_1.1)(64bit) \
-libsepol.so.2(LIBSEPOL_3.0)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
+libsepol.so.2()(64bit)"
 
 inherit rpm

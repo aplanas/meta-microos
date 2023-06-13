@@ -17,8 +17,7 @@ libyaz_server.so.5()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libexslt.so.0()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
@@ -26,11 +25,6 @@ libicui18n.so.73()(64bit) \
 libicuuc.so.73()(64bit) \
 libwrap.so.0()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxslt.so.1()(64bit) \
-libxslt.so.1(LIBXML2_1.0.11)(64bit) \
-libxslt.so.1(LIBXML2_1.0.18)(64bit) \
-libxslt.so.1(LIBXML2_1.1.18)(64bit)"
+libxslt.so.1()(64bit)"
 
 inherit rpm

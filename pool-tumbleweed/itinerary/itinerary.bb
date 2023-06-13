@@ -32,7 +32,6 @@ kopeninghours \
 kosmindoormap \
 kpublictransport \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CalendarCore.so.5()(64bit) \
 libKF5Contacts.so.5()(64bit) \
 libKF5CoreAddons.so.5()(64bit) \
@@ -69,14 +68,8 @@ libQt5QuickControls2.so.5()(64bit) \
 libQt5QuickControls2.so.5(Qt_5)(64bit) \
 libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 libz.so.1()(64bit) \
 prison-qt5-imports"
 

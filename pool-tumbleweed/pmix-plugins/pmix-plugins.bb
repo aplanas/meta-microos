@@ -12,13 +12,11 @@ pmix-plugins(aarch-64)"
 
 RDEPENDS:${PN} += "(pmix-plugin-munge = 3.2.3 if munge) \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libevent_core-2.1.so.7()(64bit) \
 libmca_common_dstore.so.1()(64bit) \
 libmca_common_dstore1 \
 libpmix.so.2()(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

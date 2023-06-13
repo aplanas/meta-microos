@@ -22,21 +22,15 @@ libGraphicsMagick-Q16.so.3()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGraphicsMagick3-config \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfreetype.so.6()(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_1.0)(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(GOMP_4.5)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit) \
 libjbig.so.2()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libjxl.so.0.8()(64bit) \
 libjxl.so.0.8(JXL_0)(64bit) \
 libjxl_threads.so.0.8()(64bit) \
@@ -44,19 +38,13 @@ libjxl_threads.so.0.8(JXL_0)(64bit) \
 liblcms2.so.2()(64bit) \
 libltdl.so.7()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 libwebp.so.7()(64bit) \
 libwebpmux.so.3()(64bit) \
 libwmflite-0.2.so.7()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

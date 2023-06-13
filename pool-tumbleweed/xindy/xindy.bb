@@ -22,7 +22,7 @@ xindy(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 clisp \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 xindy-rules"
 
 inherit rpm

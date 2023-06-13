@@ -18,17 +18,10 @@ RPROVIDES:${PN} += "telepathy-logger \
 telepathy-logger(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libtelepathy-glib.so.0()(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.11.3)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.11.5)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.1)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.26)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.30)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.36)(64bit) \
 libtelepathy-logger.so.3()(64bit)"
 
 inherit rpm

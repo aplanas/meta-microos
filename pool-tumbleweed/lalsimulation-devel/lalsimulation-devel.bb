@@ -15,16 +15,13 @@ pkgconfig(lalsimulation)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 lalsimulation-data \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgsl.so.25()(64bit) \
 liblal.so.20()(64bit) \
 liblalsimulation.so.31()(64bit) \
 liblalsimulation31 \
 liblalsupport.so.14()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 pkgconfig(gsl) \
 pkgconfig(lal) \
 pkgconfig(zlib)"

@@ -14,8 +14,7 @@ libm4rie-0_0_20200125(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libm4ri-0.0.20200125.so()(64bit)"
 
 inherit rpm

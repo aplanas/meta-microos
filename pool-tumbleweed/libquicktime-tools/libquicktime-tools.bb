@@ -11,7 +11,6 @@ RPROVIDES:${PN} += "libquicktime-tools \
 libquicktime-tools(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXaw.so.7()(64bit) \
@@ -19,11 +18,8 @@ libXext.so.6()(64bit) \
 libXt.so.6()(64bit) \
 libXv.so.1()(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libquicktime \
 libquicktime.so.0()(64bit) \
 libquicktime0"

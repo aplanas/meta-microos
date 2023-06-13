@@ -18,7 +18,7 @@ libXext.so.6()(64bit) \
 libXinerama.so.1()(64bit) \
 libXrandr.so.2()(64bit) \
 libXss.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \

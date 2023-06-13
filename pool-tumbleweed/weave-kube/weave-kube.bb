@@ -27,7 +27,7 @@ curl \
 iproute2 \
 ipset \
 iptables \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libpcap.so.1()(64bit)"
 
 inherit rpm

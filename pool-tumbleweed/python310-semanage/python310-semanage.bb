@@ -13,12 +13,8 @@ python310-semanage \
 python310-semanage(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libsemanage.so.2()(64bit) \
-libsemanage.so.2(LIBSEMANAGE_1.0)(64bit) \
-libsemanage.so.2(LIBSEMANAGE_1.1)(64bit) \
-libsemanage.so.2(LIBSEMANAGE_3.4)(64bit) \
 libsemanage2 \
 python(abi)"
 

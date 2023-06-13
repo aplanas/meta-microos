@@ -73,7 +73,6 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Archive.so.5()(64bit) \
 libKF5Attica.so.5()(64bit) \
 libKF5Codecs.so.5()(64bit) \
@@ -121,7 +120,6 @@ libQt5Qml.so.5()(64bit) \
 libQt5Qml.so.5(Qt_5)(64bit) \
 libQt5Quick.so.5()(64bit) \
 libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5QuickWidgets.so.5()(64bit) \
 libQt5QuickWidgets.so.5(Qt_5)(64bit) \
 libQt5Sql.so.5()(64bit) \
@@ -133,12 +131,9 @@ libQt5Widgets.so.5(Qt_5)(64bit) \
 libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
 libavcodec.so.59()(64bit) \
-libavcodec.so.59(LIBAVCODEC_59.37_SUSE)(64bit) \
 libavformat.so.59()(64bit) \
-libavformat.so.59(LIBAVFORMAT_59.27_SUSE)(64bit) \
 libavutil.so.57()(64bit) \
-libavutil.so.57(LIBAVUTIL_57.28_SUSE)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfftw3.so.3()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -146,8 +141,6 @@ libgobject-2.0.so.0()(64bit) \
 libgpod.so.4()(64bit) \
 liblastfm5.so.1()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmariadb.so.3()(64bit) \
 libmariadb.so.3(libmysqlclient_18)(64bit) \
 libmariadbd.so.19()(64bit) \
@@ -157,15 +150,6 @@ libofa.so.0()(64bit) \
 libphonon4qt5.so.4()(64bit) \
 libqt5-qtquickcontrols2 \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.22)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libtag-extras.so.1()(64bit) \
 libtag-extras1 \
 libtag.so.1()(64bit) \

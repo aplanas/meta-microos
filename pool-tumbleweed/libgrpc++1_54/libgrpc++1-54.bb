@@ -20,7 +20,6 @@ libgrpcpp_channelz.so.1.54()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libabsl_hash.so.2301.0.0()(64bit) \
 libabsl_raw_hash_set.so.2301.0.0()(64bit) \
 libabsl_status.so.2301.0.0()(64bit) \
@@ -29,24 +28,13 @@ libabsl_str_format_internal.so.2301.0.0()(64bit) \
 libabsl_strings.so.2301.0.0()(64bit) \
 libabsl_synchronization.so.2301.0.0()(64bit) \
 libabsl_time.so.2301.0.0()(64bit) \
-libc.so.6(GLIBC_2.32)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libgpr.so.31()(64bit) \
 libgrpc.so.31()(64bit) \
 libgrpc_unsecure.so.31()(64bit) \
 libprotobuf-3.21.12.so()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.5)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 libupb.so.31()(64bit)"
 
 inherit rpm

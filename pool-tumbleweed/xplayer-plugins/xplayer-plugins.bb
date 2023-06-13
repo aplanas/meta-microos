@@ -32,8 +32,7 @@ xplayer-plugins \
 xplayer-plugins(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
@@ -47,12 +46,6 @@ libpango-1.0.so.0()(64bit) \
 libpeas-1.0.so.0()(64bit) \
 libwayland-server.so.0()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.5.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.3)(64bit) \
-libxml2.so.2(LIBXML2_2.6.5)(64bit) \
-libxml2.so.2(LIBXML2_2.6.8)(64bit) \
 libxplayer.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -16,12 +16,9 @@ RPROVIDES:${PN} += "wavemon \
 wavemon(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libncursesw.so.6()(64bit) \
-libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
 libnl-3.so.200()(64bit) \
 libnl-3.so.200(libnl_3)(64bit) \
 libnl-cli-3.so.200()(64bit) \
@@ -30,8 +27,6 @@ libnl-genl-3.so.200()(64bit) \
 libnl-genl-3.so.200(libnl_3)(64bit) \
 libnl-route-3.so.200()(64bit) \
 libnl-route-3.so.200(libnl_3)(64bit) \
-libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
+libtinfo.so.6()(64bit)"
 
 inherit rpm

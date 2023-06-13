@@ -20,7 +20,6 @@ windowmanager"
 
 RDEPENDS:${PN} += "cinnamon-gschemas \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXcomposite.so.1()(64bit) \
@@ -31,7 +30,7 @@ libXi.so.6()(64bit) \
 libXrandr.so.2()(64bit) \
 libXtst.so.6()(64bit) \
 libatk-1.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \
 libfontconfig.so.1()(64bit) \
@@ -41,11 +40,7 @@ libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmuffin.so.0()(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \

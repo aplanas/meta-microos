@@ -14,8 +14,7 @@ gnome-shell-calendar(aarch-64)"
 RDEPENDS:${PN} += "evolution-data-server \
 gnome-shell \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libecal-2.0.so.2()(64bit) \
 libedataserver-1.2.so.27()(64bit) \
 libgio-2.0.so.0()(64bit) \

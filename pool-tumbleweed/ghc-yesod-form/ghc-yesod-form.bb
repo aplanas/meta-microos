@@ -180,7 +180,7 @@ libHSxss-sanitize-0.3.7.2-FCgYumvpQn8Hd22tbbEcXW-ghc9.4.5.so()(64bit) \
 libHSyesod-core-1.6.24.2-DExtrbWuaUvstmq3VZuwG-ghc9.4.5.so()(64bit) \
 libHSyesod-persistent-1.6.0.8-DUd8QtbJfktGowTUT2pCEk-ghc9.4.5.so()(64bit) \
 libHSzlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk-ghc9.4.5.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit) \
 libz.so.1()(64bit)"

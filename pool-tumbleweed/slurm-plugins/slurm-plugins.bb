@@ -14,23 +14,17 @@ slurm-plugins \
 slurm-plugins(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libhwloc.so.15()(64bit) \
 libibmad.so.5()(64bit) \
-libibmad.so.5(IBMAD_1.3)(64bit) \
 libjson-c.so.5()(64bit) \
-libjson-c.so.5(JSONC_0.14)(64bit) \
 liblua5.4.so.5()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpmix2 \
 libresolv.so.2()(64bit) \
-libresolv.so.2(GLIBC_2.17)(64bit) \
 libyaml-0.so.2()(64bit) \
 pmix"
 

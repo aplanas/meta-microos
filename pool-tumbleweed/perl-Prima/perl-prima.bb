@@ -382,7 +382,6 @@ perl-Prima(aarch-64)"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXcomposite.so.1()(64bit) \
 libXcursor.so.1()(64bit) \
@@ -391,19 +390,15 @@ libXft.so.2()(64bit) \
 libXpm.so.4()(64bit) \
 libXrandr.so.2()(64bit) \
 libXrender.so.1()(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libfontconfig.so.1()(64bit) \
 libfreetype.so.6()(64bit) \
 libgif.so.7()(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 perl(:MODULE_COMPAT_5.36.0) \
 xorg-x11"
 

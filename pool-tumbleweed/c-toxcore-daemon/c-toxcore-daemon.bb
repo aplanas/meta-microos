@@ -12,7 +12,7 @@ c-toxcore-daemon(aarch-64) \
 config(c-toxcore-daemon)"
 
 RDEPENDS:${PN} += "/bin/sh \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libconfig.so.11()(64bit) \
 libsodium.so.23()(64bit) \
 libtoxcore.so.2()(64bit)"

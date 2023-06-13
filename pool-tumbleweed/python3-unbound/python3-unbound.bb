@@ -14,8 +14,7 @@ python3-unbound(aarch-64) \
 unbound-python"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.28)(64bit) \
+libc.so.6()(64bit) \
 libpython3.10.so.1.0()(64bit) \
 libunbound.so.8()(64bit) \
 libunbound8 \

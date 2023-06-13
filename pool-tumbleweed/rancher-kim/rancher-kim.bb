@@ -10,6 +10,6 @@ RPM_HASH = "7c1c4ff555442b9851694a77af1c64f398970db2e3dbe124721e78e2251ce6790d3c
 RPROVIDES:${PN} += "rancher-kim \
 rancher-kim(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

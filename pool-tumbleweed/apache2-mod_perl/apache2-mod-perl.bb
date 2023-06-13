@@ -168,10 +168,9 @@ RDEPENDS:${PN} += "/usr/bin/perl \
 apache2 \
 apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libapr-1.so.0()(64bit) \
 libaprutil-1.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libperl.so()(64bit) \
 perl \
 perl(Linux::Pid) \

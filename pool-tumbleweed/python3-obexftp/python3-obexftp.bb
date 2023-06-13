@@ -13,7 +13,7 @@ RPM_HASH = "85987cda77abbaad30857bcb9c58be23bbff9435992f1ac45d9023cba9f501acc377
 RPROVIDES:${PN} += "python3-obexftp \
 python3-obexftp(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libobexftp.so.0()(64bit) \
 obexftp \
 python(abi)"

@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "config(lighttpd-mod_rrdtool) \
 lighttpd-mod_rrdtool \
 lighttpd-mod_rrdtool(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 lighttpd \
 rrdtool"
 

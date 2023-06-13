@@ -37,11 +37,10 @@ seahorse \
 seahorse(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-client.so.3()(64bit) \
 libavahi-common.so.3()(64bit) \
 libavahi-glib.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgck-1.so.0()(64bit) \
 libgcr-base-3.so.1()(64bit) \
 libgcr-ui-3.so.1()(64bit) \
@@ -51,15 +50,11 @@ libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgpgme.so.11()(64bit) \
-libgpgme.so.11(GPGME_1.0)(64bit) \
-libgpgme.so.11(GPGME_1.1)(64bit) \
 libgtk-3.so.0()(64bit) \
 libhandy-1.so.0()(64bit) \
 libhandy-1.so.0(LIBHANDY_1_0)(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
 libpwquality.so.1()(64bit) \
-libpwquality.so.1(LIBPWQUALITY_1.0)(64bit) \
 libsecret-1.so.0()(64bit) \
 libsoup-3.0.so.0()(64bit)"
 

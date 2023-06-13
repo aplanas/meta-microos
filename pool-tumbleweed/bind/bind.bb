@@ -27,26 +27,20 @@ RDEPENDS:${PN} += "/bin/bash \
 bind-utils \
 fillup \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbind9-9.18.15.so()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap.so.2()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libdns-9.18.15.so()(64bit) \
 libisc-9.18.15.so()(64bit) \
 libisccc-9.18.15.so()(64bit) \
 libisccfg-9.18.15.so()(64bit) \
 libjson-c.so.5()(64bit) \
-libjson-c.so.5(JSONC_0.14)(64bit) \
 libmaxminddb.so.0()(64bit) \
 libnghttp2.so.14()(64bit) \
 libns-9.18.15.so()(64bit) \
 libuv.so.1()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.3)(64bit) \
 libz.so.1()(64bit) \
 sysuser-shadow"
 

@@ -18,18 +18,13 @@ xdg-desktop-portal(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/fusermount3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfuse3.so.3()(64bit) \
-libfuse3.so.3(FUSE_3.0)(64bit) \
-libfuse3.so.3(FUSE_3.12)(64bit) \
-libfuse3.so.3(FUSE_3.2)(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libpipewire-0.3.so.0()(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit)"

@@ -16,7 +16,7 @@ perl-Text-Kakasi \
 perl-Text-Kakasi(aarch-64)"
 
 RDEPENDS:${PN} += "kakasi \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libkakasi.so.2()(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 

@@ -16,8 +16,7 @@ metainfo(org.gnome.Notes.appdata.xml) \
 mimehandler(x-scheme-handler/note)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcurl.so.4()(64bit) \
 libecal-2.0.so.2()(64bit) \
@@ -33,15 +32,10 @@ libhandy-1.so.0(LIBHANDY_1_0)(64bit) \
 libical-glib.so.3()(64bit) \
 libjavascriptcoregtk-4.1.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libtracker-sparql-3.0.so.0()(64bit) \
 libwebkit2gtk-4.1.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.5.0)(64bit) \
-libxml2.so.2(LIBXML2_2.5.2)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

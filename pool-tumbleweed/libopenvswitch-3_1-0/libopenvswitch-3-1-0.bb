@@ -23,15 +23,11 @@ libvtep-3.1.so.0(libvtep_0)(64bit)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dpdk \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap-ng.so.0()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libdpdk-23 \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 librte_eal.so.23()(64bit) \
 librte_eal.so.23(DPDK_23)(64bit) \
 librte_ethdev.so.23()(64bit) \
@@ -45,7 +41,6 @@ librte_meter.so.23(DPDK_23)(64bit) \
 librte_vhost.so.23()(64bit) \
 librte_vhost.so.23(DPDK_23)(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libunbound.so.8()(64bit)"
 
 inherit rpm

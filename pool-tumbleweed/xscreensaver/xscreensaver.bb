@@ -170,7 +170,6 @@ RDEPENDS:${PN} += "/bin/sh \
 /sbin/unix2_chkpwd \
 desktop-data \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
@@ -181,23 +180,20 @@ libXrandr.so.2()(64bit) \
 libXt.so.6()(64bit) \
 libXxf86vm.so.1()(64bit) \
 libatk-1.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libgdk-3.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_221)(64bit) \
 libsystemd.so.0(LIBSYSTEMD_222)(64bit) \
 libsystemd.so.0(LIBSYSTEMD_232)(64bit) \
 libsystemd.so.0(LIBSYSTEMD_243)(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 xscreensaver-data"
 
 inherit rpm

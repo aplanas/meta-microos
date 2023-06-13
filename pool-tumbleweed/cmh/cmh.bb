@@ -18,20 +18,15 @@ libparsepari.so.0()(64bit)"
 
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcmh.so.0()(64bit) \
 libfplll.so.8()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libgmp.so.10()(64bit) \
 libmpc.so.3()(64bit) \
 libmpfr.so.6()(64bit) \
 libmpfrcx.so.1()(64bit) \
 libpari-gmp-tls.so.8()(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

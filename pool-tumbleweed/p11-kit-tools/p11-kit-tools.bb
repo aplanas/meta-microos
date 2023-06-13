@@ -13,10 +13,8 @@ RPROVIDES:${PN} += "p11-kit-tools \
 p11-kit-tools(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libp11-kit.so.0()(64bit) \
-libp11-kit.so.0(LIBP11_KIT_1.0)(64bit) \
 libtasn1.so.6()(64bit) \
 libtasn1.so.6(LIBTASN1_0_3)(64bit)"
 

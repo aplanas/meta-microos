@@ -17,6 +17,6 @@ RPM_HASH = "3124f21686f0f5fcaf939c513f0f6bb7db16eb45b463dd5925833c7419a3c4211d1e
 RPROVIDES:${PN} += "cosign \
 cosign(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

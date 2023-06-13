@@ -38,22 +38,18 @@ libgnutls30-hmac"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 crypto-policies \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libhogweed.so.6()(64bit) \
 libhogweed.so.6(HOGWEED_6)(64bit) \
 libidn2.so.0()(64bit) \
-libidn2.so.0(IDN2_0.0.0)(64bit) \
 libjitterentropy.so.3()(64bit) \
 libnettle.so.8()(64bit) \
 libnettle.so.8(NETTLE_8)(64bit) \
 libp11-kit.so.0()(64bit) \
-libp11-kit.so.0(LIBP11_KIT_1.0)(64bit) \
 libtasn1.so.6()(64bit) \
 libtasn1.so.6(LIBTASN1_0_3)(64bit) \
 libunistring.so.5()(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

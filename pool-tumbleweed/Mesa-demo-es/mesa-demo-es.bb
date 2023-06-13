@@ -14,12 +14,10 @@ Mesa-demo:/usr/lib64/mesa-demos/egl/opengles2/es2gears_x11 \
 Mesa-demo:/usr/lib64/mesa-demos/egl/opengles2/es2tri"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \
 libGLESv2.so.2()(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

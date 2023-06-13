@@ -14,7 +14,7 @@ kubernetes1.25-kubelet(aarch-64)"
 
 RDEPENDS:${PN} += "cri-runtime \
 kubernetes-kubelet-common \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 systemd"
 
 inherit rpm

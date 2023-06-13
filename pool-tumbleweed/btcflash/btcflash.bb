@@ -13,20 +13,11 @@ RPROVIDES:${PN} += "btcflash \
 btcflash(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcdrdeflt.so.1.0()(64bit) \
-libcdrdeflt.so.1.0(SCHILY_1.0)(64bit) \
 librscg.so.1.0()(64bit) \
-librscg.so.1.0(SCHILY_1.0)(64bit) \
 libscg.so.1.0()(64bit) \
-libscg.so.1.0(SCHILY_1.0)(64bit) \
-libscg.so.1.0(SCHILY_1.1)(64bit) \
 libscgcmd.so.1.0()(64bit) \
-libscgcmd.so.1.0(SCHILY_1.0)(64bit) \
-libschily.so.2.0()(64bit) \
-libschily.so.2.0(SCHILY_1.0)(64bit) \
-libschily.so.2.0(SCHILY_1.2)(64bit) \
-libschily.so.2.0(SCHILY_1.5)(64bit)"
+libschily.so.2.0()(64bit)"
 
 inherit rpm

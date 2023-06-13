@@ -17,13 +17,8 @@ bash(aarch-64) \
 config(bash)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libreadline.so.8()(64bit) \
-libreadline.so.8(READLINE_6.3)(64bit) \
-libreadline.so.8(READLINE_7.0)(64bit) \
-libreadline.so.8(READLINE_8.0)(64bit) \
-libreadline.so.8(READLINE_8.2)(64bit) \
 libreadline8"
 
 inherit rpm

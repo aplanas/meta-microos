@@ -13,18 +13,14 @@ cdio-utils(aarch-64) \
 libcdio-utils"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcddb.so.2()(64bit) \
 libcdio.so.19()(64bit) \
 libcdio.so.19(CDIO_19)(64bit) \
 libiso9660.so.11()(64bit) \
 libiso9660.so.11(ISO9660_11)(64bit) \
 libncurses.so.6()(64bit) \
-libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
 libudf.so.0()(64bit) \
 libvcdinfo.so.0()(64bit) \
 libvcdinfo.so.0(VCDINFO_0)(64bit)"

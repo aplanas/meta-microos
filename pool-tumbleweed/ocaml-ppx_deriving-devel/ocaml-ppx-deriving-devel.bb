@@ -48,11 +48,8 @@ ocamlx(Ppx_deriving_runtime) \
 ocamlx(Ppx_deriving_show) \
 ocamlx(Ppx_deriving_std)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 ocaml(Astlib) \
 ocaml(Astlib__) \
 ocaml(Astlib__Ast_402) \

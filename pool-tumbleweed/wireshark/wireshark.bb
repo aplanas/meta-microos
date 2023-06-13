@@ -19,17 +19,14 @@ wireshark(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbcg729.so.0()(64bit) \
 libbrotlidec1 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap.so.2()(64bit) \
 libgcrypt.so.20()(64bit) \
-libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libmaxminddb.so.0()(64bit) \
 libnl-3.so.200()(64bit) \
 libnl-3.so.200(libnl_3)(64bit) \
@@ -39,7 +36,6 @@ libopus.so.0()(64bit) \
 libpcap.so.1()(64bit) \
 libpcre2-8.so.0()(64bit) \
 libsbc.so.1()(64bit) \
-libsbc.so.1(SBC_1.0)(64bit) \
 libspandsp.so.3()(64bit) \
 libspeexdsp.so.1()(64bit) \
 libssh.so.4()(64bit) \

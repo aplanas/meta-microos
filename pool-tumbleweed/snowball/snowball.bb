@@ -23,7 +23,7 @@ RPROVIDES:${PN} += "libstemmer-tools \
 snowball \
 snowball(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libstemmer.so.0d()(64bit)"
 
 inherit rpm

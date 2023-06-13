@@ -23,17 +23,12 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbsd.so.0()(64bit) \
-libbsd.so.0(LIBBSD_0.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libdb-4.8.so()(64bit) \
 liblber.so.2()(64bit) \
-liblber.so.2(OPENLDAP_2.200)(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
 liblua5.1.so.5()(64bit) \
 libmemcached.so.11()(64bit) \
 libmilter.so.1.0()(64bit) \
@@ -41,7 +36,6 @@ libopendkim.so.11()(64bit) \
 librbl.so.1()(64bit) \
 librepute.so.1()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libunbound.so.8()(64bit) \
 libvbr.so.2()(64bit)"
 

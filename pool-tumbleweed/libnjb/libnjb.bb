@@ -12,8 +12,7 @@ libnjb(aarch-64)"
 
 RDEPENDS:${PN} += "dbus-1 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libnjb.so.5()(64bit) \
 libz.so.1()(64bit)"
 

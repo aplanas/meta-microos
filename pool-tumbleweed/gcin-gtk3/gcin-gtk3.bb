@@ -14,7 +14,7 @@ gcin-gtk3-immodule"
 RDEPENDS:${PN} += "/bin/sh \
 gcin \
 gtk3-tools \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcin-im-client.so.1()(64bit) \
 libgdk-3.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

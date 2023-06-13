@@ -15,8 +15,7 @@ python311-ruamel.yaml.clib(aarch-64) \
 python3dist(ruamel.yaml.clib)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 python(abi)"
 
 inherit rpm

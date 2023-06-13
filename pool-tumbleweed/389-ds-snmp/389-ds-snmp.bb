@@ -14,10 +14,8 @@ config(389-ds-snmp)"
 RDEPENDS:${PN} += "/bin/sh \
 389-ds \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
 libnetsnmp.so.40()(64bit) \
 libnetsnmpagent.so.40()(64bit) \
 libnspr4.so()(64bit)"

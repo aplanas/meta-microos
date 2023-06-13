@@ -12,8 +12,7 @@ python310-tk \
 python310-tk(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libtcl8.6.so()(64bit) \
 libtk8.6.so()(64bit) \
 python(abi) \

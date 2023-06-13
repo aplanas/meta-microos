@@ -30,14 +30,11 @@ nitrogen(aarch-64)"
 
 RDEPENDS:${PN} += "hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXinerama.so.1()(64bit) \
 libatkmm-1.6.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \
 libgdkmm-2.4.so.1()(64bit) \
 libgiomm-2.4.so.1()(64bit) \
@@ -47,17 +44,6 @@ libgobject-2.0.so.0()(64bit) \
 libgtkmm-2.4.so.1()(64bit) \
 libpangomm-1.4.so.1()(64bit) \
 libsigc-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.1)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

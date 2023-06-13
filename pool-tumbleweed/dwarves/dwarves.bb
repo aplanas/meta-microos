@@ -30,19 +30,11 @@ pahole"
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbpf.so.1()(64bit) \
-libbpf.so.1(LIBBPF_0.0.1)(64bit) \
-libbpf.so.1(LIBBPF_0.1.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdwarves.so.1()(64bit) \
-libdwarves.so.1(DWARVES_1.25)(64bit) \
 libdwarves_emit.so.1()(64bit) \
-libdwarves_emit.so.1(DWARVES_1.25)(64bit) \
 libdwarves_reorganize.so.1()(64bit) \
-libdwarves_reorganize.so.1(DWARVES_1.25)(64bit) \
-libelf.so.1()(64bit) \
-libelf.so.1(ELFUTILS_1.0)(64bit) \
-libelf.so.1(ELFUTILS_1.5)(64bit)"
+libelf.so.1()(64bit)"
 
 inherit rpm

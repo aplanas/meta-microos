@@ -20,14 +20,12 @@ RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \
 gettext-runtime \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdevmapper.so.1.03()(64bit) \
 libdevmapper.so.1.03(Base)(64bit) \
 libfreetype.so.6()(64bit) \
 libfuse.so.2()(64bit) \
-libfuse.so.2(FUSE_2.6)(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 libtasn1.so.6()(64bit) \
 libtasn1.so.6(LIBTASN1_0_3)(64bit)"
 

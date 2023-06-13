@@ -28,8 +28,7 @@ pkgconfig(libgda-xslt-6.0)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgda-6.0.so.6.0.0()(64bit) \
 libgda-6_0-6_0_0 \
 libgda-report-6_0-6_0_0 \
@@ -40,7 +39,6 @@ libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 pkgconfig(gobject-2.0) \
 pkgconfig(gthread-2.0) \
 pkgconfig(gtk+-3.0) \

@@ -13,11 +13,9 @@ frame(aarch-64) \
 frame-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXi.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
-libframe.so.6()(64bit) \
-libframe.so.6(FRAME_2.2)(64bit)"
+libc.so.6()(64bit) \
+libframe.so.6()(64bit)"
 
 inherit rpm

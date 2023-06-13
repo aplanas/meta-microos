@@ -16,8 +16,7 @@ RPROVIDES:${PN} += "netcdf_4_9_2-gnu-mpich-hpc \
 netcdf_4_9_2-gnu-mpich-hpc(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libnetcdf_4_9_2-gnu-mpich-hpc"
 
 inherit rpm

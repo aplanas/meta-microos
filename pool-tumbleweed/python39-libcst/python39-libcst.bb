@@ -13,11 +13,8 @@ python39-libcst(aarch-64) \
 python3dist(libcst)"
 
 RDEPENDS:${PN} += "(python39-dataclasses if python39-base < 3.7) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 python(abi) \
 python39-PyYAML \
 python39-typing-inspect \

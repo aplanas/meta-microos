@@ -11,12 +11,9 @@ RPROVIDES:${PN} += "slirp4netns \
 slirp4netns(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libseccomp.so.2()(64bit) \
-libslirp.so.0()(64bit) \
-libslirp.so.0(SLIRP_4.0)(64bit) \
-libslirp.so.0(SLIRP_4.1)(64bit)"
+libslirp.so.0()(64bit)"
 
 inherit rpm

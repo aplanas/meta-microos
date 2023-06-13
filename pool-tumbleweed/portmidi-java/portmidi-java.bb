@@ -16,10 +16,8 @@ RDEPENDS:${PN} += "/bin/bash \
 /sbin/ldconfig \
 java \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libportmidi2"
 
 inherit rpm

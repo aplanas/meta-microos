@@ -14,14 +14,12 @@ libwiretap13(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 liblz4.so.1()(64bit) \
 libwsutil.so.14()(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.2.4)(64bit) \
 libzstd.so.1()(64bit)"
 
 inherit rpm

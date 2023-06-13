@@ -11,6 +11,6 @@ RPROVIDES:${PN} += "podman-remote \
 podman-remote(aarch-64) \
 podman:/usr/bin/podman-remote"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

@@ -34,15 +34,13 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/useradd \
 dcmtk \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_filesystem.so.1.82.0()(64bit) \
 libboost_iostreams.so.1.82.0()(64bit) \
 libboost_locale.so.1.82.0()(64bit) \
 libboost_thread.so.1.82.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcivetweb.so.1.15.0()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libcurl.so.4()(64bit) \
 libdcmdata.so.17()(64bit) \
 libdcmimage.so.17()(64bit) \
@@ -51,10 +49,7 @@ libdcmjpls.so.17()(64bit) \
 libdcmnet.so.17()(64bit) \
 libdcmtls.so.17()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libjsoncpp.so.25()(64bit) \
 liblua5.1.so.5()(64bit) \
 liboflog.so.17()(64bit) \
@@ -65,19 +60,7 @@ libprotobuf-3.21.12.so()(64bit) \
 libpugixml.so.1()(64bit) \
 libsqlite3.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

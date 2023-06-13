@@ -654,22 +654,14 @@ rpm_macro(perl_version)"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libdb-4.8.so()(64bit) \
 libgdbm.so.6()(64bit) \
 libgdbm_compat.so.4()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.0.2)(64bit) \
-libz.so.1(ZLIB_1.2.0.8)(64bit) \
-libz.so.1(ZLIB_1.2.2)(64bit) \
-libz.so.1(ZLIB_1.2.2.3)(64bit) \
 perl-base"
 
 inherit rpm

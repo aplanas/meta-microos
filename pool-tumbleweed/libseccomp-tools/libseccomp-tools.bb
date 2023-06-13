@@ -13,7 +13,7 @@ RPM_HASH = "0869d4e8e01f05473d5c2b87b8fe840058e8c629940a4dddd281248140edafd2e607
 RPROVIDES:${PN} += "libseccomp-tools \
 libseccomp-tools(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libseccomp.so.2()(64bit)"
 
 inherit rpm

@@ -11,6 +11,6 @@ RPM_HASH = "fa37c630bbe59b984e2c2d093db77fdebffb5d930d8afcf2c071ea0d3f125af719d6
 RPROVIDES:${PN} += "utmp-cli \
 utmp-cli(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

@@ -12,13 +12,9 @@ RPM_HASH = "bb4270b76ba98d5f1eb2d3c6875b1cf7ce3b988c968eab0d1ed2bad318b8813447c0
 RPROVIDES:${PN} += "cbonsai \
 cbonsai(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libncursesw.so.6()(64bit) \
-libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
 libpanelw.so.6()(64bit) \
-libpanelw.so.6(NCURSESTW6_5.7.20081102)(64bit) \
-libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit)"
+libtinfo.so.6()(64bit)"
 
 inherit rpm

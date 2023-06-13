@@ -14,6 +14,6 @@ etcd-for-k8s1.22 \
 etcd-for-k8s1.22(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/bash \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

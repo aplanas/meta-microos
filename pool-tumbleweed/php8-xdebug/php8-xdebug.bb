@@ -27,12 +27,9 @@ php8-xdebug \
 php8-xdebug(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.9)(64bit) \
 php(api) \
 php(zend-abi)"
 

@@ -13,8 +13,7 @@ RPROVIDES:${PN} += "mimic \
 mimic(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libttsmimic.so.0()(64bit) \
 libttsmimic_lang_all_langs.so.0()(64bit) \
 libttsmimic_lang_all_voices.so.0()(64bit) \

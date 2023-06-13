@@ -17,12 +17,10 @@ libosmotrau2(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbctoolbox.so.1()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libortp.so.15()(64bit) \
 libosmocore.so.20()(64bit) \
-libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit)"
+libtalloc.so.2()(64bit)"
 
 inherit rpm

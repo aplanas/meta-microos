@@ -17,8 +17,7 @@ rubygem(ruby:3.2.0:cool.io:1.7) \
 rubygem(ruby:3.2.0:cool.io:1.7.1)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
 libruby3.2.so.3.2()(64bit) \
 ruby(abi)"

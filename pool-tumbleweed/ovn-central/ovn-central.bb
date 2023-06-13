@@ -15,8 +15,7 @@ ovn-central(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libopenvswitch-3.1.so.0()(64bit) \
 libopenvswitch-3.1.so.0(libopenvswitch_0)(64bit) \
 libovn-23.03.so.0()(64bit) \

@@ -45,8 +45,7 @@ pragha-plugins \
 pragha-plugins(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcddb.so.2()(64bit) \
 libcdio.so.19()(64bit) \
@@ -65,11 +64,8 @@ libgstreamer-1.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libgudev-1.0.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libkeybinder-3.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmtp.so.9()(64bit) \
 libnotify.so.4()(64bit) \
 libpango-1.0.so.0()(64bit) \
@@ -77,8 +73,6 @@ libpeas-1.0.so.0()(64bit) \
 libpragha.so()(64bit) \
 libsoup-2.4.so.1()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 pragha"
 
 inherit rpm

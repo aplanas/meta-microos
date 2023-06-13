@@ -19,9 +19,8 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 group(nobody) \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libnetsnmp.so.40()(64bit) \
@@ -30,7 +29,6 @@ libplumb.so.2()(64bit) \
 libplumbgpl.so.2()(64bit) \
 libstonith.so.1()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 libz.so.1()(64bit) \
 perl-TimeDate \
 shadow \

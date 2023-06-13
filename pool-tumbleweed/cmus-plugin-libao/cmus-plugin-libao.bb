@@ -12,9 +12,7 @@ cmus-plugin-libao(aarch-64)"
 
 RDEPENDS:${PN} += "cmus \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libao.so.4()(64bit) \
-libao.so.4(LIBAO4_1.1.0)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

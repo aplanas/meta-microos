@@ -17,7 +17,6 @@ RPM_HASH = "9ae295ac23e7ea4e362acff292ab72d35d5a84eedc1bf8063215131be203d0b3d8b7
 
 RPROVIDES:${PN} += "config(open-isns) \
 libisns.so.0()(64bit) \
-libisns.so.0(LIBISNS_0.96)(64bit) \
 libisns.so.0(LIBISNS_PRIVATE)(64bit) \
 open-isns \
 open-isns(aarch-64)"
@@ -25,10 +24,8 @@ open-isns(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libslp.so.1()(64bit) \
 systemd"
 

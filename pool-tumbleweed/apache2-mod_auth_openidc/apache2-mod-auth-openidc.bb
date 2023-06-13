@@ -12,17 +12,14 @@ apache2-mod_auth_openidc(aarch-64)"
 
 RDEPENDS:${PN} += "apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libapr-1.so.0()(64bit) \
 libaprutil-1.so.0()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcjose.so.0()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libcurl.so.4()(64bit) \
 libhiredis.so.1.1.0()(64bit) \
 libjansson.so.4()(64bit) \
-libjansson.so.4(libjansson.so.4)(64bit) \
 libpcre.so.1()(64bit) \
 suse_maintenance_mmn_0"
 

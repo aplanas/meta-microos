@@ -14,8 +14,7 @@ RPROVIDES:${PN} += "libt3highlight-utils \
 libt3highlight-utils(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libt3config.so.0()(64bit) \
 libt3highlight.so.2()(64bit)"
 

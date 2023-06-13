@@ -32,7 +32,7 @@ libXft.so.2()(64bit) \
 libXinerama.so.1()(64bit) \
 libXrandr.so.2()(64bit) \
 libXss.so.1()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit)"
 

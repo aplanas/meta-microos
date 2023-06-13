@@ -50,34 +50,13 @@ mimehandler(x-scheme-handler/appstream)"
 RDEPENDS:${PN} += "fwupd \
 iso-codes \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libadwaita-1.so.0()(64bit) \
 libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
 libappstream.so.4()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libflatpak.so.0()(64bit) \
 libfwupd.so.2()(64bit) \
-libfwupd.so.2(LIBFWUPD_0.1.1)(64bit) \
-libfwupd.so.2(LIBFWUPD_0.7.0)(64bit) \
-libfwupd.so.2(LIBFWUPD_0.7.3)(64bit) \
-libfwupd.so.2(LIBFWUPD_0.9.2)(64bit) \
-libfwupd.so.2(LIBFWUPD_0.9.3)(64bit) \
-libfwupd.so.2(LIBFWUPD_0.9.4)(64bit) \
-libfwupd.so.2(LIBFWUPD_0.9.5)(64bit) \
-libfwupd.so.2(LIBFWUPD_0.9.6)(64bit) \
-libfwupd.so.2(LIBFWUPD_0.9.7)(64bit) \
-libfwupd.so.2(LIBFWUPD_0.9.8)(64bit) \
-libfwupd.so.2(LIBFWUPD_1.0.0)(64bit) \
-libfwupd.so.2(LIBFWUPD_1.0.7)(64bit) \
-libfwupd.so.2(LIBFWUPD_1.2.4)(64bit) \
-libfwupd.so.2(LIBFWUPD_1.2.7)(64bit) \
-libfwupd.so.2(LIBFWUPD_1.3.3)(64bit) \
-libfwupd.so.2(LIBFWUPD_1.4.0)(64bit) \
-libfwupd.so.2(LIBFWUPD_1.4.5)(64bit) \
-libfwupd.so.2(LIBFWUPD_1.5.0)(64bit) \
-libfwupd.so.2(LIBFWUPD_1.5.6)(64bit) \
-libfwupd.so.2(LIBFWUPD_1.8.1)(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -86,27 +65,13 @@ libgobject-2.0.so.0()(64bit) \
 libgtk-4.so.1()(64bit) \
 libgudev-1.0.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmalcontent-0.so.0()(64bit) \
 libostree-1.so.1()(64bit) \
-libostree-1.so.1(LIBOSTREE_2017.10)(64bit) \
-libostree-1.so.1(LIBOSTREE_2017.8)(64bit) \
 libpackagekit-glib2.so.18()(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpolkit-gobject-1.so.0()(64bit) \
 libsoup-3.0.so.0()(64bit) \
-libxmlb.so.2()(64bit) \
-libxmlb.so.2(LIBXMLB_0.1.0)(64bit) \
-libxmlb.so.2(LIBXMLB_0.1.1)(64bit) \
-libxmlb.so.2(LIBXMLB_0.1.12)(64bit) \
-libxmlb.so.2(LIBXMLB_0.1.2)(64bit) \
-libxmlb.so.2(LIBXMLB_0.1.3)(64bit) \
-libxmlb.so.2(LIBXMLB_0.1.4)(64bit) \
-libxmlb.so.2(LIBXMLB_0.1.7)(64bit) \
-libxmlb.so.2(LIBXMLB_0.3.0)(64bit) \
-libxmlb.so.2(LIBXMLB_0.3.1)(64bit)"
+libxmlb.so.2()(64bit)"
 
 inherit rpm

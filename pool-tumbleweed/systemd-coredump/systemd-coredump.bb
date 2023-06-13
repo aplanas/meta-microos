@@ -16,11 +16,9 @@ systemd:/usr/bin/coredumpctl"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblz4.so.1()(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 libsystemd-shared-253.so()(64bit) \
 libsystemd-shared-253.so(SD_SHARED)(64bit) \
 libzstd.so.1()(64bit) \

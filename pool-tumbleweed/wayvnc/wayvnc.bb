@@ -13,22 +13,16 @@ RPROVIDES:${PN} += "wayvnc \
 wayvnc(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaml.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdrm.so.2()(64bit) \
 libgbm.so.1()(64bit) \
 libjansson.so.4()(64bit) \
-libjansson.so.4(libjansson.so.4)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libneatvnc.so.0()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libpixman-1.so.0()(64bit) \
 libwayland-client.so.0()(64bit) \
-libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit) \
-libxkbcommon.so.0(V_1.0.0)(64bit)"
+libxkbcommon.so.0()(64bit)"
 
 inherit rpm

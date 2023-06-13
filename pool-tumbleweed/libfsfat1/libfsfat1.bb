@@ -17,10 +17,9 @@ libfsfat1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \
 libbfio.so.1(V_20221025)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcdata.so.1()(64bit) \
 libcdata.so.1(V_20230108)(64bit) \
 libcerror.so.1()(64bit) \

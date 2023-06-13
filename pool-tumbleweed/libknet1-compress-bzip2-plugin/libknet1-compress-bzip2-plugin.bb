@@ -11,9 +11,8 @@ RPROVIDES:${PN} += "libknet1-compress-bzip2-plugin \
 libknet1-compress-bzip2-plugin(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libknet1(aarch-64)"
 
 inherit rpm

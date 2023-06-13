@@ -17,6 +17,6 @@ libGLEW2_2(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libGL.so.1()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

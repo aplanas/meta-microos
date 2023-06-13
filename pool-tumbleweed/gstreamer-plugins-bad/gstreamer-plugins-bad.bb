@@ -14,9 +14,9 @@ RPM_HASH = "9a063e6e89560c3e6ba1537a1a4b4a845d4600fa4d09b26c795cbbc6d3732903c5a5
 RPROVIDES:${PN} += "gst-plugins-bad \
 gstreamer-plugins-bad \
 gstreamer-plugins-bad(aarch-64) \
+gstreamer1()(64bit) \
 gstreamer1(decoder-application/dash+xml)()(64bit) \
 gstreamer1(decoder-application/mxf)()(64bit) \
-gstreamer1(decoder-application/vnd.ms-sstr+xml)()(64bit) \
 gstreamer1(decoder-application/x-hls)()(64bit) \
 gstreamer1(decoder-application/x-yuv4mpeg)(y4mversion=2)()(64bit) \
 gstreamer1(decoder-audio/midi)()(64bit) \
@@ -513,7 +513,6 @@ patched_subset"
 
 RDEPENDS:${PN} += "glib2-tools \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libIex-3_1.so.30()(64bit) \
 libImath-3_1.so.29()(64bit) \
 libOpenEXR-3_1.so.30()(64bit) \
@@ -525,18 +524,15 @@ libass.so.9()(64bit) \
 libavtp.so.0()(64bit) \
 libbs2b.so.0()(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libcurl.so.4()(64bit) \
 libdc1394.so.25()(64bit) \
 libdca.so.0()(64bit) \
 libdrm.so.2()(64bit) \
 libfdk-aac.so.2()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgdk-3.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -576,15 +572,11 @@ libgstwebrtcnice-1.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libgudev-1.0.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 liblcms2.so.2()(64bit) \
 libldacBT_enc.so.2()(64bit) \
 liblilv-0.so.0()(64bit) \
 liblrdf.so.2()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmicrodns.so.1()(64bit) \
 libmjpegutils-2.2.so.0()(64bit) \
 libmpcdec.so.6()(64bit) \
@@ -601,21 +593,12 @@ libpangocairo-1.0.so.0()(64bit) \
 libqrencode.so.4()(64bit) \
 librsvg-2.so.2()(64bit) \
 libsbc.so.1()(64bit) \
-libsbc.so.1(SBC_1.0)(64bit) \
 libsndfile.so.1()(64bit) \
-libsndfile.so.1(libsndfile.so.1.0)(64bit) \
 libspandsp.so.3()(64bit) \
 libsrt.so.1.5()(64bit) \
 libsrtp2.so.1()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
 libusb-1.0.so.0()(64bit) \
 libva.so.2()(64bit) \
 libvo-amrwbenc.so.0()(64bit) \
@@ -624,9 +607,6 @@ libwayland-client.so.0()(64bit) \
 libwebp.so.7()(64bit) \
 libwebrtc_audio_processing.so.1()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.9.0)(64bit) \
 libzbar.so.0()(64bit) \
 libzvbi.so.0()(64bit)"
 

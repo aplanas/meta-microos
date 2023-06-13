@@ -14,7 +14,7 @@ libavahi-libevent1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libavahi-common.so.3()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libevent-2.1.so.7()(64bit)"
 
 inherit rpm

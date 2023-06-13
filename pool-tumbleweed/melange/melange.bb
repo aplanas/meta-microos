@@ -17,6 +17,6 @@ RPM_HASH = "e38b2e4f654abea85e3ecf0d479553be30f3e4d08a7b6d3166d976f3ed2443f8ab56
 RPROVIDES:${PN} += "melange \
 melange(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

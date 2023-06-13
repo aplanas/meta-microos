@@ -10,6 +10,6 @@ RPM_HASH = "ce082af21385b27118fcf3a850c422564633679de9b577a480778344c2526659f79e
 RPROVIDES:${PN} += "docker-lock \
 docker-lock(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

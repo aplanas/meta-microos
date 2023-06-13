@@ -12,29 +12,19 @@ RPM_NAME = "libcryptsetup12-2.6.1-1.3.aarch64.rpm"
 RPM_HASH = "214bfc6c000c81bee002cc70c63633db5751c9917884e81faf5c45c24b465791bf16d867cee41589f8e6036d9b95550256a6297a298de9758387eb132fc6985c"
 
 RPROVIDES:${PN} += "libcryptsetup.so.12()(64bit) \
-libcryptsetup.so.12(CRYPTSETUP_2.0)(64bit) \
-libcryptsetup.so.12(CRYPTSETUP_2.4)(64bit) \
-libcryptsetup.so.12(CRYPTSETUP_2.5)(64bit) \
-libcryptsetup.so.12(CRYPTSETUP_2.6)(64bit) \
 libcryptsetup12 \
 libcryptsetup12(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libargon2.so.1()(64bit) \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_2.15)(64bit) \
-libblkid.so.1(BLKID_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libdevmapper.so.1.03()(64bit) \
 libdevmapper.so.1.03(Base)(64bit) \
 libdevmapper.so.1.03(DM_1_02_97)(64bit) \
 libjson-c.so.5()(64bit) \
-libjson-c.so.5(JSONC_0.14)(64bit) \
-libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit)"
+libuuid.so.1()(64bit)"
 
 inherit rpm

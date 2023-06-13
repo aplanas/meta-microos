@@ -63,10 +63,9 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 autoconf \
 automake \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libadwaita-1.so.0()(64bit) \
 libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libclang.so.13()(64bit) \
 libclang.so.13(LLVM_13)(64bit) \
@@ -87,7 +86,6 @@ libgtk-4.so.1()(64bit) \
 libgtksourceview-5.so.0()(64bit) \
 libicuuc.so.73()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libjsonrpc-glib-1.0.so.1()(64bit) \
 libpanel-1.so.1()(64bit) \
 libpango-1.0.so.0()(64bit) \
@@ -102,12 +100,6 @@ libtool \
 libvte-2.91-gtk4.so.0()(64bit) \
 libwebkitgtk-6.0.so.4()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.5.0)(64bit) \
-libxml2.so.2(LIBXML2_2.5.2)(64bit) \
-libxml2.so.2(LIBXML2_2.5.7)(64bit) \
-libxml2.so.2(LIBXML2_2.5.8)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 pkgconfig(gio-2.0) \
 pkgconfig(gio-unix-2.0) \
 pkgconfig(gtk4) \

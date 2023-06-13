@@ -15,24 +15,13 @@ python3.10dist(pcp) \
 python3dist(pcp)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpcp.so.3()(64bit) \
-libpcp.so.3(PCP_3.0)(64bit) \
-libpcp.so.3(PCP_3.16)(64bit) \
-libpcp.so.3(PCP_3.2)(64bit) \
-libpcp.so.3(PCP_3.21)(64bit) \
-libpcp.so.3(PCP_3.22)(64bit) \
-libpcp.so.3(PCP_3.6)(64bit) \
 libpcp3 \
 libpcp_gui2 \
 libpcp_import1 \
 libpcp_mmv1 \
 libpcp_pmda.so.3()(64bit) \
-libpcp_pmda.so.3(PCP_PMDA_3.0)(64bit) \
-libpcp_pmda.so.3(PCP_PMDA_3.7)(64bit) \
-libpcp_pmda.so.3(PCP_PMDA_3.8)(64bit) \
-libpcp_pmda.so.3(PCP_PMDA_3.9)(64bit) \
 python(abi) \
 python3"
 

@@ -16,20 +16,12 @@ xrootd-fuse(aarch-64)"
 
 RDEPENDS:${PN} += "fuse \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libXrdFfs.so.3()(64bit) \
 libXrdPosix.so.3()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfuse.so.2()(64bit) \
-libfuse.so.2(FUSE_2.5)(64bit) \
-libfuse.so.2(FUSE_2.6)(64bit) \
-libfuse.so.2(FUSE_2.8)(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 xrootd-client \
 xrootd-libs"
 

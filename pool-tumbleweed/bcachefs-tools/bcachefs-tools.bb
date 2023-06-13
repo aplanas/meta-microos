@@ -27,23 +27,15 @@ libbcachefs.so()(64bit)"
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaio.so.1()(64bit) \
-libaio.so.1(LIBAIO_0.1)(64bit) \
-libaio.so.1(LIBAIO_0.4)(64bit) \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_2.15)(64bit) \
-libblkid.so.1(BLKID_2.17)(64bit) \
-libblkid.so.1(BLKID_2.21)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libkeyutils.so.1()(64bit) \
-libkeyutils.so.1(KEYUTILS_0.3)(64bit) \
 liblz4.so.1()(64bit) \
 libsodium.so.23()(64bit) \
 liburcu-common.so.8()(64bit) \
 liburcu.so.8()(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
 libz.so.1()(64bit) \
 libzstd.so.1()(64bit)"
 

@@ -11,14 +11,11 @@ RPROVIDES:${PN} += "texlive-mflua-bin \
 texlive-mflua-bin(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXt.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libkpathsea.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpotrace.so.0()(64bit) \
 libtexlua53.so.5()(64bit) \
 libtexluajit.so.2()(64bit) \

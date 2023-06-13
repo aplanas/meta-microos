@@ -13,10 +13,9 @@ RPROVIDES:${PN} += "libfsntfs-tools \
 libfsntfs-tools(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \
 libbfio.so.1(V_20221025)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcerror.so.1()(64bit) \
 libcerror.so.1(V_20220101)(64bit) \
 libclocale.so.1()(64bit) \
@@ -30,9 +29,6 @@ libfguid.so.1(V_20220113)(64bit) \
 libfsntfs.so.1()(64bit) \
 libfsntfs.so.1(V_20230427)(64bit) \
 libfuse.so.2()(64bit) \
-libfuse.so.2(FUSE_2.2)(64bit) \
-libfuse.so.2(FUSE_2.5)(64bit) \
-libfuse.so.2(FUSE_2.6)(64bit) \
 libfusn.so.1()(64bit) \
 libfusn.so.1(V_20220119)(64bit) \
 libfwnt.so.1()(64bit) \

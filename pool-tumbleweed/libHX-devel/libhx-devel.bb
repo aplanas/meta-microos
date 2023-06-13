@@ -15,12 +15,6 @@ RPM_HASH = "9494d79a629f3e5912ca56618212acdde3a176a1442e028c6ba4a82d97d201eed72f
 RPROVIDES:${PN} += "libHX-devel \
 libHX-devel(aarch-64) \
 libHX_rtcheck.so()(64bit) \
-libHX_rtcheck.so(LIBHX_3.25)(64bit) \
-libHX_rtcheck.so(LIBHX_3.27)(64bit) \
-libHX_rtcheck.so(LIBHX_4.11)(64bit) \
-libHX_rtcheck.so(LIBHX_4.2)(64bit) \
-libHX_rtcheck.so(LIBHX_4.3)(64bit) \
-libHX_rtcheck.so(LIBHX_4.9)(64bit) \
 pkgconfig(libHX)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

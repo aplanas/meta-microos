@@ -14,18 +14,14 @@ xawtv:/usr/X11R6/lib/X11/fonts/misc/led-iso8859-1.bdf"
 
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXaw.so.7()(64bit) \
 libXmu.so.6()(64bit) \
 libXt.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdv.so.4()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libquicktime.so.0()(64bit) \
 libv4l2.so.0()(64bit)"
 

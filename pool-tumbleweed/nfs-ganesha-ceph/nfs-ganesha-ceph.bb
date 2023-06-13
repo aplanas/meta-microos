@@ -15,8 +15,7 @@ nfs-ganesha-ceph(aarch-64)"
 
 RDEPENDS:${PN} += "ceph-common \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcephfs.so.2()(64bit) \
 libganesha_nfsd.so.3.3()(64bit) \
 nfs-ganesha"

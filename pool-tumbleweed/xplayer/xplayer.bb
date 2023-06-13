@@ -144,12 +144,11 @@ gstreamer-plugins-base \
 gstreamer-plugins-good \
 iso-codes \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \
 libSM.so.6()(64bit) \
 libX11.so.6()(64bit) \
 libatk-1.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libclutter-1.0.so.0()(64bit) \
 libclutter-gst-3.0.so.0()(64bit) \
@@ -168,7 +167,6 @@ libgsttag-1.0.so.0()(64bit) \
 libgstvideo-1.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libpeas-1.0.so.0()(64bit) \

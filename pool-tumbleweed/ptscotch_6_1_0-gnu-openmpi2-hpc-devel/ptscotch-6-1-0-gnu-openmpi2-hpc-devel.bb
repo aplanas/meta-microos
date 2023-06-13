@@ -12,12 +12,10 @@ ptscotch_6_1_0-gnu-openmpi2-hpc-devel(aarch-64)"
 
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgfortran.so.5()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libptscotch_6_1_0-gnu-openmpi2-hpc \
 libz.so.1()(64bit) \
 openmpi2-gnu-hpc-devel"

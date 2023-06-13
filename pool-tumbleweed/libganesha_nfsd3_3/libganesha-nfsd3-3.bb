@@ -13,10 +13,8 @@ libganesha_nfsd3_3(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_1.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap.so.2()(64bit) \
 libcom_err.so.2()(64bit) \
 libdbus-1.so.3()(64bit) \
@@ -27,9 +25,7 @@ libkrb5.so.3()(64bit) \
 libkrb5.so.3(krb5_3_MIT)(64bit) \
 libnfsidmap.so.1()(64bit) \
 libntirpc.so.3.3()(64bit) \
-libntirpc.so.3.3(NTIRPC_3.3)(64bit) \
 liburcu-bp.so.8()(64bit) \
-libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit)"
+libuuid.so.1()(64bit)"
 
 inherit rpm

@@ -13,13 +13,9 @@ RPROVIDES:${PN} += "memleax \
 memleax(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdw.so.1()(64bit) \
-libdw.so.1(ELFUTILS_0.122)(64bit) \
 libelf.so.1()(64bit) \
-libelf.so.1(ELFUTILS_1.0)(64bit) \
-libelf.so.1(ELFUTILS_1.6)(64bit) \
 libunwind-aarch64.so.8()(64bit) \
 libunwind-ptrace.so.0()(64bit) \
 libunwind.so.8()(64bit)"

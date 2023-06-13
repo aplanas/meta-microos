@@ -13,12 +13,11 @@ libxfdashboard0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXcomposite.so.1()(64bit) \
 libXdamage.so.1()(64bit) \
 libXinerama.so.1()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libclutter-1.0.so.0()(64bit) \
 libcogl.so.20()(64bit) \
@@ -31,7 +30,6 @@ libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libwnck-3.so.0()(64bit) \
 libxfce4util.so.7()(64bit)"

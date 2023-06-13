@@ -15,8 +15,7 @@ ndctl(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcxl.so.1()(64bit) \
 libcxl.so.1(LIBCXL_1)(64bit) \
 libcxl.so.1(LIBCXL_2)(64bit) \
@@ -34,10 +33,8 @@ libdaxctl.so.1(LIBDAXCTL_8)(64bit) \
 libdaxctl.so.1(LIBDAXCTL_9)(64bit) \
 libiniparser.so.1()(64bit) \
 libjson-c.so.5()(64bit) \
-libjson-c.so.5(JSONC_0.14)(64bit) \
 libjson-c.so.5(JSONC_PRIVATE)(64bit) \
 libkeyutils.so.1()(64bit) \
-libkeyutils.so.1(KEYUTILS_0.3)(64bit) \
 libndctl.so.6()(64bit) \
 libndctl.so.6(LIBNDCTL_1)(64bit) \
 libndctl.so.6(LIBNDCTL_13)(64bit) \
@@ -60,7 +57,6 @@ libndctl.so.6(LIBNDCTL_3)(64bit) \
 libtraceevent.so.1()(64bit) \
 libtracefs.so.1()(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
 systemd"
 
 inherit rpm

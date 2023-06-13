@@ -27,7 +27,6 @@ qt5qmlimport(org.kde.plasma.platformcomponents.2)"
 
 RDEPENDS:${PN} += "kdeclarative-components \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \
 libGLESv2.so.2()(64bit) \
 libGLX.so.0()(64bit) \
@@ -55,13 +54,10 @@ libQt5Widgets.so.5(Qt_5)(64bit) \
 libQt5X11Extras.so.5()(64bit) \
 libQt5X11Extras.so.5(Qt_5)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.32)(64bit) \
+libc.so.6()(64bit) \
 libqt5-qtquickcontrols \
 libqt5-qtquickcontrols2 \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 libxcb-composite.so.0()(64bit) \
 libxcb-damage.so.0()(64bit) \
 libxcb-render.so.0()(64bit) \

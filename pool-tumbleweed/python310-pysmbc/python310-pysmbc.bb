@@ -18,11 +18,8 @@ python310-smbc \
 python3dist(pysmbc)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libsmbclient.so.0()(64bit) \
-libsmbclient.so.0(SMBCLIENT_0.1.0)(64bit) \
-libsmbclient.so.0(SMBCLIENT_0.5.0)(64bit) \
 python(abi)"
 
 inherit rpm

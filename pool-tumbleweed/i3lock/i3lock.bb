@@ -14,12 +14,10 @@ i3lock(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libev.so.4()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libxcb-image.so.0()(64bit) \
 libxcb-randr.so.0()(64bit) \
 libxcb-util.so.1()(64bit) \
@@ -28,8 +26,6 @@ libxcb-xkb.so.1()(64bit) \
 libxcb-xrm.so.0()(64bit) \
 libxcb.so.1()(64bit) \
 libxkbcommon-x11.so.0()(64bit) \
-libxkbcommon-x11.so.0(V_0.5.0)(64bit) \
-libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit)"
+libxkbcommon.so.0()(64bit)"
 
 inherit rpm

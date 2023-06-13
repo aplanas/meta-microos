@@ -14,9 +14,8 @@ RPROVIDES:${PN} += "perl(Net::Libproxy) \
 perl-Net-Libproxy \
 perl-Net-Libproxy(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libproxy.so.1()(64bit) \
-libproxy.so.1(LIBPROXY_0.4.16)(64bit) \
 libproxy1 \
 perl(:MODULE_COMPAT_5.36.0)"
 

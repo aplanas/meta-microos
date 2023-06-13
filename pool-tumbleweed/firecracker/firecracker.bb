@@ -11,10 +11,7 @@ RPM_HASH = "d8fe6736c58e767399dfedb06f2a7a26c4ae8e0c61097649c366b0824feb196c6dbf
 RPROVIDES:${PN} += "firecracker \
 firecracker(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
-libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
+libgcc_s.so.1()(64bit)"
 
 inherit rpm

@@ -14,8 +14,7 @@ libt3highlight2(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpcre2-8.so.0()(64bit) \
 libt3config.so.0()(64bit)"
 

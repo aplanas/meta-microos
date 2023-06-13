@@ -11,13 +11,11 @@ RPM_HASH = "0488f4aa8e568d900c85733a1b831997003e3c06f6c3d7dc490594384384eb37ff31
 
 RPROVIDES:${PN} += "libnscd \
 libnscd.so.1()(64bit) \
-libnscd.so.1(LIBNSCD_1.0)(64bit) \
 libnscd1 \
 libnscd1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

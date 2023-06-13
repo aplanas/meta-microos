@@ -93,7 +93,6 @@ libexactness_record.so.1()(64bit)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libBulletCollision.so.3.17()(64bit) \
 libBulletDynamics.so.3.17()(64bit) \
 libBulletSoftBody.so.3.17()(64bit) \
@@ -113,9 +112,8 @@ libXrandr.so.2()(64bit) \
 libXrender.so.1()(64bit) \
 libXss.so.1()(64bit) \
 libXtst.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libfontconfig.so.1()(64bit) \
@@ -123,8 +121,6 @@ libfreetype.so.6()(64bit) \
 libfribidi.so.0()(64bit) \
 libgbm.so.1()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgif.so.7()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
@@ -133,41 +129,16 @@ libgstreamer-1.0.so.0()(64bit) \
 libgstvideo-1.0.so.0()(64bit) \
 libharfbuzz.so.0()(64bit) \
 libinput.so.10()(64bit) \
-libinput.so.10(LIBINPUT_0.12.0)(64bit) \
-libinput.so.10(LIBINPUT_0.15.0)(64bit) \
-libinput.so.10(LIBINPUT_0.19.0)(64bit) \
-libinput.so.10(LIBINPUT_0.20.0)(64bit) \
-libinput.so.10(LIBINPUT_0.21.0)(64bit) \
-libinput.so.10(LIBINPUT_1.1)(64bit) \
-libinput.so.10(LIBINPUT_1.2)(64bit) \
-libinput.so.10(LIBINPUT_1.7)(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libluajit-5.1.so.2()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libmount.so.1()(64bit) \
-libmount.so.1(MOUNT_2.19)(64bit) \
-libmount.so.1(MOUNT_2.20)(64bit) \
 libopenjp2.so.7()(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
 libudev.so.1()(64bit) \
 libudev.so.1(LIBUDEV_183)(64bit) \
 libudev.so.1(LIBUDEV_199)(64bit) \
@@ -179,9 +150,7 @@ libwayland-server.so.0()(64bit) \
 libwebp.so.7()(64bit) \
 libwebpdemux.so.2()(64bit) \
 libxkbcommon-x11.so.0()(64bit) \
-libxkbcommon-x11.so.0(V_0.5.0)(64bit) \
 libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit) \
 libz.so.1()(64bit) \
 systemd"
 

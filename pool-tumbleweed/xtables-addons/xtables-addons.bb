@@ -45,8 +45,7 @@ RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libxtables.so.12()(64bit) \
 perl(Getopt::Long) \
 perl(Net::CIDR::Lite) \

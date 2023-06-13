@@ -26,8 +26,7 @@ libinfinoted-plugin-transformation-protection.so()(64bit)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdaemon.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -39,10 +38,6 @@ libinfinity-0.7.so.0()(64bit) \
 libinfinoted-plugin-manager-0.7.so.0()(64bit) \
 libinftext-0.7.so.0()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.23)(64bit) \
-libxml2.so.2(LIBXML2_2.6.8)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

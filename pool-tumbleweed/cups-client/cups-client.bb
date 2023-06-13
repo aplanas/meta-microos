@@ -17,14 +17,12 @@ RPROVIDES:${PN} += "cups-client \
 cups-client(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-client.so.3()(64bit) \
 libavahi-common.so.3()(64bit) \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libcups.so.2()(64bit) \
 libcups2 \
 libcupsimage2 \
-libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit)"
+libpam.so.0()(64bit)"
 
 inherit rpm

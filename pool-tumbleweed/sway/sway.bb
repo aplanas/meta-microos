@@ -12,25 +12,15 @@ RPROVIDES:${PN} += "sway \
 sway(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLESv2.so.2()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libevdev.so.2()(64bit) \
 libevdev.so.2(LIBEVDEV_1)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libinput.so.10()(64bit) \
-libinput.so.10(LIBINPUT_0.12.0)(64bit) \
-libinput.so.10(LIBINPUT_0.14.0)(64bit) \
-libinput.so.10(LIBINPUT_0.19.0)(64bit) \
-libinput.so.10(LIBINPUT_0.21.0)(64bit) \
-libinput.so.10(LIBINPUT_1.1)(64bit) \
-libinput.so.10(LIBINPUT_1.2)(64bit) \
-libinput.so.10(LIBINPUT_1.21)(64bit) \
-libinput.so.10(LIBINPUT_1.5)(64bit) \
 libjson-c.so.5()(64bit) \
-libjson-c.so.5(JSONC_0.14)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libpcre2-8.so.0()(64bit) \
@@ -42,8 +32,6 @@ libwlroots.so.11()(64bit) \
 libxcb-icccm.so.4()(64bit) \
 libxcb.so.1()(64bit) \
 libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit) \
-libxkbcommon.so.0(V_0.7.0)(64bit) \
 sway-branding \
 xdg-desktop-portal-wlr"
 

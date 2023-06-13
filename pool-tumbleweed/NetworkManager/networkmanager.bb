@@ -25,9 +25,8 @@ RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 NetworkManager-branding \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaudit.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -58,14 +57,10 @@ libnm.so.0(libnm_1_6_0)(64bit) \
 libnm.so.0(libnm_1_8_0)(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
 libpsl.so.5()(64bit) \
 libreadline.so.8()(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 libsmime3.so()(64bit) \
-libsmime3.so(NSS_3.2)(64bit) \
-libsmime3.so(NSS_3.4)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libudev.so.1()(64bit) \

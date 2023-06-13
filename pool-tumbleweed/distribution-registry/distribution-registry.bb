@@ -16,7 +16,7 @@ user(registry)"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/nologin \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 sysuser-shadow"
 
 inherit rpm

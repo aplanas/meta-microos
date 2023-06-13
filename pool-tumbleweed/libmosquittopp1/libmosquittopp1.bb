@@ -17,8 +17,6 @@ libmosquittopp1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libmosquitto.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

@@ -19,10 +19,9 @@ python311-libkdumpfile(aarch-64) \
 python3dist(libkdumpfile)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaddrxlat.so.3()(64bit) \
 libaddrxlat.so.3(LIBADDRXLAT_0)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libkdumpfile.so.10()(64bit) \
 libkdumpfile.so.10(LIBKDUMPFILE_0)(64bit) \
 python(abi)"

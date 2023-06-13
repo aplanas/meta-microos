@@ -12,9 +12,7 @@ connman-plugin-wireguard(aarch-64)"
 
 RDEPENDS:${PN} += "connman \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
-libmnl.so.0()(64bit) \
-libmnl.so.0(LIBMNL_1.0)(64bit)"
+libc.so.6()(64bit) \
+libmnl.so.0()(64bit)"
 
 inherit rpm

@@ -20,7 +20,6 @@ plplot-common \
 plplot-common(aarch-64)"
 
 RDEPENDS:${PN} += "libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libplplot.so.17()(64bit)"
 
 inherit rpm

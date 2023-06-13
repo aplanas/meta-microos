@@ -17,7 +17,7 @@ libavahi-glib1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libavahi-common.so.3()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit)"
 
 inherit rpm

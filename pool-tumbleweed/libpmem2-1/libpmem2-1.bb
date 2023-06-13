@@ -12,13 +12,11 @@ RPM_HASH = "cb064f07e617c228a79906bb28156f20132180a696c9338c2f3fe259564d39af6fc5
 
 RPROVIDES:${PN} += "libpmem2-1 \
 libpmem2-1(aarch-64) \
-libpmem2.so.1()(64bit) \
-libpmem2.so.1(LIBPMEM2_1.0)(64bit)"
+libpmem2.so.1()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdaxctl.so.1()(64bit) \
 libdaxctl.so.1(LIBDAXCTL_2)(64bit) \
 libndctl.so.6()(64bit) \

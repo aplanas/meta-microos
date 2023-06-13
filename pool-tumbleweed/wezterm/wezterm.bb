@@ -464,29 +464,19 @@ wezterm \
 wezterm(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11-xcb.so.1()(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfontconfig.so.1()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libwayland-client.so.0()(64bit) \
 libwayland-egl.so.1()(64bit) \
 libxcb-image.so.0()(64bit) \
 libxcb-util.so.1()(64bit) \
 libxcb.so.1()(64bit) \
 libxkbcommon-x11.so.0()(64bit) \
-libxkbcommon-x11.so.0(V_0.5.0)(64bit) \
 libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit) \
-libxkbcommon.so.0(V_0.6.0)(64bit) \
 libz.so.1()(64bit) \
 terminfo"
 

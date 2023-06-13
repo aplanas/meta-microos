@@ -12,7 +12,7 @@ xob(aarch-64)"
 
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libXrender.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libconfig.so.11()(64bit)"
 
 inherit rpm

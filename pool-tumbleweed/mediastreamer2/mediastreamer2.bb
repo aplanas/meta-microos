@@ -13,9 +13,8 @@ RPROVIDES:${PN} += "mediastreamer2 \
 mediastreamer2(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbctoolbox.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libmediastreamer.so.11()(64bit) \
 libortp.so.15()(64bit)"
 

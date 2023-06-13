@@ -15,18 +15,10 @@ pkgconfig(gusb)"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgusb.so.2()(64bit) \
-libgusb.so.2(LIBGUSB_0.1.0)(64bit) \
-libgusb.so.2(LIBGUSB_0.1.1)(64bit) \
-libgusb.so.2(LIBGUSB_0.1.7)(64bit) \
-libgusb.so.2(LIBGUSB_0.2.11)(64bit) \
-libgusb.so.2(LIBGUSB_0.2.2)(64bit) \
-libgusb.so.2(LIBGUSB_0.2.4)(64bit) \
-libgusb.so.2(LIBGUSB_0.2.9)(64bit) \
 libgusb2 \
 pkgconfig(gio-2.0) \
 pkgconfig(gobject-2.0) \

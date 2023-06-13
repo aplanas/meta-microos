@@ -26,8 +26,7 @@ RDEPENDS:${PN} += "(python39-tomli if python39-base < 3.11) \
 /usr/bin/python3.9 \
 c++_compiler \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 python(abi) \
 python39-devel \
 python39-packaging \

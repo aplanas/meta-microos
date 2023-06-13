@@ -17,8 +17,7 @@ openssl(cli) \
 ssl"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.50()(64bit) \
 libcrypto.so.50(LIBRESSL)(64bit) \
 libssl.so.53()(64bit) \

@@ -17,7 +17,6 @@ qt5qmlimport(org.kde.plasma.private.nanoshell.2)"
 RDEPENDS:${PN} += "kdeclarative-components \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Service.so.5()(64bit) \
 libKF5WaylandClient.so.5()(64bit) \
 libKF5WindowSystem.so.5()(64bit) \
@@ -29,12 +28,9 @@ libQt5Qml.so.5()(64bit) \
 libQt5Qml.so.5(Qt_5)(64bit) \
 libQt5Quick.so.5()(64bit) \
 libQt5Quick.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libqt5-qtgraphicaleffects \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 plasma-framework-components \
 plasma5-workspace \
 qt5qmlimport(QtGraphicalEffects.1) \

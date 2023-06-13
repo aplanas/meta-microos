@@ -15,17 +15,14 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 file \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libffi.so.8()(64bit) \
-libffi.so.8(LIBFFI_BASE_8.0)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libgirepository-1.0.so.1()(64bit) \
 libgirepository-1_0-1 \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 pcre2-tools \
 python(abi) \
 python3-xml"

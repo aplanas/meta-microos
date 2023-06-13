@@ -17,10 +17,9 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 device-mapper \
 dmraid \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbd_utils.so.2()(64bit) \
 libbd_utils2 \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdevmapper.so.1.03()(64bit) \
 libdevmapper.so.1.03(Base)(64bit) \
 libdevmapper.so.1.03(DM_1_02_97)(64bit) \

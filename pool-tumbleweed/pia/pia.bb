@@ -13,16 +13,14 @@ RPROVIDES:${PN} += "pia \
 pia(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXaw.so.7()(64bit) \
 libXext.so.6()(64bit) \
 libXt.so.6()(64bit) \
 libXv.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 tv-common"
 
 inherit rpm

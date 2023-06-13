@@ -85,7 +85,7 @@ ocamlx(GettextTranslate) \
 ocamlx(GettextTypes) \
 ocamlx(GettextUtils)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 ocaml(CamlinternalFormatBasics) \
 ocaml(CamomileDefaultConfig) \
 ocaml(CamomileDefaultConfig__) \

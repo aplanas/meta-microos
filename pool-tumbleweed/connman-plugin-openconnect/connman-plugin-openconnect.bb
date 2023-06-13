@@ -14,10 +14,8 @@ connman-plugin-openconnect(aarch-64)"
 RDEPENDS:${PN} += "connman \
 dbus-1 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libopenconnect.so.5()(64bit) \
-libopenconnect.so.5(OPENCONNECT_5.0)(64bit) \
 libopenconnect.so.5(OPENCONNECT_5_3)(64bit) \
 libopenconnect.so.5(OPENCONNECT_5_5)(64bit) \
 openconnect"

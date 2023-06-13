@@ -86,11 +86,8 @@ bundled(rust-crate:unicode-width) \
 bundled(rust-crate:version_check) \
 bundled(rust-crate:walkdir)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libm.so.6()(64bit)"
 
 inherit rpm

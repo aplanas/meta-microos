@@ -61,9 +61,8 @@ zmf2epub \
 zmf2odg"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libabw-0.1.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcdr-0.1.so.1()(64bit) \
 libe-book-0.1.so.1()(64bit) \
 libeot.so.0()(64bit) \
@@ -71,8 +70,6 @@ libepubgen-0.1.so.1()(64bit) \
 libetonyek-0.1.so.1()(64bit) \
 libfreehand-0.1.so.1()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgsf-1.so.114()(64bit) \
@@ -86,13 +83,6 @@ librevenge-stream-0.0.so.0()(64bit) \
 librvngabw-0.0.so.0()(64bit) \
 libstaroffice-0.0.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libvisio-0.1.so.1()(64bit) \
 libwpd-0.10.so.10()(64bit) \
 libwpg-0.3.so.3()(64bit) \

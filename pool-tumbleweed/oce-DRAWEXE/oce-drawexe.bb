@@ -13,6 +13,6 @@ RPROVIDES:${PN} += "oce-DRAWEXE \
 oce-DRAWEXE(aarch-64)"
 
 RDEPENDS:${PN} += "libTKDraw.so.11()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

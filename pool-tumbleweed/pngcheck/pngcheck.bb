@@ -18,7 +18,7 @@ RPM_HASH = "43cbb9eef2234dfe55afa85b9aef8c9fa7cf965793b285903b565401495166949bca
 RPROVIDES:${PN} += "pngcheck \
 pngcheck(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

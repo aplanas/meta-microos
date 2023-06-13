@@ -171,7 +171,7 @@ libHSword8-0.1.3-9uGjviso2af8K0EP8UmxRD-ghc9.4.5.so()(64bit) \
 libHSx509-1.7.7-6vFRDfbnKcXIbE0ZlEHitw-ghc9.4.5.so()(64bit) \
 libHSyesod-core-1.6.24.2-DExtrbWuaUvstmq3VZuwG-ghc9.4.5.so()(64bit) \
 libHSzlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk-ghc9.4.5.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit) \
 libz.so.1()(64bit)"

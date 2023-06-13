@@ -15,13 +15,9 @@ RPROVIDES:${PN} += "ruby-selinux \
 ruby-selinux(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libruby3.2.so.3.2()(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
-libselinux.so.1(LIBSELINUX_3.4)(64bit) \
-libselinux.so.1(LIBSELINUX_3.5)(64bit) \
 libselinux1 \
 ruby"
 

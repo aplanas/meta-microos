@@ -15,7 +15,6 @@ libdigikamgui.so.8.0.0()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \
 libKF5ConfigCore.so.5()(64bit) \
 libKF5ConfigGui.so.5()(64bit) \
@@ -38,7 +37,6 @@ libKPim5AkonadiContact.so.5()(64bit) \
 libMagick++-7.Q16HDRI.so.5()(64bit) \
 libMagickCore-7.Q16HDRI.so.10()(64bit) \
 libMagickWand-7.Q16HDRI.so.10()(64bit) \
-libMagickWand-7.Q16HDRI.so.10(VERS_10.0)(64bit) \
 libOpenGL.so.0()(64bit) \
 libQt5Concurrent.so.5()(64bit) \
 libQt5Concurrent.so.5(Qt_5)(64bit) \
@@ -69,40 +67,24 @@ libQt5Xml.so.5(Qt_5)(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libavcodec.so.59()(64bit) \
-libavcodec.so.59(LIBAVCODEC_59.37_SUSE)(64bit) \
 libavdevice.so.59()(64bit) \
-libavdevice.so.59(LIBAVDEVICE_59.7_SUSE)(64bit) \
 libavfilter.so.8()(64bit) \
-libavfilter.so.8(LIBAVFILTER_8.44_SUSE)(64bit) \
 libavformat.so.59()(64bit) \
-libavformat.so.59(LIBAVFORMAT_59.27_SUSE)(64bit) \
 libavutil.so.57()(64bit) \
-libavutil.so.57(LIBAVUTIL_57.28_SUSE)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libexiv2.so.27()(64bit) \
 libexpat.so.1()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_1.0)(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(GOMP_4.5)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit) \
 libgphoto2.so.6()(64bit) \
 libgphoto2_port.so.12()(64bit) \
 libgphoto2_port.so.12(LIBGPHOTO2_5_0)(64bit) \
 libheif.so.1()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 liblcms2.so.2()(64bit) \
 liblensfun.so.1()(64bit) \
 liblqr-1.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libmarblewidget-qt5.so.28()(64bit) \
 libopencv_core.so.407()(64bit) \
 libopencv_dnn.so.407()(64bit) \
@@ -112,21 +94,8 @@ libopencv_ml.so.407()(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.26)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libswresample.so.4.ff5()(64bit) \
-libswresample.so.4.ff5(LIBSWRESAMPLE_4.7_SUSE)(64bit) \
 libswscale.so.6()(64bit) \
-libswscale.so.6(LIBSWSCALE_6.7_SUSE)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

@@ -16,8 +16,7 @@ libebook-1_2-21(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcamel-1.2.so.64()(64bit) \
 libebook-contacts-1.2.so.4()(64bit) \
 libedata-book-1.2.so.27()(64bit) \
@@ -27,10 +26,7 @@ libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
 libsmime3.so()(64bit) \
-libsmime3.so(NSS_3.4)(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

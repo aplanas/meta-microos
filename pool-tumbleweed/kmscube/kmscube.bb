@@ -14,10 +14,9 @@ RPROVIDES:${PN} += "kmscube \
 kmscube(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \
 libGLESv2.so.2()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdrm.so.2()(64bit) \
 libgbm.so.1()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -28,8 +27,6 @@ libgstbase-1.0.so.0()(64bit) \
 libgstreamer-1.0.so.0()(64bit) \
 libgstvideo-1.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit)"
 

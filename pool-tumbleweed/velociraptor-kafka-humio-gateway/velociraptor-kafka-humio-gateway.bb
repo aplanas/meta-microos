@@ -15,6 +15,6 @@ velociraptor-kafka-humio-gateway \
 velociraptor-kafka-humio-gateway(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

@@ -11,6 +11,6 @@ RPM_HASH = "34dd09cfd5dcc5e5393080115c1b63328b5812c2028850526717f7fcbc57fbee866c
 RPROVIDES:${PN} += "linux_logo \
 linux_logo(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

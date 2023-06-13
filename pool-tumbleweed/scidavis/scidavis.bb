@@ -27,7 +27,6 @@ scidavis(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libGLU.so.1()(64bit) \
 libQt3Support.so.4()(64bit) \
@@ -35,25 +34,16 @@ libQtCore.so.4()(64bit) \
 libQtGui.so.4()(64bit) \
 libQtOpenGL.so.4()(64bit) \
 libQtSvg.so.4()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libgsl.so.23()(64bit) \
 libgslcblas.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libmuparser.so.2.2.6()(64bit) \
 libpthread.so.0()(64bit) \
-libpthread.so.0(GLIBC_2.17)(64bit) \
 libqwt.so.5()(64bit) \
 libqwtplot3d.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

@@ -16,17 +16,12 @@ xmp \
 xmp(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libpulse-simple.so.0()(64bit) \
 libpulse-simple.so.0(PULSE_0)(64bit) \
 libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
-libxmp.so.4()(64bit) \
-libxmp.so.4(XMP_4.0)(64bit) \
-libxmp.so.4(XMP_4.4)(64bit)"
+libxmp.so.4()(64bit)"
 
 inherit rpm

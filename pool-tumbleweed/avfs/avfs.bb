@@ -16,14 +16,11 @@ RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfuse.so.2()(64bit) \
-libfuse.so.2(FUSE_2.6)(64bit) \
 liblz.so.1()(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 libneon.so.27()(64bit) \
 libz.so.1()(64bit) \
 libzstd.so.1()(64bit)"

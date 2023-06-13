@@ -25,11 +25,10 @@ libmodi1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \
 libbfio.so.1(V_20221025)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcdata.so.1()(64bit) \
 libcdata.so.1(V_20230108)(64bit) \
 libcdirectory.so.1()(64bit) \
@@ -57,7 +56,6 @@ libfplist.so.1(V_20220116)(64bit) \
 libfvalue.so.1()(64bit) \
 libfvalue.so.1(V_20220120)(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 libuna.so.1()(64bit) \
 libuna.so.1(V_20220611)(64bit) \
 libz.so.1()(64bit)"

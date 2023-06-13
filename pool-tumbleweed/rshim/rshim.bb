@@ -13,16 +13,9 @@ RPROVIDES:${PN} += "rshim \
 rshim(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfuse.so.2()(64bit) \
-libfuse.so.2(FUSE_2.4)(64bit) \
-libfuse.so.2(FUSE_2.5)(64bit) \
-libfuse.so.2(FUSE_2.8)(64bit) \
 libpci.so.3()(64bit) \
-libpci.so.3(LIBPCI_3.0)(64bit) \
-libpci.so.3(LIBPCI_3.5)(64bit) \
-libpci.so.3(LIBPCI_3.8)(64bit) \
 libusb-1.0.so.0()(64bit)"
 
 inherit rpm

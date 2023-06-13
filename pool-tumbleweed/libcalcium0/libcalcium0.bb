@@ -17,10 +17,9 @@ libcalcium0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libantic.so.0()(64bit) \
 libarb.so.2()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libflint.so.17()(64bit) \
 libgmp.so.10()(64bit)"
 

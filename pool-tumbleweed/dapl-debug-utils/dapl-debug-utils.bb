@@ -12,9 +12,7 @@ dapl-debug-utils(aarch-64)"
 
 RDEPENDS:${PN} += "dapl-debug \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
-libdat2.so.2()(64bit) \
-libdat2.so.2(DAT_2.0)(64bit)"
+libc.so.6()(64bit) \
+libdat2.so.2()(64bit)"
 
 inherit rpm

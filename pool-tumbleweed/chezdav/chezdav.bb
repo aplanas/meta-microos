@@ -12,13 +12,11 @@ RPROVIDES:${PN} += "chezdav \
 chezdav(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-gobject.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libphodav-3.0.so.0()(64bit) \
-libphodav-3.0.so.0(LIBPHODAV1_0.0)(64bit) \
 libsoup-3.0.so.0()(64bit)"
 
 inherit rpm

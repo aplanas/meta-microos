@@ -13,21 +13,14 @@ gimp-plugin-dds(aarch-64)"
 
 RDEPENDS:${PN} += "gimp \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgimp-2.0.so.0()(64bit) \
 libgimpui-2.0.so.0()(64bit) \
 libgimpwidgets-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_1.0)(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(GOMP_4.5)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit) \
 libgtk-x11-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

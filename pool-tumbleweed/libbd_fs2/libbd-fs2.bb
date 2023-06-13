@@ -16,23 +16,14 @@ libblockdev-fs"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 device-mapper \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbd_part_err.so.2()(64bit) \
 libbd_utils.so.2()(64bit) \
 libbd_utils2 \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_2.15)(64bit) \
-libblkid.so.1(BLKID_2.17)(64bit) \
-libblkid.so.1(BLKID_2.21)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libmount.so.1()(64bit) \
-libmount.so.1(MOUNT_2.19)(64bit) \
-libmount.so.1(MOUNT_2.21)(64bit) \
-libmount.so.1(MOUNT_2.22)(64bit) \
-libmount.so.1(MOUNT_2.30)(64bit) \
 libparted-fs-resize.so.0()(64bit) \
-libparted-fs-resize.so.0(LIBPARTED_FS_RESIZE_0.0.0)(64bit) \
 libparted.so.2()(64bit)"
 
 inherit rpm

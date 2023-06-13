@@ -12,12 +12,7 @@ RPROVIDES:${PN} += "libfabric \
 libfabric(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
-libfabric.so.1()(64bit) \
-libfabric.so.1(FABRIC_1.0)(64bit) \
-libfabric.so.1(FABRIC_1.1)(64bit) \
-libfabric.so.1(FABRIC_1.3)(64bit) \
-libfabric.so.1(FABRIC_1.4)(64bit)"
+libc.so.6()(64bit) \
+libfabric.so.1()(64bit)"
 
 inherit rpm

@@ -12,12 +12,8 @@ RPROVIDES:${PN} += "python3-newt \
 python3-newt(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libnewt.so.0.52()(64bit) \
-libnewt.so.0.52(NEWT_0.52)(64bit) \
-libnewt.so.0.52(NEWT_0.52.13)(64bit) \
-libnewt.so.0.52(NEWT_0.52.6)(64bit) \
 newt \
 python(abi)"
 

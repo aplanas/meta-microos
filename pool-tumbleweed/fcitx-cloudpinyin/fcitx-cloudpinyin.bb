@@ -12,7 +12,7 @@ fcitx-cloudpinyin(aarch-64) \
 locale(fcitx:zh_CN;zh_SG)"
 
 RDEPENDS:${PN} += "fcitx \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcurl.so.4()(64bit)"
 
 inherit rpm

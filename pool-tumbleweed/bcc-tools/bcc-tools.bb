@@ -14,11 +14,9 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 audit \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbcc_bpf.so.0()(64bit) \
 libbpf.so.1()(64bit) \
-libbpf.so.1(LIBBPF_0.0.1)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 python3-bcc \
 python3-future"
 

@@ -15,9 +15,8 @@ pkgconfig(hypre)"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHYPRE_2_20_0-gnu-openmpi3-hpc \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libopenblas-gnu-hpc-devel \
 openmpi3-gnu-hpc-devel \
 superlu-gnu-hpc-devel"

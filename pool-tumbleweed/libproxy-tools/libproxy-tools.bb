@@ -13,10 +13,8 @@ RPROVIDES:${PN} += "libproxy-tools \
 libproxy-tools(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libproxy.so.1()(64bit) \
-libproxy.so.1(LIBPROXY_0.4.16)(64bit) \
 libproxy1"
 
 inherit rpm

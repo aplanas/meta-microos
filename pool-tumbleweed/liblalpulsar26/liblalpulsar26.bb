@@ -14,8 +14,7 @@ liblalpulsar26(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcfitsio.so.10()(64bit) \
 libfftw3.so.3()(64bit) \
 libfftw3f.so.3()(64bit) \
@@ -25,9 +24,6 @@ liblalframe.so.13()(64bit) \
 liblalinference.so.23()(64bit) \
 liblalsimulation.so.31()(64bit) \
 liblalsupport.so.14()(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

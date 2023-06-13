@@ -19,7 +19,6 @@ open-vm-tools-gui"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \
 libSM.so.6()(64bit) \
 libX11.so.6()(64bit) \
@@ -29,14 +28,11 @@ libXinerama.so.1()(64bit) \
 libXrandr.so.2()(64bit) \
 libXtst.so.6()(64bit) \
 libatkmm-1.6.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairomm-1.0.so.1()(64bit) \
 libdrm.so.2()(64bit) \
 libfuse3.so.3()(64bit) \
-libfuse3.so.3(FUSE_3.0)(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdkmm-3.0.so.1()(64bit) \
 libgio-2.0.so.0()(64bit) \
@@ -48,14 +44,7 @@ libgtkmm-3.0.so.1()(64bit) \
 libhgfs.so.0()(64bit) \
 libsigc-2.0.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libtirpc.so.3()(64bit) \
-libtirpc.so.3(TIRPC_0.3.0)(64bit) \
 libudev.so.1()(64bit) \
 libudev.so.1(LIBUDEV_183)(64bit) \
 libvmtools.so.0()(64bit) \

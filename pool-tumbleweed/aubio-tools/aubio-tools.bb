@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "aubio-tools \
 aubio-tools(aarch-64)"
 
 RDEPENDS:${PN} += "libaubio.so.5()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libjack.so.0()(64bit)"
 
 inherit rpm

@@ -17,10 +17,9 @@ gimp:/usr/lib64/gimp/2.0/plug-ins/pyconsole.py"
 RDEPENDS:${PN} += "/usr/bin/env \
 gimp \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbabl-0.1.so.0()(64bit) \
 libbabl-0.1.so.0(V0_1_0)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \
 libgegl-0.4.so.0()(64bit) \
 libgimp-2.0.so.0()(64bit) \

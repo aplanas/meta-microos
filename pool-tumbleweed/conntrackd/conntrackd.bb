@@ -17,16 +17,12 @@ RDEPENDS:${PN} += "/bin/sh \
 conntrack-tools \
 fillup \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libmnl.so.0()(64bit) \
-libmnl.so.0(LIBMNL_1.0)(64bit) \
 libnetfilter_conntrack.so.3()(64bit) \
 libnetfilter_cthelper.so.0()(64bit) \
-libnetfilter_cthelper.so.0(LIBNETFILTER_CTHELPER_1.0)(64bit) \
 libnetfilter_queue.so.1()(64bit) \
 libnfnetlink.so.0()(64bit) \
-libnfnetlink.so.0(NFNETLINK_1.0.1)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit)"
 

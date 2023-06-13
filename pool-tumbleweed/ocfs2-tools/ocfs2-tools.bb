@@ -19,21 +19,15 @@ e2fsprogs \
 fillup \
 glib2 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaio.so.1()(64bit) \
-libaio.so.1(LIBAIO_0.1)(64bit) \
-libaio.so.1(LIBAIO_0.4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcmap.so.4()(64bit) \
-libcmap.so.4(COROSYNC_CMAP_1.0)(64bit) \
 libcom_err.so.2()(64bit) \
 libdlm \
 libdlm_lt.so.3()(64bit) \
-libdlm_lt.so.3(V_4.1.0)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libreadline.so.8()(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
 modutils \
 net-tools"
 

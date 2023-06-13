@@ -14,8 +14,7 @@ osmo-sgsn(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcares.so.2()(64bit) \
 libgtp.so.6()(64bit) \
 libosmo-gsup-client.so.0()(64bit) \
@@ -23,14 +22,10 @@ libosmo-ranap.so.7()(64bit) \
 libosmo-sigtran.so.7()(64bit) \
 libosmocore.so.20()(64bit) \
 libosmoctrl.so.0()(64bit) \
-libosmoctrl.so.0(LIBOSMOCTRL_1.0)(64bit) \
 libosmogb.so.14()(64bit) \
-libosmogb.so.14(LIBOSMOGB_1.0)(64bit) \
 libosmogsm.so.18()(64bit) \
-libosmogsm.so.18(LIBOSMOGSM_1.0)(64bit) \
 libosmovty.so.9()(64bit) \
 libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit) \
 systemd"
 
 inherit rpm

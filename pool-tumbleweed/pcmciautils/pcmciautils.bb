@@ -19,7 +19,7 @@ pcmciautils \
 pcmciautils(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libsysfs.so.2()(64bit) \
 permissions"
 

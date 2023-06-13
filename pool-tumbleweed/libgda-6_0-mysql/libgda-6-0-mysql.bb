@@ -16,8 +16,7 @@ libgda-mysql \
 libgda-mysql-6.0.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgda-6.0.so.6.0.0()(64bit) \
 libgda-6_0-6_0_0 \
 libgio-2.0.so.0()(64bit) \

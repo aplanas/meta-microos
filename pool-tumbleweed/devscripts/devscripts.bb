@@ -97,7 +97,7 @@ RDEPENDS:${PN} += "/bin/bash \
 checkbashisms \
 dpkg \
 html2text \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 perl(:MODULE_COMPAT_5.36.0) \
 perl-File-HomeDir \
 perl-IPC-Run \

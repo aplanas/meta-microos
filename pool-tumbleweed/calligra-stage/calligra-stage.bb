@@ -25,7 +25,6 @@ mimehandler(application/x-kpresenter)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 calligra \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Archive.so.5()(64bit) \
 libKF5Completion.so.5()(64bit) \
 libKF5ConfigCore.so.5()(64bit) \
@@ -49,12 +48,10 @@ libQt5Svg.so.5()(64bit) \
 libQt5Svg.so.5(Qt_5)(64bit) \
 libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libetonyek-0.1.so.1()(64bit) \
 libflake.so.17()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libkomain.so.17()(64bit) \
 libkomsooxml.so.17()(64bit) \
 libkoodf.so.17()(64bit) \
@@ -68,20 +65,11 @@ libkowidgets.so.17()(64bit) \
 libkowidgetutils.so.17()(64bit) \
 libkundo2.so.17()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libodfgen-0.1.so.1()(64bit) \
 libphonon4qt5.so.4()(64bit) \
 librevenge-0.0.so.0()(64bit) \
 librevenge-stream-0.0.so.0()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.1)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

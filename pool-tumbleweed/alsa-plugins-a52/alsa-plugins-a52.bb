@@ -12,14 +12,9 @@ alsa-plugins-a52(aarch-64) \
 libasound_module_pcm_a52.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
 libavcodec.so.60()(64bit) \
-libavcodec.so.60(LIBAVCODEC_60.3_SUSE)(64bit) \
 libavutil.so.58()(64bit) \
-libavutil.so.58(LIBAVUTIL_58.2_SUSE)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

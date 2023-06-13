@@ -196,7 +196,7 @@ httpcomponents-client \
 httpcomponents-core \
 icu4j \
 jsch \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 lucene-analysis \
 lucene-analyzers-smartcn \
 lucene-core \

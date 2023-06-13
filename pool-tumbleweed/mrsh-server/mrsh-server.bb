@@ -12,13 +12,10 @@ mrsh-server(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libmunge.so.2()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libpam_misc.so.0()(64bit) \
-libpam_misc.so.0(LIBPAM_MISC_1.0)(64bit) \
 mrsh \
 tcpd"
 

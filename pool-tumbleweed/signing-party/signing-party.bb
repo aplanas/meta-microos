@@ -49,10 +49,8 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/sendmail \
 gpg \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libmd.so.0()(64bit) \
-libmd.so.0(LIBMD_0.0)(64bit) \
 perl \
 perl-GnuPG-Interface \
 perl-MIME-tools \

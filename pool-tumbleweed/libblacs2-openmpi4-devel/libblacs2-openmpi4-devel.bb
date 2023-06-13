@@ -14,9 +14,8 @@ libblacs2-openmpi4-devel(aarch-64)"
 
 RDEPENDS:${PN} += "blacs-devel-headers \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblacs2-openmpi4 \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libmpi.so.40()(64bit) \
 openmpi4-devel"
 

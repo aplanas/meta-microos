@@ -14,14 +14,12 @@ wannier90-openmpi2(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libblas.so.3()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgfortran.so.5()(64bit) \
 libgfortran.so.5(GFORTRAN_10)(64bit) \
 libgfortran.so.5(GFORTRAN_8)(64bit) \
 liblapack.so.3()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmpi_mpifh.so.20()(64bit)"
 
 inherit rpm

@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "gcc12-fortran \
 gcc12-fortran(aarch-64)"
 
 RDEPENDS:${PN} += "gcc12 \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libgfortran5 \
 libgmp.so.10()(64bit) \
 libisl.so.23()(64bit) \

@@ -14,10 +14,9 @@ liblto_plugin.so.0()(64bit)"
 
 RDEPENDS:${PN} += "/bin/sh \
 cross-arm-binutils \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libgmp.so.10()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libmpc.so.3()(64bit) \
 libmpfr.so.6()(64bit) \
 libz.so.1()(64bit) \

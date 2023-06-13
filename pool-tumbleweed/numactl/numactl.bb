@@ -12,14 +12,7 @@ RPROVIDES:${PN} += "numactl \
 numactl(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
-libnuma.so.1()(64bit) \
-libnuma.so.1(libnuma_1.1)(64bit) \
-libnuma.so.1(libnuma_1.2)(64bit) \
-libnuma.so.1(libnuma_1.3)(64bit) \
-libnuma.so.1(libnuma_1.4)(64bit) \
-libnuma.so.1(libnuma_1.5)(64bit) \
-libnuma.so.1(libnuma_1.6)(64bit)"
+libc.so.6()(64bit) \
+libnuma.so.1()(64bit)"
 
 inherit rpm

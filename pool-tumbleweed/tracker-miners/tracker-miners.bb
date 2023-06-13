@@ -42,10 +42,8 @@ tracker-miners(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_1.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcue.so.2()(64bit) \
 libexempi.so.8()(64bit) \
 libexif.so.12()(64bit) \
@@ -63,26 +61,16 @@ libgxps.so.2()(64bit) \
 libicui18n.so.73()(64bit) \
 libiptcdata.so.0()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libosinfo-1.0.so.0()(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.0.1)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.0.3)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.2.3)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.2.9)(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit) \
 libpoppler-glib.so.8()(64bit) \
 libseccomp.so.2()(64bit) \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
-libtiff.so.6(LIBTIFF_4.1)(64bit) \
 libtotem-plparser.so.18()(64bit) \
-libtotem-plparser.so.18(LIBTOTEM_PL_PARSER_MINI_1.0)(64bit) \
 libtracker-sparql-3.0.so.0()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 tracker \
 tracker-data-files"
 

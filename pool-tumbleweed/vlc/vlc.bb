@@ -202,7 +202,6 @@ vlc(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \
 libGL.so.1()(64bit) \
 libX11.so.6()(64bit) \
@@ -217,7 +216,7 @@ libavformat.so.58.76()(64bit) \
 libavformat.so.58.76(LIBAVFORMAT_58)(64bit) \
 libavutil.so.56.70()(64bit) \
 libavutil.so.56.70(LIBAVUTIL_56)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcaca.so.0()(64bit) \
 libcairo.so.2()(64bit) \
 libchromaprint.so.1()(64bit) \
@@ -225,36 +224,21 @@ libfontconfig.so.1()(64bit) \
 libfreetype.so.6()(64bit) \
 libfribidi.so.0()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libharfbuzz.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libnotify.so.4()(64bit) \
 libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
 librsvg-2.so.2()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.20)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libswscale.so.5.9()(64bit) \
 libswscale.so.5.9(LIBSWSCALE_5)(64bit) \
 libva-wayland.so.2()(64bit) \
 libva.so.2()(64bit) \
-libva.so.2(VA_API_0.33.0)(64bit) \
 libvlccore.so.9()(64bit) \
 libwayland-egl.so.1()(64bit) \
 libxcb-composite.so.0()(64bit) \

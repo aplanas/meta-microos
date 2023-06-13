@@ -50,11 +50,9 @@ libsiw-rdmav34.so()(64bit) \
 libvmw_pvrdma-rdmav34.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libefa1 \
 libibverbs.so.1()(64bit) \
-libibverbs.so.1(IBVERBS_1.1)(64bit) \
 libibverbs.so.1(IBVERBS_PRIVATE_34)(64bit) \
 libmana1 \
 libmlx4-1 \

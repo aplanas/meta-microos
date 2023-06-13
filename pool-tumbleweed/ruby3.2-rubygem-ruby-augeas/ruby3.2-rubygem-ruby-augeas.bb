@@ -17,16 +17,8 @@ rubygem(ruby:3.2.0:ruby-augeas:0.5.0)"
 
 RDEPENDS:${PN} += "augeas \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaugeas.so.0()(64bit) \
-libaugeas.so.0(AUGEAS_0.1.0)(64bit) \
-libaugeas.so.0(AUGEAS_0.10.0)(64bit) \
-libaugeas.so.0(AUGEAS_0.11.0)(64bit) \
-libaugeas.so.0(AUGEAS_0.12.0)(64bit) \
-libaugeas.so.0(AUGEAS_0.14.0)(64bit) \
-libaugeas.so.0(AUGEAS_0.16.0)(64bit) \
-libaugeas.so.0(AUGEAS_0.8.0)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
 libruby3.2.so.3.2()(64bit) \
 libxml2.so.2()(64bit) \

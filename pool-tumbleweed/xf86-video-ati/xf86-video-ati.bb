@@ -16,8 +16,7 @@ xf86-video-ati(aarch-64)"
 
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdrm_radeon.so.1()(64bit) \
 libgbm.so.1()(64bit) \
 libpciaccess.so.0()(64bit) \

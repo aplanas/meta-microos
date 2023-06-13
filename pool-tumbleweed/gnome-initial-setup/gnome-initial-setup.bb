@@ -17,11 +17,10 @@ user(gnome-initial-setup)"
 RDEPENDS:${PN} += "/bin/sh \
 gnome-getting-started-docs \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaccountsservice.so.0()(64bit) \
 libadwaita-1.so.0()(64bit) \
 libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libfontconfig.so.1()(64bit) \
 libgdk-3.so.0()(64bit) \
@@ -40,12 +39,9 @@ libgtk-4.so.1()(64bit) \
 libgweather-4.so.0()(64bit) \
 libibus-1.0.so.5()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libkrb5.so.3()(64bit) \
 libkrb5.so.3(krb5_3_MIT)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libnm.so.0()(64bit) \
 libnm.so.0(libnm_1_0_0)(64bit) \
 libnma-gtk4.so.0()(64bit) \
@@ -54,7 +50,6 @@ libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libpolkit-gobject-1.so.0()(64bit) \
 libpwquality.so.1()(64bit) \
-libpwquality.so.1(LIBPWQUALITY_1.0)(64bit) \
 librest-1.0.so.0()(64bit) \
 libsecret-1.so.0()(64bit) \
 libwebkitgtk-6.0.so.4()(64bit) \

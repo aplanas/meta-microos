@@ -16,12 +16,8 @@ sgpio:/{/usr/bin}/ledctl"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libpci.so.3()(64bit) \
-libpci.so.3(LIBPCI_3.0)(64bit) \
-libpci.so.3(LIBPCI_3.1)(64bit) \
-libpci.so.3(LIBPCI_3.5)(64bit) \
 libsgutils2-1.48.so.2()(64bit) \
 libudev.so.1()(64bit) \
 libudev.so.1(LIBUDEV_183)(64bit) \

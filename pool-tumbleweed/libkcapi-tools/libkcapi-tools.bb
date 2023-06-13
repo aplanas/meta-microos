@@ -12,13 +12,7 @@ libkcapi-tools(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
-libkcapi.so.1()(64bit) \
-libkcapi.so.1(LIBKCAPI_0.12.0)(64bit) \
-libkcapi.so.1(LIBKCAPI_0.14.0)(64bit) \
-libkcapi.so.1(LIBKCAPI_1.1.0)(64bit) \
-libkcapi.so.1(LIBKCAPI_1.3.0)(64bit) \
-libkcapi.so.1(LIBKCAPI_1.3.1)(64bit)"
+libc.so.6()(64bit) \
+libkcapi.so.1()(64bit)"
 
 inherit rpm

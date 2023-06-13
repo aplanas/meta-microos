@@ -21,25 +21,18 @@ mimehandler(application/x-doom-wad) \
 prboom"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libGLU.so.1()(64bit) \
 libSDL2-2.0.so.0()(64bit) \
-libSDL2-2.0.so.0(SUSE_2.0.5)(64bit) \
 libSDL2_image-2.0.so.0()(64bit) \
 libSDL2_mixer-2.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfluidsynth.so.3()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpcreposix.so.0()(64bit) \
 libportmidi.so.2()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 libvorbisfile.so.3()(64bit) \
 libz.so.1()(64bit)"
 

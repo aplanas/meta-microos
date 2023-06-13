@@ -12,16 +12,13 @@ clevis-udisks2(aarch-64)"
 
 RDEPENDS:${PN} += "clevis-luks \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaudit.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcryptsetup.so.12()(64bit) \
-libcryptsetup.so.12(CRYPTSETUP_2.0)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libjansson.so.4()(64bit) \
-libjansson.so.4(libjansson.so.4)(64bit) \
 libluksmeta.so.0()(64bit) \
 libudisks2.so.0()(64bit)"
 

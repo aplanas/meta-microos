@@ -11,11 +11,8 @@ RPM_HASH = "c778c4047203619f855472ea13b3623bd463f891c1aa3aa9eb0c96e756fea66b4c7c
 RPROVIDES:${PN} += "python39-semanage \
 python39-semanage(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libsemanage.so.2()(64bit) \
-libsemanage.so.2(LIBSEMANAGE_1.0)(64bit) \
-libsemanage.so.2(LIBSEMANAGE_1.1)(64bit) \
-libsemanage.so.2(LIBSEMANAGE_3.4)(64bit) \
 libsemanage2 \
 python(abi)"
 

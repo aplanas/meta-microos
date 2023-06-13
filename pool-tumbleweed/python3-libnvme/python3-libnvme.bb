@@ -14,8 +14,7 @@ RPROVIDES:${PN} += "python3-libnvme \
 python3-libnvme(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libnvme.so.1()(64bit) \
 libnvme.so.1(LIBNVME_1_0)(64bit) \
 libnvme.so.1(LIBNVME_1_2)(64bit) \

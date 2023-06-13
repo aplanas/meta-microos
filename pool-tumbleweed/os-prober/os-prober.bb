@@ -17,7 +17,7 @@ RDEPENDS:${PN} += "/bin/grep \
 /bin/sh \
 /sbin/modprobe \
 coreutils \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 udev \
 util-linux \
 util-linux-systemd"

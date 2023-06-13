@@ -18,8 +18,7 @@ RDEPENDS:${PN} += "(slurm-munge = 23.02.2 if munge) \
 /bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblz4.so.1()(64bit) \
 libreadline.so.8()(64bit) \
 libslurmfull.so()(64bit) \

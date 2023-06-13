@@ -12,6 +12,6 @@ RPM_HASH = "eec685ce4201cee39078f1f312e7f0ab51d0c637f153402975a1ba1ef60aaed1df30
 RPROVIDES:${PN} += "kubeseal \
 kubeseal(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

@@ -13,12 +13,9 @@ ykclient(aarch-64) \
 yubico-c-client"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libykclient.so.3()(64bit) \
 libykclient.so.3(Base)(64bit) \
-libykclient.so.3(YKCLIENT_2.12)(64bit) \
-libykclient.so.3(YKCLIENT_2.15)(64bit) \
 libykclient3"
 
 inherit rpm

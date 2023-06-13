@@ -15,27 +15,13 @@ RPROVIDES:${PN} += "pam_yubico \
 pam_yubico(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblber.so.2()(64bit) \
-liblber.so.2(OPENLDAP_2.200)(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
-libpam.so.0(LIBPAM_MODUTIL_1.1.3)(64bit) \
 libykclient.so.3()(64bit) \
 libykclient.so.3(Base)(64bit) \
-libykclient.so.3(YKCLIENT_2.12)(64bit) \
-libykclient.so.3(YKCLIENT_2.15)(64bit) \
 libykpers-1.so.1()(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.0)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.11)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.5)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.8)(64bit) \
-libykpers-1.so.1(LIBYKPERS_1.9)(64bit) \
-libyubikey.so.0()(64bit) \
-libyubikey.so.0(YUBIKEY_1.0)(64bit) \
-libyubikey.so.0(YUBIKEY_1.5)(64bit)"
+libyubikey.so.0()(64bit)"
 
 inherit rpm

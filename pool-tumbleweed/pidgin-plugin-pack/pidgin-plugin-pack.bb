@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "pidgin-plugin-pack \
 pidgin-plugin-pack(aarch-64) \
 pidgin-plugin_pack"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libenchant-2.so.2()(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \

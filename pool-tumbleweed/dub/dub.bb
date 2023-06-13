@@ -15,12 +15,10 @@ RPM_HASH = "4600ac490641b39d3f6125e2fdf6a479139decd7806f06700a76a15c08b3d94095cb
 RPROVIDES:${PN} += "dub \
 dub(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libdruntime-ldc-shared.so.102()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libphobos2-ldc-shared.so.102()(64bit)"
 
 inherit rpm

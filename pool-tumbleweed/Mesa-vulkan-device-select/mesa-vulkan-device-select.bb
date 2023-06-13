@@ -12,8 +12,7 @@ Mesa-vulkan-device-select(aarch-64) \
 libVkLayer_MESA_device_select.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.28)(64bit) \
+libc.so.6()(64bit) \
 libdrm.so.2()(64bit) \
 libwayland-client.so.0()(64bit) \
 libxcb-dri3.so.0()(64bit) \

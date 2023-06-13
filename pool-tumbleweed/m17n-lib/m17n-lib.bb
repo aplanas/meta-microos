@@ -12,11 +12,10 @@ RPROVIDES:${PN} += "m17n-lib \
 m17n-lib(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXaw.so.7()(64bit) \
 libXt.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgd.so.3()(64bit) \
 libm17n-core.so.0()(64bit) \
 libm17n-flt.so.0()(64bit) \

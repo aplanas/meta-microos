@@ -13,14 +13,13 @@ motif-devel(aarch-64) \
 openmotif-devel"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMrm.so.4()(64bit) \
 libMrm4 \
 libUil4 \
 libXm.so.4()(64bit) \
 libXm4 \
 libXt.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 pkgconfig(printproto) \
 pkgconfig(x11) \
 pkgconfig(xft) \

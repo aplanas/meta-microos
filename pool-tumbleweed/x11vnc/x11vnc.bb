@@ -31,7 +31,6 @@ RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 iproute2 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXdamage.so.1()(64bit) \
 libXext.so.6()(64bit) \
@@ -42,13 +41,10 @@ libXrandr.so.2()(64bit) \
 libXtst.so.6()(64bit) \
 libavahi-client.so.3()(64bit) \
 libavahi-common.so.3()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libvncclient.so.1()(64bit) \
 libvncserver.so.1()(64bit)"
 

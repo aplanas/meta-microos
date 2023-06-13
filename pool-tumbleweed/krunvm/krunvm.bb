@@ -11,11 +11,8 @@ RPROVIDES:${PN} += "krunvm \
 krunvm(aarch-64)"
 
 RDEPENDS:${PN} += "buildah \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3)(64bit) \
-libgcc_s.so.1(GCC_4.2.0)(64bit) \
 libkrun.so.1()(64bit) \
 libkrun1 \
 libm.so.6()(64bit)"

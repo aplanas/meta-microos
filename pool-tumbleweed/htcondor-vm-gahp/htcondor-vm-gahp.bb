@@ -16,21 +16,12 @@ RDEPENDS:${PN} += "/usr/bin/awk \
 htcondor \
 htcondor-classads \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libclassad.so.15()(64bit) \
 libcondor_utils_9_0_16.so()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.8)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
 libvirt \
-libvirt.so.0()(64bit) \
-libvirt.so.0(LIBVIRT_0.0.3)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.5.0)(64bit)"
+libvirt.so.0()(64bit)"
 
 inherit rpm

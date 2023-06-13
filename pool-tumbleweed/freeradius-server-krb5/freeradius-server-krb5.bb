@@ -12,7 +12,7 @@ freeradius-server-krb5 \
 freeradius-server-krb5(aarch-64)"
 
 RDEPENDS:${PN} += "freeradius-server \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcom_err.so.2()(64bit) \
 libkrb5.so.3()(64bit) \
 libkrb5.so.3(krb5_3_MIT)(64bit)"

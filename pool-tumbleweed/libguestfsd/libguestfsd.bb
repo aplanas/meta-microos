@@ -14,30 +14,16 @@ libguestfsd \
 libguestfsd(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \
-libacl.so.1(ACL_1.0)(64bit) \
 libaugeas.so.0()(64bit) \
-libaugeas.so.0(AUGEAS_0.1.0)(64bit) \
-libaugeas.so.0(AUGEAS_0.10.0)(64bit) \
-libaugeas.so.0(AUGEAS_0.11.0)(64bit) \
-libaugeas.so.0(AUGEAS_0.16.0)(64bit) \
-libaugeas.so.0(AUGEAS_0.22.0)(64bit) \
-libaugeas.so.0(AUGEAS_0.8.0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap.so.2()(64bit) \
 libhivex.so.0()(64bit) \
 libjansson.so.4()(64bit) \
-libjansson.so.4(libjansson.so.4)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libpcre2-8.so.0()(64bit) \
 librpm.so.9()(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
-libtirpc.so.3()(64bit) \
-libtirpc.so.3(TIRPC_0.3.0)(64bit)"
+libtirpc.so.3()(64bit)"
 
 inherit rpm

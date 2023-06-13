@@ -18,9 +18,8 @@ libcanberra-gtk3-module(aarch-64) \
 libcanberra-gtk3-module.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcanberra-gtk-module-common \
 libcanberra-gtk3.so.0()(64bit) \
 libgdk-3.so.0()(64bit) \

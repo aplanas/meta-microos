@@ -35,13 +35,12 @@ mimehandler(application/x-mate-theme-package)"
 RDEPENDS:${PN} += "gsettings-backend-dconf \
 gsettings-desktop-schemas \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXcursor.so.1()(64bit) \
 libXi.so.6()(64bit) \
 libXss.so.1()(64bit) \
 libappindicator3.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \
 libcanberra-gtk3.so.0()(64bit) \
@@ -57,8 +56,6 @@ libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmarco-private.so.2()(64bit) \
 libmate-desktop-2.so.17()(64bit) \
 libmate-slab.so.0()(64bit) \
@@ -70,8 +67,6 @@ libpangocairo-1.0.so.0()(64bit) \
 libpolkit-gobject-1.so.0()(64bit) \
 libxklavier.so.16()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.7.3)(64bit) \
 mate-control-center-branding"
 
 inherit rpm

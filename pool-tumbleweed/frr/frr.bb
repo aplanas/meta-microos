@@ -19,27 +19,19 @@ zebra"
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libfrr.so.0()(64bit) \
 libfrr_pb.so.0()(64bit) \
 libfrrcares.so.0()(64bit) \
 libfrrfpm_pb.so.0()(64bit) \
 libjson-c.so.5()(64bit) \
-libjson-c.so.5(JSONC_0.14)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmlag_pb.so.0()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libpam_misc.so.0()(64bit) \
-libpam_misc.so.0(LIBPAM_MISC_1.0)(64bit) \
 libprotobuf-c.so.1()(64bit) \
-libprotobuf-c.so.1(LIBPROTOBUF_C_1.3.0)(64bit) \
 libreadline.so.8()(64bit) \
-libreadline.so.8(READLINE_7.0)(64bit) \
 librtr.so.0()(64bit) \
 shadow"
 

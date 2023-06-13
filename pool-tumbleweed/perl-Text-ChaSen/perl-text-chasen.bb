@@ -13,7 +13,7 @@ perl-Text-ChaSen \
 perl-Text-ChaSen(aarch-64)"
 
 RDEPENDS:${PN} += "chasen \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 perl"
 
 inherit rpm

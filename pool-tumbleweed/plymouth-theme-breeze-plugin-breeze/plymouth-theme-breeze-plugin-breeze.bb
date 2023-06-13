@@ -13,9 +13,8 @@ RPM_HASH = "aff8dddd178391b0d56ed3a8f6067364fd103f452e0816654b277845fb8276af5efd
 RPROVIDES:${PN} += "plymouth-theme-breeze-plugin-breeze \
 plymouth-theme-breeze-plugin-breeze(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libply-splash-core.so.5()(64bit) \
 libply.so.5()(64bit)"
 

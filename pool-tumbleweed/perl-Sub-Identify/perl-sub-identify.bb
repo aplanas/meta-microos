@@ -29,7 +29,7 @@ RPROVIDES:${PN} += "perl(Sub::Identify) \
 perl-Sub-Identify \
 perl-Sub-Identify(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

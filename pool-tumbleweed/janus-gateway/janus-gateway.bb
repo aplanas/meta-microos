@@ -32,25 +32,18 @@ libjanus_wsevh.so.0()(64bit)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.60()(64bit) \
-libavcodec.so.60(LIBAVCODEC_60.3_SUSE)(64bit) \
 libavformat.so.60()(64bit) \
-libavformat.so.60(LIBAVFORMAT_60.3_SUSE)(64bit) \
 libavutil.so.58()(64bit) \
-libavutil.so.58(LIBAVUTIL_58.2_SUSE)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libconfig.so.11()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libcurl.so.4()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libjansson.so.4()(64bit) \
-libjansson.so.4(libjansson.so.4)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmicrohttpd.so.12()(64bit) \
 libnice.so.10()(64bit) \
 libogg.so.0()(64bit) \
@@ -59,7 +52,6 @@ libpaho-mqtt3as.so.1()(64bit) \
 libsofia-sip-ua.so.0()(64bit) \
 libsrtp.so.1()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libusrsctp.so.2()(64bit) \
 libwebsockets.so.19()(64bit) \
 libz.so.1()(64bit) \

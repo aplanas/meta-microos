@@ -16,7 +16,7 @@ metainfo(org.gnome.dspy.appdata.xml)"
 
 RDEPENDS:${PN} += "libadwaita-1.so.0()(64bit) \
 libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdspy-1.so.1()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

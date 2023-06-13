@@ -20,7 +20,7 @@ RPM_HASH = "f6564e364cb8cce1603228d4b6b40946dcba936dfbe75a6986f5ede5f431efa8eeef
 RPROVIDES:${PN} += "gst-plugins-ugly \
 gstreamer-plugins-ugly \
 gstreamer-plugins-ugly(aarch-64) \
-gstreamer1(decoder-application/vnd.rn-realmedia)()(64bit) \
+gstreamer1()(64bit) \
 gstreamer1(decoder-application/x-pn-realaudio)()(64bit) \
 gstreamer1(decoder-application/x-rdt)()(64bit) \
 gstreamer1(decoder-audio/AMR)()(64bit) \
@@ -67,9 +67,8 @@ patched_subset"
 
 RDEPENDS:${PN} += "gstreamer-plugins-base \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 liba52.so.0()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcdio.so.19()(64bit) \
 libcdio.so.19(CDIO_19)(64bit) \
 libdvdread.so.8()(64bit) \

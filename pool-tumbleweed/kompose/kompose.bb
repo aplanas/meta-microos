@@ -10,6 +10,6 @@ RPM_HASH = "424b94465eef3cab04fa043a2bb526db4edb61e8976e487f22fafc4fb5b9f87ba3e7
 RPROVIDES:${PN} += "kompose \
 kompose(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

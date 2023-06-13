@@ -192,16 +192,11 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/env \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgdiplus-devel \
 libglib-2_0-0 \
 libgmodule-2_0-0 \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.27)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libz.so.1()(64bit) \
 mono(Mono.Cecil) \
 mono(Mono.Profiler.Log) \

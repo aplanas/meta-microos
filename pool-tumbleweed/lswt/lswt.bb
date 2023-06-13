@@ -13,7 +13,7 @@ RPM_HASH = "b7b9ae404a400363e5cbb599faf65a78655032cb2cfad40ab77bc584001e627189ce
 RPROVIDES:${PN} += "lswt \
 lswt(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libwayland-client.so.0()(64bit)"
 
 inherit rpm

@@ -14,16 +14,12 @@ RPROVIDES:${PN} += "virt-sandbox \
 virt-sandbox(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libvirt-client \
 libvirt-gobject-1.0.so.0()(64bit) \
-libvirt-gobject-1.0.so.0(LIBVIRT_GOBJECT_0.0.8)(64bit) \
 libvirt-sandbox-1.0.so.5()(64bit) \
-libvirt-sandbox-1.0.so.5(LIBVIRT_SANDBOX_0.6.0)(64bit) \
-libvirt-sandbox-1.0.so.5(LIBVIRT_SANDBOX_0.6.1)(64bit) \
 libvirt-sandbox-1_0-5 \
 python3-gobject"
 

@@ -13,13 +13,9 @@ RPROVIDES:${PN} += "pam_u2f \
 pam_u2f(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libfido2.so.1()(64bit) \
-libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
-libpam.so.0(LIBPAM_MODUTIL_1.1.3)(64bit)"
+libpam.so.0()(64bit)"
 
 inherit rpm

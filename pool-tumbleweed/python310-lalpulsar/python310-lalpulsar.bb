@@ -12,8 +12,7 @@ python310-lalpulsar \
 python310-lalpulsar(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgsl.so.25()(64bit) \
 liblal.so.20()(64bit) \
 liblalpulsar.so.26()(64bit) \

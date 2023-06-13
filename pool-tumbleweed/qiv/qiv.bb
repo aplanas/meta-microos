@@ -42,11 +42,10 @@ qiv(aarch-64)"
 
 RDEPENDS:${PN} += "imlib2-loaders \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libImlib2.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libexif.so.12()(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \
@@ -55,12 +54,10 @@ libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 liblcms2.so.2()(64bit) \
 libmagic.so.1()(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
-libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit)"
+libtiff.so.6()(64bit)"
 
 inherit rpm

@@ -17,6 +17,6 @@ RPM_HASH = "c9ad37db7043a62b6b5c9d8d5cf9b049e4b2bb1b6e72a730294116d5ee1a6e0e967c
 RPROVIDES:${PN} += "polaris \
 polaris(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

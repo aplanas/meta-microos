@@ -24,7 +24,6 @@ gtk3-schema \
 gtk3-tools \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXcomposite.so.1()(64bit) \
 libXcursor.so.1()(64bit) \
@@ -36,7 +35,7 @@ libXinerama.so.1()(64bit) \
 libXrandr.so.2()(64bit) \
 libatk-1.0.so.0()(64bit) \
 libatk-bridge-2.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \
 libcolord.so.2()(64bit) \
@@ -51,15 +50,12 @@ libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libharfbuzz.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libpangoft2-1.0.so.0()(64bit) \
 libwayland-client.so.0()(64bit) \
 libwayland-cursor.so.0()(64bit) \
 libwayland-egl.so.1()(64bit) \
-libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_0.5.0)(64bit)"
+libxkbcommon.so.0()(64bit)"
 
 inherit rpm

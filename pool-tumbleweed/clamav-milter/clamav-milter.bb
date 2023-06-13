@@ -20,8 +20,7 @@ config(clamav-milter)"
 RDEPENDS:${PN} += "/bin/sh \
 clamav \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libclamav.so.9()(64bit) \
 libclamav.so.9(CLAMAV_PRIVATE)(64bit) \
 libmilter.so.1.0()(64bit)"

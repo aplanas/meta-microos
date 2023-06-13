@@ -25,15 +25,12 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libmagic.so.1()(64bit) \
 libmnl.so.0()(64bit) \
-libmnl.so.0(LIBMNL_1.0)(64bit) \
 libnetsnmp.so.40()(64bit) \
 libnetsnmpagent.so.40()(64bit) \
 libnetsnmpmibs.so.40()(64bit) \
@@ -46,7 +43,6 @@ libnl-genl-3.so.200()(64bit) \
 libnl-genl-3.so.200(libnl_3)(64bit) \
 libpcre2-8.so.0()(64bit) \
 libssl.so.3()(64bit) \
-libssl.so.3(OPENSSL_3.0.0)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libsystemd.so.0(LIBSYSTEMD_214)(64bit) \

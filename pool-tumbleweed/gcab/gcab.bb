@@ -16,14 +16,8 @@ RPROVIDES:${PN} += "gcab \
 gcab(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcab-1.0.so.0()(64bit) \
-libgcab-1.0.so.0(LIBGCAB1_0.0)(64bit) \
-libgcab-1.0.so.0(LIBGCAB1_0.2)(64bit) \
-libgcab-1.0.so.0(LIBGCAB1_0.5)(64bit) \
-libgcab-1.0.so.0(LIBGCAB1_0.6)(64bit) \
-libgcab-1.0.so.0(LIBGCAB1_1.4)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit)"

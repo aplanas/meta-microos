@@ -14,8 +14,8 @@ RPM_HASH = "04af61a1f8ca8fb6b0d9014514b00285f79305390df72f41c24e5ab820789775620e
 RPROVIDES:${PN} += "gst-plugins-good \
 gstreamer-plugins-good \
 gstreamer-plugins-good(aarch-64) \
+gstreamer1()(64bit) \
 gstreamer1(decoder-application/dash+xml)()(64bit) \
-gstreamer1(decoder-application/vnd.ms-sstr+xml)()(64bit) \
 gstreamer1(decoder-application/x-3gp)()(64bit) \
 gstreamer1(decoder-application/x-apetag)()(64bit) \
 gstreamer1(decoder-application/x-hls)()(64bit) \
@@ -57,7 +57,6 @@ gstreamer1(decoder-image/png)()(64bit) \
 gstreamer1(decoder-image/svg)()(64bit) \
 gstreamer1(decoder-image/svg+xml)()(64bit) \
 gstreamer1(decoder-image/tiff)()(64bit) \
-gstreamer1(decoder-image/vnd.wap.wbmp)()(64bit) \
 gstreamer1(decoder-image/x-MS-bmp)()(64bit) \
 gstreamer1(decoder-image/x-bitmap)()(64bit) \
 gstreamer1(decoder-image/x-bmp)()(64bit) \
@@ -479,17 +478,14 @@ metainfo(gstreamer-plugins-good.appdata.xml)"
 RDEPENDS:${PN} += "gstreamer \
 gstreamer-plugins-base \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \
 libX11.so.6()(64bit) \
 libXdamage.so.1()(64bit) \
 libXext.so.6()(64bit) \
 libXfixes.so.3()(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -510,10 +506,7 @@ libgsttag-1.0.so.0()(64bit) \
 libgstvideo-1.0.so.0()(64bit) \
 libgudev-1.0.so.0()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmp3lame.so.0()(64bit) \
 libmpg123.so.0()(64bit) \
 liborc-0.4.so.0()(64bit) \
@@ -523,18 +516,12 @@ libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
 libspeex.so.1()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
 libtag.so.1()(64bit) \
 libtwolame.so.0()(64bit) \
 libv4l2.so.0()(64bit) \
 libvpx.so.8()(64bit) \
 libwavpack.so.1()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.9.0)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

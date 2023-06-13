@@ -20,8 +20,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 bubblewrap \
 gsettings-desktop-schemas \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
@@ -30,14 +29,12 @@ libgnome-desktop-3_0-common \
 libgobject-2.0.so.0()(64bit) \
 libgtk-4.so.1()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libseccomp.so.2()(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libudev.so.1()(64bit) \
 libudev.so.1(LIBUDEV_183)(64bit) \
 libudev.so.1(LIBUDEV_196)(64bit) \
-libxkbregistry.so.0()(64bit) \
-libxkbregistry.so.0(V_1.0.0)(64bit)"
+libxkbregistry.so.0()(64bit)"
 
 inherit rpm

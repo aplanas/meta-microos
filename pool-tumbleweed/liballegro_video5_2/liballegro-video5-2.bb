@@ -18,13 +18,11 @@ liballegro_video5_2(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 liballegro.so.5.2()(64bit) \
 liballegro_audio.so.5.2()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libogg.so.0()(64bit) \
 libtheoradec.so.1()(64bit) \
-libtheoradec.so.1(libtheoradec_1.0)(64bit) \
 libvorbis.so.0()(64bit)"
 
 inherit rpm

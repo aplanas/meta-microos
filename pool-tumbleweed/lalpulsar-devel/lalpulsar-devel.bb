@@ -17,8 +17,7 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3.10 \
 /usr/bin/tclsh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcfitsio.so.10()(64bit) \
 libgsl.so.25()(64bit) \
 liblal.so.20()(64bit) \
@@ -29,8 +28,6 @@ liblalpulsar26 \
 liblalsimulation.so.31()(64bit) \
 liblalsupport.so.14()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 pkgconfig(cfitsio) \
 pkgconfig(fftw3) \
 pkgconfig(gsl) \

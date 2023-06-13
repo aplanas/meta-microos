@@ -10,29 +10,16 @@ RPM_HASH = "f5c73895a7a6a91b6bd55dfabd2a7a164653f6c5250945769789a799ef9f033b945b
 
 RPROVIDES:${PN} += "libqglib.so()(64bit) \
 libqglib.so(Qt_6)(64bit) \
-libqglib.so(Qt_6.0)(64bit) \
-libqglib.so(Qt_6.1)(64bit) \
-libqglib.so(Qt_6.2)(64bit) \
-libqglib.so(Qt_6.3)(64bit) \
-libqglib.so(Qt_6.4)(64bit) \
-libqglib.so(Qt_6.5)(64bit) \
-libqglib.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-networkinformation-glib \
 qt6-networkinformation-glib(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Core.so.6(Qt_6.5)(64bit) \
 libQt6Network.so.6()(64bit) \
-libQt6Network.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit)"
+libstdc++.so.6()(64bit)"
 
 inherit rpm

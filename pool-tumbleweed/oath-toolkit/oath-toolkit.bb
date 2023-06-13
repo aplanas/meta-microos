@@ -18,14 +18,8 @@ RPROVIDES:${PN} += "oath-toolkit \
 oath-toolkit(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liboath.so.0()(64bit) \
-liboath.so.0(LIBOATH_1.12.0)(64bit) \
-liboath.so.0(LIBOATH_1.2.0)(64bit) \
-liboath.so.0(LIBOATH_1.8.0)(64bit) \
-liboath.so.0(LIBOATH_2.6.0)(64bit) \
-libpskc.so.0()(64bit) \
-libpskc.so.0(LIBPSKC_2.0.0)(64bit)"
+libpskc.so.0()(64bit)"
 
 inherit rpm

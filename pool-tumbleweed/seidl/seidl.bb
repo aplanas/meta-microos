@@ -12,6 +12,6 @@ RPM_HASH = "5451e53b6d4449c5450702e65f44ecd660473c78375f8dbf193cb235064147e5f580
 RPROVIDES:${PN} += "seidl \
 seidl(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

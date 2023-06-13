@@ -12,17 +12,13 @@ RPROVIDES:${PN} += "qemu-vhost-user-gpu \
 qemu-vhost-user-gpu(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libepoxy.so.0()(64bit) \
 libgbm.so.1()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libnuma.so.1()(64bit) \
-libnuma.so.1(libnuma_1.2)(64bit) \
-libnuma.so.1(libnuma_1.3)(64bit) \
 libpixman-1.so.0()(64bit) \
 libvirglrenderer.so.1()(64bit)"
 

@@ -11,7 +11,7 @@ RPM_HASH = "c630c7b9a5c8ef7f3840f184073c9848b091db5933f933eb3810d104949dff384b94
 RPROVIDES:${PN} += "libpurple-tcl \
 libpurple-tcl(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libpurple \
 libtcl8.6.so()(64bit) \

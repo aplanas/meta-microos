@@ -16,18 +16,13 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 corosync \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcmap.so.4()(64bit) \
-libcmap.so.4(COROSYNC_CMAP_1.0)(64bit) \
 libcorosync_common.so.4()(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
 libssl3.so()(64bit) \
-libssl3.so(NSS_3.2)(64bit) \
 libvotequorum.so.8()(64bit) \
-libvotequorum.so.8(COROSYNC_VOTEQUORUM_1.0)(64bit) \
 mozilla-nss-tools"
 
 inherit rpm

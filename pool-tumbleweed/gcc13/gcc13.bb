@@ -21,7 +21,7 @@ cpp13 \
 glibc-devel \
 libasan8 \
 libatomic1 \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s1 \
 libgmp.so.10()(64bit) \
 libgomp1 \

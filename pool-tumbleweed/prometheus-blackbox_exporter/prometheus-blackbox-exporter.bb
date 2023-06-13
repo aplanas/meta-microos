@@ -13,7 +13,7 @@ prometheus-blackbox_exporter(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 group(prometheus) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 permissions \
 user(prometheus)"
 

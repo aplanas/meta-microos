@@ -10,6 +10,6 @@ RPM_HASH = "246dd2e92c031ede4bb9033d0a40fe227d1edb42e101b215b644ea65a2c509653f45
 RPROVIDES:${PN} += "ritchie-cli \
 ritchie-cli(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

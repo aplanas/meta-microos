@@ -13,7 +13,7 @@ group(docserv-aux) \
 user(docserv-aux)"
 
 RDEPENDS:${PN} += "/bin/sh \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 sysuser-shadow"
 
 inherit rpm

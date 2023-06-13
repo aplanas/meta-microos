@@ -14,39 +14,11 @@ RPROVIDES:${PN} += "python3-mlt \
 python3-mlt(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libmlt++-7.so.7()(64bit) \
-libmlt++-7.so.7(MLTPP_0.8.8)(64bit) \
-libmlt++-7.so.7(MLTPP_0.9.0)(64bit) \
-libmlt++-7.so.7(MLTPP_0.9.2)(64bit) \
-libmlt++-7.so.7(MLTPP_0.9.4)(64bit) \
-libmlt++-7.so.7(MLTPP_0.9.8)(64bit) \
-libmlt++-7.so.7(MLTPP_6.10.0)(64bit) \
-libmlt++-7.so.7(MLTPP_6.14.0)(64bit) \
-libmlt++-7.so.7(MLTPP_6.18.0)(64bit) \
-libmlt++-7.so.7(MLTPP_6.20.0)(64bit) \
-libmlt++-7.so.7(MLTPP_6.22.0)(64bit) \
-libmlt++-7.so.7(MLTPP_6.4.0)(64bit) \
-libmlt++-7.so.7(MLTPP_6.6.0)(64bit) \
-libmlt++-7.so.7(MLTPP_6.8.0)(64bit) \
-libmlt++-7.so.7(MLTPP_7.0.0)(64bit) \
-libmlt++-7.so.7(MLTPP_7.1.0)(64bit) \
-libmlt++-7.so.7(MLT_7.12.0)(64bit) \
-libmlt++-7.so.7(MLT_7.14.0)(64bit) \
-libmlt++-7.so.7(MLT_7.4.0)(64bit) \
-libmlt++-7.so.7(MLT_7.6.0)(64bit) \
 libmlt-7.so.7()(64bit) \
-libmlt-7.so.7(MLT_0.8.8)(64bit) \
-libmlt-7.so.7(MLT_0.9.10)(64bit) \
-libmlt-7.so.7(MLT_7.0.0)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 python(abi)"
 
 inherit rpm

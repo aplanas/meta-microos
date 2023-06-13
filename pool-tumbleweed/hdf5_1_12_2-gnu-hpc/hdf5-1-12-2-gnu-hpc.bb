@@ -17,8 +17,7 @@ hdf5_1_12_2-gnu-hpc(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libhdf5_1_12_2-gnu-hpc \
 libhdf5_cpp_1_12_2-gnu-hpc \
 libhdf5_fortran_1_12_2-gnu-hpc \

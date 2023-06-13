@@ -29,28 +29,20 @@ baresip-video(aarch-64)"
 
 RDEPENDS:${PN} += "baresip \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \
 libaom.so.3()(64bit) \
 libavcodec.so.60()(64bit) \
-libavcodec.so.60(LIBAVCODEC_60.3_SUSE)(64bit) \
 libavdevice.so.60()(64bit) \
-libavdevice.so.60(LIBAVDEVICE_60.1_SUSE)(64bit) \
 libavfilter.so.9()(64bit) \
-libavfilter.so.9(LIBAVFILTER_9.3_SUSE)(64bit) \
 libavformat.so.60()(64bit) \
-libavformat.so.60(LIBAVFORMAT_60.3_SUSE)(64bit) \
 libavutil.so.58()(64bit) \
-libavutil.so.58(LIBAVUTIL_58.2_SUSE)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgstreamer-1.0.so.0()(64bit) \
 libswresample.so.4()(64bit) \
-libswresample.so.4(LIBSWRESAMPLE_4.10_SUSE)(64bit) \
 libswscale.so.7()(64bit) \
-libswscale.so.7(LIBSWSCALE_7.1_SUSE)(64bit) \
 libvpx.so.8()(64bit)"
 
 inherit rpm

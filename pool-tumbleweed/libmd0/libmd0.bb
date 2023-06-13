@@ -12,13 +12,11 @@ RPM_NAME = "libmd0-1.0.4-1.7.aarch64.rpm"
 RPM_HASH = "76a60d7710751e4ebdbe96b0bf79036e25a563668dafe56342048c7503b13abadf9c381e78d8cd131a5d9aaf5766096a3038ff207c34aedadf6415a408a7de6c"
 
 RPROVIDES:${PN} += "libmd.so.0()(64bit) \
-libmd.so.0(LIBMD_0.0)(64bit) \
 libmd0 \
 libmd0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

@@ -18,13 +18,10 @@ libfftw3l_omp.so.3()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libfftw3.so.3()(64bit) \
 libfftw3f.so.3()(64bit) \
 libfftw3l.so.3()(64bit) \
-libgomp.so.1()(64bit) \
-libgomp.so.1(GOMP_4.0)(64bit) \
-libgomp.so.1(OMP_1.0)(64bit)"
+libgomp.so.1()(64bit)"
 
 inherit rpm

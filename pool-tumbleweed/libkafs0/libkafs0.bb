@@ -13,15 +13,10 @@ libkafs0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasn1.so.8()(64bit) \
-libasn1.so.8(HEIMDAL_ASN1_1.0)(64bit) \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libhcrypto.so.4()(64bit) \
-libhcrypto.so.4(HEIMDAL_CRYPTO_1.0)(64bit) \
 libkrb5.so.26()(64bit) \
-libkrb5.so.26(HEIMDAL_KRB5_2.0)(64bit) \
-libroken.so.18()(64bit) \
-libroken.so.18(HEIMDAL_ROKEN_1.0)(64bit)"
+libroken.so.18()(64bit)"
 
 inherit rpm

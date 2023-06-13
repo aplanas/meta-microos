@@ -18,16 +18,14 @@ xf86-input-synaptics(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 X11_ABI_XINPUT \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXi.so.6()(64bit) \
 libXtst.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libevdev.so.2()(64bit) \
 libevdev.so.2(LIBEVDEV_1)(64bit) \
 libevdev.so.2(LIBEVDEV_1_3)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 udev"
 
 inherit rpm

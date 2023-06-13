@@ -15,7 +15,6 @@ kio-extras5(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Activities.so.5()(64bit) \
 libKF5ActivitiesStats.so.1()(64bit) \
 libKF5Archive.so.5()(64bit) \
@@ -53,10 +52,8 @@ libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
 libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libimobiledevice-1.0.so.6()(64bit) \
 libkdsoap.so.2()(64bit) \
 libkioarchive.so.5()(64bit) \
@@ -64,26 +61,10 @@ libmtp.so.9()(64bit) \
 libphonon4qt5.so.4()(64bit) \
 libplist-2.0.so.3()(64bit) \
 libsmbclient.so.0()(64bit) \
-libsmbclient.so.0(SMBCLIENT_0.1.0)(64bit) \
-libsmbclient.so.0(SMBCLIENT_0.2.3)(64bit) \
-libsmbclient.so.0(SMBCLIENT_0.6.0)(64bit) \
 libssh.so.4()(64bit) \
 libssh.so.4(LIBSSH_4_5_0)(64bit) \
 libssh.so.4(LIBSSH_4_7_0)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.13)(64bit) \
-libstdc++.so.6(CXXABI_1.3.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.11)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.15)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.22)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.30)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.32)(64bit) \
 libtag.so.1()(64bit)"
 
 inherit rpm

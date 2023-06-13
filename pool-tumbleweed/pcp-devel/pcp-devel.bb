@@ -15,21 +15,8 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libpcp.so.3()(64bit) \
-libpcp.so.3(PCP_3.0)(64bit) \
-libpcp.so.3(PCP_3.14)(64bit) \
-libpcp.so.3(PCP_3.2)(64bit) \
-libpcp.so.3(PCP_3.21)(64bit) \
-libpcp.so.3(PCP_3.22)(64bit) \
-libpcp.so.3(PCP_3.3)(64bit) \
-libpcp.so.3(PCP_3.7)(64bit) \
-libpcp_pmda.so.3()(64bit) \
-libpcp_pmda.so.3(PCP_PMDA_3.0)(64bit) \
-libpcp_pmda.so.3(PCP_PMDA_3.1)(64bit) \
-libpcp_pmda.so.3(PCP_PMDA_3.3)(64bit) \
-libpcp_pmda.so.3(PCP_PMDA_3.7)(64bit) \
-libpcp_pmda.so.3(PCP_PMDA_3.9)(64bit)"
+libpcp_pmda.so.3()(64bit)"
 
 inherit rpm

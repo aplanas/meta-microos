@@ -13,7 +13,7 @@ RPM_HASH = "b0a430a6c03e88ec6821036afefe5476acb4431153c67a53f6a83c11952b3d147ee7
 RPROVIDES:${PN} += "mpv-mpris \
 mpv-mpris(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit)"
 

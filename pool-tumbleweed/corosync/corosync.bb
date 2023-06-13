@@ -16,28 +16,22 @@ RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcfg.so.6()(64bit) \
-libcfg.so.6(COROSYNC_CFG_0.82)(64bit) \
 libcfg6 \
 libcmap.so.4()(64bit) \
-libcmap.so.4(COROSYNC_CMAP_1.0)(64bit) \
 libcmap4 \
 libcorosync_common.so.4()(64bit) \
 libcorosync_common4 \
 libcpg.so.4()(64bit) \
-libcpg.so.4(COROSYNC_CPG_1.0)(64bit) \
 libcpg4 \
 libqb.so.100()(64bit) \
 libquorum.so.5()(64bit) \
-libquorum.so.5(COROSYNC_QUORUM_1.0)(64bit) \
 libquorum5 \
 libsam4 \
 libtotem_pg.so.5()(64bit) \
 libtotem_pg5 \
 libvotequorum.so.8()(64bit) \
-libvotequorum.so.8(COROSYNC_VOTEQUORUM_1.0)(64bit) \
 libvotequorum8 \
 mozilla-nss-tools"
 

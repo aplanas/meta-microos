@@ -12,7 +12,7 @@ libbssl_wrapper_lib0 \
 libbssl_wrapper_lib0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
 libstdc++.so.6()(64bit)"
 

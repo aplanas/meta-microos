@@ -12,7 +12,7 @@ fcitx-googlepinyin(aarch-64) \
 locale(fcitx:zh_CN;zh_SG)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgooglepinyin.so.0()(64bit)"
 
 inherit rpm

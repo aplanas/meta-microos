@@ -19,9 +19,8 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 allegro44 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 liballeg4_4 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 pkgconfig(x11) \
 pkgconfig(xcursor) \
 pkgconfig(xext) \

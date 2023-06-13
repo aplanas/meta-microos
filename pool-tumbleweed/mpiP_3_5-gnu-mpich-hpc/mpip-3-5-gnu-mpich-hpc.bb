@@ -21,10 +21,8 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libunwind.so.8()(64bit) \
 lua-lmod \
 mpich-gnu-hpc"

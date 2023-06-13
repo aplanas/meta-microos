@@ -13,8 +13,7 @@ libcapi20-mod_misdn(aarch-64)"
 
 RDEPENDS:${PN} += "capi4linux \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcapi20.so.3()(64bit)"
 
 inherit rpm

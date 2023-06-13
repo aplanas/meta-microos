@@ -113,8 +113,7 @@ eclipse-swt \
 java-headless \
 javapackages-filesystem \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfluidsynth.so.3()(64bit) \
 libjack.so.0()(64bit) \
 mvn(com.itextpdf.tool:xmlworker) \

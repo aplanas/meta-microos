@@ -12,7 +12,6 @@ libfrr_pb0 \
 libfrr_pb0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libprotobuf-c.so.1()(64bit) \
-libprotobuf-c.so.1(LIBPROTOBUF_C_1.0.0)(64bit)"
+libprotobuf-c.so.1()(64bit)"
 
 inherit rpm

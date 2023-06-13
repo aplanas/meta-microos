@@ -11,11 +11,9 @@ RPROVIDES:${PN} += "texlive-ps2pk-bin \
 texlive-ps2pk-bin(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libkpathsea.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 texlive-ps2pk"
 
 inherit rpm

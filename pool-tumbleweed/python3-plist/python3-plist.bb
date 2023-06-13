@@ -13,8 +13,7 @@ RPROVIDES:${PN} += "python3-plist \
 python3-plist(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libplist-2.0.so.3()(64bit) \
 libplist-2_0-3 \
 libpython3.10.so.1.0()(64bit) \

@@ -10,11 +10,9 @@ RPM_HASH = "a5d6109ec621e8e5a031f7ed36ce2c7697eccf21e618519b49f878022352a36599a9
 RPROVIDES:${PN} += "lighttpd-mod_authn_ldap \
 lighttpd-mod_authn_ldap(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 liblber.so.2()(64bit) \
-liblber.so.2(OPENLDAP_2.200)(64bit) \
 libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit) \
 lighttpd"
 
 inherit rpm

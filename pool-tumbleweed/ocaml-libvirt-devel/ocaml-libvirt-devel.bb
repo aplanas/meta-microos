@@ -16,35 +16,8 @@ ocamlfind(libvirt) \
 ocamlx(Libvirt) \
 ocamlx(Libvirt_version)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libvirt.so.0()(64bit) \
-libvirt.so.0(LIBVIRT_0.0.3)(64bit) \
-libvirt.so.0(LIBVIRT_0.0.5)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.1)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.4)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.5)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.9)(64bit) \
-libvirt.so.0(LIBVIRT_0.2.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.2.1)(64bit) \
-libvirt.so.0(LIBVIRT_0.2.3)(64bit) \
-libvirt.so.0(LIBVIRT_0.3.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.3.2)(64bit) \
-libvirt.so.0(LIBVIRT_0.3.3)(64bit) \
-libvirt.so.0(LIBVIRT_0.4.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.4.1)(64bit) \
-libvirt.so.0(LIBVIRT_0.4.2)(64bit) \
-libvirt.so.0(LIBVIRT_0.5.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.6.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.7.1)(64bit) \
-libvirt.so.0(LIBVIRT_0.7.7)(64bit) \
-libvirt.so.0(LIBVIRT_0.8.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.10)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.3)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.8)(64bit) \
-libvirt.so.0(LIBVIRT_1.2.7)(64bit) \
-libvirt.so.0(LIBVIRT_1.2.8)(64bit) \
 ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Array) \

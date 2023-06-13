@@ -13,13 +13,9 @@ yp-tools(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libnsl.so.3()(64bit) \
-libnsl.so.3(LIBNSL_2.0)(64bit) \
-libtirpc.so.3()(64bit) \
-libtirpc.so.3(TIRPC_0.3.0)(64bit)"
+libtirpc.so.3()(64bit)"
 
 inherit rpm

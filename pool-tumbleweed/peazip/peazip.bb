@@ -45,7 +45,7 @@ peazip(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 libQt5Pas.so.1()(64bit) \
 libX11.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 p7zip-full \
 upx"
 

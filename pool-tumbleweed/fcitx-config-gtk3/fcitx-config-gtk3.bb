@@ -18,8 +18,7 @@ locale(libgnome:ko;zh_CN;zh_SG)"
 
 RDEPENDS:${PN} += "fcitx \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfcitx-config.so.4()(64bit) \
 libfcitx-core.so.0()(64bit) \
 libfcitx-gclient.so.1()(64bit) \

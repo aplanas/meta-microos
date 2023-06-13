@@ -139,7 +139,6 @@ xterm-bin(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \
 libX11.so.6()(64bit) \
 libXaw.so.7()(64bit) \
@@ -148,15 +147,11 @@ libXft.so.2()(64bit) \
 libXmu.so.6()(64bit) \
 libXpm.so.4()(64bit) \
 libXt.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfontconfig.so.1()(64bit) \
 libfreetype.so.6()(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.1.20000708)(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.7.20081102)(64bit) \
 libutempter.so.0()(64bit) \
-libutempter.so.0(UTEMPTER_1.1)(64bit) \
 xterm-resize"
 
 inherit rpm

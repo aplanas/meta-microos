@@ -10,6 +10,6 @@ RPM_HASH = "7934e7604165401958cfe2dafd26b67c87ce48a3444da0addce9428beccb546b740d
 RPROVIDES:${PN} += "starboard \
 starboard(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

@@ -17,22 +17,15 @@ RPROVIDES:${PN} += "libmirage-3_2 \
 libmirage-3_2(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 libmirage.so.11()(64bit) \
 libsamplerate.so.0()(64bit) \
-libsamplerate.so.0(libsamplerate.so.0.0)(64bit) \
-libsamplerate.so.0(libsamplerate.so.0.1)(64bit) \
 libsndfile.so.1()(64bit) \
-libsndfile.so.1(libsndfile.so.1.0)(64bit) \
-libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.2.4)(64bit) \
-libz.so.1(ZLIB_1.2.3.4)(64bit)"
+libz.so.1()(64bit)"
 
 inherit rpm

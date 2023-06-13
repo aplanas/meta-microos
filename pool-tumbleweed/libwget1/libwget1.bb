@@ -17,13 +17,11 @@ libwget1(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbrotlidec.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libidn2.so.0()(64bit) \
-libidn2.so.0(IDN2_0.0.0)(64bit) \
 libnghttp2.so.14()(64bit) \
 libpsl.so.5()(64bit) \
 libz.so.1()(64bit) \

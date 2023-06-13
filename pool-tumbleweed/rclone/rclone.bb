@@ -12,6 +12,6 @@ RPM_HASH = "196bb3814b5168ef977af821773724273a8bc4935a1970f8cc707eda36b228221530
 RPROVIDES:${PN} += "rclone \
 rclone(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

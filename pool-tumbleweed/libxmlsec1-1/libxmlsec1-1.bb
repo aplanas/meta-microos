@@ -14,15 +14,9 @@ libxmlsec1-1(aarch-64) \
 libxmlsec1.so.1()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libltdl.so.7()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.12)(64bit) \
-libxml2.so.2(LIBXML2_2.6.2)(64bit) \
-libxslt.so.1()(64bit) \
-libxslt.so.1(LIBXML2_1.0.11)(64bit) \
-libxslt.so.1(LIBXML2_1.0.22)(64bit)"
+libxslt.so.1()(64bit)"
 
 inherit rpm

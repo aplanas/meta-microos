@@ -14,6 +14,6 @@ RPM_HASH = "6046ca4698929d2fb4061eb3671e86e494f76d53789d3b1153754db52b45a2acb2e3
 RPROVIDES:${PN} += "stern \
 stern(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

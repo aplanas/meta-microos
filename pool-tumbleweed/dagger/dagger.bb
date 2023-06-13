@@ -14,6 +14,6 @@ RPM_HASH = "b1b33979930ca186052d9360d9a02ad6779ff489b14cb137db476fd8462a9e89e94c
 RPROVIDES:${PN} += "dagger \
 dagger(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

@@ -20,22 +20,15 @@ libguestfs(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libconfig.so.11()(64bit) \
 libfuse.so.2()(64bit) \
-libfuse.so.2(FUSE_2.6)(64bit) \
-libfuse.so.2(FUSE_2.8)(64bit) \
 libguestfs.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libreadline.so.8()(64bit) \
 libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit) \
 libtirpc.so.3()(64bit) \
-libtirpc.so.3(TIRPC_0.3.0)(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 supermin"
 
 inherit rpm

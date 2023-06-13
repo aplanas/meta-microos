@@ -105,7 +105,7 @@ bundled(golang(golang.org/x/sys/windows)) \
 config(amazon-ecs-init)"
 
 RDEPENDS:${PN} += "/bin/sh \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 systemd"
 
 inherit rpm

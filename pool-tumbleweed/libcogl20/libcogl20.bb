@@ -17,14 +17,13 @@ libcogl20(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 Mesa \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXdamage.so.1()(64bit) \
 libXext.so.6()(64bit) \
 libXfixes.so.3()(64bit) \
 libXrandr.so.2()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libdrm.so.2()(64bit) \
 libgbm.so.1()(64bit) \
@@ -33,7 +32,6 @@ libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 libwayland-client.so.0()(64bit) \
 libwayland-egl.so.1()(64bit) \
 libwayland-server.so.0()(64bit)"

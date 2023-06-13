@@ -10,10 +10,7 @@ RPM_HASH = "8801a29a85d954facba7a79fa231afb1f92387c0144a291612e4fb4678619ecffa0d
 RPROVIDES:${PN} += "ocaml-menhir \
 ocaml-menhir(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
+libm.so.6()(64bit)"
 
 inherit rpm

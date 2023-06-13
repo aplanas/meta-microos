@@ -10,6 +10,6 @@ RPM_HASH = "bc5b290c5bdf082a84a5c3fe225c983f47bd83dc7c7ef07e0fc6928e4b4e70dc593d
 RPROVIDES:${PN} += "qprint \
 qprint(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

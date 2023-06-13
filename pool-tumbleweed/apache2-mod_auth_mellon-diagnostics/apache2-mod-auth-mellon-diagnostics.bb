@@ -13,10 +13,8 @@ apache2-mod_auth_mellon-diagnostics(aarch-64)"
 
 RDEPENDS:${PN} += "apache2-mod_auth_mellon \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libcurl.so.4()(64bit) \
 libglib-2.0.so.0()(64bit) \
 liblasso.so.3()(64bit)"

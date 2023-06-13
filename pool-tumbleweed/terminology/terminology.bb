@@ -15,8 +15,7 @@ terminology(aarch-64)"
 RDEPENDS:${PN} += "efl \
 elementary \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libecore.so.1()(64bit) \
 libecore_con.so.1()(64bit) \
 libecore_evas.so.1()(64bit) \
@@ -34,7 +33,6 @@ libemotion.so.1()(64bit) \
 libethumb_client.so.1()(64bit) \
 libevas.so.1()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
 terminology-theme-dft"
 
 inherit rpm

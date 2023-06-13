@@ -12,13 +12,12 @@ thunar-font-manager(aarch-64)"
 
 RDEPENDS:${PN} += "font-manager-common \
 font-viewer \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libfontmanager.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libjson-glib-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0(libjson-glib-1.0.so.0)(64bit) \
 libthunarx-3.so.0()(64bit)"
 
 inherit rpm

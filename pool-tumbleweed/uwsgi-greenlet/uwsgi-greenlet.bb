@@ -13,7 +13,7 @@ RPM_HASH = "8ab3609debfa0e2a8c6cbfc4eb4e1a6bd7209c70fb6de0b187221d0f594388ef7ca7
 RPROVIDES:${PN} += "uwsgi-greenlet \
 uwsgi-greenlet(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 uwsgi \
 uwsgi-python3"
 

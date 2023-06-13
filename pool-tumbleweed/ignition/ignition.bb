@@ -22,10 +22,6 @@ RDEPENDS:${PN} += "/bin/bash \
 dracut \
 ignition-dracut-grub2 \
 libblkid.so.1()(64bit) \
-libblkid.so.1(BLKID_1.0)(64bit) \
-libblkid.so.1(BLKID_2.15)(64bit) \
-libblkid.so.1(BLKID_2.17)(64bit) \
-libblkid.so.1(BLKID_2.18)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

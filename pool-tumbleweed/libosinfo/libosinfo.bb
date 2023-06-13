@@ -13,26 +13,11 @@ RPROVIDES:${PN} += "libosinfo \
 libosinfo(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libosinfo-1.0.so.0()(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.0.1)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.0.3)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.1.0)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.2.0)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.2.1)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.2.10)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.2.12)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.2.2)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.2.3)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_0.2.9)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_1.10.0)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_1.3.0)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_1.5.0)(64bit) \
-libosinfo-1.0.so.0(LIBOSINFO_1.6.0)(64bit) \
 osinfo-db"
 
 inherit rpm

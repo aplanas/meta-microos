@@ -13,40 +13,26 @@ sssd-dbus(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libdhash.so.1()(64bit) \
-libdhash.so.1(DHASH_0.4.3)(64bit) \
 libifp_iface.so()(64bit) \
-libifp_iface.so(V_2.9.0)(64bit) \
 libldb.so.2()(64bit) \
-libldb.so.2(LDB_0.9.10)(64bit) \
 libpopt.so.0()(64bit) \
 libpopt.so.0(LIBPOPT_0)(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 libsss_cert.so()(64bit) \
-libsss_cert.so(V_2.9.0)(64bit) \
 libsss_child.so()(64bit) \
-libsss_child.so(V_2.9.0)(64bit) \
 libsss_debug.so()(64bit) \
-libsss_debug.so(V_2.9.0)(64bit) \
 libsss_iface.so()(64bit) \
-libsss_iface.so(V_2.9.0)(64bit) \
 libsss_sbus.so()(64bit) \
-libsss_sbus.so(V_2.9.0)(64bit) \
 libsss_util.so()(64bit) \
-libsss_util.so(V_2.9.0)(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit) \
 libtdb.so.1()(64bit) \
-libtdb.so.1(TDB_1.2.1)(64bit) \
 libtevent.so.0()(64bit) \
-libtevent.so.0(TEVENT_0.9.9)(64bit) \
 sssd"
 
 inherit rpm

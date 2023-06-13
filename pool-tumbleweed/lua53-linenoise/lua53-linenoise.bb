@@ -15,7 +15,7 @@ RPM_HASH = "bc8f29dd5948606256f2046c6761bf1a9146e6dc67b10df0c95378142505a1d0617c
 RPROVIDES:${PN} += "lua53-linenoise \
 lua53-linenoise(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 lua53"
 
 inherit rpm

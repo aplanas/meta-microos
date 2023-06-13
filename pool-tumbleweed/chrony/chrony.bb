@@ -40,16 +40,13 @@ RDEPENDS:${PN} += "/bin/bash \
 chrony-pool \
 fillup \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcap.so.2()(64bit) \
 libedit.so.0()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libgnutls.so.30(GNUTLS_3_6_3)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libnettle.so.8()(64bit) \
 libnettle.so.8(NETTLE_8)(64bit) \
 libseccomp.so.2()(64bit) \

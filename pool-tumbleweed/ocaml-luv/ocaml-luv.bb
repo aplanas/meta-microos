@@ -16,7 +16,7 @@ RPM_HASH = "0f00348d1fca51407b20daef31df3d44c8ef256f87b7900a85bb1ae09da4c08a1e61
 RPROVIDES:${PN} += "ocaml-luv \
 ocaml-luv(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libuv.so.1()(64bit)"
 
 inherit rpm

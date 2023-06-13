@@ -38,6 +38,6 @@ mimehandler(text/x-abiword) \
 mimehandler(text/x-xml-abiword)"
 
 RDEPENDS:${PN} += "libabiword-3.0.so()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

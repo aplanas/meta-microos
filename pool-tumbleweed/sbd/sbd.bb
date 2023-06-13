@@ -18,23 +18,17 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaio.so.1()(64bit) \
-libaio.so.1(LIBAIO_0.1)(64bit) \
-libaio.so.1(LIBAIO_0.4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcib.so.27()(64bit) \
 libcmap.so.4()(64bit) \
-libcmap.so.4(COROSYNC_CMAP_1.0)(64bit) \
 libcrmcluster.so.29()(64bit) \
 libcrmcommon.so.34()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libpe_status.so.28()(64bit) \
 libqb.so.100()(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
 libvotequorum.so.8()(64bit) \
-libvotequorum.so.8(COROSYNC_VOTEQUORUM_1.0)(64bit) \
 systemd"
 
 inherit rpm

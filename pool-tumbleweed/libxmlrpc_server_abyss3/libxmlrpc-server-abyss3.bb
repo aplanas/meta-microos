@@ -14,8 +14,7 @@ libxmlrpc_server_abyss3(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libxmlrpc.so.3()(64bit) \
 libxmlrpc_abyss.so.3()(64bit) \
 libxmlrpc_server.so.3()(64bit) \

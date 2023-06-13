@@ -17,19 +17,16 @@ bluez \
 dhcp \
 iptables \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libmnl.so.0()(64bit) \
-libmnl.so.0(LIBMNL_1.0)(64bit) \
 libnftnl.so.11()(64bit) \
 libnftnl.so.11(LIBNFTNL_11)(64bit) \
 libresolv.so.2()(64bit) \
-libresolv.so.2(GLIBC_2.17)(64bit) \
 systemd \
 wpa_supplicant"
 

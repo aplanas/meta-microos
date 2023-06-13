@@ -21,11 +21,10 @@ vinagre \
 vinagre(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-common.so.3()(64bit) \
 libavahi-gobject.so.0()(64bit) \
 libavahi-ui-gtk3.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libfreerdp2.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \
@@ -41,8 +40,6 @@ libspice-client-glib-2.0.so.8(SPICEGTK_1)(64bit) \
 libspice-client-gtk-3.0.so.5()(64bit) \
 libspice-client-gtk-3.0.so.5(SPICEGTK_1)(64bit) \
 libvte-2.91.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

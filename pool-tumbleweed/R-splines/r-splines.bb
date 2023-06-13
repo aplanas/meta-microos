@@ -12,6 +12,6 @@ R-splines(aarch-64)"
 
 RDEPENDS:${PN} += "R-base \
 libR.so()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

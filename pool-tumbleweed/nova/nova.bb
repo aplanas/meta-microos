@@ -10,6 +10,6 @@ RPM_HASH = "981b257df35785254fb9b2f4225da47b3d0f7a64bdd76d8474fb4acf30de88cd3d6e
 RPROVIDES:${PN} += "nova \
 nova(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

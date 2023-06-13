@@ -11,7 +11,7 @@ RPM_HASH = "26de98f9212c2ee67ef2456a4ba5123dc08907fca097d02d6c73edd57bff14e1ddfe
 RPROVIDES:${PN} += "trurl \
 trurl(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libcurl.so.4()(64bit)"
 
 inherit rpm

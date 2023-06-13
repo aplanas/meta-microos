@@ -25,7 +25,7 @@ libshadowdive0_0_0-suse \
 libshadowdive0_0_0-suse(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit)"
 

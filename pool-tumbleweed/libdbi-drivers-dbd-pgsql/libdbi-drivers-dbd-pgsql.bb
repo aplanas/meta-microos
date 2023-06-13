@@ -15,8 +15,7 @@ libdbi-drivers-dbd-pgsql \
 libdbi-drivers-dbd-pgsql(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdbi.so.3()(64bit) \
 libdbi.so.3(ABI_3)(64bit) \
 libpq.so.5()(64bit)"

@@ -21,8 +21,7 @@ virt-viewer \
 virt-viewer(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
@@ -37,27 +36,9 @@ libspice-client-glib-2.0.so.8(SPICEGTK_1)(64bit) \
 libspice-client-gtk-3.0.so.5()(64bit) \
 libspice-client-gtk-3.0.so.5(SPICEGTK_1)(64bit) \
 libvirt-glib-1.0.so.0()(64bit) \
-libvirt-glib-1.0.so.0(LIBVIRT_GLIB_0.0.7)(64bit) \
 libvirt.so.0()(64bit) \
-libvirt.so.0(LIBVIRT_0.0.3)(64bit) \
-libvirt.so.0(LIBVIRT_0.0.5)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.1.1)(64bit) \
-libvirt.so.0(LIBVIRT_0.10.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.3.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.4.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.6.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.8.0)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.10)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.13)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.2)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.7)(64bit) \
-libvirt.so.0(LIBVIRT_0.9.8)(64bit) \
-libvirt.so.0(LIBVIRT_1.2.8)(64bit) \
 libvte-2.91.so.0()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
 netcat"
 
 inherit rpm

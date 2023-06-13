@@ -25,12 +25,9 @@ RPROVIDES:${PN} += "baresip \
 baresip(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
 libbaresip.so.2()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcodec2.so.1.1()(64bit) \
 libfdk-aac.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \
@@ -52,7 +49,6 @@ libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
 libre.so.12()(64bit) \
 libsndfile.so.1()(64bit) \
-libsndfile.so.1(libsndfile.so.1.0)(64bit) \
 libspandsp.so.3()(64bit) \
 libspeexdsp.so.1()(64bit) \
 libtwolame.so.0()(64bit) \

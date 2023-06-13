@@ -16,19 +16,12 @@ RPROVIDES:${PN} += "msitools \
 msitools(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcab-1.0.so.0()(64bit) \
-libgcab-1.0.so.0(LIBGCAB1_0.0)(64bit) \
-libgcab-1.0.so.0(LIBGCAB1_0.2)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libmsi.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.5.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.3)(64bit)"
+libxml2.so.2()(64bit)"
 
 inherit rpm

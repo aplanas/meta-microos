@@ -52,25 +52,8 @@ perl-XML-LibXML(aarch-64) \
 perl-XML-LibXML-Common"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.5.0)(64bit) \
-libxml2.so.2(LIBXML2_2.5.2)(64bit) \
-libxml2.so.2(LIBXML2_2.5.6)(64bit) \
-libxml2.so.2(LIBXML2_2.5.7)(64bit) \
-libxml2.so.2(LIBXML2_2.5.8)(64bit) \
-libxml2.so.2(LIBXML2_2.5.9)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.6.14)(64bit) \
-libxml2.so.2(LIBXML2_2.6.15)(64bit) \
-libxml2.so.2(LIBXML2_2.6.17)(64bit) \
-libxml2.so.2(LIBXML2_2.6.18)(64bit) \
-libxml2.so.2(LIBXML2_2.6.20)(64bit) \
-libxml2.so.2(LIBXML2_2.6.27)(64bit) \
-libxml2.so.2(LIBXML2_2.6.3)(64bit) \
-libxml2.so.2(LIBXML2_2.6.6)(64bit) \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(XML::NamespaceSupport) \
 perl(XML::SAX) \

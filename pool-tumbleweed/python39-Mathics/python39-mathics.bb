@@ -17,8 +17,7 @@ RDEPENDS:${PN} += "(python39-Pillow >= 9.2 if python39-base >= 3.7) \
 /bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 python(abi) \
 python39-Cython \
 python39-Django \

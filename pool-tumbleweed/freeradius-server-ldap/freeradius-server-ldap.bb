@@ -12,8 +12,7 @@ freeradius-server-ldap \
 freeradius-server-ldap(aarch-64)"
 
 RDEPENDS:${PN} += "freeradius-server \
-libc.so.6(GLIBC_2.17)(64bit) \
-libldap.so.2()(64bit) \
-libldap.so.2(OPENLDAP_2.200)(64bit)"
+libc.so.6()(64bit) \
+libldap.so.2()(64bit)"
 
 inherit rpm

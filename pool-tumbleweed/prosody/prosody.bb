@@ -19,10 +19,8 @@ prosody(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/lua5.1 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libicui18n.so.73()(64bit) \
 libicuuc.so.73()(64bit) \
 lua51 \

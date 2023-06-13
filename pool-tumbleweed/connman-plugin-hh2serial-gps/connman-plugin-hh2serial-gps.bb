@@ -11,6 +11,6 @@ RPROVIDES:${PN} += "connman-plugin-hh2serial-gps \
 connman-plugin-hh2serial-gps(aarch-64)"
 
 RDEPENDS:${PN} += "connman \
-libc.so.6(GLIBC_2.17)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

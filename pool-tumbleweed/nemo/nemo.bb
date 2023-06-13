@@ -23,10 +23,9 @@ desktop-file-utils \
 glib2-tools \
 gvfs \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libatk-1.0.so.0()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \
 libcinnamon-desktop.so.4()(64bit) \
@@ -46,7 +45,6 @@ libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libxapp.so.1()(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
 python3 \
 shared-mime-info"
 

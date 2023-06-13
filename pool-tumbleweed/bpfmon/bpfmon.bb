@@ -18,11 +18,8 @@ RPROVIDES:${PN} += "bpfmon \
 bpfmon(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libpcap.so.1()(64bit) \
-libyascreen.so.0()(64bit) \
-libyascreen.so.0(YASCREEN_1.79)(64bit) \
-libyascreen.so.0(YASCREEN_1.93)(64bit)"
+libyascreen.so.0()(64bit)"
 
 inherit rpm

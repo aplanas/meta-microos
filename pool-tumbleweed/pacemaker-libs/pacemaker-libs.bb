@@ -27,14 +27,11 @@ pacemaker-libs(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcmap.so.4()(64bit) \
-libcmap.so.4(COROSYNC_CMAP_1.0)(64bit) \
 libcorosync_common.so.4()(64bit) \
 libcpg.so.4()(64bit) \
-libcpg.so.4(COROSYNC_CPG_1.0)(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -43,20 +40,9 @@ libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libpils.so.2()(64bit) \
 libqb.so.100()(64bit) \
 libquorum.so.5()(64bit) \
-libquorum.so.5(COROSYNC_QUORUM_1.0)(64bit) \
 libuuid.so.1()(64bit) \
-libuuid.so.1(UUID_1.0)(64bit) \
 libxml2.so.2()(64bit) \
-libxml2.so.2(LIBXML2_2.4.30)(64bit) \
-libxml2.so.2(LIBXML2_2.5.0)(64bit) \
-libxml2.so.2(LIBXML2_2.5.2)(64bit) \
-libxml2.so.2(LIBXML2_2.6.0)(64bit) \
-libxml2.so.2(LIBXML2_2.7.3)(64bit) \
-libxml2.so.2(LIBXML2_2.9.0)(64bit) \
 libxslt.so.1()(64bit) \
-libxslt.so.1(LIBXML2_1.0.11)(64bit) \
-libxslt.so.1(LIBXML2_1.0.18)(64bit) \
-libxslt.so.1(LIBXML2_1.0.22)(64bit) \
 pacemaker-schemas \
 shadow"
 

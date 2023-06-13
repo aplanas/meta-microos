@@ -13,31 +13,13 @@ perftest(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libefa.so.1()(64bit) \
-libefa.so.1(EFA_1.1)(64bit) \
 libibumad.so.3()(64bit) \
-libibumad.so.3(IBUMAD_1.0)(64bit) \
 libibverbs.so.1()(64bit) \
-libibverbs.so.1(IBVERBS_1.0)(64bit) \
-libibverbs.so.1(IBVERBS_1.1)(64bit) \
-libibverbs.so.1(IBVERBS_1.11)(64bit) \
-libibverbs.so.1(IBVERBS_1.6)(64bit) \
-libibverbs.so.1(IBVERBS_1.8)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libmlx5.so.1()(64bit) \
-libmlx5.so.1(MLX5_1.10)(64bit) \
-libmlx5.so.1(MLX5_1.21)(64bit) \
-libmlx5.so.1(MLX5_1.3)(64bit) \
-libmlx5.so.1(MLX5_1.7)(64bit) \
 libpci.so.3()(64bit) \
-libpci.so.3(LIBPCI_3.0)(64bit) \
-libpci.so.3(LIBPCI_3.5)(64bit) \
-libpci.so.3(LIBPCI_3.8)(64bit) \
-librdmacm.so.1()(64bit) \
-librdmacm.so.1(RDMACM_1.0)(64bit)"
+librdmacm.so.1()(64bit)"
 
 inherit rpm

@@ -21,8 +21,7 @@ python3.10dist(tpm2-pytss) \
 python3dist(tpm2-pytss)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libtss2-esys.so.0()(64bit) \
 libtss2-fapi.so.1()(64bit) \
 libtss2-mu.so.0()(64bit) \

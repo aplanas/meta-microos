@@ -14,6 +14,6 @@ RPROVIDES:${PN} += "yank \
 yank(aarch-64)"
 
 RDEPENDS:${PN} += "bash \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

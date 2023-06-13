@@ -11,12 +11,9 @@ RPROVIDES:${PN} += "libabw-tools \
 libabw-tools(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libabw-0.1.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 librevenge-0.0.so.0()(64bit) \
 librevenge-generators-0.0.so.0()(64bit) \
 librevenge-stream-0.0.so.0()(64bit)"

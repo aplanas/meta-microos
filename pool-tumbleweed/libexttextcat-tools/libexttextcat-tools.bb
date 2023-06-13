@@ -11,7 +11,7 @@ RPM_HASH = "69114d60aa561ea8af1afcfb6e9ad66282301b02af4ba88cd9cdecde479a7b356310
 RPROVIDES:${PN} += "libexttextcat-tools \
 libexttextcat-tools(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libexttextcat-2.0.so.0()(64bit)"
 
 inherit rpm

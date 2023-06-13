@@ -15,19 +15,11 @@ droidcam-cli(aarch-64)"
 
 RDEPENDS:${PN} += "kmod(v4l2loopback.ko) \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libasound.so.2(ALSA_0.9.0rc4)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libspeex.so.1()(64bit) \
 libswscale.so.7()(64bit) \
-libswscale.so.7(LIBSWSCALE_7.1_SUSE)(64bit) \
 libturbojpeg.so.0()(64bit) \
-libturbojpeg.so.0(TURBOJPEG_1.0)(64bit) \
-libturbojpeg.so.0(TURBOJPEG_1.2)(64bit) \
-libturbojpeg.so.0(TURBOJPEG_1.4)(64bit) \
-libturbojpeg.so.0(TURBOJPEG_2.0)(64bit) \
 libusbmuxd-2.0.so.6()(64bit)"
 
 inherit rpm

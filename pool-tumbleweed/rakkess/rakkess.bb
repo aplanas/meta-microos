@@ -11,6 +11,6 @@ RPM_HASH = "a27f2b02994baa09fae79f66407e858e8e86d7e42645f79c2282a1bcd1e14ab5cc67
 RPROVIDES:${PN} += "rakkess \
 rakkess(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

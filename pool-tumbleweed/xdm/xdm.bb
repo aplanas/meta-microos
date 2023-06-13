@@ -22,7 +22,6 @@ RDEPENDS:${PN} += "/bin/bash \
 cpp \
 fillup \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXau.so.6()(64bit) \
 libXaw.so.7()(64bit) \
@@ -34,11 +33,9 @@ libXmu.so.6()(64bit) \
 libXpm.so.4()(64bit) \
 libXrender.so.1()(64bit) \
 libXt.so.6()(64bit) \
-libc.so.6(GLIBC_2.36)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 logrotate \
 sessreg \
 systemd \

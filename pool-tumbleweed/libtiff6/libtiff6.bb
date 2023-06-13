@@ -11,33 +11,18 @@ RPM_HASH = "41d59ab03e6fb991f3cbd36ecb26bcc63bc4c15de5f5d5ba5ce52a3bc75f46327b41
 
 RPROVIDES:${PN} += "libtiff \
 libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit) \
-libtiff.so.6(LIBTIFF_4.1)(64bit) \
-libtiff.so.6(LIBTIFF_4.2)(64bit) \
-libtiff.so.6(LIBTIFF_4.3)(64bit) \
-libtiff.so.6(LIBTIFF_4.4)(64bit) \
-libtiff.so.6(LIBTIFF_4.5)(64bit) \
 libtiff6 \
 libtiff6(aarch-64) \
-libtiffxx.so.6()(64bit) \
-libtiffxx.so.6(LIBTIFFXX_4.0)(64bit)"
+libtiffxx.so.6()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libjbig.so.2()(64bit) \
 libjpeg.so.8()(64bit) \
-libjpeg.so.8(LIBJPEG_8.0)(64bit) \
 liblzma.so.5()(64bit) \
-liblzma.so.5(XZ_5.0)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libz.so.1()(64bit) \
 libzstd.so.1()(64bit)"
 

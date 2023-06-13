@@ -18,11 +18,8 @@ rlwrap(aarch-64)"
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libreadline.so.8()(64bit) \
-libreadline.so.8(READLINE_6.3)(64bit) \
-libtinfo.so.6()(64bit) \
-libtinfo.so.6(NCURSES6_TINFO_5.0.19991023)(64bit)"
+libtinfo.so.6()(64bit)"
 
 inherit rpm

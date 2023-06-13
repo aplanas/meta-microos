@@ -19,8 +19,7 @@ freeipmi:/usr/sbin/ipmiseld"
 RDEPENDS:${PN} += "/bin/sh \
 freeipmi \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfreeipmi.so.17()(64bit) \
 systemd"
 

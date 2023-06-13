@@ -12,10 +12,8 @@ RPM_HASH = "1d779b5324599f94bc10ba8f61a85a74c8b8e5cea2f0777858605eeefbd37efe6eab
 RPROVIDES:${PN} += "fscrypt \
 fscrypt(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
-libpam.so.0(LIBPAM_EXTENSION_1.0)(64bit) \
 pam-fscrypt"
 
 inherit rpm

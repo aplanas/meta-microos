@@ -22,18 +22,13 @@ dbus-launch \
 gio-branding \
 glib2-tools \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libmount.so.1()(64bit) \
-libmount.so.1(MOUNT_2.19)(64bit) \
-libmount.so.1(MOUNT_2.20)(64bit) \
 libselinux.so.1()(64bit) \
-libselinux.so.1(LIBSELINUX_1.0)(64bit) \
 libz.so.1()(64bit) \
-libz.so.1(ZLIB_1.2.2)(64bit) \
 shared-mime-info"
 
 inherit rpm

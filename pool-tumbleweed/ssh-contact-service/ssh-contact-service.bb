@@ -14,19 +14,10 @@ RPROVIDES:${PN} += "ssh-contact-service \
 ssh-contact-service(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
-libtelepathy-glib.so.0()(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.11.5)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.11.6)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.13.10)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.13.2)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.15.5)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.0)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.26)(64bit) \
-libtelepathy-glib.so.0(TELEPATHY_GLIB_0.7.29)(64bit)"
+libtelepathy-glib.so.0()(64bit)"
 
 inherit rpm

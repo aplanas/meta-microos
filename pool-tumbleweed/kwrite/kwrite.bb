@@ -17,7 +17,6 @@ mimehandler(text/plain)"
 
 RDEPENDS:${PN} += "kate-plugins \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \
 libKF5DBusAddons.so.5()(64bit) \
 libKF5I18n.so.5()(64bit) \
@@ -27,7 +26,7 @@ libQt5Gui.so.5()(64bit) \
 libQt5Gui.so.5(Qt_5)(64bit) \
 libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libkateprivate.so.23.04.1()(64bit)"
 
 inherit rpm

@@ -10,33 +10,19 @@ RPM_HASH = "ecb39b13fb40eb522ed0e08b48822ecee07c3a72fc0ca69597b3e633f5790df4c7b2
 
 RPROVIDES:${PN} += "libQt6WlShellIntegration.so.6()(64bit) \
 libQt6WlShellIntegration.so.6(Qt_6)(64bit) \
-libQt6WlShellIntegration.so.6(Qt_6.0)(64bit) \
-libQt6WlShellIntegration.so.6(Qt_6.1)(64bit) \
-libQt6WlShellIntegration.so.6(Qt_6.2)(64bit) \
-libQt6WlShellIntegration.so.6(Qt_6.3)(64bit) \
-libQt6WlShellIntegration.so.6(Qt_6.4)(64bit) \
-libQt6WlShellIntegration.so.6(Qt_6.5)(64bit) \
-libQt6WlShellIntegration.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
 libQt6WlShellIntegration6 \
 libQt6WlShellIntegration6(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Core.so.6(Qt_6.5)(64bit) \
 libQt6Gui.so.6()(64bit) \
 libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
 libQt6WaylandClient.so.6()(64bit) \
 libQt6WaylandClient.so.6(Qt_6)(64bit) \
-libQt6WaylandClient.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
 libwayland-client.so.0()(64bit)"
 
 inherit rpm

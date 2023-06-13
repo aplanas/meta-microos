@@ -24,11 +24,8 @@ coccinelle(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash \
 findutils \
 grep \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libpcre.so.1()(64bit) \
 python(abi) \
 python3-base \

@@ -42,7 +42,6 @@ mimehandler(inode/directory)"
 RDEPENDS:${PN} += "gstreamer-plugins-base \
 gstreamer-plugins-good \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \
 libQt5Concurrent.so.5()(64bit) \
 libQt5Concurrent.so.5(Qt_5)(64bit) \
@@ -64,10 +63,8 @@ libQt5Widgets.so.5()(64bit) \
 libQt5Widgets.so.5(Qt_5)(64bit) \
 libQt5Xml.so.5()(64bit) \
 libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6(GLIBC_2.32)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgstreamer-1.0.so.0()(64bit) \
@@ -83,16 +80,9 @@ libleechcraft-util-xpc-qt5.so.0.6.75.2()(64bit) \
 libleechcraft-util-xsd-qt5.so.0.6.75()(64bit) \
 libleechcraft-xsd-qt5.so.0.6.75.2()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libqt5-qtgraphicaleffects \
 libqt5-qtquickcontrols \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.14)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
 libtag.so.1()(64bit) \
 qt5qmlimport(QtGraphicalEffects.1) \
 qt5qmlimport(QtQuick.2) \

@@ -20,13 +20,8 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/env \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.35)(64bit) \
 libbsd.so.0()(64bit) \
-libbsd.so.0(LIBBSD_0.0)(64bit) \
-libbsd.so.0(LIBBSD_0.5)(64bit) \
-libbsd.so.0(LIBBSD_0.6)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgnutls.so.30()(64bit) \
 libgnutls.so.30(GNUTLS_3_4)(64bit) \
 libnet.so.9()(64bit) \
@@ -35,7 +30,6 @@ libnftables.so.1(LIBNFTABLES_1)(64bit) \
 libnl-3.so.200()(64bit) \
 libnl-3.so.200(libnl_3)(64bit) \
 libprotobuf-c.so.1()(64bit) \
-libprotobuf-c.so.1(LIBPROTOBUF_C_1.0.0)(64bit) \
 python(abi) \
 python3-ipaddr \
 python3-protobuf"

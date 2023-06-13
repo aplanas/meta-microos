@@ -12,18 +12,13 @@ RPM_HASH = "969f9c5c31e9f069088a7abef31d93411df5b9a5775b5d6809a31b1602134ecd06eb
 
 RPROVIDES:${PN} += "libthai \
 libthai.so.0()(64bit) \
-libthai.so.0(LIBTHAI_0.1)(64bit) \
-libthai.so.0(LIBTHAI_0.1.19)(64bit) \
-libthai.so.0(LIBTHAI_0.1.25)(64bit) \
 libthai0 \
 libthai0(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libdatrie.so.1()(64bit) \
-libdatrie.so.1(DATRIE_0.2)(64bit) \
 libthai-data"
 
 inherit rpm

@@ -16,8 +16,7 @@ libcamel-1_2-64(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.33)(64bit) \
+libc.so.6()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgmodule-2.0.so.0()(64bit) \
@@ -27,22 +26,9 @@ libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
 libicuuc.so.73()(64bit) \
 libnspr4.so()(64bit) \
 libnss3.so()(64bit) \
-libnss3.so(NSS_3.12)(64bit) \
-libnss3.so(NSS_3.2)(64bit) \
-libnss3.so(NSS_3.3)(64bit) \
-libnss3.so(NSS_3.4)(64bit) \
-libnss3.so(NSS_3.7)(64bit) \
-libnss3.so(NSS_3.8)(64bit) \
-libnss3.so(NSS_3.9.2)(64bit) \
 libsmime3.so()(64bit) \
-libsmime3.so(NSS_3.16)(64bit) \
-libsmime3.so(NSS_3.2)(64bit) \
-libsmime3.so(NSS_3.4)(64bit) \
-libsmime3.so(NSS_3.4.1)(64bit) \
-libsmime3.so(NSS_3.6)(64bit) \
 libsqlite3.so.0()(64bit) \
 libssl3.so()(64bit) \
-libssl3.so(NSS_3.2)(64bit) \
 libz.so.1()(64bit)"
 
 inherit rpm

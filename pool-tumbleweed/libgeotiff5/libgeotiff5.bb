@@ -16,9 +16,8 @@ libgeotiff5 \
 libgeotiff5(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libproj.so.25()(64bit) \
-libtiff.so.6()(64bit) \
-libtiff.so.6(LIBTIFF_4.0)(64bit)"
+libtiff.so.6()(64bit)"
 
 inherit rpm

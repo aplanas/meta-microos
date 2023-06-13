@@ -15,7 +15,7 @@ xmlto(aarch-64)"
 RDEPENDS:${PN} += "/bin/bash \
 docbook-xsl-stylesheets \
 docbook_4 \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libxslt-tools"
 
 inherit rpm

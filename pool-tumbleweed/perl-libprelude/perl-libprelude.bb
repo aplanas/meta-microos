@@ -27,10 +27,8 @@ perl-libprelude \
 perl-libprelude(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
 libprelude.so.28()(64bit) \
 libprelude28 \
 libpreludecpp.so.12()(64bit) \

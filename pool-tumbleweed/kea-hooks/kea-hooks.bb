@@ -20,13 +20,9 @@ libdhcp_run_script.so()(64bit) \
 libdhcp_stat_cmds.so()(64bit)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypto.so.3()(64bit) \
-libcrypto.so.3(OPENSSL_3.0.0)(64bit) \
 libgcc_s.so.1()(64bit) \
-libgcc_s.so.1(GCC_3.0)(64bit) \
-libgcc_s.so.1(GCC_3.3.1)(64bit) \
 libkea-asiolink.so.40()(64bit) \
 libkea-cc.so.39()(64bit) \
 libkea-cfgclient.so.36()(64bit) \

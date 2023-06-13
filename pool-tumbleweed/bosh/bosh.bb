@@ -12,24 +12,10 @@ RPROVIDES:${PN} += "bosh \
 bosh(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libfind.so.4.0()(64bit) \
-libfind.so.4.0(SCHILY_0.1)(64bit) \
-libfind.so.4.0(SCHILY_0.9.1)(64bit) \
 libschily.so.2.0()(64bit) \
-libschily.so.2.0(SCHILY_1.0)(64bit) \
-libschily.so.2.0(SCHILY_1.2)(64bit) \
-libschily.so.2.0(SCHILY_1.3)(64bit) \
-libschily.so.2.0(SCHILY_1.4)(64bit) \
-libschily.so.2.0(SCHILY_1.5)(64bit) \
-libschily.so.2.0(SCHILY_1.6)(64bit) \
-libschily.so.2.0(SCHILY_1.9)(64bit) \
-libschily.so.2.0(SCHILY_2.0)(64bit) \
-libxtermcap.so.1.0()(64bit) \
-libxtermcap.so.1.0(SCHILY_1.0)(64bit) \
-libxtermcap.so.1.0(SCHILY_1.1)(64bit)"
+libxtermcap.so.1.0()(64bit)"
 
 inherit rpm

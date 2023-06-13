@@ -17,7 +17,7 @@ appmenu-gtk-module-common \
 gtk2-tools \
 libappmenu-gtk2-parser.so.0()(64bit) \
 libappmenu-gtk2-parser0 \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

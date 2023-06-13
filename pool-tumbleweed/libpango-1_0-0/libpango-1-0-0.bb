@@ -22,11 +22,10 @@ pango-modules"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \
 libXft.so.2()(64bit) \
 libXrender.so.1()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcairo.so.2()(64bit) \
 libfontconfig.so.1()(64bit) \
 libfreetype.so.6()(64bit) \
@@ -36,9 +35,6 @@ libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libharfbuzz.so.0()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libthai.so.0()(64bit) \
-libthai.so.0(LIBTHAI_0.1)(64bit) \
-libthai.so.0(LIBTHAI_0.1.25)(64bit)"
+libthai.so.0()(64bit)"
 
 inherit rpm

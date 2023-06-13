@@ -10,6 +10,6 @@ RPM_HASH = "3b2f1e859f81e275ea6f8471cfb7fca5c460990fcc3637d2a079898aeef183751f39
 RPROVIDES:${PN} += "gitleaks \
 gitleaks(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
+RDEPENDS:${PN} += "libc.so.6()(64bit)"
 
 inherit rpm

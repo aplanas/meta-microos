@@ -25,7 +25,7 @@ restund(aarch-64)"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libmariadb.so.3()(64bit) \
 libmariadb.so.3(libmysqlclient_18)(64bit) \
 libre.so.12()(64bit) \

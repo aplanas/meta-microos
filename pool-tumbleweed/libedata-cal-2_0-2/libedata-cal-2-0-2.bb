@@ -16,8 +16,7 @@ libedata-cal-2_0-2(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libcamel-1.2.so.64()(64bit) \
 libebackend-1.2.so.11()(64bit) \
 libecal-2.0.so.2()(64bit) \

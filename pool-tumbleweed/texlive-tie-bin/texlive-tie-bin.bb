@@ -10,7 +10,7 @@ RPM_HASH = "b2580ff448f0838df8790c675bdc0f7e5655f7990b8bc4bde27e74578d0297129937
 RPROVIDES:${PN} += "texlive-tie-bin \
 texlive-tie-bin(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 libkpathsea.so.6()(64bit) \
 texlive-tie"
 

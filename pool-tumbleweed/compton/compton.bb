@@ -16,7 +16,6 @@ RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libXcomposite.so.1()(64bit) \
@@ -26,13 +25,11 @@ libXfixes.so.3()(64bit) \
 libXinerama.so.1()(64bit) \
 libXrandr.so.2()(64bit) \
 libXrender.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libconfig.so.11()(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libpcre.so.1()(64bit)"
 
 inherit rpm

@@ -44,7 +44,6 @@ qt5qmlimport(org.kde.kdeconnect.1)"
 RDEPENDS:${PN} += "/bin/sh \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigCore.so.5()(64bit) \
 libKF5ConfigWidgets.so.5()(64bit) \
 libKF5CoreAddons.so.5()(64bit) \
@@ -89,7 +88,7 @@ libQt5X11Extras.so.5()(64bit) \
 libQt5X11Extras.so.5(Qt_5)(64bit) \
 libX11.so.6()(64bit) \
 libXtst.so.6()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfakekey.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \
@@ -97,15 +96,8 @@ libgobject-2.0.so.0()(64bit) \
 libqca-qt5.so.2()(64bit) \
 libqt5-qtquickcontrols2 \
 libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_1.3)(64bit) \
-libstdc++.so.6(CXXABI_1.3.9)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.18)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.21)(64bit) \
-libstdc++.so.6(GLIBCXX_3.4.29)(64bit) \
 libwayland-client.so.0()(64bit) \
 libxkbcommon.so.0()(64bit) \
-libxkbcommon.so.0(V_1.0.0)(64bit) \
 plasma-framework-components \
 qt5qmlimport(Qt.labs.platform.1) \
 qt5qmlimport(QtQml.2) \

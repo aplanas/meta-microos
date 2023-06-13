@@ -14,6 +14,6 @@ libasound_module_ctl_equal.so()(64bit) \
 libasound_module_pcm_equal.so()(64bit)"
 
 RDEPENDS:${PN} += "ladspa-caps \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

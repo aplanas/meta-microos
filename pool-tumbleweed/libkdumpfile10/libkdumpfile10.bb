@@ -18,10 +18,9 @@ libkdumpfile10(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaddrxlat.so.3()(64bit) \
 libaddrxlat.so.3(LIBADDRXLAT_0)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblzo2.so.2()(64bit) \
 libsnappy.so.1()(64bit) \
 libz.so.1()(64bit) \

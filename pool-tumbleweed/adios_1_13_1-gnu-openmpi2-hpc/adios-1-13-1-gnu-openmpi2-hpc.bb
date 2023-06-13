@@ -21,13 +21,10 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 liblz4.so.1()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit) \
 libopenmpi2-gnu-hpc \
 libz.so.1()(64bit) \
 lua-lmod \

@@ -24,7 +24,7 @@ libarmadillo12(aarch-64)"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libarpack.so.2()(64bit) \
 libblas.so.3()(64bit) \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libgcc_s.so.1()(64bit) \
 liblapack.so.3()(64bit) \
 libm.so.6()(64bit) \

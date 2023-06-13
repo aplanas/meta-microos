@@ -22,19 +22,14 @@ RPROVIDES:${PN} += "minimodem \
 minimodem(aarch-64)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \
-libasound.so.2(ALSA_0.9)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libfftw3f.so.3()(64bit) \
 libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.35)(64bit) \
 libpulse-simple.so.0()(64bit) \
 libpulse-simple.so.0(PULSE_0)(64bit) \
 libpulse.so.0()(64bit) \
 libpulse.so.0(PULSE_0)(64bit) \
-libsndfile.so.1()(64bit) \
-libsndfile.so.1(libsndfile.so.1.0)(64bit)"
+libsndfile.so.1()(64bit)"
 
 inherit rpm

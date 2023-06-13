@@ -32,10 +32,8 @@ RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 gnutls \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcrypt.so.1()(64bit) \
-libcrypt.so.1(XCRYPT_2.0)(64bit) \
 libev.so.4()(64bit) \
 libfreeradius-client.so.2()(64bit) \
 libgnutls.so.30()(64bit) \
@@ -50,17 +48,12 @@ libnl-3.so.200(libnl_3)(64bit) \
 libnl-route-3.so.200()(64bit) \
 libnl-route-3.so.200(libnl_3)(64bit) \
 liboath.so.0()(64bit) \
-liboath.so.0(LIBOATH_1.2.0)(64bit) \
-liboath.so.0(LIBOATH_1.8.0)(64bit) \
 libpam.so.0()(64bit) \
-libpam.so.0(LIBPAM_1.0)(64bit) \
 libprotobuf-c.so.1()(64bit) \
-libprotobuf-c.so.1(LIBPROTOBUF_C_1.0.0)(64bit) \
 libreadline.so.8()(64bit) \
 libsystemd.so.0()(64bit) \
 libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
 libtalloc.so.2()(64bit) \
-libtalloc.so.2(TALLOC_2.0.2)(64bit) \
 systemd"
 
 inherit rpm

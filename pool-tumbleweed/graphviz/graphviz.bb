@@ -14,8 +14,7 @@ graphviz(aarch-64)"
 RDEPENDS:${PN} += "/bin/sh \
 graphviz-plugins-core \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 libcdt.so.5()(64bit) \
 libcgraph.so.6()(64bit) \
 libexpat.so.1()(64bit) \
@@ -27,8 +26,6 @@ libgvplugin_dot_layout.so.6()(64bit) \
 libgvplugin_neato_layout.so.6()(64bit) \
 libgvpr.so.2()(64bit) \
 liblab_gamut.so.1()(64bit) \
-libm.so.6()(64bit) \
-libm.so.6(GLIBC_2.17)(64bit) \
-libm.so.6(GLIBC_2.29)(64bit)"
+libm.so.6()(64bit)"
 
 inherit rpm

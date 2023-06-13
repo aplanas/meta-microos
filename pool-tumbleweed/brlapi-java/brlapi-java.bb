@@ -23,8 +23,7 @@ libbrlapi_java.so.0.8()(64bit)"
 RDEPENDS:${PN} += "java \
 jpackage-utils \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbrlapi.so.0.8()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

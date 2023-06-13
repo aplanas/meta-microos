@@ -22,9 +22,8 @@ python3.10dist(brlapi) \
 python3dist(brlapi)"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbrlapi.so.0.8()(64bit) \
-libc.so.6(GLIBC_2.34)(64bit) \
+libc.so.6()(64bit) \
 python(abi)"
 
 inherit rpm

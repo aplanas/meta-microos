@@ -16,15 +16,10 @@ RPM_HASH = "70d22fde8eda333f1b073ae6ee29105e9ef9d7df0561adab3fa51bad9fce3340d558
 RPROVIDES:${PN} += "libfreebl3 \
 libfreebl3(aarch-64) \
 libfreebl3.so()(64bit) \
-libfreebl3.so(NSSRAWHASH_3.12.3)(64bit) \
-libfreebl3.so(NSSprivate_3.11)(64bit) \
-libfreeblpriv3.so()(64bit) \
-libfreeblpriv3.so(NSSprivate_3.11)(64bit) \
-libfreeblpriv3.so(NSSprivate_3.16)(64bit)"
+libfreeblpriv3.so()(64bit)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
-libc.so.6(GLIBC_2.34)(64bit)"
+libc.so.6()(64bit)"
 
 inherit rpm

@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "lua-luautf8 \
 lua54-luautf8 \
 lua54-luautf8(aarch-64)"
 
-RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
+RDEPENDS:${PN} += "libc.so.6()(64bit) \
 lua54"
 
 inherit rpm

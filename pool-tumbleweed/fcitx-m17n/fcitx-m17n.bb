@@ -12,7 +12,7 @@ fcitx-m17n(aarch-64)"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fcitx \
-libc.so.6(GLIBC_2.17)(64bit) \
+libc.so.6()(64bit) \
 libm17n-core.so.0()(64bit) \
 libm17n.so.0()(64bit)"
 
