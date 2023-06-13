@@ -10,6 +10,7 @@ RPM_HASH = "ad297c610fe78ca5facf00e8fa8862ad2eaa762e3ab296894a77f337c99f00ae4fae
 
 RPROVIDES:${PN} += "xgamma \
 xgamma(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

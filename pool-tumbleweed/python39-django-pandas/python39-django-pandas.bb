@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-pandas) \
 python39-django-pandas \
 python3dist(django-pandas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-pandas"

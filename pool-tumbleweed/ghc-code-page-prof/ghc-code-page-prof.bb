@@ -10,6 +10,7 @@ RPM_HASH = "b32358876950836c2dd61afc1b22681044b27bdcacc21a100174df502fd73fd4ae4c
 RPROVIDES:${PN} += "ghc-code-page-prof \
 ghc-code-page-prof(aarch-64) \
 ghc-prof(code-page-0.2.1-DXkPgctk3OAKMpgAjUBS3D)"
+
 RDEPENDS:${PN} += "ghc-code-page-devel \
 ghc-prof(base-4.17.1.0)"
 

@@ -11,6 +11,7 @@ RPM_HASH = "13481a04d9c2cb03b122a22181b99057d1d420416094e54abfe3743d442084655fa7
 RPROVIDES:${PN} += "cdio-utils \
 cdio-utils(aarch-64) \
 libcdio-utils"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

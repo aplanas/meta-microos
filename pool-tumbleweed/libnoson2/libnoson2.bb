@@ -12,6 +12,7 @@ RPM_HASH = "edaea1e20b325e8edfcd8858e7abbb8da0b5004703fa51f6204a0e58dc385322405e
 RPROVIDES:${PN} += "libnoson.so.2()(64bit) \
 libnoson2 \
 libnoson2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

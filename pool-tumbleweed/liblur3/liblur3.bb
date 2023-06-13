@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "liblur.so.3()(64bit) \
 liblur.so.3(LIBLUR_0.4.0)(64bit) \
 liblur3 \
 liblur3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

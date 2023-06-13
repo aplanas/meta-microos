@@ -14,6 +14,7 @@ group(radvd) \
 radvd \
 radvd(aarch-64) \
 user(radvd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

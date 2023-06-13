@@ -99,6 +99,7 @@ perl(Log::Log4perl::Util) \
 perl(Log::Log4perl::Util::Semaphore) \
 perl(Log::Log4perl::Util::TimeTracker) \
 perl-Log-Log4perl"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Path)"

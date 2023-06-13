@@ -98,6 +98,7 @@ locale(cinnamon-control-center:wa) \
 locale(cinnamon-control-center:zh_CN) \
 locale(cinnamon-control-center:zh_HK) \
 locale(cinnamon-control-center:zh_TW)"
+
 RDEPENDS:${PN} += "cinnamon-control-center"
 
 inherit rpm

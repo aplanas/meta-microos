@@ -22,6 +22,7 @@ mvn(org.hamcrest:hamcrest-library) \
 mvn(org.hamcrest:hamcrest-library:pom:) \
 mvn(org.hamcrest:hamcrest:pom:) \
 osgi(org.hamcrest)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -16,6 +16,7 @@ RPM_HASH = "1b9d712214d1a725bebcbe47d2b5cc082bb6f36d14149859ce9da13c3441b8cbbfbd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-persian-bib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

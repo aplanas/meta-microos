@@ -13,6 +13,7 @@ RPM_HASH = "43e9e34eb552f83317a6e16ad5c3bf64bfb9e55f799e20ef6524d187fe740dcd67f9
 
 RPROVIDES:${PN} += "git-core \
 git-core(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

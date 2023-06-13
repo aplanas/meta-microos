@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "debuginfo(build-id) \
 installation-images-debuginfodeps \
 installation-images-debuginfodeps-MicroOS \
 installation-images-debuginfodeps-MicroOS(aarch-64)"
+
 RDEPENDS:${PN} += "debuginfo(build-id)"
 
 inherit rpm

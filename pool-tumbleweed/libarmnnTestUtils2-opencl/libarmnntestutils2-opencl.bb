@@ -16,6 +16,7 @@ RPM_HASH = "1001efbeccbb2d1cc9e133b957f4d366a660e0ad78a8b7bfbba6b3312a4c37254c79
 RPROVIDES:${PN} += "libarmnnTestUtils.so.2()(64bit) \
 libarmnnTestUtils2-opencl \
 libarmnnTestUtils2-opencl(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

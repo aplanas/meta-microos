@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Twisted-tls \
 python310-Twisted-tls"
+
 RDEPENDS:${PN} += "python310-Twisted \
 python310-idna \
 python310-pyOpenSSL \

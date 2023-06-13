@@ -66,6 +66,7 @@ locale(libxfce4ui:vi) \
 locale(libxfce4ui:zh_CN) \
 locale(libxfce4ui:zh_HK) \
 locale(libxfce4ui:zh_TW)"
+
 RDEPENDS:${PN} += "libxfce4ui-2-0"
 
 inherit rpm

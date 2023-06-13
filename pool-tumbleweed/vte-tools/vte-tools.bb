@@ -13,6 +13,7 @@ RPM_HASH = "a0b3c9403ad5796364de4efa7fbd76c2fe67cd3ee1d51ce8fd598de6eb11874ff7ce
 
 RPROVIDES:${PN} += "vte-tools \
 vte-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

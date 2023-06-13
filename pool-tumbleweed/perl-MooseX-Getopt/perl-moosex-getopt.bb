@@ -21,6 +21,7 @@ perl(MooseX::Getopt::OptionTypeMap) \
 perl(MooseX::Getopt::ProcessedArgv) \
 perl(MooseX::Getopt::Strict) \
 perl-MooseX-Getopt"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Getopt::Long) \
 perl(Getopt::Long::Descriptive) \

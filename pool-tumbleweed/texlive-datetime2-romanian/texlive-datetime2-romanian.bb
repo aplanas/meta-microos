@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(datetime2-romanian-ascii.ldf) \
 tex(datetime2-romanian-utf8.ldf) \
 tex(datetime2-romanian.ldf) \
 texlive-datetime2-romanian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

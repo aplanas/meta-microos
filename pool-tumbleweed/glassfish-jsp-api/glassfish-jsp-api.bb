@@ -18,6 +18,7 @@ mvn(javax.servlet.jsp:jsp-api:pom:) \
 mvn(javax.servlet:jsp-api) \
 mvn(javax.servlet:jsp-api:pom:) \
 osgi(javax.servlet.jsp)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.el:javax.el-api) \

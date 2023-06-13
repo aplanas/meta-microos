@@ -14,6 +14,7 @@ pwdutils \
 shadow \
 shadow(aarch-64) \
 useradd_or_adduser_dep"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(root) \
 group(shadow) \

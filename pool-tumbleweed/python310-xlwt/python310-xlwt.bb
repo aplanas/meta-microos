@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-xlwt \
 python3.10dist(xlwt) \
 python310-xlwt \
 python3dist(xlwt)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -22,6 +22,7 @@ libjogl_mobile.so()(64bit) \
 libnativewindow_awt.so()(64bit) \
 libnativewindow_x11.so()(64bit) \
 libnewt.so()(64bit)"
+
 RDEPENDS:${PN} += "gluegen2 \
 java \
 jpackage-utils \

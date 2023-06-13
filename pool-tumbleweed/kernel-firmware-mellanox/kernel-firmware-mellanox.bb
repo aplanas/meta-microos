@@ -74,6 +74,7 @@ firmware(mellanox/mlxsw_spectrum3-30.2010.1502.mfa2) \
 firmware(mellanox/mlxsw_spectrum3-30.2010.3020.mfa2) \
 firmware(mellanox/mlxsw_spectrum3-30.2010.3146.mfa2) \
 kernel-firmware-mellanox"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

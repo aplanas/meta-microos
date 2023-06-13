@@ -10,6 +10,7 @@ RPM_HASH = "dfba03d1b076c5067b2eeb2b22076ecbb544f2bd0802b29ba94cf2e78d5905cec2a4
 RPROVIDES:${PN} += "libsignal-protocol-c.so.2()(64bit) \
 libsignal-protocol-c2 \
 libsignal-protocol-c2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

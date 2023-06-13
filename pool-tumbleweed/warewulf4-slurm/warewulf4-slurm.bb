@@ -11,6 +11,7 @@ RPM_HASH = "c209fc3ad3959c16ef950756db10338c10b982dc74b049bc1ab7ae3abbf7f5a17580
 RPROVIDES:${PN} += "config(warewulf4-slurm) \
 warewulf4-slurm \
 warewulf4-slurm(aarch-64)"
+
 RDEPENDS:${PN} += "slurm \
 warewulf4"
 

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Yder) \
 pkgconfig(libyder) \
 yder-devel \
 yder-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libyder1_4 \
 pkgconfig(liborcania) \

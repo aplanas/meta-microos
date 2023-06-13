@@ -11,6 +11,7 @@ RPM_HASH = "b88f07a90b5d614e06110019bd7f2c38b7f90cd310305ef8a95d3b4ccc0026938d07
 RPROVIDES:${PN} += "perl(HTML::Encoding) \
 perl-HTML-Encoding \
 perl-HTML-Encoding(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

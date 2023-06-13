@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(File::Rsync) \
 perl-File-Rsync"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IPC::Run3) \
 rsync"

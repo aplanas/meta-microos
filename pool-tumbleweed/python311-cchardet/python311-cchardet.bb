@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(faust-cchardet) \
 python311-cchardet \
 python311-cchardet(aarch-64) \
 python3dist(faust-cchardet)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1()(64bit) \

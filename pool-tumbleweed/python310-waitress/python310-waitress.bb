@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-waitress \
 python3.10dist(waitress) \
 python310-waitress \
 python3dist(waitress)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

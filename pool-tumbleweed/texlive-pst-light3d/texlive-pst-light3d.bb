@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-light3d.sty) \
 tex(pst-light3d.tex) \
 texlive-pst-light3d"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

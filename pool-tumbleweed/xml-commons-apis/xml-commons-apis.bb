@@ -25,6 +25,7 @@ xml-commons-jaxp-1.1-apis \
 xml-commons-jaxp-1.2-apis \
 xml-commons-jaxp-1.3-apis \
 xml-commons-jaxp-1.4-apis"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

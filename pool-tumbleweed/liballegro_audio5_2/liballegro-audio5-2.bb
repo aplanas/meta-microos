@@ -15,6 +15,7 @@ RPM_HASH = "41abc4790c1f368f80f3e39bee51d1cc53d0ef7f0e7f42635fc472042a257f826203
 RPROVIDES:${PN} += "liballegro_audio.so.5.2()(64bit) \
 liballegro_audio5_2 \
 liballegro_audio5_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "21d57b3793839846edfb41b318e094fcdcf1a3996a587684f7060bba2c425c3c5265
 RPROVIDES:${PN} += "libgtkhotkey.so.1()(64bit) \
 libgtkhotkey1 \
 libgtkhotkey1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

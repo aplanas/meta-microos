@@ -13,6 +13,7 @@ libFcitx5Core7 \
 libFcitx5Core7(aarch-64) \
 libfcitx-4_2_9 \
 libfcitx-core0"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

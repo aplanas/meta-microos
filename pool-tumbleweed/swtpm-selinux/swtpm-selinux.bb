@@ -9,6 +9,7 @@ RPM_HASH = "ab858b827d076c64a114e1a2e5e6bf359d21e9f44cafc2fcdbca8ed7bbc2de4698f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swtpm-selinux"
+
 RDEPENDS:${PN} += "/bin/sh \
 libselinux-utils \
 policycoreutils \

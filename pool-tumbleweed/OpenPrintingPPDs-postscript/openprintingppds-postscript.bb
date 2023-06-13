@@ -1854,6 +1854,7 @@ postscriptdriver(xerox;xerox_phaser_3500;) \
 postscriptdriver(xerox;xerox_wc_4118;) \
 postscriptdriver(xerox;xerox_wc_m20;) \
 postscriptdriver(xerox;xerox_wc_pe120;)"
+
 RDEPENDS:${PN} += "foomatic-filters"
 
 inherit rpm

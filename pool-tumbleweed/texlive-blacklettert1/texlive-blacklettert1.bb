@@ -22,6 +22,7 @@ tex(tgoth.vf) \
 tex(tswab.tfm) \
 tex(tswab.vf) \
 texlive-blacklettert1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-rosetta \
 python3.10dist(django-rosetta) \
 python310-django-rosetta \
 python3dist(django-rosetta)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-polib \

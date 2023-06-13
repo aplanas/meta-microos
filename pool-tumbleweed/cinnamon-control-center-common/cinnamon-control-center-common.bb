@@ -11,6 +11,7 @@ RPM_HASH = "5ba220ccc3c01f870d9da9bf9b865bdc5f6c105c8cc17446a3313ace5c7cd9c3bdb9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-control-center-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "0aabcc1d5049b690cc8908f727346fd5c29adb035289130800d2b6520ff936295b6f
 RPROVIDES:${PN} += "ghc-witherable \
 ghc-witherable(aarch-64) \
 libHSwitherable-0.4.2-3r5H0uqg5SQLafbMfCHwUh-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "tex(confproc.cfg) \
 tex(confproc.cls) \
 tex(newapave.sty) \
 texlive-confproc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "libhttp-parser-suse0 \
 libhttp_parser.so.2.9()(64bit) \
 libhttp_parser2_9 \
 libhttp_parser2_9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

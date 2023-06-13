@@ -9,6 +9,7 @@ RPM_HASH = "2ee2214158e7de2db9d2433ec9e50ad01efbb62d61a92900352f761d086b04642804
 
 RPROVIDES:${PN} += "suseconnect-ruby-bindings \
 suseconnect-ruby-bindings(aarch-64)"
+
 RDEPENDS:${PN} += "libsuseconnect"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "a32a7871af1fb56047dad3854487aa84c057749c79777d6f058e5c31eb018458319e
 RPROVIDES:${PN} += "config(fcoe-utils) \
 fcoe-utils \
 fcoe-utils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

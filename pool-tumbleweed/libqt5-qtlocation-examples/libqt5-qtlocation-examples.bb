@@ -9,6 +9,7 @@ RPM_HASH = "e312ae24dee8c3a2df52f4c9fa91fde18e57ea45daf7df1dbc3e030d57877f9c81b5
 
 RPROVIDES:${PN} += "libqt5-qtlocation-examples \
 libqt5-qtlocation-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

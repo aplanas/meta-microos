@@ -54,6 +54,7 @@ rpm_macro(ghcpkgdocdir) \
 rpm_macro(ghcplatform) \
 rpm_macro(with_ghc_prof) \
 rpm_macro(with_haddock)"
+
 RDEPENDS:${PN} += "/bin/sh \
 chrpath \
 rpm"

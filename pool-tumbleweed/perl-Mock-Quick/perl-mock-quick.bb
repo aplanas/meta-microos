@@ -34,6 +34,7 @@ perl(Mock::Quick::Object::Control) \
 perl(Mock::Quick::Util) \
 perl(Object::Quick) \
 perl-Mock-Quick"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Exporter::Declare)"
 

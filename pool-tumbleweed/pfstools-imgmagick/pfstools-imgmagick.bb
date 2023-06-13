@@ -10,6 +10,7 @@ RPM_HASH = "f3a76af0dbaee48c9a58356b6dadc6eb16c83781aed38a1b330e0d82cc3ae60cbb2e
 
 RPROVIDES:${PN} += "pfstools-imgmagick \
 pfstools-imgmagick(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMagick++-7.Q16HDRI.so.5()(64bit) \

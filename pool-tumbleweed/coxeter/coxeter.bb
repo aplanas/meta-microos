@@ -18,6 +18,7 @@ RPM_HASH = "e4beed23f7b15fc1338a3f3a77116259fcc52e058296ae29ca7369ed48e047f04dcc
 
 RPROVIDES:${PN} += "coxeter \
 coxeter(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

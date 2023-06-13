@@ -10,6 +10,7 @@ RPM_HASH = "87476126267c2c9365246253ea53a452f7da9650f427b3f2f6249cee0f8a999dee67
 RPROVIDES:${PN} += "libgeany.so.0()(64bit) \
 libgeany0 \
 libgeany0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -26,6 +26,7 @@ pkgconfig(pangoxft) \
 rpm_macro(pango_module_post) \
 rpm_macro(pango_module_postun) \
 rpm_macro(pango_module_requires)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpango-1_0-0 \
 pkgconfig(cairo) \

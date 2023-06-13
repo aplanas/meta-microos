@@ -9,6 +9,7 @@ RPM_HASH = "43eeb2eb519e5bc958c0c69c7a4b19ed8fbb2c2482542fec4c6c52d6f7671519e24d
 
 RPROVIDES:${PN} += "openscap-content \
 openscap-content(aarch-64)"
+
 RDEPENDS:${PN} += "libopenscap25 \
 openscap"
 

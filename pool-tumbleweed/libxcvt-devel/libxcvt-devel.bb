@@ -15,6 +15,7 @@ RPM_HASH = "784e87192d751f0c54a3f36d275db07f936596b28731e1d290fe6978d73f1b0a1751
 RPROVIDES:${PN} += "libxcvt-devel \
 libxcvt-devel(aarch-64) \
 pkgconfig(libxcvt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcvt0"
 

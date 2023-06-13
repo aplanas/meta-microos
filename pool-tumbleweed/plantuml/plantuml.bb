@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(net.sourceforge.plantuml:plantuml) \
 plantuml"
+
 RDEPENDS:${PN} += "/bin/bash \
 java \
 java-headless \

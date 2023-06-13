@@ -10,6 +10,7 @@ RPM_HASH = "cfe412a306a3782ee8ae654333fde355b0bd5b2e2a65684b7e94c045563e5c5c939d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuxpaint-stamps"
+
 RDEPENDS:${PN} += "tuxpaint-stamps-category"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "e1190fced2ae2241ee1f6ded9a445a86113d5507fa42a084a036f1e1425f0cbb3ffb
 RPROVIDES:${PN} += "libdocparser.so.1()(64bit) \
 libdocparser1 \
 libdocparser1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ghp-import) \
 python39-ghp-import \
 python3dist(ghp-import)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(google-trans-new) \
 python311-google_trans_new \
 python3dist(google-trans-new)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests \
 python311-urllib3"

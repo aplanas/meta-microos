@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cascadilla.cls) \
 texlive-cascadilla"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

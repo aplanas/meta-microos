@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-ipytablewidgets \
 python3.10dist(ipytablewidgets) \
 python310-ipytablewidgets \
 python3dist(ipytablewidgets)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ipywidgets \
 python310-lz4 \

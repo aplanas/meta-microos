@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:nl_NL) \
 myspell-dictionary \
 myspell-dutch \
 myspell-nl_NL"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

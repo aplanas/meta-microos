@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6LabsWavefrontMesh) \
 pkgconfig(Qt6LabsWavefrontMesh) \
 qt6-labswavefrontmesh-devel \
 qt6-labswavefrontmesh-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt6LabsWavefrontMesh6 \
 pkgconfig(Qt6Core) \

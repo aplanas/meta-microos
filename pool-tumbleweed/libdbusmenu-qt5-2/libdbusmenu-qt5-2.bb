@@ -13,6 +13,7 @@ RPM_HASH = "949def40d5c8e9602913089047d8e65333d8089a88bc91f12cf0ddf5c1cc5f83f905
 RPROVIDES:${PN} += "libdbusmenu-qt5-2 \
 libdbusmenu-qt5-2(aarch-64) \
 libdbusmenu-qt5.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

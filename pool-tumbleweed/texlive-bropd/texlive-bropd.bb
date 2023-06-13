@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bropd.sty) \
 texlive-bropd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

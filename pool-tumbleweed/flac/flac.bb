@@ -14,6 +14,7 @@ RPM_HASH = "45359c7ed13cd58ed40c228fad91e777fe25dcb4d9934affdb2993d79a515bc177f4
 
 RPROVIDES:${PN} += "flac \
 flac(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \

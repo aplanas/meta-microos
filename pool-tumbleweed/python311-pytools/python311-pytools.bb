@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytools) \
 python311-pytools \
 python3dist(pytools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-numpy \
 python311-platformdirs"

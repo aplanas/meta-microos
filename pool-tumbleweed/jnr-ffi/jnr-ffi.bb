@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jnr-ffi \
 mvn(com.github.jnr:jnr-ffi) \
 mvn(com.github.jnr:jnr-ffi:pom:) \
 osgi(com.github.jnr.ffi)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.github.jnr:jffi) \

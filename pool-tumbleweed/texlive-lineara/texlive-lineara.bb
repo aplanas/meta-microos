@@ -18,6 +18,7 @@ tex(LinearACmplxSigns.tfm) \
 tex(linearA.map) \
 tex(linearA.sty) \
 texlive-lineara"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

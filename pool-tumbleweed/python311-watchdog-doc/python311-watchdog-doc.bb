@@ -9,6 +9,7 @@ RPM_HASH = "6bd5f955d6f35ba4fc857dfa6ec0b20e948cb1a27261048cdb02e203f82496c751a9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-watchdog-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

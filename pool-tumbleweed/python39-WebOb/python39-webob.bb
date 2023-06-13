@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(webob) \
 python39-WebOb \
 python3dist(webob)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

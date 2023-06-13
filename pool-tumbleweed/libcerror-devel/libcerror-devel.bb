@@ -13,6 +13,7 @@ RPM_HASH = "f31e84a4d69cdb2d708f7739f466cb91e615ec6f9d18af2da26685abf1dc3aa0dc4b
 RPROVIDES:${PN} += "libcerror-devel \
 libcerror-devel(aarch-64) \
 pkgconfig(libcerror)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcerror1"
 

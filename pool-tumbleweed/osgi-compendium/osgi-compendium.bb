@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(org.osgi:osgi.cmpn) \
 mvn(org.osgi:osgi.cmpn:pom:) \
 osgi(osgi.cmpn) \
 osgi-compendium"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

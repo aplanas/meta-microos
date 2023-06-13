@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pcodedmp \
 python3.10dist(pcodedmp) \
 python310-pcodedmp \
 python3dist(pcodedmp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

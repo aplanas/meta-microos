@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(libsanlock) \
 pkgconfig(libsanlock_client) \
 sanlock-devel \
 sanlock-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsanlock1"
 

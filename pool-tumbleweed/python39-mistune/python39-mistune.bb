@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mistune) \
 python39-mistune \
 python3dist(mistune)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

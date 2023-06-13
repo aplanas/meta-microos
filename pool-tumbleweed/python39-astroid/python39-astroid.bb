@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(astroid) \
 python39-astroid \
 python3dist(astroid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-lazy-object-proxy \
 python39-typing-extensions \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "mingw32(lib:gfortran) \
 mingw32(lib:quadmath) \
 mingw32-gcc-fortran \
 mingw32-gcc-fortran(aarch-64)"
+
 RDEPENDS:${PN} += "mingw32(libgmp-10.dll) \
 mingw32(libmpc-3.dll) \
 mingw32(libmpfr-4.dll) \

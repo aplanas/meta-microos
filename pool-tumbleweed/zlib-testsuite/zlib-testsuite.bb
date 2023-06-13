@@ -11,6 +11,7 @@ RPM_HASH = "1ceb5b77beeccb31311b42612deb1233d57fd3bcd1cdb3f04cce022da75ffc3f523f
 
 RPROVIDES:${PN} += "zlib-testsuite \
 zlib-testsuite(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

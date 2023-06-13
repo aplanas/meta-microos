@@ -21,6 +21,7 @@ mvn(biz.aQute.bnd:bndlib) \
 mvn(biz.aQute.bnd:bndlib:pom:) \
 mvn(biz.aQute:bndlib) \
 mvn(biz.aQute:bndlib:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(biz.aQute.bnd:aQute.libg) \

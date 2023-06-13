@@ -9,6 +9,7 @@ RPM_HASH = "931b5859f5885f518bba940b21c1534fac38dbd7660fd3fcc646f6c43af7c74db1f5
 
 RPROVIDES:${PN} += "wyrmgus-devel \
 wyrmgus-devel(aarch-64)"
+
 RDEPENDS:${PN} += "wyrmgus"
 
 inherit rpm

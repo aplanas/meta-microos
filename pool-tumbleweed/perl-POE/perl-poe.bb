@@ -83,6 +83,7 @@ perl(POE::Wheel::ReadWrite) \
 perl(POE::Wheel::Run) \
 perl(POE::Wheel::SocketFactory) \
 perl-POE"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO) \
 perl(IO::Handle) \

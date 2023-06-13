@@ -9,6 +9,7 @@ RPM_HASH = "45ce5c1cd4976629df9a687be08bfb356b0c2d0096db3539d586b3a9bd9fc3d33015
 
 RPROVIDES:${PN} += "R-mgcv \
 R-mgcv(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

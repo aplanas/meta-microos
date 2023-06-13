@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(salt-zsh-completion) \
 salt-zsh-completion"
+
 RDEPENDS:${PN} += "salt \
 zsh"
 

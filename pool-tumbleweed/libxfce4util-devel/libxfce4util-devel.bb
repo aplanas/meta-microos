@@ -11,6 +11,7 @@ RPM_HASH = "62a25861c929e17a6391441ff3b511207ea9ea1c6adc672c5978fb7a00f9ba58d62f
 RPROVIDES:${PN} += "libxfce4util-devel \
 libxfce4util-devel(aarch-64) \
 pkgconfig(libxfce4util-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxfce4util-tools \
 libxfce4util7 \

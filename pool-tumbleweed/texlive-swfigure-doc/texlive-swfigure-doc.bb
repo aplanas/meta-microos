@@ -9,6 +9,7 @@ RPM_HASH = "283ed191196b4f3064cf9c29aa9ce929ac3c343ae733b22c6ac3189cb3296d982798
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-swfigure-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

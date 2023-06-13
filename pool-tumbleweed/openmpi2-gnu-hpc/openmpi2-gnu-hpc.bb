@@ -11,6 +11,7 @@ RPM_HASH = "760bad56702c680f3d99806f6a2e2b75d15e9ec62a35654f35895c66f726d02ff2b0
 
 RPROVIDES:${PN} += "openmpi2-gnu-hpc \
 openmpi2-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 openmpi_2_1_6-gnu-hpc"
 

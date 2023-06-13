@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(nfs-ganesha-ceph) \
 libfsalceph.so()(64bit) \
 nfs-ganesha-ceph \
 nfs-ganesha-ceph(aarch-64)"
+
 RDEPENDS:${PN} += "ceph-common \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

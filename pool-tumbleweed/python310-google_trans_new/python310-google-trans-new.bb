@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-google_trans_new \
 python3.10dist(google-trans-new) \
 python310-google_trans_new \
 python3dist(google-trans-new)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-urllib3"

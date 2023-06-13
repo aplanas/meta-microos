@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-moreorless \
 python3.10dist(moreorless) \
 python310-moreorless \
 python3dist(moreorless)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click \
 python310-volatile"

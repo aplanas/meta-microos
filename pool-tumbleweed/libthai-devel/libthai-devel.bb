@@ -16,6 +16,7 @@ RPM_HASH = "329c947f84426ccd10fe5a804ffdd1088968596745f37750d804dd2e229ca003a0ac
 RPROVIDES:${PN} += "libthai-devel \
 libthai-devel(aarch-64) \
 pkgconfig(libthai)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libthai0 \
 pkgconfig(datrie-0.2)"

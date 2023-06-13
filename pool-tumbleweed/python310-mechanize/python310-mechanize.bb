@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-mechanize \
 python3.10dist(mechanize) \
 python310-mechanize \
 python3dist(mechanize)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-html5lib"
 

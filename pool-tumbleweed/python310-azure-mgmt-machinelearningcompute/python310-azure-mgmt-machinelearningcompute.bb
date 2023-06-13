@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-machinelearningcompute \
 python3.10dist(azure-mgmt-machinelearningcompute) \
 python310-azure-mgmt-machinelearningcompute \
 python3dist(azure-mgmt-machinelearningcompute)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-nspkg \

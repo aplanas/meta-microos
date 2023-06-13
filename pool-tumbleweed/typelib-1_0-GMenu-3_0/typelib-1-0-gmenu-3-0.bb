@@ -14,6 +14,7 @@ RPM_HASH = "f50c25d2f655fcd000d68fd66be44b1058fab22a546238df376d637fbd1383d21daa
 RPROVIDES:${PN} += "typelib(GMenu) \
 typelib-1_0-GMenu-3_0 \
 typelib-1_0-GMenu-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgnome-menu-3.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

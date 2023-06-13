@@ -11,6 +11,7 @@ RPM_HASH = "739fe45f40adb24a39e4dfcc3f96fc212ed2645a5ac27bad8f91e57f666d15f3876e
 
 RPROVIDES:${PN} += "finger \
 finger(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

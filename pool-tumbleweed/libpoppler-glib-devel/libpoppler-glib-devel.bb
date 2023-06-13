@@ -11,6 +11,7 @@ RPM_HASH = "9ac0e4556ef30440c85e6758c42770dcb6bec17182d399b5fdbc1e0bd782807a575c
 RPROVIDES:${PN} += "libpoppler-glib-devel \
 libpoppler-glib-devel(aarch-64) \
 pkgconfig(poppler-glib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpoppler-glib8 \
 pkgconfig(cairo) \

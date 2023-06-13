@@ -13,6 +13,7 @@ RPM_HASH = "9da08571856646b2bc1899f95d00d7febfe6a70a9a5a141e30f940ee969748ebbbdf
 RPROVIDES:${PN} += "libtorrent-rasterbar.so.2.0()(64bit) \
 libtorrent-rasterbar2_0 \
 libtorrent-rasterbar2_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

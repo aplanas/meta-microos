@@ -12,6 +12,7 @@ RPM_HASH = "3bb139a56b2d126ce123e7e145dccfd28dcfb6e44ded7066e28f61d7c30432300868
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kvm_stat"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python3-curses"

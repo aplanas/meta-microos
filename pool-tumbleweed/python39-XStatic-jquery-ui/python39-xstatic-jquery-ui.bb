@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(xstatic-jquery-ui) \
 python39-XStatic-jquery-ui \
 python3dist(xstatic-jquery-ui)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

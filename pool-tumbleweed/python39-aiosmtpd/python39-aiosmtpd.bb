@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aiosmtpd) \
 python39-aiosmtpd \
 python3dist(aiosmtpd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

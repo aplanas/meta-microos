@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(progress.sty) \
 texlive-progress"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

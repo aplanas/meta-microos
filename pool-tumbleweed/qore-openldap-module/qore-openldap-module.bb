@@ -11,6 +11,7 @@ RPM_HASH = "403bba4f5a107376006ea1c994dc3a681f062388699b688ea35e673c3d671344c5d5
 
 RPROVIDES:${PN} += "qore-openldap-module \
 qore-openldap-module(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

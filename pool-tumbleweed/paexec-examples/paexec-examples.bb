@@ -12,6 +12,7 @@ RPM_HASH = "2fa7bf1a28e7a3ac9d5b89f2c765529f758d35a54a38848b547a67475566a7e8594b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "paexec-examples"
+
 RDEPENDS:${PN} += "paexec"
 
 inherit rpm

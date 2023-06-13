@@ -11,6 +11,7 @@ RPM_HASH = "1d95c884918c9fdd0eb111e4910b9a822f32c795cfba2c58ee951faf0e7289f2ca84
 RPROVIDES:${PN} += "libatasmart-devel \
 libatasmart-devel(aarch-64) \
 pkgconfig(libatasmart)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libatasmart4"
 

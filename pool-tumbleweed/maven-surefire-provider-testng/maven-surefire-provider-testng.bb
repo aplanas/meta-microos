@@ -13,6 +13,7 @@ mvn(org.apache.maven.surefire:surefire-testng) \
 mvn(org.apache.maven.surefire:surefire-testng-utils) \
 mvn(org.apache.maven.surefire:surefire-testng-utils:pom:) \
 mvn(org.apache.maven.surefire:surefire-testng:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.shared:maven-shared-utils) \

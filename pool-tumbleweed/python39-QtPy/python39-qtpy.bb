@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(qtpy) \
 python39-QtPy \
 python3dist(qtpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

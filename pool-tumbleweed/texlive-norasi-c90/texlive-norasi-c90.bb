@@ -14,6 +14,7 @@ tex(ftni8z.tfm) \
 tex(ftnr8z.tfm) \
 tex(norasi-c90.map) \
 texlive-norasi-c90"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

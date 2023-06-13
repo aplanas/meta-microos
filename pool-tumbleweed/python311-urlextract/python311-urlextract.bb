@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(urlextract) \
 python311-urlextract \
 python3dist(urlextract)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

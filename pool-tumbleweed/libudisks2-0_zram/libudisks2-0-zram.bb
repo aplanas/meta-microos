@@ -10,6 +10,7 @@ RPM_HASH = "b0fd2ae5ed83668a0048eb4e60d5acd56b27816f624e0275e7744a5a671f413fbb8f
 RPROVIDES:${PN} += "libudisks2-0_zram \
 libudisks2-0_zram(aarch-64) \
 libudisks2_zram.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

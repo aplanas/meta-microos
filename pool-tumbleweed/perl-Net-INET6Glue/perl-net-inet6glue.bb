@@ -32,6 +32,7 @@ RPROVIDES:${PN} += "perl(Net::INET6Glue) \
 perl(Net::INET6Glue::FTP) \
 perl(Net::INET6Glue::INET_is_INET6) \
 perl-Net-INET6Glue"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::Socket::IP)"
 

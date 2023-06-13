@@ -10,6 +10,7 @@ RPM_HASH = "76782b5da27ae39fee2920ec5e426523b6bea70db5e7c841e2fc99b049d3ce962163
 RPROVIDES:${PN} += "ghc-prof(th-abstraction-0.4.5.0-8bY5lBPMorfFW3yG6gFNZT) \
 ghc-th-abstraction-prof \
 ghc-th-abstraction-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \
 ghc-prof(ghc-prim-0.9.0) \

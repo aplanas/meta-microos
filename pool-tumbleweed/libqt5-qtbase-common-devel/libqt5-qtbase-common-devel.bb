@@ -27,6 +27,7 @@ rpm_macro(_libqt5_translationdir) \
 rpm_macro(make_jobs) \
 rpm_macro(qmake5) \
 rpm_macro(qmake5_install)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/env \
 cmake \

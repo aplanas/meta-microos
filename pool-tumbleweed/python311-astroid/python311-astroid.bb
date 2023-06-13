@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(astroid) \
 python311-astroid \
 python3dist(astroid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-lazy-object-proxy \
 python311-wrapt"

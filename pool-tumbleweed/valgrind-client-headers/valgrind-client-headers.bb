@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "valgrind-client-headers \
 valgrind-devel:/usr/include/valgrind/valgrind.h"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

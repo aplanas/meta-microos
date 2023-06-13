@@ -14,6 +14,7 @@ glib-networking(aarch-64) \
 libgiognomeproxy.so()(64bit) \
 libgiognutls.so()(64bit) \
 libgiolibproxy.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 glib2-tools \
 gsettings-desktop-schemas \

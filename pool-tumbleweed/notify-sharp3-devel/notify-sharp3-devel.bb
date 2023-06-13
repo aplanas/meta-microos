@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "notify-sharp3-devel \
 pkgconfig(notify-sharp-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 notify-sharp3 \
 pkgconfig(gtk-sharp-3.0)"

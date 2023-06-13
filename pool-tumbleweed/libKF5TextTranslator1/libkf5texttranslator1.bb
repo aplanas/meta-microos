@@ -10,6 +10,7 @@ RPM_HASH = "5ad0c91e2ce2a2dc79478bd55c8a6e10bb58c83f8c4ae4c8982100a0c57c87054707
 RPROVIDES:${PN} += "libKF5TextTranslator.so.1()(64bit) \
 libKF5TextTranslator1 \
 libKF5TextTranslator1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ktextaddons \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "4059c35b1d64738c41b0f21bdde1380e81f4567477de89980d8c700bd9707a6b16c3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-terminal"
+
 RDEPENDS:${PN} += "gnome-terminal"
 
 inherit rpm

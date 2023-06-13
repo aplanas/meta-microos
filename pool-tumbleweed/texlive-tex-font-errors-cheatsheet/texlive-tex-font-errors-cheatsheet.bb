@@ -12,6 +12,7 @@ RPM_HASH = "4190c72884eaeea5f8eb64910608d155954700373ac29cd2ff1c125159d79b2b8ee1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-font-errors-cheatsheet"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

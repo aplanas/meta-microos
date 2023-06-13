@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(trio) \
 python39-trio \
 python3dist(trio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-async_generator \
 python39-attrs \

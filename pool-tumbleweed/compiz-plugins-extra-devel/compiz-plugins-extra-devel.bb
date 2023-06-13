@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "compiz-fusion-plugins-extra-devel \
 compiz-plugins-extra-devel \
 compiz-plugins-extra-devel(aarch-64) \
 pkgconfig(compiz-animationaddon)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 compiz-plugins-extra \
 pkgconfig \

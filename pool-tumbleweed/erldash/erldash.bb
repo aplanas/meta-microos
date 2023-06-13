@@ -117,6 +117,7 @@ bundled(rust-crate:version_check) \
 bundled(rust-crate:waker-fn) \
 erldash \
 erldash(aarch-64)"
+
 RDEPENDS:${PN} += "erlang \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

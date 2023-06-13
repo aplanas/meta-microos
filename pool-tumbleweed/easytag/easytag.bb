@@ -27,6 +27,7 @@ mimehandler(audio/x-opus+ogg) \
 mimehandler(audio/x-speex+ogg) \
 mimehandler(audio/x-vorbis+ogg) \
 mimehandler(inode/directory)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \

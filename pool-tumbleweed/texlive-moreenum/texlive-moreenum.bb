@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(moreenum.sty) \
 texlive-moreenum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

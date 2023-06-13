@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-yamlloader \
 python3.10dist(yamlloader) \
 python310-yamlloader \
 python3dist(yamlloader)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

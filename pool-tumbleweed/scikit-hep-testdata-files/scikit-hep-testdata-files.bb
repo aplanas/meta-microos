@@ -17,6 +17,7 @@ RPM_HASH = "b5a62fa624255293870cd1f650f9aeaae5098b0f6f77d1321e0e1f1b463b308eea30
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scikit-hep-testdata-files"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

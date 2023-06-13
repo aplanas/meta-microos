@@ -18,6 +18,7 @@ RPM_HASH = "202991e2dd82b378a203944b4568754048d488a39ff1bda17ad0ff9cb813a12b3981
 
 RPROVIDES:${PN} += "triggerhappy \
 triggerhappy(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libsystemd.so.0()(64bit) \

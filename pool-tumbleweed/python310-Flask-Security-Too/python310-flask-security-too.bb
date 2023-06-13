@@ -16,6 +16,7 @@ python3.10dist(flask-security-too) \
 python310-Flask-Security \
 python310-Flask-Security-Too \
 python3dist(flask-security-too)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-Flask-Babel \

@@ -10,6 +10,7 @@ RPM_HASH = "8713d7911be1ad944daefdcdec055b37f6f98c972928a897b1c3317063ba8e3f6525
 
 RPROVIDES:${PN} += "f2fs-tools \
 f2fs-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \

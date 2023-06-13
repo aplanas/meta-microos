@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-trove-classifiers \
 python3.10dist(trove-classifiers) \
 python310-trove-classifiers \
 python3dist(trove-classifiers)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

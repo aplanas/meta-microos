@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gmp.sty) \
 texlive-gmp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

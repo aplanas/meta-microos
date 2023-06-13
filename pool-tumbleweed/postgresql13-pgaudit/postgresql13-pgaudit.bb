@@ -19,6 +19,7 @@ RPM_HASH = "770345b822dc58325c1e63c5c7bae2af026497fb99ed2b6bb54b4b6c9e2eb9900077
 RPROVIDES:${PN} += "postgresql13-pgaudit \
 postgresql13-pgaudit(aarch-64) \
 postgresql13-pgaudit-llvmjit"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

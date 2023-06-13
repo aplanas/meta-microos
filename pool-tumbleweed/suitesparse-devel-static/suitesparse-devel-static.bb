@@ -10,6 +10,7 @@ RPM_HASH = "f627707c0e770b60dd102c05e010a0e47940ca735b6bc503f97dace6f9f6b4bf6e32
 
 RPROVIDES:${PN} += "suitesparse-devel-static \
 suitesparse-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "suitesparse-devel"
 
 inherit rpm

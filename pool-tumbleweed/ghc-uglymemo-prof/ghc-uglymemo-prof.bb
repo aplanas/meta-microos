@@ -10,6 +10,7 @@ RPM_HASH = "1b69bc80cae82d06712ca21c0b9eaabf460b4841cf956ea7c4fbda6b9cb70c591947
 RPROVIDES:${PN} += "ghc-prof(uglymemo-0.1.0.1-Balkr8KlO4bDeailuusufT) \
 ghc-uglymemo-prof \
 ghc-uglymemo-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \
 ghc-uglymemo-devel"

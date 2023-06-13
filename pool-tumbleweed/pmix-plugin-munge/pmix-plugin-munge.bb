@@ -9,6 +9,7 @@ RPM_HASH = "0af2ff414e73e85b33d45dee3735822649a0d880cba098d30e5801840d59656d23bd
 
 RPROVIDES:${PN} += "pmix-plugin-munge \
 pmix-plugin-munge(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

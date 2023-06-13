@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libopenvas_wmiclient.so.1()(64bit) \
 libopenvas_wmiclient.so.1(OPENVAS_WMICLIENT)(64bit) \
 libopenvas_wmiclient1 \
 libopenvas_wmiclient1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -35,6 +35,7 @@ perl(IO::Event::INET::Callback) \
 perl(IO::Event::Socket::UNIX) \
 perl(IO::Event::UNIX::Callback) \
 perl-IO-Event"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::Handle) \
 perl(List::MoreUtils) \

@@ -18,6 +18,7 @@ libtsm.so.4(LIBTSM_3)(64bit) \
 libtsm.so.4(LIBTSM_4)(64bit) \
 libtsm4 \
 libtsm4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

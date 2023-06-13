@@ -10,6 +10,7 @@ RPM_HASH = "23dec61fe1e5aee365a9b545176708ce720018af9e0091f36d95276b67b8faa20051
 
 RPROVIDES:${PN} += "lighttpd-mod_vhostdb_mysql \
 lighttpd-mod_vhostdb_mysql(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libmariadb.so.3()(64bit) \
 libmariadb.so.3(libmysqlclient_18)(64bit) \

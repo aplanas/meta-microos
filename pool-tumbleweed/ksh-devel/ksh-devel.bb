@@ -20,6 +20,7 @@ RPM_HASH = "0a786456f1a6ff62f2986fc12c17487c23385b757ec79e315ed12efc1efab15c22f1
 
 RPROVIDES:${PN} += "ksh-devel \
 ksh-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ksh"
 
 inherit rpm

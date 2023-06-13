@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "md2workfow \
 python3.11dist(md2workflow) \
 python311-md2workflow \
 python3dist(md2workflow)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

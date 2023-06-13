@@ -15,6 +15,7 @@ metainfo(org.opensuse.yast.Firewall.metainfo.xml) \
 yast2-config-firewall \
 yast2-firewall \
 yast2-trans-firewall"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-ruby-bindings"
 

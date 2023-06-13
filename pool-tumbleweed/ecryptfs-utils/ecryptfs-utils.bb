@@ -15,6 +15,7 @@ libecryptfs_key_mod_openssl.so()(64bit) \
 libecryptfs_key_mod_passphrase.so()(64bit) \
 libecryptfs_key_mod_pkcs11_helper.so()(64bit) \
 libecryptfs_key_mod_tspi.so()(64bit)"
+
 RDEPENDS:${PN} += "(kmod(ecryptfs.ko) if kernel) \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

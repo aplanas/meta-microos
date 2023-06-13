@@ -15,6 +15,7 @@ pattern-order() \
 patterns-kde-kde_edutainment \
 patterns-openSUSE-kde4_edutainment \
 patterns-openSUSE-kde_edutainment"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

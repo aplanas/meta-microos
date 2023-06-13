@@ -11,6 +11,7 @@ RPM_HASH = "cd21392019d603f7218984a98417d46fed73f199db12d412f31c86bacee46a1719dc
 RPROVIDES:${PN} += "libsuil_x11.so()(64bit) \
 suil-plugin-x11 \
 suil-plugin-x11(aarch-64)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libsuil-0-0"
 

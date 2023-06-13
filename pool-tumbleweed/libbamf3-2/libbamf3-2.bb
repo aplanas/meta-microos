@@ -12,6 +12,7 @@ RPM_HASH = "53608436bbc1268bc4074f9ca7fdb5b862c20b4f1e3989c2fc07dbc5d1a149449da6
 RPROVIDES:${PN} += "libbamf3-2 \
 libbamf3-2(aarch-64) \
 libbamf3.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

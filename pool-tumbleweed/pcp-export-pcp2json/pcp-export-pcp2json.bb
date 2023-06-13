@@ -10,6 +10,7 @@ RPM_HASH = "eb370792e59cfaa276c775d5797f7eb64e67af301164d61dcfd44e6381e2640f6dc6
 
 RPROVIDES:${PN} += "pcp-export-pcp2json \
 pcp-export-pcp2json(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 libpcp3 \
 python3-pcp"

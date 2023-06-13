@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xunicode.sty) \
 texlive-xunicode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

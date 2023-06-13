@@ -9,6 +9,7 @@ RPM_HASH = "d6439de44c3fc0d668608ce5e3ab9335f39404a92dff5a083dceea1b9ae79dacdcf2
 
 RPROVIDES:${PN} += "helm \
 helm(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

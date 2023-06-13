@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(colormap) \
 python39-colormap \
 python3dist(colormap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-easydev \
 python39-matplotlib"

@@ -14,6 +14,7 @@ RPM_HASH = "296f2b8324426fdd2d84386fdc6b0ecb681343523de5148468dec02fcf52c0365757
 
 RPROVIDES:${PN} += "netcdf_4_9_2-gnu-openmpi1-hpc-devel-static \
 netcdf_4_9_2-gnu-openmpi1-hpc-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libcurl-devel \
 netcdf_4_9_2-gnu-openmpi1-hpc-devel \
 zlib-devel"

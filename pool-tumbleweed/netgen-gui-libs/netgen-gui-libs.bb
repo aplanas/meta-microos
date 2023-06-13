@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libnggui.so()(64bit) \
 netgen-gui-libs \
 netgen-gui-libs(aarch-64) \
 netgen:/usr/lib64/netgen/libnggui.so"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLU.so.1()(64bit) \

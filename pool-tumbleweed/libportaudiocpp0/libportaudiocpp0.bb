@@ -13,6 +13,7 @@ RPM_HASH = "d6f02499f96c20851355b844298d570566878c8d37c745ed979aca3fe5c78e7c466f
 RPROVIDES:${PN} += "libportaudiocpp.so.0()(64bit) \
 libportaudiocpp0 \
 libportaudiocpp0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

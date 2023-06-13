@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mailman3-fedmsg-plugin \
 python3.10dist(mailman3-fedmsg-plugin) \
 python310-mailman3-fedmsg-plugin \
 python3dist(mailman3-fedmsg-plugin)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

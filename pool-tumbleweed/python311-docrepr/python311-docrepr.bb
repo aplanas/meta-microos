@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(docrepr) \
 python311-docrepr \
 python3dist(docrepr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Jinja2 \
 python311-Sphinx \

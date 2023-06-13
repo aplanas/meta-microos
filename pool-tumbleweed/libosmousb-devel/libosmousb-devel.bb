@@ -14,6 +14,7 @@ RPM_HASH = "699abdf531aaf964995161175f519c4d09f6efa50a6d3e186ac01bc0554cac4636a6
 RPROVIDES:${PN} += "libosmousb-devel \
 libosmousb-devel(aarch-64) \
 pkgconfig(libosmousb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmocore-devel \
 libosmousb0 \

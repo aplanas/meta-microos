@@ -12,6 +12,7 @@ RPM_HASH = "92f84e9cf13fc5cb57f7bce0d0adc0adbc773a9c5c816b081425f051df7590d16531
 RPROVIDES:${PN} += "lua53-event \
 lua53-luaevent \
 lua53-luaevent(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

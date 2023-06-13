@@ -12,6 +12,7 @@ RPM_HASH = "fde8d5b7698435cab2c93e2aa983e0e956053ea9d816bfeb801cdf87ad6d41ab2048
 RPROVIDES:${PN} += "liblttng-ctl.so.0()(64bit) \
 liblttng-ctl0 \
 liblttng-ctl0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

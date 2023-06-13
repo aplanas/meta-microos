@@ -11,6 +11,7 @@ RPM_HASH = "538a7b8626c5ccf9a0dd91fdb8a7a37e53753b339fcaec891522bd576cb7aefcc820
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scotch-gnu-hpc-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 scotch_6_1_0-gnu-hpc-devel"
 

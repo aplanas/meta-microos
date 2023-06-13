@@ -23,6 +23,7 @@ RPM_HASH = "561723b71222d480d84ac4a6232a3454adfa2584851ccb46e389824dabbffa7009cd
 RPROVIDES:${PN} += "fcitx-sunpinyin \
 fcitx-sunpinyin(aarch-64) \
 locale(fcitx:zh_CN;zh_SG)"
+
 RDEPENDS:${PN} += "fcitx \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

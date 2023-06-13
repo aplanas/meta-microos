@@ -11,6 +11,7 @@ RPM_HASH = "8ec3b5b4d3f0b72f62cecb6259041f7965fb238f4bb416194646cac94c0e052d3bec
 RPROVIDES:${PN} += "libnautilus-image-converter.so()(64bit) \
 nautilus-image-converter \
 nautilus-image-converter(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -19,6 +19,7 @@ RPM_HASH = "ade663c50c690dca73ffd51961b6076501bc7975ca8b5c8cefa63b55d05d02e4b8ea
 RPROVIDES:${PN} += "libgirara-gtk3-3 \
 libgirara-gtk3-3(aarch-64) \
 libgirara-gtk3.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

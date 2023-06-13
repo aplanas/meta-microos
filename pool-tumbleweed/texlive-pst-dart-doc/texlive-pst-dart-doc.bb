@@ -9,6 +9,7 @@ RPM_HASH = "d0c7816801c9fca2981dda9e83b9c4624766688e76d258659ac0f90ff564453f5731
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-dart-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

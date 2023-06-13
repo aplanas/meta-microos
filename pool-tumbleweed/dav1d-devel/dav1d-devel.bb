@@ -11,6 +11,7 @@ RPM_HASH = "a8b2f03a392ad554bc6f0dc24eafaeeaa0caba00b85a06bd99d778a29397230330a2
 RPROVIDES:${PN} += "dav1d-devel \
 dav1d-devel(aarch-64) \
 pkgconfig(dav1d)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdav1d6"
 

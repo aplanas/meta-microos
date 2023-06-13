@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-jsonschema \
 python3.10dist(jsonschema) \
 python310-jsonschema \
 python3dist(jsonschema)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

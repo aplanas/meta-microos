@@ -9,6 +9,7 @@ RPM_HASH = "f6c34cba3d47b1f7b7e8c0e49fadec730fc23477fd8240de49e335abf426f4d843ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-andika-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

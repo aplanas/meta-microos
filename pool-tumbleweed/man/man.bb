@@ -14,6 +14,7 @@ libmandb-2.10.2.so()(64bit) \
 man \
 man(aarch-64) \
 man_db"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

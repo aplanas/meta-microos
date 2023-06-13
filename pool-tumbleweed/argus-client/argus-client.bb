@@ -10,6 +10,7 @@ RPM_HASH = "0ff1aea9aade680f5baa459bde18226910581e18091c9345f04e65eb7626aecbf704
 RPROVIDES:${PN} += "argus-client \
 argus-client(aarch-64) \
 config(argus-client)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 argus \
 ld-linux-aarch64.so.1()(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "92127284b87ffa49dacc5bea16f0784a73b32cb0b55d4595bdef40a6eae678d90a45
 
 RPROVIDES:${PN} += "dbus-1-glib-tool \
 dbus-1-glib-tool(aarch-64)"
+
 RDEPENDS:${PN} += "dbus-1-glib \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

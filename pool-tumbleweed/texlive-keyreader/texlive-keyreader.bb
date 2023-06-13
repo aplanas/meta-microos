@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(keyreader.sty) \
 texlive-keyreader"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

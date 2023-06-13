@@ -9,6 +9,7 @@ RPM_HASH = "b9bf4f4101f3c1629fec7cec8e513a7a667635815b7b70565647ed5ea51ec99c3849
 
 RPROVIDES:${PN} += "kid3-qt-doc \
 kid3-qt-doc(aarch-64)"
+
 RDEPENDS:${PN} += "kid3-qt"
 
 inherit rpm

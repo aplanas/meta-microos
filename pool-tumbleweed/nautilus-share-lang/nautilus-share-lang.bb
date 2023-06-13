@@ -64,6 +64,7 @@ locale(nautilus-share:zh_HK) \
 locale(nautilus-share:zh_TW) \
 nautilus-share-lang \
 nautilus-share-lang-all"
+
 RDEPENDS:${PN} += "nautilus-share"
 
 inherit rpm

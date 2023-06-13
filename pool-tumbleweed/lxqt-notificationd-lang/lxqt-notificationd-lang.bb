@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-notificationd-lang \
 lxqt-notificationd-lang-all"
+
 RDEPENDS:${PN} += "lxqt-notificationd"
 
 inherit rpm

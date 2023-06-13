@@ -18,6 +18,7 @@ rubygem(ruby:3.2.0:logging) \
 rubygem(ruby:3.2.0:logging:2) \
 rubygem(ruby:3.2.0:logging:2.3) \
 rubygem(ruby:3.2.0:logging:2.3.1)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

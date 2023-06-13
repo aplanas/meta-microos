@@ -13,6 +13,7 @@ metainfo() \
 metainfo(zypp.gui.metainfo.xml) \
 zypp-gui \
 zypp-gui(aarch-64)"
+
 RDEPENDS:${PN} += "PackageKit \
 libadwaita-1.so.0()(64bit) \
 libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \

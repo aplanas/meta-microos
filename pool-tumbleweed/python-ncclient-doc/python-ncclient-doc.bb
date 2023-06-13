@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-ncclient-doc \
 python310-python-ncclient-doc \
 python311-python-ncclient-doc \
 python39-python-ncclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-marketplaceordering \
 python3.10dist(azure-mgmt-marketplaceordering) \
 python310-azure-mgmt-marketplaceordering \
 python3dist(azure-mgmt-marketplaceordering)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

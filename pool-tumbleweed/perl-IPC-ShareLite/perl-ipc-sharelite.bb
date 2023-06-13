@@ -63,6 +63,7 @@ RPM_HASH = "f9d54b27df786000863c38088a6beeed2c832a44a771a6bf93e966ca3a42d47f94c9
 RPROVIDES:${PN} += "perl(IPC::ShareLite) \
 perl-IPC-ShareLite \
 perl-IPC-ShareLite(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

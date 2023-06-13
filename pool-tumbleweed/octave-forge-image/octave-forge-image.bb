@@ -12,6 +12,7 @@ RPM_HASH = "0b3bf869595ffd9d689223d0bdbfeb3338497e9a2f238c22554e1e9ec4c8b05fcf49
 
 RPROVIDES:${PN} += "octave-forge-image \
 octave-forge-image(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

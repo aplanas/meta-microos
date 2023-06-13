@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(pyocd) \
 python311-pyOCD \
 python311-pyocd \
 python3dist(pyocd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

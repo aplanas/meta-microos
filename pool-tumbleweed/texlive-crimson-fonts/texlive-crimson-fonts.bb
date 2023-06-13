@@ -148,6 +148,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(crimson) \
 texlive-crimson-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -22,6 +22,7 @@ RPM_HASH = "0e6b220dcecde40b1707ea595cbccfc71c22c9e34e2747ba7ad9654c2c7710bb5259
 RPROVIDES:${PN} += "libMagick++-7.Q16HDRI.so.5()(64bit) \
 libMagick++-7_Q16HDRI5 \
 libMagick++-7_Q16HDRI5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ImageMagick \
 ld-linux-aarch64.so.1()(64bit) \

@@ -17,6 +17,7 @@ RPM_HASH = "44d92ddd62628af2dded263d1f2927b3d94661a9f3feaf4eca9fca8e5f0cc419bb65
 RPROVIDES:${PN} += "libpmem-devel \
 libpmem-devel(aarch-64) \
 pkgconfig(libpmem)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "bfd0380219f0c4ea7ad06552961fa9db8b518df2e11d1b306cafcf8074504515cfe6
 RPROVIDES:${PN} += "libKF5SyntaxHighlighting.so.5()(64bit) \
 libKF5SyntaxHighlighting5 \
 libKF5SyntaxHighlighting5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

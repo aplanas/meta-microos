@@ -13,6 +13,7 @@ RPM_HASH = "b804fa9191df787001173ea6d4ff3edf23911593fea8a1cd9e1e3fdad8abe819c73e
 
 RPROVIDES:${PN} += "tpm-quote-tools \
 tpm-quote-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

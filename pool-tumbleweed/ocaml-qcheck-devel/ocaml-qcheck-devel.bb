@@ -37,6 +37,7 @@ ocamlx(QCheck2) \
 ocamlx(QCheck_base_runner) \
 ocamlx(QCheck_ounit) \
 ocamlx(QCheck_runner)"
+
 RDEPENDS:${PN} += "ocaml(Astlib) \
 ocaml(Astlib__) \
 ocaml(Astlib__Ast_402) \

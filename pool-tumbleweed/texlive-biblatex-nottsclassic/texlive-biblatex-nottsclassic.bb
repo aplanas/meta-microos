@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(nottsclassic-english.lbx) \
 tex(nottsclassic.bbx) \
 tex(nottsclassic.cbx) \
 texlive-biblatex-nottsclassic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

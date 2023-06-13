@@ -11,6 +11,7 @@ RPM_HASH = "f8e1f1a61e2895047006b1d98b5910a7497ff52c0305b9c802dca372d1e828a4c3e2
 RPROVIDES:${PN} += "libcbor-devel \
 libcbor-devel(aarch-64) \
 pkgconfig(libcbor)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcbor0_10"
 

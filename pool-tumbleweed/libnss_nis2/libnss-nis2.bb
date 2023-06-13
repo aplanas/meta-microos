@@ -13,6 +13,7 @@ libnss_nis.so.2()(64bit) \
 libnss_nis.so.2(NSS_NIS_PRIVATE_2.0)(64bit) \
 libnss_nis2 \
 libnss_nis2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

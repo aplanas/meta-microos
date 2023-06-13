@@ -29,6 +29,7 @@ tex(paperra1.cfg) \
 tex(paperra2.cfg) \
 tex(sciposter.cls) \
 texlive-sciposter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

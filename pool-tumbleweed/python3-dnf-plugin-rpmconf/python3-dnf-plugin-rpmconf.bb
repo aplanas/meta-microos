@@ -15,6 +15,7 @@ dnf-plugins-extras-rpmconf \
 python3-dnf-plugin-rpmconf \
 python3-dnf-plugins-extras-rpmconf \
 yum-merge-conf"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-dnf-plugins-extras-common \
 python3-rpmconf"

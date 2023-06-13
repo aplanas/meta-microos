@@ -13,6 +13,7 @@ RPM_HASH = "643d31dc651e4a4b85d03f85b0f719fa67b45f840e3686e3fb2fe7d65ed3e9a53c3f
 RPROVIDES:${PN} += "typelib(Urfkill) \
 typelib-1_0-Urfkill-0_0 \
 typelib-1_0-Urfkill-0_0(aarch-64)"
+
 RDEPENDS:${PN} += "liburfkill-glib.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

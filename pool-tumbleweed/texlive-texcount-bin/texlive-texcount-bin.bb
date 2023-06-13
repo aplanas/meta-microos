@@ -9,6 +9,7 @@ RPM_HASH = "3714173dcdf96e999b7d21c7f7352a85ab87938e4d5c4b502eeb3b0da3f2685b0b94
 
 RPROVIDES:${PN} += "texlive-texcount-bin \
 texlive-texcount-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-texcount"
 
 inherit rpm

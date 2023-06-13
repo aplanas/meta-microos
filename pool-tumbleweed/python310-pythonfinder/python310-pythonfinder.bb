@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pythonfinder \
 python3.10dist(pythonfinder) \
 python310-pythonfinder \
 python3dist(pythonfinder)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

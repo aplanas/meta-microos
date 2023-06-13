@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mkosi \
 python3.10dist(mkosi) \
 python3dist(mkosi)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 python(abi) \
 python3 \

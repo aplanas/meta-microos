@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(xmltex.cfg) \
 tex(xmltex.tex) \
 texlive-xmltex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

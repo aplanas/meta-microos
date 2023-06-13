@@ -15,6 +15,7 @@ mono(gapi-fixup) \
 mono(gapi-parser) \
 mono(gapi_codegen) \
 pkgconfig(gapi-2.0)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/pkg-config \

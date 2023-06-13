@@ -66,6 +66,7 @@ locale(gnome-characters:tr) \
 locale(gnome-characters:uk) \
 locale(gnome-characters:zh_CN) \
 locale(gnome-characters:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-characters"
 
 inherit rpm

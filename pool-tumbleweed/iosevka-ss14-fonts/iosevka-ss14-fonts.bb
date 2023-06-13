@@ -14,6 +14,7 @@ RPM_HASH = "e5801e7ebd15191c7750c5909730668d2f932db13e47194a845138ef8e148fd89817
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss14-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

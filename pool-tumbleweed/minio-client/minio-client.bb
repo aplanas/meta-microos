@@ -11,6 +11,7 @@ RPM_HASH = "99a9e7a131c7053d3ee4dc001beb937f4a0c44d889d4f81055623da83349e6ce959e
 
 RPROVIDES:${PN} += "minio-client \
 minio-client(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

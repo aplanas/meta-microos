@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-noto-serif-sc-bold-fonts \
 noto-serif-sc-bold-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

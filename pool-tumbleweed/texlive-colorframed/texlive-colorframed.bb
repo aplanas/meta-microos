@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(colorframed.sty) \
 texlive-colorframed"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

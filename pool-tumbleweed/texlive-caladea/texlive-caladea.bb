@@ -63,6 +63,7 @@ tex(cld_fjy5hl.enc) \
 tex(cld_prieif.enc) \
 tex(cld_w45fff.enc) \
 texlive-caladea"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

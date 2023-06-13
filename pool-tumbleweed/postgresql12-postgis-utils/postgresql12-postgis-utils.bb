@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgis-utils \
 postgresql12-postgis-utils"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 perl-DBD-Pg \

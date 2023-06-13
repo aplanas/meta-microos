@@ -9,6 +9,7 @@ RPM_HASH = "6a6a42314202b176ffc9370800c4b91a9b51864455273b5907e5469346e0277b676e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-postgresql-simple-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

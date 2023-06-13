@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Config::INI::Reader::Ordered) \
 perl-Config-INI-Reader-Ordered"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Config::INI::Reader)"
 

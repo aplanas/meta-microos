@@ -17,6 +17,7 @@ RPM_HASH = "08f1e9cb0a73a1fdc7a3f449263f4fad5fd3ae32e6b75e74a6347d7d5f09e956cebf
 RPROVIDES:${PN} += "fig2dev \
 transfig \
 transfig(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

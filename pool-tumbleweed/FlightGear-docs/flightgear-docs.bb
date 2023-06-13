@@ -10,6 +10,7 @@ RPM_HASH = "1d1246d86ac146c92129b50012ae37fe964705b8b2e42f0c3b92cd4b84d8a45f8197
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "FlightGear-docs"
+
 RDEPENDS:${PN} += "FlightGear-data"
 
 inherit rpm

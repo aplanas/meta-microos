@@ -12,6 +12,7 @@ RPM_HASH = "3f2e63f8431ede72807d630969e20c40f9098f40b918ae6ee3d0040aa1752d897bd3
 RPROVIDES:${PN} += "python3-libvshadow \
 python310-libvshadow \
 python310-libvshadow(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

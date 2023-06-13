@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(latex-git-log.1) \
 texlive-latex-git-log-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-pylint \
 python3.10dist(pylint) \
 python310-pylint \
 python3dist(pylint)"
+
 RDEPENDS:${PN} += "(python310-astroid >= 2.15.4 with python310-astroid < 2.17.0~dev0) \
 (python310-isort >= 4.2.5 with python310-isort < 6) \
 (python310-mccabe >= 0.6 with python310-mccabe < 0.8) \

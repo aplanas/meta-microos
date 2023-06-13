@@ -14,6 +14,7 @@ RPM_HASH = "9a85d94f8ee389b2412ce05494186f593cea00a40fafce5aa10c35cfa38c3b76a40f
 RPROVIDES:${PN} += "typelib(AyatanaIdo3) \
 typelib-1_0-AyatanaIdo3-0_4 \
 typelib-1_0-AyatanaIdo3-0_4(aarch-64)"
+
 RDEPENDS:${PN} += "libayatana-ido3-0.4.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

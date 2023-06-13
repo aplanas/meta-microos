@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(biocon-old.sty) \
 tex(biocon.sty) \
 texlive-biocon"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

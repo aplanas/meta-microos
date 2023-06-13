@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Cache::Memcached) \
 perl(Cache::Memcached::GetParser) \
 perl-Cache-Memcached"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(String::CRC32)"
 

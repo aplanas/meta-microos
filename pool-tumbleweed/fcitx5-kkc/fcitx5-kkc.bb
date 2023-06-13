@@ -13,6 +13,7 @@ fcitx5-kkc(aarch-64) \
 libfcitx5-kkc-config.so()(64bit) \
 metainfo() \
 metainfo(org.fcitx.Fcitx5.Addon.Kkc.metainfo.xml)"
+
 RDEPENDS:${PN} += "fcitx5 \
 kkc-data \
 ld-linux-aarch64.so.1()(64bit) \

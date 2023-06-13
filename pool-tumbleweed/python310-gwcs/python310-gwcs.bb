@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-gwcs \
 python3.10dist(gwcs) \
 python310-gwcs \
 python3dist(gwcs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-asdf \
 python310-asdf-astropy \

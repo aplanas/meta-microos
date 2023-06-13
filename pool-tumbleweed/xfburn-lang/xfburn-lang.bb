@@ -62,6 +62,7 @@ locale(xfburn:zh_CN) \
 locale(xfburn:zh_TW) \
 xfburn-lang \
 xfburn-lang-all"
+
 RDEPENDS:${PN} += "xfburn"
 
 inherit rpm

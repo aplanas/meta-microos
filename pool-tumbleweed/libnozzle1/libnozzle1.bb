@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libnozzle.so.1()(64bit) \
 libnozzle.so.1(LIBNOZZLE)(64bit) \
 libnozzle1 \
 libnozzle1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

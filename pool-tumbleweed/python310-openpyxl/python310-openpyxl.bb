@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-openpyxl \
 python3.10dist(openpyxl) \
 python310-openpyxl \
 python3dist(openpyxl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-et_xmlfile"
 

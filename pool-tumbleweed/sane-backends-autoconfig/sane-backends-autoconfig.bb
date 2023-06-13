@@ -28,6 +28,7 @@ RPM_HASH = "27316c8f95784e018369e2ef340dd6e523bf0ffc32ed01a9f4e9cd17dc9140607e46
 
 RPROVIDES:${PN} += "sane-backends-autoconfig \
 sane-backends-autoconfig(aarch-64)"
+
 RDEPENDS:${PN} += "libsane1"
 
 inherit rpm

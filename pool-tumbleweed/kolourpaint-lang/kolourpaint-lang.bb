@@ -76,6 +76,7 @@ locale(kolourpaint:uk) \
 locale(kolourpaint:zh_CN) \
 locale(kolourpaint:zh_HK) \
 locale(kolourpaint:zh_TW)"
+
 RDEPENDS:${PN} += "kolourpaint"
 
 inherit rpm

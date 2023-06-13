@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.11dist(mako) \
 python311-Mako \
 python311-mako \
 python3dist(mako)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \

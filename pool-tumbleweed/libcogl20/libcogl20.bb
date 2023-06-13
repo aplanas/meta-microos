@@ -13,6 +13,7 @@ libcogl-path.so.20()(64bit) \
 libcogl.so.20()(64bit) \
 libcogl20 \
 libcogl20(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 Mesa \
 ld-linux-aarch64.so.1()(64bit) \

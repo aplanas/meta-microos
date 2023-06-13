@@ -9,6 +9,7 @@ RPM_HASH = "18d7520c625499754b2ff12a82fbf26f78caccf6ff348b767fa6fd3fc0c59f383bbd
 
 RPROVIDES:${PN} += "river-riverctl \
 river-riverctl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

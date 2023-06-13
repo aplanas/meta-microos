@@ -13,6 +13,7 @@ python39-python-ptrace \
 python39-python-ptrace(aarch-64) \
 python3dist(cptrace) \
 python3dist(python-ptrace)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

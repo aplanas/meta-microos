@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-txWS \
 python3.10dist(txws) \
 python310-txWS \
 python3dist(txws)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Twisted"
 

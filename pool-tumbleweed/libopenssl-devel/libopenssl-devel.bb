@@ -15,6 +15,7 @@ pkgconfig(libcrypto) \
 pkgconfig(libopenssl) \
 pkgconfig(libssl) \
 pkgconfig(openssl)"
+
 RDEPENDS:${PN} += "libopenssl-3-devel \
 libopenssl3 \
 openssl \

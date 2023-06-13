@@ -18,6 +18,7 @@ RPM_HASH = "b18855893e114457f2a024adfe7c262f81f09e5db10315f315a157ec3c70a06814ac
 
 RPROVIDES:${PN} += "idep \
 idep(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

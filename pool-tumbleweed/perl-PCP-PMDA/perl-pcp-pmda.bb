@@ -14,6 +14,7 @@ RPM_HASH = "3d18fc8a32f1c782f95ca0f4ce38c5ae6e0552ae006438b8d703ce68a91f9fbb3a75
 RPROVIDES:${PN} += "perl(PCP::PMDA) \
 perl-PCP-PMDA \
 perl-PCP-PMDA(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "20644c8f93ffa1e06cdda036aa229d121aec9fcf58eba7aa6122725940750267ba29
 RPROVIDES:${PN} += "ghc-conduit-extra-devel \
 ghc-conduit-extra-devel(aarch-64) \
 ghc-devel(conduit-extra-1.3.6-F6u9UYzIZvy2L2764Izuhr)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-conduit-extra \

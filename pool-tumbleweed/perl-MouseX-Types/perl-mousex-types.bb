@@ -14,6 +14,7 @@ perl(MouseX::Types::Moose) \
 perl(MouseX::Types::Mouse) \
 perl(MouseX::Types::TypeDecorator) \
 perl-MouseX-Types"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Any::Moose) \
 perl(Mouse)"

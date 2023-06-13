@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Sub::Defer) \
 perl(Sub::Quote) \
 perl-Sub-Quote"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

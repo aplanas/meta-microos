@@ -15,6 +15,7 @@ RPM_HASH = "f40fe5c71c184785390475e7db6d8b8a3cc0c098a8cc3c644aa37f91e6dbcea0b47c
 RPROVIDES:${PN} += "brltty-driver-libbraille \
 brltty-driver-libbraille(aarch-64) \
 libbrlttyblb.so()(64bit)"
+
 RDEPENDS:${PN} += "brltty \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "b7c13419ee002f6f69e46fd99c61c52a80ff1abf768c93f6fa7d9fd978e198843faf
 
 RPROVIDES:${PN} += "racket-devel \
 racket-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libffi-devel \
 racket"

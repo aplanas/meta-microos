@@ -9,6 +9,7 @@ RPM_HASH = "4147b2ee2c3f15ff0e672551f104ec2735d5ad6d9ba84e2dc09fca797f1b4b4a97ea
 
 RPROVIDES:${PN} += "texlive-match_parens-bin \
 texlive-match_parens-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-match_parens"
 
 inherit rpm

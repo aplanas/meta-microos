@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cmake(Rinutils) \
 pkgconfig(librinutils) \
 rinutils-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

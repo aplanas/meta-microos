@@ -9,6 +9,7 @@ RPM_HASH = "0e9431cf6805d757a64fa77dba4eff751e93420de5ab107122dea63395de7208240e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fwupd-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

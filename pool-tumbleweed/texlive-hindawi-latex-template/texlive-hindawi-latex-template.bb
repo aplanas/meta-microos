@@ -12,6 +12,7 @@ RPM_HASH = "df724cf54e22a6dc73412f850e624b6b80b301e2c4b1a6766dd738975b4191ce8d78
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hindawi-latex-template"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

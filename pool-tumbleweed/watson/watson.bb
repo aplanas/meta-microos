@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(td-watson) \
 python3dist(td-watson) \
 watson"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-arrow \

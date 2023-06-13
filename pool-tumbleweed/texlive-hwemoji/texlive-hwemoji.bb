@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hwemoji.sty) \
 texlive-hwemoji"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-powermanagement-lang \
 lxqt-powermanagement-lang-all"
+
 RDEPENDS:${PN} += "lxqt-powermanagement"
 
 inherit rpm

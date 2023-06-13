@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(poormanlog.sty) \
 tex(poormanlog.tex) \
 texlive-poormanlog"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

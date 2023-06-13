@@ -23,6 +23,7 @@ RPM_HASH = "e2006e07c1e30e505f0178745ee16eb23f507564e0645d72df6f0cdc583fad79f09f
 
 RPROVIDES:${PN} += "bees \
 bees(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

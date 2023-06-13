@@ -13,6 +13,7 @@ RPM_HASH = "0d21b912e21c2b482baf9ed6d3e03182537d80a91ac905230b421ed6a434dfc54946
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcheese-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "perl(Text::CSV) \
 perl(Text::CSV::ErrorDiag) \
 perl(Text::CSV_PP) \
 perl-Text-CSV"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::More)"
 

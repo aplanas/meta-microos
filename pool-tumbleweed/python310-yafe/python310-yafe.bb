@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-yafe \
 python3.10dist(yafe) \
 python310-yafe \
 python3dist(yafe)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy"
 

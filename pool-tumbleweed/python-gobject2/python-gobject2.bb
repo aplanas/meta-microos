@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libpyglib-2.0-python.so.0()(64bit) \
 python-gobject2 \
 python-gobject2(aarch-64) \
 python2-gobject2"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

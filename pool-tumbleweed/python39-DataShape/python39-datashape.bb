@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(datashape) \
 python39-DataShape \
 python3dist(datashape)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-multipledispatch \
 python39-numpy \

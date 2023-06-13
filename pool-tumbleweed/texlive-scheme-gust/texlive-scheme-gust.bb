@@ -11,6 +11,7 @@ RPM_HASH = "fc9c5bca7c696773ef89f997391253577a3fada99cb3ea2874f8685a2815159c338a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-gust"
+
 RDEPENDS:${PN} += "texlive-amslatex-primer \
 texlive-amstex \
 texlive-antt \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mediafile \
 python3.10dist(mediafile) \
 python310-mediafile \
 python3dist(mediafile)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-mutagen"
 

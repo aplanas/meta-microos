@@ -15,6 +15,7 @@ RPM_HASH = "bdf74363f97dcbf3260bf07447ed7fd3f57a5445c4db0de16479aab484e39bdc042b
 
 RPROVIDES:${PN} += "htsfile \
 htsfile(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "b1664ae1d81aae5cf9604336723a0fc74d2e982fa8638af8e99743bd23c860cdab7e
 RPROVIDES:${PN} += "libqgpgmeqt6-15 \
 libqgpgmeqt6-15(aarch-64) \
 libqgpgmeqt6.so.15()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gpg2 \
 ld-linux-aarch64.so.1()(64bit) \

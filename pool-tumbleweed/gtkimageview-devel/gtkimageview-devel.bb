@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "gtkimageview-devel \
 gtkimageview-devel(aarch-64) \
 libgtkimageview-devel \
 pkgconfig(gtkimageview)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gtk2-devel \
 libgtkimageview0 \

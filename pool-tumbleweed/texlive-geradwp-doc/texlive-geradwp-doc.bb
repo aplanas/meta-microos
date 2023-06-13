@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-geradwp-doc:fr) \
 texlive-geradwp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

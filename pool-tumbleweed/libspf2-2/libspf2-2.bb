@@ -19,6 +19,7 @@ RPM_HASH = "d6f06e9954aa3ccf06c1b92c8b7d13778a72e5c1667bd6ee9ba4c0488d43f7b953fa
 RPROVIDES:${PN} += "libspf2-2 \
 libspf2-2(aarch-64) \
 libspf2.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

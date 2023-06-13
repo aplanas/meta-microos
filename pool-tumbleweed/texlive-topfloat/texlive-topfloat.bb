@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(topfloat.sty) \
 texlive-topfloat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

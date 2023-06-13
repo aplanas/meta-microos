@@ -14,6 +14,7 @@ RPM_HASH = "25d75899b25adabd4d40ad5b7c830db7a68b9fa6781cf6ac4a0a82a83820a91a04e2
 
 RPROVIDES:${PN} += "xdg-desktop-portal \
 xdg-desktop-portal(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/fusermount3 \
 ld-linux-aarch64.so.1()(64bit) \

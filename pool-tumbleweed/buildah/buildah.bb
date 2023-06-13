@@ -19,6 +19,7 @@ RPM_HASH = "2b1070a60f6b2bbb6795085d767e5bcf0db0c7c821d596ba4e838f79367ee35c0452
 
 RPROVIDES:${PN} += "buildah \
 buildah(aarch-64)"
+
 RDEPENDS:${PN} += "cni \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcontainers-common \

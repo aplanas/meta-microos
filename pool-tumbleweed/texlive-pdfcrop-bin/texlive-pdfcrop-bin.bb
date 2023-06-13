@@ -9,6 +9,7 @@ RPM_HASH = "76253a3ced35c564c8b3758e14b67376bc06b8add9b60ae1946c3ee82573925864ef
 
 RPROVIDES:${PN} += "texlive-pdfcrop-bin \
 texlive-pdfcrop-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pdfcrop"
 
 inherit rpm

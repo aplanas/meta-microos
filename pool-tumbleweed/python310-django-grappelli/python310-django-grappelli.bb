@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-grappelli \
 python3.10dist(django-grappelli) \
 python310-django-grappelli \
 python3dist(django-grappelli)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

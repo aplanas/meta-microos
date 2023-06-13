@@ -9,6 +9,7 @@ RPM_HASH = "92f56a4066e4b2658c30a762fe5166fc31cbd418d9ade9e84a6e85de0a62286b86cd
 
 RPROVIDES:${PN} += "zonefs-tools \
 zonefs-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(proton-client) \
 python39-proton-client \
 python3dist(proton-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-bcrypt \
 python39-gnupg \

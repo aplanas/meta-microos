@@ -10,6 +10,7 @@ RPM_HASH = "25eacb1dfcd507f6c6adf721464f2605ea965a54d85f16a334577e99f2892f776e4e
 
 RPROVIDES:${PN} += "pcp-pmda-trace \
 pcp-pmda-trace(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "470ddc5da0cd313b818b36cbb326428bc9a9e28734da8b6218e44e09519bb74af2e8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mdwtools-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

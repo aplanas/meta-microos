@@ -9,6 +9,7 @@ RPM_HASH = "80367233044cef94cb18a5e95d43832f471e33ba035a9ed04ae384636597224747d1
 
 RPROVIDES:${PN} += "libqt5-qtcharts-examples \
 libqt5-qtcharts-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Charts.so.5()(64bit) \

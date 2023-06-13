@@ -9,6 +9,7 @@ RPM_HASH = "f13b823f0067bbdb917b5213f147e562e8616d79272015b56ab2b692814e522447e5
 
 RPROVIDES:${PN} += "pyliblo-tools \
 pyliblo-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python3-pyliblo"
 

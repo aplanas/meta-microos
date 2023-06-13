@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-base-enhanced_base \
 patterns-base-enhanced_base(aarch-64) \
 patterns-openSUSE-enhanced_base"
+
 RDEPENDS:${PN} += "openssh \
 pattern()"
 

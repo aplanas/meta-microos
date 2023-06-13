@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-python-twitter \
 python3.10dist(python-twitter) \
 python310-python-twitter \
 python3dist(python-twitter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future \
 python310-requests \

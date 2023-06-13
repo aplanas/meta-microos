@@ -40,6 +40,7 @@ mvn(org.apache.commons:commons-logging:pom:) \
 osgi(org.apache.commons.logging) \
 osgi(org.apache.commons.logging.adapters) \
 osgi(org.apache.commons.logging.api)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem"

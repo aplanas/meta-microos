@@ -28,6 +28,7 @@ RPROVIDES:${PN} += "perl(Object::Pluggable) \
 perl(Object::Pluggable::Constants) \
 perl(Object::Pluggable::Pipeline) \
 perl-Object-Pluggable"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Task::Weaken) \
 perl(constant)"

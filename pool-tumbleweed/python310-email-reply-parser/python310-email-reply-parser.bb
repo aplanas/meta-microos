@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-email-reply-parser \
 python3.10dist(email-reply-parser) \
 python310-email-reply-parser \
 python3dist(email-reply-parser)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

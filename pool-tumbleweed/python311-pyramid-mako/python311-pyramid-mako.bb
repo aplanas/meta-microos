@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyramid-mako) \
 python311-pyramid-mako \
 python3dist(pyramid-mako)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Mako \
 python311-pyramid"

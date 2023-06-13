@@ -29,6 +29,7 @@ locale(sakura:uk) \
 locale(sakura:zh_CN) \
 sakura-lang \
 sakura-lang-all"
+
 RDEPENDS:${PN} += "sakura"
 
 inherit rpm

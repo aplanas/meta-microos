@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "config(mininews) \
 mininews \
 mininews(aarch-64) \
 nntp_daemon"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(news) \
 group(uucp) \

@@ -13,6 +13,7 @@ RPM_HASH = "898c044959cf828b1914f246e3ef3154d81d2ea526c76f2e6ac5a3a74246ff98f604
 
 RPROVIDES:${PN} += "pam-fscrypt \
 pam-fscrypt(aarch-64)"
+
 RDEPENDS:${PN} += "fscrypt \
 libc.so.6(GLIBC_2.34)(64bit) \
 libpam.so.0()(64bit) \

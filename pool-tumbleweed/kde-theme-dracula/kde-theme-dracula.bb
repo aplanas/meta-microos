@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracula-gtk-theme \
 kde-theme-dracula"
+
 RDEPENDS:${PN} += "metatheme-dracula-common \
 plasma5-desktop"
 

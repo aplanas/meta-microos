@@ -14,6 +14,7 @@ RPM_HASH = "a954980db0a692ba3d09b0717333d4a09fcba65c368af9b4039e91c6b674a5965c16
 RPROVIDES:${PN} += "libgstriff-1.0.so.0()(64bit) \
 libgstriff-1_0-0 \
 libgstriff-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gstreamer-plugins-base \
 ld-linux-aarch64.so.1()(64bit) \

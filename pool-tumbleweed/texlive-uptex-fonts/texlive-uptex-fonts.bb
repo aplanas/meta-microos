@@ -87,6 +87,7 @@ tex(utgoth10.vf) \
 tex(utmin10.tfm) \
 tex(utmin10.vf) \
 texlive-uptex-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aspy.yaml \
 python3.10dist(aspy.yaml) \
 python310-aspy.yaml \
 python3dist(aspy.yaml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML"
 

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(prelude-lml-rules) \
 prelude-lml-rules"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 prelude-lml"
 

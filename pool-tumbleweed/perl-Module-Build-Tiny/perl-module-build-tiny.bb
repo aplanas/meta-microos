@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Module::Build::Tiny) \
 perl-Module-Build-Tiny"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Meta) \
 perl(ExtUtils::CBuilder) \

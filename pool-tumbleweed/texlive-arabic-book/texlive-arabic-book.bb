@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(arabic-book.cls) \
 texlive-arabic-book"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

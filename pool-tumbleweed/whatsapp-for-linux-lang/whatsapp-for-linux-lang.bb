@@ -21,6 +21,7 @@ locale(whatsapp-for-linux:ru) \
 locale(whatsapp-for-linux:tr) \
 whatsapp-for-linux-lang \
 whatsapp-for-linux-lang-all"
+
 RDEPENDS:${PN} += "whatsapp-for-linux"
 
 inherit rpm

@@ -33,6 +33,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Test::Warnings) \
 perl-Test-Warnings"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(parent)"
 

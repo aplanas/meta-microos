@@ -9,6 +9,7 @@ RPM_HASH = "2cb9a7baee21d15127457c5724b7c6d5c3c553bac4a10acf754a1772fd0ceffdc8f0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uptex-fonts-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

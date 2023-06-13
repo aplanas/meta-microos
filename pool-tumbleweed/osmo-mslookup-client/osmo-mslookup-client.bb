@@ -11,6 +11,7 @@ RPM_HASH = "93ae35564268e2807bae847496a6738f8c346349600fa882cb90c6fa8aa6425c34ea
 
 RPROVIDES:${PN} += "osmo-mslookup-client \
 osmo-mslookup-client(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

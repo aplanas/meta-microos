@@ -9,6 +9,7 @@ RPM_HASH = "bc8097c558239245d08233462889cebf6a924e1be5b840e478acf38ddeade1a398bf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xviewer-plugins-data"
+
 RDEPENDS:${PN} += "xviewer"
 
 inherit rpm

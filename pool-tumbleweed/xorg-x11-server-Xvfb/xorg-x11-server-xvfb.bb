@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "xorg-x11-Xvfb \
 xorg-x11-server-Xvfb \
 xorg-x11-server-Xvfb(aarch-64) \
 xorg-x11-server:/usr/bin/Xvfb"
+
 RDEPENDS:${PN} += "Mesa \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -28,6 +28,7 @@ tex(slemph.sty) \
 tex(titles.cfg) \
 tex(titles.sty) \
 texlive-frankenstein"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

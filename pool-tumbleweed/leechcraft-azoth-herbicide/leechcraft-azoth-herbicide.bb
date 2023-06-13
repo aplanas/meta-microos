@@ -10,6 +10,7 @@ RPM_HASH = "228834a89cd6fc92c836fd913b4464af903706a3e2f3edceb3086053b2fa465a790a
 RPROVIDES:${PN} += "leechcraft-azoth-herbicide \
 leechcraft-azoth-herbicide(aarch-64) \
 libleechcraft_azoth_herbicide.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-azoth \

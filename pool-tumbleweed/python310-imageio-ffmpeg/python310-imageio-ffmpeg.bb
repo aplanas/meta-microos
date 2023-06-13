@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-imageio-ffmpeg \
 python3.10dist(imageio-ffmpeg) \
 python310-imageio-ffmpeg \
 python3dist(imageio-ffmpeg)"
+
 RDEPENDS:${PN} += "ffmpeg-4 \
 python(abi)"
 

@@ -16,6 +16,7 @@ RPM_HASH = "2cf27d3b41ae7de496fb955075fa38e49fa387921c1c149406e79237d5c4f28dcb38
 RPROVIDES:${PN} += "libpff-devel \
 libpff-devel(aarch-64) \
 pkgconfig(libpff)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libpff1"

@@ -16,6 +16,7 @@ libxalan-c.so.112()(64bit) \
 libxalan-c112 \
 libxalan-c112(aarch-64) \
 libxalanMsg.so.112()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

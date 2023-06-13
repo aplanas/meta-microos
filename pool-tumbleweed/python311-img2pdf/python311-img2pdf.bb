@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(img2pdf) \
 python311-img2pdf \
 python3dist(img2pdf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

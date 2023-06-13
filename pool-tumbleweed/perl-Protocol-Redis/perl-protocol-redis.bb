@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Protocol::Redis) \
 perl(Protocol::Redis::Test) \
 perl-Protocol-Redis"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::More)"

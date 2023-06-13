@@ -15,6 +15,7 @@ RPM_HASH = "4830c0889e5ebc578cd2c519271f10b0a2cd9ae895d04b9c3ce7138edd1c13eef4c7
 RPROVIDES:${PN} += "config(pythia-devel) \
 pythia-devel \
 pythia-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libpythia8 \
 libpythia8lhapdf6"

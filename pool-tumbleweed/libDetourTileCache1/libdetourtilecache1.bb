@@ -10,6 +10,7 @@ RPM_HASH = "ee9f381b8535137591dda3a0e4492282c5de1956eb0ee03c79a50668bc7ffbe93bd5
 RPROVIDES:${PN} += "libDetourTileCache.so.1()(64bit) \
 libDetourTileCache1 \
 libDetourTileCache1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

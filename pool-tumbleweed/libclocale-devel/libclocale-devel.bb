@@ -13,6 +13,7 @@ RPM_HASH = "e9bb5255e6e6b36e64dd0ea32caa5bbb89736ca421c1a7cb9150ea08080a689bebe2
 RPROVIDES:${PN} += "libclocale-devel \
 libclocale-devel(aarch-64) \
 pkgconfig(libclocale)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libclocale1"
 

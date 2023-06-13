@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-loadkit \
 lua54-loadkit"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

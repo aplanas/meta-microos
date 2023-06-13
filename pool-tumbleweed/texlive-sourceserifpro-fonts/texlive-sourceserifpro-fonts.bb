@@ -159,6 +159,7 @@ font(sourceserifproextralight) \
 font(sourceserifprolight) \
 font(sourceserifprosemibold) \
 texlive-sourceserifpro-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

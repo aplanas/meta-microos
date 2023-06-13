@@ -11,6 +11,7 @@ RPM_HASH = "360196e669f765a77f0042dacae7f183cd5f912c5e0312e9641a4df2bcb7aedafa3c
 
 RPROVIDES:${PN} += "pagemon \
 pagemon(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

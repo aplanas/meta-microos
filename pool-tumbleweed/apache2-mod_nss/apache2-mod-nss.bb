@@ -15,6 +15,7 @@ apache2-mod_nss(aarch-64) \
 config(apache2-mod_nss) \
 libmodnss.so()(64bit) \
 mod_nss"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

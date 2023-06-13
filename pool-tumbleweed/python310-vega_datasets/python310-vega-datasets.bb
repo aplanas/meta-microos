@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-vega_datasets \
 python3.10dist(vega-datasets) \
 python310-vega_datasets \
 python3dist(vega-datasets)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pandas"
 

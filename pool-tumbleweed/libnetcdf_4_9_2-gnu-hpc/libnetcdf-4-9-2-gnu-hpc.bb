@@ -38,6 +38,7 @@ RPM_HASH = "495f32427188567e347906d937ae24227fdb9bfa7670948c91bd3fe87f095a528e55
 
 RPROVIDES:${PN} += "libnetcdf_4_9_2-gnu-hpc \
 libnetcdf_4_9_2-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \

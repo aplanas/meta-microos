@@ -14,6 +14,7 @@ RPM_HASH = "878584d8e3ca061348083aced87df6d5531d8a3941f103cfe1ffb4932d62e0714280
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-panel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

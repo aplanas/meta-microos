@@ -9,6 +9,7 @@ RPM_HASH = "41c75d007a8ee5f5653d7fecdec29f3b73fe2cd68a57936e6a97bc9ff3a6495636ad
 
 RPROVIDES:${PN} += "qemu-ui-opengl \
 qemu-ui-opengl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

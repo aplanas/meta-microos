@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(dockerpty) \
 python311-dockerpty \
 python3dist(dockerpty)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-docker \
 python311-six"

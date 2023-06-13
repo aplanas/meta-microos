@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-PyMeta3 \
 python3.10dist(pymeta3) \
 python310-PyMeta3 \
 python3dist(pymeta3)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

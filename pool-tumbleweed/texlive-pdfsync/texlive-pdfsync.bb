@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfsync.sty) \
 texlive-pdfsync"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

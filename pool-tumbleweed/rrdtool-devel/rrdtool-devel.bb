@@ -13,6 +13,7 @@ RPM_HASH = "c1411d43855dbfd03afdb42e1d5c93cd314bcaa36319818b6c80f2ae29e667da5986
 RPROVIDES:${PN} += "pkgconfig(librrd) \
 rrdtool-devel \
 rrdtool-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librrd8"
 

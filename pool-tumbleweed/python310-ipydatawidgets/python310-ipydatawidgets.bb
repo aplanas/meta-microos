@@ -17,6 +17,7 @@ python3.10dist(ipydatawidgets) \
 python310-ipydatawidgets \
 python310-jupyter_ipydatawidgets \
 python3dist(ipydatawidgets)"
+
 RDEPENDS:${PN} += "jupyter-ipydatawidgets \
 python(abi) \
 python310-ipywidgets \

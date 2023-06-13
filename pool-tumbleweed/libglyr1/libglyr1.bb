@@ -10,6 +10,7 @@ RPM_HASH = "1c4f4878fb9ca25203843f846150ec44f524dd0dd62138fe99f7f42c2066c363bfb2
 RPROVIDES:${PN} += "libglyr.so.1()(64bit) \
 libglyr1 \
 libglyr1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

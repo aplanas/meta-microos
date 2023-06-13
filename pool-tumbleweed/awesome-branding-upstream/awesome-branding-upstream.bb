@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "awesome-branding \
 awesome-branding-upstream \
 config(awesome-branding-upstream)"
+
 RDEPENDS:${PN} += "awesome"
 
 inherit rpm

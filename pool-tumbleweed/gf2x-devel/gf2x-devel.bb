@@ -13,6 +13,7 @@ RPM_HASH = "a73c0753821e48c257f13cda841a8fcb9f67a069f430a9473a5f822731e7f6949a30
 RPROVIDES:${PN} += "gf2x-devel \
 gf2x-devel(aarch-64) \
 pkgconfig(gf2x)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgf2x3"
 

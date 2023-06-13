@@ -10,6 +10,7 @@ RPM_HASH = "5784a3da97346a3b4cf2914e60aa435a6cedd608ae22f4ec567727ccc4037db4272d
 RPROVIDES:${PN} += "pkgconfig(rofi) \
 rofi-devel \
 rofi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(cairo) \
 pkgconfig(glib-2.0) \

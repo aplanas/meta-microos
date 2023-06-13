@@ -102,6 +102,7 @@ font(auriocuskalligraphicus) \
 font(janaskrivana) \
 font(lukassvatba) \
 texlive-aurical-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

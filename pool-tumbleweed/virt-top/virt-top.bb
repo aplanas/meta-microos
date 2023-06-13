@@ -15,6 +15,7 @@ RPM_HASH = "7a18f5f69b0e8e9291b4fa502f079ce66fbffb58ef45c1111e2d4a9ad0b3d628da68
 RPROVIDES:${PN} += "ocamlfind(virt-top) \
 virt-top \
 virt-top(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-countries \
 python3.10dist(django-countries) \
 python310-django-countries \
 python3dist(django-countries)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

@@ -16,6 +16,7 @@ RPM_HASH = "1d9014b437e3bffb033929f50139c0bae984b02a685c66efddba9d58119e2eec514d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mf2pt1"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

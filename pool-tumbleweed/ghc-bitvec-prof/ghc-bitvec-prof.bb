@@ -10,6 +10,7 @@ RPM_HASH = "2011f0054354f247e54b84650c2368b49ed32106bf2ce262d7d3fc362e1903c7409a
 RPROVIDES:${PN} += "ghc-bitvec-prof \
 ghc-bitvec-prof(aarch-64) \
 ghc-prof(bitvec-1.1.4.0-FzBtDnbj1qCBVRHTrZUOXy)"
+
 RDEPENDS:${PN} += "ghc-bitvec-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

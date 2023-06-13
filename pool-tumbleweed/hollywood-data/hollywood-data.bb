@@ -9,6 +9,7 @@ RPM_HASH = "1d0598bf7ed3ad1328191b6d32ccdb5b849d53553b41aa8975752be22c68d45b0709
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hollywood-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

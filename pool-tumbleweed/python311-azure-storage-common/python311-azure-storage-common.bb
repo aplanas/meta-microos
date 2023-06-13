@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-storage-common) \
 python311-azure-storage-common \
 python3dist(azure-storage-common)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-nspkg \

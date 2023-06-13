@@ -11,6 +11,7 @@ RPM_HASH = "52dea65241ce9489db6cdce3922a1ae0c1861fc1959f5fc98ff1af56dc0bfe6061ab
 
 RPROVIDES:${PN} += "ugrep \
 ugrep(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

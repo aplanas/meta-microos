@@ -21,6 +21,7 @@ pkgconfig(SPIRV-Tools) \
 pkgconfig(SPIRV-Tools-shared) \
 spirv-tools-devel \
 spirv-tools-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSPIRV-Tools-2023_3_rc1"
 

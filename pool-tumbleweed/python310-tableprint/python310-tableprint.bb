@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-tableprint \
 python3.10dist(tableprint) \
 python310-tableprint \
 python3dist(tableprint)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future \
 python310-wcwidth"

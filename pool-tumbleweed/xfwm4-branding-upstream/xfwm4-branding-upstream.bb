@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(xfwm4-branding-upstream) \
 xfwm4-branding \
 xfwm4-branding-upstream"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

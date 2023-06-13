@@ -16,6 +16,7 @@ RPM_HASH = "2163b4ceef9043da56e6da3c3747dbf3da103a886031bd3b6cd862bced4622d70a75
 RPROVIDES:${PN} += "libtimidity.so.2()(64bit) \
 libtimidity2 \
 libtimidity2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

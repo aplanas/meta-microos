@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(c4core) \
 cmake(ryml) \
 rapidyaml-devel \
 rapidyaml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libc4core0_1_11 \
 libryml0_5_0"
 

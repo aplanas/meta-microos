@@ -10,6 +10,7 @@ RPM_HASH = "0dbdcced82c968990da3c6819c701963a47f8c2ead6f8d216de32479b6bae06be6ad
 RPROVIDES:${PN} += "foma-devel \
 foma-devel(aarch-64) \
 pkgconfig(libfoma)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfoma0"
 

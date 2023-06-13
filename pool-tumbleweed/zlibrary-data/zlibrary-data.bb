@@ -9,6 +9,7 @@ RPM_HASH = "7f8ad083ce7b4dafa2fada4adbfab81faf066faa8117af1cc507029df6f5ca3a7e3f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zlibrary-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

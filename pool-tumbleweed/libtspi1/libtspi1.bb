@@ -16,6 +16,7 @@ RPM_HASH = "ac0e908e7cb507897591773cf7794756a5c4f09a3b8bfb60ece18a8a2de1a9f51704
 RPROVIDES:${PN} += "libtspi.so.1()(64bit) \
 libtspi1 \
 libtspi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

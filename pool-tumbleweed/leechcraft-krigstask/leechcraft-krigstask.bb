@@ -10,6 +10,7 @@ RPM_HASH = "8afd02b9b4986f09a9b849b649b0e583d563813fa6f5e27682194918c6d96301158a
 RPROVIDES:${PN} += "leechcraft-krigstask \
 leechcraft-krigstask(aarch-64) \
 libleechcraft_krigstask.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

@@ -10,6 +10,7 @@ RPM_HASH = "43608c840fe0be9110832189c7da3359024a19f38b65d3a6f4b8fe96bd2b01e93aec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-SLOF"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

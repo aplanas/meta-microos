@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pythondialog) \
 python311-pythondialog \
 python3dist(pythondialog)"
+
 RDEPENDS:${PN} += "dialog \
 python(abi)"
 

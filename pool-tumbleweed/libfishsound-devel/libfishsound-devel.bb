@@ -15,6 +15,7 @@ RPM_HASH = "9bf8f6c2e696bf80280b04edfffb052830b2c73469b5d148bbcb569d56b42c033535
 RPROVIDES:${PN} += "libfishsound-devel \
 libfishsound-devel(aarch-64) \
 pkgconfig(fishsound)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfishsound1 \
 pkgconfig(flac) \

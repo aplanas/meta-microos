@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "pkgconfig(xorg-macros) \
 util-macros-devel \
 util-macros-devel(aarch-64) \
 xorg-x11-proto-devel://usr/lib64/pkgconfig/xorg-macros.pc"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

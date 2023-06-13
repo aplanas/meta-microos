@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-wstools \
 python3.10dist(wstools) \
 python310-wstools \
 python3dist(wstools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

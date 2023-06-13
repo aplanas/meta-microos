@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cqubeamer.sty) \
 texlive-cqubeamer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

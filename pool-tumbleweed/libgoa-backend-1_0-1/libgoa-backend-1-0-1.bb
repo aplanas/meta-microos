@@ -11,6 +11,7 @@ RPM_HASH = "b130e25968c5eadfe109ac04b5b082548ed91266a402265e4d9d98afb981b9827ceb
 RPROVIDES:${PN} += "libgoa-backend-1.0.so.1()(64bit) \
 libgoa-backend-1_0-1 \
 libgoa-backend-1_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

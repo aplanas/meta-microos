@@ -15,6 +15,7 @@ python3.10dist(pyopengl) \
 python310-PyOpenGL \
 python310-opengl \
 python3dist(pyopengl)"
+
 RDEPENDS:${PN} += "Mesa-dri \
 python(abi)"
 

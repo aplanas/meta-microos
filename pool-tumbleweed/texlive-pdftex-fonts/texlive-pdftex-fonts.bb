@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "font(dummyspace) \
 font(pdftex) \
 texlive-pdftex-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

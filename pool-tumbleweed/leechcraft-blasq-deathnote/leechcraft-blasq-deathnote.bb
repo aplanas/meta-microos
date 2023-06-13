@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "leechcraft-blasq-deathnote \
 leechcraft-blasq-deathnote(aarch-64) \
 leechcraft-blasq-subplugin \
 libleechcraft_blasq_deathnote.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-blasq \

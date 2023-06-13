@@ -16,6 +16,7 @@ RPM_HASH = "793f76402793c850afd0c99e85bda2402ddf3404f6ec293684cad57f866be18f224c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fritzing-parts"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

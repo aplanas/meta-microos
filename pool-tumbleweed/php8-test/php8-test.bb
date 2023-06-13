@@ -9,6 +9,7 @@ RPM_HASH = "6e14f91af70c5a4f72c836bf0417d46ff9ab4731e2188f4657e0cac9d55c9b7404a4
 
 RPROVIDES:${PN} += "php8-test \
 php8-test(aarch-64)"
+
 RDEPENDS:${PN} += "php-cli"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "d60cfced18ea547d3927247cfe3838dce038d2f29e6a490aa389e0e4f4bec221af5a
 
 RPROVIDES:${PN} += "robinhood-tests \
 robinhood-tests(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

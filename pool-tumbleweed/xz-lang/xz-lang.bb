@@ -33,6 +33,7 @@ locale(xz:zh_CN) \
 locale(xz:zh_TW) \
 xz-lang \
 xz-lang-all"
+
 RDEPENDS:${PN} += "xz"
 
 inherit rpm

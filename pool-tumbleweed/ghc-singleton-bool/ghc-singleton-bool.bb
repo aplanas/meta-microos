@@ -13,6 +13,7 @@ RPM_HASH = "0d7002f66825f479c2a140194ed69fb899297a4230341098a76df38c02679517a02d
 RPROVIDES:${PN} += "ghc-singleton-bool \
 ghc-singleton-bool(aarch-64) \
 libHSsingleton-bool-0.1.6-9MbEj8pBx4EB1jZ66FdPc4-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSboring-0.2.1-J8lJX6Vz53r2bssyBwOtpl-ghc9.4.5.so()(64bit) \

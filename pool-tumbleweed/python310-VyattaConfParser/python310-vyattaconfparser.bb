@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-VyattaConfParser \
 python3.10dist(vyattaconfparser) \
 python310-VyattaConfParser \
 python3dist(vyattaconfparser)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

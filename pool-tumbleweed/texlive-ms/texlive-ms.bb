@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(count1to.sty) \
 tex(multitoc.sty) \
 texlive-ms"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

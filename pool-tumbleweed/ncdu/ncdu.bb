@@ -11,6 +11,7 @@ RPM_HASH = "29dc0c77724cab56881e175ea706a41e49e69f706723b4ac650e0cbcdffa0ebb7be0
 
 RPROVIDES:${PN} += "ncdu \
 ncdu(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

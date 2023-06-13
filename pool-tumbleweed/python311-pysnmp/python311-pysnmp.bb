@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pysnmp) \
 python311-pysnmp \
 python3dist(pysnmp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pyasn1 \
 python311-pycryptodome \

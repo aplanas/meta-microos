@@ -9,6 +9,7 @@ RPM_HASH = "8a1e853ee7167550180b8db52c8fd51baa5739c6df9014b6b50ebcd867370a4ee91a
 
 RPROVIDES:${PN} += "texlive-a2ping-bin \
 texlive-a2ping-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-a2ping"
 
 inherit rpm

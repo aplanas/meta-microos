@@ -16,6 +16,7 @@ perl(AppConfig::Getopt) \
 perl(AppConfig::State) \
 perl(AppConfig::Sys) \
 perl-AppConfig"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

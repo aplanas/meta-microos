@@ -77,6 +77,7 @@ locale(deluge:vi) \
 locale(deluge:zh_CN) \
 locale(deluge:zh_HK) \
 locale(deluge:zh_TW)"
+
 RDEPENDS:${PN} += "deluge"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "82fbe386745baf29f2279f4a4eb273c3a2f5970d1ff5f26f4d53bc888ccbd1adeaaf
 
 RPROVIDES:${PN} += "ktoblzcheck \
 ktoblzcheck(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

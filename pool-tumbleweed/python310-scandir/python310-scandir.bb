@@ -41,6 +41,7 @@ python3.10dist(scandir) \
 python310-scandir \
 python310-scandir(aarch-64) \
 python3dist(scandir)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:pg) \
 rubygem(ruby:3.2.0:pg:1) \
 rubygem(ruby:3.2.0:pg:1.4) \
 rubygem(ruby:3.2.0:pg:1.4.5)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

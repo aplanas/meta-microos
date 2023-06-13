@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zypp-plugin \
 python310-zypp-plugin"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-base"
 

@@ -13,6 +13,7 @@ tex(pb-diagram.sty) \
 tex(pb-lams.sty) \
 tex(pb-xy.sty) \
 texlive-pb-diagram"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

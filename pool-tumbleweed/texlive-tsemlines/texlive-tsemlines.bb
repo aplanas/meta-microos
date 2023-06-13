@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tsemlines.sty) \
 texlive-tsemlines"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

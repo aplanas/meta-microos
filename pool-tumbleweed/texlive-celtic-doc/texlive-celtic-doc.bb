@@ -9,6 +9,7 @@ RPM_HASH = "7b4a967f0942e1fe52b97e42a16567e0b3212487a0d1e3b98fac97389a43bdf8ac5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-celtic-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

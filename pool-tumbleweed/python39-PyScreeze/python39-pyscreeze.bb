@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyscreeze) \
 python39-PyScreeze \
 python3dist(pyscreeze)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Pillow"
 

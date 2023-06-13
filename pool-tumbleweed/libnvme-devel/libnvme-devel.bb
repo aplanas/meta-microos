@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libnvme-devel \
 libnvme-devel(aarch-64) \
 pkgconfig(libnvme) \
 pkgconfig(libnvme-mi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnvme-mi1 \
 libnvme1 \

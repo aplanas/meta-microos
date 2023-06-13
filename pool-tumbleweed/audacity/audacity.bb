@@ -73,6 +73,7 @@ mimehandler(audio/x-flac) \
 mimehandler(audio/x-ms-wma) \
 mimehandler(audio/x-vorbis+ogg) \
 mimehandler(video/mpeg)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ffmpeg \
 ld-linux-aarch64.so.1()(64bit) \

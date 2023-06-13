@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Ulfius) \
 pkgconfig(libulfius) \
 ulfius-devel \
 ulfius-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcurl-devel \
 libgnutls-devel \

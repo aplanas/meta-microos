@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ltablex.sty) \
 texlive-ltablex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

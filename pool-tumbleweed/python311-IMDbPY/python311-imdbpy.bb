@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(imdbpy) \
 python311-IMDbPY \
 python3dist(imdbpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

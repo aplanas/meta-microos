@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-quantities \
 python3.10dist(quantities) \
 python310-quantities \
 python3dist(quantities)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy"
 

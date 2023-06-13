@@ -10,6 +10,7 @@ RPM_HASH = "a6af63be8f6ccd49d829b3226dbe565992d3da6ea37d2a24c79a794f35e0e2d3c039
 RPROVIDES:${PN} += "libganesha_nfsd.so.3.3()(64bit) \
 libganesha_nfsd3_3 \
 libganesha_nfsd3_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

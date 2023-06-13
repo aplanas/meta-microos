@@ -18,6 +18,7 @@ locale(znc:pt_BR) \
 locale(znc:ru_RU) \
 znc-lang \
 znc-lang-all"
+
 RDEPENDS:${PN} += "znc"
 
 inherit rpm

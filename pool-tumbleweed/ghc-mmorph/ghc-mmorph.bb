@@ -11,6 +11,7 @@ RPM_HASH = "9ad59fadc6abaa66e7021b2fa7064d42565c519817f71d44f376fdb5784f80586d47
 RPROVIDES:${PN} += "ghc-mmorph \
 ghc-mmorph(aarch-64) \
 libHSmmorph-1.2.0-4Mt4o3YW9h63uaZAnM2RZC-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

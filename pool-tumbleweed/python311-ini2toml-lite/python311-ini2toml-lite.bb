@@ -9,6 +9,7 @@ RPM_HASH = "125cecc12e827b93818ea24130ab7204ae7ad2f523333aade66be9aced6961f3095a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-ini2toml-lite"
+
 RDEPENDS:${PN} += "(python311-importlib-metadata if python311-base < 3.8) \
 (python311-tomli-w >= 0.4.0 with python311-tomli-w < 2) \
 python311-ini2toml"

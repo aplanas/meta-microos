@@ -14,6 +14,7 @@ RPM_HASH = "b254e776a63e184ea9450d8372e5413a10da7fc827fb1066cacd4168eefa36c76f96
 RPROVIDES:${PN} += "config(dictd) \
 dictd \
 dictd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

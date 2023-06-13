@@ -30,6 +30,7 @@ RPM_HASH = "09900f1d5fcf7b02af9f76238e1f5d5cef2389ef5cf957c0712769e8f0d0db929a87
 RPROVIDES:${PN} += "config(vm-install) \
 vm-install \
 vm-install(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 kdump \
 python(abi) \

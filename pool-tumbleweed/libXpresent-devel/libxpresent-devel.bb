@@ -10,6 +10,7 @@ RPM_HASH = "020619c42d9113b0a4f440e889ab47cb0ace32f3400e7016e464b0810748da90dff4
 RPROVIDES:${PN} += "libXpresent-devel \
 libXpresent-devel(aarch-64) \
 pkgconfig(xpresent)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXpresent1 \
 pkgconfig(presentproto) \

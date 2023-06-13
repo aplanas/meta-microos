@@ -29,6 +29,7 @@ perl(JSON::RPC::Parser) \
 perl(JSON::RPC::Procedure) \
 perl(JSON::RPC::Test) \
 perl-JSON-RPC"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CGI) \
 perl(Class::Accessor::Lite) \

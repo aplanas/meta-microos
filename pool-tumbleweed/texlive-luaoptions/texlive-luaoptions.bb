@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luaoptions.sty) \
 texlive-luaoptions"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

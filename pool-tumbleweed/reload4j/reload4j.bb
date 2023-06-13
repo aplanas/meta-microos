@@ -25,6 +25,7 @@ mvn(log4j:log4j:12) \
 mvn(log4j:log4j:pom:) \
 osgi(org.apache.log4j) \
 reload4j"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "parted-devel \
 parted-devel(aarch-64) \
 pkgconfig(libparted) \
 pkgconfig(libparted-fs-resize)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 device-mapper-devel \
 libparted-fs-resize0 \

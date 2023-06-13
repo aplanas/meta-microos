@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(ipydatawidgets) \
 python311-ipydatawidgets \
 python311-jupyter_ipydatawidgets \
 python3dist(ipydatawidgets)"
+
 RDEPENDS:${PN} += "jupyter-ipydatawidgets \
 python(abi) \
 python311-ipywidgets \

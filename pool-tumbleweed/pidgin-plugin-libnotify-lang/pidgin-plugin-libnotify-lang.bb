@@ -26,6 +26,7 @@ locale(pidgin-plugin-libnotify:sv) \
 locale(pidgin-plugin-libnotify:zh_CN) \
 pidgin-plugin-libnotify-lang \
 pidgin-plugin-libnotify-lang-all"
+
 RDEPENDS:${PN} += "pidgin-plugin-libnotify"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "4cf95619d1669c5547513e34f6748f858a9d5082231751e6c335287d0b75019da05b
 
 RPROVIDES:${PN} += "mozjs102 \
 mozjs102(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(opentelemetry-api) \
 python311-opentelemetry-api \
 python3dist(opentelemetry-api)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Deprecated \
 python311-importlib-metadata \

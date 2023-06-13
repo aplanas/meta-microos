@@ -95,6 +95,7 @@ locale(yelp:zh_HK) \
 locale(yelp:zh_TW) \
 yelp-lang \
 yelp-lang-all"
+
 RDEPENDS:${PN} += "yelp"
 
 inherit rpm

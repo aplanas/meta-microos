@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-labels \
 python3.10dist(labels) \
 python310-labels \
 python3dist(labels)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

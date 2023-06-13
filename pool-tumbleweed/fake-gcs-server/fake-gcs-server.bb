@@ -9,6 +9,7 @@ RPM_HASH = "d2aa5979d20825dadf89fd7385ec6b862474a4039e1180e282ec8f67534d532d3cbf
 
 RPROVIDES:${PN} += "fake-gcs-server \
 fake-gcs-server(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

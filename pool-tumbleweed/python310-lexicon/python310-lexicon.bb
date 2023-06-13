@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-lexicon \
 python3.10dist(lexicon) \
 python310-lexicon \
 python3dist(lexicon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

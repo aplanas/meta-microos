@@ -17,6 +17,7 @@ metainfo(xcas.metainfo.xml) \
 mimehandler(application/x-xcas) \
 xcas \
 xcas(aarch-64)"
+
 RDEPENDS:${PN} += "giac \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "6f6564440657c297a7a162f36fe6fe29b162d353a211d2e82416a8f3f2ccb8f5cb3b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tocbibind-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(translate-toolkit) \
 python311-translate-toolkit \
 python3dist(translate-toolkit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.11 \

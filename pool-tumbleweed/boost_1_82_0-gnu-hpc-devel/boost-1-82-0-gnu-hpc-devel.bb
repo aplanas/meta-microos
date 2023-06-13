@@ -11,6 +11,7 @@ RPM_HASH = "51d8f5c1f2bf3eb05142904d52921ad91d9254b40014254109f3028542a05290227c
 
 RPROVIDES:${PN} += "boost_1_82_0-gnu-hpc-devel \
 boost_1_82_0-gnu-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "boost_1_82_0-gnu-hpc \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:faraday-follow_redirects) \
 rubygem(ruby:3.2.0:faraday-follow_redirects:0) \
 rubygem(ruby:3.2.0:faraday-follow_redirects:0.3) \
 rubygem(ruby:3.2.0:faraday-follow_redirects:0.3.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:faraday)"
 

@@ -2352,6 +2352,7 @@ tex(libertine.sty) \
 tex(libertineMono.sty) \
 tex(libertineRoman.sty) \
 texlive-libertine"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

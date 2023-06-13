@@ -13,6 +13,7 @@ eog-plugins:/usr/lib64/eog/plugins/exif-display.plugin \
 libexif-display.so()(64bit) \
 metainfo() \
 metainfo(eog-exif-display.appdata.xml)"
+
 RDEPENDS:${PN} += "eog-plugins-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "018cd97c1b86c365b4ae76dc78bdbfa2366b8fef12eb0b90a691997978c7b7db3afb
 RPROVIDES:${PN} += "libbudgie-raven-plugin.so.0()(64bit) \
 libbudgie-raven-plugin0 \
 libbudgie-raven-plugin0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \

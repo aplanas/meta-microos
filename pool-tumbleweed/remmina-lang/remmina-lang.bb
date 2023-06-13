@@ -74,6 +74,7 @@ locale(remmina:zh_CN) \
 locale(remmina:zh_TW) \
 remmina-lang \
 remmina-lang-all"
+
 RDEPENDS:${PN} += "remmina"
 
 inherit rpm

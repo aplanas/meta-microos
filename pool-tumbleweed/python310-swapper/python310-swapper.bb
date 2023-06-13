@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-swapper \
 python3.10dist(swapper) \
 python310-swapper \
 python3dist(swapper)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

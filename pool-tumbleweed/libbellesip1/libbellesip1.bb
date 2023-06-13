@@ -11,6 +11,7 @@ RPM_HASH = "76db314c303aef86249590c7659c771cb2ca46f29f5b5b00760cc6a3e659b41f9abd
 RPROVIDES:${PN} += "libbellesip.so.1()(64bit) \
 libbellesip1 \
 libbellesip1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 belle-sip-data \
 ld-linux-aarch64.so.1()(64bit) \

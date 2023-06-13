@@ -10,6 +10,7 @@ RPM_HASH = "e8ce05745f7777389ea530608d669bce662434445749f75919881a78cdd5b202e17a
 RPROVIDES:${PN} += "libeiskaltdcpp.so.2.4()(64bit) \
 libeiskaltdcpp2_4 \
 libeiskaltdcpp2_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

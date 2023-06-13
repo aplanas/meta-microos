@@ -9,6 +9,7 @@ RPM_HASH = "b59d7b1076fae3a02c2a6d0ed414295a79838f1a5b52d12534fd9bfad7a120a314e5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sepfootnotes-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

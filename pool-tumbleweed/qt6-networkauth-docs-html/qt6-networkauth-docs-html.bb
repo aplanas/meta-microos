@@ -9,6 +9,7 @@ RPM_HASH = "7aa5b34e0d01323f99d1124e5b97f2c555c52e30bea7fdc4eb0ac4bfbb7c1e482e42
 
 RPROVIDES:${PN} += "qt6-networkauth-docs-html \
 qt6-networkauth-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

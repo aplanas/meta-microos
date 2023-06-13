@@ -63,6 +63,7 @@ tex(a_od575u.enc) \
 tex(a_vt66fp.enc) \
 tex(a_zmrji7.enc) \
 texlive-arvo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "b32f11c853db32583906ff27f5831b995b0150651dabdcf002cb1ba24133015bb63c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-git-prompt"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

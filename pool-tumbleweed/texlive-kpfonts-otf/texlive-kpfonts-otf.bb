@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kpfonts-otf.sty) \
 texlive-kpfonts-otf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

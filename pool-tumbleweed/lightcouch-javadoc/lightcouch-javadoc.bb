@@ -9,6 +9,7 @@ RPM_HASH = "1af3f7e5426ca361f1abdda7359e9bcb620f07d9156b5e72038a89f4427b63817cc8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lightcouch-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

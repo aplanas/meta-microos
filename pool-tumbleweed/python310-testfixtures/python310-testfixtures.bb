@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-testfixtures \
 python3.10dist(testfixtures) \
 python310-testfixtures \
 python3dist(testfixtures)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -16,6 +16,7 @@ RPM_HASH = "ae6ffb7c6ed17181317d9e3309e31b211c84f1bac09a7201417ec02e09210aa02571
 RPROVIDES:${PN} += "libsqlcipher-3.41.2.so.0()(64bit) \
 libsqlcipher-3_41_2-0 \
 libsqlcipher-3_41_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

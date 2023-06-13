@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "junit5-bom \
 mvn(org.junit:junit-bom:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

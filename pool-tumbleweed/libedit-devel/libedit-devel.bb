@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libedit-devel \
 libedit-devel(aarch-64) \
 libedit0-devel \
 pkgconfig(libedit)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libedit0"

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-cosmos) \
 python39-azure-cosmos \
 python3dist(azure-cosmos)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-core \
 python39-azure-nspkg"

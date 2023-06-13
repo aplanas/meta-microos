@@ -9,6 +9,7 @@ RPM_HASH = "19bd56f0e22979b358a06d46965d98fd7bcaaef464cc94e6085dd2f5e3042f984fe3
 
 RPROVIDES:${PN} += "ptscotch_6_1_0-gnu-openmpi2-hpc-devel \
 ptscotch_6_1_0-gnu-openmpi2-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

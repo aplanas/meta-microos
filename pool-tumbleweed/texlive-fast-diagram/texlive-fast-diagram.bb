@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fast-diagram.sty) \
 texlive-fast-diagram"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

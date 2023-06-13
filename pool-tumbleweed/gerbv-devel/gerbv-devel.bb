@@ -11,6 +11,7 @@ RPM_HASH = "1af8d2e9a262d92b58454483d08fbdf425771dd5bf8c11c2e32e25c6d28d02ed61d2
 RPROVIDES:${PN} += "gerbv-devel \
 gerbv-devel(aarch-64) \
 pkgconfig(libgerbv)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gtk2-devel \
 libgerbv1 \

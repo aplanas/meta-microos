@@ -53,6 +53,7 @@ locale(brisk-menu:uk) \
 locale(brisk-menu:vi) \
 locale(brisk-menu:zh_CN) \
 locale(brisk-menu:zh_TW)"
+
 RDEPENDS:${PN} += "brisk-menu"
 
 inherit rpm

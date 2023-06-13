@@ -9,6 +9,7 @@ RPM_HASH = "bc00c7bb94aa71962f01f73894f819a76ff82808c469481d840c12f92d6b8a841b33
 
 RPROVIDES:${PN} += "civetweb \
 civetweb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

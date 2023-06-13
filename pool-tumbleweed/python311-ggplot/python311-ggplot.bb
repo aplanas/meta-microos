@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(ggplot) \
 python311-ggplot \
 python3dist(ggplot)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Cycler \
 python311-brewer2mpl \

@@ -10,6 +10,7 @@ RPM_HASH = "f2c887eec9d1be86e1528e752bb0a0f6d38b7c521f583a8591d1356d15fca9648346
 
 RPROVIDES:${PN} += "openQA-doc \
 openQA-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

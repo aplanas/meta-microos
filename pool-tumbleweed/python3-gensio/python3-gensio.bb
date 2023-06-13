@@ -10,6 +10,7 @@ RPM_HASH = "41a3bfdea34edc8a3bee7a0b3c3db4a67887cbe9067e9e832fc577dfcb387852b78d
 
 RPROVIDES:${PN} += "python3-gensio \
 python3-gensio(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

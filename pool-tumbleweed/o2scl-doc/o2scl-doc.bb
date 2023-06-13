@@ -10,6 +10,7 @@ RPM_HASH = "db798ccdc88f075c367fcc57a740dd33a9b94cf3db2545f44e8bbedfe086672bb15f
 
 RPROVIDES:${PN} += "o2scl-doc \
 o2scl-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

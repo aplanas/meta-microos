@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(clrdblpg.sty) \
 texlive-clrdblpg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

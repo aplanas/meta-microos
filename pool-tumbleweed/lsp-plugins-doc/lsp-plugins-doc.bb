@@ -9,6 +9,7 @@ RPM_HASH = "a6bf2ce968ca01bf06f5f90ff87b4d36edea100a21d43dd72af557fc627f939ae5cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lsp-plugins-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

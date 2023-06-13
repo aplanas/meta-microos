@@ -18,6 +18,7 @@ gsview \
 mimehandler(application/pdf) \
 mimehandler(application/postscript) \
 mimehandler(image/x-eps)"
+
 RDEPENDS:${PN} += "ghostscript_x11 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -16,6 +16,7 @@ RPM_HASH = "88943fe3ad88e7c06cf72aaac20535897c679b10140e7df46911b6339ba7458c2b21
 RPROVIDES:${PN} += "cmake(dragonbox) \
 dragonbox-devel \
 dragonbox-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

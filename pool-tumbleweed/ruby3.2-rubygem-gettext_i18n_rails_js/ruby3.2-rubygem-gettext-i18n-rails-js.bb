@@ -17,6 +17,7 @@ rubygem(ruby:3.2.0:gettext_i18n_rails_js) \
 rubygem(ruby:3.2.0:gettext_i18n_rails_js:1) \
 rubygem(ruby:3.2.0:gettext_i18n_rails_js:1.3) \
 rubygem(ruby:3.2.0:gettext_i18n_rails_js:1.3.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:gettext) \
 rubygem(ruby:3.2.0:gettext_i18n_rails) \

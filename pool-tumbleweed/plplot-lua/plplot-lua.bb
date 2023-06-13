@@ -13,6 +13,7 @@ RPM_HASH = "1143dce5f41e4aab5b86a9a303c43d6468588e5769d10b30ec99c1dcef4c9a07ea11
 
 RPROVIDES:${PN} += "plplot-lua \
 plplot-lua(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

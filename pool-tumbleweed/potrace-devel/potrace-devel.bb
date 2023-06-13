@@ -15,6 +15,7 @@ RPM_HASH = "d199be6e2cbe23fbf9a6b6bb4629c5e77f550c4483ae05ec6b335dd442a44f1b3ae3
 
 RPROVIDES:${PN} += "potrace-devel \
 potrace-devel(aarch-64)"
+
 RDEPENDS:${PN} += "potrace"
 
 inherit rpm

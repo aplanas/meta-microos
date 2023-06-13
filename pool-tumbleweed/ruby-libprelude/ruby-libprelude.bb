@@ -9,6 +9,7 @@ RPM_HASH = "0e6dca1b06a4509d104c0b7cd6bcc8d890eaab2ca1a909e66f35ba9ff019c2a6c6db
 
 RPROVIDES:${PN} += "ruby-libprelude \
 ruby-libprelude(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

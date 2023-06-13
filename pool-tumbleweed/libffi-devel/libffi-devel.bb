@@ -13,6 +13,7 @@ RPM_HASH = "64b02beee99af25afe204c84fc25bdfe0e942a8de026d09e891df2562c1489511635
 RPROVIDES:${PN} += "libffi-devel \
 libffi-devel(aarch-64) \
 pkgconfig(libffi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libffi8"
 

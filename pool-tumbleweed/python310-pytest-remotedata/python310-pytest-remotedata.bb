@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pytest-remotedata \
 python3.10dist(pytest-remotedata) \
 python310-pytest-remotedata \
 python3dist(pytest-remotedata)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-packaging \
 python310-pytest"

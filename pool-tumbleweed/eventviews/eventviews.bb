@@ -10,6 +10,7 @@ RPM_HASH = "095a67f64f7bec780eb57ced3cdba747d02a123a646edb8fad16b876dc8207fb7e87
 
 RPROVIDES:${PN} += "eventviews \
 eventviews(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

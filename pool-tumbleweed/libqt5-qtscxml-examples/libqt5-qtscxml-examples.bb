@@ -9,6 +9,7 @@ RPM_HASH = "fa867915907bc1d2f62a5fd10a365fedb256bb34c5351cb727f37c3796baaff98f13
 
 RPROVIDES:${PN} += "libqt5-qtscxml-examples \
 libqt5-qtscxml-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

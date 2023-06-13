@@ -9,6 +9,7 @@ RPM_HASH = "9ccf71e44efbf62504112bc637f36c762b42375add9c6360a0aa87b02163c1850ef5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kyverno-fish-completion"
+
 RDEPENDS:${PN} += "kyverno"
 
 inherit rpm

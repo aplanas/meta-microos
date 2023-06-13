@@ -11,6 +11,7 @@ RPM_HASH = "66e1e3335587c9f9fbbba2d35c8770f9d21e07f503df1d5d750e07f2292d1ac9e7a3
 RPROVIDES:${PN} += "libmt32emu-devel \
 libmt32emu-devel(aarch-64) \
 pkgconfig(mt32emu)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmt32emu2"
 

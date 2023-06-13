@@ -19,6 +19,7 @@ ntp-doc(aarch-64) \
 ntpdoc \
 xntp-doc \
 xntpdoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

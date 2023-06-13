@@ -18,6 +18,7 @@ pkgconfig(libwoff2dec) \
 pkgconfig(libwoff2enc) \
 woff2-devel \
 woff2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwoff2common1_0_2 \
 libwoff2dec1_0_2 \

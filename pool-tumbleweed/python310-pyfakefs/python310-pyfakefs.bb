@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pyfakefs \
 python3.10dist(pyfakefs) \
 python310-pyfakefs \
 python3dist(pyfakefs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310"
 

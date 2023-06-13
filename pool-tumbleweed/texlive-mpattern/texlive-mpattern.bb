@@ -10,6 +10,7 @@ RPM_HASH = "1d850d806545a67571e0a8d855db59c3f732bbb43fd3660ab1f1cb64ee66527c8d58
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mpattern"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

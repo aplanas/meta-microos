@@ -11,6 +11,7 @@ RPM_HASH = "e9c60e7d2852ce5860050c597a57b603e26ff97a8b00cee37eb1d412a4a839b2ebee
 
 RPROVIDES:${PN} += "os-prober \
 os-prober(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/grep \
 /bin/sed \
 /bin/sh \

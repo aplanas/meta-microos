@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-retryrequests \
 python3.10dist(retryrequests) \
 python310-retryrequests \
 python3dist(retryrequests)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-setuptools"

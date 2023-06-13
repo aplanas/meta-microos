@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-datalake-analytics \
 python3.10dist(azure-mgmt-datalake-analytics) \
 python310-azure-mgmt-datalake-analytics \
 python3dist(azure-mgmt-datalake-analytics)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-datalake-nspkg \

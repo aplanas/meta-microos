@@ -10,6 +10,7 @@ RPM_HASH = "2ca00dcd3113e645c28d63089717827e1e9668a4ab0813e413e093456a77ca5b0c27
 RPROVIDES:${PN} += "ghc-hadolint \
 ghc-hadolint(aarch-64) \
 libHShadolint-2.12.0-GJFK4KtL5yr5n9SSzjhIYq-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSCabal-3.8.1.0-ghc9.4.5.so()(64bit) \
 libHSCabal-syntax-3.8.1.0-ghc9.4.5.so()(64bit) \
 libHSDiff-0.4.1-CiDqeLEcsRQOQjfgZOPVP-ghc9.4.5.so()(64bit) \

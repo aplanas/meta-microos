@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "etckeeper-pkgmanager-collabo \
 etckeeper-zypp-plugin \
 etckeeper:/usr/lib/zypp/plugins/commit/zypper-etckeeper.py"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 etckeeper \
 python3-zypp-plugin"

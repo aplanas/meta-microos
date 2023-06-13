@@ -9,6 +9,7 @@ RPM_HASH = "0fe6559111c5a4ed06f91a55ba265af28e08de7238faa0a21d96133190668f57e2d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gputils-doc"
+
 RDEPENDS:${PN} += "gputils"
 
 inherit rpm

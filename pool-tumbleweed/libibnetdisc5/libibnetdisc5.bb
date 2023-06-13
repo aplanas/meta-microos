@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libibnetdisc.so.5()(64bit) \
 libibnetdisc.so.5(IBNETDISC_1.0)(64bit) \
 libibnetdisc5 \
 libibnetdisc5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

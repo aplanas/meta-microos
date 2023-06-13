@@ -10,6 +10,7 @@ RPM_HASH = "1f31d7dae9dbea3d203ae0793ae09e3971e5905a5adb17656dc3b01683165167aa89
 RPROVIDES:${PN} += "libchewing-devel \
 libchewing-devel(aarch-64) \
 pkgconfig(chewing)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libchewing3 \
 python-chewing"

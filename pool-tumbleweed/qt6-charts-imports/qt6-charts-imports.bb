@@ -18,6 +18,7 @@ libqtchartsqml2plugin.so(Qt_6.5)(64bit) \
 libqtchartsqml2plugin.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-charts-imports \
 qt6-charts-imports(aarch-64)"
+
 RDEPENDS:${PN} += "libQt6ChartsQml.so.6()(64bit) \
 libQt6ChartsQml.so.6(Qt_6)(64bit) \
 libQt6Core.so.6()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "90cff749330f21cba4f7397b5106420640d4b85932914fd1f1fe082733f5dbbc1fea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gustlib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

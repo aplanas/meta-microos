@@ -93,6 +93,7 @@ locale(vte:zh_HK) \
 locale(vte:zh_TW) \
 vte-lang \
 vte-lang-all"
+
 RDEPENDS:${PN} += "vte"
 
 inherit rpm

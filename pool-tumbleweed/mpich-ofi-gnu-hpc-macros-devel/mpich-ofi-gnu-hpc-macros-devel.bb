@@ -11,6 +11,7 @@ RPM_HASH = "7a2ed79e6d14eb43b41223ebdae1a1248fb50e82621945f55db7d1e72a004c57c13b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpich-ofi-gnu-hpc-macros-devel"
+
 RDEPENDS:${PN} += "mpich-ofi_4_0_2-gnu-hpc-macros-devel"
 
 inherit rpm

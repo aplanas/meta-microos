@@ -15,6 +15,7 @@ jakarta-commons-codec \
 mvn(commons-codec:commons-codec) \
 mvn(commons-codec:commons-codec:pom:) \
 osgi(org.apache.commons.codec)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem"

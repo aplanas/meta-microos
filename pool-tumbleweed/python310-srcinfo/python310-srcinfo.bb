@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-srcinfo \
 python3.10dist(srcinfo) \
 python310-srcinfo \
 python3dist(srcinfo)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

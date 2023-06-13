@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(clistmap.sty) \
 texlive-clistmap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

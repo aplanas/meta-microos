@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Quotient) \
 libQuotient-devel \
 libQuotient-devel(aarch-64) \
 pkgconfig(Quotient)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQuotient0_6"
 

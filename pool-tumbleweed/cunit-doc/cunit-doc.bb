@@ -11,6 +11,7 @@ RPM_HASH = "60aed93f0e210eb821b713626ba33ff280978d0d7771a2246628aaa625eed7ba1c8a
 
 RPROVIDES:${PN} += "cunit-doc \
 cunit-doc(aarch-64)"
+
 RDEPENDS:${PN} += "libcunit1"
 
 inherit rpm

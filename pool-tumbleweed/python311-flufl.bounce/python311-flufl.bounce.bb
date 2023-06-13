@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flufl.bounce) \
 python311-flufl.bounce \
 python3dist(flufl.bounce)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-atpublic \
 python311-zope.interface"

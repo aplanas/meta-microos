@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(hxtools-data) \
 hxtools-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

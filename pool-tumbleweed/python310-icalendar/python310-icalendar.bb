@@ -15,6 +15,7 @@ python3.10dist(icalendar) \
 python310-icalendar \
 python310-icalendar-doc \
 python3dist(icalendar)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

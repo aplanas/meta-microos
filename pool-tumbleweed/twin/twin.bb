@@ -24,6 +24,7 @@ libterm-0.9.1.so()(64bit) \
 libwm-0.9.1.so()(64bit) \
 twin \
 twin(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/true \
 ld-linux-aarch64.so.1()(64bit) \

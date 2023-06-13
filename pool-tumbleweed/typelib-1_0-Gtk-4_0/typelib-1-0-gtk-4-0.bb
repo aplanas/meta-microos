@@ -18,6 +18,7 @@ typelib(Gsk) \
 typelib(Gtk) \
 typelib-1_0-Gtk-4_0 \
 typelib-1_0-Gtk-4_0(aarch-64)"
+
 RDEPENDS:${PN} += "(python3-gobject-Gdk if python3-gobject) \
 (python310-gobject-Gdk if python310-gobject) \
 (python38-gobject-Gdk if python38-gobject) \

@@ -11,6 +11,7 @@ RPM_HASH = "cf519a07e38fa6d29b17030ff4e6377b4f8ee74ead9e4b8af32a6aa44a518fec86ec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hypre-gnu-openmpi2-hpc-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 hypre_2_20_0-gnu-openmpi2-hpc-devel"
 

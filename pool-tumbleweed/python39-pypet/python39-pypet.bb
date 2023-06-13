@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pypet) \
 python39-pypet \
 python3dist(pypet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy \
 python39-pandas \

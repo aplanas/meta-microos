@@ -68,6 +68,7 @@ perl(HTML::TableExtract::Rasterize) \
 perl(HTML::TableExtract::StripHTML) \
 perl(HTML::TableExtract::Table) \
 perl-HTML-TableExtract"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTML::ElementTable) \
 perl(HTML::Parser)"

@@ -12,6 +12,7 @@ RPM_HASH = "bd0811710b08811541776999a311c5170201df8520d0a11331cfb11635e6cee50030
 
 RPROVIDES:${PN} += "cross-sparc-gcc12 \
 cross-sparc-gcc12(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-sparc-binutils \
 libstdc++6-devel-gcc12 \

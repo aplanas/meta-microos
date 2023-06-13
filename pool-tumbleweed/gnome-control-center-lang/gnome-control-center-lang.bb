@@ -96,6 +96,7 @@ locale(gnome-control-center:wa) \
 locale(gnome-control-center:zh_CN) \
 locale(gnome-control-center:zh_HK) \
 locale(gnome-control-center:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-control-center"
 
 inherit rpm

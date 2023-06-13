@@ -16,6 +16,7 @@ RPM_HASH = "b0e96525d7d262fd9972a24e8ae64e7982fd59c79cb5f3c0800d5e2cb5fe3e702c48
 RPROVIDES:${PN} += "magicpoint \
 mgp \
 mgp(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

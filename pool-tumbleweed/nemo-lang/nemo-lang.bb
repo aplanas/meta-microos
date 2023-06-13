@@ -86,6 +86,7 @@ locale(nemo:zh_HK) \
 locale(nemo:zh_TW) \
 nemo-lang \
 nemo-lang-all"
+
 RDEPENDS:${PN} += "nemo"
 
 inherit rpm

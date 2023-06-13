@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "PackageKit-backend \
 PackageKit-backend-zypp \
 PackageKit-backend-zypp(aarch-64) \
 libpk_backend_zypp.so()(64bit)"
+
 RDEPENDS:${PN} += "PackageKit \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

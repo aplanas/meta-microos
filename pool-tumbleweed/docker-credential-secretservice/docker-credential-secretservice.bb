@@ -12,6 +12,7 @@ RPM_HASH = "97234e1cf0cc7d64b370698afb952b10727dd4c3443ce0e25621d5725af8dc3bf773
 RPROVIDES:${PN} += "config(docker-credential-secretservice) \
 docker-credential-secretservice \
 docker-credential-secretservice(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

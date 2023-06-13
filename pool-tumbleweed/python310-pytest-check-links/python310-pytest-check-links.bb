@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-check-links \
 python3.10dist(pytest-check-links) \
 python310-pytest-check-links \
 python3dist(pytest-check-links)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(autobreak.sty) \
 texlive-autobreak"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

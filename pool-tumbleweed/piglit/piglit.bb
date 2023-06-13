@@ -22,6 +22,7 @@ libpiglitutil_gles2.so.0()(64bit) \
 libpiglitutil_gles3.so.0()(64bit) \
 piglit \
 piglit(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

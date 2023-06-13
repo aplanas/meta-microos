@@ -15,6 +15,7 @@ RPM_HASH = "2d1e0bd04a55a87ee8661d80af5b9871ab1a8d624431062262b6d22afb43d63365f0
 RPROVIDES:${PN} += "RasMol \
 rasmol \
 rasmol(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/csh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

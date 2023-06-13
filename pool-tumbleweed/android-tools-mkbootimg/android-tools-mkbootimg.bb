@@ -9,6 +9,7 @@ RPM_HASH = "104edd8c2d15ef9585676c9c0f8be0dfccc6410f59031cd7dfaa03d7370a820d6ecb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "android-tools-mkbootimg"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 android-tools \
 python3"

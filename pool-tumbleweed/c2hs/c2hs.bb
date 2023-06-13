@@ -13,6 +13,7 @@ RPM_HASH = "70b6e33f4c9163a3868d6316167ad3e311082255b6546bf2a8f25ae117fee1e5c6a8
 
 RPROVIDES:${PN} += "c2hs \
 c2hs(aarch-64)"
+
 RDEPENDS:${PN} += "libatomic.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libffi.so.8()(64bit) \

@@ -21,6 +21,7 @@ libOpenGL.so.0()(64bit) \
 libglvnd \
 libglvnd(aarch-64) \
 libglvnd0"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 Mesa-dri \
 ld-linux-aarch64.so.1()(64bit) \

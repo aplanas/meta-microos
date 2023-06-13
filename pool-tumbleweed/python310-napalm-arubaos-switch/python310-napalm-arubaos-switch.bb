@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-napalm-arubaos-switch \
 python3.10dist(napalm-arubaos-switch) \
 python310-napalm-arubaos-switch \
 python3dist(napalm-arubaos-switch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-napalm \
 python310-netaddr \

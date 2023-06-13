@@ -11,6 +11,7 @@ RPM_HASH = "f75ebd5b1d7c70ffdc54de7f6b6a9e1a08cfcc13ef7c69be4d72e128d785c349834b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "relaxngcc"
+
 RDEPENDS:${PN} += "isorelax \
 msv-msv \
 msv-xsdlib \

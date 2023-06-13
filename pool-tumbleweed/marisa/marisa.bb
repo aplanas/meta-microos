@@ -17,6 +17,7 @@ RPM_HASH = "52c8b53ad12b72ea0cfe6317a954665b9a26905acea5e63e497b79428ab6d1e7e497
 RPROVIDES:${PN} += "marisa \
 marisa(aarch-64) \
 marisa-trie"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

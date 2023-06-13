@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.8dist(gwdatafind) \
 python38-gwdatafind \
 python3dist(gwdatafind)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.8 \
 python(abi) \

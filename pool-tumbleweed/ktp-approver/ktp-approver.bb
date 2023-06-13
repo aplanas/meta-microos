@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "config(ktp-approver) \
 ktp-approver \
 ktp-approver(aarch-64) \
 ktp-approver5"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigCore.so.5()(64bit) \

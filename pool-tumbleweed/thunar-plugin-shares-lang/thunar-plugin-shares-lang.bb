@@ -56,6 +56,7 @@ locale(thunar-plugin-shares:zh_CN) \
 locale(thunar-plugin-shares:zh_TW) \
 thunar-plugin-shares-lang \
 thunar-plugin-shares-lang-all"
+
 RDEPENDS:${PN} += "thunar-plugin-shares"
 
 inherit rpm

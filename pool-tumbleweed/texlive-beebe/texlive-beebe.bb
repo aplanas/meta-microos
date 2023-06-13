@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(bibnames.sty) \
 tex(texnames.sty) \
 tex(tugboat.def) \
 texlive-beebe"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

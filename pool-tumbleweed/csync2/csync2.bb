@@ -13,6 +13,7 @@ RPM_HASH = "228ae93dfddae5cce7a0b3a00843a21fb89d9ae0cebc498efd4934472829d4a13867
 RPROVIDES:${PN} += "config(csync2) \
 csync2 \
 csync2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 hostname \

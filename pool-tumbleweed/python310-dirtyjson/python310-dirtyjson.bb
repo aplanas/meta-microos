@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dirtyjson \
 python3.10dist(dirtyjson) \
 python310-dirtyjson \
 python3dist(dirtyjson)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

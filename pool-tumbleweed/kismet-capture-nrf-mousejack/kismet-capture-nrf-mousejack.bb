@@ -13,6 +13,7 @@ RPM_HASH = "07a6b372f647f3abf7ccb40e7684c37eba4a62279a01b07b0f9a2b20d2d78cc6d6cf
 
 RPROVIDES:${PN} += "kismet-capture-nrf-mousejack \
 kismet-capture-nrf-mousejack(aarch-64)"
+
 RDEPENDS:${PN} += "kismet \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

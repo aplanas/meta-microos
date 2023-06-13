@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aws-xray-sdk) \
 python39-aws-xray-sdk \
 python3dist(aws-xray-sdk)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-botocore \
 python39-wrapt"

@@ -11,6 +11,7 @@ RPM_HASH = "a20b3a77b47e51a1a5fce141120c96a9db521e6c91f50bbb5e43c81540b3a22e23cd
 RPROVIDES:${PN} += "ghc-skylighting-format-latex \
 ghc-skylighting-format-latex(aarch-64) \
 libHSskylighting-format-latex-0.1-BfMH5Wq0cc5AFSMLgsgxu-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

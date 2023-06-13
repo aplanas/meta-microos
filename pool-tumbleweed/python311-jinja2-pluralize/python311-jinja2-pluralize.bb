@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jinja2-pluralize) \
 python311-jinja2-pluralize \
 python3dist(jinja2-pluralize)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Jinja2 \
 python311-inflect"

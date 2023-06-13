@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libpqwalreceiver.so()(64bit) \
 postgresql-server-implementation \
 postgresql14-server \
 postgresql14-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 glibc-locale \
 ld-linux-aarch64.so.1()(64bit) \

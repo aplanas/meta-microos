@@ -10,6 +10,7 @@ RPM_HASH = "a21b4b3a86bb924603bda0dc8667a6cad3c8e33b97119f6813273e4fe55fd2f5f1ed
 
 RPROVIDES:${PN} += "connman-plugin-openconnect \
 connman-plugin-openconnect(aarch-64)"
+
 RDEPENDS:${PN} += "connman \
 dbus-1 \
 ld-linux-aarch64.so.1()(64bit) \

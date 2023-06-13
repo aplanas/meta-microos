@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "jsoup \
 mvn(org.jsoup:jsoup) \
 mvn(org.jsoup:jsoup:pom:) \
 osgi(org.jsoup)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fontmfizz.sty) \
 texlive-fontmfizz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

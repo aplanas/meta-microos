@@ -11,6 +11,7 @@ RPM_HASH = "62279b4cc49bcd49f2917077b51a7162bac918bd718be24fdea4af66f09e60c53150
 RPROVIDES:${PN} += "libnetfilter_acct-devel \
 libnetfilter_acct-devel(aarch-64) \
 pkgconfig(libnetfilter_acct)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnetfilter_acct1"
 

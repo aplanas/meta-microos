@@ -14,6 +14,7 @@ application(org.ubuntubudgie.budgie-extras.HotCorners.desktop) \
 budgie-hotcorners-applet \
 budgie-hotcorners-applet(aarch-64) \
 libhotcorners.so()(64bit)"
+
 RDEPENDS:${PN} += "budgie-extras-lang \
 budgie-screensaver \
 dconf \

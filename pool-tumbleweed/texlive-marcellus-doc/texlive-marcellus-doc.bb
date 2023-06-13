@@ -9,6 +9,7 @@ RPM_HASH = "17f2f6a563318048bfd277475c05c374fd6d8c2a3a725c024ffebe7d11a78735d2a8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-marcellus-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

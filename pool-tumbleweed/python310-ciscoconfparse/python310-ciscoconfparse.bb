@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-ciscoconfparse \
 python3.10dist(ciscoconfparse) \
 python310-ciscoconfparse \
 python3dist(ciscoconfparse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dnspython \
 python310-loguru \

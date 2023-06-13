@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ja) \
 locale(texlive-babel-japanese-doc:ja;en \
 texlive-babel-japanese-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

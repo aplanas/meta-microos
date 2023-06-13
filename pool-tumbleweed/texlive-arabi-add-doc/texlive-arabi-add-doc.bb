@@ -9,6 +9,7 @@ RPM_HASH = "05fa465764cdd9389ba443693812e31153899e4329735a3373b2fd76e56d605ca6ca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-arabi-add-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

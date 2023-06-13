@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libxapp-devel \
 libxapp-devel(aarch-64) \
 libxapp-gtk3-module.so()(64bit) \
 pkgconfig(xapp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

@@ -23,6 +23,7 @@ python311-pycairo-common-devel \
 python39-cairo-common-devel \
 python39-cairo-devel \
 python39-pycairo-common-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cairo-devel \
 pkgconfig(cairo)"

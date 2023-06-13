@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(durus) \
 python39-Durus \
 python39-Durus(aarch-64) \
 python3dist(durus)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

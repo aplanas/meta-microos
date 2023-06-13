@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-fastjsonschema \
 python3.10dist(fastjsonschema) \
 python310-fastjsonschema \
 python3dist(fastjsonschema)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

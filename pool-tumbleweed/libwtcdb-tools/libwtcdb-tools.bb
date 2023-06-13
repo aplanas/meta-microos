@@ -10,6 +10,7 @@ RPM_HASH = "f974d99a7b01d90681c93c7ceafc5893ab2b3e77622fc5618dc15ea4ee16db2ded7a
 
 RPROVIDES:${PN} += "libwtcdb-tools \
 libwtcdb-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

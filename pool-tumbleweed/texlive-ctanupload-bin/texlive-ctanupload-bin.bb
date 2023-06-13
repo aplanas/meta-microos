@@ -9,6 +9,7 @@ RPM_HASH = "f8a1d502b9d2fb123a72138e53beecbd148d2b0c8a325bd427a4ab0d5c6ee5c09a42
 
 RPROVIDES:${PN} += "texlive-ctanupload-bin \
 texlive-ctanupload-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-ctanupload"
 
 inherit rpm

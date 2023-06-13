@@ -31,6 +31,7 @@ tex(yquant.sty) \
 tex(yquantlanguage-groups.sty) \
 tex(yquantlanguage-qasm.sty) \
 texlive-yquant"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

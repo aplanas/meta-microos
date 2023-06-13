@@ -9,6 +9,7 @@ RPM_HASH = "828e56acc9a5017cbde85f20e1c9a86a85330e21cb971f5f7951017408c53efd3511
 
 RPROVIDES:${PN} += "k0sctl \
 k0sctl(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

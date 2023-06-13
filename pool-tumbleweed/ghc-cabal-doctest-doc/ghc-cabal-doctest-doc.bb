@@ -9,6 +9,7 @@ RPM_HASH = "9d40c0095ac230f53ab1c9de6f5ee8ef52c00810fcf99be2ece82e489ec54b94be71
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cabal-doctest-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

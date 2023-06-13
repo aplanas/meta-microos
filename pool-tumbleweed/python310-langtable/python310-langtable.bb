@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-langtable \
 python3.10dist(langtable) \
 python310-langtable \
 python3dist(langtable)"
+
 RDEPENDS:${PN} += "python(abi) \
 python-langtable-data"
 

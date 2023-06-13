@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fei.cls) \
 texlive-fei"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

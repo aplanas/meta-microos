@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bezierplot.sty) \
 texlive-bezierplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/lua \
 coreutils \

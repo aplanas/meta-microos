@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(netaddr) \
 python311-netaddr \
 python3dist(netaddr)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

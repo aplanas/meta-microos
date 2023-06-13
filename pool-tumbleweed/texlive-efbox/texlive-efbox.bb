@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(efbox.sty) \
 texlive-efbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

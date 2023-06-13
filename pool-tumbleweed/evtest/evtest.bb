@@ -12,6 +12,7 @@ RPM_HASH = "7fa95e72f8e577ea6974dcb5b4781729ac77461ceca05a9e8656f33e261c6ff8e8ca
 RPROVIDES:${PN} += "evtest \
 evtest(aarch-64) \
 input-utils:/usr/bin/evtest"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

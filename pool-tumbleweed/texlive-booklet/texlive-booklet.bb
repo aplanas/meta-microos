@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(bkltprnt.sty) \
 tex(booklet.sty) \
 texlive-booklet"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

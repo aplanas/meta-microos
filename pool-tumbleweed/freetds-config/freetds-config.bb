@@ -17,6 +17,7 @@ freetds \
 freetds-config \
 freetds-config(aarch-64) \
 libfreetds"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

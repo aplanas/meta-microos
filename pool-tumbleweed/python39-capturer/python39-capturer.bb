@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(capturer) \
 python39-capturer \
 python3dist(capturer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-humanfriendly"
 

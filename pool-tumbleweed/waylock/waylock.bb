@@ -11,6 +11,7 @@ RPM_HASH = "b7fe0554f9a010e935a3ad9a55e4294e0621332d94638322dac1ab4392d3b649e99e
 
 RPROVIDES:${PN} += "waylock \
 waylock(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

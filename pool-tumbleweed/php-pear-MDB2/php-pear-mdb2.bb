@@ -41,6 +41,7 @@ RPROVIDES:${PN} += "php-pear(MDB2) \
 php-pear-MDB2 \
 php5-pear-MDB2 \
 php7-pear-MDB2"
+
 RDEPENDS:${PN} += "/bin/sh \
 php-pear"
 

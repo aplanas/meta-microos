@@ -15,6 +15,7 @@ RPM_HASH = "cdb6c1ff65b05be50287ab892454a6e706ec0d1a45d8842aee10c6ff79d21fa0a236
 RPROVIDES:${PN} += "locale(ja;ko;zh) \
 lv \
 lv(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

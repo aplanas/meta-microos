@@ -12,6 +12,7 @@ RPM_HASH = "c95835c1b1c4dbbe2b30a1e0d679952735c4cb3c1427b3b891dac278fde9a99528a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-roundrect"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

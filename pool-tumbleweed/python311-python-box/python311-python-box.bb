@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-box) \
 python311-python-box \
 python3dist(python-box)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-msgpack \
 python311-ruamel.yaml \

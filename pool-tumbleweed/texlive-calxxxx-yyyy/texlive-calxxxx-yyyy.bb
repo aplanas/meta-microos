@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(calxxxx-yyyy-doc.tex) \
 tex(calxxxx-yyyy.tex) \
 texlive-calxxxx-yyyy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

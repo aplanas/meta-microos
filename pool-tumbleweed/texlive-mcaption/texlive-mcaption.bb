@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mcaption.sty) \
 texlive-mcaption"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

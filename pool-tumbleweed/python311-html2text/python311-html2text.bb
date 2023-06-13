@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "html2text \
 python3.11dist(html2text) \
 python311-html2text \
 python3dist(html2text)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

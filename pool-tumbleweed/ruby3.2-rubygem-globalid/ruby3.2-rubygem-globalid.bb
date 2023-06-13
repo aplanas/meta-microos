@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:globalid) \
 rubygem(ruby:3.2.0:globalid:1) \
 rubygem(ruby:3.2.0:globalid:1.1) \
 rubygem(ruby:3.2.0:globalid:1.1.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:activesupport)"
 

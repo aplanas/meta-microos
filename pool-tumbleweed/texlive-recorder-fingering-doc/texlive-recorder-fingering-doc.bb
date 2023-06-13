@@ -9,6 +9,7 @@ RPM_HASH = "edf0bb6a238d8c4160162ff03447327ef39c59b24b46d7d58fc9a117173b72b1489a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-recorder-fingering-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

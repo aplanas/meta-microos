@@ -11,6 +11,7 @@ RPM_HASH = "ef094e2e70b794466bcc93f873ee5c91540c7b02b2acdc0d41e39fcd905b85b2de9e
 RPROVIDES:${PN} += "libxml++-2.6.so.2()(64bit) \
 libxml++-2_6-2 \
 libxml++-2_6-2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

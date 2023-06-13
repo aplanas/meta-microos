@@ -66,6 +66,7 @@ locale(xfwm4:zh_HK) \
 locale(xfwm4:zh_TW) \
 xfwm4-lang \
 xfwm4-lang-all"
+
 RDEPENDS:${PN} += "xfwm4"
 
 inherit rpm

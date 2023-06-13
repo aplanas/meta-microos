@@ -96,6 +96,7 @@ locale(file-roller:vi) \
 locale(file-roller:zh_CN) \
 locale(file-roller:zh_HK) \
 locale(file-roller:zh_TW)"
+
 RDEPENDS:${PN} += "file-roller"
 
 inherit rpm

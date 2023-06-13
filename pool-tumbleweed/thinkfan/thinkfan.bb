@@ -15,6 +15,7 @@ RPM_HASH = "51cac127273e41c91a85e97206d3e57aa960471c20a9c1607fe60b1f8796bc9ba45a
 RPROVIDES:${PN} += "config(thinkfan) \
 thinkfan \
 thinkfan(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

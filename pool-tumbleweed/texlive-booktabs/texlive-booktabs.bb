@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(booktabs.sty) \
 texlive-booktabs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

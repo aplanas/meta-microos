@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-cjk:ja;ko;zh) \
 texlive-cjk-latex-extras"
+
 RDEPENDS:${PN} += "/bin/mkdir \
 /bin/rm \
 /bin/sh \

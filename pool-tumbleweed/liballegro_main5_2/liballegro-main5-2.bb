@@ -15,6 +15,7 @@ RPM_HASH = "633e09354abe6076fe0a34b48a42dc41c111dac3b7cd7aedad28f5486db48917603c
 RPROVIDES:${PN} += "liballegro_main.so.5.2()(64bit) \
 liballegro_main5_2 \
 liballegro_main5_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

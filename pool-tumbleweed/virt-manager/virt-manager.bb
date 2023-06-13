@@ -18,6 +18,7 @@ application(virt-manager.desktop) \
 metainfo() \
 metainfo(virt-manager.appdata.xml) \
 virt-manager"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

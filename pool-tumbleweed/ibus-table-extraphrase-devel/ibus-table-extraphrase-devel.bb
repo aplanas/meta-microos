@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-extraphrase-devel \
 pkgconfig(ibus-table-extraphrase)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ibus-table-extraphrase \
 pkgconfig(ibus-table)"

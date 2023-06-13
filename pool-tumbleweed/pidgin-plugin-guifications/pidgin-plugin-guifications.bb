@@ -14,6 +14,7 @@ RPM_HASH = "1585970cc0270a5ce5b173c87b8d3dd4332cfc0147eb24f0b067bdfadfb60974cfd9
 RPROVIDES:${PN} += "pidgin-guifications \
 pidgin-plugin-guifications \
 pidgin-plugin-guifications(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

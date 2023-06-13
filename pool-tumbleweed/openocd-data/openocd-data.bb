@@ -11,6 +11,7 @@ RPM_HASH = "774c45926ac1cd39a4cc6faa5c43954ad158d56ab37d4d9e2416959005c34ce28e16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openocd-data"
+
 RDEPENDS:${PN} += "openocd"
 
 inherit rpm

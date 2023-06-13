@@ -29,6 +29,7 @@ syslog \
 syslog-ng \
 syslog-ng(aarch-64) \
 sysvinit(syslog)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/awk \

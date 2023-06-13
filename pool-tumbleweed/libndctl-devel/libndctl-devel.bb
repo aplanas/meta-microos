@@ -18,6 +18,7 @@ libndctl-devel(aarch-64) \
 pkgconfig(libcxl) \
 pkgconfig(libdaxctl) \
 pkgconfig(libndctl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libndctl6"
 

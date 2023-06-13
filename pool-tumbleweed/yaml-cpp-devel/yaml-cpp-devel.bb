@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(yaml-cpp) \
 pkgconfig(yaml-cpp) \
 yaml-cpp-devel \
 yaml-cpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libyaml-cpp0_7"
 

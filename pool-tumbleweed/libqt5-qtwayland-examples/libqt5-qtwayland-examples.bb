@@ -9,6 +9,7 @@ RPM_HASH = "568aa9ce7576f8e33215fb5c4ac83415e8d8225bd1f2edf4d2e58f75bd745b208bdc
 
 RPROVIDES:${PN} += "libqt5-qtwayland-examples \
 libqt5-qtwayland-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLESv2.so.2()(64bit) \

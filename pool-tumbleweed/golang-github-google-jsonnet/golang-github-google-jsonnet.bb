@@ -11,6 +11,7 @@ RPM_HASH = "a0fe6f195f61ab42d9fb476766ca752c71c36b30871dacf7dd6cf95351e33a207b49
 RPROVIDES:${PN} += "golang-github-google-jsonnet \
 golang-github-google-jsonnet(aarch-64) \
 jsonnet"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

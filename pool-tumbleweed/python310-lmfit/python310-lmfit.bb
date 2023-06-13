@@ -28,6 +28,7 @@ RPROVIDES:${PN} += "python3-lmfit \
 python3.10dist(lmfit) \
 python310-lmfit \
 python3dist(lmfit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-asteval \
 python310-numpy \

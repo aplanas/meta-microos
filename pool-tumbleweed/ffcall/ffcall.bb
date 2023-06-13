@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "ffcall \
 ffcall(aarch-64) \
 ffcall-devel \
 rpm_macro(ffcall_arches)"
+
 RDEPENDS:${PN} += "libavcall1 \
 libcallback1 \
 libffcall0 \

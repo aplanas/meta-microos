@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(marshmallow-enum) \
 python39-marshmallow-enum \
 python3dist(marshmallow-enum)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-marshmallow"
 

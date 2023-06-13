@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(niceframe.map) \
 texlive-niceframe-type1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

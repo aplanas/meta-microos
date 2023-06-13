@@ -32,6 +32,7 @@ mimehandler(application/vnd.openxmlformats-officedocument.wordprocessingml.docum
 mimehandler(application/vnd.openxmlformats-officedocument.wordprocessingml.template) \
 mimehandler(application/vnd.wordperfect) \
 mimehandler(text/rtf)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 calligra \
 ld-linux-aarch64.so.1()(64bit) \

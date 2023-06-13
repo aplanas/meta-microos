@@ -9,6 +9,7 @@ RPM_HASH = "0c07027f60949d207b9b4511c72516553cc9270c86f3190e734a790f64e8ab3996ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-mathscience"
+
 RDEPENDS:${PN} += "texlive-12many \
 texlive-accents \
 texlive-alg \

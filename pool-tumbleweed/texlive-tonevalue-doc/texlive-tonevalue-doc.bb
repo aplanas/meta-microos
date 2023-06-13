@@ -9,6 +9,7 @@ RPM_HASH = "7284223f3ba18593ffe999661ed93b1e819b45bec73d7fce01f55749d3f3a5c709b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tonevalue-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

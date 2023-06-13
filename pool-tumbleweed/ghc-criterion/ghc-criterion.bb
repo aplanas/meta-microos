@@ -20,6 +20,7 @@ RPM_HASH = "a5836b9597ec055044d47a9fb5cba460c025094e9bd64089cd7c9d1b09b9387cd903
 RPROVIDES:${PN} += "ghc-criterion \
 ghc-criterion(aarch-64) \
 libHScriterion-1.6.0.0-DRzDBgvFHz63cqdMc7T97x-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSGlob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R-ghc9.4.5.so()(64bit) \

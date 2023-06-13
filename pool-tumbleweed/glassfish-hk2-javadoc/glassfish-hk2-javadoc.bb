@@ -9,6 +9,7 @@ RPM_HASH = "42e40c6e5e4b0357ef03d4342ff85f7e16fae34645a4d13a73decb113055a13f07ec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-hk2-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "974f620f62092c2764a7be360ce6a860c852ac069ec12cf0c703ac8e8266cac3323e
 RPROVIDES:${PN} += "libOgreBites.so.13.5()(64bit) \
 libOgreBites13_5 \
 libOgreBites13_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

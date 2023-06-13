@@ -85,6 +85,7 @@ perl(Mail::SPF::Util) \
 perl(Mail::SPF::v1::Record) \
 perl(Mail::SPF::v2::Record) \
 perl-Mail-SPF"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Error) \

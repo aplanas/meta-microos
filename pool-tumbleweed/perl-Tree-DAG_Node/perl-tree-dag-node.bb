@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Tree::DAG_Node) \
 perl-Tree-DAG_Node"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Slurp::Tiny)"
 

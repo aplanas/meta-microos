@@ -17,6 +17,7 @@ RPM_HASH = "09146189a82f793b00b7984e74a3dcda3fca9dfc55264bdf228caf421c05c14d48b5
 
 RPROVIDES:${PN} += "gavl \
 gavl(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgavl.so.1()(64bit)"
 

@@ -11,6 +11,7 @@ RPM_HASH = "f0de77b84fc94388a575b7b7d42f329d7d4539caa9da2ae374351139df195f1b5358
 RPROVIDES:${PN} += "ghc-devel(network-byte-order-0.1.6-9jNlcwvZjC3K8A2S0a4vrO) \
 ghc-network-byte-order-devel \
 ghc-network-byte-order-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

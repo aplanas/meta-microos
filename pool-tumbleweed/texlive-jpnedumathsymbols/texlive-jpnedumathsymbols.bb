@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jpnedumathsymbols.sty) \
 texlive-jpnedumathsymbols"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

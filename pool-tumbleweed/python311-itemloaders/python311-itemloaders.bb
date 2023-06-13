@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(itemloaders) \
 python311-itemloaders \
 python3dist(itemloaders)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-itemadapter \
 python311-jmespath \

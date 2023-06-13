@@ -49,6 +49,7 @@ locale(plasma5-thunderbolt:zh_CN) \
 locale(plasma5-thunderbolt:zh_TW) \
 plasma5-thunderbolt-lang \
 plasma5-thunderbolt-lang-all"
+
 RDEPENDS:${PN} += "plasma5-thunderbolt"
 
 inherit rpm

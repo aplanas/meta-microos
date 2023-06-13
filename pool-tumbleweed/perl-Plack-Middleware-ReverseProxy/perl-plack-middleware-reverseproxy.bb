@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Plack::Middleware::ReverseProxy) \
 perl-Plack-Middleware-ReverseProxy"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Plack) \
 perl(Plack::Middleware) \

@@ -16,6 +16,7 @@ RPM_HASH = "6ff5f0061ec3b505f7ac6e99c2c0c102bb7fb24b0ed8e0b4fb35a25c8e69859f6185
 
 RPROVIDES:${PN} += "sfftobmp \
 sfftobmp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_filesystem.so.1.82.0()(64bit) \

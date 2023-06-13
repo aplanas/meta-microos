@@ -12,6 +12,7 @@ RPM_HASH = "565792270ff85eb06096c77349523c77ebf711d5783263fc6138dcd264d0a4d857f7
 RPROVIDES:${PN} += "cmake(MbedTLS) \
 mbedtls-devel \
 mbedtls-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmbedcrypto14 \
 libmbedtls19 \
 libmbedx509-5"

@@ -10,6 +10,7 @@ RPM_HASH = "9aee23882f032e40f464325c99adbbe4f7640be805b6e44288ca9892ce056156e053
 RPROVIDES:${PN} += "ghc-prof(unliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj) \
 ghc-unliftio-core-prof \
 ghc-unliftio-core-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(transformers-0.5.6.2) \
 ghc-unliftio-core-devel"

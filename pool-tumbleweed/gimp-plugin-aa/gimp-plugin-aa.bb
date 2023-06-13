@@ -11,6 +11,7 @@ RPM_HASH = "0bef46ae201bf0c1883833661e7e35460ba8a7445ab35caf1ecb1880a5cbb718cede
 
 RPROVIDES:${PN} += "gimp-plugin-aa \
 gimp-plugin-aa(aarch-64)"
+
 RDEPENDS:${PN} += "gimp \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(latexgit.sty) \
 texlive-latexgit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

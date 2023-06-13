@@ -22,6 +22,7 @@ libcolord_sensor_huey.so()(64bit) \
 libcolord_sensor_scanner.so()(64bit) \
 libcolordcompat.so()(64bit) \
 user(colord)"
+
 RDEPENDS:${PN} += "/bin/sh \
 argyllcms \
 colord-color-profiles \

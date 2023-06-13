@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(selinux-policy-targeted) \
 selinux-policy-base \
 selinux-policy-targeted"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 selinux-policy"

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apel \
 emacs-apel"
+
 RDEPENDS:${PN} += "emacs \
 emacs_program"
 

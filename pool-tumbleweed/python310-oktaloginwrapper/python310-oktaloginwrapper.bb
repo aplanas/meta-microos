@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-oktaloginwrapper \
 python3.10dist(oktaloginwrapper) \
 python310-oktaloginwrapper \
 python3dist(oktaloginwrapper)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lxml \
 python310-requests"

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-nicematrix-doc:fr) \
 texlive-nicematrix-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

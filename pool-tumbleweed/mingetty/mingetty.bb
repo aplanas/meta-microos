@@ -12,6 +12,7 @@ RPM_HASH = "168e3c33c2fee52efdf5de86575154b0e779b9220469df6a118a6d9c94b3031a2caf
 RPROVIDES:${PN} += "mingetty \
 mingetty(aarch-64) \
 sysvinit:/sbin/mingetty"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

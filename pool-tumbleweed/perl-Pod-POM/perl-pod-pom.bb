@@ -39,6 +39,7 @@ perl(Pod::POM::View::HTML) \
 perl(Pod::POM::View::Pod) \
 perl(Pod::POM::View::Text) \
 perl-Pod-POM"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(parent)"

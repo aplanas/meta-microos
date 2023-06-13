@@ -9,6 +9,7 @@ RPM_HASH = "3681124df4e402ae35dbaf2c76f00ad710fb7bd01e952b2cae70303042f81f131b61
 
 RPROVIDES:${PN} += "velero-plugin-for-gcp \
 velero-plugin-for-gcp(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

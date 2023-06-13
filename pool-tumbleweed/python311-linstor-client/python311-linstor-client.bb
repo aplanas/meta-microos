@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(linstor-client) \
 python311-linstor-client \
 python311-linstor-client(aarch-64) \
 python3dist(linstor-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-linstor"
 

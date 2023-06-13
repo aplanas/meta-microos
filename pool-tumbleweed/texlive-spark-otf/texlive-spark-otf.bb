@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(spark-otf.sty) \
 texlive-spark-otf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

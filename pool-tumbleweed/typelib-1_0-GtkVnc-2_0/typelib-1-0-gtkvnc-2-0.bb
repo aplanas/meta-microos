@@ -15,6 +15,7 @@ RPM_HASH = "95e9431d2b9f18b043b87fad11d6eac38b86ded9d343baa4886c9608f5ee450776f6
 RPROVIDES:${PN} += "typelib(GtkVnc) \
 typelib-1_0-GtkVnc-2_0 \
 typelib-1_0-GtkVnc-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgtk-vnc-2.0.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

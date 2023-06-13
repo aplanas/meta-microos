@@ -16,6 +16,7 @@ RPM_HASH = "645729bf981ddf633c1949cd1fba07ef2dbe49ecc517a27b4696941e2b3cf6180e4b
 RPROVIDES:${PN} += "libxmi.so.0()(64bit) \
 libxmi0 \
 libxmi0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(objgraph) \
 python39-objgraph \
 python3dist(objgraph)"
+
 RDEPENDS:${PN} += "graphviz-gd \
 graphviz-gnome \
 python(abi) \

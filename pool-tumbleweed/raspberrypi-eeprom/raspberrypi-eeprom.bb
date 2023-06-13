@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(raspberrypi-eeprom) \
 raspberrypi-eeprom \
 rpi-eeprom \
 rpi-eeprom-config"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 pciutils \

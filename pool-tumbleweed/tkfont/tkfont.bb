@@ -15,6 +15,7 @@ RPM_HASH = "022b8ee45f0670b20330e50e076570710784328f61ef665e85b2ab3a9fa538758d00
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tkfont"
+
 RDEPENDS:${PN} += "/bin/sh \
 tk \
 xlsfonts"

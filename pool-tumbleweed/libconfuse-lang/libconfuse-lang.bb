@@ -13,6 +13,7 @@ libconfuse-lang-all \
 locale(libconfuse:de) \
 locale(libconfuse:fr) \
 locale(libconfuse:sv)"
+
 RDEPENDS:${PN} += "libconfuse2"
 
 inherit rpm

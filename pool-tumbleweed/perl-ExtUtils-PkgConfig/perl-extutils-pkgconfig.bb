@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(ExtUtils::PkgConfig) \
 perl-ExtUtils-PkgConfig"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 pkgconfig"
 

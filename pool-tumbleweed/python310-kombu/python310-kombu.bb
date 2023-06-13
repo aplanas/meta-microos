@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-kombu \
 python3.10dist(kombu) \
 python310-kombu \
 python3dist(kombu)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-amqp \
 python310-cached-property \

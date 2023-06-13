@@ -9,6 +9,7 @@ RPM_HASH = "3963095074881fc76537feae78fcd16fb11cf537100a637caeaaa88430b36710d3fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-iwona-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

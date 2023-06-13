@@ -16,6 +16,7 @@ interceptor_3_0_api \
 interceptor_api \
 mvn(org.apache.geronimo.specs:geronimo-interceptor_3.0_spec) \
 mvn(org.apache.geronimo.specs:geronimo-interceptor_3.0_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

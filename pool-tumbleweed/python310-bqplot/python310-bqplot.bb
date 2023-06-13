@@ -17,6 +17,7 @@ python3.10dist(bqplot) \
 python310-bqplot \
 python310-jupyter_bqplot \
 python3dist(bqplot)"
+
 RDEPENDS:${PN} += "jupyter-bqplot-notebook \
 python(abi) \
 python310-ipywidgets \

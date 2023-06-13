@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dyntree.sty) \
 texlive-dyntree"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

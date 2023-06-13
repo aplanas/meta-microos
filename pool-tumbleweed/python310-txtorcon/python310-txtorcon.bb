@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-txtorcon \
 python3.10dist(txtorcon) \
 python310-txtorcon \
 python3dist(txtorcon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Automat \
 python310-Twisted-tls \

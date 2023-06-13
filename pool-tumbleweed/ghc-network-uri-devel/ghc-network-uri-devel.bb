@@ -10,6 +10,7 @@ RPM_HASH = "e84c00e47e0b2e50c1deeacdd47b3116e5f1eb7aab10f89788d474d771ded1db0b67
 RPROVIDES:${PN} += "ghc-devel(network-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH) \
 ghc-network-uri-devel \
 ghc-network-uri-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

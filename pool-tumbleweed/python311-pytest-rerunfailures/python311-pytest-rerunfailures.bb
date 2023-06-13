@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-rerunfailures) \
 python311-pytest-rerunfailures \
 python3dist(pytest-rerunfailures)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytest \
 python311-setuptools"

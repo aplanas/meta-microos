@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcinnamon-desktop-data-branding \
 libcinnamon-desktop-data-branding-openSUSE"
+
 RDEPENDS:${PN} += "/bin/sh \
 adwaita-icon-theme \
 libcinnamon-desktop-data \

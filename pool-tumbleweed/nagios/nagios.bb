@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "config(nagios) \
 monitoring_daemon \
 nagios \
 nagios(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/logger \
 /bin/sh \

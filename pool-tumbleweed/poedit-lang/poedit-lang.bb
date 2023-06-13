@@ -64,6 +64,7 @@ locale(poedit:zh_CN) \
 locale(poedit:zh_TW) \
 poedit-lang \
 poedit-lang-all"
+
 RDEPENDS:${PN} += "poedit"
 
 inherit rpm

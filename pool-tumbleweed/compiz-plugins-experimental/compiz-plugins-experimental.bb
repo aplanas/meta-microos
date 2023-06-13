@@ -51,6 +51,7 @@ libthrow.so()(64bit) \
 libtile.so()(64bit) \
 libtoggledeco.so()(64bit) \
 libwizard.so()(64bit)"
+
 RDEPENDS:${PN} += "compiz \
 compiz-plugins-extra \
 compiz-plugins-main \

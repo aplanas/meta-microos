@@ -13,6 +13,7 @@ ocaml-benchmark-devel \
 ocaml-benchmark-devel(aarch-64) \
 ocamlfind(benchmark) \
 ocamlx(Benchmark)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(CamlinternalLazy) \
 ocaml(Stdlib) \

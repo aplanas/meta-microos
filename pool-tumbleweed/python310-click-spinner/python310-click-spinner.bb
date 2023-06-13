@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-click-spinner \
 python3.10dist(click-spinner) \
 python310-click-spinner \
 python3dist(click-spinner)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click"
 

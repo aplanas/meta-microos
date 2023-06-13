@@ -13,6 +13,7 @@ RPM_HASH = "0823191ad132e36f1e3dbd0a318d78fd46e31e96468a47de3dd33d633f0d2af3857d
 RPROVIDES:${PN} += "gsettings-qt-devel \
 gsettings-qt-devel(aarch-64) \
 pkgconfig(gsettings-qt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgsettings-qt1"
 

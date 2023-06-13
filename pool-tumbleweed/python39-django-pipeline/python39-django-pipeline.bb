@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-pipeline) \
 python39-django-pipeline \
 python3dist(django-pipeline)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-Jinja2"

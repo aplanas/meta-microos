@@ -9,6 +9,7 @@ RPM_HASH = "24931d298ca54fd138aa90ee4453e00ba63a8c3366100a923e947aef1d95e53fdb01
 
 RPROVIDES:${PN} += "velero-plugin-for-microsoft-azure \
 velero-plugin-for-microsoft-azure(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

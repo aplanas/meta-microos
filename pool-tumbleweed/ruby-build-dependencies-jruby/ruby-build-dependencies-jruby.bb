@@ -9,6 +9,7 @@ RPM_HASH = "4b760240a3c9f2f363b82d4b7946227c74c2360dce69edeeea2a6619f0a379d9d99b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-build-dependencies-jruby"
+
 RDEPENDS:${PN} += "gcc-c++"
 
 inherit rpm

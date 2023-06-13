@@ -9,6 +9,7 @@ RPM_HASH = "e9e10f441bab72dda93ca0d629a5cc56d7815ddb197e2b911905645038716d898df0
 
 RPROVIDES:${PN} += "CastXML-devel \
 CastXML-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.16()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "7d9f40c8cc8716f4400cd0990d934a246ebb6c63f1b509e4d3d902b4fb12159b69ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-adduser"
+
 RDEPENDS:${PN} += "busybox \
 group(nogroup)"
 

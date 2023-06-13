@@ -11,6 +11,7 @@ RPM_HASH = "462e27a71854aa30774c54050bb7736c90742222190df534f6676d01f8247430ae6b
 RPROVIDES:${PN} += "libisds-devel \
 libisds-devel(aarch-64) \
 pkgconfig(libisds)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libisds5 \
 pkgconfig(libcurl) \

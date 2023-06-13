@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pygments-ansi-color) \
 python311-pygments-ansi-color \
 python3dist(pygments-ansi-color)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pygments \
 python311-setuptools"

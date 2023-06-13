@@ -23,6 +23,7 @@ RPM_HASH = "4f1a5d1ef78b5091f1cdb6f977d393ecec6da498995aa2c6aa7bd9747a1e993df8e1
 
 RPROVIDES:${PN} += "rook-integration \
 rook-integration(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "6aabdc3eae196d6f0899eac5006bffcd383f2d252892cf22b6217079b1e2472defa4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "CSXCAD-matlab"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

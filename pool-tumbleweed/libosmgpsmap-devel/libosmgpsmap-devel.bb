@@ -15,6 +15,7 @@ RPM_HASH = "5cfeb6d1e171a4db0b4a4e3a47fc2a8b9dc8573b0291a96bd7fffeebbd859ac8d953
 RPROVIDES:${PN} += "libosmgpsmap-devel \
 libosmgpsmap-devel(aarch-64) \
 pkgconfig(osmgpsmap-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmgpsmap-1_0-1 \
 pkgconfig(gtk+-3.0) \

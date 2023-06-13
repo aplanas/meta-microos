@@ -13,6 +13,7 @@ RPM_HASH = "7a2f58b2e3a644e6081ec1e78490cb3ce339ea34bc1507eb3567eed1324df0e5ca5b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-tornado"
+
 RDEPENDS:${PN} += "python311-tornado6"
 
 inherit rpm

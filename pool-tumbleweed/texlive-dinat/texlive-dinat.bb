@@ -11,6 +11,7 @@ RPM_HASH = "3ff4d3f00581020296dfad197959f72e68897b94ed34fcfade312b73ef0d0a5134c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dinat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

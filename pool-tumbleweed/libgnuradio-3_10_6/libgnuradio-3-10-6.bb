@@ -37,6 +37,7 @@ libgnuradio-video-sdl.so.3.10.6()(64bit) \
 libgnuradio-vocoder.so.3.10.6()(64bit) \
 libgnuradio-wavelet.so.3.10.6()(64bit) \
 libgnuradio-zeromq.so.3.10.6()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

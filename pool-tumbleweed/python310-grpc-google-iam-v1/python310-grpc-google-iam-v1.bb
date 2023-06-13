@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-grpc-google-iam-v1 \
 python3.10dist(grpc-google-iam-v1) \
 python310-grpc-google-iam-v1 \
 python3dist(grpc-google-iam-v1)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-googleapis-common-protos \
 python310-grpcio"

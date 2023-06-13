@@ -91,6 +91,7 @@ locale(gcr:vi) \
 locale(gcr:zh_CN) \
 locale(gcr:zh_HK) \
 locale(gcr:zh_TW)"
+
 RDEPENDS:${PN} += "gcr"
 
 inherit rpm

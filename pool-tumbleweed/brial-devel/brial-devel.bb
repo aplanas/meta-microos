@@ -17,6 +17,7 @@ RPM_HASH = "e7c70d6929a13c84dc429ce2ca25ce9de8263696b0325e368a7a3e20a31b60a843c3
 
 RPROVIDES:${PN} += "brial-devel \
 brial-devel(aarch-64)"
+
 RDEPENDS:${PN} += "boost-devel \
 libbrial3"
 

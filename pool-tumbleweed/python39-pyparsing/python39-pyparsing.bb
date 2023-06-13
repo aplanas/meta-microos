@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(pyparsing) \
 python39-pyparsing"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

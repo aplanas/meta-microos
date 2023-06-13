@@ -11,6 +11,7 @@ RPM_HASH = "5eb1a6e81a517a4135318e085bc933a74f1ad431cb6ae1c992aaaeba52786c573fda
 RPROVIDES:${PN} += "liblockdev.so.1()(64bit) \
 liblockdev1 \
 liblockdev1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/sbin/lockdev \
 glibc \

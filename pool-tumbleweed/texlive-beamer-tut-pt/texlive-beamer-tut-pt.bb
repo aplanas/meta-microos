@@ -9,6 +9,7 @@ RPM_HASH = "608ed578c1284a9b0269f52a2bc2469be05ae3e7c52e7dff9a570fc72c6270480f1f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamer-tut-pt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

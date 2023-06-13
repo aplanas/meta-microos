@@ -26,6 +26,7 @@ RPM_HASH = "d5f1ca897a9407de53112738c32ebc78664d2a2170cfa5c1390a89dbf04fc1139844
 RPROVIDES:${PN} += "config(pam_pkcs11) \
 pam_pkcs11 \
 pam_pkcs11(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

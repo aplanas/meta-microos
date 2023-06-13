@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:aes_key_wrap) \
 rubygem(ruby:3.2.0:aes_key_wrap:1) \
 rubygem(ruby:3.2.0:aes_key_wrap:1.1) \
 rubygem(ruby:3.2.0:aes_key_wrap:1.1.0)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi)"

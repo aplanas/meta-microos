@@ -15,6 +15,7 @@ tex(smartdiagramlibrarycore.commands.code.tex) \
 tex(smartdiagramlibrarycore.definitions.code.tex) \
 tex(smartdiagramlibrarycore.styles.code.tex) \
 texlive-smartdiagram"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

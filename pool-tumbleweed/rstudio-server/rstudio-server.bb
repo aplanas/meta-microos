@@ -21,6 +21,7 @@ group(rstudio-server) \
 rstudio-server \
 rstudio-server(aarch-64) \
 user(rstudio-server)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

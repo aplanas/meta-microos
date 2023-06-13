@@ -16,6 +16,7 @@ mvn(com.github.mwiede:jsch:pom:) \
 mvn(com.jcraft:jsch) \
 mvn(com.jcraft:jsch:pom:) \
 osgi(com.jcraft.jsch)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem"

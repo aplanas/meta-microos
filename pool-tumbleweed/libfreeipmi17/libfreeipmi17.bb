@@ -14,6 +14,7 @@ RPM_HASH = "c4075c6f296bbde8842234c784766d4d46c1b9c977bdfd37073b5bfa20a03a86a7cd
 RPROVIDES:${PN} += "libfreeipmi.so.17()(64bit) \
 libfreeipmi17 \
 libfreeipmi17(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

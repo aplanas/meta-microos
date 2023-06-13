@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.9dist(frozenlist) \
 python39-frozenlist \
 python39-frozenlist(aarch-64) \
 python3dist(frozenlist)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

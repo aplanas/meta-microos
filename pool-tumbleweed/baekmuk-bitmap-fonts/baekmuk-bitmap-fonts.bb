@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "baekmuk \
 baekmuk-bitmap-fonts \
 locale(xorg-x11:ko)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

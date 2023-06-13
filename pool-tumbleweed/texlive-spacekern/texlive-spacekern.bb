@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(spacekern.sty) \
 texlive-spacekern"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

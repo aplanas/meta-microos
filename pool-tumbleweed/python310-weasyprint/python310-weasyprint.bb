@@ -19,6 +19,7 @@ python3.10dist(weasyprint) \
 python310-WeasyPrint \
 python310-weasyprint \
 python3dist(weasyprint)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 libgobject-2_0-0 \

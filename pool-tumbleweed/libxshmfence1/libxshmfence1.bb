@@ -14,6 +14,7 @@ RPM_HASH = "8c943d3476fb002b6a1aadccc5a27fe2c074226d7b3f0e0ec2aed4137fd1f10ae596
 RPROVIDES:${PN} += "libxshmfence.so.1()(64bit) \
 libxshmfence1 \
 libxshmfence1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

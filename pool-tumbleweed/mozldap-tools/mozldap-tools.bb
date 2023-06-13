@@ -9,6 +9,7 @@ RPM_HASH = "e5b3d6ec7bbdd5db1d0bbdca581926a2ce1348a1301ba48c3c220f837c7ffcd957f4
 
 RPROVIDES:${PN} += "mozldap-tools \
 mozldap-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

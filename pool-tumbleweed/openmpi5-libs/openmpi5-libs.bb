@@ -29,6 +29,7 @@ liboshmem.so.80()(64bit) \
 libprrte.so.2()(64bit) \
 openmpi5-libs \
 openmpi5-libs(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

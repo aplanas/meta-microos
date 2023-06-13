@@ -70,6 +70,7 @@ locale(dragonplayer:uk) \
 locale(dragonplayer:wa) \
 locale(dragonplayer:zh_CN) \
 locale(dragonplayer:zh_TW)"
+
 RDEPENDS:${PN} += "dragonplayer"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "40ba2a04fb50fc1e67c46599faa236328e5d4ec5f1387b2e7964c6c87b3cab0ec5e3
 RPROVIDES:${PN} += "alsa-tools:/usr/bin/hda-verb \
 hda-verb \
 hda-verb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

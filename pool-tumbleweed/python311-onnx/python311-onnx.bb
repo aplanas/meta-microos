@@ -15,6 +15,7 @@ python311-onnx \
 python311-onnx(aarch-64) \
 python311-onnx-devel \
 python3dist(onnx)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 libc.so.6(GLIBC_2.33)(64bit) \

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3.9dist(setuptools-git-versioning) \
 python39-setuptools-git-versioning \
 python39-setuptools_git_versioning \
 python3dist(setuptools-git-versioning)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 git-core \

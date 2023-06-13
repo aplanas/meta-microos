@@ -67,6 +67,7 @@ qt5qmlimport(org.kde.plasma.private.weather.1) \
 qt5qmlimport(org.kde.plasma.wallpapers.potd.1) \
 qt5qmlimport(org.kde.plasmacalendar.alternatecalendarconfig.1) \
 qt5qmlimport(org.kde.plasmacalendar.astronomicaleventsconfig.1)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

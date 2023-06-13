@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-azure-agrifood-farming \
 python3.10dist(azure-agrifood-farming) \
 python310-azure-agrifood-farming \
 python3dist(azure-agrifood-farming)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-agrifood-nspkg \
 python310-azure-core \

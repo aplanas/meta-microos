@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-opencensus-ext-azure \
 python3.10dist(opencensus-ext-azure) \
 python310-opencensus-ext-azure \
 python3dist(opencensus-ext-azure)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-identity \

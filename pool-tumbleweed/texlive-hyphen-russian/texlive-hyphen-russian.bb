@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(hyph-ru.t2a.tex) \
 tex(hyph-ru.tex) \
 tex(loadhyph-ru.tex) \
 texlive-hyphen-russian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

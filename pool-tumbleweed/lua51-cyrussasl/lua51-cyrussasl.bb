@@ -9,6 +9,7 @@ RPM_HASH = "102c7b192756ef70bbabf97613fbad3f04c7557b6d0d8fa5409152488a2c0215c910
 
 RPROVIDES:${PN} += "lua51-cyrussasl \
 lua51-cyrussasl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

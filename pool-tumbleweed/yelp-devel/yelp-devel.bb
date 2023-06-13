@@ -13,6 +13,7 @@ RPM_HASH = "cfe5bf39b8811ecda5576f9601bb8e9e53fb24c6b084a4d1951b68aabf95c8c2021e
 
 RPROVIDES:${PN} += "yelp-devel \
 yelp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libyelp0 \
 yelp"
 

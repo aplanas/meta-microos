@@ -11,6 +11,7 @@ RPM_HASH = "4a3f323bb71e5f037ea7cdd7e1e2ef998ad26bf4a41dacd7257181a4c231c4190fc6
 RPROVIDES:${PN} += "config(libsemanage-conf) \
 libsemanage-conf \
 libsemanage-conf(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

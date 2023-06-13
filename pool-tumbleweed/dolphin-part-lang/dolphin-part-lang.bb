@@ -89,6 +89,7 @@ locale(dolphin-part:vi) \
 locale(dolphin-part:wa) \
 locale(dolphin-part:zh_CN) \
 locale(dolphin-part:zh_TW)"
+
 RDEPENDS:${PN} += "dolphin-part"
 
 inherit rpm

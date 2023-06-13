@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(QuaZip-Qt6) \
 pkgconfig(quazip1-qt6) \
 quazip-qt6-devel \
 quazip-qt6-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 cmake(Qt6Core5Compat) \

@@ -13,6 +13,7 @@ libXaw3d.so.8()(64bit) \
 libXaw3d8 \
 libXaw3d8(aarch-64) \
 xaw3d"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

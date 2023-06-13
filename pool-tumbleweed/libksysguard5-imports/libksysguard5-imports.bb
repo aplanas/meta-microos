@@ -19,6 +19,7 @@ qt5qmlimport(org.kde.ksysguard.faces.private.1) \
 qt5qmlimport(org.kde.ksysguard.formatter.1) \
 qt5qmlimport(org.kde.ksysguard.process.1) \
 qt5qmlimport(org.kde.ksysguard.sensors.1)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigQml.so.5()(64bit) \

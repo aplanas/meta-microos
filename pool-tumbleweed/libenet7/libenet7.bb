@@ -10,6 +10,7 @@ RPM_HASH = "324156d00542369f82e99cf437129c8da347d1bf9f7f3385776e400f29daac1b4f34
 RPROVIDES:${PN} += "libenet.so.7()(64bit) \
 libenet7 \
 libenet7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

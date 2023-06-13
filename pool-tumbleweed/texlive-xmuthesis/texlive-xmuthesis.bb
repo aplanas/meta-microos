@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(xmulogo.sty) \
 tex(xmuthesis.cls) \
 texlive-xmuthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

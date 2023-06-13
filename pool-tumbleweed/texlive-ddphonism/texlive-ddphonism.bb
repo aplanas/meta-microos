@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ddphonism.sty) \
 texlive-ddphonism"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

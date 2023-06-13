@@ -14,6 +14,7 @@ RPM_HASH = "1e3cbf6990851ebcbe532e2bb27b44a7f02440c5a10358c07f32c2d8a0968dc374f0
 RPROVIDES:${PN} += "libipmimonitoring.so.6()(64bit) \
 libipmimonitoring6 \
 libipmimonitoring6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

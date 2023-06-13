@@ -13,6 +13,7 @@ RPM_HASH = "04157d15ed6fc773e16b60251709e772f0fd1e8b8b87bf1858900e72eb3ca35b1dd4
 
 RPROVIDES:${PN} += "xrootd-fuse \
 xrootd-fuse(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hitec.cls) \
 texlive-hitec"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

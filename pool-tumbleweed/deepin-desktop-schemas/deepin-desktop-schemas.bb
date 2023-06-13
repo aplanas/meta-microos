@@ -10,6 +10,7 @@ RPM_HASH = "2c9ab9aed4b81171d3aade2dd6b2da766f78150710449d80d771028d610fd0bd47bb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-desktop-schemas"
+
 RDEPENDS:${PN} += "dconf"
 
 inherit rpm

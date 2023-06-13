@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flexmock) \
 python311-flexmock \
 python3dist(flexmock)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

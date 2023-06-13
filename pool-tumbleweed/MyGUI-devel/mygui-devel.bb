@@ -16,6 +16,7 @@ MyGUI-devel(aarch-64) \
 libEditorFramework.so()(64bit) \
 libMyGUI.OgrePlatform.so()(64bit) \
 pkgconfig(MYGUI)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 MyGUI \
 ld-linux-aarch64.so.1()(64bit) \

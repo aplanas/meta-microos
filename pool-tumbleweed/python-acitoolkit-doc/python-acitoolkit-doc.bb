@@ -9,6 +9,7 @@ RPM_HASH = "fd09020e01d94fdb3654016a41a5c8bfe9d24d26fe7a1ba33e61ee6023f3ce44378c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-acitoolkit-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

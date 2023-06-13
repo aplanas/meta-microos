@@ -23,6 +23,7 @@ libuid_wrapper.so.0()(64bit) \
 pkgconfig(uid_wrapper) \
 uid_wrapper \
 uid_wrapper(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

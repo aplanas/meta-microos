@@ -539,6 +539,7 @@ tex(grmlbr_zoesgh.enc) \
 tex(grmlbr_zslxeq.enc) \
 tex(grmlbr_zy2up7.enc) \
 texlive-garamond-libre"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

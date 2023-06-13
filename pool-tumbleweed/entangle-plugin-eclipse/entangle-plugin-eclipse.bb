@@ -13,6 +13,7 @@ RPM_HASH = "f4ecb1f0ce2a15ec8c36099f023ef6fb8337c1d9ca3d817bb0ee89c298b3b83031ff
 
 RPROVIDES:${PN} += "entangle-plugin-eclipse \
 entangle-plugin-eclipse(aarch-64)"
+
 RDEPENDS:${PN} += "entangle \
 python3 \
 python3-gobject \

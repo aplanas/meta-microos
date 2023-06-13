@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(openobex) \
 openobex-devel \
 openobex-devel(aarch-64) \
 pkgconfig(openobex)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenobex2 \
 pkgconfig(libusb-1.0)"

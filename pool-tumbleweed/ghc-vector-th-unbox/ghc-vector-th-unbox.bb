@@ -13,6 +13,7 @@ RPM_HASH = "ed4082bb8cb40edaccd2c8894f1da0b9052d511ac646c13f6cb230f13b41f64910cc
 RPROVIDES:${PN} += "ghc-vector-th-unbox \
 ghc-vector-th-unbox(aarch-64) \
 libHSvector-th-unbox-0.2.2-8WH0ofCzoXcG1eDIxYKY6t-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

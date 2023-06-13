@@ -9,6 +9,7 @@ RPM_HASH = "bdde7e044e298b3033df7ebd3fd5934ad1d325235ce04c77856698a2a11d9dc71e84
 
 RPROVIDES:${PN} += "Mesa-demo-x \
 Mesa-demo-x(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

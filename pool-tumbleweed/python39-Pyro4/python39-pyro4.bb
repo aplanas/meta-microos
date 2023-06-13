@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyro4) \
 python39-Pyro4 \
 python3dist(pyro4)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

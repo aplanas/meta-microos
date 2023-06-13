@@ -9,6 +9,7 @@ RPM_HASH = "2b5dca372b3dafb054500e3aea68480f7711599b5e56efe88009cacdfff2c7a3c21b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nihbiosketch-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "264ab967a0d3a2018db53626d600a74326cac83c020dfc74182ef910bc667934ba80
 RPROVIDES:${PN} += "typelib(Retro) \
 typelib-1_0-Retro-1-0 \
 typelib-1_0-Retro-1-0(aarch-64)"
+
 RDEPENDS:${PN} += "libretro-gtk-1.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

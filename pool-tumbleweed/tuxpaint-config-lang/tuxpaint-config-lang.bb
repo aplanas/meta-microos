@@ -51,6 +51,7 @@ locale(tuxpaint-config:vi) \
 locale(tuxpaint-config:zh_TW) \
 tuxpaint-config-lang \
 tuxpaint-config-lang-all"
+
 RDEPENDS:${PN} += "tuxpaint-config"
 
 inherit rpm

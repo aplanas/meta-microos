@@ -31,6 +31,7 @@ tex(tikzpingus-sport.lib.tex) \
 tex(tikzpingus-technology.lib.tex) \
 tex(tikzpingus.sty) \
 texlive-tikzpingus"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

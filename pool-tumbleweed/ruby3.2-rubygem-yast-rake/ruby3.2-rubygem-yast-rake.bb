@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:yast-rake:0) \
 rubygem(ruby:3.2.0:yast-rake:0.2) \
 rubygem(ruby:3.2.0:yast-rake:0.2.48) \
 rubygem(yast-rake)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:packaging_rake_tasks) \
 rubygem(ruby:3.2.0:rake)"

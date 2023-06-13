@@ -17,6 +17,7 @@ rmt \
 schily-rmt \
 schily-rmt(aarch-64) \
 star-rmt:/usr/bin/srmt"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

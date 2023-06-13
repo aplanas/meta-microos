@@ -14,6 +14,7 @@ RPM_HASH = "6d64dfd74de0a1ee27be0f8d8921259e38ac7b445c9b3e32922002a4d466cd6689da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wireplumber-audio"
+
 RDEPENDS:${PN} += "libwireplumber-0_4-0 \
 wireplumber"
 

@@ -14,6 +14,7 @@ RPM_HASH = "242f0d11c215339b9c6ee329ff76dc600dd3a830e47f5d78dfccc4c5580ec8a80232
 
 RPROVIDES:${PN} += "darts \
 darts(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

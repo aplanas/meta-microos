@@ -13,6 +13,7 @@ java_readline \
 libJavaEditline.so()(64bit) \
 libreadline-java \
 libreadline-java(aarch-64)"
+
 RDEPENDS:${PN} += "java \
 libc.so.6(GLIBC_2.17)(64bit) \
 libedit \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jaraco.collections) \
 python39-jaraco.collections \
 python3dist(jaraco.collections)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-jaraco.classes \
 python39-jaraco.text"

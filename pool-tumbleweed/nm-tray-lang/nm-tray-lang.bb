@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nm-tray-lang \
 nm-tray-lang-all"
+
 RDEPENDS:${PN} += "nm-tray"
 
 inherit rpm

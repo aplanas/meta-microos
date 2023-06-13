@@ -1353,6 +1353,7 @@ tex(t1ipxm.fd) \
 tex(ts1ipxg.fd) \
 tex(ts1ipxm.fd) \
 texlive-ipaex-type1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

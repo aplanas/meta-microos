@@ -15,6 +15,7 @@ RPM_HASH = "81383b53513776c968beb1478bc3e6036d9dee72450010e063816551a73358824652
 RPROVIDES:${PN} += "libpreludecpp.so.12()(64bit) \
 libpreludecpp12 \
 libpreludecpp12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

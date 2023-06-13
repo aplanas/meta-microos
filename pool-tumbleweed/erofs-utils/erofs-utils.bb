@@ -17,6 +17,7 @@ RPM_HASH = "a87486dd12f05ea5a588b66339ab72556f3d806848f8032dbc0bb491512d627943c0
 
 RPROVIDES:${PN} += "erofs-utils \
 erofs-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

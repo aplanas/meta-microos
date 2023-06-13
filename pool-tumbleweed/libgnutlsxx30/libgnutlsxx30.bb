@@ -12,6 +12,7 @@ RPM_HASH = "f985e7019ded011ebc0166457499ab407a2e4c850ea46998fc8d8d62fec76f009664
 RPROVIDES:${PN} += "libgnutlsxx.so.30()(64bit) \
 libgnutlsxx30 \
 libgnutlsxx30(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 crypto-policies \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "e27aeed3c9c90bc63914ae78db7f0d614f71fd8745dc0a1cebf41bbe6ffcf7557876
 
 RPROVIDES:${PN} += "armnn \
 armnn(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libarmnn.so.32()(64bit) \

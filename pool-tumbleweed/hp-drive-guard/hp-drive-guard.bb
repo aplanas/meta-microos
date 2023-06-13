@@ -17,6 +17,7 @@ RPM_HASH = "49427681c868f7ee79397279e2ad59d99ff2e81e0e4ca656fca78ac7572c3ccfa55e
 RPROVIDES:${PN} += "config(hp-drive-guard) \
 hp-drive-guard \
 hp-drive-guard(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

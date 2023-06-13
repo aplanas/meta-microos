@@ -25,6 +25,7 @@ metainfo(org.opensuse.yast.CloneSystem.metainfo.xml) \
 yast2-config-autoinst \
 yast2-lib-autoinst \
 yast2-module-autoinst"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

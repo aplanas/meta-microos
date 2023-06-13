@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(ndindex) \
 python311-ndindex \
 python311-ndindex(aarch-64) \
 python3dist(ndindex)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

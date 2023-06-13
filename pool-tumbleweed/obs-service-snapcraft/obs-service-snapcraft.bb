@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-snapcraft \
 obs-service-tar_scm:/usr/lib/obs/service/snapcraft.service"
+
 RDEPENDS:${PN} += "git-core \
 obs-service-obs_scm-common"
 

@@ -9,6 +9,7 @@ RPM_HASH = "61f8061dbcef6ceac87e9349c409245d3b4ef213db3b18db1cd779194e99246edb10
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bibexport-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

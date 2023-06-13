@@ -10,6 +10,7 @@ RPM_HASH = "68a2b713cd3b7b211989be2c7e816718e640bd316a7aa1bd102d02865305cf1ff6fd
 RPROVIDES:${PN} += "libmpris-qt5-1 \
 libmpris-qt5-1(aarch-64) \
 libmpris-qt5.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

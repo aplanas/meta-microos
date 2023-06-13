@@ -10,6 +10,7 @@ RPM_HASH = "cab371e60cae59460892cf577086ca49f116e86ec0a564f5914f2d90c1acb66c64db
 RPROVIDES:${PN} += "libnbdmod.cpython-310-aarch64-linux-gnu.so()(64bit) \
 python3-libnbd \
 python3-libnbd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

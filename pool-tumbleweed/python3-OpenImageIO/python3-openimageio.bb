@@ -9,6 +9,7 @@ RPM_HASH = "2954a1c3fdf1c81fa57e11d2385441b5b879530f6ecf963928efcca511ba40b3ced7
 
 RPROVIDES:${PN} += "python3-OpenImageIO \
 python3-OpenImageIO(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libImath-3_1.so.29()(64bit) \

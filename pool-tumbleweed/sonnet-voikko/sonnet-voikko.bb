@@ -11,6 +11,7 @@ RPM_HASH = "173dc571edc78aca1c03c64d427e83d71f760c3b6c2f01f4de4e616c38224fd9d9f9
 RPROVIDES:${PN} += "locale(sonnet:fi) \
 sonnet-voikko \
 sonnet-voikko(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5SonnetCore.so.5()(64bit) \

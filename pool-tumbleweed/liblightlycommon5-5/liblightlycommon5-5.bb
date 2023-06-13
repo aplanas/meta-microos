@@ -12,6 +12,7 @@ RPM_HASH = "8031a4aa9d21e336c83b694ce07d58b523bce41750e94ba78c211eb4987d17052211
 RPROVIDES:${PN} += "liblightlycommon5-5 \
 liblightlycommon5-5(aarch-64) \
 liblightlycommon5.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

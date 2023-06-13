@@ -10,6 +10,7 @@ RPM_HASH = "d55d93989fb87b71ea035ae9cb2dae2e0db71e128d7a107e2152b6b82ab6b2f2c4d0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fontconfig-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

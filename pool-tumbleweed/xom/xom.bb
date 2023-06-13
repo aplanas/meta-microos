@@ -45,6 +45,7 @@ mvn(com.io7m.xom:xom:pom:) \
 mvn(xom:xom) \
 mvn(xom:xom:pom:) \
 xom"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(xalan:xalan) \

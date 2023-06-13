@@ -11,6 +11,7 @@ RPM_HASH = "eb0e4ff769e2c52da9a130f5e4af06232f27bb5a077d4e807a2a4122977c4c9464fb
 
 RPROVIDES:${PN} += "nfswatch \
 nfswatch(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

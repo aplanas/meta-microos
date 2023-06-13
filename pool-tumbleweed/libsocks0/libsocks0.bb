@@ -15,6 +15,7 @@ RPM_HASH = "deaecaa7e86ae94aca73c011288d5751e0c49bef176923df57199bd57031c9ba70f5
 RPROVIDES:${PN} += "libsocks.so.0()(64bit) \
 libsocks0 \
 libsocks0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

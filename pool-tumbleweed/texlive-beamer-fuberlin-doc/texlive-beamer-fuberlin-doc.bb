@@ -9,6 +9,7 @@ RPM_HASH = "499c94a7e249ba9a00122e999862b3157b31bc1d9513c9725282c5d114affd3f5888
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamer-fuberlin-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

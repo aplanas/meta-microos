@@ -588,6 +588,7 @@ tex(yvtrw8t.vf) \
 tex(yvtrw8tc.tfm) \
 tex(yvtrw8tc.vf) \
 texlive-venturisadf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

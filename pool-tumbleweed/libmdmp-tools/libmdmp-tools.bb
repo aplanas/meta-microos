@@ -10,6 +10,7 @@ RPM_HASH = "f01740e5f2944f13f68a86a3d55f326fe3fb7bdef13827e1fcf500e91b60ce214f01
 
 RPROVIDES:${PN} += "libmdmp-tools \
 libmdmp-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

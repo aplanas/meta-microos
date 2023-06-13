@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-jupyter_latex_envs \
 python3.10dist(jupyter-latex-envs) \
 python310-jupyter_latex_envs \
 python3dist(jupyter-latex-envs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ipython \
 python310-jupyter_core \

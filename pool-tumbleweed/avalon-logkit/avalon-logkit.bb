@@ -17,6 +17,7 @@ mvn(logkit:logkit) \
 mvn(logkit:logkit:pom:) \
 mvn(org.apache.avalon.logkit:avalon-logkit) \
 mvn(org.apache.avalon.logkit:avalon-logkit:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.jms:jms) \

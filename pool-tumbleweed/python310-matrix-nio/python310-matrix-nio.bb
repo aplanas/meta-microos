@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-matrix-nio \
 python3.10dist(matrix-nio) \
 python310-matrix-nio \
 python3dist(matrix-nio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Logbook \
 python310-aiofiles \

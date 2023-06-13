@@ -15,6 +15,7 @@ group(ldap) \
 openldap2 \
 openldap2(aarch-64) \
 user(ldap)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/awk \

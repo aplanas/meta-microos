@@ -11,6 +11,7 @@ RPM_HASH = "af329fb5b35ba5aa4f5eedab9f59637cdd9e8c5826b719d182242d8e3b520677222e
 
 RPROVIDES:${PN} += "imb-openmpi4 \
 imb-openmpi4(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "python3-lazyarray \
 python3.10dist(lazyarray) \
 python310-lazyarray \
 python3dist(lazyarray)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy"
 

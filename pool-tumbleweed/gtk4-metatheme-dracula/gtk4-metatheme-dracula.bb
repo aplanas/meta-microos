@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracula-gtk-theme \
 gtk4-metatheme-dracula"
+
 RDEPENDS:${PN} += "metatheme-dracula-common"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "254e5729b08c2de4ee3bcb769ba92d3e13478088daef13697d13283f9246157ab993
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mm-common-docs"
+
 RDEPENDS:${PN} += "mm-common"
 
 inherit rpm

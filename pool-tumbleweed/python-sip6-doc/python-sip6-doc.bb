@@ -17,6 +17,7 @@ python-sip6-doc(aarch-64) \
 python310-sip6-doc \
 python311-sip6-doc \
 python39-sip6-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ tex(kotexplain.tex) \
 tex(kotexutf-core.tex) \
 tex(kotexutf.tex) \
 texlive-kotex-plain"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

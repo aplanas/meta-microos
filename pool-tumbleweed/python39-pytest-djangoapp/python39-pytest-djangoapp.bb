@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-djangoapp) \
 python39-pytest-djangoapp \
 python3dist(pytest-djangoapp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-pytest"

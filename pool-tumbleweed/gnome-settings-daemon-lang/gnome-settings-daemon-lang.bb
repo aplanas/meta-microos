@@ -96,6 +96,7 @@ locale(gnome-settings-daemon:wa) \
 locale(gnome-settings-daemon:zh_CN) \
 locale(gnome-settings-daemon:zh_HK) \
 locale(gnome-settings-daemon:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-settings-daemon"
 
 inherit rpm

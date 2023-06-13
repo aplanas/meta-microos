@@ -14,6 +14,7 @@ RPM_HASH = "a8ac5fc740be8afb9a27550ee3f67ee9daab7112c24e3f6106782e696675668a564e
 
 RPROVIDES:${PN} += "metis-devel \
 metis-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmetis5"
 
 inherit rpm

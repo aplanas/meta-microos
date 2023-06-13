@@ -18,6 +18,7 @@ RPM_HASH = "2a2230738ecbe3036307341e7b84316235bf522c9144253adc299f21f6f49d32a16c
 
 RPROVIDES:${PN} += "openssh-common \
 openssh-common(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.36)(64bit) \

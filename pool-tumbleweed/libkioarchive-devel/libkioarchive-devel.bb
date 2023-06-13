@@ -10,6 +10,7 @@ RPM_HASH = "f52bd8afe860582cd91c55a2aa83c39e74d110221585523b16f97fe39d95b1f64d65
 RPROVIDES:${PN} += "cmake(KioArchive) \
 libkioarchive-devel \
 libkioarchive-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libkioarchive5"
 
 inherit rpm

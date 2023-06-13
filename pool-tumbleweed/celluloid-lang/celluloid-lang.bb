@@ -53,6 +53,7 @@ locale(celluloid:tr) \
 locale(celluloid:uk) \
 locale(celluloid:zh_CN) \
 locale(celluloid:zh_TW)"
+
 RDEPENDS:${PN} += "celluloid"
 
 inherit rpm

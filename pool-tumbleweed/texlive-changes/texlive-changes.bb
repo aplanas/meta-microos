@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(changes.sty) \
 texlive-changes"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

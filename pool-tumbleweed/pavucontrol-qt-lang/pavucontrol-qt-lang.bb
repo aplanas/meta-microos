@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pavucontrol-qt-lang \
 pavucontrol-qt-lang-all"
+
 RDEPENDS:${PN} += "pavucontrol-qt"
 
 inherit rpm

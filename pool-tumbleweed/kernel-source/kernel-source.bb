@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "kernel-source \
 kernel-source-srchash-2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
 linux \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 kernel-devel \

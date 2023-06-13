@@ -247,6 +247,7 @@ tex(ztm-RegObl-t2b.tfm) \
 tex(ztm-RegObl-t2c.tfm) \
 tex(ztm-RegObl-ts1.tfm) \
 texlive-nimbus15"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

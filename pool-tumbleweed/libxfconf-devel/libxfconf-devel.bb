@@ -13,6 +13,7 @@ libxfconf-devel \
 libxfconf-devel(aarch-64) \
 pkgconfig(libxfconf-0) \
 xfce-mcs-manager-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxfconf-0-3 \
 pkgconfig(gio-2.0)"

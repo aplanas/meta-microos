@@ -19,6 +19,7 @@ RPM_HASH = "33a6c0e328c321f2f62edf05c8137065ce19e4eccc0b39e786f1f13fa656f5a08f09
 RPROVIDES:${PN} += "libsnappy.so.1()(64bit) \
 libsnappy1 \
 libsnappy1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

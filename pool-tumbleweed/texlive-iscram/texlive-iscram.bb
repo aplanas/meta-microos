@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(iscram.cls) \
 texlive-iscram"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

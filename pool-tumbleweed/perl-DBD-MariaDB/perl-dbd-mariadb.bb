@@ -15,6 +15,7 @@ RPM_HASH = "cab08fdc1a4dced2f19012a8be37877f85377c970e240224ed8f4528b1ac43cd27e7
 RPROVIDES:${PN} += "perl(DBD::MariaDB) \
 perl-DBD-MariaDB \
 perl-DBD-MariaDB(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

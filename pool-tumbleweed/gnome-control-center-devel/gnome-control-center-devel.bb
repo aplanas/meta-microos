@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-control-center-devel \
 pkgconfig(gnome-keybindings)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnome-control-center"
 

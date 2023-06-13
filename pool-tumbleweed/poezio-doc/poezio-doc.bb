@@ -9,6 +9,7 @@ RPM_HASH = "fa2ae6e31f09f9c6fffad17c46933a38f5b3246f97d5639a82653041965a76f95a26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "poezio-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

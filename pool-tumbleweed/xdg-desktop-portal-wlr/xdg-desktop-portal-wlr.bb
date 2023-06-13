@@ -12,6 +12,7 @@ RPM_HASH = "9c3ba13411f2e6e2a2a14ca4288433db05d4f126a4d159b66c67a230a4e2eb3c7eab
 
 RPROVIDES:${PN} += "xdg-desktop-portal-wlr \
 xdg-desktop-portal-wlr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

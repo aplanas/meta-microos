@@ -10,6 +10,7 @@ RPM_HASH = "b9ea34c2aaa3c9122f8f2ed9cc0d719a71be780119808741bfacfcee172f1249ce76
 
 RPROVIDES:${PN} += "ptscotch-openmpi4 \
 ptscotch-openmpi4(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

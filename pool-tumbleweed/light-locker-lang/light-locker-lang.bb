@@ -93,6 +93,7 @@ locale(light-locker:vi) \
 locale(light-locker:zh_CN) \
 locale(light-locker:zh_HK) \
 locale(light-locker:zh_TW)"
+
 RDEPENDS:${PN} += "light-locker"
 
 inherit rpm

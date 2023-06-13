@@ -9,6 +9,7 @@ RPM_HASH = "63314d5575aa61fa300d2e81248627d518b23c0e479865de758f82f8fab184728220
 
 RPROVIDES:${PN} += "chart-testing \
 chart-testing(aarch-64)"
+
 RDEPENDS:${PN} += "git-core \
 helm \
 libc.so.6(GLIBC_2.34)(64bit) \

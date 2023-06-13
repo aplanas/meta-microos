@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "autotrash \
 python3.10dist(autotrash) \
 python3dist(autotrash)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3"

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(spdlog) \
 pkgconfig(spdlog) \
 spdlog-devel \
 spdlog-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspdlog1_11 \
 libstdc++-devel \

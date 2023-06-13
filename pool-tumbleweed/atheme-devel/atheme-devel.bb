@@ -14,6 +14,7 @@ RPM_HASH = "ed85fec70947779adf5b625fb7d1795692f800005e60e72540047f3b397bff153911
 RPROVIDES:${PN} += "atheme-devel \
 atheme-devel(aarch-64) \
 pkgconfig(atheme-services)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libathemecore1"
 

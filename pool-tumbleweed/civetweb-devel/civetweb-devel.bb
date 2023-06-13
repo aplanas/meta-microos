@@ -15,6 +15,7 @@ civetweb-devel(aarch-64) \
 cmake(civetweb) \
 pkgconfig(civetweb) \
 pkgconfig(civetweb-cpp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcivetweb-cpp1_15_0 \
 libcivetweb1_15_0"

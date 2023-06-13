@@ -10,6 +10,7 @@ RPM_HASH = "0e400e93fdad9d76086e1cd866b7e78c140fff35d0a136ea984eb020c7a31b379f61
 RPROVIDES:${PN} += "budgie-fuzzyclock-applet \
 budgie-fuzzyclock-applet(aarch-64) \
 libfuzzyclock.so()(64bit)"
+
 RDEPENDS:${PN} += "budgie-extras-lang \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

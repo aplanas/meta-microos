@@ -18,6 +18,7 @@ RPM_HASH = "380519ca479dd531c4be3657d96ba5d14732ace24b6dafd3d926a0b10de1aa05acf2
 
 RPROVIDES:${PN} += "tolua \
 tolua(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

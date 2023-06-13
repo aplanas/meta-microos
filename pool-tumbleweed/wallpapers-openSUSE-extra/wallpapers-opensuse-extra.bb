@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "extra-wallpapers \
 wallpapers-openSUSE-extra"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

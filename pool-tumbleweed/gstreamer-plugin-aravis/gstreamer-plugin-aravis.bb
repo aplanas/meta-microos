@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "gstreamer-plugin-aravis \
 gstreamer-plugin-aravis(aarch-64) \
 gstreamer1(element-aravissrc)()(64bit) \
 libgstaravis.0.8.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaravis-0.8.so.0()(64bit) \

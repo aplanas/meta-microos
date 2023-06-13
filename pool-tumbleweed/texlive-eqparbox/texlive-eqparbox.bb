@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(eqparbox.sty) \
 texlive-eqparbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

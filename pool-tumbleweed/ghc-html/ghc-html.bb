@@ -10,6 +10,7 @@ RPM_HASH = "7788bef25d9aa563f5b6676d16a59d7937138725ab9c01204faa4ba5a8acbb7c5d08
 RPROVIDES:${PN} += "ghc-html \
 ghc-html(aarch-64) \
 libHShtml-1.0.1.2-U7qWIp0bJwCnAFPlj3UZy-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

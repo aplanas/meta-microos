@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flask-socketio) \
 python39-Flask-SocketIO \
 python3dist(flask-socketio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Flask \
 python39-python-socketio"

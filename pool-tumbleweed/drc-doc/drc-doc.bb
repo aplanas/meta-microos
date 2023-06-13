@@ -10,6 +10,7 @@ RPM_HASH = "8468c6c05eea37ba510d7db7e26d3219edb55a15f36fe24af0c675542c7ea8b55585
 
 RPROVIDES:${PN} += "drc-doc \
 drc-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

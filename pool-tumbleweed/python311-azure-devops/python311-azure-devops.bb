@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(azure-devops) \
 python311-azure-devops \
 python311-vsts \
 python3dist(azure-devops)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-nspkg \
 python311-msrest"

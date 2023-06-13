@@ -53,6 +53,7 @@ tex(tns_s6t4vy.enc) \
 tex(tns_xze2cy.enc) \
 tex(tns_y6kixo.enc) \
 texlive-tinos"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

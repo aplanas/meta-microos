@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-pytest-console-scripts \
 python3.10dist(pytest-console-scripts) \
 python310-pytest-console-scripts \
 python3dist(pytest-console-scripts)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

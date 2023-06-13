@@ -13,6 +13,7 @@ gnome-extensions \
 gnome-extensions(aarch-64) \
 metainfo() \
 metainfo(org.gnome.Extensions.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnome-shell \
 typelib(Adw) \

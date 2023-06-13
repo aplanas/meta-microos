@@ -18,6 +18,7 @@ RPM_HASH = "dd92a2763ba2b31b2a69ab6474332dcc194779f844055919a97d314164d15bd7d317
 
 RPROVIDES:${PN} += "python311-pysvn \
 python311-pysvn(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libapr-1.so.0()(64bit) \

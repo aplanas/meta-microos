@@ -12,6 +12,7 @@ RPM_HASH = "9f05501a861d5e4b28ea59ed455eb01c7e71b86edea8c18fc633c8788f688ec4a15c
 
 RPROVIDES:${PN} += "stalonetray \
 stalonetray(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

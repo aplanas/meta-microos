@@ -13,6 +13,7 @@ RPM_HASH = "6806e82ee011fc9244ae6152e207d823f89e9f39110366f9766f83c4ee718bf0f49f
 
 RPROVIDES:${PN} += "cdecl \
 cdecl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

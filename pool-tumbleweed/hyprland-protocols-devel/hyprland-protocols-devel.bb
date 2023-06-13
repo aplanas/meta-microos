@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hyprland-protocols-devel \
 pkgconfig(hyprland-protocols)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

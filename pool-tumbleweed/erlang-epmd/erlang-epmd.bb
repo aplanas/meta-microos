@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "erlang-epmd \
 erlang-epmd(aarch-64) \
 group(epmd) \
 user(epmd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

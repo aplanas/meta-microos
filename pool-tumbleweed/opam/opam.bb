@@ -11,6 +11,7 @@ RPM_HASH = "aa8ecff1eb9e6096506f7502fc603bfd2635c17364084287c9ddefdffdb76fb94881
 
 RPROVIDES:${PN} += "opam \
 opam(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/ocamlrun \
 bubblewrap \
 bzip2 \

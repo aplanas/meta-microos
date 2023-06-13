@@ -9,6 +9,7 @@ RPM_HASH = "96fec2eb488ec6f6472226c5d75af47baf7f0729bca39e8d893d6484afa25d361493
 
 RPROVIDES:${PN} += "slurm-rest \
 slurm-rest(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

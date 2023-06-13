@@ -10,6 +10,7 @@ RPM_HASH = "3818bbeb3545458a8da4b0e54066dd5e7e0ea0da23fb5b22907eb878bdb3fca0edd0
 RPROVIDES:${PN} += "libvdpau_gallium.so.1.0.0()(64bit) \
 libvdpau_r300 \
 libvdpau_r300(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.16()(64bit) \

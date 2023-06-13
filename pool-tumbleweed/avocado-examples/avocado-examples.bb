@@ -11,6 +11,7 @@ RPM_HASH = "7711c41996c1a55ddd2d622ac59ab03fc52568883632ccd04b8dd28d3ccf487f16f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avocado-examples"
+
 RDEPENDS:${PN} += "avocado"
 
 inherit rpm

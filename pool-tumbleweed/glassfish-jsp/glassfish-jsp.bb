@@ -23,6 +23,7 @@ mvn(org.eclipse.jetty.orbit:org.apache.jasper.glassfish:pom:) \
 mvn(org.glassfish.web:javax.servlet.jsp) \
 mvn(org.glassfish.web:javax.servlet.jsp:pom:) \
 osgi(org.glassfish.web.javax.servlet.jsp)"
+
 RDEPENDS:${PN} += "glassfish-jsp-api \
 java-headless \
 javapackages-filesystem \

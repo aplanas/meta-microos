@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fifo-stack.sty) \
 texlive-fifo-stack"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

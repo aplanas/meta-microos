@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphobjinv \
 python3.10dist(sphobjinv) \
 python310-sphobjinv \
 python3dist(sphobjinv)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

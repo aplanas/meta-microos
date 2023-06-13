@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(gio-branding-openSUSE) \
 gio-branding \
 gio-branding-openSUSE \
 glib2-branding-openSUSE"
+
 RDEPENDS:${PN} += "libgio-2_0-0"
 
 inherit rpm

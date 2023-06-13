@@ -9,6 +9,7 @@ RPM_HASH = "6675bd2b5c4c65447d13685027e4986a9c1a9d9c0b31763b68aa885db055920013de
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sbt-launcher-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "0eca625b6aa8e764a796ef968929e199fa67e330541c6431480b04f3085a2e58b3bf
 
 RPROVIDES:${PN} += "libstorage-ng-ruby \
 libstorage-ng-ruby(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.cache \
 python3.10dist(oslo.cache) \
 python3dist(oslo.cache)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-dogpile.cache \
 python3-oslo.config \

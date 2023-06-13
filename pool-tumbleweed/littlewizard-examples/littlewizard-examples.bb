@@ -15,6 +15,7 @@ RPM_HASH = "9e4521ca78468dedb93e9dd24e462677fc71e53888bc5dfac425ffbb6bc2015c4876
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "littlewizard-examples"
+
 RDEPENDS:${PN} += "littlewizard"
 
 inherit rpm

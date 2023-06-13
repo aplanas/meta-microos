@@ -11,6 +11,7 @@ RPM_HASH = "af1737cfc8d049d0142b0b3cd9c0aaf8a02dfa9e0eff5ffa03cb1accf20a3d151019
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-monitoring-plugins-http_json"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

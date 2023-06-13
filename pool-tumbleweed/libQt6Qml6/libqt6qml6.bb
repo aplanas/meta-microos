@@ -18,6 +18,7 @@ libQt6Qml.so.6(Qt_6.5)(64bit) \
 libQt6Qml.so.6(Qt_6.5.1_PRIVATE_API)(64bit) \
 libQt6Qml6 \
 libQt6Qml6(aarch-64)"
+
 RDEPENDS:${PN} += "(qml-autoreqprov if rpm-build) \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

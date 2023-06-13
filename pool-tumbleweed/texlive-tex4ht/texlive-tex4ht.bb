@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "tex(m-tex4ht.tex) \
 tex(tex4ht.jar) \
 tex(tex4ht.sty) \
 texlive-tex4ht"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

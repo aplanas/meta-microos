@@ -9,6 +9,7 @@ RPM_HASH = "ce4760a2a2e45b2fc7d2860263f2979c97ff7351c4cbce3b8aacb654b9e840b16e68
 
 RPROVIDES:${PN} += "texlive-aleph-bin \
 texlive-aleph-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -529,6 +529,7 @@ font(t1nanumgtm) \
 font(t1nanummjb) \
 font(t1nanummjm) \
 texlive-nanumtype1-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

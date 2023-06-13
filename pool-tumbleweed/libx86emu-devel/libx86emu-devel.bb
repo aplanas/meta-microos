@@ -12,6 +12,7 @@ RPM_HASH = "81e79974c7950e358c452144528cdf154b009142ffda2df3bab2383e7a8bbab187fc
 
 RPROVIDES:${PN} += "libx86emu-devel \
 libx86emu-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libx86emu3"
 
 inherit rpm

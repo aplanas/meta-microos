@@ -12,6 +12,7 @@ RPM_HASH = "d142aaefae1b907053781da3c3b59db8edf4fbee659f478d24508ac9454522115bb8
 RPROVIDES:${PN} += "typelib(ModemManager) \
 typelib-1_0-ModemManager-1_0 \
 typelib-1_0-ModemManager-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libmm-glib.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

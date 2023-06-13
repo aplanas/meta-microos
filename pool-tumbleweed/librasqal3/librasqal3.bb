@@ -14,6 +14,7 @@ RPM_HASH = "d7c2e813da5cca24b520d5204d05995d0771610a02da0a0923b157174080567daa34
 RPROVIDES:${PN} += "librasqal.so.3()(64bit) \
 librasqal3 \
 librasqal3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "19a1d046fab4a88e52675a513f690f8d6741dcb7d783e8f28d533774d9f1d0d9c10d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beilstein-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

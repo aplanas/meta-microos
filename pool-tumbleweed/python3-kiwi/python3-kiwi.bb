@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-kiwi \
 python3-kiwi(aarch-64) \
 python3.10dist(kiwi) \
 python3dist(kiwi)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 kiwi-systemdeps-core \
 python(abi) \

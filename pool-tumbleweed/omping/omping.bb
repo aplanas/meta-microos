@@ -10,6 +10,7 @@ RPM_HASH = "fc5bdd36129a02e29a49ab77e963ca8a690ed297aec5098e3a39c94b2388c6e77468
 
 RPROVIDES:${PN} += "omping \
 omping(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

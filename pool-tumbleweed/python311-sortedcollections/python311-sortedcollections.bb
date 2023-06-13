@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sortedcollections) \
 python311-sortedcollections \
 python3dist(sortedcollections)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-sortedcontainers"
 

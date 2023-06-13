@@ -14,6 +14,7 @@ RPM_HASH = "61cb072ed854d34aff4de2afd87773d74b07af4df7810b34e1b91f8a565177b9bf0b
 
 RPROVIDES:${PN} += "adios_1_13_1-gnu-mvapich2-hpc-devel-static \
 adios_1_13_1-gnu-mvapich2-hpc-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

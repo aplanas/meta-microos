@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-cognitiveservices-personalizer \
 python3.10dist(azure-cognitiveservices-personalizer) \
 python310-azure-cognitiveservices-personalizer \
 python3dist(azure-cognitiveservices-personalizer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-cognitiveservices-nspkg \
 python310-azure-common \

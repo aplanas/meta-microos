@@ -11,6 +11,7 @@ RPM_HASH = "ab01fab035f44e8f4ddaebf4bf82e034c128192615cd7761bb82da686fe7e4d0c235
 RPROVIDES:${PN} += "config(yudit) \
 yudit \
 yudit(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

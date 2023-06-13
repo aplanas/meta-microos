@@ -58,6 +58,7 @@ locale(kapptemplate:ug) \
 locale(kapptemplate:uk) \
 locale(kapptemplate:zh_CN) \
 locale(kapptemplate:zh_TW)"
+
 RDEPENDS:${PN} += "kapptemplate"
 
 inherit rpm

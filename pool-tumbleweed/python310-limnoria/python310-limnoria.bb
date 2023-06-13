@@ -15,6 +15,7 @@ python3-limnoria \
 python3.10dist(limnoria) \
 python310-limnoria \
 python3dist(limnoria)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 procps \

@@ -12,6 +12,7 @@ RPM_HASH = "d65fc1204b2f24529beb508844178aedb6de3cae6a1180a004e54c15b039ef1b3578
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-atspi"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-dbus-python \
 python39-gobject \

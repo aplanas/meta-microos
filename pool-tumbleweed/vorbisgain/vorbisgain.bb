@@ -25,6 +25,7 @@ RPM_HASH = "babe732da8084cf66a66638ede71fefd5d46cda2cf9c13fc04eb3f9e43b7c69baae6
 
 RPROVIDES:${PN} += "vorbisgain \
 vorbisgain(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

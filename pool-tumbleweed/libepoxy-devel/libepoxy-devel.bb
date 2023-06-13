@@ -17,6 +17,7 @@ RPM_HASH = "f8deffa3b25468c05023478971aefaf4f9858f1b2fc1788967baaa8e9cd17ddb31a1
 RPROVIDES:${PN} += "libepoxy-devel \
 libepoxy-devel(aarch-64) \
 pkgconfig(epoxy)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libepoxy0 \

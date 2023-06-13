@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(pbuilder) \
 pbuilder"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 debootstrap \

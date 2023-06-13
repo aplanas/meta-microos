@@ -14,6 +14,7 @@ RPM_HASH = "ab8cab6683f7e07215fc878f7970f57a44acc97fe3c4eb6c3e60abe82030e0709345
 RPROVIDES:${PN} += "libgstplayer-1.0.so.0()(64bit) \
 libgstplayer-1_0-0 \
 libgstplayer-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

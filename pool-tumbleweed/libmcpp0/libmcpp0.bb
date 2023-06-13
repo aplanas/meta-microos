@@ -13,6 +13,7 @@ RPM_HASH = "7ac84d8b19baf8b032b1a76502419cc1b0c749c0f79bf6be86a7c585375764ecc640
 RPROVIDES:${PN} += "libmcpp.so.0()(64bit) \
 libmcpp0 \
 libmcpp0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

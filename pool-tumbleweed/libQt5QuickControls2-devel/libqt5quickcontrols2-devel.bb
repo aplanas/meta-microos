@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5QuickControls2) \
 libQt5QuickControls2-devel \
 libQt5QuickControls2-devel(aarch-64) \
 pkgconfig(Qt5QuickControls2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5QuickControls2-5 \
 pkgconfig(Qt5Core) \

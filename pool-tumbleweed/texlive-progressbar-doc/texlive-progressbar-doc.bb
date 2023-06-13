@@ -9,6 +9,7 @@ RPM_HASH = "f5fa333772f569a1e3df087fc99b4e32398cbde6e21f82201b3a7c647ae0e0653b64
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-progressbar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

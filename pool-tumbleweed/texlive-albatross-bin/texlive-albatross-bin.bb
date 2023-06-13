@@ -9,6 +9,7 @@ RPM_HASH = "08dce9d9ab76cc7cd4bbc55c97c36f2705a49023773dddab4c208f281508fa1080f7
 
 RPROVIDES:${PN} += "texlive-albatross-bin \
 texlive-albatross-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-albatross"
 
 inherit rpm

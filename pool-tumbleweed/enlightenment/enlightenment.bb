@@ -20,6 +20,7 @@ e_module-notification \
 enlightenment \
 enlightenment(aarch-64) \
 mimehandler(inode/directory)"
+
 RDEPENDS:${PN} += "/bin/sh \
 dbus-1 \
 edje \

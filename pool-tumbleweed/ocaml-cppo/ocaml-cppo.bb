@@ -19,6 +19,7 @@ RPM_HASH = "4c4c363af7cc8dd0b80aa3744ceddc72ef683d464b2b96e2e13bf40ae9af9d7f1d30
 
 RPROVIDES:${PN} += "ocaml-cppo \
 ocaml-cppo(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.17)(64bit) \

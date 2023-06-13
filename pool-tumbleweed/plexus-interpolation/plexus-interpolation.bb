@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-interpolation) \
 mvn(org.codehaus.plexus:plexus-interpolation:pom:) \
 plexus-interpolation"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

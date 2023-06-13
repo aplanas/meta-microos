@@ -13,6 +13,7 @@ RPM_HASH = "2c47af5c1a703e324c5e7ec0d24504100935811ef3efac59437626699b7665006d97
 RPROVIDES:${PN} += "python3-pocketsphinx-python \
 python3-pocketsphinx5 \
 python3-pocketsphinx5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

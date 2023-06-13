@@ -16,6 +16,7 @@ RPM_HASH = "613417928235a5afb27ded221f7108123b3e32d27dfcb558d29b0cf0683e7fa15c89
 RPROVIDES:${PN} += "colm-devel \
 colm-devel(aarch-64) \
 ragel-devel"
+
 RDEPENDS:${PN} += "/bin/bash \
 gcc \
 ld-linux-aarch64.so.1()(64bit) \

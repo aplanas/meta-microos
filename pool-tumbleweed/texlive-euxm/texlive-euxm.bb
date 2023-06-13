@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(euxm10.tfm) \
 tex(euxm5.tfm) \
 tex(euxm7.tfm) \
 texlive-euxm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

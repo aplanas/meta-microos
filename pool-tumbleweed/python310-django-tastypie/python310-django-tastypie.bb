@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-tastypie \
 python3.10dist(django-tastypie) \
 python310-django-tastypie \
 python3dist(django-tastypie)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-python-dateutil \

@@ -93,6 +93,7 @@ locale(bookworm:zh) \
 locale(bookworm:zh_CN) \
 locale(bookworm:zh_HK) \
 locale(bookworm:zh_TW)"
+
 RDEPENDS:${PN} += "bookworm"
 
 inherit rpm

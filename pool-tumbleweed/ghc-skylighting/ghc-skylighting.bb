@@ -16,6 +16,7 @@ RPM_HASH = "97ad71bb53e26f2a08d2ca25e1160ea7fc140c5a80c1ce67de932fea0122787f2d45
 RPROVIDES:${PN} += "ghc-skylighting \
 ghc-skylighting(aarch-64) \
 libHSskylighting-0.13.2.1-BFihQrd5v8J7nFEx17mOBW-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \

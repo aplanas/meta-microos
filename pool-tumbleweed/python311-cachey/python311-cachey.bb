@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(cachey) \
 python311-cachey \
 python3dist(cachey)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-HeapDict"
 

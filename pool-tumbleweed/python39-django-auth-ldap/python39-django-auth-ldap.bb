@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-auth-ldap) \
 python39-django-auth-ldap \
 python3dist(django-auth-ldap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-ldap"

@@ -16,6 +16,7 @@ patterns-desktop-mobile \
 patterns-desktop-mobile(aarch-64) \
 patterns-openSUSE-laptop \
 patterns-openSUSE-mobile"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

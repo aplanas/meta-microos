@@ -13,6 +13,7 @@ application(installation.desktop) \
 application(upgrade.desktop) \
 live-net-installer \
 live-net-installer(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 bcache-tools \
 btrfsprogs \

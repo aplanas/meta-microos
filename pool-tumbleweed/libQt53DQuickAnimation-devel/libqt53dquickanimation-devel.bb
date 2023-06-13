@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt53DQuickAnimation) \
 libQt53DQuickAnimation-devel \
 libQt53DQuickAnimation-devel(aarch-64) \
 pkgconfig(Qt53DQuickAnimation)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt53DQuickAnimation5 \
 pkgconfig(Qt53DAnimation) \

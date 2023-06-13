@@ -11,6 +11,7 @@ RPM_HASH = "3362744154a57e73bc7f1b59dbcba53eac7ce9e8cc0de7155f013f77e8e9cb764eef
 
 RPROVIDES:${PN} += "libolecf-tools \
 libolecf-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

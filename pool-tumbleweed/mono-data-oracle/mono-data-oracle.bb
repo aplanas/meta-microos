@@ -16,6 +16,7 @@ RPM_HASH = "8720ae10f4190b67a650eeff99c6153f98f1dcce4bdf52746384973f0b474f8857d4
 RPROVIDES:${PN} += "mono(System.Data.OracleClient) \
 mono-data-oracle \
 mono-data-oracle(aarch-64)"
+
 RDEPENDS:${PN} += "mono(System) \
 mono(System.Data) \
 mono(System.Drawing) \

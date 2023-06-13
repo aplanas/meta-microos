@@ -98,6 +98,7 @@ locale(vocal:zh_HK) \
 locale(vocal:zh_TW) \
 vocal-lang \
 vocal-lang-all"
+
 RDEPENDS:${PN} += "vocal"
 
 inherit rpm

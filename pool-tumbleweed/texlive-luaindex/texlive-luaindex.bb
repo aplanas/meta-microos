@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luaindex.sty) \
 texlive-luaindex"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/luatex \
 coreutils \

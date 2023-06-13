@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aldjemy \
 python3.10dist(aldjemy) \
 python310-aldjemy \
 python3dist(aldjemy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-SQLAlchemy"

@@ -29,6 +29,7 @@ RPM_HASH = "8561c0fb1aa6faa51a02152221c17740145ba06c4a2ffcd06872e4def7a2c5bfa4c8
 RPROVIDES:${PN} += "ghc-these \
 ghc-these(aarch-64) \
 libHSthese-1.1.1.1-3POHYes25uBIW53bcrDd39-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSassoc-1.0.2-IAwklVGxRFw6xcadvaWWl7-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

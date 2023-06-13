@@ -10,6 +10,7 @@ RPM_HASH = "452d2d06d7f6c370d3d583658330d58c7f15d85afefa33a5264eb6863a48e99b4c84
 
 RPROVIDES:${PN} += "containerd-devel \
 containerd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "containerd"
 
 inherit rpm

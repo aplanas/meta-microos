@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libspeex-devel \
 pkgconfig(speex) \
 speex-devel \
 speex-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspeex1 \
 speexdsp-devel"

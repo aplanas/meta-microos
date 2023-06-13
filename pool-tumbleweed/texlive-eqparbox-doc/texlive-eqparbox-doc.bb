@@ -9,6 +9,7 @@ RPM_HASH = "7d1db6d7b507ff4af160f825eae2f3388d3d449520df804c6850272923afceade66d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eqparbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

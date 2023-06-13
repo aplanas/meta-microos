@@ -50,6 +50,7 @@ locale(kdebugsettings:tr) \
 locale(kdebugsettings:uk) \
 locale(kdebugsettings:zh_CN) \
 locale(kdebugsettings:zh_TW)"
+
 RDEPENDS:${PN} += "kdebugsettings"
 
 inherit rpm

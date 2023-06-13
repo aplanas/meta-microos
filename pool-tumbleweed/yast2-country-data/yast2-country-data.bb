@@ -10,6 +10,7 @@ RPM_HASH = "4227e1b6937ada05449ed429daff448ae23874e442d1632a8b7dd7986b506686955d
 
 RPROVIDES:${PN} += "yast2-country-data \
 yast2-country-data(aarch-64)"
+
 RDEPENDS:${PN} += "yast2-ruby-bindings"
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(CLASS) \
 perl-CLASS"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

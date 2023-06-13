@@ -16,6 +16,7 @@ RPM_HASH = "42bd692b838a45b17804c56e8f5a017e2388333455e8297ec04bbb92b6a1c4c69bbb
 
 RPROVIDES:${PN} += "dvbsnoop \
 dvbsnoop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

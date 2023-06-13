@@ -14,6 +14,7 @@ RPM_HASH = "9cf96c997e9e9aac7fea07a330413e8e5057be97357917a45c767adadc3def2c7778
 RPROVIDES:${PN} += "gramofil \
 gramofile \
 gramofile(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -23,6 +23,7 @@ RPM_HASH = "1c2c6a8d2976d686227ee6019ce9be5b14eb33961e1d4ddbac57cf284ecefcf8f622
 RPROVIDES:${PN} += "ladspa-rnnoise \
 ladspa-rnnoise(aarch-64) \
 librnnoise_ladspa.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \

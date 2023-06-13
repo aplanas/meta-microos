@@ -13,6 +13,7 @@ mvn(ai.h2o:xgboost-predictor:pom:) \
 mvn(biz.k11i:xgboost-predictor) \
 mvn(biz.k11i:xgboost-predictor:pom:) \
 xgboost-predictor"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(net.jafama:jafama)"

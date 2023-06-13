@@ -11,6 +11,7 @@ RPM_HASH = "bf2b8fde6c62d765bf86f6a1b659330f4dff3428cf389b1c51477ca3542bd96dba15
 RPROVIDES:${PN} += "libfm-devel \
 libfm-devel(aarch-64) \
 pkgconfig(libfm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfm \
 libfm4 \

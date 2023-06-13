@@ -11,6 +11,7 @@ RPM_HASH = "2bce19e62c60c3a593131b6f58d0c7f424c5abd5c39b3c0cd8e029ac312c2a49fdc2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemtap-dtrace"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

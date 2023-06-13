@@ -10,6 +10,7 @@ RPM_HASH = "47a3fa219aa89993ee48af488e6f63c825d9bd1587d6d771b3fbe8144723ff588fdb
 RPROVIDES:${PN} += "Mesa-libva \
 Mesa-libva(aarch-64) \
 libgallium_drv_video.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.16()(64bit) \

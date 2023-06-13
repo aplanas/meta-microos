@@ -13,6 +13,7 @@ RPM_HASH = "1a37a116f273f49a94be0780fe185223cf3437f1c470238e693fed8b136b3bc82d3a
 RPROVIDES:${PN} += "pkgconfig(sox) \
 sox-devel \
 sox-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsox3"
 

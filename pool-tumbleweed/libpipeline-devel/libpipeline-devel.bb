@@ -14,6 +14,7 @@ RPM_HASH = "162b93624782dea63e94d7c6619f6dc4f3e54a090a4ef20e6b4522de283b69cfa0f3
 RPROVIDES:${PN} += "libpipeline-devel \
 libpipeline-devel(aarch-64) \
 pkgconfig(libpipeline)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpipeline1"
 

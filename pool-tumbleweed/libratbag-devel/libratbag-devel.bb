@@ -15,6 +15,7 @@ RPM_HASH = "c111df0c5b54025cd3251f90bfc281139995b593b65c3e476ef70bf90e00173bcaf3
 RPROVIDES:${PN} += "libratbag-devel \
 libratbag-devel(aarch-64) \
 pkgconfig(liblur)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblur3"
 

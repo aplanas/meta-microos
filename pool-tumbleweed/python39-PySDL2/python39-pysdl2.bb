@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pysdl2) \
 python39-PySDL2 \
 python3dist(pysdl2)"
+
 RDEPENDS:${PN} += "SDL2 \
 SDL2_gfx \
 SDL2_image \

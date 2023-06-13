@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(geojson) \
 python39-geojson \
 python3dist(geojson)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

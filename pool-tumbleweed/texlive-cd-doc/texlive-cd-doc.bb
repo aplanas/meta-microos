@@ -9,6 +9,7 @@ RPM_HASH = "ab8322ecf904b04fc4e148a9342a6a2fa957ba317c3c8efdd6a03d0a72ad8c69d7f6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cd-doc"
+
 RDEPENDS:${PN} += "/usr/bin/ruby"
 
 inherit rpm

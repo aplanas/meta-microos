@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ja) \
 locale(texlive-jpneduenumerate-doc:en \
 texlive-jpneduenumerate-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

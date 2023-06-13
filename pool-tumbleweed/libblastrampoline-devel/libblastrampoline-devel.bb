@@ -12,6 +12,7 @@ RPM_HASH = "d5f964026412dae53b392d1bed1e476820448c2acbe47101aee68a99f9b8b505b5e9
 
 RPROVIDES:${PN} += "libblastrampoline-devel \
 libblastrampoline-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libblastrampoline5"
 
 inherit rpm

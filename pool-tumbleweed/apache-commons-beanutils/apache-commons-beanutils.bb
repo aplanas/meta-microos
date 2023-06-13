@@ -20,6 +20,7 @@ mvn(commons-beanutils:commons-beanutils-bean-collections:pom:) \
 mvn(commons-beanutils:commons-beanutils-core) \
 mvn(commons-beanutils:commons-beanutils-core:pom:) \
 mvn(commons-beanutils:commons-beanutils:pom:)"
+
 RDEPENDS:${PN} += "commons-collections \
 commons-logging \
 java-headless \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(bokcolmaps) \
 python311-bokcolmaps \
 python3dist(bokcolmaps)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-bokeh \
 python311-numpy"

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-Tempita \
 python3.10dist(tempita) \
 python310-Tempita \
 python3dist(tempita)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -34,6 +34,7 @@ font(:lang=zu) \
 font(padauk) \
 font(padaukbook) \
 texlive-padauk-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

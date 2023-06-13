@@ -11,6 +11,7 @@ RPM_HASH = "7b3b5ae2c3de816c996b9ea113b04217426eb1e227fb3b072900e9682873f6ae2446
 RPROVIDES:${PN} += "libharfbuzz-subset.so.0()(64bit) \
 libharfbuzz-subset0 \
 libharfbuzz-subset0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

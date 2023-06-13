@@ -10,6 +10,7 @@ RPM_HASH = "1f7d30fc39582694975ff614f2490a40a9af13e6b6cc24d7713809350240706f7ce6
 
 RPROVIDES:${PN} += "ftsdf \
 ftsdf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

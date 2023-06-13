@@ -15,6 +15,7 @@ locale(swappy:pt_BR) \
 locale(swappy:tr) \
 swappy-lang \
 swappy-lang-all"
+
 RDEPENDS:${PN} += "swappy"
 
 inherit rpm

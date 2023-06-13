@@ -9,6 +9,7 @@ RPM_HASH = "27b7f911f64a05aa160e2558af8440529f55439640c2a7b4cae4de2672d62d742d9d
 
 RPROVIDES:${PN} += "quota-nfs \
 quota-nfs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

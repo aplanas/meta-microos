@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "liblucene++-contrib.so.0()(64bit) \
 liblucene++.so.0()(64bit) \
 liblucene++0 \
 liblucene++0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

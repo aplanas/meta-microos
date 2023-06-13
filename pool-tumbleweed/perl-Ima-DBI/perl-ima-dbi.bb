@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Ima::DBI) \
 perl-Ima-DBI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Data::Inheritable) \
 perl(DBI) \

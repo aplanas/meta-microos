@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(unbtex.cls) \
 texlive-unbtex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

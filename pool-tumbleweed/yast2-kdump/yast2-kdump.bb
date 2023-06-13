@@ -13,6 +13,7 @@ metainfo() \
 metainfo(org.opensuse.yast.Kdump.metainfo.xml) \
 yast2-kdump \
 yast2-kdump(aarch-64)"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-bootloader \
 yast2-packager \

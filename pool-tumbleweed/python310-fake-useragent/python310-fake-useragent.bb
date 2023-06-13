@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-fake-useragent \
 python3.10dist(fake-useragent) \
 python310-fake-useragent \
 python3dist(fake-useragent)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-importlib-resources"
 

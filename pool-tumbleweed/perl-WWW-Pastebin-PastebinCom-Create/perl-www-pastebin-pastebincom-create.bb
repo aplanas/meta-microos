@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(WWW::Pastebin::PastebinCom::Create) \
 perl-WWW-Pastebin-PastebinCom-Create"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moo) \
 perl(WWW::Mechanize)"

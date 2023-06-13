@@ -9,6 +9,7 @@ RPM_HASH = "d8ef402e2a0955f5f3486334a9349420f3c95c5636b191c8c0c33a6d1db11a853a09
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-plari-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

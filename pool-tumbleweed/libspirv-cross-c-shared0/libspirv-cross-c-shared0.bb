@@ -11,6 +11,7 @@ RPM_HASH = "69e42af7d1da6462916708ed5384e02ddb1ee6156eb94bf01b090c8a605f3f4db557
 RPROVIDES:${PN} += "libspirv-cross-c-shared.so.0()(64bit) \
 libspirv-cross-c-shared0 \
 libspirv-cross-c-shared0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

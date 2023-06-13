@@ -10,6 +10,7 @@ RPM_HASH = "c0ee733d08968a10d40857fe934ddb186b96ab3b977e1dff397c7a46ba87e9a5add0
 
 RPROVIDES:${PN} += "libyubikey-devel \
 libyubikey-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libyubikey0"
 

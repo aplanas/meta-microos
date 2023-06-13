@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kid3-core-lang \
 kid3-core-lang-all"
+
 RDEPENDS:${PN} += "kid3-core"
 
 inherit rpm

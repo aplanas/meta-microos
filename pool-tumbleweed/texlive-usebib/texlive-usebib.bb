@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(usebib.sty) \
 texlive-usebib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

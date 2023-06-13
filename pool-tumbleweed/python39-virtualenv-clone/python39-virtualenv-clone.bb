@@ -41,6 +41,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(virtualenv-clone) \
 python39-virtualenv-clone \
 python3dist(virtualenv-clone)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

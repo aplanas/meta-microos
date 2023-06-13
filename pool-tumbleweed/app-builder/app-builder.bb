@@ -10,6 +10,7 @@ RPM_HASH = "9d43934a7181c28a70e3f708c2f85f1ca32ea7f845cc202b6cd09df11f0f9a9ba174
 
 RPROVIDES:${PN} += "app-builder \
 app-builder(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

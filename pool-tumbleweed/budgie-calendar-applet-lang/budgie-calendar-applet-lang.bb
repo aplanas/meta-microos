@@ -19,6 +19,7 @@ locale(budgie-calendar-applet:lt) \
 locale(budgie-calendar-applet:pt_PT) \
 locale(budgie-calendar-applet:tr) \
 locale(budgie-calendar-applet:uk)"
+
 RDEPENDS:${PN} += "budgie-calendar-applet"
 
 inherit rpm

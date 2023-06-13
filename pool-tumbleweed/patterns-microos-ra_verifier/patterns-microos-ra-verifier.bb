@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-ra_verifier \
 patterns-microos-ra_verifier(aarch-64)"
+
 RDEPENDS:${PN} += "keylime-firewalld \
 keylime-registrar \
 keylime-tenant \

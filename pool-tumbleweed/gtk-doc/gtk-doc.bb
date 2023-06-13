@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "gtk-doc \
 gtk-doc(aarch-64) \
 gtkdoc \
 pkgconfig(gtk-doc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python3 \

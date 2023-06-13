@@ -16,6 +16,7 @@ libwarnlib.so()(64bit) \
 typelib(GIMarshallingTests) \
 typelib(Regress) \
 typelib(WarnLib)"
+
 RDEPENDS:${PN} += "cjs"
 
 inherit rpm

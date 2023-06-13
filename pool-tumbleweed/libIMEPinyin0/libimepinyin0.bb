@@ -10,6 +10,7 @@ RPM_HASH = "56ee1127d690cf215ac57cb8979046f2478e0168d2d91ac510ea7b4f5e5eb43f4e96
 RPROVIDES:${PN} += "libIMEPinyin.so.0()(64bit) \
 libIMEPinyin0 \
 libIMEPinyin0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

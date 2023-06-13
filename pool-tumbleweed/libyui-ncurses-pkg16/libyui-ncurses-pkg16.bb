@@ -14,6 +14,7 @@ libyui-ncurses-pkg16 \
 libyui-ncurses-pkg16(aarch-64) \
 libyui_pkg \
 yast2-ncurses-pkg"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

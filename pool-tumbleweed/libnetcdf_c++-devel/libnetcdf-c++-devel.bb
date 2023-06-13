@@ -11,6 +11,7 @@ RPM_HASH = "f295c4207206a7114488732524dc28f636f1f83e4eb02adb7eecaa03b55a6dc0e98c
 RPROVIDES:${PN} += "libnetcdf-devel:/usr/lib64/libnetcdf_c++.so \
 libnetcdf_c++-devel \
 libnetcdf_c++-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libnetcdf_c++4"
 

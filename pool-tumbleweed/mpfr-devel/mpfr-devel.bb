@@ -14,6 +14,7 @@ RPM_HASH = "6d9d713cabd6fe00cd135729922b76cd65e1e89e6c35cce947c0658ec1cc29e42bcb
 RPROVIDES:${PN} += "mpfr-devel \
 mpfr-devel(aarch-64) \
 pkgconfig(mpfr)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 gmp-devel \

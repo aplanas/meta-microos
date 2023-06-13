@@ -11,6 +11,7 @@ RPM_HASH = "6a783823b088ca210c7f3da214abd23f306be96c445ed8c39f5fcdd3ec0218811fbe
 RPROVIDES:${PN} += "fcitx-hangul \
 fcitx-hangul(aarch-64) \
 locale(fcitx:ko)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fcitx \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(mate-menus-branding-openSUSE) \
 mate-menus-branding \
 mate-menus-branding-openSUSE"
+
 RDEPENDS:${PN} += "mate-menus"
 
 inherit rpm

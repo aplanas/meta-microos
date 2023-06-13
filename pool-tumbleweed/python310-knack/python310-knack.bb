@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-knack \
 python3.10dist(knack) \
 python310-knack \
 python3dist(knack)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-argcomplete \

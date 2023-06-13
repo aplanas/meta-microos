@@ -15,6 +15,7 @@ cdogs-sdl \
 cdogs-sdl(aarch-64) \
 metainfo() \
 metainfo(io.github.cxong.cdogs-sdl.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/bash \

@@ -17,6 +17,7 @@ RPM_HASH = "fb541b34140da698e048a1e5477408899317daec09057a427e5975313d2a854d96b9
 RPROVIDES:${PN} += "libspeechd.so.2()(64bit) \
 libspeechd2 \
 libspeechd2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

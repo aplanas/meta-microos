@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cfscrape) \
 python39-cfscrape \
 python3dist(cfscrape)"
+
 RDEPENDS:${PN} += "nodejs \
 python(abi) \
 python39-requests"

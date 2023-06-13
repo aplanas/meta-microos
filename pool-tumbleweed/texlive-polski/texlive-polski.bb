@@ -37,6 +37,7 @@ tex(plprefix.sty) \
 tex(polski.sty) \
 tex(qxenc.def) \
 texlive-polski"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

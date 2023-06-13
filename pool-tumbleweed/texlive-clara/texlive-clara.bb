@@ -295,6 +295,7 @@ tex(a_ylukkp.enc) \
 tex(a_ytymvu.enc) \
 tex(clara.sty) \
 texlive-clara"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

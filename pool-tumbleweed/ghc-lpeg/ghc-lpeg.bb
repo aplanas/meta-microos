@@ -13,6 +13,7 @@ RPM_HASH = "8c9a83fb77f73d42ecc6a91a96b8e546c49d7c8cac11f5ea13b3adf463a057af51f4
 RPROVIDES:${PN} += "ghc-lpeg \
 ghc-lpeg(aarch-64) \
 libHSlpeg-1.0.4-IadFjeA522fGKCuUXCvVP9-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

@@ -40,6 +40,7 @@ perl(Perl::Tidy::VerticalAligner) \
 perl(Perl::Tidy::VerticalAligner::Alignment) \
 perl(Perl::Tidy::VerticalAligner::Line) \
 perl-Perl-Tidy"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

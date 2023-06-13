@@ -10,6 +10,7 @@ RPM_HASH = "4bbef500e5b773049ce8733bfe5c16f26aa5ed1965e7ddaa73c63a9e42ee03d9de6d
 RPROVIDES:${PN} += "libXi.so.6()(64bit) \
 libXi6 \
 libXi6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

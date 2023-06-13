@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-yast-devel_yast \
 patterns-yast-devel_yast(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

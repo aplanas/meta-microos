@@ -51,6 +51,7 @@ perl(Module::Install::With) \
 perl(Module::Install::WriteAll) \
 perl(inc::Module::Install) \
 perl-Module-Install"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::PPPort) \
 perl(ExtUtils::Install) \

@@ -20,6 +20,7 @@ tex(fiwi.cbx) \
 tex(fiwi2.bbx) \
 tex(fiwi2.cbx) \
 texlive-biblatex-fiwi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

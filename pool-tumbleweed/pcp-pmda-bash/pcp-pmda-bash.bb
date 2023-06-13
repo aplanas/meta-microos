@@ -10,6 +10,7 @@ RPM_HASH = "96fee39b36803408ab86efe1bd8c4931596130b6a807c664cff56f5bf7550e38c76e
 
 RPROVIDES:${PN} += "pcp-pmda-bash \
 pcp-pmda-bash(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

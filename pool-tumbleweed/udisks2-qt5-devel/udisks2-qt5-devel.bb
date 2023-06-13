@@ -11,6 +11,7 @@ RPM_HASH = "a490da01cc271e116458fa3df683c5fe0ac085dde10a7ef765d4de4cee297af1635f
 RPROVIDES:${PN} += "pkgconfig(udisks2-qt5) \
 udisks2-qt5-devel \
 udisks2-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libudisks2-qt5-0"
 

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-gprof2dot \
 python3.10dist(gprof2dot) \
 python310-gprof2dot \
 python3dist(gprof2dot)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

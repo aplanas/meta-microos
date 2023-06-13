@@ -18,6 +18,7 @@ RPM_HASH = "c68d1af08b8916355632629b45a698920d7f6da7498931a37a4513ad8150f6c030c5
 RPROVIDES:${PN} += "libxbrz-1.8.so()(64bit) \
 libxbrz-1_8 \
 libxbrz-1_8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

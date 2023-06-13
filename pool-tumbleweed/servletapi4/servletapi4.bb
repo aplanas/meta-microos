@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "servlet \
 servlet22 \
 servlet4 \
 servletapi4"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/update-alternatives"
 

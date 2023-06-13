@@ -10,6 +10,7 @@ RPM_HASH = "4f8522302210ae2eb9da58ea9fcd876daf76c7ae2b8bc9dbe251ee7a401d5b761704
 
 RPROVIDES:${PN} += "partio-devel \
 partio-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libpartio1"
 
 inherit rpm

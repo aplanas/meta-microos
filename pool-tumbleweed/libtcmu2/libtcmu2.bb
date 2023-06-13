@@ -10,6 +10,7 @@ RPM_HASH = "a38628ed99b7d17963abbaa2e963910d9d4d63c63da7d9655148b961142657970a14
 RPROVIDES:${PN} += "libtcmu.so.2()(64bit) \
 libtcmu2 \
 libtcmu2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

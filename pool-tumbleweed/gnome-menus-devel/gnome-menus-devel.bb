@@ -13,6 +13,7 @@ RPM_HASH = "0313a85c78a183e34e4f9be94282ffc7ce276b75003cbfdeef614796621f660af0bf
 RPROVIDES:${PN} += "gnome-menus-devel \
 gnome-menus-devel(aarch-64) \
 pkgconfig(libgnome-menu-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgnome-menu-3-0 \
 pkgconfig(gio-unix-2.0) \

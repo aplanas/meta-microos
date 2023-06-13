@@ -9,6 +9,7 @@ RPM_HASH = "e9329fce50870370c91cdaaebb9c8b82fa7a90d373b1e2858b4886ceb0ce44dc21f4
 
 RPROVIDES:${PN} += "libgnutlsxx-devel \
 libgnutlsxx-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgnutls-devel \
 libgnutlsxx30 \
 libstdc++-devel"

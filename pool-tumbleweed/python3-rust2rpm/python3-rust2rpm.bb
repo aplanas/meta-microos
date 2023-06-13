@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-rust2rpm \
 python3.10dist(rust2rpm) \
 python3dist(rust2rpm) \
 rust2rpm"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cargo \
 python(abi) \

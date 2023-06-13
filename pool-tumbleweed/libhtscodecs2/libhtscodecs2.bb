@@ -14,6 +14,7 @@ RPM_HASH = "41ca5ebb6482e1f5c2220140faa9e8850c533c3308b6c3cf551b5607a31eff5f5688
 RPROVIDES:${PN} += "libhtscodecs.so.2()(64bit) \
 libhtscodecs2 \
 libhtscodecs2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

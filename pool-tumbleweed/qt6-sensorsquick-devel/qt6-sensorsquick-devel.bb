@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6SensorsQuick) \
 pkgconfig(Qt6SensorsQuick) \
 qt6-sensorsquick-devel \
 qt6-sensorsquick-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 cmake(Qt6Sensors) \

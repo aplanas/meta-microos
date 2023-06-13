@@ -15,6 +15,7 @@ RPM_HASH = "0a20cd9ad820f1c01d7757fc296071cd47bd8f7ad7296fab34151297a84a988ceecb
 RPROVIDES:${PN} += "libmission-control-plugins.so.0()(64bit) \
 libmission-control-plugins0 \
 libmission-control-plugins0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

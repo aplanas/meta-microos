@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-hashids \
 python3.10dist(hashids) \
 python310-hashids \
 python3dist(hashids)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

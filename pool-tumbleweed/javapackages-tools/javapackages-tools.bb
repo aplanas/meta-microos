@@ -20,6 +20,7 @@ rpm_macro(java_home) \
 rpm_macro(javac) \
 rpm_macro(javadoc) \
 rpm_macro(jpackage_script)"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

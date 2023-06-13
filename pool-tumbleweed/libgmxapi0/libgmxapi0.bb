@@ -13,6 +13,7 @@ RPM_HASH = "6d37c2705b92984fbfa6b3062c572fcbf0df7e8c27c58829f206c04738f3e1aaba37
 RPROVIDES:${PN} += "libgmxapi.so.0()(64bit) \
 libgmxapi0 \
 libgmxapi0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

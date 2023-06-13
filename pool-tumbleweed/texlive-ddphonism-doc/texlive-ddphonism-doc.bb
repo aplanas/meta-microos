@@ -9,6 +9,7 @@ RPM_HASH = "6b44c20070207a6492c7dba805f16c45e482f8d42c3afa105f13e0d0f76db5ab735e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ddphonism-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

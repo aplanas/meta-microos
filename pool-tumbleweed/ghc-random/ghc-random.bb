@@ -54,6 +54,7 @@ RPM_HASH = "5cb00a66f7d669abd5219ddcc192a6b5b8602e557d28b8ed5118c9ebd1876262319b
 RPROVIDES:${PN} += "ghc-random \
 ghc-random(aarch-64) \
 libHSrandom-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

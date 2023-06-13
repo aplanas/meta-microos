@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sortedcontainers) \
 python311-sortedcontainers \
 python3dist(sortedcontainers)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

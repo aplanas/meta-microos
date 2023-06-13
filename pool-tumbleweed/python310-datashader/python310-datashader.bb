@@ -31,6 +31,7 @@ RPROVIDES:${PN} += "python3-datashader \
 python3.10dist(datashader) \
 python310-datashader \
 python3dist(datashader)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

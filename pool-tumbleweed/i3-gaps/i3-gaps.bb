@@ -14,6 +14,7 @@ i3 \
 i3-gaps \
 i3-gaps(aarch-64) \
 windowmanager"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "c919740c509ff4f9367293ec092a83d02d85b073f8d1ea845ff7c85f45b8a21a9c2e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guestfs-tools-man-pages-ja"
+
 RDEPENDS:${PN} += "guestfs-tools"
 
 inherit rpm

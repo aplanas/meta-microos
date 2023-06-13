@@ -16,6 +16,7 @@ RPM_HASH = "d79ce710c2380cd1c98fbbb2352a9da1b8ac519bca6ad725de74dec03e0cff28d5c4
 RPROVIDES:${PN} += "libhunspell-1.7.so.0()(64bit) \
 libhunspell-1_7-0 \
 libhunspell-1_7-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

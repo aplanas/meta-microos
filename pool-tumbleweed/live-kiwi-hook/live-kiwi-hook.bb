@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kiwi_post_run \
 live-kiwi-hook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 sed \

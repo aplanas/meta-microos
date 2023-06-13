@@ -11,6 +11,7 @@ RPM_HASH = "e98a435e46a18b18ac1e308735f01d02c993226859f8786d642cdcca16324bc04e28
 RPROVIDES:${PN} += "pkgconfig(tumbler-1) \
 tumbler-devel \
 tumbler-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gio-2.0) \
 pkgconfig(glib-2.0) \

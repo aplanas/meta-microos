@@ -25,6 +25,7 @@ mvn(org.sonatype.sisu:sisu-guice::no_aop:) \
 mvn(org.sonatype.sisu:sisu-guice:pom:) \
 mvn(org.sonatype.sisu:sisu-guice:pom:no_aop:) \
 osgi(com.google.inject)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(aopalliance:aopalliance) \

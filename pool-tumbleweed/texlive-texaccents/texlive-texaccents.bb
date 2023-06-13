@@ -11,6 +11,7 @@ RPM_HASH = "bccae94f0b79afd91fc993cad086122b182cc85757058b9c272bb4e69078580f7a13
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texaccents"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/snobol4 \
 coreutils \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-tools-javadoc \
 maven-plugin-tools-javadocs"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

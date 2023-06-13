@@ -10,6 +10,7 @@ RPM_HASH = "4f0f1f6e93ba75acc3472d03e6085e5f1e4f5b42e00b50c39530840f2ece64a8ac40
 RPROVIDES:${PN} += "config(xmrig) \
 xmrig \
 xmrig(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.36)(64bit) \

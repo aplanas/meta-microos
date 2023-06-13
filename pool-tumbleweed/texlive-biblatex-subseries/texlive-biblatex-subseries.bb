@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(subseries.bbx) \
 texlive-biblatex-subseries"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

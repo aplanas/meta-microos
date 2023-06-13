@@ -9,6 +9,7 @@ RPM_HASH = "dea3acc4ee3d2ad9ced600f8d299df3d2f606fcb101f1ae629f6aacf2d36183df86b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "playerctl-zsh-completion"
+
 RDEPENDS:${PN} += "zsh"
 
 inherit rpm

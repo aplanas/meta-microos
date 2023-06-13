@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-orderedmultidict \
 python3.10dist(orderedmultidict) \
 python310-orderedmultidict \
 python3dist(orderedmultidict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

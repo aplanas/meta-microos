@@ -10,6 +10,7 @@ RPM_HASH = "e505848b4c8216cfa4281d6d1d1df0602c6327240ee95d2ea585a280911af9e406d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "compiz-emerald-themes"
+
 RDEPENDS:${PN} += "compiz-emerald"
 
 inherit rpm

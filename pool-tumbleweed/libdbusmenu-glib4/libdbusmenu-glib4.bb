@@ -10,6 +10,7 @@ RPM_HASH = "3f2485b5f49c5a2b9313e3aa1ac04a3c451233a1c063684b7ad8cdadc6ca0006eda2
 RPROVIDES:${PN} += "libdbusmenu-glib.so.4()(64bit) \
 libdbusmenu-glib4 \
 libdbusmenu-glib4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

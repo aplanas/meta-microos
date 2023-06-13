@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(prerex.5) \
 texlive-prerex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

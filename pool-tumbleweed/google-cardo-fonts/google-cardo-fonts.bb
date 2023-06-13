@@ -19,6 +19,7 @@ RPM_HASH = "f75c1c87bfad779ea37e4770f8a50271c7250102e324c0bc48a440f2967319265ad9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-cardo-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

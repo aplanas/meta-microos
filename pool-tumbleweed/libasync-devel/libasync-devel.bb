@@ -9,6 +9,7 @@ RPM_HASH = "3b399707bda40c131c373c5a74cd4886328597a11f046c04e7a8a6baff7f17653f76
 
 RPROVIDES:${PN} += "libasync-devel \
 libasync-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libasync1_6"
 
 inherit rpm

@@ -40,6 +40,7 @@ locale(haruna:tr) \
 locale(haruna:uk) \
 locale(haruna:zh_CN) \
 locale(haruna:zh_TW)"
+
 RDEPENDS:${PN} += "haruna"
 
 inherit rpm

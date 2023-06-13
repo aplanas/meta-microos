@@ -23,6 +23,7 @@ locale(cppi:sr) \
 locale(cppi:sv) \
 locale(cppi:uk) \
 locale(cppi:vi)"
+
 RDEPENDS:${PN} += "cppi"
 
 inherit rpm

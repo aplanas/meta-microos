@@ -12,6 +12,7 @@ libasound_module_ctl_pipewire.so()(64bit) \
 libasound_module_pcm_pipewire.so()(64bit) \
 pipewire-alsa \
 pipewire-alsa(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

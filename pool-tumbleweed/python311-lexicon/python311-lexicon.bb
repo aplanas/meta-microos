@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(lexicon) \
 python311-lexicon \
 python3dist(lexicon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

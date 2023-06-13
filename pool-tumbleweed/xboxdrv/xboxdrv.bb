@@ -15,6 +15,7 @@ RPM_HASH = "5e19a4ad9980f280e4cc4c4afde2558a8ee57397659f5f0bdf040d862b5522c8117b
 RPROVIDES:${PN} += "config(xboxdrv) \
 xboxdrv \
 xboxdrv(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

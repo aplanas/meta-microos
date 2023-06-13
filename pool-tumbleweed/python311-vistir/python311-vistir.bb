@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(vistir) \
 python311-vistir \
 python3dist(vistir)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-colorama"
 

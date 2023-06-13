@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(drgen10.tfm) \
 texlive-genealogy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

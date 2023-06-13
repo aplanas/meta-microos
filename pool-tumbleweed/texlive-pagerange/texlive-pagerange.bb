@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pagerange-guide.cfg) \
 tex(pagerange.sty) \
 texlive-pagerange"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

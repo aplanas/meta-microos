@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "aws-sdk-java-logs \
 mvn(com.amazonaws:aws-java-sdk-logs) \
 mvn(com.amazonaws:aws-java-sdk-logs:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.amazonaws:aws-java-sdk-core)"

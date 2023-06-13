@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-re-assert \
 python3.10dist(re-assert) \
 python310-re-assert \
 python3dist(re-assert)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-regex"
 

@@ -21,6 +21,7 @@ RPM_HASH = "164c5f0afccf6771135e52ead096dc56d08112be560d87290433500531901f4b28d5
 RPROVIDES:${PN} += "perl(Statistics::CaseResampling) \
 perl-Statistics-CaseResampling \
 perl-Statistics-CaseResampling(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

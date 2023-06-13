@@ -10,6 +10,7 @@ RPM_HASH = "a2f9867732c9624aea4bf7a0dd99b79d9e39edf6b1a0650a62fc3067b513f0bec5fe
 RPROVIDES:${PN} += "ghc-comonad-prof \
 ghc-comonad-prof(aarch-64) \
 ghc-prof(comonad-5.0.8-9UnH7KDg5138z3eBCPM7y4)"
+
 RDEPENDS:${PN} += "ghc-comonad-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

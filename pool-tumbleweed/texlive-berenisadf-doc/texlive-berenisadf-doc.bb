@@ -9,6 +9,7 @@ RPM_HASH = "188911261fb82cb1de42f0c8dec7480a1a5d5540dbccb4dc8cc1ccb65f14cef0c591
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-berenisadf-doc"
+
 RDEPENDS:${PN} += "/usr/bin/fontforge"
 
 inherit rpm

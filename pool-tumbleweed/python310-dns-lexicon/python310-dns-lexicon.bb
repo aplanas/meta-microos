@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-dns-lexicon \
 python3.10dist(dns-lexicon) \
 python310-dns-lexicon \
 python3dist(dns-lexicon)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

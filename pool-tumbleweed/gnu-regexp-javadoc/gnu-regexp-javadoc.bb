@@ -9,6 +9,7 @@ RPM_HASH = "88cac184a73ea7bebd623380d70ab7e2a181eb2e901d54a3192c9f449d7786a1908e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-regexp-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

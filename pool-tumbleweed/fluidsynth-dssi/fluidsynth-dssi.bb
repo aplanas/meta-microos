@@ -10,6 +10,7 @@ RPM_HASH = "58e538f5cb5997529c8d3cd044bca08b70d010a2e80479a30e59ed5c9175fd8c0602
 
 RPROVIDES:${PN} += "fluidsynth-dssi \
 fluidsynth-dssi(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

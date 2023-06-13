@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(NotesTeX.sty) \
 texlive-notestex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

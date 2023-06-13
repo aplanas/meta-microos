@@ -10,6 +10,7 @@ RPM_HASH = "6b2d860087db59a7c033a438570dbf4c60af4bba32bbe08c9b887a1b79fec6afb970
 RPROVIDES:${PN} += "ghc-appar-prof \
 ghc-appar-prof(aarch-64) \
 ghc-prof(appar-0.1.8-JYpyJYPkUOgKorqU8WSWRv)"
+
 RDEPENDS:${PN} += "ghc-appar-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0)"

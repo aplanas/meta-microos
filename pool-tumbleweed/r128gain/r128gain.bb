@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(r128gain) \
 python3dist(r128gain) \
 r128gain"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-crcmod \

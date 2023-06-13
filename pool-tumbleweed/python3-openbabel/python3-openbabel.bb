@@ -14,6 +14,7 @@ RPM_HASH = "0b556b269b3b742a4a50b514680e6d7d427eeb0addcf42ed1ae11ccaa790ac301f4f
 
 RPROVIDES:${PN} += "python3-openbabel \
 python3-openbabel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

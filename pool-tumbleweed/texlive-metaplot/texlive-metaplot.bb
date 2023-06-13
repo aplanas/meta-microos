@@ -20,6 +20,7 @@ RPM_HASH = "17d58a720678852be5f2c9a88dfb630bec4c2d75d0a352ca0b09c7fe9cafba321b15
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metaplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "38eceeb5061bbf51b2a0d5911f161428f7d7eadcf8a8a9f4523e98a291906e5f4f6b
 RPROVIDES:${PN} += "perl(PerlIO::utf8_strict) \
 perl-PerlIO-utf8_strict \
 perl-PerlIO-utf8_strict(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

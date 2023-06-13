@@ -9,6 +9,7 @@ RPM_HASH = "d85082e9cea211d6f441347490539516a61723c97f83fcf31a3487f4047dd46372a6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bytefield-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

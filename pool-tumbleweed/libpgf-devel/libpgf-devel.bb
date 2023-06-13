@@ -11,6 +11,7 @@ RPM_HASH = "f6a915fef1323e986ecbec8b43f631ff3b6bb9126dd51e5e47ebc4b88d07c646b96c
 RPROVIDES:${PN} += "libpgf-devel \
 libpgf-devel(aarch-64) \
 pkgconfig(libpgf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpgf7"
 

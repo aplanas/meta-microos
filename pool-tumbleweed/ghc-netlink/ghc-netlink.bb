@@ -10,6 +10,7 @@ RPM_HASH = "e11c4bea7efe5a9e74bad2de5af3f38a33a436b515a79fed48434097c2db10243ac0
 RPROVIDES:${PN} += "ghc-netlink \
 ghc-netlink(aarch-64) \
 libHSnetlink-1.1.1.0-3cQkQWnXFQnLtl9CehLMU3-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

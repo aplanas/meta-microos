@@ -10,6 +10,7 @@ RPM_HASH = "23010a02e13201a5a56f32c2ae901ba5b642c39883877255b89134c24cfa4e2376c5
 
 RPROVIDES:${PN} += "tukit \
 tukit(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

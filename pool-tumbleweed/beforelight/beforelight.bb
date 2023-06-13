@@ -13,6 +13,7 @@ RPM_HASH = "e7e9af8068f8e0d99e735d4b1ea43e41296353266c356a742381d14af720f4ea403d
 
 RPROVIDES:${PN} += "beforelight \
 beforelight(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

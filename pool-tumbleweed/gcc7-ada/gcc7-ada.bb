@@ -10,6 +10,7 @@ RPM_HASH = "d600b0736fb4869bc7c19b0522163fdf8e90e28005bb97325fdc3c65308074609c6c
 
 RPROVIDES:${PN} += "gcc7-ada \
 gcc7-ada(aarch-64)"
+
 RDEPENDS:${PN} += "gcc7 \
 libada7 \
 libc.so.6(GLIBC_2.34)(64bit) \

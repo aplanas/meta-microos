@@ -9,6 +9,7 @@ RPM_HASH = "c9ed45836417898afd1d13dd664821ae39f112eccb340b7e35aa0968de4a666c4f05
 
 RPROVIDES:${PN} += "budgie-kangaroo-applet \
 budgie-kangaroo-applet(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-gobject-Gdk \
 python3-psutil \

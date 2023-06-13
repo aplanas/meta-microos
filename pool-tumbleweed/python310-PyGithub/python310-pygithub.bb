@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-PyGithub \
 python3.10dist(pygithub) \
 python310-PyGithub \
 python3dist(pygithub)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Deprecated \
 python310-PyJWT \

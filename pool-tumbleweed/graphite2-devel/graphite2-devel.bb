@@ -17,6 +17,7 @@ RPM_HASH = "cd3dae229dc002687d69971782fd66f84f4d59088af2dd2a0d010cc843fa6b601389
 RPROVIDES:${PN} += "graphite2-devel \
 graphite2-devel(aarch-64) \
 pkgconfig(graphite2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libgraphite2-3"

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mftinc.sty) \
 texlive-mftinc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

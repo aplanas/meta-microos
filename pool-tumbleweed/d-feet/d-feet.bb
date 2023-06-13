@@ -15,6 +15,7 @@ application(org.gnome.dfeet.desktop) \
 d-feet \
 metainfo() \
 metainfo(org.gnome.dfeet.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 typelib(GLib) \

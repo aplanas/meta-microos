@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-wadllib \
 python3.10dist(wadllib) \
 python310-wadllib \
 python3dist(wadllib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lazr.uri"
 

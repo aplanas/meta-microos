@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-marathon \
 python3.10dist(marathon) \
 python310-marathon \
 python3dist(marathon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-requests-toolbelt"

@@ -10,6 +10,7 @@ RPM_HASH = "c3b6ade9bc987028898609f6485faa6ecdf40e678c7714fc316bd2c4e15cf505162f
 
 RPROVIDES:${PN} += "kdumpid \
 kdumpid(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaddrxlat.so.3()(64bit) \

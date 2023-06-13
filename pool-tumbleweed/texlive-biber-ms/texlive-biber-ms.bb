@@ -10,6 +10,7 @@ RPM_HASH = "f91fcdc128f919e6488d306f0ffc403034178baafd2837a669432bee202639df7db5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biber-ms"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

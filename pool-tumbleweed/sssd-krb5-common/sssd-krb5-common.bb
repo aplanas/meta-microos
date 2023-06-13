@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libsss_krb5_common.so()(64bit) \
 libsss_krb5_common.so(V_2.9.0)(64bit) \
 sssd-krb5-common \
 sssd-krb5-common(aarch-64)"
+
 RDEPENDS:${PN} += "cyrus-sasl-gssapi \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

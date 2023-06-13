@@ -12,6 +12,7 @@ RPM_HASH = "24d704e5dd9beb61a41026480cae795281198f10d7590152319c3544f29acfdfd8a8
 
 RPROVIDES:${PN} += "sympol \
 sympol(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_program_options.so.1.82.0()(64bit) \

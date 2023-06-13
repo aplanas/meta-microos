@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-idna \
 python3.10dist(idna) \
 python310-idna \
 python3dist(idna)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

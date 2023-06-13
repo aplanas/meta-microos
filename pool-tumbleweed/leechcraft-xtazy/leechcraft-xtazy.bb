@@ -11,6 +11,7 @@ RPM_HASH = "058a7c99970ce4c30d3708c844bcd7024d9d00f9c8b28a4f27a735b4cc06b376d92b
 RPROVIDES:${PN} += "leechcraft-xtazy \
 leechcraft-xtazy(aarch-64) \
 libleechcraft_xtazy.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

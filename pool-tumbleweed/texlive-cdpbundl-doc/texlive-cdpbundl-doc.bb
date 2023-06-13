@@ -9,6 +9,7 @@ RPM_HASH = "77e6d1f0dfea5c237b73422e3ef1c85e5c88e7ff806214584c674f1d0be493583caf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cdpbundl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

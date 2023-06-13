@@ -12,6 +12,7 @@ jffi-native(aarch-64) \
 libjffi-1.2.so()(64bit) \
 mvn(com.github.jnr:jffi::native:) \
 osgi(com.github.jnr.jffi.native)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 libc.so.6(GLIBC_2.34)(64bit) \

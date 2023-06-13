@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:es_UY) \
 myspell-dictionary \
 myspell-es_UY \
 myspell-spanish-uruguayan"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-es"
 

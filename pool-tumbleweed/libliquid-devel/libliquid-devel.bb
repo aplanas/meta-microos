@@ -15,6 +15,7 @@ RPM_HASH = "4f17e14ef6a7adb5a97b386b67a6731ac0b692e7eea2d69405b381ab4fd0092fac90
 RPROVIDES:${PN} += "libliquid-devel \
 libliquid-devel(aarch-64) \
 libliquid.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

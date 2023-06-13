@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libnss_libvirt.so.2()(64bit) \
 libnss_libvirt_guest.so.2()(64bit) \
 libvirt-nss \
 libvirt-nss(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

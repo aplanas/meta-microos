@@ -34,6 +34,7 @@ perl(Minion::Worker) \
 perl(Mojolicious::Plugin::Minion) \
 perl(Mojolicious::Plugin::Minion::Admin) \
 perl-Minion"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Mojolicious) \
 perl(YAML::XS)"

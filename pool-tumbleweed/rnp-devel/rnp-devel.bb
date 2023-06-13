@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(rnp) \
 pkgconfig(librnp) \
 rnp-devel \
 rnp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librnp0"
 

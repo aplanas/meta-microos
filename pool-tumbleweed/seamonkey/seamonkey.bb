@@ -37,6 +37,7 @@ seamonkey-translations-common \
 seamonkey-translations-other \
 seamonkey-venkman \
 web_browser"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

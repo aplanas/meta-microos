@@ -10,6 +10,7 @@ RPM_HASH = "a53dd0defef7fa47c2433b7e03876a3b6f8031783762aae6a5ba53ca304ee87e8163
 RPROVIDES:${PN} += "ghc-OneTuple-prof \
 ghc-OneTuple-prof(aarch-64) \
 ghc-prof(OneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd)"
+
 RDEPENDS:${PN} += "ghc-OneTuple-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(ghc-prim-0.9.0) \

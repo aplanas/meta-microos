@@ -9,6 +9,7 @@ RPM_HASH = "d52f6b4e3cca98ce10bf6ea68257b2cb8ef882fa0d53c9215f6587cf0e5b5e374062
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-ukrainian-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

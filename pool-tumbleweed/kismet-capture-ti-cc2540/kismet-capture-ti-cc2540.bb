@@ -13,6 +13,7 @@ RPM_HASH = "74509c075b780c7b70ea0f2eb67065241d953eab3972603e84f3557c254396e63cf0
 
 RPROVIDES:${PN} += "kismet-capture-ti-cc2540 \
 kismet-capture-ti-cc2540(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

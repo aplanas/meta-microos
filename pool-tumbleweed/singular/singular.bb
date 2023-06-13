@@ -30,6 +30,7 @@ RPROVIDES:${PN} += "application() \
 application(Singular.desktop) \
 singular \
 singular(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

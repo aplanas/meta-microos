@@ -11,6 +11,7 @@ RPM_HASH = "58d6bd56585bc9cdcb96faa748ded7c8286fb937396f461a803f9f512ef80521424d
 RPROVIDES:${PN} += "libXdamage.so.1()(64bit) \
 libXdamage1 \
 libXdamage1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

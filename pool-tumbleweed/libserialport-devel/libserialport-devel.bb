@@ -16,6 +16,7 @@ RPM_HASH = "4c5e53cd8d95782deca816a8aac2dbdd100b5e935eb1034a64f9f307c9858cce4bba
 RPROVIDES:${PN} += "libserialport-devel \
 libserialport-devel(aarch-64) \
 pkgconfig(libserialport)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libserialport0"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(footnpag.sty) \
 texlive-footnpag"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

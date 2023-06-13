@@ -11,6 +11,7 @@ RPM_HASH = "6870173aacd2f27b281f59105cd36ffbba216a308f130cebc72eddda13a8082a5268
 RPROVIDES:${PN} += "typelib(GjsPrivate) \
 typelib-1_0-GjsPrivate-1_0 \
 typelib-1_0-GjsPrivate-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgjs.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

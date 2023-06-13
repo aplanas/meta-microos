@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(cssselect2) \
 python311-cssselect2 \
 python3dist(cssselect2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-tinycss2 \
 python311-webencodings"

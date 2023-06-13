@@ -18,6 +18,7 @@ coturn \
 coturn(aarch-64) \
 group(coturn) \
 user(coturn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

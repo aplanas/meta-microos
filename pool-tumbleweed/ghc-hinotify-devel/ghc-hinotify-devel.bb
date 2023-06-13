@@ -10,6 +10,7 @@ RPM_HASH = "bc4f83b9d2aaf90f3d68bd777a303f9b6fa09ac3a8f1ed55c62f442e45fecf89f42b
 RPROVIDES:${PN} += "ghc-devel(hinotify-0.4.1-8EvWCUqnZLR2V2Cj5bSrk3) \
 ghc-hinotify-devel \
 ghc-hinotify-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF) \

@@ -16,6 +16,7 @@ application(jupyter-notebook.desktop) \
 jupyter-notebook \
 jupyter-notebook-doc \
 mimehandler(application/x-ipynb+json)"
+
 RDEPENDS:${PN} += "jupyter-ipykernel \
 jupyter-jupyter-client \
 jupyter-jupyter-core \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bjfuthesis.cls) \
 texlive-bjfuthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

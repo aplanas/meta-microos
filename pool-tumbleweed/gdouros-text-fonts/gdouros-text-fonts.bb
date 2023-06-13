@@ -60,6 +60,7 @@ gdouros-aroania-fonts \
 gdouros-asea-fonts \
 gdouros-avdira-fonts \
 gdouros-text-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

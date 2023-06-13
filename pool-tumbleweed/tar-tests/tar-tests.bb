@@ -9,6 +9,7 @@ RPM_HASH = "ce56908fffb632d2709cde43a5cf05e30c430363d98a220cf7038822243c58ef48a7
 
 RPROVIDES:${PN} += "tar-tests \
 tar-tests(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

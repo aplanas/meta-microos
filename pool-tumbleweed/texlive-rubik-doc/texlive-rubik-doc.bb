@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(rubikrotation.1) \
 texlive-rubik-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

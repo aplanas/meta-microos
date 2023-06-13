@@ -10,6 +10,7 @@ RPM_HASH = "1e478d96f682dcbe859d402b40d5c3e1acaac5a30100ebc8212bb9e5695667dfceaa
 RPROVIDES:${PN} += "libmarblewidget-qt5-28 \
 libmarblewidget-qt5-28(aarch-64) \
 libmarblewidget-qt5.so.28()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

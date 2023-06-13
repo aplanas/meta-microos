@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libcolord-devel \
 libcolord-devel(aarch-64) \
 pkgconfig(colord) \
 pkgconfig(colorhug)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 colord-color-profiles \
 libcolord2 \

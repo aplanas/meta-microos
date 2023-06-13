@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libnemo-dropbox.so()(64bit) \
 nemo-dropbox \
 nemo-extension-dropbox \
 nemo-extension-dropbox(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dropbox \
 ld-linux-aarch64.so.1()(64bit) \

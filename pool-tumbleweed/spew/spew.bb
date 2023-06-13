@@ -17,6 +17,7 @@ RPM_HASH = "e9a7949d07461c7584a964858edbc62cd3aa24dfcfa126b04c56bd68d905f083e815
 RPROVIDES:${PN} += "config(spew) \
 spew \
 spew(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

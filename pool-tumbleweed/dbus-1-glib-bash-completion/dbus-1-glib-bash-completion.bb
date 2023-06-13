@@ -13,6 +13,7 @@ RPM_HASH = "10eea510773762d250fae985529d5c11a58957de82d43569b36bf4e1ffd0565256a8
 RPROVIDES:${PN} += "dbus-1-glib-bash-completion \
 dbus-1-glib-bash-completion(aarch-64) \
 dbus-1-glib:/etc/bash_completion.d/dbus-bash-completion.sh"
+
 RDEPENDS:${PN} += "dbus-1-glib-tool \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

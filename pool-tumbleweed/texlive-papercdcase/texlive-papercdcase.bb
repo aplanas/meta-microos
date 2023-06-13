@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(papercdcase.sty) \
 texlive-papercdcase"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

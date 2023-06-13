@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(librpma) \
 pkgconfig(librpma) \
 rpma-devel \
 rpma-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librpma0"
 

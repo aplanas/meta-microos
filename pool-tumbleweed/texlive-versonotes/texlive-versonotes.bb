@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(versonotes.sty) \
 texlive-versonotes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

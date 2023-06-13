@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "tex(dcwrtbib.sty) \
 tex(dvdcoll.cls) \
 tex(pdfnotiz.sty) \
 texlive-dvdcoll"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

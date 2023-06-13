@@ -12,6 +12,7 @@ libtag-devel(aarch-64) \
 pkgconfig(taglib) \
 pkgconfig(taglib_c) \
 taglib-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libstdc++-devel \

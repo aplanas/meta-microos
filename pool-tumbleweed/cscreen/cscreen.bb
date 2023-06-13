@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(cscreen) \
 cscreen"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

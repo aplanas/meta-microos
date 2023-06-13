@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-reporting-exec \
 mvn(org.apache.maven.reporting:maven-reporting-exec) \
 mvn(org.apache.maven.reporting:maven-reporting-exec:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.reporting:maven-reporting-api) \

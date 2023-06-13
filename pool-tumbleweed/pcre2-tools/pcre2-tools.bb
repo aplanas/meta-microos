@@ -14,6 +14,7 @@ RPM_HASH = "bc113502b9eff93ac7793d93af8c2383836d2ab1a63f7f3ca612018f28404c889555
 
 RPROVIDES:${PN} += "pcre2-tools \
 pcre2-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

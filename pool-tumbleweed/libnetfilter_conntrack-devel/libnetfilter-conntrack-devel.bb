@@ -14,6 +14,7 @@ RPM_HASH = "040b29f3618d52b60b0bed716c469f6eb9eea0768bd0aecc3e5f73ac5f841e8a4eeb
 RPROVIDES:${PN} += "libnetfilter_conntrack-devel \
 libnetfilter_conntrack-devel(aarch-64) \
 pkgconfig(libnetfilter_conntrack)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnetfilter_conntrack3 \
 pkgconfig(libnfnetlink)"

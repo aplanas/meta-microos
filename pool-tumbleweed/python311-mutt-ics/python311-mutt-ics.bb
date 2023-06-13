@@ -13,6 +13,7 @@ mutt_ics \
 python3.11dist(mutt-ics) \
 python311-mutt-ics \
 python3dist(mutt-ics)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

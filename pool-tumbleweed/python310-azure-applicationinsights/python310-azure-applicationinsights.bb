@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-applicationinsights \
 python3.10dist(azure-applicationinsights) \
 python310-azure-applicationinsights \
 python3dist(azure-applicationinsights)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-nspkg \

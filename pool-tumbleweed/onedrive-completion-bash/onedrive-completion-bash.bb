@@ -9,6 +9,7 @@ RPM_HASH = "ba6a39c7993990fd69911aa46fe59548dbb36bec43dc9c51d84586484797f76e4701
 
 RPROVIDES:${PN} += "onedrive-completion-bash \
 onedrive-completion-bash(aarch-64)"
+
 RDEPENDS:${PN} += "bash \
 bash-completion \
 onedrive"

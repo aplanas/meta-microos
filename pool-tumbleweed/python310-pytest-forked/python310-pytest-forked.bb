@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-forked \
 python3.10dist(pytest-forked) \
 python310-pytest-forked \
 python3dist(pytest-forked)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-py \
 python310-pytest"

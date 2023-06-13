@@ -13,6 +13,7 @@ RPM_HASH = "6c0f1ef0a3c3bf30610813fd136638633d3a5e4dbe2d8071ba2d0c95af5208caa085
 RPROVIDES:${PN} += "libopenvas_wincmd-devel \
 libopenvas_wincmd-devel(aarch-64) \
 pkgconfig(libopenvas_wincmd)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenvas_wincmd1"
 

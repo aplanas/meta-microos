@@ -9,6 +9,7 @@ RPM_HASH = "241dfa1ebfdec808c80fb8bcec9dd443c45a1ed1792809759b14f09032d41c71004a
 
 RPROVIDES:${PN} += "budgie-control-center-bash-completion \
 budgie-control-center-bash-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash-completion \
 budgie-control-center"
 

@@ -11,6 +11,7 @@ RPM_HASH = "c091d70744772a39e21ec9416e997ce8589f551d6b7251d57e1bd8898ccd3a1eaacf
 RPROVIDES:${PN} += "libdex-devel \
 libdex-devel(aarch-64) \
 pkgconfig(libdex-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdex-1-1 \
 pkgconfig(gio-2.0) \

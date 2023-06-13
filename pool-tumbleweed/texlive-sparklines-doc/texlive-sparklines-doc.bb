@@ -9,6 +9,7 @@ RPM_HASH = "0c89f7ab2ea7e1e920d64f465ff72f8461e2d626229eb38efb924c34c26c562e0924
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sparklines-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

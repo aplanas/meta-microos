@@ -11,6 +11,7 @@ RPM_HASH = "beea75c496b6bc48c5de14c6fcd1b5d925f6f5d5a87d6044eca0ed23db4b76923c4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-gnu-mpich-hpc-python3"
+
 RDEPENDS:${PN} += "boost_1_82_0-gnu-mpich-hpc-python3"
 
 inherit rpm

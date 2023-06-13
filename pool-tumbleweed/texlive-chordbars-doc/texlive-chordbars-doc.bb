@@ -9,6 +9,7 @@ RPM_HASH = "adbbca53a4591f24f281951bb6953f72214a7dd157a6368a4dd7c0a001c68be792be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chordbars-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

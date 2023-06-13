@@ -11,6 +11,7 @@ RPM_HASH = "30d1a83be5c06fbf991955612b15fe39785ec3d91539f88ad490826e6c88520275b1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-warpinator"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 nemo \
 warpinator"

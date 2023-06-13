@@ -17,6 +17,7 @@ rubygem(ruby:3.2.0:pry-doc) \
 rubygem(ruby:3.2.0:pry-doc:1) \
 rubygem(ruby:3.2.0:pry-doc:1.3) \
 rubygem(ruby:3.2.0:pry-doc:1.3.0)"
+
 RDEPENDS:${PN} += "etags \
 ruby(abi) \
 rubygem(ruby:3.2.0:pry:0) \

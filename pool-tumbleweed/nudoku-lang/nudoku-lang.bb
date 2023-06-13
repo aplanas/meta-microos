@@ -15,6 +15,7 @@ locale(nudoku:ja) \
 locale(nudoku:ru) \
 nudoku-lang \
 nudoku-lang-all"
+
 RDEPENDS:${PN} += "nudoku"
 
 inherit rpm

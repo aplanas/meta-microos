@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nuc.sty) \
 texlive-nuc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

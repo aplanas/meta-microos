@@ -54,6 +54,7 @@ libpw-v4l2.so()(64bit) \
 pipewire-modules \
 pipewire-modules-0_3 \
 pipewire-modules-0_3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-client.so.3()(64bit) \

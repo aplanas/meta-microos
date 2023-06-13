@@ -9,6 +9,7 @@ RPM_HASH = "43e1217f850118171e44f7c42ff1f61d59b0c02528e60274b2833a6509a1847d7cbe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "minikube-bash-completion"
+
 RDEPENDS:${PN} += "bash \
 bash-completion \
 minikube"

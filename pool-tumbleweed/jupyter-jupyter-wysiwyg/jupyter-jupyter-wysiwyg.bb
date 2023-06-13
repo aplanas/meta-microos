@@ -15,6 +15,7 @@ python3-jupyter-wysiwyg \
 python3-jupyter_wysiwyg \
 python3.10dist(jupyter-wysiwyg) \
 python3dist(jupyter-wysiwyg)"
+
 RDEPENDS:${PN} += "/bin/sh \
 jupyter-notebook \
 python(abi)"

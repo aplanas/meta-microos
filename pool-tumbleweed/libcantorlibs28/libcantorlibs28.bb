@@ -10,6 +10,7 @@ RPM_HASH = "da615d8f3da6f5cd0a399b2c7d0166414d0ab570d10521a332930497c11dc5f37b01
 RPROVIDES:${PN} += "libcantorlibs.so.28()(64bit) \
 libcantorlibs28 \
 libcantorlibs28(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

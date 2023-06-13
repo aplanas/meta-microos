@@ -11,6 +11,7 @@ RPM_HASH = "cefc15c4e4c3dc1e27b4e97ad732ef5d6d0f096ce65c130d97cd2310ff81f880e0ef
 RPROVIDES:${PN} += "libKF5BalooEngine.so.5()(64bit) \
 libKF5BalooEngine5 \
 libKF5BalooEngine5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

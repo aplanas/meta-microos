@@ -13,6 +13,7 @@ RPM_HASH = "6bc31ce42b9918c60231a1d97cd5779e1be87bb643d8d342b1a4c4685d37fbf9d803
 RPROVIDES:${PN} += "llvm-gold-provider \
 llvm15-gold \
 llvm15-gold(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

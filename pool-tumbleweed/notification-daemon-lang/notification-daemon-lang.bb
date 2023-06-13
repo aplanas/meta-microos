@@ -76,6 +76,7 @@ locale(notification-daemon:zh_HK) \
 locale(notification-daemon:zh_TW) \
 notification-daemon-lang \
 notification-daemon-lang-all"
+
 RDEPENDS:${PN} += "notification-daemon"
 
 inherit rpm

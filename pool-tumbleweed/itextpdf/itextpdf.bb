@@ -26,6 +26,7 @@ mvn(com.itextpdf:itextpdf:pom:) \
 mvn(com.itextpdf:root:pom:) \
 osgi(com.itextpdf) \
 osgi(com.itextpdf.tool.xmlworker)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

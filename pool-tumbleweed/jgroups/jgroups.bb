@@ -34,6 +34,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javagroups \
 jgroups"
+
 RDEPENDS:${PN} += "apache-commons-logging \
 bsh2 \
 geronimo-jms-1_1-api \

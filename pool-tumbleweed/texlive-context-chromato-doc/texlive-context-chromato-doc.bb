@@ -9,6 +9,7 @@ RPM_HASH = "b948871276a146bd34dabae585b365bc13168c36294e5b19efc4c29568a9eeb21331
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-chromato-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

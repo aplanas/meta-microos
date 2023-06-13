@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(bangla.sty) \
 tex(banglamap.tex) \
 texlive-bangla"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -76,6 +76,7 @@ locale(amarok:uk) \
 locale(amarok:wa) \
 locale(amarok:zh_CN) \
 locale(amarok:zh_TW)"
+
 RDEPENDS:${PN} += "amarok"
 
 inherit rpm

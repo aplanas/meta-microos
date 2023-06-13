@@ -13,6 +13,7 @@ RPM_HASH = "868763ea90488b2e605c38df537699b65ee0ab3a28a74f53d31eb0e2fe15ed9791a9
 RPROVIDES:${PN} += "pkgconfig(libproc2) \
 procps4-devel \
 procps4-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libproc2-0"
 

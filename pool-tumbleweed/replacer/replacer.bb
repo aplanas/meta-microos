@@ -16,6 +16,7 @@ mvn(com.google.code.maven-replacer-plugin:maven-replacer-plugin:pom:) \
 mvn(com.google.code.maven-replacer-plugin:replacer) \
 mvn(com.google.code.maven-replacer-plugin:replacer:pom:) \
 replacer"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

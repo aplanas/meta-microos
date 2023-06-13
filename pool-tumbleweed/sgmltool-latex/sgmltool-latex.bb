@@ -10,6 +10,7 @@ RPM_HASH = "c2637a4b1c4678168eb098e935f6cfb780fb25db1e8acff64625202940d04a0c46e3
 RPROVIDES:${PN} += "sgmltool-latex \
 sgmltool-latex(aarch-64) \
 sgmltool:/usr/bin/sgml2latex"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

@@ -12,6 +12,7 @@ RPM_HASH = "9b4fd4a6fd956f827e9eab9f3fae58e3c40b56249dc7b5b8044a9a020af3b793896d
 RPROVIDES:${PN} += "gfbgraph-devel \
 gfbgraph-devel(aarch-64) \
 pkgconfig(libgfbgraph-0.2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgfbgraph-0_2-0 \
 pkgconfig(gio-2.0) \

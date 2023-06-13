@@ -14,6 +14,7 @@ RPM_HASH = "e3c245f9fa8862134807ce731488325ecf6cd41499b86dfa0592d617d1f5c9126a24
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-mpd"
+
 RDEPENDS:${PN} += "bumblebee-status \
 mpclient"
 

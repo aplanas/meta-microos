@@ -21,6 +21,7 @@ votca-devel \
 votca-devel(aarch-64) \
 votca-tools-devel \
 votca-xtp-devel"
+
 RDEPENDS:${PN} += "eigen3-devel \
 fftw3-devel \
 libexpat-devel \

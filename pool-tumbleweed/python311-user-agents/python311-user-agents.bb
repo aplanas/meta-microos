@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(user-agents) \
 python311-user-agents \
 python3dist(user-agents)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML \
 python311-ua-parser"

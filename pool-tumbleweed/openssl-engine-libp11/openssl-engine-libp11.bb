@@ -17,6 +17,7 @@ RPM_HASH = "2f70a62dd650c57a5b104e67492c7d24a44b39f5e1a774538bbde9cd62ca3d3b0b2a
 
 RPROVIDES:${PN} += "openssl-engine-libp11 \
 openssl-engine-libp11(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

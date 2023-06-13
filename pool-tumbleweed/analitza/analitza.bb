@@ -12,6 +12,7 @@ analitza(aarch-64) \
 analitza5 \
 libanalitzadeclarativeplugin.so()(64bit) \
 qt5qmlimport(org.kde.analitza.1)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libAnalitza.so.8()(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(wrapfig2.sty) \
 texlive-wrapfig2"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

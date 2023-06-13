@@ -16,6 +16,7 @@ RPM_HASH = "ee408f343f0509a4a46f6502a562ef43acdfb695044dbeba17d0978de1322a07a4b4
 RPROVIDES:${PN} += "config(glusterfs) \
 glusterfs \
 glusterfs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(catchfilebetweentags.sty) \
 texlive-catchfilebetweentags"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

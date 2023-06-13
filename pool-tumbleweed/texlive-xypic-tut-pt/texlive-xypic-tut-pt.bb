@@ -9,6 +9,7 @@ RPM_HASH = "a8af4ca742e79c51481501af4753d319a3407bb5ed88f01377899cbd3f40d3e4973f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xypic-tut-pt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

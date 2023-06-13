@@ -15,6 +15,7 @@ RPM_HASH = "1b9b7906e464baba07a21a4e0ec023681bac3a8bb8ad083c54bc5740379cc02bc842
 RPROVIDES:${PN} += "config(prelude-manager) \
 prelude-manager \
 prelude-manager(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

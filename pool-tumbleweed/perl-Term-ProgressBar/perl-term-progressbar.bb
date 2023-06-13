@@ -34,6 +34,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Term::ProgressBar) \
 perl(Term::ProgressBar::IO) \
 perl-Term-ProgressBar"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::MethodMaker) \
 perl(Term::ReadKey)"

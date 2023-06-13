@@ -14,6 +14,7 @@ libreoffice-icon-theme-hicontrast \
 libreoffice-icon-theme-sifr \
 libreoffice-icon-theme-tango \
 libreoffice-icon-themes"
+
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice-share-linker"
 

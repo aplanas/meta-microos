@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-signedjson \
 python3.10dist(signedjson) \
 python310-signedjson \
 python3dist(signedjson)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyNaCl \
 python310-canonicaljson \

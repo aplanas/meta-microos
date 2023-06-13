@@ -10,6 +10,7 @@ RPM_HASH = "d302e837bf98900dc2f6403b558e7736dabebb49f7c2974f575867d04fd40ebe9eda
 
 RPROVIDES:${PN} += "qore-ssh2-module \
 qore-ssh2-module(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

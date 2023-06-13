@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-patsy \
 python3.10dist(patsy) \
 python310-patsy \
 python3dist(patsy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-six"

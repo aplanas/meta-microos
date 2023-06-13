@@ -12,6 +12,7 @@ RPM_HASH = "3e728f01de6508e22997896e42ebec0fa7c09a70ace3bf32981241e7ce8170274dbf
 RPROVIDES:${PN} += "typelib(Flatpak) \
 typelib-1_0-Flatpak-1_0 \
 typelib-1_0-Flatpak-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libflatpak.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

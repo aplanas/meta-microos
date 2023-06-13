@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(http-ece) \
 python39-http-ece \
 python3dist(http-ece)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cryptography"
 

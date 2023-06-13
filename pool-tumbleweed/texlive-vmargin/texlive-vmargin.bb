@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(vmargin.sty) \
 texlive-vmargin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

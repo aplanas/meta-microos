@@ -9,6 +9,7 @@ RPM_HASH = "fedb89f9505f739821939814f3fa8dfb0f27b3fa9c137988eafb1a46a6cf6b982843
 
 RPROVIDES:${PN} += "mpitests \
 mpitests(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

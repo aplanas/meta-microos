@@ -9,6 +9,7 @@ RPM_HASH = "328c0aee735857d7dada3690dbdd1dc9049ed0fd031d754303c19ceece39daab84c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docker-fish-completion"
+
 RDEPENDS:${PN} += "docker \
 fish"
 

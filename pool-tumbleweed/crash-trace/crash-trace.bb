@@ -9,6 +9,7 @@ RPM_HASH = "7fa85efcad1ba2cbc33942c74880c5732fcbd771b1bf487500e78907eb7133313887
 
 RPROVIDES:${PN} += "crash-trace \
 crash-trace(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

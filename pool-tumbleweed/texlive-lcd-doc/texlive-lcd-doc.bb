@@ -9,6 +9,7 @@ RPM_HASH = "6b6263ee3235aa141a19460acd9e1ae5cecc81edb4677fb0b93173622eb0ca53722e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lcd-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

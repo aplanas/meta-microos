@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libXpm-devel \
 libXpm-devel(aarch-64) \
 pkgconfig(xpm) \
 xorg-x11-libXpm-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXpm4 \
 pkgconfig(x11)"

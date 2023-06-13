@@ -16,6 +16,7 @@ RPM_HASH = "cf49b1954225f55a107e701a685e1d7fd29aef2192b3f999b4e5167228b48b2aae4c
 
 RPROVIDES:${PN} += "zpaq \
 zpaq(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

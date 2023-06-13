@@ -10,6 +10,7 @@ RPM_HASH = "e6f8a81a225a3bae037642061e5604ca283b9f1de5639e94052c7982685f407d07f4
 
 RPROVIDES:${PN} += "telepathy-glib-doc \
 telepathy-glib-doc(aarch-64)"
+
 RDEPENDS:${PN} += "libtelepathy-glib0"
 
 inherit rpm

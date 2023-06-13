@@ -44,6 +44,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Data::Hierarchy) \
 perl(Data::Hierarchy::Relative) \
 perl-Data-Hierarchy"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::Exception)"
 

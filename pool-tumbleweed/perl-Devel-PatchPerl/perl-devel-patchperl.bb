@@ -16,6 +16,7 @@ perl(Devel::PatchPerl::Hints) \
 perl(Devel::PatchPerl::Plugin) \
 perl-Devel-PatchPerl \
 perl-Devel-PatchPerl(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(File::pushd) \

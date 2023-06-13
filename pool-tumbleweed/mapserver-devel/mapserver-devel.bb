@@ -10,6 +10,7 @@ RPM_HASH = "78b68e69da700c8ebce9ed4e027bd23fffb432122dc64655cf12f388ffa4633f3888
 
 RPROVIDES:${PN} += "mapserver-devel \
 mapserver-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmapserver2"
 
 inherit rpm

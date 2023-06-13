@@ -10,6 +10,7 @@ RPM_HASH = "95aa61293d906b0dccb3606b1b82f24a5e0f6cf10d79ab4e8b8987b34c050fc3b779
 
 RPROVIDES:${PN} += "libXNVCtrl-devel \
 libXNVCtrl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libXNVCtrl0"
 
 inherit rpm

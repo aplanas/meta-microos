@@ -15,6 +15,7 @@ tex(afthes12.sty) \
 tex(afthesis.cls) \
 tex(afthesis.sty) \
 texlive-afthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

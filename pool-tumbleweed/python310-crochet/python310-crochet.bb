@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-crochet \
 python3.10dist(crochet) \
 python310-crochet \
 python3dist(crochet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Twisted \
 python310-wrapt"

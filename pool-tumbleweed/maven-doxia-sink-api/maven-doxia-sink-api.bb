@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-doxia-sink-api \
 mvn(org.apache.maven.doxia:doxia-sink-api) \
 mvn(org.apache.maven.doxia:doxia-sink-api:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.doxia:doxia-logging-api)"

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cvss.sty) \
 texlive-cvss"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

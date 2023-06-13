@@ -10,6 +10,7 @@ RPM_HASH = "a910923d198cb434fce9df6f25c4ad79ba33d97a1de4fa43fa7ca637f45f43fe0afe
 
 RPROVIDES:${PN} += "osinfo-db-tools \
 osinfo-db-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libarchive.so.13()(64bit) \

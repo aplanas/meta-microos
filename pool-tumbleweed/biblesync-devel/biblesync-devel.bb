@@ -11,6 +11,7 @@ RPM_HASH = "f4b90aae61e6bd96dc90deee6bd13bcbb1e645ec871426f19f2768f17cfc53cadbb9
 RPROVIDES:${PN} += "biblesync-devel \
 biblesync-devel(aarch-64) \
 pkgconfig(biblesync)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbiblesync2_0 \
 libuuid-devel"

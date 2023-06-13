@@ -15,6 +15,7 @@ tex(xsim.sty) \
 tex(xsim.style.layouts.code.tex) \
 tex(xsimverb.sty) \
 texlive-xsim"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

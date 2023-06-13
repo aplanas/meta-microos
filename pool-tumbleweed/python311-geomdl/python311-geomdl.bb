@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(geomdl) \
 python311-geomdl \
 python3dist(geomdl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-matplotlib \
 python311-numpy \

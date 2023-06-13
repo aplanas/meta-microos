@@ -12,6 +12,7 @@ RPM_HASH = "3c2ad99534c4a3aa7076481a5608b7fe9fca2bd0bb3acd9ab32835609a9c1ff05abc
 RPROVIDES:${PN} += "apache2-mod_auth_mellon \
 apache2-mod_auth_mellon(aarch-64) \
 config(apache2-mod_auth_mellon)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 apache_mmn_20120211 \

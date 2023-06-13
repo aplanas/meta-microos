@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "SoQt-devel \
 SoQt-devel(aarch-64) \
 cmake(soqt) \
 pkgconfig(SoQt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt5Gui) \
 cmake(Qt5OpenGL) \

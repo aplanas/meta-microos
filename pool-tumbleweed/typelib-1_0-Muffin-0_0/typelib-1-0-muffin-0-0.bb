@@ -18,6 +18,7 @@ typelib(CoglPango) \
 typelib(Meta) \
 typelib-1_0-Muffin-0_0 \
 typelib-1_0-Muffin-0_0(aarch-64)"
+
 RDEPENDS:${PN} += "libmuffin-clutter-0.so()(64bit) \
 libmuffin-cogl-0.so()(64bit) \
 libmuffin-cogl-pango-0.so()(64bit) \

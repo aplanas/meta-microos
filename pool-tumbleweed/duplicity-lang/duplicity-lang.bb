@@ -33,6 +33,7 @@ locale(duplicity:uk_UA) \
 locale(duplicity:zh_CN) \
 locale(duplicity:zh_HK) \
 locale(duplicity:zh_TW)"
+
 RDEPENDS:${PN} += "duplicity"
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-scheduler \
 perl(Kanku::Daemon::Scheduler)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 kanku-common \

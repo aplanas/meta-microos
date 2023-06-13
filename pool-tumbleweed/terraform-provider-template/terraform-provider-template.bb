@@ -9,6 +9,7 @@ RPM_HASH = "7d325e6b2107e6aa435e03162c13ca35e1f20943d5babd33994a0885195fb7a5f7d7
 
 RPROVIDES:${PN} += "terraform-provider-template \
 terraform-provider-template(aarch-64)"
+
 RDEPENDS:${PN} += "terraform"
 
 inherit rpm

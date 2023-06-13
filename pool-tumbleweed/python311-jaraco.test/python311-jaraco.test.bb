@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jaraco.test) \
 python311-jaraco.test \
 python3dist(jaraco.test)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-jaraco.context \
 python311-jaraco.functools"

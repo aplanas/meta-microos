@@ -10,6 +10,7 @@ RPM_HASH = "3f58d5d5ebe2d65dc6b945dc0b66ab1c6d63794d42d42f16dcca3a20496eeb79b674
 
 RPROVIDES:${PN} += "libhugetlbfs-tests \
 libhugetlbfs-tests(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

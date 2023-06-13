@@ -9,6 +9,7 @@ RPM_HASH = "3f6efd14a0cf5d51aa7b178523399f8d58aad2dec68148c857bd8d99d54a13508abd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uvaletter-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

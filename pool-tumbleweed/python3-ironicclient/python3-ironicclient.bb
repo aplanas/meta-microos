@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-ironicclient \
 python3.10dist(python-ironicclient) \
 python3dist(python-ironicclient)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PyYAML \

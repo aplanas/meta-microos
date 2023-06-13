@@ -10,6 +10,7 @@ RPM_HASH = "2f11df180127944b0d8634224da818c88e12e722562ece2887005b5aaac5adb72f4b
 RPROVIDES:${PN} += "libfaxutil.so.7.0.7()(64bit) \
 libfaxutil7_0_7 \
 libfaxutil7_0_7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

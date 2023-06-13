@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(minipage-marginpar.sty) \
 tex(mpgmpar.sty) \
 texlive-minipage-marginpar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

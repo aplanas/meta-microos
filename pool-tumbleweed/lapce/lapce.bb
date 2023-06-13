@@ -535,6 +535,7 @@ metainfo() \
 metainfo(dev.lapce.lapce.metainfo.xml) \
 mimehandler(inode/directory) \
 mimehandler(text/plain)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \

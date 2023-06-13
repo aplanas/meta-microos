@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "base64coder \
 mvn(biz.source_code:base64coder) \
 mvn(biz.source_code:base64coder:pom:) \
 osgi(biz.source_code.base64coder)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

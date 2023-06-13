@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(vega) \
 python39-jupyter_vega \
 python39-vega \
 python3dist(vega)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-ipytablewidgets \
 python39-jupyter \

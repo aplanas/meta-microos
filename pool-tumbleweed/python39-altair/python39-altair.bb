@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(altair) \
 python39-altair \
 python3dist(altair)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Jinja2 \
 python39-entrypoints \

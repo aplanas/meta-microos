@@ -24,6 +24,7 @@ RPM_HASH = "0116277c8fe5eec86851e54275493f8910f8cd02010fa6233b71318db6454761bd54
 RPROVIDES:${PN} += "libpythia8 \
 libpythia8(aarch-64) \
 libpythia8.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

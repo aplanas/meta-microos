@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "enlightenment-theme \
 enlightenment-theme-openSUSE-oliveleaf"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

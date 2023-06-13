@@ -11,6 +11,7 @@ RPM_HASH = "1bcc38f46f6e393c00151415b3efa742188c8ce1b7f01607dca3c5a2487c19fab003
 
 RPROVIDES:${PN} += "matio-tools \
 matio-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

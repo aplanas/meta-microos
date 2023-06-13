@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-azure-core-tracing-opencensus \
 python3.10dist(azure-core-tracing-opencensus) \
 python310-azure-core-tracing-opencensus \
 python3dist(azure-core-tracing-opencensus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(javax.time:time-api) \
 mvn(javax.time:time-api:pom:) \
 time-api"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

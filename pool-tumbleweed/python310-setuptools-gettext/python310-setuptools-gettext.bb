@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-setuptools-gettext \
 python3.10dist(setuptools-gettext) \
 python310-setuptools-gettext \
 python3dist(setuptools-gettext)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools"
 

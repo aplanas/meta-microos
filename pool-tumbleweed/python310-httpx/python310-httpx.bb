@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-httpx \
 python3.10dist(httpx) \
 python310-httpx \
 python3dist(httpx)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

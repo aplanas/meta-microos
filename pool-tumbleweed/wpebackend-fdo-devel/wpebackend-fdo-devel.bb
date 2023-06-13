@@ -11,6 +11,7 @@ RPM_HASH = "035bcb6c0231ea2b4e231c5c0528558838f711d1b8ed0734fc63ee9c420d8a793dbc
 RPROVIDES:${PN} += "pkgconfig(wpebackend-fdo-1.0) \
 wpebackend-fdo-devel \
 wpebackend-fdo-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libWPEBackend-fdo-1_0-1 \
 pkgconfig(wpe-1.0)"

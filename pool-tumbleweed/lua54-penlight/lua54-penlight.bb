@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-penlight \
 lua54-penlight"
+
 RDEPENDS:${PN} += "lua54 \
 lua54-luafilesystem"
 

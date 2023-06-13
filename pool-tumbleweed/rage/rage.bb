@@ -127,6 +127,7 @@ mimehandler(x-content/video-svcd) \
 mimehandler(x-content/video-vcd) \
 rage \
 rage(aarch-64)"
+
 RDEPENDS:${PN} += "efl \
 elementary \
 evas-generic-loaders \

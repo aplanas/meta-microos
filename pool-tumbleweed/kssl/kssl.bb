@@ -22,6 +22,7 @@ RPM_HASH = "c301cb587a753934c30a25f750d99c221baf25fa654167433d76679fdd5858760da6
 
 RPROVIDES:${PN} += "kssl \
 kssl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigWidgets.so.5()(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(lp) \
 system-user-lp \
 user(lp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

@@ -9,6 +9,7 @@ RPM_HASH = "85c0b27842f146c9c86b3f3513a9df62bb058b4495bdf9b0efb8b00e03c1de97bc96
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-account-faces"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

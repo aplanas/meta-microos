@@ -13,6 +13,7 @@ libqxmpp-devel \
 libqxmpp-devel(aarch-64) \
 libqxmpp-qt5-devel \
 pkgconfig(qxmpp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqxmpp4 \
 pkgconfig(gstreamer-1.0)"

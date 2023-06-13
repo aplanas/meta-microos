@@ -10,6 +10,7 @@ RPM_HASH = "3ef44bd48d23b7abc3575b3027e3af11bc0eb73a1a7d5f271cfe2ce965efb4254e78
 
 RPROVIDES:${PN} += "libcreg-tools \
 libcreg-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

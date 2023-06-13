@@ -11,6 +11,7 @@ RPM_HASH = "4123f23cf53296969578c545b8b99d04369034265a8ca84286d2d3f785488c10ae5c
 RPROVIDES:${PN} += "cmake(Qt6JsonRpcPrivate) \
 qt6-jsonrpc-private-devel \
 qt6-jsonrpc-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Core) \
 libQt6JsonRpc6"
 

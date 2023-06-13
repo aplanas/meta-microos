@@ -9,6 +9,7 @@ RPM_HASH = "48ee58768efaede445713aa3175819842b6bf07f9f406b1a6e90a237123ee156e606
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-gyre-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

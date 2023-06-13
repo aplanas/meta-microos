@@ -13,6 +13,7 @@ RPM_HASH = "d3d338308b202c6922b01fbb11537614a6634ec77fa4f761a8878831e11762a63522
 RPROVIDES:${PN} += "libsignon-glib.so.2()(64bit) \
 libsignon-glib2 \
 libsignon-glib2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

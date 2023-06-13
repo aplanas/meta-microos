@@ -13,6 +13,7 @@ application(cmake-gui.desktop) \
 cmake-gui \
 cmake-gui(aarch-64) \
 mimehandler(application/x-cmakecache)"
+
 RDEPENDS:${PN} += "cmake \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

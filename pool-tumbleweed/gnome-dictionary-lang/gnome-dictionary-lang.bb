@@ -96,6 +96,7 @@ locale(gnome-dictionary:wa) \
 locale(gnome-dictionary:zh_CN) \
 locale(gnome-dictionary:zh_HK) \
 locale(gnome-dictionary:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-dictionary"
 
 inherit rpm

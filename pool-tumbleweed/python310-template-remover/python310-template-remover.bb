@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-template-remover \
 python3.10dist(template-remover) \
 python310-template-remover \
 python3dist(template-remover)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

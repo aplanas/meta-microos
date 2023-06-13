@@ -15,6 +15,7 @@ RPM_HASH = "9031015669c4b6fcf0ad23d3bf4de61138249babd318d6692eabdc9fc5ca837d8845
 
 RPROVIDES:${PN} += "tinc \
 tinc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 info \
 ld-linux-aarch64.so.1()(64bit) \

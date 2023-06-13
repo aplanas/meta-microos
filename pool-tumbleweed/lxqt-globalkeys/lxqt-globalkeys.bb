@@ -13,6 +13,7 @@ config(lxqt-globalkeys) \
 lxqt-globalkeys \
 lxqt-globalkeys(aarch-64) \
 lxqt-globalkeys-qt5"
+
 RDEPENDS:${PN} += "desktop-file-utils \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

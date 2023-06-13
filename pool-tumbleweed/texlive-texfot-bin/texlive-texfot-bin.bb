@@ -9,6 +9,7 @@ RPM_HASH = "7227bd6003aa95548be5c66dd49fbb19a72aa1c76bf275ccc1656462e1d8296d8224
 
 RPROVIDES:${PN} += "texlive-texfot-bin \
 texlive-texfot-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-texfot"
 
 inherit rpm

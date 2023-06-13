@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(towncrier) \
 python39-towncrier \
 python3dist(towncrier)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 git-core \

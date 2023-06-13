@@ -28,6 +28,7 @@ locale(budgie-desktop-view:tr) \
 locale(budgie-desktop-view:uk) \
 locale(budgie-desktop-view:zh) \
 locale(budgie-desktop-view:zh_CN)"
+
 RDEPENDS:${PN} += "budgie-desktop-view"
 
 inherit rpm

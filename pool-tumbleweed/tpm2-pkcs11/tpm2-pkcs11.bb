@@ -16,6 +16,7 @@ python3dist(tpm2-pkcs11-tools) \
 tpm2-pkcs11 \
 tpm2-pkcs11(aarch-64) \
 tpm2-pkcs11-devel"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 /usr/bin/python3 \

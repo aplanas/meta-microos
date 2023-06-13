@@ -21,6 +21,7 @@ RPM_HASH = "5c27b48a7b35790c47be7d64c8193cac1314a1528a102f5ed7c3be7b3932c55e9b16
 RPROVIDES:${PN} += "libffado.so.2()(64bit) \
 libffado2 \
 libffado2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

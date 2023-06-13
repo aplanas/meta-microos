@@ -11,6 +11,7 @@ RPM_HASH = "be5e56f4f27bdfcd9cec4c9311e0de265443c6d43969c549c17ca27748b47f139a7a
 RPROVIDES:${PN} += "libffado-devel \
 libffado-devel(aarch-64) \
 pkgconfig(libffado)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libconfig-devel \

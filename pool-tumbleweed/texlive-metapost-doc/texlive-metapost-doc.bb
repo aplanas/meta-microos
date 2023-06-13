@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(dvitomp.1) \
 man(mpost.1) \
 texlive-metapost-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

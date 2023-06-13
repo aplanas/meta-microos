@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-gns3fy \
 python3.10dist(gns3fy) \
 python310-gns3fy \
 python3dist(gns3fy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pydantic \
 python310-requests"

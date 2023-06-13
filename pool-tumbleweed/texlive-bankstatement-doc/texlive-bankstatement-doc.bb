@@ -9,6 +9,7 @@ RPM_HASH = "e01a5d73f2eea2fa55cb876ec1b43329c5c3e5bf6e7bbb806a6fc7802a7bddce09de
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bankstatement-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

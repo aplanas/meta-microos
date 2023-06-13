@@ -15,6 +15,7 @@ libglibmm-2.4.so.1()(64bit) \
 libglibmm-2_4-1 \
 libglibmm-2_4-1(aarch-64) \
 libglibmm_generate_extra_defs-2.4.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

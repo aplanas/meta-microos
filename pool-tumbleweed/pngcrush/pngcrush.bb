@@ -14,6 +14,7 @@ RPM_HASH = "9aa0fde43e2c6fc31b1c3d5b8efdf6d02bf047bec94a263b80821a60cd25d9de5ade
 
 RPROVIDES:${PN} += "pngcrush \
 pngcrush(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

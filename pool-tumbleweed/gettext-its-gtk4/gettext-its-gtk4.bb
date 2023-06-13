@@ -10,6 +10,7 @@ RPM_HASH = "156d06d77a1d6752df7bd4ee8feebd4e691470b3730dcdd96517aa3f47d4fe451852
 RPROVIDES:${PN} += "gettext-its-gtk3 \
 gettext-its-gtk4 \
 gettext-its-gtk4(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "f4fcb9497bff0347b2c7ae56dfb77d9aa9ccfe8d2f7f83c76f40a215c72ca9241bae
 
 RPROVIDES:${PN} += "libiconv_hook-devel \
 libiconv_hook-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libiconv_hook1"
 
 inherit rpm

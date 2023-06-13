@@ -15,6 +15,7 @@ RPM_HASH = "db4fc492bd2006ab0ebc0234e85f4f2a007e5e91eb7236fad2a4dbe88dd068faa280
 RPROVIDES:${PN} += "libcec-devel \
 libcec-devel(aarch-64) \
 pkgconfig(libcec)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcec6 \
 pkgconfig(p8-platform)"

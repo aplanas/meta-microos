@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-waitress-doc \
 python310-waitress-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

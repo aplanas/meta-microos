@@ -11,6 +11,7 @@ RPM_HASH = "79697a467959bbfb76ec7a3e729ec99b5d53b27ea79bee0fe60310d2bf04283f2315
 RPROVIDES:${PN} += "libwnck2-devel \
 libwnck2-devel(aarch-64) \
 pkgconfig(libwnck-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwnck-1-22 \
 pkgconfig(cairo) \

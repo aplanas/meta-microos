@@ -11,6 +11,7 @@ RPM_HASH = "817e55ab1ffb8a6d6c68850fdc119f94650817a8a880155421f0152ecc9d90dbd8b6
 RPROVIDES:${PN} += "ghc-ansi-terminal-types-devel \
 ghc-ansi-terminal-types-devel(aarch-64) \
 ghc-devel(ansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-ansi-terminal-types \
 ghc-compiler \

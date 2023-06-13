@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-PyOgg \
 python3.10dist(pyogg) \
 python310-PyOgg \
 python3dist(pyogg)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

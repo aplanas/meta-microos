@@ -46,6 +46,7 @@ font(백묵돋움) \
 font(백묵바탕) \
 font(백묵헤드라인) \
 texlive-baekmuk-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(makeindex.1) \
 man(mkindex.1) \
 texlive-makeindex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "pyOpenSSL \
 python3.9dist(pyopenssl) \
 python39-pyOpenSSL \
 python3dist(pyopenssl)"
+
 RDEPENDS:${PN} += "(python39-cryptography >= 38.0.0 with python39-cryptography < 41) \
 python(abi) \
 python39-cffi"

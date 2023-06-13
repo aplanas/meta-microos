@@ -9,6 +9,7 @@ RPM_HASH = "aeedddb8546b0365839fa3b14a508d0d8f9ffe9a55bb88c8dd26ccdbadb4921b83e3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kvmap-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

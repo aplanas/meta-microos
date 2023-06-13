@@ -10,6 +10,7 @@ RPM_HASH = "c8646dd3a3d2ae2ff3336f6a7ce7d493b04a5f379f9c7c20cb8f7a90f8c3ea5c7927
 
 RPROVIDES:${PN} += "plymouth-plugin-space-flares \
 plymouth-plugin-space-flares(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

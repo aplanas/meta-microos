@@ -14,6 +14,7 @@ RPM_HASH = "279417ccbd7c8fc028700ab0083d78b818c981fd0a5dcf604a7fc1c6ff15d271f86f
 RPROVIDES:${PN} += "libKF5KWeatherCore.so.5()(64bit) \
 libKF5KWeatherCore5 \
 libKF5KWeatherCore5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

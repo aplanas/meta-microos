@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(t-angles.sty) \
 texlive-t-angles"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

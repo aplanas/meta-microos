@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libosmogb.so.14()(64bit) \
 libosmogb.so.14(LIBOSMOGB_1.0)(64bit) \
 libosmogb14 \
 libosmogb14(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

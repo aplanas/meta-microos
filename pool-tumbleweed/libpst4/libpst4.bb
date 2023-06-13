@@ -11,6 +11,7 @@ RPM_HASH = "360e2f74f82b6a827f2310464922792d2269009d88b1502d193a6193e2c6f49abd0e
 RPROVIDES:${PN} += "libpst.so.4()(64bit) \
 libpst4 \
 libpst4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

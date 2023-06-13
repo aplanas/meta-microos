@@ -10,6 +10,7 @@ RPM_HASH = "846f17a5d3858f0b1f2f3386fb6d10abc85c24f9121a9436ecf52c7cb7618cb8885f
 RPROVIDES:${PN} += "ghc-crypto-api-devel \
 ghc-crypto-api-devel(aarch-64) \
 ghc-devel(crypto-api-0.13.3-9orTVpCmnZz79j7elcs5GE)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-crypto-api \

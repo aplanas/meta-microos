@@ -25,6 +25,7 @@ cmake(KF5KDELibs4Support) \
 kde4support-devel \
 kdelibs4support-devel \
 kdelibs4support-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Archive) \
 cmake(KF5Auth) \
 cmake(KF5ConfigWidgets) \

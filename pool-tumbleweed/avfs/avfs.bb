@@ -11,6 +11,7 @@ RPM_HASH = "b43ee290dc3ac379964e7f092fd71bf5b972b817e375e708f4c39c4b39467d62bb3c
 
 RPROVIDES:${PN} += "avfs \
 avfs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KPim5Itinerary) \
 cmake(KPimItinerary) \
 kitinerary-devel \
 kitinerary-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5CalendarCore) \
 cmake(KF5Contacts) \
 cmake(KF5Mime) \

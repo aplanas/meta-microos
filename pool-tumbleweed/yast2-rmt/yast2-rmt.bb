@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(rmt.desktop) \
 yast2-rmt \
 yast2-rmt(aarch-64)"
+
 RDEPENDS:${PN} += "rmt-server \
 yast2 \
 yast2-ruby-bindings"

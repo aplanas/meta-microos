@@ -14,6 +14,7 @@ RPM_HASH = "b5baff125847ea831da277affb120d2a454c4c8dcda3d10b732bc6a6d0f00fc681bf
 RPROVIDES:${PN} += "libsmpp34-1 \
 libsmpp34-1(aarch-64) \
 libsmpp34.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

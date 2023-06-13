@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(zwpagelayout.sty) \
 texlive-zwpagelayout"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

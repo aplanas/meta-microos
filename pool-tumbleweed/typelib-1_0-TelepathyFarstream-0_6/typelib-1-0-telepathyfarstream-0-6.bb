@@ -11,6 +11,7 @@ RPM_HASH = "87e6194a46dd573ba4be6f6f61ab438baddb005ca9395c0d05588ebfde0a8b687209
 RPROVIDES:${PN} += "typelib(TelepathyFarstream) \
 typelib-1_0-TelepathyFarstream-0_6 \
 typelib-1_0-TelepathyFarstream-0_6(aarch-64)"
+
 RDEPENDS:${PN} += "libtelepathy-farstream.so.3()(64bit) \
 typelib(Farstream) \
 typelib(GLib) \

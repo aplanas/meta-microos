@@ -29,6 +29,7 @@ RPM_HASH = "7d069ff031b5a720ca3d0ec48b5589037ee93f80be4027be703c320147f8abb8627a
 RPROVIDES:${PN} += "ghc-zip-archive \
 ghc-zip-archive(aarch-64) \
 libHSzip-archive-0.4.3-DcfDtoW5uCpFhVU7PDyRvn-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

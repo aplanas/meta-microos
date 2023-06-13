@@ -12,6 +12,7 @@ RPM_HASH = "093c6ea86c291ee53f3c5fefebb2523a4d3b79a391e2ef1eec74e441dcde3d66cff9
 RPROVIDES:${PN} += "libKF5Emoticons.so.5()(64bit) \
 libKF5Emoticons5 \
 libKF5Emoticons5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

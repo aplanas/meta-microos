@@ -12,6 +12,7 @@ RPM_HASH = "755a641b1996da622080bad28c1dcc94ecb12b8935d91628a32454041f76deaa5f49
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "djvulibre-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

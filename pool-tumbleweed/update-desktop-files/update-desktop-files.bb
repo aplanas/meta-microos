@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm_macro(suse_update_desktop_file) \
 update-desktop-files"
+
 RDEPENDS:${PN} += "/bin/bash \
 desktop-file-utils"
 

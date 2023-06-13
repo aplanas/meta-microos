@@ -10,6 +10,7 @@ RPM_HASH = "e2319b9d54964a42c6e45a22507ab2d65ab1fc49602598c2c2cf6488599a9950d644
 
 RPROVIDES:${PN} += "volk_modtool \
 volk_modtool(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

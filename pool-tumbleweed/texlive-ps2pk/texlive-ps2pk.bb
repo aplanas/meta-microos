@@ -16,6 +16,7 @@ man(pfb2pfa.1) \
 man(pk2bm.1) \
 man(ps2pk.1) \
 texlive-ps2pk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

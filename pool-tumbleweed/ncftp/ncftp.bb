@@ -13,6 +13,7 @@ RPM_HASH = "d4d33f26d2c46172366f0881ae33887c8f3f4aab804e807a7763f6aa32ab151b31c0
 
 RPROVIDES:${PN} += "ncftp \
 ncftp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

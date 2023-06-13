@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mock-open \
 python3.10dist(mock-open) \
 python310-mock-open \
 python3dist(mock-open)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

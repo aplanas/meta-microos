@@ -17,6 +17,7 @@ RPM_HASH = "f10d1de84bf9ccce69b95a9cbc662da92609e10059767c8a595bef9ac5d46dcc95e6
 RPROVIDES:${PN} += "miredo-common \
 miredo-common(aarch-64) \
 miredo-libs"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

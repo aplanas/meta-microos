@@ -10,6 +10,7 @@ RPM_HASH = "489e73f0489e2780adfa2177b4b25ac8612c0dfc6b607307cfa066da23cfc36c04c0
 RPROVIDES:${PN} += "Mesa-libOpenCL \
 Mesa-libOpenCL(aarch-64) \
 libMesaOpenCL.so.1()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.16()(64bit) \

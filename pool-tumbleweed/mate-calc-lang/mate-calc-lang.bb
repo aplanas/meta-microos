@@ -110,6 +110,7 @@ locale(mate-calc:zh_HK) \
 locale(mate-calc:zh_TW) \
 mate-calc-lang \
 mate-calc-lang-all"
+
 RDEPENDS:${PN} += "mate-calc"
 
 inherit rpm

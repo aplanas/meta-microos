@@ -109,6 +109,7 @@ locale(mate-system-monitor:zh_HK) \
 locale(mate-system-monitor:zh_TW) \
 mate-system-monitor-lang \
 mate-system-monitor-lang-all"
+
 RDEPENDS:${PN} += "mate-system-monitor"
 
 inherit rpm

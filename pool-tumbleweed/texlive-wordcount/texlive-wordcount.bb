@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(wordcount.tex) \
 texlive-wordcount"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

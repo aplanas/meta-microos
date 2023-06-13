@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mailmerge.sty) \
 texlive-mailmerge"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

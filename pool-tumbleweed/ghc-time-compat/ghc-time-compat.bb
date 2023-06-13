@@ -18,6 +18,7 @@ RPM_HASH = "13aaf90e4e8a483c620237bb80c7af952a2f206aa87d9aa71672af712593e9c4813d
 RPROVIDES:${PN} += "ghc-time-compat \
 ghc-time-compat(aarch-64) \
 libHStime-compat-1.9.6.1-2Pu0F2MmAuC1LEapOv1K82-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbase-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8-ghc9.4.5.so()(64bit) \

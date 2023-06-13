@@ -9,6 +9,7 @@ RPM_HASH = "f795b60cec06dc8515cd09b19475907c963ae2229fc7225c70c54be692eb6749efc8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mweights-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "akonadi-notes \
 libKPim5AkonadiNotes.so.5()(64bit) \
 libKPim5AkonadiNotes5 \
 libKPim5AkonadiNotes5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-CairoSVG \
 python3.10dist(cairosvg) \
 python310-CairoSVG \
 python3dist(cairosvg)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

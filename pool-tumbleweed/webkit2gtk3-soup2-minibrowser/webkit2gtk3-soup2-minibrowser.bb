@@ -9,6 +9,7 @@ RPM_HASH = "df38f8ab3f569d71382e83a4e29cc3fab28e11a6f7b38e49ae22bd0a52184b0dfccb
 
 RPROVIDES:${PN} += "webkit2gtk3-soup2-minibrowser \
 webkit2gtk3-soup2-minibrowser(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

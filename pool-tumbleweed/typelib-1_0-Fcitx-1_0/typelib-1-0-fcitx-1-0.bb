@@ -13,6 +13,7 @@ RPM_HASH = "7b3b7c3a8be77b1085b25e29e932c442214a488389e113aa86142e3d188a88011c80
 RPROVIDES:${PN} += "typelib(Fcitx) \
 typelib-1_0-Fcitx-1_0 \
 typelib-1_0-Fcitx-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libfcitx-gclient.so.1()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

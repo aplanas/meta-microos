@@ -17,6 +17,7 @@ libgrpc++_error_details.so.1.54()(64bit) \
 libgrpc++_reflection.so.1.54()(64bit) \
 libgrpc++_unsecure.so.1.54()(64bit) \
 libgrpcpp_channelz.so.1.54()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

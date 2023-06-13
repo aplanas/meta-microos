@@ -14,6 +14,7 @@ RPM_HASH = "be06d45c331ba17e980db4398a2d4bdf54c948b635b07a7cfeb4a389bc12f453abdd
 RPROVIDES:${PN} += "typelib(Grl) \
 typelib-1_0-Grl-0_3 \
 typelib-1_0-Grl-0_3(aarch-64)"
+
 RDEPENDS:${PN} += "libgrilo-0.3.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

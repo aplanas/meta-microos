@@ -10,6 +10,7 @@ RPM_HASH = "3c5e1bc8c486d5be708c880a63e2e6c5a79d39af6a1eb1988d943bb6bc0b51ca1978
 
 RPROVIDES:${PN} += "qt6-kmssupport-private-devel \
 qt6-kmssupport-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "qt6-kmssupport-devel-static"
 
 inherit rpm

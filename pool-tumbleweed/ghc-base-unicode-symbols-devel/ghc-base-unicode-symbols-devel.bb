@@ -11,6 +11,7 @@ RPM_HASH = "44149a04defa7e0f6047427867124168f6b61daf501952e739a9717b07dc30fb0ca7
 RPROVIDES:${PN} += "ghc-base-unicode-symbols-devel \
 ghc-base-unicode-symbols-devel(aarch-64) \
 ghc-devel(base-unicode-symbols-0.2.4.2-2uW4hd16ZmNBkWsH22htOC)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-base-unicode-symbols \
 ghc-compiler \

@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(easywatch) \
 python311-easywatch \
 python3dist(easywatch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-watchdog"
 

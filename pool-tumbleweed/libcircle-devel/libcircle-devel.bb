@@ -12,6 +12,7 @@ RPM_HASH = "63e0b233aa3926fac784313eee61d350c4120b0bc2e5a14f258ead676a6ae8738756
 RPROVIDES:${PN} += "libcircle-devel \
 libcircle-devel(aarch-64) \
 pkgconfig(libcircle)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcircle2"
 

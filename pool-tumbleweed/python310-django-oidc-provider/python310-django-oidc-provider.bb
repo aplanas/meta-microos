@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-oidc-provider \
 python3.10dist(django-oidc-provider) \
 python310-django-oidc-provider \
 python3dist(django-oidc-provider)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-pyjwkest"

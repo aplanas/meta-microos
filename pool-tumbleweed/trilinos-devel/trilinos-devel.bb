@@ -80,6 +80,7 @@ cmake(Zoltan) \
 cmake(Zoltan2Core) \
 trilinos-devel \
 trilinos-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/bash \

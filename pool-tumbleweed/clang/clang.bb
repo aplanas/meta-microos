@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "clang \
 clang(aarch-64) \
 llvm-clang \
 llvm-emacs-plugins"
+
 RDEPENDS:${PN} += "clang16"
 
 inherit rpm

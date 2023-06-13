@@ -9,6 +9,7 @@ RPM_HASH = "e38bf12afc1d7413b025a02a861aa14ea4cb0a4e007756a91ba2f095f05cee9a6c05
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gsequencer-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

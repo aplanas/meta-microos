@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinx-qt-documentation \
 python3.10dist(sphinx-qt-documentation) \
 python310-sphinx-qt-documentation \
 python3dist(sphinx-qt-documentation)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

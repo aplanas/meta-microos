@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "typelib(Anjuta) \
 typelib(IAnjuta) \
 typelib-1_0-Anjuta-3_0 \
 typelib-1_0-Anjuta-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libanjuta-3.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

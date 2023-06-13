@@ -13,6 +13,7 @@ RPM_HASH = "6a385306d4008ad9ce206f19b67b6d5bae97c27c27799de5f69ef224a5bb1caad0f0
 RPROVIDES:${PN} += "xautolck \
 xautolock \
 xautolock(aarch-64)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libXss.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

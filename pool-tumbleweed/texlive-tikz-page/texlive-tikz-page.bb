@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikz-page.sty) \
 texlive-tikz-page"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

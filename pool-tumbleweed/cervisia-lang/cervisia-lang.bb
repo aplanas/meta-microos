@@ -72,6 +72,7 @@ locale(cervisia:ug) \
 locale(cervisia:uk) \
 locale(cervisia:zh_CN) \
 locale(cervisia:zh_TW)"
+
 RDEPENDS:${PN} += "cervisia"
 
 inherit rpm

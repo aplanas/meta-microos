@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(LibsnoreQt5) \
 cmake(LibsnoreSettingsQt5) \
 snorenotify-qt5-devel \
 snorenotify-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "snorenotify-qt5"
 
 inherit rpm

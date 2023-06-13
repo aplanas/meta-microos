@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tinydb) \
 python311-tinydb \
 python3dist(tinydb)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

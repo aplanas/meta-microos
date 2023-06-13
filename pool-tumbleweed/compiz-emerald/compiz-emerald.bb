@@ -18,6 +18,7 @@ libpixmap.so()(64bit) \
 libtruglass.so()(64bit) \
 libvrunner.so()(64bit) \
 libzootreeves.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 compiz \
 ld-linux-aarch64.so.1()(64bit) \

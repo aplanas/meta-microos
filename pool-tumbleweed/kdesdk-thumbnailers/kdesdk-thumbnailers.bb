@@ -10,6 +10,7 @@ RPM_HASH = "233deff3db566796b3315a855038579161712826ff0de84e89b8c5c679e115835477
 
 RPROVIDES:${PN} += "kdesdk-thumbnailers \
 kdesdk-thumbnailers(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

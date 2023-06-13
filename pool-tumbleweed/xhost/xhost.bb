@@ -10,6 +10,7 @@ RPM_HASH = "377d53ee84e9f3a745024c66587a21c91af94c8e7348ff999bb7c57950924cc46b93
 
 RPROVIDES:${PN} += "xhost \
 xhost(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

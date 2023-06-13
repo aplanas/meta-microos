@@ -10,6 +10,7 @@ RPM_HASH = "e123ee807aff356d8be0f8f1c0347fbb304023d22d07d7b17172d12b7aaf259796fe
 
 RPROVIDES:${PN} += "libsamba-policy-devel \
 libsamba-policy-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsamba-policy-python3-devel"
 
 inherit rpm

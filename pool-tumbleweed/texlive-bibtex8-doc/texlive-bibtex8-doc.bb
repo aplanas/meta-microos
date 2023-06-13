@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(bibtex8.1) \
 texlive-bibtex8-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

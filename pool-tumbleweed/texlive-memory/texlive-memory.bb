@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(memory.sty) \
 texlive-memory"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPM_HASH = "33d77990e3fc94ba7d782be32b236d3109d8f74e329328d06fe835f584bc2072570a
 RPROVIDES:${PN} += "libjanet.so.1.28()(64bit) \
 libjanet1_28 \
 libjanet1_28(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

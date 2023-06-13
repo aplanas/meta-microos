@@ -26,6 +26,7 @@ python3.10dist(pyarrow) \
 python310-pyarrow \
 python310-pyarrow(aarch-64) \
 python3dist(pyarrow)"
+
 RDEPENDS:${PN} += "libarrow.so.1200()(64bit) \
 libarrow_acero.so.1200()(64bit) \
 libarrow_dataset.so.1200()(64bit) \

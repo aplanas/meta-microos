@@ -91,6 +91,7 @@ font(:lang=zu) \
 font(logix) \
 font(logixmono) \
 texlive-logix-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

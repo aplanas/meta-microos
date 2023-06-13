@@ -37,6 +37,7 @@ RPM_HASH = "f4c0fb043972601bcb93b111c0d1fee1dde73fc7a36cb1b7fa7806c1bda884e1bad9
 
 RPROVIDES:${PN} += "cabal-plan \
 cabal-plan(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \

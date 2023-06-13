@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "mingw64(lib:z) \
 mingw64(pkg:zlib) \
 mingw64(pkg:zlib-static) \
 mingw64-zlib-devel"
+
 RDEPENDS:${PN} += "mingw64-libz"
 
 inherit rpm

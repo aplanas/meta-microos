@@ -10,6 +10,7 @@ RPM_HASH = "15a25834bc4a0f63c4280fb015f3e0503c3bac17d160a234430cd963491732e4395a
 
 RPROVIDES:${PN} += "cscope \
 cscope(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

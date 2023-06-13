@@ -10,6 +10,7 @@ RPM_HASH = "332118c26f36eb7bdaa759e128aeecd5b59c6acabeaf30ac67f9a952fc51cd3f6dad
 RPROVIDES:${PN} += "libdvdnav-devel \
 libdvdnav-devel(aarch-64) \
 pkgconfig(dvdnav)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdvdnav4 \
 pkgconfig(dvdread)"

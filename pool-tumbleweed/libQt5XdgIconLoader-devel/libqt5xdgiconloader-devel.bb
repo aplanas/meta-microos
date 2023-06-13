@@ -12,6 +12,7 @@ libQt5XdgIconLoader-devel \
 libQt5XdgIconLoader-devel(aarch-64) \
 libQt5XdgIconPlugin.so()(64bit) \
 pkgconfig(Qt5XdgIconLoader)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \

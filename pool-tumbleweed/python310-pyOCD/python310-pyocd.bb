@@ -14,6 +14,7 @@ python3.10dist(pyocd) \
 python310-pyOCD \
 python310-pyocd \
 python3dist(pyocd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

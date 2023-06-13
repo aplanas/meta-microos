@@ -9,6 +9,7 @@ RPM_HASH = "2d7e7e780a5a6be02d1e0aefd033494170e2c7f1d1bf2edf90f956ab6ef717fe92f5
 
 RPROVIDES:${PN} += "libqt5-qtpdf-examples \
 libqt5-qtpdf-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

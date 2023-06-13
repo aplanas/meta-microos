@@ -10,6 +10,7 @@ RPM_HASH = "32f2cbeba31d8f2bb177b993f9979b1b62cabc083e78ae3d8e99c6af6098f94300a0
 
 RPROVIDES:${PN} += "ft2play \
 ft2play(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \

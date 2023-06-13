@@ -13,6 +13,7 @@ RPM_HASH = "c7316c1972510588ebb4692f79a72e6abf2bf1a794cb55b21a9a6a0065536c2da190
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libboost_stacktrace-devel"
+
 RDEPENDS:${PN} += "libboost_stacktrace1_82_0-devel"
 
 inherit rpm

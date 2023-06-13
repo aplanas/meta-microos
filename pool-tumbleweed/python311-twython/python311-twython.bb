@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(twython) \
 python311-twython \
 python3dist(twython)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests \
 python311-requests-oauthlib"

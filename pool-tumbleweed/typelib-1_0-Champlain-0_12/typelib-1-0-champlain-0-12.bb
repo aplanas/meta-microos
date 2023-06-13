@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "typelib(Champlain) \
 typelib(GtkChamplain) \
 typelib-1_0-Champlain-0_12 \
 typelib-1_0-Champlain-0_12(aarch-64)"
+
 RDEPENDS:${PN} += "libchamplain-0.12.so.0()(64bit) \
 libchamplain-gtk-0.12.so.0()(64bit) \
 typelib(Atk) \

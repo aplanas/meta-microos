@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(scp) \
 python311-scp \
 python3dist(scp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-paramiko"
 

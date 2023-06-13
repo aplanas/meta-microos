@@ -16,6 +16,7 @@ RPM_HASH = "8a2b756e8190280ac49681b9750ea5335c9626b9181e199ddd4d5c64d54d853c92dc
 RPROVIDES:${PN} += "libaria2-0 \
 libaria2-0(aarch-64) \
 libaria2.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

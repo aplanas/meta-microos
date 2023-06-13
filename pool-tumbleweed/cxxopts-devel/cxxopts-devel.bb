@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(cxxopts) \
 cxxopts-devel \
 cxxopts-devel(aarch-64) \
 pkgconfig(cxxopts)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libstdc++-devel"
 

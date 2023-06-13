@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyRFC3339 \
 python3.10dist(pyrfc3339) \
 python310-pyRFC3339 \
 python3dist(pyrfc3339)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytz"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "httpcomponents-client-cache \
 mvn(org.apache.httpcomponents:httpclient-cache) \
 mvn(org.apache.httpcomponents:httpclient-cache:pom:) \
 osgi(org.apache.httpcomponents.httpclient-cache)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-logging:commons-logging) \

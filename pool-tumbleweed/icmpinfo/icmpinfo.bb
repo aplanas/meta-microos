@@ -9,6 +9,7 @@ RPM_HASH = "8eb81d71b76467f683a2bd1ea5ef598d5754dbb782b1fc017409fe82a53e60e59c19
 
 RPROVIDES:${PN} += "icmpinfo \
 icmpinfo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

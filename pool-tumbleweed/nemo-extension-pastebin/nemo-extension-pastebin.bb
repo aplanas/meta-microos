@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "nemo-extension-pastebin \
 nemo-pastebin \
 python3.10dist(nemo-pastebin) \
 python3dist(nemo-pastebin)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 nemo \
 python3-gobject \

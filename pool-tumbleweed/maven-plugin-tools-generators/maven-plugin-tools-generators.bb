@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-plugin-tools-generators \
 mvn(org.apache.maven.plugin-tools:maven-plugin-tools-generators) \
 mvn(org.apache.maven.plugin-tools:maven-plugin-tools-generators:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(net.sf.jtidy:jtidy) \

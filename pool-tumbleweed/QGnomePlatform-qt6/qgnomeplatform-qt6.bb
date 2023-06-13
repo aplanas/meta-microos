@@ -14,6 +14,7 @@ QGnomePlatform-qt6(aarch-64) \
 libqgnomeplatform6.so()(64bit) \
 libqgnomeplatformdecoration.so()(64bit) \
 libqgnomeplatformtheme.so()(64bit)"
+
 RDEPENDS:${PN} += "QGnomePlatform-colorschemes \
 adwaita-qt6 \
 ld-linux-aarch64.so.1()(64bit) \

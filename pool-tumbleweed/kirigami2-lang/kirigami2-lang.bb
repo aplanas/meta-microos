@@ -56,6 +56,7 @@ locale(kirigami2:tr) \
 locale(kirigami2:uk) \
 locale(kirigami2:zh_CN) \
 locale(kirigami2:zh_TW)"
+
 RDEPENDS:${PN} += "kirigami2"
 
 inherit rpm

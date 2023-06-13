@@ -13,6 +13,7 @@ RPM_HASH = "ab8d58806935c148a342e82c75852b222b25f22edc49a97c174d029c0f382958d6b1
 RPROVIDES:${PN} += "libosmonetif-devel \
 libosmonetif-devel(aarch-64) \
 pkgconfig(libosmo-netif)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmonetif11"
 

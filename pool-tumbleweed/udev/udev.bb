@@ -21,6 +21,7 @@ libcryptsetup-token-systemd-tpm2.so(CRYPTSETUP_TOKEN_1.0)(64bit) \
 pkgconfig(udev) \
 udev \
 udev(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 coreutils \

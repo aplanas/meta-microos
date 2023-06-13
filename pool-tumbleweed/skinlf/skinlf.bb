@@ -15,6 +15,7 @@ RPM_HASH = "0de83a9e025d8b9394333c79a9e54a18aab34d92809c18754e35be0a3d21d3db5604
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skinlf"
+
 RDEPENDS:${PN} += "java \
 jpackage-utils \
 laf-plugin \

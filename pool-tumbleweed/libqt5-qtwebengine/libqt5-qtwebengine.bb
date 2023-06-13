@@ -80,6 +80,7 @@ libqt5-qtwebengine(aarch-64) \
 libqtwebengineplugin.so()(64bit) \
 qt5qmlimport(QtWebEngine.1) \
 qt5qmlimport(QtWebEngine.Controls1Delegates.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

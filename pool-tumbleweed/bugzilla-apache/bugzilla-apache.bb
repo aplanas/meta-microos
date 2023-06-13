@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bugzilla-apache \
 config(bugzilla-apache)"
+
 RDEPENDS:${PN} += "apache2 \
 apache2-mod_perl"
 

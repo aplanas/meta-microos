@@ -9,6 +9,7 @@ RPM_HASH = "75ddaefb5f033f6f458b483a608f5d32a788697f4ffb0d2182f95fb88ab502dc75f9
 
 RPROVIDES:${PN} += "cmus-plugin-mpc \
 cmus-plugin-mpc(aarch-64)"
+
 RDEPENDS:${PN} += "cmus \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

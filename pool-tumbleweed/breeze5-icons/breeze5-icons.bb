@@ -9,6 +9,7 @@ RPM_HASH = "0f8d9afe698bae87512b70b65b54dff710eee812c00e55cec1e2bb867be6c6d0c838
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "breeze5-icons"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

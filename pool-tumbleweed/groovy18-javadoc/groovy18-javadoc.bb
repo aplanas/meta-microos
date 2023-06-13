@@ -9,6 +9,7 @@ RPM_HASH = "a23468cfad16a3c1796e92272772ec70d0ebf4b9b030d34bab60ad4b3d40e4ddcac5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "groovy18-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

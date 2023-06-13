@@ -9,6 +9,7 @@ RPM_HASH = "9240e147750c202680c775b6479dd89c4caf381cf87a1253805ecb34a90d8f58a87a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javacc-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

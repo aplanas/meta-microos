@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(robot-detection) \
 python311-robot-detection \
 python3dist(robot-detection)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

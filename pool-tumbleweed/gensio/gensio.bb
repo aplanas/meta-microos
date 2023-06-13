@@ -17,6 +17,7 @@ RPM_HASH = "22af987659467797194af80b2844f0f98b0508819699432a1055925df9ae449a690d
 
 RPROVIDES:${PN} += "gensio \
 gensio(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

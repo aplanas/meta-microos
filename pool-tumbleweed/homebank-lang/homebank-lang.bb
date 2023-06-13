@@ -65,6 +65,7 @@ locale(homebank:uk) \
 locale(homebank:vi) \
 locale(homebank:zh_CN) \
 locale(homebank:zh_TW)"
+
 RDEPENDS:${PN} += "homebank"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(cattrs) \
 python311-cattrs \
 python3dist(cattrs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-attrs"
 

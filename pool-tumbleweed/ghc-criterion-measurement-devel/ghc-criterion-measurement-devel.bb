@@ -11,6 +11,7 @@ RPM_HASH = "8f84c9a2c576992bd306bbd63957f0667ab67aa4b1c63b4164f6e1478ceb9744f206
 RPROVIDES:${PN} += "ghc-criterion-measurement-devel \
 ghc-criterion-measurement-devel(aarch-64) \
 ghc-devel(criterion-measurement-0.2.1.0-87nlGOXoqxrBN5mUt0bPv1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-criterion-measurement \

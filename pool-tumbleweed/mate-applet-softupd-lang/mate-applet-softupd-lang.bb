@@ -17,6 +17,7 @@ locale(mate-applet-softupd:ru_RU) \
 locale(mate-applet-softupd:zh_CN) \
 mate-applet-softupd-lang \
 mate-applet-softupd-lang-all"
+
 RDEPENDS:${PN} += "mate-applet-softupd"
 
 inherit rpm

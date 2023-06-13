@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "Mesa-libGLU-devel \
 glu-devel \
 glu-devel(aarch-64) \
 pkgconfig(glu)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libGLU1 \
 pkgconfig(gl)"

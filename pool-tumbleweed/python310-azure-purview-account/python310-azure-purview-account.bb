@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-azure-purview-account \
 python3.10dist(azure-purview-account) \
 python310-azure-purview-account \
 python3dist(azure-purview-account)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

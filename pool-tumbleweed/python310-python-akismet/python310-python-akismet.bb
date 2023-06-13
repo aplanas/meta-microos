@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-akismet \
 python3.10dist(python-akismet) \
 python310-python-akismet \
 python3dist(python-akismet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

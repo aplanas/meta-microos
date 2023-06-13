@@ -72,6 +72,7 @@ locale(gnome-photos:vi) \
 locale(gnome-photos:zh_CN) \
 locale(gnome-photos:zh_HK) \
 locale(gnome-photos:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-photos"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "d71237cd614a076498d310094de5aa716250c9cfb01f01b8a7b2c81bdc1caef04de4
 
 RPROVIDES:${PN} += "pcp-pmda-roomtemp \
 pcp-pmda-roomtemp(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

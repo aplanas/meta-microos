@@ -9,6 +9,7 @@ RPM_HASH = "c18060944ea97b23cbdbd9ede65dd9ac47c7564adb00f60818154c3e84c93f49f6b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rabbitmq-server-zsh-completion"
+
 RDEPENDS:${PN} += "rabbitmq-server \
 zsh"
 

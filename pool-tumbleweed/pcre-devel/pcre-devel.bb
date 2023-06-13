@@ -15,6 +15,7 @@ pkgconfig(libpcre) \
 pkgconfig(libpcre16) \
 pkgconfig(libpcrecpp) \
 pkgconfig(libpcreposix)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libpcre1 \

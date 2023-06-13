@@ -10,6 +10,7 @@ RPM_HASH = "d47f79b62b7066c2d1efa568d8f8b9917c5ebfe8abd13bad50f0f8489b362edfe2a6
 RPROVIDES:${PN} += "python3-libfmos \
 python310-libfmos \
 python310-libfmos(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

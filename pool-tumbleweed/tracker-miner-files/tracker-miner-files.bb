@@ -12,6 +12,7 @@ RPM_HASH = "18e71b444a5c9f0017978cf1dea811a11a7df11b9dcc5c2ac1d9028ea9f43794750b
 
 RPROVIDES:${PN} += "tracker-miner-files \
 tracker-miner-files(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \

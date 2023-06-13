@@ -13,6 +13,7 @@ RPM_HASH = "ad2403d019e214af58380ec0a650c8d5bff4aa97669bf3eb7d72ff83b67c6769661f
 RPROVIDES:${PN} += "libsundials_arkode.so.5()(64bit) \
 libsundials_arkode5-openmpi4 \
 libsundials_arkode5-openmpi4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

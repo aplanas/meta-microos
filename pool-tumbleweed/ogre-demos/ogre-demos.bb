@@ -11,6 +11,7 @@ RPM_HASH = "58ca4edf74049adeb609dfcfd2ae47bd4189669535ec1350e3305d735eb8fd87f053
 
 RPROVIDES:${PN} += "ogre-demos \
 ogre-demos(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOgreBites.so.13.5()(64bit) \

@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-diffraction.sty) \
 tex(pst-diffraction.tex) \
 texlive-pst-diffraction"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

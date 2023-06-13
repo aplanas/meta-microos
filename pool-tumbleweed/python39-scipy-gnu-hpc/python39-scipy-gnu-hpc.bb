@@ -11,6 +11,7 @@ RPM_HASH = "eb8752461a08795d634e6fe18ae1008ca9d6362944f18b24741f9f6886fd46215d9a
 
 RPROVIDES:${PN} += "python39-scipy-gnu-hpc \
 python39-scipy-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python39-scipy_1_10_1-gnu-hpc"
 

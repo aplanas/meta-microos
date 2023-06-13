@@ -13,6 +13,7 @@ RPM_HASH = "87b7bbbfa9b37c7a98e0974dc627738d6281b6afcd5bebcbe441de41df040bfa06b9
 
 RPROVIDES:${PN} += "fence-agents \
 fence-agents(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

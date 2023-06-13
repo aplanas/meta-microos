@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-mathfilters \
 python3.10dist(django-mathfilters) \
 python310-django-mathfilters \
 python3dist(django-mathfilters)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

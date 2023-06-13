@@ -9,6 +9,7 @@ RPM_HASH = "4af1aae537acb5da9096d2b02ea80094def36ef85011eb5304109f1ca8ee96b785b5
 
 RPROVIDES:${PN} += "pg_comparator \
 pg_comparator(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 libc.so.6(GLIBC_2.17)(64bit) \
 perl \

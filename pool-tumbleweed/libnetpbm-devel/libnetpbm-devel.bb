@@ -11,6 +11,7 @@ RPM_HASH = "b9e16bb05f56be499cfd5010caa7a2cc28055f58f8ca4f1fe23b4f1257ceab2e39b6
 
 RPROVIDES:${PN} += "libnetpbm-devel \
 libnetpbm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libnetpbm11"
 
 inherit rpm

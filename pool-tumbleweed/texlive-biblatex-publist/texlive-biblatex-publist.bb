@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(publist.bbx) \
 tex(publist.cbx) \
 texlive-biblatex-publist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

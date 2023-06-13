@@ -14,6 +14,7 @@ application(org.opensuse.yast.Journal.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.Journal.metainfo.xml) \
 yast2-journal"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-ruby-bindings"
 

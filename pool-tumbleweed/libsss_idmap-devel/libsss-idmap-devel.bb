@@ -10,6 +10,7 @@ RPM_HASH = "2f1f55803f75c22d1f37f0f6f580a87edcd84c9789fd23d983bfc5a319642e17ed36
 RPROVIDES:${PN} += "libsss_idmap-devel \
 libsss_idmap-devel(aarch-64) \
 pkgconfig(sss_idmap)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsss_idmap0"
 

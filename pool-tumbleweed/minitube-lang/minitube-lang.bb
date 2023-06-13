@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "minitube-lang \
 minitube-lang-all"
+
 RDEPENDS:${PN} += "minitube"
 
 inherit rpm

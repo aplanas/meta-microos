@@ -11,6 +11,7 @@ RPM_HASH = "1adabd601059a59969c5b633fd10cd8b69f95f9c60f05eb3c0e7151d7a1899ee1dda
 RPROVIDES:${PN} += "libxclass-0_9_2 \
 libxclass-0_9_2(aarch-64) \
 libxclass.so.0.9.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

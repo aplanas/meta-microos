@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-getting-started-docs-lang \
 gnome-getting-started-docs-lang-all"
+
 RDEPENDS:${PN} += "gnome-getting-started-docs"
 
 inherit rpm

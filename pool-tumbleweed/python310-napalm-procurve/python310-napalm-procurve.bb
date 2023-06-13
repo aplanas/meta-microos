@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-napalm-procurve \
 python3.10dist(napalm-procurve) \
 python310-napalm-procurve \
 python3dist(napalm-procurve)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-napalm \
 python310-netmiko"

@@ -12,6 +12,7 @@ RPM_HASH = "e3efcf411ffb04012a9c9bd9a4f2f0f5422ef1a1be99fe97e0f6aa250e704b236bfe
 
 RPROVIDES:${PN} += "fondu \
 fondu(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

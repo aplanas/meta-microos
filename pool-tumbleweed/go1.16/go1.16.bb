@@ -19,6 +19,7 @@ go1.16 \
 go1.16(aarch-64) \
 golang(API) \
 libstd.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

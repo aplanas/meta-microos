@@ -9,6 +9,7 @@ RPM_HASH = "a464507c4638b0ddf512bfd7ba6f85bb2bbefb06f08f755fd7f5080ebf9e123f0a55
 
 RPROVIDES:${PN} += "libvma-devel \
 libvma-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libvma9"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "ad17bc55393a431ebe663e10f8a0453db7f33c298785ee9b4521f35b4f9df79b097c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipysheet"
+
 RDEPENDS:${PN} += "(jupyter-ipywidgets >= 7.5.0 with jupyter-ipywidgets < 9) \
 (jupyter-jupyterlab or jupyter-notebook) \
 python3-ipysheet"

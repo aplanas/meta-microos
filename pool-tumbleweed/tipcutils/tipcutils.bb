@@ -15,6 +15,7 @@ RPM_HASH = "fab3c4a2fa41f2f48a5451cea2f49384b92201a00aff5cf5f616ad2274170b7a1368
 
 RPROVIDES:${PN} += "tipcutils \
 tipcutils(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

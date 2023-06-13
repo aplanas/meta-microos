@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:ice_nine) \
 rubygem(ruby:3.2.0:ice_nine:0) \
 rubygem(ruby:3.2.0:ice_nine:0.11) \
 rubygem(ruby:3.2.0:ice_nine:0.11.2)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ruby(abi)"
 

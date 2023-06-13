@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lengthconvert.sty) \
 texlive-lengthconvert"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

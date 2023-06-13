@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "google-noto-serif-kr-fonts \
 locale(ko) \
 noto-serif-kr-fonts \
 scalable-font-ko"
+
 RDEPENDS:${PN} += "google-noto-serif-kr-bold-fonts \
 google-noto-serif-kr-regular-fonts"
 

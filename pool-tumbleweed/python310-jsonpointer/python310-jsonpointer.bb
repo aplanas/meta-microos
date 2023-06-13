@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jsonpointer \
 python3.10dist(jsonpointer) \
 python310-jsonpointer \
 python3dist(jsonpointer)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

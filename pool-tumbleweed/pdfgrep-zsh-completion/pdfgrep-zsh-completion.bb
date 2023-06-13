@@ -9,6 +9,7 @@ RPM_HASH = "48ea8ce88397c0221358258e594bad527cd8308d8d463b221a129ad06d0b26310bd4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pdfgrep-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

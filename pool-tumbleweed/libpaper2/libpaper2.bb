@@ -10,6 +10,7 @@ RPM_HASH = "73d1d9dac577ffdcd56f6ed2e92da09a725265c7705a74b554ccac2295a4433ec424
 RPROVIDES:${PN} += "libpaper.so.2()(64bit) \
 libpaper2 \
 libpaper2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

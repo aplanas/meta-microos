@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.11dist(xarray) \
 python311-xarray \
 python311-xray \
 python3dist(xarray)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-numpy \
 python311-packaging \

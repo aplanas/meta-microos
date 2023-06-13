@@ -10,6 +10,7 @@ RPM_HASH = "7fcc4eb3664077563876d0762766470fdfc7c522ebbbc39d1e916e4979f58675bb2c
 
 RPROVIDES:${PN} += "xylib-devel \
 xylib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libxy3"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "300726f7ff1c1513b055672baefce1b260570bbfd6ab51340a8ebad38fd1a99a4007
 
 RPROVIDES:${PN} += "qxmledit-devel \
 qxmledit-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libqxmledit-0_9_17-0"
 
 inherit rpm

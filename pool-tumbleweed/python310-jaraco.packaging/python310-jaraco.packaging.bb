@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jaraco.packaging \
 python3.10dist(jaraco.packaging) \
 python310-jaraco.packaging \
 python3dist(jaraco.packaging)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-build \
 python310-jaraco.context \

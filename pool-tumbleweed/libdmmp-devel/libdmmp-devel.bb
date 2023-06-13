@@ -10,6 +10,7 @@ RPM_HASH = "031ded947139487d7fe4ce7ff11b2bf125f2f17c01cb860a74daf4c6075dbc8a372e
 RPROVIDES:${PN} += "libdmmp-devel \
 libdmmp-devel(aarch-64) \
 pkgconfig(libdmmp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdmmp0_2_0"
 

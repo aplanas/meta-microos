@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(asdf-coordinates-schemas) \
 python39-asdf-coordinates-schemas \
 python3dist(asdf-coordinates-schemas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-asdf"
 

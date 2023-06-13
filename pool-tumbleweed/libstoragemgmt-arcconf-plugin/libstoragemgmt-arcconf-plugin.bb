@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(libstoragemgmt-arcconf-plugin) \
 libstoragemgmt-arcconf-plugin"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

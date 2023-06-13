@@ -13,6 +13,7 @@ man(kpsereadlink.1) \
 man(kpsestat.1) \
 man(kpsewhich.1) \
 texlive-kpathsea-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -13,6 +13,7 @@ libfolks-dummy.so.26()(64bit) \
 libfolks.so.26()(64bit) \
 libfolks26 \
 libfolks26(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 folks-data \
 ld-linux-aarch64.so.1()(64bit) \

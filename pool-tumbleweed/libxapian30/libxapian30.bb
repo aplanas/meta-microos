@@ -12,6 +12,7 @@ RPM_HASH = "c6d5f379e827c6a80e42a36e8f494f155afb204086d72b7022b8dee1fc4627e22695
 RPROVIDES:${PN} += "libxapian.so.30()(64bit) \
 libxapian30 \
 libxapian30(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

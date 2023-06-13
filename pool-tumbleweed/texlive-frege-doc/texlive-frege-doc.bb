@@ -9,6 +9,7 @@ RPM_HASH = "822c68527551da1be64267fd4f8a40575a0d7f35152f0d3c255a150dab6ea6278221
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-frege-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

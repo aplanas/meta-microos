@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group(libvirt) \
 system-group-libvirt"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

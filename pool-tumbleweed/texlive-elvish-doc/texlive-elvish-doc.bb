@@ -9,6 +9,7 @@ RPM_HASH = "1b0b30ec2250abbec52999e895f5ad46e3f50e63ecf37fc7de8c4e4f71d9565e93a5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-elvish-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

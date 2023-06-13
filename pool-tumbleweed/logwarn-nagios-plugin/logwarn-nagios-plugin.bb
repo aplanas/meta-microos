@@ -14,6 +14,7 @@ RPM_HASH = "c12adfc86ea06d1b92c9178a2211d53ca8d77d36f27940f59c91662109571fc1df1c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "logwarn-nagios-plugin"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 bash \
 logwarn"

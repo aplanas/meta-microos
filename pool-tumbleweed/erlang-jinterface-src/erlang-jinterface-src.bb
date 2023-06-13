@@ -11,6 +11,7 @@ RPM_HASH = "041ff628fab574d16b226bcfa9eb0f847bcbb7dfef7c11ec63fc9e31957933ef1d0a
 
 RPROVIDES:${PN} += "erlang-jinterface-src \
 erlang-jinterface-src(aarch-64)"
+
 RDEPENDS:${PN} += "erlang-jinterface"
 
 inherit rpm

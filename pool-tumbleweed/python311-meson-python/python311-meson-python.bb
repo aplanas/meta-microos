@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(meson-python) \
 python311-meson-python \
 python3dist(meson-python)"
+
 RDEPENDS:${PN} += "meson \
 python(abi) \
 python311-pyproject-metadata"

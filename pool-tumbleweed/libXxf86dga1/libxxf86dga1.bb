@@ -13,6 +13,7 @@ RPM_HASH = "7d2f688832cd1a161a0648d7b4f18273a2aa3d3426ab837cec623bd521cb51e4f001
 RPROVIDES:${PN} += "libXxf86dga.so.1()(64bit) \
 libXxf86dga1 \
 libXxf86dga1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

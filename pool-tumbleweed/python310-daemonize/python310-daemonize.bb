@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-daemonize \
 python3.10dist(daemonize) \
 python310-daemonize \
 python3dist(daemonize)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

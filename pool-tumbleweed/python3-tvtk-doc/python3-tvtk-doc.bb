@@ -9,6 +9,7 @@ RPM_HASH = "51c9a643c1802174d7117362fdefb8de406c7dca3ad43c07392ee699a84993f6f5ff
 
 RPROVIDES:${PN} += "python3-tvtk-doc \
 python3-tvtk-doc(aarch-64)"
+
 RDEPENDS:${PN} += "python3-tvtk"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "3fec165af9ca1fa1d270b67aa3071f2d5b607641a3f48c925fe208e8092f1ae9b4d6
 RPROVIDES:${PN} += "cv \
 progress \
 progress(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:ruby-libvirt) \
 rubygem(ruby:3.2.0:ruby-libvirt:0) \
 rubygem(ruby:3.2.0:ruby-libvirt:0.8) \
 rubygem(ruby:3.2.0:ruby-libvirt:0.8.0)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

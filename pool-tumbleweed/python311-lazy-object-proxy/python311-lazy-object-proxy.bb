@@ -13,6 +13,7 @@ python311-lazy-object-proxy \
 python311-lazy-object-proxy(aarch-64) \
 python311-lazy_object_proxy \
 python3dist(lazy-object-proxy)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

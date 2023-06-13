@@ -12,6 +12,7 @@ RPM_HASH = "50327e6ff0e9d64051433c94b36ae5935b6dab43a74deda826e5bf0464b50b0aae71
 RPROVIDES:${PN} += "libspice-server-devel \
 libspice-server-devel(aarch-64) \
 pkgconfig(spice-server)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspice-server1 \
 pkgconfig(glib-2.0) \

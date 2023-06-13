@@ -9,6 +9,7 @@ RPM_HASH = "dc66fb23821aa26e6608fdb0021df1dd049f524d1cc450fcc8c69f533e20986e87aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pdnsd-doc"
+
 RDEPENDS:${PN} += "pdnsd"
 
 inherit rpm

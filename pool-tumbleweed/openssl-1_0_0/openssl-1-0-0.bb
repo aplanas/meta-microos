@@ -15,6 +15,7 @@ openssl(cli) \
 openssl-1_0_0 \
 openssl-1_0_0(aarch-64) \
 ssl"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "52d6e3ba0c872f9984f5eea5fd65cf0c564a6a207c788b1e73400138b4ba1874d2f9
 RPROVIDES:${PN} += "liblirc_driver.so.0()(64bit) \
 liblirc_driver0 \
 liblirc_driver0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

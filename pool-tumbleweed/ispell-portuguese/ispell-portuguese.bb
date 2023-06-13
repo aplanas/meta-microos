@@ -15,6 +15,7 @@ ispell-portuguese \
 ispell-portuguese(aarch-64) \
 ispell_dictionary \
 locale(ispell:pt;pt_PT)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

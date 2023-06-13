@@ -9,6 +9,7 @@ RPM_HASH = "9122724c0e3f672f453cf2df2970b94261597ad3021dea3996ceb40fc23ad199eb19
 
 RPROVIDES:${PN} += "qt6-remoteobjects-tools \
 qt6-remoteobjects-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(openapi-codec) \
 python39-openapi-codec \
 python3dist(openapi-codec)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-coreapi"
 

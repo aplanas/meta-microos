@@ -9,6 +9,7 @@ RPM_HASH = "e42e60e53c1274eeba839351620752cd3e23bf8fc4983264085de138ad3ce1de6ad4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-galois-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

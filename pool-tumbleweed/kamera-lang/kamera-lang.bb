@@ -78,6 +78,7 @@ locale(kamera:vi) \
 locale(kamera:zh_CN) \
 locale(kamera:zh_HK) \
 locale(kamera:zh_TW)"
+
 RDEPENDS:${PN} += "kamera"
 
 inherit rpm

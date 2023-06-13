@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-coreapi-cli \
 python3.10dist(coreapi-cli) \
 python310-coreapi-cli \
 python3dist(coreapi-cli)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

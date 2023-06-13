@@ -16,6 +16,7 @@ RPM_HASH = "e6fbe0b912026c07b87f7d4b4b3433a24f4efc428f9bb7c864eb8446a24156deff00
 
 RPROVIDES:${PN} += "lzop \
 lzop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

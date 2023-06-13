@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(samplerate) \
 python311-samplerate \
 python3dist(samplerate)"
+
 RDEPENDS:${PN} += "libsamplerate \
 python(abi) \
 python311-cffi \

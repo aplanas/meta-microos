@@ -9,6 +9,7 @@ RPM_HASH = "0093c65494158606c35ce6bdc58692a0ae671a228afc663cfa3c37d76da566d131a8
 
 RPROVIDES:${PN} += "libbobcat-light-devel-static \
 libbobcat-light-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

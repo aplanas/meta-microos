@@ -10,6 +10,7 @@ RPM_HASH = "dca16208f8b175befde6ef08a4e3bcd284341c183bce2764e1ca354e69832721a37c
 RPROVIDES:${PN} += "leechcraft-azoth-metacontacts \
 leechcraft-azoth-metacontacts(aarch-64) \
 libleechcraft_azoth_metacontacts.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-azoth \

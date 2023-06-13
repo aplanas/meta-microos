@@ -11,6 +11,7 @@ RPM_HASH = "9caaf249b9fdfa9430559adbd8e06289d14a1acea20113569ef55814d8c6652521ca
 RPROVIDES:${PN} += "libbliss.so.0.77()(64bit) \
 libbliss0_77 \
 libbliss0_77(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

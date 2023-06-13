@@ -16,6 +16,7 @@ RPM_HASH = "27ecb34a8fe02c2140fdeffda410ae5523bf33f923433ae067df85d88e585f814d38
 RPROVIDES:${PN} += "pkgconfig(pnetcdf) \
 pnetcdf_1_12_3-gnu-mvapich2-hpc-devel \
 pnetcdf_1_12_3-gnu-mvapich2-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \

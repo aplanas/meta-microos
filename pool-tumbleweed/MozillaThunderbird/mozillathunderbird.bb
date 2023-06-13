@@ -22,6 +22,7 @@ metainfo(thunderbird.appdata.xml) \
 mimehandler(x-scheme-handler/mailto) \
 mozilla-kde4-version \
 thunderbird"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 desktop-file-utils \

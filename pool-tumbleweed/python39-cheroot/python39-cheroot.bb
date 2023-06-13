@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(cheroot) \
 python39-Cheroot \
 python39-cheroot \
 python3dist(cheroot)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

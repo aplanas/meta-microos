@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libkdc.so.2()(64bit) \
 libkdc.so.2(HEIMDAL_KDC_1.0)(64bit) \
 libkdc2 \
 libkdc2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

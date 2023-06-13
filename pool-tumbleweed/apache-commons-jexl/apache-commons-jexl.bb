@@ -27,6 +27,7 @@ mvn(org.apache.commons:commons-jexl-compat:pom:) \
 mvn(org.apache.commons:commons-jexl:pom:) \
 osgi(org.apache.commons.commons-jexl) \
 osgi(org.apache.commons.commons-jexl-compat)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-logging:commons-logging)"

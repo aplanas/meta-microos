@@ -29,6 +29,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ipyvolume) \
 python39-ipyvolume \
 python3dist(ipyvolume)"
+
 RDEPENDS:${PN} += "jupyter-ipyvolume \
 python(abi) \
 python39-Pillow \

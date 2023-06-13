@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libbcc.so.0()(64bit) \
 libbcc0 \
 libbcc0(aarch-64) \
 libbcc_bpf.so.0()(64bit)"
+
 RDEPENDS:${PN} += "(kernel-debug-devel if kernel-debug) \
 (kernel-default-devel if (kernel-default or kernel-default-base)) \
 (kernel-kvmsmall-devel if kernel-kvmsmall) \

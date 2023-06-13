@@ -9,6 +9,7 @@ RPM_HASH = "5757f79ca23cbf707a5bf1db54b8db54137ef539daf8117165309c786d48a8fd715a
 
 RPROVIDES:${PN} += "texlive-metafont-bin \
 texlive-metafont-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

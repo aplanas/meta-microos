@@ -12,6 +12,7 @@ RPM_HASH = "70035d593d6ff3e5d1cbfe3dcd33e991165bb10b9c6a99b2188fc17d0f1376213e5b
 
 RPROVIDES:${PN} += "flom-devel \
 flom-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libflom0"
 
 inherit rpm

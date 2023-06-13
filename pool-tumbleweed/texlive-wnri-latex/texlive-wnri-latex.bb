@@ -14,6 +14,7 @@ tex(ot1wntt.fd) \
 tex(wnri.def) \
 tex(wnri.sty) \
 texlive-wnri-latex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

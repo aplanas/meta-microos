@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(com.webguys:string-template-maven-plugin) \
 mvn(com.webguys:string-template-maven-plugin:pom:) \
 string-template-maven-plugin"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.antlr:ST4) \

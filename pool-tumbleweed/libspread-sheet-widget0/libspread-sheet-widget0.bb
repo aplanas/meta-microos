@@ -19,6 +19,7 @@ RPM_HASH = "e68ce9a92a263439faa2f8942fc0269e7aa0569e661b93f66e4a47c13fc5da46ead7
 RPROVIDES:${PN} += "libspread-sheet-widget.so.0()(64bit) \
 libspread-sheet-widget0 \
 libspread-sheet-widget0(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

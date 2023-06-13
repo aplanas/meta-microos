@@ -17,6 +17,7 @@ RPM_HASH = "ddd5946fda8b51e3c0de3be9ef1f26172721ff4358bc8f31b6a9441db41183d7a3ab
 RPROVIDES:${PN} += "libEMF-utils \
 libEMF-utils(aarch-64) \
 libEMF:/usr/bin/printemf"
+
 RDEPENDS:${PN} += "libEMF.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"
 

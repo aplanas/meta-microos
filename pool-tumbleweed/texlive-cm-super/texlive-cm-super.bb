@@ -27,6 +27,7 @@ tex(cm-super-x2.enc) \
 tex(cm-super-x2.map) \
 tex(type1ec.sty) \
 texlive-cm-super"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

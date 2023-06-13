@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(gocr.desktop) \
 gocr-gui"
+
 RDEPENDS:${PN} += "/bin/sh \
 gocr \
 tk"

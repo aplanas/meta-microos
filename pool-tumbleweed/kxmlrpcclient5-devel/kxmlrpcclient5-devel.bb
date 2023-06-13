@@ -10,6 +10,7 @@ RPM_HASH = "df0fd32bead9f313c2039fc5e3fe69a804fee2ff5d721447cfc804e6e4a9efec4923
 RPROVIDES:${PN} += "cmake(KF5XmlRpcClient) \
 kxmlrpcclient5-devel \
 kxmlrpcclient5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5KIO) \
 libKF5XmlRpcClient5"
 

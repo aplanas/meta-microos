@@ -15,6 +15,7 @@ RPM_HASH = "8e1d496b5bb9188912966ef8af74a37056d8a316a8d3c5c9d96ab5e17a85ab853ca9
 
 RPROVIDES:${PN} += "ColPack-devel \
 ColPack-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libColPack0"
 
 inherit rpm

@@ -15,6 +15,7 @@ font(skaknew-diagramt) \
 font(skaknew-figurine) \
 font(skaknewfigurine) \
 texlive-skaknew-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

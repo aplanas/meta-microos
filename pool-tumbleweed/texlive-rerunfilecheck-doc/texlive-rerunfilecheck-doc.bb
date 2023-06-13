@@ -9,6 +9,7 @@ RPM_HASH = "e95525a99a21ce3999323fa32ae864c5f7eb9cfd2e8e8adf69f8043af7a170f218b8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rerunfilecheck-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

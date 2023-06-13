@@ -18,6 +18,7 @@ pyprompter \
 python3-pyprompter \
 python3.10dist(pyprompter) \
 python3dist(pyprompter)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-presage \

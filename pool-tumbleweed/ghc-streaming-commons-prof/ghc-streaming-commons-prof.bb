@@ -10,6 +10,7 @@ RPM_HASH = "6874848e122ca9136a6d21e689ad4a8ee39865ac3dae6c368050a2a32de250f09665
 RPROVIDES:${PN} += "ghc-prof(streaming-commons-0.2.2.6-DrPeIbd2d2c3jQtctttO4G) \
 ghc-streaming-commons-prof \
 ghc-streaming-commons-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(array-0.5.4.0) \
 ghc-prof(async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF) \
 ghc-prof(base-4.17.1.0) \

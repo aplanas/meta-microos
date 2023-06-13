@@ -16,6 +16,7 @@ RPM_HASH = "f58b55bc7fd32fdc2fa8b02705fa645837ffb1aa3817c5c3368ff61c0d3760825f8a
 RPROVIDES:${PN} += "libwaffle-1-0 \
 libwaffle-1-0(aarch-64) \
 libwaffle-1.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-smalltableof-doc:fr) \
 texlive-smalltableof-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

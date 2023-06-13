@@ -10,6 +10,7 @@ RPM_HASH = "ae39a33f52ef4d4890f1e920c0838eff7a2360f4e04f5df2d753a5c4f74975e042e7
 RPROVIDES:${PN} += "libappstream-compose.so.0()(64bit) \
 libappstream-compose0 \
 libappstream-compose0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

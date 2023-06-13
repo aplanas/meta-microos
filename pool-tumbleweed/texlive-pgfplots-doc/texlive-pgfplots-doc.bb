@@ -9,6 +9,7 @@ RPM_HASH = "e8144f90d64538acb9b5e96a45322c2ba98b45e83706bd702a5f12e5b3722b477556
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgfplots-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

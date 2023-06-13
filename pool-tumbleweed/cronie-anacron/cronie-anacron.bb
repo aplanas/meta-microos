@@ -12,6 +12,7 @@ RPM_HASH = "17841e16fc4b57a5dd86541a55cffab72724dcb0c5abb694e11261240ce047eec784
 RPROVIDES:${PN} += "config(cronie-anacron) \
 cronie-anacron \
 cronie-anacron(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cronie \
 ld-linux-aarch64.so.1()(64bit) \

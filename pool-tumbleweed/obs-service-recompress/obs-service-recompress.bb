@@ -17,6 +17,7 @@ RPM_HASH = "95801cadfe41a508569ee23321ebf7ce5a374dfbd24ad12a4e2b5ecbaed5b871b397
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-recompress"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/gzip \
 bzip2 \

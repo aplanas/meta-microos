@@ -96,6 +96,7 @@ locale(kcoreaddons:wa) \
 locale(kcoreaddons:zh_CN) \
 locale(kcoreaddons:zh_HK) \
 locale(kcoreaddons:zh_TW)"
+
 RDEPENDS:${PN} += "kcoreaddons"
 
 inherit rpm

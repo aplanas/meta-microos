@@ -12,6 +12,7 @@ RPM_HASH = "05f49ac6ea8e4e447d60aaac1a3e5b7ff4a8a088c8022ca34178292dd66af849decf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "freedoom"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

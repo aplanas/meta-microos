@@ -14,6 +14,7 @@ RPM_HASH = "a3b4d95cafbd897a98592eec1c537e8f0b4260ecd55c0ac0d5b9b662b95af99c6fb0
 RPROVIDES:${PN} += "czmq-devel \
 czmq-devel(aarch-64) \
 pkgconfig(libczmq)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libczmq4 \
 pkgconfig(libcurl) \

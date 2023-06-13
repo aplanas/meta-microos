@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(texlive-marvosym-fonts) \
 font(marvosym) \
 font(marvosymwithtexsupport) \
 texlive-marvosym-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

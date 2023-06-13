@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(genty) \
 python311-genty \
 python3dist(genty)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

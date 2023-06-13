@@ -50,6 +50,7 @@ locale(skrooge:zh_CN) \
 locale(skrooge:zh_TW) \
 skrooge-lang \
 skrooge-lang-all"
+
 RDEPENDS:${PN} += "skrooge"
 
 inherit rpm

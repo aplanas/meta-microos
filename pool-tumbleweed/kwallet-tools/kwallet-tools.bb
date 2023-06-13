@@ -11,6 +11,7 @@ RPM_HASH = "5f6c552f1c9cee890f4e43c943ac3095778c68480db5ab37a807ea800d5f220be4f8
 
 RPROVIDES:${PN} += "kwallet-tools \
 kwallet-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

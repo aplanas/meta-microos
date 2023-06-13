@@ -9,6 +9,7 @@ RPM_HASH = "57702aaf3151756d6faa35a173e97a61c5980aeaae73e950ba959e29f2e93d8faf3a
 
 RPROVIDES:${PN} += "libircclient-doc \
 libircclient-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-jupyter_highlight_selected_word \
 python3.10dist(jupyter-highlight-selected-word) \
 python310-jupyter_highlight_selected_word \
 python3dist(jupyter-highlight-selected-word)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-notebook"
 

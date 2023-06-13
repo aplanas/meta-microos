@@ -22,6 +22,7 @@ libntirpc.so.3.3(NTIRPC_3.3)(64bit) \
 libntirpc.so.3.3(NTIRPC_PRIVATE)(64bit) \
 libntirpc3_3 \
 libntirpc3_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

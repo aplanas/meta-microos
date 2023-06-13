@@ -101,6 +101,7 @@ font(原ノ味角ゴシック) \
 font(原ノ味角ゴシックheavy) \
 font(原ノ味角ゴシックmedium) \
 texlive-haranoaji-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

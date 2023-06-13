@@ -244,6 +244,7 @@ tex(ot1maksf.fd) \
 tex(t1mak.fd) \
 tex(t1maksf.fd) \
 texlive-kerkis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

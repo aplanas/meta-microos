@@ -24,6 +24,7 @@ RPM_HASH = "c192c4d04dc15f97544f33e53743bbdef526393b3c83589bdd694f7a93a7ddeeb616
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnumeric-doc"
+
 RDEPENDS:${PN} += "gnumeric"
 
 inherit rpm

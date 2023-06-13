@@ -10,6 +10,7 @@ RPM_HASH = "668d5e58e392916fefb54b7bd45f1140d6fbc69dc5fd9e66f9c951c516d325c49f95
 RPROVIDES:${PN} += "ghc-prof(timeit-2.0-8ewEVtFbCiRSME6yb7iQx) \
 ghc-timeit-prof \
 ghc-timeit-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-timeit-devel"
 

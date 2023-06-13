@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libevt.so.1()(64bit) \
 libevt.so.1(V_20221022)(64bit) \
 libevt1 \
 libevt1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

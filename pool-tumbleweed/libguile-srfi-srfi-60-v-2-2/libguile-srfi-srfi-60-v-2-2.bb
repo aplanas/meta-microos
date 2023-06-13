@@ -13,6 +13,7 @@ RPM_HASH = "960a012bfdb2a6acd5b7999697dd1c06abe623b96fe071ce160bccc890b5d27aacb8
 RPROVIDES:${PN} += "libguile-srfi-srfi-60-v-2-2 \
 libguile-srfi-srfi-60-v-2-2(aarch-64) \
 libguile-srfi-srfi-60-v-2.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

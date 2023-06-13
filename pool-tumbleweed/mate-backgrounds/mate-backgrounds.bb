@@ -10,6 +10,7 @@ RPM_HASH = "c83e05e730b94fd507322f034a29889edf486b97435aa02acd59eb6aea3fa67bf2e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-backgrounds"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

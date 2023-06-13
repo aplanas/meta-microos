@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ticket.sty) \
 texlive-ticket"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

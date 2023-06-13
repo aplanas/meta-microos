@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "config(openmpi2-config) \
 openmpi-runtime-config \
 openmpi2-config \
 openmpi2-config(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfpagediff.sty) \
 texlive-pdfpagediff"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

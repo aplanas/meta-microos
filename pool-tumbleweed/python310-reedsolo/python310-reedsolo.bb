@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-reedsolo \
 python3.10dist(reedsolo) \
 python310-reedsolo \
 python3dist(reedsolo)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

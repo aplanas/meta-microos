@@ -12,6 +12,7 @@ RPM_HASH = "eb9062a2cf6d6b58ae33f684519a42fa996f2263c5f95c944d3f9d68aca021c67020
 RPROVIDES:${PN} += "boost1_82_0-quickbook \
 boost1_82_0-quickbook(aarch-64) \
 quickbook"
+
 RDEPENDS:${PN} += "boost-license1_82_0 \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

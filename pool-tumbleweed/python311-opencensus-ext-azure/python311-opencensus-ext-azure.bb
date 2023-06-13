@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(opencensus-ext-azure) \
 python311-opencensus-ext-azure \
 python3dist(opencensus-ext-azure)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-core \
 python311-azure-identity \

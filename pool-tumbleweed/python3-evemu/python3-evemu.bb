@@ -13,6 +13,7 @@ RPM_HASH = "b3e601f707dcecb891f5b9265713e11921198e2876495d3046043edd02e9df71835e
 
 RPROVIDES:${PN} += "python3-evemu \
 python3-evemu(aarch-64)"
+
 RDEPENDS:${PN} += "libevemu3 \
 python(abi)"
 

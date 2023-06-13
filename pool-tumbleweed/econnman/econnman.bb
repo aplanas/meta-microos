@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "application() \
 application(econnman-agent.desktop) \
 application(econnman.desktop) \
 econnman"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 connman \
 python3 \

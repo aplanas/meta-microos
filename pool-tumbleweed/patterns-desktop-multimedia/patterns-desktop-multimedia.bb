@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-desktop-multimedia \
 patterns-desktop-multimedia(aarch-64) \
 patterns-openSUSE-multimedia"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

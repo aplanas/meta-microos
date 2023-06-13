@@ -24,6 +24,7 @@ locale(gdbm:sr) \
 locale(gdbm:sv) \
 locale(gdbm:uk) \
 locale(gdbm:vi)"
+
 RDEPENDS:${PN} += "gdbm"
 
 inherit rpm

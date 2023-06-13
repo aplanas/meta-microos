@@ -11,6 +11,7 @@ RPM_HASH = "3d75eb0d327f68e95e4e6232f2dcf8509b1202bc1c60fe7de6be0d960d150e97df3f
 
 RPROVIDES:${PN} += "sympow \
 sympow(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 grep \
 ld-linux-aarch64.so.1()(64bit) \

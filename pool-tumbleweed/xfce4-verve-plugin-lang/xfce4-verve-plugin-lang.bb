@@ -61,6 +61,7 @@ locale(xfce4-verve-plugin:zh_TW) \
 xfce4-panel-plugin-verve-lang \
 xfce4-verve-plugin-lang \
 xfce4-verve-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-verve-plugin"
 
 inherit rpm

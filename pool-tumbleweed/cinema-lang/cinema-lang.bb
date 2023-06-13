@@ -92,6 +92,7 @@ locale(cinema:zh) \
 locale(cinema:zh_CN) \
 locale(cinema:zh_HK) \
 locale(cinema:zh_TW)"
+
 RDEPENDS:${PN} += "cinema"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-check-manifest \
 python3.10dist(check-manifest) \
 python310-check-manifest \
 python3dist(check-manifest)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

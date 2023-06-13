@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cloud-init-seed \
 python3.10dist(cloud-init-seed) \
 python310-cloud-init-seed \
 python3dist(cloud-init-seed)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 mkisofs \

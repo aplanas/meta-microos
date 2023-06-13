@@ -11,6 +11,7 @@ RPM_HASH = "0106d1a0f9277d6ab0d44991a1945e128d10e4a99d6b7e405b2e7205cbc89dfac19d
 RPROVIDES:${PN} += "gcr-data \
 gcr3-data \
 gcr3-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

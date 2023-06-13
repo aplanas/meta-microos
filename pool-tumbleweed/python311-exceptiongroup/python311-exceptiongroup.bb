@@ -35,6 +35,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(exceptiongroup) \
 python311-exceptiongroup \
 python3dist(exceptiongroup)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

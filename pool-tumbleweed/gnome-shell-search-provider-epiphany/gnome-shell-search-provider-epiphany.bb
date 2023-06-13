@@ -12,6 +12,7 @@ RPM_HASH = "694187d2ddb59fe61ef3c477e772b894154acd7678d802c11adfab363714fa9744db
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-epiphany \
 gnome-shell-search-provider-epiphany(aarch-64)"
+
 RDEPENDS:${PN} += "epiphany \
 gnome-shell \
 ld-linux-aarch64.so.1()(64bit) \

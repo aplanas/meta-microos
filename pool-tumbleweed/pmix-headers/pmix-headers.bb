@@ -9,6 +9,7 @@ RPM_HASH = "698cb874c2e633fd2b7cc4197899491a5c0a8aabf48a61ae2796b3907a897037446c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pmix-headers"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

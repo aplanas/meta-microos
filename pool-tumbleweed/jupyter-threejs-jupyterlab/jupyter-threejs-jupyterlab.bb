@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-pythreejs-jupyterlab \
 jupyter-threejs-jupyterlab"
+
 RDEPENDS:${PN} += "jupyter-ipydatawidgets-jupyterlab \
 jupyter-jupyterlab \
 python3-pythreejs"

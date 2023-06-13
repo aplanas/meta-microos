@@ -10,6 +10,7 @@ RPM_HASH = "28fa21e04faef573b42489f93a05add4bbb486a4f661ada28bfdd63c04e668609e63
 
 RPROVIDES:${PN} += "gr-osmosdr \
 gr-osmosdr(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-gr-osmosdr"
 

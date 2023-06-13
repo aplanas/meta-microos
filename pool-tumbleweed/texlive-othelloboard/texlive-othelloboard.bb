@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(othelloboard.sty) \
 texlive-othelloboard"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

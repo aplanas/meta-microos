@@ -11,6 +11,7 @@ RPM_HASH = "b5e7a8b1b859f22f194aba1dda5ea9bad29db72f49fb1f93f9b06ba1474da8ea0b8c
 RPROVIDES:${PN} += "libboost_date_time-devel-impl \
 libboost_date_time1_82_0-devel \
 libboost_date_time1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_date_time1_82_0 \
 libboost_headers1_82_0-devel \
 libstdc++-devel"

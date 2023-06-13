@@ -78,6 +78,7 @@ locale(kldap:uk) \
 locale(kldap:vi) \
 locale(kldap:zh_CN) \
 locale(kldap:zh_TW)"
+
 RDEPENDS:${PN} += "kldap"
 
 inherit rpm

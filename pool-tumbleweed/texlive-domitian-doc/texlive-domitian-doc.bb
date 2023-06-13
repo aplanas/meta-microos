@@ -9,6 +9,7 @@ RPM_HASH = "9c603eda1d1efd41ddf24f6c17ee039dcabfb38df810b1143e8437a4022da8b89dee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-domitian-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

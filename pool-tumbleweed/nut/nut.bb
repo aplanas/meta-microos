@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(nut) \
 nut \
 nut(aarch-64) \
 nut-classic"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

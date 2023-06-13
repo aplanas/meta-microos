@@ -24,6 +24,7 @@ RPM_HASH = "770671597d28b6cb9d18c19a8c2a19a0c669ce64c92e2b7178b897b80aca64314310
 
 RPROVIDES:${PN} += "gpsd \
 gpsd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

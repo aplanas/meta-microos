@@ -9,6 +9,7 @@ RPM_HASH = "b092a657d9d8b792743d275a9bc05493db287109e0bb3e5c281c7ebee8c0c61cf8e2
 
 RPROVIDES:${PN} += "texlive-cluttex-bin \
 texlive-cluttex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-cluttex"
 
 inherit rpm

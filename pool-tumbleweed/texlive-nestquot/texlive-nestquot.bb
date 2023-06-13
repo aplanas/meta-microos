@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nestquot.sty) \
 texlive-nestquot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

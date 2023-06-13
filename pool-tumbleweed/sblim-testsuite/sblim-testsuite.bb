@@ -19,6 +19,7 @@ perl(cimom) \
 perl(consistence) \
 perl(instance) \
 sblim-testsuite"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 sblim-wbemcli"

@@ -14,6 +14,7 @@ RPM_HASH = "e687451a77d3b15e2a0178b92edf0ee43b903b63e6e49c908f20c677bdfac2c11fff
 RPROVIDES:${PN} += "deepin-session-ui \
 deepin-session-ui(aarch-64) \
 libnotifications.so()(64bit)"
+
 RDEPENDS:${PN} += "deepin-wallpapers \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

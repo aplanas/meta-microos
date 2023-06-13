@@ -14,6 +14,7 @@ pattern-icon() \
 pattern-order() \
 pattern-visible() \
 patterns-openSUSEway"
+
 RDEPENDS:${PN} += "openSUSEway"
 
 inherit rpm

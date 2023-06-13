@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(hypothesmith) \
 python311-hypothesmith \
 python3dist(hypothesmith)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-base \
 python311-hypothesis \

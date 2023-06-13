@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-translit \
 locale(ibus:ru)"
+
 RDEPENDS:${PN} += "ibus-table"
 
 inherit rpm

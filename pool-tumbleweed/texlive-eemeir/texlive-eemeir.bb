@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(eemeir.sty) \
 texlive-eemeir"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

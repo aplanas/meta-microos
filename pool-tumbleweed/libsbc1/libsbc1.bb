@@ -14,6 +14,7 @@ libsbc.so.1(SBC_1.2)(64bit) \
 libsbc.so.1(SBC_1.3)(64bit) \
 libsbc1 \
 libsbc1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

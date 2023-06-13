@@ -11,6 +11,7 @@ RPM_HASH = "16ed68aa7efad16a08df713dbaf1d7b17ffbdaa80adc88058882f4b5e822780e73d6
 RPROVIDES:${PN} += "cmake(Qt6BundledResonanceAudio) \
 qt6-bundledresonanceaudio-devel-static \
 qt6-bundledresonanceaudio-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "qt6-core-private-devel"
 
 inherit rpm

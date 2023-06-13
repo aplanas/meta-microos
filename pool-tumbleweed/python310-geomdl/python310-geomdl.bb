@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-geomdl \
 python3.10dist(geomdl) \
 python310-geomdl \
 python3dist(geomdl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib \
 python310-numpy \

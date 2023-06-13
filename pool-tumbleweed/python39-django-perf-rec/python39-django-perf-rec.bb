@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-perf-rec) \
 python39-django-perf-rec \
 python3dist(django-perf-rec)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-PyYAML \

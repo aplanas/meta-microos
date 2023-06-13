@@ -24,6 +24,7 @@ libnetcontrol.so.0(NETCF_1.3.0)(64bit) \
 libnetcontrol.so.0(NETCONTROL_PRIVATE_0.3)(64bit) \
 libnetcontrol0 \
 libnetcontrol0(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "7d03dff7cf5b25afc393185c6c1783a9bbe6fae666dab2ae782e037b1bcc0aa7825e
 RPROVIDES:${PN} += "config(source-highlight) \
 source-highlight \
 source-highlight(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \

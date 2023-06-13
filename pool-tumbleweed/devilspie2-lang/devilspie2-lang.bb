@@ -18,6 +18,7 @@ locale(devilspie2:nl) \
 locale(devilspie2:pt_BR) \
 locale(devilspie2:ru) \
 locale(devilspie2:sv)"
+
 RDEPENDS:${PN} += "devilspie2"
 
 inherit rpm

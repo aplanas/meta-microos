@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-jsonschema-objects \
 python3.10dist(python-jsonschema-objects) \
 python310-python-jsonschema-objects \
 python3dist(python-jsonschema-objects)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Markdown \
 python310-inflection \

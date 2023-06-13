@@ -27,6 +27,7 @@ locale(caja-dropbox:pl) \
 locale(caja-dropbox:sr) \
 locale(caja-dropbox:sv) \
 locale(caja-dropbox:uk)"
+
 RDEPENDS:${PN} += "caja-dropbox"
 
 inherit rpm

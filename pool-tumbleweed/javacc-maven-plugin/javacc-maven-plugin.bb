@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "javacc-maven-plugin \
 mvn(org.codehaus.mojo:javacc-maven-plugin) \
 mvn(org.codehaus.mojo:javacc-maven-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(net.java.dev.javacc:javacc) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(seealso.sty) \
 texlive-seealso"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

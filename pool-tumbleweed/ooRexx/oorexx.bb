@@ -31,6 +31,7 @@ ooRexx(aarch-64) \
 rpm_macro(_ooRexx) \
 rpm_macro(_rexxclassdir) \
 rpm_macro(_rexxlibdir)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/update-alternatives \
 systemd"

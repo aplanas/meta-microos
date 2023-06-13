@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:es_DO) \
 myspell-dictionary \
 myspell-es_DO \
 myspell-spanish-dominican"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-es"
 

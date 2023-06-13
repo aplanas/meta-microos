@@ -12,6 +12,7 @@ RPM_HASH = "c4d779f7c7f63900c1a1a2e72050892bfe43b2171a88a6982c95a55bab5c140f37be
 RPROVIDES:${PN} += "libffms2-devel \
 libffms2-devel(aarch-64) \
 pkgconfig(ffms2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libffms2-5"
 

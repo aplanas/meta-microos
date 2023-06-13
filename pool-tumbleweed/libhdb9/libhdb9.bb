@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libhdb.so.9()(64bit) \
 libhdb.so.9(HEIMDAL_HDB_1.0)(64bit) \
 libhdb9 \
 libhdb9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

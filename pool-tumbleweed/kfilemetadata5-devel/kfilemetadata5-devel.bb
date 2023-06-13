@@ -10,6 +10,7 @@ RPM_HASH = "0a084e68e27652e09bb9a39ef685cab33bbbbe1947d42a99f6cc7b6de8c286da1df8
 RPROVIDES:${PN} += "cmake(KF5FileMetaData) \
 kfilemetadata5-devel \
 kfilemetadata5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 extra-cmake-modules \
 kfilemetadata5"

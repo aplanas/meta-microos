@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(halloweenmath.sty) \
 texlive-halloweenmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

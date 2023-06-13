@@ -19,6 +19,7 @@ libgimpcolor-2.0.so.0()(64bit) \
 libgimpconfig-2.0.so.0()(64bit) \
 libgimpmath-2.0.so.0()(64bit) \
 libgimpmodule-2.0.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

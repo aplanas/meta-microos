@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates \
 java-ca-certificates"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/readlink \

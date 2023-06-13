@@ -10,6 +10,7 @@ RPM_HASH = "c698b4384be6b938a3c16f99a808b8b5a44e1f5b849ce529e9c8bc279a481e151d89
 RPROVIDES:${PN} += "ghc-ansi-terminal-prof \
 ghc-ansi-terminal-prof(aarch-64) \
 ghc-prof(ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3)"
+
 RDEPENDS:${PN} += "ghc-ansi-terminal-devel \
 ghc-prof(ansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR) \
 ghc-prof(base-4.17.1.0) \

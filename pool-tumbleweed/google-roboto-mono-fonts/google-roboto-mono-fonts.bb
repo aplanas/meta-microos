@@ -17,6 +17,7 @@ RPM_HASH = "7e223f809e51b06c04d32aa59ff186af92c0210894ab12c2eee25c98067dc3c68a9b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-roboto-mono-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

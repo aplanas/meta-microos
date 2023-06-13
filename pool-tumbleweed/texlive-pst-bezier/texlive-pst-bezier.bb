@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-bezier.sty) \
 tex(pst-bezier.tex) \
 texlive-pst-bezier"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

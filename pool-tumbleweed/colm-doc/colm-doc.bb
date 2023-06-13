@@ -12,6 +12,7 @@ RPM_HASH = "daa3f2a857b1d4b1ce341fae1fef2cca98828a80598bc31a070454c660059a55d27f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

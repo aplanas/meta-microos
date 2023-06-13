@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-lxqt-lxqt \
 patterns-lxqt-lxqt(aarch-64)"
+
 RDEPENDS:${PN} += "breeze5-icons \
 lxqt-about \
 lxqt-config \

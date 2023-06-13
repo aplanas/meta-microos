@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "python3-requests \
 python3.10dist(requests) \
 python310-requests \
 python3dist(requests)"
+
 RDEPENDS:${PN} += "ca-certificates \
 python(abi) \
 python310 \

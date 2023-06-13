@@ -10,6 +10,7 @@ RPM_HASH = "f1dafcabe4a6d60a690223c3dc97c463c571337ab95c2b4bd3d4e3ff69e784318886
 RPROVIDES:${PN} += "libVTextEdit.so.1()(64bit) \
 libVTextEdit1 \
 libVTextEdit1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

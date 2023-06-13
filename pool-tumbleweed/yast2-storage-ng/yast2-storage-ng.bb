@@ -15,6 +15,7 @@ metainfo() \
 metainfo(org.opensuse.yast.Disk.metainfo.xml) \
 yast2-storage-ng \
 yast2-storage-ng(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

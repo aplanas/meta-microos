@@ -37,6 +37,7 @@ perl(General::FileSystem) \
 perl(General::Parse) \
 windowmanager \
 xpmroot"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/python3 \

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-storagesync) \
 python39-azure-mgmt-storagesync \
 python3dist(azure-mgmt-storagesync)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-core \

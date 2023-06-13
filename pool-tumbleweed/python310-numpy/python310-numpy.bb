@@ -21,6 +21,7 @@ python3.10dist(numpy) \
 python310-numpy \
 python310-numpy(aarch-64) \
 python3dist(numpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

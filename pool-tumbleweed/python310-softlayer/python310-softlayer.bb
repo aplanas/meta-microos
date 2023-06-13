@@ -12,6 +12,7 @@ python3.10dist(softlayer) \
 python310-softlayer \
 python310-softlayer(aarch-64) \
 python3dist(softlayer)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

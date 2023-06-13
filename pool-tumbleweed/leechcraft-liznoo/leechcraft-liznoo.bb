@@ -21,6 +21,7 @@ RPM_HASH = "4ccc210db9b5a7df7e755d9a3afc1f3d5bf81e067c96eb50f8ade51c9231e6762d12
 RPROVIDES:${PN} += "leechcraft-liznoo \
 leechcraft-liznoo(aarch-64) \
 libleechcraft_liznoo.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tui.cls) \
 texlive-tui"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

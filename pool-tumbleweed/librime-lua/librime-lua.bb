@@ -10,6 +10,7 @@ RPM_HASH = "efa8fba50b5613bddb47d7806fb596129b808f247f7e2fa319b68d38772755b3f898
 RPROVIDES:${PN} += "librime-lua \
 librime-lua(aarch-64) \
 librime-lua.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

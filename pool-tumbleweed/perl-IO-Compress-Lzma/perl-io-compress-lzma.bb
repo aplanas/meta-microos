@@ -25,6 +25,7 @@ perl(IO::Uncompress::UnLzip) \
 perl(IO::Uncompress::UnLzma) \
 perl(IO::Uncompress::UnXz) \
 perl-IO-Compress-Lzma"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Compress::Raw::Lzma) \
 perl(IO::Compress::Base) \

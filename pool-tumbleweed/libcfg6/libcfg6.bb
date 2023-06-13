@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libcfg.so.6()(64bit) \
 libcfg.so.6(COROSYNC_CFG_0.82)(64bit) \
 libcfg6 \
 libcfg6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

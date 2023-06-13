@@ -10,6 +10,7 @@ RPM_HASH = "b1677d5e1fbc522f8aae630c0f2ccc1beb284b9938907a1768045e6819452ffd305b
 RPROVIDES:${PN} += "config(golang-github-QubitProducts-exporter_exporter) \
 golang-github-QubitProducts-exporter_exporter \
 golang-github-QubitProducts-exporter_exporter(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

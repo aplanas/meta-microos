@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(repoze.sphinx.autointerface) \
 python39-repoze.sphinx.autointerface \
 python3dist(repoze.sphinx.autointerface)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx \
 python39-zope.interface"

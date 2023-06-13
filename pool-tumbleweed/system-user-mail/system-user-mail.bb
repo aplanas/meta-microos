@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(mail) \
 system-user-mail \
 user(mail)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

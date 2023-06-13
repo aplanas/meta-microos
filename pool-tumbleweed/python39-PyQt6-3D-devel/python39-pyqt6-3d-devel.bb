@@ -10,6 +10,7 @@ RPM_HASH = "96282255b9cc8f6b6ea5dd52d1d8250b1d1192e8defefadc86c93a5bfe4c5ff645ef
 
 RPROVIDES:${PN} += "python39-PyQt6-3D-devel \
 python39-PyQt6-3D-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python39-PyQt6-devel"
 
 inherit rpm

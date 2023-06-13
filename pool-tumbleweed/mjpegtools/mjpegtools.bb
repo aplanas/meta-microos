@@ -13,6 +13,7 @@ RPM_HASH = "50c1cdf181d84abdf226fa097966840c89ca872b1a3cbb8e8c1a4dc1dc0b54af1ebf
 
 RPROVIDES:${PN} += "mjpegtools \
 mjpegtools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 info \

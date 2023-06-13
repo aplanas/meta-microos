@@ -14,6 +14,7 @@ RPM_HASH = "df73eea1e5b6acd97c5002a8e5d07403519bd68517424462efc1eaccd5ee28fb83f2
 
 RPROVIDES:${PN} += "mumps-mvapich2-devel \
 mumps-mvapich2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmumps5_3_5-mvapich2 \
 mumps-devel \
 mvapich2-devel \

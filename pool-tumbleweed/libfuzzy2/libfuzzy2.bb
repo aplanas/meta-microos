@@ -10,6 +10,7 @@ RPM_HASH = "88537e967dff5ff77ff810d06a3499cd357a9b3b8a293f92eba6dfc74d430381a1eb
 RPROVIDES:${PN} += "libfuzzy.so.2()(64bit) \
 libfuzzy2 \
 libfuzzy2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

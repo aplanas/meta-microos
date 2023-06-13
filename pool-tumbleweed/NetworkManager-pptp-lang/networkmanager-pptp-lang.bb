@@ -70,6 +70,7 @@ locale(NetworkManager-pptp:vi) \
 locale(NetworkManager-pptp:zh_CN) \
 locale(NetworkManager-pptp:zh_HK) \
 locale(NetworkManager-pptp:zh_TW)"
+
 RDEPENDS:${PN} += "NetworkManager-pptp"
 
 inherit rpm

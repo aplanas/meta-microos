@@ -14,6 +14,7 @@ perl(Locale::Msgfmt::mo) \
 perl(Locale::Msgfmt::po) \
 perl(Module::Install::Msgfmt) \
 perl-Locale-Msgfmt"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

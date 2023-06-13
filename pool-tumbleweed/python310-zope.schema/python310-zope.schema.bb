@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-zope.schema \
 python3.10dist(zope.schema) \
 python310-zope.schema \
 python3dist(zope.schema)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-zope.event \
 python310-zope.interface"

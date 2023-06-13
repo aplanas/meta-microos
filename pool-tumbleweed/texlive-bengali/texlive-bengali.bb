@@ -18,6 +18,7 @@ tex(ubnx.fd) \
 tex(xbnr10.tfm) \
 tex(xbnsl10.tfm) \
 texlive-bengali"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

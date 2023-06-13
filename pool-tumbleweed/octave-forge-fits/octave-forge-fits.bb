@@ -10,6 +10,7 @@ RPM_HASH = "77c991fe4f039e82d8821f2070f296f7bfe1dde3e437abf386f242d719fc1940f93b
 
 RPROVIDES:${PN} += "octave-forge-fits \
 octave-forge-fits(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

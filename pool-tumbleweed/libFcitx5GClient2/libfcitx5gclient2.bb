@@ -10,6 +10,7 @@ RPM_HASH = "54d996a8da7f85e9348b1383b3683975aa23df0905fe3bb84913ae4092957fb23962
 RPROVIDES:${PN} += "libFcitx5GClient.so.2()(64bit) \
 libFcitx5GClient2 \
 libFcitx5GClient2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

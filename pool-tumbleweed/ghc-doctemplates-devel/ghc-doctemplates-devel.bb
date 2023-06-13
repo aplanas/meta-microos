@@ -10,6 +10,7 @@ RPM_HASH = "eb7e99c7882a28e89e14c6ef5ce821a7116c7a78b0740cf73a5b4158b7c80db3aa7c
 RPROVIDES:${PN} += "ghc-devel(doctemplates-0.11-BPgXv8g09ry9FVnSp2Q4Ny) \
 ghc-doctemplates-devel \
 ghc-doctemplates-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \

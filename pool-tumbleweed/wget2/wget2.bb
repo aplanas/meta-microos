@@ -15,6 +15,7 @@ RPM_HASH = "72615d910f7a7e9d691d75ff64a85f0fe5af0cca4854366d5cc9894b1a701d4a9644
 
 RPROVIDES:${PN} += "wget2 \
 wget2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

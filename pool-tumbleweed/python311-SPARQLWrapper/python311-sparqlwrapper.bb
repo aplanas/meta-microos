@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sparqlwrapper) \
 python311-SPARQLWrapper \
 python3dist(sparqlwrapper)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-rdflib"
 

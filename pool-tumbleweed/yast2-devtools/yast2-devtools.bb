@@ -9,6 +9,7 @@ RPM_HASH = "a84af6ab79300727ab3c80e5422c7a90d3059c9541533b94800dbe43eb8ea984eadb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-devtools"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-branding \
 libreoffice-branding-openSUSE"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

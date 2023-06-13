@@ -16,6 +16,7 @@ RPM_HASH = "ef6e82280a18582ffe9df151a7222f71b343cc48697c2e8d62dd5f19170f78f611b1
 
 RPROVIDES:${PN} += "pcsc-towitoko \
 pcsc-towitoko(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

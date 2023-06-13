@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mmap.sty) \
 texlive-mmap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "racket-doc \
 racket:/usr/share/doc/packages/racket/docindex.sqlite"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

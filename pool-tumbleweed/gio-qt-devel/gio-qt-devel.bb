@@ -11,6 +11,7 @@ RPM_HASH = "5487d958c924896f697c5373a3a03a7a0ec556b4390d0945730614e969a085bda0a0
 RPROVIDES:${PN} += "gio-qt-devel \
 gio-qt-devel(aarch-64) \
 pkgconfig(gio-qt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgio-qt0 \
 pkgconfig(Qt5Core) \

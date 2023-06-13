@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cross-rx-gcc7 \
 cross-rx-gcc7(aarch-64) \
 liblto_plugin.so.0()(64bit) \
 rx-elf-gcc"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-rx-binutils \
 libc.so.6(GLIBC_2.36)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-crashtest \
 python3.10dist(crashtest) \
 python310-crashtest \
 python3dist(crashtest)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

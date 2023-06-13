@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-branding \
 NetworkManager-branding-openSUSE"
+
 RDEPENDS:${PN} += "NetworkManager"
 
 inherit rpm

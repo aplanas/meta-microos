@@ -10,6 +10,7 @@ RPM_HASH = "65aad6759aafc100e12d2c423a8b90870dcba8ba28694e8824820452464c3ecc94f2
 RPROVIDES:${PN} += "libomemoplugin.so()(64bit) \
 psi+-plugins-omemoplugin \
 psi+-plugins-omemoplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

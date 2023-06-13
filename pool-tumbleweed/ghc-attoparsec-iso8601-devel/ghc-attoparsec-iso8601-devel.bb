@@ -11,6 +11,7 @@ RPM_HASH = "4a53fb24ebc1d0f463ab63384f55bd4c696adf03dafcc1b2b36b0244e110e231704c
 RPROVIDES:${PN} += "ghc-attoparsec-iso8601-devel \
 ghc-attoparsec-iso8601-devel(aarch-64) \
 ghc-devel(attoparsec-iso8601-1.1.0.0-2S5wwgpuLNfEy2BIFZOtUU)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-attoparsec-iso8601 \
 ghc-compiler \

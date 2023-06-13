@@ -14,6 +14,7 @@ mercurial \
 mercurial(aarch-64) \
 python3.10dist(mercurial) \
 python3dist(mercurial)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/wish \
 ca-certificates \

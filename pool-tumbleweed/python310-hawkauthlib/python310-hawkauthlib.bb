@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-hawkauthlib \
 python3.10dist(hawkauthlib) \
 python310-hawkauthlib \
 python3dist(hawkauthlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-WebOb"
 

@@ -19,6 +19,7 @@ libsflow-3.1.so.0()(64bit) \
 libsflow-3.1.so.0(libsflow_0)(64bit) \
 libvtep-3.1.so.0()(64bit) \
 libvtep-3.1.so.0(libvtep_0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dpdk \
 ld-linux-aarch64.so.1()(64bit) \

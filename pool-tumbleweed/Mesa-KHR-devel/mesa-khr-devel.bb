@@ -10,6 +10,7 @@ RPM_HASH = "b98228fd46efdd9dd359bcef073bf6a60ed31a5ffed781a7962ae9e81f4a99f772c5
 RPROVIDES:${PN} += "Mesa-KHR-devel \
 Mesa-KHR-devel(aarch-64) \
 Mesa-libGL-devel:/usr/include/KHR/khrplatform.h"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

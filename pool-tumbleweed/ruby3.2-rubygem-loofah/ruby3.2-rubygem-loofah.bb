@@ -18,6 +18,7 @@ rubygem(ruby:3.2.0:loofah) \
 rubygem(ruby:3.2.0:loofah:2) \
 rubygem(ruby:3.2.0:loofah:2.19) \
 rubygem(ruby:3.2.0:loofah:2.19.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:crass:1.0) \
 rubygem(ruby:3.2.0:nokogiri)"

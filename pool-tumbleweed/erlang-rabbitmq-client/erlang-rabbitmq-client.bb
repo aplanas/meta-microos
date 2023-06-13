@@ -13,6 +13,7 @@ RPM_HASH = "1dd6c471572e960bb005ff9a2e4053dc509388a1b7e2eb033ad2081f0a391cde6c2e
 RPROVIDES:${PN} += "erlang-gen_server2 \
 erlang-rabbitmq-client \
 erlang-rabbitmq-client(aarch-64)"
+
 RDEPENDS:${PN} += "erlang"
 
 inherit rpm

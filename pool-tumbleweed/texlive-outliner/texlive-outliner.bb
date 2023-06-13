@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(outliner.sty) \
 texlive-outliner"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

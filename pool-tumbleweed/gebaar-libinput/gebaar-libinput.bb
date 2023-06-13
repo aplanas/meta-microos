@@ -12,6 +12,7 @@ RPM_HASH = "241004499056fd31397f38d514b11e2b3527f66aff773ba93da2d649d802ab138ded
 
 RPROVIDES:${PN} += "gebaar-libinput \
 gebaar-libinput(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

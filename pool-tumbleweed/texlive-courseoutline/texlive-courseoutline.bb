@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(courseoutline.cls) \
 texlive-courseoutline"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

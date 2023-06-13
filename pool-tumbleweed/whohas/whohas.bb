@@ -19,6 +19,7 @@ RPM_HASH = "158deae14e14f73b4cd564b03ef3c7b3d63d8fe20f7625ef679c5d7f1f7e34468142
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "whohas"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
 perl(LWP::UserAgent) \

@@ -9,6 +9,7 @@ RPM_HASH = "902fbd34ec6bf3ae27719960b0ef00859cf464ab25ed213e78cdde825823aaf09974
 
 RPROVIDES:${PN} += "languagetool \
 languagetool(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 akka \
 apache-commons-cli \

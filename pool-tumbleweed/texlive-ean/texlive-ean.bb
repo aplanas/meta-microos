@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(ean13.tex) \
 tex(ean8.tex) \
 texlive-ean"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

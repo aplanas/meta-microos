@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.vmware \
 python3.10dist(oslo.vmware) \
 python3dist(oslo.vmware)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-PyYAML \
 python3-eventlet \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flufl.testing \
 python3.10dist(flufl.testing) \
 python310-flufl.testing \
 python3dist(flufl.testing)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "cdd38c8158392adc3e9e66cd0b7bb6f0cba12a63710cd14866dfa954f5557ce7502d
 
 RPROVIDES:${PN} += "fcitx-quwei \
 fcitx-quwei(aarch-64)"
+
 RDEPENDS:${PN} += "fcitx \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(anyascii) \
 python311-anyascii \
 python3dist(anyascii)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

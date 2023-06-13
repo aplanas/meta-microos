@@ -69,6 +69,7 @@ locale(libstorage-ng:vi) \
 locale(libstorage-ng:wa) \
 locale(libstorage-ng:zh_CN) \
 locale(libstorage-ng:zh_TW)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

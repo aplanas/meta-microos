@@ -9,6 +9,7 @@ RPM_HASH = "ff93437ed0ad7504f03f9870ff706d30f17d6f0a505bdb83e4355d18d96047438d81
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfoverlay-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

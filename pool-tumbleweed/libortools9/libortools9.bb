@@ -10,6 +10,7 @@ RPM_HASH = "994a223ab5782f3372a2b4e5759c5f84c1569f732464e1d49081de33dee6e4e7758b
 RPROVIDES:${PN} += "libortools.so.9()(64bit) \
 libortools9 \
 libortools9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

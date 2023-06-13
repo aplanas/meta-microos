@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-python-mimeparse \
 python3.10dist(python-mimeparse) \
 python310-python-mimeparse \
 python3dist(python-mimeparse)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

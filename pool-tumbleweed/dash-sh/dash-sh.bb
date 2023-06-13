@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "/bin/sh \
 alternative(sh) \
 dash-sh"
+
 RDEPENDS:${PN} += "dash"
 
 inherit rpm

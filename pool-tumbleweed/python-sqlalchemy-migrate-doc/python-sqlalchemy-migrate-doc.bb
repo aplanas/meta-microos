@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python-sqlalchemy-migrate-doc \
 python310-sqlalchemy-migrate-doc \
 python311-sqlalchemy-migrate-doc \
 python39-sqlalchemy-migrate-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

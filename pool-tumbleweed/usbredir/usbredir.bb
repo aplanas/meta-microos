@@ -12,6 +12,7 @@ RPM_HASH = "452f65b58046b388f6587df19fcb9929679b26edf06cf3b50ff0299c85706ca9afd0
 
 RPROVIDES:${PN} += "usbredir \
 usbredir(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

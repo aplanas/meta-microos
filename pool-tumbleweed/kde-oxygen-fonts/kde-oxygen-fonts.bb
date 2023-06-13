@@ -134,6 +134,7 @@ font(:lang=zu) \
 font(oxygen-sans) \
 font(oxygenmono) \
 kde-oxygen-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

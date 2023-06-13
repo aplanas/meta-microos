@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(translator.sty) \
 texlive-translator"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

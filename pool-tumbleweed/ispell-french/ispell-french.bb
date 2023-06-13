@@ -15,6 +15,7 @@ ispell-french \
 ispell-french(aarch-64) \
 ispell_dictionary \
 locale(ispell:fr;br_FR)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

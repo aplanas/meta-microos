@@ -12,6 +12,7 @@ RPM_HASH = "f5dbf4d60bcdf85aec8ecc693596c6c91f754c159a4bc7533a77e0b4f1b242bf32b6
 RPROVIDES:${PN} += "libupnp.so.17()(64bit) \
 libupnp17 \
 libupnp17(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

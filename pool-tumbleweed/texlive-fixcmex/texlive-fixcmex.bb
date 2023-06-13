@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fixcmex.sty) \
 texlive-fixcmex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

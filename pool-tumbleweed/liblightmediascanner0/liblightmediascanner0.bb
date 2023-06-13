@@ -12,6 +12,7 @@ RPM_HASH = "62ee52e68d304a972ac0192592b122b9b751db5e1295e37e69d7c8dfac45e686291b
 RPROVIDES:${PN} += "liblightmediascanner.so.0()(64bit) \
 liblightmediascanner0 \
 liblightmediascanner0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

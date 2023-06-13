@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(icinga2-ido-pgsql) \
 icinga2-ido-pgsql \
 icinga2-ido-pgsql(aarch-64) \
 libpgsql_shim.so.2.13.7()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 icinga2-bin \
 libpq.so.5()(64bit) \

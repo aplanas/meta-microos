@@ -9,6 +9,7 @@ RPM_HASH = "83f1ced4a21c551c6891d64279ab2c8db46d99042de879af1e25ccfa22f576287558
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubeaudit-zsh-completion"
+
 RDEPENDS:${PN} += "kubeaudit"
 
 inherit rpm

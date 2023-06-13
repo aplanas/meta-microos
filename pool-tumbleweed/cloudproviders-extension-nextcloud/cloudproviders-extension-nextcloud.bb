@@ -10,6 +10,7 @@ RPM_HASH = "c2c93359bf695373027f5a29744f67996830539600027ffe84e7e8d938ce98c58338
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cloudproviders-extension-nextcloud"
+
 RDEPENDS:${PN} += "nextcloud-desktop"
 
 inherit rpm

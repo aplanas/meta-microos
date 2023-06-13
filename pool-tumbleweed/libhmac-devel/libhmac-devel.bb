@@ -13,6 +13,7 @@ RPM_HASH = "4ea851e058f9fc2143e8abaf1b7023e45f9f263ca2eabd4eac704d152b18beda32df
 RPROVIDES:${PN} += "libhmac-devel \
 libhmac-devel(aarch-64) \
 pkgconfig(libhmac)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhmac1"
 

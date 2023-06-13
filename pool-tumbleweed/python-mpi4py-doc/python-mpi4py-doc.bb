@@ -12,6 +12,7 @@ python-mpi4py-doc(aarch-64) \
 python310-mpi4py-doc \
 python311-mpi4py-doc \
 python39-mpi4py-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

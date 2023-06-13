@@ -9,6 +9,7 @@ RPM_HASH = "7082ab69c702f1cd41d54e17733aa10f33aeee82eadf72586ae680da0175758c01ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-adfsymbols-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "capi4linux-devel \
 libcapi20-devel \
 libcapi20-devel(aarch-64) \
 pkgconfig(capi20)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcapi20-3"
 

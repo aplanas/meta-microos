@@ -32,6 +32,7 @@ mimehandler(audio/x-gtp) \
 mimehandler(audio/x-ptb) \
 musescore \
 musescore(aarch-64)"
+
 RDEPENDS:${PN} += "(alsa-plugins-pulse if pulseaudio) \
 (pipewire-alsa if pipewire) \
 ld-linux-aarch64.so.1()(64bit) \

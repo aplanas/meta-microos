@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libovn-23.03.so.0()(64bit) \
 libovn-23.03.so.0(libovn_0)(64bit) \
 libovn-23_03-0 \
 libovn-23_03-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

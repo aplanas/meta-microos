@@ -10,6 +10,7 @@ RPM_HASH = "8b02bf59e023b4ad0e7843ca5206a04177eb7d6b9b63f6a3637778ec2a5983a3c822
 RPROVIDES:${PN} += "yast2-schema \
 yast2-schema-micro \
 yast2-schema-micro(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "cmake(MathGL2) \
 cmake(mathgl2) \
 mathgl-devel \
 mathgl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake \
 libmgl-fltk8 \
 libmgl-glut8 \

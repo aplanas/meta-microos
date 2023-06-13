@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:public_suffix) \
 rubygem(ruby:3.2.0:public_suffix:3) \
 rubygem(ruby:3.2.0:public_suffix:3.1) \
 rubygem(ruby:3.2.0:public_suffix:3.1.1)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ruby(abi)"
 

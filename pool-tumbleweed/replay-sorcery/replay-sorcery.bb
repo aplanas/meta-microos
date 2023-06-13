@@ -11,6 +11,7 @@ RPM_HASH = "a64860bd3d370e6a3e951a178a3fbd632c66dd9e34663d11f07a582a22484419ff02
 
 RPROVIDES:${PN} += "replay-sorcery \
 replay-sorcery(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

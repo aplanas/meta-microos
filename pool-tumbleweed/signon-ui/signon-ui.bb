@@ -9,6 +9,7 @@ RPM_HASH = "396e61268593c68fa79da03ecf04ae8c86ea440c1c269cca3a7e405d858436239123
 
 RPROVIDES:${PN} += "signon-ui \
 signon-ui(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-towncrier \
 python3.10dist(sphinxcontrib-towncrier) \
 python310-sphinxcontrib-towncrier \
 python3dist(sphinxcontrib-towncrier)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-towncrier"

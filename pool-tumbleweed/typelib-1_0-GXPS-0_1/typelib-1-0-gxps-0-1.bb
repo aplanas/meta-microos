@@ -13,6 +13,7 @@ RPM_HASH = "aa51ee4bc75dfd6eeded881200be9662c9b45492bb4b11a0df44918f69f78106c508
 RPROVIDES:${PN} += "typelib(GXPS) \
 typelib-1_0-GXPS-0_1 \
 typelib-1_0-GXPS-0_1(aarch-64)"
+
 RDEPENDS:${PN} += "libgxps.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

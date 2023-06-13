@@ -12,6 +12,7 @@ RPM_HASH = "e5d1bad044ae7c855beae57babebc47e399845a108a0a105f1c4d3f255583c6f8934
 
 RPROVIDES:${PN} += "bcftools \
 bcftools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
 bgzip \

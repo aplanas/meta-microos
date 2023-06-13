@@ -9,6 +9,7 @@ RPM_HASH = "9b077b41a47859fdd3fe97f162a0b541825b8fa58013abd6d780c03f8ccb82154e20
 
 RPROVIDES:${PN} += "csi-livenessprobe \
 csi-livenessprobe(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

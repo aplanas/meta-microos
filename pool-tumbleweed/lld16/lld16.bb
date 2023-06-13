@@ -9,6 +9,7 @@ RPM_HASH = "546f603c47a0420dfd4ed0a8b9cba9fe2bd3e43de648abe0f610280cc036ef59092d
 
 RPROVIDES:${PN} += "lld16 \
 lld16(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

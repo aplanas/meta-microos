@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-azure-security-nspkg \
 python3.10dist(azure-security-nspkg) \
 python310-azure-security-nspkg \
 python3dist(azure-security-nspkg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-nspkg"
 

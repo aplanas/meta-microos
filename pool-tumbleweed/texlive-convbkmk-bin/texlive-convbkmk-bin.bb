@@ -9,6 +9,7 @@ RPM_HASH = "c9f6ec0972a417aeda8072c98296bc53e9c2b89a240aad69c6338243a07ceb606418
 
 RPROVIDES:${PN} += "texlive-convbkmk-bin \
 texlive-convbkmk-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-convbkmk"
 
 inherit rpm

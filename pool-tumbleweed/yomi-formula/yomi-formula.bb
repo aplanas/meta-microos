@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(yomi-formula) \
 yomi-formula"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-base \
 salt-formulas-configuration"

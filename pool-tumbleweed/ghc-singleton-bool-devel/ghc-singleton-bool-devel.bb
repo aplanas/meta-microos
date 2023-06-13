@@ -10,6 +10,7 @@ RPM_HASH = "6ac4b37ce8b3f8f87fcc1e29b686bbf70a4b6c58277b3a06258c510d8fb2bd67bb19
 RPROVIDES:${PN} += "ghc-devel(singleton-bool-0.1.6-9MbEj8pBx4EB1jZ66FdPc4) \
 ghc-singleton-bool-devel \
 ghc-singleton-bool-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

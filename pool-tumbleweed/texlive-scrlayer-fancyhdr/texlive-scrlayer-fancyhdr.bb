@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(scrlayer-fancyhdr.sty) \
 texlive-scrlayer-fancyhdr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ RPM_HASH = "63a08ca8ef99627d3c62f78a1d3d7a7361e320462666a4f2ef75e2620f755cf4bbf6
 
 RPROVIDES:${PN} += "pcsc-towitoko-devel \
 pcsc-towitoko-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtowitoko2"
 
 inherit rpm

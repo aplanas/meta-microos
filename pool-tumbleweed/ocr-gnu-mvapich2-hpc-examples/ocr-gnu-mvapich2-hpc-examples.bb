@@ -11,6 +11,7 @@ RPM_HASH = "39d955900cc61c69a0b3bb4bcb076c424ada9747e66db4e1c51e5f8b4545faf4d117
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ocr-gnu-mvapich2-hpc-examples"
+
 RDEPENDS:${PN} += "/bin/sh \
 ocr_1_0_1-gnu-mvapich2-hpc-examples"
 

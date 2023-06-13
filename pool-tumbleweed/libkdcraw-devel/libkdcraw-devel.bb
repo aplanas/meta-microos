@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "cmake(KF5KDcraw) \
 libkdcraw-devel \
 libkdcraw-devel(aarch-64) \
 libkdcraw-kf5-devel"
+
 RDEPENDS:${PN} += "libKF5KDcraw5"
 
 inherit rpm

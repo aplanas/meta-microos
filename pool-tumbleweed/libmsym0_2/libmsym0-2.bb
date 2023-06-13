@@ -10,6 +10,7 @@ RPM_HASH = "d32a74ec7dc4d3f81d1dc96648423563aba8437b895985ea93189cfdc327154191c2
 RPROVIDES:${PN} += "libmsym.so.0.2()(64bit) \
 libmsym0_2 \
 libmsym0_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

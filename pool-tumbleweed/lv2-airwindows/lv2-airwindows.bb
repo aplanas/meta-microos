@@ -13,6 +13,7 @@ RPM_HASH = "66e67e57fff401947edb98e8ab04e00545a2b8c938a0fc127d55bad6d573de639365
 
 RPROVIDES:${PN} += "lv2-airwindows \
 lv2-airwindows(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

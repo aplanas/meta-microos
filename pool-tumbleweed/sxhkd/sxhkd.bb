@@ -10,6 +10,7 @@ RPM_HASH = "5c44112ee5de964bc3196276c0d14e0cfa2b6626ed1fe7800cf3fc6d8c874440895a
 RPROVIDES:${PN} += "config(sxhkd) \
 sxhkd \
 sxhkd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

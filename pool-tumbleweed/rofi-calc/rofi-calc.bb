@@ -15,6 +15,7 @@ RPM_HASH = "fecb0a69a8342865ee59580bc05bf09a3bc5f55d337dc2989c7c7c9897e8e6e3fcc0
 
 RPROVIDES:${PN} += "rofi-calc \
 rofi-calc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "font(tex\040ascgrp) \
 font(tex\040ascii10) \
 font(tex\040ascii36) \
 texlive-ascmac-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

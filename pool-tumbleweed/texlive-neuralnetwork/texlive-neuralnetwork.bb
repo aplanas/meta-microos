@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(neuralnetwork.sty) \
 texlive-neuralnetwork"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

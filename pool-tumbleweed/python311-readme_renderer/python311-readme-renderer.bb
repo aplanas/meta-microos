@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(readme-renderer) \
 python311-readme_renderer \
 python3dist(readme-renderer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Pygments \
 python311-bleach \

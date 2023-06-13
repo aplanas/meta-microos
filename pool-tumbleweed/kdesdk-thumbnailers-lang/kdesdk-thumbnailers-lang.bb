@@ -56,6 +56,7 @@ locale(kdesdk-thumbnailers:uk) \
 locale(kdesdk-thumbnailers:vi) \
 locale(kdesdk-thumbnailers:zh_CN) \
 locale(kdesdk-thumbnailers:zh_TW)"
+
 RDEPENDS:${PN} += "kdesdk-thumbnailers"
 
 inherit rpm

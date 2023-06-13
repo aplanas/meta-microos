@@ -9,6 +9,7 @@ RPM_HASH = "b4a00338ceccecd1ca3b3a22666caa60ded7d1009e674d6713a2c09b52482e4dafa5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fancytooltips-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

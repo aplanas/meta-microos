@@ -11,6 +11,7 @@ RPM_HASH = "b9e54bf31cc89556f381dceb5d13b6610974f9fc47259f21676cc9ea9aca1147beb4
 RPROVIDES:${PN} += "lasem-devel \
 lasem-devel(aarch-64) \
 pkgconfig(lasem-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblasem-0_4-4 \
 pkgconfig(cairo) \

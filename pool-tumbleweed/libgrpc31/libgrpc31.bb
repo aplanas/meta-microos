@@ -15,6 +15,7 @@ libgrpc.so.31()(64bit) \
 libgrpc31 \
 libgrpc31(aarch-64) \
 libgrpc_unsecure.so.31()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

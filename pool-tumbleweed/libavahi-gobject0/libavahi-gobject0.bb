@@ -11,6 +11,7 @@ RPM_HASH = "0f35b596761bf89bc835d43504be31435e12d17bfa9e9606d39d59426834f3f8ad57
 RPROVIDES:${PN} += "libavahi-gobject.so.0()(64bit) \
 libavahi-gobject0 \
 libavahi-gobject0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libavahi-client.so.3()(64bit) \
 libavahi-common.so.3()(64bit) \

@@ -51,6 +51,7 @@ tex(zeusm5.vf) \
 tex(zeusm7.tfm) \
 tex(zeusm7.vf) \
 texlive-eulervm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

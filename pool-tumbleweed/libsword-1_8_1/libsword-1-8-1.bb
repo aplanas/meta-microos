@@ -10,6 +10,7 @@ RPM_HASH = "56776a6a41fba326d3fb68787911332ee737f8b6ccbe1e28f86133a29f27f6e83559
 RPROVIDES:${PN} += "libsword-1.8.1.so()(64bit) \
 libsword-1_8_1 \
 libsword-1_8_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

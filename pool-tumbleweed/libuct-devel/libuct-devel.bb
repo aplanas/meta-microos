@@ -14,6 +14,7 @@ pkgconfig(ucx-cma) \
 pkgconfig(ucx-ib) \
 pkgconfig(ucx-rdmacm) \
 pkgconfig(ucx-uct)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libuct0 \
 pkgconfig(libibverbs) \

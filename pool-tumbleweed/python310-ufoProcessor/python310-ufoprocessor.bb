@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ufoProcessor \
 python3.10dist(ufoprocessor) \
 python310-ufoProcessor \
 python3dist(ufoprocessor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-FontTools \
 python310-defcon \

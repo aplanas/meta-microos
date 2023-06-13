@@ -11,6 +11,7 @@ RPM_HASH = "067838487356c140f795e015a06fdadebe37d509eb0b50e456a62b5a82bfba005be3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-ambiance"
+
 RDEPENDS:${PN} += "gtk3 \
 metatheme-ambiance-common"
 

@@ -9,6 +9,7 @@ RPM_HASH = "7b7883757cb85a33d0a36363764c78e2812dbae9162f59970f5278a5e1c3df0adab8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-limap-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

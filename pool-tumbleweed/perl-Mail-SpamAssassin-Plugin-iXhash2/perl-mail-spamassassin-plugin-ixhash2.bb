@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "config(perl-Mail-SpamAssassin-Plugin-iXhash2) \
 perl(Mail::SpamAssassin::Plugin::iXhash2) \
 perl-Mail-SpamAssassin-Plugin-iXhash \
 perl-Mail-SpamAssassin-Plugin-iXhash2"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Digest::MD5) \
 perl(Mail::SpamAssassin)"

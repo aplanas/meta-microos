@@ -10,6 +10,7 @@ RPM_HASH = "968996e237362aac6f61c89188592c16633de5146a5c6ebc51166fbf4e0ef7e07237
 
 RPROVIDES:${PN} += "grabpng \
 grabpng(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

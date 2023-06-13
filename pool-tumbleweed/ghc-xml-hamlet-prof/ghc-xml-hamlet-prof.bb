@@ -10,6 +10,7 @@ RPM_HASH = "c4af67ac3962ba7b53fc4d5eb157f4f1e117b8a02e19c18ff2ad1dcfc33393c3ac24
 RPROVIDES:${PN} += "ghc-prof(xml-hamlet-0.5.0.2-IdxjO6rnbTj7Ym5G4XopFP) \
 ghc-xml-hamlet-prof \
 ghc-xml-hamlet-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \
 ghc-prof(parsec-3.1.16.1) \

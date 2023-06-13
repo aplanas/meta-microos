@@ -9,6 +9,7 @@ RPM_HASH = "2d00ced6e44341791619887340c0dcc4333b78eb68dbcb1d1ad240c2316d39525013
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clanlib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

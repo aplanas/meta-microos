@@ -9,6 +9,7 @@ RPM_HASH = "6ec94d2870be7fd3bc3c41000bb0feed32c0a349527ec1ddc29cd94c753f9d0d63da
 
 RPROVIDES:${PN} += "libmongoose-doc \
 libmongoose-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

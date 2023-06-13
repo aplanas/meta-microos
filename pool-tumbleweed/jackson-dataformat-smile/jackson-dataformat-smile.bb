@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "jackson-dataformat-smile \
 mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-smile) \
 mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-smile:pom:) \
 osgi(com.fasterxml.jackson.dataformat.jackson-dataformat-smile)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-core) \

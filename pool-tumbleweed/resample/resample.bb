@@ -11,6 +11,7 @@ RPM_HASH = "e537870b7c729effcacc0cc904b9be6b6cee79e65acb4cebd8b8e8bf4ec7bfefea33
 
 RPROVIDES:${PN} += "resample \
 resample(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

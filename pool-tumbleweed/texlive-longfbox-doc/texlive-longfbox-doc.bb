@@ -9,6 +9,7 @@ RPM_HASH = "f2f39064a7e8c8dc85c4f75e61c6eb1e9ee86d5c2849922dad46d28a991d526bfe39
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-longfbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "8ef199fbc70d903244683bf93ae56c90cd3cd476f739c56d2e697bcaafac04c4d7c9
 
 RPROVIDES:${PN} += "pcp-pmda-bonding \
 pcp-pmda-bonding(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 perl-PCP-PMDA"
 

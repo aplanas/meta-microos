@@ -33,6 +33,7 @@ wireshark-ui \
 wireshark-ui-gtk \
 wireshark-ui-qt \
 wireshark-ui-qt(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \

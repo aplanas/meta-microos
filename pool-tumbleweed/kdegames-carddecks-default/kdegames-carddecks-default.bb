@@ -9,6 +9,7 @@ RPM_HASH = "86ff7ce918e7937ceae4af5b8b9ab4082a0dd75ed8a15152728c46446c23bf452e1f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdegames-carddecks-default"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

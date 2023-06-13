@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-usfm2osis \
 python3.10dist(usfm2osis) \
 python310-usfm2osis \
 python3dist(usfm2osis)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

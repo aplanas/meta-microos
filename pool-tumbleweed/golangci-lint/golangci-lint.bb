@@ -11,6 +11,7 @@ RPM_HASH = "a80f5ffafa680031a9c05b87bb420f1cdc88c63d520d45c695174975f4cba2d9221e
 
 RPROVIDES:${PN} += "golangci-lint \
 golangci-lint(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

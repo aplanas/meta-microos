@@ -13,6 +13,7 @@ application(org.opensuse.yast.DNS-MANAGER.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.DNS-MANAGER.metainfo.xml) \
 yast2-dns-manager"
+
 RDEPENDS:${PN} += "krb5-client \
 samba-client \
 samba-python3 \

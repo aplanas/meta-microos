@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(huaz.sty) \
 texlive-huaz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

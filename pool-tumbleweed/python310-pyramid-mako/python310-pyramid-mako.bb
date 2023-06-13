@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyramid-mako \
 python3.10dist(pyramid-mako) \
 python310-pyramid-mako \
 python3dist(pyramid-mako)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Mako \
 python310-pyramid"

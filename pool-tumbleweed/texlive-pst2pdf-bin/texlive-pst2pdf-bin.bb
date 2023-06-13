@@ -9,6 +9,7 @@ RPM_HASH = "e43ab7827109c872223181599802b5e0f4ee4ec9789a40d0f20b85c4046e13306c8c
 
 RPROVIDES:${PN} += "texlive-pst2pdf-bin \
 texlive-pst2pdf-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pst2pdf"
 
 inherit rpm

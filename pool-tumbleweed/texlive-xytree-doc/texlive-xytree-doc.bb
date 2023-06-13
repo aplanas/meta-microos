@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-xytree-doc:en) \
 texlive-xytree-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

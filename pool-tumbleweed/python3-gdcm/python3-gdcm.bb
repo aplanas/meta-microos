@@ -9,6 +9,7 @@ RPM_HASH = "bcafc16fa79f1c53a368362c7e49f82c321ea508a70888bd64e540f3279755b0f5f6
 
 RPROVIDES:${PN} += "python3-gdcm \
 python3-gdcm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

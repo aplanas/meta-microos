@@ -10,6 +10,7 @@ RPM_HASH = "315b231049ff94101424376a70cd90d236167aaa4703dd9cfcde68e572b65af1c4ae
 
 RPROVIDES:${PN} += "libsnapper-devel \
 libsnapper-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gcc-c++ \
 libacl-devel \
 libboost_headers-devel \

@@ -10,6 +10,7 @@ RPM_HASH = "5dea421d5218177a196c0559d33a494cd681ef92c80eb22cfa50ea35c4a0b0cdd3e6
 RPROVIDES:${PN} += "ladish \
 ladish(aarch-64) \
 libalsapid.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3 \
 a2jmidid \

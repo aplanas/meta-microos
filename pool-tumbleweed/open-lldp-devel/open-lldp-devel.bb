@@ -15,6 +15,7 @@ open-lldp-devel \
 open-lldp-devel(aarch-64) \
 pkgconfig(liblldp_clif) \
 pkgconfig(lldpad)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblldp_clif1 \
 open-lldp"

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aiohttp-jinja2 \
 python3.10dist(aiohttp-jinja2) \
 python310-aiohttp-jinja2 \
 python3dist(aiohttp-jinja2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-aiohttp"

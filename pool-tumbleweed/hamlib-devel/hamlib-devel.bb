@@ -11,6 +11,7 @@ RPM_HASH = "f5f858bc07b0b65127679785d4690abccb871c1e8f4ae8fc067a1b014a7e41d16eb5
 RPROVIDES:${PN} += "hamlib-devel \
 hamlib-devel(aarch-64) \
 pkgconfig(hamlib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhamlib++4 \
 libhamlib4 \

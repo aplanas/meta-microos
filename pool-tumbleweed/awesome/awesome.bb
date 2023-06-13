@@ -14,6 +14,7 @@ RPM_HASH = "75650b978328d2c9accfdea39c0b0b91737f871b40f3c5258bd308b5d5302bf26f8d
 RPROVIDES:${PN} += "awesome \
 awesome(aarch-64) \
 windowmanager"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 awesome-branding \

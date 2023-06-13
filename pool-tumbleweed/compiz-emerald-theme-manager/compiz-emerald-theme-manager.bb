@@ -14,6 +14,7 @@ application(emerald-theme-manager.desktop) \
 compiz-emerald-theme-manager \
 compiz-emerald-theme-manager(aarch-64) \
 mimehandler(application/x-emerald-theme)"
+
 RDEPENDS:${PN} += "compiz-emerald \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

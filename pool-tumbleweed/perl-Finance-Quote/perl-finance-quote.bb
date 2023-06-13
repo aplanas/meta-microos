@@ -72,6 +72,7 @@ perl(Finance::Quote::XETRA) \
 perl(Finance::Quote::YahooJSON) \
 perl(Finance::Quote::ZA) \
 perl-Finance-Quote"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DateTime) \
 perl(DateTime::Format::Strptime) \

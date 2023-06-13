@@ -15,6 +15,7 @@ RPM_HASH = "a345216ba02683f3aa151abb210244aaff4e15e70aa5df9359c6d883f12bbcb6d45a
 
 RPROVIDES:${PN} += "shntool \
 shntool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

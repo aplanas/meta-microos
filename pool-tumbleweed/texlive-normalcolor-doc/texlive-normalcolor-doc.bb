@@ -9,6 +9,7 @@ RPM_HASH = "2753d4c5372e07fcb141f67851c3d062f7e8d1911f8069bd94cb0ed2316409771d00
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-normalcolor-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

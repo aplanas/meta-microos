@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(t-typearea.tex) \
 texlive-context-typearea"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "c21bb4d8aa48a493a25dedc84fb2f1c4acfad2cddd2effe8f90b98d724b933d8110a
 RPROVIDES:${PN} += "libKPim5GAPICore.so.5()(64bit) \
 libKPim5GAPICore5 \
 libKPim5GAPICore5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

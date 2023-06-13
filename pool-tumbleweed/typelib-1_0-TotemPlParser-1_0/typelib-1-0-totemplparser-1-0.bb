@@ -14,6 +14,7 @@ RPM_HASH = "b1f95e1e3b9634c2dfe96b746b326a8001572b60b94b60dc607a6883dfe4a7d6e4cb
 RPROVIDES:${PN} += "typelib(TotemPlParser) \
 typelib-1_0-TotemPlParser-1_0 \
 typelib-1_0-TotemPlParser-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libtotem-plparser.so.18()(64bit) \
 totem-pl-parser \
 typelib(GLib) \

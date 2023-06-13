@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "json4s-ext \
 mvn(org.json4s:json4s-ext_2.10) \
 mvn(org.json4s:json4s-ext_2.10:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(joda-time:joda-time) \

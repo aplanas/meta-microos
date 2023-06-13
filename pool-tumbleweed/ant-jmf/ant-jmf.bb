@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ant-jmf \
 config(ant-jmf) \
 mvn(org.apache.ant:ant-jmf) \
 mvn(org.apache.ant:ant-jmf:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \

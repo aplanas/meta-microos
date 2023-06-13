@@ -10,6 +10,7 @@ RPM_HASH = "7f43cb68ddfe215fcaba8f1c637bdec11f6e37730c3bfdfeaac1a586a0b221abb66e
 RPROVIDES:${PN} += "libjaylink \
 libjaylink(aarch-64) \
 libjaylink0:/usr/lib/udev/rules.d/99-libjaylink.rules"
+
 RDEPENDS:${PN} += "/bin/sh \
 udev"
 

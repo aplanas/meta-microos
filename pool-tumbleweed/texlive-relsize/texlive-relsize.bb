@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(relsize.sty) \
 texlive-relsize"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

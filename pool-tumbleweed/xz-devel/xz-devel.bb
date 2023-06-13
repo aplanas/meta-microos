@@ -13,6 +13,7 @@ lzma-devel \
 pkgconfig(liblzma) \
 xz-devel \
 xz-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblzma5"
 

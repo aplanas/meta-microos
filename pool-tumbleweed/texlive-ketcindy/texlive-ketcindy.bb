@@ -21,6 +21,7 @@ tex(ketpic2e.sty) \
 tex(ketslide.sty) \
 tex(ketslide2.sty) \
 texlive-ketcindy"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

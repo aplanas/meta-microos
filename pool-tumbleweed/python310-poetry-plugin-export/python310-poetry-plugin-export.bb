@@ -14,6 +14,7 @@ python3.10dist(poetry-plugin-export) \
 python310-poetry-plugin-export \
 python310-poetry_plugin_export \
 python3dist(poetry-plugin-export)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-poetry \
 python310-poetry-core"

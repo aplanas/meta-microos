@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(nbsmoke) \
 python311-jupyter_nbsmoke \
 python311-nbsmoke \
 python3dist(nbsmoke)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-ipykernel \
 python311-jupyter-client \

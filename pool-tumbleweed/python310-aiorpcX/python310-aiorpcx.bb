@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aiorpcX \
 python3.10dist(aiorpcx) \
 python310-aiorpcX \
 python3dist(aiorpcx)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs"
 

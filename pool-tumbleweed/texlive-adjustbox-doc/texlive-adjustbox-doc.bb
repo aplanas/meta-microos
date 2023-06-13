@@ -9,6 +9,7 @@ RPM_HASH = "5471a1c6183f8cf9000dd47ea2547794d96c25740cfb0c4f61b72a57bc38ca26c2cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-adjustbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

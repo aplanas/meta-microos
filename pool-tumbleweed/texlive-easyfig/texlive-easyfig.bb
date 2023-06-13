@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(easyfig.sty) \
 texlive-easyfig"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

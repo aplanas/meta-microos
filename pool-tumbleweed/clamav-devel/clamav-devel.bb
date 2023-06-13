@@ -14,6 +14,7 @@ RPM_HASH = "7531aabecc6478fd61480fc0d6281821816f9ddecfb5c2503ee4189cfd0f7f06da52
 RPROVIDES:${PN} += "clamav-devel \
 clamav-devel(aarch-64) \
 pkgconfig(libclamav)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libclamav9 \
 libfreshclam2"

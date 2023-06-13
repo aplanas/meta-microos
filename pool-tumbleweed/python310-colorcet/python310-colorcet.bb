@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-colorcet \
 python3.10dist(colorcet) \
 python310-colorcet \
 python3dist(colorcet)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -28,6 +28,7 @@ xfce4-panel-doc \
 xfce4-panel-plugins \
 xfce4-statusnotifier-plugin \
 xfce4-statusnotifier-plugin-lang"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

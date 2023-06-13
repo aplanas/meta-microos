@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(pst-pdgr.cfg) \
 tex(pst-pdgr.sty) \
 tex(pst-pdgr.tex) \
 texlive-pst-pdgr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

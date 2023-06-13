@@ -9,6 +9,7 @@ RPM_HASH = "1d951b39b60463710a942a8c00d033e9d4a3f29f49e20fdf7e3d4ca606455a5d0030
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dashundergaps-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

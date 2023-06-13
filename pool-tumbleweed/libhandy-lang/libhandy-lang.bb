@@ -39,6 +39,7 @@ locale(libhandy:sv) \
 locale(libhandy:tr) \
 locale(libhandy:uk) \
 locale(libhandy:zh_CN)"
+
 RDEPENDS:${PN} += "libhandy"
 
 inherit rpm

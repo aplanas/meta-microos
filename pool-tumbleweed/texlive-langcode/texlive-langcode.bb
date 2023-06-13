@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(langcode.sty) \
 texlive-langcode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

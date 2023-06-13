@@ -39,6 +39,7 @@ perl(Protocol::WebSocket::Response) \
 perl(Protocol::WebSocket::Stateful) \
 perl(Protocol::WebSocket::URL) \
 perl-Protocol-WebSocket"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Digest::SHA)"
 

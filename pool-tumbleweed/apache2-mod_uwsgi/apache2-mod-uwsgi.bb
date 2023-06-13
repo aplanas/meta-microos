@@ -11,6 +11,7 @@ RPM_HASH = "9a625bcbae8a250b3eab398d88acc74ce06d9356f03540e1fd925303a9df4b82e68c
 
 RPROVIDES:${PN} += "apache2-mod_uwsgi \
 apache2-mod_uwsgi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(histogr.sty) \
 texlive-histogr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

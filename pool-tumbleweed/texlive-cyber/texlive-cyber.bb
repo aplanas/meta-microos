@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cyber.sty) \
 texlive-cyber"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

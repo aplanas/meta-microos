@@ -64,6 +64,7 @@ tex(font_palatino.tex) \
 tex(font_times.tex) \
 tex(font_utopia.tex) \
 texlive-font-change"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

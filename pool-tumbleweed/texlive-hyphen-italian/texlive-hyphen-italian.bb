@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(hyph-it.tex) \
 tex(hyph-quote-it.tex) \
 tex(loadhyph-it.tex) \
 texlive-hyphen-italian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

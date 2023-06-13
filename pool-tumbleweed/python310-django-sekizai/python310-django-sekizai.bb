@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-sekizai \
 python3.10dist(django-sekizai) \
 python310-django-sekizai \
 python3dist(django-sekizai)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-django-classy-tags"

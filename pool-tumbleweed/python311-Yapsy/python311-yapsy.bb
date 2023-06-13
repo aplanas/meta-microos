@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(yapsy) \
 python311-Yapsy \
 python311-yapsy \
 python3dist(yapsy)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

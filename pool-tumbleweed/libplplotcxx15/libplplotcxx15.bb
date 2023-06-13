@@ -13,6 +13,7 @@ RPM_HASH = "cbaf48e3708e8cacc34aba5d3e2cc6aad4c9240e540ae8c1d8bcdd84ae62734dd4aa
 RPROVIDES:${PN} += "libplplotcxx.so.15()(64bit) \
 libplplotcxx15 \
 libplplotcxx15(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

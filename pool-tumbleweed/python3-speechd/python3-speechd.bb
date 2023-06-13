@@ -16,6 +16,7 @@ RPM_HASH = "6c88e5e0d03b31dca3bb51043bda123924c07bbec72acb4db895e189f09f4c73cc2b
 
 RPROVIDES:${PN} += "python3-speechd \
 python3-speechd(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 speech-dispatcher"
 

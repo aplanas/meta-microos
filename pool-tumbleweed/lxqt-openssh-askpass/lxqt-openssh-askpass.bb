@@ -9,6 +9,7 @@ RPM_HASH = "5a6f261f401c7d2cc9b5e3d91fbea6f6c6e20e180fcd08ce433625087dd447ac69fd
 
 RPROVIDES:${PN} += "lxqt-openssh-askpass \
 lxqt-openssh-askpass(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

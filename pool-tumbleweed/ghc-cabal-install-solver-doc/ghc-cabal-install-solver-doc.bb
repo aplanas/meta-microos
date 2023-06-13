@@ -9,6 +9,7 @@ RPM_HASH = "815fe25a0e73464dac23dd7983945f92dab91bcbebf138619b09d21afb72d6be6ae3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cabal-install-solver-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-dpcontracts \
 python3.10dist(dpcontracts) \
 python310-dpcontracts \
 python3dist(dpcontracts)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

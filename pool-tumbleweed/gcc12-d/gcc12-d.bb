@@ -10,6 +10,7 @@ RPM_HASH = "86d5f69ae2e3f9801f13571a885dfd7af9619990450764f7ce8b47252e9088dafbe4
 
 RPROVIDES:${PN} += "gcc12-d \
 gcc12-d(aarch-64)"
+
 RDEPENDS:${PN} += "gcc12 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

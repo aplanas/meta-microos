@@ -13,6 +13,7 @@ RPM_HASH = "bda4a93529803d35ef8fa925102ed5e156c6ff4d436dfa1162915afcac320b979b83
 RPROVIDES:${PN} += "libopenjp2-7 \
 libopenjp2-7(aarch-64) \
 libopenjp2.so.7()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "epy \
 python3.10dist(epy-reader) \
 python3dist(epy-reader)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-curses \

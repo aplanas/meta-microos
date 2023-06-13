@@ -10,6 +10,7 @@ RPM_HASH = "fc63fbdebadf50722b10d8b1b74f74e9192cddaf3729f52e8ebb70574c549056726b
 RPROVIDES:${PN} += "libKPim5Libkdepim.so.5()(64bit) \
 libKPim5Libkdepim5 \
 libKPim5Libkdepim5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

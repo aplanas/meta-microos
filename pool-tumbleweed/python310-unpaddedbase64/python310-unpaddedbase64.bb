@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-unpaddedbase64 \
 python3.10dist(unpaddedbase64) \
 python310-unpaddedbase64 \
 python3dist(unpaddedbase64)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

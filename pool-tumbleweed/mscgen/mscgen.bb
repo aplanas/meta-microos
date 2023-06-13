@@ -16,6 +16,7 @@ RPM_HASH = "59efa477e091b1b5f33086f65c9b8111ea55c497333ecbca0d29a03761e4d06df781
 
 RPROVIDES:${PN} += "mscgen \
 mscgen(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

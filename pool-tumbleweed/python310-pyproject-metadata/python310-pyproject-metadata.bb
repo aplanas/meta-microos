@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-pyproject-metadata \
 python3.10dist(pyproject-metadata) \
 python310-pyproject-metadata \
 python3dist(pyproject-metadata)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-packaging"
 

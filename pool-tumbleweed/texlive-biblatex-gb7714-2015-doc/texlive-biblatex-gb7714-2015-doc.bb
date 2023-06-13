@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-biblatex-gb7714-2015-doc:zh) \
 texlive-biblatex-gb7714-2015-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

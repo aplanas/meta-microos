@@ -13,6 +13,7 @@ RPM_HASH = "82f51e3720d5299677d6d9c491083e791fd43da2dc8764b9170b45d754b648cdafe2
 RPROVIDES:${PN} += "libgovirt-devel \
 libgovirt-devel(aarch-64) \
 pkgconfig(govirt-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgovirt2 \
 pkgconfig(gio-2.0) \

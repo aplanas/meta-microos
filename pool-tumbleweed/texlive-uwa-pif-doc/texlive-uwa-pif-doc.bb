@@ -9,6 +9,7 @@ RPM_HASH = "1e50d58495ec14c09e040f704c34c636c0a406cb60d7ac9af485e7d4882f6dad4fa6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uwa-pif-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

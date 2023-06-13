@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-binaryornot \
 python3.10dist(binaryornot) \
 python310-binaryornot \
 python3dist(binaryornot)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-chardet"
 

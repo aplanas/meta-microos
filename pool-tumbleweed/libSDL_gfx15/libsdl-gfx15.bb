@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "SDL_gfx \
 libSDL_gfx.so.15()(64bit) \
 libSDL_gfx15 \
 libSDL_gfx15(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

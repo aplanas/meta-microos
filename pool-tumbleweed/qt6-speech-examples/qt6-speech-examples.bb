@@ -9,6 +9,7 @@ RPM_HASH = "286171422a8f1d0beb15d5e84d0dac1ed53decd696069daafad9e854efdd59709c4a
 
 RPROVIDES:${PN} += "qt6-speech-examples \
 qt6-speech-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

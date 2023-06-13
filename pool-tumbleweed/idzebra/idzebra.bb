@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(idzebra) \
 idzebra \
 idzebra(aarch-64) \
 libidzebra-2.0.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/perl \

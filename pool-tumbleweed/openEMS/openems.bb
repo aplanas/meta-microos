@@ -9,6 +9,7 @@ RPM_HASH = "dcbf9820644c442179d72e8ce85c851c6e7c7e6845fa55343a1a2f7efdf2dd9cd656
 
 RPROVIDES:${PN} += "openEMS \
 openEMS(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -24,6 +24,7 @@ RPM_HASH = "9fd1a652dc4870c7137795cae3225255cfc9c4d9be8dc5bd88a5e715d47f49d2b8a9
 RPROVIDES:${PN} += "config(xsession) \
 xsession \
 xsession(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

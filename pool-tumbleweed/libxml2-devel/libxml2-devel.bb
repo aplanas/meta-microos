@@ -14,6 +14,7 @@ RPM_HASH = "06be27a84b0d7be88e68749e58ab8a42f626099e4e62b44c785eab9aecc026746078
 RPROVIDES:${PN} += "libxml2-devel \
 libxml2-devel(aarch-64) \
 pkgconfig(libxml-2.0)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

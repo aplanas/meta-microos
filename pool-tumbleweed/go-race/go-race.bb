@@ -11,6 +11,7 @@ RPM_HASH = "334732814f69bba4e8f91349df35012989371df27f88bb5a5dd5bb50dbaae932174b
 RPROVIDES:${PN} += "go-race \
 go-race(aarch-64) \
 golang-race"
+
 RDEPENDS:${PN} += "go \
 go1.20-race"
 

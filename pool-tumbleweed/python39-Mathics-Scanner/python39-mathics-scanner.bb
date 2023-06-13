@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mathics-scanner) \
 python39-Mathics-Scanner \
 python3dist(mathics-scanner)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 /usr/bin/python3.9 \

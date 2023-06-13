@@ -66,6 +66,7 @@ locale(rednotebook:zh_HK) \
 locale(rednotebook:zh_TW) \
 rednotebook-lang \
 rednotebook-lang-all"
+
 RDEPENDS:${PN} += "rednotebook"
 
 inherit rpm

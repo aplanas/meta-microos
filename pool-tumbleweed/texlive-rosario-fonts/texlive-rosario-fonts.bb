@@ -141,6 +141,7 @@ font(rosariolightitalic) \
 font(rosariosemibold) \
 font(rosariosemibolditalic) \
 texlive-rosario-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

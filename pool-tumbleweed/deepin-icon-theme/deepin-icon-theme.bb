@@ -9,6 +9,7 @@ RPM_HASH = "4a7eee90472b7133255a9fdcfe0e4e74942f16ccb94ff832c28c60d90e5bd4b1d456
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-icon-theme"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

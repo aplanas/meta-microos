@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-pegasus-wms.api \
 python3.10dist(pegasus-wms.api) \
 python310-pegasus-wms.api \
 python3dist(pegasus-wms.api)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pegasus-wms.common"
 

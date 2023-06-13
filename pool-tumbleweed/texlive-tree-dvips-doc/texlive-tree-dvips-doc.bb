@@ -9,6 +9,7 @@ RPM_HASH = "4fd63ab0b61a70a47ca3ea091082e2f7d7b6145077080bfe4447a71218856eb17b6c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tree-dvips-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

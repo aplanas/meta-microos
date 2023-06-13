@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6StateMachine) \
 pkgconfig(Qt6StateMachine) \
 qt6-statemachine-devel \
 qt6-statemachine-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 libQt6StateMachine6 \

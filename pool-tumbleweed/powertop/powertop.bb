@@ -11,6 +11,7 @@ RPM_HASH = "8cbbc564d3ebd27b7e37d735f74dcd08e155ced0c38c965f63428926a94cb7fb1122
 
 RPROVIDES:${PN} += "powertop \
 powertop(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

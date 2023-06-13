@@ -20,6 +20,7 @@ pkgconfig(libcdio++) \
 pkgconfig(libiso9660) \
 pkgconfig(libiso9660++) \
 pkgconfig(libudf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libcdio++1 \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-flake8-pyi \
 python3.10dist(flake8-pyi) \
 python310-flake8-pyi \
 python3dist(flake8-pyi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs \
 python310-base \

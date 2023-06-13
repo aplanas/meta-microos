@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(devnag.1) \
 texlive-velthuis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

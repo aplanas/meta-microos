@@ -10,6 +10,7 @@ RPM_HASH = "a87f6e6e135b907ad74ae38bdddd50d2d2db0ddc6fa1628960c45c5f0da05d84cfb4
 RPROVIDES:${PN} += "boost-nowide-devel-impl \
 libboost_nowide1_82_0-devel \
 libboost_nowide1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_nowide1_82_0"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Qt6BodymovinPrivate) \
 qt6-bodymovin-devel \
 qt6-bodymovin-private-devel \
 qt6-bodymovin-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Gui)"
 
 inherit rpm

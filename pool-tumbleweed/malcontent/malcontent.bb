@@ -11,6 +11,7 @@ RPM_HASH = "21d386f4457afff9f2395ba32bb414b02936c177556467ac8aac5b40051afc559150
 
 RPROVIDES:${PN} += "malcontent \
 malcontent(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

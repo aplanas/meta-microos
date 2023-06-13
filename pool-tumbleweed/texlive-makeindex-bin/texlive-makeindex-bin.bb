@@ -9,6 +9,7 @@ RPM_HASH = "ac8b12bcb160c281cee32a79a3a3282abcaee63b79694c94e8c035a56dd0db9748a7
 
 RPROVIDES:${PN} += "texlive-makeindex-bin \
 texlive-makeindex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

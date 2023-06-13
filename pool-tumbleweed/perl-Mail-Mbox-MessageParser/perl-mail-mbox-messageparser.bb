@@ -34,6 +34,7 @@ perl(Mail::Mbox::MessageParser::Grep) \
 perl(Mail::Mbox::MessageParser::MetaInfo) \
 perl(Mail::Mbox::MessageParser::Perl) \
 perl-Mail-Mbox-MessageParser"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(FileHandle::Unget)"
 

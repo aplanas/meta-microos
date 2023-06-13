@@ -11,6 +11,7 @@ RPM_HASH = "65fe4eab084e394ce9adce1494e83071d39315b9586ca9f31fe6896026096c1132b8
 
 RPROVIDES:${PN} += "xmlto \
 xmlto(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 docbook-xsl-stylesheets \
 docbook_4 \

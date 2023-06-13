@@ -26,6 +26,7 @@ RPM_HASH = "0bf1ff59f8c3e35f20387fbf5319b6cd802727e293cc98d9ace99341119ff9fd9196
 
 RPROVIDES:${PN} += "dnsmeter \
 dnsmeter(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

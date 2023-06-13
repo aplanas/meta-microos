@@ -12,6 +12,7 @@ RPM_HASH = "e8eb65b31ed97c6e888b6829b8ed0279e4fac43d97ddd6cd0a710e47a421b263bd0d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sundials-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

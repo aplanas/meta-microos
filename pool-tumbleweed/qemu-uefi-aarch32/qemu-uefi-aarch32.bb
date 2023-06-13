@@ -10,6 +10,7 @@ RPM_HASH = "77c38ba95c958df23f82b277f93c98d5096567fa3ebc1f83f137b9274f1295d4b666
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-uefi-aarch32"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-devtestlabs) \
 python311-azure-mgmt-devtestlabs \
 python3dist(azure-mgmt-devtestlabs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-mgmt-core \

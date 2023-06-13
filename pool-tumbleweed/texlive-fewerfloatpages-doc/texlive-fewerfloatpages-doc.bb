@@ -9,6 +9,7 @@ RPM_HASH = "0bf25ff3c0658c68f6fe12baf03dc7f4820a0a9b4fe1863213f8b3f3eec1332b48cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fewerfloatpages-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

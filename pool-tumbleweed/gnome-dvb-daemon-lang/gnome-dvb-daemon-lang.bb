@@ -39,6 +39,7 @@ locale(gnome-dvb-daemon:sv) \
 locale(gnome-dvb-daemon:te) \
 locale(gnome-dvb-daemon:tr) \
 locale(gnome-dvb-daemon:zh_CN)"
+
 RDEPENDS:${PN} += "gnome-dvb-daemon"
 
 inherit rpm

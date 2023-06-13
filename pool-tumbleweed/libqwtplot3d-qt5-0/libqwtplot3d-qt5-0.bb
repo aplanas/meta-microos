@@ -12,6 +12,7 @@ RPM_HASH = "fb44cd83f8adef2960a9eb09c34e3e1f26f42709c2a99c62a08964b5a31dc686081d
 RPROVIDES:${PN} += "libqwtplot3d-qt5-0 \
 libqwtplot3d-qt5-0(aarch-64) \
 libqwtplot3d-qt5.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

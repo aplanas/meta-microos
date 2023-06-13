@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-podcastparser \
 python3.10dist(podcastparser) \
 python310-podcastparser \
 python3dist(podcastparser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-xml"
 

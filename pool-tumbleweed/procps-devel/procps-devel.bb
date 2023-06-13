@@ -13,6 +13,7 @@ RPM_HASH = "fca67e853272c5b52f9d47d93c5f6e643dec75a3311303431c7ea4fa0d9faf462337
 RPROVIDES:${PN} += "pkgconfig(libprocps) \
 procps-devel \
 procps-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libprocps8"
 

@@ -12,6 +12,7 @@ RPM_HASH = "b7ad1291a1eab4dae9af4c5ea2c6aeb3f847012ac17288e12f84e5b53b26dce3b22b
 RPROVIDES:${PN} += "libnotify \
 libnotify-tools \
 libnotify-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

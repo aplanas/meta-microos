@@ -11,6 +11,7 @@ RPM_HASH = "165d25edef117b8e053a709c3d3a55e8f4124f2f6f73949989adb608d9ce16f44ba6
 RPROVIDES:${PN} += "libportal-gtk3-1 \
 libportal-gtk3-1(aarch-64) \
 libportal-gtk3.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libgdk-3.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

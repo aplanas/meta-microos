@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-mitmproxy \
 python3.10dist(mitmproxy) \
 python310-mitmproxy \
 python3dist(mitmproxy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

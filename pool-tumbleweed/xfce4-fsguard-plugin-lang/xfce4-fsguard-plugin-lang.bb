@@ -60,6 +60,7 @@ locale(xfce4-fsguard-plugin:zh_TW) \
 xfce4-fsguard-plugin-lang \
 xfce4-fsguard-plugin-lang-all \
 xfce4-panel-plugin-fsguard-lang"
+
 RDEPENDS:${PN} += "xfce4-fsguard-plugin"
 
 inherit rpm

@@ -20,6 +20,7 @@ pkgconfig(liburcu-mb) \
 pkgconfig(liburcu-memb) \
 pkgconfig(liburcu-qsbr) \
 pkgconfig(liburcu-signal)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liburcu8"
 

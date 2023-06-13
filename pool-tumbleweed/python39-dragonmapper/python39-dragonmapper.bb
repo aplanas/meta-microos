@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(dragonmapper) \
 python39-dragonmapper \
 python3dist(dragonmapper)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-hanzidentifier \
 python39-zhon"

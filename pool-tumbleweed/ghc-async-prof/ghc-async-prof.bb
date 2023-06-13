@@ -10,6 +10,7 @@ RPM_HASH = "65cf1cc018b5609af86e56c554bf20bbddea0126d192a62d6f3331da58b02a6a7d1b
 RPROVIDES:${PN} += "ghc-async-prof \
 ghc-async-prof(aarch-64) \
 ghc-prof(async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF)"
+
 RDEPENDS:${PN} += "ghc-async-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt) \

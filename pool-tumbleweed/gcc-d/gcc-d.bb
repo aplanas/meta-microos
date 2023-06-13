@@ -9,6 +9,7 @@ RPM_HASH = "39d66d2f4640066d12cfcaebba8f6a32f0d4e44af4cffa6e4bbe6e512da11066892d
 
 RPROVIDES:${PN} += "gcc-d \
 gcc-d(aarch-64)"
+
 RDEPENDS:${PN} += "gcc \
 gcc13-d \
 update-alternatives"

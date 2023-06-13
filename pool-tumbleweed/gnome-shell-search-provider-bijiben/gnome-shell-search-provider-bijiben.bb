@@ -12,6 +12,7 @@ RPM_HASH = "c317d58013c18de09b15a885183051782c0c1dec7761898cd560009c684a598310d1
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-bijiben \
 gnome-shell-search-provider-bijiben(aarch-64)"
+
 RDEPENDS:${PN} += "bijiben \
 gnome-shell \
 ld-linux-aarch64.so.1()(64bit) \

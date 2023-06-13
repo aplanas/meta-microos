@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(verbasef.sty) \
 texlive-verbasef"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-SpeechRecognition \
 python3.10dist(speechrecognition) \
 python310-SpeechRecognition \
 python3dist(speechrecognition)"
+
 RDEPENDS:${PN} += "flac \
 python(abi) \
 python-SpeechRecognition-common-en-US \

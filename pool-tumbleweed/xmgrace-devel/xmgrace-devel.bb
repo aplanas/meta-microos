@@ -14,6 +14,7 @@ RPM_HASH = "106ac200c3df202676ba21698615188a47a160b8bf140550ee7762f5f3f0672c29ac
 
 RPROVIDES:${PN} += "xmgrace-devel \
 xmgrace-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

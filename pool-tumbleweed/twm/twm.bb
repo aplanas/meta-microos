@@ -13,6 +13,7 @@ RPM_HASH = "d5b140f3e29f471b11d5c627f59411cf6a38b39b9b95cd527c75b83b3421eb20268f
 RPROVIDES:${PN} += "twm \
 twm(aarch-64) \
 windowmanager"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \

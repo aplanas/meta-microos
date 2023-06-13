@@ -38,6 +38,7 @@ perl(Mail::AuthenticationResults::Token::Separator) \
 perl(Mail::AuthenticationResults::Token::Space) \
 perl(Mail::AuthenticationResults::Token::String) \
 perl-Mail-AuthenticationResults"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Clone) \
 perl(JSON)"

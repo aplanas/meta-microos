@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(paho-mqtt) \
 python311-paho-mqtt \
 python3dist(paho-mqtt)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

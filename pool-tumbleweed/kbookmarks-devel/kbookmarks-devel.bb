@@ -11,6 +11,7 @@ RPM_HASH = "f647fa108aea0ea19a8f28f31a54dbda568adb1442cd897d8f34a8ed4b411fc910ae
 RPROVIDES:${PN} += "cmake(KF5Bookmarks) \
 kbookmarks-devel \
 kbookmarks-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5WidgetsAddons) \
 cmake(Qt5Widgets) \
 cmake(Qt5Xml) \

@@ -10,6 +10,7 @@ RPM_HASH = "4c7876428152e3ca17a712f5c977d6a54babb7a28d14e56dee52dfc26100780ab87a
 RPROVIDES:${PN} += "Mesa-libRusticlOpenCL \
 Mesa-libRusticlOpenCL(aarch-64) \
 libRusticlOpenCL.so.1()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.16()(64bit) \

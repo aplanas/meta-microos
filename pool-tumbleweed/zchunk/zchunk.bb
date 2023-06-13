@@ -14,6 +14,7 @@ RPM_HASH = "84f624504e0dd73b77ae0612d37e53ae14792224541cdffc0a59b521aecf2d6f0af8
 RPROVIDES:${PN} += "bundled(buzhash-urlblock) \
 zchunk \
 zchunk(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "7e795dfeedd4bda4c82b530deb97c70232b71dec59343f2f6027299999899e8af946
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nvimpager-zsh-completion"
+
 RDEPENDS:${PN} += "nvimpager \
 zsh"
 

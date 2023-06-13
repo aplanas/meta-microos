@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(audiomate) \
 python311-audiomate \
 python3dist(audiomate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PGet \
 python311-audioread \

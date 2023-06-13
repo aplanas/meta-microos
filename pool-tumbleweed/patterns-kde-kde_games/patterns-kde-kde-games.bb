@@ -16,6 +16,7 @@ pattern-order() \
 patterns-kde-kde_games \
 patterns-openSUSE-kde4_games \
 patterns-openSUSE-kde_games"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "396ecf470c128aa3b9a43b7d2f875a631076a4c3306ad53820c6e1e92b4a9d120428
 
 RPROVIDES:${PN} += "docker-machine-driver-kvm2 \
 docker-machine-driver-kvm2(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libvirt-qemu.so.0()(64bit) \
 libvirt-qemu.so.0(LIBVIRT_QEMU_0.10.0)(64bit) \

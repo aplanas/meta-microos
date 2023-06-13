@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(ctibmantra.sty) \
 tex(pecha.cls) \
 texlive-pecha"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

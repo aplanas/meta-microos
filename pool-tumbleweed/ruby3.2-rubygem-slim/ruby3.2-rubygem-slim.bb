@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:slim:5) \
 rubygem(ruby:3.2.0:slim:5.1) \
 rubygem(ruby:3.2.0:slim:5.1.0) \
 rubygem(slim)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

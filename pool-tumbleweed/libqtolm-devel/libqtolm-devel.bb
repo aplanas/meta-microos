@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(QtOlm) \
 libqtolm-devel \
 libqtolm-devel(aarch-64) \
 pkgconfig(QtOlm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQtOlm3_0"
 

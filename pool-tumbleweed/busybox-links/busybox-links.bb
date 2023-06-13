@@ -9,6 +9,7 @@ RPM_HASH = "098c74a1484d7bca72f1da6491995a269711ca753b54f80cafee323bee0e618ad87d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-links"
+
 RDEPENDS:${PN} += "busybox \
 busybox-adduser \
 busybox-attr \

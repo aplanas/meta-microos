@@ -10,6 +10,7 @@ RPM_HASH = "6ceb9381600de2eaa0ac0596da66bf3b9a611fa6dac963b2b79e99f8f45807aa176d
 RPROVIDES:${PN} += "ghc-prof(timerep-2.1.0.0-I3sgV342xF22sEKbdw3Ltk) \
 ghc-timerep-prof \
 ghc-timerep-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(monoid-subclasses-1.2.3-3ZmDzuybbdXkWlfa352KR) \

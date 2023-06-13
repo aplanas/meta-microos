@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flask-admin) \
 python39-Flask-Admin \
 python3dist(flask-admin)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Flask \
 python39-WTForms"

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(mate-session-manager-branding-upstream) \
 mate-session-manager-branding \
 mate-session-manager-branding-upstream"
+
 RDEPENDS:${PN} += "mate-session-manager"
 
 inherit rpm

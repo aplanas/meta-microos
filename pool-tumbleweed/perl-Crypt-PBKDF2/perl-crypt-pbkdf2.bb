@@ -22,6 +22,7 @@ perl(Crypt::PBKDF2::Hash::HMACSHA1) \
 perl(Crypt::PBKDF2::Hash::HMACSHA2) \
 perl(Crypt::PBKDF2::Hash::HMACSHA3) \
 perl-Crypt-PBKDF2"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Digest) \
 perl(Digest::HMAC) \

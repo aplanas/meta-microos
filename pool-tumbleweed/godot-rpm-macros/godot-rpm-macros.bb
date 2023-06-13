@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "godot-rpm-macros \
 rpm_macro(godot_export) \
 rpm_macro(godot_prep)"
+
 RDEPENDS:${PN} += "coreutils"
 
 inherit rpm

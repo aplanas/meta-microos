@@ -11,6 +11,7 @@ RPM_HASH = "2838f970e2f91ade40ccf86b45892da2b26a18bc9365464a61cb64a962c0698c8547
 
 RPROVIDES:${PN} += "SpeedTest++ \
 SpeedTest++(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(DateTime::Format::ISO8601) \
 perl(DateTime::Format::ISO8601::Types) \
 perl-DateTime-Format-ISO8601"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DateTime) \
 perl(DateTime::Format::Builder) \

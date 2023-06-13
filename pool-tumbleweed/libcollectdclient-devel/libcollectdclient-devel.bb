@@ -13,6 +13,7 @@ RPM_HASH = "d920d916ea00c831cb992cd83dfa3b829dbe1981adaaa03fe66c7c3f3fd7a631fe3e
 RPROVIDES:${PN} += "libcollectdclient-devel \
 libcollectdclient-devel(aarch-64) \
 pkgconfig(libcollectdclient)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcollectdclient1"
 

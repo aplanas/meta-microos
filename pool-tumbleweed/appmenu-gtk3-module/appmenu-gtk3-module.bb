@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "appmenu-gtk3 \
 appmenu-gtk3-module \
 appmenu-gtk3-module(aarch-64) \
 libappmenu-gtk-module.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 appmenu-gtk-module-common \
 gtk3-tools \

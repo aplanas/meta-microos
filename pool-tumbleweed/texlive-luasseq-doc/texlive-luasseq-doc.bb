@@ -9,6 +9,7 @@ RPM_HASH = "05107a953196c45587ddc1c484bb0762574d4945e9ec980a6a542bbefeaebb5d2153
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luasseq-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

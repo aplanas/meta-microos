@@ -11,6 +11,7 @@ RPM_HASH = "bb924384a89eeaa86d1e63ae678a1d8e7658f9b57c3693498f684499eb9d9a367b28
 RPROVIDES:${PN} += "typelib(AtrilDocument) \
 typelib-1_0-AtrilDocument-1_5_0 \
 typelib-1_0-AtrilDocument-1_5_0(aarch-64)"
+
 RDEPENDS:${PN} += "libatrildocument.so.3()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

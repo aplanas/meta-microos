@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-confusable-homoglyphs \
 python3.10dist(confusable-homoglyphs) \
 python310-confusable-homoglyphs \
 python3dist(confusable-homoglyphs)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

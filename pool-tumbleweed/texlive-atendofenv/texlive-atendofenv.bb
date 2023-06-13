@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(atendofenv.sty) \
 texlive-atendofenv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

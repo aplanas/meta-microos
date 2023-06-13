@@ -13,6 +13,7 @@ RPM_HASH = "0b13a129d9dfb1c875ebdb3f68de3c321f416b4c5944b0767db3cfde4c85776bf823
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "veusz-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

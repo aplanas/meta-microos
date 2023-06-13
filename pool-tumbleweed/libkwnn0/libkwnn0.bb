@@ -10,6 +10,7 @@ RPM_HASH = "7ec0dd1c821a9ba5bd236794a7ee1200ddbf6cd0200c04baa050077c51c5de60da51
 RPROVIDES:${PN} += "libkwnn.so.0()(64bit) \
 libkwnn0 \
 libkwnn0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

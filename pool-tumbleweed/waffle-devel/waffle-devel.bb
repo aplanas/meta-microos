@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Waffle) \
 pkgconfig(waffle-1) \
 waffle-devel \
 waffle-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwaffle-1-0"
 

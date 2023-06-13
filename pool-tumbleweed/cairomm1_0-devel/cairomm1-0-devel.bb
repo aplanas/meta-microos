@@ -18,6 +18,7 @@ pkgconfig(cairomm-ps-1.0) \
 pkgconfig(cairomm-svg-1.0) \
 pkgconfig(cairomm-xlib-1.0) \
 pkgconfig(cairomm-xlib-xrender-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcairomm-1_0-1 \
 pkgconfig(cairo) \

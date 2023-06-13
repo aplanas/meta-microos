@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyleri \
 python3.10dist(pyleri) \
 python310-pyleri \
 python3dist(pyleri)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

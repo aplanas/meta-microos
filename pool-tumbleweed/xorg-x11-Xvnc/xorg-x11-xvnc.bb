@@ -14,6 +14,7 @@ user(vnc) \
 xorg-x11-Xvnc \
 xorg-x11-Xvnc(aarch-64) \
 xorg-x11-Xvnc:/usr/lib/vnc/with-vnc-key.sh"
+
 RDEPENDS:${PN} += "/bin/awk \
 /bin/bash \
 /bin/hostname \

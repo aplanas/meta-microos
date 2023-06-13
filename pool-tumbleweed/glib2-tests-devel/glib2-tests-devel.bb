@@ -19,6 +19,7 @@ libmoduletestplugin_b_plugin.so()(64bit) \
 libresourceplugin.so()(64bit) \
 libtestmodulea.so()(64bit) \
 libtestmoduleb.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/python3 \

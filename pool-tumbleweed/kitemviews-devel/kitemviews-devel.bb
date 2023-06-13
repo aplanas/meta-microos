@@ -12,6 +12,7 @@ RPM_HASH = "775cca4ef2e6c3f66adf1c565a5637d67fe15f9c51dfe60794ceb89e27016dfc38cc
 RPROVIDES:${PN} += "cmake(KF5ItemViews) \
 kitemviews-devel \
 kitemviews-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Widgets) \
 extra-cmake-modules \
 ld-linux-aarch64.so.1()(64bit) \

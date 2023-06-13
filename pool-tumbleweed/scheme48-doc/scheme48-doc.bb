@@ -9,6 +9,7 @@ RPM_HASH = "36c8cc80738c29e9d48f5231dd84a43136bd7dc51ec1c27a5aa3af004f2dc9cf57c2
 
 RPROVIDES:${PN} += "scheme48-doc \
 scheme48-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

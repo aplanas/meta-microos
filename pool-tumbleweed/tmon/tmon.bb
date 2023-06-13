@@ -10,6 +10,7 @@ RPM_HASH = "82116f07d49bb2090364e16044e177dfe51f8a747eb039dc4441e9dd553837c192e1
 
 RPROVIDES:${PN} += "tmon \
 tmon(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

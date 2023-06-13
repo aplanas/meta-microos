@@ -11,6 +11,7 @@ RPM_HASH = "c317e7ce50f3c3bc39ad53e39671ae9ab19d97063171ed78c0a26572187d2c002cd9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mozilla-zilla-slab-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

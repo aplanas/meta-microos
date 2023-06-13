@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aiohttp-theme) \
 python39-aiohttp-theme \
 python3dist(aiohttp-theme)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -21,6 +21,7 @@ tex(hyph-sr-cyrl.tex) \
 tex(loadhyph-sr-cyrl.tex) \
 tex(loadhyph-sr-latn.tex) \
 texlive-hyphen-serbian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

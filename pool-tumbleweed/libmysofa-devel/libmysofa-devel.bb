@@ -13,6 +13,7 @@ RPM_HASH = "1916c71906e43f1f2bb02414819bb5a89b4969df4a50c3eb18634304e6da22ae1d85
 RPROVIDES:${PN} += "libmysofa-devel \
 libmysofa-devel(aarch-64) \
 pkgconfig(libmysofa)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmysofa1"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sshpubkeys) \
 python39-sshpubkeys \
 python3dist(sshpubkeys)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cryptography \
 python39-ecdsa"

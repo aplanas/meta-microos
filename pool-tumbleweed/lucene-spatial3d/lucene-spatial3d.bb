@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "lucene-spatial3d \
 mvn(org.apache.lucene:lucene-spatial3d) \
 mvn(org.apache.lucene:lucene-spatial3d:pom:) \
 osgi(org.apache.lucene.spatial3d)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-core)"

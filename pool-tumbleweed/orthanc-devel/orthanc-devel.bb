@@ -10,6 +10,7 @@ RPM_HASH = "57963b9df7c19a33205eac80b9a7062b274e0c45fcb6abaef8737626c4d320979aad
 RPROVIDES:${PN} += "orthanc-devel \
 orthanc-devel(aarch-64) \
 orthanc-static"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

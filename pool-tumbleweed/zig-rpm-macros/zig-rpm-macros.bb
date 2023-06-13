@@ -22,6 +22,7 @@ rpm_macro(zig_build) \
 rpm_macro(zig_install) \
 rpm_macro(zig_test) \
 zig-rpm-macros"
+
 RDEPENDS:${PN} += "rpm"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "c4d3d257ea5f95108885e34af8d9f7303420ac19fdd1b031635bef168b677167cef7
 RPROVIDES:${PN} += "libnsssharedhelper.so.0()(64bit) \
 libnsssharedhelper0 \
 libnsssharedhelper0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

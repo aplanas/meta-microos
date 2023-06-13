@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(na-box.sty) \
 texlive-na-box"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

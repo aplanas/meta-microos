@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-basictracer \
 python3.10dist(basictracer) \
 python310-basictracer \
 python3dist(basictracer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-opentracing \
 python310-protobuf \

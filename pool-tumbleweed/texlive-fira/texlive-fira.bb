@@ -2125,6 +2125,7 @@ tex(fir_yz65wh.enc) \
 tex(fir_znzycj.enc) \
 tex(fira.map) \
 texlive-fira"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

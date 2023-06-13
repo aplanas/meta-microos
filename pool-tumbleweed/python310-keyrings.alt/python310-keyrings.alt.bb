@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-keyrings.alt \
 python3.10dist(keyrings.alt) \
 python310-keyrings.alt \
 python3dist(keyrings.alt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jaraco.classes \
 python310-pycryptodomex"

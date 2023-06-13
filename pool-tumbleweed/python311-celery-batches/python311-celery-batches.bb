@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(celery-batches) \
 python311-celery-batches \
 python3dist(celery-batches)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-celery"
 

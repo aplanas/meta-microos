@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(ndtiff) \
 python311-ndtiff \
 python3dist(ndtiff)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-dask-array \
 python311-numpy"

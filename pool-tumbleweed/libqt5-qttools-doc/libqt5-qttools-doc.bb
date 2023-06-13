@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5DocTools) \
 libqt5-qtbase-doc \
 libqt5-qttools-doc \
 libqt5-qttools-doc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

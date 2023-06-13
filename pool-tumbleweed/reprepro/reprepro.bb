@@ -14,6 +14,7 @@ RPM_HASH = "b1d3737a7bff17d3732584db3687de9c801912836e5607d8dacf0666820001c519af
 
 RPROVIDES:${PN} += "reprepro \
 reprepro(aarch-64)"
+
 RDEPENDS:${PN} += "bzip2 \
 gpg2 \
 ld-linux-aarch64.so.1()(64bit) \

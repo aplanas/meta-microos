@@ -12,6 +12,7 @@ RPM_HASH = "11540f301c54b3ebafdd9eed358547fab43dfcc9082d874ec99ea5855a8adf0ef770
 RPROVIDES:${PN} += "liblxcfs.so()(64bit) \
 lxcfs \
 lxcfs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

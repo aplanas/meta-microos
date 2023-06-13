@@ -17,6 +17,7 @@ RPM_HASH = "10d1c8c55c30283644d8cc68b84438ce4d8b2f1bad7c9243c5357bed95b71d3d2c10
 
 RPROVIDES:${PN} += "htdig-doc \
 htdig-doc(aarch-64)"
+
 RDEPENDS:${PN} += "htdig"
 
 inherit rpm

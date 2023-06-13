@@ -12,6 +12,7 @@ RPM_HASH = "c5de3cd306903cc33fd99f9da1cef432bc7512174c6018c77b5c03274c2a2acb1f10
 RPROVIDES:${PN} += "libgstreamermm-1.0.so.1()(64bit) \
 libgstreamermm-1_0-1 \
 libgstreamermm-1_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

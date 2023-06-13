@@ -23,6 +23,7 @@ libibverbs.so.1(IBVERBS_1.9)(64bit) \
 libibverbs.so.1(IBVERBS_PRIVATE_34)(64bit) \
 libibverbs1 \
 libibverbs1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

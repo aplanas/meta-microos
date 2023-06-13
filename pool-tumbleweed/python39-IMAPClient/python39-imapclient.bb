@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(imapclient) \
 python39-IMAPClient \
 python3dist(imapclient)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

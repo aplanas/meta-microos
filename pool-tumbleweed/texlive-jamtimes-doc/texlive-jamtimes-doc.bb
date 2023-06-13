@@ -9,6 +9,7 @@ RPM_HASH = "1b9717936a27c46f096072a4595493e20caec66f7e59e44d4e082ab75e27e2eeac9c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jamtimes-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -18,6 +18,7 @@ RPM_HASH = "ce45935af1d773536fa616e85dee16059fd2df6d214b6058bf269023c1d89eb7af50
 RPROVIDES:${PN} += "perl(Lingua::EN::Tagger) \
 perl-Lingua-EN-Tagger \
 perl-Lingua-EN-Tagger(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTML::Parser) \
 perl(HTML::Tagset) \

@@ -10,6 +10,7 @@ RPM_HASH = "097880d500781672664855b8d583a2f5925cf53eb6acf1c74310d444400b3b53b2ed
 
 RPROVIDES:${PN} += "hex2bin \
 hex2bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

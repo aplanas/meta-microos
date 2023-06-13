@@ -18,6 +18,7 @@ RPM_HASH = "1c040abb62f9db6e369ac422580c4f3b5fd057f98b5d3d2de8fa8d101f7d764d4304
 RPROVIDES:${PN} += "cryptsetup:/sbin/hashalot \
 hashalot \
 hashalot(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

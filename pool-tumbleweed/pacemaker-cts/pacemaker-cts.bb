@@ -9,6 +9,7 @@ RPM_HASH = "e8b003d6f10e525bb1374bd322c71df64539f1a00158115f9c93d8efee5f8c07781c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pacemaker-cts"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/python3 \

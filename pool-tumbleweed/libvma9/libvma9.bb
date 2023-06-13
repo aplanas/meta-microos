@@ -14,6 +14,7 @@ RPM_HASH = "e26d6a7a291d6a058f79e96f3797de7db001379adae19b6810b65df41f858d6ed7aa
 RPROVIDES:${PN} += "libvma.so.9()(64bit) \
 libvma9 \
 libvma9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

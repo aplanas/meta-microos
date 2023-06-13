@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(django-webtest) \
 python311-django-webtest \
 python311-django-webtest(aarch-64) \
 python3dist(django-webtest)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-WebTest"

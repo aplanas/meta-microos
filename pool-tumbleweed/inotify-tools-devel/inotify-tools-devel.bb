@@ -10,6 +10,7 @@ RPM_HASH = "f0c951a97137ab8800e9c09c37cb2643c53a63d964774460666516bd38465778429f
 
 RPROVIDES:${PN} += "inotify-tools-devel \
 inotify-tools-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libinotifytools0"
 
 inherit rpm

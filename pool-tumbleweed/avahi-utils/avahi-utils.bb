@@ -10,6 +10,7 @@ RPM_HASH = "33b7ee7d3ddc6a21e6957208ef765adf88f549b04050f6c240172b7fa90ec4065f2d
 
 RPROVIDES:${PN} += "avahi-utils \
 avahi-utils(aarch-64)"
+
 RDEPENDS:${PN} += "avahi \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

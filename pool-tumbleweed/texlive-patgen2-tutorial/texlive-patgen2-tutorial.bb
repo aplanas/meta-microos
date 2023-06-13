@@ -10,6 +10,7 @@ RPM_HASH = "9b27a7ad35994d65f0be184187062910dab655063f9c860d08e36826bc9ae8b9eda7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-patgen2-tutorial"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

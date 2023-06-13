@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luaimageembed.sty) \
 texlive-luaimageembed"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

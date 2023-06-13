@@ -17,6 +17,7 @@ RPM_HASH = "790502fd943392a9f8bd81239d7e877e5f143cd94c55a2203986bc3e0039db9cfb8b
 RPROVIDES:${PN} += "liboauth-devel \
 liboauth-devel(aarch-64) \
 pkgconfig(oauth)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 liboauth0"

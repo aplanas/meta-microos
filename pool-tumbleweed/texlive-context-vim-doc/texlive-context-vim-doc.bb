@@ -9,6 +9,7 @@ RPM_HASH = "f71cca8309733f0c6696fbffe5ff246408d7ec5c8ac05856b60fefe012482cd0e7d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-vim-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -40,6 +40,7 @@ RPROVIDES:${PN} += "python3-cookies \
 python3.10dist(cookies) \
 python310-cookies \
 python3dist(cookies)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

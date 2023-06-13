@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pst-vectorian-doc:fr) \
 texlive-pst-vectorian-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

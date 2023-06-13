@@ -11,6 +11,7 @@ RPM_HASH = "9900d1dfb04c1f97922f771b1a82235eda142b78e3cd54018a1fce5e94eaf333995e
 RPROVIDES:${PN} += "ghc-devel(streaming-commons-0.2.2.6-DrPeIbd2d2c3jQtctttO4G) \
 ghc-streaming-commons-devel \
 ghc-streaming-commons-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(array-0.5.4.0) \

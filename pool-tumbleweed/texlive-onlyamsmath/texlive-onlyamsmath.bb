@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(onlyamsmath.sty) \
 texlive-onlyamsmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

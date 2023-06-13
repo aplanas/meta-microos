@@ -12,6 +12,7 @@ RPM_HASH = "8d12b981982e14e12078335a4a74ad3f78ed92f376c4373a476dd51d93c20d09952e
 RPROVIDES:${PN} += "libXcm.so.0()(64bit) \
 libXcm0 \
 libXcm0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libXcmEDID.so.0()(64bit) \
 libm.so.6()(64bit)"

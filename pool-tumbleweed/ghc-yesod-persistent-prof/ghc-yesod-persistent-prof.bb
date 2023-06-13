@@ -10,6 +10,7 @@ RPM_HASH = "89fc2bea7e650a3e2bfba1ae9d9df9a42ebab804df15ffc1a1075e77ee7e5fa344b3
 RPROVIDES:${PN} += "ghc-prof(yesod-persistent-1.6.0.8-DUd8QtbJfktGowTUT2pCEk) \
 ghc-yesod-persistent-prof \
 ghc-yesod-persistent-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(blaze-builder-0.4.2.2-1GcRIc7N7YHId5Q5gRvlvW) \
 ghc-prof(conduit-1.3.4.3-dAZVHPSYjL2zQ4RzAuWi2) \

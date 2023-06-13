@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "perl(IO::Socket::Timeout) \
 perl(IO::Socket::Timeout::Role::PerlIO) \
 perl(IO::Socket::Timeout::Role::SetSockOpt) \
 perl-IO-Socket-Timeout"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(PerlIO::via::Timeout)"
 

@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-black \
 python3.10dist(black) \
 python310-black \
 python3dist(black)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

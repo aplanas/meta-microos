@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-binary-memcached) \
 python311-python-binary-memcached \
 python3dist(python-binary-memcached)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six \
 python311-uhashring"

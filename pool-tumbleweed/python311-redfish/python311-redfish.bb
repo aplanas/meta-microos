@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(redfish) \
 python311-redfish \
 python3dist(redfish)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-jsonpatch \
 python311-jsonpath-rw \

@@ -10,6 +10,7 @@ RPM_HASH = "52672562f47252c2f59eed6ebfed5bd2cfadcaf11c36c80ed82c36a1e44d61c4f600
 RPROVIDES:${PN} += "libKF5JobWidgets.so.5()(64bit) \
 libKF5JobWidgets5 \
 libKF5JobWidgets5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

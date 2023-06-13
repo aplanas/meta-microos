@@ -13,6 +13,7 @@ RPM_HASH = "a67cfd19946a928a153517bf420b3d5cdec30c3ab13f0048bee798449ff085d3592c
 RPROVIDES:${PN} += "ccache \
 ccache(aarch-64) \
 distcc:/usr/bin/ccache"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

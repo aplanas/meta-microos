@@ -9,6 +9,7 @@ RPM_HASH = "3d48de9a9b795896d7765269e726a836ee773f4b7b7361633e6b10e3978deb642e9d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kurdishlipsum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

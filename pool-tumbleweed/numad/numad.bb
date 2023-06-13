@@ -21,6 +21,7 @@ RPM_HASH = "2dc73f456adcce40deeef95e6dd487710978ae0e60952d69f6d192c07d1214947bc6
 RPROVIDES:${PN} += "config(numad) \
 numad \
 numad(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

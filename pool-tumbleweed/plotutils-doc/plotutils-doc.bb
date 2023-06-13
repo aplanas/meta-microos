@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plotutils-doc \
 plotutils:/usr/share/doc/packages/plotutils/README"
+
 RDEPENDS:${PN} += "plotutils"
 
 inherit rpm

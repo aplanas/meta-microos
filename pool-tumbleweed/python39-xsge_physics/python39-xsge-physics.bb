@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(xsge-physics) \
 python39-xsge_physics \
 python3dist(xsge-physics)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-sge-pygame"
 

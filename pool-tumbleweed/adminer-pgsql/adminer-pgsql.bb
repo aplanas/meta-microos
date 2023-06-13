@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adminer-database-support \
 adminer-pgsql"
+
 RDEPENDS:${PN} += "adminer \
 php-pgsql"
 

@@ -16,6 +16,7 @@ python3.10dist(pymongo) \
 python310-pymongo \
 python310-pymongo(aarch-64) \
 python3dist(pymongo)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

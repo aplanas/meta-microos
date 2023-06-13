@@ -27,6 +27,7 @@ ocamlx(MenhirSdk__Cmly_format) \
 ocamlx(MenhirSdk__Cmly_read) \
 ocamlx(MenhirSdk__Keyword) \
 ocamlx(MenhirSdk__Version)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(CamlinternalLazy) \
 ocaml(Stdlib) \

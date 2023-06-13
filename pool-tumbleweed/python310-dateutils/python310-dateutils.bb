@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dateutils \
 python3.10dist(dateutils) \
 python310-dateutils \
 python3dist(dateutils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-dateutil \
 python310-pytz"

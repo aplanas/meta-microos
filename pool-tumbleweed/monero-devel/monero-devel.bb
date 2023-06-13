@@ -14,6 +14,7 @@ RPM_HASH = "8eacb1fd4ef6cd16a8ebe46a8bd22302b0b404e61eacf7f45a2c627dafee904be519
 
 RPROVIDES:${PN} += "monero-devel \
 monero-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

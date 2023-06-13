@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "gnome-icon-theme \
 gnome-icon-theme-devel \
 pkgconfig(gnome-icon-theme)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 gtk3-tools"

@@ -15,6 +15,7 @@ pattern-order() \
 patterns-cinnamon-cinnamon_basis \
 patterns-cinnamon-cinnamon_basis(aarch-64) \
 patterns-openSUSE-cinnamon_basis"
+
 RDEPENDS:${PN} += "cinnamon \
 cinnamon-control-center \
 cinnamon-screensaver \

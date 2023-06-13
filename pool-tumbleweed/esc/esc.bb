@@ -9,6 +9,7 @@ RPM_HASH = "83ecd768615e11ebfb089d6849fa21b719c73cd979c431b70836a175e627091755e3
 
 RPROVIDES:${PN} += "esc \
 esc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

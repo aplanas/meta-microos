@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(owasp-modsecurity-crs) \
 owasp-modsecurity-crs"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/lua \
 /usr/bin/perl \

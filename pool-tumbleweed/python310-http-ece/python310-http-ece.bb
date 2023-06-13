@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-http-ece \
 python3.10dist(http-ece) \
 python310-http-ece \
 python3dist(http-ece)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography"
 

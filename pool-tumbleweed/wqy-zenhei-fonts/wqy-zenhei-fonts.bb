@@ -148,6 +148,7 @@ scalable-font-zh-SG \
 scalable-font-zh-TW \
 ttf-wqy-zenhei \
 wqy-zenhei-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

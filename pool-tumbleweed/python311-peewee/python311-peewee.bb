@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(peewee) \
 python311-peewee \
 python311-peewee(aarch-64) \
 python3dist(peewee)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1()(64bit) \

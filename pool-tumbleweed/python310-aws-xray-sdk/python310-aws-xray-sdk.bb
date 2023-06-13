@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-aws-xray-sdk \
 python3.10dist(aws-xray-sdk) \
 python310-aws-xray-sdk \
 python3dist(aws-xray-sdk)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-botocore \
 python310-wrapt"

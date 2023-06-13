@@ -15,6 +15,7 @@ libgpgme.so.11(GPGME_1.0)(64bit) \
 libgpgme.so.11(GPGME_1.1)(64bit) \
 libgpgme11 \
 libgpgme11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gpg2 \
 ld-linux-aarch64.so.1()(64bit) \

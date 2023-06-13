@@ -12,6 +12,7 @@ RPM_HASH = "1f915e700ea15e325727ace505337b6681ded381480185fae913b401a5f582662d4f
 
 RPROVIDES:${PN} += "yang-tools \
 yang-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

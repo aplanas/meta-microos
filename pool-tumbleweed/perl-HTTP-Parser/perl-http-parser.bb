@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(HTTP::Parser) \
 perl-HTTP-Parser"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Request) \
 perl(HTTP::Response) \

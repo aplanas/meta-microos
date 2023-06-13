@@ -20,6 +20,7 @@ locale(k4dirstat:ja) \
 locale(k4dirstat:lt) \
 locale(k4dirstat:lv) \
 locale(k4dirstat:nl)"
+
 RDEPENDS:${PN} += "k4dirstat"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "f360d46bacbce8e5905ffca496f878dc26b5937be2c4a7f2af254c9367f77396fe95
 RPROVIDES:${PN} += "config(pptp) \
 pptp \
 pptp(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libvdehist-devel \
 libvdehist-devel(aarch-64) \
 libvdehist0-devel \
 pkgconfig(vdehist)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvdehist0 \
 vde2"

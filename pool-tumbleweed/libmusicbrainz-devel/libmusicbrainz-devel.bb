@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libmusicbrainz-devel \
 libmusicbrainz-devel(aarch-64) \
 libmusicbrainz5-devel \
 pkgconfig(libmusicbrainz5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmusicbrainz5-1 \
 libstdc++-devel \

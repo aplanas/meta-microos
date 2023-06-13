@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-zict \
 python3.10dist(zict) \
 python310-zict \
 python3dist(zict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-HeapDict"
 

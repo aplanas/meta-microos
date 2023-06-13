@@ -9,6 +9,7 @@ RPM_HASH = "ca82fbebc3e8c695531a18187556c8b39afc1c21722b16bd8d579b058eabac5729ce
 
 RPROVIDES:${PN} += "libs3-tools \
 libs3-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

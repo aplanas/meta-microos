@@ -31,6 +31,7 @@ RPROVIDES:${PN} += "python3-epubmerge \
 python3.10dist(epubmerge) \
 python310-epubmerge \
 python3dist(epubmerge)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

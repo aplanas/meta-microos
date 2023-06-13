@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-azure-containerregistry \
 python3.10dist(azure-containerregistry) \
 python310-azure-containerregistry \
 python3dist(azure-containerregistry)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

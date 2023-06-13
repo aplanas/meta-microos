@@ -16,6 +16,7 @@ RPM_HASH = "bddeafe335b4263463a930bc3a7c39261085009fffc7717ab75009eb5b096e808d75
 
 RPROVIDES:${PN} += "autofdo \
 autofdo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.13()(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "19ee440af7aaa16999bb828cc72dea77cdb790762c1686063aa1f1f220a060fc503a
 
 RPROVIDES:${PN} += "ico \
 ico(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

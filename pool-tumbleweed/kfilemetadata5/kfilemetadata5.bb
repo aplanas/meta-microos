@@ -10,6 +10,7 @@ RPM_HASH = "36b724393b05b0799cc9dd54f8b5ed82695f56e28574d6ed8a7cd2e6227a65ae3705
 RPROVIDES:${PN} += "kfilemetadata5 \
 kfilemetadata5(aarch-64) \
 libKF5FileMetaData.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

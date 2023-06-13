@@ -17,6 +17,7 @@ RPM_HASH = "b3f847ab7aef66b2a35716c333c3279c506e4f7a4104dab37e05411cfe0c4b5adbbf
 RPROVIDES:${PN} += "config(java-1_8_0-openj9-accessibility) \
 java-1_8_0-openj9-accessibility \
 java-1_8_0-openj9-accessibility(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-1_8_0-openj9 \
 java-atk-wrapper"

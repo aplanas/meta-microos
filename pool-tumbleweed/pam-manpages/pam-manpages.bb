@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pam-manpages \
 pam://usr/share/man/man8/PAM.8.gz"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

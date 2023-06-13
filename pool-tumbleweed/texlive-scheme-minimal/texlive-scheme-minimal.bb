@@ -12,6 +12,7 @@ RPM_HASH = "2b89db2b725b6cca7bacbfd97d5d634f2ae921de32d41946f2bf1962f361428207d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-minimal"
+
 RDEPENDS:${PN} += "texlive-collection-basic"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "e6c63629fa5d7d781035ee15cbbb63fd6118724a3b8c7847ba68aa6c9b393183c949
 RPROVIDES:${PN} += "Mesa-vulkan-device-select \
 Mesa-vulkan-device-select(aarch-64) \
 libVkLayer_MESA_device_select.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.28)(64bit) \

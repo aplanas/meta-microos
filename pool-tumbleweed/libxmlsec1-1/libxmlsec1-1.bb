@@ -12,6 +12,7 @@ RPM_HASH = "3506a69da8b3846fb5f5b5c45f5ef994bad586338197c9e658069e742ca4fbd214d1
 RPROVIDES:${PN} += "libxmlsec1-1 \
 libxmlsec1-1(aarch-64) \
 libxmlsec1.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libltdl.so.7()(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-DataShape \
 python3.10dist(datashape) \
 python310-DataShape \
 python3dist(datashape)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-multipledispatch \
 python310-numpy \

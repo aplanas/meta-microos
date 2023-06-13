@@ -9,6 +9,7 @@ RPM_HASH = "1ae56bd8de827d4a6873fe82b831e28388a9ff5f0630afb7d84ad9a00696b1961289
 
 RPROVIDES:${PN} += "wsl-appx \
 wsl-appx(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

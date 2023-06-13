@@ -53,6 +53,7 @@ libemX11.so()(64bit) \
 libemXbm.so()(64bit) \
 libemXpm.so()(64bit) \
 perl(PlEx)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 abiword \

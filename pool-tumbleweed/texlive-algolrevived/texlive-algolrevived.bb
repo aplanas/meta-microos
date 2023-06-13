@@ -187,6 +187,7 @@ tex(zal_yz65wh.enc) \
 tex(zal_ziib6p.enc) \
 tex(zal_zqbwat.enc) \
 texlive-algolrevived"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

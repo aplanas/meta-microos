@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libbd_btrfs.so.2()(64bit) \
 libbd_btrfs2 \
 libbd_btrfs2(aarch-64) \
 libblockdev-btrfs"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

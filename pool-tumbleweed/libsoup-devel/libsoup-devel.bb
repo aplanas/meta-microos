@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "libsoup-devel \
 libsoup-devel(aarch-64) \
 libsoup-doc \
 pkgconfig(libsoup-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsoup-3_0-0 \
 pkgconfig(gio-2.0) \

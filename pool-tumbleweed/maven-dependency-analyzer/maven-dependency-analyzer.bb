@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-dependency-analyzer \
 mvn(org.apache.maven.shared:maven-dependency-analyzer) \
 mvn(org.apache.maven.shared:maven-dependency-analyzer:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven:maven-artifact) \

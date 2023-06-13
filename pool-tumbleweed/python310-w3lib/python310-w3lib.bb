@@ -32,6 +32,7 @@ RPROVIDES:${PN} += "python3-w3lib \
 python3.10dist(w3lib) \
 python310-w3lib \
 python3dist(w3lib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

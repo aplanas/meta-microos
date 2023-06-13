@@ -9,6 +9,7 @@ RPM_HASH = "db9ae4a6b089149baedf1f846ceebad62e9cd96bf8f134ee4c26ae347481451b8235
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-jira-wiki-markup-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

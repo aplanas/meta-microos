@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(extlabels.sty) \
 texlive-macros2e"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "8cfb0512a6b35130d467f0984829447767450a7e47ab70bfc3a17d4c1760ced2da18
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zebra-goodies-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

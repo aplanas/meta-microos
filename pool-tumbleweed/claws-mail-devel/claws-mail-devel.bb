@@ -16,6 +16,7 @@ claws-mail-devel(aarch-64) \
 claws-mail-extra-plugins-devel \
 claws-mail:/usr/include/claws-mail/main.h \
 pkgconfig(claws-mail)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 claws-mail \
 enchant-devel \

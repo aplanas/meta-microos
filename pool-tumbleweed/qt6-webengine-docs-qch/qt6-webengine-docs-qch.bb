@@ -9,6 +9,7 @@ RPM_HASH = "d09fbaf785fa86a26d07fb5d2fa878bbbaaffdb13b7525289eb5b33c34d638e20828
 
 RPROVIDES:${PN} += "qt6-webengine-docs-qch \
 qt6-webengine-docs-qch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

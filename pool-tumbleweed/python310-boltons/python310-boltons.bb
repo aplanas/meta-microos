@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-boltons \
 python3.10dist(boltons) \
 python310-boltons \
 python3dist(boltons)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

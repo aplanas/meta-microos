@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-mimesis \
 python3.10dist(mimesis) \
 python310-mimesis \
 python3dist(mimesis)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

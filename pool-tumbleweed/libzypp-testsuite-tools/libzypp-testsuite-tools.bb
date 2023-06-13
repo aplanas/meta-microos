@@ -20,6 +20,7 @@ RPM_HASH = "000e14579df0b45c5bb338e011825eafa41ccd3af833399cd4ea8e7b0780a7c04260
 
 RPROVIDES:${PN} += "libzypp-testsuite-tools \
 libzypp-testsuite-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

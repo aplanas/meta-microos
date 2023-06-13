@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(linegoal.sty) \
 texlive-linegoal"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

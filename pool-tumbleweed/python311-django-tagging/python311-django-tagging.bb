@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-tagging) \
 python311-django-tagging \
 python3dist(django-tagging)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django"
 

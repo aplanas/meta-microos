@@ -33,6 +33,7 @@ RPM_HASH = "8fc0b7540b861a4e7cc00b356b579bb064c1c916895bf0ded07ada3a76504f123eac
 
 RPROVIDES:${PN} += "nbdkit \
 nbdkit(aarch-64)"
+
 RDEPENDS:${PN} += "nbdkit-basic-filters \
 nbdkit-basic-plugins \
 nbdkit-server"

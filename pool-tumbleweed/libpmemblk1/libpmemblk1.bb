@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libpmemblk.so.1()(64bit) \
 libpmemblk.so.1(LIBPMEMBLK_1.0)(64bit) \
 libpmemblk1 \
 libpmemblk1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

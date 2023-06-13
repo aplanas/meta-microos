@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(podman) \
 python39-podman \
 python3dist(podman)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pyxdg \
 python39-requests \

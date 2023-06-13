@@ -10,6 +10,7 @@ RPM_HASH = "6412442e7d893af40e5cf5bc48953ce1c4f84b3d08e93fbf2dc80d260d04b997de67
 
 RPROVIDES:${PN} += "bonnie \
 bonnie(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -97,6 +97,7 @@ locale(cinnamon:wa) \
 locale(cinnamon:zh_CN) \
 locale(cinnamon:zh_HK) \
 locale(cinnamon:zh_TW)"
+
 RDEPENDS:${PN} += "cinnamon"
 
 inherit rpm

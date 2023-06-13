@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mouseinfo) \
 python39-MouseInfo \
 python3dist(mouseinfo)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Pillow \
 python39-pyperclip"

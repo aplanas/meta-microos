@@ -14,6 +14,7 @@ mvn(com.sun.xml.bind:jaxb-impl:pom:) \
 mvn(org.glassfish.jaxb:jaxb-runtime) \
 mvn(org.glassfish.jaxb:jaxb-runtime:pom:) \
 osgi(com.sun.xml.bind.jaxb-impl)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.sun.istack:istack-commons-runtime) \

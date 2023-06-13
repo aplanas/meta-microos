@@ -16,6 +16,7 @@ RPM_HASH = "0f8f2ec0982cadb041050f1f370c1f4edd4aec16069a916f82a82768e0dd4488f6d0
 RPROVIDES:${PN} += "libmysqlcppconn-devel \
 libmysqlcppconn-devel(aarch-64) \
 mysql-connector-c++-devel"
+
 RDEPENDS:${PN} += "libboost_headers-devel \
 libmysqlcppconn9"
 

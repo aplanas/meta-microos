@@ -9,6 +9,7 @@ RPM_HASH = "1a469dfb32565b6e4dab3366318eb75e5950c5c230873ba860308aed9c353671da70
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnubg-sounds"
+
 RDEPENDS:${PN} += "gnubg"
 
 inherit rpm

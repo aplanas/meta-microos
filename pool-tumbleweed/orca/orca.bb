@@ -11,6 +11,7 @@ RPM_HASH = "1a30f1dac1383cf244bd080dad3f9ed77ace8e855ce640714b62e1792c95545ab3cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "orca"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 glib2-tools \
 py3atspi \

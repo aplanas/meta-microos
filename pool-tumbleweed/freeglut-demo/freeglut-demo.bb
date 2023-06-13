@@ -19,6 +19,7 @@ RPM_HASH = "aa6e1a8dc4a220bb767a83e4430abea840119d53bf94d7fc518d36c8eb89614be1e3
 
 RPROVIDES:${PN} += "freeglut-demo \
 freeglut-demo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

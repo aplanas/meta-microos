@@ -35,6 +35,7 @@ tex(mlp-opts.sty) \
 tex(mlp.sty) \
 tex(pmfrench.sty) \
 texlive-e-french"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

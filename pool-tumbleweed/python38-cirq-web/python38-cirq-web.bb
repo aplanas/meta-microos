@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.8dist(cirq-web) \
 python38-cirq-web \
 python3dist(cirq-web)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

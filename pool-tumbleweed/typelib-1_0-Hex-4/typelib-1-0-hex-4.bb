@@ -10,6 +10,7 @@ RPM_HASH = "697c367e0160e6b8eaf59d8c7fec2fcc7b1217b6130c866c42a62077f2a6d597792e
 RPROVIDES:${PN} += "typelib(Hex) \
 typelib-1_0-Hex-4 \
 typelib-1_0-Hex-4(aarch-64)"
+
 RDEPENDS:${PN} += "libgtkhex-4.so.1()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

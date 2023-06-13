@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bibtopic.sty) \
 texlive-bibtopic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

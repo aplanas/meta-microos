@@ -14,6 +14,7 @@ python3.10dist(pyenchant) \
 python310-enchant \
 python310-pyenchant \
 python3dist(pyenchant)"
+
 RDEPENDS:${PN} += "enchant-2-backend-hunspell \
 python(abi)"
 

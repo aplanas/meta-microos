@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(leaflet.cls) \
 texlive-leaflet"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

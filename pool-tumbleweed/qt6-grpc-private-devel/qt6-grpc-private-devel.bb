@@ -10,6 +10,7 @@ RPM_HASH = "cf263a598497752793c9093efc484aee07af1c4a4d59ee361c6bbb323281120e8cd3
 
 RPROVIDES:${PN} += "qt6-grpc-private-devel \
 qt6-grpc-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Grpc)"
 
 inherit rpm

@@ -21,6 +21,7 @@ mimehandler(x-scheme-handler/man) \
 suse_help_viewer \
 yelp \
 yelp(aarch-64)"
+
 RDEPENDS:${PN} += "docbook_4 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

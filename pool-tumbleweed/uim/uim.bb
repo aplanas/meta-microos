@@ -27,6 +27,7 @@ libuim-xkb.so()(64bit) \
 libuim.so.8()(64bit) \
 uim \
 uim(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/touch \

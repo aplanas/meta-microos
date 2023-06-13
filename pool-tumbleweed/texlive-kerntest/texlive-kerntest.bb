@@ -25,6 +25,7 @@ tex(t2amtx.clo) \
 tex(t2bmtx.clo) \
 tex(ts1mtx.clo) \
 texlive-kerntest"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

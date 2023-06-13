@@ -38,6 +38,7 @@ tex(gb7714-NWAFU.cbx) \
 tex(gb7714-SEU.bbx) \
 tex(gb7714-SEU.cbx) \
 texlive-biblatex-gb7714-2015"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

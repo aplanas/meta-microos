@@ -14,6 +14,7 @@ RPM_HASH = "8434d5e2705cf353f41f105536b97b490562cf49b25f0d4e426d38dd3ed709c7fc36
 
 RPROVIDES:${PN} += "ht \
 ht(aarch-64)"
+
 RDEPENDS:${PN} += "hte"
 
 inherit rpm

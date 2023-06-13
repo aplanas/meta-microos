@@ -15,6 +15,7 @@ RPM_HASH = "075e796273241af2b7d88f2dae18b74816e268c223aef6c7e27221bd713451f31523
 RPROVIDES:${PN} += "libiscsi.so.9()(64bit) \
 libiscsi9 \
 libiscsi9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

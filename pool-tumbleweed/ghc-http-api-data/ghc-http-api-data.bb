@@ -13,6 +13,7 @@ RPM_HASH = "e9d56f6a418d36b159bc7db382c20bf51dec2a572ff4f8d2ed68f981ab971b9d50bc
 RPROVIDES:${PN} += "ghc-http-api-data \
 ghc-http-api-data(aarch-64) \
 libHShttp-api-data-0.5-Ipkpz3wcjEIJthDto7snfd-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-JfIUPSNLtNQH9xUGOplWef-attoparsec-internal-ghc9.4.5.so()(64bit) \

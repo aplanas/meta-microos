@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(App::MFILE) \
 perl(App::MFILE::HTTP) \
 perl-App-MFILE"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(App::CELL) \
 perl(HTTP::Request::Common) \

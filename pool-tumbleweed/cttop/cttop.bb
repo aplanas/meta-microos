@@ -11,6 +11,7 @@ RPM_HASH = "8b3d51f17809157666bafcc37226528f5c00b87436c5387a134fee4e5e40766193ac
 
 RPROVIDES:${PN} += "cttop \
 cttop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

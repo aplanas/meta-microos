@@ -13,6 +13,7 @@ RPM_HASH = "3521461a179344b9588b97d4f88b85dc25dfcc0ab769d6a42c5ed5601302990f0d6d
 RPROVIDES:${PN} += "typelib(Keybinder) \
 typelib-1_0-Keybinder-3_0 \
 typelib-1_0-Keybinder-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libkeybinder-3.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

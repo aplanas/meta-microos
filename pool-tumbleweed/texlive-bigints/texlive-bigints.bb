@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bigints.sty) \
 texlive-bigints"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

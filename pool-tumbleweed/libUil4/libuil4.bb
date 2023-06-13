@@ -12,6 +12,7 @@ RPM_HASH = "8de697391d6775802661c91ec3e4e7019ad7aeb020b630e8ebf0ee1c9fff78cabdd1
 RPROVIDES:${PN} += "libUil.so.4()(64bit) \
 libUil4 \
 libUil4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

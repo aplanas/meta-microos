@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cma) \
 python39-cma \
 python3dist(cma)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy"
 

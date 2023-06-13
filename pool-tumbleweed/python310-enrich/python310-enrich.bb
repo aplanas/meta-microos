@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-enrich \
 python3.10dist(enrich) \
 python310-enrich \
 python3dist(enrich)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3.10dist(rich) \
 python310-rich"

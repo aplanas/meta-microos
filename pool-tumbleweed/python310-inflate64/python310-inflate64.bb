@@ -12,6 +12,7 @@ python3.10dist(inflate64) \
 python310-inflate64 \
 python310-inflate64(aarch-64) \
 python3dist(inflate64)"
+
 RDEPENDS:${PN} += "(python310-importlib_metadata if python310-base < 3.8) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

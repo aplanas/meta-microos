@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-prompt_toolkit \
 python3.10dist(prompt-toolkit) \
 python310-prompt_toolkit \
 python3dist(prompt-toolkit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-wcwidth"
 

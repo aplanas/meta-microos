@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Business::ISMN) \
 perl(Business::ISMN::Data) \
 perl-Business-ISMN"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Tie::Cycle)"
 

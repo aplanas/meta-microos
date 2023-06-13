@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(aboensis.sty) \
 texlive-aboensis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

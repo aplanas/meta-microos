@@ -9,6 +9,7 @@ RPM_HASH = "6c5c3eccfa804808cfd7317b155d9f1c91cd638c86996a625b9cdd98d05ea8f03faf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gammu-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

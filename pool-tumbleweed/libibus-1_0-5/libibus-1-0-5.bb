@@ -10,6 +10,7 @@ RPM_HASH = "dc28613fad29b4a1a1a2b943ba05a9198fb925578658504644db3b5b02f9711fc4e6
 RPROVIDES:${PN} += "libibus-1.0.so.5()(64bit) \
 libibus-1_0-5 \
 libibus-1_0-5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

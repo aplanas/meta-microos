@@ -93,6 +93,7 @@ tex(udnpb.fd) \
 tex(udnpc.fd) \
 tex(udnpn.fd) \
 texlive-velthuis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPM_HASH = "a38959255ce3ec89e80a0a2f1f2d12a358f28fef6a51d4184a822b5f57105d0ad58b
 RPROVIDES:${PN} += "libgpiomockup.so.0()(64bit) \
 libgpiomockup0 \
 libgpiomockup0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

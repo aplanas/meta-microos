@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-consumption) \
 python39-azure-mgmt-consumption \
 python3dist(azure-mgmt-consumption)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-core \

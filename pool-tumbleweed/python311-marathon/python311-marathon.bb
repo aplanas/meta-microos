@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(marathon) \
 python311-marathon \
 python3dist(marathon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests \
 python311-requests-toolbelt"

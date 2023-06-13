@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-nest-asyncio \
 python3.10dist(nest-asyncio) \
 python310-nest-asyncio \
 python3dist(nest-asyncio)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

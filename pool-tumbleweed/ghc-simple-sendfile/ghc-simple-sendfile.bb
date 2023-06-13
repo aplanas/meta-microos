@@ -11,6 +11,7 @@ RPM_HASH = "962b1b3dd4f12d49eb9ef940e7aae6eca92cbe622ad81fffe100fdfb77f3274af886
 RPROVIDES:${PN} += "ghc-simple-sendfile \
 ghc-simple-sendfile(aarch-64) \
 libHSsimple-sendfile-0.2.31-701wssQD34oFyvrTLOblUT-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

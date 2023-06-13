@@ -12,6 +12,7 @@ cmake(Qt5Core) \
 libQt5Core-devel \
 libQt5Core-devel(aarch-64) \
 pkgconfig(Qt5Core)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Core5 \
 libqt5-qtbase-common-devel"

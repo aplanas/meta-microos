@@ -75,6 +75,7 @@ libpyldb-util.cpython-310-aarch64-linux-gnu.so.2(PYLDB_UTIL_2.7.1)(64bit) \
 libpyldb-util.cpython-310-aarch64-linux-gnu.so.2(PYLDB_UTIL_2.7.2)(64bit) \
 python3-ldb \
 python3-ldb(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

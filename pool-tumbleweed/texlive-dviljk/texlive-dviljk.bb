@@ -19,6 +19,7 @@ man(dvilj4.1) \
 man(dvilj4l.1) \
 man(dvilj6.1) \
 texlive-dviljk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

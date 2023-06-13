@@ -13,6 +13,7 @@ RPM_HASH = "9f0ea1fed08c7d3c2914cc782eefbc3f8aae3e09a4653d3740ae9bd12e47c99c0edd
 RPROVIDES:${PN} += "libKF5NetworkManagerQt.so.6()(64bit) \
 libKF5NetworkManagerQt6 \
 libKF5NetworkManagerQt6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-doxia-module-confluence \
 mvn(org.apache.maven.doxia:doxia-module-confluence) \
 mvn(org.apache.maven.doxia:doxia-module-confluence:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.doxia:doxia-core) \

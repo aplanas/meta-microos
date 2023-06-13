@@ -16,6 +16,7 @@ RPM_HASH = "5d6b88f3106dff7739f1770b4900e00879817021401583d8dc95e350c5e1e13edf80
 RPROVIDES:${PN} += "adios-openmpi3 \
 adios-openmpi3(aarch-64) \
 config(adios-openmpi3)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

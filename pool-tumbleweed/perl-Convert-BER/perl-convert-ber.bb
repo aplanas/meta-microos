@@ -31,6 +31,7 @@ perl(Convert::BER::_Time_generic) \
 perl-Convert-BER \
 perl-Convert-BER(aarch-64) \
 perl_ber"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

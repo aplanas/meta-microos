@@ -11,6 +11,7 @@ RPM_HASH = "0849d6045da7105db08edc48b7da3fc8b3d5c9b20e537c6f76e946bf7578b6d95030
 
 RPROVIDES:${PN} += "wannier90-openmpi2 \
 wannier90-openmpi2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libblas.so.3()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

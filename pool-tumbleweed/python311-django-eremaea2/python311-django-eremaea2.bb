@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-eremaea2) \
 python311-django-eremaea2 \
 python3dist(django-eremaea2)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 eremaea \

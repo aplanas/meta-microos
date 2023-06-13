@@ -10,6 +10,7 @@ RPM_HASH = "4e14911aef317642e2b50a36abe7ed671d932d1a731e1965d68e7672acb94eea6ac4
 RPROVIDES:${PN} += "libomalloc-4.3.1.p3.so()(64bit) \
 libomalloc-4_3_1 \
 libomalloc-4_3_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

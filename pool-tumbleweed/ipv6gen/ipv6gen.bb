@@ -11,6 +11,7 @@ RPM_HASH = "290ff08d38620d5133e6421cfa7986e05b77d19f7fdb9a3cf66a505c05186851d437
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ipv6gen"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl"
 

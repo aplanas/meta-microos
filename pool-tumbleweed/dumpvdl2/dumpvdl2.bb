@@ -21,6 +21,7 @@ RPM_HASH = "edcf17837985ac9f71e3ab944985b712d6d3b548d05563c7ec2cd74c128b87940a28
 
 RPROVIDES:${PN} += "dumpvdl2 \
 dumpvdl2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSoapySDR.so.0.8()(64bit) \

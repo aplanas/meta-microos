@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(factory-boy) \
 python39-factory_boy \
 python3dist(factory-boy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Faker"
 

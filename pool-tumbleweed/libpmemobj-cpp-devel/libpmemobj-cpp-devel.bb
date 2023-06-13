@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libpmemobj++-devel \
 libpmemobj-cpp-devel \
 libpmemobj-cpp-devel(aarch-64) \
 pkgconfig(libpmemobj++)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(libpmemobj)"
 

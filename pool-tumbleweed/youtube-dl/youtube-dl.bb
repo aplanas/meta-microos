@@ -10,6 +10,7 @@ RPM_HASH = "d6035f8b7bc14fc3cffdaa8250f71337bb2beb3c37a8dcc4513522860a18c68db9aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "youtube-dl"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ffmpeg \
 python3 \

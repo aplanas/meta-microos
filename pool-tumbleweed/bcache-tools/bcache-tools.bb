@@ -9,6 +9,7 @@ RPM_HASH = "a652dec6e14edf260090e4c60791ad54a108c298381c9f4f3f5bd1723f97b698c51c
 
 RPROVIDES:${PN} += "bcache-tools \
 bcache-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

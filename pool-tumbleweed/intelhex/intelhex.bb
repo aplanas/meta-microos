@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "intelhex \
 python3.10dist(intelhex) \
 python3dist(intelhex)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

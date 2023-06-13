@@ -10,6 +10,7 @@ RPM_HASH = "08f14f16afe8380f945b536ba7d549c823948e10e4409ad024f3027d0cce7b94d0f7
 RPROVIDES:${PN} += "ghc-network-multicast-prof \
 ghc-network-multicast-prof(aarch-64) \
 ghc-prof(network-multicast-0.3.2-GrPQCwnsCBBDUXDpEy9gVm)"
+
 RDEPENDS:${PN} += "ghc-network-multicast-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd) \

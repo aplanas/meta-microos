@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(orcidlink.sty) \
 texlive-orcidlink"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

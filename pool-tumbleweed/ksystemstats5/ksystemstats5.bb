@@ -9,6 +9,7 @@ RPM_HASH = "31c7f5c538353e2ab1a1cb64e39c9cdcfeaf8423fe61187a725385234b109dca9995
 
 RPROVIDES:${PN} += "ksystemstats5 \
 ksystemstats5(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

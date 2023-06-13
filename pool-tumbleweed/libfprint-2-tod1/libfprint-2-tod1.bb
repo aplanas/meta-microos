@@ -16,6 +16,7 @@ libfprint-2-tod.so.1(LIBFPRINT_TOD_1_1.94)(64bit) \
 libfprint-2-tod1 \
 libfprint-2-tod1(aarch-64) \
 libfprint-tod"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "2ea91865f63952633b918bf6aecf44501b85cd23d801a7218809dc98aa95ba41fa16
 RPROVIDES:${PN} += "libairspy.so.0()(64bit) \
 libairspy0 \
 libairspy0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 airspy-udev \
 ld-linux-aarch64.so.1()(64bit) \

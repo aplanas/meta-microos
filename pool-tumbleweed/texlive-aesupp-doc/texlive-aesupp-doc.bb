@@ -9,6 +9,7 @@ RPM_HASH = "ab3f8df8262920ad99fcfd9683ebbb6e953fff4e780d0cb2eeed4de9e62c0d02f3a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aesupp-doc"
+
 RDEPENDS:${PN} += "/usr/bin/fontforge \
 /usr/bin/perl"
 

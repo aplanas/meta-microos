@@ -9,6 +9,7 @@ RPM_HASH = "9f1730aa5f6da7bbb4e57be584f4e524d8825f05b9e7cdd9ac4fb00fccb0856fd7f6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istioctl-zsh-completion"
+
 RDEPENDS:${PN} += "istioctl"
 
 inherit rpm

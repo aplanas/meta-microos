@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-vstruct \
 lua54-vstruct"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

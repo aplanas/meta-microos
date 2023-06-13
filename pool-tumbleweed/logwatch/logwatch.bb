@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(logwatch) \
 logwatch \
 perl(Logwatch)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 grep \

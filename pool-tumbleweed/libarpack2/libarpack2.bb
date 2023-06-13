@@ -12,6 +12,7 @@ RPM_HASH = "376a4b41c4c8507ebf554e4716ef72c79ed2b79958983f13590a7a3a0989e2334693
 RPROVIDES:${PN} += "libarpack.so.2()(64bit) \
 libarpack2 \
 libarpack2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

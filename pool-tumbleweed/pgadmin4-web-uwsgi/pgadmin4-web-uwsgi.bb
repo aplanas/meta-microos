@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(pgadmin4-web-uwsgi) \
 pgadmin4-web-uwsgi"
+
 RDEPENDS:${PN} += "pgadmin4-web \
 uwsgi"
 

@@ -9,6 +9,7 @@ RPM_HASH = "140896d55b77401dfbd5ed7b305a26a96f60360c67d43d8087a8ab30578fc8b4c24c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qrcode-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

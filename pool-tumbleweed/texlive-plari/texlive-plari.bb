@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(plari.cls) \
 texlive-plari"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

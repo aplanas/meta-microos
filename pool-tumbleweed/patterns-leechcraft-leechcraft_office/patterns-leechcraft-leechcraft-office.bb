@@ -12,6 +12,7 @@ pattern-icon() \
 pattern-order() \
 patterns-leechcraft-leechcraft_office \
 patterns-leechcraft-leechcraft_office(aarch-64)"
+
 RDEPENDS:${PN} += "leechcraft \
 pattern()"
 

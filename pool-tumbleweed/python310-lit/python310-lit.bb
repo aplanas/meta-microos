@@ -16,6 +16,7 @@ python3-lit \
 python3.10dist(lit) \
 python310-lit \
 python3dist(lit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "attica-qt5-devel \
 attica-qt5-devel(aarch-64) \
 cmake(KF5Attica) \
 pkgconfig(libKF5Attica)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt5Core) \
 cmake(Qt5Network) \

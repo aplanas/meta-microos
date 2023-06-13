@@ -15,6 +15,7 @@ RPM_HASH = "9c5b566306dac194de18a9f3fc0056067485b1160041ab9268e5b8a74594f8f1b79c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gsl_2_7_1-gnu-hpc-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

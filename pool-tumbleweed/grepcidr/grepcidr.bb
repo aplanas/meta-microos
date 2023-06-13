@@ -14,6 +14,7 @@ RPM_HASH = "1608f3117215e37b77c73d1e8bce025c0827ec5a865439f83b5dab9c886be1ea7a13
 
 RPROVIDES:${PN} += "grepcidr \
 grepcidr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

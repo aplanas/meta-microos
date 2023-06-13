@@ -10,6 +10,7 @@ RPM_HASH = "1dd18acb73a2e6f83321f03e2820b76e8cdc0c99747f98e25f0e82bfec5cb87d2f47
 RPROVIDES:${PN} += "ghc-JuicyPixels-devel \
 ghc-JuicyPixels-devel(aarch-64) \
 ghc-devel(JuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-JuicyPixels \
 ghc-compiler \

@@ -207,6 +207,7 @@ libgstximagesink.so()(64bit) \
 libgstxvimagesink.so()(64bit) \
 metainfo() \
 metainfo(gstreamer-plugins-base.appdata.xml)"
+
 RDEPENDS:${PN} += "gstreamer \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

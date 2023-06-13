@@ -9,6 +9,7 @@ RPM_HASH = "25c0b18a10cd06c11de5804ca079b270b31b6f85d136435b0b50fff9e119605568cc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ModemManager-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

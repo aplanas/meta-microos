@@ -9,6 +9,7 @@ RPM_HASH = "0929733c43df9c31c1e2eab2f75495c707a1a0a20443014daff1fb0b48f20722e2a8
 
 RPROVIDES:${PN} += "qt6-charts-examples \
 qt6-charts-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Charts.so.6()(64bit) \

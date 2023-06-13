@@ -13,6 +13,7 @@ RPM_HASH = "5fa257a49be6c6233d7ce80162749374b6bbb43ec70aa3840cc77ad3ea84affd02ec
 RPROVIDES:${PN} += "libgtkmm-4.0.so.0()(64bit) \
 libgtkmm-4_0-0 \
 libgtkmm-4_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

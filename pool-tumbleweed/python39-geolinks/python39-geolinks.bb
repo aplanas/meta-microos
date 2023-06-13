@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(geolinks) \
 python39-geolinks \
 python3dist(geolinks)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

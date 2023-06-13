@@ -23,6 +23,7 @@ RPM_HASH = "99f30788c8261915de3ce35e47990436aa4f8b4b154607f8bbf1f91f08fbf37052af
 RPROVIDES:${PN} += "libKF5KDELibs4Support.so.5()(64bit) \
 libKF5KDELibs4Support5 \
 libKF5KDELibs4Support5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kded \
 ld-linux-aarch64.so.1()(64bit) \

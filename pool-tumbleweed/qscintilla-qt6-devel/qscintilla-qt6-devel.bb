@@ -17,6 +17,7 @@ libqscintilla2_qt6-devel \
 libqscintilla_qt6-devel \
 qscintilla-qt6-devel \
 qscintilla-qt6-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Core) \
 cmake(Qt6PrintSupport) \
 cmake(Qt6Widgets) \

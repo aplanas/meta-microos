@@ -10,6 +10,7 @@ RPM_HASH = "4840bc64338f176df9e3068a2c1e0607e50dcb1578671136c10dedb3f62d977c71b4
 RPROVIDES:${PN} += "ghc-devel(hslua-classes-2.3.0-FmFATpNcre9GneTlejjsY7) \
 ghc-hslua-classes-devel \
 ghc-hslua-classes-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

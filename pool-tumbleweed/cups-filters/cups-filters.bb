@@ -45,6 +45,7 @@ postscriptdriver(fuji_xerox;docuprint_cm305_df;) \
 postscriptdriver(generic;pdf_printer;) \
 postscriptdriver(hewlett-packard;hp_color_laserjet_cm3530_mfp;) \
 postscriptdriver(ricoh;pdf_printer;)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 cups \

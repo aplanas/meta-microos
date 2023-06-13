@@ -10,6 +10,7 @@ RPM_HASH = "08eaac507256360a54a8521ee6e4e673d0bab9a3560802ecd85bd544fda884253ffd
 RPROVIDES:${PN} += "libcomps.so.0()(64bit) \
 libcomps0 \
 libcomps0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "63c5536030c5c7b76b93b63c851dd92c149a74a86d06a85a67110420cf6de0c71087
 RPROVIDES:${PN} += "cmake(KF5Codecs) \
 kcodecs-devel \
 kcodecs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 extra-cmake-modules \
 libKF5Codecs5"

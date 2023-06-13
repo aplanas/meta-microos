@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-rex \
 rpm_macro(apache_rex_check) \
 rpm_macro(apache_rex_deps)"
+
 RDEPENDS:${PN} += "/bin/bash \
 apache2-devel \
 apache2-utils \

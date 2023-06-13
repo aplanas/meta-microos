@@ -10,6 +10,7 @@ RPM_HASH = "13ac6e5461508fc00b799b5142a9aa084592ec167d07cb6fdb6d3d0dd017de749fd0
 
 RPROVIDES:${PN} += "xmorph-devel \
 xmorph-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 xmorph"
 

@@ -17,6 +17,7 @@ RPM_HASH = "7ead95961c8e8f6f3479019127d92e9d0851224cd2dfc6d4931769a1894d5dbf7591
 RPROVIDES:${PN} += "config(openslp-server) \
 openslp-server \
 openslp-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(daemon) \
 ld-linux-aarch64.so.1()(64bit) \

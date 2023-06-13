@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pytest-mock \
 python3.10dist(pytest-mock) \
 python310-pytest-mock \
 python3dist(pytest-mock)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-py \
 python310-pytest"

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(changepage.sty) \
 tex(chngpage.sty) \
 texlive-changepage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

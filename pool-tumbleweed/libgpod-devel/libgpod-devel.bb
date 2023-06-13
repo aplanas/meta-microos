@@ -14,6 +14,7 @@ RPM_HASH = "43e09b2429f096354e6ef63312afb200d8833445fff62a0ab10ec670407ff9d5c67a
 RPROVIDES:${PN} += "libgpod-devel \
 libgpod-devel(aarch-64) \
 pkgconfig(libgpod-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 glibc-devel \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(insbox.tex) \
 texlive-insbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

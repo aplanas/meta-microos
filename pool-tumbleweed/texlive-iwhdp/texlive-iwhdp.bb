@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(iwhdp.cls) \
 texlive-iwhdp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -180,6 +180,7 @@ bundled(rust-crate:zbus_names) \
 bundled(rust-crate:zvariant) \
 bundled(rust-crate:zvariant_derive) \
 bundled(rust-crate:zvariant_utils)"
+
 RDEPENDS:${PN} += "jsonnet \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \

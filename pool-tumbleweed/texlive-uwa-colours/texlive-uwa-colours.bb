@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(uwa-colours.sty) \
 texlive-uwa-colours"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

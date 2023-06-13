@@ -18,6 +18,7 @@ gnome-photos(aarch-64) \
 libgnome-photos.so()(64bit) \
 metainfo() \
 metainfo(org.gnome.Photos.appdata.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatk-1.0.so.0()(64bit) \

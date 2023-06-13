@@ -9,6 +9,7 @@ RPM_HASH = "d7fe4c4606d9cbc0cb5053aea7fe6e363455fcd5ddfb9d4d24e4be9cfe2d94b22ffd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-adwaita-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

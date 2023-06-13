@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-click-default-group \
 python3.10dist(click-default-group) \
 python310-click-default-group \
 python3dist(click-default-group)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click"
 

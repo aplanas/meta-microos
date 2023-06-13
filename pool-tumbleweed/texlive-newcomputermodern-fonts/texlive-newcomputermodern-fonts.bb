@@ -195,6 +195,7 @@ font(newcomputermodernsans08) \
 font(newcomputermodernsans10) \
 font(newcomputermodernuncial10) \
 texlive-newcomputermodern-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

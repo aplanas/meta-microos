@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-tensorpac \
 python3.10dist(tensorpac) \
 python310-tensorpac \
 python3dist(tensorpac)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-joblib \
 python310-numpy \

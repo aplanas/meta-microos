@@ -10,6 +10,7 @@ RPM_HASH = "cd18004e53a73093b92e949cdd26c9e335d26194944fa0534404b758f47362d594c3
 RPROVIDES:${PN} += "ZArchive-devel \
 ZArchive-devel(aarch-64) \
 pkgconfig(zarchive)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libzarchive0_1 \
 pkgconfig(libzstd)"

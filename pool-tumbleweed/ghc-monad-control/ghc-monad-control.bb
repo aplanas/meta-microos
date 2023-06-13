@@ -24,6 +24,7 @@ RPM_HASH = "2f9fa140f6e63132c0feb38eea971e4e40f8aae770e86e7a14875f00204ad56712fb
 RPROVIDES:${PN} += "ghc-monad-control \
 ghc-monad-control(aarch-64) \
 libHSmonad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbase-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8-ghc9.4.5.so()(64bit) \

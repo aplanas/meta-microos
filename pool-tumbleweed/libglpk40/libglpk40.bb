@@ -13,6 +13,7 @@ RPM_HASH = "a0e527bda64280eab4fa346bfae69839ce0f65f925f147c0e1783fd97097ed2c051c
 RPROVIDES:${PN} += "libglpk.so.40()(64bit) \
 libglpk40 \
 libglpk40(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

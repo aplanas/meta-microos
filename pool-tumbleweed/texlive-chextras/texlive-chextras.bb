@@ -21,6 +21,7 @@ tex(t1lmssos.fd) \
 tex(t1lmttos.fd) \
 tex(t1lmvttos.fd) \
 texlive-chextras"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

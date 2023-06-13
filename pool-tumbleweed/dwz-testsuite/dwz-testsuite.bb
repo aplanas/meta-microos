@@ -9,6 +9,7 @@ RPM_HASH = "81d53ae0f837910814aba9f6dbb7c5f3cb5f1a9d6441ac47f8fd67d46f360d2c0885
 
 RPROVIDES:${PN} += "dwz-testsuite \
 dwz-testsuite(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

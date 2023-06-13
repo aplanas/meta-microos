@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-hepunits \
 python3.10dist(hepunits) \
 python310-hepunits \
 python3dist(hepunits)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

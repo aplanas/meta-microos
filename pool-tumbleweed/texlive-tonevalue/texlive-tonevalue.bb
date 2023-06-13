@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tonevalue.sty) \
 texlive-tonevalue"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

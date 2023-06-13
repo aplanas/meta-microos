@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "kismet-capture-bt-geiger \
 kismet-capture-bt-geiger(aarch-64) \
 python3.10dist(kismetcapturebtgeiger) \
 python3dist(kismetcapturebtgeiger)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

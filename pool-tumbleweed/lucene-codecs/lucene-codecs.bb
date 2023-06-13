@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "lucene-codecs \
 mvn(org.apache.lucene:lucene-codecs) \
 mvn(org.apache.lucene:lucene-codecs:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-core)"

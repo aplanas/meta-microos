@@ -10,6 +10,7 @@ RPM_HASH = "bea4453dc8a22cf378c7f41a99a9e5facc976e1c6363029e7ec85257c43c2a39d551
 RPROVIDES:${PN} += "ghc-email-validate-prof \
 ghc-email-validate-prof(aarch-64) \
 ghc-prof(email-validate-2.3.2.18-8MZFHS3GPuQLNTYP4EPLHD)"
+
 RDEPENDS:${PN} += "ghc-email-validate-devel \
 ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \
 ghc-prof(base-4.17.1.0) \

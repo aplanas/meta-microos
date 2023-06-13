@@ -16,6 +16,7 @@ pkgconfig(libtcmalloc) \
 pkgconfig(libtcmalloc_debug) \
 pkgconfig(libtcmalloc_minimal) \
 pkgconfig(libtcmalloc_minimal_debug)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gperftools \
 libprofiler0 \

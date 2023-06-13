@@ -11,6 +11,7 @@ RPM_HASH = "2987253f5bebd46201365dee35cdadc69870436baabdfef74187e51bebe49c5ffb1a
 RPROVIDES:${PN} += "libimagequant-devel \
 libimagequant-devel(aarch-64) \
 pkgconfig(imagequant)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libimagequant0"
 

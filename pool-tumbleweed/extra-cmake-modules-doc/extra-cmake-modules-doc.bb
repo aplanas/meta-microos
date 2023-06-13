@@ -12,6 +12,7 @@ RPM_HASH = "243c28ee019747c11376bad68943dd6b466479237b3db4506f946a569ed5f300c00e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "extra-cmake-modules-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

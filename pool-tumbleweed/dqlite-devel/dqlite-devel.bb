@@ -14,6 +14,7 @@ RPM_HASH = "d5bc3b4b538c299c787327a88e00f6dfb47e881eef9981f27bb19017282bb61718e1
 RPROVIDES:${PN} += "dqlite-devel \
 dqlite-devel(aarch-64) \
 pkgconfig(dqlite)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdqlite0"
 

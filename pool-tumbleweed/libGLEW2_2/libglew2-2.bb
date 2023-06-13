@@ -14,6 +14,7 @@ RPM_HASH = "191a5b7349aaf53ae53d842d14fa859c826b879cb0e0cdf13081db7e85249da7d442
 RPROVIDES:${PN} += "libGLEW.so.2.2()(64bit) \
 libGLEW2_2 \
 libGLEW2_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libGL.so.1()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit)"

@@ -16,6 +16,7 @@ libhugetlbfs.so(HTLBFS_2.1)(64bit) \
 libhugetlbfs.so(VERS_1.0)(64bit) \
 libhugetlbfs_privutils.so()(64bit) \
 libhugetlbfs_privutils.so(VERS_1.0)(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

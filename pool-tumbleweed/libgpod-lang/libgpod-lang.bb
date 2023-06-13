@@ -19,6 +19,7 @@ locale(libgpod:ja) \
 locale(libgpod:ro) \
 locale(libgpod:sv) \
 locale(libgpod:zh_CN)"
+
 RDEPENDS:${PN} += "libgpod"
 
 inherit rpm

@@ -17,6 +17,7 @@ RPM_HASH = "7737a7dc9320fa1c7afc770423d0a4287b015698b93b08dc6a7ef2443a511de2b645
 RPROVIDES:${PN} += "libvoro++.so.0()(64bit) \
 libvoro++0 \
 libvoro++0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

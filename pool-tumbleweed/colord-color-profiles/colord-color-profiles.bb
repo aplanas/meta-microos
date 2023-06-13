@@ -14,6 +14,7 @@ RPM_HASH = "2d78fc57a2e070958e6c67f225c81e91127f6ae6d58107eccef8196285b1f03cac38
 RPROVIDES:${PN} += "colord-color-profiles \
 colord-color-profiles(aarch-64) \
 shared-color-profiles"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

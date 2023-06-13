@@ -46,6 +46,7 @@ libgensio_telnet.so()(64bit) \
 libgensio_trace.so()(64bit) \
 libgensio_udp.so()(64bit) \
 libgensio_xlt.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

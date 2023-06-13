@@ -10,6 +10,7 @@ RPM_HASH = "a9bd612b706424183d71530f29febade654c6dcb88b61560c7a67661be290db6b29b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-server-terminals"
+
 RDEPENDS:${PN} += "(python39-jupyter-server-terminals = 0.4.4 or python311-jupyter-server-terminals = 0.4.4 or python310-jupyter-server-terminals = 0.4.4)"
 
 inherit rpm

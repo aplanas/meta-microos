@@ -113,6 +113,7 @@ tex(ot1bodoni.fd) \
 tex(t1bodoni.fd) \
 tex(ubodoninums.fd) \
 texlive-gfsbodoni"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

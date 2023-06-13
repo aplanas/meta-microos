@@ -9,6 +9,7 @@ RPM_HASH = "573a78dda5e6257f405838d91e5bfaf1ce8b0f70b17e3091e82ffb4f0821c2dfe779
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epsf-dvipdfmx-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

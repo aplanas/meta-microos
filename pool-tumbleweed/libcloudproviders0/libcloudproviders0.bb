@@ -11,6 +11,7 @@ RPM_HASH = "5b94679fd578e7d29452802bc59e6c46d2009f22a23ae6d814023fba8aef8734313e
 RPROVIDES:${PN} += "libcloudproviders.so.0()(64bit) \
 libcloudproviders0 \
 libcloudproviders0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

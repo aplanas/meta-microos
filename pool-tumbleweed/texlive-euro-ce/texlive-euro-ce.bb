@@ -21,6 +21,7 @@ tex(eurorm.tfm) \
 tex(eurosl.tfm) \
 tex(eurosp.tfm) \
 texlive-euro-ce"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

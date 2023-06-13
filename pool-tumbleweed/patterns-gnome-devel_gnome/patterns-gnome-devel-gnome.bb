@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-gnome-devel_gnome \
 patterns-gnome-devel_gnome(aarch-64) \
 patterns-openSUSE-devel_gnome"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

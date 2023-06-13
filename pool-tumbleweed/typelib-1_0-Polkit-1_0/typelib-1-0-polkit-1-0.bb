@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "typelib(Polkit) \
 typelib(PolkitAgent) \
 typelib-1_0-Polkit-1_0 \
 typelib-1_0-Polkit-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libpolkit-agent-1.so.0()(64bit) \
 libpolkit-gobject-1.so.0()(64bit) \
 typelib(GLib) \

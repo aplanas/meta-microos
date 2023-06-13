@@ -12,6 +12,7 @@ RPM_HASH = "391d1b3fd0f27ca8f950f6fd37ec567c1236b2ed641dfe063f6e1ffc787a200682d1
 RPROVIDES:${PN} += "config(miredo-server) \
 miredo-server \
 miredo-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

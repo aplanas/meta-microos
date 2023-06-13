@@ -52,6 +52,7 @@ locale(kmymoney:ug) \
 locale(kmymoney:uk) \
 locale(kmymoney:zh_CN) \
 locale(kmymoney:zh_TW)"
+
 RDEPENDS:${PN} += "kmymoney"
 
 inherit rpm

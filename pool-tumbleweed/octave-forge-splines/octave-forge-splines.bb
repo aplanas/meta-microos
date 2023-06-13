@@ -10,6 +10,7 @@ RPM_HASH = "217ec1699df5e9b63ac4dfd4d811a8c269b55bbbece9ff73dd2472d3c44d0ac38b41
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-splines"
+
 RDEPENDS:${PN} += "/bin/sh \
 octave-cli"
 

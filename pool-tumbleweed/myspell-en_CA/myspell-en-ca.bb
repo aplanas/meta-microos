@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:en_CA) \
 myspell-canadian \
 myspell-dictionary \
 myspell-en_CA"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-en \
 myspell-en_GB \

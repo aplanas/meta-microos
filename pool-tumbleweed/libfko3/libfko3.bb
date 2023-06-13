@@ -11,6 +11,7 @@ RPM_HASH = "80bab78ddd35703826b18eb7bbaf141b87df853d0a33721b0e3e63586cc0e9cc347b
 RPROVIDES:${PN} += "libfko.so.3()(64bit) \
 libfko3 \
 libfko3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

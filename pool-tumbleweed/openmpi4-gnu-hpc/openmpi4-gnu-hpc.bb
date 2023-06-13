@@ -11,6 +11,7 @@ RPM_HASH = "5aba40b7c9111d1e44bed44bfe885de903df7bcd43e63e325864c00e8ff7c549d0df
 
 RPROVIDES:${PN} += "openmpi4-gnu-hpc \
 openmpi4-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 openmpi_4_1_4-gnu-hpc"
 

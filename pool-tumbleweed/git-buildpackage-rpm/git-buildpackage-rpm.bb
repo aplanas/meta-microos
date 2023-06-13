@@ -10,6 +10,7 @@ RPM_HASH = "331287ca9909441b876b80f71b106b56c975c9b43e2ea4d8e0694e4c990feeca50d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-buildpackage-rpm"
+
 RDEPENDS:${PN} += "/bin/sh \
 git-buildpackage-common \
 python(abi) \

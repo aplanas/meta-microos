@@ -12,6 +12,7 @@ RPM_HASH = "06224e3eef5be992ef9dcef4110af181083034ea43a05df0625c161119cf61b1d07a
 RPROVIDES:${PN} += "python3-lalsimulation \
 python310-lalsimulation \
 python310-lalsimulation(aarch-64)"
+
 RDEPENDS:${PN} += "lalsimulation-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

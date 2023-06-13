@@ -80,6 +80,7 @@ locale(inkscape:uk) \
 locale(inkscape:vi) \
 locale(inkscape:zh_CN) \
 locale(inkscape:zh_TW)"
+
 RDEPENDS:${PN} += "inkscape"
 
 inherit rpm

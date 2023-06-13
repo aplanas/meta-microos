@@ -59,6 +59,7 @@ locale(ktp-auth-handler:uk) \
 locale(ktp-auth-handler:vi) \
 locale(ktp-auth-handler:zh_CN) \
 locale(ktp-auth-handler:zh_TW)"
+
 RDEPENDS:${PN} += "ktp-auth-handler"
 
 inherit rpm

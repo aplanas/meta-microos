@@ -9,6 +9,7 @@ RPM_HASH = "e41d3d00a6388a8bcd64e8ebdd7a3cc4011dcafa3a40af6fc30c1da539bb591d2149
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-luasocket-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

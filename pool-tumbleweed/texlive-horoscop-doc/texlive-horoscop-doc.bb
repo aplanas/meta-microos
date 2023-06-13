@@ -9,6 +9,7 @@ RPM_HASH = "9382dc049a506c174f5a20be1b08bd6f4970475c7835ea53b92364543bbacf63b3ef
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-horoscop-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

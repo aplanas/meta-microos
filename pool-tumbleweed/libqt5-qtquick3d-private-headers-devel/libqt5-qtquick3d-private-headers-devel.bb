@@ -10,6 +10,7 @@ RPM_HASH = "5a63b9d649c7a0c9283f74ef925e1d9c87c2bf9fc5eb5760137c6060b1143e2d74a7
 
 RPROVIDES:${PN} += "libqt5-qtquick3d-private-headers-devel \
 libqt5-qtquick3d-private-headers-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libqt5-qtquick3d-devel"
 
 inherit rpm

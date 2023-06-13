@@ -49,6 +49,7 @@ tex(ulllasy.fd) \
 tex(ulmsa.fd) \
 tex(ulmsb.fd) \
 texlive-lxfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

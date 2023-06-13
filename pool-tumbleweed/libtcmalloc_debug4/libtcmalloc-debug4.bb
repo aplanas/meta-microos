@@ -11,6 +11,7 @@ RPM_HASH = "8560ec9aad59818dd5273536ea858b1fdba5de81cf4e7c25d11ce2bca3f31082d116
 RPROVIDES:${PN} += "libtcmalloc_debug.so.4()(64bit) \
 libtcmalloc_debug4 \
 libtcmalloc_debug4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

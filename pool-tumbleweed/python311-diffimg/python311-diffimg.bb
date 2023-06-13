@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(diffimg) \
 python311-diffimg \
 python3dist(diffimg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Pillow"
 

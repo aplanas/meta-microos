@@ -11,6 +11,7 @@ RPM_HASH = "12379cba54704b36aa30e38230de62005478d8810a1135673c8cfdb87dfe9ef9332b
 RPROVIDES:${PN} += "ghc-StateVar \
 ghc-StateVar(aarch-64) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \

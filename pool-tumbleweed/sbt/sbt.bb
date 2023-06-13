@@ -85,6 +85,7 @@ mvn(org.scala-sbt:testing:pom:) \
 mvn(org.scala-sbt:tracking) \
 mvn(org.scala-sbt:tracking:pom:) \
 sbt"
+
 RDEPENDS:${PN} += "/bin/sh \
 apache-commons-lang3 \
 apache-ivy \

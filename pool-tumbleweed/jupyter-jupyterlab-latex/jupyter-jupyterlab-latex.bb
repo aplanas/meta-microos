@@ -13,6 +13,7 @@ python3-jupyter_jupyterlab_latex \
 python3-jupyterlab-latex \
 python3.10dist(jupyterlab-latex) \
 python3dist(jupyterlab-latex)"
+
 RDEPENDS:${PN} += "jupyter-notebook \
 python(abi) \
 texlive-latex-bin"

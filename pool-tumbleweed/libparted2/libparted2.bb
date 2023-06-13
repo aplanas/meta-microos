@@ -11,6 +11,7 @@ RPM_HASH = "81eb559fea63940bcf56c8d3277b3ec52ae623283235a758936a8cf26a27d50449a9
 RPROVIDES:${PN} += "libparted.so.2()(64bit) \
 libparted2 \
 libparted2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

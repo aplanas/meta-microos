@@ -10,6 +10,7 @@ RPM_HASH = "82b1edf63a82d67d4c5f56011818af93a5bbb4a11abfb95cef0e3c2835cab6dc4a1b
 RPROVIDES:${PN} += "libcriterion3-devel \
 libcriterion3-devel(aarch-64) \
 pkgconfig(criterion)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcriterion3 \
 pkgconfig(boxfort) \

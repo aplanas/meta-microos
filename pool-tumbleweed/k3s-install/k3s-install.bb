@@ -24,6 +24,7 @@ RPM_HASH = "86d484ccdaaddac4670c884b53d57220c1b9d658d2e536e7537f9a86b3140b5ab37c
 
 RPROVIDES:${PN} += "k3s-install \
 k3s-install(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 iptables \
 k3s-selinux"

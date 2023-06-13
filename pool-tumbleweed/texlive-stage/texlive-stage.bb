@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(stage.cls) \
 texlive-stage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

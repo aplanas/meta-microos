@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KF5EventViews) \
 cmake(KPim5EventViews) \
 eventviews-devel \
 eventviews-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5CalendarCore) \
 cmake(KPim5Akonadi) \
 cmake(KPim5AkonadiCalendar) \

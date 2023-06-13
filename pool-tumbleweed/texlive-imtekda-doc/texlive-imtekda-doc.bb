@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-imtekda-doc:de) \
 texlive-imtekda-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

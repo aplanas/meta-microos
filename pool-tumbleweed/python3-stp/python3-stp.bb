@@ -9,6 +9,7 @@ RPM_HASH = "446c9ac022ab90d59dd382372df549bb55ee9ebc428861743af03633f583830e7f97
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-stp"
+
 RDEPENDS:${PN} += "libstp2_3 \
 python(abi)"
 

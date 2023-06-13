@@ -11,6 +11,7 @@ RPM_HASH = "ceda33d31a517e0a18fa4eda3733eaf9724ff24d255e403d74af1f406f7c3226e6ca
 
 RPROVIDES:${PN} += "alembic-devel \
 alembic-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libAlembic1_8"
 
 inherit rpm

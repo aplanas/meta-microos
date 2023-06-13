@@ -10,6 +10,7 @@ RPM_HASH = "12960acc7cb15c667a8eb6457cd6eb59d1a8a64b7222949f925e9ca86b96ca2e8711
 RPROVIDES:${PN} += "ghc-prof(x509-validation-1.6.12-JQgBIAyKHQDDBxJK8FYPfO) \
 ghc-x509-validation-prof \
 ghc-x509-validation-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(asn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk) \
 ghc-prof(asn1-types-0.3.4-GYlFjiH4jmgJII5TgUQfXm) \
 ghc-prof(base-4.17.1.0) \

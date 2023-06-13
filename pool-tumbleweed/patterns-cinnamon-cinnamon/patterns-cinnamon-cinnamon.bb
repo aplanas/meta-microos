@@ -17,6 +17,7 @@ pattern-visible() \
 patterns-cinnamon-cinnamon \
 patterns-cinnamon-cinnamon(aarch-64) \
 patterns-openSUSE-cinnamon"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

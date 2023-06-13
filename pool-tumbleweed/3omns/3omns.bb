@@ -13,6 +13,7 @@ application() \
 application(3omns.desktop) \
 metainfo() \
 metainfo(3omns.appdata.xml)"
+
 RDEPENDS:${PN} += "bitstream-vera-fonts \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.9dist(ovirt-engine-sdk-python) \
 python39-ovirt-engine-sdk \
 python39-ovirt-engine-sdk(aarch-64) \
 python3dist(ovirt-engine-sdk-python)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

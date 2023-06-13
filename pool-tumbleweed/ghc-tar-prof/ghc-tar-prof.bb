@@ -10,6 +10,7 @@ RPM_HASH = "66def11282bc8e98f4152a8bbda6ca5558fa76cc08e84550c86c50aea7af2f968545
 RPROVIDES:${PN} += "ghc-prof(tar-0.5.1.1-Dtsl5am3zST5LscMXaDdU8) \
 ghc-tar-prof \
 ghc-tar-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

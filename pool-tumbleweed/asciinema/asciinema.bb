@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "asciinema \
 python3.10dist(asciinema) \
 python3dist(asciinema)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python(abi)"
 

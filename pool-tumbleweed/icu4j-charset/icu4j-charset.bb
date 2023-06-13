@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "icu4j-charset \
 mvn(com.ibm.icu:icu4j-charset) \
 mvn(com.ibm.icu:icu4j-charset:pom:) \
 osgi(com.ibm.icu.charset)"
+
 RDEPENDS:${PN} += "icu4j \
 java-headless \
 javapackages-filesystem \

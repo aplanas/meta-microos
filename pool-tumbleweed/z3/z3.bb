@@ -12,6 +12,7 @@ RPM_HASH = "5719389a32333cd481f214ac861cb7c51a6ca032ae9894c0b7316362ee8037f29084
 
 RPROVIDES:${PN} += "z3 \
 z3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

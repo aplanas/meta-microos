@@ -13,6 +13,7 @@ RPM_HASH = "5bd6ba8c6291434f26386b711021e3b3c174b6d8db9f0c5ea1cdc091f35ef98abf01
 
 RPROVIDES:${PN} += "preludedb-tools \
 preludedb-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

@@ -58,6 +58,7 @@ locale(ktp-kded-module:ug) \
 locale(ktp-kded-module:uk) \
 locale(ktp-kded-module:zh_CN) \
 locale(ktp-kded-module:zh_TW)"
+
 RDEPENDS:${PN} += "ktp-kded-module"
 
 inherit rpm

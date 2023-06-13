@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(enzyme) \
 python39-enzyme \
 python3dist(enzyme)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -43,6 +43,7 @@ tex(spanish-apa6.lbx) \
 tex(swedish-apa6.lbx) \
 tex(swissgerman-apa6.lbx) \
 texlive-biblatex-apa6"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

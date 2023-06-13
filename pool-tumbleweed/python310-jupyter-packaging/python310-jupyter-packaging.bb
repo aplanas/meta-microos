@@ -15,6 +15,7 @@ python3.10dist(jupyter-packaging) \
 python310-jupyter-packaging \
 python310-jupyter_packaging \
 python3dist(jupyter-packaging)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-deprecation \
 python310-packaging \

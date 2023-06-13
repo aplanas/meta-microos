@@ -11,6 +11,7 @@ RPM_HASH = "5ae537c02ed56d3e0bb19863d31b17f5027c7913acda6d2716f8160591c65051452f
 RPROVIDES:${PN} += "libsane.so.1()(64bit) \
 libsane1 \
 libsane1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

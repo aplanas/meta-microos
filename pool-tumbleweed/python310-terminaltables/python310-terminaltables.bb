@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-terminaltables \
 python3.10dist(terminaltables) \
 python310-terminaltables \
 python3dist(terminaltables)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-colorama \
 python310-colorclass \

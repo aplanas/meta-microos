@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-google-cloud-storage \
 python3.10dist(google-cloud-storage) \
 python310-google-cloud-storage \
 python3dist(google-cloud-storage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-google-api-core \
 python310-google-auth \

@@ -11,6 +11,7 @@ RPM_HASH = "d6646b388e1f02dbb548710928efe8c551cc11258b19abc3fc7f607fea6bfbb7d4fa
 RPROVIDES:${PN} += "libKF5IconThemes.so.5()(64bit) \
 libKF5IconThemes5 \
 libKF5IconThemes5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

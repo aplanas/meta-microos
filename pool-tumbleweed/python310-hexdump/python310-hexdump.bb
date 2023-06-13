@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-hexdump \
 python3.10dist(hexdump) \
 python310-hexdump \
 python3dist(hexdump)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

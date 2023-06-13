@@ -9,6 +9,7 @@ RPM_HASH = "be701fb8c63e86f4cbb3f9285248374e4e1d927b1b36ee23a1fa6f6d29208dddc218
 
 RPROVIDES:${PN} += "python3-pysearpc \
 python3-pysearpc(aarch-64)"
+
 RDEPENDS:${PN} += "libsearpc1 \
 python(abi)"
 

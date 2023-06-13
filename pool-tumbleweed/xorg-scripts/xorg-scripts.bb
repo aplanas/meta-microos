@@ -10,6 +10,7 @@ RPM_HASH = "26fb32d932487d6ddcd151e4b01789269ce69f73439ad772f54ec2e34429dc44f9ac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-scripts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

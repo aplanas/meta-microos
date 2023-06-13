@@ -31,6 +31,7 @@ metainfo(org.kde.kmymoney.appdata.xml) \
 mimehandler(application/vnd.intu.qfx) \
 mimehandler(application/x-kmymoney) \
 mimehandler(application/x-ofx)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

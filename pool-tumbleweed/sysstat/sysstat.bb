@@ -15,6 +15,7 @@ RPM_HASH = "3d6a92110979423b9e3e05f67a4e8b977681c8ea4bfd78c7b672f49e95526fd536ea
 RPROVIDES:${PN} += "config(sysstat) \
 sysstat \
 sysstat(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

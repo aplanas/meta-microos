@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pmw \
 python3.10dist(pmw) \
 python310-pmw \
 python3dist(pmw)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tk"
 

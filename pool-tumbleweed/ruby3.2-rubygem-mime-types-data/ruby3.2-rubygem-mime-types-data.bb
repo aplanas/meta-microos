@@ -17,6 +17,7 @@ rubygem(ruby:3.2.0:mime-types-data) \
 rubygem(ruby:3.2.0:mime-types-data:3) \
 rubygem(ruby:3.2.0:mime-types-data:3.2022) \
 rubygem(ruby:3.2.0:mime-types-data:3.2022.0105)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

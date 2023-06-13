@@ -10,6 +10,7 @@ RPM_HASH = "615e7d3911d2033109bd0459b8cfc55bd204c8989146955b8eab38d1284f503acdee
 RPROVIDES:${PN} += "libverdict.so.1.4()(64bit) \
 libverdict1_4 \
 libverdict1_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

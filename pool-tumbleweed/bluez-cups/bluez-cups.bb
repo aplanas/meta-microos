@@ -10,6 +10,7 @@ RPM_HASH = "caa8095cf74e9085211b2eff2845fdd75871a0fbeab2b249f9326b7784bb2ac72603
 
 RPROVIDES:${PN} += "bluez-cups \
 bluez-cups(aarch-64)"
+
 RDEPENDS:${PN} += "bluez \
 cups \
 ld-linux-aarch64.so.1()(64bit) \

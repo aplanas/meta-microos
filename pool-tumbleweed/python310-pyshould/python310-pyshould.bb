@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-pyshould \
 python3.10dist(pyshould) \
 python310-pyshould \
 python3dist(pyshould)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-hamcrest"
 

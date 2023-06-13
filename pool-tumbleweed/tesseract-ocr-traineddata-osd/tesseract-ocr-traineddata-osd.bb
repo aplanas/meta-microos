@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-orientation_and_script_detection \
 tesseract-ocr-traineddata-osd"
+
 RDEPENDS:${PN} += "tesseract-ocr"
 
 inherit rpm

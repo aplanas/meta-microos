@@ -9,6 +9,7 @@ RPM_HASH = "7ede702df6d8aa319670e51846a04ff0761b58e5620c9e6acbb46219f67ce21fbc53
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grayhints-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

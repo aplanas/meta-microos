@@ -14,6 +14,7 @@ RPM_HASH = "0eb915392d4fb5918c3ffc039434184a774ffc61e60618fa8a95f919102741822556
 RPROVIDES:${PN} += "libhts.so.3()(64bit) \
 libhts3 \
 libhts3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sillypage.sty) \
 texlive-sillypage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

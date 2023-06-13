@@ -10,6 +10,7 @@ RPM_HASH = "4c8ea47f3b24a980b3074cb25b855469cf636fc4e50892763b1ff918c73e605f501c
 
 RPROVIDES:${PN} += "libquvi-scripts-nsfw \
 libquvi-scripts-nsfw(aarch-64)"
+
 RDEPENDS:${PN} += "libquvi-scripts"
 
 inherit rpm

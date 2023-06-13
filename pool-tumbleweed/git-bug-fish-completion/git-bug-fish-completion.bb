@@ -9,6 +9,7 @@ RPM_HASH = "37c50e6ae5ec52915d9c1cf78b3297e855eaca84afc1a2bd58c6c9bbe114aff594e3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-bug-fish-completion"
+
 RDEPENDS:${PN} += "fish"
 
 inherit rpm

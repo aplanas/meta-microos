@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-keystoneclient \
 python3.10dist(python-keystoneclient) \
 python3dist(python-keystoneclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-debtcollector \
 python3-keystoneauth1 \

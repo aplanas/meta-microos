@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(XML::XSLT) \
 perl(XML::XSLT::DOM::TextDOE) \
 perl-XML-XSLT"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(XML::DOM) \

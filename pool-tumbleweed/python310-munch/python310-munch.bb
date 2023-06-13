@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-munch \
 python3.10dist(munch) \
 python310-munch \
 python3dist(munch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

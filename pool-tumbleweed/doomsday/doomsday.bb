@@ -38,6 +38,7 @@ libimportsave.so()(64bit) \
 libimportudmf.so()(64bit) \
 metainfo() \
 metainfo(net.dengine.Doomsday.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 Mesa-libGL1 \

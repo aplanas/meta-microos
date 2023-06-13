@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(crosswrd.sty) \
 texlive-crosswrd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

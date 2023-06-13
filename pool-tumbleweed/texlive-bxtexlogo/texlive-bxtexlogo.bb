@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bxtexlogo.sty) \
 texlive-bxtexlogo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ RPM_HASH = "2e28bbe7840ddcc096a81a8c639e2f5bc8ab2782d87054a7d7f04e7c36e562d063a1
 RPROVIDES:${PN} += "libmaxminddb-devel \
 libmaxminddb-devel(aarch-64) \
 pkgconfig(libmaxminddb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmaxminddb0"
 

@@ -11,6 +11,7 @@ RPM_HASH = "4c7a6c178f1884be49d525ef3d2dbc9718da5fd13f64ea323960ef0dac5ebc2923a4
 
 RPROVIDES:${PN} += "primecount \
 primecount(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

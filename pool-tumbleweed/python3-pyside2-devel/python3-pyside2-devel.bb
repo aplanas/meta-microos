@@ -14,6 +14,7 @@ pkgconfig(pyside2) \
 pkgconfig(shiboken2) \
 python3-pyside2-devel \
 python3-pyside2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(shiboken2) \
 python3-pyside2"

@@ -9,6 +9,7 @@ RPM_HASH = "eec86a4ddcfbb05b05983e48218b3f8eb96dd4eacb776ce7ba371678033e5800e2aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mahjong-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

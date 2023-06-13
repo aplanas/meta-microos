@@ -10,6 +10,7 @@ RPM_HASH = "dd5ddb5d50a50c3d94867eb2e8fb65098069cefb1b0defe51ee5b5904b4b69cf950b
 RPROVIDES:${PN} += "libQt5Pas.so.1()(64bit) \
 libQt5Pas1 \
 libQt5Pas1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

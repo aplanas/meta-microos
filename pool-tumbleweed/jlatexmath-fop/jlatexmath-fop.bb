@@ -9,6 +9,7 @@ RPM_HASH = "0ace26effe174aeb07e86cb9389437981cc846bf2940d76865bbc6ca8fe925fb1f54
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jlatexmath-fop"
+
 RDEPENDS:${PN} += "javapackages-tools \
 jlatexmath \
 xmlgraphics-fop"

@@ -11,6 +11,7 @@ RPM_HASH = "8da29fcbc48fabca1f131cc1aa3040a68ef613ebadbcaff6249e66215a208ed0743c
 
 RPROVIDES:${PN} += "fftw3-openmp-devel \
 fftw3-openmp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "fftw3-devel \
 glibc-devel \
 libfftw3_omp3"

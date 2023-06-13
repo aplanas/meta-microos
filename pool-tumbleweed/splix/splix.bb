@@ -12,6 +12,7 @@ RPM_HASH = "053299191270e5b74b57a702b7d519e00ddee531cff655d06a9a46cd90233fa3dba4
 RPROVIDES:${PN} += "cups-drivers-splix \
 splix \
 splix(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cups \
 ghostscript \

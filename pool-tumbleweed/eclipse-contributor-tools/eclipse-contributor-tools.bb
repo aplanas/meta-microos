@@ -36,6 +36,7 @@ osgi(org.eclipse.swt.tools) \
 osgi(org.eclipse.swt.tools.base) \
 osgi(org.eclipse.swt.tools.feature) \
 osgi(org.eclipse.swt.tools.spies)"
+
 RDEPENDS:${PN} += "eclipse-platform \
 java-headless \
 javapackages-filesystem \

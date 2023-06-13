@@ -13,6 +13,7 @@ libwebsockets-devel \
 libwebsockets-devel(aarch-64) \
 libwebsockets-evlib_uv.so()(64bit) \
 pkgconfig(libwebsockets)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "94e66da55d8d05b34255cb2be40d53d7ffcb34348c0d18162bcdde04c6c5bf33af78
 
 RPROVIDES:${PN} += "hdf5_1_12_2-gnu-hpc-module \
 hdf5_1_12_2-gnu-hpc-module(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 lua-lmod"
 

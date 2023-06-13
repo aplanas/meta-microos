@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(edu.washington.cs.knowitall:openregex) \
 mvn(edu.washington.cs.knowitall:openregex:pom:) \
 openregex"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.code.findbugs:jsr305) \

@@ -11,6 +11,7 @@ RPM_HASH = "6b5a67a76eb4f5c31481e232cb67233eda2cc919a4c4053e4f2de29c32655c27b6da
 RPROVIDES:${PN} += "budgie-visualspace-applet \
 budgie-visualspace-applet(aarch-64) \
 libvisualspace.so()(64bit)"
+
 RDEPENDS:${PN} += "budgie-extras-lang \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

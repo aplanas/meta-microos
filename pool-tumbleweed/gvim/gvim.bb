@@ -35,6 +35,7 @@ mimehandler(text/x-tcl) \
 mimehandler(text/x-tex) \
 vi \
 vim_client"
+
 RDEPENDS:${PN} += "/bin/sh \
 alts \
 ld-linux-aarch64.so.1()(64bit) \

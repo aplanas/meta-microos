@@ -56,6 +56,7 @@ tex(rm-aeplbi.tfm) \
 tex(rm-aeplri.tfm) \
 tex(tg.enc) \
 texlive-aesupp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

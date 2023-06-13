@@ -57,6 +57,7 @@ locale(gnome-connections:uk) \
 locale(gnome-connections:vi) \
 locale(gnome-connections:zh_CN) \
 locale(gnome-connections:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-connections"
 
 inherit rpm

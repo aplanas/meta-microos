@@ -38,6 +38,7 @@ font(ocrb7) \
 font(ocrb8) \
 font(ocrb9) \
 texlive-ocr-b-outline-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

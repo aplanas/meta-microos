@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(reotex.sty) \
 texlive-reotex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

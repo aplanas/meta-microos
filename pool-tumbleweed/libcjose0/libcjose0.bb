@@ -10,6 +10,7 @@ RPM_HASH = "aa19ea65c637d920df651a4925d1baf4e0083f5c1a823588066016b210b380b38221
 RPROVIDES:${PN} += "libcjose.so.0()(64bit) \
 libcjose0 \
 libcjose0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

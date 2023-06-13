@@ -15,6 +15,7 @@ RPM_HASH = "3305f37fb0cb8e73436f4045f5c9e7346620347ff1ba5a31052525dc416cde5c488a
 
 RPROVIDES:${PN} += "mda-lv2 \
 mda-lv2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kantlipsum.sty) \
 texlive-kantlipsum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

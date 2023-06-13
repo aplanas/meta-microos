@@ -45,6 +45,7 @@ RPM_HASH = "172e7a75a62e06a7e4faea67eb7d8e2d005bfa47d83d7a6aa5001999dadbd37fad87
 RPROVIDES:${PN} += "ghc-HTTP \
 ghc-HTTP(aarch-64) \
 libHSHTTP-4000.4.1-BsHtin5O4EoLpElKRODQk3-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

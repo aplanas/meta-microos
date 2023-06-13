@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-makefun \
 python3.10dist(makefun) \
 python310-makefun \
 python3dist(makefun)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -15,6 +15,7 @@ ThePEG-libs(aarch-64) \
 config(ThePEG-libs) \
 libThePEG.so.30()(64bit) \
 libThePEG24"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "59793833beb1dddfa89784a99574fb2da519ed0e38734b48d10b0779f45b015c0fe4
 RPROVIDES:${PN} += "ldns-devel \
 ldns-devel(aarch-64) \
 pkgconfig(ldns)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libldns3 \

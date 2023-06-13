@@ -32,6 +32,7 @@ RPM_HASH = "18ac987e5320a2f113730aec957114b4a307a903a61faaf7a9ba7a23cea085103cf3
 
 RPROVIDES:${PN} += "simh \
 simh(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.17)(64bit)"

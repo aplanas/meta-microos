@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(korean-lunar-calendar) \
 python39-korean-lunar-calendar \
 python39-korean_lunar_calendar \
 python3dist(korean-lunar-calendar)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

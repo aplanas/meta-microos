@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(russ.sty) \
 texlive-russ"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

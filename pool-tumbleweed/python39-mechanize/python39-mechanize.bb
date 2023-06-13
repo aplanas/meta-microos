@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mechanize) \
 python39-mechanize \
 python3dist(mechanize)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-html5lib"
 

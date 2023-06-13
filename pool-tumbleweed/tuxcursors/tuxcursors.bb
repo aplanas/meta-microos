@@ -9,6 +9,7 @@ RPM_HASH = "3249115ff3dc4f6d31c8f2e7031d863d1f13eed75380e518328980b54976ad49c69f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuxcursors"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

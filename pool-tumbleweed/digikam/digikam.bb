@@ -26,6 +26,7 @@ metainfo() \
 metainfo(org.kde.digikam.appdata.xml) \
 mimehandler(x-content/image-dcf) \
 mimehandler(x-content/image-picturecd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 digikam-plugins \

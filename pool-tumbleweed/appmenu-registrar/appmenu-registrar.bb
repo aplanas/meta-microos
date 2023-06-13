@@ -9,6 +9,7 @@ RPM_HASH = "41dae89f177c808cce5253ea134b6a55c5ec0ec3835c3a239ad1203069e2da1160c7
 
 RPROVIDES:${PN} += "appmenu-registrar \
 appmenu-registrar(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

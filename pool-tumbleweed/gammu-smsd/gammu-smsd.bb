@@ -26,6 +26,7 @@ RPM_HASH = "044f9ce6abc8ba006ed40cbfec618066b894c5b0a70c72778dfd5a37737f361aae05
 RPROVIDES:${PN} += "config(gammu-smsd) \
 gammu-smsd \
 gammu-smsd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

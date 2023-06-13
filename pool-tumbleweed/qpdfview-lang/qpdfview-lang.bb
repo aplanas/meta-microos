@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qpdfview-lang \
 qpdfview-lang-all"
+
 RDEPENDS:${PN} += "qpdfview"
 
 inherit rpm

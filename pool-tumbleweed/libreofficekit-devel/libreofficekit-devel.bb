@@ -10,6 +10,7 @@ RPM_HASH = "6733be6e47796ae4c2907abcb37b734b2f195e97a32b2a8032bf67c64859c94745f2
 
 RPROVIDES:${PN} += "libreofficekit-devel \
 libreofficekit-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libreofficekit"
 
 inherit rpm

@@ -20,6 +20,7 @@ RPM_HASH = "5f1d4f9660b802905f26f1ad82dde6ae7c6899752c1234f0d680fa8acaf4186cda7a
 RPROVIDES:${PN} += "config(rinetd) \
 rinetd \
 rinetd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

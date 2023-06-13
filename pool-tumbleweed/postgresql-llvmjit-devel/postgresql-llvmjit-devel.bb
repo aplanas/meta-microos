@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-llvmjit-devel \
 postgresql-llvmjit-devel-noarch"
+
 RDEPENDS:${PN} += "postgresql-llvmjit-devel-implementation \
 postgresql-server-devel-noarch"
 

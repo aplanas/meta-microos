@@ -14,6 +14,7 @@ RPM_HASH = "d23eb9cd48fc69a250b7c20d677e3625fab3582442b0fcae9fb7eebe63fcda2b6ae8
 
 RPROVIDES:${PN} += "help2man \
 help2man(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 libc.so.6(GLIBC_2.34)(64bit) \
 perl-gettext"

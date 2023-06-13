@@ -13,6 +13,7 @@ man(ps2eps.1) \
 texlive-ps2eps-doc \
 texlive-pstools-doc:/usr/share/man/man1/bbox.1.gz \
 texlive-pstools-doc:/usr/share/man/man1/ps2eps.1.gz"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

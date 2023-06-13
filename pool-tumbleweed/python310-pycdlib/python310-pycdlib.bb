@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-pycdlib \
 python3.10dist(pycdlib) \
 python310-pycdlib \
 python3dist(pycdlib)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 mkisofs \

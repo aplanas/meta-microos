@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(plotly) \
 python311-plotly \
 python3dist(plotly)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-tenacity"
 

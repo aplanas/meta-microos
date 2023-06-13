@@ -13,6 +13,7 @@ python3.10dist(autobahn) \
 python310-autobahn \
 python310-autobahn(aarch-64) \
 python3dist(autobahn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

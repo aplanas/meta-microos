@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(asciimatics) \
 python311-asciimatics \
 python3dist(asciimatics)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Pillow \
 python311-curses \

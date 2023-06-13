@@ -10,6 +10,7 @@ RPM_HASH = "9c546f3565e070aef00ba59e2d8bc8394ab3ebc5d51fd05ed3e76fa408628ae146b9
 RPROVIDES:${PN} += "ghc-bloomfilter \
 ghc-bloomfilter(aarch-64) \
 libHSbloomfilter-2.0.1.0-3hF1ySDPbPQA7KQQeHgCqI-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

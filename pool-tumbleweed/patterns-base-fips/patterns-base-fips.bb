@@ -24,6 +24,7 @@ patterns-base-fips(aarch-64) \
 patterns-server-enterprise-fips \
 patterns-server-enterprise-fips-32bit \
 patterns-sles-fips"
+
 RDEPENDS:${PN} += "(dracut-fips if dracut) \
 (libcryptsetup12-hmac if libcryptsetup12) \
 (libcryptsetup12-hmac-32bit if libcryptsetup12-32bit) \

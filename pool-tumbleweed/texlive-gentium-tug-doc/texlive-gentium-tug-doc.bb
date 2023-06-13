@@ -9,6 +9,7 @@ RPM_HASH = "bfe359d6cefb5f1281bbbff6b28480de715ab4a7d3dc2622d9d0636a38ed74f168fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gentium-tug-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python"
 
 inherit rpm

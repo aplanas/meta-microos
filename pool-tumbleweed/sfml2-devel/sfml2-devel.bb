@@ -23,6 +23,7 @@ pkgconfig(sfml-system) \
 pkgconfig(sfml-window) \
 sfml2-devel \
 sfml2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsfml2-2_5 \
 pkgconfig(flac) \

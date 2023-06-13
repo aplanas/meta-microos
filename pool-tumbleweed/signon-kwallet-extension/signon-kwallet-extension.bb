@@ -10,6 +10,7 @@ RPM_HASH = "3873ce65c413fad94d3bf590f10940f6fb82a488a1d8291afcf69dec756f023f53fe
 RPROVIDES:${PN} += "libkeyring-kwallet.so()(64bit) \
 signon-kwallet-extension \
 signon-kwallet-extension(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Wallet.so.5()(64bit) \

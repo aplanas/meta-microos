@@ -18,6 +18,7 @@ perl(Email::MIME::Header) \
 perl(Email::MIME::Header::AddressList) \
 perl(Email::MIME::Modifier) \
 perl-Email-MIME"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Email::Address::XS) \
 perl(Email::MIME::ContentType) \

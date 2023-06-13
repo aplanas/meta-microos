@@ -15,6 +15,7 @@ RPM_HASH = "ad239828b69671a7d3a919f44f9925fa77f2dde558509ba987dec794563f25575ef4
 
 RPROVIDES:${PN} += "qFlipper-cli \
 qFlipper-cli(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

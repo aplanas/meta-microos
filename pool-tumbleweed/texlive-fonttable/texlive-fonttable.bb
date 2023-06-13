@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fonttable.sty) \
 texlive-fonttable"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

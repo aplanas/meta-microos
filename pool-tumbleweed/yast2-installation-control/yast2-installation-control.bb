@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm_macro(skelcd_control_datadir) \
 yast2-installation-control"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

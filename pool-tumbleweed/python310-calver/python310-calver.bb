@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-calver \
 python3.10dist(calver) \
 python310-calver \
 python3dist(calver)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

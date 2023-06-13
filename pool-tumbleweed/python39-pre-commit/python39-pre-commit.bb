@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pre-commit) \
 python39-pre-commit \
 python3dist(pre-commit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/python3.9 \

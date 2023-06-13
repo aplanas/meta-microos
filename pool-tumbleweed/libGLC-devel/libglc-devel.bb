@@ -11,6 +11,7 @@ RPM_HASH = "4593c317ea03e3d2ac0e2395c9562ce9c0f881f88fa43a58668c7fed8a068ecace68
 RPROVIDES:${PN} += "libGLC-devel \
 libGLC-devel(aarch-64) \
 pkgconfig(quesoglc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Mesa-devel \
 libGLC0 \

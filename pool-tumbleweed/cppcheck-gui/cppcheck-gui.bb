@@ -11,6 +11,7 @@ RPM_HASH = "61b2388db4ca8bcd1930489473b64a689a28dea9b8e2f19eb3c478f59a1afc62341e
 
 RPROVIDES:${PN} += "cppcheck-gui \
 cppcheck-gui(aarch-64)"
+
 RDEPENDS:${PN} += "cppcheck \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

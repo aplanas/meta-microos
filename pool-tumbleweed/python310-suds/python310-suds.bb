@@ -23,6 +23,7 @@ python310-suds \
 python310-suds-community \
 python310-suds-jurko \
 python3dist(suds-community)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

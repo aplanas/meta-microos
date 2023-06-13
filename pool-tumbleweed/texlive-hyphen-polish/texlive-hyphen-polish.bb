@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(hyph-pl.qx.tex) \
 tex(hyph-pl.tex) \
 tex(loadhyph-pl.tex) \
 texlive-hyphen-polish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

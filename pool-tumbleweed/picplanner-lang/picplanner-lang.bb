@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale(picplanner:de) \
 picplanner-lang \
 picplanner-lang-all"
+
 RDEPENDS:${PN} += "picplanner"
 
 inherit rpm

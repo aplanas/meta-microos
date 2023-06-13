@@ -11,6 +11,7 @@ RPM_HASH = "369b44f611d96e403b294698a9c6e73cbb60ae56d8643525dffdf592e377b96df40c
 RPROVIDES:${PN} += "libopencore-amrnb.so.0()(64bit) \
 libopencore-amrnb0 \
 libopencore-amrnb0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

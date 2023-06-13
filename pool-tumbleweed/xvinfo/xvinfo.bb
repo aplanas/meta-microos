@@ -10,6 +10,7 @@ RPM_HASH = "ede95a703d8f2b6a36026ce00dbdeda414bf5efbff89bd06d0bd3b9d4ae654347e70
 
 RPROVIDES:${PN} += "xvinfo \
 xvinfo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "c07a5e2e5b03cbce41445d8b55238ef845ed28cd65128c985b322a19e9e98d3e8eec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cross-s390x-linux-glibc-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -93,6 +93,7 @@ locale(aisleriot:wa) \
 locale(aisleriot:zh_CN) \
 locale(aisleriot:zh_HK) \
 locale(aisleriot:zh_TW)"
+
 RDEPENDS:${PN} += "aisleriot"
 
 inherit rpm

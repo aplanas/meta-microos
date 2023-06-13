@@ -10,6 +10,7 @@ RPM_HASH = "77261d3288dd8ae8da2af9f9737a106f76cf4d7f498b9ce5b7477ccef68d84417232
 
 RPROVIDES:${PN} += "qt6-webview-private-devel \
 qt6-webview-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6WebView) \
 qt6-gui-private-devel"
 

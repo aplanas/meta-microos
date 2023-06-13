@@ -17,6 +17,7 @@ dnf-plugins-extras-system-upgrade \
 python3-dnf-plugin-system-upgrade \
 python3-dnf-plugins-extras-system-upgrade \
 system-upgrade"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-dnf-plugins-extras-common \
 python3-systemd \

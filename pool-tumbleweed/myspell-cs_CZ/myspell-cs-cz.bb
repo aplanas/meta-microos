@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:cs_CZ) \
 myspell-cs_CZ \
 myspell-czech \
 myspell-dictionary"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

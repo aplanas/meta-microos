@@ -20,6 +20,7 @@ RPM_HASH = "3dd89d89bd93173e8afa1223d663d8d2ea57a34d054e7930814c46f923abe5fcd618
 RPROVIDES:${PN} += "libtracker-sparql-3.0.so.0()(64bit) \
 libtracker-sparql-3_0-0 \
 libtracker-sparql-3_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

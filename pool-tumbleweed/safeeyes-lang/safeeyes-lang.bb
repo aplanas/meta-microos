@@ -51,6 +51,7 @@ locale(safeeyes:zh_CN) \
 locale(safeeyes:zh_TW) \
 safeeyes-lang \
 safeeyes-lang-all"
+
 RDEPENDS:${PN} += "safeeyes"
 
 inherit rpm

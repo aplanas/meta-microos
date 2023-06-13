@@ -10,6 +10,7 @@ RPM_HASH = "affe9349f554878b5a13ebc66dda5a0045d5b52be669c4d91d25ce5207c4277123a8
 
 RPROVIDES:${PN} += "libax25-devel \
 libax25-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libax25-0 \
 libax25io0"
 

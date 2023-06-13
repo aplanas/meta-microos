@@ -11,6 +11,7 @@ RPM_HASH = "90c09713772ed98e81fd89360cc1073dc8eb066d4b4b20ce0e9fa29ed2b24e1b9a8c
 RPROVIDES:${PN} += "liblttng-ust-python-agent.so.1()(64bit) \
 liblttng-ust-python-agent1 \
 liblttng-ust-python-agent1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

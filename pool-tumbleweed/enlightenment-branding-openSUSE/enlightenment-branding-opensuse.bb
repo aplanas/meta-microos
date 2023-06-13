@@ -10,6 +10,7 @@ RPM_HASH = "4cd801f2771a8523ebf2fccbbdbe646baf027ee03c1110a9f2027b2aae99fd864b39
 RPROVIDES:${PN} += "enlightenment-branding \
 enlightenment-branding-openSUSE \
 enlightenment-branding-openSUSE(aarch-64)"
+
 RDEPENDS:${PN} += "enlightenment-profiles-openSUSE \
 enlightenment-theme-openSUSE"
 

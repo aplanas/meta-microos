@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(org.osgi:org.osgi.service.jdbc) \
 mvn(org.osgi:org.osgi.service.jdbc:pom:) \
 osgi(org.osgi.service.jdbc) \
 osgi-service-jdbc"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

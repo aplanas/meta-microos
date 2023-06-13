@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-idxlayout-doc:en) \
 texlive-idxlayout-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

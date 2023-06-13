@@ -12,6 +12,7 @@ RPM_HASH = "0c2c4411e94a7e3579d28c7eb9ca511627c03df37df2c075bfec4792666e861cf1f2
 RPROVIDES:${PN} += "libXmuu.so.1()(64bit) \
 libXmuu1 \
 libXmuu1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

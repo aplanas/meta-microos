@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python39-jupyter_notebook-lang \
 python39-notebook-lang \
 python39-notebook-lang-all"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-notebook"
 

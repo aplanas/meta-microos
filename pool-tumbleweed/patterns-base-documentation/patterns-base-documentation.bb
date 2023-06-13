@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-base-documentation \
 patterns-base-documentation(aarch-64) \
 patterns-openSUSE-documentation"
+
 RDEPENDS:${PN} += "man \
 pattern()"
 

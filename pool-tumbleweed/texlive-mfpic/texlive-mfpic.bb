@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "tex(mfpic.sty) \
 tex(mfpic.tex) \
 tex(mfpicdef.tex) \
 texlive-mfpic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

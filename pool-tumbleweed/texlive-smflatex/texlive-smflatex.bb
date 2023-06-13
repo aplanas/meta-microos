@@ -26,6 +26,7 @@ tex(smfhyperref.sty) \
 tex(smfmulti.sty) \
 tex(smfthm.sty) \
 texlive-smflatex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

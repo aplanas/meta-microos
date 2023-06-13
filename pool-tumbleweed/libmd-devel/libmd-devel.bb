@@ -14,6 +14,7 @@ RPM_HASH = "30337163432db77222fd5ffcd907400923cfc38e4044e638c3263f2bb8bd460a2383
 RPROVIDES:${PN} += "libmd-devel \
 libmd-devel(aarch-64) \
 pkgconfig(libmd)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmd0"
 

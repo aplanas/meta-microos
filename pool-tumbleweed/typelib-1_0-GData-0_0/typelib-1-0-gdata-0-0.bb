@@ -15,6 +15,7 @@ RPM_HASH = "5ccdd0d43dc99f34f74efff2e2bb05ccfffb63773d053a5b706a99cf73fff2a5afc1
 RPROVIDES:${PN} += "typelib(GData) \
 typelib-1_0-GData-0_0 \
 typelib-1_0-GData-0_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgdata.so.22()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

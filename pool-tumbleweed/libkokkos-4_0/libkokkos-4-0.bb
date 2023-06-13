@@ -20,6 +20,7 @@ libkokkos-4_0(aarch-64) \
 libkokkoscontainers.so.4.0()(64bit) \
 libkokkoscore.so.4.0()(64bit) \
 libkokkossimd.so.4.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

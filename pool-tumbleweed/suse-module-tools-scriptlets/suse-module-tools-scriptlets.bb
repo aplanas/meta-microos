@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "suse-kernel-rpm-scriptlets \
 suse-module-tools-scriptlets \
 suse-module-tools-scriptlets(aarch-64) \
 suse-module-tools:/usr/lib/module-init-tools/kernel-scriptlets"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 suse-module-tools"

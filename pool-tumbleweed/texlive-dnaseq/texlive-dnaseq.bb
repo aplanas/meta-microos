@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dnaseq.sty) \
 texlive-dnaseq"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -30,6 +30,7 @@ RPM_HASH = "9823b7b7f6ef61ae6302eb61b8ccf28b8843485561d7f43b05cce75b0f078091053e
 RPROVIDES:${PN} += "lmon \
 nmon \
 nmon(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

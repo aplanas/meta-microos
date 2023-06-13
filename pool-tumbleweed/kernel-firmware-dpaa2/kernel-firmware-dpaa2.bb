@@ -25,6 +25,7 @@ firmware(dpaa2/mc/mc_10.28.1_ls1088a.itb) \
 firmware(dpaa2/mc/mc_10.28.1_ls2088a.itb) \
 firmware(dpaa2/mc/mc_10.28.1_lx2160a.itb) \
 kernel-firmware-dpaa2"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

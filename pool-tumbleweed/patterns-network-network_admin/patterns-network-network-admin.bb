@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-network-network_admin \
 patterns-network-network_admin(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

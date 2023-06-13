@@ -18,6 +18,7 @@ mvn(org.ow2.sat4j:org.ow2.sat4j.pb:pom:) \
 osgi(org.sat4j.core) \
 osgi(org.sat4j.pb) \
 sat4j"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem"

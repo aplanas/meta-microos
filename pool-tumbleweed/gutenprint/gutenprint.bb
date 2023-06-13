@@ -500,6 +500,7 @@ postscriptdriver(xerox;docuprint;) \
 postscriptdriver(xerox;docuprint_p12;) \
 postscriptdriver(xerox;docuprint_p8e;) \
 postscriptdriver(xerox;workcentre_m118;)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 cups \

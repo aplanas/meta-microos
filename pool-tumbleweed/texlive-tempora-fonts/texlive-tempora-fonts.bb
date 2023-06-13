@@ -159,6 +159,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(tempora) \
 texlive-tempora-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

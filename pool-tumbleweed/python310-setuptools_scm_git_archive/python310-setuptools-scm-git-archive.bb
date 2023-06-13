@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-setuptools_scm_git_archive \
 python3.10dist(setuptools-scm-git-archive) \
 python310-setuptools_scm_git_archive \
 python3dist(setuptools-scm-git-archive)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools_scm"
 

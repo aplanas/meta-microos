@@ -9,6 +9,7 @@ RPM_HASH = "b4368d2a2ead48a2588a0c2163268172b8fd1182165cb1482255125be86ce9ef3caf
 
 RPROVIDES:${PN} += "gcc-ada \
 gcc-ada(aarch-64)"
+
 RDEPENDS:${PN} += "gcc \
 gcc13-ada"
 

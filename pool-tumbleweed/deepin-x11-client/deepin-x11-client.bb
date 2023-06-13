@@ -9,6 +9,7 @@ RPM_HASH = "520cb1cd8bd3983d1c43f5adc35a0294940b4f0f693510337f1f08bb97dfc6aba49e
 
 RPROVIDES:${PN} += "deepin-x11-client \
 deepin-x11-client(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

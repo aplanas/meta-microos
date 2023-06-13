@@ -10,6 +10,7 @@ RPM_HASH = "6f6534ad7251ea617e6c08055204b73e7b67d401758739d3ac48aa29d8e7277804eb
 RPROVIDES:${PN} += "ghc-prof(semialign-1.2.0.1-LDzKW6eKwIG6WFTA9nak5m) \
 ghc-semialign-prof \
 ghc-semialign-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \
 ghc-prof(hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt) \

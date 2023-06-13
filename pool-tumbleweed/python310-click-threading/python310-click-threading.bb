@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-click-threading \
 python3.10dist(click-threading) \
 python310-click-threading \
 python3dist(click-threading)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click"
 

@@ -9,6 +9,7 @@ RPM_HASH = "447f95963613b9d8c4bd3ab9eba4e75a061de513d5dba440e8c9fb948fcf95a85c49
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

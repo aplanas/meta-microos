@@ -13,6 +13,7 @@ RPM_HASH = "ef7908109aea027917fea59335e414c7437cb16a1d6114a32c6d7b4de42ba25ede45
 RPROVIDES:${PN} += "libsundials_cvode.so.6()(64bit) \
 libsundials_cvode6-openmpi1 \
 libsundials_cvode6-openmpi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

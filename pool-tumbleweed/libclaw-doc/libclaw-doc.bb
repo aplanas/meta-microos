@@ -10,6 +10,7 @@ RPM_HASH = "201779ba561c44596e3b4604944177037b632521691a772f90d46f7f26d9a1aceee6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libclaw-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

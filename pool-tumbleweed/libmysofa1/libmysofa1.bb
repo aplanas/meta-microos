@@ -11,6 +11,7 @@ RPM_HASH = "70c1d98d07d7e455abed3fd885b6c4b18ac4134ce761694ceb0e6c27a4dd373eeed8
 RPROVIDES:${PN} += "libmysofa.so.1()(64bit) \
 libmysofa1 \
 libmysofa1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

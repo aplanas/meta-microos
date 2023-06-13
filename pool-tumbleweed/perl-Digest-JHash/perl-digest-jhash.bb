@@ -18,6 +18,7 @@ RPM_HASH = "479f44a1e0794bafe749f07922a0d8686c598fae95852005ffe4beeb0670aec203cb
 RPROVIDES:${PN} += "perl(Digest::JHash) \
 perl-Digest-JHash \
 perl-Digest-JHash(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

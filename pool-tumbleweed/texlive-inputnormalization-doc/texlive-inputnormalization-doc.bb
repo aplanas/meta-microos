@@ -9,6 +9,7 @@ RPM_HASH = "cd8b120c795f1150cbbc9d1bf7c3f994b3979b1dc00b189a855e0b0eec2cb8e74ae9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-inputnormalization-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

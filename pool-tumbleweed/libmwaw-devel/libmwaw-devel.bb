@@ -11,6 +11,7 @@ RPM_HASH = "b0a483b1716f4e23268650cffa652bf58e6a5c6f6ad78fb0705a60145cd57507638f
 RPROVIDES:${PN} += "libmwaw-devel \
 libmwaw-devel(aarch-64) \
 pkgconfig(libmwaw-0.3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmwaw-0_3-3 \
 pkgconfig(librevenge-0.0) \

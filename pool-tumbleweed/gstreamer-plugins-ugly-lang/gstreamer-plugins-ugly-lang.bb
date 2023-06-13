@@ -54,6 +54,7 @@ locale(gstreamer-plugins-ugly:uk) \
 locale(gstreamer-plugins-ugly:vi) \
 locale(gstreamer-plugins-ugly:zh_CN) \
 locale(gstreamer-plugins-ugly:zh_TW)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-ugly"
 
 inherit rpm

@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(kr.motd.maven:os-maven-plugin) \
 mvn(kr.motd.maven:os-maven-plugin:pom:) \
 os-maven-plugin"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.code.findbugs:jsr305) \

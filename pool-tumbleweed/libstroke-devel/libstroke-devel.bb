@@ -10,6 +10,7 @@ RPM_HASH = "cd78650e1341a5ae1ad3589c9bbfc86f98b43428f54a97ffc7105aa2c4d64b7ac748
 
 RPROVIDES:${PN} += "libstroke-devel \
 libstroke-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libstroke0 \
 pkgconfig(x11)"
 

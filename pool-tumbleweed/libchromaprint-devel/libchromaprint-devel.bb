@@ -12,6 +12,7 @@ RPM_HASH = "656e510b921ac1ba12ca87da59c752ea7bdebc868949789cd7f310227baef593b48d
 RPROVIDES:${PN} += "libchromaprint-devel \
 libchromaprint-devel(aarch-64) \
 pkgconfig(libchromaprint)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 fftw3-devel \
 libchromaprint1 \

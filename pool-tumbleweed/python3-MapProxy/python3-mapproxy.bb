@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-MapProxy \
 python3.10dist(mapproxy) \
 python3dist(mapproxy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 libgeos_c1 \

@@ -22,6 +22,7 @@ mimehandler(inode/directory) \
 mimehandler(text/*) \
 mimehandler(x-scheme-handler/kitty) \
 mimehandler(x-scheme-handler/ssh)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

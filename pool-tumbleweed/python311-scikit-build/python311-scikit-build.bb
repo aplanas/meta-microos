@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(scikit-build) \
 python311-scikit-build \
 python3dist(scikit-build)"
+
 RDEPENDS:${PN} += "cmake \
 python(abi) \
 python311-distro \

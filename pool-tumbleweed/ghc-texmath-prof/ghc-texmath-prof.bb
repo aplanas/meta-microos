@@ -10,6 +10,7 @@ RPM_HASH = "93c5f5daef8398cee8d7bbc129fc5b5a09b8552a2fefda40266291223df47384e4f7
 RPROVIDES:${PN} += "ghc-prof(texmath-0.12.7.1-7OWYB1fHEsHAa3KAfzQAEj) \
 ghc-texmath-prof \
 ghc-texmath-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \
 ghc-prof(mtl-2.2.2) \

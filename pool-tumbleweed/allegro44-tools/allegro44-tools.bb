@@ -11,6 +11,7 @@ RPM_HASH = "d5d00e7f2e887ebad06cb5b44faed1fcdb993a0a9520020737ba9019e0ae46971067
 
 RPROVIDES:${PN} += "allegro44-tools \
 allegro44-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 liballeg.so.4.4()(64bit) \

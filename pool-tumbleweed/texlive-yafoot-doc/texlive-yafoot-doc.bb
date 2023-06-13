@@ -9,6 +9,7 @@ RPM_HASH = "ff938af4643bd42deac8984484502244ef56f723f1c1718652aaede840a76a6a1c12
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yafoot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ifoddpage.sty) \
 texlive-ifoddpage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -19,6 +19,7 @@ locale(scim-tables:zh_CN) \
 locale(scim-tables:zh_TW) \
 scim-tables-lang \
 scim-tables-lang-all"
+
 RDEPENDS:${PN} += "scim-tables"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-adal \
 python3.10dist(adal) \
 python310-adal \
 python3dist(adal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyJWT \
 python310-cryptography \

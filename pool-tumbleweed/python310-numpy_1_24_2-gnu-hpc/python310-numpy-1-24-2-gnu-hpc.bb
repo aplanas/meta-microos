@@ -21,6 +21,7 @@ python3.10dist(numpy) \
 python310-numpy_1_24_2-gnu-hpc \
 python310-numpy_1_24_2-gnu-hpc(aarch-64) \
 python3dist(numpy)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

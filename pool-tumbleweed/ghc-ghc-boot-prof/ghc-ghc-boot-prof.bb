@@ -10,6 +10,7 @@ RPM_HASH = "9184582334d748fa28f6141448bfe74f10cbece74fb4251381d6ad8a76b04cb4a996
 RPROVIDES:${PN} += "ghc-ghc-boot-prof \
 ghc-ghc-boot-prof(aarch-64) \
 ghc-prof(ghc-boot-9.4.5)"
+
 RDEPENDS:${PN} += "ghc-ghc-boot-devel(aarch-64) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(binary-0.8.9.1) \

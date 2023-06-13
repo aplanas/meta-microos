@@ -15,6 +15,7 @@ RPM_HASH = "e9bada0bb0023de3636dda901102fabc9c826d0ddd004d42f0688255692fdfc95e0b
 RPROVIDES:${PN} += "ghc-uuid-types \
 ghc-uuid-types(aarch-64) \
 libHSuuid-types-1.0.5-LsoYQ81hhMAHUqibNrLXkM-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

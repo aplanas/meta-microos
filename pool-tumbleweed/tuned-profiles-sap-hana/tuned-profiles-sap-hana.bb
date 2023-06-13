@@ -9,6 +9,7 @@ RPM_HASH = "d78eee0f9b9017967326a61d4894e9915f8d6fdf935ab9a351de82235f8292605547
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-profiles-sap-hana"
+
 RDEPENDS:${PN} += "tuned"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "d479897dcec581f9d004fb33f933c71ba1e7bf8822dd6919fe88856e8084fe847b2b
 RPROVIDES:${PN} += "liblaszip_api.so.8()(64bit) \
 liblaszip_api8 \
 liblaszip_api8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit)"
 

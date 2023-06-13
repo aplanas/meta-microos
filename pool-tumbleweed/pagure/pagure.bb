@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "config(pagure) \
 pagure \
 python3.10dist(pagure) \
 python3dist(pagure)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 git-core \

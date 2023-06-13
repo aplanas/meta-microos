@@ -9,6 +9,7 @@ RPM_HASH = "58d103b276806de424636587a9d81409793652ee39e918aa1a8b79b7cbfedab1209c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glab-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

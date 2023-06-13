@@ -13,6 +13,7 @@ RPM_HASH = "7732782d94042d04a46f6eadfe72eed2fa4d098e914875029df902bddb80185a43be
 RPROVIDES:${PN} += "libdouble-conversion.so.3()(64bit) \
 libdouble-conversion3 \
 libdouble-conversion3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

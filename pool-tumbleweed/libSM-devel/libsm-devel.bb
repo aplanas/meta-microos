@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "libSM-devel \
 libSM-devel(aarch-64) \
 pkgconfig(sm) \
 xorg-x11-libSM-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSM6 \
 pkgconfig(ice) \

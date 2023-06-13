@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-hanzibox-doc:zh) \
 texlive-hanzibox-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "22175ccd636366f971fc678844815e9f358d90209e126b57826d16e19f4be35de5bf
 
 RPROVIDES:${PN} += "update-test-interactive \
 update-test-interactive(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

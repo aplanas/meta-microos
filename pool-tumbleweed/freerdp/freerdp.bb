@@ -11,6 +11,7 @@ RPM_HASH = "a959f151ac3fed20bd3485955a1be410de374a50239a7af2b3d9c17a4af90d0ce22b
 
 RPROVIDES:${PN} += "freerdp \
 freerdp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

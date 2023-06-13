@@ -35,6 +35,7 @@ tex(fontools_t5.enc) \
 tex(fontools_ts1.enc) \
 tex(fontools_ts3.enc) \
 texlive-fontools"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

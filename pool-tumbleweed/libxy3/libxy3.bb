@@ -13,6 +13,7 @@ RPM_HASH = "7d7c9758b8e0e88f6efd3dd42531371f354c2887b7ea7589e5fd9974dc5cf41157de
 RPROVIDES:${PN} += "libxy.so.3()(64bit) \
 libxy3 \
 libxy3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ metainfo() \
 metainfo(org.kde.sweeper.appdata.xml) \
 sweeper \
 sweeper(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ActivitiesStats.so.1()(64bit) \

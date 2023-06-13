@@ -67,6 +67,7 @@ locale(kipi-plugins:ug) \
 locale(kipi-plugins:uk) \
 locale(kipi-plugins:zh_CN) \
 locale(kipi-plugins:zh_TW)"
+
 RDEPENDS:${PN} += "kipi-plugins"
 
 inherit rpm

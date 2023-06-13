@@ -10,6 +10,7 @@ RPM_HASH = "77a362e198967856590a2e34716522c96b3c46846c097ec85a9889b77674d3039925
 RPROVIDES:${PN} += "libargtable2-0 \
 libargtable2-0(aarch-64) \
 libargtable2.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

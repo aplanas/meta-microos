@@ -13,6 +13,7 @@ RPM_HASH = "9abfd094b538b01b94ceb4f10a0b50fe9de7130ef8a87aca4493c6c3d4fde1d7b4eb
 
 RPROVIDES:${PN} += "ocr_1_0_1-gnu-openmpi3-hpc-devel \
 ocr_1_0_1-gnu-openmpi3-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 ocr_1_0_1-gnu-openmpi3-hpc \
 openmpi3-gnu-hpc-devel"

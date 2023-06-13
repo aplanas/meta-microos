@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-graphviz \
 python3.10dist(graphviz) \
 python310-graphviz \
 python3dist(graphviz)"
+
 RDEPENDS:${PN} += "graphviz \
 python(abi)"
 

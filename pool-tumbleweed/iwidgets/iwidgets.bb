@@ -19,6 +19,7 @@ RPM_HASH = "7f26f7a62abdc2aaf25c17d4ed9c6e3fa7ef29022c3d675632b02d259a05e4b6ac7a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iwidgets"
+
 RDEPENDS:${PN} += "itk"
 
 inherit rpm

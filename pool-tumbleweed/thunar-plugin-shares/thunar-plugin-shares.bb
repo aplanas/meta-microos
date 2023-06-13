@@ -11,6 +11,7 @@ RPM_HASH = "6b5e51cf29633f1306407f1a5355bce12048abded9629957610e9d00e2e8c66355b6
 RPROVIDES:${PN} += "thunar-plugin-shares \
 thunar-plugin-shares(aarch-64) \
 thunar-shares-plugin"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

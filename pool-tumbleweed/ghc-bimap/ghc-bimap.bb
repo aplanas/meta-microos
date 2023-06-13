@@ -12,6 +12,7 @@ RPM_HASH = "ae0fec544631955956e00926d5d388a5c2aeda7fd66daac22629e4f73b3d0e879481
 RPROVIDES:${PN} += "ghc-bimap \
 ghc-bimap(aarch-64) \
 libHSbimap-0.5.0-3nKyJuRybYg2I5XOsBhwKE-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \

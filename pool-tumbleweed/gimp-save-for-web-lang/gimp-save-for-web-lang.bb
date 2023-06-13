@@ -20,6 +20,7 @@ locale(gimp-save-for-web:pt_BR) \
 locale(gimp-save-for-web:ru) \
 locale(gimp-save-for-web:sk) \
 locale(gimp-save-for-web:sv)"
+
 RDEPENDS:${PN} += "gimp-save-for-web"
 
 inherit rpm

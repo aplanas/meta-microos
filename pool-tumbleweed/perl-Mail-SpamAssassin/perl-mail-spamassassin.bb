@@ -125,6 +125,7 @@ perl(Mail::SpamAssassin::Util::TieOneStringHash) \
 perl(Mail::SpamAssassin::Util::TinyRedis) \
 perl-Mail-SpamAssassin \
 perl-spamassassin"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Zip) \
 perl(Digest::SHA1) \

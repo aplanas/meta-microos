@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-paho-mqtt \
 python3.10dist(paho-mqtt) \
 python310-paho-mqtt \
 python3dist(paho-mqtt)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

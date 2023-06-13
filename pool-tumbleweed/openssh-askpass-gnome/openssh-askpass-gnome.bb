@@ -11,6 +11,7 @@ RPM_HASH = "2a008a20bf6e3614cd6639a0d00f3f7a9f2cf55c2fc8e99a1a07d4aa466c46e684fd
 
 RPROVIDES:${PN} += "openssh-askpass-gnome \
 openssh-askpass-gnome(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

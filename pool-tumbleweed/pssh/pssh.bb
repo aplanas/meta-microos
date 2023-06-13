@@ -11,6 +11,7 @@ RPM_HASH = "e844e08cf0eb2a5a3a5f901d9dce5de1390eca680c7e02c3ceb53d113451bb8f2cbf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pssh"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python-pssh"
 

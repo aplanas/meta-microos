@@ -9,6 +9,7 @@ RPM_HASH = "c2765ee1d3042ac30c795003551b21f9c0a04da78116aba2ddfbdf070609237312d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-utils-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

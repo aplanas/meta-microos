@@ -79,6 +79,7 @@ locale(kmix:uk) \
 locale(kmix:zh_CN) \
 locale(kmix:zh_HK) \
 locale(kmix:zh_TW)"
+
 RDEPENDS:${PN} += "kmix"
 
 inherit rpm

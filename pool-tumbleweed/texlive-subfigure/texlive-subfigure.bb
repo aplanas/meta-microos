@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(subfigure.cfg) \
 tex(subfigure.sty) \
 texlive-subfigure"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

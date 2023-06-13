@@ -10,6 +10,7 @@ RPM_HASH = "6476580f7a828476c2d4625da866ec3d126167a7d652e488256ff8e180630d6b2a28
 
 RPROVIDES:${PN} += "xbrz-devel \
 xbrz-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libxbrz-1_8"
 
 inherit rpm

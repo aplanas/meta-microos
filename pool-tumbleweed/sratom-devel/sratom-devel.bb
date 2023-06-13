@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libsratom-0-devel \
 pkgconfig(sratom-0) \
 sratom-devel \
 sratom-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsratom-0-0 \
 pkgconfig(lv2) \

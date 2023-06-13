@@ -9,6 +9,7 @@ RPM_HASH = "446368f26f6b2cc6ed69057c4a6e23faf826f72225e5c135aa7d38fa7dc0515f3b36
 
 RPROVIDES:${PN} += "qt6-lottie-docs-html \
 qt6-lottie-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

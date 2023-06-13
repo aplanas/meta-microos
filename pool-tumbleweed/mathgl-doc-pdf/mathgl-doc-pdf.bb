@@ -13,6 +13,7 @@ RPM_HASH = "9fbe0ff786fd62d8eaa5d514d0c9c03b2253b4470f8f4806d1195bf836e6eb643dc2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathgl-doc-pdf"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

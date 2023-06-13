@@ -16,6 +16,7 @@ RPM_HASH = "60fda83f3ce218c9b980c11031718c9918ca609766b761c5807cf7cb50e179a0a0fd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-apprendre-a-programmer-en-tex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

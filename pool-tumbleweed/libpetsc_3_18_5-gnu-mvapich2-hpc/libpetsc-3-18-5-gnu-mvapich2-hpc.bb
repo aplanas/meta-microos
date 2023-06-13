@@ -11,6 +11,7 @@ RPM_HASH = "f6ac0944b301ff03e3b89eff74bc4181cdbe2c8a11391534299af82da6d97b3f1069
 
 RPROVIDES:${PN} += "libpetsc_3_18_5-gnu-mvapich2-hpc \
 libpetsc_3_18_5-gnu-mvapich2-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/python3 \

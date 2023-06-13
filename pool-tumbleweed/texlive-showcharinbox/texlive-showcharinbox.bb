@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(showcharinbox.sty) \
 texlive-showcharinbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

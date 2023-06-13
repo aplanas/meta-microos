@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-money \
 python3.10dist(django-money) \
 python310-django-money \
 python3dist(django-money)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-py-moneyed \

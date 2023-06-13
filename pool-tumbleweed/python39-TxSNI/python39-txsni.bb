@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(txsni) \
 python39-TxSNI \
 python3dist(txsni)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Twisted-tls \
 python39-pyOpenSSL"

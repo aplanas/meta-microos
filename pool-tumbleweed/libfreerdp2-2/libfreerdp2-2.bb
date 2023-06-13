@@ -42,6 +42,7 @@ libserial-client.so()(64bit) \
 liburbdrc-client-libusb.so()(64bit) \
 liburbdrc-client.so()(64bit) \
 libvideo-client.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

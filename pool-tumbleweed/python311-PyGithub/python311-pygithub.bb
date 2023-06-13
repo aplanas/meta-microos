@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pygithub) \
 python311-PyGithub \
 python3dist(pygithub)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Deprecated \
 python311-PyJWT \

@@ -16,6 +16,7 @@ RPM_HASH = "4917520689fa8ffb2944012a0067342083f2aa1f25590ae8c76e433a5cd782e00fb1
 
 RPROVIDES:${PN} += "xerces-c-doc \
 xerces-c-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

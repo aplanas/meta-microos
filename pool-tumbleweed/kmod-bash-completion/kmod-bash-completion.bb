@@ -9,6 +9,7 @@ RPM_HASH = "ea61ceff54a220d8b9905331e0ff5ad5c202f5dbdd417d3639d95f3f999cf7caec4f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmod-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 kmod"
 

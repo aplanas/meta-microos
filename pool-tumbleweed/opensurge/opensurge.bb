@@ -15,6 +15,7 @@ metainfo() \
 metainfo(opensurge.appdata.xml) \
 opensurge \
 opensurge(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 liballegro.so.5.2()(64bit) \

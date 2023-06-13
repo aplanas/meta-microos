@@ -12,6 +12,7 @@ RPM_HASH = "5e8463bf6639b5cb58f65e8903b0c04fc54180ef855bb9a4ef136557b98084bb0ecb
 
 RPROVIDES:${PN} += "eid-mw \
 eid-mw(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

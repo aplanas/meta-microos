@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jigsaw.sty) \
 texlive-jigsaw"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

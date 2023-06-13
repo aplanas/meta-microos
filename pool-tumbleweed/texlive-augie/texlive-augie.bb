@@ -22,6 +22,7 @@ tex(ot1augie.fd) \
 tex(t1augie.fd) \
 tex(ts1augie.fd) \
 texlive-augie"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

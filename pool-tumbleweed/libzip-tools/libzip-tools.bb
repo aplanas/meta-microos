@@ -11,6 +11,7 @@ RPM_HASH = "e45b5d8eabbe3bc6b7dd66efc5592e736be3fcaaeca2af65f0a50397469c98b28255
 RPROVIDES:${PN} += "libzip \
 libzip-tools \
 libzip-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

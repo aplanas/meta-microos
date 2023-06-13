@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libxklavier \
 libxklavier.so.16()(64bit) \
 libxklavier16 \
 libxklavier16(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 iso-codes \
 ld-linux-aarch64.so.1()(64bit) \

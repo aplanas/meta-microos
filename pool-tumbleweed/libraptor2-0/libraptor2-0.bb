@@ -11,6 +11,7 @@ RPM_HASH = "43832bfd12761a29f0a0d9d6ac22a041da1704ac949fae46a189aba9df138cbb3443
 RPROVIDES:${PN} += "libraptor2-0 \
 libraptor2-0(aarch-64) \
 libraptor2.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

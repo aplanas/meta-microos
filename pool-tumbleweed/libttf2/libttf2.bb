@@ -11,6 +11,7 @@ RPM_HASH = "05e0974795e2f26dc7f5c2f1eeac16d3d89cabc6b47f96c72b0b23e887d575c86d59
 RPROVIDES:${PN} += "libttf.so.2()(64bit) \
 libttf2 \
 libttf2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

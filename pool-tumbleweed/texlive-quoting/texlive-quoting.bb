@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(quoting.sty) \
 texlive-quoting"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

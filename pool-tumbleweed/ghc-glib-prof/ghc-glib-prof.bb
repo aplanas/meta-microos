@@ -10,6 +10,7 @@ RPM_HASH = "17f0d0aac8e778737c8427f6e858ae02bd460d8ead26d238e607b99d797917b431a0
 RPROVIDES:${PN} += "ghc-glib-prof \
 ghc-glib-prof(aarch-64) \
 ghc-prof(glib-0.13.8.2-DQyux8etmkJKUbOUWF524Z)"
+
 RDEPENDS:${PN} += "ghc-glib-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

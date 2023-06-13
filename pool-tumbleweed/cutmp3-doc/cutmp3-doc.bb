@@ -12,6 +12,7 @@ RPM_HASH = "eb53d43db976568de2eefa54d8bfa44c8523f73156bb3671b4a3f00f948ef46de82b
 
 RPROVIDES:${PN} += "cutmp3-doc \
 cutmp3-doc(aarch-64)"
+
 RDEPENDS:${PN} += "cutmp3"
 
 inherit rpm

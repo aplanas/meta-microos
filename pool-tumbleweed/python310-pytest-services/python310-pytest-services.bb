@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pytest-services \
 python3.10dist(pytest-services) \
 python310-pytest-services \
 python3dist(pytest-services)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-psutil \
 python310-pytest \

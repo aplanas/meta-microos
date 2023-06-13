@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "git-daemon \
 git-daemon(aarch-64) \
 group(git-daemon) \
 user(git-daemon)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

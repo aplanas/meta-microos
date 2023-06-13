@@ -17,6 +17,7 @@ perl(PPIx::Utilities::Exception::Bug) \
 perl(PPIx::Utilities::Node) \
 perl(PPIx::Utilities::Statement) \
 perl-PPIx-Utilities"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Exception::Class) \
 perl(PPI) \

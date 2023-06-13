@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nonumonpart.sty) \
 texlive-nonumonpart"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ RPM_HASH = "2845a7409fce9a84757762bab01e23f71347e41238452c9d97f866441265b0738874
 
 RPROVIDES:${PN} += "libxine2-jack \
 libxine2-jack(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

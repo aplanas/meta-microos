@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-platformdirs \
 python3.10dist(platformdirs) \
 python310-platformdirs \
 python3dist(platformdirs)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

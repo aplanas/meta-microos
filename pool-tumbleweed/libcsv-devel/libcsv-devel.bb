@@ -9,6 +9,7 @@ RPM_HASH = "a837aa060ee68ce269327536f3b696be21e32c790f04f980ff0f6331043769457f3f
 
 RPROVIDES:${PN} += "libcsv-devel \
 libcsv-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcsv3"
 
 inherit rpm

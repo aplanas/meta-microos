@@ -10,6 +10,7 @@ RPM_HASH = "077334c686be32b36d1cd793069725181ff1c1b75d4080e056c5eadef9e0121cc179
 
 RPROVIDES:${PN} += "mupdf-devel-static \
 mupdf-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "mupdf"
 
 inherit rpm

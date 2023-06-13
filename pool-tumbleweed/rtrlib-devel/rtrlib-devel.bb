@@ -10,6 +10,7 @@ RPM_HASH = "a5a1c9a30e4dcc4924e1efb231bc639817b28cc8bfdd0fc24971d4dc0da41fc7d5b7
 RPROVIDES:${PN} += "pkgconfig(rtrlib) \
 rtrlib-devel \
 rtrlib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librtr0"
 

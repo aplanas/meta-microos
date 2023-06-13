@@ -27,6 +27,7 @@ tex(HAPcapsules.sty) \
 tex(HAPciment.sty) \
 tex(HAPsimple.sty) \
 texlive-ha-prosper"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

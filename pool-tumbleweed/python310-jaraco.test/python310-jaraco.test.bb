@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jaraco.test \
 python3.10dist(jaraco.test) \
 python310-jaraco.test \
 python3dist(jaraco.test)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jaraco.context \
 python310-jaraco.functools"

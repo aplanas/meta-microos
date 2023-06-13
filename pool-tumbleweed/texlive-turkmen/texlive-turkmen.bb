@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(turkmen.ldf) \
 texlive-turkmen"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

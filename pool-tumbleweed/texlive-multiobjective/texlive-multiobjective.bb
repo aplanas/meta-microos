@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(multiobjective.sty) \
 texlive-multiobjective"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

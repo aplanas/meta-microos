@@ -11,6 +11,7 @@ RPM_HASH = "203c889baae3eed384b76b2c1d7504e3782e17c43034919695765dfbcd371609c41f
 RPROVIDES:${PN} += "libpqxx-devel \
 libpqxx-devel(aarch-64) \
 pkgconfig(libpqxx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpqxx-6_4"
 

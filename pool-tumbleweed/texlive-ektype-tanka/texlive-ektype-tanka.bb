@@ -12,6 +12,7 @@ RPM_HASH = "755164df8f8a413ca8854fee260565877195fcfe1f30490cbcda713e86485c420aa7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ektype-tanka"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

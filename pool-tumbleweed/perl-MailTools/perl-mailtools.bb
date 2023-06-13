@@ -38,6 +38,7 @@ perl(Mail::Send) \
 perl(Mail::Util) \
 perl(MailTools) \
 perl-MailTools"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Date::Format) \
 perl(Date::Parse)"

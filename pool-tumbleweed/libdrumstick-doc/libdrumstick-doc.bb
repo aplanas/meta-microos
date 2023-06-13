@@ -9,6 +9,7 @@ RPM_HASH = "773f3ac83cb1a43eb0065eab21955a9d452f0d0791f5a064570e1fde0a21e18d2776
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdrumstick-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

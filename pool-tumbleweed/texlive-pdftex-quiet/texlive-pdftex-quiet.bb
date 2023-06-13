@@ -12,6 +12,7 @@ RPM_HASH = "202426550d9e72df98fcfb8438afbb325be1ba4c9d234ae032a22fc18dabf4428971
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdftex-quiet"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

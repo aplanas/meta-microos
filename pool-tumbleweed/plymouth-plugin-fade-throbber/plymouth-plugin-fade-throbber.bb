@@ -11,6 +11,7 @@ RPM_HASH = "3c15d34e0ebbb508153c5d7770d7e096f0755f3984580fc8a3128f0ab428258abbd6
 
 RPROVIDES:${PN} += "plymouth-plugin-fade-throbber \
 plymouth-plugin-fade-throbber(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

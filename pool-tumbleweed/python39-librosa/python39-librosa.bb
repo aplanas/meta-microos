@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(librosa) \
 python39-librosa \
 python3dist(librosa)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-SoundFile \
 python39-audioread \

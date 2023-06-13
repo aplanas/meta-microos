@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(etaremune.sty) \
 texlive-etaremune"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -39,6 +39,7 @@ tex(caption_2020-10-26.sty) \
 tex(ltcaption.sty) \
 tex(subcaption.sty) \
 texlive-caption"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

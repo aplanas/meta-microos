@@ -16,6 +16,7 @@ RPM_HASH = "08d0b009524974c56e02bc44f678f2294bda59c18bdc84c052f4af30baeed329fa4b
 RPROVIDES:${PN} += "cereal-devel \
 cereal-devel(aarch-64) \
 cmake(cereal)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

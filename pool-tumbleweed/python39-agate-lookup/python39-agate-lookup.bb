@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(agate-lookup) \
 python39-agate-lookup \
 python3dist(agate-lookup)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyYAML \
 python39-agate \

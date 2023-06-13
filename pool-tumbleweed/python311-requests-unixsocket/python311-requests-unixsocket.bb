@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(requests-unixsocket) \
 python311-requests-unixsocket \
 python3dist(requests-unixsocket)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python(abi) \
 python311-requests"

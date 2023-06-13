@@ -165,6 +165,7 @@ font(cantarellextrabold) \
 font(cantarelllight) \
 font(cantarellthin) \
 texlive-cantarell-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

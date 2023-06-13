@@ -12,6 +12,7 @@ RPM_HASH = "bc72f57ce24eb8354e95b17079dfb5f439faedeea4f96517e7580717bc7ec033f474
 
 RPROVIDES:${PN} += "rsyslog-module-elasticsearch \
 rsyslog-module-elasticsearch(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

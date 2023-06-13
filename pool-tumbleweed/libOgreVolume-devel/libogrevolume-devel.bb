@@ -12,6 +12,7 @@ RPM_HASH = "ba37d363df9fed00771b8ec025c8d49de714e0f03c75955f1f9646310944e549982e
 RPROVIDES:${PN} += "libOgreVolume-devel \
 libOgreVolume-devel(aarch-64) \
 pkgconfig(OGRE-Volume)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOgreVolume13_5 \
 pkgconfig(OGRE)"

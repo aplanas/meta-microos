@@ -15,6 +15,7 @@ libnvme-mi.so.1(LIBNVME_MI_1_3)(64bit) \
 libnvme-mi.so.1(LIBNVME_MI_1_4)(64bit) \
 libnvme-mi1 \
 libnvme-mi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

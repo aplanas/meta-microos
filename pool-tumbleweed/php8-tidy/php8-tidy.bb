@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(php8-tidy) \
 php-tidy \
 php8-tidy \
 php8-tidy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

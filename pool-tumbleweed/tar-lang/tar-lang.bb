@@ -47,6 +47,7 @@ locale(tar:zh_CN) \
 locale(tar:zh_TW) \
 tar-lang \
 tar-lang-all"
+
 RDEPENDS:${PN} += "tar"
 
 inherit rpm

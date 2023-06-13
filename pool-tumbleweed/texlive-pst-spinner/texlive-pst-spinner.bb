@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-spinner.sty) \
 tex(pst-spinner.tex) \
 texlive-pst-spinner"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

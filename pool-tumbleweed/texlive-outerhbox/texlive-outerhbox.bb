@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(outerhbox.sty) \
 texlive-outerhbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

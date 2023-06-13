@@ -10,6 +10,7 @@ RPM_HASH = "7be83d037965eb7d006c0fee2cc44fa440b0ddf9ee3a43997fb8e12d87f52e5d7bf4
 RPROVIDES:${PN} += "libopencv_highgui.so.407()(64bit) \
 libopencv_highgui407 \
 libopencv_highgui407(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

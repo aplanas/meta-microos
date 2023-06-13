@@ -20,6 +20,7 @@ RPM_HASH = "8d43de9ce2270b32d7d3d9f697a84c31c393ac49105e6c9e8285121c3ee48edeb664
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epstopdf"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

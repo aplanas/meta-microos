@@ -46,6 +46,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(unidecode) \
 python311-Unidecode \
 python3dist(unidecode)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

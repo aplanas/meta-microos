@@ -15,6 +15,7 @@ RPM_HASH = "473f8960febd61290ce10a9f74e6d02899913458de88bba93df08283831a4a408270
 
 RPROVIDES:${PN} += "aria2 \
 aria2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaria2.so.0()(64bit) \

@@ -30,6 +30,7 @@ perl(DBIx::Connector::RollbackError) \
 perl(DBIx::Connector::SvpRollbackError) \
 perl(DBIx::Connector::TxnRollbackError) \
 perl-DBIx-Connector"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBI)"
 

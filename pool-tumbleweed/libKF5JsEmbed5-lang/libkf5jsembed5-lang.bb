@@ -94,6 +94,7 @@ locale(libKF5JsEmbed5:wa) \
 locale(libKF5JsEmbed5:zh_CN) \
 locale(libKF5JsEmbed5:zh_HK) \
 locale(libKF5JsEmbed5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5JsEmbed5"
 
 inherit rpm

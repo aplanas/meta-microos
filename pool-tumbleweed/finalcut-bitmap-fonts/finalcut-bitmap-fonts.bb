@@ -132,6 +132,7 @@ font(:lang=yap) \
 font(:lang=za) \
 font(:lang=zu) \
 font(misc8x16graph)"
+
 RDEPENDS:${PN} += "/bin/sh \
 fontconfig"
 

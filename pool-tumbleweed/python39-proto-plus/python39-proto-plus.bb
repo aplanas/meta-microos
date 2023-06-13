@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(proto-plus) \
 python39-proto-plus \
 python3dist(proto-plus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-protobuf"
 

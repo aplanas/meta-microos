@@ -11,6 +11,7 @@ RPM_HASH = "5366114e0d56fabc9a11206261d5559014f0b504cecb60174b4d582947e6e2f318da
 
 RPROVIDES:${PN} += "waybar \
 waybar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatkmm-1.6.so.1()(64bit) \

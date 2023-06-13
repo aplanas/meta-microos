@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-qcs-api-client \
 python3.10dist(qcs-api-client) \
 python310-qcs-api-client \
 python3dist(qcs-api-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyJWT \
 python310-attrs \

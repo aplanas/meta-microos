@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(constant::boolean) \
 perl-constant-boolean"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Symbol::Util)"
 

@@ -12,6 +12,7 @@ RPM_HASH = "b6d6de7b3ad02c2326894ce3d03061dc1e8c6178657f2a0ada416d82b9ccb0cfaabe
 RPROVIDES:${PN} += "libsoci_core.so.4.0()(64bit) \
 libsoci_core4_0 \
 libsoci_core4_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

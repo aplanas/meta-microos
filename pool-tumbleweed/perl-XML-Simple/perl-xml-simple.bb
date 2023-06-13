@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(XML::Simple) \
 perl-XML-Simple"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(XML::NamespaceSupport) \
 perl(XML::SAX) \

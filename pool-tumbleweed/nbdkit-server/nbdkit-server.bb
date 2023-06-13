@@ -9,6 +9,7 @@ RPM_HASH = "fcddd620404bea9c4369ec15a1a259b3074f32fff76b831d7d05285d4419aaf9011f
 
 RPROVIDES:${PN} += "nbdkit-server \
 nbdkit-server(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

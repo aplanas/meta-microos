@@ -14,6 +14,7 @@ RPM_HASH = "8385f5f79fbc4349ebcec26cc14ee701aa9ed01678d3468366ffcd5491af2be37172
 RPROVIDES:${PN} += "libcmpiutil-devel \
 libcmpiutil-devel(aarch-64) \
 pkgconfig(libcmpiutil)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcmpiutil0 \
 sblim-cmpi-devel"

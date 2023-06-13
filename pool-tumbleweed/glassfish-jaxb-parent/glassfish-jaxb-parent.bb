@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-parent \
 mvn(com.sun.xml.bind.mvn:jaxb-parent:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.sun.xml.bind:jaxb-bom-ext:pom:) \

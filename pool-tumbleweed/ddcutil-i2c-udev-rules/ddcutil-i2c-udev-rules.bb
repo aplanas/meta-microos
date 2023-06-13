@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ddcutil-i2c-udev-rules \
 ddcutil:/usr/lib/udev/rules.d/60-ddcutil.rules"
+
 RDEPENDS:${PN} += "libddcutil4"
 
 inherit rpm

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-capturer \
 python3.10dist(capturer) \
 python310-capturer \
 python3dist(capturer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-humanfriendly"
 

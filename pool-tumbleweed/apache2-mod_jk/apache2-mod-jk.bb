@@ -15,6 +15,7 @@ apache2-mod_jk(aarch-64) \
 mod_jk \
 mod_jk-ap20 \
 tomcat-mod"
+
 RDEPENDS:${PN} += "apache2 \
 apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \

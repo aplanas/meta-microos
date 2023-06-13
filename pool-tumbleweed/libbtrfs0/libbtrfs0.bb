@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libbtrfs.so.0()(64bit) \
 libbtrfs.so.0(LIBBTRFS_0.1)(64bit) \
 libbtrfs0 \
 libbtrfs0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

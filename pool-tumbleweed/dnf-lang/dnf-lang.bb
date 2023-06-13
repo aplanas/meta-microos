@@ -64,6 +64,7 @@ locale(dnf:vi) \
 locale(dnf:zh_CN) \
 locale(dnf:zh_Hans) \
 locale(dnf:zh_TW)"
+
 RDEPENDS:${PN} += "dnf"
 
 inherit rpm

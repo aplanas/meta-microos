@@ -36,6 +36,7 @@ mimehandler(application/x-tiled-tsx) \
 tiled \
 tiled(aarch-64) \
 tiled-qt"
+
 RDEPENDS:${PN} += "/bin/sh \
 libQt6Concurrent.so.6()(64bit) \
 libQt6Concurrent.so.6(Qt_6)(64bit) \

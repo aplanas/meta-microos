@@ -10,6 +10,7 @@ RPM_HASH = "afc6d76c2a9a279b4e3817572d5e4eb810259a59d8f9a323d1a8889c9b13466c3a9b
 
 RPROVIDES:${PN} += "libykclient-devel \
 libykclient-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libykclient3"
 

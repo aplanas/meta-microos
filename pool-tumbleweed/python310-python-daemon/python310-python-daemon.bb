@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-python-daemon \
 python3.10dist(python-daemon) \
 python310-python-daemon \
 python3dist(python-daemon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lockfile"
 

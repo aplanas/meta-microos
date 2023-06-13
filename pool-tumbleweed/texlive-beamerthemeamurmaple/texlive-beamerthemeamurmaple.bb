@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(beamerthemeAmurmaple.sty) \
 texlive-beamerthemeamurmaple"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

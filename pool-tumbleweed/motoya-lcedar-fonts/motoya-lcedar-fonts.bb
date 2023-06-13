@@ -10,6 +10,7 @@ RPM_HASH = "644af3ac690be9342cfa6bbe49e20139596083711266eef8e628ecd16d71912ac07c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "motoya-lcedar-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

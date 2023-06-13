@@ -16,6 +16,7 @@ patterns-caasp-container-runtime-kubernetes \
 patterns-containers-container-runtime-kubernetes \
 patterns-kubernetes-container_runtime_kubernetes \
 patterns-kubernetes-container_runtime_kubernetes(aarch-64)"
+
 RDEPENDS:${PN} += "cri-o \
 cri-o-kubeadm-criconfig \
 pattern()"

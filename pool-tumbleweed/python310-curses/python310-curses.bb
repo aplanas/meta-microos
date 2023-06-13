@@ -11,6 +11,7 @@ RPM_HASH = "989f5717de0ed77ebdb97e392dcce81bc26314d7552268c0eb4edd673b726702604a
 RPROVIDES:${PN} += "python3-curses \
 python310-curses \
 python310-curses(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

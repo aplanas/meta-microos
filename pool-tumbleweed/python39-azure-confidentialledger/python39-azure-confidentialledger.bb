@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-confidentialledger) \
 python39-azure-confidentialledger \
 python3dist(azure-confidentialledger)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-core \
 python39-azure-nspkg \

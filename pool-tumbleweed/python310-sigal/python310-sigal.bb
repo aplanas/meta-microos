@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-sigal \
 python3.10dist(sigal) \
 python310-sigal \
 python3dist(sigal)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

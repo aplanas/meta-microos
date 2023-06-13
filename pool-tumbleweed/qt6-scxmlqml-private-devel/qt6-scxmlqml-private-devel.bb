@@ -10,6 +10,7 @@ RPM_HASH = "7bca7c7b17c6450e948f7f3c7bdc4034a12b64cd9b6e887b957c77f0d0ad02f8069c
 
 RPROVIDES:${PN} += "qt6-scxmlqml-private-devel \
 qt6-scxmlqml-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6ScxmlQml)"
 
 inherit rpm

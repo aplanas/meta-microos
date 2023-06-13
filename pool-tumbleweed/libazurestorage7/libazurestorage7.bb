@@ -11,6 +11,7 @@ RPM_HASH = "0cbcf6c579dda70bc52c571f324ac3bf10cbd35970195111e02b33a7eef4b923319e
 RPROVIDES:${PN} += "libazurestorage.so.7()(64bit) \
 libazurestorage7 \
 libazurestorage7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

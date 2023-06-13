@@ -9,6 +9,7 @@ RPM_HASH = "c4249b6bab5d0a7e7d2f540319b3606b9597fc5b1ac63307d28319a5946e45818bf4
 
 RPROVIDES:${PN} += "rust-cbindgen \
 rust-cbindgen(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

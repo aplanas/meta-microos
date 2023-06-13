@@ -45,6 +45,7 @@ tex(datatool-pgfmath.sty) \
 tex(datatool.sty) \
 tex(person.sty) \
 texlive-datatool"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

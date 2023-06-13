@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(voluptuous-serialize) \
 python311-voluptuous-serialize \
 python3dist(voluptuous-serialize)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-voluptuous"
 

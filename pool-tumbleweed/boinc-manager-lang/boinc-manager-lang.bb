@@ -37,6 +37,7 @@ locale(boinc-manager:tr) \
 locale(boinc-manager:uk) \
 locale(boinc-manager:zh_CN) \
 locale(boinc-manager:zh_TW)"
+
 RDEPENDS:${PN} += "boinc-manager"
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-devspaces) \
 python311-azure-mgmt-devspaces \
 python3dist(azure-mgmt-devspaces)"
+
 RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
 python(abi) \
 python311-azure-common \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(icewm-theme-branding) \
 icewm-configuration-files \
 icewm-theme-branding"
+
 RDEPENDS:${PN} += "/bin/sh \
 icewm"
 

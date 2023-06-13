@@ -11,6 +11,7 @@ RPM_HASH = "2b930a04cde1dfa80e3d1adaa9241898143651f77556fc3e7378c1c2e13d99f5339a
 RPROVIDES:${PN} += "ghc-commutative-semigroups-devel \
 ghc-commutative-semigroups-devel(aarch-64) \
 ghc-devel(commutative-semigroups-0.1.0.1-EHuCShtv7U46wPCL9foais)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-commutative-semigroups \
 ghc-compiler \

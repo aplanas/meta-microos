@@ -11,6 +11,7 @@ RPM_HASH = "ea50bbfe51df0545a3772ca05c9f005d648ea015bfce28d289f52814aca0ee119c34
 RPROVIDES:${PN} += "libgssdp-devel \
 libgssdp-devel(aarch-64) \
 pkgconfig(gssdp-1.6)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgssdp-1_6-0 \
 pkgconfig(gio-2.0) \

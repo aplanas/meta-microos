@@ -21,6 +21,7 @@ tex(dtk.bbx) \
 tex(dtk.cbx) \
 tex(dtk.cls) \
 texlive-dtk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

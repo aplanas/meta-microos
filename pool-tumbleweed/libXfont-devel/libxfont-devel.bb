@@ -19,6 +19,7 @@ RPM_HASH = "82e6778e0aee67d86a5ade6439a125d35f0afd4e50d2b938451db497a6b4238140e0
 RPROVIDES:${PN} += "libXfont-devel \
 libXfont-devel(aarch-64) \
 pkgconfig(xfont)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXfont1 \
 pkgconfig(fontenc) \

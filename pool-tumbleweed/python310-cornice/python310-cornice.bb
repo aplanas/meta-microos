@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cornice \
 python3.10dist(cornice) \
 python310-cornice \
 python3dist(cornice)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyramid \
 python310-venusian"

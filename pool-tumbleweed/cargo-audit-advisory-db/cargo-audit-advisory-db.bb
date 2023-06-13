@@ -11,6 +11,7 @@ RPM_HASH = "ceecbd5b71e0c991393fb3519500ead0670a7e10233e2772ee0bde6694ca318a340b
 
 RPROVIDES:${PN} += "cargo-audit-advisory-db \
 cargo-audit-advisory-db(aarch-64)"
+
 RDEPENDS:${PN} += "cargo-audit"
 
 inherit rpm

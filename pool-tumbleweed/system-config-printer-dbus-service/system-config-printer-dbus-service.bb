@@ -13,6 +13,7 @@ RPM_HASH = "bd803cf990f4b80233f39cd7a7332ddf2bba58b66ba147163961a74c3bc9a3dbffdf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "system-config-printer-dbus-service"
+
 RDEPENDS:${PN} += "/bin/sh \
 system-config-printer-common"
 

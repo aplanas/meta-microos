@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-hcloud \
 python3.10dist(hcloud) \
 python310-hcloud \
 python3dist(hcloud)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future \
 python310-python-dateutil \

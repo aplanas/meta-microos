@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(beamersubframe.sty) \
 texlive-beamersubframe"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

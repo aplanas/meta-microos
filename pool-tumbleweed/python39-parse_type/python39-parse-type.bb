@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(parse-type) \
 python39-parse_type \
 python3dist(parse-type)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-parse \
 python39-six"

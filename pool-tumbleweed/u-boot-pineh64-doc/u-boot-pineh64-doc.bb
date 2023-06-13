@@ -10,6 +10,7 @@ RPM_HASH = "8d0389c78df01ff4fb6dc355d218100687b31ef4a6b93acfc17457c4cb413989efc9
 
 RPROVIDES:${PN} += "u-boot-pineh64-doc \
 u-boot-pineh64-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

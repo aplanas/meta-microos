@@ -13,6 +13,7 @@ RPM_HASH = "6ad6aeec477ccab5047868834bb88f9ae6ac3b6f1d0980858e637f077093a3cbeb9a
 RPROVIDES:${PN} += "libsundials_generic.so.6()(64bit) \
 libsundials_generic6 \
 libsundials_generic6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

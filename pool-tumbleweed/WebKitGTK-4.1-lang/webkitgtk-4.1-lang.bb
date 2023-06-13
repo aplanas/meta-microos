@@ -61,6 +61,7 @@ locale(WebKitGTK-4.1:tr) \
 locale(WebKitGTK-4.1:uk) \
 locale(WebKitGTK-4.1:vi) \
 locale(WebKitGTK-4.1:zh_CN)"
+
 RDEPENDS:${PN} += "WebKitGTK-4.1"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "cc5af8647e5872f5383eac108927cf5c4fe2a7ea134fc4fb5ad5554264f8f2e113ff
 RPROVIDES:${PN} += "libspatialite-devel \
 libspatialite-devel(aarch-64) \
 pkgconfig(spatialite)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspatialite7"
 

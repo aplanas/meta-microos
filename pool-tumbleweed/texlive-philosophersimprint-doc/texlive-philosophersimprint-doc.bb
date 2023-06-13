@@ -9,6 +9,7 @@ RPM_HASH = "a6ae78237edc0b0de5dda5cfcc367b521c802cb5f219750893a624f8e3dec5f7aa13
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-philosophersimprint-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

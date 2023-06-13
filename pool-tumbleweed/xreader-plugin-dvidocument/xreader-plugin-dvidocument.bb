@@ -10,6 +10,7 @@ RPM_HASH = "657230bc4c5b392c7b30d44c8d63bae99d6a1044b8a031c2c43694219d7e7efd2eec
 RPROVIDES:${PN} += "libdvidocument.so()(64bit) \
 xreader-plugin-dvidocument \
 xreader-plugin-dvidocument(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

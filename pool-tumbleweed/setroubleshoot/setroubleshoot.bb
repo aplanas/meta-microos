@@ -19,6 +19,7 @@ metainfo() \
 metainfo(setroubleshoot.appdata.xml) \
 setroubleshoot \
 setroubleshoot(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 dbus-1 \
 desktop-file-utils \

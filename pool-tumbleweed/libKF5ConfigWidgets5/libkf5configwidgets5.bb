@@ -11,6 +11,7 @@ RPM_HASH = "7ffe4bee6157d7206564c68ba1885692c3d0b7dee7a220b892fea2702e21cb66105b
 RPROVIDES:${PN} += "libKF5ConfigWidgets.so.5()(64bit) \
 libKF5ConfigWidgets5 \
 libKF5ConfigWidgets5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

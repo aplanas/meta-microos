@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-pytesseract \
 python3.10dist(pytesseract) \
 python310-pytesseract \
 python3dist(pytesseract)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 pkgconfig(tesseract) \

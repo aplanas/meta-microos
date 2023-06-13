@@ -10,6 +10,7 @@ RPM_HASH = "cf071deaada081ce53df7a511dfeaa41e86103d05374b4503317de6b97dc6135dacd
 
 RPROVIDES:${PN} += "smenu-tests \
 smenu-tests(aarch-64)"
+
 RDEPENDS:${PN} += "smenu"
 
 inherit rpm

@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-pydenticon \
 python3.10dist(pydenticon) \
 python310-pydenticon \
 python3dist(pydenticon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow"
 

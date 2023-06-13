@@ -25,6 +25,7 @@ RPM_HASH = "5c3fd4a2508268e53039fb5db50960599da216efab0e0708f5babec097a66f157f38
 RPROVIDES:${PN} += "pingtunnel \
 pingtunnel(aarch-64) \
 ptunnel"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

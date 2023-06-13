@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(dnspython) \
 python311-dnspython \
 python3dist(dnspython)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cryptography \
 python311-httpx \

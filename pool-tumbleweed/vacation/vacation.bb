@@ -19,6 +19,7 @@ RPM_HASH = "f2e93877e8beb7bd3a6c2ec5f122e64bf799e6ac5a6c61fe50e4f6dff64683b7a10d
 
 RPROVIDES:${PN} += "vacation \
 vacation(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

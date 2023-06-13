@@ -15,6 +15,7 @@ RPM_HASH = "6bb9d4d0770eb8aa983518250bc88964531d32598cc7c8b16a9a5cf7fd704077d51f
 
 RPROVIDES:${PN} += "unison-text \
 unison-text(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.17)(64bit) \

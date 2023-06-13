@@ -11,6 +11,7 @@ RPM_HASH = "a97fb20bc4da318fce88172ea492ace4ac44ca9ea62f6be3c7a7559d8ab912b8326d
 
 RPROVIDES:${PN} += "ComputeLibrary \
 ComputeLibrary(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

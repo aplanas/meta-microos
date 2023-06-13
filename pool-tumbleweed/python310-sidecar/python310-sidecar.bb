@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-sidecar \
 python3.10dist(sidecar) \
 python310-sidecar \
 python3dist(sidecar)"
+
 RDEPENDS:${PN} += "(python310-ipywidgets >= 7.6.0 with python310-ipywidgets < 9) \
 jupyter-sidecar-jupyterlab \
 python(abi) \

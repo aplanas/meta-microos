@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-django-auth-ldap \
 python3.10dist(django-auth-ldap) \
 python310-django-auth-ldap \
 python3dist(django-auth-ldap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-ldap"

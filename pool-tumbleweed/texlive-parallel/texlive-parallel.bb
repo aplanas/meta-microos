@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(parallel.sty) \
 texlive-parallel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

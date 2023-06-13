@@ -18,6 +18,7 @@ RPM_HASH = "1ff48e553178d0f1528df2ae65424d925d08cee7c98b25761e30f6859c22972fd7ae
 
 RPROVIDES:${PN} += "nauty \
 nauty(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

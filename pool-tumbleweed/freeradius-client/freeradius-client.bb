@@ -12,6 +12,7 @@ RPM_HASH = "95fd73f98317b242e56dcb2cab30558cc0ffa59ab96a5a804ed61e625e55332c3c7e
 RPROVIDES:${PN} += "config(freeradius-client) \
 freeradius-client \
 freeradius-client(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

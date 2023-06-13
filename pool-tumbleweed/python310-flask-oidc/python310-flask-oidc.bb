@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-flask-oidc \
 python3.10dist(flask-oidc) \
 python310-flask-oidc \
 python3dist(flask-oidc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

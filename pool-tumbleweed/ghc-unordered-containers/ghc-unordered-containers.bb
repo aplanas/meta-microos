@@ -21,6 +21,7 @@ RPM_HASH = "a0185042245d14e80842c1475cb77e9e1cbc009f1459abf83b189f3e49432e855f91
 RPROVIDES:${PN} += "ghc-unordered-containers \
 ghc-unordered-containers(aarch-64) \
 libHSunordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

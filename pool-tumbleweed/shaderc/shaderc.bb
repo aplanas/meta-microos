@@ -15,6 +15,7 @@ RPM_HASH = "0cd2166ea9913d2d439a9efd749aa18ef1189dbf10c87cefcaa3392ec1f38adcba4a
 
 RPROVIDES:${PN} += "shaderc \
 shaderc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSPIRV-Tools-2023.3~rc1.so()(64bit) \

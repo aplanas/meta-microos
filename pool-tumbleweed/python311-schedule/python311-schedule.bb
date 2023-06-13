@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(schedule) \
 python311-schedule \
 python3dist(schedule)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "88387a606374fae3d98482fa93e7001f63a3db298fb99c9fca8e8d69d5289cff7212
 RPROVIDES:${PN} += "Regina-REXX \
 Regina-REXX(aarch-64) \
 rexx"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

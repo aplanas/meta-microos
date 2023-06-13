@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(scalebar.sty) \
 texlive-scalebar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

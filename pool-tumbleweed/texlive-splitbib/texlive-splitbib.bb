@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(splitbib.sty) \
 texlive-splitbib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

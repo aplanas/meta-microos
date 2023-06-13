@@ -12,6 +12,7 @@ RPM_HASH = "fb3470c3b9d1345fd99d065ab87693530ebf0f1d040f5e3aeade135e8afc7795f465
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-getopt"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

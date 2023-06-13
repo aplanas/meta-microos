@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-bibtexparser \
 python3.10dist(bibtexparser) \
 python310-bibtexparser \
 python3dist(bibtexparser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future \
 python310-pyparsing"

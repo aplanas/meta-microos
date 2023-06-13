@@ -11,6 +11,7 @@ RPM_HASH = "ebaa4345ea309e418e5555cc7c4a36f8719e681936260a2711317742cb1333429995
 
 RPROVIDES:${PN} += "conky-doc \
 conky-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

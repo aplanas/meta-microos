@@ -20,6 +20,7 @@ tex(beamerouterthemeNPBT_FOM.sty) \
 tex(beamerouterthemeNPBT_FOM_ifes.sty) \
 tex(beamerthemeNPBT.sty) \
 texlive-beamertheme-npbt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

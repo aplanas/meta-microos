@@ -20,6 +20,7 @@ gemrb(aarch-64) \
 libgemrb_core.so.0.9.1()(64bit) \
 metainfo() \
 metainfo(org.gemrb.gemrb.metainfo.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

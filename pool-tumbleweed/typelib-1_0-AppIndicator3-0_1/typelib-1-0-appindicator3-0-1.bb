@@ -11,6 +11,7 @@ RPM_HASH = "28f159af6cde48185ebd5276ec82b22c6ceed1bc86c1603d35bb4c89ce1afe092d48
 RPROVIDES:${PN} += "typelib(AppIndicator3) \
 typelib-1_0-AppIndicator3-0_1 \
 typelib-1_0-AppIndicator3-0_1(aarch-64)"
+
 RDEPENDS:${PN} += "libappindicator3.so.1()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

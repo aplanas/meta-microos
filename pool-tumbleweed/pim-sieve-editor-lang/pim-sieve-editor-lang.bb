@@ -52,6 +52,7 @@ locale(pim-sieve-editor:zh_CN) \
 locale(pim-sieve-editor:zh_TW) \
 pim-sieve-editor-lang \
 pim-sieve-editor-lang-all"
+
 RDEPENDS:${PN} += "pim-sieve-editor"
 
 inherit rpm

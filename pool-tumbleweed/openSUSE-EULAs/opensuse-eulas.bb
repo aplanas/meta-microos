@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openSUSE-EULAs \
 package-EULAs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

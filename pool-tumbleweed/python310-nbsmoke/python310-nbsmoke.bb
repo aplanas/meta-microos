@@ -16,6 +16,7 @@ python3.10dist(nbsmoke) \
 python310-jupyter_nbsmoke \
 python310-nbsmoke \
 python3dist(nbsmoke)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ipykernel \
 python310-jupyter-client \

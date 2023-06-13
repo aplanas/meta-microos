@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-edk2toollib \
 python3.10dist(edk2-pytool-library) \
 python310-edk2toollib \
 python3dist(edk2-pytool-library)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi)"
 

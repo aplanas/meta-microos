@@ -15,6 +15,7 @@ libphonon4qt5(aarch-64) \
 libphonon4qt5.so.4()(64bit) \
 libphonon4qt5experimental.so.4()(64bit) \
 phonon4qt5"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

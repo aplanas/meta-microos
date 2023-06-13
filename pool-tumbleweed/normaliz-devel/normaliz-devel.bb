@@ -13,6 +13,7 @@ RPM_HASH = "e4cd56479f5832e691b3b37696607c2fe1559cb51a4d5d7626fc8804f783028859e4
 
 RPROVIDES:${PN} += "normaliz-devel \
 normaliz-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gmp-devel \
 libnormaliz3"
 

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libvala-0_56-devel \
 libvala-0_56-devel(aarch-64) \
 libvala-devel \
 pkgconfig(libvala-0.56)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvala-0_56-0 \
 pkgconfig(glib-2.0) \

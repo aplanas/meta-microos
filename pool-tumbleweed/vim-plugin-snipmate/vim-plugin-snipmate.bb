@@ -18,6 +18,7 @@ RPM_HASH = "9d398a40ed6f3d31af459e8029a1eeed159df2ed098f72bfe623ed3f7992bef5f5d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-snipmate"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

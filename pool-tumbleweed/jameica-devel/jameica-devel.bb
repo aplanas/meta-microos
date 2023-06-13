@@ -9,6 +9,7 @@ RPM_HASH = "1472ec5b15e88713dbabdd6eae970f23cc258ead02fe21fb3aa8cdab96f4f9a06925
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jameica-devel"
+
 RDEPENDS:${PN} += "jameica"
 
 inherit rpm

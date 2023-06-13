@@ -58,6 +58,7 @@ locale(gnome-tour:uk) \
 locale(gnome-tour:vi) \
 locale(gnome-tour:zh_CN) \
 locale(gnome-tour:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-tour"
 
 inherit rpm

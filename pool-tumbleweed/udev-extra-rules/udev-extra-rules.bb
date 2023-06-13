@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "system-tuning-common-SUSE \
 udev-extra-rules"
+
 RDEPENDS:${PN} += "/bin/sh \
 systemd"
 

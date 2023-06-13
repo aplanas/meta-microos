@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pytest-instafail \
 python3.10dist(pytest-instafail) \
 python310-pytest-instafail \
 python3dist(pytest-instafail)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

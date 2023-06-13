@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk-doc-manual-lang \
 gtk-doc-manual-lang-all"
+
 RDEPENDS:${PN} += "gtk-doc-manual"
 
 inherit rpm

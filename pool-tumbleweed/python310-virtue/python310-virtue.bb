@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-virtue \
 python3.10dist(virtue) \
 python310-virtue \
 python3dist(virtue)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

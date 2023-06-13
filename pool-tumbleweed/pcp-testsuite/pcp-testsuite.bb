@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "pcp-testsuite \
 pcp-testsuite(aarch-64) \
 perl(Slurm) \
 perl(Slurm::Hostlist)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

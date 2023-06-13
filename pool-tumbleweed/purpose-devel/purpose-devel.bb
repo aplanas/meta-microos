@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KDEExperimentalPurpose) \
 cmake(KF5Purpose) \
 purpose-devel \
 purpose-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5CoreAddons) \
 extra-cmake-modules \
 libKF5Purpose5 \

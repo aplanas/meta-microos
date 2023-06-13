@@ -16,6 +16,7 @@ python3-gyp \
 python3.10dist(gyp) \
 python310-gyp \
 python3dist(gyp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ninja \

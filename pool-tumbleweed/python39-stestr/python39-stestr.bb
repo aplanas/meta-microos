@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(stestr) \
 python39-stestr \
 python3dist(stestr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyYAML \
 python39-fixtures \

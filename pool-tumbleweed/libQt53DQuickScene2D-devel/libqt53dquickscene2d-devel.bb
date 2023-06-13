@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt53DQuickScene2D) \
 libQt53DQuickScene2D-devel \
 libQt53DQuickScene2D-devel(aarch-64) \
 pkgconfig(Qt53DQuickScene2D)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt53DQuickScene2D5 \
 pkgconfig(Qt53DCore) \

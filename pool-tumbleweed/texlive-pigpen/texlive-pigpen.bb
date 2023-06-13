@@ -17,6 +17,7 @@ tex(pigpen.sty) \
 tex(pigpen.tex) \
 tex(pigpen.tfm) \
 texlive-pigpen"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

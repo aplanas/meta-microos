@@ -14,6 +14,7 @@ RPM_HASH = "c0baf4d9956315b58d7d39bd383ec46c742c1378cb53e27b444339ad981cf543ebaf
 RPROVIDES:${PN} += "config(lighttpd-mod_rrdtool) \
 lighttpd-mod_rrdtool \
 lighttpd-mod_rrdtool(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
 lighttpd \
 rrdtool"

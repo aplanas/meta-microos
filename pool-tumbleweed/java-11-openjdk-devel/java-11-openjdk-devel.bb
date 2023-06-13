@@ -19,6 +19,7 @@ java-sdk-11-openjdk \
 java-sdk-openjdk \
 libattach.so()(64bit) \
 libsaproc.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-11-openjdk \
 ld-linux-aarch64.so.1()(64bit) \

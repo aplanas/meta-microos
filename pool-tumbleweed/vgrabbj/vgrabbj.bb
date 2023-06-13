@@ -11,6 +11,7 @@ RPM_HASH = "de4e8ba98772404a5a4a9a61051c90c0c35bc20697be708a5ec084a1d4d67aaf2e5d
 RPROVIDES:${PN} += "config(vgrabbj) \
 vgrabbj \
 vgrabbj(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

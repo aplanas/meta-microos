@@ -10,6 +10,7 @@ RPM_HASH = "6f3ff1d6b7462f8459320e4964aadbe63b29f442d98d11422e398932fd07c94977d5
 RPROVIDES:${PN} += "ghc-process-prof \
 ghc-process-prof(aarch-64) \
 ghc-prof(process-1.6.16.0)"
+
 RDEPENDS:${PN} += "ghc-process-devel(aarch-64) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(deepseq-1.4.8.0) \

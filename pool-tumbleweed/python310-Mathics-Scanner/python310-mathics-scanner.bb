@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Mathics-Scanner \
 python3.10dist(mathics-scanner) \
 python310-Mathics-Scanner \
 python3dist(mathics-scanner)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 /usr/bin/python3.10 \

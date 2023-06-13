@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "application() \
 application(dde-lock.desktop) \
 deepin-session-shell \
 deepin-session-shell(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 deepin-wallpapers \
 ld-linux-aarch64.so.1()(64bit) \

@@ -16,6 +16,7 @@ libanthygobject-1.0.so.5()(64bit) \
 metainfo() \
 metainfo(org.freedesktop.ibus.engine.anthy.metainfo.xml) \
 typelib(Anthy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 anthy \

@@ -20,6 +20,7 @@ perl(PPIx::Utils::Language) \
 perl(PPIx::Utils::Traversal) \
 perl(PPIx::Utils::_Common) \
 perl-PPIx-Utils"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(B::Keywords) \
 perl(PPI)"

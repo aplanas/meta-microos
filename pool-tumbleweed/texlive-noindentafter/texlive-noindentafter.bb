@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(noindentafter.sty) \
 texlive-noindentafter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

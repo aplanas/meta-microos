@@ -12,6 +12,7 @@ RPM_HASH = "048c9448894ed06ed3d31f2df941b5846238029da368c63bb0d728cf718471604cbd
 
 RPROVIDES:${PN} += "attr \
 attr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libattr.so.1()(64bit) \

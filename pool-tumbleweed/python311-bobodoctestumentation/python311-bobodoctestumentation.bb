@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(bobodoctestumentation) \
 python311-bobodoctestumentation \
 python3dist(bobodoctestumentation)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-WebTest \
 python311-manuel \

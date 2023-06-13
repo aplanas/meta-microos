@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.scala-sbt:launcher-interface) \
 mvn(org.scala-sbt:launcher-interface:pom:) \
 sbt-launcher-interface"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

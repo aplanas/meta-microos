@@ -12,6 +12,7 @@ RPM_HASH = "f40a8b21f4b97475e40ccd9f734dc801bba68618bc1bd1be51af511479f532d280a1
 RPROVIDES:${PN} += "courier-authlib-sqlite \
 courier-authlib-sqlite(aarch-64) \
 libauthsqlite.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

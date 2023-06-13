@@ -12,6 +12,7 @@ python39-gitdb \
 python39-gitdb(aarch-64) \
 python39-gitdb2 \
 python3dist(gitdb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-smmap"
 

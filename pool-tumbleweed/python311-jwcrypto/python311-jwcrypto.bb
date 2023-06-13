@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jwcrypto) \
 python311-jwcrypto \
 python3dist(jwcrypto)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Deprecated \
 python311-cryptography"

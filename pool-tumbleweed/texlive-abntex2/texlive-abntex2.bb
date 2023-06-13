@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(abntex2.cls) \
 tex(abntex2abrev.sty) \
 tex(abntex2cite.sty) \
 texlive-abntex2"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

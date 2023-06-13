@@ -10,6 +10,7 @@ RPM_HASH = "c4b35efa3bc5f2fcd3a7401e17a614aee1a1f9564e043cd3b0739583035ae08d7903
 RPROVIDES:${PN} += "NetworkManager-iodine-frontend \
 plasma-nm5-iodine \
 plasma-nm5-iodine(aarch-64)"
+
 RDEPENDS:${PN} += "NetworkManager-iodine \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-themes:/usr/share/themes/Industrial/index.theme \
 gtk2-metatheme-industrial"
+
 RDEPENDS:${PN} += "gtk2-engine-industrial \
 gtk2-metatheme-gilouche \
 gtk2-theme-industrial"

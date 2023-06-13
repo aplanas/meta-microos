@@ -14,6 +14,7 @@ RPM_HASH = "20e258a57f88f1e7a9375568934fa653ca7c4480a8b614ca7fd6ca844b86c33b42d6
 RPROVIDES:${PN} += "libvsapm-devel \
 libvsapm-devel(aarch-64) \
 pkgconfig(libvsapm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libvsapm1"

@@ -11,6 +11,7 @@ RPM_HASH = "5d428d4959d7ba67f93e85b06d4fd42151281b0bd78b9a1ea8ac02993fc9ee20eff7
 RPROVIDES:${PN} += "monitoring-plugins-nt \
 monitoring-plugins-nt(aarch-64) \
 nagios-plugins-nt"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

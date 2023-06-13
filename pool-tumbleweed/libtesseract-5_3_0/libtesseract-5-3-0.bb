@@ -12,6 +12,7 @@ RPM_HASH = "d59783d96d6914d6edf100045c83addd18823e73b65d4f63824bd2807b251700733e
 RPROVIDES:${PN} += "libtesseract-5_3_0 \
 libtesseract-5_3_0(aarch-64) \
 libtesseract.so.5.3.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

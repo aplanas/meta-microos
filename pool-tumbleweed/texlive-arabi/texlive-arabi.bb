@@ -167,6 +167,7 @@ tex(titrout.tfm) \
 tex(transcmr.fd) \
 tex(translit.sty) \
 texlive-arabi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

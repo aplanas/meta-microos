@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(djangorestframework-camel-case) \
 python311-djangorestframework-camel-case \
 python3dist(djangorestframework-camel-case)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-djangorestframework"
 

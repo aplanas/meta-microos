@@ -10,6 +10,7 @@ RPM_HASH = "4cc81fa7e625ca9c4881d59704a0ee52db0f56b5d6521b8fa99a5e87719a65005b4b
 RPROVIDES:${PN} += "libsignon-qt5-1 \
 libsignon-qt5-1(aarch-64) \
 libsignon-qt5.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

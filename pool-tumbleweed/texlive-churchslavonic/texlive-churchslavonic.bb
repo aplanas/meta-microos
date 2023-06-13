@@ -18,6 +18,7 @@ tex(cu-num.sty) \
 tex(cu-util.sty) \
 tex(gloss-churchslavonic.ldf) \
 texlive-churchslavonic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

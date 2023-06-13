@@ -16,6 +16,7 @@ python3.10dist(vdirsyncer) \
 python310-vdirsyncer \
 python3dist(vdirsyncer) \
 vdirsyncer"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

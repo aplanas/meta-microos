@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(algpseudocodex.sty) \
 texlive-algpseudocodex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

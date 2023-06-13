@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(php8-imagick) \
 php-imagick \
 php8-imagick \
 php8-imagick(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMagickCore-7.Q16HDRI.so.10()(64bit) \

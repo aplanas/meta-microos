@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-certbot-nginx \
 python3.10dist(certbot-nginx) \
 python310-certbot-nginx \
 python3dist(certbot-nginx)"
+
 RDEPENDS:${PN} += "nginx \
 python(abi) \
 python310-acme \

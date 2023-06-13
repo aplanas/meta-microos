@@ -14,6 +14,7 @@ dnf-plugin-torproxy \
 dnf-plugins-extras-torproxy \
 python3-dnf-plugin-torproxy \
 python3-dnf-plugins-extras-torproxy"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-dnf-plugins-extras-common \
 python3-pycurl"

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-fast-diagram-doc:fr) \
 texlive-fast-diagram-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

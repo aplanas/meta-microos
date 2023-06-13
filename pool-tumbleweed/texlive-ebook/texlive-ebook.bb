@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ebook.sty) \
 texlive-ebook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

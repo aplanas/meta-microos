@@ -9,6 +9,7 @@ RPM_HASH = "a69e9cb6e45439841c986288855f54c0d3968ef86dac7eb2ed5df16cf77af07b8003
 
 RPROVIDES:${PN} += "drm_info \
 drm_info(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

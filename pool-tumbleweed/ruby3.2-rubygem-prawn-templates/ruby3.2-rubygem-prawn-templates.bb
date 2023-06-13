@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:prawn-templates) \
 rubygem(ruby:3.2.0:prawn-templates:0) \
 rubygem(ruby:3.2.0:prawn-templates:0.1) \
 rubygem(ruby:3.2.0:prawn-templates:0.1.2)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:pdf-reader:2) \
 rubygem(ruby:3.2.0:prawn:2)"

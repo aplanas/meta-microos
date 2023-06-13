@@ -10,6 +10,7 @@ RPM_HASH = "01668901e74dfb82ded9c44083354b50f79e8d99622a6e41f08ca14e1aeb0a6f5405
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubectl-node-shell"
+
 RDEPENDS:${PN} += "/usr/bin/sh \
 bash"
 

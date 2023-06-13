@@ -19,6 +19,7 @@ tex(datenumberfrench.ldf) \
 tex(datenumbergerman.ldf) \
 tex(datenumberspanish.ldf) \
 texlive-datenumber"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

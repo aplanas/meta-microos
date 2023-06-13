@@ -15,6 +15,7 @@ tex(epsfx.tex) \
 tex(poligraf.sty) \
 tex(trans.tex) \
 texlive-tex-ps"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

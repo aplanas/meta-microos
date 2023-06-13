@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(coreapi) \
 python39-coreapi \
 python3dist(coreapi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-coreschema \
 python39-itypes \

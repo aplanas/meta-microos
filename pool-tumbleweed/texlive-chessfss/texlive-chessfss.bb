@@ -48,6 +48,7 @@ tex(lsienc.def) \
 tex(lsiskak.fd) \
 tex(lsiskaknew.fd) \
 texlive-chessfss"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

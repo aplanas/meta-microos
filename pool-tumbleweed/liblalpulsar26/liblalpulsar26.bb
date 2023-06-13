@@ -11,6 +11,7 @@ RPM_HASH = "c11558051c55f788822074bf765c5402256040749bed0f890035010764d1fcb6abbd
 RPROVIDES:${PN} += "liblalpulsar.so.26()(64bit) \
 liblalpulsar26 \
 liblalpulsar26(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

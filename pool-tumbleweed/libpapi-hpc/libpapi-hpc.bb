@@ -11,6 +11,7 @@ RPM_HASH = "77d75ff4c85f3cb44751f74e61d32e723cfd5dab1e706512f63d4b341f50d36f44f3
 
 RPROVIDES:${PN} += "libpapi-hpc \
 libpapi-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libpapi_7_0_0-hpc"
 

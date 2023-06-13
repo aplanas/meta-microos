@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt63DRender) \
 pkgconfig(Qt63DRender) \
 qt6-3drender-devel \
 qt6-3drender-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt63DCore) \
 cmake(Qt6Concurrent) \

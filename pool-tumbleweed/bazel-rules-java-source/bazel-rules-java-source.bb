@@ -11,6 +11,7 @@ RPM_HASH = "e1c8819012171ea3391b044fef6b131e750cf3f7f2891e45b406c600bd1a1c5219da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-java-source"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

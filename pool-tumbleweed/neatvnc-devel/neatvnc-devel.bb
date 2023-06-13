@@ -10,6 +10,7 @@ RPM_HASH = "5129944017e2e8439dac453e8cf5a158bb2492f6c96464dcfb8907512b0e1283590e
 RPROVIDES:${PN} += "neatvnc-devel \
 neatvnc-devel(aarch-64) \
 pkgconfig(neatvnc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libneatvnc0 \
 pkgconfig(aml) \

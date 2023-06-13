@@ -149,6 +149,7 @@ font(stixmathsans) \
 font(stixmathscript) \
 font(stixmathtyperwriter) \
 texlive-stix-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

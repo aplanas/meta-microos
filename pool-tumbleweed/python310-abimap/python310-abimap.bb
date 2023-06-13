@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-abimap \
 python3.10dist(abimap) \
 python310-abimap \
 python3dist(abimap)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

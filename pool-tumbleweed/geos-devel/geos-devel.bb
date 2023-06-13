@@ -19,6 +19,7 @@ geos-devel \
 geos-devel(aarch-64) \
 libgeos-devel \
 pkgconfig(geos)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libgeos3_11_2 \

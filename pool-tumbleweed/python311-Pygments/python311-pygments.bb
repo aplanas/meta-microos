@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3.11dist(pygments) \
 python311-Pygments \
 python311-pygments \
 python3dist(pygments)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \

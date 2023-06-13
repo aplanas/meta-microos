@@ -12,6 +12,7 @@ RPM_HASH = "f1ad0bfbf495a9f401c58fa97bc6edc6214adedb396e1edff68d80fecf2b960be1e9
 RPROVIDES:${PN} += "libsearpc.so.1()(64bit) \
 libsearpc1 \
 libsearpc1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

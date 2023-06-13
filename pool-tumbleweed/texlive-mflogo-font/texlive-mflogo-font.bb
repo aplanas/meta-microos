@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mflogo.map) \
 texlive-mflogo-font"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

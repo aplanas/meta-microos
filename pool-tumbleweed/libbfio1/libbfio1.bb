@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libbfio.so.1()(64bit) \
 libbfio.so.1(V_20221025)(64bit) \
 libbfio1 \
 libbfio1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

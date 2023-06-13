@@ -16,6 +16,7 @@ RPM_HASH = "2eff577780d8f9a5337a98ef942f1b4a29dbd807d80972d79e9f5b68939c9fcd3e09
 
 RPROVIDES:${PN} += "mbuffer \
 mbuffer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

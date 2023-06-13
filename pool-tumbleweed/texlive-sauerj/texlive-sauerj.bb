@@ -20,6 +20,7 @@ tex(parcolumns.sty) \
 tex(processkv.sty) \
 tex(zahl2string.sty) \
 texlive-sauerj"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

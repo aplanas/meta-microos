@@ -47,6 +47,7 @@ tex(lheshstk.fd) \
 tex(rlbabel.def) \
 tex(si960.def) \
 texlive-babel-hebrew"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-txaio \
 python3.10dist(txaio) \
 python310-txaio \
 python3dist(txaio)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

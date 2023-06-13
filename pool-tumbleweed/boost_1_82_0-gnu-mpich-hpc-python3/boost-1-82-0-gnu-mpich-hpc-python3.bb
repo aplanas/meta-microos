@@ -10,6 +10,7 @@ RPM_HASH = "2c6dcde62bd37bcf2d57a755176f60b3122b92a5c014c7c8b32bee944e609df7ad45
 
 RPROVIDES:${PN} += "boost_1_82_0-gnu-mpich-hpc-python3 \
 boost_1_82_0-gnu-mpich-hpc-python3(aarch-64)"
+
 RDEPENDS:${PN} += "boost_1_82_0-gnu-mpich-hpc"
 
 inherit rpm

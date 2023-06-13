@@ -10,6 +10,7 @@ RPM_HASH = "11e24bf2c9e79de5a5831c3042f0c509a7bcb7a9f9ec908b2baf68b779c79c66d49f
 RPROVIDES:${PN} += "ghc-data-default-instances-old-locale-prof \
 ghc-data-default-instances-old-locale-prof(aarch-64) \
 ghc-prof(data-default-instances-old-locale-0.0.1-7AZu0A9Np87C6EgyuU2uGo)"
+
 RDEPENDS:${PN} += "ghc-data-default-instances-old-locale-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ) \

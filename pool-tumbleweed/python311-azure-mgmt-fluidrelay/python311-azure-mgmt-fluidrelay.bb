@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-fluidrelay) \
 python311-azure-mgmt-fluidrelay \
 python3dist(azure-mgmt-fluidrelay)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-mgmt-core \

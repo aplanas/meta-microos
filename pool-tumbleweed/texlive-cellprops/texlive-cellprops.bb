@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cellprops.sty) \
 texlive-cellprops"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

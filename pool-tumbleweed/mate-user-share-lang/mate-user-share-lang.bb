@@ -111,6 +111,7 @@ locale(mate-user-share:zh_HK) \
 locale(mate-user-share:zh_TW) \
 mate-user-share-lang \
 mate-user-share-lang-all"
+
 RDEPENDS:${PN} += "mate-user-share"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "7aa2cdbf192eed89750548ea31c1c9bf3aace75eab0a3091c8b99b21390615ed7f1b
 RPROVIDES:${PN} += "libDebugUtils.so.1()(64bit) \
 libDebugUtils1 \
 libDebugUtils1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

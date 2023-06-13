@@ -35,6 +35,7 @@ tex(knitwn.tfm) \
 tex(knitwp.tfm) \
 tex(uknit.fd) \
 texlive-knitting"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

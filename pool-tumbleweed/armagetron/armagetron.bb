@@ -19,6 +19,7 @@ armagetron(aarch-64) \
 config(armagetron) \
 metainfo() \
 metainfo(Armagetron.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 coreutils \

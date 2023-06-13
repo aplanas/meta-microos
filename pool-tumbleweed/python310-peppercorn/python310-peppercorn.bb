@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-peppercorn \
 python3.10dist(peppercorn) \
 python310-peppercorn \
 python3dist(peppercorn)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

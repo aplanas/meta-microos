@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "python3-dj-database-url \
 python3.10dist(dj-database-url) \
 python310-dj-database-url \
 python3dist(dj-database-url)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-typing_extensions"

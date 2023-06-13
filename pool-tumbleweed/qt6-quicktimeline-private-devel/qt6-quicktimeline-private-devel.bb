@@ -10,6 +10,7 @@ RPM_HASH = "38d2147b37a763cb6df26c8dfc87636b70096b97472b07bced95468520efc45861a3
 
 RPROVIDES:${PN} += "qt6-quicktimeline-private-devel \
 qt6-quicktimeline-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6QuickTimeline)"
 
 inherit rpm

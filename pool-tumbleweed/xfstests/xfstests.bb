@@ -10,6 +10,7 @@ RPM_HASH = "19622447cad7c17352ad3285da2c391e186b20d7fce7c2cd5a6f20aa2ecdcd803c71
 
 RPROVIDES:${PN} += "xfstests \
 xfstests(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

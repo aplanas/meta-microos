@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aiohttp-theme \
 python3.10dist(aiohttp-theme) \
 python310-aiohttp-theme \
 python3dist(aiohttp-theme)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

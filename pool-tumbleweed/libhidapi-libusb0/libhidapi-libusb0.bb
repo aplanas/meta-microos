@@ -11,6 +11,7 @@ RPM_HASH = "5386c25309d33244e6083ec40081121d438010dd7903e9d02329cffdafd8fb1128e5
 RPROVIDES:${PN} += "libhidapi-libusb.so.0()(64bit) \
 libhidapi-libusb0 \
 libhidapi-libusb0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

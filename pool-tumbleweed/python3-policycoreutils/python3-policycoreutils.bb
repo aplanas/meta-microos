@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "policycoreutils-python \
 python3-policycoreutils \
 python3.10dist(sepolicy) \
 python3dist(sepolicy)"
+
 RDEPENDS:${PN} += "checkpolicy \
 policycoreutils \
 python(abi) \

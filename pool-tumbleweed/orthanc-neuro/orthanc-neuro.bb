@@ -10,6 +10,7 @@ RPM_HASH = "17a8fd397adf28fa6a9525ae677732df883f68138849e6fbdc5d7331273bd4dbffa7
 RPROVIDES:${PN} += "libOrthancNeuro.so.1.0()(64bit) \
 orthanc-neuro \
 orthanc-neuro(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

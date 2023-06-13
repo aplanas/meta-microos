@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-azure-ai-translation-document \
 python3.10dist(azure-ai-translation-document) \
 python310-azure-ai-translation-document \
 python3dist(azure-ai-translation-document)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-ai-nspkg \
 python310-azure-ai-translation-nspkg \

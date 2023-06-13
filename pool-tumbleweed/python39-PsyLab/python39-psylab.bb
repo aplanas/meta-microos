@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(psylab) \
 python39-PsyLab \
 python3dist(psylab)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-matplotlib \
 python39-numpy \

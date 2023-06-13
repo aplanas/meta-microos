@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jsmin \
 python3.10dist(jsmin) \
 python310-jsmin \
 python3dist(jsmin)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

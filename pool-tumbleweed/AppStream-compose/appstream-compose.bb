@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "AppStream-compose \
 AppStream-compose(aarch-64) \
 metainfo() \
 metainfo(org.freedesktop.appstream.compose.metainfo.xml)"
+
 RDEPENDS:${PN} += "AppStream \
 gdk-pixbuf-loader-rsvg \
 ld-linux-aarch64.so.1()(64bit) \

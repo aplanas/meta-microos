@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(MooseX::InsideOut) \
 perl(MooseX::InsideOut::Role::Meta::Instance) \
 perl-MooseX-InsideOut"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::MOP) \
 perl(Hash::Util::FieldHash::Compat) \

@@ -21,6 +21,7 @@ RPM_HASH = "5c029830e0f178765b25f3dda5f15198f75ca5230be23fd1045f468a1991f6e2367f
 
 RPROVIDES:${PN} += "iscsiuio \
 iscsiuio(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

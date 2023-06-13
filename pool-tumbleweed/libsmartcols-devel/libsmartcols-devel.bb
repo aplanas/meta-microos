@@ -10,6 +10,7 @@ RPM_HASH = "83b5958e63c8f78a448e57e0b898097c48146b3bbef6de90bd85f8ceb7c4ed18387c
 RPROVIDES:${PN} += "libsmartcols-devel \
 libsmartcols-devel(aarch-64) \
 pkgconfig(smartcols)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsmartcols1"
 

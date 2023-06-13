@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5SysGuard) \
 cmake(KSysGuard) \
 libksysguard5-devel \
 libksysguard5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Config) \
 cmake(KF5I18n) \
 cmake(KF5IconThemes) \

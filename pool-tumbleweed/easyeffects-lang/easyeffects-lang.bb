@@ -38,6 +38,7 @@ locale(easyeffects:sv) \
 locale(easyeffects:th) \
 locale(easyeffects:tr) \
 locale(easyeffects:zh_CN)"
+
 RDEPENDS:${PN} += "easyeffects"
 
 inherit rpm

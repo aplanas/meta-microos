@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "gnome-autoar-devel \
 gnome-autoar-devel(aarch-64) \
 pkgconfig(gnome-autoar-0) \
 pkgconfig(gnome-autoar-gtk-0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgnome-autoar-0-0 \
 libgnome-autoar-gtk-0-0 \

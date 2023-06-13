@@ -10,6 +10,7 @@ RPM_HASH = "82e8aa95fec51e85a642e27aa349a0b93f01972c24451119ecb628c068bf69775929
 RPROVIDES:${PN} += "ghc-prof(refact-0.3.0.2-4ZnrxSKFCNFLIgjtpZGW26) \
 ghc-refact-prof \
 ghc-refact-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-refact-devel"
 

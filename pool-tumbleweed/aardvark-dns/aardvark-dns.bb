@@ -10,6 +10,7 @@ RPM_HASH = "2870eaed5fa272986485d5a8e08de38469d862f373589479e409f4213cd41fbbbb61
 
 RPROVIDES:${PN} += "aardvark-dns \
 aardvark-dns(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

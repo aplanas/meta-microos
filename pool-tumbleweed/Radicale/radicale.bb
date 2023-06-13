@@ -23,6 +23,7 @@ group(radicale) \
 python3.10dist(radicale) \
 python3dist(radicale) \
 user(radicale)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

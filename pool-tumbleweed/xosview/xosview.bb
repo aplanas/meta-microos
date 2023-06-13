@@ -14,6 +14,7 @@ application(xosview.desktop) \
 config(xosview) \
 xosview \
 xosview(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

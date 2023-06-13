@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-qstylizer \
 python3.10dist(qstylizer) \
 python310-qstylizer \
 python3dist(qstylizer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-inflection \
 python310-tinycss2"

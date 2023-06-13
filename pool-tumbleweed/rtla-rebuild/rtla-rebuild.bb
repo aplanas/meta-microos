@@ -12,6 +12,7 @@ RPM_HASH = "0d4808c8ffa12e977397adaf9e5bd29bf91c1b0ab86874b982cadbdecac88c473d9f
 
 RPROVIDES:${PN} += "rtla-rebuild \
 rtla-rebuild(aarch-64)"
+
 RDEPENDS:${PN} += "kernel-source"
 
 inherit rpm

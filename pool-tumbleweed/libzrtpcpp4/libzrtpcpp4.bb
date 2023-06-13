@@ -13,6 +13,7 @@ RPM_HASH = "66d06248edd8d3c2ea9d8b3aef5964e7addfc0a234a249afd545f83d44566946544c
 RPROVIDES:${PN} += "libzrtpcpp.so.4()(64bit) \
 libzrtpcpp4 \
 libzrtpcpp4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

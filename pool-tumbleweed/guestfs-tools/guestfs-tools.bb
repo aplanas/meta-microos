@@ -70,6 +70,7 @@ RPM_HASH = "6e4e0cb39393a17c45ea65bb613af49c71c3d6e982fc56dcfb39b34957078868848e
 RPROVIDES:${PN} += "config(guestfs-tools) \
 guestfs-tools \
 guestfs-tools(aarch-64)"
+
 RDEPENDS:${PN} += "curl \
 gpg2 \
 ld-linux-aarch64.so.1()(64bit) \

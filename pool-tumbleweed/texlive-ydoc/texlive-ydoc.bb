@@ -25,6 +25,7 @@ tex(ydoc.sty) \
 tex(ydocincl.tex) \
 tex(ydocstrip.tex) \
 texlive-ydoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

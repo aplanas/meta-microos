@@ -11,6 +11,7 @@ RPM_HASH = "1f60c7d98b45aab609bad980df11e5936a87db4b5f01efe77f94a5b1ff47c0918152
 
 RPROVIDES:${PN} += "prom2json \
 prom2json(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

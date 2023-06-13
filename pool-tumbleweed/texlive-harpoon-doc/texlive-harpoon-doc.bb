@@ -9,6 +9,7 @@ RPM_HASH = "1d9d32f866fdaa6b25a484e2ad31e6a1d876258e85fe5d8f89511c592ed3ab82411b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-harpoon-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

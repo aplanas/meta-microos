@@ -10,6 +10,7 @@ RPM_HASH = "9c7f98196543ef07a9eacfa4ab51717ec1700fb780a7840069e12208256f2b415aaf
 RPROVIDES:${PN} += "libdbusmenu-gtk.so.4()(64bit) \
 libdbusmenu-gtk4 \
 libdbusmenu-gtk4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gtk2 \
 ld-linux-aarch64.so.1()(64bit) \

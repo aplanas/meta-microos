@@ -11,6 +11,7 @@ RPM_HASH = "29d1c4de52046a562bfc0db0ec8e22bbba246fc9483ccb885b4308a769e0b562096a
 RPROVIDES:${PN} += "libKPim5ImportWizard.so.5()(64bit) \
 libKPim5ImportWizard5 \
 libKPim5ImportWizard5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

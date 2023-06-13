@@ -19,6 +19,7 @@ RPM_HASH = "f9d604342f54b0f0fd6dae903489ca1ebd73c66b6a826a13ee7994092fc4fe06164a
 RPROVIDES:${PN} += "config(hiawatha) \
 hiawatha \
 hiawatha(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

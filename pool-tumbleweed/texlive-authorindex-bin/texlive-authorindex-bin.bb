@@ -9,6 +9,7 @@ RPM_HASH = "3ad30c525bdb85aca897ab1b0a79d74e811b0038f440fa18b33802bf0e179be83b3b
 
 RPROVIDES:${PN} += "texlive-authorindex-bin \
 texlive-authorindex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-authorindex"
 
 inherit rpm

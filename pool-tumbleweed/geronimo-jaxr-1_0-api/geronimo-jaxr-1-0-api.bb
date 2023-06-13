@@ -15,6 +15,7 @@ jaxr_1_0_api \
 jaxr_api \
 mvn(org.apache.geronimo.specs:geronimo-jaxr_1.0_spec) \
 mvn(org.apache.geronimo.specs:geronimo-jaxr_1.0_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 jaf_1_0_2_api \
 java-headless \

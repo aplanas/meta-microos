@@ -26,6 +26,7 @@ lib-postgresql.so()(64bit) \
 lib-queens.so()(64bit) \
 lib-rawsock.so()(64bit) \
 lib-zlib.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/gzip \
 ffcall \

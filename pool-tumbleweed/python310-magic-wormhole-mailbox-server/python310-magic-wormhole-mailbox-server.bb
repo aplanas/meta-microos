@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-magic-wormhole-mailbox-server \
 python3.10dist(magic-wormhole-mailbox-server) \
 python310-magic-wormhole-mailbox-server \
 python3dist(magic-wormhole-mailbox-server)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Twisted-tls \
 python310-attrs \

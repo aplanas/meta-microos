@@ -9,6 +9,7 @@ RPM_HASH = "1386bcf8f3adb6accfffe6dd3e5c4b1d93cebc59eb37edbe084c2a75e01c24d4dc16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexindent-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

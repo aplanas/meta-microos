@@ -10,6 +10,7 @@ RPM_HASH = "1f6f31c9cbd0ce193a43055f5f074bc5b11c6363dc57a2a6ae278de40e42af82946d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmpi-provider-register"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cim-schema \
 python3-pywbem"

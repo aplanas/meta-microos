@@ -73,6 +73,7 @@ locale(hamster-time-tracker:vi) \
 locale(hamster-time-tracker:zh_CN) \
 locale(hamster-time-tracker:zh_HK) \
 locale(hamster-time-tracker:zh_TW)"
+
 RDEPENDS:${PN} += "hamster-time-tracker"
 
 inherit rpm

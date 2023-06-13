@@ -11,6 +11,7 @@ RPM_HASH = "954250f568a06182c87764ee081cf8a58bfbfd858c7159902a807d10e59134628d5e
 RPROVIDES:${PN} += "munge-devel \
 munge-devel(aarch-64) \
 pkgconfig(munge)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmunge2"
 

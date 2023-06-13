@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-menus-branding \
 gnome-menus-branding-openSUSE"
+
 RDEPENDS:${PN} += "gnome-menus"
 
 inherit rpm

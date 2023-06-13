@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-lsp-server) \
 python39-python-lsp-server \
 python3dist(python-lsp-server)"
+
 RDEPENDS:${PN} += "(python39-jedi >= 0.17.2 with python39-jedi < 0.19.0) \
 /bin/sh \
 /usr/bin/python3.9 \

@@ -14,6 +14,7 @@ metainfo() \
 metainfo(vkquake.appdata.xml) \
 vkquake \
 vkquake(aarch-64)"
+
 RDEPENDS:${PN} += "libFLAC.so.12()(64bit) \
 libSDL2-2.0.so.0()(64bit) \
 libSDL2-2.0.so.0(SUSE_2.0.10)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "ad44f0ad47a603a3b92a6a76c025bc1f0d99d1fc68864b7122cea36987eadfbb45ef
 
 RPROVIDES:${PN} += "rocksdb-tools \
 rocksdb-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

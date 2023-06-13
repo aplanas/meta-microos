@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "tex(asapsym-generic.tex) \
 tex(asapsym.code.tex) \
 tex(asapsym.sty) \
 texlive-asapsym"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "d508b13d2fdda6bdfc91f70fd9e7e8461b377ba15d0b3f4370b68f84a58ad77ab635
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-clang"
+
 RDEPENDS:${PN} += "python3-clang16"
 
 inherit rpm

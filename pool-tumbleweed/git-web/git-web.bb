@@ -13,6 +13,7 @@ RPM_HASH = "10dce394bf861f836f0f2d276a15f947372b400547268c2eb1cbfdfa0fd2b405c051
 RPROVIDES:${PN} += "config(git-web) \
 git-web \
 git-web(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 git-core \

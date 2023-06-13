@@ -9,6 +9,7 @@ RPM_HASH = "59123f62c3626c75feb4ba28cebdc204c017dcd99761d52a73babc0bb1043d97f31e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-adhocfilelist-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

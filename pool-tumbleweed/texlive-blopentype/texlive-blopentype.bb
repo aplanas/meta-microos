@@ -14,6 +14,7 @@ tex(blot-fonts.tex) \
 tex(blot-lua.tex) \
 tex(blot.tex) \
 texlive-blopentype"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

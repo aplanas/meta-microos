@@ -13,6 +13,7 @@ ctdb(aarch-64) \
 ctdb-tests \
 libctdb-event-client-samba4.so()(64bit) \
 libctdb-event-client-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit)"
+
 RDEPENDS:${PN} += "/bin/mktemp \
 /bin/sh \
 /usr/bin/env \

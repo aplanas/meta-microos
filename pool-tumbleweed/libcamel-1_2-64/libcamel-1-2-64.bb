@@ -13,6 +13,7 @@ RPM_HASH = "7c953d02ea9c5e2f9bb324cdff47cc43d7bd13cd12a3c20016f8860a366d051812ff
 RPROVIDES:${PN} += "libcamel-1.2.so.64()(64bit) \
 libcamel-1_2-64 \
 libcamel-1_2-64(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

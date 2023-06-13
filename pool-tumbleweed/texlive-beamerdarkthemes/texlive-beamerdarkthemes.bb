@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(beamercolorthemecormorant.sty) \
 tex(beamercolorthemefrigatebird.sty) \
 tex(beamercolorthememagpie.sty) \
 texlive-beamerdarkthemes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

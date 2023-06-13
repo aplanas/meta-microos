@@ -12,6 +12,7 @@ RPM_HASH = "1465136fd61f6c81b682ceb56c3a35cbdb30f0e86a4b6ba4817728aa7aba4c994ca7
 
 RPROVIDES:${PN} += "xroach \
 xroach(aarch-64)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \

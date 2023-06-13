@@ -11,6 +11,7 @@ RPM_HASH = "79741ccc37dea5611ce7679852561d26533b926abb2be6b53b63c2fe734b77942efb
 RPROVIDES:${PN} += "kubernetes-kubeadm-provider \
 kubernetes1.21-kubeadm \
 kubernetes1.21-kubeadm(aarch-64)"
+
 RDEPENDS:${PN} += "(kmod(br_netfilter.ko) if kernel) \
 (kubernetes1.21-kubelet or kubernetes1.20-kubelet) \
 cri-runtime \

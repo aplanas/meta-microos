@@ -13,6 +13,7 @@ RPM_HASH = "56af124109ef01eab152e8bf2b0f399f993c57dcbfede37c217b7b0e0beab2e00608
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-luatex"
+
 RDEPENDS:${PN} += "texlive-addliga \
 texlive-auto-pst-pdf-lua \
 texlive-barracuda \

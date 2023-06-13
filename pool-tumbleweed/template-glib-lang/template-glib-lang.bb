@@ -37,6 +37,7 @@ locale(template-glib:uk) \
 locale(template-glib:zh_CN) \
 template-glib-lang \
 template-glib-lang-all"
+
 RDEPENDS:${PN} += "template-glib"
 
 inherit rpm

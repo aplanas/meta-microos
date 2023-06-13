@@ -37,6 +37,7 @@ mvn(javax.mail:mailapi) \
 mvn(javax.mail:mailapi:pom:) \
 mvn(org.eclipse.jetty.orbit:javax.mail.glassfish) \
 mvn(org.eclipse.jetty.orbit:javax.mail.glassfish:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.activation:activation)"

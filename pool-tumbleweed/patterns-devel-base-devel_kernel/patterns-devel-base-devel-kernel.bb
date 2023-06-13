@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-devel-base-devel_kernel \
 patterns-devel-base-devel_kernel(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

@@ -31,6 +31,7 @@ RPM_HASH = "eda8506981244d9cf2f6a4f3a5bed0f856a37299211d41102381a70ffa6bb915c891
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "OpenPrintingPPDs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

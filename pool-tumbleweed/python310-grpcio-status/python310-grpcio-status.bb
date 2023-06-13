@@ -16,6 +16,7 @@ python3.10dist(grpcio-status) \
 python310-grpcio-status \
 python310-grpcio-status(aarch-64) \
 python3dist(grpcio-status)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-googleapis-common-protos \
 python310-grpcio \

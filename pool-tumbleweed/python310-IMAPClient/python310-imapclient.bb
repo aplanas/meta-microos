@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-IMAPClient \
 python3.10dist(imapclient) \
 python310-IMAPClient \
 python3dist(imapclient)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

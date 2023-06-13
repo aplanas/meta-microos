@@ -17,6 +17,7 @@ RPM_HASH = "74709069a054165482e6e6d8f194252b827bd116fc51b3c27ba56f1c91c482065082
 RPROVIDES:${PN} += "librhash-devel \
 rhash-devel \
 rhash-devel(aarch-64)"
+
 RDEPENDS:${PN} += "librhash0"
 
 inherit rpm

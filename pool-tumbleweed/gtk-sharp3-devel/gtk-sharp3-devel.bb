@@ -13,6 +13,7 @@ pkgconfig(gdk-sharp-3.0) \
 pkgconfig(glib-sharp-3.0) \
 pkgconfig(gtk-dotnet-3.0) \
 pkgconfig(gtk-sharp-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gtk-sharp3 \
 pkgconfig(gdk-sharp-3.0) \

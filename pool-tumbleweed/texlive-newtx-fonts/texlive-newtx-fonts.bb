@@ -225,6 +225,7 @@ font(ztmfigs) \
 font(zxl) \
 font(zxlr) \
 texlive-newtx-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

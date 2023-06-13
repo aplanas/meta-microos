@@ -9,6 +9,7 @@ RPM_HASH = "d4dab1b1dd49baf36969edd87e75cdc6fec9de028d7cafe471023dbc2697f676f309
 
 RPROVIDES:${PN} += "qt6-opcua-docs-html \
 qt6-opcua-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

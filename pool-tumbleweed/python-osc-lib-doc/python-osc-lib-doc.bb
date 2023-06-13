@@ -9,6 +9,7 @@ RPM_HASH = "41ef5b7f27aebf18e73ff8ebd9248a952e08d523fab3cfd83667afa4621c3ee4cc70
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-osc-lib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

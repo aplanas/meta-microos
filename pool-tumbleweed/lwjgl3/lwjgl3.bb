@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "lwjgl3 \
 mvn(org.lwjgl:lwjgl) \
 mvn(org.lwjgl:lwjgl:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

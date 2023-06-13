@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-traittypes \
 python3.10dist(traittypes) \
 python310-traittypes \
 python3dist(traittypes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-traitlets"
 

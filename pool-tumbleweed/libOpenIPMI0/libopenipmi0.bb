@@ -17,6 +17,7 @@ libOpenIPMIglib.so.0()(64bit) \
 libOpenIPMIposix.so.0()(64bit) \
 libOpenIPMIpthread.so.0()(64bit) \
 libOpenIPMIutils.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

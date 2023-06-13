@@ -17,6 +17,7 @@ metainfo() \
 metainfo(com.github.huluti.Curtail.appdata.xml) \
 mimehandler(image/jpeg) \
 mimehandler(image/png)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 jpegoptim \
 libwebp-tools \

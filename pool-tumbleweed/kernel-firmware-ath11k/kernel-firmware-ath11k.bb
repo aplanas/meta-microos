@@ -95,6 +95,7 @@ firmware(ath11k/WCN6855/hw2.1/board-2.bin) \
 firmware(ath11k/WCN6855/hw2.1/m3.bin) \
 firmware(ath11k/WCN6855/hw2.1/regdb.bin) \
 kernel-firmware-ath11k"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -10,6 +10,7 @@ RPM_HASH = "8a5a8dac6e3373495de0683d8a83d45721d999d16b31b25fa571a65cc4eb6907f73b
 RPROVIDES:${PN} += "libimagevisualresult.so.0.1()(64bit) \
 libimagevisualresult0_1 \
 libimagevisualresult0_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

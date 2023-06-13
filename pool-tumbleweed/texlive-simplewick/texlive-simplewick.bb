@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(simplewick.sty) \
 texlive-simplewick"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

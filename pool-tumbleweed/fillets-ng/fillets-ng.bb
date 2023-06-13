@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "application() \
 application(fillets-ng.desktop) \
 fillets-ng \
 fillets-ng(aarch-64)"
+
 RDEPENDS:${PN} += "fillets-ng-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "590360c622f2ee597e61aa38125702d90c18668047a92c13aec23a8a8a9e5b6315f6
 RPROVIDES:${PN} += "libgdal.so.32()(64bit) \
 libgdal32 \
 libgdal32(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

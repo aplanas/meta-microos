@@ -10,6 +10,7 @@ RPM_HASH = "820753d64e27a84fd23f8f5098a28edd1a734cd6fd4e3d2dcb51e509a80ebb7aba03
 RPROVIDES:${PN} += "gdlmm-devel \
 gdlmm-devel(aarch-64) \
 pkgconfig(gdlmm-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgdlmm-3_0-2 \
 pkgconfig(gdl-3.0) \

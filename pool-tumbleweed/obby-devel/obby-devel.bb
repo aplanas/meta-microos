@@ -19,6 +19,7 @@ RPM_HASH = "16f7ccc8c26782d3ab3e87c71daa00d265c5ebef9b6846777944b784194152b5ea97
 RPROVIDES:${PN} += "obby-devel \
 obby-devel(aarch-64) \
 pkgconfig(obby-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libavahi-devel \
 libsigc++2-devel \

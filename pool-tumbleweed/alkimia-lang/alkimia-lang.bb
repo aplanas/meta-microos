@@ -37,6 +37,7 @@ locale(alkimia:sv) \
 locale(alkimia:uk) \
 locale(alkimia:zh_CN) \
 locale(alkimia:zh_TW)"
+
 RDEPENDS:${PN} += "alkimia"
 
 inherit rpm

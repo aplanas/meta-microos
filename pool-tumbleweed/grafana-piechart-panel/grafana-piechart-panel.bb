@@ -9,6 +9,7 @@ RPM_HASH = "8150761a40fdad1e3d5b295649aabbf9bcb2481ba2cb45e6e4e57f03e49f8caba00e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grafana-piechart-panel"
+
 RDEPENDS:${PN} += "grafana"
 
 inherit rpm

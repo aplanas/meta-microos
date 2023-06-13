@@ -10,6 +10,7 @@ RPM_HASH = "1dd16301aedbad33c549daab6515a9840869724b072da22cc548df3df435484eea90
 RPROVIDES:${PN} += "gom-devel \
 gom-devel(aarch-64) \
 pkgconfig(gom-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgom-1_0-0 \
 pkgconfig(gobject-2.0) \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "PackageKit-branding \
 PackageKit-branding-openSUSE \
 config(PackageKit-branding-openSUSE)"
+
 RDEPENDS:${PN} += "PackageKit"
 
 inherit rpm

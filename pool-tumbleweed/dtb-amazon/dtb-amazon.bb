@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "dtb-al \
 dtb-amazon \
 dtb-amazon(aarch-64) \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

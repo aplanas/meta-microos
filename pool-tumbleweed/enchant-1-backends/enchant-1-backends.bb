@@ -16,6 +16,7 @@ enchant-1-backends(aarch-64) \
 libenchant1:/usr/lib64/enchant/libenchant_ispell.so \
 libenchant_ispell.so()(64bit) \
 libenchant_myspell.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

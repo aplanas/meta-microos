@@ -13,6 +13,7 @@ RPM_HASH = "ee080e259ddfce60141f804bee1d26dc687b0d094b2f0f6ba94364c9dee5d535b190
 RPROVIDES:${PN} += "libva-glx.so.2()(64bit) \
 libva-glx2 \
 libva-glx2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

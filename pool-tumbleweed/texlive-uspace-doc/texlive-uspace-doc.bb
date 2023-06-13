@@ -9,6 +9,7 @@ RPM_HASH = "645ce2e7e6f84e515f75452bd929a02d5b2f16ac121f7748beaf8dd201312039d313
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uspace-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

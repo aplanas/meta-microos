@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pyramid \
 python3.10dist(pyramid) \
 python310-pyramid \
 python3dist(pyramid)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

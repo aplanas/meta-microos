@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pegen \
 python3.10dist(pegen) \
 python310-pegen \
 python3dist(pegen)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

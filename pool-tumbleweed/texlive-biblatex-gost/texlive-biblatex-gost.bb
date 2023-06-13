@@ -48,6 +48,7 @@ tex(russian-gost.lbx) \
 tex(slovene-gost.lbx) \
 tex(spanish-gost.lbx) \
 texlive-biblatex-gost"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

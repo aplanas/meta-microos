@@ -14,6 +14,7 @@ RPM_HASH = "2002e17f172ce8f0e11c9cdd0e5d95e13fa2e6313184569ba03edfe1cdf76390ed3a
 RPROVIDES:${PN} += "libgsturidownloader-1.0.so.0()(64bit) \
 libgsturidownloader-1_0-0 \
 libgsturidownloader-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

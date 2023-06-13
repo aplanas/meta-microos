@@ -10,6 +10,7 @@ RPM_HASH = "d393c2fc4ca32051622f2682f9078be158914401772804f471239a4104d11a337a06
 RPROVIDES:${PN} += "libImath-3_1-29 \
 libImath-3_1-29(aarch-64) \
 libImath-3_1.so.29()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

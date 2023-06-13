@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(expex-acro.sty) \
 texlive-expex-acro"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aioresponses) \
 python39-aioresponses \
 python3dist(aioresponses)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-aiohttp"
 

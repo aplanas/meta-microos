@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "caja-extension-wallpaper \
 caja-extension-wallpaper(aarch-64) \
 caja-wallpaper \
 libcaja-wallpaper.so()(64bit)"
+
 RDEPENDS:${PN} += "caja \
 libc.so.6(GLIBC_2.17)(64bit) \
 libcaja-extension.so.1()(64bit) \

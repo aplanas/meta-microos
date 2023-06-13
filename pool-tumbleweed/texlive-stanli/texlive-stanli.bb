@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(stanli.sty) \
 texlive-stanli"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

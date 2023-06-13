@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-jsonxs \
 python3.10dist(jsonxs) \
 python310-jsonxs \
 python3dist(jsonxs)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

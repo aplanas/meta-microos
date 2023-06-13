@@ -10,6 +10,7 @@ RPM_HASH = "eb4fda52b70cccf1d2e8c052a81dbb2c3d127d696025eafcc025f334246d6db58ff8
 RPROVIDES:${PN} += "libmms-devel \
 libmms-devel(aarch-64) \
 pkgconfig(libmms)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libmms0"

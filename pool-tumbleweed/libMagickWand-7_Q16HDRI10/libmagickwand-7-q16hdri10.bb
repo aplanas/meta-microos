@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "libMagickWand-7.Q16HDRI.so.10()(64bit) \
 libMagickWand-7.Q16HDRI.so.10(VERS_10.0)(64bit) \
 libMagickWand-7_Q16HDRI10 \
 libMagickWand-7_Q16HDRI10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

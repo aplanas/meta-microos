@@ -28,6 +28,7 @@ RPROVIDES:${PN} += "python3-cmd2 \
 python3.10dist(cmd2) \
 python310-cmd2 \
 python3dist(cmd2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310 \
 python310-attrs \

@@ -10,6 +10,7 @@ RPM_HASH = "382ff18575f94d5a7c53fe0a97588b2f160fd07067b68ab4b8a4ba9a5ccda568559d
 
 RPROVIDES:${PN} += "lttng-tools \
 lttng-tools(aarch-64)"
+
 RDEPENDS:${PN} += "babeltrace \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

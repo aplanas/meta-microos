@@ -11,6 +11,7 @@ RPM_HASH = "b3b95ab4d3d4d6e6bc6594412517ff76d90d643f246efe0cee6903ba76ce2de803ff
 RPROVIDES:${PN} += "leechcraft-monocle \
 leechcraft-monocle(aarch-64) \
 libleechcraft_monocle.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

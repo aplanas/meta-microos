@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "go \
 go(aarch-64) \
 golang \
 golang(API)"
+
 RDEPENDS:${PN} += "go1.20"
 
 inherit rpm

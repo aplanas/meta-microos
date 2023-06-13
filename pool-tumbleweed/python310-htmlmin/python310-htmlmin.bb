@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-htmlmin \
 python3.10dist(htmlmin) \
 python310-htmlmin \
 python3dist(htmlmin)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

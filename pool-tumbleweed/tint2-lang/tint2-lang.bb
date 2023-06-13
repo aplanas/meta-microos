@@ -17,6 +17,7 @@ locale(tint2:ru) \
 locale(tint2:sr) \
 tint2-lang \
 tint2-lang-all"
+
 RDEPENDS:${PN} += "tint2"
 
 inherit rpm

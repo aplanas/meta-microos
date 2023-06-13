@@ -9,6 +9,7 @@ RPM_HASH = "4fe34c6bf6ffc9d2aeb88780e47c5167e421b8108d16bd46e1e73abd244ec4af89d0
 
 RPROVIDES:${PN} += "qt6-serialport-docs-html \
 qt6-serialport-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

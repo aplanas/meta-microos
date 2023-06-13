@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-llvmjit \
 postgresql-llvmjit-noarch"
+
 RDEPENDS:${PN} += "postgresql-llvmjit-implementation"
 
 inherit rpm

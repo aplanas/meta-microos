@@ -14,6 +14,7 @@ RPM_HASH = "0ea982bec80c48ddbb60dd4a18e5a1029dd45300ab34acdb98441a0f16952e4bac23
 RPROVIDES:${PN} += "cmake(KF5FrameworkIntegration) \
 frameworkintegration-devel \
 frameworkintegration-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5ConfigWidgets) \
 cmake(KF5IconThemes) \
 extra-cmake-modules \

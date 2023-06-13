@@ -12,6 +12,7 @@ RPM_HASH = "f8fad1567736854d93ab8b0ee4383fbd2541c78bc4ea6e096969e8247a3c04643843
 RPROVIDES:${PN} += "python3-libmodi \
 python310-libmodi \
 python310-libmodi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

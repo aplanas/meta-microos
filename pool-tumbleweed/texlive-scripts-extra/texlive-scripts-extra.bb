@@ -15,6 +15,7 @@ texlive-scripts-extra \
 texlive-texconfig:/usr/share/texmf/texconfig/README \
 texlive-texconfig:/usr/share/texmf/texconfig/tcfmgr \
 texlive-texconfig:/usr/share/texmf/texconfig/tcfmgr.map"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

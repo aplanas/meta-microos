@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libfacebook.so()(64bit) \
 libpurple-plugin-facebook \
 libpurple-plugin-facebook(aarch-64) \
 purple-facebook"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

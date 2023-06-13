@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(authorarchive.sty) \
 texlive-authorarchive"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

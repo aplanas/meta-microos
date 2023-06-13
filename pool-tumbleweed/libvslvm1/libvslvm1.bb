@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libvslvm.so.1()(64bit) \
 libvslvm.so.1(V_20221025)(64bit) \
 libvslvm1 \
 libvslvm1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

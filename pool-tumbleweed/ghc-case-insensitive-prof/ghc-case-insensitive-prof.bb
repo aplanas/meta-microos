@@ -10,6 +10,7 @@ RPM_HASH = "6562aec989e300c674a8f5ef47daf9ab17c5e994bb7f5ce288c1eea0193bac513e25
 RPROVIDES:${PN} += "ghc-case-insensitive-prof \
 ghc-case-insensitive-prof(aarch-64) \
 ghc-prof(case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3)"
+
 RDEPENDS:${PN} += "ghc-case-insensitive-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

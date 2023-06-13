@@ -10,6 +10,7 @@ RPM_HASH = "004d802507076d7a6555a11a2ce6f8def350dbb20e9f7d71bec13aa589ed480859ee
 RPROVIDES:${PN} += "ghc-prof(tabular-0.2.2.8-5oBUDJP9F9qUMGPeotGAp) \
 ghc-tabular-prof \
 ghc-tabular-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(csv-0.1.2-LKioaw43aTAAAKpIk04xxN) \
 ghc-prof(html-1.0.1.2-U7qWIp0bJwCnAFPlj3UZy) \

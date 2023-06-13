@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(autind.sty) \
 tex(bibref.sty) \
 tex(index.sty) \
 texlive-index"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

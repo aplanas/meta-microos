@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(groovy18) \
 groovy18"
+
 RDEPENDS:${PN} += "/bin/sh \
 glassfish-jsp-api \
 glassfish-servlet-api \

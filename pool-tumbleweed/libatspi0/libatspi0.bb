@@ -11,6 +11,7 @@ RPM_HASH = "5e040e9b3c2496b68f42fc2b4e51d5993a3ad047d9cade53829dd0ebfc432aac4c76
 RPROVIDES:${PN} += "libatspi.so.0()(64bit) \
 libatspi0 \
 libatspi0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

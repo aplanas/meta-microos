@@ -15,6 +15,7 @@ RPM_HASH = "d5646e5b9abba63b03773b1a1d697705c36faa01bb041e2d6204dd37890626fdc2c0
 RPROVIDES:${PN} += "pkgconfig(pyginac) \
 python3-pyginac-devel \
 python3-pyginac-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(ginac) \
 python3-pyginac"

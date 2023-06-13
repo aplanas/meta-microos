@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-dill \
 python3.10dist(dill) \
 python310-dill \
 python3dist(dill)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

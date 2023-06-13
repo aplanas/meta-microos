@@ -12,6 +12,7 @@ RPM_HASH = "b6c36fc80f94004529c7d77e5810c7b98407046e40393177216788f496bfc84b5db9
 RPROVIDES:${PN} += "libflatpak.so.0()(64bit) \
 libflatpak0 \
 libflatpak0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

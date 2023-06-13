@@ -9,6 +9,7 @@ RPM_HASH = "eb322dedf73fe87ac315250ac40977127d09db8484d78cafa21e63e9cda707089768
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ptex2pdf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

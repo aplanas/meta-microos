@@ -20,6 +20,7 @@ python2-nemo \
 python3-nemo \
 python3-nemo(aarch-64) \
 python3-nemo-devel"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

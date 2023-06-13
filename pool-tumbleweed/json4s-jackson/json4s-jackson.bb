@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "json4s-jackson \
 mvn(org.json4s:json4s-jackson_2.10) \
 mvn(org.json4s:json4s-jackson_2.10:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-databind) \

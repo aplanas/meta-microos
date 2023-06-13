@@ -16,6 +16,7 @@ RPM_HASH = "847c1cd8de988dd8318ad136adf0e3636951f048c211c202f56df54b88a02853bbbd
 RPROVIDES:${PN} += "libconfuse-devel \
 libconfuse-devel(aarch-64) \
 pkgconfig(libconfuse)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libconfuse2"
 

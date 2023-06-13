@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(jupyter-packaging) \
 python39-jupyter-packaging \
 python39-jupyter_packaging \
 python3dist(jupyter-packaging)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-deprecation \
 python39-packaging \

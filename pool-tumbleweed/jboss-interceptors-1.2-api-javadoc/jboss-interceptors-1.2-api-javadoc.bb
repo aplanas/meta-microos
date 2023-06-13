@@ -9,6 +9,7 @@ RPM_HASH = "64bf73a973d582547ef7818ad4134127132aa9275065f0f9a015b4d9d10783aede0e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-interceptors-1.2-api-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

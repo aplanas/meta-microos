@@ -9,6 +9,7 @@ RPM_HASH = "f16a59041755d8118a488a69d472e7469ca1b7f6f57799991a68122deba02043c025
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcc-examples"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 python3-bcc \

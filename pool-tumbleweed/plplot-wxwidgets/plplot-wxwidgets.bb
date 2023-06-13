@@ -12,6 +12,7 @@ RPM_HASH = "542a62e0182f79dc8ca5ac7756c8b2a5db894b38863adeecea129649b5c3dc80d395
 
 RPROVIDES:${PN} += "plplot-wxwidgets \
 plplot-wxwidgets(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

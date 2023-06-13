@@ -13,6 +13,7 @@ RPM_HASH = "3d77f0de14e02204f8d4bfbbd86dcb492d1c8aceb50642298ecd58b20db313b920f1
 
 RPROVIDES:${PN} += "netcdf-devel-static \
 netcdf-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "hdf5-devel \
 libcurl-devel \
 zlib-devel"

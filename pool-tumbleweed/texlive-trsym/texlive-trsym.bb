@@ -16,6 +16,7 @@ tex(trsy12.tfm) \
 tex(trsym.sty) \
 tex(utrsy.fd) \
 texlive-trsym"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

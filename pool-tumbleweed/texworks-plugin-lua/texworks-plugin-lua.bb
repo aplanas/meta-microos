@@ -13,6 +13,7 @@ RPM_HASH = "5de3eaf3b5682987cde8fe86868ced848568776a3ff1df7e61736c1fa82544b67b92
 RPROVIDES:${PN} += "libTWLuaPlugin.so()(64bit) \
 texworks-plugin-lua \
 texworks-plugin-lua(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

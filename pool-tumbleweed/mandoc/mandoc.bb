@@ -16,6 +16,7 @@ RPM_HASH = "0020037229f6cb34dab2dc2bd72330f5898cf427df3433f23e4a5d255de15d7e2460
 RPROVIDES:${PN} += "man \
 mandoc \
 mandoc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

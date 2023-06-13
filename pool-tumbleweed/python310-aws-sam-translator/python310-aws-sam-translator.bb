@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-aws-sam-translator \
 python3.10dist(aws-sam-translator) \
 python310-aws-sam-translator \
 python3dist(aws-sam-translator)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

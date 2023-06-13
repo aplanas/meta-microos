@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pychromecast) \
 python39-PyChromecast \
 python3dist(pychromecast)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-casttube \
 python39-protobuf \

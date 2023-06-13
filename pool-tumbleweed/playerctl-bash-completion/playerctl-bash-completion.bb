@@ -9,6 +9,7 @@ RPM_HASH = "fc3f77a611d860d422bca985f6e9867727e6fe77bf9014173140d1fc73ebdf643e4e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "playerctl-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

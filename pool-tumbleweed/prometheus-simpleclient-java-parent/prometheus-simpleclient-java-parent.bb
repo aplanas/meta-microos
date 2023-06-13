@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(io.prometheus:parent:pom:) \
 prometheus-simpleclient-java-parent"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.felix:maven-bundle-plugin) \

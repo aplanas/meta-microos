@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-rest-knox) \
 python311-django-rest-knox \
 python3dist(django-rest-knox)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-cryptography \

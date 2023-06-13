@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(azure-synapse-accesscontrol) \
 python311-azure-synapse \
 python311-azure-synapse-accesscontrol \
 python3dist(azure-synapse-accesscontrol)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-core \

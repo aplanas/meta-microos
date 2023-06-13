@@ -24,6 +24,7 @@ RPM_HASH = "03e731e4b49a868a2a832d3106e6543626689764109352bcb8864cb56021ee0085c7
 RPROVIDES:${PN} += "libOgreVolume.so.13.5()(64bit) \
 libOgreVolume13_5 \
 libOgreVolume13_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

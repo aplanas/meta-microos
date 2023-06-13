@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(mathdots.sty) \
 tex(mathdots.tex) \
 texlive-mathdots"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

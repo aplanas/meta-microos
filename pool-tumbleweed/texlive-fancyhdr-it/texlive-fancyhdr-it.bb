@@ -10,6 +10,7 @@ RPM_HASH = "fde5a4bd0a9e62fbd7cc5b5d88d40f26303e1b6c62bbddefb8258dd188ca732474e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fancyhdr-it"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

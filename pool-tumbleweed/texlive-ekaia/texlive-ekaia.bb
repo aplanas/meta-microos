@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ekaia.sty) \
 texlive-ekaia"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

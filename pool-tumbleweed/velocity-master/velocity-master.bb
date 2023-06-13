@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(org.apache.velocity:velocity-master:pom:) \
 velocity-master"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache:apache:pom:)"

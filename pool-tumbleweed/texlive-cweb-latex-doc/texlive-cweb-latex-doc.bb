@@ -9,6 +9,7 @@ RPM_HASH = "de2858c964d79d472cc8d75420753cc4b42400a3ed0b28dab7ba6492ac357a72d5a3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cweb-latex-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

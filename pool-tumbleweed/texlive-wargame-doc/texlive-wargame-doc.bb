@@ -9,6 +9,7 @@ RPM_HASH = "b44a7629526ba8e83e4494c09c0154538ae4d4ce869ad2aae96b758fdb6a1d0c3421
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wargame-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

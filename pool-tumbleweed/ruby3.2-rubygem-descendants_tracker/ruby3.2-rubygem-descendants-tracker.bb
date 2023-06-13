@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:descendants_tracker) \
 rubygem(ruby:3.2.0:descendants_tracker:0) \
 rubygem(ruby:3.2.0:descendants_tracker:0.0) \
 rubygem(ruby:3.2.0:descendants_tracker:0.0.4)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:thread_safe) \
 rubygem(ruby:3.2.0:thread_safe:0)"

@@ -19,6 +19,7 @@ libqt5-qtlocation-devel(aarch-64) \
 pkgconfig(Qt5Location) \
 pkgconfig(Qt5Positioning) \
 pkgconfig(Qt5PositioningQuick)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Location5 \
 libQt5Positioning5 \

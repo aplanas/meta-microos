@@ -28,6 +28,7 @@ mimehandler(application/x-ms-dos-executable) \
 mimehandler(application/x-msi) \
 q4wine \
 q4wine(aarch-64)"
+
 RDEPENDS:${PN} += "fuseiso \
 icoutils \
 ld-linux-aarch64.so.1()(64bit) \

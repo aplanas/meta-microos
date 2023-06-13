@@ -18,6 +18,7 @@ RPM_HASH = "0daf6c68a6b8cc089159df03c3cf2f00e6fea2c2404e5b493192e01eb80aff9b9da0
 RPROVIDES:${PN} += "libgbm-devel \
 libgbm-devel(aarch-64) \
 pkgconfig(gbm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgbm1"
 

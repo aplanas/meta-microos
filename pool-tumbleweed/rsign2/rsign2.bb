@@ -10,6 +10,7 @@ RPM_HASH = "1efd5041399bc21ae93a3314d32f904d711f00a7cc094ee5705f432455eef618a4c7
 RPROVIDES:${PN} += "rsign \
 rsign2 \
 rsign2(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

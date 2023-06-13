@@ -17,6 +17,7 @@ RPM_HASH = "94f4d017dc1049b6e47fb1a355573bb7ba25b4e7b5038a4c37476619d54b15ce205a
 RPROVIDES:${PN} += "pidgin-plugin-pack \
 pidgin-plugin-pack(aarch-64) \
 pidgin-plugin_pack"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
 libenchant-2.so.2()(64bit) \
 libgdk-x11-2.0.so.0()(64bit) \

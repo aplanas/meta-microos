@@ -53,6 +53,7 @@ tex(ffmr9.tfm) \
 tex(ffmw10.tfm) \
 tex(ffmwo10.tfm) \
 texlive-fetamont"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

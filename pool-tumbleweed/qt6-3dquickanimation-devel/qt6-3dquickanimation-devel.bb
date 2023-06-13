@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt63DQuickAnimation) \
 pkgconfig(Qt63DQuickAnimation) \
 qt6-3dquickanimation-devel \
 qt6-3dquickanimation-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt63DAnimation) \
 cmake(Qt63DCore) \

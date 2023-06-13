@@ -12,6 +12,7 @@ RPM_HASH = "545cbf00565b560d22d9949ba615e752802d2fc255b58eba23b7e1a783e7ca2fd920
 RPROVIDES:${PN} += "guestfsd \
 libguestfsd \
 libguestfsd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \

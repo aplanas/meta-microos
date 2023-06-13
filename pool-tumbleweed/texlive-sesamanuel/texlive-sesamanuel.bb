@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(sesamanuel.cls) \
 tex(sesamanuel.sty) \
 tex(sesamanuelTIKZ.sty) \
 texlive-sesamanuel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "b8f3ac64239074eb74cec67f138e99bbd079d60b5dbb571ae48016f49afb4cfd4cf8
 
 RPROVIDES:${PN} += "collectd-plugin-notify-desktop \
 collectd-plugin-notify-desktop(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

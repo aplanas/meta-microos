@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "cmake(FindFont) \
 cmake(vtk) \
 vtk-devel \
 vtk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cgns-devel \
 cmake \
 cmake(Verdict) \

@@ -14,6 +14,7 @@ RPM_HASH = "22738a2cacbd3a76c92e1b183d9c4a1366575c907424f5c976a87c9079122c2a5e36
 RPROVIDES:${PN} += "libfixposix.so.4()(64bit) \
 libfixposix4 \
 libfixposix4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

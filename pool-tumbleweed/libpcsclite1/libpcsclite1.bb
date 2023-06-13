@@ -19,6 +19,7 @@ RPM_HASH = "c1862537003a7e90a3a750cf8e941fc1cf5c4678ec456dbc09923f9509875710de7b
 RPROVIDES:${PN} += "libpcsclite.so.1()(64bit) \
 libpcsclite1 \
 libpcsclite1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

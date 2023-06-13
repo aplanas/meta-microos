@@ -90,6 +90,7 @@ tex(cnzl_7t2zcj.enc) \
 tex(cnzl_aakhvz.enc) \
 tex(cnzl_k6z3ge.enc) \
 texlive-cinzel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

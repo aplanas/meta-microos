@@ -10,6 +10,7 @@ RPM_HASH = "8bf3bcd074b43131b25f297095bf45b501566f18f4c86104c003b15b633c07cdafb9
 RPROVIDES:${PN} += "monitoring-plugins-smtp \
 monitoring-plugins-smtp(aarch-64) \
 nagios-plugins-smtp"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

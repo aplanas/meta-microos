@@ -908,6 +908,7 @@ postscriptdriver(hp;smart_tank_plus_570_series;) \
 postscriptdriver(hp;smart_tank_plus_650_series;) \
 postscriptdriver(hp;smart_tank_wireless_450_series;) \
 postscriptdriver(hp;tango;)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 hplip-udev-rules \

@@ -17,6 +17,7 @@ RPM_HASH = "8aabf4b786b11026f51b533773500e10c1128819a9ed4a7465946977347c5605cb9b
 RPROVIDES:${PN} += "config(rsync) \
 rsync \
 rsync(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 grep \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cross-epiphany-gcc7 \
 cross-epiphany-gcc7(aarch-64) \
 epiphany-elf-gcc \
 liblto_plugin.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-epiphany-binutils \
 libc.so.6(GLIBC_2.36)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "cbfcef3fe4368d04c06646410e95502a43446fbd25edb06730070ade307a53465968
 
 RPROVIDES:${PN} += "csi-external-provisioner \
 csi-external-provisioner(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

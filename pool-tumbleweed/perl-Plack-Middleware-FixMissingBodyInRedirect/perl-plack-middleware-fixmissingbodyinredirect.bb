@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Plack::Middleware::FixMissingBodyInRedirect) \
 perl-Plack-Middleware-FixMissingBodyInRedirect"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTML::Entities) \
 perl(Plack::Middleware) \

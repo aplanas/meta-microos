@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pysmi) \
 python39-pysmi \
 python3dist(pysmi)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

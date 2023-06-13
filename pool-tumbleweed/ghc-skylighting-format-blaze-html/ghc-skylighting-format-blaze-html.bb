@@ -10,6 +10,7 @@ RPM_HASH = "846622f0939986cb53cec791398ec7de23264d2641f710111b203fc41d8773ec6ca4
 RPROVIDES:${PN} += "ghc-skylighting-format-blaze-html \
 ghc-skylighting-format-blaze-html(aarch-64) \
 libHSskylighting-format-blaze-html-0.1.1-GSLRiRB6bjcEjUjplnknYR-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

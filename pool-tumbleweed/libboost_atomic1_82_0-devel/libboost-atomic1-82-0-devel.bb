@@ -13,6 +13,7 @@ RPM_HASH = "5e82b205c32239e983a842f00509547f41ce3978e47c3ddc6154456d09f6525c7746
 RPROVIDES:${PN} += "libboost_atomic-devel-impl \
 libboost_atomic1_82_0-devel \
 libboost_atomic1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_atomic1_82_0 \
 libboost_headers1_82_0-devel \
 libstdc++-devel"

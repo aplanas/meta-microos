@@ -22,6 +22,7 @@ ocamlx(OpamParserTypes) \
 ocamlx(OpamPrinter) \
 opam-file-format-devel \
 opam-file-format-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Array) \

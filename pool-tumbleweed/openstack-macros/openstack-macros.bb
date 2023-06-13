@@ -34,6 +34,7 @@ rpm_macro(pycached) \
 rpm_macro(python2_sitearch) \
 rpm_macro(python2_sitelib) \
 rpm_macro(sphinx_build)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

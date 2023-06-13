@@ -14,6 +14,7 @@ RPM_HASH = "aae851d3732dd502965801f86d18ac927892baff82472875159e3b8660b9ad7d10cc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sdcc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

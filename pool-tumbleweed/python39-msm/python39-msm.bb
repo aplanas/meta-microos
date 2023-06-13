@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(msm) \
 python39-msm \
 python3dist(msm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 patch \

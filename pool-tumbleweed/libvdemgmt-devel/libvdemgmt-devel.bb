@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libvdemgmt-devel \
 libvdemgmt-devel(aarch-64) \
 libvdemgmt0-devel \
 pkgconfig(vdemgmt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvdemgmt0 \
 vde2"

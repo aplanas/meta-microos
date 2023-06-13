@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-dynatrace \
 python3.10dist(azure-mgmt-dynatrace) \
 python310-azure-mgmt-dynatrace \
 python3dist(azure-mgmt-dynatrace)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

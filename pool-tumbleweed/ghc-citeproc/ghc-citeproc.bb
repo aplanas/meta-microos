@@ -12,6 +12,7 @@ RPM_HASH = "252beec9b4f61679fa8de92e3fb192b268c2314d204b2c720a0e1b24079873b6933c
 RPROVIDES:${PN} += "ghc-citeproc \
 ghc-citeproc(aarch-64) \
 libHSciteproc-0.8.1-1D0nfQHnF7b6sejYb0d6Zi-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "64492e050a68ade60444e34879f786efdac343b4948304e5aa63026bf6ee95164fe0
 RPROVIDES:${PN} += "config(traefik1.7) \
 traefik1.7 \
 traefik1.7(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 systemd"
 

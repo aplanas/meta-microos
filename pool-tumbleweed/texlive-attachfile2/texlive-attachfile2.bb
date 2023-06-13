@@ -18,6 +18,7 @@ tex(atfi-luatex.def) \
 tex(atfi-pdftex.def) \
 tex(attachfile2.sty) \
 texlive-attachfile2"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

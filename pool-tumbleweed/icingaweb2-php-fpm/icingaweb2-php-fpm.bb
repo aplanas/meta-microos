@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(icingaweb2-php-fpm) \
 icingaweb2-php-fpm"
+
 RDEPENDS:${PN} += "icingaweb2"
 
 inherit rpm

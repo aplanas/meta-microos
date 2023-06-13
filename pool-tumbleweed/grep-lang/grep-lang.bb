@@ -54,6 +54,7 @@ locale(grep:uk) \
 locale(grep:vi) \
 locale(grep:zh_CN) \
 locale(grep:zh_TW)"
+
 RDEPENDS:${PN} += "grep"
 
 inherit rpm

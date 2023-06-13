@@ -11,6 +11,7 @@ RPM_HASH = "82bf2476a4912eac01e53d4bea11251c85d23a4dc13f8c42db809f4378b3963567da
 RPROVIDES:${PN} += "config(obex-data-server) \
 obex-data-server \
 obex-data-server(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

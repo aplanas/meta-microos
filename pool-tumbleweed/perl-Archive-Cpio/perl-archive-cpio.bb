@@ -16,6 +16,7 @@ perl(Archive::Cpio::NewAscii) \
 perl(Archive::Cpio::ODC) \
 perl(Archive::Cpio::OldBinary) \
 perl-Archive-Cpio"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

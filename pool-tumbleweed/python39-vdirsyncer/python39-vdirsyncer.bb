@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(vdirsyncer) \
 python39-vdirsyncer \
 python3dist(vdirsyncer) \
 vdirsyncer"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

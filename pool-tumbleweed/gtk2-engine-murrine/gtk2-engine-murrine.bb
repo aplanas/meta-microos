@@ -12,6 +12,7 @@ RPM_HASH = "d2d129ed3ea9e88c2af45eb623dd5493d81e0a5a2810c6c9630b15bf6d50704b9624
 RPROVIDES:${PN} += "gtk2-engine-murrine \
 gtk2-engine-murrine(aarch-64) \
 libmurrine.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

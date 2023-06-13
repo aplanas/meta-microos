@@ -12,6 +12,7 @@ RPM_HASH = "5f943454918eaca4d8ea021a40fb16b23d9e1438007056ee0d6cac446f4947ce1914
 RPROVIDES:${PN} += "libmate-sensors-applet-plugin.so.0()(64bit) \
 libmate-sensors-applet-plugin0 \
 libmate-sensors-applet-plugin0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

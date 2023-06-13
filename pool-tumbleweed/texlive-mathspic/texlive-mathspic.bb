@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mathspic.sty) \
 texlive-mathspic"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

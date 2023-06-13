@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6HttpServer) \
 pkgconfig(Qt6HttpServer) \
 qt6-httpserver-devel \
 qt6-httpserver-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Concurrent) \
 cmake(Qt6Network) \

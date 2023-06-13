@@ -100,6 +100,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(trajan) \
 texlive-trajan-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -23,6 +23,7 @@ RPM_HASH = "62b5d9265d906ad0c980a2f7a3edef9669a899aecb3db11bd8fe05276bbeee64b3bf
 RPROVIDES:${PN} += "ghc-cipher-aes \
 ghc-cipher-aes(aarch-64) \
 libHScipher-aes-0.2.11-Izmj38K7uNp7rHcFTtfQFi-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

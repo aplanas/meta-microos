@@ -21,6 +21,7 @@ RPM_HASH = "45f418dee14845295e0d9363c9138ca62b03e55930b9c61f403f15b4ec185ec80f89
 RPROVIDES:${PN} += "config(python3-libstoragemgmt) \
 python3-libstoragemgmt \
 python3-libstoragemgmt(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

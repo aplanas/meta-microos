@@ -13,6 +13,7 @@ RPM_HASH = "0865f17809e21625207fd9bbf221a3c8502c95048ac40be5a98bb2168e7a6fcfadc3
 RPROVIDES:${PN} += "libbitcoinconsensus.so.0()(64bit) \
 libbitcoinconsensus0 \
 libbitcoinconsensus0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

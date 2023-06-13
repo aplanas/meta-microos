@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-avocado-plugins-golang \
 python3.10dist(avocado-framework-plugin-golang) \
 python3dist(avocado-framework-plugin-golang)"
+
 RDEPENDS:${PN} += "go \
 python(abi) \
 python3-avocado"

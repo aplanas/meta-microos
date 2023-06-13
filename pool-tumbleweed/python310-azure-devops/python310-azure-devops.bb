@@ -14,6 +14,7 @@ python3.10dist(azure-devops) \
 python310-azure-devops \
 python310-vsts \
 python3dist(azure-devops)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-nspkg \
 python310-msrest"

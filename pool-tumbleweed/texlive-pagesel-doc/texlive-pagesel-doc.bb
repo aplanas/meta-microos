@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pagesel-doc:en) \
 texlive-pagesel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

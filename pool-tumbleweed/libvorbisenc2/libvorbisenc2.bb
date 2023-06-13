@@ -15,6 +15,7 @@ RPM_HASH = "62c424cffac2ec1812e4385306388f837cf6cc30da86c397d818a6b90c0cb3ff0be2
 RPROVIDES:${PN} += "libvorbisenc.so.2()(64bit) \
 libvorbisenc2 \
 libvorbisenc2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

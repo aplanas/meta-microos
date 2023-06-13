@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "config(monitoring-plugins-ide_smart) \
 monitoring-plugins-ide_smart \
 monitoring-plugins-ide_smart(aarch-64) \
 nagios-plugins-ide_smart"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

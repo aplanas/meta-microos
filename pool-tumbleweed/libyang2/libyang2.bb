@@ -19,6 +19,7 @@ RPM_HASH = "a33c34e649b08e1abd2d856cad8c2b21c390cd97b1c9e52f5a62faee8cdc699d1772
 RPROVIDES:${PN} += "libyang.so.2()(64bit) \
 libyang2 \
 libyang2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

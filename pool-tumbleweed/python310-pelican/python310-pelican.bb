@@ -30,6 +30,7 @@ RPROVIDES:${PN} += "python3-pelican \
 python3.10dist(pelican) \
 python310-pelican \
 python3dist(pelican)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

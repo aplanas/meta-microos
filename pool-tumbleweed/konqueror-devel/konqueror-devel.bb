@@ -13,6 +13,7 @@ kde-baseapps5-devel \
 konqueror-devel \
 konqueror-devel(aarch-64) \
 libkonq-devel"
+
 RDEPENDS:${PN} += "konqueror"
 
 inherit rpm

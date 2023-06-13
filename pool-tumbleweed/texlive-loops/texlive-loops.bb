@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(loops.sty) \
 texlive-loops"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

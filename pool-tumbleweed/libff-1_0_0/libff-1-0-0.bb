@@ -10,6 +10,7 @@ RPM_HASH = "baa9db10ffb93343f09ba3be22493fd49216b202ad1b74feece0b4c89a3884b8515d
 RPROVIDES:${PN} += "libff-1.0.0.so()(64bit) \
 libff-1_0_0 \
 libff-1_0_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

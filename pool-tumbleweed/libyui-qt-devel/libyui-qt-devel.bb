@@ -14,6 +14,7 @@ RPM_HASH = "2220c1dbb90f982c39b1c6587fcf2af919aae1365d9f7fc9c0c8a44efadf4cc90c3d
 RPROVIDES:${PN} += "libyui-qt-devel \
 libyui-qt-devel(aarch-64) \
 pkgconfig(libyui-qt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 fontconfig-devel \
 libyui-devel \

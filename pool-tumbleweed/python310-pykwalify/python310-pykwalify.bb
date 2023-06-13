@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-pykwalify \
 python3.10dist(pykwalify) \
 python310-pykwalify \
 python3dist(pykwalify)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

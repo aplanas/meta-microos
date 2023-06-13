@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:json-schema) \
 rubygem(ruby:3.2.0:json-schema:3) \
 rubygem(ruby:3.2.0:json-schema:3.0) \
 rubygem(ruby:3.2.0:json-schema:3.0.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:addressable)"
 

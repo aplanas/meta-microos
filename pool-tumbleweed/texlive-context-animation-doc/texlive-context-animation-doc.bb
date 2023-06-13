@@ -9,6 +9,7 @@ RPM_HASH = "0acc7d3a41686bbc7f713d0cdab57712e72109d6033072184a372036a1766df2df15
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-animation-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

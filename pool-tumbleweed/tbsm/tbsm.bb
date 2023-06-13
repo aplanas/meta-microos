@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(tbsm) \
 tbsm"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

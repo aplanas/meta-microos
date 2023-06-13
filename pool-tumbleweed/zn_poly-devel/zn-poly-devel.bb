@@ -10,6 +10,7 @@ RPM_HASH = "73fc24e6a2e84a9dbba20a968ccdf43c3970fb5b3c58e11cd4eb20c9e494087aa763
 
 RPROVIDES:${PN} += "zn_poly-devel \
 zn_poly-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libzn_poly-0_9"
 
 inherit rpm

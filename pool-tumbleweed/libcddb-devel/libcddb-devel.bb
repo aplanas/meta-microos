@@ -12,6 +12,7 @@ RPM_HASH = "ce7c68616122d7d740aabbe1978fcfdc861cb512d335a094786849670f1ca5212e21
 RPROVIDES:${PN} += "libcddb-devel \
 libcddb-devel(aarch-64) \
 pkgconfig(libcddb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libcddb2"

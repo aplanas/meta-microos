@@ -109,6 +109,7 @@ tex(tikzlibrarypgfplots.ternary.code.tex) \
 tex(tikzlibrarypgfplots.units.code.tex) \
 tex(tikzlibrarypgfplotsclickable.code.tex) \
 texlive-pgfplots"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/luatex \
 coreutils \

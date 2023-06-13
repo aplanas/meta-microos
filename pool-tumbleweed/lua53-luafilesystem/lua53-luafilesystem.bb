@@ -13,6 +13,7 @@ RPM_HASH = "bba5f3d001f7c34012b5dd00a02f091f787f2af467660ad723e8b4f4f0b57b7b3c1d
 
 RPROVIDES:${PN} += "lua53-luafilesystem \
 lua53-luafilesystem(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

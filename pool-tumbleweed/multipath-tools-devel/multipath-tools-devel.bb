@@ -10,6 +10,7 @@ RPM_HASH = "9c04f61209d0ec367da7d26fc6d09a5ee690f64a866540f24f863a3a7caaa0ed9665
 
 RPROVIDES:${PN} += "multipath-tools-devel \
 multipath-tools-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmpath0"
 
 inherit rpm

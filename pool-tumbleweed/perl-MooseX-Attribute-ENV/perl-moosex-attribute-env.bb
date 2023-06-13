@@ -41,6 +41,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Moose::Meta::Attribute::Custom::Trait::ENV) \
 perl(MooseX::Attribute::ENV) \
 perl-MooseX-Attribute-ENV"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose)"
 

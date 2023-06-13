@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(koma-moderncvclassic.sty) \
 texlive-koma-moderncvclassic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(tokcycle.sty) \
 tex(tokcycle.tex) \
 texlive-tokcycle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

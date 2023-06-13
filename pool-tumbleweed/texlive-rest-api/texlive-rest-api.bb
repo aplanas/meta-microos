@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rest-api.sty) \
 texlive-rest-api"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

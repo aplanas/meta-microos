@@ -13,6 +13,7 @@ RPM_HASH = "964a064c4037a32872947d035d4ba1d365adaf8662bd9ed380583738f3f4b6608cf9
 RPROVIDES:${PN} += "littleb-devel \
 littleb-devel(aarch-64) \
 pkgconfig(littleb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblittleb0"
 

@@ -14,6 +14,7 @@ RPM_HASH = "5babc52f9831fd659d374fca799f86037aebd4344c192a43ca114bb2fb81b6b4f834
 RPROVIDES:${PN} += "python-libgpiod \
 python3-gpiod \
 python3-gpiod(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

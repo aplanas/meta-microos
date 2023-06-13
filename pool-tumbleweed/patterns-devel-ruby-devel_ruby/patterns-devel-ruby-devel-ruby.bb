@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-devel-ruby-devel_ruby \
 patterns-devel-ruby-devel_ruby(aarch-64)"
+
 RDEPENDS:${PN} += "ruby \
 rubygems"
 

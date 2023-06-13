@@ -16,6 +16,7 @@ RPM_HASH = "f66a3950b2816b2ac158613f8a7a9e643e8f3538bd7bbd2a857bb163e4f6e3343ced
 RPROVIDES:${PN} += "libjavascriptcoregtk-6.0.so.1()(64bit) \
 libjavascriptcoregtk6_0-1 \
 libjavascriptcoregtk6_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

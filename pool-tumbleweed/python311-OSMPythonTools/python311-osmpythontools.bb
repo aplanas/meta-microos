@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(osmpythontools) \
 python311-OSMPythonTools \
 python3dist(osmpythontools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-beautifulsoup4 \
 python311-geojson \

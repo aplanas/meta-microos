@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "adobe-sourcehanserif-fonts \
 adobe-sourcehanserif-tw-fonts \
 locale(zh_TW) \
 scalable-font-zh_TW"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

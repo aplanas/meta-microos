@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-caption-doc:en) \
 texlive-caption-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

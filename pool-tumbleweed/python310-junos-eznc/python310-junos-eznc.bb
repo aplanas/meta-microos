@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-junos-eznc \
 python3.10dist(junos-eznc) \
 python310-junos-eznc \
 python3dist(junos-eznc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-PyYAML \

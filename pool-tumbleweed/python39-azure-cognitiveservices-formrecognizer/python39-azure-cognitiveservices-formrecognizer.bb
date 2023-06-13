@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-cognitiveservices-formrecognizer) \
 python39-azure-cognitiveservices-formrecognizer \
 python3dist(azure-cognitiveservices-formrecognizer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-cognitiveservices-nspkg \
 python39-azure-common \

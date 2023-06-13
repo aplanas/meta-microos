@@ -10,6 +10,7 @@ RPM_HASH = "6b29b5ea303a5495c50bb9ff6620b6725a55938848f4cddae1ff526c857f9e19457c
 
 RPROVIDES:${PN} += "libnumbertext-data \
 libnumbertext-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

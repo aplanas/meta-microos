@@ -17,6 +17,7 @@ tex(fge.sty) \
 tex(fgeit10.tfm) \
 tex(fgerm10.tfm) \
 texlive-fge"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

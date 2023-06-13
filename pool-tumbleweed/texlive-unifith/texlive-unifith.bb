@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(unifith.cls) \
 texlive-unifith"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(zope.schema) \
 python39-zope.schema \
 python3dist(zope.schema)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-zope.event \
 python39-zope.interface"

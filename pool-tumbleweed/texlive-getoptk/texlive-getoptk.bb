@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(getoptk.tex) \
 tex(guide.tex) \
 texlive-getoptk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

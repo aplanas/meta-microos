@@ -9,6 +9,7 @@ RPM_HASH = "fa0309dfbe90bd44bf8fa2760f8598e4dfb42831166c729ce1c4a036ab5648a41fe0
 
 RPROVIDES:${PN} += "texlive-pdftex-quiet-bin \
 texlive-pdftex-quiet-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pdftex-quiet"
 
 inherit rpm

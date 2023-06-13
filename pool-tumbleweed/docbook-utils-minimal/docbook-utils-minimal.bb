@@ -16,6 +16,7 @@ RPM_HASH = "a9c84b753c262c6ecc431eaa192c491562632fe8c8a8db435b7ce7821b91b10a68ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-utils-minimal"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 docbook-dsssl-stylesheets \

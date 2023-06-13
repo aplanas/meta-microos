@@ -10,6 +10,7 @@ RPM_HASH = "8892e997fcd41827af21eb1bb0d074838f25b1dce35f111254d8fb697c694a8a8693
 
 RPROVIDES:${PN} += "qt6-3dextras-private-devel \
 qt6-3dextras-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt63DExtras)"
 
 inherit rpm

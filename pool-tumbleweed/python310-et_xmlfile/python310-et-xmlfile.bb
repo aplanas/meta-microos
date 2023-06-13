@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-et_xmlfile \
 python3.10dist(et-xmlfile) \
 python310-et_xmlfile \
 python3dist(et-xmlfile)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jdcal \
 python310-lxml"

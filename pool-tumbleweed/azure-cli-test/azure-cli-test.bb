@@ -9,6 +9,7 @@ RPM_HASH = "5004907ca7fc3380916784816bb8f648461659293f1a678eede54d980e131b9969f7
 
 RPROVIDES:${PN} += "azure-cli-test \
 azure-cli-test(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

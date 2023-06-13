@@ -9,6 +9,7 @@ RPM_HASH = "9504d4110e1aca24ab5ddc3514afa08e49408f9ec0240804619532ca40bfa5a8a0e2
 
 RPROVIDES:${PN} += "akonadi-calendar \
 akonadi-calendar(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

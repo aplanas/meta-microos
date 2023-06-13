@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-httpsig_cffi \
 python3.10dist(httpsig-cffi) \
 python310-httpsig_cffi \
 python3dist(httpsig-cffi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography \
 python310-requests \

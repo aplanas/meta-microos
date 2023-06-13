@@ -10,6 +10,7 @@ RPM_HASH = "32f57172b6d7242a2a9cca93334fd5b8730666d5ba339e372f0203fa0033e9d72a3d
 RPROVIDES:${PN} += "libBulletInverseDynamicsUtils.so.3.17()(64bit) \
 libBulletInverseDynamicsUtils3_17 \
 libBulletInverseDynamicsUtils3_17(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

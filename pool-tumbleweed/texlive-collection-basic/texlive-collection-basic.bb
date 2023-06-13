@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(basic) \
 tex(tex) \
 texlive-collection-basic"
+
 RDEPENDS:${PN} += "texlive-amsfonts \
 texlive-bibtex \
 texlive-cm \

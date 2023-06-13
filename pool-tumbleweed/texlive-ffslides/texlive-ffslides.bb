@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ffslides.cls) \
 texlive-ffslides"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

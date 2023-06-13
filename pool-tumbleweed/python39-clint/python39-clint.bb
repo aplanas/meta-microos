@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(clint) \
 python39-clint \
 python3dist(clint)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-args"
 

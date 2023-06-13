@@ -24,6 +24,7 @@ tex(markdownthemewitiko_graphicx_http.sty) \
 tex(markdownthemewitiko_tilde.sty) \
 tex(t-markdown.tex) \
 texlive-markdown"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ mimehandler(x-scheme-handler/irc) \
 mimehandler(x-scheme-handler/ircs) \
 weechat \
 weechat(aarch-64)"
+
 RDEPENDS:${PN} += "ca-certificates \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \

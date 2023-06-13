@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-pypubsub \
 python3.10dist(pypubsub) \
 python310-pypubsub \
 python3dist(pypubsub)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

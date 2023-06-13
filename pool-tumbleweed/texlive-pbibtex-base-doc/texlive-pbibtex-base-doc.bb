@@ -9,6 +9,7 @@ RPM_HASH = "f791cdfdbb60a991f95d0f6ee1061d8ff5227cc87af6ed41520a3feb7fe4e20d334e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pbibtex-base-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

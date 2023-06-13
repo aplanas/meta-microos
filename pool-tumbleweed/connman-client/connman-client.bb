@@ -9,6 +9,7 @@ RPM_HASH = "5ee6ad813734121b1c7a2f1fa17b9e4b83ccb55a038dcc7dfd7e3cc8b3f10c9ae571
 
 RPROVIDES:${PN} += "connman-client \
 connman-client(aarch-64)"
+
 RDEPENDS:${PN} += "connman \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

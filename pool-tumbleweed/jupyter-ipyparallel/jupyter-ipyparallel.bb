@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "jupyter-ipyparallel \
 jupyter-ipyparallel-l \
 jupyter-ipyparallel-nbext \
 jupyter-ipyparallel-serverextension"
+
 RDEPENDS:${PN} += "jupyter-jupyter-core \
 jupyter-jupyter-server \
 jupyter-jupyterlab \

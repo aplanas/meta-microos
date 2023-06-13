@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(googleapis-common-protos) \
 python311-googleapis-common-protos \
 python3dist(googleapis-common-protos)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-protobuf"
 

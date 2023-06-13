@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(libvirt-daemon-driver-lxc) \
 libvirt-daemon-driver-lxc \
 libvirt-daemon-driver-lxc(aarch-64) \
 libvirt_driver_lxc.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

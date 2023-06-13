@@ -16,6 +16,7 @@ RPM_HASH = "b7a5befd8ec3fa63d430fcd5421e817ee969ab7dfda59555ca073655eb54a728ce0b
 RPROVIDES:${PN} += "msitools-devel \
 msitools-devel(aarch-64) \
 pkgconfig(libmsi-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmsi0 \
 msitools \

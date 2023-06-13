@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(nbdime) \
 python311-jupyter_nbdime \
 python311-nbdime \
 python3dist(nbdime)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \

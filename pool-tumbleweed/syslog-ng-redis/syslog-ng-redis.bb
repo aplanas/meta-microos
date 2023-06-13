@@ -10,6 +10,7 @@ RPM_HASH = "76c1c9d079417a13f4836f82e40a902ec29f0c7cc151b8ff509b9bd748280a9b5908
 
 RPROVIDES:${PN} += "syslog-ng-redis \
 syslog-ng-redis(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

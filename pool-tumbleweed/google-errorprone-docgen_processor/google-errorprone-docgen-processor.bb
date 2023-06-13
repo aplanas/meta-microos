@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "google-errorprone-docgen_processor \
 mvn(com.google.errorprone:error_prone_docgen_processor) \
 mvn(com.google.errorprone:error_prone_docgen_processor:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.auto.service:auto-service-annotations) \

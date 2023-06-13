@@ -65,6 +65,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Pod::Coverage::TrustPod) \
 perl-Pod-Coverage-TrustPod"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Pod::Coverage::CountParents) \
 perl(Pod::Eventual::Simple) \

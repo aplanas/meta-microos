@@ -14,6 +14,7 @@ nemo-extension-preview(aarch-64) \
 nemo-extension-preview-devel \
 nemo-preview \
 typelib(NemoPreview)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 gstreamer-plugins-good \

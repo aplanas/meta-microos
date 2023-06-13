@@ -17,6 +17,7 @@ RPM_HASH = "f348ef2bf24ce966b3ecd4ae0679e713215fe1273bfce9f1a9b1e7e4a291769f6225
 RPROVIDES:${PN} += "libxar.so.1()(64bit) \
 libxar1 \
 libxar1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

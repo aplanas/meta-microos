@@ -16,6 +16,7 @@ libqwebengineview.so()(64bit) \
 pkgconfig(Qt5WebEngine) \
 pkgconfig(Qt5WebEngineCore) \
 pkgconfig(Qt5WebEngineWidgets)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

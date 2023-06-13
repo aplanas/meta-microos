@@ -9,6 +9,7 @@ RPM_HASH = "49f287e8920bcfc2337aed613fbced649e6ec07a76c07527a4149e19de7b013f05c4
 
 RPROVIDES:${PN} += "discord-rpc-devel \
 discord-rpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdiscord-rpc3_4_0"
 
 inherit rpm

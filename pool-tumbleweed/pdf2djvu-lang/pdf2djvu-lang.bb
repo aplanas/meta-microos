@@ -15,6 +15,7 @@ locale(pdf2djvu:ru) \
 locale(pdf2djvu:uk) \
 pdf2djvu-lang \
 pdf2djvu-lang-all"
+
 RDEPENDS:${PN} += "pdf2djvu"
 
 inherit rpm

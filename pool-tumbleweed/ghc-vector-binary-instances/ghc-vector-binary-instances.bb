@@ -20,6 +20,7 @@ RPM_HASH = "0975770db53ef354937b379683d28bc171215b414ace4ca2bfb9c58e7ca565b3ad14
 RPROVIDES:${PN} += "ghc-vector-binary-instances \
 ghc-vector-binary-instances(aarch-64) \
 libHSvector-binary-instances-0.2.5.2-KcST7aCBDJmuBtN6ufmU8-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

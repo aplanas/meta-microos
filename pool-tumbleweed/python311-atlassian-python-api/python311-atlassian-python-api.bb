@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(atlassian-python-api) \
 python311-atlassian-python-api \
 python3dist(atlassian-python-api)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-kerberos \
 python311-oauthlib \

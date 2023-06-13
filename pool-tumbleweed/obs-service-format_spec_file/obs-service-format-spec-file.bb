@@ -15,6 +15,7 @@ RPM_HASH = "a1822e9e3978dedf14fe9b91e6d05ff4cd4da89f7f5245a1aaf258e11edffa7a5469
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-format_spec_file"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 obs-service-source_validator"

@@ -12,6 +12,7 @@ RPM_HASH = "1c9421e5916fe28e20a88cc79b670145dbc38f5b9a099c6ed18dfd5bb1cc34da13e4
 
 RPROVIDES:${PN} += "ngspice-scripts \
 ngspice-scripts(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

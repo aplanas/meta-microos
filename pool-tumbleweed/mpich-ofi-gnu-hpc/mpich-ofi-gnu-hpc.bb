@@ -11,6 +11,7 @@ RPM_HASH = "27ad2bdece62125d4b8b8a92a54cd7bd914fca4ae856f149681ca51003cbc2221c80
 
 RPROVIDES:${PN} += "mpich-ofi-gnu-hpc \
 mpich-ofi-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 mpich-ofi_4_0_2-gnu-hpc"
 

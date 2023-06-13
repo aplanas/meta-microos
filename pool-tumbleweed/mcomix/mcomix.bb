@@ -36,6 +36,7 @@ mimehandler(image/x-portable-graymap) \
 mimehandler(image/x-portable-pixmap) \
 python3.10dist(mcomix) \
 python3dist(mcomix)"
+
 RDEPENDS:${PN} += "/usr/bin/7z \
 /usr/bin/python3 \
 python(abi) \

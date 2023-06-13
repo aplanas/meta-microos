@@ -76,6 +76,7 @@ locale(libgnome-keyring:vi) \
 locale(libgnome-keyring:zh_CN) \
 locale(libgnome-keyring:zh_HK) \
 locale(libgnome-keyring:zh_TW)"
+
 RDEPENDS:${PN} += "libgnome-keyring"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "50b67cfbb0e3e7e996d86377b79c90b1e35de04eee78984b26205094327c8ac99aba
 RPROVIDES:${PN} += "librepo-devel \
 librepo-devel(aarch-64) \
 pkgconfig(librepo)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librepo0(aarch-64) \
 pkgconfig(glib-2.0) \

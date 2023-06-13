@@ -14,6 +14,7 @@ RPM_HASH = "6bc3a86e72386ae785f6306191b730ad565ce7b484f046360f6595a584160df0bc3d
 RPROVIDES:${PN} += "libstfl.so.0()(64bit) \
 libstfl0 \
 libstfl0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

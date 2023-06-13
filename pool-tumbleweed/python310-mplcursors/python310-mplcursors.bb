@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mplcursors \
 python3.10dist(mplcursors) \
 python310-mplcursors \
 python3dist(mplcursors)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib"
 

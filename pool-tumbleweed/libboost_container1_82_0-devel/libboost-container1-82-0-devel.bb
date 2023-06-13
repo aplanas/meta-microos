@@ -15,6 +15,7 @@ RPM_HASH = "9f2792c2718755883482c2dfd6faea15b4e949e331a185eb0f7d35abeb5ea4e163f6
 RPROVIDES:${PN} += "libboost_container-devel-impl \
 libboost_container1_82_0-devel \
 libboost_container1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_container1_82_0 \
 libboost_headers1_82_0-devel \
 libstdc++-devel"

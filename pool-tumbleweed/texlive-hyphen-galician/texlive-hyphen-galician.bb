@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(hyph-gl.ec.tex) \
 tex(hyph-gl.tex) \
 tex(loadhyph-gl.tex) \
 texlive-hyphen-galician"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

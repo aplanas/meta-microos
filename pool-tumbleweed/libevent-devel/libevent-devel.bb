@@ -20,6 +20,7 @@ pkgconfig(libevent_core) \
 pkgconfig(libevent_extra) \
 pkgconfig(libevent_openssl) \
 pkgconfig(libevent_pthreads)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 glibc-devel \

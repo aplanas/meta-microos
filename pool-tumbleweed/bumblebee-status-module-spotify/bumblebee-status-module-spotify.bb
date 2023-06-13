@@ -9,6 +9,7 @@ RPM_HASH = "52dd804e0c4ee6d238919dd4e920db9ed83f1ead7ae03bd21f22ab3ac934babdf643
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-spotify"
+
 RDEPENDS:${PN} += "bumblebee-status \
 python3-dbus-python \
 spotify-easyrpm"

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(httplib2) \
 python39-httplib2 \
 python3dist(httplib2)"
+
 RDEPENDS:${PN} += "ca-certificates \
 python(abi) \
 python39-certifi \

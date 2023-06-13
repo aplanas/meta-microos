@@ -85,6 +85,7 @@ locale(onboard:zh_HK) \
 locale(onboard:zh_TW) \
 onboard-lang \
 onboard-lang-all"
+
 RDEPENDS:${PN} += "onboard"
 
 inherit rpm

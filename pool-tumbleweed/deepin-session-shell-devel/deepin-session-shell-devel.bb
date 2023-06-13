@@ -11,6 +11,7 @@ RPM_HASH = "d728badf6f9d0cb261cf58bf5f9381c98978f8ec3cc1cc43d52f0096f5266ea353b2
 RPROVIDES:${PN} += "cmake(DdeSessionShell) \
 deepin-session-shell-devel \
 deepin-session-shell-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-java) \
 mvn(org.codehaus.plexus:plexus-java:pom:) \
 mvn(org.codehaus.plexus:plexus-languages:pom:) \
 plexus-languages"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem \

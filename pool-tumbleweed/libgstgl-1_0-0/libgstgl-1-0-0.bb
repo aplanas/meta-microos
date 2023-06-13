@@ -14,6 +14,7 @@ RPM_HASH = "9fd33fe99b13be4cf7de3b321eb9b3fabb494b7eeeb62d1182d49ebd434360f9b48a
 RPROVIDES:${PN} += "libgstgl-1.0.so.0()(64bit) \
 libgstgl-1_0-0 \
 libgstgl-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(labyrinth.sty) \
 texlive-labyrinth"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

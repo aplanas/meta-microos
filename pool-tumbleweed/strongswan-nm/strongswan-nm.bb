@@ -13,6 +13,7 @@ RPM_HASH = "20f3f694746d48fb432fda39446e452720ac9f2fb640eff541926ee67f8970e62112
 
 RPROVIDES:${PN} += "strongswan-nm \
 strongswan-nm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

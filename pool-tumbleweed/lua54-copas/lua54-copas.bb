@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-copas \
 lua54-copas"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

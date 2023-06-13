@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(thumby.sty) \
 texlive-thumby"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

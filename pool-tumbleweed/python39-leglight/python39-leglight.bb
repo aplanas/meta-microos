@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(leglight) \
 python39-leglight \
 python39-leglight(aarch-64) \
 python3dist(leglight)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests \
 python39-zeroconf"

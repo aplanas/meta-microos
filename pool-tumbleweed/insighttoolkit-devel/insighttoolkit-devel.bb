@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(ITK) \
 insighttoolkit-devel \
 insighttoolkit-devel(aarch-64) \
 libinsighttoolkit-devel"
+
 RDEPENDS:${PN} += "dcmtk-devel \
 double-conversion-devel \
 fftw3-threads-devel \

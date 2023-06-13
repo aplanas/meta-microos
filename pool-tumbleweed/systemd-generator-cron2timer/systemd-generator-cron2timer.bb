@@ -16,6 +16,7 @@ RPM_HASH = "d02f0fbc12f816fb3d8247ddc4d82edda1c2b02abe026333293b49c3f30e12071197
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-generator-cron2timer"
+
 RDEPENDS:${PN} += "/bin/bash \
 systemd"
 

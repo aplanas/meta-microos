@@ -26,6 +26,7 @@ python3.11dist(llvmlite) \
 python311-llvmlite \
 python311-llvmlite(aarch-64) \
 python3dist(llvmlite)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.14()(64bit) \

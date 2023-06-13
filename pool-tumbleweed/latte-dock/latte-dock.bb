@@ -28,6 +28,7 @@ qt5qmlimport(org.kde.latte.components.1) \
 qt5qmlimport(org.kde.latte.core.0) \
 qt5qmlimport(org.kde.latte.private.containment.0) \
 qt5qmlimport(org.kde.latte.private.tasks.0)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Activities.so.5()(64bit) \

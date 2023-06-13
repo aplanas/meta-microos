@@ -61,6 +61,7 @@ locale(pcmanfm:zh_CN) \
 locale(pcmanfm:zh_TW) \
 pcmanfm-lang \
 pcmanfm-lang-all"
+
 RDEPENDS:${PN} += "pcmanfm"
 
 inherit rpm

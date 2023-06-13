@@ -48,6 +48,7 @@ firmware(mwl8k/helper_8687.fw) \
 firmware(mwlwifi/88W8864.bin) \
 firmware(mwlwifi/88W8897.bin) \
 kernel-firmware-marvell"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

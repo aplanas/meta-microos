@@ -9,6 +9,7 @@ RPM_HASH = "5d7f7d8d0ebdcb8d1453f39f2505c61a1de5fe8d228b44404c51e8219411fcf86a36
 
 RPROVIDES:${PN} += "qt6-webengine-examples \
 qt6-webengine-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

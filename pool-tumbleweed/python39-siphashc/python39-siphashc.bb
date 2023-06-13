@@ -17,6 +17,7 @@ python39-siphashc \
 python39-siphashc(aarch-64) \
 python39-siphashc3 \
 python3dist(siphashc)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

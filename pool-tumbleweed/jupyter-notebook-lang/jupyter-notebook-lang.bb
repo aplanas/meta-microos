@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-notebook-lang \
 jupyter-notebook-lang-all"
+
 RDEPENDS:${PN} += "jupyter-notebook \
 python3-notebook-lang"
 

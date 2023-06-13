@@ -26,6 +26,7 @@ RPM_HASH = "88cc115fcb1b9efcb4d80674f6c976650e036b8b7a7dc1c5e7851b3d59b813606cc9
 RPROVIDES:${PN} += "pidgin-indicator \
 pidgin-plugin-indicator \
 pidgin-plugin-indicator(aarch-64)"
+
 RDEPENDS:${PN} += "libappindicator.so.1()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \
 libglib-2.0.so.0()(64bit) \

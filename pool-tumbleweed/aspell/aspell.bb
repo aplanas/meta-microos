@@ -18,6 +18,7 @@ RPM_HASH = "68882250bb225a8ae51480805ff45d25cf981bd0374f40c5dde49ebdb6abf9cd7abc
 RPROVIDES:${PN} += "aspell \
 aspell(aarch-64) \
 pspell"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 info \

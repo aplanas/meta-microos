@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "eyeD3 \
 python3.10dist(eyed3) \
 python3dist(eyed3)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-chardet \

@@ -20,6 +20,7 @@ python39-PyWavelets \
 python39-PyWavelets(aarch-64) \
 python39-PyWavelets-doc \
 python3dist(pywavelets)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

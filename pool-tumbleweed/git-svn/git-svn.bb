@@ -10,6 +10,7 @@ RPM_HASH = "76768472969ab234286f527fb430f6c2f6b71ddf2ff3319501c356951f28e80e7102
 
 RPROVIDES:${PN} += "git-svn \
 git-svn(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 git-core \
 perl-Git \

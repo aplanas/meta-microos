@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(mfpic4ode.sty) \
 tex(mfpic4ode.tex) \
 texlive-mfpic4ode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

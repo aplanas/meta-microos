@@ -10,6 +10,7 @@ RPM_HASH = "77f873ab8548ffccc403d11944f1fdd97b5b5a8c820e973b5c67f606874b1227ca7b
 
 RPROVIDES:${PN} += "sphinxbase \
 sphinxbase(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

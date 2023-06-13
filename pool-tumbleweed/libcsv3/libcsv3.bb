@@ -12,6 +12,7 @@ RPM_HASH = "cf79fee9f5661b30456e013c1c55a8ee768823d3cf913e20ac04fa9369b072577453
 RPROVIDES:${PN} += "libcsv.so.3()(64bit) \
 libcsv3 \
 libcsv3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

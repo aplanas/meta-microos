@@ -9,6 +9,7 @@ RPM_HASH = "7c7552ba320c56bba55679220e309864c3b2982f5e4ca2ccd653b488384277cd37f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gtrcrd-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

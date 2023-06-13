@@ -11,6 +11,7 @@ RPM_HASH = "0530728876cd39c03be30b90da2581db8532d964b68240a99eee4c6087eef0e29ad8
 
 RPROVIDES:${PN} += "python3-fife \
 python3-fife(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "041c95c6c387cf9d6739f534904603cf89615ed0000136ff99c35f8bcec6f571d678
 
 RPROVIDES:${PN} += "cmus-plugins-all \
 cmus-plugins-all(aarch-64)"
+
 RDEPENDS:${PN} += "cmus \
 cmus-plugin-cdio \
 cmus-plugin-cue \

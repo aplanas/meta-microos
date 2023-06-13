@@ -28,6 +28,7 @@ libykpers-1.so.1(LIBYKPERS_1.6)(64bit) \
 libykpers-1.so.1(LIBYKPERS_1.7)(64bit) \
 libykpers-1.so.1(LIBYKPERS_1.8)(64bit) \
 libykpers-1.so.1(LIBYKPERS_1.9)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

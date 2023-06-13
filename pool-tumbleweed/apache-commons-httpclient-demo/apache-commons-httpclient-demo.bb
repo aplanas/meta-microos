@@ -14,6 +14,7 @@ RPM_HASH = "d389289cc61e5ef125ab4349f2c83c80e3a59a0e31743c1e0d974d288a6e5a7cfdd3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-httpclient-demo"
+
 RDEPENDS:${PN} += "apache-commons-httpclient"
 
 inherit rpm

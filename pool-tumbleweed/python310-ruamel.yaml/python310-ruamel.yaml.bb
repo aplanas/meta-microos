@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-ruamel.yaml \
 python3.10dist(ruamel.yaml) \
 python310-ruamel.yaml \
 python3dist(ruamel.yaml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ruamel.yaml.clib"
 

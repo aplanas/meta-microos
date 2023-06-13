@@ -39,6 +39,7 @@ tex(frcw10.tfm) \
 tex(ot1frc.fd) \
 tex(t1frc.fd) \
 texlive-frcursive"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "0784cbbb70a74241ff7b8ad1fa1a4bed3c609e80650f7cf51d2b5e1d137ae0416bbf
 RPROVIDES:${PN} += "dareader-devel \
 dareader-devel(aarch-64) \
 pkgconfig(dareader)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdareader1"
 

@@ -75,6 +75,7 @@ locale(gwenview5:uk) \
 locale(gwenview5:wa) \
 locale(gwenview5:zh_CN) \
 locale(gwenview5:zh_TW)"
+
 RDEPENDS:${PN} += "gwenview5"
 
 inherit rpm

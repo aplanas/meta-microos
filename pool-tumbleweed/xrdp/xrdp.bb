@@ -18,6 +18,7 @@ libxrdpapi.so.0()(64bit) \
 libxup.so()(64bit) \
 xrdp \
 xrdp(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

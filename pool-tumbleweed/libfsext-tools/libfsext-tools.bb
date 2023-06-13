@@ -9,6 +9,7 @@ RPM_HASH = "80b0b9db38d886074b1f1a9f03a613afade22d9524fc4686e2919358fb883e5007f7
 
 RPROVIDES:${PN} += "libfsext-tools \
 libfsext-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

@@ -54,6 +54,7 @@ tex(oltt8.tfm) \
 tex(oltt9.tfm) \
 tex(olvtt10.tfm) \
 texlive-oldlatin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

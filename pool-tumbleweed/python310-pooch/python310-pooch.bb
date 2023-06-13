@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pooch \
 python3.10dist(pooch) \
 python310-pooch \
 python3dist(pooch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-appdirs \
 python310-packaging \

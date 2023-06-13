@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt53DAnimation) \
 libQt53DAnimation-devel \
 libQt53DAnimation-devel(aarch-64) \
 pkgconfig(Qt53DAnimation)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt53DAnimation5 \
 pkgconfig(Qt53DCore) \

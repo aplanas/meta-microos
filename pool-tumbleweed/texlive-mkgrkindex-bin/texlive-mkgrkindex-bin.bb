@@ -9,6 +9,7 @@ RPM_HASH = "bef80c875475938bc1b661535c5770cae7fba4d61f9a98bca6820d4b270fd64a7456
 
 RPROVIDES:${PN} += "texlive-mkgrkindex-bin \
 texlive-mkgrkindex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-mkgrkindex"
 
 inherit rpm

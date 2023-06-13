@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libnvidia-egl-wayland-devel \
 libnvidia-egl-wayland-devel(aarch-64) \
 pkgconfig(wayland-eglstream) \
 pkgconfig(wayland-eglstream-protocols)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnvidia-egl-wayland1 \
 pkgconfig(eglexternalplatform)"

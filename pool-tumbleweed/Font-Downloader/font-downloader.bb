@@ -14,6 +14,7 @@ application() \
 application(org.gustavoperedo.FontDownloader.desktop) \
 metainfo() \
 metainfo(org.gustavoperedo.FontDownloader.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-gobject-Gdk"
 

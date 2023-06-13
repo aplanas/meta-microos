@@ -12,6 +12,7 @@ RPM_HASH = "e23a48cac3ebe5dd24caa9197900e0d3b52146e7e560d0021625b5e3cac0e6ba107c
 
 RPROVIDES:${PN} += "python311-pomegranate-devel \
 python311-pomegranate-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python311-pomegranate"
 
 inherit rpm

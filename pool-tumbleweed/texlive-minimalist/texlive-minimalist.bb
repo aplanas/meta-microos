@@ -28,6 +28,7 @@ tex(minimalist.sty) \
 tex(minimart.cls) \
 tex(minimbook.cls) \
 texlive-minimalist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

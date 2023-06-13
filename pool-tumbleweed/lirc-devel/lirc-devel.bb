@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "lirc-devel \
 lirc-devel(aarch-64) \
 pkgconfig(lirc) \
 pkgconfig(lirc-driver)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libirrecord0 \
 liblirc0 \

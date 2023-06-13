@@ -11,6 +11,7 @@ RPM_HASH = "62633caee273d3d5648d3a4987c341b48716c7116d9784dc1a45f6fe54097a043d47
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hdf5-gnu-mvapich2-hpc"
+
 RDEPENDS:${PN} += "hdf5_1_12_2-gnu-mvapich2-hpc"
 
 inherit rpm

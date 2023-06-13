@@ -13,6 +13,7 @@ application(brickv.desktop) \
 brickv \
 python3.10dist(brickv) \
 python3dist(brickv)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-pytz \

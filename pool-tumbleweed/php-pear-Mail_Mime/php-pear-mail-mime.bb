@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "php-pear(Mail_Mime) \
 php-pear-Mail_Mime \
 php5-pear-Mail_Mime \
 php7-pear-Mail_Mime"
+
 RDEPENDS:${PN} += "/bin/sh \
 php-pear"
 

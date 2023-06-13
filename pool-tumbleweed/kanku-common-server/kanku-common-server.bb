@@ -11,6 +11,7 @@ RPM_HASH = "8864a47292b23a6445e9e401310f0cc4d568c6733ede3598c01495c4a81863726a78
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-common-server"
+
 RDEPENDS:${PN} += "/bin/sh \
 libvirt-daemon \
 libvirt-daemon-driver-qemu \

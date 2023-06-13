@@ -13,6 +13,7 @@ RPM_HASH = "cd0125342d265496b5a486fe7f771c04637fafbfefe0e6bb1fda10c5bbb7b9f60336
 RPROVIDES:${PN} += "libserf-1-1 \
 libserf-1-1(aarch-64) \
 libserf-1.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

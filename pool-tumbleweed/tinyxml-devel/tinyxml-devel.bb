@@ -11,6 +11,7 @@ RPM_HASH = "5443596bc7b8728197231d7993a0a9a64e69969a185edc41f1dadb97125f914d0d6b
 RPROVIDES:${PN} += "libtinyxml-devel \
 tinyxml-devel \
 tinyxml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtinyxml0"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "ce9a852e914ec50ffd91bee6d9f31b7bf53def905d58dc8dfc4b04bcc062c27154ea
 RPROVIDES:${PN} += "libXISF.so.0()(64bit) \
 libXISF0 \
 libXISF0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

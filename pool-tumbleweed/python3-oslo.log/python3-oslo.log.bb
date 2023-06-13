@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.log \
 python3.10dist(oslo.log) \
 python3dist(oslo.log)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-debtcollector \

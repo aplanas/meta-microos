@@ -11,6 +11,7 @@ RPM_HASH = "4ce6d1e9aa6f9def57773854853a38c18d13d4e8e6eadb7631874fefabf9e8ad0228
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icinga-php-thirdparty"
+
 RDEPENDS:${PN} += "icinga-php-common \
 php-curl \
 php-json \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-datalake-store \
 python3.10dist(azure-mgmt-datalake-store) \
 python310-azure-mgmt-datalake-store \
 python3dist(azure-mgmt-datalake-store)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

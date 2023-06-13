@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(causets.sty) \
 texlive-causets"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

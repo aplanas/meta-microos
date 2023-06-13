@@ -16,6 +16,7 @@ RPM_HASH = "4b62c029d5a96209fbbb040e97af4b40befbdd6679a2c0e64c858e37bee549bd0ac9
 RPROVIDES:${PN} += "liboop.so.4()(64bit) \
 liboop4 \
 liboop4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

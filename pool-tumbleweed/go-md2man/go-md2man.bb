@@ -10,6 +10,7 @@ RPM_HASH = "151e7723d745b83a54c0bacc20efa3613fa3dc13222de03e88518d0041555c86cb37
 RPROVIDES:${PN} += "go-go-md2man \
 go-md2man \
 go-md2man(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

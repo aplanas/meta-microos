@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chngcntr.sty) \
 texlive-chngcntr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

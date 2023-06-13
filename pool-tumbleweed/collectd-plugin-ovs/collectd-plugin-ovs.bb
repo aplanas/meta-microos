@@ -9,6 +9,7 @@ RPM_HASH = "9ab9ae3103e64a473ad09b1b412513f5fef0e69cd13b4e1bb808b2331f768156d4e7
 
 RPROVIDES:${PN} += "collectd-plugin-ovs \
 collectd-plugin-ovs(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "cb0a22e0100f48fda358a98918bc135af41bbbd0c0cab054dde35300ce7281a7157c
 
 RPROVIDES:${PN} += "android-tools-partition \
 android-tools-partition(aarch-64)"
+
 RDEPENDS:${PN} += "android-tools \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

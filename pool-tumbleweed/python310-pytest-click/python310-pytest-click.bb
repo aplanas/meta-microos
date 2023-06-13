@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-click \
 python3.10dist(pytest-click) \
 python310-pytest-click \
 python3dist(pytest-click)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click \
 python310-pytest"

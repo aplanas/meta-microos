@@ -11,6 +11,7 @@ RPM_HASH = "3f18e229dc4c436e0cc5aa952c105c80a2637a8849150b4cd4872f1e933a5cbe166c
 RPROVIDES:${PN} += "MozillaThunderbird-translations-other \
 MozillaThunderbird-translations-other(aarch-64) \
 locale(MozillaThunderbird:ach;af;an;ast;az;be;bg;bn;br;bs;cak;cy;dsb;en_CA;eo;es_MX;et;eu;fa;ff;fy_NL;ga_IE;gd;gl;gn;gu_IN;he;hi_IN;hr;hsb;hy_AM;ia;id;is;ka;kab;kk;km;kn;lij;lt;lv;mk;mr;ms;my;ne_NP;nn_NO;oc;pa_IN;rm;ro;si;sk;sl;son;sq;sr;ta;te;th;tr;uk;ur;uz;vi;xh)"
+
 RDEPENDS:${PN} += "MozillaThunderbird"
 
 inherit rpm

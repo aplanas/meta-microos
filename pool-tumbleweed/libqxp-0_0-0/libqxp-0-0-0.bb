@@ -12,6 +12,7 @@ RPM_HASH = "25d5f9145bd0dfb00d1aaf4cdc024d3aa70615e092836b024015a64f057387bba2d7
 RPROVIDES:${PN} += "libqxp-0.0.so.0()(64bit) \
 libqxp-0_0-0 \
 libqxp-0_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

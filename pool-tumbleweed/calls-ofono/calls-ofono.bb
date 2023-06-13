@@ -13,6 +13,7 @@ RPM_HASH = "b53fbbddfdb142907c139cc1403fd1b862b18b1884dff278bf7b5f4fe1b5a2170a9c
 RPROVIDES:${PN} += "calls-ofono \
 calls-ofono(aarch-64) \
 libofono.so()(64bit)"
+
 RDEPENDS:${PN} += "calls \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

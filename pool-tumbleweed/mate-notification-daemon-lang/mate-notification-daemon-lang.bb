@@ -98,6 +98,7 @@ locale(mate-notification-daemon:zh_HK) \
 locale(mate-notification-daemon:zh_TW) \
 mate-notification-daemon-lang \
 mate-notification-daemon-lang-all"
+
 RDEPENDS:${PN} += "mate-notification-daemon"
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mingw32(lib:minizip) \
 mingw32(pkg:minizip) \
 mingw32-minizip-devel"
+
 RDEPENDS:${PN} += "mingw32-libminizip1"
 
 inherit rpm

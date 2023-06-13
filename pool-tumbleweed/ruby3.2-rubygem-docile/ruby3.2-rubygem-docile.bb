@@ -18,6 +18,7 @@ rubygem(ruby:3.2.0:docile) \
 rubygem(ruby:3.2.0:docile:1) \
 rubygem(ruby:3.2.0:docile:1.4) \
 rubygem(ruby:3.2.0:docile:1.4.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

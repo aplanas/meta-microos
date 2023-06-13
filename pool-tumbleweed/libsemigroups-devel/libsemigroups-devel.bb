@@ -13,6 +13,7 @@ RPM_HASH = "a117c03810ff988f8af03cf230835b34520dd72c1f49bb7f52c7b30a8a20d41ad421
 RPROVIDES:${PN} += "libsemigroups-devel \
 libsemigroups-devel(aarch-64) \
 pkgconfig(libsemigroups)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsemigroups2 \
 pkgconfig(eigen3) \

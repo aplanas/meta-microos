@@ -13,6 +13,7 @@ pkgconfig(ply-splash-core) \
 pkgconfig(ply-splash-graphics) \
 plymouth-devel \
 plymouth-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libply-boot-client5 \
 libply-splash-core5 \

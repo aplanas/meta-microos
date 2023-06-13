@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-webpack-loader) \
 python39-django-webpack-loader \
 python3dist(django-webpack-loader)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

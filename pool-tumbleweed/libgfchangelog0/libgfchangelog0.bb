@@ -17,6 +17,7 @@ RPM_HASH = "3a1d32ccc2ef17729a5807a3f2b58274ade5d614fbec4a6cf80d58e2c138de911fd9
 RPROVIDES:${PN} += "libgfchangelog.so.0()(64bit) \
 libgfchangelog0 \
 libgfchangelog0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

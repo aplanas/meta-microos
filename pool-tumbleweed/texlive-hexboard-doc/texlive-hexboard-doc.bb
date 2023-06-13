@@ -9,6 +9,7 @@ RPM_HASH = "70ccfd99c95f9b98c738be7b0993b157b9ad732eec5583c4560d28c2359787069d84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hexboard-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "e936d973a4716f75dcf51a5dfaab064f7666b5671253e906062d4f10028a6df98ce7
 RPROVIDES:${PN} += "libbrotlicommon.so.1()(64bit) \
 libbrotlicommon1 \
 libbrotlicommon1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

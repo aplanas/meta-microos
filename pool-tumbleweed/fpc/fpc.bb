@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "config(fpc) \
 fpc \
 fpc(aarch-64) \
 libpas2jslib.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 binutils \
 libc.so.6(GLIBC_2.34)(64bit)"

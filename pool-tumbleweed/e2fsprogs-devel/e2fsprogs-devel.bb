@@ -9,6 +9,7 @@ RPM_HASH = "47d4bebd9c5354742dfb4f2e4ce2f9854ef1472484e950569234bacbe7701866b2f3
 
 RPROVIDES:${PN} += "e2fsprogs-devel \
 e2fsprogs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libblkid-devel \
 libext2fs-devel \
 libuuid-devel"

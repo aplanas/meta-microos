@@ -9,6 +9,7 @@ RPM_HASH = "d498b97f7e3aad61af3b0906c5a0867579ef2e66a9facf8c42fabf6261cdce422e20
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-knot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

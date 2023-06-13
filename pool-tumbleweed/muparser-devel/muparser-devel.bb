@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(muparser) \
 muparser-devel \
 muparser-devel(aarch-64) \
 pkgconfig(muparser)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmuparser2_3_4"
 

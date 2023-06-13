@@ -18,6 +18,7 @@ RPM_HASH = "cb6a75cb8a69c14323b748265325086268fbcbd9a75ddc57d68a938a6f6f2b41ef8c
 RPROVIDES:${PN} += "libsgutils-devel \
 libsgutils-devel(aarch-64) \
 sg3_utils-devel"
+
 RDEPENDS:${PN} += "libsgutils2-1_48-2"
 
 inherit rpm

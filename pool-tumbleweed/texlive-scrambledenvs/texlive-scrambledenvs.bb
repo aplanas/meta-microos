@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(scrambledenvs.sty) \
 texlive-scrambledenvs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

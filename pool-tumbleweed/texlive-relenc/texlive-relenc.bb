@@ -20,6 +20,7 @@ tex(zcmr8d.vf) \
 tex(zcmra.tfm) \
 tex(zcmra.vf) \
 texlive-relenc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

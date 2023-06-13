@@ -9,6 +9,7 @@ RPM_HASH = "681728739915ed27a08597bea5368a3e20a4a1dbb266522a4d0ad53c6a763c6bdbf8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "proj-data-no"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

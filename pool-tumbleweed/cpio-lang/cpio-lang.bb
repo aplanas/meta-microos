@@ -36,6 +36,7 @@ locale(cpio:uk) \
 locale(cpio:vi) \
 locale(cpio:zh_CN) \
 locale(cpio:zh_TW)"
+
 RDEPENDS:${PN} += "cpio"
 
 inherit rpm

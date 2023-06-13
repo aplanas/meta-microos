@@ -15,6 +15,7 @@ nagios-nrpe \
 nagios-nrpe-client \
 nrpe \
 nrpe(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/logger \
 /usr/bin/mkdir \

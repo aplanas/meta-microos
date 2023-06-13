@@ -9,6 +9,7 @@ RPM_HASH = "e77ee914e8baadb176f18cd175aa1483a8394be966c64dff82b4b5e0a5db8b48b518
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hackthefootline-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

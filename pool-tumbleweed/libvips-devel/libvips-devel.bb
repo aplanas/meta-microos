@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libvips-devel \
 libvips-devel(aarch-64) \
 pkgconfig(vips) \
 pkgconfig(vips-cpp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvips42 \
 pkgconfig \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mplcursors) \
 python311-mplcursors \
 python3dist(mplcursors)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-matplotlib"
 

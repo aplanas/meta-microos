@@ -9,6 +9,7 @@ RPM_HASH = "15f957542a7339436116cc1da594c5c7197e69ec46f0c2996d7b4848d069d7c3a23e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dirtytalk-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(conu) \
 python311-conu \
 python3dist(conu)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-docker \
 python311-flexmock \

@@ -16,6 +16,7 @@ RPM_HASH = "125461e90948578bbc0b358abb79da449b9030213fb75e58b6c22ccfb39e49f15937
 
 RPROVIDES:${PN} += "patchutils \
 patchutils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

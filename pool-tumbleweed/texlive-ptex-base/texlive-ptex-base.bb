@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(ascii-jplain.tex) \
 tex(kinsoku.tex) \
 tex(ptex.tex) \
 texlive-ptex-base"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-pacemaker \
 python3.10dist(pacemaker) \
 python3dist(pacemaker)"
+
 RDEPENDS:${PN} += "pacemaker-libs \
 python(abi) \
 python3"

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:font-awesome-rails) \
 rubygem(ruby:3.2.0:font-awesome-rails:4) \
 rubygem(ruby:3.2.0:font-awesome-rails:4.7) \
 rubygem(ruby:3.2.0:font-awesome-rails:4.7.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:railties)"
 

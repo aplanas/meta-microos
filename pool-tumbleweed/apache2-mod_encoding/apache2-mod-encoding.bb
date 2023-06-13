@@ -11,6 +11,7 @@ RPM_HASH = "4d13fe976ef16816be392a2d7b5ecf74a8dddac6513d7fd9fb3eef12c233deccd5e0
 RPROVIDES:${PN} += "apache2-mod_encoding \
 apache2-mod_encoding(aarch-64) \
 config(apache2-mod_encoding)"
+
 RDEPENDS:${PN} += "apache2 \
 apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \

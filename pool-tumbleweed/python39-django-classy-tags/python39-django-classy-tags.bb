@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-classy-tags) \
 python39-django-classy-tags \
 python3dist(django-classy-tags)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Convert::ASN1) \
 perl(Convert::ASN1::parser) \
 perl-Convert-ASN1"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

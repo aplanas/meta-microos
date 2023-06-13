@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "ant-apache-xalan2 \
 config(ant-apache-xalan2) \
 mvn(org.apache.ant:ant-apache-xalan2) \
 mvn(org.apache.ant:ant-apache-xalan2:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \

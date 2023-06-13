@@ -10,6 +10,7 @@ RPM_HASH = "b1078373411487a9f636ecd6121062dd7b9a29e270c8ddbbd1c1106b8433f692a7d1
 RPROVIDES:${PN} += "libstatistics.so()(64bit) \
 vacuum-im-plugins-statistics \
 vacuum-im-plugins-statistics(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

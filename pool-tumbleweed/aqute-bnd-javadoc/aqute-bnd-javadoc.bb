@@ -9,6 +9,7 @@ RPM_HASH = "64e3ac38427245b460da85ea2cecc84e7c2c409adb507858bfc0611cde474420f308
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aqute-bnd-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

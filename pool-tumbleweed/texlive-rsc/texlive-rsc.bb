@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rsc.sty) \
 texlive-rsc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

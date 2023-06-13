@@ -13,6 +13,7 @@ RPM_HASH = "a5a8bf691747929136747a34b7904ae33e5339a612b6919d01de33ce7ad2cc6af649
 RPROVIDES:${PN} += "typelib(GcrUi) \
 typelib-1_0-GcrUi-3 \
 typelib-1_0-GcrUi-3(aarch-64)"
+
 RDEPENDS:${PN} += "libgcr-ui-3.so.1()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

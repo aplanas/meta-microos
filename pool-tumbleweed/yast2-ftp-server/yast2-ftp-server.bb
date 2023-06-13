@@ -14,6 +14,7 @@ application(org.opensuse.yast.FTPServer.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.FTPServer.metainfo.xml) \
 yast2-ftp-server"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-ruby-bindings \
 yast2-users"

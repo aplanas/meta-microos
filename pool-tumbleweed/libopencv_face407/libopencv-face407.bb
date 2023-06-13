@@ -10,6 +10,7 @@ RPM_HASH = "ee02cfe8c8204f2bf806e4dfda1ce535e65c324ecc3cf11b4438aceac78a7a78204a
 RPROVIDES:${PN} += "libopencv_face.so.407()(64bit) \
 libopencv_face407 \
 libopencv_face407(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

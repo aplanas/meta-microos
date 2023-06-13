@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(purifyeps.1) \
 texlive-purifyeps-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

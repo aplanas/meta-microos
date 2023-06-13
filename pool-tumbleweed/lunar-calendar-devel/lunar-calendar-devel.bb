@@ -11,6 +11,7 @@ RPM_HASH = "de72df7ce509669ea7b844c05bb66f0cc30afae673cbedb6c8392ab9113916a89146
 RPROVIDES:${PN} += "lunar-calendar-devel \
 lunar-calendar-devel(aarch-64) \
 pkgconfig(lunar-calendar-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblunar-calendar-3_0-1 \
 pkgconfig(gtk+-3.0) \

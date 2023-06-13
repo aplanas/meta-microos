@@ -10,6 +10,7 @@ RPM_HASH = "d968f4daacebbbe53452c6ab551fc62135887f55b9d88743f5bbbf1e45d9181f88cb
 
 RPROVIDES:${PN} += "kubevirt-manifests \
 kubevirt-manifests(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

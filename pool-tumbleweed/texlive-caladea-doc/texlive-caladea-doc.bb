@@ -9,6 +9,7 @@ RPM_HASH = "5645658f66d6d0435ef4faae006be1b2ef7ea3ce14ca93b5423f2133e13a791a405d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-caladea-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

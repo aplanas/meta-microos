@@ -28,6 +28,7 @@ rpm_macro(py_prefix) \
 rpm_macro(py_requires) \
 rpm_macro(py_sitedir) \
 rpm_macro(python2_package_prefix)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

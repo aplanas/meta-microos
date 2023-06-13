@@ -9,6 +9,7 @@ RPM_HASH = "9d040a9f50eea518108beb2ad0cb87f13b787559836117a1170d2ee37747dc28775c
 
 RPROVIDES:${PN} += "qt6-opcua-examples \
 qt6-opcua-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

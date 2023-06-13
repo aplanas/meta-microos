@@ -9,6 +9,7 @@ RPM_HASH = "902de77b526fcb076780a44e970a8987d55e43821d03d4e0b9de4fdd6561ec7981c0
 
 RPROVIDES:${PN} += "texlive-chklref-bin \
 texlive-chklref-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-chklref"
 
 inherit rpm

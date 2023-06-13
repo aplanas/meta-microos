@@ -13,6 +13,7 @@ lxqt-globalkeys-devel \
 lxqt-globalkeys-devel(aarch-64) \
 pkgconfig(lxqt-globalkeys) \
 pkgconfig(lxqt-globalkeys-ui)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblxqt-globalkeys-ui1 \
 liblxqt-globalkeys1 \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(zope.deprecation) \
 python311-zope.deprecation \
 python3dist(zope.deprecation)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

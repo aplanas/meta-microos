@@ -9,6 +9,7 @@ RPM_HASH = "e7a36b367acab0c4364e1ecaef722c40d5bb7bd27433fe7d17bbbe5b7762793e4225
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dvdisaster-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "3abe14fcffe82a62b4c7d14d0e3d7cf70cafa6dc59895ba2718054628cd21e82642c
 RPROVIDES:${PN} += "ghc-file-embed-prof \
 ghc-file-embed-prof(aarch-64) \
 ghc-prof(file-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw)"
+
 RDEPENDS:${PN} += "ghc-file-embed-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

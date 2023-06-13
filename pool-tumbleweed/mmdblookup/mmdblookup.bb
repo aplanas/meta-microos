@@ -15,6 +15,7 @@ RPM_HASH = "00578fe884f09f24bbaa73d1b82ef8ee30ce544365c11ba5a379ed0dbd474bf4d7d3
 
 RPROVIDES:${PN} += "mmdblookup \
 mmdblookup(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "17be1a4d402cc8a1ed691ca0b30263fbb0e1a6024f8a37f3c210966827efaa8478c7
 
 RPROVIDES:${PN} += "ibmtss-devel \
 ibmtss-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ibmtss \
 libibmtss1"
 

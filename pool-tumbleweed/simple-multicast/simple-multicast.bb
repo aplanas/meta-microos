@@ -15,6 +15,7 @@ RPM_HASH = "88b26739ccc7b2499d874a3027dd1764e0f6a86b8e7f6275ac0fd0f15b1ea57ea302
 
 RPROVIDES:${PN} += "simple-multicast \
 simple-multicast(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

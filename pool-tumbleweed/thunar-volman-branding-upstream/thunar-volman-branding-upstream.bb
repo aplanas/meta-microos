@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(thunar-volman-branding-upstream) \
 thunar-volman-branding \
 thunar-volman-branding-upstream"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

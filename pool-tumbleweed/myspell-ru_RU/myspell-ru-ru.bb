@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:ru_RU) \
 myspell-dictionary \
 myspell-ru_RU \
 myspell-russian"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

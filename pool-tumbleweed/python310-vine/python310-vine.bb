@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-vine \
 python3.10dist(vine) \
 python310-vine \
 python3dist(vine)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

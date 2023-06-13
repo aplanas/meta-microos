@@ -79,6 +79,7 @@ locale(kfloppy:uk) \
 locale(kfloppy:wa) \
 locale(kfloppy:zh_CN) \
 locale(kfloppy:zh_TW)"
+
 RDEPENDS:${PN} += "kfloppy"
 
 inherit rpm

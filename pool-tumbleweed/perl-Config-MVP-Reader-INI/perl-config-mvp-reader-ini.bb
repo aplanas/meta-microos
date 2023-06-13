@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Config::MVP::Reader::INI) \
 perl-Config-MVP-Reader-INI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Config::INI::Reader) \
 perl(Config::MVP) \

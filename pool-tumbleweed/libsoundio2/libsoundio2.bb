@@ -13,6 +13,7 @@ RPM_HASH = "ca6068a06b2d4080bcead8a5826d1a6466e8bd026072cd6eeffcb3556e60ef3f4b49
 RPROVIDES:${PN} += "libsoundio.so.2()(64bit) \
 libsoundio2 \
 libsoundio2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

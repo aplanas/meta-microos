@@ -10,6 +10,7 @@ RPM_HASH = "3a540477ca4f90b284da13ca1d255c9c0a75b3c475754418b162767ebb34ed62ddc9
 RPROVIDES:${PN} += "cmake(KF5ModemManagerQt) \
 libKF5ModemManagerQt-devel \
 libKF5ModemManagerQt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 cmake(Qt5DBus) \
 libKF5ModemManagerQt6 \

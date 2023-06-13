@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-webencodings \
 python3.10dist(webencodings) \
 python310-webencodings \
 python3dist(webencodings)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

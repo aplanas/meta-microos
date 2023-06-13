@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest) \
 python39-pytest \
 python3dist(pytest)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

@@ -10,6 +10,7 @@ RPM_HASH = "75d3a87389c83b5f385adbaf7297073adbd624da8fffa67437b2e2b8b4de3bd67ff2
 RPROVIDES:${PN} += "ghc-iproute-prof \
 ghc-iproute-prof(aarch-64) \
 ghc-prof(iproute-1.7.12-2mj2MFOMRz35bHY4Q7Jvyd)"
+
 RDEPENDS:${PN} += "ghc-iproute-devel \
 ghc-prof(appar-0.1.8-JYpyJYPkUOgKorqU8WSWRv) \
 ghc-prof(base-4.17.1.0) \

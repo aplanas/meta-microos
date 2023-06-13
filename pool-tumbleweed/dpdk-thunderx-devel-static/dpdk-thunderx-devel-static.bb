@@ -10,6 +10,7 @@ RPM_HASH = "22da84d52c08e98cb728c7ba652e909d0f62a495b205af0b5845b1e7b223aeda7136
 
 RPROVIDES:${PN} += "dpdk-thunderx-devel-static \
 dpdk-thunderx-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "dpdk-thunderx-devel"
 
 inherit rpm

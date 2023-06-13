@@ -15,6 +15,7 @@ openwsman-devel \
 pkgconfig(openwsman) \
 pkgconfig(openwsman++) \
 pkgconfig(openwsman-server)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwsman1 \
 libwsman_client5 \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(semantic-version) \
 python311-semantic_version \
 python3dist(semantic-version)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

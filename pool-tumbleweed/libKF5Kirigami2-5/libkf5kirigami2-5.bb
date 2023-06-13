@@ -11,6 +11,7 @@ RPM_HASH = "36e622ef88e02d29a610a3f4c96c2a2c8bb0d71ffa70eee101c6a042609e8c8a30e0
 RPROVIDES:${PN} += "libKF5Kirigami2-5 \
 libKF5Kirigami2-5(aarch-64) \
 libKF5Kirigami2.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

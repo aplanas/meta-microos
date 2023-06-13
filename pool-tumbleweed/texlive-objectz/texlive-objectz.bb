@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(oz.sty) \
 texlive-objectz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

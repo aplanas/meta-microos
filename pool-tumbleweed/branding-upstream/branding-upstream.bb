@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "branding \
 branding-upstream"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

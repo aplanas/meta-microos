@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(athnum.sty) \
 tex(greek.ldf) \
 tex(grmath.sty) \
 texlive-babel-greek"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

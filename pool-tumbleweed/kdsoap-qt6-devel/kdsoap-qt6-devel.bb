@@ -12,6 +12,7 @@ RPM_HASH = "5f5cebcb91fa683749c984aa0a339e888cfef542b054d58d7a6c0e55ace75712c0ff
 RPROVIDES:${PN} += "cmake(KDSoap-qt6) \
 kdsoap-qt6-devel \
 kdsoap-qt6-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

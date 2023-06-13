@@ -9,6 +9,7 @@ RPM_HASH = "922facf6e23167f7ce126fb41a655bc1b8687fd7c5963d809213b516393cb8efe769
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "highlight-zsh-completion"
+
 RDEPENDS:${PN} += "highlight \
 zsh"
 

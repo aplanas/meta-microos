@@ -32,6 +32,7 @@ locale(xscreensaver:zh_CN) \
 locale(xscreensaver:zh_TW) \
 xscreensaver-lang \
 xscreensaver-lang-all"
+
 RDEPENDS:${PN} += "xscreensaver"
 
 inherit rpm

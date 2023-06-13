@@ -10,6 +10,7 @@ RPM_HASH = "9c7c0413bc6e31af5224ecfad515be88e53c3590f0d7868b6398e00b78e27469990c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lomt-sniglet-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

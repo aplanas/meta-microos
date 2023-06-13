@@ -11,6 +11,7 @@ RPM_HASH = "04baaac581a048d1c3a989710ad9d076602d61cfbe375f97b77cb1050c2eda90b8b7
 RPROVIDES:${PN} += "davix-devel \
 davix-devel(aarch-64) \
 pkgconfig(davix)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdavix0"
 

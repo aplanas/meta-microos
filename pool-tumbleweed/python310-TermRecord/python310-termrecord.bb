@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-TermRecord \
 python3.10dist(termrecord) \
 python310-TermRecord \
 python3dist(termrecord)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

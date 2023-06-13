@@ -10,6 +10,7 @@ RPM_HASH = "cd23956934f984caff685dafc162648e0a40cfdbcdab27b44d45c9281f6a8a6d1db4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gfbgraph-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

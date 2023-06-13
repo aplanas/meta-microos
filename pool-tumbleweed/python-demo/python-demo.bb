@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pyth_dmo \
 python-demo \
 python-demo(aarch-64) \
 python2-demo"
+
 RDEPENDS:${PN} += "python-base"
 
 inherit rpm

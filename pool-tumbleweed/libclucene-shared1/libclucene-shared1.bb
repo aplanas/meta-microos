@@ -13,6 +13,7 @@ RPM_HASH = "bb6d9565d961292ba1a43127cb754ee65fd7fdf3fe0ff685e671a54646fc86fc62de
 RPROVIDES:${PN} += "libclucene-shared.so.1()(64bit) \
 libclucene-shared1 \
 libclucene-shared1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

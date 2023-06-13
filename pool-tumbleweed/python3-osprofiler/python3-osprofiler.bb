@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-osprofiler \
 python3.10dist(osprofiler) \
 python3dist(osprofiler)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PrettyTable \

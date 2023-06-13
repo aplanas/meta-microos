@@ -11,6 +11,7 @@ RPM_HASH = "021f93066eb03357e54430eeefa5a153cecd34e52616afe657814ff63e82c81c0fc3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-ambiance-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

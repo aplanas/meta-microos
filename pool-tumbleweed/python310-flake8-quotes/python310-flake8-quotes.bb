@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flake8-quotes \
 python3.10dist(flake8-quotes) \
 python310-flake8-quotes \
 python3dist(flake8-quotes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-flake8"
 

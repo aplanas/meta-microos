@@ -12,6 +12,7 @@ eog-plugin-fullscreenbg(aarch-64) \
 eog-plugins:/usr/lib64/eog/plugins/fullscreenbg.plugin \
 metainfo() \
 metainfo(eog-fullscreenbg.appdata.xml)"
+
 RDEPENDS:${PN} += "eog-plugins-data \
 typelib(Eog) \
 typelib(GObject) \

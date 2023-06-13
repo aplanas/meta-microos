@@ -9,6 +9,7 @@ RPM_HASH = "f1a1131d81a799d8f95b7bef9170cb69d43f7d3c7c0c36baba41a15ea3a1f228d98f
 
 RPROVIDES:${PN} += "proftpd-pgsql \
 proftpd-pgsql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

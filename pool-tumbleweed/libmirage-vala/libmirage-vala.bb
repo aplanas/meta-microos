@@ -13,6 +13,7 @@ RPM_HASH = "a3ff507cecfcd6cbb63744eead0ecb81fa38214395a0e44c1cc643682750bc906e48
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmirage-vala"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "114802a2bf9e6d49281b8e224099763f3489f42899e47cb42aad3555df2f16c0bcf2
 RPROVIDES:${PN} += "gsettings-desktop-schemas-devel \
 gsettings-desktop-schemas-devel(aarch-64) \
 pkgconfig(gsettings-desktop-schemas)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gsettings-desktop-schemas"
 

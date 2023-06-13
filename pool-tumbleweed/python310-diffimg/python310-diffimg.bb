@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-diffimg \
 python3.10dist(diffimg) \
 python310-diffimg \
 python3dist(diffimg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(freetype-py) \
 python39-freetype-py \
 python3dist(freetype-py)"
+
 RDEPENDS:${PN} += "freetype2 \
 python(abi)"
 

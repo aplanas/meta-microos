@@ -10,6 +10,7 @@ RPM_HASH = "c7cc5a99e30942b0be8b9401afcf3fafe6b85bef4161fadabf9706caed084934c2e0
 
 RPROVIDES:${PN} += "guile-bytestructures \
 guile-bytestructures(aarch-64)"
+
 RDEPENDS:${PN} += "guile"
 
 inherit rpm

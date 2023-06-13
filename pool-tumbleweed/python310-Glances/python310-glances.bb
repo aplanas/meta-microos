@@ -18,6 +18,7 @@ python3.10dist(glances) \
 python310-Glances \
 python310-glances \
 python3dist(glances)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

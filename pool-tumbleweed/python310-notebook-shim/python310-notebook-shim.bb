@@ -15,6 +15,7 @@ python3.10dist(notebook-shim) \
 python310-notebook-shim \
 python310-notebook_shim \
 python3dist(notebook-shim)"
+
 RDEPENDS:${PN} += "(python310-jupyter_server >= 1.8 with python310-jupyter_server < 3) \
 jupyter-notebook-shim \
 python(abi)"

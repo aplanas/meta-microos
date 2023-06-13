@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:rails-dom-testing) \
 rubygem(ruby:3.2.0:rails-dom-testing:2) \
 rubygem(ruby:3.2.0:rails-dom-testing:2.0) \
 rubygem(ruby:3.2.0:rails-dom-testing:2.0.3)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:activesupport) \
 rubygem(ruby:3.2.0:nokogiri)"

@@ -15,6 +15,7 @@ RPM_HASH = "045e8a107ee2654812fb792821035d93f290900afdadf0e6f9992d2c6aa781b88f61
 RPROVIDES:${PN} += "ghc-optics-core \
 ghc-optics-core(aarch-64) \
 libHSoptics-core-0.4.1-Awni0JkjGzeFZo6HXDNwcT-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \

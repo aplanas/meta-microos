@@ -9,6 +9,7 @@ RPM_HASH = "2563d98dbf12286b57606c65274471a030e2f28481a8a73781cedb1b320fe8313b40
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unravel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

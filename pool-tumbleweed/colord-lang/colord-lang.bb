@@ -62,6 +62,7 @@ locale(colord:tr) \
 locale(colord:uk) \
 locale(colord:zh_CN) \
 locale(colord:zh_TW)"
+
 RDEPENDS:${PN} += "colord"
 
 inherit rpm

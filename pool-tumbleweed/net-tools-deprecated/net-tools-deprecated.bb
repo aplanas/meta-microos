@@ -14,6 +14,7 @@ RPM_HASH = "303bfecd4156b7ca2030d7c135fbf98316cb0fbf2f0cce80e2c9d440523eb7d2ddd3
 
 RPROVIDES:${PN} += "net-tools-deprecated \
 net-tools-deprecated(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

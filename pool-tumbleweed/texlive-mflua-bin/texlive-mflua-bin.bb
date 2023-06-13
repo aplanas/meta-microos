@@ -9,6 +9,7 @@ RPM_HASH = "0ce746a6127a7e31f94cb2ad2a06b8c53d3f30e7409e96fee5a80357e7bb058e5a44
 
 RPROVIDES:${PN} += "texlive-mflua-bin \
 texlive-mflua-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "25d4071307242d6ce6df6c8ffac6837e3f8276c9822e5b6c471bf8838270da8ffe36
 
 RPROVIDES:${PN} += "subnetcalc \
 subnetcalc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -17,6 +17,7 @@ locale(gtk3:ja) \
 locale(gtk3:ko) \
 locale(gtk3:th) \
 locale(gtk3:zh)"
+
 RDEPENDS:${PN} += "gtk3 \
 gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \

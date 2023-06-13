@@ -9,6 +9,7 @@ RPM_HASH = "3c4483e5e8d4d516140273774d5eb64ac1505948976e4a0608bf13b454e67b2efd30
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-bundled-gems-rpmhelper"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

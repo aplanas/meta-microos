@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-httpdomain \
 python3.10dist(sphinxcontrib-httpdomain) \
 python310-sphinxcontrib-httpdomain \
 python3dist(sphinxcontrib-httpdomain)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-six"

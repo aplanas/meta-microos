@@ -14,6 +14,7 @@ RPM_HASH = "44f258a7278eb1cf2d7f636e5e50473188d9ed49ee2dd5915770299e2bf88881f9e9
 RPROVIDES:${PN} += "gtksourceview-devel \
 gtksourceview-devel(aarch-64) \
 pkgconfig(gtksourceview-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtksourceview-3_0-1 \
 libgtksourceview3 \

@@ -13,6 +13,7 @@ d-spy \
 d-spy(aarch-64) \
 metainfo() \
 metainfo(org.gnome.dspy.appdata.xml)"
+
 RDEPENDS:${PN} += "libadwaita-1.so.0()(64bit) \
 libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

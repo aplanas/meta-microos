@@ -9,6 +9,7 @@ RPM_HASH = "4bf05095d53b37cbc88daff063866ba8f5c5cd8192cc7e477a3e425294f87deec0b5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Spreadsheet-Read-scripts"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(HTML::Entities) \
 perl(Spreadsheet::Read) \

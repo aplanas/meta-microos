@@ -14,6 +14,7 @@ RPM_HASH = "cd378b09849cd140543b54009daf993cd9a642f274a0d07b577db655d94cfee0a841
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "borgbackup-zsh-completion"
+
 RDEPENDS:${PN} += "borgbackup \
 zsh"
 

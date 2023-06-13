@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-dash \
 python3.10dist(dash) \
 python310-dash \
 python3dist(dash)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

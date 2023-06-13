@@ -13,6 +13,7 @@ RPM_HASH = "7d79af4db5fa87d0ea7c0d407c59d1d577652cc5bf77fe7ebfdda7ef6517da062aa6
 RPROVIDES:${PN} += "mpv-devel \
 mpv-devel(aarch-64) \
 pkgconfig(mpv)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmpv2 \
 pkgconfig(alsa) \

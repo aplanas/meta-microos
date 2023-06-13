@@ -10,6 +10,7 @@ RPM_HASH = "636e73e34ddc56ce42af5e2b15a09b97b67f9cf1adf8eda1ddecf94fd2c298ee6d86
 
 RPROVIDES:${PN} += "libnet-doc \
 libnet-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

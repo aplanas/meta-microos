@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "ethereal-devel \
 pkgconfig(wireshark) \
 wireshark-devel \
 wireshark-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 glibc-devel \

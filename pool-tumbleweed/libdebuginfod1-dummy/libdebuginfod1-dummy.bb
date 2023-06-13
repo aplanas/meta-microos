@@ -20,6 +20,7 @@ libdebuginfod.so.1(ELFUTILS_0.188)(64bit) \
 libdebuginfod1 \
 libdebuginfod1-dummy \
 libdebuginfod1-dummy(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

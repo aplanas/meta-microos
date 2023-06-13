@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(typeface.cfg) \
 tex(typeface.sty) \
 texlive-typeface"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

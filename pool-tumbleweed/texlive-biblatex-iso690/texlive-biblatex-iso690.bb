@@ -31,6 +31,7 @@ tex(polish-iso.lbx) \
 tex(slovak-iso.lbx) \
 tex(spanish-iso.lbx) \
 texlive-biblatex-iso690"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

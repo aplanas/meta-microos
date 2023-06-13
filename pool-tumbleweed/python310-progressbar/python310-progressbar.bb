@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-progressbar \
 python3.10dist(progressbar) \
 python310-progressbar \
 python3dist(progressbar)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

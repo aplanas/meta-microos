@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(spelling.sty) \
 texlive-spelling"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/luatex \
 coreutils \

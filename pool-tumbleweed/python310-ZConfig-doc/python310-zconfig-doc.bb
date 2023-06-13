@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ZConfig-doc \
 python310-ZConfig-doc"
+
 RDEPENDS:${PN} += "python310-ZConfig"
 
 inherit rpm

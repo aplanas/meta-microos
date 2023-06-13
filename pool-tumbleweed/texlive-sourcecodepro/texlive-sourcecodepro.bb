@@ -712,6 +712,7 @@ tex(a_yyete5.enc) \
 tex(sourcecodepro-type1-autoinst.sty) \
 tex(sourcecodepro.sty) \
 texlive-sourcecodepro"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

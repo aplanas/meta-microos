@@ -13,6 +13,7 @@ python3.10dist(python-djvulibre) \
 python310-djvulibre \
 python310-djvulibre(aarch-64) \
 python3dist(python-djvulibre)"
+
 RDEPENDS:${PN} += "djvulibre \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

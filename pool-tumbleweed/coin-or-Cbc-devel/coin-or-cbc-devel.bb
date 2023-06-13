@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "coin-or-Cbc-devel \
 coin-or-Cbc-devel(aarch-64) \
 pkgconfig(cbc) \
 pkgconfig(osi-cbc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libCbc3 \
 libOsiCbc3 \

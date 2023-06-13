@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(xsge-lighting) \
 python311-xsge_lighting \
 python3dist(xsge-lighting)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-sge-pygame \
 python311-six"

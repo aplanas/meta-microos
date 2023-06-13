@@ -58,6 +58,7 @@ locale(gbrainy:vi) \
 locale(gbrainy:zh_CN) \
 locale(gbrainy:zh_HK) \
 locale(gbrainy:zh_TW)"
+
 RDEPENDS:${PN} += "gbrainy"
 
 inherit rpm

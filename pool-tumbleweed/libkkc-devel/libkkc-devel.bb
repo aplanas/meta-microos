@@ -12,6 +12,7 @@ RPM_HASH = "06342099535df273e532aecf70a5afc8e6bb3b13bb7c7a7f2d9f6e1e4a0a9168e901
 RPROVIDES:${PN} += "libkkc-devel \
 libkkc-devel(aarch-64) \
 pkgconfig(kkc-1.0)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libkkc2 \

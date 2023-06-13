@@ -9,6 +9,7 @@ RPM_HASH = "5eeddb6b6e723e2fcf028cfcb083aafa5a574759c2caa87e18bc9abe36b8f91bfbc0
 
 RPROVIDES:${PN} += "zathura-fish-completion \
 zathura-fish-completion(aarch-64)"
+
 RDEPENDS:${PN} += "fish \
 zathura"
 

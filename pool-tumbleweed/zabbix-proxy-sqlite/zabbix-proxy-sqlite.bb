@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "zabbix \
 zabbix-proxy-sqlite \
 zabbix-proxy-sqlite(aarch-64) \
 zabbix_proxy_binary"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

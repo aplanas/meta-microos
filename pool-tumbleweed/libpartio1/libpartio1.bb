@@ -11,6 +11,7 @@ RPM_HASH = "b51ebe0988a60027f7f0a869be3ef28ea259032f20af6af569746e4b6dbcf118c08b
 RPROVIDES:${PN} += "libpartio.so.1()(64bit) \
 libpartio1 \
 libpartio1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

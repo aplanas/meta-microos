@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(oldgerm-otf.sty) \
 tex(yfonts-otf.sty) \
 texlive-yfonts-otf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

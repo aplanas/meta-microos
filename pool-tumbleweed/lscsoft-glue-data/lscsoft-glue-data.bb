@@ -14,6 +14,7 @@ RPM_HASH = "f21d5efe28367b0d3555b3ececde4b1f8e8256199f876d230db1cc2243cfd42fa670
 
 RPROVIDES:${PN} += "lscsoft-glue-data \
 lscsoft-glue-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

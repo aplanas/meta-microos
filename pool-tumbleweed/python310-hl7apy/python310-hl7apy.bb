@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-hl7apy \
 python3.10dist(hl7apy) \
 python310-hl7apy \
 python3dist(hl7apy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

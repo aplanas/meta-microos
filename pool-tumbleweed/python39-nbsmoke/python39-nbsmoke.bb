@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(nbsmoke) \
 python39-jupyter_nbsmoke \
 python39-nbsmoke \
 python3dist(nbsmoke)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-ipykernel \
 python39-jupyter-client \

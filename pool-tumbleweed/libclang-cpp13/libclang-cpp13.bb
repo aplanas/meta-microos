@@ -13,6 +13,7 @@ RPM_HASH = "587a5c23b2c857012ac82139992ef160cd68a15e9ad7cda0f7d3823043d78aea880f
 RPROVIDES:${PN} += "libclang-cpp.so.13()(64bit) \
 libclang-cpp13 \
 libclang-cpp13(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

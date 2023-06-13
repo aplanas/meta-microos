@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(txtorcon) \
 python311-txtorcon \
 python3dist(txtorcon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Automat \
 python311-Twisted-tls \

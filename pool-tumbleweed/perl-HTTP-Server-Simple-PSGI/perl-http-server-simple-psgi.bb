@@ -16,6 +16,7 @@ perl(HTTP::Server::Simple::PSGI::Writer) \
 perl(Plack::Handler::HTTP::Server::Simple) \
 perl(Plack::Handler::HTTP::Server::Simple::PSGIServer) \
 perl-HTTP-Server-Simple-PSGI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Server::Simple)"
 

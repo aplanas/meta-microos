@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(transparent-nometadata.sty) \
 tex(transparent.sty) \
 texlive-transparent"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

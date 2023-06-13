@@ -9,6 +9,7 @@ RPM_HASH = "2942066268d14ac69c5c4a66295edeae2268f96076493a53b80c6384df4024895734
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-askmaps-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

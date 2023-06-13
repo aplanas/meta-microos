@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-queuelib \
 python3.10dist(queuelib) \
 python310-queuelib \
 python3dist(queuelib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310"
 

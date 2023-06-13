@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(curtsies) \
 python311-curtsies \
 python3dist(curtsies)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-blessed \
 python311-cwcwidth"

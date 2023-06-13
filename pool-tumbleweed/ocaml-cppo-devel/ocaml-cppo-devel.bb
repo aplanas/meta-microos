@@ -11,6 +11,7 @@ RPM_HASH = "9dff52c2a50dcf44e561aadcd15def73c737a7feab71b2689a01a3a6064cfefce408
 RPROVIDES:${PN} += "ocaml-cppo-devel \
 ocaml-cppo-devel(aarch-64) \
 ocamlfind(cppo)"
+
 RDEPENDS:${PN} += "ocaml-cppo"
 
 inherit rpm

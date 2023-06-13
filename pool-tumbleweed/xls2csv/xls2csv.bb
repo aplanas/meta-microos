@@ -10,6 +10,7 @@ RPM_HASH = "39de193f77cae49a28385ebfe4f9fdfe4421364edfbe6b13d0097a5931ba4fe9d83d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xls2csv"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
 perl(Locale::Recode) \

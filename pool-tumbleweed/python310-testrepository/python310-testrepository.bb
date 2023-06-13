@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-testrepository \
 python3.10dist(testrepository) \
 python310-testrepository \
 python3dist(testrepository)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

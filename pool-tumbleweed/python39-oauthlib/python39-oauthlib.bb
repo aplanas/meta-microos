@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(oauthlib) \
 python39-oauthlib \
 python3dist(oauthlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyJWT \
 python39-blinker \

@@ -51,6 +51,7 @@ perl(OpenIPMI::ipmi_solparm_t) \
 perl(OpenIPMI::ipmi_user_t) \
 perl(OpenIPMI::strconstarray) \
 perl(OpenIPMIc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

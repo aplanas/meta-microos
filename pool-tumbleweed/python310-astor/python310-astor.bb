@@ -33,6 +33,7 @@ RPROVIDES:${PN} += "python3-astor \
 python3.10dist(astor) \
 python310-astor \
 python3dist(astor)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

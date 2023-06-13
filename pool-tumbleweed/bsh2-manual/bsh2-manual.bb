@@ -9,6 +9,7 @@ RPM_HASH = "b3533ec95bd18eaaf42396c8456558fda598f7d5a9517eaf80ac79c29652a8c9971b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bsh2-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

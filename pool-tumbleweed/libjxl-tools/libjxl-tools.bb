@@ -9,6 +9,7 @@ RPM_HASH = "7c3827756511ab2ebe13380c4fb163d6e8a16952a91020135204a1753d2abed1a0dd
 
 RPROVIDES:${PN} += "libjxl-tools \
 libjxl-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbrotlidec.so.1()(64bit) \

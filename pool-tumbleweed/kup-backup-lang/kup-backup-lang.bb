@@ -37,6 +37,7 @@ locale(kup-backup:sv) \
 locale(kup-backup:uk) \
 locale(kup-backup:zh_CN) \
 locale(kup-backup:zh_TW)"
+
 RDEPENDS:${PN} += "kup-backup"
 
 inherit rpm

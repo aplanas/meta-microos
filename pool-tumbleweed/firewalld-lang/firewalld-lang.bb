@@ -62,6 +62,7 @@ locale(firewalld:tr) \
 locale(firewalld:uk) \
 locale(firewalld:zh_CN) \
 locale(firewalld:zh_TW)"
+
 RDEPENDS:${PN} += "firewalld"
 
 inherit rpm

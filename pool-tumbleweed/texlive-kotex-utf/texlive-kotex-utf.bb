@@ -33,6 +33,7 @@ tex(kotex.cfg) \
 tex(kotexutf.sty) \
 tex(lucuhcmj.fd) \
 texlive-kotex-utf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

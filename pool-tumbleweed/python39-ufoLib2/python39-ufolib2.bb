@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ufolib2) \
 python39-ufoLib2 \
 python3dist(ufolib2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-FontTools \
 python39-attrs \

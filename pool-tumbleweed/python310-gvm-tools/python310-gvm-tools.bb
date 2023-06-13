@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-gvm-tools \
 python3.10dist(gvm-tools) \
 python310-gvm-tools \
 python3dist(gvm-tools)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

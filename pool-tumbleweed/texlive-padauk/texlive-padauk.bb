@@ -10,6 +10,7 @@ RPM_HASH = "5f0d061611357555e41720ba291201daec0b5027fe359b9f160694b982232b1d155a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-padauk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

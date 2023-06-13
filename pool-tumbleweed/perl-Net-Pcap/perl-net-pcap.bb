@@ -17,6 +17,7 @@ RPM_HASH = "6d261d50432932a23ef5b655f699cccdd45717f0d034ee8a29783e0aecb3105c946a
 RPROVIDES:${PN} += "perl(Net::Pcap) \
 perl-Net-Pcap \
 perl-Net-Pcap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

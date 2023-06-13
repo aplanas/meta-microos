@@ -17,6 +17,7 @@ python3.10dist(korean-lunar-calendar) \
 python310-korean-lunar-calendar \
 python310-korean_lunar_calendar \
 python3dist(korean-lunar-calendar)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

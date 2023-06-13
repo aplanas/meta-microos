@@ -24,6 +24,7 @@ mvn(org.bouncycastle:bcpg-jdk18:pom:) \
 mvn(org.bouncycastle:bcpg-jdk18on) \
 mvn(org.bouncycastle:bcpg-jdk18on:pom:) \
 osgi(bcpg)"
+
 RDEPENDS:${PN} += "bouncycastle \
 java-headless \
 javapackages-filesystem \

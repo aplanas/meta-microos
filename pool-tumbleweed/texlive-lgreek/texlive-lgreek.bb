@@ -14,6 +14,7 @@ tex(LGcmtt.fd) \
 tex(LGenc.def) \
 tex(lgreek.sty) \
 texlive-lgreek"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

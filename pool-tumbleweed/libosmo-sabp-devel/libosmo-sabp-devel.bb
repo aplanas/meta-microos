@@ -13,6 +13,7 @@ RPM_HASH = "31e60ac9523e90ae402b588000d954882e68ae0e47a100093bdffba6b22ff98edb29
 RPROVIDES:${PN} += "libosmo-sabp-devel \
 libosmo-sabp-devel(aarch-64) \
 pkgconfig(libosmo-sabp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-sabp1"
 

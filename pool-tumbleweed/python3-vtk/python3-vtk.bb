@@ -22,6 +22,7 @@ python3-vtk \
 python3-vtk(aarch-64) \
 python3.10dist(vtk) \
 python3dist(vtk)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

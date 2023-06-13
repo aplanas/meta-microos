@@ -9,6 +9,7 @@ RPM_HASH = "90386ba28c2d0195c3da1966ed94a18afbfc6a8c9565e2d294ed88e4b5a047d64262
 
 RPROVIDES:${PN} += "snapper-testsuite \
 snapper-testsuite(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

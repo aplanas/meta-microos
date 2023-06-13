@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libosmvendor.so.5()(64bit) \
 libosmvendor.so.5(OSMVENDOR_2.0)(64bit) \
 libosmvendor5 \
 libosmvendor5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

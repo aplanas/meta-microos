@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(latino-sine-flexione.sty) \
 texlive-latino-sine-flexione"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

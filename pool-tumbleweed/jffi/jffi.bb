@@ -12,6 +12,7 @@ jffi(aarch-64) \
 mvn(com.github.jnr:jffi) \
 mvn(com.github.jnr:jffi:pom:) \
 osgi(com.github.jnr.jffi)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nevelok.sty) \
 texlive-nevelok"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

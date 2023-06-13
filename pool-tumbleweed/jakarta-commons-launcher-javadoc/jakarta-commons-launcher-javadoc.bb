@@ -13,6 +13,7 @@ RPM_HASH = "994ee2434b6af3ad4b778d2bcb8321ea94176f2b4ad806f0ed9bd248c99bd622e0b5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-commons-launcher-javadoc"
+
 RDEPENDS:${PN} += "coreutils"
 
 inherit rpm

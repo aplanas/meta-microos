@@ -14,6 +14,7 @@ RPM_HASH = "7337e79d26802ccd58e7cf8fd2262edc88723d84016560dd53e4fd2efe7efb582fa2
 RPROVIDES:${PN} += "libXbgi.so.1()(64bit) \
 libXbgi1 \
 libXbgi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

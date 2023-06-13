@@ -10,6 +10,7 @@ RPM_HASH = "6135360caa74966f7f5ccc0fc6e5d1a6ff6c72809ca00c8e900e15d76d6d8ec25721
 RPROVIDES:${PN} += "fcitx-cloudpinyin \
 fcitx-cloudpinyin(aarch-64) \
 locale(fcitx:zh_CN;zh_SG)"
+
 RDEPENDS:${PN} += "fcitx \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcurl.so.4()(64bit)"

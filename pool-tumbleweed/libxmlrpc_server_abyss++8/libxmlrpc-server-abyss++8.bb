@@ -11,6 +11,7 @@ RPM_HASH = "982dd6dab770eda977e962c5ef44c6006a1e771ba50cf4e1b196d276dd53d3be7729
 RPROVIDES:${PN} += "libxmlrpc_server_abyss++.so.8()(64bit) \
 libxmlrpc_server_abyss++8 \
 libxmlrpc_server_abyss++8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

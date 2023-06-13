@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tensorpac) \
 python311-tensorpac \
 python3dist(tensorpac)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-joblib \
 python311-numpy \

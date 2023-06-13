@@ -9,6 +9,7 @@ RPM_HASH = "433c57c098a046281b92064ccce34170bbbc82b6dc0930a212a244069392ae91975a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcr-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

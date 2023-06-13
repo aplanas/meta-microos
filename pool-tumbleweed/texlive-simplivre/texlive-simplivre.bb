@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(simplivre.cls) \
 texlive-simplivre"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

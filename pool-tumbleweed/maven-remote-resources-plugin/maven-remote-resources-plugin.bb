@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-remote-resources-plugin \
 mvn(org.apache.maven.plugins:maven-remote-resources-plugin) \
 mvn(org.apache.maven.plugins:maven-remote-resources-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

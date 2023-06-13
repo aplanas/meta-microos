@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(udica) \
 python3dist(udica) \
 udica"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 container-selinux \
 python(abi) \

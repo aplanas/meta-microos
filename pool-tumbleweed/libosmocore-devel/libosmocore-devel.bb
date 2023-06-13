@@ -14,6 +14,7 @@ RPM_HASH = "82aa9f18c1f210035f407c820c1ed013e7aedee3683faa4971ddb142320a915fd422
 RPROVIDES:${PN} += "libosmocore-devel \
 libosmocore-devel(aarch-64) \
 pkgconfig(libosmocore)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmocore20 \
 libtalloc-devel \

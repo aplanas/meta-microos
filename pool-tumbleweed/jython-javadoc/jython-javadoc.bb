@@ -27,6 +27,7 @@ RPM_HASH = "b6adf048af8a8d744d89d210b97a204d5a17252c5f7e70c481ee37a0088ea19dee21
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jython-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-zope.deferredimport \
 python3.10dist(zope.deferredimport) \
 python310-zope.deferredimport \
 python3dist(zope.deferredimport)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-zope.proxy"
 

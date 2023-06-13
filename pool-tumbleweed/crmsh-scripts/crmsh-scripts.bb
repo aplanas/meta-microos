@@ -11,6 +11,7 @@ RPM_HASH = "18a2636b1195e82e95b9482f221dfdd0d16a860f9de3881430888ceb6219e789d0e8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crmsh-scripts"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

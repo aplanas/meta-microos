@@ -15,6 +15,7 @@ RPM_HASH = "48fc66d2c0ff6b5eeb24e66352a6589ce74db3b5f9772ded582319edca6efdf97788
 RPROVIDES:${PN} += "libxdg-basedir-devel \
 libxdg-basedir-devel(aarch-64) \
 pkgconfig(libxdg-basedir)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxdg-basedir1"
 

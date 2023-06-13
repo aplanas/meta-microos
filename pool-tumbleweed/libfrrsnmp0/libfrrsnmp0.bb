@@ -10,6 +10,7 @@ RPM_HASH = "9e8d8365e9bd2fba4422932eef621bc24bc81f9f244a515d9166bbb4fd876fc47030
 RPROVIDES:${PN} += "libfrrsnmp.so.0()(64bit) \
 libfrrsnmp0 \
 libfrrsnmp0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

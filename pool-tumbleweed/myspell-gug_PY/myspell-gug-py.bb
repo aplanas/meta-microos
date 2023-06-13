@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(libreoffice:gug_PY) \
 locale(seamonkey-spellchecker:gug_PY) \
 myspell-dictionary \
 myspell-gug_PY"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-gug"
 

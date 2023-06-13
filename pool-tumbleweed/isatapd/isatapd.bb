@@ -12,6 +12,7 @@ RPM_HASH = "7f40e4e77dc8392b89d32a1fa2f6a25a8139ac392b6d982a8ee9cf609d37922a2b17
 
 RPROVIDES:${PN} += "isatapd \
 isatapd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

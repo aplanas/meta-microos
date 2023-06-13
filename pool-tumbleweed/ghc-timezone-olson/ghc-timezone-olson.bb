@@ -19,6 +19,7 @@ RPM_HASH = "55933c77286b8b69ad51e64208fa67446b9ae17ddee0a8267436f19c5c3b918654cc
 RPROVIDES:${PN} += "ghc-timezone-olson \
 ghc-timezone-olson(aarch-64) \
 libHStimezone-olson-0.2.1-GQQU9hvoQrwIpL0LHxa8ME-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "499ecbbd0ea731e9f02c7bae1a3a26adfd1e88557971761b212f758860e953007b38
 RPROVIDES:${PN} += "libsepol-devel \
 libsepol-devel(aarch-64) \
 pkgconfig(libsepol)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libsepol2"

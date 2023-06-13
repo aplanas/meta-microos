@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "perl(Log::Dispatch::FileRotate) \
 perl(Log::Dispatch::FileRotate::Flock) \
 perl(Log::Dispatch::FileRotate::Mutex) \
 perl-Log-Dispatch-FileRotate"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Date::Manip) \
 perl(Log::Dispatch) \

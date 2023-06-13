@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "hdf5-devel-data \
 hdf5-devel-data(aarch-64) \
 rpm_macro(_hdf5_sonum) \
 rpm_macro(_hdf5_version)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

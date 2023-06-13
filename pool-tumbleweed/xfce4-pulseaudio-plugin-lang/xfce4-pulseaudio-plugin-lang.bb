@@ -55,6 +55,7 @@ locale(xfce4-pulseaudio-plugin:zh_TW) \
 xfce4-panel-plugin-pulseaudio-lang \
 xfce4-pulseaudio-plugin-lang \
 xfce4-pulseaudio-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-pulseaudio-plugin"
 
 inherit rpm

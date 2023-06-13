@@ -15,6 +15,7 @@ RPM_HASH = "122cd3703c52d537cc07afb1e2e6f323fade27b268f3f5fe82bba52a4b6127b4cef6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcuber-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

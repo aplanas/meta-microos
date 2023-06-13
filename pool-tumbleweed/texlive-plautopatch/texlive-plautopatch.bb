@@ -24,6 +24,7 @@ tex(plsiunitx.sty) \
 tex(pxpgfrcs.sty) \
 tex(pxstfloats.sty) \
 texlive-plautopatch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

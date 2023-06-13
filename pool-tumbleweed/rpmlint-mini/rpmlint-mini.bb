@@ -10,6 +10,7 @@ RPM_HASH = "a6a5b6bf9533ea574dd07d5817e9f305dcaed8460653eb86e480ed1f8e6a753219b6
 
 RPROVIDES:${PN} += "rpmlint-mini \
 rpmlint-mini(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 cpio \

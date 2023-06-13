@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libzmq-devel \
 pkgconfig(libzmq) \
 zeromq-devel \
 zeromq-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libzmq5 \
 pkgconfig(libsodium) \

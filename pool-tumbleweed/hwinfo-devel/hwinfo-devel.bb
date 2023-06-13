@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "hwinfo-devel \
 hwinfo-devel(aarch-64) \
 libhddev \
 pkgconfig(hwinfo)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

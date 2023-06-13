@@ -9,6 +9,7 @@ RPM_HASH = "793a4c3c16fa374756b831824e809d9bdd2aeaca56e8e062bd018d7bc23e7ab7875e
 
 RPROVIDES:${PN} += "OpenCSD \
 OpenCSD(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

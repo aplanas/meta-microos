@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Parse::Distname) \
 perl-Parse-Distname"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

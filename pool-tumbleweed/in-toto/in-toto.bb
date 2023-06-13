@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "in-toto \
 python3.10dist(in-toto) \
 python3dist(in-toto)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-attrs \

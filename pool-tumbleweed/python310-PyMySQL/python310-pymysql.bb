@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-PyMySQL \
 python3.10dist(pymysql) \
 python310-PyMySQL \
 python3dist(pymysql)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography"
 

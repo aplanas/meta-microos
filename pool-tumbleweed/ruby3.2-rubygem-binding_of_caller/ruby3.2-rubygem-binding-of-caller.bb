@@ -20,6 +20,7 @@ rubygem(ruby:3.2.0:binding_of_caller) \
 rubygem(ruby:3.2.0:binding_of_caller:1) \
 rubygem(ruby:3.2.0:binding_of_caller:1.0) \
 rubygem(ruby:3.2.0:binding_of_caller:1.0.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:debug_inspector)"
 

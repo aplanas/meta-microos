@@ -9,6 +9,7 @@ RPM_HASH = "24f62d0d993ac9d509e5a51f92a5f2e43eaa06dbfa29e3f87d274a5349d5394d1a9e
 
 RPROVIDES:${PN} += "sisctrl \
 sisctrl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

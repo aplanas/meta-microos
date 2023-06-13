@@ -15,6 +15,7 @@ RPM_HASH = "82f676a52dc083b23536c612e960a71cca617b35faa8db6c0a019909be7fa11c82a3
 
 RPROVIDES:${PN} += "plib-devel \
 plib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libplib0 \
 pkgconfig(gl)"

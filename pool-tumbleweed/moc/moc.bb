@@ -48,6 +48,7 @@ libvorbis_decoder.so()(64bit) \
 libwavpack_decoder.so()(64bit) \
 moc \
 moc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \

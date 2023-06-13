@@ -9,6 +9,7 @@ RPM_HASH = "a551c4020970b1264542b33ffd85f747199f218059ae3a48b9405d721a8e67c153c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dashbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

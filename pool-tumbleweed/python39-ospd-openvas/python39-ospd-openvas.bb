@@ -13,6 +13,7 @@ python3.9dist(ospd-openvas) \
 python39-ospd \
 python39-ospd-openvas \
 python3dist(ospd-openvas)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

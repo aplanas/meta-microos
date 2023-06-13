@@ -76,6 +76,7 @@ locale(korganizer:uk) \
 locale(korganizer:wa) \
 locale(korganizer:zh_CN) \
 locale(korganizer:zh_TW)"
+
 RDEPENDS:${PN} += "korganizer"
 
 inherit rpm

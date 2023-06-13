@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-semi \
 semi-emacs"
+
 RDEPENDS:${PN} += "emacs \
 emacs-flim \
 emacs_program"

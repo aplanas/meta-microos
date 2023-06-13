@@ -11,6 +11,7 @@ RPM_HASH = "5e6acc96f8b83519388be5b70085182bbb2d45bc0e66a7eb715ebe69dfa7aa0d87b1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-annotate"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

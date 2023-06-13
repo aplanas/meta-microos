@@ -14,6 +14,7 @@ libnautilus-extension4 \
 libnautilus-extension4(aarch-64) \
 libnautilus-image-properties.so()(64bit) \
 libtotem-properties-page.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

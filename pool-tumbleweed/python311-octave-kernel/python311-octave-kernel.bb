@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(octave-kernel) \
 python311-jupyter_octave_kernel \
 python311-octave-kernel \
 python3dist(octave-kernel)"
+
 RDEPENDS:${PN} += "jupyter-octave-kernel \
 python(abi) \
 python311-ipykernel \

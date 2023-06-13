@@ -10,6 +10,7 @@ RPM_HASH = "b8c139c8b30384514348f6c18c326e5349546bdea3292eee5d9d040689172a44c4af
 
 RPROVIDES:${PN} += "bosh \
 bosh(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -22,6 +22,7 @@ libsoup2-devel \
 libsoup2-devel(aarch-64) \
 pkgconfig(libsoup-2.4) \
 pkgconfig(libsoup-gnome-2.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsoup-2_4-1 \
 pkgconfig(gio-2.0) \

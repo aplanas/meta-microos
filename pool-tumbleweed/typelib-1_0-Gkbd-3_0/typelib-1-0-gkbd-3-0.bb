@@ -13,6 +13,7 @@ RPM_HASH = "a563bb7a12b9adaff3d7d11f3f10e71b3d1b687375271a44a492432a974a899b212c
 RPROVIDES:${PN} += "typelib(Gkbd) \
 typelib-1_0-Gkbd-3_0 \
 typelib-1_0-Gkbd-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgnomekbd.so.8()(64bit) \
 libgnomekbdui.so.8()(64bit) \
 typelib(Atk) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5OpenGLExtensions) \
 libQt5OpenGLExtensions-devel-static \
 libQt5OpenGLExtensions-devel-static(aarch-64) \
 pkgconfig(Qt5OpenGLExtensions)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Core-devel \
 libQt5Gui-devel \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fancyslides.cls) \
 texlive-fancyslides"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

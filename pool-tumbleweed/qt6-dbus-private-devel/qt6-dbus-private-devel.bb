@@ -10,6 +10,7 @@ RPM_HASH = "47543315e4074c32a75245f4a869c7c287f2e8378137b1f4db6e79270cd1712a2724
 
 RPROVIDES:${PN} += "qt6-dbus-private-devel \
 qt6-dbus-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6DBus) \
 qt6-core-private-devel"
 

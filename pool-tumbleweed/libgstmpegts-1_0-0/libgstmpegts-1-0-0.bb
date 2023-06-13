@@ -14,6 +14,7 @@ RPM_HASH = "8e0c6cb1898d824214dc44deb318d2b89ad0e1478f529994229f44aa62cbe5b15bfa
 RPROVIDES:${PN} += "libgstmpegts-1.0.so.0()(64bit) \
 libgstmpegts-1_0-0 \
 libgstmpegts-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

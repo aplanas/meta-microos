@@ -12,6 +12,7 @@ RPM_HASH = "756601796b0c69cc68c8e5d0d75f1778f50d27aa284c33b980ddb25e49d8843f0a63
 
 RPROVIDES:${PN} += "onioncat \
 onioncat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

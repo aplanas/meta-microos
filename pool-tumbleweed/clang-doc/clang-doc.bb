@@ -13,6 +13,7 @@ RPM_HASH = "614ecbee96c8dfe204cf3be9453c22686f5772d3680cf08dd185ed249733ed63f527
 
 RPROVIDES:${PN} += "clang-doc \
 clang-doc(aarch-64)"
+
 RDEPENDS:${PN} += "clang \
 clang16-doc"
 

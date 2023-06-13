@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Tk::Clock) \
 perl-Tk-Clock"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::More) \
 perl(Test::NoWarnings) \

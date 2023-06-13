@@ -9,6 +9,7 @@ RPM_HASH = "4cc1b7c47ab30c9c917d0db25edd088a925e4b2bdb053d438b94da9f4680c8dd8f68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zbmath-review-template-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -24,6 +24,7 @@ tex(auncl10.tfm) \
 tex(aunclb10.tfm) \
 tex(b1auncl.fd) \
 texlive-auncial-new"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

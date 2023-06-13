@@ -16,6 +16,7 @@ python3.10dist(owslib) \
 python310-OWSLib \
 python310-owslib \
 python3dist(owslib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-lxml \

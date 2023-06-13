@@ -12,6 +12,7 @@ RPM_HASH = "27d5eb9b5bb4c6fb7b202762cfe4a71696dd2a53e076105b8792afbf8e26a8068146
 
 RPROVIDES:${PN} += "kismet-capture-linux-bluetooth \
 kismet-capture-linux-bluetooth(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

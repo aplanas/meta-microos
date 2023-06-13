@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "at-spi-sharp \
 mono(at-spi-sharp)"
+
 RDEPENDS:${PN} += "mono(Mono.Posix) \
 mono(System) \
 mono(System.Core) \

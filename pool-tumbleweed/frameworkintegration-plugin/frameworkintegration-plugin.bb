@@ -13,6 +13,7 @@ RPM_HASH = "efe5e2aa4affa4fbd07d04888feb2c4c9ecacb5debbdc2ad6354228c948acb8a9cb5
 
 RPROVIDES:${PN} += "frameworkintegration-plugin \
 frameworkintegration-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libAppStreamQt.so.2()(64bit) \

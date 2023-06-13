@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libluajit-5.1.so.2()(64bit) \
 libluajit-5_1-2 \
 libluajit-5_1-2(aarch-64) \
 luajit-5_1-2"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

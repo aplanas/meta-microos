@@ -9,6 +9,7 @@ RPM_HASH = "b64e9af99a2aab9e8a3bc9226376e7a75e2af17e5630e033267edd40301688dc638b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-cliff-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

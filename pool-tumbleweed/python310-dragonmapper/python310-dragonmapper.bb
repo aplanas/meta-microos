@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dragonmapper \
 python3.10dist(dragonmapper) \
 python310-dragonmapper \
 python3dist(dragonmapper)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-hanzidentifier \
 python310-zhon"

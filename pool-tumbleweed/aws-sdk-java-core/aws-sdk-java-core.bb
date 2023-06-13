@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "aws-sdk-java-core \
 mvn(com.amazonaws:aws-java-sdk-core) \
 mvn(com.amazonaws:aws-java-sdk-core:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-databind) \

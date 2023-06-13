@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KF5MailCommon) \
 cmake(KPim5MailCommon) \
 mailcommon-devel \
 mailcommon-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Completion) \
 cmake(KF5PimCommon) \
 cmake(KPim5Akonadi) \

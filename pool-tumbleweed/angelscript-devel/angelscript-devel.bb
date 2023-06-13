@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "angelscript-devel \
 angelscript-devel(aarch-64) \
 pkgconfig(angelscript) \
 pkgconfig(angelscript_addons)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libangelscript2_35_1 \
 libangelscript_addons2_35_1 \

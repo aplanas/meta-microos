@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(docmfp.sty) \
 texlive-docmfp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

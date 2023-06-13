@@ -9,6 +9,7 @@ RPM_HASH = "a47386a61e4d4896da2c613fd008eeb480d63c469a5f7bddb6f122d001b05054f39c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eeyek-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

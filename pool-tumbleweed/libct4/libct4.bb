@@ -12,6 +12,7 @@ RPM_HASH = "8de3151d7eb90f38945a55ac28579b74edfac286793f9d26e7bb5965256b9b1289ab
 RPROVIDES:${PN} += "libct.so.4()(64bit) \
 libct4 \
 libct4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

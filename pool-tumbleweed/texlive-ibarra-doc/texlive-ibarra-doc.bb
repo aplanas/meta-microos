@@ -9,6 +9,7 @@ RPM_HASH = "4d29b21c3bb96d1cb62142e1778f9ea0055b0f938a5431c7a3a0e4e6db0f480326cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ibarra-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

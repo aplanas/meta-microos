@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(hyph-id.tex) \
 tex(loadhyph-id.tex) \
 texlive-hyphen-indonesian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -73,6 +73,7 @@ perl(SOAP::XMLSchema2001::Serializer) \
 perl(SOAP::XMLSchema::Serializer) \
 perl(SOAP::XMLSchemaApacheSOAP::Deserializer) \
 perl-SOAP-Lite"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Inspector) \

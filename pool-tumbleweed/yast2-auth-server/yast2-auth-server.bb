@@ -15,6 +15,7 @@ application(org.opensuse.yast.LDAPServer.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.LDAPServer.metainfo.xml) \
 yast2-auth-server"
+
 RDEPENDS:${PN} += "net-tools \
 yast2 \
 yast2-ruby-bindings"

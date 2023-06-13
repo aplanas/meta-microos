@@ -9,6 +9,7 @@ RPM_HASH = "729dce2b13a04ee83af0433d50eb7493699eb917822f5d0787b96350da7b7138d8de
 
 RPROVIDES:${PN} += "seahorse-daemon \
 seahorse-daemon(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatk-1.0.so.0()(64bit) \

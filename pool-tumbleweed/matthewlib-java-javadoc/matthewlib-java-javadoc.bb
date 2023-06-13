@@ -22,6 +22,7 @@ RPM_HASH = "741e7c9a0adb5034eab6dc6201ca1e15121cf9d2dadfd3059c0dbbcbc14c71edc0f7
 
 RPROVIDES:${PN} += "matthewlib-java-javadoc \
 matthewlib-java-javadoc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

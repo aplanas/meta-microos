@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "build-key \
 staging-build-key"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

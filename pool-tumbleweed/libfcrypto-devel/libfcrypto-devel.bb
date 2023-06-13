@@ -13,6 +13,7 @@ RPM_HASH = "11acf5a32ca9d87167ab8acfd3ca16eb3da56a295ea776167d98a8092cefb121c143
 RPROVIDES:${PN} += "libfcrypto-devel \
 libfcrypto-devel(aarch-64) \
 pkgconfig(libfcrypto)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfcrypto1"
 

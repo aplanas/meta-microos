@@ -25,6 +25,7 @@ tex(wasyb10.tfm) \
 tex(wasyfont.tex) \
 tex(wasysl10.tfm) \
 texlive-wasy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

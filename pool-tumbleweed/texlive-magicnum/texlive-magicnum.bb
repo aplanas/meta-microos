@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(magicnum.sty) \
 texlive-magicnum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

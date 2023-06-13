@@ -16,6 +16,7 @@ python3-jupyter_nbdime-git \
 python3-nbdime-git \
 python310-jupyter_nbdime-git \
 python310-nbdime-git"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

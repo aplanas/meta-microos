@@ -21,6 +21,7 @@ mvn(xalan:xalan:pom:) \
 osgi(org.apache.xalan) \
 osgi(org.apache.xml.serializer) \
 xalan-j2"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

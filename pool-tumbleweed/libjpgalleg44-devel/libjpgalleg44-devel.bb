@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libjpgalleg-devel \
 libjpgalleg44-devel \
 libjpgalleg44-devel(aarch-64) \
 pkgconfig(jpgalleg)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjpgalleg4_4 \
 pkgconfig(allegro)"

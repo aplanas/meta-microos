@@ -22,6 +22,7 @@ pkgconfig(rbl) \
 pkgconfig(repute) \
 pkgconfig(ut) \
 pkgconfig(vbr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopendkim11 \
 librbl1 \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "iesperan \
 ispell-esperanto \
 ispell-esperanto(aarch-64) \
 ispell_dictionary"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

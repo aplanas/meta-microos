@@ -10,6 +10,7 @@ RPM_HASH = "03584bd0835fd7a3d76c074251e7df6cca40783bea52457d3c7b534085e1d1b76123
 RPROVIDES:${PN} += "libvted-3-0 \
 libvted-3-0(aarch-64) \
 libvted-3.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libdruntime-ldc-shared.so.102()(64bit) \

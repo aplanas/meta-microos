@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libfile.so.1.0()(64bit) \
 libfile.so.1.0(SCHILY_1.0)(64bit) \
 libfile1_0 \
 libfile1_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

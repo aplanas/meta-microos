@@ -10,6 +10,7 @@ RPM_HASH = "a3ae53812b39fabb88c758f3ac74fff67523995a54594efdd50d4726e094f3045a94
 RPROVIDES:${PN} += "QR-Code-generator-devel \
 QR-Code-generator-devel(aarch-64) \
 qrcodegen-devel"
+
 RDEPENDS:${PN} += "libqrcodegen1 \
 libqrcodegencpp1"
 

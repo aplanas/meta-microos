@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-iot-deviceupdate) \
 python39-azure-iot-deviceupdate \
 python3dist(azure-iot-deviceupdate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-core \
 python39-azure-iot-nspkg \

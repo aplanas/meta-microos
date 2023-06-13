@@ -16,6 +16,7 @@ RPM_HASH = "c311f73b9ff82ce4a345d992dc921388d1c477820b7a774ea7fdf2cc039f01edaca1
 RPROVIDES:${PN} += "ignition \
 ignition(aarch-64) \
 ignition-dracut"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 dracut \

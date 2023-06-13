@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.fedoraproject.xmvn:xmvn-subst) \
 mvn(org.fedoraproject.xmvn:xmvn-subst:pom:) \
 xmvn-subst"
+
 RDEPENDS:${PN} += "/bin/bash \
 beust-jcommander \
 java-headless \

@@ -9,6 +9,7 @@ RPM_HASH = "6ecb514609a7b07eaf1228b8db993db1b1fd627bd4167c79ac6f65dad2856f27bf80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-acitoolkit-doc-applications"
+
 RDEPENDS:${PN} += "python-acitoolkit-doc \
 python3-Flask \
 python3-Flask-Admin \

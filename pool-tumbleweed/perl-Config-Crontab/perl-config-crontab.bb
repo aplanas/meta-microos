@@ -31,6 +31,7 @@ perl(Config::Crontab::Container) \
 perl(Config::Crontab::Env) \
 perl(Config::Crontab::Event) \
 perl-Config-Crontab"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

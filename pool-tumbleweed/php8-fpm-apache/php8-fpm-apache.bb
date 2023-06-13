@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(php8-fpm-apache) \
 php8-fpm-apache"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/a2enmod \
 apache2 \

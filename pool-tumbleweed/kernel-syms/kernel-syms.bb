@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "kernel-syms \
 kernel-syms(aarch-64) \
 kernel-syms-srchash-2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "kernel-64kb-devel \
 kernel-default-devel \
 kernel-devel \

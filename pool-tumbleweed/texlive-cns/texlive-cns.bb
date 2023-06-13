@@ -269,6 +269,7 @@ tex(c7so1224.tfm) \
 tex(c7so1225.tfm) \
 tex(c7so1226.tfm) \
 texlive-cns"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

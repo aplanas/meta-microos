@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-PyNamecheap \
 python3.10dist(pynamecheap) \
 python310-PyNamecheap \
 python3dist(pynamecheap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

@@ -9,6 +9,7 @@ RPM_HASH = "8570bc4a739efeef4bda8903814698a919c513238650baaf4440d626b54afa82ef58
 
 RPROVIDES:${PN} += "krita-plugin-gmic \
 krita-plugin-gmic(aarch-64)"
+
 RDEPENDS:${PN} += "gmic-data \
 krita \
 ld-linux-aarch64.so.1()(64bit) \

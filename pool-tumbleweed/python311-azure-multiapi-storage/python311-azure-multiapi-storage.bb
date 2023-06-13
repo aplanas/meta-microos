@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-multiapi-storage) \
 python311-azure-multiapi-storage \
 python3dist(azure-multiapi-storage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-core \

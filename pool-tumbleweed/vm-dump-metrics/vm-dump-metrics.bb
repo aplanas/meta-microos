@@ -11,6 +11,7 @@ RPM_HASH = "b9d079cd8168c0fd5e3ec23a3daf7797f879a58ecd1133bf9b5e4be049d64d130da1
 
 RPROVIDES:${PN} += "vm-dump-metrics \
 vm-dump-metrics(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

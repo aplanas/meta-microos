@@ -14,6 +14,7 @@ rubygem(agama) \
 rubygem(ruby:3.2.0:agama) \
 rubygem(ruby:3.2.0:agama:2) \
 rubygem(ruby:3.2.0:agama:2.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 dbus-1-common \

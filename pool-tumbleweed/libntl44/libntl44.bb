@@ -12,6 +12,7 @@ RPM_HASH = "97ac800d52135f3e75f5827487979bff8b4cc5da3857223cb6f9c79cdff3d7663839
 RPROVIDES:${PN} += "libntl.so.44()(64bit) \
 libntl44 \
 libntl44(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

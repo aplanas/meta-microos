@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "nemo-extension-folder-color \
 python3.10dist(folder-color-nemo) \
 python3dist(folder-color-nemo)"
+
 RDEPENDS:${PN} += "folder-color-common \
 nemo \
 python-nemo"

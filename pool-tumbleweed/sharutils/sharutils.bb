@@ -18,6 +18,7 @@ RPM_HASH = "51305f3b287d218bed34f74640e1410e67a65a114c4e954eab99f174798236c9e2ff
 RPROVIDES:${PN} += "sharutil \
 sharutils \
 sharutils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

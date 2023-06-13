@@ -10,6 +10,7 @@ RPM_HASH = "37122abb5cee5e230e5fff94e42f608aaa9a79112ae4836f3c51a0fd6761eef4d92f
 RPROVIDES:${PN} += "leechcraft-touchstreams \
 leechcraft-touchstreams(aarch-64) \
 libleechcraft_touchstreams.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

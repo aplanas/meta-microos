@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5Activities) \
 kactivities5-devel \
 kactivities5-devel(aarch-64) \
 pkgconfig(libKActivities)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt5Core) \
 extra-cmake-modules \

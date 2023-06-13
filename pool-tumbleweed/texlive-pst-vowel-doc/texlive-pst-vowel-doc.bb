@@ -9,6 +9,7 @@ RPM_HASH = "a9bc70017d3ee72a425471a5ddae2c5f8d4c39ddd49a29bf51b2d48db71da4b197df
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-vowel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -21,6 +21,7 @@ python310-sip-devel \
 python310-sip4-devel \
 python310-sip4-devel(aarch-64) \
 rpm_macro(requires_python310_sip_api)"
+
 RDEPENDS:${PN} += "/bin/sh \
 c++_compiler \
 ld-linux-aarch64.so.1()(64bit) \

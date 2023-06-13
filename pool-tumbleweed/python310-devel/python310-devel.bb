@@ -23,6 +23,7 @@ pkgconfig(python3-embed) \
 python3-devel \
 python310-devel \
 python310-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python3 \

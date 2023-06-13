@@ -14,6 +14,7 @@ RPM_HASH = "6c5d462960a2ade19573cb5b73a3f77945c2fb880e92681162e97d9f7ec07ebfa21f
 RPROVIDES:${PN} += "libtinyxml.so.0()(64bit) \
 libtinyxml0 \
 libtinyxml0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

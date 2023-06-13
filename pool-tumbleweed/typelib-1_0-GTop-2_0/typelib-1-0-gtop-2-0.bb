@@ -17,6 +17,7 @@ RPM_HASH = "e40c682511b80eead8eb80ba466368224f623632b31d7f5a68af3aee2d1ac61bd6fd
 RPROVIDES:${PN} += "typelib(GTop) \
 typelib-1_0-GTop-2_0 \
 typelib-1_0-GTop-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgtop-2.0.so.11()(64bit)"
 
 inherit rpm

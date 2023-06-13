@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "config(monitoring-plugins-dhcp) \
 monitoring-plugins-dhcp \
 monitoring-plugins-dhcp(aarch-64) \
 nagios-plugins-dhcp"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

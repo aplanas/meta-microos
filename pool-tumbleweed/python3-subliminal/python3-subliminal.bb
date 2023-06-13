@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-subliminal \
 python3.10dist(subliminal) \
 python3dist(subliminal) \
 subliminal"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-requests-futures \
 python3.10dist(requests-futures) \
 python310-requests-futures \
 python3dist(requests-futures)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

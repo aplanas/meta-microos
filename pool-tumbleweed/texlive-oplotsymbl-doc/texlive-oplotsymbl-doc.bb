@@ -9,6 +9,7 @@ RPM_HASH = "1d6c5a9e5f6889cfaf22a437da6d44f509ced60090ead6d3587b91bded70c3efcadf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-oplotsymbl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

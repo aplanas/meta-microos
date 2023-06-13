@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pagesel-2016-05-16.sty) \
 tex(pagesel.sty) \
 texlive-pagesel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "1ab3bdccc252680699c391cd96eb691977c264994d3cabdcc9ca97d9fee58372723b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-alt-getopt-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/lua"
 

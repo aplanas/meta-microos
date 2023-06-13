@@ -65,6 +65,7 @@ locale(calamares:uk) \
 locale(calamares:vi) \
 locale(calamares:zh_CN) \
 locale(calamares:zh_TW)"
+
 RDEPENDS:${PN} += "calamares"
 
 inherit rpm

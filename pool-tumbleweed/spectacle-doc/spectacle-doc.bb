@@ -10,6 +10,7 @@ RPM_HASH = "2b9c2eada0e26a5bb512510129f1977203462709bc20bfdc97bebbd605b7168e48c9
 
 RPROVIDES:${PN} += "spectacle-doc \
 spectacle-doc(aarch-64)"
+
 RDEPENDS:${PN} += "spectacle"
 
 inherit rpm

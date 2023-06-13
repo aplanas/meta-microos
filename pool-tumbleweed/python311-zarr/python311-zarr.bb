@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(zarr) \
 python311-zarr \
 python3dist(zarr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311 \
 python311-asciitree \

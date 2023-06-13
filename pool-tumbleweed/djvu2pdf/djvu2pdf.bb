@@ -9,6 +9,7 @@ RPM_HASH = "72477856588ea42bf28eea34a193635016cb7c0fd082a154c00e82eb40622988b88c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "djvu2pdf"
+
 RDEPENDS:${PN} += "/bin/sh \
 djvulibre \
 ghostscript-library"

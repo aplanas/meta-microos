@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-python-gvm \
 python3.10dist(python-gvm) \
 python310-python-gvm \
 python3dist(python-gvm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-defusedxml \
 python310-lxml \

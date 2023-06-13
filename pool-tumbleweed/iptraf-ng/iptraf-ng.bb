@@ -13,6 +13,7 @@ RPM_HASH = "40b0624976af23f5e2d91bcc8e952364bac13eaeccf38015f8f176e1329d98b36e49
 RPROVIDES:${PN} += "iptraf \
 iptraf-ng \
 iptraf-ng(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

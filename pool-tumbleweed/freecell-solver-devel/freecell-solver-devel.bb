@@ -10,6 +10,7 @@ RPM_HASH = "fd5b1b6580d1b70313297d941bc8938e4940a9572d0f4aab6680b5a7cf3600c724b6
 RPROVIDES:${PN} += "freecell-solver-devel \
 freecell-solver-devel(aarch-64) \
 pkgconfig(libfreecell-solver)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfreecell-solver0"
 

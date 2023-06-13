@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(factura.cls) \
 tex(factura.def) \
 texlive-factura"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

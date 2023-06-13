@@ -10,6 +10,7 @@ RPM_HASH = "0631b051afc003f31c1695972037e046c02cc51cf763034e01c9182b8bb52faa7948
 RPROVIDES:${PN} += "gtkiterm \
 gtkiterm(aarch-64) \
 locale(gtk2:ja;ko;zh)"
+
 RDEPENDS:${PN} += "group(tty) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "kismet-capture-sdr-rtladsb \
 kismet-capture-sdr-rtladsb(aarch-64) \
 python3.10dist(kismetcapturertladsb) \
 python3dist(kismetcapturertladsb)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-numpy \

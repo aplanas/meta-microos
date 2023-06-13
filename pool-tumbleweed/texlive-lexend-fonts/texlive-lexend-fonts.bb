@@ -140,6 +140,7 @@ font(lexendpeta) \
 font(lexendtera) \
 font(lexendzetta) \
 texlive-lexend-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

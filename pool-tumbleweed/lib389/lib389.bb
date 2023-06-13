@@ -13,6 +13,7 @@ lib389(aarch-64) \
 python3-lib389 \
 python3.10dist(lib389) \
 python3dist(lib389)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 iproute2 \
 krb5-client \

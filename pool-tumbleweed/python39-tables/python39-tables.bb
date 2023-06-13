@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.9dist(tables) \
 python39-tables \
 python39-tables(aarch-64) \
 python3dist(tables)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 hdf5 \

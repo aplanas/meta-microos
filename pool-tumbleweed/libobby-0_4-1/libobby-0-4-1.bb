@@ -19,6 +19,7 @@ RPM_HASH = "564db3b5570bab5da786a5a985f5f2d5affb65ddf5eae53b8af5007bf83121994b8d
 RPROVIDES:${PN} += "libobby-0.4.so.1()(64bit) \
 libobby-0_4-1 \
 libobby-0_4-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

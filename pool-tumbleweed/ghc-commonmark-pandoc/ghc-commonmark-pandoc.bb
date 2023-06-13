@@ -10,6 +10,7 @@ RPM_HASH = "1a575fff934e03160bd0ea5fb096f798e6e571cf8676b14f687acded7472ffafb185
 RPROVIDES:${PN} += "ghc-commonmark-pandoc \
 ghc-commonmark-pandoc(aarch-64) \
 libHScommonmark-pandoc-0.2.1.3-FiR1R9G72Pe54eJfxxlumA-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

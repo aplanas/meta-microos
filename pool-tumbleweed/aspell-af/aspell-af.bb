@@ -10,6 +10,7 @@ RPM_HASH = "ee2cee8efcbfa516ff6d6e5ae050051e66cb8aaf0222d1e2194ea98a7b5afc12a893
 RPROVIDES:${PN} += "aspell-af \
 aspell-af(aarch-64) \
 locale(aspell:af)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

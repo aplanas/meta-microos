@@ -86,6 +86,7 @@ locale(systemsettings5:zh_CN) \
 locale(systemsettings5:zh_TW) \
 systemsettings5-lang \
 systemsettings5-lang-all"
+
 RDEPENDS:${PN} += "systemsettings5"
 
 inherit rpm

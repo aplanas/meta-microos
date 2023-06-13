@@ -40,6 +40,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Test::MockDateTime) \
 perl-Test-MockDateTime"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DateTime) \
 perl(DateTime::Format::DateParse) \

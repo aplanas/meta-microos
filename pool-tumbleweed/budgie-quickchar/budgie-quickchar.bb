@@ -14,6 +14,7 @@ budgie-quickchar \
 budgie-quickchar(aarch-64) \
 metainfo() \
 metainfo(org.ubuntubudgie.quickchar.metainfo.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 budgie-extras-daemon \
 python3-gobject-Gdk \

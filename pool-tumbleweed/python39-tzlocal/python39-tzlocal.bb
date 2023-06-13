@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(tzlocal) \
 python39-tzlocal \
 python3dist(tzlocal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pytz \
 python39-pytz-deprecation-shim"

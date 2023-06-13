@@ -13,6 +13,7 @@ RPM_HASH = "4f7e09948b7490e359bb0de51969a4d4e2cf8e715496fabb4545b9a2de1475a7ce12
 RPROVIDES:${PN} += "pkgconfig(xmlbird) \
 xmlbird-devel \
 xmlbird-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxmlbird1 \
 pkgconfig(glib-2.0)"

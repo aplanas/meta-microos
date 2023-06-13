@@ -10,6 +10,7 @@ RPM_HASH = "f08c10a08d32ec41cab08bd0bac1adc77951b6fdd4bd4cf516e79f5a35de2fb22b13
 
 RPROVIDES:${PN} += "mtx \
 mtx(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

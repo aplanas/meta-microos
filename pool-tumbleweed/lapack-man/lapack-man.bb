@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blas-man \
 lapack-man"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

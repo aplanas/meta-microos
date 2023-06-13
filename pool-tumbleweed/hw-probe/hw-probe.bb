@@ -24,6 +24,7 @@ RPM_HASH = "07546134aa8a7f9daaf40f493799a193686f128881bd5ac91fb178b62eb70078e594
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hw-probe"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 acpica \
 curl \

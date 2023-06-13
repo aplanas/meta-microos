@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(ijsra.bbx) \
 tex(ijsra.cbx) \
 texlive-biblatex-ijsra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

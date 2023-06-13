@@ -10,6 +10,7 @@ RPM_HASH = "5437576d1743730f7609e20edc53943a0e4eb4b115317039005d82b2103bb9ede7a6
 RPROVIDES:${PN} += "ghc-ghc-boot-th \
 ghc-ghc-boot-th(aarch-64) \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

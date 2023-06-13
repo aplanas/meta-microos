@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-msal \
 python3.10dist(msal) \
 python310-msal \
 python3dist(msal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyJWT \
 python310-cryptography \

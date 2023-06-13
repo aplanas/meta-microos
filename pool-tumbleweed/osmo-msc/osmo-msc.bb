@@ -19,6 +19,7 @@ RPM_HASH = "0b436b0cd2e4b86da005b3ebc42ab4c626015af80465fed9c04c9bf22d8910e471d0
 RPROVIDES:${PN} += "config(osmo-msc) \
 osmo-msc \
 osmo-msc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

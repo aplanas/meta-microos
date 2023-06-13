@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(greektonoi.map) \
 tex(greektonoi.sty) \
 texlive-greektonoi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

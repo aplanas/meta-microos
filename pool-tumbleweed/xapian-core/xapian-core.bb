@@ -11,6 +11,7 @@ RPM_HASH = "b5d29e414a415f8d8446900569ff6c29afec5305d3b25de3b90a23559e955a4fd06b
 
 RPROVIDES:${PN} += "xapian-core \
 xapian-core(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

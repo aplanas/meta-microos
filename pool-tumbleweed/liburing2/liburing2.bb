@@ -15,6 +15,7 @@ liburing.so.2(LIBURING_2.2)(64bit) \
 liburing.so.2(LIBURING_2.3)(64bit) \
 liburing2 \
 liburing2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

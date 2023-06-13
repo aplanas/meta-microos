@@ -21,6 +21,7 @@ application(megaglest.desktop) \
 application(megaglest_editor.desktop) \
 megaglest \
 megaglest(aarch-64)"
+
 RDEPENDS:${PN} += "freefont \
 gnu-free-fonts \
 ld-linux-aarch64.so.1()(64bit) \

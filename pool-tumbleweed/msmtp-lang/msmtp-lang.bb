@@ -18,6 +18,7 @@ locale(msmtp:ta) \
 locale(msmtp:uk) \
 msmtp-lang \
 msmtp-lang-all"
+
 RDEPENDS:${PN} += "msmtp"
 
 inherit rpm

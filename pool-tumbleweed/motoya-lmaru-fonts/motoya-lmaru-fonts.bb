@@ -10,6 +10,7 @@ RPM_HASH = "a9a3dc2cd461767301698b1842e285a11dfb37d52e470669f8de087abc3281790c0d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "motoya-lmaru-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

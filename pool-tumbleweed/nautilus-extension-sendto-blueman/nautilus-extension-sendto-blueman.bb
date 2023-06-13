@@ -9,6 +9,7 @@ RPM_HASH = "14f0a7ba99f004f3e5f6f24aa157d01784f76964a9f98ce38bb2ab7aec0d76f47b60
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nautilus-extension-sendto-blueman"
+
 RDEPENDS:${PN} += "blueman \
 typelib(GObject) \
 typelib(Gio) \

@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3.9dist(kmod) \
 python39-kmod \
 python39-kmod(aarch-64) \
 python3dist(kmod)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

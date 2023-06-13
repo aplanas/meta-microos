@@ -10,6 +10,7 @@ RPM_HASH = "16d4d0591549877128a1716ec9569c885afa9edecd513204f4705f5e159af00817e9
 RPROVIDES:${PN} += "libstatgrab-devel \
 libstatgrab-devel(aarch-64) \
 pkgconfig(libstatgrab)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libstatgrab10"
 

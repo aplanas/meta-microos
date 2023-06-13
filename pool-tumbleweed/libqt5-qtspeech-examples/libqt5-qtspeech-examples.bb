@@ -9,6 +9,7 @@ RPM_HASH = "14791e7adc6b9a0ad0cf680ae90e334c2a8d714d40021ccaaa03c4bc7d4aa6fe3a1f
 
 RPROVIDES:${PN} += "libqt5-qtspeech-examples \
 libqt5-qtspeech-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

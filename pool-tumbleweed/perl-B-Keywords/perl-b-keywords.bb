@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(B::Keywords) \
 perl-B-Keywords"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

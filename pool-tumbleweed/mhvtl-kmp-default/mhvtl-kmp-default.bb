@@ -21,6 +21,7 @@ mhvtl-kmp-default \
 mhvtl-kmp-default(aarch-64) \
 mhvtl-kmp-default-k6.3.4_1 \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

@@ -16,6 +16,7 @@ python3.10dist(hdf5storage) \
 python310-hdf5storage \
 python310-hdf5storage(aarch-64) \
 python3dist(hdf5storage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-h5py \
 python310-numpy"

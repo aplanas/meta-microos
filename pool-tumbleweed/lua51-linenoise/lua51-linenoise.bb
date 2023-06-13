@@ -14,6 +14,7 @@ RPM_HASH = "57acb3c71aa0ab923c309dc9337e1cd00636c236602b1b5ee4986966ba5268ee3312
 
 RPROVIDES:${PN} += "lua51-linenoise \
 lua51-linenoise(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 lua51"
 

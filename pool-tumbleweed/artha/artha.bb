@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "application() \
 application(artha.desktop) \
 artha \
 artha(aarch-64)"
+
 RDEPENDS:${PN} += "enchant \
 hunspell \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "97414ca9462bb16dd8df4b967c61ce2d74a5648765af0c7353e451a19ae2c51dcaa1
 RPROVIDES:${PN} += "libtss2-tcti-mssim.so.0()(64bit) \
 libtss2-tcti-mssim0 \
 libtss2-tcti-mssim0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

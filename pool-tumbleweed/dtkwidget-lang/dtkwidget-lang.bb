@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dtkwidget-lang \
 dtkwidget-lang-all"
+
 RDEPENDS:${PN} += "dtkwidget"
 
 inherit rpm

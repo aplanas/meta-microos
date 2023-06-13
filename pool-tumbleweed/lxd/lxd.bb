@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(lxd) \
 group(lxd) \
 lxd \
 lxd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 acl \
 dnsmasq \

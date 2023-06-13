@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-grad.sty) \
 tex(pst-grad.tex) \
 texlive-pst-grad"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

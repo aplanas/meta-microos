@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-pyeapi \
 python3.10dist(pyeapi) \
 python310-pyeapi \
 python3dist(pyeapi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-netaddr"
 

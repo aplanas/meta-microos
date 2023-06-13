@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3.11dist(zope.component) \
 python311-zope.component \
 python311-zope.component(aarch-64) \
 python3dist(zope.component)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-zope.event \
 python311-zope.hookable \

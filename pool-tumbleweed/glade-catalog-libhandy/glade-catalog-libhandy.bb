@@ -14,6 +14,7 @@ RPM_HASH = "b8fb3147ddd2442861b039ed0f5ac5cfc1c19f6195cc2a42700525387c470254a84d
 RPROVIDES:${PN} += "glade-catalog-libhandy \
 glade-catalog-libhandy(aarch-64) \
 libglade-handy-1.so()(64bit)"
+
 RDEPENDS:${PN} += "glade \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

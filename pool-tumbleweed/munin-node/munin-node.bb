@@ -56,6 +56,7 @@ perl(Munin::Node::Utils) \
 perl(Munin::Plugin) \
 perl(Munin::Plugin::Pgsql) \
 perl(Munin::Plugin::SNMP)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

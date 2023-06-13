@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-grappelli) \
 python39-django-grappelli \
 python3dist(django-grappelli)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

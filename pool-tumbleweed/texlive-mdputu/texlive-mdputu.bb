@@ -24,6 +24,7 @@ tex(mdputuri8t.vf) \
 tex(ot1mdputu.fd) \
 tex(t1mdputu.fd) \
 texlive-mdputu"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

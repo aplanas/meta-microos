@@ -17,6 +17,7 @@ python3-osc \
 python3.10dist(osc) \
 python3dist(osc) \
 rpm_macro(osc_plugin_dir)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 python(abi) \

@@ -14,6 +14,7 @@ RPM_HASH = "88584747cf2dd81db0f460891691d0b9c7e13b088e53c989acc3369d521e79884a87
 
 RPROVIDES:${PN} += "gcab \
 gcab(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

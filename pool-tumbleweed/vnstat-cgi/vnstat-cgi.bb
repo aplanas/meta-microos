@@ -16,6 +16,7 @@ RPM_HASH = "b276eec07703caa961a1dfcdec04449a9becb130a0ecc7d56b27785516ae84ce5d04
 RPROVIDES:${PN} += "config(vnstat-cgi) \
 vnstat-cgi \
 vnstat-cgi(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinx-theme-builder) \
 python311-sphinx-theme-builder \
 python3dist(sphinx-theme-builder)"
+
 RDEPENDS:${PN} += "(python311-tomli if python311-base < 3.11) \
 /bin/sh \
 /usr/bin/python3.11 \

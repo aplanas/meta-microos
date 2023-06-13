@@ -21,6 +21,7 @@ RPM_HASH = "1f41673f5a0ed42f2eb43a98ec6a1be9caf3f4881a83ff1367506bab0972b51731c7
 RPROVIDES:${PN} += "apache2-mod_fcgid \
 apache2-mod_fcgid(aarch-64) \
 config(apache2-mod_fcgid)"
+
 RDEPENDS:${PN} += "apache2 \
 apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -27,6 +27,7 @@ RPM_HASH = "ed59586cbc3b31752aa5913279e717f1041a6fcb939272b7cc5e48a0183d69a5e5be
 RPROVIDES:${PN} += "liblognorm.so.5()(64bit) \
 liblognorm5 \
 liblognorm5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(grfpaste.sty) \
 texlive-grfpaste"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

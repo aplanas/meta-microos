@@ -14,6 +14,7 @@ python39-Jinja2 \
 python39-Jinja2(aarch-64) \
 python39-jinja2 \
 python3dist(jinja2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-MarkupSafe"
 

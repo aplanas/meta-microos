@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "timezone-java \
 tzdata-java \
 tzdata-java8"
+
 RDEPENDS:${PN} += "coreutils \
 filesystem"
 

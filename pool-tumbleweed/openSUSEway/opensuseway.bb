@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(openSUSEway) \
 openSUSEway"
+
 RDEPENDS:${PN} += "(gtkgreet or wlgreet) \
 /bin/sh \
 NetworkManager \

@@ -12,6 +12,7 @@ RPM_HASH = "28479ad16a6423fb4ba2c9d045115237f10efb2d1a5b6b0a56303ccf4d60609a1ad7
 RPROVIDES:${PN} += "google-perftools \
 gperftools \
 gperftools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 pprof"
 

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:actioncable) \
 rubygem(ruby:3.2.0:actioncable:7) \
 rubygem(ruby:3.2.0:actioncable:7.0) \
 rubygem(ruby:3.2.0:actioncable:7.0.4)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:actionpack) \
 rubygem(ruby:3.2.0:activesupport) \

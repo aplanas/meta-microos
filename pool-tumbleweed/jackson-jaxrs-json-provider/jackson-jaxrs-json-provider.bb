@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jackson-jaxrs-json-provider \
 mvn(com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider) \
 mvn(com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:pom:) \
 osgi(com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.jaxrs:jackson-jaxrs-base) \

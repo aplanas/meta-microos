@@ -15,6 +15,7 @@ RPM_HASH = "90263fef2057a9192fd5937582fed00ee148bae16aa20aa60f03c6f77578aa237b12
 RPROVIDES:${PN} += "liballegro_image.so.5.2()(64bit) \
 liballegro_image5_2 \
 liballegro_image5_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

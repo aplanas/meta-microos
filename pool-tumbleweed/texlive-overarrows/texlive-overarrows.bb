@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(overarrows.sty) \
 texlive-overarrows"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

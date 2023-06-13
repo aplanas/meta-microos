@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(intcalc.sty) \
 texlive-intcalc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

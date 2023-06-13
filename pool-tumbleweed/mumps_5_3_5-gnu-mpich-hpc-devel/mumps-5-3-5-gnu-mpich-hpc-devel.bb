@@ -14,6 +14,7 @@ RPM_HASH = "6c042620712db6434e6de6f1c9790293091278d072bbe93cce26581e491cbc70eceb
 
 RPROVIDES:${PN} += "mumps_5_3_5-gnu-mpich-hpc-devel \
 mumps_5_3_5-gnu-mpich-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

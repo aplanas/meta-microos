@@ -12,6 +12,7 @@ ghc-Cabal-devel(aarch-64) \
 ghc-Cabal-static \
 ghc-Cabal-static(aarch-64) \
 ghc-devel(Cabal-3.8.1.0)"
+
 RDEPENDS:${PN} += "ghc-Cabal(aarch-64) \
 ghc-compiler \
 ghc-devel(Cabal-syntax-3.8.1.0) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-theme-dracula \
 dracula-gtk-theme"
+
 RDEPENDS:${PN} += "cinnamon \
 metatheme-dracula-common"
 

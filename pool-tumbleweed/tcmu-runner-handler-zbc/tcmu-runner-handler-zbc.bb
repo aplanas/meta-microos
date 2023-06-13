@@ -10,6 +10,7 @@ RPM_HASH = "5064d5d713ce47e19e55db093aac17589e4379efab83739f355adb7aedee88ebffd1
 
 RPROVIDES:${PN} += "tcmu-runner-handler-zbc \
 tcmu-runner-handler-zbc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

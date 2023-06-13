@@ -12,6 +12,7 @@ liblzhamdecomp.so()(64bit) \
 liblzhamdll.so()(64bit) \
 lzham_codec-libs \
 lzham_codec-libs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

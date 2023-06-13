@@ -16,6 +16,7 @@ RPM_HASH = "75d82f7fe0f6f3b842f5a302aceafe444811523d92808865868a8bbaadb390819207
 
 RPROVIDES:${PN} += "telepathy-logger \
 telepathy-logger(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

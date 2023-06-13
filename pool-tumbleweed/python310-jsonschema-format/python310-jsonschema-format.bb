@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jsonschema-format \
 python310-jsonschema-format"
+
 RDEPENDS:${PN} += "python310-fqdn \
 python310-idna \
 python310-isoduration \

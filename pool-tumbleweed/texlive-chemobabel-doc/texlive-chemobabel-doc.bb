@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-chemobabel-doc:en;ja) \
 texlive-chemobabel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

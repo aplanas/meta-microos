@@ -11,6 +11,7 @@ RPM_HASH = "4b105ad718d821ba945f4af34863a6197533f936b0a3a29e51f30169687dad618687
 RPROVIDES:${PN} += "libquicktime-devel \
 libquicktime-devel(aarch-64) \
 pkgconfig(libquicktime)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libquicktime \
 libquicktime0"

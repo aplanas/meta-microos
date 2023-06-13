@@ -16,6 +16,7 @@ tex(cwebarray.sty) \
 tex(cwebbase.tex) \
 tex(keyvald.sty) \
 texlive-cweb-latex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

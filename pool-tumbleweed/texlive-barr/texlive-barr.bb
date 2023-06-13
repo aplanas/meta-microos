@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(diagxy.tex) \
 texlive-barr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

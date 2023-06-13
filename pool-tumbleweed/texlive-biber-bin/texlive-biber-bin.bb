@@ -9,6 +9,7 @@ RPM_HASH = "201170b8f98488a24bec98eb15cfdc9f49738f734e68017b23c2ca3d543fcf5319f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biber-bin"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
 perl(Biber) \

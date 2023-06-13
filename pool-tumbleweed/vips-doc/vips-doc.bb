@@ -10,6 +10,7 @@ RPM_HASH = "7f78fe6861f8b79bab66844963babf38ae6ffbab9fe0e61ae13d9ac5dcad4c32d9c7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vips-doc"
+
 RDEPENDS:${PN} += "libvips42"
 
 inherit rpm

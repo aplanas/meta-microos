@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(libvirt-daemon-driver-qemu) \
 libvirt-daemon-driver-qemu \
 libvirt-daemon-driver-qemu(aarch-64) \
 libvirt_driver_qemu.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bzip2 \
 /usr/bin/gzip \

@@ -11,6 +11,7 @@ RPM_HASH = "60817d08fe9ceb3707d94f87af00a17ea9687c6cccc3070f4822438a6832f00ce045
 RPROVIDES:${PN} += "libmpg123-0 \
 libmpg123-0(aarch-64) \
 libmpg123.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "b132d81f4538a3850d68d369634443a0413016e95a61d3b4d6a75980dd636f50f80f
 
 RPROVIDES:${PN} += "krius \
 krius(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -19,6 +19,7 @@ rubygem(ruby:3.2.0:highline) \
 rubygem(ruby:3.2.0:highline:2) \
 rubygem(ruby:3.2.0:highline:2.0) \
 rubygem(ruby:3.2.0:highline:2.0.3)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-blue-doc \
 python310-foo-doc \
 python311-foo-doc \
 python39-foo-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Test::NoWarnings) \
 perl(Test::NoWarnings::Warning) \
 perl-Test-NoWarnings"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::Builder)"
 

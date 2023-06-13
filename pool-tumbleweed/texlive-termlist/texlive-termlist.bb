@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(termlist.sty) \
 texlive-termlist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

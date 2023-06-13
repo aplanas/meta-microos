@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libchamplain-devel \
 libchamplain-devel(aarch-64) \
 pkgconfig(champlain-0.12) \
 pkgconfig(champlain-gtk-0.12)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libchamplain-0_12-0 \
 pkgconfig(cairo) \

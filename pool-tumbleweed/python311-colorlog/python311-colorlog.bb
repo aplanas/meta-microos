@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(colorlog) \
 python311-colorlog \
 python311-colorlog(aarch-64) \
 python3dist(colorlog)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

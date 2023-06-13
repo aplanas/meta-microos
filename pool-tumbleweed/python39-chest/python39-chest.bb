@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(chest) \
 python39-chest \
 python3dist(chest)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-HeapDict"
 

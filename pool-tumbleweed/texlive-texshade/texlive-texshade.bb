@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(texshade.def) \
 tex(texshade.sty) \
 texlive-texshade"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

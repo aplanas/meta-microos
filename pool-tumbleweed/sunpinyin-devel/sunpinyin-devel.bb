@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libsunpinyin-devel \
 pkgconfig(sunpinyin-2.0) \
 sunpinyin-devel \
 sunpinyin-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsunpinyin3 \
 pkgconfig(sqlite3) \

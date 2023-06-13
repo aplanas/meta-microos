@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(extarrows.sty) \
 texlive-extarrows"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

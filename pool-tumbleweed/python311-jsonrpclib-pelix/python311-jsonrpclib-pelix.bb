@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jsonrpclib-pelix) \
 python311-jsonrpclib-pelix \
 python3dist(jsonrpclib-pelix)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

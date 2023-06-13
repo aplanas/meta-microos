@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tocdata.sty) \
 texlive-tocdata"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

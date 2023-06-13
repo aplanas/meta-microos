@@ -10,6 +10,7 @@ RPM_HASH = "c9bc9ad8d4f655a3f469e1d46b9bd75136bba2b4669affc3814cf9c540eb3c58ab91
 
 RPROVIDES:${PN} += "libreoffice-mailmerge \
 libreoffice-mailmerge(aarch-64)"
+
 RDEPENDS:${PN} += "libreoffice-pyuno"
 
 inherit rpm

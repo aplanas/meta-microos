@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jvnet-parent \
 mvn(net.java:jvnet-parent:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

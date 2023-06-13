@@ -15,6 +15,7 @@ ocaml-libvirt-devel(aarch-64) \
 ocamlfind(libvirt) \
 ocamlx(Libvirt) \
 ocamlx(Libvirt_version)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libvirt.so.0()(64bit) \
 libvirt.so.0(LIBVIRT_0.0.3)(64bit) \

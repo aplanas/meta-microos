@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-msal-extensions \
 python3.10dist(msal-extensions) \
 python310-msal-extensions \
 python3dist(msal-extensions)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-msal \
 python310-portalocker"

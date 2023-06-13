@@ -10,6 +10,7 @@ RPM_HASH = "88ce01db831d5fff0ed73ee3cb2988682b21723871f5c8a222a17ce3356b76f1cee5
 RPROVIDES:${PN} += "guile-cairo-devel \
 guile-cairo-devel(aarch-64) \
 pkgconfig(guile-cairo)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cairo-devel \
 guile-cairo \

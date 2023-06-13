@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(kitchen) \
 python39-kitchen \
 python3dist(kitchen)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

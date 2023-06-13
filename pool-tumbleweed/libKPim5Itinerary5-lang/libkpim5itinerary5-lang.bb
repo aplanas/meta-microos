@@ -42,6 +42,7 @@ locale(libKPim5Itinerary5:tr) \
 locale(libKPim5Itinerary5:uk) \
 locale(libKPim5Itinerary5:zh_CN) \
 locale(libKPim5Itinerary5:zh_TW)"
+
 RDEPENDS:${PN} += "libKPim5Itinerary5"
 
 inherit rpm

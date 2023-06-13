@@ -10,6 +10,7 @@ RPM_HASH = "ba3cdf8bb0802419c20b6adf659e61b13abaa015b961af76dc9870892bb56ace95bf
 RPROVIDES:${PN} += "ghc-cassava-prof \
 ghc-cassava-prof(aarch-64) \
 ghc-prof(cassava-0.5.3.0-6nKMpykUjDPH1yduUJ1iAD)"
+
 RDEPENDS:${PN} += "ghc-cassava-devel \
 ghc-prof(Only-0.1-ETd5YCT0TwGLbN8rgpgTS8) \
 ghc-prof(array-0.5.4.0) \

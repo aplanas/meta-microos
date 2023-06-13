@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jcip-annotations \
 mvn(net.jcip:jcip-annotations) \
 mvn(net.jcip:jcip-annotations:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

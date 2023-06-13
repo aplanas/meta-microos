@@ -12,6 +12,7 @@ libQt53DQuickRender-devel \
 libQt53DQuickRender-devel(aarch-64) \
 libQt53DQuickRenderer-devel \
 pkgconfig(Qt53DQuickRender)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt53DQuickRender5 \
 pkgconfig(Qt53DCore) \

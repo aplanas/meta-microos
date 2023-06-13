@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-attachments \
 python3.10dist(django-attachments) \
 python310-django-attachments \
 python3dist(django-attachments)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-django \
 python310-six"

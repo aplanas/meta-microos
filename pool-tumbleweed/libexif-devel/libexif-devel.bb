@@ -11,6 +11,7 @@ RPM_HASH = "b137e8b653161dfa8d88cd9cebc66f0c72f29ac7afbd0086bf3fdcde5f7aa201de76
 RPROVIDES:${PN} += "libexif-devel \
 libexif-devel(aarch-64) \
 pkgconfig(libexif)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libexif12"

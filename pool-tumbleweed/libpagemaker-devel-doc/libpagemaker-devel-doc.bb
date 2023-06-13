@@ -9,6 +9,7 @@ RPM_HASH = "910ac9952831b2acf03cf4f9c300719b33543b898b3174c03ffce56cfe1319ce29b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpagemaker-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

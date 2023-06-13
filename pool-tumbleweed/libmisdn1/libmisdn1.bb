@@ -10,6 +10,7 @@ RPM_HASH = "9af569619c3c4f7a04189f975e31909fcdfe40b1f3396cfc565dcd88448133f35757
 RPROVIDES:${PN} += "libmisdn.so.1()(64bit) \
 libmisdn1 \
 libmisdn1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "98301ab8d45b189b485bcaf61705cf8f4b7d7940bd3e75640bdfcca1c51fa167bf31
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vagrant-emacs"
+
 RDEPENDS:${PN} += "emacs_program \
 vagrant"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(simpleresumecv.cls) \
 texlive-simple-resume-cv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

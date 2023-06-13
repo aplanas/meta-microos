@@ -14,6 +14,7 @@ RPM_HASH = "95db7dd53ed5fbbd303a8fbc91c506ac51ed22ff5d255d272535f280ea88e56b923a
 RPROVIDES:${PN} += "libcreg-devel \
 libcreg-devel(aarch-64) \
 pkgconfig(libcreg)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libcreg1"

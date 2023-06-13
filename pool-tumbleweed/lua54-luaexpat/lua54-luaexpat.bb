@@ -10,6 +10,7 @@ RPM_HASH = "50ab4df305ac57326c773232f6cef937c92bb3d3704f975d88e070b10c6ff6b549c0
 RPROVIDES:${PN} += "lua-luaexpat \
 lua54-luaexpat \
 lua54-luaexpat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

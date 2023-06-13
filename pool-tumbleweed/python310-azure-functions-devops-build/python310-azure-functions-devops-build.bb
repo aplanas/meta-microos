@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-azure-functions-devops-build \
 python3.10dist(azure-functions-devops-build) \
 python310-azure-functions-devops-build \
 python3dist(azure-functions-devops-build)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-msrest \

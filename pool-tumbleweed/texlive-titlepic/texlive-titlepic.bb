@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(titlepic.sty) \
 texlive-titlepic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

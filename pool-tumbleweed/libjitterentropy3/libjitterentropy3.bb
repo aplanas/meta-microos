@@ -13,6 +13,7 @@ RPM_HASH = "d88a458ae4048b1c34b0c6b7a64edb889ba18002dc00f82fea02889a688c71cd9d4d
 RPROVIDES:${PN} += "libjitterentropy.so.3()(64bit) \
 libjitterentropy3 \
 libjitterentropy3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

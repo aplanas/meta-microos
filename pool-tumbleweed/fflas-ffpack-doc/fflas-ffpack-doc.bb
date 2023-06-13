@@ -13,6 +13,7 @@ RPM_HASH = "f3794c8c7b0942d2a1bde31d4e72388b6b68d5fd99c099097c219f94bbef89b9b55c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fflas-ffpack-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

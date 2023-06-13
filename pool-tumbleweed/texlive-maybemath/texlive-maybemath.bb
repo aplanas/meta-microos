@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(maybemath.sty) \
 texlive-maybemath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

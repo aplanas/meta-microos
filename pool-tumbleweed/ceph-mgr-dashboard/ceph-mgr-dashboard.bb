@@ -12,6 +12,7 @@ RPM_HASH = "0b103828bad8ddd4255e2ace45a8e4a8aca72ee07181bd1e3dc3a64e03724bc3579f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-dashboard"
+
 RDEPENDS:${PN} += "/bin/sh \
 ceph-grafana-dashboards \
 ceph-mgr \

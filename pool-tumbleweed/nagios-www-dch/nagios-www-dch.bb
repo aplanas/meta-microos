@@ -23,6 +23,7 @@ RPM_HASH = "68a3b7dae8f830628eb3e4620c28e2db9fb7181e0712139750daeb6a5011e0e29b49
 
 RPROVIDES:${PN} += "nagios-www-dch \
 nagios-www-dch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 nagios-www"
 

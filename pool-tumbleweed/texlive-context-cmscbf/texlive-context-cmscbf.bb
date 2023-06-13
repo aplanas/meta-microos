@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(t-cmscbf.tex) \
 texlive-context-cmscbf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

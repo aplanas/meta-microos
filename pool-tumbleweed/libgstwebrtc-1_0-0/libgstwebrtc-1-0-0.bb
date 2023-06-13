@@ -14,6 +14,7 @@ RPM_HASH = "eec6b8f84736842ca6bf563ca63a75336c878e1a99ebfd898deef169ed65301b86c4
 RPROVIDES:${PN} += "libgstwebrtc-1.0.so.0()(64bit) \
 libgstwebrtc-1_0-0 \
 libgstwebrtc-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

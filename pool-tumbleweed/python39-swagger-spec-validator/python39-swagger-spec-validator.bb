@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(swagger-spec-validator) \
 python39-swagger-spec-validator \
 python3dist(swagger-spec-validator)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyYAML \
 python39-jsonschema \

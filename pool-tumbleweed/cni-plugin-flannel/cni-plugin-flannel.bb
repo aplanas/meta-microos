@@ -20,6 +20,7 @@ RPM_HASH = "ca4de3bfc554d733dfd2748ead66bfcf9f211303c52825c9c157e60984690c22dc4e
 
 RPROVIDES:${PN} += "cni-plugin-flannel \
 cni-plugin-flannel(aarch-64)"
+
 RDEPENDS:${PN} += "flannel \
 libc.so.6(GLIBC_2.34)(64bit)"
 

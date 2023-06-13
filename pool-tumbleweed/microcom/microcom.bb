@@ -14,6 +14,7 @@ RPM_HASH = "ba15c0d0ad80ac06e736c0fa99621914c4c78a2b2dad83a28424176746f72fe7f5af
 
 RPROVIDES:${PN} += "microcom \
 microcom(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

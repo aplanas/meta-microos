@@ -19,6 +19,7 @@ metainfo(terminator.metainfo.xml) \
 python3.10dist(terminator) \
 python3dist(terminator) \
 terminator"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gsettings-desktop-schemas \
 hicolor-icon-theme \

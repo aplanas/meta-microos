@@ -194,6 +194,7 @@ tex(qcntr_zq54sp.enc) \
 tex(quattrocento.map) \
 tex(quattrocento.sty) \
 texlive-quattrocento"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

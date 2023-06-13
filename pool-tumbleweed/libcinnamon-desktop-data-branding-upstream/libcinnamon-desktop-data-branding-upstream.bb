@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcinnamon-desktop-data-branding \
 libcinnamon-desktop-data-branding-upstream"
+
 RDEPENDS:${PN} += "gnome-backgrounds \
 libcinnamon-desktop-data \
 metatheme-adwaita-common"

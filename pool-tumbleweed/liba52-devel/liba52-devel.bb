@@ -13,6 +13,7 @@ liba52-devel \
 liba52-devel(aarch-64) \
 liba52dec-devel \
 pkgconfig(liba52)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liba52-0"
 

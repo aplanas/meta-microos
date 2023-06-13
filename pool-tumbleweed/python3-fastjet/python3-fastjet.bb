@@ -12,6 +12,7 @@ RPM_HASH = "dbb45ded039383390b993391cd672ef91a05611fcdc5e742fb094be935d86356e68f
 
 RPROVIDES:${PN} += "python3-fastjet \
 python3-fastjet(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

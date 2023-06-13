@@ -13,6 +13,7 @@ RPM_HASH = "a758b25678627c2bdd444a5a30d93c86bb9c80dfe51732b410263c1992bd566f620a
 
 RPROVIDES:${PN} += "libovf-glib-devel \
 libovf-glib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gnome-boxes"
 
 inherit rpm

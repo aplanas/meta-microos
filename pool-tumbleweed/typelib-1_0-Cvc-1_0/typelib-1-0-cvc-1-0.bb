@@ -13,6 +13,7 @@ RPM_HASH = "3585b8b9164b18d64b5745193a9b1a1b4a72a2518b4ad42e161bac90be499601304e
 RPROVIDES:${PN} += "typelib(Cvc) \
 typelib-1_0-Cvc-1_0 \
 typelib-1_0-Cvc-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcvc.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

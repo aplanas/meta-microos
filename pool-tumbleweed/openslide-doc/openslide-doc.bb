@@ -9,6 +9,7 @@ RPM_HASH = "db9d0a534775b8f9b5941ca7ae9e1aa46ee07c60627b183863e27dd2623bbf1e8cf1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openslide-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

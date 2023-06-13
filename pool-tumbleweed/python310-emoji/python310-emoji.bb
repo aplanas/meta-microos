@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-emoji \
 python3.10dist(emoji) \
 python310-emoji \
 python3dist(emoji)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

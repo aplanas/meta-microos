@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(multicap.sty) \
 texlive-multicap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

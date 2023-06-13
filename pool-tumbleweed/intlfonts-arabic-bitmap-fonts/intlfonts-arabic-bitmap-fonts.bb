@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ifntarab \
 intlfonts-arabic-bitmap-fonts \
 locale(xorg-x11:ar)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

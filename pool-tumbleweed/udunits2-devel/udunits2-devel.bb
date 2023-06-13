@@ -10,6 +10,7 @@ RPM_HASH = "d4803b044bae4dda04cd65aaf30a8f126b980bb859b37dedc213ceeff163eb2f926c
 
 RPROVIDES:${PN} += "udunits2-devel \
 udunits2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "udunits2"
 
 inherit rpm

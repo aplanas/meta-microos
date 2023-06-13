@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "tex(pdfslide.cfg) \
 tex(pdfslide.sty) \
 tex(slide.clo) \
 texlive-pdfslide"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-PsyLab \
 python3.10dist(psylab) \
 python310-PsyLab \
 python3dist(psylab)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib \
 python310-numpy \

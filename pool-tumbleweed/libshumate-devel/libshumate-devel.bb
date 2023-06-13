@@ -11,6 +11,7 @@ RPM_HASH = "140b31cab92aa8103502d93eefc44db0471c85c7510693908c09a7cac439131e1500
 RPROVIDES:${PN} += "libshumate-devel \
 libshumate-devel(aarch-64) \
 pkgconfig(shumate-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libshumate-1_0-1 \
 pkgconfig(cairo) \

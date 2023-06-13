@@ -11,6 +11,7 @@ RPM_HASH = "169d13ef49be35a7cc76f95b4dc7169674c9c28ce93514e4e95802ffecf454502ba2
 RPROVIDES:${PN} += "librttopo-devel \
 librttopo-devel(aarch-64) \
 pkgconfig(rttopo)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librttopo1"
 

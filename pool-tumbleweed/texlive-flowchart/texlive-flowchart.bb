@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(flowchart.sty) \
 texlive-flowchart"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/bin/awk \
 busybox-gawk"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

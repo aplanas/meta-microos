@@ -11,6 +11,7 @@ RPM_HASH = "acd571adc645de8b541321a15eb7440b2627a20c2d002316276bffee960413821d1f
 RPROVIDES:${PN} += "libulockmgr.so.1()(64bit) \
 libulockmgr1 \
 libulockmgr1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

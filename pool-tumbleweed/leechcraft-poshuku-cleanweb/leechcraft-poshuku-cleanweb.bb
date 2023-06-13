@@ -18,6 +18,7 @@ RPM_HASH = "7056afc5ac4b84c00ed809c6bd75fc66105eaaef2e23f7f2138e3acbf9fda2081bf9
 RPROVIDES:${PN} += "leechcraft-poshuku-cleanweb \
 leechcraft-poshuku-cleanweb(aarch-64) \
 libleechcraft_poshuku_cleanweb.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-poshuku \

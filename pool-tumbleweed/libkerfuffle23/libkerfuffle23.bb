@@ -10,6 +10,7 @@ RPM_HASH = "a0d3ee35fca0a0a52bfca3c5de8c82e03af809e1ca3a44ff057824109ae89dacd9a9
 RPROVIDES:${PN} += "libkerfuffle.so.23()(64bit) \
 libkerfuffle23 \
 libkerfuffle23(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

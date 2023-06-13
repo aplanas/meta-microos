@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ansible-lint \
 python3.10dist(ansible-lint) \
 python3dist(ansible-lint)"
+
 RDEPENDS:${PN} += "(python3-ruamel.yaml >= 0.17.31 and python3-ruamel.yaml < 0.18) \
 /usr/bin/python3 \
 ansible-core \

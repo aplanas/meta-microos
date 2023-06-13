@@ -11,6 +11,7 @@ RPM_HASH = "6333ebeeb4ba6c5084175c27cf7ab7093c28c220d0634271a4b8898a76f89469d278
 
 RPROVIDES:${PN} += "mpg123 \
 mpg123(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

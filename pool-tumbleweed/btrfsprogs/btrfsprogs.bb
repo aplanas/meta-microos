@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "btrfs-progs \
 btrfs-progs(aarch64) \
 btrfsprogs \
 btrfsprogs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 btrfsprogs-udev-rules \

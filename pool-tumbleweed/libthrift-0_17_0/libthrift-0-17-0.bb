@@ -16,6 +16,7 @@ RPM_HASH = "08446326da180ba615a1dc743abf70869e623df0278a5b22b261aa1b85c8dc8ed648
 RPROVIDES:${PN} += "libthrift-0.17.0.so()(64bit) \
 libthrift-0_17_0 \
 libthrift-0_17_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

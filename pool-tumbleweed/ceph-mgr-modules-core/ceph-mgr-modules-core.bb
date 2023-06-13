@@ -10,6 +10,7 @@ RPM_HASH = "cf6bdea3a7ec3e0feb5a8357afaeefe8ff3ee44f78e81c94bcfa1c5946fa4e707ed0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-modules-core"
+
 RDEPENDS:${PN} += "python3-CherryPy \
 python3-PyYAML \
 python3-Werkzeug \

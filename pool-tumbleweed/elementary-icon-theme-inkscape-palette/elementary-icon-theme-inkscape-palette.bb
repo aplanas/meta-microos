@@ -12,6 +12,7 @@ RPM_HASH = "3242c18ec7088ade37bc9a196509cbc91804b5a3ae2b43b1818c2dd2823727ed0d71
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elementary-icon-theme-inkscape-palette"
+
 RDEPENDS:${PN} += "elementary-icon-theme \
 inkscape"
 

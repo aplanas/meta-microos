@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-tenacity \
 python3.10dist(tenacity) \
 python310-tenacity \
 python3dist(tenacity)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

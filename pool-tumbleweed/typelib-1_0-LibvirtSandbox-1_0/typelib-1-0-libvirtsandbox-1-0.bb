@@ -11,6 +11,7 @@ RPM_HASH = "cf9075513f4e73177f7adb1ceac7226e46067935ff9a2b9ca3a01b3d0017af7bf4f8
 RPROVIDES:${PN} += "typelib(LibvirtSandbox) \
 typelib-1_0-LibvirtSandbox-1_0 \
 typelib-1_0-LibvirtSandbox-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libvirt-sandbox-1.0.so.5()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

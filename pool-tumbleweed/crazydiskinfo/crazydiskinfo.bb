@@ -13,6 +13,7 @@ RPM_HASH = "08740b6c5d38960f7450246ef40273a7288822713244a30e2a048fe922cdb9b35d92
 
 RPROVIDES:${PN} += "crazydiskinfo \
 crazydiskinfo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatasmart.so.4()(64bit) \

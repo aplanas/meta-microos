@@ -12,6 +12,7 @@ RPM_HASH = "b1a0556f41bea26d9a45c6c00788bdbb91bf453fa7c5342b5069cf4e3c2af6e75fe0
 
 RPROVIDES:${PN} += "mpop \
 mpop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

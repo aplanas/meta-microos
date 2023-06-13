@@ -10,6 +10,7 @@ RPM_HASH = "c671098a45df58ea4286a5047d6f58745d29024206901621215152289107cf7fa162
 
 RPROVIDES:${PN} += "usbguard-tools \
 usbguard-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -117,6 +117,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(noveldeco) \
 texlive-novel-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

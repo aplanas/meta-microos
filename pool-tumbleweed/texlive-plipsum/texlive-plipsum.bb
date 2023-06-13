@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(plipsum.tex) \
 texlive-plipsum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

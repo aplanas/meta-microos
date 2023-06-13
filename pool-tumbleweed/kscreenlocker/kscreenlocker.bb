@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(kcm_screenlocker.desktop) \
 kscreenlocker \
 kscreenlocker(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/killall \
 /usr/bin/perl \

@@ -17,6 +17,7 @@ patterns-caasp-kubeadm \
 patterns-containers-kubeadm \
 patterns-kubernetes-kubeadm \
 patterns-kubernetes-kubeadm(aarch-64)"
+
 RDEPENDS:${PN} += "autofs \
 busybox-k8s-yaml \
 ceph-common \

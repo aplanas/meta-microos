@@ -10,6 +10,7 @@ RPM_HASH = "8ff5f26dbce0f6272edc385593b97910aab752850d8165cf2e385f56ac032a66eb29
 RPROVIDES:${PN} += "libIMECore.so.0()(64bit) \
 libIMECore0 \
 libIMECore0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

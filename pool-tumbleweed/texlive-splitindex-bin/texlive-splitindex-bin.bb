@@ -9,6 +9,7 @@ RPM_HASH = "b417a98dfe7da3b2d71e335b15dbbe8d1914d9a92501c773ebb6fb966ca43ae93580
 
 RPROVIDES:${PN} += "texlive-splitindex-bin \
 texlive-splitindex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-splitindex"
 
 inherit rpm

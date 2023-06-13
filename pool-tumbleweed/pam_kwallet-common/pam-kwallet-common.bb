@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(pam_kwallet-common) \
 pam_kwallet-common"
+
 RDEPENDS:${PN} += "/bin/sh \
 kwalletd5 \
 socat"

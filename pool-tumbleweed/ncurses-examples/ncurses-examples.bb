@@ -11,6 +11,7 @@ RPM_HASH = "687a0559f457e511d71aab2724cf5e48724bff94680cc7e9b828f641967453fd34e1
 RPROVIDES:${PN} += "ncurses-examples \
 ncurses-examples(aarch-64) \
 ncurses-tests"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/bash \

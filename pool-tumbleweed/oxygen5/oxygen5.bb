@@ -9,6 +9,7 @@ RPM_HASH = "ab16266a3690cf87ec7cd2229c91ab7c8a15ef5cb7b59b1ae6c73df2105e6af6a13e
 
 RPROVIDES:${PN} += "oxygen5 \
 oxygen5(aarch-64)"
+
 RDEPENDS:${PN} += "oxygen5-decoration \
 oxygen5-style"
 

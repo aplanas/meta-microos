@@ -9,6 +9,7 @@ RPM_HASH = "b693cfca09c782fee880b6667bf626894bfb3915bb8e4ad63731441e0e1712ecf733
 
 RPROVIDES:${PN} += "clevis-bash-completion \
 clevis-bash-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash-completion \
 clevis"
 

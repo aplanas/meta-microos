@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hibernate_in_process_cache \
 jisp2"
+
 RDEPENDS:${PN} += "/bin/sh \
 javapackages-tools \
 update-alternatives"

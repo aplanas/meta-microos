@@ -9,6 +9,7 @@ RPM_HASH = "0a13afbcd47e9e768dc05e8d551f536164ec8e7b4c72b3e7dfe5e95aa1c14c72eb42
 
 RPROVIDES:${PN} += "texlive-ptex-bin \
 texlive-ptex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

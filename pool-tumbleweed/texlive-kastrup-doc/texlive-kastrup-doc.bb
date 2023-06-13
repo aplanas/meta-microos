@@ -9,6 +9,7 @@ RPM_HASH = "c754296e3984a4e6019a04c05d56adc073e5809af029dfd81430f9d4a2d501430893
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kastrup-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

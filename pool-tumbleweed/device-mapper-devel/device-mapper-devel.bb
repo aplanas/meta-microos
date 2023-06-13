@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "device-mapper-devel \
 device-mapper-devel(aarch-64) \
 pkgconfig(devmapper) \
 pkgconfig(devmapper-event)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 device-mapper \
 libdevmapper-event1_03 \

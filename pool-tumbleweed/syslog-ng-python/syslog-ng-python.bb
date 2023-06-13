@@ -9,6 +9,7 @@ RPM_HASH = "e65e50c2a959efb98954adf6d57b167a46b703b09e7f5df26456abe0883bb722f8d0
 
 RPROVIDES:${PN} += "syslog-ng-python \
 syslog-ng-python(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -25,6 +25,7 @@ python3.10dist(rtree) \
 python310-Rtree \
 python310-rtree \
 python3dist(rtree)"
+
 RDEPENDS:${PN} += "libspatialindex6 \
 python(abi)"
 

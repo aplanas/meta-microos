@@ -16,6 +16,7 @@ RPM_HASH = "3f724abb876fa053259e86b76e35f30af562be7df1ebf66603505e69aa84b129fffc
 
 RPROVIDES:${PN} += "libnfc-tools \
 libnfc-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

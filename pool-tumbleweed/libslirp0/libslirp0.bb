@@ -16,6 +16,7 @@ libslirp.so.0(SLIRP_4.5)(64bit) \
 libslirp.so.0(SLIRP_4.7)(64bit) \
 libslirp0 \
 libslirp0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

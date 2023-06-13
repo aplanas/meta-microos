@@ -11,6 +11,7 @@ RPM_HASH = "2604789b8aecc9caec2d2264a3cc62fb033750e4ab4b9fde47442667a69afbe6aca3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-vpat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

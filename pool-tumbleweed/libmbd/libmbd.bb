@@ -12,6 +12,7 @@ RPM_HASH = "0e63eae1b876e49849d39ea51343e82a20cc931810edc159ae6e164a7edad63c2679
 RPROVIDES:${PN} += "libmbd \
 libmbd(aarch-64) \
 libmbd.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

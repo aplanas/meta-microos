@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-etcd \
 python3.10dist(python-etcd) \
 python310-etcd \
 python3dist(python-etcd)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dnspython \
 python310-urllib3"

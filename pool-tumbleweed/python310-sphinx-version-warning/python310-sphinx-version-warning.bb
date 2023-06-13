@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinx-version-warning \
 python3.10dist(sphinx-version-warning) \
 python310-sphinx-version-warning \
 python3dist(sphinx-version-warning)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

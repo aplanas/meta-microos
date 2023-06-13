@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-elastic \
 python3.10dist(azure-mgmt-elastic) \
 python310-azure-mgmt-elastic \
 python3dist(azure-mgmt-elastic)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

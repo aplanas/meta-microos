@@ -65,6 +65,7 @@ locale(libxfce4util:uk) \
 locale(libxfce4util:zh_CN) \
 locale(libxfce4util:zh_HK) \
 locale(libxfce4util:zh_TW)"
+
 RDEPENDS:${PN} += "libxfce4util"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "7b681ac7ad237fb7575f238ff6bda6ed1f563d07f202b15566b41c8396d1753f57cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ukbill-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

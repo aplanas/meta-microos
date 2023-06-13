@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xoptarg.sty) \
 texlive-xoptarg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

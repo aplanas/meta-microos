@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5Sensors-private-headers-devel \
 libqt5-qtsensors-private-headers-devel"
+
 RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
 libqt5-qtsensors-devel"
 

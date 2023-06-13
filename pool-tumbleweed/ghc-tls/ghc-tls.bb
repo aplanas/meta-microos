@@ -21,6 +21,7 @@ RPM_HASH = "698848862edff202e264b90ec874e3de6f6aba145ef1931c8915c38175d943c8e4ec
 RPROVIDES:${PN} += "ghc-tls \
 ghc-tls(aarch-64) \
 libHStls-1.6.0-48osxqPawrs8SblkErmTaM-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk-ghc9.4.5.so()(64bit) \
 libHSasn1-parse-0.9.5-EPDirjvv9Ch16KeQVAexUV-ghc9.4.5.so()(64bit) \

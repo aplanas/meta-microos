@@ -12,6 +12,7 @@ cmake(Qt6ProtobufTools) \
 pkgconfig(Qt6Protobuf) \
 qt6-protobuf-devel \
 qt6-protobuf-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 ld-linux-aarch64.so.1()(64bit) \

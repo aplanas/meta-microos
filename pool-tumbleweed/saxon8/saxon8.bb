@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxp_transform_impl \
 saxon8"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/update-alternatives \
 bea-stax \

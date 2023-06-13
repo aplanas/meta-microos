@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(tlp) \
 metainfo() \
 metainfo(de.linrunner.tlp.metainfo.xml) \
 tlp"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 hdparm \

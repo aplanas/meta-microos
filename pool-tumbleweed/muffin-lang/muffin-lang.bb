@@ -90,6 +90,7 @@ locale(muffin:zh_HK) \
 locale(muffin:zh_TW) \
 muffin-lang \
 muffin-lang-all"
+
 RDEPENDS:${PN} += "muffin"
 
 inherit rpm

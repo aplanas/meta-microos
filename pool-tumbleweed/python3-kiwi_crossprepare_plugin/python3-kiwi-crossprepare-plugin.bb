@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3-kiwi_crossprepare_plugin \
 python3-kiwi_crossprepare_plugin(aarch-64) \
 python3.10dist(kiwi-crossprepare-plugin) \
 python3dist(kiwi-crossprepare-plugin)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-PyYAML \
 python3-docopt \

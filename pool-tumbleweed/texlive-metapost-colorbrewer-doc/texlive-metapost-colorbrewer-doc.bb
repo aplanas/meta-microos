@@ -9,6 +9,7 @@ RPM_HASH = "a3223659fbbc1f0c05d9e9bc0aa7ee1663815db6695fb98a17f020af0898d789f285
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metapost-colorbrewer-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

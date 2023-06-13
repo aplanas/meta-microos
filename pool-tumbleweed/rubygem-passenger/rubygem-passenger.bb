@@ -11,6 +11,7 @@ RPM_HASH = "6b175b7b01ce584680edaa51f2924f7c36e3fa8ddc29541e2f8db61bc7f442088b4e
 RPROVIDES:${PN} += "config(rubygem-passenger) \
 rubygem-passenger \
 rubygem-passenger(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/node \
 /usr/bin/ruby \

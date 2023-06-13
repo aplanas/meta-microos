@@ -13,6 +13,7 @@ pkgconfig(RapidJSON) \
 rapidjson \
 rapidjson-devel \
 rapidjson-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

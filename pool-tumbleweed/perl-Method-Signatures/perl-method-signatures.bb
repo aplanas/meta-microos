@@ -25,6 +25,7 @@ perl(Method::Signatures::Signature) \
 perl(Method::Signatures::Types) \
 perl(Method::Signatures::Utils) \
 perl-Method-Signatures"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Any::Moose) \
 perl(Const::Fast) \

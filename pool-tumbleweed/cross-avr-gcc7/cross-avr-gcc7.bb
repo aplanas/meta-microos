@@ -10,6 +10,7 @@ RPM_HASH = "e5a4da6bdeba55d25e3227bfe6711b1960f7e98fa3baefba2d406553a289034e7e82
 RPROVIDES:${PN} += "cross-avr-gcc7 \
 cross-avr-gcc7(aarch-64) \
 liblto_plugin.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-avr-binutils \
 libc.so.6(GLIBC_2.36)(64bit) \

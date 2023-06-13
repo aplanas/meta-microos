@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-trustme \
 python3.10dist(trustme) \
 python310-trustme \
 python3dist(trustme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography \
 python310-idna"

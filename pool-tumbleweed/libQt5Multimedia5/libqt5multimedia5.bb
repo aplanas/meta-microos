@@ -67,6 +67,7 @@ libqtmedia_pulse.so()(64bit) \
 libqtmultimedia_m3u.so()(64bit) \
 qt5qmlimport(QtAudioEngine.1) \
 qt5qmlimport(QtMultimedia.5)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

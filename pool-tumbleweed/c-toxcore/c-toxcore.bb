@@ -15,6 +15,7 @@ RPM_HASH = "0084738636c4a6e4298e018fe4d72dd1fa06e7fb06d642fa431b10c6c3c382317011
 
 RPROVIDES:${PN} += "c-toxcore \
 c-toxcore(aarch-64)"
+
 RDEPENDS:${PN} += "shadow \
 systemd"
 

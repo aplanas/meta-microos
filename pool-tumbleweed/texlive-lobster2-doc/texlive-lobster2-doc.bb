@@ -9,6 +9,7 @@ RPM_HASH = "a08db1a1e884109edb72bc78a1dd9a27b9608bda3b9172ac39cc21dec1c4df16ca74
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lobster2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

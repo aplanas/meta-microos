@@ -12,6 +12,7 @@ RPM_HASH = "12d11fb17292dca28b13497f4c8f2ce0614aad96bbaff55d8f5614e19229f2035870
 RPROVIDES:${PN} += "ghc-uglymemo \
 ghc-uglymemo(aarch-64) \
 libHSuglymemo-0.1.0.1-Balkr8KlO4bDeailuusufT-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \

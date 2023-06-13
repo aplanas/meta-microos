@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(buttplug) \
 python311-buttplug \
 python3dist(buttplug)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-websockets"
 

@@ -18,6 +18,7 @@ metainfo(idle3.9.appdata.xml) \
 mimehandler(text/x-python) \
 python39-idle \
 python39-idle(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 python(abi) \
 python39 \

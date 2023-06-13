@@ -11,6 +11,7 @@ RPM_HASH = "4fa81b463030cad25152c2aa800dd6ee857a75c0db8c210fd7d342b3978775d3e372
 RPROVIDES:${PN} += "libobjc2-devel \
 libobjc2-devel(aarch-64) \
 pkgconfig(libobjc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libobjc4_6"
 

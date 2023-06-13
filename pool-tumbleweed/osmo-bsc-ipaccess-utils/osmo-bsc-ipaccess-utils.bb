@@ -11,6 +11,7 @@ RPM_HASH = "bbcc225d73d4f796ee069fc79f61229eed6786191df30479f9da2970195a529bd28c
 
 RPROVIDES:${PN} += "osmo-bsc-ipaccess-utils \
 osmo-bsc-ipaccess-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "f97e7450e4611606cef995a3e3cec8b65c31b7fd839fbc69eaeb99309d765aa4834e
 
 RPROVIDES:${PN} += "mpiP_3_5-gnu-mvapich2-hpc-doc \
 mpiP_3_5-gnu-mvapich2-hpc-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

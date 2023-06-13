@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(hylafax+-client) \
 hylafax+-client \
 hylafax+-client(aarch-64) \
 hylafax-client"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "10a322cd8985df0593125185d88631ab4080a403decaa69c36e74dac8ef67d9dfc7a
 
 RPROVIDES:${PN} += "libqt5-qtdeclarative-tools \
 libqt5-qtdeclarative-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

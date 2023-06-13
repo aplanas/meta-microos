@@ -9,6 +9,7 @@ RPM_HASH = "e629ce9073f96021194a5487e14136668874c18532e852f1875ebbb01632bb748915
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qtermwidget-qt5-data"
+
 RDEPENDS:${PN} += "libqtermwidget5-1"
 
 inherit rpm

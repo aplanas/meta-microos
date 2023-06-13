@@ -32,6 +32,7 @@ perl(Perl::PrereqScanner::Scanner::Perl5) \
 perl(Perl::PrereqScanner::Scanner::Superclass) \
 perl(Perl::PrereqScanner::Scanner::TestMore) \
 perl-Perl-PrereqScanner"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Meta::Requirements) \

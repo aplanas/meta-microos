@@ -11,6 +11,7 @@ RPM_HASH = "7c0862f12af0749786ff079cf75511f6be444fa601e8c347a350a21c9f4ee7082df1
 RPROVIDES:${PN} += "libXaw3d.so.7()(64bit) \
 libXaw3d7 \
 libXaw3d7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

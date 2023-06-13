@@ -79,6 +79,7 @@ locale(kteatime:uk) \
 locale(kteatime:wa) \
 locale(kteatime:zh_CN) \
 locale(kteatime:zh_TW)"
+
 RDEPENDS:${PN} += "kteatime"
 
 inherit rpm

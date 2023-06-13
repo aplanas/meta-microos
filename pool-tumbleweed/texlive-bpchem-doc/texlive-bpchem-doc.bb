@@ -9,6 +9,7 @@ RPM_HASH = "6ece2dad69e94497485c4d862280e39981d62486756fc6c9940cd5bf94019c85ebe0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bpchem-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

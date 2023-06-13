@@ -10,6 +10,7 @@ RPM_HASH = "864d52c5e63b6b574d64650ae19d65615d29eef00eea99e9dcb49bd249dd3d99fc41
 
 RPROVIDES:${PN} += "pcp-pmda-pdns \
 pcp-pmda-pdns(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 perl-PCP-PMDA"
 

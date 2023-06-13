@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-Whoosh \
 python3.10dist(whoosh) \
 python310-Whoosh \
 python3dist(whoosh)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

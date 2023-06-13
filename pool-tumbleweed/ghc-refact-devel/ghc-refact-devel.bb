@@ -10,6 +10,7 @@ RPM_HASH = "be6df61897df171c1a35c2574d06651599582769cdc9e643588169dfee858039e979
 RPROVIDES:${PN} += "ghc-devel(refact-0.3.0.2-4ZnrxSKFCNFLIgjtpZGW26) \
 ghc-refact-devel \
 ghc-refact-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

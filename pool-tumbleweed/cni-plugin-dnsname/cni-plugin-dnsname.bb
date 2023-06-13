@@ -15,6 +15,7 @@ RPM_HASH = "f2f8ae6e3cf8eef5830dd67545aa21885a12b4018f73c910da44a19be61b735f5555
 
 RPROVIDES:${PN} += "cni-plugin-dnsname \
 cni-plugin-dnsname(aarch-64)"
+
 RDEPENDS:${PN} += "cni \
 dnsmasq \
 libc.so.6(GLIBC_2.34)(64bit)"

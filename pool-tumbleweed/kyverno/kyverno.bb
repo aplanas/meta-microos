@@ -9,6 +9,7 @@ RPM_HASH = "26a97d6444f56af4bbe320634fd02e2a0bcfb33cded7915ce4b1ca2bbcbd75450b3b
 
 RPROVIDES:${PN} += "kyverno \
 kyverno(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

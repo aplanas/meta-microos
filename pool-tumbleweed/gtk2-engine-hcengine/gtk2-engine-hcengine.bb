@@ -11,6 +11,7 @@ RPM_HASH = "6293204291087af2ba7f8022ba2c61683ea8451095e8fb6e2826c3af85076d59f6f7
 RPROVIDES:${PN} += "gtk2-engine-hcengine \
 gtk2-engine-hcengine(aarch-64) \
 libhcengine.so()(64bit)"
+
 RDEPENDS:${PN} += "gtk2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

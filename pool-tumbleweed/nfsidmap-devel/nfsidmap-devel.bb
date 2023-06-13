@@ -12,6 +12,7 @@ RPM_HASH = "4f763bbd647c1a83cb733f1405ea42f62ff94f18cbcd29576b2b447e7a1ffc389d34
 RPROVIDES:${PN} += "nfsidmap-devel \
 nfsidmap-devel(aarch-64) \
 pkgconfig(libnfsidmap)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnfsidmap1"
 

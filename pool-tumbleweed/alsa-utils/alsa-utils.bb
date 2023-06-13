@@ -11,6 +11,7 @@ RPM_HASH = "c0d52cee2e800bed983ca42cc6eed82695fb37bcf5b64cac260d608b7d1754fdc52a
 RPROVIDES:${PN} += "alsa-utils \
 alsa-utils(aarch-64) \
 libalsatplg_module_nhlt.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 alsa \

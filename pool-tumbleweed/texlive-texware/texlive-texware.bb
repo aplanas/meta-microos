@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(dvitype.1) \
 man(pooltype.1) \
 texlive-texware"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

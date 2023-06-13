@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(clefval.sty) \
 texlive-clefval"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

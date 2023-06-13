@@ -20,6 +20,7 @@ RPM_HASH = "a01b8313d0c58909a027473d61647ba134c13365ebb21c5d956d45fca213675dff0d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gude-mouseclock-udev"
+
 RDEPENDS:${PN} += "/bin/sh \
 systemd \
 user(ntp)"

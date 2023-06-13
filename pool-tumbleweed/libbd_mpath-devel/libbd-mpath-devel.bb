@@ -11,6 +11,7 @@ RPM_HASH = "747f74955f0f561a059b51cd886d64f82876e13d48f18065d92bfd49de6b9e3ff650
 RPROVIDES:${PN} += "libbd_mpath-devel \
 libbd_mpath-devel(aarch-64) \
 libblockdev-mpath-devel"
+
 RDEPENDS:${PN} += "glib2-devel \
 libbd_mpath2 \
 libbd_utils-devel"

@@ -13,6 +13,7 @@ RPM_HASH = "5bf3e3ebccf36cab0caabb56c72a5a725a0a5d1bdd31ac81b905b4911c1810620d21
 
 RPROVIDES:${PN} += "pulseaudio-module-lirc \
 pulseaudio-module-lirc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "5e448c16395d7e667d2605fba1342d924b7733b9bf91131b6b6e41feaf0cc01b2d71
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-kalender-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

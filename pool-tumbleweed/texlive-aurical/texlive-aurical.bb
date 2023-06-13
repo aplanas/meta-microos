@@ -45,6 +45,7 @@ tex(T1LukasSvatba.fd) \
 tex(aurical.map) \
 tex(aurical.sty) \
 texlive-aurical"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

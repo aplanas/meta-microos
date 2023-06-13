@@ -37,6 +37,7 @@ locale(pragha:vi) \
 locale(pragha:zh_CN) \
 pragha-lang \
 pragha-lang-all"
+
 RDEPENDS:${PN} += "pragha"
 
 inherit rpm

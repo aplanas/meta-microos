@@ -22,6 +22,7 @@ tex(mycv_misc.def) \
 tex(mycv_style.sty) \
 tex(mycv_version.def) \
 texlive-mycv"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

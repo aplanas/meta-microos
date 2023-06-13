@@ -15,6 +15,7 @@ ispell-polish \
 ispell-polish(aarch-64) \
 ispell_dictionary \
 locale(ispell:pl)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

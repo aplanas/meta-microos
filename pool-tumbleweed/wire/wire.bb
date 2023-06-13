@@ -13,6 +13,7 @@ RPM_HASH = "e9f04131b32c371445edee3f5dee1505f208bd4a6e7e280e6ac40c5cfc4bef27469f
 
 RPROVIDES:${PN} += "wire \
 wire(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

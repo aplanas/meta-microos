@@ -13,6 +13,7 @@ RPM_HASH = "ed6c031b131184322cde2572ab59da4c079003b83ae4ac0d5bede5159b6093faf15f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "entangle-doc"
+
 RDEPENDS:${PN} += "entangle"
 
 inherit rpm

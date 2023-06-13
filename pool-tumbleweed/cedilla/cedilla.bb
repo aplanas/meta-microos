@@ -31,6 +31,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cedilla \
 config(cedilla)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/clisp \
 clisp \

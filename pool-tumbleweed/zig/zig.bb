@@ -15,6 +15,7 @@ RPM_HASH = "f21255e7e251af3d2377168dc25921f926f23b1ee1f260c16928c72fca87a25b3fd3
 
 RPROVIDES:${PN} += "zig \
 zig(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.15()(64bit) \

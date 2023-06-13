@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-endnotesj-doc:ja) \
 texlive-endnotesj-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "f1f82fd0b9f639a53e87955a60c609f8291d76d535be18b2b7f17bb86699a46dae9c
 RPROVIDES:${PN} += "libportal-qt5-devel \
 libportal-qt5-devel(aarch-64) \
 pkgconfig(libportal-qt5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libportal-qt5-1 \
 pkgconfig(Qt5Core) \

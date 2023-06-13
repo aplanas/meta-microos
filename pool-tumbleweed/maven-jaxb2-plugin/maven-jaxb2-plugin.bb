@@ -21,6 +21,7 @@ mvn(org.jvnet.jaxb2.maven2:maven-jaxb22-plugin) \
 mvn(org.jvnet.jaxb2.maven2:maven-jaxb22-plugin:pom:) \
 mvn(org.jvnet.jaxb2.maven2:maven-jaxb23-plugin) \
 mvn(org.jvnet.jaxb2.maven2:maven-jaxb23-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.sun.activation:javax.activation) \

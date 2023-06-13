@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fullblck.sty) \
 texlive-fullblck"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

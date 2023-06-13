@@ -14,6 +14,7 @@ gnome-version \
 libgnome-desktop-3-20 \
 libgnome-desktop-3-20(aarch-64) \
 libgnome-desktop-3.so.20()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 bubblewrap \
 gsettings-desktop-schemas \

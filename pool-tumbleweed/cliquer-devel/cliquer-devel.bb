@@ -12,6 +12,7 @@ RPM_HASH = "f102226aa739d436fad4555ef7023d075eaeff3c7e2353c872d6dc8be69f67daea04
 
 RPROVIDES:${PN} += "cliquer-devel \
 cliquer-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcliquer1"
 
 inherit rpm

@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-jedi \
 python3.10dist(jedi) \
 python310-jedi \
 python3dist(jedi)"
+
 RDEPENDS:${PN} += "(python310-parso >= 0.8.0 with python310-parso < 0.9) \
 python(abi)"
 

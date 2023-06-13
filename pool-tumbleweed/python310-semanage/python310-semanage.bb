@@ -11,6 +11,7 @@ RPM_HASH = "033b5da78503e06d790101c15fe42e8fefa33e5ea60e5e4bd25a8bd49fd83b0c5654
 RPROVIDES:${PN} += "python3-semanage \
 python310-semanage \
 python310-semanage(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "6826d4c74590d5a977de20bf32494df996f43c0ae7e2d425671a71f7bd9c2bd38b7e
 RPROVIDES:${PN} += "libmspub-0.1.so.1()(64bit) \
 libmspub-0_1-1 \
 libmspub-0_1-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

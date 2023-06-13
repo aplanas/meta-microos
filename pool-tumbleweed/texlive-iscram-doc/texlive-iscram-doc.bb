@@ -9,6 +9,7 @@ RPM_HASH = "ca9b0d09461acc74c25cbfa95d99a2831fd33c70d2c45c562949966dccd3f836182b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-iscram-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

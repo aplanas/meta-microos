@@ -11,6 +11,7 @@ RPM_HASH = "1b7538a96260a13e0164bb47182fcd6c5a0b93a2b4a9361a8a8fdb1e08bbca72c9db
 RPROVIDES:${PN} += "libauparse.so.0()(64bit) \
 libauparse0 \
 libauparse0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

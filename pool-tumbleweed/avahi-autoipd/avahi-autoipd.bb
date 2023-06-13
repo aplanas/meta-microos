@@ -16,6 +16,7 @@ avahi-autoipd(aarch-64) \
 avahi:/usr/sbin/avahi-autoipd \
 group(avahi-autoipd) \
 user(avahi-autoipd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

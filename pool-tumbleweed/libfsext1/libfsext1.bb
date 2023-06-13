@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "libfsext.so.1()(64bit) \
 libfsext.so.1(V_20230603)(64bit) \
 libfsext1 \
 libfsext1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

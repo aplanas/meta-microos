@@ -9,6 +9,7 @@ RPM_HASH = "e786ac8e023ab68680bcc2a99a889e686c9e26d9d84e3f0acc58bf8939df3c2dfcc9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fenixpar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

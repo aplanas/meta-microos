@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ffcode.sty) \
 texlive-ffcode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

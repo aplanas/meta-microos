@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "glassfish-jaxb-api \
 mvn(javax.xml.bind:jaxb-api) \
 mvn(javax.xml.bind:jaxb-api:pom:) \
 osgi(jaxb-api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.activation:javax.activation-api)"

@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "mvn(javax.measure:unit-api) \
 mvn(javax.measure:unit-api:pom:) \
 osgi(javax.measure.unit-api) \
 unit-api"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

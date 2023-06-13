@@ -9,6 +9,7 @@ RPM_HASH = "319727defa2332b43e25cb803c96c56cd6ebeb0330c1f5eb65310b2ca45ddcba3575
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pitex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

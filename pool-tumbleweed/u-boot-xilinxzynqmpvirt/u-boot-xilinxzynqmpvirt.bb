@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "u-boot-loader \
 u-boot-xilinxzynqmpgeneric \
 u-boot-xilinxzynqmpvirt \
 u-boot-xilinxzynqmpvirt(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-storages \
 python3.10dist(django-storages) \
 python310-django-storages \
 python3dist(django-storages)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

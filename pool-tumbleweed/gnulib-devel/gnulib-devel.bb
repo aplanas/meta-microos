@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnulib \
 gnulib-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/python3 \

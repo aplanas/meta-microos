@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(uml.sty) \
 texlive-uml"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

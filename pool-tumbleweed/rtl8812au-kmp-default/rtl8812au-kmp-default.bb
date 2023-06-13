@@ -19,6 +19,7 @@ rtl8812au-kmp \
 rtl8812au-kmp-default \
 rtl8812au-kmp-default(aarch-64) \
 rtl8812au-kmp-default-k6.3.4_1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

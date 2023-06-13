@@ -11,6 +11,7 @@ RPM_HASH = "b8df86a2809ae1b35f2a216398b335f604f5fb0ff7f5cd9fa0c578de8a2c39de64d7
 
 RPROVIDES:${PN} += "browserpass-native \
 browserpass-native(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

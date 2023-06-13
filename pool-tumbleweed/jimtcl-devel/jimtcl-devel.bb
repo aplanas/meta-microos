@@ -11,6 +11,7 @@ RPM_HASH = "939490e446e7261de7a6782e571e954f7b0cf4351cd264eccee79012e563e2abf603
 RPROVIDES:${PN} += "jimtcl-devel \
 jimtcl-devel(aarch-64) \
 pkgconfig(jimtcl)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/pkg-config \
 jimtcl \

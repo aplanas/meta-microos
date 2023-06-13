@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-confidentialledger \
 python3.10dist(azure-mgmt-confidentialledger) \
 python310-azure-mgmt-confidentialledger \
 python3dist(azure-mgmt-confidentialledger)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

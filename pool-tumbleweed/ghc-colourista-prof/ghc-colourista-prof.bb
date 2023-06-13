@@ -10,6 +10,7 @@ RPM_HASH = "a516ca4cbc364335c8819a8983f67ca0a79d2cecf42e029dcfb1a484d782c3a560aa
 RPROVIDES:${PN} += "ghc-colourista-prof \
 ghc-colourista-prof(aarch-64) \
 ghc-prof(colourista-0.1.0.2-5hJOPOBvzIt9IdOCkudaU3)"
+
 RDEPENDS:${PN} += "ghc-colourista-devel \
 ghc-prof(ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3) \
 ghc-prof(base-4.17.1.0) \

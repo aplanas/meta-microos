@@ -17,6 +17,7 @@ pkgconfig(clanNetwork-4.1) \
 pkgconfig(clanSound-4.1) \
 pkgconfig(clanUI-4.1) \
 pkgconfig(clanXML-4.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 c++_compiler \
 clanlib \

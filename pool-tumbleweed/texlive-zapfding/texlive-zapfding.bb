@@ -22,6 +22,7 @@ tex(uuzd.fd) \
 tex(uzd.map) \
 tex(uzdr.tfm) \
 texlive-zapfding"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

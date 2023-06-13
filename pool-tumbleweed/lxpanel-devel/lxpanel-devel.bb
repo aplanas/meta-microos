@@ -10,6 +10,7 @@ RPM_HASH = "fc2a323517f9391670d9e6517775826d943e91f5706af5982c97093962587668bb28
 RPROVIDES:${PN} += "lxpanel-devel \
 lxpanel-devel(aarch-64) \
 pkgconfig(lxpanel)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 liblxpanel0 \

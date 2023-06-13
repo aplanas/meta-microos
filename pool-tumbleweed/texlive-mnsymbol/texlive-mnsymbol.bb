@@ -129,6 +129,7 @@ tex(MnSymbolS7.tfm) \
 tex(MnSymbolS8.tfm) \
 tex(MnSymbolS9.tfm) \
 texlive-mnsymbol"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

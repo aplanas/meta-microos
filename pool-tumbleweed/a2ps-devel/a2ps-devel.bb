@@ -14,6 +14,7 @@ RPM_HASH = "543351d7a64e95d4cab542375323d3c560e114a2d5af4db829f936b4db3d72f58a73
 
 RPROVIDES:${PN} += "a2ps-devel \
 a2ps-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 liba2ps1"
 

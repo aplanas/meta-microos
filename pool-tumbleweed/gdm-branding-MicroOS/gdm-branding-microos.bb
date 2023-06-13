@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(gdm-branding-MicroOS) \
 gdm-branding \
 gdm-branding-MicroOS"
+
 RDEPENDS:${PN} += "distribution-logos \
 gdm"
 

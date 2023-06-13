@@ -9,6 +9,7 @@ RPM_HASH = "c57e01de4bb19fc4d27d7740f8cd5dbc31f2863540b8b596fc5eb3172d51d27ee0f6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fncylab-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

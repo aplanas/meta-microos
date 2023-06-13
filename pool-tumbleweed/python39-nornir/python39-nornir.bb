@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(nornir) \
 python39-nornir \
 python3dist(nornir)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-mypy_extensions \
 python39-ruamel.yaml \

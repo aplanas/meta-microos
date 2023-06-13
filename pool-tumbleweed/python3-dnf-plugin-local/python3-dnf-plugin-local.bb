@@ -14,6 +14,7 @@ dnf-plugin-local \
 dnf-plugins-extras-local \
 python3-dnf-plugin-local \
 python3-dnf-plugins-extras-local"
+
 RDEPENDS:${PN} += "createrepo_c \
 python(abi) \
 python3-dnf-plugins-core"

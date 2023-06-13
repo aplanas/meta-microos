@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(podman) \
 python311-podman \
 python3dist(podman)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pyxdg \
 python311-requests \

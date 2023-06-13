@@ -10,6 +10,7 @@ RPM_HASH = "de69a1f5655d79d2b454f71f7e050aa0375f81666cbaa829d3b280b6bb5ca14b85d9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-zypp-plugin"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-base"
 

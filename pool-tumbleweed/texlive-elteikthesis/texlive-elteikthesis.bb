@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(elteikthesis.cls) \
 texlive-elteikthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

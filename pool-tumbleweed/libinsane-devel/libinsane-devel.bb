@@ -10,6 +10,7 @@ RPM_HASH = "b098ffe819c0109081154b29070edb069d52843bf76caed35ea124c32e17e2460253
 RPROVIDES:${PN} += "libinsane-devel \
 libinsane-devel(aarch-64) \
 pkgconfig(libinsane)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libinsane1 \
 pkgconfig(sane-backends) \

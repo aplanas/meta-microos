@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(macrolist.sty) \
 texlive-macrolist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

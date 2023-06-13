@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "fcitx-libpinyin \
 fcitx-libpinyin(aarch-64) \
 libfcitx-libpinyin-dictmanager.so()(64bit) \
 locale(fcitx:zh_CN;zh_SG)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fcitx \
 ld-linux-aarch64.so.1()(64bit) \

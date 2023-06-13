@@ -13,6 +13,7 @@ RPM_HASH = "1d584c8f9a19f67ce895008e3e5f62c8349b00df848d1f01cb18e3f8a95c59e2c1c3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iscsi-formula"
+
 RDEPENDS:${PN} += "salt-formulas-configuration"
 
 inherit rpm

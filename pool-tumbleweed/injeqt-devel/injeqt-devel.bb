@@ -13,6 +13,7 @@ RPM_HASH = "2e660b42daaa3b3f4629d960fc533a4d3fd8e710961400a723026be8c767d68f703b
 RPROVIDES:${PN} += "injeqt-devel \
 injeqt-devel(aarch-64) \
 pkgconfig(injeqt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libinjeqt1"
 

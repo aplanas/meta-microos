@@ -16,6 +16,7 @@ RPM_HASH = "54aa34ab5aa21ba6bac0cb511f453802ce6adcd4bc72c8c4ee1b36287b6f283afd71
 
 RPROVIDES:${PN} += "vtk-openmpi3-devel \
 vtk-openmpi3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cgns-devel \
 cmake \
 cmake(Verdict) \

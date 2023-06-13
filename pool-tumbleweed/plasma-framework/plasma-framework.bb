@@ -10,6 +10,7 @@ RPM_HASH = "8de9cdbfcc302a05232c433532f92400d9b967aeb2103e8fbaaccb33d9d00357abbe
 RPROVIDES:${PN} += "plasma-framework \
 plasma-framework(aarch-64) \
 plasma-framework-private"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

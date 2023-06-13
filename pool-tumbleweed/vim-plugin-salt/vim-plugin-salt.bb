@@ -9,6 +9,7 @@ RPM_HASH = "1ea1071daf1ef55e3b0319f71751115b372a1f335ccd3d6d2f485e72472a7a77a271
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-salt"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

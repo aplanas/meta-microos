@@ -68,6 +68,7 @@ locale(okteta:zh_CN) \
 locale(okteta:zh_TW) \
 okteta-lang \
 okteta-lang-all"
+
 RDEPENDS:${PN} += "okteta"
 
 inherit rpm

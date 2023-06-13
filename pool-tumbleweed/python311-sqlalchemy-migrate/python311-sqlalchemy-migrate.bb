@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sqlalchemy-migrate) \
 python311-sqlalchemy-migrate \
 python3dist(sqlalchemy-migrate)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

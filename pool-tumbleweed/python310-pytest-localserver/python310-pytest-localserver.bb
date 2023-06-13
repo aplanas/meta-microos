@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-pytest-localserver \
 python3.10dist(pytest-localserver) \
 python310-pytest-localserver \
 python3dist(pytest-localserver)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Werkzeug \
 python310-pytest"

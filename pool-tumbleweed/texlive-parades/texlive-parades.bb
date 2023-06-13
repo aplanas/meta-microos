@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(paravesp.sty) \
 texlive-parades"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

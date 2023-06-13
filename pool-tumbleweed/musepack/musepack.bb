@@ -15,6 +15,7 @@ RPM_HASH = "c55dd6f6310dc1606285bd492505d98f6717e7a957f9825ebcb6a154144852267466
 
 RPROVIDES:${PN} += "musepack \
 musepack(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

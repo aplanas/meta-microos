@@ -9,6 +9,7 @@ RPM_HASH = "6d5f677e0ae2fffe111afe312e06a46a717407acbc1af31faca580a682541cacaca5
 
 RPROVIDES:${PN} += "hyper-v \
 hyper-v(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

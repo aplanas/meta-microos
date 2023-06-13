@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(log4cxx) \
 liblog4cxx-devel \
 liblog4cxx-devel(aarch-64) \
 pkgconfig(liblog4cxx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblog4cxx13 \
 pkgconfig(apr-1) \

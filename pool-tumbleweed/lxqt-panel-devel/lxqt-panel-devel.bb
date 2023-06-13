@@ -9,6 +9,7 @@ RPM_HASH = "3326c14ce45127f5ed67ddfddd9acac35bc5ed646cb1c8e3db99e88be3ff1a8f25ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-panel-devel"
+
 RDEPENDS:${PN} += "lxqt-panel"
 
 inherit rpm

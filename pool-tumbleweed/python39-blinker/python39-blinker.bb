@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(blinker) \
 python39-blinker \
 python3dist(blinker)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

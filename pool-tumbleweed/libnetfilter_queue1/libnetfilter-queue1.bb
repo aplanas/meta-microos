@@ -14,6 +14,7 @@ RPM_HASH = "0f42d6a48f0eb71cef4388215d9e1369f5d3325f71b8693611d03984ffc5279c1a77
 RPROVIDES:${PN} += "libnetfilter_queue.so.1()(64bit) \
 libnetfilter_queue1 \
 libnetfilter_queue1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "9f3b08b0c8c54f638baade2040f7e7cd5b1bd50fd7130d91e8439c2be1d167025079
 
 RPROVIDES:${PN} += "yasm \
 yasm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

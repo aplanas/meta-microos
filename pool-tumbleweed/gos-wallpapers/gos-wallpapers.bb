@@ -9,6 +9,7 @@ RPM_HASH = "2aa2a9ae13fc2d51e1fe83bf17c3b9efe17b3b96a0ce058bcae672ec3bcf2a9fd5ac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gos-wallpapers"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

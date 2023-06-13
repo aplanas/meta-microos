@@ -70,6 +70,7 @@ locale(konversation:ug) \
 locale(konversation:uk) \
 locale(konversation:zh_CN) \
 locale(konversation:zh_TW)"
+
 RDEPENDS:${PN} += "konversation"
 
 inherit rpm

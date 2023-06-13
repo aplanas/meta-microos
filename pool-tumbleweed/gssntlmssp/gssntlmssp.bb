@@ -10,6 +10,7 @@ RPM_HASH = "8a14239e65f00ae40d12e6454db82d02fd04df93003d436bce2d09e4032ad35baca9
 RPROVIDES:${PN} += "config(gssntlmssp) \
 gssntlmssp \
 gssntlmssp(aarch-64)"
+
 RDEPENDS:${PN} += "krb5 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

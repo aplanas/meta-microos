@@ -11,6 +11,7 @@ RPM_HASH = "949e50a7ee71f3907d239ee09b4c3d6f1d7ec6244559335a0d6a480c8e85f041bb30
 RPROVIDES:${PN} += "typelib(Libmsi) \
 typelib-1_0-Libmsi-1_0 \
 typelib-1_0-Libmsi-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libmsi.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

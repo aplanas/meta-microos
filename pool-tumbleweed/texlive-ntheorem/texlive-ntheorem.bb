@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ntheorem.sty) \
 texlive-ntheorem"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

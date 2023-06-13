@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "falkon-kde \
 falkon-kde(aarch-64) \
 falkon-kwallet \
 qupzilla-kwallet"
+
 RDEPENDS:${PN} += "falkon \
 kwalletd5 \
 ld-linux-aarch64.so.1()(64bit) \

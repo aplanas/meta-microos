@@ -18,6 +18,7 @@ metainfo(idle3.12.appdata.xml) \
 mimehandler(text/x-python) \
 python312-idle \
 python312-idle(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.12 \
 python(abi) \
 python312 \

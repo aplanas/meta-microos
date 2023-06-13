@@ -14,6 +14,7 @@ RPM_HASH = "eb58bf5b8835b36805a30efbc3c9125a702e737c380607a081b3e6f64c0de2370bd8
 RPROVIDES:${PN} += "chess_backend \
 fairymax \
 fairymax(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

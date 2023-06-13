@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-unicodecsv \
 python3.10dist(unicodecsv) \
 python310-unicodecsv \
 python3dist(unicodecsv)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

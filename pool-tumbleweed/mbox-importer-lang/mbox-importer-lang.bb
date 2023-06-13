@@ -56,6 +56,7 @@ locale(mbox-importer:zh_CN) \
 locale(mbox-importer:zh_TW) \
 mbox-importer-lang \
 mbox-importer-lang-all"
+
 RDEPENDS:${PN} += "mbox-importer"
 
 inherit rpm

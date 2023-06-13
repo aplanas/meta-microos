@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(apnum.tex) \
 texlive-apnum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

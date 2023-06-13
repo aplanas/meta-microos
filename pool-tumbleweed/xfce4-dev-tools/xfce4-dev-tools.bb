@@ -11,6 +11,7 @@ RPM_HASH = "5ea5b184116392cdb5b0c9b5989c42b933ea79e147bc3934025bbb1c12222b6cec57
 
 RPROVIDES:${PN} += "xfce4-dev-tools \
 xfce4-dev-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

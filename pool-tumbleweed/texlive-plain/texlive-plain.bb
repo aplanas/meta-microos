@@ -23,6 +23,7 @@ tex(picmac.tex) \
 tex(plain.tex) \
 tex(wlist.tex) \
 texlive-plain"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

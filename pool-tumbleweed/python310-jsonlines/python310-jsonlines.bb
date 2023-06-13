@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jsonlines \
 python3.10dist(jsonlines) \
 python310-jsonlines \
 python3dist(jsonlines)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(postfixadmin-apache) \
 postfixadmin-apache"
+
 RDEPENDS:${PN} += "apache2"
 
 inherit rpm

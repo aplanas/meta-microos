@@ -22,6 +22,7 @@ tex(gzt.cls) \
 tex(gzt.lbx) \
 tex(gztarticle.cls) \
 texlive-gzt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

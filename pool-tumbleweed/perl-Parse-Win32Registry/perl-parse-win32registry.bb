@@ -51,6 +51,7 @@ perl(Parse::Win32Registry::WinNT::Key) \
 perl(Parse::Win32Registry::WinNT::Security) \
 perl(Parse::Win32Registry::WinNT::Value) \
 perl-Parse-Win32Registry"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

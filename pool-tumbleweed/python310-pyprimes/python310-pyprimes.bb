@@ -31,6 +31,7 @@ RPROVIDES:${PN} += "python3-pyprimes \
 python3.10dist(pyprimes) \
 python310-pyprimes \
 python3dist(pyprimes)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

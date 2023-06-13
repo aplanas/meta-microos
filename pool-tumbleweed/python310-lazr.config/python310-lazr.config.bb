@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-lazr.config \
 python3.10dist(lazr.config) \
 python310-lazr.config \
 python3dist(lazr.config)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lazr.delegates \
 python310-zope.interface"

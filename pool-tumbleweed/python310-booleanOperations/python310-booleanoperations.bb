@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-booleanOperations \
 python3.10dist(booleanoperations) \
 python310-booleanOperations \
 python3dist(booleanoperations)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-FontTools \
 python310-pyclipper"

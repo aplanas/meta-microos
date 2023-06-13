@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-git \
 python3.10dist(pytest-git) \
 python310-pytest-git \
 python3dist(pytest-git)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-GitPython \
 python310-pytest \

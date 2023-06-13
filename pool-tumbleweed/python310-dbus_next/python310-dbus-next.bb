@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "python3-dbus_next \
 python3.10dist(dbus-next) \
 python310-dbus_next \
 python3dist(dbus-next)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

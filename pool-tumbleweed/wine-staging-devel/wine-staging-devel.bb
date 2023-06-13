@@ -11,6 +11,7 @@ RPM_HASH = "db1254c63d42ebf16a285522690420f3da5b2a3182f747cb7299f2acb960354f94b6
 RPROVIDES:${PN} += "wine-devel \
 wine-staging-devel \
 wine-staging-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

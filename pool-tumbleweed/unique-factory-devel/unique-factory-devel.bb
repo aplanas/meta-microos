@@ -9,6 +9,7 @@ RPM_HASH = "17b6de8cd551fc1bbd282a7618277a2b0d20247798938bcddd9436dec4237b033f8f
 
 RPROVIDES:${PN} += "unique-factory-devel \
 unique-factory-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

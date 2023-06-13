@@ -10,6 +10,7 @@ RPM_HASH = "ae5f7482bd8773dacfbc321520f2d447f3c4f60a4678899c874d6757477c9fd7a1ab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-calendar"
+
 RDEPENDS:${PN} += "gnome-calendar"
 
 inherit rpm

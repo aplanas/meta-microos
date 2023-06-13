@@ -13,6 +13,7 @@ libkosmindoormap_kpublictransport_integration_plugin.so()(64bit) \
 libkosmindoormapquickplugin.so()(64bit) \
 qt5qmlimport(org.kde.kosmindoormap.1) \
 qt5qmlimport(org.kde.kosmindoormap.kpublictransport.1)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5I18n.so.5()(64bit) \

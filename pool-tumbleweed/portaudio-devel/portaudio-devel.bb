@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(portaudio-2.0) \
 pkgconfig(portaudiocpp) \
 portaudio-devel \
 portaudio-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libportaudio2 \
 libportaudiocpp0 \

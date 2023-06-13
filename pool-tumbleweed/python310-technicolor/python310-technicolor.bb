@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-technicolor \
 python3.10dist(technicolor) \
 python310-technicolor \
 python3dist(technicolor)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

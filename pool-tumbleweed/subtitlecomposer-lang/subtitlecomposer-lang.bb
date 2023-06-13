@@ -36,6 +36,7 @@ locale(subtitlecomposer:uk) \
 locale(subtitlecomposer:zh_TW) \
 subtitlecomposer-lang \
 subtitlecomposer-lang-all"
+
 RDEPENDS:${PN} += "subtitlecomposer"
 
 inherit rpm

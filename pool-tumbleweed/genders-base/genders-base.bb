@@ -10,6 +10,7 @@ RPM_HASH = "eaff6cd9a61d217e3b5e622dc925f0cfb0176d031ed544e94240b31e3997a07acc04
 RPROVIDES:${PN} += "config(genders-base) \
 genders-base \
 genders-base(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

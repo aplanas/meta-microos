@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-libarchive-c \
 python3.10dist(libarchive-c) \
 python310-libarchive-c \
 python3dist(libarchive-c)"
+
 RDEPENDS:${PN} += "libarchive13 \
 python(abi)"
 

@@ -11,6 +11,7 @@ RPM_HASH = "f44cd1c9140c88232e11e27cc891ac83de047c72888ee0f65848e70fff9aa51b046f
 RPROVIDES:${PN} += "libqwt-qt5.so.6.2()(64bit) \
 libqwt6-qt5-6_2 \
 libqwt6-qt5-6_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

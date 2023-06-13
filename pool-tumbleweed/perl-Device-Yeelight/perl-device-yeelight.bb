@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Device::Yeelight) \
 perl(Device::Yeelight::Light) \
 perl-Device-Yeelight"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO) \
 perl(IO::Socket::Multicast) \

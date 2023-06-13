@@ -9,6 +9,7 @@ RPM_HASH = "54700bc01e4f6c6b90f6cf947567ff0082775e60c83d07be08e466bd0d09e0def6f8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfsbodoni-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

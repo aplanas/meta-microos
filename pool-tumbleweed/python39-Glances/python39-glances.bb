@@ -16,6 +16,7 @@ python3.9dist(glances) \
 python39-Glances \
 python39-glances \
 python3dist(glances)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

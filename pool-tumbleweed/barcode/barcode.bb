@@ -13,6 +13,7 @@ RPM_HASH = "d52ad6463415f8414c389f2a19c2a9bad6eee738469fa879079b946f7749f2837a65
 
 RPROVIDES:${PN} += "barcode \
 barcode(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

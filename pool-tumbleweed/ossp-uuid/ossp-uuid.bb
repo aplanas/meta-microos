@@ -24,6 +24,7 @@ RPM_HASH = "506fb99c3e1873d26102fd30ed5138116058c7d20d7de050f3ec9a32f379c042ee85
 RPROVIDES:${PN} += "ossp-uuid \
 ossp-uuid(aarch-64) \
 uuid"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

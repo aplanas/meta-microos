@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "application() \
 application(remmina-gnome.desktop) \
 remmina-kiosk \
 remmina-kiosk(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 remmina"
 

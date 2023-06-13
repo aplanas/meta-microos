@@ -133,6 +133,7 @@ perl(DBIx::Class::UTF8Columns) \
 perl(SQL::Translator::Parser::DBIx::Class) \
 perl(SQL::Translator::Producer::DBIx::Class::File) \
 perl-DBIx-Class"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor::Grouped) \

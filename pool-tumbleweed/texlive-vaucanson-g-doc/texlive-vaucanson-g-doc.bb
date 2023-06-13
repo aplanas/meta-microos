@@ -9,6 +9,7 @@ RPM_HASH = "5b6d27ab718dc5913ff12939e3dae0e321085d6b7faefa2d4e07e187f7a2fd919593
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vaucanson-g-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

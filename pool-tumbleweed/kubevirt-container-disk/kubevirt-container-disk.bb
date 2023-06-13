@@ -9,6 +9,7 @@ RPM_HASH = "5df6769fbe10129d46a90271473db8f023844fa91ad262ae945710c2e8496110c6d7
 
 RPROVIDES:${PN} += "kubevirt-container-disk \
 kubevirt-container-disk(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

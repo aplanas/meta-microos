@@ -9,6 +9,7 @@ RPM_HASH = "6e483e73419bbae864af719e429b407218fdb95ec0c110a27eeefe9c124806656fab
 
 RPROVIDES:${PN} += "csi-external-resizer \
 csi-external-resizer(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

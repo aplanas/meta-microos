@@ -19,6 +19,7 @@ RPM_HASH = "682ca87e95455f353cac590be361167d8695249bbd44ad45af76e321b4dda3a9c243
 
 RPROVIDES:${PN} += "rash \
 rash(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libedit0 \

@@ -93,6 +93,7 @@ locale(gnome-sudoku:wa) \
 locale(gnome-sudoku:zh_CN) \
 locale(gnome-sudoku:zh_HK) \
 locale(gnome-sudoku:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-sudoku"
 
 inherit rpm

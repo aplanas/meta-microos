@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-aiounittest \
 python3.10dist(aiounittest) \
 python310-aiounittest \
 python3dist(aiounittest)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-wrapt"
 

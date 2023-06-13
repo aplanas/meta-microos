@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "config(thttpd) \
 http_daemon \
 thttpd \
 thttpd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(www) \
 ld-linux-aarch64.so.1()(64bit) \

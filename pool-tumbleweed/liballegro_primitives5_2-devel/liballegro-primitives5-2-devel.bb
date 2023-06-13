@@ -10,6 +10,7 @@ RPM_HASH = "7730acc91c96075ad29f3e302d7579bc67156d6083e7ca4e18b07a5f7edd5c40d7cd
 RPROVIDES:${PN} += "liballegro_primitives5_2-devel \
 liballegro_primitives5_2-devel(aarch-64) \
 pkgconfig(allegro_primitives-5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liballegro_primitives5_2 \
 pkgconfig(allegro-5)"

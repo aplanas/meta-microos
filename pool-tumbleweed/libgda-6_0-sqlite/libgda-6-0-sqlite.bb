@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libgda-6_0-sqlite \
 libgda-6_0-sqlite(aarch-64) \
 libgda-sqlite \
 libgda-sqlite-6.0.so()(64bit)"
+
 RDEPENDS:${PN} += "libgda-6.0.so.6.0.0()(64bit) \
 libgda-6_0-6_0_0 \
 libgio-2.0.so.0()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "c5c004c386adb2b620d4656b29f5e01a10b32cbb5aa3ead8e79f0de1116773b43cbe
 
 RPROVIDES:${PN} += "OpenShadingLanguage-example-shaders-source \
 OpenShadingLanguage-example-shaders-source(aarch-64)"
+
 RDEPENDS:${PN} += "OpenShadingLanguage \
 OpenShadingLanguage-common-headers"
 

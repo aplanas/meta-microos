@@ -26,6 +26,7 @@ RPM_HASH = "9eda29969f25a839eb4519aeaf9996fd38169397f880a761bf0186ac5313cfb65b3b
 
 RPROVIDES:${PN} += "VirtualGL-devel \
 VirtualGL-devel(aarch-64)"
+
 RDEPENDS:${PN} += "VirtualGL"
 
 inherit rpm

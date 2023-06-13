@@ -9,6 +9,7 @@ RPM_HASH = "f2e39de5ea4a7ee7e6483edbba999b3b8e42c233285bb434b06766cf8bd0a21a0978
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "distrobox-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 distrobox"
 

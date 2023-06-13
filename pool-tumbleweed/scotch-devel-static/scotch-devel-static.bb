@@ -9,6 +9,7 @@ RPM_HASH = "29a52c9ce6cc464005f72a3a1b3d9d2951b37a576d8db75a1fdcfb328862a9b1cb2a
 
 RPROVIDES:${PN} += "scotch-devel-static \
 scotch-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "scotch-devel"
 
 inherit rpm

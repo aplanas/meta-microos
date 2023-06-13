@@ -11,6 +11,7 @@ RPM_HASH = "67adfd6c492e314003a6998e431daa03c5d9410d4d73c59abd0ba3c40b1915d0a3e1
 RPROVIDES:${PN} += "disomaster-devel \
 disomaster-devel(aarch-64) \
 pkgconfig(disomaster)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdisomaster1"
 

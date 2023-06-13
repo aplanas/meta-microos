@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pyzo \
 python3.10dist(pyzo) \
 python310-pyzo \
 python3dist(pyzo)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 hicolor-icon-theme \
 python(abi) \

@@ -12,6 +12,7 @@ RPM_HASH = "2016de0feed4c4f1c3207b4319d53ce2cd362095534a6d6a3bfcb392df4f5f746daf
 RPROVIDES:${PN} += "config(scmon) \
 scmon \
 scmon(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

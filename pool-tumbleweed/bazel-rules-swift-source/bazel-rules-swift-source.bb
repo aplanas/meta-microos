@@ -11,6 +11,7 @@ RPM_HASH = "34bd4a1d467276d3de19297157b75894e8f916807e5209141b80ba14324604d43f1c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-swift-source"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

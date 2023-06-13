@@ -12,6 +12,7 @@ RPM_HASH = "ad0ead86c0092cb77ecb05d1bb7f29e10df196005f4167bdfa37197d1e58413bfef5
 RPROVIDES:${PN} += "libteamdctl.so.0()(64bit) \
 libteamdctl0 \
 libteamdctl0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

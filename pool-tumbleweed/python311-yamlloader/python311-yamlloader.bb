@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(yamlloader) \
 python311-yamlloader \
 python3dist(yamlloader)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

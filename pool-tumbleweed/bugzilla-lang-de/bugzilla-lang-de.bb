@@ -9,6 +9,7 @@ RPM_HASH = "a95d736991cc6ccd34b814772a49818ffcdd9504cedca00146fe261b1013332a45d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bugzilla-lang-de"
+
 RDEPENDS:${PN} += "bugzilla"
 
 inherit rpm

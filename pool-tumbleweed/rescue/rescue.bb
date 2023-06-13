@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(rescue.desktop) \
 rescue"
+
 RDEPENDS:${PN} += "/bin/sh \
 jre"
 

@@ -18,6 +18,7 @@ perl(Rose::Object::MakeMethods::DateTime) \
 perl(Rose::Object::MakeMethods::Generic) \
 perl(Rose::Object::MixIn) \
 perl-Rose-Object"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "24c04b6a7dd817279136b8603e6a3f2ce7ef26350839fb8c63f7eaac3395adaf2b8f
 RPROVIDES:${PN} += "ckermit \
 ckermit(aarch-64) \
 kermit"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcrypt.so.1()(64bit) \
 libcrypt.so.1(XCRYPT_2.0)(64bit) \

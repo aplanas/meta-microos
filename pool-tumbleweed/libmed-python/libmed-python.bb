@@ -14,6 +14,7 @@ RPM_HASH = "b6d1cd0d935e45abe83a722dc71af94496392c753c904bfff47ab45f527ba46ba21d
 
 RPROVIDES:${PN} += "libmed-python \
 libmed-python(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

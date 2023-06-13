@@ -13,6 +13,7 @@ RPM_HASH = "05360a27a2b0b802fbf66bd9d1bf56075cc325addda8af3a985d38809d35c09a0bbf
 RPROVIDES:${PN} += "typelib(Soup) \
 typelib-1_0-Soup-3_0 \
 typelib-1_0-Soup-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libsoup-3.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

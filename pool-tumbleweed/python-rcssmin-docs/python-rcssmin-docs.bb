@@ -9,6 +9,7 @@ RPM_HASH = "60cfb43266caa3b19f2e8ce38f9b5693f6d3726a5e9bbbbb2852058ddb24cbf2d667
 
 RPROVIDES:${PN} += "python-rcssmin-docs \
 python-rcssmin-docs(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

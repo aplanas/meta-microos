@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(structmech.sty) \
 texlive-structmech"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

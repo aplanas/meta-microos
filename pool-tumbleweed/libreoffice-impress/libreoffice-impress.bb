@@ -34,6 +34,7 @@ mimehandler(application/vnd.openxmlformats-officedocument.presentationml.templat
 mimehandler(application/vnd.sun.xml.impress) \
 mimehandler(application/vnd.sun.xml.impress.template) \
 mimehandler(application/x-iwork-keynote-sffkey)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

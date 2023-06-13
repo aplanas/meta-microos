@@ -10,6 +10,7 @@ RPM_HASH = "556cb4199f71335627118719283da02310c2e9ab43d937f0b8b48ec3116e0190043b
 RPROVIDES:${PN} += "libply.so.5()(64bit) \
 libply5 \
 libply5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

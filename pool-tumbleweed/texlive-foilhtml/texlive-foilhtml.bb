@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(foilhtml.cfg) \
 tex(foilhtml.sty) \
 texlive-foilhtml"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

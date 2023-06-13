@@ -10,6 +10,7 @@ RPM_HASH = "ea8a24e6e6c5ca3175d1c9fbb3d29ec811d53e529b09815428402bbc58c414de539b
 RPROVIDES:${PN} += "python3-qtcharts-qt5-api \
 python310-qtcharts-qt5-api \
 python310-qtcharts-qt5-api(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -20,6 +20,7 @@ tex(iftex.sty) \
 tex(ifvtex.sty) \
 tex(ifxetex.sty) \
 texlive-iftex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "15dbfd44911aa8c7eee9eaf5ce987786d868cd3e8dd243069d80a1c00e5b327dc33f
 RPROVIDES:${PN} += "perl(Boost::Geometry::Utils) \
 perl-Boost-Geometry-Utils \
 perl-Boost-Geometry-Utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

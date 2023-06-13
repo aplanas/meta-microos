@@ -10,6 +10,7 @@ RPM_HASH = "9da5788034c0773179a2a1799c390e6070f94841235e6ee9803c9b5483c334010bce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-booktabs-fr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

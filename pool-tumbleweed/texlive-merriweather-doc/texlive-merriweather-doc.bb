@@ -9,6 +9,7 @@ RPM_HASH = "c72f9129ac0d436a32068e0c9f5f994a62ee69e4e53f0c1d1e37230e04884fc82aa9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-merriweather-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

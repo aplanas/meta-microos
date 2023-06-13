@@ -9,6 +9,7 @@ RPM_HASH = "dae16f018092eb438672d282aa3926d18fbaf2b9f47044fdb881f3c61e50dbf030d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-quotmark-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

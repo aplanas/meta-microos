@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(jupyter-server-terminals) \
 python39-jupyter-server-terminals \
 python39-jupyter_server_terminals \
 python3dist(jupyter-server-terminals)"
+
 RDEPENDS:${PN} += "jupyter-server-terminals \
 python(abi) \
 python39-terminado"

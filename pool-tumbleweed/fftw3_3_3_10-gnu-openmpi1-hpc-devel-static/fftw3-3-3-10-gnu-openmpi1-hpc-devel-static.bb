@@ -9,6 +9,7 @@ RPM_HASH = "2bcb254f41c958c0e064bc7b63302c2249eb24ff545ac5d70441886cfd581c6f138b
 
 RPROVIDES:${PN} += "fftw3_3_3_10-gnu-openmpi1-hpc-devel-static \
 fftw3_3_3_10-gnu-openmpi1-hpc-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "fftw3_3_3_10-gnu-openmpi1-hpc-devel"
 
 inherit rpm

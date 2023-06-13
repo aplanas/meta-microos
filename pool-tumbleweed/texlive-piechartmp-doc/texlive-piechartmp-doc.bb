@@ -9,6 +9,7 @@ RPM_HASH = "27da0a9997d433c5b58ab9cf8a256937cd79cd471e91e8d1c05a511c04394e8c7beb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-piechartmp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

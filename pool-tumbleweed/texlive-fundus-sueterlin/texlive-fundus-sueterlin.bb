@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(suetterl.sty) \
 texlive-fundus-sueterlin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

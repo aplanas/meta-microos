@@ -11,6 +11,7 @@ RPM_HASH = "4d9a294c1519be945ea62d126af965a00e41328333de446be034a6fc4e051b7d4e49
 RPROVIDES:${PN} += "libhangul-devel \
 libhangul-devel(aarch-64) \
 pkgconfig(libhangul)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhangul1"
 

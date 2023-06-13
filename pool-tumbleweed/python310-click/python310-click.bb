@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-click \
 python3.10dist(click) \
 python310-click \
 python3dist(click)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

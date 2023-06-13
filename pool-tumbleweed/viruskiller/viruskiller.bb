@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "application() \
 application(viruskiller.desktop) \
 viruskiller \
 viruskiller(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL-1.2.so.0()(64bit) \

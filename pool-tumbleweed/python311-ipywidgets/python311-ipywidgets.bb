@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(ipywidgets) \
 python311-ipywidgets \
 python311-jupyter_ipywidgets \
 python3dist(ipywidgets)"
+
 RDEPENDS:${PN} += "(python311-jupyterlab_widgets >= 3.0.7 with python311-jupyterlab_widgets < 4) \
 (python311-widgetsnbextension >= 4.0.7 with python311-widgetsnbextension < 5) \
 python(abi) \

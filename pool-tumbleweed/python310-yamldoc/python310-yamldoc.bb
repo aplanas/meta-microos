@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-yamldoc \
 python3.10dist(python-yamldoc) \
 python310-yamldoc \
 python3dist(python-yamldoc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML"
 

@@ -12,6 +12,7 @@ RPM_HASH = "006f159fdcd2b900aa5f93f6053f2351ac34707c3fc71e63fe14abc166ae9becbd1d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glpk-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

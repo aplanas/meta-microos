@@ -10,6 +10,7 @@ RPM_HASH = "271c21d14f54c667e840df307fb87638c4e26bfce231bdfb3a201bf36fc1d988a822
 RPROVIDES:${PN} += "hexchat-plugins-python3 \
 hexchat-plugins-python3(aarch-64) \
 plugins-python"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

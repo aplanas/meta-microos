@@ -32,6 +32,7 @@ tex(ot1mathkerncmss.fd) \
 tex(sansmathaccent.map) \
 tex(sansmathaccent.sty) \
 texlive-sansmathaccent"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

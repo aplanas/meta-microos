@@ -11,6 +11,7 @@ RPM_HASH = "4553f65cb6f2b4e2868987062921e30aa949d26522732f5d3fc8dfc6ff932868e8d6
 RPROVIDES:${PN} += "libpy2lang_ruby.so()(64bit) \
 yast2-ruby-bindings \
 yast2-ruby-bindings(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

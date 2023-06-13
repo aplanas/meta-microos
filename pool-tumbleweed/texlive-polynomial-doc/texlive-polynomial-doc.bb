@@ -9,6 +9,7 @@ RPM_HASH = "c435328c96df0e51b975a0cb6c3e93f354b94f46dce69c1f8bb24279ed41f4d03522
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-polynomial-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

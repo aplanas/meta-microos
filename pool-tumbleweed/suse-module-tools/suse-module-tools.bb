@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "suse-module-tools \
 suse-module-tools(aarch-64) \
 system-tuning-common-SUSE \
 udev-extra-rules"
+
 RDEPENDS:${PN} += "(kmod(sg.ko) if kernel) \
 /bin/bash \
 /bin/sh \

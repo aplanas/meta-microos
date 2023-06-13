@@ -12,6 +12,7 @@ RPM_HASH = "1a0429e9e09d26816276e698d051252eda433ac802f596b4800e0ac871ded4457722
 RPROVIDES:${PN} += "libqalculate-devel \
 libqalculate-devel(aarch-64) \
 pkgconfig(libqalculate)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gmp-devel \
 libqalculate \

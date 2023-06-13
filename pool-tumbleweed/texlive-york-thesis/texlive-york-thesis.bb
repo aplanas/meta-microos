@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(york-thesis.cls) \
 texlive-york-thesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

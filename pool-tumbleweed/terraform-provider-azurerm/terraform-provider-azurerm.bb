@@ -10,6 +10,7 @@ RPM_HASH = "db88d3805185fe25b12cbe54b7dd7c3e334655d2e1089749e71b2f2c0f49ba9cebbe
 
 RPROVIDES:${PN} += "terraform-provider-azurerm \
 terraform-provider-azurerm(aarch-64)"
+
 RDEPENDS:${PN} += "terraform"
 
 inherit rpm

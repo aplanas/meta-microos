@@ -11,6 +11,7 @@ RPM_HASH = "72d54b05db307541486c2ea64e76054b87ecac5c7607dbcfe35f0780dd316b53a337
 
 RPROVIDES:${PN} += "python311-nautilus \
 python311-nautilus(aarch-64)"
+
 RDEPENDS:${PN} += "python311-gobject \
 python311-nautilus-common-files \
 typelib(Nautilus)"

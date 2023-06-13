@@ -19,6 +19,7 @@ RPM_HASH = "e58755bbaf54d9768cd90998d03789dd9960479d262d5389859821bd3fb20824479b
 RPROVIDES:${PN} += "perl(Crypt::RC4) \
 perl-Crypt-RC4 \
 perl-Crypt-RC4(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

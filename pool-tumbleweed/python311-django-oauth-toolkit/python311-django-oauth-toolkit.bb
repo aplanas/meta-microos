@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-oauth-toolkit) \
 python311-django-oauth-toolkit \
 python3dist(django-oauth-toolkit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-jwcrypto \

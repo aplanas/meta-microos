@@ -15,6 +15,7 @@ tex(qurantext-deii.translation.def) \
 tex(qurantext-deiii.translation.def) \
 tex(qurantext-deiv.translation.def) \
 texlive-quran-de"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "application() \
 application(xfce4-panel-restore-defaults.desktop) \
 xfce4-panel-restore-defaults \
 xfce4-panel-restore-defaults(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 zenity"
 

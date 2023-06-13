@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "vim-data \
 vim-plugin-matchit \
 vim-plugin-nginx"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/awk \
 /usr/bin/perl \

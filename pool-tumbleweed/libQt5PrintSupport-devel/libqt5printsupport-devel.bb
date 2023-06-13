@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5PrintSupport) \
 libQt5PrintSupport-devel \
 libQt5PrintSupport-devel(aarch-64) \
 pkgconfig(Qt5PrintSupport)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Core-devel \
 libQt5Gui-devel \

@@ -39,6 +39,7 @@ application(nscde-volumectrl.desktop) \
 application(nscde-watcherrors.desktop) \
 application(nscde-webbrowser.desktop) \
 application(nscde-wspgmgr.desktop)"
+
 RDEPENDS:${PN} += "/usr/bin/ksh93 \
 /usr/bin/python3 \
 fvwm2 \

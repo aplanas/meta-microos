@@ -15,6 +15,7 @@ RPM_HASH = "d923199ea930aa6010ac244a15d2496906364cc51f21e548cc08986a7e07eb163d08
 
 RPROVIDES:${PN} += "plotutils-devel \
 plotutils-devel(aarch-64)"
+
 RDEPENDS:${PN} += "bison \
 flex \
 fontpackages-devel \

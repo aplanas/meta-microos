@@ -13,6 +13,7 @@ RPM_HASH = "3b16ea1fa991519d5773c09794f6f854e8745028cde625a5de28dad8e4e849c26dbf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-ovmf-ia32"
+
 RDEPENDS:${PN} += "qemu"
 
 inherit rpm

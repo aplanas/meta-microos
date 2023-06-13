@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-chinesechess-doc:zh) \
 texlive-chinesechess-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

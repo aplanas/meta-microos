@@ -10,6 +10,7 @@ RPM_HASH = "a0410c6388a214c4e36004783f1a22a29d6210df4a0b92300c3510fc67715a1705be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pgaccess"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/tclsh \
 PgTcl \

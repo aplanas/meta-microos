@@ -16,6 +16,7 @@ RPM_HASH = "cb160f1a4edaf926c559caa64f84f45a55b4922601723afd150f72c1b90af6c5777f
 RPROVIDES:${PN} += "config(opendkim) \
 opendkim \
 opendkim(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/openssl \
 /usr/bin/perl \

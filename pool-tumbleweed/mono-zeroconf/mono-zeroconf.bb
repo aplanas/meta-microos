@@ -25,6 +25,7 @@ mono(policy.2.0.Mono.Zeroconf) \
 mono(policy.3.0.Mono.Zeroconf) \
 mono(policy.4.0.Mono.Zeroconf) \
 mono-zeroconf"
+
 RDEPENDS:${PN} += "/bin/bash \
 mono(System) \
 mono(mscorlib) \

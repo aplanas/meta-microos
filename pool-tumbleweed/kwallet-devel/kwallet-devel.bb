@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(KF5Wallet) \
 kwallet-devel \
 kwallet-devel(aarch-64) \
 kwallet-framework-devel"
+
 RDEPENDS:${PN} += "cmake(Qt5Gui) \
 extra-cmake-modules \
 libKF5Wallet5 \

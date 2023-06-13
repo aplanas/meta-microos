@@ -13,6 +13,7 @@ RPM_HASH = "891f263a7ad98975df99aec7acb6c6803a9d7efe04cc8ed799c114ede769145654f1
 
 RPROVIDES:${PN} += "mawk \
 mawk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.36)(64bit) \

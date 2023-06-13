@@ -14,6 +14,7 @@ RPM_HASH = "97359ec7ccad7ec483860c78b240a7407dcee3a2cde3c7cdafa9cfecde1ed537257a
 RPROVIDES:${PN} += "goocanvas2-devel \
 goocanvas2-devel(aarch-64) \
 pkgconfig(goocanvas-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgoocanvas-2_0-9 \
 pkgconfig(cairo) \

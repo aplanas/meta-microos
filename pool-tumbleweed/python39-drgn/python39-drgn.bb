@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(drgn) \
 python39-drgn \
 python39-drgn(aarch-64) \
 python3dist(drgn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

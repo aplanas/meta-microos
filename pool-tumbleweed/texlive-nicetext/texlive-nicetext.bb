@@ -35,6 +35,7 @@ tex(niceverb.sty) \
 tex(substr.tex) \
 tex(wiki.sty) \
 texlive-nicetext"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

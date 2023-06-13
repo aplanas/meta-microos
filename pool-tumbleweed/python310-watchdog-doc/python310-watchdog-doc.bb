@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-watchdog-doc \
 python310-watchdog-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

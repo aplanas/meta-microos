@@ -11,6 +11,7 @@ RPM_HASH = "6b143f2c16277178fc7ce9ac30b800a88f88fe787f73c68d361dab6a7b638214787a
 RPROVIDES:${PN} += "gsettings-desktop-schemas \
 gsettings-desktop-schemas(aarch-64) \
 typelib(GDesktopEnums)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

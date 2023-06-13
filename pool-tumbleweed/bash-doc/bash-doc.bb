@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-doc \
 bash:/usr/share/info/bash.info.gz"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

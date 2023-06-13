@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pyjwkest \
 python3.10dist(pyjwkest) \
 python310-pyjwkest \
 python3dist(pyjwkest)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

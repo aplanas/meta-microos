@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(isonums.sty) \
 texlive-isonums"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

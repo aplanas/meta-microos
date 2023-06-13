@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(h2020proposal.cls) \
 texlive-h2020proposal"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

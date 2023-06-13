@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libgtkdatabox \
 libgtkdatabox-0.9.3.so.1()(64bit) \
 libgtkdatabox-0_9_3-1 \
 libgtkdatabox-0_9_3-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "04ded24055b56539ff5f016847ef594f5967c56ee86da2f0b36c0096b9aba2ee1e28
 RPROVIDES:${PN} += "libunshield.so.0()(64bit) \
 libunshield0 \
 libunshield0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

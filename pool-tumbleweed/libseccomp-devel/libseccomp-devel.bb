@@ -15,6 +15,7 @@ RPM_HASH = "c52cd52068d996215ff4a658e0816dd3eb91d45d8e960307efd4c3d4d69830d7cf66
 RPROVIDES:${PN} += "libseccomp-devel \
 libseccomp-devel(aarch-64) \
 pkgconfig(libseccomp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libseccomp2"
 

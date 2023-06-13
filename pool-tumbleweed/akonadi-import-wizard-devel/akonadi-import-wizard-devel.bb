@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "akonadi-import-wizard-devel \
 akonadi-import-wizard-devel(aarch-64) \
 cmake(KPim5ImportWizard) \
 cmake(KPimImportWizard)"
+
 RDEPENDS:${PN} += "akonadi-import-wizard \
 libKPim5ImportWizard5"
 

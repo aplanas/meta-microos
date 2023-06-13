@@ -9,6 +9,7 @@ RPM_HASH = "636ebb90d3d90299b7c3237f17a3ab1cffb8daef73e7d497bf97005961fa2e7a0583
 
 RPROVIDES:${PN} += "grub2-branding-upstream \
 grub2-branding-upstream(aarch-64)"
+
 RDEPENDS:${PN} += "grub2"
 
 inherit rpm

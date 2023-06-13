@@ -9,6 +9,7 @@ RPM_HASH = "08f067e2bf3f4f9021e65d5be662c0f99c334e2a4e521584cfc664404b304dfa9ff0
 
 RPROVIDES:${PN} += "hpx \
 hpx(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 libhpx1"
 

@@ -13,6 +13,7 @@ RPM_HASH = "6e2ce78189efd34302b04a16cb08dc5d03e54da4b875f40fa8a4bc132d9ae4a35d1a
 RPROVIDES:${PN} += "libfsxfs-devel \
 libfsxfs-devel(aarch-64) \
 pkgconfig(libfsxfs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libfsxfs1"

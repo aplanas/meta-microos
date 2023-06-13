@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(grafana-ha-cluster-dashboards) \
 grafana-ha-cluster-dashboards"
+
 RDEPENDS:${PN} += "/bin/sh \
 grafana-sleha-provider \
 shadow"

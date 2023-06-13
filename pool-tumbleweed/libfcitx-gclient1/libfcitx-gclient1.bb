@@ -10,6 +10,7 @@ RPM_HASH = "77093bcb7820196bcca12a0913baaac8c433a911734b358c0c3683272c9ad1432531
 RPROVIDES:${PN} += "libfcitx-gclient.so.1()(64bit) \
 libfcitx-gclient1 \
 libfcitx-gclient1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

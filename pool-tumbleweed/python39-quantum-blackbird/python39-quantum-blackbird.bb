@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(quantum-blackbird) \
 python39-quantum-blackbird \
 python3dist(quantum-blackbird)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-antlr4-python3-runtime \
 python39-networkx \

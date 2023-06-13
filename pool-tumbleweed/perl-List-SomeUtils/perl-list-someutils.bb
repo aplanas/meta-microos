@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(List::SomeUtils) \
 perl(List::SomeUtils::PP) \
 perl-List-SomeUtils"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(List::SomeUtils::XS) \
 perl(Module::Implementation)"

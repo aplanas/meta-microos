@@ -12,6 +12,7 @@ RPM_HASH = "be04223121ea2140e5249ccb0c08886bdfe1fd9b6929cb07b345d6d6bdf975d658d6
 
 RPROVIDES:${PN} += "update-test-reboot-needed \
 update-test-reboot-needed(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

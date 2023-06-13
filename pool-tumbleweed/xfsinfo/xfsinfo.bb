@@ -13,6 +13,7 @@ RPM_HASH = "e0bf77c5c280fd5bca985de2798f8bb35327ef5bead26a3a1eee2a82f1a55f993b3a
 
 RPROVIDES:${PN} += "xfsinfo \
 xfsinfo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFS.so.6()(64bit) \

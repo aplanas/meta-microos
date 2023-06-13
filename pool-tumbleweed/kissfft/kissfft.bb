@@ -11,6 +11,7 @@ RPM_HASH = "383040af7b565b789c108f536d7a4eea04a6e389afd9d206a037cf24141042820182
 
 RPROVIDES:${PN} += "kissfft \
 kissfft(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "0bfadf349c181ff5c3d10213ca63a12373ea3bdfc940acaa936d714f1ad9835fe382
 RPROVIDES:${PN} += "mhash-devel \
 mhash-devel(aarch-64) \
 mhash:/usr/include/mhash.h"
+
 RDEPENDS:${PN} += "libmhash2"
 
 inherit rpm

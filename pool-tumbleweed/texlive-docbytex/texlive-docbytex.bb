@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(docby.tex) \
 texlive-docbytex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

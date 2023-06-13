@@ -11,6 +11,7 @@ RPM_HASH = "91ee6a8c47dc01c10264ce987a889a55988e12762e2507d8ac325413dc781e2eac52
 RPROVIDES:${PN} += "libtextstyle.so.0()(64bit) \
 libtextstyle0 \
 libtextstyle0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

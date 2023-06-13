@@ -9,6 +9,7 @@ RPM_HASH = "4585d93091d1a6cab8fc1e89bd7ba73ba715ec9b6b6c552fd53f2003ab40ee9eb0d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-uglymemo-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

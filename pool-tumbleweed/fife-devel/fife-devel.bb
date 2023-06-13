@@ -11,6 +11,7 @@ RPM_HASH = "a204864c0483ce39cb16e80d824291f317e9428d6e1b54b4104cc9b35b289e126f58
 
 RPROVIDES:${PN} += "fife-devel \
 fife-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libfife0_4_2 \
 python3-fife"
 

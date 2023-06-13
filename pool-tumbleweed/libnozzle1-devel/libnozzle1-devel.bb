@@ -12,6 +12,7 @@ RPM_HASH = "b599a90e6e5a8a04b8a7fba9932090b496d96c1344495e523ed90d2d14e79c08a302
 RPROVIDES:${PN} += "libnozzle1-devel \
 libnozzle1-devel(aarch-64) \
 pkgconfig(libnozzle)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnozzle1(aarch-64) \
 pkgconfig"

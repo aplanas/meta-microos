@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(mkjobtexmf.1) \
 texlive-mkjobtexmf-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

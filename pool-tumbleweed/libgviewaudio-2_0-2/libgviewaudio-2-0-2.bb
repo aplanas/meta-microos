@@ -12,6 +12,7 @@ RPM_HASH = "e938da299de8e1acd3fa0da6160825a770c461cfb339dd09d208db21277031075497
 RPROVIDES:${PN} += "libgviewaudio-2.0.so.2()(64bit) \
 libgviewaudio-2_0-2 \
 libgviewaudio-2_0-2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

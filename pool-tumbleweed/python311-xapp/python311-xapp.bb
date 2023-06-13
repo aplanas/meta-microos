@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-xapp) \
 python311-xapp \
 python3dist(python-xapp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-psutil \
 xdg-utils"

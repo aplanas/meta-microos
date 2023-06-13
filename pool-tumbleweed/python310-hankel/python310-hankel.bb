@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-hankel \
 python3.10dist(hankel) \
 python310-hankel \
 python3dist(hankel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-mpmath \
 python310-numpy \

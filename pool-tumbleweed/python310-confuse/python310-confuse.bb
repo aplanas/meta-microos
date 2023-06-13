@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-confuse \
 python3.10dist(confuse) \
 python310-confuse \
 python3dist(confuse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML"
 

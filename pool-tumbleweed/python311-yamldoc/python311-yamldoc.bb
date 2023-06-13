@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-yamldoc) \
 python311-yamldoc \
 python3dist(python-yamldoc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML"
 

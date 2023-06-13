@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(lt3graph-dry.sty) \
 tex(lt3graph-packagedoc.cls) \
 tex(lt3graph.sty) \
 texlive-lt3graph"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

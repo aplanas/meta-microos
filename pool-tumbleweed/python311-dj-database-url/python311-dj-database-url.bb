@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(dj-database-url) \
 python311-dj-database-url \
 python3dist(dj-database-url)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-typing_extensions"

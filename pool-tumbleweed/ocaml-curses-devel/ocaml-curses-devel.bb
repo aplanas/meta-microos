@@ -13,6 +13,7 @@ ocaml-curses-devel \
 ocaml-curses-devel(aarch-64) \
 ocamlfind(curses) \
 ocamlx(Curses)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libncursesw.so.6()(64bit) \
 libncursesw.so.6(NCURSESTW6_5.7.20081102)(64bit) \

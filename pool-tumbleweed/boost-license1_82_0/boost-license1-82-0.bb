@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-license \
 boost-license1_82_0"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "70e6c84d2df9bd736afc2847515f580ae90a0bd9d83c46e3f7b3c12e418594960626
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nuspell-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

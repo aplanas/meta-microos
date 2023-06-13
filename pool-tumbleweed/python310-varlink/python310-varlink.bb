@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-varlink \
 python3.10dist(varlink) \
 python310-varlink \
 python3dist(varlink)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python(abi) \
 python310-future"

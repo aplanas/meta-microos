@@ -27,6 +27,7 @@ RPM_HASH = "dd23f01adaadcbe9940ceb7e095d8a6acbae0a14cfc4a2a1f4317fc25c0adeccd908
 
 RPROVIDES:${PN} += "mailutils \
 mailutils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 alts \
 cups \

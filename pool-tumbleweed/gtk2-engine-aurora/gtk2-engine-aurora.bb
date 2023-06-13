@@ -12,6 +12,7 @@ RPM_HASH = "eb3b64c55670adaa10bf7e08bf932b63351a914209a0e808dc733254acf9639e7399
 RPROVIDES:${PN} += "gtk2-engine-aurora \
 gtk2-engine-aurora(aarch-64) \
 libaurora.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

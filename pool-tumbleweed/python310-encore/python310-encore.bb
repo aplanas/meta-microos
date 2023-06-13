@@ -34,6 +34,7 @@ RPROVIDES:${PN} += "python3-encore \
 python3.10dist(encore) \
 python310-encore \
 python3dist(encore)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -44,6 +44,7 @@ locale(rapid-photo-downloader:uk) \
 locale(rapid-photo-downloader:zh_CN) \
 rapid-photo-downloader-lang \
 rapid-photo-downloader-lang-all"
+
 RDEPENDS:${PN} += "rapid-photo-downloader"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "26320cdbf80cca4cea3b0a0fba83d493fe585a614e575a7909fc46deaa55329d4a4a
 RPROVIDES:${PN} += "liblasso-devel \
 liblasso-devel(aarch-64) \
 pkgconfig(lasso)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblasso3(aarch-64) \
 pkgconfig(glib-2.0) \

@@ -10,6 +10,7 @@ RPM_HASH = "eaced29fdfb338450fdee6fd4be85a0d2b22166f20b21b02f3d11dbfe88313c38a80
 RPROVIDES:${PN} += "ghc-HTTP-prof \
 ghc-HTTP-prof(aarch-64) \
 ghc-prof(HTTP-4000.4.1-BsHtin5O4EoLpElKRODQk3)"
+
 RDEPENDS:${PN} += "ghc-HTTP-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

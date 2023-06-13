@@ -10,6 +10,7 @@ RPM_HASH = "3845199ed0b9e1e69e4fdacf5d55005cf46f9aebe6c46bbb3d1ec676ec2dd1b01497
 
 RPROVIDES:${PN} += "alsa-plugins \
 alsa-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "alsa-plugins-speexrate \
 alsa-plugins-upmix"
 

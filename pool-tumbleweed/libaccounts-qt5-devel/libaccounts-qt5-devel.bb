@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(AccountsQt5) \
 libaccounts-qt5-devel \
 libaccounts-qt5-devel(aarch-64) \
 pkgconfig(accounts-qt5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaccounts-qt5-1 \
 pkgconfig(Qt5Core) \

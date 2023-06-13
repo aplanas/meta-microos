@@ -9,6 +9,7 @@ RPM_HASH = "757085422880e0ea5ab0c0512377e4d28fbd077f30d39b03f23aaa3deca0fa41ab54
 
 RPROVIDES:${PN} += "eid-mw-firefox \
 eid-mw-firefox(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-parent \
 mvn(org.eclipse.jetty:jetty-parent:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -10,6 +10,7 @@ RPM_HASH = "4c1d4257056cc7d214a5ae3fc887971f5b5c0f9c4d194dab65c7946d568315d91d8b
 RPROVIDES:${PN} += "libddccontrol.so.0()(64bit) \
 libddccontrol0 \
 libddccontrol0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ddccontrol-db \
 ld-linux-aarch64.so.1()(64bit) \

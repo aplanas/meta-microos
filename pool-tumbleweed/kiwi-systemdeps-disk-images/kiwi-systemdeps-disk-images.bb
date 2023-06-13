@@ -14,6 +14,7 @@ kiwi-image:oem \
 kiwi-image:vmx \
 kiwi-systemdeps-disk-images \
 kiwi-systemdeps-disk-images(aarch-64)"
+
 RDEPENDS:${PN} += "cryptsetup \
 gptfdisk \
 kiwi-systemdeps-bootloaders \

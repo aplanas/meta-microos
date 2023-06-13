@@ -11,6 +11,7 @@ RPM_HASH = "8966d743a1a026087e432173cfac8193576638ec7f2537b2673207fd7b8929e5129e
 
 RPROVIDES:${PN} += "jpegoptim \
 jpegoptim(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

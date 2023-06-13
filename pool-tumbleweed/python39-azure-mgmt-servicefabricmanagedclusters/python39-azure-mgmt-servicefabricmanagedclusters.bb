@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-servicefabricmanagedclusters) \
 python39-azure-mgmt-servicefabricmanagedclusters \
 python3dist(azure-mgmt-servicefabricmanagedclusters)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-core \

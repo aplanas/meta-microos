@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-setuptools-declarative-requirements \
 python3.10dist(setuptools-declarative-requirements) \
 python310-setuptools-declarative-requirements \
 python3dist(setuptools-declarative-requirements)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools \
 python310-toml \

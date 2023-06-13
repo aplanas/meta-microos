@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(moto) \
 python39-moto \
 python3dist(moto)"
+
 RDEPENDS:${PN} += "(python39-python-dateutil >= 2.1 with python39-python-dateutil < 3) \
 /bin/sh \
 /usr/bin/python3.9 \

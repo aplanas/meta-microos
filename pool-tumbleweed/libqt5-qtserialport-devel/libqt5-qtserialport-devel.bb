@@ -12,6 +12,7 @@ libQt5SerialPort-devel \
 libqt5-qtserialport-devel \
 libqt5-qtserialport-devel(aarch-64) \
 pkgconfig(Qt5SerialPort)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5SerialPort5 \
 pkgconfig(Qt5Core)"

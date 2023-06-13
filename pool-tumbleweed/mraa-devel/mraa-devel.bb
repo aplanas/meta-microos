@@ -17,6 +17,7 @@ RPM_HASH = "afa1d28220372ccd9bd6271d8e498d5fb65e514c635063509a363ee90ebc0cc3fa93
 RPROVIDES:${PN} += "mraa-devel \
 mraa-devel(aarch-64) \
 pkgconfig(mraa)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmraa2"
 

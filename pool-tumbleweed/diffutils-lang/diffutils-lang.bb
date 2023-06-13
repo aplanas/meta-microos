@@ -46,6 +46,7 @@ locale(diffutils:uk) \
 locale(diffutils:vi) \
 locale(diffutils:zh_CN) \
 locale(diffutils:zh_TW)"
+
 RDEPENDS:${PN} += "diffutils"
 
 inherit rpm

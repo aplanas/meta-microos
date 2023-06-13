@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(missaali.sty) \
 texlive-missaali"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

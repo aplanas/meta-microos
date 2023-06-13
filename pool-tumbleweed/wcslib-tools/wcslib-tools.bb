@@ -11,6 +11,7 @@ RPM_HASH = "ccea4b73dd353ee5311c10d67c74861c5faf9b40d95a461e84d9e7039d4f673e0773
 RPROVIDES:${PN} += "libwcs-tools \
 wcslib-tools \
 wcslib-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

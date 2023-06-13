@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(utf8add.sty) \
 tex(utf8hax.sty) \
 texlive-utf8add"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

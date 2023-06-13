@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(slack-sdk) \
 python311-slack-sdk \
 python311-slackclient \
 python3dist(slack-sdk)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

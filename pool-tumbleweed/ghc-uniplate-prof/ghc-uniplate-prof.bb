@@ -10,6 +10,7 @@ RPM_HASH = "de5fbeb371198005849dc552ea3022e7ee0a7365d93d185284e417b74a561fc32b03
 RPROVIDES:${PN} += "ghc-prof(uniplate-1.6.13-3GboCmnxCZ4BmbYwVaL4sN) \
 ghc-uniplate-prof \
 ghc-uniplate-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \
 ghc-prof(ghc-prim-0.9.0) \

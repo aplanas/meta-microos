@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(redis) \
 python39-redis \
 python3dist(redis)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-async-timeout \
 redis"

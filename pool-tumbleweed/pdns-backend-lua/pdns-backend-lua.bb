@@ -13,6 +13,7 @@ RPM_HASH = "f13ce513345fa7e5d0bfdfb96b97fc8e1dc7813a916436a22a24fa10f10452d93f33
 RPROVIDES:${PN} += "liblua2backend.so()(64bit) \
 pdns-backend-lua \
 pdns-backend-lua(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

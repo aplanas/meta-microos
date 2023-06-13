@@ -9,6 +9,7 @@ RPM_HASH = "0fb35589920ff4b9359e14473e19f2701a067ed8247f787a899e33cd07516c03c888
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gettext-its-gtk3"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

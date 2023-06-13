@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-happybase \
 python3.10dist(happybase) \
 python310-happybase \
 python3dist(happybase)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six \
 python310-thriftpy2"

@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "itcl:/usr/share/man/mann/itk.n.gz \
 itk \
 itk(aarch-64) \
 libitk4.1.0.so()(64bit)"
+
 RDEPENDS:${PN} += "itcl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

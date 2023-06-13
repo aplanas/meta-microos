@@ -13,6 +13,7 @@ RPM_HASH = "9f6f0f89af9f3d988a2f430d8aab2413ad68e230331e8201a03e512da5fbb7bab429
 RPROVIDES:${PN} += "libvisual-devel \
 libvisual-devel(aarch-64) \
 pkgconfig(libvisual-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libvisual-0_4-0"

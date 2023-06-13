@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5PimTextEdit) \
 cmake(KPim5TextEdit) \
 kpimtextedit-devel \
 kpimtextedit-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5SyntaxHighlighting) \
 cmake(KF5TextEditTextToSpeech) \
 cmake(KF5TextWidgets) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(permute.sty) \
 texlive-permute"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

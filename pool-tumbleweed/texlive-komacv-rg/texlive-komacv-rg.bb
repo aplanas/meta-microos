@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "tex(komacv-addons.sty) \
 tex(komacv-lco.sty) \
 tex(komacv-multilang.sty) \
 texlive-komacv-rg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

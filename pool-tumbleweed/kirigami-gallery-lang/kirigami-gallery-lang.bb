@@ -43,6 +43,7 @@ locale(kirigami-gallery:tr) \
 locale(kirigami-gallery:uk) \
 locale(kirigami-gallery:zh_CN) \
 locale(kirigami-gallery:zh_TW)"
+
 RDEPENDS:${PN} += "kirigami-gallery"
 
 inherit rpm

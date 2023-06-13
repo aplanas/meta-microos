@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(moderntimeline.sty) \
 texlive-moderntimeline"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

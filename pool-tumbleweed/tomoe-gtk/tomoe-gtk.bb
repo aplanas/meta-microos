@@ -9,6 +9,7 @@ RPM_HASH = "d3149a61aa31c388deaf30040be41c6d2ce5667317e3827d7bb59c13773702e6a1a6
 
 RPROVIDES:${PN} += "tomoe-gtk \
 tomoe-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "libtomoe-gtk0 \
 tomoe-gtk-lang"
 

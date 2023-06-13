@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(copthyph.tex) \
 tex(hyph-cop.tex) \
 tex(loadhyph-cop.tex) \
 texlive-hyphen-coptic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

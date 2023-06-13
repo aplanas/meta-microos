@@ -11,6 +11,7 @@ RPM_HASH = "dee320ba092eda40e8045392b74af71b5b122392f52c501f7aa5f98eeae6dec9f4d8
 RPROVIDES:${PN} += "config(neomutt) \
 neomutt \
 neomutt(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/perl \

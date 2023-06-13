@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(luavlna.sty) \
 tex(luavlna.tex) \
 texlive-luavlna"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

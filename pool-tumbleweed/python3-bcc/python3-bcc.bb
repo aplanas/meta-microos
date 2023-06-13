@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-bcc \
 python3.10dist(bcc) \
 python3dist(bcc)"
+
 RDEPENDS:${PN} += "libbcc0 \
 python(abi)"
 

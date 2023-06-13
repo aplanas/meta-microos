@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "libreoffice-help-fa \
 libreoffice-l10n-fa \
 locale(libreoffice:fa)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \
 libreoffice-share-linker"

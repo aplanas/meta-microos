@@ -11,6 +11,7 @@ RPM_HASH = "1966bd8eaa5a13d0b380ffc9397910b6b7b0c1879d2af96f168b03efd58ba73b7b73
 RPROVIDES:${PN} += "pkgconfig(playerctl) \
 playerctl-devel \
 playerctl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libplayerctl2 \
 pkgconfig(gio-2.0) \

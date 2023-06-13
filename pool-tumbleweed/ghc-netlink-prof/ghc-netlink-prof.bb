@@ -10,6 +10,7 @@ RPM_HASH = "26f1feb796a9fc2b828e9dbd318a9ace8b834a6867e75c8b65ee50239705d219d827
 RPROVIDES:${PN} += "ghc-netlink-prof \
 ghc-netlink-prof(aarch-64) \
 ghc-prof(netlink-1.1.1.0-3cQkQWnXFQnLtl9CehLMU3)"
+
 RDEPENDS:${PN} += "ghc-netlink-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

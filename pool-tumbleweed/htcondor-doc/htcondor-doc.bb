@@ -9,6 +9,7 @@ RPM_HASH = "136249e9aeaddb2b83f7c39898283a21c9e5092311f11ebe0d8ab1897b06bcbc32ab
 
 RPROVIDES:${PN} += "htcondor-doc \
 htcondor-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

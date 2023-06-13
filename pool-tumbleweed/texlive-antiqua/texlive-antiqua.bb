@@ -34,6 +34,7 @@ tex(uaqro8rc.tfm) \
 tex(uaqro8tc.tfm) \
 tex(uaqro8tc.vf) \
 texlive-antiqua"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

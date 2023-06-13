@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ekdosis.sty) \
 texlive-ekdosis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

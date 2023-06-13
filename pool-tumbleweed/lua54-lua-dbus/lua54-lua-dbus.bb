@@ -10,6 +10,7 @@ RPM_HASH = "86be3d8bfab3fa0802c00e8d01aa9e8a0512330dd903365038dfe944eff6e6ad9b2c
 RPROVIDES:${PN} += "lua-lua-dbus \
 lua54-lua-dbus \
 lua54-lua-dbus(aarch-64)"
+
 RDEPENDS:${PN} += "lua54 \
 lua54-ldbus"
 

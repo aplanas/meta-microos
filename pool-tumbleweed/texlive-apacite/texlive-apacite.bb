@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(apacdoc.sty) \
 tex(apacite.sty) \
 texlive-apacite"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

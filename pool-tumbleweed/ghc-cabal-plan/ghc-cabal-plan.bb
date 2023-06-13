@@ -10,6 +10,7 @@ RPM_HASH = "e0ac63c58d7c3e60d122f244cc5e9d9d3dfb95c49f98bcf9386371ff1a75bb9bfaeb
 RPROVIDES:${PN} += "ghc-cabal-plan \
 ghc-cabal-plan(aarch-64) \
 libHScabal-plan-0.7.2.3-5ryJl4z9bHqN70ORM7EbT-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

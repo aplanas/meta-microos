@@ -30,6 +30,7 @@ perl(CGI::Push) \
 perl(CGI::Util) \
 perl(Fh) \
 perl-CGI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Temp) \
 perl(HTML::Entities) \

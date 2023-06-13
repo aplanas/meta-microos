@@ -11,6 +11,7 @@ RPM_HASH = "8c420b9c6c7d4c9d9383387547a6c569b62077b9aa5645a9681649e3eb0882f7f9f0
 RPROVIDES:${PN} += "libgnuradio-osmosdr.so.0.2.0()(64bit) \
 libgnuradio-osmosdr0_2_0 \
 libgnuradio-osmosdr0_2_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

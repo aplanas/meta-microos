@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pytest-trio \
 python3.10dist(pytest-trio) \
 python310-pytest-trio \
 python3dist(pytest-trio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-contextvars \
 python310-outcome \

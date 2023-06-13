@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-easydev \
 python3.10dist(easydev) \
 python310-easydev \
 python3dist(easydev)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

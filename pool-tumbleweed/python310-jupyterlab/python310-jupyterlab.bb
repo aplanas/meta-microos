@@ -20,6 +20,7 @@ python3.10dist(jupyterlab) \
 python310-jupyter_jupyterlab \
 python310-jupyterlab \
 python3dist(jupyterlab)"
+
 RDEPENDS:${PN} += "(python310-jupyter-server-ydoc >= 0.8 with python310-jupyter-server-ydoc < 0.9) \
 (python310-jupyter-ydoc >= 0.2.3 with python310-jupyter-ydoc < 0.3) \
 (python310-jupyter_server >= 1.16 with python310-jupyter_server < 3) \

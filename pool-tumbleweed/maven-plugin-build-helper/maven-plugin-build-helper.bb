@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-plugin-build-helper \
 mvn(org.codehaus.mojo:build-helper-maven-plugin) \
 mvn(org.codehaus.mojo:build-helper-maven-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache-extras.beanshell:bsh) \

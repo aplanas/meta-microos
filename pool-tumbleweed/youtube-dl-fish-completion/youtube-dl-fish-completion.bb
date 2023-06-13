@@ -9,6 +9,7 @@ RPM_HASH = "4a1e0e79dc3c97a27a4bec5d62fc88202118e2a7318b87b8783fef59a8b31b566827
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "youtube-dl-fish-completion"
+
 RDEPENDS:${PN} += "fish"
 
 inherit rpm

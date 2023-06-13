@@ -15,6 +15,7 @@ ispell-slovene \
 ispell-slovene(aarch-64) \
 ispell_dictionary \
 locale(ispell:sl)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -24,6 +24,7 @@ mimehandler(audio/x-rosegarden-project) \
 mimehandler(audio/x-rosegarden-template) \
 rosegarden \
 rosegarden(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

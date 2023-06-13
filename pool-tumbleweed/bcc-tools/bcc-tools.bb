@@ -9,6 +9,7 @@ RPM_HASH = "8553782cea0eadc9e822fb2822096179c68554c84f2b8d21700607d78282867a27c6
 
 RPROVIDES:${PN} += "bcc-tools \
 bcc-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 audit \

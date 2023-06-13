@@ -10,6 +10,7 @@ RPM_HASH = "ab38254e1e0458bc2e61047682a81be18ef08d6531b52c7079a918c648c7ac33b28d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-csquotes-de"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

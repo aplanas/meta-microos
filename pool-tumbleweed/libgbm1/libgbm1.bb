@@ -15,6 +15,7 @@ RPM_HASH = "49caa66ecf0b3a5e4e82a8b85b9894b663bc665128cd082c03d24c1159f3ade5c4e0
 RPROVIDES:${PN} += "libgbm.so.1()(64bit) \
 libgbm1 \
 libgbm1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

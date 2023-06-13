@@ -9,6 +9,7 @@ RPM_HASH = "b124b0ee1cbe13ccb964e7981486b28ebfe4eb680b3fa1c74a4161f00d68a7767830
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-staves-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

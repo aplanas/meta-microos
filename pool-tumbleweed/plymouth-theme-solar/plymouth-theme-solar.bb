@@ -10,6 +10,7 @@ RPM_HASH = "abe903564e48c85ff90a7cf62d8fe345f98c1b6f1a0dd7d07e9a1c8bc19ea847394c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-solar"
+
 RDEPENDS:${PN} += "/bin/sh \
 plymouth-plugin-space-flares \
 plymouth-scripts"

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.jboss.resteasy:resteasy-jaxb-provider) \
 mvn(org.jboss.resteasy:resteasy-jaxb-provider:pom:) \
 resteasy-jaxb-provider"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.sun.xml.bind:jaxb-impl) \

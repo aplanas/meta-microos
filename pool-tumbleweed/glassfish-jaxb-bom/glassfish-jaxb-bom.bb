@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-bom \
 mvn(org.glassfish.jaxb:jaxb-bom:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(net.java:jvnet-parent:pom:)"

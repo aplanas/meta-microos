@@ -12,6 +12,7 @@ RPM_HASH = "c04dea8bd7aba5e12fa8cd705fffdef0e55a3b3a51abdb155c40dd91d088ec08ed2f
 RPROVIDES:${PN} += "aqbanking \
 aqbanking(aarch-64) \
 libaqbanking.so.44()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

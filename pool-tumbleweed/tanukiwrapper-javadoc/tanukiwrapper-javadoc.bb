@@ -9,6 +9,7 @@ RPM_HASH = "6ad1a8579a4b21cd81047f27210bcb39f3d0957ae34f73ab26394743097938686c7b
 
 RPROVIDES:${PN} += "tanukiwrapper-javadoc \
 tanukiwrapper-javadoc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

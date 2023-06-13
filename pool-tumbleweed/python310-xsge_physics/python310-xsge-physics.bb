@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-xsge_physics \
 python3.10dist(xsge-physics) \
 python310-xsge_physics \
 python3dist(xsge-physics)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-sge-pygame"
 

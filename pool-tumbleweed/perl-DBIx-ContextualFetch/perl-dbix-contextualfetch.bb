@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "perl(DBIx::ContextualFetch) \
 perl(DBIx::ContextualFetch::db) \
 perl(DBIx::ContextualFetch::st) \
 perl-DBIx-ContextualFetch"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBI)"
 

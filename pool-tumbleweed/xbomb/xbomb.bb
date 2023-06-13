@@ -11,6 +11,7 @@ RPM_HASH = "644ce6e7a1f7bdd1cb2c1b6242a9cd3e90aaeec2c658b8b7333dd713f1716585440a
 
 RPROVIDES:${PN} += "xbomb \
 xbomb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

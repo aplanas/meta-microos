@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "glassfish-dtd-parser \
 mvn(com.sun.xml.dtd-parser:dtd-parser) \
 mvn(com.sun.xml.dtd-parser:dtd-parser:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

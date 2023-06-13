@@ -9,6 +9,7 @@ RPM_HASH = "990e07a665f66fa0f50e07c7cc9c03237d76f94d6dcce7c0699d54aa491cc53cbf1f
 
 RPROVIDES:${PN} += "krita-devel \
 krita-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 krita"
 

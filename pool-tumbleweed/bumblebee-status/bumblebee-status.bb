@@ -12,6 +12,7 @@ RPM_HASH = "5f58f7e6fc733f6985552182c887d7492136e9a9737bd70f5052312c1360cee07eb9
 
 RPROVIDES:${PN} += "bumblebee-status \
 bumblebee-status(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 dbus-1 \
 i3 \

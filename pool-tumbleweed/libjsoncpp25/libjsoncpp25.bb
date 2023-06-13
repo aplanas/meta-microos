@@ -16,6 +16,7 @@ RPM_HASH = "ee877aadb097f93ff8272a7d12ee4b3f6c828aff20f02515d73594d5de03ee8761d0
 RPROVIDES:${PN} += "libjsoncpp.so.25()(64bit) \
 libjsoncpp25 \
 libjsoncpp25(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

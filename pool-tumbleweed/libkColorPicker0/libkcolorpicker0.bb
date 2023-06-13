@@ -12,6 +12,7 @@ RPM_HASH = "35366af12a8d623291144eacbd103524d2944723bfcb552f37c27029fc65fa5c308c
 RPROVIDES:${PN} += "libkColorPicker.so.0()(64bit) \
 libkColorPicker0 \
 libkColorPicker0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

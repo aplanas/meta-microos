@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(ujson) \
 python39-ujson \
 python39-ujson(aarch-64) \
 python3dist(ujson)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

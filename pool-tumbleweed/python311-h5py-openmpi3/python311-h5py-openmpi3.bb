@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(h5py) \
 python311-h5py-openmpi3 \
 python311-h5py-openmpi3(aarch-64) \
 python3dist(h5py)"
+
 RDEPENDS:${PN} += "hdf5-openmpi3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "2314d8bc8cdae6067df67aa69be09320437acc093451baee78341ab036bff0575c1a
 RPROVIDES:${PN} += "libpanel-devel \
 libpanel-devel(aarch-64) \
 pkgconfig(libpanel-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpanel1-1 \
 pkgconfig(gio-2.0) \

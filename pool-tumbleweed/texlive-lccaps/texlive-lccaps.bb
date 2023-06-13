@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lccaps.sty) \
 texlive-lccaps"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

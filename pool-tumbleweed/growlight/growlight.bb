@@ -13,6 +13,7 @@ RPM_HASH = "0908abaca38181037235bbd36317ef216d5bbc5b4c59847f9d04b502323c5b9fdf93
 
 RPROVIDES:${PN} += "growlight \
 growlight(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatasmart.so.4()(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(botocore) \
 python311-botocore \
 python3dist(botocore)"
+
 RDEPENDS:${PN} += "(python311-jmespath >= 0.7.1 with python311-jmespath < 2.0.0) \
 (python311-python-dateutil >= 2.1 with python311-python-dateutil < 3.0.0) \
 python(abi) \

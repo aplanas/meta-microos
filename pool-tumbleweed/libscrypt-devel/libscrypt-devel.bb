@@ -9,6 +9,7 @@ RPM_HASH = "0db20159d501e516ba078f2d343f933597f7006cec7bdf0a71cac8c71b2418bdb801
 
 RPROVIDES:${PN} += "libscrypt-devel \
 libscrypt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libscrypt0"
 
 inherit rpm

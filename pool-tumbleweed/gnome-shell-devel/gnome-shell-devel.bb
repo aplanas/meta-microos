@@ -11,6 +11,7 @@ RPM_HASH = "59e524a4c6ac67ff55fc6695d609e185cc8ae46f62ef7885aba243d4212eff44addb
 
 RPROVIDES:${PN} += "gnome-shell-devel \
 gnome-shell-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gnome-shell"
 
 inherit rpm

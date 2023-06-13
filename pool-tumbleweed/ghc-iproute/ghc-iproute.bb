@@ -12,6 +12,7 @@ RPM_HASH = "7982a083dbbdd0639b8e4ad592ffc6841f36bc6d75ab7743611e6697bf31089a61bc
 RPROVIDES:${PN} += "ghc-iproute \
 ghc-iproute(aarch-64) \
 libHSiproute-1.7.12-2mj2MFOMRz35bHY4Q7Jvyd-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSappar-0.1.8-JYpyJYPkUOgKorqU8WSWRv-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

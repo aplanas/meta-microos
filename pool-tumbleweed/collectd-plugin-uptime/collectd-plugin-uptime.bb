@@ -9,6 +9,7 @@ RPM_HASH = "78754ee8022ed64ad258c6170b2bd73af97b6f50638f24af9b78a62af85055bb99ab
 
 RPROVIDES:${PN} += "collectd-plugin-uptime \
 collectd-plugin-uptime(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

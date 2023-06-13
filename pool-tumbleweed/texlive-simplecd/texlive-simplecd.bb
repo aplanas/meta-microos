@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(simplecd.sty) \
 texlive-simplecd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

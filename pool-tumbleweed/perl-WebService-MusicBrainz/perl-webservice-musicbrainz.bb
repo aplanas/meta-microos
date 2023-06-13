@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(WebService::MusicBrainz) \
 perl(WebService::MusicBrainz::Request) \
 perl-WebService-MusicBrainz"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Mojolicious)"
 

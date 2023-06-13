@@ -21,6 +21,7 @@ RPM_HASH = "ac7ed4d774a7e0ddf0050de23542063cf16e788690a7a91184247e380dae51fff726
 RPROVIDES:${PN} += "libspnav.so.0()(64bit) \
 libspnav0 \
 libspnav0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "986b1d42d726786292a01d893ac77022dcb42fbb559cf950adffa8cfa58247090e41
 
 RPROVIDES:${PN} += "viewres \
 viewres(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

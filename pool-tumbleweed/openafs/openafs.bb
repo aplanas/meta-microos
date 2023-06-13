@@ -21,6 +21,7 @@ libafshcrypto.so.2()(64bit) \
 librokenafs.so.2()(64bit) \
 openafs \
 openafs(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/mkdir \
 /usr/bin/touch \

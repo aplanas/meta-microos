@@ -13,6 +13,7 @@ RPM_HASH = "78ff3283814664659f2c0aa7e13f3577e9e4f2cb000ee9556e42a5ddf693b1d3a52b
 
 RPROVIDES:${PN} += "sshfs \
 sshfs(aarch-64)"
+
 RDEPENDS:${PN} += "fuse3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "6cb7b573500e787745ee45b5c813f1dc7886a3b4b7ce0b56c214b904b0811f0e47b7
 
 RPROVIDES:${PN} += "dhex \
 dhex(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

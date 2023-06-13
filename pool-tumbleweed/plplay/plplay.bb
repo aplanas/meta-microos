@@ -11,6 +11,7 @@ RPM_HASH = "de061ae47d29f239e0f87d6e8b17217f3032361477cbfb31b408bae4427bc7c05b3d
 
 RPROVIDES:${PN} += "plplay \
 plplay(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \

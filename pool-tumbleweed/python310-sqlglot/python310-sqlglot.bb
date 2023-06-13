@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-sqlglot \
 python3.10dist(sqlglot) \
 python310-sqlglot \
 python3dist(sqlglot)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

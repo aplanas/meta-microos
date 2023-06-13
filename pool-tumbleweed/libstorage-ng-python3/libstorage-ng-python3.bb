@@ -9,6 +9,7 @@ RPM_HASH = "42a4d34b9deff83b886a452daad0c2cb2e513b13a3c0c1cfd5e57e42dd616eea0bfc
 
 RPROVIDES:${PN} += "libstorage-ng-python3 \
 libstorage-ng-python3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

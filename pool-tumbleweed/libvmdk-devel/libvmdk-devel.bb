@@ -15,6 +15,7 @@ RPM_HASH = "5b1ddf5428feb39e35f8687bcc4349d241c192cbab12bddb79ff77a82370ae0675a8
 RPROVIDES:${PN} += "libvmdk-devel \
 libvmdk-devel(aarch-64) \
 pkgconfig(libvmdk)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libvmdk1"

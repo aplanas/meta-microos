@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pagella-otf.sty) \
 texlive-pagella-otf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

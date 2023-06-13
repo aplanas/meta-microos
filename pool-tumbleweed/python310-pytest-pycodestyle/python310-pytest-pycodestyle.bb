@@ -14,6 +14,7 @@ python3.10dist(pytest-pycodestyle) \
 python310-pytest-codestyle \
 python310-pytest-pycodestyle \
 python3dist(pytest-pycodestyle)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-py \
 python310-pycodestyle \

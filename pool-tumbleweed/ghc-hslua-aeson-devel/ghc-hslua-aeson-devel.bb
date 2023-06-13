@@ -10,6 +10,7 @@ RPM_HASH = "652c6f64c30ef212bed5ae06877d155d78acfd62e54361ce035f9ca9ac7e0c4f45e2
 RPROVIDES:${PN} += "ghc-devel(hslua-aeson-2.3.0.1-E4tasg1dFJ86CDrMHWRi4i) \
 ghc-hslua-aeson-devel \
 ghc-hslua-aeson-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \

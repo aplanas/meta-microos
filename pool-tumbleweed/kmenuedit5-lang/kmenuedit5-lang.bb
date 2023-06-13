@@ -90,6 +90,7 @@ locale(kmenuedit5:vi) \
 locale(kmenuedit5:wa) \
 locale(kmenuedit5:zh_CN) \
 locale(kmenuedit5:zh_TW)"
+
 RDEPENDS:${PN} += "kmenuedit5"
 
 inherit rpm

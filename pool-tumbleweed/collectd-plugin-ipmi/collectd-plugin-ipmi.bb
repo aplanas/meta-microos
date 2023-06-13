@@ -10,6 +10,7 @@ RPM_HASH = "1ca5ef9a37e77d6b770ca49499aa3f68d135df3e180746e9111c2bd1cd5af857286c
 
 RPROVIDES:${PN} += "collectd-plugin-ipmi \
 collectd-plugin-ipmi(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

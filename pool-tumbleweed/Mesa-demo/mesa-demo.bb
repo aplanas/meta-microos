@@ -23,6 +23,7 @@ RPM_HASH = "e9731d34bf6191bfed7ba51dd40524328f12f90e59cb193aaee53f6d9854f7bf1e6d
 
 RPROVIDES:${PN} += "Mesa-demo \
 Mesa-demo(aarch-64)"
+
 RDEPENDS:${PN} += "Mesa-demo-egl \
 Mesa-demo-es \
 Mesa-demo-x \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libpostproc.so.56()(64bit) \
 libpostproc.so.56(LIBPOSTPROC_56.6_SUSE)(64bit) \
 libpostproc56 \
 libpostproc56(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

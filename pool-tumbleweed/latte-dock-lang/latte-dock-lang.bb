@@ -46,6 +46,7 @@ locale(latte-dock:tr) \
 locale(latte-dock:uk) \
 locale(latte-dock:zh_CN) \
 locale(latte-dock:zh_TW)"
+
 RDEPENDS:${PN} += "latte-dock"
 
 inherit rpm

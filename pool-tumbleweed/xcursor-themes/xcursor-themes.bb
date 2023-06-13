@@ -11,6 +11,7 @@ RPM_HASH = "0f93a73312f12f2ba462778efb85841d73fcc378ead94d0891ee29c1e4f6292ed622
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xcursor-themes"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

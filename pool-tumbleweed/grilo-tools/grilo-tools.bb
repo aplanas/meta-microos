@@ -12,6 +12,7 @@ RPM_HASH = "89021079b3638ea1fb3a9b8521559128204ffd779d30360c190cc0b2c14a74685eb4
 
 RPROVIDES:${PN} += "grilo-tools \
 grilo-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

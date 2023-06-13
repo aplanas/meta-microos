@@ -9,6 +9,7 @@ RPM_HASH = "f56b9234b3152ed470fa44b9770b5bfcbe3414f225bdabdb229bcb4c71f2bd253fe6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hwloc-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

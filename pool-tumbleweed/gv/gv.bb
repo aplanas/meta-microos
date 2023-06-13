@@ -24,6 +24,7 @@ mimehandler(application/illustrator) \
 mimehandler(application/pdf) \
 mimehandler(application/postscript) \
 mimehandler(image/x-eps)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ghostscript_x11 \

@@ -20,6 +20,7 @@ libgfortran.so.5(GFORTRAN_C99_8)(64bit) \
 libgfortran.so.5(GFORTRAN_F2C_8)(64bit) \
 libgfortran5 \
 libgfortran5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

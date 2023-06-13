@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(functan.sty) \
 texlive-functan"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

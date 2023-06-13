@@ -9,6 +9,7 @@ RPM_HASH = "0220e6b36e5e82a52844c193132f600579f4d58d08def98a777159c494a3ba415416
 
 RPROVIDES:${PN} += "callaudiod \
 callaudiod(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

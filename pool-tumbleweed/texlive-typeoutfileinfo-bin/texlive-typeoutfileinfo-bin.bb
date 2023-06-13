@@ -9,6 +9,7 @@ RPM_HASH = "e2e25c1a683cc99eb736c88b75aacec6aa9c46903e0eff6f6a0f9a43ebd3830d4288
 
 RPROVIDES:${PN} += "texlive-typeoutfileinfo-bin \
 texlive-typeoutfileinfo-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-typeoutfileinfo"
 
 inherit rpm

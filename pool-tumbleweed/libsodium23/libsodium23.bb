@@ -15,6 +15,7 @@ RPM_HASH = "5b62d4a7f2ef8e24f005b79a56bdb1c0a13781f6644cb79585a015ba06bce2f7c733
 RPROVIDES:${PN} += "libsodium.so.23()(64bit) \
 libsodium23 \
 libsodium23(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

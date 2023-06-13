@@ -21,6 +21,7 @@ RPM_HASH = "8fc8fb54f41c221be35f1398fc08d7181a731dfe582a2e41fbd2904f339729af1097
 RPROVIDES:${PN} += "pkgconfig(tk) \
 tk-devel \
 tk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(tcl) \
 tcl-devel \

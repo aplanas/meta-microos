@@ -9,6 +9,7 @@ RPM_HASH = "822a235ddede37a317251c75dc2c0c2724ee1adfde72c7f16580de170f713e1e7096
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spark-otf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

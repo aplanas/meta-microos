@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "curl-devel \
 libcurl-devel \
 libcurl-devel(aarch-64) \
 pkgconfig(libcurl)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-genty \
 python3.10dist(genty) \
 python310-genty \
 python3dist(genty)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

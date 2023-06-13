@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(multido.sty) \
 tex(multido.tex) \
 texlive-multido"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

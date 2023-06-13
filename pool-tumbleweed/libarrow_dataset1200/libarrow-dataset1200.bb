@@ -17,6 +17,7 @@ RPM_HASH = "a4a94ac19437337b859678eb6b184c1405126e93baa615bab1860ed776a994ca55bf
 RPROVIDES:${PN} += "libarrow_dataset.so.1200()(64bit) \
 libarrow_dataset1200 \
 libarrow_dataset1200(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

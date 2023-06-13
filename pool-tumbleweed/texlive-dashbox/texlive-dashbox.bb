@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dashbox.sty) \
 texlive-dashbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

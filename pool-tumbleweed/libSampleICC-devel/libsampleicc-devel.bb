@@ -11,6 +11,7 @@ RPM_HASH = "d8ccc407222faac2bc588162ac40a025695b03c488af7f8c9776ce6425e63895f8b8
 RPROVIDES:${PN} += "libSampleICC-devel \
 libSampleICC-devel(aarch-64) \
 pkgconfig(sampleicc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSampleICC2"
 

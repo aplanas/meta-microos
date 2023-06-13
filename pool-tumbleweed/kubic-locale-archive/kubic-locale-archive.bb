@@ -11,6 +11,7 @@ RPM_HASH = "36fb06b69a036af1d1c5a8d7b1ba5c89fb3f56479efad4942580c9e44173062ba54d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubic-locale-archive"
+
 RDEPENDS:${PN} += "glibc"
 
 inherit rpm

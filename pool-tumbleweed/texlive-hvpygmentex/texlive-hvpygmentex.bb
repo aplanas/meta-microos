@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hvpygmentex.sty) \
 texlive-hvpygmentex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

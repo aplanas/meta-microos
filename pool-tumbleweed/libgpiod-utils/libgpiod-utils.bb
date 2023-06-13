@@ -14,6 +14,7 @@ RPM_HASH = "63e4530a63abb7917a71b4e9fd928e4d528b8b670561688207d8c901640d6746f6e1
 RPROVIDES:${PN} += "libgpiod \
 libgpiod-utils \
 libgpiod-utils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/bats \
 /usr/bin/python3 \

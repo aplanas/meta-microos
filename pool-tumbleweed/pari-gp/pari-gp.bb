@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "config(pari-gp) \
 pari-gp \
 pari-gp(aarch-64) \
 perl(PARI::822)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

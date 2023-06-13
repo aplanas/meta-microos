@@ -11,6 +11,7 @@ RPM_HASH = "66219d391151b3702cddff1e64d0d97746532ee85d5954f3b5e37fbcceaa2fcc523c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-devel-doc"
+
 RDEPENDS:${PN} += "libqore12"
 
 inherit rpm

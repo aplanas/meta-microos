@@ -12,6 +12,7 @@ gedit-plugin-joinlines(aarch-64) \
 gedit-plugins:/usr/lib64/gedit/plugins/joinlines.plugin \
 metainfo() \
 metainfo(gedit-joinlines.metainfo.xml)"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 typelib(GObject) \
 typelib(Gedit) \

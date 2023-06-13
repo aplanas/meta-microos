@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(unravel.sty) \
 texlive-unravel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

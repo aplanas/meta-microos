@@ -19,6 +19,7 @@ RPM_HASH = "f09c502e226cedb13527aa05a183b74b35d88ba501e50b6df78a3a92db1717433d4e
 RPROVIDES:${PN} += "openssh-clients \
 openssh-clients(aarch-64) \
 openssh:/usr/bin/ssh"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

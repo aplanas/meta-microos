@@ -37,6 +37,7 @@ metainfo() \
 metainfo(sdl-ball.appdata.xml) \
 sdl-ball \
 sdl-ball(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libGL.so.1()(64bit) \
 libGLU.so.1()(64bit) \

@@ -23,6 +23,7 @@ tex(plainenc.tex) \
 tex(txxdefs.tex) \
 tex(txxextra.tex) \
 texlive-cyrplain"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

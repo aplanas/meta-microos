@@ -16,6 +16,7 @@ RPM_HASH = "89637463170894d02414bb196e7a44329d6114e37e0e654a0bad2fe2f46927266998
 RPROVIDES:${PN} += "typelib(Caribou) \
 typelib-1_0-Caribou-1_0 \
 typelib-1_0-Caribou-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcaribou.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

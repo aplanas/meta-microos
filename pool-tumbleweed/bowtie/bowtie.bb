@@ -13,6 +13,7 @@ RPM_HASH = "55d4cc90b9a2d80d7996b8076ac944e6fcdcefc5c955fe8ed3aca71cd82f3f6f9864
 
 RPROVIDES:${PN} += "bowtie \
 bowtie(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

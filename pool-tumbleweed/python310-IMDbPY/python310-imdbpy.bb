@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-IMDbPY \
 python3.10dist(imdbpy) \
 python310-IMDbPY \
 python3dist(imdbpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

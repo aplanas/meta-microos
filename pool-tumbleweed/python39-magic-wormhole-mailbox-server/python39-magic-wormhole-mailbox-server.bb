@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(magic-wormhole-mailbox-server) \
 python39-magic-wormhole-mailbox-server \
 python3dist(magic-wormhole-mailbox-server)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Twisted-tls \
 python39-attrs \

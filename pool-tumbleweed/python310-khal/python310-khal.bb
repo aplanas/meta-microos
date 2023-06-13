@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-khal \
 python3.10dist(khal) \
 python310-khal \
 python3dist(khal)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

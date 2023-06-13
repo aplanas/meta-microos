@@ -12,6 +12,7 @@ RPM_HASH = "3f6d93fa05c1d0498ef53ec6ea4e56f189b10e1bf51bd5abe8feb50ff4c542d27ea2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-basic"
+
 RDEPENDS:${PN} += "texlive-collection-basic \
 texlive-collection-latex"
 

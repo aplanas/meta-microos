@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(glosmathtools.sty) \
 texlive-glosmathtools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

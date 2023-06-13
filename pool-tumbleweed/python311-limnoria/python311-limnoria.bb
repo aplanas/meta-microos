@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "Supybot \
 python3.11dist(limnoria) \
 python311-limnoria \
 python3dist(limnoria)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 procps \

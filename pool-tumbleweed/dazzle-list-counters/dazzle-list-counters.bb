@@ -9,6 +9,7 @@ RPM_HASH = "20850f69e892c1f5e46c28c562e93b78b53e2ff592f2167570faba80271344ac834a
 
 RPROVIDES:${PN} += "dazzle-list-counters \
 dazzle-list-counters(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -17,6 +17,7 @@ RPM_HASH = "305221fc27da7a37ffa524c0ee0ff49a7ea643a2543b2717076bebbe37e9ba0a5e51
 RPROVIDES:${PN} += "perl(Net::LibIDN) \
 perl-Net-LibIDN \
 perl-Net-LibIDN(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

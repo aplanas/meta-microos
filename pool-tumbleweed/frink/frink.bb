@@ -14,6 +14,7 @@ RPM_HASH = "f379c15f6097c381ff688c2f1b4fb3d24d24ae7a8782bdba328dc864a71cb02a27d9
 
 RPROVIDES:${PN} += "frink \
 frink(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

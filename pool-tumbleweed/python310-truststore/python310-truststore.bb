@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-truststore \
 python3.10dist(truststore) \
 python310-truststore \
 python3dist(truststore)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

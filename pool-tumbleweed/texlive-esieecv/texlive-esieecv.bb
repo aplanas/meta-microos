@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ESIEEcv.sty) \
 texlive-esieecv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

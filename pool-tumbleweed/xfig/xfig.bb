@@ -17,6 +17,7 @@ mimehandler(application/x-xfig) \
 xfig \
 xfig(aarch-64) \
 xfig.3.2.3d"
+
 RDEPENDS:${PN} += "efont-unicode \
 ghostscript-fonts-std \
 ifnteuro \

@@ -118,6 +118,7 @@ font(은펜) \
 font(은펜흘림) \
 font(은필기a) \
 texlive-unfonts-extra-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

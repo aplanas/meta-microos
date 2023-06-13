@@ -12,6 +12,7 @@ openSUSE-release-appliance-wsl \
 openSUSE-release-appliance-wsl(aarch-64) \
 product_flavor() \
 product_flavor(openSUSE)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

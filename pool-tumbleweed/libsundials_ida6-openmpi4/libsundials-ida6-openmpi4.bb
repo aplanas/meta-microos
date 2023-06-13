@@ -13,6 +13,7 @@ RPM_HASH = "f73044ffd23b276ec79738a20254e87cb68474a3bf9e0f02e488c5855d58aed52c71
 RPROVIDES:${PN} += "libsundials_ida.so.6()(64bit) \
 libsundials_ida6-openmpi4 \
 libsundials_ida6-openmpi4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

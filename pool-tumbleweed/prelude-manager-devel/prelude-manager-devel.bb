@@ -9,6 +9,7 @@ RPM_HASH = "ce03a4b62cbae691186aa0796208b3d37702a019c513018222891c919f69af136138
 
 RPROVIDES:${PN} += "prelude-manager-devel \
 prelude-manager-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libpreludedb-devel \
 prelude-manager"
 

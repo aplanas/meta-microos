@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libgpiod-devel \
 libgpiod-devel(aarch-64) \
 pkgconfig(libgpiod) \
 pkgconfig(libgpiodcxx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgpiod \
 libgpiod2 \

@@ -13,6 +13,7 @@ RPM_HASH = "b4b90118f825be5348937609a3f150ef49adebe74f5c07cac9fd52c7c9ba0608f835
 RPROVIDES:${PN} += "cadabra-doc \
 cadabra2-doc \
 cadabra2-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

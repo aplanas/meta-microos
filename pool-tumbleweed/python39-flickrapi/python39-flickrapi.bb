@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flickrapi) \
 python39-flickrapi \
 python3dist(flickrapi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests \
 python39-requests-oauthlib \

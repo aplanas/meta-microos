@@ -13,6 +13,7 @@ RPM_HASH = "d30702546728393feed4579db39a0ae5e09eb67453448ad045107b762f2745e5b3fb
 RPROVIDES:${PN} += "bundled(rust-crate:BROKEN) \
 zola \
 zola(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

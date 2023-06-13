@@ -10,6 +10,7 @@ RPM_HASH = "a01c1546543616e3634cad5e74d50601c79fe6bc8702cbdbb48847dea3d234a0457e
 
 RPROVIDES:${PN} += "nfdump-devel \
 nfdump-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libnfdump1_7_1"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "411a8dfded3f7f26a97ff5cb1afd6cddeb16adb4d893c51f3b0c040c38aa5b07e160
 RPROVIDES:${PN} += "libnxml-devel \
 libnxml-devel(aarch-64) \
 pkgconfig(nxml)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcurl-devel \
 libnxml0"

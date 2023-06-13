@@ -9,6 +9,7 @@ RPM_HASH = "314f892d209f11a04019658a545947c2d149583c327d1b5cfba4fb07ac869a69bea0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-quilt"
+
 RDEPENDS:${PN} += "/bin/sh \
 quilt \
 vim"

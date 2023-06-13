@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(libtmux) \
 python39-libtmux \
 python3dist(libtmux)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

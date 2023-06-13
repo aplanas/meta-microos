@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(logbox.sty) \
 texlive-logbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

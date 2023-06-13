@@ -14,6 +14,7 @@ RPM_HASH = "009314877d1968ad4957cd2018da884c5268d999f58060098d3b44652621cf900fc3
 RPROVIDES:${PN} += "leechcraft-ooronee \
 leechcraft-ooronee(aarch-64) \
 libleechcraft_ooronee.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-sb2 \

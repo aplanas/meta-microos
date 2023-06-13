@@ -11,6 +11,7 @@ RPM_HASH = "1d39e81d30214d6c6103fb0c33cc11c1dd2d01e3618030788a0a71ba1748e98e790d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-gnu-hpc-devel"
+
 RDEPENDS:${PN} += "boost_1_82_0-gnu-hpc-devel"
 
 inherit rpm

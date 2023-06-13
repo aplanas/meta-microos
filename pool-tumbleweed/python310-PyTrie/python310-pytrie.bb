@@ -19,6 +19,7 @@ python3.10dist(pytrie) \
 python310-PyTrie \
 python310-pytrie \
 python3dist(pytrie)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-sortedcontainers"
 

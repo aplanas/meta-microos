@@ -9,6 +9,7 @@ RPM_HASH = "01fc04a8b34b12f2c9b0ecd599da079bca49db7f64a937f70994b3614d68be7f385a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby3.2-doc-ri"
+
 RDEPENDS:${PN} += "ruby3.2"
 
 inherit rpm

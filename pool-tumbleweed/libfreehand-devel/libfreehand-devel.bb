@@ -13,6 +13,7 @@ RPM_HASH = "51975e2314991e2587c84fb5645a6d354d0d3e3eab324be33eefb1c0efdec508ca13
 RPROVIDES:${PN} += "libfreehand-devel \
 libfreehand-devel(aarch-64) \
 pkgconfig(libfreehand-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfreehand-0_1-1 \
 pkgconfig(librevenge-0.0) \

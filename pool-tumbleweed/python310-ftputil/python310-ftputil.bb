@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-ftputil \
 python3.10dist(ftputil) \
 python310-ftputil \
 python3dist(ftputil)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "77496b6b1caae7a1557d91c52511a96e5bcc2d1046bef7aa7d896230f27004f9429b
 RPROVIDES:${PN} += "libminizip.so.1()(64bit) \
 libminizip1 \
 libminizip1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

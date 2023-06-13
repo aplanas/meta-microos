@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-linetable \
 python3.10dist(linetable) \
 python310-linetable \
 python3dist(linetable)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

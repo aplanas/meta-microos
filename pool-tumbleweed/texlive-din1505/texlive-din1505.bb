@@ -11,6 +11,7 @@ RPM_HASH = "2f3f789cc50b4d632f74380d1f51e31ea4758ae5370d5a74f1a08f46479d748de16c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-din1505"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-securitydevops \
 python3.10dist(azure-mgmt-securitydevops) \
 python310-azure-mgmt-securitydevops \
 python3dist(azure-mgmt-securitydevops)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
 python(abi) \
 python310-azure-common \

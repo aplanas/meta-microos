@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "apache-parquet-devel \
 apache-parquet-devel(aarch-64) \
 cmake(Parquet) \
 pkgconfig(parquet)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libparquet1200 \
 pkgconfig(arrow)"

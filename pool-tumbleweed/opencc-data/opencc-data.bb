@@ -14,6 +14,7 @@ RPM_HASH = "6f7d5a8b215b84725d459fde31452148a432adae416057c593332f7b60d8ba79f79a
 
 RPROVIDES:${PN} += "opencc-data \
 opencc-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

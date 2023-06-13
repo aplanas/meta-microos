@@ -9,6 +9,7 @@ RPM_HASH = "57eceb25fd5f18d0b62f35167ccf6370b5b498e9ea0cec209d27b089ec5dcba83169
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aboensis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

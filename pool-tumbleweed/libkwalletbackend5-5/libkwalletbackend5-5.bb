@@ -12,6 +12,7 @@ RPM_HASH = "b0e98622aaec509d0ac44cab8f36f21fd7f0c588b614f23210822b53320438a04518
 RPROVIDES:${PN} += "libkwalletbackend5-5 \
 libkwalletbackend5-5(aarch-64) \
 libkwalletbackend5.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

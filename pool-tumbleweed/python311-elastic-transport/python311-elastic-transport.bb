@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(elastic-transport) \
 python311-elastic-transport \
 python3dist(elastic-transport)"
+
 RDEPENDS:${PN} += "(python311-urllib3 >= 1.26.2) \
 python(abi) \
 python311-certifi"

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libpmemkv_json_config.so.1()(64bit) \
 libpmemkv_json_config.so.1(LIBPMEMKV_JSON_CONFIG_1.0)(64bit) \
 libpmemkv_json_config1 \
 libpmemkv_json_config1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

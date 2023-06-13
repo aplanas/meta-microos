@@ -25,6 +25,7 @@ RPM_HASH = "6d8a9fdcc0a7689700842d8e45ede9a2a822164ff1985e8e4ff8dab1302e9b2e58b2
 
 RPROVIDES:${PN} += "mednafen \
 mednafen(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aiohttp-socks) \
 python39-aiohttp-socks \
 python3dist(aiohttp-socks)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-aiohttp \
 python39-attrs \

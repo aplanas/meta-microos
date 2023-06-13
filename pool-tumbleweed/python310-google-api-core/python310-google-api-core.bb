@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-google-api-core \
 python3.10dist(google-api-core) \
 python310-google-api-core \
 python3dist(google-api-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-google-auth \
 python310-googleapis-common-protos \

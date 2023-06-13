@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luagcd.sty) \
 texlive-luagcd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:mixlib-cli) \
 rubygem(ruby:3.2.0:mixlib-cli:2) \
 rubygem(ruby:3.2.0:mixlib-cli:2.1) \
 rubygem(ruby:3.2.0:mixlib-cli:2.1.8)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

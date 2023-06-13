@@ -12,6 +12,7 @@ RPM_HASH = "1cfbda81b83eabd0d8329be7e0430e5c5e2b0a720444dcaa05e3069643ffb16958b2
 RPROVIDES:${PN} += "python3-libfsntfs \
 python310-libfsntfs \
 python310-libfsntfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

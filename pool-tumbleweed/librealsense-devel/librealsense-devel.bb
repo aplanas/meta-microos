@@ -13,6 +13,7 @@ librealsense-devel \
 librealsense-devel(aarch-64) \
 pkgconfig(realsense2) \
 pkgconfig(realsense2-gl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librealsense2_53 \
 pkgconfig(realsense2)"

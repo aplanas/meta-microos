@@ -20,6 +20,7 @@ RPM_HASH = "3ce4cfd9d6c80167b2516c9b0126f5d36556017bfe14dbab912fdfdac1d5a4d2c802
 
 RPROVIDES:${PN} += "snmp-mibs \
 snmp-mibs(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

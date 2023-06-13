@@ -32,6 +32,7 @@ libaugeas.so.0(AUGEAS_0.25.0)(64bit) \
 libaugeas.so.0(AUGEAS_0.8.0)(64bit) \
 libaugeas0 \
 libaugeas0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

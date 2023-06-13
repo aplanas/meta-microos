@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "SourceCodePro-fonts \
 adobe-sourcecodepro-fonts \
 metainfo() \
 metainfo(adobe-sourcecodepro-fonts.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

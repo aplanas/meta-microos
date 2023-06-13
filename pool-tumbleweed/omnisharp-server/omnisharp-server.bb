@@ -13,6 +13,7 @@ RPM_HASH = "4f41d27c22546e130c96468c4d2b7217eefd760a2d7ab6fc83863291664cd9ee7026
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "omnisharp-server"
+
 RDEPENDS:${PN} += "mono-core"
 
 inherit rpm

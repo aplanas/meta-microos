@@ -13,6 +13,7 @@ RPM_HASH = "02c1b0a66d288b50d6946633ab7e0b15e4d4566c3e69feb29e1200c009465cea10e2
 RPROVIDES:${PN} += "perl(PerlIO::gzip) \
 perl-PerlIO-gzip \
 perl-PerlIO-gzip(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

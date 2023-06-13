@@ -10,6 +10,7 @@ RPM_HASH = "2935487e06f883bf1f0d3b808c28bf82ae3d6675ce10e5d9d98f2f1a1464a8893170
 RPROVIDES:${PN} += "budgie-weathershow-applet \
 budgie-weathershow-applet(aarch-64) \
 libweathershow.so()(64bit)"
+
 RDEPENDS:${PN} += "budgie-extras-lang \
 dconf \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "glassfishbuild-maven-plugin \
 mvn(org.glassfish.build:glassfishbuild-maven-plugin) \
 mvn(org.glassfish.build:glassfishbuild-maven-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.ant:ant) \

@@ -100,6 +100,7 @@ font(:lang=zu) \
 font(igfctt1) \
 font(imfctt1) \
 texlive-ipaex-type1-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

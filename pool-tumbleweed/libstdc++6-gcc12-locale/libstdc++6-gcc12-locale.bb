@@ -12,6 +12,7 @@ libstdc++6-gcc12-locale(aarch-64) \
 libstdc++6-locale \
 locale(libstdc++6-gcc12:de) \
 locale(libstdc++6-gcc12:fr)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

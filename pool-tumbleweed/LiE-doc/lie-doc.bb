@@ -12,6 +12,7 @@ RPM_HASH = "3a93d4141d3453d16f617555b055826a37833385e0b6fead1b140155128908c9ad55
 
 RPROVIDES:${PN} += "LiE-doc \
 LiE-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

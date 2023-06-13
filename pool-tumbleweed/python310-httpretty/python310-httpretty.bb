@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-httpretty \
 python3.10dist(httpretty) \
 python310-httpretty \
 python3dist(httpretty)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "7e462e7674fdc7b481415bae258fdae82d9e2e64ae5192f01c3b27ffb5aeff67ca3b
 RPROVIDES:${PN} += "liblxpanel.so.0()(64bit) \
 liblxpanel0 \
 liblxpanel0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

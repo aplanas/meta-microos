@@ -9,6 +9,7 @@ RPM_HASH = "2a3e29b75e8621d68e6f8b99a67fb81bfa43b830421f98b7a312a52fd97eae939cc7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dvgloss-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

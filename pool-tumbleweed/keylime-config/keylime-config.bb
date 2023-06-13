@@ -10,6 +10,7 @@ RPM_HASH = "01b289ed80ed561ca52143ff62c4ce46716fe4348ffa15fc924b0f005bb695309b0d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-config"
+
 RDEPENDS:${PN} += "python3-keylime"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "5f064c36f60c2782a3f07e0c6cb948104b47a597bed1d99fff1ffb6e284ac7bc4812
 
 RPROVIDES:${PN} += "scream \
 scream(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

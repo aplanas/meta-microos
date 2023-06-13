@@ -11,6 +11,7 @@ RPM_HASH = "7565738c02a645b468cd2181abb60e364a3b6050794486a0612a779c0d81017824eb
 
 RPROVIDES:${PN} += "xplsprinters \
 xplsprinters(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "058d32a9a99614021325a36a0a4183bd13e79f0eddca798caeceaafbfeff727b229c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "steinberg-bravura-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

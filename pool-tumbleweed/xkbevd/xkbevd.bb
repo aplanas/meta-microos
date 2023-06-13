@@ -11,6 +11,7 @@ RPM_HASH = "bd6f467862f35dc2e57879afaf6600f855a5d8290e6c294912f1054f9686b081b2a5
 
 RPROVIDES:${PN} += "xkbevd \
 xkbevd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

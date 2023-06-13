@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(graphicx-psmin.sty) \
 texlive-graphicx-psmin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

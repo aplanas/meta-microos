@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-eventgrid \
 python3.10dist(azure-eventgrid) \
 python310-azure-eventgrid \
 python3dist(azure-eventgrid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

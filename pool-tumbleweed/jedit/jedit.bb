@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "application() \
 application(jedit.desktop) \
 jedit \
 mimehandler(text/plain)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

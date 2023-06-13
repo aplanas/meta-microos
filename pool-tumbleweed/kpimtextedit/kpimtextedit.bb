@@ -10,6 +10,7 @@ RPM_HASH = "400f3c6941ac9bff7be1e21435999bb944d9327f02856da71d6adb6a27de30e880ae
 
 RPROVIDES:${PN} += "kpimtextedit \
 kpimtextedit(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

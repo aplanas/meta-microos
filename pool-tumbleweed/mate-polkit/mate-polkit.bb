@@ -10,6 +10,7 @@ RPM_HASH = "1556b78dc8c0d0c78475c50d1a0c950de0f053776791db85d1ed743ac91ef7c4d99f
 
 RPROVIDES:${PN} += "mate-polkit \
 mate-polkit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libappindicator3.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "3cb241a7064fbd1aeb542373ec1403e5c0356ba3442584da3ce05c02f6c377efc6c1
 
 RPROVIDES:${PN} += "kpkpass \
 kpkpass(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

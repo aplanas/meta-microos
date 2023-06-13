@@ -15,6 +15,7 @@ ispell-dutch \
 ispell-dutch(aarch-64) \
 ispell_dictionary \
 locale(ispell:nl)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

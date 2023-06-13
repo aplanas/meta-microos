@@ -12,6 +12,7 @@ RPM_HASH = "1f3a7f7c211fa13188d53a62188c703ee2487fcf2549c0b3f2d16eefcbca7bb2ecdd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-ironicclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

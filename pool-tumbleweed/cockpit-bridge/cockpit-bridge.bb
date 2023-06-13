@@ -11,6 +11,7 @@ RPM_HASH = "c5ee5d099b0e956531a693f7650ffe0c7aa81ea68e1c6df894c45379674e236373f4
 RPROVIDES:${PN} += "cockpit-bridge \
 cockpit-bridge(aarch-64) \
 cockpit-ssh"
+
 RDEPENDS:${PN} += "glib-networking \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "ae88d938e96d3eb05e0c540f066d274438c4a92632a673de44356936cd7fca73c41f
 RPROVIDES:${PN} += "libFS-devel \
 libFS-devel(aarch-64) \
 pkgconfig(libfs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libFS6 \
 pkgconfig(fontsproto) \

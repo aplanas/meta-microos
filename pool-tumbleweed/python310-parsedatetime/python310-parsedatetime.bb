@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-parsedatetime \
 python3.10dist(parsedatetime) \
 python310-parsedatetime \
 python3dist(parsedatetime)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

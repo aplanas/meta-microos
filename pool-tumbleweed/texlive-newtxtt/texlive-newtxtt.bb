@@ -152,6 +152,7 @@ tex(txttDqec.enc) \
 tex(txttEec.enc) \
 tex(txttEqec.enc) \
 texlive-newtxtt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-feedgenerator \
 python3.10dist(feedgenerator) \
 python310-feedgenerator \
 python3dist(feedgenerator)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytz"
 

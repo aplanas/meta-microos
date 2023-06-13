@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(glfw3) \
 libglfw-devel \
 libglfw-devel(aarch-64) \
 pkgconfig(glfw3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake \
 libglfw3 \

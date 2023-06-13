@@ -11,6 +11,7 @@ RPM_HASH = "9d16e56bf580527ea0ec18f0fd4bef94199f931d6239d6db571966d84bc595cea677
 
 RPROVIDES:${PN} += "libyui-ncurses-pkg-devel \
 libyui-ncurses-pkg-devel(aarch-64)"
+
 RDEPENDS:${PN} += "boost-devel \
 glibc-devel \
 libstdc++-devel \

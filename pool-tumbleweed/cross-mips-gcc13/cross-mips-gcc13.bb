@@ -12,6 +12,7 @@ RPM_HASH = "d558b31c876173ddc5151ab57bc22fa89fde155d075c0547023d0ea1c1582b396ff0
 
 RPROVIDES:${PN} += "cross-mips-gcc13 \
 cross-mips-gcc13(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-mips-binutils \
 libstdc++6-devel-gcc13 \

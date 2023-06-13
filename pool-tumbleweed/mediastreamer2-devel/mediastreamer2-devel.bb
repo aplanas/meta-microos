@@ -15,6 +15,7 @@ RPM_HASH = "5bd8b04644158b30c0d66df7ca912016e0276022f4b11ca278b2b3855f6ba522f78f
 RPROVIDES:${PN} += "mediastreamer2-devel \
 mediastreamer2-devel(aarch-64) \
 pkgconfig(mediastreamer)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 bcmatroska2-devel \
 ld-linux-aarch64.so.1()(64bit) \

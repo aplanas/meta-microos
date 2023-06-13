@@ -17,6 +17,7 @@ RPM_HASH = "1b55069ec8897a9e64d5a8bc2e85698b85f2d5c076b44e2e164cf00f9bc2684e3954
 RPROVIDES:${PN} += "libiir.so.1()(64bit) \
 libiir1 \
 libiir1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

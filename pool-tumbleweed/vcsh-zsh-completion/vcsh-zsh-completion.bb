@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(vcsh-zsh-completion) \
 vcsh-zsh-completion"
+
 RDEPENDS:${PN} += "vcsh"
 
 inherit rpm

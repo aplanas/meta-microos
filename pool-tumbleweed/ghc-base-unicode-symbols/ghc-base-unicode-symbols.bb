@@ -25,6 +25,7 @@ RPM_HASH = "f76f050e45e89acf62e6af9b454b37689771ec42a0f0658fca264578da4bdcc1a348
 RPROVIDES:${PN} += "ghc-base-unicode-symbols \
 ghc-base-unicode-symbols(aarch-64) \
 libHSbase-unicode-symbols-0.2.4.2-2uW4hd16ZmNBkWsH22htOC-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "feb8346c18b6cfacda69ffef4f304663fed099b5d38a1d5d39810618ec2337f16dfa
 RPROVIDES:${PN} += "ghc-devel \
 ghc-devel(aarch-64) \
 ghc-libraries"
+
 RDEPENDS:${PN} += "ghc-Cabal-devel \
 ghc-Cabal-syntax-devel \
 ghc-array-devel \

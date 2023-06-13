@@ -10,6 +10,7 @@ RPM_HASH = "b3321f38e5d37e2cedcb52151e2c68075195fe5089ad638b9b958444955f0eac79f4
 RPROVIDES:${PN} += "cmake(Libnest2D) \
 libnest2d-devel \
 libnest2d-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_headers-devel \
 libpolyclipping-devel \
 pkgconfig(nlopt)"

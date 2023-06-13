@@ -13,6 +13,7 @@ RPM_HASH = "2a834ee0deff6b2e874b8f0379e72d1a40a7d5ff0e3334bbb7761238c4689604fc02
 
 RPROVIDES:${PN} += "update-test-feature \
 update-test-feature(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

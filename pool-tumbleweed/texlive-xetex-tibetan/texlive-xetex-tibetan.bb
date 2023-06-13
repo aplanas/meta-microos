@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(loctib.map) \
 tex(wylie.map) \
 texlive-xetex-tibetan"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

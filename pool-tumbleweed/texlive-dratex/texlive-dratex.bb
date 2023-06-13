@@ -14,6 +14,7 @@ tex(DraTex.sty) \
 tex(TeXProject.sty) \
 tex(wotree.sty) \
 texlive-dratex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

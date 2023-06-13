@@ -85,6 +85,7 @@ tex(texnansi.enc) \
 tex(texnansi.sty) \
 tex(texnansi.tex) \
 texlive-ly1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

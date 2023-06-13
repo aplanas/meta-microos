@@ -10,6 +10,7 @@ RPM_HASH = "683c77f3b874e264832f5a2e1e2b91149a21db76ed31b0133737c71009b33ac32a3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "patool-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 patool"
 

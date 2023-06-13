@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-aiostream \
 python3.10dist(aiostream) \
 python310-aiostream \
 python3dist(aiostream)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-siosocks"
 

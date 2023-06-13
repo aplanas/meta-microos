@@ -14,6 +14,7 @@ RPM_HASH = "2f00d8761c1ed98d7e7d28dd8929b4005cd691315694981c16270324d9967e7457ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon8-dom"
+
 RDEPENDS:${PN} += "saxon8"
 
 inherit rpm

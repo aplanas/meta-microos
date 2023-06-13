@@ -12,6 +12,7 @@ RPM_HASH = "b3c111896e824998d8ef004962e6f4f64e95791793eb344717fb215e670aec96aabb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "belle-sip-data"
+
 RDEPENDS:${PN} += "libbellesip1"
 
 inherit rpm

@@ -18,6 +18,7 @@ RPM_HASH = "c9a3cc1e5e596f91ab8a867cc190664d21089cdea00b5b6ac7d6a03909c7a09c10a6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "domination-data"
+
 RDEPENDS:${PN} += "domination"
 
 inherit rpm

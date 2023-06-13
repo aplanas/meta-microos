@@ -13,6 +13,7 @@ RPM_HASH = "69948c22c5f2e0966b68a87050f1437fd76ebfd449a8b0f88b87baedc350bacb090d
 
 RPROVIDES:${PN} += "libevdev-tools \
 libevdev-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

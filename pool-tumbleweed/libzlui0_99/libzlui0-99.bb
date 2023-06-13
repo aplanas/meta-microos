@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libzlui.so.0.99()(64bit) \
 libzlui0_99 \
 libzlui0_99(aarch-64) \
 zlibrary-ui"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \

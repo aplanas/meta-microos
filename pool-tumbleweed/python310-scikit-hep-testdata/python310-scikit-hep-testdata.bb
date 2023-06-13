@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-scikit-hep-testdata \
 python3.10dist(scikit-hep-testdata) \
 python310-scikit-hep-testdata \
 python3dist(scikit-hep-testdata)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

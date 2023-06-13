@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aiohttp-cors) \
 python39-aiohttp_cors \
 python3dist(aiohttp-cors)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39 \
 python39-async_timeout \

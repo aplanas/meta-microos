@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-capstone \
 python3.10dist(capstone) \
 python3dist(capstone)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "fd0acce222632a508690bca504b9a37264ab6c4a3a0c111c90087dc71ecbc54aef15
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "linuxrc-devtools"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl"
 

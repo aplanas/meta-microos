@@ -11,6 +11,7 @@ RPM_HASH = "e09537cf305b9fbb47008c17bc68dc182e6fc4276dca24eac4d384b6c55878708c67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "charliecloud-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

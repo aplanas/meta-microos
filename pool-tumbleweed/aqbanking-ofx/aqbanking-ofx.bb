@@ -11,6 +11,7 @@ RPM_HASH = "44eb5045ee80bbee17470c3c1aae3d9fceb09dbca3e190edcb8c28c65cfa6c27972c
 
 RPROVIDES:${PN} += "aqbanking-ofx \
 aqbanking-ofx(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 aqbanking \
 ld-linux-aarch64.so.1()(64bit) \

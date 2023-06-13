@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(httpcore) \
 python39-httpcore \
 python3dist(httpcore)"
+
 RDEPENDS:${PN} += "(python39-anyio >= 3 with python39-anyio < 5) \
 (python39-h11 >= 0.13.0 with python39-h11 < 0.15) \
 (python39-sniffio >= 1.0 with python39-sniffio < 2) \

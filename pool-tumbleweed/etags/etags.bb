@@ -12,6 +12,7 @@ RPM_HASH = "afa208bf8e958ded4e8775d5c69a52c4c63163dc315ee2ee508ead205392e8e1e808
 RPROVIDES:${PN} += "ctags:/usr/bin/etags \
 etags \
 etags(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

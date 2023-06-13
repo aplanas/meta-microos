@@ -10,6 +10,7 @@ RPM_HASH = "5b3addb463b53eaae264d4a38003a41ac23d0191c88280a889ad823961676871137f
 
 RPROVIDES:${PN} += "plank-docklets \
 plank-docklets(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "8e7bfc3be8bdf562e450fdf50c84b10f235be3bc081b8234f31481ae658adb584bcd
 RPROVIDES:${PN} += "lua-zlib \
 lua54-zlib \
 lua54-zlib(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

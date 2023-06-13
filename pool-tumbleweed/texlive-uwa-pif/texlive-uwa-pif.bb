@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(uwa-pif.cls) \
 texlive-uwa-pif"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

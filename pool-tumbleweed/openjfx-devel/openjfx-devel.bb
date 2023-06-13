@@ -9,6 +9,7 @@ RPM_HASH = "494ec9c3a852b1432901d7375c9cd504d47969d3a5beb50e9f3a6e18ef7ac324bdf2
 
 RPROVIDES:${PN} += "openjfx-devel \
 openjfx-devel(aarch-64)"
+
 RDEPENDS:${PN} += "openjfx"
 
 inherit rpm

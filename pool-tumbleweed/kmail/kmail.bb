@@ -21,6 +21,7 @@ mimehandler(application/mbox) \
 mimehandler(application/x-mimearchive) \
 mimehandler(message/rfc822) \
 mimehandler(x-scheme-handler/mailto)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 grantleetheme \
 kdepim-addons \

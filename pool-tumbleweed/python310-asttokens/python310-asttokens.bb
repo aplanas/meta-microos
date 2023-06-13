@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-asttokens \
 python3.10dist(asttokens) \
 python310-asttokens \
 python3dist(asttokens)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

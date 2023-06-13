@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "rpm_macro(sysusers_generate_pre) \
 rpm_macro(sysusers_requires) \
 sysuser-tools"
+
 RDEPENDS:${PN} += "/bin/bash \
 sysuser-shadow"
 

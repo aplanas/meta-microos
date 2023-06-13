@@ -12,6 +12,7 @@ RPM_HASH = "cd60aaf330b5e2f171155e63af4db8028cad27b6df4028d06ab432bd8c569fd8677e
 
 RPROVIDES:${PN} += "bvi \
 bvi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "2c07690af13b4694bc0bc64830980d107772740c3317c809d71c159dfa6bd7acb5be
 RPROVIDES:${PN} += "libxdg-basedir.so.1()(64bit) \
 libxdg-basedir1 \
 libxdg-basedir1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

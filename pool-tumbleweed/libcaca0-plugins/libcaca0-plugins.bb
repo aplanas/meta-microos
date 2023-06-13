@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libcaca0-plugins \
 libcaca0-plugins(aarch-64) \
 libgl_plugin.so.0()(64bit) \
 libx11_plugin.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libGL.so.1()(64bit) \
 libGLU.so.1()(64bit) \

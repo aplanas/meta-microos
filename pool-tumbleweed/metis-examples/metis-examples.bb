@@ -11,6 +11,7 @@ RPM_HASH = "bd6653563d004b91a23c7590873728f3e59cf323f2c5fe7d232fb3ce9147d153fcf2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metis-examples"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

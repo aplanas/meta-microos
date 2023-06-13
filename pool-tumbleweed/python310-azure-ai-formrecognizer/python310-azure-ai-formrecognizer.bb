@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-azure-ai-formrecognizer \
 python3.10dist(azure-ai-formrecognizer) \
 python310-azure-ai-formrecognizer \
 python3dist(azure-ai-formrecognizer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-ai-nspkg \
 python310-azure-common \

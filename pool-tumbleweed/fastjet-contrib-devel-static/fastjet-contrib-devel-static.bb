@@ -9,6 +9,7 @@ RPM_HASH = "646b1fd357afa03193e4b059b04c7c5ff3579225b8a77f6dad40b199a10a29ae000b
 
 RPROVIDES:${PN} += "fastjet-contrib-devel-static \
 fastjet-contrib-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "fastjet-contrib-devel"
 
 inherit rpm

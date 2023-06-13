@@ -10,6 +10,7 @@ RPM_HASH = "096fed836670ed7c855898ab1da128855527696b39ca3ef3b1e82c2d595806584415
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-plaingeneric"
+
 RDEPENDS:${PN} += "texlive-abbr \
 texlive-abstyles \
 texlive-apnum \

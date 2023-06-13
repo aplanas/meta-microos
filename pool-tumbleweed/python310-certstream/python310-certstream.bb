@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-certstream \
 python3.10dist(certstream) \
 python310-certstream \
 python3dist(certstream)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

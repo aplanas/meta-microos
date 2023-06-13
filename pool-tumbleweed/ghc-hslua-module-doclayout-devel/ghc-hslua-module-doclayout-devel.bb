@@ -11,6 +11,7 @@ RPM_HASH = "b60b9c05af138352235bb9703aadbc9b5f67ece3f9e84ca3fb06de34741558bf1950
 RPROVIDES:${PN} += "ghc-devel(hslua-module-doclayout-1.1.0-H1N0AwnXIkUJX0H1lSxUWS) \
 ghc-hslua-module-doclayout-devel \
 ghc-hslua-module-doclayout-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

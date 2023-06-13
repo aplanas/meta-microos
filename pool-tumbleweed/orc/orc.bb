@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "orc \
 orc(aarch-64) \
 orc-devel \
 pkgconfig(orc-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

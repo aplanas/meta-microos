@@ -87,6 +87,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(yhcmex) \
 texlive-yhmath-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

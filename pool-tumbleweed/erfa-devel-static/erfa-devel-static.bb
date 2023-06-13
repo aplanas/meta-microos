@@ -10,6 +10,7 @@ RPM_HASH = "d3e8c5d68658dc4216e6c71e19e3fc56ecf77d25c8edc39ed2dfb818c26dcca64779
 
 RPROVIDES:${PN} += "erfa-devel-static \
 erfa-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "erfa-devel"
 
 inherit rpm

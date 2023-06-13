@@ -25,6 +25,7 @@ RPM_HASH = "e466de6e6be01cc1a790a675ff22e4e671e67e2bd1aabef6b37a9508f82626a917a1
 RPROVIDES:${PN} += "ghc-split \
 ghc-split(aarch-64) \
 libHSsplit-0.2.3.5-u3oGLAiW7JJbxIffWSCWf-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

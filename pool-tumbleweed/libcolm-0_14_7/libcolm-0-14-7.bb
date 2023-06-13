@@ -11,6 +11,7 @@ RPM_HASH = "4c3ebfcc2860dfffca1e7ec762850cebc27fac11ad171b78a0193e52609d7622e6df
 RPROVIDES:${PN} += "libcolm-0.14.7.so()(64bit) \
 libcolm-0_14_7 \
 libcolm-0_14_7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

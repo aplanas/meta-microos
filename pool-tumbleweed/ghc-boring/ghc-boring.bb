@@ -15,6 +15,7 @@ RPM_HASH = "74524173e3f7859bd0adf5d0544ef4594dd8a6bd678ec693159f4973b626d74cf3af
 RPROVIDES:${PN} += "ghc-boring \
 ghc-boring(aarch-64) \
 libHSboring-0.2.1-J8lJX6Vz53r2bssyBwOtpl-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

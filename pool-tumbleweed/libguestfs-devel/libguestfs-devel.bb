@@ -15,6 +15,7 @@ RPM_HASH = "080b85434f515d018868a15fec1ef705ef19ff8d2fdfa53372f22b82a58d2678f135
 RPROVIDES:${PN} += "libguestfs-devel \
 libguestfs-devel(aarch-64) \
 pkgconfig(libguestfs)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/pkg-config \
 libguestfs0"

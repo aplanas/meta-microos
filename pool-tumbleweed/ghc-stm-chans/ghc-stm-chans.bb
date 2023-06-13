@@ -10,6 +10,7 @@ RPM_HASH = "1b5974edf32ff4d8c435a39fd3136fd324b53aa58ce0be3d0f875828f61725e92534
 RPROVIDES:${PN} += "ghc-stm-chans \
 ghc-stm-chans(aarch-64) \
 libHSstm-chans-3.0.0.9-KwAuYyoo9r3GoiDPqmpN5R-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \

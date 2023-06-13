@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-streamz \
 python3.10dist(streamz) \
 python310-streamz \
 python3dist(streamz)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools \
 python310-six \

@@ -17,6 +17,7 @@ libKasten4Okteta2Controllers.so.0()(64bit) \
 libKasten4Okteta2Core.so.0()(64bit) \
 libKasten4Okteta2Gui.so.0()(64bit) \
 libkasten"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

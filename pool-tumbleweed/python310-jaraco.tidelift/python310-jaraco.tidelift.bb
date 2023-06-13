@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jaraco.tidelift \
 python3.10dist(jaraco.tidelift) \
 python310-jaraco.tidelift \
 python3dist(jaraco.tidelift)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-autocommand \
 python310-importlib-resources \

@@ -18,6 +18,7 @@ mvn(jakarta.inject:jakarta.inject-api:pom:) \
 mvn(javax.inject:javax.inject) \
 mvn(javax.inject:javax.inject:pom:) \
 osgi(javax.inject)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-plumbum \
 python3.10dist(plumbum) \
 python310-plumbum \
 python3dist(plumbum)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-rtmidi-doc \
 python310-python-rtmidi-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

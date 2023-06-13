@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libmhash.so.2()(64bit) \
 libmhash2 \
 libmhash2(aarch-64) \
 mhash"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

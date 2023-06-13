@@ -12,6 +12,7 @@ RPM_HASH = "246a48083eb4c815d9a44f4d41998a0a23e595e6c5310f86a70236ec60a586f55961
 RPROVIDES:${PN} += "Mesa-dri-nouveau \
 Mesa-dri-nouveau(aarch-64) \
 libgallium_dri.so()(64bit)"
+
 RDEPENDS:${PN} += "Mesa \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -257,6 +257,7 @@ font(schumacherclean) \
 font(schumachercleanwide) \
 font(utopia) \
 xorg-x11-fonts-converted"
+
 RDEPENDS:${PN} += "/bin/sh \
 fonts-config"
 

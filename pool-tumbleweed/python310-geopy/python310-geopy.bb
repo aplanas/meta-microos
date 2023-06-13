@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-geopy \
 python3.10dist(geopy) \
 python310-geopy \
 python3dist(geopy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-geographiclib"
 

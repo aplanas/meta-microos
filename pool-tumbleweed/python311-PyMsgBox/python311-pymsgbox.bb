@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pymsgbox) \
 python311-PyMsgBox \
 python3dist(pymsgbox)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

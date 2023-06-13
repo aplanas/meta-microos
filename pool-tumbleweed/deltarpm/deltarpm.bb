@@ -13,6 +13,7 @@ RPM_HASH = "62e45a81cbdede87cbb036757ae950b0bee4f2c4ef40616dd7f908b2e7ee62e88e70
 
 RPROVIDES:${PN} += "deltarpm \
 deltarpm(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

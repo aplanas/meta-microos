@@ -11,6 +11,7 @@ RPM_HASH = "48893eca95d95e2b458c4e3667ef8d7467ad1f3b77dd02aaaa2063025d74bb1c820c
 RPROVIDES:${PN} += "bundled(rust-crate:BROKEN) \
 watchexec \
 watchexec(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

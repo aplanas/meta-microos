@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzlibrarycircuits.plc.ladder.code.tex) \
 texlive-tikz-ladder"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

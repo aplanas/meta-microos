@@ -13,6 +13,7 @@ application(org.opensuse.yast.AuthClient.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.AuthClient.metainfo.xml) \
 yast2-auth-client"
+
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 fillup \

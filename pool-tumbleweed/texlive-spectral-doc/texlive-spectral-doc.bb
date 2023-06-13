@@ -9,6 +9,7 @@ RPM_HASH = "e554873192223fc9cffa59ef0e224499c625fe7e51c31f4fefa49d4325149ac89a40
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spectral-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

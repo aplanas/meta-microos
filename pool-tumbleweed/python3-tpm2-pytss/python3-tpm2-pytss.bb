@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-tpm2-pytss \
 python3-tpm2-pytss(aarch-64) \
 python3.10dist(tpm2-pytss) \
 python3dist(tpm2-pytss)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

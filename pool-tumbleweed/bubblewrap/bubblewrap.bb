@@ -11,6 +11,7 @@ RPM_HASH = "e6d2023b8742548707e8ee8f2d7ace7aa9a7c7d057f0e348ddd10ebd12a82d78b598
 
 RPROVIDES:${PN} += "bubblewrap \
 bubblewrap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

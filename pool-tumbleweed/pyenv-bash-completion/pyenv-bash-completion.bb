@@ -9,6 +9,7 @@ RPM_HASH = "92d5ce7da31a8ea5c04d90fac8dfc63909b05632f347922ade2f007ba542f6790cbb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pyenv-bash-completion"
+
 RDEPENDS:${PN} += "pyenv"
 
 inherit rpm

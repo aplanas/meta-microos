@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig(xorg-sgml-doctools) \
 xorg-sgml-doctools"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

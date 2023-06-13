@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(liblarch) \
 python39-liblarch \
 python3dist(liblarch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-gobject"
 

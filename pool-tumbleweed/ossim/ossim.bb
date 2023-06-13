@@ -12,6 +12,7 @@ RPM_HASH = "72d14402f70d663bf3c13cdec22f3319a5968b3f06d8dce3ea3017bfeb1acc512c9d
 
 RPROVIDES:${PN} += "ossim \
 ossim(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

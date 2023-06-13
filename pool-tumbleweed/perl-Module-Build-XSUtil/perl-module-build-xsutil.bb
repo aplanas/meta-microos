@@ -46,6 +46,7 @@ RPM_HASH = "e5ac14b510bae09c49cc02fdb6e5922782f8eedd4b336784458c007adb4884d96cf3
 RPROVIDES:${PN} += "perl(Module::Build::XSUtil) \
 perl-Module-Build-XSUtil \
 perl-Module-Build-XSUtil(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::CheckCompiler) \
 perl(ExtUtils::CBuilder) \

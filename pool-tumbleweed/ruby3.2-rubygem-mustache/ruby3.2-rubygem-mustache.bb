@@ -22,6 +22,7 @@ rubygem(ruby:3.2.0:mustache) \
 rubygem(ruby:3.2.0:mustache:1) \
 rubygem(ruby:3.2.0:mustache:1.1) \
 rubygem(ruby:3.2.0:mustache:1.1.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

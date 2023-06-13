@@ -9,6 +9,7 @@ RPM_HASH = "d809b083c119681242fa3e13a903bf52d37103f0386e0563f1ba05fc55334ff4fa1b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glab-zsh-completion"
+
 RDEPENDS:${PN} += "glab"
 
 inherit rpm

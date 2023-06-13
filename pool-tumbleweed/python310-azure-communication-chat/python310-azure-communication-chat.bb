@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-azure-communication-chat \
 python3.10dist(azure-communication-chat) \
 python310-azure-communication-chat \
 python3dist(azure-communication-chat)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-communication-nspkg \
 python310-azure-core \

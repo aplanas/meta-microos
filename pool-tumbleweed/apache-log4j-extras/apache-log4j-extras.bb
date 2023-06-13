@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-log4j-extras \
 mvn(log4j:apache-log4j-extras) \
 mvn(log4j:apache-log4j-extras:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(log4j:log4j)"

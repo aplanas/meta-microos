@@ -42,6 +42,7 @@ perl(BerkeleyDB::_tiedArray) \
 perl(BerkeleyDB::_tiedHash) \
 perl-BerkeleyDB \
 perl-BerkeleyDB(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

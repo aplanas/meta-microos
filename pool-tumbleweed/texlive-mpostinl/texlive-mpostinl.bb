@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mpostinl.sty) \
 texlive-mpostinl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -35,6 +35,7 @@ tex(texosquery.jar) \
 tex(texosquery.sty) \
 tex(texosquery.tex) \
 texlive-texosquery"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

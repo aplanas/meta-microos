@@ -12,6 +12,7 @@ RPM_HASH = "18f201766894ec7da7d265e71e3ab39e975a6b3751a74cf4e3b6be7c1004ff9ad38e
 RPROVIDES:${PN} += "ghex-devel \
 ghex-devel(aarch-64) \
 pkgconfig(gtkhex-4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtkhex-4-1 \
 pkgconfig(gtk4)"

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libcdio_paranoia.so.2()(64bit) \
 libcdio_paranoia.so.2(CDIO_PARANOIA_2)(64bit) \
 libcdio_paranoia2 \
 libcdio_paranoia2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

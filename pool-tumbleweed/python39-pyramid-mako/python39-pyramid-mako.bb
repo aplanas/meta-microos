@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyramid-mako) \
 python39-pyramid-mako \
 python3dist(pyramid-mako)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Mako \
 python39-pyramid"

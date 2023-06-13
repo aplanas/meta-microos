@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-Markdown \
 python3.10dist(markdown) \
 python310-Markdown \
 python3dist(markdown)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

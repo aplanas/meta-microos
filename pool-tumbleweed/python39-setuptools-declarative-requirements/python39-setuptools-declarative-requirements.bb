@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(setuptools-declarative-requirements) \
 python39-setuptools-declarative-requirements \
 python3dist(setuptools-declarative-requirements)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-setuptools \
 python39-toml \

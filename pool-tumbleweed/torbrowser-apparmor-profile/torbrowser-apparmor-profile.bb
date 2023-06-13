@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(torbrowser-apparmor-profile) \
 torbrowser-apparmor-profile"
+
 RDEPENDS:${PN} += "apparmor-utils"
 
 inherit rpm

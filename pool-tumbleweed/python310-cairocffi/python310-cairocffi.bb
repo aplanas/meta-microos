@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-cairocffi \
 python3.10dist(cairocffi) \
 python310-cairocffi \
 python3dist(cairocffi)"
+
 RDEPENDS:${PN} += "cairo \
 python(abi) \
 python310-cffi \

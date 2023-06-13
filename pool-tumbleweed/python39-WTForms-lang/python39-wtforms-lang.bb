@@ -41,6 +41,7 @@ locale(python39-WTForms:uk) \
 locale(python39-WTForms:zh) \
 locale(python39-WTForms:zh_TW) \
 python39-WTForms-lang"
+
 RDEPENDS:${PN} += "python39-WTForms"
 
 inherit rpm

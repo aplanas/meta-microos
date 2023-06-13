@@ -11,6 +11,7 @@ RPM_HASH = "1c813b86cb2fefc4a119caf44318617f02366865dc9bc9273f057b488168014b84c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-refresh_patches"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3 \
 quilt"

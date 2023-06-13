@@ -11,6 +11,7 @@ RPM_HASH = "fe8a252476c3015355157a7d430d8e09097cfc55fe5ad08acae6ca3db1053c14a7bd
 
 RPROVIDES:${PN} += "asn1c \
 asn1c(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

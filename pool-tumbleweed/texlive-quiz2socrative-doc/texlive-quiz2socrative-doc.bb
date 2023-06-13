@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-quiz2socrative-doc:it) \
 texlive-quiz2socrative-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "e8ce84a3910c6b878d3b975c900bb4f608ec3dcd664c007969341ed562855d9ebdff
 
 RPROVIDES:${PN} += "libfsrefs-tools \
 libfsrefs-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

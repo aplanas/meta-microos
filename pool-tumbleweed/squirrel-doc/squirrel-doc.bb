@@ -9,6 +9,7 @@ RPM_HASH = "8c659043d8b63556f8cf400fe2b044abeb38edbdf31a3ec4f3927264b161cdb75b88
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "squirrel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

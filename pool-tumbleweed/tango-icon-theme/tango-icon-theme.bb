@@ -10,6 +10,7 @@ RPM_HASH = "3dfaba6d1ee95851adfdae0b922011847d86091b92b3d3c572f25d4ec4505ba6ccbb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tango-icon-theme"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

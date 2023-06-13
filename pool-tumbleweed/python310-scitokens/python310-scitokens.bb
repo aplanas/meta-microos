@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-scitokens \
 python3.10dist(scitokens) \
 python310-scitokens \
 python3dist(scitokens)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

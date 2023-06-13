@@ -10,6 +10,7 @@ RPM_HASH = "7e1bc46bd61b332f59da1abba197f0bb70e444503be0e87cf64e9de8b2f057fbbfa4
 
 RPROVIDES:${PN} += "qemu-block-gluster \
 qemu-block-gluster(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

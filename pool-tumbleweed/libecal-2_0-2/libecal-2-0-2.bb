@@ -13,6 +13,7 @@ RPM_HASH = "9a1a2a64cbf1e5a6edd2cca4402e5dad6bab5517ffc2869a33d7c05d1a1ad81ed553
 RPROVIDES:${PN} += "libecal-2.0.so.2()(64bit) \
 libecal-2_0-2 \
 libecal-2_0-2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

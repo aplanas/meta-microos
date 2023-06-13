@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "pkgconfig(caja-python) \
 python-caja-devel \
 python-caja-devel(aarch-64) \
 python-mate-file-manager-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 python-caja"
 

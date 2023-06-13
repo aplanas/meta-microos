@@ -11,6 +11,7 @@ RPM_HASH = "df650b1255ad929b96bad7dbdb24f7dd09f293cdd6b0f35212b97fccc6e8a13def66
 RPROVIDES:${PN} += "libatkmm-1.6.so.1()(64bit) \
 libatkmm-1_6-1 \
 libatkmm-1_6-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

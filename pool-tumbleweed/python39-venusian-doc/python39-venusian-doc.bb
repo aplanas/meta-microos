@@ -9,6 +9,7 @@ RPM_HASH = "a9834745b06357c3b4850182a3678a428b29a8ad6f5ec407470f281788e2a91c628b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-venusian-doc"
+
 RDEPENDS:${PN} += "python39-venusian"
 
 inherit rpm

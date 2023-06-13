@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-pytest-mockito \
 python3.10dist(pytest-mockito) \
 python310-pytest-mockito \
 python3dist(pytest-mockito)"
+
 RDEPENDS:${PN} += "ca-certificates \
 python(abi) \
 python310 \

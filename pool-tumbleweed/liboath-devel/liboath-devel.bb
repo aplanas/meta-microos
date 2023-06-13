@@ -13,6 +13,7 @@ RPM_HASH = "65dbdc308825de0be30e22c85e99332f92c2fec4c01bc6563647c317586fea8d5a61
 RPROVIDES:${PN} += "liboath-devel \
 liboath-devel(aarch-64) \
 pkgconfig(liboath)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 liboath0"

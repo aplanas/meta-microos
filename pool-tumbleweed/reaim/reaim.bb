@@ -10,6 +10,7 @@ RPM_HASH = "425ea95fcd23a964f72c2e22ec53a2d180b5e09fb81456279c4e171d59a1431ff4a1
 
 RPROVIDES:${PN} += "reaim \
 reaim(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaio.so.1()(64bit) \

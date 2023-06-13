@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pseudocode.sty) \
 texlive-pseudocode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

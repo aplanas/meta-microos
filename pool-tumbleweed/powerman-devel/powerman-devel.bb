@@ -10,6 +10,7 @@ RPM_HASH = "129d3e8154e4a888704580a2f80b0b30884bcb570a46f504eaeb66f7447201bb0d39
 RPROVIDES:${PN} += "pkgconfig(libpowerman) \
 powerman-devel \
 powerman-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpowerman0"
 

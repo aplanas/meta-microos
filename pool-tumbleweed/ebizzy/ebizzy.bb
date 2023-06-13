@@ -11,6 +11,7 @@ RPM_HASH = "842968ef76a0d6498b6bbef18b9c1e70144dc57e6523d45620f6aae418d9eabaa750
 
 RPROVIDES:${PN} += "ebizzy \
 ebizzy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

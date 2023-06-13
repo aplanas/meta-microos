@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-agate-excel \
 python3.10dist(agate-excel) \
 python310-agate-excel \
 python3dist(agate-excel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-agate \
 python310-olefile \

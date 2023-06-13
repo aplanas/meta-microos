@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-genfire \
 python3.10dist(genfire) \
 python310-genfire \
 python3dist(genfire)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-regionmove \
 python3.10dist(azure-mgmt-regionmove) \
 python310-azure-mgmt-regionmove \
 python3dist(azure-mgmt-regionmove)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-nspkg \

@@ -20,6 +20,7 @@ perl(Test::Trap::Builder::PerlIO) \
 perl(Test::Trap::Builder::SystemSafe) \
 perl(Test::Trap::Builder::TempFile) \
 perl-Test-Trap"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Data::Dump) \
 perl(Test::Tester) \

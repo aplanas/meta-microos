@@ -9,6 +9,7 @@ RPM_HASH = "0dcd4fd090c4b5bc3ec172ee90ad7366fad0d0f719335e500953160c94038c1abb01
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-yesod-static-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libboinc.so.7()(64bit) \
 libboinc7 \
 libboinc7(aarch-64) \
 libboinc_crypt.so.7()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "2f3d8bc4596cba1366756f6ab429db8c12dfa6e8202cb3936a347a006b507968e29b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikzviolinplots-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

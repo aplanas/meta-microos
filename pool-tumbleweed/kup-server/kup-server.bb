@@ -10,6 +10,7 @@ RPM_HASH = "60ad35f0aa25be0bd9ebc0cfdf4d8d472581b6129c3b6544b32a1186fed7613c175d
 
 RPROVIDES:${PN} += "kup-server \
 kup-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 perl \

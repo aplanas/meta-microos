@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:dry-container) \
 rubygem(ruby:3.2.0:dry-container:0) \
 rubygem(ruby:3.2.0:dry-container:0.11) \
 rubygem(ruby:3.2.0:dry-container:0.11.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:concurrent-ruby:1)"
 

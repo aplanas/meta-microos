@@ -13,6 +13,7 @@ RPM_HASH = "e137c09f002d89e00b0a0b5728e78de36d4aa427ac0c30d8dc010a4328e94c757427
 RPROVIDES:${PN} += "config(cri-tools) \
 cri-tools \
 cri-tools(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

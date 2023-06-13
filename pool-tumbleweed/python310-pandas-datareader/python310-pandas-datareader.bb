@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pandas-datareader \
 python3.10dist(pandas-datareader) \
 python310-pandas-datareader \
 python3dist(pandas-datareader)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lxml \
 python310-pandas \

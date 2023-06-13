@@ -64,6 +64,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Perl::Version) \
 perl-Perl-Version"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Slurp::Tiny)"

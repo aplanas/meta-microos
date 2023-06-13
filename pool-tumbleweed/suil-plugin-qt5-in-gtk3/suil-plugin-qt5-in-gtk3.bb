@@ -11,6 +11,7 @@ RPM_HASH = "371fa87cd5eccf52679130ce2091f712f488906c29dda93a96084b315ef47590b666
 RPROVIDES:${PN} += "libsuil_qt5_in_gtk3.so()(64bit) \
 suil-plugin-qt5-in-gtk3 \
 suil-plugin-qt5-in-gtk3(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libQt5Gui.so.5()(64bit) \

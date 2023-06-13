@@ -12,6 +12,7 @@ RPM_HASH = "bc54db990f034f1291824ab704047b84710f361b6b6036d0bf93bb3daffac9cc480f
 RPROVIDES:${PN} += "libtiff-devel \
 libtiff-devel(aarch-64) \
 pkgconfig(libtiff-4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libstdc++-devel \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "KEALib-devel \
 KEALib-devel(aarch-64) \
 libkea-devel \
 libkea1_5-devel"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 libkea1_5"
 

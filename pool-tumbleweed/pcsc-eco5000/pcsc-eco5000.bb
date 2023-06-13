@@ -34,6 +34,7 @@ RPM_HASH = "0b5bd69171a6a7c6e94c13e2edca73dde62d8f2e919325c4c9abe4817883dc79f3f9
 RPROVIDES:${PN} += "libcteco5000.so.0()(64bit) \
 pcsc-eco5000 \
 pcsc-eco5000(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

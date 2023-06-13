@@ -14,6 +14,7 @@ python3.10dist(coverage) \
 python310-coverage \
 python310-coverage(aarch-64) \
 python3dist(coverage)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

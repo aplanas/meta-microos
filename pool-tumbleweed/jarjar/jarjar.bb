@@ -30,6 +30,7 @@ mvn(tonic:jarjar) \
 mvn(tonic:jarjar-util) \
 mvn(tonic:jarjar-util:pom:) \
 mvn(tonic:jarjar:pom:)"
+
 RDEPENDS:${PN} += "gnu-regexp \
 java-headless \
 javapackages-filesystem \

@@ -12,6 +12,7 @@ metainfo(xviewer-pythonconsole.metainfo.xml) \
 xviewer-plugin-pythonconsole \
 xviewer-plugin-pythonconsole(aarch-64) \
 xviewer-plugins:/usr/lib64/xviewer/plugins/pythonconsole.plugin"
+
 RDEPENDS:${PN} += "/bin/sh \
 typelib(GLib) \
 typelib(GObject) \

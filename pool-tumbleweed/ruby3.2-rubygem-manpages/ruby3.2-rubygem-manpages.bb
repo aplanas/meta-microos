@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:manpages) \
 rubygem(ruby:3.2.0:manpages:0) \
 rubygem(ruby:3.2.0:manpages:0.6) \
 rubygem(ruby:3.2.0:manpages:0.6.1)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ruby(abi)"
 

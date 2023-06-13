@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-exrex \
 python3.10dist(exrex) \
 python310-exrex \
 python3dist(exrex)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

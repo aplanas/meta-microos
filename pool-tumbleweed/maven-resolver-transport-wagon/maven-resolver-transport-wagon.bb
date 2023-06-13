@@ -16,6 +16,7 @@ mvn(org.eclipse.aether:aether-connector-wagon:pom:) \
 mvn(org.eclipse.aether:aether-transport-wagon) \
 mvn(org.eclipse.aether:aether-transport-wagon:pom:) \
 osgi(org.apache.maven.resolver.transport.wagon)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.resolver:maven-resolver-api) \

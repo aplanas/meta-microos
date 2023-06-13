@@ -62,6 +62,7 @@ perl(Perl::PrereqScanner::NotQuiteLite::Util) \
 perl(Perl::PrereqScanner::NotQuiteLite::Util::CPANfile) \
 perl(Perl::PrereqScanner::NotQuiteLite::Util::Prereqs) \
 perl-Perl-PrereqScanner-NotQuiteLite"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Meta::Prereqs) \

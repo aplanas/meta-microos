@@ -25,6 +25,7 @@ RPM_HASH = "6d344182d3461aa525615bf06bb1485650560af799267808766a423059a091b081ff
 RPROVIDES:${PN} += "ghc-base-compat-batteries \
 ghc-base-compat-batteries(aarch-64) \
 libHSbase-compat-batteries-0.12.2-2nfbI7WkA2cAAItUqSu6Dy-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbase-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov-ghc9.4.5.so()(64bit) \

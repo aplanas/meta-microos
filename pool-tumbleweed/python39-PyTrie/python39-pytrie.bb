@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.9dist(pytrie) \
 python39-PyTrie \
 python39-pytrie \
 python3dist(pytrie)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-sortedcontainers"
 

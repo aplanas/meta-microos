@@ -12,6 +12,7 @@ libdigikamcore8_0_0 \
 libdigikamcore8_0_0(aarch-64) \
 libdigikamdatabase.so.8.0.0()(64bit) \
 libdigikamgui.so.8.0.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "0ac565f48e32a2ccb9c94396b0eb3b42f4050bec931c4b4650e611e484a13207a1cf
 
 RPROVIDES:${PN} += "collectd-plugin-ubi \
 collectd-plugin-ubi(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

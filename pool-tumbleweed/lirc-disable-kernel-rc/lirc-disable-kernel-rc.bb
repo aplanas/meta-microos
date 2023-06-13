@@ -10,6 +10,7 @@ RPM_HASH = "e2cc369e7ac404b5b700744d57ccf7f77ac8e84fec91b09f69d5dc44c3d82d3a3b66
 
 RPROVIDES:${PN} += "lirc-disable-kernel-rc \
 lirc-disable-kernel-rc(aarch-64)"
+
 RDEPENDS:${PN} += "lirc-core"
 
 inherit rpm

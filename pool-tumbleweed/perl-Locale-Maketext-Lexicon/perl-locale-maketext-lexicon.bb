@@ -39,6 +39,7 @@ perl(Locale::Maketext::Lexicon::Gettext) \
 perl(Locale::Maketext::Lexicon::Msgcat) \
 perl(Locale::Maketext::Lexicon::Tie) \
 perl-Locale-Maketext-Lexicon"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Locale::Maketext)"

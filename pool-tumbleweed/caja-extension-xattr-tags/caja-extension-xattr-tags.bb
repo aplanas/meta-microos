@@ -10,6 +10,7 @@ RPM_HASH = "c7ca1124bc20ecd7579bbae1009bc3b7dbb1529d6087752905a8b0183e11172c2f4c
 RPROVIDES:${PN} += "caja-extension-xattr-tags \
 caja-extension-xattr-tags(aarch-64) \
 libcaja-xattr-tags.so()(64bit)"
+
 RDEPENDS:${PN} += "caja \
 libc.so.6(GLIBC_2.17)(64bit) \
 libcaja-extension.so.1()(64bit) \

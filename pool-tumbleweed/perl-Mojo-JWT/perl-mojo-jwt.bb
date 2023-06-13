@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Mojo::JWT) \
 perl-Mojo-JWT"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Digest::SHA) \
 perl(MIME::Base64) \

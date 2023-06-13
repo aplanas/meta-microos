@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-fixdif-doc:zh) \
 texlive-fixdif-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

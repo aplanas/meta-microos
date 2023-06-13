@@ -11,6 +11,7 @@ RPM_HASH = "9b1abcd29db223c31e361bec2b0d109349a38783ef8c4fff417ec603ab60a8c81ec5
 RPROVIDES:${PN} += "ghc-commutative-semigroups \
 ghc-commutative-semigroups(aarch-64) \
 libHScommutative-semigroups-0.1.0.1-EHuCShtv7U46wPCL9foais-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \

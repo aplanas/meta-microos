@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(happybase) \
 python39-happybase \
 python3dist(happybase)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six \
 python39-thriftpy2"

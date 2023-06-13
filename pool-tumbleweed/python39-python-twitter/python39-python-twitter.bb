@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-twitter) \
 python39-python-twitter \
 python3dist(python-twitter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-future \
 python39-requests \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(orientation.sty) \
 texlive-orientation"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -41,6 +41,7 @@ perl(Mojolicious::Plugin::AssetPack::Store) \
 perl(Mojolicious::Plugin::AssetPack::Util) \
 perl(Mojolicious::Plugin::AssetPack::Util::_chdir) \
 perl-Mojolicious-Plugin-AssetPack"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Which) \
 perl(IPC::Run3) \

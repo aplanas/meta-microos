@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(typepy) \
 python39-typepy \
 python3dist(typepy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-mbstrdecoder"
 

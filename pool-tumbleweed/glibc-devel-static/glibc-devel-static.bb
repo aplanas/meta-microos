@@ -12,6 +12,7 @@ RPM_HASH = "9d5d312da006589d9f51e607e01c2cd658e44d05eb9f5020f9040ef7e13e38aa39f5
 RPROVIDES:${PN} += "glibc-devel-static \
 glibc-devel-static(aarch-64) \
 glibc-static"
+
 RDEPENDS:${PN} += "glibc-devel \
 libxcrypt-devel-static"
 

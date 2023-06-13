@@ -110,6 +110,7 @@ font(hindmadurailight) \
 font(hindmaduraimedium) \
 font(hindmaduraisemibold) \
 texlive-hindmadurai-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

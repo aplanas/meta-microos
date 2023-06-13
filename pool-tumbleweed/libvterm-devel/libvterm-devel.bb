@@ -10,6 +10,7 @@ RPM_HASH = "8d32c7a52fa133ff80ce7af46264ef1403e8f5a160aaf7d73abda8d4f4084bdaa6ef
 RPROVIDES:${PN} += "libvterm-devel \
 libvterm-devel(aarch-64) \
 pkgconfig(vterm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvterm0"
 

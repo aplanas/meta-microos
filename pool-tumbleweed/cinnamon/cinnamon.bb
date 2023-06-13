@@ -56,6 +56,7 @@ libst.so()(64bit) \
 typelib(Cinnamon) \
 typelib(St) \
 typelib-1_0-Cinnamon-0_1"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

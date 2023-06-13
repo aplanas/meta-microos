@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(uucp) \
 system-user-uucp \
 user(uucp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(lock) \
 sysuser-shadow"

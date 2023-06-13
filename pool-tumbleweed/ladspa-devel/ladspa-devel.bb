@@ -9,6 +9,7 @@ RPM_HASH = "c47d63da738fd34da8766adab3bc710dbd0152cd0ecac96b8b6100818e0ce7bf7259
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ladspa-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "2affbca4348661b00964a302c62cfed3fd5880931c95d3987827caf874eb010aac29
 
 RPROVIDES:${PN} += "mailutils-pop3d \
 mailutils-pop3d(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "d124ecffbb0943501a340080db2b623b21cd4b35402e8ddd0632a132f5acad7a55a0
 RPROVIDES:${PN} += "libixion-python3 \
 python3-libixion \
 python3-libixion(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -34,6 +34,7 @@ RPROVIDES:${PN} += "/bin/cat \
 /bin/true \
 /bin/uname \
 busybox-coreutils"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

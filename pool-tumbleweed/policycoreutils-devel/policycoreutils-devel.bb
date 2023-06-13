@@ -9,6 +9,7 @@ RPM_HASH = "1398e3c9c15b7fd168d67bdbe14357b9028b8fa6cd54b674b94facac73df89129199
 
 RPROVIDES:${PN} += "policycoreutils-devel \
 policycoreutils-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/make \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(infwarerr.sty) \
 texlive-infwarerr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

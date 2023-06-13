@@ -16,6 +16,7 @@ RPM_HASH = "2d110ee10afc4cb3ea83a9ed587c017b005601ab022244d798850f6e6c607324f046
 
 RPROVIDES:${PN} += "openslp-devel \
 openslp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libslp1 \
 openssl-devel"
 

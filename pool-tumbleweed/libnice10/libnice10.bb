@@ -11,6 +11,7 @@ RPM_HASH = "e137daa8532327cab368fb78eb636b545288f962cb17b2445bb835dc71e7d8a2ba87
 RPROVIDES:${PN} += "libnice.so.10()(64bit) \
 libnice10 \
 libnice10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -34,6 +34,7 @@ mimehandler(text/x-tcl) \
 mimehandler(text/x-tex) \
 neovim \
 neovim(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gperf \
 ld-linux-aarch64.so.1()(64bit) \

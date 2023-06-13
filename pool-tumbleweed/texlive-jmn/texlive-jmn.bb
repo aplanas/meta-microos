@@ -13,6 +13,7 @@ tex(hans.enc) \
 tex(hans.map) \
 tex(hans.tfm) \
 texlive-jmn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

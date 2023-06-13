@@ -13,6 +13,7 @@ NetworkManager-openconnect(aarch-64) \
 group(nm-openconnect) \
 libnm-vpn-plugin-openconnect.so()(64bit) \
 user(nm-openconnect)"
+
 RDEPENDS:${PN} += "/bin/sh \
 NetworkManager \
 NetworkManager-openconnect-frontend \

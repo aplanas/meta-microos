@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-requests-cache \
 python3.10dist(requests-cache) \
 python310-requests-cache \
 python3dist(requests-cache)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-itsdangerous \
 python310-requests \

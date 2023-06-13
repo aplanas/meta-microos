@@ -23,6 +23,7 @@ python310-Cython3 \
 python310-Cython3(aarch-64) \
 python310-cython \
 python3dist(cython)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

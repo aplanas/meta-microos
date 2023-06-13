@@ -13,6 +13,7 @@ pattern-icon() \
 pattern-order() \
 patterns-microos-desktop-common \
 patterns-microos-desktop-common(aarch-64)"
+
 RDEPENDS:${PN} += "OpenPrintingPPDs \
 avahi \
 bash-completion \

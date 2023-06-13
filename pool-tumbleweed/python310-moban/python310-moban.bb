@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-moban \
 python3.10dist(moban) \
 python310-moban \
 python3dist(moban)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 git-core \

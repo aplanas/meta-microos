@@ -9,6 +9,7 @@ RPM_HASH = "7bfbad21417fe277b8607b3a82a01e9487d0690f5a75bf7d75fff9b03ec6a0166177
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "coq-doc"
+
 RDEPENDS:${PN} += "coq"
 
 inherit rpm

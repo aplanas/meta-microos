@@ -57,6 +57,7 @@ locale(gimp-gap:uk) \
 locale(gimp-gap:vi) \
 locale(gimp-gap:zh_CN) \
 locale(gimp-gap:zh_TW)"
+
 RDEPENDS:${PN} += "gimp-gap"
 
 inherit rpm

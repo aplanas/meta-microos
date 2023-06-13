@@ -10,6 +10,7 @@ RPM_HASH = "8d2f6890bfd31d4f53a4daf5bda2095caf75c1d7cba640a724eb88216ee2f78a829d
 RPROVIDES:${PN} += "ghc-cabal2spec-devel \
 ghc-cabal2spec-devel(aarch-64) \
 ghc-devel(cabal2spec-2.7.0-9ijIHSPt0QmI4YnWoXNap7)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-cabal2spec \
 ghc-compiler \

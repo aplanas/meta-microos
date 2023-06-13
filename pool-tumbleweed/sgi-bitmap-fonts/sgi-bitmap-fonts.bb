@@ -88,6 +88,7 @@ font(sgiscreenwide) \
 font(sgitype) \
 sgi-bitmap-fonts \
 sgi-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

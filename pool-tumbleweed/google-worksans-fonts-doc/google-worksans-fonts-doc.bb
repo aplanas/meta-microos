@@ -9,6 +9,7 @@ RPM_HASH = "ce471e965b904f4fa60e89533a499cbf649b403966bbec855dc49fd57009ce82f08c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-worksans-fonts-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(relinput.sty) \
 tex(stack.sty) \
 texlive-stack"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

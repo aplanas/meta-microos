@@ -77,6 +77,7 @@ locale(kfourinline:ug) \
 locale(kfourinline:uk) \
 locale(kfourinline:zh_CN) \
 locale(kfourinline:zh_TW)"
+
 RDEPENDS:${PN} += "kfourinline"
 
 inherit rpm

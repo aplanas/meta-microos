@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jsch-agent-proxy-jsch \
 mvn(com.jcraft:jsch.agentproxy.jsch) \
 mvn(com.jcraft:jsch.agentproxy.jsch:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.jcraft:jsch) \

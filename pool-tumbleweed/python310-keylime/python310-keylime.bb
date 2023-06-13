@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-keylime \
 python3.10dist(keylime) \
 python310-keylime \
 python3dist(keylime)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 libtss2-tcti-device0 \

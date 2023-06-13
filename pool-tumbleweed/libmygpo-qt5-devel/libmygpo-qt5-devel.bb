@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(Mygpo-qt5) \
 libmygpo-qt5-devel \
 libmygpo-qt5-devel(aarch-64) \
 pkgconfig(libmygpo-qt5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmygpo-qt5-1 \
 pkgconfig(Qt5Core) \

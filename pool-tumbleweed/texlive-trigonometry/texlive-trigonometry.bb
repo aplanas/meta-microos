@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(trigonometry.tex) \
 texlive-trigonometry"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

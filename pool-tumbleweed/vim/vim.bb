@@ -18,6 +18,7 @@ vim-base \
 vim-enhanced \
 vim-python \
 vim_client"
+
 RDEPENDS:${PN} += "/bin/sh \
 alts \
 ld-linux-aarch64.so.1()(64bit) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(expiringdict) \
 python39-expiringdict \
 python3dist(expiringdict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-dill \
 python39-typing"

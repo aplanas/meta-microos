@@ -9,6 +9,7 @@ RPM_HASH = "5336c19cffc74a9dc634fd88e5a3986dc6b1fe7027336f6e0eb79da67a9c4f1030ad
 
 RPROVIDES:${PN} += "crun \
 crun(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcap.so.2()(64bit) \
 libkrun1 \

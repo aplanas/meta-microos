@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-bxbase-doc:ja) \
 texlive-bxbase-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

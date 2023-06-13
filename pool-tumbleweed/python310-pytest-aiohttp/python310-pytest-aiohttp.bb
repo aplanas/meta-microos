@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-aiohttp \
 python3.10dist(pytest-aiohttp) \
 python310-pytest-aiohttp \
 python3dist(pytest-aiohttp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-aiohttp \
 python310-pytest \

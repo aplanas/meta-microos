@@ -15,6 +15,7 @@ RPM_HASH = "bc1756b1d898fe9358c6e5f4aa9f7b2eee936a7f54706842e12159795aea93261825
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pycdlib-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

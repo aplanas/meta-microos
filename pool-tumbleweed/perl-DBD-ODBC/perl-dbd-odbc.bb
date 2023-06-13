@@ -10,6 +10,7 @@ RPM_HASH = "3319b1acb0e7f6cb72b55d40abfb13b4c9bda6bf42508ac314177acaf0cef1263a0f
 RPROVIDES:${PN} += "perl(DBD::ODBC) \
 perl-DBD-ODBC \
 perl-DBD-ODBC(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

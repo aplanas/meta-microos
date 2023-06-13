@@ -17,6 +17,7 @@ RPM_HASH = "60ca6f2eaa19fe6b18db789081fa1302a382a4b7c379712bf5f443b960a326dc100c
 
 RPROVIDES:${PN} += "canutils-pengutronix \
 canutils-pengutronix(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

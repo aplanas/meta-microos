@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "gtk3-immodule-tigrigna \
 gtk3-immodule-tigrigna(aarch-64) \
 gtk3-immodules-tigrigna \
 locale(gtk3:ti)"
+
 RDEPENDS:${PN} += "gtk3 \
 gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \

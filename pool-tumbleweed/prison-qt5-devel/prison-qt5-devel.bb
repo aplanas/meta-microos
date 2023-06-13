@@ -11,6 +11,7 @@ RPM_HASH = "1c9bdff0688cb43625433bf4545c746b7bb53c8cac0677143b985c4388a27d9474e1
 RPROVIDES:${PN} += "cmake(KF5Prison) \
 prison-qt5-devel \
 prison-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Gui) \
 libKF5Prison5"
 

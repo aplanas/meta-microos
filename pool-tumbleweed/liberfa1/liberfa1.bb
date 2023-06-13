@@ -18,6 +18,7 @@ RPM_HASH = "17dbbf42bd6d750334898c28c13e5ca6654fdcb6819f99f66fe6db4cf8673c9d8265
 RPROVIDES:${PN} += "liberfa.so.1()(64bit) \
 liberfa1 \
 liberfa1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

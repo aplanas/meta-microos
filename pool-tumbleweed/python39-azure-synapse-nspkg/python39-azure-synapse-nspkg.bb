@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.9dist(azure-synapse-nspkg) \
 python39-azure-synapse \
 python39-azure-synapse-nspkg \
 python3dist(azure-synapse-nspkg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-nspkg"
 

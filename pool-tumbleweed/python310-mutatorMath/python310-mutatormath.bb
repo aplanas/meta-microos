@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-mutatorMath \
 python3.10dist(mutatormath) \
 python310-mutatorMath \
 python3dist(mutatormath)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-FontTools \
 python310-defcon \

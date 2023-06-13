@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(graphene-django) \
 python39-graphene-django \
 python3dist(graphene-django)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-graphene \

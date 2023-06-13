@@ -17,6 +17,7 @@ RPM_HASH = "891219366a4ca7c237af3aab545e014cf733c95a31ffd07a67801a3b999b6d04c8a1
 
 RPROVIDES:${PN} += "linkloop \
 linkloop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -9,6 +9,7 @@ RPM_HASH = "e9d0cbb324c7dc0f911ff52c5443a0f8204220d72fea65d09a60181e9b050cd5e49e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-sendto-blueman"
+
 RDEPENDS:${PN} += "blueman \
 typelib(GObject) \
 typelib(Gio) \

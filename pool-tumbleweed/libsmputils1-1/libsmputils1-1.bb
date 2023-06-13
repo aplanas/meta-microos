@@ -13,6 +13,7 @@ RPM_HASH = "2561321711c2382419a1a9484c11137e8bd512b7387a8018b11720de9a51d76bf6f3
 RPROVIDES:${PN} += "libsmputils1-1 \
 libsmputils1-1(aarch-64) \
 libsmputils1.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-tempora \
 python3.10dist(tempora) \
 python310-tempora \
 python3dist(tempora)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

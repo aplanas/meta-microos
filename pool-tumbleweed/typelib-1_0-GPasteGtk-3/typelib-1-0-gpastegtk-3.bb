@@ -13,6 +13,7 @@ RPM_HASH = "7424060bd1d4d13884e124d0efc06daaeb989524ff7340063f96246e5fc236da772a
 RPROVIDES:${PN} += "typelib(GPasteGtk) \
 typelib-1_0-GPasteGtk-3 \
 typelib-1_0-GPasteGtk-3(aarch-64)"
+
 RDEPENDS:${PN} += "libgpaste-gtk-3.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

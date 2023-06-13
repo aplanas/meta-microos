@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(tinyxml2) \
 pkgconfig(tinyxml2) \
 tinyxml2-devel \
 tinyxml2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtinyxml2-9"
 

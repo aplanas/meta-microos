@@ -11,6 +11,7 @@ RPM_HASH = "c08cc1f748f5cbd9cbb3abdbb2dc19a343051ab75b9e03bbc118a337862ea6da1d53
 RPROVIDES:${PN} += "libshout-devel \
 libshout-devel(aarch-64) \
 pkgconfig(shout)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "c284e9a60ca6e0eed352eb9f8f146864543c4bdef62c748d2ebf8edfaf991f302ec2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtdoc-devel"
+
 RDEPENDS:${PN} += "doxygen \
 libqt5-qttools"
 

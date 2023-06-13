@@ -12,6 +12,7 @@ application(org.kde.accountwizard.desktop) \
 kmail-account-wizard \
 kmail-account-wizard(aarch-64) \
 mimehandler(application/x-accountwizard-package)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Codecs.so.5()(64bit) \

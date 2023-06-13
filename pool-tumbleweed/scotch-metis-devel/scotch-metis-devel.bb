@@ -10,6 +10,7 @@ RPM_HASH = "e5bda5be0e232d3218639ce13ccba72a4a95baf85ab6a655bc9c54b62d9df6b5909e
 
 RPROVIDES:${PN} += "scotch-metis-devel \
 scotch-metis-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libscotch0 \
 scotch-devel"
 

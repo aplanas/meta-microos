@@ -91,6 +91,7 @@ locale(gnome-search-tool:wa) \
 locale(gnome-search-tool:zh_CN) \
 locale(gnome-search-tool:zh_HK) \
 locale(gnome-search-tool:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-search-tool"
 
 inherit rpm

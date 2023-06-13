@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-plaster \
 python3.10dist(plaster) \
 python310-plaster \
 python3dist(plaster)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

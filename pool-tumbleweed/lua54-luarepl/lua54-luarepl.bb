@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-luarepl \
 lua54-luarepl"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/lua5.4 \
 bash-sh \

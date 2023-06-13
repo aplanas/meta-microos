@@ -9,6 +9,7 @@ RPM_HASH = "85bfe61166fa72333e5c922dd77477743512b4e51a35218d8bc5751528281049f057
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zhmetrics-uptex-doc"
+
 RDEPENDS:${PN} += "/usr/bin/texlua"
 
 inherit rpm

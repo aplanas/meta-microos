@@ -12,6 +12,7 @@ pmemkv-python(aarch-64) \
 pmemkv-python-1.0-2.12 \
 python3.10dist(pmemkv) \
 python3dist(pmemkv)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

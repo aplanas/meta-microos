@@ -10,6 +10,7 @@ RPM_HASH = "af05085ab30586c411446944259fb572d5f2a3eb5595d35659f86e5e9a8badc9f7d1
 RPROVIDES:${PN} += "libKPim5TextEdit.so.5()(64bit) \
 libKPim5TextEdit5 \
 libKPim5TextEdit5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kpimtextedit \
 ld-linux-aarch64.so.1()(64bit) \

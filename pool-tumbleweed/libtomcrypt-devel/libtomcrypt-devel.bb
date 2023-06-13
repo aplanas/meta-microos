@@ -15,6 +15,7 @@ RPM_HASH = "2adf4dfd0c297fb3a9d58af6d9a743501331ee18812ad537d635aa1b581c4d15ca53
 RPROVIDES:${PN} += "libtomcrypt-devel \
 libtomcrypt-devel(aarch-64) \
 pkgconfig(libtomcrypt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtomcrypt1"
 

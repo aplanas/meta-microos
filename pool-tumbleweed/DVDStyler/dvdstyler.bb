@@ -40,6 +40,7 @@ application() \
 application(dvdstyler.desktop) \
 metainfo() \
 metainfo(dvdstyler.appdata.xml)"
+
 RDEPENDS:${PN} += "dvd+rw-tools \
 dvdauthor \
 dvdisaster \

@@ -9,6 +9,7 @@ RPM_HASH = "369d427266b96d98137982556f49b2e064e2d4eb5569f21896bbda17727845f8bb1f
 
 RPROVIDES:${PN} += "shfmt \
 shfmt(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

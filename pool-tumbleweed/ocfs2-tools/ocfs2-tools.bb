@@ -12,6 +12,7 @@ RPM_HASH = "c261690e52f4430cc18fb8258ece7509b8d6eb5da42637bdb448d32d791414647371
 
 RPROVIDES:${PN} += "ocfs2-tools \
 ocfs2-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 e2fsprogs \

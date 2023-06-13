@@ -16,6 +16,7 @@ RPM_HASH = "dfbf56144be857e0d1b92df339b9b3eb2955150b80859624032e5494ede2b1d6d451
 RPROVIDES:${PN} += "xf86-video-nv \
 xf86-video-nv(aarch-64) \
 xorg-x11-driver-video-nvidia"
+
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

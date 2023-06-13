@@ -11,6 +11,7 @@ RPM_HASH = "03e1687408288356b72db925612f748e07baa30f8cb1f793c0bf026eda93193b7c61
 
 RPROVIDES:${PN} += "libdatovka \
 libdatovka(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

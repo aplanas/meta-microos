@@ -18,6 +18,7 @@ RPM_HASH = "a2f5604b7fc222d215f466f4efaed44b0bb4c859ec3370da02951494892adb8c3eb7
 RPROVIDES:${PN} += "config(velociraptor-client) \
 velociraptor-client \
 velociraptor-client(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(velociraptor) \
 ld-linux-aarch64.so.1()(64bit) \

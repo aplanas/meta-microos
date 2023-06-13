@@ -29,6 +29,7 @@ RPM_HASH = "116d1a5d5938d7a428087d70ebd2e869d14bab54e26fc9dd9614d4ba697e2edcbd2b
 
 RPROVIDES:${PN} += "QtAV \
 QtAV(aarch-64)"
+
 RDEPENDS:${PN} += "QtAV-players"
 
 inherit rpm

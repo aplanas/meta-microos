@@ -15,6 +15,7 @@ RPM_HASH = "8b5056b9f92be2e12fc9d45acc435d7730d180d24e497f3ad931ae2b07d7f1c07489
 RPROVIDES:${PN} += "libtalloc-devel \
 libtalloc-devel(aarch-64) \
 pkgconfig(talloc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtalloc2 \
 pkg-config"

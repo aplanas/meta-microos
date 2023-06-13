@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cinnamon-branding-openSUSE \
 cinnamon-gschemas-branding \
 cinnamon-gschemas-branding-openSUSE"
+
 RDEPENDS:${PN} += "/bin/sh \
 cinnamon-gschemas \
 cinnamon-themes \

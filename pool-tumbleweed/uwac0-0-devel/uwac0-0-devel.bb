@@ -13,6 +13,7 @@ libuwac0-devel \
 pkgconfig(uwac0) \
 uwac0-0-devel \
 uwac0-0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake \
 libuwac0-0 \

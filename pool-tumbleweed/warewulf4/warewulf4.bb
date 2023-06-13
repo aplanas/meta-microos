@@ -15,6 +15,7 @@ group(warewulf) \
 user(warewulf) \
 warewulf4 \
 warewulf4(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 dhcp-server \
 ipxe-bootimgs \

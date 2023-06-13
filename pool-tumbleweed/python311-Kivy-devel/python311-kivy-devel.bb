@@ -12,6 +12,7 @@ RPM_HASH = "acefaa47199de1e54930cd8271fc7dcf69661e7f48f3623c0f622580b0aa3784590f
 
 RPROVIDES:${PN} += "python311-Kivy-devel \
 python311-Kivy-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python311-Kivy"
 
 inherit rpm

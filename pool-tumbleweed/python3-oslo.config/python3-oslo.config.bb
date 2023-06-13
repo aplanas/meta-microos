@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.config \
 python3.10dist(oslo.config) \
 python3dist(oslo.config)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PyYAML \

@@ -17,6 +17,7 @@ RPM_HASH = "02ccd02104e4484fa5cafe0df32bc56ec3904a43b934830d2dfc2444cf4000313c5d
 RPROVIDES:${PN} += "perl(Crypt::OpenSSL::RSA) \
 perl-Crypt-OpenSSL-RSA \
 perl-Crypt-OpenSSL-RSA(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

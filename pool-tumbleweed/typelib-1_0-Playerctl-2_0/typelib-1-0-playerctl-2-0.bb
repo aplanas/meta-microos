@@ -11,6 +11,7 @@ RPM_HASH = "9067a13dff1032fb00caf3e3e559d30a151645cdef726a981ae96418b95dce5cb93f
 RPROVIDES:${PN} += "typelib(Playerctl) \
 typelib-1_0-Playerctl-2_0 \
 typelib-1_0-Playerctl-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libplayerctl.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eiskaltdcpp-qt-lang \
 eiskaltdcpp-qt-lang-all"
+
 RDEPENDS:${PN} += "eiskaltdcpp-qt"
 
 inherit rpm

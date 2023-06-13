@@ -12,6 +12,7 @@ RPM_HASH = "6359b357acf9256a180397286cb2dc27d2f48c52c9fc7aa7b233858880e40cde9cac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "duply"
+
 RDEPENDS:${PN} += "/bin/bash \
 duplicity"
 

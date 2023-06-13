@@ -13,6 +13,7 @@ RPM_HASH = "262eaf9e890a421cde7599dce5dc22caa39099eefe300e667cea6568ab7fb0e358cf
 
 RPROVIDES:${PN} += "opensaml-schemas \
 opensaml-schemas(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

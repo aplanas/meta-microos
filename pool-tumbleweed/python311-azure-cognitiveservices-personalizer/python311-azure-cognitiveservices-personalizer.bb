@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-personalizer) \
 python311-azure-cognitiveservices-personalizer \
 python3dist(azure-cognitiveservices-personalizer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-cognitiveservices-nspkg \
 python311-azure-common \

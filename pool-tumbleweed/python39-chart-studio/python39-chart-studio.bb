@@ -9,6 +9,7 @@ RPM_HASH = "93ab11cb160a72843d9f1d171fe5c9d6c3d5ab35dd8d6e3bbcc1430c9ad346b8481f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-chart-studio"
+
 RDEPENDS:${PN} += "python39-plotly \
 python39-requests \
 python39-retrying"

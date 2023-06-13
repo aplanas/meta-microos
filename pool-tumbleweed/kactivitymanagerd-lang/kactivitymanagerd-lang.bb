@@ -74,6 +74,7 @@ locale(kactivitymanagerd:vi) \
 locale(kactivitymanagerd:wa) \
 locale(kactivitymanagerd:zh_CN) \
 locale(kactivitymanagerd:zh_TW)"
+
 RDEPENDS:${PN} += "kactivitymanagerd"
 
 inherit rpm

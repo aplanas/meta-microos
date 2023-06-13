@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(media9.sty) \
 tex(pdfbase.sty) \
 texlive-media9"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

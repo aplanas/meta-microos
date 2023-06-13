@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(mandi.sty) \
 tex(mandiexp.sty) \
 tex(mandistudent.sty) \
 texlive-mandi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

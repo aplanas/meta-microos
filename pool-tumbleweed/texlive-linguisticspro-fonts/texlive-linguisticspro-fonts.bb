@@ -172,6 +172,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(linguisticspro) \
 texlive-linguisticspro-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

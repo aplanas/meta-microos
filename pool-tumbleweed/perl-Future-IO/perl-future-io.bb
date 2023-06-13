@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "perl(Future::IO) \
 perl(Future::IO::ImplBase) \
 perl(Future::IO::System) \
 perl-Future-IO"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Future) \
 perl(Struct::Dumb)"

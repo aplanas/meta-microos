@@ -21,6 +21,7 @@ mvn(commons:commons-compress:pom:) \
 mvn(org.apache.commons:commons-compress) \
 mvn(org.apache.commons:commons-compress:pom:) \
 osgi(org.apache.commons.compress)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

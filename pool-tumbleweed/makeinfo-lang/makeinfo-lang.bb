@@ -29,6 +29,7 @@ locale(makeinfo:sv) \
 locale(makeinfo:uk) \
 makeinfo-lang \
 makeinfo-lang-all"
+
 RDEPENDS:${PN} += "makeinfo"
 
 inherit rpm

@@ -13,6 +13,7 @@ libopencv_wrapper_plugin.so()(64bit) \
 vlc-opencv \
 vlc-opencv(aarch-64) \
 vlc:/usr/lib64/vlc/plugins/video_filter/libopencv_example_plugin.so"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

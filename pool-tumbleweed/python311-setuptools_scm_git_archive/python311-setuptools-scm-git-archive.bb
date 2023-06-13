@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(setuptools-scm-git-archive) \
 python311-setuptools_scm_git_archive \
 python3dist(setuptools-scm-git-archive)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-setuptools_scm"
 

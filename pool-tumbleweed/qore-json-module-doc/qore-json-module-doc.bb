@@ -10,6 +10,7 @@ RPM_HASH = "b665cede1fb9e40c6ef4183b67bd0536e5ae36229e9f3f3132c8d66b520cb9f2ded6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-json-module-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

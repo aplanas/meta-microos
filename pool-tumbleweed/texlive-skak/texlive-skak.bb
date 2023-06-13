@@ -26,6 +26,7 @@ tex(skak30.tfm) \
 tex(skakf10.tfm) \
 tex(skakf10b.tfm) \
 texlive-skak"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

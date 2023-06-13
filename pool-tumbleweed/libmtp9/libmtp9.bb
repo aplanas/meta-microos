@@ -15,6 +15,7 @@ RPM_HASH = "03ab5e35789fb490a46489d0c1fb0a08634d582ce8360417474817ccf732754dc0de
 RPROVIDES:${PN} += "libmtp.so.9()(64bit) \
 libmtp9 \
 libmtp9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

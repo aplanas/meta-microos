@@ -10,6 +10,7 @@ RPM_HASH = "30395252591296dc1aef553de957bce9e385739c908ef236a573a9f5ddc58b9db544
 
 RPROVIDES:${PN} += "apache2-mod_dnssd \
 apache2-mod_dnssd(aarch-64)"
+
 RDEPENDS:${PN} += "apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -17,6 +17,7 @@ locale(csound:es_CO) \
 locale(csound:fr) \
 locale(csound:it) \
 locale(csound:ru)"
+
 RDEPENDS:${PN} += "csound"
 
 inherit rpm

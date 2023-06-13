@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(libdeflate) \
 libdeflate-devel \
 libdeflate-devel(aarch-64) \
 pkgconfig(libdeflate)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdeflate0"
 

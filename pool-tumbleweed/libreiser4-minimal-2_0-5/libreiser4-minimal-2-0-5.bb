@@ -13,6 +13,7 @@ RPM_HASH = "0b292183f7c2e3ba6160d37339cebbf6948a7f4da419f057ea4e71360666056334cf
 RPROVIDES:${PN} += "libreiser4-minimal-2.0.so.5()(64bit) \
 libreiser4-minimal-2_0-5 \
 libreiser4-minimal-2_0-5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

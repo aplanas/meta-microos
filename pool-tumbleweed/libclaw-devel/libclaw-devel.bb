@@ -11,6 +11,7 @@ RPM_HASH = "ae21adb33b254cfa72f9e7ff3d6b86a827c8763ddebd1a11142fbcf6c9351992502e
 RPROVIDES:${PN} += "cmake(libclaw) \
 libclaw-devel \
 libclaw-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cmake \
 libclaw1"

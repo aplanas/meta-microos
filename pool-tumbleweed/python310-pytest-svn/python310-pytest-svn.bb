@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-svn \
 python3.10dist(pytest-svn) \
 python310-pytest-svn \
 python3dist(pytest-svn)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest \
 python310-pytest-shutil \

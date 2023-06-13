@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(hitszthesis.cls) \
 tex(hitszthesis.sty) \
 texlive-hitszthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "b46a6026d9acc2e3a4e02287bbaa9d2a0e37af94cfe034e97d5e019d64c4b5f8093e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nimsticks-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

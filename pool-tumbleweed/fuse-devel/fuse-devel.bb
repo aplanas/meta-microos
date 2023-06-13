@@ -15,6 +15,7 @@ RPM_HASH = "4aa1610b8a3fd9228acf81d184fbb551dfccaa7af2801ea9f447af10853a21d62d95
 RPROVIDES:${PN} += "fuse-devel \
 fuse-devel(aarch-64) \
 pkgconfig(fuse)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 fuse \
 fuse-doc \

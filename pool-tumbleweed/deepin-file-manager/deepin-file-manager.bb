@@ -24,6 +24,7 @@ libdde-pdf-preview-plugin.so()(64bit) \
 libdde-text-preview-plugin.so()(64bit) \
 libdde-video-preview-plugin.so()(64bit) \
 mimehandler(inode/directory)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 deepin-shortcut-viewer \

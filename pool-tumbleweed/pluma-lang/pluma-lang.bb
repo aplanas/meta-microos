@@ -99,6 +99,7 @@ locale(pluma:zh_HK) \
 locale(pluma:zh_TW) \
 pluma-lang \
 pluma-lang-all"
+
 RDEPENDS:${PN} += "pluma"
 
 inherit rpm

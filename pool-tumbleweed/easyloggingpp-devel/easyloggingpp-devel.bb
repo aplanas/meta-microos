@@ -13,6 +13,7 @@ RPM_HASH = "da120888305ccb36cb8c5eaff0826612a00ede8f8b2681412e9d5cb3c7067605fc53
 RPROVIDES:${PN} += "easyloggingpp-devel \
 easyloggingpp-devel(aarch-64) \
 pkgconfig(easyloggingpp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

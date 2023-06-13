@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mycli \
 python3.10dist(mycli) \
 python310-mycli \
 python3dist(mycli)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

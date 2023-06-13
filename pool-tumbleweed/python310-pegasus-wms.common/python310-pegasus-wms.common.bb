@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pegasus-wms.common \
 python3.10dist(pegasus-wms.common) \
 python310-pegasus-wms.common \
 python3dist(pegasus-wms.common)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML"
 

@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(longdivision.sty) \
 texlive-longdivision"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-mohawk \
 python3.10dist(mohawk) \
 python310-mohawk \
 python3dist(mohawk)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Mojolicious::Plugin::NYTProf) \
 perl-Mojolicious-Plugin-NYTProf"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::NYTProf) \
 perl(File::Spec::Functions) \

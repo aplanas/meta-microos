@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(aiosmtplib) \
 python311-aiosmtplib \
 python3dist(aiosmtplib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

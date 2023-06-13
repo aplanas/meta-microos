@@ -20,6 +20,7 @@ RPM_HASH = "c15928807e17c2a7565607171e50cde11705c6fa6f5fb156fb984d524395e1878f1c
 RPROVIDES:${PN} += "ghc-parallel \
 ghc-parallel(aarch-64) \
 libHSparallel-3.2.2.0-36KAHtmQlbB59K6tPbQ0Jr-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \

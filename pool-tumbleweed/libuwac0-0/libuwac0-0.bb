@@ -11,6 +11,7 @@ RPM_HASH = "91f14d4846a44552313730ffd50142fe7caf2c19729c860d78d49c26ef926704f88c
 RPROVIDES:${PN} += "libuwac0-0 \
 libuwac0-0(aarch-64) \
 libuwac0.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

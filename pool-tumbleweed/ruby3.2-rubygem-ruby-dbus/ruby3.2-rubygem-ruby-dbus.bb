@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:ruby-dbus) \
 rubygem(ruby:3.2.0:ruby-dbus:0) \
 rubygem(ruby:3.2.0:ruby-dbus:0.22) \
 rubygem(ruby:3.2.0:ruby-dbus:0.22.1)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ruby(abi) \
 rubygem(ruby:3.2.0:rexml)"

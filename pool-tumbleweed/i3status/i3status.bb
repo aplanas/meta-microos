@@ -14,6 +14,7 @@ RPM_HASH = "20060a491f57c241db6b690f539715392451f1f895c6b4218d0369026a0c4a59dc96
 RPROVIDES:${PN} += "config(i3status) \
 i3status \
 i3status(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "6b7eaa7d2fda86049478e40feb0745ad32d3c94ffb4d6cb574a755eafb9cb0cb87ba
 RPROVIDES:${PN} += "libb2-1 \
 libb2-1(aarch-64) \
 libb2.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.25)(64bit) \
 libgomp.so.1()(64bit) \

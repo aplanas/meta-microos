@@ -11,6 +11,7 @@ RPM_HASH = "c76a4da3f7eb257c250c53961efe5e4b285839efb3c50bf59c51111f8fbf411625aa
 RPROVIDES:${PN} += "libgck1-devel \
 libgck1-devel(aarch-64) \
 pkgconfig(gck-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgck-1-0 \
 pkgconfig(gio-2.0) \

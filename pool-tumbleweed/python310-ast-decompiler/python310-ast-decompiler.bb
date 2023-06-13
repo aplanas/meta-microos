@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ast-decompiler \
 python3.10dist(ast-decompiler) \
 python310-ast-decompiler \
 python3dist(ast-decompiler)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

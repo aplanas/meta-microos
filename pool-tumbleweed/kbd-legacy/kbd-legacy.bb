@@ -10,6 +10,7 @@ RPM_HASH = "cbdf16b54c9dbc13ea6b37a1494a60f11691ba9912c337627e186c0c9f5fdeec95d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kbd-legacy"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(web-cache) \
 python311-web_cache \
 python3dist(web-cache)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311"
 

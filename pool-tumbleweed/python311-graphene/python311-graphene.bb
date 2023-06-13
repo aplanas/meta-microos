@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(graphene) \
 python311-graphene \
 python3dist(graphene)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-aniso8601 \
 python311-graphql-core \

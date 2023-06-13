@@ -10,6 +10,7 @@ RPM_HASH = "584533be4ba6eefad4c4bad5ffb87de9943725ac85829da0d04f96cc4ddda2398a6f
 RPROVIDES:${PN} += "gio-sharp3-devel \
 gio-sharp3-devel(aarch-64) \
 pkgconfig(gio-sharp-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gio-sharp3 \
 pkgconfig(glib-sharp-3.0)"

@@ -33,6 +33,7 @@ perl(Web::MREST::Test::Unauthorized) \
 perl(Web::MREST::Util) \
 perl(Web::MREST::WebServicesIntro) \
 perl-Web-MREST"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \

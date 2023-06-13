@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-subprocrunner \
 python3.10dist(subprocrunner) \
 python310-subprocrunner \
 python3dist(subprocrunner)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-loguru \
 python310-mbstrdecoder \

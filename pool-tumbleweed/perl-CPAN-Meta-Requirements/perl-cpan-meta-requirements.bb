@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(CPAN::Meta::Requirements) \
 perl(CPAN::Meta::Requirements::Range) \
 perl-CPAN-Meta-Requirements"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(version)"
 

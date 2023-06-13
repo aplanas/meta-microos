@@ -42,6 +42,7 @@ tex(PPRwinter.sty) \
 tex(PPRwj.sty) \
 tex(prosper.cls) \
 texlive-prosper"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

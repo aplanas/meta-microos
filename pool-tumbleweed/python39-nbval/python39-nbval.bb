@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3.9dist(nbval) \
 python39-jupyter_nbval \
 python39-nbval \
 python3dist(nbval)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-coverage \
 python39-ipykernel \

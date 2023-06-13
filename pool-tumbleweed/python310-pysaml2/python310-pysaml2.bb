@@ -14,6 +14,7 @@ python3.10dist(pysaml2) \
 python310-pysaml2 \
 python310-pysaml2(aarch-64) \
 python3dist(pysaml2)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

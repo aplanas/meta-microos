@@ -10,6 +10,7 @@ RPM_HASH = "7ab26aa827461f378227b2175874349ea188b74351022066590bb9b6f5ba2c178f07
 
 RPROVIDES:${PN} += "syslog-ng-curl \
 syslog-ng-curl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

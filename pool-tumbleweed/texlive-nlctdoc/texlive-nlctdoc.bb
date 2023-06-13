@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(nlctdoc.cls) \
 tex(nlctuserguide.sty) \
 texlive-nlctdoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

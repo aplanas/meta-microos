@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(pst-labo.sty) \
 tex(pst-labo.tex) \
 tex(pst-laboObj.tex) \
 texlive-pst-labo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

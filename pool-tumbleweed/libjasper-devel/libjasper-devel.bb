@@ -11,6 +11,7 @@ RPM_HASH = "fedfa9376d9900620536c5f36a7ffe34ce26fc9cbcb9085af0058f0751500f8cc3c5
 RPROVIDES:${PN} += "libjasper-devel \
 libjasper-devel(aarch-64) \
 pkgconfig(jasper)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjasper7 \
 libjpeg-devel \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(IEEEtran.cls) \
 tex(IEEEtrantools.sty) \
 texlive-ieeetran"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

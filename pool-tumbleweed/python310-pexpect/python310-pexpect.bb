@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pexpect \
 python3.10dist(pexpect) \
 python310-pexpect \
 python3dist(pexpect)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ptyprocess"
 

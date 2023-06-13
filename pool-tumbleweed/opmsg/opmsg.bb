@@ -22,6 +22,7 @@ RPM_HASH = "8438076f7b799932bd49fa24f36bad4a20638e33dfa155a121bb72e43910b96f4ece
 
 RPROVIDES:${PN} += "opmsg \
 opmsg(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \
 libcrypto.so.3(OPENSSL_3.0.0)(64bit) \

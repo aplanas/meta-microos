@@ -11,6 +11,7 @@ RPM_HASH = "ef4d6ca36debf70651860d31fe81b353c87c26891ce40641597961b6164ec6a5e770
 RPROVIDES:${PN} += "ghc-time-locale-compat \
 ghc-time-locale-compat(aarch-64) \
 libHStime-locale-compat-0.1.1.5-4KOdffkWEDD5CJkcMekvXY-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

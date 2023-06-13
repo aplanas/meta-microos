@@ -12,6 +12,7 @@ RPM_HASH = "678707bc71421bec7af769653808742e000fdcb8807d10272eae2d84d76a1bbe101c
 
 RPROVIDES:${PN} += "rsyslog-module-pgsql \
 rsyslog-module-pgsql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "c8bc56b235f5b04064ca4850829cb399248727c618c5730c6e013835d8fe660be5e8
 
 RPROVIDES:${PN} += "xcmsdb \
 xcmsdb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sidecap.sty) \
 texlive-sidecap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

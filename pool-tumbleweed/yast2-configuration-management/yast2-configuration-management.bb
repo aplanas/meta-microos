@@ -13,6 +13,7 @@ application(org.opensuse.yast.ConfigurationManagement.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.ConfigurationManagement.metainfo.xml) \
 yast2-configuration-management"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-installation"
 

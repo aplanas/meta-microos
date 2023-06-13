@@ -9,6 +9,7 @@ RPM_HASH = "77858cf3f02f4e6aac386ff2901b869bf93ca8138fce46cf96ab52fd72e3fd191955
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-theme-powerline"
+
 RDEPENDS:${PN} += "bumblebee-status \
 fontawesome-fonts \
 powerline-fonts"

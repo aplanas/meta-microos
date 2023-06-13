@@ -11,6 +11,7 @@ RPM_HASH = "932b39f388692be3a020fe8a968c76b148b9269fda744105da6f0c14c91981b03364
 RPROVIDES:${PN} += "libKF5MediaPlayer.so.5()(64bit) \
 libKF5MediaPlayer5 \
 libKF5MediaPlayer5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

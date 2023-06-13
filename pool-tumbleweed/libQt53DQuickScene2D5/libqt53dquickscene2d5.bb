@@ -32,6 +32,7 @@ libQt53DQuickScene2D.so.5(Qt_5.9)(64bit) \
 libQt53DQuickScene2D5 \
 libQt53DQuickScene2D5(aarch-64) \
 libscene2d.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

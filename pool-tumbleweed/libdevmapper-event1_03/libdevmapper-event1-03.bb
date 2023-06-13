@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libdevmapper-event.so.1.03()(64bit) \
 libdevmapper-event.so.1.03(Base)(64bit) \
 libdevmapper-event1_03 \
 libdevmapper-event1_03(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

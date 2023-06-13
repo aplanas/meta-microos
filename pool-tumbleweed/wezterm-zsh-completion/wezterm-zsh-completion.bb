@@ -9,6 +9,7 @@ RPM_HASH = "ec6d9f2eb21a9a69038dbbb8f50fadc12bc094309241a3c0ec936cebbe1053d1534e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wezterm-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -22,6 +22,7 @@ java-sdk-17-openjdk \
 java-sdk-openj9 \
 java-sdk-openjdk \
 libattach.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-17-openj9 \
 ld-linux-aarch64.so.1()(64bit) \

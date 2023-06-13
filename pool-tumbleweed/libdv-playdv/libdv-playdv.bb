@@ -15,6 +15,7 @@ RPM_HASH = "096f92745927bd6bb115de3f12e17982c6801afbcc90b76eee1872e6742b4efd5b21
 
 RPROVIDES:${PN} += "libdv-playdv \
 libdv-playdv(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL-1.2.so.0()(64bit) \

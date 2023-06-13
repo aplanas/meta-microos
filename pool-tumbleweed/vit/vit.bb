@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(vit) \
 python3dist(vit) \
 vit"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-base \

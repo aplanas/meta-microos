@@ -26,6 +26,7 @@ locale(caja-rename:oc) \
 locale(caja-rename:pt_BR) \
 locale(caja-rename:sl) \
 locale(caja-rename:zh_Hans)"
+
 RDEPENDS:${PN} += "caja-rename"
 
 inherit rpm

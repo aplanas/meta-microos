@@ -14,6 +14,7 @@ RPM_HASH = "382215112a290352a7600977bf0e3da6de8b7c11f14016bd18efc0fd26cbb6713880
 RPROVIDES:${PN} += "config(rsyslog-module-snmp) \
 rsyslog-module-snmp \
 rsyslog-module-snmp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

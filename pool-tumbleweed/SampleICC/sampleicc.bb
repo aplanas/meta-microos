@@ -11,6 +11,7 @@ RPM_HASH = "44ed198bee22f21384194ddd8cc47428393f055583d398352bb44d70556003b184af
 
 RPROVIDES:${PN} += "SampleICC \
 SampleICC(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICC_utils.so.2()(64bit) \

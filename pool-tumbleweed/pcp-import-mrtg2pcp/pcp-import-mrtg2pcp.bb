@@ -10,6 +10,7 @@ RPM_HASH = "dd04847bfad8c8d83c7d71b285c971f8b6cd2154b54ae0acc621c0f7a48c126e818d
 
 RPROVIDES:${PN} += "pcp-import-mrtg2pcp \
 pcp-import-mrtg2pcp(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl-PCP-LogImport"
 

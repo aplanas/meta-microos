@@ -22,6 +22,7 @@ metainfo() \
 metainfo(com.github.wwmm.pulseeffects.appdata.xml) \
 pulseeffects \
 pulseeffects(aarch-64)"
+
 RDEPENDS:${PN} += "dconf \
 gstreamer-plugins-bad \
 gstreamer-plugins-good \

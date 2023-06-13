@@ -10,6 +10,7 @@ RPM_HASH = "2ddf3099d98fb108984dfc0216025c736cfa34b8b680b4e68d2d297150f701b8768e
 RPROVIDES:${PN} += "pkgconfig(taglib-extras) \
 taglib-extras-devel \
 taglib-extras-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libstdc++-devel \

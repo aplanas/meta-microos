@@ -14,6 +14,7 @@ RPM_HASH = "7b558042bc2e71be6455de854b7c2a0264a6b140ba8fa4e23b892a78af3675cfb3ed
 RPROVIDES:${PN} += "libkmod-devel \
 libkmod-devel(aarch-64) \
 pkgconfig(libkmod)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libkmod2"
 

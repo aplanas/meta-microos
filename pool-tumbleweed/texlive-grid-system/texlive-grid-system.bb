@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(grid-system.sty) \
 texlive-grid-system"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

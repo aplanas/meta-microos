@@ -9,6 +9,7 @@ RPM_HASH = "2fa2e7c9e64dc5098e61adff9de6fac60dd7f18d06afe1ec1c6442bc0ba663037545
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libloader-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -22,6 +22,7 @@ tex(tex-locale-support.def) \
 tex(tex-locale.sty) \
 tex(tex-locale.tex) \
 texlive-tex-locale"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

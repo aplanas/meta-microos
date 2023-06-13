@@ -40,6 +40,7 @@ font(arplkaitimgb) \
 font(arplmingti2lbig5) \
 font(arplsungtilgb) \
 texlive-arphic-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

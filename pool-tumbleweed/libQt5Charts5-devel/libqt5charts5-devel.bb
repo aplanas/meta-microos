@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Qt5Charts) \
 libQt5Charts5-devel \
 libQt5Charts5-devel(aarch-64) \
 pkgconfig(Qt5Charts)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Charts5 \
 pkgconfig(Qt5Core) \

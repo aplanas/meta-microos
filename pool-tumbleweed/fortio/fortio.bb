@@ -19,6 +19,7 @@ RPM_HASH = "514f070e4585526ad07c09688c768a4d5758b71e949761b55d1820aa5d8928fffb92
 
 RPROVIDES:${PN} += "fortio \
 fortio(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

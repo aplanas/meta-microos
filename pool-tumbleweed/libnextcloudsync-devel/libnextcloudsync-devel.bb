@@ -10,6 +10,7 @@ RPM_HASH = "99212d94917f9a128a1a382bef471f1201bc7f762d5ddb0ab0ee7ee2aa2ecba06b5f
 
 RPROVIDES:${PN} += "libnextcloudsync-devel \
 libnextcloudsync-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

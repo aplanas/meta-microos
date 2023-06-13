@@ -33,6 +33,7 @@ perl(File::StripNondeterminism::handlers::zip) \
 rpm_macro(have_strip_nondeterminism) \
 rpm_macro(strip_all_nondeterminism) \
 strip-nondeterminism"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \

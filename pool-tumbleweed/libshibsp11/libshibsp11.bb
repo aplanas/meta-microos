@@ -14,6 +14,7 @@ RPM_HASH = "c209ef2b4e4af98eca6cc1c4c0e3df7fc6c472362ff090b2c99bfb8ec8d48b77bf44
 RPROVIDES:${PN} += "libshibsp.so.11()(64bit) \
 libshibsp11 \
 libshibsp11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

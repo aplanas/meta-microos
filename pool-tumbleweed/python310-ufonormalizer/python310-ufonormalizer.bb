@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ufonormalizer \
 python3.10dist(ufonormalizer) \
 python310-ufonormalizer \
 python3dist(ufonormalizer)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

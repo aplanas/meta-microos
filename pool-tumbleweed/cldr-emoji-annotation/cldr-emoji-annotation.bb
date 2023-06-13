@@ -10,6 +10,7 @@ RPM_HASH = "581aab67e4e269a2b19d8756f8ae258d2e81fed0bc20456d66beba2fa22b027f98f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cldr-emoji-annotation"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

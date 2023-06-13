@@ -9,6 +9,7 @@ RPM_HASH = "157568611ad8917a9367affed325f0985c56d450cff902fe5cc7d4754812da796b33
 
 RPROVIDES:${PN} += "deepin-desktop \
 deepin-desktop(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libQt5DBus.so.5()(64bit) \

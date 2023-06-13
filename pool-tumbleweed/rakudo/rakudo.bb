@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libperl6_ops_moar.so()(64bit) \
 perl6 \
 rakudo \
 rakudo(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -29,6 +29,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Config::Tiny) \
 perl-Config-Tiny"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Spec) \
 perl(File::Temp)"

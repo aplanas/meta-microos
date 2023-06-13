@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mailmanclient \
 python3.10dist(mailmanclient) \
 python310-mailmanclient \
 python3dist(mailmanclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

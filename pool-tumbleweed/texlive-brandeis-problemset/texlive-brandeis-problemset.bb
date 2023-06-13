@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(brandeis-problemset.cls) \
 tex(brandeis-problemset.sty) \
 texlive-brandeis-problemset"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

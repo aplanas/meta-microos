@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(azure-synapse-spark) \
 python39-azure-synapse \
 python39-azure-synapse-spark \
 python3dist(azure-synapse-spark)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-core \

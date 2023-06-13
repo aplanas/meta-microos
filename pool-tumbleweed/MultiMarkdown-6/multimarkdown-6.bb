@@ -12,6 +12,7 @@ RPM_HASH = "e2a5e397b6605bcf1ea1af5a626f44826f1f507ffb08d6d736269d12066e30b6d102
 RPROVIDES:${PN} += "MultiMarkdown-6 \
 MultiMarkdown-6(aarch-64) \
 markdown"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

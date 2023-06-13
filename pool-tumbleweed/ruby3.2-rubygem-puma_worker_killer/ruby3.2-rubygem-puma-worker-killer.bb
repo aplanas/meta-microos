@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:puma_worker_killer) \
 rubygem(ruby:3.2.0:puma_worker_killer:0) \
 rubygem(ruby:3.2.0:puma_worker_killer:0.3) \
 rubygem(ruby:3.2.0:puma_worker_killer:0.3.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:get_process_mem:0) \
 rubygem(ruby:3.2.0:puma)"

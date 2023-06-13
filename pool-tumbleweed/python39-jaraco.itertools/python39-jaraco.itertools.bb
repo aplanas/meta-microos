@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jaraco.itertools) \
 python39-jaraco.itertools \
 python3dist(jaraco.itertools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-inflect \
 python39-more-itertools"

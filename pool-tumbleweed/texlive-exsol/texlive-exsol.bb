@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(exsol.sty) \
 texlive-exsol"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

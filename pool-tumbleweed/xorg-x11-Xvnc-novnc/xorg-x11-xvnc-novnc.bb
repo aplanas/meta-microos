@@ -9,6 +9,7 @@ RPM_HASH = "43270844a00114ea2b84972fc048498ecb275937f749792716193dd8fd782cbacb76
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-x11-Xvnc-novnc"
+
 RDEPENDS:${PN} += "/bin/sh \
 novnc \
 python3-websockify \

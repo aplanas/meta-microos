@@ -58,6 +58,7 @@ locale(xfce4-places-plugin:zh_TW) \
 xfce4-panel-plugin-places-lang \
 xfce4-places-plugin-lang \
 xfce4-places-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-places-plugin"
 
 inherit rpm

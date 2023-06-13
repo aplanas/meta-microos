@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(hardmarg.sty) \
 tex(screenplay.cls) \
 texlive-screenplay"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

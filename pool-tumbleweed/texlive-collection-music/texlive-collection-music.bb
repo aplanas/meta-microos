@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(music) \
 texlive-collection-music"
+
 RDEPENDS:${PN} += "texlive-abc \
 texlive-autosp \
 texlive-bagpipe \

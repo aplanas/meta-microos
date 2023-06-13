@@ -20,6 +20,7 @@ python39-Cython3 \
 python39-Cython3(aarch-64) \
 python39-cython \
 python3dist(cython)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

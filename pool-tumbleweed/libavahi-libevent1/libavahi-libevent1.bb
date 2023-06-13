@@ -11,6 +11,7 @@ RPM_HASH = "144bb55a4db4f0c706540ba7c18ee97e801b196a0f85b6c6e8bd56b348359da63f4f
 RPROVIDES:${PN} += "libavahi-libevent.so.1()(64bit) \
 libavahi-libevent1 \
 libavahi-libevent1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libavahi-common.so.3()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

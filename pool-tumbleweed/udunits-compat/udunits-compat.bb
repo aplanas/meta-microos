@@ -11,6 +11,7 @@ RPM_HASH = "4c4cbbe001aee0b52ee193699710f627511ea7154adee7ccda0e55fe864d6dc34cfd
 RPROVIDES:${PN} += "udunits \
 udunits-compat \
 udunits-compat(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 udunits2"
 

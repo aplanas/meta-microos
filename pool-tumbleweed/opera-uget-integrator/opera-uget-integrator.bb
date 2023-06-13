@@ -10,6 +10,7 @@ RPM_HASH = "e80a698f4f0e263c55de01e8fb10b9c437dfda50d28f9cee8b96f34aa1bb45ca59db
 RPROVIDES:${PN} += "config(opera-uget-integrator) \
 opera-uget-integrator \
 opera-uget-integrator(aarch-64)"
+
 RDEPENDS:${PN} += "uget-integrator"
 
 inherit rpm

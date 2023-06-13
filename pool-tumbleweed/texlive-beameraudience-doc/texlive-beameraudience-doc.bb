@@ -9,6 +9,7 @@ RPM_HASH = "4011c943c288d15ae030152aeed5974b39d2499cd1e57e633b1620ef27f5ac9302a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beameraudience-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

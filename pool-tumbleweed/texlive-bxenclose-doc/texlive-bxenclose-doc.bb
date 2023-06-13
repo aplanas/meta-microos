@@ -9,6 +9,7 @@ RPM_HASH = "b4fa066fea7a17de098222d17a2127752372f0d79f1fc313950d97ef16a66e024cdf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxenclose-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

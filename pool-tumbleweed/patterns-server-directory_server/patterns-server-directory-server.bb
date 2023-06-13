@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-openSUSE-directory_server \
 patterns-server-directory_server \
 patterns-server-directory_server(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

@@ -125,6 +125,7 @@ font(:lang=zu) \
 font(gfsbodoni) \
 font(gfsbodonirg) \
 texlive-gfsbodoni-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

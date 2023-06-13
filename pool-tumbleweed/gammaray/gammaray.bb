@@ -25,6 +25,7 @@ libgammaray_ui-qt5_15-aarch64.so.2.11.3()(64bit) \
 libgammaray_widget_export_actions.so()(64bit) \
 metainfo() \
 metainfo(com.kdab.GammaRay.metainfo.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

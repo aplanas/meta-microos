@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(calctab.sty) \
 texlive-calctab"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

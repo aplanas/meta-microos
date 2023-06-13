@@ -9,6 +9,7 @@ RPM_HASH = "4d45772021e293ffcbd06fc895379df7dc180602897543b214ada520a82f081694c1
 
 RPROVIDES:${PN} += "gcc-locale \
 gcc-locale(aarch-64)"
+
 RDEPENDS:${PN} += "gcc13-locale"
 
 inherit rpm

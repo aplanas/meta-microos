@@ -17,6 +17,7 @@ config(gnome-browser-connector) \
 gnome-browser-connector \
 gnome-browser-connector(aarch-64) \
 mimehandler(x-scheme-handler/gnome-extensions)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

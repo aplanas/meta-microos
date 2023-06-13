@@ -12,6 +12,7 @@ RPM_HASH = "617a7c3c48b116827a11635810c42288ca88ce5b5cd57d2f81eb05c9a3166ab9e106
 RPROVIDES:${PN} += "libopenvdb.so.9.0()(64bit) \
 libopenvdb9_0 \
 libopenvdb9_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

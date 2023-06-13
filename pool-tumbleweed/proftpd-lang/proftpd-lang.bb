@@ -17,6 +17,7 @@ locale(proftpd:zh_CN) \
 locale(proftpd:zh_TW) \
 proftpd-lang \
 proftpd-lang-all"
+
 RDEPENDS:${PN} += "proftpd"
 
 inherit rpm

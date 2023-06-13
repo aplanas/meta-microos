@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pst-geometrictools-doc:fr) \
 texlive-pst-geometrictools-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

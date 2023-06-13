@@ -10,6 +10,7 @@ RPM_HASH = "d2ce8ad90c03fc05e6a8fd9291edd1748263cd576e5788b4982f0b197a259e9a0678
 RPROVIDES:${PN} += "alsa-tools:/usr/bin/lo10k1 \
 ld10k1 \
 ld10k1(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

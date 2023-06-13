@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "criterion-lang \
 criterion-lang-all \
 locale(criterion:de) \
 locale(criterion:fr)"
+
 RDEPENDS:${PN} += "criterion"
 
 inherit rpm

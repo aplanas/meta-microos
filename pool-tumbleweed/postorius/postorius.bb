@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "postorius \
 python3.9dist(postorius) \
 python39-postorius \
 python3dist(postorius)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-django-debug-toolbar \

@@ -16,6 +16,7 @@ libresolutionSet.so()(64bit) \
 open-vm-tools-desktop \
 open-vm-tools-desktop(aarch-64) \
 open-vm-tools-gui"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

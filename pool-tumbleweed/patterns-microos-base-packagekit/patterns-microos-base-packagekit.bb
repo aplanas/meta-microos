@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-base-packagekit \
 patterns-microos-base-packagekit(aarch-64)"
+
 RDEPENDS:${PN} += "(libdnf-repo-config-zypp or rpm-repos-openSUSE) \
 PackageKit \
 PackageKit-branding-openSUSE \

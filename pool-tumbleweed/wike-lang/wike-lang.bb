@@ -36,6 +36,7 @@ locale(wike:tr) \
 locale(wike:zh) \
 wike-lang \
 wike-lang-all"
+
 RDEPENDS:${PN} += "wike"
 
 inherit rpm

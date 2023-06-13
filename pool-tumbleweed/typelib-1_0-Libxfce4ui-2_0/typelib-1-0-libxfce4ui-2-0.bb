@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "typelib(Libxfce4ui) \
 typelib-1_0-Libxfce4ui-2_0 \
 typelib-1_0-Libxfce4ui-2_0(aarch-64) \
 typelib-1_0-libxfce4ui-2_0"
+
 RDEPENDS:${PN} += "libxfce4ui-2.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

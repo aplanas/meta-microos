@@ -11,6 +11,7 @@ RPM_HASH = "bc4d6f2534b9439a04e5466c5b94461a8a113300f74d0a058ecea9c8a9675e61267a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tlmgr-intro-zh-cn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

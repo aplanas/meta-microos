@@ -12,6 +12,7 @@ RPM_HASH = "72481c418f7d1fb1c9040a6338c0d8987af108b9ff09badf9e4ed8832c7b02586453
 RPROVIDES:${PN} += "libfprint-tod-devel \
 libfprint-tod-devel(aarch-64) \
 pkgconfig(libfprint-2-tod-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfprint \
 libfprint-2-tod1 \

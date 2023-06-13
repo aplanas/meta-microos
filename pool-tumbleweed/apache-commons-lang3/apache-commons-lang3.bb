@@ -23,6 +23,7 @@ commons-lang3 \
 mvn(org.apache.commons:commons-lang3) \
 mvn(org.apache.commons:commons-lang3:pom:) \
 osgi(org.apache.commons.lang3)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

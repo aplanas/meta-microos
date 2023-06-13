@@ -296,6 +296,7 @@ tex(tikzlibraryturtle.code.tex) \
 tex(tikzlibraryviews.code.tex) \
 tex(xxcolor.sty) \
 texlive-pgf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

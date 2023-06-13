@@ -11,6 +11,7 @@ RPM_HASH = "f86a331032518836cf0731c660e83c37eba9109123f3040df93c1a5e17f484d941be
 RPROVIDES:${PN} += "libalkimia5-8 \
 libalkimia5-8(aarch-64) \
 libalkimia5.so.8()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

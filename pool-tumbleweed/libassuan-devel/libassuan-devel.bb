@@ -13,6 +13,7 @@ RPM_HASH = "335ff5e8253fc7a42e8ad43c5df15d2ee91ad36535155ea25aca794486170789121f
 RPROVIDES:${PN} += "libassuan-devel \
 libassuan-devel(aarch-64) \
 pkgconfig(libassuan)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libassuan0 \

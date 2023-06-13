@@ -12,6 +12,7 @@ RPM_HASH = "cfcfc6f45b94f021d2e485755feb7e9131456036f02a259328359a73d8133ff31609
 RPROVIDES:${PN} += "conntrack-tools:/usr/sbin/conntrackd \
 conntrackd \
 conntrackd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 conntrack-tools \
 fillup \

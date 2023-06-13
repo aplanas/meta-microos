@@ -14,6 +14,7 @@ RPM_HASH = "e46af3c4054414a4348c561d10e395939678ad05c1c8eb8b9a6b52b7deffb222a235
 RPROVIDES:${PN} += "opencc-devel \
 opencc-devel(aarch-64) \
 pkgconfig(opencc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 opencc"
 

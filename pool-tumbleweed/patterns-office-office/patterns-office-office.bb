@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-office-office \
 patterns-office-office(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -15,6 +15,7 @@ RPM_HASH = "6bf3eb63a2d6cd86666de035d504b11d51a41f3aa91c4620fe614a712bedd8e30a39
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "free-ttf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

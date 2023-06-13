@@ -28,6 +28,7 @@ tex(l8umath-penc.def) \
 tex(pdfx.sty) \
 tex(text89.def) \
 texlive-pdfx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPM_HASH = "b79c9588f5c25d63fff8a4a4ae87a6a74a511d6ee70be17701637a787b3fe9d82237
 RPROVIDES:${PN} += "cargo \
 cargo(aarch-64) \
 rust+cargo"
+
 RDEPENDS:${PN} += "cargo1.69 \
 rust"
 

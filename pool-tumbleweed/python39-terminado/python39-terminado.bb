@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(terminado) \
 python39-terminado \
 python3dist(terminado)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-ptyprocess \
 python39-tornado"

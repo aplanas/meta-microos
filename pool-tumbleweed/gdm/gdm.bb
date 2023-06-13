@@ -15,6 +15,7 @@ gdm2 \
 gnome-applets-gdm \
 group(gdm) \
 user(gdm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/dbus-run-session \
 dconf \

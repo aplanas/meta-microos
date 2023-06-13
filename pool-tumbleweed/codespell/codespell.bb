@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "codespell \
 python3.10dist(codespell) \
 python3dist(codespell)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python(abi) \
 python3-chardet \

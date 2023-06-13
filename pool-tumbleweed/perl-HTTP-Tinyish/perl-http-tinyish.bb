@@ -21,6 +21,7 @@ perl(HTTP::Tinyish::HTTPTiny) \
 perl(HTTP::Tinyish::LWP) \
 perl(HTTP::Tinyish::Wget) \
 perl-HTTP-Tinyish"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Which) \
 perl(HTTP::Tiny) \

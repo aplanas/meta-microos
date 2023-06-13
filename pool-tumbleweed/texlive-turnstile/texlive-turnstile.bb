@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(turnstile.sty) \
 texlive-turnstile"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

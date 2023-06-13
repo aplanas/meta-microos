@@ -10,6 +10,7 @@ RPM_HASH = "b296d710c24bbcca0b0b3fd3c4eb0dca813cce03bfe3debc203618c331ed2b32cd1c
 
 RPROVIDES:${PN} += "syslog-ng-geoip \
 syslog-ng-geoip(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

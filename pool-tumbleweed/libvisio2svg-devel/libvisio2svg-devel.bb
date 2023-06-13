@@ -11,6 +11,7 @@ RPM_HASH = "6f6318cb9becf0e234094305563b3e26c37a888065f228f4c15357d5819e478ae9a1
 
 RPROVIDES:${PN} += "libvisio2svg-devel \
 libvisio2svg-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libvisio2svg0"
 
 inherit rpm

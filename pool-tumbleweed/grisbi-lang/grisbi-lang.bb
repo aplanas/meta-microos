@@ -30,6 +30,7 @@ locale(grisbi:ro) \
 locale(grisbi:ru) \
 locale(grisbi:sv) \
 locale(grisbi:zh_CN)"
+
 RDEPENDS:${PN} += "grisbi"
 
 inherit rpm

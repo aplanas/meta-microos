@@ -72,6 +72,7 @@ locale(libgdata:vi) \
 locale(libgdata:zh_CN) \
 locale(libgdata:zh_HK) \
 locale(libgdata:zh_TW)"
+
 RDEPENDS:${PN} += "libgdata"
 
 inherit rpm

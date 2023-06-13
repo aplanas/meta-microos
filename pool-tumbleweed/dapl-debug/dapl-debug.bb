@@ -19,6 +19,7 @@ libdaploscm.so.2()(64bit) \
 libdaploscm.so.2(DAPL_SCM_2.0)(64bit) \
 libdaploucm.so.2()(64bit) \
 libdaploucm.so.2(DAPL_OCM_2.0)(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 coreutils \

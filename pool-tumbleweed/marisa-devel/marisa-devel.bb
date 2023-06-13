@@ -11,6 +11,7 @@ RPM_HASH = "66de067393361ba7cf8a116f542228f9cdba9057aa660ecc1c7b94261f4109bbe489
 RPROVIDES:${PN} += "marisa-devel \
 marisa-devel(aarch-64) \
 pkgconfig(marisa)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 marisa \
 perl-marisa \

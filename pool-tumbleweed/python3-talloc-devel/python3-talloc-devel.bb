@@ -10,6 +10,7 @@ RPM_HASH = "549f3fdded95060a3a03bdd45c2f69620da62da495683172138edbf9a83daed74888
 RPROVIDES:${PN} += "pkgconfig(pytalloc-util.cpython-310-aarch64-linux-gnu) \
 python3-talloc-devel \
 python3-talloc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkg-config \
 python3-talloc"

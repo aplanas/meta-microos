@@ -9,6 +9,7 @@ RPM_HASH = "86dff459a3da39f03f937db6ef54eaa4c04bfe1dd4f0bacaa5423ede2b8c7c54ac42
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubectx"
+
 RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

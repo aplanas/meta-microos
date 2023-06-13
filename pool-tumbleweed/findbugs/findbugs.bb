@@ -23,6 +23,7 @@ mvn(net.sourceforge.findbugs:findbugs) \
 mvn(net.sourceforge.findbugs:findbugs:pom:) \
 osgi(edu.umd.cs.findbugs.plugins.noUpdateChecks) \
 osgi(findbugsAnnotations)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 apache-commons-lang \

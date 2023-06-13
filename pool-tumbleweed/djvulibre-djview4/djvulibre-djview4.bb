@@ -17,6 +17,7 @@ mimehandler(image/vnd.djvu+multipage) \
 mimehandler(image/vnd.djvu+singlepage) \
 mimehandler(image/x-djvu) \
 mimehandler(image/x.djvu)"
+
 RDEPENDS:${PN} += "djvulibre \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

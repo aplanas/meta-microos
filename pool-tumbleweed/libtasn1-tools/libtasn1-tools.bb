@@ -10,6 +10,7 @@ RPM_HASH = "cd89c8cce73d55c7906f2c3a24ce848df40c3b4173a2296785a2f47c9d74844990e1
 RPROVIDES:${PN} += "libtasn1 \
 libtasn1-tools \
 libtasn1-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

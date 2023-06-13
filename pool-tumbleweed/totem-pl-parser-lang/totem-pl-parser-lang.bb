@@ -95,6 +95,7 @@ locale(totem-pl-parser:zh_HK) \
 locale(totem-pl-parser:zh_TW) \
 totem-pl-parser-lang \
 totem-pl-parser-lang-all"
+
 RDEPENDS:${PN} += "totem-pl-parser"
 
 inherit rpm

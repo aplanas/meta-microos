@@ -19,6 +19,7 @@ libspeechd-devel(aarch-64) \
 pkgconfig(speech-dispatcher) \
 speech-dispatcher-devel \
 speechd-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspeechd2 \
 pkgconfig(glib-2.0)"

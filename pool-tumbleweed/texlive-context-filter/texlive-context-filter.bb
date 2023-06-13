@@ -15,6 +15,7 @@ RPM_HASH = "ab0ba6a27a828630d1f000558ab2376f608f0d2b600dd98d512232c7a6da276e51bb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-filter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

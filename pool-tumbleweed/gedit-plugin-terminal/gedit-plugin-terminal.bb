@@ -12,6 +12,7 @@ gedit-plugin-terminal(aarch-64) \
 gedit-plugins:/usr/lib64/gedit/plugins/terminal.plugin \
 metainfo() \
 metainfo(gedit-terminal.metainfo.xml)"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 typelib(GLib) \
 typelib(GObject) \

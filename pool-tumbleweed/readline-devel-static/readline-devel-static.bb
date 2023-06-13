@@ -9,6 +9,7 @@ RPM_HASH = "ed4dd204213bc08e638d889fe2472f42773575cc39d8977e31b90bf8cdbf4a28b5b0
 
 RPROVIDES:${PN} += "readline-devel-static \
 readline-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "ncurses-devel \
 readline-devel"
 

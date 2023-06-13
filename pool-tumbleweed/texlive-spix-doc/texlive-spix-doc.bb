@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(spix.1) \
 texlive-spix-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(time-travel) \
 python311-time-travel \
 python3dist(time-travel)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

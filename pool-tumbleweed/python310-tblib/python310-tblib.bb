@@ -28,6 +28,7 @@ RPROVIDES:${PN} += "python3-tblib \
 python3.10dist(tblib) \
 python310-tblib \
 python3dist(tblib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

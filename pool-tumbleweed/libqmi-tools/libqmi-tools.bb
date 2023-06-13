@@ -12,6 +12,7 @@ RPM_HASH = "da742e59b38a5fc9a8c0576c71c147fd52ee5c0c7dc11b202494a6f2e104bcdb4be8
 
 RPROVIDES:${PN} += "libqmi-tools \
 libqmi-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

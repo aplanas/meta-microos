@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3.9dist(urllib3) \
 python39-urllib3 \
 python39-urllib3_1 \
 python3dist(urllib3)"
+
 RDEPENDS:${PN} += "ca-certificates-mozilla \
 python(abi) \
 python39-certifi \

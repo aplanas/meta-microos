@@ -14,6 +14,7 @@ RPM_HASH = "4e6c4f92d2438662258f9621ead83b4ff34fa812ff5483d552a5740ae869e97acc47
 RPROVIDES:${PN} += "mate-menus-devel \
 mate-menus-devel(aarch-64) \
 pkgconfig(libmate-menu)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmate-menu2 \
 pkgconfig(gio-unix-2.0) \

@@ -14,6 +14,7 @@ RPM_HASH = "a46fd87543160b39acf3e5822d3efeffaf3322c28e7d0f63df04dbc84cffccaccf5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jameica"
+
 RDEPENDS:${PN} += "/bin/sh \
 java \
 nanoxml \

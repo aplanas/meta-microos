@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "glusterfs-devel \
 glusterfs-devel(aarch-64) \
 pkgconfig(glusterfs-api) \
 pkgconfig(libgfchangelog)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glusterfs \
 libacl-devel \

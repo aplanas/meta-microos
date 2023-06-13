@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(sanlock) \
 python2-sanlock \
 sanlock \
 sanlock(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

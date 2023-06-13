@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ffmpeg-6-libswresample-devel \
 ffmpeg-6-libswresample-devel(aarch-64) \
 libswresample-devel \
 pkgconfig(libswresample)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ffmpeg-6-libavutil-devel \
 libswresample4 \

@@ -10,6 +10,7 @@ RPM_HASH = "c62751f547c949f7535635f6a3737cd449fd78357c28d1b90a2cafd73885ce27b8a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-bim"
+
 RDEPENDS:${PN} += "/bin/sh \
 octave-cli \
 octave-forge-fpl \

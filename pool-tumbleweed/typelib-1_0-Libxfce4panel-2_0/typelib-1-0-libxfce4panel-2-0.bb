@@ -10,6 +10,7 @@ RPM_HASH = "77596c94614eb919da8cf1c764f77e63abc77798cff40b2d5026cc6a8031ecaeb3f9
 RPROVIDES:${PN} += "typelib(Libxfce4panel) \
 typelib-1_0-Libxfce4panel-2_0 \
 typelib-1_0-Libxfce4panel-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libxfce4panel-2.0.so.4()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

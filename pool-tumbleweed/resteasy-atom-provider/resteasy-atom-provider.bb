@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.jboss.resteasy:resteasy-atom-provider) \
 mvn(org.jboss.resteasy:resteasy-atom-provider:pom:) \
 resteasy-atom-provider"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.jboss.logging:jboss-logging-annotations) \

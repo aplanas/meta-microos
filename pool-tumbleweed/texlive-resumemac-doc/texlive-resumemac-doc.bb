@@ -9,6 +9,7 @@ RPM_HASH = "aa29d4fecd84ff8e1fd9b544b584562b1f4bf6885b91ff0cbaefd5b1475ad71f98b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-resumemac-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

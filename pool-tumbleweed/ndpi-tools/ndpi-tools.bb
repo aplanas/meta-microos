@@ -13,6 +13,7 @@ RPM_HASH = "4acd75aa0dac64881e74ed95f2241b9c276aee6cd136d1d1dfa8cd2fef46ee6a7e29
 
 RPROVIDES:${PN} += "ndpi-tools \
 ndpi-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

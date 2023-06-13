@@ -17,6 +17,7 @@ RPM_HASH = "7a6d40c1d651e2dc6fba6a440ae70fcf697ccb69e703524194c0a24869abf0debb9e
 RPROVIDES:${PN} += "liboping-devel \
 liboping-devel(aarch-64) \
 pkgconfig(liboping)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liboping"
 

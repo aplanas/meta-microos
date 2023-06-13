@@ -15,6 +15,7 @@ RPM_HASH = "51b24483e3723911df297625127b330a1c2848ac693be8693ac03aa200b27448fc07
 RPROVIDES:${PN} += "apache2-mod_evasive \
 apache2-mod_evasive(aarch-64) \
 config(apache2-mod_evasive)"
+
 RDEPENDS:${PN} += "apache2 \
 apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \

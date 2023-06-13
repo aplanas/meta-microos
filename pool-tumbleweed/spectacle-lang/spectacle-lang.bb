@@ -57,6 +57,7 @@ locale(spectacle:zh_CN) \
 locale(spectacle:zh_TW) \
 spectacle-lang \
 spectacle-lang-all"
+
 RDEPENDS:${PN} += "spectacle"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "69c1ddb8038bbeaaedcd5b1b8a00f176bef73e2b678dc82ea312772046b75a07ced8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-osprofiler-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

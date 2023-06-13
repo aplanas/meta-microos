@@ -11,6 +11,7 @@ RPM_HASH = "45a724d23e08d7c0d28737dfa9d033d081a56f16e95e80a4b431d04cc59194c664cd
 RPROVIDES:${PN} += "libdw-devel \
 libdw-devel(aarch-64) \
 pkgconfig(libdw)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libdw1 \

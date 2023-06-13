@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(unitn-bimrep.cls) \
 texlive-unitn-bimrep"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

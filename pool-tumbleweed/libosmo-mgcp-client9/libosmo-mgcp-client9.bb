@@ -10,6 +10,7 @@ RPM_HASH = "869623a0916c713138f2262c58b21013df7be28744283767e82b58736aa224a35263
 RPROVIDES:${PN} += "libosmo-mgcp-client.so.9()(64bit) \
 libosmo-mgcp-client9 \
 libosmo-mgcp-client9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

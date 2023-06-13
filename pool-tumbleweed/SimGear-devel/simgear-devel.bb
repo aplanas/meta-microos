@@ -11,6 +11,7 @@ RPM_HASH = "fd5d5b86f2163a7aeba5835ca14a5bb4b15d2ed9f2d5d80f4d942188f7855352618b
 RPROVIDES:${PN} += "SimGear-devel \
 SimGear-devel(aarch-64) \
 cmake(SimGear)"
+
 RDEPENDS:${PN} += "libOpenSceneGraph-devel \
 libSimGearCore-2020_3_18 \
 pkgconfig(liblzma) \

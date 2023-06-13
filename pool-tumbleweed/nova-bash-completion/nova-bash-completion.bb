@@ -9,6 +9,7 @@ RPM_HASH = "b0d72d15b6193f77e298477528b8f305c16bf7bda446c605dd2305cafe890381426f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nova-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 nova"
 

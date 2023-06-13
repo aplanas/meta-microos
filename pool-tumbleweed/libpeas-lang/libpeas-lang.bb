@@ -78,6 +78,7 @@ locale(libpeas:vi) \
 locale(libpeas:zh_CN) \
 locale(libpeas:zh_HK) \
 locale(libpeas:zh_TW)"
+
 RDEPENDS:${PN} += "libpeas"
 
 inherit rpm

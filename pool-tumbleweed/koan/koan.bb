@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "koan \
 python3.10dist(koan) \
 python3dist(koan)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-distro \

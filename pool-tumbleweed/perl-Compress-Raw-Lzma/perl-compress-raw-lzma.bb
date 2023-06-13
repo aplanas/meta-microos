@@ -23,6 +23,7 @@ RPM_HASH = "2c5df772d908395ef39ea53e09fc3cc8bc12218029a14e7afb51a440bd205367b26d
 RPROVIDES:${PN} += "perl(Compress::Raw::Lzma) \
 perl-Compress-Raw-Lzma \
 perl-Compress-Raw-Lzma(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

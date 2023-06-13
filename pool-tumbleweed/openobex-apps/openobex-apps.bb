@@ -9,6 +9,7 @@ RPM_HASH = "0fd7deca8a848b3109c8c5e3d354f4ca687493464075cbc402235f7ac70a69402ad8
 
 RPROVIDES:${PN} += "openobex-apps \
 openobex-apps(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

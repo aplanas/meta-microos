@@ -15,6 +15,7 @@ RPM_HASH = "0dcf69e7535eb6cf5978128f4a16955c74b97ab0a16125bd63a4ea2a47ae15843cac
 
 RPROVIDES:${PN} += "low-memory-monitor \
 low-memory-monitor(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

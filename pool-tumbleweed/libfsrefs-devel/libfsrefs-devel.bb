@@ -13,6 +13,7 @@ RPM_HASH = "ecc29326bf665d0462a2271a1046d801308f90112940a80524e3abbb6dd6d69c16f6
 RPROVIDES:${PN} += "libfsrefs-devel \
 libfsrefs-devel(aarch-64) \
 pkgconfig(libfsrefs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libfsrefs1"

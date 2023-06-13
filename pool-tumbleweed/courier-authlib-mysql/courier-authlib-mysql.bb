@@ -12,6 +12,7 @@ RPM_HASH = "32fd3cbec9081c4b2bd2103a1011b4766ff0ca32e53a71a9aef1355b6ecd90ac9f7d
 RPROVIDES:${PN} += "courier-authlib-mysql \
 courier-authlib-mysql(aarch-64) \
 libauthmysql.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

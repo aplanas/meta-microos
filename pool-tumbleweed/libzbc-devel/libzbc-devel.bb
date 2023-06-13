@@ -13,6 +13,7 @@ RPM_HASH = "ce391da59035e5e27ba03c55b6d48a15f523051ec51c9993958409794dbcfba6edfe
 RPROVIDES:${PN} += "libzbc-devel \
 libzbc-devel(aarch-64) \
 pkgconfig(libzbc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libzbc5"
 

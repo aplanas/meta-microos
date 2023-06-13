@@ -11,6 +11,7 @@ RPM_HASH = "22a57a26075e0d658bbc352c31de9525d489ed8b8f91f0c81c53fa78c170afaece1a
 RPROVIDES:${PN} += "libcpuid.so.16()(64bit) \
 libcpuid16 \
 libcpuid16(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

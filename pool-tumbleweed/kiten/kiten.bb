@@ -17,6 +17,7 @@ kiten5 \
 libkiten.so.5()(64bit) \
 metainfo() \
 metainfo(org.kde.kiten.appdata.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 edict-eucjp \
 fonts-KanjiStrokeOrders \

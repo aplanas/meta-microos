@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "bea-stax \
 mvn(stax:stax) \
 mvn(stax:stax:pom:)"
+
 RDEPENDS:${PN} += "bea-stax-api \
 java-headless \
 javapackages-filesystem \

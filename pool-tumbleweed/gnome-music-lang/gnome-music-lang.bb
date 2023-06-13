@@ -72,6 +72,7 @@ locale(gnome-music:vi) \
 locale(gnome-music:zh_CN) \
 locale(gnome-music:zh_HK) \
 locale(gnome-music:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-music"
 
 inherit rpm

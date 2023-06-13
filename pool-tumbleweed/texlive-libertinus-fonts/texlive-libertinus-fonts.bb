@@ -16,6 +16,7 @@ RPM_HASH = "afada2d93f4ccc2964afdae0d748a51d6f1d2943bc32dae04cf48f03537106f9cad8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-libertinus-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

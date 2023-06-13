@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:si_LK) \
 myspell-dictionary \
 myspell-si_LK \
 myspell-sinhala"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

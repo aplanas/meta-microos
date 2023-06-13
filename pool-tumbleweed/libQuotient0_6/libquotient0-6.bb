@@ -11,6 +11,7 @@ RPM_HASH = "ffdd9ed1810455a817531f531e971a8a0bf4100f3972c3eac0a728c078dcb6a030e8
 RPROVIDES:${PN} += "libQuotient.so.0.6()(64bit) \
 libQuotient0_6 \
 libQuotient0_6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

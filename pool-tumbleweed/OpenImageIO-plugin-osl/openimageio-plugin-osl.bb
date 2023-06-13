@@ -14,6 +14,7 @@ RPM_HASH = "c3179a57c8274c39bc05add209dab3f103ad8a52993f2151d15645562a1facbb5af4
 RPROVIDES:${PN} += "OpenImageIO-plugin-osl \
 OpenImageIO-plugin-osl(aarch-64) \
 osl.imageio"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOpenImageIO.so.2.4()(64bit) \

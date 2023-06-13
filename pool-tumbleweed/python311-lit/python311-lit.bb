@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "lit \
 python3.11dist(lit) \
 python311-lit \
 python3dist(lit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

@@ -11,6 +11,7 @@ RPM_HASH = "fc2da715522f5c7827bedb9fc3ab1b9cb9ac8d071992a0ba8379eb9d7695181059c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-blockdraw_mp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

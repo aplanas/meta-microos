@@ -9,6 +9,7 @@ RPM_HASH = "e09f6eef02b99601a3b09c1c9f3f80682bc433aef8a4c099178b2f4b6ed95cab8d83
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-enumitem-zref-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

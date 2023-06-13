@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(zref-check.sty) \
 texlive-zref-check"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

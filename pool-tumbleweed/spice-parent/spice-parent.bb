@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(org.sonatype.spice:spice-parent:pom:) \
 spice-parent"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.sonatype.forge:forge-parent:pom:)"

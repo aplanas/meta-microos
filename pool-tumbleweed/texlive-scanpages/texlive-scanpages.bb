@@ -15,6 +15,7 @@ tex(scanpages.sty) \
 tex(scanwipe.tfm) \
 tex(uscanwipe.fd) \
 texlive-scanpages"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

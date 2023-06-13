@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "application() \
 application(droidcam.desktop) \
 droidcam \
 droidcam(aarch-64)"
+
 RDEPENDS:${PN} += "hicolor-icon-theme \
 kmod(v4l2loopback.ko) \
 ld-linux-aarch64.so.1()(64bit) \

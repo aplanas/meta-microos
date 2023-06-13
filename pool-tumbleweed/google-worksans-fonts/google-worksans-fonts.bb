@@ -15,6 +15,7 @@ RPM_HASH = "b395f7dd8826d1f3b5bae1ad0df998a68d71f0078bff59b40bb239b38408aa8fda07
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-worksans-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

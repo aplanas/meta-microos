@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "butane \
 butane(aarch-64) \
 ignition-config-transpiler \
 ignition-config-transpiler(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "AMQP-server \
 config(rabbitmq-server) \
 rabbitmq-server \
 rabbitmq-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/mkdir \

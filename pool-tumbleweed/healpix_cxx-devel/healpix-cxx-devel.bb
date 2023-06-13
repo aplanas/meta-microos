@@ -16,6 +16,7 @@ RPM_HASH = "659805b9a95155557b1132fde8558825aa600c933d9f721072b7991f67b400c61c0f
 RPROVIDES:${PN} += "healpix_cxx-devel \
 healpix_cxx-devel(aarch-64) \
 pkgconfig(healpix_cxx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhealpix_cxx3 \
 pkgconfig(cfitsio) \

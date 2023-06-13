@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xtuformat.sty) \
 texlive-xtuthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

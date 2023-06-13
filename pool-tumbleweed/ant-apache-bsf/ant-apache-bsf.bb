@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ant-apache-bsf \
 config(ant-apache-bsf) \
 mvn(org.apache.ant:ant-apache-bsf) \
 mvn(org.apache.ant:ant-apache-bsf:pom:)"
+
 RDEPENDS:${PN} += "ant \
 bsf \
 java-headless \

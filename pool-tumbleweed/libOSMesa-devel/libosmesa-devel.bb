@@ -12,6 +12,7 @@ RPM_HASH = "1e3e8b64baa19ebad2c5e459fc34f9720f51197aa4efe6220574debd11cd254a5970
 RPROVIDES:${PN} += "libOSMesa-devel \
 libOSMesa-devel(aarch-64) \
 pkgconfig(osmesa)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOSMesa8"
 

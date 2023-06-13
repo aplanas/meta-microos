@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "apache-commons-imaging \
 mvn(org.apache.commons:commons-imaging) \
 mvn(org.apache.commons:commons-imaging:pom:) \
 osgi(org.apache.commons.commons-imaging)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

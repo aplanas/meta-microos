@@ -29,6 +29,7 @@ perl(App::Ack::Filter::IsPathGroup) \
 perl(App::Ack::Filter::Match) \
 perl(App::Ack::Filter::MatchGroup) \
 perl-App-Ack"
+
 RDEPENDS:${PN} += "perl(File::Next) \
 perl-base"
 

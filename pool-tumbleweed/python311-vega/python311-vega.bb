@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(vega) \
 python311-jupyter_vega \
 python311-vega \
 python3dist(vega)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-ipytablewidgets \
 python311-jupyter \

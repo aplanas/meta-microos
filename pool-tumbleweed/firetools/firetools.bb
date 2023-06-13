@@ -12,6 +12,7 @@ application(firejail-ui.desktop) \
 application(firetools.desktop) \
 firetools \
 firetools(aarch-64)"
+
 RDEPENDS:${PN} += "firejail \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

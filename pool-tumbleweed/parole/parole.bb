@@ -144,6 +144,7 @@ mimehandler(x-scheme-handler/rtsp) \
 mimehandler(x-scheme-handler/uvox) \
 parole \
 parole(aarch-64)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-base \
 gstreamer-plugins-good \
 ld-linux-aarch64.so.1()(64bit) \

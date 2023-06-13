@@ -27,6 +27,7 @@ scsi:/usr/bin/smp_rep_route_info \
 scsi:/usr/bin/smp_write_gpio \
 smp_utils \
 smp_utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

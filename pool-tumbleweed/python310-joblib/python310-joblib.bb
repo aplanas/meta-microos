@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-joblib \
 python3.10dist(joblib) \
 python310-joblib \
 python3dist(joblib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

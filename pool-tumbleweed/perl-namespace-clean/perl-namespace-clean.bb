@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(namespace::clean) \
 perl-namespace-clean"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(B::Hooks::EndOfScope) \
 perl(Package::Stash)"

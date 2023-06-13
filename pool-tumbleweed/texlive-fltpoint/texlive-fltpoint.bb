@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(deccomma.sty) \
 tex(fltpoint.sty) \
 tex(fltpoint.tex) \
 texlive-fltpoint"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

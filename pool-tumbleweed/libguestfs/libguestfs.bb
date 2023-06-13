@@ -16,6 +16,7 @@ RPM_HASH = "dfa2b6b21efe8841c4191ce9dc1e0687c9787bff6326d7f925eebf8ff983a98bfaf0
 RPROVIDES:${PN} += "config(libguestfs) \
 libguestfs \
 libguestfs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

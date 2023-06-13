@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(tuned-gui.desktop) \
 tuned-gtk"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 powertop \
 python(abi) \

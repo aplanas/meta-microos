@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ufoprocessor) \
 python39-ufoProcessor \
 python3dist(ufoprocessor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-FontTools \
 python39-defcon \

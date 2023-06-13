@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(prepmx.1) \
 texlive-m-tx-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/luatex \
 /usr/bin/texlua"

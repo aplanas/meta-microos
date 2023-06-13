@@ -9,6 +9,7 @@ RPM_HASH = "7a84c3cd107d0ee6c16dcd0e5352c23df58af33348e8b1028dc2739a47c7d4c47c30
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pstool-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

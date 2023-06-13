@@ -10,6 +10,7 @@ RPM_HASH = "45ef001b9b88812dc9a81c2aaaee659f474c7dd81e673b1895949ec613288fa76a28
 
 RPROVIDES:${PN} += "polkit-gnome \
 polkit-gnome(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

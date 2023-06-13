@@ -12,6 +12,7 @@ RPM_HASH = "fb8abf556d81eedd8105ce0beba0797af6cdfde6de66bfc1bb48e8e6af867cb4dd74
 
 RPROVIDES:${PN} += "dfu-util \
 dfu-util(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

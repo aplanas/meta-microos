@@ -29,6 +29,7 @@ metainfo() \
 metainfo(org.kde.konversation.appdata.xml) \
 mimehandler(x-scheme-handler/irc) \
 mimehandler(x-scheme-handler/ircs)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

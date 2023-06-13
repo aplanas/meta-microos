@@ -9,6 +9,7 @@ RPM_HASH = "55d5eb9bb941b501449e9f7ba56ce7a71a47a896addc95045d29da890b6c389dfcdf
 
 RPROVIDES:${PN} += "texlive-xpdfopen-bin \
 texlive-xpdfopen-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

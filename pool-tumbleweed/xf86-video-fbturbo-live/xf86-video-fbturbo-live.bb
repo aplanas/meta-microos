@@ -19,6 +19,7 @@ RPM_HASH = "39a41e1a9e19adf000ed5711d24779a5a695213c1a295add7171d2f55fa8a91d3613
 
 RPROVIDES:${PN} += "xf86-video-fbturbo-live \
 xf86-video-fbturbo-live(aarch-64)"
+
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

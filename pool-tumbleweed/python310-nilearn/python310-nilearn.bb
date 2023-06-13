@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-nilearn \
 python3.10dist(nilearn) \
 python310-nilearn \
 python3dist(nilearn)"
+
 RDEPENDS:${PN} += "/bin/bash \
 python(abi) \
 python310-joblib \

@@ -9,6 +9,7 @@ RPM_HASH = "e5ee7da18b57125691dc87fe6f184ad6520ec5dd29d05761183577c28d8f131f613c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ebproof-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "6e2a457c40a761bc875a16d521ebc106231b3c91b81f563905809aef127943229248
 RPROVIDES:${PN} += "libwxsvg.so.3()(64bit) \
 libwxsvg3 \
 libwxsvg3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "e0db311a55ad4c07dcb56825266da27b65442ae472ed2da4431a4cd5afc123796a38
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metaobj"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

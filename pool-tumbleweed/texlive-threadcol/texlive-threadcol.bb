@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(threadcol.sty) \
 texlive-threadcol"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

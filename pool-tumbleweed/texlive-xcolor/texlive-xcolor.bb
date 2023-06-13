@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "tex(svgnam.def) \
 tex(x11nam.def) \
 tex(xcolor.sty) \
 texlive-xcolor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

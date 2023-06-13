@@ -11,6 +11,7 @@ RPM_HASH = "c0a550215c99983e744068e2ab83a67dbc6d54caa47e215db9f0362cc7f0e3ac0bce
 RPROVIDES:${PN} += "ocaml-stdlib-shims-devel \
 ocaml-stdlib-shims-devel(aarch-64) \
 ocamlfind(stdlib-shims)"
+
 RDEPENDS:${PN} += "ocaml-stdlib-shims"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "5ce6ccd254c001f266b91ae7c17837a7aad7ea2f4f499e0430a6aa7247b97016ba2d
 
 RPROVIDES:${PN} += "collectd-plugin-write_syslog \
 collectd-plugin-write_syslog(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -186,6 +186,7 @@ def update_pool(pool, packages):
                 f.write(f'REPO_ARCH = "{arch}"\n')
             f.write("\n")
             f.write(f'RPROVIDES:${{PN}} += "{normalize_pkgs(package.rprovides)}"\n')
+            f.write("\n")
             f.write(f'RDEPENDS:${{PN}} += "{normalize_pkgs(package.rdepends)}"\n')
             f.write("\n")
             f.write("inherit rpm\n")

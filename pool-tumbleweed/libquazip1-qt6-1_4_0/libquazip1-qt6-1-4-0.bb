@@ -11,6 +11,7 @@ RPM_HASH = "d35b06b8027cce638fcf1ce33068f927d74fafd44867f9fa013967427d04c77be07d
 RPROVIDES:${PN} += "libquazip1-qt6-1_4_0 \
 libquazip1-qt6-1_4_0(aarch-64) \
 libquazip1-qt6.so.1.4.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(File::DesktopEntry) \
 perl-File-DesktopEntry"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::BaseDir) \
 perl(URI::Escape)"

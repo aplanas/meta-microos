@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(chartify) \
 python311-chartify \
 python3dist(chartify)"
+
 RDEPENDS:${PN} += "(python3.11dist(bokeh) < 2.5 with python3.11dist(bokeh) >= 2) \
 (python3.11dist(pandas) < 2 with python3.11dist(pandas) >= 1) \
 (python3.11dist(scipy) < 2 with python3.11dist(scipy) >= 1) \

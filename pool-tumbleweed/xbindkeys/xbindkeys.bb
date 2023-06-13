@@ -16,6 +16,7 @@ RPM_HASH = "081ff048fb39f4646b49c85bce23a822d0906409e41bdd20d6e3c1a63cee36461162
 
 RPROVIDES:${PN} += "xbindkeys \
 xbindkeys(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

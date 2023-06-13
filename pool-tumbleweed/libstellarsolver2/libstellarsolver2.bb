@@ -11,6 +11,7 @@ RPM_HASH = "1cc1999a841a1c26c8551b2ebaa3f92174d9053f9d8c2ad53142d88992163e171ddd
 RPROVIDES:${PN} += "libstellarsolver.so.2()(64bit) \
 libstellarsolver2 \
 libstellarsolver2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

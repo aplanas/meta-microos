@@ -13,6 +13,7 @@ RPM_HASH = "a21cfc157ae22b79ab5dc6d9f10a50b91bea9c24a7011ac5bf1facc076ff20afd798
 RPROVIDES:${PN} += "libcrack.so.2()(64bit) \
 libcrack2 \
 libcrack2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 cracklib \
 ld-linux-aarch64.so.1()(64bit) \

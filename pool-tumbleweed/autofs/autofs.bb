@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "autofs \
 autofs(aarch-64) \
 config(autofs) \
 libautofs.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

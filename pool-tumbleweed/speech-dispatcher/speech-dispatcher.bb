@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "config(speech-dispatcher) \
 speech-dispatcher \
 speech-dispatcher(aarch-64) \
 speechd"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

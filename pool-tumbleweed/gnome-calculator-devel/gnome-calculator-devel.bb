@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "gnome-calculator-devel \
 gnome-calculator-devel(aarch-64) \
 pkgconfig(gcalc-2) \
 pkgconfig(gci-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnome-calculator \
 libgcalc-2-1_0_1 \

@@ -31,6 +31,7 @@ tex(p2e-xetex.def) \
 tex(pict2e.cfg) \
 tex(pict2e.sty) \
 texlive-pict2e"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

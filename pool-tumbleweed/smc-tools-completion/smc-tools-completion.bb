@@ -10,6 +10,7 @@ RPM_HASH = "59fa8de91d2a18ed64982ead90dd77485717c81f0cdb7ecb2f6efbe872ec9017ba5b
 
 RPROVIDES:${PN} += "smc-tools-completion \
 smc-tools-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash-completion \
 smc-tools"
 

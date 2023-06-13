@@ -26,6 +26,7 @@ tex(t1vlmvtt.fd) \
 tex(ts1vlmr.fd) \
 tex(variablelm.sty) \
 texlive-variablelm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

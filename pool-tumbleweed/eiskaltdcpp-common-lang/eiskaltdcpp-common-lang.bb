@@ -32,6 +32,7 @@ locale(eiskaltdcpp-common:tr) \
 locale(eiskaltdcpp-common:uk) \
 locale(eiskaltdcpp-common:vi) \
 locale(eiskaltdcpp-common:zh_CN)"
+
 RDEPENDS:${PN} += "eiskaltdcpp-common"
 
 inherit rpm

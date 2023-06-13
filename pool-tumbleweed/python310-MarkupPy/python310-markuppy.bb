@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-MarkupPy \
 python3.10dist(markuppy) \
 python310-MarkupPy \
 python3dist(markuppy)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

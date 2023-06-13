@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(wordlike.sty) \
 texlive-wordlike"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

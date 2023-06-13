@@ -9,6 +9,7 @@ RPM_HASH = "dd1fe31237b7f0d5526aced4ef4de312beab9c4e878c2be17b5b32c7d37bc86a0525
 
 RPROVIDES:${PN} += "lunar-date \
 lunar-date(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

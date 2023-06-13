@@ -9,6 +9,7 @@ RPM_HASH = "943ca9e1d414804514c46431fc6470bff58e38158791683f4cf982b1c69ea3c4fa2d
 
 RPROVIDES:${PN} += "kanidm-docs \
 kanidm-docs(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

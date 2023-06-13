@@ -32,6 +32,7 @@ libQt53DCore.so.5(Qt_5.9)(64bit) \
 libQt53DCore5 \
 libQt53DCore5(aarch-64) \
 libQt53dCollision5"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

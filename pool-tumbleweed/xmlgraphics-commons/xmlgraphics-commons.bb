@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "mvn(org.apache.xmlgraphics:xmlgraphics-commons) \
 mvn(org.apache.xmlgraphics:xmlgraphics-commons:pom:) \
 osgi(org.apache.xmlgraphics) \
 xmlgraphics-commons"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

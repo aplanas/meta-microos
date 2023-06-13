@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-azure-agrifood-nspkg \
 python3.10dist(azure-agrifood-nspkg) \
 python310-azure-agrifood-nspkg \
 python3dist(azure-agrifood-nspkg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-nspkg"
 

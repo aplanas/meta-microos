@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arcanist \
 php7-libphutil"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/php8 \

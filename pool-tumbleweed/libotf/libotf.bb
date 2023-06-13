@@ -10,6 +10,7 @@ RPM_HASH = "1f6dfb1fee64b85fe4431d6c421656c88c46c6244dcdc9fec76f55e19d224686805e
 
 RPROVIDES:${PN} += "libotf \
 libotf(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

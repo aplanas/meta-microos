@@ -80,6 +80,7 @@ locale(anjuta:vi) \
 locale(anjuta:zh_CN) \
 locale(anjuta:zh_HK) \
 locale(anjuta:zh_TW)"
+
 RDEPENDS:${PN} += "anjuta"
 
 inherit rpm

@@ -18,6 +18,7 @@ RPM_HASH = "53c34d9f0a1a2a802e23c6b4b1a15e2a24c4a9a7c2348e6574ccf5a536f6464d1ad2
 
 RPROVIDES:${PN} += "ipmiutil \
 ipmiutil(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

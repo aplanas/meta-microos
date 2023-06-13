@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(python-barcode) \
 python311-pyBarcode \
 python311-python-barcode \
 python3dist(python-barcode)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 dejavu-fonts \

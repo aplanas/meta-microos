@@ -13,6 +13,7 @@ MicroOS-release-appliance(aarch-64) \
 flavor(appliance) \
 product_flavor() \
 product_flavor(MicroOS)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

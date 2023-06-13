@@ -14,6 +14,7 @@ RPM_HASH = "7dade995abcd2eb149d489525a701c063de27fa89aef930b0a2db0de0a8267c70ae1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-splines"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

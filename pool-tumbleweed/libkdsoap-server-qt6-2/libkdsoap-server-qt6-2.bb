@@ -11,6 +11,7 @@ RPM_HASH = "da6b2b2eef6b00163bcd9fbf2f3999a3e7f985beb088a45e1aa69640370ae8102994
 RPROVIDES:${PN} += "libkdsoap-server-qt6-2 \
 libkdsoap-server-qt6-2(aarch-64) \
 libkdsoap-server-qt6.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

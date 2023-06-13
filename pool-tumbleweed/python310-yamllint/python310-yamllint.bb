@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-yamllint \
 python3.10dist(yamllint) \
 python310-yamllint \
 python3dist(yamllint)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

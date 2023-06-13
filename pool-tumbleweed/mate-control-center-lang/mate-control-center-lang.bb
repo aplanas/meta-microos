@@ -113,6 +113,7 @@ locale(mate-control-center:zh_HK) \
 locale(mate-control-center:zh_TW) \
 mate-control-center-lang \
 mate-control-center-lang-all"
+
 RDEPENDS:${PN} += "mate-control-center"
 
 inherit rpm

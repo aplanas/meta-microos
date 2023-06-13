@@ -9,6 +9,7 @@ RPM_HASH = "95e92e1ff4f477660dc52771dbdcbee3c1f6b311c7bfc166fcd2abaf2cd514436f3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-media4svg-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

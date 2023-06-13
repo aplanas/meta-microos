@@ -15,6 +15,7 @@ ispell-russian \
 ispell-russian(aarch-64) \
 ispell_dictionary \
 locale(ispell:ru)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

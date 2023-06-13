@@ -12,6 +12,7 @@ RPM_HASH = "5a833cdbe707ae1fe71957572d4505784d69c058116ceea8e3c6592361a826e3832e
 RPROVIDES:${PN} += "evmctl \
 evmctl(aarch-64) \
 ima-evm-utils"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "e4b03c4501df2a555e2efe5d288ca62e39e981617725698fe543ff433e20ad2ae98a
 RPROVIDES:${PN} += "libzsolve.so.0()(64bit) \
 libzsolve0 \
 libzsolve0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

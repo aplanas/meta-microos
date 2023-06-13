@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(PTL) \
 pkgconfig(ptl) \
 ptl-devel \
 ptl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libptl2 \
 pkgconfig(tbb) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(matomo-apache) \
 matomo-apache"
+
 RDEPENDS:${PN} += "apache2 \
 mod_php_any"
 

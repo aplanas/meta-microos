@@ -15,6 +15,7 @@ mvn(com.github.relaxng:relaxngDatatype:pom:) \
 mvn(relaxngDatatype:relaxngDatatype) \
 mvn(relaxngDatatype:relaxngDatatype:pom:) \
 relaxngDatatype"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

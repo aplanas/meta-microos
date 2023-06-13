@@ -9,6 +9,7 @@ RPM_HASH = "1997c7f54707a7fd286c9c097d7e176200c58eb0d2932424f85c4c454c74de50694b
 
 RPROVIDES:${PN} += "lvm2-testsuite \
 lvm2-testsuite(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/python3 \

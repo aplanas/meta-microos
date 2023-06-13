@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "application() \
 application(gede.desktop) \
 gede \
 gede(aarch-64)"
+
 RDEPENDS:${PN} += "ctags \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

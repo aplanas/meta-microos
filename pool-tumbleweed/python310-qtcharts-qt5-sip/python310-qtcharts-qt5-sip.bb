@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-qtcharts-qt5-sip \
 python3-qtcharts-qt5-sip \
 python310-qtcharts-qt5-sip \
 python310-qtcharts-qt5-sip(aarch-64)"
+
 RDEPENDS:${PN} += "python310-qt5-devel"
 
 inherit rpm

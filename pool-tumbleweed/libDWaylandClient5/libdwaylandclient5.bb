@@ -10,6 +10,7 @@ RPM_HASH = "c7db34fd000b03e009b08af21453fdde9672857c6222c7e974a35d8be3ee963afa24
 RPROVIDES:${PN} += "libDWaylandClient.so.5()(64bit) \
 libDWaylandClient5 \
 libDWaylandClient5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

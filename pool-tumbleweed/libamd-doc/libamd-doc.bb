@@ -9,6 +9,7 @@ RPM_HASH = "3acad7a7a867103d016735459d8be9602914e291d8870fb295039a66069608d66fe8
 
 RPROVIDES:${PN} += "libamd-doc \
 libamd-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

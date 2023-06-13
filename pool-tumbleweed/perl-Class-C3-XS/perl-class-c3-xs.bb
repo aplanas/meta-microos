@@ -20,6 +20,7 @@ RPM_HASH = "1d6f9132734886f89b566767e8838b8b81b096f176dad2e60f47c42e0c3a8eea4671
 RPROVIDES:${PN} += "perl(Class::C3::XS) \
 perl-Class-C3-XS \
 perl-Class-C3-XS(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 

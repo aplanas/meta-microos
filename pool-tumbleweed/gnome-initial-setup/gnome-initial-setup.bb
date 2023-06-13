@@ -13,6 +13,7 @@ gnome-initial-setup \
 gnome-initial-setup(aarch-64) \
 group(gnome-initial-setup) \
 user(gnome-initial-setup)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnome-getting-started-docs \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "audit-devel \
 audit-devel(aarch-64) \
 pkgconfig(audit) \
 pkgconfig(auparse)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaudit1 \
 libauparse0"

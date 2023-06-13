@@ -9,6 +9,7 @@ RPM_HASH = "04c2358d4e62192771bcca9745a8d09e405f65eb6a93e96c803fa7e6ebf3f1285b3f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pybind11-devel"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-devel \
 python39-pybind11 \

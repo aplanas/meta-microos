@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lectures.cls) \
 texlive-lectures"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

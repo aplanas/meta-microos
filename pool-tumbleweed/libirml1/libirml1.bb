@@ -11,6 +11,7 @@ RPM_HASH = "bb7a351a133af8564e637c8d8eb8821a21e9b03b43da26a37a9191d04fab0e8f1f9d
 RPROVIDES:${PN} += "libirml.so.1()(64bit) \
 libirml1 \
 libirml1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

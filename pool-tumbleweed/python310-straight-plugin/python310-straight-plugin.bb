@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-straight-plugin \
 python3.10dist(straight.plugin) \
 python310-straight-plugin \
 python3dist(straight.plugin)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

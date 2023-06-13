@@ -17,6 +17,7 @@ python3.10dist(textile) \
 python310-textile \
 python310-textile(aarch-64) \
 python3dist(textile)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

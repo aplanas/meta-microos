@@ -15,6 +15,7 @@ tex(afm2pl-texnanlc.enc) \
 tex(afm2pl-texnanuc.enc) \
 tex(makesc8y.tex) \
 texlive-afm2pl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

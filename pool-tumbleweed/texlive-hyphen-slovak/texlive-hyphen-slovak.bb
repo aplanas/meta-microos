@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(hyph-sk.ec.tex) \
 tex(hyph-sk.tex) \
 tex(loadhyph-sk.tex) \
 texlive-hyphen-slovak"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-holoviews \
 python3.10dist(holoviews) \
 python310-holoviews \
 python3dist(holoviews)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

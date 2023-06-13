@@ -18,6 +18,7 @@ mvn(jakarta-regexp:jakarta-regexp:pom:) \
 mvn(regexp:regexp) \
 mvn(regexp:regexp:pom:) \
 regexp"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -20,6 +20,7 @@ libstrongswan-updown.so()(64bit) \
 strongswan \
 strongswan-ipsec \
 strongswan-ipsec(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(csscompressor) \
 python39-csscompressor \
 python3dist(csscompressor)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

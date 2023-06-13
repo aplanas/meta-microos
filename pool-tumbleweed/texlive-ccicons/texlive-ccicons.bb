@@ -15,6 +15,7 @@ tex(ccicons.map) \
 tex(ccicons.sty) \
 tex(ccicons.tfm) \
 texlive-ccicons"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -88,6 +88,7 @@ locale(khotkeys5:vi) \
 locale(khotkeys5:wa) \
 locale(khotkeys5:zh_CN) \
 locale(khotkeys5:zh_TW)"
+
 RDEPENDS:${PN} += "khotkeys5"
 
 inherit rpm

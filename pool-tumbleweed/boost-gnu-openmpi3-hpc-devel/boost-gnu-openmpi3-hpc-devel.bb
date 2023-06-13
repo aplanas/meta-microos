@@ -11,6 +11,7 @@ RPM_HASH = "988525b33a61f701d1211eb088182f3abcf285c27ba1ab1329e36b976d017475c7c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-gnu-openmpi3-hpc-devel"
+
 RDEPENDS:${PN} += "boost_1_82_0-gnu-openmpi3-hpc-devel"
 
 inherit rpm

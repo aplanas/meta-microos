@@ -19,6 +19,7 @@ RPM_HASH = "92b7fff1deb5275a43a8744f5ad532148d538ea34c0b057cdc0dfae372f98dfb7beb
 
 RPROVIDES:${PN} += "hexter \
 hexter(aarch-64)"
+
 RDEPENDS:${PN} += "dssi \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

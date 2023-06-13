@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libswscale.so.6()(64bit) \
 libswscale.so.6(LIBSWSCALE_6.7_SUSE)(64bit) \
 libswscale6 \
 libswscale6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

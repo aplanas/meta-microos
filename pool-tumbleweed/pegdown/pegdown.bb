@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "mvn(org.pegdown:pegdown) \
 mvn(org.pegdown:pegdown:pom:) \
 osgi(org.pegdown) \
 pegdown"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.parboiled:parboiled-java)"

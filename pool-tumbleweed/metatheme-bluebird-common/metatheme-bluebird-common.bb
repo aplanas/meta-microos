@@ -14,6 +14,7 @@ RPM_HASH = "24eb886ae1179904cc234c897c23c2be548571fdcc54d095ddc92319eb6d023ec01b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-bluebird-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

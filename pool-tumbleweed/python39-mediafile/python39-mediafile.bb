@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mediafile) \
 python39-mediafile \
 python3dist(mediafile)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-mutagen"
 

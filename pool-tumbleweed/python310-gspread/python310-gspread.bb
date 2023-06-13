@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-gspread \
 python3.10dist(gspread) \
 python310-gspread \
 python3dist(gspread)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-google-auth \
 python310-google-auth-oauthlib"

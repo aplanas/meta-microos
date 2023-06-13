@@ -12,6 +12,7 @@ RPM_HASH = "26c2d7bba7456dd4c6d8b258248cc60ea680c56739f069b8efc2844f53988d014498
 RPROVIDES:${PN} += "casacore-devel \
 casacore-devel(aarch-64) \
 pkgconfig(casacore)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gsl-devel \
 hdf5-devel \

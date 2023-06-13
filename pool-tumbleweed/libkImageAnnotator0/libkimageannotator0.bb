@@ -10,6 +10,7 @@ RPM_HASH = "e5fa260d442449aa6483b2a6920427111b15801ac4da7f5e67f2f2dfca01ec0b28d5
 RPROVIDES:${PN} += "libkImageAnnotator.so.0()(64bit) \
 libkImageAnnotator0 \
 libkImageAnnotator0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

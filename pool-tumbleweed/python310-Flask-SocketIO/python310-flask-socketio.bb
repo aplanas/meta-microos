@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Flask-SocketIO \
 python3.10dist(flask-socketio) \
 python310-Flask-SocketIO \
 python3dist(flask-socketio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-python-socketio"

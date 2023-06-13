@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyqtgraph) \
 python39-pyqtgraph \
 python3dist(pyqtgraph)"
+
 RDEPENDS:${PN} += "(python39-qt5 >= 5.12 or python39-PyQt6 >= 6.1) \
 python(abi) \
 python39-numpy"

@@ -14,6 +14,7 @@ RPM_HASH = "ad866ca9ce55867929e90616ad4cbdeb0b55f5fc4a403c312df52b30928ca9bfb344
 RPROVIDES:${PN} += "librygel-playbin.so()(64bit) \
 rygel-plugin-gstreamer-renderer \
 rygel-plugin-gstreamer-renderer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(xstatic-jquery) \
 python311-XStatic-jQuery \
 python311-XStatic-jQuery(aarch-64) \
 python3dist(xstatic-jquery)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

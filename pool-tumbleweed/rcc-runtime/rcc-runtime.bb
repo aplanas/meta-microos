@@ -12,6 +12,7 @@ libguess_engine.so()(64bit) \
 librcd_engine.so()(64bit) \
 rcc-runtime \
 rcc-runtime(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libguess.so.1()(64bit) \
 librcc.so.0()(64bit) \

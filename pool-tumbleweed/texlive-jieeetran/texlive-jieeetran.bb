@@ -11,6 +11,7 @@ RPM_HASH = "65a0fed708c592cbc6f9d9f8ffd002d28dadbfd8c8bca65e0fda85380ccc564e585e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jieeetran"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPM_HASH = "ada248a7834dcabc0f79403d9e3f7c4d0fc64baa14883c0827551248c7d52de51569
 
 RPROVIDES:${PN} += "rekor \
 rekor(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libc.so.6(GLIBC_2.34)(64bit)"
 

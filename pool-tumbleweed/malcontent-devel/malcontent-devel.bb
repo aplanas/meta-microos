@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "malcontent-devel \
 malcontent-devel(aarch-64) \
 pkgconfig(malcontent-0) \
 pkgconfig(malcontent-ui-0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmalcontent-0-0 \
 libmalcontent-ui-0-0 \

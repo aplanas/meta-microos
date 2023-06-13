@@ -10,6 +10,7 @@ RPM_HASH = "774cc909776ca502233fa7ca8cd3107038b80bfcf309e1f687e58739a729349d70c9
 
 RPROVIDES:${PN} += "qtcurve-qt5 \
 qtcurve-qt5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Archive.so.5()(64bit) \

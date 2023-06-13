@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-desktop-branding \
 budgie-desktop-branding-upstream"
+
 RDEPENDS:${PN} += "adwaita-icon-theme \
 budgie-desktop \
 materia-gtk-theme \

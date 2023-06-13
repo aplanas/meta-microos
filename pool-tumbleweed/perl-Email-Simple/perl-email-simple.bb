@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "perl(Email::Simple) \
 perl(Email::Simple::Creator) \
 perl(Email::Simple::Header) \
 perl-Email-Simple"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Email::Date::Format)"
 

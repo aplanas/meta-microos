@@ -12,6 +12,7 @@ RPM_HASH = "a0668ce43cdd16b9dda387a52bb49e46bceb7f5772ccbcc291f2182d460f55c81b92
 RPROVIDES:${PN} += "libmpfr.so.6()(64bit) \
 libmpfr6 \
 libmpfr6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

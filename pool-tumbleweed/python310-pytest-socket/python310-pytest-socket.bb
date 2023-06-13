@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-socket \
 python3.10dist(pytest-socket) \
 python310-pytest-socket \
 python3dist(pytest-socket)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

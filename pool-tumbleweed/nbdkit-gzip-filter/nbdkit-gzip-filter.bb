@@ -9,6 +9,7 @@ RPM_HASH = "eedf0ccc2a2a2d3f052fd3f9906c95d36141512f18fe3c49058c3c9e6c4766558b39
 
 RPROVIDES:${PN} += "nbdkit-gzip-filter \
 nbdkit-gzip-filter(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

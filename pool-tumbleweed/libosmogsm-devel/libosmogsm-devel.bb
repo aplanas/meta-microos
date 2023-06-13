@@ -17,6 +17,7 @@ RPM_HASH = "fd334eee4929fc481ebc45b1389adeee3c15f5728d9beb24b78f5ee8344a1a6515da
 RPROVIDES:${PN} += "libosmogsm-devel \
 libosmogsm-devel(aarch-64) \
 pkgconfig(libosmogsm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmocore-devel \
 libosmogsm18 \

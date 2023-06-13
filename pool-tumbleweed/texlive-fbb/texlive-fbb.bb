@@ -861,6 +861,7 @@ tex(fbb_ywphh4.enc) \
 tex(fbb_zbnzwf.enc) \
 tex(fbb_zjfw7l.enc) \
 texlive-fbb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

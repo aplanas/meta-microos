@@ -13,6 +13,7 @@ RPM_HASH = "52f08b42e602ecc7ba5bccff9133695e12a0cc260197800d812a1d00591811ab6ca2
 RPROVIDES:${PN} += "febootstrap \
 supermin \
 supermin(aarch-64)"
+
 RDEPENDS:${PN} += "distribution-release \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

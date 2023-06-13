@@ -15,6 +15,7 @@ maxima-lang-de-utf8 \
 maxima-lang-es-utf8 \
 maxima-lang-pt-utf8 \
 maxima-lang-pt_BR-utf8"
+
 RDEPENDS:${PN} += "maxima"
 
 inherit rpm

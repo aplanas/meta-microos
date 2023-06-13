@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(polytable.sty) \
 texlive-polytable"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

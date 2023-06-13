@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libapparmor-devel \
 libapparmor-devel(aarch-64) \
 libapparmor:/usr/include/sys/apparmor.h \
 pkgconfig(libapparmor)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libapparmor1"
 

@@ -30,6 +30,7 @@ RPM_HASH = "b8ad4f559c52a85a05582f88b4f81a85800a9e7a3062131d21023ba4abb179b1cce5
 
 RPROVIDES:${PN} += "gts \
 gts(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

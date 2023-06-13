@@ -17,6 +17,7 @@ RPM_HASH = "a8e5338deb7e13f1ffc5e76c4467333f57b7c020eb977a21195e5b90de83543de961
 
 RPROVIDES:${PN} += "nagios-devel \
 nagios-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gcc \
 nagios"
 

@@ -28,6 +28,7 @@ mimehandler(text/x-ssa) \
 mimehandler(text/x-subviewer) \
 python3.10dist(gaupol) \
 python3dist(gaupol)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python(abi) \
 python3 \

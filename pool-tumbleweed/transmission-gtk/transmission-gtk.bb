@@ -21,6 +21,7 @@ mimehandler(x-scheme-handler/magnet) \
 transmission-gtk \
 transmission-gtk(aarch-64) \
 transmission-ui"
+
 RDEPENDS:${PN} += "/bin/sh \
 canberra-gtk-play \
 ld-linux-aarch64.so.1()(64bit) \

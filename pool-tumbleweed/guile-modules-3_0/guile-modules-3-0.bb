@@ -12,6 +12,7 @@ RPM_HASH = "1dbbcd96252d66aa212f3ff9607f779e3403f513f3b17947d6326e93115d5502d6bd
 
 RPROVIDES:${PN} += "guile-modules-3_0 \
 guile-modules-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

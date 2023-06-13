@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(rocket.term) \
 python3dist(rocket.term) \
 rocket.term"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-requests \

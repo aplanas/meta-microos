@@ -725,6 +725,7 @@ tex(ts1lmssq.fd) \
 tex(ts1lmtt.fd) \
 tex(ts1lmvtt.fd) \
 texlive-lm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

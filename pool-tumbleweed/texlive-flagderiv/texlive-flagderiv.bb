@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(flagderiv.sty) \
 texlive-flagderiv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

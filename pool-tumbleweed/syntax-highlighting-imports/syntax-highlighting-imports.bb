@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libkquicksyntaxhighlightingplugin.so()(64bit) \
 qt5qmlimport(org.kde.syntaxhighlighting.1) \
 syntax-highlighting-imports \
 syntax-highlighting-imports(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5SyntaxHighlighting.so.5()(64bit) \

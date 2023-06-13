@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cyreal-lobster-cyrillic-fonts \
 lobster-cyrillic-fonts \
 locale(ru;uk)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

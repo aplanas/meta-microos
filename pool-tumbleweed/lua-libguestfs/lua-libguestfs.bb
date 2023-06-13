@@ -10,6 +10,7 @@ RPM_HASH = "167f577acef6549a2337d3a28e004ea284b698bd4538a2e75bfbd5bd5d38213028c6
 RPROVIDES:${PN} += "libluaguestfs.so()(64bit) \
 lua-libguestfs \
 lua-libguestfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

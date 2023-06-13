@@ -11,6 +11,7 @@ RPM_HASH = "0fa92a9c52da8e1ad6b5c97695ba5c30d96dba05996c6a3120fd2b104124ac5dc68d
 RPROVIDES:${PN} += "libboost_numpy-py3-1_82_0-devel \
 libboost_numpy-py3-1_82_0-devel(aarch-64) \
 libboost_numpy3-devel-impl"
+
 RDEPENDS:${PN} += "libboost_headers1_82_0-devel \
 libboost_numpy-py3-1_82_0"
 

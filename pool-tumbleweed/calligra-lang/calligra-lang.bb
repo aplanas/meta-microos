@@ -106,6 +106,7 @@ locale(calligra:vi) \
 locale(calligra:wa) \
 locale(calligra:zh_CN) \
 locale(calligra:zh_TW)"
+
 RDEPENDS:${PN} += "calligra"
 
 inherit rpm

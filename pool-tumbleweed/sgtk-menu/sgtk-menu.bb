@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.10dist(sgtk-menu) \
 python3dist(sgtk-menu) \
 sgtk-menu \
 sgtk-menu(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-gobject"

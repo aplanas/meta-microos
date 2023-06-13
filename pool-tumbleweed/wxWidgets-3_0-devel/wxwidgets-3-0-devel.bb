@@ -20,6 +20,7 @@ wxWidgets-3_0-devel \
 wxWidgets-3_0-devel(aarch-64) \
 wxWidgets-any-devel \
 wxWidgets-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 gtk2-devel \
 ld-linux-aarch64.so.1()(64bit) \

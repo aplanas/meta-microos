@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(autoarea.sty) \
 texlive-autoarea"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

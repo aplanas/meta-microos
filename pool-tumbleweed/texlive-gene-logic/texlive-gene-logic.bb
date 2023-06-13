@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gn-logic14.sty) \
 texlive-gene-logic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

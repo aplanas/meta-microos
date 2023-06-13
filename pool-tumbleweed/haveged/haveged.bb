@@ -12,6 +12,7 @@ RPM_HASH = "22eab4de3c507f90f1265360e9cefa7caef232663bd19261cd098dad5ac2b97c403c
 
 RPROVIDES:${PN} += "haveged \
 haveged(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

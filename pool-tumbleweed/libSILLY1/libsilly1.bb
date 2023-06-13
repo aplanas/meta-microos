@@ -14,6 +14,7 @@ RPM_HASH = "314e724ae7fb9a578604916c6fd882edcd0e6d86caa525ff5dd3caa44d059d8280cd
 RPROVIDES:${PN} += "libSILLY.so.1()(64bit) \
 libSILLY1 \
 libSILLY1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

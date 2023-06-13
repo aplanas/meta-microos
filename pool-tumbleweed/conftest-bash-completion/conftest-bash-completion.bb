@@ -9,6 +9,7 @@ RPM_HASH = "6ea74767cc70bbd7cd322e675d0ad1eef231c792d3adf93142c3dec7318c9f0bc686
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "conftest-bash-completion"
+
 RDEPENDS:${PN} += "conftest"
 
 inherit rpm

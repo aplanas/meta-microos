@@ -10,6 +10,7 @@ RPM_HASH = "8055d39aba61d03a0624337d6a582a2786f8e2a824bde9cdad6b45786fc793f9094a
 RPROVIDES:${PN} += "libntpc.so.1()(64bit) \
 libntpc1 \
 libntpc1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

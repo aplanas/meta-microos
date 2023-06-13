@@ -21,6 +21,7 @@ libfdisk.so.1(FDISK_2.36)(64bit) \
 libfdisk.so.1(FDISK_2.38)(64bit) \
 libfdisk1 \
 libfdisk1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

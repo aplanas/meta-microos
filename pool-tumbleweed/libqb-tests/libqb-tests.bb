@@ -10,6 +10,7 @@ RPM_HASH = "f6ccf04be361f7702e5b0585acd7bba65fe584c23ebf08fd96850be7d23ae5671017
 RPROVIDES:${PN} += "libqb-tests \
 libqb-tests(aarch-64) \
 libstat_wrapper.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

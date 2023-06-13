@@ -26,6 +26,7 @@ pkgconfig(libavutil) \
 pkgconfig(libpostproc) \
 pkgconfig(libswresample) \
 pkgconfig(libswscale)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ffmpeg-5-mini-libs \
 pkgconfig(libavcodec) \

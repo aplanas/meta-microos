@@ -10,6 +10,7 @@ RPM_HASH = "a34c922bf5766c2f3acbc61d33c59c28542e945291f534295497da2f881f5e495ed8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-pihole"
+
 RDEPENDS:${PN} += "bumblebee-status"
 
 inherit rpm

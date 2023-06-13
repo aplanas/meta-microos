@@ -14,6 +14,7 @@ python3.10dist(ethtool) \
 python310-ethtool \
 python310-ethtool(aarch-64) \
 python3dist(ethtool)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

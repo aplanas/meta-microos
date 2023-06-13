@@ -17,6 +17,7 @@ RPM_HASH = "9eff327f848d84cf21292d83d8a604004fcc7b44626ce54fbe174421898fa8c45290
 RPROVIDES:${PN} += "libinchi.so.1()(64bit) \
 libinchi1 \
 libinchi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

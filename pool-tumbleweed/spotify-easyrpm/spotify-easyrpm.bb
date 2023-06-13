@@ -14,6 +14,7 @@ RPM_HASH = "f7d51a33dc80b3b7b87e9ea6c3635dc983f2bcda988e6263a6eb9e70ccef79f2e8eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spotify-easyrpm"
+
 RDEPENDS:${PN} += "/bin/bash \
 createrepo_c \
 jq \

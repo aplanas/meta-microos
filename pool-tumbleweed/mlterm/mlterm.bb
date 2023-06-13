@@ -50,6 +50,7 @@ libtype_cairo.so(mlterm)(64bit) \
 locale(xorg-x11:ja;ko;zh;ar;he) \
 mlterm \
 mlterm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

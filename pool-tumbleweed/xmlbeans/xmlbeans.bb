@@ -17,6 +17,7 @@ RPM_HASH = "7dbdb458a128abb858979ca7f76a17ca84f79c1288ae7cc7509a715d8efffe5932b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmlbeans"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

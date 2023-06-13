@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(suftesi.cls) \
 texlive-suftesi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

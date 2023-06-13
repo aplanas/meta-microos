@@ -9,6 +9,7 @@ RPM_HASH = "cb8a9243e773d252b01d31927663a66468f1e115335d3340df5bbdd458b87e914ce9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-alkalami-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

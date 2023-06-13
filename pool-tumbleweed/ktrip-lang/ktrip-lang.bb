@@ -38,6 +38,7 @@ locale(ktrip:tr) \
 locale(ktrip:uk) \
 locale(ktrip:zh_CN) \
 locale(ktrip:zh_TW)"
+
 RDEPENDS:${PN} += "ktrip"
 
 inherit rpm

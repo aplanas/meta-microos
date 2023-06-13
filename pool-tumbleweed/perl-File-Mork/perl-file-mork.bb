@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(File::Mork) \
 perl(File::Mork::Entry) \
 perl-File-Mork"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(HTML::Entities)"

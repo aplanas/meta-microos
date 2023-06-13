@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:colorator) \
 rubygem(ruby:3.2.0:colorator:1) \
 rubygem(ruby:3.2.0:colorator:1.1) \
 rubygem(ruby:3.2.0:colorator:1.1.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

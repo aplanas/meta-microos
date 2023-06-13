@@ -10,6 +10,7 @@ RPM_HASH = "ea91e3ec1c431670327d6e2e0f902b4ca10650f0de2d1c99e5d766a3d86be22067f8
 RPROVIDES:${PN} += "libstilview.so.0()(64bit) \
 libstilview0 \
 libstilview0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

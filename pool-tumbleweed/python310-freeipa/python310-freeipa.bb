@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-freeipa \
 python3.10dist(python-freeipa) \
 python310-freeipa \
 python3dist(python-freeipa)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

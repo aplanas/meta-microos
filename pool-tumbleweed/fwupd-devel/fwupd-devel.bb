@@ -11,6 +11,7 @@ RPM_HASH = "9f8bace04a9c776d345f9c021d6826ce73e53b4fd591af2a3641cc519a467fa0c1ce
 RPROVIDES:${PN} += "fwupd-devel \
 fwupd-devel(aarch-64) \
 pkgconfig(fwupd)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 fwupd \
 libfwupd2 \

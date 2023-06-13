@@ -11,6 +11,7 @@ RPM_HASH = "1bd6cd183d5483e483a1d1caff83a476627c7e55884e7f0e9be16842cb96595dfefc
 RPROVIDES:${PN} += "pkgconfig(yascreen) \
 yascreen-devel \
 yascreen-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libyascreen0"
 

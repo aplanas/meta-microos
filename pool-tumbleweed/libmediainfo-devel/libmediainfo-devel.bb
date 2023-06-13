@@ -13,6 +13,7 @@ RPM_HASH = "982c1ebdeaa4e0970ad2ec2561873810bc9546be41827e9c9dce5d56b730eefdf901
 RPROVIDES:${PN} += "libmediainfo-devel \
 libmediainfo-devel(aarch-64) \
 pkgconfig(libmediainfo)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmediainfo0 \
 pkgconfig(libcurl) \

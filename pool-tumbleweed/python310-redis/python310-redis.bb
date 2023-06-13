@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-redis \
 python3.10dist(redis) \
 python310-redis \
 python3dist(redis)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-async-timeout \
 redis"

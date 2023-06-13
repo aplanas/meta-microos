@@ -27,6 +27,7 @@ perl(Class::DBI::Search::Basic) \
 perl(Class::DBI::Test::SQLite) \
 perl(Class::DBI::__::Base) \
 perl-Class-DBI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor) \
 perl(Class::Data::Inheritable) \

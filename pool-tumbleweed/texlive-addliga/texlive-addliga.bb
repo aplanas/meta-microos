@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(addliga.sty) \
 texlive-addliga"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

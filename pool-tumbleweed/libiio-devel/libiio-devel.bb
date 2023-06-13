@@ -12,6 +12,7 @@ RPM_HASH = "1310442488d588948b9b17d25624209bdae3d329cc6180862975fb96f2de54419442
 RPROVIDES:${PN} += "libiio-devel \
 libiio-devel(aarch-64) \
 pkgconfig(libiio)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libiio0"
 

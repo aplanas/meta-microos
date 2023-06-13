@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sqlitedict) \
 python311-sqlitedict \
 python3dist(sqlitedict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311"
 

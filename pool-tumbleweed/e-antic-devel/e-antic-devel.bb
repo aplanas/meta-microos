@@ -13,6 +13,7 @@ RPM_HASH = "e78dd79803368216c29b174a7efdee3eb0d61c4a61c4cd671304b42282aa7436dfe0
 
 RPROVIDES:${PN} += "e-antic-devel \
 e-antic-devel(aarch-64)"
+
 RDEPENDS:${PN} += "antic-devel \
 arb-devel \
 libboost_headers-devel \

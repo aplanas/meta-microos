@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "application() \
 application(unison.desktop) \
 unison \
 unison(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcairo.so.2()(64bit) \
 libfontconfig.so.1()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "6629246b9f5fadfa41ec1840e25c1aadf7cb69d1ec67d6f258bead18f71d0c0562d0
 RPROVIDES:${PN} += "libblockdev-devel \
 libblockdev-devel(aarch-64) \
 pkgconfig(blockdev)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 libblockdev2 \

@@ -16,6 +16,7 @@ locale(libpurple-plugin-bot-sentry:de) \
 locale(libpurple-plugin-bot-sentry:es) \
 locale(libpurple-plugin-bot-sentry:it) \
 locale(libpurple-plugin-bot-sentry:ru)"
+
 RDEPENDS:${PN} += "libpurple-plugin-bot-sentry"
 
 inherit rpm

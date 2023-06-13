@@ -13,6 +13,7 @@ RPM_HASH = "f3f49b4352814fab6b1acd0f9f1ebbcee3eaac206e2f4da300bfdfa0868bdff797df
 RPROVIDES:${PN} += "libdbdmysql.so()(64bit) \
 libdbi-drivers-dbd-mysql \
 libdbi-drivers-dbd-mysql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

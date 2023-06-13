@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "guava-testlib \
 mvn(com.google.guava:guava-testlib) \
 mvn(com.google.guava:guava-testlib:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.code.findbugs:jsr305) \

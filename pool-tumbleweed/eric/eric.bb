@@ -27,6 +27,7 @@ mimehandler(x-scheme-handler/http) \
 mimehandler(x-scheme-handler/https) \
 python-eric5 \
 python-eric6"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi) \
 python3-EditorConfig \

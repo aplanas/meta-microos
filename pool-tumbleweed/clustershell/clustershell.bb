@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "clustershell \
 config(clustershell) \
 vim-clustershell"
+
 RDEPENDS:${PN} += "python3-clustershell \
 vim"
 

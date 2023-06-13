@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pxrubrica.sty) \
 texlive-pxrubrica"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -192,6 +192,7 @@ font(cmuserifuprightitalic) \
 font(cmutypewritertext) \
 font(cmutypewritertextvariablewidth) \
 texlive-cm-unicode-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

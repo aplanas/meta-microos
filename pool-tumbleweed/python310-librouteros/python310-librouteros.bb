@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-librouteros \
 python3.10dist(librouteros) \
 python310-librouteros \
 python3dist(librouteros)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

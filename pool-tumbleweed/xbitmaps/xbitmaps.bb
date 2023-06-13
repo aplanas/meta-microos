@@ -10,6 +10,7 @@ RPM_HASH = "e41293cc5a66970bae455ae9c5b59dd9fa8a96eea0a6adb3dc2668675367e45892d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xbitmaps"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

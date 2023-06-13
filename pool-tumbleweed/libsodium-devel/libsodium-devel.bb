@@ -11,6 +11,7 @@ RPM_HASH = "959ab2d6208ec8bea8295d998375397a018a659e2d3242e5eebf1edb203a77c45fc1
 RPROVIDES:${PN} += "libsodium-devel \
 libsodium-devel(aarch-64) \
 pkgconfig(libsodium)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsodium23"
 

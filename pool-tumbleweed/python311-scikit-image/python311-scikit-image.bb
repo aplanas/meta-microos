@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(scikit-image) \
 python311-scikit-image \
 python311-scikit-image(aarch-64) \
 python3dist(scikit-image)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1()(64bit) \

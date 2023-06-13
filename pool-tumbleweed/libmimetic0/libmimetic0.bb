@@ -14,6 +14,7 @@ RPM_HASH = "80aa8c57de8c8657afdaa9d1c6e5aa7d8962948e5667b56837d5f636a69147b39e54
 RPROVIDES:${PN} += "libmimetic.so.0()(64bit) \
 libmimetic0 \
 libmimetic0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

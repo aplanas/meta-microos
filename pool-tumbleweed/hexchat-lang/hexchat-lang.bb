@@ -59,6 +59,7 @@ locale(hexchat:vi) \
 locale(hexchat:wa) \
 locale(hexchat:zh_CN) \
 locale(hexchat:zh_TW)"
+
 RDEPENDS:${PN} += "hexchat"
 
 inherit rpm

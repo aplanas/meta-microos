@@ -10,6 +10,7 @@ RPM_HASH = "e827528df90b7707ef1eb725a36f518d8db74d1a39837287e584ea42b3b6aecacfca
 
 RPROVIDES:${PN} += "qt6-labswavefrontmesh-private-devel \
 qt6-labswavefrontmesh-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6LabsWavefrontMesh)"
 
 inherit rpm

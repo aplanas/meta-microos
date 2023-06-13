@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-random2 \
 python3.10dist(random2) \
 python310-random2 \
 python3dist(random2)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

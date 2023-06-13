@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(docformatter) \
 python39-docformatter \
 python3dist(docformatter)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

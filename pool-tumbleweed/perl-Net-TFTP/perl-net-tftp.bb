@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Net::TFTP) \
 perl(Net::TFTP::IO) \
 perl-Net-TFTP"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::MockModule) \
 perl(Test::More) \

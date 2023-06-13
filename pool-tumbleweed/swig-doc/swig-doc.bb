@@ -18,6 +18,7 @@ RPM_HASH = "aa6cfda6ad4701f51098944b364d044a4e5df8ac38ec11eed8f71049ca738ce26623
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swig-doc"
+
 RDEPENDS:${PN} += "swig"
 
 inherit rpm

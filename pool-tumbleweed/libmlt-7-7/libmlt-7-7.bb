@@ -37,6 +37,7 @@ libmlt-7.so.7(MLT_7.14.0)(64bit) \
 libmlt-7.so.7(MLT_7.4.0)(64bit) \
 libmlt-7.so.7(MLT_7.6.0)(64bit) \
 libmlt-7.so.7(MLT_7.8.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

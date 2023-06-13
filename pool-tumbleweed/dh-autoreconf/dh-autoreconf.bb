@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deb:/usr/bin/dh_autoreconf \
 dh-autoreconf"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 debhelper \
 perl(:MODULE_COMPAT_5.36.0)"

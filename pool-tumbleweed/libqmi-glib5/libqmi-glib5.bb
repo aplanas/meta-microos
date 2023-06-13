@@ -11,6 +11,7 @@ RPM_HASH = "121c95110630009759daf79ad276086146ddcb59bf0f8355f15db2455229edc45a80
 RPROVIDES:${PN} += "libqmi-glib.so.5()(64bit) \
 libqmi-glib5 \
 libqmi-glib5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

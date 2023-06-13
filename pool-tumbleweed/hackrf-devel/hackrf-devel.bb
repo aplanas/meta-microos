@@ -10,6 +10,7 @@ RPM_HASH = "a7798454b02ca765aa8d3cedbeda2da91ce2cb5ad97238499529c2889b9ae55fb69a
 RPROVIDES:${PN} += "hackrf-devel \
 hackrf-devel(aarch-64) \
 pkgconfig(libhackrf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhackrf0"
 

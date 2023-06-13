@@ -22,6 +22,7 @@ tex(filehook-scrlfile.sty) \
 tex(filehook.sty) \
 tex(pgf-filehook.sty) \
 texlive-filehook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

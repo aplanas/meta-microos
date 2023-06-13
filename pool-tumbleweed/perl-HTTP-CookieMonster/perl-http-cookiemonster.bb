@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(HTTP::CookieMonster) \
 perl(HTTP::CookieMonster::Cookie) \
 perl-HTTP-CookieMonster"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Cookies) \
 perl(Moo) \

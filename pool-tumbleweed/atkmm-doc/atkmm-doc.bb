@@ -13,6 +13,7 @@ RPM_HASH = "226e3bbd1b175e38a275fc62c7d520fa48422eebe12fab2bd6868013dc77a598770d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atkmm-doc"
+
 RDEPENDS:${PN} += "glibmm2-doc"
 
 inherit rpm

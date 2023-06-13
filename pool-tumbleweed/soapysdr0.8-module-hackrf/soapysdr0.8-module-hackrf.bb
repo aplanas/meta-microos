@@ -11,6 +11,7 @@ RPM_HASH = "475c0ada14865a35f4db8f80009c32b1fb2875f4821c6839250b162dd8b541cf4591
 RPROVIDES:${PN} += "libHackRFSupport.so()(64bit) \
 soapysdr0.8-module-hackrf \
 soapysdr0.8-module-hackrf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSoapySDR.so.0.8()(64bit) \

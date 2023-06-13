@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(nuitka) \
 python39-Nuitka \
 python3dist(nuitka)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 gcc-c++ \

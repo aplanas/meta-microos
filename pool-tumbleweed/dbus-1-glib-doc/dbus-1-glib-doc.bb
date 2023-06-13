@@ -12,6 +12,7 @@ RPM_HASH = "9ca0312f94cfff869f124460ed736c97f974e8cd7fc77f518bf2e6a7a30ad46eba12
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbus-1-glib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "cb41df73359e93f716fa43e2aeddfe3c378a0ef79ef8ebec5998a8fea2f54fd56723
 RPROVIDES:${PN} += "pkgconfig(tss2-tcti-tabrmd) \
 tpm2.0-abrmd-devel \
 tpm2.0-abrmd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libtss2-tcti-tabrmd0 \

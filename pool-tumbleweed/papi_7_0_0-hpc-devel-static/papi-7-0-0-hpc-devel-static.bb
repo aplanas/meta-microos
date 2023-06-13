@@ -9,6 +9,7 @@ RPM_HASH = "dc4b2829494d37629b4735209ef6d278c5447c28d5d89a6c6f5e1838d7d4a450a972
 
 RPROVIDES:${PN} += "papi_7_0_0-hpc-devel-static \
 papi_7_0_0-hpc-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "linux-kernel-headers \
 papi_7_0_0-hpc-devel"
 

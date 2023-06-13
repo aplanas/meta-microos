@@ -39,6 +39,7 @@ pkgconfig(cxxtools-http) \
 pkgconfig(cxxtools-json) \
 pkgconfig(cxxtools-unit) \
 pkgconfig(cxxtools-xmlrpc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

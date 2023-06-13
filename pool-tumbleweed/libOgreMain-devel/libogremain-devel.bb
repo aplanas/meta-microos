@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libOgreMain-devel \
 libOgreMain-devel(aarch-64) \
 pkgconfig(OGRE) \
 pkgconfig(OGRE-PCZ)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOgreMain13_5 \
 libOgreMain13_5-codecs \

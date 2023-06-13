@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-testtools \
 python3.10dist(testtools) \
 python310-testtools \
 python3dist(testtools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pbr \
 python310-python-mimeparse \

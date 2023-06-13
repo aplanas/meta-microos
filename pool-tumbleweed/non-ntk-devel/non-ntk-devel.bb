@@ -12,6 +12,7 @@ non-ntk-devel(aarch-64) \
 pkgconfig(ntk) \
 pkgconfig(ntk_gl) \
 pkgconfig(ntk_images)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libntk1 \
 pkgconfig(cairo) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(lazr.uri) \
 python39-lazr.uri \
 python3dist(lazr.uri)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-base-selinux \
 patterns-base-selinux(aarch-64)"
+
 RDEPENDS:${PN} += "pattern() \
 policycoreutils \
 selinux-autorelabel \

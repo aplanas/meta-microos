@@ -11,6 +11,7 @@ RPM_HASH = "e239abfbba8c90bd5ea321e2d8aaad62b3dc3b186ab8369dcd49159ebf63083e49f7
 RPROVIDES:${PN} += "locale(scim-tables:am;ar;bn;gu;hi;kn;ml;ne;pa;ru;ta;te;th;vi) \
 scim-tables-additional \
 scim-tables-additional(aarch-64)"
+
 RDEPENDS:${PN} += "scim-tables"
 
 inherit rpm

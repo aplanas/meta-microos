@@ -18,6 +18,7 @@ RPM_HASH = "1b7d1fdc94899fb6118627a86500df4c6e3b803aaa030af06e8ba1b71f0be01de3ef
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blockzone-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

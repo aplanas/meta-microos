@@ -12,6 +12,7 @@ RPM_HASH = "859d40c82126485aa4d275fb05b8258f9e54896295d06f97d1e9526336d6c40403c0
 
 RPROVIDES:${PN} += "qrencode \
 qrencode(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

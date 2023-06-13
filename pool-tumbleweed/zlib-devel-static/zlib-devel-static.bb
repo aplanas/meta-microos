@@ -16,6 +16,7 @@ RPM_HASH = "013a1ccb01587d8c7bc5ba8115b109aeb42f13889b8b81a9aed84168a5dfd16ed2e6
 RPROVIDES:${PN} += "zlib-devel-static \
 zlib-devel-static(aarch-64) \
 zlib-devel:/usr/lib64/libz.a"
+
 RDEPENDS:${PN} += "zlib-devel"
 
 inherit rpm

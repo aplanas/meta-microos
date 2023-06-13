@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathgl-tex-doc \
 texlive-mgltex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

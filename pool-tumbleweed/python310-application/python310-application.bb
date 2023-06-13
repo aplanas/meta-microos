@@ -24,6 +24,7 @@ python3.10dist(python3-application) \
 python310-application \
 python310-application(aarch-64) \
 python3dist(python3-application)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

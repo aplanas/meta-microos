@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "perl(IO::TieCombine) \
 perl(IO::TieCombine::Handle) \
 perl(IO::TieCombine::Scalar) \
 perl-IO-TieCombine"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

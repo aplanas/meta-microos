@@ -16,6 +16,7 @@ perl(Types::Serialiser) \
 perl(Types::Serialiser::BooleanBase) \
 perl(Types::Serialiser::Error) \
 perl-Types-Serialiser"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(common::sense)"
 

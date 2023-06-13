@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(hyph-hy.tex) \
 tex(loadhyph-hy.tex) \
 texlive-hyphen-armenian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

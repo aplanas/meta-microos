@@ -14,6 +14,7 @@ RPM_HASH = "66de73b1276899eab574986cea4853b92d8ab6589852517de43f509d2e5ab36a7840
 
 RPROVIDES:${PN} += "cpustat \
 cpustat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "53d034291b16134390287f42828bb9245569b22590d1aeab6d80b0ccdea5972fcebd
 RPROVIDES:${PN} += "config(lxlauncher) \
 lxlauncher \
 lxlauncher(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

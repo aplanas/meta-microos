@@ -19,6 +19,7 @@ tex(hyph-uk.t2a.tex) \
 tex(hyph-uk.tex) \
 tex(loadhyph-uk.tex) \
 texlive-hyphen-ukrainian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

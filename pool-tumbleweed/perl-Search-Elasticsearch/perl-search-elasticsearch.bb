@@ -80,6 +80,7 @@ perl(Search::Elasticsearch::TestServer) \
 perl(Search::Elasticsearch::Transport) \
 perl(Search::Elasticsearch::Util) \
 perl-Search-Elasticsearch"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Any::URI::Escape) \
 perl(Devel::GlobalDestruction) \

@@ -11,6 +11,7 @@ RPM_HASH = "e66100b344b662aaedbdb6be8f7446223a3e4dcf6f1ab81951aa7477c37d8cceea9c
 RPROVIDES:${PN} += "libmateweather-devel \
 libmateweather-devel(aarch-64) \
 pkgconfig(mateweather)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmateweather1 \
 mateweather-common \

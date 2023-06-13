@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cornice) \
 python39-cornice \
 python3dist(cornice)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pyramid \
 python39-venusian"

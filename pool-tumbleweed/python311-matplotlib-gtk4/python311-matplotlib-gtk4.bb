@@ -10,6 +10,7 @@ RPM_HASH = "9d53fe5df7f8bc98c68490160c37700af102a97a68187817ea75fa968eafcefa8326
 
 RPROVIDES:${PN} += "python311-matplotlib-gtk4 \
 python311-matplotlib-gtk4(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-matplotlib \
 python311-matplotlib-gtk-common"

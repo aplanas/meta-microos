@@ -12,6 +12,7 @@ RPM_HASH = "d398e9f794f8ef11d0746beca09c7e0e444855468b07d72738aa1aeabdaa7c7cc2ee
 RPROVIDES:${PN} += "typelib(GOffice) \
 typelib-1_0-GOffice-0_10 \
 typelib-1_0-GOffice-0_10(aarch-64)"
+
 RDEPENDS:${PN} += "libgoffice-0.10.so.10()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

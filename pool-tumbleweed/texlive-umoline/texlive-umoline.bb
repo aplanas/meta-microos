@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(umoline.sty) \
 texlive-umoline"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

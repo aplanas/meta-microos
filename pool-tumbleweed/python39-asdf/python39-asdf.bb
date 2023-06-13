@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(asdf) \
 python39-asdf \
 python3dist(asdf)"
+
 RDEPENDS:${PN} += "(python39-jsonschema >= 4.0.1 with python39-jsonschema < 4.18) \
 /bin/sh \
 /usr/bin/python3.9 \

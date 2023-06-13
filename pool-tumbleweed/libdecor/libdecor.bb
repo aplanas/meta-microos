@@ -11,6 +11,7 @@ RPM_HASH = "7e2911342c5cf80f7bc9e28e95da6eb8448d03ae81a16915b6db0bf7193137e50bd0
 RPROVIDES:${PN} += "libdecor \
 libdecor(aarch-64) \
 libdecor-cairo.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.28)(64bit) \

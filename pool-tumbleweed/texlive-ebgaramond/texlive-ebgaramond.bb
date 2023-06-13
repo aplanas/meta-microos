@@ -1274,6 +1274,7 @@ tex(ebgm_zbngqq.enc) \
 tex(ebgm_zcffwk.enc) \
 tex(ebgm_zor4nh.enc) \
 texlive-ebgaramond"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

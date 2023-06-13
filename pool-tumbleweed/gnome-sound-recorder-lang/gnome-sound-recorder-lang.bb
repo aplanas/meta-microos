@@ -65,6 +65,7 @@ locale(gnome-sound-recorder:vi) \
 locale(gnome-sound-recorder:zh_CN) \
 locale(gnome-sound-recorder:zh_HK) \
 locale(gnome-sound-recorder:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-sound-recorder"
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tabstackengine.sty) \
 texlive-tabstackengine"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

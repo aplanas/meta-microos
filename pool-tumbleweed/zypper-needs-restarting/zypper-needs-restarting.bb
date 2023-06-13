@@ -13,6 +13,7 @@ RPM_HASH = "d9cd3ee445af5c6fd0554c1989ce9bada9f1d9f4a3adb57f1d7768521effd566129a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zypper-needs-restarting"
+
 RDEPENDS:${PN} += "/bin/bash \
 zypper"
 

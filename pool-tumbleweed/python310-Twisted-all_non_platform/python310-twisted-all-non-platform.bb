@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Twisted-all_non_platform \
 python310-Twisted-all_non_platform"
+
 RDEPENDS:${PN} += "python310-PyHamcrest \
 python310-Twisted-conch \
 python310-Twisted-contextvars \

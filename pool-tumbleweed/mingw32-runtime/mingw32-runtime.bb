@@ -425,6 +425,7 @@ mingw32(lib:xinput1_3) \
 mingw32(lib:xinput1_4) \
 mingw32(lib:xinput9_1_0) \
 mingw32-runtime"
+
 RDEPENDS:${PN} += "mingw32-headers"
 
 inherit rpm

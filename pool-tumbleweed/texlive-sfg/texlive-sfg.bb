@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sfg.sty) \
 texlive-sfg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

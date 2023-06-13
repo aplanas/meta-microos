@@ -9,6 +9,7 @@ RPM_HASH = "563c2c20df3c16aa37ddf7bd37b9eb357621c02e7e56ae99eaa5c25eac5d898b7064
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wl-clipboard-fish-completion"
+
 RDEPENDS:${PN} += "wl-clipboard"
 
 inherit rpm

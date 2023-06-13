@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinxcontrib-plantuml) \
 python311-sphinxcontrib-plantuml \
 python3dist(sphinxcontrib-plantuml)"
+
 RDEPENDS:${PN} += "plantuml \
 python(abi) \
 python311-Sphinx"

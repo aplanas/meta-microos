@@ -12,6 +12,7 @@ RPM_HASH = "f2e20f96e9fe3a667ad0df9db52fd95159d7afd40b58b2a52e2c12269591b8ec63c5
 
 RPROVIDES:${PN} += "python311-libvsgpt \
 python311-libvsgpt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pwebmac.tex) \
 texlive-pwebmac"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

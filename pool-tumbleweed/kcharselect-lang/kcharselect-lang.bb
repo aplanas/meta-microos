@@ -79,6 +79,7 @@ locale(kcharselect:ug) \
 locale(kcharselect:uk) \
 locale(kcharselect:zh_CN) \
 locale(kcharselect:zh_TW)"
+
 RDEPENDS:${PN} += "kcharselect"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-mongoengine \
 python3.10dist(mongoengine) \
 python310-mongoengine \
 python3dist(mongoengine)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-blinker \
 python310-pymongo"

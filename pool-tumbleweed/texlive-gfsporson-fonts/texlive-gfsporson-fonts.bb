@@ -13,6 +13,7 @@ font(:lang=el) \
 font(gfsporson) \
 font(gfsporsonrg) \
 texlive-gfsporson-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

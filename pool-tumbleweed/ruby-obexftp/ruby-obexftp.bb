@@ -12,6 +12,7 @@ RPM_HASH = "9c48d75047fc3f4759b9aa4bae663458dcb25790ccfe9752a960312452f80981933e
 
 RPROVIDES:${PN} += "ruby-obexftp \
 ruby-obexftp(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libobexftp.so.0()(64bit) \
 obexftp \

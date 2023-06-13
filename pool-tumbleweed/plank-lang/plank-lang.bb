@@ -65,6 +65,7 @@ locale(plank:zh_CN) \
 locale(plank:zh_TW) \
 plank-lang \
 plank-lang-all"
+
 RDEPENDS:${PN} += "plank"
 
 inherit rpm

@@ -12,6 +12,7 @@ kaccounts-providers(aarch-64) \
 metainfo() \
 metainfo(org.kde.kaccounts.nextcloud.appdata.xml) \
 metainfo(org.kde.kaccounts.owncloud.appdata.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

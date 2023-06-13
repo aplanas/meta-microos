@@ -11,6 +11,7 @@ RPM_HASH = "766746f9d3b015a6c0f6cd9c93378f8917c63cab023cffa0b2b7b9a7df8f828dd063
 
 RPROVIDES:${PN} += "xclock \
 xclock(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

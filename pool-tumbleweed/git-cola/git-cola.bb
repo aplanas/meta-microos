@@ -20,6 +20,7 @@ metainfo(git-dag.appdata.xml) \
 mimehandler(inode/directory) \
 python3.10dist(git-cola) \
 python3dist(git-cola)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/python3.10 \

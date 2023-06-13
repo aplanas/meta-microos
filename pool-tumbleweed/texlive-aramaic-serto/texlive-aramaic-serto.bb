@@ -26,6 +26,7 @@ tex(syriac.sty) \
 tex(uassyr.fd) \
 tex(userto.fd) \
 texlive-aramaic-serto"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

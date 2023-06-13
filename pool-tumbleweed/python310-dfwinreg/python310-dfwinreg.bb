@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dfwinreg \
 python3.10dist(dfwinreg) \
 python310-dfwinreg \
 python3dist(dfwinreg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-libcreg \
 python310-libregf"

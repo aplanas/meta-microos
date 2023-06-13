@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-widget-tweaks) \
 python39-django-widget-tweaks \
 python3dist(django-widget-tweaks)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

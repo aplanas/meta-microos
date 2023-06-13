@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(matc3.sty) \
 texlive-matc3"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

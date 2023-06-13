@@ -62,6 +62,7 @@ firmware(qcom/sm8250/cdspr.jsn) \
 firmware(qcom/yamato_pfp.fw) \
 firmware(qcom/yamato_pm4.fw) \
 kernel-firmware-qcom"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

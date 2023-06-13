@@ -12,6 +12,7 @@ RPM_HASH = "1d538353652cd15ee66562a5176e8f624dca93e2456299c4165a23b541e5d040f486
 RPROVIDES:${PN} += "libexpat.so.1()(64bit) \
 libexpat1 \
 libexpat1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

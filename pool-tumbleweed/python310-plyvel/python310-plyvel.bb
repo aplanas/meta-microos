@@ -17,6 +17,7 @@ python3.10dist(plyvel) \
 python310-plyvel \
 python310-plyvel(aarch-64) \
 python3dist(plyvel)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

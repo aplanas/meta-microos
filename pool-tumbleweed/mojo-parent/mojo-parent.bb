@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mojo-parent \
 mvn(org.codehaus.mojo:mojo-parent:pom:) \
 mvn(org.codehaus.mojo:mojo:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.junit:junit-bom:pom:)"

@@ -16,6 +16,7 @@ RPM_HASH = "ee70173593e9e147795a78dc60a4bb3841b20d1db7a6bae1f834f6b099c746fa970e
 RPROVIDES:${PN} += "libmpcdec.so.6()(64bit) \
 libmpcdec6 \
 libmpcdec6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

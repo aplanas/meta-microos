@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(beilstein.cls) \
 texlive-beilstein"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

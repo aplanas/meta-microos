@@ -12,6 +12,7 @@ python3-GDAL(aarch-64) \
 python3-gdal \
 python3.10dist(gdal) \
 python3dist(gdal)"
+
 RDEPENDS:${PN} += "gdal \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

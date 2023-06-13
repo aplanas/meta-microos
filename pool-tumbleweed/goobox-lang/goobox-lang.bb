@@ -54,6 +54,7 @@ locale(goobox:tr) \
 locale(goobox:vi) \
 locale(goobox:zh_CN) \
 locale(goobox:zh_TW)"
+
 RDEPENDS:${PN} += "goobox"
 
 inherit rpm

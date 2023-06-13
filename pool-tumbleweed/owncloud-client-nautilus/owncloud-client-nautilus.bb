@@ -10,6 +10,7 @@ RPM_HASH = "e20f8e6b7cb799ca2298dc60a80657b83f0db47e1887b99d12fecf2c50c33e84a613
 
 RPROVIDES:${PN} += "owncloud-client-nautilus \
 owncloud-client-nautilus(aarch-64)"
+
 RDEPENDS:${PN} += "nautilus \
 owncloud-client(aarch-64) \
 python3-nautilus"

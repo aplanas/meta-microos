@@ -9,6 +9,7 @@ RPM_HASH = "1b50eb4bfb2d426b052713b4de4f30e5be3b791cfec8b839f03aecb62d8fd01d4168
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langspanish"
+
 RDEPENDS:${PN} += "texlive-babel-catalan \
 texlive-babel-galician \
 texlive-babel-spanish \

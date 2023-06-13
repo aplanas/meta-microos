@@ -92,6 +92,7 @@ RPM_HASH = "17da02c1b0b62631a425c85d77a7becf704eecf1e93db33c09d6dbb294b81da22878
 RPROVIDES:${PN} += "ghc-lens \
 ghc-lens(aarch-64) \
 libHSlens-5.2.2-2MO0prnPqCQBRfua8fH2Ea-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \
 libHSadjunctions-4.4.2-7RBwcclil4HKBSm6i086HA-ghc9.4.5.so()(64bit) \

@@ -14,6 +14,7 @@ locale(upower:pl) \
 locale(upower:sv) \
 upower-lang \
 upower-lang-all"
+
 RDEPENDS:${PN} += "upower"
 
 inherit rpm

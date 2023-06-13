@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "liboop-devel \
 liboop-devel(aarch-64) \
 pkgconfig(liboop) \
 pkgconfig(liboop-glib2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liboop4 \
 pkgconfig(glib-2.0)"

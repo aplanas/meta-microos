@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(silence.sty) \
 texlive-silence"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

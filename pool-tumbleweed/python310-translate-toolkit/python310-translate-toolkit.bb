@@ -29,6 +29,7 @@ python3.10dist(translate-toolkit) \
 python310-translate-toolkit \
 python3dist(translate-toolkit) \
 translate-toolkit"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.10 \

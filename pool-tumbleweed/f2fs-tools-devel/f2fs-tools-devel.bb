@@ -9,6 +9,7 @@ RPM_HASH = "48c4b591e6a7ae029279e635863d501f82720ec23514bc97ef98c60e4c1316a9009b
 
 RPROVIDES:${PN} += "f2fs-tools-devel \
 f2fs-tools-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libf2fs9 \
 libf2fs_format8"
 

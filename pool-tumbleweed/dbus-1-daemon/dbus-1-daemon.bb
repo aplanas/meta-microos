@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "dbus-1-daemon \
 dbus-1-daemon(aarch-64) \
 dbus-1:/usr/bin/dbus-daemon \
 dbus-service"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaudit.so.1()(64bit) \

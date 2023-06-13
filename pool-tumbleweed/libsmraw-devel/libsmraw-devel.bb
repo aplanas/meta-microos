@@ -13,6 +13,7 @@ RPM_HASH = "0cb5973466fd3d789a492f6aec56f97f681bbc6857485cffa590cff2dbde402119f7
 RPROVIDES:${PN} += "libsmraw-devel \
 libsmraw-devel(aarch-64) \
 pkgconfig(libsmraw)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libsmraw1"

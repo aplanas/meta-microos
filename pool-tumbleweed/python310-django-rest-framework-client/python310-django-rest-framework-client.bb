@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-rest-framework-client \
 python3.10dist(django-rest-framework-client) \
 python310-django-rest-framework-client \
 python3dist(django-rest-framework-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-requests"

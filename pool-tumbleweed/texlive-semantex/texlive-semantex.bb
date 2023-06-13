@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(semantex.sty) \
 tex(stripsemantex.sty) \
 texlive-semantex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

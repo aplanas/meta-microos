@@ -10,6 +10,7 @@ RPM_HASH = "c71a76518397edecb7e875379548ab2384b86ba610732de4210a429584c3a4105a82
 RPROVIDES:${PN} += "libgci-1-0_0_0 \
 libgci-1-0_0_0(aarch-64) \
 libgci-1.so.0.0.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

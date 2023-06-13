@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(libzip) \
 libzip-devel \
 libzip-devel(aarch-64) \
 pkgconfig(libzip)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libzip5"

@@ -12,6 +12,7 @@ RPM_HASH = "ee1f1bbe65664db1d28344da3af08992f44dc04b8d70cdd1a1277330f8450a6d08e3
 RPROVIDES:${PN} += "libmetrics.so.0()(64bit) \
 libmetrics0 \
 libmetrics0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

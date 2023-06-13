@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "jackson-datatype-hppc \
 mvn(com.fasterxml.jackson.datatype:jackson-datatype-hppc) \
 mvn(com.fasterxml.jackson.datatype:jackson-datatype-hppc:pom:) \
 osgi(com.fasterxml.jackson.datatype.jackson-datatype-hppc)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.carrotsearch:hppc) \

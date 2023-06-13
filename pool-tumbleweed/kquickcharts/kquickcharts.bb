@@ -18,6 +18,7 @@ libQuickCharts.so()(64bit) \
 libQuickChartsControls.so()(64bit) \
 qt5qmlimport(org.kde.quickcharts.1) \
 qt5qmlimport(org.kde.quickcharts.controls.1)"
+
 RDEPENDS:${PN} += "kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

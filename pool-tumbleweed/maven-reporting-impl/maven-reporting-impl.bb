@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-reporting-impl \
 mvn(org.apache.maven.reporting:maven-reporting-impl) \
 mvn(org.apache.maven.reporting:maven-reporting-impl:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.doxia:doxia-core) \

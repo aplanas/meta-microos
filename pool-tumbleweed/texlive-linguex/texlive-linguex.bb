@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(linguex.sty) \
 tex(linguho.sty) \
 tex(ps-trees.sty) \
 texlive-linguex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

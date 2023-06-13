@@ -10,6 +10,7 @@ RPM_HASH = "61fcfe13a85cc1879fff0fe401d25e753933947a4036944924289d5f12727e77f3d4
 
 RPROVIDES:${PN} += "gasket-driver-ueficert \
 gasket-driver-ueficert(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 suse-kernel-rpm-scriptlets"
 

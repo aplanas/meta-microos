@@ -10,6 +10,7 @@ RPM_HASH = "37000d0271ac82fc31bc2e34e23f9dfa85f59f70cff903bba732aa7122c6c1116c9a
 RPROVIDES:${PN} += "libxml2 \
 libxml2-tools \
 libxml2-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

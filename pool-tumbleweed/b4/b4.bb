@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "b4 \
 python3.10dist(b4) \
 python3dist(b4)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 git-core \
 git-filter-repo \

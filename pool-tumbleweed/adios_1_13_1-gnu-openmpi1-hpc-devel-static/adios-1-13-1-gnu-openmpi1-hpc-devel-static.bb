@@ -14,6 +14,7 @@ RPM_HASH = "46299c1a18620bfe4f0602f46b2e8e8f7be3eeb37fda19309d4b5f63ec77c603c942
 
 RPROVIDES:${PN} += "adios_1_13_1-gnu-openmpi1-hpc-devel-static \
 adios_1_13_1-gnu-openmpi1-hpc-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

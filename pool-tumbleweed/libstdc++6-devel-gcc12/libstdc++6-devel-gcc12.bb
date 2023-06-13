@@ -10,6 +10,7 @@ RPM_HASH = "0af2541fe3923751016e2f78f2ddb17e19b43a0fe26c21cf3bdfaec080752c5bf7fc
 
 RPROVIDES:${PN} += "libstdc++6-devel-gcc12 \
 libstdc++6-devel-gcc12(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libstdc++6"
 

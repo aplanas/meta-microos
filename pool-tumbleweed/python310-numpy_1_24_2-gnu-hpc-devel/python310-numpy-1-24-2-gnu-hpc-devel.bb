@@ -10,6 +10,7 @@ RPM_HASH = "3cfd666c1f4272ddd612cf7565f663bdaf5d413d02c0e5227ae4e8e5d94a9dfa679b
 RPROVIDES:${PN} += "python3-numpy_1_24_2-gnu-hpc-devel \
 python310-numpy_1_24_2-gnu-hpc-devel \
 python310-numpy_1_24_2-gnu-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libopenblas-gnu-hpc-devel \
 python(abi) \
 python310-devel \

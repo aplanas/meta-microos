@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-beartype \
 python3.10dist(beartype) \
 python310-beartype \
 python3dist(beartype)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

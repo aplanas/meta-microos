@@ -9,6 +9,7 @@ RPM_HASH = "c1d8b3956b627f8afc547310c693f6b5fe56650e9a1f3903dd66381dea4e89bc294a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-marvosym-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

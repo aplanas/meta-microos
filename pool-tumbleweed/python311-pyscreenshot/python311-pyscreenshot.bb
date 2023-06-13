@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyscreenshot) \
 python311-pyscreenshot \
 python3dist(pyscreenshot)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-EasyProcess \
 python311-entrypoint2 \

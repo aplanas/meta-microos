@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(deprecated) \
 python39-Deprecated \
 python39-deprecated \
 python3dist(deprecated)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-wrapt"
 

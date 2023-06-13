@@ -11,6 +11,7 @@ RPM_HASH = "5c04c2771d997e99e469a26bb8405f3d6bd0a000cb3281b98f86c81f517226ce65f3
 RPROVIDES:${PN} += "libnghttp2-14 \
 libnghttp2-14(aarch-64) \
 libnghttp2.so.14()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

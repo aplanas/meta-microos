@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(euclideangeometry.sty) \
 texlive-euclideangeometry"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

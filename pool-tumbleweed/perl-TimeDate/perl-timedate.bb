@@ -62,6 +62,7 @@ perl(Date::Parse) \
 perl(Time::Zone) \
 perl(TimeDate) \
 perl-TimeDate"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

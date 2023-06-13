@@ -22,6 +22,7 @@ tex(testidx-glossaries-samples.tex) \
 tex(testidx-glossaries.sty) \
 tex(testidx.sty) \
 texlive-testidx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

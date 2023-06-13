@@ -9,6 +9,7 @@ RPM_HASH = "fde1649e519c3bac39b04d0bc668fe2d2709b0169f32b8054353fe998a2d75e696e7
 
 RPROVIDES:${PN} += "xlogo \
 xlogo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSM.so.6()(64bit) \

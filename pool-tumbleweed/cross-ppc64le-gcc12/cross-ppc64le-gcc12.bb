@@ -12,6 +12,7 @@ RPM_HASH = "abcfcf56400fd22123068b5da84e2440cb3f8960c754b1ae3b82f4c4ec90d39acd23
 
 RPROVIDES:${PN} += "cross-ppc64le-gcc12 \
 cross-ppc64le-gcc12(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-ppc64le-binutils \
 libstdc++6-devel-gcc12 \

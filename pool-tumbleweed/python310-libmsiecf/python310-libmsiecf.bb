@@ -10,6 +10,7 @@ RPM_HASH = "a8623a55231a40774652e860e4a6b83f10650c77bea3dbda1ce3d58b50fa697b8c1a
 RPROVIDES:${PN} += "python3-libmsiecf \
 python310-libmsiecf \
 python310-libmsiecf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

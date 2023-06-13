@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6WebSockets) \
 pkgconfig(Qt6WebSockets) \
 qt6-websockets-devel \
 qt6-websockets-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Network) \
 libQt6WebSockets6 \

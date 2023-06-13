@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "terminology-theme \
 terminology-theme-openSUSE-oliveleaf"
+
 RDEPENDS:${PN} += "terminology"
 
 inherit rpm

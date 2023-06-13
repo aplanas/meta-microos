@@ -15,6 +15,7 @@ cmake(KF5AkonadiContact) \
 cmake(KF5ContactEditor) \
 cmake(KPim5AkonadiContact) \
 cmake(KPim5ContactEditor)"
+
 RDEPENDS:${PN} += "akonadi-contact \
 cmake(Grantlee5) \
 cmake(KF5Contacts) \

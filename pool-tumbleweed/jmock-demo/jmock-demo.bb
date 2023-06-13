@@ -18,6 +18,7 @@ RPM_HASH = "c734f6051291a6148b09623faa0dbbcdc1fc36920430c8bd0091610321d8b44bfd30
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jmock-demo"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

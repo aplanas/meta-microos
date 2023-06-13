@@ -168,6 +168,7 @@ font(nunitoextralight) \
 font(nunitolight) \
 font(nunitosemibold) \
 texlive-nunito-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

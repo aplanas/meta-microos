@@ -60,6 +60,7 @@ locale(polkit-gnome:zh_HK) \
 locale(polkit-gnome:zh_TW) \
 polkit-gnome-lang \
 polkit-gnome-lang-all"
+
 RDEPENDS:${PN} += "polkit-gnome"
 
 inherit rpm

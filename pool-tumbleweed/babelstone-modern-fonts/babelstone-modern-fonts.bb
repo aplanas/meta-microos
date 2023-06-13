@@ -9,6 +9,7 @@ RPM_HASH = "7eac1336d03b2ada0d5bb280aeed41281d53d9d0d88d8d694e052c5909655f7b1013
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "babelstone-modern-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -14,6 +14,7 @@ RPM_HASH = "85c34fcf151f7d5c0a4dbe6a74cc713ecc1d1183d2b37ff83ca17a6e9b4cdb0a1ee4
 RPROVIDES:${PN} += "libColPack.so.0()(64bit) \
 libColPack0 \
 libColPack0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

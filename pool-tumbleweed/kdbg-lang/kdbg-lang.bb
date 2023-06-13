@@ -30,6 +30,7 @@ locale(kdbg:sr) \
 locale(kdbg:sv) \
 locale(kdbg:tr) \
 locale(kdbg:zh_CN)"
+
 RDEPENDS:${PN} += "kdbg"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "fb1b7913e2f17fa487ff0d302ac20acba5eb194b4a3d17b829c6350bd8f8fa3d8a67
 RPROVIDES:${PN} += "libsharpyuv.so.0()(64bit) \
 libsharpyuv0 \
 libsharpyuv0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "1eda842e47db3d0a4f95f406e02a10f7055cca9c1c076dfdcf942f5fc1a0836851e8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-formatsextra"
+
 RDEPENDS:${PN} += "texlive-aleph \
 texlive-antomega \
 texlive-collection-basic \

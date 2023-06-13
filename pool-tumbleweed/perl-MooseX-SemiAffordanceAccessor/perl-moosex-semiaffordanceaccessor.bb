@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(MooseX::SemiAffordanceAccessor) \
 perl(MooseX::SemiAffordanceAccessor::Role::Attribute) \
 perl-MooseX-SemiAffordanceAccessor"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(Moose::Exporter) \

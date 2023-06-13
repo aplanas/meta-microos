@@ -9,6 +9,7 @@ RPM_HASH = "bf10f6a4d7fabb16b6abb88345504ad3674a00d572984bf4311460eb73f71877e1dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikzpfeile-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

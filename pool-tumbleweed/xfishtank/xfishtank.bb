@@ -9,6 +9,7 @@ RPM_HASH = "ae408341e679ade02ca1dcbe759970f353450cc4e9fe01bd0efb98f32539b33e9880
 
 RPROVIDES:${PN} += "xfishtank \
 xfishtank(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libImlib2.so.1()(64bit) \

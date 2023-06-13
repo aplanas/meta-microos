@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-python-sofa \
 python3.10dist(python-sofa) \
 python310-python-sofa \
 python3dist(python-sofa)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-netCDF4 \
 python310-numpy \

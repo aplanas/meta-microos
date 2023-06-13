@@ -11,6 +11,7 @@ RPM_HASH = "55d4bf9d7462c713630ffe1121c139307721e9a9662480a9e05d3af026bd1c1a4086
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang-github-shadowsocks-v2ray-plugin"
+
 RDEPENDS:${PN} += "golang-github-v2fly-v2ray-core"
 
 inherit rpm

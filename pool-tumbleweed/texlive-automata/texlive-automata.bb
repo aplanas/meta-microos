@@ -14,6 +14,7 @@ RPM_HASH = "a98df2dc31756d9f41d665da1f9776049266b994e7c577af5066bd564696913980e0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-automata"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

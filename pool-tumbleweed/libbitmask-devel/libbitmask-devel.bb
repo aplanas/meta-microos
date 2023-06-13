@@ -12,6 +12,7 @@ RPM_HASH = "2dcb0efaf8efc3ab44b9acce078330b3636ed5807dd45f59ca7ad8257377a9d4888f
 
 RPROVIDES:${PN} += "libbitmask-devel \
 libbitmask-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libbitmask1"
 
 inherit rpm

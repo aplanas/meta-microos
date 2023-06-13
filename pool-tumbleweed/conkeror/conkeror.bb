@@ -28,6 +28,7 @@ mimehandler(text/html) \
 mimehandler(text/xml) \
 mimehandler(x-scheme-handler/http) \
 mimehandler(x-scheme-handler/https)"
+
 RDEPENDS:${PN} += "/bin/sh \
 firefox \
 libc.so.6(GLIBC_2.34)(64bit)"

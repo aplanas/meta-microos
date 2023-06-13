@@ -12,6 +12,7 @@ RPM_HASH = "77a87d32d5a63c4168d89e2dbeaa77b6e276c339ea3a4122869745237904698ddc84
 
 RPROVIDES:${PN} += "python39-mathgl \
 python39-mathgl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

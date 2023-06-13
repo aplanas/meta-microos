@@ -10,6 +10,7 @@ RPM_HASH = "24df8405185df14c8578916184305805661700743756f2533828dab68cc064f67ea1
 RPROVIDES:${PN} += "liblldp_clif.so.1()(64bit) \
 liblldp_clif1 \
 liblldp_clif1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

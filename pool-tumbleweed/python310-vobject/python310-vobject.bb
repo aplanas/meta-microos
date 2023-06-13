@@ -16,6 +16,7 @@ python3.10dist(vobject) \
 python310-vobject \
 python3dist(vobject) \
 vobject"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

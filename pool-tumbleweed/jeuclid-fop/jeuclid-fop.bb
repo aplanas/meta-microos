@@ -23,6 +23,7 @@ RPM_HASH = "be28e6efaea0fe951ea15b1af732290d2258f157d8ee3d5e683f7a78510d1849f7d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeuclid-fop"
+
 RDEPENDS:${PN} += "jeuclid \
 xmlgraphics-fop"
 

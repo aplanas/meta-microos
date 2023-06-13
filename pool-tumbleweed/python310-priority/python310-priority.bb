@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-priority \
 python3.10dist(priority) \
 python310-priority \
 python3dist(priority)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

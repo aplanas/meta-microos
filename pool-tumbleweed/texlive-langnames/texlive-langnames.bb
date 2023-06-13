@@ -22,6 +22,7 @@ tex(ln_langs_glot_native.tex) \
 tex(ln_langs_wals.tex) \
 tex(ln_langs_wals_native.tex) \
 texlive-langnames"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

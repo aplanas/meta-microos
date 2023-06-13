@@ -52,6 +52,7 @@ mimehandler(application/tup) \
 tupi \
 tupitube \
 tupitube(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ffmpeg \
 ld-linux-aarch64.so.1()(64bit) \

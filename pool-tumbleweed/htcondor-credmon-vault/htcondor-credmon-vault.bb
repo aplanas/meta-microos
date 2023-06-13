@@ -10,6 +10,7 @@ RPM_HASH = "5e2d3f8f50d048895902d9b1bfbef38eddaa043a29e52b6462b840de5a395caa6262
 
 RPROVIDES:${PN} += "htcondor-credmon-vault \
 htcondor-credmon-vault(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 htcondor \

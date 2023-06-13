@@ -10,6 +10,7 @@ RPM_HASH = "e94ca74597abee11012145ed405ba3116112dcbd3b6c9633bd6791804838294aabda
 RPROVIDES:${PN} += "libv3270-devel \
 libv3270-devel(aarch-64) \
 pkgconfig(libv3270)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libv3270-5_4 \
 pkgconfig(gtk+-3.0) \

@@ -12,6 +12,7 @@ RPM_HASH = "3dd76d3954659e90e9f1ec2a3e0821eaa31e3624e0d8190ee6a99d703675a3011a37
 RPROVIDES:${PN} += "libmythes-1.2.so.0()(64bit) \
 libmythes-1_2-0 \
 libmythes-1_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

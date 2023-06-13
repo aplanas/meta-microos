@@ -14,6 +14,7 @@ RPM_HASH = "cf1f20612083c04aaacc3e8e50cc623541970a680b70a6e83e667a8a98cc42f04f21
 RPROVIDES:${PN} += "libcalcium.so.0()(64bit) \
 libcalcium0 \
 libcalcium0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

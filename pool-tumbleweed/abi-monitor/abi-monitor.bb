@@ -10,6 +10,7 @@ RPM_HASH = "473a7f8d5db7eca2409f0b990abcc892b82e1765922227185ebca1fffe51ca4c0dd2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "abi-monitor"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 curl \
 perl-base \

@@ -90,6 +90,7 @@ tex(yrdriw8c.vf) \
 tex(yrdriw8t.tfm) \
 tex(yrdriw8t.vf) \
 texlive-romande"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

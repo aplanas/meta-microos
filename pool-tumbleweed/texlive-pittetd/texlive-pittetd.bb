@@ -17,6 +17,7 @@ tex(pitetd11.clo) \
 tex(pitetd12.clo) \
 tex(pittetd.cls) \
 texlive-pittetd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

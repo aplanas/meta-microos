@@ -13,6 +13,7 @@ RPM_HASH = "9a01b0a81491177d35fc0ffab64a44f73ff5ba143b1a6784cbbce0b345c8cb3ae47b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-swebib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

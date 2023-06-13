@@ -20,6 +20,7 @@ mvn(org.easymock:easymock-test-testng) \
 mvn(org.easymock:easymock-test-testng:pom:) \
 mvn(org.easymock:easymock:pom:) \
 osgi(org.easymock)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(cglib:cglib) \

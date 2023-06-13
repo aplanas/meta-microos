@@ -11,6 +11,7 @@ RPM_HASH = "be1b2d71bda5ca7f40a9d12810e07962c8bbffe63fc4dce11eb062defa197b22b98b
 RPROVIDES:${PN} += "libKPipeWireDmaBuf.so.5()(64bit) \
 libKPipeWireDmaBuf5 \
 libKPipeWireDmaBuf5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

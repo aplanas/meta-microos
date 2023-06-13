@@ -10,6 +10,7 @@ RPM_HASH = "9a2453db5a658a4c55b38a9b6e4f9089ad890c690f4512a28110bc54aaa405e4cf38
 RPROVIDES:${PN} += "pkgconfig(sbc) \
 sbc-devel \
 sbc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsbc1"
 

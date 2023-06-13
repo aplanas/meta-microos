@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-dns \
 python3.10dist(azure-mgmt-dns) \
 python310-azure-mgmt-dns \
 python3dist(azure-mgmt-dns)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-core \

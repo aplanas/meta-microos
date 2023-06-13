@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-paper-common \
 paper-gtk-theme"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

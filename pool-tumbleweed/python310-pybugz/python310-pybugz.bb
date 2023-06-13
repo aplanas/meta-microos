@@ -19,6 +19,7 @@ python3-pybugz \
 python3.10dist(pybugz) \
 python310-pybugz \
 python3dist(pybugz)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

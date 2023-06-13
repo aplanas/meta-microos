@@ -9,6 +9,7 @@ RPM_HASH = "ee10d12dd364af9211a2ff00dd9025ab5a5e167ad0aa29b9850e2c1fe4443b2b6771
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-signchart-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

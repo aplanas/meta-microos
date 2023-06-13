@@ -27,6 +27,7 @@ locale(vorbis-tools:uk) \
 locale(vorbis-tools:vi) \
 vorbis-tools-lang \
 vorbis-tools-lang-all"
+
 RDEPENDS:${PN} += "vorbis-tools"
 
 inherit rpm

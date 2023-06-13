@@ -14,6 +14,7 @@ RPM_HASH = "90de4e39e3f72a98794546686525814f4be93a343aca5d6e598cfdeb641e01cb564f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lv2-docs"
+
 RDEPENDS:${PN} += "lv2"
 
 inherit rpm

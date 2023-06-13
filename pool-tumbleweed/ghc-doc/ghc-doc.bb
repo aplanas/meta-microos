@@ -10,6 +10,7 @@ RPM_HASH = "531b7420df866fe9adfd54e7d3a802b6af20329222374fd13236fa9686dd7a122ace
 
 RPROVIDES:${PN} += "ghc-doc \
 ghc-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

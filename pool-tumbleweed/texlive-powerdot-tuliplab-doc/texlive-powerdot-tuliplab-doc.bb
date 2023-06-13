@@ -9,6 +9,7 @@ RPM_HASH = "4ac884f433953bb880450d3d9b24b270782ea9ac779e69df3578f428a8c9158da24c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-powerdot-tuliplab-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

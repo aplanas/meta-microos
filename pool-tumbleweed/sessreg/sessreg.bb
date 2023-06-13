@@ -11,6 +11,7 @@ RPM_HASH = "387ed99c1e70ffcd97382ea4b23cfdf9c0dc4add35584db5d1059612dbefa631c50e
 
 RPROVIDES:${PN} += "sessreg \
 sessreg(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

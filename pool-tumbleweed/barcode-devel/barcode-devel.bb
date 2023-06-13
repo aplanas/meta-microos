@@ -13,6 +13,7 @@ RPM_HASH = "1052a9928c1ee21a1d308213a38cf69fb8d23dc62c1453091c9c55c07efbb5e3db1f
 
 RPROVIDES:${PN} += "barcode-devel \
 barcode-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

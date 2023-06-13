@@ -16,6 +16,7 @@ librxtxParallel-2.2pre2.so()(64bit) \
 librxtxRS485-2.2pre2.so()(64bit) \
 librxtxRaw-2.2pre2.so()(64bit) \
 librxtxSerial-2.2pre2.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

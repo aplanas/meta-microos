@@ -9,6 +9,7 @@ RPM_HASH = "06d736298a16b8b06abb9f6e9445e49af27328cec6042975ed23bb187f1a12246a05
 
 RPROVIDES:${PN} += "libpano-utils \
 libpano-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

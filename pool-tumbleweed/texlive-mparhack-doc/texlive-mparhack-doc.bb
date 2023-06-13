@@ -9,6 +9,7 @@ RPM_HASH = "074ff595000eee8a3d7ee5c4aa88c077cebebc0f725be92480f2ab3c5df5c6a3c76e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mparhack-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

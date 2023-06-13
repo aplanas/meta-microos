@@ -18,6 +18,7 @@ python39-pylons-sphinx-themes \
 python39-pylons_sphinx_theme \
 python39-pylons_theme_support \
 python3dist(pylons-sphinx-themes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Pygments"
 

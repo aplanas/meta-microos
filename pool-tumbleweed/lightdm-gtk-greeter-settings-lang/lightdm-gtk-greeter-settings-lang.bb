@@ -33,6 +33,7 @@ locale(lightdm-gtk-greeter-settings:ru) \
 locale(lightdm-gtk-greeter-settings:sr) \
 locale(lightdm-gtk-greeter-settings:sv) \
 locale(lightdm-gtk-greeter-settings:zh_CN)"
+
 RDEPENDS:${PN} += "lightdm-gtk-greeter-settings"
 
 inherit rpm

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:po_to_json) \
 rubygem(ruby:3.2.0:po_to_json:1) \
 rubygem(ruby:3.2.0:po_to_json:1.0) \
 rubygem(ruby:3.2.0:po_to_json:1.0.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:json)"
 

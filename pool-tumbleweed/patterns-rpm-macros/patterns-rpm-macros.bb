@@ -30,6 +30,7 @@ rpm_macro(pattern_proprietarysoftware) \
 rpm_macro(pattern_publicclouds) \
 rpm_macro(pattern_serverfunctions) \
 rpm_macro(pattern_xfcedesktop)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

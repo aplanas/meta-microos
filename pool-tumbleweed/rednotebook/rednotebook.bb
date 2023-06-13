@@ -18,6 +18,7 @@ metainfo(rednotebook.appdata.xml) \
 python3.10dist(rednotebook) \
 python3dist(rednotebook) \
 rednotebook"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PyYAML \

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(mfirstuc-2021-10-15.sty) \
 tex(mfirstuc-english.sty) \
 tex(mfirstuc.sty) \
 texlive-mfirstuc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

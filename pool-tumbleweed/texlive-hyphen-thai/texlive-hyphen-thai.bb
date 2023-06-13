@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(hyph-th.lth.tex) \
 tex(hyph-th.tex) \
 tex(loadhyph-th.tex) \
 texlive-hyphen-thai"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

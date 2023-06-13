@@ -21,6 +21,7 @@ font(mc2) \
 font(mr) \
 font(mr2) \
 texlive-wadalab-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

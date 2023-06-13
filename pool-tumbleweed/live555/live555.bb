@@ -11,6 +11,7 @@ RPM_HASH = "427a9ae916c41a22da7096e0b08598b32c1811ecfcf145b89c074defdb5028515214
 
 RPROVIDES:${PN} += "live555 \
 live555(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libBasicUsageEnvironment.so.2()(64bit) \

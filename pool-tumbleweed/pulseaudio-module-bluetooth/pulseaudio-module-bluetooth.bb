@@ -14,6 +14,7 @@ RPM_HASH = "3b3f626cbc43fd6a54db94384731c5956c56baba35dae98bc319bd0f2f984dde6110
 RPROVIDES:${PN} += "libbluez5-util.so()(64bit) \
 pulseaudio-module-bluetooth \
 pulseaudio-module-bluetooth(aarch-64)"
+
 RDEPENDS:${PN} += "bluez \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

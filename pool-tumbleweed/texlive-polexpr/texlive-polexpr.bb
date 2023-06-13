@@ -27,6 +27,7 @@ tex(polexprcore.tex) \
 tex(polexprexpr.tex) \
 tex(polexprsturm.tex) \
 texlive-polexpr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

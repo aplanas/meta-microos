@@ -17,6 +17,7 @@ metainfo() \
 metainfo(net.mancubus.SLADE.metainfo.xml) \
 slade \
 slade(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLEW.so.2.2()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "d2a7af0ce523088596a2d9cdad063f5d24fd62dcba4843679eb400abb00acf5ff480
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-clearsans-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

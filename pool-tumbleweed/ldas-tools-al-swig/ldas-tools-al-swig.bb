@@ -10,6 +10,7 @@ RPM_HASH = "63c160c234338ff64c47588ea58fd2b0885f4e8a1082087972acd35b04bfb865c53e
 RPROVIDES:${PN} += "ldas-tools-al-swig \
 ldas-tools-al-swig(aarch-64) \
 python2-ldas-tools-al-swig"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

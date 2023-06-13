@@ -10,6 +10,7 @@ RPM_HASH = "6b8bda931a56186e2a91f780a0e32d45fae8931a6f0920c4a0b2f9ef4ffd2d4e46d0
 RPROVIDES:${PN} += "ghc-prof(tasty-quickcheck-0.10.2-35bOuuNPLunDPSjWY1CT1e) \
 ghc-tasty-quickcheck-prof \
 ghc-tasty-quickcheck-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(QuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(optparse-applicative-0.17.0.0-FKlMMFcKpwNJEuIq63gWOB) \

@@ -11,6 +11,7 @@ RPM_HASH = "5898e021798a78b44390eedbdbbbfed5907194bf0bd2d7c803b1f06d1ae1d019606a
 RPROVIDES:${PN} += "ghc-tls-session-manager \
 ghc-tls-session-manager(aarch-64) \
 libHStls-session-manager-0.0.4-1K8vLYLuq115RYgesNa5lw-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk-ghc9.4.5.so()(64bit) \
 libHSasn1-parse-0.9.5-EPDirjvv9Ch16KeQVAexUV-ghc9.4.5.so()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "47edf4c5bd6b04e014d4a6ded7e31e9ff2b669db1877719a8f49b93e1d474577008b
 RPROVIDES:${PN} += "libxmlsec1-gcrypt.so.1()(64bit) \
 libxmlsec1-gcrypt1 \
 libxmlsec1-gcrypt1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcrypt.so.20()(64bit) \

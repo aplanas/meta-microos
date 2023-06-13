@@ -10,6 +10,7 @@ RPM_HASH = "baed0684fd8a32a13aa329bdfe3d8c8a52846fd15fabec542cf72f2dca8e8a6f7bb5
 RPROVIDES:${PN} += "ecryptfs-utils-devel \
 ecryptfs-utils-devel(aarch-64) \
 pkgconfig(libecryptfs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libecryptfs1"
 

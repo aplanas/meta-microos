@@ -10,6 +10,7 @@ RPM_HASH = "8d236f153722a5ec6c1bdee09175852f11b6ada231a3c5e58fe1bb84940f22fe1882
 
 RPROVIDES:${PN} += "diffstat \
 diffstat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

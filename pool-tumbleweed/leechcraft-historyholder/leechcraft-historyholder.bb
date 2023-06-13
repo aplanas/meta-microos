@@ -12,6 +12,7 @@ RPM_HASH = "c11aaa453340da4308153d6a10018bf05f0eca48ee33e8087ff8edd22a6a65cdfc37
 RPROVIDES:${PN} += "leechcraft-historyholder \
 leechcraft-historyholder(aarch-64) \
 libleechcraft_historyholder.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

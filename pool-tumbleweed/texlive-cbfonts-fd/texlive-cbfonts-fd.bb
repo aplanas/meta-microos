@@ -22,6 +22,7 @@ tex(lgrlmro.fd) \
 tex(lgrlmss.fd) \
 tex(lgrlmtt.fd) \
 texlive-cbfonts-fd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

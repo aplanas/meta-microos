@@ -9,6 +9,7 @@ RPM_HASH = "fbce68990d99c19676820133afba5d1682f484446ee0f4539900957dcc6e1a1d61a6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-testhyphens-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-tap.py \
 python3.10dist(tap.py) \
 python310-tap.py \
 python3dist(tap.py)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

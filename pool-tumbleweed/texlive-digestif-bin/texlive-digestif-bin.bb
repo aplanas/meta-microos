@@ -9,6 +9,7 @@ RPM_HASH = "cd292fb4694312ac635aced32fa421c1e523fb3543a9cfe15971185017112207bd11
 
 RPROVIDES:${PN} += "texlive-digestif-bin \
 texlive-digestif-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-digestif"
 
 inherit rpm

@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-debtcollector \
 python3.10dist(debtcollector) \
 python3dist(debtcollector)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-importlib-metadata \
 python3-pbr \

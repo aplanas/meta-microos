@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ticollege.sty) \
 texlive-ticollege"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

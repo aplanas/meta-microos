@@ -33,6 +33,7 @@ perl(MooseX::Declare::Syntax::OptionHandling) \
 perl(MooseX::Declare::Syntax::RoleApplication) \
 perl(MooseX::Declare::Util) \
 perl-MooseX-Declare"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::Declare) \
 perl(Devel::Declare::Context::Simple) \

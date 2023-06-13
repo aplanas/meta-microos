@@ -9,6 +9,7 @@ RPM_HASH = "37a7cfbc94c324c4e731fe8bb96c29df3ce16f6c8b3a7b6e917b8e819bacfb6fa7b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kustomize-bash-completion"
+
 RDEPENDS:${PN} += "kustomize"
 
 inherit rpm

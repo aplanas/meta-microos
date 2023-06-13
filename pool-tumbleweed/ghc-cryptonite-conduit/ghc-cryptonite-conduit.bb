@@ -14,6 +14,7 @@ RPM_HASH = "462e0ffb3a0ee9af85a63148d6f088702b0858940e49dbf2641bfa7a275276c6c6c8
 RPROVIDES:${PN} += "ghc-cryptonite-conduit \
 ghc-cryptonite-conduit(aarch-64) \
 libHScryptonite-conduit-0.2.2-Ic5yZAN3MwnLmQgFse4azZ-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "760bbc6de2f52c4d40bfd0af7e2a7f3a6612dc5d2ded7fa55b7f3a70958ad1ff8d36
 RPROVIDES:${PN} += "budgie-showtime-applet \
 budgie-showtime-applet(aarch-64) \
 libbudgieshowtime.so()(64bit)"
+
 RDEPENDS:${PN} += "budgie-extras-lang \
 dconf \
 ld-linux-aarch64.so.1()(64bit) \

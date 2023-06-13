@@ -21,6 +21,7 @@ RPM_HASH = "916011affd16b7f9d5640e31d14fcb1f965d56eccef6ac65ebd2a8f9288259152248
 
 RPROVIDES:${PN} += "s3backer \
 s3backer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

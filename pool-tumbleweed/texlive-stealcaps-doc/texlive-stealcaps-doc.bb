@@ -9,6 +9,7 @@ RPM_HASH = "ca8086d24afeac85bb03d353f00fb64486315c2d7aa7365d13651fb3bbd0fe0e5f2b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stealcaps-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

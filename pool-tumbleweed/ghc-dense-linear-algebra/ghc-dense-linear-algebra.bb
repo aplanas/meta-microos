@@ -11,6 +11,7 @@ RPM_HASH = "2f9d60d6c2f09764b13808852ac0a5eaa480ec6438c6893428dace8797d9cd69868b
 RPROVIDES:${PN} += "ghc-dense-linear-algebra \
 ghc-dense-linear-algebra(aarch-64) \
 libHSdense-linear-algebra-0.1.0.0-2PBc2PrDutT32RQREBxCzn-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

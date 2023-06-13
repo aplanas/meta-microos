@@ -15,6 +15,7 @@ RPM_HASH = "602748c734291027f583eb3b47b8ab896c53853fffc9f9877ff1b72a76cd1d8ed825
 RPROVIDES:${PN} += "linbox-devel \
 linbox-devel(aarch-64) \
 pkgconfig(linbox)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/pkg-config \
 liblinbox0 \

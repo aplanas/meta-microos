@@ -10,6 +10,7 @@ RPM_HASH = "ebb18549572816f1cab1595a09c2ab2a6773fdce9e8fe7f0c0b6ac1a8f55a2cef43b
 RPROVIDES:${PN} += "libfastjetcontribfragile \
 libfastjetcontribfragile(aarch-64) \
 libfastjetcontribfragile.so()(64bit)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

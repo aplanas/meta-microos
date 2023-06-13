@@ -12,6 +12,7 @@ RPM_HASH = "71600be0bd46005a2383a2779b3acb5dac709a2b533c8c033da6a4205080e8558451
 
 RPROVIDES:${PN} += "libcpuset-devel \
 libcpuset-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libcpuset1"
 

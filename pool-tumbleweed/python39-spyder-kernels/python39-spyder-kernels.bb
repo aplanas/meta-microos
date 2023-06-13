@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(spyder-kernels) \
 python39-spyder-kernels \
 python3dist(spyder-kernels)"
+
 RDEPENDS:${PN} += "(python39-ipykernel >= 6.16.1 with python39-ipykernel < 7) \
 (python39-ipython >= 7.31.1 with python39-ipython < 9) \
 (python39-jupyter_client >= 7.4.9 with python39-jupyter_client < 9) \

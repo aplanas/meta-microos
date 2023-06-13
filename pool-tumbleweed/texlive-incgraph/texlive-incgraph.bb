@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(incgraph.sty) \
 texlive-incgraph"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

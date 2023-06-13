@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(fake-useragent) \
 python311-fake-useragent \
 python3dist(fake-useragent)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-importlib-resources"
 

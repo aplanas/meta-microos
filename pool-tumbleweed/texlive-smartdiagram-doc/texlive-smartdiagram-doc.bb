@@ -9,6 +9,7 @@ RPM_HASH = "ce0f433bd77651ad4f3d9c4902992eff5cc8036a7bad9d6676443da95e26f41a5f07
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-smartdiagram-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

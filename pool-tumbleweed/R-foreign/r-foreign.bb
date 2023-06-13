@@ -9,6 +9,7 @@ RPM_HASH = "eca8523e3a9819f5c9f1991bb32a1249d4ab59825ddac7aac3bef18b3658ca83d559
 
 RPROVIDES:${PN} += "R-foreign \
 R-foreign(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "027191f50c4c0bd7973fd9c363465d48b3622ce8413ff789622256c2d589281a62ce
 
 RPROVIDES:${PN} += "sndioctl \
 sndioctl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

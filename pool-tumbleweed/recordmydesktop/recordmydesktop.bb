@@ -12,6 +12,7 @@ RPM_HASH = "1613f44077da49baa89bf97f94490b1273d736164376ecb1c78294ce0abaaecf76a8
 
 RPROVIDES:${PN} += "recordmydesktop \
 recordmydesktop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "16eda953a2fadbf9823f1c96cd4fc724b062beaec74f2fde3ef90fead1673ca9af51
 RPROVIDES:${PN} += "typelib(MediaArt) \
 typelib-1_0-MediaArt-2_0 \
 typelib-1_0-MediaArt-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libmediaart-2.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

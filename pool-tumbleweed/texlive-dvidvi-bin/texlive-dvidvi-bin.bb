@@ -9,6 +9,7 @@ RPM_HASH = "36e9fe293407fd0d894292094f47feab24d590b426cabea8f08655735a0ea5fb6249
 
 RPROVIDES:${PN} += "texlive-dvidvi-bin \
 texlive-dvidvi-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "c170d450faffda23e35d8992f6fd3153c8d650af36f727feb0bcf535e411ffad072d
 RPROVIDES:${PN} += "libstaroffice-devel \
 libstaroffice-devel(aarch-64) \
 pkgconfig(libstaroffice-0.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libstaroffice-0_0-0 \
 libstdc++-devel \

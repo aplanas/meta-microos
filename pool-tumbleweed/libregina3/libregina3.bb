@@ -17,6 +17,7 @@ libregina.so.3(regina_3.3)(64bit) \
 libregina.so.3(regina_3.7)(64bit) \
 libregina3 \
 libregina3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

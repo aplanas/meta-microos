@@ -9,6 +9,7 @@ RPM_HASH = "2d0638d1d1a384c4e373d9aad942142967b289f4132b470ad96a96f03e085bc3f104
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tdiff-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 tdiff"
 

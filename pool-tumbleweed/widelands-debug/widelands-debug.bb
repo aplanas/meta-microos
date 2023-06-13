@@ -10,6 +10,7 @@ RPM_HASH = "69a1ffcfcc3d87744c34fe997dd75fe4acd38032e0a210433986fda71bd18849c786
 
 RPROVIDES:${PN} += "widelands-debug \
 widelands-debug(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLEW.so.2.2()(64bit) \

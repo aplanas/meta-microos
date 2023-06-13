@@ -16,6 +16,7 @@ python3.10dist(zeroconf) \
 python310-zeroconf \
 python310-zeroconf(aarch-64) \
 python3dist(zeroconf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-async_timeout \
 python310-ifaddr"

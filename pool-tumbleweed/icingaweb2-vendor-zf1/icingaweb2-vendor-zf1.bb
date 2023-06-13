@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-vendor-Zend \
 icingaweb2-vendor-zf1"
+
 RDEPENDS:${PN} += "icingaweb2-common \
 php"
 

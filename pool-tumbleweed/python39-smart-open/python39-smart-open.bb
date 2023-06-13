@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(smart-open) \
 python39-smart-open \
 python3dist(smart-open)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-core \

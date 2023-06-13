@@ -16,6 +16,7 @@ RPM_HASH = "fd95acc993030b48b18909af67770210337976987f582b3174c74d077969a043adcf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emojione-color-font"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

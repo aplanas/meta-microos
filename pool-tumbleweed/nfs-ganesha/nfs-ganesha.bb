@@ -13,6 +13,7 @@ RPM_HASH = "7e518611d2697c9a620e07914aa2563d5b26539d0fbfcdc9389bceb18870afabd0f0
 RPROVIDES:${PN} += "config(nfs-ganesha) \
 nfs-ganesha \
 nfs-ganesha(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -15,6 +15,7 @@ mimehandler(application/x-kvtml) \
 parley \
 parley(aarch-64) \
 parley5"
+
 RDEPENDS:${PN} += "kdeedu-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

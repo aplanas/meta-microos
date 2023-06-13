@@ -11,6 +11,7 @@ RPM_HASH = "b0d84176bcac18a3ba4a27a09b6a20da1a60e4170f6920480a26e47476f281e6a182
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-daemon-dbus"
+
 RDEPENDS:${PN} += "deepin-daemon"
 
 inherit rpm

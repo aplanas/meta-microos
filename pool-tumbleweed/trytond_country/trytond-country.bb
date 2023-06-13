@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(trytond-country) \
 python3dist(trytond-country) \
 trytond_country"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 proteus \
 python(abi) \

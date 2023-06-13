@@ -18,6 +18,7 @@ python3.10dist(zc.buildout) \
 python310-zc.buildout \
 python310-zc_buildout \
 python3dist(zc.buildout)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

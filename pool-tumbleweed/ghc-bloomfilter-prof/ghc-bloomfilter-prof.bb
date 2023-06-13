@@ -10,6 +10,7 @@ RPM_HASH = "d92c8c2c7d4451f9257bf8e6e60240ffff84b1924a63892a25bda2a8edc13826244e
 RPROVIDES:${PN} += "ghc-bloomfilter-prof \
 ghc-bloomfilter-prof(aarch-64) \
 ghc-prof(bloomfilter-2.0.1.0-3hF1ySDPbPQA7KQQeHgCqI)"
+
 RDEPENDS:${PN} += "ghc-bloomfilter-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

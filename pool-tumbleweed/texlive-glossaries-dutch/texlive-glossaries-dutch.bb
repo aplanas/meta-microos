@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(glossaries-dutch.ldf) \
 texlive-glossaries-dutch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

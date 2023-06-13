@@ -13,6 +13,7 @@ RPM_HASH = "997b29fbf15ae5f854aaa33a96e232b6a5f9a119c15a0055cbb5b6cb155a1a497fde
 
 RPROVIDES:${PN} += "armnn-opencl \
 armnn-opencl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libarmnn.so.32()(64bit) \

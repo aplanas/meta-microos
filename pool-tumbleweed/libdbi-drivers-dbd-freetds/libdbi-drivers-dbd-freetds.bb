@@ -13,6 +13,7 @@ RPM_HASH = "79eb30dc7c936441972cb38cf644d6b04a10b78ebf480e978ce1711d6b3ee3ef04ad
 RPROVIDES:${PN} += "libdbdfreetds.so()(64bit) \
 libdbi-drivers-dbd-freetds \
 libdbi-drivers-dbd-freetds(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

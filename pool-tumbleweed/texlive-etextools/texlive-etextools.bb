@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(etextools.sty) \
 texlive-etextools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

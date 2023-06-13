@@ -53,6 +53,7 @@ locale(artikulate:ug) \
 locale(artikulate:uk) \
 locale(artikulate:zh_CN) \
 locale(artikulate:zh_TW)"
+
 RDEPENDS:${PN} += "artikulate"
 
 inherit rpm

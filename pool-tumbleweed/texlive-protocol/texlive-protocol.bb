@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(protocol.cls) \
 texlive-protocol"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

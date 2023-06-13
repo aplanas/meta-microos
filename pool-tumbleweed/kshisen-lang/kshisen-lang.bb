@@ -79,6 +79,7 @@ locale(kshisen:ug) \
 locale(kshisen:uk) \
 locale(kshisen:zh_CN) \
 locale(kshisen:zh_TW)"
+
 RDEPENDS:${PN} += "kshisen"
 
 inherit rpm

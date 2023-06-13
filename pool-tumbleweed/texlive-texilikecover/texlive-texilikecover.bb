@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(texilikecover.sty) \
 texlive-texilikecover"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

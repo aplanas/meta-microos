@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(speechrecognition) \
 python39-SpeechRecognition \
 python3dist(speechrecognition)"
+
 RDEPENDS:${PN} += "flac \
 python(abi) \
 python-SpeechRecognition-common-en-US \

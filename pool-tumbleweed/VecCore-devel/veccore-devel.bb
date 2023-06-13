@@ -12,6 +12,7 @@ RPM_HASH = "c95ee1d16bd3f2a08aa7ad2d575f5c404ef233c6834a27e17c26ae1113a68c5cecfd
 RPROVIDES:${PN} += "VecCore-devel \
 VecCore-devel(aarch-64) \
 cmake(VecCore)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

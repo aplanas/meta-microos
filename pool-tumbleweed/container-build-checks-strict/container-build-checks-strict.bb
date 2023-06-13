@@ -9,6 +9,7 @@ RPM_HASH = "b85c664516434f63f29ca36454b074c28d3f531b05486d106059e1188a0d3c32a125
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "container-build-checks-strict"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

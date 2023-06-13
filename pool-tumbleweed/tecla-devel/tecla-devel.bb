@@ -10,6 +10,7 @@ RPM_HASH = "e1213692c2e9b3cb8919195ada3e05bec252093103579b34e47f51d20f2389595fda
 
 RPROVIDES:${PN} += "tecla-devel \
 tecla-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtecla_r1"
 
 inherit rpm

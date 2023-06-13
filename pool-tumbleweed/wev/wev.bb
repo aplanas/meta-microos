@@ -10,6 +10,7 @@ RPM_HASH = "c6b15440f89395058964e87b2b75bf141ba3895226a7ba9930bd38629f31ca98b54a
 
 RPROVIDES:${PN} += "wev \
 wev(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

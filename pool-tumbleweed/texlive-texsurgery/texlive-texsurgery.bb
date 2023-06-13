@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(texsurgery.sty) \
 texlive-texsurgery"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

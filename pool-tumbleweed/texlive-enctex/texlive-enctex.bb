@@ -52,6 +52,7 @@ tex(utf8raw.tex) \
 tex(utf8unkn.tex) \
 tex(utf8warn.tex) \
 texlive-enctex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

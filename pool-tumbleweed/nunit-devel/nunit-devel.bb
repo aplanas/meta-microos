@@ -12,6 +12,7 @@ nunit-devel \
 nunit-devel(aarch-64) \
 pkgconfig(mono-nunit) \
 pkgconfig(nunit)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 nunit"
 

@@ -9,6 +9,7 @@ RPM_HASH = "fd3892afe98716102ee078089ff27d25edeffc671b9caa410495bb233a659322f9ec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-smart-eqn-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

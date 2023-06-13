@@ -12,6 +12,7 @@ RPM_HASH = "f6f2301c1c83ff43c2cbeb7fb3561421d19739cdfa9888d4605c7f7794c311f22461
 RPROVIDES:${PN} += "cmake(KSaneCore) \
 ksanecore-devel \
 ksanecore-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Wallet) \
 cmake(KF5WidgetsAddons) \
 cmake(Qt5Gui) \

@@ -147,6 +147,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(umtypewriter) \
 texlive-umtypewriter-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

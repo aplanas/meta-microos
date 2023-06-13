@@ -12,6 +12,7 @@ RPM_HASH = "e03ef7bc30b944dbf56d9dda0b2812339db9f39e6c480c02979bd1917dbfbc9395ea
 RPROVIDES:${PN} += "libkioarchive.so.5()(64bit) \
 libkioarchive5 \
 libkioarchive5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

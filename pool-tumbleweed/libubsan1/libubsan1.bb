@@ -11,6 +11,7 @@ RPM_HASH = "8c69e0c44d14542ff65585d5979c5fa1512950acc93cfb2f31ef97ab970680eff6ff
 RPROVIDES:${PN} += "libubsan.so.1()(64bit) \
 libubsan1 \
 libubsan1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

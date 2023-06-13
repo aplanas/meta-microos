@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "mvn(org.abego.treelayout:org.abego.treelayout.core) \
 mvn(org.abego.treelayout:org.abego.treelayout.core:pom:) \
 osgi(org.abego.treelayout.core) \
 treelayout"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

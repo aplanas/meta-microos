@@ -14,6 +14,7 @@ RPM_HASH = "431e16dd5ac950a4e58a628043c928132fd091842ea4eb712d95c870053538b2dd4e
 RPROVIDES:${PN} += "libpst-devel \
 libpst-devel(aarch-64) \
 pkgconfig(libpst)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpst4"
 

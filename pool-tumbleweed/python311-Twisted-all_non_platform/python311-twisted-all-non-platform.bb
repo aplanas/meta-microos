@@ -12,6 +12,7 @@ RPM_HASH = "eb9e55f74695faffcf561c69578e00eda3d1a23860db43675262e22674f78bb4a294
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-Twisted-all_non_platform"
+
 RDEPENDS:${PN} += "python311-PyHamcrest \
 python311-Twisted-conch \
 python311-Twisted-contextvars \

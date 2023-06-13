@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-docker-pycreds \
 python3.10dist(docker-pycreds) \
 python310-docker-pycreds \
 python3dist(docker-pycreds)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

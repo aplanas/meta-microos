@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mutmut \
 python3.10dist(mutmut) \
 python310-mutmut \
 python3dist(mutmut)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

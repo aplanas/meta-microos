@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-python-qdatamatrix \
 python3.10dist(python-qdatamatrix) \
 python310-python-qdatamatrix \
 python3dist(python-qdatamatrix)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-QtPy \
 python310-python-datamatrix"

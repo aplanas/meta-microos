@@ -20,6 +20,7 @@ libcairo_imlib2_helper.so()(64bit) \
 libimlib2.so()(64bit) \
 librsvg.so()(64bit) \
 libtcp-portmon.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/lua5.1 \
 fontawesome-fonts \

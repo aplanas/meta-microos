@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(wsemclassic.cls) \
 texlive-wsemclassic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

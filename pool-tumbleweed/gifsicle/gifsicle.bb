@@ -24,6 +24,7 @@ RPM_HASH = "811bb5d781e24056b40bfdd389e4dee8a481d7ff8e7c0f7c8792c019dcec6ae7887f
 RPROVIDES:${PN} += "gifsicle \
 gifsicle(aarch-64) \
 ungifsicle"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

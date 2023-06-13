@@ -10,6 +10,7 @@ RPM_HASH = "019db754ec72ef737bccd39835cf28eec0675aa863358d2fb5cc74de14a68b9ab45d
 
 RPROVIDES:${PN} += "python39-matplotlib-tk \
 python39-matplotlib-tk(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Pillow-tk \
 python39-matplotlib \

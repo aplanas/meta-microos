@@ -10,6 +10,7 @@ RPM_HASH = "0a7a2e55b2e6bcc5d376ef57d75f4a1a1ab73173cdabbafeab93f5bbd6c6e53617ec
 RPROVIDES:${PN} += "ghc-transformers \
 ghc-transformers(aarch-64) \
 libHStransformers-0.5.6.2-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

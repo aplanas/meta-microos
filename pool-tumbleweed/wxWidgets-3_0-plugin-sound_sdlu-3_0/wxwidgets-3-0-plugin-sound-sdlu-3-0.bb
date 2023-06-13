@@ -9,6 +9,7 @@ RPM_HASH = "40062c6dfbdd9e2b498af6b4cac415ea6152b9b99bb05218c8fd06c86fa128891e6d
 
 RPROVIDES:${PN} += "wxWidgets-3_0-plugin-sound_sdlu-3_0 \
 wxWidgets-3_0-plugin-sound_sdlu-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libSDL2-2.0.so.0()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

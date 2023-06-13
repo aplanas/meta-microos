@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-jsonpath-rw \
 python3.10dist(jsonpath-rw) \
 python310-jsonpath-rw \
 python3dist(jsonpath-rw)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

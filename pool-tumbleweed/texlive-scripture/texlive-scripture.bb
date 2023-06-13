@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(scripture.sty) \
 texlive-scripture"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

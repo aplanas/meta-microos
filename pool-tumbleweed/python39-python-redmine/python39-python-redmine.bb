@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-redmine) \
 python39-python-redmine \
 python3dist(python-redmine)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

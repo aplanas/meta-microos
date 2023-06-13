@@ -9,6 +9,7 @@ RPM_HASH = "36343afa22b116255da6c8a3c86beb12b85a43883c56ce5d74e0c681ffe590cbfbad
 
 RPROVIDES:${PN} += "erlang-et \
 erlang-et(aarch-64)"
+
 RDEPENDS:${PN} += "erlang \
 erlang-wx"
 

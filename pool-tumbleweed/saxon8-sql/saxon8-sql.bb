@@ -10,6 +10,7 @@ RPM_HASH = "deb1efef59867d7578d064ee3dad697d56fe727e01088286f55178ac9df98bdfeefb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon8-sql"
+
 RDEPENDS:${PN} += "saxon8"
 
 inherit rpm

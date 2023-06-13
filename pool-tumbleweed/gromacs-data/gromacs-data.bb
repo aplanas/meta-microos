@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gromacs-data \
 gromacs:/usr/share/gromacs/README.tutor"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

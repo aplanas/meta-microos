@@ -14,6 +14,7 @@ RPM_HASH = "6ec87812f3b30d8a9e1015eb989a33054bfe72abb0698cfc487ee0920de2262dcc9d
 
 RPROVIDES:${PN} += "gtk2hs-buildtools \
 gtk2hs-buildtools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \

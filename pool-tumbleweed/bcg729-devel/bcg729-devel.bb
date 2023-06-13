@@ -11,6 +11,7 @@ RPM_HASH = "9b82f783649a5bd839b874d0567887cd241b60c35dc1dd141ba316ea04250d538b73
 RPROVIDES:${PN} += "bcg729-devel \
 bcg729-devel(aarch-64) \
 pkgconfig(libbcg729)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbcg729-0"
 

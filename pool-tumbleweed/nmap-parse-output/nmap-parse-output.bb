@@ -9,6 +9,7 @@ RPM_HASH = "d68ac40d71fc49fa7ca2a4baa7e3a067dda5ac7e6273c5639ae96e50bcacd2058823
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nmap-parse-output"
+
 RDEPENDS:${PN} += "/bin/bash \
 bash \
 libxslt-tools"

@@ -108,6 +108,7 @@ mate-screenshot-lang \
 mate-search-tool-lang \
 mate-system-log-lang \
 mate-utils-common-lang"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

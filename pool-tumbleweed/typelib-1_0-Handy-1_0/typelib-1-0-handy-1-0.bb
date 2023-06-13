@@ -12,6 +12,7 @@ RPM_HASH = "faf2e80c0b14191bdfd28847a84a0b4c1bac17ee5dfb95683fb61a5789d2e690f9d0
 RPROVIDES:${PN} += "typelib(Handy) \
 typelib-1_0-Handy-1_0 \
 typelib-1_0-Handy-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libhandy-1.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

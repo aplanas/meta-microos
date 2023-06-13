@@ -10,6 +10,7 @@ RPM_HASH = "e1ddfa3071222beb9be539210e0e50fc0ec251fadf01aea07145654d9e77d70abaa2
 RPROVIDES:${PN} += "ghc-cereal-devel \
 ghc-cereal-devel(aarch-64) \
 ghc-devel(cereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-cereal \
 ghc-compiler \

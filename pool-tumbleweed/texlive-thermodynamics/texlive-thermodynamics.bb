@@ -32,6 +32,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(thermodynamics.sty) \
 texlive-thermodynamics"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

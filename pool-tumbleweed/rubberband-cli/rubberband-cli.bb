@@ -10,6 +10,7 @@ RPM_HASH = "cc2b67cd7854c16fc8f92594ac2d32bd7ee51b9f33aa26ae97989b797dd74e1d685b
 
 RPROVIDES:${PN} += "rubberband-cli \
 rubberband-cli(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

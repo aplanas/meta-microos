@@ -14,6 +14,7 @@ RPM_HASH = "d049651d653a0e3a03cac5fb81d51c0e9115d6dc8b63c1f8a7499da95fdbf725edb4
 
 RPROVIDES:${PN} += "chntpw \
 chntpw(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

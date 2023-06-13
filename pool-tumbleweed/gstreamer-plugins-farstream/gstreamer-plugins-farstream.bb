@@ -14,6 +14,7 @@ libfsrawconference.so()(64bit) \
 libfsrtpconference.so()(64bit) \
 libfsrtpxdata.so()(64bit) \
 libfsvideoanyrate.so()(64bit)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-bad \
 gstreamer-plugins-good \
 ld-linux-aarch64.so.1()(64bit) \

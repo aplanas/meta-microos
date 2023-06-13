@@ -10,6 +10,7 @@ RPM_HASH = "28c21d4276e90d806ed602d9311b11784cf2976c9a240e821122e7d6647a058f7081
 
 RPROVIDES:${PN} += "libnscd-devel \
 libnscd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libnscd1"
 
 inherit rpm

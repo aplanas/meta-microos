@@ -42,6 +42,7 @@ locale(koko:tr) \
 locale(koko:uk) \
 locale(koko:zh_CN) \
 locale(koko:zh_TW)"
+
 RDEPENDS:${PN} += "koko"
 
 inherit rpm

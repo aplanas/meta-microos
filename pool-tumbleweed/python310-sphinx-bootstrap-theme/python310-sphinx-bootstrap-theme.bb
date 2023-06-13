@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-sphinx-bootstrap-theme \
 python3.10dist(sphinx-bootstrap-theme) \
 python310-sphinx-bootstrap-theme \
 python3dist(sphinx-bootstrap-theme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

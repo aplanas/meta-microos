@@ -26,6 +26,7 @@ tex(dvipdfmx-unsafe.cfg) \
 tex(dvipdfmx.cfg) \
 texlive-dvipdfm \
 texlive-dvipdfmx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

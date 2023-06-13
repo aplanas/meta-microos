@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cockpit-selinux \
 metainfo() \
 metainfo(org.cockpit-project.cockpit-selinux.metainfo.xml)"
+
 RDEPENDS:${PN} += "cockpit-bridge \
 cockpit-shell \
 policycoreutils-python-utils \

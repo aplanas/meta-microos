@@ -10,6 +10,7 @@ RPM_HASH = "8b3071791ae16fb1cd8aee5dd8e0792b7fffc77e827d31073b62197518d3d8a9be6f
 RPROVIDES:${PN} += "ghc-text-zipper \
 ghc-text-zipper(aarch-64) \
 libHStext-zipper-0.12-HAxIdT2NfEj1pbIOe2MIin-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(coredns-for-k8s1.21-extras) \
 coredns-extras-for-k8s \
 coredns-for-k8s1.21-extras"
+
 RDEPENDS:${PN} += "/bin/sh \
 coredns-for-k8s1.21"
 

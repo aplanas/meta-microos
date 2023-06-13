@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(recycle.map) \
 tex(recycle.sty) \
 tex(recycle.tfm) \
 texlive-recycle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

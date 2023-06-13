@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-linecache2 \
 python3.10dist(linecache2) \
 python310-linecache2 \
 python3dist(linecache2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pbr"
 

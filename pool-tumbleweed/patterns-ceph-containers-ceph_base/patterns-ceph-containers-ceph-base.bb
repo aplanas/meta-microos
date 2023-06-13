@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-ceph-containers-ceph_base \
 patterns-ceph-containers-ceph_base(aarch-64)"
+
 RDEPENDS:${PN} += "ca-certificates \
 ceph \
 ceph-base \

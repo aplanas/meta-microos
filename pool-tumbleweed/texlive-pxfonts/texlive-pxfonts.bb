@@ -135,6 +135,7 @@ tex(upxsyb.fd) \
 tex(upxsyc.fd) \
 tex(upxtt.fd) \
 texlive-pxfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "efa0b21871dee06f151bf7f027bbac9c7821e65e7fd09ba5b728ccb9930555cecafa
 
 RPROVIDES:${PN} += "libqt5-qttranslations \
 libqt5-qttranslations(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

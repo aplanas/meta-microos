@@ -14,6 +14,7 @@ RPM_HASH = "0c119c232f8ba3a874b6a447910b5f852a96e1070a798784390cd1114ca94a70588e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "exiftool"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(Image::ExifTool)"
 

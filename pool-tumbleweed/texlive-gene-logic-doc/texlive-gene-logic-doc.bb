@@ -9,6 +9,7 @@ RPM_HASH = "fdbd4742cee6473e7ca796bfadc0a7505fa1887ce0163fcd069d0aeeac715e12149d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gene-logic-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

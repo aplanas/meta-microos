@@ -11,6 +11,7 @@ RPM_HASH = "55b88d6d4db8a35bcd05a983bbed8d24735930f18c0ef679da26ce8d7102b6196abc
 RPROVIDES:${PN} += "crossguid-devel \
 crossguid-devel(aarch-64) \
 pkgconfig(crossguid)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcrossguid0"
 

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ez-setup) \
 python39-ez_setup \
 python3dist(ez-setup)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

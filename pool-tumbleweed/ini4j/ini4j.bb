@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ini4j \
 mvn(org.ini4j:ini4j) \
 mvn(org.ini4j:ini4j:pom:)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem"

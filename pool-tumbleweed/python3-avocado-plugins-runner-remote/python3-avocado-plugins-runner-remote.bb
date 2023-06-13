@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-avocado-plugins-runner-remote \
 python3.10dist(avocado-framework-plugin-runner-remote) \
 python3dist(avocado-framework-plugin-runner-remote)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-Fabric \
 python3-avocado"

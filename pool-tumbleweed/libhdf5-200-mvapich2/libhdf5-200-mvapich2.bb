@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libhdf5-200-mvapich2 \
 libhdf5-200-mvapich2(aarch-64) \
 libhdf5-mvapich2 \
 libhdf5.so.200()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

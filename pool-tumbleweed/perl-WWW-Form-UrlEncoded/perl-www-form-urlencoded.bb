@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "perl(WWW::Form::UrlEncoded) \
 perl(WWW::Form::UrlEncoded::PP) \
 perl-WWW-Form-UrlEncoded \
 perl-WWW-Form-UrlEncoded(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

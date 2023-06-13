@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(substances-default.def) \
 tex(substances.sty) \
 texlive-substances"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

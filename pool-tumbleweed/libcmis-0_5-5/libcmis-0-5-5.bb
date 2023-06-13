@@ -12,6 +12,7 @@ RPM_HASH = "f09d3cab793a9cad2d0162153889bb2782c4074f18bcbd16a16fdfa5296acb15ae71
 RPROVIDES:${PN} += "libcmis-0.5.so.5()(64bit) \
 libcmis-0_5-5 \
 libcmis-0_5-5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

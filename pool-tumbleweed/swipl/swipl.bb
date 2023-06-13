@@ -18,6 +18,7 @@ swi-prolog \
 swi_pl \
 swipl \
 swipl(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/pkg-config \

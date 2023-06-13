@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake(Microsoft.GSL) \
 ms-gsl-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

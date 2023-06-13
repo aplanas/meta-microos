@@ -10,6 +10,7 @@ RPM_HASH = "23eeea6b835b79dd521275bf7a1b81ddba9c58eeda194254efeb7bae4b789581c4ec
 
 RPROVIDES:${PN} += "xf86-video-neomagic \
 xf86-video-neomagic(aarch-64)"
+
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ tex(tcldoc.sty) \
 tex(tclldoc.cls) \
 tex(tclldoc.sty) \
 texlive-tcldoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

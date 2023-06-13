@@ -12,6 +12,7 @@ RPM_HASH = "aa7c9d70af19dd3c001a6e7a29996828232b16a098cdbb41e5b49a78ed9e80170baa
 RPROVIDES:${PN} += "perl(Package::Stash::XS) \
 perl-Package-Stash-XS \
 perl-Package-Stash-XS(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

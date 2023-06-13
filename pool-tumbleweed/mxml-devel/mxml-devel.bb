@@ -14,6 +14,7 @@ RPM_HASH = "d1f47ca203a54191763d9edc60204e35949486f5e2a8473cec42a6d5ad663cc21c61
 RPROVIDES:${PN} += "mxml-devel \
 mxml-devel(aarch-64) \
 pkgconfig(mxml)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmxml1"
 

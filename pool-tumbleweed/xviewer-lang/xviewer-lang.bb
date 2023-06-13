@@ -97,6 +97,7 @@ locale(xviewer:zh_HK) \
 locale(xviewer:zh_TW) \
 xviewer-lang \
 xviewer-lang-all"
+
 RDEPENDS:${PN} += "xviewer"
 
 inherit rpm

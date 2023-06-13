@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flower \
 python3.10dist(flower) \
 python310-flower \
 python3dist(flower)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Babel \
 python310-celery \

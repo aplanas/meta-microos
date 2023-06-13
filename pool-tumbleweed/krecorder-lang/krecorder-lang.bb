@@ -40,6 +40,7 @@ locale(krecorder:tr) \
 locale(krecorder:uk) \
 locale(krecorder:zh_CN) \
 locale(krecorder:zh_TW)"
+
 RDEPENDS:${PN} += "krecorder"
 
 inherit rpm

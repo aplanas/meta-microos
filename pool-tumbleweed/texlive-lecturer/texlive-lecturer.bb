@@ -37,6 +37,7 @@ tex(ltr-slides.tex) \
 tex(ltr-steps.tex) \
 tex(t-lecturer.tex) \
 texlive-lecturer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

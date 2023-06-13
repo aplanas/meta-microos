@@ -18,6 +18,7 @@ RPM_HASH = "013725b388b7800b59f91124b8da4383720bd3fd85a667a5cf064385cddf4d91f01f
 
 RPROVIDES:${PN} += "fntsample \
 fntsample(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

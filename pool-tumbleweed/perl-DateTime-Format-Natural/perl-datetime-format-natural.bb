@@ -26,6 +26,7 @@ perl(DateTime::Format::Natural::Test) \
 perl(DateTime::Format::Natural::Utils) \
 perl(DateTime::Format::Natural::Wrappers) \
 perl-DateTime-Format-Natural"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Clone) \

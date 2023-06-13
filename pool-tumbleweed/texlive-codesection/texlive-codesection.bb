@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(codesection.sty) \
 texlive-codesection"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

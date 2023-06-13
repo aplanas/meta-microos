@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-dbf \
 python3.10dist(dbf) \
 python310-dbf \
 python3dist(dbf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-aenum \
 python310-pytz"

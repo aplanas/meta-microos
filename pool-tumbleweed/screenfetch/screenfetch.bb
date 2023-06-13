@@ -16,6 +16,7 @@ RPM_HASH = "cd5e76d93236e72a92058069d6cd9e5010a80bdb7f919b24b085c81ecebb35fc66fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "screenfetch"
+
 RDEPENDS:${PN} += "/bin/bash \
 bc \
 xprop"

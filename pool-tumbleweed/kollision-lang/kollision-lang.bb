@@ -68,6 +68,7 @@ locale(kollision:ug) \
 locale(kollision:uk) \
 locale(kollision:zh_CN) \
 locale(kollision:zh_TW)"
+
 RDEPENDS:${PN} += "kollision"
 
 inherit rpm

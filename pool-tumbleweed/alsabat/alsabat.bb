@@ -12,6 +12,7 @@ RPM_HASH = "194391ebc062d2c63be6228b1ae6775b912dbf1e430814bae74c64b6f8d5bf249080
 
 RPROVIDES:${PN} += "alsabat \
 alsabat(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 alsa-utils \
 ld-linux-aarch64.so.1()(64bit) \

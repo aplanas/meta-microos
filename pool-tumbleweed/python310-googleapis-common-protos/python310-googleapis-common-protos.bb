@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-googleapis-common-protos \
 python3.10dist(googleapis-common-protos) \
 python310-googleapis-common-protos \
 python3dist(googleapis-common-protos)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-protobuf"
 

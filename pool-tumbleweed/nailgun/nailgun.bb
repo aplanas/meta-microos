@@ -17,6 +17,7 @@ mvn(com.martiansoftware:nailgun-examples:pom:) \
 mvn(com.martiansoftware:nailgun-server) \
 mvn(com.martiansoftware:nailgun-server:pom:) \
 nailgun"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

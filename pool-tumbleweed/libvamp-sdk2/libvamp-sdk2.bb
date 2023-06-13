@@ -11,6 +11,7 @@ RPM_HASH = "08b7e26d314c7eac592826fe191f882ee6db1afeb4c623ff16e401b47c841aceacf6
 RPROVIDES:${PN} += "libvamp-sdk.so.2()(64bit) \
 libvamp-sdk2 \
 libvamp-sdk2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

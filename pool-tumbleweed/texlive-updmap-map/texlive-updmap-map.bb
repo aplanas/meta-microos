@@ -21,6 +21,7 @@ tex(psfonts.map) \
 tex(psfonts_pk.map) \
 tex(psfonts_t1.map) \
 texlive-updmap-map"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

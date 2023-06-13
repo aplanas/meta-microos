@@ -18,6 +18,7 @@ tex(beamerouterthememetropolis.sty) \
 tex(beamerthememetropolis.sty) \
 tex(pgfplotsthemetol.sty) \
 texlive-beamertheme-metropolis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

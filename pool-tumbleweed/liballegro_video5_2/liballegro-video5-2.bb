@@ -15,6 +15,7 @@ RPM_HASH = "f8fb6459386e1e137aeb5cd3d84895b23f310c66cf317b5150a2b581cc66b39cd26d
 RPROVIDES:${PN} += "liballegro_video.so.5.2()(64bit) \
 liballegro_video5_2 \
 liballegro_video5_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "44445bc6c885f42291ee14f0b9946f0e43d9fe2602cda2d430eaf5807337e9aeac02
 
 RPROVIDES:${PN} += "libsoundio-devel \
 libsoundio-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsoundio2"
 
 inherit rpm

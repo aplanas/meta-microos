@@ -9,6 +9,7 @@ RPM_HASH = "7862c4f9f0be9fdb7438708bc2465610d3cacaa7438b3051e1ed81939f1ccdaaef2c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chafa-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

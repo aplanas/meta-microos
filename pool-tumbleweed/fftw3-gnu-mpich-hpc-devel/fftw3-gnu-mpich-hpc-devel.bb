@@ -11,6 +11,7 @@ RPM_HASH = "ebdcf7f0d8649b7d2d9c83e22134aac36fdade4d473a892edab486a2c129660bc679
 
 RPROVIDES:${PN} += "fftw3-gnu-mpich-hpc-devel \
 fftw3-gnu-mpich-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "fftw3_3_3_10-gnu-mpich-hpc-devel"
 
 inherit rpm

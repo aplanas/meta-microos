@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(hyph-hu.ec.tex) \
 tex(hyph-hu.tex) \
 tex(loadhyph-hu.tex) \
 texlive-hyphen-hungarian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

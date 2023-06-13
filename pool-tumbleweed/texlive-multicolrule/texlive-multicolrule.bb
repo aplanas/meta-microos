@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(multicolrule.sty) \
 texlive-multicolrule"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

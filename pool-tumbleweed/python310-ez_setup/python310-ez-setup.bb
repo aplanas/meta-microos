@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-ez_setup \
 python3.10dist(ez-setup) \
 python310-ez_setup \
 python3dist(ez-setup)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

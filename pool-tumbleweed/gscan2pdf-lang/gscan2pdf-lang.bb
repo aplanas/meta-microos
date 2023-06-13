@@ -45,6 +45,7 @@ locale(gscan2pdf:tr) \
 locale(gscan2pdf:uk) \
 locale(gscan2pdf:zh_CN) \
 locale(gscan2pdf:zh_TW)"
+
 RDEPENDS:${PN} += "gscan2pdf"
 
 inherit rpm

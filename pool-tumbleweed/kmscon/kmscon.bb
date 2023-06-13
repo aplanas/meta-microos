@@ -12,6 +12,7 @@ RPM_HASH = "6bbbe20fa92b10a38e551731d8eb19caabc2d3a10d68733e8f926e15489fff47c85c
 RPROVIDES:${PN} += "kmscon \
 kmscon(aarch-64) \
 kmscon-service"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

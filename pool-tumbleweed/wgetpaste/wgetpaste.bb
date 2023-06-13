@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(wgetpaste) \
 wgetpaste"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 bash \
 coreutils \

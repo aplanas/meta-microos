@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(spie.cls) \
 texlive-spie"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

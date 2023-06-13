@@ -16,6 +16,7 @@ python39-CXX \
 python39-cxx \
 python39-pycxx \
 python3dist(cxx)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

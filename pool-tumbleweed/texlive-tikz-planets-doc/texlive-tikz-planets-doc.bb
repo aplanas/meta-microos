@@ -9,6 +9,7 @@ RPM_HASH = "eab91758c49116dc8fe437aebbbd0c43b3ad0b65cd5b27aaf22f9ddc2159225c082c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-planets-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

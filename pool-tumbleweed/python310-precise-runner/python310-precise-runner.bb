@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-precise-runner \
 python3.10dist(precise-runner) \
 python310-precise-runner \
 python3dist(precise-runner)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyAudio"
 

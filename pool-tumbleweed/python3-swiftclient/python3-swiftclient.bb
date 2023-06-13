@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-swiftclient \
 python3.10dist(python-swiftclient) \
 python3dist(python-swiftclient)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-requests"

@@ -21,6 +21,7 @@ ocaml-gettext-camomile \
 ocaml-gettext-stub \
 ocaml-gettext-stub-debuginfo \
 ocaml-gettext-stub-devel"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.17)(64bit) \

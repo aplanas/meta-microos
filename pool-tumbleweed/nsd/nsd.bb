@@ -11,6 +11,7 @@ RPM_HASH = "da25ef848d06c46e4004d39e46782179dec8a3acc99a14920d164b1167afa0e7630b
 RPROVIDES:${PN} += "config(nsd) \
 nsd \
 nsd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 findutils \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-relaxed \
 python3.10dist(pytest-relaxed) \
 python310-pytest-relaxed \
 python3dist(pytest-relaxed)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-decorator \
 python310-pytest"

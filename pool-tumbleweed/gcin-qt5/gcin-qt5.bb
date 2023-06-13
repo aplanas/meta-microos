@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "gcin-qt5 \
 gcin-qt5(aarch-64) \
 gcin-qt5-immodule \
 libgcinplatforminputcontextplugin.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gcin \
 libQt5Core.so.5()(64bit) \

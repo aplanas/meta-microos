@@ -13,6 +13,7 @@ RPM_HASH = "864ccfa4a9338717def7e7c41cc118abd491f6adf1c2cb8e3fde9d95ef75eb08eff6
 
 RPROVIDES:${PN} += "hdf5-devel \
 hdf5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 hdf5 \
 hdf5-devel-data \

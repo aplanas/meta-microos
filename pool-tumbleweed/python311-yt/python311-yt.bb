@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(yt) \
 python311-yt \
 python311-yt(aarch-64) \
 python3dist(yt)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1()(64bit) \

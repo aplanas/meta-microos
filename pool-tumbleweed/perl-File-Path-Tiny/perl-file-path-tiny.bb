@@ -59,6 +59,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(File::Path::Tiny) \
 perl-File-Path-Tiny"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::Exception)"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(drawmatrix.sty) \
 texlive-drawmatrix"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

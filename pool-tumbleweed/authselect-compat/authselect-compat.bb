@@ -13,6 +13,7 @@ RPM_HASH = "9c5f56aec9bd82a4b7c019713d617ba6ed8f3cecb9142fb0e1f7f8a332054e7bc2b5
 RPROVIDES:${PN} += "authconfig \
 authselect-compat \
 authselect-compat(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 authselect(aarch-64) \
 python(abi)"

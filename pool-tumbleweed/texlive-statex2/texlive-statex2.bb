@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(statex2.sty) \
 texlive-statex2"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

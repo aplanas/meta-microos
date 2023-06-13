@@ -10,6 +10,7 @@ RPM_HASH = "c01019cbb793b87839b4eb7f0b556532a3a18ab88b114df200add8eba1927c182dc8
 
 RPROVIDES:${PN} += "libdlm \
 libdlm(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

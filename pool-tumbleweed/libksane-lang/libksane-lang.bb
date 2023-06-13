@@ -67,6 +67,7 @@ locale(libksane:uk) \
 locale(libksane:wa) \
 locale(libksane:zh_CN) \
 locale(libksane:zh_TW)"
+
 RDEPENDS:${PN} += "libksane"
 
 inherit rpm

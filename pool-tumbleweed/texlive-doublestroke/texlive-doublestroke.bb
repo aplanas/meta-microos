@@ -25,6 +25,7 @@ tex(dsss12.tfm) \
 tex(dsss8.tfm) \
 tex(dstroke.map) \
 texlive-doublestroke"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

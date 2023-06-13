@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(gspread) \
 python39-gspread \
 python3dist(gspread)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-google-auth \
 python39-google-auth-oauthlib"

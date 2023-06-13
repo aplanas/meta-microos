@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "group(memcached) \
 memcached \
 memcached(aarch-64) \
 user(memcached)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \

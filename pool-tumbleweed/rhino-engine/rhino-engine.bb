@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.mozilla:rhino-engine) \
 mvn(org.mozilla:rhino-engine:pom:) \
 rhino-engine"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.mozilla:rhino) \

@@ -11,6 +11,7 @@ RPM_HASH = "e7115dc3426baeed71ffe64aa1cab41645ec4dfc4fef390329a71116da1a3c9f74a3
 
 RPROVIDES:${PN} += "openblas-pthreads_0_3_21-gnu-hpc-devel-static \
 openblas-pthreads_0_3_21-gnu-hpc-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libopenblas-pthreads_0_3_21-gnu-hpc-devel"
 
 inherit rpm

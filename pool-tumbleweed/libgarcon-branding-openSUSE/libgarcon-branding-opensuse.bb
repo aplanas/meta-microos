@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(libgarcon-branding-openSUSE) \
 libgarcon-branding \
 libgarcon-branding-openSUSE"
+
 RDEPENDS:${PN} += "desktop-data-openSUSE \
 libxfce4ui-tools \
 wallpaper-branding \

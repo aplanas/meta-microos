@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(practicalreports.sty) \
 texlive-practicalreports"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

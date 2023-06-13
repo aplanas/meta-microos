@@ -249,6 +249,7 @@ scalable-font-bg \
 scalable-font-el \
 scalable-font-he \
 scalable-font-ru"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

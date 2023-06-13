@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-yast-yast2_server \
 patterns-yast-yast2_server(aarch-64)"
+
 RDEPENDS:${PN} += "yast2-installation \
 yast2-ldap \
 yast2-mail \

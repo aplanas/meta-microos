@@ -10,6 +10,7 @@ RPM_HASH = "099e721f5bc0cedaf3e5978dcd348ea2edb65d94910180d6ba59d67660d25d7bf101
 
 RPROVIDES:${PN} += "listres \
 listres(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libXaw.so.7()(64bit) \

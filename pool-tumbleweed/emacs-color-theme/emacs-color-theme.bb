@@ -11,6 +11,7 @@ RPM_HASH = "1abd2d348ea9e6377747fe2ebda662dba4b9f0ffb91ebf9a9108be00ebb508131e79
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-color-theme"
+
 RDEPENDS:${PN} += "emacs"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "d614e10f84b3adf9dc56158389781cdb3499b057772b80817de0b10c3642e5e6ce59
 RPROVIDES:${PN} += "libftgl.so.2()(64bit) \
 libftgl2 \
 libftgl2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

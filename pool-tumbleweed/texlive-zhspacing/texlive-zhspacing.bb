@@ -20,6 +20,7 @@ tex(zhspacing.sty) \
 tex(zhsusefulmacros.sty) \
 tex(zhulem.sty) \
 texlive-zhspacing"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

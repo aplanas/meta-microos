@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "d0_blind_id-devel \
 d0_blind_id-devel(aarch-64) \
 pkgconfig(d0_blind_id) \
 pkgconfig(d0_rijndael)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libd0_blind_id0 \
 libd0_rijndael0"

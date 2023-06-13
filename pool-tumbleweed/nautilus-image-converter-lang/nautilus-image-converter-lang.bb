@@ -24,6 +24,7 @@ locale(nautilus-image-converter:ru) \
 locale(nautilus-image-converter:sv) \
 nautilus-image-converter-lang \
 nautilus-image-converter-lang-all"
+
 RDEPENDS:${PN} += "nautilus-image-converter"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "0ddfd54d2483111e3b2cd693f2d2de1155c67efa028373150e646e783ddb55cad14e
 
 RPROVIDES:${PN} += "bemenu \
 bemenu(aarch-64)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libXinerama.so.1()(64bit) \
 libbemenu.so.0()(64bit) \

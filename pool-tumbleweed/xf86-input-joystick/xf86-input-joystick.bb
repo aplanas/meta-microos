@@ -10,6 +10,7 @@ RPM_HASH = "5f1c26fab74327d226be2b1db4e851cb37a1623d246ce78150f61b3dba4d97ca3505
 
 RPROVIDES:${PN} += "xf86-input-joystick \
 xf86-input-joystick(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 X11_ABI_XINPUT \
 ld-linux-aarch64.so.1()(64bit) \

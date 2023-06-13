@@ -14,6 +14,7 @@ RPM_HASH = "5092c9bedadd37c279b56d738c535b00dd43b501b1683d6ef4dc51e6bcc338aed9d5
 
 RPROVIDES:${PN} += "iodbc-admin \
 iodbc-admin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mugsthesis.cls) \
 texlive-mugsthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -57,6 +57,7 @@ perl(URI::vertica) \
 perl(URI::yugabyte) \
 perl(URI::yugabytedb) \
 perl-URI-db"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(URI) \
 perl(URI::Nested)"

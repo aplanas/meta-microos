@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cockpit-tukit \
 metainfo() \
 metainfo(org.cockpit-project.tukit.metainfo.xml)"
+
 RDEPENDS:${PN} += "cockpit-system \
 tukitd"
 

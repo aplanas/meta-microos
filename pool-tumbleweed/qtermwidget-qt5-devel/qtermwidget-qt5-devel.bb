@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(qtermwidget5) \
 pkgconfig(qtermwidget5) \
 qtermwidget-qt5-devel \
 qtermwidget-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqtermwidget5-1 \
 pkgconfig(Qt5Widgets) \

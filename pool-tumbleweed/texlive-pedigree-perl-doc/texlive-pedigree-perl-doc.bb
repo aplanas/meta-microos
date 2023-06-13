@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(pedigree.1) \
 texlive-pedigree-perl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

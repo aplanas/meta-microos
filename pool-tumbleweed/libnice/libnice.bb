@@ -10,6 +10,7 @@ RPM_HASH = "a4aacaebf71223018547ed7ef8782b1971c24eb32950c7923a8bf67e2dfbb8400be7
 
 RPROVIDES:${PN} += "libnice \
 libnice(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

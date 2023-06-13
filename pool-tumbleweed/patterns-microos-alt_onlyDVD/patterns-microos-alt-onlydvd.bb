@@ -13,6 +13,7 @@ pattern-icon() \
 pattern-order() \
 patterns-microos-alt_onlyDVD \
 patterns-microos-alt_onlyDVD(aarch-64)"
+
 RDEPENDS:${PN} += "kernel-default-base \
 pattern()"
 

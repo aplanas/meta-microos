@@ -12,6 +12,7 @@ RPM_HASH = "7aa79239e15eca761a55c65424a01ff672efef55dec8ebe801c002474ca1d1635f18
 RPROVIDES:${PN} += "cmake(KF5KHtml) \
 khtml-devel \
 khtml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Codecs) \
 cmake(KF5I18n) \
 cmake(KF5JS) \

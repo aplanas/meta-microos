@@ -10,6 +10,7 @@ RPM_HASH = "e03ae27c5717a2a24817c856f074f8caec40863a406eb4e7a8afd1787434d66c334a
 RPROVIDES:${PN} += "pkgconfig(libsubunit) \
 subunit-devel \
 subunit-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsubunit0 \
 subunit(aarch-64)"

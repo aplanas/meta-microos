@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-json-widget \
 python3.10dist(django-json-widget) \
 python310-django-json-widget \
 python3dist(django-json-widget)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-future"

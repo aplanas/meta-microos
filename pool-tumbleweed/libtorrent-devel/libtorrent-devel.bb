@@ -12,6 +12,7 @@ RPM_HASH = "84f251c2669ec050ff1767c7ae8ba1a06b38cfffa599b1c6d79d82152738d4b7ad25
 RPROVIDES:${PN} += "libtorrent-devel \
 libtorrent-devel(aarch-64) \
 pkgconfig(libtorrent)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtorrent21"
 

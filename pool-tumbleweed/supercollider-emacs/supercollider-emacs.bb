@@ -9,6 +9,7 @@ RPM_HASH = "4a213aef90435a8d7888686427172f9bc291f1c4ea29f51ebd0f521c7c4bf8fd0789
 
 RPROVIDES:${PN} += "supercollider-emacs \
 supercollider-emacs(aarch-64)"
+
 RDEPENDS:${PN} += "supercollider"
 
 inherit rpm

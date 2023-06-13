@@ -12,6 +12,7 @@ RPM_HASH = "d1366304fe73d4c6545cc59fefa7d554b2a2a6b13b38c6fbab94882ed69c298b47e3
 RPROVIDES:${PN} += "libudisks2-qt5-0 \
 libudisks2-qt5-0(aarch-64) \
 libudisks2-qt5.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

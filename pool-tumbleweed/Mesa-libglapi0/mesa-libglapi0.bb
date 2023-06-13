@@ -12,6 +12,7 @@ RPM_HASH = "47d371d3774f18a4e33cb1860d583544082d5a1f2bf323784afbecf1bde52873872a
 RPROVIDES:${PN} += "Mesa-libglapi0 \
 Mesa-libglapi0(aarch-64) \
 libglapi.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

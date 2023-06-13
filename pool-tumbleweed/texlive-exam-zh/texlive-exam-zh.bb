@@ -27,6 +27,7 @@ tex(exam-zh-symbols.sty) \
 tex(exam-zh-textfigure.sty) \
 tex(exam-zh.cls) \
 texlive-exam-zh"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

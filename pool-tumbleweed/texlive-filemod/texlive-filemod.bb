@@ -21,6 +21,7 @@ tex(filemod-expmin.tex) \
 tex(filemod.sty) \
 tex(filemod.tex) \
 texlive-filemod"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "dnsdiag \
 python3.10dist(dnsdiag) \
 python3dist(dnsdiag)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-cymruwhois \

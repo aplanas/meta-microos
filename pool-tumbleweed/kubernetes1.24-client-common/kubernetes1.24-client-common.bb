@@ -10,6 +10,7 @@ RPM_HASH = "950e7a6904ed8e7e38bde0533831f3c384f9c637c19ea25dff4d86fcf26cd55a763e
 RPROVIDES:${PN} += "kubernetes-client-common \
 kubernetes1.24-client-common \
 kubernetes1.24-client-common(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 kubernetes1.24-client"
 

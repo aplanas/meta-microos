@@ -13,6 +13,7 @@ RPM_HASH = "0990760afcb791fa75a794eb727c05c95c7c2478c7482b8c20d4440bbd49a4e77e3f
 RPROVIDES:${PN} += "config(netdata) \
 netdata \
 netdata(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

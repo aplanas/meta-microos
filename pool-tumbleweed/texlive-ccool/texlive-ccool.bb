@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ccool.sty) \
 texlive-ccool"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

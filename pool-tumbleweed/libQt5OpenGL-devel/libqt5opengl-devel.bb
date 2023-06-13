@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(Qt5OpenGL) \
 libQt5OpenGL-devel \
 libQt5OpenGL-devel(aarch-64) \
 pkgconfig(Qt5OpenGL)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Mesa-libGLESv3-devel \
 libQt5Core-devel \

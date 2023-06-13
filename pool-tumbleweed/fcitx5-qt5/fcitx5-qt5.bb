@@ -14,6 +14,7 @@ fcitx5-qt5 \
 fcitx5-qt5(aarch-64) \
 libfcitx-quickphrase-editor5.so()(64bit) \
 libfcitx5platforminputcontextplugin.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFcitx5Qt5DBusAddons.so.1()(64bit) \

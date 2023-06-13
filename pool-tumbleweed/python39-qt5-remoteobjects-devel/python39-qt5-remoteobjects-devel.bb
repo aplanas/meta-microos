@@ -12,6 +12,7 @@ RPM_HASH = "6b97a3a60e58685bbf1789e5f2c5a2debd3339187a616d0f6dd25c094d4f5dd008cc
 
 RPROVIDES:${PN} += "python39-qt5-remoteobjects-devel \
 python39-qt5-remoteobjects-devel(aarch-64)"
+
 RDEPENDS:${PN} += "pkgconfig(Qt5RemoteObjects) \
 python(abi) \
 python39-qt5-devel"

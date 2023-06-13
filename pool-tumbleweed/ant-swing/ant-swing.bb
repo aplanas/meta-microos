@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ant-swing \
 config(ant-swing) \
 mvn(org.apache.ant:ant-swing) \
 mvn(org.apache.ant:ant-swing:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \

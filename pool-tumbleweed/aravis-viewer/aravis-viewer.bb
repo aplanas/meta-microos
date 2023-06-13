@@ -13,6 +13,7 @@ aravis-viewer \
 aravis-viewer(aarch-64) \
 metainfo() \
 metainfo(arv-viewer-0.8.appdata.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaravis-0.8.so.0()(64bit) \

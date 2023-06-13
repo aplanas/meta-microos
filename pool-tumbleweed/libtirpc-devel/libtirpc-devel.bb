@@ -13,6 +13,7 @@ RPM_HASH = "856162fc6bfce280780a8573c8050cfccf3fde4da91e59d1da68d128ee5197236847
 RPROVIDES:${PN} += "libtirpc-devel \
 libtirpc-devel(aarch-64) \
 pkgconfig(libtirpc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libtirpc3"

@@ -11,6 +11,7 @@ RPM_HASH = "4879a8c3dc77da9c79758abcf4646facdb106d1c7cb95f3ed9903f5812d7db1e66e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pnetcdf-gnu-openmpi2-hpc"
+
 RDEPENDS:${PN} += "pnetcdf_1_12_3-gnu-openmpi2-hpc"
 
 inherit rpm

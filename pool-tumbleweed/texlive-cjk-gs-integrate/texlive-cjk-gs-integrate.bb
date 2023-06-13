@@ -49,6 +49,7 @@ tex(cjkgs-wenquanyi.dat) \
 tex(cjkgs-yu-osx.dat) \
 tex(cjkgs-yu-win.dat) \
 texlive-cjk-gs-integrate"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

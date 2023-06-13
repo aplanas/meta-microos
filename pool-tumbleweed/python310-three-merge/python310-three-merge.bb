@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-three-merge \
 python3.10dist(three-merge) \
 python310-three-merge \
 python3dist(three-merge)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-diff-match-patch"
 

@@ -76,6 +76,7 @@ locale(kspaceduel:ug) \
 locale(kspaceduel:uk) \
 locale(kspaceduel:zh_CN) \
 locale(kspaceduel:zh_TW)"
+
 RDEPENDS:${PN} += "kspaceduel"
 
 inherit rpm

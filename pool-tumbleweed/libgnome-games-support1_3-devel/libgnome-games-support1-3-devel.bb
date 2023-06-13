@@ -12,6 +12,7 @@ RPM_HASH = "1fae29a7fbb49b897e2cce75b2334579b00a2297cd3ccc9c8d2741ae4be0ca811f5c
 RPROVIDES:${PN} += "libgnome-games-support1_3-devel \
 libgnome-games-support1_3-devel(aarch-64) \
 pkgconfig(libgnome-games-support-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgnome-games-support-1-3 \
 pkgconfig(gee-0.8) \

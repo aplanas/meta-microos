@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(zope.testbrowser) \
 python39-zope.testbrowser \
 python3dist(zope.testbrowser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-WSGIProxy2 \
 python39-WebTest \

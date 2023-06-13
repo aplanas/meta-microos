@@ -11,6 +11,7 @@ RPM_HASH = "df54ac04fa6bf76e5f760e032ac5f79b09c663e702e3e762216141a8403a9eada1d4
 
 RPROVIDES:${PN} += "exif \
 exif(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

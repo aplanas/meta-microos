@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(syllogism.sty) \
 texlive-syllogism"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

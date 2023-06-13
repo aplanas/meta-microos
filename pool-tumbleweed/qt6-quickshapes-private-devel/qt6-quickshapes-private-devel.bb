@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Qt6QuickShapesPrivate) \
 qt6-quickshapes-devel \
 qt6-quickshapes-private-devel \
 qt6-quickshapes-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Qml) \
 libQt6QuickShapes6 \
 qt6-gui-private-devel \

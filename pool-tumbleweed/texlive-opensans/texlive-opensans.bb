@@ -1322,6 +1322,7 @@ tex(a_v2kvzh.enc) \
 tex(opensans.map) \
 tex(opensans.sty) \
 texlive-opensans"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

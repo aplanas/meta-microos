@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Log::Any::Adapter::Callback) \
 perl-Log-Any-Adapter-Callback"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Log::Any::Adapter)"
 

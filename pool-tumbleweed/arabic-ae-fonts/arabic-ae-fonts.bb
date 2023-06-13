@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arabic-ae-fonts \
 locale(ar)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

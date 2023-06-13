@@ -40,6 +40,7 @@ tex(pst-Uganda-flagseal.tex) \
 tex(pst-flags-colors-html.sty) \
 tex(pst-flags.sty) \
 texlive-pst-flags"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

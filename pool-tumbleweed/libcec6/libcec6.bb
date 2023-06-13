@@ -12,6 +12,7 @@ RPM_HASH = "1055448beaa6192648fb83f1e45912432dbef705e2db839b4dfaee38d68834765188
 RPROVIDES:${PN} += "libcec.so.6()(64bit) \
 libcec6 \
 libcec6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

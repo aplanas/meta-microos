@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-resultsdb_api \
 python3.10dist(resultsdb-api) \
 python310-resultsdb_api \
 python3dist(resultsdb-api)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-simplejson"

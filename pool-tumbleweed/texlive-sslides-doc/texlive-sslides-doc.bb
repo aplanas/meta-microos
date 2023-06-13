@@ -9,6 +9,7 @@ RPM_HASH = "f06174022afe1db7a80cf74d1b200a573a2bcb380533e09e2b4416c2b0bfeee71564
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sslides-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

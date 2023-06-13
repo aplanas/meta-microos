@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(python-dbusmock) \
 python311-dbusmock \
 python311-python-dbusmock \
 python3dist(python-dbusmock)"
+
 RDEPENDS:${PN} += "dbus-1-x11 \
 python(abi) \
 python311-dbus-python \

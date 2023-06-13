@@ -10,6 +10,7 @@ RPM_HASH = "6ecd3db5493659ba078d5ca75f37af91378a368f0a9b38018a7b25f4d886372e1bf7
 
 RPROVIDES:${PN} += "libieee1284-devel \
 libieee1284-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

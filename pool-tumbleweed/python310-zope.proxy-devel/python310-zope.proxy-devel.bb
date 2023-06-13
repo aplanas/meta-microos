@@ -12,6 +12,7 @@ python3-zope.proxy-devel \
 python310-zope-proxy \
 python310-zope.proxy-devel \
 python310-zope.proxy-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python310-zope.proxy"
 
 inherit rpm

@@ -17,6 +17,7 @@ RPM_HASH = "2f1e8f68cf57c16cacf61d0c75b06cc09ab320ca870abb1b9d5fc4aa16c3b19f91d7
 RPROVIDES:${PN} += "libopenlibm.so.4()(64bit) \
 libopenlibm4 \
 libopenlibm4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

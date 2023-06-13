@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-parfive \
 python3.10dist(parfive) \
 python310-parfive \
 python3dist(parfive)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "terminology-theme-dft \
 terminology-theme-openSUSE"
+
 RDEPENDS:${PN} += "terminology"
 
 inherit rpm

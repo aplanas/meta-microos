@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(moolticute.desktop) \
 moolticute \
 moolticute(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \

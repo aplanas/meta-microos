@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-guzzle_sphinx_theme \
 python3.10dist(guzzle-sphinx-theme) \
 python310-guzzle_sphinx_theme \
 python3dist(guzzle-sphinx-theme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

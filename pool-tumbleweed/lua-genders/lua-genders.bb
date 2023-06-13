@@ -9,6 +9,7 @@ RPM_HASH = "ed65c1f253a36d87daa6d319e88af55b13615a48373147035a878a8103cb5942dd37
 
 RPROVIDES:${PN} += "lua-genders \
 lua-genders(aarch-64)"
+
 RDEPENDS:${PN} += "genders \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-SQLAlchemy-Utils \
 python3.10dist(sqlalchemy-utils) \
 python310-SQLAlchemy-Utils \
 python3dist(sqlalchemy-utils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-SQLAlchemy"
 

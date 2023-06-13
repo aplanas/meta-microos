@@ -58,6 +58,7 @@ mimehandler(text/x-vala) \
 mimehandler(text/xml) \
 pkgconfig(gnome-builder-44.1) \
 typelib(Ide)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 autoconf \
 automake \

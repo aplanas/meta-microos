@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(resumecls.cls) \
 texlive-resumecls"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

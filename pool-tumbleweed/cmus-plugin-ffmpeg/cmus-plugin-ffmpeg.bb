@@ -9,6 +9,7 @@ RPM_HASH = "546bb97432e3fad016544f7ffbe990a83eebcd4e26eb3c2fe359103b2e1132165174
 
 RPROVIDES:${PN} += "cmus-plugin-ffmpeg \
 cmus-plugin-ffmpeg(aarch-64)"
+
 RDEPENDS:${PN} += "cmus \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

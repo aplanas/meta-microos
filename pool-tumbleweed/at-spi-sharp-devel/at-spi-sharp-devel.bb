@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "at-spi-sharp-devel \
 pkgconfig(at-spi-sharp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 at-spi-sharp"
 

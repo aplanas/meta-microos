@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "parallel-netcdf-mvapich2-devel \
 pkgconfig(pnetcdf) \
 pnetcdf-mvapich2-devel \
 pnetcdf-mvapich2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpnetcdf4-mvapich2 \
 mvapich2-devel \

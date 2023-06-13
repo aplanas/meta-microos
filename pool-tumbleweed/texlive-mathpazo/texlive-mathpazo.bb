@@ -46,6 +46,7 @@ tex(zplmr7v.vf) \
 tex(zplmr7y.tfm) \
 tex(zplmr7y.vf) \
 texlive-mathpazo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

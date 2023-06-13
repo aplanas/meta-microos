@@ -9,6 +9,7 @@ RPM_HASH = "8d814b74db9122f9b04b340f90c7b7369983b1daffdb8582290104567e597dc30d3c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-copyedit-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

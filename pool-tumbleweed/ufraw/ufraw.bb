@@ -16,6 +16,7 @@ mimehandler(application/x-ufraw) \
 mimehandler(image/x-dcraw) \
 ufraw \
 ufraw(aarch-64)"
+
 RDEPENDS:${PN} += "libbz2.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcfitsio.so.10()(64bit) \

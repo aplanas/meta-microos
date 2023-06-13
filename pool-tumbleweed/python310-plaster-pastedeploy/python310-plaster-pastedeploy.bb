@@ -17,6 +17,7 @@ python3.10dist(plaster-pastedeploy) \
 python310-plaster-pastedeploy \
 python310-plaster_pastedeploy \
 python3dist(plaster-pastedeploy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PasteDeploy \
 python310-plaster"

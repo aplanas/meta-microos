@@ -9,6 +9,7 @@ RPM_HASH = "3eef6f5ef7992344734b471bc2129cd4473c74347c08e7dcc50c4dc7d901fbff6185
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "signond-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

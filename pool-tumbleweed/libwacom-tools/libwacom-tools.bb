@@ -11,6 +11,7 @@ RPM_HASH = "6c208c9a0d9c9a9bcc37429343000a44b01351706c2695828070892efc8bf34826eb
 
 RPROVIDES:${PN} += "libwacom-tools \
 libwacom-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

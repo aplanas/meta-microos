@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-geolinks \
 python3.10dist(geolinks) \
 python310-geolinks \
 python3dist(geolinks)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

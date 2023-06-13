@@ -12,6 +12,7 @@ RPM_HASH = "cf239fc4f3711eb6948c7dc4aea42a9cbf4bf447d5778d5e72affdcd9c3facce53d0
 RPROVIDES:${PN} += "libcxxtools-json.so.10()(64bit) \
 libcxxtools-json10 \
 libcxxtools-json10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

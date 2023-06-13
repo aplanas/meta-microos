@@ -11,6 +11,7 @@ RPM_HASH = "70b268298e5b8be11060b470265acef89526e9884001cb6823c7738a229f0bb9360f
 RPROVIDES:${PN} += "libfakekey-devel \
 libfakekey-devel(aarch-64) \
 pkgconfig(libfakekey)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfakekey0"
 

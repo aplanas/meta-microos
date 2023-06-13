@@ -40,6 +40,7 @@ locale(terminology:vi) \
 locale(terminology:zh_Hans) \
 terminology-lang \
 terminology-lang-all"
+
 RDEPENDS:${PN} += "terminology"
 
 inherit rpm

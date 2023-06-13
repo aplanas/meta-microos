@@ -14,6 +14,7 @@ RPM_HASH = "cd1ed82360a4cbb13e2661ce127f7cb5d827bfee510d7d197bc6533d24c338d84de0
 
 RPROVIDES:${PN} += "glade-catalog-gitg \
 glade-catalog-gitg(aarch-64)"
+
 RDEPENDS:${PN} += "glade \
 libgitg-1_0-0"
 

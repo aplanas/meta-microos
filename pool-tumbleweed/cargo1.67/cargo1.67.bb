@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cargo-vendor \
 cargo1.67 \
 cargo1.67(aarch-64) \
 rust+cargo"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \
 libcrypto.so.3(OPENSSL_3.0.0)(64bit) \

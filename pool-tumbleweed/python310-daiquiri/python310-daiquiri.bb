@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-daiquiri \
 python3.10dist(daiquiri) \
 python310-daiquiri \
 python3dist(daiquiri)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-json-logger"
 

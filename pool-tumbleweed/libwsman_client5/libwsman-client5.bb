@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "config(libwsman_client5) \
 libwsman_client.so.5()(64bit) \
 libwsman_client5 \
 libwsman_client5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

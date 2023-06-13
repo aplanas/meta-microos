@@ -9,6 +9,7 @@ RPM_HASH = "e074e5b2ea14df2dde6ecbd75b580f6ea64ad1b7a6500ff8499c483906d1eaf53172
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-zfs"
+
 RDEPENDS:${PN} += "bumblebee-status \
 python3-setuptools"
 

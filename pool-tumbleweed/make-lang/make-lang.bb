@@ -40,6 +40,7 @@ locale(make:zh_CN) \
 locale(make:zh_TW) \
 make-lang \
 make-lang-all"
+
 RDEPENDS:${PN} += "make"
 
 inherit rpm

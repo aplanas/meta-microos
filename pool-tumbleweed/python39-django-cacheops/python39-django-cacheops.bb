@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-cacheops) \
 python39-django-cacheops \
 python3dist(django-cacheops)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-django \
 python39-funcy \

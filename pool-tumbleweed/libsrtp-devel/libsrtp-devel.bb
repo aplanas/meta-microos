@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libsrtp-devel \
 libsrtp-devel(aarch-64) \
 pkgconfig(libsrtp) \
 srtp-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsrtp1"
 

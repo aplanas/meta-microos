@@ -11,6 +11,7 @@ RPM_HASH = "74a1cf08bd575df03543836092dc41e424615c2d69144e057cbc414b658e9499dc0e
 RPROVIDES:${PN} += "ceph-common \
 ceph-common(aarch-64) \
 config(ceph-common)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/python3.10 \

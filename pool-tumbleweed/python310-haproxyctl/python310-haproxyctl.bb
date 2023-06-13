@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-haproxyctl \
 python3.10dist(haproxyctl) \
 python310-haproxyctl \
 python3dist(haproxyctl)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 haproxy \

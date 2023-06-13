@@ -9,6 +9,7 @@ RPM_HASH = "f370cd3fe81e6a30a02258dbd618056bbf9ea28696d28e030f032334ba0188a41c7c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-socialscienceshuberlin-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-natbib-doc:en) \
 texlive-natbib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

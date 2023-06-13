@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(dvicopy.1) \
 texlive-dvicopy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

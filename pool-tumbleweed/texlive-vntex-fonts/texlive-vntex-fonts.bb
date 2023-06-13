@@ -141,6 +141,7 @@ font(vnurwgothicl) \
 font(vnurwgroteskt) \
 font(vnurwpalladiol) \
 texlive-vntex-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

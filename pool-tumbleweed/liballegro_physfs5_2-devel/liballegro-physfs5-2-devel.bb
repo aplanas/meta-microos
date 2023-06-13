@@ -10,6 +10,7 @@ RPM_HASH = "dba21b3f3800c7ee38d7cef3454074dd53335ae641f13aef483ae2915af51e0d0393
 RPROVIDES:${PN} += "liballegro_physfs5_2-devel \
 liballegro_physfs5_2-devel(aarch-64) \
 pkgconfig(allegro_physfs-5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liballegro_physfs5_2 \
 pkgconfig(allegro-5)"

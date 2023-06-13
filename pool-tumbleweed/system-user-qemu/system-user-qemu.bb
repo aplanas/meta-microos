@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(qemu) \
 system-user-qemu \
 user(qemu)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(kvm) \
 sysuser-shadow"

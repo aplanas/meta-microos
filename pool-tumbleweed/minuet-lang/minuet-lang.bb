@@ -41,6 +41,7 @@ locale(minuet:zh_CN) \
 locale(minuet:zh_TW) \
 minuet-lang \
 minuet-lang-all"
+
 RDEPENDS:${PN} += "minuet"
 
 inherit rpm

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-storage-nspkg) \
 python39-azure-storage-nspkg \
 python3dist(azure-storage-nspkg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-nspkg"
 

@@ -39,6 +39,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Task::Kensho::Config) \
 perl-Task-Kensho-Config"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Config::Any) \
 perl(Config::General) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(isotope.sty) \
 texlive-isotope"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

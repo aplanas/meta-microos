@@ -13,6 +13,7 @@ python3.10dist(numcodecs) \
 python310-numcodecs \
 python310-numcodecs(aarch-64) \
 python3dist(numcodecs)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblosc.so.1()(64bit) \

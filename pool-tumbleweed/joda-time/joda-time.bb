@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "joda-time \
 mvn(joda-time:joda-time) \
 mvn(joda-time:joda-time:pom:) \
 osgi(joda-time)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

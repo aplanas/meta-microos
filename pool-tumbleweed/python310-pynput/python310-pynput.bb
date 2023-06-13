@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pynput \
 python3.10dist(pynput) \
 python310-pynput \
 python3dist(pynput)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

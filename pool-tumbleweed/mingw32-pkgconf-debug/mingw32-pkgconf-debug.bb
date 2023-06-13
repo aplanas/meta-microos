@@ -11,6 +11,7 @@ RPM_HASH = "d9035ddca4366686bc00083be7f3f4b37b2bf24b76ec2074720994b4a80f70a2a168
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-pkgconf-debug"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

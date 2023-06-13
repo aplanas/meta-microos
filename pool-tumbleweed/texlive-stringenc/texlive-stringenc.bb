@@ -52,6 +52,7 @@ tex(se-utf32le.def) \
 tex(se-utf8.def) \
 tex(stringenc.sty) \
 texlive-stringenc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

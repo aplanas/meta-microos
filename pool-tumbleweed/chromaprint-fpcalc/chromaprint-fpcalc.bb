@@ -14,6 +14,7 @@ RPM_HASH = "87563bafe1ef4e4cefd2a12957cfe5d3957e9fa2305767d2bc5fcbedf0b00e4c8f6b
 RPROVIDES:${PN} += "chromaprint-fpcalc \
 chromaprint-fpcalc(aarch-64) \
 fpcalc"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.58.134()(64bit) \

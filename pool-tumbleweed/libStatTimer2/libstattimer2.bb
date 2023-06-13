@@ -22,6 +22,7 @@ RPM_HASH = "3e2d0bfd69ee7389cc880a4b687c075c5205538f1673b05f0bffd20a6e7eebf6c21a
 RPROVIDES:${PN} += "libStatTimer.so.2()(64bit) \
 libStatTimer2 \
 libStatTimer2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

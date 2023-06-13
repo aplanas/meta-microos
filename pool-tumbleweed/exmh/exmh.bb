@@ -12,6 +12,7 @@ RPM_HASH = "043de77366e911d55b276a15750abeddef58127f51cfbe3e631b9545c9dfb05de0e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "exmh"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/wish \
 expect \

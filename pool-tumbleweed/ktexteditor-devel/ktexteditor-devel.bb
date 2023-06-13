@@ -13,6 +13,7 @@ RPM_HASH = "719172f2b64c898a543e2df68c410f385a968db004e62d8e1db6e50f6d561e9f90ee
 RPROVIDES:${PN} += "cmake(KF5TextEditor) \
 ktexteditor-devel \
 ktexteditor-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Parts) \
 cmake(KF5SyntaxHighlighting) \
 extra-cmake-modules \

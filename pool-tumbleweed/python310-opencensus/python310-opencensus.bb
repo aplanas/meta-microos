@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-opencensus \
 python3.10dist(opencensus) \
 python310-opencensus \
 python3dist(opencensus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-google-api-core \
 python310-opencensus-context"

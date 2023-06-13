@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(py) \
 python311-py \
 python3dist(py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-apipkg \
 python311-iniconfig"

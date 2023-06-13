@@ -19,6 +19,7 @@ ntp-daemon \
 perl(NTP::Util) \
 xntp \
 xntp3"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/logger \
 /bin/sh \

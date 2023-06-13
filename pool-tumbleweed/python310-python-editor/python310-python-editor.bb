@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-python-editor \
 python3.10dist(python-editor) \
 python310-python-editor \
 python3dist(python-editor)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-box) \
 python39-python-box \
 python3dist(python-box)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-msgpack \
 python39-ruamel.yaml \

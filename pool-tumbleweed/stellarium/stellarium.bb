@@ -16,6 +16,7 @@ metainfo(org.stellarium.Stellarium.appdata.xml) \
 mimehandler(application/x-stellarium-script) \
 stellarium \
 stellarium(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Charts.so.6()(64bit) \

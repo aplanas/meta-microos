@@ -93,6 +93,7 @@ locale(plasma5-desktop:zh_CN) \
 locale(plasma5-desktop:zh_TW) \
 plasma5-desktop-lang \
 plasma5-desktop-lang-all"
+
 RDEPENDS:${PN} += "plasma5-desktop"
 
 inherit rpm

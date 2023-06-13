@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plasma5-desktop-branding-openSUSE \
 plasma5-theme-openSUSE"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 qt5qmlimport(QtGraphicalEffects.1) \

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-verboselogs \
 python3.10dist(verboselogs) \
 python310-verboselogs \
 python3dist(verboselogs)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

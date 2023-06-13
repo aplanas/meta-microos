@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-django-picklefield \
 python3.10dist(django-picklefield) \
 python310-django-picklefield \
 python3dist(django-picklefield)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

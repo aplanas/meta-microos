@@ -9,6 +9,7 @@ RPM_HASH = "524921faa84cf789622e08e4bc959a2720d43340832a86a3a439c6493a225d95454d
 
 RPROVIDES:${PN} += "VFlib3-devel \
 VFlib3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libVFlib3-10 \
 pkgconfig(freetype2) \
 pkgconfig(kpathsea)"

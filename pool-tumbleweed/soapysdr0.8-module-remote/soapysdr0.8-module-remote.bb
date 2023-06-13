@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libremoteSupport.so()(64bit) \
 soapy-remote-module \
 soapysdr0.8-module-remote \
 soapysdr0.8-module-remote(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSoapySDR.so.0.8()(64bit) \

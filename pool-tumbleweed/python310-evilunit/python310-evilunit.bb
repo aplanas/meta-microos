@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-evilunit \
 python3.10dist(evilunit) \
 python310-evilunit \
 python3dist(evilunit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools"
 

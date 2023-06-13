@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libflatbuffers \
 libflatbuffers.so.23.3.3()(64bit) \
 libflatbuffers23_3_3 \
 libflatbuffers23_3_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

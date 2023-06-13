@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "akonadi-notes-devel \
 akonadi-notes-devel(aarch-64) \
 cmake(KF5AkonadiNotes) \
 cmake(KPim5AkonadiNotes)"
+
 RDEPENDS:${PN} += "cmake(KPim5Mime) \
 libKPim5AkonadiNotes5"
 

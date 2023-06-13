@@ -27,6 +27,7 @@ tex(revsymb4-2.sty) \
 tex(revtex4-2.cls) \
 tex(sor4-2.rtx) \
 texlive-revtex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

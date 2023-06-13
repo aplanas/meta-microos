@@ -10,6 +10,7 @@ RPM_HASH = "d68059fc3241535300cad9600b239aa6fd119391c0fb470209b3f12c46a771fc9963
 
 RPROVIDES:${PN} += "libgmic-devel \
 libgmic-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgmic3"
 
 inherit rpm

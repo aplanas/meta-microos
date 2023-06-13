@@ -23,6 +23,7 @@ libpkcs11_tpm.so.0()(64bit) \
 libpkcs11_tpm.so.0(OPENCRYPTOKI_TOK_3.10)(64bit) \
 openCryptoki-64bit \
 openCryptoki-64bit(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

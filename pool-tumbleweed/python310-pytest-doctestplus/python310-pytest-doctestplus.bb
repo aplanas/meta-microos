@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pytest-doctestplus \
 python3.10dist(pytest-doctestplus) \
 python310-pytest-doctestplus \
 python3dist(pytest-doctestplus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-packaging \
 python310-pytest \

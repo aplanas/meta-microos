@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "arm-none-eabi-gcc \
 cross-arm-none-gcc7-bootstrap \
 cross-arm-none-gcc7-bootstrap(aarch-64) \
 liblto_plugin.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-arm-binutils \
 libc.so.6(GLIBC_2.36)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "cec0e2d90b5337c06563a29a595697d263856c877172077dc64fc630823dfa052ba8
 RPROVIDES:${PN} += "libganesha_rados_urls.so()(64bit) \
 nfs-ganesha-rados-urls \
 nfs-ganesha-rados-urls(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

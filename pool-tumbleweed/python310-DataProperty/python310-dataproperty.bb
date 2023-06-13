@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-DataProperty \
 python3.10dist(dataproperty) \
 python310-DataProperty \
 python3dist(dataproperty)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-mbstrdecoder \
 python310-typepy"

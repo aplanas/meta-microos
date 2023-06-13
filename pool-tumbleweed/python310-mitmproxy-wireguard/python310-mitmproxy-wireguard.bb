@@ -12,6 +12,7 @@ python3.10dist(mitmproxy-wireguard) \
 python310-mitmproxy-wireguard \
 python310-mitmproxy-wireguard(aarch-64) \
 python3dist(mitmproxy-wireguard)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

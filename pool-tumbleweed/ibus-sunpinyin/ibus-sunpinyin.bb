@@ -10,6 +10,7 @@ RPM_HASH = "be2eafeae5c77d12227026d77bf8dd8bd4e7cd54c713377188f265344e5b9d1bb5fd
 
 RPROVIDES:${PN} += "ibus-sunpinyin \
 ibus-sunpinyin(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

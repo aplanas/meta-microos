@@ -9,6 +9,7 @@ RPM_HASH = "c18875b8c6c169ac8b42ddb68b8a1a130f005a0069c62821895374239db14ca0a755
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-trimspaces-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

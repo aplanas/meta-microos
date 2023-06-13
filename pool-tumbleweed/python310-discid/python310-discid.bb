@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-discid \
 python3.10dist(discid) \
 python310-discid \
 python3dist(discid)"
+
 RDEPENDS:${PN} += "libdiscid0 \
 python(abi)"
 

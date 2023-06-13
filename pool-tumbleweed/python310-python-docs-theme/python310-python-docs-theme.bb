@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-docs-theme \
 python3.10dist(python-docs-theme) \
 python310-python-docs-theme \
 python3dist(python-docs-theme)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

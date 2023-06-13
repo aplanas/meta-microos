@@ -11,6 +11,7 @@ RPM_HASH = "053534f20679b1da009fc1b87de1fc3e25a8af98d9f9fbd92682aa8b1fa2dfa1e0c9
 
 RPROVIDES:${PN} += "libsphinxclient-devel \
 libsphinxclient-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsphinxclient-0_0_1"
 
 inherit rpm

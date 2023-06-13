@@ -19,6 +19,7 @@ RPM_HASH = "423ca0d200555e520fa1ed448277fc69d9a00b361038bb00b9bc2245b848ca92e8a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-debtcollector-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

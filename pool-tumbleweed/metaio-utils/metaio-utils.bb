@@ -9,6 +9,7 @@ RPM_HASH = "53c9076043147f027b6ca8bab920f6b830c344b1d2fd86247da9605269e2917f9295
 
 RPROVIDES:${PN} += "metaio-utils \
 metaio-utils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

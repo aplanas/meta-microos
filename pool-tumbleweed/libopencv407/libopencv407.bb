@@ -24,6 +24,7 @@ libopencv_shape.so.407()(64bit) \
 libopencv_stitching.so.407()(64bit) \
 libopencv_tracking.so.407()(64bit) \
 libopencv_video.so.407()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:treetop:1) \
 rubygem(ruby:3.2.0:treetop:1.6) \
 rubygem(ruby:3.2.0:treetop:1.6.12) \
 rubygem(treetop)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

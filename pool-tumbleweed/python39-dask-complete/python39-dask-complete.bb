@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-dask-all \
 python39-dask-complete"
+
 RDEPENDS:${PN} += "python39-dask \
 python39-dask-array \
 python39-dask-bag \

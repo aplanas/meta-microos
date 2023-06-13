@@ -87,6 +87,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(brushscriptx) \
 texlive-brushscr-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

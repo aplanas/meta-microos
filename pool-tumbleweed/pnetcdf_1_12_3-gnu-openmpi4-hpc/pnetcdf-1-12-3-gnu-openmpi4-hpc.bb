@@ -17,6 +17,7 @@ RPM_HASH = "cf81b1f507513e9baaf44b4d3fd5f185ab79a61cfd44bbc24e59bdafe540afd9ccfd
 
 RPROVIDES:${PN} += "pnetcdf_1_12_3-gnu-openmpi4-hpc \
 pnetcdf_1_12_3-gnu-openmpi4-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

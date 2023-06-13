@@ -10,6 +10,7 @@ RPM_HASH = "4631fb95ad45c453900bfff1c93b455c0087b1fb7a9ab81db86a3db3b29de5f8b6bb
 RPROVIDES:${PN} += "libdmmp.so.0.2.0()(64bit) \
 libdmmp0_2_0 \
 libdmmp0_2_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

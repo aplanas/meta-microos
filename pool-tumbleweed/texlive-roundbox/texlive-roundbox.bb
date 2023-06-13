@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(roundbox.sty) \
 texlive-roundbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

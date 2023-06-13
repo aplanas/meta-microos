@@ -11,6 +11,7 @@ RPM_HASH = "566cd0e1c05885791f1f28e28207868f6abf6cc48888445d47226fe7ea161b7af8ab
 
 RPROVIDES:${PN} += "libopenblas-gnu-hpc \
 libopenblas-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libopenblas_0_3_21-gnu-hpc"
 

@@ -9,6 +9,7 @@ RPM_HASH = "75e16cbbf5dfd8eb6cca2ab1f460b2f6c8071f74b7d333b18d784fd7a3701c42f943
 
 RPROVIDES:${PN} += "libprelude-doc \
 libprelude-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

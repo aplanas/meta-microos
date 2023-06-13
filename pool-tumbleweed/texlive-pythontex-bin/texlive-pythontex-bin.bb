@@ -9,6 +9,7 @@ RPM_HASH = "690745c4de5a7f3bf78240cd123aedd82dfd8134528ee75a516e0f971ef25d80415f
 
 RPROVIDES:${PN} += "texlive-pythontex-bin \
 texlive-pythontex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pythontex"
 
 inherit rpm

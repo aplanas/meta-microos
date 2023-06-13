@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-metadata-generator) \
 mvn(org.codehaus.plexus:plexus-metadata-generator:pom:) \
 plexus-metadata-generator"
+
 RDEPENDS:${PN} += "/bin/bash \
 apache-commons-cli \
 guava \

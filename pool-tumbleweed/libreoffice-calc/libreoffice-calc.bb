@@ -62,6 +62,7 @@ mimehandler(text/spreadsheet) \
 mimehandler(text/tab-separated-values) \
 mimehandler(text/x-comma-separated-values) \
 mimehandler(text/x-csv)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

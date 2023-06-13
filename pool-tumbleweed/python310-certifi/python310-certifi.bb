@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-certifi \
 python3.10dist(certifi) \
 python310-certifi \
 python3dist(certifi)"
+
 RDEPENDS:${PN} += "ca-certificates \
 ca-certificates-mozilla \
 python(abi)"

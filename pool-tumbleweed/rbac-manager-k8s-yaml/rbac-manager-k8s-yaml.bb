@@ -10,6 +10,7 @@ RPM_HASH = "eba0702812037f8fecfbb1c6ccd6dba502477197409bbbd0f81eeb7d7a2ca30c4819
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rbac-manager-k8s-yaml"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

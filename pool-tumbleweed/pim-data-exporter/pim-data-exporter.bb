@@ -15,6 +15,7 @@ metainfo() \
 metainfo(org.kde.pimdataexporter.appdata.xml) \
 pim-data-exporter \
 pim-data-exporter(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kontact \
 ld-linux-aarch64.so.1()(64bit) \

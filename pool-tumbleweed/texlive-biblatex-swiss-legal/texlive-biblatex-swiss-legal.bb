@@ -27,6 +27,7 @@ tex(biblatex-swiss-legal-longarticle.cbx) \
 tex(biblatex-swiss-legal-shortarticle.bbx) \
 tex(biblatex-swiss-legal-shortarticle.cbx) \
 texlive-biblatex-swiss-legal"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

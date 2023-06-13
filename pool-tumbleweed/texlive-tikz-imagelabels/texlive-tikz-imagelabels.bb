@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikz-imagelabels.sty) \
 texlive-tikz-imagelabels"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

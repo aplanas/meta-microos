@@ -11,6 +11,7 @@ RPM_HASH = "c02314f083ee3f9a5a845e8945a63528b1d3a971aa3233404a4e2fb444d41bf6cf96
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adios-gnu-openmpi4-hpc"
+
 RDEPENDS:${PN} += "/bin/sh \
 adios_1_13_1-gnu-openmpi4-hpc"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(swfigure.sty) \
 texlive-swfigure"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "192a54dc8add63e61a5f321c42dcdcf9e7eaa3d363792fd1767af2a3447ab1c66b13
 
 RPROVIDES:${PN} += "qt6-printsupport-private-devel \
 qt6-printsupport-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6PrintSupport) \
 cups-devel \
 qt6-core-private-devel \

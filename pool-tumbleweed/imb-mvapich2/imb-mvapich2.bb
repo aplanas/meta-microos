@@ -11,6 +11,7 @@ RPM_HASH = "405ef0db5c5a0ace613e096e272415a793ba32685bec900b783aeadae9ff74330281
 
 RPROVIDES:${PN} += "imb-mvapich2 \
 imb-mvapich2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

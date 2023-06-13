@@ -12,6 +12,7 @@ RPM_HASH = "5393e93d6fe73484b4ad5b1b061f5b91b6ed7f728e275b1955b88ee5ad72ba7dc569
 
 RPROVIDES:${PN} += "curl \
 curl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

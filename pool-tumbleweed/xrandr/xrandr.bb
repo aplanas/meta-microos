@@ -10,6 +10,7 @@ RPM_HASH = "82e20b84ced84651f39b30fb3f3098372b0497c91d0b2d785ce92b002772b021c3d1
 
 RPROVIDES:${PN} += "xrandr \
 xrandr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

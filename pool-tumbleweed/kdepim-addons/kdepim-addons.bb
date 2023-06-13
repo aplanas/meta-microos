@@ -24,6 +24,7 @@ libpimcalendarsplugin.so()(64bit) \
 libscamconfiguresettings.so.5()(64bit) \
 libshorturlpluginprivate.so.5()(64bit) \
 qt5qmlimport(org.kde.plasma.PimCalendars.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

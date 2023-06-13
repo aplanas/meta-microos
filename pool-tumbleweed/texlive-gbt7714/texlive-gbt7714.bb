@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gbt7714.sty) \
 texlive-gbt7714"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ RPM_HASH = "1d3aa9fbffabe947a37176c282b39b15e21010eada1e648c1d0cde713dc74aef55b5
 
 RPROVIDES:${PN} += "oath-toolkit \
 oath-toolkit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -60,6 +60,7 @@ locale(libKF5DBusAddons5:tr) \
 locale(libKF5DBusAddons5:uk) \
 locale(libKF5DBusAddons5:zh_CN) \
 locale(libKF5DBusAddons5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5DBusAddons5"
 
 inherit rpm

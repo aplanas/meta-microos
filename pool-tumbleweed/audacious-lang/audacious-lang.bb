@@ -52,6 +52,7 @@ locale(audacious:tr) \
 locale(audacious:uk) \
 locale(audacious:zh_CN) \
 locale(audacious:zh_TW)"
+
 RDEPENDS:${PN} += "audacious"
 
 inherit rpm

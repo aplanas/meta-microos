@@ -10,6 +10,7 @@ RPM_HASH = "11e12f578a8b1e69491fe299e788dfd30672ccbbb73a0929f472bb04ab57d090ef60
 RPROVIDES:${PN} += "config(freeradius-server-mysql) \
 freeradius-server-mysql \
 freeradius-server-mysql(aarch-64)"
+
 RDEPENDS:${PN} += "freeradius-server \
 libc.so.6(GLIBC_2.17)(64bit) \
 libmariadb.so.3()(64bit) \

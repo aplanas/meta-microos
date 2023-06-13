@@ -16,6 +16,7 @@ RPM_HASH = "4735ef49218a9f4927978a0125a03bd9416b32440a330e4c774b3e043f402af0357b
 RPROVIDES:${PN} += "libgwengui-gtk3-79 \
 libgwengui-gtk3-79(aarch-64) \
 libgwengui-gtk3.so.79()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

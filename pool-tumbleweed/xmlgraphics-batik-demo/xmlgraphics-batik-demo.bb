@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-demo \
 xmlgraphics-batik-demo"
+
 RDEPENDS:${PN} += "xmlgraphics-batik"
 
 inherit rpm

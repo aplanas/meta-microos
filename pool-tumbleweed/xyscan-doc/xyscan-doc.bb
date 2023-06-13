@@ -12,6 +12,7 @@ RPM_HASH = "70a6c617b4baa2695dc5a9166e416958ae0b582fcaf12296d72a53c7dcedc00fb700
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xyscan-doc"
+
 RDEPENDS:${PN} += "xyscan"
 
 inherit rpm

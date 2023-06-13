@@ -13,6 +13,7 @@ RPM_HASH = "ec404709e7cd2ae57a2464989919741f2c9df2e11de30283538b2924ed4d85325834
 
 RPROVIDES:${PN} += "tdb-tools \
 tdb-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

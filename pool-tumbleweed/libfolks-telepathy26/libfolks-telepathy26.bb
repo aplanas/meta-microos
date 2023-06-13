@@ -11,6 +11,7 @@ RPM_HASH = "cbf6d36034539e9e267e17e661967fe8ed550c3887370b0640bd612e7dbbd7a1deb0
 RPROVIDES:${PN} += "libfolks-telepathy.so.26()(64bit) \
 libfolks-telepathy26 \
 libfolks-telepathy26(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

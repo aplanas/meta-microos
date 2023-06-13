@@ -9,6 +9,7 @@ RPM_HASH = "27cbce85f19acecd1fb2fde4e9400c6a9d0173fe11926d5be26439ba9830d5fdc252
 
 RPROVIDES:${PN} += "xdmbgrd \
 xdmbgrd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

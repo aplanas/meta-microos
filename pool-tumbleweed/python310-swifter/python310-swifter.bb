@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-swifter \
 python3.10dist(swifter) \
 python310-swifter \
 python3dist(swifter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-bleach \
 python310-cloudpickle \

@@ -11,6 +11,7 @@ RPM_HASH = "494b08f9ca2ccc70cd403f7b2cc67ef0979760852f0d784b7968b89af8f407229146
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icc-profiles-basiccolor-printing2009-extra"
+
 RDEPENDS:${PN} += "icc-profiles-basiccolor-printing2009-coat2"
 
 inherit rpm

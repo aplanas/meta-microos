@@ -11,6 +11,7 @@ RPM_HASH = "8afab8483b59ff7fe0c1ac5d3cc1cc319d7ba6689f6047df0a36b95ab82ab3628e5d
 RPROVIDES:${PN} += "libboost_serialization-devel-impl \
 libboost_serialization1_82_0-devel \
 libboost_serialization1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_headers1_82_0-devel \
 libboost_serialization1_82_0"
 

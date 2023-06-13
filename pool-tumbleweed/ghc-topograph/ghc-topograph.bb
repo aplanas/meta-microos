@@ -16,6 +16,7 @@ RPM_HASH = "8a620247de41ba5e6ab2340e272434ba028a69c5a10f805b495e81c84b8b6e76ddbb
 RPROVIDES:${PN} += "ghc-topograph \
 ghc-topograph(aarch-64) \
 libHStopograph-1.0.0.2-FAmn9lLfwsBEVgB5YGdVHh-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbase-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov-ghc9.4.5.so()(64bit) \

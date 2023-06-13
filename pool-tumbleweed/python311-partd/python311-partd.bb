@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(partd) \
 python311-partd \
 python3dist(partd)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-locket \
 python311-toolz"

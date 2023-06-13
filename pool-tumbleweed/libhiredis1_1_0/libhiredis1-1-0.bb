@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libhiredis.so.1.1.0()(64bit) \
 libhiredis1_1_0 \
 libhiredis1_1_0(aarch-64) \
 libhiredis_ssl.so.1.1.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

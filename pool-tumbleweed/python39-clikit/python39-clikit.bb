@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(clikit) \
 python39-clikit \
 python3dist(clikit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-crashtest \
 python39-pastel \

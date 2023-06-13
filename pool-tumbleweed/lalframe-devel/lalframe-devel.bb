@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(lalframe-devel) \
 lalframe-devel \
 lalframe-devel(aarch-64) \
 pkgconfig(lalframe)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

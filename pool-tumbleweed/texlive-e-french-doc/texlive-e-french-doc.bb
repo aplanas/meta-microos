@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-e-french-doc:en;fr) \
 texlive-e-french-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

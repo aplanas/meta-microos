@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "indi-plugins \
 indi-plugins(aarch-64) \
 libindi_Nearest_MathPlugin.so()(64bit) \
 libindi_SVD_MathPlugin.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_system.so.1.82.0()(64bit) \

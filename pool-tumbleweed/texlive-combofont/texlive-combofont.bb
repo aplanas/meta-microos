@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(combofont.sty) \
 texlive-combofont"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

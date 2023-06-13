@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-push-notifications \
 python3.10dist(django-push-notifications) \
 python310-django-push-notifications \
 python3dist(django-push-notifications)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-pywebpush"

@@ -11,6 +11,7 @@ RPM_HASH = "60bbd1d0f70670e39fffc979d8c0280c3264d3dd70e43bd14002b8532022a866b2c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plank-theme-matcha"
+
 RDEPENDS:${PN} += "metatheme-matcha-common \
 plank"
 

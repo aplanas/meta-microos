@@ -12,6 +12,7 @@ RPM_HASH = "e0e6625cd5836c8587c4f657ac0fd0faabb873bc56f6d14a1980d4f2eb62302efe4b
 
 RPROVIDES:${PN} += "alex \
 alex(aarch-64)"
+
 RDEPENDS:${PN} += "libatomic.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libffi.so.8()(64bit) \

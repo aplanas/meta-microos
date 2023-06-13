@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libnk2-1 \
 libnk2-1(aarch-64) \
 libnk2.so.1()(64bit) \
 libnk2.so.1(V_20221122)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-apparmor \
 patterns-microos-apparmor(aarch-64)"
+
 RDEPENDS:${PN} += "apparmor-parser \
 apparmor-profiles"
 

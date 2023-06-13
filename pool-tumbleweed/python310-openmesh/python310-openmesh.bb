@@ -12,6 +12,7 @@ python3.10dist(openmesh) \
 python310-openmesh \
 python310-openmesh(aarch-64) \
 python3dist(openmesh)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

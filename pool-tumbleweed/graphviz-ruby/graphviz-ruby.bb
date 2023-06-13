@@ -11,6 +11,7 @@ RPM_HASH = "a8a7c169a1782d4aeda423b920da0fffa0e70a7491e51b03ad0f11cdf30a88e98722
 RPROVIDES:${PN} += "graphviz-ruby \
 graphviz-ruby(aarch-64) \
 libgv_ruby.so()(64bit)"
+
 RDEPENDS:${PN} += "graphviz \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

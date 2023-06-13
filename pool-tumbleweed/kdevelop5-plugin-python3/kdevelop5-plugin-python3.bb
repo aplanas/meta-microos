@@ -16,6 +16,7 @@ libkdevpythonduchain.so()(64bit) \
 libkdevpythonparser.so()(64bit) \
 metainfo() \
 metainfo(org.kde.kdev-python.metainfo.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdevelop5 \
 ld-linux-aarch64.so.1()(64bit) \

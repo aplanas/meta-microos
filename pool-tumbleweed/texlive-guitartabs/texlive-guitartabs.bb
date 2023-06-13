@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(guitartabs.cls) \
 texlive-guitartabs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

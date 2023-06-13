@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libcap-devel \
 libcap-devel(aarch-64) \
 pkgconfig(libcap) \
 pkgconfig(libpsx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libcap2 \

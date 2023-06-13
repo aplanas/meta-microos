@@ -17,6 +17,7 @@ RPM_HASH = "def908e35010d42cdc004709dcd248d8dbee44b7c2ad128afae66a1a2948290712a5
 RPROVIDES:${PN} += "libXevie-devel \
 libXevie-devel(aarch-64) \
 pkgconfig(xevie)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXevie1 \
 pkgconfig(x11) \

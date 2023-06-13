@@ -34,6 +34,7 @@ perl(OpenQA::Worker::Job) \
 perl(OpenQA::Worker::Settings) \
 perl(OpenQA::Worker::WebUIConnection) \
 user(_openqa-worker)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

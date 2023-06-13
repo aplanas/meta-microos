@@ -15,6 +15,7 @@ RPM_HASH = "98685219789265b93032408da7e859d1baeea0f56fc975f7551af230d9f2996f5970
 RPROVIDES:${PN} += "pkgconfig(wireplumber-0.4) \
 wireplumber-devel \
 wireplumber-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwireplumber-0_4-0 \
 pkgconfig(gio-2.0) \

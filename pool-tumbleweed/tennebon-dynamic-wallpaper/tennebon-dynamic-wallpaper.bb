@@ -12,6 +12,7 @@ RPM_HASH = "f034d19592d78ff946c85cee72d84698d75cd87f4e12c8f9cb77dec06dec0d52ae6c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tennebon-dynamic-wallpaper"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

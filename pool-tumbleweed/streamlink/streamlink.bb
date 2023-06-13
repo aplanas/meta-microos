@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(streamlink) \
 python3dist(streamlink) \
 streamlink"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python(abi) \
 python3-PySocks \

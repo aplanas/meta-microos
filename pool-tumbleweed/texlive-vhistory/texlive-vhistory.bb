@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(sets.sty) \
 tex(vhistory.sty) \
 texlive-vhistory"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

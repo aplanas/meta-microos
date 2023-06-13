@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-virtualenvwrapper \
 python3.10dist(virtualenvwrapper) \
 python3dist(virtualenvwrapper)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi) \
 python3-stevedore \

@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sip-devel \
 python310-sip-devel"
+
 RDEPENDS:${PN} += "python310-sip6-devel"
 
 inherit rpm

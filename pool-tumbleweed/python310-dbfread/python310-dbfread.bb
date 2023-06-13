@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-dbfread \
 python3.10dist(dbfread) \
 python310-dbfread \
 python3dist(dbfread)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

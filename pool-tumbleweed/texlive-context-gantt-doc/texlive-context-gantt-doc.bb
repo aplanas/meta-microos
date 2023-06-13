@@ -9,6 +9,7 @@ RPM_HASH = "fe211ee01ff33d5c115e2967e1ffb3cb2b42c589fb215df6389fdda49efc47f12b5e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-gantt-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

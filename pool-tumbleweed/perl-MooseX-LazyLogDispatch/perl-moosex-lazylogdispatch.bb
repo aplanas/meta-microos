@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(MooseX::LazyLogDispatch) \
 perl(MooseX::LazyLogDispatch::Levels) \
 perl-MooseX-LazyLogDispatch"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Log::Dispatch::Configurator) \
 perl(Moose)"

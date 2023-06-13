@@ -32,6 +32,7 @@ tex(sseqmain.code.tex) \
 tex(sseqmessages.code.tex) \
 tex(sseqparsers.code.tex) \
 texlive-spectralsequences"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

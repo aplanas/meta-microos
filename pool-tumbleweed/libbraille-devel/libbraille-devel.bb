@@ -12,6 +12,7 @@ RPM_HASH = "9339806ad828d86e6465cf2d1509a0c58b3de1a75a7e5c6262c7893a1c9a2cc2f074
 
 RPROVIDES:${PN} += "libbraille-devel \
 libbraille-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libbraille"
 
 inherit rpm

@@ -94,6 +94,7 @@ locale(libKF5GlobalAccel5:wa) \
 locale(libKF5GlobalAccel5:zh_CN) \
 locale(libKF5GlobalAccel5:zh_HK) \
 locale(libKF5GlobalAccel5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5GlobalAccel5"
 
 inherit rpm

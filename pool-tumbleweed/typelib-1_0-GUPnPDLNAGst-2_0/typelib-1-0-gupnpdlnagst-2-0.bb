@@ -13,6 +13,7 @@ RPM_HASH = "e1227ddf2fa1b4d3b3f0d7176e4b9346b72f8e704c523198e30e30feea0f1df61981
 RPROVIDES:${PN} += "typelib(GUPnPDLNAGst) \
 typelib-1_0-GUPnPDLNAGst-2_0 \
 typelib-1_0-GUPnPDLNAGst-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgupnp-dlna-gst-2.0.so.4()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

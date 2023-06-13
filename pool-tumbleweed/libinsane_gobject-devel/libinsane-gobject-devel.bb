@@ -10,6 +10,7 @@ RPM_HASH = "863c95da2c9683c6dd591c1f18b9f7eca0587845c7734ad8c4208e604c4a32de444d
 
 RPROVIDES:${PN} += "libinsane_gobject-devel \
 libinsane_gobject-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libinsane-devel \
 libinsane_gobject1 \
 typelib-1_0-Libinsane-1_0"

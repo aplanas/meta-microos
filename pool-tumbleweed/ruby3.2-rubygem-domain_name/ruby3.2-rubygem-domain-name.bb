@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:domain_name) \
 rubygem(ruby:3.2.0:domain_name:0) \
 rubygem(ruby:3.2.0:domain_name:0.5) \
 rubygem(ruby:3.2.0:domain_name:0.5.20190701)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ruby(abi) \
 rubygem(ruby:3.2.0:unf)"

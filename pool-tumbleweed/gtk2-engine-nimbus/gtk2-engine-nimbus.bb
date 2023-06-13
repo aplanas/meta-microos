@@ -11,6 +11,7 @@ RPM_HASH = "260f21e0fa0d60c7edb886c04114cabf9a164b9ed833de1ece7a921d59c870172458
 RPROVIDES:${PN} += "gtk2-engine-nimbus \
 gtk2-engine-nimbus(aarch-64) \
 libnimbus.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

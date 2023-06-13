@@ -56,6 +56,7 @@ locale(libKPim5IncidenceEditor5:ug) \
 locale(libKPim5IncidenceEditor5:uk) \
 locale(libKPim5IncidenceEditor5:zh_CN) \
 locale(libKPim5IncidenceEditor5:zh_TW)"
+
 RDEPENDS:${PN} += "libKPim5IncidenceEditor5"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "5673745ed4f48140ff8c86bf2be9d3242f1235255703a7d2e1a634f31bb82623db61
 RPROVIDES:${PN} += "libGLC.so.0()(64bit) \
 libGLC0 \
 libGLC0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

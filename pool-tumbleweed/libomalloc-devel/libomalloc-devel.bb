@@ -10,6 +10,7 @@ RPM_HASH = "b960fc69c0e9631bd594b1b7072f298290abf227a5cc0205e90af410361f4adf0a46
 RPROVIDES:${PN} += "libomalloc-devel \
 libomalloc-devel(aarch-64) \
 pkgconfig(omalloc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libomalloc-4_3_1"
 

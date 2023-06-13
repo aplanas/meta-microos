@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-datatypes-collections \
 mvn(com.fasterxml.jackson.datatype:jackson-datatypes-collections:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-core) \

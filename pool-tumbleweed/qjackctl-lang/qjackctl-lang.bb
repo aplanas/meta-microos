@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qjackctl-lang \
 qjackctl-lang-all"
+
 RDEPENDS:${PN} += "qjackctl"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "912c6940e0483fdd5642f177f5130a1f782364862db9b0a17ac8984988f73a0ce985
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-caladea-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

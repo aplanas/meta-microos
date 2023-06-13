@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dijkstra.sty) \
 texlive-dijkstra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

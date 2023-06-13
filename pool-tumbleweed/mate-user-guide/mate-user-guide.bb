@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(mate-user-guide.desktop) \
 mate-user-guide"
+
 RDEPENDS:${PN} += "yelp"
 
 inherit rpm

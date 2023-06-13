@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(flask-security-too) \
 python39-Flask-Security \
 python39-Flask-Security-Too \
 python3dist(flask-security-too)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Flask \
 python39-Flask-Babel \

@@ -11,6 +11,7 @@ RPM_HASH = "bc91b5bc68979d45cff3ed4d2036d7d16b6ca322ba38fca3d497db45f42855755158
 RPROVIDES:${PN} += "config(fwknopd) \
 fwknopd \
 fwknopd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

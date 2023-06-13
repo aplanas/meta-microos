@@ -10,6 +10,7 @@ RPM_HASH = "b67b9a56f95e531e1cf5d9c811fda2bccd83d0b9563c6baa8b6f7c3049e1d3342ba5
 
 RPROVIDES:${PN} += "libsuseconnect \
 libsuseconnect(aarch-64)"
+
 RDEPENDS:${PN} += "suseconnect-ng"
 
 inherit rpm

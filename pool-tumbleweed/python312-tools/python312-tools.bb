@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python312-2to3 \
 python312-demo \
 python312-tools \
 python312-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.12 \
 python(abi) \
 python312-base"

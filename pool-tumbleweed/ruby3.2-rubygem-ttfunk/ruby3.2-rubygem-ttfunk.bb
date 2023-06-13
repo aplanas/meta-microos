@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:ttfunk:1) \
 rubygem(ruby:3.2.0:ttfunk:1.7) \
 rubygem(ruby:3.2.0:ttfunk:1.7.0) \
 rubygem(ttfunk)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

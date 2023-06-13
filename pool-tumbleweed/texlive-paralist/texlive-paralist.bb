@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(paralist.sty) \
 texlive-paralist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

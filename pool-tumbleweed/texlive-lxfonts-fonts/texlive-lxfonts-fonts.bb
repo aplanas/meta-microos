@@ -120,6 +120,7 @@ font(ltcli8) \
 font(ltclo8) \
 font(ltclq8) \
 texlive-lxfonts-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

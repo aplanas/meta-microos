@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:llhttp-ffi) \
 rubygem(ruby:3.2.0:llhttp-ffi:0) \
 rubygem(ruby:3.2.0:llhttp-ffi:0.4) \
 rubygem(ruby:3.2.0:llhttp-ffi:0.4.0)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 ruby(abi) \
 rubygem(ruby:3.2.0:ffi-compiler:1) \

@@ -16,6 +16,7 @@ RPM_HASH = "07f06fba52781e32ba2bb45b08f84b6ebde62f093c5fe9f924f0e467c9cc8ae7c719
 
 RPROVIDES:${PN} += "swig \
 swig(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

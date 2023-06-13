@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "bumpversion \
 python-bumpversion \
 python3.10dist(bumpversion) \
 python3dist(bumpversion)"
+
 RDEPENDS:${PN} += "python3-base"
 
 inherit rpm

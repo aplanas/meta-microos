@@ -17,6 +17,7 @@ mvn(jtidy:jtidy) \
 mvn(jtidy:jtidy:pom:) \
 mvn(net.sf.jtidy:jtidy) \
 mvn(net.sf.jtidy:jtidy:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(xerces:dom3-xml-apis) \

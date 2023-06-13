@@ -11,6 +11,7 @@ RPM_HASH = "c1d8ce1e773f40be8e59d770eb3119c7f16b8bbf6f2ec8c2d308383fd3a2cdec85e0
 
 RPROVIDES:${PN} += "gfs2-utils \
 gfs2-utils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

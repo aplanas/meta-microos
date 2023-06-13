@@ -11,6 +11,7 @@ RPM_HASH = "5663594969e5ee182125a857c034ab198310f556cd498057d1513d5129bf1c88e1c3
 RPROVIDES:${PN} += "monitoring-plugins-overcr \
 monitoring-plugins-overcr(aarch-64) \
 nagios-plugins-overcr"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

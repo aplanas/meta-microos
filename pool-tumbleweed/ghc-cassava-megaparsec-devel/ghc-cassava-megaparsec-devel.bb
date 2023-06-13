@@ -11,6 +11,7 @@ RPM_HASH = "56b68ac17832ccb0d569f821bd74cbbf7cf22d099adf69c3b931870a5feab7c57225
 RPROVIDES:${PN} += "ghc-cassava-megaparsec-devel \
 ghc-cassava-megaparsec-devel(aarch-64) \
 ghc-devel(cassava-megaparsec-2.0.4-2pnivL0ArW7GGP4dYCJwT3)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-cassava-megaparsec \
 ghc-compiler \

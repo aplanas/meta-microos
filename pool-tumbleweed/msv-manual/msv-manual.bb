@@ -9,6 +9,7 @@ RPM_HASH = "d35a809021b92a84941423b56858915b2feab0994b3078a04fc09ec57057fdf8d6c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "msv-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

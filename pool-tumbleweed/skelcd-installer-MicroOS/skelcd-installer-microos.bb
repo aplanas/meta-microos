@@ -11,6 +11,7 @@ RPM_HASH = "a1d66313125c0dd37b3d7cae1a64a0479d3762367efed058714ddc1bf5759e6ec097
 RPROVIDES:${PN} += "skelcd-installer \
 skelcd-installer-MicroOS \
 skelcd-installer-MicroOS(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

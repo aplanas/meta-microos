@@ -17,6 +17,7 @@ RPM_HASH = "6e3ab83ab877c2e170547781a6915b9c249acbe3049f1192c54a12c1e2a4d7c5816b
 RPROVIDES:${PN} += "libcacard-devel \
 libcacard-devel(aarch-64) \
 pkgconfig(libcacard)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 libcacard0 \

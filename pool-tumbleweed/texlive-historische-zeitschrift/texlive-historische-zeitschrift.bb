@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(historische-zeitschrift.bbx) \
 tex(historische-zeitschrift.cbx) \
 tex(historische-zeitschrift.lbx) \
 texlive-historische-zeitschrift"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

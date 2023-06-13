@@ -13,6 +13,7 @@ RPM_HASH = "2d817bb1bbe4f18aa08edda540504844113cf68584f0029f281d5963cb09438ff452
 RPROVIDES:${PN} += "libmapidb-devel \
 libmapidb-devel(aarch-64) \
 pkgconfig(libmapidb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmapidb1"
 

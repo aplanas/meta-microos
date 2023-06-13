@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(fm-qt) \
 libfm-qt-devel \
 libfm-qt-devel(aarch-64) \
 pkgconfig(libfm-qt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfm-qt13 \
 pkgconfig \

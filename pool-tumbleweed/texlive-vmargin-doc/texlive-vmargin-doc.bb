@@ -9,6 +9,7 @@ RPM_HASH = "3f836ec1410721dbcb455c72637c74540713a8b1957c9281b4dfa8d618f424d0bb09
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vmargin-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

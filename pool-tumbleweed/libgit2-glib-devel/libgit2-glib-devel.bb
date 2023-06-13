@@ -10,6 +10,7 @@ RPM_HASH = "17407c981a1330acc30564e5436d9a54ff1f60e8d06d51f5216206cd234ea2d634fe
 RPROVIDES:${PN} += "libgit2-glib-devel \
 libgit2-glib-devel(aarch-64) \
 pkgconfig(libgit2-glib-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgit2-glib-1_0-0 \
 pkgconfig(gio-2.0) \

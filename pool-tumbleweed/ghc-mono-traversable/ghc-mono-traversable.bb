@@ -10,6 +10,7 @@ RPM_HASH = "04fbf027fa2851ee1080428d78973b4dd4bdd0362d1f7b2985a8171132a002b135ab
 RPROVIDES:${PN} += "ghc-mono-traversable \
 ghc-mono-traversable(aarch-64) \
 libHSmono-traversable-1.0.15.3-IT8tyCr3vQLKgjlccagv2S-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

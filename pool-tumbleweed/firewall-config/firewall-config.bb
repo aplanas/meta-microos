@@ -14,6 +14,7 @@ application(firewall-config.desktop) \
 firewall-config \
 metainfo() \
 metainfo(firewall-config.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 firewalld \

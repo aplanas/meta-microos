@@ -62,6 +62,7 @@ locale(libKPim5TextEdit5:ug) \
 locale(libKPim5TextEdit5:uk) \
 locale(libKPim5TextEdit5:zh_CN) \
 locale(libKPim5TextEdit5:zh_TW)"
+
 RDEPENDS:${PN} += "libKPim5TextEdit5"
 
 inherit rpm

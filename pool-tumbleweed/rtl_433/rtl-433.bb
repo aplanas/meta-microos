@@ -11,6 +11,7 @@ RPM_HASH = "8128a97621afccf29a7b00dd0985dd601c87d207b85f28dee1edbfc9b13722d4e50a
 RPROVIDES:${PN} += "config(rtl_433) \
 rtl_433 \
 rtl_433(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSoapySDR.so.0.8()(64bit) \

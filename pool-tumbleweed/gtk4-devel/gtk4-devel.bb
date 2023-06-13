@@ -21,6 +21,7 @@ pkgconfig(gtk4-x11) \
 rpm_macro(gtk4_immodule_post) \
 rpm_macro(gtk4_immodule_postun) \
 rpm_macro(gtk4_immodule_requires)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gettext-its-gtk4 \
 gtk4-devel-tools \

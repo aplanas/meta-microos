@@ -9,6 +9,7 @@ RPM_HASH = "8718ab6cbc61ca276e39d4af377791c21008df8c397822c31472376ba15032e88c25
 
 RPROVIDES:${PN} += "texlive-de-macro-bin \
 texlive-de-macro-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-de-macro"
 
 inherit rpm

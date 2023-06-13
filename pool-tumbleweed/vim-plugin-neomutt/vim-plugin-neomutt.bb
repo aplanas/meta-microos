@@ -11,6 +11,7 @@ RPM_HASH = "7d1704bd47dcbb5ffed5916903af021f5e16b516283c7c83d0f2b596ab5aa3c39a4d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-neomutt"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

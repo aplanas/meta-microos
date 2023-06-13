@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(currfile-abspath.sty) \
 tex(currfile.sty) \
 texlive-currfile"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

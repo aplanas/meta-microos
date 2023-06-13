@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "patool \
 python3.10dist(patool) \
 python3dist(patool)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

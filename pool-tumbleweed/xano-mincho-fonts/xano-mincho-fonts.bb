@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(ja) \
 scalable-font-ja \
 xano-mincho \
 xano-mincho-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

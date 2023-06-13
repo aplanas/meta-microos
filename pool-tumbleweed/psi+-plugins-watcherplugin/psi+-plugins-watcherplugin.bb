@@ -11,6 +11,7 @@ RPM_HASH = "c3984f8f4e8da812c16e934bd1ec7fe37c92ab23008802ff5b17cb227af82f26caa7
 RPROVIDES:${PN} += "libwatcherplugin.so()(64bit) \
 psi+-plugins-watcherplugin \
 psi+-plugins-watcherplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

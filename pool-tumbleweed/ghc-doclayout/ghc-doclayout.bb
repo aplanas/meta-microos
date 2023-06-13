@@ -12,6 +12,7 @@ RPM_HASH = "6d49607ab4ff647a096914dfdacb1ef4ad0eefd943176937dd023d8ba047c7d52bac
 RPROVIDES:${PN} += "ghc-doclayout \
 ghc-doclayout(aarch-64) \
 libHSdoclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

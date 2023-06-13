@@ -13,6 +13,7 @@ RPM_HASH = "0b7462b0db717c1d76facd4a802534534cb43a3ca9e4437afc4794a804aea76a935b
 
 RPROVIDES:${PN} += "pfstools \
 pfstools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/bash \
 /usr/bin/python3 \

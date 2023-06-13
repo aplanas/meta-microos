@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-sql \
 python3.10dist(python-sql) \
 python310-python-sql \
 python3dist(python-sql)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

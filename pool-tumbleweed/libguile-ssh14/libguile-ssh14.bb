@@ -11,6 +11,7 @@ RPM_HASH = "83f4fe60fb59921e06e9872ae4c0c881a75fc0e0b1fb60943b1500c28d5c47d0d2c0
 RPROVIDES:${PN} += "libguile-ssh.so.14()(64bit) \
 libguile-ssh14 \
 libguile-ssh14(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

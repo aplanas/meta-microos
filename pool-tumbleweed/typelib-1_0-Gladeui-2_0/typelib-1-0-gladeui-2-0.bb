@@ -14,6 +14,7 @@ RPM_HASH = "7422216a200ca735bbdb8805b55af7997e829836b319afa7d2d3a342b03eafd26a74
 RPROVIDES:${PN} += "typelib(Gladeui) \
 typelib-1_0-Gladeui-2_0 \
 typelib-1_0-Gladeui-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgladeui-2.so.13()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

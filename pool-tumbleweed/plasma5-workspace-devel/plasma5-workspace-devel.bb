@@ -17,6 +17,7 @@ cmake(LibTaskManager) \
 plasma-workspace5-devel \
 plasma5-workspace-devel \
 plasma5-workspace-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5SysGuard) \
 cmake(KF5Wayland) \
 cmake(Qt5Core) \

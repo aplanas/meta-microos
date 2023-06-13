@@ -46,6 +46,7 @@ osgi(org.glassfish.jersey.ext.jersey-entity-filtering) \
 osgi(org.glassfish.jersey.inject.jersey-hk2) \
 osgi(org.glassfish.jersey.media.jersey-media-jaxb) \
 osgi(org.glassfish.jersey.media.jersey-media-json-jackson)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-annotations) \

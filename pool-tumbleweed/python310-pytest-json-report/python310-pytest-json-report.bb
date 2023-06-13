@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-json-report \
 python3.10dist(pytest-json-report) \
 python310-pytest-json-report \
 python3dist(pytest-json-report)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-py \
 python310-pytest \

@@ -96,6 +96,7 @@ locale(gnome-screenshot:wa) \
 locale(gnome-screenshot:zh_CN) \
 locale(gnome-screenshot:zh_HK) \
 locale(gnome-screenshot:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-screenshot"
 
 inherit rpm

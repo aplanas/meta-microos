@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-css-parser \
 python3.10dist(css-parser) \
 python310-css-parser \
 python3dist(css-parser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-chardet"
 

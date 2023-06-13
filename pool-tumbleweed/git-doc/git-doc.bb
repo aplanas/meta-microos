@@ -14,6 +14,7 @@ RPM_HASH = "1af9c718e5221d4d6c75d10ee054af18a8d9299702f01fd732ea7deab1408dbaa998
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

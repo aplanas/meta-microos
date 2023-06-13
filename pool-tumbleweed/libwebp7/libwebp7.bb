@@ -14,6 +14,7 @@ RPM_HASH = "e5a4477161489eb47c0afaa0cdec3017fe7c13473c01d652775a1c02aeac0b4ef59d
 RPROVIDES:${PN} += "libwebp.so.7()(64bit) \
 libwebp7 \
 libwebp7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

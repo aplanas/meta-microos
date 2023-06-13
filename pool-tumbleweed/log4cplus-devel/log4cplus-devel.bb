@@ -11,6 +11,7 @@ RPM_HASH = "dfde4b5ac1c34f4bc89a5786b821e7627533246e4bc72fc6e30d298b45cab8fe7d6f
 RPROVIDES:${PN} += "log4cplus-devel \
 log4cplus-devel(aarch-64) \
 pkgconfig(log4cplus)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblog4cplus-2_0-3"
 

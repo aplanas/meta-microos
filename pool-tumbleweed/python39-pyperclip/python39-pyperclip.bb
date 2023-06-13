@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyperclip) \
 python39-pyperclip \
 python3dist(pyperclip)"
+
 RDEPENDS:${PN} += "python(abi) \
 xclip \
 xsel"

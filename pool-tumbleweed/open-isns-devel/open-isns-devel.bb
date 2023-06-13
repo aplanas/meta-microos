@@ -10,6 +10,7 @@ RPM_HASH = "865ee81c7acc18f08958c3b0f238187dca6b7448555f3b6ddd2898583d9f079c5501
 RPROVIDES:${PN} += "open-isns-devel \
 open-isns-devel(aarch-64) \
 pkgconfig(libisns)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 open-isns \

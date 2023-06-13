@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(nbxmpp) \
 python311-nbxmpp \
 python3dist(nbxmpp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3.11dist(idna) \
 python3.11dist(packaging) \

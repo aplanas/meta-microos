@@ -18,6 +18,7 @@ man(pdfopen.1) \
 texlive-pdftools-doc:/usr/share/man/man1/pdfclose.1.gz \
 texlive-pdftools-doc:/usr/share/man/man1/pdfopen.1.gz \
 texlive-xpdfopen"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

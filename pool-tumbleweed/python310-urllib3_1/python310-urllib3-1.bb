@@ -27,6 +27,7 @@ python3.10dist(urllib3) \
 python310-urllib3 \
 python310-urllib3_1 \
 python3dist(urllib3)"
+
 RDEPENDS:${PN} += "ca-certificates-mozilla \
 python(abi) \
 python310-certifi \

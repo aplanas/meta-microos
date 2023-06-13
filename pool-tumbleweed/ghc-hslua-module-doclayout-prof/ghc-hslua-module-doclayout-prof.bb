@@ -10,6 +10,7 @@ RPM_HASH = "eeaf536c647e0bf352ed060c630249a831791c9cf9f801a087e7ab1bf9eb755e39ad
 RPROVIDES:${PN} += "ghc-hslua-module-doclayout-prof \
 ghc-hslua-module-doclayout-prof(aarch-64) \
 ghc-prof(hslua-module-doclayout-1.1.0-H1N0AwnXIkUJX0H1lSxUWS)"
+
 RDEPENDS:${PN} += "ghc-hslua-module-doclayout-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(doclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0) \

@@ -12,6 +12,7 @@ RPM_HASH = "58ad2f1bbebadd2299c662a9802925a6415ca2b80e73e0a6b3eea500dce7deff8e96
 
 RPROVIDES:${PN} += "forkbomb \
 forkbomb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

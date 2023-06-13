@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-asyncclick \
 python3.10dist(asyncclick) \
 python310-asyncclick \
 python3dist(asyncclick)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools"
 

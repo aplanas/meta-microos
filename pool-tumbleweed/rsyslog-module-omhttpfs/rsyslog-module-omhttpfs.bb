@@ -12,6 +12,7 @@ RPM_HASH = "170bcdf04065442d3d52f49262a457953fafc093f93653c2cbb3fe1b51da65af7359
 
 RPROVIDES:${PN} += "rsyslog-module-omhttpfs \
 rsyslog-module-omhttpfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

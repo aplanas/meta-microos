@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(albanian.ldf) \
 texlive-babel-albanian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

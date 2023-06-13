@@ -9,6 +9,7 @@ RPM_HASH = "6c660e343757cdc9c4b5ba28ce9cd1b0a0a3d63b990212dc57e58dc72139232172f5
 
 RPROVIDES:${PN} += "vncmanager \
 vncmanager(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

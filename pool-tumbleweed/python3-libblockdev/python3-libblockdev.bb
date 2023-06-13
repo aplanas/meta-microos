@@ -10,6 +10,7 @@ RPM_HASH = "ad25989d5f8d285962fe478d4f7d98c4243aab3cf0532deed515535306e52559bd1d
 
 RPROVIDES:${PN} += "python3-libblockdev \
 python3-libblockdev(aarch-64)"
+
 RDEPENDS:${PN} += "libblockdev2 \
 python(abi) \
 python3-gobject \

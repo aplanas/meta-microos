@@ -11,6 +11,7 @@ RPM_HASH = "b01414be30c6b263026d8ce97b5de09099db844e9af92b090ad25f6d849b87d6061b
 RPROVIDES:${PN} += "libodfgen-0.1.so.1()(64bit) \
 libodfgen-0_1-1 \
 libodfgen-0_1-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

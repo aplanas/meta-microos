@@ -14,6 +14,7 @@ RPM_HASH = "00f2585bb44afba7e31eeb05c0368b4dab669aef99a6960c11690ec654c67286c1b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcuber"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "8be7fe82c0a42a211c8d6b207d2cfb09d5afdfdf4c0dcaf7d60f4f8418c1e61791f7
 RPROVIDES:${PN} += "libXpm.so.4()(64bit) \
 libXpm4 \
 libXpm4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/gzip \
 /usr/bin/uncompress \

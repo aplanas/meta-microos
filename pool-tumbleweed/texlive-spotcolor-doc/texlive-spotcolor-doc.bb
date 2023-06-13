@@ -9,6 +9,7 @@ RPM_HASH = "0de33a16c88f9d9ec8fe7519b4fcc29c937cffbadc7f7cf9e3f8fa8a9c40e67910d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spotcolor-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

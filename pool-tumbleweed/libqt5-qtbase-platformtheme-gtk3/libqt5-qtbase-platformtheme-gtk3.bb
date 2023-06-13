@@ -10,6 +10,7 @@ RPM_HASH = "df16091214e7eae907e63863bece682206403af3766a53aea1420a7e4bc85ffac22a
 RPROVIDES:${PN} += "libqgtk3.so()(64bit) \
 libqt5-qtbase-platformtheme-gtk3 \
 libqt5-qtbase-platformtheme-gtk3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

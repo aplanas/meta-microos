@@ -11,6 +11,7 @@ RPM_HASH = "1a83e72637b303359511929e3680536e8e53ccd7ea7b252a3a623d4596efcb2b307f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-file-manager-polkit"
+
 RDEPENDS:${PN} += "deepin-file-manager"
 
 inherit rpm

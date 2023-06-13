@@ -12,6 +12,7 @@ RPM_HASH = "daf5985ca654141a53a57d63ddeda87b387f9fd57c14181633a0d1482024d886aac1
 RPROVIDES:${PN} += "config(yate) \
 yate \
 yate(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

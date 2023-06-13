@@ -10,6 +10,7 @@ RPM_HASH = "d870c11c949761d5eb5d3be7c4c9f30ee3968beaa2167f60136bc297cda2048147cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mplus2-variable-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

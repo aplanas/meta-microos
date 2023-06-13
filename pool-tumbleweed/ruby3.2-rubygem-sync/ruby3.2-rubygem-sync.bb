@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:sync:0) \
 rubygem(ruby:3.2.0:sync:0.5) \
 rubygem(ruby:3.2.0:sync:0.5.0) \
 rubygem(sync)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi)"

@@ -17,6 +17,7 @@ RPM_HASH = "b9d52327ac528a8c3919671375ac67b464594c00e9bda93eb7df077dc99960ad4852
 RPROVIDES:${PN} += "typelib(GstPbutils) \
 typelib-1_0-GstPbutils-1_0 \
 typelib-1_0-GstPbutils-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstpbutils-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

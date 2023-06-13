@@ -11,6 +11,7 @@ RPM_HASH = "eb38af2b25ea17095d3020b494f201c06c30982192227a9cb74babf93822942bc025
 RPROVIDES:${PN} += "libkdumpfile-devel \
 libkdumpfile-devel(aarch-64) \
 pkgconfig(libkdumpfile)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libkdumpfile10 \

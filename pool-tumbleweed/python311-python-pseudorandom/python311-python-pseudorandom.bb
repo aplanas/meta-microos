@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-pseudorandom) \
 python311-python-pseudorandom \
 python3dist(python-pseudorandom)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-python-datamatrix"
 

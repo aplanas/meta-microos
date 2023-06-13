@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xcpdftips.sty) \
 texlive-xcpdftips"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

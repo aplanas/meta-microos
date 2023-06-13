@@ -47,6 +47,7 @@ perl(PAR::Heavy) \
 perl(PAR::SetupProgname) \
 perl(PAR::SetupTemp) \
 perl-PAR"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Zip) \
 perl(AutoLoader) \

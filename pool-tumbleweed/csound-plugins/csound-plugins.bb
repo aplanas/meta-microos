@@ -33,6 +33,7 @@ libsignalflowgraph.so()(64bit) \
 libstdutil.so()(64bit) \
 libtrigenvsegs.so()(64bit) \
 liburandom.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

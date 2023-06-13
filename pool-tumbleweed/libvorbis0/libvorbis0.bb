@@ -15,6 +15,7 @@ RPM_HASH = "c1f78891f3269ea5c713c7a614e0cfe93726cf6077861691765c4dcfc015729dfd1b
 RPROVIDES:${PN} += "libvorbis.so.0()(64bit) \
 libvorbis0 \
 libvorbis0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "f77e046897bd265fd6fe6c1965d7977e388648f58d86be7952b2dbcba84065d20882
 RPROVIDES:${PN} += "libnitrokey.so.3()(64bit) \
 libnitrokey3 \
 libnitrokey3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

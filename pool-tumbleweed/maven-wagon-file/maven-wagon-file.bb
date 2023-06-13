@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-wagon-file \
 mvn(org.apache.maven.wagon:wagon-file) \
 mvn(org.apache.maven.wagon:wagon-file:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.wagon:wagon-provider-api) \

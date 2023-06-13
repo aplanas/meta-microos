@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(websocket-client) \
 python311-websocket-client \
 python311-websocket-client-test \
 python3dist(websocket-client)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \

@@ -21,6 +21,7 @@ mimehandler(image/pcx) \
 mimehandler(image/png) \
 mimehandler(image/tga) \
 mimehandler(image/x-icon)"
+
 RDEPENDS:${PN} += "libSDL-1.2.so.0()(64bit) \
 libSDL_image-1.2.so.0()(64bit) \
 libSDL_ttf-2.0.so.0()(64bit) \

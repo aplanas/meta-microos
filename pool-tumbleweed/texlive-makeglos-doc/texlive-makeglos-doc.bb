@@ -9,6 +9,7 @@ RPM_HASH = "2abf42f00f71c528b08c49ee3b42f17b0775ad5ed4fe0759bf59d8f6628c1d57f1ce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-makeglos-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

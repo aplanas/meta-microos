@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(pdfatfi.1) \
 texlive-attachfile2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

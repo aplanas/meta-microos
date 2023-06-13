@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-geojson \
 python3.10dist(geojson) \
 python310-geojson \
 python3dist(geojson)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

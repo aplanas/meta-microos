@@ -9,6 +9,7 @@ RPM_HASH = "3f4b5b54ee5ce211c079f742db255248e8f83cb0a39e2c76c068ba841cf13e57dfcb
 
 RPROVIDES:${PN} += "libpcap-devel-static \
 libpcap-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "bluez-devel \
 dbus-1-devel \
 libnl3-devel \

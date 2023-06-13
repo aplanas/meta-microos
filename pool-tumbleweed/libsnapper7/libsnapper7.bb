@@ -10,6 +10,7 @@ RPM_HASH = "19277569f1ae15c9d85788d8641d93a7bd76e2cd7675a2af3c65e46270a72bac67d4
 RPROVIDES:${PN} += "libsnapper.so.7()(64bit) \
 libsnapper7 \
 libsnapper7(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/mkdir \

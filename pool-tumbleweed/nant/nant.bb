@@ -22,6 +22,7 @@ mono(NAnt.VSNetTasks) \
 mono(NAnt.VisualCppTasks) \
 mono(NAnt.Win32Tasks) \
 nant"
+
 RDEPENDS:${PN} += "mono(System) \
 mono(System.Configuration) \
 mono(System.Data) \

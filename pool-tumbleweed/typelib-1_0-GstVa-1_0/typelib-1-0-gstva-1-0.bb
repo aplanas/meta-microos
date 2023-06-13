@@ -14,6 +14,7 @@ RPM_HASH = "a5a3222e1b97445bfa334b858808a4d0eac46d885c96c11f3994e0d0c72b7d0dab73
 RPROVIDES:${PN} += "typelib(GstVa) \
 typelib-1_0-GstVa-1_0 \
 typelib-1_0-GstVa-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstva-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

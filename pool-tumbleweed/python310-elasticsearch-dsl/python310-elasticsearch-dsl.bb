@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-elasticsearch-dsl \
 python3.10dist(elasticsearch-dsl) \
 python310-elasticsearch-dsl \
 python3dist(elasticsearch-dsl)"
+
 RDEPENDS:${PN} += "(python310-elasticsearch >= 7.0.0 with python310-elasticsearch < 8) \
 python(abi) \
 python310-python-dateutil"

@@ -18,6 +18,7 @@ RPM_HASH = "069fea8ba196799ae9f3dc1d4305cb56aa4793a6df4d5efb8d3d8f2b755ae35d83fa
 
 RPROVIDES:${PN} += "libkmip-tools \
 libkmip-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

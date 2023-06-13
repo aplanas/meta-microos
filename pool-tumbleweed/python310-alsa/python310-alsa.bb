@@ -13,6 +13,7 @@ python3.10dist(pyalsa) \
 python310-alsa \
 python310-alsa(aarch-64) \
 python3dist(pyalsa)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

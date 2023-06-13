@@ -10,6 +10,7 @@ RPM_HASH = "5b109d1e1439b677545e3c08586f1babe9ee958d57bf78f807fdea39a16e7bcd3351
 
 RPROVIDES:${PN} += "python311-libevtx \
 python311-libevtx(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

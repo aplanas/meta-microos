@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(suseprimeindicator) \
 python3dist(suseprimeindicator) \
 suseprime-appindicator"
+
 RDEPENDS:${PN} += "(suse-prime or suse-prime-bbswitch) \
 /bin/sh \
 /usr/bin/python3 \

@@ -20,6 +20,7 @@ RPM_HASH = "5844a181a244771afbb1d7d0a20cf8531d6090f5f771e3bcf257340025f2b0327e74
 
 RPROVIDES:${PN} += "iotop-c \
 iotop-c(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

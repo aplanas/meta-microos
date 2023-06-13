@@ -13,6 +13,7 @@ RPM_HASH = "c326ed3918f6ec7ea3719f264dfc29390824a2c11eee2e8ae19ba8391e8e5fabeaa3
 RPROVIDES:${PN} += "libopenvas_wmiclient-devel \
 libopenvas_wmiclient-devel(aarch-64) \
 pkgconfig(libopenvas_wmiclient)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenvas_wmiclient1"
 

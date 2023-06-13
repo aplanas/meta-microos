@@ -9,6 +9,7 @@ RPM_HASH = "38978875330883a8a77f0383441d6906c8dae1b99f6a3a21665f61b2a58de38eae26
 
 RPROVIDES:${PN} += "python3-osdlyrics \
 python3-osdlyrics(aarch-64)"
+
 RDEPENDS:${PN} += "osdlyrics \
 python(abi)"
 

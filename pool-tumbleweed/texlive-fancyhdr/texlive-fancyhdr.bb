@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(extramarks.sty) \
 tex(fancyhdr.sty) \
 tex(fancyheadings.sty) \
 texlive-fancyhdr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

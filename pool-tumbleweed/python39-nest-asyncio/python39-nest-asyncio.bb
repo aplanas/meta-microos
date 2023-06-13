@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(nest-asyncio) \
 python39-nest-asyncio \
 python3dist(nest-asyncio)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

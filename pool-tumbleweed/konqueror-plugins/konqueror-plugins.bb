@@ -13,6 +13,7 @@ konqueror-plugins \
 konqueror-plugins(aarch-64) \
 konqueror5-plugins \
 libkonqsidebarplugin.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 konqueror \
 ld-linux-aarch64.so.1()(64bit) \

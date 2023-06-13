@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pecan) \
 python39-pecan \
 python3dist(pecan)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

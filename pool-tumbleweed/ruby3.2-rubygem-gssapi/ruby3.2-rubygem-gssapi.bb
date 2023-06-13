@@ -19,6 +19,7 @@ rubygem(ruby:3.2.0:gssapi) \
 rubygem(ruby:3.2.0:gssapi:1) \
 rubygem(ruby:3.2.0:gssapi:1.3) \
 rubygem(ruby:3.2.0:gssapi:1.3.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:ffi)"
 

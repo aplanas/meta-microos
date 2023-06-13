@@ -11,6 +11,7 @@ RPM_HASH = "d37f9a6989836cf4c8ebfbd2f836fe9d60094571e06160e8d22ae0c2c693b915128f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fvwm-themes"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkfifo \
 /usr/bin/perl \

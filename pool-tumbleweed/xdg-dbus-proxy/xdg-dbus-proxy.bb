@@ -11,6 +11,7 @@ RPM_HASH = "6f37e4787e034594de82442b8d68ba469c1ff60bbc4ea93652f198e4db59c380752d
 
 RPROVIDES:${PN} += "xdg-dbus-proxy \
 xdg-dbus-proxy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

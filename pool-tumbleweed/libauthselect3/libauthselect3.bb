@@ -16,6 +16,7 @@ libauthselect.so.3(AUTHSELECT_1.1.0)(64bit) \
 libauthselect.so.3(AUTHSELECT_1.2.3)(64bit) \
 libauthselect3 \
 libauthselect3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 authselect-profiles \
 ld-linux-aarch64.so.1()(64bit) \

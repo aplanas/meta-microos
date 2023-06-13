@@ -16,6 +16,7 @@ mvn(dom4j:dom4j) \
 mvn(dom4j:dom4j:pom:) \
 mvn(org.dom4j:dom4j) \
 mvn(org.dom4j:dom4j:pom:)"
+
 RDEPENDS:${PN} += "bea-stax \
 glassfish-jaxb-api \
 isorelax \

@@ -16,6 +16,7 @@ RPM_HASH = "d110da01131df4a13c40b2d796d2829cd0988b485b76689b66ad3c692d5efaf506d8
 
 RPROVIDES:${PN} += "bitmap \
 bitmap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

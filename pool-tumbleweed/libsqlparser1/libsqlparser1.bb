@@ -14,6 +14,7 @@ RPM_HASH = "5d0060639107aff2132d83bf78684f6d144b3ca2e553de2baabef54e52c462e26c29
 RPROVIDES:${PN} += "libsqlparser.so.1()(64bit) \
 libsqlparser1 \
 libsqlparser1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

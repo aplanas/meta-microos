@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dvgloss.sty) \
 texlive-dvgloss"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

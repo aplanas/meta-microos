@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-autoray \
 python3.10dist(autoray) \
 python310-autoray \
 python3dist(autoray)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

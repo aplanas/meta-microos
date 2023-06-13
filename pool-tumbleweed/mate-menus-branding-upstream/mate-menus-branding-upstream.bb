@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(mate-menus-branding-upstream) \
 mate-menus-branding \
 mate-menus-branding-upstream"
+
 RDEPENDS:${PN} += "mate-menus"
 
 inherit rpm

@@ -30,6 +30,7 @@ libTKXSBase.so.7.7()(64bit) \
 libTKXmlXCAF.so.7.7()(64bit) \
 libopencascade-dataexchange7_7 \
 libopencascade-dataexchange7_7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

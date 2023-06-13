@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-tri.declarative \
 python3.10dist(tri.declarative) \
 python310-tri.declarative \
 python3dist(tri.declarative)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tri.struct"
 

@@ -46,6 +46,7 @@ locale(gegl-0_4:sv) \
 locale(gegl-0_4:tr) \
 locale(gegl-0_4:uk) \
 locale(gegl-0_4:zh_CN)"
+
 RDEPENDS:${PN} += "gegl-0_4"
 
 inherit rpm

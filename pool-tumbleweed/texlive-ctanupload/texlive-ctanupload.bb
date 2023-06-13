@@ -13,6 +13,7 @@ RPM_HASH = "edda7be0ed902e354d165437bf2a19603486ffd8a16a7b076b9327903922b786a86e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctanupload"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

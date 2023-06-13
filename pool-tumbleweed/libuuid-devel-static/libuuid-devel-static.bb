@@ -10,6 +10,7 @@ RPM_HASH = "a20a92a467048fbb6973a7b6bebcf602b074191a3c28231e2170f2a870784a54c219
 
 RPROVIDES:${PN} += "libuuid-devel-static \
 libuuid-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libuuid-devel"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libkdumpfile.so.10()(64bit) \
 libkdumpfile.so.10(LIBKDUMPFILE_0)(64bit) \
 libkdumpfile10 \
 libkdumpfile10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

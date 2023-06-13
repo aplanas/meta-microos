@@ -11,6 +11,7 @@ RPM_HASH = "3940a879f0c166da7fa5ce8765eec98eddfd91d03a20066d34a37375b69576dc80e2
 RPROVIDES:${PN} += "libpkgconf.so.3()(64bit) \
 libpkgconf3 \
 libpkgconf3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

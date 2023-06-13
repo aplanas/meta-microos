@@ -10,6 +10,7 @@ RPM_HASH = "3bf36e6a84c2a08ea74649efa3766de8baf0d45531ec5f74e7959530f781395ad497
 
 RPROVIDES:${PN} += "espeakedit \
 espeakedit(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.17)(64bit) \

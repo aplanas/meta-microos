@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(breathe) \
 python39-breathe \
 python39-sphinxcontrib-breathe \
 python3dist(breathe)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

@@ -15,6 +15,7 @@ tex(windycity.bbx) \
 tex(windycity.cbx) \
 tex(windycity.sty) \
 texlive-windycity"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

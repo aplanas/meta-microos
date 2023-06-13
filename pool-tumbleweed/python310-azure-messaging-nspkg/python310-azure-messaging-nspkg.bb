@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-azure-messaging-nspkg \
 python3.10dist(azure-messaging-nspkg) \
 python310-azure-messaging-nspkg \
 python3dist(azure-messaging-nspkg)"
+
 RDEPENDS:${PN} += "python310-azure-nspkg"
 
 inherit rpm

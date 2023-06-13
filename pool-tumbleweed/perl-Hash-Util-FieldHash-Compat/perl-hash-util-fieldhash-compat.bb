@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Hash::Util::FieldHash::Compat) \
 perl(Hash::Util::FieldHash::Compat::Heavy) \
 perl-Hash-Util-FieldHash-Compat"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(parent)"
 

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-dfdatetime \
 python3.10dist(dfdatetime) \
 python310-dfdatetime \
 python3dist(dfdatetime)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

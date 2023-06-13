@@ -76,6 +76,7 @@ locale(kontact:uk) \
 locale(kontact:wa) \
 locale(kontact:zh_CN) \
 locale(kontact:zh_TW)"
+
 RDEPENDS:${PN} += "kontact"
 
 inherit rpm

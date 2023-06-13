@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bookcover.cls) \
 texlive-bookcover"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

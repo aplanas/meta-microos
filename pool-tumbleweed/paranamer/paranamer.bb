@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "mvn(com.thoughtworks.paranamer:paranamer) \
 mvn(com.thoughtworks.paranamer:paranamer:pom:) \
 osgi(com.thoughtworks.paranamer) \
 paranamer"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

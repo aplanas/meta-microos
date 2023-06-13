@@ -14,6 +14,7 @@ metainfo() \
 metainfo(supertux2.appdata.xml) \
 supertux2 \
 supertux2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

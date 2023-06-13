@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3.9dist(python3-application) \
 python39-application \
 python39-application(aarch-64) \
 python3dist(python3-application)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -86,6 +86,7 @@ perl(Test::Tester::Delegate) \
 perl(Test::use::ok) \
 perl(ok) \
 perl-Test-Simple"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

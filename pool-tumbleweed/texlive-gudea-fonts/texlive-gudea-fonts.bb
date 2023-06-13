@@ -87,6 +87,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(gudea) \
 texlive-gudea-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

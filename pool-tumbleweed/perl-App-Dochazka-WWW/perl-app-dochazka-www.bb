@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(perl-App-Dochazka-WWW) \
 perl(App::Dochazka::WWW) \
 perl(App::Dochazka::WWW::Dispatch) \
 perl-App-Dochazka-WWW"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/sbin/groupadd \

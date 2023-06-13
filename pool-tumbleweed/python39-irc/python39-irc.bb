@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(irc) \
 python39-irc \
 python39-irclib \
 python3dist(irc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-importlib-metadata \
 python39-jaraco.collections \

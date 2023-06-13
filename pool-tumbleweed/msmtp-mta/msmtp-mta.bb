@@ -15,6 +15,7 @@ RPM_HASH = "e5ad1c58baa8f8ca5aa5e4c2d5a6903d59ebf8bf501ce8269b3c1b8b722752669d21
 RPROVIDES:${PN} += "msmtp-mta \
 msmtp-mta(aarch-64) \
 smtp_daemon"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

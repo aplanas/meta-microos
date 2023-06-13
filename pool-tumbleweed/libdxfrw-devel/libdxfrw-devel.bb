@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(libdxfrw) \
 libdxfrw-devel \
 libdxfrw-devel(aarch-64) \
 pkgconfig(libdxfrw)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdxfrw1"
 

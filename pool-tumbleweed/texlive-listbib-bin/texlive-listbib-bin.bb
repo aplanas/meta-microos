@@ -9,6 +9,7 @@ RPM_HASH = "8ec334b4375f85561e9c06080e9151eabc6b6f01546cf64bd200b3e38c4f9d1967a1
 
 RPROVIDES:${PN} += "texlive-listbib-bin \
 texlive-listbib-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-listbib"
 
 inherit rpm

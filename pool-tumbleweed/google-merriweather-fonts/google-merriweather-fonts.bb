@@ -26,6 +26,7 @@ RPM_HASH = "f60670560773723b860981034bdb2886bb3274786b427dfe008435b25b9d527a7088
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-merriweather-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(networkx) \
 python311-networkx \
 python3dist(networkx)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-matplotlib \
 python311-numpy \

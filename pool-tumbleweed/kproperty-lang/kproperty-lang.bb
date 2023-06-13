@@ -37,6 +37,7 @@ locale(kproperty:tr) \
 locale(kproperty:uk) \
 locale(kproperty:zh_CN) \
 locale(kproperty:zh_TW)"
+
 RDEPENDS:${PN} += "kproperty"
 
 inherit rpm

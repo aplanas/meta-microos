@@ -9,6 +9,7 @@ RPM_HASH = "0355eb200e6cc1a545b568670f778c64045867ad2a74499cfc5d4c5cb5777d32bc6f
 
 RPROVIDES:${PN} += "pdsh-netgroup \
 pdsh-netgroup(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

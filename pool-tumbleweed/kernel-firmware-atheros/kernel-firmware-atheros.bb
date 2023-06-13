@@ -96,6 +96,7 @@ firmware(htc_9271.fw) \
 firmware(wil6210.brd) \
 firmware(wil6210.fw) \
 kernel-firmware-atheros"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

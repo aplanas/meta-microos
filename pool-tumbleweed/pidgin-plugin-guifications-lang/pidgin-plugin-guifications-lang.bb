@@ -33,6 +33,7 @@ locale(pidgin-plugin-guifications:zh_CN) \
 locale(pidgin-plugin-guifications:zh_TW) \
 pidgin-plugin-guifications-lang \
 pidgin-plugin-guifications-lang-all"
+
 RDEPENDS:${PN} += "pidgin-plugin-guifications"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "leechcraft-dumbeep \
 leechcraft-dumbeep(aarch-64) \
 leechcraft-soundnotifications \
 libleechcraft_dumbeep.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

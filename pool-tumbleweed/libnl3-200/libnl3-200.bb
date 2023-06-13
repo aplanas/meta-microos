@@ -41,6 +41,7 @@ libnl-xfrm-3.so.200(libnl_3)(64bit) \
 libnl-xfrm-3.so.200(libnl_3_6)(64bit) \
 libnl3-200 \
 libnl3-200(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzlibraryceltic.code.tex) \
 texlive-celtic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -17,6 +17,7 @@ RPM_HASH = "928917ad1aadd08400baca125df8c47f3d1cdc253526d7506a3fa6a2e80acd3bc1db
 RPROVIDES:${PN} += "typelib(LibvirtGObject) \
 typelib-1_0-LibvirtGObject-1_0 \
 typelib-1_0-LibvirtGObject-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libvirt-gobject-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

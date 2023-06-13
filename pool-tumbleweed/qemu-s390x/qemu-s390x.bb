@@ -17,6 +17,7 @@ RPM_HASH = "b1720655e1018533096de048d78cda1f47dfdabe79ed799478c767273df778845aef
 RPROVIDES:${PN} += "qemu-s390 \
 qemu-s390x \
 qemu-s390x(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaio.so.1()(64bit) \

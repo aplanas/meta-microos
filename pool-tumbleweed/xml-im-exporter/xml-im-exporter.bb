@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(de.zeigermann.xml:xml-im-exporter) \
 mvn(de.zeigermann.xml:xml-im-exporter:pom:) \
 xml-im-exporter"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -11,6 +11,7 @@ RPM_HASH = "dafe663a8be3026723ff5754596a9f93a39f48f98449dd7f045816acde5b35b5d0b4
 
 RPROVIDES:${PN} += "ocaml-fmt \
 ocaml-fmt(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

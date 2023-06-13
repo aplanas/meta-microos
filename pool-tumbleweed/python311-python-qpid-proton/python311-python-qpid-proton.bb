@@ -14,6 +14,7 @@ python311-python-qpid-proton \
 python311-python-qpid-proton(aarch-64) \
 python311-qpid-proton \
 python3dist(python-qpid-proton)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

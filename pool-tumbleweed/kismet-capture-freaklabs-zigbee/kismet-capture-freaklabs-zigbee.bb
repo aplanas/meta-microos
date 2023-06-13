@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "kismet-capture-freaklabs-zigbee \
 kismet-capture-freaklabs-zigbee(aarch-64) \
 python3.10dist(kismetcapturefreaklabszigbee) \
 python3dist(kismetcapturefreaklabszigbee)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-protobuf \

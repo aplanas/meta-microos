@@ -20,6 +20,7 @@ libgdcmjpeg12.so.3.0()(64bit) \
 libgdcmjpeg16.so.3.0()(64bit) \
 libgdcmjpeg8.so.3.0()(64bit) \
 libgdcmmd5.so.3.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

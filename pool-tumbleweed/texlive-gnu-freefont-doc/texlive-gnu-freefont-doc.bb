@@ -9,6 +9,7 @@ RPM_HASH = "f850a2ff73347d6b760f8e3a020cea3020596c91d898bc300b75e91168f448077630
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gnu-freefont-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/python3"

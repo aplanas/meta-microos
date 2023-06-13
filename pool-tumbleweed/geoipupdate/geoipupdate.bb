@@ -12,6 +12,7 @@ RPM_HASH = "f20b500d9fb9878e3bbe80dd79bfa719ad556da4fc3a307c5db93ab5f32f3b059c79
 RPROVIDES:${PN} += "config(geoipupdate) \
 geoipupdate \
 geoipupdate(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit)"
 

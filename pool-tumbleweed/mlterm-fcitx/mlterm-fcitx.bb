@@ -13,6 +13,7 @@ libim-fcitx.so()(64bit) \
 locale(fcitx:ja;ko;ar;he) \
 mlterm-fcitx \
 mlterm-fcitx(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFcitx5GClient.so.2()(64bit) \

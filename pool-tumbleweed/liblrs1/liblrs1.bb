@@ -14,6 +14,7 @@ RPM_HASH = "4a21b3a19502f95f771485894631cc678d65bd68329c4ebb30aa06138636051ca944
 RPROVIDES:${PN} += "liblrs.so.1()(64bit) \
 liblrs1 \
 liblrs1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(ripit) \
 ripit"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 cdparanoia \
 perl-CDDB_get \

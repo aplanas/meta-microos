@@ -13,6 +13,7 @@ osmo-e1d-devel \
 osmo-e1d-devel(aarch-64) \
 pkgconfig(libosmo-e1d) \
 pkgconfig(libosmo-octoi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-e1d1 \
 libosmo-octoi1 \

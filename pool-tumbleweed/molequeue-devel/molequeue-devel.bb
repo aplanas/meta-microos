@@ -11,6 +11,7 @@ RPM_HASH = "1c12a1a0d5a5869870e5caac0350255fc9fb6ed6ecc9a58b0b2ed1d45fc9c7e0b601
 RPROVIDES:${PN} += "cmake(MoleQueue) \
 molequeue-devel \
 molequeue-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libqt5-qtbase-devel \
 molequeue-libs0(aarch-64)"
 

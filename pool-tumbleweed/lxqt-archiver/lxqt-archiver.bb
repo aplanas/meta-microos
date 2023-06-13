@@ -66,6 +66,7 @@ mimehandler(application/x-zoo) \
 mimehandler(application/x-zstd-compressed-tar) \
 mimehandler(application/zip) \
 mimehandler(application/zstd)"
+
 RDEPENDS:${PN} += "bsdtar \
 desktop-file-utils \
 ld-linux-aarch64.so.1()(64bit) \

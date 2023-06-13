@@ -11,6 +11,7 @@ RPM_HASH = "b49082dacbdf6f226d85a72513edac99ae3675bd4e27ebc52b08046e6abdf57d2e66
 RPROVIDES:${PN} += "ghc-void \
 ghc-void(aarch-64) \
 libHSvoid-0.7.3-GHzyjd8VkpoJvEZLjo6Bsz-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

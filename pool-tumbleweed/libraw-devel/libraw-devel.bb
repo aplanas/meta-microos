@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libraw-devel \
 libraw-devel(aarch-64) \
 pkgconfig(libraw) \
 pkgconfig(libraw_r)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libraw23 \
 pkgconfig(lcms2)"

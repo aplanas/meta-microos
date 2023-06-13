@@ -11,6 +11,7 @@ RPM_HASH = "e835d2cb6a148db04f0c75122415a149cbe14b8a8c42397ade5d6088fd6730ad3aea
 RPROVIDES:${PN} += "libspiro-devel \
 libspiro-devel(aarch-64) \
 pkgconfig(libspiro)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libspiro1"

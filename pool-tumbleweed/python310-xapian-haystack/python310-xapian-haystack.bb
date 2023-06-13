@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-xapian-haystack \
 python3.10dist(xapian-haystack) \
 python310-xapian-haystack \
 python3dist(xapian-haystack)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-django-haystack"

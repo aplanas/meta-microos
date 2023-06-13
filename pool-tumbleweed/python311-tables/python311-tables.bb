@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(tables) \
 python311-tables \
 python311-tables(aarch-64) \
 python3dist(tables)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 hdf5 \

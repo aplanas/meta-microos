@@ -11,6 +11,7 @@ RPM_HASH = "cf0df4035ffd51e193a2eead3ad685075d53fa423c378701b98c28bb3f65223feb02
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-hikey960"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "1c571fcbedc9dd53aa3e5291219506a71fc396ea6ae1a36be4f2d3750bc76b33421a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pegdown-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

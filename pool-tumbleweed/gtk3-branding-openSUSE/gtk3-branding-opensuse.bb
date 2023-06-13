@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(gtk3-branding-openSUSE) \
 gtk3-branding \
 gtk3-branding-openSUSE"
+
 RDEPENDS:${PN} += "gtk3-metatheme-adwaita \
 libgtk-3-0"
 

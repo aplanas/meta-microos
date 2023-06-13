@@ -12,6 +12,7 @@ RPM_HASH = "f525d41978f8bccd01f16d971aa9b85c0baa198c54b65cf5ae5d4b3f7ad3ee58cc8b
 RPROVIDES:${PN} += "libliftoff.so.0()(64bit) \
 libliftoff0 \
 libliftoff0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

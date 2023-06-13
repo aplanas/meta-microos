@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "dtb-hisilicon \
 dtb-hisilicon(aarch-64) \
 dtb-hisilicon64 \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

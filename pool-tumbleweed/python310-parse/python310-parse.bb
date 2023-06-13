@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-parse \
 python3.10dist(parse) \
 python310-parse \
 python3dist(parse)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

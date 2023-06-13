@@ -15,6 +15,7 @@ application(pronterface.desktop) \
 metainfo() \
 metainfo(pronterface.appdata.xml) \
 pronterface"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 pronsole \
 python3-wxPython"

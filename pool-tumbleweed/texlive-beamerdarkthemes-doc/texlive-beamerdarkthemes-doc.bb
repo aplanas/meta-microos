@@ -9,6 +9,7 @@ RPM_HASH = "9ba108658844b13c9b4b515b23671382dd4b0b7060d50c789ffdf125e734f6a5258a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamerdarkthemes-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

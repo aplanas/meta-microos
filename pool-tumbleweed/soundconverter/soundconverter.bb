@@ -29,6 +29,7 @@ python3.10dist(soundconverter) \
 python3dist(soundconverter) \
 soundconverter \
 soundconverter(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gstreamer \
 gstreamer-plugins-base \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-orange-canvas-core \
 python3.10dist(orange-canvas-core) \
 python310-orange-canvas-core \
 python3dist(orange-canvas-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-AnyQt \
 python310-CacheControl \

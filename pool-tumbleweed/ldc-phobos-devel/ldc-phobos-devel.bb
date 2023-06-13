@@ -10,6 +10,7 @@ RPM_HASH = "f47b467082ca85d0fa817e0f7f7208b17c570f2b0cbd248e9f3dc1ade9c43bfa2030
 
 RPROVIDES:${PN} += "ldc-phobos-devel \
 ldc-phobos-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ldc-runtime-devel \
 libphobos2-ldc102"
 

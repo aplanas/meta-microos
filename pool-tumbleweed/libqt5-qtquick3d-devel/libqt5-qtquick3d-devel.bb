@@ -19,6 +19,7 @@ pkgconfig(Qt5Quick3DAssetImport) \
 pkgconfig(Qt5Quick3DRender) \
 pkgconfig(Qt5Quick3DRuntimeRender) \
 pkgconfig(Qt5Quick3DUtils)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Quick3D5 \
 libQt5Quick3DAssetImport5 \

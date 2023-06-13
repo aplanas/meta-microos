@@ -18,6 +18,7 @@ application(org.gnome.Weather.desktop) \
 gnome-weather \
 metainfo() \
 metainfo(org.gnome.Weather.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/gjs-console \
 typelib(Adw) \
 typelib(GLib) \

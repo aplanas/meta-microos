@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6DataVisualization) \
 pkgconfig(Qt6DataVisualization) \
 qt6-datavisualization-devel \
 qt6-datavisualization-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6OpenGL) \

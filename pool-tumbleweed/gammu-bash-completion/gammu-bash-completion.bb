@@ -9,6 +9,7 @@ RPM_HASH = "6cebf246c5b3af472dfc3bd12b6e07cf6a801c82fa6dca64aa22c5a34cebf5fea0dd
 
 RPROVIDES:${PN} += "gammu-bash-completion \
 gammu-bash-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash-completion \
 gammu"
 

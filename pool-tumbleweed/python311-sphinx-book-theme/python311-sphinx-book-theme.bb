@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinx-book-theme) \
 python311-sphinx-book-theme \
 python3dist(sphinx-book-theme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML \
 python311-Sphinx \

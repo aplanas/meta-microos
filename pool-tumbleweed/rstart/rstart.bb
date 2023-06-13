@@ -14,6 +14,7 @@ RPM_HASH = "4a5295b496dc452fa77d5dccc6d995d53618828efd883f35a9cde4442ccc9fa33e6b
 
 RPROVIDES:${PN} += "rstart \
 rstart(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

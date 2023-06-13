@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(asdf-standard) \
 python311-asdf-standard \
 python311-asdf_standard \
 python3dist(asdf-standard)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

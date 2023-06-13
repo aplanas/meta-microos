@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(HTTP::CookieJar) \
 perl(HTTP::CookieJar::LWP) \
 perl-HTTP-CookieJar"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Date) \
 perl(Time::Local) \

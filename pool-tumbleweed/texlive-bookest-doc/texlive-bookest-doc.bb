@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-bookest-doc:en;it) \
 texlive-bookest-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipympl \
 jupyter-matplotlib"
+
 RDEPENDS:${PN} += "jupyter-notebook \
 python3dist(ipympl)"
 

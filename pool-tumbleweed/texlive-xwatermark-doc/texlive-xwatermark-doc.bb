@@ -9,6 +9,7 @@ RPM_HASH = "b8c2eafc594844f40cbc5bec4c6af0a5e54f46dee5dacbfad69f2df5283ca8f67632
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xwatermark-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

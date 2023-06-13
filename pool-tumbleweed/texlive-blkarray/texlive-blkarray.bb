@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(blkarray.sty) \
 texlive-blkarray"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

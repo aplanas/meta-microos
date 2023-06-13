@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lcd.sty) \
 texlive-lcd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

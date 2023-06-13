@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-localflavor \
 python3.10dist(django-localflavor) \
 python310-django-localflavor \
 python3dist(django-localflavor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-python-stdnum"

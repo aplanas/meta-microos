@@ -12,6 +12,7 @@ RPM_HASH = "1c454229aded31d326760e1e4a42894e05dd508290f4c17c3c7a68092724e20bdaca
 
 RPROVIDES:${PN} += "rsvndump \
 rsvndump(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libapr-1.so.0()(64bit) \

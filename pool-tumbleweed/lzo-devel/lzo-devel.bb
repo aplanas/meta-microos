@@ -13,6 +13,7 @@ RPM_HASH = "0c8d28fd461b5b69bdba4f116c9e1cc9d070f8ca32631819799f4993809db3837957
 RPROVIDES:${PN} += "lzo-devel \
 lzo-devel(aarch-64) \
 pkgconfig(lzo2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblzo2-2"
 

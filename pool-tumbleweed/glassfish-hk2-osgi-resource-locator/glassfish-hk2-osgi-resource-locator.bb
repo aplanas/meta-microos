@@ -15,6 +15,7 @@ mvn(org.glassfish.hk2:osgi-resource-locator) \
 mvn(org.glassfish.hk2:osgi-resource-locator:pom:) \
 osgi(org.glassfish.hk2.osgi-resource-locator) \
 osgi-resource-locator"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

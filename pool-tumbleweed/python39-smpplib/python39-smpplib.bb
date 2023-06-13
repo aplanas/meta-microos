@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(smpplib) \
 python39-smpplib \
 python3dist(smpplib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six"
 

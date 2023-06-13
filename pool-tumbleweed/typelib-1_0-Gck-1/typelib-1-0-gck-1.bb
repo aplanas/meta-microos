@@ -13,6 +13,7 @@ RPM_HASH = "a8cf883b687bd46f20eaad9c095ba982571bdf1855b96f944ef6007805b785bc6b73
 RPROVIDES:${PN} += "typelib(Gck) \
 typelib-1_0-Gck-1 \
 typelib-1_0-Gck-1(aarch-64)"
+
 RDEPENDS:${PN} += "libgck-1.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

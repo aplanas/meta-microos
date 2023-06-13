@@ -15,6 +15,7 @@ pattern-order() \
 patterns-gnome-gnome_games \
 patterns-gnome-gnome_games(aarch-64) \
 patterns-openSUSE-gnome_games"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

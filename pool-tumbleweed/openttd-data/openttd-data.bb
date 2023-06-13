@@ -11,6 +11,7 @@ RPM_HASH = "afd34d77dccb8431e283be4e5eab2a5e67c553c15c3ba01c0a2a636478fbd2629bfa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openttd-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

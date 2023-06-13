@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "perl(WeakRef) \
 perl-WeakRef \
 perl-WeakRef(aarch-64) \
 perl-Weakref"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

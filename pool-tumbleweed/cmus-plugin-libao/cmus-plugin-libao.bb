@@ -9,6 +9,7 @@ RPM_HASH = "11a1fee6c0036e79988938114587dde08003b7f504c499e81f038e28229b989b3fda
 
 RPROVIDES:${PN} += "cmus-plugin-libao \
 cmus-plugin-libao(aarch-64)"
+
 RDEPENDS:${PN} += "cmus \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

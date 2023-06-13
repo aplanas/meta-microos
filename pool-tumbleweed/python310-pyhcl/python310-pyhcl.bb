@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyhcl \
 python3.10dist(pyhcl) \
 python310-pyhcl \
 python3dist(pyhcl)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

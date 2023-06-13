@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(libstoragemgmt-hpsa-plugin) \
 libstoragemgmt-hpsa-plugin"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

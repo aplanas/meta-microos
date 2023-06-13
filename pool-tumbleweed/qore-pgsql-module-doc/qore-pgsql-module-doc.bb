@@ -11,6 +11,7 @@ RPM_HASH = "dc8bbbd64d774dc1f5e2b5ef8516f5c6e37fb95fbe00d5ca33b537e54893458ed1c2
 
 RPROVIDES:${PN} += "qore-pgsql-module-doc \
 qore-pgsql-module-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

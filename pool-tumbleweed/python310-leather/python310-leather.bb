@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-leather \
 python3.10dist(leather) \
 python310-leather \
 python3dist(leather)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

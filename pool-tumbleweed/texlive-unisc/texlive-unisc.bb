@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(unisc.sty) \
 texlive-unisc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

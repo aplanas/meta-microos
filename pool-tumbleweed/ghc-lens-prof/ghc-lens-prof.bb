@@ -10,6 +10,7 @@ RPM_HASH = "31ea1d4d41cf0ea49457adb13699cfc2f051ea276b496d5603cdfe5108448321bf11
 RPROVIDES:${PN} += "ghc-lens-prof \
 ghc-lens-prof(aarch-64) \
 ghc-prof(lens-5.2.2-2MO0prnPqCQBRfua8fH2Ea)"
+
 RDEPENDS:${PN} += "ghc-lens-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(assoc-1.0.2-IAwklVGxRFw6xcadvaWWl7) \

@@ -10,6 +10,7 @@ RPM_HASH = "b9a592d67afd9c4d9d15919412269e5bcbbd8fea7bc09ff0ab7726f9b18cf3e6526c
 RPROVIDES:${PN} += "libgstreamerd-3-0 \
 libgstreamerd-3-0(aarch-64) \
 libgstreamerd-3.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libdruntime-ldc-shared.so.102()(64bit) \

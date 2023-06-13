@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-purview \
 python3.10dist(azure-mgmt-purview) \
 python310-azure-mgmt-purview \
 python3dist(azure-mgmt-purview)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

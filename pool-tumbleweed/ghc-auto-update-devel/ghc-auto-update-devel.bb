@@ -10,6 +10,7 @@ RPM_HASH = "61b82c4b20a1fa9b3db8784a3cdcbb0685e93f288bb5b352b464c37cfdf0f030980e
 RPROVIDES:${PN} += "ghc-auto-update-devel \
 ghc-auto-update-devel(aarch-64) \
 ghc-devel(auto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-auto-update \
 ghc-compiler \

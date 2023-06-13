@@ -14,6 +14,7 @@ python3.10dist(jupyter-server-terminals) \
 python310-jupyter-server-terminals \
 python310-jupyter_server_terminals \
 python3dist(jupyter-server-terminals)"
+
 RDEPENDS:${PN} += "jupyter-server-terminals \
 python(abi) \
 python310-terminado"

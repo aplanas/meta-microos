@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Neko) \
 neko-devel \
 neko-devel(aarch-64) \
 nekovm-devel"
+
 RDEPENDS:${PN} += "libneko2"
 
 inherit rpm

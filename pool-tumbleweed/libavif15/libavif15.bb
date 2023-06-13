@@ -15,6 +15,7 @@ RPM_HASH = "f8a038f22c31a3dc27b17d7dc3e754fbfc97b50a6bf5c817f6678f37b166badd81e6
 RPROVIDES:${PN} += "libavif.so.15()(64bit) \
 libavif15 \
 libavif15(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

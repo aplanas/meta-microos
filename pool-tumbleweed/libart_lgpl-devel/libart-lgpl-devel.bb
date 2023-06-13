@@ -11,6 +11,7 @@ RPM_HASH = "3a78233ee2979a0fa59601bfd6b7f9bdf040bce9e9e88cad03e7348008e81664d0ed
 RPROVIDES:${PN} += "libart_lgpl-devel \
 libart_lgpl-devel(aarch-64) \
 pkgconfig(libart-2.0)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libart_lgpl_2-2"

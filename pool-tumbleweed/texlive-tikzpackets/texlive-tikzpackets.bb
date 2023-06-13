@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzPackets.sty) \
 texlive-tikzpackets"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

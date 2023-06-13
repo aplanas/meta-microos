@@ -11,6 +11,7 @@ RPM_HASH = "e56b94e8d4fecd1280dd35bff3f3230b02304146c1ad6bf2e3345ec8b8b29e345cbc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-qemu_sbsa"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

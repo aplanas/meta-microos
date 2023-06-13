@@ -12,6 +12,7 @@ RPM_HASH = "5cdba65454eed06078f54f821198bc3f324a2b6e751f38019388b5375f2110c4cd0f
 
 RPROVIDES:${PN} += "python311-nlopt \
 python311-nlopt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

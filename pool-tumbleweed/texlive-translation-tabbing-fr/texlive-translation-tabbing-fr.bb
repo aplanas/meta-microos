@@ -10,6 +10,7 @@ RPM_HASH = "8ff858963c415959ce81373aaaea82bcdc581e77cd623542cba874ff345cf0d2ac4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-tabbing-fr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

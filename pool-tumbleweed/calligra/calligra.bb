@@ -38,6 +38,7 @@ libkowidgetutils.so.17()(64bit) \
 libkundo2.so.17()(64bit) \
 libpigmentcms.so.17()(64bit) \
 qt5qmlimport(org.kde.calligra.1)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kcoreaddons \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "3cc2d27b59c6ccd139a8d564646e5f0116f9484fa7c1cafaacf98e6e5ac2e281104a
 
 RPROVIDES:${PN} += "cdrdao \
 cdrdao(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libao.so.4()(64bit) \

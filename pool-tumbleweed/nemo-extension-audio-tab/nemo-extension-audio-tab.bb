@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "nemo-extension-audio-tab \
 python3.10dist(nemo-audio-tab) \
 python3dist(nemo-audio-tab)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 nemo \
 python3-mutagen \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:css_parser) \
 rubygem(ruby:3.2.0:css_parser:1) \
 rubygem(ruby:3.2.0:css_parser:1.12) \
 rubygem(ruby:3.2.0:css_parser:1.12.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:addressable)"
 

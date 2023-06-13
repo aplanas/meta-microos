@@ -39,6 +39,7 @@ locale(colorhug-client:sv) \
 locale(colorhug-client:tr) \
 locale(colorhug-client:uk) \
 locale(colorhug-client:zh_TW)"
+
 RDEPENDS:${PN} += "colorhug-client"
 
 inherit rpm

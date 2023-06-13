@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jaraco.logging \
 python3.10dist(jaraco.logging) \
 python310-jaraco.logging \
 python3dist(jaraco.logging)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tempora"
 

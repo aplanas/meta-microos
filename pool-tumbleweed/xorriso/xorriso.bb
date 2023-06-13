@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libburnia-tools \
 libburnia-tools-x11 \
 xorriso \
 xorriso(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 info \
 ld-linux-aarch64.so.1()(64bit) \

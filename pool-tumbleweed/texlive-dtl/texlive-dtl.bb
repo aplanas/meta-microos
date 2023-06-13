@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(dt2dv.1) \
 man(dv2dt.1) \
 texlive-dtl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

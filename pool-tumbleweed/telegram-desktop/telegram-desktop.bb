@@ -18,6 +18,7 @@ metainfo(org.telegram.desktop.metainfo.xml) \
 mimehandler(x-scheme-handler/tg) \
 telegram-desktop \
 telegram-desktop(aarch-64)"
+
 RDEPENDS:${PN} += "hicolor-icon-theme \
 icu \
 libQt6Core.so.6()(64bit) \

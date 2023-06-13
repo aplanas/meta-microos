@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "classads-devel \
 config(htcondor-classads-devel) \
 htcondor-classads-devel \
 htcondor-classads-devel(aarch-64)"
+
 RDEPENDS:${PN} += "htcondor-classads \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

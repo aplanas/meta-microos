@@ -10,6 +10,7 @@ RPM_HASH = "7448052823b09d4aaa362517c242e21ba5d53f7f662307d0997babdd3a4b2b11f482
 RPROVIDES:${PN} += "libqrcodegen.so.1()(64bit) \
 libqrcodegen1 \
 libqrcodegen1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

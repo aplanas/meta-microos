@@ -9,6 +9,7 @@ RPM_HASH = "30608648fe8839a06d9e571dc0467cae3e3e6d76799012a940b9f7dfdc4b94cded26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "typst-bash-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

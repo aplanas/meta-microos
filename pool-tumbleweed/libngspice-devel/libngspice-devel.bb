@@ -12,6 +12,7 @@ RPM_HASH = "d52c1dcf86196ce251ca07e2384468a64bedffff59b4da2fb2c9cf6cc46bd92dbc18
 RPROVIDES:${PN} += "libngspice-devel \
 libngspice-devel(aarch-64) \
 pkgconfig(ngspice)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libngspice0"
 

@@ -24,6 +24,7 @@ application(mate-tweak.desktop) \
 mate-tweak \
 python3.10dist(mate-tweak) \
 python3dist(mate-tweak)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
 Mesa-demo-x \

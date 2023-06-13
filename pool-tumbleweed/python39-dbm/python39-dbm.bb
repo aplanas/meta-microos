@@ -10,6 +10,7 @@ RPM_HASH = "ece93869c3bad727b9f08671a4f16aef6b45216896ae13fe9f68d5a1da08a253b0b6
 
 RPROVIDES:${PN} += "python39-dbm \
 python39-dbm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

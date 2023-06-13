@@ -10,6 +10,7 @@ RPM_HASH = "7914e575305e41d5cc108711c9caf02fdfe9f161f49d93770038445fe6bccd796c23
 RPROVIDES:${PN} += "maxima-exec-clisp \
 maxima-exec-clisp(aarch-64) \
 maxima_exec"
+
 RDEPENDS:${PN} += "clisp \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

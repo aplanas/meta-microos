@@ -15,6 +15,7 @@ RPM_HASH = "0bcb6668bce2b60110557fff4b25a4e35e996c938ab4707f2aa7a20fbe7aace1c873
 RPROVIDES:${PN} += "pkgconfig(qore) \
 qore-devel \
 qore-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

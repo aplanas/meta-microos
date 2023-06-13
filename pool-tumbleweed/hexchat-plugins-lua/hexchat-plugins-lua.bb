@@ -9,6 +9,7 @@ RPM_HASH = "857f892dd5456f1a6b05c67e73b0b56724a448a1ab3518121ee6ad9561121aa791af
 
 RPROVIDES:${PN} += "hexchat-plugins-lua \
 hexchat-plugins-lua(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

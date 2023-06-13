@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "config(sudo) \
 libsudo_util.so.0()(64bit) \
 sudo \
 sudo(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

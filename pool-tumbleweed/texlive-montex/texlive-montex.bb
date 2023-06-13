@@ -174,6 +174,7 @@ tex(rlbicig.sty) \
 tex(russian.def) \
 tex(xalx.def) \
 texlive-montex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

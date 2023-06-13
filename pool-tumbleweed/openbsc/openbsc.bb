@@ -20,6 +20,7 @@ openbsc \
 openbsc(aarch-64) \
 osmocom-bsc-sccplite \
 osmocom-nitb"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libdbi-drivers-dbd-sqlite3 \

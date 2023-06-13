@@ -12,6 +12,7 @@ RPM_HASH = "cb6a4b29350202eb5cdd1372653e6be4d192f1d241d15d2b735d447b04caba4da7ba
 
 RPROVIDES:${PN} += "miltertest \
 miltertest(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbsd.so.0()(64bit) \

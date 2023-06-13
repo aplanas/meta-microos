@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-python-whois \
 python3.10dist(python-whois) \
 python310-python-whois \
 python3dist(python-whois)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future"
 

@@ -9,6 +9,7 @@ RPM_HASH = "1b28af54c4df92b8af82966223881a99d2d81ccc54a6f6bfef2a5a5aa3b2c4fea069
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-dict-emoji"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

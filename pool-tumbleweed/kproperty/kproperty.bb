@@ -9,6 +9,7 @@ RPM_HASH = "5822886085fb4a586c2cf81bbe71a86b128a98846e9dc32b4247a339e49ed43eda6e
 
 RPROVIDES:${PN} += "kproperty \
 kproperty(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

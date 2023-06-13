@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Array::Diff) \
 perl-Array-Diff"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Algorithm::Diff) \
 perl(Class::Accessor::Fast)"

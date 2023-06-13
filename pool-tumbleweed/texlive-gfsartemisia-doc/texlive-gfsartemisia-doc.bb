@@ -9,6 +9,7 @@ RPM_HASH = "6ffd6cd983efedc65c8817c9875d4a471470a11ba5119175bf0ef4903989b2121d4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfsartemisia-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

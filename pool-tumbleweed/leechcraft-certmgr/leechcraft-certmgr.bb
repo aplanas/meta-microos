@@ -10,6 +10,7 @@ RPM_HASH = "0050a8c46886a59d2b1418758529f38954922c5105c8107091695c8ec796d6816d87
 RPROVIDES:${PN} += "leechcraft-certmgr \
 leechcraft-certmgr(aarch-64) \
 libleechcraft_certmgr.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

@@ -10,6 +10,7 @@ RPM_HASH = "84d61e88a7f007f0f1eb75f8526f481dd59fca0c275a20a96d0865ed19551bfd383d
 
 RPROVIDES:${PN} += "openssh-cavs \
 openssh-cavs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

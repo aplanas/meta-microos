@@ -11,6 +11,7 @@ RPM_HASH = "14e95e367237261a67a0a518151ae6c0f9e3382c93af1065453f2d5efda01db38a43
 
 RPROVIDES:${PN} += "cblas-devel-static \
 cblas-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "cblas-devel"
 
 inherit rpm

@@ -13,6 +13,7 @@ fprintd-pam(aarch-64) \
 pam_fp \
 pam_fprint \
 pam_thinkfinger"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 fprintd \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(figput.sty) \
 texlive-figput"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

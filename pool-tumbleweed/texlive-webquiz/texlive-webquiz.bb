@@ -17,6 +17,7 @@ tex(webquiz-ini.code.tex) \
 tex(webquiz.cfg) \
 tex(webquiz.cls) \
 texlive-webquiz"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

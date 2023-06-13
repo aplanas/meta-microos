@@ -12,6 +12,7 @@ RPM_HASH = "d6eecfe524e8fc41da8f57449eefe6bf8f4f24a0441809460037fe2f35418e7cf10e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -20,6 +20,7 @@ tex(grreg8.tfm) \
 tex(grreg9.tfm) \
 tex(slgreek.sty) \
 texlive-levy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

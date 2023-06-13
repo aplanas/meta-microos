@@ -9,6 +9,7 @@ RPM_HASH = "5341608676877bd1635efbff48c98f9c454259e107534a261219e812e4977b883ab4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-phffullpagefigure-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

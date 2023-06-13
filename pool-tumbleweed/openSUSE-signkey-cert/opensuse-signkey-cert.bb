@@ -12,6 +12,7 @@ RPM_HASH = "f1c6564463b81900723eb4d1c389bd90e6ddbc1db25cd19c708ae94a5a0a76149e6f
 
 RPROVIDES:${PN} += "openSUSE-signkey-cert \
 openSUSE-signkey-cert(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 mokutil"
 

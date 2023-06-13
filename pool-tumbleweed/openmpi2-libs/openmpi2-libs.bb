@@ -31,6 +31,7 @@ libopen-rte.so.20()(64bit) \
 liboshmem.so.20()(64bit) \
 openmpi2-libs \
 openmpi2-libs(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

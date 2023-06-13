@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-varint \
 python3.10dist(varint) \
 python310-varint \
 python3dist(varint)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

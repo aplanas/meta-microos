@@ -10,6 +10,7 @@ RPM_HASH = "febfc8bfbdeb293b7f76d8121c49307357d749a4597a4cfa68c63d03ed47c160c1de
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-sushy-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -39,6 +39,7 @@ libwall.so()(64bit) \
 libwater.so()(64bit) \
 libwobbly.so()(64bit) \
 libzoom.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLU.so.1()(64bit) \

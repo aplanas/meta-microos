@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libbattery.so()(64bit) \
 xfce4-battery-plugin \
 xfce4-battery-plugin(aarch-64) \
 xfce4-panel-plugin-battery"
+
 RDEPENDS:${PN} += "exo-tools \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

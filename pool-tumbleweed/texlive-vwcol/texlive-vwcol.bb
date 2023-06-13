@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(vwcol.sty) \
 texlive-vwcol"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

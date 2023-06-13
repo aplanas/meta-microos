@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5KExiv2) \
 libkexiv2-devel \
 libkexiv2-devel(aarch-64) \
 libkexiv2-kf5-devel"
+
 RDEPENDS:${PN} += "libKF5KExiv2-15_0_0"
 
 inherit rpm

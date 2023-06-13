@@ -15,6 +15,7 @@ RPM_HASH = "31136e3e48c346d2a3f2b2a4105e6c0fa29b50993ab811e448be4944ae2d1a4b0020
 RPROVIDES:${PN} += "perl(Text::CSV_XS) \
 perl-Text-CSV_XS \
 perl-Text-CSV_XS(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

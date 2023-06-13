@@ -12,6 +12,7 @@ RPM_HASH = "97ec402930023b4b51b2cdd3d95612c72f013b74dd580416f77b92ea142be99e5020
 
 RPROVIDES:${PN} += "libfl-devel \
 libfl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libfl2"
 
 inherit rpm

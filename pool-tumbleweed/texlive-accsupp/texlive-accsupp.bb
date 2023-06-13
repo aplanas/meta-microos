@@ -21,6 +21,7 @@ tex(accsupp-luatex.def) \
 tex(accsupp-pdftex.def) \
 tex(accsupp.sty) \
 texlive-accsupp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

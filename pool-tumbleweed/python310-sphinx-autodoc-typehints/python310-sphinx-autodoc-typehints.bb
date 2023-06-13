@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-sphinx-autodoc-typehints \
 python3.10dist(sphinx-autodoc-typehints) \
 python310-sphinx-autodoc-typehints \
 python3dist(sphinx-autodoc-typehints)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

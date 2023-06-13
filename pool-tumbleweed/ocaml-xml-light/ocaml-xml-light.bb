@@ -13,6 +13,7 @@ RPM_HASH = "14d4b64f0d43f3e79da548fbfbcd9c6ca01ffcaa274abe75fd5f44e803697a1f27aa
 
 RPROVIDES:${PN} += "ocaml-xml-light \
 ocaml-xml-light(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

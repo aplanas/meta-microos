@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-requests-debug-toolbar) \
 python311-django-requests-debug-toolbar \
 python3dist(django-requests-debug-toolbar)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

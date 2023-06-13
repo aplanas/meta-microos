@@ -13,6 +13,7 @@ gexif-lang-all \
 locale(gexif:de) \
 locale(gexif:es) \
 locale(gexif:fr)"
+
 RDEPENDS:${PN} += "gexif"
 
 inherit rpm

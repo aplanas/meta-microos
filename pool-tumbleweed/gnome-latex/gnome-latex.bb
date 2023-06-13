@@ -24,6 +24,7 @@ latexila \
 metainfo() \
 metainfo(org.gnome.gnome-latex.appdata.xml) \
 mimehandler(text/x-tex)"
+
 RDEPENDS:${PN} += "gsettings-desktop-schemas \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

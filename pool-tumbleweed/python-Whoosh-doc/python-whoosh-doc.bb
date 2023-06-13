@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python-Whoosh-doc \
 python310-Whoosh-doc \
 python311-Whoosh-doc \
 python39-Whoosh-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

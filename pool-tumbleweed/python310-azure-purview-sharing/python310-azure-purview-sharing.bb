@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-azure-purview-sharing \
 python3.10dist(azure-purview-sharing) \
 python310-azure-purview-sharing \
 python3dist(azure-purview-sharing)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
 python(abi) \
 python310-azure-core \

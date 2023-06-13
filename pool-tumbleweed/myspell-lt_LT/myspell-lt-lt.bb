@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:lt_LT) \
 myspell-dictionary \
 myspell-lithuanian \
 myspell-lt_LT"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

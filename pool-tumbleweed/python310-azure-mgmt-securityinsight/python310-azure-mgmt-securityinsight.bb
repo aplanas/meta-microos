@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-securityinsight \
 python3.10dist(azure-mgmt-securityinsight) \
 python310-azure-mgmt-securityinsight \
 python3dist(azure-mgmt-securityinsight)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

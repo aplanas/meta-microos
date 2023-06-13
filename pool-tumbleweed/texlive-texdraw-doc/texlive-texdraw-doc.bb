@@ -9,6 +9,7 @@ RPM_HASH = "7f6eac2c5751aaf8c74e39a07df41df4380e75048fd410cec87b3df2c7e8eb54dd5d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texdraw-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

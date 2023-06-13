@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tdsfrmath.sty) \
 texlive-tdsfrmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

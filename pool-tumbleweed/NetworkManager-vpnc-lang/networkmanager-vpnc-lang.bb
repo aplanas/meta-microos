@@ -70,6 +70,7 @@ locale(NetworkManager-vpnc:vi) \
 locale(NetworkManager-vpnc:zh_CN) \
 locale(NetworkManager-vpnc:zh_HK) \
 locale(NetworkManager-vpnc:zh_TW)"
+
 RDEPENDS:${PN} += "NetworkManager-vpnc"
 
 inherit rpm

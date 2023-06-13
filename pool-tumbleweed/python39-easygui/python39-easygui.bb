@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(easygui) \
 python39-easygui \
 python3dist(easygui)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

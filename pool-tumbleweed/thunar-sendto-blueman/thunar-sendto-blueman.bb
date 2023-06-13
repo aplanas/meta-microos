@@ -9,6 +9,7 @@ RPM_HASH = "a429a87ab93ca056dfef2a71a98d75f4c23b782f1f4882acca7ffd3c3fda13ea7a6e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "thunar-sendto-blueman"
+
 RDEPENDS:${PN} += "blueman"
 
 inherit rpm

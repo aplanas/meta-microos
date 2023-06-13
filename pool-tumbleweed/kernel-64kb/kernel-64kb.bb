@@ -6825,6 +6825,7 @@ kmod(zynqmp_fpga.ko) \
 kmod(zynqmp_ipi_mailbox.ko) \
 kmod(zynqmp_sha.ko) \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 awk \
 coreutils \

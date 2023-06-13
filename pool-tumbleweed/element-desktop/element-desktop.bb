@@ -13,6 +13,7 @@ application(io.element.Element.desktop) \
 config(element-desktop) \
 element-desktop \
 mimehandler(x-scheme-handler/element)"
+
 RDEPENDS:${PN} += "/bin/sh \
 element-web \
 nodejs-electron"

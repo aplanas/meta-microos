@@ -10,6 +10,7 @@ RPM_HASH = "3bb2118f087b385ce0ee3937cc8efb98bf9fe8e81cc5f505d9f2ff6d2979b035cbc8
 
 RPROVIDES:${PN} += "qt6-remoteobjectsqml-private-devel \
 qt6-remoteobjectsqml-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6RemoteObjectsQml)"
 
 inherit rpm

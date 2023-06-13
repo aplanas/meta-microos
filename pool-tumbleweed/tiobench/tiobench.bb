@@ -12,6 +12,7 @@ RPM_HASH = "ee49c8de1cc2b3c58da385d7a43547ec175b49347f5600b62a9fefe8e5648592ded1
 
 RPROVIDES:${PN} += "tiobench \
 tiobench(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

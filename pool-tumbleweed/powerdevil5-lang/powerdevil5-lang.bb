@@ -83,6 +83,7 @@ locale(powerdevil5:zh_CN) \
 locale(powerdevil5:zh_TW) \
 powerdevil5-lang \
 powerdevil5-lang-all"
+
 RDEPENDS:${PN} += "powerdevil5"
 
 inherit rpm

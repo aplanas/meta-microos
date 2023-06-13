@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(glossaries-finnish-ascii.ldf) \
 tex(glossaries-finnish-utf8.ldf) \
 tex(glossaries-finnish.ldf) \
 texlive-glossaries-finnish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

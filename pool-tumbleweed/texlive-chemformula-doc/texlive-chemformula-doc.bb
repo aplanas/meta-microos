@@ -9,6 +9,7 @@ RPM_HASH = "89bf3b0e3ed4f9121023a3cccb4da364654d9300ae0397e72e5008bd9efc9d9a6df9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chemformula-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

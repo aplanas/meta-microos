@@ -13,6 +13,7 @@ pattern-icon() \
 pattern-order() \
 patterns-deepin-deepin_basis \
 patterns-deepin-deepin_basis(aarch-64)"
+
 RDEPENDS:${PN} += "deepin-account-faces \
 deepin-api \
 deepin-control-center \

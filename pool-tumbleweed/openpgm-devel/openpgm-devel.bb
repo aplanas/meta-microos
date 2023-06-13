@@ -15,6 +15,7 @@ RPM_HASH = "da0f166fb2eee7310267e748d79ac49813cc1c57879c60d7a36885e3a1c6f83ce72e
 RPROVIDES:${PN} += "openpgm-devel \
 openpgm-devel(aarch-64) \
 pkgconfig(openpgm-5.2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpgm-5_2-0"
 

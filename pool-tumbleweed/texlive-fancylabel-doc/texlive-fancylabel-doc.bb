@@ -9,6 +9,7 @@ RPM_HASH = "ae6126f2575c2895977a336fd264917c197bf0e8eb1ead50897fdc6779a091dc9746
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fancylabel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

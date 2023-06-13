@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(linecache2) \
 python39-linecache2 \
 python3dist(linecache2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pbr"
 

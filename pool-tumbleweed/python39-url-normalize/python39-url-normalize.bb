@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(url-normalize) \
 python39-url-normalize \
 python39-url_normalize \
 python3dist(url-normalize)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six"
 

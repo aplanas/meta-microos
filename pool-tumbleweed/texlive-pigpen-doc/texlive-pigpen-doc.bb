@@ -9,6 +9,7 @@ RPM_HASH = "e27e908afce85cb78b3c6f45e7ac1b363759971324b116a4c40cde25040b98eea7e5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pigpen-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

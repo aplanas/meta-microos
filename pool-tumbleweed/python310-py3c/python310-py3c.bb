@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-py3c \
 python3.10dist(py3c) \
 python310-py3c \
 python3dist(py3c)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

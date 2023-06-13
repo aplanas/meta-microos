@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-testresources \
 python3.10dist(testresources) \
 python310-testresources \
 python3dist(testresources)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pbr"
 

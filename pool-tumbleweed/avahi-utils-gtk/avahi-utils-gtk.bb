@@ -14,6 +14,7 @@ application(bvnc.desktop) \
 avahi-glib2-utils-gtk \
 avahi-utils-gtk \
 avahi-utils-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 avahi \
 libavahi-client.so.3()(64bit) \

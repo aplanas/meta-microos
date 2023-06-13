@@ -21,6 +21,7 @@ locale(appeditor:pt) \
 locale(appeditor:pt_BR) \
 locale(appeditor:ru) \
 locale(appeditor:tr)"
+
 RDEPENDS:${PN} += "appeditor"
 
 inherit rpm

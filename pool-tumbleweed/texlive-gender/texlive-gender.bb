@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gender.sty) \
 texlive-gender"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

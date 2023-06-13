@@ -13,6 +13,7 @@ RPM_HASH = "66cfc1e3194b8c49b725009afb7238fe430795a615b71e6b3f1ffbee2f6eeac2e359
 RPROVIDES:${PN} += "mate-screensaver-devel \
 mate-screensaver-devel(aarch-64) \
 pkgconfig(mate-screensaver)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mate-screensaver"
 

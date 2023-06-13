@@ -9,6 +9,7 @@ RPM_HASH = "e05ba7cbeef6b671e37fb7719d6b59fa4a9fcf8954cd99de32d55fe13ca21f2bbf09
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "switcheroo-control-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

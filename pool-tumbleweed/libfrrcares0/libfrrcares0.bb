@@ -11,6 +11,7 @@ RPM_HASH = "1e5c578431fe73fae64f175f3531a3f55267f3045a86dca7ac0fae42da421e561139
 RPROVIDES:${PN} += "libfrrcares.so.0()(64bit) \
 libfrrcares0 \
 libfrrcares0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libcares.so.2()(64bit)"

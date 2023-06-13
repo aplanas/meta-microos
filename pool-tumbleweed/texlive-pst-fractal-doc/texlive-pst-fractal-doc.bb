@@ -9,6 +9,7 @@ RPM_HASH = "8b3e531725fc8fffa1947656822beb1cf7650d40e095971351419678bf0bf8920aa7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-fractal-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

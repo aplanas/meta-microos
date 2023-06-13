@@ -14,6 +14,7 @@ RPM_HASH = "ed7b8c4f88a01699fa8455124d303dc9228bc87a4c721a85f75c43dc6302d5093302
 RPROVIDES:${PN} += "libmzn.so()(64bit) \
 minizinc \
 minizinc(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

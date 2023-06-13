@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-rosetta) \
 python39-django-rosetta \
 python3dist(django-rosetta)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-polib \

@@ -14,6 +14,7 @@ cmake(Qt5XcbQpa) \
 libQt5Gui-devel \
 libQt5Gui-devel(aarch-64) \
 pkgconfig(Qt5Gui)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Mesa-libGLESv3-devel \
 libQt5Core-devel \

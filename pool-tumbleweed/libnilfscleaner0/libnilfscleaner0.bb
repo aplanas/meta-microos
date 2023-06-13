@@ -11,6 +11,7 @@ RPM_HASH = "31b588929de8c8a3304ffdc042de2446886804055845e1c49c8a1da2043896c2e790
 RPROVIDES:${PN} += "libnilfscleaner.so.0()(64bit) \
 libnilfscleaner0 \
 libnilfscleaner0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

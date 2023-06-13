@@ -26,6 +26,7 @@ mimehandler(text/x-po) \
 mimehandler(x-scheme-handler/poedit) \
 poedit \
 poedit(aarch-64)"
+
 RDEPENDS:${PN} += "gettext-tools \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

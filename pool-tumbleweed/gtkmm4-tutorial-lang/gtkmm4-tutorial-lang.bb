@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtkmm4-tutorial-lang \
 gtkmm4-tutorial-lang-all"
+
 RDEPENDS:${PN} += "gtkmm4-tutorial"
 
 inherit rpm

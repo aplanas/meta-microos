@@ -10,6 +10,7 @@ RPM_HASH = "513c4b112d5eae4f63602cf06186082c46e634e9991cdc8540da0182cb836d406513
 RPROVIDES:${PN} += "libLibreGraphAPI.so.1()(64bit) \
 libLibreGraphAPI1 \
 libLibreGraphAPI1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

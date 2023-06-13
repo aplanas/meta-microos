@@ -10,6 +10,7 @@ RPM_HASH = "1b533adb983727e7deed128d2c29d531931f172ef186a92b15ba43047756b84b6d8a
 
 RPROVIDES:${PN} += "cc-tool \
 cc-tool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_filesystem.so.1.82.0()(64bit) \

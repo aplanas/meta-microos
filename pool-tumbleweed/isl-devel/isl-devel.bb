@@ -10,6 +10,7 @@ RPM_HASH = "4535aa60bbc6c62ba9de2ecf7482e4bc83b338f4b7b482f15abb905256b5dec70079
 RPROVIDES:${PN} += "isl-devel \
 isl-devel(aarch-64) \
 pkgconfig(isl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libisl23"
 

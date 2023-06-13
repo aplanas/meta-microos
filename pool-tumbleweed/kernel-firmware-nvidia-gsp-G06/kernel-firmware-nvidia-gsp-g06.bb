@@ -13,6 +13,7 @@ firmware(nvidia/525.116.04/gsp_tu10x.bin) \
 kernel-firmware-nvidia-gsp-G06 \
 kernel-firmware-nvidia-gsp-G06(aarch-64) \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

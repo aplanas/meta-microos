@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinxcontrib-websupport) \
 python39-sphinxcontrib-websupport \
 python3dist(sphinxcontrib-websupport)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Jinja2 \
 python39-docutils"

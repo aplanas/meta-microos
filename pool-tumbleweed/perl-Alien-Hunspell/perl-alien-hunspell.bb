@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "perl(Alien::Hunspell) \
 perl(Alien::Hunspell::Install::Files) \
 perl-Alien-Hunspell \
 perl-Alien-Hunspell(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Alien::Base) \
 pkgconfig(hunspell)"

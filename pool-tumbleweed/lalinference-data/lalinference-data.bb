@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "lalinference-data \
 python310-lalinference-data \
 python38-lalinference-data \
 python39-lalinference-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(uhrzeit.sty) \
 texlive-uhrzeit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "82452113ac98018d895e85c8a9d077eb1d04162171a569882f9d5904a3a48dc9a2b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-control-center-user-faces"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

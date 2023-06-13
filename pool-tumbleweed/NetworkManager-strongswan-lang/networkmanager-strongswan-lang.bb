@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "NetworkManager-strongswan-lang \
 NetworkManager-strongswan-lang-all \
 locale(NetworkManager-strongswan:de)"
+
 RDEPENDS:${PN} += "NetworkManager-strongswan"
 
 inherit rpm

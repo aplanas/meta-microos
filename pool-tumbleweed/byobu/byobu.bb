@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "application() \
 application(byobu.desktop) \
 byobu \
 config(byobu)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

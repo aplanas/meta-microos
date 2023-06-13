@@ -10,6 +10,7 @@ RPM_HASH = "07976346ecf81f38ad7874159c2b616327bb69b372a34c3b9e4c120070b6bedbc0b8
 RPROVIDES:${PN} += "libbpf-devel \
 libbpf-devel(aarch-64) \
 pkgconfig(libbpf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbpf1 \
 pkgconfig(libelf) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-parent \
 mvn(org.apache:apache:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

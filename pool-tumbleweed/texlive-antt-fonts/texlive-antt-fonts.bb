@@ -141,6 +141,7 @@ font(antykwatorunskalight) \
 font(antykwatorunskamed) \
 font(antykwatorunskamedium) \
 texlive-antt-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

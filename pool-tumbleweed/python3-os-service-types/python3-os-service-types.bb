@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-os-service-types \
 python3.10dist(os-service-types) \
 python3dist(os-service-types)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-pbr"
 

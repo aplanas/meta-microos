@@ -11,6 +11,7 @@ RPM_HASH = "5da3032a951711e0629ac263a6a5eb2bfb4ef83dab1ac84aa7b1e7e4a824d49d5e75
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-gettext-tools"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
 gettext \

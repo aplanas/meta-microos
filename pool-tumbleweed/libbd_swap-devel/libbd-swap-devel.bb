@@ -11,6 +11,7 @@ RPM_HASH = "6118431c8f2bd396fd97f85221a6f3a7c00d870ec18ba126cbd862ba71d4af9f0c65
 RPROVIDES:${PN} += "libbd_swap-devel \
 libbd_swap-devel(aarch-64) \
 libblockdev-swap-devel"
+
 RDEPENDS:${PN} += "glib2-devel \
 libbd_swap2 \
 libbd_utils-devel"

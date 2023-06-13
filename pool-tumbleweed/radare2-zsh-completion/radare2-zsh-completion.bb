@@ -9,6 +9,7 @@ RPM_HASH = "cf8f4351d5923e086f8296c38a2daa22ca1cbd182b4f37414a3077d8abd0ce501ab5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "radare2-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

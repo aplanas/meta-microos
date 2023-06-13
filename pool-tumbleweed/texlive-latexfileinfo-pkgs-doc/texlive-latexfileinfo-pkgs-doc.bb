@@ -9,6 +9,7 @@ RPM_HASH = "77094646143ee0a84c5d29e2df27d692694e97daae1d8ab1f9fa84fbe67198970a0c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexfileinfo-pkgs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

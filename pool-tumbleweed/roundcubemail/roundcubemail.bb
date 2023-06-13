@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(roundcubemail) \
 roundcube_framework \
 roundcubemail"
+
 RDEPENDS:${PN} += "(php-mysql or php-pgsql) \
 /bin/sh \
 /usr/bin/env \

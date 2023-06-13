@@ -9,6 +9,7 @@ RPM_HASH = "d529dd7e8c5764d6f53fb694a7751abe1f0eb65f642d9ffbbe82060b9a8b522fcd9e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-robotarm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

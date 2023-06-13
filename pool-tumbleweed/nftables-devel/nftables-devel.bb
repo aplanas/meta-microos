@@ -13,6 +13,7 @@ RPM_HASH = "2715114659175b6755df937bb19a67ee857763f5326c70ef6e8ae5ce74fe4e0b3ba3
 RPROVIDES:${PN} += "nftables-devel \
 nftables-devel(aarch-64) \
 pkgconfig(libnftables)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnftables1"
 

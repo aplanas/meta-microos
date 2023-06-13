@@ -10,6 +10,7 @@ RPM_HASH = "7fc2ada7eea1229c6aafada45019c5f02a90a774eb2af4ee76dc91511d8965d9c124
 
 RPROVIDES:${PN} += "tio \
 tio(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

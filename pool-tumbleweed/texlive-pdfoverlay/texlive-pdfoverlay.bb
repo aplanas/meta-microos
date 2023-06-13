@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfoverlay.sty) \
 texlive-pdfoverlay"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

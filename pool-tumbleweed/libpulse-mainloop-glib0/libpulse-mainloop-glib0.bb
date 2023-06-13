@@ -17,6 +17,7 @@ libpulse-mainloop-glib.so.0(PULSE_0)(64bit) \
 libpulse-mainloop-glib0 \
 libpulse-mainloop-glib0(aarch-64) \
 pulseaudio-libs-glib2"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

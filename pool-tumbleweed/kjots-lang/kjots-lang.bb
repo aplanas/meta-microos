@@ -74,6 +74,7 @@ locale(kjots:uk) \
 locale(kjots:wa) \
 locale(kjots:zh_CN) \
 locale(kjots:zh_TW)"
+
 RDEPENDS:${PN} += "kjots"
 
 inherit rpm

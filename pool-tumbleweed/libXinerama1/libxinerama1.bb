@@ -12,6 +12,7 @@ RPM_HASH = "f9d6d68c69e5b66357f54821fa106b3e59a8b5e3c83dd09d7853a9b848d30e398b48
 RPROVIDES:${PN} += "libXinerama.so.1()(64bit) \
 libXinerama1 \
 libXinerama1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "3c6819a767fb7cfddba92ad882c43dffeb637af4d304d64f66a9ceec9f8bb0e9e317
 
 RPROVIDES:${PN} += "nodejs-common \
 nodejs-common(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libalternatives.so.1()(64bit) \

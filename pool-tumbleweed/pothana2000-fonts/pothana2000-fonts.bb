@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "locale(te) \
 pothana2000 \
 pothana2000-fonts \
 scalable-font-te"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

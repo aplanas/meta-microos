@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(zeroconf) \
 python311-zeroconf \
 python311-zeroconf(aarch-64) \
 python3dist(zeroconf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-async_timeout \
 python311-ifaddr"

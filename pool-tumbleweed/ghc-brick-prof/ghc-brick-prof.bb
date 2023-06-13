@@ -10,6 +10,7 @@ RPM_HASH = "bcc8e183f0a052bf60a03542635f798a6c14351027826e75f9c65b6324d2ec1343c3
 RPROVIDES:${PN} += "ghc-brick-prof \
 ghc-brick-prof(aarch-64) \
 ghc-prof(brick-1.6-LMplG6IsGlb3C6L6NTrgWE)"
+
 RDEPENDS:${PN} += "ghc-brick-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bimap-0.5.0-3nKyJuRybYg2I5XOsBhwKE) \

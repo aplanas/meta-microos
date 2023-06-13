@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:bundler) \
 rubygem(ruby:3.2.0:bundler:2) \
 rubygem(ruby:3.2.0:bundler:2.3) \
 rubygem(ruby:3.2.0:bundler:2.3.26)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

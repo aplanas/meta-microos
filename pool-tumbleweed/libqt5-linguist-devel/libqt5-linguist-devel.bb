@@ -10,6 +10,7 @@ RPM_HASH = "8717b88aa4e208229a11e71b113b2efdb835f45f8d9a58734076c0b0a1cfcf0ebf9f
 RPROVIDES:${PN} += "cmake(Qt5LinguistTools) \
 libqt5-linguist-devel \
 libqt5-linguist-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libqt5-linguist \
 pkgconfig(Qt5Core)"
 

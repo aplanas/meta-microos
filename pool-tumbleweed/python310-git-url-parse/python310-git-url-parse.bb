@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-git-url-parse \
 python3.10dist(git-url-parse) \
 python310-git-url-parse \
 python3dist(git-url-parse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pbr"
 

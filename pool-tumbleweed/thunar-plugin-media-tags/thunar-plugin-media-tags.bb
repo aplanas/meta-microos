@@ -12,6 +12,7 @@ RPM_HASH = "7a88776765c644a127d71ebaf160783868bf5b4d67a6be12bc7ea05cd7307b3e70c2
 RPROVIDES:${PN} += "thunar-media-tags-plugin \
 thunar-plugin-media-tags \
 thunar-plugin-media-tags(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatk-1.0.so.0()(64bit) \

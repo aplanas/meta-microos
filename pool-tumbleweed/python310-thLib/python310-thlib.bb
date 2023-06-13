@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-thLib \
 python3.10dist(thlib) \
 python310-thLib \
 python3dist(thlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib \
 python310-numpy \

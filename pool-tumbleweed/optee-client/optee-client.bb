@@ -11,6 +11,7 @@ RPM_HASH = "6bb83762512bf04725ae276dd60967d9ed9afc256fe428db52a4f3e74df78b89eace
 
 RPROVIDES:${PN} += "optee-client \
 optee-client(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

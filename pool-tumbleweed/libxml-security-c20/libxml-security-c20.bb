@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libxml-security-c.so.20()(64bit) \
 libxml-security-c20 \
 libxml-security-c20(aarch-64) \
 xml-security-c"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "Regina-REXX-devel \
 Regina-REXX-devel(aarch-64) \
 regina-devel \
 regina:/usr/include/rexxsaa.h"
+
 RDEPENDS:${PN} += "/bin/sh \
 Regina-REXX \
 libregina3"

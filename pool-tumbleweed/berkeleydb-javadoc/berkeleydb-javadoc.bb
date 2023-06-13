@@ -17,6 +17,7 @@ RPM_HASH = "0b1dba291ee4d1ba85c058996b81a7d5c0ab43a66a0e8d15a4df05026c92bbcb30e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "berkeleydb-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

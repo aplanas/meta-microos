@@ -12,6 +12,7 @@ RPM_HASH = "f7e38c330f6208d1d1ccc8530d08a0bc6dc0875c94e6f7b4c9b3b8ab83a6e41072f8
 RPROVIDES:${PN} += "pkgconfig(xcb-proto) \
 xcb-proto-devel \
 xcb-proto-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 python3-xcb-proto-devel"
 

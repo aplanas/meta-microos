@@ -11,6 +11,7 @@ RPM_HASH = "d1fa186bc0145aa5644e7145b541f08090af54bd95a245f679709dcff7d9a9f370da
 RPROVIDES:${PN} += "ghc-streaming-commons \
 ghc-streaming-commons(aarch-64) \
 libHSstreaming-commons-0.2.2.6-DrPeIbd2d2c3jQtctttO4G-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

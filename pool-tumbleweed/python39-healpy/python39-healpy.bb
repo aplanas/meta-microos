@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3.9dist(healpy) \
 python39-healpy \
 python39-healpy(aarch-64) \
 python3dist(healpy)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

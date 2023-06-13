@@ -9,6 +9,7 @@ RPM_HASH = "40b5a2d9a94db6a89ce1420e1e1a1aa5a1550a3f7bf3e1d0437865ebeaa7a43b059f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-snaptodo-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

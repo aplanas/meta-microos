@@ -15,6 +15,7 @@ RPM_HASH = "5b16fa71821b94dedec6aa93df7c9e2fe906eb85b1c19fa7283967465ae0e3a8e7ba
 
 RPROVIDES:${PN} += "mpiP_3_5-gnu-openmpi4-hpc \
 mpiP_3_5-gnu-openmpi4-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

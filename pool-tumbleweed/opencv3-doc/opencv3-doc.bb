@@ -10,6 +10,7 @@ RPM_HASH = "25701fb49d718bd82e57f60e1606bc58f1d69681d6365c9cb46886d14c353daf98e1
 RPROVIDES:${PN} += "opencv-qt5-doc \
 opencv3-doc \
 opencv3-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

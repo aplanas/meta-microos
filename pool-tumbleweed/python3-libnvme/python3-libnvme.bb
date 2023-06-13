@@ -12,6 +12,7 @@ RPM_HASH = "560f7ac6e52cc50e6d5022f79165b326c2aad8176a8a2f2583607b2a346913652f50
 
 RPROVIDES:${PN} += "python3-libnvme \
 python3-libnvme(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

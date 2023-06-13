@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "perl(Term::ReadKey) \
 perl-Term-ReadKey \
 perl-Term-ReadKey(aarch-64) \
 perl-TermReadKey"
+
 RDEPENDS:${PN} += "/bin/stty \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

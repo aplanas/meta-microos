@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-aalok-doc:mr) \
 texlive-aalok-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

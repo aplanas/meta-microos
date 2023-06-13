@@ -11,6 +11,7 @@ RPM_HASH = "25798584a72ab6b0aa38497af96e8d891463b7537a500bc838c34d26dc7d2b888210
 
 RPROVIDES:${PN} += "python3-gom \
 python3-gom(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 typelib(Gom)"
 

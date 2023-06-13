@@ -12,6 +12,7 @@ python3.10dist(python-linstor) \
 python310-linstor \
 python310-linstor(aarch-64) \
 python3dist(python-linstor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-protobuf"
 

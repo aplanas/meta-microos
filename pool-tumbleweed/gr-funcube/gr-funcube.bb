@@ -12,6 +12,7 @@ RPM_HASH = "03625adf9c53529d2b98497bbedbcc3020463ff8f9edda28e76bc4e1527f6d72b799
 
 RPROVIDES:${PN} += "gr-funcube \
 gr-funcube(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

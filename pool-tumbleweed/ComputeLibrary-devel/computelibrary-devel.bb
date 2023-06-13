@@ -11,6 +11,7 @@ RPM_HASH = "5b14cb75fae76ce8310093dea4e254d6797eff1f1badffda3ebfb2a374d938ac53c1
 
 RPROVIDES:${PN} += "ComputeLibrary-devel \
 ComputeLibrary-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ComputeLibrary \
 libarm_compute30 \
 libarm_compute_core30 \

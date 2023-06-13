@@ -12,6 +12,7 @@ RPM_HASH = "ce1ec634f27b839898f49e978b0257b116538c4ec7434673cb25518a5d8787dd13bd
 RPROVIDES:${PN} += "python3-libvsmbr \
 python310-libvsmbr \
 python310-libvsmbr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

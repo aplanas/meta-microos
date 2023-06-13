@@ -17,6 +17,7 @@ RPM_HASH = "d1a8eeef0c7daf01eac6161725ee4196be004591f5cc906a9a47824f23390ae02b69
 RPROVIDES:${PN} += "config(knockd) \
 knockd \
 knockd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

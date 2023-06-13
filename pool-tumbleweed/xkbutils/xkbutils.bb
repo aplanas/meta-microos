@@ -15,6 +15,7 @@ RPM_HASH = "da51e5a1de1bcf9c495468a264aba5d538cee9392f0b995732ea398d651cd14be76e
 
 RPROVIDES:${PN} += "xkbutils \
 xkbutils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

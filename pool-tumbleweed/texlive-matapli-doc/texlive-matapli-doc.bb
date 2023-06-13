@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-matapli-doc:fr) \
 texlive-matapli-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

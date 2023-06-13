@@ -60,6 +60,7 @@ tex(l7xuzc.fd) \
 tex(latin7.def) \
 tex(latin7x.enc) \
 texlive-lithuanian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

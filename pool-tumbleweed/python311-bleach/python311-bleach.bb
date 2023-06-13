@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(bleach) \
 python311-bleach \
 python3dist(bleach)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-html5lib"
 

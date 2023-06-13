@@ -11,6 +11,7 @@ RPM_HASH = "fc89a78d0d9b48b36cde8a61a2557b584b141358e16834e2502fd6c9eb776aaf56ac
 RPROVIDES:${PN} += "lightdm-gobject-devel \
 lightdm-gobject-devel(aarch-64) \
 pkgconfig(liblightdm-gobject-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblightdm-gobject-1-0 \
 pkgconfig(gio-2.0) \

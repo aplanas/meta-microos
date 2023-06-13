@@ -14,6 +14,7 @@ libnftables.so.1(LIBNFTABLES_2)(64bit) \
 libnftables.so.1(LIBNFTABLES_3)(64bit) \
 libnftables1 \
 libnftables1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

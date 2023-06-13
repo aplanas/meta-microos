@@ -13,6 +13,7 @@ RPM_HASH = "2bd68c2580cf48ce0df3d14bba1a906fed6e077a3cccad147094f095bf5d7551afb2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-umtypewriter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "9d324b55b636c9e835a78a4716b2881a4532c434a8c9d40605234cd24eac00b3aefb
 RPROVIDES:${PN} += "fcitx5-mozc \
 fcitx5-mozc(aarch-64) \
 locale(fcitx5:ja)"
+
 RDEPENDS:${PN} += "fcitx5 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -76,6 +76,7 @@ locale(plasma5-addons:zh_CN) \
 locale(plasma5-addons:zh_TW) \
 plasma5-addons-lang \
 plasma5-addons-lang-all"
+
 RDEPENDS:${PN} += "plasma5-addons"
 
 inherit rpm

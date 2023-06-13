@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chbibref.sty) \
 texlive-chbibref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

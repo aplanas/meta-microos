@@ -15,6 +15,7 @@ RPM_HASH = "625f193fc3d939702ba5f9c21581c58549348e8897049f7938dd1c1703d9951310a8
 RPROVIDES:${PN} += "libqaccessibilityclient-qt5-0 \
 libqaccessibilityclient-qt5-0(aarch-64) \
 libqaccessibilityclient-qt5.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

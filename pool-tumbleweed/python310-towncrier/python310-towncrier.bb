@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-towncrier \
 python3.10dist(towncrier) \
 python310-towncrier \
 python3dist(towncrier)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 git-core \

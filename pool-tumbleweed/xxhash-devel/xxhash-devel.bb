@@ -12,6 +12,7 @@ RPM_HASH = "2c4f9ba8cd03c4e1b37f984823af8067f3c14c68763c4e209d44de578360c50a26d9
 RPROVIDES:${PN} += "pkgconfig(libxxhash) \
 xxhash-devel \
 xxhash-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxxhash0 \
 xxhash"

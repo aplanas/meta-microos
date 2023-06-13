@@ -9,6 +9,7 @@ RPM_HASH = "d43d61fda54b9af9737e39f9816c2964d83732ddeff2ce0fd81a26c4389213d9e6de
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-evangelion-jfm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

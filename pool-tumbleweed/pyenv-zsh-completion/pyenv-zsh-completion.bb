@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(pyenv-zsh-completion) \
 pyenv-zsh-completion"
+
 RDEPENDS:${PN} += "pyenv"
 
 inherit rpm

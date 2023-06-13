@@ -91,6 +91,7 @@ font(gilliusadfcond) \
 font(gilliusadfno2) \
 font(gilliusadfno2cond) \
 texlive-gillius-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -13,6 +13,7 @@ RPM_HASH = "4c04d8e3fd86cfa106785378447ed7bfcd811426651a36deeb2de01d441536fcddc7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vollkorn-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

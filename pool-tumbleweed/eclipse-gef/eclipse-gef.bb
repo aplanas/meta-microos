@@ -25,6 +25,7 @@ osgi(org.eclipse.gef) \
 osgi(org.eclipse.zest) \
 osgi(org.eclipse.zest.core) \
 osgi(org.eclipse.zest.layouts)"
+
 RDEPENDS:${PN} += "eclipse-platform \
 java-headless \
 javapackages-filesystem"

@@ -18,6 +18,7 @@ RPM_HASH = "3f0aae86a313791944f19f33df2917402b5c2fe0bdc8f427989d83a2f8e1458b58f5
 
 RPROVIDES:${PN} += "libsmi \
 libsmi(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

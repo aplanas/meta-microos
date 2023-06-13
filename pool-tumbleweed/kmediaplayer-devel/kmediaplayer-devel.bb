@@ -11,6 +11,7 @@ RPM_HASH = "4856aa7ad437295c806f70ddf79f9dcb8a17803b3c3ac0986b609d7f0cafadbce949
 RPROVIDES:${PN} += "cmake(KF5MediaPlayer) \
 kmediaplayer-devel \
 kmediaplayer-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5I18n) \
 cmake(KF5Parts) \
 extra-cmake-modules \

@@ -9,6 +9,7 @@ RPM_HASH = "df99ba193b8686de4e443db286a8cc709a66f3bb1017c823ce0f3c3170c602e58c73
 
 RPROVIDES:${PN} += "firefox-uget-integrator \
 firefox-uget-integrator(aarch-64)"
+
 RDEPENDS:${PN} += "uget-integrator"
 
 inherit rpm

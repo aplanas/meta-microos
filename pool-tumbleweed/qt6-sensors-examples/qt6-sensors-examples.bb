@@ -9,6 +9,7 @@ RPM_HASH = "aad60867bfe0e0b671ffff0b3f181414efde578bcb66cd96258cfd001ef94eea4f57
 
 RPROVIDES:${PN} += "qt6-sensors-examples \
 qt6-sensors-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

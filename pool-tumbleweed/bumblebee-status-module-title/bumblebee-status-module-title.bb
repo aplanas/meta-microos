@@ -9,6 +9,7 @@ RPM_HASH = "2903f5a400d247906d14c1cd88856cd9d16331d41f227c8fcc0a65164074bddf7f0d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-title"
+
 RDEPENDS:${PN} += "bumblebee-status \
 python3-i3ipc"
 

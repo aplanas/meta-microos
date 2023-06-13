@@ -14,6 +14,7 @@ RPM_HASH = "c94f7ba093648c8dcca841b7ded2cc46a7c3aa650d7ee7bf9ef8422425d10d7fe53c
 
 RPROVIDES:${PN} += "metis_5_1_0-gnu-hpc-devel \
 metis_5_1_0-gnu-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

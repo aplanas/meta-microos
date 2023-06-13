@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:net-scp) \
 rubygem(ruby:3.2.0:net-scp:4) \
 rubygem(ruby:3.2.0:net-scp:4.0) \
 rubygem(ruby:3.2.0:net-scp:4.0.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:net-ssh)"
 

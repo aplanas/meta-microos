@@ -13,6 +13,7 @@ RPM_HASH = "146321aa8e14862ea1c0b23c000b101602e4cb21776b6581d89d2eee451155e6de8a
 RPROVIDES:${PN} += "libweston-12-0 \
 libweston-12-0(aarch-64) \
 libweston-12.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

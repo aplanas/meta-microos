@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(treeline.desktop) \
 treeline"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python3-qt5"

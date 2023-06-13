@@ -10,6 +10,7 @@ RPM_HASH = "c28ba0d790ed46d782f3b3168a4d10f25ec60aabcbd218cd9ebd7b5614e9a798d7c0
 RPROVIDES:${PN} += "libyaml-cpp.so.0.7()(64bit) \
 libyaml-cpp0_7 \
 libyaml-cpp0_7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

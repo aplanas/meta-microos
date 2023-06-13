@@ -10,6 +10,7 @@ RPM_HASH = "37b1d972182e36c1bb839d08f0084e3ea150e2854959aed6388e5a823c811e764037
 RPROVIDES:${PN} += "cmake(KDevelop-PG-Qt) \
 kdevelop5-pg-qt \
 kdevelop5-pg-qt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

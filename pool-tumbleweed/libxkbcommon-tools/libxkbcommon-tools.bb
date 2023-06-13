@@ -9,6 +9,7 @@ RPM_HASH = "30724622a2eaa7fd8f848ad124c8006f3ef08a81bbb9936ce8a51ef94242cfe9fd90
 
 RPROVIDES:${PN} += "libxkbcommon-tools \
 libxkbcommon-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

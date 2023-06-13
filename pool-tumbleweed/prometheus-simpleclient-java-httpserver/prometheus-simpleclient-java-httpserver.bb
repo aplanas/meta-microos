@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(io.prometheus:simpleclient_httpserver) \
 mvn(io.prometheus:simpleclient_httpserver:pom:) \
 osgi(io.prometheus.simpleclient_httpserver) \
 prometheus-simpleclient-java-httpserver"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(io.prometheus:simpleclient) \

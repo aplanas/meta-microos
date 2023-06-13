@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-docs \
 xorg-x11-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

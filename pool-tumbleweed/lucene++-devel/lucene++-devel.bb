@@ -13,6 +13,7 @@ lucene++-devel \
 lucene++-devel(aarch-64) \
 pkgconfig(liblucene++) \
 pkgconfig(liblucene++-contrib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblucene++0"
 

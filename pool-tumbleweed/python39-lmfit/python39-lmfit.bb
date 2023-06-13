@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(lmfit) \
 python39-lmfit \
 python3dist(lmfit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-asteval \
 python39-numpy \

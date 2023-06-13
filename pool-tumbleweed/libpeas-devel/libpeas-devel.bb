@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libpeas-devel \
 libpeas-devel(aarch-64) \
 pkgconfig(libpeas-1.0) \
 pkgconfig(libpeas-gtk-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpeas-1_0-0 \
 libpeas-gtk-1_0-0 \

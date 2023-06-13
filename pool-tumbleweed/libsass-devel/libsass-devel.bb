@@ -10,6 +10,7 @@ RPM_HASH = "6c5e1428848dc597b011da207cd841688d26a7699cec359a95c705751939a7e0a882
 RPROVIDES:${PN} += "libsass-devel \
 libsass-devel(aarch-64) \
 pkgconfig(libsass)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsass-3_6_5-1"
 

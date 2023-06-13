@@ -21,6 +21,7 @@ RPM_HASH = "0bf635d3b80f8095477496e872471c0865a8dcb1cbb8d4720ac527b0a79c1a6c072e
 RPROVIDES:${PN} += "config(xtexit) \
 xtexit \
 xtexit(aarch-64)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libXaw.so.7()(64bit) \
 libXt.so.6()(64bit) \

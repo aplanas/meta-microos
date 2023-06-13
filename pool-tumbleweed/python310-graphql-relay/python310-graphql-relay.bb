@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-graphql-relay \
 python3.10dist(graphql-relay) \
 python310-graphql-relay \
 python3dist(graphql-relay)"
+
 RDEPENDS:${PN} += "(python310-graphql-core >= 3.2) \
 python(abi) \
 python310-promise"

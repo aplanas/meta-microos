@@ -63,6 +63,7 @@ ocamlx(Dose_versioning__Debian) \
 ocamlx(Dose_versioning__Semver) \
 ocamlx(Dose_versioning__SemverNode) \
 ocamlx(Dose_versioning__Utils)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(CamlinternalLazy) \
 ocaml(CamlinternalOO) \

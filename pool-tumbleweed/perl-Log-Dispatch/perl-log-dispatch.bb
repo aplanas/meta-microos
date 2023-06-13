@@ -38,6 +38,7 @@ perl(Log::Dispatch::Syslog) \
 perl(Log::Dispatch::Types) \
 perl(Log::Dispatch::Vars) \
 perl-Log-Dispatch"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::GlobalDestruction) \
 perl(Dist::CheckConflicts) \

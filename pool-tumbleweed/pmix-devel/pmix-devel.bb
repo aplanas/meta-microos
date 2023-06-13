@@ -11,6 +11,7 @@ RPM_HASH = "78576b46f0f7ede42408e955b38ee3f61aea3f2fb6e9d5e431659d0f3999267bfdea
 RPROVIDES:${PN} += "pkgconfig(pmix) \
 pmix-devel \
 pmix-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmca_common_dstore1 \
 libpmix2 \

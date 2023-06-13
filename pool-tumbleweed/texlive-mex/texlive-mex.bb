@@ -19,6 +19,7 @@ tex(mex1.tex) \
 tex(mex2.tex) \
 tex(mexconf.tex) \
 texlive-mex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

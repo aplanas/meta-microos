@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:rails-i18n) \
 rubygem(ruby:3.2.0:rails-i18n:7) \
 rubygem(ruby:3.2.0:rails-i18n:7.0) \
 rubygem(ruby:3.2.0:rails-i18n:7.0.6)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:i18n) \
 rubygem(ruby:3.2.0:railties)"

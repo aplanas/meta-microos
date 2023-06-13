@@ -9,6 +9,7 @@ RPM_HASH = "2d805140b5532b7a0c66bf699b695a30a92f6a23f70f9b35790ba6c8c31389dd18ae
 
 RPROVIDES:${PN} += "libnjb \
 libnjb(aarch-64)"
+
 RDEPENDS:${PN} += "dbus-1 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

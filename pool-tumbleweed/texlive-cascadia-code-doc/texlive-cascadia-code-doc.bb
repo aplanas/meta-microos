@@ -9,6 +9,7 @@ RPM_HASH = "be82e0bbc505bde13ba2f1f8f9df178ebc985970c4f88573fd8dfa284f55b7c117b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cascadia-code-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

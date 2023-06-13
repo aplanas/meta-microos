@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-PyQt6-doc \
 python3-qt6-doc \
 python310-PyQt6-doc \
 python310-qt6-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

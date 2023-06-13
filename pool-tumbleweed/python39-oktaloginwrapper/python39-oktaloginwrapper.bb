@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(oktaloginwrapper) \
 python39-oktaloginwrapper \
 python3dist(oktaloginwrapper)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-lxml \
 python39-requests"

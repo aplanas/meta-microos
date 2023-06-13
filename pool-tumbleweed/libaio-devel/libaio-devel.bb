@@ -11,6 +11,7 @@ RPM_HASH = "afc0a478743763aa3dec709b37c7fa0000111a76fc2869e1a17be6ff8e8618af89b9
 
 RPROVIDES:${PN} += "libaio-devel \
 libaio-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libaio1"
 

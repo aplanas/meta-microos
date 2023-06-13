@@ -13,6 +13,7 @@ RPM_HASH = "6b8ec3c1831dbfc37892966f4c36772350ce832a9bda9a137316a57c1c9f97a8fb64
 
 RPROVIDES:${PN} += "foma \
 foma(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

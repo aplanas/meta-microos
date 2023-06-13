@@ -58,6 +58,7 @@ locale(xfce4-smartbookmark-plugin:zh_TW) \
 xfce4-panel-plugin-smartbookmark-lang \
 xfce4-smartbookmark-plugin-lang \
 xfce4-smartbookmark-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-smartbookmark-plugin"
 
 inherit rpm

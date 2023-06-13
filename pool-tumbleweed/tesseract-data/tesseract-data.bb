@@ -9,6 +9,7 @@ RPM_HASH = "5f66a7fb071e6486442962e11a230f4dcf35f88570a4f877a4193cf4b5ccba9dc539
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-data"
+
 RDEPENDS:${PN} += "tesseract"
 
 inherit rpm

@@ -16,6 +16,7 @@ libwx_qtu_qa-suse.so.9.0.0(WXU_3.2.1)(64bit) \
 libwx_qtu_qa-suse.so.9.0.0(WXU_3.2.2)(64bit) \
 libwx_qtu_qa-suse9_0_0 \
 libwx_qtu_qa-suse9_0_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

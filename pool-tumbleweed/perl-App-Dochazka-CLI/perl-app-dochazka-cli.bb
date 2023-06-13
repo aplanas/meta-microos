@@ -39,6 +39,7 @@ perl(App::Dochazka::CLI::Testers) \
 perl(App::Dochazka::CLI::TokenMap) \
 perl(App::Dochazka::CLI::Util) \
 perl-App-Dochazka-CLI"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(App::CELL) \

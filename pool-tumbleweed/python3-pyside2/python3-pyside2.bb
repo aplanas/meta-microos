@@ -21,6 +21,7 @@ python3.10dist(shiboken2-generator) \
 python3dist(pyside2) \
 python3dist(shiboken2) \
 python3dist(shiboken2-generator)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

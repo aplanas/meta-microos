@@ -13,6 +13,7 @@ RPM_HASH = "b54898208d250b7d5ad3287f1d6a5a2b053fcd611b4afb4618b6973fafb28f43f899
 RPROVIDES:${PN} += "libgeoipbackend.so()(64bit) \
 pdns-backend-geoip \
 pdns-backend-geoip(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

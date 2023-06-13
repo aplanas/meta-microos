@@ -13,6 +13,7 @@ RPM_HASH = "27a951acfa4efafd30aa7169ee61158526f15d8a09bfeba4d40cb22e8840c97651e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "translation-update"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

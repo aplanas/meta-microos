@@ -16,6 +16,7 @@ application(jag-editor.desktop) \
 jag-editor \
 jag-editor(aarch-64) \
 jag-level-editor"
+
 RDEPENDS:${PN} += "jag \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

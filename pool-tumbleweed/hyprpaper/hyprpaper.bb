@@ -11,6 +11,7 @@ RPM_HASH = "93150bd07e6d3419a336588da7b3204272c5fe4b1dc12407f8508f7518b7a8069ce6
 
 RPROVIDES:${PN} += "hyprpaper \
 hyprpaper(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

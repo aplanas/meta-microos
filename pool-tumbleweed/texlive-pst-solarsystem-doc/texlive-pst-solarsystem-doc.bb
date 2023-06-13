@@ -9,6 +9,7 @@ RPM_HASH = "f4f9b2f952cbbb6071fe26abded91a279a6e074a41a1bf2cf498586ad1e93f30ad1a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-solarsystem-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

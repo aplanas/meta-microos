@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-memory_profiler \
 python3.10dist(memory-profiler) \
 python310-memory_profiler \
 python3dist(memory-profiler)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -91,6 +91,7 @@ perl(signalblocker) \
 perl(testapi) \
 perl(tinycv) \
 perl(tinycv::Image)"
+
 RDEPENDS:${PN} += "/usr/bin/getent \
 /usr/bin/perl \
 /usr/sbin/useradd \

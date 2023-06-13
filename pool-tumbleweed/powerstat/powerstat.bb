@@ -12,6 +12,7 @@ RPM_HASH = "b861253159d43dfc51011f4315c9c9193b998c616f9f1e50e19cf6d8d55cc0d44b2b
 
 RPROVIDES:${PN} += "powerstat \
 powerstat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

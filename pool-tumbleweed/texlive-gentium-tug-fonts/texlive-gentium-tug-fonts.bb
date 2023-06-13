@@ -186,6 +186,7 @@ font(gentiumbookplusps) \
 font(gentiumplus) \
 font(gentiumplusps) \
 texlive-gentium-tug-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

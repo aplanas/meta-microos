@@ -12,6 +12,7 @@ RPM_HASH = "f2e2297aacbba1be6f129f12daf234c1cfe58f0716653b6c5d9b4ce114f688e15808
 
 RPROVIDES:${PN} += "libyui-qt-pkg-devel \
 libyui-qt-pkg-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libyui-qt-devel \
 libyui-qt-pkg16 \
 libzypp-devel"

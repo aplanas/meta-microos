@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(validate-email) \
 python311-validate_email \
 python3dist(validate-email)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

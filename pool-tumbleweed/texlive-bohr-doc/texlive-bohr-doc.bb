@@ -9,6 +9,7 @@ RPM_HASH = "88559029c6a410582ac7ccf9880381670b5cd4b25695c99a3cab1a37ed0884557c89
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bohr-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

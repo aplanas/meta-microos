@@ -11,6 +11,7 @@ RPM_HASH = "7618d6c2cfc51b6299ecf0499857e909b364ff010b39dc14bb6c3f27ea82a21e257b
 
 RPROVIDES:${PN} += "libmumps-gnu-openmpi1-hpc \
 libmumps-gnu-openmpi1-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libmumps_5_3_5-gnu-openmpi1-hpc"
 

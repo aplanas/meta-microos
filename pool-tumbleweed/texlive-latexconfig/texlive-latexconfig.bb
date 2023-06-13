@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(epstopdf-sys.cfg) \
 tex(lualatexiniconfig.tex) \
 tex(lualatexquotejobname.tex) \
 texlive-latexconfig"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

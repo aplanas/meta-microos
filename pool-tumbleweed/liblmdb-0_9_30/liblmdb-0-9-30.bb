@@ -18,6 +18,7 @@ RPM_HASH = "3047c514ce061846b89dd7306f05b6ab87ac89fd51ad3e2ff96ae79424f5aad5111c
 RPROVIDES:${PN} += "liblmdb-0.9.30.so()(64bit) \
 liblmdb-0_9_30 \
 liblmdb-0_9_30(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

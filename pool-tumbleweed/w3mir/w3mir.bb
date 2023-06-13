@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "perl(htmlop) \
 perl(w3http) \
 perl(w3pdfuri) \
 w3mir"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
 perl-HTML-Parser \

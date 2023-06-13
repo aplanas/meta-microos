@@ -10,6 +10,7 @@ RPM_HASH = "3275b6c8729d3a2967dea69f010a473ac58705f826bd7c81d483ebfb208a3c29b85b
 
 RPROVIDES:${PN} += "pcp-pmda-vmware \
 pcp-pmda-vmware(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 perl-PCP-PMDA"
 

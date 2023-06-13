@@ -9,6 +9,7 @@ RPM_HASH = "fd91f69cb26b538e5da3c23e0c11c667364802367f931e6a0034bd46959b8370797e
 
 RPROVIDES:${PN} += "gcc12-c++ \
 gcc12-c++(aarch-64)"
+
 RDEPENDS:${PN} += "gcc12 \
 libc.so.6(GLIBC_2.36)(64bit) \
 libgmp.so.10()(64bit) \

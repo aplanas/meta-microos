@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "perl(Config::Identity) \
 perl(Config::Identity::GitHub) \
 perl(Config::Identity::PAUSE) \
 perl-Config-Identity"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::HomeDir) \
 perl(File::Which) \

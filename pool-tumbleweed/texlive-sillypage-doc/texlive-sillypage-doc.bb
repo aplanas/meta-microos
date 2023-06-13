@@ -9,6 +9,7 @@ RPM_HASH = "fad5c5b6e5d06822f82191ea94d6020181beb8deda404fc6b6b7a2a6db77e35aa9f2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sillypage-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

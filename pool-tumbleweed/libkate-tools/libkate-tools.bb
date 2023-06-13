@@ -18,6 +18,7 @@ RPM_HASH = "261b89ed52cd36fce3ff235f3cc5705a36cdb5b8055e41e6454f462007793d2b8071
 
 RPROVIDES:${PN} += "libkate-tools \
 libkate-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

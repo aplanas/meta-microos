@@ -12,6 +12,7 @@ openvswitch-ovn-docker \
 openvswitch-ovn:/usr/bin/ovn-docker-overlay-driver \
 ovn-docker \
 ovn-docker(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 openvswitch \
 ovn \

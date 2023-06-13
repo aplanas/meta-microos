@@ -9,6 +9,7 @@ RPM_HASH = "43d3357090e92853d1bbeb29d829b5eedb56143ddbe7c6f6f703c9abed4329001d09
 
 RPROVIDES:${PN} += "remmina-plugin-python-wrapper \
 remmina-plugin-python-wrapper(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

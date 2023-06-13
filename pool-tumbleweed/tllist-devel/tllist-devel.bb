@@ -10,6 +10,7 @@ RPM_HASH = "28850a1e7062e0247c2824ed909282182d5d9d41a48d8efb946d8e55ac29669ab4bd
 RPROVIDES:${PN} += "pkgconfig(tllist) \
 tllist-devel \
 tllist-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

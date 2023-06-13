@@ -14,6 +14,7 @@ pattern-icon() \
 pattern-visible() \
 patterns-hpc-compute_node \
 patterns-hpc-compute_node(aarch-64)"
+
 RDEPENDS:${PN} += "iputils \
 nfs-client \
 openssh \

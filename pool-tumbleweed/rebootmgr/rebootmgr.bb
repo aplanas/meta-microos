@@ -11,6 +11,7 @@ RPM_HASH = "c35790631b3bcb20c1257aeaa03f607bcb7318f356ada8fbd818cf89de280fc4f9bd
 
 RPROVIDES:${PN} += "rebootmgr \
 rebootmgr(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

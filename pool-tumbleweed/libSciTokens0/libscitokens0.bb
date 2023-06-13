@@ -14,6 +14,7 @@ RPM_HASH = "19d411df6550bf21f854a0152ccb04e09eefad31bab755643813d75566f61c572a05
 RPROVIDES:${PN} += "libSciTokens.so.0()(64bit) \
 libSciTokens0 \
 libSciTokens0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "fd2246260bcd019e207a2172123290d71fed4061f12c4a17b0e85d169412489b18da
 
 RPROVIDES:${PN} += "pidgin-plugin-pack-extras \
 pidgin-plugin-pack-extras(aarch-64)"
+
 RDEPENDS:${PN} += "libpurple-plugin-pack-extras \
 pidgin-plugin-pack"
 

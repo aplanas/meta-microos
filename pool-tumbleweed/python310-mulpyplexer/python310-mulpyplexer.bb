@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mulpyplexer \
 python3.10dist(mulpyplexer) \
 python310-mulpyplexer \
 python3dist(mulpyplexer)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(uebungsblatt.cls) \
 tex(uebungsblatt.sty) \
 texlive-uebungsblatt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

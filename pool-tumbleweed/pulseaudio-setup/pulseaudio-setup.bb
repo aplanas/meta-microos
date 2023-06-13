@@ -10,6 +10,7 @@ RPM_HASH = "a1c4221febb38d51131effb94b04f3d50a95489fbad7a411d6c9c19968da37455ae4
 
 RPROVIDES:${PN} += "pulseaudio-setup \
 pulseaudio-setup(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

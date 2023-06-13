@@ -17,6 +17,7 @@ tex(csbulobalka.cls) \
 tex(csbulobalka.sty) \
 tex(csbulv1.cls) \
 texlive-csbulletin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

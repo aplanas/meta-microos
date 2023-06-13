@@ -13,6 +13,7 @@ RPM_HASH = "8a29fbbd4129715e6040cb8d0258a3efa58b082f29fbaf574cd5ef3cbe4f7bdb4e72
 RPROVIDES:${PN} += "typelib(Gee) \
 typelib-1_0-Gee-1_0 \
 typelib-1_0-Gee-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgee.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

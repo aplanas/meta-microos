@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(autonum.sty) \
 texlive-autonum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

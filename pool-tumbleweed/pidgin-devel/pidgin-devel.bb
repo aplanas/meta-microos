@@ -12,6 +12,7 @@ RPM_HASH = "3ca4f1482bfc2c08683d22f40c8b6322583ea65966a450504d7e06b6b4293fadacc6
 RPROVIDES:${PN} += "pidgin-devel \
 pidgin-devel(aarch-64) \
 pkgconfig(pidgin)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpurple-devel \
 pidgin \

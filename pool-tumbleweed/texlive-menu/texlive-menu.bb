@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(menu.sty) \
 texlive-menu"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

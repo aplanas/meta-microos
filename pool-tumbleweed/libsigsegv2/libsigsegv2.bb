@@ -12,6 +12,7 @@ RPM_HASH = "b477dc467388bb398de8d625fafb09e91c52b9c7d0360c630dd06190b5c58ccd2bfd
 RPROVIDES:${PN} += "libsigsegv.so.2()(64bit) \
 libsigsegv2 \
 libsigsegv2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

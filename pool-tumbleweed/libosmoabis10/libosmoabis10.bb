@@ -17,6 +17,7 @@ RPM_HASH = "f4a9d662fdad7cb2cc7523cc2f2f0a2600ebc1a7b5d28f9a4701670b9c4bdc362c02
 RPROVIDES:${PN} += "libosmoabis.so.10()(64bit) \
 libosmoabis10 \
 libosmoabis10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

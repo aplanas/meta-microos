@@ -12,6 +12,7 @@ RPM_HASH = "d857305a3e841ca610e29edf77a2a58d28271358b6b3428f5d369b18a45fdd39389a
 RPROVIDES:${PN} += "atheme \
 atheme(aarch-64) \
 config(atheme)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

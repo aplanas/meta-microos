@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pgfkeyx.sty) \
 texlive-pgfkeyx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "751be307ad3fc6c9ddd358726c930a4e4a422f0734b622b635cc2ed861003a53b51a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-scripts"
+
 RDEPENDS:${PN} += "ant \
 perl \
 python3-base"

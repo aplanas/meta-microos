@@ -9,6 +9,7 @@ RPM_HASH = "23a03cae5d11b869c0a73b59f63a8a09e9c688fdc8b4da957097fbb7c7da2d7756fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grfext-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

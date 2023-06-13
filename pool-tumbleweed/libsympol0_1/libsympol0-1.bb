@@ -13,6 +13,7 @@ RPM_HASH = "2aab2c0f71474739fc4d5ec262e88c09e112c27d7a852bddc32f75b6e9ab34a937e1
 RPROVIDES:${PN} += "libsympol.so.0.1()(64bit) \
 libsympol0_1 \
 libsympol0_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

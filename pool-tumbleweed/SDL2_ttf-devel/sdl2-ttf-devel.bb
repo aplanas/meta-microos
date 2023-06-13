@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "SDL2_ttf-devel \
 SDL2_ttf-devel(aarch-64) \
 libSDL2_ttf-devel \
 pkgconfig(SDL2_ttf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSDL2_ttf-2_0-0 \
 pkgconfig(sdl2)"

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(agate-excel) \
 python39-agate-excel \
 python3dist(agate-excel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-agate \
 python39-olefile \

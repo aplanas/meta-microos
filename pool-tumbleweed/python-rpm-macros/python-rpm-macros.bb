@@ -270,6 +270,7 @@ rpm_macro(pyunittest_arch) \
 rpm_macro(reset_alternative) \
 rpm_macro(system_python) \
 rpm_macro(uninstall_alternative)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

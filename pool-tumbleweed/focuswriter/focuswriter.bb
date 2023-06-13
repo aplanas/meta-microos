@@ -26,6 +26,7 @@ mimehandler(application/vnd.oasis.opendocument.text-flat-xml) \
 mimehandler(application/vnd.openxmlformats-officedocument.wordprocessingml.document) \
 mimehandler(text/plain) \
 mimehandler(text/rtf)"
+
 RDEPENDS:${PN} += "hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

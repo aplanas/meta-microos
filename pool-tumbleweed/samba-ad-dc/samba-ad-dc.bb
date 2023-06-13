@@ -10,6 +10,7 @@ RPM_HASH = "cd762e61ef8c3cf663870218699de2a8d6ed9f5033d5aac10bcff892642d9441c460
 RPROVIDES:${PN} += "samba-ad-dc \
 samba-ad-dc(aarch-64) \
 samba-kdc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

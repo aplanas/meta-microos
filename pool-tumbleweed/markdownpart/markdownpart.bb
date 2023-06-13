@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "markdownpart \
 markdownpart(aarch-64) \
 metainfo() \
 metainfo(org.kde.markdownpart.metainfo.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigWidgets.so.5()(64bit) \

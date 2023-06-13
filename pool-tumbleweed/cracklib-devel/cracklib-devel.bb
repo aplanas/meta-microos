@@ -13,6 +13,7 @@ RPM_HASH = "4b45bb8e68c8ce2e06c0ab7fbbf483f2650e0eb6dd9ac2b42b61f5c70f19ce655f29
 RPROVIDES:${PN} += "cracklib-devel \
 cracklib-devel(aarch-64) \
 cracklib:/usr/include/crack.h"
+
 RDEPENDS:${PN} += "glibc-devel \
 libcrack2"
 

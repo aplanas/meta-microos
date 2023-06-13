@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-whois_similarity_distance \
 python3.10dist(whois-similarity-distance) \
 python310-whois_similarity_distance \
 python3dist(whois-similarity-distance)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

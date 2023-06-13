@@ -216,6 +216,7 @@ tex(ussmsa.fd) \
 tex(ussmsb.fd) \
 tex(uxcmss.fd) \
 texlive-sansmathfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

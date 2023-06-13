@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(varindex.sty) \
 texlive-varindex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

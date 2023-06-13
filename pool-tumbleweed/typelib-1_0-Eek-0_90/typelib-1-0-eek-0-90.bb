@@ -13,6 +13,7 @@ typelib(EekXkl) \
 typelib(Eekboard) \
 typelib-1_0-Eek-0_90 \
 typelib-1_0-Eek-0_90(aarch-64)"
+
 RDEPENDS:${PN} += "eekboard \
 libeek-gtk.so.0()(64bit) \
 libeek-xkl.so.0()(64bit) \

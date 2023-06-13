@@ -35,6 +35,7 @@ tex(ruhyphmg.tex) \
 tex(ruhyphvl.tex) \
 tex(ruhyphzn.tex) \
 texlive-ruhyphen"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

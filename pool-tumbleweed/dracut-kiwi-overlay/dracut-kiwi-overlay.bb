@@ -11,6 +11,7 @@ RPM_HASH = "b7b956bed048d5919119059e42598554ea86391d87377b3d978e6c15be8a6a82b909
 
 RPROVIDES:${PN} += "dracut-kiwi-overlay \
 dracut-kiwi-overlay(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 dracut \
 dracut-kiwi-lib"

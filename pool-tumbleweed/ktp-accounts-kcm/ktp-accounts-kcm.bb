@@ -16,6 +16,7 @@ RPM_HASH = "6d44170337296eca5e519886b95835cb9abf1c395338f5602af0ca1e60320f9c770e
 RPROVIDES:${PN} += "ktp-accounts-kcm \
 ktp-accounts-kcm(aarch-64) \
 ktp-accounts-kcm5"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Codecs.so.5()(64bit) \

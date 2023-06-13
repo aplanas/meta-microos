@@ -23,6 +23,7 @@ RPM_HASH = "976793356e86dc3137c3d2673245c95548c334327026d1e6375b10f710d75a176a0b
 
 RPROVIDES:${PN} += "logwarn \
 logwarn(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -14,6 +14,7 @@ RPM_HASH = "182cc826a69ee1321f9ac64c66dd090abb48f06016187fc1b0e4dbebdb047d3d075d
 
 RPROVIDES:${PN} += "gitk \
 gitk(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 git-core \
 tk"

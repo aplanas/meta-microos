@@ -56,6 +56,7 @@ locale(bison:uk) \
 locale(bison:vi) \
 locale(bison:zh_CN) \
 locale(bison:zh_TW)"
+
 RDEPENDS:${PN} += "bison"
 
 inherit rpm

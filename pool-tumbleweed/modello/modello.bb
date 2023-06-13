@@ -41,6 +41,7 @@ mvn(org.codehaus.modello:modello-plugins:pom:) \
 mvn(org.codehaus.modello:modello-test) \
 mvn(org.codehaus.modello:modello-test:pom:) \
 mvn(org.codehaus.modello:modello:pom:)"
+
 RDEPENDS:${PN} += "/bin/bash \
 guava \
 java-headless \

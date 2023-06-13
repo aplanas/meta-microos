@@ -11,6 +11,7 @@ RPM_HASH = "09fa3f2519a2e3a8f36883608d101efd04889af8206f1e07fdcdda420b63cada2353
 
 RPROVIDES:${PN} += "libscotch-gnu-hpc \
 libscotch-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libscotch_6_1_0-gnu-hpc"
 

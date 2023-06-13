@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mingw32(libmpc-3.dll) \
 mingw32-libmpc \
 mingw32-libmpc3"
+
 RDEPENDS:${PN} += "mingw32(libgmp-10.dll) \
 mingw32(libmpfr-4.dll)"
 

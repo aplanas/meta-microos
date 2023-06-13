@@ -9,6 +9,7 @@ RPM_HASH = "5291b1c232f90bd9eae2f20a524f204dbf9dda3f1be33dd0a2ad44abe55cafe10aed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ldas-tools-framecpp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(storebox-pgf.sty) \
 tex(storebox.sty) \
 texlive-storebox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

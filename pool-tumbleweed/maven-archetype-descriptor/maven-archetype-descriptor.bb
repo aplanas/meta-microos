@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "maven-archetype-descriptor \
 mvn(org.apache.maven.archetype:archetype-descriptor) \
 mvn(org.apache.maven.archetype:archetype-descriptor:pom:) \
 osgi(org.apache.maven.archetype.descriptor)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.plexus:plexus-utils)"

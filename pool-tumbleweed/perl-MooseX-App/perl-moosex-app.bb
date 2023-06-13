@@ -67,6 +67,7 @@ perl(MooseX::App::Role::Common) \
 perl(MooseX::App::Simple) \
 perl(MooseX::App::Utils) \
 perl-MooseX-App"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(List::Util) \
 perl(Module::Pluggable) \

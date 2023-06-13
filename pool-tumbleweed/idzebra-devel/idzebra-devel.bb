@@ -12,6 +12,7 @@ RPM_HASH = "a85b9cba8ea0c046ffb0517b7483c05ef9dde599de82585d558fd782f52968d85d1e
 RPROVIDES:${PN} += "idzebra-devel \
 idzebra-devel(aarch-64) \
 pkgconfig(zebra)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 idzebra \

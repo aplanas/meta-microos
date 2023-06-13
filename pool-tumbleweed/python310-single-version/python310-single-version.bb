@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-single-version \
 python3.10dist(single-version) \
 python310-single-version \
 python3dist(single-version)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-first \
 python310-importlib-metadata"

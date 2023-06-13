@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-actdiag \
 python3.10dist(actdiag) \
 python310-actdiag \
 python3dist(actdiag)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

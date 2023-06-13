@@ -34,6 +34,7 @@ libdevmapper.so.1.03(DM_1_02_98)(64bit) \
 libdevmapper.so.1.03(DM_1_02_99)(64bit) \
 libdevmapper1_03 \
 libdevmapper1_03(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

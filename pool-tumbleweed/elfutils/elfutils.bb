@@ -11,6 +11,7 @@ RPM_HASH = "cc528036a532d4ad674a6865e37dac794d9b6796d786552bb8add23fc5e82913e37c
 
 RPROVIDES:${PN} += "elfutils \
 elfutils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

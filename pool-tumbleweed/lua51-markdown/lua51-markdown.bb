@@ -9,6 +9,7 @@ RPM_HASH = "d5066ea98617f62666020a23c5cd21c13a7635aebe3a79f70a0b43d2e3cf066c3f2f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-markdown"
+
 RDEPENDS:${PN} += "lua51"
 
 inherit rpm

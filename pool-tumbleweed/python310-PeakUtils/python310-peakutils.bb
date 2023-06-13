@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-PeakUtils \
 python3.10dist(peakutils) \
 python310-PeakUtils \
 python3dist(peakutils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-scipy"

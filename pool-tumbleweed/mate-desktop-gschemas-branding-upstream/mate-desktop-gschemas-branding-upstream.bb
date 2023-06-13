@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-desktop-gschemas-branding \
 mate-desktop-gschemas-branding-upstream"
+
 RDEPENDS:${PN} += "mate-desktop-gschemas"
 
 inherit rpm

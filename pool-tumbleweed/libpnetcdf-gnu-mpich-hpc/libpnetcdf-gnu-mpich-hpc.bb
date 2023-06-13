@@ -11,6 +11,7 @@ RPM_HASH = "3a346e393390a4b6b1959691a32243d4d7aaa351148dd3716da6e47346133526f97c
 
 RPROVIDES:${PN} += "libpnetcdf-gnu-mpich-hpc \
 libpnetcdf-gnu-mpich-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libpnetcdf_1_12_3-gnu-mpich-hpc"
 

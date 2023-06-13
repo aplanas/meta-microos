@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(pycodestyle) \
 python311-pep8 \
 python311-pycodestyle \
 python3dist(pycodestyle)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

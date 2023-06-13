@@ -14,6 +14,7 @@ RPM_HASH = "e8f3dd6e57876681df73c01a3367153f50447a29cde437fd0a202a69b6941c5309a6
 RPROVIDES:${PN} += "libosmoctrl-devel \
 libosmoctrl-devel(aarch-64) \
 pkgconfig(libosmoctrl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmocore-devel \
 libosmoctrl0 \

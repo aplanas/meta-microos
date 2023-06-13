@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:hashie) \
 rubygem(ruby:3.2.0:hashie:5) \
 rubygem(ruby:3.2.0:hashie:5.0) \
 rubygem(ruby:3.2.0:hashie:5.0.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

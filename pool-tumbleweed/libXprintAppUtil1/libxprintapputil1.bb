@@ -12,6 +12,7 @@ RPM_HASH = "7f91a1517ddc2881f267acfa7120c837d1fdb3695a12c69b50eac9fa981e4f150247
 RPROVIDES:${PN} += "libXprintAppUtil.so.1()(64bit) \
 libXprintAppUtil1 \
 libXprintAppUtil1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

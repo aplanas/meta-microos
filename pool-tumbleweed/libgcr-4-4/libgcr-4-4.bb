@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "gcr \
 libgcr-4-4 \
 libgcr-4-4(aarch-64) \
 libgcr-4.so.4()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

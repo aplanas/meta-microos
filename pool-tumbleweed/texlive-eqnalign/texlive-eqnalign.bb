@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(eqnalign.sty) \
 texlive-eqnalign"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

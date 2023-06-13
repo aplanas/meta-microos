@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "application() \
 application(mozo.desktop) \
 mate-menu-editor \
 mozo"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 mate-menus \
 python(abi) \

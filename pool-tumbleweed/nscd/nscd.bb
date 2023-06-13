@@ -14,6 +14,7 @@ group(nscd) \
 nscd \
 nscd(aarch-64) \
 user(nscd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 glibc \
 ld-linux-aarch64.so.1()(64bit) \

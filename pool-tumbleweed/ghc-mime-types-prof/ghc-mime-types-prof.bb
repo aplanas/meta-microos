@@ -10,6 +10,7 @@ RPM_HASH = "96a88f833c8f1e1d7cac3773f69927301d89c314d8d1d911f254703081592fb72184
 RPROVIDES:${PN} += "ghc-mime-types-prof \
 ghc-mime-types-prof(aarch-64) \
 ghc-prof(mime-types-0.1.1.0-IrWGRRDe33Y1D55h7nh7fm)"
+
 RDEPENDS:${PN} += "ghc-mime-types-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

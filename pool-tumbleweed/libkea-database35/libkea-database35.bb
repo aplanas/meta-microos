@@ -10,6 +10,7 @@ RPM_HASH = "10270e0bc6af925dd96d223e30c0a2ebe585b45926777c69d8ec319d34db15b8f359
 RPROVIDES:${PN} += "libkea-database.so.35()(64bit) \
 libkea-database35 \
 libkea-database35(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

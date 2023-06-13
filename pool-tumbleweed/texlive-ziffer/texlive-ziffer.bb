@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ziffer.sty) \
 texlive-ziffer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

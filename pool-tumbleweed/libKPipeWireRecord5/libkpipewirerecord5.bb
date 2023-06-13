@@ -11,6 +11,7 @@ RPM_HASH = "6565b1e3ed0827541d79ffc5582bf317904e9f8346fee220768115091594dd7a2e47
 RPROVIDES:${PN} += "libKPipeWireRecord.so.5()(64bit) \
 libKPipeWireRecord5 \
 libKPipeWireRecord5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

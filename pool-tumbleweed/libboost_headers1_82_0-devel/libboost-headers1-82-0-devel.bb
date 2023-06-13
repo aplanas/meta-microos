@@ -10,6 +10,7 @@ RPM_HASH = "7a238e2be8adddfafdd2f5df39277a21f0056ee2795196b445d94daf7c57e26614b3
 RPROVIDES:${PN} += "libboost_headers-devel-impl \
 libboost_headers1_82_0-devel \
 libboost_headers1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "boost-license1_82_0 \
 libstdc++-devel"
 

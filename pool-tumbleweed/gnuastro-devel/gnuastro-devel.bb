@@ -11,6 +11,7 @@ RPM_HASH = "ea3d6249bb06b8680386cba58904c9246419270c61ac45523b66f8c8f1613a0d2db9
 RPROVIDES:${PN} += "gnuastro-devel \
 gnuastro-devel(aarch-64) \
 pkgconfig(gnuastro)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgnuastro17 \
 pkgconfig(cfitsio) \

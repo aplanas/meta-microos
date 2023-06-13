@@ -9,6 +9,7 @@ RPM_HASH = "c3a83c5b60a431fdbe9bc7f4d5ec05f9a079253172422f0069a2494fd3c1600e4139
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-forloop-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

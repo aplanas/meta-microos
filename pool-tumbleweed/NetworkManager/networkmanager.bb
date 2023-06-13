@@ -20,6 +20,7 @@ dhcdbd \
 libnm-device-plugin-wifi.so()(64bit) \
 service(network) \
 sysvinit(network)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 NetworkManager-branding \

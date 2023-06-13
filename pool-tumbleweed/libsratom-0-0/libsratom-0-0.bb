@@ -10,6 +10,7 @@ RPM_HASH = "b7b46996e2f338e5b6cccbc9f6ce1c1e89b26c79ecc84bff70b39c0d1fdca63f02eb
 RPROVIDES:${PN} += "libsratom-0-0 \
 libsratom-0-0(aarch-64) \
 libsratom-0.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

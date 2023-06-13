@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-phonenumber-field \
 python3.10dist(django-phonenumber-field) \
 python310-django-phonenumber-field \
 python3dist(django-phonenumber-field)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Babel \
 python310-Django \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-cpplint \
 python3.10dist(cpplint) \
 python310-cpplint \
 python3dist(cpplint)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -14,6 +14,7 @@ budgie-window-shuffler(aarch-64) \
 libshufflerapplet.so()(64bit) \
 metainfo() \
 metainfo(org.ubuntubudgie.shufflercontrol.metainfo.xml)"
+
 RDEPENDS:${PN} += "budgie-extras-daemon \
 budgie-extras-lang \
 ld-linux-aarch64.so.1()(64bit) \

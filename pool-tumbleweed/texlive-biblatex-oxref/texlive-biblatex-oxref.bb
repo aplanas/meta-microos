@@ -45,6 +45,7 @@ tex(oxref.bbx) \
 tex(oxyear.bbx) \
 tex(oxyear.cbx) \
 texlive-biblatex-oxref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

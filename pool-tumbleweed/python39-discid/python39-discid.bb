@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(discid) \
 python39-discid \
 python3dist(discid)"
+
 RDEPENDS:${PN} += "libdiscid0 \
 python(abi)"
 

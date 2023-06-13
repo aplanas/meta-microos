@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(azure-synapse-artifacts) \
 python39-azure-synapse \
 python39-azure-synapse-artifacts \
 python3dist(azure-synapse-artifacts)"
+
 RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) \
 python(abi) \
 python39-azure-core \

@@ -12,6 +12,7 @@ RPM_HASH = "5ad01c38513b035365183f72a685b7ab7be7eb2a89c7870447e6b165f75d5fd9764d
 RPROVIDES:${PN} += "live555-devel \
 live555-devel(aarch-64) \
 pkgconfig(live555)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libBasicUsageEnvironment2 \
 libUsageEnvironment3 \

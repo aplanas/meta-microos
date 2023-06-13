@@ -9,6 +9,7 @@ RPM_HASH = "ae3e4908f7deab9b1ec891caf1a1f2b773867ee7aa1a28a6ebae2098fe4d1d2ac364
 
 RPROVIDES:${PN} += "mayavi-doc \
 mayavi-doc(aarch-64)"
+
 RDEPENDS:${PN} += "mayavi"
 
 inherit rpm

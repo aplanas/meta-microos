@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libregf.so.1()(64bit) \
 libregf.so.1(V_20230319)(64bit) \
 libregf1 \
 libregf1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

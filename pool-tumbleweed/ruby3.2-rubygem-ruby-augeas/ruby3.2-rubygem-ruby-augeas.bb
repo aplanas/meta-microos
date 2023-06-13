@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:ruby-augeas) \
 rubygem(ruby:3.2.0:ruby-augeas:0) \
 rubygem(ruby:3.2.0:ruby-augeas:0.5) \
 rubygem(ruby:3.2.0:ruby-augeas:0.5.0)"
+
 RDEPENDS:${PN} += "augeas \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

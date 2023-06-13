@@ -10,6 +10,7 @@ RPM_HASH = "e32694a00cac263c760a79f0c527d405b6f46199a49d834b20273fc3fb42dd9866a2
 
 RPROVIDES:${PN} += "glibc-profile \
 glibc-profile(aarch-64)"
+
 RDEPENDS:${PN} += "glibc"
 
 inherit rpm

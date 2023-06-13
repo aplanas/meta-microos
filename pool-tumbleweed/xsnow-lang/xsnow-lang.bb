@@ -31,6 +31,7 @@ locale(xsnow:sv) \
 locale(xsnow:uk) \
 xsnow-lang \
 xsnow-lang-all"
+
 RDEPENDS:${PN} += "xsnow"
 
 inherit rpm

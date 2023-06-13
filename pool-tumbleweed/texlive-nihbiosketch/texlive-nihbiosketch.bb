@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nihbiosketch.cls) \
 texlive-nihbiosketch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

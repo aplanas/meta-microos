@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ads \
 vasclnt \
 vastool"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 krb5-client \

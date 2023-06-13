@@ -10,6 +10,7 @@ RPM_HASH = "856f1d6cc0cda65bce8dc805a7f390265a0d2cc926f8ccad1d7028a9877eb4bf0e63
 RPROVIDES:${PN} += "liberasurecode-devel \
 liberasurecode-devel(aarch-64) \
 pkgconfig(erasurecode-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liberasurecode1"
 

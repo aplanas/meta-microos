@@ -11,6 +11,7 @@ RPM_HASH = "d8b07620bc48e180f76cebc668ee0edb779c270d24478656d6615a865768f0696a74
 
 RPROVIDES:${PN} += "erlang-dialyzer-src \
 erlang-dialyzer-src(aarch-64)"
+
 RDEPENDS:${PN} += "erlang-dialyzer"
 
 inherit rpm

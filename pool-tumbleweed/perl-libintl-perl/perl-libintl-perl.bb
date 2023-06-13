@@ -160,6 +160,7 @@ perl(Locale::gettext_xs) \
 perl(__TiedTextDomain) \
 perl-libintl-perl \
 perl-libintl-perl(aarch-64)"
+
 RDEPENDS:${PN} += "gettext-runtime \
 libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0) \

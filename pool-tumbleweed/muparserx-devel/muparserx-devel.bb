@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(muparserx) \
 muparserx-devel \
 muparserx-devel(aarch-64) \
 pkgconfig(muparserx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmuparserx4_0_12"
 

@@ -12,6 +12,7 @@ RPM_HASH = "17c5eca14e506347ea87a1ec090737faf9454e8bf94767ecbb4b145d2657981886b5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sqlite3-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

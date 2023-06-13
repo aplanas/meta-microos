@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(msm) \
 python311-msm \
 python3dist(msm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 patch \

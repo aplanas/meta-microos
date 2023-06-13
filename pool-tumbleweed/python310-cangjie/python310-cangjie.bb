@@ -10,6 +10,7 @@ RPM_HASH = "7e7a52e84e541be65ecadffcb5b3cae0b4aaaf7bd1351cfa3504079df593f3e17557
 RPROVIDES:${PN} += "python3-cangjie \
 python310-cangjie \
 python310-cangjie(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

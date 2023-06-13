@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mobi \
 python3.10dist(mobi) \
 python310-mobi \
 python3dist(mobi)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

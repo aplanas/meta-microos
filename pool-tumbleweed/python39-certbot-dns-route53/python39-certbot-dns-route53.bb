@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(certbot-dns-route53) \
 python39-certbot-dns-route53 \
 python3dist(certbot-dns-route53)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-acme \
 python39-boto3 \

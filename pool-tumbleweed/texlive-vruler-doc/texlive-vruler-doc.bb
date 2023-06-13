@@ -9,6 +9,7 @@ RPM_HASH = "2a7e9d5097620a0ec93c97968b37154bd890ce4146410f6235b82dea3a2aebeb49ef
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vruler-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

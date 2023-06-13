@@ -15,6 +15,7 @@ RPM_HASH = "4e6ad846fdc5d5e47d332ecef5927e52cdfff18852a601fbd34914e59fcfb6428570
 RPROVIDES:${PN} += "pam-extra \
 pam-extra(aarch-64) \
 pam:/usr/sbin/pam_timestamp_check"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

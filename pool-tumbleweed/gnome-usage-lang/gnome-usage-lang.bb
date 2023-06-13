@@ -44,6 +44,7 @@ locale(gnome-usage:tr) \
 locale(gnome-usage:uk) \
 locale(gnome-usage:zh_CN) \
 locale(gnome-usage:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-usage"
 
 inherit rpm

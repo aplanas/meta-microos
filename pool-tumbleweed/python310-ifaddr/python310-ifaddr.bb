@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-ifaddr \
 python3.10dist(ifaddr) \
 python310-ifaddr \
 python3dist(ifaddr)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

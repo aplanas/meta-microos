@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fetchcls.sty) \
 texlive-fetchcls"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

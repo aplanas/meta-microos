@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-unittest-mixins \
 python3.10dist(unittest-mixins) \
 python310-unittest-mixins \
 python3dist(unittest-mixins)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

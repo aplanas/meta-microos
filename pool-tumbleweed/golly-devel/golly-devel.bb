@@ -10,6 +10,7 @@ RPM_HASH = "ecc8ba6a6758a923b35a7a6387cc3e7da344868fa9d85e3b94ce4380fee2ea53ca81
 
 RPROVIDES:${PN} += "golly-devel \
 golly-devel(aarch-64)"
+
 RDEPENDS:${PN} += "golly"
 
 inherit rpm

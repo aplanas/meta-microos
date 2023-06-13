@@ -20,6 +20,7 @@ RPM_HASH = "a637f5d4faad64cdb20ad3e6a4dc5159572b544899a22b6c2c725c9f1b5ff5aafc9c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pkfix-helper"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

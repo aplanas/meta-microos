@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(actuarialangle.sty) \
 texlive-actuarialangle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

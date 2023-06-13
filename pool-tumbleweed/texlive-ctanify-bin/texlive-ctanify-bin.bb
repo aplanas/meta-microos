@@ -9,6 +9,7 @@ RPM_HASH = "c1fa4edd03bf2dc5f64703341799571f7d8d7fa6711aea4699aba7cd5765ccf4ce4c
 
 RPROVIDES:${PN} += "texlive-ctanify-bin \
 texlive-ctanify-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-ctanify"
 
 inherit rpm

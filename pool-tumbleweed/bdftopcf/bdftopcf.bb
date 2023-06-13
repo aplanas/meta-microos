@@ -14,6 +14,7 @@ RPM_HASH = "d042a72d806e8018259736bcbf8477c014b7e97f69cfe41703d9ebac7ab1f2f01881
 
 RPROVIDES:${PN} += "bdftopcf \
 bdftopcf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

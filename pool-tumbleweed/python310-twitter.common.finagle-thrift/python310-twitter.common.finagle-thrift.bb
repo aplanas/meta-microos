@@ -13,6 +13,7 @@ python3.10dist(twitter.common.finagle-thrift) \
 python310-twitter.common.finagle-thrift \
 python310-twitter.common.finagle-thrift(aarch-64) \
 python3dist(twitter.common.finagle-thrift)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

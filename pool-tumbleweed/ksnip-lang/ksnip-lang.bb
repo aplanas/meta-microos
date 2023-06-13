@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksnip-lang \
 ksnip-lang-all"
+
 RDEPENDS:${PN} += "ksnip"
 
 inherit rpm

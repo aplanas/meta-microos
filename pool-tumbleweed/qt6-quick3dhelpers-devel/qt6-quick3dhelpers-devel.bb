@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Quick3DHelpers) \
 pkgconfig(Qt6Quick3DHelpers) \
 qt6-quick3dhelpers-devel \
 qt6-quick3dhelpers-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 libQt6Quick3DHelpers6 \

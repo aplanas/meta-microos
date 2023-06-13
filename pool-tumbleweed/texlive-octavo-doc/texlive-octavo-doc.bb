@@ -9,6 +9,7 @@ RPM_HASH = "6e7194f54b45f4bc423726744b895f9921f12c916365e2b4ce6d6245fe25dace8db4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-octavo-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

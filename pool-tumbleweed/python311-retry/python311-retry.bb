@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(retry) \
 python311-retry \
 python3dist(retry)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-decorator \
 python311-py"

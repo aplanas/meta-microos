@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-calmjs.parse \
 python3.10dist(calmjs.parse) \
 python310-calmjs.parse \
 python3dist(calmjs.parse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ply \
 python310-setuptools"

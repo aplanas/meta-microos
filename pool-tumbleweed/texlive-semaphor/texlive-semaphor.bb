@@ -46,6 +46,7 @@ tex(smftt10.enc) \
 tex(smftt10.tfm) \
 tex(t-type-semaf.tex) \
 texlive-semaphor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

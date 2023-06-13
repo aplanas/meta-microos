@@ -9,6 +9,7 @@ RPM_HASH = "82c6a06ccdfe7b91a15e965fa8baa2b47c8511baf8a0799fd57ca57df51f48d85f10
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-combo-pinyin"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

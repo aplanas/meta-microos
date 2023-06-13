@@ -17,6 +17,7 @@ fwts(aarch-64) \
 libfwts.so.1()(64bit) \
 libfwtsacpica.so.1()(64bit) \
 libfwtsiasl.so.1()(64bit)"
+
 RDEPENDS:${PN} += "bash-completion \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

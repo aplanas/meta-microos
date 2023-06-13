@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-eventhub-checkpointstoreblob-aio) \
 python39-azure-eventhub-checkpointstoreblob-aio \
 python3dist(azure-eventhub-checkpointstoreblob-aio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-aiohttp \
 python39-azure-core \

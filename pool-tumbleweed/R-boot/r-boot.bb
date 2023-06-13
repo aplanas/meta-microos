@@ -9,6 +9,7 @@ RPM_HASH = "5fd065077587a08edfb91e4d237387c0883b4f2cb2356fe2d7cefa8e1d985994acef
 
 RPROVIDES:${PN} += "R-boot \
 R-boot(aarch-64)"
+
 RDEPENDS:${PN} += "R-base"
 
 inherit rpm

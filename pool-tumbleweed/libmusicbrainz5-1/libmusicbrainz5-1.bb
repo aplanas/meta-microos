@@ -12,6 +12,7 @@ RPM_HASH = "09a1ca242018abf22237ea22b58b5594cc5f053381c0e5f00eb14b888761920c5499
 RPROVIDES:${PN} += "libmusicbrainz5-1 \
 libmusicbrainz5-1(aarch-64) \
 libmusicbrainz5.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

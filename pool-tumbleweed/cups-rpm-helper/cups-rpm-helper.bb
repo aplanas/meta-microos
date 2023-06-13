@@ -10,6 +10,7 @@ RPM_HASH = "8512cc90e4b6e91149710c14658f9054a992ed72f4280decedd5ef676dac9da9cd5c
 
 RPROVIDES:${PN} += "cups-rpm-helper \
 cups-rpm-helper(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-cups \
 rpm-build"

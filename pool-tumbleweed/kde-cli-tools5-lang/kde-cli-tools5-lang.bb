@@ -92,6 +92,7 @@ locale(kde-cli-tools5:vi) \
 locale(kde-cli-tools5:wa) \
 locale(kde-cli-tools5:zh_CN) \
 locale(kde-cli-tools5:zh_TW)"
+
 RDEPENDS:${PN} += "kde-cli-tools5"
 
 inherit rpm

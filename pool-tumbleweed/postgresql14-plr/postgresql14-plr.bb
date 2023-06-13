@@ -26,6 +26,7 @@ RPM_HASH = "2a027ab0c589daa52ad4a7cfc98ff33c7684a56eb95a0c68943076bf1cd0002be9c8
 RPROVIDES:${PN} += "config(postgresql14-plr) \
 postgresql14-plr \
 postgresql14-plr(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 R-base \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracula-gtk-theme \
 gnome-shell-theme-dracula"
+
 RDEPENDS:${PN} += "gnome-shell \
 metatheme-dracula-common"
 

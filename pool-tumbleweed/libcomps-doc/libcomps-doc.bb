@@ -9,6 +9,7 @@ RPM_HASH = "bccbee753c3dcf4fde936410ac8d6be726b490f7ef88b5b5cf50589f80f4781ee605
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcomps-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "553367f0ed0d3feeee4a06698696e8bd367181061a86dbc973ed7bb8edceacdf111d
 RPROVIDES:${PN} += "ghc-prof(xhtml-3000.2.2.1) \
 ghc-xhtml-prof \
 ghc-xhtml-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-xhtml-devel(aarch-64)"
 

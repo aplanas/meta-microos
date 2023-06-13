@@ -9,6 +9,7 @@ RPM_HASH = "503d6273bf42a3c75b6272c414de20b2dfad5ebd56535d35c87340387497a481b265
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dviinfox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

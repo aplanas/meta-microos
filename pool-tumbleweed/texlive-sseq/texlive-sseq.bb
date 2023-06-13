@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sseq.sty) \
 texlive-sseq"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

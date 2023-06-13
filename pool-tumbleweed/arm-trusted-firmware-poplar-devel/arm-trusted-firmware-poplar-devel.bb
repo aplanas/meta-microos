@@ -17,6 +17,7 @@ RPM_HASH = "60e257b9801f78df4734bbbd882a8f75a492e9984ad114868e0c5f8af280920781f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-poplar-devel"
+
 RDEPENDS:${PN} += "arm-trusted-firmware-poplar"
 
 inherit rpm

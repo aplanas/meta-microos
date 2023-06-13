@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-fedora) \
 python39-python-fedora \
 python3dist(python-fedora)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-beautifulsoup4 \
 python39-kitchen \

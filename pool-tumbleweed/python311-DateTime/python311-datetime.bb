@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(datetime) \
 python311-DateTime \
 python3dist(datetime)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytz \
 python311-zope.interface"

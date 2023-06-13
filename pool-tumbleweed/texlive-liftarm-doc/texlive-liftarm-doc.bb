@@ -9,6 +9,7 @@ RPM_HASH = "e228f035bc1563c2439037091563d7de198d422cca3a6f74ac265f4ebe68a2567203
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-liftarm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

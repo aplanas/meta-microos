@@ -13,6 +13,7 @@ locale(lunar-calendar:zh_HK) \
 locale(lunar-calendar:zh_TW) \
 lunar-calendar-lang \
 lunar-calendar-lang-all"
+
 RDEPENDS:${PN} += "lunar-calendar"
 
 inherit rpm

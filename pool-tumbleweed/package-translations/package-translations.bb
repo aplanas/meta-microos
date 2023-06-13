@@ -10,6 +10,7 @@ RPM_HASH = "b94dbc9fe9acd7153c9cba425ced355b9d57dba8dbb4f99a5934bef4de892691e716
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "package-translations"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

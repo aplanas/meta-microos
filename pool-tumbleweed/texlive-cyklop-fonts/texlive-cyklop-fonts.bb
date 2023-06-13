@@ -122,6 +122,7 @@ font(cyklop) \
 font(cyklop-italic) \
 font(cyklop-regular) \
 texlive-cyklop-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

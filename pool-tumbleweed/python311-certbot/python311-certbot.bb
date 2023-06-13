@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "certbot \
 python3.11dist(certbot) \
 python311-certbot \
 python3dist(certbot)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

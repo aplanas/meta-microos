@@ -10,6 +10,7 @@ RPM_HASH = "b693a2befc0f17658828bc80215f365d144b04bdb1637ee19dbb0532aee14343bc92
 
 RPROVIDES:${PN} += "pcp-import-ganglia2pcp \
 pcp-import-ganglia2pcp(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl-PCP-LogImport"
 

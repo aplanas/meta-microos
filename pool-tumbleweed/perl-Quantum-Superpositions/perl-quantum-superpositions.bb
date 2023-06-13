@@ -92,6 +92,7 @@ perl(Quantum::Superpositions::Conj) \
 perl(Quantum::Superpositions::Conj::True) \
 perl(Quantum::Superpositions::Disj) \
 perl-Quantum-Superpositions"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Multimethods)"
 

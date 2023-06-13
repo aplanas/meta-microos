@@ -9,6 +9,7 @@ RPM_HASH = "0703907ddb3cbad8705e57e4f3d282f2e8b61034256e54f35c52991299451d3e50ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icc-profiles-all"
+
 RDEPENDS:${PN} += "icc-profiles \
 icc-profiles-basiccolor-printing2009-extra \
 icc-profiles-oyranos-extra"

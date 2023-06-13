@@ -15,6 +15,7 @@ RPM_HASH = "85b48f7a12b867eec51ed32c36d0a751e5fa728d55a63c032c1eb0e529c3dd077876
 RPROVIDES:${PN} += "libpythia8lhapdf6 \
 libpythia8lhapdf6(aarch-64) \
 libpythia8lhapdf6.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

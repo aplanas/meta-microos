@@ -54,6 +54,7 @@ locale(kaccounts-providers:tr) \
 locale(kaccounts-providers:uk) \
 locale(kaccounts-providers:zh_CN) \
 locale(kaccounts-providers:zh_TW)"
+
 RDEPENDS:${PN} += "kaccounts-providers"
 
 inherit rpm

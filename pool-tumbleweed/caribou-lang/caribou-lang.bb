@@ -77,6 +77,7 @@ locale(caribou:vi) \
 locale(caribou:zh_CN) \
 locale(caribou:zh_HK) \
 locale(caribou:zh_TW)"
+
 RDEPENDS:${PN} += "caribou"
 
 inherit rpm

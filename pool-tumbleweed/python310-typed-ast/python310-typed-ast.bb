@@ -17,6 +17,7 @@ python3.10dist(typed-ast) \
 python310-typed-ast \
 python310-typed-ast(aarch-64) \
 python3dist(typed-ast)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

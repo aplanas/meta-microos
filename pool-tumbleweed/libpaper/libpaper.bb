@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "config(libpaper) \
 libpaper \
 libpaper(aarch-64) \
 paper:/etc/paperspecs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

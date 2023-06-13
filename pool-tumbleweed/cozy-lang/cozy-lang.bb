@@ -31,6 +31,7 @@ locale(cozy:sv) \
 locale(cozy:tr) \
 locale(cozy:uk) \
 locale(cozy:zh)"
+
 RDEPENDS:${PN} += "cozy"
 
 inherit rpm

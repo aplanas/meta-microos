@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(veusz) \
 python311-veusz \
 python311-veusz(aarch-64) \
 python3dist(veusz)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

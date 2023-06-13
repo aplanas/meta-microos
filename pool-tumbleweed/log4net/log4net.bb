@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "log4net \
 mono(log4net) \
 pkgconfig(log4net)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mono(System) \
 mono(System.Data) \

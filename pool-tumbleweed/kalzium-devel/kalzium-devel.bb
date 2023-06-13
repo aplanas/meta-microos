@@ -9,6 +9,7 @@ RPM_HASH = "7ec7c6ae9665e7724c24637e1a22a6a421a03204537fc59be0e9f7ef3cf8c97d67de
 
 RPROVIDES:${PN} += "kalzium-devel \
 kalzium-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kalzium"
 
 inherit rpm

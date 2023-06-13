@@ -10,6 +10,7 @@ RPM_HASH = "9049494ea8e8efb6be373a5da6997a79fa5977a8f1b005cf525153b343642eaf00d1
 RPROVIDES:${PN} += "libktoblzcheck.so.1()(64bit) \
 libktoblzcheck1 \
 libktoblzcheck1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

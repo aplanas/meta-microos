@@ -10,6 +10,7 @@ RPM_HASH = "3b754fc728336159a5793bb5752879e3f77968cef203d28fc6290e3383dd09ac53ad
 RPROVIDES:${PN} += "ghc-devel(terminal-size-0.3.4-1tPFLsRvnmSGNryq4PMCAd) \
 ghc-terminal-size-devel \
 ghc-terminal-size-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

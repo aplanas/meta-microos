@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "IPAMincho \
 ipa-mincho-fonts \
 locale(ja) \
 scalable-font-ja"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

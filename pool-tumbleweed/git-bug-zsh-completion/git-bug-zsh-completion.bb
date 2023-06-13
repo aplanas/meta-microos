@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(git-bug-zsh-completion) \
 git-bug-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

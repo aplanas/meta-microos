@@ -13,6 +13,7 @@ eog-plugins:/usr/lib64/eog/plugins/light-theme.plugin \
 liblight-theme.so()(64bit) \
 metainfo() \
 metainfo(eog-light-theme.appdata.xml)"
+
 RDEPENDS:${PN} += "eog-plugins-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

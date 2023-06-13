@@ -10,6 +10,7 @@ RPM_HASH = "744baaa4e0420781b0188ca09bc7a157b1d3310d7d98110cf7bd570815c2b3b9e102
 RPROVIDES:${PN} += "cmake(Pala) \
 palapeli-devel \
 palapeli-devel(aarch-64)"
+
 RDEPENDS:${PN} += "palapeli"
 
 inherit rpm

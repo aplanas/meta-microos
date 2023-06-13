@@ -9,6 +9,7 @@ RPM_HASH = "a03f68a2091b8402d86ee9318e1b207e6820ebeaa443628ec6ebbf4c3fc8dc8bb677
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tramlines-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

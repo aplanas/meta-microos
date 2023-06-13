@@ -9,6 +9,7 @@ RPM_HASH = "7aa4792ab7408f4265919fc458aa6ea3fd1b6a178ff6244e016ed0e01f4a206133ad
 
 RPROVIDES:${PN} += "texlive-chktex-bin \
 texlive-chktex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

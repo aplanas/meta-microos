@@ -18,6 +18,7 @@ tex(manuscripts-noautoshorthand.bbx) \
 tex(manuscripts-shared.bbx) \
 tex(manuscripts.bbx) \
 texlive-biblatex-manuscripts-philology"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

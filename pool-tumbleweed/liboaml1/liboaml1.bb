@@ -11,6 +11,7 @@ RPM_HASH = "aa4d183d73c54dd3bad286b574816992f9225eb8a026e04b1cb33a9e40bfc9e5910b
 RPROVIDES:${PN} += "liboaml.so.1()(64bit) \
 liboaml1 \
 liboaml1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ protonvpn \
 protonvpn-gui \
 python3.10dist(protonvpn-gui) \
 python3dist(protonvpn-gui)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gtk3 \
 python(abi) \

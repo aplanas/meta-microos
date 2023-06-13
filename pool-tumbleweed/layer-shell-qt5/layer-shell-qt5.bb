@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "layer-shell-qt5 \
 layer-shell-qt5(aarch-64) \
 libLayerShellQtInterface.so.5()(64bit) \
 liblayer-shell.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

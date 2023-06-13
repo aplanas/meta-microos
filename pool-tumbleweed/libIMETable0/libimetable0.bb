@@ -10,6 +10,7 @@ RPM_HASH = "7908d5b8bf9a7af07c618658389e265d74808dc8de421275b58ca26b1c05e0a1762f
 RPROVIDES:${PN} += "libIMETable.so.0()(64bit) \
 libIMETable0 \
 libIMETable0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-micropipenv \
 python3.10dist(micropipenv) \
 python310-micropipenv \
 python3dist(micropipenv)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

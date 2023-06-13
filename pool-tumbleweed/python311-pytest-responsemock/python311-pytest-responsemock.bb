@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-responsemock) \
 python311-pytest-responsemock \
 python3dist(pytest-responsemock)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytest \
 python311-responses"

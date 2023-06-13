@@ -13,6 +13,7 @@ liblove-11.4.so()(64bit) \
 love \
 love(aarch-64) \
 mimehandler(application/x-love-game)"
+
 RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils \
 ld-linux-aarch64.so.1()(64bit) \

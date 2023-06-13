@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-ZConfig \
 python3.10dist(zconfig) \
 python310-ZConfig \
 python3dist(zconfig)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

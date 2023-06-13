@@ -9,6 +9,7 @@ RPM_HASH = "ee78a05a78c07553df8a701868e902598cb4efa334a6f46b83513cc27de25ed49547
 
 RPROVIDES:${PN} += "texlive-dtxgen-bin \
 texlive-dtxgen-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-dtxgen"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-seed \
 python3.10dist(django-seed) \
 python310-django-seed \
 python3dist(django-seed)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-Faker"

@@ -18,6 +18,7 @@ locale(blobwars:fr) \
 locale(blobwars:nl) \
 locale(blobwars:pl) \
 locale(blobwars:sv)"
+
 RDEPENDS:${PN} += "blobwars"
 
 inherit rpm

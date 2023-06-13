@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-datamigration \
 python3.10dist(azure-mgmt-datamigration) \
 python310-azure-mgmt-datamigration \
 python3dist(azure-mgmt-datamigration)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

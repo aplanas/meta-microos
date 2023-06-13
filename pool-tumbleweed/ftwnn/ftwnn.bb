@@ -10,6 +10,7 @@ RPM_HASH = "ac4108e1bcff934aef08fe3f22fb62325a37084e07a80e063612529de8fe15516e5d
 RPROVIDES:${PN} += "config(ftwnn) \
 ftwnn \
 ftwnn(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 fcwnn \
 fcwnncom \

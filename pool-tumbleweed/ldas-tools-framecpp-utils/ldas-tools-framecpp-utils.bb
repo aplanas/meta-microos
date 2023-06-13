@@ -9,6 +9,7 @@ RPM_HASH = "e2ca4865d3580fe0ad9f839ee230f05ef30e2eb343d57729b3ea2c26f82719fc268f
 
 RPROVIDES:${PN} += "ldas-tools-framecpp-utils \
 ldas-tools-framecpp-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_program_options.so.1.82.0()(64bit) \

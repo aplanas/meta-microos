@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(upca.tex) \
 texlive-upca"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

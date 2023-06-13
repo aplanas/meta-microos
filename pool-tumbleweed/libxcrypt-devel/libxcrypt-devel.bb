@@ -13,6 +13,7 @@ libxcrypt-devel \
 libxcrypt-devel(aarch-64) \
 pkgconfig(libcrypt) \
 pkgconfig(libxcrypt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcrypt1 \
 pkgconfig"

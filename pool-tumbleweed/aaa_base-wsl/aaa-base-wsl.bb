@@ -11,6 +11,7 @@ RPM_HASH = "3d55c58cea400b81344a761d013e57f75a581f4af1dd82249cfc3fcf91427f9bbb29
 
 RPROVIDES:${PN} += "aaa_base-wsl \
 aaa_base-wsl(aarch-64)"
+
 RDEPENDS:${PN} += "aaa_base"
 
 inherit rpm

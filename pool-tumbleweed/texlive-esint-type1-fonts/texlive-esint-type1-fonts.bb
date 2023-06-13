@@ -100,6 +100,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(esint10) \
 texlive-esint-type1-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

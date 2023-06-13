@@ -25,6 +25,7 @@ RPM_HASH = "b221fb28013ea6e724fa3e0c649a05324c080234abbde020c28a981ea6269264754b
 
 RPROVIDES:${PN} += "python311-libfsext \
 python311-libfsext(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

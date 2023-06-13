@@ -13,6 +13,7 @@ RPM_HASH = "b03f36847e58f5d5c664af485af468a3a060156900e95c93cc65f4d5223b896aab86
 RPROVIDES:${PN} += "libwpd-devel \
 libwpd-devel(aarch-64) \
 pkgconfig(libwpd-0.10)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libstdc++-devel \
 libwpd-0_10-10 \

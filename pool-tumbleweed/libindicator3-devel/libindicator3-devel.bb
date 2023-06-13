@@ -11,6 +11,7 @@ RPM_HASH = "1e5143e5a748e921bbdba188ae43761dac01f67b62f338c78c400bfa980c8a2c643a
 RPROVIDES:${PN} += "libindicator3-devel \
 libindicator3-devel(aarch-64) \
 pkgconfig(indicator3-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

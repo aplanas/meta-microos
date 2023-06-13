@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libosip2-15 \
 libosip2-15(aarch-64) \
 libosip2.so.15()(64bit) \
 libosipparser2.so.15()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

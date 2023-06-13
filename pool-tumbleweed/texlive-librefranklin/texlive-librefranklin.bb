@@ -445,6 +445,7 @@ tex(lbfr_wmouhf.enc) \
 tex(lbfr_xsutkk.enc) \
 tex(librefranklin.sty) \
 texlive-librefranklin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

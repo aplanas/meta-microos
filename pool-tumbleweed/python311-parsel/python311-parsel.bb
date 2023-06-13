@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(parsel) \
 python311-parsel \
 python3dist(parsel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cssselect \
 python311-lxml \

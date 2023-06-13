@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.8dist(dqsegdb2) \
 python38-dqsegdb2 \
 python3dist(dqsegdb2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python38-gwdatafind \
 python38-igwn-auth-utils \

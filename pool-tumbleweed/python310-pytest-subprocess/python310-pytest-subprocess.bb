@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pytest-subprocess \
 python3.10dist(pytest-subprocess) \
 python310-pytest-subprocess \
 python3dist(pytest-subprocess)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

@@ -11,6 +11,7 @@ RPM_HASH = "a67ec3fccfc74b14c9be26753c6b73ff1a94e9014b3036df6e8fade4316c9877347f
 RPROVIDES:${PN} += "libmaia-devel \
 libmaia-devel(aarch-64) \
 pkgconfig(maia)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmaia1"
 

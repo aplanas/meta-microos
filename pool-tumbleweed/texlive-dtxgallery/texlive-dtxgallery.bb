@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dtxgallery \
 texlive-dtxgallery-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

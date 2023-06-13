@@ -13,6 +13,7 @@ python311-PyQt5 \
 python311-qt5 \
 python311-qt5(aarch-64) \
 python3dist(pyqt5)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLESv2.so.2()(64bit) \

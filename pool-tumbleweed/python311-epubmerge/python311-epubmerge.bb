@@ -30,6 +30,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(epubmerge) \
 python311-epubmerge \
 python3dist(epubmerge)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

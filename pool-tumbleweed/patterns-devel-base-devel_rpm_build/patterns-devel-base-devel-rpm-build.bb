@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-devel-base-devel_rpm_build \
 patterns-devel-base-devel_rpm_build(aarch-64)"
+
 RDEPENDS:${PN} += "libnss_usrfiles2 \
 man \
 netcfg \

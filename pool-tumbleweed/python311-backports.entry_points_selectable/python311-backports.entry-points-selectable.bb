@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(backports.entry-points-selectable) \
 python311-backports.entry_points_selectable \
 python3dist(backports.entry-points-selectable)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "335de08a5b94e05e332c5a89564bf6ef2f5e6e3fb61dc3822368a9fa9bb7203366b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "playerctl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

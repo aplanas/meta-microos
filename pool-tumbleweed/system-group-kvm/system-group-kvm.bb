@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group(kvm) \
 system-group-kvm"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

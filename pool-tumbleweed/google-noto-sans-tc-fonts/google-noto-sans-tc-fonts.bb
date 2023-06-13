@@ -16,6 +16,7 @@ noto-sans-cjktc \
 noto-sans-cjktc-fonts \
 noto-sans-tc-fonts \
 scalable-font-zh-TW"
+
 RDEPENDS:${PN} += "google-noto-sans-tc-bold-fonts \
 google-noto-sans-tc-regular-fonts"
 

@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(splitidx.sty) \
 tex(splitindex.tex) \
 texlive-splitindex"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/texlua \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-itemloaders \
 python3.10dist(itemloaders) \
 python310-itemloaders \
 python3dist(itemloaders)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-itemadapter \
 python310-jmespath \

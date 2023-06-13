@@ -11,6 +11,7 @@ RPM_HASH = "1a0dff5e625bd82ac3d13612c0d237690805fc2e7f768e04d92d4f32e2d855358364
 RPROVIDES:${PN} += "leechcraft-lmp-httstream \
 leechcraft-lmp-httstream(aarch-64) \
 libleechcraft_lmp_httstream.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-lmp \

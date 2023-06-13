@@ -9,6 +9,7 @@ RPM_HASH = "bf779eef1e7e3ff05c802dfe188b212e01e4286ca13d82cb8aaf4a23c84fab1775b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xfdashboard-themes"
+
 RDEPENDS:${PN} += "xfdashboard"
 
 inherit rpm

@@ -15,6 +15,7 @@ tex(biblatex-cv.bbx) \
 tex(biblatex-cv.cbx) \
 tex(biblatex-cv.sty) \
 texlive-biblatex-cv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

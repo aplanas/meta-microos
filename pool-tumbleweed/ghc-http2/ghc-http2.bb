@@ -10,6 +10,7 @@ RPM_HASH = "b383b05883c0044a8deb8d18f5904ef1cc940bed1ecb441ff71e42bb03bc955f8ea2
 RPROVIDES:${PN} += "ghc-http2 \
 ghc-http2(aarch-64) \
 libHShttp2-3.0.3-g8K2coD7lK8bFd8vR2MQJ-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so()(64bit) \
 libHSauto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ-ghc9.4.5.so()(64bit) \

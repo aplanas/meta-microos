@@ -10,6 +10,7 @@ RPM_HASH = "fd6fd545a263fd30e6e4ca87c6c266d7ba49f5d49e45d65b8a3dd095a9d11cacf838
 RPROVIDES:${PN} += "config(restorecond) \
 restorecond \
 restorecond(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

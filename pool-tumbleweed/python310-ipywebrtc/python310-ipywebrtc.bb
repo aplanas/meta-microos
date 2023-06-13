@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-ipywebrtc \
 python3.10dist(ipywebrtc) \
 python310-ipywebrtc \
 python3dist(ipywebrtc)"
+
 RDEPENDS:${PN} += "jupyter-ipywebrtc \
 python(abi) \
 python310-ipywidgets"

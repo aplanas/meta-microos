@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(uwa-letterhead.sty) \
 texlive-uwa-letterhead"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

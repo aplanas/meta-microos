@@ -14,6 +14,7 @@ RPM_HASH = "aa7fb74990cdf6257ec6e089164806d604101795094295aea2ff17660af1dc8e1408
 RPROVIDES:${PN} += "cups-devel \
 cups-devel(aarch-64) \
 pkgconfig(cups)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cups-rpm-helper \
 glibc-devel \

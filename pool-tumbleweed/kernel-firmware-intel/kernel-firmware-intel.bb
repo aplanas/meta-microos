@@ -26,6 +26,7 @@ firmware(qat_c62x.bin) \
 firmware(qat_c62x_mmp.bin) \
 firmware(qat_mmp.bin) \
 kernel-firmware-intel"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(svg-schema) \
 svg-dtd \
 svg-schema"
+
 RDEPENDS:${PN} += "/bin/sh \
 libxml2-tools \
 sgml-skel"

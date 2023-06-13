@@ -10,6 +10,7 @@ RPM_HASH = "74180d451e1ed7701a75ae9a45c2ef2b40b6a6fbbd6159ab24181348b631e331281f
 
 RPROVIDES:${PN} += "compface-devel \
 compface-devel(aarch-64)"
+
 RDEPENDS:${PN} += "compface"
 
 inherit rpm

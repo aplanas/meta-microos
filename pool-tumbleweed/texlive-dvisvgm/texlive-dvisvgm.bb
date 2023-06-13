@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(dvisvgm.1) \
 texlive-dvisvgm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

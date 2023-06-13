@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(newvbtm.sty) \
 tex(varvbtm.sty) \
 texlive-newvbtm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

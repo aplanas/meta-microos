@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(grommunio-web) \
 grommunio-web"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 gromox \

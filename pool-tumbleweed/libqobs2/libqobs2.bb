@@ -10,6 +10,7 @@ RPM_HASH = "c382894f7644dbdd3a66e0745edd4fccfb2554514c8a0e8024e35c0a70457e528e91
 RPROVIDES:${PN} += "libqobs.so.2()(64bit) \
 libqobs2 \
 libqobs2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

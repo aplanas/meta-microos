@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-jsonschema-objects) \
 python39-python-jsonschema-objects \
 python3dist(python-jsonschema-objects)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Markdown \
 python39-inflection \

@@ -37,6 +37,7 @@ tex(21-IU8-math.sty) \
 tex(22-IU8-algorithms.sty) \
 tex(BMSTU-IU8.cls) \
 texlive-bmstu-iu8"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

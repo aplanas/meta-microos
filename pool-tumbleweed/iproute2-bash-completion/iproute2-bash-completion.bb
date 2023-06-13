@@ -9,6 +9,7 @@ RPM_HASH = "afd881c5374c16b0f46e02f818993bea4b729db8a9a57746de2c32c8f8802365b956
 
 RPROVIDES:${PN} += "iproute2-bash-completion \
 iproute2-bash-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash-completion \
 iproute2"
 

@@ -16,6 +16,7 @@ libISOIR165.so()(64bit) \
 libJIS.so()(64bit) \
 libJISX0213.so()(64bit) \
 libKSC.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/cat \
 /bin/sh \
 glibc \

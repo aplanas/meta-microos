@@ -15,6 +15,7 @@ RPM_HASH = "83b64646ba89922552914a7d4d3c22f9839f1d17efcbdfe0c158b1009a4101f1d128
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuradio-doc"
+
 RDEPENDS:${PN} += "gnuradio"
 
 inherit rpm

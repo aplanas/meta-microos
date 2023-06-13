@@ -16,6 +16,7 @@ RPM_HASH = "747912d25a0899c3a85e9ecc92b89ac2742181c448a2fc1b753309f9da0f872a17cc
 RPROVIDES:${PN} += "libsrtp2-linphone.so.1()(64bit) \
 libsrtp2-linphone1 \
 libsrtp2-linphone1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

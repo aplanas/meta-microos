@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-jupyterlab-pygments \
 python3.10dist(jupyterlab-pygments) \
 python310-jupyterlab-pygments \
 python3dist(jupyterlab-pygments)"
+
 RDEPENDS:${PN} += "jupyter-jupyterlab-pygments \
 python(abi) \
 python310-pygments"

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-looseversion \
 python3.10dist(looseversion) \
 python310-looseversion \
 python3dist(looseversion)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

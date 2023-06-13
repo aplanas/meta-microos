@@ -19,6 +19,7 @@ mvn(net.sf.supercsv:super-csv:pom:) \
 osgi(net.sf.supercsv.super-csv) \
 osgi(net.sf.supercsv.super-csv-java8) \
 super-csv"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

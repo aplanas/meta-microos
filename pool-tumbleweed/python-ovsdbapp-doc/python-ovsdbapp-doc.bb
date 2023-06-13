@@ -9,6 +9,7 @@ RPM_HASH = "c6e9de884ebe4b2f69f16128c9e6452a169d911c8ce32d6ef051a1ea7311e9cb0e56
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-ovsdbapp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

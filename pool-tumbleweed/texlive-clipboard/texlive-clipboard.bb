@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(clipboard.sty) \
 texlive-clipboard"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

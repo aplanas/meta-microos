@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5WebView) \
 libqt5-qtwebview-devel \
 libqt5-qtwebview-devel(aarch-64) \
 pkgconfig(Qt5WebView)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5WebView5 \
 pkgconfig(Qt5Core) \

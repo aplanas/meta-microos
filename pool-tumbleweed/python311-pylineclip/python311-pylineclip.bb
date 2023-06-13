@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pylineclip) \
 python311-pylineclip \
 python3dist(pylineclip)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

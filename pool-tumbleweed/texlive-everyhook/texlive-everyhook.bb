@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(everyhook.sty) \
 texlive-everyhook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

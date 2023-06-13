@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-ntfy \
 python3.10dist(ntfy) \
 python310-ntfy \
 python3dist(ntfy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

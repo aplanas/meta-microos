@@ -14,6 +14,7 @@ pkgconfig(libcrypto) \
 pkgconfig(libssl) \
 pkgconfig(openssl) \
 ssl-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenssl1_0_0 \
 pkgconfig(libcrypto) \

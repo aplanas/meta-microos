@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(llmk.1) \
 texlive-light-latex-make-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

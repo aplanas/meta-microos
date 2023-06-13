@@ -41,6 +41,7 @@ RPROVIDES:${PN} += "perl(WWW::RobotRules) \
 perl(WWW::RobotRules::AnyDBM_File) \
 perl(WWW::RobotRules::InCore) \
 perl-WWW-RobotRules"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(URI)"
 

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(Biochemistry-colors.sty) \
 texlive-biochemistry-colors"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

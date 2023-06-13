@@ -13,6 +13,7 @@ RPM_HASH = "750b19c1e2364b13bc9c6bbf8fda06c3fc8d5ffecc927e96f6d49327481fbc939292
 RPROVIDES:${PN} += "libpeas-loader-python3 \
 libpeas-loader-python3(aarch-64) \
 libpython3loader.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

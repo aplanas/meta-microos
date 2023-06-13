@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "belle-sip-devel \
 belle-sip-devel(aarch-64) \
 cmake(BelleSIP) \
 pkgconfig(belle-sip)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

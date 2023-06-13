@@ -12,6 +12,7 @@ RPM_HASH = "b93639162e27385ad5feea20ba74eb6235d4058f32b8d8d66b83fffceed3d266a734
 
 RPROVIDES:${PN} += "gnome-menus \
 gnome-menus(aarch-64)"
+
 RDEPENDS:${PN} += "gnome-menus-branding"
 
 inherit rpm

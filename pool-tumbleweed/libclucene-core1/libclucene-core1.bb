@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libclucene-core.so.1()(64bit) \
 libclucene-core1 \
 libclucene-core1(aarch-64) \
 libclucene2"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

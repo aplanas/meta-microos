@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-axolotl) \
 python311-axolotl \
 python3dist(python-axolotl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-axolotl-curve25519 \
 python311-cryptography \

@@ -15,6 +15,7 @@ RPM_HASH = "42e18476dfae0f20f1ca4b36127014d752587cad27048b935eaec1f085a6069738f4
 
 RPROVIDES:${PN} += "wiggle \
 wiggle(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

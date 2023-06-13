@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-cacheops) \
 python311-django-cacheops \
 python3dist(django-cacheops)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-django \
 python311-funcy \

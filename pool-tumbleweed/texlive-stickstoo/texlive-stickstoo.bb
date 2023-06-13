@@ -563,6 +563,7 @@ tex(stx2_ym7moh.enc) \
 tex(stx2_zscetg.enc) \
 tex(stx2i-ot1.enc) \
 texlive-stickstoo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "6641efb3a2fb9c5e4bde303d664cf9778418dc01be05df58dd041c1f4b0e2b3f2ed0
 RPROVIDES:${PN} += "gmime-devel \
 gmime-devel(aarch-64) \
 pkgconfig(gmime-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgmime-3_0-0 \
 pkgconfig(gio-2.0) \

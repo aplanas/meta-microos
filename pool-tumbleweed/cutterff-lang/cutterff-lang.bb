@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cutterff-lang \
 cutterff-lang-all \
 locale(cutterff:de)"
+
 RDEPENDS:${PN} += "cutterff"
 
 inherit rpm

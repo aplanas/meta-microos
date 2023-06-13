@@ -12,6 +12,7 @@ RPM_HASH = "4618b991190f476337ae63d675561b7bf376b53e656c981ff9da1a6153c1086d80bf
 RPROVIDES:${PN} += "libxtables.so.12()(64bit) \
 libxtables12 \
 libxtables12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "120c932b47d0235a5f677085841d235a9d43c8e683eac73ce1eb73818953381e8e53
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libboost_serialization-devel"
+
 RDEPENDS:${PN} += "libboost_serialization1_82_0-devel"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "3660fa6728e87926f775fbf1aeb422c717ffe85a8753e5cb55d514effecb6c4209a3
 RPROVIDES:${PN} += "python3-PyQt6-DataVisualization-devel \
 python310-PyQt6-DataVisualization-devel \
 python310-PyQt6-DataVisualization-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyQt6-devel"
 

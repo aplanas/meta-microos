@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(table-fct.sty) \
 texlive-table-fct"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

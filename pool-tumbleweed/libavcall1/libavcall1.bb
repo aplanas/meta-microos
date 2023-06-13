@@ -13,6 +13,7 @@ RPM_HASH = "15df892ee02ad644ce6b561cd0ab05318313b5e0ccf2d076d5267f8aae161ebc86be
 RPROVIDES:${PN} += "libavcall.so.1()(64bit) \
 libavcall1 \
 libavcall1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

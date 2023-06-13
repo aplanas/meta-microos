@@ -12,6 +12,7 @@ RPM_HASH = "afc3fdd92ac2c1926049ea4760ffc92cafa3234db253009cebfdb45738dfa27498c3
 RPROVIDES:${PN} += "typelib(Devhelp) \
 typelib-1_0-Devhelp-3_0 \
 typelib-1_0-Devhelp-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libdevhelp-3.so.6()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

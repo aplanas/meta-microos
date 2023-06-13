@@ -19,6 +19,7 @@ RPM_HASH = "3ddff5f929903fa4a8fdfeeac910c34880000b0eac6d811195a83e90ab70fc34def4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-go-source"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3"

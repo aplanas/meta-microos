@@ -11,6 +11,7 @@ RPM_HASH = "267c4a314c435ee73389d12bca789dc42bff8095162b95971f3fc6ecccdab4b41650
 
 RPROVIDES:${PN} += "slurm-hdf5 \
 slurm-hdf5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -16,6 +16,7 @@ RPM_HASH = "ac729d5764c2f8be436dd8499fa66d1ac643af4ab5a39aca51580749a9ae48ac29e2
 RPROVIDES:${PN} += "cvsps \
 cvsps(aarch-64) \
 cvsps2"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

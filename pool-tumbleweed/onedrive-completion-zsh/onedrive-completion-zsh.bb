@@ -9,6 +9,7 @@ RPM_HASH = "aaa3c1e51b8edd561b2d7d0f9ebc1f2bce60435cfc87e6e75babf7557977d65e84f1
 
 RPROVIDES:${PN} += "onedrive-completion-zsh \
 onedrive-completion-zsh(aarch-64)"
+
 RDEPENDS:${PN} += "zsh"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "476193039889983818bd27735d0c503f736f00905cdc4db74a62e1d0cd150f73533a
 
 RPROVIDES:${PN} += "yara \
 yara(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

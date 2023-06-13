@@ -9,6 +9,7 @@ RPM_HASH = "399e1f1b897f356002c8608c6634f27d406f503319f0ef131f3580f9a099e1bbfec1
 
 RPROVIDES:${PN} += "libvpl-samples \
 libvpl-samples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

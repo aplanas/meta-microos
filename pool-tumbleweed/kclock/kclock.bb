@@ -14,6 +14,7 @@ kclock(aarch-64) \
 metainfo() \
 metainfo(org.kde.kclock.appdata.xml) \
 metainfo(org.kde.plasma.kclock_1x2.appdata.xml)"
+
 RDEPENDS:${PN} += "kirigami-addons \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

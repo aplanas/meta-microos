@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-gTTS-token \
 python3.10dist(gtts-token) \
 python310-gTTS-token \
 python3dist(gtts-token)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

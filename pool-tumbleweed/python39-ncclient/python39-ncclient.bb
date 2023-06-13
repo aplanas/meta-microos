@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ncclient) \
 python39-ncclient \
 python3dist(ncclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-lxml \
 python39-paramiko \

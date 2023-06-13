@@ -30,6 +30,7 @@ tex(pocoec.cls) \
 tex(regstud.cls) \
 tex(worlddev.cls) \
 texlive-economic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -29,6 +29,7 @@ RPM_HASH = "dbe20e989fc2aa9b00a24db69d61fa250d3052b28ac8664756134e1c2b3d00c6d569
 RPROVIDES:${PN} += "irssi-otr \
 irssi-otr(aarch-64) \
 libotr.so()(64bit)"
+
 RDEPENDS:${PN} += "irssi \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

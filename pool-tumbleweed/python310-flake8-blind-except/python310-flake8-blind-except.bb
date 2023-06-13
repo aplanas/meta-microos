@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flake8-blind-except \
 python3.10dist(flake8-blind-except) \
 python310-flake8-blind-except \
 python3dist(flake8-blind-except)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

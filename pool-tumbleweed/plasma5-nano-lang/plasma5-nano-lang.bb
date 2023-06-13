@@ -49,6 +49,7 @@ locale(plasma5-nano:zh_CN) \
 locale(plasma5-nano:zh_TW) \
 plasma5-nano-lang \
 plasma5-nano-lang-all"
+
 RDEPENDS:${PN} += "plasma5-nano"
 
 inherit rpm

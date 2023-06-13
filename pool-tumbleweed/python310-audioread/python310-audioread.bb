@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-audioread \
 python3.10dist(audioread) \
 python310-audioread \
 python3dist(audioread)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-czifile \
 python3.10dist(czifile) \
 python310-czifile \
 python3dist(czifile)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

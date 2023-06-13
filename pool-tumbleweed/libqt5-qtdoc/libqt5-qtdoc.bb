@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "libqt5-qtcharts-docs \
 libqt5-qtdatavis3d-docs \
 libqt5-qtdoc"
+
 RDEPENDS:${PN} += "libqt5-qtdoc-html \
 libqt5-qtdoc-qch"
 

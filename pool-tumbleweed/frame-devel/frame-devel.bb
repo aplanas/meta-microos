@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "frame-devel \
 frame-devel(aarch-64) \
 pkgconfig(frame) \
 pkgconfig(frame-x11)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 frame \
 libframe6"

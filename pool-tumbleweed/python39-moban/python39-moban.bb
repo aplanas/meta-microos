@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(moban) \
 python39-moban \
 python3dist(moban)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 git-core \

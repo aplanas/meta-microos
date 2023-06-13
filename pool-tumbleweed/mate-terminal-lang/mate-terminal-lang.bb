@@ -102,6 +102,7 @@ locale(mate-terminal:zh_HK) \
 locale(mate-terminal:zh_TW) \
 mate-terminal-lang \
 mate-terminal-lang-all"
+
 RDEPENDS:${PN} += "mate-terminal"
 
 inherit rpm

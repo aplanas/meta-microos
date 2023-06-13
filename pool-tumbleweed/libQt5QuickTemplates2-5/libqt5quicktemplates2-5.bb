@@ -28,6 +28,7 @@ libQt5QuickTemplates2.so.5(Qt_5.6)(64bit) \
 libQt5QuickTemplates2.so.5(Qt_5.7)(64bit) \
 libQt5QuickTemplates2.so.5(Qt_5.8)(64bit) \
 libQt5QuickTemplates2.so.5(Qt_5.9)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

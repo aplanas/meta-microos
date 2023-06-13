@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(pytest-astropy-header) \
 python39-pytest-astropy-header \
 python39-pytest_astropy_header \
 python3dist(pytest-astropy-header)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pytest"
 

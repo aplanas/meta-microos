@@ -13,6 +13,7 @@ RPM_HASH = "7d0f45440bad6ac5292c8cd762552bfbd1d1caf99fea451d9390ca28c27ccc74be37
 RPROVIDES:${PN} += "libvisio-devel \
 libvisio-devel(aarch-64) \
 pkgconfig(libvisio-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvisio-0_1-1 \
 pkgconfig(icu-i18n) \

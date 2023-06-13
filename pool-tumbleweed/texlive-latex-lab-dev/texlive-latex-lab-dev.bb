@@ -21,6 +21,7 @@ texdev(latex-lab-testphase-new-or-2.sty) \
 texdev(latex-lab-testphase-sec-tagging.sty) \
 texdev(latex-lab-testphase-toc-tagging.sty) \
 texlive-latex-lab-dev"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

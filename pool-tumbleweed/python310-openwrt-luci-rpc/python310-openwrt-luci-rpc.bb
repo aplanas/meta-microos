@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-openwrt-luci-rpc \
 python3.10dist(openwrt-luci-rpc) \
 python310-openwrt-luci-rpc \
 python3dist(openwrt-luci-rpc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click \
 python310-packaging \

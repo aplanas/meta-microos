@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "mingw32(libgcc_s_sjlj-1.dll) \
 mingw32-libgcc \
 mingw32-libgcc_s_sjlj1 \
 mingw32-libgcc_s_sjlj1(aarch-64)"
+
 RDEPENDS:${PN} += "mingw32(libwinpthread-1.dll)"
 
 inherit rpm

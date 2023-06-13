@@ -10,6 +10,7 @@ RPM_HASH = "fe37be10835f4e4e111f91363c4aecf84281f4f56bd55aaa7d0364e04f3bba984c9a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-schema-collection"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

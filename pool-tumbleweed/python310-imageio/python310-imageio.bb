@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-imageio \
 python3.10dist(imageio) \
 python310-imageio \
 python3dist(imageio)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -14,6 +14,7 @@ RPM_HASH = "89184cbf844aaa0862b9785ec94ab4141e1baba5140449c33d4209c1667406d26f91
 
 RPROVIDES:${PN} += "bulk_extractor \
 bulk_extractor(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

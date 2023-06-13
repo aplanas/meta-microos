@@ -139,6 +139,7 @@ font(txsyc) \
 font(txtt) \
 font(txttsc) \
 texlive-txfonts-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

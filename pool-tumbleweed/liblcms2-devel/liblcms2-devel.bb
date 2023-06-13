@@ -11,6 +11,7 @@ RPM_HASH = "f88620ee62c39d368639aafe7838844bd79f58c1c79d5a4265cdd4373ff53e7d9bba
 RPROVIDES:${PN} += "liblcms2-devel \
 liblcms2-devel(aarch-64) \
 pkgconfig(lcms2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 liblcms2-2"

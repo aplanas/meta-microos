@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "indriya \
 mvn(tech.units:indriya) \
 mvn(tech.units:indriya:pom:) \
 osgi(tech.units.indriya)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.measure:unit-api) \

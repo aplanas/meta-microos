@@ -15,6 +15,7 @@ RPM_HASH = "233f1003d08142d96b4df902e49ca5e526ee66b7272438ce72c70f3024d6f3a862e5
 RPROVIDES:${PN} += "libxkbcommon-x11-devel \
 libxkbcommon-x11-devel(aarch-64) \
 pkgconfig(xkbcommon-x11)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxkbcommon-x11-0 \
 pkgconfig(xcb) \

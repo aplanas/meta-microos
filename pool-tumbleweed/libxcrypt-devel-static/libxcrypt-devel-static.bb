@@ -12,6 +12,7 @@ RPM_HASH = "9626d0c4d5f9564912c7a60edba72c971380cf12c5e2966ddec7e3e7ce6057888626
 RPROVIDES:${PN} += "glibc-devel-static:/usr/lib64/libcrypt.a \
 libxcrypt-devel-static \
 libxcrypt-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel-static \
 libxcrypt-devel"
 

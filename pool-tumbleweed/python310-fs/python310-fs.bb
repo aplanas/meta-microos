@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-fs \
 python3.10dist(fs) \
 python310-fs \
 python3dist(fs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-appdirs \
 python310-psutil \

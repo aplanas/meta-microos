@@ -13,6 +13,7 @@ RPM_HASH = "e7a136bbaa5cf6f1d7872be2ac326e99342c33d71bfe02a4d25a80af4c6bac0b2ed1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtkwave-doc"
+
 RDEPENDS:${PN} += "gtkwave"
 
 inherit rpm

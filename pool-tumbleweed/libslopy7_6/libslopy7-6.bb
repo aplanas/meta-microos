@@ -11,6 +11,7 @@ RPM_HASH = "aedf076351745b628be7baf7232017dcd3fd9c277d146e91c6493f2fdcd555204d44
 RPROVIDES:${PN} += "libslopy.so.7.6()(64bit) \
 libslopy7_6 \
 libslopy7_6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

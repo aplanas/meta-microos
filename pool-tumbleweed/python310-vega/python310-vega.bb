@@ -17,6 +17,7 @@ python3.10dist(vega) \
 python310-jupyter_vega \
 python310-vega \
 python3dist(vega)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ipytablewidgets \
 python310-jupyter \

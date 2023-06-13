@@ -16,6 +16,7 @@ RPM_HASH = "849bf7a5a0868fcaf6d4ba0b55cafdf8970a90769c8b3c35a957ad257b972a954a98
 RPROVIDES:${PN} += "ghc-bsb-http-chunked \
 ghc-bsb-http-chunked(aarch-64) \
 libHSbsb-http-chunked-0.0.0.4-7TdDxnBU7De3tUquWdckvl-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

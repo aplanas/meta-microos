@@ -10,6 +10,7 @@ RPM_HASH = "00dc907215e930bf2b8c8b2d38896311661c82bd48f3dceeae76933c5ebfba1d304d
 RPROVIDES:${PN} += "libappstream.so.4()(64bit) \
 libappstream4 \
 libappstream4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

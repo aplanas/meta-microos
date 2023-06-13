@@ -10,6 +10,7 @@ RPM_HASH = "fa2eb20627bcaa7688ac3f5c63e62fe5fd348aed88d467e368d0b805ccd041aa267f
 RPROVIDES:${PN} += "liblto_plugin.so()(64bit) \
 mingw64-cross-gcc \
 mingw64-cross-gcc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

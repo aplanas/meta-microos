@@ -26,6 +26,7 @@ pkgconfig(cairo-xcb) \
 pkgconfig(cairo-xcb-shm) \
 pkgconfig(cairo-xlib) \
 pkgconfig(cairo-xlib-xrender)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcairo-gobject2 \
 libcairo-script-interpreter2 \

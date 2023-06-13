@@ -18,6 +18,7 @@ tex(hyph-el-polyton.tex) \
 tex(loadhyph-el-monoton.tex) \
 tex(loadhyph-el-polyton.tex) \
 texlive-hyphen-greek"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

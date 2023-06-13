@@ -10,6 +10,7 @@ RPM_HASH = "417fb41b55ee8582105ada6d51cc4d4596a4e1814c520fe652459a79215c3512e57e
 RPROVIDES:${PN} += "cross-rx-gcc12 \
 cross-rx-gcc12(aarch-64) \
 rx-elf-gcc"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-rx-binutils \
 libstdc++6-devel-gcc12 \

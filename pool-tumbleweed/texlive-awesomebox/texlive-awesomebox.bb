@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(awesomebox.sty) \
 texlive-awesomebox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

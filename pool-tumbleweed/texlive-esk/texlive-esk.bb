@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(esk.sty) \
 texlive-esk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-skyfield \
 python3.10dist(skyfield) \
 python310-skyfield \
 python3dist(skyfield)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-astropy \
 python310-beautifulsoup4 \

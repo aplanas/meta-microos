@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pgf-umlsd.sty) \
 texlive-pgf-umlsd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

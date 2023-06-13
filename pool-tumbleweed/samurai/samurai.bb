@@ -14,6 +14,7 @@ RPM_HASH = "7dad005c9db0a59f041588ee14b85b30545336ded92b3b15967496e5ff6755ed175e
 
 RPROVIDES:${PN} += "samurai \
 samurai(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

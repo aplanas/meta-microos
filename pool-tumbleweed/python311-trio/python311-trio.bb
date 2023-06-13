@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(trio) \
 python311-trio \
 python3dist(trio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-async_generator \
 python311-attrs \

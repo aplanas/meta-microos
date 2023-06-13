@@ -15,6 +15,7 @@ RPM_HASH = "e7e8a79fe201770db1e2b2ec30af6c2d2114f544b0c1e3a702164a7c62b7d698d427
 RPROVIDES:${PN} += "typelib(GnomeKeyring) \
 typelib-1_0-GnomeKeyring-1_0 \
 typelib-1_0-GnomeKeyring-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgnome-keyring.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

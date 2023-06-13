@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(aalok.cls) \
 texlive-aalok"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

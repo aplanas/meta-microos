@@ -11,6 +11,7 @@ RPM_HASH = "b71be967494bf16a819acffa5e50a0e0c2bb2548c79c9930c08173a6b7b5779a6740
 RPROVIDES:${PN} += "libdbusmenu-jsonloader.so.4()(64bit) \
 libdbusmenu-jsonloader4 \
 libdbusmenu-jsonloader4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

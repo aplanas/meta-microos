@@ -13,6 +13,7 @@ RPM_HASH = "7fbe2fa7b5236d12085b19f64e43ee38d36fe44ac2bc13ae94239308c91f01586eb1
 
 RPROVIDES:${PN} += "libsmputils-devel \
 libsmputils-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsmputils1-1"
 
 inherit rpm

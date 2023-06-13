@@ -9,6 +9,7 @@ RPM_HASH = "9e4664caf6362b56d14493fbe3d556fbb4208e00c946a566364181ebd1e2a05b1782
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-drawstack-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

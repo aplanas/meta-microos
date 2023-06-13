@@ -11,6 +11,7 @@ RPM_HASH = "51b7b4c34d02a67331605306e20fc5fcf64605c206c4aec8a2dbfe51a35de862cbb7
 RPROVIDES:${PN} += "cmake(KF5Declarative) \
 kdeclarative-devel \
 kdeclarative-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Config) \
 cmake(KF5CoreAddons) \
 cmake(KF5Package) \

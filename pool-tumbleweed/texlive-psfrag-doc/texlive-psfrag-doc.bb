@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-psfrag-doc:en) \
 texlive-psfrag-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

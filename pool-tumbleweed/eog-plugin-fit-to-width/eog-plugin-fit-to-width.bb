@@ -13,6 +13,7 @@ eog-plugins:/usr/lib64/eog/plugins/fit-to-width.plugin \
 libfit-to-width.so()(64bit) \
 metainfo() \
 metainfo(eog-fit-to-width.appdata.xml)"
+
 RDEPENDS:${PN} += "eog-plugins-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

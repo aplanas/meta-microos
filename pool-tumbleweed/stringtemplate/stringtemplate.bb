@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.antlr:stringtemplate) \
 mvn(org.antlr:stringtemplate:pom:) \
 stringtemplate"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(antlr:antlr)"

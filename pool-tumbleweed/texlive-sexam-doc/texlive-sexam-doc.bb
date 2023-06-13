@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-sexam-doc:ar-dz) \
 texlive-sexam-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "b19fd938d6482ea4629be8add46d34e04a08e2d5e428ff1faf9a904d8c7be6c230e2
 RPROVIDES:${PN} += "libbreezecommon5-5 \
 libbreezecommon5-5(aarch-64) \
 libbreezecommon5.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nginx-source \
 perl(nginx)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 gcc-c++ \

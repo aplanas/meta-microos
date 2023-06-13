@@ -11,6 +11,7 @@ RPM_HASH = "78f795b122e73e5ac63c265d9d7e7add81d923fc3a3eeec1111941f7eda551d54dd3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuprumcu"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

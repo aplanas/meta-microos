@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(njurepo.cls) \
 texlive-njurepo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

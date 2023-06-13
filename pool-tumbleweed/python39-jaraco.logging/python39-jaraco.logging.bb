@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jaraco.logging) \
 python39-jaraco.logging \
 python3dist(jaraco.logging)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-tempora"
 

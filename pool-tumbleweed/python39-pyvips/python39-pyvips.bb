@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyvips) \
 python39-pyvips \
 python3dist(pyvips)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cffi"
 

@@ -9,6 +9,7 @@ RPM_HASH = "5cc4d6c6d4f5bfe1c367545775a6fa90c482236add04c5bbe2747bddb3fe393bdfd9
 
 RPROVIDES:${PN} += "supercollider-sc3-plugins \
 supercollider-sc3-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

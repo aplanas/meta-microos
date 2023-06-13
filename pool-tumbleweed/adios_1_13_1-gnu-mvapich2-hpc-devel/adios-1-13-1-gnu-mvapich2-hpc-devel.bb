@@ -14,6 +14,7 @@ RPM_HASH = "92da416e563d2c3aac9291cd49d4b04813d0a8bdf329a44a3075df3f6010951cf940
 
 RPROVIDES:${PN} += "adios_1_13_1-gnu-mvapich2-hpc-devel \
 adios_1_13_1-gnu-mvapich2-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "adios_1_13_1-gnu-mvapich2-hpc \
 adios_1_13_1-gnu-mvapich2-hpc-devel-static \
 gnu-compilers-hpc-devel \

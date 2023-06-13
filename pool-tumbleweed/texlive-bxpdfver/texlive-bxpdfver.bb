@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bxpdfver.sty) \
 texlive-bxpdfver"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

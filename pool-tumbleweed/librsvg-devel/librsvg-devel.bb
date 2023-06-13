@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "librsvg-devel \
 librsvg-devel(aarch-64) \
 librsvg2-devel \
 pkgconfig(librsvg-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librsvg-2-2 \
 pkgconfig(cairo) \

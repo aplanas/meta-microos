@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(azure-storage) \
 python311-azure-sdk-storage \
 python311-azure-storage \
 python3dist(azure-storage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-nspkg \

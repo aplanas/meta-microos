@@ -11,6 +11,7 @@ RPM_HASH = "8fc2f281f92afef1abd4724c23ababcd9b8de91966d75f06f966bb225474808db603
 RPROVIDES:${PN} += "libestr-devel \
 libestr-devel(aarch-64) \
 pkgconfig(libestr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libestr0"
 

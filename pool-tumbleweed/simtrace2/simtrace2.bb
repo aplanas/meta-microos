@@ -13,6 +13,7 @@ RPM_HASH = "e0eb86ae1cd94d4b7fdb3674a53ebbd4194a59e9745a3a3c9873f81ce8a11afe6369
 
 RPROVIDES:${PN} += "simtrace2 \
 simtrace2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

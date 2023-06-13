@@ -13,6 +13,7 @@ RPM_HASH = "8e70bcbcc763c754240414e163eb0e13ef1e60d763f1a419f0b326a9f3e4b10848f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kaytannollista-latexia"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

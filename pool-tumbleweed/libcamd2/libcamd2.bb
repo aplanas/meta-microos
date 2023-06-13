@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libcamd-2_4_6 \
 libcamd.so.2()(64bit) \
 libcamd2 \
 libcamd2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libm.so.6()(64bit) \

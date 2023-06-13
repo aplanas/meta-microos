@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "perl(Test::Class) \
 perl(Test::Class::Load) \
 perl(Test::Class::MethodInfo) \
 perl-Test-Class"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(MRO::Compat) \
 perl(Module::Runtime) \

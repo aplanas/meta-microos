@@ -13,6 +13,7 @@ application(xfce4-session-logout.desktop) \
 config(xfce4-session) \
 xfce4-session \
 xfce4-session(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 iceauth \
 ld-linux-aarch64.so.1()(64bit) \

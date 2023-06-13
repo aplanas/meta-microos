@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ocrb.map) \
 texlive-ocr-b-outline"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

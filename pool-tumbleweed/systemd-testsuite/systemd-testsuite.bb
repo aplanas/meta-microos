@@ -26,6 +26,7 @@ RPM_HASH = "ac6b45c2b6cf2982950a509ef1c9eec29879738c51ab2e90a259df790f4cd216225a
 
 RPROVIDES:${PN} += "systemd-testsuite \
 systemd-testsuite(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(inflate64) \
 python311-inflate64 \
 python311-inflate64(aarch-64) \
 python3dist(inflate64)"
+
 RDEPENDS:${PN} += "(python311-importlib_metadata if python311-base < 3.8) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

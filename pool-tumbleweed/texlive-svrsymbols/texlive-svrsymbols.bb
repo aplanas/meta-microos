@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(SVRsymbols.tfm) \
 tex(svrsymbols.map) \
 tex(svrsymbols.sty) \
 texlive-svrsymbols"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

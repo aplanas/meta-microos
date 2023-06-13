@@ -62,6 +62,7 @@ locale(libgda-6_0-6_0_0:vi) \
 locale(libgda-6_0-6_0_0:zh_CN) \
 locale(libgda-6_0-6_0_0:zh_HK) \
 locale(libgda-6_0-6_0_0:zh_TW)"
+
 RDEPENDS:${PN} += "libgda-6_0-6_0_0"
 
 inherit rpm

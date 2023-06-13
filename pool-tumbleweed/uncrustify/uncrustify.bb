@@ -22,6 +22,7 @@ RPM_HASH = "26e6bf883493fddc9bce26cf44965b709838cfd687fb51c48abf4e2a93a364401b1e
 
 RPROVIDES:${PN} += "uncrustify \
 uncrustify(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

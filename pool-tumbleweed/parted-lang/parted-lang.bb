@@ -39,6 +39,7 @@ locale(parted:zh_CN) \
 locale(parted:zh_TW) \
 parted-lang \
 parted-lang-all"
+
 RDEPENDS:${PN} += "parted"
 
 inherit rpm

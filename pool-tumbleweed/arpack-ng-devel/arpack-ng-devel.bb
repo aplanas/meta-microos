@@ -14,6 +14,7 @@ arpack-ng-devel(aarch-64) \
 cmake(arpackng) \
 pkgconfig(arpack) \
 pkgconfig(arpackSolver)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 blas-devel \
 gcc-fortran \

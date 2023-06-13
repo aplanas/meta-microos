@@ -13,6 +13,7 @@ ocaml-easy-format-devel \
 ocaml-easy-format-devel(aarch-64) \
 ocamlfind(easy-format) \
 ocamlx(Easy_format)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Buffer) \

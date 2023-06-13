@@ -109,6 +109,7 @@ tex(clr_lz5qp4.enc) \
 tex(clr_nrghxx.enc) \
 tex(clr_zxbkm4.enc) \
 texlive-clearsans"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

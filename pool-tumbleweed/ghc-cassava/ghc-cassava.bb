@@ -32,6 +32,7 @@ RPM_HASH = "b220f6bbb35ad6b7f31f8ca189786866c38ba98ec7df278622566ee71c2eae4135ce
 RPROVIDES:${PN} += "ghc-cassava \
 ghc-cassava(aarch-64) \
 libHScassava-0.5.3.0-6nKMpykUjDPH1yduUJ1iAD-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOnly-0.1-ETd5YCT0TwGLbN8rgpgTS8-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \

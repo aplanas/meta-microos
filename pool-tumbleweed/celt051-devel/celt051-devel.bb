@@ -13,6 +13,7 @@ RPM_HASH = "13baa37ba7c742d1904f265ed3d9980760f74ada862134f09f9401c033dcd2a8e267
 RPROVIDES:${PN} += "celt051-devel \
 celt051-devel(aarch-64) \
 pkgconfig(celt051)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcelt051-0"
 

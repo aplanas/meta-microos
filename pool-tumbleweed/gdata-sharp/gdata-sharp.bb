@@ -25,6 +25,7 @@ mono(Google.GData.Health) \
 mono(Google.GData.Photos) \
 mono(Google.GData.Spreadsheets) \
 mono(Google.GData.YouTube)"
+
 RDEPENDS:${PN} += "mono(System) \
 mono(System.Web) \
 mono(System.Xml) \

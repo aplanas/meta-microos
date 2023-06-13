@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(liturg.sty) \
 texlive-liturg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

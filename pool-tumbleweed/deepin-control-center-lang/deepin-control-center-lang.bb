@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-control-center-lang \
 deepin-control-center-lang-all"
+
 RDEPENDS:${PN} += "deepin-control-center"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "3dc5437c7911a6d03b2fb7f7e7ed7d0b4d7be77279bd5e9157893883ea8e7be3a3e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-table-fct-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

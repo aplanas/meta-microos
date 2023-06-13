@@ -82,6 +82,7 @@ locale(lightdm:vi) \
 locale(lightdm:zh_CN) \
 locale(lightdm:zh_HK) \
 locale(lightdm:zh_TW)"
+
 RDEPENDS:${PN} += "lightdm"
 
 inherit rpm

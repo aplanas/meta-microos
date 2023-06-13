@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:warden:1) \
 rubygem(ruby:3.2.0:warden:1.2) \
 rubygem(ruby:3.2.0:warden:1.2.9) \
 rubygem(warden)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:rack)"
 

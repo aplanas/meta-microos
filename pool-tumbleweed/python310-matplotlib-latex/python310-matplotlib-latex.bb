@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-matplotlib-latex \
 python310-matplotlib-latex"
+
 RDEPENDS:${PN} += "python310-matplotlib \
 tex(avant.sty) \
 tex(chancery.sty) \

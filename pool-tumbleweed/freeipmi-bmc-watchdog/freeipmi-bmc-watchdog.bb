@@ -9,6 +9,7 @@ RPM_HASH = "a3bc6b9b6f102eb88c9809c81a9737e3941e781c032d2abd02de7cdd2bd80a76eba0
 
 RPROVIDES:${PN} += "freeipmi-bmc-watchdog \
 freeipmi-bmc-watchdog(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

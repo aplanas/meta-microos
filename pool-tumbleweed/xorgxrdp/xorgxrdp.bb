@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "config(xorgxrdp) \
 libxorgxrdp.so()(64bit) \
 xorgxrdp \
 xorgxrdp(aarch-64)"
+
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 X11_ABI_XINPUT \
 ld-linux-aarch64.so.1()(64bit) \

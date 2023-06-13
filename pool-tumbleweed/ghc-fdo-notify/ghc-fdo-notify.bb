@@ -12,6 +12,7 @@ RPM_HASH = "4653e11a8407f9f83f8a734be1105605da7d3199d0f6bbc00de366c3d479dcbe4d21
 RPROVIDES:${PN} += "ghc-fdo-notify \
 ghc-fdo-notify(aarch-64) \
 libHSfdo-notify-0.3.1-4juugYyFrKwHiJsjcNjTJW-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \
 libHSadjunctions-4.4.2-7RBwcclil4HKBSm6i086HA-ghc9.4.5.so()(64bit) \

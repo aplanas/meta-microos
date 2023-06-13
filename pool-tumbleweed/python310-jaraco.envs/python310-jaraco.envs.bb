@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jaraco.envs \
 python3.10dist(jaraco.envs) \
 python310-jaraco.envs \
 python3dist(jaraco.envs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-path \
 python310-virtualenv"

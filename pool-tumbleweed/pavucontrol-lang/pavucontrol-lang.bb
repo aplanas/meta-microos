@@ -60,6 +60,7 @@ locale(pavucontrol:zh_CN) \
 locale(pavucontrol:zh_TW) \
 pavucontrol-lang \
 pavucontrol-lang-all"
+
 RDEPENDS:${PN} += "pavucontrol"
 
 inherit rpm

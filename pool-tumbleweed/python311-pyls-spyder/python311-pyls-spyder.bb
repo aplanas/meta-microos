@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyls-spyder) \
 python311-pyls-spyder \
 python3dist(pyls-spyder)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-python-lsp-server"
 

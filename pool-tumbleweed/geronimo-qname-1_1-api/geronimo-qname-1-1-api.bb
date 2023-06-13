@@ -14,6 +14,7 @@ mvn(org.apache.geronimo.specs:geronimo-qname_1.1_spec) \
 mvn(org.apache.geronimo.specs:geronimo-qname_1.1_spec:pom:) \
 qname_1_1_api \
 qname_api"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

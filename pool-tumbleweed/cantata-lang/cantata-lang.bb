@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cantata-lang \
 cantata-lang-all"
+
 RDEPENDS:${PN} += "cantata"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "mozilla-nss-devel \
 mozilla-nss-devel(aarch-64) \
 pkgconfig(nss) \
 pkgconfig(nss-util)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libfreebl3 \

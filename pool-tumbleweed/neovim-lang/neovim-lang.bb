@@ -32,6 +32,7 @@ locale(neovim:uk) \
 locale(neovim:vi) \
 neovim-lang \
 neovim-lang-all"
+
 RDEPENDS:${PN} += "neovim"
 
 inherit rpm

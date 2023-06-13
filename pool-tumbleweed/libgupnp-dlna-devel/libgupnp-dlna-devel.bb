@@ -13,6 +13,7 @@ libgupnp-dlna-devel(aarch-64) \
 pkgconfig(gupnp-dlna-2.0) \
 pkgconfig(gupnp-dlna-gst-2.0) \
 pkgconfig(gupnp-dlna-metadata-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgupnp-dlna-2_0-4 \
 pkgconfig(gio-2.0) \

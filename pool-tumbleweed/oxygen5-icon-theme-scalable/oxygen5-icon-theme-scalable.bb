@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "oxygen-icon-theme-scalable \
 oxygen5-icon-theme-scalable"
+
 RDEPENDS:${PN} += "/bin/bash \
 oxygen5-icon-theme"
 

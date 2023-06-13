@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-eventgrid) \
 python311-azure-eventgrid \
 python3dist(azure-eventgrid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-core \
 python311-azure-nspkg \

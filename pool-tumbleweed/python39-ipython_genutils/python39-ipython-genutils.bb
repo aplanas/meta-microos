@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ipython-genutils) \
 python39-ipython_genutils \
 python3dist(ipython-genutils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39 \
 python39-pytest"

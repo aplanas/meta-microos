@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-efs-utils \
 config(aws-efs-utils)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 nfs-utils \

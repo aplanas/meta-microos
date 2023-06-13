@@ -35,6 +35,7 @@ mimehandler(audio/x-vorbis) \
 mimehandler(audio/x-vorbis+ogg) \
 mimehandler(audio/x-wav) \
 mimehandler(video/x-ms-asf)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

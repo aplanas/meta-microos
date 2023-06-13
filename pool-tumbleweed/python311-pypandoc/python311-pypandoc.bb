@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pypandoc) \
 python311-pypandoc \
 python3dist(pypandoc)"
+
 RDEPENDS:${PN} += "pandoc \
 python(abi) \
 python311-pip \

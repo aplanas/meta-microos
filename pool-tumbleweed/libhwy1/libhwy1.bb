@@ -15,6 +15,7 @@ libhwy_contrib.so.1()(64bit) \
 libhwy_contrib.so.1(HWY_0)(64bit) \
 libhwy_test.so.1()(64bit) \
 libhwy_test.so.1(HWY_0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

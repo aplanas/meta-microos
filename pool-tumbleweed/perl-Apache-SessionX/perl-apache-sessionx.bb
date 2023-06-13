@@ -17,6 +17,7 @@ perl(Apache::SessionX::Manager) \
 perl(Apache::SessionX::Store::File) \
 perl-Apache-SessionX \
 perl-Apache-SessionX(aarch-64)"
+
 RDEPENDS:${PN} += "apache2-mod_perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl-DBI \

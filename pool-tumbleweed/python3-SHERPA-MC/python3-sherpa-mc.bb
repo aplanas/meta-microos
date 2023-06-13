@@ -18,6 +18,7 @@ RPM_HASH = "4a7392e5909981949a813be58f6d8efbcb42c3fe070f403c85f9cd78892627d97c51
 RPROVIDES:${PN} += "python-SHERPA-MC \
 python3-SHERPA-MC \
 python3-SHERPA-MC(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

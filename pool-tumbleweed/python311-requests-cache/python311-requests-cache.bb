@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(requests-cache) \
 python311-requests-cache \
 python3dist(requests-cache)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-itsdangerous \
 python311-requests \

@@ -10,6 +10,7 @@ RPM_HASH = "2fa2b276e61d39f0b948f883c4c6c0d6376c091f3768c57b5f65ea8e5048affd3702
 RPROVIDES:${PN} += "typelib(NMA) \
 typelib-1_0-NMA-1_0 \
 typelib-1_0-NMA-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libnma.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

@@ -11,6 +11,7 @@ RPM_HASH = "c9314c68221dd5da713d025c5077cd33b74c9cd6f8386f83cb40252ae634ab1fe08d
 RPROVIDES:${PN} += "config(xcolors) \
 xcolors \
 xcolors(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

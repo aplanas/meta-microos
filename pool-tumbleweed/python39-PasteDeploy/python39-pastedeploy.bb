@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(pastedeploy) \
 python39-PasteDeploy \
 python39-pastedeploy \
 python3dist(pastedeploy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Paste \
 python39-setuptools"

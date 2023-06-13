@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-flexmock \
 python3.10dist(flexmock) \
 python310-flexmock \
 python3dist(flexmock)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

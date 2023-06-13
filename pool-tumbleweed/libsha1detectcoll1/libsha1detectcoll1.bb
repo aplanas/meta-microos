@@ -13,6 +13,7 @@ RPM_HASH = "d0a47e1bc0e246159a133076d8152b6c55ef23cc7866c97c16a1d0c6a468debe20f5
 RPROVIDES:${PN} += "libsha1detectcoll.so.1()(64bit) \
 libsha1detectcoll1 \
 libsha1detectcoll1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

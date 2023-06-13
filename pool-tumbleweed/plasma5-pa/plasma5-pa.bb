@@ -16,6 +16,7 @@ plasma5-pa \
 plasma5-pa(aarch-64) \
 qt5qmlimport(org.kde.plasma.private.volume.0) \
 qt5qmlimport(org.kde.plasma.private.volume.1)"
+
 RDEPENDS:${PN} += "(pulseaudio-module-x11 or pipewire-pulseaudio) \
 /usr/bin/perl \
 kirigami2 \

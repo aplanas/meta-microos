@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jupyter-highlight-selected-word) \
 python311-jupyter_highlight_selected_word \
 python3dist(jupyter-highlight-selected-word)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-notebook"
 

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "fstrm-devel \
 fstrm-devel(aarch-64) \
 libfstrm-devel \
 pkgconfig(libfstrm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfstrm0"
 

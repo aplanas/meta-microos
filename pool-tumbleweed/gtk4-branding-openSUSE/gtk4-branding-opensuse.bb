@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk4-branding \
 gtk4-branding-openSUSE"
+
 RDEPENDS:${PN} += "libgtk-4-1"
 
 inherit rpm

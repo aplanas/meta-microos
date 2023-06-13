@@ -10,6 +10,7 @@ RPM_HASH = "34223de8d9a145dbb02cffe634a840f0910803c7d02008ed5bf66b9da02b2b54c8df
 RPROVIDES:${PN} += "libstatgrab.so.10()(64bit) \
 libstatgrab10 \
 libstatgrab10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

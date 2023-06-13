@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-gaceta-doc:es) \
 texlive-gaceta-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

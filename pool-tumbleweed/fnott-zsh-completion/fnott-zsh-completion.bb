@@ -9,6 +9,7 @@ RPM_HASH = "3dacda4a09ae4e98c59c3c2b9b9ef40402fbdfb99d19688fb02d3c4b3fabd6edc59d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fnott-zsh-completion"
+
 RDEPENDS:${PN} += "zsh"
 
 inherit rpm

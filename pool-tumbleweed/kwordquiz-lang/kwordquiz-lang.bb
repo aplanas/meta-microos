@@ -73,6 +73,7 @@ locale(kwordquiz:ug) \
 locale(kwordquiz:uk) \
 locale(kwordquiz:zh_CN) \
 locale(kwordquiz:zh_TW)"
+
 RDEPENDS:${PN} += "kwordquiz"
 
 inherit rpm

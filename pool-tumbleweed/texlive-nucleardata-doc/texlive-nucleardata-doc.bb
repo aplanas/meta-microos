@@ -9,6 +9,7 @@ RPM_HASH = "fab32ab1ebcf1253b64be9d64cda14c13032dc46f20134b1071bdb975d31ef587d4b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nucleardata-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

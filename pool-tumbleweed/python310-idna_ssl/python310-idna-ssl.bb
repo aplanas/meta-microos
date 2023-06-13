@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-idna_ssl \
 python3.10dist(idna-ssl) \
 python310-idna_ssl \
 python3dist(idna-ssl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-idna"
 

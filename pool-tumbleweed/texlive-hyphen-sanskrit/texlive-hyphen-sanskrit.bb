@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(hyph-sa.tex) \
 tex(loadhyph-sa.tex) \
 texlive-hyphen-sanskrit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

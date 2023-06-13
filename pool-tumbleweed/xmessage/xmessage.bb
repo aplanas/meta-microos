@@ -11,6 +11,7 @@ RPM_HASH = "38356ab0c2149769b9928c0f42957ebdc2f24ad6f1401f55279f576ed9ab163437ac
 
 RPROVIDES:${PN} += "xmessage \
 xmessage(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

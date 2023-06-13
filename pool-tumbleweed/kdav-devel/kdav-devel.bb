@@ -10,6 +10,7 @@ RPM_HASH = "5034d66dcdb857425e4ba7178c2b18f7aa2639d9a64cfa1b9a15303d1cb55b480f12
 RPROVIDES:${PN} += "cmake(KF5DAV) \
 kdav-devel \
 kdav-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKF5DAV5"
 
 inherit rpm

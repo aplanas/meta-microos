@@ -16,6 +16,7 @@ RPM_HASH = "1387181efe6985c16bacc73ef952a4e8e8f0055fc292a130e00f64de7c9bdec15780
 
 RPROVIDES:${PN} += "linphone-cli \
 linphone-cli(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbctoolbox.so.1()(64bit) \

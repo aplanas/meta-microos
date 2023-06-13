@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(deepin-screen-recorder.desktop) \
 deepin-screen-recorder \
 deepin-screen-recorder(aarch-64)"
+
 RDEPENDS:${PN} += "byzanz \
 ffmpeg \
 ld-linux-aarch64.so.1()(64bit) \

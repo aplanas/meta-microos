@@ -9,6 +9,7 @@ RPM_HASH = "e75b862d9ed72b34a9fe2f6a96df624a9644649c65c62414aa809cfb557f2335fb05
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bzip2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

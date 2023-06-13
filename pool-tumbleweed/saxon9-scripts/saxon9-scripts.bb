@@ -9,6 +9,7 @@ RPM_HASH = "db3b5be3943c455722fd3eeece0a0fc387d5126166fdf2b5f7c04d52d7200d9a0751
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon9-scripts"
+
 RDEPENDS:${PN} += "/bin/sh \
 jaxp_parser_impl \
 saxon9 \

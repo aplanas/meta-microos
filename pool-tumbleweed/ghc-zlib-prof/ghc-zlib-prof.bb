@@ -10,6 +10,7 @@ RPM_HASH = "892d2c84773986a90af365b7c858920325edd322509ace47fb3e51a3a4a1ba84d502
 RPROVIDES:${PN} += "ghc-prof(zlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk) \
 ghc-zlib-prof \
 ghc-zlib-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \
 ghc-zlib-devel"

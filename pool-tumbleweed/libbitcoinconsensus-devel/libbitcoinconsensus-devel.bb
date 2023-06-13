@@ -15,6 +15,7 @@ RPM_HASH = "1a3c31c91a34de80d2a52fe5981cde721a7ad7613b87473a6c05f15c18f6ae80a468
 RPROVIDES:${PN} += "libbitcoinconsensus-devel \
 libbitcoinconsensus-devel(aarch-64) \
 pkgconfig(libbitcoinconsensus)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbitcoinconsensus0"
 

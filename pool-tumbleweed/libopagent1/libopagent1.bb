@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libopagent.so.1()(64bit) \
 libopagent.so.1(OPAGENT_1.0)(64bit) \
 libopagent1 \
 libopagent1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

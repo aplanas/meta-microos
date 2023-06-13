@@ -9,6 +9,7 @@ RPM_HASH = "2f63c25f8cd761c3b95cb159dfea8445f1deeb3356cf91c9fb9a8bc6821e286c3117
 
 RPROVIDES:${PN} += "texlive-rubik-bin \
 texlive-rubik-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-rubik"
 
 inherit rpm

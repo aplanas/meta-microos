@@ -19,6 +19,7 @@ RPM_HASH = "f7378710c20da5c512edb87070437b9577fc9ded86b7f3dceed59d13cd22d2d0ec0f
 RPROVIDES:${PN} += "libWN.so.3()(64bit) \
 libWN3 \
 libWN3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

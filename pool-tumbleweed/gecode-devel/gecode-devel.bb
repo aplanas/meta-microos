@@ -10,6 +10,7 @@ RPM_HASH = "879752297acac7385a07b1eaa79a628d0708cf225a6baaf7baec7cc774413d7a1573
 
 RPROVIDES:${PN} += "gecode-devel \
 gecode-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgecode51"
 
 inherit rpm

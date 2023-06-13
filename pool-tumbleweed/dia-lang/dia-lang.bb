@@ -73,6 +73,7 @@ locale(dia:vi) \
 locale(dia:zh_CN) \
 locale(dia:zh_HK) \
 locale(dia:zh_TW)"
+
 RDEPENDS:${PN} += "dia"
 
 inherit rpm

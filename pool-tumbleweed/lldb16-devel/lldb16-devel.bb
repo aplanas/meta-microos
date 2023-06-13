@@ -10,6 +10,7 @@ RPM_HASH = "dbfced39719f2250cfdd630e22abe3f044c719f6ef7ba1ce745d27cfcceb6bdd2a6f
 RPROVIDES:${PN} += "lldb-devel-provider \
 lldb16-devel \
 lldb16-devel(aarch-64)"
+
 RDEPENDS:${PN} += "clang16-devel \
 liblldb16 \
 llvm16-devel \

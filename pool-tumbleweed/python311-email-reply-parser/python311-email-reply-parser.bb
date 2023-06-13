@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(email-reply-parser) \
 python311-email-reply-parser \
 python3dist(email-reply-parser)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

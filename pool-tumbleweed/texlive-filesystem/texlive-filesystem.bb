@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(texlive-filesystem) \
 texlive-filesystem"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/clear \

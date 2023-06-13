@@ -13,6 +13,7 @@ RPM_HASH = "bd8c3c60c79910068735f08137e7dae31e677d7698e47f282f6a9513afdd81c73efb
 
 RPROVIDES:${PN} += "liblastfm-qt5-devel \
 liblastfm-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "liblastfm5-1 \
 liblastfm_fingerprint5-1 \
 pkgconfig \

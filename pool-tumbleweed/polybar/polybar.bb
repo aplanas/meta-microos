@@ -9,6 +9,7 @@ RPM_HASH = "8bf165e84a9ab6fa2d9582670c30ff48a7193ffcfc585a22e2922e9162efca2ab406
 
 RPROVIDES:${PN} += "polybar \
 polybar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

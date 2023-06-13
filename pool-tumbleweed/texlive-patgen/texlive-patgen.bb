@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(patgen.1) \
 texlive-patgen"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

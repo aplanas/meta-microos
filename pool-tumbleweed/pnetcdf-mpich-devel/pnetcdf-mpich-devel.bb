@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "parallel-netcdf-mpich-devel \
 pkgconfig(pnetcdf) \
 pnetcdf-mpich-devel \
 pnetcdf-mpich-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpnetcdf4-mpich \
 mpich-devel \

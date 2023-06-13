@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(dkms) \
 dkms"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 bash \

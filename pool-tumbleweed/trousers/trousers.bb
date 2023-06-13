@@ -16,6 +16,7 @@ RPM_HASH = "ac1c3254e91ad4e427ee68a6eeb2a581d9c35b3db00315c6646acc5e98b2c8be21a5
 RPROVIDES:${PN} += "config(trousers) \
 trousers \
 trousers(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

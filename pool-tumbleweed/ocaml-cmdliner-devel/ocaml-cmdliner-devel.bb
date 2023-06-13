@@ -39,6 +39,7 @@ ocamlx(Cmdliner_msg) \
 ocamlx(Cmdliner_term) \
 ocamlx(Cmdliner_term_deprecated) \
 ocamlx(Cmdliner_trie)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(CamlinternalLazy) \
 ocaml(Stdlib) \

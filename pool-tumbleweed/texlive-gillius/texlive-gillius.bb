@@ -280,6 +280,7 @@ tex(gls_lf6eoq.enc) \
 tex(gls_pqq4vh.enc) \
 tex(gls_shb4ap.enc) \
 texlive-gillius"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

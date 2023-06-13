@@ -12,6 +12,7 @@ cmake(Qt6LinguistTools) \
 pkgconfig(Qt6Linguist) \
 qt6-linguist-devel \
 qt6-linguist-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 qt6-tools-linguist"
 

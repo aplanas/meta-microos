@@ -14,6 +14,7 @@ RPM_HASH = "9d10612b50f5d57033682c7ed4d8fe341c4f96f829368020f1ecaf60c1c7b523313a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-lxml-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

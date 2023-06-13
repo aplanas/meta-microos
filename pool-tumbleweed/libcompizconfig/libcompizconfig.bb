@@ -13,6 +13,7 @@ libcompizconfig \
 libcompizconfig(aarch-64) \
 libcompizconfig.so.0()(64bit) \
 libini.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 compiz \
 ld-linux-aarch64.so.1()(64bit) \

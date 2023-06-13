@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libchipcard-devel \
 libchipcard-devel(aarch-64) \
 pkgconfig(libchipcard-client) \
 pkgconfig(libchipcard-server)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 gwenhywfar-devel \

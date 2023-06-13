@@ -12,6 +12,7 @@ RPM_HASH = "cf2dd3ef37a91d1c609600cfb0446b0b9686795acd255dfd6f1f9f99180a6b3f6b48
 RPROVIDES:${PN} += "ghc-gitrev \
 ghc-gitrev(aarch-64) \
 libHSgitrev-1.3.1-Fh7rxVehK3vCpE8f2RFTGz-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbase-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov-ghc9.4.5.so()(64bit) \

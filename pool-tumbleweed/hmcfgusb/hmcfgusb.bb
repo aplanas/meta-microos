@@ -14,6 +14,7 @@ RPM_HASH = "5f3b817b4a71f3fa2c0b6037ac32fa4c0db9d99e4046f7a0dc29e5ada339717c5868
 RPROVIDES:${PN} += "config(hmcfgusb) \
 hmcfgusb \
 hmcfgusb(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

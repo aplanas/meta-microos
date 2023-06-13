@@ -10,6 +10,7 @@ RPM_HASH = "e812f281561589e92ce5eb5049985e9660a1143f8619323ed4e4a90126868109a7b7
 
 RPROVIDES:${PN} += "workrave-devel \
 workrave-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

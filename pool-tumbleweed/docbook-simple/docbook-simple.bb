@@ -9,6 +9,7 @@ RPM_HASH = "4a3fdadc5bb1aaf52b1ee2d64d3f8fccea1fe770c4486f2aa046a45dd8795f85f9d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-simple"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/install-catalog \
 /usr/bin/xmlcatalog \

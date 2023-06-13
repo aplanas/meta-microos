@@ -10,6 +10,7 @@ RPM_HASH = "499cd5a5f7fb88e653b77900761044e4111d381c102c906e3cb82163c6ac34178642
 
 RPROVIDES:${PN} += "ahx2play \
 ahx2play(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \

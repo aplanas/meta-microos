@@ -21,6 +21,7 @@ RPM_HASH = "64c9626cb181f1b05182c1df6c0cf3478feaf617ec47bea54fb2278d6d3cfd291476
 RPROVIDES:${PN} += "locale(ja) \
 nkf \
 nkf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

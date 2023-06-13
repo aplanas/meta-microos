@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(animate.sty) \
 texlive-animate"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

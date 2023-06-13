@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(dbusmenu-qt5) \
 libdbusmenu-qt5-devel \
 libdbusmenu-qt5-devel(aarch-64) \
 pkgconfig(dbusmenu-qt5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdbusmenu-qt5-2 \
 pkgconfig(Qt5Core)"

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(altgraph) \
 python311-altgraph \
 python3dist(altgraph)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

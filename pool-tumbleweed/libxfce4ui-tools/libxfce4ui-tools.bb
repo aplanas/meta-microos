@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(xfce4-about.desktop) \
 libxfce4ui-tools \
 libxfce4ui-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "98fb1f7349afd4546b7302ca9b30d5669f7c5539f5f07123464cf6d753dad4fa34d2
 RPROVIDES:${PN} += "libxmlb-devel \
 libxmlb-devel(aarch-64) \
 pkgconfig(xmlb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

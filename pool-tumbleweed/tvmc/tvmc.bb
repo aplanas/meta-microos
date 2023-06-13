@@ -10,6 +10,7 @@ RPM_HASH = "8423a4f09945eae45794345a5180beec0ca9fac92ba6d21e9b79478beb149deeb79d
 
 RPROVIDES:${PN} += "tvmc \
 tvmc(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 libtvm \
 python3-scipy \

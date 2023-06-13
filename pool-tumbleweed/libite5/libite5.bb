@@ -15,6 +15,7 @@ RPM_HASH = "da2cbb9ff60ec202cde822cda562a140867e0d83e3a53abc21cd7fdeafe6cf814094
 RPROVIDES:${PN} += "libite.so.5()(64bit) \
 libite5 \
 libite5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

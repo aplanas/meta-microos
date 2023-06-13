@@ -11,6 +11,7 @@ RPM_HASH = "a24677c196de3b38413e3f097be81264acef33b556c7df6961432eac13576c95e5d9
 RPROVIDES:${PN} += "libwiiuse.so.0()(64bit) \
 libwiiuse0 \
 libwiiuse0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

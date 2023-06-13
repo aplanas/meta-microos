@@ -21,6 +21,7 @@ RPM_HASH = "3438708557ffed103032ac72a9bdb085cc79624d8ea34e8d73c487874e2ea4909f31
 
 RPROVIDES:${PN} += "cliquer \
 cliquer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

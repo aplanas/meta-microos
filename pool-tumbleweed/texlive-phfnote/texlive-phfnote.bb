@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(phfnote.sty) \
 tex(phfnotepreset-xpkgdoc.def) \
 texlive-phfnote"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

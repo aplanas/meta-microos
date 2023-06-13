@@ -9,6 +9,7 @@ RPM_HASH = "c6932d9af5cf4928bbba4cd37215e191347f3ad327fda513cba18f39cb96e0ec8303
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langchinese"
+
 RDEPENDS:${PN} += "texlive-arphic \
 texlive-arphic-ttf \
 texlive-asymptote-by-example-zh-cn \

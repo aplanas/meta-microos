@@ -9,6 +9,7 @@ RPM_HASH = "391abc67dd8609d4ddaca6e4fbd84e8149e631db2f2a1bb8008d75fa86c735feed1b
 
 RPROVIDES:${PN} += "epub2txt2 \
 epub2txt2(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 unzip"
 

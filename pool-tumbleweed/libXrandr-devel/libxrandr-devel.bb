@@ -15,6 +15,7 @@ RPM_HASH = "24beabe394cf932d75d8937eab864daa3d3316a7c1faeed92d0f98e2a010834a87b2
 RPROVIDES:${PN} += "libXrandr-devel \
 libXrandr-devel(aarch-64) \
 pkgconfig(xrandr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXrandr2 \
 pkgconfig(randrproto) \

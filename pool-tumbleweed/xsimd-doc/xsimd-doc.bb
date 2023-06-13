@@ -20,6 +20,7 @@ RPM_HASH = "0b5348edca350d3aa17e69dcb1346314a53f9a0a6abbb246a1c4a6d625b62105b051
 
 RPROVIDES:${PN} += "xsimd-doc \
 xsimd-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

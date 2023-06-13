@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(svgwrite) \
 python311-svgwrite \
 python3dist(svgwrite)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pyparsing"
 

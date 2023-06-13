@@ -9,6 +9,7 @@ RPM_HASH = "8029721f9d81ae41f341e774e1247f788e71ac36c3cb426ea429908c850c6a1349aa
 
 RPROVIDES:${PN} += "libXvnc-devel \
 libXvnc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libXvnc1"
 
 inherit rpm

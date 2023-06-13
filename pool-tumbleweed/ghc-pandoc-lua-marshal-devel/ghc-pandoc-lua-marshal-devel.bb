@@ -11,6 +11,7 @@ RPM_HASH = "3c3bd08675d57a4494ff7813abfc89b63a3489c031c99e3b0c4dcf822978e2cbaf68
 RPROVIDES:${PN} += "ghc-devel(pandoc-lua-marshal-0.2.2-2fE4OFaoKDIH7Xx6aGVXCP) \
 ghc-pandoc-lua-marshal-devel \
 ghc-pandoc-lua-marshal-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \

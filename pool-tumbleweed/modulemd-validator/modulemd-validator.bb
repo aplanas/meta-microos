@@ -10,6 +10,7 @@ RPM_HASH = "43ac44a98ffad27b1fc3b6b25acbaf0de7209782cd01aac14c9443302a475cf1c06c
 
 RPROVIDES:${PN} += "modulemd-validator \
 modulemd-validator(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

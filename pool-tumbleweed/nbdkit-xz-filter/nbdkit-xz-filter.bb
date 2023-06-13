@@ -9,6 +9,7 @@ RPM_HASH = "28821f55f4576be3d1e53c2ccc5a3873718b0779a5a1269b8125013140f701c47cbb
 
 RPROVIDES:${PN} += "nbdkit-xz-filter \
 nbdkit-xz-filter(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

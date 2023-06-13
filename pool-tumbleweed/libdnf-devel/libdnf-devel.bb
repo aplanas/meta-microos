@@ -11,6 +11,7 @@ RPM_HASH = "ae7a476b057b199c794541e22802a8821fcc4808f652d4f907a1ab4c7f72c322021d
 RPROVIDES:${PN} += "libdnf-devel \
 libdnf-devel(aarch-64) \
 pkgconfig(libdnf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdnf2(aarch-64) \
 pkgconfig(glib-2.0) \

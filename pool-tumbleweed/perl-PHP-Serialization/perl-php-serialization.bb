@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(PHP::Serialization) \
 perl(PHP::Serialization::Object) \
 perl-PHP-Serialization"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

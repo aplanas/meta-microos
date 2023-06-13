@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-Flask-Admin \
 python3.10dist(flask-admin) \
 python310-Flask-Admin \
 python3dist(flask-admin)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-WTForms"

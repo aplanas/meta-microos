@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gcsfs-fuse \
 python310-gcsfs-fuse"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click \
 python310-fusepy"

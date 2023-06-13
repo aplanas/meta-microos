@@ -20,6 +20,7 @@ RPM_HASH = "6527bc02cd18d1f2dfbccb610525f3e53e16b01f2a689a70e145d06e0d54ec41c746
 RPROVIDES:${PN} += "libpipewire-module-x11-bell.so()(64bit) \
 pipewire-module-x11-0_3 \
 pipewire-module-x11-0_3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

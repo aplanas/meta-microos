@@ -19,6 +19,7 @@ RPM_HASH = "f9b1b4d7421eb01b9e13c14ba1639ef9b81352bbecc7b063b02768d8796907072423
 RPROVIDES:${PN} += "leechcraft-seekthru \
 leechcraft-seekthru(aarch-64) \
 libleechcraft_seekthru.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

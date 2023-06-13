@@ -14,6 +14,7 @@ RPM_HASH = "a7773602ac5d5a0ac14653df0066e95a0f1150691f02d515eafb8418b3c43b957006
 RPROVIDES:${PN} += "libmaxminddb.so.0()(64bit) \
 libmaxminddb0 \
 libmaxminddb0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

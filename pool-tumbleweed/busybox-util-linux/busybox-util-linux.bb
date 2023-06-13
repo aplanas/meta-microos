@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "/bin/kill \
 /bin/su \
 /bin/umount \
 busybox-util-linux"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

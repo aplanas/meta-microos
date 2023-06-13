@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dynamicnumber.sty) \
 texlive-dynamicnumber"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -29,6 +29,7 @@ bundled(rust-crate:unicode-xid) \
 bundled(rust-crate:version_check) \
 crc32csum \
 crc32csum(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

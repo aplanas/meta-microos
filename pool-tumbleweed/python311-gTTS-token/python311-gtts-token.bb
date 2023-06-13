@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(gtts-token) \
 python311-gTTS-token \
 python3dist(gtts-token)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests"
 

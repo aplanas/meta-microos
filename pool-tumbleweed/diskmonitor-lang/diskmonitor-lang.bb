@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "diskmonitor-lang \
 diskmonitor-lang-all \
 locale(diskmonitor:fr) \
 locale(diskmonitor:sl)"
+
 RDEPENDS:${PN} += "diskmonitor"
 
 inherit rpm

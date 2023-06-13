@@ -10,6 +10,7 @@ RPM_HASH = "6c6af079e290f121d6e1b538b032dc070bbadeda2239461b931d90b04051f17f8102
 
 RPROVIDES:${PN} += "gnome-shell-calendar \
 gnome-shell-calendar(aarch-64)"
+
 RDEPENDS:${PN} += "evolution-data-server \
 gnome-shell \
 ld-linux-aarch64.so.1()(64bit) \

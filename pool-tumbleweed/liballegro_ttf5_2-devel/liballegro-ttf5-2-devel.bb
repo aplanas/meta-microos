@@ -10,6 +10,7 @@ RPM_HASH = "57b95cab64681e95d66fadef0fa47ad8bafe575dcc986899c704b842f80001079886
 RPROVIDES:${PN} += "liballegro_ttf5_2-devel \
 liballegro_ttf5_2-devel(aarch-64) \
 pkgconfig(allegro_ttf-5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liballegro_ttf5_2 \
 pkgconfig(allegro_font-5)"

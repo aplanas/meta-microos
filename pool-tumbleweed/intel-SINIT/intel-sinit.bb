@@ -17,6 +17,7 @@ RPM_HASH = "683b07263635147f5f7b7849f4d79d33ed8c501e4ebf482ee4551d7ace913026f675
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "intel-SINIT"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

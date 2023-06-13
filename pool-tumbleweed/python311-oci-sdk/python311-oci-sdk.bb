@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(oci) \
 python311-oci \
 python311-oci-sdk \
 python3dist(oci)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyJWT \
 python311-certifi \

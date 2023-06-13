@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-pycountry \
 python3.10dist(pycountry) \
 python310-pycountry \
 python3dist(pycountry)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lxml"
 

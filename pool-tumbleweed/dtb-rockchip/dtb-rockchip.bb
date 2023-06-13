@@ -10,6 +10,7 @@ RPM_HASH = "5c5e1204ab9b21963e301ef87d2cc20cf135fc7f84b258027128c51e297ca3b4a8f3
 RPROVIDES:${PN} += "dtb-rockchip \
 dtb-rockchip(aarch-64) \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

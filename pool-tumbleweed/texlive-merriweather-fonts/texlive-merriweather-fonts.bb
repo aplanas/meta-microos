@@ -175,6 +175,7 @@ font(merriwthrblack) \
 font(merriwthrlight) \
 font(merriwthrsans) \
 texlive-merriweather-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

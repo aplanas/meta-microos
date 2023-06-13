@@ -11,6 +11,7 @@ RPM_HASH = "be16867a4e3eecd2ff73c21b876f61ef6a14dce48c2b142a8ff401ca1e1d573fdb80
 RPROVIDES:${PN} += "ghc-devel(http-client-tls-0.3.6.1-1pQpHwWyWRWKJTeRlrZZA0) \
 ghc-http-client-tls-devel \
 ghc-http-client-tls-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

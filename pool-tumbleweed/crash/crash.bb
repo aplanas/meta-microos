@@ -18,6 +18,7 @@ RPM_HASH = "2dbbc163e77685dc07180746f124542e6b5e0a3ca02c8da9e56742b1decfeea455d9
 
 RPROVIDES:${PN} += "crash \
 crash(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/nm \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

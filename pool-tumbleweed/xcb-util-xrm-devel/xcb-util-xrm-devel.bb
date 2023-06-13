@@ -15,6 +15,7 @@ RPM_HASH = "89448e008dc195b2c8e1b53dc811af17b897f5e17656ccd8569cbc18d4408aeccaa7
 RPROVIDES:${PN} += "pkgconfig(xcb-xrm) \
 xcb-util-xrm-devel \
 xcb-util-xrm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcb-xrm0 \
 pkgconfig(xcb) \

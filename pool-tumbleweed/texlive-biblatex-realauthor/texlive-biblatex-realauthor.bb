@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(realauthor.bbx) \
 texlive-biblatex-realauthor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

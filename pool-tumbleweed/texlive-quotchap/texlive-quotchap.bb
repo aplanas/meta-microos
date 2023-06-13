@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(quotchap.sty) \
 texlive-quotchap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

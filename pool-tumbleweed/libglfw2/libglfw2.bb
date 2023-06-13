@@ -13,6 +13,7 @@ RPM_HASH = "957ce47c31acf94600af9289578010203f615b8b83cda16ed983f9f8cfd4af7d42e4
 RPROVIDES:${PN} += "libglfw.so.2()(64bit) \
 libglfw2 \
 libglfw2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

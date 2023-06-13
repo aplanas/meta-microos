@@ -15,6 +15,7 @@ openafs-kmp \
 openafs-kmp-default \
 openafs-kmp-default(aarch-64) \
 openafs-kmp-default-k6.3.4_1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

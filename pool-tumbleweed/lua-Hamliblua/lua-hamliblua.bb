@@ -10,6 +10,7 @@ RPM_HASH = "9ebdb8d734f5ae8037e8b530b7e95e816ebc2321b7532621725a6c490bcd52ebd738
 
 RPROVIDES:${PN} += "lua-Hamliblua \
 lua-Hamliblua(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

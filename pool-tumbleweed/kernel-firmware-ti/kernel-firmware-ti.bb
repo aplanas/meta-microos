@@ -45,6 +45,7 @@ firmware(ti-connectivity/wl18xx-fw-4.bin) \
 firmware(ti-connectivity/wl18xx-fw.bin) \
 firmware(ti-keystone/ks2_qmss_pdsp_acc48_k2_le_1_0_0_9.bin) \
 kernel-firmware-ti"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

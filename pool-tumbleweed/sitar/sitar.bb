@@ -30,6 +30,7 @@ RPM_HASH = "f273a1b6db3e1845f3b48c403939f761a3c6bca0cd1641787a0f9fdc9cf8492a1163
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sitar"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \

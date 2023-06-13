@@ -9,6 +9,7 @@ RPM_HASH = "e57dd193b51dc4623551b582b13e6a42df33d8c43d03681a6d90ee996f8e441d6159
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-profiles-postgresql"
+
 RDEPENDS:${PN} += "tuned"
 
 inherit rpm

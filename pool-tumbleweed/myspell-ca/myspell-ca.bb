@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:ca) \
 myspell-ca \
 myspell-catalan \
 myspell-dictionary"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

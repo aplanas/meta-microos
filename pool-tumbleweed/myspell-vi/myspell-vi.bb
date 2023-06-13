@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:vi) \
 myspell-dictionary \
 myspell-vi \
 myspell-vietnamese"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "e3a5bdf266c8b9fb77d5d63875f83d467cd21eaefd004d4bdf7b9f46681aaa0a99ed
 RPROVIDES:${PN} += "libgit2-1_6 \
 libgit2-1_6(aarch-64) \
 libgit2.so.1.6()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

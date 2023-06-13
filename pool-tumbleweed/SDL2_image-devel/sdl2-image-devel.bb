@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "SDL2_image-devel \
 SDL2_image-devel(aarch-64) \
 libSDL2_image-devel \
 pkgconfig(SDL2_image)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSDL2_image-2_0-0 \
 pkgconfig(libjpeg) \

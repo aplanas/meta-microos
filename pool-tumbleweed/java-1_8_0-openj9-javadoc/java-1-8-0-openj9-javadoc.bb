@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "java-1.8.0-javadoc \
 java-1_8_0-openj9-javadoc \
 java-javadoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 jpackage-utils \
 update-alternatives"

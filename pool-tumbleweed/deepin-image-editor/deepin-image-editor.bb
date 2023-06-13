@@ -9,6 +9,7 @@ RPM_HASH = "b724bed08d615618e52a05be895924fb030dedc3b4c8880d4a140d20c1af01d77653
 
 RPROVIDES:${PN} += "deepin-image-editor \
 deepin-image-editor(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

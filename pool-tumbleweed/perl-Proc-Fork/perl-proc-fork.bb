@@ -33,6 +33,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Proc::Fork) \
 perl-Proc-Fork"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Exporter::Tidy)"
 

@@ -12,6 +12,7 @@ RPM_HASH = "7500cc59202e7bb704d5916ef6aa2d9888d578b82cb4ed21caba16774e88e9b46342
 RPROVIDES:${PN} += "libopenblas_pthreads-devel \
 libopenblas_pthreads-devel(aarch-64) \
 openblas-devel(other)"
+
 RDEPENDS:${PN} += "libopenblas_pthreads0 \
 openblas-common-devel"
 

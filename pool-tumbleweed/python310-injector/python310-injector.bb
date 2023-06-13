@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-injector \
 python3.10dist(injector) \
 python310-injector \
 python3dist(injector)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310"
 

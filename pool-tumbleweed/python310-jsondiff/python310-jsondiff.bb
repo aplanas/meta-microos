@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jsondiff \
 python3.10dist(jsondiff) \
 python310-jsondiff \
 python3dist(jsondiff)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

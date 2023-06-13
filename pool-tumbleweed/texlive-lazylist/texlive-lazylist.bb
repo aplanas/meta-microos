@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lazylist.sty) \
 texlive-lazylist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "f68b601ef547cc18dac6f4380cec8fc011526e441e20e5ac268fa710bed94d59c821
 
 RPROVIDES:${PN} += "grim \
 grim(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

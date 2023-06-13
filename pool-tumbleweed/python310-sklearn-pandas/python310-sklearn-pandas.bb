@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-sklearn-pandas \
 python3.10dist(sklearn-pandas) \
 python310-sklearn-pandas \
 python3dist(sklearn-pandas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-pandas \

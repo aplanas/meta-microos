@@ -13,6 +13,7 @@ RPM_HASH = "885d6e3386aa0895a54135266f145f63f9c92f6f758c81e4b0494788371f584cbe57
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "password-store"
+
 RDEPENDS:${PN} += "/bin/bash \
 gpg2 \
 qrencode \

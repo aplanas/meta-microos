@@ -12,6 +12,7 @@ RPM_HASH = "6660f86b6c6da65c63ad4f284640d65917d9c7657e34236ce6a2bbc2bdbf4de4bd9e
 RPROVIDES:${PN} += "libliveMedia.so.107()(64bit) \
 libliveMedia107 \
 libliveMedia107(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

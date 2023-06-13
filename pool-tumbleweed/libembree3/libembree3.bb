@@ -12,6 +12,7 @@ RPM_HASH = "5a04ec0ecdbf64df5437576411fc6febc9da8bce3395402fdc343858abaee7d1d9fc
 RPROVIDES:${PN} += "libembree3 \
 libembree3(aarch-64) \
 libembree3.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

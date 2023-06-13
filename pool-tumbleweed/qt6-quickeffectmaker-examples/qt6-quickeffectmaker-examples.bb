@@ -9,6 +9,7 @@ RPM_HASH = "dbe93e45a96bb7237291448ff0080016e8669311cc8be9992e99461980ab078417a3
 
 RPROVIDES:${PN} += "qt6-quickeffectmaker-examples \
 qt6-quickeffectmaker-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

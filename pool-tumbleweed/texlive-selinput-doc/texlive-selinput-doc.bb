@@ -9,6 +9,7 @@ RPM_HASH = "517df5318477f56cc610a46e0e1be666dedfe587ae59fd44e79117decd33b7e12478
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-selinput-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

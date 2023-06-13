@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-opentracing) \
 python311-django-opentracing \
 python3dist(django-opentracing)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-opentracing \

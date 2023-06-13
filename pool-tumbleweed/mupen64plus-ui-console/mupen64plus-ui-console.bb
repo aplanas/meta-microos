@@ -15,6 +15,7 @@ application(mupen64plus.desktop) \
 mimehandler(application/x-n64-rom) \
 mupen64plus-ui-console \
 mupen64plus-ui-console(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \

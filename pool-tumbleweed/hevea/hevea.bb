@@ -11,6 +11,7 @@ RPM_HASH = "2aa89e2ea736ce1da6921a9edc0040c7aea28b3ca8cdd358ad678c86b10ad9e90edf
 
 RPROVIDES:${PN} += "hevea \
 hevea(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \

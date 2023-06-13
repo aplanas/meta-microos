@@ -11,6 +11,7 @@ RPM_HASH = "aca5a079308dd20526991077e2da87e50bdf41ab89b5d1ac234cd3eea82a9b0eaf5e
 RPROVIDES:${PN} += "libtukit.so.4()(64bit) \
 libtukit4 \
 libtukit4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 btrfsprogs \
 ld-linux-aarch64.so.1()(64bit) \

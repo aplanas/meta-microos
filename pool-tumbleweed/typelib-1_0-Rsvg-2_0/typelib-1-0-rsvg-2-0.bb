@@ -14,6 +14,7 @@ RPM_HASH = "5a6c371ee60a715624b50c3fda0b68a853d05dc3c3e74784564c590e8700c88e75d1
 RPROVIDES:${PN} += "typelib(Rsvg) \
 typelib-1_0-Rsvg-2_0 \
 typelib-1_0-Rsvg-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "librsvg-2.so.2()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

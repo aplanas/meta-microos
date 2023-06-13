@@ -14,6 +14,7 @@ RPM_HASH = "a70b01f526d09dc60ae0016ffbcf6f460805f730f25442de81953253c0bcc566a335
 
 RPROVIDES:${PN} += "augeas-lenses \
 augeas-lenses(aarch-64)"
+
 RDEPENDS:${PN} += "libaugeas0"
 
 inherit rpm

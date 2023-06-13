@@ -11,6 +11,7 @@ RPM_HASH = "e690e4820ae9cbb32573294bb6569ed30717a952dd4f30119cfcc34e89ba5f770b5f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-sun50i_a64"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "4516bb8d7088d0da85532f268a026543e48c3d693d3809f0fc91f12aab9e57060317
 
 RPROVIDES:${PN} += "texlive-pdflatexpicscale-bin \
 texlive-pdflatexpicscale-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pdflatexpicscale"
 
 inherit rpm

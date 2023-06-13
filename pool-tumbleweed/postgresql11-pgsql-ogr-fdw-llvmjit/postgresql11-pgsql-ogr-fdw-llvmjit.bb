@@ -12,6 +12,7 @@ RPM_HASH = "bc437c1b7bbfdc9fff8b22013127640a0f9fb5fd663231eb583fa213506d8b838530
 
 RPROVIDES:${PN} += "postgresql11-pgsql-ogr-fdw-llvmjit \
 postgresql11-pgsql-ogr-fdw-llvmjit(aarch-64)"
+
 RDEPENDS:${PN} += "postgresql11-llvmjit \
 postgresql11-pgsql-ogr-fdw \
 postgresql11-server"

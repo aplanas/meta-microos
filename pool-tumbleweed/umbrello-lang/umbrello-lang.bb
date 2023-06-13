@@ -69,6 +69,7 @@ locale(umbrello:zh_CN) \
 locale(umbrello:zh_TW) \
 umbrello-lang \
 umbrello-lang-all"
+
 RDEPENDS:${PN} += "umbrello"
 
 inherit rpm

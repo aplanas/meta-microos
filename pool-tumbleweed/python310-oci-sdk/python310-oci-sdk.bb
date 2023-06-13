@@ -14,6 +14,7 @@ python3.10dist(oci) \
 python310-oci \
 python310-oci-sdk \
 python3dist(oci)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyJWT \
 python310-certifi \

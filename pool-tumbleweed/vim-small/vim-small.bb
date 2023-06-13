@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "vi \
 vim-small \
 vim-small(aarch-64) \
 vim_client"
+
 RDEPENDS:${PN} += "/bin/sh \
 alts \
 ld-linux-aarch64.so.1()(64bit) \

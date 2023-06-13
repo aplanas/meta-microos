@@ -23,6 +23,7 @@ perl(CPAN::Common::Index::MetaDB) \
 perl(CPAN::Common::Index::Mirror) \
 perl(CPAN::Common::Index::Mux::Ordered) \
 perl-CPAN-Common-Index"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::DistnameInfo) \
 perl(CPAN::Meta::YAML) \

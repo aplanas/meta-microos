@@ -12,6 +12,7 @@ RPM_HASH = "daa3c07ec2eace60072a4a1b0bcf5c087bb6cfa78e93314b3c7f0aae6ee411bbc366
 RPROVIDES:${PN} += "config(ndctl) \
 ndctl \
 ndctl(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

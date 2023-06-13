@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.9dist(parsley) \
 python39-Parsley \
 python39-parsley \
 python3dist(parsley)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

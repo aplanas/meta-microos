@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(rcsinfo.cfg) \
 tex(rcsinfo.sty) \
 texlive-rcsinfo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

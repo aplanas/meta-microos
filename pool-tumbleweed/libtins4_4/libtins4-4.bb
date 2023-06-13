@@ -11,6 +11,7 @@ RPM_HASH = "0568071f79692bc39c813b75d6d7f1c40c63896460e344b5d5c39a1b5476582631b1
 RPROVIDES:${PN} += "libtins.so.4.4()(64bit) \
 libtins4_4 \
 libtins4_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

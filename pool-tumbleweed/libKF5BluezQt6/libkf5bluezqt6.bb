@@ -10,6 +10,7 @@ RPM_HASH = "2494e0606f3df79c4c358b786d4726ee11daf0f2382c9cc38936bcd3d5eca33fdce4
 RPROVIDES:${PN} += "libKF5BluezQt.so.6()(64bit) \
 libKF5BluezQt6 \
 libKF5BluezQt6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

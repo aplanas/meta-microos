@@ -113,6 +113,7 @@ locale(mozo:zh_HK) \
 locale(mozo:zh_TW) \
 mozo-lang \
 mozo-lang-all"
+
 RDEPENDS:${PN} += "mozo"
 
 inherit rpm

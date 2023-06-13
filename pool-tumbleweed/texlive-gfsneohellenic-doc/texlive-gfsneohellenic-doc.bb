@@ -9,6 +9,7 @@ RPM_HASH = "c0303d0f13c41d53e1b29e83201379a2c662ba20e306373562b0ecc6c32c6bffafff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfsneohellenic-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

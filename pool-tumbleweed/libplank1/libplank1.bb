@@ -12,6 +12,7 @@ RPM_HASH = "9ea0061d611e80c8fac2e8adf1bbf58cf342ee99cd286ea6cff7839afaa0a88ec310
 RPROVIDES:${PN} += "libplank.so.1()(64bit) \
 libplank1 \
 libplank1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

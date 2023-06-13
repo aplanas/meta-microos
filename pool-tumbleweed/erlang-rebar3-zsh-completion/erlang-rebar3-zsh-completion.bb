@@ -9,6 +9,7 @@ RPM_HASH = "820450d3ec015d50a839a6c20050ef596f322cff9c717a7d4f037a47939a928f5f19
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "erlang-rebar3-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

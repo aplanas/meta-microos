@@ -23,6 +23,7 @@ mvn(org.powermock:powermock-api-mockito:pom:) \
 osgi(org.powermock.powermock-api-mockito) \
 osgi(org.powermock.powermock-api-mockito-common) \
 powermock-api-mockito"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.hamcrest:hamcrest-core) \

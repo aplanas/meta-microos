@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(pmix-mca-params) \
 pmix-mca-params \
 pmix-runtime-config"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

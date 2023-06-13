@@ -10,6 +10,7 @@ RPM_HASH = "b60f07989bb2e20baf62601bc23fe1339242356a8bd4fb3448c3db3706bbfad59f9f
 
 RPROVIDES:${PN} += "spamassassin-spamc \
 spamassassin-spamc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

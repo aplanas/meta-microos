@@ -10,6 +10,7 @@ RPM_HASH = "3299a6ad3c34c0924b84f364fc24e803ace6e1f8f961d9a205b6e6b067fb38bdca3a
 RPROVIDES:${PN} += "kakasi-dict \
 kakasi-dict(aarch-64) \
 kakasidi"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

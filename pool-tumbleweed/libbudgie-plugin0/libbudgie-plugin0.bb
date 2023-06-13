@@ -10,6 +10,7 @@ RPM_HASH = "51208fd29bd642a0a19c21864d2987a577619abb55bb9b2d109a608587ed8a9934e0
 RPROVIDES:${PN} += "libbudgie-plugin.so.0()(64bit) \
 libbudgie-plugin0 \
 libbudgie-plugin0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "a482744085ec6979a8eb62a18755da46add6208ddc6a510d5be0c326f14d7c6f77e8
 RPROVIDES:${PN} += "perl(String::CRC32) \
 perl-String-CRC32 \
 perl-String-CRC32(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

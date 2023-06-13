@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-markdown \
 lua54-markdown"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

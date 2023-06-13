@@ -9,6 +9,7 @@ RPM_HASH = "74cb59443769d1dd56b9196f7531aaee9177d5697c36529f3ace0f19c8c9da8415ca
 
 RPROVIDES:${PN} += "pcaudiolib-devel \
 pcaudiolib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libpcaudio0"
 
 inherit rpm

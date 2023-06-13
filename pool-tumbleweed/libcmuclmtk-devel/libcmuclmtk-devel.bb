@@ -15,6 +15,7 @@ RPM_HASH = "20d5ce8a39302d1755c90ecd8c872f6752ce78a5e7f317d22b1cf283e40c5041ca17
 
 RPROVIDES:${PN} += "libcmuclmtk-devel \
 libcmuclmtk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmuclmtk \
 libcmuclmtk0"
 

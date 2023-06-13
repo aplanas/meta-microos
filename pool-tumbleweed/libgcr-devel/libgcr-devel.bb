@@ -11,6 +11,7 @@ RPM_HASH = "a56dd9b5feea72483611f8fc8d41b061f00d0d0a2c6b2a50838380a58d3808cccfbe
 RPROVIDES:${PN} += "libgcr-devel \
 libgcr-devel(aarch-64) \
 pkgconfig(gcr-4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgcr-4-4 \
 pkgconfig(gck-2) \

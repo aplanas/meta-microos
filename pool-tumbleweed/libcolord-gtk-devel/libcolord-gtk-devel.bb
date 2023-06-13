@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libcolord-gtk-devel \
 libcolord-gtk-devel(aarch-64) \
 pkgconfig(colord-gtk) \
 pkgconfig(colord-gtk4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcolord-gtk1 \
 libcolord-gtk4-1 \

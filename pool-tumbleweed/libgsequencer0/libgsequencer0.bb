@@ -11,6 +11,7 @@ RPM_HASH = "ae2dd9f350d0120b0fa995c01329e314b5f3c13209bdc40fa970d2df043339372f4a
 RPROVIDES:${PN} += "libgsequencer.so.0()(64bit) \
 libgsequencer0 \
 libgsequencer0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

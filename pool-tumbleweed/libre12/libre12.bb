@@ -12,6 +12,7 @@ RPM_HASH = "4a498493189dd02a04e4ede28ed503097e5bce5b23ed8b134307709039a37ab524c7
 RPROVIDES:${PN} += "libre.so.12()(64bit) \
 libre12 \
 libre12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

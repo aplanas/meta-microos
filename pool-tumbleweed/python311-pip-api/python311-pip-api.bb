@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pip-api) \
 python311-pip-api \
 python3dist(pip-api)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pip"
 

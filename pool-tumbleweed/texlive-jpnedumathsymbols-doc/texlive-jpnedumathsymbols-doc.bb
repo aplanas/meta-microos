@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ja) \
 locale(texlive-jpnedumathsymbols-doc:en \
 texlive-jpnedumathsymbols-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

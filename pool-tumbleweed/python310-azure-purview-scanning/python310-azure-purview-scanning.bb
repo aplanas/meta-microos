@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-azure-purview-scanning \
 python3.10dist(azure-purview-scanning) \
 python310-azure-purview-scanning \
 python3dist(azure-purview-scanning)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

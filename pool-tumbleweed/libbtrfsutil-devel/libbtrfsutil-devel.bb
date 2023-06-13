@@ -11,6 +11,7 @@ RPM_HASH = "2cc09c9b34088b3c8c744e09e06ecf4a25c46120e69d540a3febc8a56adac08e8bfa
 RPROVIDES:${PN} += "libbtrfsutil-devel \
 libbtrfsutil-devel(aarch-64) \
 pkgconfig(libbtrfsutil)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 btrfsprogs \
 libbtrfsutil1"

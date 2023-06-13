@@ -12,6 +12,7 @@ evince-plugin-xpsdocument(aarch-64) \
 libxpsdocument.so()(64bit) \
 metainfo() \
 metainfo(evince-xpsdocument.metainfo.xml)"
+
 RDEPENDS:${PN} += "evince \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

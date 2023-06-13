@@ -17,6 +17,7 @@ RPM_HASH = "ca56d1671eff831ee10d6508e42cb7c84e6dbf0655acc9408877cbf863aadffbaa40
 RPROVIDES:${PN} += "libmad.so.0()(64bit) \
 libmad0 \
 libmad0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

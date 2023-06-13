@@ -15,6 +15,7 @@ RPM_HASH = "9db48661ca5ac4d8810a852821f19e0ffde7e2577d04fa69c6719fa797b97a300edc
 RPROVIDES:${PN} += "libcanberra-gtk-devel \
 libcanberra-gtk-devel(aarch-64) \
 pkgconfig(libcanberra-gtk)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcanberra-devel \
 libcanberra-gtk0 \

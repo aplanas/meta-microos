@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(httplib2) \
 python311-httplib2 \
 python3dist(httplib2)"
+
 RDEPENDS:${PN} += "ca-certificates \
 python(abi) \
 python311-certifi \

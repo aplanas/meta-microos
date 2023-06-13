@@ -9,6 +9,7 @@ RPM_HASH = "2e559359ba85f2ddb83e1b6c394374ba062978b3d56f0c231fcd5bc4561180559399
 
 RPROVIDES:${PN} += "fcitx-m17n \
 fcitx-m17n(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fcitx \
 libc.so.6(GLIBC_2.17)(64bit) \

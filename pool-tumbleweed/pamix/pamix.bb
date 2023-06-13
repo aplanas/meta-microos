@@ -10,6 +10,7 @@ RPM_HASH = "7515fdb0937f9d7890df0ad2ce3f1c5b7897b0019cf06aa747455008c1a559c41f39
 RPROVIDES:${PN} += "config(pamix) \
 pamix \
 pamix(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

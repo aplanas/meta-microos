@@ -10,6 +10,7 @@ RPM_HASH = "cc855d1c61e3b2b444f843caad6757cb536fd7eca69e3b551088bd599bae0f626bb8
 
 RPROVIDES:${PN} += "meanwhile-doc \
 meanwhile-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

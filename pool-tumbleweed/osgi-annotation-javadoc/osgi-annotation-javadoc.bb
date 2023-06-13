@@ -9,6 +9,7 @@ RPM_HASH = "961cccd9867f21716dfdb49c4420af7183a823ee7a61411fafe4ca49db3904c298fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "osgi-annotation-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

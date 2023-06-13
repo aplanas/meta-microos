@@ -72,6 +72,7 @@ mimehandler(image/x-tga) \
 mimehandler(image/xpm) \
 mimehandler(x-content/image-dcf) \
 mimehandler(x-content/image-picturecd)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

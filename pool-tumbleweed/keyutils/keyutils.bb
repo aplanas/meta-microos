@@ -12,6 +12,7 @@ RPM_HASH = "e6c2a7d352beaf76127c3d0dfa4a2088e3b487dab825ad7aaf68273edfb543645a32
 RPROVIDES:${PN} += "config(keyutils) \
 keyutils \
 keyutils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

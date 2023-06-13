@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(napalm-digineo-procurve) \
 python39-napalm-digineo-procurve \
 python3dist(napalm-digineo-procurve)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-napalm"
 

@@ -29,6 +29,7 @@ libgstcairo.so()(64bit) \
 libgstdv.so()(64bit) \
 libgstmonoscope.so()(64bit) \
 libgstshout2.so()(64bit)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-good \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

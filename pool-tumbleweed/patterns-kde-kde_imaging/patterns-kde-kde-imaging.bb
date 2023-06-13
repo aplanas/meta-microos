@@ -16,6 +16,7 @@ pattern-order() \
 patterns-kde-kde_imaging \
 patterns-openSUSE-kde4_imaging \
 patterns-openSUSE-kde_imaging"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

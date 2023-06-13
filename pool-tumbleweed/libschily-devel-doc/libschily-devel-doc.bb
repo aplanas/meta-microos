@@ -12,6 +12,7 @@ RPM_HASH = "9026a43ea3f110c7f96fa879c55908ec2363a7de5dfc7fdaf1098ae40ced4b351e8d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libschily-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

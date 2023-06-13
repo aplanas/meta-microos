@@ -12,6 +12,7 @@ RPM_HASH = "cea088f0d7a08223412ed8b3290138d3ab9735197ad67d994693132b1b6db98f0275
 
 RPROVIDES:${PN} += "npth-devel \
 npth-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libnpth0"
 

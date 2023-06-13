@@ -16,6 +16,7 @@ RPM_HASH = "bc3a70836ff603014537dff95c92bdbd404a3cc0ce2023d119f9af181af1772f766b
 
 RPROVIDES:${PN} += "newt-static \
 newt-static(aarch-64)"
+
 RDEPENDS:${PN} += "newt-devel"
 
 inherit rpm

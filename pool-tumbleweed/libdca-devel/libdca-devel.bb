@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libdca-devel \
 libdca-devel(aarch-64) \
 pkgconfig(libdca) \
 pkgconfig(libdts)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdca0"
 

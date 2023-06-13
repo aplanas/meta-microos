@@ -13,6 +13,7 @@ RPM_HASH = "dec08e03d10122832243cfd2f89ef169a6749fd32ba0adcc5127f1bd1c3f8df19fcc
 RPROVIDES:${PN} += "libemf2svg.so.1()(64bit) \
 libemf2svg1 \
 libemf2svg1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

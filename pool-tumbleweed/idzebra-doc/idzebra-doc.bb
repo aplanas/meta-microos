@@ -10,6 +10,7 @@ RPM_HASH = "efc674e7e8e58175172f6cbcc33087bf910ee1ec70bc9700d0139c11553fd7bc7711
 
 RPROVIDES:${PN} += "idzebra-doc \
 idzebra-doc(aarch-64)"
+
 RDEPENDS:${PN} += "idzebra"
 
 inherit rpm

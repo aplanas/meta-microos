@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Quick3DParticleEffects) \
 pkgconfig(Qt6Quick3DParticleEffects) \
 qt6-quick3dparticleeffects-devel \
 qt6-quick3dparticleeffects-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Quick3DAssetImport) \
 cmake(Qt6Quick3DParticles) \

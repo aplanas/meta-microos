@@ -11,6 +11,7 @@ RPM_HASH = "7d187c7f2b215eb265eacb06e64775c67d690bd759e7f58cba7ffa8ca04339fdf3c0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-x11-util-devel"
+
 RDEPENDS:${PN} += "gccmakedep \
 imake \
 lndir \

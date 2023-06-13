@@ -9,6 +9,7 @@ RPM_HASH = "713dd593bd55d8b51a49f6b0a85c67a968389dc4d2a33015b3adc8196373f1fe6ee4
 
 RPROVIDES:${PN} += "rttr-devel-doc \
 rttr-devel-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

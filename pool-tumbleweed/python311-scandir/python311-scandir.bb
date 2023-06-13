@@ -40,6 +40,7 @@ RPROVIDES:${PN} += "python3.11dist(scandir) \
 python311-scandir \
 python311-scandir(aarch-64) \
 python3dist(scandir)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

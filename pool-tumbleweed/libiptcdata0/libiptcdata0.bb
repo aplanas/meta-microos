@@ -18,6 +18,7 @@ RPM_HASH = "6f951c7f698ff0dd03c71ce121a09132ce0f3093843c3289d2bd0fae1450ddc12f42
 RPROVIDES:${PN} += "libiptcdata.so.0()(64bit) \
 libiptcdata0 \
 libiptcdata0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

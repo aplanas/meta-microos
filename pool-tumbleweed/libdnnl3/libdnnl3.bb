@@ -14,6 +14,7 @@ RPM_HASH = "c66afe94b921c0ce403ccf5f72ef0310b7ce9ade4418ad93d0cb57ca64373238574e
 RPROVIDES:${PN} += "libdnnl.so.3()(64bit) \
 libdnnl3 \
 libdnnl3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

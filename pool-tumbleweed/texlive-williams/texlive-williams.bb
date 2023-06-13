@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(antree.sty) \
 tex(toklist.sty) \
 texlive-williams"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

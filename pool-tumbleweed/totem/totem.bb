@@ -98,6 +98,7 @@ mimehandler(x-scheme-handler/uvox) \
 totem \
 totem(aarch-64) \
 typelib(Totem)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gstreamer-plugins-base \
 gstreamer-plugins-good \

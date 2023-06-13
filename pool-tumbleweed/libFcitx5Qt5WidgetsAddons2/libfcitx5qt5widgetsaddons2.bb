@@ -10,6 +10,7 @@ RPM_HASH = "5b0a6057a34f350b63b54b9dfddaede5303fb4e43f4aef2045c339bd2cdc0fa06aa7
 RPROVIDES:${PN} += "libFcitx5Qt5WidgetsAddons.so.2()(64bit) \
 libFcitx5Qt5WidgetsAddons2 \
 libFcitx5Qt5WidgetsAddons2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

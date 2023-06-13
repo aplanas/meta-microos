@@ -9,6 +9,7 @@ RPM_HASH = "f60d0dba99cfdbd1ffe2f113ebaa0455fd1df360744fcbe2abb7c8d96e27fa815811
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-havannah-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

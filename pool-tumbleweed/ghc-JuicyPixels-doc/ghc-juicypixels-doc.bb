@@ -9,6 +9,7 @@ RPM_HASH = "64d85973a7d625b41ee77b4f1587c19e9a0a976e46c64f229660f8bc7de68306f8f2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-JuicyPixels-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

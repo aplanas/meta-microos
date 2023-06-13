@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sshpubkeys \
 python3.10dist(sshpubkeys) \
 python310-sshpubkeys \
 python3dist(sshpubkeys)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography \
 python310-ecdsa"

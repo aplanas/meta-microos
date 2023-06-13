@@ -15,6 +15,7 @@ RPM_HASH = "7d9afc9856246a1151cea037dd8a900742f67a78febf2ef300ad25c9d68bd03011c0
 RPROVIDES:${PN} += "brltty-driver-speech-dispatcher \
 brltty-driver-speech-dispatcher(aarch-64) \
 libbrlttyssd.so()(64bit)"
+
 RDEPENDS:${PN} += "brltty \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

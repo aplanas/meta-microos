@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "auto-service-aggregator \
 mvn(com.google.auto.service:auto-service-aggregator:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.sonatype.oss:oss-parent:pom:)"

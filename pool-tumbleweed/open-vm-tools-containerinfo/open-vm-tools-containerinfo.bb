@@ -10,6 +10,7 @@ RPM_HASH = "6ea2df3ec9da20af32ed44605b9585e540e6ccd3b007ce417e42e6400135b39d07cc
 RPROVIDES:${PN} += "libcontainerInfo.so()(64bit) \
 open-vm-tools-containerinfo \
 open-vm-tools-containerinfo(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 curl \
 ld-linux-aarch64.so.1()(64bit) \

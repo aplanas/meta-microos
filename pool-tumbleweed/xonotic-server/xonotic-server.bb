@@ -12,6 +12,7 @@ RPM_HASH = "19f6f27e60f1e626839149411d59766bdd7245f5572344e3a7eb4dd16d19ebe64a21
 
 RPROVIDES:${PN} += "xonotic-server \
 xonotic-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

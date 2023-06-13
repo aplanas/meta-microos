@@ -9,6 +9,7 @@ RPM_HASH = "27a0dac1c50faf95c50d912436207ef2cea04a1538a67c8654811facafffc45d413a
 
 RPROVIDES:${PN} += "ksysguardsystemstats-data \
 ksysguardsystemstats-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

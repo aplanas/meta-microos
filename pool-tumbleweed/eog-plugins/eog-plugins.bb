@@ -9,6 +9,7 @@ RPM_HASH = "3bda64e615b6ef0be60317ca05007c089ef329ee8b4fb100f19fa9ebfe1f804c37ee
 
 RPROVIDES:${PN} += "eog-plugins \
 eog-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "eog"
 
 inherit rpm

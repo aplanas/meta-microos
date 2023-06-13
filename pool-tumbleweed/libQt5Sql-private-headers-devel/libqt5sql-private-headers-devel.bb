@@ -12,6 +12,7 @@ RPM_HASH = "d5e60a7e2d81515d5a45454bac891e565323f03b0c12224fd528f4397296ffb9b630
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5Sql-private-headers-devel"
+
 RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
 libQt5Sql-devel"
 

@@ -18,6 +18,7 @@ RPM_HASH = "da3ce6b1015b4046eaadc5afabaa52dfe5158025e8ed1686005511b2a1c28342248a
 RPROVIDES:${PN} += "parallel-netcdf-mvapich2 \
 pnetcdf-mvapich2 \
 pnetcdf-mvapich2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

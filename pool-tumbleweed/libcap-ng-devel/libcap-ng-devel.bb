@@ -11,6 +11,7 @@ RPM_HASH = "f53812144ae35c25a6a7905c1811868d6ac6c0a8f2c0a4ca4d4cad3539a5c3272d5e
 RPROVIDES:${PN} += "libcap-ng-devel \
 libcap-ng-devel(aarch-64) \
 pkgconfig(libcap-ng)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 kernel-headers \
 libcap-ng0 \

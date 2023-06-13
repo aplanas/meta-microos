@@ -43,6 +43,7 @@ tex(ufontawesomefree1.fd) \
 tex(ufontawesomefree2.fd) \
 tex(ufontawesomefree3.fd) \
 texlive-fontawesome5"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

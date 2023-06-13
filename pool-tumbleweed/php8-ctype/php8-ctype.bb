@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(php8-ctype) \
 php-ctype \
 php8-ctype \
 php8-ctype(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 php"
 

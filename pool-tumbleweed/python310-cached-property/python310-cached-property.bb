@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-cached-property \
 python3.10dist(cached-property) \
 python310-cached-property \
 python3dist(cached-property)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -16,6 +16,7 @@ libdatrie.so.1(DATRIE_0.2.6)(64bit) \
 libdatrie.so.1(DATRIE_0.2.7)(64bit) \
 libdatrie1 \
 libdatrie1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

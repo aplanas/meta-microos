@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(railroad-diagrams) \
 python39-railroad-diagrams \
 python3dist(railroad-diagrams)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

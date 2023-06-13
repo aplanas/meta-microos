@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "nemo-compare \
 nemo-extension-compare \
 python3.10dist(nemo-compare) \
 python3dist(nemo-compare)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 meld \
 nemo \

@@ -15,6 +15,7 @@ RPM_HASH = "012ebff2468e1632ff0998708b12aa36caf4617153d2da283730721edc31c53801ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yara-doc"
+
 RDEPENDS:${PN} += "libyara10"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "1fe7e3915fb33acbe4b3e27a181237ff7e783b76aa37016a8e4f77cbb4d4003e2a2c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bbcard-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

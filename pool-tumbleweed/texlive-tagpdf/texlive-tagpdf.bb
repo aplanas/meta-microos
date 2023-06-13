@@ -31,6 +31,7 @@ tex(tagpdf-ns-pdf2.def) \
 tex(tagpdf.sty) \
 tex(tagpdfdocu-patches.sty) \
 texlive-tagpdf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

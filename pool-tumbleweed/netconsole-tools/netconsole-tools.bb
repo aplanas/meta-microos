@@ -14,6 +14,7 @@ RPM_HASH = "3f1e87f234c64d10776ef2f632de4eeb897ab6d41f0985a8a0d7ffc45a3487308f46
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netconsole-tools"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sqlglot) \
 python311-sqlglot \
 python3dist(sqlglot)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

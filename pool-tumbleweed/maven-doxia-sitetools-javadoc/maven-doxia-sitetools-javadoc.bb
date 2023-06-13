@@ -9,6 +9,7 @@ RPM_HASH = "d47d14cfc976b36bbbcbf5b8bf5312b9c7cd6cbfa6325dcc290e65549bb38553fca5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-sitetools-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

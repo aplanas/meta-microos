@@ -34,6 +34,7 @@ libspice-server.so.1(SPICE_SERVER_0.8.2)(64bit) \
 libspice-server.so.1(SPICE_SERVER_0.8.3)(64bit) \
 libspice-server1 \
 libspice-server1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

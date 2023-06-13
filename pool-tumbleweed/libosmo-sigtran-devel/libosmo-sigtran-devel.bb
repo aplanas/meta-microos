@@ -13,6 +13,7 @@ RPM_HASH = "54bbd5dbc0502d052e124738263d2fb634c41de047f8e0dd7523d78840b00e9118f8
 RPROVIDES:${PN} += "libosmo-sigtran-devel \
 libosmo-sigtran-devel(aarch-64) \
 pkgconfig(libosmo-sigtran)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-sigtran7"
 

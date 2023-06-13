@@ -26,6 +26,7 @@ RPM_HASH = "a8d0cabbc74892d73bfb1a89f5769f50c0a503fdd0e2878b1c72856da8a21345367d
 
 RPROVIDES:${PN} += "openmpi_1_10_7-gnu-hpc \
 openmpi_1_10_7-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \

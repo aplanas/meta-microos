@@ -9,6 +9,7 @@ RPM_HASH = "fb10406f158abf149b0fb71c4ae19929202ce51313bba1a6d2f3500eca334d3fbdd8
 
 RPROVIDES:${PN} += "collectd-plugin-write_stackdriver \
 collectd-plugin-write_stackdriver(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

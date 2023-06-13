@@ -15,6 +15,7 @@ RPM_HASH = "0af0e1ba052e6e2b3576f0d6f9d0945f9eb9d590f7007f4bf5c57ccd2e980bfc3f14
 RPROVIDES:${PN} += "libaravis-0.8.so.0()(64bit) \
 libaravis-0_8-0 \
 libaravis-0_8-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

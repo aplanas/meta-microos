@@ -18,6 +18,7 @@ RPM_HASH = "3dbbdef618022c3900ec82f47752504ff4b330b69d001c42c6645e81d44a695e07b5
 RPROVIDES:${PN} += "libfribidi.so.0()(64bit) \
 libfribidi0 \
 libfribidi0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

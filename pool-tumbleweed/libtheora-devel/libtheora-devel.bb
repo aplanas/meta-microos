@@ -29,6 +29,7 @@ libtheora-devel(aarch-64) \
 pkgconfig(theora) \
 pkgconfig(theoradec) \
 pkgconfig(theoraenc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libogg-devel \
 libtheora0 \

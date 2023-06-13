@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(onrannual.cls) \
 texlive-onrannual"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

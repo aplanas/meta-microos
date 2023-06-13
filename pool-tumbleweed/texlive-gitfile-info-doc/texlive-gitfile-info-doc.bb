@@ -9,6 +9,7 @@ RPM_HASH = "fba56e5997fe5b990f54441164f05295f0767960e70d063f55cec6ed5b833b1e9454
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gitfile-info-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

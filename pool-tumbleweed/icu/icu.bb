@@ -17,6 +17,7 @@ RPM_HASH = "d32b96c37f2e3159b480c2c54401dfce06226e25a29c2eeacab5855ac4e0e75a5cf4
 RPROVIDES:${PN} += "bundled(timezone) \
 icu \
 icu(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

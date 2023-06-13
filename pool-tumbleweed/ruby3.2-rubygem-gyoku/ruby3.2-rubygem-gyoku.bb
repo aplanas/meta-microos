@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:gyoku) \
 rubygem(ruby:3.2.0:gyoku:1) \
 rubygem(ruby:3.2.0:gyoku:1.4) \
 rubygem(ruby:3.2.0:gyoku:1.4.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:builder) \
 rubygem(ruby:3.2.0:rexml:3)"

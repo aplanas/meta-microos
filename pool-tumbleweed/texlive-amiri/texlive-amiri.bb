@@ -16,6 +16,7 @@ RPM_HASH = "b690f385d8cbc3966a251d9112a53e410e3be2eac17399f5df76472949c8a15d58a9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-amiri"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

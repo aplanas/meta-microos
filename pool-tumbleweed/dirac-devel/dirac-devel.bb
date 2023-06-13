@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "dirac-devel \
 dirac-devel(aarch-64) \
 libdirac-devel \
 pkgconfig(dirac)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdirac_decoder0 \
 libdirac_encoder0"

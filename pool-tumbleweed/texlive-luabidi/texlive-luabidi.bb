@@ -15,6 +15,7 @@ tex(luabidi-footnotes.def) \
 tex(luabidi-test-arabmaths.tex) \
 tex(luabidi.sty) \
 texlive-luabidi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

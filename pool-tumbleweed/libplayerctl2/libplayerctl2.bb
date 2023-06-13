@@ -11,6 +11,7 @@ RPM_HASH = "f1c616602b30a93040a8a7546ac5023a7773c47fcb9b34ca1cc749965c04373fc2e5
 RPROVIDES:${PN} += "libplayerctl.so.2()(64bit) \
 libplayerctl2 \
 libplayerctl2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

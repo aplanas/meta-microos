@@ -10,6 +10,7 @@ RPM_HASH = "4e7075b2922f7797e2171c890b00a280ba23bbb2e9d9d44b37a6a26cac7e658a26ef
 
 RPROVIDES:${PN} += "octave-forge-netcdf \
 octave-forge-netcdf(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

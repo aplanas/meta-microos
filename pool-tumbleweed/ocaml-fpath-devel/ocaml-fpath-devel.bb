@@ -16,6 +16,7 @@ ocamlfind(fpath) \
 ocamlfind(fpath.top) \
 ocamlx(Fpath) \
 ocamlx(Fpath_top)"
+
 RDEPENDS:${PN} += "ocaml(Astring) \
 ocaml(Asttypes) \
 ocaml(Build_path_prefix_map) \

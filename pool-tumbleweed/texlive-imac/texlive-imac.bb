@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(imac.sty) \
 texlive-imac"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

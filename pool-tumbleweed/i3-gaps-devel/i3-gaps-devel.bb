@@ -9,6 +9,7 @@ RPM_HASH = "2e0ef5d491d2eee312ec9c3bc229510ea194c1c7827530010fb4e231dbd2d1544aaa
 
 RPROVIDES:${PN} += "i3-gaps-devel \
 i3-gaps-devel(aarch-64)"
+
 RDEPENDS:${PN} += "i3-gaps"
 
 inherit rpm

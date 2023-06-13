@@ -10,6 +10,7 @@ RPM_HASH = "b2150cfeb296c957c11f06d1f6cc49016ff26aeed10b19edbb1fb03cb7c32cae05a3
 
 RPROVIDES:${PN} += "pfsalign \
 pfsalign(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

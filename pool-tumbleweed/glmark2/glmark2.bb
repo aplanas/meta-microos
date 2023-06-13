@@ -11,6 +11,7 @@ RPM_HASH = "7c933bb1be03d4d6bdca638d0c8f4082e35ef68a96448d6a3565067612f5afc83948
 
 RPROVIDES:${PN} += "glmark2 \
 glmark2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

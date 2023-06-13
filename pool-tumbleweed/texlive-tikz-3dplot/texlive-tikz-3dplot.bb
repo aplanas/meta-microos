@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikz-3dplot.sty) \
 texlive-tikz-3dplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

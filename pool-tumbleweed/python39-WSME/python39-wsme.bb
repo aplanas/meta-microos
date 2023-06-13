@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(wsme) \
 python39-WSME \
 python3dist(wsme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-WebOb \
 python39-netaddr \

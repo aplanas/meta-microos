@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-crispy-forms) \
 python39-django-crispy-forms \
 python3dist(django-crispy-forms)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

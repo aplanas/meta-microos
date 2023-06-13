@@ -11,6 +11,7 @@ RPM_HASH = "88d3c30c9c67145dc9340e04c599298608a3a1bbfe1fb83cd77b137d6712a76c0f39
 RPROVIDES:${PN} += "libKPim5Libkleo.so.5()(64bit) \
 libKPim5libkleo5 \
 libKPim5libkleo5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

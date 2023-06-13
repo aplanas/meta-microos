@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(chairxmath.sty) \
 tex(nchairx.sty) \
 texlive-nchairx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

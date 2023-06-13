@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pydenticon) \
 python39-pydenticon \
 python3dist(pydenticon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Pillow"
 

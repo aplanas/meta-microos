@@ -11,6 +11,7 @@ RPM_HASH = "3bae235897daccf7b36132ad424a1ff02672cc2a5fef531ff828a22731901c640bd0
 RPROVIDES:${PN} += "NetworkManager-strongswan \
 NetworkManager-strongswan(aarch-64) \
 libnm-vpn-plugin-strongswan.so()(64bit)"
+
 RDEPENDS:${PN} += "NetworkManager \
 NetworkManager-strongswan-frontend \
 ld-linux-aarch64.so.1()(64bit) \

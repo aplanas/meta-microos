@@ -124,6 +124,7 @@ font(:lang=zu) \
 font(fetamont) \
 font(fetamontscript) \
 texlive-fetamont-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

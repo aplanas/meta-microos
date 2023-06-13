@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hausarbeit-jura.cls) \
 texlive-hausarbeit-jura"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

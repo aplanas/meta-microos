@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-resourcegraph \
 python3.10dist(azure-mgmt-resourcegraph) \
 python310-azure-mgmt-resourcegraph \
 python3dist(azure-mgmt-resourcegraph)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

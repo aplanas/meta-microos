@@ -12,6 +12,7 @@ RPM_HASH = "ca8975735021f7cce5294cc0a9003665ddeb4bee4ba6b1bba5ef3d514db19dc05e3d
 
 RPROVIDES:${PN} += "libiscsi-utils \
 libiscsi-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

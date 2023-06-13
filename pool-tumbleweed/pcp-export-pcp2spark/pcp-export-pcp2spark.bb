@@ -11,6 +11,7 @@ RPM_HASH = "2b7c62bf98979eb027a5df2133d5453d8f5fd25813b271174e18b81ecaf442ee41c5
 
 RPROVIDES:${PN} += "pcp-export-pcp2spark \
 pcp-export-pcp2spark(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 libpcp3 \
 python3-pcp"

@@ -26,6 +26,7 @@ rpm_macro(selinux_requires) \
 rpm_macro(selinux_set_booleans) \
 rpm_macro(selinux_unset_booleans) \
 selinux-policy"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/sha512sum \
 pam-config \

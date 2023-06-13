@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-moto-all \
 python310-moto-all"
+
 RDEPENDS:${PN} += "python310-PyYAML \
 python310-aws-xray-sdk \
 python310-cfn-lint \

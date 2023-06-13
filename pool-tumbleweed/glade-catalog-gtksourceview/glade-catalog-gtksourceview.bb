@@ -16,6 +16,7 @@ RPM_HASH = "c5854ef48624f2c7ac4d87e679ba2a06b05394c7db463da89b53c33632a9ec3c83b4
 
 RPROVIDES:${PN} += "glade-catalog-gtksourceview \
 glade-catalog-gtksourceview(aarch-64)"
+
 RDEPENDS:${PN} += "glade \
 libgtksourceview-3_0-1"
 

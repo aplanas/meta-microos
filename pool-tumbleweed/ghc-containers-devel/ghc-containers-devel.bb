@@ -12,6 +12,7 @@ ghc-containers-devel(aarch-64) \
 ghc-containers-static \
 ghc-containers-static(aarch-64) \
 ghc-devel(containers-0.6.7)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-containers(aarch-64) \
 ghc-devel(array-0.5.4.0) \

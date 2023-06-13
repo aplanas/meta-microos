@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:lightbox2) \
 rubygem(ruby:3.2.0:lightbox2:2) \
 rubygem(ruby:3.2.0:lightbox2:2.11) \
 rubygem(ruby:3.2.0:lightbox2:2.11.3)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:jquery-rails)"
 

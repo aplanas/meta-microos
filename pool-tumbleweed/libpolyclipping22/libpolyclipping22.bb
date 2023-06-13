@@ -16,6 +16,7 @@ RPM_HASH = "7f6c3dc65a91d0d1fe5495d6942e4119d112da3243b435cfc33873c46fa4d73cda22
 RPROVIDES:${PN} += "libpolyclipping.so.22()(64bit) \
 libpolyclipping22 \
 libpolyclipping22(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

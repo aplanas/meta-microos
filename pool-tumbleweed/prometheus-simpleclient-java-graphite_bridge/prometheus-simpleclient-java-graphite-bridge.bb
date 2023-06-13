@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(io.prometheus:simpleclient_graphite_bridge) \
 mvn(io.prometheus:simpleclient_graphite_bridge:pom:) \
 osgi(io.prometheus.simpleclient_graphite_bridge) \
 prometheus-simpleclient-java-graphite_bridge"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(io.prometheus:simpleclient)"

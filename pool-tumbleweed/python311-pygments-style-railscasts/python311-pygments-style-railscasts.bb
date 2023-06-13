@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pygments-style-railscasts) \
 python311-pygments-style-railscasts \
 python3dist(pygments-style-railscasts)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pygments"
 

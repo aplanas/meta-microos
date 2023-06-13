@@ -14,6 +14,7 @@ RPM_HASH = "748b41486ed49a302ea7477b47a6757f6a7d40f1fdcde67b256671b535c80ca36b47
 RPROVIDES:${PN} += "atkmm-devel \
 atkmm-devel(aarch-64) \
 pkgconfig(atkmm-2.36)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libatkmm-2_36-1 \
 pkgconfig(atk) \

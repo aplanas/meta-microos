@@ -10,6 +10,7 @@ RPM_HASH = "62144959d9a2eac826bbae4d300beae5615d4ca192c910ed706fc0e15ed296767d1c
 
 RPROVIDES:${PN} += "guile-newt \
 guile-newt(aarch-64)"
+
 RDEPENDS:${PN} += "guile \
 newt-devel"
 

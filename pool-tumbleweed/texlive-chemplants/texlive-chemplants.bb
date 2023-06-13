@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chemplants.sty) \
 texlive-chemplants"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

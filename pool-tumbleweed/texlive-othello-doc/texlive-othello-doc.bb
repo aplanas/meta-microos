@@ -9,6 +9,7 @@ RPM_HASH = "c331bb3ef46135927ffa53d0211ee5c695aa94b12e42b96f202fadd93c922898fecb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-othello-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

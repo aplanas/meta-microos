@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:oc_FR) \
 myspell-dictionary \
 myspell-oc_FR \
 myspell-occitan-lengadocian"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "d48d7502d772361706df469a4a76001530452f014a2e25b0f83be8b242c32e9b735b
 RPROVIDES:${PN} += "alure-devel \
 alure-devel(aarch-64) \
 pkgconfig(alure)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libalure1 \
 pkgconfig(openal)"

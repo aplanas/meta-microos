@@ -15,6 +15,7 @@ RPM_HASH = "76a71762e5b1af1998cb4cd02872350df1805270429b68b57c3557b65575d5a9430a
 
 RPROVIDES:${PN} += "xrootd-private-devel \
 xrootd-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "xrootd-libs \
 xrootd-server-libs"
 

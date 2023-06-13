@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lximage-qt-lang \
 lximage-qt-lang-all"
+
 RDEPENDS:${PN} += "lximage-qt"
 
 inherit rpm

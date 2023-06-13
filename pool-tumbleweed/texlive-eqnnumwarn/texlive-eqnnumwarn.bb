@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(eqnnumwarn.sty) \
 texlive-eqnnumwarn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

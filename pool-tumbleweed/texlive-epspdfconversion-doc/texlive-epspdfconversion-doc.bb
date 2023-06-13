@@ -9,6 +9,7 @@ RPM_HASH = "ec89d19b1537fe5bc61c597f5ee0bfa39ef4376a1afb68be3ab7c594f4ec16cd759f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epspdfconversion-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

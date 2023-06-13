@@ -12,6 +12,7 @@ RPM_HASH = "627912b0833d499d1317de39641682747414bc34708a3987b1aac4439e0fe8406251
 RPROVIDES:${PN} += "typelib(MalcontentUi) \
 typelib-1_0-MalcontentUi-0 \
 typelib-1_0-MalcontentUi-0(aarch-64)"
+
 RDEPENDS:${PN} += "libmalcontent-ui-0.so.0()(64bit) \
 typelib(AccountsService) \
 typelib(Atk) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-crontab) \
 python39-python-crontab \
 python3dist(python-crontab)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-python-dateutil"
 

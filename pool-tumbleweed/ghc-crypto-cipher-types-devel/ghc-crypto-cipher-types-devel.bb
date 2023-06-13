@@ -11,6 +11,7 @@ RPM_HASH = "ed9cd2c43fd64a963d3caf7f9681801498e2f45ddad97c64e1faf4903d1909e38b33
 RPROVIDES:${PN} += "ghc-crypto-cipher-types-devel \
 ghc-crypto-cipher-types-devel(aarch-64) \
 ghc-devel(crypto-cipher-types-0.0.9-4A4LPNV9DwQ1VQ3vwUnE52)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-crypto-cipher-types \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-gTTS \
 python3.10dist(gtts) \
 python310-gTTS \
 python3dist(gtts)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

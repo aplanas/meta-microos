@@ -10,6 +10,7 @@ RPM_HASH = "61077deb96b8574f58b846d0a0b1255e7ac2f87bce27297438b1bc71b71d91d8c3d9
 RPROVIDES:${PN} += "budgie-recentlyused-applet \
 budgie-recentlyused-applet(aarch-64) \
 libbudgie-recentlyused.so()(64bit)"
+
 RDEPENDS:${PN} += "budgie-extras-lang \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

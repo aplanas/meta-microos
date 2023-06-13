@@ -16,6 +16,7 @@ metainfo() \
 metainfo(trigger-rally.appdata.xml) \
 trigger-rally \
 trigger-rally(aarch-64)"
+
 RDEPENDS:${PN} += "libGL.so.1()(64bit) \
 libGLEW.so.2.2()(64bit) \
 libGLU.so.1()(64bit) \

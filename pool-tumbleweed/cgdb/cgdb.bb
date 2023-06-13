@@ -15,6 +15,7 @@ RPM_HASH = "cf29abac1648cfcd7e884a6a1a87b9426235c857793da9fbb0fd3a29c7da3c83fd15
 
 RPROVIDES:${PN} += "cgdb \
 cgdb(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gdb \
 ld-linux-aarch64.so.1()(64bit) \

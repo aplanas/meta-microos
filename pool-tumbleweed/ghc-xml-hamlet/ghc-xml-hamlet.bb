@@ -10,6 +10,7 @@ RPM_HASH = "99b906350200efebce970cd6aac0b9fd615a23ba70049b66a79d69509d0a3e3a87c2
 RPROVIDES:${PN} += "ghc-xml-hamlet \
 ghc-xml-hamlet(aarch-64) \
 libHSxml-hamlet-0.5.0.2-IdxjO6rnbTj7Ym5G4XopFP-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

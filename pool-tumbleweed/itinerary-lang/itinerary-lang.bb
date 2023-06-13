@@ -39,6 +39,7 @@ locale(itinerary:tr) \
 locale(itinerary:uk) \
 locale(itinerary:zh_CN) \
 locale(itinerary:zh_TW)"
+
 RDEPENDS:${PN} += "itinerary"
 
 inherit rpm

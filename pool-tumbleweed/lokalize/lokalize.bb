@@ -18,6 +18,7 @@ mimehandler(application/x-lokalize-project) \
 mimehandler(application/x-xliff) \
 mimehandler(text/x-gettext-translation) \
 mimehandler(text/x-gettext-translation-template)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

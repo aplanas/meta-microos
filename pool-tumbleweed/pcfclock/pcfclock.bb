@@ -15,6 +15,7 @@ RPM_HASH = "03fd91bb5b7bffe2fb618fc1a5b042f7f913071a06163f5d441283a2c641de8489eb
 
 RPROVIDES:${PN} += "pcfclock \
 pcfclock(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

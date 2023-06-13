@@ -9,6 +9,7 @@ RPM_HASH = "8e8b44afbefddfaa004733e95eeb23c393c9c20d62d1a4e4563e7862109100eb7a0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bagpipe-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

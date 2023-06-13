@@ -10,6 +10,7 @@ RPM_HASH = "093639f6c6fc3d9dfa445e5c3d3a7f63d94077d2a002682b1cf7f844ec7c74ef9127
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-pytest-jupyter-client"
+
 RDEPENDS:${PN} += "python311-ipykernel \
 python311-jupyter_client \
 python311-pytest-jupyter"

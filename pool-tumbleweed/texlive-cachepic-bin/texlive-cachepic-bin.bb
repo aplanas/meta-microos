@@ -9,6 +9,7 @@ RPM_HASH = "b377c5c761489c8637a720f14c60df0204c861a4962fedf3b021fef46d609c54f4b5
 
 RPROVIDES:${PN} += "texlive-cachepic-bin \
 texlive-cachepic-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-cachepic"
 
 inherit rpm

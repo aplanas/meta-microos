@@ -15,6 +15,7 @@ graphviz-plugins-core(aarch-64) \
 libgvplugin_core.so.6()(64bit) \
 libgvplugin_dot_layout.so.6()(64bit) \
 libgvplugin_neato_layout.so.6()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 graphviz \
 ld-linux-aarch64.so.1()(64bit) \

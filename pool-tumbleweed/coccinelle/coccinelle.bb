@@ -20,6 +20,7 @@ RPM_HASH = "08c06415656a3dfe12ba53981d60906b0d764b2707575bbf4b2fbe96126a8e7861de
 
 RPROVIDES:${PN} += "coccinelle \
 coccinelle(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 findutils \
 grep \

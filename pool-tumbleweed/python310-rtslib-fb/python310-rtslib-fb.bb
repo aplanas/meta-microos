@@ -16,6 +16,7 @@ python3.10dist(rtslib-fb) \
 python310-rtslib \
 python310-rtslib-fb \
 python3dist(rtslib-fb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

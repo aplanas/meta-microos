@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-openqa_review \
 python3.10dist(openqa-review) \
 python3dist(openqa-review)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

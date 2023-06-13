@@ -9,6 +9,7 @@ RPM_HASH = "9cf25f96aa7a0709fe787665d6cb5f9823b7af61c3555b26203e9d39b44d1fff5139
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ytableau-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

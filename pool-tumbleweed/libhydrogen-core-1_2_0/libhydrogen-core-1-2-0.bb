@@ -14,6 +14,7 @@ RPM_HASH = "5509cfb91c76c98ee256a70e8551dd535c52939f2c54c750161c9847e914a93b543f
 RPROVIDES:${PN} += "libhydrogen-core-1.2.0.so()(64bit) \
 libhydrogen-core-1_2_0 \
 libhydrogen-core-1_2_0(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

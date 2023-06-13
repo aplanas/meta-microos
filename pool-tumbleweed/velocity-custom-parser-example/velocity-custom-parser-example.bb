@@ -31,6 +31,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(org.apache.velocity:velocity-custom-parser-example:pom:) \
 velocity-custom-parser-example"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.code.maven-replacer-plugin:replacer) \

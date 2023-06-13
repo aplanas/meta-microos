@@ -28,6 +28,7 @@ RPM_HASH = "4afa1eba73b2cab83798e29b931088ca6bc617b95b6c3911904c54912c3888f671ee
 RPROVIDES:${PN} += "ghc-indexed-traversable \
 ghc-indexed-traversable(aarch-64) \
 libHSindexed-traversable-0.1.2.1-1XiSi5jKFt6BqKufaNXxBs-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \

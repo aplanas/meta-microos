@@ -12,6 +12,7 @@ RPM_HASH = "3d430cf41da63b603eff7df88b96299d69254f1af3b472efde5484bc2caa0c068f98
 RPROVIDES:${PN} += "gimp-lqr-plugin \
 gimp-plugin-lqr \
 gimp-plugin-lqr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

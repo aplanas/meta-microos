@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(cpprestsdk) \
 cpprest-devel \
 cpprest-devel(aarch-64) \
 pkgconfig(cpprest)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcpprest2_10"
 

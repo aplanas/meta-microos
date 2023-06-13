@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ee4j \
 mvn(org.eclipse.ee4j:project:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

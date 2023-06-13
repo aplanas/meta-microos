@@ -10,6 +10,7 @@ RPM_HASH = "3c97b24c6ef41cdba88c2a0daf5cf935bd4bce1ce651e0035282514229260d15fab1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epslatex-fr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

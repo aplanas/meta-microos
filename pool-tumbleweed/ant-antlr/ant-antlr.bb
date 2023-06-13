@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "ant-antlr \
 config(ant-antlr) \
 mvn(org.apache.ant:ant-antlr) \
 mvn(org.apache.ant:ant-antlr:pom:)"
+
 RDEPENDS:${PN} += "ant \
 antlr \
 java-headless \

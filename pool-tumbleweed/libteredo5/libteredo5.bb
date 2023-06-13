@@ -12,6 +12,7 @@ RPM_HASH = "4d7c76bcc19e0fb98c2f563a44f774d0eb7aec603ae4a3d062489006ca71f9135093
 RPROVIDES:${PN} += "libteredo.so.5()(64bit) \
 libteredo5 \
 libteredo5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

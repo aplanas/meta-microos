@@ -11,6 +11,7 @@ RPM_HASH = "08757bc65bbd6e563b193ae2d411eb3ddd61d3fcaaabc13acf6ad3219ee1317cd0ff
 RPROVIDES:${PN} += "config(corosync-qdevice) \
 corosync-qdevice \
 corosync-qdevice(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 corosync \

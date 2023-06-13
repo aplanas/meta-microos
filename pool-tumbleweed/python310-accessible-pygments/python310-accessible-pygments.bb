@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-accessible-pygments \
 python3.10dist(accessible-pygments) \
 python310-accessible-pygments \
 python3dist(accessible-pygments)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pygments"
 

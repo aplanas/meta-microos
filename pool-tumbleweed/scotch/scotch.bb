@@ -10,6 +10,7 @@ RPM_HASH = "b74116809db62a6bc164bf9dacb8661863274cdded4abb6c1f83e580bfc898eff983
 
 RPROVIDES:${PN} += "scotch \
 scotch(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

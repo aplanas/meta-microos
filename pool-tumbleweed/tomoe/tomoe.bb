@@ -11,6 +11,7 @@ RPM_HASH = "65c80a305ba41396a25b88559c07526cb336ed9e549fb64f3c999f434fd9b0d404f8
 RPROVIDES:${PN} += "libtomoe.so.0()(64bit) \
 tomoe \
 tomoe(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

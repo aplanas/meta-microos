@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "ispell-ngerman \
 ispell-ngerman(aarch-64) \
 ispell_dictionary \
 locale(ispell:de;de_DE)"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

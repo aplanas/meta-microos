@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "perl(MooseX::StrictConstructor) \
 perl(MooseX::StrictConstructor::Trait::Class) \
 perl(MooseX::StrictConstructor::Trait::Method::Constructor) \
 perl-MooseX-StrictConstructor"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(Moose::Exporter) \

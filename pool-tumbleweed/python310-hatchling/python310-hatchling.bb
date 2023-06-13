@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-hatchling \
 python3.10dist(hatchling) \
 python310-hatchling \
 python3dist(hatchling)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

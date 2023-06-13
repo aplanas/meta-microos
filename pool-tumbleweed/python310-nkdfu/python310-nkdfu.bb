@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-nkdfu \
 python3.10dist(nkdfu) \
 python310-nkdfu \
 python3dist(nkdfu)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 intelhex \

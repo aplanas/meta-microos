@@ -15,6 +15,7 @@ application(arandr.desktop) \
 arandr \
 python3.10dist(arandr) \
 python3dist(arandr)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-gobject \

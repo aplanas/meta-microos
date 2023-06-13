@@ -26,6 +26,7 @@ mvn(org.eclipse.jetty.fcgi:fcgi-server) \
 mvn(org.eclipse.jetty.fcgi:fcgi-server:pom:) \
 osgi(org.eclipse.jetty.fcgi.client) \
 osgi(org.eclipse.jetty.fcgi.server)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.servlet:javax.servlet-api) \

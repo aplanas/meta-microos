@@ -9,6 +9,7 @@ RPM_HASH = "385614a6d8f0537c5283fbc9941a3bdafe0ac77d76272d1ad86372f6303793531269
 
 RPROVIDES:${PN} += "erlang-debugger \
 erlang-debugger(aarch-64)"
+
 RDEPENDS:${PN} += "erlang \
 erlang-wx"
 

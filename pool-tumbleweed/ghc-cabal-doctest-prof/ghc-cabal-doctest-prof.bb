@@ -10,6 +10,7 @@ RPM_HASH = "5f1fae5e77b0c28b5ffcacea9d2b9dbb543ed804917925bb66c5b47181328175b063
 RPROVIDES:${PN} += "ghc-cabal-doctest-prof \
 ghc-cabal-doctest-prof(aarch-64) \
 ghc-prof(cabal-doctest-1.0.9-E4yWN7tR5mMItu3qIh0oSF)"
+
 RDEPENDS:${PN} += "ghc-cabal-doctest-devel \
 ghc-prof(Cabal-3.8.1.0) \
 ghc-prof(base-4.17.1.0) \

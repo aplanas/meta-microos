@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(crefthe.sty) \
 texlive-crefthe"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

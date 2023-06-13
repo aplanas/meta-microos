@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fink.sty) \
 texlive-fink"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

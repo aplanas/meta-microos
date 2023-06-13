@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-charset-normalizer \
 python3.10dist(charset-normalizer) \
 python310-charset-normalizer \
 python3dist(charset-normalizer)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

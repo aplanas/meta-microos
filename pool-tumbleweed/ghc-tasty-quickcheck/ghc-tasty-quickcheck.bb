@@ -10,6 +10,7 @@ RPM_HASH = "92709f0acf80d7392a8ec65b76dbf88ddc039e8db326273b71fe6eff3401406d2746
 RPROVIDES:${PN} += "ghc-tasty-quickcheck \
 ghc-tasty-quickcheck(aarch-64) \
 libHStasty-quickcheck-0.10.2-35bOuuNPLunDPSjWY1CT1e-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so()(64bit) \
 libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so()(64bit) \

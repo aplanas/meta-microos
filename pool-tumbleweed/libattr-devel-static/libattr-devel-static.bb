@@ -11,6 +11,7 @@ RPM_HASH = "69c453ac83a250bf3c11a446b8e3ba6331d2950cecc423449e2772eef386dae9d9ee
 RPROVIDES:${PN} += "libattr-devel-static \
 libattr-devel-static(aarch-64) \
 libattr-devel:/usr/lib64/libattr.a"
+
 RDEPENDS:${PN} += "libattr-devel"
 
 inherit rpm

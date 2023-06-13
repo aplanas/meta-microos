@@ -12,6 +12,7 @@ RPM_HASH = "69e322eb223d22a10b8872919505d0a617f9341cf27d156a6683884368db7fa0c466
 
 RPROVIDES:${PN} += "inn-devel \
 inn-devel(aarch-64)"
+
 RDEPENDS:${PN} += "bison \
 gdbm-devel \
 inn \

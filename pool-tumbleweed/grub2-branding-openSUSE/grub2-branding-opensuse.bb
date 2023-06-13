@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grub2-branding \
 grub2-branding-openSUSE"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 grub2"

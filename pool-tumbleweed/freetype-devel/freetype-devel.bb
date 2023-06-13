@@ -10,6 +10,7 @@ RPM_HASH = "79ecb48cfd3f0f738f3e6704952fa550a74a4fcaa5df0fcc1285a75497213af4ee70
 
 RPROVIDES:${PN} += "freetype-devel \
 freetype-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libttf2"
 
 inherit rpm

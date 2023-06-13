@@ -9,6 +9,7 @@ RPM_HASH = "431df736bef78a402adcb5b84867433129bb954e9a6bb8adf89586e1f589722618e7
 
 RPROVIDES:${PN} += "ktnef-common \
 ktnef-common(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

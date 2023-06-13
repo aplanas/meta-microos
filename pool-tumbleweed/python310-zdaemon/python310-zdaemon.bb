@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-zdaemon \
 python3.10dist(zdaemon) \
 python310-zdaemon \
 python3dist(zdaemon)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

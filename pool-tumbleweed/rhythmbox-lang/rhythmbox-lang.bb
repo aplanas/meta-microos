@@ -88,6 +88,7 @@ locale(rhythmbox:zh_HK) \
 locale(rhythmbox:zh_TW) \
 rhythmbox-lang \
 rhythmbox-lang-all"
+
 RDEPENDS:${PN} += "rhythmbox"
 
 inherit rpm

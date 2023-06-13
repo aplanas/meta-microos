@@ -10,6 +10,7 @@ RPM_HASH = "3808d7525414bd68f8f965ce7dc2e682a94e5657d01fce1ecab7ee7247dfb30b40de
 
 RPROVIDES:${PN} += "u-boot-bananapim64-doc \
 u-boot-bananapim64-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

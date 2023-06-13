@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pygerrit2 \
 python3.10dist(pygerrit2) \
 python310-pygerrit2 \
 python3dist(pygerrit2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pbr \
 python310-requests"

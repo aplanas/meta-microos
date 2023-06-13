@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-license-expression \
 python3.10dist(license-expression) \
 python310-license-expression \
 python3dist(license-expression)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-boolean.py"
 

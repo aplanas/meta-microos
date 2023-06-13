@@ -15,6 +15,7 @@ metainfo() \
 metainfo(termit.metainfo.xml) \
 termit \
 termit(aarch-64)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgdk-3.so.0()(64bit) \

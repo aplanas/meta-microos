@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-qt) \
 python39-pytest-qt \
 python3dist(pytest-qt)"
+
 RDEPENDS:${PN} += "(python39-qt5 or python39-PyQt6) \
 bitstream-vera-fonts \
 python(abi) \

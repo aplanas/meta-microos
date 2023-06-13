@@ -9,6 +9,7 @@ RPM_HASH = "2d7ab4717874e09ce04dbe26f1cdb7cbf5482a15a1d285e5ef686424adf8b4483904
 
 RPROVIDES:${PN} += "python39-lalframe \
 python39-lalframe(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

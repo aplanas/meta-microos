@@ -36,6 +36,7 @@ locale(libKF5Screen8:tr) \
 locale(libKF5Screen8:uk) \
 locale(libKF5Screen8:zh_CN) \
 locale(libKF5Screen8:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5Screen8"
 
 inherit rpm

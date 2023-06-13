@@ -11,6 +11,7 @@ RPM_HASH = "3aff629f34fae93eed505de79369f2e198e2a220eb048daa7268a9d19e68599a8427
 RPROVIDES:${PN} += "typelib(Dbusmenu) \
 typelib-1_0-Dbusmenu-0_4 \
 typelib-1_0-Dbusmenu-0_4(aarch-64)"
+
 RDEPENDS:${PN} += "libdbusmenu-glib.so.4()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

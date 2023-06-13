@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-dviincl-doc:en;pl) \
 texlive-dviincl-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

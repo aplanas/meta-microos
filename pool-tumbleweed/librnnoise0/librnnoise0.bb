@@ -12,6 +12,7 @@ RPM_HASH = "6d4adc3cebf801bc5bcb00fd3d3e92a2afd93de424d4b15a9cdd11d4d61ab49688b8
 RPROVIDES:${PN} += "librnnoise.so.0()(64bit) \
 librnnoise0 \
 librnnoise0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

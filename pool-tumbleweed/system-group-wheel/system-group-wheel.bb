@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group(wheel) \
 system-group-wheel"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

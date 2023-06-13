@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libXaw.so.8 \
 libXaw8 \
 libXaw8(aarch-64) \
 libXaw8.so.8"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libXaw7"
 

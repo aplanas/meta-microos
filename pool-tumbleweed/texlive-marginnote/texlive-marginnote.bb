@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(marginnote.sty) \
 texlive-marginnote"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-jupyterlab-plotly \
 python311-plotly-jupyter"
+
 RDEPENDS:${PN} += "(python311-jupyterlab >= 3 or python311-notebook >= 5.3) \
 jupyter-plotly \
 python(abi) \

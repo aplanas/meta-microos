@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "log4j-over-slf4j \
 mvn(org.slf4j:log4j-over-slf4j) \
 mvn(org.slf4j:log4j-over-slf4j:pom:) \
 osgi(log4j.over.slf4j)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.slf4j:slf4j-api)"

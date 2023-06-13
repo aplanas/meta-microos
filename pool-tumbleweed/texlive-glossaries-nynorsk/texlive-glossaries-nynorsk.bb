@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(glossaries-nynorsk.ldf) \
 texlive-glossaries-nynorsk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

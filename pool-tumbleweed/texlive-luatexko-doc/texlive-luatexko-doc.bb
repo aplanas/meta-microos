@@ -9,6 +9,7 @@ RPM_HASH = "a334ab18c0ab9a705b52e41f8733c09f1276d80fda490cd69f4011c16257cb752b11
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luatexko-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

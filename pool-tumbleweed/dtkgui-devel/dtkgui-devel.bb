@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(DtkGui) \
 dtkgui-devel \
 dtkgui-devel(aarch-64) \
 pkgconfig(dtkgui)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdtkgui5 \
 pkgconfig(dtkcore)"

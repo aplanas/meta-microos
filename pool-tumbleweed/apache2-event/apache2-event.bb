@@ -14,6 +14,7 @@ RPM_HASH = "54f95da5fa98e9a2393c4ee8c63e05a887b571a3e45c9a9a22cb97e2615eed0c6462
 RPROVIDES:${PN} += "apache2-MPM \
 apache2-event \
 apache2-event(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

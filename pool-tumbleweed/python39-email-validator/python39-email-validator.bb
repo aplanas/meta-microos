@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3.9dist(email-validator) \
 python39-email-validator \
 python39-email_validator \
 python3dist(email-validator)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

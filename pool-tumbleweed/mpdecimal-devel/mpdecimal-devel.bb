@@ -10,6 +10,7 @@ RPM_HASH = "f24314afe5111be16906717bee38dcacd926df951de91d4d704938d5ec418bd52be4
 
 RPROVIDES:${PN} += "mpdecimal-devel \
 mpdecimal-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmpdec++3 \
 libmpdec3"
 

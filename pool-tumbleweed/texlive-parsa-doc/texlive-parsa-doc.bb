@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-parsa-doc:fa) \
 texlive-parsa-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

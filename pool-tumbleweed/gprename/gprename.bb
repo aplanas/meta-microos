@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(gprename.desktop) \
 gprename"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl-Gtk3 \
 perl-Pango \

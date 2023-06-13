@@ -37,6 +37,7 @@ libvtkm_rendering_testing.so.2.0()(64bit) \
 libvtkm_source.so.2.0()(64bit) \
 libvtkm_worklet.so.2.0()(64bit) \
 libvtkmdiympi_nompi.so.2.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

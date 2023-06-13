@@ -13,6 +13,7 @@ RPM_HASH = "afea12848cfc0f23fd080ec3624278e52be3a5581adeed1a2c5c53fff2a612a195fd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "llvm-vim-plugins"
+
 RDEPENDS:${PN} += "llvm16-vim-plugins"
 
 inherit rpm

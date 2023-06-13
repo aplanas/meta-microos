@@ -13,6 +13,7 @@ RPM_HASH = "1dd77d954a613acfe10ea7f9db16cb16243b54e37a644f872f14f32fb4ecc69caa64
 RPROVIDES:${PN} += "libcdio++.so.1()(64bit) \
 libcdio++1 \
 libcdio++1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

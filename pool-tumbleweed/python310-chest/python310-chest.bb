@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-chest \
 python3.10dist(chest) \
 python310-chest \
 python3dist(chest)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-HeapDict"
 

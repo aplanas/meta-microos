@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(har2nat.sty) \
 texlive-har2nat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

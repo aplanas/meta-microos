@@ -13,6 +13,7 @@ RPM_HASH = "c0c400fbe779276091dd227bc6004a3cfc6017bf85c0c1b03940e98330168a7878fb
 RPROVIDES:${PN} += "librtprocess.so.0()(64bit) \
 librtprocess0 \
 librtprocess0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

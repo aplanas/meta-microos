@@ -11,6 +11,7 @@ RPM_HASH = "31429db39c38a4ac5ea770eb551b34da3294f2854cd412799e97df849010255e2a24
 
 RPROVIDES:${PN} += "forkstat \
 forkstat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

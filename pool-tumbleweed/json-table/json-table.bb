@@ -11,6 +11,7 @@ RPM_HASH = "c25500376bcaaa44b41d48e842424fa5ab1ba297e7f5bae7930d0ebc6f9922dbf5e4
 
 RPROVIDES:${PN} += "json-table \
 json-table(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

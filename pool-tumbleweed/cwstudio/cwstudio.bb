@@ -11,6 +11,7 @@ RPM_HASH = "83068a174e3631e2ff0c45ecb331e36a7b919948d69b3f5085f5ef616d807d0a7ddf
 
 RPROVIDES:${PN} += "cwstudio \
 cwstudio(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

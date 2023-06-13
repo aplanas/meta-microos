@@ -52,6 +52,7 @@ libgxs_mysql_adaptor.so()(64bit) \
 libgxs_timer_agent.so()(64bit) \
 libgxs_user_filter.so()(64bit) \
 php-mapi-gromox"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 glibc-locale-base \

@@ -15,6 +15,7 @@ RPM_HASH = "a575691540bfba6f1dfb3803f8ab05b48d75b8df6c0aec00ac1d162d0411f48f8742
 
 RPROVIDES:${PN} += "crawl \
 crawl(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 crawl-data \
 group(games) \

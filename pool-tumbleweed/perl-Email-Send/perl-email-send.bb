@@ -17,6 +17,7 @@ perl(Email::Send::SMTP) \
 perl(Email::Send::Sendmail) \
 perl(Email::Send::Test) \
 perl-Email-Send"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Email::Abstract) \
 perl(Email::Address) \

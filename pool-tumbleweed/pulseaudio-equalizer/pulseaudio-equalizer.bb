@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(com.github.pulseaudio-equalizer-ladspa.Equalizer.desktop) \
 pulseaudio-equalizer"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 bc \

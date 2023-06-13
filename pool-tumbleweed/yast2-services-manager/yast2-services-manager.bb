@@ -14,6 +14,7 @@ application(org.opensuse.yast.ServicesManager.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.ServicesManager.metainfo.xml) \
 yast2-services-manager"
+
 RDEPENDS:${PN} += "ruby \
 yast2 \
 yast2-ruby-bindings"

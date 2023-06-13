@@ -10,6 +10,7 @@ RPM_HASH = "40bb81371ffbe8a468fcd34c44a9c87222cdbc6d012ea81fdfb9f87f53f5ac582b70
 RPROVIDES:${PN} += "config(warewulf4-api) \
 warewulf4-api \
 warewulf4-api(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgpgme.so.11()(64bit) \
 libgpgme.so.11(GPGME_1.0)(64bit) \

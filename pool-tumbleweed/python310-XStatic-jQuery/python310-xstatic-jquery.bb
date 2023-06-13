@@ -15,6 +15,7 @@ python3.10dist(xstatic-jquery) \
 python310-XStatic-jQuery \
 python310-XStatic-jQuery(aarch-64) \
 python3dist(xstatic-jquery)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

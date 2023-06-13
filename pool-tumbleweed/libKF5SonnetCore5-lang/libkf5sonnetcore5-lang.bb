@@ -94,6 +94,7 @@ locale(libKF5SonnetCore5:wa) \
 locale(libKF5SonnetCore5:zh_CN) \
 locale(libKF5SonnetCore5:zh_HK) \
 locale(libKF5SonnetCore5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5SonnetCore5"
 
 inherit rpm

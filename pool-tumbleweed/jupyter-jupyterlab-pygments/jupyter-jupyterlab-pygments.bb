@@ -9,6 +9,7 @@ RPM_HASH = "75b1fe917b9e9392072571ef847979d2cc34439a56a0ea66fcfa9cf7018a15ac7153
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-pygments"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

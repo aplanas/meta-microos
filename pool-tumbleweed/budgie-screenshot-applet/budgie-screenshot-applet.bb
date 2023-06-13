@@ -12,6 +12,7 @@ budgie-screenshot-applet(aarch-64) \
 libscreenshotapplet.so()(64bit) \
 metainfo() \
 metainfo(com.github.cybre.budgie-screenshot-applet.appdata.xml)"
+
 RDEPENDS:${PN} += "libbudgie-plugin.so.0()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \
 libcairo.so.2()(64bit) \

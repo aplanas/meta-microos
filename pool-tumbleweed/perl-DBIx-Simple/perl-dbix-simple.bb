@@ -27,6 +27,7 @@ perl(DBIx::Simple::Result) \
 perl(DBIx::Simple::Result::RowObject) \
 perl(DBIx::Simple::Statement) \
 perl-DBIx-Simple"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBI)"
 

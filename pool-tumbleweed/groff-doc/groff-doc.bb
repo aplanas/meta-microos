@@ -14,6 +14,7 @@ RPM_HASH = "e82a83810f54cf8489e3d6bc9e20d6bf1963a3dcc29185b88d627a1f783c61e0c70e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "groff-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "0a9183067bad3093081a1c1eefbf13dcc862968ec15a079457aac51e777a75c10e6f
 
 RPROVIDES:${PN} += "brisk-menu \
 brisk-menu(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

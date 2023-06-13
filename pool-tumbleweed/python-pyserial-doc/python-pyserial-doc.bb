@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python-pyserial-doc \
 python2-pyserial-doc \
 python3-pyserial-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -70,6 +70,7 @@ locale(akonadi-calendar-tools:ug) \
 locale(akonadi-calendar-tools:uk) \
 locale(akonadi-calendar-tools:zh_CN) \
 locale(akonadi-calendar-tools:zh_TW)"
+
 RDEPENDS:${PN} += "akonadi-calendar-tools"
 
 inherit rpm

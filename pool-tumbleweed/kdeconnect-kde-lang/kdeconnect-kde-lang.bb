@@ -57,6 +57,7 @@ locale(kdeconnect-kde:tr) \
 locale(kdeconnect-kde:uk) \
 locale(kdeconnect-kde:zh_CN) \
 locale(kdeconnect-kde:zh_TW)"
+
 RDEPENDS:${PN} += "kdeconnect-kde"
 
 inherit rpm

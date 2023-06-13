@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-pam \
 python3.10dist(python-pam) \
 python310-python-pam \
 python3dist(python-pam)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -13,6 +13,7 @@ mvn(org.jruby:yecht::jruby:) \
 mvn(org.jruby:yecht:pom:) \
 mvn(org.jruby:yecht:pom:jruby:) \
 yecht"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

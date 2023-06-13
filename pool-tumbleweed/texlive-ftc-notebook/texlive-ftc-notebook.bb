@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ftc-notebook.sty) \
 texlive-ftc-notebook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

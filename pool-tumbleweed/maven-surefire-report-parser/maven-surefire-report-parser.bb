@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-surefire-report-parser \
 mvn(org.apache.maven.surefire:surefire-report-parser) \
 mvn(org.apache.maven.surefire:surefire-report-parser:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.reporting:maven-reporting-api) \

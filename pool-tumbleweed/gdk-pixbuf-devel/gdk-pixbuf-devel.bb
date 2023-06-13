@@ -17,6 +17,7 @@ pkgconfig(gdk-pixbuf-2.0) \
 rpm_macro(gdk_pixbuf_loader_post) \
 rpm_macro(gdk_pixbuf_loader_postun) \
 rpm_macro(gdk_pixbuf_loader_requires)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

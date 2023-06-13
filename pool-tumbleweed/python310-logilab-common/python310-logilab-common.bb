@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-logilab-common \
 python3.10dist(logilab-common) \
 python310-logilab-common \
 python3dist(logilab-common)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

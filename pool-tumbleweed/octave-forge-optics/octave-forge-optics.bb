@@ -10,6 +10,7 @@ RPM_HASH = "99647a2bf3e7d17ea1d56bcf672443827deefa000e7edfd5d551f3c5ae5c9988cbea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-optics"
+
 RDEPENDS:${PN} += "/bin/sh \
 octave-cli"
 

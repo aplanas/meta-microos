@@ -13,6 +13,7 @@ RPM_HASH = "da33fb86441cfcc16077aba69acb567596fa87abea68447cfc53c07675512ce79ecf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-filter-repo"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 git-core \
 python(abi)"

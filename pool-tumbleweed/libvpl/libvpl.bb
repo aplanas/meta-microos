@@ -11,6 +11,7 @@ RPM_HASH = "bf504ee4d94229573e455fde0fc372e6f388edddb1904b415dabfdf33d48cbf095fd
 
 RPROVIDES:${PN} += "libvpl \
 libvpl(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:ruby-openid) \
 rubygem(ruby:3.2.0:ruby-openid:2) \
 rubygem(ruby:3.2.0:ruby-openid:2.9) \
 rubygem(ruby:3.2.0:ruby-openid:2.9.2)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ruby(abi)"
 

@@ -36,6 +36,7 @@ locale(pdfarranger:zh_CN) \
 locale(pdfarranger:zh_TW) \
 pdfarranger-lang \
 pdfarranger-lang-all"
+
 RDEPENDS:${PN} += "pdfarranger"
 
 inherit rpm

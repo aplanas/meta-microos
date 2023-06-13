@@ -13,6 +13,7 @@ RPM_HASH = "5880e99a440b61a878e7805fe149fc3a946ca13764eb85ec73e9fbe5129f97630cd6
 RPROVIDES:${PN} += "aaa_base:/bin/fillup \
 fillup \
 fillup(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

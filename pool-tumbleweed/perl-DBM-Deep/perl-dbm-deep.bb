@@ -42,6 +42,7 @@ perl(DBM::Deep::Storage) \
 perl(DBM::Deep::Storage::DBI) \
 perl(DBM::Deep::Storage::File) \
 perl-DBM-Deep"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -18,6 +18,7 @@ RPM_HASH = "8eb3f3d002c9e2fa75bf9fa6434e747c44833797aae47eb9df3ce02b82ced83df591
 
 RPROVIDES:${PN} += "ShellCheck \
 ShellCheck(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \

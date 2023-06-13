@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(jpype1) \
 python311-JPype1 \
 python311-JPype1(aarch-64) \
 python3dist(jpype1)"
+
 RDEPENDS:${PN} += "java-15-openjdk-headless \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

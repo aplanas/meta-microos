@@ -17,6 +17,7 @@ tex(njuthesis-postdoctoral.def) \
 tex(njuthesis-undergraduate.def) \
 tex(njuthesis.cls) \
 texlive-njuthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

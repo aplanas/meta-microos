@@ -61,6 +61,7 @@ locale(ktp-send-file:uk) \
 locale(ktp-send-file:vi) \
 locale(ktp-send-file:zh_CN) \
 locale(ktp-send-file:zh_TW)"
+
 RDEPENDS:${PN} += "ktp-send-file"
 
 inherit rpm

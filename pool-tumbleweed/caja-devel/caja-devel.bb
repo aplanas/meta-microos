@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "caja-devel \
 caja-devel(aarch-64) \
 mate-file-manager-devel \
 pkgconfig(libcaja-extension)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 caja \
 libcaja-extension1 \

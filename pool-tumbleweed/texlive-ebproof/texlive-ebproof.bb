@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ebproof.sty) \
 texlive-ebproof"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

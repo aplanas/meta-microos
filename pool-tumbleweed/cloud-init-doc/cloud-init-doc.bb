@@ -12,6 +12,7 @@ RPM_HASH = "f5bea75dffe2a1fe004974e0666117bc8a0f1285868b324407bfe381e6da035c93eb
 
 RPROVIDES:${PN} += "cloud-init-doc \
 cloud-init-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

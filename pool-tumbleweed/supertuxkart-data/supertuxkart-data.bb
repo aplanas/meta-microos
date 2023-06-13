@@ -9,6 +9,7 @@ RPM_HASH = "7e421eb0e22a183c2657fe86731cceb4c4d9d08b5f95764b48d35fe55cf56cd8259b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "supertuxkart-data"
+
 RDEPENDS:${PN} += "supertuxkart"
 
 inherit rpm

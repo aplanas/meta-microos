@@ -11,6 +11,7 @@ RPM_HASH = "d7003c0625940d7436881156f28b3c15df0f089af55b6083cd554bdc76c8132b4668
 RPROVIDES:${PN} += "pkgconfig(libuhttpmock-1.0) \
 uhttpmock-devel \
 uhttpmock-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libuhttpmock-1_0-1 \
 pkgconfig(gio-2.0) \

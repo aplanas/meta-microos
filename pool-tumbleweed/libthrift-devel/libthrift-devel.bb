@@ -19,6 +19,7 @@ pkgconfig(thrift) \
 pkgconfig(thrift-nb) \
 pkgconfig(thrift-z) \
 pkgconfig(thrift_c_glib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libthrift-0_17_0 \
 libthrift_c_glib0 \

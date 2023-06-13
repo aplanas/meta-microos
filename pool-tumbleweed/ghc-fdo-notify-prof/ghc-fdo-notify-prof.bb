@@ -10,6 +10,7 @@ RPM_HASH = "b9facfb469d13b28fdb978855abeea18c9e4e59c130ccc44f6f79f6cebbd7a529dcb
 RPROVIDES:${PN} += "ghc-fdo-notify-prof \
 ghc-fdo-notify-prof(aarch-64) \
 ghc-prof(fdo-notify-0.3.1-4juugYyFrKwHiJsjcNjTJW)"
+
 RDEPENDS:${PN} += "ghc-fdo-notify-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

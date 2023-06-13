@@ -13,6 +13,7 @@ RPM_HASH = "bdb3e52c296dc31de0b9be94424882940ee06c0db784d49d9270fedd1b1d841b6f02
 RPROVIDES:${PN} += "libftxr-devel \
 libftxr-devel(aarch-64) \
 pkgconfig(libftxr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libftxr1"
 

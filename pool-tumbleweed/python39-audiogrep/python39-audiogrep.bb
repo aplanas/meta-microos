@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(audiogrep) \
 python39-audiogrep \
 python3dist(audiogrep)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ffmpeg \

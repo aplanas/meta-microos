@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "screengrab-lang \
 screengrab-lang-all"
+
 RDEPENDS:${PN} += "screengrab"
 
 inherit rpm

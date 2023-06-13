@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(widows-and-orphans.sty) \
 texlive-widows-and-orphans"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

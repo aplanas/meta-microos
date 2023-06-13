@@ -9,6 +9,7 @@ RPM_HASH = "1621f9c566149ef67d88d287335b041a6f377361c658af9921674c0ccdde0574f733
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-ml-examples-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

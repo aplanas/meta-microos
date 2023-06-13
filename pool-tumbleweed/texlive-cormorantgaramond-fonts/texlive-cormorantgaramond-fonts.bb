@@ -166,6 +166,7 @@ font(cormorantgaramondlight) \
 font(cormorantgaramondmedium) \
 font(cormorantgaramondsemibold) \
 texlive-cormorantgaramond-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pybind11) \
 python39-pybind11 \
 python3dist(pybind11)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

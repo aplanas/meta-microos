@@ -51,6 +51,7 @@ locale(avahi:tr) \
 locale(avahi:uk) \
 locale(avahi:zh_CN) \
 locale(avahi:zh_TW)"
+
 RDEPENDS:${PN} += "avahi"
 
 inherit rpm

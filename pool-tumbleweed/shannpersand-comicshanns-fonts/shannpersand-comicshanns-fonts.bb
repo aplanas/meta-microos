@@ -12,6 +12,7 @@ RPM_HASH = "7bcd6fddabbd9b36a58a87eb917b8da933be89cdbedaf1987c98c265c88911c82422
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shannpersand-comicshanns-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

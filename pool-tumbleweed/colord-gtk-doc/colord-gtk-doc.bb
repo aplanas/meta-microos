@@ -9,6 +9,7 @@ RPM_HASH = "ea0547501adffb63ccf52458bf8e43bfed957bb5aa1226b841e7fd277affdc039999
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colord-gtk-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

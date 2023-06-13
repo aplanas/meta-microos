@@ -10,6 +10,7 @@ RPM_HASH = "c51f97b1f62775ecc7e8ea172e942a9cd1cb6467c8ac5deff7b1a01d90cc67d69ca6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-replace_using_env"
+
 RDEPENDS:${PN} += "/bin/bash \
 bash \
 sed"

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-hanaonazure) \
 python39-azure-mgmt-hanaonazure \
 python3dist(azure-mgmt-hanaonazure)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-core \

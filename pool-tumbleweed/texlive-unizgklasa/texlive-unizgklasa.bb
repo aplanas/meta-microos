@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(unizgklasa.cls) \
 texlive-unizgklasa"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

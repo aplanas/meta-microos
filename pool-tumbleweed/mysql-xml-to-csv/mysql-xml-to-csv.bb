@@ -10,6 +10,7 @@ RPM_HASH = "624f076f03e495ffb6da63d156e70cbf89d1adde6cd0ac175235454f696034ac7320
 
 RPROVIDES:${PN} += "mysql-xml-to-csv \
 mysql-xml-to-csv(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

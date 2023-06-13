@@ -10,6 +10,7 @@ RPM_HASH = "30b883f3d6d1d8061e69f30f0a3ff3614c5918467531f62c8f8998db3650eba2c892
 RPROVIDES:${PN} += "libBulletWorldImporter.so.3.17()(64bit) \
 libBulletWorldImporter3_17 \
 libBulletWorldImporter3_17(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

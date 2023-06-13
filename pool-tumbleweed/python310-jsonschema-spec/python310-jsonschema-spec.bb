@@ -14,6 +14,7 @@ python3.10dist(jsonschema-spec) \
 python310-jsonschema-spec \
 python310-jsonschema_spec \
 python3dist(jsonschema-spec)"
+
 RDEPENDS:${PN} += "(python310-jsonschema >= 4.0.0 with python310-jsonschema < 4.18) \
 python(abi) \
 python310-PyYAML \

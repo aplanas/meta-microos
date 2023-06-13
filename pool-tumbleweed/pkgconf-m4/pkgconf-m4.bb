@@ -10,6 +10,7 @@ RPM_HASH = "0bb7e2bfaec4ffcce04cb2407225a9fa25b3ccd860835d36e79a72b6af68c9832a32
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconf-m4"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

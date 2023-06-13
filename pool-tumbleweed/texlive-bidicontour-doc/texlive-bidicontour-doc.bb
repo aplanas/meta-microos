@@ -9,6 +9,7 @@ RPM_HASH = "59fb131596c15f897fdca293d40a9a962f492050023d13d5fc1de9b66c3a7e25c2bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bidicontour-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

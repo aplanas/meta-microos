@@ -9,6 +9,7 @@ RPM_HASH = "3a1ab51be67865dbf055d7931ce55a0c5321fbe10831004277986f9ecc4d38bd0df2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luabibentry-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pynamecheap) \
 python311-PyNamecheap \
 python3dist(pynamecheap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests"
 

@@ -10,6 +10,7 @@ RPM_HASH = "320e537f6b52755e08bd285685264a729e155bb3c0f452e8683044055316bd8acef2
 
 RPROVIDES:${PN} += "libregf-tools \
 libregf-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

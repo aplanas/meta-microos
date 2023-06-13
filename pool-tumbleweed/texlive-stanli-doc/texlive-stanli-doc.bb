@@ -9,6 +9,7 @@ RPM_HASH = "32992931c69a48f1c19bb53d747f3dec7fe4a4da47bccbc488406fe2b399af609d46
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stanli-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

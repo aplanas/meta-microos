@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metslib-devel \
 pkgconfig(metslib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

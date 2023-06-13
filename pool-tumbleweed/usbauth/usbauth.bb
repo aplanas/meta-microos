@@ -11,6 +11,7 @@ RPM_HASH = "c4d86332e501ce73e911b9f564de0ca11230acfefbe0002389a30d5afc4440710754
 RPROVIDES:${PN} += "config(usbauth) \
 usbauth \
 usbauth(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

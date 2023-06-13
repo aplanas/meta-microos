@@ -11,6 +11,7 @@ RPM_HASH = "d01d2f0cb6a8516e5ed5f89b36f34121ecb0c3e7e66f2a038848502756941f96bc13
 RPROVIDES:${PN} += "monitoring-plugins-dummy \
 monitoring-plugins-dummy(aarch-64) \
 nagios-plugins-dummy"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

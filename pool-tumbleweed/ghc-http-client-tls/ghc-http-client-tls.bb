@@ -11,6 +11,7 @@ RPM_HASH = "ee2ace7cd3310095984a4d64be57f7786ec297aa5f21fada7cfd6ce7f61ba178f8d3
 RPROVIDES:${PN} += "ghc-http-client-tls \
 ghc-http-client-tls(aarch-64) \
 libHShttp-client-tls-0.3.6.1-1pQpHwWyWRWKJTeRlrZZA0-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSappar-0.1.8-JYpyJYPkUOgKorqU8WSWRv-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk-ghc9.4.5.so()(64bit) \

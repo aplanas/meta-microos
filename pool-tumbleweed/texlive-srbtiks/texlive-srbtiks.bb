@@ -37,6 +37,7 @@ tex(t1srbtiksy.tfm) \
 tex(t1srbtiksy.vf) \
 tex(ts1srbtiks.fd) \
 texlive-srbtiks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

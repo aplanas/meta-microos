@@ -10,6 +10,7 @@ RPM_HASH = "0ed2376c82fee69089f2922837cb24432582e154b443d09dc3a0b302e17f67005379
 RPROVIDES:${PN} += "libguile-cairo.so.0()(64bit) \
 libguile-cairo0 \
 libguile-cairo0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

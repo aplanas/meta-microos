@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(textile) \
 python311-textile \
 python311-textile(aarch-64) \
 python3dist(textile)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

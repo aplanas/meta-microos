@@ -13,6 +13,7 @@ RPM_HASH = "09c8b979facfefb30a7065168bec208a0b2b6b09b291ceebd2698f4deb4ea31f4fe0
 RPROVIDES:${PN} += "libedata-cal-2.0.so.2()(64bit) \
 libedata-cal-2_0-2 \
 libedata-cal-2_0-2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

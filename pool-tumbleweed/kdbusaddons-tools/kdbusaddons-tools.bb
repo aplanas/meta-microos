@@ -10,6 +10,7 @@ RPM_HASH = "0fae565ea03c05f120b3f6c268b6fab1edca1286f063354dac39df985be8549dd8b2
 
 RPROVIDES:${PN} += "kdbusaddons-tools \
 kdbusaddons-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

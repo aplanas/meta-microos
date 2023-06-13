@@ -16,6 +16,7 @@ RPM_HASH = "07fd8723da3bd7be6b86aae9e01b1e5ba4860615db5254ee9e96134c79c9a2af3445
 
 RPROVIDES:${PN} += "cross-hppa-gcc13-bootstrap \
 cross-hppa-gcc13-bootstrap(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-hppa-binutils \
 update-alternatives"

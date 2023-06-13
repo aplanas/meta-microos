@@ -19,6 +19,7 @@ python3.10dist(python-aiml) \
 python310-aiml \
 python310-python-aiml \
 python3dist(python-aiml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -100,6 +100,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(bookhands) \
 texlive-bookhands-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

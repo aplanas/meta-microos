@@ -13,6 +13,7 @@ RPM_HASH = "fd0cd84f58a0fc2382e95bbf32bf1ba7ebf3bdbf76fab4dcfee5d4f6225843f4cdeb
 RPROVIDES:${PN} += "libganesha_rados_recov.so()(64bit) \
 nfs-ganesha-rados-grace \
 nfs-ganesha-rados-grace(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

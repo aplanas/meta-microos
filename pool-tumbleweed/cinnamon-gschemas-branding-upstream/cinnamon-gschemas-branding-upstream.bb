@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cinnamon-branding-upstream \
 cinnamon-gschemas-branding \
 cinnamon-gschemas-branding-upstream"
+
 RDEPENDS:${PN} += "cinnamon-gschemas"
 
 inherit rpm

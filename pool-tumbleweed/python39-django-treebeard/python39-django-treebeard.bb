@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-treebeard) \
 python39-django-treebeard \
 python3dist(django-treebeard)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

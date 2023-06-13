@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(versiontools) \
 python39-versiontools \
 python3dist(versiontools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-setuptools"
 

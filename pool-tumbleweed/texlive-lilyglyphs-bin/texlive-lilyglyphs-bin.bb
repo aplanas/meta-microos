@@ -9,6 +9,7 @@ RPM_HASH = "a6be50aae53e3eb3ee9e7925c9b9ca9a9e419a10d1dc58ecf480b99dd2e73cb7f80b
 
 RPROVIDES:${PN} += "texlive-lilyglyphs-bin \
 texlive-lilyglyphs-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-lilyglyphs"
 
 inherit rpm

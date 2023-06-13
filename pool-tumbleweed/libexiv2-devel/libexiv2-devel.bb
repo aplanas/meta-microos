@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(exiv2) \
 libexiv2-devel \
 libexiv2-devel(aarch-64) \
 pkgconfig(exiv2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libexiv2-27 \
 libexiv2-xmp-static \

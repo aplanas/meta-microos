@@ -11,6 +11,7 @@ RPM_HASH = "f912c8cf021aef31fed28fa5490cc512733401e3fd8a6a6fba4abf98b897e8b58c92
 RPROVIDES:${PN} += "libqb.so.100()(64bit) \
 libqb100 \
 libqb100(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

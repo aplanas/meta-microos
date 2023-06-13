@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(luaotfload-tool.1) \
 texlive-luaotfload-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

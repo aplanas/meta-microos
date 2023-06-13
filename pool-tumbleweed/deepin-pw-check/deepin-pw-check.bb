@@ -9,6 +9,7 @@ RPM_HASH = "57b7093ddc292309318f446a3887e7a73252a55f3ea779e0632430272c1bcb6942a6
 
 RPROVIDES:${PN} += "deepin-pw-check \
 deepin-pw-check(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

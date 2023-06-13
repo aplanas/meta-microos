@@ -9,6 +9,7 @@ RPM_HASH = "805d0df858f3c0175243210b570171b802a971ff4d80d6d64db25c0cfb0561b319e1
 
 RPROVIDES:${PN} += "wofi \
 wofi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

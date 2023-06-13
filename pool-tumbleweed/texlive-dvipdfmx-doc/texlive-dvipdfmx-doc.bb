@@ -15,6 +15,7 @@ man(ebb.1) \
 man(extractbb.1) \
 man(xdvipdfmx.1) \
 texlive-dvipdfmx-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

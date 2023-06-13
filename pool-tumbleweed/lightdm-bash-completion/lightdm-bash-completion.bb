@@ -9,6 +9,7 @@ RPM_HASH = "6248fc6adbce1e69eb324f49e6ab9eb8f42ffda611fb1cc29c17b0a63bbbe378fd7f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lightdm-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 lightdm"
 

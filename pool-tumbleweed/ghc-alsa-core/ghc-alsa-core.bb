@@ -11,6 +11,7 @@ RPM_HASH = "edd9fb49b217115e54f051ac5a617a0f095a2657baa79aae6eb7a16713e4d3132664
 RPROVIDES:${PN} += "ghc-alsa-core \
 ghc-alsa-core(aarch-64) \
 libHSalsa-core-0.5.0.1-JiFJwdvZ0Gx6AeuqXKf7yg-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSextensible-exceptions-0.1.1.4-ItoFoaqbPMuGIlsBr6VhGY-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \

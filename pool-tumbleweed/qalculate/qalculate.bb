@@ -13,6 +13,7 @@ RPM_HASH = "6ce4810f3a94ee557dcd99bdf36684120c24e416dcee054563e493a5540ebd367b04
 
 RPROVIDES:${PN} += "qalculate \
 qalculate(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

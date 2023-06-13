@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(injector) \
 python311-injector \
 python3dist(injector)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311"
 

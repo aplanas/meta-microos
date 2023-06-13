@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(py-moneyed) \
 python311-py-moneyed \
 python3dist(py-moneyed)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Babel \
 python311-typing-extensions"

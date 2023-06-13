@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(asy.1) \
 man(xasy.1) \
 texlive-asymptote-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

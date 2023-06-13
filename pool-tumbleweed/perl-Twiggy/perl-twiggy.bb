@@ -53,6 +53,7 @@ perl(Twiggy::Server) \
 perl(Twiggy::Server::SS) \
 perl(Twiggy::Writer) \
 perl-Twiggy"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(AnyEvent) \

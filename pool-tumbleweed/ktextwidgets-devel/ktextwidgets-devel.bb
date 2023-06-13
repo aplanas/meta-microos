@@ -11,6 +11,7 @@ RPM_HASH = "90063d5deed08bd40c8e1a43bc453731d033fc8df3227c7978252bcb0308bfab6c7c
 RPROVIDES:${PN} += "cmake(KF5TextWidgets) \
 ktextwidgets-devel \
 ktextwidgets-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5I18n) \
 cmake(KF5Sonnet) \
 cmake(Qt5Widgets) \

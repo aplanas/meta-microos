@@ -15,6 +15,7 @@ RPM_HASH = "2e8f9dda16f59269b2b96abe879a60f5974b613279e9f1c632cc1c853c345ab2edf4
 
 RPROVIDES:${PN} += "crash-doc \
 crash-doc(aarch-64)"
+
 RDEPENDS:${PN} += "crash"
 
 inherit rpm

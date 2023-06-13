@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "brasero-devel \
 brasero-devel(aarch-64) \
 pkgconfig(libbrasero-burn3) \
 pkgconfig(libbrasero-media3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 brasero \
 libbrasero-burn3-1 \

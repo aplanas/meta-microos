@@ -13,6 +13,7 @@ RPM_HASH = "8e5007702b6b9066a9752246f1a8d3bd01c4e30937ff5c190f52145c6279af9011f0
 
 RPROVIDES:${PN} += "OpenColorIO-tools \
 OpenColorIO-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLEW.so.2.2()(64bit) \

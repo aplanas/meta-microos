@@ -9,6 +9,7 @@ RPM_HASH = "786aee0b524ae4f202240a7016af8d62a45622c42135d01b30c15184aca18e044737
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "molequeue-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

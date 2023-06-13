@@ -10,6 +10,7 @@ RPM_HASH = "aab3b295ab44b2023dbb33dfe1533c9dd927fb39c17dfe67a67935291905d142275a
 
 RPROVIDES:${PN} += "Regina-REXX-doc \
 Regina-REXX-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

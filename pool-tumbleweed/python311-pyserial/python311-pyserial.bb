@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(pyserial) \
 python311-pyserial \
 python311-serial \
 python3dist(pyserial)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

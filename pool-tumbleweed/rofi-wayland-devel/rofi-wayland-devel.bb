@@ -10,6 +10,7 @@ RPM_HASH = "72d33e883e5fda0b350c18a1b91b4f1cfca6f1ab128f16ac6738556f1577b9be090e
 RPROVIDES:${PN} += "pkgconfig(rofi) \
 rofi-wayland-devel \
 rofi-wayland-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(cairo) \
 pkgconfig(glib-2.0) \

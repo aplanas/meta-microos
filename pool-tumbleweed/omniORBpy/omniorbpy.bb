@@ -9,6 +9,7 @@ RPM_HASH = "7f0f7c13fa126c51a0c844f8acb8d068add903e14d4e558e2eed1ed852f6bc7dad22
 
 RPROVIDES:${PN} += "omniORBpy \
 omniORBpy(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

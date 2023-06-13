@@ -19,6 +19,7 @@ RPM_HASH = "c2614a9c639d841382cd24da35860246842edf1aa925b29a37bf3f1d7e4605429351
 
 RPROVIDES:${PN} += "gnucap \
 gnucap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

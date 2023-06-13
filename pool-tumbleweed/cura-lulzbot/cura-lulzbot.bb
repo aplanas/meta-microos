@@ -28,6 +28,7 @@ mimehandler(image/gif) \
 mimehandler(image/jpeg) \
 mimehandler(image/png) \
 mimehandler(model/x3d+xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cura-engine-lulzbot \
 python(abi) \

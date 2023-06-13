@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tagstats) \
 python311-TagStats \
 python3dist(tagstats)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

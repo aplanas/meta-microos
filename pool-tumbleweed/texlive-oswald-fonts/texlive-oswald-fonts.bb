@@ -148,6 +148,7 @@ font(:lang=yap) \
 font(:lang=za) \
 font(:lang=zu) \
 texlive-oswald-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

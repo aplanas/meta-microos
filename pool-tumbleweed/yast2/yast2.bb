@@ -28,6 +28,7 @@ perl(MailTable::SendmailVirtuser) \
 perl(SLPAPI) \
 yast2 \
 yast2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

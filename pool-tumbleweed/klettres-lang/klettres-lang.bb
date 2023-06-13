@@ -78,6 +78,7 @@ locale(klettres:vi) \
 locale(klettres:wa) \
 locale(klettres:zh_CN) \
 locale(klettres:zh_TW)"
+
 RDEPENDS:${PN} += "klettres"
 
 inherit rpm

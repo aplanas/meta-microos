@@ -14,6 +14,7 @@ RPM_HASH = "8ce82dc341654c3b57748c6b36bd17119bf2f2ad9ef162343692682805f629d5290c
 RPROVIDES:${PN} += "libdrm_radeon.so.1()(64bit) \
 libdrm_radeon1 \
 libdrm_radeon1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

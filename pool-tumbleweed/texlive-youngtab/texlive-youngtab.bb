@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(youngtab.sty) \
 texlive-youngtab"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

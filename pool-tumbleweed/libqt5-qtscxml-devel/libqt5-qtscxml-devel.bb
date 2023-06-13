@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5Scxml) \
 libqt5-qtscxml-devel \
 libqt5-qtscxml-devel(aarch-64) \
 pkgconfig(Qt5Scxml)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Scxml5 \
 libqt5-qtscxml-tools \

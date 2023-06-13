@@ -9,6 +9,7 @@ RPM_HASH = "d981462ed740fd5e9f454068d46172f983c516c6f94f47f026e8090edb8992a902b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bubblesort-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

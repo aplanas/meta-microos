@@ -9,6 +9,7 @@ RPM_HASH = "7ac6368621412306d567757e7504a85749b7abdf3d5d79bfbe62a8518b86773c036e
 
 RPROVIDES:${PN} += "chkstat \
 chkstat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.36)(64bit) \

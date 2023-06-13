@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fmp.sty) \
 texlive-fmp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

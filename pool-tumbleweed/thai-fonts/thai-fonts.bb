@@ -121,6 +121,7 @@ font(waree) \
 fonts-thai \
 locale(th) \
 thai-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

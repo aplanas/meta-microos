@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(scp) \
 python39-scp \
 python3dist(scp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-paramiko"
 

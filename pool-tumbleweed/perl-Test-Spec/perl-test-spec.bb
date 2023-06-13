@@ -27,6 +27,7 @@ perl(Test::Spec::Mocks::Stub) \
 perl(Test::Spec::SharedHash) \
 perl(Test::Spec::TodoExample) \
 perl-Test-Spec"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::GlobalPhase) \
 perl(Package::Stash) \

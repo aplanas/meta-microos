@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(leglight) \
 python311-leglight \
 python311-leglight(aarch-64) \
 python3dist(leglight)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests \
 python311-zeroconf"

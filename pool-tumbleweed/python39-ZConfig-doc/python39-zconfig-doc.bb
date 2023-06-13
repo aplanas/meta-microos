@@ -9,6 +9,7 @@ RPM_HASH = "75eeafa91b54bff9ab0645308dc2cd2364e25f112d4214e3816adb22396250596d9e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-ZConfig-doc"
+
 RDEPENDS:${PN} += "python39-ZConfig"
 
 inherit rpm

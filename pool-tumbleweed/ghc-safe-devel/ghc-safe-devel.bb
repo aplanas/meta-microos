@@ -10,6 +10,7 @@ RPM_HASH = "59fc4e7ce67aad1bd5a69f6a902e956bffd15907a5b3fa019bd66845128778c3f54a
 RPROVIDES:${PN} += "ghc-devel(safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds) \
 ghc-safe-devel \
 ghc-safe-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

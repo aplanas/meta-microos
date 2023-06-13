@@ -16,6 +16,7 @@ RPM_HASH = "56804e3dc97b85df3f53df41900755e8d2ca218f2f439c03f9e70af17fd1bde1dd6e
 RPROVIDES:${PN} += "libXres-devel \
 libXres-devel(aarch-64) \
 pkgconfig(xres)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXRes1 \
 pkgconfig(x11) \

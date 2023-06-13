@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pypdf2) \
 python39-PyPDF2 \
 python3dist(pypdf2)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

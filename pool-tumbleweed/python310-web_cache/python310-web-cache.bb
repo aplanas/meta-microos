@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-web_cache \
 python3.10dist(web-cache) \
 python310-web_cache \
 python3dist(web-cache)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310"
 

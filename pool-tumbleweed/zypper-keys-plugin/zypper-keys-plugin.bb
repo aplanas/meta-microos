@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(zyppkeys) \
 python3dist(zyppkeys) \
 zypper-keys-plugin"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 curl \
 python(abi) \

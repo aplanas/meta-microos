@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(commath.sty) \
 texlive-commath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

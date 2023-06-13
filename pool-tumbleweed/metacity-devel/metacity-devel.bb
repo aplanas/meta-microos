@@ -14,6 +14,7 @@ RPM_HASH = "e2ead4fbb15b015fe445480bcce15fd465ecc01ca60d5d004d0a9c52b12020e1f8f4
 RPROVIDES:${PN} += "metacity-devel \
 metacity-devel(aarch-64) \
 pkgconfig(libmetacity)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmetacity3 \
 pkgconfig(glib-2.0) \

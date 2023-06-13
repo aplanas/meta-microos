@@ -35,6 +35,7 @@ locale(kde-inotify-survey:tr) \
 locale(kde-inotify-survey:uk) \
 locale(kde-inotify-survey:zh_CN) \
 locale(kde-inotify-survey:zh_TW)"
+
 RDEPENDS:${PN} += "kde-inotify-survey"
 
 inherit rpm

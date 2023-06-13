@@ -14,6 +14,7 @@ RPM_HASH = "c4567edb86ea3cbd6147a7f549c41d9d0be98f4193e10d0f7b93d7ec5ad3560f2778
 RPROVIDES:${PN} += "libwxlua_debug-wx32-3_1_0_0 \
 libwxlua_debug-wx32-3_1_0_0(aarch-64) \
 libwxlua_debug-wx32gtk3u-3.1.0.0.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

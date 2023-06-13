@@ -13,6 +13,7 @@ RPM_HASH = "da40955ffc05c3181c2ec782ddd647359d0175610957058bc8203b4fb417ddc3e44c
 RPROVIDES:${PN} += "libKF5DNSSD.so.5()(64bit) \
 libKF5DNSSD5 \
 libKF5DNSSD5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

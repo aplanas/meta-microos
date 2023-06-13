@@ -14,6 +14,7 @@ RPM_HASH = "43250f13da11770741e78b3f253df278a75300d47a6b905f14ea2a218df6bb818826
 RPROVIDES:${PN} += "libscanmem.so.1()(64bit) \
 scanmem \
 scanmem(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

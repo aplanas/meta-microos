@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-github-alt \
 python3.10dist(sphinxcontrib-github-alt) \
 python310-sphinxcontrib-github-alt \
 python3dist(sphinxcontrib-github-alt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-docutils"

@@ -15,6 +15,7 @@ mimehandler(application/x-bittorrent) \
 mimehandler(x-scheme-handler/magnet) \
 python3.10dist(epour) \
 python3dist(epour)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-dbus-python \

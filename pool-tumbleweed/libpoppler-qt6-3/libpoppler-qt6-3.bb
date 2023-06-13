@@ -11,6 +11,7 @@ RPM_HASH = "bf6abae0687aed65d1924911823d20304af26444018fcf865c7fa500e7fd20685168
 RPROVIDES:${PN} += "libpoppler-qt6-3 \
 libpoppler-qt6-3(aarch-64) \
 libpoppler-qt6.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

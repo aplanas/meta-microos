@@ -10,6 +10,7 @@ RPM_HASH = "b73489f13668b7b63af1d4143865e3f47d917919fd52d383d5da6728eec6f771d604
 RPROVIDES:${PN} += "ghc-attoparsec-prof \
 ghc-attoparsec-prof(aarch-64) \
 ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3)"
+
 RDEPENDS:${PN} += "ghc-attoparsec-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

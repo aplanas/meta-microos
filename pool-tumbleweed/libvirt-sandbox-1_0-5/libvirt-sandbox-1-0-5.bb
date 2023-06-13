@@ -14,6 +14,7 @@ libvirt-sandbox-1.0.so.5(LIBVIRT_SANDBOX_0.6.0)(64bit) \
 libvirt-sandbox-1.0.so.5(LIBVIRT_SANDBOX_0.6.1)(64bit) \
 libvirt-sandbox-1_0-5 \
 libvirt-sandbox-1_0-5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

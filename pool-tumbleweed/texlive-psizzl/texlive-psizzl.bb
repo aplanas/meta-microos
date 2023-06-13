@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(mypsizzl.tex) \
 tex(psizzl.tex) \
 texlive-psizzl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

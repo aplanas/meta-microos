@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KF5Wayland) \
 kwayland-devel \
 kwayland-devel(aarch-64) \
 pkgconfig(KF5WaylandClient)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt5Gui) \
 extra-cmake-modules \

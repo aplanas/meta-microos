@@ -11,6 +11,7 @@ RPM_HASH = "31fae8b783fc30f3f1bfce796f76c81721c452a120d0dcfc1ce6d815152b0b79b80d
 RPROVIDES:${PN} += "libwps-0.4.so.4()(64bit) \
 libwps-0_4-4 \
 libwps-0_4-4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

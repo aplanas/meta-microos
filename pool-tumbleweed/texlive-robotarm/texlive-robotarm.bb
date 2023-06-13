@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(robotarm.sty) \
 texlive-robotarm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

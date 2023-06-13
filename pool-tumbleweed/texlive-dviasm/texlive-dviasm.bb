@@ -12,6 +12,7 @@ RPM_HASH = "3c71130d2ac5955262ece42fa379d70afb4da8d8e313fd81c707c53d34f6c2a11860
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dviasm"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

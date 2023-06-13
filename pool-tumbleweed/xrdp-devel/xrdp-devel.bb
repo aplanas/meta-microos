@@ -12,6 +12,7 @@ pkgconfig(rfxcodec) \
 pkgconfig(xrdp) \
 xrdp-devel \
 xrdp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpainter0 \
 librfxencode0"

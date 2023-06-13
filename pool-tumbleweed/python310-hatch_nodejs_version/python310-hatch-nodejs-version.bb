@@ -21,6 +21,7 @@ python3.10dist(hatch-nodejs-version) \
 python310-hatch-nodejs-version \
 python310-hatch_nodejs_version \
 python3dist(hatch-nodejs-version)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-hatchling"
 

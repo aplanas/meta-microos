@@ -24,6 +24,7 @@ tex(cmphi8.tfm) \
 tex(cmphi9.tfm) \
 tex(phonetic.sty) \
 texlive-phonetic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

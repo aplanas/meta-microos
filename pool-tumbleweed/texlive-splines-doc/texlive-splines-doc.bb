@@ -9,6 +9,7 @@ RPM_HASH = "b523c81b25eb70d41a224c6a63e3d8e9202d93cc73a36206639f556a3f6ef2635931
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-splines-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

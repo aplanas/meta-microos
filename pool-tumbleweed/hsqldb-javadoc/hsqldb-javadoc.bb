@@ -9,6 +9,7 @@ RPM_HASH = "85eb3e7419e698a0bc1b21cc3dae0c3750a4ce6365c6d6671b7e76fc6cee3148057d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hsqldb-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Flask-Mail \
 python3.10dist(flask-mail) \
 python310-Flask-Mail \
 python3dist(flask-mail)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-blinker"

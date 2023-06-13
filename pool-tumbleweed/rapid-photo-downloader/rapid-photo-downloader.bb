@@ -22,6 +22,7 @@ mimehandler(x-content/image-dcf) \
 python3.10dist(rapid-photo-downloader) \
 python3dist(rapid-photo-downloader) \
 rapid-photo-downloader"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 exiftool \
 ifuse \

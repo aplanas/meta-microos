@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-binary-memcached \
 python3.10dist(python-binary-memcached) \
 python310-python-binary-memcached \
 python3dist(python-binary-memcached)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six \
 python310-uhashring"

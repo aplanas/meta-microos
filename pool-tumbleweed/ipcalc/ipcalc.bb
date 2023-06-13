@@ -15,6 +15,7 @@ RPM_HASH = "0bf6507d21c2b1a3fd25c374214f5f9c32a30b6cf56f1f6c82c42041565d54cc21b0
 
 RPROVIDES:${PN} += "ipcalc \
 ipcalc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

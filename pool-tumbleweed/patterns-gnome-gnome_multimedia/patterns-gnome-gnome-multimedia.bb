@@ -15,6 +15,7 @@ pattern-order() \
 patterns-gnome-gnome_multimedia \
 patterns-gnome-gnome_multimedia(aarch-64) \
 patterns-openSUSE-gnome_multimedia"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

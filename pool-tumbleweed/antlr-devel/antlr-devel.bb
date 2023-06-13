@@ -15,6 +15,7 @@ RPM_HASH = "b306710c334d7d622bbd8f45ca4e8afc1fa108355251a6fa857c643090134468b2db
 
 RPROVIDES:${PN} += "antlr-devel \
 antlr-devel(aarch-64)"
+
 RDEPENDS:${PN} += "antlr"
 
 inherit rpm

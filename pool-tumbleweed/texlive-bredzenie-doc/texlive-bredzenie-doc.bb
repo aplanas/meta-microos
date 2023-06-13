@@ -9,6 +9,7 @@ RPM_HASH = "0d0d8e00ed04ccd4d5fb830786ae3346df03fc391889387f2a8ac9d36529630fb7f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bredzenie-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

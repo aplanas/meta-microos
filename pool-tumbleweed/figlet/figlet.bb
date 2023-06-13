@@ -12,6 +12,7 @@ RPM_HASH = "06b07a67f2cd5275cd4266d72eaabbbbcd589916c1b4ea3c3b4ef1c8c88542ea7fca
 
 RPROVIDES:${PN} += "figlet \
 figlet(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

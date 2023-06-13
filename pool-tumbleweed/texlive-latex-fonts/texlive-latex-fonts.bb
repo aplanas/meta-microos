@@ -41,6 +41,7 @@ tex(lcmssi8.tfm) \
 tex(line10.tfm) \
 tex(linew10.tfm) \
 texlive-latex-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

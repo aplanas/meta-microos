@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32(libwinpthread-1.dll) \
 mingw32-libwinpthread1"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

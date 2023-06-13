@@ -66,6 +66,7 @@ locale(gpicview:uk) \
 locale(gpicview:vi) \
 locale(gpicview:zh_CN) \
 locale(gpicview:zh_TW)"
+
 RDEPENDS:${PN} += "gpicview"
 
 inherit rpm

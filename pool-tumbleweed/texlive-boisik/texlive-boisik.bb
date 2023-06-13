@@ -63,6 +63,7 @@ tex(ot1bskf.fd) \
 tex(ts1bsk.fd) \
 tex(ubskex.fd) \
 texlive-boisik"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

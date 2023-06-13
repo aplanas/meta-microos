@@ -11,6 +11,7 @@ RPM_HASH = "7f4168f2a7a9d01047d4eddde64087c4aaa35b9c4ae4de0fbd1d12b088dea6c59d88
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-common"
+
 RDEPENDS:${PN} += "/bin/sh \
 autoconf \
 autoconf-archive \

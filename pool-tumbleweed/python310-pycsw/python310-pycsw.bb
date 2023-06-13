@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pycsw \
 python3.10dist(pycsw) \
 python310-pycsw \
 python3dist(pycsw)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

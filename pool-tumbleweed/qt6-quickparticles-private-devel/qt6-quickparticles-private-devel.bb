@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Qt6QuickParticlesPrivate) \
 qt6-quickparticles-devel \
 qt6-quickparticles-private-devel \
 qt6-quickparticles-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQt6QuickParticles6 \
 qt6-gui-private-devel \
 qt6-qml-private-devel \

@@ -10,6 +10,7 @@ RPM_HASH = "e4d068df9e3060b47d7e998c6e55087c4a1b682a2d620ab89418701855469c033855
 RPROVIDES:${PN} += "ghc-cipher-aes-prof \
 ghc-cipher-aes-prof(aarch-64) \
 ghc-prof(cipher-aes-0.2.11-Izmj38K7uNp7rHcFTtfQFi)"
+
 RDEPENDS:${PN} += "ghc-cipher-aes-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(byteable-0.1.1-KSaZugJOm4ALb4WyX9cufg) \

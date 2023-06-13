@@ -20,6 +20,7 @@ tex(eltex5.tex) \
 tex(eltex6.tex) \
 tex(eltex7.tex) \
 texlive-eltex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

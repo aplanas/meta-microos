@@ -21,6 +21,7 @@ python310-targetcli-fb \
 python3dist(targetcli-fb) \
 targetcli \
 targetcli-fb"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

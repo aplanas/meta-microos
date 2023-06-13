@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Protego \
 python3.10dist(protego) \
 python310-Protego \
 python3dist(protego)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

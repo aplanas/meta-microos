@@ -9,6 +9,7 @@ RPM_HASH = "fc07e030826c068337f6e3169bde1dc560349721a4073ab6364842cbe5d71c809af8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mockito-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(ddrescueview.desktop) \
 ddrescueview \
 ddrescueview(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5Pas.so.1()(64bit) \
 libX11.so.6()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

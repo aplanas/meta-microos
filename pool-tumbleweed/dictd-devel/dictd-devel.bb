@@ -15,6 +15,7 @@ RPM_HASH = "2abe3ee3f7376577f04efac36694f3b9b51982da63de16b4b440ee493f2313d98803
 
 RPROVIDES:${PN} += "dictd-devel \
 dictd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "dictd"
 
 inherit rpm

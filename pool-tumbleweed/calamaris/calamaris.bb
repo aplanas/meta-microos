@@ -10,6 +10,7 @@ RPM_HASH = "f90b2cd245b3e2fe7eda6426a58c71d7b62bcdb3735a7bb3e4f28a5840ba35ee138f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calamaris"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

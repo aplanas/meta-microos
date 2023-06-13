@@ -14,6 +14,7 @@ RPM_HASH = "db0df1b5e7f73b7ec9e0f33c1d5d6068c7357b78180e8ea1818b51efb69f56673d1f
 
 RPROVIDES:${PN} += "nethogs \
 nethogs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

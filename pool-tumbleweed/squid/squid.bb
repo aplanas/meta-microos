@@ -18,6 +18,7 @@ http_proxy \
 squid \
 squid(aarch-64) \
 user(squid)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/sed \

@@ -9,6 +9,7 @@ RPM_HASH = "46f3254f717c8584409b44691da9397c233082f61f96897787c5ac9af53180faf3e1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fink-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

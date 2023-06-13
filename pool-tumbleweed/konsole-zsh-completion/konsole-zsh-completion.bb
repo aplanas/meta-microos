@@ -9,6 +9,7 @@ RPM_HASH = "60870878f3b26f4955f4d106267b8861fd7c9069493a19995767dec40dcc2722468c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "konsole-zsh-completion"
+
 RDEPENDS:${PN} += "konsole"
 
 inherit rpm

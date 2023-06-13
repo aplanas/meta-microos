@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-elastic-transport \
 python3.10dist(elastic-transport) \
 python310-elastic-transport \
 python3dist(elastic-transport)"
+
 RDEPENDS:${PN} += "(python310-urllib3 >= 1.26.2) \
 python(abi) \
 python310-certifi"

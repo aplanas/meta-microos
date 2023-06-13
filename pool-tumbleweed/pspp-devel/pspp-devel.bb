@@ -13,6 +13,7 @@ RPM_HASH = "e5411fb7c58a5583ac5eb7a716bd8f7a852e0d216c13cc3384662ab16e35d0ab5466
 
 RPROVIDES:${PN} += "pspp-devel \
 pspp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 gsl-devel \
 libxml2-devel \

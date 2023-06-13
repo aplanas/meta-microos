@@ -11,6 +11,7 @@ RPM_HASH = "57a2b6e049905303160f1e766fe146e2314800fa3050e432a0ea05082df59e2fdee1
 
 RPROVIDES:${PN} += "feedbackd \
 feedbackd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

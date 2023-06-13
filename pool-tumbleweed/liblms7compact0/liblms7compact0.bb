@@ -10,6 +10,7 @@ RPM_HASH = "f1a0767bbfd36dd4387d81af7791230ca037cafd0f1a9996ba946dba8e6aa86deffa
 RPROVIDES:${PN} += "liblms7compact.so.0()(64bit) \
 liblms7compact0 \
 liblms7compact0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

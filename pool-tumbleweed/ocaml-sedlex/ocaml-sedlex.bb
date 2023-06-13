@@ -11,6 +11,7 @@ RPM_HASH = "fb5b74394e3327667970febdc06624aa178d8d208f25b1297e088a8daae2c2709ad7
 
 RPROVIDES:${PN} += "ocaml-sedlex \
 ocaml-sedlex(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

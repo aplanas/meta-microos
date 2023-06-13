@@ -11,6 +11,7 @@ RPM_HASH = "12013b52c3df1a3e830fc36f92ce505b93e669f74edbb9530756c474369fb1e7adf4
 RPROVIDES:${PN} += "gucharmap-devel \
 gucharmap-devel(aarch-64) \
 pkgconfig(gucharmap-2.90)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgucharmap_2_90-7 \
 pkgconfig(gio-2.0) \

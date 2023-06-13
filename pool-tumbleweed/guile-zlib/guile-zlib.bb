@@ -10,6 +10,7 @@ RPM_HASH = "0988e85eb667ed7414d4a9e572e713a66ca8d5cd949e4cbeaafb3651ee25d133b353
 
 RPROVIDES:${PN} += "guile-zlib \
 guile-zlib(aarch-64)"
+
 RDEPENDS:${PN} += "guile \
 zlib-devel"
 

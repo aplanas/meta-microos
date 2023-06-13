@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(bibcop.1) \
 texlive-bibcop-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

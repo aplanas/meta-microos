@@ -13,6 +13,7 @@ RPM_HASH = "a27e2f14b66556f7986a3d5a1ce91fe367e58d937ef3b4fd905eec25777c73e4918b
 RPROVIDES:${PN} += "cmake(KF5WidgetsAddons) \
 kwidgetsaddons-devel \
 kwidgetsaddons-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Widgets) \
 extra-cmake-modules \
 ld-linux-aarch64.so.1()(64bit) \

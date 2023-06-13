@@ -60,6 +60,7 @@ libusn-plugin.so()(64bit) \
 libviews-plugin.so()(64bit) \
 libwhoami-plugin.so()(64bit) \
 user(dirsrv)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/python3 \

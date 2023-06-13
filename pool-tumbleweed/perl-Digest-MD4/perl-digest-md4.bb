@@ -17,6 +17,7 @@ RPM_HASH = "c619a4dab22802900f451df36809b9845d1464f8d145fc771c6f7d06be506098f1e3
 RPROVIDES:${PN} += "perl(Digest::MD4) \
 perl-Digest-MD4 \
 perl-Digest-MD4(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

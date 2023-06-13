@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32(lib:mpfr) \
 mingw32-mpfr-devel"
+
 RDEPENDS:${PN} += "mingw32(lib:gmp)"
 
 inherit rpm

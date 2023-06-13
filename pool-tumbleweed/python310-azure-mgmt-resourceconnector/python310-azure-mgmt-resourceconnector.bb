@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-resourceconnector \
 python3.10dist(azure-mgmt-resourceconnector) \
 python310-azure-mgmt-resourceconnector \
 python3dist(azure-mgmt-resourceconnector)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
 python(abi) \
 python310-azure-common \

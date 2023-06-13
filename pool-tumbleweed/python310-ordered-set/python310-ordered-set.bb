@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-ordered-set \
 python3.10dist(ordered-set) \
 python310-ordered-set \
 python3dist(ordered-set)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

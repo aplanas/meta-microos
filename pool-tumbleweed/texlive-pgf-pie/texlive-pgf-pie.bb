@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pgf-pie.sty) \
 tex(tikzlibrarypie.code.tex) \
 texlive-pgf-pie"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -27,6 +27,7 @@ RPM_HASH = "d86dd20844583cb0e8dd9d920964eb818c9b1ce1652a7b6d270478818223f1f8c83d
 RPROVIDES:${PN} += "ghc-cmdargs \
 ghc-cmdargs(aarch-64) \
 libHScmdargs-0.10.22-JxALoPeruUH3tSM40P8Mx-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

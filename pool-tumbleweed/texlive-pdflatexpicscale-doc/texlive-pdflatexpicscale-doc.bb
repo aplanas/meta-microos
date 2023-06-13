@@ -9,6 +9,7 @@ RPM_HASH = "6cfba939f457efe224a3b0f74b65504849cdcb0bc485137f7aec9b1c2ceb7a89cc80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdflatexpicscale-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "8ec0718dd864dc2e3c13c270fa8f6b4cfb8cc08f1648cb3b0f24ae8584395f77bfd7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-info"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

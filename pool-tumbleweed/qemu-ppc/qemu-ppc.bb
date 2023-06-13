@@ -16,6 +16,7 @@ RPM_HASH = "ae96ee53b5bc5438e8bad588607b6863de1535ebf348438c1f9fe08ae28099145c37
 
 RPROVIDES:${PN} += "qemu-ppc \
 qemu-ppc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaio.so.1()(64bit) \

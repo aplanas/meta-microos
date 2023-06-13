@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xetex) \
 texlive-collection-xetex"
+
 RDEPENDS:${PN} += "texlive-arabxetex \
 texlive-awesomebox \
 texlive-bidi-atbegshi \

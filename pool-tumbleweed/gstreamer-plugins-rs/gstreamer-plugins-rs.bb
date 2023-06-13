@@ -178,6 +178,7 @@ libgsturiplaylistbin.so()(64bit) \
 libgstwebrtchttp.so()(64bit) \
 metainfo() \
 metainfo(gstreamer-plugins-rs.appdata.xml)"
+
 RDEPENDS:${PN} += "gstreamer \
 gstreamer-plugins-base \
 ld-linux-aarch64.so.1()(64bit) \

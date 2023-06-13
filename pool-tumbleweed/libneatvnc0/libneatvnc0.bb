@@ -10,6 +10,7 @@ RPM_HASH = "0f39a62c11e7ffbe70d19d044d06a5f9c480ad51f3693e5c292f7c707b07e6e3f326
 RPROVIDES:${PN} += "libneatvnc.so.0()(64bit) \
 libneatvnc0 \
 libneatvnc0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

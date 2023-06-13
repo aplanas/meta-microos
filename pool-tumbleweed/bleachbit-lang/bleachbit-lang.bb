@@ -68,6 +68,7 @@ locale(bleachbit:uk) \
 locale(bleachbit:vi) \
 locale(bleachbit:zh_CN) \
 locale(bleachbit:zh_TW)"
+
 RDEPENDS:${PN} += "bleachbit"
 
 inherit rpm

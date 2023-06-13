@@ -12,6 +12,7 @@ RPM_HASH = "80ef5c8644ce58e8c9e6fc009f7d8fccbc0cc6cc43f00fa96a29d1671161522e15a7
 
 RPROVIDES:${PN} += "ocaml-qtest \
 ocaml-qtest(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.17)(64bit) \

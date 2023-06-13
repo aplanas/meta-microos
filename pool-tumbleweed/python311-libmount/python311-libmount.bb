@@ -10,6 +10,7 @@ RPM_HASH = "6d1a66afa724c89d6646ba118931dc7571e9ae6ba9dee3ed0acc7fc46c946fd47f16
 
 RPROVIDES:${PN} += "python311-libmount \
 python311-libmount(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

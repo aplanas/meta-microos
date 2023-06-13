@@ -13,6 +13,7 @@ RPM_HASH = "85949803695eaaa2170977b98262930246dc95652b87b954ec3052a00dfdd2c80b67
 RPROVIDES:${PN} += "perl(Net::Oping) \
 perl-Net-Oping \
 perl-Net-Oping(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

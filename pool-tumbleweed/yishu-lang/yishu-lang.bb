@@ -91,6 +91,7 @@ locale(yishu:zh_HK) \
 locale(yishu:zh_TW) \
 yishu-lang \
 yishu-lang-all"
+
 RDEPENDS:${PN} += "yishu"
 
 inherit rpm

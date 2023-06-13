@@ -14,6 +14,7 @@ RPM_HASH = "0d1ea9e34151e7442b7d8ff3cacf53d90bd28a7af28fd732517ce77e4e9375afda3a
 
 RPROVIDES:${PN} += "libyui-ncurses-rest-api-devel \
 libyui-ncurses-rest-api-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libstdc++-devel \
 libyui-ncurses-devel \

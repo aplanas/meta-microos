@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xfor.sty) \
 texlive-xfor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

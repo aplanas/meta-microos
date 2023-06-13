@@ -86,6 +86,7 @@ locale(plasma5-sdk:zh_CN) \
 locale(plasma5-sdk:zh_TW) \
 plasma5-sdk-lang \
 plasma5-sdk-lang-all"
+
 RDEPENDS:${PN} += "plasma5-sdk"
 
 inherit rpm

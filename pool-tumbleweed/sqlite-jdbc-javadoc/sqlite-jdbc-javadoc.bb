@@ -9,6 +9,7 @@ RPM_HASH = "0416f85c2f598da3b6c231f44c34ebfce5e566b02eb0c8f9cac08def75bda49614dd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sqlite-jdbc-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

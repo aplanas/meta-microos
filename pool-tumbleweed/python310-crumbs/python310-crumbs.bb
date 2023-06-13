@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-crumbs \
 python3.10dist(crumbs) \
 python310-crumbs \
 python3dist(crumbs)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

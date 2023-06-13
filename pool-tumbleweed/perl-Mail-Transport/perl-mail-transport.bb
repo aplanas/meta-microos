@@ -25,6 +25,7 @@ perl(Mail::Transport::SMTP) \
 perl(Mail::Transport::Send) \
 perl(Mail::Transport::Sendmail) \
 perl-Mail-Transport"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Mail::Reporter)"
 

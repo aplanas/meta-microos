@@ -9,6 +9,7 @@ RPM_HASH = "1e5fb6816c257b66e8c7dd1148b6a5e0d3ead02da214c06061f4bf09f9c8192948d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fistrum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

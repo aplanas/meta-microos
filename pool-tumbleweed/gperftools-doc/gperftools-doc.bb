@@ -10,6 +10,7 @@ RPM_HASH = "5e1201cac65735cdc4925536efd9d4fb8cb4a74f75366aa6fa0598dc3768de7cbfc6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gperftools-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

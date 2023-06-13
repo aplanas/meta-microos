@@ -9,6 +9,7 @@ RPM_HASH = "c0d50bbe03b68447a9d9248f6c8427959f5f786026c4d42ccb472875ee6430a4fa00
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "youtube-dl-zsh-completion"
+
 RDEPENDS:${PN} += "zsh"
 
 inherit rpm

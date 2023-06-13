@@ -15,6 +15,7 @@ RPM_HASH = "9ab5832ab7ac3e722a42d0766e7be6999e6696309760b7a17690efd1d5c05a6a3dc1
 
 RPROVIDES:${PN} += "emacs-vm \
 emacs-vm(aarch-64)"
+
 RDEPENDS:${PN} += "ed \
 emacs \
 ld-linux-aarch64.so.1()(64bit) \

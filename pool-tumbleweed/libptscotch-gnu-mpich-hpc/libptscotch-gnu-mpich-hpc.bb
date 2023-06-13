@@ -11,6 +11,7 @@ RPM_HASH = "9d1c5ce178cd51b8c9ae97e61bc44f70dc539e56f706349abe7f9f74bc5065ccd3ed
 
 RPROVIDES:${PN} += "libptscotch-gnu-mpich-hpc \
 libptscotch-gnu-mpich-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libptscotch_6_1_0-gnu-mpich-hpc"
 

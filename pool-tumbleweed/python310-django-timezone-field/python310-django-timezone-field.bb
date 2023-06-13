@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-timezone-field \
 python3.10dist(django-timezone-field) \
 python310-django-timezone-field \
 python3dist(django-timezone-field)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-pytz"

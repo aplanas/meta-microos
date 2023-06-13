@@ -9,6 +9,7 @@ RPM_HASH = "8c33f4e0c81e74981694dd2739ff4465c2b5e04ce6e705ac84f03f317bf967f18956
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lilypond-doc-de"
+
 RDEPENDS:${PN} += "lilypond-doc"
 
 inherit rpm

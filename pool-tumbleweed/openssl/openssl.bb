@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openssl \
 openssl(cli)"
+
 RDEPENDS:${PN} += "openssl-3"
 
 inherit rpm

@@ -17,6 +17,7 @@ python3.10dist(openapi-schema-validator) \
 python310-openapi-schema-validator \
 python310-openapi_schema_validator \
 python3dist(openapi-schema-validator)"
+
 RDEPENDS:${PN} += "(python310-jsonschema >= 4 with python310-jsonschema < 4.18) \
 python(abi) \
 python310-rfc3339-validator"

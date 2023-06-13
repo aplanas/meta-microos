@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(draftwatermark-2x.sty) \
 tex(draftwatermark.sty) \
 texlive-draftwatermark"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

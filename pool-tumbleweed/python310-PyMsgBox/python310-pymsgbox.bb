@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-PyMsgBox \
 python3.10dist(pymsgbox) \
 python310-PyMsgBox \
 python3dist(pymsgbox)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

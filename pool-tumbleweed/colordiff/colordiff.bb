@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colordiff \
 config(colordiff)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl"
 

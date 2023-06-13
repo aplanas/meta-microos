@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(u-msgpack-python) \
 python311-u-msgpack-python \
 python3dist(u-msgpack-python)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

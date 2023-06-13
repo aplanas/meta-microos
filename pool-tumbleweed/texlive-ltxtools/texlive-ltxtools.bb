@@ -18,6 +18,7 @@ tex(ltxtools-review.sty) \
 tex(ltxtools-trace.sty) \
 tex(ltxtools.sty) \
 texlive-ltxtools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "dc4bb9cfe9316332622f53edf9ddfe7595352bf4be6916b3b0cf2d3111c986192d11
 
 RPROVIDES:${PN} += "remmina-plugin-spice \
 remmina-plugin-spice(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

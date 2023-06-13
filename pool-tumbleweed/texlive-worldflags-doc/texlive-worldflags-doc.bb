@@ -9,6 +9,7 @@ RPM_HASH = "25255e32359c6bd0c6e69bdd2d1d603c349876f25f5a93691ab847ad8258fd22c72f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-worldflags-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

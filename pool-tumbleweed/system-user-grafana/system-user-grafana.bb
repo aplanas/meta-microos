@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(grafana) \
 system-user-grafana \
 user(grafana)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

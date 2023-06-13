@@ -9,6 +9,7 @@ RPM_HASH = "ed34e2f22e8a0901dc003387521c2a70906127f1faf2214b31110b702fe6511f039a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tealdeer-zsh-completion"
+
 RDEPENDS:${PN} += "zsh"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "d5230e1674751776d7e9568815b62a50294192c4d17945b1070ac2e5f19ef0285651
 RPROVIDES:${PN} += "gdl-devel \
 gdl-devel(aarch-64) \
 pkgconfig(gdl-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgdl-3-5 \
 pkgconfig(gtk+-3.0) \

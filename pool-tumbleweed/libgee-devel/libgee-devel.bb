@@ -13,6 +13,7 @@ RPM_HASH = "d06df943c609546e658e4ca317596ffe027bd3b6a91448754df16ca3d80b697a91a6
 RPROVIDES:${PN} += "libgee-devel \
 libgee-devel(aarch-64) \
 pkgconfig(gee-0.8)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgee-0_8-2 \
 pkgconfig(glib-2.0) \

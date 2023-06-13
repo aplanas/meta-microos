@@ -18,6 +18,7 @@ RPM_HASH = "9637ad9b0c0852afe614d108d9b5f9c19b28da54eef4cb984ac2b1238cf4130c125c
 
 RPROVIDES:${PN} += "libiniparser-devel \
 libiniparser-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libiniparser1"
 
 inherit rpm

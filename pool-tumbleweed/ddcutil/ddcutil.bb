@@ -17,6 +17,7 @@ RPM_HASH = "a91ae5dfb7640326abdbdcdb31e39f55a2d74de47045812d21b6d6b56c81826ac5f7
 
 RPROVIDES:${PN} += "ddcutil \
 ddcutil(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

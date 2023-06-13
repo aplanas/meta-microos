@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-javaproperties \
 python3.10dist(javaproperties) \
 python310-javaproperties \
 python3dist(javaproperties)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "6dee77ce1db697d838f84cdf73fb22461507979fd6fb4f3c04f3b034a4a294576c48
 
 RPROVIDES:${PN} += "bliss-devel \
 bliss-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libbliss0_77"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "evince-devel \
 evince-devel(aarch-64) \
 pkgconfig(evince-document-3.0) \
 pkgconfig(evince-view-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 evince \
 libevdocument3-4 \

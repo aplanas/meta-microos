@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "supportconfig-plugin-icommand \
 supportconfig-plugin-resource \
 supportconfig-plugin-tag \
 supportutils"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/awk \
 /usr/bin/sed \

@@ -15,6 +15,7 @@ locale(partclone:zh_CN) \
 locale(partclone:zh_TW) \
 partclone-lang \
 partclone-lang-all"
+
 RDEPENDS:${PN} += "partclone"
 
 inherit rpm

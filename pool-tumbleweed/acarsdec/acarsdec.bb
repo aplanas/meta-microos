@@ -11,6 +11,7 @@ RPM_HASH = "9fba08a60648218b2703d687b123aa30d4f71b452c327de26066c319c4b9979483c8
 RPROVIDES:${PN} += "acarsdec \
 acarsdec(aarch-64) \
 bundled(cJSON)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacars-2.so.2()(64bit) \

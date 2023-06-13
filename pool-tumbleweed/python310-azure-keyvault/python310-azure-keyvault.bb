@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-azure-keyvault \
 python3.10dist(azure-keyvault) \
 python310-azure-keyvault \
 python3dist(azure-keyvault)"
+
 RDEPENDS:${PN} += "python310-azure-keyvault-certificates \
 python310-azure-keyvault-keys \
 python310-azure-keyvault-nspkg \

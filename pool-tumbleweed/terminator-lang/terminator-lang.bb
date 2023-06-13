@@ -81,6 +81,7 @@ locale(terminator:zh_HK) \
 locale(terminator:zh_TW) \
 terminator-lang \
 terminator-lang-all"
+
 RDEPENDS:${PN} += "terminator"
 
 inherit rpm

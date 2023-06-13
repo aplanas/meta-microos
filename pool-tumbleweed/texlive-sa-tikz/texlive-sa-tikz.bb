@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(sa-tikz.sty) \
 tex(tikzlibraryswitching-architectures.code.tex) \
 texlive-sa-tikz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

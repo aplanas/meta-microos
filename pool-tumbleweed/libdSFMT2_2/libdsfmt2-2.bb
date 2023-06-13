@@ -17,6 +17,7 @@ RPM_HASH = "ca148c212ca51fcd745aa7dd9336b263324a5f50d51d46bb4cd019f873a9f6e0fb17
 RPROVIDES:${PN} += "libdSFMT.so.2.2()(64bit) \
 libdSFMT2_2 \
 libdSFMT2_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

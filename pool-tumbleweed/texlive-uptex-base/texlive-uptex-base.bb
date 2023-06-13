@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(ukinsoku.tex) \
 tex(uptex.tex) \
 texlive-uptex-base"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPM_HASH = "f65e88242a77b89bed185909508c9d7abc3921416e1abddf8b69d32a7e449cb795a3
 
 RPROVIDES:${PN} += "pythia-doc \
 pythia-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

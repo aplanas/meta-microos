@@ -12,6 +12,7 @@ RPM_HASH = "353acebf05d40ceecccc45ca457d7aab4c92c0308b2331d2e387fa4b64c7fdd00c52
 RPROVIDES:${PN} += "libxcb-dri2-0 \
 libxcb-dri2-0(aarch-64) \
 libxcb-dri2.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

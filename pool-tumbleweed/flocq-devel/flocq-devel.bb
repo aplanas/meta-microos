@@ -83,6 +83,7 @@ ocamlx(NFlocq_Prop_Relative) \
 ocamlx(NFlocq_Prop_Round_odd) \
 ocamlx(NFlocq_Prop_Sterbenz) \
 ocamlx(NFlocq_Version)"
+
 RDEPENDS:${PN} += "coq-devel \
 flocq \
 ocaml(AcyclicGraph) \

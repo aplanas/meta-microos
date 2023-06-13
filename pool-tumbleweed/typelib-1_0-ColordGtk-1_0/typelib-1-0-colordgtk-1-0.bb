@@ -15,6 +15,7 @@ RPM_HASH = "11cf0a9125e86f4719c7356e890e6e12757885793ae282d6249948f31d3e09607418
 RPROVIDES:${PN} += "typelib(ColordGtk) \
 typelib-1_0-ColordGtk-1_0 \
 typelib-1_0-ColordGtk-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcolord-gtk.so.1()(64bit) \
 typelib(Atk) \
 typelib(Colord) \

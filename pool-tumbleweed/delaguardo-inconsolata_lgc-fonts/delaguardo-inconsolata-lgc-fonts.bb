@@ -15,6 +15,7 @@ RPM_HASH = "0bd80dc8c42e1f91edde3f1c8cc5cfd85d15fed04eefcb122753f74e4bf6e0a69dd3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "delaguardo-inconsolata_lgc-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

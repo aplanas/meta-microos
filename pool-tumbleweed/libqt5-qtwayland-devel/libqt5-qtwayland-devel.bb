@@ -13,6 +13,7 @@ libqt5-qtwayland-devel \
 libqt5-qtwayland-devel(aarch-64) \
 pkgconfig(Qt5WaylandClient) \
 pkgconfig(Qt5WaylandCompositor)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5WaylandClient5 \
 libQt5WaylandCompositor5 \

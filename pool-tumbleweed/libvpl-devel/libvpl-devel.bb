@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(VPL) \
 libvpl-devel \
 libvpl-devel(aarch-64) \
 pkgconfig(vpl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvpl2"
 

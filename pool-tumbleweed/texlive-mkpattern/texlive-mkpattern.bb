@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mkpatter.tex) \
 texlive-mkpattern"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(trello-full-backup) \
 python3dist(trello-full-backup) \
 trello-full-backup"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-requests"

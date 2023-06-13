@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "commons-modeler \
 jakarta-commons-modeler"
+
 RDEPENDS:${PN} += "jakarta-commons-beanutils \
 jakarta-commons-collections \
 jakarta-commons-digester \

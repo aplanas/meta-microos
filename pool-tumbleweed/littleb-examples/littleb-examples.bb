@@ -12,6 +12,7 @@ RPM_HASH = "a84b54c723518dd16725298c875e2cda4361e8cfcb45b88ae5b0d81e1487e06659a5
 
 RPROVIDES:${PN} += "littleb-examples \
 littleb-examples(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

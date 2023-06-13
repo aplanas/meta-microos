@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libsaml-devel \
 libsaml-devel(aarch-64) \
 opensaml-devel \
 pkgconfig(opensaml)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblog4shib-devel \
 libsaml12 \

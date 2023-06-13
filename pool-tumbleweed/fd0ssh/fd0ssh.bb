@@ -11,6 +11,7 @@ RPM_HASH = "dd8ef4fb6762314f08481f962c328cf64aa005175a03b6af5b5d47328f99542da45a
 
 RPROVIDES:${PN} += "fd0ssh \
 fd0ssh(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

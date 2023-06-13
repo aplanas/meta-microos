@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "libsoup \
 libsoup-3.0.so.0()(64bit) \
 libsoup-3_0-0 \
 libsoup-3_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 glib-networking \
 ld-linux-aarch64.so.1()(64bit) \

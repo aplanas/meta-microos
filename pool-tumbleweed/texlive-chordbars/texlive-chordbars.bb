@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chordbars.sty) \
 texlive-chordbars"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

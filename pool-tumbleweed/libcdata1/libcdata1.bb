@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libcdata.so.1()(64bit) \
 libcdata.so.1(V_20230108)(64bit) \
 libcdata1 \
 libcdata1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

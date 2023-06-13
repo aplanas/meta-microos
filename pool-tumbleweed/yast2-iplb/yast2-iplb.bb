@@ -15,6 +15,7 @@ application(org.opensuse.yast.IPLB.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.IPLB.metainfo.xml) \
 yast2-iplb"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-ruby-bindings"
 

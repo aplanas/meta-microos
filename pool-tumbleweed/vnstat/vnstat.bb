@@ -13,6 +13,7 @@ RPM_HASH = "60b27090918516c037e144a5881a32d6f4195ad7f17775eddab54319ce990c5d6930
 RPROVIDES:${PN} += "config(vnstat) \
 vnstat \
 vnstat(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/ls \
 /bin/sh \

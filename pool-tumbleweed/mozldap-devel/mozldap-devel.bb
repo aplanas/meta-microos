@@ -10,6 +10,7 @@ RPM_HASH = "43dcab784377678e6547968b77812d3d8f0dbd39241b379264024ce99d993c3bf5b5
 RPROVIDES:${PN} += "mozldap-devel \
 mozldap-devel(aarch-64) \
 pkgconfig(mozldap)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mozilla-nspr-devel \
 mozilla-nss-devel \

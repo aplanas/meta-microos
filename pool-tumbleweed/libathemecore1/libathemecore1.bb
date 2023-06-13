@@ -11,6 +11,7 @@ RPM_HASH = "85892cdfba45715c06641f508c6e3a3a1a9a388ba3ac94f2ff0448e8b36d6747b07e
 RPROVIDES:${PN} += "libathemecore.so.1()(64bit) \
 libathemecore1 \
 libathemecore1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

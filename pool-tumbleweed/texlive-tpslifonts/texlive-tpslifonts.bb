@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tpslifonts.sty) \
 texlive-tpslifonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

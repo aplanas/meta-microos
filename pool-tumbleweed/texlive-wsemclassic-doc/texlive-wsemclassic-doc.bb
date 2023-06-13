@@ -9,6 +9,7 @@ RPM_HASH = "cb9e4975ea5ec443b635068c3f6520b3a9da03792786fc875b8c12f4ca86ee074b68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wsemclassic-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ndtiff \
 python3.10dist(ndtiff) \
 python310-ndtiff \
 python3dist(ndtiff)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dask-array \
 python310-numpy"

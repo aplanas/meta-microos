@@ -14,6 +14,7 @@ RPM_HASH = "de8e7399d832dd6e27cf8ef8ea5a9b90b14c9f4ea8f4dd2469c06b165e7666708f95
 RPROVIDES:${PN} += "liblavrec-2.2.so.0()(64bit) \
 liblavrec-2_2-0 \
 liblavrec-2_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

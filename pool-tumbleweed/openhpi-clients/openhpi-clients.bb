@@ -13,6 +13,7 @@ RPM_HASH = "97fcda2031b845ed9116c564bc6f6e826606cdbd4d96674e2204592a401bc3695c4c
 
 RPROVIDES:${PN} += "openhpi-clients \
 openhpi-clients(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

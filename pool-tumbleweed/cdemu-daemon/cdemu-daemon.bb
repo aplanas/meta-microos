@@ -17,6 +17,7 @@ RPM_HASH = "525d9dcd22a7915c8e32636ed45420ae25e03f77575df60f837f1333b026731335ce
 
 RPROVIDES:${PN} += "cdemu-daemon \
 cdemu-daemon(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

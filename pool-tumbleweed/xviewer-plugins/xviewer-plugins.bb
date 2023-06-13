@@ -9,6 +9,7 @@ RPM_HASH = "34a50174f1be206b3c87f75f89225026601ef33a38e645dd7beb569445f4f68a3c34
 
 RPROVIDES:${PN} += "xviewer-plugins \
 xviewer-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "xviewer"
 
 inherit rpm

@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(shadethm.sty) \
 texlive-shadethm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

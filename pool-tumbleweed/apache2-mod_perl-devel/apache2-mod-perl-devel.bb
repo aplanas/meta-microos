@@ -13,6 +13,7 @@ RPM_HASH = "7af432681e20db52f147eb26f3349af3ab043d8ea9c0c48612855cf9fd4f0338a124
 
 RPROVIDES:${PN} += "apache2-mod_perl-devel \
 apache2-mod_perl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "apache2-mod_perl"
 
 inherit rpm

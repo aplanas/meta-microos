@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libkyotocabinet-devel \
 libkyotocabinet-devel(aarch-64) \
 libkyotocabinet16-devel \
 pkgconfig(kyotocabinet)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libkyotocabinet16"
 

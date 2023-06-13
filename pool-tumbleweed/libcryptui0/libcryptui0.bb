@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libcryptui \
 libcryptui.so.0()(64bit) \
 libcryptui0 \
 libcryptui0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnome-keyring \
 ld-linux-aarch64.so.1()(64bit) \

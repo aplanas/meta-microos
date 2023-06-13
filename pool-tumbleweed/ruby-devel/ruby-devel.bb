@@ -9,6 +9,7 @@ RPM_HASH = "5b096a8506b86a34d5e00bb9c43d58c428f1a32f41ee0a8e5aa0189a32ee49ea7608
 
 RPROVIDES:${PN} += "ruby-devel \
 ruby-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ruby \
 ruby3.2-devel"
 

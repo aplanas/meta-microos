@@ -9,6 +9,7 @@ RPM_HASH = "a65f73061dce5a916d39ab467b3bce86a7583ef4e790765a2cfa8d3b72202347c184
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "helix-bash-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

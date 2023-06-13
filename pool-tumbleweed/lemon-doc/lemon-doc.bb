@@ -15,6 +15,7 @@ RPM_HASH = "3a7c43335efe6727e4b90c132d95bbc17194806050fcbf020229eaf3764c0ddd55f7
 
 RPROVIDES:${PN} += "lemon-doc \
 lemon-doc(aarch-64)"
+
 RDEPENDS:${PN} += "lemon \
 libemon1_3_1"
 

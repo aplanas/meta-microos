@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(moban-ansible) \
 python39-moban-ansible \
 python3dist(moban-ansible)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-moban"
 

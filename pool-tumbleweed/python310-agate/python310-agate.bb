@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-agate \
 python3.10dist(agate) \
 python310-agate \
 python3dist(agate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Babel \
 python310-isodate \

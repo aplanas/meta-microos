@@ -40,6 +40,7 @@ locale(xfce4-docklike-plugin:zh_CN) \
 locale(xfce4-docklike-plugin:zh_TW) \
 xfce4-docklike-plugin-lang \
 xfce4-docklike-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-docklike-plugin"
 
 inherit rpm

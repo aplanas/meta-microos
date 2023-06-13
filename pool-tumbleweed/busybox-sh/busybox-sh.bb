@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "/bin/sh \
 alternative(sh) \
 busybox-sh"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

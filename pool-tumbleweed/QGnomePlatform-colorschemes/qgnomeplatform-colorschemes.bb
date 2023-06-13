@@ -11,6 +11,7 @@ RPM_HASH = "ac2831333123b68576c434035883de1ad139d5f2641bc4839a59be6e41df11b8583d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "QGnomePlatform-colorschemes"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

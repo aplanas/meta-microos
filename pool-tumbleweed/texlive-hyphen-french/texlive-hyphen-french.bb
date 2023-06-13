@@ -13,6 +13,7 @@ tex(hyph-fr.tex) \
 tex(hyph-quote-fr.tex) \
 tex(loadhyph-fr.tex) \
 texlive-hyphen-french"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

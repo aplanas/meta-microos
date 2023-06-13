@@ -11,6 +11,7 @@ RPM_HASH = "83bfef3cbbfda1c650e33d562ebb646948ab9da9d298cf46550a89c3f3e6a7e0901f
 
 RPROVIDES:${PN} += "libopenblas-pthreads-gnu-hpc-devel \
 libopenblas-pthreads-gnu-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libopenblas-pthreads_0_3_21-gnu-hpc-devel"
 

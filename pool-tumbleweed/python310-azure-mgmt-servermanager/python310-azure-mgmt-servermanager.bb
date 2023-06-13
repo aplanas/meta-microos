@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-servermanager \
 python3.10dist(azure-mgmt-servermanager) \
 python310-azure-mgmt-servermanager \
 python3dist(azure-mgmt-servermanager)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-nspkg \

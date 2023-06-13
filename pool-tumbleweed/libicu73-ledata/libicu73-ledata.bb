@@ -16,6 +16,7 @@ RPM_HASH = "737662e4f68baa4ca56485f12ba0f7b940e8545de1f154d6cc3573d2c398263c6da5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libicu73-ledata"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

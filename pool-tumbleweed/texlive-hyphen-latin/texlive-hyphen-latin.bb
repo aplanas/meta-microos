@@ -27,6 +27,7 @@ tex(loadhyph-la-x-classic.tex) \
 tex(loadhyph-la-x-liturgic.tex) \
 tex(loadhyph-la.tex) \
 texlive-hyphen-latin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -22,6 +22,7 @@ tex(skrapport-size11pt.clo) \
 tex(skrapport-size12pt.clo) \
 tex(skrapport.cls) \
 texlive-skrapport"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPM_HASH = "d5424c8c750f38db6b8c0ccc4b758e2e111dac5ac1247b87054680d5ebf8f2894e34
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-install-latex-guide-zh-cn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ cmake(KPim5TemplateParser) \
 cmake(KPim5WebEngineViewer) \
 messagelib-devel \
 messagelib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Contacts) \
 cmake(KF5Libkleo) \
 cmake(KF5PimCommon) \

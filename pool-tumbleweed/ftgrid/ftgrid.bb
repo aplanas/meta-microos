@@ -10,6 +10,7 @@ RPM_HASH = "f85c0a3a176bb48c30350c338350d0bcbc3d951c00abb4c89453fc70b17d940c5c60
 
 RPROVIDES:${PN} += "ftgrid \
 ftgrid(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

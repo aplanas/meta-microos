@@ -28,6 +28,7 @@ locale(pspp:uk) \
 locale(pspp:zh_CN) \
 pspp-lang \
 pspp-lang-all"
+
 RDEPENDS:${PN} += "pspp"
 
 inherit rpm

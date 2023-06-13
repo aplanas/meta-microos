@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "application() \
 application(gmic_qt.desktop) \
 gmic \
 gmic(aarch-64)"
+
 RDEPENDS:${PN} += "gmic-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

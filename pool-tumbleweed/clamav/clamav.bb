@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "clamav \
 clamav(aarch-64) \
 clamav-nodb \
 config(clamav)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(vscan) \
 ld-linux-aarch64.so.1()(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-livereload \
 python3.10dist(livereload) \
 python310-livereload \
 python3dist(livereload)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

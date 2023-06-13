@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(metanorma.cls) \
 texlive-metanorma"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

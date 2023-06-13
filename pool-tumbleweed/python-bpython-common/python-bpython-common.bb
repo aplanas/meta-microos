@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python-bpython-common \
 python310-bpython-common \
 python311-bpython-common \
 python39-bpython-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

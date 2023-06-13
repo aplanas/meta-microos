@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-kiwi-keg \
 python3.10dist(kiwi-keg) \
 python3dist(kiwi-keg)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Cerberus \

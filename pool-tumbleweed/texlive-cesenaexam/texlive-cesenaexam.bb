@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(cesenaexam.cls) \
 tex(cesenaexam.sty) \
 texlive-cesenaexam"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

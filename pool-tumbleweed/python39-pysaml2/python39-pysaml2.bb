@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(pysaml2) \
 python39-pysaml2 \
 python39-pysaml2(aarch-64) \
 python3dist(pysaml2)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

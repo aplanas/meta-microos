@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jupyter-nbextensions-configurator) \
 python39-jupyter_nbextensions_configurator \
 python3dist(jupyter-nbextensions-configurator)"
+
 RDEPENDS:${PN} += "jupyter-jupyter_nbextensions_configurator \
 python(abi) \
 python39-PyYAML \

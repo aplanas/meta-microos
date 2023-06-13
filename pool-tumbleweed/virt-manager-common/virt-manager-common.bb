@@ -10,6 +10,7 @@ RPM_HASH = "aa0a22c3ac3113838ec2465291a3736cc64f86cf87b48ad3a3d963eb6b927570d5d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "virt-manager-common"
+
 RDEPENDS:${PN} += "libosinfo \
 mkisofs \
 python3-gobject \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-avatar) \
 python39-django-avatar \
 python3dist(django-avatar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-Pillow \

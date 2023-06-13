@@ -14,6 +14,7 @@ RPM_HASH = "c19fe90fe6b40f8a86c04617ca30bd74383cf4f6427047598c3bb644e1a5d9b7f8b2
 RPROVIDES:${PN} += "ghc-setenv \
 ghc-setenv(aarch-64) \
 libHSsetenv-0.1.1.3-5NpDWBw9aN36gdxnY8UI9x-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

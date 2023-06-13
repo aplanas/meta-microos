@@ -12,6 +12,7 @@ ghc-parsec-devel \
 ghc-parsec-devel(aarch-64) \
 ghc-parsec-static \
 ghc-parsec-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-devel(bytestring-0.11.4.0) \

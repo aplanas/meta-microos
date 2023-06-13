@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-suftesi-doc:en) \
 texlive-suftesi-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-mesonpep517 \
 python3.10dist(mesonpep517) \
 python310-mesonpep517 \
 python3dist(mesonpep517)"
+
 RDEPENDS:${PN} += "meson \
 python(abi) \
 python310-setuptools \

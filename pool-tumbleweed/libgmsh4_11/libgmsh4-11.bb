@@ -13,6 +13,7 @@ RPM_HASH = "bc32297f0b04593fb890660c44f01da84953e5089cacd8528c4d18170e02fc29e4b4
 RPROVIDES:${PN} += "libgmsh.so.4.11()(64bit) \
 libgmsh4_11 \
 libgmsh4_11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

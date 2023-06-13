@@ -13,6 +13,7 @@ RPM_HASH = "a8c0ec62bb637cea8510fcb945f8f830872017d0ebc581b1585716ba17618ea95f70
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-cliff-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "c6355f2bb514de9746e669da500b3b8424171d89d8c92118a15adbffba11a58e7c2b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-aws-xray-sdk-SQLAlchemy"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-SQLAlchemy \
 python311-aws-xray-sdk"

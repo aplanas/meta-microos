@@ -9,6 +9,7 @@ RPM_HASH = "30df9ffba01225db4bb2bcb7fbf53a023df5bf0c814facc245466239ee6c033d9767
 
 RPROVIDES:${PN} += "pdf2svg \
 pdf2svg(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

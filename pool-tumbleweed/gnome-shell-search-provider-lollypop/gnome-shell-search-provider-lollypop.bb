@@ -12,6 +12,7 @@ RPM_HASH = "9391afa1fc07d18a5130803017fe1e33a09b89ddf58bc10978bcbcdefd1615b83b99
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-lollypop"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gnome-shell \
 lollypop"

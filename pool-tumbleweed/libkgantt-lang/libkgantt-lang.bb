@@ -41,6 +41,7 @@ locale(libkgantt:tr) \
 locale(libkgantt:uk) \
 locale(libkgantt:zh_CN) \
 locale(libkgantt:zh_TW)"
+
 RDEPENDS:${PN} += "libkgantt"
 
 inherit rpm

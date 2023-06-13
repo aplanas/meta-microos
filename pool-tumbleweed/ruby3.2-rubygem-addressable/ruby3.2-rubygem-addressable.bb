@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:addressable) \
 rubygem(ruby:3.2.0:addressable:2) \
 rubygem(ruby:3.2.0:addressable:2.8) \
 rubygem(ruby:3.2.0:addressable:2.8.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:public_suffix)"
 

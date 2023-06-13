@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Flask-HTTPAuth \
 python3.10dist(flask-httpauth) \
 python310-Flask-HTTPAuth \
 python3dist(flask-httpauth)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask"
 

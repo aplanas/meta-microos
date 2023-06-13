@@ -17,6 +17,7 @@ RPM_HASH = "1b25f130811b7e1ae9fc2b472ad35f9a8aede252e93bcbd7f8516990ec4e755100e3
 RPROVIDES:${PN} += "libpugixml.so.1()(64bit) \
 libpugixml1 \
 libpugixml1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

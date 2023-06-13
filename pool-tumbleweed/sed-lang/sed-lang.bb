@@ -50,6 +50,7 @@ locale(sed:zh_CN) \
 locale(sed:zh_TW) \
 sed-lang \
 sed-lang-all"
+
 RDEPENDS:${PN} += "sed"
 
 inherit rpm

@@ -57,6 +57,7 @@ locale(kcm_tablet:ug) \
 locale(kcm_tablet:uk) \
 locale(kcm_tablet:zh_CN) \
 locale(kcm_tablet:zh_TW)"
+
 RDEPENDS:${PN} += "kcm_tablet"
 
 inherit rpm

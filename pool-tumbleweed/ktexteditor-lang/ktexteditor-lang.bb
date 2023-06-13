@@ -86,6 +86,7 @@ locale(ktexteditor:vi) \
 locale(ktexteditor:wa) \
 locale(ktexteditor:zh_CN) \
 locale(ktexteditor:zh_TW)"
+
 RDEPENDS:${PN} += "ktexteditor"
 
 inherit rpm

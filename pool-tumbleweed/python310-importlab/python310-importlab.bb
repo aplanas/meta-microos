@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-importlab \
 python3.10dist(importlab) \
 python310-importlab \
 python3dist(importlab)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

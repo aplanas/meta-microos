@@ -18,6 +18,7 @@ rpm_macro(firefox_major) \
 rpm_macro(firefox_mozillapath) \
 rpm_macro(firefox_pluginsdir) \
 rpm_macro(firefox_version)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 MozillaFirefox \
 perl(Archive::Zip) \

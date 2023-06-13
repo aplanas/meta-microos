@@ -9,6 +9,7 @@ RPM_HASH = "e8b3659af97a4b4b4cdbf023fa0967811e2d680963b1e20aa0d7d37f2f0886f78a76
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mercatormap-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

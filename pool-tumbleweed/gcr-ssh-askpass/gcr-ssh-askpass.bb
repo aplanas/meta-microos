@@ -9,6 +9,7 @@ RPM_HASH = "8a86bd094c1edd1be178c9d90e31fdb0c4cfde73d054662128f21bd3690fc9ab7d75
 
 RPROVIDES:${PN} += "gcr-ssh-askpass \
 gcr-ssh-askpass(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

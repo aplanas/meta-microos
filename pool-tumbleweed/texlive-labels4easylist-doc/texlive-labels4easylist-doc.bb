@@ -9,6 +9,7 @@ RPM_HASH = "b9236554358929839853daa08dd6b124a33ad3bf20a8979f6c3025cd71b62ec807d9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-labels4easylist-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "ef0d8f8aa5703f90e57917a919239037d7ff71333c1b34680ad70be2273991940188
 RPROVIDES:${PN} += "libldm-1_0-0-devel \
 libldm-1_0-0-devel(aarch-64) \
 pkgconfig(ldm-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libldm-1_0-0 \
 pkgconfig(devmapper) \

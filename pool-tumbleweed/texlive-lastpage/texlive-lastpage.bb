@@ -18,6 +18,7 @@ tex(lastpage2e.sty) \
 tex(lastpageclassic.sty) \
 tex(lastpagemodern.sty) \
 texlive-lastpage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

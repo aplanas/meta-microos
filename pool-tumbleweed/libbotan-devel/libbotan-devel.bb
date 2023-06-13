@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "Botan-devel \
 libbotan-devel \
 libbotan-devel(aarch-64) \
 pkgconfig(botan-2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbotan-2-19 \
 libbz2-devel \

@@ -10,6 +10,7 @@ RPM_HASH = "4c4e710a3b682e9a45b9715638296b657b7222f11ed77776486bf7ce2101a2d58dbd
 RPROVIDES:${PN} += "python3-compizconfig \
 python310-compizconfig \
 python310-compizconfig(aarch-64)"
+
 RDEPENDS:${PN} += "compiz \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

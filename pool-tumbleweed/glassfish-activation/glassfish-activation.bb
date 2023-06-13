@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "glassfish-activation \
 mvn(com.sun.activation:javax.activation) \
 mvn(com.sun.activation:javax.activation:pom:) \
 osgi(com.sun.activation.javax.activation)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -10,6 +10,7 @@ RPM_HASH = "5d04e2ce6c30ea24608add288fd583b5b5aed4378369d409987d596b6a9afa25c296
 RPROVIDES:${PN} += "ghc-prof(time-manager-0.0.0-49hD2RcPrUEG8anOiBePCj) \
 ghc-time-manager-prof \
 ghc-time-manager-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(auto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ) \
 ghc-prof(base-4.17.1.0) \
 ghc-time-manager-devel"

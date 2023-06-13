@@ -9,6 +9,7 @@ RPM_HASH = "7ed0f17ba52506bafa66c2d90b7a0d51b100529c1656f3a3258da86d1e2f6cc08e63
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-waitress-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

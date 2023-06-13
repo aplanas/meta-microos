@@ -9,6 +9,7 @@ RPM_HASH = "b13bc49b07bac7e06042b435a3ac1b6d4d7e5ba114f410905d8c42047fcb2e927192
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unigrazpub-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

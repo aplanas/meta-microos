@@ -11,6 +11,7 @@ RPM_HASH = "cc632c3b40db850560451d88977860671870833dd4d1b7930a6e1e49ab4c58de239d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk4-schema"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

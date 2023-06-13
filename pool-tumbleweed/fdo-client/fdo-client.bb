@@ -11,6 +11,7 @@ RPM_HASH = "a3858de320dd0e0f5703958c8530869996bef1dfb3cee1a1c82aa7fb83edf7662f7f
 
 RPROVIDES:${PN} += "fdo-client \
 fdo-client(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "60ce2cc3dce903ccb83638d50f3ccf5105332d2497556d2396cf99e7f9434496c1e7
 
 RPROVIDES:${PN} += "syslog-ng-sql \
 syslog-ng-sql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

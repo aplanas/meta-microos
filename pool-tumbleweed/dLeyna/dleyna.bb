@@ -22,6 +22,7 @@ libdleyna-core-1.0.so.6()(64bit) \
 libdleyna-core-1_0-6 \
 libdleyna-renderer-1.0.so.1()(64bit) \
 libdleyna-server-1.0.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

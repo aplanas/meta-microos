@@ -19,6 +19,7 @@ RPM_HASH = "93e49704fc469a0df2bef450ccab472578e7ade2f7e79d6b60ffefbee7d20d3ca6a8
 RPROVIDES:${PN} += "libGraphicsMagick-Q16-3 \
 libGraphicsMagick-Q16-3(aarch-64) \
 libGraphicsMagick-Q16.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

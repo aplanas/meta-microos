@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-nose2 \
 python3.10dist(nose2) \
 python310-nose2 \
 python3dist(nose2)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

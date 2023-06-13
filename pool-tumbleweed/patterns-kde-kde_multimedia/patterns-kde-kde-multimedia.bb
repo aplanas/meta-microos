@@ -16,6 +16,7 @@ pattern-order() \
 patterns-kde-kde_multimedia \
 patterns-openSUSE-kde4_multimedia \
 patterns-openSUSE-kde_multimedia"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

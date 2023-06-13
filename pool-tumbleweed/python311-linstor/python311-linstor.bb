@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(python-linstor) \
 python311-linstor \
 python311-linstor(aarch-64) \
 python3dist(python-linstor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-protobuf"
 

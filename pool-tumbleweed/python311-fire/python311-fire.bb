@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(fire) \
 python311-fire \
 python3dist(fire)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six \
 python311-termcolor"

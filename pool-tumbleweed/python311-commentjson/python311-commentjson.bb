@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(commentjson) \
 python311-commentjson \
 python3dist(commentjson)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-lark \
 python311-six"

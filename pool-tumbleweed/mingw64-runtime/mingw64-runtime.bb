@@ -889,6 +889,7 @@ mingw64(lib:xinput1_4) \
 mingw64(lib:xinput9_1_0) \
 mingw64(lib:zoneoc) \
 mingw64-runtime"
+
 RDEPENDS:${PN} += "mingw64-headers"
 
 inherit rpm

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(monitoring-plugins-bonding) \
 monitoring-plugins-bonding \
 nagios-plugins-bonding"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

@@ -33,6 +33,7 @@ tex(cmathbb.map) \
 tex(cmathbb.sty) \
 tex(ucmath.fd) \
 texlive-cmathbb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

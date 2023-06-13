@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(metrix.sty) \
 texlive-metrix"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

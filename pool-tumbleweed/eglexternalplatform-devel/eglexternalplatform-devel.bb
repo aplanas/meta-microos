@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eglexternalplatform-devel \
 pkgconfig(eglexternalplatform)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

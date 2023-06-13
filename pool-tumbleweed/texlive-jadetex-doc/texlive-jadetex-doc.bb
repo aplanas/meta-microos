@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(jadetex.1) \
 man(pdfjadetex.1) \
 texlive-jadetex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

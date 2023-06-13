@@ -19,6 +19,7 @@ RPM_HASH = "a9cc7323bea8172dc62f9a0aee5cd6676e9393f35522096db2e77ae688092c4c6621
 RPROVIDES:${PN} += "perl(Data::Structure::Util) \
 perl-Data-Structure-Util \
 perl-Data-Structure-Util(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

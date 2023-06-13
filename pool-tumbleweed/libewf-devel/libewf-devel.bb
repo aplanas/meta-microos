@@ -17,6 +17,7 @@ RPM_HASH = "f67b0ab25a76523a37d5dcc7aeb63b8269ae0778ccbc5a382b0a170c3a1ace79e19e
 RPROVIDES:${PN} += "libewf-devel \
 libewf-devel(aarch-64) \
 pkgconfig(libewf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libewf3"

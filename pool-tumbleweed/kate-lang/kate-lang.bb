@@ -85,6 +85,7 @@ locale(kate:vi) \
 locale(kate:wa) \
 locale(kate:zh_CN) \
 locale(kate:zh_TW)"
+
 RDEPENDS:${PN} += "kate"
 
 inherit rpm

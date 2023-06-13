@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-python-utils \
 python3.10dist(python-utils) \
 python310-python-utils \
 python3dist(python-utils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-loguru"
 

@@ -10,6 +10,7 @@ RPM_HASH = "bdd5900b270acd8df5125f3d9cf7fdbd501ae4ed499764a93844b3edf172e1590da6
 
 RPROVIDES:${PN} += "kdevplatform \
 kdevplatform(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /bin/zsh \
 /sbin/ldconfig \

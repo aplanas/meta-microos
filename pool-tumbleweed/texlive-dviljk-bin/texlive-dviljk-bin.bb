@@ -10,6 +10,7 @@ RPM_HASH = "4f328950ccd6c3715a4a56f3e2399deabf86b8f78c65f7b1e94a27c6d5e6ec5a37fb
 RPROVIDES:${PN} += "texlive-bin-dvilj \
 texlive-dviljk-bin \
 texlive-dviljk-bin(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

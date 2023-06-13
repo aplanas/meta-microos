@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(exframe.sty) \
 texlive-exframe"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPM_HASH = "29c86258f33fb00d0148be27cde6d5f437cedd85b463d503601cbf82eb0969753c81
 RPROVIDES:${PN} += "uriparse \
 uriparser \
 uriparser(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

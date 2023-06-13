@@ -14,6 +14,7 @@ python3.10dist(pymavlink) \
 python310-pymavlink \
 python310-pymavlink(aarch-64) \
 python3dist(pymavlink)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

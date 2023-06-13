@@ -9,6 +9,7 @@ RPM_HASH = "299bd097e7f0e9b2e381ff245304e63d31a80e93242f84bbe9105c3d67f4cbb5cffd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-gnuplot-mode-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

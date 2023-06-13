@@ -68,6 +68,7 @@ qt5qmlimport(org.kde.amarok.lyrics.1) \
 qt5qmlimport(org.kde.amarok.photos.1) \
 qt5qmlimport(org.kde.amarok.qml.1) \
 qt5qmlimport(org.kde.amarok.wikipedia.1)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 kirigami2 \

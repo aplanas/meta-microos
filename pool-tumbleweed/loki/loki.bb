@@ -12,6 +12,7 @@ RPM_HASH = "b06abb6309338c8af4237836ed87aef0e1705ff5a0e964f2638db94894dcc7979726
 RPROVIDES:${PN} += "config(loki) \
 loki \
 loki(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

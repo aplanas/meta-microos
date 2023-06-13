@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-sphinx_mdinclude \
 python3.10dist(sphinx-mdinclude) \
 python310-sphinx_mdinclude \
 python3dist(sphinx-mdinclude)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

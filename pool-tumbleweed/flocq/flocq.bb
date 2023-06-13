@@ -12,6 +12,7 @@ RPM_HASH = "419f7c5298afe3aba2cb1d92f5519b775776a0b67b00446705bcbba4429e50e3520a
 
 RPROVIDES:${PN} += "flocq \
 flocq(aarch-64)"
+
 RDEPENDS:${PN} += "coq"
 
 inherit rpm

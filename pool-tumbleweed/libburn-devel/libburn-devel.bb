@@ -10,6 +10,7 @@ RPM_HASH = "9f0d679d3706d41478b665cbecb146a48d794e4402001067340c0819ba74441ff794
 RPROVIDES:${PN} += "libburn-devel \
 libburn-devel(aarch-64) \
 pkgconfig(libburn-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libburn4"
 

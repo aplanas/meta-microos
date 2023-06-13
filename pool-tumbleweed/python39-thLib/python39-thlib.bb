@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(thlib) \
 python39-thLib \
 python3dist(thlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-matplotlib \
 python39-numpy \

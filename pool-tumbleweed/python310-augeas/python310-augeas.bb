@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-augeas \
 python3.10dist(python-augeas) \
 python310-augeas \
 python3dist(python-augeas)"
+
 RDEPENDS:${PN} += "augeas \
 augeas-lenses \
 python(abi)"

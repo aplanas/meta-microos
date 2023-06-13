@@ -23,6 +23,7 @@ mvn(org.bouncycastle:bctls-jdk18:pom:) \
 mvn(org.bouncycastle:bctls-jdk18on) \
 mvn(org.bouncycastle:bctls-jdk18on:pom:) \
 osgi(bctls)"
+
 RDEPENDS:${PN} += "bouncycastle \
 bouncycastle-util \
 java-headless \

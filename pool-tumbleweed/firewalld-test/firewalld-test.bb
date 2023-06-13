@@ -9,6 +9,7 @@ RPM_HASH = "6b9bf8b0d557e4003f928b398c5a01654ba3a8fbfd11906c8cb43906c1c95166dc8d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewalld-test"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

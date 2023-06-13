@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-panel \
 python3.10dist(panel) \
 python310-panel \
 python3dist(panel)"
+
 RDEPENDS:${PN} += "(python310-bokeh >= 2.4.3 with python310-bokeh < 2.5) \
 /bin/sh \
 /usr/bin/python3.10 \

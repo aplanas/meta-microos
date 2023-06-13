@@ -9,6 +9,7 @@ RPM_HASH = "f34f29eb1e79d8a5a7a85e65b009f7c1f004993c8c00199d1b3de8a86cfed43370c3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bondgraphs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

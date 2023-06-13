@@ -9,6 +9,7 @@ RPM_HASH = "ce3ac0d54bdec12ac65503f9be9491bb49079bb1d58b49599eaa925e881a6e74c67e
 
 RPROVIDES:${PN} += "cairomm1_0-doc \
 cairomm1_0-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

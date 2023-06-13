@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "mvn(org.powermock:powermock-api-easymock) \
 mvn(org.powermock:powermock-api-easymock:pom:) \
 osgi(org.powermock.powermock-api-easymock) \
 powermock-api-easymock"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(cglib:cglib-nodep) \

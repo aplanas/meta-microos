@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-hanaonazure \
 python3.10dist(azure-mgmt-hanaonazure) \
 python310-azure-mgmt-hanaonazure \
 python3dist(azure-mgmt-hanaonazure)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

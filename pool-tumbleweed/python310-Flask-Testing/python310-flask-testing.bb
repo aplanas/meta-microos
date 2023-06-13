@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Flask-Testing \
 python3.10dist(flask-testing) \
 python310-Flask-Testing \
 python3dist(flask-testing)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask"
 

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(DolphinVcs) \
 dolphin-devel \
 dolphin-devel(aarch-64) \
 dolphin5-devel"
+
 RDEPENDS:${PN} += "libdolphinvcs5"
 
 inherit rpm

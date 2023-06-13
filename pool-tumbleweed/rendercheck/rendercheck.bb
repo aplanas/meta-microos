@@ -10,6 +10,7 @@ RPM_HASH = "1db33f02c89ca95124d1d8114de348f3a4428a10fb496e756c0ecd4212cd74b8afeb
 
 RPROVIDES:${PN} += "rendercheck \
 rendercheck(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

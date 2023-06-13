@@ -13,6 +13,7 @@ RPM_HASH = "f4e2bfdb5d8d96444952d244dfabbf542bd26bfc6ef618971629297ac51d78b58467
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "amavisd-new-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

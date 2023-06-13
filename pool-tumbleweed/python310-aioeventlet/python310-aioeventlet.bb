@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-aioeventlet \
 python3.10dist(aioeventlet) \
 python310-aioeventlet \
 python3dist(aioeventlet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-eventlet"
 

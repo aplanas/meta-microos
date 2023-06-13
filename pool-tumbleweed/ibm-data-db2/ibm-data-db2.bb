@@ -16,6 +16,7 @@ RPM_HASH = "2a06032f9b3304e7a1567a3cc28db9a65dc481dac0859b56e45db6d1687ffd09a131
 RPROVIDES:${PN} += "ibm-data-db2 \
 ibm-data-db2(aarch-64) \
 mono(IBM.Data.DB2)"
+
 RDEPENDS:${PN} += "mono(System) \
 mono(System.Data) \
 mono(mscorlib) \

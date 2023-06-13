@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-purview-scanning) \
 python311-azure-purview-scanning \
 python3dist(azure-purview-scanning)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-core \
 python311-azure-nspkg \

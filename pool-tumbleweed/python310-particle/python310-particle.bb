@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-particle \
 python3.10dist(particle) \
 python310-particle \
 python3dist(particle)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs \
 python310-hepunits"

@@ -13,6 +13,7 @@ RPM_HASH = "a9ca6f2c6b7295c2475acc6b8be4d0a6e3a30eef8abeb417c7b838b609b159cfbd7d
 RPROVIDES:${PN} += "libsharp-devel \
 libsharp-devel(aarch-64) \
 pkgconfig(libsharp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsharp0"
 

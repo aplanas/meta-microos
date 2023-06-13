@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ifntethi \
 intlfonts-ethiopic-bitmap-fonts \
 locale(xorg-x11:am)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

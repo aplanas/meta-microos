@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Package::Stash) \
 perl(Package::Stash::PP) \
 perl-Package-Stash"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Dist::CheckConflicts) \

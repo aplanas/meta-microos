@@ -9,6 +9,7 @@ RPM_HASH = "a5e7d69075bf946561ffcdacead1ee9002534a66c7365849d1a90bb56310fa0fed7a
 
 RPROVIDES:${PN} += "gcc13-devel \
 gcc13-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gcc13 \
 gmp-devel \
 libc.so.6(GLIBC_2.34)(64bit) \

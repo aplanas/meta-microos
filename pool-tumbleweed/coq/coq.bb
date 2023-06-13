@@ -14,6 +14,7 @@ RPM_HASH = "36a01d908b56f51c9916fe3d392a4dc2cb4bd2f44d88671e53ff9454306ae29dabc0
 
 RPROVIDES:${PN} += "coq \
 coq(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/ocamlrun \
 /usr/bin/python3 \
 libc.so.6(GLIBC_2.34)(64bit) \

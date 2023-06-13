@@ -10,6 +10,7 @@ RPM_HASH = "fc867825a6ed283ae2a8ca54b642f38bdd06bac8be9f053aee118ba549f5f17d79b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pytest-jupyter-client"
+
 RDEPENDS:${PN} += "python39-ipykernel \
 python39-jupyter_client \
 python39-pytest-jupyter"

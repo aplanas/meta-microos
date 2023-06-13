@@ -18,6 +18,7 @@ mvn(antlr:antlr) \
 mvn(antlr:antlr:pom:) \
 mvn(antlr:antlrall) \
 mvn(antlr:antlrall:pom:)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem"

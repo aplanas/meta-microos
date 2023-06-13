@@ -9,6 +9,7 @@ RPM_HASH = "48f34cd675396084d7ef6bd21a9e40d3860b004f5f8910dec5967eba08b9409b312b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-applets-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -33,6 +33,7 @@ libXrdUtils.so.3()(64bit) \
 libXrdXml.so.3()(64bit) \
 xrootd-libs \
 xrootd-libs(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 glibc \
 ld-linux-aarch64.so.1()(64bit) \

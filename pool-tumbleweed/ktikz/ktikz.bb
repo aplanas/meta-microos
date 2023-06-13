@@ -18,6 +18,7 @@ metainfo() \
 metainfo(ktikz.appdata.xml) \
 mimehandler(text/x-pgf) \
 mimehandler(text/x-tex)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ktexteditor \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "088f0f7d59afe89162c7c9a4686b0d77c38afb617d7ad570c1642a41ded1249a7cc6
 RPROVIDES:${PN} += "config(php8-phalcon) \
 php8-phalcon \
 php8-phalcon(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

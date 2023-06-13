@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-scsnowman-doc:ja) \
 texlive-scsnowman-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "9e41952fc37da89ace5cb74765f2acd26aedd19af4707df530511a5183ab16e1caee
 RPROVIDES:${PN} += "jemalloc-devel \
 jemalloc-devel(aarch-64) \
 pkgconfig(jemalloc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjemalloc2"
 

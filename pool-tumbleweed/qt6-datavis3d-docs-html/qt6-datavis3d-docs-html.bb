@@ -9,6 +9,7 @@ RPM_HASH = "cfbd9e57abc313a7c309517c650261cff3390c42a4464459fa4106368b82e0a54b23
 
 RPROVIDES:${PN} += "qt6-datavis3d-docs-html \
 qt6-datavis3d-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "268580cf568fbd362545df4f208e9488e02fe6619e8a0d9e85bdbe9c7f0d43ff768a
 RPROVIDES:${PN} += "typelib(RygelRenderer) \
 typelib-1_0-RygelRenderer-2_8 \
 typelib-1_0-RygelRenderer-2_8(aarch-64)"
+
 RDEPENDS:${PN} += "typelib(GLib) \
 typelib(GObject) \
 typelib(GSSDP) \

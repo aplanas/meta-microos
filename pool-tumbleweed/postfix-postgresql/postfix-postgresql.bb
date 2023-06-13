@@ -11,6 +11,7 @@ RPM_HASH = "c7877f2e9f71c3128c581737bc134a58e5879aad7efb71a30633be56f15d4f5f73af
 
 RPROVIDES:${PN} += "postfix-postgresql \
 postfix-postgresql(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

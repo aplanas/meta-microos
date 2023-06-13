@@ -30,6 +30,7 @@ locale(gnome-pomodoro:pt_BR) \
 locale(gnome-pomodoro:ru) \
 locale(gnome-pomodoro:sv) \
 locale(gnome-pomodoro:zh_CN)"
+
 RDEPENDS:${PN} += "gnome-pomodoro"
 
 inherit rpm

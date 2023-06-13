@@ -20,6 +20,7 @@ tex(adfbullets.sty) \
 tex(uarrowsadf.fd) \
 tex(ubulletsadf.fd) \
 texlive-adfsymbols"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

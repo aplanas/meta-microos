@@ -13,6 +13,7 @@ RPM_HASH = "4d8e05ffa54f5835aebe1af7daff7da77c4b6f261d2a322ceba5a4a88fe9f18cc0c9
 
 RPROVIDES:${PN} += "bridge-utils \
 bridge-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

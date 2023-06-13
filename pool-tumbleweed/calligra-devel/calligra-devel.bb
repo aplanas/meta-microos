@@ -10,6 +10,7 @@ RPM_HASH = "6bb916430a12ad2015908336bfb902c6be4049676ca8b4a6afbb820999b88f87f63c
 
 RPROVIDES:${PN} += "calligra-devel \
 calligra-devel(aarch-64)"
+
 RDEPENDS:${PN} += "calligra"
 
 inherit rpm

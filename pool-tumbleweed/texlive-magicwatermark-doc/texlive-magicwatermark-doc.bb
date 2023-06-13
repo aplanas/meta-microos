@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-magicwatermark-doc:zh) \
 texlive-magicwatermark-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

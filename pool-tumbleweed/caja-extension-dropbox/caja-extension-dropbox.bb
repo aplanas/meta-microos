@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "caja-dropbox \
 caja-extension-dropbox \
 caja-extension-dropbox(aarch-64) \
 libcaja-dropbox.so()(64bit)"
+
 RDEPENDS:${PN} += "caja \
 dropbox \
 ld-linux-aarch64.so.1()(64bit) \

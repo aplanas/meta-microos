@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyproject-metadata) \
 python39-pyproject-metadata \
 python3dist(pyproject-metadata)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-packaging"
 

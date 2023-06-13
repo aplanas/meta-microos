@@ -11,6 +11,7 @@ RPM_HASH = "f6ef87000557f6b04183e8df1791dcbe9afe4ea45d33316d1f1777e89162251aaec0
 
 RPROVIDES:${PN} += "ocr_1_0_1-gnu-openmpi2-hpc \
 ocr_1_0_1-gnu-openmpi2-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 gnu-compilers-hpc \

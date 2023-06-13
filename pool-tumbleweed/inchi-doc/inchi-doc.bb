@@ -10,6 +10,7 @@ RPM_HASH = "277c49be6de1e1a5f46d8dfcf7126d33762acec075cb046a868d22ad5d5cc541f54b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "inchi-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

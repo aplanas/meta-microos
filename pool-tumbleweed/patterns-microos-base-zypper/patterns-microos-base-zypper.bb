@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-base-zypper \
 patterns-microos-base-zypper(aarch-64)"
+
 RDEPENDS:${PN} += "pattern() \
 transactional-update \
 transactional-update-zypp-config \

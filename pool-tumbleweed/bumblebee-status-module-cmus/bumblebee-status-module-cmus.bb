@@ -12,6 +12,7 @@ RPM_HASH = "81e84280e2d3f77e4222b06184c48be999c807d22971337a48c59d05aa3f267d00f8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-cmus"
+
 RDEPENDS:${PN} += "bumblebee-status \
 cmus"
 

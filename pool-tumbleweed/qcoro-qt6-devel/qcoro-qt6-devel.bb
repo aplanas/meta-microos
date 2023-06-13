@@ -21,6 +21,7 @@ cmake(QCoro6Test) \
 cmake(QCoro6WebSockets) \
 qcoro-qt6-devel \
 qcoro-qt6-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQCoro6Core0 \
 libQCoro6DBus0 \
 libQCoro6Network0 \

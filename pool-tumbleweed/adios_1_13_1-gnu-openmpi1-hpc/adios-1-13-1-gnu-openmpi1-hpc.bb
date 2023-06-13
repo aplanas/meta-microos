@@ -15,6 +15,7 @@ RPM_HASH = "42ca2ce021c1939fe19bbaa6db68f3d035af187cbca618eabd8bee5544fb6ec8e809
 
 RPROVIDES:${PN} += "adios_1_13_1-gnu-openmpi1-hpc \
 adios_1_13_1-gnu-openmpi1-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

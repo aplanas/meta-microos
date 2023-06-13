@@ -9,6 +9,7 @@ RPM_HASH = "f42d755b1a52d7126c7029f6c377e04ee54cd72b538f5e48d41c22d128198f038761
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-psfragx-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-kaitaistruct \
 python3.10dist(kaitaistruct) \
 python310-kaitaistruct \
 python3dist(kaitaistruct)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

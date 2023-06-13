@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-keyring \
 python3.10dist(keyring) \
 python310-keyring \
 python3dist(keyring)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

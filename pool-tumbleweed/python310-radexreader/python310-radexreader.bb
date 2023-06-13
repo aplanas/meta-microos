@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-radexreader \
 python3.10dist(radexreader) \
 python310-radexreader \
 python3dist(radexreader)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

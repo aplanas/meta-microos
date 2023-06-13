@@ -13,6 +13,7 @@ ocaml-hivex-devel \
 ocaml-hivex-devel(aarch-64) \
 ocamlfind(hivex) \
 ocamlx(Hivex)"
+
 RDEPENDS:${PN} += "hivex-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

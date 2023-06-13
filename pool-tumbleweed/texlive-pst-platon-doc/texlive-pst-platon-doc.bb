@@ -9,6 +9,7 @@ RPM_HASH = "e33d1c68198d3ae576ecfd7976b39812da9e2fe9058b44da7edf8ceeb10cfeb64de6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-platon-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

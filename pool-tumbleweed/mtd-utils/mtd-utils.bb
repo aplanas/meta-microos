@@ -10,6 +10,7 @@ RPM_HASH = "372b28ca67d4297b4a4a5674fc9992c8c15540f63791365ba33e6ab4ff8f06b29f6a
 
 RPROVIDES:${PN} += "mtd-utils \
 mtd-utils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

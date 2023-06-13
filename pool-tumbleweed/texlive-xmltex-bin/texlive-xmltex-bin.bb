@@ -9,6 +9,7 @@ RPM_HASH = "032dac0a0628c35d700a2b5c14ffac540a1c830bdf95b3483bc9c37565961d979343
 
 RPROVIDES:${PN} += "texlive-xmltex-bin \
 texlive-xmltex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-xmltex"
 
 inherit rpm

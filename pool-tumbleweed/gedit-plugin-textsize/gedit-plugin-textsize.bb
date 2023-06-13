@@ -12,6 +12,7 @@ gedit-plugin-textsize(aarch-64) \
 gedit-plugins:/usr/lib64/gedit/plugins/textsize.plugin \
 metainfo() \
 metainfo(gedit-textsize.metainfo.xml)"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 typelib(GObject) \
 typelib(Gdk) \

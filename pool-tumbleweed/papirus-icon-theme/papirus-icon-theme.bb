@@ -19,6 +19,7 @@ RPM_HASH = "d0885c0e7adefb139ac4077546a056855ffbd908d0fb4a522f8cc137340f5206aa16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "papirus-icon-theme"
+
 RDEPENDS:${PN} += "gtk3-tools"
 
 inherit rpm

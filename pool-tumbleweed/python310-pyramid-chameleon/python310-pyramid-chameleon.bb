@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pyramid-chameleon \
 python3.10dist(pyramid-chameleon) \
 python310-pyramid-chameleon \
 python3dist(pyramid-chameleon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Chameleon \
 python310-pyramid"

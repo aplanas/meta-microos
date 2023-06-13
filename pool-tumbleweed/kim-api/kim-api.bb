@@ -15,6 +15,7 @@ RPM_HASH = "4fc2f5dd0c3fdbe931207522968de2a5171429faef8d2f06cb896c22b0276ad1a130
 
 RPROVIDES:${PN} += "kim-api \
 kim-api(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

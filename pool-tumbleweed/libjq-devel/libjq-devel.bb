@@ -9,6 +9,7 @@ RPM_HASH = "849e3631074705de73bccd71cd930743112d6cc759af1a4a39a7ee3644bd6ff48544
 
 RPROVIDES:${PN} += "libjq-devel \
 libjq-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libjq1"
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-translations) \
 python311-pytest-translations \
 python3dist(pytest-translations)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-polib \
 python311-pyenchant"

@@ -9,6 +9,7 @@ RPM_HASH = "0bdd877fb0beafa7ee556b1ae68c6817608f6691c836110291310f116b1c30536e36
 
 RPROVIDES:${PN} += "xapps-mate \
 xapps-mate(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

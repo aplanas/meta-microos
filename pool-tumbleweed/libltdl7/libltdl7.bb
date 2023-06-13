@@ -10,6 +10,7 @@ RPM_HASH = "714c07e6bbe0bb6c289850b1dc7fe57268950b18e8428a20dd266b7488329e9c16f8
 RPROVIDES:${PN} += "libltdl.so.7()(64bit) \
 libltdl7 \
 libltdl7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

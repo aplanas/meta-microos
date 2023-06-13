@@ -37,6 +37,7 @@ tex(setiby4.tex) \
 tex(tlgsqq.tex) \
 tex(version4.tex) \
 texlive-ibygrk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

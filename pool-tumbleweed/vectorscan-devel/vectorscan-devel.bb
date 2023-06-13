@@ -13,6 +13,7 @@ RPM_HASH = "95c2e5db7927be67b4a52afa5d9fa32bb56460e6aa528724fe5341a984d73951767a
 RPROVIDES:${PN} += "pkgconfig(libhs) \
 vectorscan-devel \
 vectorscan-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhs5-vectorscan5"
 

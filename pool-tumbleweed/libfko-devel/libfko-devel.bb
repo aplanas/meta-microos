@@ -13,6 +13,7 @@ RPM_HASH = "86ea1c897455b974f8b40176393fd17bb136240a54f858db31590486e8b62f7f4912
 
 RPROVIDES:${PN} += "libfko-devel \
 libfko-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libfko3"
 

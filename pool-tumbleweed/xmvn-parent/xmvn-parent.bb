@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.fedoraproject.xmvn:xmvn-parent:pom:) \
 xmvn-parent \
 xmvn-parent-pom"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "istack-commons-buildtools \
 mvn(com.sun.istack:istack-commons-buildtools) \
 mvn(com.sun.istack:istack-commons-buildtools:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.sun.codemodel:codemodel) \

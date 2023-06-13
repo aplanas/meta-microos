@@ -65,6 +65,7 @@ locale(mc:zh_CN) \
 locale(mc:zh_TW) \
 mc-lang \
 mc-lang-all"
+
 RDEPENDS:${PN} += "mc"
 
 inherit rpm

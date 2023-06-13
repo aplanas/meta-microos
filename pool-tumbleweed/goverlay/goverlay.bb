@@ -13,6 +13,7 @@ goverlay \
 goverlay(aarch-64) \
 metainfo() \
 metainfo(io.github.benjamimgois.goverlay.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 Mesa-demo \
 libQt5Pas.so.1()(64bit) \

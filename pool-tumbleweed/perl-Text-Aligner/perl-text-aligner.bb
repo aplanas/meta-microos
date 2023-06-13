@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "perl(Text::Aligner) \
 perl(Text::Aligner::Auto) \
 perl(Text::Aligner::MaxKeeper) \
 perl-Text-Aligner"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Term::ANSIColor)"
 

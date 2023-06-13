@@ -9,6 +9,7 @@ RPM_HASH = "8e09a488b615b09faaa26fafb6fc23d8166a69a0601d40d3879ec22fa74378cd860b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gh-zsh-completion"
+
 RDEPENDS:${PN} += "gh"
 
 inherit rpm

@@ -40,6 +40,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-archetype \
 mvn(org.apache.maven.archetype:archetype-models:pom:) \
 mvn(org.apache.maven.archetype:maven-archetype:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven:maven-parent:pom:) \

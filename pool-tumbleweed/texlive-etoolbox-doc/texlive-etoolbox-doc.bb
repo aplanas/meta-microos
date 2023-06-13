@@ -9,6 +9,7 @@ RPM_HASH = "56a829cedfab3b24fa0c3b90730b4b38899b760ba1895b557a2caab1ccf3fd31fb66
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-etoolbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

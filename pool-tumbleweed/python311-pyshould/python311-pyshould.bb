@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyshould) \
 python311-pyshould \
 python3dist(pyshould)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-hamcrest"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(NLopt) \
 nlopt-devel \
 nlopt-devel(aarch-64) \
 pkgconfig(nlopt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnlopt0"
 

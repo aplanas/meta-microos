@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-construct \
 python3.10dist(construct) \
 python310-construct \
 python3dist(construct)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-arrow"
 

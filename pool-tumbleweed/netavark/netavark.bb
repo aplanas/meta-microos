@@ -23,6 +23,7 @@ RPM_HASH = "6c8ce60deac9887a589c4149f89a03777bb705cfda95129491946a6d6d085dd85a02
 
 RPROVIDES:${PN} += "netavark \
 netavark(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

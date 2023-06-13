@@ -14,6 +14,7 @@ python3.10dist(asdf-unit-schemas) \
 python310-asdf-unit-schemas \
 python310-asdf_unit_schemas \
 python3dist(asdf-unit-schemas)"
+
 RDEPENDS:${PN} += "(python310-importlib_resources >= 3 if python310-base < 3.9) \
 python(abi) \
 python310-asdf-standard"

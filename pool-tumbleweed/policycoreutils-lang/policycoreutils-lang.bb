@@ -90,6 +90,7 @@ locale(policycoreutils:zh_HK) \
 locale(policycoreutils:zh_TW) \
 policycoreutils-lang \
 policycoreutils-lang-all"
+
 RDEPENDS:${PN} += "policycoreutils"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "aed8cceb9092504df9ae0de615b0bc3a12d3211888f1a328259b6201cd55f471a9a7
 RPROVIDES:${PN} += "dtb-freescale \
 dtb-freescale(aarch-64) \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

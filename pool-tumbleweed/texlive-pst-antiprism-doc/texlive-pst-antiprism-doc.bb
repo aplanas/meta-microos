@@ -9,6 +9,7 @@ RPM_HASH = "c3472f4b9e7964dd4fac970b2f56eca10bd7c4b73b91dd79b75f83e7efc9c143cfed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-antiprism-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "c38614b12e717c88710ba99cbbdabe791e5e6f025aa5d72dad161e2368c7af8a693d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-Icinga"
+
 RDEPENDS:${PN} += "/bin/sh \
 icingaweb2-vendor-zf1 \
 php \

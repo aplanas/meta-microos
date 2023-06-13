@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-library \
 kicad-symbols"
+
 RDEPENDS:${PN} += "kicad-footprints"
 
 inherit rpm

@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(phfextendedabstract.cls) \
 texlive-phfextendedabstract"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

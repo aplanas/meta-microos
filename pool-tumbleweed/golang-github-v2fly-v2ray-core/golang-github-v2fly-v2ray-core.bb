@@ -12,6 +12,7 @@ RPM_HASH = "cc4aad0a9007824884604f87c7fbe2a92bf77f8f7c308ad8e7f8aa325e37d6c53158
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang-github-v2fly-v2ray-core"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

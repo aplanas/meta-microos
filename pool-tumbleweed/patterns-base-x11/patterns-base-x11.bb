@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-base-x11 \
 patterns-base-x11(aarch-64) \
 patterns-openSUSE-x11"
+
 RDEPENDS:${PN} += "pattern() \
 xf86-input-libinput \
 xorg-x11-fonts-core \

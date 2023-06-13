@@ -18,6 +18,7 @@ RPM_HASH = "2002f6f624a564e4dcec5e917308035b1d2a1e30e98f5c0a42e970138ba4b72cc374
 
 RPROVIDES:${PN} += "libotr-tools \
 libotr-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

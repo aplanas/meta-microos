@@ -15,6 +15,7 @@ RPM_HASH = "346ab26624848e3fdfd5aa2c08028b8539d3739c253ab5016285b9dc0b21445747f1
 RPROVIDES:${PN} += "libnfnetlink-devel \
 libnfnetlink-devel(aarch-64) \
 pkgconfig(libnfnetlink)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnfnetlink0"
 

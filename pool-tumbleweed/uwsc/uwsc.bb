@@ -9,6 +9,7 @@ RPM_HASH = "c239c9836973586488919981d926c54596e164d83d47fad217fc2663685d14ceffe4
 
 RPROVIDES:${PN} += "uwsc \
 uwsc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

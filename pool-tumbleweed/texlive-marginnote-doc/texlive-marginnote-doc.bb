@@ -9,6 +9,7 @@ RPM_HASH = "ac5bba4fc5c36fd7501c5d0181931fccbe72b91567344111fee792dcd8efb877bb3e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-marginnote-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

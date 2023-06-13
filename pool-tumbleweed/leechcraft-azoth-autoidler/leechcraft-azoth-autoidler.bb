@@ -11,6 +11,7 @@ RPM_HASH = "d3be8946519b6ed124eb88d669f53a9812b0ecdd5175ff5fb569d33ff11d17da9fdd
 RPROVIDES:${PN} += "leechcraft-azoth-autoidler \
 leechcraft-azoth-autoidler(aarch-64) \
 libleechcraft_azoth_autoidler.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-azoth \

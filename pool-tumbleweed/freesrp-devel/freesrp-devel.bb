@@ -10,6 +10,7 @@ RPM_HASH = "4d7e426e164048add5f5ef8c1165106dcdb65ecdaf668985a44f529f0c01bca2a500
 
 RPROVIDES:${PN} += "freesrp-devel \
 freesrp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libfreesrp0"
 
 inherit rpm

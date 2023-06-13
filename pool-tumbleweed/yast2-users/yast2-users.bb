@@ -28,6 +28,7 @@ perl(YaPI::ADMINISTRATOR) \
 perl(YaPI::USERS) \
 yast2-users \
 yast2-users(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 cracklib \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "logback-examples \
 mvn(ch.qos.logback:logback-examples) \
 mvn(ch.qos.logback:logback-examples:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

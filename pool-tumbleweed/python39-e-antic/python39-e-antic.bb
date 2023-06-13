@@ -13,6 +13,7 @@ python39-e-antic \
 python39-e-antic(aarch-64) \
 python39-pyeantic \
 python3dist(pyeantic)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

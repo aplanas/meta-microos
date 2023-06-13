@@ -10,6 +10,7 @@ RPM_HASH = "220ba137bd14899f99d9891b22a097966fc5f9f086b8a7c195666ac2aa04e5d35ebd
 
 RPROVIDES:${PN} += "qdl \
 qdl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

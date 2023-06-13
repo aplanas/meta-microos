@@ -12,6 +12,7 @@ RPM_HASH = "431170f9838979a2c674a5379c5fce603de76f005f034b0581cbd6550a7110f79dd5
 
 RPROVIDES:${PN} += "gron \
 gron(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

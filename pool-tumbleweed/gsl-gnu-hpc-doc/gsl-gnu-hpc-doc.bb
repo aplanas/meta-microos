@@ -11,6 +11,7 @@ RPM_HASH = "cd6e4ee4f2915036a7fdc45a9b9a8c7ccd467aaeda431ec79c8960afcf576d9ec435
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gsl-gnu-hpc-doc"
+
 RDEPENDS:${PN} += "gsl_2_7_1-gnu-hpc-doc"
 
 inherit rpm

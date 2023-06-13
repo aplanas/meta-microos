@@ -81,6 +81,7 @@ osgi(org.apache.batik.transcoder) \
 osgi(org.apache.batik.util) \
 osgi(org.apache.batik.xml) \
 xmlgraphics-batik"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.xmlgraphics:xmlgraphics-commons) \

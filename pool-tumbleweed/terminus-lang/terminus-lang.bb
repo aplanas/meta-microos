@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale(terminus:es) \
 terminus-lang \
 terminus-lang-all"
+
 RDEPENDS:${PN} += "terminus"
 
 inherit rpm

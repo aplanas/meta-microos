@@ -19,6 +19,7 @@ RPM_HASH = "a986b9dda337d2e13538b3c9f49e5c91e9f3523e8a36cda229290c42d5517868ab37
 RPROVIDES:${PN} += "libtrng4-24 \
 libtrng4-24(aarch-64) \
 libtrng4.so.24()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

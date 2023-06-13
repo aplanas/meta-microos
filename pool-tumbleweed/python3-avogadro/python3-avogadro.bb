@@ -11,6 +11,7 @@ RPM_HASH = "eac88f61057b2e955833fc98b3d375b7bfde6ca8d036c6a761d73bc6f3fc1a9ba384
 
 RPROVIDES:${PN} += "python3-avogadro \
 python3-avogadro(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libAvogadroCore.so.1()(64bit) \

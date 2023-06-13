@@ -9,6 +9,7 @@ RPM_HASH = "ea439b44566e7f81537e3704363c7a3f489b73f3a996d460d07a34b44f3c20c354c0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-taglibs-standard-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

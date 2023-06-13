@@ -87,6 +87,7 @@ tex(t5-cyklopr-sc.tfm) \
 tex(t5-cyklopr.tfm) \
 tex(t5cyklop.fd) \
 texlive-cyklop"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

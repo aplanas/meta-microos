@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(crypto-policies) \
 crypto-policies"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

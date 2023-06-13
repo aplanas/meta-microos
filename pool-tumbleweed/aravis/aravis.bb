@@ -12,6 +12,7 @@ RPM_HASH = "5440945a46285e64cb5250f5cf1dfbed9dd0140e6ab2707c08a49ff928d51e8079ab
 
 RPROVIDES:${PN} += "aravis \
 aravis(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaravis-0.8.so.0()(64bit) \

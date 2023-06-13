@@ -22,6 +22,7 @@ tex(standalone.cls) \
 tex(standalone.sty) \
 tex(standalone.tex) \
 texlive-standalone"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

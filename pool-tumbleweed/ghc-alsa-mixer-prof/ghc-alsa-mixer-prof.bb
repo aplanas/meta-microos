@@ -10,6 +10,7 @@ RPM_HASH = "a86846940bdec274b95010d95af4eab60b5b865446c9f1b7bb42be537c7357b2dc34
 RPROVIDES:${PN} += "ghc-alsa-mixer-prof \
 ghc-alsa-mixer-prof(aarch-64) \
 ghc-prof(alsa-mixer-0.3.0-Ff4FVP5Sg8l3sx20Z8BrVj)"
+
 RDEPENDS:${PN} += "ghc-alsa-mixer-devel \
 ghc-prof(alsa-core-0.5.0.1-JiFJwdvZ0Gx6AeuqXKf7yg) \
 ghc-prof(base-4.17.1.0) \

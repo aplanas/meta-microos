@@ -14,6 +14,7 @@ caja-extension-share(aarch-64) \
 caja-share \
 libcaja-share.so()(64bit) \
 mate-file-manager-share"
+
 RDEPENDS:${PN} += "caja \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

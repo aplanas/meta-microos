@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(regexpatch.sty) \
 texlive-regexpatch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

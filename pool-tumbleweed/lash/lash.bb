@@ -12,6 +12,7 @@ RPM_HASH = "2743434cc182bd3647d306b53e105ee72f59a9861a06a1539303c3eeaf3597a6b375
 
 RPROVIDES:${PN} += "lash \
 lash(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

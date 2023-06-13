@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-biblatex-luh-ipw-doc:de) \
 texlive-biblatex-luh-ipw-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "fc2bc76b1055f9ea837e6479b1ed13e683e8d97bc98e40b1ce675acb525594558676
 RPROVIDES:${PN} += "alsa-plugins-upmix \
 alsa-plugins-upmix(aarch-64) \
 libasound_module_pcm_upmix.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

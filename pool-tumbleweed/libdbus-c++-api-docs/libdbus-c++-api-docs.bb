@@ -11,6 +11,7 @@ RPM_HASH = "5bef8ce123c590b313c4ae7ec897a73585dcbfa9d33006f6e7a1d54d50085660b3cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdbus-c++-api-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

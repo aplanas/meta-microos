@@ -14,6 +14,7 @@ RPM_HASH = "f585c2b38d109da9504111c471b2b98ab424ad50636a6bcd94b3b678beeabf50f21e
 RPROVIDES:${PN} += "libplplotwxwidgets.so.1()(64bit) \
 libplplotwxwidgets1 \
 libplplotwxwidgets1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

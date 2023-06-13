@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-nodeenv \
 python3.10dist(nodeenv) \
 python310-nodeenv \
 python3dist(nodeenv)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

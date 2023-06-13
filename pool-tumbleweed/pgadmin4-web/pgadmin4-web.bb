@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(pgadmin4-web) \
 pgadmin4-web"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi) \
 python3-Babel \

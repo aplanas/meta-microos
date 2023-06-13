@@ -11,6 +11,7 @@ RPM_HASH = "40b5b0557e2921c1dd5492a777b2d727a485b2bdaea4a88c73b3c22c3268e66565df
 
 RPROVIDES:${PN} += "papi_7_0_0-hpc-devel \
 papi_7_0_0-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

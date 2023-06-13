@@ -29,6 +29,7 @@ perl(X11::Protocol::WM) \
 perl(X11::Protocol::XSetRoot) \
 perl-X11-Protocol-Other \
 perl-X11-Protocol-Other(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(X11::Protocol)"
 

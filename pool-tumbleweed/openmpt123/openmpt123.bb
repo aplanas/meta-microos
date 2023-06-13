@@ -9,6 +9,7 @@ RPM_HASH = "c0036c2f82dfbb0190894f4aa357160006fee95c66aee731bb829224b1e9f576895a
 
 RPROVIDES:${PN} += "openmpt123 \
 openmpt123(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \

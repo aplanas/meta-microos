@@ -15,6 +15,7 @@ RPM_HASH = "b7ab166f40d0b239b6724e4b9c0885846cca92197f7a13bbd2698fa4668d3d6d9ee7
 RPROVIDES:${PN} += "libgnt-devel \
 libgnt-devel(aarch-64) \
 pkgconfig(gnt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

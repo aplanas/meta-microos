@@ -9,6 +9,7 @@ RPM_HASH = "8968fb07185373c044df6429ffeee93a37df43637a156a124e87ac63bcdaf4a323d9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-firamath-otf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

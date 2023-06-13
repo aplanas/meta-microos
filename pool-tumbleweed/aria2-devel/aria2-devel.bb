@@ -16,6 +16,7 @@ RPM_HASH = "5732e3652147f49052648b74429eb4a45547fb186c577941d667433f2fe45ff52f21
 RPROVIDES:${PN} += "aria2-devel \
 aria2-devel(aarch-64) \
 pkgconfig(libaria2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaria2-0"
 

@@ -12,6 +12,7 @@ RPM_HASH = "f562ddaaa652cc1fca3df86906b1ad08d49ea6882554a9f02e6102c2662aa426b855
 RPROVIDES:${PN} += "liblazy.so.1()(64bit) \
 liblazy1 \
 liblazy1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

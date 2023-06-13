@@ -50,6 +50,7 @@ perl(Lingua::Stem::No) \
 perl(Lingua::Stem::Pt) \
 perl(Lingua::Stem::Sv) \
 perl-Lingua-Stem"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Lingua::GL::Stemmer) \
 perl(Lingua::PT::Stemmer) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(albatross.1) \
 texlive-albatross-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

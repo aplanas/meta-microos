@@ -11,6 +11,7 @@ RPM_HASH = "91a7edc9bfa15193ce5708b15c1449e620409c6ad742c143e6d0d9ab679e21b05824
 
 RPROVIDES:${PN} += "libquvi-scripts \
 libquvi-scripts(aarch-64)"
+
 RDEPENDS:${PN} += "(lua53-luasocket if liblua5_3-5) \
 (lua54-luasocket if liblua5_4-5)"
 

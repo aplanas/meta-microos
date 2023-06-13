@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(sysstat-qt5) \
 libsysstat-qt5-devel \
 libsysstat-qt5-devel(aarch-64) \
 pkgconfig(sysstat-qt5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsysstat-qt5-0 \
 pkgconfig \

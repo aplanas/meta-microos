@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "perl(LWP::ConsoleLogger) \
 perl(LWP::ConsoleLogger::Easy) \
 perl(LWP::ConsoleLogger::Everywhere) \
 perl-LWP-ConsoleLogger"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Method::Modifiers) \
 perl(Data::Printer) \

@@ -86,6 +86,7 @@ locale(kdoctools:uk) \
 locale(kdoctools:vi) \
 locale(kdoctools:zh_CN) \
 locale(kdoctools:zh_TW)"
+
 RDEPENDS:${PN} += "kdoctools"
 
 inherit rpm

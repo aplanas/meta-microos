@@ -10,6 +10,7 @@ RPM_HASH = "ef020ae7e762403e71c79998205a0deb69bfa991478a63e550386a08e0bb6e356100
 RPROVIDES:${PN} += "ghc-persistent-sqlite-prof \
 ghc-persistent-sqlite-prof(aarch-64) \
 ghc-prof(persistent-sqlite-2.13.1.1-6m8kOitQFXeAVXzn0JSxB5)"
+
 RDEPENDS:${PN} += "ghc-persistent-sqlite-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(base-4.17.1.0) \

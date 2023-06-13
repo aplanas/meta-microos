@@ -9,6 +9,7 @@ RPM_HASH = "3d1f62896e31745c24d52fe5441fc3bcaf96ae9017d709dbc1ddd05bf72e1258d549
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-etex-pkg-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

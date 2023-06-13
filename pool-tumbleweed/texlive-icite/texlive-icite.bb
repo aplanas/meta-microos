@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(icite.sty) \
 texlive-icite"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

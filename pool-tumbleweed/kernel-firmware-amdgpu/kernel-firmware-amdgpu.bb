@@ -549,6 +549,7 @@ firmware(amdgpu/yellow_carp_ta.bin) \
 firmware(amdgpu/yellow_carp_toc.bin) \
 firmware(amdgpu/yellow_carp_vcn.bin) \
 kernel-firmware-amdgpu"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

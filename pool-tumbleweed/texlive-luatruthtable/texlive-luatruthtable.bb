@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luatruthtable.sty) \
 texlive-luatruthtable"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

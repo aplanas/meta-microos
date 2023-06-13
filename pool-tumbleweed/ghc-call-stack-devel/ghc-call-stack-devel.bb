@@ -10,6 +10,7 @@ RPM_HASH = "0e7d58d6565acff324d60806a44cd7df76d63cefdb81e353a98583f662b6c6d8756e
 RPROVIDES:${PN} += "ghc-call-stack-devel \
 ghc-call-stack-devel(aarch-64) \
 ghc-devel(call-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-call-stack \
 ghc-compiler \

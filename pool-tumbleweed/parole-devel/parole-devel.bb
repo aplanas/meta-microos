@@ -9,6 +9,7 @@ RPM_HASH = "7c336cec9765c17737b13bc1bde3ac5de5e9b59426ddf22cbc125427c935bb81bbcf
 
 RPROVIDES:${PN} += "parole-devel \
 parole-devel(aarch-64)"
+
 RDEPENDS:${PN} += "parole \
 pkgconfig(glib-2.0) \
 pkgconfig(gtk+-3.0) \

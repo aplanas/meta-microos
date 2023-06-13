@@ -10,6 +10,7 @@ RPM_HASH = "cf1c82921d41ae5bbeb85e0dbfb19603c00ce119a758b05e444ba22d4f719561c136
 RPROVIDES:${PN} += "libKSysGuardSystemStats.so.1()(64bit) \
 libKSysGuardSystemStats1 \
 libKSysGuardSystemStats1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ksysguardsystemstats-data \
 ld-linux-aarch64.so.1()(64bit) \

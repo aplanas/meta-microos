@@ -10,6 +10,7 @@ RPM_HASH = "9ceb6a7bc0a34619ad27e7d6f8dfed68ed1fa5e8900546e4a0e757a463b5c8ec7261
 RPROVIDES:${PN} += "Mesa-libd3d-devel \
 Mesa-libd3d-devel(aarch-64) \
 pkgconfig(d3d)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Mesa-libd3d \
 pkgconfig(libdrm)"

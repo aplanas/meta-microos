@@ -10,6 +10,7 @@ RPM_HASH = "b1a6c424592f73d0684219d5951a700ed57de4581e42f048a81a78d56a4755be8402
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-theme-redmond95"
+
 RDEPENDS:${PN} += "gtk2-engine-redmond95"
 
 inherit rpm

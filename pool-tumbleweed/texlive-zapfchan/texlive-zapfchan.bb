@@ -41,6 +41,7 @@ tex(uzcmi8r.tfm) \
 tex(uzcmi8t.tfm) \
 tex(uzcmi8t.vf) \
 texlive-zapfchan"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

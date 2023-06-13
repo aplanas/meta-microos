@@ -10,6 +10,7 @@ RPM_HASH = "fddd16fb4fe67cfc4ccfa9d8d9d7a96dd0e2000d909b4a3da8850138f214a0743c67
 RPROVIDES:${PN} += "libsubunit.so.0()(64bit) \
 libsubunit0 \
 libsubunit0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 subunit(aarch-64)"

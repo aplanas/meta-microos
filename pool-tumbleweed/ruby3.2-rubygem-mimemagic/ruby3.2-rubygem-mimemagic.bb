@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:mimemagic) \
 rubygem(ruby:3.2.0:mimemagic:0) \
 rubygem(ruby:3.2.0:mimemagic:0.4) \
 rubygem(ruby:3.2.0:mimemagic:0.4.3)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:nokogiri) \
 rubygem(ruby:3.2.0:rake) \

@@ -12,6 +12,7 @@ RPM_HASH = "6c25b94053f9a120f115d976c25b0dd7f3f26d1e1632c3dcc06895d97fefbd18a0cf
 
 RPROVIDES:${PN} += "kexec-tools \
 kexec-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

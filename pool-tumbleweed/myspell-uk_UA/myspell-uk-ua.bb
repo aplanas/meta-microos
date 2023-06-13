@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:uk_UA) \
 myspell-dictionary \
 myspell-uk_UA \
 myspell-ukrainian"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

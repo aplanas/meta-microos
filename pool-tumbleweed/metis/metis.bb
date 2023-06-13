@@ -12,6 +12,7 @@ RPM_HASH = "3ec2764c22502fb9346ae14d75ad517993f65e333c518d7f275eeed6216c7dcf351b
 
 RPROVIDES:${PN} += "metis \
 metis(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

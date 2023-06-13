@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:mail) \
 rubygem(ruby:3.2.0:mail:2) \
 rubygem(ruby:3.2.0:mail:2.8) \
 rubygem(ruby:3.2.0:mail:2.8.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:mini_mime) \
 rubygem(ruby:3.2.0:net-imap) \

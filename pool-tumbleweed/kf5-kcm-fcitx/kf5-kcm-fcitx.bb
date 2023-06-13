@@ -16,6 +16,7 @@ fcitx-config-kf5 \
 kf5-kcm-fcitx \
 kf5-kcm-fcitx(aarch-64) \
 locale(plasma5-workspace:ko;zh_CN;zh_SG)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fcitx \
 fcitx-qt5 \

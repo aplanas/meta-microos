@@ -10,6 +10,7 @@ RPM_HASH = "ca37d4db40624939f3389ab158a4984256732692b1ff1b97c2729fc3b9a88ccf915b
 RPROVIDES:${PN} += "ghc-prof(yesod-form-1.7.4-4xvxNC76eVrIZVDOGDISYi) \
 ghc-yesod-form-prof \
 ghc-yesod-form-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \
 ghc-prof(base-4.17.1.0) \

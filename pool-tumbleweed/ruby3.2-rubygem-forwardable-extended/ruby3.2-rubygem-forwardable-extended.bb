@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:forwardable-extended) \
 rubygem(ruby:3.2.0:forwardable-extended:2) \
 rubygem(ruby:3.2.0:forwardable-extended:2.6) \
 rubygem(ruby:3.2.0:forwardable-extended:2.6.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

@@ -13,6 +13,7 @@ libgcr3-devel(aarch-64) \
 pkgconfig(gcr-3) \
 pkgconfig(gcr-base-3) \
 pkgconfig(gcr-ui-3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgcr-3-1 \
 pkgconfig(gck-1) \

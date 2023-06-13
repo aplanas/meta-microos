@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-wtref-doc:ja) \
 texlive-wtref-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "b7251e00f8aee4c3b619642031fbf977384a3f404e3ff052cda275c57b4b562ad242
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang-github-linuxdeepin-dde-api"
+
 RDEPENDS:${PN} += "deepin-gir-generator \
 golang-github-linuxdeepin-go-dbus-factory \
 golang-github-linuxdeepin-go-lib \

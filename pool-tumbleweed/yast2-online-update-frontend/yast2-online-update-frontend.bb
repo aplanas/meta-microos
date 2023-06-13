@@ -13,6 +13,7 @@ application(org.opensuse.yast.OnlineUpdate.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.OnlineUpdate.metainfo.xml) \
 yast2-online-update-frontend"
+
 RDEPENDS:${PN} += "yast2-online-update"
 
 inherit rpm

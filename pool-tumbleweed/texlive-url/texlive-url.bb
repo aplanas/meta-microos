@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(url.sty) \
 texlive-url"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

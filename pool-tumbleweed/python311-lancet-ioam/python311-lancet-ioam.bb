@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(lancet-ioam) \
 python311-lancet-ioam \
 python3dist(lancet-ioam)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

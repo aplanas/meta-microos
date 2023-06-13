@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(buctcover.cls) \
 tex(buctthesis.cls) \
 texlive-buctthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

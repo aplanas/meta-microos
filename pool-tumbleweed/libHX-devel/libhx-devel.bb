@@ -22,6 +22,7 @@ libHX_rtcheck.so(LIBHX_4.2)(64bit) \
 libHX_rtcheck.so(LIBHX_4.3)(64bit) \
 libHX_rtcheck.so(LIBHX_4.9)(64bit) \
 pkgconfig(libHX)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libHX32"
 

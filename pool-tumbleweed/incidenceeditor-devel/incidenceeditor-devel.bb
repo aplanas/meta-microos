@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KF5IncidenceEditor) \
 cmake(KPim5IncidenceEditor) \
 incidenceeditor-devel \
 incidenceeditor-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KChart) \
 cmake(KF5CalendarCore) \
 cmake(KPim5CalendarSupport) \

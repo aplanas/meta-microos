@@ -30,6 +30,7 @@ mimehandler(video/mp4) \
 mimehandler(video/x-matroska) \
 subtitlecomposer \
 subtitlecomposer(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

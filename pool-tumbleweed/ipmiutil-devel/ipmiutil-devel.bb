@@ -11,6 +11,7 @@ RPM_HASH = "acdad2c258855494aec140a7981c8b72d31919b829cda2b3b9328b45a139ad3ccf63
 RPROVIDES:${PN} += "ipmiutil-devel \
 ipmiutil-devel(aarch-64) \
 libipmiutil.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ipmiutil \
 ld-linux-aarch64.so.1()(64bit) \

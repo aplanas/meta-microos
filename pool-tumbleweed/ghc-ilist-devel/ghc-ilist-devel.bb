@@ -10,6 +10,7 @@ RPM_HASH = "ea82ee38f5ce8967602bb8fe15403799e050e5c38a1efa84d75da6209809a60f8192
 RPROVIDES:${PN} += "ghc-devel(ilist-0.4.0.1-KsvLIKFcqVNEl2m4LjZZwM) \
 ghc-ilist-devel \
 ghc-ilist-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

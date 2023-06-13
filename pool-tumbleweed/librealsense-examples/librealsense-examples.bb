@@ -9,6 +9,7 @@ RPM_HASH = "d43846018015f2144dd8b830608a5466e4e2bf2d442519763321821d35730b54fc68
 
 RPROVIDES:${PN} += "librealsense-examples \
 librealsense-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLU.so.1()(64bit) \

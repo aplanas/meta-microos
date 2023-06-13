@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-makecell-doc:ru;en) \
 texlive-makecell-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

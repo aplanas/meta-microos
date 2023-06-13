@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(openwrt-luci-rpc) \
 python311-openwrt-luci-rpc \
 python3dist(openwrt-luci-rpc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-click \
 python311-packaging \

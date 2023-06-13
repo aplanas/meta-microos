@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:bindex) \
 rubygem(ruby:3.2.0:bindex:0) \
 rubygem(ruby:3.2.0:bindex:0.8) \
 rubygem(ruby:3.2.0:bindex:0.8.1)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libm.so.6()(64bit) \
 libruby3.2.so.3.2()(64bit) \

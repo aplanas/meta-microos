@@ -15,6 +15,7 @@ RPM_HASH = "897401a39e8c17f2a815cd52ba52c63e2f3bd4a25b91ebdbba89846e47c8a3352ca6
 RPROVIDES:${PN} += "libltc.so.11()(64bit) \
 libltc11 \
 libltc11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "marco-themes \
 mate-window-manager-themes"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

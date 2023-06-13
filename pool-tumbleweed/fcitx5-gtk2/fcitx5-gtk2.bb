@@ -10,6 +10,7 @@ RPM_HASH = "a9cf4ec63648ce6f63f9d8e294abc95539cc2ed7b3e5300387638f9e0d3a92ea954a
 RPROVIDES:${PN} += "fcitx-gtk2 \
 fcitx5-gtk2 \
 fcitx5-gtk2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gtk2-tools \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "6126981672b83b543fc04ce1cf8461c980a5e5a01cc42650331f18d3c1497903ac03
 RPROVIDES:${PN} += "libfplist-devel \
 libfplist-devel(aarch-64) \
 pkgconfig(libfplist)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfplist1"
 

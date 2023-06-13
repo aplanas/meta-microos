@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pyftpdlib \
 python3.10dist(pyftpdlib) \
 python310-pyftpdlib \
 python3dist(pyftpdlib)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -15,6 +15,7 @@ libavahi-glib-devel \
 libavahi-glib-devel(aarch-64) \
 pkgconfig(avahi-glib) \
 pkgconfig(avahi-ui-gtk3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libavahi-devel \
 libavahi-glib1 \

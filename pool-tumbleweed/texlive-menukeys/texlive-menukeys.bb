@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(menukeys-2020-12-19.sty) \
 tex(menukeys.sty) \
 texlive-menukeys"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ ocaml-ppx_derivers-devel \
 ocaml-ppx_derivers-devel(aarch-64) \
 ocamlfind(ppx_derivers) \
 ocamlx(Ppx_derivers)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Buffer) \

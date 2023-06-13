@@ -9,6 +9,7 @@ RPM_HASH = "bf67e000c388683b251dc48828c84291ddf75b3f7c61d95fcb533f02855999675b68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-extarrows-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

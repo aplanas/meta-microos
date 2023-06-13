@@ -20,6 +20,7 @@ python3.10dist(py3exiv2) \
 python310-exiv2 \
 python310-exiv2(aarch-64) \
 python3dist(py3exiv2)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_python-py3.so.1.82.0()(64bit) \

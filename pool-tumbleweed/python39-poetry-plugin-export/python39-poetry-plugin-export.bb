@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(poetry-plugin-export) \
 python39-poetry-plugin-export \
 python39-poetry_plugin_export \
 python3dist(poetry-plugin-export)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-poetry \
 python39-poetry-core"

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "noto-mono \
 noto-mono-fonts \
 noto-sans-mono \
 noto-sans-mono-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

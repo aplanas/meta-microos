@@ -57,6 +57,7 @@ locale(folder-color-common:ug) \
 locale(folder-color-common:uk) \
 locale(folder-color-common:zh_CN) \
 locale(folder-color-common:zh_TW)"
+
 RDEPENDS:${PN} += "folder-color-common"
 
 inherit rpm

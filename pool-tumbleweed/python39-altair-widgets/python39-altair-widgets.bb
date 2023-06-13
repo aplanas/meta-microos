@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.9dist(altair-widgets) \
 python39-altair-widgets \
 python39-jupyter_altair-widgets \
 python3dist(altair-widgets)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-altair \
 python39-ipython \

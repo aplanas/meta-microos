@@ -46,6 +46,7 @@ locale(secrets:vi) \
 locale(secrets:zh_CN) \
 secrets-lang \
 secrets-lang-all"
+
 RDEPENDS:${PN} += "secrets"
 
 inherit rpm

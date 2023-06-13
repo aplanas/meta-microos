@@ -13,6 +13,7 @@ RPM_HASH = "0a7f9c0323cb5971fd9dc870c29a2bad35d7f7ae54a03ccba2a3d0db7fbce2d4a201
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mirror"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl"
 

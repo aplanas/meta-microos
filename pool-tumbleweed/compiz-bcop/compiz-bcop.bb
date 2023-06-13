@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "compiz-bcop \
 compiz-bcop-devel \
 pkgconfig(bcop)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/pkg-config \
 xsltproc"

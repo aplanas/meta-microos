@@ -9,6 +9,7 @@ RPM_HASH = "c3c6489c9262d0105811722b681e6cc1f602dcceca46cfacb11316fbd295f976a0b7
 
 RPROVIDES:${PN} += "libquicktime-tools \
 libquicktime-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

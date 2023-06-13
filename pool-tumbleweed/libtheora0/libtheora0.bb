@@ -29,6 +29,7 @@ libtheora.so.0()(64bit) \
 libtheora.so.0(libtheora.so.1.0)(64bit) \
 libtheora0 \
 libtheora0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

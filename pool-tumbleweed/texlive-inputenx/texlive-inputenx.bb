@@ -51,6 +51,7 @@ tex(x-mac-roman.def) \
 tex(x-nextstep.def) \
 tex(x-verbatim.def) \
 texlive-inputenx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

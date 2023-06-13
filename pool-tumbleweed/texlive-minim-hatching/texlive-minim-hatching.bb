@@ -10,6 +10,7 @@ RPM_HASH = "20f18212ce846d8e6bd4957ba100b0804ec9a7c822e7f35376362fbf980c2a6b9cee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-minim-hatching"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

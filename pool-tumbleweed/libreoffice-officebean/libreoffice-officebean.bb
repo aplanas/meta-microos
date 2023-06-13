@@ -23,6 +23,7 @@ RPM_HASH = "613b3d18a7b3e12ed8d03eaa69089806ae291558be96fc79e6e5999bf5fa81bcac77
 RPROVIDES:${PN} += "libofficebean.so()(64bit) \
 libreoffice-officebean \
 libreoffice-officebean(aarch-64)"
+
 RDEPENDS:${PN} += "jre-64 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -205,6 +205,7 @@ tex(atksn_w3wxei.enc) \
 tex(atksn_wy3za2.enc) \
 tex(atksn_ycy2xh.enc) \
 texlive-atkinson"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

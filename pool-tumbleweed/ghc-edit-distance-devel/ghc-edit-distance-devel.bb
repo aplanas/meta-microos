@@ -10,6 +10,7 @@ RPM_HASH = "51c44463dc32094a65d88830630d0a5225b76989b3c500a3213cad8defbd4dffb4af
 RPROVIDES:${PN} += "ghc-devel(edit-distance-0.2.2.1-6sqaVuKvJlk4f2SjC0p5nu) \
 ghc-edit-distance-devel \
 ghc-edit-distance-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(array-0.5.4.0) \

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-jfscripts \
 python3.10dist(jfscripts) \
 python310-jfscripts \
 python3dist(jfscripts)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -12,6 +12,7 @@ application(bitwarden.desktop) \
 bitwarden \
 bitwarden(aarch-64) \
 mimehandler(x-scheme-handler/bitwarden)"
+
 RDEPENDS:${PN} += "(google-opensans-fonts or open-sans-fonts) \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

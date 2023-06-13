@@ -19,6 +19,7 @@ ivy \
 mvn(org.apache.ivy:ivy) \
 mvn(org.apache.ivy:ivy:pom:) \
 osgi(org.apache.ivy)"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem"

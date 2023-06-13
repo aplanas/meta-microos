@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-yaspin \
 python3.10dist(yaspin) \
 python310-yaspin \
 python3dist(yaspin)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

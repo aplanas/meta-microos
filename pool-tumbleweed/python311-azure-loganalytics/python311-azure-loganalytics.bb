@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-loganalytics) \
 python311-azure-loganalytics \
 python3dist(azure-loganalytics)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-nspkg \

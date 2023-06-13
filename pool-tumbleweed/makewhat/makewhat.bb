@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(makewhat) \
 makewhat"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 man \

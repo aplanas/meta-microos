@@ -93,6 +93,7 @@ locale(budgie-screensaver:vi) \
 locale(budgie-screensaver:zh_CN) \
 locale(budgie-screensaver:zh_HK) \
 locale(budgie-screensaver:zh_TW)"
+
 RDEPENDS:${PN} += "budgie-screensaver"
 
 inherit rpm

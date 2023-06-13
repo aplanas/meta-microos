@@ -10,6 +10,7 @@ RPM_HASH = "541c8018f18c42862f9e40970e3de7469534a7f95d930d74766b8bcd95c8d6b9041d
 RPROVIDES:${PN} += "libKPim5AkonadiPrivate.so.5()(64bit) \
 libKPim5AkonadiPrivate5 \
 libKPim5AkonadiPrivate5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

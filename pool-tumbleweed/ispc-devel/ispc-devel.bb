@@ -12,6 +12,7 @@ RPM_HASH = "86ae0a996ca9333d307e7cba6575840f2a2dc8b149e3e1f3222c33b569dd7b05d40a
 RPROVIDES:${PN} += "cmake(ispcrt) \
 ispc-devel \
 ispc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ispc \
 libispcrt1"
 

@@ -315,6 +315,7 @@ font(frutnr) \
 font(frutns) \
 font(frutnt) \
 texlive-allrunes-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

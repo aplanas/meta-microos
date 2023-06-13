@@ -10,6 +10,7 @@ RPM_HASH = "f7ccbbf34a30dc46fd40376c28140207cef7ca5d69ecefd95dfde462500dd1de4efb
 RPROVIDES:${PN} += "libmodulemd-devel \
 libmodulemd-devel(aarch-64) \
 pkgconfig(modulemd-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmodulemd2(aarch-64) \
 pkgconfig(glib-2.0) \

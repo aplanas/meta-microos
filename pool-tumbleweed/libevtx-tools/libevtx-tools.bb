@@ -9,6 +9,7 @@ RPM_HASH = "755a0608137e9764d13868b09ad81b3431f4cd30737f140e446103e3034f0474bc5e
 
 RPROVIDES:${PN} += "libevtx-tools \
 libevtx-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

@@ -46,6 +46,7 @@ gnome-control-center \
 gnome-control-center(aarch-64) \
 metainfo() \
 metainfo(org.gnome.Settings.appdata.xml)"
+
 RDEPENDS:${PN} += "gnome-settings-daemon \
 gnome-themes-accessibility \
 gnome-version \

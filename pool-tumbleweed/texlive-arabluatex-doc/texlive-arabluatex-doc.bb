@@ -9,6 +9,7 @@ RPM_HASH = "68772876a1bf2b77b4441240b3d8153d247d7cac566c46a59fff278de7ca02a6ec5b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-arabluatex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

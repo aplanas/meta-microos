@@ -10,6 +10,7 @@ RPM_HASH = "1f2aa5dc05608aa0bcb65a179215ed86a95890e0c1fb20f08930c3f00902c644eaaa
 
 RPROVIDES:${PN} += "qt6-sql-private-devel \
 qt6-sql-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Sql) \
 qt6-core-private-devel"
 

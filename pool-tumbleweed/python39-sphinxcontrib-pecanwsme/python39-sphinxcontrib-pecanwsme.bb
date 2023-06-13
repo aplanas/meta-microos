@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinxcontrib-pecanwsme) \
 python39-sphinxcontrib-pecanwsme \
 python3dist(sphinxcontrib-pecanwsme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-sphinxcontrib-httpdomain"
 

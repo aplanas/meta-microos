@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-cognitiveservices-language-spellcheck) \
 python39-azure-cognitiveservices-language-spellcheck \
 python3dist(azure-cognitiveservices-language-spellcheck)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-cognitiveservices-language-nspkg \
 python39-azure-cognitiveservices-nspkg \

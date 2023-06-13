@@ -15,6 +15,7 @@ j2ee_connector_1_5_api \
 j2ee_connector_api \
 mvn(org.apache.geronimo.specs:geronimo-j2ee-connector_1.5_spec) \
 mvn(org.apache.geronimo.specs:geronimo-j2ee-connector_1.5_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

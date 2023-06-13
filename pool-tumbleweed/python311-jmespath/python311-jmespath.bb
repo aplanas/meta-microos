@@ -39,6 +39,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jmespath) \
 python311-jmespath \
 python3dist(jmespath)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

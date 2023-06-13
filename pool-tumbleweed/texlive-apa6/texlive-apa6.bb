@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(APAendfloat.cfg) \
 tex(apa6.cls) \
 texlive-apa6"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

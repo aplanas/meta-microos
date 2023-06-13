@@ -29,6 +29,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "books \
 handbuch \
 lx-buch1"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

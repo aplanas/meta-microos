@@ -13,6 +13,7 @@ RPM_HASH = "56c50a8d58e2726a698709952a8b2f2e9721921b102d91dc3782d7f7cf406d4d1bc1
 RPROVIDES:${PN} += "libwps-devel \
 libwps-devel(aarch-64) \
 pkgconfig(libwps-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwps-0_4-4 \
 pkgconfig(librevenge-0.0)"

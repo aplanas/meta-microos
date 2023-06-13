@@ -21,6 +21,7 @@ mimehandler(application/x-vnd.kde.contactgroup) \
 mimehandler(text/directory) \
 mimehandler(text/vcard) \
 mimehandler(text/x-ldif)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdepim-runtime \
 ld-linux-aarch64.so.1()(64bit) \

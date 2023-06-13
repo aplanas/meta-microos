@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "mvn(org.jvnet:tiger-types) \
 mvn(org.jvnet:tiger-types:pom:) \
 osgi(org.jvnet.tiger-types) \
 tiger-types"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

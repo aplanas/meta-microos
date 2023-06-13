@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "config(pipewire-jack) \
 jack-daemon \
 pipewire-jack \
 pipewire-jack(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libpipewire-0_3-0 \
 pipewire \

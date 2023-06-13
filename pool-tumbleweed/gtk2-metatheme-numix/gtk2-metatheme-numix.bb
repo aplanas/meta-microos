@@ -11,6 +11,7 @@ RPM_HASH = "1d082e1419e43b34e1a04fbeae2e4f05ec4cd8cfadde71b5e4131a2698357f5bfd3e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-numix"
+
 RDEPENDS:${PN} += "gtk2-engine-murrine \
 metatheme-numix-common"
 

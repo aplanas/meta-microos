@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-setuptools \
 python3.10dist(setuptools) \
 python310-setuptools \
 python3dist(setuptools)"
+
 RDEPENDS:${PN} += "python(abi) \
 update-alternatives"
 

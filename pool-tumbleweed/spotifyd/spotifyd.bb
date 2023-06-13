@@ -297,6 +297,7 @@ bundled(rust-crate:zvariant) \
 bundled(rust-crate:zvariant_derive) \
 spotifyd \
 spotifyd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libasound.so.2()(64bit) \
 libasound.so.2(ALSA_0.9)(64bit) \

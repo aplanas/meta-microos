@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(utfsym.sty) \
 texlive-utfsym"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

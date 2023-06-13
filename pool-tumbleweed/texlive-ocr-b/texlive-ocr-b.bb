@@ -15,6 +15,7 @@ tex(ocrb7.tfm) \
 tex(ocrb8.tfm) \
 tex(ocrb9.tfm) \
 texlive-ocr-b"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

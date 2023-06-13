@@ -11,6 +11,7 @@ RPM_HASH = "816400602e5fa8f094e4335829f6320b88026af48b258907f09c31b29d1a211949be
 
 RPROVIDES:${PN} += "uwsgi-pam \
 uwsgi-pam(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

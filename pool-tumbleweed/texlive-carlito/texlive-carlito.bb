@@ -225,6 +225,7 @@ tex(crlt_ys3vdn.enc) \
 tex(crlt_zisnlb.enc) \
 tex(crlt_zmzg5w.enc) \
 texlive-carlito"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

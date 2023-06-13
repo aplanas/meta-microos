@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(spotipy) \
 python311-spotipy \
 python3dist(spotipy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-redis \
 python311-requests \

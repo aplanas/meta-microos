@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-xhtml2pdf \
 python3.10dist(xhtml2pdf) \
 python310-xhtml2pdf \
 python3dist(xhtml2pdf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

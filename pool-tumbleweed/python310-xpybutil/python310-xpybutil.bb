@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-xpybutil \
 python3.10dist(xpybutil) \
 python310-xpybutil \
 python3dist(xpybutil)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-xcffib"
 

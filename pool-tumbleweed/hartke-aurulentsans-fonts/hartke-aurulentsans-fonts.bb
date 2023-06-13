@@ -14,6 +14,7 @@ RPM_HASH = "358b2130d95d5e9470bfbf4e3a985597fd7af3212b6acad767becc0795e9a22cc5b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hartke-aurulentsans-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

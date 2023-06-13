@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(fixocgx.sty) \
 tex(ocgbase.sty) \
 tex(ocgx2.sty) \
 texlive-ocgx2"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

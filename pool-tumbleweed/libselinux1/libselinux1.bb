@@ -19,6 +19,7 @@ libselinux.so.1(LIBSELINUX_3.4)(64bit) \
 libselinux.so.1(LIBSELINUX_3.5)(64bit) \
 libselinux1 \
 libselinux1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

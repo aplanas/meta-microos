@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-launcher-branding \
 deepin-launcher-branding-openSUSE"
+
 RDEPENDS:${PN} += "deepin-launcher"
 
 inherit rpm

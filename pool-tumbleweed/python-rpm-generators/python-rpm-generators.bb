@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-rpm-generators \
 python3-rpm-generators"
+
 RDEPENDS:${PN} += "python-rpm-macros \
 python3-setuptools"
 

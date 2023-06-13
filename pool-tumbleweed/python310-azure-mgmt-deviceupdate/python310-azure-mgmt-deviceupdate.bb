@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-deviceupdate \
 python3.10dist(azure-mgmt-deviceupdate) \
 python310-azure-mgmt-deviceupdate \
 python3dist(azure-mgmt-deviceupdate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

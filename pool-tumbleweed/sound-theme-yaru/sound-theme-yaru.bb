@@ -12,6 +12,7 @@ RPM_HASH = "436131b2ad5ebd2503c958ec3bfa9988c0d488dd660eaa1dfe12cbda1ea36b20656f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sound-theme-yaru"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "e3d3ac7e487fefc986c43ffb1fd7780591384947f0b94bef9f5754e86854d7775cdf
 RPROVIDES:${PN} += "postfix-bdb-lmdb \
 postfix-bdb-lmdb(aarch-64) \
 postfix-lmdb"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

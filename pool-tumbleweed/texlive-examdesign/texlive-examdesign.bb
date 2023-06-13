@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(examdesign.cls) \
 texlive-examdesign"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

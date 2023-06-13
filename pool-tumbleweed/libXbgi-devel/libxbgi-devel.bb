@@ -16,6 +16,7 @@ RPM_HASH = "5a06565b9d00ead9f9ccb144e7698560385a8f6e3b8c1b615dd714a2fc23598ca9a5
 
 RPROVIDES:${PN} += "libXbgi-devel \
 libXbgi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libX11-devel \
 libXbgi1 \
 xorg-x11-proto-devel"

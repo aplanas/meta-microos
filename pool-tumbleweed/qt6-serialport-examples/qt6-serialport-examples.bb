@@ -9,6 +9,7 @@ RPM_HASH = "85f87d6d8969bb616fb663d329019cfc71f3408ccc2e4225f0b0982d8fe943854fe6
 
 RPROVIDES:${PN} += "qt6-serialport-examples \
 qt6-serialport-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

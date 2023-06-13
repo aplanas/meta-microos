@@ -11,6 +11,7 @@ RPM_HASH = "026f25eedc4b6e6d1e8aefc22b543a8d797e576d1edcf46f38df10b86cb0ed0f9c53
 RPROVIDES:${PN} += "ghc-devel(skylighting-format-blaze-html-0.1.1-GSLRiRB6bjcEjUjplnknYR) \
 ghc-skylighting-format-blaze-html-devel \
 ghc-skylighting-format-blaze-html-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

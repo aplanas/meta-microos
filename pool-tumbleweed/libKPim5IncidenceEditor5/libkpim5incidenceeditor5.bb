@@ -10,6 +10,7 @@ RPM_HASH = "2410d29f09025e0a13ae35586e9f226c178f01570658ba47dd0a902704e5bf8b44e1
 RPROVIDES:${PN} += "libKPim5IncidenceEditor.so.5()(64bit) \
 libKPim5IncidenceEditor5 \
 libKPim5IncidenceEditor5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 incidenceeditor \
 ld-linux-aarch64.so.1()(64bit) \

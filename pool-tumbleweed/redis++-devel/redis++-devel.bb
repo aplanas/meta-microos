@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(redis++) \
 pkgconfig(redis++) \
 redis++-devel \
 redis++-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libredis++1 \
 pkgconfig(hiredis) \

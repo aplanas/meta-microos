@@ -9,6 +9,7 @@ RPM_HASH = "3c216d99529e4e309f911cc33bdb6596f38e7db7a2bac613f80f763917525a695df6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-swimgraf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "72351ca54ab54688a5873d32d241b594e989b8aa4832e4e388a8b8e73879543a5b76
 RPROVIDES:${PN} += "liblttoolbox.so.3()(64bit) \
 liblttoolbox3 \
 liblttoolbox3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

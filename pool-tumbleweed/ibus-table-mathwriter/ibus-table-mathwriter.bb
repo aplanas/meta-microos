@@ -9,6 +9,7 @@ RPM_HASH = "d1bba5c5d2efc9d98c1648553e3bb1123f4da864945c0dc0b71813e925ae953d6e30
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-mathwriter"
+
 RDEPENDS:${PN} += "ibus-table"
 
 inherit rpm

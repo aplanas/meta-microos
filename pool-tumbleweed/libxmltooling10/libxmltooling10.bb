@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "libxmltooling.so.10()(64bit) \
 libxmltooling10 \
 libxmltooling10(aarch-64) \
 xmltooling"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

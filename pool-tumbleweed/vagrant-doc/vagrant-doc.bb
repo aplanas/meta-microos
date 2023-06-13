@@ -9,6 +9,7 @@ RPM_HASH = "91c1e85ef78387c15b98284b0fa71de7552d2875c61aae31982ffa245c94ec7d3b70
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vagrant-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

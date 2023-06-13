@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "auto-value-parent \
 mvn(com.google.auto.value:auto-value-parent:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.auto:auto-parent:pom:)"

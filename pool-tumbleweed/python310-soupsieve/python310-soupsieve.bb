@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-soupsieve \
 python3.10dist(soupsieve) \
 python310-soupsieve \
 python3dist(soupsieve)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

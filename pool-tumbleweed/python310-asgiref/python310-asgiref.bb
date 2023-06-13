@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-asgiref \
 python3.10dist(asgiref) \
 python310-asgiref \
 python3dist(asgiref)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

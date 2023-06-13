@@ -10,6 +10,7 @@ RPM_HASH = "57c26ed1ed7e54548dc1021dd9c40e02f4d6b95e939562aa3d5d373e9ca5097bb04d
 
 RPROVIDES:${PN} += "scheme48-devel \
 scheme48-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/scheme-srfi-7 \
 scheme48"
 

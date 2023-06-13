@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "bogofilter \
 bogofilter-backend \
 bogofilter-db \
 bogofilter-db(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 bogofilter-common \
 ld-linux-aarch64.so.1()(64bit) \

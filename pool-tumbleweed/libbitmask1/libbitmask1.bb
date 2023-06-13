@@ -13,6 +13,7 @@ RPM_HASH = "39333fc453364026ed39346cde2a7d085542ca84d9d30f47a2c13db0cbee096f4d13
 RPROVIDES:${PN} += "libbitmask.so.1()(64bit) \
 libbitmask1 \
 libbitmask1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

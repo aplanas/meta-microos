@@ -53,6 +53,7 @@ locale(backintime:tr) \
 locale(backintime:uk) \
 locale(backintime:zh_CN) \
 locale(backintime:zh_TW)"
+
 RDEPENDS:${PN} += "backintime"
 
 inherit rpm

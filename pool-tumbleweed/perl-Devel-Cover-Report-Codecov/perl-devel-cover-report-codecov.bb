@@ -23,6 +23,7 @@ perl(Devel::Cover::Report::Codecov::Service::Shippable) \
 perl(Devel::Cover::Report::Codecov::Service::Travis) \
 perl(Devel::Cover::Report::Codecov::Service::Wercker) \
 perl-Devel-Cover-Report-Codecov"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Capture::Tiny) \
 perl(Devel::Cover) \

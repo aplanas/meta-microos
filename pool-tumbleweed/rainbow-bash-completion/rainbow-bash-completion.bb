@@ -9,6 +9,7 @@ RPM_HASH = "92343e16075f48a9fe1661516e62f4f2c40aaba3b46a4e1fd14b7af07d5403353738
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rainbow-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 rainbow"
 

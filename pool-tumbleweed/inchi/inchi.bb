@@ -16,6 +16,7 @@ RPM_HASH = "7b8c9d705e0f7485b9eec8ae577dc9895adb447b1b8509d7dc5ea617591ea56196bb
 
 RPROVIDES:${PN} += "inchi \
 inchi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "istack-commons-test \
 mvn(com.sun.istack:istack-commons-test) \
 mvn(com.sun.istack:istack-commons-test:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(dom4j:dom4j) \

@@ -13,6 +13,7 @@ RPM_HASH = "a07bf9e576adef00b262e057dc4b5a6e71fed516b7d762852bf824e2503d8caa6732
 RPROVIDES:${PN} += "libtss2-tcti-spi-helper.so.0()(64bit) \
 libtss2-tcti-spi-helper0 \
 libtss2-tcti-spi-helper0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

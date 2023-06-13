@@ -112,6 +112,7 @@ font(은디나루) \
 font(은바탕) \
 font(은필기) \
 texlive-unfonts-core-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

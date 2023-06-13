@@ -10,6 +10,7 @@ RPM_HASH = "bfd9dfa63212fd380fabd11adc01082133edb640c4560726f185d42c5d7a52aa9020
 RPROVIDES:${PN} += "config(neard) \
 neard \
 neard(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

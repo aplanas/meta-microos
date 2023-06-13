@@ -12,6 +12,7 @@ RPM_HASH = "e909ef3209d9a94c2e926469ba1658d7c809f86d9329f8cbdecc4d364b378da8870b
 RPROVIDES:${PN} += "libgitg-1.0.so.0()(64bit) \
 libgitg-1_0-0 \
 libgitg-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

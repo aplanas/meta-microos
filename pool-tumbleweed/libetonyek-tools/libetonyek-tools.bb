@@ -9,6 +9,7 @@ RPM_HASH = "7a08ce46fdc03d0320c4e74d7ece0e0e29f51a306b384832a28551be4708beed12ad
 
 RPROVIDES:${PN} += "libetonyek-tools \
 libetonyek-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

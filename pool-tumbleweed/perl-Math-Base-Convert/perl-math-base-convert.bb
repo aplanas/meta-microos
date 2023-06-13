@@ -18,6 +18,7 @@ perl(Math::Base::Convert::Bitmaps) \
 perl(Math::Base::Convert::CalcPP) \
 perl(Math::Base::Convert::Shortcuts) \
 perl-Math-Base-Convert"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

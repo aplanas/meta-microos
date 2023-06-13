@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-kafka-python \
 python3.10dist(kafka-python) \
 python310-kafka-python \
 python3dist(kafka-python)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

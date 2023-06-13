@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-ack \
 vim-plugin-ag"
+
 RDEPENDS:${PN} += "/bin/sh \
 ack"
 

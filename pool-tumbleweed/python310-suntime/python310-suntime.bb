@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-suntime \
 python3.10dist(suntime) \
 python310-suntime \
 python3dist(suntime)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-dateutil"
 

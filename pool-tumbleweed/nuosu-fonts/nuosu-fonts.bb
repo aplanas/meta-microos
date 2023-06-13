@@ -10,6 +10,7 @@ RPM_HASH = "712c0dcc100dc6eca9d97dcfcf43e099958e06d96894fa5434f55772ad80c9e04bcf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nuosu-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

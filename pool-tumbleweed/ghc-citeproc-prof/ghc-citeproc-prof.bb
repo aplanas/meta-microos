@@ -10,6 +10,7 @@ RPM_HASH = "1bb204f6276e93e6041efaca6c5eb4ad5d9da1efb0323bd5658d8fa03664dc63e36a
 RPROVIDES:${PN} += "ghc-citeproc-prof \
 ghc-citeproc-prof(aarch-64) \
 ghc-prof(citeproc-0.8.1-1D0nfQHnF7b6sejYb0d6Zi)"
+
 RDEPENDS:${PN} += "ghc-citeproc-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \

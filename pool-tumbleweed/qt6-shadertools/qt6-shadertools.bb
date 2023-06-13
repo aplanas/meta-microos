@@ -9,6 +9,7 @@ RPM_HASH = "7df29b935816329ddfe47696576ce25b461acfd7cdd2c63281abb52f9eab9c5b9432
 
 RPROVIDES:${PN} += "qt6-shadertools \
 qt6-shadertools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

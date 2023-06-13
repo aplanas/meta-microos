@@ -13,6 +13,7 @@ RPM_HASH = "d1f1d37a0824f5d5a0ca0e1d4313695a4240dfbcbb4a7b0fe87f046c3b2178325b33
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crawl-data"
+
 RDEPENDS:${PN} += "crawl"
 
 inherit rpm

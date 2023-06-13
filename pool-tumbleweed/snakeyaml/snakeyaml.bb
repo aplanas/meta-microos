@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "mvn(org.yaml:snakeyaml) \
 mvn(org.yaml:snakeyaml:pom:) \
 osgi(org.yaml.snakeyaml) \
 snakeyaml"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-codec:commons-codec)"

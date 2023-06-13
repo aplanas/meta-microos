@@ -15,6 +15,7 @@ RPM_HASH = "8bd197182c2ba1457db9f0551d1fd30ed073ed654eb3460fcfb199ffa68a274e9e64
 RPROVIDES:${PN} += "libkim-api.so.2()(64bit) \
 libkim-api2 \
 libkim-api2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

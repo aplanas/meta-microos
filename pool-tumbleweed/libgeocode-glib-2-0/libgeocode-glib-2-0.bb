@@ -15,6 +15,7 @@ RPM_HASH = "f489b62bb3feca944ac02e79f1b1107fd159fedb2cfee3c9f370098fed723b19c5e5
 RPROVIDES:${PN} += "libgeocode-glib-2-0 \
 libgeocode-glib-2-0(aarch-64) \
 libgeocode-glib-2.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 geocode-glib \
 ld-linux-aarch64.so.1()(64bit) \

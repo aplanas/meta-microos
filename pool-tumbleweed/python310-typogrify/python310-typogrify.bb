@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-typogrify \
 python3.10dist(typogrify) \
 python310-typogrify \
 python3dist(typogrify)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-smartypants"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(telepot) \
 python311-telepot \
 python3dist(telepot)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-urllib3"
 

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(binaryornot) \
 python311-binaryornot \
 python3dist(binaryornot)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-chardet"
 

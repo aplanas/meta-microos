@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(proba.sty) \
 texlive-proba"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

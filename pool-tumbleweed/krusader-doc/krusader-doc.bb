@@ -12,6 +12,7 @@ RPM_HASH = "179c61f1998230427a0f79efd346042a082e2f4534c1519906f9014697f0be4633bf
 
 RPROVIDES:${PN} += "krusader-doc \
 krusader-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

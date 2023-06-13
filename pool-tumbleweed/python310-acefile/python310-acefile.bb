@@ -12,6 +12,7 @@ python3.10dist(acefile) \
 python310-acefile \
 python310-acefile(aarch-64) \
 python3dist(acefile)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

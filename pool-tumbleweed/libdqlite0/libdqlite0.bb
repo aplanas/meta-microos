@@ -15,6 +15,7 @@ RPM_HASH = "d1ca518cff3929a9a044bf65d89045a07fefbadd149225e7bd861e204a372fc99e09
 RPROVIDES:${PN} += "libdqlite.so.0()(64bit) \
 libdqlite0 \
 libdqlite0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

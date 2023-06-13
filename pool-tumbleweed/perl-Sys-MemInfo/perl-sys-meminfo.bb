@@ -20,6 +20,7 @@ RPM_HASH = "9e4c4366954b08724b43c13332e1730f5e7a7af3558d7d10f95d767032fa989d4ba9
 RPROVIDES:${PN} += "perl(Sys::MemInfo) \
 perl-Sys-MemInfo \
 perl-Sys-MemInfo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

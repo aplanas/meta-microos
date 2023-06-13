@@ -14,6 +14,7 @@ php-composer \
 php5-composer \
 php7-composer \
 php8-composer"
+
 RDEPENDS:${PN} += "php \
 php-intl \
 php-json \

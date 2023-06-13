@@ -22,6 +22,7 @@ RPM_HASH = "4400b34e2d8c10232d3c5220e4cd7edca1ab78e29c1c0ad5685b2fc07ccaaeb18590
 
 RPROVIDES:${PN} += "poster \
 poster(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:fog-xml) \
 rubygem(ruby:3.2.0:fog-xml:0) \
 rubygem(ruby:3.2.0:fog-xml:0.1) \
 rubygem(ruby:3.2.0:fog-xml:0.1.4)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:fog-core) \
 rubygem(ruby:3.2.0:nokogiri)"

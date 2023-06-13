@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(emacs-w3m) \
 emacs-w3m \
 w3m-el"
+
 RDEPENDS:${PN} += "/bin/sh \
 apel \
 emacs \

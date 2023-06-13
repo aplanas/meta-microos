@@ -39,6 +39,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Task::Kensho::ModuleDev) \
 perl-Task-Kensho-ModuleDev"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Uploader) \
 perl(Code::TidyAll) \

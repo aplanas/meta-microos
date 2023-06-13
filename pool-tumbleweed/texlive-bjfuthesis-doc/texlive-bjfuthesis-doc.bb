@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "en) \
 locale(texlive-bjfuthesis-doc:zh \
 texlive-bjfuthesis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

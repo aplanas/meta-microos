@@ -11,6 +11,7 @@ RPM_HASH = "a7025681cddf64ae2d22ae7ded4b363f13e95b16701f3a4b7edf3e566be836e591d3
 RPROVIDES:${PN} += "typelib(Matekbd) \
 typelib-1_0-Matekbd-1_0 \
 typelib-1_0-Matekbd-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libmatekbd.so.4()(64bit) \
 libmatekbdui.so.4()(64bit) \
 typelib(Atk) \

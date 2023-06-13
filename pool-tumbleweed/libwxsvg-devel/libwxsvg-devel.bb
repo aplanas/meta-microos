@@ -10,6 +10,7 @@ RPM_HASH = "23761704853465d96876530a2f8c6eff9034d2878fb67380cb462c79cc956875d7ec
 RPROVIDES:${PN} += "libwxsvg-devel \
 libwxsvg-devel(aarch-64) \
 pkgconfig(libwxsvg)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwxsvg3 \
 pkgconfig(expat) \

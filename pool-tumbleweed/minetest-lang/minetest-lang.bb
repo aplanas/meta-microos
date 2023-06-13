@@ -53,6 +53,7 @@ locale(minetest:zh_CN) \
 locale(minetest:zh_TW) \
 minetest-lang \
 minetest-lang-all"
+
 RDEPENDS:${PN} += "minetest"
 
 inherit rpm

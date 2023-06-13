@@ -11,6 +11,7 @@ RPM_HASH = "93e7f26033d0ef6d9bd1e7aa5630ca7dd1441fcd27b1762aa1ac967687a6e7e682e0
 RPROVIDES:${PN} += "libharfbuzz-gobject.so.0()(64bit) \
 libharfbuzz-gobject0 \
 libharfbuzz-gobject0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libglib-2.0.so.0()(64bit) \

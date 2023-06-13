@@ -9,6 +9,7 @@ RPM_HASH = "23aa661921d8a0b76a61cd33ebe786703acb4cd798dfe077d50a10174829cf4cbc52
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-archaeologie-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

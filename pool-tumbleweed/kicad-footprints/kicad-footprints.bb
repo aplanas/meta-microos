@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-footprints \
 kicad-library:/usr/share/kicad/template/fp-lib-table"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

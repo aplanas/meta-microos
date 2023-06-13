@@ -9,6 +9,7 @@ RPM_HASH = "f28e33591d00652c4609eba1581557dc768f6d8c891ce5e1dc7dc504a1da46dc0c72
 
 RPROVIDES:${PN} += "connman-plugin-pptp \
 connman-plugin-pptp(aarch-64)"
+
 RDEPENDS:${PN} += "connman \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

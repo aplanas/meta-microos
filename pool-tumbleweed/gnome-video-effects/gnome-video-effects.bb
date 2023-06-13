@@ -9,6 +9,7 @@ RPM_HASH = "cbea0d4bd13f56fccde174d5e4424cef59b535d5d734fa9020be498838c2f35e7439
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-video-effects"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

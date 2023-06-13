@@ -9,6 +9,7 @@ RPM_HASH = "f4545037027c93ca72d3a7561f6276aaaafab4e622aa34694e42fc1f59c45d950de2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansifilter-fish-completion"
+
 RDEPENDS:${PN} += "ansifilter \
 fish"
 

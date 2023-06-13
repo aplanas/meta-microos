@@ -21,6 +21,7 @@ osgi(org.eclipse.equinox.p2.discovery) \
 osgi(org.eclipse.equinox.p2.discovery.compatibility) \
 osgi(org.eclipse.equinox.p2.discovery.feature) \
 osgi(org.eclipse.equinox.p2.ui.discovery)"
+
 RDEPENDS:${PN} += "eclipse-platform \
 java-headless \
 javapackages-filesystem"

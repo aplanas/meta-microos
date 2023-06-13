@@ -11,6 +11,7 @@ RPM_HASH = "aa9cf8306710aad043a7cdcfb1295f77775845c3e236182dce4fe622501988af83ba
 RPROVIDES:${PN} += "typelib(HarfBuzz) \
 typelib-1_0-HarfBuzz-0_0 \
 typelib-1_0-HarfBuzz-0_0(aarch-64)"
+
 RDEPENDS:${PN} += "libharfbuzz-gobject.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

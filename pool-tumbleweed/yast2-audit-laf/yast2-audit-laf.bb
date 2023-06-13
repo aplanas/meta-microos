@@ -14,6 +14,7 @@ application(org.opensuse.yast.AuditLAF.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.AuditLAF.metainfo.xml) \
 yast2-audit-laf"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-ruby-bindings"
 

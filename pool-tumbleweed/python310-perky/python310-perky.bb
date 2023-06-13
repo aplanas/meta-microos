@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-perky \
 python3.10dist(perky) \
 python310-perky \
 python3dist(perky)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

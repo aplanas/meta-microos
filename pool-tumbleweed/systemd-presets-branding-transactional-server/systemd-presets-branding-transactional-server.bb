@@ -9,6 +9,7 @@ RPM_HASH = "2b8dc7ebe26aa36bd100ed3beb5fe3df9d7a83791b8f5cc56c12458e3cfeaba62249
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-presets-branding-transactional-server"
+
 RDEPENDS:${PN} += "/bin/sh \
 bash \
 coreutils \

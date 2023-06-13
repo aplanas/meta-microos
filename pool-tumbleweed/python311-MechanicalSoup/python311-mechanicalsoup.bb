@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mechanicalsoup) \
 python311-MechanicalSoup \
 python3dist(mechanicalsoup)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-beautifulsoup4 \
 python311-lxml \

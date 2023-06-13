@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(XCBImdkit) \
 pkgconfig(xcb-imdkit) \
 xcb-imdkit-devel \
 xcb-imdkit-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcb-imdkit1 \
 pkgconfig(xcb) \

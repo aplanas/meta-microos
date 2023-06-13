@@ -18,6 +18,7 @@ perl(Convert::BinHex::Hex2Bin) \
 perl(Convert::BinHex::IO_Handle) \
 perl(Convert::BinHex::IO_Scalar) \
 perl-Convert-BinHex"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

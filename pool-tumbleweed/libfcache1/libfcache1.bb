@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libfcache.so.1()(64bit) \
 libfcache.so.1(V_20230115)(64bit) \
 libfcache1 \
 libfcache1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

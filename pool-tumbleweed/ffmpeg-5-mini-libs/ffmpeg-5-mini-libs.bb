@@ -26,6 +26,7 @@ libswresample.so.4.ff5()(64bit) \
 libswresample.so.4.ff5(LIBSWRESAMPLE_4.7_SUSE)(64bit) \
 libswscale.so.6()(64bit) \
 libswscale.so.6(LIBSWSCALE_6.7_SUSE)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

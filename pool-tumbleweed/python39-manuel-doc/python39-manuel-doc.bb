@@ -9,6 +9,7 @@ RPM_HASH = "5fa3450bf21eb76cbf4bf9d874d1d1da621f9ea24f15e0ed43d208e847d766236409
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-manuel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -20,6 +20,7 @@ RPM_HASH = "2c3597c45ed4de62eed8178354a6cc81e41fd079a5c1d9e0321bed56c3ca79fa1ad2
 RPROVIDES:${PN} += "libint2-2 \
 libint2-2(aarch-64) \
 libint2.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

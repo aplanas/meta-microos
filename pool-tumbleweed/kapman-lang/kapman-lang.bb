@@ -69,6 +69,7 @@ locale(kapman:ug) \
 locale(kapman:uk) \
 locale(kapman:zh_CN) \
 locale(kapman:zh_TW)"
+
 RDEPENDS:${PN} += "kapman"
 
 inherit rpm

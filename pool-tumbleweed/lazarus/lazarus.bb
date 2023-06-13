@@ -24,6 +24,7 @@ mimehandler(text/lazarus-project-information) \
 mimehandler(text/lazarus-project-source) \
 mimehandler(text/lazarus-resource) \
 mimehandler(text/x-pascal)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/instantfpc \

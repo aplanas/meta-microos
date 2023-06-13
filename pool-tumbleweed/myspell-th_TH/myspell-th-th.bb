@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:th_TH) \
 myspell-dictionary \
 myspell-th_TH \
 myspell-thai"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

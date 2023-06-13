@@ -23,6 +23,7 @@ osgi(org.scala-ide.scala.library) \
 scala \
 scala(aarch-64) \
 scala-bootstrap"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 jansi \
 java-headless \

@@ -12,6 +12,7 @@ RPM_HASH = "f58331aa1914d507755edd3561171d69542d9779e44f143e807126f5b919a142a338
 
 RPROVIDES:${PN} += "skopeo \
 skopeo(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcontainers-common \
 libdevmapper.so.1.03()(64bit) \

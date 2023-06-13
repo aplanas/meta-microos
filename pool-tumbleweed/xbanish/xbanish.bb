@@ -18,6 +18,7 @@ RPM_HASH = "fd0ffc0c67e2fc462db89cc9477aaeda4866c1e36157d116775f40b0734ceb6519a6
 
 RPROVIDES:${PN} += "xbanish \
 xbanish(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

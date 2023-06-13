@@ -9,6 +9,7 @@ RPM_HASH = "1b6446f5b7db7805d18925744386f376770037753266851dc484a6b86f70ef29f5da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "herbstluftwm-zsh-completion"
+
 RDEPENDS:${PN} += "herbstluftwm"
 
 inherit rpm

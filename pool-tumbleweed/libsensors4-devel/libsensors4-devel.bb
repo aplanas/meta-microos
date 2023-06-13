@@ -14,6 +14,7 @@ RPM_HASH = "82f218893366a553d68105ca0e01e587718bb6c97f78ecb4e18dec71c76a4d2d4e53
 RPROVIDES:${PN} += "libsensors4-devel \
 libsensors4-devel(aarch-64) \
 sensors:/usr/include/sensors/sensors.h"
+
 RDEPENDS:${PN} += "glibc-devel \
 libsensors4"
 

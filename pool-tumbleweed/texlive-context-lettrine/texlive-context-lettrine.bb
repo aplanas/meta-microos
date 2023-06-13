@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(t-lettrine.tex) \
 texlive-context-lettrine"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "e4d4770d20be59e56931e44387c6b943330c5b7bc27bebb52b4a21bfc92e92bb6a9a
 RPROVIDES:${PN} += "avogadrolibs-devel \
 avogadrolibs-devel(aarch-64) \
 cmake(AvogadroLibs)"
+
 RDEPENDS:${PN} += "avogadrolibs-plugins \
 cmake(MoleQueue) \
 cmake(Qt5Network) \

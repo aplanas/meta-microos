@@ -18,6 +18,7 @@ locale(vido:nl) \
 locale(vido:ru) \
 vido-lang \
 vido-lang-all"
+
 RDEPENDS:${PN} += "vido"
 
 inherit rpm

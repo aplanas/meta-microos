@@ -12,6 +12,7 @@ RPM_HASH = "dccb1675fe0dc921ef816977c18496c86049b5cde9ead9ee582385ab8fe34a421726
 RPROVIDES:${PN} += "cmake(leveldb) \
 leveldb-devel \
 leveldb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libleveldb1"
 
 inherit rpm

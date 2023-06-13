@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Core5Compat) \
 pkgconfig(Qt6Core5Compat) \
 qt6-qt5compat-devel \
 qt6-qt5compat-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt6Core5Compat6 \
 pkgconfig(Qt6Core) \

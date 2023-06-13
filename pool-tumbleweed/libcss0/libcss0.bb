@@ -18,6 +18,7 @@ RPM_HASH = "9a5e666969f6b382b615418bcfae554de5dfce2e6871debe16d7623ca2b34d661fd8
 RPROVIDES:${PN} += "libcss.so.0()(64bit) \
 libcss0 \
 libcss0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

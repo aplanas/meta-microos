@@ -22,6 +22,7 @@ mimehandler(application/fb2+zip) \
 mimehandler(application/pdf) \
 mimehandler(application/x-cbz) \
 mimehandler(application/x-pdf)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 html2text \

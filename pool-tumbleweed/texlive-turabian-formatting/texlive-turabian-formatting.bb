@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(turabian-formatting.sty) \
 tex(turabian-researchpaper.cls) \
 tex(turabian-thesis.cls) \
 texlive-turabian-formatting"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

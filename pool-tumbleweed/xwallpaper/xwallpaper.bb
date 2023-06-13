@@ -9,6 +9,7 @@ RPM_HASH = "648629405cad86d6fbcebe229c3f30a99e9bd2faf18a7fba9f7ee3097f3ad56549da
 
 RPROVIDES:${PN} += "xwallpaper \
 xwallpaper(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libXpm.so.4()(64bit) \

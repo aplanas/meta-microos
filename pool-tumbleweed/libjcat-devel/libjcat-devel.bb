@@ -10,6 +10,7 @@ RPM_HASH = "cc4c738679d02d3700fa0af2905b4443b516279a5dfc2cf4a279c87032c86b09865d
 RPROVIDES:${PN} += "libjcat-devel \
 libjcat-devel(aarch-64) \
 pkgconfig(jcat)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 jcat-tool \
 libjcat1 \

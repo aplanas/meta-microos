@@ -13,6 +13,7 @@ pkgconfig(libsystemd) \
 pkgconfig(libudev) \
 systemd-devel \
 systemd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsystemd0 \
 libudev1 \

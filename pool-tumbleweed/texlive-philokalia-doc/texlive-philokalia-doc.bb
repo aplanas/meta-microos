@@ -9,6 +9,7 @@ RPM_HASH = "f996d920a9ed5138462bc0fdd8702cb3989b8852db9772888291a9bf24e93454f860
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-philokalia-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

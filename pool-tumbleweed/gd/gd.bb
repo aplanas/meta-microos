@@ -13,6 +13,7 @@ RPM_HASH = "de9fb1d59fecee2be418b7ac211e840dcce4f121f3d42326dde03b63f1f31cfc573e
 RPROVIDES:${PN} += "gd \
 gd(aarch-64) \
 gdlib"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

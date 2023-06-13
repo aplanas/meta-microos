@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-echo) \
 python311-pytest-echo \
 python3dist(pytest-echo)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytest"
 

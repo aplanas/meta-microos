@@ -10,6 +10,7 @@ RPM_HASH = "8a962c8204cf10a23d8dd6b78b797f4526ae31d87f0fe1848b44d2c4b3ffa187fa0e
 
 RPROVIDES:${PN} += "qt6-scxml-private-devel \
 qt6-scxml-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Scxml) \
 qt6-qml-private-devel"
 

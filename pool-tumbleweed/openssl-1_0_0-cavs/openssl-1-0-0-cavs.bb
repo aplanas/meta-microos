@@ -10,6 +10,7 @@ RPM_HASH = "e2285bddcb10243d10bf143e6e8bbde7862e03855e27910a240849722d7195dceba7
 
 RPROVIDES:${PN} += "openssl-1_0_0-cavs \
 openssl-1_0_0-cavs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

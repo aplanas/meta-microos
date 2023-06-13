@@ -11,6 +11,7 @@ RPM_HASH = "8cdf336d646b90e1bcafe2e1ea3baaec4432e2e19a19ca95ab9759b7ad8e81560f2b
 RPROVIDES:${PN} += "ghc-base16-bytestring-devel \
 ghc-base16-bytestring-devel(aarch-64) \
 ghc-devel(base16-bytestring-1.0.2.0-BWBHxp15W1kvZUUcQHZQU)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-base16-bytestring \
 ghc-compiler \

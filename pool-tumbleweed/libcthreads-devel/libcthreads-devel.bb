@@ -13,6 +13,7 @@ RPM_HASH = "c700dbb22a4720c68237d5a0f1b34e25333dbb04643fcf11cb3bda00a9b952454563
 RPROVIDES:${PN} += "libcthreads-devel \
 libcthreads-devel(aarch-64) \
 pkgconfig(libcthreads)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcthreads1"
 

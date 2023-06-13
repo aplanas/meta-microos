@@ -10,6 +10,7 @@ RPM_HASH = "e55c0af347cd813ca32b62fc222a13680fae23c271bbae91e5a08f59d717ef2522e5
 
 RPROVIDES:${PN} += "lightmediascanner \
 lightmediascanner(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \

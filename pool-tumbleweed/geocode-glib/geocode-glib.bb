@@ -14,6 +14,7 @@ RPM_HASH = "da70d9fc7433f0e5cdea04f58095c8181fa75326133380c415c23df3c95342ae8f45
 
 RPROVIDES:${PN} += "geocode-glib \
 geocode-glib(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

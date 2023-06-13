@@ -11,6 +11,7 @@ RPM_HASH = "e31683fb1c0aeeae72e70176eb7dc46be1df36df24401e80521c05ef9be802029303
 RPROVIDES:${PN} += "cmake(DCMTK) \
 dcmtk-devel \
 dcmtk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdcmtk17 \
 tcpd-devel"

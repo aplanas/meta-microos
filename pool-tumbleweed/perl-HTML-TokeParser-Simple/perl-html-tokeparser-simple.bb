@@ -38,6 +38,7 @@ perl(HTML::TokeParser::Simple::Token::Tag::End) \
 perl(HTML::TokeParser::Simple::Token::Tag::Start) \
 perl(HTML::TokeParser::Simple::Token::Text) \
 perl-HTML-TokeParser-Simple"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTML::Parser) \
 perl(HTML::TokeParser) \

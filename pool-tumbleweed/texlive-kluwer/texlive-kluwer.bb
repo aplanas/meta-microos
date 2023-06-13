@@ -32,6 +32,7 @@ tex(klut9.clo) \
 tex(klutab.sty) \
 tex(kluwer.cls) \
 texlive-kluwer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

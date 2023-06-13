@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "libavformat.so.60()(64bit) \
 libavformat.so.60(LIBAVFORMAT_60.3_SUSE)(64bit) \
 libavformat60 \
 libavformat60(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

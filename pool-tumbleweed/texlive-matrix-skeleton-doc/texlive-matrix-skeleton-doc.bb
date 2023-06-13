@@ -9,6 +9,7 @@ RPM_HASH = "b367bd94e25d2aa15698aaa70d22921228bcc9c2aeef7b361540899e1dd8cdec6170
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-matrix-skeleton-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

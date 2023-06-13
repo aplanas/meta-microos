@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(footnotehyper.sty) \
 texlive-footnotehyper"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

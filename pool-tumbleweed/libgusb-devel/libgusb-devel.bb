@@ -12,6 +12,7 @@ RPM_HASH = "8ad60275d1682c0a5101e03e0b5244639970bc2b58ee4b94152cf7c186e9ab5280a1
 RPROVIDES:${PN} += "libgusb-devel \
 libgusb-devel(aarch-64) \
 pkgconfig(gusb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

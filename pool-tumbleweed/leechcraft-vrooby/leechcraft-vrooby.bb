@@ -11,6 +11,7 @@ RPM_HASH = "84517257f4e3c15b6b7cb294d885e979956a8769b381036a88a1e9a22762fe5ef5d4
 RPROVIDES:${PN} += "leechcraft-vrooby \
 leechcraft-vrooby(aarch-64) \
 libleechcraft_vrooby.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

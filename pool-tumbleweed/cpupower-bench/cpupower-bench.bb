@@ -14,6 +14,7 @@ RPM_HASH = "afe224d8bd0b92805af07b754378fba0e2c0d18845c8d999e0b7794573ce3b8dd70c
 RPROVIDES:${PN} += "config(cpupower-bench) \
 cpupower-bench \
 cpupower-bench(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

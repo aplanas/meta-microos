@@ -16,6 +16,7 @@ RPM_HASH = "f08f612eb36e34ecb1793d51af1bfa27ea7ca1df5a97096e7f3c96a7ba555220abfd
 RPROVIDES:${PN} += "libpotrace.so.0()(64bit) \
 libpotrace0 \
 libpotrace0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

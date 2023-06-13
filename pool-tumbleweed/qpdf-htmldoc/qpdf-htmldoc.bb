@@ -9,6 +9,7 @@ RPM_HASH = "78f8ff1991199d2e432b16dd1c3797cb0876b864fa376a9e4dcf03ad8f936c902d65
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qpdf-htmldoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

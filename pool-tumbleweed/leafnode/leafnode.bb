@@ -14,6 +14,7 @@ RPM_HASH = "08619155e646e23942079f40c6e1807ed39c020686fe8cb4c431b09d1446c445ec26
 RPROVIDES:${PN} += "config(leafnode) \
 leafnode \
 leafnode(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

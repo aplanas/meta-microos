@@ -12,6 +12,7 @@ RPM_HASH = "969f372944b266cc4e45cc0b420283320e008312e0ab7a2db7fcc65c6774dfa8f902
 
 RPROVIDES:${PN} += "scrypt \
 scrypt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

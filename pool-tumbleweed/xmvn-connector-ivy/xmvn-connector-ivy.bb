@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.fedoraproject.xmvn:xmvn-connector-ivy) \
 mvn(org.fedoraproject.xmvn:xmvn-connector-ivy:pom:) \
 xmvn-connector-ivy"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.fedoraproject.xmvn:xmvn-api) \

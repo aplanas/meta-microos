@@ -11,6 +11,7 @@ RPM_HASH = "6ada2771a85392175fccbbb8e0575a759d184c4b785c6172fe177e20531daf204b7e
 RPROVIDES:${PN} += "typelib(Fwupd) \
 typelib-1_0-Fwupd-2_0 \
 typelib-1_0-Fwupd-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libfwupd.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

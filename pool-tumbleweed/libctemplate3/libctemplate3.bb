@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libctemplate.so.3()(64bit) \
 libctemplate3 \
 libctemplate3(aarch-64) \
 libctemplate_nothreads.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

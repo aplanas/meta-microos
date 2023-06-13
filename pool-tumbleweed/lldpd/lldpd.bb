@@ -21,6 +21,7 @@ RPM_HASH = "15662c372bef9b17720f34581064235ebaf46a88b7da119941e881db92e3261073aa
 RPROVIDES:${PN} += "config(lldpd) \
 lldpd \
 lldpd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

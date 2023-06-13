@@ -12,6 +12,7 @@ RPM_HASH = "d7a5dd1d198ce9e5753467a47be6816278e8b975b6dfc6826c027467fa0d7c0625ef
 RPROVIDES:${PN} += "libchromaprint.so.1()(64bit) \
 libchromaprint1 \
 libchromaprint1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

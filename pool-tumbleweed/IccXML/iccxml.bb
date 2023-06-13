@@ -9,6 +9,7 @@ RPM_HASH = "c39a59388aaeefb072d493e91d10a97175bf121e36c3e47cb3ba73d50ee8faf88042
 
 RPROVIDES:${PN} += "IccXML \
 IccXML(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libIccXML.so.2()(64bit) \

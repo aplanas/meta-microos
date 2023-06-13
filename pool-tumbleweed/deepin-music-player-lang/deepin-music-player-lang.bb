@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-music-player-lang \
 deepin-music-player-lang-all"
+
 RDEPENDS:${PN} += "deepin-music-player"
 
 inherit rpm

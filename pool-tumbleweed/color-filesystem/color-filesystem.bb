@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "color-filesystem \
 icc-dirs"
+
 RDEPENDS:${PN} += "filesystem \
 rpm"
 

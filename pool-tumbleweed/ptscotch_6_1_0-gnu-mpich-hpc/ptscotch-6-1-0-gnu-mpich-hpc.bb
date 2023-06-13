@@ -10,6 +10,7 @@ RPM_HASH = "6fa06ce10bd70edb67b027e6a60963b6d2301adeb5fbe958117e1c33d2f56e841d9a
 
 RPROVIDES:${PN} += "ptscotch_6_1_0-gnu-mpich-hpc \
 ptscotch_6_1_0-gnu-mpich-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

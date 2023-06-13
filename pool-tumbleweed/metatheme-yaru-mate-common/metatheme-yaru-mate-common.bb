@@ -11,6 +11,7 @@ RPM_HASH = "ca4b51fc7bc95ccf0f3e28515590f8facc7f6c9210ec4a505853ac4bc6456be3be84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-yaru-mate-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

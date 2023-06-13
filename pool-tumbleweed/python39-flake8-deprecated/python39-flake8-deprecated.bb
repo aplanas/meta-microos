@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flake8-deprecated) \
 python39-flake8-deprecated \
 python3dist(flake8-deprecated)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-flake8"
 

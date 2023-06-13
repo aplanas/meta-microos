@@ -10,6 +10,7 @@ RPM_HASH = "df6b5d24d8b17e9c174c3907198dd087ccad2c724cf4e2497be1ecbfe8eb30b7736a
 RPROVIDES:${PN} += "ghc-megaparsec-prof \
 ghc-megaparsec-prof(aarch-64) \
 ghc-prof(megaparsec-9.3.0-9LuWCOgzW7qD3PYWTEm9Pv)"
+
 RDEPENDS:${PN} += "ghc-megaparsec-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

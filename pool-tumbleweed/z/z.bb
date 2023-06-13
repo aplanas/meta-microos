@@ -10,6 +10,7 @@ RPM_HASH = "2d9604a163fb0815884e2ceb5691580b625fccdc5e7e4fce266fa3992007e1a7dcef
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "z"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

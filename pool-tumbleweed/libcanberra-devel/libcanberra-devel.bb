@@ -15,6 +15,7 @@ RPM_HASH = "b79d2c7eccddc9b5782328c34c0d295bb8c1c4ee356578b6782df69c31fd0165b541
 RPROVIDES:${PN} += "libcanberra-devel \
 libcanberra-devel(aarch-64) \
 pkgconfig(libcanberra)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcanberra0"
 

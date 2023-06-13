@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(dtx-attach.sty) \
 tex(embedfile.sty) \
 texlive-embedfile"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinxcontrib-qthelp) \
 python39-sphinxcontrib-qthelp \
 python3dist(sphinxcontrib-qthelp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx"
 

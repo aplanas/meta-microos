@@ -22,6 +22,7 @@ libmusicbrainzimport.so()(64bit) \
 liboggflacmetadata.so()(64bit) \
 libqmlcommand.so()(64bit) \
 libtaglibmetadata.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

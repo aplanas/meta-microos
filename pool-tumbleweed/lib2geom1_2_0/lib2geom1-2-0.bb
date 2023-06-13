@@ -12,6 +12,7 @@ RPM_HASH = "b810f509820fdd64c5b8dd49c1ca55de1a0616cd42995fed607be83fad6c48b374b2
 RPROVIDES:${PN} += "lib2geom.so.1.2.0()(64bit) \
 lib2geom1_2_0 \
 lib2geom1_2_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

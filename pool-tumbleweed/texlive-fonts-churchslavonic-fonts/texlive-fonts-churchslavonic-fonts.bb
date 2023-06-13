@@ -155,6 +155,7 @@ font(shafarik) \
 font(triodionunicode) \
 font(vertogradunicode) \
 texlive-fonts-churchslavonic-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

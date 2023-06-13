@@ -10,6 +10,7 @@ RPM_HASH = "904996d47fc8bdc5f307c99f0de5fcc8ed1c4885009b7344f55fd23a6215b287f1cd
 RPROVIDES:${PN} += "lzma-sdk-devel \
 lzma-sdk-devel(aarch-64) \
 pkgconfig(clzma)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libclzma-suse0"
 

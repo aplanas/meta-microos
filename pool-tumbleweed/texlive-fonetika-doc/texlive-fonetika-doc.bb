@@ -9,6 +9,7 @@ RPM_HASH = "5d4b0361b62f7223bc4a3b4d8a84b32675833905e4c994cbab9271514a68fa400279
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fonetika-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-aiohttp_cors \
 python3.10dist(aiohttp-cors) \
 python310-aiohttp_cors \
 python3dist(aiohttp-cors)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310 \
 python310-async_timeout \

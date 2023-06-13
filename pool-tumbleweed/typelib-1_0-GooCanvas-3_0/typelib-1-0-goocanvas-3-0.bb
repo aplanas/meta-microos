@@ -13,6 +13,7 @@ RPM_HASH = "ff5d0d27f0f3bf11e734d50a3e76f54999216239f839c2c42d9cec64417249cf9c05
 RPROVIDES:${PN} += "typelib(GooCanvas) \
 typelib-1_0-GooCanvas-3_0 \
 typelib-1_0-GooCanvas-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgoocanvas-3.0.so.9()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

@@ -10,6 +10,7 @@ RPM_HASH = "ed7d35b6db2a94a5348e5abd0b5162a7f82cbf00a2a2ca59c32585a1929a84453c7d
 RPROVIDES:${PN} += "libscalapack2_2_1_0-gnu-mvapich2-hpc-devel-static \
 libscalapack2_2_1_0-gnu-mvapich2-hpc-devel-static(aarch-64) \
 scalapack_2_1_0-gnu-mvapich2-hpc-devel-static"
+
 RDEPENDS:${PN} += "libscalapack2_2_1_0-gnu-mvapich2-hpc-devel"
 
 inherit rpm

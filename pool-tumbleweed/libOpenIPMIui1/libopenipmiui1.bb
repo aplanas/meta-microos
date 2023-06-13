@@ -11,6 +11,7 @@ RPM_HASH = "2e88d13d50686a267bdcf772c0713a1ad901df75b84f425c92dc3c2942259562560c
 RPROVIDES:${PN} += "libOpenIPMIui.so.1()(64bit) \
 libOpenIPMIui1 \
 libOpenIPMIui1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

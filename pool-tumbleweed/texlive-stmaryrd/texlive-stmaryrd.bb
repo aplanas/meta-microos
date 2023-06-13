@@ -22,6 +22,7 @@ tex(stmary9.tfm) \
 tex(stmaryrd.map) \
 tex(stmaryrd.sty) \
 texlive-stmaryrd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

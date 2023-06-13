@@ -13,6 +13,7 @@ RPM_HASH = "beff6d38e42882d5252b63af2e4b86eacd5d25ac9f583ab1cce750dcc1e1c3015b74
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Sphinx-doc-html"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

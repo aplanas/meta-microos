@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ptolemaicastronomy.sty) \
 texlive-ptolemaicastronomy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

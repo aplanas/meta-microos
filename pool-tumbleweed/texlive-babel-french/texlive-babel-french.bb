@@ -16,6 +16,7 @@ tex(francais.ldf) \
 tex(french.ldf) \
 tex(frenchb.ldf) \
 texlive-babel-french"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

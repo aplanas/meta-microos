@@ -26,6 +26,7 @@ libnss_wins.so.2(NSS_WINS_2)(64bit) \
 samba-client \
 samba-client(aarch-64) \
 smbfs"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /sbin/ldconfig \

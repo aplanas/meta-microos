@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(autosp.1) \
 man(tex2aspc.1) \
 texlive-autosp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

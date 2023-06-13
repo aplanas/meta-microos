@@ -45,6 +45,7 @@ libxslt.so.1(LIBXML2_1.1.7)(64bit) \
 libxslt.so.1(LIBXML2_1.1.9)(64bit) \
 libxslt1 \
 libxslt1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

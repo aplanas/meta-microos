@@ -45,6 +45,7 @@ locale(dc3dd:uk) \
 locale(dc3dd:vi) \
 locale(dc3dd:zh_CN) \
 locale(dc3dd:zh_TW)"
+
 RDEPENDS:${PN} += "dc3dd"
 
 inherit rpm

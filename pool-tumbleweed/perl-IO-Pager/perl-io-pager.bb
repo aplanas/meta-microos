@@ -23,6 +23,7 @@ perl(IO::Pager::Perl) \
 perl(IO::Pager::Unbuffered) \
 perl(IO::Pager::less) \
 perl-IO-Pager"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Which) \

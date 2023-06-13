@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "/bin/sh \
 alternative(sh) \
 zsh-sh"
+
 RDEPENDS:${PN} += "zsh"
 
 inherit rpm

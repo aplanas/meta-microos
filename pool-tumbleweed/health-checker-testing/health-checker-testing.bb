@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "health-checker-plugins \
 health-checker-testing"
+
 RDEPENDS:${PN} += "/bin/bash \
 health-checker"
 

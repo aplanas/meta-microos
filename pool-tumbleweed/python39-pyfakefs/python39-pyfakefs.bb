@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyfakefs) \
 python39-pyfakefs \
 python3dist(pyfakefs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39"
 

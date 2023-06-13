@@ -60,6 +60,7 @@ locale(libKPim5AkonadiMime5:ug) \
 locale(libKPim5AkonadiMime5:uk) \
 locale(libKPim5AkonadiMime5:zh_CN) \
 locale(libKPim5AkonadiMime5:zh_TW)"
+
 RDEPENDS:${PN} += "libKPim5AkonadiMime5"
 
 inherit rpm

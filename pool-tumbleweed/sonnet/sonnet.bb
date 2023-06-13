@@ -11,6 +11,7 @@ RPM_HASH = "3f101620c96d99ebb1e5df081bcd177df8b93b8b4391ef7bd9d885c4e9cc3a4660b6
 
 RPROVIDES:${PN} += "sonnet \
 sonnet(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5SonnetCore.so.5()(64bit) \

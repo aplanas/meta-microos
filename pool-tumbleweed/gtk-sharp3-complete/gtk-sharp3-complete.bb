@@ -13,6 +13,7 @@ RPM_HASH = "0ce6420f4dd8594aeaf24e66e7ec0557ec8ecf179a200c85f1ad5b3a8fdbf8ec0227
 
 RPROVIDES:${PN} += "gtk-sharp3-complete \
 gtk-sharp3-complete(aarch-64)"
+
 RDEPENDS:${PN} += "glib-sharp3 \
 gtk-sharp3 \
 gtk-sharp3-doc \

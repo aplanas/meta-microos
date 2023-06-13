@@ -13,6 +13,7 @@ RPM_HASH = "8462077d2f896339092a4ec927ac0979052002289452eb47978e02bd15771b2d35ab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fontforge-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

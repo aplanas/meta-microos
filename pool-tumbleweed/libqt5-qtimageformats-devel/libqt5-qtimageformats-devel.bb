@@ -13,6 +13,7 @@ RPM_HASH = "a289eaa4c940d86b1b9985d71a7d7eff5bac9a73b45a5bdc4d14d540a39d50e38c42
 
 RPROVIDES:${PN} += "libqt5-qtimageformats-devel \
 libqt5-qtimageformats-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmng-devel \
 libqt5-qtimageformats \
 libtiff-devel \

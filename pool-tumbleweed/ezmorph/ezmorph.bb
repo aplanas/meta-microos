@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ezmorph \
 mvn(net.sf.ezmorph:ezmorph) \
 mvn(net.sf.ezmorph:ezmorph:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-lang:commons-lang)"

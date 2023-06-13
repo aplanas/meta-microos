@@ -11,6 +11,7 @@ RPM_HASH = "b1150792b7836afc5901fa3b35483d6a3a19238f2b5b95468736dcee61e946f82269
 RPROVIDES:${PN} += "config(dcmtk) \
 dcmtk \
 dcmtk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

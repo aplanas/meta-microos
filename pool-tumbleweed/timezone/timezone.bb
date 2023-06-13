@@ -11,6 +11,7 @@ RPM_HASH = "28fd13538bd21acddef11eb1d07d9936dfc500afed3fa33dea03f74e913a602e9959
 RPROVIDES:${PN} += "config(timezone) \
 timezone \
 timezone(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

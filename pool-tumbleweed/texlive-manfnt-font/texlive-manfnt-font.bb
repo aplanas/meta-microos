@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(manfnt.map) \
 texlive-manfnt-font"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

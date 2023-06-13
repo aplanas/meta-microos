@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "glassfish-hk2-runlevel \
 mvn(org.glassfish.hk2:hk2-runlevel) \
 mvn(org.glassfish.hk2:hk2-runlevel:pom:) \
 osgi(org.glassfish.hk2.runlevel)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.annotation:javax.annotation-api) \

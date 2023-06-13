@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "NetworkManager-libreswan \
 NetworkManager-libreswan(aarch-64) \
 NetworkManager-openswan \
 libnm-vpn-plugin-libreswan.so()(64bit)"
+
 RDEPENDS:${PN} += "/usr/sbin/ipsec \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

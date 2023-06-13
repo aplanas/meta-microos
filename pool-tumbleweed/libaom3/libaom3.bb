@@ -11,6 +11,7 @@ RPM_HASH = "e1efe2f682b72bd4b4e818aeeca5afbae97c69db1f4c49a68cf3fd9814cf2f0fd9db
 RPROVIDES:${PN} += "libaom.so.3()(64bit) \
 libaom3 \
 libaom3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

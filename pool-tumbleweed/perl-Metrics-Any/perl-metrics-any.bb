@@ -37,6 +37,7 @@ perl(Metrics::Any::Adapter::Test) \
 perl(Metrics::Any::AdapterBase::Stored) \
 perl(Metrics::Any::Collector) \
 perl-Metrics-Any"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(List::Util)"
 

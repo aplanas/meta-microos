@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libKF5Sane.so.5()(64bit) \
 libKF5Sane5 \
 libKF5Sane5(aarch-64) \
 libksane"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

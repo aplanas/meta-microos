@@ -9,6 +9,7 @@ RPM_HASH = "b9514f54deb71a7aac0d80ecc1efb47a042ffc13fd4d5ba69f6f85463907e6cda5a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-warpcol-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

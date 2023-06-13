@@ -9,6 +9,7 @@ RPM_HASH = "30b6df1a5eab50b903fc957147f34a7ce83f498327cf624a1dc2ec1dc2c0cffb1444
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flux2-cli-zsh-completion"
+
 RDEPENDS:${PN} += "flux2-cli"
 
 inherit rpm

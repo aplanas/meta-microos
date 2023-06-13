@@ -12,6 +12,7 @@ RPM_HASH = "452524304d8f39d6c203e2ed12ec089c5e5eb54fa52f2ba4ff6840677dd27819fbf6
 RPROVIDES:${PN} += "libcap-ng.so.0()(64bit) \
 libcap-ng0 \
 libcap-ng0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

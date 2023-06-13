@@ -11,6 +11,7 @@ RPM_HASH = "b1dc512c74d642df822b1a4724e001bc5f809269f9f561307cbc8510dc55193eddb8
 
 RPROVIDES:${PN} += "libcddb-utils \
 libcddb-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

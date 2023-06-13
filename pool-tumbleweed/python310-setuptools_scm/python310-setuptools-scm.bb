@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-setuptools_scm \
 python3.10dist(setuptools-scm) \
 python310-setuptools_scm \
 python3dist(setuptools-scm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-packaging \
 python310-setuptools \

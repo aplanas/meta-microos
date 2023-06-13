@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-panel-branding \
 mate-panel-branding-openSUSE"
+
 RDEPENDS:${PN} += "/bin/sh \
 mate-applet-softupd \
 mate-applets \

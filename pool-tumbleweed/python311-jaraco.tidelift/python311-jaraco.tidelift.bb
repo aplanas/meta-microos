@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jaraco.tidelift) \
 python311-jaraco.tidelift \
 python3dist(jaraco.tidelift)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-autocommand \
 python311-importlib-resources \

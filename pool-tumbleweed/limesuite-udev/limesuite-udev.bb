@@ -9,6 +9,7 @@ RPM_HASH = "3fe177fd9800aacf7def4415bafb0670bf1a6545b5d845af41ad9fbc55769abbfb7e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "limesuite-udev"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

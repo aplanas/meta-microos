@@ -43,6 +43,7 @@ python3.10dist(xpra) \
 python3dist(xpra) \
 xpra \
 xpra(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

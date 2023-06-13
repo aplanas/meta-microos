@@ -10,6 +10,7 @@ RPM_HASH = "7fa7d3efde0d513ba386399449d4e25b42b830db02ddabfecf6178a937bae8b1a3f1
 RPROVIDES:${PN} += "libTutf-devel \
 libtutf-devel \
 libtutf-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtutf1"
 
 inherit rpm

@@ -20,6 +20,7 @@ mimehandler(x-scheme-handler/adcs) \
 mimehandler(x-scheme-handler/dchub) \
 mimehandler(x-scheme-handler/magnet) \
 mimehandler(x-scheme-handler/nmdcs)"
+
 RDEPENDS:${PN} += "aspell \
 eiskaltdcpp-common \
 ld-linux-aarch64.so.1()(64bit) \

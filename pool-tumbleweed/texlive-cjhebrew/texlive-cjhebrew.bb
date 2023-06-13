@@ -25,6 +25,7 @@ tex(cjhebrew.sty) \
 tex(rcjhblsm.tfm) \
 tex(rcjhbltx.tfm) \
 texlive-cjhebrew"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

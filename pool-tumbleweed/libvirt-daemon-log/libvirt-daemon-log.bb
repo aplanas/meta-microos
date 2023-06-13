@@ -10,6 +10,7 @@ RPM_HASH = "30ac46ba5ec84d50317755db622a39d78fbbb5a511348c0fc6b21585bffb823c7b42
 RPROVIDES:${PN} += "config(libvirt-daemon-log) \
 libvirt-daemon-log \
 libvirt-daemon-log(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

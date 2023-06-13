@@ -13,6 +13,7 @@ RPM_HASH = "066fec5aa7ebd597a43a35cfa01f8185139ba121ea3a8cc263e85d99f242e4d27abd
 RPROVIDES:${PN} += "libgav1-devel \
 libgav1-devel(aarch-64) \
 pkgconfig(libgav1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgav1-1(aarch-64)"
 

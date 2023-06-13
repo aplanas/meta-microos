@@ -10,6 +10,7 @@ RPM_HASH = "60c14016c7fdced35bcb6f4d3b791bc65b9ec453f61d68e68a8a3fc9b9218d70b17d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-portuguese"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

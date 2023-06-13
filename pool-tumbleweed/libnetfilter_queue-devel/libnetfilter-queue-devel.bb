@@ -14,6 +14,7 @@ RPM_HASH = "17e77f5a371d869f1df0b624b2d9c81e386687e016239a2f436dbca87c0c4d52411e
 RPROVIDES:${PN} += "libnetfilter_queue-devel \
 libnetfilter_queue-devel(aarch-64) \
 pkgconfig(libnetfilter_queue)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnetfilter_queue1 \
 libnfnetlink-devel \

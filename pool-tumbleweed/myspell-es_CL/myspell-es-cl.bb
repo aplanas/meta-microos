@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:es_CL) \
 myspell-dictionary \
 myspell-es_CL \
 myspell-spanish-chilean"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-es"
 

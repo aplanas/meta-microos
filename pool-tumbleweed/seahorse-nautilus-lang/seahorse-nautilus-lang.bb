@@ -85,6 +85,7 @@ locale(seahorse-nautilus:zh_HK) \
 locale(seahorse-nautilus:zh_TW) \
 seahorse-nautilus-lang \
 seahorse-nautilus-lang-all"
+
 RDEPENDS:${PN} += "seahorse-nautilus"
 
 inherit rpm

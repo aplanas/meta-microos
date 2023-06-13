@@ -10,6 +10,7 @@ RPM_HASH = "e1788fa681c37d19f10d61e29ebf09fc0cda99e28f80fa8dc40e33dcd813e8c5b8f9
 RPROVIDES:${PN} += "libopenCOLLADA-utils \
 libopenCOLLADA-utils(aarch-64) \
 openCOLLADA-utils"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGeneratedSaxParser.so.0.3()(64bit) \

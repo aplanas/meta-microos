@@ -11,6 +11,7 @@ RPM_HASH = "9b472796a464338db9318b99df4a0dce85b3a5655059aa6dfc206f759e0061538ad8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-schema"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

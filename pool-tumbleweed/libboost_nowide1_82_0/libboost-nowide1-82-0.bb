@@ -10,6 +10,7 @@ RPM_HASH = "86a9a8d7c62a8b93fa2ffc17c74b5f8f9eda4ba0744d3b6175bd18311b0fdc58980e
 RPROVIDES:${PN} += "libboost_nowide.so.1.82.0()(64bit) \
 libboost_nowide1_82_0 \
 libboost_nowide1_82_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 boost-license1_82_0 \
 ld-linux-aarch64.so.1()(64bit) \

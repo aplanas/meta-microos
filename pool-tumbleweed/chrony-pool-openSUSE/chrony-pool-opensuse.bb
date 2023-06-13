@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "chrony-pool \
 chrony-pool-nonempty \
 chrony-pool-openSUSE \
 config(chrony-pool-openSUSE)"
+
 RDEPENDS:${PN} += "chrony"
 
 inherit rpm

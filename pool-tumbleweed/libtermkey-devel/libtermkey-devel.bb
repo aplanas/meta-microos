@@ -12,6 +12,7 @@ RPM_HASH = "3b77ca171f794694ae6837ce467e04997ae2d0ae5bbbb37a7e2a993613f42a3440d9
 RPROVIDES:${PN} += "libtermkey-devel \
 libtermkey-devel(aarch-64) \
 pkgconfig(termkey)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtermkey1 \
 ncurses-devel \

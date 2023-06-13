@@ -10,6 +10,7 @@ RPM_HASH = "4715ddb45e12172198f393dfbd1c38a79cab20124a5a125202382764a327b325b70d
 RPROVIDES:${PN} += "libtstl.so.1()(64bit) \
 libtstl1 \
 libtstl1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

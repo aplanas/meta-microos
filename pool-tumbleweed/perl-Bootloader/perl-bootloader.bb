@@ -10,6 +10,7 @@ RPM_HASH = "a24c43ae7e8e338de1575309539ac7e30a98bedffb9c5502d0032764e3af45d2a23b
 RPROVIDES:${PN} += "/sbin/update-bootloader \
 perl-Bootloader \
 perl-Bootloader(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

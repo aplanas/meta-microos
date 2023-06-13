@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "perl(CommonMark) \
 perl(CommonMark::Node) \
 perl-CommonMark \
 perl-CommonMark(aarch-64)"
+
 RDEPENDS:${PN} += "cmark \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -44,6 +44,7 @@ libvidcap.so()(64bit) \
 libwallpaper.so()(64bit) \
 libwidget.so()(64bit) \
 libworkspacenames.so()(64bit)"
+
 RDEPENDS:${PN} += "compiz \
 compiz-plugins-main \
 ld-linux-aarch64.so.1()(64bit) \

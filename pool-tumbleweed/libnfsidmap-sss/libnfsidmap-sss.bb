@@ -9,6 +9,7 @@ RPM_HASH = "751371fc49e5b3139177bb90d5ea0cf2886b5c37defc454b41ebdef8347d40c1c277
 
 RPROVIDES:${PN} += "libnfsidmap-sss \
 libnfsidmap-sss(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "bf776b2a9979e66363de1b1425ab1ed76448c5975d5d3a353a3a0b8663d4c8085db3
 
 RPROVIDES:${PN} += "cryfs \
 cryfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_chrono.so.1.82.0()(64bit) \

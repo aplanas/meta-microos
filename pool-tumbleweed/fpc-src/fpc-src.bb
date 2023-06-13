@@ -10,6 +10,7 @@ RPM_HASH = "fef54f860d3cf659cb6a2ffa450b5d9b45f23a4dd4fcd97f3dc1a1f2578afd53bf63
 
 RPROVIDES:${PN} += "fpc-src \
 fpc-src(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/csh \
 /bin/sh \

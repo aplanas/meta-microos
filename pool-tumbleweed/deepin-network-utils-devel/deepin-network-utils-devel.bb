@@ -11,6 +11,7 @@ RPM_HASH = "0c9e8c7b5be829b6f9089acd48a95c52ff4e24607d1d6437f15c08b2df8e641a8908
 RPROVIDES:${PN} += "deepin-network-utils-devel \
 deepin-network-utils-devel(aarch-64) \
 pkgconfig(dde-network-utils)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdde-network-utils1"
 

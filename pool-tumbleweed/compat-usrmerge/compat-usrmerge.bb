@@ -10,6 +10,7 @@ RPM_HASH = "1bc5fbe59b76435f12adf44d1dd8dad5e35834178554fbf8b049716a676f3d73c110
 
 RPROVIDES:${PN} += "compat-usrmerge \
 compat-usrmerge(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

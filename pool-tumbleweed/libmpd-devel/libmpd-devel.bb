@@ -11,6 +11,7 @@ RPM_HASH = "5b673b3835368555c7167068a126372671fbbe9d7fc7fdae5923127df987e1be01d7
 RPROVIDES:${PN} += "libmpd-devel \
 libmpd-devel(aarch-64) \
 pkgconfig(libmpd)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmpd1 \
 pkgconfig(glib-2.0)"

@@ -9,6 +9,7 @@ RPM_HASH = "8670cc0a3c4939a5a6669fb27aaffef68e856812cb607ca8b35d58e6da626b4404fd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xprintlen-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

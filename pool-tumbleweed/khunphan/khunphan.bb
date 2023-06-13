@@ -18,6 +18,7 @@ RPM_HASH = "9c8adc05101981ceb33819074a80048849b960e6c33251d0e5b914d16c3db2906e39
 
 RPROVIDES:${PN} += "khunphan \
 khunphan(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

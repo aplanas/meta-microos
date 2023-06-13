@@ -69,6 +69,7 @@ perl(Perl::Critic::Policy::Freenode::Wantarray) \
 perl(Perl::Critic::Policy::Freenode::WarningsSwitch) \
 perl(Perl::Critic::Policy::Freenode::WhileDiamondDefaultAssignment) \
 perl-Perl-Critic-Community"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(List::Util) \
 perl(PPI) \

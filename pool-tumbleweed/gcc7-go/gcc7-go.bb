@@ -10,6 +10,7 @@ RPM_HASH = "3b11a590b9087a67e898b0ea4e52aa80f257236730a3e6cd68d2ec70392432d6136f
 
 RPROVIDES:${PN} += "gcc7-go \
 gcc7-go(aarch-64)"
+
 RDEPENDS:${PN} += "gcc7 \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgmp.so.10()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "dac856e77cfa94d4d23ec74449a9fc5c95da965624244ec6c8d3aa681f1c37b0aa96
 RPROVIDES:${PN} += "libvhdi-devel \
 libvhdi-devel(aarch-64) \
 pkgconfig(libvhdi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libvhdi1"

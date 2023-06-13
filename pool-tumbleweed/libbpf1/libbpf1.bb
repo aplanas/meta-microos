@@ -30,6 +30,7 @@ libbpf.so.1(LIBBPF_1.1.0)(64bit) \
 libbpf.so.1(LIBBPF_1.2.0)(64bit) \
 libbpf1 \
 libbpf1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

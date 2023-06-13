@@ -9,6 +9,7 @@ RPM_HASH = "4a714e8b5d9f8b78c4945a175e7095ad069a2adf7507a94750d3facc2558db4ff2aa
 
 RPROVIDES:${PN} += "python39-libfvde \
 python39-libfvde(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

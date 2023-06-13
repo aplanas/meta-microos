@@ -36,6 +36,7 @@ rpm_macro(_fcitx5_imconfdir) \
 rpm_macro(_fcitx5_libdir) \
 rpm_macro(_fcitx5_libexecdir) \
 rpm_macro(_fcitx5_qt5dir)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 fcitx5 \
 libFcitx5Config6 \

@@ -13,6 +13,7 @@ RPM_HASH = "8b4e662bacab345797a4fb45b9a787293ffe365ab73ed21c64e501bafd91b201494b
 RPROVIDES:${PN} += "janet-devel \
 janet-devel(aarch-64) \
 pkgconfig(janet)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjanet1_28"
 

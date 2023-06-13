@@ -9,6 +9,7 @@ RPM_HASH = "e9354e2d91a6944fa0ba702ecd711ad665384981d5d77b0aaaf807e65c694a0cd37c
 
 RPROVIDES:${PN} += "texlive-lacheck-bin \
 texlive-lacheck-bin(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 texlive-lacheck"
 

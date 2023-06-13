@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(keyparse.sty) \
 texlive-keyparse"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

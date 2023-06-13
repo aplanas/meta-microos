@@ -10,6 +10,7 @@ RPM_HASH = "3aaac3ea30fda5056d97993154457656fcc21e35b1c643e98361ffd1db86ab855bbd
 
 RPROVIDES:${PN} += "paexec \
 paexec(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/runawk \
 ld-linux-aarch64.so.1()(64bit) \

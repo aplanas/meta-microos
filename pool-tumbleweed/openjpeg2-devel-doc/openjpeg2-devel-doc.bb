@@ -11,6 +11,7 @@ RPM_HASH = "ea16fc69c94541c8ff5a5e04ba41da62d2b5b106695acc282390c84526206dc3f6e0
 
 RPROVIDES:${PN} += "openjpeg2-devel-doc \
 openjpeg2-devel-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

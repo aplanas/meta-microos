@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-vcver \
 python3.10dist(vcver) \
 python310-vcver \
 python3dist(vcver)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-packaging"
 

@@ -11,6 +11,7 @@ RPM_HASH = "91175a6dfd7fe30d3e6ad5695331ea97cf22e3d804e861dc78ce586fe466bb64f296
 RPROVIDES:${PN} += "libmate-menu.so.2()(64bit) \
 libmate-menu2 \
 libmate-menu2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

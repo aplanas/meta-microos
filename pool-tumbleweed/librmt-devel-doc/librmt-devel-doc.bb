@@ -9,6 +9,7 @@ RPM_HASH = "a29b4dc9c0a900e26749a5cb8a1d2ffa6be9c8add5d90bf46c1f5dd3f515c17fd0b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "librmt-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

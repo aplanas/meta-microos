@@ -17,6 +17,7 @@ mvn(org.apache.maven.scm:maven-scm-provider-svntest) \
 mvn(org.apache.maven.scm:maven-scm-provider-svntest:pom:) \
 mvn(org.apache.maven.scm:maven-scm-test) \
 mvn(org.apache.maven.scm:maven-scm-test:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 maven-scm \

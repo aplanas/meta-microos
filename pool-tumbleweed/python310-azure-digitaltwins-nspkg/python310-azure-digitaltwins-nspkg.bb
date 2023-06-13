@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-azure-digitaltwins-nspkg \
 python3.10dist(azure-digitaltwins-nspkg) \
 python310-azure-digitaltwins-nspkg \
 python3dist(azure-digitaltwins-nspkg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-nspkg"
 

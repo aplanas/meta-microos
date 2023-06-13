@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(afrikaans.ldf) \
 tex(dutch.ldf) \
 texlive-babel-dutch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

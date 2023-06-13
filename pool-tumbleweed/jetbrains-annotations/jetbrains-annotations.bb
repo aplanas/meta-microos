@@ -13,6 +13,7 @@ mvn(com.intellij:annotations) \
 mvn(com.intellij:annotations:pom:) \
 mvn(org.jetbrains:annotations) \
 mvn(org.jetbrains:annotations:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

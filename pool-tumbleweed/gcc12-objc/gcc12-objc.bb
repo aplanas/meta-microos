@@ -11,6 +11,7 @@ RPM_HASH = "de09394392aa53e095d723ed27c3a359ac1fa960b24a36fce4c41d501c07ad301919
 
 RPROVIDES:${PN} += "gcc12-objc \
 gcc12-objc(aarch-64)"
+
 RDEPENDS:${PN} += "gcc12 \
 libc.so.6(GLIBC_2.36)(64bit) \
 libgmp.so.10()(64bit) \

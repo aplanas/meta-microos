@@ -15,6 +15,7 @@ tex(cap_comm.tex) \
 tex(cap_pas.tex) \
 tex(cap_pyt.tex) \
 texlive-c-pascal"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

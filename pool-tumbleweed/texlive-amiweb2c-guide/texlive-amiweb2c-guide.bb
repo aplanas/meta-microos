@@ -14,6 +14,7 @@ RPM_HASH = "43d3826c31e652dfba7cc8fa02cf2d5f9b589d8c2b712369d74ab44a29bd4c7c9ff5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-amiweb2c-guide"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

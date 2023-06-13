@@ -101,6 +101,7 @@ firmware(rtw89/rtw8852b_fw-1.bin) \
 firmware(rtw89/rtw8852b_fw.bin) \
 firmware(rtw89/rtw8852c_fw.bin) \
 kernel-firmware-realtek"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

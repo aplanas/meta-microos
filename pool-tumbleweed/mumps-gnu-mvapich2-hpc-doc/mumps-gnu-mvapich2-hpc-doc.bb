@@ -11,6 +11,7 @@ RPM_HASH = "11f30cf833aae1411c1f176802b9c00bac678eb532d5210aa3b8fd85683d9c80298d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mumps-gnu-mvapich2-hpc-doc"
+
 RDEPENDS:${PN} += "mumps_5_3_5-gnu-mvapich2-hpc-doc"
 
 inherit rpm

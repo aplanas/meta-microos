@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(google-guest-configs) \
 google-guest-configs"
+
 RDEPENDS:${PN} += "/bin/bash \
 nvme-cli"
 

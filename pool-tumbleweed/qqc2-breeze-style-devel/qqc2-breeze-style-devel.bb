@@ -12,6 +12,7 @@ RPM_HASH = "c69dd383993489d1630de33fc0babf2e93dd3da427f41e6870f26eeef01f5f299db7
 RPROVIDES:${PN} += "cmake(KF5QQC2BreezeStyle) \
 qqc2-breeze-style-devel \
 qqc2-breeze-style-devel(aarch-64)"
+
 RDEPENDS:${PN} += "extra-cmake-modules \
 qqc2-breeze-style"
 

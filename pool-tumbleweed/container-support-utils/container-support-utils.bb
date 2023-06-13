@@ -11,6 +11,7 @@ RPM_HASH = "363f7fcbc91b6e4ee06bf9d0f3bad40fbafd82e81020564a42793a54dc40aaa3f212
 
 RPROVIDES:${PN} += "container-support-utils \
 container-support-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

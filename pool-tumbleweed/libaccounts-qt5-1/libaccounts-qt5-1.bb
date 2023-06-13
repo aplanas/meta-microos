@@ -10,6 +10,7 @@ RPM_HASH = "8b1c9a8c063f669975f1c57e6c6cceef6767a8fb427f84368d7cce542812607ef0b0
 RPROVIDES:${PN} += "libaccounts-qt5-1 \
 libaccounts-qt5-1(aarch-64) \
 libaccounts-qt5.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

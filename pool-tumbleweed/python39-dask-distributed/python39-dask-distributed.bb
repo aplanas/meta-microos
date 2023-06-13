@@ -20,6 +20,7 @@ RPM_HASH = "485ca7a90b067e749a78895d675298573748ebb0b42b5eb0fffd9590b2117927eaa4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-dask-distributed"
+
 RDEPENDS:${PN} += "python39-dask \
 python39-distributed"
 

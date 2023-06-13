@@ -11,6 +11,7 @@ RPM_HASH = "7b7f9b8d04a0e93ef717e728d707c0f1c4cd1415ee6828e26a17eaa40d95ef2a6a35
 
 RPROVIDES:${PN} += "qore-yaml-module \
 qore-yaml-module(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

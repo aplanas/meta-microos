@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dask-distributed \
 python310-dask-distributed"
+
 RDEPENDS:${PN} += "python310-dask \
 python310-distributed"
 

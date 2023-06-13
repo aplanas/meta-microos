@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-eremaea2 \
 python3.10dist(django-eremaea2) \
 python310-django-eremaea2 \
 python3dist(django-eremaea2)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 eremaea \

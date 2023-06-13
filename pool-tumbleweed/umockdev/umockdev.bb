@@ -12,6 +12,7 @@ RPM_HASH = "3b8f8b30a9e90492cb7e8e6ec0a94adcd6951ff4ab87c468d8f8f58ba079a02af6a8
 
 RPROVIDES:${PN} += "umockdev \
 umockdev(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -28,6 +28,7 @@ mimehandler(application/x-mobipocket-ebook) \
 mimehandler(application/x-mobipocket-subscription) \
 python3.10dist(lector) \
 python3dist(lector)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3 \

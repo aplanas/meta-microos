@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(gsftopk.1) \
 texlive-gsftopk-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

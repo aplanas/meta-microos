@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(click-plugins) \
 python39-click-plugins \
 python3dist(click-plugins)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-click"
 

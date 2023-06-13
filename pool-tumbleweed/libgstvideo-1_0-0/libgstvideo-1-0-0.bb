@@ -14,6 +14,7 @@ RPM_HASH = "e6e69dc9abd1ae4071993e9b7d2c6c1b5b1d147017940715682830e2f2a83174e01d
 RPROVIDES:${PN} += "libgstvideo-1.0.so.0()(64bit) \
 libgstvideo-1_0-0 \
 libgstvideo-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gstreamer-plugins-base \
 ld-linux-aarch64.so.1()(64bit) \

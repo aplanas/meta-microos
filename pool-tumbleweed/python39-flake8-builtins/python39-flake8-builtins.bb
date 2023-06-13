@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flake8-builtins) \
 python39-flake8-builtins \
 python3dist(flake8-builtins)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-flake8"
 

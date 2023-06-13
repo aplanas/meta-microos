@@ -12,6 +12,7 @@ RPM_HASH = "49daa10da683553c80b3b4db77ff2eb605c66872537ee3012c93bab4e832088a8961
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "privoxy-doc"
+
 RDEPENDS:${PN} += "privoxy"
 
 inherit rpm

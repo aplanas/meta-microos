@@ -10,6 +10,7 @@ RPM_HASH = "0e9925dac806ffc4c0040e65189139e7153ed2fc23ccd056e6003ef8e5582df95650
 RPROVIDES:${PN} += "pkgconfig(tslib) \
 tslib-devel \
 tslib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 tslib \

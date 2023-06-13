@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "jetty-annotations \
 mvn(org.eclipse.jetty:jetty-annotations) \
 mvn(org.eclipse.jetty:jetty-annotations:pom:) \
 osgi(org.eclipse.jetty.annotations)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.annotation:javax.annotation-api) \

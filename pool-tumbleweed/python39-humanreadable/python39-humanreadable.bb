@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(humanreadable) \
 python39-humanreadable \
 python3dist(humanreadable)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-setuptools \
 python39-typepy"

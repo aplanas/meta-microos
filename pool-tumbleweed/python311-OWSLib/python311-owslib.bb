@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(owslib) \
 python311-OWSLib \
 python311-owslib \
 python3dist(owslib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML \
 python311-lxml \

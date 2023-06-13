@@ -9,6 +9,7 @@ RPM_HASH = "801181be1ecba25f59942398cf3a76694798d7092e65d1850a2087a897ceeaa65eac
 
 RPROVIDES:${PN} += "xob \
 xob(aarch-64)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libXrender.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

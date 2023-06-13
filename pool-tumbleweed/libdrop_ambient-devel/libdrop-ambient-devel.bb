@@ -10,6 +10,7 @@ RPM_HASH = "5ae617bf005e1502b1281079e19a9cce19a67c772dfaf2756d2a972409f0aab55169
 
 RPROVIDES:${PN} += "libdrop_ambient-devel \
 libdrop_ambient-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdrop_ambient0"
 
 inherit rpm

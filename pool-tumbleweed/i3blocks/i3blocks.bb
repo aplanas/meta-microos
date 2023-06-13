@@ -18,6 +18,7 @@ RPM_HASH = "d8f684220f1b88a3ed81eda2755acdaa1ca73d73c3ab9abbf3b1d0287cb9bfb43aa4
 RPROVIDES:${PN} += "config(i3blocks) \
 i3blocks \
 i3blocks(aarch-64)"
+
 RDEPENDS:${PN} += "acpi \
 alsa-utils \
 i3 \

@@ -9,6 +9,7 @@ RPM_HASH = "7fe2aa4fbc96a97bb54a10d9c6722fbf17cec0ad903c918f5127d4d4de0263800b27
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-solaar"
+
 RDEPENDS:${PN} += "bumblebee-status \
 solaar"
 

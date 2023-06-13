@@ -105,6 +105,7 @@ locale(caja-extensions-common:wa) \
 locale(caja-extensions-common:zh_CN) \
 locale(caja-extensions-common:zh_HK) \
 locale(caja-extensions-common:zh_TW)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

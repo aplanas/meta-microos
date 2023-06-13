@@ -11,6 +11,7 @@ RPM_HASH = "6a71a37e9c79cc739bc7b0a2df6e909af69cf78540339df5426aeaa819651ed967b9
 RPROVIDES:${PN} += "mupen64plus-plugin-input \
 mupen64plus-plugin-input-sdl \
 mupen64plus-plugin-input-sdl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \

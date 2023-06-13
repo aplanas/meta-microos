@@ -28,6 +28,7 @@ locale(dcraw:ru) \
 locale(dcraw:sv) \
 locale(dcraw:zh_CN) \
 locale(dcraw:zh_TW)"
+
 RDEPENDS:${PN} += "dcraw"
 
 inherit rpm

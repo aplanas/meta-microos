@@ -14,6 +14,7 @@ RPM_HASH = "7fe1de40d3ae404668e40cd06e23af0071464d6241b3d04845cc525338e4415d5b53
 RPROVIDES:${PN} += "libddcutil.so.4()(64bit) \
 libddcutil4 \
 libddcutil4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

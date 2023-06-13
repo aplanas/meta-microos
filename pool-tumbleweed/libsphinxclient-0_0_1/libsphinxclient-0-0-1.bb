@@ -11,6 +11,7 @@ RPM_HASH = "1cdd81f1e5e99e19f6e9ef5603374bf4d39a6ae1862d62c64c231e09812c823d6bc5
 RPROVIDES:${PN} += "libsphinxclient-0.0.1.so()(64bit) \
 libsphinxclient-0_0_1 \
 libsphinxclient-0_0_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

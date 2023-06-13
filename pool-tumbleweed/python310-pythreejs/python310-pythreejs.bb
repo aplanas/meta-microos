@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pythreejs \
 python3.10dist(pythreejs) \
 python310-pythreejs \
 python3dist(pythreejs)"
+
 RDEPENDS:${PN} += "jupyter-threejs \
 python(abi) \
 python310-ipydatawidgets \

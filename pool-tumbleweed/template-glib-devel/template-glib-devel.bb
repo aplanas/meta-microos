@@ -14,6 +14,7 @@ RPM_HASH = "eb0b110a6ba0d6597b2c798bf8a12be2a54cd1aa75d0337850320b33776c4fc82496
 RPROVIDES:${PN} += "pkgconfig(template-glib-1.0) \
 template-glib-devel \
 template-glib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gio-2.0) \
 pkgconfig(gobject-introspection-1.0) \

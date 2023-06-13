@@ -9,6 +9,7 @@ RPM_HASH = "54fc705ddf49a765eebbf661514b3a97a22e148e2f2d2f4d4335ac1a7f32f2aac6f7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-js-chart-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

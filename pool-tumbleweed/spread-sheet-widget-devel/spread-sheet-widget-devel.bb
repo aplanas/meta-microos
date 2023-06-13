@@ -14,6 +14,7 @@ RPM_HASH = "0feeed7ead2122f38e754290b9c471dd14885686cf4c3f453b55bfb3b4d61a15fb5f
 RPROVIDES:${PN} += "pkgconfig(spread-sheet-widget) \
 spread-sheet-widget-devel \
 spread-sheet-widget-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspread-sheet-widget0 \
 pkgconfig(glib-2.0) \

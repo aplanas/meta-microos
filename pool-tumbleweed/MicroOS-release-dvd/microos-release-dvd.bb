@@ -13,6 +13,7 @@ MicroOS-release-dvd(aarch-64) \
 flavor(dvd) \
 product_flavor() \
 product_flavor(MicroOS)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

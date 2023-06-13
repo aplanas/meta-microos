@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "libXext-devel \
 libXext-devel(aarch-64) \
 pkgconfig(xext) \
 xorg-x11-libXext-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXext6 \
 pkgconfig(x11) \

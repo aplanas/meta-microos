@@ -12,6 +12,7 @@ RPM_HASH = "e6a9e9326ffc89625cd7da9f3acb9e8c9cda77a0bf3c7d27fc79bea659d0572591fc
 RPROVIDES:${PN} += "typelib(GSound) \
 typelib-1_0-GSound-1_0 \
 typelib-1_0-GSound-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgsound.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -9,6 +9,7 @@ RPM_HASH = "580fccb785b997ab36bfd7e6f8ed39a764406a3f5191e28180fd0da1031d295b8af4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-exceltex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

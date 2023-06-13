@@ -13,6 +13,7 @@ RPM_HASH = "0bb1b3251bfbbb36b1259509f0733ac647f794c7abc990865ad74fb51529fc730aae
 RPROVIDES:${PN} += "libnautilus-dropbox.so()(64bit) \
 nautilus-extension-dropbox \
 nautilus-extension-dropbox(aarch-64)"
+
 RDEPENDS:${PN} += "dropbox \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

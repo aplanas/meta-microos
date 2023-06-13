@@ -9,6 +9,7 @@ RPM_HASH = "69ff04083c8caf60b535b7c5069b2132b83c2678d50308fff7c330017cbfb9066ae2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cascadilla-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

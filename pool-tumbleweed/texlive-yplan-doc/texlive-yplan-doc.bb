@@ -9,6 +9,7 @@ RPM_HASH = "5acefb80db687882b17faeee53d32fa64b467d9d02e1b9d96b7cc9f2819576198e0c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yplan-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

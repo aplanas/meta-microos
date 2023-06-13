@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyproject-hooks) \
 python311-pyproject-hooks \
 python3dist(pyproject-hooks)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

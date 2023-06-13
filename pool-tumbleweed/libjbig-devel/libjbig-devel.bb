@@ -10,6 +10,7 @@ RPM_HASH = "d59d7de35b9e90685c322893083ce9005a7d9b72be8733c37b44f3487e3b1ae8a080
 
 RPROVIDES:${PN} += "libjbig-devel \
 libjbig-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libjbig2"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "cc19335885766ef54e7a8b0d803c562d14c845838a3d4a5acbc2eca6f4a53efaab7e
 
 RPROVIDES:${PN} += "cura-engine \
 cura-engine(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libArcus.so.3()(64bit) \

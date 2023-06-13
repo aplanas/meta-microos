@@ -12,6 +12,7 @@ RPM_HASH = "7af291148ce2f043db76b7c4a4f41cbe9fba4b0f04c97bc88910525105a72077e32c
 RPROVIDES:${PN} += "cmake(KF5Solid) \
 solid-devel \
 solid-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 extra-cmake-modules \
 libKF5Solid5"

@@ -13,6 +13,7 @@ RPM_HASH = "ef85305ea78294d9e25b5482dbb72e442022eedc4e24c735887c09eaf99c0d3d3f3a
 RPROVIDES:${PN} += "libmariadbprivate \
 libmariadbprivate(aarch-64) \
 libmariadbprivate.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

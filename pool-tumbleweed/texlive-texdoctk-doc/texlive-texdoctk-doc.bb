@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(texdoctk.1) \
 texlive-texdoctk-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "/bin/sh \
 alternative(sh) \
 bash-sh"
+
 RDEPENDS:${PN} += "bash"
 
 inherit rpm

@@ -16,6 +16,7 @@ RPM_HASH = "0bfce2ad2b8019e27b49d3891b1c4d5458d6d20586697a45eb12e2f2dcaf36d21099
 
 RPROVIDES:${PN} += "diskscan \
 diskscan(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

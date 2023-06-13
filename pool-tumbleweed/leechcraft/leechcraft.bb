@@ -24,6 +24,7 @@ leechcraft \
 leechcraft(aarch-64) \
 libleechcraft-util-qt5.so.0.6.75()(64bit) \
 libleechcraft-xsd-qt5.so.0.6.75.2()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

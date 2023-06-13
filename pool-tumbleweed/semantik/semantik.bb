@@ -24,6 +24,7 @@ mimehandler(application/x-semantik) \
 mimehandler(application/x-semantikd) \
 semantik \
 semantik(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python \
 /usr/bin/python3 \

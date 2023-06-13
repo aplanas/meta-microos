@@ -75,6 +75,7 @@ tex(xepersian-multiplechoice.sty) \
 tex(xepersian-persiancal.sty) \
 tex(xepersian.sty) \
 texlive-xepersian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

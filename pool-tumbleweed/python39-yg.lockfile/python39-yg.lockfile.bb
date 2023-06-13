@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(yg.lockfile) \
 python39-yg.lockfile \
 python3dist(yg.lockfile)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-jaraco.functools \
 python39-tempora \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-PyPrind \
 python3.10dist(pyprind) \
 python310-PyPrind \
 python3dist(pyprind)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-psutil"
 

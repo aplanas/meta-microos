@@ -60,6 +60,7 @@ locale(klickety:ug) \
 locale(klickety:uk) \
 locale(klickety:zh_CN) \
 locale(klickety:zh_TW)"
+
 RDEPENDS:${PN} += "klickety"
 
 inherit rpm

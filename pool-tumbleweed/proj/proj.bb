@@ -12,6 +12,7 @@ RPM_HASH = "4d9ae2a0bbeb32a232a2444c19cb3a58f575cee3e643d935525d8b4d3f11a8a2ec5e
 RPROVIDES:${PN} += "libproj \
 proj \
 proj(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

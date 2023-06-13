@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(libxfce4ui-branding-upstream) \
 libxfce4ui-branding \
 libxfce4ui-branding-upstream"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

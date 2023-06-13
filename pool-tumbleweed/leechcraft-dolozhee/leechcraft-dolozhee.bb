@@ -12,6 +12,7 @@ RPM_HASH = "831b75dcb29fd46c44183bb7e7dad20f6244970e3072c11ee58ff7e7f5f172214b47
 RPROVIDES:${PN} += "leechcraft-dolozhee \
 leechcraft-dolozhee(aarch-64) \
 libleechcraft_dolozhee.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

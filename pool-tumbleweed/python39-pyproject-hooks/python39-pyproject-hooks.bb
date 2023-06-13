@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyproject-hooks) \
 python39-pyproject-hooks \
 python3dist(pyproject-hooks)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-tomli"
 

@@ -9,6 +9,7 @@ RPM_HASH = "b03adeb713522333c38f2b2af2a037a5acfdee47ee0e6d20ccc243df92a8202f6468
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-flippdf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "7fae30df7e03965325670056287966d371f4c8e0bffda5a8bd60c8a630de7520b01c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tpm2.0-abrmd-selinux"
+
 RDEPENDS:${PN} += "/bin/sh \
 libselinux-utils \
 policycoreutils \

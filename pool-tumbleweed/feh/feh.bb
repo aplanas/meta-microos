@@ -35,6 +35,7 @@ mimehandler(image/x-portable-graymap) \
 mimehandler(image/x-portable-pixmap) \
 mimehandler(image/x-tga) \
 mimehandler(image/x-xbitmap)"
+
 RDEPENDS:${PN} += "desktop-file-utils \
 hicolor-icon-theme \
 imlib2-loaders \

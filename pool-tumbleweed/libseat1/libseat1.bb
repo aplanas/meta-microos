@@ -11,6 +11,7 @@ RPM_HASH = "44a4a795179578b112769f0f10482b10b4b6330beeb668b8b0a7a0c4b9ec0c135720
 RPROVIDES:${PN} += "libseat.so.1()(64bit) \
 libseat1 \
 libseat1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "httpcomponents-project \
 mvn(org.apache.httpcomponents:httpcomponents-parent:pom:) \
 mvn(org.apache.httpcomponents:project:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache:apache:pom:)"

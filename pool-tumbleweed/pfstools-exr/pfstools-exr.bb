@@ -10,6 +10,7 @@ RPM_HASH = "7c8a1bbc73140bb2a4ac150ce53d97c60b7a4f716bbd93d9b81056138bad905fdb16
 
 RPROVIDES:${PN} += "pfstools-exr \
 pfstools-exr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOpenEXR-3_1.so.30()(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "3fe719bd5d852c1fa174560a8dd9dfd1c5d8b1126b0ce10dd27785cb800ae6c32fa9
 RPROVIDES:${PN} += "liblbxutil.so.1()(64bit) \
 liblbxutil1 \
 liblbxutil1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

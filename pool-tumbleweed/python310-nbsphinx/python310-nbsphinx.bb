@@ -20,6 +20,7 @@ python3.10dist(nbsphinx) \
 python310-jupyter_nbsphinx \
 python310-nbsphinx \
 python3dist(nbsphinx)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-Sphinx \

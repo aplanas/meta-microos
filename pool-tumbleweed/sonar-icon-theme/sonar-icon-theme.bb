@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icon-theme-sonar \
 sonar-icon-theme"
+
 RDEPENDS:${PN} += "/bin/sh \
 hicolor-icon-theme"
 

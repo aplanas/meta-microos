@@ -9,6 +9,7 @@ RPM_HASH = "176cb66133c742e658c3d7a29abeb2b4468c671f89125c1cf33d58319f5c6594c328
 
 RPROVIDES:${PN} += "ebook-tools \
 ebook-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libepub.so.0()(64bit)"

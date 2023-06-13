@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(codebox.sty) \
 texlive-codebox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

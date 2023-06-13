@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(easy-todo.sty) \
 texlive-easy-todo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

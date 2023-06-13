@@ -10,6 +10,7 @@ RPM_HASH = "cbade21e68b61c91a01385303c9744b894245094a1cad2798184f96ffa52e7c2a23a
 
 RPROVIDES:${PN} += "ktextaddons \
 ktextaddons(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigCore.so.5()(64bit) \

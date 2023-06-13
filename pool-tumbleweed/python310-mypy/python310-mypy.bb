@@ -21,6 +21,7 @@ python3-mypy \
 python3.10dist(mypy) \
 python310-mypy \
 python3dist(mypy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

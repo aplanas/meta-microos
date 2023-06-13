@@ -12,6 +12,7 @@ RPM_HASH = "ac6b8d77339cac84e35ffdc537b0d87fba9965f46c2a512a404e19aa1be7acc76b47
 RPROVIDES:${PN} += "pkgconfig(xorg-libinput) \
 xf86-input-libinput-devel \
 xf86-input-libinput-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 xf86-input-libinput"
 

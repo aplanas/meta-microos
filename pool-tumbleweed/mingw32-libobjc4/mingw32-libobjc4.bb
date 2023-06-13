@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "mingw32(libobjc-4.dll) \
 mingw32-libobjc \
 mingw32-libobjc4 \
 mingw32-libobjc4(aarch-64)"
+
 RDEPENDS:${PN} += "mingw32(libgcc_s_sjlj-1.dll) \
 mingw32(libwinpthread-1.dll)"
 

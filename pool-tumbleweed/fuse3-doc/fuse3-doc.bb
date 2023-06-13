@@ -9,6 +9,7 @@ RPM_HASH = "9da434c4e80fc0f958eb7a2ff19313f2f127945dea8361db7cc4487423b3096aac13
 
 RPROVIDES:${PN} += "fuse3-doc \
 fuse3-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

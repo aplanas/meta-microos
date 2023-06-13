@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-tagulous) \
 python311-django-tagulous \
 python3dist(django-tagulous)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django"
 

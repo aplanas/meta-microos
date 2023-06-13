@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cryptsetup \
 cryptsetup(aarch-64) \
 integritysetup \
 veritysetup"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

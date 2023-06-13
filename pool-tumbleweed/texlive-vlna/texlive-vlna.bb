@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(vlna.1) \
 texlive-vlna"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

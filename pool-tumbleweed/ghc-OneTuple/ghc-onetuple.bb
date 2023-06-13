@@ -16,6 +16,7 @@ RPM_HASH = "1aba5eadbeb12e20239a1659213c5d02d2c86e672dcd73b66d30613b723e6b948164
 RPROVIDES:${PN} += "ghc-OneTuple \
 ghc-OneTuple(aarch-64) \
 libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

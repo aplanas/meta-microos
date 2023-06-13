@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(docbook5-xsl-stylesheets) \
 docbook5-xsl-stylesheets"
+
 RDEPENDS:${PN} += "/bin/sh \
 docbook_5 \
 sgml-skel \

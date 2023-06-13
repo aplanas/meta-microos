@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-greenlet-devel \
 python310-greenlet-devel"
+
 RDEPENDS:${PN} += "python310-greenlet"
 
 inherit rpm

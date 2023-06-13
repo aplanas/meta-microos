@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.9dist(mako) \
 python39-Mako \
 python39-mako \
 python3dist(mako)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

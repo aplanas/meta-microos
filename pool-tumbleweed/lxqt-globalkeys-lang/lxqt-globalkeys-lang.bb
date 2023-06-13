@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-globalkeys-lang \
 lxqt-globalkeys-lang-all"
+
 RDEPENDS:${PN} += "lxqt-globalkeys"
 
 inherit rpm

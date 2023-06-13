@@ -92,6 +92,7 @@ locale(gnome-themes:wa) \
 locale(gnome-themes:zh_CN) \
 locale(gnome-themes:zh_HK) \
 locale(gnome-themes:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-themes"
 
 inherit rpm

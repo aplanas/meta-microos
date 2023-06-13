@@ -10,6 +10,7 @@ RPM_HASH = "8cc808964d588c33a4da29c0339652c9bef395a70e01e65882bd198eaf08022301f9
 RPROVIDES:${PN} += "budgie-workspace-wallpaper-applet \
 budgie-workspace-wallpaper-applet(aarch-64) \
 libwallpaperswitcher.so()(64bit)"
+
 RDEPENDS:${PN} += "budgie-extras-lang \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

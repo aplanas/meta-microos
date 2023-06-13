@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-xcffib \
 python3.10dist(xcffib) \
 python310-xcffib \
 python3dist(xcffib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cffi"
 

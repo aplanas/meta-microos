@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-shipunov-doc:en) \
 texlive-shipunov-doc"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl"
 

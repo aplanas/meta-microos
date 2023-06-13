@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-pyramid-server \
 python3.10dist(pytest-pyramid-server) \
 python310-pytest-pyramid-server \
 python3dist(pytest-pyramid-server)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyramid \
 python310-pytest-server-fixtures \

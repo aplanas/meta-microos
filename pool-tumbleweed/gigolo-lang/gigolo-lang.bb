@@ -59,6 +59,7 @@ locale(gigolo:ug) \
 locale(gigolo:uk) \
 locale(gigolo:zh_CN) \
 locale(gigolo:zh_TW)"
+
 RDEPENDS:${PN} += "gigolo"
 
 inherit rpm

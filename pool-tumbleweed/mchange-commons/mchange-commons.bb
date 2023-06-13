@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mchange-commons \
 mvn(com.mchange:mchange-commons-java) \
 mvn(com.mchange:mchange-commons-java:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

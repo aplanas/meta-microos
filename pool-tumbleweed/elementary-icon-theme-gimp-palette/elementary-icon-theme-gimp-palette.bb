@@ -12,6 +12,7 @@ RPM_HASH = "03a1248bf41afdddd4e79c0dce035a4373e7e795f8e9410eb782fff08e75af131c08
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elementary-icon-theme-gimp-palette"
+
 RDEPENDS:${PN} += "elementary-icon-theme \
 gimp"
 

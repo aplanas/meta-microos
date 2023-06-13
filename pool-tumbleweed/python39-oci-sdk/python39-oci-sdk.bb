@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(oci) \
 python39-oci \
 python39-oci-sdk \
 python3dist(oci)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyJWT \
 python39-certifi \

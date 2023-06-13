@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-PyTweening \
 python3.10dist(pytweening) \
 python310-PyTweening \
 python3dist(pytweening)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -19,6 +19,7 @@ perl(Encode::TW::Unisys::SOSI1) \
 perl(Encode::TW::Unisys::SOSI2) \
 perl-Encode-HanExtra \
 perl-Encode-HanExtra(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/enc2xs \
 libc.so.6(GLIBC_2.17)(64bit) \

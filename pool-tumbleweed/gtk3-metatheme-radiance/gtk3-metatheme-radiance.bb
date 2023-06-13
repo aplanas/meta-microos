@@ -11,6 +11,7 @@ RPM_HASH = "23d313a7fe14576006248a3bbfe74f344f580573b944df2cc38e86759eb04f844057
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-radiance"
+
 RDEPENDS:${PN} += "metatheme-radiance-common"
 
 inherit rpm

@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "python3-python-lsp-server \
 python3.10dist(python-lsp-server) \
 python310-python-lsp-server \
 python3dist(python-lsp-server)"
+
 RDEPENDS:${PN} += "(python310-jedi >= 0.17.2 with python310-jedi < 0.19.0) \
 /bin/sh \
 /usr/bin/python3.10 \

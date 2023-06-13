@@ -17,6 +17,7 @@ tex(cuprum.map) \
 tex(cuprum.sty) \
 tex(t1cpr.fd) \
 texlive-cuprum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

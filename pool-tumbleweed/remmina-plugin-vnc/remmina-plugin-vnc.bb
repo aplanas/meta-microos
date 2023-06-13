@@ -9,6 +9,7 @@ RPM_HASH = "826ff5444a1bc068f490e6d8b81bed98a35a649645c7de2c1a39aafbc163ce2ff552
 
 RPROVIDES:${PN} += "remmina-plugin-vnc \
 remmina-plugin-vnc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

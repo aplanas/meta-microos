@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "ldb-tools \
 ldb-tools(aarch-64) \
 libldb-cmdline.so()(64bit) \
 libldb-cmdline.so(LDB_2.7.2_LDB)(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

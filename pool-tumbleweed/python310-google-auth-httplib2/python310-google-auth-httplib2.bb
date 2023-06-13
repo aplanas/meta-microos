@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-google-auth-httplib2 \
 python3.10dist(google-auth-httplib2) \
 python310-google-auth-httplib2 \
 python3dist(google-auth-httplib2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-google-auth \
 python310-httplib2 \

@@ -10,6 +10,7 @@ RPM_HASH = "5a92b181a58bdc1900d5197099cc756ade3542587741afef82bdfcf664bca1d963ed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rook-k8s-yaml"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ RPM_HASH = "6566c830f9d1a53034832b9bccd342127672e1d36e753cd0b3391ad018524ba9ac1a
 
 RPROVIDES:${PN} += "extractpdfmark \
 extractpdfmark(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

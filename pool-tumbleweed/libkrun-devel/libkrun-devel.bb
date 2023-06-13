@@ -17,6 +17,7 @@ RPM_HASH = "9878bcee09dc578ff83394656820229e2396ba7e64cd1bec434d874536f85869c980
 
 RPROVIDES:${PN} += "libkrun-devel \
 libkrun-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libkrun1"
 
 inherit rpm

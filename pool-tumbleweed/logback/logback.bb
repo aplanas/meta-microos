@@ -28,6 +28,7 @@ mvn(ch.qos.logback:logback-core:pom:) \
 mvn(ch.qos.logback:logback-parent:pom:) \
 osgi(ch.qos.logback.classic) \
 osgi(ch.qos.logback.core)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.slf4j:slf4j-api)"

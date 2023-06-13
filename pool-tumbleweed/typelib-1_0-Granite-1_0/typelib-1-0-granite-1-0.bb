@@ -12,6 +12,7 @@ RPM_HASH = "389ff4c8f9d1b2843c0508ede948dea6c5a7aefb1b66e79d900f2d4ba85a17f56d75
 RPROVIDES:${PN} += "typelib(Granite) \
 typelib-1_0-Granite-1_0 \
 typelib-1_0-Granite-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgranite.so.6()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-brewer2mpl \
 python3.10dist(brewer2mpl) \
 python310-brewer2mpl \
 python3dist(brewer2mpl)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

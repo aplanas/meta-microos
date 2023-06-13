@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KF5Libkleo) \
 cmake(KPim5Libkleo) \
 libkleo-devel \
 libkleo-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(QGpgme) \
 libKPim5libkleo5 \
 libgpgmepp-devel"

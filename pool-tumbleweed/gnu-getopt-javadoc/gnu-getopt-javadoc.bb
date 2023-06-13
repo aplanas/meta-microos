@@ -15,6 +15,7 @@ RPM_HASH = "6c9dddb8c9130f3777b2200d1d0aaafaf67af96a9dfe536a18641dd51eb2145480ef
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-getopt-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

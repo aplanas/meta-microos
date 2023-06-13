@@ -11,6 +11,7 @@ RPM_HASH = "d5c8e6dfa77ce28d639a249f555e4a806cf344bd6ba255dc6e55b981e201846a3172
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "namdhinggo-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

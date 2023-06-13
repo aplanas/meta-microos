@@ -10,6 +10,7 @@ RPM_HASH = "f8a7333e18f1789f02a51cb64c162d8227530e49d92c70ee1db45e9ba5aaf5f069a8
 
 RPROVIDES:${PN} += "samba-dsdb-modules \
 samba-dsdb-modules(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(classes.tex) \
 tex(l_pic.tex) \
 tex(treetex.tex) \
 texlive-treetex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

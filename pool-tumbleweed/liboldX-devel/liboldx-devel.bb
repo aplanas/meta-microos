@@ -13,6 +13,7 @@ RPM_HASH = "5b8d88da787e61bc7eeb3c0c359295f0c007f45fbd01614a58e516c90cae72b31fed
 RPROVIDES:${PN} += "liboldX-devel \
 liboldX-devel(aarch-64) \
 pkgconfig(oldx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liboldX6 \
 pkgconfig(x11)"

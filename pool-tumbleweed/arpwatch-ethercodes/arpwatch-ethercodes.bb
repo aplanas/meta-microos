@@ -9,6 +9,7 @@ RPM_HASH = "5e2375fdf5409a687c7d0dcd86d1fd16b8f62e5ad7d04c52c1b7e93f52dee7018f2c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arpwatch-ethercodes"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

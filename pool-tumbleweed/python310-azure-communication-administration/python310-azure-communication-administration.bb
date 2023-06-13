@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-communication-administration \
 python3.10dist(azure-communication-administration) \
 python310-azure-communication-administration \
 python3dist(azure-communication-administration)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-communication-nspkg \
 python310-azure-core \

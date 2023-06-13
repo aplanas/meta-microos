@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(ppp-modem) \
 ppp-modem"
+
 RDEPENDS:${PN} += "group(dialout) \
 ppp \
 udev"

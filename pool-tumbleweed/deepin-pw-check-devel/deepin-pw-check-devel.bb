@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "deepin-pw-check-devel \
 deepin-pw-check-devel(aarch-64) \
 libdeepin_pw_check.so.1()(64bit) \
 pkgconfig(libdeepin_pw_check)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

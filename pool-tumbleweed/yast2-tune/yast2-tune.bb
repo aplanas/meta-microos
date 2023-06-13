@@ -15,6 +15,7 @@ metainfo(org.opensuse.yast.HWInfo.metainfo.xml) \
 metainfo(org.opensuse.yast.SystemSettings.metainfo.xml) \
 yast2-tune \
 yast2-tune(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 yast2 \
 yast2-bootloader \

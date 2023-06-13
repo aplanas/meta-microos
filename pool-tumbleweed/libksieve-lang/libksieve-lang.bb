@@ -72,6 +72,7 @@ locale(libksieve:ug) \
 locale(libksieve:uk) \
 locale(libksieve:zh_CN) \
 locale(libksieve:zh_TW)"
+
 RDEPENDS:${PN} += "libksieve"
 
 inherit rpm

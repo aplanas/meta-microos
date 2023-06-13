@@ -12,6 +12,7 @@ RPM_HASH = "b8cb54844b7347e28c22341591009d74e400e9d27faad5bdecb3d0f12c7b507ef760
 
 RPROVIDES:${PN} += "gpgme \
 gpgme(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libassuan.so.0()(64bit) \

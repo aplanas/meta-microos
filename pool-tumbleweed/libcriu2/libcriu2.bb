@@ -11,6 +11,7 @@ RPM_HASH = "650f12e45161ab9f4df64b03a1ec99176f4ce8e39efa4bf690b4c81198b77277f81d
 RPROVIDES:${PN} += "libcriu.so.2()(64bit) \
 libcriu2 \
 libcriu2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libprotobuf-c.so.1()(64bit) \

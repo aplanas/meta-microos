@@ -13,6 +13,7 @@ libpcp_mmv.so.1(PCP_MMV_1.1)(64bit) \
 libpcp_mmv.so.1(PCP_MMV_1.2)(64bit) \
 libpcp_mmv1 \
 libpcp_mmv1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

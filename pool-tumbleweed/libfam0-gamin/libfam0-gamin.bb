@@ -12,6 +12,7 @@ RPM_HASH = "b9435b368916b595ebe07f9afe0e5b70fbd22db1ac9e7e0539fade02e1bb9b8e10fa
 RPROVIDES:${PN} += "libfam.so.0()(64bit) \
 libfam0-gamin \
 libfam0-gamin(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gamin-server \
 ld-linux-aarch64.so.1()(64bit) \

@@ -14,6 +14,7 @@ python3.10dist(validate-pyproject) \
 python310-validate-pyproject \
 python310-validate_pyproject \
 python3dist(validate-pyproject)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

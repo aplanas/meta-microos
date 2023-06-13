@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(captdef.sty) \
 texlive-captdef"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

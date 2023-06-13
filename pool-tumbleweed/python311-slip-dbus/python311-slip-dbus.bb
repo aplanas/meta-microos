@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(slip.dbus) \
 python311-slip-dbus \
 python3dist(slip.dbus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-dbus-python \
 python311-decorator \

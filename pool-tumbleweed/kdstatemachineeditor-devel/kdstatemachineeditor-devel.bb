@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(KDSME) \
 kdstatemachineeditor \
 kdstatemachineeditor-devel \
 kdstatemachineeditor-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libkdstatemachineeditor_core1 \
 libkdstatemachineeditor_debuginterfaceclient1 \
 libkdstatemachineeditor_debuginterfacesource-static \

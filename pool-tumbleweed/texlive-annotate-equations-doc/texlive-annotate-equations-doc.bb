@@ -9,6 +9,7 @@ RPM_HASH = "becbc4aaa15fdd703e461fb78c1b6e35faab78a4d60fcbed057f4c991775a6b23e23
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-annotate-equations-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

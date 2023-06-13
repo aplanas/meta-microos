@@ -44,6 +44,7 @@ locale(gcab:sv) \
 locale(gcab:tr) \
 locale(gcab:uk) \
 locale(gcab:zh_CN)"
+
 RDEPENDS:${PN} += "gcab"
 
 inherit rpm

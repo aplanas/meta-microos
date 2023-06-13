@@ -11,6 +11,7 @@ RPM_HASH = "794667995831a58b49b62f32a737684b1b0e276b3b99dc248deec5d347f6993bdb93
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scala-apidoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

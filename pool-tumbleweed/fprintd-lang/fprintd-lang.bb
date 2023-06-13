@@ -81,6 +81,7 @@ locale(fprintd:wa) \
 locale(fprintd:zh_CN) \
 locale(fprintd:zh_HK) \
 locale(fprintd:zh_TW)"
+
 RDEPENDS:${PN} += "fprintd"
 
 inherit rpm

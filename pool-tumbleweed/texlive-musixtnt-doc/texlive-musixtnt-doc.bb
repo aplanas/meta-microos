@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(msxlint.1) \
 texlive-musixtnt-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

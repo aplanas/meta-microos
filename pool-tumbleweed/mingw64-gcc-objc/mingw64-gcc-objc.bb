@@ -10,6 +10,7 @@ RPM_HASH = "9b0b943f03421257e4b09e53c0752fa43ddeea542a066cb26424df69e8ea8d3dd45a
 RPROVIDES:${PN} += "mingw64(lib:objc) \
 mingw64-gcc-objc \
 mingw64-gcc-objc(aarch-64)"
+
 RDEPENDS:${PN} += "mingw64(libgmp-10.dll) \
 mingw64(libmpc-3.dll) \
 mingw64(libmpfr-4.dll) \

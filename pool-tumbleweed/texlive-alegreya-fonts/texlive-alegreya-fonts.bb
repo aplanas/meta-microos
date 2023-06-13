@@ -231,6 +231,7 @@ font(alegreyascblack) \
 font(alegreyascextrabold) \
 font(alegreyascmedium) \
 texlive-alegreya-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

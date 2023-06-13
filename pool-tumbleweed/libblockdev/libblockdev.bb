@@ -16,6 +16,7 @@ RPM_HASH = "32c0fccc0c66ba3354911ab77cd77285f1c00681e4cabf35ecd035360b1da3895bcd
 RPROVIDES:${PN} += "config(libblockdev) \
 libblockdev \
 libblockdev(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblockdev-lvm \

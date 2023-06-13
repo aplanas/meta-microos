@@ -9,6 +9,7 @@ RPM_HASH = "2f61e465314daf64fc53b90112eb5b4d36b14c5a8cc15814ec79c8990ab0fc487fbe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xetex-tibetan-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzviolinplots.sty) \
 texlive-tikzviolinplots"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

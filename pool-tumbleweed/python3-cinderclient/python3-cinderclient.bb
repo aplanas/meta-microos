@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-cinderclient \
 python3.10dist(python-cinderclient) \
 python3dist(python-cinderclient)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Babel \

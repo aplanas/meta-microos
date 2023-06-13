@@ -38,6 +38,7 @@ application(aranym-mmu.desktop) \
 application(aranym.desktop) \
 aranym \
 aranym(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

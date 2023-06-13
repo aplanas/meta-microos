@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tkz-tab.sty) \
 texlive-tkz-tab"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

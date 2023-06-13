@@ -9,6 +9,7 @@ RPM_HASH = "69a38d0be2d3ea9995b7e648922287200976b862e4ff86a5899e41a2d6ded638731a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sblim-cim-client2-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "a32c61d4a920f7a6eb33e37f618acefd6c3de4dcb02600ef22df2bd5e34bd9729017
 RPROVIDES:${PN} += "dlt-libs \
 dlt-libs(aarch-64) \
 libdlt.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

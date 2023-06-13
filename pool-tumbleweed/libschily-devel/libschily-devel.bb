@@ -13,6 +13,7 @@ RPM_HASH = "6a3896988589562949c8d4a97c1d72e0855476de41caefa04299f0d99c95f4f2e3bf
 
 RPROVIDES:${PN} += "libschily-devel \
 libschily-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcdrdeflt1_0 \
 libdeflt1_0 \
 libedc_ecc1_0 \

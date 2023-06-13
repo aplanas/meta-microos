@@ -13,6 +13,7 @@ RPM_HASH = "6e5d38667552976817d5deef74b56dc482c47ff72bcbec84b9a898426c845583681d
 RPROVIDES:${PN} += "libmed.so.11()(64bit) \
 libmed11 \
 libmed11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

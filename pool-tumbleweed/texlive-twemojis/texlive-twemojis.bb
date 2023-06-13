@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(twemojis.sty) \
 texlive-twemojis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

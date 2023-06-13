@@ -29,6 +29,7 @@ perl(XML::Writer::Namespaces) \
 perl(XML::Writer::_PrintChecker) \
 perl(XML::Writer::_String) \
 perl-XML-Writer"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

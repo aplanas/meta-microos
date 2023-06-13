@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fnspe.sty) \
 texlive-fnspe"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "ee6fc338579e1ab3476bd7e769060f3aeb79f1d4a02588b77a34ab229381407d0156
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-typicons-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

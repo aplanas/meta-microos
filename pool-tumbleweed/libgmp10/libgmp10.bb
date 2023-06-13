@@ -11,6 +11,7 @@ RPM_HASH = "055f9e308720f7aabaa5f1866c2c7e6dda016c94910738e28d56f4dbcb0746440a9a
 RPROVIDES:${PN} += "libgmp.so.10()(64bit) \
 libgmp10 \
 libgmp10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

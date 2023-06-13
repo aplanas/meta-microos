@@ -11,6 +11,7 @@ RPM_HASH = "7206085ff14c35583fa3388faaa55990486d4c1995586cdc88d357100b2e28edcc25
 
 RPROVIDES:${PN} += "statserial \
 statserial(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

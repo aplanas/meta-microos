@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyvips \
 python3.10dist(pyvips) \
 python310-pyvips \
 python3dist(pyvips)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cffi"
 

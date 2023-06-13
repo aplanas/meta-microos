@@ -10,6 +10,7 @@ RPM_HASH = "6d8bd7c3e22bdad28ba268b492259084d7fc1e2766f671ec06d90bc72ab50f580272
 RPROVIDES:${PN} += "cmake(Qt5KmsSupport) \
 libQt5KmsSupport-devel-static \
 libQt5KmsSupport-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5Core-devel \
 libQt5Gui-devel"
 

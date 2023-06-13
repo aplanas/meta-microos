@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libinih-devel \
 libinih-devel(aarch-64) \
 pkgconfig(INIReader) \
 pkgconfig(inih)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libinih0 \
 pkgconfig(inih)"

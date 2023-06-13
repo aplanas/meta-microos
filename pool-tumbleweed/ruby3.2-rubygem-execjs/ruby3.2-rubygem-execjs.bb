@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:execjs) \
 rubygem(ruby:3.2.0:execjs:2) \
 rubygem(ruby:3.2.0:execjs:2.8) \
 rubygem(ruby:3.2.0:execjs:2.8.1)"
+
 RDEPENDS:${PN} += "nodejs \
 ruby(abi)"
 

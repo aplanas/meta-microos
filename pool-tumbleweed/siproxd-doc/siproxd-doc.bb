@@ -9,6 +9,7 @@ RPM_HASH = "53dbcb8cfd9f54b039b05c207d879e18497f1ef91ec0243a7170a03e02a2560b146c
 
 RPROVIDES:${PN} += "siproxd-doc \
 siproxd-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

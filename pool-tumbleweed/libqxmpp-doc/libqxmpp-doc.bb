@@ -9,6 +9,7 @@ RPM_HASH = "ffe76cdc43fe108a14ed2be7c92015864d6740382c3d66c59671d3050e35dffab156
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqxmpp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

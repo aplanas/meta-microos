@@ -10,6 +10,7 @@ RPM_HASH = "25fc6e1cb609593de81dcb1f7f7a390d5125f4908787f978d7afaf7860601dd0bf9d
 RPROVIDES:${PN} += "aspell-ga \
 aspell-ga(aarch-64) \
 locale(aspell:ga)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

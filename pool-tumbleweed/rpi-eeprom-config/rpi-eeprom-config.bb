@@ -9,6 +9,7 @@ RPM_HASH = "d875a00560097af3017a3f490c93898789361703dfce4f54a718f428ac20c624be82
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpi-eeprom-config"
+
 RDEPENDS:${PN} += "/usr/bin/python \
 raspberrypi-firmware-eeprom"
 

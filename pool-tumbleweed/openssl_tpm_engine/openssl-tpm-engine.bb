@@ -11,6 +11,7 @@ RPM_HASH = "eae7adda0e688061b58b3168a8f02b9a61e21a161b9313f8e4697846ff22d9c60cfd
 
 RPROVIDES:${PN} += "openssl_tpm_engine \
 openssl_tpm_engine(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

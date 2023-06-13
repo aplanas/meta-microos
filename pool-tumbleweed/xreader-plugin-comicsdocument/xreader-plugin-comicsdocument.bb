@@ -10,6 +10,7 @@ RPM_HASH = "f7a9cb95b61bb2a4daac0bb645ce0fc2ae1b68a9c45111954dff644fd9fe2427e0c9
 RPROVIDES:${PN} += "libcomicsdocument.so()(64bit) \
 xreader-plugin-comicsdocument \
 xreader-plugin-comicsdocument(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

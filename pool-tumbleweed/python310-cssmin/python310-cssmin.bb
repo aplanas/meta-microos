@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cssmin \
 python3.10dist(cssmin) \
 python310-cssmin \
 python3dist(cssmin)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

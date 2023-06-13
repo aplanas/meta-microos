@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(inlinelabel.sty) \
 texlive-inlinelabel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

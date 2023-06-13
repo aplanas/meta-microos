@@ -17,6 +17,7 @@ python3.10dist(pytest-astropy-header) \
 python310-pytest-astropy-header \
 python310-pytest_astropy_header \
 python3dist(pytest-astropy-header)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

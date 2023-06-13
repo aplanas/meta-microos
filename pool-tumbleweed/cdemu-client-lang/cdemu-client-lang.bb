@@ -16,6 +16,7 @@ locale(cdemu-client:pl) \
 locale(cdemu-client:ru) \
 locale(cdemu-client:sl) \
 locale(cdemu-client:sv)"
+
 RDEPENDS:${PN} += "cdemu-client"
 
 inherit rpm

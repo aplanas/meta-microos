@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aldjemy) \
 python39-aldjemy \
 python3dist(aldjemy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-SQLAlchemy"

@@ -10,6 +10,7 @@ RPM_HASH = "673a333be8dbe91b05c80a050339d8c312b82b8214bb45681e71159053d52596a1f1
 RPROVIDES:${PN} += "libaal-minimal.so.0()(64bit) \
 libaal-minimal0 \
 libaal-minimal0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

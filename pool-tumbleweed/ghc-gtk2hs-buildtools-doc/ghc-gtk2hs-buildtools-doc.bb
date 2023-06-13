@@ -9,6 +9,7 @@ RPM_HASH = "7aadf553a207acf23942169aaf0db395ec825405c809f9054d11d3921d68ac39d8f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-gtk2hs-buildtools-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

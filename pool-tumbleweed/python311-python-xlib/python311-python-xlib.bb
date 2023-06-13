@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(python-xlib) \
 python311-python-xlib \
 python311-xlib \
 python3dist(python-xlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

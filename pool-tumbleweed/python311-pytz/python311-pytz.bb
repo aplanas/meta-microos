@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytz) \
 python311-pytz \
 python3dist(pytz)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi) \
 python311-base \

@@ -16,6 +16,7 @@ libtaskmanager.so.6()(64bit) \
 libweather_ion.so.7()(64bit) \
 plasma5-workspace-libs \
 plasma5-workspace-libs(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kio \
 kservice \

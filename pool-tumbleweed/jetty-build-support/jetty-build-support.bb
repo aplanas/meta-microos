@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jetty-build-support \
 mvn(org.eclipse.jetty.toolchain:jetty-build-support) \
 mvn(org.eclipse.jetty.toolchain:jetty-build-support:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.enforcer:enforcer-api) \

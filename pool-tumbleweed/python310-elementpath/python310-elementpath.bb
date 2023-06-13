@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-elementpath \
 python3.10dist(elementpath) \
 python310-elementpath \
 python3dist(elementpath)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

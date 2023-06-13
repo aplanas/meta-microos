@@ -16,6 +16,7 @@ javaee_deployment_1_1_api \
 javaee_deployment_api \
 mvn(org.apache.geronimo.specs:geronimo-javaee-deployment_1.1MR3_spec) \
 mvn(org.apache.geronimo.specs:geronimo-javaee-deployment_1.1MR3_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

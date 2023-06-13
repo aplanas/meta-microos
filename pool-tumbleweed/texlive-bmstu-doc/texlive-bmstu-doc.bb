@@ -9,6 +9,7 @@ RPM_HASH = "9d14f91790f22c4496cceeb31cfbc4235762674a547e311e37a9e376fd3cc64e3517
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bmstu-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

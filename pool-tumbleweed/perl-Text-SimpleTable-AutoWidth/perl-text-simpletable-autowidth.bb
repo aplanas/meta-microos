@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Text::SimpleTable::AutoWidth) \
 perl-Text-SimpleTable-AutoWidth"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moo) \
 perl(Text::SimpleTable)"

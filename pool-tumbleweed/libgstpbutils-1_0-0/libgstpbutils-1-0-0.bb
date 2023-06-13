@@ -14,6 +14,7 @@ RPM_HASH = "56225367e6318c164cab68708816ccbb49fe56a2433852c22311bd8d62f6e9fa50a1
 RPROVIDES:${PN} += "libgstpbutils-1.0.so.0()(64bit) \
 libgstpbutils-1_0-0 \
 libgstpbutils-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gstreamer-plugins-base \
 ld-linux-aarch64.so.1()(64bit) \

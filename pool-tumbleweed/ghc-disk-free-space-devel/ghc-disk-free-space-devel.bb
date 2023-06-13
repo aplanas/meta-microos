@@ -11,6 +11,7 @@ RPM_HASH = "2185fe6e4814c921301a3efc3a21f044c636c43480961351026e40bae97e02dbfb8e
 RPROVIDES:${PN} += "ghc-devel(disk-free-space-0.1.0.1-CGtWAgWYeLt876pNI1pHoX) \
 ghc-disk-free-space-devel \
 ghc-disk-free-space-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

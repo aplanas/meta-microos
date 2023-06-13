@@ -15,6 +15,7 @@ RPM_HASH = "da2c6d302d69f4bef8fef94079681547d10561a70d5845312461abc904625ff0d431
 RPROVIDES:${PN} += "pkgconfig(mission-control-plugins) \
 telepathy-mission-control-devel \
 telepathy-mission-control-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmission-control-plugins0 \
 pkgconfig(telepathy-glib) \

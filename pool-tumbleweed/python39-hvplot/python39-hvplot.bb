@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(hvplot) \
 python39-hvplot \
 python3dist(hvplot)"
+
 RDEPENDS:${PN} += "(python39-bokeh >= 1.0.0 with python39-bokeh < 2.5) \
 python(abi) \
 python39-colorcet \

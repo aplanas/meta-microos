@@ -17,6 +17,7 @@ RPM_HASH = "79a528d7169e60aac35e912b343a9c29aa337a1493ff610a28a510bd369a1e7cb1b1
 RPROVIDES:${PN} += "libnotcurses-ffi.so.3()(64bit) \
 libnotcurses-ffi3 \
 libnotcurses-ffi3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinx-copybutton) \
 python311-sphinxcontrib-copybutton \
 python3dist(sphinx-copybutton)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Sphinx"
 

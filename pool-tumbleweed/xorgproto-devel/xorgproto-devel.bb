@@ -76,6 +76,7 @@ xorg-x11-proto-devel \
 xorgproto-devel \
 xproto-devel \
 xproxymngproto-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(xextproto)"
 

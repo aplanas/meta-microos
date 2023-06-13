@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dictdiffer \
 python3.10dist(dictdiffer) \
 python310-dictdiffer \
 python3dist(dictdiffer)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

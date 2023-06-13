@@ -13,6 +13,7 @@ RPM_HASH = "c5018e2b3e76bb816fff4e07fe4d94f99765c679989bd4c5c971dd718989ae7d94a7
 RPROVIDES:${PN} += "librygel-core-2.8.so.0()(64bit) \
 librygel-core-2_8-0 \
 librygel-core-2_8-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

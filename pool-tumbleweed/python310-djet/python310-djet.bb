@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-djet \
 python3.10dist(djet) \
 python310-djet \
 python3dist(djet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-Pillow \

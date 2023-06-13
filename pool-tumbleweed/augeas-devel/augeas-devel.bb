@@ -13,6 +13,7 @@ RPM_HASH = "99c93a3498f0573fb3a86db99b62ff2c82343bbca15f8bd2338a2f211f22b0c0278e
 RPROVIDES:${PN} += "augeas-devel \
 augeas-devel(aarch-64) \
 pkgconfig(augeas)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaugeas0 \
 libfa1 \

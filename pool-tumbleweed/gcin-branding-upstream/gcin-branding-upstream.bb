@@ -10,6 +10,7 @@ RPM_HASH = "1ff990a72f40df6fbb74f8a0adeb2360a2d580f8b471e545c00360a1ad4a2f1bb962
 RPROVIDES:${PN} += "gcin-branding \
 gcin-branding-upstream \
 gcin-branding-upstream(aarch-64)"
+
 RDEPENDS:${PN} += "gcin"
 
 inherit rpm

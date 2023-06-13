@@ -83,6 +83,7 @@ locale(okular:zh_HK) \
 locale(okular:zh_TW) \
 okular-lang \
 okular-lang-all"
+
 RDEPENDS:${PN} += "okular"
 
 inherit rpm

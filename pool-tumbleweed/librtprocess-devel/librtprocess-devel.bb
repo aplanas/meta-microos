@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(rtprocess) \
 librtprocess-devel \
 librtprocess-devel(aarch-64) \
 pkgconfig(rtprocess)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librtprocess0"
 

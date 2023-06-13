@@ -13,6 +13,7 @@ RPM_HASH = "f80b3c5a8cb433251f12d53c02db0eb2a60d886441b9e6076a9629f33423b85a9bd8
 RPROVIDES:${PN} += "typelib(Nautilus) \
 typelib-1_0-Nautilus-4_0 \
 typelib-1_0-Nautilus-4_0(aarch-64)"
+
 RDEPENDS:${PN} += "libnautilus-extension.so.4()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -12,6 +12,7 @@ RPM_HASH = "b93fd0c6c3090bb69df5ec577f4eb9100a42d33e026bd6dbe96b47db6b388c7a616b
 
 RPROVIDES:${PN} += "gromacs \
 gromacs(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 gromacs-data \
 ld-linux-aarch64.so.1()(64bit) \

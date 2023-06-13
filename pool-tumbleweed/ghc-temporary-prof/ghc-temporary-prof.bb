@@ -10,6 +10,7 @@ RPM_HASH = "66cd466abbe62cd7c6e02d94b73dda99d2bb48a7b8f4a6f3c4ac0aab9afe2df7a30b
 RPROVIDES:${PN} += "ghc-prof(temporary-1.3-9rLWZg49Shk3gKExST32p) \
 ghc-temporary-prof \
 ghc-temporary-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(directory-1.3.7.1) \
 ghc-prof(exceptions-0.10.5) \

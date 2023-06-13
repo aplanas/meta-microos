@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pgfmorepages.sty) \
 tex(pgfmorepageslayouts.code.tex) \
 texlive-pgfmorepages"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

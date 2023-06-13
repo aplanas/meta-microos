@@ -9,6 +9,7 @@ RPM_HASH = "3ce6900c1b82a1c2fae408fff46ecf438efeef482cbb8a7ed4e0657a70f8c40e151d
 
 RPROVIDES:${PN} += "gnome-directory-thumbnailer \
 gnome-directory-thumbnailer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatk-1.0.so.0()(64bit) \

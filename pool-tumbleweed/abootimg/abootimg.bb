@@ -10,6 +10,7 @@ RPM_HASH = "c3b846878e73dc93ec3c174f9cdd497fcc043c42abb6d2cd5db70ded646a7ce18619
 
 RPROVIDES:${PN} += "abootimg \
 abootimg(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "5bc6787dc205c1b6e8c0d82e1c550b203757652a00f247302d27580046e612452976
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "asco-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

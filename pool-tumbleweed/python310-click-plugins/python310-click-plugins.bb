@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-click-plugins \
 python3.10dist(click-plugins) \
 python310-click-plugins \
 python3dist(click-plugins)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click"
 

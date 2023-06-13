@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(everypage-1x.sty) \
 tex(everypage.sty) \
 texlive-everypage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

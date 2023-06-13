@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libgpaste-gtk4-0 \
 libgpaste-gtk4-0(aarch-64) \
 libgpaste-gtk4.so.0()(64bit) \
 libgpaste-gtk4.so.0(LIBGPASTE_GTK4_42)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libadwaita-1.so.0()(64bit) \
 libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "6ded45df01e39f7c50b976dc0ff3f5cc27608c072c28e2d87e8ef2c809e4dd304a23
 RPROVIDES:${PN} += "ghc-prof(stm-chans-3.0.0.9-KwAuYyoo9r3GoiDPqmpN5R) \
 ghc-stm-chans-prof \
 ghc-stm-chans-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(stm-2.5.1.0) \
 ghc-stm-chans-devel"

@@ -9,6 +9,7 @@ RPM_HASH = "e60c77da22a7091b5201eb486643908cb5b42aa12fa99846a00ef89002b980baf6e9
 
 RPROVIDES:${PN} += "meson-tools \
 meson-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

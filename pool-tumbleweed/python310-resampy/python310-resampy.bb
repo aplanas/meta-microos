@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-resampy \
 python3.10dist(resampy) \
 python310-resampy \
 python3dist(resampy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numba \
 python310-numpy"

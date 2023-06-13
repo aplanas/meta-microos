@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libftxr.so.1()(64bit) \
 libftxr.so.1(V_20220118)(64bit) \
 libftxr1 \
 libftxr1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libcerror.so.1()(64bit) \

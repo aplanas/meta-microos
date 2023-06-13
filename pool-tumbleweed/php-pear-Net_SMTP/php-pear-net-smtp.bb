@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "php-pear(Net_SMTP) \
 php-pear-Net_SMTP \
 php5-pear-Net_SMTP \
 php7-pear-Net_SMTP"
+
 RDEPENDS:${PN} += "/bin/sh \
 php-pear \
 php-pear(Net_Socket)"

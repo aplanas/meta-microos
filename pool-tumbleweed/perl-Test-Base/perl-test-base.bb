@@ -42,6 +42,7 @@ perl(Test::Base::Block) \
 perl(Test::Base::Filter) \
 perl(Test::Base::Handle) \
 perl-Test-Base"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Spiffy) \
 perl(Test::More)"

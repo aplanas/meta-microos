@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "adobe-sourcehanserif-cn-fonts \
 locale(zh_CN) \
 scalable-font-zh_CN"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

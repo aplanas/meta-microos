@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(fonttools) \
 python311-FontTools \
 python311-fonttools \
 python3dist(fonttools)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

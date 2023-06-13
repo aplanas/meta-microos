@@ -12,6 +12,7 @@ RPM_HASH = "24a549ab4136598d79d2759be202006bd0b54fcc427bc55a7410b70cfb59ef2afa4e
 
 RPROVIDES:${PN} += "dbench \
 dbench(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

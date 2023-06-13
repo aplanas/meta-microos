@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mVersion.sty) \
 texlive-mversion"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

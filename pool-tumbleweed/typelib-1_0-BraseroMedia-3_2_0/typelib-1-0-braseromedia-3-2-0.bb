@@ -13,6 +13,7 @@ RPM_HASH = "e59bd0c383ce7ab4970ce9a6b4e0bbf9a9ded9061b22418a67f5551911ef1d8618bb
 RPROVIDES:${PN} += "typelib(BraseroMedia) \
 typelib-1_0-BraseroMedia-3_2_0 \
 typelib-1_0-BraseroMedia-3_2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libbrasero-media3.so.1()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

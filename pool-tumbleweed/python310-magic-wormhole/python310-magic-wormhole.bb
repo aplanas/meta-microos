@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-magic-wormhole \
 python3.10dist(magic-wormhole) \
 python310-magic-wormhole \
 python3dist(magic-wormhole)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

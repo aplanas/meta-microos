@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-panflute \
 python3.10dist(panflute) \
 python310-panflute \
 python3dist(panflute)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

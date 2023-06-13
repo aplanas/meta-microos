@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "featherpad-lang \
 featherpad-lang-all"
+
 RDEPENDS:${PN} += "featherpad"
 
 inherit rpm

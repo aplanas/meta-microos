@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake(bear) \
 plee-the-bear-data"
+
 RDEPENDS:${PN} += "/bin/bash \
 plee-the-bear"
 

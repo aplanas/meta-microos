@@ -9,6 +9,7 @@ RPM_HASH = "2f3f5f7f76e30373ae9b08a7ad9ac793a7813a6b191b17c8daf2af838f96a52da23f
 
 RPROVIDES:${PN} += "i3-devel \
 i3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "i3"
 
 inherit rpm

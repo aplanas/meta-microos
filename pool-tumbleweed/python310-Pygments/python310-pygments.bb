@@ -23,6 +23,7 @@ python3.10dist(pygments) \
 python310-Pygments \
 python310-pygments \
 python3dist(pygments)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

@@ -18,6 +18,7 @@ RPM_HASH = "933384480724ea9fb81d32c002f8d1a9ae73b64483a626c502b40f08077ba06ff96d
 RPROVIDES:${PN} += "pkgconfig(libwslay) \
 wslay-devel \
 wslay-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwslay0"
 

@@ -11,6 +11,7 @@ RPM_HASH = "258ef88d1dc586eae801bdc273cd01fa0c7658e56b45164dc69b3de027001eb60d45
 RPROVIDES:${PN} += "libgexiv2-2 \
 libgexiv2-2(aarch-64) \
 libgexiv2.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

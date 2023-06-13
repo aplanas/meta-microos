@@ -9,6 +9,7 @@ RPM_HASH = "25d21f24c1374c08a06e4d3a8492b459d20faf46edbe8682791e4f8460d66673a4df
 
 RPROVIDES:${PN} += "ocaml-calendar \
 ocaml-calendar(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

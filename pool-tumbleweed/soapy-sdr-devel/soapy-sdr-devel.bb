@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(SoapySDR) \
 pkgconfig(SoapySDR) \
 soapy-sdr-devel \
 soapy-sdr-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSoapySDR0_8"
 

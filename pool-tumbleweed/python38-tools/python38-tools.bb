@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python38-2to3 \
 python38-demo \
 python38-tools \
 python38-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.8 \
 python(abi) \
 python38-base"

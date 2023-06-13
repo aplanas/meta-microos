@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(esindex.sty) \
 texlive-esindex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

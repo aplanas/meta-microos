@@ -12,6 +12,7 @@ RPM_HASH = "3bdf554948bf94e3963b8ad18ebc544871ed903b59ef955c540f9056712a84e8de19
 RPROVIDES:${PN} += "libmatio.so.11()(64bit) \
 libmatio11 \
 libmatio11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

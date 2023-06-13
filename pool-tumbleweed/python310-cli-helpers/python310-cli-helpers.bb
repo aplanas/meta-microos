@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-cli-helpers \
 python3.10dist(cli-helpers) \
 python310-cli-helpers \
 python3dist(cli-helpers)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pygments \
 python310-configobj \

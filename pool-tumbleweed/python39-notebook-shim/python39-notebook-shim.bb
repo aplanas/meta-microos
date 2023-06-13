@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(notebook-shim) \
 python39-notebook-shim \
 python39-notebook_shim \
 python3dist(notebook-shim)"
+
 RDEPENDS:${PN} += "(python39-jupyter_server >= 1.8 with python39-jupyter_server < 3) \
 jupyter-notebook-shim \
 python(abi)"

@@ -11,6 +11,7 @@ RPM_HASH = "c6d08061db093fe39e62fd57810f5b841b773dd4490f1779d458eacc7c45b0ada4a9
 RPROVIDES:${PN} += "typelib(Gsf) \
 typelib-1_0-Gsf-1 \
 typelib-1_0-Gsf-1(aarch-64)"
+
 RDEPENDS:${PN} += "libgsf-1.so.114()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

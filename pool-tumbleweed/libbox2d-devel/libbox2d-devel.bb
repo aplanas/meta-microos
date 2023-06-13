@@ -10,6 +10,7 @@ RPM_HASH = "004a3e3e56e6ee20fc815e3184b24be22052e42671618546d328c9da06b367ca5f69
 RPROVIDES:${PN} += "cmake(box2d) \
 libbox2d-devel \
 libbox2d-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libbox2d2"
 
 inherit rpm

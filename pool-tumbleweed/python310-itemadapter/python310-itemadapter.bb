@@ -14,6 +14,7 @@ python3.10dist(itemadapter) \
 python310-itemadapter \
 python310-itemadapter(aarch-64) \
 python3dist(itemadapter)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

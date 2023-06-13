@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-dask-all \
 python3-dask-complete \
 python310-dask-all \
 python310-dask-complete"
+
 RDEPENDS:${PN} += "python310-dask \
 python310-dask-array \
 python310-dask-bag \

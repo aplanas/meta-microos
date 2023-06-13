@@ -12,6 +12,7 @@ RPM_HASH = "26247ec1e5bd7e8b450805ccfdb9362c9dd8fdf916983f60f42a177c89ed84b7d8b3
 
 RPROVIDES:${PN} += "indent \
 indent(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-topy \
 python3.10dist(topy) \
 python310-topy \
 python3dist(topy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

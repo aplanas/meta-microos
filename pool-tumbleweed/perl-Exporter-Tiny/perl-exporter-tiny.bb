@@ -31,6 +31,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Exporter::Shiny) \
 perl(Exporter::Tiny) \
 perl-Exporter-Tiny"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

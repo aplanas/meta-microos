@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(jmol.desktop) \
 jmol"
+
 RDEPENDS:${PN} += "/bin/sh \
 java"
 

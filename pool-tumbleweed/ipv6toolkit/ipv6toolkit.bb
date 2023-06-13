@@ -33,6 +33,7 @@ RPM_HASH = "d018c91c617400b013d538bf37700211185a75a1c8b21999d20aa5289841fe09cd21
 RPROVIDES:${PN} += "config(ipv6toolkit) \
 ipv6toolkit \
 ipv6toolkit(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "d04b511be6b5a3c407bb9e3f223bd46f96b9c3721fa61ec112eb703860b72bc88d43
 RPROVIDES:${PN} += "ghc-pango-prof \
 ghc-pango-prof(aarch-64) \
 ghc-prof(pango-0.13.8.2-AyE0ruIpbddIIASgXg66h2)"
+
 RDEPENDS:${PN} += "ghc-pango-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

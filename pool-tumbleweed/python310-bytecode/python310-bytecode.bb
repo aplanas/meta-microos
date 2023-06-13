@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-bytecode \
 python3.10dist(bytecode) \
 python310-bytecode \
 python3dist(bytecode)"
+
 RDEPENDS:${PN} += "(python310-typing-extensions if python310-base < 3.10) \
 python(abi)"
 

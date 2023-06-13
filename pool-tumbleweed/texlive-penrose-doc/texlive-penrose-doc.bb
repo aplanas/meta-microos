@@ -9,6 +9,7 @@ RPM_HASH = "549c62895dd6865b436824a0ba3c1faad895e78bfa99e4bd24ee725d05023c3f68ce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-penrose-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

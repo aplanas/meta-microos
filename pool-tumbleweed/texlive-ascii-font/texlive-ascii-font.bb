@@ -17,6 +17,7 @@ tex(ascii.map) \
 tex(ascii.sty) \
 texlive-ascii \
 texlive-ascii-font"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

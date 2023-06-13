@@ -12,6 +12,7 @@ RPM_HASH = "ab9d23cc38c03804eb9c035027684fd666f332639b2bcfade50fba4bd71c9bacc546
 RPROVIDES:${PN} += "libmypaint-gegl.so.0()(64bit) \
 libmypaint-gegl0 \
 libmypaint-gegl0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

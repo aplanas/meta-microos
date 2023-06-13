@@ -11,6 +11,7 @@ RPM_HASH = "ee6be72aa6af878b9ecf871e06013a3d4042be80b87c6e16de7424e0a029dcc3a615
 RPROVIDES:${PN} += "typelib(Xmlb) \
 typelib-1_0-Xmlb-1_0 \
 typelib-1_0-Xmlb-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libxmlb.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

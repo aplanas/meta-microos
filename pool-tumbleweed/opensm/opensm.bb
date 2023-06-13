@@ -13,6 +13,7 @@ RPM_HASH = "0903de6e5a866f4a64767e2c99b7639565893239feb05825b9497de9819b04258bb4
 RPROVIDES:${PN} += "config(opensm) \
 opensm \
 opensm(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

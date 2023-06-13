@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(physunits.sty) \
 texlive-physunits"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

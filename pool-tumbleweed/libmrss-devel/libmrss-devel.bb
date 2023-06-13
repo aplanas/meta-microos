@@ -13,6 +13,7 @@ RPM_HASH = "2a09f8ce75070d1da7917450ec56b939b0a435160c01a65adaabec88ea9e929e15f2
 RPROVIDES:${PN} += "libmrss-devel \
 libmrss-devel(aarch-64) \
 pkgconfig(mrss)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 curl-devel \
 libmrss0 \

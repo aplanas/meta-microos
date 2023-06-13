@@ -19,6 +19,7 @@ tex(arthistory-bonn-german.lbx) \
 tex(arthistory-bonn.bbx) \
 tex(arthistory-bonn.cbx) \
 texlive-biblatex-arthistory-bonn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

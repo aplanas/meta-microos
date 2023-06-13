@@ -12,6 +12,7 @@ RPM_HASH = "1b3379501bc21b2009f58c674105dead13439c9259b65712bf49c0fafc67562f3b43
 RPROVIDES:${PN} += "enchant-2-backend \
 enchant-2-backend-aspell \
 enchant-2-backend-aspell(aarch-64)"
+
 RDEPENDS:${PN} += "libaspell.so.15()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \
 libenchant-2.so.2()(64bit) \

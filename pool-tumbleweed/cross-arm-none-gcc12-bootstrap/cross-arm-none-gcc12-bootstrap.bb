@@ -17,6 +17,7 @@ RPM_HASH = "f57e895c7886c8a319ec474ef7335446e4a55ad268e65d1b5e78004785e6219f1045
 RPROVIDES:${PN} += "arm-none-eabi-gcc \
 cross-arm-none-gcc12-bootstrap \
 cross-arm-none-gcc12-bootstrap(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-arm-binutils \
 update-alternatives"

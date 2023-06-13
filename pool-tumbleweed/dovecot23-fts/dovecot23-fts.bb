@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "dovecot23-fts \
 dovecot23-fts(aarch-64) \
 lib20_doveadm_fts_plugin.so()(64bit) \
 lib20_fts_plugin.so()(64bit)"
+
 RDEPENDS:${PN} += "dovecot23 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

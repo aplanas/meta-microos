@@ -11,6 +11,7 @@ RPM_HASH = "943cdbb5241dff9be9f86e20dd6d6a53dc1e6e312ec95668f641a22e4693eb74e687
 RPROVIDES:${PN} += "libpolys-4.3.1.p3.so()(64bit) \
 libpolys-4_3_1 \
 libpolys-4_3_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

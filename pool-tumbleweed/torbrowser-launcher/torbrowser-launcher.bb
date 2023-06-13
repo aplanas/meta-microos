@@ -33,6 +33,7 @@ metainfo(torbrowser.appdata.xml) \
 python3.10dist(torbrowser-launcher) \
 python3dist(torbrowser-launcher) \
 torbrowser-launcher"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gpg2 \
 hicolor-icon-theme \

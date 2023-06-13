@@ -9,6 +9,7 @@ RPM_HASH = "a41cb5f3a64b31e2570f35581da0a2dec63ecabbf007dda619813f1a2ac589a791d9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aho-corasick-double-array-trie-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

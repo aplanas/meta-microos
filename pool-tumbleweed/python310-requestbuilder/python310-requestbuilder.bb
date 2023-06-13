@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-requestbuilder \
 python3.10dist(requestbuilder) \
 python310-requestbuilder \
 python3dist(requestbuilder)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

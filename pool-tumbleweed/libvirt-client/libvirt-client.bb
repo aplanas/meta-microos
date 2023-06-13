@@ -10,6 +10,7 @@ RPM_HASH = "d28c8faa98961f21a708ef042623d16a40b4addc35913b378034f66c0064da67afea
 
 RPROVIDES:${PN} += "libvirt-client \
 libvirt-client(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 bash-completion \
 cyrus-sasl \

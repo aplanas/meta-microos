@@ -16,6 +16,7 @@ RPM_HASH = "577b7e24ca4724b880b93e9d4cc610f9dde40e352227d654623887dbaaa7de200f7c
 RPROVIDES:${PN} += "libOpenThreads.so.21()(64bit) \
 libOpenThreads21 \
 libOpenThreads21(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

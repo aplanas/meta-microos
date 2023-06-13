@@ -10,6 +10,7 @@ RPM_HASH = "793993a268a2f3242316136f6b9c23dbf616effd6f8eab22a617cb25a768ec225af3
 RPROVIDES:${PN} += "libkmahjongg \
 libkmahjongg(aarch-64) \
 libkmahjongg-kf5"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

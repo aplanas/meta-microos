@@ -16,6 +16,7 @@ libclang.so.13(LLVM_13)(64bit) \
 libclang13 \
 llvm15-libclang13 \
 llvm15-libclang13(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

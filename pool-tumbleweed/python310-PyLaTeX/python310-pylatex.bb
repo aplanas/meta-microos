@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-PyLaTeX \
 python3.10dist(pylatex) \
 python310-PyLaTeX \
 python3dist(pylatex)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ordered-set \
 texlive-latex"

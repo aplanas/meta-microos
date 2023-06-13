@@ -15,6 +15,7 @@ tex(bath.cbx) \
 tex(british-bath.lbx) \
 tex(english-bath.lbx) \
 texlive-biblatex-bath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

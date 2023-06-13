@@ -15,6 +15,7 @@ mvn(org.apache.xmlgraphics:batik-svgpp) \
 mvn(org.apache.xmlgraphics:batik-svgpp:pom:) \
 osgi(org.apache.batik.svgpp) \
 xmlgraphics-batik-svgpp"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

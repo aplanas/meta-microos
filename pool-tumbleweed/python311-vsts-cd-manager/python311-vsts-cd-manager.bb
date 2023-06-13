@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(vsts-cd-manager) \
 python311-vsts-cd-manager \
 python3dist(vsts-cd-manager)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-msrest"
 

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(MooseX::Params::Validate) \
 perl(MooseX::Params::Validate::Exception::ValidationFailedForTypeConstraint) \
 perl-MooseX-Params-Validate"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::Caller) \
 perl(Moose) \

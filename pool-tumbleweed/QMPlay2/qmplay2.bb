@@ -93,6 +93,7 @@ mimehandler(video/x-ms-wmv) \
 mimehandler(video/x-msvideo) \
 mimehandler(video/x-ogm+ogg) \
 mimehandler(video/x-theora+ogg)"
+
 RDEPENDS:${PN} += "/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \

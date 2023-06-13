@@ -15,6 +15,7 @@ RPM_HASH = "ffcb9488f302301dafbea61a56de0a3cb225e13a61ab1918859595c87120b4e3dbea
 RPROVIDES:${PN} += "libmodbuspp-devel \
 libmodbuspp-devel(aarch-64) \
 pkgconfig(libmodbuspp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmodbuspp1_0-0"
 

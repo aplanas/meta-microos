@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libZXing.so.3()(64bit) \
 libZXing3 \
 libZXing3(aarch-64) \
 libZXingCore3"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

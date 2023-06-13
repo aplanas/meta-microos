@@ -13,6 +13,7 @@ RPM_HASH = "f3bca61c4ec5522f063a0870a347c2d3078193886971119daa5c96a8e07721066f26
 RPROVIDES:${PN} += "libkkc.so.2()(64bit) \
 libkkc2 \
 libkkc2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kkc-data \
 ld-linux-aarch64.so.1()(64bit) \

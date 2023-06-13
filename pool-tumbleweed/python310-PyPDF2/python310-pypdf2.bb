@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-PyPDF2 \
 python3.10dist(pypdf2) \
 python310-PyPDF2 \
 python3dist(pypdf2)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

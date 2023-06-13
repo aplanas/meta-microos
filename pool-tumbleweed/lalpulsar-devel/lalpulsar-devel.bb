@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(lalpulsar-devel) \
 lalpulsar-devel \
 lalpulsar-devel(aarch-64) \
 pkgconfig(lalpulsar)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3.10 \
 /usr/bin/tclsh \

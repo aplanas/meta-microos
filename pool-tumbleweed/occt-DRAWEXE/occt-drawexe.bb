@@ -10,6 +10,7 @@ RPM_HASH = "2c2541334dbcf1ea2de0bd0e0db491d34c7275ed5c4f3c0586ab50ea57232216992a
 
 RPROVIDES:${PN} += "occt-DRAWEXE \
 occt-DRAWEXE(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libTKDraw.so.7.7()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

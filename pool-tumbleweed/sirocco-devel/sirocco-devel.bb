@@ -22,6 +22,7 @@ RPM_HASH = "d0d48911ebdd52d0c28213c52cd02fa8aaaa280752966556bd306b1dc29b71866d05
 
 RPROVIDES:${PN} += "sirocco-devel \
 sirocco-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsirocco0"
 
 inherit rpm

@@ -55,6 +55,7 @@ locale(xfce4-panel-plugin-indicator:zh_CN) \
 locale(xfce4-panel-plugin-indicator:zh_TW) \
 xfce4-panel-plugin-indicator-lang \
 xfce4-panel-plugin-indicator-lang-all"
+
 RDEPENDS:${PN} += "xfce4-panel-plugin-indicator"
 
 inherit rpm

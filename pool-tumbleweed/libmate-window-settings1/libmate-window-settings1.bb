@@ -11,6 +11,7 @@ RPM_HASH = "2d7bbc1f7028513a347d66da167383405ff3ba1c1b8ff6883ada1516f290fb892a1e
 RPROVIDES:${PN} += "libmate-window-settings.so.1()(64bit) \
 libmate-window-settings1 \
 libmate-window-settings1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

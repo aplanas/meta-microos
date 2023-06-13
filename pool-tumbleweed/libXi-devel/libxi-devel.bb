@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libXi-devel \
 libXi-devel(aarch-64) \
 libXi6-devel \
 pkgconfig(xi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXi6 \
 pkgconfig(inputproto) \

@@ -15,6 +15,7 @@ RPM_HASH = "414bff06972e11ca8c7e3f2f29d5630f7448ce255e1d656b247fea70b752e4787d87
 
 RPROVIDES:${PN} += "form-doc \
 form-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

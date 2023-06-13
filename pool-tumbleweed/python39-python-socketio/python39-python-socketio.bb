@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-socketio) \
 python39-python-socketio \
 python3dist(python-socketio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-bidict \
 python39-python-engineio"

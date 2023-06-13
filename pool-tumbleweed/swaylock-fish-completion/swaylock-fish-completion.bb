@@ -9,6 +9,7 @@ RPM_HASH = "ea0ea70b9bcc6ee8f01b8ee77424a8b8989ec4c157fed128ae148ddff5c16892d293
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swaylock-fish-completion"
+
 RDEPENDS:${PN} += "swaylock"
 
 inherit rpm

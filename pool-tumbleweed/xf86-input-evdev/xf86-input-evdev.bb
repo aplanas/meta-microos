@@ -12,6 +12,7 @@ RPM_HASH = "737e57830c831ec47ab3f30110fc720ab2aa18755b0578bd9c8df90c0059753dd047
 RPROVIDES:${PN} += "x11-input-mtrack \
 xf86-input-evdev \
 xf86-input-evdev(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 X11_ABI_XINPUT \
 ld-linux-aarch64.so.1()(64bit) \

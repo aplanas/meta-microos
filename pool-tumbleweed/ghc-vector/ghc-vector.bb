@@ -30,6 +30,7 @@ RPM_HASH = "a0ebd0f410056929a62d24e7b10d49fcd529ef6b0905b4f68f0d009233a0c078e06f
 RPROVIDES:${PN} += "ghc-vector \
 ghc-vector(aarch-64) \
 libHSvector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

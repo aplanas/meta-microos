@@ -18,6 +18,7 @@ RPM_HASH = "1c302b06163ff0b35b8a435c9897a7646612c2e15abef9c65d3312cc9776b69db839
 RPROVIDES:${PN} += "libsgutils2-1.48.so.2()(64bit) \
 libsgutils2-1_48-2 \
 libsgutils2-1_48-2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

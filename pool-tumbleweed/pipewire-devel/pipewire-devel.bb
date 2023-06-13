@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "pipewire-devel \
 pipewire-devel(aarch-64) \
 pkgconfig(libpipewire-0.3) \
 pkgconfig(libspa-0.2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpipewire-0_3-0 \
 pkgconfig(libspa-0.2)"

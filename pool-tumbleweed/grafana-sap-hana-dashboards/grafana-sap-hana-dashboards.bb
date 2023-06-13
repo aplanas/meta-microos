@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(grafana-sap-hana-dashboards) \
 grafana-sap-hana-dashboards"
+
 RDEPENDS:${PN} += "grafana-sap-providers"
 
 inherit rpm

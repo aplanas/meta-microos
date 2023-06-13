@@ -14,6 +14,7 @@ python-pybind11-common-devel \
 python310-pybind11-common-devel \
 python311-pybind11-common-devel \
 python39-pybind11-common-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

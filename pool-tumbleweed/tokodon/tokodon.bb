@@ -15,6 +15,7 @@ metainfo(org.kde.tokodon.appdata.xml) \
 mimehandler(x-scheme-handler/web+ap) \
 tokodon \
 tokodon(aarch-64)"
+
 RDEPENDS:${PN} += "kirigami-addons \
 kirigami2 \
 kitemmodels-imports \

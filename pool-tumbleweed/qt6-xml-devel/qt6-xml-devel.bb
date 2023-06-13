@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(Qt6Xml) \
 pkgconfig(Qt6Xml) \
 qt6-xml-devel \
 qt6-xml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 libQt6Xml6 \

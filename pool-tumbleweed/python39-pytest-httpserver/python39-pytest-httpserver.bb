@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-httpserver) \
 python39-pytest-httpserver \
 python3dist(pytest-httpserver)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Werkzeug \
 python39-pytest"

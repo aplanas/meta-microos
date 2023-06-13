@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(logosl8.tfm) \
 tex(mflogo.sty) \
 tex(ulogo.fd) \
 texlive-mflogo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ RPM_HASH = "5af8d6682f52060d507655f58f750fdd59b478e3e3aa66b9cd0a61b159722e3dcd84
 
 RPROVIDES:${PN} += "guile-json \
 guile-json(aarch-64)"
+
 RDEPENDS:${PN} += "guile"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lirc-config \
 lirc-remotes"
+
 RDEPENDS:${PN} += "lirc-core \
 python3-PyYAML \
 python3-gobject"

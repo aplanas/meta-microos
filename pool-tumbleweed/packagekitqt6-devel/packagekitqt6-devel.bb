@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(packagekitqt6) \
 packagekitqt6-devel \
 packagekitqt6-devel(aarch-64) \
 pkgconfig(packagekitqt6)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpackagekitqt6-1 \
 pkgconfig(Qt6Core) \

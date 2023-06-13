@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libkomparediff2 \
 libkomparediff2-5 \
 libkomparediff2-5(aarch-64) \
 libkomparediff2.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

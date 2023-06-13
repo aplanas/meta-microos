@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "config(monitoring-plugins-icmp) \
 monitoring-plugins-icmp \
 monitoring-plugins-icmp(aarch-64) \
 nagios-plugins-icmp"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

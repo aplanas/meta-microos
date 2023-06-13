@@ -11,6 +11,7 @@ RPM_HASH = "b10fe35f73e6d57aecc58cb3ae0529fc4baf28715adbe36242f1c3dfa41eb5b736d7
 RPROVIDES:${PN} += "pkgconfig(signon-oauth2plugin) \
 signon-plugin-oauth2-devel \
 signon-plugin-oauth2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(signon-plugins) \
 signon-plugin-oauth2"

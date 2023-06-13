@@ -10,6 +10,7 @@ RPM_HASH = "0519ddf2c7781799bb823b2e4f6ef6c9afa5327e5f144cb309c5229fe4f3fa1682ec
 RPROVIDES:${PN} += "libomemo-c.so.0()(64bit) \
 libomemo-c0 \
 libomemo-c0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

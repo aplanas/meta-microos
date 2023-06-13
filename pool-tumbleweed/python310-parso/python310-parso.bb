@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-parso \
 python3.10dist(parso) \
 python310-parso \
 python3dist(parso)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

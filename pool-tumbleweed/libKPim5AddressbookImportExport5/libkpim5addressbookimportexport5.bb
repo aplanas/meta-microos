@@ -10,6 +10,7 @@ RPM_HASH = "779d30408d45a8acb7c666311fc89c7f367bf1237cc969a897632ba4067d2c02761a
 RPROVIDES:${PN} += "libKPim5AddressbookImportExport.so.5()(64bit) \
 libKPim5AddressbookImportExport5 \
 libKPim5AddressbookImportExport5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

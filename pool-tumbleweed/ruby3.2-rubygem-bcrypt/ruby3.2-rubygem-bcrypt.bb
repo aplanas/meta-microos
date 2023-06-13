@@ -18,6 +18,7 @@ rubygem(ruby:3.2.0:bcrypt) \
 rubygem(ruby:3.2.0:bcrypt:3) \
 rubygem(ruby:3.2.0:bcrypt:3.1) \
 rubygem(ruby:3.2.0:bcrypt:3.1.18)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -65,6 +65,7 @@ mimehandler(application/x-win-lnk) \
 wine \
 wine(aarch-64) \
 wine-mp3"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/perl \

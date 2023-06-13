@@ -11,6 +11,7 @@ RPM_HASH = "467a6b0d95470f65e7fdff8e4924fc22333f5164aef6794bbf1ab56d8b3f3c404a2b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ding-dict-de_en"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

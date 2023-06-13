@@ -18,6 +18,7 @@ RPM_HASH = "02ab5df62e3492780e75dd2b63a2e547afa7eb1876b063b5ee694d2983c035c3d754
 RPROVIDES:${PN} += "librep.so.16()(64bit) \
 librep16 \
 librep16(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

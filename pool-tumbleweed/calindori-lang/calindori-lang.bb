@@ -43,6 +43,7 @@ locale(calindori:tr) \
 locale(calindori:uk) \
 locale(calindori:zh_CN) \
 locale(calindori:zh_TW)"
+
 RDEPENDS:${PN} += "calindori"
 
 inherit rpm

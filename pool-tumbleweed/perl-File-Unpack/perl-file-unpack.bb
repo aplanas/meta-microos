@@ -17,6 +17,7 @@ RPM_HASH = "536071867dc00e49ee139742d093e1af34060fe438ed130801a53fcc6c0defef83de
 RPROVIDES:${PN} += "perl(File::Unpack) \
 perl-File-Unpack \
 perl-File-Unpack(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 binutils \

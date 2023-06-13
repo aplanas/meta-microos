@@ -10,6 +10,7 @@ RPM_HASH = "68c00d112b5372099323bf055e2ce339e26b650d053e7b896de7f4167da3364a8945
 
 RPROVIDES:${PN} += "libnsfdb-tools \
 libnsfdb-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

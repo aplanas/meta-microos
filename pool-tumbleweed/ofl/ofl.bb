@@ -12,6 +12,7 @@ RPM_HASH = "3a87a0d34dd8cdc29dea0fcf337e301f2292e55fb842d1dee24e3249395cdfd6af83
 
 RPROVIDES:${PN} += "ofl \
 ofl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHX.so.32()(64bit) \

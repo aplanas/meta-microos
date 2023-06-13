@@ -15,6 +15,7 @@ RPM_HASH = "b92f63b285caeed74807a478be9df705f8c02814d64865e6d698d03d76d2aff83f5b
 RPROVIDES:${PN} += "typelib(Colord) \
 typelib-1_0-Colord-1_0 \
 typelib-1_0-Colord-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcolord.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

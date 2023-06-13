@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(OMSrsfs.fd) \
 tex(calrsfs.sty) \
 texlive-calrsfs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

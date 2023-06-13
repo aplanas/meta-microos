@@ -16,6 +16,7 @@ tex(ltugcomn.sty) \
 tex(ltugproc.cls) \
 tex(ltugproc.sty) \
 texlive-tugboat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

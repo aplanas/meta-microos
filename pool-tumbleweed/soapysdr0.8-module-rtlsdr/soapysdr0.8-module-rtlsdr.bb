@@ -11,6 +11,7 @@ RPM_HASH = "e06e1027bcd5dbb1d002064e0219750d49871753b5d73bb2c071da12143add0f3e38
 RPROVIDES:${PN} += "librtlsdrSupport.so()(64bit) \
 soapysdr0.8-module-rtlsdr \
 soapysdr0.8-module-rtlsdr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSoapySDR.so.0.8()(64bit) \

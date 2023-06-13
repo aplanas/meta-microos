@@ -9,6 +9,7 @@ RPM_HASH = "3614ae20294d6d4f25edccffd09cf8d8be3988d6698f50b9a22b82256efc3a9a6d3a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxodraw-javadoc"
+
 RDEPENDS:${PN} += "javapackages-tools \
 jaxodraw"
 

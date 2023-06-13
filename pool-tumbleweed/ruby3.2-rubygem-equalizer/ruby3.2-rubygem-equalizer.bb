@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:equalizer) \
 rubygem(ruby:3.2.0:equalizer:0) \
 rubygem(ruby:3.2.0:equalizer:0.0) \
 rubygem(ruby:3.2.0:equalizer:0.0.11)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

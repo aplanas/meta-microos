@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(getitems.sty) \
 texlive-getitems"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

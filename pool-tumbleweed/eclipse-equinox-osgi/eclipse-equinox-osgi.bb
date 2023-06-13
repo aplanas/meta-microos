@@ -27,6 +27,7 @@ osgi(org.eclipse.osgi.compatibility.state) \
 osgi(org.eclipse.osgi.services) \
 osgi(org.eclipse.osgi.util) \
 osgi(system.bundle)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 javapackages-tools"

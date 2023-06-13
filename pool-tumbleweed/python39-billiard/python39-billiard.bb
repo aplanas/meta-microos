@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(billiard) \
 python39-billiard \
 python3dist(billiard)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

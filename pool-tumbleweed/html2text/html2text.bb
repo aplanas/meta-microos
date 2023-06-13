@@ -10,6 +10,7 @@ RPM_HASH = "fc75bf9a9ecaf52ef8ecad919ae5a79dd0f54c9712add2768d6a4166208127e17451
 
 RPROVIDES:${PN} += "html2text \
 html2text(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ caja-extension-open-terminal(aarch-64) \
 caja-open-terminal \
 libcaja-open-terminal.so()(64bit) \
 mate-file-manager-open-terminal"
+
 RDEPENDS:${PN} += "caja \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

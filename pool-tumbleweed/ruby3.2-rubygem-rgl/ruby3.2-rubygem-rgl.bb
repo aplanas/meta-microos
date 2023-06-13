@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rgl) \
 rubygem(ruby:3.2.0:rgl:0) \
 rubygem(ruby:3.2.0:rgl:0.5) \
 rubygem(ruby:3.2.0:rgl:0.5.10)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:pairing_heap) \
 rubygem(ruby:3.2.0:rexml) \

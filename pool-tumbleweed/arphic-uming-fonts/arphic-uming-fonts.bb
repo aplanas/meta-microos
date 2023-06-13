@@ -26,6 +26,7 @@ scalable-font-zh-MO \
 scalable-font-zh-SG \
 scalable-font-zh-TW \
 ttf-arphic-uming"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gimp-help \
 gimp-help-2"
+
 RDEPENDS:${PN} += "gimp"
 
 inherit rpm

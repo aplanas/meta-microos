@@ -15,6 +15,7 @@ python39-PyQRCode \
 python39-PyQRCodeNG \
 python39-pyqrcodeng \
 python3dist(pyqrcodeng)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

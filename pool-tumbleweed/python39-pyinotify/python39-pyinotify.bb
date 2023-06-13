@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyinotify) \
 python39-pyinotify \
 python3dist(pyinotify)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi) \
 update-alternatives"

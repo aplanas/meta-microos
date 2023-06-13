@@ -9,6 +9,7 @@ RPM_HASH = "2317d7ace47a7ebf562c775947602e95678c0d9243065d7ce0e6b6f1579f1bae0aa9
 
 RPROVIDES:${PN} += "ibus-rime \
 ibus-rime(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

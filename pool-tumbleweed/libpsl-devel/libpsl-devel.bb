@@ -18,6 +18,7 @@ RPM_HASH = "265033c1e2528a169d58a78ee3f029657bf41671299f90999908ce7f055298507110
 RPROVIDES:${PN} += "libpsl-devel \
 libpsl-devel(aarch-64) \
 pkgconfig(libpsl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpsl5"
 

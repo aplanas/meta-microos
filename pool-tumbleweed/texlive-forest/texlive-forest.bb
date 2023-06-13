@@ -24,6 +24,7 @@ tex(forest-lib-edges.sty) \
 tex(forest-lib-linguistics.sty) \
 tex(forest.sty) \
 texlive-forest"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

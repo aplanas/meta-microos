@@ -9,6 +9,7 @@ RPM_HASH = "6e150f55d6c78e6f636a007eb001e880725590ff41322476f436ac59a6f6cfca6099
 
 RPROVIDES:${PN} += "notmuch-doc \
 notmuch-doc(aarch-64)"
+
 RDEPENDS:${PN} += "notmuch"
 
 inherit rpm

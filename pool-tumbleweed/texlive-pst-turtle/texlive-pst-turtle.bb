@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-turtle.sty) \
 tex(pst-turtle.tex) \
 texlive-pst-turtle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

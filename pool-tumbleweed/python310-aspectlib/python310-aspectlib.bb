@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-aspectlib \
 python3.10dist(aspectlib) \
 python310-aspectlib \
 python3dist(aspectlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-fields"
 

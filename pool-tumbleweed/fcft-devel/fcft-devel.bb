@@ -11,6 +11,7 @@ RPM_HASH = "30aa515e4c0b0c3222c12719249135e84507d45c814d6b0ecde833d6bd7112a77b75
 RPROVIDES:${PN} += "fcft-devel \
 fcft-devel(aarch-64) \
 pkgconfig(fcft)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfcft4 \
 pkgconfig(fontconfig) \

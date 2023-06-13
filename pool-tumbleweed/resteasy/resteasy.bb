@@ -15,6 +15,7 @@ RPM_HASH = "83c7eb43d37a62f7115ea8a30408a893234fc7fcb243bff6215a7c7dca9bdac2cb68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "resteasy"
+
 RDEPENDS:${PN} += "resteasy-atom-provider \
 resteasy-client \
 resteasy-core \

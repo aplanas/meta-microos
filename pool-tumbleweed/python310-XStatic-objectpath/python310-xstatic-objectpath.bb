@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-XStatic-objectpath \
 python3.10dist(xstatic-objectpath) \
 python310-XStatic-objectpath \
 python3dist(xstatic-objectpath)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

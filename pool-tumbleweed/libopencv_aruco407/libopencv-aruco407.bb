@@ -10,6 +10,7 @@ RPM_HASH = "8ec7a9547d76463fe9a80c8a143430c1fd736cd2dc4a84be5fca7d0ad3b50d4e30b3
 RPROVIDES:${PN} += "libopencv_aruco.so.407()(64bit) \
 libopencv_aruco407 \
 libopencv_aruco407(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

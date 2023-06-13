@@ -19,6 +19,7 @@ RPM_HASH = "62e7bb1513871d4aa22c36a8089c3ee820173c1cbcc03b0c0135070fe5ec40788484
 RPROVIDES:${PN} += "libhpdf.so()(64bit) \
 libhpdf2_4_2 \
 libhpdf2_4_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

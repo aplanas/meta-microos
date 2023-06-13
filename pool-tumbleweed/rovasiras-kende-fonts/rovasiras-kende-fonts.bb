@@ -9,6 +9,7 @@ RPM_HASH = "5c55a30ba09c2f4d63e818ba5dfb59f243d0a186ccbc6e8c7dff671fd5ef909278d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rovasiras-kende-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

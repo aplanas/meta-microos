@@ -10,6 +10,7 @@ RPM_HASH = "d8f98667f6b90a2c6f25f89da13c19002ccca48382045fffdbb0ea322e2ec40682a4
 RPROVIDES:${PN} += "python3-mpi4py-devel \
 python310-mpi4py-devel \
 python310-mpi4py-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python310-devel \
 python310-mpi4py \
 python310-mpi4py-common-devel"

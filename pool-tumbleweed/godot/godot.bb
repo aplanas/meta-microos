@@ -59,6 +59,7 @@ godot(aarch-64) \
 metainfo() \
 metainfo(org.godotengine.Godot.appdata.xml) \
 mimehandler(application/x-godot-project)"
+
 RDEPENDS:${PN} += "ca-certificates \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

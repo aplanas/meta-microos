@@ -19,6 +19,7 @@ RPM_HASH = "8bd3a33a6055d26ee4c1791a34505f24dbcaeb0d83b3930780495e0a87ae865dc904
 RPROVIDES:${PN} += "libqhull_r.so.8.0()(64bit) \
 libqhull_r8_0 \
 libqhull_r8_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

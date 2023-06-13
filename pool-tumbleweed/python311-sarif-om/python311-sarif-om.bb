@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sarif-om) \
 python311-sarif-om \
 python3dist(sarif-om)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-attrs \
 python311-pbr"

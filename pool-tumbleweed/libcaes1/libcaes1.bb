@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libcaes.so.1()(64bit) \
 libcaes.so.1(V_20230406)(64bit) \
 libcaes1 \
 libcaes1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

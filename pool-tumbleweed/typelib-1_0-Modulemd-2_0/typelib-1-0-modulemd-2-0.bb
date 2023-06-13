@@ -11,6 +11,7 @@ RPM_HASH = "4b18285f585898983db2fc926ee3a774d15e4e117757b845fcec56ab17c2d9b4ee3b
 RPROVIDES:${PN} += "typelib(Modulemd) \
 typelib-1_0-Modulemd-2_0 \
 typelib-1_0-Modulemd-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libmodulemd.so.2()(64bit) \
 libmodulemd2(aarch-64) \
 typelib(GLib) \

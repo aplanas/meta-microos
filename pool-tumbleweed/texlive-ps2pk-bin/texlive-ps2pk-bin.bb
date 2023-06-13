@@ -9,6 +9,7 @@ RPM_HASH = "51e6dc85c472df620a2ad1bf5018a0dd384737023626710ae0c4adf048014c5765e2
 
 RPROVIDES:${PN} += "texlive-ps2pk-bin \
 texlive-ps2pk-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

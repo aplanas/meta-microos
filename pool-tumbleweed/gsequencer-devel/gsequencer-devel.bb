@@ -13,6 +13,7 @@ pkgconfig(libags) \
 pkgconfig(libags_audio) \
 pkgconfig(libags_gui) \
 pkgconfig(libgsequencer)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libags5 \
 libgsequencer0 \

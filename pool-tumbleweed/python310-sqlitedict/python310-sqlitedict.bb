@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-sqlitedict \
 python3.10dist(sqlitedict) \
 python310-sqlitedict \
 python3dist(sqlitedict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310"
 

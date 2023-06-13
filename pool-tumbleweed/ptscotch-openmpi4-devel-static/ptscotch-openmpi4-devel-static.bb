@@ -10,6 +10,7 @@ RPM_HASH = "cca065051610031cbefb1d2d9c03994c3dd252f701738550fb5e42bf3c63c46fa6b8
 RPROVIDES:${PN} += "ptscotch-openmpi4-devel-static \
 ptscotch-openmpi4-devel-static(aarch-64) \
 scotch-devel-static"
+
 RDEPENDS:${PN} += "ptscotch-openmpi4-devel"
 
 inherit rpm

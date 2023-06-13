@@ -49,6 +49,7 @@ mimehandler(image/x-sony-sr2) \
 mimehandler(image/x-sony-srf) \
 mimehandler(image/x-tif) \
 mimehandler(inode/directory)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatkmm-1.6.so.1()(64bit) \

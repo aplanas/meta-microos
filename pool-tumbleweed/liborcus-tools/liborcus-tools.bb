@@ -9,6 +9,7 @@ RPM_HASH = "545685dead742f3b58ebe35e6a3590d92429bf8e4d9a1bf5546fa1e4bfcd108d9043
 
 RPROVIDES:${PN} += "liborcus-tools \
 liborcus-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_filesystem.so.1.82.0()(64bit) \

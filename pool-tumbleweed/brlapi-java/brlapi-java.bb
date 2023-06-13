@@ -19,6 +19,7 @@ RPM_HASH = "101cdc3adbc4816443c60302a4207f291fb125197e2d96ed8d5fb137161c64df6415
 RPROVIDES:${PN} += "brlapi-java \
 brlapi-java(aarch-64) \
 libbrlapi_java.so.0.8()(64bit)"
+
 RDEPENDS:${PN} += "java \
 jpackage-utils \
 ld-linux-aarch64.so.1()(64bit) \

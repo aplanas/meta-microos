@@ -12,6 +12,7 @@ RPM_HASH = "a8d3b807b8e9878e83a94db9be9d77c2c1edf3989592a168cb092241da15bb1855e1
 RPROVIDES:${PN} += "discount \
 discount(aarch-64) \
 markdown"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

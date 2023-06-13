@@ -11,6 +11,7 @@ RPM_HASH = "0624a6bec31cfcb1ba33e2ea09026e4f931eb57e8a5d5a2d94df3a8f95f5fd58442e
 RPROVIDES:${PN} += "cmake(liboqs) \
 liboqs-devel \
 liboqs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "liboqs0"
 
 inherit rpm

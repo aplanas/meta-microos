@@ -16,6 +16,7 @@ RPM_HASH = "8ee356da1110283b96ecf89838ac8d2d41ef0c6d65378f132e5a4094f5e899330d6f
 RPROVIDES:${PN} += "mono(WindowsBase) \
 mono-winfxcore \
 mono-winfxcore(aarch-64)"
+
 RDEPENDS:${PN} += "mono(System) \
 mono(System.Xaml) \
 mono(System.Xml) \

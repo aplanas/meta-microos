@@ -41,6 +41,7 @@ locale(libKPipeWire5:tr) \
 locale(libKPipeWire5:uk) \
 locale(libKPipeWire5:zh_CN) \
 locale(libKPipeWire5:zh_TW)"
+
 RDEPENDS:${PN} += "libKPipeWire5"
 
 inherit rpm

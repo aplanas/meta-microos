@@ -14,6 +14,7 @@ firmware(liquidio/lio_210sv_nic.bin) \
 firmware(liquidio/lio_23xx_nic.bin) \
 firmware(liquidio/lio_410nv_nic.bin) \
 kernel-firmware-liquidio"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

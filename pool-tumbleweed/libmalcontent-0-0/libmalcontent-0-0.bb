@@ -12,6 +12,7 @@ RPM_HASH = "2db5b9866b0c26b424a05f6b59f41ee84548010e0dc1ee2bc1f594a38cdbf23e179c
 RPROVIDES:${PN} += "libmalcontent-0-0 \
 libmalcontent-0-0(aarch-64) \
 libmalcontent-0.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

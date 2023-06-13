@@ -10,6 +10,7 @@ RPM_HASH = "74b09b61ee3d0b302cf293403b7b9e5ff9f8dc8c6404d95ab29d3b06d6b886047ddb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rtrlib-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -64,6 +64,7 @@ locale(hitori:vi) \
 locale(hitori:zh_CN) \
 locale(hitori:zh_HK) \
 locale(hitori:zh_TW)"
+
 RDEPENDS:${PN} += "hitori"
 
 inherit rpm

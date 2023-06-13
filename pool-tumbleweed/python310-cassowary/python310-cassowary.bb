@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-cassowary \
 python3.10dist(cassowary) \
 python310-cassowary \
 python3dist(cassowary)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

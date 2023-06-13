@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-nagiosplugin \
 python3.10dist(nagiosplugin) \
 python310-nagiosplugin \
 python3dist(nagiosplugin)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools"
 

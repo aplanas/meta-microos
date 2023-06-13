@@ -13,6 +13,7 @@ libtpms.so.0(LIBTPMS_0.5.1)(64bit) \
 libtpms.so.0(LIBTPMS_0.6.0)(64bit) \
 libtpms0 \
 libtpms0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -21,6 +21,7 @@ mvn(org.apache.xmlgraphics:batik-rasterizer:pom:) \
 osgi(org.apache.batik.rasterizer) \
 osgi(org.apache.batik.rasterizer-ext) \
 xmlgraphics-batik-rasterizer"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

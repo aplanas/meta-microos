@@ -9,6 +9,7 @@ RPM_HASH = "2266249262aa564c0ebf00c12b69fa6bd8783bbf176c3177ab20658092c3945d0b63
 
 RPROVIDES:${PN} += "mmc-utils \
 mmc-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

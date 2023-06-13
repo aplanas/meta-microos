@@ -9,6 +9,7 @@ RPM_HASH = "d0da05e432a063468119c2e89d0a1250c46fc2468ec39bd52acd5474f34e977d23d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-truncate-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

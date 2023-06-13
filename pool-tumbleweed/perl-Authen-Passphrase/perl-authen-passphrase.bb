@@ -42,6 +42,7 @@ perl(Authen::Passphrase::RejectAll) \
 perl(Authen::Passphrase::SaltedDigest) \
 perl(Authen::Passphrase::VMSPurdy) \
 perl-Authen-Passphrase"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Authen::DecHpwd) \
 perl(Crypt::DES) \

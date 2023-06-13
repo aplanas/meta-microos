@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(mpl-animators) \
 python39-mpl-animators \
 python39-mpl_animators \
 python3dist(mpl-animators)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-matplotlib \
 python39-numpy"

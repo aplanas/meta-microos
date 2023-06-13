@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pxpgfmark.sty) \
 texlive-pxpgfmark"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

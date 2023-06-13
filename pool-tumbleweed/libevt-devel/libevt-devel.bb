@@ -13,6 +13,7 @@ RPM_HASH = "5a740ac22556b0eeab081dcfdefc5e2533e6be0f3cabf679171b08effd57fb3711ee
 RPROVIDES:${PN} += "libevt-devel \
 libevt-devel(aarch-64) \
 pkgconfig(libevt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libevt1"

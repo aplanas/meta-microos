@@ -15,6 +15,7 @@ RPM_HASH = "4623d2605e7f9f39c3b2714dca2bdee8cc67c3e6c575a386719591af824b7f9a504f
 RPROVIDES:${PN} += "caja-gschemas \
 caja-gschemas(aarch-64) \
 caja-gsettings-schemas"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

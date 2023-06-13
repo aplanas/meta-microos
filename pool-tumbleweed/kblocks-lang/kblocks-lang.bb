@@ -68,6 +68,7 @@ locale(kblocks:ug) \
 locale(kblocks:uk) \
 locale(kblocks:zh_CN) \
 locale(kblocks:zh_TW)"
+
 RDEPENDS:${PN} += "kblocks"
 
 inherit rpm

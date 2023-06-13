@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(jupyterlab-widgets) \
 python39-jupyterlab-widgets \
 python39-jupyterlab_widgets \
 python3dist(jupyterlab-widgets)"
+
 RDEPENDS:${PN} += "jupyter-jupyterlab-widgets \
 python(abi)"
 

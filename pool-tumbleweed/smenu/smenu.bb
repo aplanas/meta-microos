@@ -11,6 +11,7 @@ RPM_HASH = "b7aa79ba67af8ca01f4d63d33d0005ec8cd3b7cba043cbeb9b05175d5b8df64db950
 
 RPROVIDES:${PN} += "smenu \
 smenu(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

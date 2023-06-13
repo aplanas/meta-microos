@@ -321,6 +321,7 @@ tex(plyfr_qfnkfj.enc) \
 tex(plyfr_vw64ij.enc) \
 tex(plyfr_ygz7pk.enc) \
 texlive-playfair"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

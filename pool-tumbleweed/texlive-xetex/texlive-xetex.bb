@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(qx-unicode.map) \
 tex(tex-text.map) \
 texlive-xetex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

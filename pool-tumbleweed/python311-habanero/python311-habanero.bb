@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(habanero) \
 python311-habanero \
 python3dist(habanero)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests \
 python311-tqdm"

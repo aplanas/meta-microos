@@ -52,6 +52,7 @@ RPM_HASH = "5a3ef0623df0ce35a8fbd3b3f71938cf6b7e805a9d777aecbe09bb102fdcb64708ee
 
 RPROVIDES:${PN} += "gphotofs \
 gphotofs(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

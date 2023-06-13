@@ -9,6 +9,7 @@ RPM_HASH = "1bdf283af55479dbf9aa122931386a1ba804e6a80895d5f1a5067e2fe9a98c2b3522
 
 RPROVIDES:${PN} += "kubectl-foreach \
 kubectl-foreach(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

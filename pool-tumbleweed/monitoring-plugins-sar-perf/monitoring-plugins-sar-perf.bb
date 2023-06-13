@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(monitoring-plugins-sar-perf) \
 monitoring-plugins-sar-perf \
 nagios-plugins-sar-perf"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/perl \

@@ -9,6 +9,7 @@ RPM_HASH = "a1584a6100c96ba5adb27451feea9d6402ce4d9466a14d4f61ab60a9709d08163672
 
 RPROVIDES:${PN} += "nm-tray \
 nm-tray(aarch-64)"
+
 RDEPENDS:${PN} += "NetworkManager \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

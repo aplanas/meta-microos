@@ -12,6 +12,7 @@ RPM_HASH = "09176b45ab4c256ef1a513105a8fd64e34092555ec27e9ed0919422cb7db433cc82a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-rst"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/texlua \
 coreutils \

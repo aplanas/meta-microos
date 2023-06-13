@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-lsp-jsonrpc) \
 python311-python-lsp-jsonrpc \
 python3dist(python-lsp-jsonrpc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-ujson"
 

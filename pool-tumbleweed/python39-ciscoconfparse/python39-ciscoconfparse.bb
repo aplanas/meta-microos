@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ciscoconfparse) \
 python39-ciscoconfparse \
 python3dist(ciscoconfparse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-dnspython \
 python39-loguru \

@@ -9,6 +9,7 @@ RPM_HASH = "749e4820ae02f76c1bdb749c7d4a0bdb9eea820eda0a2273ac9562cd81fc816d9810
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "polkit-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ golang(github.com/sgreben/jp/pkg/plot) \
 golang(github.com/sgreben/jp/pkg/terminal) \
 jp \
 jp(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

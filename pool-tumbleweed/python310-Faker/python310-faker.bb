@@ -15,6 +15,7 @@ python3-fake-factory \
 python3.10dist(faker) \
 python310-Faker \
 python3dist(faker)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

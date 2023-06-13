@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(json-tricks) \
 python39-json_tricks \
 python3dist(json-tricks)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

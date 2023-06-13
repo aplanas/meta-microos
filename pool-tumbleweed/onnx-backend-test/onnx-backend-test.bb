@@ -9,6 +9,7 @@ RPM_HASH = "d5458e364739bcb637dc9ce0fbd6e7f2c0660836d42905325e9a89c67aba999ae199
 
 RPROVIDES:${PN} += "onnx-backend-test \
 onnx-backend-test(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-bind \
 nagios-plugins-bind"
+
 RDEPENDS:${PN} += "/bin/sh \
 bind-utils \
 coreutils \

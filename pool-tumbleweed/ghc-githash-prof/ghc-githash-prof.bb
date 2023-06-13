@@ -10,6 +10,7 @@ RPM_HASH = "3f3f9bd62210e9627ffc1c01f9d4ba3f3edd627269ff7058a44be2e7dae059d99696
 RPROVIDES:${PN} += "ghc-githash-prof \
 ghc-githash-prof(aarch-64) \
 ghc-prof(githash-0.1.6.3-FrkvdbOWDB4772dnMETpxS)"
+
 RDEPENDS:${PN} += "ghc-githash-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(kajiki) \
 python311-Kajiki \
 python311-Kajiki(aarch-64) \
 python3dist(kajiki)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

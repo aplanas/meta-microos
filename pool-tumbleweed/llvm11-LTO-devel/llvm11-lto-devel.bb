@@ -11,6 +11,7 @@ RPM_HASH = "dc60f1a37eaf74956df1510fa78e3019ec257888dbe260a2cfa1c21fb6321c40e417
 RPROVIDES:${PN} += "libLTO.so \
 llvm11-LTO-devel \
 llvm11-LTO-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libLTO11 \
 llvm11-devel"

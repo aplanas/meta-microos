@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pyscreenshot \
 python3.10dist(pyscreenshot) \
 python310-pyscreenshot \
 python3dist(pyscreenshot)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-EasyProcess \
 python310-entrypoint2 \

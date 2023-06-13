@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-ima_evm \
 patterns-microos-ima_evm(aarch-64)"
+
 RDEPENDS:${PN} += "attr \
 dracut-ima \
 ima-evm-utils \

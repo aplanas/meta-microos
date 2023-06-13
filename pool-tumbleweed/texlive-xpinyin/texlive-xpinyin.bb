@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(xpinyin-database.def) \
 tex(xpinyin.sty) \
 texlive-xpinyin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

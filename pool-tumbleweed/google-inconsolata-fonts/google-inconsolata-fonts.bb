@@ -13,6 +13,7 @@ RPM_HASH = "74b39ec210a388a3959c596113882d2783b0be2aaa6db239d2a5449b1da279423fbc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-inconsolata-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

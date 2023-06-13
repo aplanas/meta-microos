@@ -9,6 +9,7 @@ RPM_HASH = "bdb370690842d5b61a5cf20e08426f5f48fad65564fd6cf57764fd4fff3ad1ecd18e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-skeycommand-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

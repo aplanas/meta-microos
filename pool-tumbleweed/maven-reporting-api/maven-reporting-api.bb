@@ -17,6 +17,7 @@ mvn(org.apache.maven.reporting:maven-reporting-api) \
 mvn(org.apache.maven.reporting:maven-reporting-api:pom:) \
 mvn(org.apache.maven.shared:maven-reporting-api) \
 mvn(org.apache.maven.shared:maven-reporting-api:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.doxia:doxia-sink-api)"

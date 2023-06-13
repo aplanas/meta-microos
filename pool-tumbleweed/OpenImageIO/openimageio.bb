@@ -14,6 +14,7 @@ RPM_HASH = "63dc5db5ea171058d1757cbd6d3f41cedcacc27357b4d940752697979d53a51eceef
 
 RPROVIDES:${PN} += "OpenImageIO \
 OpenImageIO(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libIlmThread-3_1.so.30()(64bit) \

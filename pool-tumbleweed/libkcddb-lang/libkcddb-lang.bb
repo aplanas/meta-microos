@@ -77,6 +77,7 @@ locale(libkcddb:uk) \
 locale(libkcddb:zh_CN) \
 locale(libkcddb:zh_HK) \
 locale(libkcddb:zh_TW)"
+
 RDEPENDS:${PN} += "libkcddb"
 
 inherit rpm

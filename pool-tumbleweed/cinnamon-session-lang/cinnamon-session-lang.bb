@@ -99,6 +99,7 @@ locale(cinnamon-session:wa) \
 locale(cinnamon-session:zh_CN) \
 locale(cinnamon-session:zh_HK) \
 locale(cinnamon-session:zh_TW)"
+
 RDEPENDS:${PN} += "cinnamon-session"
 
 inherit rpm

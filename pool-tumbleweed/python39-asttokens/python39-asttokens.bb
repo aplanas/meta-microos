@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(asttokens) \
 python39-asttokens \
 python3dist(asttokens)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six"
 

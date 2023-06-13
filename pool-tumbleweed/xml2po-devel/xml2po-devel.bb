@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig(xml2po) \
 xml2po-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 xml2po"
 

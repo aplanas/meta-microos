@@ -11,6 +11,7 @@ RPM_HASH = "5e6aaf9ec3f49dcf55f61a2d9681e0443d00a6a6e287a2a50796208c3fef42fae778
 
 RPROVIDES:${PN} += "tpm2.0-abrmd \
 tpm2.0-abrmd(aarch-64)"
+
 RDEPENDS:${PN} += "(tpm2.0-abrmd-selinux if selinux-policy-base) \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

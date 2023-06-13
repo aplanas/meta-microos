@@ -10,6 +10,7 @@ RPM_HASH = "aab87ef8c2dc9fb7a37ce86d6e85aa4d90b77040f4c0a1b405c9fa863828af2336c4
 RPROVIDES:${PN} += "ghc-devel(semialign-1.2.0.1-LDzKW6eKwIG6WFTA9nak5m) \
 ghc-semialign-devel \
 ghc-semialign-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

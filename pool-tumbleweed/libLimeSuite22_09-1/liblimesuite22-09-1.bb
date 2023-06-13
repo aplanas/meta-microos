@@ -11,6 +11,7 @@ RPM_HASH = "b55de91e33a2417212c82efb1973226fc2d62cf95d367c172ac26f8db856fcc83fd9
 RPROVIDES:${PN} += "libLimeSuite.so.22.09-1()(64bit) \
 libLimeSuite22_09-1 \
 libLimeSuite22_09-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

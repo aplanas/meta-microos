@@ -13,6 +13,7 @@ pattern-icon() \
 patterns-gnome-gnome_basis \
 patterns-gnome-gnome_basis(aarch-64) \
 patterns-openSUSE-gnome_basis"
+
 RDEPENDS:${PN} += "at-spi2-core \
 gdm \
 gnome-session \

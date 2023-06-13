@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-doc-ru \
 locale(kicad-doc:ru)"
+
 RDEPENDS:${PN} += "kicad-doc-en"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPM_HASH = "5123bb23f2dd9bb958bd32ac64786ff0760959a0985a37183b0e48ed9ca5069c9606
 RPROVIDES:${PN} += "pkgconfig(xcb-image) \
 xcb-util-image-devel \
 xcb-util-image-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcb-image0 \
 pkgconfig(xcb) \

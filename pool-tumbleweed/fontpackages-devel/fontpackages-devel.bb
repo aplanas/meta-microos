@@ -26,6 +26,7 @@ rpm_macro(reconfigure_fonts_posttrans) \
 rpm_macro(reconfigure_fonts_postun) \
 rpm_macro(reconfigure_fonts_prereq) \
 rpm_macro(reconfigure_fonts_scriptlets)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

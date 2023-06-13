@@ -34,6 +34,7 @@ rpm_macro(php_peardir) \
 rpm_macro(php_pearxmldir) \
 rpm_macro(php_version) \
 rpm_macro(php_zend_api)"
+
 RDEPENDS:${PN} += "/bin/sh \
 glibc-devel \
 php \

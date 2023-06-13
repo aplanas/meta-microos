@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-fontMath \
 python3.10dist(fontmath) \
 python310-fontMath \
 python3dist(fontmath)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-FontTools"
 

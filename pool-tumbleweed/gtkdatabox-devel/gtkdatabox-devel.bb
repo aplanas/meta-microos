@@ -11,6 +11,7 @@ RPM_HASH = "eb01822b3aab3369abc0ea3e10d3b001b046eb044c94c31bd2ab8fec66302f8de078
 RPROVIDES:${PN} += "gtkdatabox-devel \
 gtkdatabox-devel(aarch-64) \
 pkgconfig(gtkdatabox)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtkdatabox1 \
 pkgconfig(cairo) \

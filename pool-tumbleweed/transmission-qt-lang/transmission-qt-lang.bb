@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "transmission-qt-lang \
 transmission-qt-lang-all"
+
 RDEPENDS:${PN} += "transmission-qt"
 
 inherit rpm

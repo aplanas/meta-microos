@@ -17,6 +17,7 @@ RPM_HASH = "4d4183f7ba14da11ce30e1d2e0b68d4747f46e2c92e68751b4f1e13688350a05fbbc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "steamtricks"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 coreutils \
 findutils \

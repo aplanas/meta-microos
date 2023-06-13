@@ -79,6 +79,7 @@ locale(kaddressbook:uk) \
 locale(kaddressbook:vi) \
 locale(kaddressbook:zh_CN) \
 locale(kaddressbook:zh_TW)"
+
 RDEPENDS:${PN} += "kaddressbook"
 
 inherit rpm

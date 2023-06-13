@@ -10,6 +10,7 @@ RPM_HASH = "f4a46e96e6462b108c3fc6d95801503cddce621dd910619d65a9943432e642788af7
 RPROVIDES:${PN} += "libKReport3-4 \
 libKReport3-4(aarch-64) \
 libKReport3.so.4()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kreport \
 ld-linux-aarch64.so.1()(64bit) \

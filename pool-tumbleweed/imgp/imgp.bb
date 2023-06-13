@@ -10,6 +10,7 @@ RPM_HASH = "9abd5efbd361cfe69676831d5adb16a17b446e5a1895dc5e7eb36dd1b85eabffa84e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "imgp"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python3-Pillow \
 python3-base"

@@ -75,6 +75,7 @@ firmware(raspberrypi/bootloader/stable/vl805-000138a1.bin) \
 firmware(raspberrypi/bootloader/stable/vl805-000138c0.bin) \
 raspberrypi-eeprom-firmware \
 raspberrypi-firmware-eeprom"
+
 RDEPENDS:${PN} += "raspberrypi-eeprom"
 
 inherit rpm

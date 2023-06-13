@@ -11,6 +11,7 @@ RPM_HASH = "cdabf9eaa754a203233c383feaf3580a966416505f17c70732dc4b62ae27565f5ce5
 RPROVIDES:${PN} += "libquicktime.so.0()(64bit) \
 libquicktime0 \
 libquicktime0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

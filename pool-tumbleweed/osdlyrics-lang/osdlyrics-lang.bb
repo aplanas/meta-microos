@@ -24,6 +24,7 @@ locale(osdlyrics:zh_HK) \
 locale(osdlyrics:zh_TW) \
 osdlyrics-lang \
 osdlyrics-lang-all"
+
 RDEPENDS:${PN} += "osdlyrics"
 
 inherit rpm

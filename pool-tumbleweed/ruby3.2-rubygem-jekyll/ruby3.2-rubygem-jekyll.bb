@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:jekyll) \
 rubygem(ruby:3.2.0:jekyll:4) \
 rubygem(ruby:3.2.0:jekyll:4.3) \
 rubygem(ruby:3.2.0:jekyll:4.3.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

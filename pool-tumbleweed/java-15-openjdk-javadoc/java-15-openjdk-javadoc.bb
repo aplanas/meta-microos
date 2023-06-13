@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "java-15-javadoc \
 java-15-openjdk-javadoc \
 java-javadoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 jpackage-utils \
 update-alternatives"

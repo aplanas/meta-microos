@@ -75,6 +75,7 @@ locale(blinken:uk) \
 locale(blinken:vi) \
 locale(blinken:zh_CN) \
 locale(blinken:zh_TW)"
+
 RDEPENDS:${PN} += "blinken"
 
 inherit rpm

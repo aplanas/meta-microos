@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-gmconfig \
 python3.10dist(gmconfig) \
 python3dist(gmconfig)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

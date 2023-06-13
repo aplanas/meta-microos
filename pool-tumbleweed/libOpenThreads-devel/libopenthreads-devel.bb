@@ -17,6 +17,7 @@ RPM_HASH = "4f9e0528c18f4df03a45e27e16839a3fbf0365d528173952aa5db9c5dc2d7afe0095
 RPROVIDES:${PN} += "libOpenThreads-devel \
 libOpenThreads-devel(aarch-64) \
 pkgconfig(openthreads)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOpenThreads21"
 

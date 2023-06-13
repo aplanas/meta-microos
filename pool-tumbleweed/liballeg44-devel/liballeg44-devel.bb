@@ -14,6 +14,7 @@ liballeg-devel \
 liballeg44-devel \
 liballeg44-devel(aarch-64) \
 pkgconfig(allegro)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 allegro44 \

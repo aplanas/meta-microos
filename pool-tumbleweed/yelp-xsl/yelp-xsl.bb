@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig(yelp-xsl) \
 yelp-xsl"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

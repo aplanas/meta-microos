@@ -15,6 +15,7 @@ RPM_HASH = "bb07646ea9b5a8a93258c0ed5788acfd8fd6823b2b636bb7bb3f45b3378f8d43a3c0
 RPROVIDES:${PN} += "lttoolbox-devel \
 lttoolbox-devel(aarch-64) \
 pkgconfig(lttoolbox)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblttoolbox3"
 

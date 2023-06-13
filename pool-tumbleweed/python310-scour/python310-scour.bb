@@ -16,6 +16,7 @@ python3.10dist(scour) \
 python310-scour \
 python3dist(scour) \
 scour"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

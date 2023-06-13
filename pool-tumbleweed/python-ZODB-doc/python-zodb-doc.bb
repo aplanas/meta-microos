@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-ZODB-doc \
 python310-ZODB-doc \
 python311-ZODB-doc \
 python39-ZODB-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

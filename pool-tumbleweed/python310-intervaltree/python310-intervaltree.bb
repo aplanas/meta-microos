@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-intervaltree \
 python3.10dist(intervaltree) \
 python310-intervaltree \
 python3dist(intervaltree)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-sortedcontainers"
 

@@ -73,6 +73,7 @@ locale(folks:vi) \
 locale(folks:zh_CN) \
 locale(folks:zh_HK) \
 locale(folks:zh_TW)"
+
 RDEPENDS:${PN} += "folks"
 
 inherit rpm

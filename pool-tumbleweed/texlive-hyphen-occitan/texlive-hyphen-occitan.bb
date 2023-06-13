@@ -18,6 +18,7 @@ tex(hyph-oc.tex) \
 tex(hyph-quote-oc.tex) \
 tex(loadhyph-oc.tex) \
 texlive-hyphen-occitan"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

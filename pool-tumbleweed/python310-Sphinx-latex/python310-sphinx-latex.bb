@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Sphinx-latex \
 python310-Sphinx-latex"
+
 RDEPENDS:${PN} += "python310-Sphinx \
 tex(8r.enc) \
 tex(alltt.sty) \

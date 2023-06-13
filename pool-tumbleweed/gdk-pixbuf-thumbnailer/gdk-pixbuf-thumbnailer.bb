@@ -13,6 +13,7 @@ RPM_HASH = "e18bdf371f87042e832cdb537a4331b68f53a81914c20a77c42e91d1763fda70e4d3
 
 RPROVIDES:${PN} += "gdk-pixbuf-thumbnailer \
 gdk-pixbuf-thumbnailer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "c1e4fed4b02b9ed17fdb15cf03b6b452a3a32fa56ec2e7b904a50924d351ca7d3879
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-trans-stats"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

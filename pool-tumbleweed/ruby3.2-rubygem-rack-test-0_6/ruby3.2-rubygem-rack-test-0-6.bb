@@ -17,6 +17,7 @@ rubygem(ruby:3.2.0:rack-test) \
 rubygem(ruby:3.2.0:rack-test:0) \
 rubygem(ruby:3.2.0:rack-test:0.6) \
 rubygem(ruby:3.2.0:rack-test:0.6.3)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:rack)"
 

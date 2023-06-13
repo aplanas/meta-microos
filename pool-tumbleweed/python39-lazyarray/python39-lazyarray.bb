@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(lazyarray) \
 python39-lazyarray \
 python3dist(lazyarray)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy"
 

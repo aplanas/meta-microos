@@ -9,6 +9,7 @@ RPM_HASH = "f46b66782a3fefb3e3e1e73f4a660bdc5a9cc157a1626c6eaa3e430dc7b89ce35cad
 
 RPROVIDES:${PN} += "gcc13-fortran \
 gcc13-fortran(aarch-64)"
+
 RDEPENDS:${PN} += "gcc13 \
 libc.so.6(GLIBC_2.36)(64bit) \
 libgfortran5 \

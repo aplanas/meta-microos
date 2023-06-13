@@ -96,6 +96,7 @@ perl(Test::LectroTest::TestRunner) \
 perl(Test::LectroTest::TestRunner::results) \
 perl(Test::LectroTest::TestRunner::testcontroller) \
 perl-Test-LectroTest"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

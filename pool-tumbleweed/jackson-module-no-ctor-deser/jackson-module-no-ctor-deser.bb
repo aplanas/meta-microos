@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "jackson-module-no-ctor-deser \
 mvn(com.fasterxml.jackson.module:jackson-module-no-ctor-deser) \
 mvn(com.fasterxml.jackson.module:jackson-module-no-ctor-deser:pom:) \
 osgi(com.fasterxml.jackson.module.jackson-module-no-ctor-deser)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-core) \

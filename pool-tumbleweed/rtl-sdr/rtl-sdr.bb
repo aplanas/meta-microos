@@ -10,6 +10,7 @@ RPM_HASH = "e643d9ad08f278bf7fdc5dbcc64ccf7e9fbbf2bc8ac3250d14b5a647535bca39e22d
 
 RPROVIDES:${PN} += "rtl-sdr \
 rtl-sdr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

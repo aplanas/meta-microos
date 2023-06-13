@@ -32,6 +32,7 @@ libnss_mdns_minimal.so.2()(64bit) \
 libnss_mdns_minimal.so.2(NSSMDNS_0)(64bit) \
 nss-mdns \
 nss-mdns(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 avahi \

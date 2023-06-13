@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(widgetsnbextension) \
 python311-jupyter_widgetsnbextension \
 python311-widgetsnbextension \
 python3dist(widgetsnbextension)"
+
 RDEPENDS:${PN} += "jupyter-widgetsnbextension \
 python(abi)"
 

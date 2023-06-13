@@ -43,6 +43,7 @@ tex(prtn_bjsotj.enc) \
 tex(prtn_nt5tbh.enc) \
 tex(prtn_opucty.enc) \
 texlive-poiretone"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

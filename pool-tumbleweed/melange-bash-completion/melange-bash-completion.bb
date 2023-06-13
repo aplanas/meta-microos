@@ -9,6 +9,7 @@ RPM_HASH = "59058e98633915082f367793913e2389df5b2522b87e30ed3776cac30252586b49a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "melange-bash-completion"
+
 RDEPENDS:${PN} += "melange"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-clustershell \
 python3.10dist(clustershell) \
 python3dist(clustershell)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PyYAML \

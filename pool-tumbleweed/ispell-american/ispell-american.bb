@@ -17,6 +17,7 @@ ispell-american(aarch-64) \
 ispell_dictionary \
 ispell_english_dictionary \
 locale(ispell:en)"
+
 RDEPENDS:${PN} += "/bin/sh \
 bash \
 fileutils"

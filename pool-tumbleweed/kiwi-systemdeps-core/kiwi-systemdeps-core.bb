@@ -16,6 +16,7 @@ kiwi-packagemanager:yum \
 kiwi-packagemanager:zypper \
 kiwi-systemdeps-core \
 kiwi-systemdeps-core(aarch-64)"
+
 RDEPENDS:${PN} += "cpio \
 dnf \
 kiwi-tools \

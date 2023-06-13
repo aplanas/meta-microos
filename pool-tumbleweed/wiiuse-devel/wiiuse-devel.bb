@@ -10,6 +10,7 @@ RPM_HASH = "93037d5436eced28e2d3957323edf3e78704b6239525c4771efc740046aa4056458c
 
 RPROVIDES:${PN} += "wiiuse-devel \
 wiiuse-devel(aarch-64)"
+
 RDEPENDS:${PN} += "bluez-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

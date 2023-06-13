@@ -17,6 +17,7 @@ perl(Mojo::RabbitMQ::Client::Method) \
 perl(Mojo::RabbitMQ::Client::Method::Publish) \
 perl(Mojo::RabbitMQ::Client::Publisher) \
 perl-Mojo-RabbitMQ-Client"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::ShareDir) \
 perl(List::Util) \

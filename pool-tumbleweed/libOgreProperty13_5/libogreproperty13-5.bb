@@ -13,6 +13,7 @@ RPM_HASH = "b240c0bbcf332c498d8aff89e73f3ce41803e2bc7f273abd640195024b447846ee37
 RPROVIDES:${PN} += "libOgreProperty.so.13.5()(64bit) \
 libOgreProperty13_5 \
 libOgreProperty13_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

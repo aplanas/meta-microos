@@ -13,6 +13,7 @@ RPM_HASH = "9dfe864bf0156fc28e0f46b1bb8d9f9d208c3263071c3280755709771947a2be8f1b
 
 RPROVIDES:${PN} += "pcsc-acr38 \
 pcsc-acr38(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

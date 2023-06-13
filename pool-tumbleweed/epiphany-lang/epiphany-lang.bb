@@ -95,6 +95,7 @@ locale(epiphany:wa) \
 locale(epiphany:zh_CN) \
 locale(epiphany:zh_HK) \
 locale(epiphany:zh_TW)"
+
 RDEPENDS:${PN} += "epiphany"
 
 inherit rpm

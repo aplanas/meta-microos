@@ -9,6 +9,7 @@ RPM_HASH = "bfd9e8a1c975425e8944da7ea8991a2ddc8c40fadeae7aa4cae01128c33cdb9923e8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fouridx-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

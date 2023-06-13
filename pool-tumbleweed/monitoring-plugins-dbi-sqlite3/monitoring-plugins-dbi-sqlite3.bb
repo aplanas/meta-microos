@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "monitoring-plugins-dbi-sqlite3 \
 monitoring-plugins-dbi-sqlite3(aarch-64) \
 monitoring-plugins-dbi_backend \
 nagios-plugins-dbi-sqlite3"
+
 RDEPENDS:${PN} += "libdbi-drivers-dbd-sqlite3 \
 monitoring-plugins-dbi"
 

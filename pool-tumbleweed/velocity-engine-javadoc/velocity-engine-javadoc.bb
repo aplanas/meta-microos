@@ -30,6 +30,7 @@ RPM_HASH = "b30c53e36ae93a9128a7df4448237ad361f9da224d03749d6a1df590b18b9237fb68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "velocity-engine-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

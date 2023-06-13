@@ -16,6 +16,7 @@ python3.10dist(lark) \
 python310-lark \
 python310-lark-parser \
 python3dist(lark)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

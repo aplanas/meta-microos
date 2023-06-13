@@ -16,6 +16,7 @@ RPM_HASH = "08f19719dc5f2d8948fefc89ad32c9ec69384fa51192e4820b4758075d9e85f17f14
 RPROVIDES:${PN} += "libt3widget-devel \
 libt3widget-devel(aarch-64) \
 pkgconfig(libt3widget)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libc.so.6(GLIBC_2.32)(64bit) \
 libgcc_s.so.1()(64bit) \

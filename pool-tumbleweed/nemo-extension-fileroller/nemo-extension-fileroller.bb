@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libnemo-fileroller.so()(64bit) \
 nemo-extension-fileroller \
 nemo-extension-fileroller(aarch-64) \
 nemo-fileroller"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 file-roller \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "bbef3840ab535486c693dc3bcbfb569153761eaacc2ad8dc3914789c9bbd132c2395
 RPROVIDES:${PN} += "uuid-runtime \
 uuidd \
 uuidd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(uuidd) \
 ld-linux-aarch64.so.1()(64bit) \

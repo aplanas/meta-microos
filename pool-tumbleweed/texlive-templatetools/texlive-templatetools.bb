@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(templatetools.sty) \
 texlive-templatetools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "7b7db1acd72709703581b01f9e95ac07a5bc359fc66311db4fe31ad6fe9241d1d7a4
 
 RPROVIDES:${PN} += "qt6-quickdialogs2-private-devel \
 qt6-quickdialogs2-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6QuickDialogs2)"
 
 inherit rpm

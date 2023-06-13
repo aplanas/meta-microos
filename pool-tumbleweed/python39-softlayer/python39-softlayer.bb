@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.9dist(softlayer) \
 python39-softlayer \
 python39-softlayer(aarch-64) \
 python3dist(softlayer)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

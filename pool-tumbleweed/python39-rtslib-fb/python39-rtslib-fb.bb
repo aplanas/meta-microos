@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(rtslib-fb) \
 python39-rtslib \
 python39-rtslib-fb \
 python3dist(rtslib-fb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

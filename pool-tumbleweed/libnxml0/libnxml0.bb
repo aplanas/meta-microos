@@ -12,6 +12,7 @@ RPM_HASH = "fed53487984e66d6122a5d9d4fddfaa8fd7f1b59a2eb798a2d793f414eab30608585
 RPROVIDES:${PN} += "libnxml.so.0()(64bit) \
 libnxml0 \
 libnxml0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

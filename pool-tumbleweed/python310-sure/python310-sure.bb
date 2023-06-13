@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-sure \
 python3.10dist(sure) \
 python310-sure \
 python3dist(sure)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

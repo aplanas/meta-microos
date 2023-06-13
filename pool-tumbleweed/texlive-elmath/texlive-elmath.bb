@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(elmath.sty) \
 texlive-elmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

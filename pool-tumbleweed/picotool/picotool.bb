@@ -9,6 +9,7 @@ RPM_HASH = "47e0b3bcedb663af310cb1a65f8a88f98fa4109501a247400f89670e8a521c4d8c63
 
 RPROVIDES:${PN} += "picotool \
 picotool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

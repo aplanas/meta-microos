@@ -10,6 +10,7 @@ RPM_HASH = "db412d283b2f36fd28bc57144f74add3bff9d04e1f7c3dfe919157b63db7681e5249
 RPROVIDES:${PN} += "libmdbsql.so.3()(64bit) \
 libmdbsql3 \
 libmdbsql3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

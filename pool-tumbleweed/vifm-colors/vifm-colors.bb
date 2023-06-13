@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(vifm-colors) \
 vifm-colors"
+
 RDEPENDS:${PN} += "vifm"
 
 inherit rpm

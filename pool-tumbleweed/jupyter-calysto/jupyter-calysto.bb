@@ -11,6 +11,7 @@ RPM_HASH = "69d073d9fda2b3dd3fa5fa192d6fbf51ffd8cce77b102822db1281732de65d633ec7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-calysto"
+
 RDEPENDS:${PN} += "jupyter-ipython \
 jupyter-ipywidgets \
 jupyter-metakernel \

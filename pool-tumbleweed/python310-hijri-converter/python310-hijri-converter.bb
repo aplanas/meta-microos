@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-hijri-converter \
 python3.10dist(hijri-converter) \
 python310-hijri-converter \
 python3dist(hijri-converter)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

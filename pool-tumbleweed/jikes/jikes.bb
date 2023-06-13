@@ -35,6 +35,7 @@ RPM_HASH = "89441f87b05aaeca6baa87a344999e0a40ab50174f24808be681a6e05ab9f19aa85e
 
 RPROVIDES:${PN} += "jikes \
 jikes(aarch-64)"
+
 RDEPENDS:${PN} += "jre \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

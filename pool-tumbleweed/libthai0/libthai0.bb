@@ -17,6 +17,7 @@ libthai.so.0(LIBTHAI_0.1.19)(64bit) \
 libthai.so.0(LIBTHAI_0.1.25)(64bit) \
 libthai0 \
 libthai0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

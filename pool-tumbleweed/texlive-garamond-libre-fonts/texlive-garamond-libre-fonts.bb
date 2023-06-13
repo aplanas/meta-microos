@@ -142,6 +142,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(garamondlibre) \
 texlive-garamond-libre-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

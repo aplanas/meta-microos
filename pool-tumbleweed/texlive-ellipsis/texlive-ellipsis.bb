@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ellipsis.sty) \
 texlive-ellipsis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

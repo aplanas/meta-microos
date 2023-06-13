@@ -13,6 +13,7 @@ RPM_HASH = "9f997a6a36dacf43fbe505bf05274ec8e45c91581055334735703aa75cd80f601085
 
 RPROVIDES:${PN} += "vtk-m-openmpi4-devel \
 vtk-m-openmpi4-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake \
 libvtk-m-openmpi4-2_0 \
 openmpi4-devel"

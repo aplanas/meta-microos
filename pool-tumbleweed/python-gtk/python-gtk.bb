@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "pygtk2 \
 python-gtk \
 python-gtk(aarch-64) \
 python2-gtk"
+
 RDEPENDS:${PN} += "atk \
 glib2 \
 gtk2 \

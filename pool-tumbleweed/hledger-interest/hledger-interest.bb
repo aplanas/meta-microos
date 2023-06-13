@@ -60,6 +60,7 @@ RPM_HASH = "4702e42c9accd00a03274161e7fd4fdef27557e09e7e0fcf64891cd5c8c7b97fdf2b
 
 RPROVIDES:${PN} += "hledger-interest \
 hledger-interest(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \

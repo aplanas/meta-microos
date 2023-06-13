@@ -12,6 +12,7 @@ RPM_HASH = "021714f9fcae0f78eb9fe55900c6d2f5cb06495fa609016e97c180ffe4f13edfb170
 
 RPROVIDES:${PN} += "mpibash-examples \
 mpibash-examples(aarch-64)"
+
 RDEPENDS:${PN} += "mpibash"
 
 inherit rpm

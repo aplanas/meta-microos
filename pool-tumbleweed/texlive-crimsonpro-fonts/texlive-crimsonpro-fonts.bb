@@ -140,6 +140,7 @@ font(crimsonprolight) \
 font(crimsonpromedium) \
 font(crimsonprosemibold) \
 texlive-crimsonpro-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

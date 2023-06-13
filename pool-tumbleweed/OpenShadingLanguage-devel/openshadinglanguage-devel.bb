@@ -14,6 +14,7 @@ cmake(OSL) \
 pkgconfig(oslcomp) \
 pkgconfig(oslexec) \
 pkgconfig(oslquery)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 OpenShadingLanguage \
 liboslcomp1_12 \

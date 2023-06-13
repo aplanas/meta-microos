@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-cogapp \
 python3.10dist(cogapp) \
 python310-cogapp \
 python3dist(cogapp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

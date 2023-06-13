@@ -10,6 +10,7 @@ RPM_HASH = "2e7a0a27ee0638b96ccc6d3226dddeccc447908a18314c37b30ba789ee0e9868125b
 RPROVIDES:${PN} += "ghc-adjunctions-prof \
 ghc-adjunctions-prof(aarch-64) \
 ghc-prof(adjunctions-4.4.2-7RBwcclil4HKBSm6i086HA)"
+
 RDEPENDS:${PN} += "ghc-adjunctions-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

@@ -42,6 +42,7 @@ locale(xfdashboard:tr) \
 locale(xfdashboard:zh_CN) \
 xfdashboard-lang \
 xfdashboard-lang-all"
+
 RDEPENDS:${PN} += "xfdashboard"
 
 inherit rpm

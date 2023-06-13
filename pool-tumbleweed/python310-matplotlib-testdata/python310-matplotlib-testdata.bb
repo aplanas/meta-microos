@@ -11,6 +11,7 @@ RPM_HASH = "d85b64acbb056563209b81106f690d67dc7e3c303884a68c964bf1f6361ddc72a4a2
 RPROVIDES:${PN} += "python3-matplotlib-testdata \
 python310-matplotlib-testdata \
 python310-matplotlib-testdata(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib"
 

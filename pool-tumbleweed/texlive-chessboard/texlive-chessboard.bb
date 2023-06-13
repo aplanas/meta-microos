@@ -20,6 +20,7 @@ tex(chessboard-keys-pgf.sty) \
 tex(chessboard-pgf.sty) \
 tex(chessboard.sty) \
 texlive-chessboard"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python-six-doc \
 python310-six-doc \
 python311-six-doc \
 python39-six-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

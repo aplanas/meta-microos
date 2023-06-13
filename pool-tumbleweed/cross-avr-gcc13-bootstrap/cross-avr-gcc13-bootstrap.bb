@@ -16,6 +16,7 @@ RPM_HASH = "7d970bfb161e5699b49c7ac3d1e4c2c0a05a8f34166cf7fdb242e837cac7775ecbdc
 
 RPROVIDES:${PN} += "cross-avr-gcc13-bootstrap \
 cross-avr-gcc13-bootstrap(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-avr-binutils \
 update-alternatives"

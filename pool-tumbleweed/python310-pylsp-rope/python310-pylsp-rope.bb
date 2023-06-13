@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pylsp-rope \
 python3.10dist(pylsp-rope) \
 python310-pylsp-rope \
 python3dist(pylsp-rope)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-lsp-server \
 python310-rope"

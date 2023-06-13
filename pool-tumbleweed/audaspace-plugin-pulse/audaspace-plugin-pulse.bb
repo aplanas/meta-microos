@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "audaspace-deviceplugin \
 audaspace-plugin-pulse \
 audaspace-plugin-pulse(aarch-64) \
 libaudpulseaudio.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaudaspace.so.1.4()(64bit) \

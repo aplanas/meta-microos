@@ -13,6 +13,7 @@ RPM_HASH = "8a96a1d56df3e546d456fc789c6e9ef402d8619fec76532940b9f03cd067178e166d
 RPROVIDES:${PN} += "monitoring-plugins-flexlm \
 monitoring-plugins-flexlm(aarch-64) \
 nagios-plugins-flexlm"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 monitoring-plugins-common \
 perl"

@@ -10,6 +10,7 @@ RPM_HASH = "019245f67f35d103f4bbd218425e234d31f699d8cc83a85a430e0e11cbdc70b6cdd5
 RPROVIDES:${PN} += "cmake(eclipse-paho-mqtt-c) \
 libpaho-mqtt-devel \
 libpaho-mqtt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "c80fe7cf86a9c33d928d637844ab468f4696078a19e3174cbed19333cc1032c165a5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xetex-pstricks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

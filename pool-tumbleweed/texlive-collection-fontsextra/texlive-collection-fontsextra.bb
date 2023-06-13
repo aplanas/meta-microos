@@ -9,6 +9,7 @@ RPM_HASH = "92694cb5ea37c91886f76c1b0a6a930e4dddb6ca0984fbd641959ba039af7143f578
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-fontsextra"
+
 RDEPENDS:${PN} += "texlive-aboensis \
 texlive-academicons \
 texlive-accanthis \

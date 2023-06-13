@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "languagetool-tools \
 mvn(org.languagetool:languagetool-tools) \
 mvn(org.languagetool:languagetool-tools:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-cli:commons-cli) \

@@ -10,6 +10,7 @@ RPM_HASH = "8c79e92f7522092346997ebac36fadd130044374597892753453e6f9310de9c489da
 
 RPROVIDES:${PN} += "smproxy \
 smproxy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \

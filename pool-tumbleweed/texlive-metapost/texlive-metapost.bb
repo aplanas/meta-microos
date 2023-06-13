@@ -53,6 +53,7 @@ tex(troff-updmap.map) \
 tex(troff.map) \
 tex(zpzdr-reversed.tfm) \
 texlive-metapost"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

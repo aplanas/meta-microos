@@ -9,6 +9,7 @@ RPM_HASH = "4772b8904debb08ef68fa49c39658305fe16269db244475878cda9605571f9aa05c7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rclone-bash-completion"
+
 RDEPENDS:${PN} += "rclone"
 
 inherit rpm

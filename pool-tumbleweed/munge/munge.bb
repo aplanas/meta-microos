@@ -19,6 +19,7 @@ group(munge) \
 munge \
 munge(aarch-64) \
 user(munge)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

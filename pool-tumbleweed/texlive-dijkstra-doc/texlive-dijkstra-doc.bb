@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-dijkstra-doc:fr) \
 texlive-dijkstra-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

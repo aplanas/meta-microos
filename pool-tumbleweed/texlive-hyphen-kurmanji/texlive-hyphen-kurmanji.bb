@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(hyph-kmr.ec.tex) \
 tex(hyph-kmr.tex) \
 tex(loadhyph-kmr.tex) \
 texlive-hyphen-kurmanji"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

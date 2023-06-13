@@ -12,6 +12,7 @@ RPM_HASH = "dca58f7e3d70f7885a0c45fbe9e3c60fb89ac9b38399039b1088f0fdaf66e8fbf52e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbconvert"
+
 RDEPENDS:${PN} += "jupyter-ipykernel \
 jupyter-jupyter-core \
 python3-nbconvert"

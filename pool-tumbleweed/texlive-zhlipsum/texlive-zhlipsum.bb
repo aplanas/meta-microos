@@ -15,6 +15,7 @@ tex(zhlipsum-gbk.def) \
 tex(zhlipsum-utf8.def) \
 tex(zhlipsum.sty) \
 texlive-zhlipsum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

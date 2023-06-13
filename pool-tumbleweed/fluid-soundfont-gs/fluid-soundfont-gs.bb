@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(fluid-soundfont-gs) \
 fluid-soundfont-gs"
+
 RDEPENDS:${PN} += "fluid-soundfont-gm"
 
 inherit rpm

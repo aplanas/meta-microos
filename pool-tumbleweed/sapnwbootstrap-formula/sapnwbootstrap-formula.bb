@@ -15,6 +15,7 @@ RPM_HASH = "09104189247a43b289d03f16a0c2a57f7ff0a06ea9b42eb5b0224351050169e461ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sapnwbootstrap-formula"
+
 RDEPENDS:${PN} += "habootstrap-formula \
 salt-formulas-configuration \
 salt-shaptools"

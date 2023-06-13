@@ -9,6 +9,7 @@ RPM_HASH = "bf53adafe991592bd54af96ded30314227369f377ae95f9b935adf354cf59bfd46f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epigraph-keys-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

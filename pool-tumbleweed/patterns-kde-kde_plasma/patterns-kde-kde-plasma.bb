@@ -17,6 +17,7 @@ patterns-kde-kde_plasma \
 patterns-openSUSE-kde4_basis \
 patterns-openSUSE-kde_plasma \
 patterns-openSUSE-plasma5_basis"
+
 RDEPENDS:${PN} += "breeze5-cursors \
 breeze5-decoration \
 breeze5-icons \

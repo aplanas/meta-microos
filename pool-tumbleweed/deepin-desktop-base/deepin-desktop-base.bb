@@ -12,6 +12,7 @@ RPM_HASH = "9404a1ce74fece631679cb838d21ff22a554fb50a033ace0f5cfdfe0dfebbf0df4b3
 RPROVIDES:${PN} += "config(deepin-desktop-base) \
 deepin-desktop-base \
 deepin-desktop-base(aarch-64)"
+
 RDEPENDS:${PN} += "distribution-logos"
 
 inherit rpm

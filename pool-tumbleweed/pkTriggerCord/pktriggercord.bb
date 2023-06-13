@@ -9,6 +9,7 @@ RPM_HASH = "d00504e19115e81a014e93071f4f5905aecacc9293e26058600771681377e3049d11
 
 RPROVIDES:${PN} += "pkTriggerCord \
 pkTriggerCord(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

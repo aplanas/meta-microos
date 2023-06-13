@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libxslt-devel \
 libxslt-devel(aarch-64) \
 pkgconfig(libexslt) \
 pkgconfig(libxslt)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

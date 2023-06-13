@@ -9,6 +9,7 @@ RPM_HASH = "8e7dff787b75f9fa67ff64b72de44f176f31b35ec92b3e51a64af9a2657047fafbc3
 
 RPROVIDES:${PN} += "ddnet-server \
 ddnet-server(aarch-64)"
+
 RDEPENDS:${PN} += "ddnet(aarch-64) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

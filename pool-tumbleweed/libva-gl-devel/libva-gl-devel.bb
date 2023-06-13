@@ -14,6 +14,7 @@ RPM_HASH = "9e9974b4c56fa3373d65bd269afe06dea246830e6d2aad4a72dd27ff354bb3cdb4a1
 RPROVIDES:${PN} += "libva-gl-devel \
 libva-gl-devel(aarch-64) \
 pkgconfig(libva-glx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libva-glx2 \
 pkgconfig(gl) \

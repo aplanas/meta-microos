@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-hybridkubernetes) \
 python39-azure-mgmt-hybridkubernetes \
 python3dist(azure-mgmt-hybridkubernetes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-core \

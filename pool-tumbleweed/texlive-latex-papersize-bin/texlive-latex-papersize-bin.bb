@@ -9,6 +9,7 @@ RPM_HASH = "0c6c83f202122d41b998521c62f882a53494b4d87c3325f02de6c66cfd780613e22e
 
 RPROVIDES:${PN} += "texlive-latex-papersize-bin \
 texlive-latex-papersize-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-latex-papersize"
 
 inherit rpm

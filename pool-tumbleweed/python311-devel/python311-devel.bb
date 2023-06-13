@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "pkgconfig(python-3.11) \
 pkgconfig(python-3.11-embed) \
 python311-devel \
 python311-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python3.11 \

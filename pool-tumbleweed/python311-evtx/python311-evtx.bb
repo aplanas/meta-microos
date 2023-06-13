@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-evtx) \
 python311-evtx \
 python3dist(python-evtx)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \

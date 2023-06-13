@@ -10,6 +10,7 @@ RPM_HASH = "ab105f55b496fc60f1f5771b525c382444ed8853ebd765cd009166b42c4aececf93a
 
 RPROVIDES:${PN} += "tiff \
 tiff(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

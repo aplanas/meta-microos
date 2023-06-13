@@ -10,6 +10,7 @@ RPM_HASH = "8eac39ebd907204da6f97f7ed6ca956789b0c099250681f0b15b76f2605fe44b7414
 RPROVIDES:${PN} += "munit-devel \
 munit-devel(aarch-64) \
 pkgconfig(munit)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmunit0suse0"
 

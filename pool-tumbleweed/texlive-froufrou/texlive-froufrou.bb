@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(froufrou.sty) \
 texlive-froufrou"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

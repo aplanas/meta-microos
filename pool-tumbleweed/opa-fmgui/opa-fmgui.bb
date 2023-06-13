@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "application() \
 application(fmgui.desktop) \
 config(opa-fmgui) \
 opa-fmgui"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 jre \

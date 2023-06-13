@@ -17,6 +17,7 @@ RPM_HASH = "d45cb5ecacf71e0fdae29bd938070d91103f993bdc8e0dc936fb0a95610287c9d9a8
 
 RPROVIDES:${PN} += "libGraphicsMagick3-config \
 libGraphicsMagick3-config(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

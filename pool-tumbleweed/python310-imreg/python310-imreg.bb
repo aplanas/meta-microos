@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-imreg \
 python3.10dist(imreg) \
 python310-imreg \
 python3dist(imreg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-scipy"

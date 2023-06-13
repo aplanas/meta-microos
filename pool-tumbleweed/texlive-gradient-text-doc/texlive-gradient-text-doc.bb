@@ -9,6 +9,7 @@ RPM_HASH = "e3484e1fcac66dc373735d4ef68933bbb31f17ff5381cde574e3ae3ce8f85d46cffe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gradient-text-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

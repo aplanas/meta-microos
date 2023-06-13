@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-pymacaroons \
 python3.10dist(pymacaroons) \
 python310-pymacaroons \
 python3dist(pymacaroons)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyNaCl \
 python310-cffi \

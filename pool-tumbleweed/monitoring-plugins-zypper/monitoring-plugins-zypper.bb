@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(monitoring-plugins-zypper) \
 monitoring-plugins-zypper \
 nagios-plugins-zypper"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 apparmor-abstractions \

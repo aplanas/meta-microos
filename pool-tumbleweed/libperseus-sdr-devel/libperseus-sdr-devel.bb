@@ -10,6 +10,7 @@ RPM_HASH = "80bba7b78019e0290c51657bf3c4d75217c2f057822a5cb9c1f96eaa30e2b9f2925d
 
 RPROVIDES:${PN} += "libperseus-sdr-devel \
 libperseus-sdr-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libperseus-sdr0"
 
 inherit rpm

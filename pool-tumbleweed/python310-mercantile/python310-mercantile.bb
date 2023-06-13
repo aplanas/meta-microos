@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-mercantile \
 python3.10dist(mercantile) \
 python310-mercantile \
 python3dist(mercantile)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

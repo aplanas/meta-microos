@@ -10,6 +10,7 @@ RPM_HASH = "bb853ae11a6e8a7fe6569d41759e32e61b4e240b71e0eaf4d37a0dd6d89cfdf487b7
 RPROVIDES:${PN} += "pkgconfig(tomoe) \
 tomoe-devel \
 tomoe-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 pkgconfig(glib-2.0) \

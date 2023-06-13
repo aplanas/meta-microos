@@ -13,6 +13,7 @@ RPM_HASH = "892808a0bc3a6b7bbf1610594cee3a566541694935c82eefe81d9d5b68ce5d362fd6
 RPROVIDES:${PN} += "typelib(Qmi) \
 typelib-1_0-Qmi-1_0 \
 typelib-1_0-Qmi-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libqmi-glib.so.5()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -10,6 +10,7 @@ RPM_HASH = "7b8580babb36504862b85631a9d6e02c65ca8dbbb52c8197a79d8121f99b52cf6fe0
 RPROVIDES:${PN} += "libtinygettext.so.0()(64bit) \
 libtinygettext0 \
 libtinygettext0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

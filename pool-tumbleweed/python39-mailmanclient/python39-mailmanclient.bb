@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mailmanclient) \
 python39-mailmanclient \
 python3dist(mailmanclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

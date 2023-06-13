@@ -17,6 +17,7 @@ RPM_HASH = "4232ecdfaa73a71d4f9b7c56117f2af3a704664d40eb8afb005f18f74cddd991b4b6
 RPROVIDES:${PN} += "liboauth.so.0()(64bit) \
 liboauth0 \
 liboauth0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

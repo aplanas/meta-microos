@@ -10,6 +10,7 @@ RPM_HASH = "cadef4af4e8722001e6fc365e4853168512c00eefad1e81d746b47432a08284d7bfc
 RPROVIDES:${PN} += "ghc-pandoc-lua-engine-prof \
 ghc-pandoc-lua-engine-prof(aarch-64) \
 ghc-prof(pandoc-lua-engine-0.2-gHKByFrhtS8PSSuk3TZxt)"
+
 RDEPENDS:${PN} += "ghc-pandoc-lua-engine-devel \
 ghc-prof(SHA-1.6.4.4-CTRZ9m1gmyY35Z2xnCckJW) \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \

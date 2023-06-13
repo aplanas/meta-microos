@@ -12,6 +12,7 @@ RPM_HASH = "d0d60b8b452ec036d22997a40794dc5bc1522fdb8b64ea8de4eb5c4352c766bf1d7f
 
 RPROVIDES:${PN} += "xmvn \
 xmvn(aarch-64)"
+
 RDEPENDS:${PN} += "xmvn-minimal"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "a10d7f5fc3a456ce670b01f6405de6afcbfee1bd18c35466ce0eaad824ed564eebf4
 RPROVIDES:${PN} += "hyprland-devel \
 hyprland-devel(aarch-64) \
 pkgconfig(hyprland)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 hyprland"
 

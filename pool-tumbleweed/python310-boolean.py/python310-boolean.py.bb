@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-boolean.py \
 python3.10dist(boolean.py) \
 python310-boolean.py \
 python3dist(boolean.py)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

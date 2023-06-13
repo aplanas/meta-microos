@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-tortilla \
 python3.10dist(tortilla) \
 python310-tortilla \
 python3dist(tortilla)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-colorama \
 python310-formats \

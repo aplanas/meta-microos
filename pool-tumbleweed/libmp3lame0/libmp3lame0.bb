@@ -12,6 +12,7 @@ RPM_HASH = "3c288b1b6b6904293d0f7fbea7ccf94f10c9a3b9d75212d1cee0698ccb3e1fcd06bc
 RPROVIDES:${PN} += "libmp3lame.so.0()(64bit) \
 libmp3lame0 \
 libmp3lame0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

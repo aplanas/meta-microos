@@ -10,6 +10,7 @@ RPM_HASH = "21c41f2ba01e913223409a20a54e1076b73ba456d93d747664f0cf3cc0a73f431133
 RPROVIDES:${PN} += "libdrvproxy.so.2()(64bit) \
 libdrvproxy2 \
 libdrvproxy2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

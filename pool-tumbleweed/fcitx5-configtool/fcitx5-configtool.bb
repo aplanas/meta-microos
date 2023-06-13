@@ -15,6 +15,7 @@ fcitx-config-gtk3 \
 fcitx5-configtool \
 fcitx5-configtool(aarch-64) \
 libFcitx5Migrator.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -16,6 +16,7 @@ RPM_HASH = "98dd843cae8dfc57eaab9656045fcfb85b7e80cd731889481ed9f661bbf0531c61e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scap-security-guide-redhat"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

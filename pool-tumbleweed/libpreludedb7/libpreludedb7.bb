@@ -14,6 +14,7 @@ RPM_HASH = "cb0db01277018a8cfcdd8d20865dd0db38a2fa1650ea59b9a29d68b7cbe533517a8c
 RPROVIDES:${PN} += "libpreludedb.so.7()(64bit) \
 libpreludedb7 \
 libpreludedb7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

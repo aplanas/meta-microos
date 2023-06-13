@@ -13,6 +13,7 @@ RPM_HASH = "ba22d6c0ea8e821337c7f04cef880c262943aee80c9fbeac9a5b8bbb0cdcbf3e1629
 RPROVIDES:${PN} += "libffmpegthumbnailer.so.4()(64bit) \
 libffmpegthumbnailer4 \
 libffmpegthumbnailer4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

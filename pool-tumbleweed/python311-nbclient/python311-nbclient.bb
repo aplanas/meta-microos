@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(nbclient) \
 python311-nbclient \
 python3dist(nbclient)"
+
 RDEPENDS:${PN} += "((python311-jupyter-core >= 4.12 with python311-jupyter-core < 5) or python311-jupyter-core >= 5.1) \
 /bin/sh \
 /usr/bin/python3.11 \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-jinja \
 python3.10dist(django-jinja) \
 python310-django-jinja \
 python3dist(django-jinja)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-Jinja2"

@@ -96,6 +96,7 @@ perl(RDF::Trine::Store::SPARQL) \
 perl(RDF::Trine::VariableBindings) \
 perl(Test::RDF::Trine::Store) \
 perl-RDF-Trine"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Algorithm::Combinatorics) \

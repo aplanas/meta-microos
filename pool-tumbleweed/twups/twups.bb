@@ -9,6 +9,7 @@ RPM_HASH = "0279579c0f22d7ca72ea5a937f4245fc9f0d004ca43ec78ba61d3275b5306515f6e3
 
 RPROVIDES:${PN} += "twups \
 twups(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 curl \
 tumbleweed-cli"

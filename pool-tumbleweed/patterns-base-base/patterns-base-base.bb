@@ -16,6 +16,7 @@ patterns-base-base \
 patterns-base-base(aarch-64) \
 patterns-openSUSE-base \
 patterns-openSUSE-minimal"
+
 RDEPENDS:${PN} += "aaa_base \
 bash \
 ca-certificates-mozilla \

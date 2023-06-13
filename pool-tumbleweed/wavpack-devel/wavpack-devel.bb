@@ -14,6 +14,7 @@ RPM_HASH = "14fb8a1f74a37f5d07e95c938bb3754eb6f98de3279f51816e33e602422cf695660f
 RPROVIDES:${PN} += "pkgconfig(wavpack) \
 wavpack-devel \
 wavpack-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 wavpack"

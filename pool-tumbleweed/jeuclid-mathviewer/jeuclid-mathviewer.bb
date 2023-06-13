@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(jeuclid-mathviewer.desktop) \
 jeuclid-mathviewer"
+
 RDEPENDS:${PN} += "/bin/bash \
 hicolor-icon-theme \
 jeuclid"

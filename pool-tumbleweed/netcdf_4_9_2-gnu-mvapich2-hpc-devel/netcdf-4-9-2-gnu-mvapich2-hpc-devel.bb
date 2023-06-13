@@ -14,6 +14,7 @@ RPM_HASH = "800a8a46f776e27de15adfe91fa8d0a1482fa2dc8d2f6ab4afd0e48c910686e5c677
 
 RPROVIDES:${PN} += "netcdf_4_9_2-gnu-mvapich2-hpc-devel \
 netcdf_4_9_2-gnu-mvapich2-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc-devel \
 hdf5-gnu-mvapich2-hpc-devel \

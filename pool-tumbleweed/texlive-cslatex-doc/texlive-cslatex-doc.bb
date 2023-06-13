@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(cslatex.1) \
 man(pdfcslatex.1) \
 texlive-cslatex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

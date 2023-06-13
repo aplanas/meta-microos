@@ -10,6 +10,7 @@ RPM_HASH = "a788a200916b60b67df30d4f86cfc3236b1bed58e0a566c524f9770de8d729d43618
 RPROVIDES:${PN} += "libmicrohttpd.so.12()(64bit) \
 libmicrohttpd12 \
 libmicrohttpd12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

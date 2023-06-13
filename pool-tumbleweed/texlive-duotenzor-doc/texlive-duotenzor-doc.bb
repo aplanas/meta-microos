@@ -9,6 +9,7 @@ RPM_HASH = "cd417eab25c90422e09d609c75064510ee7ac281a968a50874579243d53c86b1ca5e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-duotenzor-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

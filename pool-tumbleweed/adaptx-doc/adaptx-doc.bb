@@ -9,6 +9,7 @@ RPM_HASH = "f2d8b304eafeb7b11319e7fdef646da4267d4e8042fcb19e4dd5690f331c7b63a629
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adaptx-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

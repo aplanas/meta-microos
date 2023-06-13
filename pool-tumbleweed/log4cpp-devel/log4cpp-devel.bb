@@ -11,6 +11,7 @@ RPM_HASH = "d07fae45cb4e0172af16af4ae784ea88b7826c300e20ad22432743740db218a447aa
 RPROVIDES:${PN} += "log4cpp-devel \
 log4cpp-devel(aarch-64) \
 pkgconfig(log4cpp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 liblog4cpp5"

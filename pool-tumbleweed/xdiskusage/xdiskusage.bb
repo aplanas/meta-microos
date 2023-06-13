@@ -13,6 +13,7 @@ RPM_HASH = "98365edbddbafa4af18959b1d7ae9454783179d0532582d9fdd6b9eddd6b5c3b8b29
 
 RPROVIDES:${PN} += "xdiskusage \
 xdiskusage(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

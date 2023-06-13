@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-request) \
 python311-django-request \
 python3dist(django-request)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-python-dateutil"

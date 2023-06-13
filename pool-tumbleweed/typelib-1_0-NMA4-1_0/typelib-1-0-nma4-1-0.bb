@@ -10,6 +10,7 @@ RPM_HASH = "967d63c517a3fd0302c1e5ac55d9ee38a80aa55ffe9e966431dfde1680f2e12bc630
 RPROVIDES:${PN} += "typelib(NMA4) \
 typelib-1_0-NMA4-1_0 \
 typelib-1_0-NMA4-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libnma-gtk4.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

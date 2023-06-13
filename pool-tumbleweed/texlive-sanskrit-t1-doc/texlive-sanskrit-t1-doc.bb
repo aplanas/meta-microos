@@ -9,6 +9,7 @@ RPM_HASH = "c2cd6f40072573d6d3c365de72ae80c473d3b004bdf566d6e51a5387b1f6097d0cb6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sanskrit-t1-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

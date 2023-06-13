@@ -10,6 +10,7 @@ RPM_HASH = "968754f4d257ecd995587473cd6692832c840ec93f3ccbcad00ce36ddb055e441a5a
 
 RPROVIDES:${PN} += "libatasmart-utils \
 libatasmart-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatasmart.so.4()(64bit) \

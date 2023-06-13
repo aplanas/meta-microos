@@ -9,6 +9,7 @@ RPM_HASH = "69d5c55034c3d0169f18d6baa2b93890376b445e1f12a208e4b81e3e890b416c7258
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-ajc2020unofficial-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

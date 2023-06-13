@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pydantic \
 python3.10dist(pydantic) \
 python310-pydantic \
 python3dist(pydantic)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-typing_extensions"
 

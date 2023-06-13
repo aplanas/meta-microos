@@ -10,6 +10,7 @@ RPM_HASH = "7bfb29809a6642453e0f849c8cd7e0a464970765102ec9cd27b417e0e0405ba4513a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qwt6-qt5-devel-doc"
+
 RDEPENDS:${PN} += "qwt6-qt5-devel"
 
 inherit rpm

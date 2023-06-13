@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(ssh-import-id) \
 python3dist(ssh-import-id) \
 ssh-import-id"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 openssh-common \

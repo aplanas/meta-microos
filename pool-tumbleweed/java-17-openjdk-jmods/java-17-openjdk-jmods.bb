@@ -9,6 +9,7 @@ RPM_HASH = "11a1232070cbcd3001ba6db97868fc3947418c41f09391e649615a70183e12b397c9
 
 RPROVIDES:${PN} += "java-17-openjdk-jmods \
 java-17-openjdk-jmods(aarch-64)"
+
 RDEPENDS:${PN} += "java-17-openjdk-devel"
 
 inherit rpm

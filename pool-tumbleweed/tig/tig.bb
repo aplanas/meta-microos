@@ -17,6 +17,7 @@ RPM_HASH = "ecec609db3310745357d297c0b869e10a43ccdf91f558895fdc9743a373dc3acd336
 RPROVIDES:${PN} += "config(tig) \
 tig \
 tig(aarch-64)"
+
 RDEPENDS:${PN} += "git-core \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

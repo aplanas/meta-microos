@@ -10,6 +10,7 @@ RPM_HASH = "db9dda707a115ab64f6f7b7852c495a5b03a36bc4d9be791046e9557bd6031fdb3df
 RPROVIDES:${PN} += "librdmacm-tools \
 librdmacm-utils \
 librdmacm-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

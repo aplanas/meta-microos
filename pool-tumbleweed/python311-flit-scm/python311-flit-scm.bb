@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flit-scm) \
 python311-flit-scm \
 python3dist(flit-scm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-flit-core \
 python311-setuptools_scm"

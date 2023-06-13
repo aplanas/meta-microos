@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzlibraryswigs.code.tex) \
 texlive-tikz-swigs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

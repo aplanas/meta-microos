@@ -11,6 +11,7 @@ RPM_HASH = "1832bd51aa0f4a72b4ca69e0972479308c95bcfc5f7d96bfe29b7d1e2b5238df6240
 RPROVIDES:${PN} += "libpkgconf-devel \
 libpkgconf-devel(aarch-64) \
 pkgconfig(libpkgconf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpkgconf3(aarch-64)"
 

@@ -11,6 +11,7 @@ RPM_HASH = "9024e72e50477afcd3f9356350bb1f3b46c1ff50b6aba94cee357c4ef8499e740144
 RPROVIDES:${PN} += "libosmo-hnbap-devel \
 libosmo-hnbap-devel(aarch-64) \
 pkgconfig(libosmo-hnbap)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-hnbap0"
 

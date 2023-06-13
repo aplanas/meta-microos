@@ -20,6 +20,7 @@ tex(miniltx.tex) \
 tex(picture.tex) \
 tex(psfrag.tex) \
 texlive-graphics-pln"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

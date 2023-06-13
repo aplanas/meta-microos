@@ -42,6 +42,7 @@ locale(python310-WTForms:zh) \
 locale(python310-WTForms:zh_TW) \
 python3-WTForms-lang \
 python310-WTForms-lang"
+
 RDEPENDS:${PN} += "python310-WTForms"
 
 inherit rpm

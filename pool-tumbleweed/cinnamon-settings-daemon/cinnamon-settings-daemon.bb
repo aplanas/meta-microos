@@ -13,6 +13,7 @@ cinnamon-settings-daemon \
 cinnamon-settings-daemon(aarch-64) \
 config(cinnamon-settings-daemon) \
 libcsd.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

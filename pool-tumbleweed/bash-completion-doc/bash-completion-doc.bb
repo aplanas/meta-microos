@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-completion-doc \
 bash-completion:/usr/share/doc/packages/bash-completion/AUTHORS"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

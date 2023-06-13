@@ -9,6 +9,7 @@ RPM_HASH = "a9a627b4aa751a499f7169f050de4e47049798e87dbb980969d22943e783dabd0ca9
 
 RPROVIDES:${PN} += "seatd \
 seatd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "d05e1da208a3e5c2b2e29e3b900f79f1bc00ae18680aa5a4c0327086f0c7e0dcf056
 RPROVIDES:${PN} += "liblo-devel \
 liblo-devel(aarch-64) \
 pkgconfig(liblo)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

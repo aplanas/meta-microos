@@ -109,6 +109,7 @@ tex(ucrro8r.tfm) \
 tex(ucrro8t.tfm) \
 tex(ucrro8t.vf) \
 texlive-courier"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

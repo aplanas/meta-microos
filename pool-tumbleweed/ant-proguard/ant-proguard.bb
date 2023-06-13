@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "ant-proguard \
 config(ant-proguard) \
 mvn(net.sf.proguard:proguard-anttask) \
 mvn(net.sf.proguard:proguard-anttask:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(net.sf.proguard:proguard-base)"

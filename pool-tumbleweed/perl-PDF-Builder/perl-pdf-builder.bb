@@ -119,6 +119,7 @@ perl(PDF::Builder::UniWrap) \
 perl(PDF::Builder::Util) \
 perl(PDF::Builder::ViewerPreferences) \
 perl-PDF-Builder"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Compress::Zlib) \
 perl(Font::TTF)"

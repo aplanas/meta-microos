@@ -9,6 +9,7 @@ RPM_HASH = "5296db55a03685f419e354fe9b0f4aeddee612450678f9ed16357a0cd4d668a0f7a6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mandi-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

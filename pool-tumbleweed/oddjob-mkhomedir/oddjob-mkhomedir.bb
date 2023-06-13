@@ -12,6 +12,7 @@ RPM_HASH = "a23e1449ef20ba6555ebf17aacb5f501318a58aa369e39addb7a6b2236df7a9112d9
 RPROVIDES:${PN} += "config(oddjob-mkhomedir) \
 oddjob-mkhomedir \
 oddjob-mkhomedir(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 dbus-1 \
 grep \

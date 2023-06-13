@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-qtree-doc:en) \
 texlive-qtree-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

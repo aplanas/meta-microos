@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(net.loomchild:segment) \
 mvn(net.loomchild:segment:pom:) \
 segment"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-logging:commons-logging)"

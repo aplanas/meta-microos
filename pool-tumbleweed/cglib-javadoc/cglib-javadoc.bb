@@ -11,6 +11,7 @@ RPM_HASH = "1856a7c0703146af0f741f05c3783029f782735fa93a00e81a76bb993fde7e7db39a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cglib-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

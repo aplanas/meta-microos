@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aws-xray-sdk-all \
 python310-aws-xray-sdk-all"
+
 RDEPENDS:${PN} += "python310-aws-xray-sdk"
 
 inherit rpm

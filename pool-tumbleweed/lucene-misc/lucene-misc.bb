@@ -13,6 +13,7 @@ lucene-misc(aarch-64) \
 mvn(org.apache.lucene:lucene-misc) \
 mvn(org.apache.lucene:lucene-misc:pom:) \
 osgi(org.apache.lucene.misc)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-core) \

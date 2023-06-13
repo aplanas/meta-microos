@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(timbreicmc.sty) \
 texlive-timbreicmc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

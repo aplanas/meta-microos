@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-beamertheme-epyt-doc:zh) \
 texlive-beamertheme-epyt-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

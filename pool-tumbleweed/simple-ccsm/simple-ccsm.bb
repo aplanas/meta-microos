@@ -17,6 +17,7 @@ python3.10dist(simple-ccsm) \
 python3dist(simple-ccsm) \
 simple-ccsm \
 simple-ccsm-kde"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 compiz \
 compiz-plugins \

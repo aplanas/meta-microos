@@ -39,6 +39,7 @@ pkgconfig(xcb-xtest) \
 pkgconfig(xcb-xv) \
 pkgconfig(xcb-xvmc) \
 xorg-x11-libxcb-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcb-composite0 \
 libxcb-damage0 \

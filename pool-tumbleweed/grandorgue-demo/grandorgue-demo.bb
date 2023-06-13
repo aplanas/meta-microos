@@ -9,6 +9,7 @@ RPM_HASH = "1c729e1049fed1705fa8d55daa941c7a5f584a695eba270d327d6e6d59d8c030f2e1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grandorgue-demo"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

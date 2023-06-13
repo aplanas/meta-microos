@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(uwmslide.cls) \
 texlive-uwmslide"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(zitie.luatex.def) \
 tex(zitie.sty) \
 tex(zitie.xetex.def) \
 texlive-zitie"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

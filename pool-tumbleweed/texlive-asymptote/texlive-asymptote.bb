@@ -17,6 +17,7 @@ tex(asymptote.sty) \
 tex(colo-asy.tex) \
 tex(ocg.sty) \
 texlive-asymptote"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

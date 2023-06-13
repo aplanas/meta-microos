@@ -13,6 +13,7 @@ RPM_HASH = "94b264c2907af6d3cdd812326701820b816991d14101cb4f605a4f6d3759a902fae2
 RPROVIDES:${PN} += "libebackend-1.2.so.11()(64bit) \
 libebackend-1_2-11 \
 libebackend-1_2-11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

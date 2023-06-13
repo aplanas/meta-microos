@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bidi-atbegshi.sty) \
 texlive-bidi-atbegshi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

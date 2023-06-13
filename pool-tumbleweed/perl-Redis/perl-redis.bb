@@ -21,6 +21,7 @@ perl(Redis::Hash) \
 perl(Redis::List) \
 perl(Redis::Sentinel) \
 perl-Redis"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::Socket::Timeout) \
 perl(Try::Tiny)"

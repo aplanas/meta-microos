@@ -178,6 +178,7 @@ tex(a_xu66hj.enc) \
 tex(comfortaa.map) \
 tex(comfortaa.sty) \
 texlive-comfortaa"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

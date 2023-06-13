@@ -12,6 +12,7 @@ RPM_HASH = "18e60ca496c2849122359a23f58df7595f33db6341794432d0c704e0e61549797ff9
 RPROVIDES:${PN} += "pkgconfig(shaderc) \
 shaderc-devel \
 shaderc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libshaderc_shared1"
 

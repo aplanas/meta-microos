@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(zope.configuration) \
 python311-zope.configuration \
 python3dist(zope.configuration)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-zope.i18nmessageid \
 python311-zope.interface \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pooch) \
 python39-pooch \
 python3dist(pooch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-appdirs \
 python39-packaging \

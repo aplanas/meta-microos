@@ -19,6 +19,7 @@ RPM_HASH = "fc41724f86896ceb0de3b2da20db4e09d421da5b2e3a8bcda874b3b4be3768e1880b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoconf-el"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

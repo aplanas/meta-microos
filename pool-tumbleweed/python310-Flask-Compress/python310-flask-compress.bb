@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-Flask-Compress \
 python3.10dist(flask-compress) \
 python310-Flask-Compress \
 python3dist(flask-compress)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Brotli \
 python310-Flask"

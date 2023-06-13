@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-requests-file \
 python3.10dist(requests-file) \
 python310-requests-file \
 python3dist(requests-file)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

@@ -12,6 +12,7 @@ RPM_HASH = "734315d4ed6fe0ffd6d106f23aee34e6cc6512e6f0ceb74b607d575a12d88a167756
 
 RPROVIDES:${PN} += "hdf5-devel-static \
 hdf5-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "hdf5-devel"
 
 inherit rpm

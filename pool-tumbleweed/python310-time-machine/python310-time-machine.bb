@@ -13,6 +13,7 @@ python3.10dist(time-machine) \
 python310-time-machine \
 python310-time-machine(aarch-64) \
 python3dist(time-machine)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-dateutil \
 timezone"

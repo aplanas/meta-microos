@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "compiz-decorator \
 compiz-gnome \
 compiz-gnome(aarch-64) \
 compiz-mate"
+
 RDEPENDS:${PN} += "compiz \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

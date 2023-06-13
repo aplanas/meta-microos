@@ -25,6 +25,7 @@ RPM_HASH = "67fbd6aa18dd524a2c00cb320381f5d085db2c63ef1c142739f7c7db547713613510
 RPROVIDES:${PN} += "libvoikko.so.1()(64bit) \
 libvoikko1 \
 libvoikko1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

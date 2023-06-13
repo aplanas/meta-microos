@@ -12,6 +12,7 @@ RPM_HASH = "7e5d6060a3bd1e8f32b9c94ff49ffd67be17a13b0eea1c8cb3d8a15eb0907ac9cfa5
 RPROVIDES:${PN} += "config(gnuastro) \
 gnuastro \
 gnuastro(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

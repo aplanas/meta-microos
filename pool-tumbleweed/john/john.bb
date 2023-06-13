@@ -12,6 +12,7 @@ RPM_HASH = "ff8e9069652e4f6bdd9ba8b694cba339d89280a911cc3981c1a3437e9509df54e595
 RPROVIDES:${PN} += "config(john) \
 john \
 john(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/python3 \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-bracex \
 python3.10dist(bracex) \
 python310-bracex \
 python3dist(bracex)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

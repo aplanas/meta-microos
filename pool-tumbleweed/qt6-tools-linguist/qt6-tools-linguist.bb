@@ -12,6 +12,7 @@ application(org.qt.linguist6.desktop) \
 mimehandler(application/x-linguist) \
 qt6-tools-linguist \
 qt6-tools-linguist(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.16()(64bit) \

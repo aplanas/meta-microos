@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "perl(HTML::RewriteAttributes) \
 perl(HTML::RewriteAttributes::Links) \
 perl(HTML::RewriteAttributes::Resources) \
 perl-HTML-RewriteAttributes"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTML::Entities) \
 perl(HTML::Parser) \

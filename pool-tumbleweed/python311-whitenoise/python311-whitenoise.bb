@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(whitenoise) \
 python311-whitenoise \
 python3dist(whitenoise)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

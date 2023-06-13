@@ -11,6 +11,7 @@ RPM_HASH = "425e359789436d4572dae61cc4844db464d0d3ad62dde5a4136618f38d0b23a3b021
 
 RPROVIDES:${PN} += "mftrace \
 mftrace(aarch-64)"
+
 RDEPENDS:${PN} += "bitmap_tracing \
 fontforge \
 ld-linux-aarch64.so.1()(64bit) \

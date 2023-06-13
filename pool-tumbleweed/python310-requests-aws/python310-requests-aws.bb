@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-requests-aws \
 python3.10dist(requests-aws) \
 python310-requests-aws \
 python3dist(requests-aws)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

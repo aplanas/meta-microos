@@ -10,6 +10,7 @@ RPM_HASH = "9f673af4fd21765143d89454e4655be4c22c6a2245083e099cea5b54569f4dbc00f3
 RPROVIDES:${PN} += "pattern() \
 patterns-server-gateway_server-32bit \
 patterns-server-gateway_server-32bit(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

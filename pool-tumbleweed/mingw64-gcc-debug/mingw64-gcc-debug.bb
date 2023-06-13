@@ -11,6 +11,7 @@ RPM_HASH = "271ee13e728bbc70d3563d54538ebbc8b9a0b1ac237d59540379be19328f9ef8c8a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-gcc-debug"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

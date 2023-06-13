@@ -35,6 +35,7 @@ mimehandler(text/x-pascal) \
 mimehandler(text/x-perl) \
 mimehandler(text/x-python) \
 mimehandler(text/x-sql)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

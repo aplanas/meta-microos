@@ -10,6 +10,7 @@ RPM_HASH = "b6ced624ff6599c5b97f46e406d03b4da7625fc2054bf4d5e0da7f0ef2faa179fb4f
 RPROVIDES:${PN} += "ghc-devel(pretty-show-1.10-IA5YnfAP5DqIvEIFfcZVdd) \
 ghc-pretty-show-devel \
 ghc-pretty-show-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(array-0.5.4.0) \

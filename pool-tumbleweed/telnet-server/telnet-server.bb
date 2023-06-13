@@ -12,6 +12,7 @@ RPM_HASH = "7a5f061c27126be12b629ab429d05d32913ad669935e7b641ac827efbda37c3343a8
 RPROVIDES:${PN} += "nkitserv:/usr/sbin/in.telnetd \
 telnet-server \
 telnet-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

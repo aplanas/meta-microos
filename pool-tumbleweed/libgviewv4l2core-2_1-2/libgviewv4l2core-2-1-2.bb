@@ -12,6 +12,7 @@ RPM_HASH = "e533bbbde94b023e07ee1a013cec0e8adc951ab403f5c244a5d7f1f2cd536493ed01
 RPROVIDES:${PN} += "libgviewv4l2core-2.1.so.2()(64bit) \
 libgviewv4l2core-2_1-2 \
 libgviewv4l2core-2_1-2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

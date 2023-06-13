@@ -31,6 +31,7 @@ php-zend-abi \
 php8 \
 php8(aarch-64) \
 zend"
+
 RDEPENDS:${PN} += "php-sapi \
 timezone"
 

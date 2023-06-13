@@ -21,6 +21,7 @@ RPM_HASH = "cc669f705ef8dbb180fb8d4570d9b706b74b4ffdd118c2d474f45e4f3d1d438dde6b
 
 RPROVIDES:${PN} += "gama \
 gama(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

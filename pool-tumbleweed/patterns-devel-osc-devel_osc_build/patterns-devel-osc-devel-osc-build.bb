@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-devel-osc-devel_osc_build \
 patterns-devel-osc-devel_osc_build(aarch-64)"
+
 RDEPENDS:${PN} += "osc \
 pattern()"
 

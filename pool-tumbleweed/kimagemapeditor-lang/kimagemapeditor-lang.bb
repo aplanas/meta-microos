@@ -67,6 +67,7 @@ locale(kimagemapeditor:uk) \
 locale(kimagemapeditor:zh_CN) \
 locale(kimagemapeditor:zh_HK) \
 locale(kimagemapeditor:zh_TW)"
+
 RDEPENDS:${PN} += "kimagemapeditor"
 
 inherit rpm

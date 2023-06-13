@@ -10,6 +10,7 @@ RPM_HASH = "6bff6c3e03435303aff4faf547ba7a7fe61d6732817d868ebd2401499f5ae76f7aba
 RPROVIDES:${PN} += "libbelcard.so.1()(64bit) \
 libbelcard1 \
 libbelcard1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 belcard-data \
 ld-linux-aarch64.so.1()(64bit) \

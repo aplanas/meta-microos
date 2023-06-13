@@ -11,6 +11,7 @@ RPM_HASH = "0838f9f0200cdf505d763f9348bb72eb103abe75a7ed1cfb6605b070e7c1671dbe2d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lm-math"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

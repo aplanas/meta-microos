@@ -14,6 +14,7 @@ RPM_HASH = "4bd470eaf70dae8a1da4faddb8bb389dc0a7d07055a99e96a54f74e3410f2f25cb8e
 RPROVIDES:${PN} += "sensord \
 sensord(aarch-64) \
 sensors:/usr/sbin/sensord"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

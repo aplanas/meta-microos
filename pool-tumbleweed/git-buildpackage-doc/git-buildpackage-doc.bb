@@ -10,6 +10,7 @@ RPM_HASH = "31e3fe02a96a4c959ef04909b0ac7c0219a8a47202192603c57390e38d962213119b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-buildpackage-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

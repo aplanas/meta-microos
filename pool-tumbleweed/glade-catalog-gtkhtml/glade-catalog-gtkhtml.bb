@@ -15,6 +15,7 @@ RPM_HASH = "bc9013bd1b0076634ec7c00272124a0acf0eb7517c7cbaeb843032d83cd87eea68c7
 RPROVIDES:${PN} += "glade-catalog-gtkhtml \
 glade-catalog-gtkhtml(aarch-64) \
 libglade-gtkhtml-editor.so()(64bit)"
+
 RDEPENDS:${PN} += "glade \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

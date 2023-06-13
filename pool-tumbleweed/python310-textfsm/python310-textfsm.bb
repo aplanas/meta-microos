@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-textfsm \
 python3.10dist(textfsm) \
 python310-textfsm \
 python3dist(textfsm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future \
 python310-six"

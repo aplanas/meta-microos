@@ -10,6 +10,7 @@ RPM_HASH = "639e896995decc55b791ce2b5b25aa0fc18e4c51d4de42bd83cd435caef92aabcb61
 
 RPROVIDES:${PN} += "libpurple-plugin-lurch \
 libpurple-plugin-lurch(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

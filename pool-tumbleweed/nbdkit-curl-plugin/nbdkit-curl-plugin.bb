@@ -9,6 +9,7 @@ RPM_HASH = "86844f746cccbafcd9db4a30ca4372f5459b1645ebaca03ef32c448fa36eae9326cc
 
 RPROVIDES:${PN} += "nbdkit-curl-plugin \
 nbdkit-curl-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

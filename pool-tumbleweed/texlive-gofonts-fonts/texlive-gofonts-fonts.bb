@@ -137,6 +137,7 @@ font(go) \
 font(gomono) \
 font(gosmallcaps) \
 texlive-gofonts-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

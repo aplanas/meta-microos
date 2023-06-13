@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(casyll10.tfm) \
 tex(casyltex.sty) \
 texlive-casyl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "bee102086c2055886efd80fa406cb6cfbbe78ccecae0f9e9652e9fa0df7f81eb8239
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tokcycle-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

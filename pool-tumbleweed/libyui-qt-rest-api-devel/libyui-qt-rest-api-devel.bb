@@ -14,6 +14,7 @@ RPM_HASH = "06bdbb523c399c556504589ba5209d4b3a742ef3fd6bb6943c636173dfb745a1efb2
 
 RPROVIDES:${PN} += "libyui-qt-rest-api-devel \
 libyui-qt-rest-api-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libstdc++-devel \
 libyui-qt-devel \

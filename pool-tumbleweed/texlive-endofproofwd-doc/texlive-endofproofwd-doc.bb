@@ -9,6 +9,7 @@ RPM_HASH = "3a0d66b437cee8f6540dc8a003e59304203b272098132f9058e180e6517d17e0bae6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-endofproofwd-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

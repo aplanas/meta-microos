@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-ldap3 \
 python3.10dist(ldap3) \
 python310-ldap3 \
 python3dist(ldap3)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyasn1"
 

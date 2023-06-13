@@ -15,6 +15,7 @@ RPM_HASH = "0cca3d760c5513407d426f48869ba328ba115a920bbe18abdf722894476f2da35175
 RPROVIDES:${PN} += "libwireplumber-0.4.so.0()(64bit) \
 libwireplumber-0_4-0 \
 libwireplumber-0_4-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

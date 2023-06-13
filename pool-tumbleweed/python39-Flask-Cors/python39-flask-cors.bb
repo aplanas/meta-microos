@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flask-cors) \
 python39-Flask-Cors \
 python3dist(flask-cors)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Flask \
 python39-six"

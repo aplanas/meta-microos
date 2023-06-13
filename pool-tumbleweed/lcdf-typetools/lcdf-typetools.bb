@@ -47,6 +47,7 @@ RPM_HASH = "34ee45d1495c909702bc7c9f828b2394add9af874022774f56c88a6f227e89b9ed98
 
 RPROVIDES:${PN} += "lcdf-typetools \
 lcdf-typetools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

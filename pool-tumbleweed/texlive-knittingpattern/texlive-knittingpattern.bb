@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(knittingpattern.cls) \
 texlive-knittingpattern"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

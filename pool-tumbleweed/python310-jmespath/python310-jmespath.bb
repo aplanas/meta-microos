@@ -40,6 +40,7 @@ RPROVIDES:${PN} += "python3-jmespath \
 python3.10dist(jmespath) \
 python310-jmespath \
 python3dist(jmespath)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

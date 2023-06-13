@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:terminal-table:2) \
 rubygem(ruby:3.2.0:terminal-table:2.0) \
 rubygem(ruby:3.2.0:terminal-table:2.0.0) \
 rubygem(terminal-table)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:unicode-display_width) \
 rubygem(ruby:3.2.0:unicode-display_width:1)"

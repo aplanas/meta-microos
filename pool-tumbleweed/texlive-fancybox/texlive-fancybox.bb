@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fancybox.sty) \
 texlive-fancybox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

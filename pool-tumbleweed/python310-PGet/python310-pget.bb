@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-PGet \
 python3.10dist(pget) \
 python310-PGet \
 python3dist(pget)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(requests-file) \
 python39-requests-file \
 python3dist(requests-file)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

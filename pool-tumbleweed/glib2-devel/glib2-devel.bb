@@ -27,6 +27,7 @@ rpm_macro(glib2_gio_module_requires) \
 rpm_macro(glib2_gsettings_schema_post) \
 rpm_macro(glib2_gsettings_schema_postun) \
 rpm_macro(glib2_gsettings_schema_requires)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python3 \

@@ -10,6 +10,7 @@ RPM_HASH = "2c425a41f136deeb4ef7478769c7c7700904027bfad248ce935aa17dc7f033006214
 RPROVIDES:${PN} += "libmediacheck.so.6()(64bit) \
 libmediacheck6 \
 libmediacheck6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gpg \
 ld-linux-aarch64.so.1()(64bit) \

@@ -24,6 +24,7 @@ group(tty) \
 group(utmp) \
 group(video) \
 system-group-hardware"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

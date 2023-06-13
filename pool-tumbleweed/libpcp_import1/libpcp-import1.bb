@@ -13,6 +13,7 @@ libpcp_import.so.1(PCP_IMPORT_1.1)(64bit) \
 libpcp_import.so.1(PCP_IMPORT_1.2)(64bit) \
 libpcp_import1 \
 libpcp_import1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

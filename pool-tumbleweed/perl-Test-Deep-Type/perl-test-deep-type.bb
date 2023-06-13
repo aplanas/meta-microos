@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Test::Deep::Type) \
 perl-Test-Deep-Type"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::Deep::Cmp) \
 perl(Try::Tiny) \

@@ -9,6 +9,7 @@ RPM_HASH = "7a4569d0d3b4ceb8ad3663d4eeec4c628ba4fcd6ec63832ad41337382d4161b21722
 
 RPROVIDES:${PN} += "texlive-gsftopk-bin \
 texlive-gsftopk-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

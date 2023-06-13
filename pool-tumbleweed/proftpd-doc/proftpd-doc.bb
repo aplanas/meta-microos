@@ -9,6 +9,7 @@ RPM_HASH = "f6ea2143d34fe4a22230d1c3a6fe680a01cde670aa608c63466f1a1f956d0f2ca85a
 
 RPROVIDES:${PN} += "proftpd-doc \
 proftpd-doc(aarch-64)"
+
 RDEPENDS:${PN} += "proftpd"
 
 inherit rpm

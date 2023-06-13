@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mobile-broadband-provider-info \
 pkgconfig(mobile-broadband-provider-info)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

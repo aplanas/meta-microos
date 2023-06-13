@@ -70,6 +70,7 @@ locale(tracker-miners:zh_HK) \
 locale(tracker-miners:zh_TW) \
 tracker-miners-lang \
 tracker-miners-lang-all"
+
 RDEPENDS:${PN} += "tracker-miners"
 
 inherit rpm

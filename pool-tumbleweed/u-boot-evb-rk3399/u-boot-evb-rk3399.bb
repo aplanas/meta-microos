@@ -11,6 +11,7 @@ RPM_HASH = "310aa9618b6289c95f6e9030e861cc70f23d417937cd018eedeae6fa270b1ff7b422
 RPROVIDES:${PN} += "u-boot-evb-rk3399 \
 u-boot-evb-rk3399(aarch-64) \
 u-boot-loader"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

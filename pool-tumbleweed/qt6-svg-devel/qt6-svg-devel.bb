@@ -15,6 +15,7 @@ pkgconfig(Qt6Svg) \
 pkgconfig(Qt6SvgWidgets) \
 qt6-svg-devel \
 qt6-svg-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Widgets) \

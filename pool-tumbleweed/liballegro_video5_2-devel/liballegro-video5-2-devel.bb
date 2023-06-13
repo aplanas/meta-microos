@@ -10,6 +10,7 @@ RPM_HASH = "c7b41904fa77f1d7732e9698aaab779d47aa24f10e38cc244d622b134fb3442483a7
 RPROVIDES:${PN} += "liballegro_video5_2-devel \
 liballegro_video5_2-devel(aarch-64) \
 pkgconfig(allegro_video-5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liballegro_video5_2 \
 pkgconfig(allegro_audio-5)"

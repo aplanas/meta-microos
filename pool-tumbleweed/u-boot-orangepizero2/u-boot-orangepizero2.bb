@@ -11,6 +11,7 @@ RPM_HASH = "55418c48057333e2f83b60e7a2d12aeccfc160cd6e8b6994a78365966e1b552649f1
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-orangepizero2 \
 u-boot-orangepizero2(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

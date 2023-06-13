@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-billing \
 python3.10dist(azure-mgmt-billing) \
 python310-azure-mgmt-billing \
 python3dist(azure-mgmt-billing)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

@@ -10,6 +10,7 @@ RPM_HASH = "80e9a453ef9fc118755cbc035c7359a7c19c60ddb5f8437d5c9ed694a79e98b3b6e3
 
 RPROVIDES:${PN} += "syslog-ng-smtp \
 syslog-ng-smtp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

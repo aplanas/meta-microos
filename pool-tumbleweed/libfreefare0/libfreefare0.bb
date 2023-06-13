@@ -13,6 +13,7 @@ RPM_HASH = "4609a71352535460f314b8febe8a9454f26be18821f6137d36dae76507112651ac0e
 RPROVIDES:${PN} += "libfreefare.so.0()(64bit) \
 libfreefare0 \
 libfreefare0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

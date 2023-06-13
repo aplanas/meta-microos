@@ -10,6 +10,7 @@ RPM_HASH = "0580d0bfd0ebc05e52775fff8ea0a3347905f0e8e78e4c043a105555f2f7897bca15
 RPROVIDES:${PN} += "libykcs11-2 \
 libykcs11-2(aarch-64) \
 libykcs11.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

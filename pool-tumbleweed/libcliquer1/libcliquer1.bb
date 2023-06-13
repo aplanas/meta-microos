@@ -11,6 +11,7 @@ RPM_HASH = "d22375bb9bd3f8d454edd92ca0d4ad02c36a0e24c256712640156c67fc44c7d962ca
 RPROVIDES:${PN} += "libcliquer.so.1()(64bit) \
 libcliquer1 \
 libcliquer1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

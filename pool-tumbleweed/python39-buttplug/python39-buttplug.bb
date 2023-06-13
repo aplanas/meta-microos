@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(buttplug) \
 python39-buttplug \
 python3dist(buttplug)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-websockets"
 

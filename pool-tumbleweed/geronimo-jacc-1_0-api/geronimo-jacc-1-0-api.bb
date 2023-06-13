@@ -16,6 +16,7 @@ jacc_1_0_api \
 jacc_api \
 mvn(org.apache.geronimo.specs:geronimo-j2ee-jacc_1.0_spec) \
 mvn(org.apache.geronimo.specs:geronimo-j2ee-jacc_1.0_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

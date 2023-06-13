@@ -18,6 +18,7 @@ config(bind) \
 dns_daemon \
 group(named) \
 user(named)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

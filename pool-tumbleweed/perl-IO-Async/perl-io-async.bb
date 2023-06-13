@@ -51,6 +51,7 @@ perl(IO::Async::Timer::Absolute) \
 perl(IO::Async::Timer::Countdown) \
 perl(IO::Async::Timer::Periodic) \
 perl-IO-Async"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Future) \
 perl(Future::Utils) \

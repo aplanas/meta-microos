@@ -57,6 +57,7 @@ locale(ksshaskpass5:uk) \
 locale(ksshaskpass5:vi) \
 locale(ksshaskpass5:zh_CN) \
 locale(ksshaskpass5:zh_TW)"
+
 RDEPENDS:${PN} += "ksshaskpass5"
 
 inherit rpm

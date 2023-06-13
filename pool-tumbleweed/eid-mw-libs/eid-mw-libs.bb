@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "eid-mw-libs \
 eid-mw-libs(aarch-64) \
 libbeidpkcs11.so.0()(64bit) \
 libeidviewer.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

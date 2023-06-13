@@ -27,6 +27,7 @@ perl(YaST::SCRAgent) \
 perl(ycp) \
 yast2-core \
 yast2-core(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /sbin/ldconfig \

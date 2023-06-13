@@ -9,6 +9,7 @@ RPM_HASH = "3a1eda6c954bae6a5fe729b4311e857789511907959c1a07912fab7d7f61c82d42b3
 
 RPROVIDES:${PN} += "linstor \
 linstor(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10"
 
 inherit rpm

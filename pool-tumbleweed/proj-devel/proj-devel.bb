@@ -16,6 +16,7 @@ libproj-devel \
 pkgconfig(proj) \
 proj-devel \
 proj-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libproj25 \
 pkgconfig(libcurl) \

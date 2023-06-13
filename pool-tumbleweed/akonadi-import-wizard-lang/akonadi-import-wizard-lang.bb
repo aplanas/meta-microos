@@ -55,6 +55,7 @@ locale(akonadi-import-wizard:ug) \
 locale(akonadi-import-wizard:uk) \
 locale(akonadi-import-wizard:zh_CN) \
 locale(akonadi-import-wizard:zh_TW)"
+
 RDEPENDS:${PN} += "akonadi-import-wizard"
 
 inherit rpm

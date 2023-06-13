@@ -10,6 +10,7 @@ RPM_HASH = "d9d9084b92fd0b3a14cc57d8328c6921cdb1631a929e298c59fefca6ed35d1de3883
 RPROVIDES:${PN} += "perl(Sub::Name) \
 perl-Sub-Name \
 perl-Sub-Name(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

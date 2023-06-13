@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-source-vanilla \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "kernel-macros"
 
 inherit rpm

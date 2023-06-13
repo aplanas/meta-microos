@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(esint.map) \
 tex(esint.tex) \
 texlive-esint-type1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

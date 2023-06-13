@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jinja2-time \
 python3.10dist(jinja2-time) \
 python310-jinja2-time \
 python3dist(jinja2-time)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-arrow"

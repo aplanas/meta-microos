@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(napalm-arubaos-switch) \
 python39-napalm-arubaos-switch \
 python3dist(napalm-arubaos-switch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-napalm \
 python39-netaddr \

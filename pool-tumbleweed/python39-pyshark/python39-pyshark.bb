@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyshark) \
 python39-pyshark \
 python3dist(pyshark)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-lxml \
 python39-py \

@@ -9,6 +9,7 @@ RPM_HASH = "beba4aea319bd9b11394fadc655af4ece0e7d8d92b17cf8a99bd1ad166d04930fd80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gnuplottex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

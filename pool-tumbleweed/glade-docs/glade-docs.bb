@@ -12,6 +12,7 @@ RPM_HASH = "41c86c540981f23784a0e3618942c57ad5a5a94d95a671bed0c37a78f635cb3daa29
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glade-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -140,6 +140,7 @@ libssl3.so(NSS_3.77)(64bit) \
 libssl3.so(NSS_3.80)(64bit) \
 mozilla-nss \
 mozilla-nss(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

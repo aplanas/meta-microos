@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-filtering \
 mvn(org.apache.maven.shared:maven-filtering) \
 mvn(org.apache.maven.shared:maven-filtering:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

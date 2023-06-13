@@ -31,6 +31,7 @@ locale(NetworkManager-iodine:sr) \
 locale(NetworkManager-iodine:sr@latin) \
 locale(NetworkManager-iodine:sv) \
 locale(NetworkManager-iodine:tr)"
+
 RDEPENDS:${PN} += "NetworkManager-iodine"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPM_HASH = "477c94adf9defd0f751d4d48cecf17bc56423a1f48cf9b2331f253d584a8d643cc90
 
 RPROVIDES:${PN} += "hashlink \
 hashlink(aarch-64)"
+
 RDEPENDS:${PN} += "hashlink-hdlls"
 
 inherit rpm

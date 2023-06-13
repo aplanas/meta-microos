@@ -14,6 +14,7 @@ caja-extension-sendto-upnp(aarch-64) \
 caja-sendto-upnp \
 libnstupnp.so()(64bit) \
 mate-file-manager-sendto-upnp"
+
 RDEPENDS:${PN} += "caja-extension-sendto \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

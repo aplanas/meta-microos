@@ -10,6 +10,7 @@ RPM_HASH = "6886e7fc67257c202621fd4de1de75bc860fd8bb7d042fa193d84b36baac9bfc5d54
 RPROVIDES:${PN} += "libpodofo-devel \
 libpodofo-devel(aarch-64) \
 pkgconfig(libpodofo)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libboost_headers-devel \
 libpodofo0_9_8"

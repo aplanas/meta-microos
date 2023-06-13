@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-gwosc \
 python3.10dist(gwosc) \
 python310-gwosc \
 python3dist(gwosc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

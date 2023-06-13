@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(cours.cls) \
 tex(fiche.cls) \
 tex(mafr.sty) \
 texlive-mafr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

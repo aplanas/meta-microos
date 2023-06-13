@@ -19,6 +19,7 @@ perl(MooseX::HasDefaults::Meta::IsRW) \
 perl(MooseX::HasDefaults::RO) \
 perl(MooseX::HasDefaults::RW) \
 perl-MooseX-HasDefaults"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose)"
 

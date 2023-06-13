@@ -13,6 +13,7 @@ RPM_HASH = "ad11acaaeb6efaf18871ef511762393e4be518d6179c01f1274da89bb19c55fb60c3
 
 RPROVIDES:${PN} += "tcl8-xapian \
 tcl8-xapian(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(capt-of.sty) \
 texlive-capt-of"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

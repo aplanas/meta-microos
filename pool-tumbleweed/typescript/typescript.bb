@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "npm(typescript) \
 typescript"
+
 RDEPENDS:${PN} += "/usr/bin/node \
 nodejs(engine)"
 

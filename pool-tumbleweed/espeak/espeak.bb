@@ -16,6 +16,7 @@ RPM_HASH = "65db32862c113b95be498eb5372e64db7ee6e2b962d538dd73e34aaea8439cc068a4
 RPROVIDES:${PN} += "espeak \
 espeak(aarch-64) \
 libespeak.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

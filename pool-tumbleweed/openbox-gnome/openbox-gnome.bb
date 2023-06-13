@@ -9,6 +9,7 @@ RPM_HASH = "098a5f0ce95b88143ecb5b44fa7cf761351702e990b32a585a27668d80b31987cc2a
 
 RPROVIDES:${PN} += "openbox-gnome \
 openbox-gnome(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

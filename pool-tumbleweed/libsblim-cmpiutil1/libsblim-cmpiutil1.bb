@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libsblim-cmpiutil.so.1()(64bit) \
 libsblim-cmpiutil1 \
 libsblim-cmpiutil1(aarch-64) \
 sblim-cmpiutil"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.33)(64bit)"
 

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-antlr4-python3-runtime \
 python3.10dist(antlr4-python3-runtime) \
 python310-antlr4-python3-runtime \
 python3dist(antlr4-python3-runtime)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

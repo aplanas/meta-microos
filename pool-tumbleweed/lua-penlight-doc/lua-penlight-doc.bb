@@ -9,6 +9,7 @@ RPM_HASH = "0fbb24e63de4c871ea0dd5c3d8eb354f595fa14cf0389353de98fdaafe776370101e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-penlight-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

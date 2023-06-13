@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-pymod2pkg \
 python3.10dist(pymod2pkg) \
 python3dist(pymod2pkg)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-distro \

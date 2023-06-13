@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-fluidrelay \
 python3.10dist(azure-mgmt-fluidrelay) \
 python310-azure-mgmt-fluidrelay \
 python3dist(azure-mgmt-fluidrelay)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

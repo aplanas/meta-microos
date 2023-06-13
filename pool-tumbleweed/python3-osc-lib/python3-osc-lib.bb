@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-osc-lib \
 python3.10dist(osc-lib) \
 python3dist(osc-lib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-cliff \
 python3-keystoneauth1 \

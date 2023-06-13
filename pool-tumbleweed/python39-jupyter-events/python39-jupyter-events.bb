@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.9dist(jupyter-events) \
 python39-jupyter-events \
 python39-jupyter_events \
 python3dist(jupyter-events)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

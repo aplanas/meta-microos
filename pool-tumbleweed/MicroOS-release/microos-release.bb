@@ -24,6 +24,7 @@ product-url(releasenotes) \
 suse-release \
 suse-release-oss \
 system-installation()"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 glibc \

@@ -11,6 +11,7 @@ RPM_HASH = "7d8a6d43328ffd56bbbfada84268e040d98cc7c8b95dfebce32a12fbb67adab07f9b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-featpost"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

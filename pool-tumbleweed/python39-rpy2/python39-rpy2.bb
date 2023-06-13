@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(rpy2) \
 python39-rpy2 \
 python3dist(rpy2)"
+
 RDEPENDS:${PN} += "R-base \
 python(abi) \
 python39-cffi \

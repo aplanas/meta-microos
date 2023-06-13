@@ -10,6 +10,7 @@ RPM_HASH = "dd37262ae221c069bde506eb095e246d2472baf93051d3f89063ea0273713b9107b2
 RPROVIDES:${PN} += "ghc-constraints-prof \
 ghc-constraints-prof(aarch-64) \
 ghc-prof(constraints-0.13.4-8c0InBhz3htJzug27IqVE7)"
+
 RDEPENDS:${PN} += "ghc-constraints-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(binary-0.8.9.1) \

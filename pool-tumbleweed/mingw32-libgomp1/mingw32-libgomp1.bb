@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "mingw32(libgomp-1.dll) \
 mingw32-libgomp \
 mingw32-libgomp1 \
 mingw32-libgomp1(aarch-64)"
+
 RDEPENDS:${PN} += "mingw32(libgcc_s_sjlj-1.dll) \
 mingw32(libwinpthread-1.dll)"
 

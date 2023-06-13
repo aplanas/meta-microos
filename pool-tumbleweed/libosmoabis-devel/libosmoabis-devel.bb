@@ -15,6 +15,7 @@ RPM_HASH = "44c989f32bbad610c90def5aaff1cc8f88b0c4e46557a517f0810e1dd1f6e5b9136a
 RPROVIDES:${PN} += "libosmoabis-devel \
 libosmoabis-devel(aarch-64) \
 pkgconfig(libosmoabis)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmoabis10 \
 libosmocore-devel \

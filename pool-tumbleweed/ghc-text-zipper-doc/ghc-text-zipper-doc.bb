@@ -9,6 +9,7 @@ RPM_HASH = "c1f6f2eb5e178df045a8f55e87859519299d97cee5aada010f1f78c2dc95a766d8d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-text-zipper-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

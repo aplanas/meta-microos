@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cmake(OpenCLHeaders) \
 opencl-headers \
 pkgconfig(OpenCL-Headers)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

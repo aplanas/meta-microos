@@ -12,6 +12,7 @@ RPM_HASH = "65465f59271eb99a1e346f35db924f3549794c97b9b020f8f5bf3605af8092187ec5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libboost_python3-devel"
+
 RDEPENDS:${PN} += "libboost_python-py3-1_82_0-devel"
 
 inherit rpm

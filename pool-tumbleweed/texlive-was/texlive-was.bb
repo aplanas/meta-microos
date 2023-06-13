@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(icomma.sty) \
 tex(upgreek.sty) \
 texlive-was"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

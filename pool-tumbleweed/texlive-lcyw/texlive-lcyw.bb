@@ -16,6 +16,7 @@ tex(lcywcmssq.fd) \
 tex(lcywcmtt.fd) \
 tex(lcywenc.def) \
 texlive-lcyw"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

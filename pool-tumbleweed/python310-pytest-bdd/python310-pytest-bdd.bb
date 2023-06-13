@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-pytest-bdd \
 python3.10dist(pytest-bdd) \
 python310-pytest-bdd \
 python3dist(pytest-bdd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

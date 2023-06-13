@@ -9,6 +9,7 @@ RPM_HASH = "eae424f60eb3830bb9cc126c362435f5cb43c6cc8e24f3efaee9596d906db4c36202
 
 RPROVIDES:${PN} += "seahorse-sharing \
 seahorse-sharing(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-client.so.3()(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pattern() \
 pattern-icon() \
 patterns-microos-basesystem \
 patterns-microos-basesystem(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-perf-rec \
 python3.10dist(django-perf-rec) \
 python310-django-perf-rec \
 python3dist(django-perf-rec)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-PyYAML \

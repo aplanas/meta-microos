@@ -16,6 +16,7 @@ mimehandler(text/x-python) \
 python3.10dist(thonny) \
 python3dist(thonny) \
 thonny"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 desktop-file-utils \

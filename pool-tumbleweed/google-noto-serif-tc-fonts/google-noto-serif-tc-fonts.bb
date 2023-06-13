@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "google-noto-serif-tc-fonts \
 locale(zh_TW) \
 noto-serif-tc-fonts \
 scalable-font-zh-TW"
+
 RDEPENDS:${PN} += "google-noto-serif-tc-bold-fonts \
 google-noto-serif-tc-regular-fonts"
 

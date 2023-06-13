@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libKF5I18n.so.5()(64bit) \
 libKF5I18n5 \
 libKF5I18n5(aarch-64) \
 libKF5I18nLocaleData.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 iso-codes \
 iso-codes-lang \

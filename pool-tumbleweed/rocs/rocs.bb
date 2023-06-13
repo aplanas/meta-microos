@@ -20,6 +20,7 @@ mimehandler(application/x-rocs) \
 rocs \
 rocs(aarch-64) \
 rocs5"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGrantlee_Templates.so.5()(64bit) \

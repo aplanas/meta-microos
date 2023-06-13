@@ -11,6 +11,7 @@ RPM_HASH = "6c61ab97b9c543f0806688f55e9303cc45311a7563a1ad2c04c5164ce54d7517f33e
 RPROVIDES:${PN} += "pkgconfig(remmina) \
 remmina-devel \
 remmina-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 remmina"
 

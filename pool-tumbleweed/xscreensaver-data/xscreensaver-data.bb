@@ -26,6 +26,7 @@ application(substrate.desktop) \
 config(xscreensaver-data) \
 xscreensaver-data \
 xscreensaver-data(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \

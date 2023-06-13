@@ -21,6 +21,7 @@ pkgconfig(gwengui-gtk2) \
 pkgconfig(gwengui-gtk3) \
 pkgconfig(gwengui-qt5) \
 pkgconfig(gwenhywfar)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

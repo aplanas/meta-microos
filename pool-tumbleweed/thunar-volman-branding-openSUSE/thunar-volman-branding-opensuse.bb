@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(thunar-volman-branding-openSUSE) \
 thunar-volman-branding \
 thunar-volman-branding-openSUSE"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

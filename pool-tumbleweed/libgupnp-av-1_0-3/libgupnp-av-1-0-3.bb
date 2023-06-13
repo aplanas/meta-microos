@@ -11,6 +11,7 @@ RPM_HASH = "c59c11002ceee2177f96fc8d992e8db901ca253486533c61a0024c13107eb8b58862
 RPROVIDES:${PN} += "libgupnp-av-1.0.so.3()(64bit) \
 libgupnp-av-1_0-3 \
 libgupnp-av-1_0-3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gupnp-av \
 ld-linux-aarch64.so.1()(64bit) \

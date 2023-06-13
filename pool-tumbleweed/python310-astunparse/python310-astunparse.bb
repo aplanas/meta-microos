@@ -22,6 +22,7 @@ python3.10dist(astunparse) \
 python310-astunparse \
 python310-astunparse(aarch-64) \
 python3dist(astunparse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six \
 python310-wheel"

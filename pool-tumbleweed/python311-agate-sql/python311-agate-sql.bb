@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(agate-sql) \
 python311-agate-sql \
 python3dist(agate-sql)"
+
 RDEPENDS:${PN} += "(python311-sqlalchemy >= 1.0.8 with python311-sqlalchemy < 2) \
 python(abi) \
 python311-agate"

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3.11dist(python-levenshtein) \
 python311-Levenshtein \
 python311-Levenshtein(aarch-64) \
 python3dist(python-levenshtein)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

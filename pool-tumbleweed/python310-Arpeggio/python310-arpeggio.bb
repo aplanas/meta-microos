@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-Arpeggio \
 python3.10dist(arpeggio) \
 python310-Arpeggio \
 python3dist(arpeggio)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

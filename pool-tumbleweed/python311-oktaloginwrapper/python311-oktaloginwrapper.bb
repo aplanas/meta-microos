@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(oktaloginwrapper) \
 python311-oktaloginwrapper \
 python3dist(oktaloginwrapper)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-lxml \
 python311-requests"

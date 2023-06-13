@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libXm.so.4()(64bit) \
 libXm4 \
 libXm4(aarch-64) \
 openmotif-libs"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rescansync.sty) \
 texlive-rescansync"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

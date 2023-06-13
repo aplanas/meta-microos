@@ -10,6 +10,7 @@ RPM_HASH = "5030755b4883fae786c38df3a3003c1b03ff587d5f3d587c4bf3ca898a19e4146061
 RPROVIDES:${PN} += "ghc-cryptonite-prof \
 ghc-cryptonite-prof(aarch-64) \
 ghc-prof(cryptonite-0.30-AbDFzA14dNKDfU9pLpBLye)"
+
 RDEPENDS:${PN} += "ghc-cryptonite-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(basement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S) \

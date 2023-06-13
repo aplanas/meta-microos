@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-shared-utils \
 mvn(org.apache.maven.shared:maven-shared-utils) \
 mvn(org.apache.maven.shared:maven-shared-utils:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io)"

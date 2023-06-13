@@ -9,6 +9,7 @@ RPM_HASH = "08beb27943969c1fb4d59a85c17275ac29b5f1a1dec2938ddec7fdea8aea33b8a76e
 
 RPROVIDES:${PN} += "cmus-plugin-mikmod \
 cmus-plugin-mikmod(aarch-64)"
+
 RDEPENDS:${PN} += "cmus \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "92c7a0072db2e1a60cb541fedc3c7e8af4a631beb8bc4c47c5628b2a903d001e4ee8
 
 RPROVIDES:${PN} += "spirv-tools \
 spirv-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

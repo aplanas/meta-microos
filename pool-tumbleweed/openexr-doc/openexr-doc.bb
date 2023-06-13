@@ -13,6 +13,7 @@ RPM_HASH = "e7b2df46590076d506d011abf1f533ac56733b76df18aecb1ecb9c380e677cc6afae
 RPROVIDES:${PN} += "OpenEXR-doc \
 openexr-doc \
 openexr-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

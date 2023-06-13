@@ -12,6 +12,7 @@ RPM_HASH = "81ee746550a82e9850e95f4042f1bd6f241a4050359777017f46c3beaaaa267c4012
 RPROVIDES:${PN} += "mate-settings-daemon-devel \
 mate-settings-daemon-devel(aarch-64) \
 pkgconfig(mate-settings-daemon)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mate-settings-daemon \
 pkgconfig(dbus-1) \

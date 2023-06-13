@@ -41,6 +41,7 @@ firmware(cxgb4/t6-config.txt) \
 firmware(cxgb4/t6fw-1.27.1.0.bin) \
 firmware(cxgb4/t6fw.bin) \
 kernel-firmware-chelsio"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

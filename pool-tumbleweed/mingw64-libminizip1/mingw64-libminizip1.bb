@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mingw64(libminizip-1.dll) \
 mingw64-libminizip1 \
 mingw64-minizip"
+
 RDEPENDS:${PN} += "mingw64(libz.dll)"
 
 inherit rpm

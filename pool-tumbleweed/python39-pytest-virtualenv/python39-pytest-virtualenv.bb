@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-virtualenv) \
 python39-pytest-virtualenv \
 python3dist(pytest-virtualenv)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-path.py \
 python39-pytest-fixture-config \

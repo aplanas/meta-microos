@@ -27,6 +27,7 @@ RPM_HASH = "c360bb8f93b4b838dcd716f3679b8f0230537f1a9019bc4cdebbee8fec46b005adb7
 RPROVIDES:${PN} += "gstreamer-editing-services-devel \
 gstreamer-editing-services-devel(aarch-64) \
 pkgconfig(gst-editing-services-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gstreamer-editing-services \
 libges-1_0-0 \

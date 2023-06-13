@@ -15,6 +15,7 @@ RPM_HASH = "68dbf68afcf5498160fbaf6ebe3870edf21dbc6517ce4c2ba1ec43aa3ce44b1d9089
 RPROVIDES:${PN} += "libvoikko-devel \
 libvoikko-devel(aarch-64) \
 pkgconfig(libvoikko)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libvoikko1"

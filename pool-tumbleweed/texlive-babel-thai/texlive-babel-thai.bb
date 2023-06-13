@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(lthenc.def) \
 tex(thai.ldf) \
 tex(tis620.def) \
 texlive-babel-thai"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

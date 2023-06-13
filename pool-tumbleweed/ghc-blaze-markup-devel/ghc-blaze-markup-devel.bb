@@ -10,6 +10,7 @@ RPM_HASH = "361bd8149cde48e7dcd0367853d3bccaa2364273f29aaf4871c8fd6e1439275b8583
 RPROVIDES:${PN} += "ghc-blaze-markup-devel \
 ghc-blaze-markup-devel(aarch-64) \
 ghc-devel(blaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-blaze-markup \
 ghc-compiler \

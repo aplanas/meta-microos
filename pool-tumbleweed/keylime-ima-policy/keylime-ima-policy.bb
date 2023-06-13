@@ -10,6 +10,7 @@ RPM_HASH = "084ab4a039fbc50d6a1b5e6c5335fed2295551742eb2203153f0e2665ee1a53dc338
 RPROVIDES:${PN} += "config(keylime-ima-policy) \
 keylime-ima-policy \
 keylime-ima-policy(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

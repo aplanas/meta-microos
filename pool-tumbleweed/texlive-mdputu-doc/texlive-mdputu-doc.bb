@@ -9,6 +9,7 @@ RPM_HASH = "ecebe67e4de954402408e9315b3f2745e48439a5a53116139f35c796c7c24b8797b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mdputu-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

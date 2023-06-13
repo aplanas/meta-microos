@@ -22,6 +22,7 @@ RPM_HASH = "2144d26de35190b24df97599d84630d490d59417d91dbdfb3a223e08a87119ff53ac
 
 RPROVIDES:${PN} += "osmo-trx-usrp1 \
 osmo-trx-usrp1(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

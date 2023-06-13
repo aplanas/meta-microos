@@ -17,6 +17,7 @@ RPM_HASH = "1ab64f56dbc7694ea69ee217289dd1536984d180186f6fc868c64653890f363287be
 RPROVIDES:${PN} += "libpcre2-32-0 \
 libpcre2-32-0(aarch-64) \
 libpcre2-32.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

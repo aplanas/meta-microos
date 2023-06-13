@@ -9,6 +9,7 @@ RPM_HASH = "bfee8529817014d43b9ac1404080b58cd41a345239e214484c3cc17e16a6a82ff4f2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-taskwarrior"
+
 RDEPENDS:${PN} += "bumblebee-status \
 python3-taskw"
 

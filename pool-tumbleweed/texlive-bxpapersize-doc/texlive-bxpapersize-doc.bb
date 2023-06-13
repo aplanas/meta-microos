@@ -9,6 +9,7 @@ RPM_HASH = "bc52612cdcd827cab87e70be788f11a406f2fdee44dde93aeb4d458c963cecf2100a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxpapersize-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

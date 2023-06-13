@@ -12,6 +12,7 @@ RPM_HASH = "d46e98d5584d5146aab3e67e8f7006a61f0b477d072aa7621e12b9f507add4e43df9
 
 RPROVIDES:${PN} += "libbraiding-devel \
 libbraiding-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libbraiding0"
 
 inherit rpm

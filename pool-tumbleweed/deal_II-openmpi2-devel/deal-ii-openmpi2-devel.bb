@@ -11,6 +11,7 @@ RPM_HASH = "8515d5fc97a78939c62c3f14ba6215930775d1a8c839fd2e7ee125401e7adf742a2a
 RPROVIDES:${PN} += "deal_II-openmpi2-devel \
 deal_II-openmpi2-devel(aarch-64) \
 dealii-openmpi2-openmpi2-devel"
+
 RDEPENDS:${PN} += "libdeal_II9_4_2-openmpi2"
 
 inherit rpm

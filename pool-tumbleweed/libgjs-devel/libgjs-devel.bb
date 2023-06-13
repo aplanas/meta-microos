@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "gjs-devel \
 libgjs-devel \
 libgjs-devel(aarch-64) \
 pkgconfig(gjs-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gjs \
 libgjs0 \

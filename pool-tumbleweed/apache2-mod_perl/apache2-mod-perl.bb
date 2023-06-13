@@ -163,6 +163,7 @@ perl(ModPerl::TypeMap) \
 perl(ModPerl::Util) \
 perl(ModPerl::WrapXS) \
 perl(mod_perl2)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 apache2 \
 apache_mmn_20120211 \

@@ -14,6 +14,7 @@ RPM_HASH = "bdc105b36ab884f19c4702434c2ade989aadcddcd98c2149fe091ede5ad21a5ed8f8
 
 RPROVIDES:${PN} += "vorbis-tools \
 vorbis-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \

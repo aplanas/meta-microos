@@ -47,6 +47,7 @@ tex(omseti.tfm) \
 tex(omssti.tfm) \
 tex(srhyph.tex) \
 texlive-omega"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

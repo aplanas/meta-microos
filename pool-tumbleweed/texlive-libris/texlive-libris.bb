@@ -59,6 +59,7 @@ tex(ylyriw8t.vf) \
 tex(ylyrw8t.tfm) \
 tex(ylyrw8t.vf) \
 texlive-libris"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

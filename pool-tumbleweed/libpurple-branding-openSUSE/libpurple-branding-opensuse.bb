@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "config(libpurple-branding-openSUSE) \
 libpurple-branding \
 libpurple-branding-openSUSE \
 pidgin-branding-openSUSE"
+
 RDEPENDS:${PN} += "libpurple"
 
 inherit rpm

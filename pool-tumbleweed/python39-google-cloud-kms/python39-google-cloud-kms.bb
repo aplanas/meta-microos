@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(google-cloud-kms) \
 python39-google-cloud-kms \
 python3dist(google-cloud-kms)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-google-api-core \
 python39-grpc-google-iam-v1 \

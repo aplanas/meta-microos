@@ -11,6 +11,7 @@ RPM_HASH = "a4369587622c88a9267698ad50d738c29a850ac7193eacd54f3939d1fc7e2156591d
 RPROVIDES:${PN} += "libkea-asiodns.so.24()(64bit) \
 libkea-asiodns24 \
 libkea-asiodns24(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

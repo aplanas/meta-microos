@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(dvipos.1) \
 texlive-dvipos"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

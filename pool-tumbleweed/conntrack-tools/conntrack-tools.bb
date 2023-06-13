@@ -13,6 +13,7 @@ RPM_HASH = "c4f7d0837776d271fe15a54a95ac6479dab8f5d5a69473783de5073d9ebbdc7b8269
 
 RPROVIDES:${PN} += "conntrack-tools \
 conntrack-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

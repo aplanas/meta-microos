@@ -273,6 +273,7 @@ rust1.55-doc \
 rust1.55-src \
 rustup \
 rustup(aarch-64)"
+
 RDEPENDS:${PN} += "gcc \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

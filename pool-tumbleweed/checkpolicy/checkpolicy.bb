@@ -15,6 +15,7 @@ RPM_HASH = "924be521507f6ba1019d280f818c2146eeb0c6aea2b17ff4db115559f8943f86f8b5
 
 RPROVIDES:${PN} += "checkpolicy \
 checkpolicy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

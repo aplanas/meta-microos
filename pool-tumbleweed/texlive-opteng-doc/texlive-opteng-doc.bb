@@ -9,6 +9,7 @@ RPM_HASH = "eee93f63b9d8dba8bd343d8ae1e5f05bcbbd91985c7e8ae521fdd5846f4a87f6314f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-opteng-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

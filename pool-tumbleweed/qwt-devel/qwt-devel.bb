@@ -13,6 +13,7 @@ pkgconfig(qwt5-qt5) \
 qwt \
 qwt-devel \
 qwt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 freetype2-devel \
 gcc-c++ \

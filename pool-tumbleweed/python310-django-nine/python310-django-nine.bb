@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-nine \
 python3.10dist(django-nine) \
 python310-django-nine \
 python3dist(django-nine)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-packaging"
 

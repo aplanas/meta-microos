@@ -9,6 +9,7 @@ RPM_HASH = "074c1e43e00bb5aeb54d3073d9be035090b053e6fe32843faaa32f4cc81e6f8e8f72
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-splitbib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

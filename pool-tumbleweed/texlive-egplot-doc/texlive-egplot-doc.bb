@@ -9,6 +9,7 @@ RPM_HASH = "aa056d4c16a5eb86c1879b975ea8e0e9e49ce5a97eedd5ab9488bec42c2b6f170ff9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-egplot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

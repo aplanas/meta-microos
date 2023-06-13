@@ -12,6 +12,7 @@ RPM_HASH = "49342479301aed68e6befa97438f13a4d559a416d4c55f8facd1846176e33b684724
 RPROVIDES:${PN} += "libKF5KDGantt2-5 \
 libKF5KDGantt2-5(aarch-64) \
 libKF5KDGantt2.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdgantt2 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-PyOpenAL \
 python3.10dist(pyopenal) \
 python310-PyOpenAL \
 python3dist(pyopenal)"
+
 RDEPENDS:${PN} += "libopenal1 \
 python(abi)"
 

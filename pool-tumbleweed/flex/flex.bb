@@ -10,6 +10,7 @@ RPM_HASH = "10043ab14458619d8f591d3202bd5defa886f737c4cfef3df220778665f83898d243
 
 RPROVIDES:${PN} += "flex \
 flex(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

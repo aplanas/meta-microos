@@ -12,6 +12,7 @@ RPM_HASH = "9e767fff784f6d0dfd926b06ba5fd7cf8504ad13c2d70d46463034d33afc06eb82d2
 RPROVIDES:${PN} += "typelib(Kkc) \
 typelib-1_0-kkc-1_0 \
 typelib-1_0-kkc-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libkkc.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(hatch-jupyter-builder) \
 python311-hatch-jupyter-builder \
 python311-hatch_jupyter_builder \
 python3dist(hatch-jupyter-builder)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \

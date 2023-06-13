@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pbkdf2 \
 python3.10dist(pbkdf2) \
 python310-pbkdf2 \
 python3dist(pbkdf2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pycrypto"
 

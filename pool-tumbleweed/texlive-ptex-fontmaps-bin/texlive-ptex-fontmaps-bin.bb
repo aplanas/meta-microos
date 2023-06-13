@@ -9,6 +9,7 @@ RPM_HASH = "0406651e9275082b0319780fca380bba1806fff0ca825b40b5848374d0c74c12a58a
 
 RPROVIDES:${PN} += "texlive-ptex-fontmaps-bin \
 texlive-ptex-fontmaps-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-ptex-fontmaps"
 
 inherit rpm

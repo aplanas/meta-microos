@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pika-pool \
 python3.10dist(pika-pool) \
 python310-pika-pool \
 python3dist(pika-pool)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pika"
 

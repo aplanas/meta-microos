@@ -11,6 +11,7 @@ RPM_HASH = "0bbb14fdf68f9afcccd7d9866081d3c56ca73856d6d8bbd1fc63cf1d4a2431872fc3
 RPROVIDES:${PN} += "libbraiding.so.0()(64bit) \
 libbraiding0 \
 libbraiding0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

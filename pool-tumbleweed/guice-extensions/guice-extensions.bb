@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "guice-extensions \
 mvn(com.google.inject.extensions:extensions-parent:pom:) \
 mvn(org.sonatype.sisu.inject:extensions-parent:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

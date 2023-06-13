@@ -16,6 +16,7 @@ RPM_HASH = "762e96ba11427a750f6c8d9b8f493e48bd174cf5b36fa2ab9c6ee031d26dbf64ae88
 RPROVIDES:${PN} += "config(mate-netbook) \
 mate-netbook \
 mate-netbook(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -15,6 +15,7 @@ metainfo() \
 metainfo(org.opensuse.yast.Mail.metainfo.xml) \
 perl(MasterCFParser) \
 yast2-mail"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \

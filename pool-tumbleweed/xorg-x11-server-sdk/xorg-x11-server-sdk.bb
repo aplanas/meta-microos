@@ -17,6 +17,7 @@ rpm_macro(x11_abi_xinput_req) \
 xorg-x11-sdk \
 xorg-x11-server-sdk \
 xorg-x11-server-sdk(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 autoconf \
 automake \

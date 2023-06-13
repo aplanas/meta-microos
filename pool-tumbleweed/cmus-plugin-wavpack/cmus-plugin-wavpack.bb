@@ -9,6 +9,7 @@ RPM_HASH = "7df9b80f5654be24502c119f8534c8b3108c11de43ce8af59e66cacbc8b89e7f02e2
 
 RPROVIDES:${PN} += "cmus-plugin-wavpack \
 cmus-plugin-wavpack(aarch-64)"
+
 RDEPENDS:${PN} += "cmus \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

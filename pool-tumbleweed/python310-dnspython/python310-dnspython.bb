@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "python3-dnspython \
 python3.10dist(dnspython) \
 python310-dnspython \
 python3dist(dnspython)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography \
 python310-httpx \

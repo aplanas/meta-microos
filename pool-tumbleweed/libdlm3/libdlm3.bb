@@ -16,6 +16,7 @@ libdlm_lt.so.3()(64bit) \
 libdlm_lt.so.3(V_4.1.0)(64bit) \
 libdlmcontrol.so.3()(64bit) \
 libdlmcontrol.so.3(V_4.1.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

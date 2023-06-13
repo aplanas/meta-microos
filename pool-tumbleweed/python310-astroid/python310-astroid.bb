@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-astroid \
 python3.10dist(astroid) \
 python310-astroid \
 python3dist(astroid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lazy-object-proxy \
 python310-typing-extensions \

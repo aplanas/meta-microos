@@ -13,6 +13,7 @@ RPM_HASH = "181c525b75bdd8832c492cf15c9eba5b8f622032799a5e04492850f07af78737d964
 
 RPROVIDES:${PN} += "wsmancli \
 wsmancli(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

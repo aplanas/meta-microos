@@ -30,6 +30,7 @@ rpm_macro(goinstall) \
 rpm_macro(goprep) \
 rpm_macro(gosrc) \
 rpm_macro(gotest)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 go"
 

@@ -9,6 +9,7 @@ RPM_HASH = "8d0448ccd7deff1f2806cca8c7f724aaa07781f465c253c819879bddcd79f6b9160e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-arimo-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

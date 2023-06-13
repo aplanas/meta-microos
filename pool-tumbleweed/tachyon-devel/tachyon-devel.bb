@@ -13,6 +13,7 @@ RPM_HASH = "38d7f7180342b03b3d62a87e72e8d5f594efed54e003e26718c48dcd9a007aac0aa4
 RPROVIDES:${PN} += "libtachyon-devel \
 tachyon-devel \
 tachyon-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtachyon-0_99_5"
 
 inherit rpm

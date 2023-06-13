@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(svgpathtools) \
 python311-svgpathtools \
 python3dist(svgpathtools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-numpy \
 python311-scipy \

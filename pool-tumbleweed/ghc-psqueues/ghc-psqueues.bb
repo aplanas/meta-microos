@@ -47,6 +47,7 @@ RPM_HASH = "752df6be6f2ac48502410cd3b893b239b7ed243841a69adc148c9c1b7ee488fde4eb
 RPROVIDES:${PN} += "ghc-psqueues \
 ghc-psqueues(aarch-64) \
 libHSpsqueues-0.2.7.3-F3Vf47seRPn11NfFVgsy6O-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

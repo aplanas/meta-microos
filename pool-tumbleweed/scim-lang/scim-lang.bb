@@ -37,6 +37,7 @@ locale(scim:zh_CN) \
 locale(scim:zh_TW) \
 scim-lang \
 scim-lang-all"
+
 RDEPENDS:${PN} += "scim"
 
 inherit rpm

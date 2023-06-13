@@ -12,6 +12,7 @@ RPM_HASH = "dd22618211484aeb95304b883a3cc06c2c7e4950f891a9e85f8618463619935a4a42
 
 RPROVIDES:${PN} += "celt051 \
 celt051(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(qucs-s.desktop) \
 qucs-s \
 qucs-s(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "1859226ce2e98584b3ab56b6a23ff4234c805b8a27943e029c20f845186ed928bc3a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-braids-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

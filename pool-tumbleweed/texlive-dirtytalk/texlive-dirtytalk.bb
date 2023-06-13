@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dirtytalk.sty) \
 texlive-dirtytalk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

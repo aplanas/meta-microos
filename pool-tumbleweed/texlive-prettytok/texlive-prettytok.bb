@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(prettytok.sty) \
 texlive-prettytok"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

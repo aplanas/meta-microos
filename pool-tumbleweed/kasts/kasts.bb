@@ -27,6 +27,7 @@ metainfo() \
 metainfo(org.kde.kasts.appdata.xml) \
 qt5qmlimport(org.kde.kasts.solidextras.1) \
 qt5qmlimport(org.kde.kmediasession.1)"
+
 RDEPENDS:${PN} += "kirigami-addons \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

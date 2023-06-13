@@ -11,6 +11,7 @@ RPM_HASH = "014aa2d76b109ad5974b046b9de2308fda229c04f2d6444bb7ca973ec892c7953c76
 RPROVIDES:${PN} += "libimageviewer-devel \
 libimageviewer-devel(aarch-64) \
 pkgconfig(libimageviewer)"
+
 RDEPENDS:${PN} += "libimageviewer0_1"
 
 inherit rpm

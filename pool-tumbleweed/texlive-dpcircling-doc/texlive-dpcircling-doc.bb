@@ -9,6 +9,7 @@ RPM_HASH = "0d04469c9c1bfd8d48a3d9eb6c7d872496ec4c31f70941fc4d7fa951db53a28f51b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dpcircling-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "e98409f6b1caf8e3fb0390310507c27297f11b277aa6df33f0c1b2955db6d277b693
 
 RPROVIDES:${PN} += "qt6-shadertools-private-devel \
 qt6-shadertools-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6ShaderTools) \
 qt6-core-private-devel"
 

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "hicolor-icon-theme \
 rpm_macro(icon_theme_cache_create_ghost) \
 rpm_macro(icon_theme_cache_post) \
 rpm_macro(icon_theme_cache_postun)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

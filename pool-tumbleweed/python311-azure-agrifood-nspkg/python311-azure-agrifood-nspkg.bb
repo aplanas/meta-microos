@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-agrifood-nspkg) \
 python311-azure-agrifood-nspkg \
 python3dist(azure-agrifood-nspkg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-nspkg"
 

@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Crypt::JWT) \
 perl(Crypt::KeyWrap) \
 perl-Crypt-JWT"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Compress::Raw::Zlib) \
 perl(CryptX) \

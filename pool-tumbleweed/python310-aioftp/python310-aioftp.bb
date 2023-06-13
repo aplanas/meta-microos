@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aioftp \
 python3.10dist(aioftp) \
 python310-aioftp \
 python3dist(aioftp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-siosocks"
 

@@ -25,6 +25,7 @@ RPM_HASH = "00436f09084887bee52606b6c326ea5e0f8f43d225b67eca61dd6b64409687e7d9d1
 RPROVIDES:${PN} += "gnumeric-devel \
 gnumeric-devel(aarch-64) \
 pkgconfig(libspreadsheet-1.12)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnumeric \
 pkgconfig(glib-2.0) \

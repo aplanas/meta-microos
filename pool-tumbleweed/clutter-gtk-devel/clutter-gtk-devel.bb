@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "clutter-gtk-devel \
 clutter-gtk-devel(aarch-64) \
 clutter-gtk-doc \
 pkgconfig(clutter-gtk-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libclutter-gtk-1_0-0 \
 pkgconfig(clutter-1.0) \

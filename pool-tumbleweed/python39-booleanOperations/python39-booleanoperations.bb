@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(booleanoperations) \
 python39-booleanOperations \
 python3dist(booleanoperations)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-FontTools \
 python39-pyclipper"

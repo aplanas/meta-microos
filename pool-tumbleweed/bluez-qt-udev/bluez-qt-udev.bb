@@ -10,6 +10,7 @@ RPM_HASH = "a3fc437ea568fb2191c62eba49e5bec9acdb2cd3ac8717128735ab1359edf38b4fb5
 
 RPROVIDES:${PN} += "bluez-qt-udev \
 bluez-qt-udev(aarch-64)"
+
 RDEPENDS:${PN} += "udev"
 
 inherit rpm

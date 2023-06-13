@@ -20,6 +20,7 @@ texlive-tetex-bin:/usr/bin/texconfig-dialog \
 texlive-tetex-bin:/usr/bin/texconfig-sys \
 texlive-tetex-bin:/usr/bin/texlinks \
 texlive-texconfig-bin:/usr/bin/texconfig"
+
 RDEPENDS:${PN} += "/bin/sh \
 texlive-scripts-extra"
 

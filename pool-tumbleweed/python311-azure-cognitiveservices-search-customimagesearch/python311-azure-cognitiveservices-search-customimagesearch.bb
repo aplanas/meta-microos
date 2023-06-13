@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-search-customimagesearch) \
 python311-azure-cognitiveservices-search-customimagesearch \
 python3dist(azure-cognitiveservices-search-customimagesearch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-msrest"

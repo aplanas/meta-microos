@@ -16,6 +16,7 @@ RPM_HASH = "2b133080087a4b63ee9af81fb0d79c8afc66f9f05090bbc2a78779dc8f161cbd8595
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libX11-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

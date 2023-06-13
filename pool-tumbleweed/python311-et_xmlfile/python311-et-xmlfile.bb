@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(et-xmlfile) \
 python311-et_xmlfile \
 python3dist(et-xmlfile)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-jdcal \
 python311-lxml"

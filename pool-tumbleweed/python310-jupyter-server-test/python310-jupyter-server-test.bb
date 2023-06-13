@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-server-test \
 python310-jupyter-server-test"
+
 RDEPENDS:${PN} += "python310-ipykernel \
 python310-jupyter-server \
 python310-pytest \

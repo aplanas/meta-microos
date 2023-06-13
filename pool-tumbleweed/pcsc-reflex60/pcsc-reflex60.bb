@@ -20,6 +20,7 @@ RPM_HASH = "096a417ded061b3d81dfb4c774fb5d086520b0b347fb811a48b4c784447dafe2def0
 RPROVIDES:${PN} += "libslb_rf60.so()(64bit) \
 pcsc-reflex60 \
 pcsc-reflex60(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

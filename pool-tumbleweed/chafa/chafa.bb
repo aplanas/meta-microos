@@ -11,6 +11,7 @@ RPM_HASH = "8ff27dfbadd156533efe7ef7bc39ef3f426c26dbb82fba167fbb3bfb80a440ce6cee
 
 RPROVIDES:${PN} += "chafa \
 chafa(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMagickWand-7.Q16HDRI.so.10()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "da56f9c33c20e27b927ad5a8eda3ce7ba44ef58b3f7c146f102cbec53ab4e7d3fc79
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wallstreet"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

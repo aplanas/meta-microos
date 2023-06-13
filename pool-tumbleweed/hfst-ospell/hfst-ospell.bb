@@ -10,6 +10,7 @@ RPM_HASH = "e1c6a386e904eb4538afb28743c4d01bfb9df31da976d9c97eaf649d11d2edf5b6ba
 
 RPROVIDES:${PN} += "hfst-ospell \
 hfst-ospell(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

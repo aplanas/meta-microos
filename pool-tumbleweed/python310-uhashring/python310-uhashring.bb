@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-uhashring \
 python3.10dist(uhashring) \
 python310-uhashring \
 python3dist(uhashring)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

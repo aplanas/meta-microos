@@ -9,6 +9,7 @@ RPM_HASH = "0e74be3c5a50fe535f5155f30d01a716ad406eff6caeb69a64c939ed16f7a92dfb81
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-charissil-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

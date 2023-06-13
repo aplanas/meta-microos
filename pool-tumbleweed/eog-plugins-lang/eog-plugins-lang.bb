@@ -70,6 +70,7 @@ locale(eog-plugins:vi) \
 locale(eog-plugins:zh_CN) \
 locale(eog-plugins:zh_HK) \
 locale(eog-plugins:zh_TW)"
+
 RDEPENDS:${PN} += "eog-plugins"
 
 inherit rpm

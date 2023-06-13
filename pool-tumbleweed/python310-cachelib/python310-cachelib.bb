@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cachelib \
 python3.10dist(cachelib) \
 python310-cachelib \
 python3dist(cachelib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

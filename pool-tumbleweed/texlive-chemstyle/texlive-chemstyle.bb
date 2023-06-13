@@ -28,6 +28,7 @@ tex(orglett.chemstyle.cfg) \
 tex(rsc.chemstyle.cfg) \
 tex(tetlett.chemstyle.cfg) \
 texlive-chemstyle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

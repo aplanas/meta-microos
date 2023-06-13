@@ -37,6 +37,7 @@ mimehandler(application/x-nrg) \
 mimehandler(application/x-wii-iso-image) \
 mimehandler(application/x-xcdroast) \
 mimehandler(application/x-xmd)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3 \
 python3-dbus-python \

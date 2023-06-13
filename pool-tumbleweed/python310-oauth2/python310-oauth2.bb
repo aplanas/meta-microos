@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-oauth2 \
 python3.10dist(oauth2) \
 python310-oauth2 \
 python3dist(oauth2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-httplib2"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mypaint-brushes-devel \
 pkgconfig(mypaint-brushes-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mypaint-brushes"
 

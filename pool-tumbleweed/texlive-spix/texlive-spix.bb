@@ -15,6 +15,7 @@ RPM_HASH = "ca0874edf9574b108092487ac1dc51067b93c0e6b7fa9aacfb56c3796393ad5051e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spix"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

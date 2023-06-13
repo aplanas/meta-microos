@@ -10,6 +10,7 @@ RPM_HASH = "24cfe03c3f8d589616c312d8c983a586039f133aad8a9a5603cbd4b0b49c66fb36e7
 RPROVIDES:${PN} += "libaudqt.so.2()(64bit) \
 libaudqt2 \
 libaudqt2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

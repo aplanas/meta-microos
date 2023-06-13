@@ -12,6 +12,7 @@ RPM_HASH = "833bd048c30846ef4dbf5dcb47182d91a2f1a8abae3ca3d8c259722f3f1dce7bc1a9
 
 RPROVIDES:${PN} += "mdevctl \
 mdevctl(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

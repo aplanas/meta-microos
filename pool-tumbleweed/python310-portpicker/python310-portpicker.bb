@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-portpicker \
 python3.10dist(portpicker) \
 python310-portpicker \
 python3dist(portpicker)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

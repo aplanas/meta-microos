@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-vim-vint \
 python3.10dist(vim-vint) \
 python310-vim-vint \
 python3dist(vim-vint)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

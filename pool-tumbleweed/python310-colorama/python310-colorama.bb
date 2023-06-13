@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-colorama \
 python3.10dist(colorama) \
 python310-colorama \
 python3dist(colorama)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

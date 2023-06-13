@@ -10,6 +10,7 @@ RPM_HASH = "3fc2e512ac64c7479e62dd057f11685ae6c4157b7fc0c9fdf7e73b593ffdc72edb56
 RPROVIDES:${PN} += "libboost_locale-devel-impl \
 libboost_locale1_82_0-devel \
 libboost_locale1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_chrono1_82_0-devel \
 libboost_headers1_82_0-devel \
 libboost_locale1_82_0 \

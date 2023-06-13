@@ -10,6 +10,7 @@ RPM_HASH = "03f861abb08e4cda9eeb16545f6122652a6876db89245307faed5dd0e4a093b2ff77
 RPROVIDES:${PN} += "libdde-file-manager.so.5()(64bit) \
 libdde-file-manager5 \
 libdde-file-manager5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libKF5Codecs.so.5()(64bit) \
 libQt5Core.so.5()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "6e721a3f7a0521c489249533eb865959a61de788f84df0710e96df55ff44313f6eaa
 RPROVIDES:${PN} += "ghc-Diff-devel \
 ghc-Diff-devel(aarch-64) \
 ghc-devel(Diff-0.4.1-CiDqeLEcsRQOQjfgZOPVP)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-Diff \
 ghc-compiler \

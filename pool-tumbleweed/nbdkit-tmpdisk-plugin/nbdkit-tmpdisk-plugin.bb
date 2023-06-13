@@ -9,6 +9,7 @@ RPM_HASH = "d17423bb249b5e06971357fba073c527f4c4c2849b18497b849c5a145968fc9fe4d6
 
 RPROVIDES:${PN} += "nbdkit-tmpdisk-plugin \
 nbdkit-tmpdisk-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "e2fsprogs \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

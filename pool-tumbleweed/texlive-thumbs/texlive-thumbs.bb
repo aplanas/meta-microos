@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(thumbs.sty) \
 texlive-thumbs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

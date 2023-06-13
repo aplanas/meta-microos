@@ -10,6 +10,7 @@ RPM_HASH = "9330ded120d18859ce8211b2f1631742d0da36ec845367837613d5b46ec1ea98047d
 RPROVIDES:${PN} += "python-efl-doc \
 python-efl-doc(aarch-64) \
 python3-efl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

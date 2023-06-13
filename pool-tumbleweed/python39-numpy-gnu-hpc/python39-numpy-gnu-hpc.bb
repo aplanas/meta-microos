@@ -11,6 +11,7 @@ RPM_HASH = "dfe3ae706b171498b3c608f229d8dcba8ebef73fbe9d0226dd55cbe1f03c72a16359
 
 RPROVIDES:${PN} += "python39-numpy-gnu-hpc \
 python39-numpy-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python39-numpy_1_24_2-gnu-hpc"
 

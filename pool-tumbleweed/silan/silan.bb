@@ -13,6 +13,7 @@ RPM_HASH = "863a4a7179e18eae10bc65c98af35c1ea988b203cb2e858d1b2e68eb84a2b547c274
 
 RPROVIDES:${PN} += "silan \
 silan(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.58.134()(64bit) \

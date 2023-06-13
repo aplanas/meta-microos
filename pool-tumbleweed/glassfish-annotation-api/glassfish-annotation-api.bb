@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "glassfish-annotation-api \
 mvn(javax.annotation:javax.annotation-api) \
 mvn(javax.annotation:javax.annotation-api:pom:) \
 osgi(javax.annotation-api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

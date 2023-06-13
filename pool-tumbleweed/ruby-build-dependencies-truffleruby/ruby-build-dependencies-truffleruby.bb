@@ -9,6 +9,7 @@ RPM_HASH = "604cf0d315bbbbb3b97ad0821ce3774ae780d7ad538a43418d92f4a89a4c3bd6d777
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-build-dependencies-truffleruby"
+
 RDEPENDS:${PN} += "gcc \
 openssl-devel"
 

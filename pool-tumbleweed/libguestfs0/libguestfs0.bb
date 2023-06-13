@@ -11,6 +11,7 @@ RPM_HASH = "775488010bd04763de8986fed63952d73b019568ce7032f63fa76495cea571689711
 RPROVIDES:${PN} += "libguestfs.so.0()(64bit) \
 libguestfs0 \
 libguestfs0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/qemu-system-aarch64 \
 ld-linux-aarch64.so.1()(64bit) \

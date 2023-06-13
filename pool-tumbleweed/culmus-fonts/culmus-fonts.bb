@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "culmus-fonts \
 locale(he)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

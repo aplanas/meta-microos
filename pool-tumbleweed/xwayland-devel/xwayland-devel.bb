@@ -10,6 +10,7 @@ RPM_HASH = "190491226fa7d706a2fc3413f606f27ad5bc660f26cf3c4a4a95ec65e7653cf40e2d
 RPROVIDES:${PN} += "pkgconfig(xwayland) \
 xwayland-devel \
 xwayland-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 c_compiler \
 meson \

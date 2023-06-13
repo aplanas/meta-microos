@@ -11,6 +11,7 @@ RPM_HASH = "aecaf195136a15186425b9ef0bbf18357e7521c1147df22df8e9ee3aa6905591c0f7
 
 RPROVIDES:${PN} += "update-test-broken \
 update-test-broken(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

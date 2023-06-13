@@ -10,6 +10,7 @@ RPM_HASH = "59f0e20b0252378201e83c23a65d622baacab7644935937010c3c8110fbd8c57c7dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "findbugs-tools"
+
 RDEPENDS:${PN} += "findbugs \
 junit"
 

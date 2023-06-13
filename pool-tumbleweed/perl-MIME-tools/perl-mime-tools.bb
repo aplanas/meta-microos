@@ -39,6 +39,7 @@ perl(MIME::WordDecoder::US_ASCII) \
 perl(MIME::WordDecoder::UTF_8) \
 perl(MIME::Words) \
 perl-MIME-tools"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Temp) \
 perl(Mail::Field) \

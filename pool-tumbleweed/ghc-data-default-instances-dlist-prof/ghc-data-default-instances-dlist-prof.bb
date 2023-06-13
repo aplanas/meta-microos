@@ -10,6 +10,7 @@ RPM_HASH = "7d6ab9d0affbf5fdc9c463579d951711f40fb60f5f8eecf1b60c9d4c9b6cdeee812b
 RPROVIDES:${PN} += "ghc-data-default-instances-dlist-prof \
 ghc-data-default-instances-dlist-prof(aarch-64) \
 ghc-prof(data-default-instances-dlist-0.0.1-Bmo6e1Lr8bt987tygJ1EBf)"
+
 RDEPENDS:${PN} += "ghc-data-default-instances-dlist-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ) \

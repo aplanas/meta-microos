@@ -10,6 +10,7 @@ RPM_HASH = "0317a537fbf14dfa7da4a432aa5967b6a7cef441acf7ab59df9120f2a817be78508e
 RPROVIDES:${PN} += "config(freeradius-server-postgresql) \
 freeradius-server-postgresql \
 freeradius-server-postgresql(aarch-64)"
+
 RDEPENDS:${PN} += "freeradius-server \
 libc.so.6(GLIBC_2.17)(64bit) \
 libpq.so.5()(64bit)"

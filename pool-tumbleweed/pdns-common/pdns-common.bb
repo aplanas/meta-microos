@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(pdns) \
 pdns-common \
 user(pdns)"
+
 RDEPENDS:${PN} += "/bin/sh \
 shadow \
 sysuser-shadow"

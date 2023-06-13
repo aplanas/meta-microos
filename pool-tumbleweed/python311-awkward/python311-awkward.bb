@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(awkward) \
 python311-awkward \
 python3dist(awkward)"
+
 RDEPENDS:${PN} += "(python311-importlib-resources if python311-base < 3.9) \
 (python311-typing-extensions >= 4.1.0 if python311-base < 3.11) \
 python(abi) \

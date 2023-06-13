@@ -12,6 +12,7 @@ RPM_HASH = "b675ce1786cfe9cb934ed588a25f16426acb2f632ae0c542e010804a23f5cbe3a8df
 RPROVIDES:${PN} += "cinnamon-settings-daemon-devel \
 cinnamon-settings-daemon-devel(aarch-64) \
 pkgconfig(cinnamon-settings-daemon)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cinnamon-settings-daemon \
 pkgconfig(glib-2.0)"

@@ -9,6 +9,7 @@ RPM_HASH = "1a99589a0feef807ab89f822fdba9364bd12cecf563eb9ed685ec012d2e842e8bd43
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-vpn"
+
 RDEPENDS:${PN} += "bumblebee-status \
 python3-tk"
 

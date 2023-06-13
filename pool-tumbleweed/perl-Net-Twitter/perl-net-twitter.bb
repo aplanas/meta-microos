@@ -42,6 +42,7 @@ perl(Net::Twitter::Search) \
 perl(Net::Twitter::Types) \
 perl(Net::Twitter::WrappedResult) \
 perl-Net-Twitter"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp::Clan) \
 perl(Class::Load) \

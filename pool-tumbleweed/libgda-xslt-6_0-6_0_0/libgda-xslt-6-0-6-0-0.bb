@@ -13,6 +13,7 @@ RPM_HASH = "7b933e256fb9448a98b0e66fd5b617cd5ab0946d1585e9e83e2036d0a412d53b00dd
 RPROVIDES:${PN} += "libgda-xslt-6.0.so.6.0.0()(64bit) \
 libgda-xslt-6_0-6_0_0 \
 libgda-xslt-6_0-6_0_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -27,6 +27,7 @@ osgi(slf4j.api) \
 osgi(slf4j.nop) \
 osgi(slf4j.simple) \
 slf4j"
+
 RDEPENDS:${PN} += "cal10n \
 java \
 java-headless \

@@ -9,6 +9,7 @@ RPM_HASH = "1e0d570dc7aa315e49bd5c5883e722dcec0579c1fcb0b7fa496d90f99a30e2d42861
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bat-bash-completion"
+
 RDEPENDS:${PN} += "bat"
 
 inherit rpm

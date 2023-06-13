@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libXScrnSaver-devel \
 libXss-devel \
 libXss-devel(aarch-64) \
 pkgconfig(xscrnsaver)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXss1 \
 pkgconfig(scrnsaverproto) \

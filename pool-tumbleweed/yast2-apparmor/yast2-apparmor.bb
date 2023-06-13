@@ -14,6 +14,7 @@ application(org.opensuse.yast.Apparmor.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.Apparmor.metainfo.xml) \
 yast2-apparmor"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-ruby-bindings"
 

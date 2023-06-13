@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(yb-book.cls) \
 texlive-yb-book"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

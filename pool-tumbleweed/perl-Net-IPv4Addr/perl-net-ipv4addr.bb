@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "Net \
 perl(Net::IPv4Addr) \
 perl-Net-IPv4Addr \
 perl-Net-IPv4Addr(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

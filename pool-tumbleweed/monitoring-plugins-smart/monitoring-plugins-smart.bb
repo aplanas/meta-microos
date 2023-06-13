@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(monitoring-plugins-smart) \
 monitoring-plugins-smart \
 nagios-plugins-smart"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 monitoring-plugins-common \
 perl(File::Basename) \

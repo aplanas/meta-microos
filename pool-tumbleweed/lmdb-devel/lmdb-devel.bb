@@ -19,6 +19,7 @@ RPM_HASH = "d8cbb926f0034088a95abc2ad4b2c50145f165a62a3378ea042cf823a7789d0f642f
 RPROVIDES:${PN} += "lmdb-devel \
 lmdb-devel(aarch-64) \
 pkgconfig(lmdb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblmdb-0_9_30"
 

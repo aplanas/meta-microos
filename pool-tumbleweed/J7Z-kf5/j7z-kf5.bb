@@ -10,6 +10,7 @@ RPM_HASH = "cd549029ebea7ada7db62ababce44038283bb3b6db296bd43b0f22258b490f87dec6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "J7Z-kf5"
+
 RDEPENDS:${PN} += "J7Z"
 
 inherit rpm

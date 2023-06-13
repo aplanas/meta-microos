@@ -15,6 +15,7 @@ RPM_HASH = "c9847e26f72c546109bc9e373f945652e895585aca58e5457e02c21f8e28fc073931
 RPROVIDES:${PN} += "libsndio.so.7.1()(64bit) \
 libsndio7_1 \
 libsndio7_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

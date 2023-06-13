@@ -9,6 +9,7 @@ RPM_HASH = "1b207f5bf418e4d75eb414d423154f686aae492459bb2d5cd6dbae795f8b732d9a5b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-asypictureb-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

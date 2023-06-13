@@ -9,6 +9,7 @@ RPM_HASH = "5e762ec36be91ffad234b607e9e43576a5fa2541f86f2c60ec007134fdb8c7deade5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "retry"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

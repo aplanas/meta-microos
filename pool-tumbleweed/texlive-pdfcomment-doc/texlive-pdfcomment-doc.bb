@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pdfcomment-doc:en;de) \
 texlive-pdfcomment-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

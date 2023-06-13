@@ -12,6 +12,7 @@ ghc-haskeline-devel \
 ghc-haskeline-devel(aarch-64) \
 ghc-haskeline-static \
 ghc-haskeline-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-devel(bytestring-0.11.4.0) \

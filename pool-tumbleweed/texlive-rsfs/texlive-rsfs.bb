@@ -20,6 +20,7 @@ tex(rsfs5.tfm) \
 tex(rsfs7.tfm) \
 tex(scrload.tex) \
 texlive-rsfs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

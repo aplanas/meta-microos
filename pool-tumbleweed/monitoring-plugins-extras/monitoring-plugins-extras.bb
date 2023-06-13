@@ -11,6 +11,7 @@ RPM_HASH = "374c76b296fd29d829603098a80727738d60dbe1f0969dd8bd2ebbb00a49b5470b7a
 RPROVIDES:${PN} += "monitoring-plugins-extras \
 monitoring-plugins-extras(aarch-64) \
 nagios-plugins-extras"
+
 RDEPENDS:${PN} += "monitoring-plugins-common"
 
 inherit rpm

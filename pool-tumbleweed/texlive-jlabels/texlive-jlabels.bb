@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jlabels.sty) \
 texlive-jlabels"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

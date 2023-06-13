@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-hammett \
 python3.10dist(hammett) \
 python310-hammett \
 python3dist(hammett)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-astunparse \
 python310-colorama"

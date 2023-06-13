@@ -13,6 +13,7 @@ locale(lshw:es) \
 locale(lshw:fr) \
 lshw-lang \
 lshw-lang-all"
+
 RDEPENDS:${PN} += "lshw"
 
 inherit rpm

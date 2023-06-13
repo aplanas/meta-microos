@@ -38,6 +38,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(strictures) \
 perl(strictures::extra) \
 perl-strictures"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jwcrypto) \
 python39-jwcrypto \
 python3dist(jwcrypto)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Deprecated \
 python39-cryptography"

@@ -12,6 +12,7 @@ RPM_HASH = "cdec2cb773a314136c44a7bb2c78d3ace5d2f07c4424607f5defb8d9cd5feb8968fa
 RPROVIDES:${PN} += "librttr_core.so.0.9.6()(64bit) \
 librttr_core0_9_6 \
 librttr_core0_9_6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

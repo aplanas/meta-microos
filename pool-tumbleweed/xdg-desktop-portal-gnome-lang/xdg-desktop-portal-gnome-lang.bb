@@ -54,6 +54,7 @@ locale(xdg-desktop-portal-gnome:zh_CN) \
 locale(xdg-desktop-portal-gnome:zh_TW) \
 xdg-desktop-portal-gnome-lang \
 xdg-desktop-portal-gnome-lang-all"
+
 RDEPENDS:${PN} += "xdg-desktop-portal-gnome"
 
 inherit rpm

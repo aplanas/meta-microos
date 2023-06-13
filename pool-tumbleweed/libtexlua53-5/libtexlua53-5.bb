@@ -11,6 +11,7 @@ RPM_HASH = "357ea5db94a2f31deedfa3638f75476a89ee93370423af534a6ccee880954dc08675
 RPROVIDES:${PN} += "libtexlua53-5 \
 libtexlua53-5(aarch-64) \
 libtexlua53.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(edmargin.sty) \
 texlive-edmargin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

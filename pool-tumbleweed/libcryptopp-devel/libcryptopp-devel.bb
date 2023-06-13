@@ -13,6 +13,7 @@ RPM_HASH = "500f3cb56a469456989618e2007e598fe161d3eed493a31446a7587f922ce3a5bd90
 RPROVIDES:${PN} += "libcryptopp-devel \
 libcryptopp-devel(aarch-64) \
 pkgconfig(cryptopp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcryptopp8_7_0"
 

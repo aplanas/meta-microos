@@ -9,6 +9,7 @@ RPM_HASH = "bcbbd81c97b22e4126abddf5ecbae32ef024727ed8cb024adbc72543923864e49bf1
 
 RPROVIDES:${PN} += "osmo-bsc-abisip-find \
 osmo-bsc-abisip-find(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

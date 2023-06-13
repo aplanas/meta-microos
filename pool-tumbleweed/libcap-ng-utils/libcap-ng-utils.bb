@@ -11,6 +11,7 @@ RPM_HASH = "d2123e64a81cb7ad78bb2d287eb3c29cddcdd16a9b3f9f99aa3ae49326caffd7bf45
 
 RPROVIDES:${PN} += "libcap-ng-utils \
 libcap-ng-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

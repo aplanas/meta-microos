@@ -74,6 +74,7 @@ locale(python-caja:zh_HK) \
 locale(python-caja:zh_TW) \
 python-caja-lang \
 python-caja-lang-all"
+
 RDEPENDS:${PN} += "python-caja"
 
 inherit rpm

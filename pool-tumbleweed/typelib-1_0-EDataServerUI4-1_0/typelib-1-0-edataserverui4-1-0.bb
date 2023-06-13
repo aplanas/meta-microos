@@ -14,6 +14,7 @@ RPM_HASH = "a01546892c1c1bca57f2efd5820880827a0167232434052a6ce8805e682e591da095
 RPROVIDES:${PN} += "typelib(EDataServerUI4) \
 typelib-1_0-EDataServerUI4-1_0 \
 typelib-1_0-EDataServerUI4-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcamel-1.2.so.64()(64bit) \
 libecal-2.0.so.2()(64bit) \
 libedataserver-1.2.so.27()(64bit) \

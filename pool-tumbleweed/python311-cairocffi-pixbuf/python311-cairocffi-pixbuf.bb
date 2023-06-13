@@ -14,6 +14,7 @@ RPM_HASH = "5e18c5eaebe259c9aa08497edb1bbcd2ee82f848a80234dc14eb659429d01b7fe430
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-cairocffi-pixbuf"
+
 RDEPENDS:${PN} += "gdk-pixbuf \
 python(abi) \
 python311-cairocffi"

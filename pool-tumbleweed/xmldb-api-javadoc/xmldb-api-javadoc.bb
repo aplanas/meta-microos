@@ -12,6 +12,7 @@ RPM_HASH = "3fcc4fe2b72a8837b1d51f1234a786423323fa1db0b8217579a9c9aa7bef08dbf371
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmldb-api-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

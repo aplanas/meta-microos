@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-magic) \
 python39-python-magic \
 python3dist(python-magic)"
+
 RDEPENDS:${PN} += "file \
 python(abi)"
 

@@ -15,6 +15,7 @@ RPM_HASH = "361cb30caa000ff607f76a547dd5607c0d564e899ed1c73d427af0dd30216da73e66
 
 RPROVIDES:${PN} += "pkcs11-helper \
 pkcs11-helper(aarch-64)"
+
 RDEPENDS:${PN} += "libpkcs11-helper1"
 
 inherit rpm

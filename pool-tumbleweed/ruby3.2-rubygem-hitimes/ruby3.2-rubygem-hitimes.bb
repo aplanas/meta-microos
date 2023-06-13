@@ -17,6 +17,7 @@ rubygem(ruby:3.2.0:hitimes) \
 rubygem(ruby:3.2.0:hitimes:2) \
 rubygem(ruby:3.2.0:hitimes:2.0) \
 rubygem(ruby:3.2.0:hitimes:2.0.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

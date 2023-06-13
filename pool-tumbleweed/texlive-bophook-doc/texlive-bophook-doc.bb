@@ -9,6 +9,7 @@ RPM_HASH = "eec6ea3dd117dde5c7210fd25b0f2bc021309843562f2a40db8d6ce8e0b287285207
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bophook-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -44,6 +44,7 @@ pkgconfig(wbclient) \
 samba-core-devel \
 samba-devel \
 samba-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(dcerpc) \
 pkgconfig(krb5) \

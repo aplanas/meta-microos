@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "edict2 \
 locale(ja)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -56,6 +56,7 @@ locale(gnome-builder:tr) \
 locale(gnome-builder:uk) \
 locale(gnome-builder:zh_CN) \
 locale(gnome-builder:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-builder"
 
 inherit rpm

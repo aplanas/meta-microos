@@ -9,6 +9,7 @@ RPM_HASH = "1970a45df318e8617a0a86f3dba47b67068af4443aa9cfc5ac4f9a7a2f3875ac5208
 
 RPROVIDES:${PN} += "mpvpaper \
 mpvpaper(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libgflags.so.2.2()(64bit) \
 libgflags2_2 \
 libgflags2_2(aarch-64) \
 libgflags_nothreads.so.2.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

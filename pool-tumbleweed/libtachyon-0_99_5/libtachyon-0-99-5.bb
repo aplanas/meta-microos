@@ -15,6 +15,7 @@ RPM_HASH = "4c7f0d246c2130101a4dce7477948bf9e0dba4d745825e83cf58d274a77d4c047381
 RPROVIDES:${PN} += "libtachyon-0.99.5.so()(64bit) \
 libtachyon-0_99_5 \
 libtachyon-0_99_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

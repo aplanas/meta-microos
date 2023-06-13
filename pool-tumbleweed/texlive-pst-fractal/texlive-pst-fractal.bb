@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-fractal.sty) \
 tex(pst-fractal.tex) \
 texlive-pst-fractal"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

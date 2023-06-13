@@ -15,6 +15,7 @@ pkgconfig(harfbuzz-cairo) \
 pkgconfig(harfbuzz-gobject) \
 pkgconfig(harfbuzz-icu) \
 pkgconfig(harfbuzz-subset)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libharfbuzz-gobject0 \
 libharfbuzz-icu0 \

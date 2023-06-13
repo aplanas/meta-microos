@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(opencensus-ext-threading) \
 python39-opencensus-ext-threading \
 python3dist(opencensus-ext-threading)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-opencensus"
 

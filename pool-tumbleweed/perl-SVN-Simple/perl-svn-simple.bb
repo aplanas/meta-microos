@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "perl(SVN::Simple::Edit) \
 perl(SVN::Simple::Editor) \
 perl-SVN-Simple \
 perl-SVN-Simple(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 subversion-perl"
 

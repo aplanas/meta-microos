@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-monitor) \
 python39-azure-monitor \
 python3dist(azure-monitor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-nspkg \

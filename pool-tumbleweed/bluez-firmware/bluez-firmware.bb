@@ -22,6 +22,7 @@ firmware(STLC2500_R4_00_06.ssf) \
 firmware(STLC2500_R4_02_02_WLAN.ssf) \
 firmware(STLC2500_R4_02_04.ptc) \
 firmware(bfubase.frm)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

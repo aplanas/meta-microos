@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3.9dist(dask) \
 python39-dask \
 python39-dask-multiprocessing \
 python3dist(dask)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

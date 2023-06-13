@@ -9,6 +9,7 @@ RPM_HASH = "3461f851cb8f72c0e4b972a6eda589b0d07cc8e4f9f74fa60d9c37d2b734f95fc474
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sidecap-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

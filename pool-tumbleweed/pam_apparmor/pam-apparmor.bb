@@ -12,6 +12,7 @@ RPM_HASH = "9e08bd715c4f0e9ae1977c4de2944ca61a7fb0064f9680956b7f5ce0d9cbeeb8111d
 
 RPROVIDES:${PN} += "pam_apparmor \
 pam_apparmor(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libapparmor.so.1()(64bit) \
 libapparmor.so.1(APPARMOR_1.1)(64bit) \

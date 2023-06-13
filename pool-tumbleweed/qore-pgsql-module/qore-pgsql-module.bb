@@ -11,6 +11,7 @@ RPM_HASH = "fe7f22bd5b2d08b81669d84828f13e8bf19e0159e5e7381ec9bcd98207e0f9ea7ac9
 
 RPROVIDES:${PN} += "qore-pgsql-module \
 qore-pgsql-module(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

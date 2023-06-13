@@ -9,6 +9,7 @@ RPM_HASH = "00a8047c99df36477dd6ada73724f0b2f537c05649e01f3b9d9e3b5184a23f35225c
 
 RPROVIDES:${PN} += "texlive-mathspic-bin \
 texlive-mathspic-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-mathspic"
 
 inherit rpm

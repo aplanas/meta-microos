@@ -10,6 +10,7 @@ RPM_HASH = "a210b05bb7ca32bc2a9eb490ca66af91bcb50fb8865731608d56363f56ad7a09edb3
 
 RPROVIDES:${PN} += "ptscotch-parmetis-openmpi3-devel \
 ptscotch-parmetis-openmpi3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libptscotch0-openmpi3 \
 ptscotch-openmpi3-devel"
 

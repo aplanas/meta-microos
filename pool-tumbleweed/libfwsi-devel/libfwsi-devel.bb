@@ -13,6 +13,7 @@ RPM_HASH = "64248441e4473ae726250ee489e978f148d085b5407d9a225253e119351101ee9fd4
 RPROVIDES:${PN} += "libfwsi-devel \
 libfwsi-devel(aarch-64) \
 pkgconfig(libfwsi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfwsi1"
 

@@ -9,6 +9,7 @@ RPM_HASH = "95e344311721827e3ce0d347d87f0b97d35db901ce4d22b2df30f166d61b895f8971
 
 RPROVIDES:${PN} += "nagios-contrib \
 nagios-contrib(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 nagios"
 

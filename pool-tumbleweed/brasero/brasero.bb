@@ -62,6 +62,7 @@ mimehandler(x-content/image-picturecd) \
 mimehandler(x-content/video-dvd) \
 mimehandler(x-content/video-svcd) \
 mimehandler(x-content/video-vcd)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/cdda2wav \
 /usr/bin/cdrecord \

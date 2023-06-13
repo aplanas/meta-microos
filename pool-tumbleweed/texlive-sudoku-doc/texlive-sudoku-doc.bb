@@ -9,6 +9,7 @@ RPM_HASH = "b4638693caeabd4e699134095e16741d909cadb5112ce37db015924670ceb9d8f11b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sudoku-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

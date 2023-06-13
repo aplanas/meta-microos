@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5Widgets) \
 libQt5Widgets-devel \
 libQt5Widgets-devel(aarch-64) \
 pkgconfig(Qt5Widgets)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Core-devel \
 libQt5Gui-devel \

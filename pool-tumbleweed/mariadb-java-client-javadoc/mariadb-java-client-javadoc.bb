@@ -9,6 +9,7 @@ RPM_HASH = "b7002799558bbacc1dd4a76c7f3e6ca63598afd93f6c153420fb150dfe8b8d66168b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mariadb-java-client-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

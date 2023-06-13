@@ -12,6 +12,7 @@ RPM_HASH = "01dc3fee77039a3fbfa1ac0eb3308090c649e4eb93c411f5cf0bc038fb78e702f1a5
 RPROVIDES:${PN} += "libjthread.so.1.3.3()(64bit) \
 libjthread1_3_3 \
 libjthread1_3_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

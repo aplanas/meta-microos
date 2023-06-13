@@ -1790,6 +1790,7 @@ tex(ujkpsyc.fd) \
 tex(ujkpsyd.fd) \
 tex(ujkpsydw.fd) \
 texlive-kpfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

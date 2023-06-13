@@ -10,6 +10,7 @@ RPM_HASH = "61e44ca3ffb078ea1e96a1b83354dbd8acf0ff2433d5facda7ef8506b281285b968a
 
 RPROVIDES:${PN} += "ldc-runtime-devel \
 ldc-runtime-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdruntime-ldc102"
 
 inherit rpm

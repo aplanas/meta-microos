@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(dsssl.def) \
 tex(uentities.sty) \
 tex(ut1omlgc.fd) \
 texlive-jadetex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

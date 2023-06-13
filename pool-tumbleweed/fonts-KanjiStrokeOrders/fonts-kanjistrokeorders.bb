@@ -136,6 +136,7 @@ font(:lang=zu) \
 font(kanjistrokeorders) \
 fonts-KanjiStrokeOrders \
 kdeedu4:%{_kde4_datadir}/fonts/kanjistrokeorders/KanjiStrokeOrders.ttf"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

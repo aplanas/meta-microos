@@ -14,6 +14,7 @@ RPM_HASH = "dd3b62e94eff35d9ca675213787ce6d0e24f1f8e0295c4a781bb109eee0465edbbca
 RPROVIDES:${PN} += "libnormaliz.so.3()(64bit) \
 libnormaliz3 \
 libnormaliz3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

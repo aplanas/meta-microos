@@ -10,6 +10,7 @@ RPM_HASH = "29b23ed5381aaebb9bd0acde589a99b6b2e616b9304c51de53bcd97764945bc53cbe
 RPROVIDES:${PN} += "ghc-call-stack \
 ghc-call-stack(aarch-64) \
 libHScall-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

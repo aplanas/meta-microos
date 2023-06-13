@@ -82,6 +82,7 @@ locale(kruler:vi) \
 locale(kruler:zh_CN) \
 locale(kruler:zh_HK) \
 locale(kruler:zh_TW)"
+
 RDEPENDS:${PN} += "kruler"
 
 inherit rpm

@@ -127,6 +127,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(theanodidot) \
 texlive-theanodidot-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

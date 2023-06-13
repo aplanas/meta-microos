@@ -10,6 +10,7 @@ RPM_HASH = "c8e1595b23c28858ba547653dee8fab37fbde705ae2788840e506851a086c2405f27
 RPROVIDES:${PN} += "python3-boost_parallel_mpi-impl \
 python3-boost_parallel_mpi1_82_0 \
 python3-boost_parallel_mpi1_82_0(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_mpi.so.1.82.0()(64bit) \
 libboost_mpi_python-py3.so.1.82.0()(64bit) \
 libboost_python-py3.so.1.82.0()(64bit) \

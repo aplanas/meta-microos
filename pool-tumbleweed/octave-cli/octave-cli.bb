@@ -15,6 +15,7 @@ liboctave.so.10()(64bit) \
 liboctinterp.so.11()(64bit) \
 octave-cli \
 octave-cli(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

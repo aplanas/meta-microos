@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lambdax.sty) \
 texlive-lambdax"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

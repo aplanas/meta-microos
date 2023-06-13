@@ -55,6 +55,7 @@ locale(libKPim5EventViews5:ug) \
 locale(libKPim5EventViews5:uk) \
 locale(libKPim5EventViews5:zh_CN) \
 locale(libKPim5EventViews5:zh_TW)"
+
 RDEPENDS:${PN} += "libKPim5EventViews5"
 
 inherit rpm

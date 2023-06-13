@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Module::Build::Prereqs::FromCPANfile) \
 perl-Module-Build-Prereqs-FromCPANfile"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Meta::Prereqs) \
 perl(Module::CPANfile) \

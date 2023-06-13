@@ -9,6 +9,7 @@ RPM_HASH = "5363074e4fbd3f9c1707ec2511f5c8f419aa837b5615a8b90e5a44aa6ac84f516e20
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-WTForms-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

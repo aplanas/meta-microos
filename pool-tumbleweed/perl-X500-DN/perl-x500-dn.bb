@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "perl(X500::DN) \
 perl(X500::RDN) \
 perl-X500-DN \
 perl-X500-DN(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl-Parse-RecDescent"
 

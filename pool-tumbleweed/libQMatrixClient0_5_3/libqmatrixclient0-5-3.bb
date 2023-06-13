@@ -11,6 +11,7 @@ RPM_HASH = "b65f3372dbd9ec8138b08fedd25cbde0bea0dc5b9bc69c178cc4be6a39aad87ccdb5
 RPROVIDES:${PN} += "libQMatrixClient.so.0.5.3()(64bit) \
 libQMatrixClient0_5_3 \
 libQMatrixClient0_5_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

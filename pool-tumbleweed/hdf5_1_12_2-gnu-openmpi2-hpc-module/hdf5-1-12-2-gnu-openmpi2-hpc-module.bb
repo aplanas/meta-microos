@@ -13,6 +13,7 @@ RPM_HASH = "e8cb7b24ed9ebdfc7c50a8887245e37edaea393b7068e55a55c7171fe69dc6f2ddcf
 
 RPROVIDES:${PN} += "hdf5_1_12_2-gnu-openmpi2-hpc-module \
 hdf5_1_12_2-gnu-openmpi2-hpc-module(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 lua-lmod"
 

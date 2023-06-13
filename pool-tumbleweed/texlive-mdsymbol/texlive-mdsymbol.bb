@@ -43,6 +43,7 @@ tex(mdsymbol-f.enc) \
 tex(mdsymbol.map) \
 tex(mdsymbol.sty) \
 texlive-mdsymbol"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

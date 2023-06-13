@@ -11,6 +11,7 @@ RPM_HASH = "3fd2cba34ff5daccb6ea5268a56adff34b96b7e45088017400bb17c4fbe1ca68c645
 
 RPROVIDES:${PN} += "httperf \
 httperf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "b63736c8011519d49ad8c650e27cc072b64dbfa083e6aeadb7a3c2c1a7afad766472
 
 RPROVIDES:${PN} += "choqok-devel \
 choqok-devel(aarch-64)"
+
 RDEPENDS:${PN} += "choqok"
 
 inherit rpm

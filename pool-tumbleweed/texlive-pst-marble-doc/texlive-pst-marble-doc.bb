@@ -9,6 +9,7 @@ RPM_HASH = "a3cf64182062bacbef02bbdcfde5096b6bcee0b63ace30f62ce6c370f350910550cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-marble-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

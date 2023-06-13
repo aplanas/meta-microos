@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libreoffice-help-en-ZA \
 libreoffice-help-en_ZA \
 libreoffice-l10n-en_ZA \
 locale(libreoffice:en_ZA)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \
 libreoffice-share-linker \

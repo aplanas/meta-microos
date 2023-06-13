@@ -82,6 +82,7 @@ locale(gnome-contacts:vi) \
 locale(gnome-contacts:zh_CN) \
 locale(gnome-contacts:zh_HK) \
 locale(gnome-contacts:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-contacts"
 
 inherit rpm

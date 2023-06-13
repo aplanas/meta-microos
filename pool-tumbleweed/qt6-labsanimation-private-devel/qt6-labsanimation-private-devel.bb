@@ -10,6 +10,7 @@ RPM_HASH = "b0ed683654c50155fce7b8cbc15baa820f8825093f9b754770c6cc3ccc3a73885e8e
 
 RPROVIDES:${PN} += "qt6-labsanimation-private-devel \
 qt6-labsanimation-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6LabsAnimation)"
 
 inherit rpm

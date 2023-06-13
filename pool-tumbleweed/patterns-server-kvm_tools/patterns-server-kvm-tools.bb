@@ -16,6 +16,7 @@ pattern-order() \
 pattern-visible() \
 patterns-server-kvm_tools \
 patterns-server-kvm_tools(aarch-64)"
+
 RDEPENDS:${PN} += "libvirt-client \
 libvirt-daemon-config-network \
 libvirt-daemon-qemu \

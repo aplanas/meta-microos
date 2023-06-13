@@ -25,6 +25,7 @@ perl(CGI::Simple::Cookie) \
 perl(CGI::Simple::Standard) \
 perl(CGI::Simple::Util) \
 perl-CGI-Simple"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

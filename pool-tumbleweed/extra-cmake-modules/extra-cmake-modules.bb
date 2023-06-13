@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "extra-cmake-modules \
 kf5umbrella"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 cmake \
 gcc-c++ \

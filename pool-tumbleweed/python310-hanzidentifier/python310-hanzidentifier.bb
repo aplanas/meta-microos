@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-hanzidentifier \
 python3.10dist(hanzidentifier) \
 python310-hanzidentifier \
 python3dist(hanzidentifier)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-zhon"
 

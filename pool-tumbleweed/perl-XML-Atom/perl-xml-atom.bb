@@ -26,6 +26,7 @@ perl(XML::Atom::Server) \
 perl(XML::Atom::Thing) \
 perl(XML::Atom::Util) \
 perl-XML-Atom"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Data::Inheritable) \
 perl(DateTime) \

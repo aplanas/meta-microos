@@ -13,6 +13,7 @@ RPM_HASH = "38ee0daca12faf1670d7ca8c4e3fddec333cce0102644aa8f424332a9821e154f9f9
 RPROVIDES:${PN} += "libcsironn.so.0()(64bit) \
 libcsironn0 \
 libcsironn0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

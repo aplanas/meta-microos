@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(harvard.sty) \
 texlive-harvard"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

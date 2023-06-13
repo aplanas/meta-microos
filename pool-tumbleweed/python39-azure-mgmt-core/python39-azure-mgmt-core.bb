@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-core) \
 python39-azure-mgmt-core \
 python3dist(azure-mgmt-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-core \
 python39-azure-mgmt-nspkg \

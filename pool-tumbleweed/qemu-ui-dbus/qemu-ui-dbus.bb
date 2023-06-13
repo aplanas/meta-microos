@@ -9,6 +9,7 @@ RPM_HASH = "031296526e6342cab61c9f56570323012bb04d305481413460858254e9378fe24cc3
 
 RPROVIDES:${PN} += "qemu-ui-dbus \
 qemu-ui-dbus(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

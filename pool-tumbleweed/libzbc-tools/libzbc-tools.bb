@@ -10,6 +10,7 @@ RPM_HASH = "c1be376898e7f04809e6298f09c19189c285c6178a2c8bc8cad512cda0861d9e95e2
 
 RPROVIDES:${PN} += "libzbc-tools \
 libzbc-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

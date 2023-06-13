@@ -20,6 +20,7 @@ pkgconfig(libquorum) \
 pkgconfig(libsam) \
 pkgconfig(libtotem_pg) \
 pkgconfig(libvotequorum)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 libcfg6 \

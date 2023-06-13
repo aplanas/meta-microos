@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "liblog4shib-devel \
 liblog4shib-devel(aarch-64) \
 log4shib-devel \
 pkgconfig(log4shib)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libboost_thread-devel \

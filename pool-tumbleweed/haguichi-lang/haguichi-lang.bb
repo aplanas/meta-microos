@@ -30,6 +30,7 @@ locale(haguichi:sk) \
 locale(haguichi:sv) \
 locale(haguichi:tr) \
 locale(haguichi:uk)"
+
 RDEPENDS:${PN} += "haguichi"
 
 inherit rpm

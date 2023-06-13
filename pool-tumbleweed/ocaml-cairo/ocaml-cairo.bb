@@ -9,6 +9,7 @@ RPM_HASH = "b628f8bf31610d81b1c97365dde5e03feb54380419a7766b928fd432e2f7da740427
 
 RPROVIDES:${PN} += "ocaml-cairo \
 ocaml-cairo(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libcairo.so.2()(64bit) \
 libfontconfig.so.1()(64bit) \

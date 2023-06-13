@@ -10,6 +10,7 @@ RPM_HASH = "2102079a5a0a893961e97bdf50113ab2fdf951db64105e8d115cf39f7c71c2707dad
 
 RPROVIDES:${PN} += "gupnp-dlna-tools \
 gupnp-dlna-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-dvdcoll-doc:en;de) \
 texlive-dvdcoll-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "258f0f133851a767cfe650bb7f2e01c0fd48c3c860f44be74dd5a9d68bd040c15789
 
 RPROVIDES:${PN} += "libopenssl1_0_0-hmac \
 libopenssl1_0_0-hmac(aarch-64)"
+
 RDEPENDS:${PN} += "libopenssl1_0_0"
 
 inherit rpm

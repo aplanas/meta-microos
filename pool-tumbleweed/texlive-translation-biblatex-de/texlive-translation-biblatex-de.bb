@@ -9,6 +9,7 @@ RPM_HASH = "02e83293889e9d8999d84955eab5e82bc390c1dc1d26429bab363f08bf1e1325174b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-biblatex-de"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

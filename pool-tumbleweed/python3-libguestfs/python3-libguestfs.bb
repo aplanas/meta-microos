@@ -10,6 +10,7 @@ RPM_HASH = "46416ba9cbbd6a0e33149bcbefc19c1e3493d8cf1217578c19650672ed6c1405a398
 RPROVIDES:${PN} += "libguestfsmod.cpython-310-aarch64-linux-gnu.so()(64bit) \
 python3-libguestfs \
 python3-libguestfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

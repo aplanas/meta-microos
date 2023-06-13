@@ -51,6 +51,7 @@ locale(timeshift:zh_CN) \
 locale(timeshift:zh_TW) \
 timeshift-lang \
 timeshift-lang-all"
+
 RDEPENDS:${PN} += "timeshift"
 
 inherit rpm

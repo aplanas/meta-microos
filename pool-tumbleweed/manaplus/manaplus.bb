@@ -20,6 +20,7 @@ manaplus(aarch-64) \
 manaworld-client \
 metainfo() \
 metainfo(manaplus.metainfo.xml)"
+
 RDEPENDS:${PN} += "dejavu-fonts \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

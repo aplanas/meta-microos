@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinx-tabs) \
 python311-sphinx-tabs \
 python3dist(sphinx-tabs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Pygments \
 python311-Sphinx \

@@ -10,6 +10,7 @@ RPM_HASH = "3ccbbfa6b411edf4aceb0e8015b275d95bd9934b33027ad46fa395118de28cbfadc5
 
 RPROVIDES:${PN} += "guile-charting \
 guile-charting(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

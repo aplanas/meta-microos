@@ -11,6 +11,7 @@ RPM_HASH = "037478faf6fa92310d142ce60d38772741187e8e8a4182a1550cbe8ab8cf4ef007c2
 RPROVIDES:${PN} += "config(urfkill) \
 urfkill \
 urfkill(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

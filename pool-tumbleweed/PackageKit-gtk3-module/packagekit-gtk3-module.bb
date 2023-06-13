@@ -11,6 +11,7 @@ RPM_HASH = "fca5c288c345e0688914c8684225ec99b88499c0de3a31ba383052284a48a81683b3
 RPROVIDES:${PN} += "PackageKit-gtk3-module \
 PackageKit-gtk3-module(aarch-64) \
 libpk-gtk-module.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

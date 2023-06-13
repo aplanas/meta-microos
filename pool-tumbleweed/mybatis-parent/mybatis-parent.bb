@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(org.mybatis:mybatis-parent:pom:) \
 mybatis-parent"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.felix:maven-bundle-plugin) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pagegrid-doc:en) \
 texlive-pagegrid-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

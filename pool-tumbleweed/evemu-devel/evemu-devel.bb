@@ -14,6 +14,7 @@ RPM_HASH = "df465e7018e4ff7d90cfd97deaeee99847a946fbdba3f98cf15125ed91ce2089afe1
 RPROVIDES:${PN} += "evemu-devel \
 evemu-devel(aarch-64) \
 pkgconfig(evemu)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 evemu \
 libevemu3 \

@@ -10,6 +10,7 @@ RPM_HASH = "d1f512540e1d0c4566abc3425840a3135b782e8f78d2631906a5985bde6b33141653
 RPROVIDES:${PN} += "libuninameslist.so.1()(64bit) \
 libuninameslist1 \
 libuninameslist1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

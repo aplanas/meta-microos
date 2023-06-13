@@ -10,6 +10,7 @@ RPM_HASH = "74cb2cf382c8e3b4c8efd1c26d8bde38a4ba14dc509435bef6b5a8761d428b24ac99
 
 RPROVIDES:${PN} += "frr-devel \
 frr-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libfrr0 \
 libfrr_pb0 \
 libfrrcares0 \

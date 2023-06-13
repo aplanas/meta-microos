@@ -18,6 +18,7 @@ tex(hyph-en-us.tex) \
 tex(loadhyph-en-gb.tex) \
 tex(loadhyph-en-us.tex) \
 texlive-hyphen-english"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

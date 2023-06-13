@@ -10,6 +10,7 @@ RPM_HASH = "aad4b790076064a6f71374357b0fac30ee5600873295367ec7b789f0ae262fea4b7e
 
 RPROVIDES:${PN} += "czmq \
 czmq(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

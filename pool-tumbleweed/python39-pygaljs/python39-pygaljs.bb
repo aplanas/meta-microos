@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pygaljs) \
 python39-pygaljs \
 python3dist(pygaljs)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

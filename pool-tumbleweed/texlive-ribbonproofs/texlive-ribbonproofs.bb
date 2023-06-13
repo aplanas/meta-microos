@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ribbonproofs.sty) \
 texlive-ribbonproofs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

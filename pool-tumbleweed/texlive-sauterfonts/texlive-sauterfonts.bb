@@ -44,6 +44,7 @@ tex(sursfs.fd) \
 tex(sustmry.fd) \
 tex(suwasy.fd) \
 texlive-sauterfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

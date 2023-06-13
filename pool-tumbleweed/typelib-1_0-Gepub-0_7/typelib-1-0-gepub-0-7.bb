@@ -10,6 +10,7 @@ RPM_HASH = "175fde59dcdac20f05ad97ae63168eec8b98390c5eb0a9631bce8a3111ca836a042d
 RPROVIDES:${PN} += "typelib(Gepub) \
 typelib-1_0-Gepub-0_7 \
 typelib-1_0-Gepub-0_7(aarch-64)"
+
 RDEPENDS:${PN} += "libgepub-0.7.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

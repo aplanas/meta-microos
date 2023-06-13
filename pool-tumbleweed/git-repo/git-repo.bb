@@ -11,6 +11,7 @@ RPM_HASH = "2717aa6d12feff61f029c1b6e4cd3bf199fdcf1b906dc083826b50981458c99907e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-repo"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 git \
 python3-base"

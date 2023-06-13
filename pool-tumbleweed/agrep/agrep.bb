@@ -10,6 +10,7 @@ RPM_HASH = "171c6ccad0bc549374c46ab428609a6f4714be0ecb48a49193d3e0a87e5a91487d74
 
 RPROVIDES:${PN} += "agrep \
 agrep(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

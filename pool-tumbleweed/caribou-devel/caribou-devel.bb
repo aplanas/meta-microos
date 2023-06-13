@@ -13,6 +13,7 @@ RPM_HASH = "88ccd066fd64caa2e6d35410b13b24c5ee5289cdc8aab12f36fb2d4960703404485c
 RPROVIDES:${PN} += "caribou-devel \
 caribou-devel(aarch-64) \
 pkgconfig(caribou-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcaribou0 \
 pkgconfig(gdk-x11-3.0) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(calligra.sty) \
 texlive-fundus-calligra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

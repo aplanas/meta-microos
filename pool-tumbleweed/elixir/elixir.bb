@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "elixir \
 rpm_macro(elixir_dir) \
 rpm_macro(elixir_libdir) \
 rpm_macro(mix_compile)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 erlang"

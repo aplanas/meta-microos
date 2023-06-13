@@ -14,6 +14,7 @@ RPM_HASH = "e9809b3e987375c9cdf85082e09f7550f58fac755639bdfeed7323f6acb6513c06e6
 
 RPROVIDES:${PN} += "libscintilla-devel \
 libscintilla-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libscintilla5 \
 pkgconfig \
 pkgconfig(glib-2.0) \

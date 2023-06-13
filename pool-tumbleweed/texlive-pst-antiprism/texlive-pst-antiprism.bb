@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-antiprism.sty) \
 tex(pst-antiprism.tex) \
 texlive-pst-antiprism"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

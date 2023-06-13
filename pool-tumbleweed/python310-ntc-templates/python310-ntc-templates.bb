@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ntc-templates \
 python3.10dist(ntc-templates) \
 python310-ntc-templates \
 python3dist(ntc-templates)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-textfsm"
 

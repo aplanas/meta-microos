@@ -196,6 +196,7 @@ tex(go_icpxvt.enc) \
 tex(go_iypgt7.enc) \
 tex(go_zwiz3b.enc) \
 texlive-gofonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

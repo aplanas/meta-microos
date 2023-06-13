@@ -11,6 +11,7 @@ RPM_HASH = "3e7068b243341537bc732b1e7dcf3ba9dce12ee717aaafc380fb6b31c1ddf9515192
 RPROVIDES:${PN} += "libevview3-3 \
 libevview3-3(aarch-64) \
 libevview3.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

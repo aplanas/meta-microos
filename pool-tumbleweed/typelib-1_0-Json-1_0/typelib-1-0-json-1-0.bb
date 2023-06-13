@@ -14,6 +14,7 @@ RPM_HASH = "480611a336d05cf2a4d5ba6d54233fd4d4fec47503d095abea17221035fe983080dc
 RPROVIDES:${PN} += "typelib(Json) \
 typelib-1_0-Json-1_0 \
 typelib-1_0-Json-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libjson-glib-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

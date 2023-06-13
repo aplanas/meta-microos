@@ -10,6 +10,7 @@ RPM_HASH = "9462c2413551938f66e004611bb74115fb323032988c03ab7464763af58efc452ba2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pytest-jupyter-server"
+
 RDEPENDS:${PN} += "python39-jupyter-server \
 python39-nbformat \
 python39-pytest-jupyter \

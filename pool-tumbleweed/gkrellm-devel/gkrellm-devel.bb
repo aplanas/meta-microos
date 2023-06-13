@@ -10,6 +10,7 @@ RPM_HASH = "5fc6995485865366acd75b693c0483113e65362313db6f529878d2de5656c61c8a6f
 RPROVIDES:${PN} += "gkrellm-devel \
 gkrellm-devel(aarch-64) \
 pkgconfig(gkrellm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gkrellm \
 pkgconfig(gtk+-2.0)"

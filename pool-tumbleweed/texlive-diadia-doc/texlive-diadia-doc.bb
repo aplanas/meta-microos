@@ -9,6 +9,7 @@ RPM_HASH = "ecdb6f844747dcf3cd4d620e43f9a8e51f2de9ad084bcc3e6328bcc24b36202fd202
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-diadia-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

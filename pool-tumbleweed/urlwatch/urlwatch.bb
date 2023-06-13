@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(urlwatch) \
 python3dist(urlwatch) \
 urlwatch"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PyYAML \

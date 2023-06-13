@@ -10,6 +10,7 @@ RPM_HASH = "be3d3f21e2e0b5dfd079b0714e7b3a4c3bebfede829f519868232547c75be18bb7e7
 
 RPROVIDES:${PN} += "qt6-networkauth-private-devel \
 qt6-networkauth-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6NetworkAuth)"
 
 inherit rpm

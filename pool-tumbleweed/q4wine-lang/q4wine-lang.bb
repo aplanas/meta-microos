@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "q4wine-lang \
 q4wine-lang-all"
+
 RDEPENDS:${PN} += "q4wine"
 
 inherit rpm

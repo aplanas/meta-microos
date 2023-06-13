@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.9dist(recommonmark) \
 python39-reCommonMark \
 python39-recommonmark \
 python3dist(recommonmark)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

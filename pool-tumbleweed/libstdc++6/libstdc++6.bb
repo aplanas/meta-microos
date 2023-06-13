@@ -59,6 +59,7 @@ libstdc++.so.6(GLIBCXX_3.4.8)(64bit) \
 libstdc++.so.6(GLIBCXX_3.4.9)(64bit) \
 libstdc++6 \
 libstdc++6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.36)(64bit) \
 libgcc_s.so.1()(64bit) \

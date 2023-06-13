@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "ceph-osd \
 ceph-osd(aarch-64) \
 ceph-test:/usr/bin/ceph-osdomap-tool \
 config(ceph-osd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ceph-base \

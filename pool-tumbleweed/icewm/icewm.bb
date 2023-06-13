@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "icewm \
 icewm(aarch-64) \
 icewm-gnome \
 windowmanager"
+
 RDEPENDS:${PN} += "/bin/sh \
 alsa-utils \
 desktop-data \

@@ -9,6 +9,7 @@ RPM_HASH = "0e1a74ed430339c6a26a7a848fd08a5b5152b11846505e4120865a375670941a6264
 
 RPROVIDES:${PN} += "hyphen \
 hyphen(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

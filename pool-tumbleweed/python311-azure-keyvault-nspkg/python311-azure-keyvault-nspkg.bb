@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-keyvault-nspkg) \
 python311-azure-keyvault-nspkg \
 python3dist(azure-keyvault-nspkg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-nspkg"
 

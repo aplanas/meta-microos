@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(markuppy) \
 python39-MarkupPy \
 python3dist(markuppy)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

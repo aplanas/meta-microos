@@ -9,6 +9,7 @@ RPM_HASH = "92f8a64dd460eb4053811e1afdde68c8cc3018f6ea02d7edd82b0035495f18291346
 
 RPROVIDES:${PN} += "guile-parted \
 guile-parted(aarch-64)"
+
 RDEPENDS:${PN} += "guile \
 guile-bytestructures \
 parted-devel"

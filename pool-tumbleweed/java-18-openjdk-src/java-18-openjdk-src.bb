@@ -9,6 +9,7 @@ RPM_HASH = "5cc9174dc4532b52274690785ca881ce33189e5bc352db2c9c736cd98061179aeb22
 
 RPROVIDES:${PN} += "java-18-openjdk-src \
 java-18-openjdk-src(aarch-64)"
+
 RDEPENDS:${PN} += "java-18-openjdk"
 
 inherit rpm

@@ -63,6 +63,7 @@ tex(timessco6a.vf) \
 tex(timessco6r.tfm) \
 tex(txfontsb.sty) \
 texlive-txfontsb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

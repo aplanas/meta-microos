@@ -14,6 +14,7 @@ python3.10dist(softlayer-zeep) \
 python310-softlayer-zeep \
 python310-zeep \
 python3dist(softlayer-zeep)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs \
 python310-isodate \

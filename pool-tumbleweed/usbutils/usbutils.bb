@@ -10,6 +10,7 @@ RPM_HASH = "41d3b8a0b5b044e3e0e54aa655d20b69701c2f1c3f6baea6b1d4488e37e4ee47c61c
 
 RPROVIDES:${PN} += "usbutils \
 usbutils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 hwdata \

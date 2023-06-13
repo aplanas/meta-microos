@@ -9,6 +9,7 @@ RPM_HASH = "6165f544ffa3d3911b31fdd04a1ff6459352a80d5d7e76c17ca385232db13eccf0c2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libwpd-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ typelib(ClutterGdk) \
 typelib(ClutterX11) \
 typelib-1_0-Clutter-1_0 \
 typelib-1_0-Clutter-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libclutter-1.0.so.0()(64bit) \
 typelib(Atk) \
 typelib(Cogl) \

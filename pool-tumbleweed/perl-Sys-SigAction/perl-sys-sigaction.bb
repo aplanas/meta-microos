@@ -130,6 +130,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Sys::SigAction) \
 perl(Sys::SigAction::Alarm) \
 perl-Sys-SigAction"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

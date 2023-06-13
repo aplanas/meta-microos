@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ipyvue \
 python3.10dist(ipyvue) \
 python310-ipyvue \
 python3dist(ipyvue)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ipywidgets"
 

@@ -15,6 +15,7 @@ RPM_HASH = "0f4715b63032af41e3c99d4c7af85df4062ef6a7dd4f7fc884dc8aae5efeaee73b61
 
 RPROVIDES:${PN} += "libmumps_5_3_5-gnu-openmpi3-hpc \
 libmumps_5_3_5-gnu-openmpi3-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \

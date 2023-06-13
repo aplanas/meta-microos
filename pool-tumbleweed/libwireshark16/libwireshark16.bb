@@ -11,6 +11,7 @@ RPM_HASH = "ebe2ccbfbdbd284c443e3000a5762ce2148d021c851bb1ca7defbb5329100d3593c6
 RPROVIDES:${PN} += "libwireshark.so.16()(64bit) \
 libwireshark16 \
 libwireshark16(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

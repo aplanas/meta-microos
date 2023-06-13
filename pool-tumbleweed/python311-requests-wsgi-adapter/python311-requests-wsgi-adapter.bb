@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(requests-wsgi-adapter) \
 python311-requests-wsgi-adapter \
 python3dist(requests-wsgi-adapter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests"
 

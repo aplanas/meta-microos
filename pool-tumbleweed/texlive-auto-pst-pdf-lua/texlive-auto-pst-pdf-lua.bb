@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(auto-pst-pdf-lua.sty) \
 texlive-auto-pst-pdf-lua"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-hpc-development_node \
 patterns-hpc-development_node(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 iputils \
 lua-lmod \

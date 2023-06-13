@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(arara.jar) \
 texlive-arara"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

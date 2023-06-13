@@ -13,6 +13,7 @@ RPM_HASH = "49c9af6e65c69ba38e2b049ff37d182f69615026d4c3e567f0926d1fba76add676e6
 
 RPROVIDES:${PN} += "ruby-rrdtool \
 ruby-rrdtool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "965fd38fff07a2780214bc06a2602d9b0fbe8256eade7d23e2788e3597b611839fee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpv-zsh-completion"
+
 RDEPENDS:${PN} += "mpv"
 
 inherit rpm

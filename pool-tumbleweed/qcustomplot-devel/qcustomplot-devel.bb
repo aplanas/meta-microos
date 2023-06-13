@@ -13,6 +13,7 @@ pkgconfig(qcustomplot) \
 qcustomplot-devel \
 qcustomplot-devel(aarch-64) \
 qcustomplot-qt5-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

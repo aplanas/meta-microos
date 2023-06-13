@@ -15,6 +15,7 @@ RPM_HASH = "7c88d1c10a4ab341272eeec704f52554ff5ac582fe1d27e43d890ad86a1ddf16e4b0
 
 RPROVIDES:${PN} += "autossh \
 autossh(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

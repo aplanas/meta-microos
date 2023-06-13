@@ -10,6 +10,7 @@ RPM_HASH = "ce5133e704e7f5284d13e816437d081d6a8aa45896e59cda0d1ebd4110fd41855560
 
 RPROVIDES:${PN} += "qt6-qmllocalstorage-private-devel \
 qt6-qmllocalstorage-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6QmlLocalStorage) \
 qt6-core-private-devel \
 qt6-qml-private-devel"

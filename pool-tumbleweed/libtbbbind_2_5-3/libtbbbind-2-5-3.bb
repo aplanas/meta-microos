@@ -10,6 +10,7 @@ RPM_HASH = "fa9590a01f4e967948974d33d164e591cc262d1f05909b59b7502cafcc030d5d5ad5
 RPROVIDES:${PN} += "libtbbbind_2_5-3 \
 libtbbbind_2_5-3(aarch-64) \
 libtbbbind_2_5.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "1040aaf0c8736b68cbe4b7f5885c99ee25d79948baf6ca7b9e151b8eccbc16af4297
 RPROVIDES:${PN} += "libOgreMeshLodGenerator-devel \
 libOgreMeshLodGenerator-devel(aarch-64) \
 pkgconfig(OGRE-MeshLodGenerator)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOgreMeshLodGenerator13_5 \
 pkgconfig(OGRE)"

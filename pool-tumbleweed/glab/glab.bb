@@ -9,6 +9,7 @@ RPM_HASH = "661e5080dd4b868175fe5caa6ed552cd88eec94a1bbed6fdbeebabe323eb72bdb751
 
 RPROVIDES:${PN} += "glab \
 glab(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

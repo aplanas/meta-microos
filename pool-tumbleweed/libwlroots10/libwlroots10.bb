@@ -10,6 +10,7 @@ RPM_HASH = "9ddbfd9a0006a2ba4a96bd6b4b0df7a4a880d1726bbefea50f759956d0b75b98fe84
 RPROVIDES:${PN} += "libwlroots.so.10()(64bit) \
 libwlroots10 \
 libwlroots10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

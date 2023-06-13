@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-Flask-Principal \
 python3.10dist(flask-principal) \
 python310-Flask-Principal \
 python3dist(flask-principal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-blinker"

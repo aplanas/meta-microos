@@ -11,6 +11,7 @@ RPM_HASH = "898317e0fb06a8437e888f7b1c18fa2b138a46f24f5d6d25a4fa9267f291579eb379
 RPROVIDES:${PN} += "libopendkim.so.11()(64bit) \
 libopendkim11 \
 libopendkim11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

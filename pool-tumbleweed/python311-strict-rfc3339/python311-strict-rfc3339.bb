@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(strict-rfc3339) \
 python311-strict-rfc3339 \
 python3dist(strict-rfc3339)"
+
 RDEPENDS:${PN} += "python(abi) \
 timezone"
 

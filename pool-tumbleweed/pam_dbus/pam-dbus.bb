@@ -12,6 +12,7 @@ RPM_HASH = "7e15e34c19cb8ce1df5bbe430d76a44dbbbb2573537b7becaa1b9f59d652600077eb
 RPROVIDES:${PN} += "config(pam_dbus) \
 pam_dbus \
 pam_dbus(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

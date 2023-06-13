@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(lark) \
 python39-lark \
 python39-lark-parser \
 python3dist(lark)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

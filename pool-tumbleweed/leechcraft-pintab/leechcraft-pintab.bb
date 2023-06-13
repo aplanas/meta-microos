@@ -11,6 +11,7 @@ RPM_HASH = "091daa636c2e04c48baa7405771be2556b7556cb04d53227eb2f4557dd6f85e1d908
 RPROVIDES:${PN} += "leechcraft-pintab \
 leechcraft-pintab(aarch-64) \
 libleechcraft_pintab.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

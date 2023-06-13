@@ -10,6 +10,7 @@ RPM_HASH = "3238aad7fb2fd46e750e1fb899954f84b29a23f74edf3797ecdc2c9b58df613e233e
 RPROVIDES:${PN} += "ghc-devel(lukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V) \
 ghc-lukko-devel \
 ghc-lukko-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

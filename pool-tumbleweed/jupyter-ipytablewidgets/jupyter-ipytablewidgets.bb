@@ -11,6 +11,7 @@ RPM_HASH = "9719b057e50b69f4cc0ce25d1922d8d23081b7b85372cc701cffb9f570e5bb8db962
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipytablewidgets"
+
 RDEPENDS:${PN} += "python3dist(ipytablewidgets)"
 
 inherit rpm

@@ -49,6 +49,7 @@ perl(XBase::ndx::Page) \
 perl(XBase::ntx) \
 perl(XBase::ntx::Page) \
 perl-DBD-XBase"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

@@ -15,6 +15,7 @@ RPM_HASH = "9192e10fdac24ee4dcf0f216cbe827ce241c8d34da6a4fa4bef821b6233967cfe0e0
 RPROVIDES:${PN} += "libcacard.so.0()(64bit) \
 libcacard0 \
 libcacard0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

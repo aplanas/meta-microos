@@ -27,6 +27,7 @@ tex(loadhyph-de-1901.tex) \
 tex(loadhyph-de-1996.tex) \
 tex(loadhyph-de-ch-1901.tex) \
 texlive-hyphen-german"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

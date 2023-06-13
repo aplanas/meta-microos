@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-spotipy \
 python3.10dist(spotipy) \
 python310-spotipy \
 python3dist(spotipy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-redis \
 python310-requests \

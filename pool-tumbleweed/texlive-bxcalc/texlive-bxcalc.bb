@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(bxcalc.sty) \
 tex(bxcalcize.sty) \
 tex(bxcalcux.sty) \
 texlive-bxcalc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

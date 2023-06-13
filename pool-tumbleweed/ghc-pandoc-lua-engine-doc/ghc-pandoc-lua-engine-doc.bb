@@ -9,6 +9,7 @@ RPM_HASH = "ce8f6ed3851819811ad01629cc648d24445c0ccdb490c96617ad5cea65595bdb7103
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-pandoc-lua-engine-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "064e30fef164f8c46e12b1c2fd91d2c8c314724090e2344bcbd195841f74f37ecbd2
 RPROVIDES:${PN} += "libinstpatch-devel \
 libinstpatch-devel(aarch-64) \
 pkgconfig(libinstpatch-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libinstpatch-1_0-2 \
 pkgconfig(glib-2.0) \

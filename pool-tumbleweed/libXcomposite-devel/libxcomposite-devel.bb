@@ -22,6 +22,7 @@ RPM_HASH = "63e9387f212b7ca0d1d5974891ee3dd07ebfe1b9a1fd10a164e94807989959b002b6
 RPROVIDES:${PN} += "libXcomposite-devel \
 libXcomposite-devel(aarch-64) \
 pkgconfig(xcomposite)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXcomposite1 \
 pkgconfig(compositeproto) \

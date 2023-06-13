@@ -10,6 +10,7 @@ RPM_HASH = "987e3875ad840409cd8b243645c80dac0ac1adb3fb783d644e8a70af99b18f349c05
 RPROVIDES:${PN} += "ghc-fast-logger-prof \
 ghc-fast-logger-prof(aarch-64) \
 ghc-prof(fast-logger-3.1.2-BD2YlybMtRF1w9mLnP3rJ)"
+
 RDEPENDS:${PN} += "ghc-fast-logger-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(auto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ) \

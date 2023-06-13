@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "mvn(werken-xpath:werken-xpath) \
 mvn(werken-xpath:werken-xpath:pom:) \
 werken-xpath \
 werken.xpath"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 jdom"

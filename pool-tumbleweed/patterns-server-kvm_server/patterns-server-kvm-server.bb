@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-openSUSE-kvm_server \
 patterns-server-kvm_server \
 patterns-server-kvm_server(aarch-64)"
+
 RDEPENDS:${PN} += "pattern() \
 qemu-arm \
 qemu-ipxe \

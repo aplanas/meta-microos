@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "html2text \
 python3.9dist(html2text) \
 python39-html2text \
 python3dist(html2text)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

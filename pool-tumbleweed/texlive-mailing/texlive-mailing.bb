@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mailing.sty) \
 texlive-mailing"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

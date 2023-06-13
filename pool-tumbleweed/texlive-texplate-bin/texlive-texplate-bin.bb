@@ -9,6 +9,7 @@ RPM_HASH = "a40833df5ef288299c6baf6103580a2c8a18c1fb89069ced4039d113aef8f67ddf78
 
 RPROVIDES:${PN} += "texlive-texplate-bin \
 texlive-texplate-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-texplate"
 
 inherit rpm

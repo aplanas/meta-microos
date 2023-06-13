@@ -17,6 +17,7 @@ locale(prewikka:pl) \
 locale(prewikka:pt_BR) \
 locale(prewikka:ru) \
 prewikka-lang"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

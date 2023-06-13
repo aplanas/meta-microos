@@ -50,6 +50,7 @@ locale(dpkg:tr) \
 locale(dpkg:vi) \
 locale(dpkg:zh_CN) \
 locale(dpkg:zh_TW)"
+
 RDEPENDS:${PN} += "dpkg"
 
 inherit rpm

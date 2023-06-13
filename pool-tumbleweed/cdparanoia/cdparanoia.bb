@@ -12,6 +12,7 @@ RPM_HASH = "6727f899d3df480ebddfa010374a6aae9405ea3b11eeda87db7320ef130797857eb6
 RPROVIDES:${PN} += "cdparano \
 cdparanoia \
 cdparanoia(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

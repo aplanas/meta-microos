@@ -17,6 +17,7 @@ libdbus-1-3(aarch-64) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
 libdbus-1.so.3(LIBDBUS_PRIVATE_1.14.6)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dbus-1-common \
 ld-linux-aarch64.so.1()(64bit) \

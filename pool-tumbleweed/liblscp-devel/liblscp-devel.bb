@@ -11,6 +11,7 @@ RPM_HASH = "38cb9625dbc9b9f0d134e6893fa8f388160740bca183867f05daab2541a4ce1ae53d
 RPROVIDES:${PN} += "liblscp-devel \
 liblscp-devel(aarch-64) \
 pkgconfig(lscp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblscp6"
 

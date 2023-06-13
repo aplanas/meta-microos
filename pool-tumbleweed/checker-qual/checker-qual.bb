@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "checker-qual \
 mvn(org.checkerframework:checker-qual) \
 mvn(org.checkerframework:checker-qual:pom:) \
 osgi(checker-qual)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

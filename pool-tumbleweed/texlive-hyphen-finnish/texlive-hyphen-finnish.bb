@@ -18,6 +18,7 @@ tex(hyph-fi.tex) \
 tex(loadhyph-fi-x-school.tex) \
 tex(loadhyph-fi.tex) \
 texlive-hyphen-finnish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "ef2c108b50f83677040c61730f18abf3b6897c9bba908b0e9ab534a10e1c7932c22c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon8-xom"
+
 RDEPENDS:${PN} += "saxon8 \
 xom"
 

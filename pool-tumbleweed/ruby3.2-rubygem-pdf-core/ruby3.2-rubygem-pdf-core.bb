@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:pdf-core) \
 rubygem(ruby:3.2.0:pdf-core:0) \
 rubygem(ruby:3.2.0:pdf-core:0.9) \
 rubygem(ruby:3.2.0:pdf-core:0.9.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

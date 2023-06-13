@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/bin/fuser \
 busybox-psmisc"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

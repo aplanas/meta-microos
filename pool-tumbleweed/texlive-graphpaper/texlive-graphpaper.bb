@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(graphpaper.cls) \
 texlive-graphpaper"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

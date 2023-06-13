@@ -12,6 +12,7 @@ RPM_HASH = "942c143dfcfd70a5c3e1697419fa5d55fc097b6e61cf9afba4e57b8b8b49240461b5
 RPROVIDES:${PN} += "libmbd-mvapich2 \
 libmbd-mvapich2(aarch-64) \
 libmbd.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "0183c60df31c5144bef7ac2cf2733b202b8369025404a4b2cc641b6254c99e957d5b
 RPROVIDES:${PN} += "libptl.so.2()(64bit) \
 libptl2 \
 libptl2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

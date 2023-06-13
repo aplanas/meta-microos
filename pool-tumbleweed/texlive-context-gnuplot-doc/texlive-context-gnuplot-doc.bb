@@ -9,6 +9,7 @@ RPM_HASH = "e06a23a2794311042ffb74bfbba93e6f718c82c94a2d26cbc28fb8171c69c642ae59
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-gnuplot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

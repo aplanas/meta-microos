@@ -39,6 +39,7 @@ libpytalloc-util.cpython-310-aarch64-linux-gnu.so.2(PYTALLOC_UTIL_2.3.5)(64bit) 
 libpytalloc-util.cpython-310-aarch64-linux-gnu.so.2(PYTALLOC_UTIL_2.4.0)(64bit) \
 python3-talloc \
 python3-talloc(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

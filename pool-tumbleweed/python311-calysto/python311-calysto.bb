@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(calysto) \
 python311-calysto \
 python311-jupyter_calysto \
 python3dist(calysto)"
+
 RDEPENDS:${PN} += "jupyter-calysto \
 python(abi) \
 python311-CairoSVG \

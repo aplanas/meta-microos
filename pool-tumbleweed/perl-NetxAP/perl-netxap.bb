@@ -43,6 +43,7 @@ perl(Net::xAP) \
 perl(Net::xAP::Response) \
 perl-NetxAP \
 perl-NetxAP(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl-Digest-HMAC"
 

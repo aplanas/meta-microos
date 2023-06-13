@@ -11,6 +11,7 @@ RPM_HASH = "1401190c2d62c77603fa551bce7633ec1c22636deaddb98a6000c49ac640ab863c2c
 RPROVIDES:${PN} += "android-tools \
 android-tools(aarch-64) \
 android-tools-python3"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 android-udev-rules \
 ld-linux-aarch64.so.1()(64bit) \

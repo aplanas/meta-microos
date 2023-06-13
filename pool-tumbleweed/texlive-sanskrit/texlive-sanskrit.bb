@@ -21,6 +21,7 @@ tex(sktf10.tfm) \
 tex(sktfs10.tfm) \
 tex(skts10.tfm) \
 texlive-sanskrit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

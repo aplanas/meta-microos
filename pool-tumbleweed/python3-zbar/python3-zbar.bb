@@ -9,6 +9,7 @@ RPM_HASH = "5ca6779b74ced993d005a8f54fc4e4bac5b59b0f239fb26da21e1f65faeca4abb934
 
 RPROVIDES:${PN} += "python3-zbar \
 python3-zbar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

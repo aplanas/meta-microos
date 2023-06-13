@@ -14,6 +14,7 @@ RPM_HASH = "3a2f97763d7f88be3a50216e42391fe0db37aecb9c4db5a552a63bec8561d27e8348
 RPROVIDES:${PN} += "libhdhomerun.so.2()(64bit) \
 libhdhomerun2 \
 libhdhomerun2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

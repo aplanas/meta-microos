@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cockpit-kdump \
 metainfo() \
 metainfo(org.cockpit-project.cockpit-kdump.metainfo.xml)"
+
 RDEPENDS:${PN} += "cockpit-bridge \
 cockpit-shell \
 kexec-tools"

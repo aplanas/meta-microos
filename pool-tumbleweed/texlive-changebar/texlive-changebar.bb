@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(changebar.sty) \
 texlive-changebar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

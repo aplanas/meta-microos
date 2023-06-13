@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(thaienum.sty) \
 texlive-thaienum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

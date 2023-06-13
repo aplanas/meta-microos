@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jsonfield) \
 python311-django-jsonfield \
 python3dist(jsonfield)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django"
 

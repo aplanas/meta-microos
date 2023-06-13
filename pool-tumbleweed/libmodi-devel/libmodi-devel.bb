@@ -13,6 +13,7 @@ RPM_HASH = "bcdf56813356038bdf302fb31c73d5dbe2229d06f63cd3719924a4d16baf2c4ae002
 RPROVIDES:${PN} += "libmodi-devel \
 libmodi-devel(aarch-64) \
 pkgconfig(libmodi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libmodi1"

@@ -9,6 +9,7 @@ RPM_HASH = "d778d13b6c47ab8fcf80dc06e0b756d4bed554874a78c10acbf0abee414db351705b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-youngtab-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

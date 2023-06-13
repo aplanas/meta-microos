@@ -13,6 +13,7 @@ RPM_HASH = "f179c53b1b1abe64f7cff15bdd5f3436946da4e4d1a4df9d4f234b6507a31ec2fc08
 RPROVIDES:${PN} += "ax25-tools \
 ax25-tools(aarch-64) \
 config(ax25-tools)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

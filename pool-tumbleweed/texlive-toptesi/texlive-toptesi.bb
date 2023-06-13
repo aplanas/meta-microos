@@ -30,6 +30,7 @@ tex(toptesi.cfg) \
 tex(toptesi.cls) \
 tex(toptesi.sty) \
 texlive-toptesi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

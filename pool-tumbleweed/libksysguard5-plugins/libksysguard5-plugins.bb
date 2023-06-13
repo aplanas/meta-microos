@@ -10,6 +10,7 @@ RPM_HASH = "89aeb517900b61e0b6bcaa64e2ffc980793d7ce1b5760dcde5632a2229bf91105908
 RPROVIDES:${PN} += "libksysguard5-helper \
 libksysguard5-plugins \
 libksysguard5-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

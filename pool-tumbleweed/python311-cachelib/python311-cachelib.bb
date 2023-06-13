@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(cachelib) \
 python311-cachelib \
 python3dist(cachelib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

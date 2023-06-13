@@ -10,6 +10,7 @@ RPM_HASH = "43af80c067bc4ceec403359739838eda013c8594ece0041851163854f18c9cff3056
 
 RPROVIDES:${PN} += "osmo-bts-omldummy \
 osmo-bts-omldummy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

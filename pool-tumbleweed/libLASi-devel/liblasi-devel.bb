@@ -29,6 +29,7 @@ RPM_HASH = "7d9427799d904ac3637465804d13b8e47468bf260ddd317d7fd6931bddbed4cfb737
 RPROVIDES:${PN} += "libLASi-devel \
 libLASi-devel(aarch-64) \
 pkgconfig(lasi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libLASi2 \
 pkgconfig(freetype2) \

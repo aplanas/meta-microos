@@ -17,6 +17,7 @@ tex(superiors.map) \
 tex(superiors.sty) \
 tex(sups.enc) \
 texlive-superiors"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -18,6 +18,7 @@ tex(iso11.clo) \
 tex(iso9.clo) \
 tex(isov2.cls) \
 texlive-iso"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

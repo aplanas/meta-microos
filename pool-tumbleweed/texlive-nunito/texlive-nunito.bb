@@ -411,6 +411,7 @@ tex(a_xv7ze7.enc) \
 tex(a_xzgqel.enc) \
 tex(nunito.sty) \
 texlive-nunito"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

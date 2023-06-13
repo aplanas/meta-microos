@@ -9,6 +9,7 @@ RPM_HASH = "b160a189cd3d036f1cc5851806ea725c16fe8841fc463039be9fb399f50ff8ec12c7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "capstone-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

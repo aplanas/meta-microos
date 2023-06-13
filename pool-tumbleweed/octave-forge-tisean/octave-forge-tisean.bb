@@ -10,6 +10,7 @@ RPM_HASH = "b478970e845889610b4c3afc1c00638ddfdbf2c1eb95bead4976d06d19e0a9bf42a6
 
 RPROVIDES:${PN} += "octave-forge-tisean \
 octave-forge-tisean(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -51,6 +51,7 @@ perl(Gscan2pdf::Scanner::Profile) \
 perl(Gscan2pdf::Tesseract) \
 perl(Gscan2pdf::Translation) \
 perl(Gscan2pdf::Unpaper)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 djvulibre \
 pdftk \

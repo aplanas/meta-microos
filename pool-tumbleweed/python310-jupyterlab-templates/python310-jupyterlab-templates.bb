@@ -14,6 +14,7 @@ python3.10dist(jupyterlab-templates) \
 python310-jupyter_jupyterlab_templates \
 python310-jupyterlab-templates \
 python3dist(jupyterlab-templates)"
+
 RDEPENDS:${PN} += "jupyter-jupyterlab-templates \
 python(abi) \
 python310-jupyterlab"

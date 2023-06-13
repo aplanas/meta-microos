@@ -13,6 +13,7 @@ RPM_HASH = "3d9ea39ed5c14acd5c27447abc85770ed54b25a3bf7943191467dcaef5248d294c00
 
 RPROVIDES:${PN} += "pulseaudio-gdm-hooks \
 pulseaudio-gdm-hooks(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gdm \
 pulseaudio"

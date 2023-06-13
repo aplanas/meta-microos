@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-cliff \
 python3.10dist(cliff) \
 python3dist(cliff)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-PrettyTable \
 python3-PyYAML \

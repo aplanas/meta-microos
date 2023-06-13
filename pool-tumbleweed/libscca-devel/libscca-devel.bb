@@ -13,6 +13,7 @@ RPM_HASH = "2ee26f59b11ec3dfbe2771a90718aad26cdf1fc0f52e675af4e8dc6adc2840d23770
 RPROVIDES:${PN} += "libscca-devel \
 libscca-devel(aarch-64) \
 pkgconfig(libscca)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libscca1"

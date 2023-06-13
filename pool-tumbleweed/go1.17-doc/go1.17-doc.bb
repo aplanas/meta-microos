@@ -10,6 +10,7 @@ RPM_HASH = "14a6ea328b70c6b6273be0163fafc9884a23cd98efd5a7138bcc8baddc2191fb94d9
 RPROVIDES:${PN} += "go-doc \
 go1.17-doc \
 go1.17-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

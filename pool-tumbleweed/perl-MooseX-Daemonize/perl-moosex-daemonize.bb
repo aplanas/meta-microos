@@ -17,6 +17,7 @@ perl(MooseX::Daemonize::Pid::File) \
 perl(MooseX::Daemonize::WithPidFile) \
 perl(Test::MooseX::Daemonize) \
 perl-MooseX-Daemonize"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Path) \
 perl(Moose) \

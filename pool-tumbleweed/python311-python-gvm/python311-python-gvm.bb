@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-gvm) \
 python311-python-gvm \
 python3dist(python-gvm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-defusedxml \
 python311-lxml \

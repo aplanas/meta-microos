@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-functions-devops-build) \
 python311-azure-functions-devops-build \
 python3dist(azure-functions-devops-build)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Jinja2 \
 python311-msrest \

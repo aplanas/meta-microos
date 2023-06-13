@@ -16,6 +16,7 @@ gtkmm2-doc \
 gtkmm24-devel \
 pkgconfig(gdkmm-2.4) \
 pkgconfig(gtkmm-2.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtkmm-2_4-1 \
 pkgconfig(atkmm-1.6) \

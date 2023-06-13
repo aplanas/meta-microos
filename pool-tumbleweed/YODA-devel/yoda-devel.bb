@@ -14,6 +14,7 @@ RPM_HASH = "d9f1e03d506041a5faf45e280bd8dbe3e5d09999b45158f71e871837b52f7c387aca
 RPROVIDES:${PN} += "YODA-devel \
 YODA-devel(aarch-64) \
 pkgconfig(yoda)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/pkg-config \
 libYODA-1_9_7"

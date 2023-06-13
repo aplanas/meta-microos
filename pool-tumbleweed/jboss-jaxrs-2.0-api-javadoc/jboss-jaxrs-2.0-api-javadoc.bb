@@ -9,6 +9,7 @@ RPM_HASH = "549f0c7f8602e8de21391172edf35f55a3dd9347279c0f3cad511df27146d79646b1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-jaxrs-2.0-api-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

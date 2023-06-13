@@ -10,6 +10,7 @@ RPM_HASH = "36000d0eb6630b33080bc0fc0bd1ae414067b4fbd54aeb74a4e2aeb8d52dabda7336
 RPROVIDES:${PN} += "ghc-x509-validation \
 ghc-x509-validation(aarch-64) \
 libHSx509-validation-1.6.12-JQgBIAyKHQDDBxJK8FYPfO-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk-ghc9.4.5.so()(64bit) \
 libHSasn1-parse-0.9.5-EPDirjvv9Ch16KeQVAexUV-ghc9.4.5.so()(64bit) \

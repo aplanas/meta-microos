@@ -30,6 +30,7 @@ tex(pdftex35.map) \
 tex(ps2pk35.map) \
 tex(updmap.cfg) \
 texlive-scripts"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/texlua \

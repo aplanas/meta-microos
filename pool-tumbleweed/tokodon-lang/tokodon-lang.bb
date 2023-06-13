@@ -39,6 +39,7 @@ locale(tokodon:zh_CN) \
 locale(tokodon:zh_TW) \
 tokodon-lang \
 tokodon-lang-all"
+
 RDEPENDS:${PN} += "tokodon"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "e0cccb4e041b9941640488c711a5e2425cc92c9df1962c37fff4a644534974e0914a
 RPROVIDES:${PN} += "libngspice.so.0()(64bit) \
 libngspice0 \
 libngspice0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

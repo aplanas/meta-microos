@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-qrcode \
 python3.10dist(qrcode) \
 python310-qrcode \
 python3dist(qrcode)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

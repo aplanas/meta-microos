@@ -48,6 +48,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(DateTime::Format::Mail) \
 perl-DateTime-Format-Mail"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DateTime) \
 perl(Params::Validate)"

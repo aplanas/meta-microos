@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "gtk2-immodule-tigrigna \
 gtk2-immodule-tigrigna(aarch-64) \
 gtk2-immodules-tigrigna \
 locale(gtk2:ti)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gtk2 \
 gtk2-tools \

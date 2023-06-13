@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(karnaughmap.sty) \
 texlive-karnaughmap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

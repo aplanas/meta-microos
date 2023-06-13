@@ -61,6 +61,7 @@ locale(xfce4-battery-plugin:zh_TW) \
 xfce4-battery-plugin-lang \
 xfce4-battery-plugin-lang-all \
 xfce4-panel-plugin-battery-lang"
+
 RDEPENDS:${PN} += "xfce4-battery-plugin"
 
 inherit rpm

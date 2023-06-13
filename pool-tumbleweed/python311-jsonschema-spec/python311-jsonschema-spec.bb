@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(jsonschema-spec) \
 python311-jsonschema-spec \
 python311-jsonschema_spec \
 python3dist(jsonschema-spec)"
+
 RDEPENDS:${PN} += "(python311-jsonschema >= 4.0.0 with python311-jsonschema < 4.18) \
 python(abi) \
 python311-PyYAML \

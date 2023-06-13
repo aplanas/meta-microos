@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "solarus-gui-lang \
 solarus-gui-lang-all"
+
 RDEPENDS:${PN} += "solarus-gui"
 
 inherit rpm

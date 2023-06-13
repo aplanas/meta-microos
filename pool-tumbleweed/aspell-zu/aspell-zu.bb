@@ -10,6 +10,7 @@ RPM_HASH = "8ff959ed41ead53a5244d5216ed3e47cfd9854ec89204903d5bedcfbd23164c668ff
 RPROVIDES:${PN} += "aspell-zu \
 aspell-zu(aarch-64) \
 locale(aspell:zu)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

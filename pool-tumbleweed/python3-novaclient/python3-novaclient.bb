@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-novaclient \
 python3.10dist(python-novaclient) \
 python3dist(python-novaclient)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 openssl \
 python(abi) \

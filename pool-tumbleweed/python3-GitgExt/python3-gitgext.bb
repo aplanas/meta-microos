@@ -11,6 +11,7 @@ RPM_HASH = "c14a5a1edbff8c223fa31413761a4925b7bcf19e840f8f9ae4e4f6582bcea7704276
 
 RPROVIDES:${PN} += "python3-GitgExt \
 python3-GitgExt(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 typelib(GObject)"
 

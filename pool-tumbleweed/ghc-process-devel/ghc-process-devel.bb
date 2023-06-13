@@ -12,6 +12,7 @@ ghc-process-devel \
 ghc-process-devel(aarch-64) \
 ghc-process-static \
 ghc-process-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-devel(deepseq-1.4.8.0) \

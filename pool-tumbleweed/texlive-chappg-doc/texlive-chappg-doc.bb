@@ -9,6 +9,7 @@ RPM_HASH = "4b8670ce815142483a7f941df1c2aea6aa2d1590a8827ef03b127441800093eea747
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chappg-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "libbabl-0.1.so.0()(64bit) \
 libbabl-0.1.so.0(V0_1_0)(64bit) \
 libbabl-0_1-0 \
 libbabl-0_1-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

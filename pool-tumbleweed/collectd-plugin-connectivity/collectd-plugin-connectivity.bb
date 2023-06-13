@@ -9,6 +9,7 @@ RPM_HASH = "1d8501be8d654d83c681f8edb5eb442767ae9286b6c25595983b21f27a69971a5917
 
 RPROVIDES:${PN} += "collectd-plugin-connectivity \
 collectd-plugin-connectivity(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

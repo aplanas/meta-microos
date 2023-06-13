@@ -18,6 +18,7 @@ libtclap-devel \
 pkgconfig(tclap) \
 tclap \
 tclap(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

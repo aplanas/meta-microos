@@ -9,6 +9,7 @@ RPM_HASH = "c192c76e795fd95635733cec692ac92eeead2224813173e81ae0ef0cc71dde38e3cc
 
 RPROVIDES:${PN} += "libbfoverlay-tools \
 libbfoverlay-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfoverlay.so.1()(64bit) \

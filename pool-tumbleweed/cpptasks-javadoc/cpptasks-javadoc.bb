@@ -9,6 +9,7 @@ RPM_HASH = "774effc503a1fb81b36b45e62b188027fe1e9835682c7c0ae9e9f31e15d3f7fd9c61
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpptasks-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

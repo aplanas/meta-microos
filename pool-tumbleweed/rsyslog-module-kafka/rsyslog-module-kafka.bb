@@ -12,6 +12,7 @@ RPM_HASH = "b31ae8d4ab53c4150f02aabe2d0453c6a9ce1b5e112f3f0d178a13029023d10770b8
 
 RPROVIDES:${PN} += "rsyslog-module-kafka \
 rsyslog-module-kafka(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

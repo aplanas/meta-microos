@@ -17,6 +17,7 @@ libavcodec.so.60()(64bit) \
 libavcodec.so.60(LIBAVCODEC_60.3_SUSE)(64bit) \
 libavcodec60 \
 libavcodec60(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

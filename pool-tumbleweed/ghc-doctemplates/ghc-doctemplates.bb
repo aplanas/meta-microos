@@ -13,6 +13,7 @@ RPM_HASH = "b24ac8c0db04f7aae13e247c88e6840c04e01c55954cd4386e858c3ce0c98fa4d765
 RPROVIDES:${PN} += "ghc-doctemplates \
 ghc-doctemplates(aarch-64) \
 libHSdoctemplates-0.11-BPgXv8g09ry9FVnSp2Q4Ny-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

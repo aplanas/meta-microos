@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-tldr \
 python3.10dist(pytest-tldr) \
 python310-pytest-tldr \
 python3dist(pytest-tldr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

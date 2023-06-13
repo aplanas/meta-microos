@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(formencode) \
 python311-FormEncode \
 python3dist(formencode)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

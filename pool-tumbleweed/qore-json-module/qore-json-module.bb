@@ -11,6 +11,7 @@ RPM_HASH = "f2e88ae1d85a590f0cba829f50fe727148d4d550e7378c927f1063c8ef4ffc1b9057
 
 RPROVIDES:${PN} += "qore-json-module \
 qore-json-module(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ RPM_HASH = "83f67ff73a2e42a7bc60559e30803797810cd76d024858b2f0630010999494b1cd35
 
 RPROVIDES:${PN} += "openssh \
 openssh(aarch-64)"
+
 RDEPENDS:${PN} += "findutils \
 grep \
 openssh-clients \

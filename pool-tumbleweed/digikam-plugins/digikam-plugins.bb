@@ -9,6 +9,7 @@ RPM_HASH = "a3cec967ba99ce74989d0dfaec5a55e88900556504f316695f9cada113ad57d7a70a
 
 RPROVIDES:${PN} += "digikam-plugins \
 digikam-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CalendarCore.so.5()(64bit) \

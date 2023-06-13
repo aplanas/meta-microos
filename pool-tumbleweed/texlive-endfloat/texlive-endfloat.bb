@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(endfloat.sty) \
 texlive-endfloat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

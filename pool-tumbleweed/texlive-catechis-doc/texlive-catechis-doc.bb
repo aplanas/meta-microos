@@ -9,6 +9,7 @@ RPM_HASH = "cb5a3227231a34398c72e2e894b13424bb0a4caeb3e1a6bf8ed6295050155a9dd0cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-catechis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

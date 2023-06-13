@@ -14,6 +14,7 @@ electron(aarch-64)(abi) \
 nodejs-electron \
 nodejs-electron(aarch-64) \
 nodejs-electron-prebuilt"
+
 RDEPENDS:${PN} += "/bin/bash \
 google-roboto-fonts \
 hicolor-icon-theme \

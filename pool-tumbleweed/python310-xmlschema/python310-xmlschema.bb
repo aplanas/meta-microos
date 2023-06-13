@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-xmlschema \
 python3.10dist(xmlschema) \
 python310-xmlschema \
 python3dist(xmlschema)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

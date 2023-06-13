@@ -15,6 +15,7 @@ python3.10dist(kajiki) \
 python310-Kajiki \
 python310-Kajiki(aarch-64) \
 python3dist(kajiki)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-tornado) \
 python39-pytest-tornado \
 python3dist(pytest-tornado)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-certifi \
 python39-pytest \

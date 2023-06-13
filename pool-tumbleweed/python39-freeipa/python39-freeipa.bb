@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-freeipa) \
 python39-freeipa \
 python3dist(python-freeipa)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

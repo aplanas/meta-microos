@@ -11,6 +11,7 @@ RPM_HASH = "30fbcd57c8425e26dc5aefe4e30e80fd432394b4ffa38e4ca03371b7cde71004e25d
 RPROVIDES:${PN} += "config(libvirt-daemon-lock) \
 libvirt-daemon-lock \
 libvirt-daemon-lock(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

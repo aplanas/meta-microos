@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-beamer2thesis-doc:en;it) \
 texlive-beamer2thesis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

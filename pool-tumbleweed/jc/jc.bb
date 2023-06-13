@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jc \
 python3.10dist(jc) \
 python3dist(jc)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Pygments \

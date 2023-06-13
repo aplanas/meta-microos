@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(emoji-table.def) \
 tex(emoji.sty) \
 texlive-emoji"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "tex(dinbrief.cfg) \
 tex(dinbrief.cls) \
 tex(dinbrief.sty) \
 texlive-dinbrief"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

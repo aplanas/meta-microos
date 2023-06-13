@@ -9,6 +9,7 @@ RPM_HASH = "375e525f07eb8634fcc398390a04b78a70b1be5bacc047bb86cfa360474bbef9690a
 
 RPROVIDES:${PN} += "httrack-devel \
 httrack-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libhttrack2 \
 libopenssl-devel"
 

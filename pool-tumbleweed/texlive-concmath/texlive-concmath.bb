@@ -21,6 +21,7 @@ tex(ot1ccr.fd) \
 tex(ucca.fd) \
 tex(uccb.fd) \
 texlive-concmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

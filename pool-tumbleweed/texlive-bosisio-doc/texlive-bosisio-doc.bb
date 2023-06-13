@@ -9,6 +9,7 @@ RPM_HASH = "a2fb92d42f412f55342fcb82a5fb8c9d1b32be6f79d624953a84396db0327d29201e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bosisio-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

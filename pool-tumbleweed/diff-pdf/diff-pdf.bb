@@ -9,6 +9,7 @@ RPM_HASH = "59f0e2cc6d306f5bf2113a9f2b647aaa0bef9f3faa6fc241ec9072de4812de3b7cc2
 
 RPROVIDES:${PN} += "diff-pdf \
 diff-pdf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

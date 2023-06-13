@@ -13,6 +13,7 @@ RPM_HASH = "18041965eecd3a46295e3b806feebc78cc2037cb00eb71ce31d99766808287a174ad
 RPROVIDES:${PN} += "libphdi-devel \
 libphdi-devel(aarch-64) \
 pkgconfig(libphdi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libphdi1"

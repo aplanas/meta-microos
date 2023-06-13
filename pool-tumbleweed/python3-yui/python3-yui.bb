@@ -17,6 +17,7 @@ RPM_HASH = "43381c35f2a698e4f7dccab6bb7da149cff85e023fd330e3e34199f987f813c98d92
 
 RPROVIDES:${PN} += "python3-yui \
 python3-yui(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

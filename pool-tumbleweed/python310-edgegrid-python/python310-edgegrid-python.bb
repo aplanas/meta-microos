@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-edgegrid-python \
 python3.10dist(edgegrid-python) \
 python310-edgegrid-python \
 python3dist(edgegrid-python)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ndg-httpsclient \
 python310-pyOpenSSL \

@@ -16,6 +16,7 @@ locale(spice-gtk:ka) \
 locale(spice-gtk:ru) \
 spice-gtk-lang \
 spice-gtk-lang-all"
+
 RDEPENDS:${PN} += "spice-gtk"
 
 inherit rpm

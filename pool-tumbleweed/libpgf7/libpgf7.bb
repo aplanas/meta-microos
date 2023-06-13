@@ -10,6 +10,7 @@ RPM_HASH = "e9499d633100a0ed6761cc27f9d73833d0477cea4ba1d0df26696e7f5cb146937db9
 RPROVIDES:${PN} += "libpgf.so.7()(64bit) \
 libpgf7 \
 libpgf7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

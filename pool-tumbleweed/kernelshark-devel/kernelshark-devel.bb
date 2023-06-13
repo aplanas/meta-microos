@@ -10,6 +10,7 @@ RPM_HASH = "c0d709ef52b351848363a808c0789adbb86106aab7978b56794ab84b158fa3111eb1
 RPROVIDES:${PN} += "kernelshark-devel \
 kernelshark-devel(aarch-64) \
 pkgconfig(libkshark)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 kernelshark \
 pkgconfig(json-c) \

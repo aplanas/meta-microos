@@ -10,6 +10,7 @@ RPM_HASH = "18c7f2b4db44b48a0f1cbf3a7386d05cbeb3b089e22834c8939405ce4004ee64718e
 
 RPROVIDES:${PN} += "deepin-polkit-agent-devel \
 deepin-polkit-agent-devel(aarch-64)"
+
 RDEPENDS:${PN} += "deepin-polkit-agent"
 
 inherit rpm

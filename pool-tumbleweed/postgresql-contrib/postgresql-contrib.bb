@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-contrib \
 postgresql-contrib-noarch"
+
 RDEPENDS:${PN} += "postgresql-contrib-implementation"
 
 inherit rpm

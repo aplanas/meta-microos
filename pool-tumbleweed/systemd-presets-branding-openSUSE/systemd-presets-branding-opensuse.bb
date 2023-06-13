@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-presets-branding \
 systemd-presets-branding-openSUSE"
+
 RDEPENDS:${PN} += "/bin/sh \
 bash \
 coreutils \

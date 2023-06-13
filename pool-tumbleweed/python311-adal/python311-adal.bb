@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(adal) \
 python311-adal \
 python3dist(adal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyJWT \
 python311-cryptography \

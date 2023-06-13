@@ -10,6 +10,7 @@ RPM_HASH = "8c1697c53ba81ea39f5605b94f658f170f36acd83f28e0abc1a3944dcc5053d021ef
 RPROVIDES:${PN} += "ghc-ansi-wl-pprint-devel \
 ghc-ansi-wl-pprint-devel(aarch-64) \
 ghc-devel(ansi-wl-pprint-0.6.9-1uNId4TIZRh7T7KEIBVXZI)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-ansi-wl-pprint \
 ghc-compiler \

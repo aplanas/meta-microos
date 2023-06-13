@@ -15,6 +15,7 @@ RPM_HASH = "a1ba1dcd7c0f31903b1aa7b1d56f4254e503d82daca1fd070b89234256760d2287a5
 
 RPROVIDES:${PN} += "emacs-eln \
 emacs-eln(aarch-64)"
+
 RDEPENDS:${PN} += "emacs-el \
 libc.so.6(GLIBC_2.17)(64bit)"
 

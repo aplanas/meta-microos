@@ -24,6 +24,7 @@ rpm_macro(kernel_module_package_release) \
 rpm_macro(linux_arch) \
 rpm_macro(linux_make_arch) \
 rpm_macro(suse_kernel_module_package)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh"
 

@@ -70,6 +70,7 @@ locale(kuiviewer:ug) \
 locale(kuiviewer:uk) \
 locale(kuiviewer:zh_CN) \
 locale(kuiviewer:zh_TW)"
+
 RDEPENDS:${PN} += "kuiviewer"
 
 inherit rpm

@@ -16,6 +16,7 @@ libqt5-qtremoteobjects-devel \
 libqt5-qtremoteobjects-devel(aarch-64) \
 pkgconfig(Qt5RemoteObjects) \
 pkgconfig(Qt5RepParser)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5RemoteObjects5 \
 libqt5-qtremoteobjects-tools \

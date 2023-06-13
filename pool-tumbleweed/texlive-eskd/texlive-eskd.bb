@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(eskd.cls) \
 texlive-eskd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

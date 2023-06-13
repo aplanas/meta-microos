@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hyperxmp.sty) \
 texlive-hyperxmp"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

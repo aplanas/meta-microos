@@ -10,6 +10,7 @@ RPM_HASH = "90ba0d4caacbbe52b57fc8cdfb3fc3cfe79b20b81deffc0cbc5d3c2409ade01cf737
 
 RPROVIDES:${PN} += "gnucash-devel \
 gnucash-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gnucash"
 
 inherit rpm

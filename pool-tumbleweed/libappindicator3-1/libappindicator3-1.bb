@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libappindicator-gtk3 \
 libappindicator3-1 \
 libappindicator3-1(aarch-64) \
 libappindicator3.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

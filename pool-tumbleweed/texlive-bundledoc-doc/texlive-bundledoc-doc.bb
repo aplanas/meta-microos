@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(arlatex.1) \
 man(bundledoc.1) \
 texlive-bundledoc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

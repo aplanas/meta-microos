@@ -19,6 +19,7 @@ libjson-c-devel(aarch-64) \
 libjson-devel \
 pkgconfig(json) \
 pkgconfig(json-c)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjson-c5"
 

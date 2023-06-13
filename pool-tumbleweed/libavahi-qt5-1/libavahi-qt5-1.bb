@@ -13,6 +13,7 @@ RPM_HASH = "411bea8980e2292a0a6cbac97cdc2900589ca8b7fe8bd61d95aaef6ccfb6b38475cb
 RPROVIDES:${PN} += "libavahi-qt5-1 \
 libavahi-qt5-1(aarch-64) \
 libavahi-qt5.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \

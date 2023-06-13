@@ -11,6 +11,7 @@ RPM_HASH = "c504ddfe22a6a56847166f06d53fc7ff3889486dd14de8e28ea3ef653192d599132d
 
 RPROVIDES:${PN} += "libhdf5_hl_cpp-gnu-mpich-hpc \
 libhdf5_hl_cpp-gnu-mpich-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "libhdf5_hl_cpp_1_12_2-gnu-mpich-hpc"
 
 inherit rpm

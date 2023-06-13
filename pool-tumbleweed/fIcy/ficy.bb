@@ -11,6 +11,7 @@ RPM_HASH = "9ca9d59ed2a39b5046367e520b4d53a1f7c1befdace01d97bc6324dd16a707433cd9
 
 RPROVIDES:${PN} += "fIcy \
 fIcy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

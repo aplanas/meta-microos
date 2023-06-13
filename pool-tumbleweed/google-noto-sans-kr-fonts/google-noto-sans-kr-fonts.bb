@@ -16,6 +16,7 @@ noto-sans-cjkkr \
 noto-sans-cjkkr-fonts \
 noto-sans-kr-fonts \
 scalable-font-ko"
+
 RDEPENDS:${PN} += "google-noto-sans-kr-bold-fonts \
 google-noto-sans-kr-regular-fonts"
 

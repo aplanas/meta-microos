@@ -71,6 +71,7 @@ perl(DBIx::Class::Schema::Loader::Table) \
 perl(DBIx::Class::Schema::Loader::Table::Informix) \
 perl(DBIx::Class::Schema::Loader::Table::Sybase) \
 perl-DBIx-Class-Schema-Loader"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp::Clan) \

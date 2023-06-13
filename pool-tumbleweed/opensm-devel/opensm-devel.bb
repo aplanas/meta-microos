@@ -9,6 +9,7 @@ RPM_HASH = "efb6a55d6652d903b3f6ec61a09e115575523684d9e177bf45af6099d8eba7b94df4
 
 RPROVIDES:${PN} += "opensm-devel \
 opensm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libibumad-devel \
 libopensm9 \
 libosmcomp5 \

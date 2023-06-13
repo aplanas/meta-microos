@@ -13,6 +13,7 @@ application(org.opensuse.yast.iSCILIOServer.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.iSCILIOServer.metainfo.xml) \
 yast2-iscsi-lio-server"
+
 RDEPENDS:${PN} += "python3-configshell-fb \
 python3-rtslib-fb \
 python3-targetcli-fb \

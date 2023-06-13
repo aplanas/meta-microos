@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-digitaltwins \
 python3.10dist(azure-mgmt-digitaltwins) \
 python310-azure-mgmt-digitaltwins \
 python3dist(azure-mgmt-digitaltwins)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
 python(abi) \
 python310-azure-common \

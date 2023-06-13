@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "lightdm-qt-devel \
 lightdm-qt5-devel \
 lightdm-qt5-devel(aarch-64) \
 pkgconfig(liblightdm-qt5-3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblightdm-qt5-3-0 \
 pkgconfig(Qt5Core) \

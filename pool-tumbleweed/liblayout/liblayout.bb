@@ -11,6 +11,7 @@ RPM_HASH = "0fd624f67864afc9929f88244ad62b20765b68d22be76475d4a8d2f2f03b0b1acc57
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liblayout"
+
 RDEPENDS:${PN} += "flute \
 java \
 jpackage-utils \

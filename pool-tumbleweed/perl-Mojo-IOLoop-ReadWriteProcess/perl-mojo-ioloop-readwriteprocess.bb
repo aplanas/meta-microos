@@ -36,6 +36,7 @@ perl(Mojo::IOLoop::ReadWriteProcess::Shared::Lock) \
 perl(Mojo::IOLoop::ReadWriteProcess::Shared::Memory) \
 perl(Mojo::IOLoop::ReadWriteProcess::Shared::Semaphore) \
 perl-Mojo-IOLoop-ReadWriteProcess"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IPC::SharedMem) \
 perl(Mojolicious)"

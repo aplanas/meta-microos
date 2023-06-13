@@ -11,6 +11,7 @@ RPM_HASH = "5dd67d5b3cbcced58b3c90c4211c3d73b95e2a69d54ecb7cabbd6f0d6e6b97119c9d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpiP-gnu-mpich-hpc"
+
 RDEPENDS:${PN} += "/bin/sh \
 mpiP_3_5-gnu-mpich-hpc"
 

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jfreechart \
 mvn(org.jfree:jfreechart) \
 mvn(org.jfree:jfreechart:pom:) \
 osgi(org.jfree.jfreechart)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.jfree:jcommon)"

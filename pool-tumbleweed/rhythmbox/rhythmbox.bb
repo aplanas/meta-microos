@@ -53,6 +53,7 @@ rhythmbox \
 rhythmbox(aarch-64) \
 typelib(MPID) \
 typelib(RB)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gstreamer-plugins-base \
 gstreamer-plugins-good \

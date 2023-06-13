@@ -10,6 +10,7 @@ RPM_HASH = "c83eb975f8f6662287250c9f37f3f48bcbe6c55744c57afc7855080e41750ce74282
 RPROVIDES:${PN} += "libautoreplyplugin.so()(64bit) \
 psi+-plugins-autoreplyplugin \
 psi+-plugins-autoreplyplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

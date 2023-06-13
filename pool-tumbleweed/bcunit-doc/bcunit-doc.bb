@@ -10,6 +10,7 @@ RPM_HASH = "bd49501dd75c88ee18e87436eb456824a30676ec70f932a0130a5be5d9f604b946ae
 
 RPROVIDES:${PN} += "bcunit-doc \
 bcunit-doc(aarch-64)"
+
 RDEPENDS:${PN} += "libbcunit1"
 
 inherit rpm

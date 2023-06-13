@@ -45,6 +45,7 @@ locale(plymouth:zh_HK) \
 locale(plymouth:zh_TW) \
 plymouth-lang \
 plymouth-lang-all"
+
 RDEPENDS:${PN} += "plymouth"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libphodav-3.0.so.0()(64bit) \
 libphodav-3.0.so.0(LIBPHODAV1_0.0)(64bit) \
 libphodav-3_0-0 \
 libphodav-3_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

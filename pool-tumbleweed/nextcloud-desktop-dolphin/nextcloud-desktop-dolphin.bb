@@ -11,6 +11,7 @@ RPM_HASH = "d6a1d54dd0508e30083af944787bf0390199b5a5f48fc585e9556caa92aae16ab037
 RPROVIDES:${PN} += "libnextclouddolphinpluginhelper.so()(64bit) \
 nextcloud-desktop-dolphin \
 nextcloud-desktop-dolphin(aarch-64)"
+
 RDEPENDS:${PN} += "dolphin \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

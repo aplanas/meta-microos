@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "config(sphinx) \
 searchd \
 sphinx \
 sphinx(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/getent \
 /usr/bin/mkdir \

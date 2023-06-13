@@ -9,6 +9,7 @@ RPM_HASH = "3196329b60793a90f710d08dd80b7c34c6b3e3c321463a3df2b4d373bc5564616118
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gcard-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

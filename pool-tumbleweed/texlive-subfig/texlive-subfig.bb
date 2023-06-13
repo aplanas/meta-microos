@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(altsf.cfg) \
 tex(subfig.sty) \
 texlive-subfig"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

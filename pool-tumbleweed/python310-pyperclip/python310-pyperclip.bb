@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyperclip \
 python3.10dist(pyperclip) \
 python310-pyperclip \
 python3dist(pyperclip)"
+
 RDEPENDS:${PN} += "python(abi) \
 xclip \
 xsel"

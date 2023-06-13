@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(editorconfig) \
 python39-EditorConfig \
 python3dist(editorconfig)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "8ef7b078b2c88715c8a7f8f47d4e07190596e0590409f5cde6e02f4d256d5a72171f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-QtPy-test"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-QtPy"
 

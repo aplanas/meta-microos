@@ -9,6 +9,7 @@ RPM_HASH = "3e54bc472c836ca615654ac766a2c119c4a981043c821a14cbef83f3ec50ce241058
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libnma-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

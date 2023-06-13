@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.11dist(djangorestframework) \
 python311-django-rest-framework \
 python311-djangorestframework \
 python3dist(djangorestframework)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django"
 

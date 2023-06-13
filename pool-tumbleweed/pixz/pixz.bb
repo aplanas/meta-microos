@@ -15,6 +15,7 @@ RPM_HASH = "7be6028028f6bc1de28334a9b973e1c4a25bf9a2e6b322328d9093b54ec147f26f86
 
 RPROVIDES:${PN} += "pixz \
 pixz(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libarchive.so.13()(64bit) \

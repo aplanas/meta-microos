@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "pkgconfig(slang) \
 slang-devel \
 slang-devel(aarch-64) \
 slang:/usr/include/slang.h"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libslang2"
 

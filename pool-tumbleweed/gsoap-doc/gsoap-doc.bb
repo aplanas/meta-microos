@@ -9,6 +9,7 @@ RPM_HASH = "95b802468101137d6fce841b661a79329f6f8ecd8ed29e572da61cf5f813facf37b3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gsoap-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

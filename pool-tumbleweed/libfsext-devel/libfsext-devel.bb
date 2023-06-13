@@ -13,6 +13,7 @@ RPM_HASH = "c1a20c05dac7866353e5279f0cc9f85e172a438ea915e3515510a891026b0d050964
 RPROVIDES:${PN} += "libfsext-devel \
 libfsext-devel(aarch-64) \
 pkgconfig(libfsext)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libfsext1"

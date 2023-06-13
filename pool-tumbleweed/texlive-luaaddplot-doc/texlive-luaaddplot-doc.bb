@@ -9,6 +9,7 @@ RPM_HASH = "86ee92a5e1613e803ebc31fc3fd9a1e976a6aa0f0f5b9fd63783c0b190751659d0e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luaaddplot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

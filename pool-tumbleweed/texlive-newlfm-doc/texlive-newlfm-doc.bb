@@ -9,6 +9,7 @@ RPM_HASH = "6700497e6c825c9464da01c3d59cece160ac380a8b8575800e9ed16d68c27353dc0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-newlfm-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

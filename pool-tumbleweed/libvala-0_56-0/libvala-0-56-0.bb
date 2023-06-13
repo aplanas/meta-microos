@@ -10,6 +10,7 @@ RPM_HASH = "a3b445dd1f7792f4ed310fe2982926a00647c1a8a7d41d55e4bc6e4231834d06e471
 RPROVIDES:${PN} += "libvala-0.56.so.0()(64bit) \
 libvala-0_56-0 \
 libvala-0_56-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

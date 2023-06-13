@@ -13,6 +13,7 @@ pkgconfig(sdbus-c++) \
 pkgconfig(sdbus-c++-tools) \
 sdbus-cpp-devel \
 sdbus-cpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsdbus-c++1 \
 pkgconfig(libsystemd)"

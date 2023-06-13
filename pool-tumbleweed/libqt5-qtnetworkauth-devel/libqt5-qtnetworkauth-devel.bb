@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "cmake(Qt5NetworkAuth) \
 libqt5-qtnetworkauth-devel \
 libqt5-qtnetworkauth-devel(aarch-64) \
 pkgconfig(Qt5NetworkAuth)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5NetworkAuth5 \
 pkgconfig(Qt5Core) \

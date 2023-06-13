@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(svgwrite) \
 python39-svgwrite \
 python3dist(svgwrite)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pyparsing"
 

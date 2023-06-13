@@ -12,6 +12,7 @@ RPM_HASH = "bae31bc5f448a2fdc7c6c1c68510cad2556c1964ec8bb61deaf5e6c43f3d9a91a8ea
 RPROVIDES:${PN} += "libptexenc.so.1()(64bit) \
 libptexenc1 \
 libptexenc1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

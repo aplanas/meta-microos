@@ -11,6 +11,7 @@ RPM_HASH = "6b7de8404782c2385ad4f6a3ae1c746d187c7adb7be8a4195131181f6c2f3a7e0366
 RPROVIDES:${PN} += "libbladeRFSupport.so()(64bit) \
 soapysdr0.8-module-bladerf \
 soapysdr0.8-module-bladerf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSoapySDR.so.0.8()(64bit) \

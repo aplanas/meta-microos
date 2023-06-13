@@ -10,6 +10,7 @@ RPM_HASH = "45d3fa0d0d1d68d03c038c0637746f3f9fe833027afd81dfddde32e5bebd0dfaaea0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mparrows"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

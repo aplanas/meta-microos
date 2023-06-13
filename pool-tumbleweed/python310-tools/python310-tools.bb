@@ -15,6 +15,7 @@ python310-2to3 \
 python310-demo \
 python310-tools \
 python310-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/python3.10 \
 python(abi) \

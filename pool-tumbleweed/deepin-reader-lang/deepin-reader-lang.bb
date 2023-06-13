@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-reader-lang \
 deepin-reader-lang-all"
+
 RDEPENDS:${PN} += "deepin-reader"
 
 inherit rpm

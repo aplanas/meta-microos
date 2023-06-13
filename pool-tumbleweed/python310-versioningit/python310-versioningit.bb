@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-versioningit \
 python3.10dist(versioningit) \
 python310-versioningit \
 python3dist(versioningit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

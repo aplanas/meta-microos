@@ -19,6 +19,7 @@ RPM_HASH = "33242f89a348bea91e5f20388291e14c71b5386f34cc19bedd5f1d4122f7c3512c6e
 RPROVIDES:${PN} += "cmake(Libkolabxml) \
 libkolabxml-devel \
 libkolabxml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_chrono-devel \
 libboost_date_time-devel \
 libboost_system-devel \

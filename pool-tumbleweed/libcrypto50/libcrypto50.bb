@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libcrypto.so.50()(64bit) \
 libcrypto.so.50(LIBRESSL)(64bit) \
 libcrypto50 \
 libcrypto50(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

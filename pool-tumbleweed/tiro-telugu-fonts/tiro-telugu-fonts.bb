@@ -12,6 +12,7 @@ RPM_HASH = "39c1ee1cf42252f5f72f757427453d4025e40bd869c7285e6bb032a70f63b6742f01
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tiro-telugu-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

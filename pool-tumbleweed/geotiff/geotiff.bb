@@ -11,6 +11,7 @@ RPM_HASH = "84e22502891e3484c520e75ce5417383a34b706b6596e30a15717c2841535a5612ff
 
 RPROVIDES:${PN} += "geotiff \
 geotiff(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgeotiff.so.5()(64bit) \
 libtiff.so.6()(64bit) \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:mixlib-config) \
 rubygem(ruby:3.2.0:mixlib-config:3) \
 rubygem(ruby:3.2.0:mixlib-config:3.0) \
 rubygem(ruby:3.2.0:mixlib-config:3.0.27)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:tomlrb)"
 

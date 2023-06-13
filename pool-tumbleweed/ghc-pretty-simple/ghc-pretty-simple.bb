@@ -10,6 +10,7 @@ RPM_HASH = "6bcca9784c5a10091fdd22956b6999d33bd6e86967e39d5b7eb744ae8d3fb2b7cf3e
 RPROVIDES:${PN} += "ghc-pretty-simple \
 ghc-pretty-simple(aarch-64) \
 libHSpretty-simple-4.1.2.0-LfjX2FlO3KCJ7V5IZrf6zY-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so()(64bit) \
 libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

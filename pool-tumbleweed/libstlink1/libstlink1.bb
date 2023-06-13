@@ -10,6 +10,7 @@ RPM_HASH = "0d8f2a397fac97780e7d1298dcda5eb520681204a0c7d32ac30ad22c2a041c1c0d3f
 RPROVIDES:${PN} += "libstlink.so.1()(64bit) \
 libstlink1 \
 libstlink1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

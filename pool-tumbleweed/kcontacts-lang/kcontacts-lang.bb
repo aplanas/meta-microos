@@ -69,6 +69,7 @@ locale(kcontacts:ug) \
 locale(kcontacts:uk) \
 locale(kcontacts:zh_CN) \
 locale(kcontacts:zh_TW)"
+
 RDEPENDS:${PN} += "kcontacts"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "log4j-jcl \
 mvn(org.apache.logging.log4j:log4j-jcl) \
 mvn(org.apache.logging.log4j:log4j-jcl:pom:) \
 osgi(org.apache.logging.log4j.jcl)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-logging:commons-logging) \

@@ -18,6 +18,7 @@ libdeclarativeopcuaplugin.so(Qt_6.5)(64bit) \
 libdeclarativeopcuaplugin.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-opcua-imports \
 qt6-opcua-imports(aarch-64)"
+
 RDEPENDS:${PN} += "libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
 libQt6Core.so.6(Qt_6.5)(64bit) \

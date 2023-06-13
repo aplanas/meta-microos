@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Telethon \
 python3.10dist(telethon) \
 python310-Telethon \
 python3dist(telethon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyaes \
 python310-rsa"

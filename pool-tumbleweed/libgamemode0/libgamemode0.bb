@@ -14,6 +14,7 @@ RPM_HASH = "8f4f8bc405ab443709282b9a7e5b046185b307cd12c967c0d0d7f561b5dd6233c60f
 RPROVIDES:${PN} += "libgamemode.so.0()(64bit) \
 libgamemode0 \
 libgamemode0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gamemoded \
 ld-linux-aarch64.so.1()(64bit) \

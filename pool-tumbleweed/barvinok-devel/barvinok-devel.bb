@@ -23,6 +23,7 @@ RPM_HASH = "87d7eec4381638f78328fa32399752a3995e49b547c04fb0499c274451a1c5c26cae
 RPROVIDES:${PN} += "barvinok-devel \
 barvinok-devel(aarch-64) \
 pkgconfig(barvinok)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbarvinok23"
 

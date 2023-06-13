@@ -13,6 +13,7 @@ RPM_HASH = "0f6a41a433862495cf6bf3012224278856d6cdd7937ae7244f1f5f538fd5308cdca7
 RPROVIDES:${PN} += "libCoin.so.80()(64bit) \
 libCoin80 \
 libCoin80(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

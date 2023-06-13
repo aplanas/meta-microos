@@ -10,6 +10,7 @@ RPM_HASH = "89f57215e781bc35629d79c5f355e69195337f11a8e70697a8f827e4a00b74b7d201
 
 RPROVIDES:${PN} += "gmp-ecm-devel \
 gmp-ecm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libecm1"
 
 inherit rpm

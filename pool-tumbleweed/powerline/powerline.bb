@@ -15,6 +15,7 @@ powerline(aarch-64) \
 python3-powerline-status \
 python3.10dist(powerline-status) \
 python3dist(powerline-status)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 libc.so.6(GLIBC_2.34)(64bit) \

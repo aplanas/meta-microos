@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fixdif.sty) \
 texlive-fixdif"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

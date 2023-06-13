@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libswresample.so.4.ff5()(64bit) \
 libswresample.so.4.ff5(LIBSWRESAMPLE_4.7_SUSE)(64bit) \
 libswresample4_ff5 \
 libswresample4_ff5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

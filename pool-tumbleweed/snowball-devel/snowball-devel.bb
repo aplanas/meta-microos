@@ -24,6 +24,7 @@ RPM_HASH = "a142778cbbe5dce1bec13d35391f341b1f14b7669c9f6ee810d1376c05dcf4301089
 RPROVIDES:${PN} += "libstemmer-devel \
 snowball-devel \
 snowball-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libstemmer0d"
 
 inherit rpm

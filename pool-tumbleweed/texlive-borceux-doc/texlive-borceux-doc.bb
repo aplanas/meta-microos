@@ -9,6 +9,7 @@ RPM_HASH = "4341bae0c2133697479370456735f3dd36978424cc9465b0d52c482566b160c59c35
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-borceux-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

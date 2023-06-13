@@ -14,6 +14,7 @@ RPM_HASH = "e4ad51c1c9f784024c510226aaa5634d6f59b290104306f6f7d473b7f27f1e7807b0
 RPROVIDES:${PN} += "perl(Text::Hunspell) \
 perl-Text-Hunspell \
 perl-Text-Hunspell(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

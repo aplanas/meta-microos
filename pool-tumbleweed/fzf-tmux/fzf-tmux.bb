@@ -10,6 +10,7 @@ RPM_HASH = "a8a5a605bc245fc4cb80bd9db6f60d9f9e3775656651e1722781654800c586c8ae31
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fzf-tmux"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

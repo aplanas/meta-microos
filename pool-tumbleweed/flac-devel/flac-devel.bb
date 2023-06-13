@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "flac-devel \
 flac-devel(aarch-64) \
 pkgconfig(flac) \
 pkgconfig(flac++)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libFLAC++10 \

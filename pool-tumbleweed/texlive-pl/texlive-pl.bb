@@ -105,6 +105,7 @@ tex(pltt9.tfm) \
 tex(plu10.tfm) \
 tex(plvtt10.tfm) \
 texlive-pl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

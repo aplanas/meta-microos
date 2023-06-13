@@ -10,6 +10,7 @@ RPM_HASH = "4223d9ad26e51662ef3ebe3f0dda57ee1e28ea4e539feff5e10774a630872ea6ef13
 
 RPROVIDES:${PN} += "metallb-speaker \
 metallb-speaker(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

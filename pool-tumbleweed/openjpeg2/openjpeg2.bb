@@ -14,6 +14,7 @@ RPM_HASH = "84132a4c4a5c9ca40a0a77dcd7b2c1d45ae15c0a3405934f92ef846aed92f03a6a8c
 
 RPROVIDES:${PN} += "openjpeg2 \
 openjpeg2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -66,6 +66,7 @@ locale(akonadi-contact:ug) \
 locale(akonadi-contact:uk) \
 locale(akonadi-contact:zh_CN) \
 locale(akonadi-contact:zh_TW)"
+
 RDEPENDS:${PN} += "akonadi-contact"
 
 inherit rpm

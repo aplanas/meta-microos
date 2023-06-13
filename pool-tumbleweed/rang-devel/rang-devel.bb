@@ -10,6 +10,7 @@ RPM_HASH = "0c8c8c4af21b4d833a2ad8a4eb55c3d9851d3114a7b4733df2711c3b00abf825c92f
 RPROVIDES:${PN} += "pkgconfig(rang) \
 rang-devel \
 rang-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "638d6402ce134259c59cff72ad1955aa0b60bc86ef3223982d04f9c09ed2ae9ed51c
 RPROVIDES:${PN} += "libabw-0.1.so.1()(64bit) \
 libabw-0_1-1 \
 libabw-0_1-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

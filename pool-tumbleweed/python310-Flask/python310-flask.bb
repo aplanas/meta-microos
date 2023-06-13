@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-Flask \
 python3.10dist(flask) \
 python310-Flask \
 python3dist(flask)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

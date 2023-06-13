@@ -17,6 +17,7 @@ tex(cv4tw-theme-sharp.sty) \
 tex(cv4tw-theme-simple.sty) \
 tex(cv4tw.cls) \
 texlive-cv4tw"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(chameleon) \
 python39-Chameleon \
 python3dist(chameleon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-setuptools"
 

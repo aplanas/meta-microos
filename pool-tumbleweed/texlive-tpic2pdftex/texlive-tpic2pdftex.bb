@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(tpic2pdftex.1) \
 texlive-tpic2pdftex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

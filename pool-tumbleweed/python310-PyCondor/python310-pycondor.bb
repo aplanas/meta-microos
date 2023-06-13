@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-PyCondor \
 python3.10dist(pycondor) \
 python310-PyCondor \
 python3dist(pycondor)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

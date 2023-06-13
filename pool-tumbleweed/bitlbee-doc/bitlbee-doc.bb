@@ -14,6 +14,7 @@ RPM_HASH = "45257c078e55a59617ccc871c0ffe0ffcbd51633ad4c578c5c8a849173ce48b70391
 
 RPROVIDES:${PN} += "bitlbee-doc \
 bitlbee-doc(aarch-64)"
+
 RDEPENDS:${PN} += "bitlbee"
 
 inherit rpm

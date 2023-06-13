@@ -11,6 +11,7 @@ RPM_HASH = "0c5e6a89000f9f590e8c905a14fbafd20ff865b2f4d22d48a2b0179ce242d069d94c
 RPROVIDES:${PN} += "libunwind-coredump.so.0()(64bit) \
 libunwind-coredump0 \
 libunwind-coredump0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

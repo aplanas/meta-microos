@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hvarabic.sty) \
 texlive-hvarabic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

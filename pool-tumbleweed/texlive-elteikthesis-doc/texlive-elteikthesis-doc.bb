@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-elteikthesis-doc:en;hu) \
 texlive-elteikthesis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

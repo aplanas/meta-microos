@@ -11,6 +11,7 @@ RPM_HASH = "2a079359aa8d92052ba3d367b62a4955d44a04be321f2ebd242fced0fa6260225833
 
 RPROVIDES:${PN} += "robinhood-tools \
 robinhood-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

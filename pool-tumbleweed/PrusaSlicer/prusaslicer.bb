@@ -21,6 +21,7 @@ mimehandler(application/vnd.ms-3mfdocument) \
 mimehandler(application/x-amf) \
 mimehandler(model/stl) \
 mimehandler(text/x.gcode)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

@@ -15,6 +15,7 @@ python3.10dist(cassandra-driver) \
 python310-cassandra-driver \
 python310-cassandra-driver(aarch-64) \
 python3dist(cassandra-driver)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Cython \
 python310-geomet \

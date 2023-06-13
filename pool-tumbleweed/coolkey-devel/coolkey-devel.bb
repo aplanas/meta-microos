@@ -23,6 +23,7 @@ RPM_HASH = "0c7e50aaddc9bfbbc78ebacaec85b6c1c1c9bcaae6b992a306c1c3ba1e92305367de
 RPROVIDES:${PN} += "coolkey-devel \
 coolkey-devel(aarch-64) \
 pkgconfig(libckyapplet)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 coolkey"
 

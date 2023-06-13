@@ -10,6 +10,7 @@ RPM_HASH = "327fa1ecb10ca6a3de1b27a1c5db4505b89f242896dbc2b186e0869672f14f132aa5
 RPROVIDES:${PN} += "libdbusmenu-gtk2-devel \
 libdbusmenu-gtk2-devel(aarch-64) \
 pkgconfig(dbusmenu-gtk-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdbusmenu-gtk4 \
 pkgconfig(dbus-glib-1) \

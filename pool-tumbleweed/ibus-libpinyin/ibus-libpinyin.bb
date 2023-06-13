@@ -16,6 +16,7 @@ ibus-libpinyin(aarch-64) \
 locale(ibus:zh_CN;zh_SG) \
 metainfo() \
 metainfo(libpinyin.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ibus \
 ld-linux-aarch64.so.1()(64bit) \

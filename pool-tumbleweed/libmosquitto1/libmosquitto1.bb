@@ -14,6 +14,7 @@ RPM_HASH = "102f9351e5131657f16acbfdb1b85eee6ed098bc4c2b42499ebe54973ce8054b2160
 RPROVIDES:${PN} += "libmosquitto.so.1()(64bit) \
 libmosquitto1 \
 libmosquitto1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

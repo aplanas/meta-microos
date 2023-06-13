@@ -9,6 +9,7 @@ RPM_HASH = "4f393300274dd2c39d73251f1f07f69dcd8d4115d7355fd45e16ff435bc8083cd308
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ccaption-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

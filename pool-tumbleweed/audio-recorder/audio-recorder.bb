@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "application() \
 application(audio-recorder.desktop) \
 audio-recorder \
 audio-recorder(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gstreamer-plugins-bad \
 gstreamer-plugins-base \

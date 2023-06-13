@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(classpack.sty) \
 texlive-classpack"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

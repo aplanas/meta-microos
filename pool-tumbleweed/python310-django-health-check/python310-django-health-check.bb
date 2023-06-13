@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-django-health-check \
 python3.10dist(django-health-check) \
 python310-django-health-check \
 python3dist(django-health-check)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

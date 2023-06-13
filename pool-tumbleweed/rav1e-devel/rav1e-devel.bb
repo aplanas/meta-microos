@@ -11,6 +11,7 @@ RPM_HASH = "663e1b7c638cd9faebc2f1eb9859875e72c550f804b0e3db257f99d0b74fda27856d
 RPROVIDES:${PN} += "pkgconfig(rav1e) \
 rav1e-devel \
 rav1e-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librav1e0"
 

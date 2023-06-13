@@ -13,6 +13,7 @@ RPM_HASH = "81f10e424352b0028e4557c1871daadac7d49f6e5c2aa242e523d9de2f94cac5549a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-arphic-ttf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

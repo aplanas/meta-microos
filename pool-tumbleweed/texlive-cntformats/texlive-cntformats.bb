@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cntformats.sty) \
 texlive-cntformats"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

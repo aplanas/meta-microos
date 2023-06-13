@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-xyzservices \
 python3.10dist(xyzservices) \
 python310-xyzservices \
 python3dist(xyzservices)"
+
 RDEPENDS:${PN} += "python(abi) \
 xyzservices-data"
 

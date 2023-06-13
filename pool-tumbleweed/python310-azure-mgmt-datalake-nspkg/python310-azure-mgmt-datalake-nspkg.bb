@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-datalake-nspkg \
 python3.10dist(azure-mgmt-datalake-nspkg) \
 python310-azure-mgmt-datalake-nspkg \
 python3dist(azure-mgmt-datalake-nspkg)"
+
 RDEPENDS:${PN} += "python310-azure-mgmt-nspkg \
 python310-azure-nspkg"
 

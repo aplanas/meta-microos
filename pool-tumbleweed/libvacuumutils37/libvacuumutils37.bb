@@ -10,6 +10,7 @@ RPM_HASH = "546d43af5906777d30e7c20afad53a9859f0205ba0672c7b438ca244c1fcd3b40bb8
 RPROVIDES:${PN} += "libvacuumutils.so.37()(64bit) \
 libvacuumutils37 \
 libvacuumutils37(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

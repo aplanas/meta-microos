@@ -58,6 +58,7 @@ firmware(vxge/X3fw-pxe.ncf) \
 firmware(vxge/X3fw.ncf) \
 firmware(wsm_22.bin) \
 kernel-firmware-network"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

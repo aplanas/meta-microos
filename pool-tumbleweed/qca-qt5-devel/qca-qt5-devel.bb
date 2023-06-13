@@ -14,6 +14,7 @@ libqca-qt5-devel \
 pkgconfig(qca2-qt5) \
 qca-qt5-devel \
 qca-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt5Core) \
 cmake(Qt5Network) \

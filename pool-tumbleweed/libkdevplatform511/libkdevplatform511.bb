@@ -21,6 +21,7 @@ libKDevPlatformUtil.so.511()(64bit) \
 libKDevPlatformVcs.so.511()(64bit) \
 libkdevplatform511 \
 libkdevplatform511(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdevplatform \
 ld-linux-aarch64.so.1()(64bit) \

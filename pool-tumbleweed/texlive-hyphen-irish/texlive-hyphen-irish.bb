@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(hyph-ga.ec.tex) \
 tex(hyph-ga.tex) \
 tex(loadhyph-ga.tex) \
 texlive-hyphen-irish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

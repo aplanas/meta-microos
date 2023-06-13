@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-validate_email \
 python3.10dist(validate-email) \
 python310-validate_email \
 python3dist(validate-email)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

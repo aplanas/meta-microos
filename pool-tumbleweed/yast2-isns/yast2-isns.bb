@@ -13,6 +13,7 @@ application(org.opensuse.yast.iSNS.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.iSNS.metainfo.xml) \
 yast2-isns"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-ruby-bindings"
 

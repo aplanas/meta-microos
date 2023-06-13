@@ -15,6 +15,7 @@ libmulticast-transmitter.so()(64bit) \
 libnice-transmitter.so()(64bit) \
 librawudp-transmitter.so()(64bit) \
 libshm-transmitter.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 farstream-data \
 gstreamer-plugins-farstream \

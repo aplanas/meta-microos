@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-plugins-extras-common \
 python3-dnf-plugins-extras-common"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-dnf"
 

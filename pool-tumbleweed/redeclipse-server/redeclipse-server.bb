@@ -9,6 +9,7 @@ RPM_HASH = "cf373f0eadfd722fd9d431c243d1aa2641526b8f5b9520412186548916e254e2516f
 
 RPROVIDES:${PN} += "redeclipse-server \
 redeclipse-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 redeclipse-data"
 

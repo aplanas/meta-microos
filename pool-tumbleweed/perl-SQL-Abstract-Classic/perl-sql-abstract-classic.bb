@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(SQL::Abstract::Classic) \
 perl(SQL::Abstract::Util) \
 perl-SQL-Abstract-Classic"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(MRO::Compat) \
 perl(SQL::Abstract) \

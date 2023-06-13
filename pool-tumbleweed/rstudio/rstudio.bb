@@ -32,6 +32,7 @@ bundled(sundown) \
 bundled(tree.hh) \
 rstudio \
 rstudio(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/bash \
 /usr/bin/env \

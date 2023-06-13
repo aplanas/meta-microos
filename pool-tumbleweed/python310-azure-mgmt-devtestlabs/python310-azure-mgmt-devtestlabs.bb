@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-devtestlabs \
 python3.10dist(azure-mgmt-devtestlabs) \
 python310-azure-mgmt-devtestlabs \
 python3dist(azure-mgmt-devtestlabs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-datashare \
 python3.10dist(azure-mgmt-datashare) \
 python310-azure-mgmt-datashare \
 python3dist(azure-mgmt-datashare)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

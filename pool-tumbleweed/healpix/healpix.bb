@@ -12,6 +12,7 @@ RPM_HASH = "d095e48eea2a534292cc96549da3514127d51ea6eb3e9f31d55e395c1a866baf4fb5
 
 RPROVIDES:${PN} += "healpix \
 healpix(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

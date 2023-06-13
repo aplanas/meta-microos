@@ -12,6 +12,7 @@ RPM_HASH = "d5a35176870f65c0ace70854655dfcc4f0ee46a03cc6ffcaa4a98d4ac557b62ed4b2
 
 RPROVIDES:${PN} += "chezmoi \
 chezmoi(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

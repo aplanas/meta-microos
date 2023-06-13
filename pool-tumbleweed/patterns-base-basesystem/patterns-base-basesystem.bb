@@ -12,6 +12,7 @@ pattern-category() \
 pattern-icon() \
 patterns-base-basesystem \
 patterns-base-basesystem(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

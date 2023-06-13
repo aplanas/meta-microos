@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python311-CXX-devel \
 python311-cxx-devel \
 python311-pycxx-devel"
+
 RDEPENDS:${PN} += "python311-pycxx"
 
 inherit rpm

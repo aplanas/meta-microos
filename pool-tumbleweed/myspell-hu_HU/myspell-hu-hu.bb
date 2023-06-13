@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:hu_HU) \
 myspell-dictionary \
 myspell-hu_HU \
 myspell-hungarian"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

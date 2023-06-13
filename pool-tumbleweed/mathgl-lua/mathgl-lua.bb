@@ -13,6 +13,7 @@ RPM_HASH = "06dc502689f0cc10f147e2988f2f2d190bab68c843f822088ae631f9426974748f1d
 
 RPROVIDES:${PN} += "mathgl-lua \
 mathgl-lua(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

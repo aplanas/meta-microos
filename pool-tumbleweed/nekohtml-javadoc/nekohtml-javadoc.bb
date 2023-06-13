@@ -9,6 +9,7 @@ RPM_HASH = "fa3c0da21c432248368f7361224d79ac67af60e7db7812ac322528c7dfd5d528c430
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nekohtml-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

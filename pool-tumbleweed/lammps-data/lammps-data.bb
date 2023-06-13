@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(lammps-data) \
 lammps-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

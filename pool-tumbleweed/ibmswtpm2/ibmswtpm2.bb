@@ -17,6 +17,7 @@ RPM_HASH = "65df5e77d01e84bc81d5e5c2df465c4e5e80c71cf0708c7f1aae8ea1fc662f1fbf56
 
 RPROVIDES:${PN} += "ibmswtpm2 \
 ibmswtpm2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

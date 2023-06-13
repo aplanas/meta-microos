@@ -14,6 +14,7 @@ application(dbgl.desktop) \
 dbgl \
 metainfo() \
 metainfo(dbgl.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/bash \
 apache-commons-io \
 apache-commons-lang3 \

@@ -9,6 +9,7 @@ RPM_HASH = "73a76fb72ebcf12de8e0309745499c9cada4ed7002804524fa5fabe352a9f04b32ac
 
 RPROVIDES:${PN} += "bitlbee-facebook \
 bitlbee-facebook(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

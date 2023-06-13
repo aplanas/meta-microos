@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-dogpile.cache \
 python3-dogpile.core \
 python3.10dist(dogpile.cache) \
 python3dist(dogpile.cache)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-decorator \
 python3-stevedore"

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-cldr \
 lua54-cldr"
+
 RDEPENDS:${PN} += "lua54 \
 lua54-penlight"
 

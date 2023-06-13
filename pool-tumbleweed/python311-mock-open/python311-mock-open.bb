@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mock-open) \
 python311-mock-open \
 python3dist(mock-open)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

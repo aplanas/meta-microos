@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(pyx) \
 python311-PyX \
 python311-pyx \
 python3dist(pyx)"
+
 RDEPENDS:${PN} += "python(abi) \
 texlive-latex-bin-bin \
 texlive-tex-bin \

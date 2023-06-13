@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(classics.sty) \
 texlive-classics"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "520176d5a3c603e534f8ac6cd24a0e977bee29eebf1c9a0a587316aca6a821979a87
 RPROVIDES:${PN} += "libsunpinyin.so.3()(64bit) \
 libsunpinyin3 \
 libsunpinyin3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.33)(64bit) \
 libgcc_s.so.1()(64bit) \

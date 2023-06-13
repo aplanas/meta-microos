@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "tex(dehyphn.tex) \
 tex(dehypht.tex) \
 tex(dehyphtex.tex) \
 texlive-dehyph"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

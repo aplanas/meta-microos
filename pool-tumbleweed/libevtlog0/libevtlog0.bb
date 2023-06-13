@@ -25,6 +25,7 @@ RPM_HASH = "dcf2a38b3c0555d74afc3b2f5e607b5d5d186e055581ae1cbfb6eb6daee0a2992c10
 RPROVIDES:${PN} += "libevtlog.so.0()(64bit) \
 libevtlog0 \
 libevtlog0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

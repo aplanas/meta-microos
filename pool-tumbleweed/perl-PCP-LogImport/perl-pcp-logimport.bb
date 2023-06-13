@@ -12,6 +12,7 @@ RPM_HASH = "59b7f0d119b5fcd04441beec5e3412a24641fa1b97d1f7e6a8f408a5445597b4716d
 RPROVIDES:${PN} += "perl(PCP::LogImport) \
 perl-PCP-LogImport \
 perl-PCP-LogImport(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(cepa) \
 python311-cepa \
 python311-stem \
 python3dist(cepa)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pysolr) \
 python311-pysolr \
 python3dist(pysolr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests"
 

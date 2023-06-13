@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "goffice-devel \
 goffice-devel(aarch-64) \
 goffice-doc \
 pkgconfig(libgoffice-0.10)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgoffice-0_10-10 \
 pkgconfig(cairo) \

@@ -11,6 +11,7 @@ RPM_HASH = "ec403f3ddfb2a74287fa287903e306a59652ceee61752cc5f6f847e61eee53ba41f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libboost_graph_parallel-devel"
+
 RDEPENDS:${PN} += "libboost_graph_parallel1_82_0-devel"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "a0011075023cdb814b74c0753ef404d0981e43dab0e95ed168ec67a69aa93a917458
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mp3d"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

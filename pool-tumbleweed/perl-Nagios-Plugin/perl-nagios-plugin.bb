@@ -26,6 +26,7 @@ perl(Nagios::Plugin::Range) \
 perl(Nagios::Plugin::Threshold) \
 perl-Nagios-Plugin \
 perl-Nagios-Plugin(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor) \
 perl(Config::Tiny) \

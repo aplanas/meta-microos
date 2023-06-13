@@ -13,6 +13,7 @@ RPM_HASH = "a37cad9faefd43b4f4c82477c935b6c7e1afe3aaeabf49744670e8a454af7ee35c70
 RPROVIDES:${PN} += "config(ldc) \
 ldc \
 ldc(aarch-64)"
+
 RDEPENDS:${PN} += "libLLVM.so.15()(64bit) \
 libLLVM.so.15(LLVM_15)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

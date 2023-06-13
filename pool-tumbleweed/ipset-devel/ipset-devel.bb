@@ -14,6 +14,7 @@ RPM_HASH = "39f854f1fb4e67ade81f52ae8d691af87c8f214fa6f76d1ae4b6dd714fb92a411f2c
 RPROVIDES:${PN} += "ipset-devel \
 ipset-devel(aarch-64) \
 pkgconfig(libipset)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libipset13 \
 pkgconfig(libmnl)"

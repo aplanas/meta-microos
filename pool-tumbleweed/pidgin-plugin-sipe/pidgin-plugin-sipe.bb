@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "metainfo() \
 metainfo(pidgin-sipe.metainfo.xml) \
 pidgin-plugin-sipe \
 pidgin-sipe"
+
 RDEPENDS:${PN} += "libpurple-plugin-sipe"
 
 inherit rpm

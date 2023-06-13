@@ -10,6 +10,7 @@ RPM_HASH = "2a5399892e95f6f012f4f3a43a4758bc78745f471c1cb679ce3626ad2f19a7540497
 
 RPROVIDES:${PN} += "leechcraft-devel \
 leechcraft-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake \
 leechcraft \
 libQt5Gui-private-headers-devel \

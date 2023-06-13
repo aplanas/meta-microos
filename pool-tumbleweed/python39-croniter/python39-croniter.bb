@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(croniter) \
 python39-croniter \
 python3dist(croniter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-python-dateutil"
 

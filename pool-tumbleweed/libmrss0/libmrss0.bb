@@ -13,6 +13,7 @@ RPM_HASH = "11c016123afa0248f4e9acec2c53ca7fbda34114ffd7289e82d2c69c0d7a4e6c98fe
 RPROVIDES:${PN} += "libmrss.so.0()(64bit) \
 libmrss0 \
 libmrss0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

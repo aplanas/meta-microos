@@ -12,6 +12,7 @@ efivar-devel(aarch-64) \
 pkgconfig(efiboot) \
 pkgconfig(efisec) \
 pkgconfig(efivar)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libefivar1 \
 pkgconfig(efivar)"

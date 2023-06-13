@@ -21,6 +21,7 @@ orthos2 \
 orthos2-1.2.169+git.a693485-1.1 \
 python3.10dist(orthos2) \
 python3dist(orthos2)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /sbin/service \

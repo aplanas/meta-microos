@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(xvfbwrapper) \
 python311-xvfbwrapper \
 python3dist(xvfbwrapper)"
+
 RDEPENDS:${PN} += "python(abi) \
 xorg-x11-Xvfb"
 

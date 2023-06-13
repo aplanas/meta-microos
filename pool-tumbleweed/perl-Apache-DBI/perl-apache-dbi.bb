@@ -30,6 +30,7 @@ RPROVIDES:${PN} += "perl(Apache::AuthDBI) \
 perl(Apache::DBI) \
 perl(Apache::DBI::db) \
 perl-Apache-DBI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBI) \
 perl(Digest::SHA1)"

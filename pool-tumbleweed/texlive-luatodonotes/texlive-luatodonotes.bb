@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luatodonotes.sty) \
 texlive-luatodonotes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

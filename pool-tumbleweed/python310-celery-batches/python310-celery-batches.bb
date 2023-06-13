@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-celery-batches \
 python3.10dist(celery-batches) \
 python310-celery-batches \
 python3dist(celery-batches)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-celery"
 

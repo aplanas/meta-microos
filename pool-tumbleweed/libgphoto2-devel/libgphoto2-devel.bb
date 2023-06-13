@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libgphoto2-devel \
 libgphoto2-devel(aarch-64) \
 pkgconfig(libgphoto2) \
 pkgconfig(libgphoto2_port)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libexif-devel \

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(chemfig-lewis.tex) \
 tex(chemfig.sty) \
 tex(chemfig.tex) \
 texlive-chemfig"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

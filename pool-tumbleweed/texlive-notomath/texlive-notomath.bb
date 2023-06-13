@@ -38,6 +38,7 @@ tex(notosansmia.vf) \
 tex(omlnotomi.fd) \
 tex(omlnotosansmi.fd) \
 texlive-notomath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

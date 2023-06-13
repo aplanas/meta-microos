@@ -10,6 +10,7 @@ RPM_HASH = "7d87f3d406393259081f27f70871d013a21b62d338f383804f1a853a3fdab7571387
 RPROVIDES:${PN} += "ghc-cereal-prof \
 ghc-cereal-prof(aarch-64) \
 ghc-prof(cereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f)"
+
 RDEPENDS:${PN} += "ghc-cereal-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

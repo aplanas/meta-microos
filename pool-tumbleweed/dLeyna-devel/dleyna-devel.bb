@@ -20,6 +20,7 @@ dleyna-server-devel \
 pkgconfig(dleyna-core-1.0) \
 pkgconfig(dleyna-renderer-service-1.0) \
 pkgconfig(dleyna-server-service-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dLeyna \
 pkgconfig(dleyna-core-1.0) \

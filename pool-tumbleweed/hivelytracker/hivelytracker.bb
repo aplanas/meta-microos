@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "application() \
 application(hivelytracker.desktop) \
 hivelytracker \
 hivelytracker(aarch-64)"
+
 RDEPENDS:${PN} += "libSDL-1.2.so.0()(64bit) \
 libSDL_image-1.2.so.0()(64bit) \
 libSDL_ttf-2.0.so.0()(64bit) \

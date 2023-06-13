@@ -11,6 +11,7 @@ RPM_HASH = "87691453aaa9db3d8730d1c3e02c68c67f4ee67b6990bfe045c834dd99d6544039ee
 RPROVIDES:${PN} += "libsuperlu.so.6()(64bit) \
 libsuperlu6 \
 libsuperlu6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

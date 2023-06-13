@@ -10,6 +10,7 @@ RPM_HASH = "54c623a060c3a5d9c0f57c3e1ab9f266d00bbb33dc06271e6341c3ed4a08ab54c675
 RPROVIDES:${PN} += "ghc-distributive \
 ghc-distributive(aarch-64) \
 libHSdistributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbase-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8-ghc9.4.5.so()(64bit) \

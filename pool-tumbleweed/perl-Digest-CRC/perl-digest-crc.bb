@@ -12,6 +12,7 @@ RPM_HASH = "ad11aeb37d408f6067b9067a371e306315f465faed441ef23fd94ce07f5f29b0c271
 RPROVIDES:${PN} += "perl(Digest::CRC) \
 perl-Digest-CRC \
 perl-Digest-CRC(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

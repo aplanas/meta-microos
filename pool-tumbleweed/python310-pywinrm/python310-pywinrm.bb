@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-pywinrm \
 python3.10dist(pywinrm) \
 python310-pywinrm \
 python3dist(pywinrm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-requests_ntlm \

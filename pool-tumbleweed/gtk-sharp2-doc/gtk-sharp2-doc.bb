@@ -9,6 +9,7 @@ RPM_HASH = "c565dd6e012c26a2eb13c388472b2aada6636cd567eed88bcdf13861cbf9b7ef4675
 
 RPROVIDES:${PN} += "gtk-sharp2-doc \
 gtk-sharp2-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "15b9d3fb3501e84cee16bb108d3f11da2e27d9b6e30e28364dd881685d897821d6e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-letgut-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

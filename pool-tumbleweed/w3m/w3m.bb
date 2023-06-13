@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "w3m \
 w3m(aarch-64) \
 w3m_ssl \
 web_browser"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

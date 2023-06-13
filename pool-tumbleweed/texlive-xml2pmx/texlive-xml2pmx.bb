@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(xml2pmx.1) \
 texlive-xml2pmx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

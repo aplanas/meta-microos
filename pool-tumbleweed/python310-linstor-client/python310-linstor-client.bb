@@ -12,6 +12,7 @@ python3.10dist(linstor-client) \
 python310-linstor-client \
 python310-linstor-client(aarch-64) \
 python3dist(linstor-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-linstor"
 

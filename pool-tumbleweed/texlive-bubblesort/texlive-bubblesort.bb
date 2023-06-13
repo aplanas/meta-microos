@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bubblesort.sty) \
 texlive-bubblesort"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

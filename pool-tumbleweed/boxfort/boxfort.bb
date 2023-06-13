@@ -17,6 +17,7 @@ RPM_HASH = "0fbda805987a71e34675fe3527c0ebe1d45ec34ea9fe44df68158410e1bd3d97926a
 
 RPROVIDES:${PN} += "boxfort \
 boxfort(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

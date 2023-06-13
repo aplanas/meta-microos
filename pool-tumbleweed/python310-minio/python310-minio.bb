@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-minio \
 python3.10dist(minio) \
 python310-minio \
 python3dist(minio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-certifi \
 python310-future \

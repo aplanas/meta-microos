@@ -17,6 +17,7 @@ ejb_api \
 geronimo-ejb-3_0-api \
 mvn(org.apache.geronimo.specs:geronimo-ejb_3.0_spec) \
 mvn(org.apache.geronimo.specs:geronimo-ejb_3.0_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 annotation_1_0_api \
 interceptor_3_0_api \

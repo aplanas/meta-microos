@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-plugin-tools-ant \
 mvn(org.apache.maven.plugin-tools:maven-plugin-tools-ant) \
 mvn(org.apache.maven.plugin-tools:maven-plugin-tools-ant:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.plugin-tools:maven-plugin-tools-api) \

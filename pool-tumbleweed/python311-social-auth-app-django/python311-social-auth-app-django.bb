@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(social-auth-app-django) \
 python311-social-auth-app-django \
 python3dist(social-auth-app-django)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-python-jose \

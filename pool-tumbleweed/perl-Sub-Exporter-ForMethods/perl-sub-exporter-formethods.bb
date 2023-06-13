@@ -37,6 +37,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Sub::Exporter::ForMethods) \
 perl-Sub-Exporter-ForMethods"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Sub::Exporter) \
 perl(Sub::Util)"

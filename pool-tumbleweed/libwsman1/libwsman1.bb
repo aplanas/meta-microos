@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libwsman.so.1()(64bit) \
 libwsman1 \
 libwsman1(aarch-64) \
 libwsman_curl_client_transport.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "adac654830eae5e5ae98e34d7bf7cde5b21647b031dc2c53d15b84be1e088673b9cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-danish-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

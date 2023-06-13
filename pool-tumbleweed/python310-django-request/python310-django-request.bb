@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-django-request \
 python3.10dist(django-request) \
 python310-django-request \
 python3dist(django-request)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-python-dateutil"

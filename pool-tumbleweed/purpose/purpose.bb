@@ -21,6 +21,7 @@ purpose(aarch-64) \
 qt5qmlimport(org.kde.purpose.1) \
 qt5qmlimport(org.kde.purpose.phabricator.1) \
 qt5qmlimport(org.kde.purpose.reviewboard.1)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdeclarative-components \
 ld-linux-aarch64.so.1()(64bit) \

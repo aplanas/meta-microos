@@ -16,6 +16,7 @@ RPM_HASH = "50f56b2b968a59408ae5616e60120b36f94e2ea33224430ef6566239f119c09b8622
 RPROVIDES:${PN} += "libcdada.so.0()(64bit) \
 libcdada0 \
 libcdada0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

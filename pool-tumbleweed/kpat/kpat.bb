@@ -18,6 +18,7 @@ libkcardgame.so()(64bit) \
 metainfo() \
 metainfo(org.kde.kpat.appdata.xml) \
 mimehandler(application/vnd.kde.kpatience.savedstate)"
+
 RDEPENDS:${PN} += "kdegames-carddecks-default \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

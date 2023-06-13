@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libjack0:/usr/lib64/libjacknet.so.0* \
 libjacknet.so.0()(64bit) \
 libjacknet0 \
 libjacknet0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

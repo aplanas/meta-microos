@@ -17,6 +17,7 @@ rubygem(ruby:3.2.0:kgio) \
 rubygem(ruby:3.2.0:kgio:2) \
 rubygem(ruby:3.2.0:kgio:2.11) \
 rubygem(ruby:3.2.0:kgio:2.11.4)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

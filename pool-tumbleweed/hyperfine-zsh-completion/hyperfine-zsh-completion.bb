@@ -9,6 +9,7 @@ RPM_HASH = "eed6f0facdd2ed83738be0da63832ce94097146381b659c4774cffe57571fc029ee1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hyperfine-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

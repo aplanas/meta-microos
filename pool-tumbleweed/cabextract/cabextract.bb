@@ -11,6 +11,7 @@ RPM_HASH = "c7939e8a0e3a05e1ded868360b1aaac91d65c01e2249b3737350be38cf05de113044
 
 RPROVIDES:${PN} += "cabextract \
 cabextract(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

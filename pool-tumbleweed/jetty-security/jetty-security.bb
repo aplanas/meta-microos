@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "jetty-security \
 mvn(org.eclipse.jetty:jetty-security) \
 mvn(org.eclipse.jetty:jetty-security:pom:) \
 osgi(org.eclipse.jetty.security)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.eclipse.jetty:jetty-server)"

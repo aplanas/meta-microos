@@ -9,6 +9,7 @@ RPM_HASH = "0f51858e72e84eb7caae872b2164365fd5a6ebb5862b0a554adbe56554b3f6106d58
 
 RPROVIDES:${PN} += "liblog4c-doc \
 liblog4c-doc(aarch-64)"
+
 RDEPENDS:${PN} += "liblog4c3"
 
 inherit rpm

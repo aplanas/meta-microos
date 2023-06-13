@@ -14,6 +14,7 @@ RPM_HASH = "34d1327cc81f28fdfb87a36321e333585d8e857df9d5ed08ee42faab3f7e61dd380f
 
 RPROVIDES:${PN} += "libxcvt \
 libxcvt(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libxcvt.so.0()(64bit)"
 

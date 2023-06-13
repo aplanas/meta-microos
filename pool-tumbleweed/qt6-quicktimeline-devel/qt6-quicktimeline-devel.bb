@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6QuickTimeline) \
 pkgconfig(Qt6QuickTimeline) \
 qt6-quicktimeline-devel \
 qt6-quicktimeline-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 cmake(Qt6Quick) \

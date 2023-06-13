@@ -23,6 +23,7 @@ RPM_HASH = "df740c386292e2c268fb34f5eb02b2b967627d2f042bfc9fdc8354a25f2a3f19468d
 RPROVIDES:${PN} += "perl(ConfigFile) \
 perl-libconfigfile \
 perl-libconfigfile(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

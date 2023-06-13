@@ -12,6 +12,7 @@ RPM_HASH = "05333acda07dbd791c670ba6670ebd62bfa59c38972e7f2a1ed3bc95614764d0996b
 RPROVIDES:${PN} += "libkissfft-float.so.131()(64bit) \
 libkissfft-float131 \
 libkissfft-float131(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

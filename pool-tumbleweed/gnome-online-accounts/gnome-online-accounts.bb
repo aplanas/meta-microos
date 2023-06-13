@@ -11,6 +11,7 @@ RPM_HASH = "275e1e6bd5321c4e1667ce10694323ae9e3e806bbf049ab0e36874c3b09add44dbaa
 RPROVIDES:${PN} += "gnome-online-accounts \
 gnome-online-accounts(aarch-64) \
 libgoawebextension.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "73387adcfd5bf9a6246229b06b2f210ae8ee695dee2f12a0554de6976b70fe0c1cb1
 
 RPROVIDES:${PN} += "bind-modules-perl \
 bind-modules-perl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

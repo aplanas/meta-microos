@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Help) \
 pkgconfig(Qt6Help) \
 qt6-help-devel \
 qt6-help-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Network) \

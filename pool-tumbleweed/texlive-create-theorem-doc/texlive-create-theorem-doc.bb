@@ -9,6 +9,7 @@ RPM_HASH = "3c06eb80333d130215aca0135c6aed1e4605f989a5bdf63457744d45e4ccf383f331
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-create-theorem-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

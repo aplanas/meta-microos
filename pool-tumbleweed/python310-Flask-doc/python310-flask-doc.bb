@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-doc \
 python310-Flask-doc"
+
 RDEPENDS:${PN} += "python310-Flask"
 
 inherit rpm

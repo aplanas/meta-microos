@@ -9,6 +9,7 @@ RPM_HASH = "c77b86981ab85c79406db5093ec2515c629a74acab2f9327fff070b8bcf410e14854
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubie-fish-completion"
+
 RDEPENDS:${PN} += "kubie"
 
 inherit rpm

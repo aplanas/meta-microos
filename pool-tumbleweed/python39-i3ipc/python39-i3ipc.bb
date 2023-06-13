@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(i3ipc) \
 python39-i3ipc \
 python3dist(i3ipc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-python-xlib"
 

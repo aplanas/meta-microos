@@ -49,6 +49,7 @@ locale(ktp-desktop-applets:tr) \
 locale(ktp-desktop-applets:uk) \
 locale(ktp-desktop-applets:zh_CN) \
 locale(ktp-desktop-applets:zh_TW)"
+
 RDEPENDS:${PN} += "ktp-desktop-applets"
 
 inherit rpm

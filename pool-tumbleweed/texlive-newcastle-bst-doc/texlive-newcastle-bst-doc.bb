@@ -9,6 +9,7 @@ RPM_HASH = "7defac236d226cd6537df2a23d858f62c8573232c30882d6b3ed0b2edf774b3168ed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-newcastle-bst-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

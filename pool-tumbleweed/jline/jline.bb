@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "jline \
 mvn(jline:jline) \
 mvn(jline:jline:pom:) \
 osgi(jline)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.fusesource.jansi:jansi)"

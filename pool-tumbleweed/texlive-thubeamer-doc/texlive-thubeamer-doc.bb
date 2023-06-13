@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-thubeamer-doc:zh) \
 texlive-thubeamer-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

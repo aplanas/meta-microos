@@ -10,6 +10,7 @@ RPM_HASH = "2d327cf88f226d6434dd201f84bf0e9a877703aa7c2b25e772bef65a79b173b9cf8a
 RPROVIDES:${PN} += "ghc-http-conduit-prof \
 ghc-http-conduit-prof(aarch-64) \
 ghc-prof(http-conduit-2.3.8-9gcbWW2UjPVHQDceZSAOIR)"
+
 RDEPENDS:${PN} += "ghc-http-conduit-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \

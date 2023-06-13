@@ -12,6 +12,7 @@ RPM_HASH = "65f76d94478af15b727785563063976466dfc09509ccaee47c8e93ec9a2d18b7c32a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5DBus-private-headers-devel"
+
 RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
 libQt5DBus-devel"
 

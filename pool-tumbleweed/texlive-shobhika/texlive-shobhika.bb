@@ -25,6 +25,7 @@ RPM_HASH = "7626d8aa731c87459ba78420fb00e88202b0eca322b2bf88b102b05379b66274ec59
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-shobhika"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Qt6PacketProtocolPrivate) \
 qt6-packetprotocol-devel-static \
 qt6-packetprotocol-devel-static(aarch-64) \
 qt6-packetprotocol-private-devel"
+
 RDEPENDS:${PN} += "qt6-core-private-devel"
 
 inherit rpm

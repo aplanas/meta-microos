@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mingw64(libgmp-10.dll) \
 mingw64-libgmp \
 mingw64-libgmp10"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

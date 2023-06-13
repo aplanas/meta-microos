@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Pdf) \
 pkgconfig(Qt6Pdf) \
 qt6-pdf-devel \
 qt6-pdf-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Network) \

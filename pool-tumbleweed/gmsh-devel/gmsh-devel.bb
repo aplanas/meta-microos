@@ -12,6 +12,7 @@ RPM_HASH = "0e40200e5602725c75915957554d3d0a8210f00a8ff4f5e1f6c982110ebf311e104e
 
 RPROVIDES:${PN} += "gmsh-devel \
 gmsh-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgmsh4_11"
 
 inherit rpm

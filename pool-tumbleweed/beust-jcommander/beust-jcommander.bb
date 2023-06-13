@@ -14,6 +14,7 @@ jcommander \
 mvn(com.beust:jcommander) \
 mvn(com.beust:jcommander:pom:) \
 osgi(com.beust.jcommander)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem"

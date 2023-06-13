@@ -17,6 +17,7 @@ RPM_HASH = "56b1b5b4dd7b8eb35bf314f59ae0555b202792fee0de7ad89d59c27f50816436643c
 RPROVIDES:${PN} += "typelib(PackageKitGlib) \
 typelib-1_0-PackageKitGlib-1_0 \
 typelib-1_0-PackageKitGlib-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libpackagekit-glib2.so.18()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

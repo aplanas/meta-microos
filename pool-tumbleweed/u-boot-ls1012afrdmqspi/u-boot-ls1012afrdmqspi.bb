@@ -11,6 +11,7 @@ RPM_HASH = "184bc66578627e8e3cba3b7cfd48c84bd9eb940b5260bfdddf1fe7b2ff31d1960783
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-ls1012afrdmqspi \
 u-boot-ls1012afrdmqspi(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

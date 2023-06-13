@@ -10,6 +10,7 @@ RPM_HASH = "3acdf0755bc0a5b99c8d7909fc8da7e4d7d8bef51e811b82cfdd9a8d252499856f69
 RPROVIDES:${PN} += "cmake(LayerShellQt) \
 layer-shell-qt5-devel \
 layer-shell-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Qml) \
 layer-shell-qt5 \
 libqt5-qtwayland-private-headers-devel \

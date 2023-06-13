@@ -13,6 +13,7 @@ RPM_HASH = "908ef154e8e8db4c89c2d4a8ad70dfe95f3caee8bffcfd39b3e55a652efa2d23ad84
 RPROVIDES:${PN} += "libspooles.so.2.2()(64bit) \
 libspooles2_2-openmpi1 \
 libspooles2_2-openmpi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

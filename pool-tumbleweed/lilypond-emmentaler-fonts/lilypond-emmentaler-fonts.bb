@@ -21,6 +21,7 @@ font(emmentaler-23) \
 font(emmentaler-26) \
 font(emmentaler-brace) \
 lilypond-emmentaler-fonts"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

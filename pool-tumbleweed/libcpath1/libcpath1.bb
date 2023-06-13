@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libcpath.so.1()(64bit) \
 libcpath.so.1(V_20220108)(64bit) \
 libcpath1 \
 libcpath1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

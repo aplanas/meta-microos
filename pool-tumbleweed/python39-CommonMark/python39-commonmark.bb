@@ -14,6 +14,7 @@ python3.9dist(commonmark) \
 python39-CommonMark \
 python39-commonmark \
 python3dist(commonmark)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

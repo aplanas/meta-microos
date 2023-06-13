@@ -9,6 +9,7 @@ RPM_HASH = "e4fa077e7f575410b5afbf49b2b7b512a4e8472f4fa3af866a27f813105bc2ff4944
 
 RPROVIDES:${PN} += "libqt5-qtstyleplugins-devel \
 libqt5-qtstyleplugins-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libqt5-qtstyleplugins \
 libqt5-qtstyleplugins-platformtheme-gtk2"
 

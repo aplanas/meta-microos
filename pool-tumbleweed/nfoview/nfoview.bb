@@ -19,6 +19,7 @@ mimehandler(text/x-nfo) \
 nfoview \
 python3.10dist(nfoview) \
 python3dist(nfoview)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

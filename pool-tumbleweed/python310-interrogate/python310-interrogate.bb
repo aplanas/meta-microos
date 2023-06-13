@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-interrogate \
 python3.10dist(interrogate) \
 python310-interrogate \
 python3dist(interrogate)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -13,6 +13,7 @@ RPM_HASH = "3e1e224ac8725bb583ac4b085a6ff4b004aa9771b344de88380e6084ed746f7ee750
 
 RPROVIDES:${PN} += "gimp-save-for-web \
 gimp-save-for-web(aarch-64)"
+
 RDEPENDS:${PN} += "gimp(abi) \
 gimp(api) \
 ld-linux-aarch64.so.1()(64bit) \

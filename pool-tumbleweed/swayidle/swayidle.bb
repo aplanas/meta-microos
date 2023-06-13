@@ -9,6 +9,7 @@ RPM_HASH = "63be4b3b084edd07c666387ddeb58be904d3f8e72061dd1ccc9e89847a211b9aa815
 
 RPROVIDES:${PN} += "swayidle \
 swayidle(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

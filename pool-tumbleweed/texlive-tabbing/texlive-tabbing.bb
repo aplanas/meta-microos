@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(Tabbing.sty) \
 texlive-tabbing"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

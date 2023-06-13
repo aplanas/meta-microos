@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lightdm-slick-greeter-branding \
 lightdm-slick-greeter-branding-upstream"
+
 RDEPENDS:${PN} += "gnome-icon-theme \
 gtk3-metatheme-adwaita \
 lightdm-slick-greeter \

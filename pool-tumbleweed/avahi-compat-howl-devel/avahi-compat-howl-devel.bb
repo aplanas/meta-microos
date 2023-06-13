@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "avahi-compat-howl-devel \
 avahi-compat-howl-devel(aarch-64) \
 pkgconfig(avahi-compat-howl) \
 pkgconfig(howl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libavahi-devel \
 libhowl0"

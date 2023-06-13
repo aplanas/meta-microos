@@ -18,6 +18,7 @@ locale(giac:fr) \
 locale(giac:it) \
 locale(giac:pt) \
 locale(giac:zh)"
+
 RDEPENDS:${PN} += "giac"
 
 inherit rpm

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(avery5371.cfg) \
 tex(avery5388.cfg) \
 tex(flashcards.cls) \
 texlive-flashcards"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

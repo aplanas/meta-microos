@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(issuulinks.sty) \
 texlive-issuulinks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "mvn(org.w3c.css:sac) \
 mvn(org.w3c.css:sac:pom:) \
 osgi(org.w3c.css.sac) \
 sac"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem"

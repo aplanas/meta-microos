@@ -9,6 +9,7 @@ RPM_HASH = "d19fb0c9d85a27ef8110c8e4d541981e851fb3700bf192ad2ee12ab1902c27be665a
 
 RPROVIDES:${PN} += "tumbler-webp-thumbnailer \
 tumbler-webp-thumbnailer(aarch-64)"
+
 RDEPENDS:${PN} += "ImageMagick"
 
 inherit rpm

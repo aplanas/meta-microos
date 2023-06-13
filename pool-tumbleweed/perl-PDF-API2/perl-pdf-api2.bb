@@ -114,6 +114,7 @@ perl(PDF::API2::Util) \
 perl(PDF::API2::ViewerPreferences) \
 perl(PDF::API2::Win32) \
 perl-PDF-API2"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Compress::Zlib) \
 perl(Font::TTF)"

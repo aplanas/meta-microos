@@ -10,6 +10,7 @@ RPM_HASH = "af0539ddceb5c07d4929c284c64f42367e565e920fa82800babeb566fe1344f6be04
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-email"
+
 RDEPENDS:${PN} += "java \
 javamail"
 

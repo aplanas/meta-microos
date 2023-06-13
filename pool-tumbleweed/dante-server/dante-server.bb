@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(dante-server) \
 dante-server \
 dante-server(aarch-64) \
 dantesrv"
+
 RDEPENDS:${PN} += "/bin/sh \
 dante \
 ld-linux-aarch64.so.1()(64bit) \

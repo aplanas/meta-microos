@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pytest-openfiles \
 python3.10dist(pytest-openfiles) \
 python310-pytest-openfiles \
 python3dist(pytest-openfiles)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-psutil \
 python310-pytest"

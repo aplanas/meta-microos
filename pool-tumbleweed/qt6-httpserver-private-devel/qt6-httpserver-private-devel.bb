@@ -10,6 +10,7 @@ RPM_HASH = "899c540db510cd14101fae2b11bfef8e4ab32d4600a91a71b097f500e52232b949e7
 
 RPROVIDES:${PN} += "qt6-httpserver-private-devel \
 qt6-httpserver-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6HttpServer)"
 
 inherit rpm

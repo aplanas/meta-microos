@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-calculator-lang \
 deepin-calculator-lang-all"
+
 RDEPENDS:${PN} += "deepin-calculator"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "9b87d08457466fed91c171a525b9a211b4ae3aeec4f6dda9815fc0310499e89dc51a
 
 RPROVIDES:${PN} += "kucero \
 kucero(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

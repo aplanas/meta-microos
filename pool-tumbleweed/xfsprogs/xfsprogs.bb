@@ -20,6 +20,7 @@ RPM_HASH = "5c42d499cb01b88a9c6225be440558b27958fdf57690c6eaee98cde5945240d84152
 
 RPROVIDES:${PN} += "xfsprogs \
 xfsprogs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

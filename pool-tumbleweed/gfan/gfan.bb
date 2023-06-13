@@ -10,6 +10,7 @@ RPM_HASH = "b11a9014d07e09e6de05869e1d73fc7544ff480af3d05c22e26f57493a1f525027d3
 
 RPROVIDES:${PN} += "gfan \
 gfan(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

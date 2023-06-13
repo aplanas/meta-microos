@@ -20,6 +20,7 @@ python-devel(aarch-64) \
 python-testsuite \
 python2-devel \
 python2-testsuite"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python \

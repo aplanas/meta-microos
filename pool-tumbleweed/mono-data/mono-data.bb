@@ -32,6 +32,7 @@ mono-data(aarch-64) \
 mono-directory \
 mono-ms-enterprise \
 mono-novell-directory"
+
 RDEPENDS:${PN} += "/bin/sh \
 mono(Mono.Security) \
 mono(System) \

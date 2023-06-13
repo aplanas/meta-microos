@@ -46,6 +46,7 @@ osgi(org.apache.logging.log4j.jul) \
 osgi(org.apache.logging.log4j.layout.template.json) \
 osgi(org.apache.logging.log4j.osgi) \
 osgi(org.apache.logging.log4j.to-jul)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-annotations) \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(labels.sty) \
 tex(olabels.sty) \
 texlive-labels"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-isc_dhcp_leases \
 python3.10dist(isc-dhcp-leases) \
 python310-isc_dhcp_leases \
 python3dist(isc-dhcp-leases)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

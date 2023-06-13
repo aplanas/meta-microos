@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(PortMidi) \
 pkgconfig(portmidi) \
 portmidi-devel \
 portmidi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libportmidi2 \
 pkgconfig(alsa)"

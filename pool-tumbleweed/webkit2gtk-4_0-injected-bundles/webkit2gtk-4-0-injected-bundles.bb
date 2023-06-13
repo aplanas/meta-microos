@@ -16,6 +16,7 @@ RPM_HASH = "35d4128cbc2065975db930298d5d31472eaec1f0dc0d4f6b2f26bf14a8125f34cd6d
 RPROVIDES:${PN} += "libwebkit2gtkinjectedbundle.so()(64bit) \
 webkit2gtk-4_0-injected-bundles \
 webkit2gtk-4_0-injected-bundles(aarch-64)"
+
 RDEPENDS:${PN} += "libwebkit2gtk-4.0.so.37()(64bit)"
 
 inherit rpm

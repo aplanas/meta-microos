@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(twitter.common.rpc) \
 python39-twitter.common.rpc \
 python39-twitter.common.rpc(aarch-64) \
 python3dist(twitter.common.rpc)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

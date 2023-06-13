@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(aguplus.cls) \
 tex(aguplus.sty) \
 tex(agupp.sty) \
 texlive-aguplus"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

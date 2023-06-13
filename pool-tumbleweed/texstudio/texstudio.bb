@@ -17,6 +17,7 @@ metainfo(texstudio.metainfo.xml) \
 mimehandler(text/x-tex) \
 texstudio \
 texstudio(aarch-64)"
+
 RDEPENDS:${PN} += "hunspell \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(tuimoji) \
 python3dist(tuimoji) \
 tuimoji"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-urwid \

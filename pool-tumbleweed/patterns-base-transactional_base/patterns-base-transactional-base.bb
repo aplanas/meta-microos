@@ -13,6 +13,7 @@ pattern-icon() \
 pattern-order() \
 patterns-base-transactional_base \
 patterns-base-transactional_base(aarch-64)"
+
 RDEPENDS:${PN} += "microos-tools \
 pattern() \
 read-only-root-fs \

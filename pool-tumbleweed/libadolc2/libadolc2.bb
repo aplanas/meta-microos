@@ -18,6 +18,7 @@ RPM_HASH = "2d5850ff5311a80d1459ac4a7839e8fb4dd778d50ae4a117963294929d8fa19d504f
 RPROVIDES:${PN} += "libadolc.so.2()(64bit) \
 libadolc2 \
 libadolc2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

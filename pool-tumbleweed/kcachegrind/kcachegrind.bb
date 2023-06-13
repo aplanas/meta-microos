@@ -14,6 +14,7 @@ kcachegrind(aarch-64) \
 metainfo() \
 metainfo(org.kde.kcachegrind.appdata.xml) \
 mimehandler(application/x-kcachegrind)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

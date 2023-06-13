@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kanbun.sty) \
 texlive-kanbun"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

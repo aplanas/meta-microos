@@ -14,6 +14,7 @@ RPM_HASH = "a48a4d094ad0d94e003d575efb564bab44afa3909349976d3fb406c18c2be1a2c04b
 RPROVIDES:${PN} += "config(xmp) \
 xmp \
 xmp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

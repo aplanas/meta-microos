@@ -12,6 +12,7 @@ RPM_HASH = "87363b6a3588db7e4e42f1d31ecbff71379e344335be07f97e38fd051a6929089de0
 RPROVIDES:${PN} += "libcsnd6-6_0 \
 libcsnd6-6_0(aarch-64) \
 libcsnd6.so.6.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Devel::GlobalDestruction) \
 perl-Devel-GlobalDestruction"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Sub::Exporter::Progressive)"
 

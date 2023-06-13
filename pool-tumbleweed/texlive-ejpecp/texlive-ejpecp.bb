@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ejpecp.cls) \
 texlive-ejpecp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

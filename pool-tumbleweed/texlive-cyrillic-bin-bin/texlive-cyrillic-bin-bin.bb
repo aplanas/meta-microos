@@ -9,6 +9,7 @@ RPM_HASH = "0ad1cba21569d5a55526d040c48bcfa9dc27a755c6f01b96272c96693e628b672243
 
 RPROVIDES:${PN} += "texlive-cyrillic-bin-bin \
 texlive-cyrillic-bin-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-cyrillic-bin"
 
 inherit rpm

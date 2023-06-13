@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(proofread.sty) \
 texlive-proofread"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

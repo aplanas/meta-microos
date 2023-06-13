@@ -45,6 +45,7 @@ locale(plasma5-pk-updates:zh_CN) \
 locale(plasma5-pk-updates:zh_TW) \
 plasma5-pk-updates-lang \
 plasma5-pk-updates-lang-all"
+
 RDEPENDS:${PN} += "plasma5-pk-updates"
 
 inherit rpm

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "tex(lua-typo-2021-04-18.sty) \
 tex(lua-typo.cfg) \
 tex(lua-typo.sty) \
 texlive-lua-typo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "c6cfa5860d85f091336adefd509e63dbb7df4279fb5c3171967c2a4031feb1808f69
 
 RPROVIDES:${PN} += "qt6-websockets-docs-qch \
 qt6-websockets-docs-qch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

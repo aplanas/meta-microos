@@ -28,6 +28,7 @@ RPM_HASH = "46e6a7d3944a5db5e291ef18a30e6de8654c883abe39b864ed6500e22b5f0e2e0017
 
 RPROVIDES:${PN} += "kid3-cli \
 kid3-cli(aarch-64)"
+
 RDEPENDS:${PN} += "kid3-core \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

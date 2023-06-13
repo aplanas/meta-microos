@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinxcontrib-github-alt) \
 python39-sphinxcontrib-github-alt \
 python3dist(sphinxcontrib-github-alt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx \
 python39-docutils"

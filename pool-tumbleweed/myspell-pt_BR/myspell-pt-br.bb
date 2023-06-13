@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:pt_BR) \
 myspell-brazilian \
 myspell-dictionary \
 myspell-pt_BR"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

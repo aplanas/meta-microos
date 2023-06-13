@@ -12,6 +12,7 @@ ghc-ghc-boot-devel \
 ghc-ghc-boot-devel(aarch-64) \
 ghc-ghc-boot-static \
 ghc-ghc-boot-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-devel(binary-0.8.9.1) \

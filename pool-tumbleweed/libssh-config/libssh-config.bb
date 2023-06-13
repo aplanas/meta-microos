@@ -10,6 +10,7 @@ RPM_HASH = "e4af41ca4a3aaedadd321493586b998aee9786df6a252929e3ee910f696acabe67af
 RPROVIDES:${PN} += "config(libssh-config) \
 libssh-config \
 libssh-config(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "b0f0a904830ff6fd93ce82b0bc79a74fb07bb520d9f8ef27db92f493684252e8e0ca
 
 RPROVIDES:${PN} += "ccgfs \
 ccgfs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

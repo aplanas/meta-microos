@@ -12,6 +12,7 @@ RPM_HASH = "98394a3d095e421e361948ac2892ffc883ea985152af821eaa6e09c3a6a86fc0936a
 RPROVIDES:${PN} += "bash-devel \
 bash-devel(aarch-64) \
 pkgconfig(bash)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

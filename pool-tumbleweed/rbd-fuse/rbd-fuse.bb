@@ -9,6 +9,7 @@ RPM_HASH = "74729b9f4c2e847c5848fc1523a402a3477e969b15cbb809a993dd7365dd26e5f40f
 
 RPROVIDES:${PN} += "rbd-fuse \
 rbd-fuse(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

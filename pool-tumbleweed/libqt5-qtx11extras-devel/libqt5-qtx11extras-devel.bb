@@ -12,6 +12,7 @@ libQt5X11Extras-devel \
 libqt5-qtx11extras-devel \
 libqt5-qtx11extras-devel(aarch-64) \
 pkgconfig(Qt5X11Extras)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5X11Extras5 \
 pkgconfig(Qt5Core) \

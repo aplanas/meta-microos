@@ -12,6 +12,7 @@ RPM_HASH = "a8bfeed54892e6f8b4bfb1ee2224de8f6d19edc5bc85662f6ca673a185747f80f92e
 
 RPROVIDES:${PN} += "liborigin-tools \
 liborigin-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

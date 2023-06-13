@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(google-auth) \
 python311-google-auth \
 python3dist(google-auth)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cachetools \
 python311-cryptography \

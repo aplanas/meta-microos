@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "config(libvirt-daemon-common) \
 libvirt-admin \
 libvirt-daemon-common \
 libvirt-daemon-common(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 bash-completion \

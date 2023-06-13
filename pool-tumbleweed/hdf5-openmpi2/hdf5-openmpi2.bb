@@ -13,6 +13,7 @@ RPM_HASH = "22bcef97c90c9824098d0e8500f51ff6f68199859da2b9c4ec1e24554fb758f408c7
 
 RPROVIDES:${PN} += "hdf5-openmpi2 \
 hdf5-openmpi2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

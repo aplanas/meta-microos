@@ -11,6 +11,7 @@ RPM_HASH = "34e647f7f0c077297a7f14f7bab035c912b21b1d3364cad30bc54028fdd19774c341
 RPROVIDES:${PN} += "typelib(DbusmenuGtk3) \
 typelib-1_0-DbusmenuGtk3-0_4 \
 typelib-1_0-DbusmenuGtk3-0_4(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

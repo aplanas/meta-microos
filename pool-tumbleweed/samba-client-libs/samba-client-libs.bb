@@ -266,6 +266,7 @@ libwbclient.so.0(WBCLIENT_0.9)(64bit) \
 libwbclient0 \
 samba-client-libs \
 samba-client-libs(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

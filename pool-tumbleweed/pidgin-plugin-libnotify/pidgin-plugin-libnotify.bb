@@ -10,6 +10,7 @@ RPM_HASH = "025a11fcad8db97ca8ef35fa78e1ac51b84a4fdd41306e0ecc02c88425057db651a9
 RPROVIDES:${PN} += "pidgin-libnotify \
 pidgin-plugin-libnotify \
 pidgin-plugin-libnotify(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

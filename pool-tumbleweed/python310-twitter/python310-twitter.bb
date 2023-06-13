@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-twitter \
 python3.10dist(twitter) \
 python310-twitter \
 python3dist(twitter)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

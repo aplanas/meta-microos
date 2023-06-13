@@ -9,6 +9,7 @@ RPM_HASH = "79d6be36fbba33f9df2c611862a476dd40dc7097bfd54ca12acdfc50f474b2a6073a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qobitree-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

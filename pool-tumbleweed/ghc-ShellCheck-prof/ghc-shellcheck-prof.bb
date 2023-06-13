@@ -10,6 +10,7 @@ RPM_HASH = "5c65e53b3c8b84d5674b3dd5b9102aa764d8bde1c109d996220566cd47f7dd8963c7
 RPROVIDES:${PN} += "ghc-ShellCheck-prof \
 ghc-ShellCheck-prof(aarch-64) \
 ghc-prof(ShellCheck-0.9.0-DdkSsqjqnem8sl1ZfVxG9G)"
+
 RDEPENDS:${PN} += "ghc-ShellCheck-devel \
 ghc-prof(Diff-0.4.1-CiDqeLEcsRQOQjfgZOPVP) \
 ghc-prof(QuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6) \

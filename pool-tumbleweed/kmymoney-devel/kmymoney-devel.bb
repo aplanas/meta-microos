@@ -9,6 +9,7 @@ RPM_HASH = "d1c88948408b4ed50b7491d7c1d932a48e26115b220c18becec6d8ece358c16af265
 
 RPROVIDES:${PN} += "kmymoney-devel \
 kmymoney-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kmymoney"
 
 inherit rpm

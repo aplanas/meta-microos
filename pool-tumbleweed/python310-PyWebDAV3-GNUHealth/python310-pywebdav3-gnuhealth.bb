@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-PyWebDAV3-GNUHealth \
 python3.10dist(pywebdav3-gnuhealth) \
 python310-PyWebDAV3-GNUHealth \
 python3dist(pywebdav3-gnuhealth)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

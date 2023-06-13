@@ -9,6 +9,7 @@ RPM_HASH = "888f6e0a731c75d3ba143c21f8628b9c8ffa881cf22d5851a54dea1eccc87d2351dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tidyres-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

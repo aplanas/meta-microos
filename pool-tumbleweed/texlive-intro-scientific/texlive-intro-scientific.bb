@@ -14,6 +14,7 @@ RPM_HASH = "cbaad3755b052d4cc2bc1425856579afe89d39741e53b8539dcec1b9047568e6b506
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-intro-scientific"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

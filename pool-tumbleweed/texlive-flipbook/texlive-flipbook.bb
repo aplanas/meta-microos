@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(flipbook.sty) \
 texlive-flipbook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-errorprone-parent \
 mvn(com.google.errorprone:error_prone_parent:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.plugins:maven-compiler-plugin) \

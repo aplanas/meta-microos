@@ -9,6 +9,7 @@ RPM_HASH = "3276320a03892a575d260bf7591728b46d49311a092b3d6eaf2bb11cede921d91b73
 
 RPROVIDES:${PN} += "zinnia \
 zinnia(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libzinnia.so.0()(64bit)"
 

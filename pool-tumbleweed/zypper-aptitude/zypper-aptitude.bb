@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(zypper-aptitude) \
 zypper-aptitude"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
 zypper"

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(markupsafe) \
 python39-MarkupSafe \
 python39-MarkupSafe(aarch-64) \
 python3dist(markupsafe)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 python(abi) \
 python39-base"

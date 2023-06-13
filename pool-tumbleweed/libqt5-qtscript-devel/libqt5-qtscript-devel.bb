@@ -17,6 +17,7 @@ libqt5-qtscript-devel \
 libqt5-qtscript-devel(aarch-64) \
 pkgconfig(Qt5Script) \
 pkgconfig(Qt5ScriptTools)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Script5 \
 pkgconfig(Qt5Core)"

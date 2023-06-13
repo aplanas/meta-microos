@@ -10,6 +10,7 @@ RPM_HASH = "9bfdd19a356ddf9fe988aedf08ce0a97024f55e2413522808aaba6826514d7281e81
 
 RPROVIDES:${PN} += "tomoe-doc \
 tomoe-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

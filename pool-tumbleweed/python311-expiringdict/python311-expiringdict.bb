@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(expiringdict) \
 python311-expiringdict \
 python3dist(expiringdict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-dill \
 python311-typing"

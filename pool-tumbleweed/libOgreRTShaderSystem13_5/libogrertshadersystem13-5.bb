@@ -30,6 +30,7 @@ RPM_HASH = "ac128f8264b88a2e241b63b1cfd8dc35c87e4caa1bcbd95b805bccd151f9f068594d
 RPROVIDES:${PN} += "libOgreRTShaderSystem.so.13.5()(64bit) \
 libOgreRTShaderSystem13_5 \
 libOgreRTShaderSystem13_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

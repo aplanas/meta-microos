@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "config(salt-standalone-formulas-configuration) \
 salt-formulas-configuration \
 salt-standalone-formulas-configuration \
 salt-standalone-formulas-configuration(aarch-64)"
+
 RDEPENDS:${PN} += "salt"
 
 inherit rpm

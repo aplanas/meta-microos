@@ -12,6 +12,7 @@ python3.10dist(bjoern) \
 python310-bjoern \
 python310-bjoern(aarch-64) \
 python3dist(bjoern)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

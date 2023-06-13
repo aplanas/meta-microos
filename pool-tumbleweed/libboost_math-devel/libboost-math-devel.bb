@@ -11,6 +11,7 @@ RPM_HASH = "2da3f70e242c847f403ed77127acdae84566ae08c270a1ebe250a6da99a1a513cce5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libboost_math-devel"
+
 RDEPENDS:${PN} += "libboost_math1_82_0-devel"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-netpbmfile \
 python3.10dist(netpbmfile) \
 python310-netpbmfile \
 python3dist(netpbmfile)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

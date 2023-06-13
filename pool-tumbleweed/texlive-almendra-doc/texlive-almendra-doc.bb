@@ -9,6 +9,7 @@ RPM_HASH = "93047645d28eaa1a499cd6f2af73da47bee58dec3d264e315adeaac2a487317cb073
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-almendra-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

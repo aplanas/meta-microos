@@ -24,6 +24,7 @@ freeciv(aarch-64) \
 metainfo() \
 metainfo(org.freeciv.ruledit.appdata.xml) \
 metainfo(org.freeciv.server.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 freeciv_client-3.0.7 \
 ld-linux-aarch64.so.1()(64bit) \

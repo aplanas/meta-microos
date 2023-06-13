@@ -11,6 +11,7 @@ RPM_HASH = "f8794762ec67f044fc5e5d700bb76d33806654b6396ad92a0ee121d9940ee4b09e3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "babelstone-ogham-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

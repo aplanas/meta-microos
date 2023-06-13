@@ -14,6 +14,7 @@ RPM_HASH = "5693b61fa1da3dedb1a087be09478d83bd7ebf9e5ec3d2d2b25569c5e6cbfeea4bba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-azure-sdk"
+
 RDEPENDS:${PN} += "python39-adal \
 python39-applicationinsights \
 python39-azure-agrifood-farming \

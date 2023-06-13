@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-branding \
 NetworkManager-branding-upstream"
+
 RDEPENDS:${PN} += "NetworkManager"
 
 inherit rpm

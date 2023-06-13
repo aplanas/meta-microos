@@ -40,6 +40,7 @@ locale(peek:zh_CN) \
 locale(peek:zh_TW) \
 peek-lang \
 peek-lang-all"
+
 RDEPENDS:${PN} += "peek"
 
 inherit rpm

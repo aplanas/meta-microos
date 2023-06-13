@@ -10,6 +10,7 @@ RPM_HASH = "2b57a691b56f71d10b82bac41b4886e5e33b034c3b3caeb03bbed9f69e243dc242c4
 RPROVIDES:${PN} += "libbasicobjects-devel \
 libbasicobjects-devel(aarch-64) \
 pkgconfig(basicobjects)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbasicobjects0"
 

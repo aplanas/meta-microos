@@ -14,6 +14,7 @@ RPM_HASH = "59d41bb5952a979ee2adfdedfe220846a2a8f30f180c465598af8f2fd4e1217cf785
 RPROVIDES:${PN} += "typelib(Atk) \
 typelib-1_0-Atk-1_0 \
 typelib-1_0-Atk-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libatk-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

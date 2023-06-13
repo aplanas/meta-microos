@@ -11,6 +11,7 @@ RPM_HASH = "553ad6ff6f9b6598221d1a2394560fe8c55af410548774fe05fd4ba9e716d1cc7066
 RPROVIDES:${PN} += "baresip-devel \
 baresip-devel(aarch-64) \
 pkgconfig(libbaresip)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbaresip2 \
 pkgconfig"

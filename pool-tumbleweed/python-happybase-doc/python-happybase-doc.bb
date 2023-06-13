@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python-happybase-doc \
 python310-happybase-doc \
 python311-happybase-doc \
 python39-happybase-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

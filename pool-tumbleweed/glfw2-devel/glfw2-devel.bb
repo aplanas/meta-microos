@@ -13,6 +13,7 @@ RPM_HASH = "866d3902207bfc993e27989f59e49167edf9d37fd3128ddd20f8800bb90ab7443282
 RPROVIDES:${PN} += "glfw2-devel \
 glfw2-devel(aarch-64) \
 pkgconfig(libglfw)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libglfw2 \
 pkgconfig(gl) \

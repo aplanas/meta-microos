@@ -10,6 +10,7 @@ RPM_HASH = "129492b5d6c1c72fbc66c5e4068e7669876db1e4b11f1c62db02b31d1bf576dd06d5
 
 RPROVIDES:${PN} += "pcp-pmda-gfs2 \
 pcp-pmda-gfs2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

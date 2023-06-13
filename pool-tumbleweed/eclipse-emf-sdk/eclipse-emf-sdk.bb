@@ -145,6 +145,7 @@ osgi(org.eclipse.xsd.mapping.editor.source) \
 osgi(org.eclipse.xsd.mapping.source) \
 osgi(org.eclipse.xsd.sdk) \
 osgi(org.eclipse.xsd.source)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 osgi(org.eclipse.emf.codegen.ecore.ui) \

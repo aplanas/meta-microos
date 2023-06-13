@@ -9,6 +9,7 @@ RPM_HASH = "0b6454d28dbe5433fd37f4039d519a25ece85ee35a0bec8b2fc44733becdbb0b1fe9
 
 RPROVIDES:${PN} += "libreplaygain-devel \
 libreplaygain-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libreplaygain1"
 
 inherit rpm

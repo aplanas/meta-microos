@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(langsci-avm.sty) \
 texlive-langsci-avm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -41,6 +41,7 @@ tex(akktecdoc.cls) \
 tex(akktex.sty) \
 tex(akkwidepage.sty) \
 texlive-akktex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

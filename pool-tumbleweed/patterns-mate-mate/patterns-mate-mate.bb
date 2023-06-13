@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-mate-mate \
 patterns-mate-mate(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

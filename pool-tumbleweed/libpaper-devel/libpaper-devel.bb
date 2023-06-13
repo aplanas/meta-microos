@@ -9,6 +9,7 @@ RPM_HASH = "dd41f2b7a5748d8662b2bed7f05709a4b83a8e398b8d1a011671a3b82ecf868034d9
 
 RPROVIDES:${PN} += "libpaper-devel \
 libpaper-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libpaper2"
 
 inherit rpm

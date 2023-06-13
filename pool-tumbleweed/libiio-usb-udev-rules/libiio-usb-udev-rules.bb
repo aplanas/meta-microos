@@ -12,6 +12,7 @@ RPM_HASH = "74c437fa90029d07b2e04f7a0b91bffe378eeab151a05da6761f855f3d10289b1625
 
 RPROVIDES:${PN} += "libiio-usb-udev-rules \
 libiio-usb-udev-rules(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

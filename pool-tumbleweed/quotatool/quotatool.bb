@@ -11,6 +11,7 @@ RPM_HASH = "2155573e39cfe168f91442da6521a577ad5190caab3b82742d9679a0ee53a588e823
 
 RPROVIDES:${PN} += "quotatool \
 quotatool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

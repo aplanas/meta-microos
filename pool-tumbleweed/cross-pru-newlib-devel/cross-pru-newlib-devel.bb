@@ -11,6 +11,7 @@ RPM_HASH = "0cce460a9bc4fc9344792efd901c9908da7b6fa54dd5abad69c56c01fe2bb0172d8d
 
 RPROVIDES:${PN} += "cross-pru-newlib-devel \
 cross-pru-newlib-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

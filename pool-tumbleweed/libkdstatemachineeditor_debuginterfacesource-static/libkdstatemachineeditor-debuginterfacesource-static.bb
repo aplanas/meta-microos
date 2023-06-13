@@ -16,6 +16,7 @@ RPM_HASH = "84c8aba26d6a80bb561bebb3c2e9caf8e34783a06609c88e9fe20d37db1c547094f0
 
 RPROVIDES:${PN} += "libkdstatemachineeditor_debuginterfacesource-static \
 libkdstatemachineeditor_debuginterfacesource-static(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -45,6 +45,7 @@ RPROVIDES:${PN} += "perl(Config::GitLike) \
 perl(Config::GitLike::Cascaded) \
 perl(Config::GitLike::Git) \
 perl-Config-GitLike"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moo) \
 perl(MooX::Types::MooseLike)"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "felix-parent \
 mvn(org.apache.felix:felix-parent:pom:) \
 mvn(org.apache.felix:felix:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache:apache:pom:)"

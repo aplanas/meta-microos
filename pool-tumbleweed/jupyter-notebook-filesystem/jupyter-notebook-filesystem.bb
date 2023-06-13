@@ -40,6 +40,7 @@ rpm_macro(jupyter_nbextension_enable) \
 rpm_macro(jupyter_nbextension_install) \
 rpm_macro(jupyter_serverextension_disable) \
 rpm_macro(jupyter_serverextension_enable)"
+
 RDEPENDS:${PN} += "jupyter-jupyter_core-filesystem \
 python-rpm-macros"
 

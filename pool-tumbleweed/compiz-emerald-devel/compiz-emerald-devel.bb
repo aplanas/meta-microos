@@ -12,6 +12,7 @@ RPM_HASH = "b01b88c0e8e6080d381c136bdf17d77e76d188fccd7653563f070866f92a9824fbd9
 RPROVIDES:${PN} += "compiz-emerald-devel \
 compiz-emerald-devel(aarch-64) \
 pkgconfig(emeraldengine)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 compiz-emerald \
 gcc-c++ \

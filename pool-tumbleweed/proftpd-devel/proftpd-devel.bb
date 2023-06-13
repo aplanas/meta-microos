@@ -10,6 +10,7 @@ RPM_HASH = "8f25097f019892becfa5a161da1df5377741b1679ae8bf9402b6aa0d5e87a58422c5
 RPROVIDES:${PN} += "pkgconfig(proftpd) \
 proftpd-devel \
 proftpd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 proftpd"
 

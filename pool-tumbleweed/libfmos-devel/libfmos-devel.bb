@@ -13,6 +13,7 @@ RPM_HASH = "ea0548b0c59efb140b60255dcc0a12a9b6142f642bbe5e99a98fe5e62891e1df9fc0
 RPROVIDES:${PN} += "libfmos-devel \
 libfmos-devel(aarch-64) \
 pkgconfig(libfmos)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfmos1"
 

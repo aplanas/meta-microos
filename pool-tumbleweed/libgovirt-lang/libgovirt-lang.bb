@@ -41,6 +41,7 @@ locale(libgovirt:sv) \
 locale(libgovirt:tr) \
 locale(libgovirt:uk) \
 locale(libgovirt:zh_CN)"
+
 RDEPENDS:${PN} += "libgovirt"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "dbcd034da13d2b6ae46875a7b490914ab094237f63cc61161339234f75d24012979e
 RPROVIDES:${PN} += "libmenu-cache.so.3()(64bit) \
 libmenu-cache3 \
 libmenu-cache3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

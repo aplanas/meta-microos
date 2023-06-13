@@ -9,6 +9,7 @@ RPM_HASH = "678b483ea220b0de1912b37e08a8794c2859882df96e2ad78ab01215ae54356b75a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmspub-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

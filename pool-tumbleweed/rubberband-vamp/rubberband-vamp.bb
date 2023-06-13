@@ -23,6 +23,7 @@ RPM_HASH = "2b411e76d68a47e0801f237dbc2f272b6cfd06b6cb3b0ff019378b9245a14255a76f
 
 RPROVIDES:${PN} += "rubberband-vamp \
 rubberband-vamp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "2ace97b1135ebbb9ab25f83c0794f1fce7e6653ea57490e643846a8d50755ab90755
 
 RPROVIDES:${PN} += "mumps-scotch-devel \
 mumps-scotch-devel(aarch-64)"
+
 RDEPENDS:${PN} += "blas-devel \
 lapack-devel \
 libmumps-scotch5_3_5 \

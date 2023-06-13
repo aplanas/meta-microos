@@ -11,6 +11,7 @@ RPM_HASH = "d9acd21d51e618805f89bf3a80bb3744d34f4d67e45af16da7d55fd374e7e4ffb7f9
 
 RPROVIDES:${PN} += "libfsntfs-tools \
 libfsntfs-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

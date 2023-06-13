@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(igwn-auth-utils) \
 python311-igwn-auth-utils \
 python311-igwn-auth-utils-requests \
 python3dist(igwn-auth-utils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cryptography \
 python311-requests \

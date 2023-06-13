@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-zarr \
 python3.10dist(zarr) \
 python310-zarr \
 python3dist(zarr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310 \
 python310-asciitree \

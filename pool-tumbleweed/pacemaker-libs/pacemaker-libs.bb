@@ -23,6 +23,7 @@ libpe_status.so.28()(64bit) \
 libstonithd.so.26()(64bit) \
 pacemaker-libs \
 pacemaker-libs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

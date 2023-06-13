@@ -10,6 +10,7 @@ RPM_HASH = "c7178422a7cda7851206a644943cda58bfd7a1c8e304bbc79f16f7fca175f64003d5
 RPROVIDES:${PN} += "libksi.so.1()(64bit) \
 libksi1 \
 libksi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ RPM_HASH = "d8fc3a3607b765e00c12be80ac75c3755f628ef17beb4ffe0edda5e2ca4e20779718
 RPROVIDES:${PN} += "alternatives \
 update-alternatives \
 update-alternatives(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

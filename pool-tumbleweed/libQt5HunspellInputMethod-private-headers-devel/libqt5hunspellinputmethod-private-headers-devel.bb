@@ -13,6 +13,7 @@ RPM_HASH = "23fd6794d0241e5e54109b5c17e84233a5418a6ac6d7c6d6f4dae4975c0cbfa38946
 RPROVIDES:${PN} += "cmake(Qt5HunspellInputMethod) \
 libQt5HunspellInputMethod-private-headers-devel \
 libQt5HunspellInputMethod-private-headers-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5HunspellInputMethod5 \
 libqt5-qtvirtualkeyboard-private-headers-devel"
 

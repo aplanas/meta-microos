@@ -13,6 +13,7 @@ metainfo() \
 metainfo(org.opensuse.yast.Snapper.metainfo.xml) \
 yast2-snapper \
 yast2-snapper(aarch-64)"
+
 RDEPENDS:${PN} += "rubygem(ruby:3.2.0:ruby-dbus) \
 snapper \
 yast2 \

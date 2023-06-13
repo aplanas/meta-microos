@@ -11,6 +11,7 @@ RPM_HASH = "b8ebee9a565438c4a87aba1bf7d2e4506dea47676dc4fc8aaf546a9b8b82778d33d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lite-xl-widgets"
+
 RDEPENDS:${PN} += "lite-xl"
 
 inherit rpm

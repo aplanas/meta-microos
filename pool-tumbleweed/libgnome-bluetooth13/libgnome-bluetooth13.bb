@@ -12,6 +12,7 @@ RPM_HASH = "bae09d4b294a062ebca19a8380d14da2c6745609f618594e2a6bf126b6f86a0a230c
 RPROVIDES:${PN} += "libgnome-bluetooth.so.13()(64bit) \
 libgnome-bluetooth13 \
 libgnome-bluetooth13(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

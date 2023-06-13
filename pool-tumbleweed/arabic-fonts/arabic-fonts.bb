@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "arabic-fonts \
 fonts-arabic \
 locale(ar) \
 scalable-font-ar"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 arabic-ae-fonts \

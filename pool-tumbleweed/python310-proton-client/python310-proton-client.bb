@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-proton-client \
 python3.10dist(proton-client) \
 python310-proton-client \
 python3dist(proton-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-bcrypt \
 python310-gnupg \

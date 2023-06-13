@@ -13,6 +13,7 @@ RPM_HASH = "89a8b432b9275651cea97e5b6ba562d660960afb54964fdaa78488e8d361209cf75e
 RPROVIDES:${PN} += "modsecurity-devel \
 modsecurity-devel(aarch-64) \
 pkgconfig(modsecurity)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmodsecurity3"
 

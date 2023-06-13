@@ -10,6 +10,7 @@ RPM_HASH = "8028852a4a1ee673b66cf03dcc940c4c795b35fd869975d383432fff4d6753987dbd
 RPROVIDES:${PN} += "ghc-hslua-module-doclayout \
 ghc-hslua-module-doclayout(aarch-64) \
 libHShslua-module-doclayout-1.1.0-H1N0AwnXIkUJX0H1lSxUWS-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

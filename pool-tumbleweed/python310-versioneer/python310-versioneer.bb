@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-versioneer \
 python3.10dist(versioneer) \
 python310-versioneer \
 python3dist(versioneer)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

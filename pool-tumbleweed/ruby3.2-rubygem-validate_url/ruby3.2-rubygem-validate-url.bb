@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:validate_url:1) \
 rubygem(ruby:3.2.0:validate_url:1.0) \
 rubygem(ruby:3.2.0:validate_url:1.0.15) \
 rubygem(validate_url)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:activemodel) \
 rubygem(ruby:3.2.0:public_suffix)"

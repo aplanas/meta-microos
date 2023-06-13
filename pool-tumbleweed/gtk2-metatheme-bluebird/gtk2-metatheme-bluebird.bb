@@ -13,6 +13,7 @@ RPM_HASH = "ea133f36275bc147b45ec5beb9b7aeda9bdf23b229387fea55bcb4d0048c02605392
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-bluebird"
+
 RDEPENDS:${PN} += "gtk2-engine-murrine \
 metatheme-bluebird-common"
 

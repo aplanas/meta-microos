@@ -12,6 +12,7 @@ python3.10dist(python-sane) \
 python310-sane \
 python310-sane(aarch-64) \
 python3dist(python-sane)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

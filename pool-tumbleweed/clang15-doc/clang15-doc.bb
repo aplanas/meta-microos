@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clang-doc-provider \
 clang15-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

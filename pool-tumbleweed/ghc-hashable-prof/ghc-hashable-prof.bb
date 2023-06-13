@@ -10,6 +10,7 @@ RPM_HASH = "421d4d7d0056ec8e534b7688b9d25843588c84797f2642d4267924557bd614280e66
 RPROVIDES:${PN} += "ghc-hashable-prof \
 ghc-hashable-prof(aarch-64) \
 ghc-prof(hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt)"
+
 RDEPENDS:${PN} += "ghc-hashable-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

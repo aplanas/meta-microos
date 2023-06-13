@@ -10,6 +10,7 @@ RPM_HASH = "e6390fb15298e2e8c25ae09879663f2d70c9ff001ba313b61d25f2fd1ab5120bb9db
 RPROVIDES:${PN} += "libcjson.so.1()(64bit) \
 libcjson1 \
 libcjson1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

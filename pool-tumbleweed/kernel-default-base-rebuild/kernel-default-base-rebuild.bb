@@ -12,6 +12,7 @@ RPM_HASH = "a828ecf7991ad0daf1746c0392630815e951961adcc0d84e8379c77a3e888056dc29
 
 RPROVIDES:${PN} += "kernel-default-base-rebuild \
 kernel-default-base-rebuild(aarch-64)"
+
 RDEPENDS:${PN} += "kernel-default"
 
 inherit rpm

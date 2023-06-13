@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(gridslides.cls) \
 tex(gridslides.sty) \
 texlive-gridslides"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

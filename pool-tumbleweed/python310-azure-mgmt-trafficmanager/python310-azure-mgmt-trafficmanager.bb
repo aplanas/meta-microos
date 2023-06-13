@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-trafficmanager \
 python3.10dist(azure-mgmt-trafficmanager) \
 python310-azure-mgmt-trafficmanager \
 python3dist(azure-mgmt-trafficmanager)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

@@ -118,6 +118,7 @@ font(ipap明朝) \
 font(ipaゴシック) \
 font(ipa明朝) \
 texlive-ipaex-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

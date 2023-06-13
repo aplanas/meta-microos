@@ -10,6 +10,7 @@ RPM_HASH = "40d1b16c60c4bba9f47e925e9556a824b0ea4347698f8919761ccad6b745661ca952
 
 RPROVIDES:${PN} += "rocs-devel \
 rocs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "librocsgraphtheory0"
 
 inherit rpm

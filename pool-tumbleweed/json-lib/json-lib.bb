@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "json-lib \
 mvn(net.sf.json-lib:json-lib) \
 mvn(net.sf.json-lib:json-lib:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-beanutils:commons-beanutils) \

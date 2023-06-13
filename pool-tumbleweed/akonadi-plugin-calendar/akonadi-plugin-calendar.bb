@@ -10,6 +10,7 @@ RPM_HASH = "5401965798f1a30d980a7f39e0b5b2f3a0e003b875626d97cfae20a42932f3145be0
 RPROVIDES:${PN} += "akonadi-plugin-calendar \
 akonadi-plugin-calendar(aarch-64) \
 libakonadicalendarplugin.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CalendarCore.so.5()(64bit) \

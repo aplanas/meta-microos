@@ -9,6 +9,7 @@ RPM_HASH = "dcfd8ba370e45637dba2d6c273ac130f4a31bfa917d092f3ecf69a5af0b256e0fdce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bizcard-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

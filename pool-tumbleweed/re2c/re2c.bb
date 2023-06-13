@@ -13,6 +13,7 @@ RPM_HASH = "75a0b1296a07b58507951ef985df9e3eb27ae06fa51d7f44f209b05525416f4cfc47
 
 RPROVIDES:${PN} += "re2c \
 re2c(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

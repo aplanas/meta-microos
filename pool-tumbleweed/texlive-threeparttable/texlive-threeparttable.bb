@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(3parttable.sty) \
 tex(threeparttable.sty) \
 texlive-threeparttable"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

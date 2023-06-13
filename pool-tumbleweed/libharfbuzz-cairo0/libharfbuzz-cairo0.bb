@@ -11,6 +11,7 @@ RPM_HASH = "f95b0fd146fdfdfdbd4cea9559eff06a24dea44542213c5b8e5e1cbcb4f5f855e9ec
 RPROVIDES:${PN} += "libharfbuzz-cairo.so.0()(64bit) \
 libharfbuzz-cairo0 \
 libharfbuzz-cairo0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

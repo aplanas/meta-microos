@@ -10,6 +10,7 @@ RPM_HASH = "61cbe345d151e8b4195d8cd61bac5519e1106e4f76101e90a22e6a3ce867db1a6c67
 
 RPROVIDES:${PN} += "kubelogin \
 kubelogin(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

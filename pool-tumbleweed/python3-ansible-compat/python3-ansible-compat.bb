@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-ansible-compat \
 python3.10dist(ansible-compat) \
 python3dist(ansible-compat)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-subprocess-tee \
 python3.10dist(ansible-core) \

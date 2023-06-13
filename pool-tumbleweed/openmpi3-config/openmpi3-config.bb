@@ -18,6 +18,7 @@ openmpi-runtime-config \
 openmpi3-config \
 openmpi3-config(aarch-64) \
 pmix-runtime-config"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

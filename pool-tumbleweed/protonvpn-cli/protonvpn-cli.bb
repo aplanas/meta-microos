@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "protonvpn-cli \
 python3.10dist(protonvpn-cli) \
 python3dist(protonvpn-cli)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-protonvpn-nm-lib \

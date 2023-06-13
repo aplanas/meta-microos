@@ -9,6 +9,7 @@ RPM_HASH = "6a4eb11d38fcd68f06f9d89220b1b006483367d269219dcf586702336288dd35249c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-unliftio-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

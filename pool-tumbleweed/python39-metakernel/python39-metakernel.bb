@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(metakernel) \
 python39-jupyter_metakernel \
 python39-metakernel \
 python3dist(metakernel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-ipykernel \
 python39-jedi \

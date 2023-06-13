@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pynetbox \
 python3.10dist(pynetbox) \
 python310-pynetbox \
 python3dist(pynetbox)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-netaddr \
 python310-requests"

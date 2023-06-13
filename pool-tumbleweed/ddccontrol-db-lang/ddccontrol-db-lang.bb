@@ -15,6 +15,7 @@ locale(ddccontrol-db:fr) \
 locale(ddccontrol-db:pl) \
 locale(ddccontrol-db:ru) \
 locale(ddccontrol-db:zh_CN)"
+
 RDEPENDS:${PN} += "ddccontrol-db"
 
 inherit rpm

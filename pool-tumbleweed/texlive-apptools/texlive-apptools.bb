@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(apptools.sty) \
 texlive-apptools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

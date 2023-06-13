@@ -9,6 +9,7 @@ RPM_HASH = "9bc3551e124c338bf12ac12ae797ffb67e3a7b5dd2fa42ef18e6b086015996004914
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sesstime-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

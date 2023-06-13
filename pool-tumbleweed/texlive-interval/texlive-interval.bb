@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(interval.sty) \
 texlive-interval"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

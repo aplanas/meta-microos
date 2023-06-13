@@ -10,6 +10,7 @@ RPM_HASH = "44092862b8c1965d7189c336ea123f89c6a650dd2174e54ed22eebce769604befc7a
 RPROVIDES:${PN} += "ghc-filepath-bytestring-prof \
 ghc-filepath-bytestring-prof(aarch-64) \
 ghc-prof(filepath-bytestring-1.4.2.1.12-j7n9rVANDcF3su3QaU7xU)"
+
 RDEPENDS:${PN} += "ghc-filepath-bytestring-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

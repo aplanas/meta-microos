@@ -10,6 +10,7 @@ RPM_HASH = "e576fd0dea4f14a7bdced72e6bea197d037760e46a597dce9cfcc8953662cfb3e795
 RPROVIDES:${PN} += "ghc-asn1-types-devel \
 ghc-asn1-types-devel(aarch-64) \
 ghc-devel(asn1-types-0.3.4-GYlFjiH4jmgJII5TgUQfXm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-asn1-types \
 ghc-compiler \

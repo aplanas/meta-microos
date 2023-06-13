@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libplaces.so()(64bit) \
 xfce4-panel-plugin-places \
 xfce4-places-plugin \
 xfce4-places-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

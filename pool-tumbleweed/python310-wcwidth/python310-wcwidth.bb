@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-wcwidth \
 python3.10dist(wcwidth) \
 python310-wcwidth \
 python3dist(wcwidth)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

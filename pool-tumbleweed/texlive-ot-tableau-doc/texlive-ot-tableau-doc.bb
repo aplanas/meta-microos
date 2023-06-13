@@ -9,6 +9,7 @@ RPM_HASH = "349be598eba48a7b88cfbfeec8f49894af416d97ef5ac9e2be9a93e9434401834d82
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ot-tableau-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

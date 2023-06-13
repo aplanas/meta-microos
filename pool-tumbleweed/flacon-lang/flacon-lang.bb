@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flacon-lang \
 flacon-lang-all"
+
 RDEPENDS:${PN} += "flacon"
 
 inherit rpm

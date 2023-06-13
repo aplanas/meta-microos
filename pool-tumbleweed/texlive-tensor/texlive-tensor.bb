@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tensor.sty) \
 texlive-tensor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "5b842296c87495f358256b2378f253e7372f97fd9cd5574e33619d2ab81c92bc4511
 
 RPROVIDES:${PN} += "python3-pyginac \
 python3-pyginac(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_python-py3.so.1.82.0()(64bit) \

@@ -38,6 +38,7 @@ RPM_HASH = "5fedd656ac18d8e59a91293c74c8623ebe6990d3f8b42c9e39a25c1c7030d860a19a
 RPROVIDES:${PN} += "ghc-uniplate \
 ghc-uniplate(aarch-64) \
 libHSuniplate-1.6.13-3GboCmnxCZ4BmbYwVaL4sN-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

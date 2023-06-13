@@ -10,6 +10,7 @@ RPM_HASH = "adecf3481232ceb95d26c4e1bc27af30a28b3a0eb9beaf5c1506274e3b5aa697a0a4
 RPROVIDES:${PN} += "ghc-devel(xml-types-0.3.8-7guWdy0cJxZLf8pjB1j9Fb) \
 ghc-xml-types-devel \
 ghc-xml-types-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

@@ -12,6 +12,7 @@ RPM_HASH = "b3adda1ee888a7f42f6969b5e396771fb4ab67688e2d4d8f4253785a15050430bb82
 RPROVIDES:${PN} += "libxdo.so.3()(64bit) \
 xdotool \
 xdotool(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

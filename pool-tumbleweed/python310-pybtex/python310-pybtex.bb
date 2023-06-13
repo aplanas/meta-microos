@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-pybtex \
 python3.10dist(pybtex) \
 python310-pybtex \
 python3dist(pybtex)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

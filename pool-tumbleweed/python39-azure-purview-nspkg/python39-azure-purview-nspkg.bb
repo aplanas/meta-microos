@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-purview-nspkg) \
 python39-azure-purview-nspkg \
 python3dist(azure-purview-nspkg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-nspkg"
 

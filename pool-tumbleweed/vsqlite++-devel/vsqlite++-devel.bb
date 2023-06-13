@@ -9,6 +9,7 @@ RPM_HASH = "23a5150fc342db7c25d25331ec3948228c518f3a93bb3f15437c2a6a3c51431ad196
 
 RPROVIDES:${PN} += "vsqlite++-devel \
 vsqlite++-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libvsqlitepp3"
 
 inherit rpm

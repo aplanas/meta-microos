@@ -12,6 +12,7 @@ RPM_HASH = "50538616cb10494c42f35544f0d658d37bcec5aee65fafdf9d49f9be6e011d25eaa7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-mocp"
+
 RDEPENDS:${PN} += "bumblebee-status \
 moc"
 

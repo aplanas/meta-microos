@@ -10,6 +10,7 @@ RPM_HASH = "a951ddcae1906ae48c0e8933826109686cb5d0f9b3587d08e68f46cf99a154860bfe
 RPROVIDES:${PN} += "cmake(KF5CompactDisc) \
 libkcompactdisc-devel \
 libkcompactdisc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKF5CompactDisc5"
 
 inherit rpm

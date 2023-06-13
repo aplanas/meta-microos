@@ -24,6 +24,7 @@ qt5qmlimport(org.kde.plasma.core.1) \
 qt5qmlimport(org.kde.plasma.core.2) \
 qt5qmlimport(org.kde.plasma.extras.2) \
 qt5qmlimport(org.kde.plasma.platformcomponents.2)"
+
 RDEPENDS:${PN} += "kdeclarative-components \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

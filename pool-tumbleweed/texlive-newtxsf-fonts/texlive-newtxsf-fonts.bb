@@ -34,6 +34,7 @@ font(zsfbmi) \
 font(zsfmi) \
 font(zsfmia) \
 texlive-newtxsf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

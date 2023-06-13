@@ -14,6 +14,7 @@ RPM_HASH = "adb2a5e094829b7692ca2f60b09b0dc450bf533934a31380d3c44f88a4a73feb36c8
 RPROVIDES:${PN} += "libinput-devel \
 libinput-devel(aarch-64) \
 pkgconfig(libinput)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libinput10"
 

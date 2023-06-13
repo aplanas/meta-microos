@@ -9,6 +9,7 @@ RPM_HASH = "055be99325197847d4653efaf4a28bb68853c1951ae8ae30dd8681d42dc4add0c22d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-swungdash-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

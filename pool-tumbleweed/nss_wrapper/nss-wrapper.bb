@@ -32,6 +32,7 @@ libnss_wrapper.so.0()(64bit) \
 nss_wrapper \
 nss_wrapper(aarch-64) \
 pkgconfig(nss_wrapper)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 /usr/bin/pkg-config \

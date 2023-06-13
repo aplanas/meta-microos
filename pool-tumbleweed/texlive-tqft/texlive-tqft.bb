@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(tikzlibrarytqft.code.tex) \
 tex(tqft.sty) \
 texlive-tqft"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

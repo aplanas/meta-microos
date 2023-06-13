@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "ki18n-imports \
 ki18n-imports(aarch-64) \
 libki18nlocaledataqmlplugin.so()(64bit) \
 qt5qmlimport(org.kde.i18n.localeData.1)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5I18nLocaleData.so.5()(64bit) \

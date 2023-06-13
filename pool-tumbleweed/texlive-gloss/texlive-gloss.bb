@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gloss.sty) \
 texlive-gloss"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

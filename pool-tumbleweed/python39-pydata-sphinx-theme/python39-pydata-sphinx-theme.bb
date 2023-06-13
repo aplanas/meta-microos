@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pydata-sphinx-theme) \
 python39-pydata-sphinx-theme \
 python3dist(pydata-sphinx-theme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx \
 python39-beautifulsoup4 \

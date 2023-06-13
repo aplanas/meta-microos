@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-collections-testframework \
 mvn(commons-collections:commons-collections-testframework) \
 mvn(org.apache.commons:commons-collections-testframework)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

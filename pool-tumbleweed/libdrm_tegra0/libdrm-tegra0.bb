@@ -14,6 +14,7 @@ RPM_HASH = "04637bfc258a7dd18e5b788665fe7b62525a1eec8d688b0bc4c7193b55167ca1048a
 RPROVIDES:${PN} += "libdrm_tegra.so.0()(64bit) \
 libdrm_tegra0 \
 libdrm_tegra0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

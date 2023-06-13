@@ -9,6 +9,7 @@ RPM_HASH = "709e3e3f88612ff5c5213857309fc75f4a97416dd1e608524e86c4130e39a0320158
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-heros-otf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

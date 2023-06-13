@@ -12,6 +12,7 @@ RPM_HASH = "f56b6e62577932193d09848c7da2215b1140018d35bd48d826d8ab16486f6cb72f9f
 
 RPROVIDES:${PN} += "plymouth-plugin-two-step \
 plymouth-plugin-two-step(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

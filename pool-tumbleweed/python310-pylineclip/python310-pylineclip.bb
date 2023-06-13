@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pylineclip \
 python3.10dist(pylineclip) \
 python310-pylineclip \
 python3dist(pylineclip)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

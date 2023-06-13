@@ -13,6 +13,7 @@ libvorbis-devel(aarch-64) \
 pkgconfig(vorbis) \
 pkgconfig(vorbisenc) \
 pkgconfig(vorbisfile)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libogg-devel \

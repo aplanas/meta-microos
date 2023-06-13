@@ -13,6 +13,7 @@ RPM_HASH = "39fd6ec02e517ca9dff32680fc450a434af81ea3229f7cf181065f66f4083751e602
 RPROVIDES:${PN} += "libedataserver-1.2.so.27()(64bit) \
 libedataserver-1_2-27 \
 libedataserver-1_2-27(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 evolution-data-server \
 ld-linux-aarch64.so.1()(64bit) \

@@ -18,6 +18,7 @@ python310-matplotlib \
 python310-matplotlib(aarch-64) \
 python310-matplotlib-gtk \
 python3dist(matplotlib)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

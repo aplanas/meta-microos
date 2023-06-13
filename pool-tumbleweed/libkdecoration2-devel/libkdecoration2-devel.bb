@@ -11,6 +11,7 @@ RPM_HASH = "e09b4dacbdafd3d058914dacc61fd95f87bea646d06bd1975a43180cfe9c9894ed22
 RPROVIDES:${PN} += "cmake(KDecoration2) \
 libkdecoration2-devel \
 libkdecoration2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Gui) \
 libkdecorations2-5 \
 libkdecorations2private10"

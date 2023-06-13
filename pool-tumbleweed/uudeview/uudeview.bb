@@ -13,6 +13,7 @@ RPM_HASH = "d2cfa0f4fdcaf3683c31aa4e54dd9c19e95f5e3011cdb5f02c9c074bd36c2b85b37b
 RPROVIDES:${PN} += "sharutils:/usr/bin/uudeview \
 uudeview \
 uudeview(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

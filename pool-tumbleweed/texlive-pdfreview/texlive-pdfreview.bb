@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfreview.sty) \
 texlive-pdfreview"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

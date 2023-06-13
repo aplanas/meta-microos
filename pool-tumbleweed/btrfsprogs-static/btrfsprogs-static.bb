@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "btrfs-progs-static \
 btrfs-progs-static(aarch64) \
 btrfsprogs-static \
 btrfsprogs-static(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "ced8749edcd061272a4a4dd6744be2a46c5cf58e2d27f496e9697ab9bc59ae4d2c4b
 
 RPROVIDES:${PN} += "live-add-yast-repos \
 live-add-yast-repos(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 zypper"
 

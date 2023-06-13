@@ -14,6 +14,7 @@ RPM_HASH = "1b339b79dbb8b987fd10a2112f4c86e1a12f24a32c33796a901d5588044f4875a317
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "check-create-certificate"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 openssl \
 perl \

@@ -14,6 +14,7 @@ RPM_HASH = "1f38134419210a5d533f6569e37f4822b6ef2bc55c3019787475421d42ed23eb00d2
 RPROVIDES:${PN} += "libupower-glib.so.3()(64bit) \
 libupower-glib3 \
 libupower-glib3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

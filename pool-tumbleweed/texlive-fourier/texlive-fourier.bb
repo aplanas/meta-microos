@@ -245,6 +245,7 @@ tex(ts1futs.fd) \
 tex(ts1futx.fd) \
 tex(ufuts.fd) \
 texlive-fourier"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

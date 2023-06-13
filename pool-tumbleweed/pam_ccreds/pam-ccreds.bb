@@ -12,6 +12,7 @@ RPM_HASH = "c762b9b41229bdd12f99d646200dfa9ca178cca0153f5ee70f623f6b4eabe77b9e6e
 
 RPROVIDES:${PN} += "pam_ccreds \
 pam_ccreds(aarch-64)"
+
 RDEPENDS:${PN} += "db \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

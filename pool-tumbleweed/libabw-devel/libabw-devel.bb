@@ -13,6 +13,7 @@ RPM_HASH = "102780f0bda6fb0f6fdeb8f5546a34f6ca48338b7ae2f3387861cb6aab5d5e84d46f
 RPROVIDES:${PN} += "libabw-devel \
 libabw-devel(aarch-64) \
 pkgconfig(libabw-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libabw-0_1-1 \
 pkgconfig(librevenge-0.0) \

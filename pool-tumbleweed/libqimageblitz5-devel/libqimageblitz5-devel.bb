@@ -10,6 +10,7 @@ RPM_HASH = "ddd38447d1351f0e9846f3e7ae8f29ae25ab63d560b9e7b505cd30938717b0d12d2b
 RPROVIDES:${PN} += "libqimageblitz5-devel \
 libqimageblitz5-devel(aarch-64) \
 pkgconfig(qimageblitz5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

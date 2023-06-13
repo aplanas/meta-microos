@@ -10,6 +10,7 @@ RPM_HASH = "1ddb986a8ef423d4f3ee3fb3e4b53e6cbeeba3b852c897dd96eab024aece9b5db4fd
 RPROVIDES:${PN} += "config(freeradius-server-perl) \
 freeradius-server-perl \
 freeradius-server-perl(aarch-64)"
+
 RDEPENDS:${PN} += "freeradius-server \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

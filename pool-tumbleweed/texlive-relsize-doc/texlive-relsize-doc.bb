@@ -9,6 +9,7 @@ RPM_HASH = "d278b316c00cc28521519cd8549e2dab082b20d4996614c139bdfd1792f83424f7ce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-relsize-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

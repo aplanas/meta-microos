@@ -13,6 +13,7 @@ RPM_HASH = "12824b8fff5adfb0217de6b17fd1f43a740fe9b9b3e6d6531b2f09f9d5c55a7d51e2
 RPROVIDES:${PN} += "libmedC.so.11()(64bit) \
 libmedC11 \
 libmedC11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

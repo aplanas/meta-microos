@@ -14,6 +14,7 @@ RPM_HASH = "a12e033be26b3fbefac70fea1fcf078c7f9aedf77a5831dc205b1cae14aaddd4c325
 RPROVIDES:${PN} += "liborc-0.4.so.0()(64bit) \
 liborc-0_4-0 \
 liborc-0_4-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

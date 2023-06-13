@@ -14,6 +14,7 @@ RPM_HASH = "547d277be641f71984da57082b34b5dfd136213dd280c07c7b519a9911643af900fd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "media-player-info"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

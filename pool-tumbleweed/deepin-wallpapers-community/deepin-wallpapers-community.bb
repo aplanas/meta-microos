@@ -9,6 +9,7 @@ RPM_HASH = "7c9e9ec7a27c191f0733d1958884c557471bc4ea081b7d4284d513c3bed83b65d0f7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-wallpapers-community"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -17,6 +17,7 @@ libnco_c++-5 \
 libnco_c++-5.1.4.so()(64bit) \
 libnco_c++-5_1_4 \
 libnco_c++-5_1_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

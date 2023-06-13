@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-entrypoint2 \
 python3.10dist(entrypoint2) \
 python310-entrypoint2 \
 python3dist(entrypoint2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-EasyProcess \
 python310-decorator \

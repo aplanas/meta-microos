@@ -11,6 +11,7 @@ RPM_HASH = "18b6f22e74447079b5c9e646705f849cad0e0a199baea54f1e5dd8a72a9b0c6fd486
 RPROVIDES:${PN} += "pkgconfig(radcli) \
 radcli-devel \
 radcli-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libradcli5 \
 pkgconfig(gnutls) \

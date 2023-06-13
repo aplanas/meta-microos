@@ -13,6 +13,7 @@ RPM_HASH = "df5e99cecd03489dc61200575920323c6bd2196e2efc159d75140b81fd77cfadfdd8
 RPROVIDES:${PN} += "libgsqlite3backend.so()(64bit) \
 pdns-backend-sqlite3 \
 pdns-backend-sqlite3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

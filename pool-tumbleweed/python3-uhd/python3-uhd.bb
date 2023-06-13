@@ -15,6 +15,7 @@ RPM_HASH = "a4a058d1e9937dbebf5c9909b463cf98369ecd3b88f7c305e86717b44102a6dc8de4
 RPROVIDES:${PN} += "libpyuhd.cpython-310-aarch64-linux-gnu.so()(64bit) \
 python3-uhd \
 python3-uhd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "b632cf11c2d25b5f01f8138706676fb48b8a9ac5abe7a88e2b7da3ca6a5f3f7aec47
 RPROVIDES:${PN} += "typelib(Zpj) \
 typelib-1_0-Zpj-0_0 \
 typelib-1_0-Zpj-0_0(aarch-64)"
+
 RDEPENDS:${PN} += "libzapojit-0.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

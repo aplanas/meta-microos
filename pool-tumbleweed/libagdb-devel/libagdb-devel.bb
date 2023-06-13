@@ -13,6 +13,7 @@ RPM_HASH = "4199207cd55c997bdc0aeb61a1d601b98d3e793c5748c8771e60b4ac0242c6572e0a
 RPROVIDES:${PN} += "libagdb-devel \
 libagdb-devel(aarch-64) \
 pkgconfig(libagdb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libagdb1 \
 libbfio-devel"

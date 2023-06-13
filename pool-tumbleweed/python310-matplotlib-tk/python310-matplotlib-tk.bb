@@ -11,6 +11,7 @@ RPM_HASH = "672c741be97831b87eb66a4f6781f6b431da9e5b0e75bf8eb31c89a6417717748060
 RPROVIDES:${PN} += "python3-matplotlib-tk \
 python310-matplotlib-tk \
 python310-matplotlib-tk(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow-tk \
 python310-matplotlib \

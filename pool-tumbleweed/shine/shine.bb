@@ -10,6 +10,7 @@ RPM_HASH = "a2ae4fa7432beb0d0044e70dd61245fe6b993819e14addfd4d84304c5c92e440a3f7
 
 RPROVIDES:${PN} += "shine \
 shine(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

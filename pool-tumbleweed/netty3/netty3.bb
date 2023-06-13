@@ -25,6 +25,7 @@ mvn(org.jboss.netty:netty) \
 mvn(org.jboss.netty:netty:pom:) \
 netty3 \
 osgi(org.jboss.netty)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.jcraft:jzlib) \

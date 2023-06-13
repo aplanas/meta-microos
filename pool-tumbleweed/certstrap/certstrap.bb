@@ -12,6 +12,7 @@ RPM_HASH = "6f7cde0b5e2a76db09c5ca10adb608e9d926aa2aa62ca4656dfb0b633a2255c46afb
 
 RPROVIDES:${PN} += "certstrap \
 certstrap(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

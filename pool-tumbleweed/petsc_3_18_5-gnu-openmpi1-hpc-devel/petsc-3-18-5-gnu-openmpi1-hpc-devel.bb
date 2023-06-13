@@ -11,6 +11,7 @@ RPM_HASH = "0f4822880a79857ad6457e1fb97d5c4b1989a0f91fed8b5a08b7a27e2b5ffdd92e21
 
 RPROVIDES:${PN} += "petsc_3_18_5-gnu-openmpi1-hpc-devel \
 petsc_3_18_5-gnu-openmpi1-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 /usr/bin/sh \

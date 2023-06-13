@@ -11,6 +11,7 @@ RPM_HASH = "1a921d3f3f2a84f2aedde3519287327953b9d33c77a12ccc1bf24db93bccddb490a3
 
 RPROVIDES:${PN} += "bing \
 bing(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

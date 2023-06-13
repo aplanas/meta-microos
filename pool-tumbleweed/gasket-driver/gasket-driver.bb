@@ -14,6 +14,7 @@ RPM_HASH = "17f0e167a1dc65840ff9ef76ce263913256edf8753b885cb4ee06b14459f126d8510
 RPROVIDES:${PN} += "gasket-driver \
 gasket-driver(aarch-64) \
 group(apex)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gasket-driver-kmp \
 sysuser-shadow"

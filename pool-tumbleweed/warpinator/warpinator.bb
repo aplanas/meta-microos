@@ -13,6 +13,7 @@ application(org.x.Warpinator.desktop) \
 metainfo() \
 metainfo(org.x.Warpinator.appdata.xml) \
 warpinator"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python3-PyNaCl \

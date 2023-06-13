@@ -10,6 +10,7 @@ RPM_HASH = "97a6558a4daf099458b321df56bca217cf1f48ef4e77c6ab76346f6202c2f4295f3a
 RPROVIDES:${PN} += "glib-sharp3 \
 glib-sharp3(aarch-64) \
 mono(glib-sharp)"
+
 RDEPENDS:${PN} += "mono(mscorlib)"
 
 inherit rpm

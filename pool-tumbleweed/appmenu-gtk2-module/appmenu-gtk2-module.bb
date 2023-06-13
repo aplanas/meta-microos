@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "appmenu-gtk \
 appmenu-gtk2-module \
 appmenu-gtk2-module(aarch-64) \
 libappmenu-gtk-module.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 appmenu-gtk-module-common \
 gtk2-tools \

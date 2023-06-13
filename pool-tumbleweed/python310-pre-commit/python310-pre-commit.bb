@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pre-commit \
 python3.10dist(pre-commit) \
 python310-pre-commit \
 python3dist(pre-commit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/python3.10 \

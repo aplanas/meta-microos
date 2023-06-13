@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.jboss.resteasy:resteasy-jackson2-provider) \
 mvn(org.jboss.resteasy:resteasy-jackson2-provider:pom:) \
 resteasy-jackson2-provider"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-annotations) \

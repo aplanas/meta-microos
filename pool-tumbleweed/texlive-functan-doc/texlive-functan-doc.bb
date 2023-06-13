@@ -9,6 +9,7 @@ RPM_HASH = "273529a3467d2c6a7cd7f76391741197ad973445ae59c765d16adcf11b29ece7376f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-functan-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

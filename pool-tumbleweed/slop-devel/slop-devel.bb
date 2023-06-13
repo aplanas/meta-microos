@@ -9,6 +9,7 @@ RPM_HASH = "d3e06507fda6e4f97c07c945d71a49a143d8175725b60392b7e200b8537d03c48c26
 
 RPROVIDES:${PN} += "slop-devel \
 slop-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libslopy7_6"
 
 inherit rpm

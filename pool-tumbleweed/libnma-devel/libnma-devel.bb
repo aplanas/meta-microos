@@ -10,6 +10,7 @@ RPM_HASH = "a32d41121de6e51affb2223d20f0c3002884520b45f66ccdafe9cd71a7a097404ac6
 RPROVIDES:${PN} += "libnma-devel \
 libnma-devel(aarch-64) \
 pkgconfig(libnma)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnma0 \
 pkgconfig(libnm) \

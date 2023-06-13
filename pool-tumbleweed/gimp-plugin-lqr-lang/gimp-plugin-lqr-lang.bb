@@ -23,6 +23,7 @@ locale(gimp-plugin-lqr:ru) \
 locale(gimp-plugin-lqr:sr) \
 locale(gimp-plugin-lqr:zh_CN) \
 locale(gimp-plugin-lqr:zh_TW)"
+
 RDEPENDS:${PN} += "gimp-plugin-lqr"
 
 inherit rpm

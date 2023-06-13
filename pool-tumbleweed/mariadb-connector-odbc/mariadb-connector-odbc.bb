@@ -10,6 +10,7 @@ RPM_HASH = "853a16d385c0bdeeb37cccc2d6fdeffaf7e552cfff887d20f33c8a989d97a3d58c72
 RPROVIDES:${PN} += "libmaodbc.so()(64bit) \
 mariadb-connector-odbc \
 mariadb-connector-odbc(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

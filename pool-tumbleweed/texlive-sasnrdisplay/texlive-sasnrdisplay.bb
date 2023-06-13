@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(SASnRdisplay.cfg) \
 tex(SASnRdisplay.sty) \
 texlive-sasnrdisplay"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

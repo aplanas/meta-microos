@@ -19,6 +19,7 @@ locale(gcdemu:ru) \
 locale(gcdemu:sl) \
 locale(gcdemu:sv) \
 locale(gcdemu:zh_CN)"
+
 RDEPENDS:${PN} += "gcdemu"
 
 inherit rpm

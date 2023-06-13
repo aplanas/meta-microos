@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(phffullpagefigure.sty) \
 texlive-phffullpagefigure"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

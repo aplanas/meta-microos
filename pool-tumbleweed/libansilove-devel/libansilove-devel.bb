@@ -13,6 +13,7 @@ RPM_HASH = "103df724d4ea3ca86f6bc0cba79573437b30a6af47762001ae4900a0e62bb8d1e273
 
 RPROVIDES:${PN} += "libansilove-devel \
 libansilove-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libansilove1"
 
 inherit rpm

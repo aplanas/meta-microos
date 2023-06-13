@@ -10,6 +10,7 @@ RPM_HASH = "793553898f62cdd4c74f84642518738c8d3f13638a511aa0dc48879acbd11298ea30
 RPROVIDES:${PN} += "typelib(Thunarx) \
 typelib-1_0-Thunarx-3_0 \
 typelib-1_0-Thunarx-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libthunarx-3.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

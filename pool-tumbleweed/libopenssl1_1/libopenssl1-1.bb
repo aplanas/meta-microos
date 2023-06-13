@@ -35,6 +35,7 @@ libssl.so.1.1(OPENSSL_1_1_0)(64bit) \
 libssl.so.1.1(OPENSSL_1_1_0d)(64bit) \
 libssl.so.1.1(OPENSSL_1_1_1)(64bit) \
 libssl.so.1.1(OPENSSL_1_1_1a)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 crypto-policies \
 ld-linux-aarch64.so.1()(64bit) \

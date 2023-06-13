@@ -14,6 +14,7 @@ tex(cmupint.sty) \
 tex(cmupint.tfm) \
 tex(ucmupint.fd) \
 texlive-cmupint"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

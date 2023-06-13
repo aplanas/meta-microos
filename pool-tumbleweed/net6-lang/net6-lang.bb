@@ -27,6 +27,7 @@ locale(net6:uk) \
 locale(net6:zh_CN) \
 net6-lang \
 net6-lang-all"
+
 RDEPENDS:${PN} += "net6"
 
 inherit rpm

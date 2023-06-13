@@ -13,6 +13,7 @@ application(org.opensuse.yast.VPN.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.VPN.metainfo.xml) \
 yast2-vpn"
+
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 fillup \

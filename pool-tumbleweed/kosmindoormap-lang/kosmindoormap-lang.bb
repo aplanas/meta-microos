@@ -35,6 +35,7 @@ locale(kosmindoormap:tr) \
 locale(kosmindoormap:uk) \
 locale(kosmindoormap:zh_CN) \
 locale(kosmindoormap:zh_TW)"
+
 RDEPENDS:${PN} += "kosmindoormap"
 
 inherit rpm

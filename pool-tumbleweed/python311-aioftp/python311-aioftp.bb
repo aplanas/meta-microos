@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(aioftp) \
 python311-aioftp \
 python3dist(aioftp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-siosocks"
 

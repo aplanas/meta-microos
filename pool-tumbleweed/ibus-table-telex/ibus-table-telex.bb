@@ -9,6 +9,7 @@ RPM_HASH = "85e1039a7c757141698c818b2949cd6a6a9e597de16dd1be30ba20b1b4de66a0dd48
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-telex"
+
 RDEPENDS:${PN} += "ibus-table"
 
 inherit rpm

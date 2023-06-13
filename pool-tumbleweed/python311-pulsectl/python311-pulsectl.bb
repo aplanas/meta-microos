@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pulsectl) \
 python311-pulsectl \
 python3dist(pulsectl)"
+
 RDEPENDS:${PN} += "pulseaudio-daemon \
 python(abi) \
 python311-setuptools"

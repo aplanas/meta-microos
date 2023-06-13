@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "benchmark-devel \
 benchmark-devel(aarch-64) \
 cmake(benchmark) \
 pkgconfig(benchmark)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbenchmark1"
 

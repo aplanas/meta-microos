@@ -16,6 +16,7 @@ RPM_HASH = "99281984fd34ecba412b0f8c8b773e65d2a5710533d2f49552fc32c0dcec12c1eca0
 
 RPROVIDES:${PN} += "wordnet \
 wordnet(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-shared-jarsigner \
 mvn(org.apache.maven.shared:maven-jarsigner) \
 mvn(org.apache.maven.shared:maven-jarsigner:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.shared:maven-shared-utils) \

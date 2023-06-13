@@ -20,6 +20,7 @@ tex(elements_names_german.def) \
 tex(elements_names_portuges.def) \
 tex(elements_names_spanish.def) \
 texlive-elements"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

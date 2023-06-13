@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libnemo-share.so()(64bit) \
 nemo-extension-share \
 nemo-extension-share(aarch-64) \
 nemo-share"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

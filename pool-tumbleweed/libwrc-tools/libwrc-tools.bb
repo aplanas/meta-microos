@@ -10,6 +10,7 @@ RPM_HASH = "32fa84760f96a248a8523ff88da4762c2930ae72860e4d29653639a002bb12363130
 
 RPROVIDES:${PN} += "libwrc-tools \
 libwrc-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

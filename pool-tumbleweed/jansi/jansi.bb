@@ -16,6 +16,7 @@ libjansi.so()(64bit) \
 mvn(org.fusesource.jansi:jansi) \
 mvn(org.fusesource.jansi:jansi:pom:) \
 osgi(org.fusesource.jansi)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 libc.so.6(GLIBC_2.34)(64bit)"

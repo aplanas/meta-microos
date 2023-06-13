@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-model-bakery \
 python3.10dist(model-bakery) \
 python310-model-bakery \
 python3dist(model-bakery)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

@@ -16,6 +16,7 @@ RPM_HASH = "91ac00915302c8c9386494ae68c82f7a974787aa60062e8ece7357b3352244aadd04
 
 RPROVIDES:${PN} += "bitwise \
 bitwise(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

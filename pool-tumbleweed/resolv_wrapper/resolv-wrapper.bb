@@ -18,6 +18,7 @@ libresolv_wrapper.so.0()(64bit) \
 pkgconfig(resolv_wrapper) \
 resolv_wrapper \
 resolv_wrapper(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 cmake \

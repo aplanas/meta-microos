@@ -12,6 +12,7 @@ RPM_HASH = "d48900ff0b8dfe976695e550e6f75a8fd0c2e995f98448abb8ab43c93eefeafb31eb
 
 RPROVIDES:${PN} += "makedumpfile \
 makedumpfile(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "wxGTK3-3_2-devel \
 wxGTK3-3_2-devel(aarch-64) \
 wxGTK3-devel \
 wxWidgets-any-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

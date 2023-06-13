@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(keyindex.sty) \
 texlive-keyindex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

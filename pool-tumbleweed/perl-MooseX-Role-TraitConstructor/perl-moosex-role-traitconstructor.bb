@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(MooseX::Role::TraitConstructor) \
 perl-MooseX-Role-TraitConstructor"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(Test::Exception) \

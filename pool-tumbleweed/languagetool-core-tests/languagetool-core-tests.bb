@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "languagetool-core-tests \
 mvn(org.languagetool:languagetool-core::tests:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(ai.h2o:xgboost-predictor) \

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Dancer2::Plugin::DBIC) \
 perl-Dancer2-Plugin-DBIC"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBICx::Sugar) \
 perl(Dancer2) \

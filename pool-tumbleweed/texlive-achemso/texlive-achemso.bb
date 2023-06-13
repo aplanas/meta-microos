@@ -89,6 +89,7 @@ tex(achemso.cls) \
 tex(achemso.sty) \
 tex(natmove.sty) \
 texlive-achemso"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

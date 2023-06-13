@@ -11,6 +11,7 @@ RPM_HASH = "2c613728a2ba9a4d270e62e4d52a35d8f96dcae60f5aeb90e64572d65dfded3c32f7
 RPROVIDES:${PN} += "enchant-1-devel \
 enchant-1-devel(aarch-64) \
 pkgconfig(enchant)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 libenchant1 \

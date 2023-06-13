@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(tabularray-2021.sty) \
 tex(tabularray.sty) \
 texlive-tabularray"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

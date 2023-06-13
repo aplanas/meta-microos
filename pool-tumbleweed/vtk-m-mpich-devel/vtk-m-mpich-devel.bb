@@ -13,6 +13,7 @@ RPM_HASH = "e0f8b58aa760094a61548fef8dc27d8c5239db60113d8bbb801c7367acefc7253d32
 
 RPROVIDES:${PN} += "vtk-m-mpich-devel \
 vtk-m-mpich-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake \
 libvtk-m-mpich-2_0 \
 mpich-devel"

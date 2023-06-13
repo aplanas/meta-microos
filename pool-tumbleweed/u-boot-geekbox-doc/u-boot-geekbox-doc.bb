@@ -10,6 +10,7 @@ RPM_HASH = "a6960959fa2769c466a8112bfc3492479014d9e9d1af49105985e130a8c49e24b6fb
 
 RPROVIDES:${PN} += "u-boot-geekbox-doc \
 u-boot-geekbox-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

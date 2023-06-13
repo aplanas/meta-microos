@@ -11,6 +11,7 @@ RPM_HASH = "9b9251cbbce33ae3a39a3725b2f7fc4eae3e7a3c4a1403afa3a542fc69bae17064ea
 RPROVIDES:${PN} += "ykclient \
 ykclient(aarch-64) \
 yubico-c-client"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "cb048cbf0c5f05a2df00edc387d960e04294f4288f77a5a3fcdde12d066a3e0a8d30
 RPROVIDES:${PN} += "libcblas.so.3()(64bit) \
 libcblas3 \
 libcblas3(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

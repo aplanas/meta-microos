@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(myfilist.sty) \
 tex(readprov.sty) \
 texlive-fileinfo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

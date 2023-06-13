@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(HTML::Restrict) \
 perl-HTML-Restrict"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Data::Dump) \
 perl(HTML::Entities) \

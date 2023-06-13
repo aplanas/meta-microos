@@ -11,6 +11,7 @@ RPM_HASH = "533a442153f5b431f789768b36dd51a0a56038125ad774f790c17c99f8e547422789
 RPROVIDES:${PN} += "libgnomesu.so.0()(64bit) \
 libgnomesu0 \
 libgnomesu0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

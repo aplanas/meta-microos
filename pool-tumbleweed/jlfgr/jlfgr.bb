@@ -22,6 +22,7 @@ RPM_HASH = "0fe861857af4f78e007e2d6cced905720707b48e2162c329a5244d6aa070f243a6bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jlfgr"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

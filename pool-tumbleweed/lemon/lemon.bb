@@ -23,6 +23,7 @@ RPM_HASH = "8c748e2e9a7ca04ce4d081bb738e6461108bb675a974a96e41a73edfa65bbe58bf84
 
 RPROVIDES:${PN} += "lemon \
 lemon(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

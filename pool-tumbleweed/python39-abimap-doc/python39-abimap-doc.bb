@@ -9,6 +9,7 @@ RPM_HASH = "fa75536950defc15a906ff3d6a4098f3398fca75097152bc9a8004209ebc3f2f01d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-abimap-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

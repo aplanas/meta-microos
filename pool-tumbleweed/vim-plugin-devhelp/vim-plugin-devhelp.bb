@@ -11,6 +11,7 @@ RPM_HASH = "e8da2b8ed5340d894a30648965ca73cd14390887c69890a17b570c58d8b28485fac7
 
 RPROVIDES:${PN} += "vim-plugin-devhelp \
 vim-plugin-devhelp(aarch-64)"
+
 RDEPENDS:${PN} += "devhelp \
 vim"
 

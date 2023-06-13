@@ -9,6 +9,7 @@ RPM_HASH = "413233bd7904cdd70138a4bc56ecfb5251fc339011933533149d4ec0516a4c311508
 
 RPROVIDES:${PN} += "pps-udev \
 pps-udev(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 user(ntp)"
 

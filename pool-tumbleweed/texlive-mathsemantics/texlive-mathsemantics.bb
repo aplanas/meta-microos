@@ -23,6 +23,7 @@ tex(mathsemantics-semantic.sty) \
 tex(mathsemantics-syntax.sty) \
 tex(mathsemantics.sty) \
 texlive-mathsemantics"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

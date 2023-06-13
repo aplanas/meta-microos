@@ -9,6 +9,7 @@ RPM_HASH = "cdbdcdf8241be402e4118d65b0db273848bb84011d8ede47839bd7bb724ec1eb624d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "facetimehd-firmware"
+
 RDEPENDS:${PN} += "/bin/bash \
 coreutils \
 cpio \

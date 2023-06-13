@@ -91,6 +91,7 @@ locale(screencast:zh_HK) \
 locale(screencast:zh_TW) \
 screencast-lang \
 screencast-lang-all"
+
 RDEPENDS:${PN} += "screencast"
 
 inherit rpm

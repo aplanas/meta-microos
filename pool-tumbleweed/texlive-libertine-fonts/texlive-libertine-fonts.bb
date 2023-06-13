@@ -195,6 +195,7 @@ font(linuxlibertinemonot) \
 font(linuxlibertineo) \
 font(linuxlibertinet) \
 texlive-libertine-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

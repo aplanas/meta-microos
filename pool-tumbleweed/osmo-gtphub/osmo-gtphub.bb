@@ -10,6 +10,7 @@ RPM_HASH = "af918ff9cb28ee081577234ae1cee1c60ad0ccf7e9b116da0aba0e5446080fb19e3e
 RPROVIDES:${PN} += "config(osmo-gtphub) \
 osmo-gtphub \
 osmo-gtphub(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

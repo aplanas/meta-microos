@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tkreadonly) \
 python311-tkreadonly \
 python3dist(tkreadonly)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Pygments \
 python311-idle \

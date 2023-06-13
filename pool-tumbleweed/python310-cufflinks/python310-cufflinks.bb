@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cufflinks \
 python3.10dist(cufflinks) \
 python310-cufflinks \
 python3dist(cufflinks)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-colorlover \
 python310-numpy \

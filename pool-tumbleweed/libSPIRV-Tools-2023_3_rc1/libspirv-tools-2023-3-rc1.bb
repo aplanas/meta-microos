@@ -19,6 +19,7 @@ libSPIRV-Tools-lint-2023.3~rc1.so()(64bit) \
 libSPIRV-Tools-opt-2023.3~rc1.so()(64bit) \
 libSPIRV-Tools-reduce-2023.3~rc1.so()(64bit) \
 libSPIRV-Tools-shared-2023.3~rc1.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

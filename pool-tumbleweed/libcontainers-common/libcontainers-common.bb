@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(libcontainers-common) \
 libcontainers-common \
 libcontainers-image \
 libcontainers-storage"
+
 RDEPENDS:${PN} += "(libcontainers-sles-mounts if sles-release) \
 /bin/sh \
 /usr/bin/grep \

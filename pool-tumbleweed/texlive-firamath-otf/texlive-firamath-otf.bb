@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(firamath-otf.sty) \
 texlive-firamath-otf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

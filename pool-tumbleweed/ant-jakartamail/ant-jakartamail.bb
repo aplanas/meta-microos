@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ant-jakartamail \
 config(ant-jakartamail) \
 mvn(org.apache.ant:ant-jakartamail) \
 mvn(org.apache.ant:ant-jakartamail:pom:)"
+
 RDEPENDS:${PN} += "ant \
 jakarta-mail \
 java-headless \

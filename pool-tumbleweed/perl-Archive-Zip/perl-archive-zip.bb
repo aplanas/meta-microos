@@ -39,6 +39,7 @@ perl(Archive::Zip::StringMember) \
 perl(Archive::Zip::Tree) \
 perl(Archive::Zip::ZipFileMember) \
 perl-Archive-Zip"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Compress::Raw::Zlib)"

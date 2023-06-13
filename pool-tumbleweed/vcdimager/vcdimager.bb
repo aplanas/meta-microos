@@ -10,6 +10,7 @@ RPM_HASH = "ae12584bec4e2665eeebea8e584ed48352542ea7393dbf72c5a8c01c6c06e1c5845b
 
 RPROVIDES:${PN} += "vcdimager \
 vcdimager(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

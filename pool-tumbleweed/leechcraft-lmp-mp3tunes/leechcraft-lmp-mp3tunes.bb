@@ -15,6 +15,7 @@ RPM_HASH = "027d6b3466e9a35b169418dfba3c574e2ebb326d3df11d61f534efa2102fbcbff26d
 RPROVIDES:${PN} += "leechcraft-lmp-mp3tunes \
 leechcraft-lmp-mp3tunes(aarch-64) \
 libleechcraft_lmp_mp3tunes.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-lmp \

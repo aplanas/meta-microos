@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewall-macros \
 rpm_macro(firewalld_reload)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "15a740aa0355478bdf2a9aa930fa68e600342f81753f64eeef40943542149100324b
 RPROVIDES:${PN} += "eog-devel \
 eog-devel(aarch-64) \
 pkgconfig(eog)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 eog \
 pkgconfig(gtk+-3.0) \

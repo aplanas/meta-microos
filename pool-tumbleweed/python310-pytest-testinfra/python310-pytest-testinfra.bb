@@ -19,6 +19,7 @@ python3.10dist(pytest-testinfra) \
 python310-pytest-testinfra \
 python310-testinfra \
 python3dist(pytest-testinfra)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

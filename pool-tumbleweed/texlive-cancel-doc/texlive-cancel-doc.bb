@@ -9,6 +9,7 @@ RPM_HASH = "20c60016cd19e868333039a225f9304a3e0e9e827df586e064d9e887060ec4163136
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cancel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

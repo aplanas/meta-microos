@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(ffmpeg-python) \
 python311-ffmpeg-python \
 python3dist(ffmpeg-python)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-future"
 

@@ -12,6 +12,7 @@ RPM_HASH = "0645d1a107ef4060ec2ef98c7e589f093eea457758a154d43698bc919b0be98e4cdf
 RPROVIDES:${PN} += "typelib(Budgie) \
 typelib-1_0-Budgie-1_0 \
 typelib-1_0-Budgie-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libbudgie-plugin.so.0()(64bit) \
 typelib(Atk) \
 typelib(GIRepository) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dicts-devel \
 dicts:/usr/src/dicts/fix8bit.c"
+
 RDEPENDS:${PN} += "/usr/bin/awk"
 
 inherit rpm

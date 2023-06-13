@@ -11,6 +11,7 @@ RPM_HASH = "4c3b234a27eadb591b515e92d0032f1062e3c6f6aaef102c8dd37872157280d88df9
 RPROVIDES:${PN} += "libboost_python-py3-1_82_0 \
 libboost_python-py3-1_82_0(aarch-64) \
 libboost_python-py3.so.1.82.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 boost-license1_82_0 \
 libc.so.6(GLIBC_2.17)(64bit) \

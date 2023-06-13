@@ -192,6 +192,7 @@ font(linuxlibertineinitialso) \
 font(linuxlibertinemonoo) \
 font(linuxlibertineo) \
 linux-libertine-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

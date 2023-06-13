@@ -12,6 +12,7 @@ RPM_HASH = "d820d6f3f1c8ca2ba3ce1e85c0b7217b1f8d40b806ae4ed238af55fc337fcace349f
 
 RPROVIDES:${PN} += "eventstat \
 eventstat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

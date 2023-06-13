@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "python3-oauthlib \
 python3.10dist(oauthlib) \
 python310-oauthlib \
 python3dist(oauthlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyJWT \
 python310-blinker \

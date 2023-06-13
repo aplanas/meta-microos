@@ -22,6 +22,7 @@ application(blueman-adapters.desktop) \
 application(blueman-manager.desktop) \
 blueman \
 blueman(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 bluez \

@@ -10,6 +10,7 @@ RPM_HASH = "3c2769cb3bd3d9639cc6c9e2bd36bfd99ae46ccb1d311f148746cdb1ca1631f7855d
 RPROVIDES:${PN} += "gnutls-guile \
 guile-gnutls \
 guile-gnutls(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

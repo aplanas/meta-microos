@@ -12,6 +12,7 @@ RPM_HASH = "95a6d8bdf3f328de953a7159aa92e4cd52b913c10bf6ba1864ac5dbd271f9b335c7e
 
 RPROVIDES:${PN} += "enchant-tools \
 enchant-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -16,6 +16,7 @@ mimehandler(inode/directory) \
 mimehandler(x-content/unix-software) \
 nemo \
 nemo(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
 desktop-file-utils \

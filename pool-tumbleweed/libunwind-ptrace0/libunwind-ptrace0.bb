@@ -11,6 +11,7 @@ RPM_HASH = "59edf3e5fbdd7bbd765ab189cf39de2737e272330a8554952cc8595388465fbce23c
 RPROVIDES:${PN} += "libunwind-ptrace.so.0()(64bit) \
 libunwind-ptrace0 \
 libunwind-ptrace0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "a641c5eace5fdf15b7ab7436a287b8f9a7cda07901568160ad822d344e28386e5d52
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "imgp-zsh-completion"
+
 RDEPENDS:${PN} += "imgp"
 
 inherit rpm

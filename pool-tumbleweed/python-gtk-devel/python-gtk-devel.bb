@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(pygtk-2.0) \
 python-gtk-devel \
 python-gtk-devel(aarch-64) \
 python2-gtk-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python \

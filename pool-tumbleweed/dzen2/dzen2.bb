@@ -9,6 +9,7 @@ RPM_HASH = "d416048346cbf4d665bcc63e13dd6c4c5a3e7a22c70f25ff3fd3dade93fa24189d32
 
 RPROVIDES:${PN} += "dzen2 \
 dzen2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "14c5bc1d1bada3a625c48d89b75d079cb598a4b5802e1a8946e7bd529301bf8a7dbe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-embedfile-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

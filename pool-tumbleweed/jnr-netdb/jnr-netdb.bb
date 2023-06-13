@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jnr-netdb \
 mvn(com.github.jnr:jnr-netdb) \
 mvn(com.github.jnr:jnr-netdb:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.github.jnr:jnr-ffi)"

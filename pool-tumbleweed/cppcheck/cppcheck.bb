@@ -27,6 +27,7 @@ RPM_HASH = "5e8cf8727590873c4317e96b1bf351b504af7b417f84c4fa90436e7c5c7d2aa412a9
 
 RPROVIDES:${PN} += "cppcheck \
 cppcheck(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-proglog \
 python3.10dist(proglog) \
 python310-proglog \
 python3dist(proglog)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tqdm"
 

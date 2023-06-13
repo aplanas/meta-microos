@@ -11,6 +11,7 @@ RPM_HASH = "9887c7f8424f6c7eead1bb3dc4434e2aaaa4177d725c295f8936672e19027c790781
 
 RPROVIDES:${PN} += "iouyap \
 iouyap(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 permissions \

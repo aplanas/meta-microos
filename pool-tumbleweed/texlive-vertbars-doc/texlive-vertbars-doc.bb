@@ -9,6 +9,7 @@ RPM_HASH = "220876f777143e12bd665201bbca1a8b34ab8599182f7c93f92808ae93f451060983
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vertbars-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

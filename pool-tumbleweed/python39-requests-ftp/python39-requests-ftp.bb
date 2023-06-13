@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(requests-ftp) \
 python39-requests-ftp \
 python3dist(requests-ftp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

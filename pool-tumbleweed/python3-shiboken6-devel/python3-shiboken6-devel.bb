@@ -12,6 +12,7 @@ cmake(Shiboken6Tools) \
 pkgconfig(shiboken6) \
 python3-shiboken6-devel \
 python3-shiboken6-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 python3-shiboken6"
 

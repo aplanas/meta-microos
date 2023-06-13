@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-storagepool \
 python3.10dist(azure-mgmt-storagepool) \
 python310-azure-mgmt-storagepool \
 python3dist(azure-mgmt-storagepool)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

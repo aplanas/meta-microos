@@ -11,6 +11,7 @@ RPM_HASH = "08814d32a72dedbbc8b6d41767d05676a7dadf1662e375bf6a03a94f29d531dce1d9
 
 RPROVIDES:${PN} += "bindfs \
 bindfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

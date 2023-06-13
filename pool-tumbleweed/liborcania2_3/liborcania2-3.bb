@@ -11,6 +11,7 @@ RPM_HASH = "0233c4b527b79ad5baf2385d74ea9edfe2727ea7d51f85056e2eb47df44a49fe8b5a
 RPROVIDES:${PN} += "liborcania.so.2.3()(64bit) \
 liborcania2_3 \
 liborcania2_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

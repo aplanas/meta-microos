@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jpsj2.cls) \
 texlive-jpsj"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

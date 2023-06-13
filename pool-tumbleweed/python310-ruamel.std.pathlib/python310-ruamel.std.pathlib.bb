@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ruamel.std.pathlib \
 python3.10dist(ruamel.std.pathlib) \
 python310-ruamel.std.pathlib \
 python3dist(ruamel.std.pathlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ruamel.base"
 

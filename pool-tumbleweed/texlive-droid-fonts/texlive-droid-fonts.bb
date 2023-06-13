@@ -187,6 +187,7 @@ font(droidsans) \
 font(droidsansmono) \
 font(droidserif) \
 texlive-droid-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

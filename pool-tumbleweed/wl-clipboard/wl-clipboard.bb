@@ -9,6 +9,7 @@ RPM_HASH = "d4db3079207b85c073339fe33f650929c277c91b19162087fbba9e3933cb4158cf43
 
 RPROVIDES:${PN} += "wl-clipboard \
 wl-clipboard(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

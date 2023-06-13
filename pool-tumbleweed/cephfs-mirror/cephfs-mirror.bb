@@ -9,6 +9,7 @@ RPM_HASH = "39f1d0311f4b1491f4fc86c3b523eff6f55153a179408728c0117083a466cae7a428
 
 RPROVIDES:${PN} += "cephfs-mirror \
 cephfs-mirror(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ceph-base \
 ld-linux-aarch64.so.1()(64bit) \

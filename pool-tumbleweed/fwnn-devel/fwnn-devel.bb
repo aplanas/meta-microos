@@ -11,6 +11,7 @@ RPM_HASH = "ea52e321780aef971190b03883c4c6a2258268135f263dae2208dc69c2f2067826d6
 RPROVIDES:${PN} += "fwnn-devel \
 fwnn-devel(aarch-64) \
 fwnndev"
+
 RDEPENDS:${PN} += "fcwnn-devel \
 fwnn \
 libjd0 \

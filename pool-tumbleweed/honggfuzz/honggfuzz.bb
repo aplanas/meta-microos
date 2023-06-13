@@ -11,6 +11,7 @@ RPM_HASH = "50275fde466f72e24ee279f1c4ea24b1a2eeffaf587f75229d4f416a0115a4b90380
 
 RPROVIDES:${PN} += "honggfuzz \
 honggfuzz(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

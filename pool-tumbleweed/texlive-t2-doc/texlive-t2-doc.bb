@@ -9,6 +9,7 @@ RPM_HASH = "7d2fddf50fe279a8c7b1cd83830af1f72011a32f1b39059cb9bb4c53dcace51824b1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-t2-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl"
 

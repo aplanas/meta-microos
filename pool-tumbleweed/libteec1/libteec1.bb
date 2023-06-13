@@ -12,6 +12,7 @@ RPM_HASH = "3b1f73866a0f04d85408ccc4d2a545e62fd2dacda0b6a994f15ae64d93df38ec86b1
 RPROVIDES:${PN} += "libteec.so.1()(64bit) \
 libteec1 \
 libteec1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

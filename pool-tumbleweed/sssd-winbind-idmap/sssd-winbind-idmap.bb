@@ -10,6 +10,7 @@ RPM_HASH = "86e2898ad308a8cb204d431a3fa97cc4e551ace8cf46a1aaf30474637a3340d25ecb
 
 RPROVIDES:${PN} += "sssd-winbind-idmap \
 sssd-winbind-idmap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

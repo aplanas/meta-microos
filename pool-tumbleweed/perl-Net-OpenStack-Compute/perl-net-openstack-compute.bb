@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Net::OpenStack::Compute) \
 perl(Net::OpenStack::Compute::AuthRole) \
 perl-Net-OpenStack-Compute"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(App::Rad) \

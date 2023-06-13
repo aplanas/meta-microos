@@ -19,6 +19,7 @@ tex(gfdl-tex-1p2.tex) \
 tex(gfdl-tex-1p3.tex) \
 tex(gfdl.sty) \
 texlive-gfdl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

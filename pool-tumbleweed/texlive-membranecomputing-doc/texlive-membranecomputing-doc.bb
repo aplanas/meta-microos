@@ -9,6 +9,7 @@ RPM_HASH = "7f07ec3b196c2f9d5e43216268a03f0c07d45a036c9ebe313bcaf20149af4cdba895
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-membranecomputing-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

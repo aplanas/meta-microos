@@ -13,6 +13,7 @@ RPM_HASH = "60994a0f82ea53a58b956e3d019f33174403ff088e51d22a2ff9be3a5bcabe6bfc8d
 
 RPROVIDES:${PN} += "libctl-doc \
 libctl-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

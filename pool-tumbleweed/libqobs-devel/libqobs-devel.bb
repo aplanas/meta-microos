@@ -11,6 +11,7 @@ RPM_HASH = "e0241e50df91842f6e3d5eeca67f6bb8b7391aed0c7d389085a82c300183ffc0cdb0
 RPROVIDES:${PN} += "libqobs-devel \
 libqobs-devel(aarch-64) \
 pkgconfig(libqobs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqobs2(aarch-64) \
 pkgconfig(Qt5Core) \

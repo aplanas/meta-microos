@@ -12,6 +12,7 @@ RPM_HASH = "8e05991ed9040d92a33023d18caeab528c424cc8a04b9b03401d95bb41d72175b43b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-Flask"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Flask \
 python39-aws-xray-sdk"

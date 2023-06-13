@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(man) \
 system-user-man \
 user(man)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

@@ -15,6 +15,7 @@ python3.10dist(ipywidgets) \
 python310-ipywidgets \
 python310-jupyter_ipywidgets \
 python3dist(ipywidgets)"
+
 RDEPENDS:${PN} += "(python310-jupyterlab_widgets >= 3.0.7 with python310-jupyterlab_widgets < 4) \
 (python310-widgetsnbextension >= 4.0.7 with python310-widgetsnbextension < 5) \
 python(abi) \

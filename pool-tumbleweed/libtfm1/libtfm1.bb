@@ -12,6 +12,7 @@ RPM_HASH = "fc8e619c51d71f891593cdf60901d5bbbc70c1c3244f6bf84791a8878443d06e8762
 RPROVIDES:${PN} += "libtfm.so.1()(64bit) \
 libtfm1 \
 libtfm1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

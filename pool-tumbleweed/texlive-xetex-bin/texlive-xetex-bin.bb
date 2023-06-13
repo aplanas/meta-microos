@@ -9,6 +9,7 @@ RPM_HASH = "fd768c8de2d2edc547ae9aa75adf9d77b0796da454db761aa14c96b6d20f165e9ee7
 
 RPROVIDES:${PN} += "texlive-xetex-bin \
 texlive-xetex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

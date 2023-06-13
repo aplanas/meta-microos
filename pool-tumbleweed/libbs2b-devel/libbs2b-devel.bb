@@ -10,6 +10,7 @@ RPM_HASH = "88c4a200794d56dd680e5385784e42987c7e2495e8aefbf67f8cd998be64811b8608
 RPROVIDES:${PN} += "libbs2b-devel \
 libbs2b-devel(aarch-64) \
 pkgconfig(libbs2b)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbs2b0"
 

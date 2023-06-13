@@ -12,6 +12,7 @@ RPM_HASH = "d2b1e8d0ae321b44fa4b855d18acc11a267bbc5b6c2cb72a945e735e7e72753f40b6
 
 RPROVIDES:${PN} += "libqt5-qtbase-devel \
 libqt5-qtbase-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5Concurrent-devel \
 libQt5Core-devel \
 libQt5DBus-devel \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:exception_notification) \
 rubygem(ruby:3.2.0:exception_notification:4) \
 rubygem(ruby:3.2.0:exception_notification:4.5) \
 rubygem(ruby:3.2.0:exception_notification:4.5.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:actionmailer) \
 rubygem(ruby:3.2.0:activesupport)"

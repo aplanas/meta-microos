@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libwtdbopostgres.so.4.8.1()(64bit) \
 libwtdbopostgres4_8_1 \
 libwtdbopostgres4_8_1(aarch-64) \
 wt-dbo-postgres"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

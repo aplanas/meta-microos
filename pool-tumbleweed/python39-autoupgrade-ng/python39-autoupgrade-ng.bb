@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(autoupgrade-ng) \
 python39-autoupgrade-ng \
 python3dist(autoupgrade-ng)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pip"
 

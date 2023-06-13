@@ -10,6 +10,7 @@ RPM_HASH = "2b25f67cc56122e724705bf2367f84a1cd85243686064d160d982ac7086bb80cd7b1
 RPROVIDES:${PN} += "ghc-haskeline \
 ghc-haskeline(aarch-64) \
 libHShaskeline-0.8.2-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

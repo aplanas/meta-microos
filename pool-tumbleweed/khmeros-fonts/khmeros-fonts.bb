@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "KhmerOS-fonts \
 khmeros-fonts \
 locale(km) \
 scalable-font-km"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

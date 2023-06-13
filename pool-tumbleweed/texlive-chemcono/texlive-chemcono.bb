@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(chemcono.sty) \
 tex(drftcono.sty) \
 tex(showkeysff.sty) \
 texlive-chemcono"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

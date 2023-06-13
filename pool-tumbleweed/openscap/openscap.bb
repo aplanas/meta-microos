@@ -16,6 +16,7 @@ RPM_HASH = "1b4af609c7df29956cdcd993f8828f6908fbc299c80b6adeb401c3156b91510ff9c9
 
 RPROVIDES:${PN} += "openscap \
 openscap(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

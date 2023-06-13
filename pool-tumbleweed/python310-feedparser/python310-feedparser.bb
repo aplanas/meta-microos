@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-feedparser \
 python3.10dist(feedparser) \
 python310-feedparser \
 python3dist(feedparser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-sgmllib3k \
 python310-xml"

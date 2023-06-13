@@ -11,6 +11,7 @@ RPM_HASH = "644e89e74dddf51a8b304f744f50510c0c7a4d90b94cb6aa8ea4586d7a898bde8115
 RPROVIDES:${PN} += "keybinder-devel \
 keybinder-devel(aarch-64) \
 pkgconfig(keybinder)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libkeybinder0 \
 pkgconfig(gtk+-2.0)"

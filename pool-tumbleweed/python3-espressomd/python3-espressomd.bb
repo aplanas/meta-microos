@@ -15,6 +15,7 @@ RPM_HASH = "9df9a757c67d7b75d85ab11d4a72f836fd9c854f954d7cc8e11f0882325b7ad82b47
 RPROVIDES:${PN} += "libEspresso4 \
 python3-espressomd \
 python3-espressomd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

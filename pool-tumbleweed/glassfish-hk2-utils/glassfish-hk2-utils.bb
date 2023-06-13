@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "glassfish-hk2-utils \
 mvn(org.glassfish.hk2:hk2-utils) \
 mvn(org.glassfish.hk2:hk2-utils:pom:) \
 osgi(org.glassfish.hk2.utils)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.annotation:javax.annotation-api) \

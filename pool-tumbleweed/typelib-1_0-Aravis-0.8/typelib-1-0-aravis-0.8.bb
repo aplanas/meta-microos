@@ -10,6 +10,7 @@ RPM_HASH = "251a995acfcc74232783cf79487b81eefdeb5ee2a9e640e6874d309de8c351eeb47b
 RPROVIDES:${PN} += "typelib(Aravis) \
 typelib-1_0-Aravis-0.8 \
 typelib-1_0-Aravis-0.8(aarch-64)"
+
 RDEPENDS:${PN} += "libaravis-0.8.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

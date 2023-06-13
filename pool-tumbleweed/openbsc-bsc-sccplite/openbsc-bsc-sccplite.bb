@@ -14,6 +14,7 @@ RPM_HASH = "4dff59910ec955bbdcebb130350df89c911576e5c96f071699bf1ab5e4a10aaebfaa
 RPROVIDES:${PN} += "config(openbsc-bsc-sccplite) \
 openbsc-bsc-sccplite \
 openbsc-bsc-sccplite(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libosmocore.so.20()(64bit) \

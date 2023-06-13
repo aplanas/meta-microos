@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-azure-communication-email \
 python3.10dist(azure-communication-email) \
 python310-azure-communication-email \
 python3dist(azure-communication-email)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-communication-nspkg \

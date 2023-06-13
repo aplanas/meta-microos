@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(biblatex-opcit-booktitle.sty) \
 texlive-biblatex-opcit-booktitle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

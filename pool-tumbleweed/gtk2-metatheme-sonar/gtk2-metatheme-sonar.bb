@@ -9,6 +9,7 @@ RPM_HASH = "da29bbeb4bcf8a173d1d996e4cb7cbbf591117504bba95f7991ccc661a9fbe0fae40
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-sonar"
+
 RDEPENDS:${PN} += "gtk2-engine-murrine \
 metatheme-sonar-common"
 

@@ -20,6 +20,7 @@ man(uppltotf.1) \
 man(uptex.1) \
 man(uptftopl.1) \
 texlive-uptex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

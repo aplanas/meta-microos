@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(simplekv.sty) \
 tex(simplekv.tex) \
 texlive-simplekv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

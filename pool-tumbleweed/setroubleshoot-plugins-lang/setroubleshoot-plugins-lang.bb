@@ -60,6 +60,7 @@ locale(setroubleshoot-plugins:zh_CN) \
 locale(setroubleshoot-plugins:zh_TW) \
 setroubleshoot-plugins-lang \
 setroubleshoot-plugins-lang-all"
+
 RDEPENDS:${PN} += "setroubleshoot-plugins"
 
 inherit rpm

@@ -90,6 +90,7 @@ locale(khelpcenter5:vi) \
 locale(khelpcenter5:wa) \
 locale(khelpcenter5:zh_CN) \
 locale(khelpcenter5:zh_TW)"
+
 RDEPENDS:${PN} += "khelpcenter5"
 
 inherit rpm

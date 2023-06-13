@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(aiosignal) \
 python311-aiosignal \
 python3dist(aiosignal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-frozenlist"
 

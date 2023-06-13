@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(yafe) \
 python39-yafe \
 python3dist(yafe)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy"
 

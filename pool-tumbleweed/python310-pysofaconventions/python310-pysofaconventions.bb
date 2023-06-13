@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pysofaconventions \
 python3.10dist(pysofaconventions) \
 python310-pysofaconventions \
 python3dist(pysofaconventions)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-netCDF4"
 

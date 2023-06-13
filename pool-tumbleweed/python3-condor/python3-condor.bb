@@ -15,6 +15,7 @@ python3-condor \
 python3-condor(aarch-64) \
 python3.10dist(htcondor) \
 python3dist(htcondor)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

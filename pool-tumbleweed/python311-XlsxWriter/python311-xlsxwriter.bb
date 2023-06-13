@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-xlsxwriter \
 python3.11dist(xlsxwriter) \
 python311-XlsxWriter \
 python3dist(xlsxwriter)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

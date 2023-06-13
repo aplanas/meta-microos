@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Net::DNS::Resolver::Programmable) \
 perl-Net-DNS-Resolver-Programmable"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Net::DNS)"
 

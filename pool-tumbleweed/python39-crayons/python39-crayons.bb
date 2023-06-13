@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(crayons) \
 python39-crayons \
 python3dist(crayons)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-colorama"
 

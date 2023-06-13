@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rank-2-roots.sty) \
 texlive-rank-2-roots"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

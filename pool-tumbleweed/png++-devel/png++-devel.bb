@@ -9,6 +9,7 @@ RPM_HASH = "5f8323005e20c03d8756921809dc6ee5483fb1cdbbfd8e9d3b12bef59662794beeb4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "png++-devel"
+
 RDEPENDS:${PN} += "pkgconfig(libpng)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "8561bb257249f716055d87d1b3577d968c6d66a9aca64b6fa12f14402cd3153e859f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "igerman98-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

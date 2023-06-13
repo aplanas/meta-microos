@@ -12,6 +12,7 @@ RPM_HASH = "d4b0bc7ee6392a246f032792d229d8e00af98f5db7329c03cdab3112596c99c22e1e
 RPROVIDES:${PN} += "config(groff) \
 groff \
 groff(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

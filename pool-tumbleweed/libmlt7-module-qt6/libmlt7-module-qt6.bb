@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libmlt7-module-qt6 \
 libmlt7-module-qt6(aarch-64) \
 libmltglaxnimate-qt6.so()(64bit) \
 libmltqt6.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

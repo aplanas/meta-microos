@@ -14,6 +14,7 @@ RPM_HASH = "aab8c5adb907d007e67195c2de29314065611be81cb7d569da6a144695195b776100
 RPROVIDES:${PN} += "gd-devel \
 gd-devel(aarch-64) \
 pkgconfig(gdlib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libgd3 \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(belleek.map) \
 texlive-belleek"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

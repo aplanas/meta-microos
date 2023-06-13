@@ -91,6 +91,7 @@ locale(clipped:wa) \
 locale(clipped:zh) \
 locale(clipped:zh_HK) \
 locale(clipped:zh_TW)"
+
 RDEPENDS:${PN} += "clipped"
 
 inherit rpm

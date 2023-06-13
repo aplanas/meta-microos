@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lualinalg.sty) \
 texlive-lualinalg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

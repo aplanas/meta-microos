@@ -9,6 +9,7 @@ RPM_HASH = "3dfe30b09b260cbb11ec9279229d7642accabbd6b8d3faf4956290b222f818b91380
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyside2-examples"
+
 RDEPENDS:${PN} += "python3-pyside2 \
 qt5qmlimport(QtCharts.2) \
 qt5qmlimport(QtQuick.2) \

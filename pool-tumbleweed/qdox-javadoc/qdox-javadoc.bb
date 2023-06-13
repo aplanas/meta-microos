@@ -9,6 +9,7 @@ RPM_HASH = "ff0feb797527d6a5be4728167d3b5e07155887b7aeb39500bc78a50ae5edf135081d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qdox-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

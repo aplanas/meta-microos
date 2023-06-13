@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "openbox-devel \
 openbox-devel(aarch-64) \
 pkgconfig(obrender-3.5) \
 pkgconfig(obt-3.5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libobrender32 \
 libobt2 \

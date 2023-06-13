@@ -11,6 +11,7 @@ RPM_HASH = "1e68c68c498d8119bb158aeab4e4ca66d4eb87569b9c47dc92e22f841beb3a6f4e4e
 RPROVIDES:${PN} += "irssi-devel \
 irssi-devel(aarch-64) \
 pkgconfig(irssi-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dante-devel \
 irssi \

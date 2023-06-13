@@ -11,6 +11,7 @@ RPM_HASH = "69d63a5fe27666b146e09cb9235340ee05dd53036db84dbee5c467ef2095521369c8
 RPROVIDES:${PN} += "ghc-bsb-http-chunked-devel \
 ghc-bsb-http-chunked-devel(aarch-64) \
 ghc-devel(bsb-http-chunked-0.0.0.4-7TdDxnBU7De3tUquWdckvl)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-bsb-http-chunked \
 ghc-compiler \

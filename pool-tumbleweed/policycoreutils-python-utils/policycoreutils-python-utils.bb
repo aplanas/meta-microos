@@ -10,6 +10,7 @@ RPM_HASH = "97cdadc35bc48248318ad15d9b24eaf939567a62a2fdd7ee56a9e6936d379c9fa4fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "policycoreutils-python-utils"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-policycoreutils"
 

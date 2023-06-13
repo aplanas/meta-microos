@@ -11,6 +11,7 @@ RPM_HASH = "a94650199294bd62f3b7cef969dac96fbc6b399b95ab7f6aeead2ab0cba4e52cea3a
 RPROVIDES:${PN} += "libmariadbd-devel \
 libmariadbd-devel(aarch-64) \
 libmysqld-devel"
+
 RDEPENDS:${PN} += "libaio-devel \
 libmariadb-devel \
 libmariadbd19 \

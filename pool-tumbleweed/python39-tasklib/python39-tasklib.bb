@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(tasklib) \
 python39-tasklib \
 python3dist(tasklib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pytz \
 python39-tzlocal \

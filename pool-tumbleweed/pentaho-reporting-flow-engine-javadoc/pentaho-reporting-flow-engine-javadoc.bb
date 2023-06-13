@@ -9,6 +9,7 @@ RPM_HASH = "0be63970604e5d199166863d1a800d740a62191d3e7934a89dd44bab1faf3369163a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pentaho-reporting-flow-engine-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

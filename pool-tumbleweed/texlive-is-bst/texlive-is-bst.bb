@@ -14,6 +14,7 @@ RPM_HASH = "d3a4767717be6ee4c263654397908f342bec62c840f9a2543fc1b4023de420d7fd8c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-is-bst"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "76b954353e437985a720ebebc1f1d9062662bdb2910f081db7606295aab896057650
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-vault"
+
 RDEPENDS:${PN} += "bumblebee-status \
 password-store"
 

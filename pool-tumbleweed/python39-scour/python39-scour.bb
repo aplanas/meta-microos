@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(scour) \
 python39-scour \
 python3dist(scour) \
 scour"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

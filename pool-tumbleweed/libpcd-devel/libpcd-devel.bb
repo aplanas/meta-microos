@@ -9,6 +9,7 @@ RPM_HASH = "29d2b1b6395a42ad2c501ff6323deb91bebbdcd6aa649de2322d7cb927b1dc11dbf3
 
 RPROVIDES:${PN} += "libpcd-devel \
 libpcd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libpcd2"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-import-export) \
 python39-django-import-export \
 python3dist(django-import-export)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-diff-match-patch \

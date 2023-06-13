@@ -12,6 +12,7 @@ dhcp-server \
 dhcp-server(aarch-64) \
 group(dhcpd) \
 user(dhcpd)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

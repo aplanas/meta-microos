@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dmlb.sty) \
 texlive-diabetes-logbook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

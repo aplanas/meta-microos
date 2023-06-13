@@ -9,6 +9,7 @@ RPM_HASH = "a83c525fd5cbb9da508d81a6133401b3e8e0af2c9383a0c4ae7891435fe4885315f7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fundus-calligra-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

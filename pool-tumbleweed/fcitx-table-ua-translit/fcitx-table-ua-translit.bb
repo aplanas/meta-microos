@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-other \
 fcitx-table-ua-translit"
+
 RDEPENDS:${PN} += "fcitx-table"
 
 inherit rpm

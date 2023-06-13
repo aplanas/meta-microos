@@ -17,6 +17,7 @@ RPM_HASH = "5a4b71fe5495dc652ec05156890a485e3a77a87ab2ac1b619102e5dd3ee510d42752
 RPROVIDES:${PN} += "zsh-html \
 zsh-htmldoc \
 zsh-htmldoc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

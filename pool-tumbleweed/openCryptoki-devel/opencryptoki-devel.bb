@@ -13,6 +13,7 @@ RPM_HASH = "9a8f636600cd1febe4c84872552c4f8e734928d5fe3952e06581d6c9150d99732e34
 RPROVIDES:${PN} += "openCryptoki-devel \
 openCryptoki-devel(aarch-64) \
 pkgconfig(opencryptoki)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 ld-linux-aarch64.so.1()(64bit) \

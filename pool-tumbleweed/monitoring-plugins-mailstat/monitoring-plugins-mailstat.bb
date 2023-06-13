@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(monitoring-plugins-mailstat) \
 monitoring-plugins-mailstat \
 nagios-plugins-mailstat"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 mailgraph \
 monitoring-plugins-common \

@@ -11,6 +11,7 @@ RPM_HASH = "685d09cb32980dad239f9d4f5086e40acba3a12eb3e530076ea5af47ca6c2a36d198
 RPROVIDES:${PN} += "libfsalproxy.so()(64bit) \
 nfs-ganesha-proxy \
 nfs-ganesha-proxy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

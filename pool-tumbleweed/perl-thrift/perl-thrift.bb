@@ -48,6 +48,7 @@ perl(Thrift::UnixServerSocket) \
 perl(Thrift::UnixSocket) \
 perl-thrift \
 perl-thrift(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

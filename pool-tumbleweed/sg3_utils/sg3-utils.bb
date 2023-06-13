@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "scsi \
 sg3_utils \
 sg3_utils(aarch-64) \
 sg_utils"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

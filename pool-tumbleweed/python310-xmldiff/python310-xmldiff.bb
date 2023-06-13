@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-xmldiff \
 python3.10dist(xmldiff) \
 python310-xmldiff \
 python3dist(xmldiff)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

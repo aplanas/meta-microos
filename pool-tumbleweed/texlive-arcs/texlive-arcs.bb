@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(arcs.sty) \
 texlive-arcs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-musicbrainzngs \
 python3.10dist(musicbrainzngs) \
 python310-musicbrainzngs \
 python3dist(musicbrainzngs)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

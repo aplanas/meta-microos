@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(openapi-core) \
 python311-openapi-core \
 python3dist(openapi-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Werkzeug \
 python311-isodate \

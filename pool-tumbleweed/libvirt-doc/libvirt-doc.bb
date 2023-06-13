@@ -10,6 +10,7 @@ RPM_HASH = "e29ba871a69add48168eeacbc76038cd2ad6aacc407b05708d68b0f3ea4df33561bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libvirt-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-vision-contentmoderator) \
 python311-azure-cognitiveservices-vision-contentmoderator \
 python3dist(azure-cognitiveservices-vision-contentmoderator)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-cognitiveservices-nspkg \
 python311-azure-cognitiveservices-vision-nspkg \

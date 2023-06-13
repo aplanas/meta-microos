@@ -9,6 +9,7 @@ RPM_HASH = "7679bb4ffa222d76e81d48c068036f6a78a4b5164c819cbe5ef44e07c80dd3f10f61
 
 RPROVIDES:${PN} += "texlive-luahbtex-bin \
 texlive-luahbtex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

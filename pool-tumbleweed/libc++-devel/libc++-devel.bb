@@ -11,6 +11,7 @@ RPM_HASH = "97261b8878849329971e997594e03a44521cd1c5f8641bab43ed4cea27e9cf79ac17
 RPROVIDES:${PN} += "libc++-devel \
 libc++-devel(aarch-64) \
 libc++.so"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc++1 \
 libc++abi.so"

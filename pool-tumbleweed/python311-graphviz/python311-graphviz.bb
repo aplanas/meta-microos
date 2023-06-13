@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(graphviz) \
 python311-graphviz \
 python3dist(graphviz)"
+
 RDEPENDS:${PN} += "graphviz \
 python(abi)"
 

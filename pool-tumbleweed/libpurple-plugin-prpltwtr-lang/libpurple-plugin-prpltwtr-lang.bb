@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libpurple-plugin-prpltwtr-lang \
 libpurple-plugin-prpltwtr-lang-all \
 locale(libpurple-plugin-prpltwtr:es) \
 locale(libpurple-plugin-prpltwtr:ja)"
+
 RDEPENDS:${PN} += "libpurple-plugin-prpltwtr"
 
 inherit rpm

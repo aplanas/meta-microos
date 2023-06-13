@@ -20,6 +20,7 @@ pkgconfig(drumstick-alsa) \
 pkgconfig(drumstick-file) \
 pkgconfig(drumstick-rt) \
 pkgconfig(drumstick-widgets)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 alsa-devel \
 cmake(Qt5Core) \

@@ -14,6 +14,7 @@ RPM_HASH = "c172e2f5b59bca8b345969fc016f2c3c4addbd348e299ba9dbe1e3c545724a05fedf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fontinstallationguide"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(yazd-thesis.cls) \
 texlive-yazd-thesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

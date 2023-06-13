@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-md2workflow-common \
 python310-md2workflow-common \
 python311-md2workflow-common \
 python39-md2workflow-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

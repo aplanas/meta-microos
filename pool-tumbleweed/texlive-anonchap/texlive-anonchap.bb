@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(anonchap.sty) \
 texlive-anonchap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

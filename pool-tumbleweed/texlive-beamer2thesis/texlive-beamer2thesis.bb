@@ -14,6 +14,7 @@ tex(beamerinnerthemetorinoth.sty) \
 tex(beamerouterthemetorinoth.sty) \
 tex(beamerthemeTorinoTh.sty) \
 texlive-beamer2thesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:airbrussh) \
 rubygem(ruby:3.2.0:airbrussh:1) \
 rubygem(ruby:3.2.0:airbrussh:1.4) \
 rubygem(ruby:3.2.0:airbrussh:1.4.1)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

@@ -38,6 +38,7 @@ tex(letgut.cbx) \
 tex(letgut.cls) \
 tex(letgut.lbx) \
 texlive-letgut"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

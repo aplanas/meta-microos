@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:http) \
 rubygem(ruby:3.2.0:http:5) \
 rubygem(ruby:3.2.0:http:5.1) \
 rubygem(ruby:3.2.0:http:5.1.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:addressable:2) \
 rubygem(ruby:3.2.0:http-cookie:1) \

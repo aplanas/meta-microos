@@ -10,6 +10,7 @@ RPM_HASH = "9ee4859ad0fbc1322f584be0c6561679e8e9c1e6f44f05c9cabc0ab24be36f0f7932
 
 RPROVIDES:${PN} += "nginx-module-njs \
 nginx-module-njs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

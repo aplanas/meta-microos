@@ -12,6 +12,7 @@ RPM_HASH = "1d525905952570d97c25519c3f5d212c411681e95a44171a6f1cf35363f5b74b152d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-Twisted-contextvars"
+
 RDEPENDS:${PN} += "python39-Twisted"
 
 inherit rpm

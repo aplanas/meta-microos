@@ -10,6 +10,7 @@ RPM_HASH = "51f57f69e1a674cf64466ffeee54a5b5838bfe75317f828211675ca467ce4e336269
 
 RPROVIDES:${PN} += "salt-ssh \
 salt-ssh(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/python3 \
 /usr/bin/touch \

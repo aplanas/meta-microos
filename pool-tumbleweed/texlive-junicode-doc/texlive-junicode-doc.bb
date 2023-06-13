@@ -9,6 +9,7 @@ RPM_HASH = "d1378ef8d01854b531b0c42cc28e56b2ac912c6b01989b8b14c772020bec51d8b514
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-junicode-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

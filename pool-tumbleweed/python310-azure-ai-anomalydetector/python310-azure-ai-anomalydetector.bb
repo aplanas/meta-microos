@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-ai-anomalydetector \
 python3.10dist(azure-ai-anomalydetector) \
 python310-azure-ai-anomalydetector \
 python3dist(azure-ai-anomalydetector)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-ai-nspkg \
 python310-azure-common \

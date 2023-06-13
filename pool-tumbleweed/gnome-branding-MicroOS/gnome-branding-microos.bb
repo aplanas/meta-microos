@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(gnome-branding-MicroOS) \
 gnome-branding-MicroOS"
+
 RDEPENDS:${PN} += "/bin/sh \
 flatpak \
 gio-branding-openSUSE \

@@ -40,6 +40,7 @@ locale(mutt:zh_CN) \
 locale(mutt:zh_TW) \
 mutt-lang \
 mutt:/usr/share/locale/en_GB/LC_MESSAGES/mutt.mo"
+
 RDEPENDS:${PN} += "mutt"
 
 inherit rpm

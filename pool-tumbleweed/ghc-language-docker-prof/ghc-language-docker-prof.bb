@@ -10,6 +10,7 @@ RPM_HASH = "5ad63d49bd3bf7b33ce6b3ed848994de6ccf9490d34937dfd3271f20cf43b43af6b2
 RPROVIDES:${PN} += "ghc-language-docker-prof \
 ghc-language-docker-prof(aarch-64) \
 ghc-prof(language-docker-11.0.0-LOoHldD1EPH8sK8xHuKTA9)"
+
 RDEPENDS:${PN} += "ghc-language-docker-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

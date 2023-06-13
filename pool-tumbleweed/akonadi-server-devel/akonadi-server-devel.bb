@@ -13,6 +13,7 @@ akonadi-server-devel(aarch-64) \
 cmake(KF5Akonadi) \
 cmake(KPim5Akonadi) \
 libKF5AkonadiPrivate-devel"
+
 RDEPENDS:${PN} += "akonadi-server \
 cmake(KF5Config) \
 cmake(KF5ConfigWidgets) \

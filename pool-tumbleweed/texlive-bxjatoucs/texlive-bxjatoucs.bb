@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "tex(bxjatoucs-cid.tfm) \
 tex(bxjatoucs-jis.tfm) \
 tex(bxjatoucs.sty) \
 texlive-bxjatoucs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

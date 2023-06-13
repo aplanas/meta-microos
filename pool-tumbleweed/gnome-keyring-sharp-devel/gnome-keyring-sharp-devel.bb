@@ -12,6 +12,7 @@ RPM_HASH = "19607793cd2910334f0431a2a4c5f1011f264986a783c7f6010b227e48f61b988d71
 RPROVIDES:${PN} += "gnome-keyring-sharp-devel \
 gnome-keyring-sharp-devel(aarch-64) \
 pkgconfig(gnome-keyring-sharp-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnome-keyring-sharp \
 pkgconf-pkg-config"

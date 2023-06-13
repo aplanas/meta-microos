@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-apache-libcloud \
 python3.10dist(apache-libcloud) \
 python310-apache-libcloud \
 python3dist(apache-libcloud)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lxml \
 python310-requests \

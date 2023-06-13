@@ -16,6 +16,7 @@ RPM_HASH = "f77bc282ab6f420a7e7ab25749b345211bdbb0462b612ac3345cf9bff6f512c848f0
 
 RPROVIDES:${PN} += "flannel \
 flannel(aarch-64)"
+
 RDEPENDS:${PN} += "iproute2 \
 iptables \
 net-tools-deprecated"

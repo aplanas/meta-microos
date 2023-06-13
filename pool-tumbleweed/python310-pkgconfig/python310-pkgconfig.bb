@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pkgconfig \
 python3.10dist(pkgconfig) \
 python310-pkgconfig \
 python3dist(pkgconfig)"
+
 RDEPENDS:${PN} += "pkgconfig \
 python(abi)"
 

@@ -9,6 +9,7 @@ RPM_HASH = "197a21e18bd4b1ea65dafb7bac1d1a1dc6bbbf2b7150f90259e7ea7f25abcfb047b8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-boxhandler-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

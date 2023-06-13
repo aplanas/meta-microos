@@ -129,6 +129,7 @@ tex(a_rymxky.enc) \
 tex(a_ts7dz6.enc) \
 tex(a_wbqrrh.enc) \
 texlive-oswald"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -28,6 +28,7 @@ RPM_HASH = "c8a3189bdb0f0f05b298eae8558663d7633769409e6096f510d8402f2c22f4c1654f
 RPROVIDES:${PN} += "libnautilus-share.so()(64bit) \
 nautilus-share \
 nautilus-share(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

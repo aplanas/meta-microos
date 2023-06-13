@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "perl(Graphics::Toolkit::Color) \
 perl(Graphics::Toolkit::Color::Constant) \
 perl(Graphics::Toolkit::Color::Value) \
 perl-Graphics-Toolkit-Color"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp)"
 

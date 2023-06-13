@@ -11,6 +11,7 @@ RPM_HASH = "0fccf2f8cb86463b44698b64ed42c47c79b8edcd27fdcd35199084ec2ed8bcb43796
 RPROVIDES:${PN} += "ghc-cookie \
 ghc-cookie(aarch-64) \
 libHScookie-0.4.6-Dg4BNZOQbFj7M1J2IgDFKE-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

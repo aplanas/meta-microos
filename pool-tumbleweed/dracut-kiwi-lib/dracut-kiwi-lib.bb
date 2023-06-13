@@ -10,6 +10,7 @@ RPM_HASH = "86b561cd506a8716468c38f425192676d276ab173e6d53eb7cefd58962c806eaafed
 
 RPROVIDES:${PN} += "dracut-kiwi-lib \
 dracut-kiwi-lib(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 bc \
 btrfsprogs \

@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xemacs-info:/usr/share/xemacs/xemacs-packages/info/auctex.info.gz \
 xemacs-packages-info"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

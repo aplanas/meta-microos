@@ -11,6 +11,7 @@ RPM_HASH = "59b47e8eae648cacd02df670ddcc1f13b5fb3dbdc601769a86a6b297959901992437
 
 RPROVIDES:${PN} += "solid-tools \
 solid-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Solid.so.5()(64bit) \

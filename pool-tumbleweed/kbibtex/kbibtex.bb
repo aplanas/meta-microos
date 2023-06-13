@@ -25,6 +25,7 @@ metainfo() \
 metainfo(org.kde.kbibtex.appdata.xml) \
 mimehandler(application/x-research-info-systems) \
 mimehandler(text/x-bibtex)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 desktop-file-utils \
 ld-linux-aarch64.so.1()(64bit) \

@@ -16,6 +16,7 @@ pattern-order() \
 pattern-visible() \
 patterns-gnome-gnome_basic \
 patterns-gnome-gnome_basic(aarch-64)"
+
 RDEPENDS:${PN} += "gsettings-backend-dconf \
 pattern()"
 

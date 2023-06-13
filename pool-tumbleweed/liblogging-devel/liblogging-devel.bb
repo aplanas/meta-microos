@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "liblogging-devel \
 liblogging-devel(aarch-64) \
 pkgconfig(liblogging-rfc3195) \
 pkgconfig(liblogging-stdlog)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblogging0"
 

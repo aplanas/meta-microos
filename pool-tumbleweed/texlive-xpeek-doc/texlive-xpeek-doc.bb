@@ -9,6 +9,7 @@ RPM_HASH = "0b68072913d5d421c30bf24a5566f9f763dd3206ca9697af52c726eb2e6f90a0d274
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xpeek-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

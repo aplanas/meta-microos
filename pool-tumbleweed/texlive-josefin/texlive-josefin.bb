@@ -167,6 +167,7 @@ tex(jfn_w4rwtq.enc) \
 tex(josefin.map) \
 tex(josefin.sty) \
 texlive-josefin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

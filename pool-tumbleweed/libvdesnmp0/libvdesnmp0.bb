@@ -11,6 +11,7 @@ RPM_HASH = "f9a59732403a1255cf58adc63bebadab54c1f7397de0ebfe83dcd052a3943309372c
 RPROVIDES:${PN} += "libvdesnmp.so.0()(64bit) \
 libvdesnmp0 \
 libvdesnmp0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

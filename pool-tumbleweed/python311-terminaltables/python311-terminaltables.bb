@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(terminaltables) \
 python311-terminaltables \
 python3dist(terminaltables)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-colorama \
 python311-colorclass \

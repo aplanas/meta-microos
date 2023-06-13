@@ -22,6 +22,7 @@ saxon9-jdom \
 saxon9-sql \
 saxon9-xom \
 saxon9-xpath"
+
 RDEPENDS:${PN} += "/bin/sh \
 bea-stax \
 bea-stax-api \

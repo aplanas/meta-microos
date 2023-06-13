@@ -16,6 +16,7 @@ RPM_HASH = "725977a0f87271a80cc84e47288d577f804d664e9783b38dfb7c855cb9d4f8f5e0e5
 RPROVIDES:${PN} += "libselinux-utils \
 selinux-tools \
 selinux-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

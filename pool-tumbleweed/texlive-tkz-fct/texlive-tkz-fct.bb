@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tkz-fct.sty) \
 texlive-tkz-fct"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

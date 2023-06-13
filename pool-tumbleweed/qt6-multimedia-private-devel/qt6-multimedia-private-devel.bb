@@ -10,6 +10,7 @@ RPM_HASH = "afaa1bcceaec1a12779179fd4416260e9c63d5849c0f185c22631379e63f343c2183
 
 RPROVIDES:${PN} += "qt6-multimedia-private-devel \
 qt6-multimedia-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Multimedia)"
 
 inherit rpm

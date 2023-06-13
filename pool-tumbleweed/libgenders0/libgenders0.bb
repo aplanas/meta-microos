@@ -11,6 +11,7 @@ RPM_HASH = "2a82c3809be78e274b3de1c5e64eed766f5a5ea54ddc10708abf1678d9ed1d7caa4a
 RPROVIDES:${PN} += "libgenders.so.0()(64bit) \
 libgenders0 \
 libgenders0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 genders-base \
 ld-linux-aarch64.so.1()(64bit) \

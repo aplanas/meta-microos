@@ -13,6 +13,7 @@ RPM_HASH = "1e74e810116ebd811303b7236c89758e7d43bd6e2e96fa204a3ae87224d1d661283e
 
 RPROVIDES:${PN} += "plasma5-integration-plugin \
 plasma5-integration-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 hack-fonts \
 ld-linux-aarch64.so.1()(64bit) \

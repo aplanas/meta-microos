@@ -11,6 +11,7 @@ RPM_HASH = "1c4913de4ad60fac12d49f38d72d5007aa8e9f7b67220b686e908088cd73a0e39876
 RPROVIDES:${PN} += "libqipxstatusesplugin.so()(64bit) \
 psi+-plugins-qipxstatusesplugin \
 psi+-plugins-qipxstatusesplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

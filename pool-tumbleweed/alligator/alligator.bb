@@ -13,6 +13,7 @@ application() \
 application(org.kde.alligator.desktop) \
 metainfo() \
 metainfo(org.kde.alligator.appdata.xml)"
+
 RDEPENDS:${PN} += "kirigami-addons \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

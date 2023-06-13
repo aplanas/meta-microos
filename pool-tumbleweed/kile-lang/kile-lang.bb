@@ -55,6 +55,7 @@ locale(kile:ug) \
 locale(kile:uk) \
 locale(kile:zh_CN) \
 locale(kile:zh_TW)"
+
 RDEPENDS:${PN} += "kile"
 
 inherit rpm

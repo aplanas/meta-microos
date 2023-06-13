@@ -14,6 +14,7 @@ RPM_HASH = "56b77446608949dad134d701575020341dd08f620b62944d1378f9bbf6c6adfaec99
 
 RPROVIDES:${PN} += "ntp-dcf77-tools \
 ntp-dcf77-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

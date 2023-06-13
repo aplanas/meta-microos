@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5WebSockets) \
 libqt5-qtwebsockets-devel \
 libqt5-qtwebsockets-devel(aarch-64) \
 pkgconfig(Qt5WebSockets)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5WebSockets5 \
 pkgconfig(Qt5Core) \

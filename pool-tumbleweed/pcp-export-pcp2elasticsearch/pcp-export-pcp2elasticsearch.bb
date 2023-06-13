@@ -11,6 +11,7 @@ RPM_HASH = "8f510df3b4a483ced9a19dd83e8319c215e6b0c5261857d895a511b3c66d27c5a833
 
 RPROVIDES:${PN} += "pcp-export-pcp2elasticsearch \
 pcp-export-pcp2elasticsearch(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 libpcp3 \
 python3-pcp \

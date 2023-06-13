@@ -9,6 +9,7 @@ RPM_HASH = "bfce042553fc575dc38a3e419077f3d22f11e7e696046b2abaadbca8c22a080aa05d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-numericplots-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

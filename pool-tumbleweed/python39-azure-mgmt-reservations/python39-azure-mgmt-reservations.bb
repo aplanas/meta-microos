@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-reservations) \
 python39-azure-mgmt-reservations \
 python3dist(azure-mgmt-reservations)"
+
 RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) \
 python(abi) \
 python39-azure-common \

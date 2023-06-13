@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "lightcouch \
 mvn(org.lightcouch:lightcouch) \
 mvn(org.lightcouch:lightcouch:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.code.gson:gson) \

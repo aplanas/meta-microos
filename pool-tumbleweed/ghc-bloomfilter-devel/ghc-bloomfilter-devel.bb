@@ -10,6 +10,7 @@ RPM_HASH = "cc77d59f4e7b4a7d6e18b9abc86c9cad88290b68a4e6edf6311dd785208cb337c8db
 RPROVIDES:${PN} += "ghc-bloomfilter-devel \
 ghc-bloomfilter-devel(aarch-64) \
 ghc-devel(bloomfilter-2.0.1.0-3hF1ySDPbPQA7KQQeHgCqI)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-bloomfilter \
 ghc-compiler \

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3.9dist(hatch-nodejs-version) \
 python39-hatch-nodejs-version \
 python39-hatch_nodejs_version \
 python3dist(hatch-nodejs-version)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-hatchling"
 

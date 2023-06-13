@@ -85,6 +85,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(semafor) \
 texlive-semaphor-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

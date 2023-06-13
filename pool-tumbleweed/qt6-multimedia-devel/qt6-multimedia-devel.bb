@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Multimedia) \
 pkgconfig(Qt6Multimedia) \
 qt6-multimedia-devel \
 qt6-multimedia-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Network) \

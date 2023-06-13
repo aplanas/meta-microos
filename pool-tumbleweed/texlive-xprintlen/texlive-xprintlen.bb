@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xprintlen.sty) \
 texlive-xprintlen"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

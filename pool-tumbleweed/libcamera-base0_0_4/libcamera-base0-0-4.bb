@@ -15,6 +15,7 @@ RPM_HASH = "041c4604685c179264a91b33a036f53116fa026dfd3f478252ac89464afc0fabe8f7
 RPROVIDES:${PN} += "libcamera-base.so.0.0.4()(64bit) \
 libcamera-base0_0_4 \
 libcamera-base0_0_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

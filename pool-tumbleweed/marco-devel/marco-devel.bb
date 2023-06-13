@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "marco-devel \
 marco-devel(aarch-64) \
 mate-window-manager-devel \
 pkgconfig(libmarco-private)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmarco-private2 \
 pkgconfig(gtk+-3.0)"

@@ -12,6 +12,7 @@ RPM_HASH = "bb1b7fd71dfa3fd70abec7435129fa63d4ad7ab2afa6a274f76999a8a03fc23417a5
 RPROVIDES:${PN} += "config(lighttpd-mod_magnet) \
 lighttpd-mod_magnet \
 lighttpd-mod_magnet(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

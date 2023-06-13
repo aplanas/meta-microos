@@ -10,6 +10,7 @@ RPM_HASH = "9a6ebf5d2efa303f0a051c1b93ed1d88de341f90c693861fc46654ac0df7b117ffe3
 RPROVIDES:${PN} += "cmake(XdgUtils) \
 xdg-utils-cxx-devel \
 xdg-utils-cxx-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libXdgUtilsBaseDir1_0_1 \
 libXdgUtilsDesktopEntry1_0_1"
 

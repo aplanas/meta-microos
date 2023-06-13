@@ -11,6 +11,7 @@ RPM_HASH = "7555eb6c3a38a7dd0388da8fd0ecf17721b912196b1c8d7776d3a39ef2fb013ecc46
 
 RPROVIDES:${PN} += "gtk4-tools \
 gtk4-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

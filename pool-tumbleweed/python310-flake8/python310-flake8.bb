@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-flake8 \
 python3.10dist(flake8) \
 python310-flake8 \
 python3dist(flake8)"
+
 RDEPENDS:${PN} += "(python310-mccabe >= 0.7.0 with python310-mccabe < 0.8.0) \
 (python310-pycodestyle >= 2.10.0 with python310-pycodestyle < 2.11.0) \
 (python310-pyflakes >= 3.0.0 with python310-pyflakes < 3.1.0) \

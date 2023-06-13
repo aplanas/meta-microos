@@ -9,6 +9,7 @@ RPM_HASH = "1b5336041de55835fac9968e345cbe1be695d433ef8770e36aa24f94b36d4427f449
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hep-math-font-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

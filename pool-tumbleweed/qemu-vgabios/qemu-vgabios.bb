@@ -11,6 +11,7 @@ RPM_HASH = "f00cfc3e734777c4301d88ee1fbffac427698393d8ad2c59d5ef768e5c6f464d5207
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-vgabios"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

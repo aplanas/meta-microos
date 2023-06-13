@@ -17,6 +17,7 @@ RPM_HASH = "e17b4c249036cbf42dbea243c21dd362eaca873534c897ac53f61d0f866fc9497a4a
 RPROVIDES:${PN} += "lemon-devel \
 lemon-devel(aarch-64) \
 pkgconfig(lemon)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glpk-devel \
 lemon \

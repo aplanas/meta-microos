@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-azure-template \
 python3.10dist(azure-template) \
 python310-azure-template \
 python3dist(azure-template)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core"
 

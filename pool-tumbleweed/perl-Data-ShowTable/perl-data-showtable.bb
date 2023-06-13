@@ -42,6 +42,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Data::ShowTable) \
 perl-Data-ShowTable"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl(:MODULE_COMPAT_5.36.0)"
 

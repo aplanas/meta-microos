@@ -10,6 +10,7 @@ RPM_HASH = "4b11578f3bf79056ae89413424e98cfb00518b7e0a1a2b47d15f068f1e903221ee88
 
 RPROVIDES:${PN} += "qm \
 qm(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python2 \
 libc.so.6(GLIBC_2.17)(64bit) \
 libpython2.7.so.1.0()(64bit) \

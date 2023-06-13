@@ -46,6 +46,7 @@ qt6qmlimport(QtTest.1) \
 qt6qmlimport(QtTest.6) \
 qtdeclarative-imports-provides-qt6 \
 qtdeclarative-imports-provides-qt6(aarch-64)"
+
 RDEPENDS:${PN} += "qt6-declarative-imports"
 
 inherit rpm

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-requests-hawk \
 python3.10dist(requests-hawk) \
 python310-requests-hawk \
 python3dist(requests-hawk)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-mohawk \
 python310-requests"

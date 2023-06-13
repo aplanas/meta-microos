@@ -11,6 +11,7 @@ RPM_HASH = "766b5cd78ae10ad0601b4348a084106244d8b1a357c9c5ca6bd53828682b1dc3caf9
 
 RPROVIDES:${PN} += "fipscheck \
 fipscheck(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

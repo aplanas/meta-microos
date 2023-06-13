@@ -12,6 +12,7 @@ RPM_HASH = "fb59765a16e38657f6b60953fcc9a1c1e872b81c88f634c4a9b8e088269ae11128c3
 
 RPROVIDES:${PN} += "wipe \
 wipe(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

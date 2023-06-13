@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(gwcs) \
 python39-gwcs \
 python3dist(gwcs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-asdf \
 python39-asdf-astropy \

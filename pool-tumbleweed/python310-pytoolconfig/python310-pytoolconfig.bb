@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pytoolconfig \
 python3.10dist(pytoolconfig) \
 python310-pytoolconfig \
 python3dist(pytoolconfig)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-packaging \
 python310-tomli"

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dirty-equals \
 python3.10dist(dirty-equals) \
 python310-dirty-equals \
 python3dist(dirty-equals)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytz"
 

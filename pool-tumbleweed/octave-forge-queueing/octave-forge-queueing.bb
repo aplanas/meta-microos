@@ -17,6 +17,7 @@ RPM_HASH = "59d554115b105ee29b6707130a1509718310f54936b879bcf25b2c939f4eedc45e9e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-queueing"
+
 RDEPENDS:${PN} += "/bin/sh \
 octave-cli"
 

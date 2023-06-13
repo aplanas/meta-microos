@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(icalendar) \
 python39-icalendar \
 python39-icalendar-doc \
 python3dist(icalendar)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(service-identity) \
 python39-service_identity \
 python3dist(service-identity)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-attrs \
 python39-cryptography \

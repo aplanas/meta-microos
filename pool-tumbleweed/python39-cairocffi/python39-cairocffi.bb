@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cairocffi) \
 python39-cairocffi \
 python3dist(cairocffi)"
+
 RDEPENDS:${PN} += "cairo \
 python(abi) \
 python39-cffi \

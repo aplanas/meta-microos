@@ -12,6 +12,7 @@ RPM_HASH = "9cb51c7233a8bcb7ac3354b3e8401cc44abfa1ecb0dccc6b3fda64a8779dc971aed5
 RPROVIDES:${PN} += "libcolorhug.so.2()(64bit) \
 libcolorhug2 \
 libcolorhug2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-setuptools-version-command \
 python3.10dist(setuptools-version-command) \
 python310-setuptools-version-command \
 python3dist(setuptools-version-command)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools"
 

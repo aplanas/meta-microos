@@ -11,6 +11,7 @@ RPM_HASH = "ee80bb44237e96fb6855518132d50072b36356dbda97cdae7e90ccc448efcf66fec3
 RPROVIDES:${PN} += "libcheese.so.8()(64bit) \
 libcheese8 \
 libcheese8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gstreamer-plugins-bad \
 gstreamer-plugins-good \

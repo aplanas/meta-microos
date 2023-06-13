@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3.9dist(scikit-build-core) \
 python39-scikit-build-core \
 python39-scikit_build_core \
 python3dist(scikit-build-core)"
+
 RDEPENDS:${PN} += "(python39-exceptiongroup if python39-base < 3.11) \
 (python39-importlib-resources >= 1.3 if python39-base < 3.9) \
 (python39-tomli >= 1.1 if python39-base < 3.11) \

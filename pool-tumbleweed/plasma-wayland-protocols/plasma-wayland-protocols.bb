@@ -11,6 +11,7 @@ RPM_HASH = "4e0c75ae8727bb6d144d5cb19d434b50db794bf4694989737afda9e73bbee0ca38bf
 RPROVIDES:${PN} += "cmake(PlasmaWaylandProtocols) \
 plasma-wayland-protocols \
 plasma-wayland-protocols(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

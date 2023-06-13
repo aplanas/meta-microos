@@ -11,6 +11,7 @@ RPM_HASH = "68d16ca9a51191eaac5a5d22ff01857f246779c29ab838fa6b1481f21ce98b0c1202
 RPROVIDES:${PN} += "ghc-hslua-module-zip \
 ghc-hslua-module-zip(aarch-64) \
 libHShslua-module-zip-1.1.0-HbdBiDu9SYHDsbypcn78hx-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

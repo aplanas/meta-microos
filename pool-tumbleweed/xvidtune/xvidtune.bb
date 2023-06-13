@@ -10,6 +10,7 @@ RPM_HASH = "01a46b80bd6f0db7c4635b2ff8d44b1674ca97e30b9a4e9dfb35df22109c8bf17cb7
 
 RPROVIDES:${PN} += "xvidtune \
 xvidtune(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

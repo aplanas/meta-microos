@@ -46,6 +46,7 @@ libcalamares_viewmodule_usersq.so()(64bit) \
 libcalamares_viewmodule_welcome.so()(64bit) \
 libcalamares_viewmodule_welcomeq.so()(64bit) \
 libcalamaresui.so.3.2.36()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 NetworkManager \

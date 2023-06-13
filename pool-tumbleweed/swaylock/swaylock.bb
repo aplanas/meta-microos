@@ -9,6 +9,7 @@ RPM_HASH = "be80b2c22e4e274bd3df96975111ca855f52b000a60312574cbdced70693ce521629
 
 RPROVIDES:${PN} += "swaylock \
 swaylock(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

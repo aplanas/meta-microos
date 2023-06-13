@@ -10,6 +10,7 @@ RPM_HASH = "7f24b6bdde8bad6291db2d0e4fe27019934c910ce3bfbdf0e6fdf150e16a9181247b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aytests-tests"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

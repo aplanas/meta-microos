@@ -11,6 +11,7 @@ RPM_HASH = "b80ff39a8518f353942a46dbdfe57badc48e119062714720b70616363db51c7e482d
 
 RPROVIDES:${PN} += "systemtap \
 systemtap(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

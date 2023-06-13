@@ -10,6 +10,7 @@ RPM_HASH = "13ca717094e15bd944b87bd02d89cc4bd09db07ee0845e6ab19f23cc4278afb38c56
 
 RPROVIDES:${PN} += "kernel-obs-qa \
 kernel-obs-qa(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

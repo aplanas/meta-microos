@@ -22,6 +22,7 @@ tex(rgrsc10.tfm) \
 tex(rgrsl10.tfm) \
 tex(rgrti10.tfm) \
 texlive-yannisgr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

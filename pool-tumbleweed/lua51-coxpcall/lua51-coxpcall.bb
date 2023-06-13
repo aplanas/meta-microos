@@ -11,6 +11,7 @@ RPM_HASH = "9fe0230f77e67eb590ceca88ab63362f1d8b609c3acc23570efb0f7b5dd599b5a137
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-coxpcall"
+
 RDEPENDS:${PN} += "lua51"
 
 inherit rpm

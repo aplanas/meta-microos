@@ -31,6 +31,7 @@ perl(Heap::Elem::Str) \
 perl(Heap::Elem::StrRev) \
 perl(Heap::Fibonacci) \
 perl-Heap"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

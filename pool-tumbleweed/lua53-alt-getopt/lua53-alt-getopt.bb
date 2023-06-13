@@ -12,6 +12,7 @@ RPM_HASH = "ba2118febdcbf9a24df5e21e6e943785ddab851f16e0682c371eb6537d698a7cfdf3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-alt-getopt"
+
 RDEPENDS:${PN} += "lua53"
 
 inherit rpm

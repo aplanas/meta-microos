@@ -12,6 +12,7 @@ RPM_HASH = "4c364787de8444aa9a50fdf1d88415d5ebde199b2b44e325572f833a4ff8a08f32e9
 RPROVIDES:${PN} += "ccze \
 ccze(aarch-64) \
 config(ccze)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

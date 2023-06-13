@@ -11,6 +11,7 @@ RPM_HASH = "3bc80cc0ef0bda9ca131c9d87173d1fa6fab32627dfae0ed8b33d416f24d71ccf8ad
 RPROVIDES:${PN} += "librados-devel \
 librados-devel(aarch-64) \
 librados2-devel"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

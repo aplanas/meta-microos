@@ -14,6 +14,7 @@ python3.10dist(rstcheck) \
 python310-rstcheck \
 python3dist(rstcheck) \
 rstcheck"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(tikztosvg.1) \
 texlive-tikztosvg-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

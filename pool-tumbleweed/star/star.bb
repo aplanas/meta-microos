@@ -20,6 +20,7 @@ RPM_HASH = "597111e3b1268a437c635c93cf7e16323da326b584ce9c1a0eda92521a2f4fa1d9d4
 RPROVIDES:${PN} += "config(star) \
 star \
 star(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \

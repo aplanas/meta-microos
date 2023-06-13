@@ -40,6 +40,7 @@ libxt_psd.so()(64bit) \
 libxt_quota2.so()(64bit) \
 xtables-addons \
 xtables-addons(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/perl \

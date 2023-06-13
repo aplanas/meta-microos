@@ -19,6 +19,7 @@ perl(MSDW::SMTP::Client) \
 perl(MSDW::SMTP::Server) \
 perl(MySmtpProxyServer) \
 perl(MySmtpServer)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \

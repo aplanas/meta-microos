@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/bin/sed \
 busybox-sed"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

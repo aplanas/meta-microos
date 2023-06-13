@@ -9,6 +9,7 @@ RPM_HASH = "f1967b0afec0114c910125fa68b2ea41b84f38d6216a0546059530ec3d047e6c2513
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-perfectcut-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

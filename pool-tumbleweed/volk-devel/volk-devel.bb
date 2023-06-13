@@ -12,6 +12,7 @@ gnuradio-devel:/usr/lib64/pkgconfig/volk.pc \
 pkgconfig(volk) \
 volk-devel \
 volk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-avro \
 python3.10dist(avro) \
 python310-avro \
 python3dist(avro)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

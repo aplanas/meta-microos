@@ -9,6 +9,7 @@ RPM_HASH = "fdf0dbab92164e2586857349e9291be4e9076abbbc5c4a86a8404551210752d634fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-forest-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "codehaus-parent \
 mvn(org.codehaus:codehaus-parent:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

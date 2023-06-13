@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "buildnumber-maven-plugin \
 mvn(org.codehaus.mojo:buildnumber-maven-plugin) \
 mvn(org.codehaus.mojo:buildnumber-maven-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(net.java.dev.jna:jna) \

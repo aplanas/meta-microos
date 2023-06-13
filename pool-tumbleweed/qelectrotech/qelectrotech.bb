@@ -18,6 +18,7 @@ mimehandler(application/x-qet-project) \
 mimehandler(application/x-qet-titleblock) \
 qelectrotech \
 qelectrotech(aarch-64)"
+
 RDEPENDS:${PN} += "libKF5CoreAddons.so.5()(64bit) \
 libKF5WidgetsAddons.so.5()(64bit) \
 libQt5Concurrent.so.5()(64bit) \

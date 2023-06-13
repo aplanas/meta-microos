@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-uproot \
 python3.10dist(uproot) \
 python310-uproot \
 python3dist(uproot)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-packaging"

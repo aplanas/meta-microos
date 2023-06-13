@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-awpa \
 python3.10dist(awpa) \
 python310-awpa \
 python3dist(awpa)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

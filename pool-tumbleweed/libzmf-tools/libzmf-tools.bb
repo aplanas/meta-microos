@@ -9,6 +9,7 @@ RPM_HASH = "68a786a4d981f7fbf7805dbdbbfd8f1348b3cdd42b52948b7145383e2b9f97b5e886
 
 RPROVIDES:${PN} += "libzmf-tools \
 libzmf-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

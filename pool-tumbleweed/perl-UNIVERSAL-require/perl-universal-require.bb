@@ -29,6 +29,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(UNIVERSAL) \
 perl(UNIVERSAL::require) \
 perl-UNIVERSAL-require"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "leechcraft-fenet \
 leechcraft-fenet(aarch-64) \
 leechcraft-fenet-compton \
 libleechcraft_fenet.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

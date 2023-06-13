@@ -16,6 +16,7 @@ RPM_HASH = "561bab6b029e86893f790ecc132e450ce4a7354d620600f815e990b6231ec74d1090
 RPROVIDES:${PN} += "libXcursor-devel \
 libXcursor-devel(aarch-64) \
 pkgconfig(xcursor)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXcursor1 \
 pkgconfig(x11) \

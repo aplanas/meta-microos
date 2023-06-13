@@ -11,6 +11,7 @@ RPM_HASH = "802b96cd632bf78f72f4b5ab20ea9f15645fd6ff504444d2cb3aa951f010c580e0f3
 
 RPROVIDES:${PN} += "pwgen \
 pwgen(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

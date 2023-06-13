@@ -12,6 +12,7 @@ RPM_HASH = "d720417800644f4038ad5b5a9876b732e1656ddfe1dbf02f488232ba19295efb8495
 
 RPROVIDES:${PN} += "libwnck-tools \
 libwnck-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

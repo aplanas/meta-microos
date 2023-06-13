@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(luafindfont.1) \
 texlive-luafindfont-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(element-web) \
 element-web"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

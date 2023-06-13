@@ -18,6 +18,7 @@ five-or-more \
 five-or-more(aarch-64) \
 metainfo() \
 metainfo(org.gnome.five-or-more.appdata.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

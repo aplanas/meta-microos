@@ -35,6 +35,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(logicpuzzle.sty) \
 tex(lpenv.sty) \
 texlive-logicpuzzle"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

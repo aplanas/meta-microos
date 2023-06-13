@@ -9,6 +9,7 @@ RPM_HASH = "4f6b042097864f0104b61710374019bfe8abf9c36434a133d8f8030d23a672eb6818
 
 RPROVIDES:${PN} += "texlive-latex2man-bin \
 texlive-latex2man-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-latex2man"
 
 inherit rpm

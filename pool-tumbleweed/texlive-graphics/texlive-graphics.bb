@@ -32,6 +32,7 @@ tex(tcidvi.def) \
 tex(trig.sty) \
 tex(truetex.def) \
 texlive-graphics"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

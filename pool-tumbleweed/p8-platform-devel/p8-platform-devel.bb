@@ -10,6 +10,7 @@ RPM_HASH = "eecfdd1e2ef17a71e7af3698e8e55cf649b1ea2b65cced43ac03ee1995ba74bfc3b7
 RPROVIDES:${PN} += "p8-platform-devel \
 p8-platform-devel(aarch-64) \
 pkgconfig(p8-platform)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libp8-platform2"
 

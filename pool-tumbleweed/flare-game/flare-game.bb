@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "flare-data \
 flare-game \
 metainfo() \
 metainfo(org.flarerpg.Flare.appdata.xml)"
+
 RDEPENDS:${PN} += "flare-engine"
 
 inherit rpm

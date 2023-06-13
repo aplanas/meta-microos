@@ -9,6 +9,7 @@ RPM_HASH = "01b78d3a7248e42da587b60f4e8ae57154d05159823d280ad9ffaf97bf19e20c4835
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kryo-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

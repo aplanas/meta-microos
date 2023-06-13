@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:da_DK) \
 myspell-da_DK \
 myspell-danish \
 myspell-dictionary"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

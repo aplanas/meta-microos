@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-piton-doc:fr) \
 texlive-piton-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

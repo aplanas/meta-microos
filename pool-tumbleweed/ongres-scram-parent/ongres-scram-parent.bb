@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(com.ongres.scram:parent:pom:) \
 ongres-scram-parent"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.plugins:maven-compiler-plugin)"

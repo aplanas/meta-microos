@@ -59,6 +59,7 @@ perl(SQL::Abstract::Role::Plugin) \
 perl(SQL::Abstract::Test) \
 perl(SQL::Abstract::Tree) \
 perl-SQL-Abstract"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Hash::Merge) \
 perl(MRO::Compat) \

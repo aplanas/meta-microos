@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:i18n) \
 rubygem(ruby:3.2.0:i18n:1) \
 rubygem(ruby:3.2.0:i18n:1.12) \
 rubygem(ruby:3.2.0:i18n:1.12.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:concurrent-ruby:1)"
 

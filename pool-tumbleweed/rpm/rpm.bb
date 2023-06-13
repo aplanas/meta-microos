@@ -19,6 +19,7 @@ librpmsign.so.9()(64bit) \
 rpm \
 rpm(aarch-64) \
 rpminst"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/awk \

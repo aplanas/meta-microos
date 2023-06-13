@@ -9,6 +9,7 @@ RPM_HASH = "34e7dae789024a2ef6f930255f21cf1d8068689932c361cc55cb95aeb2ca13bb9a11
 
 RPROVIDES:${PN} += "deadbeef-devel \
 deadbeef-devel(aarch-64)"
+
 RDEPENDS:${PN} += "deadbeef"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(terminology.desktop) \
 terminology \
 terminology(aarch-64)"
+
 RDEPENDS:${PN} += "efl \
 elementary \
 ld-linux-aarch64.so.1()(64bit) \

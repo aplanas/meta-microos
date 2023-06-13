@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(luaaddplot.sty) \
 tex(luaaddplot.tex) \
 texlive-luaaddplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

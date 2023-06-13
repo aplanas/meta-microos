@@ -12,6 +12,7 @@ RPM_HASH = "134b82693a2282e7a20d17a2ad8d11ee684cc9c04e096720972757b11cc5790a991b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tracker-data-files"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "6b3918e7381f2fc2d28bb563192fe5b605f823b5e4fca2e08f7fd6f3e41a6fbb1607
 RPROVIDES:${PN} += "libclxclient.so.3()(64bit) \
 libclxclient3 \
 libclxclient3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

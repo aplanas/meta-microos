@@ -19,6 +19,7 @@ application(org.bleachbit.BleachBit.desktop) \
 bleachbit \
 metainfo() \
 metainfo(org.bleachbit.BleachBit.metainfo.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3 \
 python3-chardet \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ieeepes.sty) \
 texlive-ieeepes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

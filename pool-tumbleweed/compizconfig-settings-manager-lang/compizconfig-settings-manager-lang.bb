@@ -47,6 +47,7 @@ locale(compizconfig-settings-manager:sk) \
 locale(compizconfig-settings-manager:sv) \
 locale(compizconfig-settings-manager:tr) \
 locale(compizconfig-settings-manager:zh_CN)"
+
 RDEPENDS:${PN} += "compizconfig-settings-manager"
 
 inherit rpm

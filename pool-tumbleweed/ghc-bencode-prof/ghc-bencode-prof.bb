@@ -10,6 +10,7 @@ RPM_HASH = "ab4e593f3adf164cfb896d54449528ecc43cdb42fc0d90415859aecfc3889bfefda9
 RPROVIDES:${PN} += "ghc-bencode-prof \
 ghc-bencode-prof(aarch-64) \
 ghc-prof(bencode-0.6.1.1-GM7FbH3LNxfAWaUPR0lH5w)"
+
 RDEPENDS:${PN} += "ghc-bencode-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(binary-0.8.9.1) \

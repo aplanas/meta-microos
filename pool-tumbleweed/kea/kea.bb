@@ -14,6 +14,7 @@ RPM_HASH = "35c7f0dbbd71dabdbfc903b3e27c42a5e80f557110d81940bda514f4ac6f27cc508c
 RPROVIDES:${PN} += "config(kea) \
 kea \
 kea(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

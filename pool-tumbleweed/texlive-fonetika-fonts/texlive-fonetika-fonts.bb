@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(texlive-fonetika-fonts) \
 font(fonetikadaniaiwonae) \
 font(fonetikadaniapallae) \
 texlive-fonetika-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

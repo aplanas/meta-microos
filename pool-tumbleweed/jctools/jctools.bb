@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "jctools \
 mvn(org.jctools:jctools-core) \
 mvn(org.jctools:jctools-core:pom:) \
 osgi(org.jctools.core)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

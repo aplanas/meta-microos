@@ -11,6 +11,7 @@ RPM_HASH = "f30ac6695fe4fc0425d41a8fdf059e25f9c50b748a6bcc712c24ccf95ebc012a41a4
 
 RPROVIDES:${PN} += "memleax \
 memleax(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "efdb006235a9ffaf40ff16e920950b43c82513ec0df804bad48b0f58ef6bdab65c14
 RPROVIDES:${PN} += "pkgconfig(wxsqlite3) \
 wxsqlite3-devel \
 wxsqlite3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwxcode_gtk2u_wxsqlite3-3_2-0"
 

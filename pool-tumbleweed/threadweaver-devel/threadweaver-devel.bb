@@ -15,6 +15,7 @@ RPM_HASH = "02e3cca306402949ddb3df4c4e5bcd7e4b5e8928ad61b4d7dccfdf251baf5ba8a448
 RPROVIDES:${PN} += "cmake(KF5ThreadWeaver) \
 threadweaver-devel \
 threadweaver-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 extra-cmake-modules \
 libKF5ThreadWeaver5"

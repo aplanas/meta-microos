@@ -49,6 +49,7 @@ RPM_HASH = "4db3e3e89a3ab6cad9a3c1394412d2b157bace66f736e6b2fadc3bc9c2b08caf95f8
 RPROVIDES:${PN} += "perl(List::BinarySearch::XS) \
 perl-List-BinarySearch-XS \
 perl-List-BinarySearch-XS(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

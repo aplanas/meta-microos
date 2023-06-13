@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "livedtd \
 perl(OASIS::Catalog)"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

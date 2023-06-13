@@ -13,6 +13,7 @@ RPM_HASH = "b942373ead91ec08db477e5e86f50b41d7b2877b7e29980217c2f828729bca45e70c
 RPROVIDES:${PN} += "libv4l2rds.so.0()(64bit) \
 libv4l2rds0 \
 libv4l2rds0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

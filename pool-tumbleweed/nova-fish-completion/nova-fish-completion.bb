@@ -9,6 +9,7 @@ RPM_HASH = "a1a2190166a35964fde5838d4ea63612880fa0b0d33f4b7f43a0bccf3735675ce7b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nova-fish-completion"
+
 RDEPENDS:${PN} += "nova"
 
 inherit rpm

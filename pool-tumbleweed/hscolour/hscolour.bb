@@ -12,6 +12,7 @@ RPM_HASH = "b6836f5f8e70def1d519c9f8ee6a21fcc37f4072a732b88435a74bbd8ae22aa9f915
 
 RPROVIDES:${PN} += "hscolour \
 hscolour(aarch-64)"
+
 RDEPENDS:${PN} += "libatomic.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libffi.so.8()(64bit) \

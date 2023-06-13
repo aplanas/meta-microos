@@ -13,6 +13,7 @@ RPM_HASH = "86c3af75f3ea5aac5ae12398d17a54c36223237e782ecf391b09cbc3002522df9a86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icecast-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

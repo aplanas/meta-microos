@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(comm) \
 python39-comm \
 python3dist(comm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-traitlets"
 

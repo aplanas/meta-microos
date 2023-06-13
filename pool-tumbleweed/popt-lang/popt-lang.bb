@@ -46,6 +46,7 @@ locale(popt:zh_CN) \
 locale(popt:zh_TW) \
 popt-lang \
 popt-lang-all"
+
 RDEPENDS:${PN} += "popt"
 
 inherit rpm

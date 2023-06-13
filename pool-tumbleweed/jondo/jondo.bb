@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(jondo.desktop) \
 jondo"
+
 RDEPENDS:${PN} += "/bin/sh \
 jre"
 

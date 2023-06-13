@@ -17,6 +17,7 @@ metainfo() \
 metainfo(winetricks.appdata.xml) \
 winetricks \
 winetricks(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cabextract \
 unzip \

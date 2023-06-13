@@ -17,6 +17,7 @@ python3.10dist(notebook) \
 python310-jupyter_notebook \
 python310-notebook \
 python3dist(notebook)"
+
 RDEPENDS:${PN} += "(python310-jupyter-client >= 5.3.4 with python310-jupyter-client < 8) \
 /bin/sh \
 /usr/bin/python3.10 \

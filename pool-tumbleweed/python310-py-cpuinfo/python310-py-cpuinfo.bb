@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "python3-py-cpuinfo \
 python3.10dist(py-cpuinfo) \
 python310-py-cpuinfo \
 python3dist(py-cpuinfo)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

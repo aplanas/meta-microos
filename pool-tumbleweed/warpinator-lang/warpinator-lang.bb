@@ -55,6 +55,7 @@ locale(warpinator:zh_CN) \
 locale(warpinator:zh_HK) \
 warpinator-lang \
 warpinator-lang-all"
+
 RDEPENDS:${PN} += "warpinator"
 
 inherit rpm

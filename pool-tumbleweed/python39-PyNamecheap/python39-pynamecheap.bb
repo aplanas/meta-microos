@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pynamecheap) \
 python39-PyNamecheap \
 python3dist(pynamecheap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-networkx-doc \
 python310-networkx-doc \
 python311-networkx-doc \
 python39-networkx-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wxmp3gain-lang \
 wxmp3gain-lang-all"
+
 RDEPENDS:${PN} += "wxmp3gain"
 
 inherit rpm

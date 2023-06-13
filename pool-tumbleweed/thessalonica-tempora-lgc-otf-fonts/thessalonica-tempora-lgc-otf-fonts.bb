@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tempora-lgc-fonts-otf \
 thessalonica-tempora-lgc-otf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

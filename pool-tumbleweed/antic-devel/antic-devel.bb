@@ -12,6 +12,7 @@ RPM_HASH = "314dc9dc56e7cf8be218f7d8ba98ac1f9e36e66c846b10adf795efdf5949126e0aca
 
 RPROVIDES:${PN} += "antic-devel \
 antic-devel(aarch-64)"
+
 RDEPENDS:${PN} += "flint-devel \
 gmp-devel \
 libantic0"

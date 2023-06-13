@@ -9,6 +9,7 @@ RPM_HASH = "a7518665ae1ec25c10d5b86e774d680b7074e3713ec7c0e96358af8b88d589a219f0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-logrotate"
+
 RDEPENDS:${PN} += "logrotate"
 
 inherit rpm

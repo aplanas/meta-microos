@@ -11,6 +11,7 @@ RPM_HASH = "7f474a43f616eb43fab85746928e0a23b5b73326245084d970c439a179ab29790b38
 RPROVIDES:${PN} += "libcloudproviders-devel \
 libcloudproviders-devel(aarch-64) \
 pkgconfig(cloudproviders)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcloudproviders0"
 

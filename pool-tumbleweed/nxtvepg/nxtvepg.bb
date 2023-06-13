@@ -23,6 +23,7 @@ RPM_HASH = "c3e7abc81492ae965f85cd2940fbe83a2678e2750a212cef513d461b10358197d067
 
 RPROVIDES:${PN} += "nxtvepg \
 nxtvepg(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

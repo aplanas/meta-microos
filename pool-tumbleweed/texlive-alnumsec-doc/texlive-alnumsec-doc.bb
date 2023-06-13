@@ -9,6 +9,7 @@ RPM_HASH = "ab8ae0a1a49d7ee266c85d2de3c078dc0507e3bd2996a9b2b1dfb0ee0b1216d2c871
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-alnumsec-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

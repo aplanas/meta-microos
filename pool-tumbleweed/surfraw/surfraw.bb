@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(surfraw) \
 surfraw"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 sed \

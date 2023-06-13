@@ -16,6 +16,7 @@ man(platex-dev.1) \
 man(uplatex-dev.1) \
 man(xelatex-dev.1) \
 texlive-latex-bin-dev"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

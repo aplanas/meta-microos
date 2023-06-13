@@ -11,6 +11,7 @@ RPM_HASH = "88cee68084ad35a642a8328164af9c6d8895cbded75ee7c1e73416a27627bddd3908
 
 RPROVIDES:${PN} += "libscalapack2-gnu-mpich-hpc \
 libscalapack2-gnu-mpich-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libscalapack2_2_1_0-gnu-mpich-hpc"
 

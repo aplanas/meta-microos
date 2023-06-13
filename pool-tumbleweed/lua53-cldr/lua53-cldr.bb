@@ -12,6 +12,7 @@ RPM_HASH = "470b72dabae14d489269228fd866419e1448e400a28cc25d5fc1801221e4d325bd01
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-cldr"
+
 RDEPENDS:${PN} += "lua53 \
 lua53-penlight"
 

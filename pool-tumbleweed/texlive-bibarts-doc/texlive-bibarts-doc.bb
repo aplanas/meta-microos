@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-bibarts-doc:de) \
 texlive-bibarts-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

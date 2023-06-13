@@ -11,6 +11,7 @@ RPM_HASH = "b938f29b5b5e1a6e19d7aa8be68834763024f200b1dcc6802984505ba008eee21449
 RPROVIDES:${PN} += "libqwt5-devel-doc \
 qwt-devel-doc \
 qwt-devel-doc(aarch-64)"
+
 RDEPENDS:${PN} += "qwt-devel"
 
 inherit rpm

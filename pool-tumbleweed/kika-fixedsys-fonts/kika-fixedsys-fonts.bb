@@ -10,6 +10,7 @@ RPM_HASH = "8b3b8b2aad925c7886fb7b317bf3f0c6c51c3cb4c6abeb0125f8be96a2e75dfe9f12
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kika-fixedsys-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

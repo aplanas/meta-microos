@@ -15,6 +15,7 @@ application(org.opensuse.yast.InstServer.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.InstServer.metainfo.xml) \
 yast2-instserver"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 yast2 \
 yast2-ruby-bindings"

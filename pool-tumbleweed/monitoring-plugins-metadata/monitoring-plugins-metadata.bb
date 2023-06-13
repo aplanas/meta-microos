@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-metadata \
 nagios-plugins-metadata"
+
 RDEPENDS:${PN} += "monitoring-plugins-fping \
 monitoring-plugins-http \
 monitoring-plugins-ldap \

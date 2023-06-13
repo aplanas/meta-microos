@@ -15,6 +15,7 @@ RPM_HASH = "943952aff290c020bf4f615a47ab2f78a63c398f57e73477d0a8a8c84f0e67c0bda5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xtables-geoip"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

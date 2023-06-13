@@ -9,6 +9,7 @@ RPM_HASH = "9318c3a845d125216a55e4569080c3d8e68a6da633986f984afb9e38cb4d57a3af0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fira-code-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

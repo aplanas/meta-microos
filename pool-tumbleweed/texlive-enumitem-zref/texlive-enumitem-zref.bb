@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(enumitem-zref.sty) \
 texlive-enumitem-zref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

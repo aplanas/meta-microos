@@ -10,6 +10,7 @@ RPM_HASH = "f08d2a4840be002b7b03199d64e4939aeff1be20af5ee69538fc2906ac175b3b9496
 
 RPROVIDES:${PN} += "reiser4progs-devel \
 reiser4progs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libreiser4-2_0-5 \
 libreiser4-minimal-2_0-5 \
 librepair-2_0-5"

@@ -11,6 +11,7 @@ RPM_HASH = "da403e5235f878752951e9742bf51c59235f98c628dba63951eaa4a54bac39eb1f68
 RPROVIDES:${PN} += "pandoc \
 pandoc-cli \
 pandoc-cli(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-pandoc \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

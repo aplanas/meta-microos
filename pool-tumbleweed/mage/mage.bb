@@ -10,6 +10,7 @@ RPM_HASH = "b72ef546d32e9ad021e24221c8a1bdadaccfe7db3854cba9fd0168cc84b99c0ee031
 
 RPROVIDES:${PN} += "mage \
 mage(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "39cdbd38a409818c1625d61308612af0683e44ea8e12ef885c6dd7e97975a15afd9a
 RPROVIDES:${PN} += "config(imx-usb-loader) \
 imx-usb-loader \
 imx-usb-loader(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

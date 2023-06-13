@@ -17,6 +17,7 @@ perl(Algorithm::Combinatorics::Iterator) \
 perl(Algorithm::Combinatorics::JustCoderef) \
 perl-Algorithm-Combinatorics \
 perl-Algorithm-Combinatorics(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

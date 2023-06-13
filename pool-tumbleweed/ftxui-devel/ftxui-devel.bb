@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(ftxui) \
 ftxui \
 ftxui-devel \
 ftxui-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libftxui4_1_0"
 
 inherit rpm

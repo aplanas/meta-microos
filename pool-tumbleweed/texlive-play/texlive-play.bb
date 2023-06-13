@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(play.cls) \
 tex(play.sty) \
 texlive-play"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

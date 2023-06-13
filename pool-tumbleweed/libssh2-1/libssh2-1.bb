@@ -13,6 +13,7 @@ RPM_HASH = "e57d3042137ccaee5d541639bc4d1c380743be0d386982b46b190441fe41bf08daa9
 RPROVIDES:${PN} += "libssh2-1 \
 libssh2-1(aarch-64) \
 libssh2.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "525608a7c75812ed63f4aef49d38dce8ac88f84ca66cc17550ca4bcc4c7c5127edf3
 
 RPROVIDES:${PN} += "blockout \
 blockout(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

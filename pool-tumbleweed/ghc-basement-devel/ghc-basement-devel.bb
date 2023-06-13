@@ -10,6 +10,7 @@ RPM_HASH = "0b1bffeece5fd96ed4c1acb947a8f9d935a83ee41f55f1ea16d0231d4d0bc46f7ca8
 RPROVIDES:${PN} += "ghc-basement-devel \
 ghc-basement-devel(aarch-64) \
 ghc-devel(basement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-basement \
 ghc-compiler \

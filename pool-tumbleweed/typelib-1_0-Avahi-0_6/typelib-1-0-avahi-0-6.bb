@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "typelib(Avahi) \
 typelib(AvahiCore) \
 typelib-1_0-Avahi-0_6 \
 typelib-1_0-Avahi-0_6(aarch-64)"
+
 RDEPENDS:${PN} += "libavahi-core.so.7()(64bit) \
 libavahi-gobject.so.0()(64bit) \
 typelib(GLib) \

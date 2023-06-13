@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "librraudit.so()(64bit) \
 librrpreload.so()(64bit) \
 rr \
 rr(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

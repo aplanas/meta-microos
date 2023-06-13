@@ -11,6 +11,7 @@ RPM_HASH = "efa508aa11166249675c75cde4156cc1e4fc8e2a33ea25308879d94d7efe9bef41f8
 RPROVIDES:${PN} += "libclzma-suse.so.0()(64bit) \
 libclzma-suse0 \
 libclzma-suse0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

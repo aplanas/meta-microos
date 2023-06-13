@@ -19,6 +19,7 @@ mimehandler(text/x-rst) \
 python3.10dist(retext) \
 python3dist(retext) \
 retext"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Markdown \

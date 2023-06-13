@@ -13,6 +13,7 @@ RPM_HASH = "23e009f2fe6afe4aa02f7ebd6d7251fd55c4f431ce20285f1b626bfe259cc7e19b71
 RPROVIDES:${PN} += "libossim-devel \
 ossim-devel \
 ossim-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libossim1"
 
 inherit rpm

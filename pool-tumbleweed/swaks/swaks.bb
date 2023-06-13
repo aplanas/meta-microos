@@ -18,6 +18,7 @@ RPM_HASH = "73f939ea838c4e42586585436b568b6a1b41bae66ab685a8bbf24c28067e6584d3bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swaks"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl-Net-SSLeay"
 

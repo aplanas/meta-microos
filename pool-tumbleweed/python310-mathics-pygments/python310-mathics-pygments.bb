@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-mathics-pygments \
 python3.10dist(mathics-pygments) \
 python310-mathics-pygments \
 python3dist(mathics-pygments)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Mathics-Scanner \
 python310-Pygments"

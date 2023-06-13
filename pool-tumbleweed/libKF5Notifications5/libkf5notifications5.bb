@@ -11,6 +11,7 @@ RPM_HASH = "1d31b3465cacba6b911fd8a41c4da75dfe8904d8b3351df257d7545ccb7c2eb45c27
 RPROVIDES:${PN} += "libKF5Notifications.so.5()(64bit) \
 libKF5Notifications5 \
 libKF5Notifications5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

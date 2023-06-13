@@ -10,6 +10,7 @@ RPM_HASH = "ab343ce8ba934714acf3a8cc0bf04abd93ec842aa3e5643258c3d0e625736584af59
 
 RPROVIDES:${PN} += "xterm-resize \
 xterm-resize(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

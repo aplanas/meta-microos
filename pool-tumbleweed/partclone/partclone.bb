@@ -10,6 +10,7 @@ RPM_HASH = "7a9a165b95b7e7d647bd4a69bdcf683d1533f4d2fd94efbbe8b977324c424f33de18
 
 RPROVIDES:${PN} += "partclone \
 partclone(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \

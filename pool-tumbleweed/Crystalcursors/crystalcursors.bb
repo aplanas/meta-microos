@@ -11,6 +11,7 @@ RPM_HASH = "def63b92e8e55399256e1b425438924759bdd37c3e2436af341c35ff85516cdbd3ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Crystalcursors"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ SDL2-devel(aarch-64) \
 cmake(sdl2) \
 libSDL2-devel \
 pkgconfig(sdl2)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 c_compiler \

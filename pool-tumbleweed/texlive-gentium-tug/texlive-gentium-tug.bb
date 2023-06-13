@@ -288,6 +288,7 @@ tex(x2-gentiumplus-regular.tfm) \
 tex(x2gentium.fd) \
 tex(x2gentiumbook.fd) \
 texlive-gentium-tug"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

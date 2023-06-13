@@ -12,6 +12,7 @@ RPM_HASH = "bd852d9140aef533e0d9f7cd913d97237c67af13d733da9bff848f5590007e41d4dd
 RPROVIDES:${PN} += "cyrus-sasl-bdb-plain \
 cyrus-sasl-bdb-plain(aarch-64) \
 libplain.so.3()(64bit)"
+
 RDEPENDS:${PN} += "cyrus-sasl-bdb \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

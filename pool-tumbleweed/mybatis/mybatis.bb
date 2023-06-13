@@ -30,6 +30,7 @@ mvn(org.mybatis:mybatis) \
 mvn(org.mybatis:mybatis:pom:) \
 mybatis \
 osgi(org.mybatis.mybatis)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

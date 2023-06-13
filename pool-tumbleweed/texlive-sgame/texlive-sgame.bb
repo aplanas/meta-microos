@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(sgame.sty) \
 tex(sgamevar.sty) \
 texlive-sgame"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

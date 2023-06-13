@@ -9,6 +9,7 @@ RPM_HASH = "7318d2952f075925eae0d4a7e2b3cbfbb7e07103d492573e3e52f1014f7adada16bf
 
 RPROVIDES:${PN} += "recode-devel \
 recode-devel(aarch-64)"
+
 RDEPENDS:${PN} += "librecode3"
 
 inherit rpm

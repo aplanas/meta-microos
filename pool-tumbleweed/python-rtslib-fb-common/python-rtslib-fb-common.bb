@@ -10,6 +10,7 @@ RPM_HASH = "3efe7c170f83da31bb4748897715a8e519818774622885157413e8547cb4a918a8b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-rtslib-fb-common"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

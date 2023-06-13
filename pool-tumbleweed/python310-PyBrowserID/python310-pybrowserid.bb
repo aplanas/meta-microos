@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-PyBrowserID \
 python3.10dist(pybrowserid) \
 python310-PyBrowserID \
 python3dist(pybrowserid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

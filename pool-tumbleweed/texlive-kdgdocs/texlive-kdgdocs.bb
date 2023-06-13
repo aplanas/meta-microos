@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(kdgcoursetext.cls) \
 tex(kdgmasterthesis.cls) \
 texlive-kdgdocs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

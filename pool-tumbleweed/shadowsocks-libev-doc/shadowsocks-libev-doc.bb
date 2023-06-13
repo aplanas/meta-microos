@@ -12,6 +12,7 @@ RPM_HASH = "1332d4c7f5b0e21f417d5822ad08e8a2f74463700cb6ce94cd2ac7371a38d0d54ff4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shadowsocks-libev-doc"
+
 RDEPENDS:${PN} += "shadowsocks-libev"
 
 inherit rpm

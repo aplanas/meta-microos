@@ -10,6 +10,7 @@ RPM_HASH = "f19fcad70b23b0f2af4e0c66b8b22aec26f5826400a73b96eb1eefd8838c83562df2
 
 RPROVIDES:${PN} += "gupnp-av \
 gupnp-av(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

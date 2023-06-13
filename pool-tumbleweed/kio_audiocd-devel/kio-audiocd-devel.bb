@@ -9,6 +9,7 @@ RPM_HASH = "218d90373bddc288a852c6c2364b6019bfbaeec129b32e5f32f5dc962f97aa7f3e92
 
 RPROVIDES:${PN} += "kio_audiocd-devel \
 kio_audiocd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kio_audiocd"
 
 inherit rpm

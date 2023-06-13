@@ -26,6 +26,7 @@ perl(GD::Barcode::QRcode) \
 perl(GD::Barcode::UPCA) \
 perl(GD::Barcode::UPCE) \
 perl-GD-Barcode"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

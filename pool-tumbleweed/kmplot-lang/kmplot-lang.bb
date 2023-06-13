@@ -76,6 +76,7 @@ locale(kmplot:uk) \
 locale(kmplot:vi) \
 locale(kmplot:zh_CN) \
 locale(kmplot:zh_TW)"
+
 RDEPENDS:${PN} += "kmplot"
 
 inherit rpm

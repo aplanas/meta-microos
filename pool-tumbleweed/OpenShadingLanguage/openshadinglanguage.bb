@@ -14,6 +14,7 @@ RPM_HASH = "d56b244b726c91333ee0b3890c1f586c4da0446f16337c24fc5006f763983576b080
 
 RPROVIDES:${PN} += "OpenShadingLanguage \
 OpenShadingLanguage(aarch-64)"
+
 RDEPENDS:${PN} += "OpenShadingLanguage-common-headers \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

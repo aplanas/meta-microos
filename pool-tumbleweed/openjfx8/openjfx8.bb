@@ -23,6 +23,7 @@ libprism_es2.so()(64bit) \
 libprism_sw.so()(64bit) \
 openjfx8 \
 openjfx8(aarch-64)"
+
 RDEPENDS:${PN} += "java \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

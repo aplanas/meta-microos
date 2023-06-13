@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(concurrent-log-handler) \
 python311-concurrentloghandler \
 python3dist(concurrent-log-handler)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

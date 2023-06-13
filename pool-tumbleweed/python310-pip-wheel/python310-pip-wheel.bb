@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pip-wheel \
 python310-pip-wheel"
+
 RDEPENDS:${PN} += "/bin/sh \
 alts \
 ca-certificates \

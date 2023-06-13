@@ -10,6 +10,7 @@ RPM_HASH = "9f9f1ef07f731ddfb3eeaecd05a1ffbd428d81da2041bc4d3dc851d56e662e591b91
 RPROVIDES:${PN} += "libcapstone-devel \
 libcapstone-devel(aarch-64) \
 pkgconfig(capstone)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcapstone4"
 

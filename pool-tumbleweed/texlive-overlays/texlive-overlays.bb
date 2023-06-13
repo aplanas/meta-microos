@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(overlays.sty) \
 texlive-overlays"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

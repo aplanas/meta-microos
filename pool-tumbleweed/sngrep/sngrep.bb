@@ -15,6 +15,7 @@ RPM_HASH = "8fdea3dc0b6169be207ba11d6700e1e5dbf989246c0be5153385b991736b39e81491
 RPROVIDES:${PN} += "config(sngrep) \
 sngrep \
 sngrep(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

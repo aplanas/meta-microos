@@ -10,6 +10,7 @@ RPM_HASH = "9129a9b1f09bff19fc5816d3ea1dbc2ac123a5e96430a8ee8cf7755bb5af5388f22d
 RPROVIDES:${PN} += "libpixman-1-0-devel \
 libpixman-1-0-devel(aarch-64) \
 pkgconfig(pixman-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpixman-1-0"
 

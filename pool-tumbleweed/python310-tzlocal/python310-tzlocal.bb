@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-tzlocal \
 python3.10dist(tzlocal) \
 python310-tzlocal \
 python3dist(tzlocal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytz \
 python310-pytz-deprecation-shim"

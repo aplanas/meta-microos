@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jnr-process \
 mvn(com.github.jnr:jnr-process) \
 mvn(com.github.jnr:jnr-process:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.github.jnr:jnr-constants) \

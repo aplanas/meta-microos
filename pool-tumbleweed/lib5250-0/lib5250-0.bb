@@ -10,6 +10,7 @@ RPM_HASH = "0a336173ca30261123b6a6d9b91df4721a2ffa60df8525c9ee2af738e58c04b63d6b
 RPROVIDES:${PN} += "lib5250-0 \
 lib5250-0(aarch-64) \
 lib5250.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

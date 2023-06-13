@@ -293,6 +293,7 @@ perl(Math::PlanePath::WythoffPreliminaryTriangle) \
 perl(Math::PlanePath::ZOrderCurve) \
 perl-Math-PlanePath \
 perl-Math-PlanePath(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Math::Libm) \
 perl(constant::defer)"

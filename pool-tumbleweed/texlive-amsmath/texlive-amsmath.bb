@@ -29,6 +29,7 @@ tex(amstex.sty) \
 tex(amstext.sty) \
 tex(amsxtra.sty) \
 texlive-amsmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

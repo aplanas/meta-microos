@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chronology.sty) \
 texlive-chronology"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

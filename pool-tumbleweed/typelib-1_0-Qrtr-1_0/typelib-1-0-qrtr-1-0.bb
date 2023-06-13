@@ -10,6 +10,7 @@ RPM_HASH = "475e506fde54eb81bdcca6c7fc37275af9bea88327ee45e5f0797cc069456fb0ca1e
 RPROVIDES:${PN} += "typelib(Qrtr) \
 typelib-1_0-Qrtr-1_0 \
 typelib-1_0-Qrtr-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libqrtr-glib.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

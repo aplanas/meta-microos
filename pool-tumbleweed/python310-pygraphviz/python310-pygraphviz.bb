@@ -13,6 +13,7 @@ python3.10dist(pygraphviz) \
 python310-pygraphviz \
 python310-pygraphviz(aarch-64) \
 python3dist(pygraphviz)"
+
 RDEPENDS:${PN} += "graphviz \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

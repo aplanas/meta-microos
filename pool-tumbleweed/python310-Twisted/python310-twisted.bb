@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-Twisted \
 python3.10dist(twisted) \
 python310-Twisted \
 python3dist(twisted)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

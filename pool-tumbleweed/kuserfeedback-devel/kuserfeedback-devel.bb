@@ -11,6 +11,7 @@ RPM_HASH = "686efd97a08c801375db4890e72f0bd2f73bd56b58ca61df48b4117e3feb23297248
 RPROVIDES:${PN} += "cmake(KUserFeedback) \
 kuserfeedback-devel \
 kuserfeedback-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKUserFeedbackCore1 \
 libKUserFeedbackWidgets1"
 

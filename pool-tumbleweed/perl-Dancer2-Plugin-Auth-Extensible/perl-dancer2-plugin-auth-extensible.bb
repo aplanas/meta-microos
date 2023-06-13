@@ -28,6 +28,7 @@ perl(Dancer2::Plugin::Auth::Extensible::Role::Provider) \
 perl(Dancer2::Plugin::Auth::Extensible::Test) \
 perl(Dancer2::Plugin::Auth::Extensible::Test::App) \
 perl-Dancer2-Plugin-Auth-Extensible"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Crypt::SaltedHash) \

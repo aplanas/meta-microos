@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(reconfigure) \
 python39-reconfigure \
 python3dist(reconfigure)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-chardet"
 

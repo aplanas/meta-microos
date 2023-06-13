@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-babeltrace \
 python3-babeltrace(aarch-64) \
 python3.10dist(babeltrace) \
 python3dist(babeltrace)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbabeltrace-ctf.so.1()(64bit) \

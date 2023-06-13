@@ -12,6 +12,7 @@ RPM_HASH = "d4dd67469050467cbeeb5422bee2edfb35d180706d85a1c3ced99f85fcd137ca555d
 RPROVIDES:${PN} += "config(osmo-bts-virtual) \
 osmo-bts-virtual \
 osmo-bts-virtual(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

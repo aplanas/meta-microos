@@ -16,6 +16,7 @@ application(wyrmsun.desktop) \
 metainfo() \
 metainfo(wyrmsun.appdata.xml) \
 wyrmsun"
+
 RDEPENDS:${PN} += "/bin/sh \
 wyrmgus"
 

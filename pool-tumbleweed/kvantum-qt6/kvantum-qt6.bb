@@ -15,6 +15,7 @@ RPM_HASH = "13dcae2cc18e3f0cc619daf0f4e5d1ba4347979addb09bd8a8667a753b0e1244f53f
 RPROVIDES:${PN} += "kvantum-qt6 \
 kvantum-qt6(aarch-64) \
 libkvantum.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

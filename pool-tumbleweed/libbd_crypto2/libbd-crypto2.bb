@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libbd_crypto.so.2()(64bit) \
 libbd_crypto2 \
 libbd_crypto2(aarch-64) \
 libblockdev-crypto"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

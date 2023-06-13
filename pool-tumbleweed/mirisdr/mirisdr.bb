@@ -10,6 +10,7 @@ RPM_HASH = "183d61c5b8af35901ed0e00cf410128337a9dfb8edd0435a153a58f8ab13a86d5cf4
 
 RPROVIDES:${PN} += "mirisdr \
 mirisdr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

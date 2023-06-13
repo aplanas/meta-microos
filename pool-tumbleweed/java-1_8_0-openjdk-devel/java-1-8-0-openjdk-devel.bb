@@ -21,6 +21,7 @@ libjawt.so(SUNWprivate_1.1)(64bit) \
 libjli.so()(64bit) \
 libjli.so(SUNWprivate_1.1)(64bit) \
 libunpack.so(SUNWprivate_1.1)(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-1_8_0-openjdk \
 ld-linux-aarch64.so.1()(64bit) \

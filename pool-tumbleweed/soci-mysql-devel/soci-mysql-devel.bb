@@ -15,6 +15,7 @@ RPM_HASH = "1bb9530a258e443a91201cfc8086ee269e308711f52f8fe39f19093b389f9667b6ee
 
 RPROVIDES:${PN} += "soci-mysql-devel \
 soci-mysql-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsoci_mysql4_0 \
 pkgconfig(libmariadb) \
 soci-devel"

@@ -9,6 +9,7 @@ RPM_HASH = "4f28ba6af182096f4394a61205282edc8c605e51226c096c04421b3912a06e3c7dbf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-embrac-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

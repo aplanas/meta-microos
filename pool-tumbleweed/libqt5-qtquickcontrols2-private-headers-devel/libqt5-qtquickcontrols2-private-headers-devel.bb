@@ -10,6 +10,7 @@ RPM_HASH = "f5f5f41c4261d32fb99be0a4791a0098c8458c22c8ce876a50a71f6c66fadaa2d252
 
 RPROVIDES:${PN} += "libqt5-qtquickcontrols2-private-headers-devel \
 libqt5-qtquickcontrols2-private-headers-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5QuickControls2-devel \
 libQt5QuickTemplates2-devel"
 

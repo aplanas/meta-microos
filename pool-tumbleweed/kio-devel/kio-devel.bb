@@ -13,6 +13,7 @@ RPM_HASH = "124b768ff7fa53e8550ec8f9d41b09cb55e5b939af82c9ce082185290367501dba92
 RPROVIDES:${PN} += "cmake(KF5KIO) \
 kio-devel \
 kio-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Bookmarks) \
 cmake(KF5Completion) \
 cmake(KF5Config) \

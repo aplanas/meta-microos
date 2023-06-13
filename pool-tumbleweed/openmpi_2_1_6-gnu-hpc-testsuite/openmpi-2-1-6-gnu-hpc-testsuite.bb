@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpi \
 openmpi_2_1_6-gnu-hpc-testsuite"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc \
 lua-lmod \
 openmpi-runtime-config \

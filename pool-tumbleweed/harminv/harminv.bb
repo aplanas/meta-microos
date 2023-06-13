@@ -13,6 +13,7 @@ RPM_HASH = "10382aa5cde3e5239cdb9f25cbe66fd92e42d0ee619d7da400b9cb36c1e4fdff6386
 
 RPROVIDES:${PN} += "harminv \
 harminv(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

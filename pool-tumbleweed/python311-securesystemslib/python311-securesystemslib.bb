@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(securesystemslib) \
 python311-securesystemslib \
 python3dist(securesystemslib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyNaCl \
 python311-asn1crypto \

@@ -10,6 +10,7 @@ RPM_HASH = "80f8cf3109da9720274ddfdb8a358bd42d727802f796fd95285872763a5575a409c7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-declarative-private-devel"
+
 RDEPENDS:${PN} += "qt6-qml-private-devel \
 qt6-qmlcore-private-devel \
 qt6-qmllocalstorage-private-devel \

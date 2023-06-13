@@ -12,6 +12,7 @@ RPM_HASH = "ab784a6e1a0f63b3a588f86d701da725b1d69dc736c5f227791e35a2261c8f7763ad
 RPROVIDES:${PN} += "typelib(Gitg) \
 typelib-1_0-Gitg-1_0 \
 typelib-1_0-Gitg-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgitg-1.0.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

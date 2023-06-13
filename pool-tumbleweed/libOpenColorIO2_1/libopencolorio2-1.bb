@@ -14,6 +14,7 @@ RPM_HASH = "8ffeb56975743fa7983a7cc21b077bb7325d2536f866826ab0e26999e3ebeb027b11
 RPROVIDES:${PN} += "libOpenColorIO.so.2.1()(64bit) \
 libOpenColorIO2_1 \
 libOpenColorIO2_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

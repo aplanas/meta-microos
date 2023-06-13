@@ -16,6 +16,7 @@ RPM_HASH = "20b9bb5e2935d7a5822e6345ba635953d607b1024edc6b7bd3a7ba69a4f2600a7d14
 RPROVIDES:${PN} += "typelib(Dazzle) \
 typelib-1_0-libdazzle-1_0 \
 typelib-1_0-libdazzle-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libdazzle-1.0.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

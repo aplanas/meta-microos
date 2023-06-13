@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "cfgdiff \
 python3.9dist(cfgdiff) \
 python39-cfgdiff \
 python3dist(cfgdiff)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

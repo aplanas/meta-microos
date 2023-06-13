@@ -11,6 +11,7 @@ RPM_HASH = "da1a471e31bd42c873ee37735fe3ec32e9d608afe44db4610220cfdb1f97a72354f9
 RPROVIDES:${PN} += "libcleanerplugin.so()(64bit) \
 psi+-plugins-cleanerplugin \
 psi+-plugins-cleanerplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

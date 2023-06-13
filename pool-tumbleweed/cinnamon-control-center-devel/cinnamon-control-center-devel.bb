@@ -11,6 +11,7 @@ RPM_HASH = "b280fd19f4734820bf7d0eeb22ebd197251bfcf8fb802d8d105316c8507658371c6e
 RPROVIDES:${PN} += "cinnamon-control-center-devel \
 cinnamon-control-center-devel(aarch-64) \
 pkgconfig(libcinnamon-control-center)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcinnamon-control-center1 \
 pkgconfig(gio-2.0) \

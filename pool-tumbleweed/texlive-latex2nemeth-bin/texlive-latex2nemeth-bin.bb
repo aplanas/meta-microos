@@ -9,6 +9,7 @@ RPM_HASH = "1d5c5da6ddbf57e3917c891ec6e54cacb5f90e1234763617913f51ccbca0154bb9ae
 
 RPROVIDES:${PN} += "texlive-latex2nemeth-bin \
 texlive-latex2nemeth-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-latex2nemeth"
 
 inherit rpm

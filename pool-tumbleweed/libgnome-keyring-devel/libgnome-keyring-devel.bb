@@ -14,6 +14,7 @@ gnome-keyring-doc \
 libgnome-keyring-devel \
 libgnome-keyring-devel(aarch-64) \
 pkgconfig(gnome-keyring-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgnome-keyring0 \
 pkgconfig(glib-2.0) \

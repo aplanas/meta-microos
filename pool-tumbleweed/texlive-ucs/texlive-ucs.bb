@@ -246,6 +246,7 @@ tex(utf8x.def) \
 tex(xscmr.fd) \
 tex(xsenc.def) \
 texlive-ucs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

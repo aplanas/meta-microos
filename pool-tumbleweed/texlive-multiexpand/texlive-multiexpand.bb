@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(multiexpand.sty) \
 texlive-multiexpand"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

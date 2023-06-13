@@ -13,6 +13,7 @@ RPM_HASH = "5ff4bae217fc58a8e10ad0bd5ff5c8ec4cf808985513900d6dc83c22c237d2596a3c
 
 RPROVIDES:${PN} += "netcdf \
 netcdf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

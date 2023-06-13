@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(steinmetz.sty) \
 texlive-steinmetz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

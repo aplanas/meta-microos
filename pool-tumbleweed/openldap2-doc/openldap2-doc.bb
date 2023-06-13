@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openldap2-doc \
 openldap2:/usr/share/doc/packages/openldap2/drafts/README"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

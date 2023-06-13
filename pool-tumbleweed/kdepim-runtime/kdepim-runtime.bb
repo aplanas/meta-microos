@@ -21,6 +21,7 @@ libakonadi-singlefileresource.so.5()(64bit) \
 libfolderarchivesettings.so.5()(64bit) \
 libkmindexreader.so.5()(64bit) \
 libmaildir.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 akonadi-plugin-calendar \
 akonadi-plugin-contacts \

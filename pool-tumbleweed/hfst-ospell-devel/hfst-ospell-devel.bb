@@ -10,6 +10,7 @@ RPM_HASH = "9420efef5b299395f70c896fbd2d887ae157e0d0ce7e269c0e65d23279c0feed5e0d
 RPROVIDES:${PN} += "hfst-ospell-devel \
 hfst-ospell-devel(aarch-64) \
 pkgconfig(hfstospell)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 hfst-ospell"
 

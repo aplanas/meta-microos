@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ogr) \
 python39-ogr \
 python3dist(ogr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Deprecated \
 python39-GitPython \

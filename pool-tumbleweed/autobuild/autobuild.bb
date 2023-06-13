@@ -10,6 +10,7 @@ RPM_HASH = "96e4f560d3808639ca0f007feda774939057eff87e3fd98b52b44c2a3328dd7c8205
 
 RPROVIDES:${PN} += "autobuild \
 autobuild(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

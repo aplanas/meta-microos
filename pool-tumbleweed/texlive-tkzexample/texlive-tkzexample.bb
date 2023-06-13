@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tkzexample.sty) \
 texlive-tkzexample"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

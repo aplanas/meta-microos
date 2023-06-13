@@ -14,6 +14,7 @@ RPM_HASH = "6cf65aeb3b0b1098adcbcfc7bfd933636dd70435517fbed560c73870a016d77dd736
 RPROVIDES:${PN} += "libosmotrau-devel \
 libosmotrau-devel(aarch-64) \
 pkgconfig(libosmotrau)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmotrau2 \
 pkgconfig(libosmocore)"

@@ -10,6 +10,7 @@ RPM_HASH = "47b63ffb2685552535e949be733274359e45265aa911271e2128cd5574080ba14b79
 RPROVIDES:${PN} += "ghc-devel(utf8-string-1.0.2-3yyxPCwARUwDt9ZNWn320Q) \
 ghc-utf8-string-devel \
 ghc-utf8-string-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

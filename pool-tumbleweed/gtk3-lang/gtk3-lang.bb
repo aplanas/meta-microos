@@ -98,6 +98,7 @@ locale(gtk3:wa) \
 locale(gtk3:zh_CN) \
 locale(gtk3:zh_HK) \
 locale(gtk3:zh_TW)"
+
 RDEPENDS:${PN} += "gtk3"
 
 inherit rpm

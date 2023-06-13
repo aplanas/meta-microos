@@ -11,6 +11,7 @@ RPM_HASH = "a5c9238e4388dee1caed8c3a1e44c1119ae7dd1efb8a0bebc173fccc04f5b83769e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pw3270-branding"
+
 RDEPENDS:${PN} += "desktop-file-utils \
 pw3270"
 

@@ -15,6 +15,7 @@ RPM_HASH = "e14d7e8a993db29a9fe85fb16e20e44677f5f4cf76cdc5ae830c89dfa1443b034ca4
 RPROVIDES:${PN} += "canberra-gtk-play \
 canberra-gtk-play(aarch-64) \
 libcanberra-gtk"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

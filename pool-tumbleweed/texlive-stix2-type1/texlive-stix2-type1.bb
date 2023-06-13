@@ -101,6 +101,7 @@ tex(ts1-stix2text-italic.tfm) \
 tex(ts1-stix2text.tfm) \
 tex(ts1stix2.fd) \
 texlive-stix2-type1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

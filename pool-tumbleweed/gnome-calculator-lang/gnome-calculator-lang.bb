@@ -92,6 +92,7 @@ locale(gnome-calculator:vi) \
 locale(gnome-calculator:zh_CN) \
 locale(gnome-calculator:zh_HK) \
 locale(gnome-calculator:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-calculator"
 
 inherit rpm

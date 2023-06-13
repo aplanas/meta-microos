@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(namedtensor.sty) \
 texlive-namedtensor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

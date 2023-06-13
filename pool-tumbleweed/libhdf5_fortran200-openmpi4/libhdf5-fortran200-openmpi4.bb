@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libhdf5_fortran-openmpi4 \
 libhdf5_fortran.so.200()(64bit) \
 libhdf5_fortran200-openmpi4 \
 libhdf5_fortran200-openmpi4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

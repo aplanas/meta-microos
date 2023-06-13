@@ -10,6 +10,7 @@ RPM_HASH = "60310018503baed15e15640ac295704ed75403702ecf6fde79efa77d651769f76e6f
 
 RPROVIDES:${PN} += "plasma5-session-wayland \
 plasma5-session-wayland(aarch-64)"
+
 RDEPENDS:${PN} += "kwayland-integration \
 libqt5-qtwayland \
 pipewire \

@@ -9,6 +9,7 @@ RPM_HASH = "a0f27a41570796a1ea9d02e0aa6367f0fb2bb5eb9efcf9ad4311082b5d6c7560f856
 
 RPROVIDES:${PN} += "R-core-doc \
 R-core-doc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

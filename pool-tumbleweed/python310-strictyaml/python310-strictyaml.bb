@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-strictyaml \
 python3.10dist(strictyaml) \
 python310-strictyaml \
 python3dist(strictyaml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-dateutil"
 

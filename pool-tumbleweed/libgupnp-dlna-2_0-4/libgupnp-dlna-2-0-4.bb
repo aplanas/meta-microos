@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libgupnp-dlna-2.0.so.4()(64bit) \
 libgupnp-dlna-2_0-4 \
 libgupnp-dlna-2_0-4(aarch-64) \
 libgupnp-dlna-gst-2.0.so.4()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gupnp-dlna \
 ld-linux-aarch64.so.1()(64bit) \

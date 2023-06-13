@@ -11,6 +11,7 @@ RPM_HASH = "5f5661f2217db7934a8c3fb2fb6b5ded7befa8440c9ae0d169d99e943438473f4e7e
 RPROVIDES:${PN} += "libfunambol-devel \
 libfunambol-devel(aarch-64) \
 pkgconfig(libfunambol)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcurl-devel \
 libfunambol-9_0_1"

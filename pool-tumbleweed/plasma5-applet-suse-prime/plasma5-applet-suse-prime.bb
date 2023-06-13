@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "metainfo() \
 metainfo(org.kde.plasma.prime.appdata.xml) \
 plasma5-applet-suse-prime"
+
 RDEPENDS:${PN} += "kdialog \
 libqt5-qdbus \
 qt5qmlimport(QtQuick.2) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(authlib) \
 python311-Authlib \
 python3dist(authlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cryptography"
 

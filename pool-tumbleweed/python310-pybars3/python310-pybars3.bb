@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pybars3 \
 python3.10dist(pybars3) \
 python310-pybars3 \
 python3dist(pybars3)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyMeta3"
 

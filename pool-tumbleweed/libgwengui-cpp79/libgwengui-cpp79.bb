@@ -10,6 +10,7 @@ RPM_HASH = "c671f96b5954ce487ef5ebdd475dbc88812ffeca4b846963ec1675a54c626dbb121d
 RPROVIDES:${PN} += "libgwengui-cpp.so.79()(64bit) \
 libgwengui-cpp79 \
 libgwengui-cpp79(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

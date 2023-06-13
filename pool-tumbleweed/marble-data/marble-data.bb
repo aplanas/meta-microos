@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "marble-data \
 marble5-data"
+
 RDEPENDS:${PN} += "marble"
 
 inherit rpm

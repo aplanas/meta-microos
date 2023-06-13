@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-keyring-pass \
 python3.10dist(keyring-pass) \
 python310-keyring-pass \
 python3dist(keyring-pass)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jaraco.classes \
 python310-keyring"

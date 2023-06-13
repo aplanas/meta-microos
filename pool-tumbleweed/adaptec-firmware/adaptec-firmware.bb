@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adaptec-firmware \
 firmware(aic94xx-seq.fw)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "9631dd4a18826ac8e6266ece53cd9d80ab756621dce94fb0a5427f7b15712a22ad4b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfsporson-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

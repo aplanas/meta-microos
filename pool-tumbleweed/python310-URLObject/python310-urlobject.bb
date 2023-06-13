@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-URLObject \
 python3.10dist(urlobject) \
 python310-URLObject \
 python3dist(urlobject)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tpfd) \
 python311-tpfd \
 python3dist(tpfd)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-parse"
 

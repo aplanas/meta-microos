@@ -9,6 +9,7 @@ RPM_HASH = "f357ddb388c08b276c0c1be6f0cc906b604d2af46fa923b62b326b5f1496304a5ef1
 
 RPROVIDES:${PN} += "edk2-SbsaQemu \
 edk2-SbsaQemu(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

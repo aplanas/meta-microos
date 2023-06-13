@@ -10,6 +10,7 @@ RPM_HASH = "dc514d1aff9155a8017e52af12dcedb72c29cd75d32c40c2b2ccf76c0751b1d9b54e
 RPROVIDES:${PN} += "leechcraft-poshuku-keywords \
 leechcraft-poshuku-keywords(aarch-64) \
 libleechcraft_poshuku_keywords.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-poshuku \

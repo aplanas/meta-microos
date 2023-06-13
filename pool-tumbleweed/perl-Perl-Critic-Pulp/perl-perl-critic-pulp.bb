@@ -67,6 +67,7 @@ perl(Perl::Critic::Pulp::ProhibitDuplicateHashKeys::Qword) \
 perl(Perl::Critic::Pulp::Utils) \
 perl-Perl-Critic-Pulp \
 perl-Perl-Critic-Pulp(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::String) \
 perl(List::MoreUtils) \

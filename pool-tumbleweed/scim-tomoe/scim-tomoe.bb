@@ -9,6 +9,7 @@ RPM_HASH = "7678e90e7de4d54dc6ce05ec4d314628649bfa6313cce4241d5b73aec345864f02d6
 
 RPROVIDES:${PN} += "scim-tomoe \
 scim-tomoe(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

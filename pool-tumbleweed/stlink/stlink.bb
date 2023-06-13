@@ -9,6 +9,7 @@ RPM_HASH = "8e21dde7f4731fb48a99e703044faa48db53279e188c9fd50ed9cf765f0851641060
 
 RPROVIDES:${PN} += "stlink \
 stlink(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(delorean) \
 python39-Delorean \
 python3dist(delorean)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Babel \
 python39-humanize \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(nicefrac.sty) \
 tex(units.sty) \
 texlive-units"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

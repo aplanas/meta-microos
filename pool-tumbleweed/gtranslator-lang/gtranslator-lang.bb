@@ -72,6 +72,7 @@ locale(gtranslator:wa) \
 locale(gtranslator:zh_CN) \
 locale(gtranslator:zh_HK) \
 locale(gtranslator:zh_TW)"
+
 RDEPENDS:${PN} += "gtranslator"
 
 inherit rpm

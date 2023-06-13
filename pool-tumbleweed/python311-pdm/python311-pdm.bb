@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pdm) \
 python311-pdm \
 python3dist(pdm)"
+
 RDEPENDS:${PN} += "(python311-resolvelib >= 0.8 with python311-resolvelib < 0.9) \
 (python311-tomlkit >= 0.8.0 with python311-tomlkit < 1) \
 /bin/sh \

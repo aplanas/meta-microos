@@ -17,6 +17,7 @@ libmulticobex.so.1()(64bit) \
 libobexftp.so.0()(64bit) \
 obexftp \
 obexftp(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libbluetooth.so.3()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

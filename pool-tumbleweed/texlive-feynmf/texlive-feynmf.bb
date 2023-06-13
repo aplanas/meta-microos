@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(feynmf.sty) \
 tex(feynmp.sty) \
 texlive-feynmf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

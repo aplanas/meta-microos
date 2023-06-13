@@ -29,6 +29,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "munge-maven-plugin \
 mvn(org.sonatype.plugins:munge-maven-plugin) \
 mvn(org.sonatype.plugins:munge-maven-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven:maven-core) \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-cssselect \
 python3.10dist(cssselect) \
 python310-cssselect \
 python3dist(cssselect)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

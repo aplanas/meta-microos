@@ -31,6 +31,7 @@ tex(multislot.sty) \
 tex(osf2x.tex) \
 tex(xfntinst.sty) \
 texlive-fontinst"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

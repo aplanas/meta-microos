@@ -9,6 +9,7 @@ RPM_HASH = "4a1db9f208408c03411fffef1739d78e449a89d87231fffb182366bfebc38b1491ba
 
 RPROVIDES:${PN} += "fx \
 fx(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

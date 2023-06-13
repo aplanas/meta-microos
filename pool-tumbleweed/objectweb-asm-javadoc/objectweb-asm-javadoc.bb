@@ -17,6 +17,7 @@ RPM_HASH = "e22afae4bd1f9fb1e9637587938a2c6743d1877f098eef1694e9f54bbf79f3982592
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "objectweb-asm-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

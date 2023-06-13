@@ -15,6 +15,7 @@ RPM_HASH = "6a46b43f7190af2cf67cb9f7d7deab6ab0824ea4a041e2954d7b0727e32aa96c9a43
 RPROVIDES:${PN} += "libosmgpsmap-1.0.so.1()(64bit) \
 libosmgpsmap-1_0-1 \
 libosmgpsmap-1_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

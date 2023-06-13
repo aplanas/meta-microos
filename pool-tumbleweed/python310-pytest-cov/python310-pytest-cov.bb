@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pytest-cov \
 python3.10dist(pytest-cov) \
 python310-pytest-cov \
 python3dist(pytest-cov)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-coverage \
 python310-pytest"

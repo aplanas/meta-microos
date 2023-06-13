@@ -56,6 +56,7 @@ locale(picmi:zh_CN) \
 locale(picmi:zh_TW) \
 picmi-lang \
 picmi-lang-all"
+
 RDEPENDS:${PN} += "picmi"
 
 inherit rpm

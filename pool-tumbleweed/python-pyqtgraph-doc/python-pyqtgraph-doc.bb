@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-pyqtgraph-doc \
 python310-python-pyqtgraph \
 python38-python-pyqtgraph \
 python39-python-pyqtgraph"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

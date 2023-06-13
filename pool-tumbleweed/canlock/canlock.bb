@@ -17,6 +17,7 @@ RPM_HASH = "17895a13eea3a481587aa2d3c0a4ca308a1c30a3a02a2f167fbd2e9a0ba4df2a8fda
 
 RPROVIDES:${PN} += "canlock \
 canlock(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

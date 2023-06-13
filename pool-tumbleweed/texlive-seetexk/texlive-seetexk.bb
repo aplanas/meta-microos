@@ -21,6 +21,7 @@ man(dviconcat.1) \
 man(dviselect.1) \
 man(dvitodvi.1) \
 texlive-seetexk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

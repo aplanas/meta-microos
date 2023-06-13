@@ -13,6 +13,7 @@ application(org.gnome.SoundRecorder.desktop) \
 gnome-sound-recorder \
 metainfo() \
 metainfo(org.gnome.SoundRecorder.metainfo.xml)"
+
 RDEPENDS:${PN} += "gjs \
 gstreamer-plugins-base \
 gstreamer-plugins-good \

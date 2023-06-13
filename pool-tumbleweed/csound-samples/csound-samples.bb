@@ -9,6 +9,7 @@ RPM_HASH = "de0d67da14f95fad02f0e0d58c2119c6c4355de03053075096641889858e5c4f755b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "csound-samples"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

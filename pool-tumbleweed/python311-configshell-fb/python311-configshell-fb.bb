@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3.11dist(configshell-fb) \
 python311-configshell \
 python311-configshell-fb \
 python3dist(configshell-fb)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python(abi) \
 python311-pyparsing \

@@ -61,6 +61,7 @@ locale(kphotoalbum:uk) \
 locale(kphotoalbum:vi) \
 locale(kphotoalbum:zh_CN) \
 locale(kphotoalbum:zh_TW)"
+
 RDEPENDS:${PN} += "kphotoalbum"
 
 inherit rpm

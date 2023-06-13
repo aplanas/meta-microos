@@ -14,6 +14,7 @@ gtk-sharp3-gapi(aarch-64) \
 mono(gapi-fixup) \
 mono(gapi-parser) \
 mono(gapi_codegen)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 mono(System) \

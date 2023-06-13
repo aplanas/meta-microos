@@ -9,6 +9,7 @@ RPM_HASH = "52357ee3c7ce10cdc2bede9df902984fd143b8e7b992301da955eca8ed2ab80b028e
 
 RPROVIDES:${PN} += "python39-liblnk \
 python39-liblnk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

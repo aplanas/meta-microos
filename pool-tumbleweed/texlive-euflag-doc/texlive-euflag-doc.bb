@@ -9,6 +9,7 @@ RPM_HASH = "386ad171a2086596fa281d498c2b1d3c318e754dc76fb5c4f4871fa7d16620971211
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-euflag-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

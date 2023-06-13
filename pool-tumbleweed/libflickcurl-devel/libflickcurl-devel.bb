@@ -17,6 +17,7 @@ RPM_HASH = "4f8d5f7e1aade94ba881baaa1cb886c74c7766dd1583280092af6966cf8f7576d955
 RPROVIDES:${PN} += "libflickcurl-devel \
 libflickcurl-devel(aarch-64) \
 pkgconfig(flickcurl)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libcurl-devel \

@@ -25,6 +25,7 @@ tex(pdfswitch.sty) \
 tex(texdepends.sty) \
 tex(texgraphicx.sty) \
 texlive-latex-make"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

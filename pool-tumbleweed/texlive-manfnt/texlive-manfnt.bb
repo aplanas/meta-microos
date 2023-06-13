@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(manfnt.sty) \
 texlive-manfnt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

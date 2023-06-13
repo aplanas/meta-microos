@@ -9,6 +9,7 @@ RPM_HASH = "d4e5400f980bef43d37e0890087e8f905041864be657fbe5678e0532db34a3f825cc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lion-msc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "08df6e9ccad5d6a6cb415fa24e4d90065170cc7ee8de89292df6eadd145e028b591e
 
 RPROVIDES:${PN} += "python39-cangjie \
 python39-cangjie(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

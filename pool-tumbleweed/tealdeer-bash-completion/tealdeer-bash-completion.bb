@@ -9,6 +9,7 @@ RPM_HASH = "32f472e94d74b15f6a007c0360121b9ed45a88709d8fc5855fe3ca345edde15a885b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tealdeer-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

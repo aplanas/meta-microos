@@ -9,6 +9,7 @@ RPM_HASH = "0a29662e32be204395f74fa9f6edd9ccaa7039b50728b2537cd8fefe054f0934ec8f
 
 RPROVIDES:${PN} += "lastlog2 \
 lastlog2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

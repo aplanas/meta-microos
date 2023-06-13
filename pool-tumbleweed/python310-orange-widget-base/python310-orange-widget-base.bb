@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-orange-widget-base \
 python3.10dist(orange-widget-base) \
 python310-orange-widget-base \
 python3dist(orange-widget-base)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-AnyQt \
 python310-matplotlib \

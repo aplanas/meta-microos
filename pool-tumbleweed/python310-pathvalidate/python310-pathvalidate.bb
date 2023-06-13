@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pathvalidate \
 python3.10dist(pathvalidate) \
 python310-pathvalidate \
 python3dist(pathvalidate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools"
 

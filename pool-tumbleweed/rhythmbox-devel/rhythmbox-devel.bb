@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "pkgconfig(rhythmbox) \
 rhythmbox-devel \
 rhythmbox-devel(aarch-64) \
 rhythmbox-doc"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gio-2.0) \
 pkgconfig(glib-2.0) \

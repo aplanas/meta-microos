@@ -37,6 +37,7 @@ RPROVIDES:${PN} += "tex(docidx2e.sty) \
 tex(docindex.sty) \
 tex(xdoc2.sty) \
 texlive-xdoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

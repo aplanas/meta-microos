@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(sway-branding-openSUSE) \
 sway-branding \
 sway-branding-openSUSE"
+
 RDEPENDS:${PN} += "/bin/sh \
 SwayNotificationCenter \
 bc \

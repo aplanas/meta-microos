@@ -64,6 +64,7 @@ locale(kalgebra:ug) \
 locale(kalgebra:uk) \
 locale(kalgebra:zh_CN) \
 locale(kalgebra:zh_TW)"
+
 RDEPENDS:${PN} += "kalgebra"
 
 inherit rpm

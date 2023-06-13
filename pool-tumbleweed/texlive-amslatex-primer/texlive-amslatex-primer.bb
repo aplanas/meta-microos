@@ -17,6 +17,7 @@ RPM_HASH = "65445f27c678363554820d2dbde593b4614dacec45c2e1993fdfcedf1647ba595834
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-amslatex-primer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

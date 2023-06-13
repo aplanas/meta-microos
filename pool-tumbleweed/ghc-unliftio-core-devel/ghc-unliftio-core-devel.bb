@@ -10,6 +10,7 @@ RPM_HASH = "2ffb7247acec34f71e4442005f073b60e79716df920e3a0abf4dd1f955f11104867d
 RPROVIDES:${PN} += "ghc-devel(unliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj) \
 ghc-unliftio-core-devel \
 ghc-unliftio-core-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

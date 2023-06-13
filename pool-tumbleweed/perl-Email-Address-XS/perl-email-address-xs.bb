@@ -44,6 +44,7 @@ RPM_HASH = "fe80daaa94adf5da866a6f7b3a0f5213655abfdc343f9dd74f81eb89c557d1197228
 RPROVIDES:${PN} += "perl(Email::Address::XS) \
 perl-Email-Address-XS \
 perl-Email-Address-XS(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

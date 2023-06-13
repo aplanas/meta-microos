@@ -19,6 +19,7 @@ RPM_HASH = "77df1d2b6f04710df1488b3a64226bb03e3ed3a93366b3e6ad78a5bdf1ca85d0117c
 RPROVIDES:${PN} += "perl(Getopt::ArgvFile) \
 perl-Getopt-ArgvFile \
 perl-Getopt-ArgvFile(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

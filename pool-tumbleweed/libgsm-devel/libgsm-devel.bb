@@ -18,6 +18,7 @@ RPM_HASH = "6fb7e8216a5e1479e8077146ad31da840a813a9fd5f0aee73555d49575d8238b551e
 
 RPROVIDES:${PN} += "libgsm-devel \
 libgsm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgsm1"
 
 inherit rpm

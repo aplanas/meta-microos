@@ -10,6 +10,7 @@ RPM_HASH = "f5d4b0942f1b92503d69905ee229de9000c17e13200afe105341d3a292c68845b2ec
 RPROVIDES:${PN} += "ghc-foldl-prof \
 ghc-foldl-prof(aarch-64) \
 ghc-prof(foldl-1.4.14-6AA7lw3dsEK1uUeCGro40c)"
+
 RDEPENDS:${PN} += "ghc-foldl-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

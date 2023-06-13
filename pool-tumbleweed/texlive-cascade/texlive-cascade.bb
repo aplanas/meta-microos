@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cascade.sty) \
 texlive-cascade"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

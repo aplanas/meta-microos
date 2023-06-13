@@ -10,6 +10,7 @@ RPM_HASH = "420fabf41eb93542c694be38a92de73b2e6b75a72965c4035739519dfd7bbd0c2845
 RPROVIDES:${PN} += "liballeggl44-devel \
 liballeggl44-devel(aarch-64) \
 pkgconfig(allegrogl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liballeggl4_4 \
 pkgconfig(allegro)"

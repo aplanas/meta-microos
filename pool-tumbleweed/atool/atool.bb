@@ -20,6 +20,7 @@ RPM_HASH = "f478d8abd974c8281978f51c33cd250b423e00182348526a12de85887c01e0b269de
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atool"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 bzip2 \
 gzip \

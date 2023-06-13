@@ -9,6 +9,7 @@ RPM_HASH = "b6d2b386612dbbdbf0b64aa62ca85f33244f76fdc9c9bfb33ff27bb258de3839a2aa
 
 RPROVIDES:${PN} += "kross-ruby \
 kross-ruby(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5KrossCore.so.5()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "e065a0da1107d67f68ee81b0f2cfc3dd0ed390c1fc95cac49080c6c6bd74d456ac64
 
 RPROVIDES:${PN} += "kea-devel \
 kea-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libkea-asiodns24 \
 libkea-asiolink40 \
 libkea-cc39 \

@@ -9,6 +9,7 @@ RPM_HASH = "c360959c211bc4f87c7b14832c6fe4070f1d285dc2acc85b02331dfb8654f96af4d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-z3"
+
 RDEPENDS:${PN} += "libz3-4_12 \
 python(abi)"
 

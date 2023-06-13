@@ -9,6 +9,7 @@ RPM_HASH = "2edf08af3f2756b5f6902dd59d3447e5ca68f0007c953d5d2ccf4cf8fb02386e7f16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "uhd-firmware"
+
 RDEPENDS:${PN} += "libuhd4_4_0"
 
 inherit rpm

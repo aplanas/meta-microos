@@ -25,6 +25,7 @@ mimehandler(x-scheme-handler/itms) \
 mimehandler(x-scheme-handler/itmss) \
 parlatype \
 parlatype(aarch-64)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-bad \
 gstreamer-plugins-good \
 gstreamer-plugins-ugly \

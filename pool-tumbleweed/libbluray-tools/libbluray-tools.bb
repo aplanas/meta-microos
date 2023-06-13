@@ -11,6 +11,7 @@ RPM_HASH = "7e0dc3f68a4616a58c3f952220251286419ef27032e4d0a8098f50ac1c107b1184f5
 
 RPROVIDES:${PN} += "libbluray-tools \
 libbluray-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbluray.so.2()(64bit) \

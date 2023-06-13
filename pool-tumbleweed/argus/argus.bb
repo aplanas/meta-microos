@@ -11,6 +11,7 @@ RPM_HASH = "b75ad657cf616ed9a22d6effa0af02233de9904848ceb87b247ea9850991784bc199
 
 RPROVIDES:${PN} += "argus \
 argus(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl"

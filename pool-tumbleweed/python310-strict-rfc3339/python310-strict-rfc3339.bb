@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-strict-rfc3339 \
 python3.10dist(strict-rfc3339) \
 python310-strict-rfc3339 \
 python3dist(strict-rfc3339)"
+
 RDEPENDS:${PN} += "python(abi) \
 timezone"
 

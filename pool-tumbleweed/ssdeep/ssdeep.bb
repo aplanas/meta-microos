@@ -11,6 +11,7 @@ RPM_HASH = "3f96d2056c7223d42c806897ab92d29cf85ccb7df6e91552ebf26dec09e772a26fc8
 
 RPROVIDES:${PN} += "ssdeep \
 ssdeep(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

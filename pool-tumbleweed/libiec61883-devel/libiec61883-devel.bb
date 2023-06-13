@@ -16,6 +16,7 @@ RPM_HASH = "4fe74cb7f34afe004d33239b31aa4301f0d9edf0f9d7bd9bcd76a967ca23dd37cdc1
 RPROVIDES:${PN} += "libiec61883-devel \
 libiec61883-devel(aarch-64) \
 pkgconfig(libiec61883)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libiec61883-0 \
 pkgconfig(libraw1394)"

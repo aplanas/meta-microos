@@ -10,6 +10,7 @@ RPM_HASH = "85ca178e7c7c3ff7410d5379207d0c015a9e40e0fae2642be3c2bcc293fa203400ab
 RPROVIDES:${PN} += "libtss2-rc.so.0()(64bit) \
 libtss2-rc0 \
 libtss2-rc0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

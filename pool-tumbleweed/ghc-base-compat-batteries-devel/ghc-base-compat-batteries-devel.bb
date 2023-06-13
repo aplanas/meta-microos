@@ -11,6 +11,7 @@ RPM_HASH = "28c2a62e2dd2e023fabaa0d1f5397384b53f29f6c07694584855fc3318ae81c562eb
 RPROVIDES:${PN} += "ghc-base-compat-batteries-devel \
 ghc-base-compat-batteries-devel(aarch-64) \
 ghc-devel(base-compat-batteries-0.12.2-2nfbI7WkA2cAAItUqSu6Dy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-base-compat-batteries \
 ghc-compiler \

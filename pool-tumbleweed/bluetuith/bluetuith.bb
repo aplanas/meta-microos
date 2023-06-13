@@ -10,6 +10,7 @@ RPM_HASH = "a95354a4f32c27b9fbc8ca5777f8b902b574a97b289cbcf834ac174a7a649f716cb6
 
 RPROVIDES:${PN} += "bluetuith \
 bluetuith(aarch-64)"
+
 RDEPENDS:${PN} += "bluez \
 dbus-1 \
 libc.so.6(GLIBC_2.34)(64bit)"

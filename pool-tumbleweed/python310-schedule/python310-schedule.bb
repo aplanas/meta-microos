@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-schedule \
 python3.10dist(schedule) \
 python310-schedule \
 python3dist(schedule)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

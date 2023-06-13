@@ -11,6 +11,7 @@ RPM_HASH = "69a5bacd974b25ee9237aaa948a720a71c8f5346645665c3e268a92c87a400b7aa62
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "biabam"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/sbin/sendmail \
 sharutils"

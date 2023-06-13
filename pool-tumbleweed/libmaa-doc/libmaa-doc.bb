@@ -9,6 +9,7 @@ RPM_HASH = "5eb5cb31eb58b798e915a12968724fd34727c6892697545b86a74035a853f6b9f3a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmaa-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

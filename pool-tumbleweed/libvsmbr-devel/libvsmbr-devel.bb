@@ -13,6 +13,7 @@ RPM_HASH = "760609e55b0c9947d0e848ce2c3c9ad97def91b7474ec3ba7c2f4f4d6a4c59d6eded
 RPROVIDES:${PN} += "libvsmbr-devel \
 libvsmbr-devel(aarch-64) \
 pkgconfig(libvsmbr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libvsmbr1"

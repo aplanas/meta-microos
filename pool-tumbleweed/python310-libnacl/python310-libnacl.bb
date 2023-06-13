@@ -14,6 +14,7 @@ python3.10dist(libnacl) \
 python310-libnacl \
 python310-libnacl(aarch-64) \
 python3dist(libnacl)"
+
 RDEPENDS:${PN} += "libsodium23 \
 python(abi)"
 

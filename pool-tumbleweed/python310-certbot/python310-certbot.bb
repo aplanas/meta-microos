@@ -14,6 +14,7 @@ python3-certbot \
 python3.10dist(certbot) \
 python310-certbot \
 python3dist(certbot)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

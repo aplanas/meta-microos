@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-pyface \
 python3.10dist(pyface) \
 python310-pyface \
 python3dist(pyface)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-importlib-metadata \
 python310-importlib-resources \

@@ -11,6 +11,7 @@ RPM_HASH = "8aea7b4f6537e4ef00fa6e43b77a9b9a62ddcf1822b2cdd776021a58275144305159
 
 RPROVIDES:${PN} += "python311-qt5-remoteobjects \
 python311-qt5-remoteobjects(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

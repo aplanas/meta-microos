@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyjsparser) \
 python311-pyjsparser \
 python3dist(pyjsparser)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -118,6 +118,7 @@ font(kpmono) \
 font(kproman) \
 font(kpsans) \
 texlive-kpfonts-otf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

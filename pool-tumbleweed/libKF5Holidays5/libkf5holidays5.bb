@@ -13,6 +13,7 @@ libKF5Holidays5 \
 libKF5Holidays5(aarch-64) \
 libkholidaysdeclarativeplugin.so()(64bit) \
 qt5qmlimport(org.kde.kholidays.1)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

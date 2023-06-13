@@ -11,6 +11,7 @@ RPM_HASH = "e7bb391f59cfa69a77c58e1b330a23f32409f1540a533070fbe399072d66ada17126
 RPROVIDES:${PN} += "pinentry \
 pinentry(aarch-64) \
 pinentry-dialog"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -75,6 +75,7 @@ locale(kgeography:ug) \
 locale(kgeography:uk) \
 locale(kgeography:zh_CN) \
 locale(kgeography:zh_TW)"
+
 RDEPENDS:${PN} += "kgeography"
 
 inherit rpm

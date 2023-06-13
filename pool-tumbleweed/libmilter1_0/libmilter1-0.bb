@@ -17,6 +17,7 @@ RPM_HASH = "e29c03961760bc638e3ed107b988eb14cb40a7c64d616b75447fa32fe936be4a2284
 RPROVIDES:${PN} += "libmilter.so.1.0()(64bit) \
 libmilter1_0 \
 libmilter1_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

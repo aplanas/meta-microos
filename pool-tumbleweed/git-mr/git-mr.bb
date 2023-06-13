@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-mr \
 git-pr"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

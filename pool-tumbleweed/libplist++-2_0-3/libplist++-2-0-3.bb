@@ -10,6 +10,7 @@ RPM_HASH = "3762585bc520cb342b061666e78341918bccee57ed16bcc65ecad2cfc628c22d6384
 RPROVIDES:${PN} += "libplist++-2.0.so.3()(64bit) \
 libplist++-2_0-3 \
 libplist++-2_0-3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

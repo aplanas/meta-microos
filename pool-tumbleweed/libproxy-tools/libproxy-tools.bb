@@ -11,6 +11,7 @@ RPM_HASH = "e6cdf21c2d7ac9417744a048133fb7d978b5aea5f1b9dac0a52ff85bd65bea09c893
 
 RPROVIDES:${PN} += "libproxy-tools \
 libproxy-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

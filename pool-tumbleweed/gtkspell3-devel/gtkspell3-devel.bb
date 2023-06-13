@@ -12,6 +12,7 @@ RPM_HASH = "f209fdf52dbd7034857a1aa87dc3ff338b5a3720ec50429c6a539757863037f02bc2
 RPROVIDES:${PN} += "gtkspell3-devel \
 gtkspell3-devel(aarch-64) \
 pkgconfig(gtkspell3-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtkspell3-3-0 \
 pkgconfig(enchant-2) \

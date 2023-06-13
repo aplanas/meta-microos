@@ -9,6 +9,7 @@ RPM_HASH = "ddc591e07c126eefda62b0c1b0982773feb1a148a0ba3ffa289e713fe90c303276d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-anyedit-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

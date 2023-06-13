@@ -17,6 +17,7 @@ libopenexr-devel \
 openexr-devel \
 openexr-devel(aarch-64) \
 pkgconfig(OpenEXR)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Imath-devel \
 libOpenEXR-3_1-30 \

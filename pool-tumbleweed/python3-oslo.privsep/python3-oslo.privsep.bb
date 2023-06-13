@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.privsep \
 python3.10dist(oslo.privsep) \
 python3dist(oslo.privsep)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-cffi \

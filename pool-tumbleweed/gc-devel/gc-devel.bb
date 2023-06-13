@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "gc-devel \
 gc-devel(aarch-64) \
 gc:/usr/include/gc/gc.h \
 pkgconfig(bdw-gc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libatomic_ops-devel \

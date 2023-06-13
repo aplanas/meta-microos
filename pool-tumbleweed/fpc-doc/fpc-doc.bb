@@ -9,6 +9,7 @@ RPM_HASH = "1014f087823ff29c56135f094d51bea364769a1b19ec9d172ca3cea14c9368472046
 
 RPROVIDES:${PN} += "fpc-doc \
 fpc-doc(aarch-64)"
+
 RDEPENDS:${PN} += "binutils"
 
 inherit rpm

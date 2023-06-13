@@ -9,6 +9,7 @@ RPM_HASH = "ad3b5c1eb31b308aeb6d762d4c272fc131de408d66dd32e6c2bf3647d8b9e4ebfbf4
 
 RPROVIDES:${PN} += "texlive-ctan-o-mat-bin \
 texlive-ctan-o-mat-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-ctan-o-mat"
 
 inherit rpm

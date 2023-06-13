@@ -13,6 +13,7 @@ metainfo() \
 metainfo(redshift-gtk.appdata.xml) \
 redshift-gtk \
 redshift-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 hicolor-icon-theme \

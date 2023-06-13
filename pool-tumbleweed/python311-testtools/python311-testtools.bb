@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(testtools) \
 python311-testtools \
 python3dist(testtools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pbr \
 python311-python-mimeparse \

@@ -11,6 +11,7 @@ RPM_HASH = "ba78ea6be7b8101626c3ae0d32110b2ed023b35ed26f4a9bc4ab02d2945985cdde6a
 RPROVIDES:${PN} += "config(influxdb) \
 influxdb \
 influxdb(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libflux.so.0.193.0()(64bit) \

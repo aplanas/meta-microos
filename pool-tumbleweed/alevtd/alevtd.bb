@@ -10,6 +10,7 @@ RPM_HASH = "2d493f9b2ee1098a55989d77d737f699812b13930fcd318fb407d29542d8823be4c6
 
 RPROVIDES:${PN} += "alevtd \
 alevtd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

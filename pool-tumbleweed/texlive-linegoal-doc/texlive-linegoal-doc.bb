@@ -9,6 +9,7 @@ RPM_HASH = "dfe3b3dd69a6fa427771c3b52359d7a4ab14599146ec13e67bafb62983a70241308c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-linegoal-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

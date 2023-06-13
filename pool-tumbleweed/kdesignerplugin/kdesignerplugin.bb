@@ -12,6 +12,7 @@ RPM_HASH = "f2e22c735aea442921e4fe1cf6c873f38cee60c8ff674b0b804afd6c3f2d5e7bad29
 
 RPROVIDES:${PN} += "kdesignerplugin \
 kdesignerplugin(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

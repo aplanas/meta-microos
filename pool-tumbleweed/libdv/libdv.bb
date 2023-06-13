@@ -15,6 +15,7 @@ RPM_HASH = "51fad6b52ce16905bfa861030e12a239c98bcf9234a42ff77fbbc64dab7f517b485b
 
 RPROVIDES:${PN} += "libdv \
 libdv(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

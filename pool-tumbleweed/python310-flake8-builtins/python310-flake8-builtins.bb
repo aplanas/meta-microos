@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flake8-builtins \
 python3.10dist(flake8-builtins) \
 python310-flake8-builtins \
 python3dist(flake8-builtins)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-flake8"
 

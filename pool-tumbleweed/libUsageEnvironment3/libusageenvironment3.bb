@@ -12,6 +12,7 @@ RPM_HASH = "e59b95828fff59de9c4b20e2364fef4be43d513dc2dc1de6510416e3834d74f6de78
 RPROVIDES:${PN} += "libUsageEnvironment.so.3()(64bit) \
 libUsageEnvironment3 \
 libUsageEnvironment3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "8753a4a1062df37f9bdcf42484681cc519eba2b1e15f53a2309d8df7fe620f57b58b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aeidon"
+
 RDEPENDS:${PN} += "python(abi) \
 typelib(Gspell)"
 

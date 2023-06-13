@@ -14,6 +14,7 @@ python3.10dist(pathable) \
 python310-dictpath \
 python310-pathable \
 python3dist(pathable)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

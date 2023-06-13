@@ -20,6 +20,7 @@ mvn(com.sun.xml.fastinfoset:FastInfosetUtilities) \
 mvn(com.sun.xml.fastinfoset:FastInfosetUtilities:pom:) \
 mvn(com.sun.xml.fastinfoset:fastinfoset-project:pom:) \
 osgi(com.sun.xml.fastinfoset.FastInfoset)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.sun.xml.stream.buffer:streambuffer) \

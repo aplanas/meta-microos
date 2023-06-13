@@ -13,6 +13,7 @@ python39-PyQt6 \
 python39-PyQt6(aarch-64) \
 python39-qt6 \
 python3dist(pyqt6)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLESv2.so.2()(64bit) \

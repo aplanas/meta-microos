@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "application() \
 application(kanku-urlwrapper.desktop) \
 kanku-urlwrapper \
 mimehandler(x-scheme-handler/kanku)"
+
 RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils \
 kanku-cli \

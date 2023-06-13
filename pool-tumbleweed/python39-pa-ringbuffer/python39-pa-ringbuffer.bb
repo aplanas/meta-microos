@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pa-ringbuffer) \
 python39-pa-ringbuffer \
 python3dist(pa-ringbuffer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cffi"
 

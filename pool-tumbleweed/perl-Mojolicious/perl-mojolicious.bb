@@ -128,6 +128,7 @@ perl(Mojolicious::Validator::Validation) \
 perl(Test::Mojo) \
 perl(ojo) \
 perl-Mojolicious"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::Socket::IP) \

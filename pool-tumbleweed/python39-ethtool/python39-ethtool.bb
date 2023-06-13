@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(ethtool) \
 python39-ethtool \
 python39-ethtool(aarch-64) \
 python3dist(ethtool)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

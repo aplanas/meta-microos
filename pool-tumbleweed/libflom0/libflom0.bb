@@ -13,6 +13,7 @@ RPM_HASH = "eef324d0471cf0478077c867583d5e4f48d9170886655b825eb8a0a727e9214c56c9
 RPROVIDES:${PN} += "libflom.so.0()(64bit) \
 libflom0 \
 libflom0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

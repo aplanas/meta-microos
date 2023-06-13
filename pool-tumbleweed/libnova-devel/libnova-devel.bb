@@ -9,6 +9,7 @@ RPM_HASH = "317359d39a78d76e3414b7a8f6948d29344c46df36d0cf155abc7138220345b76373
 
 RPROVIDES:${PN} += "libnova-devel \
 libnova-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libc.so.6(GLIBC_2.34)(64bit) \
 libnova-0.15.so.0()(64bit) \

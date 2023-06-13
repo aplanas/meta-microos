@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "config(frr) \
 frr \
 frr(aarch-64) \
 zebra"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

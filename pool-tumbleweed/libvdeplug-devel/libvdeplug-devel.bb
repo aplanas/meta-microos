@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libvdeplug-devel \
 libvdeplug-devel(aarch-64) \
 libvdeplug3-devel \
 pkgconfig(vdeplug)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvdeplug3 \
 vde2"

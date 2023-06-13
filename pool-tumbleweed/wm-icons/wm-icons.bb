@@ -18,6 +18,7 @@ RPM_HASH = "d00525b70fa68a03579dffec2dfa8d7502ca88c83f1eb81daec2e32c1fd97688940e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wm-icons"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

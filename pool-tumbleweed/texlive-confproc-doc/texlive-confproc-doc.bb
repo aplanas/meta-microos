@@ -9,6 +9,7 @@ RPM_HASH = "3152dcfa5943bdab4ee0fa87649187ed9abf4aaf6d8c6984b651eba5c18b52f461e8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-confproc-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl"
 

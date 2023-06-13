@@ -14,6 +14,7 @@ locale(m17n-db:ja) \
 locale(m17n-db:vi) \
 m17n-db-lang \
 m17n-db-lang-all"
+
 RDEPENDS:${PN} += "m17n-db"
 
 inherit rpm

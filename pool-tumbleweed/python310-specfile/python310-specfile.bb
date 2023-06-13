@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-specfile \
 python3.10dist(specfile) \
 python310-specfile \
 python3dist(specfile)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-rpm"
 

@@ -9,6 +9,7 @@ RPM_HASH = "7e189ad66dcc294451497dd65673babe549b3468692c0c045aa592442371374a8028
 
 RPROVIDES:${PN} += "usbauth-notifier \
 usbauth-notifier(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

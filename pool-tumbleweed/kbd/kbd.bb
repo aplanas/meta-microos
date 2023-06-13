@@ -15,6 +15,7 @@ RPM_HASH = "1b0f18be0e9f6823af87949668268a865eff5a72f20c63978f3c9739c350a38d00a7
 RPROVIDES:${PN} += "kbd \
 kbd(aarch-64) \
 vlock"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

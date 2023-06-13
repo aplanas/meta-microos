@@ -12,6 +12,7 @@ RPM_HASH = "6eb59e3c0ee42276e71c2295e9840cce584fd19f1a28319eb15b1c8e21c83c546088
 RPROVIDES:${PN} += "ghc-data-clist \
 ghc-data-clist(aarch-64) \
 libHSdata-clist-0.2-LT5UCpKeur34zcxFsnpoqW-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

@@ -24,6 +24,7 @@ perl(Declare::Constraints::Simple::Library::Referencial) \
 perl(Declare::Constraints::Simple::Library::Scalar) \
 perl(Declare::Constraints::Simple::Result) \
 perl-Declare-Constraints-Simple"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp::Clan) \
 perl(Class::Inspector) \

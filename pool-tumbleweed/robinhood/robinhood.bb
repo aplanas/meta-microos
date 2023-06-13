@@ -25,6 +25,7 @@ librbh_mod_modeguard.so()(64bit) \
 librbh_mod_test.so()(64bit) \
 robinhood \
 robinhood(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

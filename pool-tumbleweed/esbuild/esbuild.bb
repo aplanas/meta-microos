@@ -11,6 +11,7 @@ RPM_HASH = "a310b7ac9e4bdc9e0a9cdfdf2b2bfa4e6d09aef1e70c43467f90082af219dab3fecd
 
 RPROVIDES:${PN} += "esbuild \
 esbuild(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(lookbook:fr) \
 locale(lookbook:pt) \
 lookbook-lang \
 lookbook-lang-all"
+
 RDEPENDS:${PN} += "lookbook"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "1b6c3bb7ccd6919161529d13df47bbaad26d1a4b101f01ceba0371b5bdd93344fea0
 RPROVIDES:${PN} += "libQgpsmm.so.30()(64bit) \
 libQgpsmm30 \
 libQgpsmm30(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

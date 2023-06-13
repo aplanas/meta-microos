@@ -23,6 +23,7 @@ tex(oct11.clo) \
 tex(oct12.clo) \
 tex(octavo.cls) \
 texlive-octavo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

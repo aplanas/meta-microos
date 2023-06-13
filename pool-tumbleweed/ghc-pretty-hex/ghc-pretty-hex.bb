@@ -11,6 +11,7 @@ RPM_HASH = "79ad4af2a2e0b716ca8d6f77ba24d9ae0f01ccd6e455703a43c262b82a1956736503
 RPROVIDES:${PN} += "ghc-pretty-hex \
 ghc-pretty-hex(aarch-64) \
 libHSpretty-hex-1.1-2861Nkv8pS0CIRpZJwwJMG-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

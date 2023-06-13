@@ -15,6 +15,7 @@ hpx-devel(aarch-64) \
 libhpx_core.so()(64bit) \
 pkgconfig(hpx_application_relwithdebinfo) \
 pkgconfig(hpx_component_relwithdebinfo)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

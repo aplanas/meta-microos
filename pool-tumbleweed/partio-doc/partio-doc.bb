@@ -9,6 +9,7 @@ RPM_HASH = "aa19238940a43992e3d1e2fd14f548d5dc469e1c879cfd532dbb34b1c8ecd7f73966
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "partio-doc"
+
 RDEPENDS:${PN} += "partio"
 
 inherit rpm

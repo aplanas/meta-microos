@@ -14,6 +14,7 @@ RPM_HASH = "54962d315ecac9957f49b132c3769661f5b7ed1ebe15fd945dfc432a0549f8ee7665
 RPROVIDES:${PN} += "bspwm \
 bspwm(aarch-64) \
 config(bspwm)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

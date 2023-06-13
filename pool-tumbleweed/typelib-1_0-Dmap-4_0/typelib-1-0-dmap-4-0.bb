@@ -16,6 +16,7 @@ RPM_HASH = "f56315233d64fb226e68dc44607771c608c0678027bae71fda5a39d6e37d435c116f
 RPROVIDES:${PN} += "typelib(Dmap) \
 typelib-1_0-Dmap-4_0 \
 typelib-1_0-Dmap-4_0(aarch-64)"
+
 RDEPENDS:${PN} += "libdmapsharing-4.0.so.3()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

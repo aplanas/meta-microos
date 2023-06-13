@@ -9,6 +9,7 @@ RPM_HASH = "88451ce5692a2d3d91364403c87c6e160c5d178b651dfbc111211872a8a85867ba2a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-colorsep"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

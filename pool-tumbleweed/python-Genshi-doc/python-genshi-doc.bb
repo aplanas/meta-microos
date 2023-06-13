@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python-Genshi-doc \
 python310-Genshi-doc \
 python311-Genshi-doc \
 python39-Genshi-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

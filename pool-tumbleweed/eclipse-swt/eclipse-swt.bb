@@ -22,6 +22,7 @@ mvn(org.eclipse.swt:org.eclipse.swt) \
 mvn(org.eclipse.swt:swt) \
 osgi(org.eclipse.swt) \
 osgi(org.eclipse.swt.gtk.linux.aarch64)"
+
 RDEPENDS:${PN} += "gtk3 \
 java-headless \
 javapackages-filesystem \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-py3dns \
 python3.10dist(py3dns) \
 python310-py3dns \
 python3dist(py3dns)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

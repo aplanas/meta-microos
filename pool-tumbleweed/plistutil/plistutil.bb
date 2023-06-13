@@ -13,6 +13,7 @@ RPM_HASH = "03cf91df1450c5a8f3bf868227dbdd65814b75acf0ac4bf4ba122b16cd219722bded
 RPROVIDES:${PN} += "plistutil \
 plistutil(aarch-64) \
 plutil"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

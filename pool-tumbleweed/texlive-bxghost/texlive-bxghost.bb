@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(bxghost-lib.sty) \
 tex(bxghost.sty) \
 texlive-bxghost"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

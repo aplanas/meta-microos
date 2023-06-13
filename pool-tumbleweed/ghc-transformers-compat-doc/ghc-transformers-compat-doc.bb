@@ -9,6 +9,7 @@ RPM_HASH = "5e4baca7b5fa073fa5620daf99003fb65081625a22758373b14486fa228a50cd961e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-transformers-compat-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(libmemcached) \
 libmemcached-devel \
 libmemcached-devel(aarch-64) \
 pkgconfig(libmemcached)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cyrus-sasl-devel \
 glibc-devel \

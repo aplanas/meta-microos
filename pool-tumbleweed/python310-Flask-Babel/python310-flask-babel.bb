@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-Flask-Babel \
 python3.10dist(flask-babel) \
 python310-Flask-Babel \
 python3dist(flask-babel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Babel \
 python310-Flask \

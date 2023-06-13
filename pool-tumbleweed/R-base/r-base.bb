@@ -11,6 +11,7 @@ RPM_HASH = "efdde58e04101d8cfd5a158600aaf6521fed53cab4683ca19be3ff1bfb5dcb24b254
 RPROVIDES:${PN} += "R \
 R-base \
 R-base(aarch-64)"
+
 RDEPENDS:${PN} += "R-base-devel \
 R-core \
 R-core-devel \

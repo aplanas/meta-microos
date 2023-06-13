@@ -9,6 +9,7 @@ RPM_HASH = "90efcec8f44cd3859af43af9371500aa9df9a2f21c1400908984c32276b91a50c9c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "youtube-dl-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

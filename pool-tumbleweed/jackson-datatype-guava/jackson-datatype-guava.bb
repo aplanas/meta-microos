@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jackson-datatype-guava \
 mvn(com.fasterxml.jackson.datatype:jackson-datatype-guava) \
 mvn(com.fasterxml.jackson.datatype:jackson-datatype-guava:pom:) \
 osgi(com.fasterxml.jackson.datatype.jackson-datatype-guava)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-core) \

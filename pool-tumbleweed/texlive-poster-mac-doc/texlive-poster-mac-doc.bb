@@ -9,6 +9,7 @@ RPM_HASH = "3385b963f20c93dc7d20c80ce045e3beef52d779b66853c189f5efc5c0dc611a22ac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-poster-mac-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

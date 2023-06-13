@@ -23,6 +23,7 @@ RPM_HASH = "eb00acff1893bd6c49f53e05d9b2f80ac0cb9caecd23875ae3f688c4517d5a4ea7aa
 RPROVIDES:${PN} += "boinc-client \
 boinc-client(aarch-64) \
 config(boinc-client)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ca-certificates-mozilla \
 ld-linux-aarch64.so.1()(64bit) \

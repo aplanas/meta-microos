@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-svneverever \
 python3.10dist(svneverever) \
 python310-svneverever \
 python3dist(svneverever)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

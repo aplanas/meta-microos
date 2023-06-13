@@ -33,6 +33,7 @@ font(:lang=zu) \
 font(computer) \
 font(inuit) \
 texlive-oinuit-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

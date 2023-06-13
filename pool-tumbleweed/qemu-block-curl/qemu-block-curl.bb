@@ -10,6 +10,7 @@ RPM_HASH = "ad9283f63872ee1be04b79459c46f4d4d0c1efa939726219ed9401e7eef3664ba2ad
 
 RPROVIDES:${PN} += "qemu-block-curl \
 qemu-block-curl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

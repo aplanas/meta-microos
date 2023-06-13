@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-ldaptor \
 python3.10dist(ldaptor) \
 python310-ldaptor \
 python3dist(ldaptor)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

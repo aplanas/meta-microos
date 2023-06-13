@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mathastext.sty) \
 texlive-mathastext"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

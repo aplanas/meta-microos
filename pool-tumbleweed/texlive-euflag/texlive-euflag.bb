@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(euflag.sty) \
 texlive-euflag"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

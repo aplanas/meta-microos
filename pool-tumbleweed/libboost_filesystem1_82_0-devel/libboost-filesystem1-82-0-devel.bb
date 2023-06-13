@@ -12,6 +12,7 @@ RPM_HASH = "809b8c4f861ccbfa81cafce083d9a8ea6e7ce5c899eb0e5ee88e88e53c07fdd3d1a2
 RPROVIDES:${PN} += "libboost_filesystem-devel-impl \
 libboost_filesystem1_82_0-devel \
 libboost_filesystem1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_atomic1_82_0-devel \
 libboost_filesystem1_82_0 \
 libboost_headers1_82_0-devel \

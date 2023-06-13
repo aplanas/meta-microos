@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-vhistory-doc:de) \
 texlive-vhistory-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

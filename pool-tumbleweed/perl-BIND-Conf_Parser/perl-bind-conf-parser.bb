@@ -11,6 +11,7 @@ RPM_HASH = "062a6a5b08ed309bb30eb5af049081748443c63ada7c0f7c629a120e4f355875a72b
 RPROVIDES:${PN} += "perl(BIND::Conf_Parser) \
 perl-BIND-Conf_Parser \
 perl-BIND-Conf_Parser(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

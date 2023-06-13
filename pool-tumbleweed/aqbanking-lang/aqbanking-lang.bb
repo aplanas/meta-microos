@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "aqbanking-lang \
 aqbanking-lang-all \
 locale(aqbanking:de)"
+
 RDEPENDS:${PN} += "aqbanking"
 
 inherit rpm

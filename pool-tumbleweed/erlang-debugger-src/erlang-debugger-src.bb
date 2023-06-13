@@ -11,6 +11,7 @@ RPM_HASH = "f5bde9703dda6689fa837fd66e72a4d2f245e7fe835b7341a76c3a1520f63aa1a979
 
 RPROVIDES:${PN} += "erlang-debugger-src \
 erlang-debugger-src(aarch-64)"
+
 RDEPENDS:${PN} += "erlang-debugger"
 
 inherit rpm

@@ -17,6 +17,7 @@ metainfo(org.opensuse.yast.Installation.metainfo.xml) \
 metainfo(org.opensuse.yast.ReleaseNotes.metainfo.xml) \
 metainfo(org.opensuse.yast.Upgrade.metainfo.xml) \
 yast2-installation"
+
 RDEPENDS:${PN} += "(yast2-x11 >= 4.5.1 if libyui-qt) \
 /bin/bash \
 /bin/sh \

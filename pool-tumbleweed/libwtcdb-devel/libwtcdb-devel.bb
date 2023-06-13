@@ -14,6 +14,7 @@ RPM_HASH = "528809054c482170c8bf49f924f2d48b13a194c3215e8ce19e72a07e7b9180437e6e
 RPROVIDES:${PN} += "libwtcdb-devel \
 libwtcdb-devel(aarch-64) \
 pkgconfig(libwtcdb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libwtcdb1"

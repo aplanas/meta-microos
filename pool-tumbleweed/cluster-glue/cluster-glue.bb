@@ -12,6 +12,7 @@ RPM_HASH = "3c1ba2a359a9d0089312c4ba1b1d5f3d1cc878ca8bfde8f96a8769f1044f37c5ae7b
 
 RPROVIDES:${PN} += "cluster-glue \
 cluster-glue(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

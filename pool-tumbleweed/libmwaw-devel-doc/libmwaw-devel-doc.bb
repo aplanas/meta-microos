@@ -9,6 +9,7 @@ RPM_HASH = "2fe1d12a5be15018f68c90d6da0bf076c6b7dbc3e5b340559784715890cdaf33ae6b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmwaw-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

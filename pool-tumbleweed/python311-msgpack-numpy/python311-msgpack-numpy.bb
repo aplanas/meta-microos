@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(msgpack-numpy) \
 python311-msgpack-numpy \
 python3dist(msgpack-numpy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-msgpack \
 python311-numpy"

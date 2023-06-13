@@ -22,6 +22,7 @@ rubygem(ruby:3.2.0:vagrant-spec:0) \
 rubygem(ruby:3.2.0:vagrant-spec:0.0) \
 rubygem(ruby:3.2.0:vagrant-spec:0.0.1) \
 rubygem(vagrant-spec)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/ruby.ruby3.2 \

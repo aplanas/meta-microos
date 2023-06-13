@@ -9,6 +9,7 @@ RPM_HASH = "9fe91715e67db97efa20146b840a2d55cdd2dce001b9c1a8ce11b1510f39baca287b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-zope.event-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

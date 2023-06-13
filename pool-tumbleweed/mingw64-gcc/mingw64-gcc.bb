@@ -19,6 +19,7 @@ mingw64(lib:ssp_nonshared) \
 mingw64(liblto_plugin.dll) \
 mingw64-gcc \
 mingw64-gcc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 mingw64(libgmp-10.dll) \
 mingw64(libmpc-3.dll) \

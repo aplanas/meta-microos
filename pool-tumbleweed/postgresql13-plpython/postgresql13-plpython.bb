@@ -20,6 +20,7 @@ RPM_HASH = "90137e31f3768df9c30076947f36377f226431fd466bb6f4b958effea98f59e84acb
 RPROVIDES:${PN} += "postgresql-plpython-implementation \
 postgresql13-plpython \
 postgresql13-plpython(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

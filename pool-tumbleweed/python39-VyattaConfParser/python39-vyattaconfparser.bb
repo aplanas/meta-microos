@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(vyattaconfparser) \
 python39-VyattaConfParser \
 python3dist(vyattaconfparser)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

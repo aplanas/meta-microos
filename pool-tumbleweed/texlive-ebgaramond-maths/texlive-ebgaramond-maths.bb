@@ -18,6 +18,7 @@ tex(OMLEBGaramond-Maths.fd) \
 tex(a_w5zv5t.enc) \
 tex(ebgaramond-maths.sty) \
 texlive-ebgaramond-maths"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

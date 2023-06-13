@@ -45,6 +45,7 @@ mimehandler(image/x-win-bitmap) \
 mimehandler(image/x-xcf) \
 mimehandler(image/x-xpixmap) \
 mimehandler(inode/directory)"
+
 RDEPENDS:${PN} += "efl \
 elementary \
 evas-generic-loaders \

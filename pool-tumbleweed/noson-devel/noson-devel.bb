@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(noson) \
 noson-devel \
 noson-devel(aarch-64) \
 pkgconfig(noson)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnoson2"
 

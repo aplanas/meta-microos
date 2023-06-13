@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:en_US) \
 myspell-american \
 myspell-dictionary \
 myspell-en_US"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-en"
 

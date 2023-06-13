@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl-doc \
 perl-macros \
 perl:/usr/share/man/man3/CORE.3pm.gz"
+
 RDEPENDS:${PN} += "perl"
 
 inherit rpm

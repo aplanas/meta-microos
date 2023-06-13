@@ -15,6 +15,7 @@ rpm_macro(cmake_build) \
 rpm_macro(cmake_install) \
 rpm_macro(ctest) \
 rpm_macro(make_jobs)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

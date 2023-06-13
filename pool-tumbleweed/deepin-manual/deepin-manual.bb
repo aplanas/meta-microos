@@ -13,6 +13,7 @@ application(deepin-manual.desktop) \
 deepin-manual \
 deepin-manual(aarch-64) \
 mimehandler(x-scheme-handler/dman)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

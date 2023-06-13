@@ -11,6 +11,7 @@ RPM_HASH = "62dcdfddd6bcd448fca8abab3eac979e0ebbd004ca55c8c918a5e523e6f83858b303
 RPROVIDES:${PN} += "libmt32emu.so.2()(64bit) \
 libmt32emu2 \
 libmt32emu2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

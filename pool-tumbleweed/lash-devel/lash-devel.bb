@@ -10,6 +10,7 @@ RPM_HASH = "b1d17c4d227d5016c5e214a7cf9a9c63c81b88553179b20b7486f4879db32f600724
 RPROVIDES:${PN} += "lash-devel \
 lash-devel(aarch-64) \
 pkgconfig(lash-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 liblash1 \

@@ -10,6 +10,7 @@ RPM_HASH = "4b894ed2307f12460703e2af40d91bf2a5c044895e6171ddd480016113846d66f33b
 
 RPROVIDES:${PN} += "gcc13-d \
 gcc13-d(aarch-64)"
+
 RDEPENDS:${PN} += "gcc13 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -25,6 +25,7 @@ metainfo() \
 metainfo(org.gnome.DejaDup.metainfo.xml) \
 mimehandler(x-scheme-handler/com.googleusercontent.apps.916137916439-evn6skqan91m96fmsskk8102e3iepv22) \
 mimehandler(x-scheme-handler/msale6c2a4b2-6238-47df-9fc9-5b78941dd679)"
+
 RDEPENDS:${PN} += "/bin/sh \
 duplicity \
 ld-linux-aarch64.so.1()(64bit) \

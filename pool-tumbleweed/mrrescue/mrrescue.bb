@@ -19,6 +19,7 @@ application(mrrescue.desktop) \
 metainfo() \
 metainfo(mrrescue.appdata.xml) \
 mrrescue"
+
 RDEPENDS:${PN} += "/bin/sh \
 love \
 update-desktop-files"

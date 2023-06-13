@@ -16,6 +16,7 @@ python39-PyQt6-WebEngine \
 python39-PyQt6-WebEngine(aarch-64) \
 python39-qtwebengine-qt6 \
 python3dist(pyqt6-webengine)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

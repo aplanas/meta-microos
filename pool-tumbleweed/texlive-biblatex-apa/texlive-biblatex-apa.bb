@@ -46,6 +46,7 @@ tex(swedish-apa.lbx) \
 tex(swissgerman-apa.lbx) \
 tex(turkish-apa.lbx) \
 texlive-biblatex-apa"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "6aa262c731178bd99d3b220510313ef32adb30737f619b0f6e489e0d0652e2705820
 RPROVIDES:${PN} += "cmake(KDDockWidgets-qt6) \
 kddockwidgets-qt6-devel \
 kddockwidgets-qt6-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libkddockwidgets-qt6-1_7"
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5Svg-private-headers-devel \
 libqt5-qtsvg-private-headers-devel"
+
 RDEPENDS:${PN} += "libqt5-qtsvg-devel"
 
 inherit rpm

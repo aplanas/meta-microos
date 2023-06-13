@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-flaky \
 python3.10dist(flaky) \
 python310-flaky \
 python3dist(flaky)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

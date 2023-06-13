@@ -10,6 +10,7 @@ RPM_HASH = "c2e0512a01aee509fa64128c1e653303f59e93394df0d5b0b17b60ffc046bbafe9c4
 RPROVIDES:${PN} += "ghc-SHA-prof \
 ghc-SHA-prof(aarch-64) \
 ghc-prof(SHA-1.6.4.4-CTRZ9m1gmyY35Z2xnCckJW)"
+
 RDEPENDS:${PN} += "ghc-SHA-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

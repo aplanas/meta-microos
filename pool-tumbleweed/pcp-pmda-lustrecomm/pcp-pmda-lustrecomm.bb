@@ -10,6 +10,7 @@ RPM_HASH = "a40578de411322a8060c46f34718d53e1df605f021daa5b7c138c09afa96a0d374e0
 
 RPROVIDES:${PN} += "pcp-pmda-lustrecomm \
 pcp-pmda-lustrecomm(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

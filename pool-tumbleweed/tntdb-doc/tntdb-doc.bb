@@ -13,6 +13,7 @@ RPM_HASH = "73158e7d37c526496dc285ba9e8ea365f837b7f9216d2916635fede83e34508ba659
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tntdb-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

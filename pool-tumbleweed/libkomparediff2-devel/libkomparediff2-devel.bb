@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(LibKompareDiff2) \
 libkomparediff2-devel \
 libkomparediff2-devel(aarch-64) \
 libkomparediff2-kf5-devel"
+
 RDEPENDS:${PN} += "libkomparediff2-5"
 
 inherit rpm

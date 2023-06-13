@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "application() \
 application(rtorrent.desktop) \
 rtorrent \
 rtorrent(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -17,6 +17,7 @@ python3.10dist(matrix-synapse) \
 python310-matrix-synapse \
 python3dist(matrix-synapse) \
 user(synapse)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.10 \

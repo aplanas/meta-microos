@@ -9,6 +9,7 @@ RPM_HASH = "2d9c2b957e0091b4e6de82cad158c63dfa7bea585c42ca1d1f6adb089b5fe989dcc7
 
 RPROVIDES:${PN} += "texlive-makedtx-bin \
 texlive-makedtx-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-makedtx"
 
 inherit rpm

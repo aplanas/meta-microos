@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(eolang.sty) \
 texlive-eolang"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

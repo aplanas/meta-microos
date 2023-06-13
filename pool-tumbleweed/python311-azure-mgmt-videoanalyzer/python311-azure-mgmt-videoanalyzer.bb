@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-videoanalyzer) \
 python311-azure-mgmt-videoanalyzer \
 python3dist(azure-mgmt-videoanalyzer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-mgmt-core \

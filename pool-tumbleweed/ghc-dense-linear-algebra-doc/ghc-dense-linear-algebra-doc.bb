@@ -9,6 +9,7 @@ RPM_HASH = "b616c004a7e7c164439b39d1b7963bbfe4c4d6bdd79a8ca84d4eef91287a4b2480c7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-dense-linear-algebra-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

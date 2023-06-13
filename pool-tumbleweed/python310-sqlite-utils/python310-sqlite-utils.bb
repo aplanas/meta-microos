@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sqlite-utils \
 python3.10dist(sqlite-utils) \
 python310-sqlite-utils \
 python3dist(sqlite-utils)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

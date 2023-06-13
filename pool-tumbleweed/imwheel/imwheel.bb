@@ -13,6 +13,7 @@ RPM_HASH = "30315662c8719fe87c86aea5d437d48f22b8c2dc12359166d5955a53d0241de2c0d8
 RPROVIDES:${PN} += "config(imwheel) \
 imwheel \
 imwheel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

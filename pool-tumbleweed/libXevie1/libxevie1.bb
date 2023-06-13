@@ -14,6 +14,7 @@ RPM_HASH = "520dc007ad9a9459f67275fa44d920ee00c32cce3ebe2d1766e2994edb98437bb622
 RPROVIDES:${PN} += "libXevie.so.1()(64bit) \
 libXevie1 \
 libXevie1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -149,6 +149,7 @@ font(cabincondensedsemiboldcond) \
 font(cabinmedium) \
 font(cabinsemibold) \
 texlive-cabin-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

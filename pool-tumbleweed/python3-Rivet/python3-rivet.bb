@@ -19,6 +19,7 @@ RPM_HASH = "8f7d91a1d58576301d45a531c6ed242319d2b38131918e62c5fa7820c5fb7234cc06
 RPROVIDES:${PN} += "python-Rivet \
 python3-Rivet \
 python3-Rivet(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 Rivet-data \

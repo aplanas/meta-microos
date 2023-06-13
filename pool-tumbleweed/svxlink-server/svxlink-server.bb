@@ -15,6 +15,7 @@ RPM_HASH = "9a7eaf805e9166f08de06e5c09abac8c68acf192aeb345262b2f22982bf23ea5e3c3
 RPROVIDES:${PN} += "config(svxlink-server) \
 svxlink-server \
 svxlink-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -17,6 +17,7 @@ RPM_HASH = "610f72a057fe8e5746b139bb328c7709453810bbbf43e7702abfa9d55e1ea373fdac
 
 RPROVIDES:${PN} += "imapfilter \
 imapfilter(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

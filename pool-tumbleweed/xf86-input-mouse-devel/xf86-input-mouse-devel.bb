@@ -10,6 +10,7 @@ RPM_HASH = "396eb3c068d5a8182604fbbb5c0fa4ea620b3ec0b554d0cbcee1a05c956cb09e23c0
 RPROVIDES:${PN} += "pkgconfig(xorg-mouse) \
 xf86-input-mouse-devel \
 xf86-input-mouse-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 xf86-input-mouse"
 

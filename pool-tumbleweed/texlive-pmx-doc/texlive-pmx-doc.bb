@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(pmxab.1) \
 man(scor2prt.1) \
 texlive-pmx-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

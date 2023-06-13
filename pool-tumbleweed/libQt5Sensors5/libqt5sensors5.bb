@@ -36,6 +36,7 @@ libqtsensorgestures_shakeplugin.so()(64bit) \
 libqtsensors_generic.so()(64bit) \
 libqtsensors_iio-sensor-proxy.so()(64bit) \
 libqtsensors_linuxsys.so()(64bit)"
+
 RDEPENDS:${PN} += "(iio-sensor-proxy if systemd) \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

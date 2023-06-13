@@ -15,6 +15,7 @@ RPM_HASH = "24867a9b10b6abfb7d5c228c424d0aa7ab82cb8eb962ad2d814d95667f7d56b850d3
 RPROVIDES:${PN} += "libzscanner.so.4()(64bit) \
 libzscanner4 \
 libzscanner4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -24,6 +24,7 @@ RPM_HASH = "a0c3234d3db7188367089bd9b17252286f8a47eb0567f0427ab0d5f62c33530d97f8
 RPROVIDES:${PN} += "libpidgin_pp.so()(64bit) \
 pidgin-plugin-privacy-please \
 pidgin-plugin-privacy-please(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

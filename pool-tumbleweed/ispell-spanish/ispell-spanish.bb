@@ -15,6 +15,7 @@ ispell-spanish \
 ispell-spanish(aarch-64) \
 ispell_dictionary \
 locale(ispell:es;an_ES)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

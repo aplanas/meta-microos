@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(dtk-authoryear.bbx) \
 tex(dtk-logos.sty) \
 texlive-dtk-bibliography"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "e0f7ac07409db907d3e349a4fbfa3968c67e3c5a99754004e5ec38cb7b0ae9f4b125
 RPROVIDES:${PN} += "cmake(KF5NotifyConfig) \
 knotifyconfig-devel \
 knotifyconfig-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Widgets) \
 extra-cmake-modules \
 libKF5NotifyConfig5"

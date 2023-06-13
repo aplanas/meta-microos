@@ -92,6 +92,7 @@ locale(vala-panel:zh_HK) \
 locale(vala-panel:zh_TW) \
 vala-panel-lang \
 vala-panel-lang-all"
+
 RDEPENDS:${PN} += "vala-panel"
 
 inherit rpm

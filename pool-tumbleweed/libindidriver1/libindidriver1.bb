@@ -15,6 +15,7 @@ RPM_HASH = "66df25e72e2825e84c6fae309d32cfcd9d307ddd299afaf5e2455cdca0d469a86d07
 RPROVIDES:${PN} += "libindidriver.so.1()(64bit) \
 libindidriver1 \
 libindidriver1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

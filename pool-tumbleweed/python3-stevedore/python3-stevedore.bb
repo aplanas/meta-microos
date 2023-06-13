@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-stevedore \
 python3.10dist(stevedore) \
 python3dist(stevedore)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-importlib-metadata \
 python3-pbr"

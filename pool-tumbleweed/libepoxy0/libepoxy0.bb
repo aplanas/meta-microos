@@ -15,6 +15,7 @@ RPM_HASH = "0772d515b7b0d0a5742f4fe88061e6cd46e4b417f68240da1d961381d2cdd370ba0f
 RPROVIDES:${PN} += "libepoxy.so.0()(64bit) \
 libepoxy0 \
 libepoxy0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

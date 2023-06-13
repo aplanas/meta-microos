@@ -15,6 +15,7 @@ j2ee_management_1_0_api \
 j2ee_management_api \
 mvn(org.apache.geronimo.specs:geronimo-j2ee-management_1.0_spec) \
 mvn(org.apache.geronimo.specs:geronimo-j2ee-management_1.0_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ejb_2_1_api \
 java-headless \

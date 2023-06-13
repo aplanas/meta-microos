@@ -10,6 +10,7 @@ RPM_HASH = "a0d915343f5e368296c16260d793bb2f6da4254d35ef3eb983fd470924f2aa6432f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-skiboot"
+
 RDEPENDS:${PN} += "/bin/sh \
 update-alternatives"
 

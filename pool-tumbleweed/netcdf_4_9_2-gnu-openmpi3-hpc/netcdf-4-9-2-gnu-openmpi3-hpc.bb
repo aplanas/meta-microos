@@ -14,6 +14,7 @@ RPM_HASH = "ddde4d0e64eb4cb5501be2c3d8dd5e9d5ae9c655581c76eaab22b6e0581b6bffdf75
 
 RPROVIDES:${PN} += "netcdf_4_9_2-gnu-openmpi3-hpc \
 netcdf_4_9_2-gnu-openmpi3-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

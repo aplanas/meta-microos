@@ -9,6 +9,7 @@ RPM_HASH = "7a70d2c6e8fb38cc78d82a272ee4dcf9dbf929ff9d3082c47885ea9af98e56c5dd23
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yq-bash-completion"
+
 RDEPENDS:${PN} += "yq"
 
 inherit rpm

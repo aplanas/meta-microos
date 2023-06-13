@@ -29,6 +29,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dtxdescribe.sty) \
 texlive-dtxdescribe"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

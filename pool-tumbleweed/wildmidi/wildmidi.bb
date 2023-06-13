@@ -10,6 +10,7 @@ RPM_HASH = "bae7ac20186ba78086e5eefa7cb9bbd0078f55d81d3fe9701eaf26acc80c73ebd2c5
 
 RPROVIDES:${PN} += "wildmidi \
 wildmidi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libWildMidi.so.2()(64bit) \

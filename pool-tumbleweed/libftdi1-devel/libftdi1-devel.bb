@@ -13,6 +13,7 @@ libftdi1-devel \
 libftdi1-devel(aarch-64) \
 pkgconfig(libftdi1) \
 pkgconfig(libftdipp1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

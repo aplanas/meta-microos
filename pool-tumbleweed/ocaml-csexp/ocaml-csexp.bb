@@ -13,6 +13,7 @@ RPM_HASH = "1ff6bf5ac89c1181fef0825824b71fcd4598930d0f14c4ac451c989f166b108b27f1
 
 RPROVIDES:${PN} += "ocaml-csexp \
 ocaml-csexp(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

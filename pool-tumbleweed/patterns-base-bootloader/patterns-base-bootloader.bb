@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "pattern() \
 pattern-category() \
 patterns-base-bootloader \
 patterns-base-bootloader(aarch-64)"
+
 RDEPENDS:${PN} += "(grub2-branding-openSUSE if branding-openSUSE) \
 (grub2-snapper-plugin if snapper) \
 grub2 \

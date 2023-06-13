@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-rply \
 python3.10dist(rply) \
 python310-rply \
 python3dist(rply)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-appdirs"
 

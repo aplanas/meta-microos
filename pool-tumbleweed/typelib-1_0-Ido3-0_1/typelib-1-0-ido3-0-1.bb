@@ -13,6 +13,7 @@ RPM_HASH = "fdca40bfe7fa3348f8531978e9dee4a90d9c02388f5c94fb27996165581a641810e9
 RPROVIDES:${PN} += "typelib(Ido3) \
 typelib-1_0-Ido3-0_1 \
 typelib-1_0-Ido3-0_1(aarch-64)"
+
 RDEPENDS:${PN} += "libido3-0.1.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

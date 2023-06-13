@@ -92,6 +92,7 @@ locale(palette:zh_HK) \
 locale(palette:zh_TW) \
 palette-lang \
 palette-lang-all"
+
 RDEPENDS:${PN} += "palette"
 
 inherit rpm

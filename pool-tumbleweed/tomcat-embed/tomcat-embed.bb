@@ -21,6 +21,7 @@ osgi(org.apache.tomcat-embed-jasper) \
 osgi(org.apache.tomcat-embed-jasper-el) \
 osgi(org.apache.tomcat-embed-websocket) \
 tomcat-embed"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.tomcat:tomcat-annotations-api) \

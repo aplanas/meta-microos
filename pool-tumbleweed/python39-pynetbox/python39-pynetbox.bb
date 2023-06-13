@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pynetbox) \
 python39-pynetbox \
 python3dist(pynetbox)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-netaddr \
 python39-requests"

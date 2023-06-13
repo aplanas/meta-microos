@@ -12,6 +12,7 @@ RPM_HASH = "92a9c8c7a9f2dee07120685fee9114cb733d34cc4f0b9878feb7f67866be621ab72e
 RPROVIDES:${PN} += "libopus-devel \
 libopus-devel(aarch-64) \
 pkgconfig(opus)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopus0"
 

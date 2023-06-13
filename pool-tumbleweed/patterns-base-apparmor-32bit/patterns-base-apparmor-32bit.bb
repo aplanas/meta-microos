@@ -10,6 +10,7 @@ RPM_HASH = "7155ddfca2b30ac721073c1f158a50e253e6e88716b702be084b5fe4de8d71cdaea1
 RPROVIDES:${PN} += "pattern() \
 patterns-base-apparmor-32bit \
 patterns-base-apparmor-32bit(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

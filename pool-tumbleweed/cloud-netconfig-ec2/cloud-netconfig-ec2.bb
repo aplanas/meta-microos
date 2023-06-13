@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cloud-netconfig \
 cloud-netconfig-ec2"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 curl \

@@ -12,6 +12,7 @@ cmake(Qt6QOpen62541Plugin) \
 pkgconfig(Qt6OpcUa) \
 qt6-opcua-devel \
 qt6-opcua-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Network) \
 libQt6OpcUa6 \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(requests-download) \
 python311-requests-download \
 python3dist(requests-download)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-progressbar \
 python311-requests"

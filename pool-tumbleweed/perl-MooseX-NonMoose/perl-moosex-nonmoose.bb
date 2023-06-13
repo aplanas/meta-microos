@@ -56,6 +56,7 @@ perl(MooseX::NonMoose::InsideOut) \
 perl(MooseX::NonMoose::Meta::Role::Class) \
 perl(MooseX::NonMoose::Meta::Role::Constructor) \
 perl-MooseX-NonMoose"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(List::MoreUtils) \
 perl(Module::Runtime) \

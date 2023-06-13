@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libgnome-games-support-1-3 \
 libgnome-games-support-1-3(aarch-64) \
 libgnome-games-support-1.so.3()(64bit) \
 libgnome-games-support1_3"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

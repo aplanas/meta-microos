@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-jaraco.functools \
 python3.10dist(jaraco.functools) \
 python310-jaraco.functools \
 python3dist(jaraco.functools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jaraco.packaging \
 python310-more-itertools"

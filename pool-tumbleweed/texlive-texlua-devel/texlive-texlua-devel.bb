@@ -12,6 +12,7 @@ RPM_HASH = "b1c9bd97ce7ad0603583c2283489dcfafa3878b0580b5b870a3be161cacc0e2884b4
 RPROVIDES:${PN} += "pkgconfig(texlua53) \
 texlive-texlua-devel \
 texlive-texlua-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtexlua53-5"
 

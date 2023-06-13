@@ -49,6 +49,7 @@ perl(MooseX::AttributeHelpers::Trait::Counter) \
 perl(MooseX::AttributeHelpers::Trait::Number) \
 perl(MooseX::AttributeHelpers::Trait::String) \
 perl-MooseX-AttributeHelpers"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(JSON::PP) \
 perl(Moose) \

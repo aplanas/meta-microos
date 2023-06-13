@@ -14,6 +14,7 @@ papi-devel(aarch-64) \
 pkgconfig(papi) \
 pkgconfig(papi-7.0) \
 pkgconfig(papi-7.0.0.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpapi \
 linux-kernel-headers \

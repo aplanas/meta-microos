@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(boxhandler.sty) \
 texlive-boxhandler"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

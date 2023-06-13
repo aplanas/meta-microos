@@ -84,6 +84,7 @@ libold_stats_mail.so()(64bit) \
 libpigeonhole_settings.so()(64bit) \
 libssl_iostream_openssl.so()(64bit) \
 libstats_auth.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/env \

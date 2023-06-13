@@ -20,6 +20,7 @@ macrofusion \
 mimehandler(application/x-mfusion) \
 mimehandler(image/jpeg) \
 mimehandler(image/tiff)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 enblend-enfuse \
 hugin \

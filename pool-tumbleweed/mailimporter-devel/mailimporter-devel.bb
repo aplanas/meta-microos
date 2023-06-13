@@ -13,6 +13,7 @@ cmake(KPim5MailImporter) \
 cmake(KPim5MailImporterAkonadi) \
 mailimporter-devel \
 mailimporter-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Archive) \
 libKPim5MailImporter5 \
 libKPim5MailImporterAkonadi5"

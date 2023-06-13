@@ -13,6 +13,7 @@ RPM_HASH = "21cac94b8125ca7bce01a7fe2ab9620f311a4a4427f3dea846fc15a329aea1b84637
 RPROVIDES:${PN} += "libboost_log-devel-impl \
 libboost_log1_82_0-devel \
 libboost_log1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_atomic1_82_0-devel \
 libboost_chrono1_82_0-devel \
 libboost_date_time1_82_0-devel \

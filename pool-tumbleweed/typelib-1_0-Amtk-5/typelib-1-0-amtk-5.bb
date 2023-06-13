@@ -14,6 +14,7 @@ RPM_HASH = "f47345e333bf3c061593f3d4a0ac5c7087a7f5ec31d17f8184fbb34a0b28a66240de
 RPROVIDES:${PN} += "typelib(Amtk) \
 typelib-1_0-Amtk-5 \
 typelib-1_0-Amtk-5(aarch-64)"
+
 RDEPENDS:${PN} += "libamtk-5.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

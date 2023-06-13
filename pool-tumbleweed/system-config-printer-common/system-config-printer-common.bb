@@ -12,6 +12,7 @@ RPM_HASH = "1e0a78e7ed913abee5cebe65c2f70e624664f5e124066807e524d28bb017c215ccc0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "system-config-printer-common"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 dbus-1-python3 \
 python3-cairo \

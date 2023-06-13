@@ -10,6 +10,7 @@ RPM_HASH = "1d3f1901504d6f1126627ff122f4f2ae66ab78bf47118a58c2df97b7a07abb15b068
 RPROVIDES:${PN} += "libOrthancTcia.so.1.0()(64bit) \
 orthanc-tcia \
 orthanc-tcia(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "4c2efe94e7fbbd9a82e67878680bcf56042ee8a3495b12994cc8dd1036357bce48fc
 RPROVIDES:${PN} += "gthumb-devel \
 gthumb-devel(aarch-64) \
 pkgconfig(gthumb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gthumb \
 pkgconfig(gtk+-3.0)"

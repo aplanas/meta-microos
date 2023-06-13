@@ -20,6 +20,7 @@ locale(qalculate-gtk:sv) \
 locale(qalculate-gtk:zh_CN) \
 qalculate-gtk-lang \
 qalculate-gtk-lang-all"
+
 RDEPENDS:${PN} += "qalculate-gtk"
 
 inherit rpm

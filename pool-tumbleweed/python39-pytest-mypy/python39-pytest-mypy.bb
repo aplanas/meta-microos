@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-mypy) \
 python39-pytest-mypy \
 python3dist(pytest-mypy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-attrs \
 python39-filelock \

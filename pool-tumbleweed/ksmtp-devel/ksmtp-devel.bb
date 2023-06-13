@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KPim5SMTP) \
 cmake(KPimSMTP) \
 ksmtp-devel \
 ksmtp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5CoreAddons) \
 cmake(KF5I18n) \
 cmake(KF5KIO) \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-structlog \
 python3.10dist(structlog) \
 python310-structlog \
 python3dist(structlog)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

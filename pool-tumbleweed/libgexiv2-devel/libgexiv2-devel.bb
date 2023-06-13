@@ -11,6 +11,7 @@ RPM_HASH = "6fe81132f61198d1bf997b7dfa81db76b08bcf5c508eedf1295d31d052726a00b758
 RPROVIDES:${PN} += "libgexiv2-devel \
 libgexiv2-devel(aarch-64) \
 pkgconfig(gexiv2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgexiv2-2 \
 pkgconfig(exiv2) \

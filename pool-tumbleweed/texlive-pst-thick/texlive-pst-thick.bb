@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-thick.sty) \
 tex(pst-thick.tex) \
 texlive-pst-thick"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

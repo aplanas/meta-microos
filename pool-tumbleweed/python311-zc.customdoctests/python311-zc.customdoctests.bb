@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(zc.customdoctests) \
 python311-zc.customdoctests \
 python3dist(zc.customdoctests)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

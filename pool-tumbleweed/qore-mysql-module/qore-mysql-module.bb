@@ -11,6 +11,7 @@ RPM_HASH = "7ebf0d185a72daf9340217594150f7d6be9b162b3aa2e84a6cf6128633eeea112470
 
 RPROVIDES:${PN} += "qore-mysql-module \
 qore-mysql-module(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

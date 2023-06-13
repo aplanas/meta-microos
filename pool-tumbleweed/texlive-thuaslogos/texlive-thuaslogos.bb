@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(thuaslogos.sty) \
 texlive-thuaslogos"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

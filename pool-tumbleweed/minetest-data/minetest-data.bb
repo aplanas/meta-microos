@@ -12,6 +12,7 @@ RPM_HASH = "b4897a067397cdedd6691784622884ffc7bed3eff85d33b6455c337bb50fd21bd4f7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "minetest-data"
+
 RDEPENDS:${PN} += "google-arimo-fonts \
 google-cousine-fonts \
 google-droid-fonts"

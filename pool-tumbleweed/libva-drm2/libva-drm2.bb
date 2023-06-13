@@ -13,6 +13,7 @@ RPM_HASH = "a6df2d4674a315fe2ffea5eaeff981bce909224377ce2bb68bcd55b78779861b8fe6
 RPROVIDES:${PN} += "libva-drm.so.2()(64bit) \
 libva-drm2 \
 libva-drm2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

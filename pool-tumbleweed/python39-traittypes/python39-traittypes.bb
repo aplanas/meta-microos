@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(traittypes) \
 python39-traittypes \
 python3dist(traittypes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-traitlets"
 

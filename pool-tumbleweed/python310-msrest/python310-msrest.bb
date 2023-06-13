@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-msrest \
 python3.10dist(msrest) \
 python310-msrest \
 python3dist(msrest)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-certifi \

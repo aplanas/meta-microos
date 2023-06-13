@@ -12,6 +12,7 @@ RPM_HASH = "abb8d162e2ab573d5c1faeed3131f8775c265619df349466c8dacdda9a4224d13fc0
 
 RPROVIDES:${PN} += "python39-qt5-quick3d-devel \
 python39-qt5-quick3d-devel(aarch-64)"
+
 RDEPENDS:${PN} += "pkgconfig(Qt5Quick3D) \
 python(abi) \
 python39-qt5-devel"

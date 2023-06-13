@@ -11,6 +11,7 @@ RPM_HASH = "32d78680cb0e27df277faa5626621684856f8f4e906fe8671ffaa48457412a8dc9c4
 RPROVIDES:${PN} += "libosmo-ranap.so.7()(64bit) \
 libosmo-ranap7 \
 libosmo-ranap7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

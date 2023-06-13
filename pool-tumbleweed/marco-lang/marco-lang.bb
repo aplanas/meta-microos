@@ -97,6 +97,7 @@ locale(marco:zh_HK) \
 locale(marco:zh_TW) \
 marco-lang \
 marco-lang-all"
+
 RDEPENDS:${PN} += "marco"
 
 inherit rpm

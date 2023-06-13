@@ -10,6 +10,7 @@ RPM_HASH = "197811ce510d1fda862b9603a2a78d112dda729928e4b6575cf4d7cacdd118ef03a1
 
 RPROVIDES:${PN} += "vips-tools \
 vips-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

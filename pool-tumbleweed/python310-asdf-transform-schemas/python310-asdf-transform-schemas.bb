@@ -14,6 +14,7 @@ python3.10dist(asdf-transform-schemas) \
 python310-asdf-transform-schemas \
 python310-asdf_transform_schemas \
 python3dist(asdf-transform-schemas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-asdf-standard"
 

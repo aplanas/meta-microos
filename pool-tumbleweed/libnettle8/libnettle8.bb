@@ -14,6 +14,7 @@ libnettle.so.8(NETTLE_8)(64bit) \
 libnettle.so.8(NETTLE_INTERNAL_8_7)(64bit) \
 libnettle8 \
 libnettle8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

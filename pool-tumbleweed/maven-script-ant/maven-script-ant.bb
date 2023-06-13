@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-script-ant \
 mvn(org.apache.maven.plugin-tools:maven-script-ant) \
 mvn(org.apache.maven.plugin-tools:maven-script-ant:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.ant:ant) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(dash-renderer) \
 python39-dash-renderer \
 python3dist(dash-renderer)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

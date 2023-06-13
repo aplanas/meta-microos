@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jcl-over-slf4j \
 mvn(org.slf4j:jcl-over-slf4j) \
 mvn(org.slf4j:jcl-over-slf4j:pom:) \
 osgi(jcl.over.slf4j)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.slf4j:slf4j-api)"

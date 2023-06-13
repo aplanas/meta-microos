@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hep-acronym.sty) \
 texlive-hep-acronym"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

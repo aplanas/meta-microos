@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(XML::SAX::Expat) \
 perl-XML-SAX-Expat"
+
 RDEPENDS:${PN} += "/bin/sh \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(XML::NamespaceSupport) \

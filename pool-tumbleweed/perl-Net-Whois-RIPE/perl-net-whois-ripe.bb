@@ -76,6 +76,7 @@ perl(Net::Whois::Object::RtrSet::AFRINIC) \
 perl(Net::Whois::Object::RtrSet::APNIC) \
 perl(Net::Whois::RIPE) \
 perl-Net-Whois-RIPE"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Iterator)"
 

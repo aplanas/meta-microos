@@ -31,6 +31,7 @@ qt6qmlimport(QtMultimedia.2) \
 qt6qmlimport(QtMultimedia.5) \
 qt6qmlimport(QtMultimedia.6) \
 qt6qmlimport(QtQuick3D.SpatialAudio.6)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

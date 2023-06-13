@@ -9,6 +9,7 @@ RPM_HASH = "aae0ab6d3e68ba851f7177ec9f3bf6bef72b8f22a5039fba804410f20685406f1f96
 
 RPROVIDES:${PN} += "texlive-luaotfload-bin \
 texlive-luaotfload-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-luaotfload"
 
 inherit rpm

@@ -15,6 +15,7 @@ findutils-locate \
 findutils:/usr/bin/locate \
 mlocate \
 mlocate(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

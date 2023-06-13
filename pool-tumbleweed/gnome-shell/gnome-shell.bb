@@ -25,6 +25,7 @@ typelib(Gvc) \
 typelib(Shell) \
 typelib(Shew) \
 typelib(St)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 gdk-pixbuf-loader-rsvg \

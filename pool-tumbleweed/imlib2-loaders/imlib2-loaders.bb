@@ -24,6 +24,7 @@ imlib2-loader_xpm \
 imlib2-loader_zlib \
 imlib2-loaders \
 imlib2-loaders(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libImlib2.so.1()(64bit) \

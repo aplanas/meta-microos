@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-desktop-kde \
 patterns-microos-desktop-kde(aarch-64)"
+
 RDEPENDS:${PN} += "(gtk2-metatheme-breeze if gtk2) \
 (gtk3-metatheme-breeze if gtk3) \
 (gtk4-metatheme-breeze if gtk4) \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-paramiko-expect \
 python3.10dist(paramiko-expect) \
 python310-paramiko-expect \
 python3dist(paramiko-expect)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-paramiko"
 

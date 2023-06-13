@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.scala-sbt:serialization_2.10) \
 mvn(org.scala-sbt:serialization_2.10:pom:) \
 serialization"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.json4s:json4s-ast_2.10) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-PyMeeus \
 python3.10dist(pymeeus) \
 python310-PyMeeus \
 python3dist(pymeeus)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

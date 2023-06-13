@@ -10,6 +10,7 @@ RPM_HASH = "c43b359548da1e4657d92664b6fad615ddf0a6c5d9c9c399b7cbf920ac96a41f3a8e
 RPROVIDES:${PN} += "libecryptfs.so.1()(64bit) \
 libecryptfs1 \
 libecryptfs1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

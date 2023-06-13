@@ -12,6 +12,7 @@ RPM_HASH = "b595435dafa37f53123be3eb378cda9ea712ca9fe83f8852f9c92e7153b999bc0067
 RPROVIDES:${PN} += "libcint.so.4()(64bit) \
 libcint4 \
 libcint4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

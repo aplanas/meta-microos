@@ -51,6 +51,7 @@ locale(aria2:vi) \
 locale(aria2:zh_CN) \
 locale(aria2:zh_HK) \
 locale(aria2:zh_TW)"
+
 RDEPENDS:${PN} += "aria2"
 
 inherit rpm

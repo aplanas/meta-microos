@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "/sbin/start_daemon \
 /sbin/startproc \
 sysvinit-tools \
 sysvinit-tools(aarch-64)"
+
 RDEPENDS:${PN} += "blog \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

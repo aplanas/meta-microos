@@ -9,6 +9,7 @@ RPM_HASH = "d1622f1f6a32eacf7bee34b58ae11bcc0e2a3454b24fd8c05a8919e5accc90e37aa4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-physical-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

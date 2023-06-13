@@ -11,6 +11,7 @@ RPM_HASH = "d97ad36f1a6eae4cd424e65a33994eb168408191ce2873a0d444147ffd244f2dae70
 
 RPROVIDES:${PN} += "petsc_3_18_5-gnu-openmpi3-hpc-saws \
 petsc_3_18_5-gnu-openmpi3-hpc-saws(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 libpetsc_3_18_5-gnu-openmpi3-hpc"

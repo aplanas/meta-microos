@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-tftp \
 nagios-plugins-tftp"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(FileHandle) \
 perl(Net::TFTP)"

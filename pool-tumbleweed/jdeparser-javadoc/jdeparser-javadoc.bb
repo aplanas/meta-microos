@@ -9,6 +9,7 @@ RPM_HASH = "a2ae6146c92b24617969a9d554f0401a79f6cc36485745d99f39344e5dbedb671e91
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdeparser-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

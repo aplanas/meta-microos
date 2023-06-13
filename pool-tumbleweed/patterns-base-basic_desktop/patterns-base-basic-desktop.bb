@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-base-basic_desktop \
 patterns-base-basic_desktop(aarch-64)"
+
 RDEPENDS:${PN} += "icewm-default \
 icewm-theme-branding \
 pattern()"

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-django-oauth-toolkit \
 python3.10dist(django-oauth-toolkit) \
 python310-django-oauth-toolkit \
 python3dist(django-oauth-toolkit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-jwcrypto \

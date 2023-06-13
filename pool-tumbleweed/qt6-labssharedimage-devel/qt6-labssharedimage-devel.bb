@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6LabsSharedImage) \
 pkgconfig(Qt6LabsSharedImage) \
 qt6-labssharedimage-devel \
 qt6-labssharedimage-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt6LabsSharedImage6 \
 pkgconfig(Qt6Core) \

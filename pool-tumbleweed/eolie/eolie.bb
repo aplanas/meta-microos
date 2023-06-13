@@ -23,6 +23,7 @@ mimehandler(text/html) \
 mimehandler(text/xml) \
 mimehandler(x-scheme-handler/http) \
 mimehandler(x-scheme-handler/https)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-cairo \

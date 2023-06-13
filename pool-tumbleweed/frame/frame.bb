@@ -11,6 +11,7 @@ RPM_HASH = "b8d4948973e7b28866752b0598a10cf02e8d0e753b46068865134ebfa9afb6b088f0
 RPROVIDES:${PN} += "frame \
 frame(aarch-64) \
 frame-tools"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

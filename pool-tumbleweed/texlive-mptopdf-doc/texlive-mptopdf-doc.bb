@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(mptopdf.1) \
 texlive-mptopdf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

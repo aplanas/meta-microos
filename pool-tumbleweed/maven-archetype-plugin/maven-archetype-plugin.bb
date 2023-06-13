@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-archetype-plugin \
 mvn(org.apache.maven.plugins:maven-archetype-plugin) \
 mvn(org.apache.maven.plugins:maven-archetype-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-collections:commons-collections) \

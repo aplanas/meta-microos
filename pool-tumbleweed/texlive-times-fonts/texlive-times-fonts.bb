@@ -105,6 +105,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(nimbusromanno9l) \
 texlive-times-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

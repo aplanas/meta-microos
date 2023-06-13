@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "kde-odf-thumbnail \
 kfileaudiopreview \
 kio-extras5 \
 kio-extras5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

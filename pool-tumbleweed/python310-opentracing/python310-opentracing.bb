@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-opentracing \
 python3.10dist(opentracing) \
 python310-opentracing \
 python3dist(opentracing)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

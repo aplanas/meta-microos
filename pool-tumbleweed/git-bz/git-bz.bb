@@ -13,6 +13,7 @@ RPM_HASH = "8bc176101f949c6ac64c561da5234181288eec46b4e90775a8a6be5144bc1feda530
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-bz"
+
 RDEPENDS:${PN} += "/usr/bin/python2"
 
 inherit rpm

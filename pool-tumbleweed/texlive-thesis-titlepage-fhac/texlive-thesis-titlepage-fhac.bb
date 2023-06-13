@@ -14,6 +14,7 @@ tex(fhACtitlepage.sty) \
 tex(figbib_add.sty) \
 tex(gloss_add.sty) \
 texlive-thesis-titlepage-fhac"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

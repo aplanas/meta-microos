@@ -15,6 +15,7 @@ RPM_HASH = "857c6392b3ef910b9bcb95864e915fe738a98a68d3fa2578975b61b8126a301a76b6
 
 RPROVIDES:${PN} += "libmirage-3_2 \
 libmirage-3_2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

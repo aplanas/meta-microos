@@ -12,6 +12,7 @@ RPM_HASH = "2faf3b47b43f8a4587aea1fe8c3cd1bb9d2ec6bd1e8ced7d6042bd38f5449a019b63
 RPROVIDES:${PN} += "ghc-primes \
 ghc-primes(aarch-64) \
 libHSprimes-0.2.1.0-EDehUtw1pOPPL7EktYCRg-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

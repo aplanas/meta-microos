@@ -10,6 +10,7 @@ RPM_HASH = "947ea28c9825ad459f8153363579024dd3605637c151c778417451399d34b39d708e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "build-mkbaselibs"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

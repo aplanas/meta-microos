@@ -13,6 +13,7 @@ python311-jupyter-collaboration \
 python311-jupyter-server-ydoc \
 python311-jupyter_server_ydoc \
 python3dist(jupyter-server-ydoc)"
+
 RDEPENDS:${PN} += "(python311-jupyter_server_fileid >= 0.6.0 with python311-jupyter_server_fileid < 1) \
 (python311-jupyter_ydoc >= 0.2.0 with python311-jupyter_ydoc < 0.4) \
 (python311-ypy-websocket >= 0.8.2 with python311-ypy-websocket < 0.9) \

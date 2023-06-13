@@ -11,6 +11,7 @@ RPM_HASH = "c663679727eca43241eed7155cb2127f7da54e45a0ffc7c0a1bb1d4be3d3b7e27a91
 RPROVIDES:${PN} += "libsrecord.so.0()(64bit) \
 libsrecord0 \
 libsrecord0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

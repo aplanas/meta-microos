@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "parallel-netcdf-openmpi1-devel-data \
 pnetcdf-devel-data \
 rpm_macro(_pnetcdf_sonum) \
 rpm_macro(_pnetcdf_version)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

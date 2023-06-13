@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(typogrid.sty) \
 texlive-typogrid"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

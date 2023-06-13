@@ -11,6 +11,7 @@ RPM_HASH = "eab6243011dc6637ed5afa10b2021320d697c17438367988b78100ce31007ea01478
 RPROVIDES:${PN} += "pkgconfig(texluajit) \
 texlive-texluajit-devel \
 texlive-texluajit-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtexlua53-5"
 

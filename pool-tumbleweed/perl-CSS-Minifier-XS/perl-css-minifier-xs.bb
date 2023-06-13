@@ -14,6 +14,7 @@ RPM_HASH = "0da6f73c19ac83d937cc69e44043839996f51a9b6d55bfc536a79112076cdf6adde9
 RPROVIDES:${PN} += "perl(CSS::Minifier::XS) \
 perl-CSS-Minifier-XS \
 perl-CSS-Minifier-XS(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

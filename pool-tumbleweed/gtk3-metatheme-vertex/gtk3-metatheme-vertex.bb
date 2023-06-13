@@ -13,6 +13,7 @@ RPM_HASH = "314d64b36133515f4737cad201a3e8852ec1dac15f35d64f5a20a3cd25f2e1e57613
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-vertex"
+
 RDEPENDS:${PN} += "gtk3 \
 metatheme-vertex-common"
 

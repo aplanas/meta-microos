@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-deprecation \
 python3.10dist(deprecation) \
 python310-deprecation \
 python3dist(deprecation)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

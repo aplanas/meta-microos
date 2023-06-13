@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(endnotesj.sty) \
 texlive-endnotesj"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

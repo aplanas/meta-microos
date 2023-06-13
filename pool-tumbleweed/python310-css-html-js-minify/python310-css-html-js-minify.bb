@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-css-html-js-minify \
 python3.10dist(css-html-js-minify) \
 python310-css-html-js-minify \
 python3dist(css-html-js-minify)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

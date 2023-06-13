@@ -21,6 +21,7 @@ typelib(Cogl) \
 typelib(CoglPango) \
 typelib(Meta) \
 windowmanager"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnome-settings-daemon \
 ld-linux-aarch64.so.1()(64bit) \

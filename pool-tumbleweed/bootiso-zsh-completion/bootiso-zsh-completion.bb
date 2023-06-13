@@ -9,6 +9,7 @@ RPM_HASH = "1335aaaba8435a02d2771ef2105858445dafc7a37acf768e3be1c18f4f22bccbba5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bootiso-zsh-completion"
+
 RDEPENDS:${PN} += "bootiso"
 
 inherit rpm

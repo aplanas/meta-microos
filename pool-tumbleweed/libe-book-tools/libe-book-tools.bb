@@ -10,6 +10,7 @@ RPM_HASH = "23778be0278ec987386910a1a2a41d0110864cf34b3f1dcffb998d8dc84ea8824d37
 
 RPROVIDES:${PN} += "libe-book-tools \
 libe-book-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

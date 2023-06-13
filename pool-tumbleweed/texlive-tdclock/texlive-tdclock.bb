@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tdclock.sty) \
 texlive-tdclock"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

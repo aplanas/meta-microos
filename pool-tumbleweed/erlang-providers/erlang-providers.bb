@@ -9,6 +9,7 @@ RPM_HASH = "4cb007892a8657fbfa4c1cdf3894572acd92c38f7c9404954852cdeda217e5c836d5
 
 RPROVIDES:${PN} += "erlang-providers \
 erlang-providers(aarch-64)"
+
 RDEPENDS:${PN} += "erlang \
 erlang-getopt"
 

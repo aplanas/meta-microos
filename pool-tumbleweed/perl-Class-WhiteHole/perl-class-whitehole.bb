@@ -23,6 +23,7 @@ RPM_HASH = "03883e77898027d3f48c73d5c6324526c9134c5650cdd05f45cbf1e58d3abc74fc79
 RPROVIDES:${PN} += "perl(Class::WhiteHole) \
 perl-Class-WhiteHole \
 perl-Class-WhiteHole(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

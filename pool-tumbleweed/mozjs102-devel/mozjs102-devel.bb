@@ -15,6 +15,7 @@ RPM_HASH = "215afff6899eb5d746f1773ac090d0e8809d204f1558f95c95f59794dadd06efd4fa
 RPROVIDES:${PN} += "mozjs102-devel \
 mozjs102-devel(aarch-64) \
 pkgconfig(mozjs-102)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmozjs-102-0 \
 pkgconfig"

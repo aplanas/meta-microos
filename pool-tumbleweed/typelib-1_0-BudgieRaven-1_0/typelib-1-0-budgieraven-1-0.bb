@@ -12,6 +12,7 @@ RPM_HASH = "714ad345c0cf51dc85a053dd436b1a2fada567fb18803b6225cac732bd471cebaa6d
 RPROVIDES:${PN} += "typelib(BudgieRaven) \
 typelib-1_0-BudgieRaven-1_0 \
 typelib-1_0-BudgieRaven-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libbudgie-raven-plugin.so.0()(64bit) \
 typelib(Atk) \
 typelib(GIRepository) \

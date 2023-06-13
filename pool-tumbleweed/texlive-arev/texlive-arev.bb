@@ -66,6 +66,7 @@ tex(zavmr7y.vf) \
 tex(zavmri7m.tfm) \
 tex(zavmri7m.vf) \
 texlive-arev"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

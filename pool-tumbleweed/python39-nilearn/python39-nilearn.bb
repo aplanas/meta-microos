@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(nilearn) \
 python39-nilearn \
 python3dist(nilearn)"
+
 RDEPENDS:${PN} += "/bin/bash \
 python(abi) \
 python39-joblib \

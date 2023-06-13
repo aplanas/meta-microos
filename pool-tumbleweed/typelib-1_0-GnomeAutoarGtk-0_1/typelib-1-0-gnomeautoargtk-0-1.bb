@@ -11,6 +11,7 @@ RPM_HASH = "c84fe0682c3064977f10c8d3fb14a202914a35f115afd97a09002294e56172eedbc2
 RPROVIDES:${PN} += "typelib(GnomeAutoarGtk) \
 typelib-1_0-GnomeAutoarGtk-0_1 \
 typelib-1_0-GnomeAutoarGtk-0_1(aarch-64)"
+
 RDEPENDS:${PN} += "libgnome-autoar-gtk-0.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

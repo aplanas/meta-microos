@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-logging-journald \
 python3.10dist(logging-journald) \
 python310-logging-journald \
 python3dist(logging-journald)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

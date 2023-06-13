@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-botocore \
 python3.10dist(botocore) \
 python310-botocore \
 python3dist(botocore)"
+
 RDEPENDS:${PN} += "(python310-jmespath >= 0.7.1 with python310-jmespath < 2.0.0) \
 (python310-python-dateutil >= 2.1 with python310-python-dateutil < 3.0.0) \
 python(abi) \

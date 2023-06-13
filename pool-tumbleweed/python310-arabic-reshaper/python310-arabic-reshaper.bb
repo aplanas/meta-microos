@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-arabic-reshaper \
 python3.10dist(arabic-reshaper) \
 python310-arabic-reshaper \
 python3dist(arabic-reshaper)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future"
 

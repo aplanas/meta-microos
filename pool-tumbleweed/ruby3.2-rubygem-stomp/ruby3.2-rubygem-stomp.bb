@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:stomp:1) \
 rubygem(ruby:3.2.0:stomp:1.4) \
 rubygem(ruby:3.2.0:stomp:1.4.10) \
 rubygem(stomp)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/ruby.ruby3.2 \

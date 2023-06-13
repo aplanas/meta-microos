@@ -10,6 +10,7 @@ RPM_HASH = "e19d68798bf4d230f451326cbf8986a869fed6ee95eec6907582b8d69d2dfc9fb327
 
 RPROVIDES:${PN} += "ispc \
 ispc(aarch-64)"
+
 RDEPENDS:${PN} += "ispc-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

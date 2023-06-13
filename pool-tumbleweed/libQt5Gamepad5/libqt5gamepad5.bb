@@ -32,6 +32,7 @@ libQt5Gamepad5 \
 libQt5Gamepad5(aarch-64) \
 libevdevgamepad.so()(64bit) \
 libsdl2gamepad.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

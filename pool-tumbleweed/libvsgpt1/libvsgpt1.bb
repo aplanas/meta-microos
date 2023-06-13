@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libvsgpt.so.1()(64bit) \
 libvsgpt.so.1(V_20221029)(64bit) \
 libvsgpt1 \
 libvsgpt1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

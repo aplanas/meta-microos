@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lewis.sty) \
 texlive-lewis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(totcount.sty) \
 texlive-totcount"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

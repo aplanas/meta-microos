@@ -19,6 +19,7 @@ tex(kolabels-utf.sty) \
 tex(konames-utf.sty) \
 tex(kotex.sty) \
 texlive-cjk-ko"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

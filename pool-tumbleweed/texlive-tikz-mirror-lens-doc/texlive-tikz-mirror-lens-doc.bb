@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-tikz-mirror-lens-doc:pt_BR) \
 texlive-tikz-mirror-lens-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

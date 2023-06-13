@@ -26,6 +26,7 @@ RPM_HASH = "0818638d9648f77984626477e7738c5267ea1031a3a43db42957f0011f7dd1284e8c
 
 RPROVIDES:${PN} += "dsvpn \
 dsvpn(aarch-64)"
+
 RDEPENDS:${PN} += "iproute2 \
 iptables \
 ld-linux-aarch64.so.1()(64bit) \

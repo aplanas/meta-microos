@@ -60,6 +60,7 @@ locale(xfce4-datetime-plugin:zh_TW) \
 xfce4-datetime-plugin-lang \
 xfce4-datetime-plugin-lang-all \
 xfce4-panel-plugin-datetime-lang"
+
 RDEPENDS:${PN} += "xfce4-datetime-plugin"
 
 inherit rpm

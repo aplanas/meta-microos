@@ -19,6 +19,7 @@ RPM_HASH = "b4fd2d720f95d176a1b138dece3a8865f43bb144823fbe69d83686295b7938bc0213
 RPROVIDES:${PN} += "ghc-optparse-applicative \
 ghc-optparse-applicative(aarch-64) \
 libHSoptparse-applicative-0.17.0.0-FKlMMFcKpwNJEuIq63gWOB-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so()(64bit) \
 libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so()(64bit) \
 libHSansi-wl-pprint-0.6.9-1uNId4TIZRh7T7KEIBVXZI-ghc9.4.5.so()(64bit) \

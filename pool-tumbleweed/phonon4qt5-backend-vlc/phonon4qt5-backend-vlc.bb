@@ -15,6 +15,7 @@ RPM_HASH = "d3fca7941b0851307f77ba4f3820d9df9d99bcaf1d96e8bc02b7a5f0bd2e758778a9
 RPROVIDES:${PN} += "phonon4qt5-backend \
 phonon4qt5-backend-vlc \
 phonon4qt5-backend-vlc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

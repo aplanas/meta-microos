@@ -19,6 +19,7 @@ man(tftopl.1) \
 man(vftovp.1) \
 man(vptovf.1) \
 texlive-fontware"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

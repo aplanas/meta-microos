@@ -35,6 +35,7 @@ libQt5Core.so.5(Qt_5.9)(64bit) \
 libQt5Core5 \
 libQt5Core5(aarch-64) \
 libqt5-qtbase"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

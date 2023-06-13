@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(acmconf.cls) \
 texlive-acmconf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

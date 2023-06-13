@@ -10,6 +10,7 @@ RPM_HASH = "fa775c17e627d94c36e23f660f158a932ce1b3d82ee899c5c3a28cd1d6bd3eac10c4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texloganalyser"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

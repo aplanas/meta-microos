@@ -9,6 +9,7 @@ RPM_HASH = "a08377d18ea4d3e4148b0b43e9526de626f7ffd0f91a757237624946cebef8f74b99
 
 RPROVIDES:${PN} += "clthreads-devel \
 clthreads-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libclthreads2"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "9237d92ef4ae3ea6a8f1df139dddca5ee762b92c36c326b6dc7b17c7f2eb21153cdc
 
 RPROVIDES:${PN} += "smake \
 smake(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "5243dc964a6f815e90308c0e3580816103f4526dc0fe5feae48498f83647d0b28934
 RPROVIDES:${PN} += "libdde-wayland-server.so.0()(64bit) \
 libdde-wayland-server0 \
 libdde-wayland-server0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

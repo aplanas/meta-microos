@@ -11,6 +11,7 @@ RPM_HASH = "113c4e6b90cdcb0181edbc4ebb543a7cea088f8d75324be75c64057d40e6c69f5f76
 
 RPROVIDES:${PN} += "ocaml-sha \
 ocaml-sha(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

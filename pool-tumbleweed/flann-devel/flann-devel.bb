@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(flann) \
 flann-devel \
 flann-devel(aarch-64) \
 pkgconfig(flann)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libflann1_9 \
 liblz4-devel"

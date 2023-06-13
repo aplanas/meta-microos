@@ -14,6 +14,7 @@ RPM_HASH = "c8672483131124176898f82154465d8eecd36358519e8713ff839d39a340fbdc3ab7
 RPROVIDES:${PN} += "x11-input-synaptics \
 xf86-input-synaptics \
 xf86-input-synaptics(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 X11_ABI_XINPUT \
 ld-linux-aarch64.so.1()(64bit) \

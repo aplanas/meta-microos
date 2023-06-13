@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-typer \
 python3.10dist(typer) \
 python310-typer \
 python3dist(typer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click"
 

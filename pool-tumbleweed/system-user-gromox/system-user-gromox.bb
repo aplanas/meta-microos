@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(gromox) \
 system-user-gromox \
 user(gromox)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

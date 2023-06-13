@@ -11,6 +11,7 @@ RPM_HASH = "5114f26f8a32c9425c924fbbeb1fad985d37b199a59e38320bf5ded03bb91dfa8fc8
 RPROVIDES:${PN} += "libcephfs-devel \
 libcephfs-devel(aarch-64) \
 libcephfs2-devel"
+
 RDEPENDS:${PN} += "libcephfs2 \
 librados-devel"
 

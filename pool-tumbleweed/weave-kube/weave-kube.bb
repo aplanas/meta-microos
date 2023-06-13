@@ -17,6 +17,7 @@ RPM_HASH = "370b18b4b5625f6092dc404619d89a3ab6fa2f29db13ffe463bd51f405dce9741b11
 
 RPROVIDES:${PN} += "weave-kube \
 weave-kube(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/modprobe \
 bind-utils \

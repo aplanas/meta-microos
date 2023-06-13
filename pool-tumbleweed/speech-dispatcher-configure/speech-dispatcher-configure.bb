@@ -19,6 +19,7 @@ RPM_HASH = "b1a8f61cda275c5c27a43e11bfb03094194c03e39cef159ebf65c6d04b72b7dbba42
 
 RPROVIDES:${PN} += "speech-dispatcher-configure \
 speech-dispatcher-configure(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-pyxdg \

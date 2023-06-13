@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3.11dist(tox) \
 python311-detox \
 python311-tox \
 python3dist(tox)"
+
 RDEPENDS:${PN} += "(python311-importlib-metadata >= 0.12 if python3-base < 3.8) \
 /bin/sh \
 /usr/bin/python3.11 \

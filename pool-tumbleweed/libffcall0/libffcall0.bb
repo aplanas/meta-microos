@@ -11,6 +11,7 @@ RPM_HASH = "ca8a51eafff6329c70c120bde566ed6caca20d3e7752a7dc056aa1e86755b6323849
 RPROVIDES:${PN} += "libffcall.so.0()(64bit) \
 libffcall0 \
 libffcall0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit)"
 

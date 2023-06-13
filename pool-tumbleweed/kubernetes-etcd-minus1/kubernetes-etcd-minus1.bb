@@ -9,6 +9,7 @@ RPM_HASH = "dd024602a3a7215d91b1ade5d72ad3dc91a85869530f7f405ac005f014c0e24f4358
 
 RPROVIDES:${PN} += "kubernetes-etcd-minus1 \
 kubernetes-etcd-minus1(aarch-64)"
+
 RDEPENDS:${PN} += "etcd-for-k8s1.26"
 
 inherit rpm

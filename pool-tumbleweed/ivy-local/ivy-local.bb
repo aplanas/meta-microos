@@ -11,6 +11,7 @@ RPM_HASH = "5b03b800cd915a4208ab053dc5ff4556733ada99efb7f67c796428bbd9f5d9c9e9fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ivy-local"
+
 RDEPENDS:${PN} += "ant \
 apache-ivy \
 javapackages-ivy \

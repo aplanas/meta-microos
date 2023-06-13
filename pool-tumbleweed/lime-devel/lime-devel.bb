@@ -16,6 +16,7 @@ RPM_HASH = "4ce78a8203aa871ca33f1bef23f4b49a2b15dbbdb0410f25cd45ba0901b529f44a1d
 
 RPROVIDES:${PN} += "lime-devel \
 lime-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbctoolbox-tester.so.1()(64bit) \

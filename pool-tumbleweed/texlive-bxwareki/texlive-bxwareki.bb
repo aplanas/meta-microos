@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(bxwareki-cd.def) \
 tex(bxwareki.sty) \
 tex(bxwareki2019.def) \
 texlive-bxwareki"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "a592e2b9a5bbd781cd7940c38d69d9ded88c2ed77a5410e15b425f14c5f52d1cb1d3
 RPROVIDES:${PN} += "makeinfo \
 makeinfo(aarch-64) \
 texinfo:/usr/bin/makeinfo"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

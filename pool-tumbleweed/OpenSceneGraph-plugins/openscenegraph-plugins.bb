@@ -15,6 +15,7 @@ RPM_HASH = "27e5de8efa3b62b4829a7fb835cff5bd4ecc2db9b85d0698f810bd28a1d72443bab0
 
 RPROVIDES:${PN} += "OpenSceneGraph-plugins \
 OpenSceneGraph-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "4b30f7dc42c372770c9cb4f89555b656dc757321647ee8099e292528b3f394fd8fa9
 RPROVIDES:${PN} += "grail \
 grail(aarch-64) \
 grail-tools"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

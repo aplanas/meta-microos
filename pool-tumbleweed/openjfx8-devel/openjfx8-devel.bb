@@ -10,6 +10,7 @@ RPM_HASH = "a2ec48fb999ebb3ec00d485be7156c2aa8bb015288ee15deed7e20dfb31aac9dd9ff
 RPROVIDES:${PN} += "java-1_8_0-openjfx-devel \
 openjfx8-devel \
 openjfx8-devel(aarch-64)"
+
 RDEPENDS:${PN} += "java-devel \
 openjfx8"
 

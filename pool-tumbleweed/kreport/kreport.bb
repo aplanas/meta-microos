@@ -9,6 +9,7 @@ RPM_HASH = "c21eb6793344ab2e2e3b2777f499b57dca6ef691fd6afa3acab6df88c6354575cd2f
 
 RPROVIDES:${PN} += "kreport \
 kreport(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

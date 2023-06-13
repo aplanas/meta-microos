@@ -46,6 +46,7 @@ libndctl.so.6(LIBNDCTL_28)(64bit) \
 libndctl.so.6(LIBNDCTL_3)(64bit) \
 libndctl6 \
 libndctl6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

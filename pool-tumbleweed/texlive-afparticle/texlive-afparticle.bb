@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(afparticle.cls) \
 texlive-afparticle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

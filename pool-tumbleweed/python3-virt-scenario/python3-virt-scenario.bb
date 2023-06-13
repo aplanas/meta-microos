@@ -15,6 +15,7 @@ python3-virt-scenario \
 python3.10dist(virt-scenario) \
 python3dist(virt-scenario) \
 virt-scenario"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PyYAML \

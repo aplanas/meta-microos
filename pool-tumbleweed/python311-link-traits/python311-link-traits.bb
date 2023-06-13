@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(link-traits) \
 python311-link-traits \
 python3dist(link-traits)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-traits"
 

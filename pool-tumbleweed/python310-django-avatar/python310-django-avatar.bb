@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-django-avatar \
 python3.10dist(django-avatar) \
 python310-django-avatar \
 python3dist(django-avatar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-Pillow \

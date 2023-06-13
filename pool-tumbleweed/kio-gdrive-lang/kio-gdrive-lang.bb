@@ -51,6 +51,7 @@ locale(kio-gdrive:tr) \
 locale(kio-gdrive:uk) \
 locale(kio-gdrive:zh_CN) \
 locale(kio-gdrive:zh_TW)"
+
 RDEPENDS:${PN} += "kio-gdrive"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPM_HASH = "6d377c9a5d79e708d055dd607febe2393f3d03bc2ca36a68a8f35eead7f53e14aa40
 
 RPROVIDES:${PN} += "tecla \
 tecla(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

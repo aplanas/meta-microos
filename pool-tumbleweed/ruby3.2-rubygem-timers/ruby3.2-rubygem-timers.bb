@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:timers:4) \
 rubygem(ruby:3.2.0:timers:4.3) \
 rubygem(ruby:3.2.0:timers:4.3.5) \
 rubygem(timers)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

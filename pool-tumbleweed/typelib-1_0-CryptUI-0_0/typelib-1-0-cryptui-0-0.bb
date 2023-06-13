@@ -13,6 +13,7 @@ RPM_HASH = "3a41e8dc5dde38ffb2371f6ccb6cc9c77a3b171cd1a2fd523295ba152967166f2ad6
 RPROVIDES:${PN} += "typelib(CryptUI) \
 typelib-1_0-CryptUI-0_0 \
 typelib-1_0-CryptUI-0_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcryptui.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

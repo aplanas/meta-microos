@@ -9,6 +9,7 @@ RPM_HASH = "f1b0d8c56f5e95a8ad4680a459a1ca63c50dcc98e3ddcce170305f8c80ca62c3d719
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-base-compat-batteries-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

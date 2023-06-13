@@ -9,6 +9,7 @@ RPM_HASH = "bc87cdb90003953dea4460bb48417f172041bf463505c6e8904ed09d81f66afdebcd
 
 RPROVIDES:${PN} += "freeradius-server-python3 \
 freeradius-server-python3(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 freeradius-server \
 ld-linux-aarch64.so.1()(64bit) \

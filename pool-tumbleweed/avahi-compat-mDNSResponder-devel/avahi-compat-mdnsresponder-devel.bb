@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "avahi-compat-mDNSResponder-devel \
 avahi-compat-mDNSResponder-devel(aarch-64) \
 mDNSResponder-devel \
 pkgconfig(avahi-compat-libdns_sd)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libavahi-devel \
 libdns_sd"

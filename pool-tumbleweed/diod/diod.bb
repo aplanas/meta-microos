@@ -11,6 +11,7 @@ RPM_HASH = "0d4f404ae6c03c6925134c532ab5789919e3ab1fcfded70158ab141fd99b728e77ab
 RPROVIDES:${PN} += "config(diod) \
 diod \
 diod(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "7ff29a542980f175158d84e0a8ad22c395e974007ea52e6ab7dccaae6e3e5cb86571
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-asana-math-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

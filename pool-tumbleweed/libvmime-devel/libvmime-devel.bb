@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(vmime) \
 libvmime-devel \
 libvmime-devel(aarch-64) \
 pkgconfig(vmime)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvmime-suse5 \
 pkgconfig(gnutls) \

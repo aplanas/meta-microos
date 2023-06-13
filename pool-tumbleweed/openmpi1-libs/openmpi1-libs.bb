@@ -39,6 +39,7 @@ libvt-mt.so.0()(64bit) \
 libvt.so.0()(64bit) \
 openmpi1-libs \
 openmpi1-libs(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

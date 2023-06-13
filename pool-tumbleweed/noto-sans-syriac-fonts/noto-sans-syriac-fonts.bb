@@ -18,6 +18,7 @@ noto-sans-syriacestrangela \
 noto-sans-syriacestrangela-fonts \
 noto-sans-syriacwestern \
 noto-sans-syriacwestern-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

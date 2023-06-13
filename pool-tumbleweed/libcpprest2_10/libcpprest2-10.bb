@@ -12,6 +12,7 @@ RPM_HASH = "484d738f388b59c3807e26760a7d17f66794dd9db4aa91b5aefce4b93a76fa4ca712
 RPROVIDES:${PN} += "libcpprest.so.2.10()(64bit) \
 libcpprest2_10 \
 libcpprest2_10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

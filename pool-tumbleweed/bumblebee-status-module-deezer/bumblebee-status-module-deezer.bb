@@ -10,6 +10,7 @@ RPM_HASH = "340074a242d51a45124c95cf656f39e9cd5653db969b29390b2e773dada19ccea78e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-deezer"
+
 RDEPENDS:${PN} += "bumblebee-status \
 python3-dbus-python"
 

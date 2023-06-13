@@ -9,6 +9,7 @@ RPM_HASH = "8c796c8d66129199b271d7013e08037421734a6c096fd8c0ecfa4a63547931bfe386
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biochemistry-colors-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tkxcd \
 tkxcd_1.1.0"
+
 RDEPENDS:${PN} += "/bin/bash \
 tk"
 

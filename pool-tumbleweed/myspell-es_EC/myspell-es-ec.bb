@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:es_EC) \
 myspell-dictionary \
 myspell-es_EC \
 myspell-spanish-ecuadorian"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-es"
 

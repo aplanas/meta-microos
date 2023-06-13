@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(numcodecs) \
 python39-numcodecs \
 python39-numcodecs(aarch-64) \
 python3dist(numcodecs)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblosc.so.1()(64bit) \

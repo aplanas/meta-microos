@@ -10,6 +10,7 @@ RPM_HASH = "44e4c8f6a525334a94fc9b41d3394fb48e57168f85dcb98322fb63a58bbfe85c8da4
 RPROVIDES:${PN} += "libruby3.2.so.3.2()(64bit) \
 libruby3_2-3_2 \
 libruby3_2-3_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

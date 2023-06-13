@@ -10,6 +10,7 @@ RPM_HASH = "174a429cc7e8864386828706de494c531101c7daa3111b22a611f885b5f35dbac970
 RPROVIDES:${PN} += "dpdk-any-tools \
 dpdk-tools \
 dpdk-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 dpdk \
 findutils \

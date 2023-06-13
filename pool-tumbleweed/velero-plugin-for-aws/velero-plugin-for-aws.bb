@@ -9,6 +9,7 @@ RPM_HASH = "7bdbbe446dc7b77175a98450861270f8bc37e5331391092b8c5c645121e772b97f84
 
 RPROVIDES:${PN} += "velero-plugin-for-aws \
 velero-plugin-for-aws(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

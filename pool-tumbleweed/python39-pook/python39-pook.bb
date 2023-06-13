@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pook) \
 python39-pook \
 python3dist(pook)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-aiohttp \
 python39-furl \

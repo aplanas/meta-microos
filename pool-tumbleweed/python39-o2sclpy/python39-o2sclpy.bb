@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(o2sclpy) \
 python39-o2sclpy \
 python3dist(o2sclpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 o2scl-devel \

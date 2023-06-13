@@ -9,6 +9,7 @@ RPM_HASH = "d51f3670acdd6c945e25c78bb1a50a396c918924020882d9b149886d963a896deaf1
 
 RPROVIDES:${PN} += "graphviz-x11 \
 graphviz-x11(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 graphviz \
 ld-linux-aarch64.so.1()(64bit) \

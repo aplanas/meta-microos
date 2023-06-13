@@ -13,6 +13,7 @@ RPM_HASH = "85fbdfc322b99a1fb72dddf0a04958fc1b0e8e3a4b318e312986de777276f549a37d
 RPROVIDES:${PN} += "libdvbv5-0 \
 libdvbv5-0(aarch-64) \
 libdvbv5.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "3f0d57a1fb136cdc1f87c43c9a8645ffa5da9c6723bad386c60a1b68a2136aa961b2
 RPROVIDES:${PN} += "bundled(cpu_features) \
 volk \
 volk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

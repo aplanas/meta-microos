@@ -10,6 +10,7 @@ RPM_HASH = "03ae1c667282dda99d4140acdfe1f99850c2141aabb058ce0060c8702f97dfb41942
 RPROVIDES:${PN} += "libsvn_auth_gnome_keyring-1-0 \
 libsvn_auth_gnome_keyring-1-0(aarch-64) \
 libsvn_auth_gnome_keyring-1.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libapr-1.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

@@ -16,6 +16,7 @@ tex(foekfont.tfm) \
 tex(ot1foekfont.fd) \
 tex(t1foekfont.fd) \
 texlive-foekfont"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

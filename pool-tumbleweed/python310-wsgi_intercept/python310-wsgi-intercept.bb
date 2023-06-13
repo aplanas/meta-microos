@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-wsgi_intercept \
 python3.10dist(wsgi-intercept) \
 python310-wsgi_intercept \
 python3dist(wsgi-intercept)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

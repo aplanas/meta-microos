@@ -11,6 +11,7 @@ RPM_HASH = "a402d3b917a2d2a5e1e60252eeede8f14a629883f23ecf3bf502f97b58271b3d34be
 
 RPROVIDES:${PN} += "libgslcblas-gnu-hpc \
 libgslcblas-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libgslcblas_2_7_1-gnu-hpc"
 

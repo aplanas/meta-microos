@@ -9,6 +9,7 @@ RPM_HASH = "4863aca78de22b26082b52e4c851465848476c6dcdf9edb22eb1dad2731bab887a87
 
 RPROVIDES:${PN} += "cmus-plugin-vorbis \
 cmus-plugin-vorbis(aarch-64)"
+
 RDEPENDS:${PN} += "cmus \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

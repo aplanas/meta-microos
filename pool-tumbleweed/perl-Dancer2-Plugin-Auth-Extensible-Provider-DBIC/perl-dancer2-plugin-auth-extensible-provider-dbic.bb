@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Dancer2::Plugin::Auth::Extensible::Provider::DBIC) \
 perl-Dancer2-Plugin-Auth-Extensible-Provider-DBIC"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBIx::Class::ResultClass::HashRefInflator) \
 perl(Dancer2) \

@@ -34,6 +34,7 @@ mimehandler(model/stl) \
 mimehandler(model/vnd.collada+xml) \
 mimehandler(model/vnd.collada+xml+zip) \
 mimehandler(text/x-gcode)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cura-engine \
 python(abi) \

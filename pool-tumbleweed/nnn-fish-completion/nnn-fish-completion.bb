@@ -9,6 +9,7 @@ RPM_HASH = "b80320ded9a06ce24d6f3d8c7ac5ee104018895d427ca13a0076cb5f505c05bef8db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nnn-fish-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

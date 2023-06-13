@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-user-agents \
 python3.10dist(user-agents) \
 python310-user-agents \
 python3dist(user-agents)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-ua-parser"

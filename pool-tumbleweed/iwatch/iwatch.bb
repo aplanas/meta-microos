@@ -35,6 +35,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(iwatch) \
 iwatch"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl-Event \
 perl-Linux-Inotify2 \

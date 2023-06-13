@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "newtonsoft-json-devel \
 pkgconfig(newtonsoft-json)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 newtonsoft-json"
 

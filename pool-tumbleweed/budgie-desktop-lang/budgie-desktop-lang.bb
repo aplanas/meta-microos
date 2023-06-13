@@ -72,6 +72,7 @@ locale(budgie-desktop:vi) \
 locale(budgie-desktop:zh) \
 locale(budgie-desktop:zh_HK) \
 locale(budgie-desktop:zh_TW)"
+
 RDEPENDS:${PN} += "budgie-desktop"
 
 inherit rpm

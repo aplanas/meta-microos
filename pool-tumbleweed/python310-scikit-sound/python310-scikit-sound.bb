@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-scikit-sound \
 python3.10dist(scikit-sound) \
 python310-scikit-sound \
 python3dist(scikit-sound)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-appdirs \

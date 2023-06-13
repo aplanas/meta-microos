@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(turabian.cls) \
 texlive-turabian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(zope.copy) \
 python39-zope.copy \
 python3dist(zope.copy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-zope.interface"
 

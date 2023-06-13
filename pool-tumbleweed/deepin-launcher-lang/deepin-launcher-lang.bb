@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-launcher-lang \
 deepin-launcher-lang-all"
+
 RDEPENDS:${PN} += "deepin-launcher"
 
 inherit rpm

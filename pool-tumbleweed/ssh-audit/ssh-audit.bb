@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(ssh-audit) \
 python3dist(ssh-audit) \
 ssh-audit"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3"

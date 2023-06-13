@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(codehigh.sty) \
 texlive-codehigh"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

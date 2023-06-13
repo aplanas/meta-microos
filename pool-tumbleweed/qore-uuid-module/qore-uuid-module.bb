@@ -11,6 +11,7 @@ RPM_HASH = "b21fe46ef25a1b796a1897a719b3d35a4ebd5dfb43c37843aa533c9ec5e2e8d5f5bc
 
 RPROVIDES:${PN} += "qore-uuid-module \
 qore-uuid-module(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "d35cebc19c2853201cd48974b87a8c6aed4be219e66109771bb8fba06031e2452996
 RPROVIDES:${PN} += "courier-unicode-devel \
 courier-unicode-devel(aarch-64) \
 libcourier-unicode-devel"
+
 RDEPENDS:${PN} += "libcourier-unicode7"
 
 inherit rpm

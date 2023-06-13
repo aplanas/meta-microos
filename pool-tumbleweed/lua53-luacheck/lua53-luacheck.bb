@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-luacheck \
 luacheck"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/lua5.3 \
 lua53 \

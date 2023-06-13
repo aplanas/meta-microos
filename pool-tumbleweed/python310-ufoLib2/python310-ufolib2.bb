@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ufoLib2 \
 python3.10dist(ufolib2) \
 python310-ufoLib2 \
 python3dist(ufolib2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-FontTools \
 python310-attrs \

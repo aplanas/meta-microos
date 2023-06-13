@@ -9,6 +9,7 @@ RPM_HASH = "cfeef7b5b8e152c697a78d0dcaec9f6975c59239d40791a5b294884c2175c78503c7
 
 RPROVIDES:${PN} += "texlive-pmxchords-bin \
 texlive-pmxchords-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pmxchords"
 
 inherit rpm

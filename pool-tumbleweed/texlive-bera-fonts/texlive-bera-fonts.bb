@@ -92,6 +92,7 @@ font(berasans) \
 font(berasansmono) \
 font(beraserif) \
 texlive-bera-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -11,6 +11,7 @@ RPM_HASH = "a55ad3ad4ef904604aa9effe5e2faf8c40443337acf155a0c4f69fdec94248acff3a
 RPROVIDES:${PN} += "config(dfc) \
 dfc \
 dfc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

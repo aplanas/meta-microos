@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-pytest-httpbin \
 python3.10dist(pytest-httpbin) \
 python310-pytest-httpbin \
 python3dist(pytest-httpbin)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-httpbin \
 python310-pytest"

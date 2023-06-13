@@ -12,6 +12,7 @@ RPM_HASH = "8aa785400c5bd670012ba47cf9b11664f5c83060f4521ea9f9d108066d9b67b3369c
 
 RPROVIDES:${PN} += "qemu-ivshmem-tools \
 qemu-ivshmem-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

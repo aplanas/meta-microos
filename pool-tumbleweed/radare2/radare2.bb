@@ -32,6 +32,7 @@ libr_syscall.so.5.8.6()(64bit) \
 libr_util.so.5.8.6()(64bit) \
 radare2 \
 radare2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

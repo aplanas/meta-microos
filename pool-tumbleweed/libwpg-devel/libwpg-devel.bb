@@ -14,6 +14,7 @@ RPM_HASH = "20192077c1dddb981867d0f82f819bba5f700cc22bab98589f26e5ec751286bb6aad
 RPROVIDES:${PN} += "libwpg-devel \
 libwpg-devel(aarch-64) \
 pkgconfig(libwpg-0.3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwpg-0_3-3 \
 pkgconfig(librevenge-0.0) \

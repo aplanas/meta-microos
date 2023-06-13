@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-budgie-budgie \
 patterns-budgie-budgie(aarch-64)"
+
 RDEPENDS:${PN} += "budgie-desktop \
 lightdm \
 pattern()"

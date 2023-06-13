@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(grpcio) \
 python311-grpcio \
 python311-grpcio(aarch-64) \
 python3dist(grpcio)"
+
 RDEPENDS:${PN} += "ca-certificates \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

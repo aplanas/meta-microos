@@ -9,6 +9,7 @@ RPM_HASH = "751fb50996848bba9f3e322bc743a2758140fd64a02689650a3910c4089d98ba617c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xsv-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 xsv"
 

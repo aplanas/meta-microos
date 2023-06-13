@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "pkgconfig(polkit-agent-1) \
 pkgconfig(polkit-gobject-1) \
 polkit-devel \
 polkit-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libc.so.6(GLIBC_2.34)(64bit) \
 libglib-2.0.so.0()(64bit) \

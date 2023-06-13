@@ -15,6 +15,7 @@ RPM_HASH = "e2c7097adf7e15ad31b22c760ec57d2ce41accd64dae4ec81bfaa1593aa70f0d23ba
 RPROVIDES:${PN} += "libmopac7-1-devel \
 libmopac7-1-devel(aarch-64) \
 pkgconfig(libmopac7)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmopac7-1"
 

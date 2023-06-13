@@ -330,6 +330,7 @@ perl(HTTP::Request::Common) \
 perl(HTTP::Response) \
 perl(HTTP::Status) \
 perl-HTTP-Message"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Clone) \
 perl(Compress::Raw::Bzip2) \

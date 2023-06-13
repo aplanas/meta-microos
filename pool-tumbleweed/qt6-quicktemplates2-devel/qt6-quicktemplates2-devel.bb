@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6QuickTemplates2) \
 pkgconfig(Qt6QuickTemplates2) \
 qt6-quicktemplates2-devel \
 qt6-quicktemplates2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6QmlModels) \

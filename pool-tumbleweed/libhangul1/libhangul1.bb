@@ -10,6 +10,7 @@ RPM_HASH = "303e4c9d998c5c48707525bab31f8b6b2881b925988ae746b908811194c286170644
 RPROVIDES:${PN} += "libhangul.so.1()(64bit) \
 libhangul1 \
 libhangul1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

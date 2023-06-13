@@ -15,6 +15,7 @@ RPM_HASH = "7887dd7f63309123e860019b3d72393bdbd66cb75d09d5482f9338dbff04a356eb83
 RPROVIDES:${PN} += "config(hostapd) \
 hostapd \
 hostapd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

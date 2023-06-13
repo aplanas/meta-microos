@@ -17,6 +17,7 @@ RPM_HASH = "b73f2b47d646b4c602caccc258720750bdfc7eca9afb09d55fdbe81c14d4b31806a6
 RPROVIDES:${PN} += "Mesa-libEGL-devel \
 Mesa-libEGL-devel(aarch-64) \
 pkgconfig(egl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Mesa-KHR-devel \
 Mesa-libEGL1 \

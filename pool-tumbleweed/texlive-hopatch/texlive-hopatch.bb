@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(hopatch-2016-05-16.sty) \
 tex(hopatch.sty) \
 texlive-hopatch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

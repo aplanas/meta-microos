@@ -13,6 +13,7 @@ RPM_HASH = "159868beb03e50408894f45c0686be923c54776e8e38834a8fcd28c4044b6670ad0f
 
 RPROVIDES:${PN} += "aspell-ispell \
 aspell-ispell(aarch-64)"
+
 RDEPENDS:${PN} += "aspell"
 
 inherit rpm

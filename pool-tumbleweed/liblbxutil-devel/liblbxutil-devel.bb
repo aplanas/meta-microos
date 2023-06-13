@@ -15,6 +15,7 @@ RPM_HASH = "6f3c871fa2822732d3cd1ee8a3ea709c13b5b7c9ff23617ce05ae08a822de4254cdb
 RPROVIDES:${PN} += "liblbxutil-devel \
 liblbxutil-devel(aarch-64) \
 pkgconfig(lbxutil)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblbxutil1"
 

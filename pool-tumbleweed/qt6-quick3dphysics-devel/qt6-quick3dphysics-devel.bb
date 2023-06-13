@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Quick3DPhysics) \
 pkgconfig(Qt6Quick3DPhysics) \
 qt6-quick3dphysics-devel \
 qt6-quick3dphysics-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Qml) \

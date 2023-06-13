@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:serverengine:2) \
 rubygem(ruby:3.2.0:serverengine:2.3) \
 rubygem(ruby:3.2.0:serverengine:2.3.0) \
 rubygem(serverengine)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:sigdump:0.2)"
 

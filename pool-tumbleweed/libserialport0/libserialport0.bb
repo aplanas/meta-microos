@@ -16,6 +16,7 @@ RPM_HASH = "3af9cb4fdcf3fdd326321178cff63d47e5587b08a58ed342166181a66d00b1e163e0
 RPROVIDES:${PN} += "libserialport.so.0()(64bit) \
 libserialport0 \
 libserialport0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

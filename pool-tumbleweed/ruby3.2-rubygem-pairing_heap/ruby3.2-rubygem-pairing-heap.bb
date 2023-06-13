@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:pairing_heap) \
 rubygem(ruby:3.2.0:pairing_heap:1) \
 rubygem(ruby:3.2.0:pairing_heap:1.0) \
 rubygem(ruby:3.2.0:pairing_heap:1.0.0)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi)"

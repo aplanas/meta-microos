@@ -9,6 +9,7 @@ RPM_HASH = "d4de51d7419a9165735947b5997c439872d26fb0b360a1c507051fdd96f1470dda09
 
 RPROVIDES:${PN} += "dfu-tool \
 dfu-tool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

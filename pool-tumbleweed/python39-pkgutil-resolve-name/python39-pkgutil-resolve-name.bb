@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pkgutil-resolve-name) \
 python39-pkgutil-resolve-name \
 python3dist(pkgutil-resolve-name)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

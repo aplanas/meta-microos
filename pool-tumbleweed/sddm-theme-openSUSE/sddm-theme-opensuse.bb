@@ -10,6 +10,7 @@ RPM_HASH = "a0d610e19483ac86f1d021a54ed54faec1953ab736a565727745a3593b8d77557c7b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sddm-theme-openSUSE"
+
 RDEPENDS:${PN} += "libqt5-qtquickcontrols \
 plasma-framework-components \
 plasma5-workspace \

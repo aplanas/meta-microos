@@ -13,6 +13,7 @@ mvn(org.apache.maven.wagon:wagon-http) \
 mvn(org.apache.maven.wagon:wagon-http::shaded:) \
 mvn(org.apache.maven.wagon:wagon-http:pom:) \
 mvn(org.apache.maven.wagon:wagon-http:pom:shaded:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.httpcomponents:httpclient) \

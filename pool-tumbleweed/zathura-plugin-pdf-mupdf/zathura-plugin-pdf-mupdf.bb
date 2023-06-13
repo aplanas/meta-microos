@@ -13,6 +13,7 @@ metainfo(org.pwmt.zathura-pdf-mupdf.metainfo.xml) \
 zathura-pdf-mupdf-plugin \
 zathura-plugin-pdf-mupdf \
 zathura-plugin-pdf-mupdf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

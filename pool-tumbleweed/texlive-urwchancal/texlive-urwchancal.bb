@@ -18,6 +18,7 @@ tex(urwchancal.tfm) \
 tex(urwchancal.vf) \
 tex(uurwchancal.fd) \
 texlive-urwchancal"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

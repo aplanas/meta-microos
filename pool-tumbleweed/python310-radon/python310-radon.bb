@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-radon \
 python3.10dist(radon) \
 python310-radon \
 python3dist(radon)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

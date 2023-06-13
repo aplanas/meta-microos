@@ -19,6 +19,7 @@ go1.13 \
 go1.13(aarch-64) \
 golang(API) \
 libstd.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 binutils-gold \

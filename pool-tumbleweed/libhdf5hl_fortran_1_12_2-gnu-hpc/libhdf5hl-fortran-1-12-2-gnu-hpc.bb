@@ -13,6 +13,7 @@ RPM_HASH = "a5c75c6c3fe4d24f7569bf042f828819d59fc87b582702e67d41c4921444b093b917
 
 RPROVIDES:${PN} += "libhdf5hl_fortran_1_12_2-gnu-hpc \
 libhdf5hl_fortran_1_12_2-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 hdf5_1_12_2-gnu-hpc-module \
 ld-linux-aarch64.so.1()(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(multiple-choice.sty) \
 texlive-multiple-choice"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

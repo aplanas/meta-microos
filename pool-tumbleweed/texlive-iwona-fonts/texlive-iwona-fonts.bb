@@ -141,6 +141,7 @@ font(iwonalight) \
 font(iwonamedium) \
 font(kurier) \
 texlive-iwona-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

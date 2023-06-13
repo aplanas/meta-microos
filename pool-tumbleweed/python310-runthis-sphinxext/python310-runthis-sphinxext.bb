@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-runthis-sphinxext \
 python3.10dist(runthis-sphinxext) \
 python310-runthis-sphinxext \
 python3dist(runthis-sphinxext)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

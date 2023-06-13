@@ -12,6 +12,7 @@ RPM_HASH = "e5a8a377c8537ab3a43214e668766ab14e24fa5f738c09d44640cae0afe016b9be2b
 RPROVIDES:${PN} += "ghc-mountpoints \
 ghc-mountpoints(aarch-64) \
 libHSmountpoints-1.0.2-1s316lA2PKMJiFY8pZCQYD-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

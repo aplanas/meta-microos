@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6QuickDialogs2QuickImpl) \
 pkgconfig(Qt6QuickDialogs2QuickImpl) \
 qt6-quickdialogs2quickimpl-devel \
 qt6-quickdialogs2quickimpl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 libQt6QuickDialogs2QuickImpl6 \

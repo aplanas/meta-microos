@@ -10,6 +10,7 @@ RPM_HASH = "661164d12b35f6c60b47f52f72e445ccfcde1556bce8d4782dd5f646e7c89d1ac435
 
 RPROVIDES:${PN} += "pcp-pmda-sendmail \
 pcp-pmda-sendmail(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

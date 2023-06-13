@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "gtksourceview-doc \
 gtksourceview2-devel \
 gtksourceview2-devel(aarch-64) \
 pkgconfig(gtksourceview-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gtk2-devel \
 libgtksourceview-2_0-0 \

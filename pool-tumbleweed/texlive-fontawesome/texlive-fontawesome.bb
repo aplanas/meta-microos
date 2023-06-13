@@ -25,6 +25,7 @@ tex(ufontawesomeone.fd) \
 tex(ufontawesomethree.fd) \
 tex(ufontawesometwo.fd) \
 texlive-fontawesome"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ python39-argon2-cffi \
 python39-argon2-cffi(aarch-64) \
 python39-argon2_cffi \
 python3dist(argon2-cffi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-argon2-cffi-bindings"
 

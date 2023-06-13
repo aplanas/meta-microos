@@ -15,6 +15,7 @@ RPM_HASH = "899a3cd9eab2309813a15969ee2368d1b072173f51440e24044db052b1616f19562f
 RPROVIDES:${PN} += "libkeccak.so.1()(64bit) \
 libkeccak1 \
 libkeccak1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

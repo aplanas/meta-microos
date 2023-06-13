@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-gwdatafind \
 python3.10dist(gwdatafind) \
 python310-gwdatafind \
 python3dist(gwdatafind)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

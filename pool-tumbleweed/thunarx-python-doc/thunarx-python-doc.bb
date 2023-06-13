@@ -9,6 +9,7 @@ RPM_HASH = "c26974cde41401dca482217fc68e6944af3edd17d30518cfb80971a59397506cb523
 
 RPROVIDES:${PN} += "thunarx-python-doc \
 thunarx-python-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

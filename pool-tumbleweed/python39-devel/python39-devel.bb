@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "pkgconfig(python-3.9) \
 pkgconfig(python-3.9-embed) \
 python39-devel \
 python39-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python3.9 \

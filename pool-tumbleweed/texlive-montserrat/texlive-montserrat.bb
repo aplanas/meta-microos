@@ -3886,6 +3886,7 @@ tex(zmo_zmgh2c.enc) \
 tex(zmo_znhcko.enc) \
 tex(zmo_zrxj4s.enc) \
 texlive-montserrat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

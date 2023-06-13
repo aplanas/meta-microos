@@ -13,6 +13,7 @@ python3.10dist(photutils) \
 python310-photutils \
 python310-photutils(aarch-64) \
 python3dist(photutils)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

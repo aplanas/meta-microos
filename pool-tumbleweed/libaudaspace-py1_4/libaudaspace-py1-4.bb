@@ -13,6 +13,7 @@ RPM_HASH = "02397ba7bf72478059950e950193449cf25945aa41d41befc61f688cf715bb8cbadc
 RPROVIDES:${PN} += "libaudaspace-py.so.1.4()(64bit) \
 libaudaspace-py1_4 \
 libaudaspace-py1_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

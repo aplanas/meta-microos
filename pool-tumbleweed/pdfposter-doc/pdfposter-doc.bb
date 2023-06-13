@@ -9,6 +9,7 @@ RPM_HASH = "0f5db28c572e37f65265afc218ca73f11c54918593a0e36ad312b3163acef1c2017b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pdfposter-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

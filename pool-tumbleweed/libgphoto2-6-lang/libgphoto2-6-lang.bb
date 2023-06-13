@@ -32,6 +32,7 @@ locale(libgphoto2-6:uk) \
 locale(libgphoto2-6:vi) \
 locale(libgphoto2-6:zh_CN) \
 locale(libgphoto2-6:zh_TW)"
+
 RDEPENDS:${PN} += "libgphoto2-6"
 
 inherit rpm

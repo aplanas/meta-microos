@@ -10,6 +10,7 @@ RPM_HASH = "e8764ac32675881d2fa71796256bd6684b9ec0179b7c470a8c8f71e2b1b6ee0146a4
 
 RPROVIDES:${PN} += "gjs \
 gjs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

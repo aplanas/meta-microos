@@ -32,6 +32,7 @@ rpm_macro(_ibus_tabledir) \
 rpm_macro(ibus_requires) \
 rpm_macro(ibus_table_index_post) \
 rpm_macro(ibus_table_requires)"
+
 RDEPENDS:${PN} += "/bin/sh \
 dconf \
 ibus-dict-emoji \

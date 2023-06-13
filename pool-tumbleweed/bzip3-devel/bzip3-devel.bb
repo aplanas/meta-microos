@@ -10,6 +10,7 @@ RPM_HASH = "dd2fc598d876b7cca758fdef719a2f423d7c7bc895d3bdbdfb86f24ebf9e007eb47b
 RPROVIDES:${PN} += "bzip3-devel \
 bzip3-devel(aarch-64) \
 pkgconfig(bzip3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbzip3-0"
 

@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "tex(empheq.sty) \
 tex(mathtools.sty) \
 tex(mhsetup.sty) \
 texlive-mathtools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

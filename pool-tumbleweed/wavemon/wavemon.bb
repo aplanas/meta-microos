@@ -14,6 +14,7 @@ RPM_HASH = "e654769e616e310d3c29c25e78a337672feda78ff18a5974be4021467f034178c4b3
 
 RPROVIDES:${PN} += "wavemon \
 wavemon(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

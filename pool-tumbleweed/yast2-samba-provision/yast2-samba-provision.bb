@@ -14,6 +14,7 @@ application(org.opensuse.yast.SambaProvision.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.SambaProvision.metainfo.xml) \
 yast2-samba-provision"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-network \
 yast2-python3-bindings \

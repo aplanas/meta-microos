@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libvsapm.so.1()(64bit) \
 libvsapm.so.1(V_20210626)(64bit) \
 libvsapm1 \
 libvsapm1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

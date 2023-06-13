@@ -14,6 +14,7 @@ RPM_HASH = "04dd635a89b70009887c825670cfdc0ea94709833db71721067176b739e0e0a4bbe8
 
 RPROVIDES:${PN} += "cargo-c \
 cargo-c(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \
 libcrypto.so.3(OPENSSL_3.0.0)(64bit) \

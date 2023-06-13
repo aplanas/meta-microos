@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ldappool) \
 python39-ldappool \
 python3dist(ldappool)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-ldap \
 python39-prettytable"

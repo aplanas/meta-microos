@@ -10,6 +10,7 @@ RPM_HASH = "b810ac17b1089838b90c43dbed6d89804e072684c5ff2ab36be50a73bd64e091d179
 RPROVIDES:${PN} += "leechcraft-eleeminator \
 leechcraft-eleeminator(aarch-64) \
 libleechcraft_eleeminator.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

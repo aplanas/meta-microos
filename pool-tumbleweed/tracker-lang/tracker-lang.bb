@@ -71,6 +71,7 @@ locale(tracker:zh_HK) \
 locale(tracker:zh_TW) \
 tracker-lang \
 tracker-lang-all"
+
 RDEPENDS:${PN} += "tracker"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "1cf7f115ecb021e6d022961468e00c5fce822f226396453f4f76bee627b81a53f0ea
 RPROVIDES:${PN} += "libcupsimage.so.2()(64bit) \
 libcupsimage2 \
 libcupsimage2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libcups.so.2()(64bit)"

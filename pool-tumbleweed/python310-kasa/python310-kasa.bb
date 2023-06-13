@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-kasa \
 python3.10dist(python-kasa) \
 python310-kasa \
 python3dist(python-kasa)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

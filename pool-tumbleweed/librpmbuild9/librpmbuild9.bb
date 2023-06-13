@@ -10,6 +10,7 @@ RPM_HASH = "a52e88f10e7f1125450561a07f246e925acbec043a5b1d6dee3bd60ca956bf3bfe17
 RPROVIDES:${PN} += "librpmbuild.so.9()(64bit) \
 librpmbuild9 \
 librpmbuild9(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(keylime) \
 python39-keylime \
 python3dist(keylime)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 libtss2-tcti-device0 \

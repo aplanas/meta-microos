@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(weblib) \
 python39-weblib \
 python3dist(weblib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pytils \
 python39-six \

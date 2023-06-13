@@ -9,6 +9,7 @@ RPM_HASH = "1148222a2a7877758f1e42c5569a08583cc3704ca06d997fc1187ee99afb5be86f87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flute-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

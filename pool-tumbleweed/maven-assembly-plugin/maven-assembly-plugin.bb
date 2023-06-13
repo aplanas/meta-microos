@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-assembly-plugin \
 mvn(org.apache.maven.plugins:maven-assembly-plugin) \
 mvn(org.apache.maven.plugins:maven-assembly-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-codec:commons-codec) \

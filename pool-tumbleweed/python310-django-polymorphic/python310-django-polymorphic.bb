@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-polymorphic \
 python3.10dist(django-polymorphic) \
 python310-django-polymorphic \
 python3dist(django-polymorphic)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

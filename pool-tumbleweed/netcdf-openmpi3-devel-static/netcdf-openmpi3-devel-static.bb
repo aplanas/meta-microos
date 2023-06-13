@@ -13,6 +13,7 @@ RPM_HASH = "aac736f0715a854bd8c936f97e21608461ef5657a8e4750d697dabbf90c787499a14
 
 RPROVIDES:${PN} += "netcdf-openmpi3-devel-static \
 netcdf-openmpi3-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "hdf5-openmpi3-devel \
 libcurl-devel \
 zlib-devel"

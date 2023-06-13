@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libwcs-doc \
 wcslib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

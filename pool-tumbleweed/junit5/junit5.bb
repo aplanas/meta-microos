@@ -54,6 +54,7 @@ osgi(org.junit.platform.runner) \
 osgi(org.junit.platform.suite.api) \
 osgi(org.junit.platform.suite.commons) \
 osgi(org.junit.vintage.engine)"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

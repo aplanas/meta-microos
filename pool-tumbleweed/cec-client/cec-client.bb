@@ -18,6 +18,7 @@ RPM_HASH = "d27f26aac5a244c25e02e90c1e0c0dc8eb5e6288e1a57d0f6b992f4cc69b03932396
 
 RPROVIDES:${PN} += "cec-client \
 cec-client(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

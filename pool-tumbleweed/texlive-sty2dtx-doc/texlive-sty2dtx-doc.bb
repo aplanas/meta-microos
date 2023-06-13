@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(sty2dtx.1) \
 texlive-sty2dtx-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

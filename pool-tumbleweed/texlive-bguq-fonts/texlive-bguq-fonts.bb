@@ -18,6 +18,7 @@ font(bguq10t10) \
 font(bguq10t11) \
 font(bguq10t12) \
 texlive-bguq-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

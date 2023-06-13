@@ -11,6 +11,7 @@ RPM_HASH = "665f93f31b23c05ac2c436b3435ddfdcbe10f54c24193dc173f47597f83324668e21
 RPROVIDES:${PN} += "libwpe-devel \
 libwpe-devel(aarch-64) \
 pkgconfig(wpe-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwpe-1_0-1 \
 pkgconfig(egl) \

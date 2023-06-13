@@ -13,6 +13,7 @@ RPM_HASH = "c59837d62fd8239d40f82816eea4856cf6098b295b7cd023926c2d71f3780c8c6a1c
 RPROVIDES:${PN} += "ghc-unicode-collation \
 ghc-unicode-collation(aarch-64) \
 libHSunicode-collation-0.1.3.4-LMKRbY0RRBBKxwMiir45sP-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

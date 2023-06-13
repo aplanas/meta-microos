@@ -12,6 +12,7 @@ RPM_HASH = "9cb78cad054a26c21222f00408dc523e442fe1b6acb544b5a10da0ca23d428a5127d
 RPROVIDES:${PN} += "typelib(Malcontent) \
 typelib-1_0-Malcontent-0 \
 typelib-1_0-Malcontent-0(aarch-64)"
+
 RDEPENDS:${PN} += "libmalcontent-0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

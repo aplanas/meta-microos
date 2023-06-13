@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(maze.sty) \
 texlive-maze"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

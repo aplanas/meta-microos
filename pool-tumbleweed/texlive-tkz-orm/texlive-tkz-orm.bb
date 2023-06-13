@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tkz-orm.sty) \
 texlive-tkz-orm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

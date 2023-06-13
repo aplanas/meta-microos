@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pan-python \
 python3.10dist(pan-python) \
 python310-pan-python \
 python3dist(pan-python)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

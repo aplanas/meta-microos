@@ -14,6 +14,7 @@ RPM_HASH = "d66238fb5101991c5f5129d756ca3011856197667fee6d3b7347e6d91474856028f4
 
 RPROVIDES:${PN} += "tpm-tools \
 tpm-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

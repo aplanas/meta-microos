@@ -9,6 +9,7 @@ RPM_HASH = "ba3cd1618ab0a49220bf86c19cadbb2b4ee51b73eca5d7b27738aaa6e04136a42918
 
 RPROVIDES:${PN} += "act \
 act(aarch-64)"
+
 RDEPENDS:${PN} += "docker"
 
 inherit rpm

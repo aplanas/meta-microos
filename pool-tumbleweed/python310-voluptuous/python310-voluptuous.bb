@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-voluptuous \
 python3.10dist(voluptuous) \
 python310-voluptuous \
 python3dist(voluptuous)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

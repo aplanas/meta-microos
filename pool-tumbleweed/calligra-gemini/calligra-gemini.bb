@@ -34,6 +34,7 @@ mimehandler(application/x-kpresenter) \
 mimehandler(application/x-mswrite) \
 qt5qmlimport(Calligra.Gemini.Dropbox.1) \
 qt5qmlimport(Calligra.Gemini.Git.1)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

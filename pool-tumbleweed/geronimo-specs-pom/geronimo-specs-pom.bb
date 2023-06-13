@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "geronimo-specs-pom \
 mvn(org.apache.geronimo.specs:specs-parent:pom:) \
 mvn(org.apache.geronimo.specs:specs:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.felix:maven-bundle-plugin) \

@@ -33,6 +33,7 @@ perl(Net::SNMP::Transport::IPv6) \
 perl(Net::SNMP::Transport::IPv6::TCP) \
 perl(Net::SNMP::Transport::IPv6::UDP) \
 perl-Net-SNMP"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp) \

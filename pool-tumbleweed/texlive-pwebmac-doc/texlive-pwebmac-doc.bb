@@ -9,6 +9,7 @@ RPM_HASH = "a96e971e1d0e16b25bd21e3dca6ff19958a5756ca4c0944a5e7a6ffec47ab70096ed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pwebmac-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

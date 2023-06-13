@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(diskcache) \
 python311-diskcache \
 python3dist(diskcache)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311"
 

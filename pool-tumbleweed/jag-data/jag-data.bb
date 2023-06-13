@@ -13,6 +13,7 @@ RPM_HASH = "8ea0340519c52d220aadeb3585fa7f5668f0e5057edb8fbe9f410e20362cc825f235
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jag-data"
+
 RDEPENDS:${PN} += "jag"
 
 inherit rpm

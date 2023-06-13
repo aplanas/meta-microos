@@ -190,6 +190,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Lexical::Persistence) \
 perl-Lexical-Persistence"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::LexAlias) \
 perl(PadWalker)"

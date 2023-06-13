@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(python3-pvirsh) \
 python3-pvirsh \
 python3.10dist(pvirsh) \
 python3dist(pvirsh)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PyYAML \

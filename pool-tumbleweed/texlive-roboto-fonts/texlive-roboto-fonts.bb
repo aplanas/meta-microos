@@ -192,6 +192,7 @@ font(robotoserifthin) \
 font(robotoslab) \
 font(robotothin) \
 texlive-roboto-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

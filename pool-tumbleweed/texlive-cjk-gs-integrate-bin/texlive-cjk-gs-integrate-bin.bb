@@ -9,6 +9,7 @@ RPM_HASH = "440dc7d11bf266d90a2a97b05b29c4e44b42da7fcb43c257fa535fae06be8a3d8ebc
 
 RPROVIDES:${PN} += "texlive-cjk-gs-integrate-bin \
 texlive-cjk-gs-integrate-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-cjk-gs-integrate"
 
 inherit rpm

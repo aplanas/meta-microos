@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(idna-ssl) \
 python39-idna_ssl \
 python3dist(idna-ssl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-idna"
 

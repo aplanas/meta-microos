@@ -14,6 +14,7 @@ RPM_HASH = "ae3f10551fb7cf6a7791814360ea48058c36e6184bdbe059967934ff80f3c979ac56
 RPROVIDES:${PN} += "libgladeui-2-devel \
 libgladeui-2-devel(aarch-64) \
 pkgconfig(gladeui-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgladeui-2-13 \
 pkgconfig(glib-2.0) \

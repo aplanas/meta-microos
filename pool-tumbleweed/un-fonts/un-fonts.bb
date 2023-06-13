@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(ko) \
 scalable-font-ko \
 un-fonts \
 unfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

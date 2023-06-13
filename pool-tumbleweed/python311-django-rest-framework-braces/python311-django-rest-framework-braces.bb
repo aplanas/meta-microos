@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-rest-framework-braces) \
 python311-django-rest-framework-braces \
 python3dist(django-rest-framework-braces)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-dateutils \

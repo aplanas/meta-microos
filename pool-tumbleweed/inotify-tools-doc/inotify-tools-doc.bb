@@ -10,6 +10,7 @@ RPM_HASH = "692c24e7c45a9ef2f9de6ba41f58205c383169803137a1e836bdbc7822aa9bf2e117
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "inotify-tools-doc"
+
 RDEPENDS:${PN} += "inotify-tools"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libverto-libev.so.1()(64bit) \
 libverto-libev1 \
 libverto-libev1(aarch-64) \
 libverto-module-base"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libev.so.4()(64bit) \

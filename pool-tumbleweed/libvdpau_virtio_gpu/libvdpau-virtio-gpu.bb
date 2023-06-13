@@ -10,6 +10,7 @@ RPM_HASH = "d8dbc63c75b03184e74dcd2beeeb60df0b50d1606135068cfb966b6ee2d9049c58ea
 RPROVIDES:${PN} += "libvdpau_gallium.so.1.0.0()(64bit) \
 libvdpau_virtio_gpu \
 libvdpau_virtio_gpu(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.16()(64bit) \

@@ -74,6 +74,7 @@ ocamlx(OUnitThreads) \
 ocamlx(OUnitThreads__) \
 ocamlx(OUnitThreads__OUnitRunnerThreads) \
 ocamlx(OUnitUtils)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(CamlinternalOO) \
 ocaml(Condition) \

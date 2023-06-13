@@ -11,6 +11,7 @@ RPM_HASH = "042bf26a5e6e87a70ea0ef712761390aa1a91b017845387b2c1bd4c9b9224c9105df
 RPROVIDES:${PN} += "libOrthancIndexer.so.1.0()(64bit) \
 orthanc-indexer \
 orthanc-indexer(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

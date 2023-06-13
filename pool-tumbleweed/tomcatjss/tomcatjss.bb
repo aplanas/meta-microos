@@ -12,6 +12,7 @@ RPM_HASH = "261388a20e80e85d80aa5379e208a7ea3c310a9945d2b86702c6961a6c19086844f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tomcatjss"
+
 RDEPENDS:${PN} += "apache-commons-lang \
 mozilla-jss \
 slf4j \

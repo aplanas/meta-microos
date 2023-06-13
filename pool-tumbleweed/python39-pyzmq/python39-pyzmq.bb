@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(pyzmq) \
 python39-pyzmq \
 python39-pyzmq(aarch-64) \
 python3dist(pyzmq)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

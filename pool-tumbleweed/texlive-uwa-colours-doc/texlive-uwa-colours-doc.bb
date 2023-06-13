@@ -9,6 +9,7 @@ RPM_HASH = "902291a09af1045b34d37323746a5d8b3a71fa3ddba83f90b7a705441ef76d76629f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uwa-colours-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

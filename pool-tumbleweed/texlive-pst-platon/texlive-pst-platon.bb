@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pst-platon.sty) \
 texlive-pst-platon"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

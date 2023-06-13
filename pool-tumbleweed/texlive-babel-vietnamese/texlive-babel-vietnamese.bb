@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(vietnamese.ldf) \
 texlive-babel-vietnamese"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

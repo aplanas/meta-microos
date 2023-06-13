@@ -9,6 +9,7 @@ RPM_HASH = "9af9d7195019adbece73d9413d326fb9c8461653eddb9a97cc7314531831a06b7475
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "weblate-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

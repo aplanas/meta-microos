@@ -10,6 +10,7 @@ RPM_HASH = "8d9401988773425c82462850fe4cefa0b12347f8a5b06598c34b32d1171ce93c48bc
 RPROVIDES:${PN} += "libVSyntaxHighlighting.so.1()(64bit) \
 libVSyntaxHighlighting1 \
 libVSyntaxHighlighting1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(texlogfilter.1) \
 texlive-texlogfilter-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

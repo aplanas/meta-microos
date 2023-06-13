@@ -11,6 +11,7 @@ RPM_HASH = "843c9a96442519a0d46dc450d65253049c667d58d06290729b82ef7dee6ee726181b
 RPROVIDES:${PN} += "clang11-devel \
 clang11-devel(aarch-64) \
 cmake(Clang)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 clang-tools \
 clang11 \

@@ -14,6 +14,7 @@ application(hp-uiscan.desktop) \
 hplip-scan \
 hplip-scan-utils \
 hplip-scan-utils(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 hplip \
 ld-linux-aarch64.so.1()(64bit) \

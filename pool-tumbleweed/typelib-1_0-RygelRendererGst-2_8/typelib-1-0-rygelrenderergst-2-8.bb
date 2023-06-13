@@ -11,6 +11,7 @@ RPM_HASH = "d0f80f19811a1a3a00f51beaeaa9781efb340fe3ee6dfda2178b5464e054d9c42bdc
 RPROVIDES:${PN} += "typelib(RygelRendererGst) \
 typelib-1_0-RygelRendererGst-2_8 \
 typelib-1_0-RygelRendererGst-2_8(aarch-64)"
+
 RDEPENDS:${PN} += "typelib(GLib) \
 typelib(GModule) \
 typelib(GObject) \

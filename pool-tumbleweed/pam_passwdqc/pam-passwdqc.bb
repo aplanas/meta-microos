@@ -17,6 +17,7 @@ RPM_HASH = "33683752ff448b7f86355c951676c932e188078db47a8197c36e987aab3745947c10
 RPROVIDES:${PN} += "pam-modules:/usr/lib64/security/pam_passwdqc.so \
 pam_passwdqc \
 pam_passwdqc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

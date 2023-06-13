@@ -16,6 +16,7 @@ ocamlfind(mccs.glpk) \
 ocamlfind(mccs.glpk.internal) \
 ocamlx(Mccs) \
 ocamlx(Ocaml_mccs_glpk)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

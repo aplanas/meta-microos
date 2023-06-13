@@ -12,6 +12,7 @@ openSUSE-release-appliance-docker \
 openSUSE-release-appliance-docker(aarch-64) \
 product_flavor() \
 product_flavor(openSUSE)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

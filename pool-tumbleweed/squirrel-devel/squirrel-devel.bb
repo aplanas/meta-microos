@@ -11,6 +11,7 @@ RPM_HASH = "0c107b162ae3847ccf22e08f1809b1ee39078e22f425d66a6d646813de24f3b8c22d
 RPROVIDES:${PN} += "cmake(squirrel) \
 squirrel-devel \
 squirrel-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsquirrel1001"
 
 inherit rpm

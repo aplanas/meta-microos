@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(TAP::Harness::JUnit) \
 perl(TAP::Harness::JUnit::Parser) \
 perl-TAP-Harness-JUnit"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(TAP::Harness) \
 perl(TAP::Parser) \

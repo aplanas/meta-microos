@@ -13,6 +13,7 @@ RPM_HASH = "8cd7c48a0004a27096d3aa9ffe3c235ef821010d2256320343d369696f9eca75335b
 RPROVIDES:${PN} += "libshine.so.3()(64bit) \
 libshine3 \
 libshine3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

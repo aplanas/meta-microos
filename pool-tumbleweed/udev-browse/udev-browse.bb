@@ -11,6 +11,7 @@ RPM_HASH = "3d1c5d448f8f8404c11541ef5ad2c43dbba569b20f31a04030a1be80d7c0a3d15d0a
 
 RPROVIDES:${PN} += "udev-browse \
 udev-browse(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgee-0.8.so.2()(64bit) \
 libglib-2.0.so.0()(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "724c03f1767b3b4d03d1d22a97b7be55da2599628bb0702ccb42aec02a95924e3795
 RPROVIDES:${PN} += "netcdf-fortran_4_5_3-gnu-hpc \
 netcdf-fortran_4_5_3-gnu-hpc-devel \
 netcdf-fortran_4_5_3-gnu-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \

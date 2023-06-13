@@ -14,6 +14,7 @@ RPM_HASH = "ea469dad5ff35d291d895cf3e667138e45887c6b6ee661f6fe905a1038f6c90aad8b
 RPROVIDES:${PN} += "libproxy-devel \
 libproxy-devel(aarch-64) \
 pkgconfig(libproxy-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libproxy1"
 

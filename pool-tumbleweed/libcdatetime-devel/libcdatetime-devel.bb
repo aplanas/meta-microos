@@ -13,6 +13,7 @@ RPM_HASH = "acc31c23b3f5a202b704fb5028dedea71c3fdbc61ba5e69d500374343dded899fdd1
 RPROVIDES:${PN} += "libcdatetime-devel \
 libcdatetime-devel(aarch-64) \
 pkgconfig(libcdatetime)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcdatetime1"
 

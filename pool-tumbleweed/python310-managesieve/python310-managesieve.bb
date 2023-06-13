@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-managesieve \
 python3.10dist(managesieve) \
 python310-managesieve \
 python3dist(managesieve)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

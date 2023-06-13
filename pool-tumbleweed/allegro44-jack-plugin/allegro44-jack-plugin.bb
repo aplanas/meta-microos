@@ -10,6 +10,7 @@ RPM_HASH = "49ea1b73c6a2ca95a034a3e432eda1e66983cc4f573594ab65ad1c1997a9b0c1e299
 
 RPROVIDES:${PN} += "allegro44-jack-plugin \
 allegro44-jack-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "allegro44 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

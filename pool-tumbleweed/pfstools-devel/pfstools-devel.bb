@@ -15,6 +15,7 @@ RPM_HASH = "50d476337c81b6a43ceae6dedf6852e481cb05279771e42fab51ff9c4bb230c41100
 RPROVIDES:${PN} += "pfstools-devel \
 pfstools-devel(aarch-64) \
 pkgconfig(pfs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpfs2"
 

@@ -9,6 +9,7 @@ RPM_HASH = "fd3e8269a0d14f58e5a0c7d04ce47aea987a0eb12a153bdb82d547600588e464d261
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ccicons-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

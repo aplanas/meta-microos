@@ -20,6 +20,7 @@ locale(spyder:zh_CN) \
 spyder-lang \
 spyder-lang-all \
 spyder3-lang"
+
 RDEPENDS:${PN} += "spyder"
 
 inherit rpm

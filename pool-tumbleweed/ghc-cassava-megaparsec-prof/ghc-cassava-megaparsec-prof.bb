@@ -10,6 +10,7 @@ RPM_HASH = "b61964adb4e0e3322627a995f487be6f8fddb3335f608fb80b13a23951c58c8fbbb0
 RPROVIDES:${PN} += "ghc-cassava-megaparsec-prof \
 ghc-cassava-megaparsec-prof(aarch-64) \
 ghc-prof(cassava-megaparsec-2.0.4-2pnivL0ArW7GGP4dYCJwT3)"
+
 RDEPENDS:${PN} += "ghc-cassava-megaparsec-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

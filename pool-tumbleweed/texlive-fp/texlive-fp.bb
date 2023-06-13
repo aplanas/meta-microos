@@ -24,6 +24,7 @@ tex(fp.sty) \
 tex(fp.tex) \
 tex(lfp.sty) \
 texlive-fp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

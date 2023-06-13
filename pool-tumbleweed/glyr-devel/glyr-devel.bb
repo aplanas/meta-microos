@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "glyr-devel \
 glyr-devel(aarch-64) \
 libglyr-devel \
 pkgconfig(libglyr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libglyr1 \
 pkgconfig(sqlite3)"

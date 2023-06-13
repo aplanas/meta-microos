@@ -13,6 +13,7 @@ man(latex.1) \
 man(lualatex.1) \
 man(pdflatex.1) \
 texlive-latex-bin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

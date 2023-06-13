@@ -26,6 +26,7 @@ pkgconfig(xmlrpc_util) \
 pkgconfig(xmlrpc_util++) \
 xmlrpc-c-devel \
 xmlrpc-c-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libxmlrpc++8 \

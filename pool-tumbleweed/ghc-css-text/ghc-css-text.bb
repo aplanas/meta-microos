@@ -10,6 +10,7 @@ RPM_HASH = "3280c993b97f018fca198408a2aff68953191a0ea704ca59dcee14dc4f2ce3114916
 RPROVIDES:${PN} += "ghc-css-text \
 ghc-css-text(aarch-64) \
 libHScss-text-0.1.3.0-21S5OjTqOp19taDQmfqmQs-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-JfIUPSNLtNQH9xUGOplWef-attoparsec-internal-ghc9.4.5.so()(64bit) \

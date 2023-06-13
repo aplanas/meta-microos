@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lambda.sty) \
 texlive-lambda-lists"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

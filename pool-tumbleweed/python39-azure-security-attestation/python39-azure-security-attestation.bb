@@ -32,6 +32,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-security-attestation) \
 python39-azure-security-attestation \
 python3dist(azure-security-attestation)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-core \
 python39-azure-nspkg \

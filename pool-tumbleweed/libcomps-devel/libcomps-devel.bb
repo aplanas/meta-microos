@@ -10,6 +10,7 @@ RPM_HASH = "b676ded7f7ff645cf3f3609843d08fd67d002635bb35c21ffbd9c86670e6d5089cf7
 RPROVIDES:${PN} += "libcomps-devel \
 libcomps-devel(aarch-64) \
 pkgconfig(libcomps)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcomps0(aarch-64) \
 pkgconfig \

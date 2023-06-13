@@ -10,6 +10,7 @@ RPM_HASH = "f590764c56756a559462d9f3fce9c83635432277b2a98c6180da74c2103d52782117
 RPROVIDES:${PN} += "ghc-cabal-plan-prof \
 ghc-cabal-plan-prof(aarch-64) \
 ghc-prof(cabal-plan-0.7.2.3-5ryJl4z9bHqN70ORM7EbT)"
+
 RDEPENDS:${PN} += "ghc-cabal-plan-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(base-4.17.1.0) \

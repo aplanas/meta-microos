@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-protonvpn-nm-lib \
 python3.10dist(protonvpn-nm-lib) \
 python310-protonvpn-nm-lib \
 python3dist(protonvpn-nm-lib)"
+
 RDEPENDS:${PN} += "NetworkManager-openvpn \
 dbus-1-x11 \
 python(abi) \

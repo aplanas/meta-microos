@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Quick3DAssetUtils) \
 pkgconfig(Qt6Quick3DAssetUtils) \
 qt6-quick3dassetutils-devel \
 qt6-quick3dassetutils-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt6Quick3DAssetUtils6 \
 pkgconfig(Qt6Core) \

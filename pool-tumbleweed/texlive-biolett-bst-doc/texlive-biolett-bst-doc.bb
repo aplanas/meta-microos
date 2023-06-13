@@ -9,6 +9,7 @@ RPM_HASH = "9fdf2f8a6a118c572e1b171b54cec92df7eb175054290a21dee9d59f92c10c4df93d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biolett-bst-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

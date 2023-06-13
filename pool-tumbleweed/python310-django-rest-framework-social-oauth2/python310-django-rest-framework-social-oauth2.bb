@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-rest-framework-social-oauth2 \
 python3.10dist(django-rest-framework-social-oauth2) \
 python310-django-rest-framework-social-oauth2 \
 python3dist(django-rest-framework-social-oauth2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-django-braces \
 python310-django-oauth-toolkit \

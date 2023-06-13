@@ -12,6 +12,7 @@ gstreamer-plugins-good-gtk(aarch-64) \
 gstreamer1(element-gtkglsink)()(64bit) \
 gstreamer1(element-gtksink)()(64bit) \
 libgstgtk.so()(64bit)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-good \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

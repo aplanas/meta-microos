@@ -68,6 +68,7 @@ locale(libkasten:ug) \
 locale(libkasten:uk) \
 locale(libkasten:zh_CN) \
 locale(libkasten:zh_TW)"
+
 RDEPENDS:${PN} += "libkasten"
 
 inherit rpm

@@ -17,6 +17,7 @@ RPM_HASH = "8d719606cfb635b2f113cb29051e582c2ce84f6093e7b22e865afeaa01a112619b16
 RPROVIDES:${PN} += "libcairo-gobject.so.2()(64bit) \
 libcairo-gobject2 \
 libcairo-gobject2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libcairo.so.2()(64bit) \
 libglib-2.0.so.0()(64bit) \

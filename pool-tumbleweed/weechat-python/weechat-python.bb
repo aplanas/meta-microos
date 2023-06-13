@@ -9,6 +9,7 @@ RPM_HASH = "3e6f264f6869a59f23071be49512cf472948e7641b6496b5423b1e407cb23f16cdd9
 
 RPROVIDES:${PN} += "weechat-python \
 weechat-python(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

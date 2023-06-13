@@ -10,6 +10,7 @@ RPM_HASH = "37ff9eeb38c056ac63c07afd22018ae21c1d207fb43d49e16a73cb6be64aa773c29a
 RPROVIDES:${PN} += "pkgconfig(mpris-qt5) \
 qtmpris-devel \
 qtmpris-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmpris-qt5-1 \
 pkgconfig(Qt5Core) \

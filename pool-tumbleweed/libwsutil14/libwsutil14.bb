@@ -10,6 +10,7 @@ RPM_HASH = "3a45250d82b04809868f3f5df8d4edc30ef14a81ddeb0bfca23c2259e8fb851c9328
 RPROVIDES:${PN} += "libwsutil.so.14()(64bit) \
 libwsutil14 \
 libwsutil14(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

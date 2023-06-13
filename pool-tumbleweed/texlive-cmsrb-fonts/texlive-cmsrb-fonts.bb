@@ -127,6 +127,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(computermodern) \
 texlive-cmsrb-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

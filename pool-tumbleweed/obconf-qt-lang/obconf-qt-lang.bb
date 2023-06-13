@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obconf-qt-lang \
 obconf-qt-lang-all"
+
 RDEPENDS:${PN} += "obconf-qt"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-GridDataFormats \
 python3.10dist(griddataformats) \
 python310-GridDataFormats \
 python3dist(griddataformats)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-mrcfile \
 python310-numpy \

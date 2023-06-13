@@ -9,6 +9,7 @@ RPM_HASH = "b1e77ff854c357a2ef874d3506597faa2b451a5296728c645207239170beac25a76e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pagella-otf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

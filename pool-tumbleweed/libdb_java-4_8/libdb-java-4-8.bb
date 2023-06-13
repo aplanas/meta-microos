@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "db-java \
 libdb_java-4.8.so()(64bit) \
 libdb_java-4_8 \
 libdb_java-4_8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

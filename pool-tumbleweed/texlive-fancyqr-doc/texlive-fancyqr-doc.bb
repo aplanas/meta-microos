@@ -9,6 +9,7 @@ RPM_HASH = "cd5057d484ddd950fe8bd1300c911d440d3bb26ec9c57e8aff5e63a17850331bcc82
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fancyqr-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

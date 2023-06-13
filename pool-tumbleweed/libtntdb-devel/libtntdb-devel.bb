@@ -10,6 +10,7 @@ RPM_HASH = "c283a0aed85192fc15b9342449df2f1a529511ad52f9a56759e001fc0bbe401fa9cd
 RPROVIDES:${PN} += "libtntdb-devel \
 libtntdb-devel(aarch-64) \
 pkgconfig(tntdb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtntdb5 \
 pkgconfig(cxxtools)"

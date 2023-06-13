@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "at-spi2-atk-gtk2 \
 at-spi2-core \
 at-spi2-core(aarch-64) \
 libatk-bridge.so()(64bit)"
+
 RDEPENDS:${PN} += "(dbus-1 or dbus-broker) \
 (xprop if xwayland) \
 /bin/sh \

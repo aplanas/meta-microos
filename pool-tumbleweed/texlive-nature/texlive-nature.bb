@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nature.cls) \
 texlive-nature"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -19,6 +19,7 @@ mimehandler(application/x-vnc) \
 mimehandler(x-scheme-handler/vnc) \
 vinagre \
 vinagre(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-common.so.3()(64bit) \

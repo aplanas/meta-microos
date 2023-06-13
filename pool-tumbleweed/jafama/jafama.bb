@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jafama \
 mvn(net.jafama:jafama) \
 mvn(net.jafama:jafama:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

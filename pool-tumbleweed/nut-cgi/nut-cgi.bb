@@ -15,6 +15,7 @@ RPM_HASH = "956694828d486dad79122bf71d5ee1c9d41f1d8c743cb1480a72ac5a2d26231ca94f
 RPROVIDES:${PN} += "config(nut-cgi) \
 nut-cgi \
 nut-cgi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

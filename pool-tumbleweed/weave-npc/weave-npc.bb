@@ -18,6 +18,7 @@ RPM_HASH = "0afc8d00ae36737862d380c3f5ff58678c9131022a3744ce10639703d392420a5309
 RPROVIDES:${PN} += "config(weave-npc) \
 weave-npc \
 weave-npc(aarch-64)"
+
 RDEPENDS:${PN} += "ipset \
 iptables \
 ulogd \

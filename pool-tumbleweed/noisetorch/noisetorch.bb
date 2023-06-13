@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "application() \
 application(noisetorch.desktop) \
 noisetorch \
 noisetorch(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

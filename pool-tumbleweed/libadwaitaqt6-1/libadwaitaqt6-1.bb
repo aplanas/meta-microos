@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libadwaitaqt6-1 \
 libadwaitaqt6-1(aarch-64) \
 libadwaitaqt6.so.1()(64bit) \
 libadwaitaqt6priv.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

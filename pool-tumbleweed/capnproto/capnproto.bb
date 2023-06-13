@@ -10,6 +10,7 @@ RPM_HASH = "d1c759f3772b5f7bc82422c1c2d7be38dd9fbde8a59003ef2cafffa9073e68f117e5
 
 RPROVIDES:${PN} += "capnproto \
 capnproto(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

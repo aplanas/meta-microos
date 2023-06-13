@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Okular5) \
 okular-devel \
 okular-devel(aarch-64) \
 okular5-devel"
+
 RDEPENDS:${PN} += "cmake(KF5Config) \
 cmake(KF5CoreAddons) \
 cmake(KF5XmlGui) \

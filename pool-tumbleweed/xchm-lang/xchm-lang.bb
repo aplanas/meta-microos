@@ -30,6 +30,7 @@ locale(xchm:zh_CN) \
 locale(xchm:zh_TW) \
 xchm-lang \
 xchm-lang-all"
+
 RDEPENDS:${PN} += "xchm"
 
 inherit rpm

@@ -24,6 +24,7 @@ tex(mla7.cbx) \
 tex(portuguese-mla.lbx) \
 tex(spanish-mla.lbx) \
 texlive-biblatex-mla"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

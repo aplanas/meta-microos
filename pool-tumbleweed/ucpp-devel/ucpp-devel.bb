@@ -10,6 +10,7 @@ RPM_HASH = "086f5bd346f70f5443255acda2b0b1438808f114fd008304c07b4475b568a00ffe51
 RPROVIDES:${PN} += "pkgconfig(libucpp) \
 ucpp-devel \
 ucpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libucpp13"
 

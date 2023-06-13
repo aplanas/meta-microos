@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(afm2pl.1) \
 texlive-afm2pl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

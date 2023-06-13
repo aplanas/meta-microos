@@ -67,6 +67,7 @@ locale(kiriki:ug) \
 locale(kiriki:uk) \
 locale(kiriki:zh_CN) \
 locale(kiriki:zh_TW)"
+
 RDEPENDS:${PN} += "kiriki"
 
 inherit rpm

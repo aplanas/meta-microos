@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-jura-doc:en;de) \
 texlive-jura-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

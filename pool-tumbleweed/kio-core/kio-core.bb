@@ -20,6 +20,7 @@ libKF5KIONTLM.so.5()(64bit) \
 mimehandler(x-scheme-handler/rlogin) \
 mimehandler(x-scheme-handler/ssh) \
 mimehandler(x-scheme-handler/telnet)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

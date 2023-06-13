@@ -27,6 +27,7 @@ RPM_HASH = "51adc59309832c743d2d62d1310dc16fae5e4f97269b444087f68814499b75cf7889
 RPROVIDES:${PN} += "typelib(GES) \
 typelib-1_0-GES-1_0 \
 typelib-1_0-GES-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libges-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

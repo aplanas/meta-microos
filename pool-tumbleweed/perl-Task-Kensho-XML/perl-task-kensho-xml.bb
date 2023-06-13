@@ -39,6 +39,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Task::Kensho::XML) \
 perl-Task-Kensho-XML"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(XML::Generator::PerlData) \
 perl(XML::LibXML) \

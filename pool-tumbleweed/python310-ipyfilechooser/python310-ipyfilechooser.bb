@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ipyfilechooser \
 python3.10dist(ipyfilechooser) \
 python310-ipyfilechooser \
 python3dist(ipyfilechooser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ipywidgets"
 

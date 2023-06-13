@@ -9,6 +9,7 @@ RPM_HASH = "efa7a43c20bb97965e832099990c2981829c91c8249f2a6ba9771b6dd81bde892e4b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-contracard-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

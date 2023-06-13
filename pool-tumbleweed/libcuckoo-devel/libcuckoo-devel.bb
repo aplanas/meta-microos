@@ -11,6 +11,7 @@ RPM_HASH = "8eaeb7e5e222e7a5a3a6665911be7e49f10d971cd955329e5dcbbe9e7c8bcf5b1289
 RPROVIDES:${PN} += "cmake(libcuckoo) \
 libcuckoo-devel \
 libcuckoo-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -37,6 +37,7 @@ osgi(org.eclipse.egit.gitflow.ui) \
 osgi(org.eclipse.egit.gitflow.ui.source) \
 osgi(org.eclipse.egit.ui) \
 osgi(org.eclipse.egit.ui.source)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 osgi(org.eclipse.jdt.core) \

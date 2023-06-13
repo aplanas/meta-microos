@@ -37,6 +37,7 @@ locale(efl:sr) \
 locale(efl:tr) \
 locale(efl:vi) \
 locale(efl:zh_CN)"
+
 RDEPENDS:${PN} += "efl"
 
 inherit rpm

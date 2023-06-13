@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ftcap.sty) \
 texlive-ftcap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

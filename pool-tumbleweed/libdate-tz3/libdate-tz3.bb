@@ -10,6 +10,7 @@ RPM_HASH = "16475f9c0ca2ac24ef3451f1ff5a99ba82e2fa6d3b4fa81a30f64a1a23e992969597
 RPROVIDES:${PN} += "libdate-tz.so.3()(64bit) \
 libdate-tz3 \
 libdate-tz3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

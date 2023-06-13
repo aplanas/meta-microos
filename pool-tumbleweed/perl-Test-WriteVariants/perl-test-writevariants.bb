@@ -22,6 +22,7 @@ perl(Test::WriteVariants::Context::MetaInfo) \
 perl(Test::WriteVariants::Context::ModuleUse) \
 perl(Test::WriteVariants::Context::OurVar) \
 perl-Test-WriteVariants"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Data::Tumbler) \
 perl(Module::Pluggable::Object) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(timeout-decorator) \
 python39-timeout-decorator \
 python3dist(timeout-decorator)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

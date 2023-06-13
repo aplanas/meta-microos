@@ -13,6 +13,7 @@ RPM_HASH = "15b5211bc4aede8b777a3fc4efe18cae7238aff72489c8a6053ed84716f1a7629251
 RPROVIDES:${PN} += "libavc1394-devel \
 libavc1394-devel(aarch-64) \
 pkgconfig(libavc1394)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libavc1394-0 \
 pkgconfig(libraw1394)"

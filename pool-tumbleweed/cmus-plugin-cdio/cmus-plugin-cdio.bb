@@ -9,6 +9,7 @@ RPM_HASH = "4710ef1d72fc7e2cb16a6d3e9d5ea03630364bbb94de8deebe5bffec40db22359a8d
 
 RPROVIDES:${PN} += "cmus-plugin-cdio \
 cmus-plugin-cdio(aarch-64)"
+
 RDEPENDS:${PN} += "cmus \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

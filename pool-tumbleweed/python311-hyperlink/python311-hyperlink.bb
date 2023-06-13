@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(hyperlink) \
 python311-hyperlink \
 python3dist(hyperlink)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-idna"
 

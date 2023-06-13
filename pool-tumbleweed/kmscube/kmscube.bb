@@ -12,6 +12,7 @@ RPM_HASH = "9e5353a30d24ec827c0d9522a1fa8719ce9182b942a6f72067018b16a996a274f0ea
 
 RPROVIDES:${PN} += "kmscube \
 kmscube(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \

@@ -20,6 +20,7 @@ RPM_HASH = "d6c37c6bd6327caeb65b22d9ebeb5c66081dc05a44cfe6e4dc9946bd8a60d823dd97
 
 RPROVIDES:${PN} += "openvpn-auth-pam-plugin \
 openvpn-auth-pam-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tableprint) \
 python311-tableprint \
 python3dist(tableprint)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-future \
 python311-wcwidth"

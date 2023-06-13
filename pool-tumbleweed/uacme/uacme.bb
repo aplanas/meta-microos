@@ -14,6 +14,7 @@ RPM_HASH = "573f7e84cc965973c4bd726c4214324ebfd24ccdae4f9700bfc6efb54b09b57786a9
 
 RPROVIDES:${PN} += "uacme \
 uacme(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

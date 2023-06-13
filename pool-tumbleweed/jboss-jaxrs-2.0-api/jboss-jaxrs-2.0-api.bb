@@ -14,6 +14,7 @@ mvn(org.jboss.resteasy:jaxrs-api:pom:) \
 mvn(org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec) \
 mvn(org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:pom:) \
 osgi(org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_2.0_spec)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

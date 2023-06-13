@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:devise-i18n) \
 rubygem(ruby:3.2.0:devise-i18n:1) \
 rubygem(ruby:3.2.0:devise-i18n:1.10) \
 rubygem(ruby:3.2.0:devise-i18n:1.10.2)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:devise)"
 

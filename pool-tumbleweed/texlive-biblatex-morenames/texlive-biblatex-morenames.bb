@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(morenames.bbx) \
 texlive-biblatex-morenames"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

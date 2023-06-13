@@ -58,6 +58,7 @@ perl(MouseX::Getopt::OptionTypeMap) \
 perl(MouseX::Getopt::Strict) \
 perl-MouseX-Getopt \
 perl-mousex-getopt"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Getopt::Long) \
 perl(Getopt::Long::Descriptive) \

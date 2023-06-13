@@ -10,6 +10,7 @@ RPM_HASH = "98252ee4de1998eb335407e9202517ab7671d3da5ef93c6ad98c50081200ae9dcbcf
 RPROVIDES:${PN} += "kubernetes-controller-manager-provider \
 kubernetes1.20-controller-manager \
 kubernetes1.20-controller-manager(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

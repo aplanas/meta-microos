@@ -10,6 +10,7 @@ RPM_HASH = "170a805c66be108af98a9592b38d44a82b5ca30f09ac6953f70cbfe5b1578a164d0a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-terminus"
+
 RDEPENDS:${PN} += "gnome-shell \
 terminus"
 

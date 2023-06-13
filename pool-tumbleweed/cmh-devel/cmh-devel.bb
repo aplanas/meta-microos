@@ -13,6 +13,7 @@ RPM_HASH = "01abe2f1c090f59fb08fb1fcb081d8dd92094e357c834445f35e42a470f3ea2b1c81
 
 RPROVIDES:${PN} += "cmh-devel \
 cmh-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcmh0 \
 mpc-devel"
 

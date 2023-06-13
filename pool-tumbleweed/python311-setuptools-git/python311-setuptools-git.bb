@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(setuptools-git) \
 python311-setuptools-git \
 python3dist(setuptools-git)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

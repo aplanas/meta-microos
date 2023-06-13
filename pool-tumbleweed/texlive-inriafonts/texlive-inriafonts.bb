@@ -830,6 +830,7 @@ tex(inriaserif_x5ybkq.enc) \
 tex(inriaserif_yeotsr.enc) \
 tex(inriaserif_yl5fy2.enc) \
 texlive-inriafonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

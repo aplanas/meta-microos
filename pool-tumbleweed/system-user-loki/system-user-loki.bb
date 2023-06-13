@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(loki) \
 system-user-loki \
 user(loki)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

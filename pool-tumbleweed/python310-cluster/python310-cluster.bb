@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-cluster \
 python3.10dist(cluster) \
 python310-cluster \
 python3dist(cluster)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib \
 python310-numpy \

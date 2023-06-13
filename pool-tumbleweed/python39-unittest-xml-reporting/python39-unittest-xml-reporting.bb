@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(unittest-xml-reporting) \
 python39-unittest-xml-reporting \
 python39-xmlrunner \
 python3dist(unittest-xml-reporting)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

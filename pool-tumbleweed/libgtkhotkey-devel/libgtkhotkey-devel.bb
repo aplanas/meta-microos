@@ -13,6 +13,7 @@ RPM_HASH = "4cbaebdbf35d796920e7fd7ee531e2a4a8e537eb1dae1dda608667a18d1cb0f8e107
 RPROVIDES:${PN} += "libgtkhotkey-devel \
 libgtkhotkey-devel(aarch-64) \
 pkgconfig(gtkhotkey-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 gtk2-devel \

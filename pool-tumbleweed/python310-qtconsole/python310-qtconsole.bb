@@ -18,6 +18,7 @@ python3.10dist(qtconsole) \
 python310-jupyter_qtconsole \
 python310-qtconsole \
 python3dist(qtconsole)"
+
 RDEPENDS:${PN} += "(python310-qt5 or python310-pyside2 or python310-PyQt6 or python310-pyside6) \
 /bin/sh \
 /usr/bin/python3.10 \

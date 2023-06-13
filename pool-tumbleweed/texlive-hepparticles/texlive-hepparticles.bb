@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hepparticles.sty) \
 texlive-hepparticles"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "2074c9b357a8a6a45f999d842f888e780241c5773c27bed05848f41151d0917afab9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wine-gecko"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

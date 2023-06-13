@@ -19,6 +19,7 @@ RPM_HASH = "7867c3f54df70ea5637ca91ebc40e5ab8a208e9eee9fd4fc766345871e260c057b01
 RPROVIDES:${PN} += "gluegen2 \
 gluegen2(aarch-64) \
 libgluegen2-rt.so()(64bit)"
+
 RDEPENDS:${PN} += "java \
 libc.so.6(GLIBC_2.34)(64bit)"
 

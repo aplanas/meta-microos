@@ -9,6 +9,7 @@ RPM_HASH = "e8163f5f819ce569bff0b149b08f4ab64cd1ab1b5baa6bad7b7901bf3920f75a704d
 
 RPROVIDES:${PN} += "libTMCG-devel \
 libTMCG-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libTMCG18"
 

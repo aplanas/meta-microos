@@ -9,6 +9,7 @@ RPM_HASH = "9881ae9354eab76695291e19b8c04ebba6160b36a4b3db16b5562e00599253ba9616
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-semtex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

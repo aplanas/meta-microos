@@ -24,6 +24,7 @@ RPM_HASH = "0cc7f317696f86103f0c51cb3ccf0d90cec65852078ce1f4302a0f59e670e8483196
 
 RPROVIDES:${PN} += "gnu-netcat \
 gnu-netcat(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

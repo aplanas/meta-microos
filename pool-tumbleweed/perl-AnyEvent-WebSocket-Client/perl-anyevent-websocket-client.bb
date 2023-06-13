@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "perl(AnyEvent::WebSocket::Client) \
 perl(AnyEvent::WebSocket::Connection) \
 perl(AnyEvent::WebSocket::Message) \
 perl-AnyEvent-WebSocket-Client"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(AnyEvent) \
 perl(AnyEvent::Connector) \

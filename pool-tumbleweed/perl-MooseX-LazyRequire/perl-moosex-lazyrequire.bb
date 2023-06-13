@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(MooseX::LazyRequire) \
 perl(MooseX::LazyRequire::Meta::Attribute::Trait::LazyRequire) \
 perl-MooseX-LazyRequire"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(Moose::Exporter) \

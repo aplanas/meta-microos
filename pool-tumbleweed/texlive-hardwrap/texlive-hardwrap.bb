@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hardwrap.sty) \
 texlive-hardwrap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "30a6172ef112eb7b75965ec3726bf3572252729b816a58c2faeb95269c4b70f63e53
 
 RPROVIDES:${PN} += "libmtp-udev \
 libmtp-udev(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

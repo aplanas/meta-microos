@@ -20,6 +20,7 @@ tex(DSSerifUni.tfm) \
 tex(dsserif.sty) \
 tex(udsserif.fd) \
 texlive-dsserif"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libburnia-devel \
 libisoburn-devel \
 libisoburn-devel(aarch-64) \
 pkgconfig(libisoburn-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libburn-devel \
 libisoburn1 \

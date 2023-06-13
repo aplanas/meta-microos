@@ -14,6 +14,7 @@ libykclient.so.3(YKCLIENT_2.12)(64bit) \
 libykclient.so.3(YKCLIENT_2.15)(64bit) \
 libykclient3 \
 libykclient3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

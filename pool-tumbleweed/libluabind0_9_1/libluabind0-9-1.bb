@@ -12,6 +12,7 @@ RPM_HASH = "b6b087569dedba479808a944f598f1afb594dda350cdf028ab5648843593dd10d44a
 RPROVIDES:${PN} += "libluabind.so.0.9.1()(64bit) \
 libluabind0_9_1 \
 libluabind0_9_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

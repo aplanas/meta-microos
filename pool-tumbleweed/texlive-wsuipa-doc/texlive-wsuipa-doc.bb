@@ -9,6 +9,7 @@ RPM_HASH = "e8f23918e505072a63608eda4ffa0bf6475b708d4d722884698e9c71be119b3f567b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wsuipa-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

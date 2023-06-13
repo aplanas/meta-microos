@@ -24,6 +24,7 @@ tex(leadsheets.library.translations.code.tex) \
 tex(leadsheets.library.transposing.code.tex) \
 tex(leadsheets.sty) \
 texlive-leadsheets"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

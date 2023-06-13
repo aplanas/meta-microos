@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-nocaselist \
 python3.10dist(nocaselist) \
 python310-nocaselist \
 python3dist(nocaselist)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

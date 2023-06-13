@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-argparse \
 lua54-argparse"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

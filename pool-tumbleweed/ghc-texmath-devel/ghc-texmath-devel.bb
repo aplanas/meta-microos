@@ -10,6 +10,7 @@ RPM_HASH = "64ba7b3c707f72009e795719e779148a4b5eacf8dde905f1a6589a057ab42b497975
 RPROVIDES:${PN} += "ghc-devel(texmath-0.12.7.1-7OWYB1fHEsHAa3KAfzQAEj) \
 ghc-texmath-devel \
 ghc-texmath-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

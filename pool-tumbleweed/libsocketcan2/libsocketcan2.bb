@@ -12,6 +12,7 @@ RPM_HASH = "afbfc5c9591e84d5b136180a036cfc7b979e90b6be931174a75a7f7ab372251786e0
 RPROVIDES:${PN} += "libsocketcan.so.2()(64bit) \
 libsocketcan2 \
 libsocketcan2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

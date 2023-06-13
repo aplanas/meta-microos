@@ -9,6 +9,7 @@ RPM_HASH = "9dea00fd61b9fe6d9ced349be60f1e8f416cfb62622574d1d595258fd577aee5517e
 
 RPROVIDES:${PN} += "deepin-override-tool \
 deepin-override-tool(aarch-64)"
+
 RDEPENDS:${PN} += "dconf"
 
 inherit rpm

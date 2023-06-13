@@ -9,6 +9,7 @@ RPM_HASH = "a9f228af9940bc20cfec9ee6a1dfc74815c92a9118e61f7c8c9fc8e2321b9b449105
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jp2a-bash-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

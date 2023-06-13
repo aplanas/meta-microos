@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-policykit-lang \
 lxqt-policykit-lang-all"
+
 RDEPENDS:${PN} += "lxqt-policykit"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pangram.sty) \
 texlive-pangram"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

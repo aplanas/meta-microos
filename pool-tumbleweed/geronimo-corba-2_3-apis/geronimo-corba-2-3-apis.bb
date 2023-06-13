@@ -14,6 +14,7 @@ corba_apis \
 geronimo-corba-2_3-apis \
 mvn(org.apache.geronimo.specs:geronimo-corba_2.3_spec) \
 mvn(org.apache.geronimo.specs:geronimo-corba_2.3_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

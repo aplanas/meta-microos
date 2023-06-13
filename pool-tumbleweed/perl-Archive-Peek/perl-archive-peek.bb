@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "perl(Archive::Peek) \
 perl(Archive::Peek::Tar) \
 perl(Archive::Peek::Zip) \
 perl-Archive-Peek"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Tar) \
 perl(Archive::Zip) \

@@ -11,6 +11,7 @@ RPM_HASH = "ddca30fba1b38607eb2efa727f4e880b889e767b484662243856f0a60f6de27cd100
 RPROVIDES:${PN} += "libsz2-devel \
 sz2-devel \
 sz2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libaec-devel \
 libsz2"
 

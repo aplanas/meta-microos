@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fixjfm.sty) \
 texlive-fixjfm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

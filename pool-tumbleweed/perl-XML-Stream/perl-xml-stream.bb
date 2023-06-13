@@ -53,6 +53,7 @@ perl(XML::Stream::XPath::PositionOp) \
 perl(XML::Stream::XPath::Query) \
 perl(XML::Stream::XPath::Value) \
 perl-XML-Stream"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Authen::SASL)"
 

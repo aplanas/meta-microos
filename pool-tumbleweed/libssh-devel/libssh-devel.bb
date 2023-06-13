@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(libssh) \
 libssh-devel \
 libssh-devel(aarch-64) \
 pkgconfig(libssh)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake \
 libssh4"

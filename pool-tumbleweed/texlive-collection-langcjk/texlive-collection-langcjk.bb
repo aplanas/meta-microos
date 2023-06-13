@@ -13,6 +13,7 @@ RPM_HASH = "bba049cea2fcaceeab61365e02568d2289c762c67da85c76060ccd540d0397038d36
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langcjk"
+
 RDEPENDS:${PN} += "texlive-adobemapping \
 texlive-c90 \
 texlive-cjk \

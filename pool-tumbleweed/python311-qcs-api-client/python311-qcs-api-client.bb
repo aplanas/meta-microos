@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(qcs-api-client) \
 python311-qcs-api-client \
 python3dist(qcs-api-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyJWT \
 python311-attrs \

@@ -10,6 +10,7 @@ RPM_HASH = "ac268058f8a4893a02eabd8d17255e14bd23f3dc8e0140df8d12d71e58bbec7e6a3a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-yaml-module-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

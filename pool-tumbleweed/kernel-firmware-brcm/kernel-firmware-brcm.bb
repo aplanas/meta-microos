@@ -159,6 +159,7 @@ rock960.txt) \
 tolino-shine2hd.txt) \
 vim2.txt) \
 visionfive-v1.txt)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

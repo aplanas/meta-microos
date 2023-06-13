@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3.11dist(pyscss) \
 python311-pyScss \
 python311-pyScss(aarch-64) \
 python3dist(pyscss)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1()(64bit) \

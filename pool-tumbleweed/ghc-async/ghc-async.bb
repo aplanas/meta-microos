@@ -22,6 +22,7 @@ RPM_HASH = "95dde32a2245d87e1cce01b7f14847b055de6a4c4b77cc6ecdf45a2587c3c4c296a1
 RPROVIDES:${PN} += "ghc-async \
 ghc-async(aarch-64) \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

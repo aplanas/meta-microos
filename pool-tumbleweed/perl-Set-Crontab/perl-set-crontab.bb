@@ -17,6 +17,7 @@ RPM_HASH = "70ed9bd9aedecf8f65a04ff0125906e1c336444944c0e8047eb92d5e9c2229bcc6c3
 RPROVIDES:${PN} += "perl(Set::Crontab) \
 perl-Set-Crontab \
 perl-Set-Crontab(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

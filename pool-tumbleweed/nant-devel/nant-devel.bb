@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nant-devel \
 pkgconfig(nant)"
+
 RDEPENDS:${PN} += "nant"
 
 inherit rpm

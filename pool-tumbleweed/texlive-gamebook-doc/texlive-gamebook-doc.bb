@@ -9,6 +9,7 @@ RPM_HASH = "beff1ba947c68baed93a8bf8b3e8fb7e238acbd0312877abaeabd8620cff8ee74b10
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gamebook-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

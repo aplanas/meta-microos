@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-mailer \
 python3.10dist(django-mailer) \
 python310-django-mailer \
 python3dist(django-mailer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-lockfile \

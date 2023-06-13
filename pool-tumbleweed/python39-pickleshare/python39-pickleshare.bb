@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pickleshare) \
 python39-pickleshare \
 python3dist(pickleshare)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

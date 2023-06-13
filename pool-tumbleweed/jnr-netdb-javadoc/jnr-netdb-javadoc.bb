@@ -9,6 +9,7 @@ RPM_HASH = "2264bfd8aac524b9a40673a4aa98a8be58b663a22a262df4bf51bb0000bda9f0e0d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-netdb-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

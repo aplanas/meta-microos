@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pst-electricfield-doc:de;en;fr) \
 texlive-pst-electricfield-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

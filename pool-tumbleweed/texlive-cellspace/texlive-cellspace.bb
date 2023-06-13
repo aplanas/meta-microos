@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cellspace.sty) \
 texlive-cellspace"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

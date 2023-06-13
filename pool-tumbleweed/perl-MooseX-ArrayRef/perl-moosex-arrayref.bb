@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "perl(MooseX::ArrayRef) \
 perl(MooseX::ArrayRef::Meta::Class) \
 perl(MooseX::ArrayRef::Meta::Instance) \
 perl-MooseX-ArrayRef"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose)"
 

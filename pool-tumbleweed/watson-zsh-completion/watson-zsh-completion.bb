@@ -9,6 +9,7 @@ RPM_HASH = "39af79e449fd12102958adfe6c2cc73b26795309c1934dc13a3ba819219a1e21af7d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "watson-zsh-completion"
+
 RDEPENDS:${PN} += "watson"
 
 inherit rpm

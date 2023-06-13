@@ -10,6 +10,7 @@ RPM_HASH = "e45a5717878af02508302706b64bbfae1fca5de6fa57635ffa8a20eb8ed451162749
 RPROVIDES:${PN} += "cpio-mt \
 cpio-mt(aarch-64) \
 mt"
+
 RDEPENDS:${PN} += "/bin/sh \
 cpio \
 ld-linux-aarch64.so.1()(64bit) \

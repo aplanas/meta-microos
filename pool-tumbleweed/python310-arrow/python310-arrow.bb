@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-arrow \
 python3.10dist(arrow) \
 python310-arrow \
 python3dist(arrow)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-dateutil"
 

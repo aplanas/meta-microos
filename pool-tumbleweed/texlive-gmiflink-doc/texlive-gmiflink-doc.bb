@@ -9,6 +9,7 @@ RPM_HASH = "7a55cb55b2e4301d85cb0e9e43f983b8ed5b9ea3b75cd89f14e99f34cf008d9b1bcc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gmiflink-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

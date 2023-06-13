@@ -95,6 +95,7 @@ locale(glib2:wa) \
 locale(glib2:zh_CN) \
 locale(glib2:zh_HK) \
 locale(glib2:zh_TW)"
+
 RDEPENDS:${PN} += "glib2"
 
 inherit rpm

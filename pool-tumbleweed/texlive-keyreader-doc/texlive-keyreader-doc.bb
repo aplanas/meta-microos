@@ -9,6 +9,7 @@ RPM_HASH = "8f6dbcc62883e24c28c4bc986568df067d02760ca2683030d3d7aacfd50398e9d724
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-keyreader-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

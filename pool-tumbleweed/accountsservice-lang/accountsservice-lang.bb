@@ -82,6 +82,7 @@ locale(accountsservice:wa) \
 locale(accountsservice:zh_CN) \
 locale(accountsservice:zh_HK) \
 locale(accountsservice:zh_TW)"
+
 RDEPENDS:${PN} += "accountsservice"
 
 inherit rpm

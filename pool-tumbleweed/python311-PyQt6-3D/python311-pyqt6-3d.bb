@@ -14,6 +14,7 @@ python311-PyQt6-3D \
 python311-PyQt6-3D(aarch-64) \
 python311-qt3d-qt6 \
 python3dist(pyqt6-3d)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt63DAnimation.so.6()(64bit) \

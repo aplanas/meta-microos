@@ -10,6 +10,7 @@ RPM_HASH = "fc6c54f02f5e64cad694221c45ea76eecd13401fa67dabcda549beeb5c0a7d31e7b1
 RPROVIDES:${PN} += "liblunar-calendar-3.0.so.1()(64bit) \
 liblunar-calendar-3_0-1 \
 liblunar-calendar-3_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

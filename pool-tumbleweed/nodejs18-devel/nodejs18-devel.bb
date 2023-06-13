@@ -11,6 +11,7 @@ RPM_HASH = "155070e5783ab3972c2d28261e20e57e1e16f5ac0fb8a0546b3a3794941b7bfb377b
 RPROVIDES:${PN} += "nodejs-devel \
 nodejs18-devel \
 nodejs18-devel(aarch-64)"
+
 RDEPENDS:${PN} += "nodejs18 \
 npm18"
 

@@ -34,6 +34,7 @@ perl(Pod::Parser) \
 perl(Pod::PlainText) \
 perl(Pod::Select) \
 perl-Pod-Parser"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

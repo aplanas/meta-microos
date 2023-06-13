@@ -36,6 +36,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(namespace::autoclean) \
 perl-namespace-autoclean"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(B::Hooks::EndOfScope) \
 perl(Sub::Identify) \

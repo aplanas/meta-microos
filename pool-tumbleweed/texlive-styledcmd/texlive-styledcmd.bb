@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(styledcmd.sty) \
 texlive-styledcmd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

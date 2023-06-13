@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "focuswriter-lang \
 focuswriter-lang-all"
+
 RDEPENDS:${PN} += "focuswriter"
 
 inherit rpm

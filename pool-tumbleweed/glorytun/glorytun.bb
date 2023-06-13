@@ -17,6 +17,7 @@ RPM_HASH = "f4cc48036a8c5cc4c4c9216977a9f0fd0b71bb73b37caf863b530367a5f7c231f613
 
 RPROVIDES:${PN} += "glorytun \
 glorytun(aarch-64)"
+
 RDEPENDS:${PN} += "iproute2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

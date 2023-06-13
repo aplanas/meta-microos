@@ -29,6 +29,7 @@ libecalbackendhttp.so()(64bit) \
 libecalbackendweather.so()(64bit) \
 libecalbackendwebdavnotes.so()(64bit) \
 libedbus-private.so()(64bit)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(latexbug.sty) \
 texlive-latexbug"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

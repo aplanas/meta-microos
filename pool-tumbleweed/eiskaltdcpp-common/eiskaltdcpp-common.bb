@@ -9,6 +9,7 @@ RPM_HASH = "1150a018663b8b4665d7e33784a741e93c6c0b97d014ecbac04db4c563acc4d134f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eiskaltdcpp-common"
+
 RDEPENDS:${PN} += "libeiskaltdcpp2_4"
 
 inherit rpm

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:simplecov:0) \
 rubygem(ruby:3.2.0:simplecov:0.21) \
 rubygem(ruby:3.2.0:simplecov:0.21.2) \
 rubygem(simplecov)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:docile:1) \
 rubygem(ruby:3.2.0:simplecov-html:0) \

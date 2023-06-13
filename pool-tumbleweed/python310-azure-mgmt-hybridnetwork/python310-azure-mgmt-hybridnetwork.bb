@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-hybridnetwork \
 python3.10dist(azure-mgmt-hybridnetwork) \
 python310-azure-mgmt-hybridnetwork \
 python3dist(azure-mgmt-hybridnetwork)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(newverbs.sty) \
 texlive-newverbs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

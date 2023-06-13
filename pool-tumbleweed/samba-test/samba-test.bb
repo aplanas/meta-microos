@@ -10,6 +10,7 @@ RPM_HASH = "c9a7098d66deed3559790fe12194b463d774430eb07762eaa3c7e8cb5d7cd660514a
 
 RPROVIDES:${PN} += "samba-test \
 samba-test(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

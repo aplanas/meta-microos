@@ -10,6 +10,7 @@ RPM_HASH = "c5abac9b6a6b32079f477430204ae6825272d8b333c07e4f1451795d0e828958e3ae
 
 RPROVIDES:${PN} += "libstoragemgmt-udev \
 libstoragemgmt-udev(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

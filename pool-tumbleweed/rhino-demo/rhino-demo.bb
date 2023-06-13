@@ -9,6 +9,7 @@ RPM_HASH = "c2baa84cd53c68960c762964a8b6f1095a847c144efad08a4aae9a3d94b2b5d83ad7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rhino-demo"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

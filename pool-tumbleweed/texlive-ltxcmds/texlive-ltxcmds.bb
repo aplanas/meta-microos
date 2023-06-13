@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ltxcmds.sty) \
 texlive-ltxcmds"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

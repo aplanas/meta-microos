@@ -9,6 +9,7 @@ RPM_HASH = "45f30b1cc674fd554e01428660e10745e3cc0d2fe482f8b43f90d1bd4201c4b2b1a7
 
 RPROVIDES:${PN} += "google-osconfig-agent \
 google-osconfig-agent(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 google-guest-configs"
 

@@ -10,6 +10,7 @@ RPM_HASH = "ec109a70b1748a23d30e56c287a4e738a598cca3ec315f8158976c4651bdcfa0f5c2
 RPROVIDES:${PN} += "libhtp.so.2()(64bit) \
 libhtp2 \
 libhtp2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

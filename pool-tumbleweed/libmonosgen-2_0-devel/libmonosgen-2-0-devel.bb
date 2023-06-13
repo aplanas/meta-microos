@@ -16,6 +16,7 @@ RPM_HASH = "b0b431c455fca4620b376918c141e2aaa9ab1319b792610114433587312851efa9f4
 RPROVIDES:${PN} += "libmonosgen-2_0-devel \
 libmonosgen-2_0-devel(aarch-64) \
 pkgconfig(monosgen-2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmono-2_0-devel \
 libmonosgen-2_0-1 \

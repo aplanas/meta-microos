@@ -21,6 +21,7 @@ pkgconfig(tensorflow2-lite) \
 tensorflow-lite-devel \
 tensorflow-lite-devel(aarch-64) \
 tensorflow2-lite-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 tensorflow-lite"
 

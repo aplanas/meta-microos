@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aiomisc-pytest \
 python3.10dist(aiomisc-pytest) \
 python310-aiomisc-pytest \
 python3dist(aiomisc-pytest)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

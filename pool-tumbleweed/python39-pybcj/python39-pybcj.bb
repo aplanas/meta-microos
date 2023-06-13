@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.9dist(pybcj) \
 python39-pybcj \
 python39-pybcj(aarch-64) \
 python3dist(pybcj)"
+
 RDEPENDS:${PN} += "(python39-importlib_metadata if python39-base < 3.8) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

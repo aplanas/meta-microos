@@ -10,6 +10,7 @@ RPM_HASH = "7b9cb6493de54c3f8ec7af65af4636f7ea50910fe904a61e7ee9da4d9566093460a8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdflatexpicscale"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

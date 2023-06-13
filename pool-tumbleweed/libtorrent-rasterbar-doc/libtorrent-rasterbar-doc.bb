@@ -9,6 +9,7 @@ RPM_HASH = "9e4f34c1a21b69cd2857a08428a017072144a0f99e354a50adf5d510bfd4b30a66e5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libtorrent-rasterbar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

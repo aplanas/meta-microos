@@ -15,6 +15,7 @@ RPM_HASH = "0a29df321556a2d1e55a276f0297ab1f7a809d7d893b564b20b75e28361677e7594e
 
 RPROVIDES:${PN} += "mpop-doc \
 mpop-doc(aarch-64)"
+
 RDEPENDS:${PN} += "mpop"
 
 inherit rpm

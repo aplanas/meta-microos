@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyinstaller-hooks-contrib \
 python3.10dist(pyinstaller-hooks-contrib) \
 python310-pyinstaller-hooks-contrib \
 python3dist(pyinstaller-hooks-contrib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

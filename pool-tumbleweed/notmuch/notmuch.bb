@@ -35,6 +35,7 @@ RPM_HASH = "f20bc657af7c01d9093498ed2f29a824e9ce875ae8321a118a3ada4da4b347dd59a4
 
 RPROVIDES:${PN} += "notmuch \
 notmuch(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -19,6 +19,7 @@ mkl-dnn-devel \
 oneDNN-devel \
 onednn-devel \
 onednn-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdnnl3"
 
 inherit rpm

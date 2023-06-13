@@ -9,6 +9,7 @@ RPM_HASH = "65a23cc68a6484634f1016b4b8e58284d1b75f9d3dc86eadad9062fe02dc127bf96a
 
 RPROVIDES:${PN} += "usrsctp-devel \
 usrsctp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libusrsctp2"
 
 inherit rpm

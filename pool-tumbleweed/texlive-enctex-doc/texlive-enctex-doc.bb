@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-enctex-doc:en;cs) \
 texlive-enctex-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

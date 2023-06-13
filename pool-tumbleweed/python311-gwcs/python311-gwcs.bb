@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(gwcs) \
 python311-gwcs \
 python3dist(gwcs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-asdf \
 python311-asdf-astropy \

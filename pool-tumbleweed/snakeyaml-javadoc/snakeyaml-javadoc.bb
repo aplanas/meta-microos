@@ -9,6 +9,7 @@ RPM_HASH = "76e0f608d35e0f603e7238d0c7fe5da52ffdde3ff9325e4ef6a740630286b908121b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "snakeyaml-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

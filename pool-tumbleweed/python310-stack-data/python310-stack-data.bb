@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-stack-data \
 python3.10dist(stack-data) \
 python310-stack-data \
 python3dist(stack-data)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-asttokens \
 python310-executing \

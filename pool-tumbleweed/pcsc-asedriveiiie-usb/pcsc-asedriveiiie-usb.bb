@@ -14,6 +14,7 @@ RPM_HASH = "5ab0c4ecaaf123a4966536baa188083cd1934ae779a05000a2e7559974c3c345314b
 RPROVIDES:${PN} += "libASEDriveIIIe-USB.so()(64bit) \
 pcsc-asedriveiiie-usb \
 pcsc-asedriveiiie-usb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

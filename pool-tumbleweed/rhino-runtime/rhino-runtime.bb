@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(org.mozilla:rhino-runtime) \
 mvn(org.mozilla:rhino-runtime:pom:) \
 osgi(org.mozilla.rhino-runtime) \
 rhino-runtime"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

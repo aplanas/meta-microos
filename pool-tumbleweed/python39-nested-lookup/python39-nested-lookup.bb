@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(nested-lookup) \
 python39-nested-lookup \
 python3dist(nested-lookup)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six"
 

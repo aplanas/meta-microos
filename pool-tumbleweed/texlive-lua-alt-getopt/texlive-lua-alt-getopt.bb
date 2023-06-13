@@ -12,6 +12,7 @@ RPM_HASH = "e0cbaac29af482f3bf105fc474ddb2669a59096781691ec05f35d45b4a953badd532
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-alt-getopt"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/luatex \
 coreutils \

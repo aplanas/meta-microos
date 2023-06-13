@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:cheetah) \
 rubygem(ruby:3.2.0:cheetah:1) \
 rubygem(ruby:3.2.0:cheetah:1.0) \
 rubygem(ruby:3.2.0:cheetah:1.0.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:abstract_method:1)"
 

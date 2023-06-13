@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-betamax \
 python3.10dist(betamax) \
 python310-betamax \
 python3dist(betamax)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

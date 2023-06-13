@@ -59,6 +59,7 @@ locale(pim-data-exporter:zh_CN) \
 locale(pim-data-exporter:zh_TW) \
 pim-data-exporter-lang \
 pim-data-exporter-lang-all"
+
 RDEPENDS:${PN} += "pim-data-exporter"
 
 inherit rpm

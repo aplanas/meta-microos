@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-azure-schemaregistry-avroserializer \
 python3.10dist(azure-schemaregistry-avroserializer) \
 python310-azure-schemaregistry-avroserializer \
 python3dist(azure-schemaregistry-avroserializer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-avro \
 python310-azure-core \

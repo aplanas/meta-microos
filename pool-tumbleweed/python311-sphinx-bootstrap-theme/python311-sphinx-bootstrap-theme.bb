@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinx-bootstrap-theme) \
 python311-sphinx-bootstrap-theme \
 python3dist(sphinx-bootstrap-theme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Sphinx"
 

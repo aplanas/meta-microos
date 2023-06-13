@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(aleph.1) \
 texlive-aleph"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

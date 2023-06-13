@@ -91,6 +91,7 @@ locale(kfind:vi) \
 locale(kfind:wa) \
 locale(kfind:zh_CN) \
 locale(kfind:zh_TW)"
+
 RDEPENDS:${PN} += "kfind"
 
 inherit rpm

@@ -27,6 +27,7 @@ tex(texnegar-xetex-kashida.tex) \
 tex(texnegar-xetex.sty) \
 tex(texnegar.sty) \
 texlive-texnegar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

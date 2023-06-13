@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinxcontrib-newsfeed) \
 python39-sphinxcontrib-newsfeed \
 python3dist(sphinxcontrib-newsfeed)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx"
 

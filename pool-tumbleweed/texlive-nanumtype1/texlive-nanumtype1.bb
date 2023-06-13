@@ -893,6 +893,7 @@ tex(ts1nanummjm.vf) \
 tex(ts1nanummjmo.tfm) \
 tex(ts1nanummjmo.vf) \
 texlive-nanumtype1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

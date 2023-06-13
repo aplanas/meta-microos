@@ -14,6 +14,7 @@ RPM_HASH = "0d9d0bc219392607e622049d9be45af49312c38ba1b653e125e65704d96e0094ed77
 RPROVIDES:${PN} += "libsybdb.so.5()(64bit) \
 libsybdb5 \
 libsybdb5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

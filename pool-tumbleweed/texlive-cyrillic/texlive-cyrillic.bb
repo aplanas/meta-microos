@@ -121,6 +121,7 @@ tex(x2enc.def) \
 tex(x2lcmss.fd) \
 tex(x2lcmtt.fd) \
 texlive-cyrillic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

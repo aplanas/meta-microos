@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "application() \
 application(blobAndConquer.desktop) \
 blobAndConquer \
 blobAndConquer(aarch-64)"
+
 RDEPENDS:${PN} += "libGL.so.1()(64bit) \
 libGLU.so.1()(64bit) \
 libSDL-1.2.so.0()(64bit) \

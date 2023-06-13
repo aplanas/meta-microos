@@ -9,6 +9,7 @@ RPM_HASH = "4a6104973bfb3758cab9269e9945e6e709d9baee1935c3f1f2ff687835543c6a2c74
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-steinmetz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

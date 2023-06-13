@@ -15,6 +15,7 @@ RPM_HASH = "60be53448f1e44a77662514d7499e1913619d0d319316cbe0359a932e7ea8e453ebd
 RPROVIDES:${PN} += "libzmq.so.5()(64bit) \
 libzmq5 \
 libzmq5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "57f917654881ec7188e818c4354f677f471c92cd2d2bfcee740d78d7cb0395a2a8a1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libodfgen-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

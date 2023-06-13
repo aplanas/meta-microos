@@ -22,6 +22,7 @@ tex(standard-luh-ipw.cbx) \
 tex(verbose-inote-luh-ipw.bbx) \
 tex(verbose-inote-luh-ipw.cbx) \
 texlive-biblatex-luh-ipw"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

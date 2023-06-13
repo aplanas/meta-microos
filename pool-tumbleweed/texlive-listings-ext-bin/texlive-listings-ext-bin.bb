@@ -9,6 +9,7 @@ RPM_HASH = "55b63783b4e654ab5ec2f77d896297e360d827b3376ea06f3834e8508e5b4bb27261
 
 RPROVIDES:${PN} += "texlive-listings-ext-bin \
 texlive-listings-ext-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-listings-ext"
 
 inherit rpm

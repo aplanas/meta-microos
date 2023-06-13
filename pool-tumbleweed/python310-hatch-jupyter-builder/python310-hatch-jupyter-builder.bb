@@ -15,6 +15,7 @@ python3.10dist(hatch-jupyter-builder) \
 python310-hatch-jupyter-builder \
 python310-hatch_jupyter_builder \
 python3dist(hatch-jupyter-builder)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

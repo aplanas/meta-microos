@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-verbose-parametrize \
 python3.10dist(pytest-verbose-parametrize) \
 python310-pytest-verbose-parametrize \
 python3dist(pytest-verbose-parametrize)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

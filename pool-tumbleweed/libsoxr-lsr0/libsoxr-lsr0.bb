@@ -10,6 +10,7 @@ RPM_HASH = "3f3ecca96552325e97cb45d2c09d7822d264ceb91d577fd2b566789bbdc0dda89d29
 RPROVIDES:${PN} += "libsoxr-lsr.so.0()(64bit) \
 libsoxr-lsr0 \
 libsoxr-lsr0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

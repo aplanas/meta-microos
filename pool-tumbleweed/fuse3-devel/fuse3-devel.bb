@@ -15,6 +15,7 @@ RPM_HASH = "2c685d73475b060845ae6bbe95b21d5f19f3a257c1ee1d0b1bd8e66c4208b16a61b6
 RPROVIDES:${PN} += "fuse3-devel \
 fuse3-devel(aarch-64) \
 pkgconfig(fuse3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 fuse3 \
 glibc-devel \

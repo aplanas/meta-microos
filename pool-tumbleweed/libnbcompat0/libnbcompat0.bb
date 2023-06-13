@@ -10,6 +10,7 @@ RPM_HASH = "d2661bef7f335ef5e583e3f8d9d1819f44f1b4ee7a09f717dcae81f28b56aa9a7b02
 RPROVIDES:${PN} += "libnbcompat.so.0()(64bit) \
 libnbcompat0 \
 libnbcompat0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "dd40f46f1191f0327e4ed75654a9ae0635c5747c1caa204351b77d654372fcd37e53
 RPROVIDES:${PN} += "gtk-layer-shell-devel \
 gtk-layer-shell-devel(aarch-64) \
 pkgconfig(gtk-layer-shell-0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtk-layer-shell0 \
 pkgconfig(gtk+-3.0) \

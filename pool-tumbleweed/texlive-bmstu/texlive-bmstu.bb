@@ -25,6 +25,7 @@ tex(bmstu-title.sty) \
 tex(bmstu-toc.sty) \
 tex(bmstu.cls) \
 texlive-bmstu"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

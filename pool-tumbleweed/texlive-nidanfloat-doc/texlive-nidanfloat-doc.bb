@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-nidanfloat-doc:ja) \
 texlive-nidanfloat-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

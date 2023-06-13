@@ -20,6 +20,7 @@ osgi(org.eclipse.emf.common) \
 osgi(org.eclipse.emf.ecore) \
 osgi(org.eclipse.emf.ecore.change) \
 osgi(org.eclipse.emf.ecore.xmi)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 osgi(javax.xml)"

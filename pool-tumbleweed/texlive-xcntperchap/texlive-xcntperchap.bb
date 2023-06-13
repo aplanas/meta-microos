@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xcntperchap.sty) \
 texlive-xcntperchap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

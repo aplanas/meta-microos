@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-file-manager-lang \
 deepin-file-manager-lang-all"
+
 RDEPENDS:${PN} += "deepin-file-manager"
 
 inherit rpm

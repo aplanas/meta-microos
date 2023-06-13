@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(substr.sty) \
 texlive-substr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

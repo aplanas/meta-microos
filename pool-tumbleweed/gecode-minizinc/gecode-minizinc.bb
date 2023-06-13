@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "gecode-minizinc \
 gecode-minizinc(aarch-64) \
 libgecodeflatzinc.so.51()(64bit) \
 minizinc-solver"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

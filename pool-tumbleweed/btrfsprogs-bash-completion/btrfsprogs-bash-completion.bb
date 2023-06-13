@@ -9,6 +9,7 @@ RPM_HASH = "53e3ae382004d45883888f4bc9c45f8f261c8cd39f2bd4890aecde2e951271e5e84d
 
 RPROVIDES:${PN} += "btrfsprogs-bash-completion \
 btrfsprogs-bash-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash-completion \
 btrfsprogs"
 

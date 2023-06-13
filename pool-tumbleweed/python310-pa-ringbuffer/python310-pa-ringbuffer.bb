@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "python3-pa-ringbuffer \
 python3.10dist(pa-ringbuffer) \
 python310-pa-ringbuffer \
 python3dist(pa-ringbuffer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cffi"
 

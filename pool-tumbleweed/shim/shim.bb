@@ -10,6 +10,7 @@ RPM_HASH = "2da896dddb7191e0941fb5d0440f1ee71857a0a0b288b56d91ff664d0b42b04e31e7
 
 RPROVIDES:${PN} += "shim \
 shim(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 grub2-arm64-efi \

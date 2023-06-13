@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "kernel-headers \
 linux-glibc-devel \
 linux-glibc-devel(aarch-64) \
 linux-kernel-headers"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

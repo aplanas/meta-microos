@@ -15,6 +15,7 @@ RPM_HASH = "8ef4979b8d8214c4d2ca166b831e345f9f2494dfd195135ecac315a31a7782cd4846
 RPROVIDES:${PN} += "libXxf86vm-devel \
 libXxf86vm-devel(aarch-64) \
 pkgconfig(xxf86vm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXxf86vm1 \
 pkgconfig(x11) \

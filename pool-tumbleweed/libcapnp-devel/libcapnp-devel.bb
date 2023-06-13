@@ -24,6 +24,7 @@ pkgconfig(kj-gzip) \
 pkgconfig(kj-http) \
 pkgconfig(kj-test) \
 pkgconfig(kj-tls)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcapnp-0_10_4"
 

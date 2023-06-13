@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(news) \
 system-user-news \
 user(news)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

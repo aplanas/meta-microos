@@ -10,6 +10,7 @@ RPM_HASH = "e7447eb602d772499018c247bca8e9a262c0e75b7aadde5a3f341578cb0dac0d218d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sigrok-firmware-fx2lafw"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

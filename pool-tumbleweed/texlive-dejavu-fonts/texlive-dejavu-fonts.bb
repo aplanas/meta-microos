@@ -204,6 +204,7 @@ font(dejavusansmono) \
 font(dejavuserif) \
 font(dejavuserifcondensed) \
 texlive-dejavu-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

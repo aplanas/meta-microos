@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "folder-color-nautilus \
 nautilus-extension-folder-color \
 python3.10dist(folder-color-nautilus) \
 python3dist(folder-color-nautilus)"
+
 RDEPENDS:${PN} += "folder-color-common \
 nautilus \
 python3-nautilus"

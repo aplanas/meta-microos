@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(appendix.sty) \
 texlive-appendix"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

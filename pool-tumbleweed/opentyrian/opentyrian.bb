@@ -20,6 +20,7 @@ metainfo() \
 metainfo(opentyrian.appdata.xml) \
 opentyrian \
 opentyrian(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libSDL2-2.0.so.0()(64bit) \
 libSDL2_net-2.0.so.0()(64bit) \

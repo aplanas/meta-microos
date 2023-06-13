@@ -9,6 +9,7 @@ RPM_HASH = "e49aae165842a47aed9ae1e168fe4b47f21677b6e580c54e410f705479969cfe4dbc
 
 RPROVIDES:${PN} += "hlint \
 hlint(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \

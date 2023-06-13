@@ -23,6 +23,7 @@ gcompris-qt \
 gcompris-qt(aarch-64) \
 metainfo() \
 metainfo(org.kde.gcompris.appdata.xml)"
+
 RDEPENDS:${PN} += "gcompris-qt-activities \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

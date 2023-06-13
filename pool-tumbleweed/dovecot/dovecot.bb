@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(dovecot) \
 dovecot"
+
 RDEPENDS:${PN} += "/bin/sh \
 dovecot-implementation \
 shadow"

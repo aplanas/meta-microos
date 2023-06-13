@@ -15,6 +15,7 @@ RPM_HASH = "a757bac33b7ee492bb535c8027681387750605650f9aba286e699dc3a49a643bedb5
 RPROVIDES:${PN} += "typelib(GnomeDesktop) \
 typelib-1_0-GnomeDesktop-3_0 \
 typelib-1_0-GnomeDesktop-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgnome-desktop-3.so.20()(64bit) \
 typelib(Atk) \
 typelib(GDesktopEnums) \

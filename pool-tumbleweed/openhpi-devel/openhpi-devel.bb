@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "openhpi-devel \
 openhpi-devel(aarch-64) \
 pkgconfig(openhpi) \
 pkgconfig(openhpiutils)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 OpenIPMI-devel \
 bzip2 \

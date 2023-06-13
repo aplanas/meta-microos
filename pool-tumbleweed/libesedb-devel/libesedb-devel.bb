@@ -14,6 +14,7 @@ RPM_HASH = "4526f0f256c99ed18455298c9313db672b90a20a981a9a3271fc6a123abcbaf55f0b
 RPROVIDES:${PN} += "libesedb-devel \
 libesedb-devel(aarch-64) \
 pkgconfig(libesedb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libesedb1"

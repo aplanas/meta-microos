@@ -10,6 +10,7 @@ RPM_HASH = "4a5cbccc5897c6e31dacd58c7e3c5dfd916aa542163a4eeda43d5610727b242e896a
 RPROVIDES:${PN} += "ghc-lukko-prof \
 ghc-lukko-prof(aarch-64) \
 ghc-prof(lukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V)"
+
 RDEPENDS:${PN} += "ghc-lukko-devel \
 ghc-prof(base-4.17.1.0)"
 

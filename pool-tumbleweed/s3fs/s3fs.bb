@@ -10,6 +10,7 @@ RPM_HASH = "ba5af40fe26dd5d3cbab47b5ed3288e719750fbdf9e5d1f0bff10e1b628972d604ff
 
 RPROVIDES:${PN} += "s3fs \
 s3fs(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

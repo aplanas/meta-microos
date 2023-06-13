@@ -73,6 +73,7 @@ locale(gnome-maps:vi) \
 locale(gnome-maps:zh_CN) \
 locale(gnome-maps:zh_HK) \
 locale(gnome-maps:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-maps"
 
 inherit rpm

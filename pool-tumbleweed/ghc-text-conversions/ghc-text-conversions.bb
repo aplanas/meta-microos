@@ -10,6 +10,7 @@ RPM_HASH = "a96cf228923d418fb1bd86c23767de4af1a0c81578d75dcf4b121825b28ae54e546a
 RPROVIDES:${PN} += "ghc-text-conversions \
 ghc-text-conversions(aarch-64) \
 libHStext-conversions-0.3.1.1-CkkBRqT3R5g4PO0QywmUQS-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbase16-bytestring-1.0.2.0-BWBHxp15W1kvZUUcQHZQU-ghc9.4.5.so()(64bit) \

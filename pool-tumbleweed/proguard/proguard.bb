@@ -21,6 +21,7 @@ mvn(net.sf.proguard:proguard-parent:pom:) \
 mvn(net.sf.proguard:proguard-retrace) \
 mvn(net.sf.proguard:proguard-retrace:pom:) \
 proguard"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

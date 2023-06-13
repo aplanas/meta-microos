@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyrfc3339) \
 python39-pyRFC3339 \
 python3dist(pyrfc3339)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pytz"
 

@@ -11,6 +11,7 @@ RPM_HASH = "39df441ce3eb9d36b6b5f3b1c2210868ddf7026fe53d8103a0e4511d44a207cdabf1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fox16-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(metastr.sty) \
 texlive-metastr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

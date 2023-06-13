@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(txws) \
 python311-txWS \
 python3dist(txws)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Twisted"
 

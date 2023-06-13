@@ -11,6 +11,7 @@ RPM_HASH = "de046c482dab0a059a986555ce8ff45aa7081eb479e3d2bb9361c59863c3e8c866bd
 RPROVIDES:${PN} += "cmake(Qt6MultimediaQuickPrivate) \
 qt6-multimediaquick-private-devel \
 qt6-multimediaquick-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Quick) \
 libQt6MultimediaQuick6 \
 qt6-multimedia-private-devel"

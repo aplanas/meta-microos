@@ -13,6 +13,7 @@ RPM_HASH = "0f719fea1f967f79d67d8d402ff55d7ca8001f87b206deefb9ec22feb3d3f2dae457
 RPROVIDES:${PN} += "config(pam_script) \
 pam_script \
 pam_script(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

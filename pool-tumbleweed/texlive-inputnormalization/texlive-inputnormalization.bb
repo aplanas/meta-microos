@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(inputnormalization.sty) \
 texlive-inputnormalization"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

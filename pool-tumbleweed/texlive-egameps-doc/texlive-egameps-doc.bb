@@ -9,6 +9,7 @@ RPM_HASH = "bea0c447b61c3a1e4b53a429ccafb9bef22f4e218bf44998f6fe298282abdc888f75
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-egameps-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nimsticks.sty) \
 texlive-nimsticks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

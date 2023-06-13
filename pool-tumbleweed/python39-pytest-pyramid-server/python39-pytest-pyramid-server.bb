@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-pyramid-server) \
 python39-pytest-pyramid-server \
 python3dist(pytest-pyramid-server)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pyramid \
 python39-pytest-server-fixtures \

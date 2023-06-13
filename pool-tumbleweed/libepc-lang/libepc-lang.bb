@@ -40,6 +40,7 @@ locale(libepc:sr@latin) \
 locale(libepc:sv) \
 locale(libepc:th) \
 locale(libepc:zh_CN)"
+
 RDEPENDS:${PN} += "libepc"
 
 inherit rpm

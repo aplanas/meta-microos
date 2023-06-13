@@ -15,6 +15,7 @@ tex(burm.tfm) \
 tex(burmese.map) \
 tex(ubirm.fd) \
 texlive-burmese"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

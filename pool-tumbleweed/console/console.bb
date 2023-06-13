@@ -14,6 +14,7 @@ console(aarch-64) \
 metainfo() \
 metainfo(org.gnome.Console.metainfo.xml) \
 nautilus-extension-console"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libadwaita-1.so.0()(64bit) \

@@ -22,6 +22,7 @@ RPM_HASH = "0cff3705d5a65ec3f1734c169670ce4cf6e080a4d7c2b28d79bcc3242254e8459ba9
 RPROVIDES:${PN} += "oniguruma-devel \
 oniguruma-devel(aarch-64) \
 pkgconfig(oniguruma)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libonig5"

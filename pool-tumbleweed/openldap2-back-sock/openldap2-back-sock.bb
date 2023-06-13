@@ -11,6 +11,7 @@ RPM_HASH = "0681f24fb0699ec0c81dcca61d740f756c8a55ad9fd5055076ea5fdbeaade6d69d06
 RPROVIDES:${PN} += "openldap2-back-sock \
 openldap2-back-sock(aarch-64) \
 openldap2:/usr/share/man/man5/slapd-sock.5.gz"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

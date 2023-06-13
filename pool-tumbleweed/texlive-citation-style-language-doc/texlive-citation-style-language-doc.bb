@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(citeproc-lua.1) \
 texlive-citation-style-language-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

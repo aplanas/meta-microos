@@ -18,6 +18,7 @@ metainfo() \
 metainfo(org.gnome.World.Secrets.metainfo.xml) \
 mimehandler(application/x-keepass2) \
 secrets"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-argon2-cffi \

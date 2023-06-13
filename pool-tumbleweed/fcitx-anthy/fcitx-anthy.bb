@@ -13,6 +13,7 @@ RPM_HASH = "37c562f1b81d29407cb99a5ea8bd4e4d7aee19b16529fd2e815191fded1e4c44057c
 
 RPROVIDES:${PN} += "fcitx-anthy \
 fcitx-anthy(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 anthy \
 fcitx \

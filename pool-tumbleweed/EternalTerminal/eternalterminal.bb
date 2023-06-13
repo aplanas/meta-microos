@@ -11,6 +11,7 @@ RPM_HASH = "77d7e36668c3e86ce7471e60b1821598245bcadeef24e42c1c8415d25a74d7d9d4c3
 RPROVIDES:${PN} += "EternalTerminal \
 EternalTerminal(aarch-64) \
 config(EternalTerminal)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

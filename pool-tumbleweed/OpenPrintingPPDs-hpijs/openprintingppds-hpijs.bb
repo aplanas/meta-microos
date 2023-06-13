@@ -271,6 +271,7 @@ postscriptdriver(xerox;phaser_8560dn;) \
 postscriptdriver(xerox;phaser_8860;) \
 postscriptdriver(xerox;workcentre_c2424;) \
 postscriptdriver(xerox;xerox_phaser_2135;)"
+
 RDEPENDS:${PN} += "foomatic-filters \
 ghostscript-library \
 hplip-hpijs"

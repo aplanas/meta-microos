@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingacli \
 icingaweb2-icingacli"
+
 RDEPENDS:${PN} += "/usr/bin/php \
 bash-completion \
 icinga-l10n \

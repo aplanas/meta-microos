@@ -27,6 +27,7 @@ tex(fouriernc.sty) \
 tex(t1fnc.fd) \
 tex(ts1fnc.fd) \
 texlive-fouriernc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

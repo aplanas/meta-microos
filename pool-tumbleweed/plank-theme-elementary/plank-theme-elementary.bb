@@ -9,6 +9,7 @@ RPM_HASH = "4f9fe2b3786535960e97d52141d5696050cb5f6ac1570e86585e2b440c2ca7c1e94a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plank-theme-elementary"
+
 RDEPENDS:${PN} += "plank"
 
 inherit rpm

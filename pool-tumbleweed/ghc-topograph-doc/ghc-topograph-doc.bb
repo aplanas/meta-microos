@@ -9,6 +9,7 @@ RPM_HASH = "a7a2ea0e79681043d5e267b1ea577803f0de221ca15e0ef5f8718ba9f7ef1520458c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-topograph-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "0d5c1bdd9789568d1de7e61cbd5fec026a83ff645d10347a91eaf6389aa171404114
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-enigma-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -133,6 +133,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(fbb) \
 texlive-fbb-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

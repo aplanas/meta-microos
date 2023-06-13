@@ -10,6 +10,7 @@ RPM_HASH = "53d087a9e18a6fc8fe23890f082aca6e3bbb9ac66e384520ca4440eee91e6745d817
 
 RPROVIDES:${PN} += "mod_spatialite \
 mod_spatialite(aarch-64)"
+
 RDEPENDS:${PN} += "libspatialite7"
 
 inherit rpm

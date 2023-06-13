@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-cognitiveservices-search-videosearch \
 python3.10dist(azure-cognitiveservices-search-videosearch) \
 python310-azure-cognitiveservices-search-videosearch \
 python3dist(azure-cognitiveservices-search-videosearch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-cognitiveservices-nspkg \
 python310-azure-cognitiveservices-search-nspkg \

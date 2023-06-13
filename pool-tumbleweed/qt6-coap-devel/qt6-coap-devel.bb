@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Coap) \
 pkgconfig(Qt6Coap) \
 qt6-coap-devel \
 qt6-coap-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Network) \
 libQt6Coap6 \

@@ -14,6 +14,7 @@ RPM_HASH = "687620aef21c0adaf4ca91e60e6de170d90e17b3b86fbccb75d5cbdaf1677336a6f2
 RPROVIDES:${PN} += "libxshmfence-devel \
 libxshmfence-devel(aarch-64) \
 pkgconfig(xshmfence)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxshmfence1"
 

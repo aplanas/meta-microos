@@ -15,6 +15,7 @@ libo2scl0(aarch-64) \
 libo2scl_eos.so.0()(64bit) \
 libo2scl_hdf.so.0()(64bit) \
 libo2scl_part.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.33)(64bit) \
 libgcc_s.so.1()(64bit) \

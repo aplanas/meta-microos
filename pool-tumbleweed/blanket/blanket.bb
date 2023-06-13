@@ -14,6 +14,7 @@ application(com.rafaelmardojai.Blanket.desktop) \
 blanket \
 metainfo() \
 metainfo(com.rafaelmardojai.Blanket.metainfo.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 typelib(Adw) \
 typelib(GLib) \

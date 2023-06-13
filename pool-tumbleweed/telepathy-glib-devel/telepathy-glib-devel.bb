@@ -11,6 +11,7 @@ RPM_HASH = "3e7c0dee1022af764f77789f600eeef3cf666871046a1ae063d900134781296c1a25
 RPROVIDES:${PN} += "pkgconfig(telepathy-glib) \
 telepathy-glib-devel \
 telepathy-glib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libtelepathy-glib0 \

@@ -16,6 +16,7 @@ RPM_HASH = "afe951c92b062343493bbb64c96f94403a6ff3db4578d6023991789ac73865775961
 
 RPROVIDES:${PN} += "libscamperfile-devel \
 libscamperfile-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libscamperfile5"
 
 inherit rpm

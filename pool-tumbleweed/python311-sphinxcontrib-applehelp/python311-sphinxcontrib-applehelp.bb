@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinxcontrib-applehelp) \
 python311-sphinxcontrib-applehelp \
 python3dist(sphinxcontrib-applehelp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Sphinx"
 

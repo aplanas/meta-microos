@@ -87,6 +87,7 @@ tex(frm_jsuphk.enc) \
 tex(frm_smvvub.enc) \
 tex(frm_ylkcu6.enc) \
 texlive-forum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

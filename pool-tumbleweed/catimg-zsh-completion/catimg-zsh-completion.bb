@@ -9,6 +9,7 @@ RPM_HASH = "4e309bfebb6f8611b0423ec3b3406b0b9117a69a8110d4ea9e23b961210e230e894f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "catimg-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

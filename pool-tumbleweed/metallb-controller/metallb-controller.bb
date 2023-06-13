@@ -10,6 +10,7 @@ RPM_HASH = "7729227c6589239ff6e034a51fd6bc3765dcc7128a01e22da35c3df3c4313b8e52a0
 
 RPROVIDES:${PN} += "metallb-controller \
 metallb-controller(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

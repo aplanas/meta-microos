@@ -14,6 +14,7 @@ RPM_HASH = "9c54e6a9e2770648fc3bd0211b6eaf974d7eec32aa17de8a553a380fd852abaa8b01
 RPROVIDES:${PN} += "libopencc.so.1.1()(64bit) \
 libopencc1_1 \
 libopencc1_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

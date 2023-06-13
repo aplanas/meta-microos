@@ -10,6 +10,7 @@ RPM_HASH = "f2eebce1788a66e12a53be0801508bc3b9ec4a608f9f0833f09ce5dd0185d38df43e
 
 RPROVIDES:${PN} += "freetype \
 freetype(aarch-64)"
+
 RDEPENDS:${PN} += "fileutils \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

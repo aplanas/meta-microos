@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-synr \
 python3.10dist(synr) \
 python310-synr \
 python3dist(synr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs"
 

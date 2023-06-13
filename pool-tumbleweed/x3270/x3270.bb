@@ -58,6 +58,7 @@ application(x3270.desktop) \
 config(x3270) \
 x3270 \
 x3270(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

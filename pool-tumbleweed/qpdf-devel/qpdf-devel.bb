@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(qpdf) \
 pkgconfig(libqpdf) \
 qpdf-devel \
 qpdf-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqpdf29 \
 libstdc++-devel \

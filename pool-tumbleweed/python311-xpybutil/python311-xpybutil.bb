@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(xpybutil) \
 python311-xpybutil \
 python3dist(xpybutil)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-xcffib"
 

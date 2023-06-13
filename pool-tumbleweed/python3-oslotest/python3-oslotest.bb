@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslotest \
 python3.10dist(oslotest) \
 python3dist(oslotest)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 python(abi) \

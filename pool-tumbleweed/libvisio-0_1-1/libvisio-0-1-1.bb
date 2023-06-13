@@ -11,6 +11,7 @@ RPM_HASH = "922674b2b1488a1e040f38bed0c2a914bfa1ba1be5ee9e4823c8b0e52f0711bdbb32
 RPROVIDES:${PN} += "libvisio-0.1.so.1()(64bit) \
 libvisio-0_1-1 \
 libvisio-0_1-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

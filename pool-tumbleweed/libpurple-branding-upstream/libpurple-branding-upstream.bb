@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(libpurple-branding-upstream) \
 libpurple-branding \
 libpurple-branding-upstream"
+
 RDEPENDS:${PN} += "libpurple"
 
 inherit rpm

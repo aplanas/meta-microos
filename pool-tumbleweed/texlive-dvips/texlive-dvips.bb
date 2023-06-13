@@ -63,6 +63,7 @@ tex(texmsym.enc) \
 tex(texnansx.enc) \
 tex(toshiba.cfg) \
 texlive-dvips"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "750a6a9fad15158c5d698be39eb3cbc3217418a8538c0aa35fe7cdcbcf14d0070d19
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gsl-examples"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

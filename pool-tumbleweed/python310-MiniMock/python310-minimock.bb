@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-MiniMock \
 python3.10dist(minimock) \
 python310-MiniMock \
 python3dist(minimock)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

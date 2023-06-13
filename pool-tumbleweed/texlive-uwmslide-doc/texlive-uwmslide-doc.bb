@@ -9,6 +9,7 @@ RPM_HASH = "19b8ce7041afc7ebbde57ff715788972bb4f8a58b253163886558f4ebc210f6185b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uwmslide-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

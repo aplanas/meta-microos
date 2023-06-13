@@ -12,6 +12,7 @@ cmake(PySide6Qml) \
 pkgconfig(pyside6) \
 python3-pyside6-devel \
 python3-pyside6-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(shiboken6) \
 python3-pyside6"

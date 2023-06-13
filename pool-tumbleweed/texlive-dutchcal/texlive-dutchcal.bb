@@ -22,6 +22,7 @@ tex(rdutchcalb.tfm) \
 tex(rdutchcalr.tfm) \
 tex(udutchcal.fd) \
 texlive-dutchcal"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

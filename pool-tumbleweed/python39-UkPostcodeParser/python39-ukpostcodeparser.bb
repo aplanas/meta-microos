@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ukpostcodeparser) \
 python39-UkPostcodeParser \
 python3dist(ukpostcodeparser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-base"
 

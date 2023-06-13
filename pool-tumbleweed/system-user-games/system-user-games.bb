@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(games) \
 system-user-games \
 user(games)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luahyphenrules.sty) \
 texlive-luahyphenrules"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

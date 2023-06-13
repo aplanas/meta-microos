@@ -15,6 +15,7 @@ perl(XML::SemanticDiff::BasicHandler) \
 perl(XML::SemanticDiff::PathFinder) \
 perl(XML::SemanticDiff::PathFinder::Obj) \
 perl-XML-SemanticDiff"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(XML::Parser)"
 

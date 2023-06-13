@@ -10,6 +10,7 @@ RPM_HASH = "c24c57ddf7567c5825706a01fdce63931d0c66616df73b15fafc3be258ba31d67efd
 
 RPROVIDES:${PN} += "LiE \
 LiE(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libc.so.6(GLIBC_2.34)(64bit) \
 libreadline.so.8()(64bit)"

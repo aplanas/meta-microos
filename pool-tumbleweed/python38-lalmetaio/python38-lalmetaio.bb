@@ -9,6 +9,7 @@ RPM_HASH = "73c81680e6e5a9018fda63ea42ee0b15efe2bc1b787de4926c438edd3ce97b7e0649
 
 RPROVIDES:${PN} += "python38-lalmetaio \
 python38-lalmetaio(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

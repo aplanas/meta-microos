@@ -10,6 +10,7 @@ RPM_HASH = "539ab988af36f9650c9c925af449eaced8a16b7727b4ccf03b7d859f0e53b65ae3fe
 RPROVIDES:${PN} += "ghc-easy-file-prof \
 ghc-easy-file-prof(aarch-64) \
 ghc-prof(easy-file-0.2.3-Bwh7vXkS9r2GpL1fsuKjo4)"
+
 RDEPENDS:${PN} += "ghc-easy-file-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(directory-1.3.7.1) \

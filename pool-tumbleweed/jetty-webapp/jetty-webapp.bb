@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "jetty-webapp \
 mvn(org.eclipse.jetty:jetty-webapp) \
 mvn(org.eclipse.jetty:jetty-webapp:pom:) \
 osgi(org.eclipse.jetty.webapp)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.eclipse.jetty:jetty-servlet) \

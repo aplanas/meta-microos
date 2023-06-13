@@ -40,6 +40,7 @@ locale(labplot-kf5:tr) \
 locale(labplot-kf5:uk) \
 locale(labplot-kf5:zh_CN) \
 locale(labplot-kf5:zh_TW)"
+
 RDEPENDS:${PN} += "labplot-kf5"
 
 inherit rpm

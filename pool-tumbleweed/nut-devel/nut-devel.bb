@@ -14,6 +14,7 @@ pkgconfig(libnutclient) \
 pkgconfig(libnutclientstub) \
 pkgconfig(libnutscan) \
 pkgconfig(libupsclient)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnutclient2 \
 libnutclientstub1 \

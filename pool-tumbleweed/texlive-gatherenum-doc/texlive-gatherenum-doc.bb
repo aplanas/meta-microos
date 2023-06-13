@@ -9,6 +9,7 @@ RPM_HASH = "718177386bb291de156d4c2e4de514299529928ae8f531af11be8e0535f8d1671830
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gatherenum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -15,6 +15,7 @@ firmware(mrvl/prestera/mvsw_prestera_fw-v4.0.img) \
 firmware(mrvl/prestera/mvsw_prestera_fw-v4.1.img) \
 firmware(mrvl/prestera/mvsw_prestera_fw_arm64-v4.1.img) \
 kernel-firmware-prestera"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

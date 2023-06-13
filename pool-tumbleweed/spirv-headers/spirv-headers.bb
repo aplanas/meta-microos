@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cmake(SPIRV-Headers) \
 pkgconfig(SPIRV-Headers) \
 spirv-headers"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

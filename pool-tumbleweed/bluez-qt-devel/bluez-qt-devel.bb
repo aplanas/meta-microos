@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "bluez-qt-devel \
 bluez-qt-devel(aarch-64) \
 cmake(KF5BluezQt) \
 pkgconfig(KF5BluezQt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt5Core) \
 libKF5BluezQt6 \

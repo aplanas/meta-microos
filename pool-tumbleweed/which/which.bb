@@ -11,6 +11,7 @@ RPM_HASH = "9463f097f16c871f5ee37d2c02bf3c3cb609700687fe45f7ba1abbbbc7d66ddac7a7
 RPROVIDES:${PN} += "util-linux:/usr/bin/which \
 which \
 which(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

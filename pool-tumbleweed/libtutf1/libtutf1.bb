@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libTutf1 \
 libtutf.so.1()(64bit) \
 libtutf1 \
 libtutf1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

@@ -135,6 +135,7 @@ mimehandler(x-scheme-handler/uvox) \
 typelib(Xplayer) \
 xplayer \
 xplayer(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 gstreamer-plugin-cluttergst3 \

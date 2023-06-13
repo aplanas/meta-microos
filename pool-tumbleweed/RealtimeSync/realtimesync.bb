@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "RealtimeSync \
 RealtimeSync(aarch-64) \
 application() \
 application(RealTimeSync.desktop)"
+
 RDEPENDS:${PN} += "FreeFileSync \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

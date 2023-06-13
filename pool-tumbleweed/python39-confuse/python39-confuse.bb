@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(confuse) \
 python39-confuse \
 python3dist(confuse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyYAML"
 

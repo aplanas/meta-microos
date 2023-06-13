@@ -11,6 +11,7 @@ RPM_HASH = "f8417295635c52fcbe0d8b74f442220a11ef3f07e0beb677a11f4638fcc5e234c2b6
 RPROVIDES:${PN} += "leechcraft-azoth-isterique \
 leechcraft-azoth-isterique(aarch-64) \
 libleechcraft_azoth_isterique.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-azoth \

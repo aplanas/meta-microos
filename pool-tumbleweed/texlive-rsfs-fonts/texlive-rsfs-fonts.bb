@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "font(rsfs10) \
 font(rsfs5) \
 font(rsfs7) \
 texlive-rsfs-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

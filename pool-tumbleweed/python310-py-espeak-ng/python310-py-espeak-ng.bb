@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-py-espeak-ng \
 python3.10dist(py-espeak-ng) \
 python310-py-espeak-ng \
 python3dist(py-espeak-ng)"
+
 RDEPENDS:${PN} += "espeak-ng \
 python(abi)"
 

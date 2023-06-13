@@ -14,6 +14,7 @@ RPM_HASH = "6f60c7c1e56c980d8133c82dc6525ba8c9e3bca32d4c68d72e0d281c1947bf8c9ed3
 RPROVIDES:${PN} += "libclastfm.so.0()(64bit) \
 libclastfm0 \
 libclastfm0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

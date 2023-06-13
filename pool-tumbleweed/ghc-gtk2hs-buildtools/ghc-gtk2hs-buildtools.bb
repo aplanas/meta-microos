@@ -10,6 +10,7 @@ RPM_HASH = "b6dd64c571dd8836768c451c9e3e672b3c752d9951f3a415cc0137eea58e637a2fd3
 RPROVIDES:${PN} += "ghc-gtk2hs-buildtools \
 ghc-gtk2hs-buildtools(aarch-64) \
 libHSgtk2hs-buildtools-0.13.8.3-1HEgD6xsgMLLqS6Eg0gkhE-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSCabal-3.8.1.0-ghc9.4.5.so()(64bit) \
 libHSCabal-syntax-3.8.1.0-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

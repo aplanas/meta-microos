@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(jupyter-sphinx) \
 python311-jupyter-sphinx \
 python311-jupyter_sphinx \
 python3dist(jupyter-sphinx)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-IPython \
 python311-Sphinx \

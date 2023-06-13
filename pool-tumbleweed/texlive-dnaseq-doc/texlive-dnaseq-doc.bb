@@ -9,6 +9,7 @@ RPM_HASH = "ae3bf437337804a6cbb9b5359e71e6db3dd8258df0349aa27c14ec8a78f178d4225a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dnaseq-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "c6f8d3d3a4e69fabe9f3c567c5c9c9cf9946f7264602773c1d59fddb674fa2daf288
 RPROVIDES:${PN} += "libzbar-devel \
 libzbar-devel(aarch-64) \
 pkgconfig(zbar)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libzbar0"
 

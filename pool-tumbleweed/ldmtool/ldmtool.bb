@@ -11,6 +11,7 @@ RPM_HASH = "40a235cdae42eb0e26dcfc06d38c8b7f72963592e4807a2ba50ebc9210a58f321ed6
 
 RPROVIDES:${PN} += "ldmtool \
 ldmtool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

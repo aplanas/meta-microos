@@ -19,6 +19,7 @@ tex(litenc.def) \
 tex(oinuit.map) \
 tex(oinuit.sty) \
 texlive-oinuit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

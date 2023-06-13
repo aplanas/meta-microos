@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pyupgrade \
 python3.10dist(pyupgrade) \
 python310-pyupgrade \
 python3dist(pyupgrade)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

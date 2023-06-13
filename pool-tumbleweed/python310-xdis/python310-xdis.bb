@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-xdis \
 python3.10dist(xdis) \
 python310-xdis \
 python3dist(xdis)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -11,6 +11,7 @@ RPM_HASH = "1680bd4bb5b4e52156b0e82cf0eaa11bd78986c13285b06857df658bff7971a99c93
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ocr-gnu-mpich-hpc-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 ocr_1_0_1-gnu-mpich-hpc-devel"
 

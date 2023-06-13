@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(regexorder) \
 python311-RegexOrder \
 python3dist(regexorder)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-regex"
 

@@ -14,6 +14,7 @@ RPM_HASH = "ef3dd8ee8a5193d8e58549ff82309ea8f8e5b3628ff3e0ff9d5a1d09a8c335a8255c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "newt-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

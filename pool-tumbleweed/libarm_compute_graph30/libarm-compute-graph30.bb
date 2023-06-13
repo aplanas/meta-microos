@@ -12,6 +12,7 @@ RPM_HASH = "cde998031c41166ba7ea7bdc46e66557c6a7435cd3a512130064f70d8d137bb55d74
 RPROVIDES:${PN} += "libarm_compute_graph.so.30()(64bit) \
 libarm_compute_graph30 \
 libarm_compute_graph30(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

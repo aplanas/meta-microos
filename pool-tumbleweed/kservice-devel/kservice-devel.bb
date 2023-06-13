@@ -12,6 +12,7 @@ RPM_HASH = "839866c1dd748a7782c59f3e8e374a06884456d14ca0a403fa8cb444d0a10a9b691d
 RPROVIDES:${PN} += "cmake(KF5Service) \
 kservice-devel \
 kservice-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Config) \
 cmake(KF5CoreAddons) \
 extra-cmake-modules \

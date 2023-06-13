@@ -13,6 +13,7 @@ RPM_HASH = "d5203518648a542f3a80b8731c0e9dbe3eb4cbdf3c34feefe5f40be4977cf75583b2
 
 RPROVIDES:${PN} += "libsepol-utils \
 libsepol-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -95,6 +95,7 @@ locale(at-spi2-core:wa) \
 locale(at-spi2-core:zh_CN) \
 locale(at-spi2-core:zh_HK) \
 locale(at-spi2-core:zh_TW)"
+
 RDEPENDS:${PN} += "at-spi2-core"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "017f4bddc3903e13d4a5a96dddc411cbae651524e2d5b642338b1ac9fc975abae211
 
 RPROVIDES:${PN} += "u-boot-nanopia64-doc \
 u-boot-nanopia64-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

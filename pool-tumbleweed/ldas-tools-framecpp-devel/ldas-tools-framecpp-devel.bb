@@ -17,6 +17,7 @@ pkgconfig(framecpp6) \
 pkgconfig(framecpp7) \
 pkgconfig(framecpp8) \
 pkgconfig(framecpp_common)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libboost_program_options-devel \
 libframecpp12 \

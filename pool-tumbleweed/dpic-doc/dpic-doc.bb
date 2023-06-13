@@ -10,6 +10,7 @@ RPM_HASH = "b79a79b708c20d5b09eb3010d13a1c71ed86401ece8e43b5712f7894d18daf5957e6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dpic-doc"
+
 RDEPENDS:${PN} += "dpic"
 
 inherit rpm

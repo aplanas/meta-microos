@@ -11,6 +11,7 @@ RPM_HASH = "182454aafd73531e76ac13d6a0d8e0c98fab38f785325567ea18b512d96499190b74
 RPROVIDES:${PN} += "libnuma-devel \
 libnuma-devel(aarch-64) \
 pkgconfig(numa)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnuma1"
 

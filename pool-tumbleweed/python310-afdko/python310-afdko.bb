@@ -13,6 +13,7 @@ python3.10dist(afdko) \
 python310-afdko \
 python310-afdko(aarch-64) \
 python3dist(afdko)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 libc.so.6(GLIBC_2.34)(64bit) \

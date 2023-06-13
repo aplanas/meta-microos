@@ -9,6 +9,7 @@ RPM_HASH = "ecbac66d3966342e5c517e4ebb54c4f15486f4df33cf55badb83a1eda26bd363940a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "udisks2-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

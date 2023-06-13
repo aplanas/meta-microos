@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-python3-openid \
 python3.10dist(python3-openid) \
 python310-python3-openid \
 python3dist(python3-openid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-defusedxml"
 

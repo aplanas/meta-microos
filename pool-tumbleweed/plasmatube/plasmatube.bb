@@ -14,6 +14,7 @@ metainfo() \
 metainfo(org.kde.plasmatube.appdata.xml) \
 plasmatube \
 plasmatube(aarch-64)"
+
 RDEPENDS:${PN} += "kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

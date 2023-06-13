@@ -12,6 +12,7 @@ RPM_HASH = "f00145cd59e4ebede7cc05e105681d0235c846a367c26bb5bf08f5d1b966f5c672a9
 RPROVIDES:${PN} += "libbsd-ctor-static \
 libbsd-ctor-static(aarch-64) \
 pkgconfig(libbsd-ctor)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbsd0 \
 pkgconfig \

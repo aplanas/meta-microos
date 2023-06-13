@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-calendar-lang \
 deepin-calendar-lang-all"
+
 RDEPENDS:${PN} += "deepin-calendar"
 
 inherit rpm

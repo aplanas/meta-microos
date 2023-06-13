@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xindex.sty) \
 texlive-xindex"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/texlua \
 coreutils \

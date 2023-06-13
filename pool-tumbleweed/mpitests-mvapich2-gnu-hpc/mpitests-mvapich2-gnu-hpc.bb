@@ -9,6 +9,7 @@ RPM_HASH = "b92de52b0b1b8303a97bda6ee447035f0bf513d7d05974599befbe4b8614169bbdb3
 
 RPROVIDES:${PN} += "mpitests-mvapich2-gnu-hpc \
 mpitests-mvapich2-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

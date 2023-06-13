@@ -12,6 +12,7 @@ RPM_HASH = "fb7984ad4e9a76adf40b087f03a9e5d4c9572c738efe4fc286dc25f4fb09f63d9cb1
 RPROVIDES:${PN} += "libb2-devel \
 libb2-devel(aarch-64) \
 pkgconfig(libb2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libb2-1"
 

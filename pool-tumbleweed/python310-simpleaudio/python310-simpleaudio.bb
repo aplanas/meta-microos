@@ -13,6 +13,7 @@ python3.10dist(simpleaudio) \
 python310-simpleaudio \
 python310-simpleaudio(aarch-64) \
 python3dist(simpleaudio)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

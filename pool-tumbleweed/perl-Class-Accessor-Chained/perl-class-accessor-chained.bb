@@ -21,6 +21,7 @@ perl(Class::Accessor::Chained) \
 perl(Class::Accessor::Chained::Fast) \
 perl-Class-Accessor-Chained \
 perl-Class-Accessor-Chained(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor)"
 

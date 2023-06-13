@@ -22,6 +22,7 @@ mimehandler(text/x-lua) \
 zbstudio \
 zerobrane-studio \
 zerobranestudio"
+
 RDEPENDS:${PN} += "/bin/bash \
 Lua(API) \
 libwxlua \

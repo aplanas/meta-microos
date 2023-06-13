@@ -25,6 +25,7 @@ application(cecilia.desktop) \
 cecilia \
 python3.10dist(cecilia) \
 python3dist(cecilia)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-numpy \

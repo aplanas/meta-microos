@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(fleming) \
 python311-fleming \
 python3dist(fleming)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-python-dateutil \
 python311-pytz"

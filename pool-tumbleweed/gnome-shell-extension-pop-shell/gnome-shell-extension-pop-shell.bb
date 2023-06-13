@@ -25,6 +25,7 @@ RPM_HASH = "e4517c1ebdb49f84c895b81c81f83a184f2cc013eae3b4d8bec77aa2568d1cc46006
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-pop-shell"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnome-shell \
 typelib(Clutter) \

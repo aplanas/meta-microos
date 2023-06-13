@@ -9,6 +9,7 @@ RPM_HASH = "bf14efeb1d9666c23dfe24546f045133409b74d651d4a5846ed2a4ae929b697b5ff4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "luaposix-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

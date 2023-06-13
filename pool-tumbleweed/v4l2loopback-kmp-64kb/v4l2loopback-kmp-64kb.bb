@@ -16,6 +16,7 @@ v4l2loopback-kmp \
 v4l2loopback-kmp-64kb \
 v4l2loopback-kmp-64kb(aarch-64) \
 v4l2loopback-kmp-64kb-k6.3.4_1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

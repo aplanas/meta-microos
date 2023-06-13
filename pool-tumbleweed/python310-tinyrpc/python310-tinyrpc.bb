@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-tinyrpc \
 python3.10dist(tinyrpc) \
 python310-tinyrpc \
 python3dist(tinyrpc)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

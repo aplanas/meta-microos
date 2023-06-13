@@ -11,6 +11,7 @@ RPM_HASH = "c49b40f2130b0ab7dea4b9e0bf83202af78bbd0736d14a692dc65efc369af49fba58
 
 RPROVIDES:${PN} += "inkscape-extensions-gimp \
 inkscape-extensions-gimp(aarch-64)"
+
 RDEPENDS:${PN} += "gimp \
 inkscape \
 inkscape-extensions-extra"

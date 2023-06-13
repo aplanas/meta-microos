@@ -12,6 +12,7 @@ RPM_HASH = "eb6de48f24f6715137e3b8386d8ea1ae07be791eccdeac65b505dad43a4509f5e90a
 
 RPROVIDES:${PN} += "hfsutils \
 hfsutils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

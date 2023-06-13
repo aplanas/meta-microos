@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "folder-color-common \
 python3.10dist(folder-color-common) \
 python3dist(folder-color-common)"
+
 RDEPENDS:${PN} += "gtk3-tools \
 gvfs"
 

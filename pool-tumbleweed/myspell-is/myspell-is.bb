@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:is) \
 myspell-dictionary \
 myspell-icelandic \
 myspell-is"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

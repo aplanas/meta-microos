@@ -9,6 +9,7 @@ RPM_HASH = "52833f4a8baed429da9689847ca615f149a0005d79d02b4ef7f8ee083592a8546925
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calligra-doc"
+
 RDEPENDS:${PN} += "calligra"
 
 inherit rpm

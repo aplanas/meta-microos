@@ -13,6 +13,7 @@ RPM_HASH = "39dbcda1af9b54c5a3fb3fa9758326a0a4b464c0ffb8dd27c936facc955f94103240
 
 RPROVIDES:${PN} += "rtla \
 rtla(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

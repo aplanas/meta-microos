@@ -13,6 +13,7 @@ RPM_HASH = "9128580fd23e1dbd3363df0c70d1a70c583ac1aefa908d5d8142fb35b55ce61d32fd
 
 RPROVIDES:${PN} += "xf86-video-savage \
 xf86-video-savage(aarch-64)"
+
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

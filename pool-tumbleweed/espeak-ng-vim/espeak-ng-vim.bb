@@ -9,6 +9,7 @@ RPM_HASH = "1a9470fc6542095f2feb7c0c8c87fbaf43ebee33ca263fdfd5e15c2217af1fe1c587
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "espeak-ng-vim"
+
 RDEPENDS:${PN} += "espeak-ng"
 
 inherit rpm

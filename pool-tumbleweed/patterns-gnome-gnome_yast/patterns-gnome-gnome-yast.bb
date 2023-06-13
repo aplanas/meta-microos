@@ -15,6 +15,7 @@ pattern-order() \
 patterns-gnome-gnome_yast \
 patterns-gnome-gnome_yast(aarch-64) \
 patterns-openSUSE-gnome_yast"
+
 RDEPENDS:${PN} += "libyui-qt-pkg \
 yast2-control-center-qt"
 

@@ -19,6 +19,7 @@ RPM_HASH = "c5f1979355cb8998b0068e3c691df561dcf44cf68575f8d88500bf7774684663eda7
 
 RPROVIDES:${PN} += "dSFMT-devel \
 dSFMT-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdSFMT2_2"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "1e36bd0ff0d9fe72825c20c750a27611d3afb952c11c00348d85a422bc752df4e515
 
 RPROVIDES:${PN} += "yast2-schema \
 yast2-schema(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

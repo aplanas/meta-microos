@@ -10,6 +10,7 @@ RPM_HASH = "f8c10b0c3113200caa6df2d0a86fe6423c0493661150525042ae2a2a303377fe9c31
 RPROVIDES:${PN} += "ghc-socks \
 ghc-socks(aarch-64) \
 libHSsocks-0.6.1-CAd82jbrmKj2bUx8fkWhGg-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbasement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S-ghc9.4.5.so()(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libyui-ncurses-rest-api \
 libyui-ncurses-rest-api.so.16()(64bit) \
 libyui-ncurses-rest-api16 \
 libyui-ncurses-rest-api16(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

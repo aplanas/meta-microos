@@ -10,6 +10,7 @@ RPM_HASH = "3eb27884f75d4878dbca07473414f0807f0bf46a9b59464063a6fab55a5deed54b29
 
 RPROVIDES:${PN} += "mozc-gui-tools \
 mozc-gui-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

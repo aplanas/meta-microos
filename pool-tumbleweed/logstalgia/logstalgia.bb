@@ -15,6 +15,7 @@ RPM_HASH = "da9b9238f4a700849e878d62198c5177f6edda5ae2c6aa328671f66e517bc4aa52f6
 
 RPROVIDES:${PN} += "logstalgia \
 logstalgia(aarch-64)"
+
 RDEPENDS:${PN} += "freefont \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

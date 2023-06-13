@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dpfloat.sty) \
 texlive-dpfloat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

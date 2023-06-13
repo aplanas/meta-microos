@@ -13,6 +13,7 @@ application(org.opensuse.yast.Proxy.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.Proxy.metainfo.xml) \
 yast2-proxy"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-ruby-bindings"
 

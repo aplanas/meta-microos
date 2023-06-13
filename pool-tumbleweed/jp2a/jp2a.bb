@@ -9,6 +9,7 @@ RPM_HASH = "f1431b6ad07f4284856e5a7ad4a3e33942186531218cc1abd74f906b3dc390f9b6ab
 
 RPROVIDES:${PN} += "jp2a \
 jp2a(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

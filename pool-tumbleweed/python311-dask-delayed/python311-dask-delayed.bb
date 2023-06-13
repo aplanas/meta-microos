@@ -20,6 +20,7 @@ RPM_HASH = "8e72fbb9130b7f2dec962241a0ad02996b9b7bda6f065cef238519bb534a64cccacb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-dask-delayed"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-dask"
 

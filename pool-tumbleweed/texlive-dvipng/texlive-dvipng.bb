@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(dvigif.1) \
 man(dvipng.1) \
 texlive-dvipng"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

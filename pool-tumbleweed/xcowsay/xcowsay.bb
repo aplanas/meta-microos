@@ -27,6 +27,7 @@ application(xcowhelp.desktop) \
 application(xcowsay.desktop) \
 xcowsay \
 xcowsay(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 fortune \

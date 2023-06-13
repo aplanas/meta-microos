@@ -9,6 +9,7 @@ RPM_HASH = "b75bcaaa1d10174d7532f4b9d25bfe7ae1fc20b1d168d12c81978d93e598a2d048b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hulipsum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

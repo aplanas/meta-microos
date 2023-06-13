@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-nxapi-plumbing \
 python3.10dist(nxapi-plumbing) \
 python310-nxapi-plumbing \
 python3dist(nxapi-plumbing)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future \
 python310-lxml \

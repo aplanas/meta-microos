@@ -12,6 +12,7 @@ RPM_HASH = "b5240b6c362dcf33c8a2e865c339bd2c353bb0206132234dc0f9e2ce6a55aa5b24b7
 
 RPROVIDES:${PN} += "dm-zoned-tools \
 dm-zoned-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \

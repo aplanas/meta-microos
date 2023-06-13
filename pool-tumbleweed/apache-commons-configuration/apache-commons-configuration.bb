@@ -24,6 +24,7 @@ mvn(commons-configuration:commons-configuration:pom:) \
 mvn(org.apache.commons:commons-configuration) \
 mvn(org.apache.commons:commons-configuration:pom:) \
 osgi(org.apache.commons.commons-configuration)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-lang:commons-lang) \

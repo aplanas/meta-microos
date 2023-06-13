@@ -9,6 +9,7 @@ RPM_HASH = "879c5991cf1280b600bc69b0f264d201669883bfc2e136d2580e8d95548e579e0cf4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jumplines-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

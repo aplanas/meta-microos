@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(pygraphviz) \
 python39-pygraphviz \
 python39-pygraphviz(aarch-64) \
 python3dist(pygraphviz)"
+
 RDEPENDS:${PN} += "graphviz \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

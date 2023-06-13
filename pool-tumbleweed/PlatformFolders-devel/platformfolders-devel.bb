@@ -14,6 +14,7 @@ RPM_HASH = "a31db32401ce8cd431f5035a703b52c01dbe3171b700b82615a0a66fb8b5a19c4519
 RPROVIDES:${PN} += "PlatformFolders-devel \
 PlatformFolders-devel(aarch-64) \
 cmake(platform_folders)"
+
 RDEPENDS:${PN} += "PlatformFolders"
 
 inherit rpm

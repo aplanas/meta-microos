@@ -14,6 +14,7 @@ RPM_HASH = "613fd042b850ed6ab991e786c8e8f41dfa1191acbb9d65670c1f4476cb135f096476
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cronic"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

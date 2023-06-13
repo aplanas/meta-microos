@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(amscdx.sty) \
 texlive-amscdx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

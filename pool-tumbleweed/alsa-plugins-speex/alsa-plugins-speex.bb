@@ -11,6 +11,7 @@ RPM_HASH = "b97ccf10e34d2d3315b296dae71f514287dd98ae9c774e2051d326f188fc63a3519a
 RPROVIDES:${PN} += "alsa-plugins-speex \
 alsa-plugins-speex(aarch-64) \
 libasound_module_pcm_speex.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

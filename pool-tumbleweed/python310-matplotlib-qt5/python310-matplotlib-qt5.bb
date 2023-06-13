@@ -13,6 +13,7 @@ python3-matplotlib-qt5 \
 python310-matplotlib-qt-shared \
 python310-matplotlib-qt5 \
 python310-matplotlib-qt5(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib \
 python310-qt5"

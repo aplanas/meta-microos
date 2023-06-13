@@ -9,6 +9,7 @@ RPM_HASH = "c13289909f33691934d903abea9ce7c3ff8eecd2ee74fe9f23227bf559bc56910ec1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-greenlet-devel"
+
 RDEPENDS:${PN} += "python39-greenlet"
 
 inherit rpm

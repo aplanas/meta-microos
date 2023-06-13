@@ -25,6 +25,7 @@ python3.10dist(healpy) \
 python310-healpy \
 python310-healpy(aarch-64) \
 python3dist(healpy)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

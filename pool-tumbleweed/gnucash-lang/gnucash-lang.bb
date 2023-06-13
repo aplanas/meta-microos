@@ -62,6 +62,7 @@ locale(gnucash:uk) \
 locale(gnucash:vi) \
 locale(gnucash:zh_CN) \
 locale(gnucash:zh_TW)"
+
 RDEPENDS:${PN} += "gnucash"
 
 inherit rpm

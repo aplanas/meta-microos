@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(tftp) \
 system-user-tftp \
 user(tftp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

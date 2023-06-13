@@ -45,6 +45,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Iterator) \
 perl-Iterator"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Exception::Class)"
 

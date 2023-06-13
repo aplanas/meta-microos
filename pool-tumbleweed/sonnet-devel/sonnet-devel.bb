@@ -12,6 +12,7 @@ RPM_HASH = "7088c316e3765cef9aeb463864667edb4d4bba4c8e6269fbe8ff6db0adfae53fb74b
 RPROVIDES:${PN} += "cmake(KF5Sonnet) \
 sonnet-devel \
 sonnet-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 extra-cmake-modules \
 ld-linux-aarch64.so.1()(64bit) \

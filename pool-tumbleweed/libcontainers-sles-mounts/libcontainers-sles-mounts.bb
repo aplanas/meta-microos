@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(libcontainers-sles-mounts) \
 libcontainers-sles-mounts"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

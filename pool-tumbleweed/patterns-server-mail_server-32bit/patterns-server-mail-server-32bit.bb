@@ -10,6 +10,7 @@ RPM_HASH = "2800a4ec8de228bc4d7b672ae127d55a45703c28203fe8dbee6591df057964e58cfe
 RPROVIDES:${PN} += "pattern() \
 patterns-server-mail_server-32bit \
 patterns-server-mail_server-32bit(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

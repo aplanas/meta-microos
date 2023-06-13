@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(semproc.cls) \
 texlive-semproc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-ai-nspkg) \
 python311-azure-ai-nspkg \
 python3dist(azure-ai-nspkg)"
+
 RDEPENDS:${PN} += "python311-azure-nspkg"
 
 inherit rpm

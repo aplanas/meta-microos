@@ -75,6 +75,7 @@ locale(gnome-color-manager:vi) \
 locale(gnome-color-manager:zh_CN) \
 locale(gnome-color-manager:zh_HK) \
 locale(gnome-color-manager:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-color-manager"
 
 inherit rpm

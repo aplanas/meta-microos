@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pypandoc \
 python3.10dist(pypandoc) \
 python310-pypandoc \
 python3dist(pypandoc)"
+
 RDEPENDS:${PN} += "pandoc \
 python(abi) \
 python310-pip \

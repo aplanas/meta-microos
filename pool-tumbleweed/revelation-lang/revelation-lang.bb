@@ -27,6 +27,7 @@ locale(revelation:uk) \
 locale(revelation:zh) \
 revelation-lang \
 revelation-lang-all"
+
 RDEPENDS:${PN} += "revelation"
 
 inherit rpm

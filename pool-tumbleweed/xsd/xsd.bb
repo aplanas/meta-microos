@@ -15,6 +15,7 @@ RPM_HASH = "2edfef22c9485530c40a45378ed2395e33c70059393378e2662faeb2a02eabf1d5d9
 
 RPROVIDES:${PN} += "xsd \
 xsd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

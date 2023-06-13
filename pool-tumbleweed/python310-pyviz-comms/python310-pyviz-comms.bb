@@ -16,6 +16,7 @@ python3.10dist(pyviz-comms) \
 python310-pyviz-comms \
 python310-pyviz_comms \
 python3dist(pyviz-comms)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-param"
 

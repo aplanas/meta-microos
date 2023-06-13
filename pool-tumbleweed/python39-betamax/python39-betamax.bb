@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(betamax) \
 python39-betamax \
 python3dist(betamax)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

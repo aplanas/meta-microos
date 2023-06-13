@@ -11,6 +11,7 @@ RPM_HASH = "65141c1e038f2e1e50aa75e52ab94dfcc0352d6d6e41c05846d2555b6832265ccb83
 RPROVIDES:${PN} += "libPocoActiveRecord.so.92()(64bit) \
 libPocoActiveRecord92 \
 libPocoActiveRecord92(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

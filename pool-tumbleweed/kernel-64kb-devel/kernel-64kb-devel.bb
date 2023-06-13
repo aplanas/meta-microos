@@ -16,6 +16,7 @@ RPM_HASH = "704c5a97c9a78772b934490cfd4305444727cb703244fa0704effe048220b525cb84
 RPROVIDES:${PN} += "kernel-64kb-devel \
 kernel-64kb-devel(aarch-64) \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 dwarves \

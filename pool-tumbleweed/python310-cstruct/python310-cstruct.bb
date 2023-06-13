@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-cstruct \
 python3.10dist(cstruct) \
 python310-cstruct \
 python3dist(cstruct)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

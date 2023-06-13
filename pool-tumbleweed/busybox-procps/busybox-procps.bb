@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/bin/ps \
 busybox-procps"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

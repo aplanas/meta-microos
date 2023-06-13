@@ -10,6 +10,7 @@ RPM_HASH = "cff4e1c379216bbc0fab96b4c781a68aa00da1e95187869d3864b73974172a997c7f
 
 RPROVIDES:${PN} += "hypre-mvapich2-devel \
 hypre-mvapich2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "lapack-devel \
 libHYPRE2_20_0-mvapich2 \
 superlu-devel"

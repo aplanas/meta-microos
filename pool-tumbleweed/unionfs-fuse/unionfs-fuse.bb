@@ -15,6 +15,7 @@ RPM_HASH = "9343f974581c132d176cb1ee7af334feb0f850de458227b45e5828c6fbf27609b44c
 
 RPROVIDES:${PN} += "unionfs-fuse \
 unionfs-fuse(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 libc.so.6(GLIBC_2.34)(64bit) \
 libfuse.so.2()(64bit) \

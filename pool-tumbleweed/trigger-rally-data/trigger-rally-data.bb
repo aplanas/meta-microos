@@ -12,6 +12,7 @@ RPM_HASH = "a6eec1ade47a6615aa4dfeff129b4ac88b987d06edae07b62fbee1486233b100354f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "trigger-rally-data"
+
 RDEPENDS:${PN} += "trigger-rally"
 
 inherit rpm

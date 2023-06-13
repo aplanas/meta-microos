@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(matc3mem.cls) \
 texlive-matc3mem"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

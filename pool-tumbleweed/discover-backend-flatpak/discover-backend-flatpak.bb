@@ -17,6 +17,7 @@ metainfo(org.kde.discover.flatpak.appdata.xml) \
 mimehandler(application/vnd.flatpak) \
 mimehandler(application/vnd.flatpak.ref) \
 mimehandler(application/vnd.flatpak.repo)"
+
 RDEPENDS:${PN} += "discover \
 flatpak \
 ld-linux-aarch64.so.1()(64bit) \

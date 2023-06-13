@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-click-completion \
 python3.10dist(click-completion) \
 python310-click-completion \
 python3dist(click-completion)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-click \

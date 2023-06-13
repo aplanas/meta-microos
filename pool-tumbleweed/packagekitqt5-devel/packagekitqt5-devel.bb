@@ -17,6 +17,7 @@ cmake(packagekitqt5) \
 packagekitqt5-devel \
 packagekitqt5-devel(aarch-64) \
 pkgconfig(packagekitqt5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpackagekitqt5-1 \
 pkgconfig(Qt5Core) \

@@ -9,6 +9,7 @@ RPM_HASH = "5106dca05010fc8d413e6f00d403cd35ef2f7903f49ecf7c5b69716b3c5293c64b5c
 
 RPROVIDES:${PN} += "graphviz-gvedit \
 graphviz-gvedit(aarch-64)"
+
 RDEPENDS:${PN} += "graphviz \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(gio-branding-upstream) \
 gio-branding \
 gio-branding-upstream \
 glib2-branding-upstream"
+
 RDEPENDS:${PN} += "libgio-2_0-0"
 
 inherit rpm

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cmap.sty) \
 texlive-cmap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

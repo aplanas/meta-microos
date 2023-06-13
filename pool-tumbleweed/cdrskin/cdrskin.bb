@@ -10,6 +10,7 @@ RPM_HASH = "270cfd245039778f13f225811870a7e4b271df66f50d928b267c09af9ecf7673ecf5
 
 RPROVIDES:${PN} += "cdrskin \
 cdrskin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libburn.so.4()(64bit) \

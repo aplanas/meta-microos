@@ -10,6 +10,7 @@ RPM_HASH = "c1dccd20b33efc4c64a3c32bc9977fa55dcf3b45821e24131c5e163bafe7e9c88fd3
 RPROVIDES:${PN} += "libykpiv.so.2()(64bit) \
 libykpiv2 \
 libykpiv2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

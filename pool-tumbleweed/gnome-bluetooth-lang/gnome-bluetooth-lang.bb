@@ -86,6 +86,7 @@ locale(gnome-bluetooth:vi) \
 locale(gnome-bluetooth:zh_CN) \
 locale(gnome-bluetooth:zh_HK) \
 locale(gnome-bluetooth:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-bluetooth"
 
 inherit rpm

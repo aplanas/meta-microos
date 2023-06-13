@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(erdc.cls) \
 texlive-erdc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

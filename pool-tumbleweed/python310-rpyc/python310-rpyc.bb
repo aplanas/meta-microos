@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-rpyc \
 python3.10dist(rpyc) \
 python310-rpyc \
 python3dist(rpyc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

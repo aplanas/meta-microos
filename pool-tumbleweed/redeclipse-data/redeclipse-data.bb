@@ -9,6 +9,7 @@ RPM_HASH = "7c5051e0287cbd8396540850ca572c8c863d6d23bb84b88b5d86a30bf859a1e1c87a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "redeclipse-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

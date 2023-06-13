@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-augeas) \
 python39-augeas \
 python3dist(python-augeas)"
+
 RDEPENDS:${PN} += "augeas \
 augeas-lenses \
 python(abi)"

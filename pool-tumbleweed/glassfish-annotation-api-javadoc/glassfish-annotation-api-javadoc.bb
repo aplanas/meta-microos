@@ -9,6 +9,7 @@ RPM_HASH = "23d547e7eb7a57aa7e23787ad48d8e6012deaaf46e48a43ce3460a93046aa568ccb3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-annotation-api-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

@@ -21,6 +21,7 @@ RPM_HASH = "4812577b71523f240e03509347f8ad64341a5211fb299ed4f8ff97c4c6e3052f89d9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eczar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

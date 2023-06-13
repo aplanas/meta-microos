@@ -12,6 +12,7 @@ RPM_HASH = "c2ef8c92f53b51c6490f0f3ff8625e5708d87efc250fd240e021ab3a39d66c6da074
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-info-collect"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-gobject \
 python3-requests \

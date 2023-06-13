@@ -14,6 +14,7 @@ RPM_HASH = "fd05c875ac3458701213120cf2f2021dbb4c2420244f34a974e456c9780943971738
 RPROVIDES:${PN} += "libacsccid.so()(64bit) \
 pcsc-acsccid \
 pcsc-acsccid(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

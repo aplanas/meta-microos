@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libaccess_jack_plugin.so()(64bit) \
 libjack_plugin.so()(64bit) \
 vlc-jack \
 vlc-jack(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(spalign.sty) \
 texlive-spalign"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

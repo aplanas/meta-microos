@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-docbytex-doc:cs) \
 texlive-docbytex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

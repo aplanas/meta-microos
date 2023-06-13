@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(thalie.sty) \
 texlive-thalie"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

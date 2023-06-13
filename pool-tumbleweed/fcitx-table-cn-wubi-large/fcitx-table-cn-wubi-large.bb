@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "fcitx-table-cn-wubi-large \
 fcitx-table-extra \
 locale(fcitx-table:zh_CN;)"
+
 RDEPENDS:${PN} += "fcitx-table"
 
 inherit rpm

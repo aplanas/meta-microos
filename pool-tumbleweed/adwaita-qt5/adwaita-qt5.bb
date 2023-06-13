@@ -10,6 +10,7 @@ RPM_HASH = "9864354d154208502b72a449e7c1c94259579264cef0c181152ccf45b9c37266ef84
 
 RPROVIDES:${PN} += "adwaita-qt5 \
 adwaita-qt5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

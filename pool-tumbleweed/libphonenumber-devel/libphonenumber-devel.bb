@@ -16,6 +16,7 @@ RPM_HASH = "efa4d3eebbe1d91e6d5f67d98afd190d67da4431a5b513de4610cf67c7dee2e793b7
 
 RPROVIDES:${PN} += "libphonenumber-devel \
 libphonenumber-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libphonenumber8 \
 pkgconfig(protobuf)"
 

@@ -35,6 +35,7 @@ postgresql-devel-implementation \
 postgresql15-devel \
 postgresql15-devel-mini \
 postgresql15-devel-mini(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

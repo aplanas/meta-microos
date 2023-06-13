@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-flit-scm \
 python3.10dist(flit-scm) \
 python310-flit-scm \
 python3dist(flit-scm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-flit-core \
 python310-setuptools_scm \

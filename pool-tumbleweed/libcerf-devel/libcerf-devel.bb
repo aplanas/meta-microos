@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(cerf) \
 libcerf-devel \
 libcerf-devel(aarch-64) \
 pkgconfig(libcerf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcerf2"
 

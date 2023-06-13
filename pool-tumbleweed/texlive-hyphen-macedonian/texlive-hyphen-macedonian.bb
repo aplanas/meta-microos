@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(hyph-mk.macedonian.tex) \
 tex(hyph-mk.tex) \
 tex(loadhyph-mk.tex) \
 texlive-hyphen-macedonian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

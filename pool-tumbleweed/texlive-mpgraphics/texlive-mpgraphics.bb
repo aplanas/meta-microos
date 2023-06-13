@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mpgraphics.sty) \
 texlive-mpgraphics"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pytest-benchmark \
 python3.10dist(pytest-benchmark) \
 python310-pytest-benchmark \
 python3dist(pytest-benchmark)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

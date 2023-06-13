@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt53DLogic) \
 libQt53DLogic-devel \
 libQt53DLogic-devel(aarch-64) \
 pkgconfig(Qt53DLogic)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt53DLogic5 \
 pkgconfig(Qt53DCore) \

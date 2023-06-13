@@ -13,6 +13,7 @@ RPM_HASH = "de00bd2e919ec785734b6278f4b04d18f4cb5e34d1e67b4c94ee291cf75f7c3bef3b
 
 RPROVIDES:${PN} += "scalpel \
 scalpel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

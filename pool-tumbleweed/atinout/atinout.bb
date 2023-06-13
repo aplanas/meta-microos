@@ -18,6 +18,7 @@ RPM_HASH = "31a0e15fbc071688e456eae905a05638495733564858d430c0fd447792014d60f49a
 
 RPROVIDES:${PN} += "atinout \
 atinout(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

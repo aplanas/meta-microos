@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5TextToSpeech) \
 libqt5-qtspeech-devel \
 libqt5-qtspeech-devel(aarch-64) \
 pkgconfig(Qt5TextToSpeech)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5TextToSpeech5 \
 pkgconfig(Qt5Core)"

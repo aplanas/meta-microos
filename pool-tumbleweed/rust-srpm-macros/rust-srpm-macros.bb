@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "rpm_macro(crates_source) \
 rpm_macro(rust_arches) \
 rpm_macro(version_no_tilde) \
 rust-srpm-macros"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sparse) \
 python39-sparse \
 python3dist(sparse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numba \
 python39-numpy \

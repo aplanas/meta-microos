@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-core-tracing-opentelemetry) \
 python39-azure-core-tracing-opentelemetry \
 python3dist(azure-core-tracing-opentelemetry)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-core \
 python39-azure-nspkg \

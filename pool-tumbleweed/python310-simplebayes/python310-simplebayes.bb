@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-simplebayes \
 python3.10dist(simplebayes) \
 python310-simplebayes \
 python3dist(simplebayes)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

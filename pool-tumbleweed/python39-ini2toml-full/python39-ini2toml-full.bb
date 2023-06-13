@@ -9,6 +9,7 @@ RPM_HASH = "461e0e4e99d8dc7e940f18b1cbbde94ad69441d8c3b8f14b1c7baa17b2ff0622fb99
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-ini2toml-full"
+
 RDEPENDS:${PN} += "(python39-configupdater >= 3.0.1 with python39-configupdater < 4) \
 (python39-tomlkit >= 0.10 with python39-tomlkit < 2) \
 python39-ini2toml"

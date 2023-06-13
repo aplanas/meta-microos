@@ -9,6 +9,7 @@ RPM_HASH = "0c67b654d69a244931f1904eaa0d5411790a94b9b8b625a3b0a12c7422e3c3a82f56
 
 RPROVIDES:${PN} += "cron \
 cron(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cronie \
 permissions"

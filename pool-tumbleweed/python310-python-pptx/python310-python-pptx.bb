@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-pptx \
 python3.10dist(python-pptx) \
 python310-python-pptx \
 python3dist(python-pptx)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow \
 python310-XlsxWriter \

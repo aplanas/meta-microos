@@ -9,6 +9,7 @@ RPM_HASH = "228efe6000e080cb6c8b4e72ff77d8f22a577c92d9b868a5b393301b5cdf6c4ac052
 
 RPROVIDES:${PN} += "python3-tdb \
 python3-tdb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

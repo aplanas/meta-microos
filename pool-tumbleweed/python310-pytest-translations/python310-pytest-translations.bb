@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pytest-translations \
 python3.10dist(pytest-translations) \
 python310-pytest-translations \
 python3dist(pytest-translations)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-polib \
 python310-pyenchant"

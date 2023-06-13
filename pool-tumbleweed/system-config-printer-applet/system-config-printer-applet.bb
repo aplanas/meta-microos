@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbus(com.redhat.NewPrinterNotification) \
 system-config-printer-applet"
+
 RDEPENDS:${PN} += "/bin/sh \
 system-config-printer \
 system-config-printer-dbus-service"

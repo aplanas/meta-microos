@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3.9dist(configargparse) \
 python39-ConfigArgParse \
 python39-configargparse \
 python3dist(configargparse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyYAML \
 python39-setuptools"

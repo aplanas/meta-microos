@@ -22,6 +22,7 @@ sendmail(aarch-64) \
 sendmail-tls \
 smailcfg \
 smtp_daemon"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/fuser \
 /bin/sh \

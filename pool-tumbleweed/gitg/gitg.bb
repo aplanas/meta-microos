@@ -18,6 +18,7 @@ libfiles.so()(64bit) \
 metainfo() \
 metainfo(org.gnome.gitg.appdata.xml) \
 mimehandler(x-scheme-handler/gitg)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-deploy-plugin \
 mvn(org.apache.maven.plugins:maven-deploy-plugin) \
 mvn(org.apache.maven.plugins:maven-deploy-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

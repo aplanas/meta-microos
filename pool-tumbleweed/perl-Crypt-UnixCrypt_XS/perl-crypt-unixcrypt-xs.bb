@@ -12,6 +12,7 @@ RPM_HASH = "edf0263b7fff1172e8de0adf4d56d50a69e2d5599378781d39795e66cef9686a64f0
 RPROVIDES:${PN} += "perl(Crypt::UnixCrypt_XS) \
 perl-Crypt-UnixCrypt_XS \
 perl-Crypt-UnixCrypt_XS(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

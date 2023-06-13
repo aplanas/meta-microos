@@ -13,6 +13,7 @@ RPM_HASH = "b24f71157c743cb5238652943ed35dffc1e12fc3fb51c99b3e0d9dbfdc0517d0a6d3
 
 RPROVIDES:${PN} += "totem-plugin-gnome-dvb-daemon \
 totem-plugin-gnome-dvb-daemon(aarch-64)"
+
 RDEPENDS:${PN} += "python-gnome-dvb-daemon \
 totem \
 typelib(GLib) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(octave.sty) \
 texlive-octave"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

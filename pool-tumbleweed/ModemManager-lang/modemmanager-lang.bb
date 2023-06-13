@@ -32,6 +32,7 @@ locale(ModemManager:sv) \
 locale(ModemManager:tr) \
 locale(ModemManager:uk) \
 locale(ModemManager:zh_CN)"
+
 RDEPENDS:${PN} += "ModemManager"
 
 inherit rpm

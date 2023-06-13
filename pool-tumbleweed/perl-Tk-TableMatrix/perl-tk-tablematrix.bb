@@ -13,6 +13,7 @@ perl(Tk::TableMatrix::Spreadsheet) \
 perl(Tk::TableMatrix::SpreadsheetHideRows) \
 perl-Tk-TableMatrix \
 perl-Tk-TableMatrix(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

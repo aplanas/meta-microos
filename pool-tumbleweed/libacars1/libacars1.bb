@@ -14,6 +14,7 @@ libacars.so.1(ACARS_1.2)(64bit) \
 libacars.so.1(ACARS_1.3)(64bit) \
 libacars1 \
 libacars1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

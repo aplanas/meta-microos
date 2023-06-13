@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gauss.sty) \
 texlive-gauss"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

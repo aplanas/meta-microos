@@ -40,6 +40,7 @@ mono(policy.2.8.gtk-sharp) \
 mono(policy.2.8.pango-sharp) \
 pkgconfig(gtk-dotnet-2.0) \
 pkgconfig(gtk-sharp-2.0)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

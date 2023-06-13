@@ -34,6 +34,7 @@ tex(pdfmanagement-firstaid.sty) \
 tex(pdfmanagement-testphase.sty) \
 tex(xcolor-patches-tmp-ltx.sty) \
 texlive-pdfmanagement-testphase"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

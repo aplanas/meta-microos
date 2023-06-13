@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6LabsQmlModels) \
 pkgconfig(Qt6LabsQmlModels) \
 qt6-labsqmlmodels-devel \
 qt6-labsqmlmodels-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt6LabsQmlModels6 \
 pkgconfig(Qt6Qml) \

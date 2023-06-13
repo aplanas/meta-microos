@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyvirtualdisplay) \
 python39-PyVirtualDisplay \
 python3dist(pyvirtualdisplay)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-EasyProcess \
 xorg-x11-Xvfb"

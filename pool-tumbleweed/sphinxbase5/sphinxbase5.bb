@@ -10,6 +10,7 @@ RPM_HASH = "ded6ce571397e74868c4a58e8f2eca0943a110d6e930a56f367d9f39baff1162d0a3
 
 RPROVIDES:${PN} += "sphinxbase5 \
 sphinxbase5(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

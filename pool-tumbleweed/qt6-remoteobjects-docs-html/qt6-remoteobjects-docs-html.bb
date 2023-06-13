@@ -9,6 +9,7 @@ RPM_HASH = "c4eb9c083fa6582c82b4810afed74219be9b0a3451158958d264e172353845ce72d0
 
 RPROVIDES:${PN} += "qt6-remoteobjects-docs-html \
 qt6-remoteobjects-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

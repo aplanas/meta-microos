@@ -9,6 +9,7 @@ RPM_HASH = "7e7680f993c5c69a948c64c1598426bdfe6a60d58abafb44a694671b29ff88258e9a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-libertinus-otf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "72c53a2ccf9c583b13601e3e3a8b3de3d894d5a752df9b595dd2d5b390463a6536ca
 RPROVIDES:${PN} += "config(nfdump) \
 nfdump \
 nfdump(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

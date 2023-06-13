@@ -15,6 +15,7 @@ cmake(Qt6QWbmpPlugin) \
 cmake(Qt6QWebpPlugin) \
 qt6-imageformats-devel \
 qt6-imageformats-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Gui) \
 libtiff-devel \
 pkgconfig(libmng) \

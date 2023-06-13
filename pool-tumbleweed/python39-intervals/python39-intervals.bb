@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(intervals) \
 python39-intervals \
 python3dist(intervals)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-infinity"
 

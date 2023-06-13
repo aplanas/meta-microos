@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(knack) \
 python311-knack \
 python3dist(knack)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML \
 python311-argcomplete \

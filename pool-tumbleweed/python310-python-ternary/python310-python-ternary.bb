@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-python-ternary \
 python3.10dist(python-ternary) \
 python310-python-ternary \
 python3dist(python-ternary)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib"
 

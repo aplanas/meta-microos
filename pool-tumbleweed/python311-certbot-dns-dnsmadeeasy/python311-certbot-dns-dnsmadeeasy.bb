@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(certbot-dns-dnsmadeeasy) \
 python311-certbot-dns-dnsmadeeasy \
 python3dist(certbot-dns-dnsmadeeasy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-acme \
 python311-certbot \

@@ -20,6 +20,7 @@ RPM_HASH = "6c4983926b6d84d75925ca1ef20d493717d124a7cfd7195a0d0e792dadc08db39b96
 
 RPROVIDES:${PN} += "peg \
 peg(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

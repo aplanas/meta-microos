@@ -11,6 +11,7 @@ RPM_HASH = "694523cccba2a55fc0b7f9cc83b81a875ffb077a5b16a7200a9b36fc93c0b3f5a1e4
 RPROVIDES:${PN} += "kgamma \
 kgamma5 \
 kgamma5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigCore.so.5()(64bit) \

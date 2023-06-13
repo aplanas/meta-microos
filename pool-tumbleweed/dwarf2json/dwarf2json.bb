@@ -11,6 +11,7 @@ RPM_HASH = "a3db05a860a7618d69299f003a233eadadeb26934e070739dbcd8468d85c5a499d44
 
 RPROVIDES:${PN} += "dwarf2json \
 dwarf2json(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

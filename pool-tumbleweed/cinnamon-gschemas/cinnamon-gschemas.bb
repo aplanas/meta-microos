@@ -10,6 +10,7 @@ RPM_HASH = "f4420647de9f0faa6579b203b2196cdbec5c2da948fff86f5bea4ed4d0d295e4f863
 
 RPROVIDES:${PN} += "cinnamon-gschemas \
 cinnamon-gschemas(aarch-64)"
+
 RDEPENDS:${PN} += "cinnamon-gschemas-branding"
 
 inherit rpm

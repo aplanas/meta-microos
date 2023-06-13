@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(ptp-prep.clo) \
 tex(ptptex.cls) \
 tex(wrapft.sty) \
 texlive-ptptex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

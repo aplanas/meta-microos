@@ -9,6 +9,7 @@ RPM_HASH = "f3c5e10e7316d1323f9da79d3d81ffa92c218e337f55f95c1b258d0912e9366b365e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgfmorepages-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

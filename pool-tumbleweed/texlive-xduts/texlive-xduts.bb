@@ -18,6 +18,7 @@ tex(xdupgthesis.cls) \
 tex(xduugthesis.cls) \
 tex(xduugtp.cls) \
 texlive-xduts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

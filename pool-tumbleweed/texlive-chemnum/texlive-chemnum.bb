@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chemnum.sty) \
 texlive-chemnum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

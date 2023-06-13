@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:em-websocket) \
 rubygem(ruby:3.2.0:em-websocket:0) \
 rubygem(ruby:3.2.0:em-websocket:0.5) \
 rubygem(ruby:3.2.0:em-websocket:0.5.3)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:eventmachine) \
 rubygem(ruby:3.2.0:http_parser.rb)"

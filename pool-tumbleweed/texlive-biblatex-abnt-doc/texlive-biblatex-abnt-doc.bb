@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-biblatex-abnt-doc:pt_BR) \
 texlive-biblatex-abnt-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

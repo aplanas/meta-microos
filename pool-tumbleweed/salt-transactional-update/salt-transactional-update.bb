@@ -12,6 +12,7 @@ RPM_HASH = "20b5f5db1bbab23c492865cf4a7d008122fcbec4bc4de621904bcb0ec9483994c4ca
 RPROVIDES:${PN} += "config(salt-transactional-update) \
 salt-transactional-update \
 salt-transactional-update(aarch-64)"
+
 RDEPENDS:${PN} += "salt \
 salt-minion \
 tar"

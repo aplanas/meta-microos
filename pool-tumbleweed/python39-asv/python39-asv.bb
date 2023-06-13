@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.9dist(asv) \
 python39-asv \
 python39-asv(aarch-64) \
 python3dist(asv)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

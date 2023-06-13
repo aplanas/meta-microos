@@ -15,6 +15,7 @@ RPM_HASH = "37f951882de1276f3e9e4026ceadb988ecdad0ccefe11b3c2fc0e78c5ac43582826b
 RPROVIDES:${PN} += "libXprintAppUtil-devel \
 libXprintAppUtil-devel(aarch-64) \
 pkgconfig(xprintapputil)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXprintAppUtil1 \
 pkgconfig(x11) \

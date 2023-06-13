@@ -15,6 +15,7 @@ kdesvn(aarch-64) \
 metainfo() \
 metainfo(org.kde.kdesvn.appdata.xml) \
 mimehandler(inode/directory)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

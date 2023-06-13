@@ -10,6 +10,7 @@ RPM_HASH = "4c104dd2829010cf1d81d33278ecf700b1593aa2e0df1dcb4eda5c351ba405cfea18
 RPROVIDES:${PN} += "libhwloc.so.15()(64bit) \
 libhwloc15 \
 libhwloc15(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 hwloc-data \
 ld-linux-aarch64.so.1()(64bit) \

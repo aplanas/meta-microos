@@ -36,6 +36,7 @@ locale(galculator:tr) \
 locale(galculator:uk) \
 locale(galculator:zh_CN) \
 locale(galculator:zh_TW)"
+
 RDEPENDS:${PN} += "galculator"
 
 inherit rpm

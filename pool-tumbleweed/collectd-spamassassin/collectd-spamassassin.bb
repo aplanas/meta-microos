@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "collectd-spamassassin \
 config(collectd-spamassassin) \
 perl(Mail::SpamAssassin::Plugin::Collectd)"
+
 RDEPENDS:${PN} += "collectd \
 perl-spamassassin"
 

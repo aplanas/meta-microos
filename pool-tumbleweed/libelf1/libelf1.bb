@@ -20,6 +20,7 @@ libelf.so.1(ELFUTILS_1.6)(64bit) \
 libelf.so.1(ELFUTILS_1.7)(64bit) \
 libelf1 \
 libelf1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

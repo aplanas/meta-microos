@@ -12,6 +12,7 @@ RPM_HASH = "d123ff55ca32dc3150d2119ee5125eabd07254d20f6bd9cbdf060472c1810a5837a7
 
 RPROVIDES:${PN} += "plplot-driver-svg \
 plplot-driver-svg(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

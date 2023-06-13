@@ -12,6 +12,7 @@ RPM_HASH = "986efff8f1b2cb39c59453dc56c71e42c66bd486a7833d411e64223e93b67bff3cb2
 RPROVIDES:${PN} += "libldb-devel \
 libldb-devel(aarch-64) \
 pkgconfig(ldb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libldb2 \
 pkgconf-pkg-config \

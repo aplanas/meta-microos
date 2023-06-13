@@ -37,6 +37,7 @@ firmware(atmel_at76c505-rfmd2958.bin) \
 firmware(atmel_at76c505a-rfmd2958.bin) \
 firmware(atmel_at76c506-wpa.bin) \
 firmware(atmel_at76c506.bin)"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

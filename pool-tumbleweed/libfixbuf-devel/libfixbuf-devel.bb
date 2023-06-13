@@ -15,6 +15,7 @@ RPM_HASH = "7a1aaa14f1c42dbcc31248f099cf75f229cb8955cb3531135717f9f4f72e40e4a59d
 RPROVIDES:${PN} += "libfixbuf-devel \
 libfixbuf-devel(aarch-64) \
 pkgconfig(libfixbuf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfixbuf9 \
 pkgconfig(glib-2.0)"

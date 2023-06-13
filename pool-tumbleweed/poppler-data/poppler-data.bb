@@ -12,6 +12,7 @@ RPM_HASH = "c1da22af324ece3bacc094bf074ff9138ba6b09f7bef45530c3a44664a1e2cf17d41
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "poppler-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

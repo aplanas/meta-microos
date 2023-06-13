@@ -21,6 +21,7 @@ mimehandler(application/vnd.oasis.opendocument.presentation-template) \
 mimehandler(application/vnd.openxmlformats-officedocument.presentationml.presentation) \
 mimehandler(application/vnd.openxmlformats-officedocument.presentationml.template) \
 mimehandler(application/x-kpresenter)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 calligra \
 ld-linux-aarch64.so.1()(64bit) \

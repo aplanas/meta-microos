@@ -21,6 +21,7 @@ perl(Kanku::REST::Job) \
 perl(Kanku::REST::JobComment) \
 perl(Kanku::REST::JobGroup) \
 perl(Kanku::REST::Worker)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

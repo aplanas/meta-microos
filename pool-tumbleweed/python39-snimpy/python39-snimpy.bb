@@ -30,6 +30,7 @@ RPROVIDES:${PN} += "python3.9dist(snimpy) \
 python39-snimpy \
 python39-snimpy(aarch-64) \
 python3dist(snimpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

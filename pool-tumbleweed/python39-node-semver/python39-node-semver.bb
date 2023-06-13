@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(node-semver) \
 python39-node-semver \
 python3dist(node-semver)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

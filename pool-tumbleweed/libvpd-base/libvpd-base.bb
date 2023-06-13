@@ -10,6 +10,7 @@ RPM_HASH = "0a91589961a6da5a95c3bf90494110569d770951804c04ae1910d52bf45225b1e1e7
 
 RPROVIDES:${PN} += "libvpd-base \
 libvpd-base(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

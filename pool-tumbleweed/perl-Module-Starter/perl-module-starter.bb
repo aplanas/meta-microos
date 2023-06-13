@@ -20,6 +20,7 @@ perl(Module::Starter::BuilderSet) \
 perl(Module::Starter::Plugin::Template) \
 perl(Module::Starter::Simple) \
 perl-Module-Starter"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Module::Runtime) \

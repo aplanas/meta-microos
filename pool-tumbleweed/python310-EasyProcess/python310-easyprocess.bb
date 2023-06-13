@@ -31,6 +31,7 @@ RPROVIDES:${PN} += "python3-EasyProcess \
 python3.10dist(easyprocess) \
 python310-EasyProcess \
 python3dist(easyprocess)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

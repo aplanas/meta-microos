@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.reports \
 python3.10dist(oslo.reports) \
 python3dist(oslo.reports)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-Jinja2 \
 python3-oslo.i18n \

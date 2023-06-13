@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-xetexko-doc:ko) \
 texlive-xetexko-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

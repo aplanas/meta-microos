@@ -12,6 +12,7 @@ RPM_HASH = "82cfdc457b897866cb47de1ccef29018c60ddcd891b3d72aec135e3b48e27c3ac5c1
 RPROVIDES:${PN} += "libhfst.so.53()(64bit) \
 libhfst53 \
 libhfst53(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

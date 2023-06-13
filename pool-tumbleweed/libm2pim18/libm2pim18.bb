@@ -10,6 +10,7 @@ RPM_HASH = "7900242a18515da58627702b7b04912e9ab987c7d3925659d4781044ad1ae22c5e14
 RPROVIDES:${PN} += "libm2pim.so.18()(64bit) \
 libm2pim18 \
 libm2pim18(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.33)(64bit)"
 

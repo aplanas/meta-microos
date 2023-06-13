@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:webfinger:2) \
 rubygem(ruby:3.2.0:webfinger:2.1) \
 rubygem(ruby:3.2.0:webfinger:2.1.2) \
 rubygem(webfinger)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:activesupport) \
 rubygem(ruby:3.2.0:faraday-follow_redirects) \

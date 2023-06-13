@@ -21,6 +21,7 @@ RPM_HASH = "1adf079f9362b6e4013ba5f20f5ebfcf6073aec9709f84722a29e681ca84d2723d9c
 RPROVIDES:${PN} += "liblime.so.0()(64bit) \
 liblime0 \
 liblime0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

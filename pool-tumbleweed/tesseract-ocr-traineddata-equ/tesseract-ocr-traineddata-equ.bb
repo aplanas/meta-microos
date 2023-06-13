@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-equ \
 tesseract-ocr-traineddata-math_equation"
+
 RDEPENDS:${PN} += "tesseract-ocr"
 
 inherit rpm

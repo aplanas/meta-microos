@@ -11,6 +11,7 @@ RPM_HASH = "f1a3516a9c6257c300ec08029f87292b7e4ce4dae336b43f17c0e702dcf470ae4131
 RPROVIDES:${PN} += "libxml++-devel \
 libxml++-devel(aarch-64) \
 pkgconfig(libxml++-5.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxml++-5_0-1 \
 pkgconfig(libxml-2.0)"

@@ -40,6 +40,7 @@ perl(DBIx::Class::UUIDColumns::UUIDMaker::UUID::Random) \
 perl(DBIx::Class::UUIDColumns::UUIDMaker::Win32::Guidgen) \
 perl(DBIx::Class::UUIDColumns::UUIDMaker::Win32API::GUID) \
 perl-DBIx-Class-UUIDColumns"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor::Grouped) \
 perl(DBIx::Class) \

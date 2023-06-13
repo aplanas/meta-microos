@@ -78,6 +78,7 @@ locale(libkdepim:uk) \
 locale(libkdepim:wa) \
 locale(libkdepim:zh_CN) \
 locale(libkdepim:zh_TW)"
+
 RDEPENDS:${PN} += "libkdepim"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "7773fad359335b49470e1b8c9210096503b4eaef10f78683d59f88d66326e99554a8
 RPROVIDES:${PN} += "motif-devel \
 motif-devel(aarch-64) \
 openmotif-devel"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMrm.so.4()(64bit) \

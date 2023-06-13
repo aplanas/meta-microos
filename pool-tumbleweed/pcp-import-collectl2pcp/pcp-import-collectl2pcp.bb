@@ -10,6 +10,7 @@ RPM_HASH = "ac552295b95743e7c45747c027ffe4cef0863540b302e0ceb0517b642114c47d208c
 
 RPROVIDES:${PN} += "pcp-import-collectl2pcp \
 pcp-import-collectl2pcp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

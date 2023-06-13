@@ -12,6 +12,7 @@ RPM_HASH = "5e6767cbd47b2384c9d16060bc95283d7b90961b7e2cceb55a296f09b546fba8bc17
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-zope.testbrowser-test"
+
 RDEPENDS:${PN} += "python311-WSGIProxy2 \
 python311-WebTest \
 python311-beautifulsoup4 \

@@ -9,6 +9,7 @@ RPM_HASH = "8129e6886cfdfb10a3e078b839911b1e92f44462acababbd8edc9b49dccf1a901e4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-pytoolconfig-validation"
+
 RDEPENDS:${PN} += "python311-pydantic \
 python311-pytoolconfig"
 

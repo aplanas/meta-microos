@@ -14,6 +14,7 @@ RPM_HASH = "4de8cf26c7ce42b720d5894309d9a0b34d95528cf5387ffe8ff8fac7b8e746ff6c11
 RPROVIDES:${PN} += "gcc12 \
 gcc12(aarch-64) \
 liblto_plugin.so()(64bit)"
+
 RDEPENDS:${PN} += "binutils \
 cpp12 \
 glibc-devel \

@@ -17,6 +17,7 @@ mimehandler(text/x-python) \
 python-idle \
 python-idle(aarch-64) \
 python2-idle"
+
 RDEPENDS:${PN} += "/usr/bin/python \
 /usr/bin/python2.7 \
 python-base \

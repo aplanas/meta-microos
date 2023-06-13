@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(APA7endfloat.cfg) \
 tex(apa7.cls) \
 texlive-apa7"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

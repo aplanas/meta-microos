@@ -10,6 +10,7 @@ RPM_HASH = "46a890e6fb3f8b45751b7a3cf220ff09bf06bacf2645aa65e069bf41790b0414441d
 RPROVIDES:${PN} += "gmake \
 make \
 make(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "30929263090fd9b5a11e56b3b636e7dc376db0163f4d3e27888f117d1d67bdd1ff49
 RPROVIDES:${PN} += "libusertune.so()(64bit) \
 vacuum-im-plugins-usertune \
 vacuum-im-plugins-usertune(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

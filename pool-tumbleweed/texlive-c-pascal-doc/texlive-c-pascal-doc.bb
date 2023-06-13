@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-c-pascal-doc:en;pl) \
 texlive-c-pascal-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

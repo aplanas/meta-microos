@@ -15,6 +15,7 @@ RPM_HASH = "717874facd5eb6db934251a920a781e5b85309d07aa25845fbb7c02579fdaadd5f18
 RPROVIDES:${PN} += "libfreefare-devel \
 libfreefare-devel(aarch-64) \
 pkgconfig(libfreefare)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfreefare0 \
 pkgconfig(libnfc)"

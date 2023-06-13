@@ -105,6 +105,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(centuryschoolbookl) \
 texlive-ncntrsbk-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

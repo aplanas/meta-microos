@@ -10,6 +10,7 @@ RPM_HASH = "969577164d6e3b2176a75faebaa8b0fb4c93c4a423e88143985a81bb358e7e664dfc
 RPROVIDES:${PN} += "gdk-pixbuf-xlib-devel \
 gdk-pixbuf-xlib-devel(aarch-64) \
 pkgconfig(gdk-pixbuf-xlib-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgdk_pixbuf_xlib-2_0-0 \
 pkgconfig(gdk-pixbuf-2.0) \

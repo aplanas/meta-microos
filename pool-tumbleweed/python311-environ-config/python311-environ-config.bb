@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(environ-config) \
 python311-environ-config \
 python3dist(environ-config)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-attrs"
 

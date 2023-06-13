@@ -9,6 +9,7 @@ RPM_HASH = "e6843630f7629725bef7926103794f1744fcf66a61129d67e316a4f262cad3de41c7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fetamont-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

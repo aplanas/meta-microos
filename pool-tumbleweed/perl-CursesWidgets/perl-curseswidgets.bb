@@ -22,6 +22,7 @@ perl(Curses::Widgets::ProgressBar) \
 perl(Curses::Widgets::TextField) \
 perl(Curses::Widgets::TextMemo) \
 perl-CursesWidgets"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "6053001b326eef2a820e1e13b6680767b284058fdd7ffe404416f1330f45dd544767
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qttools-private-headers-devel"
+
 RDEPENDS:${PN} += "libqt5-qttools-devel"
 
 inherit rpm

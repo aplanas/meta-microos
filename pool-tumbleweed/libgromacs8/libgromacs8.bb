@@ -13,6 +13,7 @@ RPM_HASH = "917f383caeda88caae562c1fa4d626f8f821dbed986c849bc7a92149ac9ebbdd8a59
 RPROVIDES:${PN} += "libgromacs.so.8()(64bit) \
 libgromacs8 \
 libgromacs8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

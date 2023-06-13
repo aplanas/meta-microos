@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(ipympl) \
 python39-ipympl \
 python39-jupyter_ipympl \
 python3dist(ipympl)"
+
 RDEPENDS:${PN} += "(python39-ipywidgets >= 7.6.0 with python39-ipywidgets < 9) \
 (python39-matplotlib >= 3.4.0 with python39-matplotlib < 4) \
 jupyter-matplotlib \

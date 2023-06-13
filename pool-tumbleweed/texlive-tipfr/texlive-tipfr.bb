@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tipfr.sty) \
 texlive-tipfr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

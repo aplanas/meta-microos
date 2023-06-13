@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-dock-lang \
 deepin-dock-lang-all"
+
 RDEPENDS:${PN} += "deepin-dock"
 
 inherit rpm

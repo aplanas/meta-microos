@@ -10,6 +10,7 @@ RPM_HASH = "485bdf52e5bfcfbb7f2bf633875ab9306678c10f695f06db2e4773eabd2bb5a25fac
 RPROVIDES:${PN} += "installation-images \
 installation-images-MicroOS \
 installation-images-MicroOS(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

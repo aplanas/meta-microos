@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(lazr.delegates) \
 python39-lazr.delegates \
 python3dist(lazr.delegates)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-zope.interface"
 

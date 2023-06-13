@@ -39,6 +39,7 @@ libwriteback-gstreamer.so()(64bit) \
 libwriteback-xmp.so()(64bit) \
 tracker-miners \
 tracker-miners(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

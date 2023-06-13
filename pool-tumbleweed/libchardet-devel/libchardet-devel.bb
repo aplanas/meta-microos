@@ -12,6 +12,7 @@ RPM_HASH = "446303ee2b94e7f35be4831aa7a8dda57c578867d8c8f550f0e5428eb20a340b7fca
 RPROVIDES:${PN} += "libchardet-devel \
 libchardet-devel(aarch-64) \
 pkgconfig(chardet)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libchardet1"
 

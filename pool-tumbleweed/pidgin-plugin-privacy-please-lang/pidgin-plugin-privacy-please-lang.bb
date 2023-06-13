@@ -13,6 +13,7 @@ locale(pidgin-plugin-privacy-please:pl) \
 locale(pidgin-plugin-privacy-please:ru) \
 pidgin-plugin-privacy-please-lang \
 pidgin-plugin-privacy-please-lang-all"
+
 RDEPENDS:${PN} += "pidgin-plugin-privacy-please"
 
 inherit rpm

@@ -80,6 +80,7 @@ locale(kcalc:uk) \
 locale(kcalc:wa) \
 locale(kcalc:zh_CN) \
 locale(kcalc:zh_TW)"
+
 RDEPENDS:${PN} += "kcalc"
 
 inherit rpm

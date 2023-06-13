@@ -13,6 +13,7 @@ RPM_HASH = "6037649c79e270bdf2859f1a8c6c80ea10c423ad8b32418f4d2e48a630cca41badd9
 RPROVIDES:${PN} += "libwpd-0.10.so.10()(64bit) \
 libwpd-0_10-10 \
 libwpd-0_10-10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "02e0f1426a69d1a28ab8f495c399417e4b754fd2812fe28e9d967791d2284ce48012
 
 RPROVIDES:${PN} += "ocaml-mccs \
 ocaml-mccs(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

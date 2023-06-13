@@ -14,6 +14,7 @@ RPM_HASH = "378ed4b3462e73e9747436ba83d51de5b98d588bc4d8d3e7fb054b7e869f33e2aa37
 RPROVIDES:${PN} += "elinks \
 elinks(aarch-64) \
 web_browser"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

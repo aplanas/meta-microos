@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libcgns \
 libcgns.so.4.3()(64bit) \
 libcgns4_3 \
 libcgns4_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

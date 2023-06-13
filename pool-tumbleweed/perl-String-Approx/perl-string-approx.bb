@@ -55,6 +55,7 @@ RPM_HASH = "d0c0d2661f38bfca6ab34d3319c71e94e3d36dd9b71bf59ef744b05383cae446d018
 RPROVIDES:${PN} += "perl(String::Approx) \
 perl-String-Approx \
 perl-String-Approx(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

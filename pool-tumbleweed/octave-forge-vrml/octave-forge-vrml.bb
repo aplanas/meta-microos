@@ -10,6 +10,7 @@ RPM_HASH = "0434fa43882e22d6d4f119a8d95a609f166b7a07a059625a6c9879934b604c4319f1
 
 RPROVIDES:${PN} += "octave-forge-vrml \
 octave-forge-vrml(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 octave-cli \
 octave-forge-linear-algebra \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(clock.sty) \
 tex(clock.tex) \
 tex(clock.tfm) \
 texlive-clock"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

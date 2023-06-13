@@ -29,6 +29,7 @@ tex(lstlang2.sty) \
 tex(lstlang3.sty) \
 tex(lstmisc.sty) \
 texlive-listings"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

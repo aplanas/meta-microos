@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(info2html) \
 inf2htm \
 info2html"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

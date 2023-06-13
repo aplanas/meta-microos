@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(twitter.common.finagle-thrift) \
 python39-twitter.common.finagle-thrift \
 python39-twitter.common.finagle-thrift(aarch-64) \
 python3dist(twitter.common.finagle-thrift)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

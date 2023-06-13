@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aspy.yaml) \
 python39-aspy.yaml \
 python3dist(aspy.yaml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyYAML"
 

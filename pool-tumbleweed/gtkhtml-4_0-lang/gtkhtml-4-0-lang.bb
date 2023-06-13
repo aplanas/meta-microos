@@ -87,6 +87,7 @@ locale(gtkhtml-4_0:vi) \
 locale(gtkhtml-4_0:zh_CN) \
 locale(gtkhtml-4_0:zh_HK) \
 locale(gtkhtml-4_0:zh_TW)"
+
 RDEPENDS:${PN} += "gtkhtml-4_0"
 
 inherit rpm

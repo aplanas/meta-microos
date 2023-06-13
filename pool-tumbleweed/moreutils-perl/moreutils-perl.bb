@@ -20,6 +20,7 @@ moreutils:/usr/bin/combine \
 moreutils:/usr/bin/vidir \
 moreutils:/usr/bin/vipe \
 moreutils:/usr/bin/zrun"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(File::Basename) \
 perl(File::Path) \

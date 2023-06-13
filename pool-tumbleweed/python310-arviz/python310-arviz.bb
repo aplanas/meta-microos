@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-arviz \
 python3.10dist(arviz) \
 python310-arviz \
 python3dist(arviz)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-h5netcdf \
 python310-matplotlib \

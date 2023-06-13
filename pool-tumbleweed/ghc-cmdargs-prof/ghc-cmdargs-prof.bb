@@ -10,6 +10,7 @@ RPM_HASH = "9b63b4113252175c73141ab03e35c98a5eb09d694025b8e4561aef7dcb4ccc893bd0
 RPROVIDES:${PN} += "ghc-cmdargs-prof \
 ghc-cmdargs-prof(aarch-64) \
 ghc-prof(cmdargs-0.10.22-JxALoPeruUH3tSM40P8Mx)"
+
 RDEPENDS:${PN} += "ghc-cmdargs-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(filepath-1.4.2.2) \

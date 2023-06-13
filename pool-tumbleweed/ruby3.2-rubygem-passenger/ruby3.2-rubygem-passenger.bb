@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:passenger) \
 rubygem(ruby:3.2.0:passenger:6) \
 rubygem(ruby:3.2.0:passenger:6.0) \
 rubygem(ruby:3.2.0:passenger:6.0.17)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/node \
 /usr/bin/ruby.ruby3.2 \

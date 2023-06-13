@@ -14,6 +14,7 @@ RPM_HASH = "f37729eeb82b41ae4de73b546cba2f674c125b6042304e9f3375f9bce36969cdcfd0
 RPROVIDES:${PN} += "arj \
 arj(aarch-64) \
 config(arj)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

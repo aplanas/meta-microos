@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-base-apparmor \
 patterns-base-apparmor(aarch-64) \
 patterns-openSUSE-apparmor"
+
 RDEPENDS:${PN} += "apparmor-abstractions \
 apparmor-parser \
 apparmor-profiles \

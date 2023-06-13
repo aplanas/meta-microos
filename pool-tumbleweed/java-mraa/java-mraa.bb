@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "java-mraa \
 java-mraa(aarch-64) \
 libmraajava.so()(64bit) \
 pkgconfig(mraajava)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 javapackages-tools \
 ld-linux-aarch64.so.1()(64bit) \

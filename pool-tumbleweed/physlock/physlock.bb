@@ -19,6 +19,7 @@ RPM_HASH = "75348015115f4896959494bcfb03b8119f1a0f963490f78df7e1224c638ad899aec3
 
 RPROVIDES:${PN} += "physlock \
 physlock(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(trusted) \
 ld-linux-aarch64.so.1()(64bit) \

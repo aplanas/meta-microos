@@ -12,6 +12,7 @@ RPM_HASH = "9f6448724b1d2904930a9add25df988fc89299becec460eab039b07a381cafe25bfd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fixmath-devel"
+
 RDEPENDS:${PN} += "fixmath"
 
 inherit rpm

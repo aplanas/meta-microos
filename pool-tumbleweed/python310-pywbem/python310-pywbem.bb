@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pywbem \
 python3.10dist(pywbem) \
 python310-pywbem \
 python3dist(pywbem)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

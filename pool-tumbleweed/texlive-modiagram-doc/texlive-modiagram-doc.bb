@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-modiagram-doc:en) \
 texlive-modiagram-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

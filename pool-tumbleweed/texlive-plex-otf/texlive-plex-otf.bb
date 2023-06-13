@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(plex-otf.sty) \
 texlive-plex-otf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

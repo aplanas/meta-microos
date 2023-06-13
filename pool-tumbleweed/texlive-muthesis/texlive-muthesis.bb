@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(muthesis.cls) \
 tex(third-rep.cls) \
 texlive-muthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

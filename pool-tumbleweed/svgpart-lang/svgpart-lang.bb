@@ -70,6 +70,7 @@ locale(svgpart:zh_CN) \
 locale(svgpart:zh_TW) \
 svgpart-lang \
 svgpart-lang-all"
+
 RDEPENDS:${PN} += "svgpart"
 
 inherit rpm

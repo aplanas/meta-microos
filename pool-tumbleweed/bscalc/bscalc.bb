@@ -12,6 +12,7 @@ RPM_HASH = "64ff16f040e041d040ce447f21d1e922bad05749497c3fd4aff24d3daaa81a9efd22
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bscalc"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 libbytesize1"
 

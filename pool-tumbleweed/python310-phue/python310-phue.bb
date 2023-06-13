@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-phue \
 python3.10dist(phue) \
 python310-phue \
 python3dist(phue)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python(abi)"
 

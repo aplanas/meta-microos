@@ -11,6 +11,7 @@ RPM_HASH = "fd1873edb1eaafbcb415bd1efd4dcb0aa0934f488dd896045c14e63d71378f09b660
 RPROVIDES:${PN} += "typelib(Hinawa) \
 typelib-1_0-Hinawa-2_0 \
 typelib-1_0-Hinawa-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libhinawa.so.2()(64bit) \
 libhinawa2 \
 typelib(GLib) \

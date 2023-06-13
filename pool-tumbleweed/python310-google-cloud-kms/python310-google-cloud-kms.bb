@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-google-cloud-kms \
 python3.10dist(google-cloud-kms) \
 python310-google-cloud-kms \
 python3dist(google-cloud-kms)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-google-api-core \
 python310-grpc-google-iam-v1 \

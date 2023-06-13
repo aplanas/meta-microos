@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-yast-yast2_desktop \
 patterns-yast-yast2_desktop(aarch-64)"
+
 RDEPENDS:${PN} += "yast2-country \
 yast2-installation \
 yast2-services-manager \

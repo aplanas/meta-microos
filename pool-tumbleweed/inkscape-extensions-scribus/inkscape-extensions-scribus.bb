@@ -11,6 +11,7 @@ RPM_HASH = "85c7c9388310047638e367a5c9a821f7e8b0e8a19409876c8ce208905748541876c4
 
 RPROVIDES:${PN} += "inkscape-extensions-scribus \
 inkscape-extensions-scribus(aarch-64)"
+
 RDEPENDS:${PN} += "inkscape \
 inkscape-extensions-extra \
 scribus"

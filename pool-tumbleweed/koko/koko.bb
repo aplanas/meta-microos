@@ -74,6 +74,7 @@ mimehandler(video/x-vp9) \
 mimehandler(video/x-wmv) \
 mimehandler(video/x-xvid) \
 qt5qmlimport(org.kde.koko.0)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-whichcraft \
 python3.10dist(whichcraft) \
 python310-whichcraft \
 python3dist(whichcraft)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

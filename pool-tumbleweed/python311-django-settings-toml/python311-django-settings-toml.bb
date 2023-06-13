@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-settings-toml) \
 python311-django-settings-toml \
 python3dist(django-settings-toml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-toml"
 

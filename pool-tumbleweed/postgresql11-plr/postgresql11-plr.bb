@@ -26,6 +26,7 @@ RPM_HASH = "fbec5bd61bd4707a6fa69044428f2af3a38a760dbf5bf44f2b4c866057df96b6cc81
 RPROVIDES:${PN} += "config(postgresql11-plr) \
 postgresql11-plr \
 postgresql11-plr(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 R-base \
 ld-linux-aarch64.so.1()(64bit) \

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(prerex.sty) \
 texlive-prerex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

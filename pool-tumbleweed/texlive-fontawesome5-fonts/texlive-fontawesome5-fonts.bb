@@ -37,6 +37,7 @@ font(fontawesome5free) \
 font(fontawesome5freeregular) \
 font(fontawesome5freesolid) \
 texlive-fontawesome5-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

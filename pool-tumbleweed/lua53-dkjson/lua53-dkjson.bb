@@ -16,6 +16,7 @@ RPM_HASH = "361178343d13f64d4133d255e7d40bc259bbc040b15a28431ad408682b20e795138f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-dkjson"
+
 RDEPENDS:${PN} += "lua53 \
 lua53-lpeg"
 

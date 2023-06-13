@@ -11,6 +11,7 @@ RPM_HASH = "4e6d3499875404a099359a2bffc87e6abf49bb3dffcc218e71434acc533f5c1d6915
 RPROVIDES:${PN} += "ghc-devel(mono-traversable-1.0.15.3-IT8tyCr3vQLKgjlccagv2S) \
 ghc-mono-traversable-devel \
 ghc-mono-traversable-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

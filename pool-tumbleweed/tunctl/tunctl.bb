@@ -15,6 +15,7 @@ RPM_HASH = "c3acd1c52e390f71a32e7d0d02bf1eec812a971c453bf97b1cf886028b1402d67378
 
 RPROVIDES:${PN} += "tunctl \
 tunctl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

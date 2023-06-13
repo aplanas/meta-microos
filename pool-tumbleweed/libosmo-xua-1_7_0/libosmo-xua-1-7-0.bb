@@ -12,6 +12,7 @@ RPM_HASH = "a6edde43bba93ea7797c51955a29145fee2001bbdef3c1e60b41b1720fc325e45df7
 RPROVIDES:${PN} += "libosmo-xua-1.7.0.so()(64bit) \
 libosmo-xua-1_7_0 \
 libosmo-xua-1_7_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

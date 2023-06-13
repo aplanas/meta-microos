@@ -67,6 +67,7 @@ locale(exo:vi) \
 locale(exo:zh_CN) \
 locale(exo:zh_HK) \
 locale(exo:zh_TW)"
+
 RDEPENDS:${PN} += "libexo-2-0"
 
 inherit rpm

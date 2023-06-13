@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(AnyEvent::HTTP) \
 perl-AnyEvent-HTTP"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(AnyEvent) \
 perl(common::sense)"

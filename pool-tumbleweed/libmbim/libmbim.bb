@@ -10,6 +10,7 @@ RPM_HASH = "515992797fae1cb8cb9958b81fd3d7edb4d3cc9cbfe395ece42303fa257bb4604449
 
 RPROVIDES:${PN} += "libmbim \
 libmbim(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "5f948aa6d9686dd5fda09f3ce1cb7af031c2c4455c2dcdf01e707542e1e9f4b39dc0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "subunit-filters"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python3-junitxml \
 python3-python-subunit \

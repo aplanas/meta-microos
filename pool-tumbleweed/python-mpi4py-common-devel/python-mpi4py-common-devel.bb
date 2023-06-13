@@ -16,6 +16,7 @@ python-mpi4py-common-devel(aarch-64) \
 python310-mpi4py-common-devel \
 python311-mpi4py-common-devel \
 python39-mpi4py-common-devel"
+
 RDEPENDS:${PN} += "openmpi4-devel"
 
 inherit rpm

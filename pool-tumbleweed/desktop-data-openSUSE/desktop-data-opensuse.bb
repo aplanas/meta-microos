@@ -14,6 +14,7 @@ desktop-branding \
 desktop-data \
 desktop-data-openSUSE \
 desktop-data-openSUSE-extra"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

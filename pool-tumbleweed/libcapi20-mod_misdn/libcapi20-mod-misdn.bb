@@ -10,6 +10,7 @@ RPM_HASH = "ed868061da4cd0b01869907a60a9ee084a21e50840b5f762d9e54cf352c4c674ac86
 RPROVIDES:${PN} += "lib_capi_mod_misdn.so.2()(64bit) \
 libcapi20-mod_misdn \
 libcapi20-mod_misdn(aarch-64)"
+
 RDEPENDS:${PN} += "capi4linux \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "a4a03dac92d527e067aecd4709d281f2147141c31a6dbec492a9651cb8c694d41834
 RPROVIDES:${PN} += "libqpid-proton-proactor.so.1()(64bit) \
 libqpid-proton-proactor1 \
 libqpid-proton-proactor1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libqpid-proton-core.so.10()(64bit)"

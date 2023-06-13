@@ -20,6 +20,7 @@ pkgconfig(plplot) \
 plplot \
 plplot-devel \
 plplot-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/pkg-config \

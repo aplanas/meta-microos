@@ -9,6 +9,7 @@ RPM_HASH = "c9b9d6e5ce00c6a3c7f3b365168760f31ed5900145cf793d2e906d9802aaa842eded
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-calrsfs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

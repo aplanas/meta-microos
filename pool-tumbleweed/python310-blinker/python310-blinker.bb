@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-blinker \
 python3.10dist(blinker) \
 python310-blinker \
 python3dist(blinker)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

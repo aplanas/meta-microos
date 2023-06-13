@@ -11,6 +11,7 @@ RPM_HASH = "5b4af48b992b6383698577f101f34dff06d6af5dba1adcc674de81c7588ec3253193
 RPROVIDES:${PN} += "libhubbub-devel \
 libhubbub-devel(aarch-64) \
 pkgconfig(libhubbub)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhubbub0 \
 pkgconfig(libparserutils)"

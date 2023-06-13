@@ -13,6 +13,7 @@ RPM_HASH = "16c3153745dfd9ff666c89e4a3ae415947c6285cde75c81282ff17ce46a8542d63cd
 RPROVIDES:${PN} += "cmake(KF5UnitConversion) \
 kunitconversion-devel \
 kunitconversion-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 extra-cmake-modules \
 libKF5UnitConversion5"

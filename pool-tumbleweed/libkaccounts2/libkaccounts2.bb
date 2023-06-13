@@ -12,6 +12,7 @@ RPM_HASH = "e70f74ea1501b261f82123b565155e5521e156757874cdf5d32a6aea24239cd0c1aa
 RPROVIDES:${PN} += "libkaccounts.so.2()(64bit) \
 libkaccounts2 \
 libkaccounts2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

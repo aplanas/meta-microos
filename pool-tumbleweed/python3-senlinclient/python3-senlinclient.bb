@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-senlinclient \
 python3.10dist(python-senlinclient) \
 python3dist(python-senlinclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-PrettyTable \
 python3-PyYAML \

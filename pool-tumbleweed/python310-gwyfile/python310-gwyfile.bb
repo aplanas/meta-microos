@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-gwyfile \
 python3.10dist(gwyfile) \
 python310-gwyfile \
 python3dist(gwyfile)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-six"

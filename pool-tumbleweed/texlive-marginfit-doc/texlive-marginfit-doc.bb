@@ -9,6 +9,7 @@ RPM_HASH = "619f100f9c091297671055521c40369f2f8d8d82a2fe56ae969405290872172a3682
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-marginfit-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

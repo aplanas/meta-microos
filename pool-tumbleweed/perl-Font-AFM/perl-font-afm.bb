@@ -24,6 +24,7 @@ perl(Font::Metrics::TimesBoldItalic) \
 perl(Font::Metrics::TimesItalic) \
 perl(Font::Metrics::TimesRoman) \
 perl-Font-AFM"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

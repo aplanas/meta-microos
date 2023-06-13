@@ -15,6 +15,7 @@ RPM_HASH = "155630725b97446da3b04826b8127fe9b127f24c1d199ec890a511883d6a69b03bf0
 RPROVIDES:${PN} += "libfplll.so.8()(64bit) \
 libfplll8 \
 libfplll8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

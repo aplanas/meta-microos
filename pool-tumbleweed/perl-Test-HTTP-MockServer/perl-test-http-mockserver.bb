@@ -33,6 +33,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Test::HTTP::MockServer) \
 perl(Test::HTTP::MockServer::REST) \
 perl-Test-HTTP-MockServer"
+
 RDEPENDS:${PN} += "libnss_usrfiles2 \
 netcfg \
 perl(:MODULE_COMPAT_5.36.0) \

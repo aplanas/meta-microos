@@ -9,6 +9,7 @@ RPM_HASH = "60457954720b3579c14f8943c4c06f1a8ebe9dde6d00158dd3ae08f309b1076abb26
 
 RPROVIDES:${PN} += "festival-devel \
 festival-devel(aarch-64)"
+
 RDEPENDS:${PN} += "festival"
 
 inherit rpm

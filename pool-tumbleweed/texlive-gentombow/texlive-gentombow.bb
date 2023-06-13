@@ -24,6 +24,7 @@ tex(pxgentombow.sty) \
 tex(pxpdfpages.sty) \
 tex(pxtextpos.sty) \
 texlive-gentombow"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

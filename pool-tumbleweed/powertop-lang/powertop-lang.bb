@@ -17,6 +17,7 @@ locale(powertop:es_ES) \
 locale(powertop:zh_TW) \
 powertop-lang \
 powertop-lang-all"
+
 RDEPENDS:${PN} += "powertop"
 
 inherit rpm

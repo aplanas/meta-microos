@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.11dist(pykafka) \
 python311-pykafka \
 python311-pykafka(aarch-64) \
 python3dist(pykafka)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

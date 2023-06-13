@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "liborcus-devel \
 liborcus-devel(aarch-64) \
 pkgconfig(liborcus-0.17) \
 pkgconfig(liborcus-spreadsheet-model-0.17)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liborcus-0_17-0 \
 pkgconfig(zlib)"

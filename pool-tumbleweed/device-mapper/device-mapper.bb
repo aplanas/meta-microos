@@ -9,6 +9,7 @@ RPM_HASH = "e08f4280464d8ded2eb481c32d463c091570cba0d8e08dd5986588656286a210593f
 
 RPROVIDES:${PN} += "device-mapper \
 device-mapper(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "f26b2605a5a806c8d9f9b8bd86ff5051be39f07f9b5befa3fffb8344f70c62e8fcd8
 
 RPROVIDES:${PN} += "spice-webdavd \
 spice-webdavd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

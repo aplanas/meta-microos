@@ -10,6 +10,7 @@ RPM_HASH = "2f3f36f186006937d5288fa455f45899c667f9ca7ba869c9e858da3d0471ae04fd07
 RPROVIDES:${PN} += "libgooglepinyin.so.0()(64bit) \
 libgooglepinyin0 \
 libgooglepinyin0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

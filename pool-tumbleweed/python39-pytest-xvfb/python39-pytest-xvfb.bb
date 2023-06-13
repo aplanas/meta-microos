@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-xvfb) \
 python39-pytest-xvfb \
 python3dist(pytest-xvfb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyVirtualDisplay \
 python39-pytest \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-optic.sty) \
 tex(pst-optic.tex) \
 texlive-pst-optic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

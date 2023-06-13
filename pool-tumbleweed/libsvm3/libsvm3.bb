@@ -12,6 +12,7 @@ RPM_HASH = "dee4c00c21936e597585ac16a1b80a3c94351811cbb4a6cdd49d401c024a5944dc25
 RPROVIDES:${PN} += "libsvm.so.3()(64bit) \
 libsvm3 \
 libsvm3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

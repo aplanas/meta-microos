@@ -15,6 +15,7 @@ RPM_HASH = "14b3a5effc5b197b8b10a68692a108c7cbe42d3f8a235d62efe7a1946a44a2d120eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mpcolornames"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

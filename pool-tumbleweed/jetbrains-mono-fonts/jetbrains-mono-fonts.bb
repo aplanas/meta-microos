@@ -11,6 +11,7 @@ RPM_HASH = "a2acabea9dbaa1d1055132aabc3ec039ab17259d2528576c56557275323de7ea8eaa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetbrains-mono-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

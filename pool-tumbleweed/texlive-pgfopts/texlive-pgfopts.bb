@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pgfopts.sty) \
 texlive-pgfopts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

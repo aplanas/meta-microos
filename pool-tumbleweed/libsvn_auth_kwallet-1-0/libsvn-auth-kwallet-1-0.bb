@@ -10,6 +10,7 @@ RPM_HASH = "656908019dffd3206aef616596b458edb0f863d9166504ab049fa5cabf7168c9ea37
 RPROVIDES:${PN} += "libsvn_auth_kwallet-1-0 \
 libsvn_auth_kwallet-1-0(aarch-64) \
 libsvn_auth_kwallet-1.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libKF5CoreAddons.so.5()(64bit) \
 libKF5I18n.so.5()(64bit) \

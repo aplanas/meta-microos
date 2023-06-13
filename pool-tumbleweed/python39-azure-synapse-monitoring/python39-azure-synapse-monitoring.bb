@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(azure-synapse-monitoring) \
 python39-azure-synapse \
 python39-azure-synapse-monitoring \
 python3dist(azure-synapse-monitoring)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-core \

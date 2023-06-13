@@ -17,6 +17,7 @@ RPM_HASH = "c02cef615b8ea33f2bbf85c215e217a1c88cbf05030d63dbed06160f55005ed2ea48
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "twemoji-color-font"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

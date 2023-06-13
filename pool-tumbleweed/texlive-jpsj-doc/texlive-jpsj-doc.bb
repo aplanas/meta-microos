@@ -9,6 +9,7 @@ RPM_HASH = "f7e4c0c94d2cf0d002a48e55eefb2f548150d72374ebac5994511536a1cfdad35d39
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jpsj-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

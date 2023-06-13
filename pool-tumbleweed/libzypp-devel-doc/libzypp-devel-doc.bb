@@ -9,6 +9,7 @@ RPM_HASH = "d3fa6dc0b092f771351b0c2c03ce942b0d781db9ab45c2f75ac5a422d8c930a900f4
 
 RPROVIDES:${PN} += "libzypp-devel-doc \
 libzypp-devel-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

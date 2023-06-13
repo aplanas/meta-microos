@@ -12,6 +12,7 @@ RPM_HASH = "1733a396a79499d1fbb2b5325f98965381b0299b357a257eaa36594d04788554ec9d
 RPROVIDES:${PN} += "libmtp-devel \
 libmtp-devel(aarch-64) \
 pkgconfig(libmtp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmtp9 \
 pkgconfig(libusb-1.0)"

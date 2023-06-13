@@ -10,6 +10,7 @@ RPM_HASH = "0e99e1543147bc84c85737005984b3c4e4482f337345772f6109f312986920e1b2f4
 
 RPROVIDES:${PN} += "libexe-tools \
 libexe-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

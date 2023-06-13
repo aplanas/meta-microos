@@ -13,6 +13,7 @@ python-Kivy-doc(aarch-64) \
 python310-Kivy-doc \
 python311-Kivy-doc \
 python39-Kivy-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

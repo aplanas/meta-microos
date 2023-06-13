@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-juramisc-doc:de) \
 texlive-juramisc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "058d912a597f757cf863a270489fcaabbc04db1f0a42d0cd82479fe146ba1690001b
 RPROVIDES:${PN} += "ghc-prof(sop-core-0.5.0.2-C2iIEVjE1N8Lg8Q4QDHkLe) \
 ghc-sop-core-prof \
 ghc-sop-core-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(deepseq-1.4.8.0) \
 ghc-sop-core-devel"

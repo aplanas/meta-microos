@@ -11,6 +11,7 @@ RPM_HASH = "f01dee77eafb0b83ed139138b22cca4ffa72f947f627623f2b61ab06bdc93f5f8fce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "growpart-generator"
+
 RDEPENDS:${PN} += "/bin/sh \
 growpart \
 systemd"

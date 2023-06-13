@@ -9,6 +9,7 @@ RPM_HASH = "3d39388299a8afca43ecf763c44a076b3d57cf58a8b0cc89d1e3fb599b2ea5450a5d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nimbus15-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

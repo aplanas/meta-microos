@@ -9,6 +9,7 @@ RPM_HASH = "a0775e45876d51ece6d0457a19fd2b48490a9b4697af8332b222874604c5624e72d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nevelok-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

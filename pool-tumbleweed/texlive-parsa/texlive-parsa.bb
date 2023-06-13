@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(parsa.sty) \
 texlive-parsa"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

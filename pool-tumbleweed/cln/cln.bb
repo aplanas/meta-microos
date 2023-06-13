@@ -28,6 +28,7 @@ cln(aarch-64) \
 libcln \
 libcln.so.6()(64bit) \
 pi"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

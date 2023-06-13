@@ -21,6 +21,7 @@ liboath.so.0(LIBOATH_2.2.0)(64bit) \
 liboath.so.0(LIBOATH_2.6.0)(64bit) \
 liboath0 \
 liboath0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

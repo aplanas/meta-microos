@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(funcube) \
 cmake(gnuradio-funcube) \
 libgnuradio-funcube-devel \
 libgnuradio-funcube-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgnuradio-funcube3_10_0"
 
 inherit rpm

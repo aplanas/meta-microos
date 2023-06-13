@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libdvbpsi-0-devel \
 libdvbpsi-0-devel(aarch-64) \
 libdvbpsi-devel \
 pkgconfig(libdvbpsi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdvbpsi7"
 

@@ -14,6 +14,7 @@ RPM_HASH = "9d72b02ce39443d1b0132281cffc929f8d860b85d7788dc45f2e9c6528af8c115b0d
 RPROVIDES:${PN} += "typelib(GstVulkanWayland) \
 typelib-1_0-GstVulkanWayland-1_0 \
 typelib-1_0-GstVulkanWayland-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstvulkan-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

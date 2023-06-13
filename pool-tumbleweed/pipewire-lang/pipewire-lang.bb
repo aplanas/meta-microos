@@ -62,6 +62,7 @@ locale(pipewire:zh_CN) \
 locale(pipewire:zh_TW) \
 pipewire-lang \
 pipewire-lang-all"
+
 RDEPENDS:${PN} += "pipewire"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Location) \
 pkgconfig(Qt6Location) \
 qt6-location-devel \
 qt6-location-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Network) \

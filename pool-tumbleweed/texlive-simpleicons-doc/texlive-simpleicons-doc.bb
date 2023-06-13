@@ -9,6 +9,7 @@ RPM_HASH = "d7497c12e3f95883c03e75e3fe8a21d8d3ca1dd92da5a29dfcb83abd5f0951bae8f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-simpleicons-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

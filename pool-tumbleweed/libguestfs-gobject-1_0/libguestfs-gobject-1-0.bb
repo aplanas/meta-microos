@@ -13,6 +13,7 @@ RPM_HASH = "96ddafb80b76b8043b6c70a95afc6c3f5717e6a556cba0e32f3c5be777aaa3cc355c
 RPROVIDES:${PN} += "libguestfs-gobject-1.0.so.0()(64bit) \
 libguestfs-gobject-1_0 \
 libguestfs-gobject-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

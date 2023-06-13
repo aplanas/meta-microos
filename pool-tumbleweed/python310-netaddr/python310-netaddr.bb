@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "python3-netaddr \
 python3.10dist(netaddr) \
 python310-netaddr \
 python3dist(netaddr)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

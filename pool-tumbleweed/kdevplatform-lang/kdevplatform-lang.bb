@@ -57,6 +57,7 @@ locale(kdevplatform:ug) \
 locale(kdevplatform:uk) \
 locale(kdevplatform:zh_CN) \
 locale(kdevplatform:zh_TW)"
+
 RDEPENDS:${PN} += "kdevplatform"
 
 inherit rpm

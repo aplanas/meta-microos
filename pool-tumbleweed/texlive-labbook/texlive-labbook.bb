@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(labbook.cls) \
 texlive-labbook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(shade.tex) \
 texlive-shade"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

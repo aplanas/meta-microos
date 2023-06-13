@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-djangoapp \
 python3.10dist(pytest-djangoapp) \
 python310-pytest-djangoapp \
 python3dist(pytest-djangoapp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-pytest"

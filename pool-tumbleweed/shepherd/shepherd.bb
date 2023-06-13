@@ -15,6 +15,7 @@ RPM_HASH = "1ea0d385f6cc7c00d0e065effc4b9341cb0a668629a17ce932fd9ba6027e7c2a0516
 
 RPROVIDES:${PN} += "shepherd \
 shepherd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/guile \
 libc.so.6(GLIBC_2.17)(64bit)"

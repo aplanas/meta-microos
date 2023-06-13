@@ -73,6 +73,7 @@ tex(villesItalia3d.tex) \
 tex(wfraczon.dat) \
 tex(wmaglin.dat) \
 texlive-pst-geo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

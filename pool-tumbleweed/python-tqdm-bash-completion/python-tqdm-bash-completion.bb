@@ -14,6 +14,7 @@ RPM_HASH = "c30284edc13053b35fd51cbe1b06f0e9b7af11b815ad833a690e480de5cd7ed80860
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-tqdm-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "Device-SerialPort \
 perl(Device::SerialPort) \
 perl-Device-SerialPort \
 perl-Device-SerialPort(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fourier-otf.sty) \
 texlive-erewhon-math"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

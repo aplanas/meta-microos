@@ -22,6 +22,7 @@ RPM_HASH = "e27483b570f9bb2aff8d871e4cfeff79b9df711b8edc19cb2ee8b7d47eb28862b091
 RPROVIDES:${PN} += "libclFFT.so.2()(64bit) \
 libclFFT2 \
 libclFFT2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mdit-py-plugins \
 python3.10dist(mdit-py-plugins) \
 python310-mdit-py-plugins \
 python3dist(mdit-py-plugins)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-markdown-it-py"
 

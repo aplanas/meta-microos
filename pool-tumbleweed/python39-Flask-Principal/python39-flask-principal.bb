@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flask-principal) \
 python39-Flask-Principal \
 python3dist(flask-principal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Flask \
 python39-blinker"

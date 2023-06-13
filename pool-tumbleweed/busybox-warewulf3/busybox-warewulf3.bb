@@ -10,6 +10,7 @@ RPM_HASH = "160186ae997f9a23585b67f060b5c71f84134dfaa73a45fa7d8ebdce9fa974c4e779
 
 RPROVIDES:${PN} += "busybox-warewulf3 \
 busybox-warewulf3(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:sigdump:0) \
 rubygem(ruby:3.2.0:sigdump:0.2) \
 rubygem(ruby:3.2.0:sigdump:0.2.4) \
 rubygem(sigdump)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

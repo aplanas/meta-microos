@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(zwgetfdate.sty) \
 texlive-zwgetfdate"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

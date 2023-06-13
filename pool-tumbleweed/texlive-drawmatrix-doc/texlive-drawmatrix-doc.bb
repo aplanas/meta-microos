@@ -9,6 +9,7 @@ RPM_HASH = "8885d510df9089a2d5187873ff9451f237f8c0b97fd632e5bc256488f7fbba9d7553
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-drawmatrix-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

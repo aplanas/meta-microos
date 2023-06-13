@@ -10,6 +10,7 @@ RPM_HASH = "ad466fa1c0d70bdb747b49420b2a5a4cce91cf5c085ac3825456964d403da711b3db
 RPROVIDES:${PN} += "ghc-gtk2hs-buildtools-prof \
 ghc-gtk2hs-buildtools-prof(aarch-64) \
 ghc-prof(gtk2hs-buildtools-0.13.8.3-1HEgD6xsgMLLqS6Eg0gkhE)"
+
 RDEPENDS:${PN} += "ghc-gtk2hs-buildtools-devel \
 ghc-prof(Cabal-3.8.1.0) \
 ghc-prof(array-0.5.4.0) \

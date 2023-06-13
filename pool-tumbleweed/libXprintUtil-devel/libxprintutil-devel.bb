@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libXprintUtil-devel \
 libXprintUtil-devel(aarch-64) \
 pkgconfig(xprintutil) \
 xorg-x11-libXprintUtil-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXprintUtil1 \
 pkgconfig(printproto) \

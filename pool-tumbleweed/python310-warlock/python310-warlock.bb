@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-warlock \
 python3.10dist(warlock) \
 python310-warlock \
 python3dist(warlock)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jsonpatch \
 python310-jsonschema"

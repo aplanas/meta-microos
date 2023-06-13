@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(papertex.cls) \
 texlive-papertex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

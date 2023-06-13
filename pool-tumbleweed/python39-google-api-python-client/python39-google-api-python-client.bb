@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "google-api-python-client \
 python3.9dist(google-api-python-client) \
 python39-google-api-python-client \
 python3dist(google-api-python-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-google-api-core \
 python39-google-auth \

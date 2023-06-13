@@ -126,6 +126,7 @@ libvirt.so.0(LIBVIRT_8.4.0)(64bit) \
 libvirt.so.0(LIBVIRT_8.5.0)(64bit) \
 libvirt.so.0(LIBVIRT_9.0.0)(64bit) \
 libvirt.so.0(LIBVIRT_PRIVATE_9.4.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 cyrus-sasl-digestmd5 \
 ld-linux-aarch64.so.1()(64bit) \

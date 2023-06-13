@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-versiontag \
 python3.10dist(versiontag) \
 python310-versiontag \
 python3dist(versiontag)"
+
 RDEPENDS:${PN} += "git-core \
 python(abi)"
 

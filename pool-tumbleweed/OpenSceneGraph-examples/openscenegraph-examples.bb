@@ -15,6 +15,7 @@ RPM_HASH = "0ff7e2addf0420e9cd31479a15bdf94b14d684d9a4742408c51229f31d6d38f621f5
 
 RPROVIDES:${PN} += "OpenSceneGraph-examples \
 OpenSceneGraph-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFOX-1.6.so.0()(64bit) \

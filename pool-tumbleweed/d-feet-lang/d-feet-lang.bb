@@ -41,6 +41,7 @@ locale(d-feet:sv) \
 locale(d-feet:tr) \
 locale(d-feet:uk) \
 locale(d-feet:zh_CN)"
+
 RDEPENDS:${PN} += "d-feet"
 
 inherit rpm

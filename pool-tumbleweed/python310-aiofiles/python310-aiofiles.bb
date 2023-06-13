@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aiofiles \
 python3.10dist(aiofiles) \
 python310-aiofiles \
 python3dist(aiofiles)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

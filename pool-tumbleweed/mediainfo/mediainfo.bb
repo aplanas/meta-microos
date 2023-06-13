@@ -25,6 +25,7 @@ RPM_HASH = "b256c78fdfbbb137193b7c24e0ec2b06b3293be73bc8583e34114df0703cdffc3ed9
 RPROVIDES:${PN} += "MediaInfo \
 mediainfo \
 mediainfo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "869d25ad44c2a3d6cedb6c5cb49921712572570455b1a5bf192d3afe44d4abab9a60
 RPROVIDES:${PN} += "wbxml2 \
 wbxml2-tools \
 wbxml2-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

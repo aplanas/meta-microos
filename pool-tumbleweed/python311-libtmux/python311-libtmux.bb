@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(libtmux) \
 python311-libtmux \
 python3dist(libtmux)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

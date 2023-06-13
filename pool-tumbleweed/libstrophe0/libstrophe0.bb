@@ -10,6 +10,7 @@ RPM_HASH = "f8f300c624b4946bfc0ee7bcf3bde4c49b34fb5d6893a1d1d2754051fa87046496fe
 RPROVIDES:${PN} += "libstrophe.so.0()(64bit) \
 libstrophe0 \
 libstrophe0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

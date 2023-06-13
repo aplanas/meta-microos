@@ -18,6 +18,7 @@ RPM_HASH = "820d1f735923f9a80668a8b17df1c3089773a810b897962f99f6e359d29821f9d903
 
 RPROVIDES:${PN} += "xsynth-dssi \
 xsynth-dssi(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dssi \
 ld-linux-aarch64.so.1()(64bit) \

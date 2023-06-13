@@ -11,6 +11,7 @@ RPM_HASH = "44a3bcc18a8f2c182a8ef980fd86b14d2f7c2ed3106d8e6648779616e57bc63a9979
 RPROVIDES:${PN} += "libprotobuf-nanopb.so.0()(64bit) \
 libprotobuf-nanopb0 \
 libprotobuf-nanopb0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

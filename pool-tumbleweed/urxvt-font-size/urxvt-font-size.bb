@@ -20,6 +20,7 @@ RPM_HASH = "674e262be06f1ad498716e596cb64f635dfba430d6a05f06493b2a924cca45a911a1
 
 RPROVIDES:${PN} += "urxvt-font-size \
 urxvt-font-size(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

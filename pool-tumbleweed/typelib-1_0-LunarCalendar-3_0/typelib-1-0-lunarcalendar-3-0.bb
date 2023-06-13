@@ -10,6 +10,7 @@ RPM_HASH = "cd2aee56855a4233eebbe4c45dd83947446053eaffded48a9188b02638f5113cd103
 RPROVIDES:${PN} += "typelib(LunarCalendar) \
 typelib-1_0-LunarCalendar-3_0 \
 typelib-1_0-LunarCalendar-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "liblunar-calendar-3.0.so.1()(64bit) \
 lunar-calendar \
 typelib(Atk) \

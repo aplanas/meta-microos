@@ -10,6 +10,7 @@ RPM_HASH = "61d526d1f96387b4937d564d009d7ade6af8b8b0d3ebc6eca720eec2ead8ae12d9e5
 RPROVIDES:${PN} += "config(zabbix-agent) \
 zabbix-agent \
 zabbix-agent(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

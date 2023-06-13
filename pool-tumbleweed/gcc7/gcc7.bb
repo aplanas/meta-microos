@@ -14,6 +14,7 @@ RPM_HASH = "fa3b4f8645180100de105088ba2d939e737d57ceca4326fae17fd0c42cafe7a3716a
 RPROVIDES:${PN} += "gcc7 \
 gcc7(aarch-64) \
 liblto_plugin.so.0()(64bit)"
+
 RDEPENDS:${PN} += "binutils \
 cpp7 \
 glibc-devel \

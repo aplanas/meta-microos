@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bangorexam.cls) \
 texlive-bangorexam"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

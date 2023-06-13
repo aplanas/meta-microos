@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(tikz-among-us-fancyhdr.sty) \
 tex(tikz-among-us-watermark-eso-pic.sty) \
 tex(tikz-among-us.sty) \
 texlive-tikz-among-us"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

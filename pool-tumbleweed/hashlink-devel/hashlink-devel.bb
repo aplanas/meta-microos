@@ -10,6 +10,7 @@ RPM_HASH = "eb1cf5abe44198ef5c4d81c753747e2200afb191d72404f9bb36e9cce0110cddaf90
 
 RPROVIDES:${PN} += "hashlink-devel \
 hashlink-devel(aarch-64)"
+
 RDEPENDS:${PN} += "hashlink-hdlls \
 libhl1"
 

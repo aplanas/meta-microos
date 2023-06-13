@@ -12,6 +12,7 @@ RPM_HASH = "7d4720fc744672e355b0ccd54e9f4ca0684370c7419bea0912db8cdf1a7b7f467993
 
 RPROVIDES:${PN} += "optipng \
 optipng(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
